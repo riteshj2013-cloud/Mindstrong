@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
 2:I[47257,["/Mindstrong/_next/static/chunks/061l160yippu2.js"],"ClientPageRoot"]
-3:I[71912,["/Mindstrong/_next/static/chunks/061l160yippu2.js","/Mindstrong/_next/static/chunks/08-51imhn9da3.js","/Mindstrong/_next/static/chunks/0waor6jdd-nd7.js"],"default"]
+3:I[71912,["/Mindstrong/_next/static/chunks/061l160yippu2.js","/Mindstrong/_next/static/chunks/08-51imhn9da3.js","/Mindstrong/_next/static/chunks/3tr7jpn7jor3l.js"],"default"]
 6:I[97367,["/Mindstrong/_next/static/chunks/061l160yippu2.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
 b:I[97367,["/Mindstrong/_next/static/chunks/061l160yippu2.js"],"ViewportBoundary"]
@@ -8,21 +8,67 @@ c:I[97367,["/Mindstrong/_next/static/chunks/061l160yippu2.js"],"MetadataBoundary
 d:I[27201,["/Mindstrong/_next/static/chunks/061l160yippu2.js"],"IconMark"]
 f:I[39756,["/Mindstrong/_next/static/chunks/061l160yippu2.js"],"default"]
 10:I[37457,["/Mindstrong/_next/static/chunks/061l160yippu2.js"],"default"]
-14:I[89730,["/Mindstrong/_next/static/chunks/061l160yippu2.js"],"MotionPref"]
+15:I[89730,["/Mindstrong/_next/static/chunks/061l160yippu2.js"],"MotionPref"]
 :HL["/Mindstrong/_next/static/chunks/3r0i02_mmdw7f.css","style"]
 a:X
 12:X
 12:C
-0:{"buildId":"enI_LlbhtdxO8quppztCp","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/Mindstrong/_next/static/chunks/08-51imhn9da3.js","async":true}],["$","script","script-1",{"src":"/Mindstrong/_next/static/chunks/0waor6jdd-nd7.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":"$@9","staleTime":"$a","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$Lb",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#fffaf0"}]]}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Mindstrong — Think hard. Stay brave."}],["$","meta","1",{"name":"description","content":"Daily practice (reasoning, maths, spelling) and SOF test prep for ages 6–15."}],["$","link","2",{"rel":"icon","href":"/Mindstrong/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$Ld","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":"$@e","staleTime":"$a","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lf",null,{"parallelRouterKey":"children","template":["$","$L10",null,{}]}]]}],"isPartial":"$@11","staleTime":"$a","varyParams":"$12"},{"rsc":["$","$1","c",{"children":[null,["$","$Lf",null,{"parallelRouterKey":"children","template":["$","$L10",null,{}]}]]}],"isPartial":"$@13","staleTime":"$a","varyParams":"$12"},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Mindstrong/_next/static/chunks/3r0i02_mmdw7f.css","precedence":"next"}],["$","script","script-0",{"src":"/Mindstrong/_next/static/chunks/061l160yippu2.js","async":true}]],["$","html",null,{"lang":"en","className":"nunito_22336911-module__FLPYxG__variable fredoka_5dae6085-module__-KAe2W__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full","children":[["$","$L14",null,{}],["$","div",null,{"className":"mx-auto flex min-h-dvh w-full max-w-lg flex-col px-4 pb-8 pt-4","children":["$","$Lf",null,{"parallelRouterKey":"children","template":["$","$L10",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]]}]}]]}],"isPartial":"$@15","staleTime":"$a","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@16","rootVaryParams":null,"needsRuntimeRequest":"$@17"}
+14:T631,(function(){
+  var KEY="ms-chunk-reload";
+  function reload(){
+    try{
+      var last=+sessionStorage.getItem(KEY)||0;
+      if(Date.now()-last<30000)return;
+      sessionStorage.setItem(KEY,String(Date.now()));
+    }catch(e){}
+    var u=new URL(location.href);
+    u.searchParams.set("v",String(Date.now()));
+    location.replace(u.toString());
+  }
+  function isChunkErr(r){
+    if(!r)return false;
+    var s=String((r&&(r.name+" "+r.message))||r);
+    return /ChunkLoadError|Loading (CSS )?chunk|Failed to fetch dynamically imported module|Importing a module script failed/i.test(s);
+  }
+  window.addEventListener("error",function(ev){
+    var t=ev&&ev.target;
+    if(t&&(t.tagName==="SCRIPT"||t.tagName==="LINK")){
+      var src=t.src||t.href||"";
+      if(src.indexOf("/_next/static/")!==-1)reload();
+      return;
+    }
+    if(isChunkErr(ev&&ev.error)||isChunkErr(ev&&ev.message))reload();
+  },true);
+  window.addEventListener("unhandledrejection",function(ev){
+    if(isChunkErr(ev&&ev.reason))reload();
+  });
+  window.addEventListener("load",function(){
+    // Backup: a chunk that 404'd before this listener existed.
+    try{
+      var bad=performance.getEntriesByType("resource").some(function(e){
+        return e.name.indexOf("/_next/static/")!==-1&&e.responseStatus>=400;
+      });
+      if(bad){reload();return;}
+    }catch(e){}
+    // Clean the ?v= marker once the page booted fine.
+    try{
+      var u=new URL(location.href);
+      if(u.searchParams.has("v")){u.searchParams.delete("v");history.replaceState(history.state,"",u.toString());}
+    }catch(e){}
+  });
+})();0:{"buildId":"SC29PpOSBIHp3gwxkpUxT","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/Mindstrong/_next/static/chunks/08-51imhn9da3.js","async":true}],["$","script","script-1",{"src":"/Mindstrong/_next/static/chunks/3tr7jpn7jor3l.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":"$@9","staleTime":"$a","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$Lb",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#fffaf0"}]]}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Mindstrong — Think hard. Stay brave."}],["$","meta","1",{"name":"description","content":"Daily practice (reasoning, maths, spelling) and SOF test prep for ages 6–15."}],["$","link","2",{"rel":"icon","href":"/Mindstrong/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$Ld","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":"$@e","staleTime":"$a","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lf",null,{"parallelRouterKey":"children","template":["$","$L10",null,{}]}]]}],"isPartial":"$@11","staleTime":"$a","varyParams":"$12"},{"rsc":["$","$1","c",{"children":[null,["$","$Lf",null,{"parallelRouterKey":"children","template":["$","$L10",null,{}]}]]}],"isPartial":"$@13","staleTime":"$a","varyParams":"$12"},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Mindstrong/_next/static/chunks/3r0i02_mmdw7f.css","precedence":"next"}],["$","script","script-0",{"src":"/Mindstrong/_next/static/chunks/061l160yippu2.js","async":true}]],["$","html",null,{"lang":"en","className":"nunito_22336911-module__FLPYxG__variable fredoka_5dae6085-module__-KAe2W__variable h-full antialiased","children":[["$","head",null,{"children":["$","script",null,{"id":"ms-chunk-reload","dangerouslySetInnerHTML":{"__html":"$14"}}]}],["$","body",null,{"className":"min-h-full","children":[["$","$L15",null,{}],["$","div",null,{"className":"mx-auto flex min-h-dvh w-full max-w-lg flex-col px-4 pb-8 pt-4","children":["$","$Lf",null,{"parallelRouterKey":"children","template":"$L16","notFound":[["$L17","$L18"],[]]}]}]]}]]}]]}],"isPartial":"$@19","staleTime":"$a","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@1a","rootVaryParams":null,"needsRuntimeRequest":"$@1b"}
 4:{}
 5:"$0:data:0:rsc:props:children:0:props:serverProvidedParams:params"
 8:null
+16:["$","$L10",null,{}]
+17:["$","title",null,{"children":"404: This page could not be found."}]
+18:["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]
 a:300
-17:true
+1b:true
 a:C
-16:0
+1a:0
 e:"$undefined"
 11:"$undefined"
 13:"$undefined"
-15:"$undefined"
+19:"$undefined"
 9:"$undefined"
