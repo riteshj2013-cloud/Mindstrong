@@ -2,6 +2,7 @@ import type { ChapterDef, Grade, GradeSubjectPack, PrepSubject } from "./types";
 import { g3SciencePlants } from "./content/g3-science-plants";
 import { g3ScienceAnimals } from "./content/g3-science-animals";
 import { g3ScienceSenses } from "./content/g3-science-senses";
+import { g3MathsNumbers } from "./content/g3-maths-numbers";
 import { g5MathsLargeNumbers } from "./content/g5-maths-large-numbers";
 import { g5MathsAngles } from "./content/g5-maths-angles";
 import { g5MathsFractions } from "./content/g5-maths-fractions";
@@ -552,7 +553,7 @@ function ch(
 
 const MATHS: Record<number, ChapterDef[]> = {
   3: [
-    ch("place-value", "Place Value", "🧱", "Hundreds, tens & ones", mathsPlaceValueLesson(), ["place-value", "place-value", "add-sub"], ["place-value", "add-sub"]),
+    g3MathsNumbers,
     ch("add-sub", "Add & Subtract", "➕", "Carry, borrow & check", mathsPlaceValueLesson(), ["add-sub", "add-sub", "place-value"], ["add-sub"]),
     ch("multiply", "Multiply Basics", "✖️", "Arrays & times facts", mathsPlaceValueLesson(), ["multiply-basics", "multiply-basics", "add-sub"], ["multiply-basics"]),
   ],
