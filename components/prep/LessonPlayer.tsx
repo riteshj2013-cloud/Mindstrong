@@ -6,6 +6,7 @@ import { Mascot } from "@/components/ui/Mascot";
 import type { LessonStep } from "@/lib/prep/types";
 import { LessonVisual } from "./LessonVisual";
 import { SpeakButton } from "./SpeakButton";
+import { RichText } from "@/components/ui/RichText";
 
 function speakText(step: LessonStep): string {
   if (step.speak) return step.speak;
@@ -174,9 +175,11 @@ export function LessonPlayer({
         {(step.type === "try" || step.type === "check") && (
           <div className="space-y-3">
             <h2 className="text-center text-2xl font-semibold">{step.title}</h2>
-            <p className="text-center text-lg font-bold">
-              {step.type === "try" ? step.prompt : step.question.prompt}
-            </p>
+            <RichText
+              as="p"
+              className="text-center text-lg font-bold"
+              text={step.type === "try" ? step.prompt : step.question.prompt}
+            />
             <div className="grid gap-2">
               {(step.type === "try" ? step.options : step.question.options).map((o) => {
                 const correctId = step.type === "try" ? step.answerId : step.question.answerId;
@@ -200,17 +203,21 @@ export function LessonPlayer({
                           : "border-ink/10 bg-white shadow-soft"
                     }`}
                   >
-                    {o.text}
+                    <RichText text={o.text} />
                   </button>
                 );
               })}
             </div>
             {showWhy && (
-              <p className="rounded-2xl bg-sky/15 p-3 text-sm font-semibold text-ink/80">
-                {step.type === "try"
-                  ? step.why
-                  : step.question.explanation ?? "Nice try — check the highlighted answer."}
-              </p>
+              <RichText
+                as="p"
+                className="rounded-2xl bg-sky/15 p-3 text-sm font-semibold text-ink/80"
+                text={
+                  step.type === "try"
+                    ? step.why
+                    : step.question.explanation ?? "Nice try — check the highlighted answer."
+                }
+              />
             )}
           </div>
         )}

@@ -55,7 +55,7 @@ export function FigureRenderer({
             equal={spec.equal !== false}
           />
           {spec.label && (
-            <text x="60" y="114" textAnchor="middle" fill={INK} fontSize="10" fontWeight="700">
+            <text x="60" y="114" textAnchor="middle" fill={INK} fontSize="12" fontWeight="700">
               {spec.label}
             </text>
           )}
@@ -109,7 +109,7 @@ export function FigureRenderer({
               y={spec.rows * 28 + 22}
               textAnchor="middle"
               fill={INK}
-              fontSize="10"
+              fontSize="12"
               fontWeight="700"
               opacity={0.7}
             >
@@ -161,7 +161,7 @@ export function FigureRenderer({
               y={spec.rows * 22 + 22}
               textAnchor="middle"
               fill={INK}
-              fontSize="11"
+              fontSize="12"
               fontWeight="700"
             >
               {spec.label}
@@ -173,9 +173,13 @@ export function FigureRenderer({
       const clean = sanitizeSvg(spec.markup);
       if (!clean) return null;
       return (
-        <figure className={`quiz-figure ${wrap} overflow-x-auto rounded-2xl border border-ink/5 bg-white p-2`}>
+        <figure
+          className={`quiz-figure ${wrap} rounded-2xl border border-ink/5 bg-white p-2 ${
+            compact ? "quiz-figure--compact" : ""
+          }`}
+        >
           <div
-            className={compact ? "max-h-40" : "max-h-72"}
+            className="quiz-figure__frame"
             role="img"
             aria-label={spec.alt || "Diagram"}
             dangerouslySetInnerHTML={{ __html: clean }}
@@ -188,14 +192,12 @@ export function FigureRenderer({
     }
     case "image":
       return (
-        <figure className={`${wrap}`}>
+        <figure className={`quiz-figure ${wrap} ${compact ? "quiz-figure--compact" : ""}`}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={spec.src}
             alt={spec.alt}
-            className={`w-full h-auto rounded-2xl border border-ink/10 bg-white object-contain ${
-              compact ? "max-h-36" : "max-h-72"
-            }`}
+            className="quiz-figure__img w-full rounded-2xl border border-ink/10 bg-white"
           />
           {spec.longdesc ? (
             <figcaption className="sr-only">{spec.longdesc}</figcaption>
@@ -235,7 +237,7 @@ function Bar({
         />
       ))}
       {label && (
-        <text x={(w + 20) / 2} y={58} textAnchor="middle" fill={INK} fontSize="11" fontWeight="700" opacity={0.65}>
+        <text x={(w + 20) / 2} y={58} textAnchor="middle" fill={INK} fontSize="12" fontWeight="700" opacity={0.65}>
           {label}
         </text>
       )}
@@ -320,7 +322,7 @@ function NumberLine({
       {ticks.map((t) => (
         <g key={t}>
           <line x1={xOf(t)} y1="22" x2={xOf(t)} y2="34" stroke={INK} strokeOpacity={0.45} strokeWidth={2} />
-          <text x={xOf(t)} y="50" textAnchor="middle" fill={INK} fontSize="9" opacity={0.7}>
+          <text x={xOf(t)} y="50" textAnchor="middle" fill={INK} fontSize="12" opacity={0.7}>
             {t}
           </text>
         </g>
@@ -329,7 +331,7 @@ function NumberLine({
         <circle key={i} cx={xOf(p)} cy="28" r="8" fill={CORAL} />
       ))}
       {spec.label && (
-        <text x="140" y="72" textAnchor="middle" fill={INK} fontSize="10" fontWeight="700" opacity={0.65}>
+        <text x="140" y="72" textAnchor="middle" fill={INK} fontSize="12" fontWeight="700" opacity={0.65}>
           {spec.label}
         </text>
       )}
@@ -372,7 +374,7 @@ function PlaceValueBlocks({
         <rect key={i} x={b.x} y={b.y} width={b.w} height={b.h} rx={3} fill={b.color} opacity={0.9} />
       ))}
       {spec.label && (
-        <text x={x / 2} y="66" textAnchor="middle" fill={INK} fontSize="10" fontWeight="700">
+        <text x={x / 2} y="66" textAnchor="middle" fill={INK} fontSize="12" fontWeight="700">
           {spec.label}
         </text>
       )}
@@ -407,7 +409,7 @@ function PlaceValueChart({
               strokeOpacity={hi ? 1 : 0.2}
               strokeWidth={hi ? 2.5 : 1.5}
             />
-            <text x={(cell - 6) / 2} y="22" textAnchor="middle" fill={INK} fontSize="9" fontWeight="700" opacity={0.55}>
+            <text x={(cell - 6) / 2} y="22" textAnchor="middle" fill={INK} fontSize="12" fontWeight="700" opacity={0.55}>
               {spec.places[i]}
             </text>
             <text x={(cell - 6) / 2} y="52" textAnchor="middle" fill={hi ? CORAL : INK} fontSize="22" fontWeight="800">
@@ -510,7 +512,7 @@ function ShapesFig({
           <g key={i}>
             {shape}
             {it.label && (
-              <text x={cx} y={82} textAnchor="middle" fill={INK} fontSize="10" fontWeight="700">
+              <text x={cx} y={82} textAnchor="middle" fill={INK} fontSize="12" fontWeight="700">
                 {it.label}
               </text>
             )}
@@ -548,7 +550,7 @@ function LabeledDiagram({
           strokeOpacity={0.35}
           strokeWidth={1.5}
         />
-        <text x={x} y={y + 3} textAnchor="middle" fill={INK} fontSize="9" fontWeight="700">
+        <text x={x} y={y + 3} textAnchor="middle" fill={INK} fontSize="12" fontWeight="700">
           {isBlank ? "?" : text}
         </text>
       </g>

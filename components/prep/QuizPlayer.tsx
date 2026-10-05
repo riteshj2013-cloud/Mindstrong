@@ -7,6 +7,7 @@ import type { PrepQuestion } from "@/lib/prep/types";
 import { SpeakButton } from "./SpeakButton";
 import { HintPanel } from "@/components/session/HintPanel";
 import { FigureRenderer } from "./FigureRenderer";
+import { RichText, stripInlineMd } from "@/components/ui/RichText";
 
 export function QuizPlayer({
   title,
@@ -64,7 +65,7 @@ export function QuizPlayer({
             Q{i + 1} / {total}
           </p>
         </div>
-        <SpeakButton text={q.prompt} />
+        <SpeakButton text={stripInlineMd(q.prompt)} />
       </div>
 
       <div className="h-2 overflow-hidden rounded-full bg-ink/10">
@@ -75,7 +76,7 @@ export function QuizPlayer({
       </div>
 
       <div className="flex-1 space-y-3 rounded-[2rem] bg-white/70 p-4 shadow-soft">
-        <p className="whitespace-pre-wrap text-lg font-bold leading-snug">{q.prompt}</p>
+        <RichText as="p" className="whitespace-pre-wrap text-lg font-bold leading-snug" text={q.prompt} />
 
         {q.figure && (
           <div className="rounded-2xl border border-ink/5 bg-cream/80 p-3">
@@ -117,14 +118,14 @@ export function QuizPlayer({
                     <FigureRenderer spec={o.figure} compact />
                   </div>
                 )}
-                {o.text ? <span className="block text-sm leading-snug">{o.text}</span> : null}
+                {o.text ? <RichText as="span" className="block text-sm leading-snug" text={o.text} /> : null}
               </button>
             );
           })}
         </div>
 
         {revealed && picked && q.explanation && (
-          <p className="rounded-2xl bg-sky/15 p-3 text-sm font-semibold">{q.explanation}</p>
+          <RichText as="p" className="rounded-2xl bg-sky/15 p-3 text-sm font-semibold" text={q.explanation} />
         )}
 
         {q.hints && q.hints.length > 0 && (

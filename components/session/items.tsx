@@ -19,6 +19,7 @@ import { Badge } from "@/components/ui/Badge";
 import { Confetti } from "@/components/ui/Confetti";
 import { Mascot, MascotSays } from "@/components/ui/Mascot";
 import { HintPanel } from "./HintPanel";
+import { RichText } from "@/components/ui/RichText";
 
 type Common = {
   result: ItemResult;
@@ -144,7 +145,7 @@ export function ChoiceCard({ item, result, onResult, onNext }: Common & { item: 
 
   return (
     <div className="flex flex-1 flex-col gap-4">
-      <h2 className="text-3xl font-semibold tracking-tight">{item.prompt}</h2>
+      <RichText as="p" className="text-3xl font-semibold tracking-tight" text={item.prompt} />
 
       {item.sequence && (
         <div className="flex flex-nowrap items-center justify-center gap-1.5 overflow-x-auto rounded-[2rem] bg-white p-4 shadow-soft sm:gap-2">
@@ -195,7 +196,7 @@ export function ChoiceCard({ item, result, onResult, onNext }: Common & { item: 
               }`}
             >
               {opt.token && <TokenView token={opt.token} />}
-              <span>{opt.text ?? opt.label ?? opt.id}</span>
+              <RichText as="span" text={opt.text ?? opt.label ?? opt.id ?? ""} />
             </button>
           );
         })}
@@ -275,7 +276,7 @@ export function BuildCard({ item, result, onResult, onNext }: Common & { item: B
 
   return (
     <div className="flex flex-1 flex-col gap-4">
-      <h2 className="text-3xl font-semibold tracking-tight">{item.prompt}</h2>
+      <RichText as="p" className="text-3xl font-semibold tracking-tight" text={item.prompt} />
 
       <div className="rounded-[2rem] bg-white p-5 shadow-soft">
         <p className="mb-3 text-center text-4xl font-black tabular-nums">{value}</p>
@@ -493,7 +494,7 @@ export function ReflectCard({
         const current = reflection[q.id];
         return (
           <div key={q.id} className="space-y-3">
-            <h2 className="text-2xl font-semibold tracking-tight">{q.prompt}</h2>
+            <RichText as="p" className="text-2xl font-semibold tracking-tight" text={q.prompt} />
             <div className="grid gap-2">
               {q.options.map((opt) => {
                 const selected = current === opt.id;
