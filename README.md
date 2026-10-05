@@ -105,10 +105,12 @@ ingest-sanitized and rendered as **original in-app SVG** (no copyrighted SOF sca
 - **G4 Maths** Ch1 Large Numbers · Ch2 Mul/Div · Ch3 Fractions (pictorial addenda)
 - **G4 Science** Ch1 Food · Ch2 Matter · Ch3 Water (inline SVG)
 - **G4 English** Ch1 Reading (18) · Ch2 Grammar (16) · Ch3 Words (18) — external `visual:` SVGs inlined at ingest, with `visual_alt` / `visual_longdesc`
+- **G5 Science** Ch1 Plants/Seeds · Ch2 Human Body · Ch3 Sun/Moon/Space (inline SVG)
+- **G5 Maths** Ch1 Large Numbers (pictorial addendum)
 
 Writers: `docs/sof-source/FIGURE-SPEC.md`.
 Ingest: `scripts/ingest_g3_science_pictorial.py`, `scripts/ingest_g3_maths_pictorial.py`,
-`scripts/ingest_g4_maths_pictorial.py`, `scripts/ingest_g4_science.py`, `scripts/ingest_g4_english.py`.
+`scripts/ingest_g4_maths_pictorial.py`, `scripts/ingest_g4_science.py`, `scripts/ingest_g4_english.py`, `scripts/ingest_g5_pictorial.py`.
 
 
 ## Deploying to GitHub Pages

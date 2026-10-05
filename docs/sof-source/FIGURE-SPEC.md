@@ -76,3 +76,13 @@ Ignore `_preview-*.png`. Visual counts out of 48: Ch1 18, Ch2 16, Ch3 18.
 ```bash
 python3 scripts/ingest_g4_english.py
 ```
+
+
+## Grade 5 pictorial
+
+```bash
+python3 scripts/ingest_g5_pictorial.py
+# Maths Ch1 Large Numbers pictorial addendum (when present)
+# Science Ch1–3 inline Diagram (SVG) in Quiz Sets
+# Skips English until grade-5-english/ / grade-8-english/ ship visual: + visuals/
+```
