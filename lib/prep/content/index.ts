@@ -1,5 +1,6 @@
 export { g3MathsNumbers } from "./g3-maths-numbers";
 export { g4MathsLargeNumbers } from "./g4-maths-large-numbers";
+export { g4MathsMultiplyDivide } from "./g4-maths-multiply-divide";
 export { g4ScienceFood } from "./g4-science-food";
 export { g4ScienceMatter } from "./g4-science-matter";
 export { g4ScienceWater } from "./g4-science-water";

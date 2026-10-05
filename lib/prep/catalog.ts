@@ -4,6 +4,7 @@ import { g3ScienceAnimals } from "./content/g3-science-animals";
 import { g3ScienceSenses } from "./content/g3-science-senses";
 import { g3MathsNumbers } from "./content/g3-maths-numbers";
 import { g4MathsLargeNumbers } from "./content/g4-maths-large-numbers";
+import { g4MathsMultiplyDivide } from "./content/g4-maths-multiply-divide";
 import { g4ScienceFood } from "./content/g4-science-food";
 import { g4ScienceMatter } from "./content/g4-science-matter";
 import { g4ScienceWater } from "./content/g4-science-water";
@@ -566,7 +567,7 @@ const MATHS: Record<number, ChapterDef[]> = {
   ],
   4: [
     g4MathsLargeNumbers,
-    ch("g4-multiply-divide", "Multiply & Divide", "✖️", "Times tables & sharing", mathsPlaceValueLesson(), ["multiply-basics", "multiply-basics", "add-sub"], ["multiply-basics", "add-sub"]),
+    g4MathsMultiplyDivide,
     ch("g4-fractions", "Fractions", "🍕", "Halves, quarters & parts", mathsFractionsLesson(), ["fractions", "fractions", "multiply-basics"], ["fractions"]),
   ],
   5: [
