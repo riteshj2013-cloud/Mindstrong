@@ -388,7 +388,7 @@ export const mondayPack89: ContentPack = {
             "First digit = how many tens.",
             "Second digit = how many ones.",
           ],
-          cta: "Hard try!",
+          cta: "Spelling!",
         },
       ],
     },

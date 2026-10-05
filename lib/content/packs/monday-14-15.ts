@@ -321,7 +321,7 @@ export const mondayPack1415: ContentPack = {
             "Equations stay true when both sides match.",
             "Proportions stay true when ratios match.",
           ],
-          cta: "Hard try!",
+          cta: "Spelling!",
         },
       ],
     },

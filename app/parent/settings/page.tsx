@@ -34,9 +34,11 @@ function SettingsInner() {
 
   useEffect(() => {
     if (profile) {
+      setName(profile.childName || "");
       setAge(clampAge(profile.age));
     }
-  }, [profile]);
+    // Depend on primitives — profile object identity must not retrigger every render.
+  }, [profile?.childName, profile?.age]);
 
   if (profile === undefined || settings === undefined) {
     return (

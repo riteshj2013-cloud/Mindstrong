@@ -401,7 +401,7 @@ export const mondayPack1011: ContentPack = {
             "Big numbers are just bundled smaller ones.",
             "Regroup when you add or subtract.",
           ],
-          cta: "Hard try!",
+          cta: "Spelling!",
         },
       ],
     },

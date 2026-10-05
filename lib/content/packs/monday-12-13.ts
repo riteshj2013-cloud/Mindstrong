@@ -324,7 +324,7 @@ export const mondayPack1213: ContentPack = {
             "Fractions, decimals, percents — same idea, different outfits.",
             "Translate, then calculate.",
           ],
-          cta: "Hard try!",
+          cta: "Spelling!",
         },
       ],
     },

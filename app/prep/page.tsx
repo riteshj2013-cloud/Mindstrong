@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Brand } from "@/components/ui/Brand";
 import { Button } from "@/components/ui/Button";
 import { Mascot } from "@/components/ui/Mascot";
@@ -16,7 +16,9 @@ import {
   gradeSubtitle,
   isGradeReady,
   packKey,
+  clearPrepActive,
   rememberPrepChoice,
+  readPrepActive,
   savePrepActive,
   usePrepProgress,
   ageToGrade,
@@ -38,6 +40,15 @@ export default function PrepHubPage() {
   const [subject, setSubject] = useState<PrepSubject | null>(null);
   const [grade, setGrade] = useState<Grade | null>(null);
   const [chapterId, setChapterId] = useState<string | null>(null);
+
+  // Recover from a stuck/corrupt prep.active left by an older bug.
+  useEffect(() => {
+    const a = readPrepActive();
+    if (!a) return;
+    if (a.kind !== "lesson" && a.kind !== "set" && a.kind !== "paper") {
+      clearPrepActive();
+    }
+  }, []);
 
   const pack = useMemo(
     () => (subject && grade ? getPrepPack(subject, grade) : null),

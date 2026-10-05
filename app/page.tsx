@@ -87,12 +87,13 @@ export default function Home() {
       <header className="flex items-center justify-between">
         <Brand />
         <div className="flex items-center gap-2">
-          <span
+          <Link
+            href="/parent/settings"
             className="rounded-full bg-white/90 px-3 py-1.5 text-sm font-bold text-ink/60 shadow-soft"
-            title={BAND_LABELS[ageToBand(childAge)]}
+            title={`${BAND_LABELS[ageToBand(childAge)]} · tap to change`}
           >
             Age {childAge}
-          </span>
+          </Link>
           <div className="flex items-center gap-1 rounded-full bg-white px-3 py-2 font-display text-lg font-semibold shadow-soft">
             <span aria-hidden>🔥</span>
             {streak}
