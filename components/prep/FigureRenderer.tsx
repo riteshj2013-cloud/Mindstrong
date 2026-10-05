@@ -173,26 +173,34 @@ export function FigureRenderer({
       const clean = sanitizeSvg(spec.markup);
       if (!clean) return null;
       return (
-        <div
-          className={`quiz-figure ${wrap} overflow-x-auto rounded-2xl border border-ink/5 bg-white p-2 ${
-            compact ? "max-h-36" : "max-h-64"
-          }`}
-          role="img"
-          aria-label={spec.alt || "Diagram"}
-          dangerouslySetInnerHTML={{ __html: clean }}
-        />
+        <figure className={`quiz-figure ${wrap} overflow-x-auto rounded-2xl border border-ink/5 bg-white p-2`}>
+          <div
+            className={compact ? "max-h-40" : "max-h-72"}
+            role="img"
+            aria-label={spec.alt || "Diagram"}
+            dangerouslySetInnerHTML={{ __html: clean }}
+          />
+          {spec.longdesc ? (
+            <figcaption className="sr-only">{spec.longdesc}</figcaption>
+          ) : null}
+        </figure>
       );
     }
     case "image":
       return (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          src={spec.src}
-          alt={spec.alt}
-          className={`${wrap} rounded-2xl border border-ink/10 bg-white object-contain ${
-            compact ? "max-h-28" : "max-h-48"
-          }`}
-        />
+        <figure className={`${wrap}`}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={spec.src}
+            alt={spec.alt}
+            className={`w-full h-auto rounded-2xl border border-ink/10 bg-white object-contain ${
+              compact ? "max-h-36" : "max-h-72"
+            }`}
+          />
+          {spec.longdesc ? (
+            <figcaption className="sr-only">{spec.longdesc}</figcaption>
+          ) : null}
+        </figure>
       );
     default:
       return null;

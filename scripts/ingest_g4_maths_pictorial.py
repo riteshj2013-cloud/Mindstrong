@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Ingest Grade 4 Maths pictorial addenda (Ch1 Large Numbers, Ch2 Mul/Div).
+Ingest Grade 4 Maths pictorial addenda (Ch1 Large Numbers, Ch2 Mul/Div, Ch3 Fractions).
 Parses **Diagram (SVG):** fenced blocks → sanitized figure.type=svg,
 merges 9 pictorial MCQs into each Set A/B (replacing text Qs via replaces_hint).
 Usage: python3 scripts/ingest_g4_maths_pictorial.py
@@ -31,6 +31,14 @@ JOBS = [
         prefix="g4-maths-muldiv",
         lesson=LESSON_MULDIV,
         doc_pict="maths-ch02-multiply-divide-pictorial.md",
+    ),
+    dict(
+        pict="sof-maths/grade-4/chapter-03-fractions-pictorial.md",
+        base="sof-maths/grade-4/chapter-03-fractions.md",
+        chapter_key="chapter-03-fractions.md",
+        prefix="g4-maths-fractions",
+        lesson=None,  # filled below from CHAPTERS
+        doc_pict="maths-ch03-fractions-pictorial.md",
     ),
 ]
 
@@ -139,7 +147,8 @@ def run_job(job: dict):
     pict_count = sum(1 for q in a + b if q.get("figure"))
     print("Merged %s: %d/%d have figures" % (prefix, pict_count, len(a) + len(b)))
     spec = CHAPTERS[job["chapter_key"]]
-    emit_module(OUT / spec["file"], spec["export"], spec["meta"], job["lesson"], a, b)
+    lesson = job["lesson"] if job.get("lesson") is not None else spec["lesson"]
+    emit_module(OUT / spec["file"], spec["export"], spec["meta"], lesson, a, b)
     d = DOCS / "grade-4"
     d.mkdir(parents=True, exist_ok=True)
     (d / spec["doc"]).write_text(base_md)

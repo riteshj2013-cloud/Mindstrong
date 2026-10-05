@@ -3,9 +3,10 @@ from __future__ import annotations
 import json, re
 from pathlib import Path
 
-ROOT = Path("/workspace/mindstrong")
-OUT = Path("/workspace/Mindstrong/lib/prep/content")
-DOCS = Path("/workspace/Mindstrong/docs/sof-source")
+ROOT = Path("/workspace/mindstrong")  # writer markdown packs (sibling of repo)
+REPO = Path(__file__).resolve().parent.parent  # this git worktree / checkout
+OUT = REPO / "lib/prep/content"
+DOCS = REPO / "docs/sof-source"
 OUT.mkdir(parents=True, exist_ok=True)
 
 def letter_id(L: str) -> str:
@@ -243,15 +244,88 @@ def parse_maths_quiz(block: str, id_prefix: str, set_id: str) -> list:
         qs.append(qobj)
     return qs
 
+
+def _yaml_block_or_line(part: str, key: str):
+    """Parse `- key: |` multiline or `- key: value` single line from a quiz/passage part."""
+    m = re.search(
+        r"-\s*%s:\s*\|\s*\n((?:[ \t]+.+\n?)*)" % re.escape(key),
+        part,
+        re.I,
+    )
+    if m:
+        lines = []
+        for l in m.group(1).split("\n"):
+            if not l.strip():
+                continue
+            lines.append(re.sub(r"^[ \t]{2}", "", l).rstrip())
+        return "\n".join(lines).strip()
+    m = re.search(r"-\s*%s:\s*(.+)" % re.escape(key), part, re.I)
+    return m.group(1).strip() if m else ""
+
+
+def load_external_svg_figure(base_dir: Path, rel: str, alt: str = "", longdesc: str = ""):
+    """Load visuals/<id>.svg next to a chapter file → sanitized figure.type=svg."""
+    if not rel:
+        return None
+    rel = rel.strip()
+    p = (base_dir / rel).resolve()
+    try:
+        p.relative_to(base_dir.resolve())
+    except ValueError:
+        print("  WARN visual path escapes chapter dir:", rel)
+        return None
+    if not p.exists() or p.suffix.lower() != ".svg":
+        print("  WARN missing visual", p)
+        return None
+    raw = p.read_text(encoding="utf-8", errors="replace")
+    markup = sanitize_svg(raw)
+    if not markup or "<svg" not in markup.lower():
+        print("  WARN sanitize emptied", p)
+        return None
+    fig = {"type": "svg", "markup": markup}
+    if alt:
+        fig["alt"] = alt
+    if longdesc:
+        fig["longdesc"] = longdesc
+    return fig
+
+
+def extract_visual_fields(part: str, base_dir: Path | None):
+    """Item- or passage-level `visual:` / `visual_alt:` / `visual_longdesc`."""
+    rel = _yaml_block_or_line(part, "visual")
+    if not rel or not base_dir:
+        return None
+    # Ignore non-path values
+    if not rel.startswith("visuals/") and not rel.endswith(".svg"):
+        return None
+    alt = _yaml_block_or_line(part, "visual_alt")
+    longdesc = _yaml_block_or_line(part, "visual_longdesc")
+    return load_external_svg_figure(base_dir, rel, alt, longdesc)
+
+
 def extract_passage(bank: str, label: str) -> str:
     m = re.search(r"### %s[\s\S]*?\n([\s\S]*?)(?=\n### |\Z)" % re.escape(label), bank)
     if not m:
         return ""
-    return re.sub(r"^>\s?", "", m.group(1), flags=re.M).strip()
+    body = m.group(1)
+    # Drop visual metadata lines / block scalars before the passage prose
+    body = re.sub(r"^-\s*visual(?:_alt|_longdesc)?:\|?\s*\n(?:[ \t].+\n?)*", "", body, flags=re.M)
+    body = re.sub(r"^-\s*visual(?:_alt|_longdesc)?:.+\n?", "", body, flags=re.M)
+    return re.sub(r"^>\s?", "", body, flags=re.M).strip()
 
-def parse_english_quiz(block: str, passages: dict, id_prefix: str, set_id: str) -> list:
+
+def extract_passage_block(bank: str, label: str) -> str:
+    m = re.search(r"(### %s[\s\S]*?)(?=\n### |\Z)" % re.escape(label), bank)
+    return m.group(1) if m else ""
+
+
+PASSAGE_LABELS = ("P1", "P2", "P3", "N1", "PD1", "D1", "E1", "O1")
+
+
+def parse_english_quiz(block: str, passages: dict, id_prefix: str, set_id: str, base_dir: Path | None = None, passage_figs: dict | None = None) -> list:
     qs = []
     parts = re.split(r"^### Q\d+", block, flags=re.M)[1:]
+    passage_figs = passage_figs or {}
     for i, part in enumerate(parts, 1):
         stem_block = re.search(r"-\s*stem:\s*\|\s*\n((?:[ \t]+.+\n?)+)", part)
         if stem_block:
@@ -260,9 +334,11 @@ def parse_english_quiz(block: str, passages: dict, id_prefix: str, set_id: str) 
         else:
             sm = re.search(r"-\s*stem:\s*(.+)", part)
             stem = sm.group(1).strip() if sm else ""
-        mkey = re.search(r"\b(P[123]|N1|D1|E1|O1)\b", stem[:100])
-        if mkey and mkey.group(1) in passages and passages[mkey.group(1)]:
-            stem = "%s\n\n%s" % (passages[mkey.group(1)], stem)
+        # Prefer longer labels first (PD1 before P1/D1)
+        mkey = re.search(r"\b(PD1|P[123]|N1|D1|E1|O1)\b", stem[:120])
+        pkey = mkey.group(1) if mkey else None
+        if pkey and pkey in passages and passages[pkey]:
+            stem = "%s\n\n%s" % (passages[pkey], stem)
         ans_m = re.search(r"-\s*answer:\s*([A-D])", part, re.I)
         expl_block = re.search(r"-\s*explanation:\s*\|\s*\n((?:[ \t]+.+\n?)+)", part)
         if expl_block:
@@ -289,15 +365,20 @@ def parse_english_quiz(block: str, passages: dict, id_prefix: str, set_id: str) 
             "explanation": expl,
             "hints": ["Look for clues in the text.", "Eliminate unsupported answers."],
         }
-        fig = extract_stem_figure(part)
+        fig = extract_stem_figure(part) or extract_visual_fields(part, base_dir)
+        if not fig and pkey and pkey in passage_figs:
+            fig = passage_figs[pkey]
         if fig:
             qobj["figure"] = fig
         qs.append(qobj)
     return qs
 
 def science_sets(md: str, prefix: str):
+    # Ignore writer ## Pictorial notes — only Quiz Set blocks are parsed.
     a = parse_science_quiz(md.split("## Quiz Set A")[1].split("## Quiz Set B")[0], prefix, "a")
-    b = parse_science_quiz(md.split("## Quiz Set B")[1], prefix, "b")
+    b_rest = md.split("## Quiz Set B")[1]
+    b_rest = re.split(r"\n## (?!#)", b_rest)[0]  # stop before Answer Key / notes
+    b = parse_science_quiz(b_rest, prefix, "b")
     return a, b
 
 def maths_sets(md: str, prefix: str):
@@ -306,11 +387,21 @@ def maths_sets(md: str, prefix: str):
     b_block = b_rest.split("## Answer Key")[0] if "## Answer Key" in b_rest else b_rest
     return parse_maths_quiz(a_block, prefix, "a"), parse_maths_quiz(b_block, prefix, "b")
 
-def eng_sets(md: str, prefix: str):
+def eng_sets(md: str, prefix: str, base_dir: Path | None = None):
     bank = md.split("## Passage bank")[1].split("## Set A")[0] if "## Passage bank" in md else ""
-    passages = {lab: extract_passage(bank, lab) if bank else "" for lab in ("P1", "P2", "P3", "N1", "D1", "E1", "O1")}
-    a = parse_english_quiz(md.split("## Set A")[1].split("## Set B")[0], passages, prefix, "a")
-    b = parse_english_quiz(md.split("## Set B")[1], passages, prefix, "b")
+    passages = {lab: extract_passage(bank, lab) if bank else "" for lab in PASSAGE_LABELS}
+    passage_figs = {}
+    if bank and base_dir is not None:
+        for lab in PASSAGE_LABELS:
+            block = extract_passage_block(bank, lab)
+            fig = extract_visual_fields(block, base_dir) if block else None
+            if fig:
+                passage_figs[lab] = fig
+    set_a = md.split("## Set A")[1].split("## Set B")[0]
+    set_b = md.split("## Set B")[1]
+    set_b = re.split(r"\n## Visual spec\b", set_b)[0]
+    a = parse_english_quiz(set_a, passages, prefix, "a", base_dir, passage_figs)
+    b = parse_english_quiz(set_b, passages, prefix, "b", base_dir, passage_figs)
     return a, b
 
 def lesson_ts(title, emoji, visual, speak, cards, try_q, bullets):

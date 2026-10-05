@@ -7,6 +7,8 @@
 - skills: [opposites-synonyms, rhyming-words, homophones, word-building, punctuation, jumbled-sentences, polite-expression, words-in-context]
 - sets: 2
 - items_per_set: 24
+- visual_items: 18
+- visual_passages: [P1]
 
 ## Interactive lesson outline
 - L1: Hello, word gardener! Today we're going to grow some wonderful words.
@@ -27,6 +29,10 @@
 ## Passage bank (for quizzes)
 
 ### P1 — Rain on the Roof (original poem)
+- visual: visuals/g4-eng-ch03-P1.svg
+- visual_alt: |
+  The poem printed on a notebook-style card, in two verses of four lines each.
+
 Pitter-patter on the roof,
 The rain is here, I have the proof!
 The frogs say croak, the peacocks cry,
@@ -221,8 +227,11 @@ It was Bunty's birthday. In the morning, he saw a big box on the table. Inside w
 - id: g4-eng-ch03-a-12
 - skill: opposites-synonyms
 - difficulty: medium
+- visual: visuals/g4-eng-ch03-a-12.svg
+- visual_alt: |
+  Two panels of the sun near green hills: one labelled sunset at 6 p.m., and one labelled with a question mark at 6 a.m.
 - stem: |
-  Read Passage P3. "They played until sunset." What is the OPPOSITE of "sunset"?
+  Read Passage P3 and look at the pictures. The first picture shows "sunset". Which word names the OPPOSITE shown in the second picture?
 - options:
   - A: sunshine
   - B: sunlight
@@ -230,7 +239,7 @@ It was Bunty's birthday. In the morning, he saw a big box on the table. Inside w
   - D: sunflower
 - answer: C
 - explanation: |
-  The sun sets in the evening and rises in the morning. Sunrise is the opposite of sunset.
+  Sunset is in the evening, at 6 p.m. The second picture is the morning, at 6 a.m., when the sun comes up. That is sunrise.
 
 ### Q13
 - id: g4-eng-ch03-a-13
@@ -251,8 +260,11 @@ It was Bunty's birthday. In the morning, he saw a big box on the table. Inside w
 - id: g4-eng-ch03-a-14
 - skill: polite-expression
 - difficulty: easy
+- visual: visuals/g4-eng-ch03-a-14.svg
+- visual_alt: |
+  A boy named Kabir holds out a wrapped gift to a girl named Riya, who has an empty speech bubble.
 - stem: |
-  Your friend gives you a birthday gift. What should you say?
+  Look at the picture. Kabir is giving Riya a birthday gift. What should Riya say?
 - options:
   - A: "Give me more."
   - B: "Thank you so much!"
@@ -359,16 +371,19 @@ It was Bunty's birthday. In the morning, he saw a big box on the table. Inside w
 - id: g4-eng-ch03-a-21
 - skill: punctuation
 - difficulty: easy
+- visual: visuals/g4-eng-ch03-a-21.svg
+- visual_alt: |
+  A postcard with a short message on four numbered lines, and a stamp and address on the right.
 - stem: |
-  Which sentence uses capital letters correctly?
+  Look at the postcard. Which punctuation mark is missing at the end of line 2?
 - options:
-  - A: my name is arjun.
-  - B: My name is arjun.
-  - C: My name is Arjun.
-  - D: my Name is Arjun.
+  - A: A full stop (.)
+  - B: A comma (,)
+  - C: A question mark (?)
+  - D: An apostrophe (')
 - answer: C
 - explanation: |
-  A sentence starts with a capital letter, and names always start with one too. So "My" and "Arjun" need capitals.
+  "How are you" asks something, so it needs a question mark at the end.
 
 ### Q22
 - id: g4-eng-ch03-a-22
@@ -405,9 +420,11 @@ It was Bunty's birthday. In the morning, he saw a big box on the table. Inside w
 - id: g4-eng-ch03-a-24
 - skill: jumbled-sentences
 - difficulty: hard
+- visual: visuals/g4-eng-ch03-a-24.svg
+- visual_alt: |
+  Seven mixed-up word tiles in different colours.
 - stem: |
-  Put the words in the correct order to make a sentence.
-  is / the / kite / in / the / blue / sky
+  Look at the word tiles. Put them in the correct order to make a sentence.
 - options:
   - A: Blue the kite is sky in the.
   - B: The kite is in the blue sky.
@@ -415,7 +432,7 @@ It was Bunty's birthday. In the morning, he saw a big box on the table. Inside w
   - D: Kite the is blue in sky the.
 - answer: B
 - explanation: |
-  Who or what (the kite) + is + where (in the blue sky). The describing word "blue" goes before the noun "sky."
+  Start with what (the kite), then is, then where (in the blue sky). The describing word "blue" goes before "sky".
 
 ## Set B — Alternate quiz
 
@@ -603,8 +620,11 @@ It was Bunty's birthday. In the morning, he saw a big box on the table. Inside w
 - id: g4-eng-ch03-b-13
 - skill: polite-expression
 - difficulty: easy
+- visual: visuals/g4-eng-ch03-b-13.svg
+- visual_alt: |
+  A girl named Priya stands near a doorway where three people are standing, and she has an empty speech bubble.
 - stem: |
-  You need to pass through a crowded doorway. What should you say?
+  Look at the picture. Priya needs to get through the crowded doorway. What should she say?
 - options:
   - A: "Excuse me, please."
   - B: "Move!"
@@ -648,17 +668,20 @@ It was Bunty's birthday. In the morning, he saw a big box on the table. Inside w
 - id: g4-eng-ch03-b-16
 - skill: homophones
 - difficulty: easy
+- visual: visuals/g4-eng-ch03-b-16.svg
+- visual_alt: |
+  A mother named Mrs. Rao hugs a young boy labelled with a question mark.
 - stem: |
-  Choose the correct word.
-  "The ___ is shining brightly in the sky."
+  Look at the picture. Fill in the blank.
+  "Mrs. Rao is hugging her ___."
 - options:
-  - A: son
-  - B: sun
+  - A: sun
+  - B: son
   - C: sin
   - D: soon
 - answer: B
 - explanation: |
-  The "sun" shines in the sky. "Son" means a boy in a family. They sound the same but mean different things.
+  A boy in a family is a "son". "Sun" sounds the same but means the star in the sky.
 
 ### Q17
 - id: g4-eng-ch03-b-17
@@ -726,31 +749,37 @@ It was Bunty's birthday. In the morning, he saw a big box on the table. Inside w
 - id: g4-eng-ch03-b-21
 - skill: word-building
 - difficulty: medium
+- visual: visuals/g4-eng-ch03-b-21.svg
+- visual_alt: |
+  A picture of a tooth, a plus sign, a picture of a brush, an equals sign and a question mark.
 - stem: |
-  Which of these is NOT a compound word?
+  Look at the picture word sum. Which compound word does it make?
 - options:
-  - A: sunflower
-  - B: rainbow
-  - C: toothbrush
-  - D: happy
+  - A: toothpaste
+  - B: hairbrush
+  - C: teeth
+  - D: toothbrush
 - answer: D
 - explanation: |
-  Sun + flower, rain + bow and tooth + brush are all two words joined. "Happy" cannot be split into two words.
+  A compound word joins two whole words: tooth + brush = toothbrush.
 
 ### Q22
 - id: g4-eng-ch03-b-22
 - skill: punctuation
 - difficulty: easy
+- visual: visuals/g4-eng-ch03-b-22.svg
+- visual_alt: |
+  A yellow sticky note from Mum to Riya with five short lines.
 - stem: |
-  Which sentence should end with a question mark (?)?
+  Look at Mum's note. Which line should end with a question mark (?)?
 - options:
-  - A: I like mangoes
-  - B: Please sit down
-  - C: Where is my bag
-  - D: The sky is blue
+  - A: "I have gone to the market"
+  - B: "Back by 6"
+  - C: "Have you fed the cat"
+  - D: "Riya,"
 - answer: C
 - explanation: |
-  "Where is my bag" asks something, so it needs a question mark. The others tell or ask someone to do something.
+  "Have you fed the cat" asks Riya something, so it needs a question mark. The other lines tell her something or greet her.
 
 ### Q23
 - id: g4-eng-ch03-b-23
@@ -771,9 +800,11 @@ It was Bunty's birthday. In the morning, he saw a big box on the table. Inside w
 - id: g4-eng-ch03-b-24
 - skill: jumbled-sentences
 - difficulty: medium
+- visual: visuals/g4-eng-ch03-b-24.svg
+- visual_alt: |
+  Six mixed-up word tiles in different colours.
 - stem: |
-  Put the words in the correct order to make a sentence.
-  a / bird / sat / on / the / tree
+  Look at the word tiles. Put them in the correct order to make a sentence.
 - options:
   - A: A bird sat on the tree.
   - B: Sat a bird the on tree.

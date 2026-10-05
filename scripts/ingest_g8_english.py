@@ -167,7 +167,7 @@ CHAPTERS = [
 def run(chapters, src, grade):
   for spec in chapters:
       md = (src / spec["src"]).read_text()
-      a, b = eng_sets(md, spec["prefix"])
+      a, b = eng_sets(md, spec["prefix"], base_dir=src)
       for label, qs in (("A", a), ("B", b)):
           assert len(qs) == 24, "%s set %s has %d" % (spec["src"], label, len(qs))
           for q in qs:

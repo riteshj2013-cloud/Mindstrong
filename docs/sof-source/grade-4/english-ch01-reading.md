@@ -7,6 +7,8 @@
 - skills: [main-idea, story-details, sequence, simple-inference, word-meaning]
 - sets: 2
 - items_per_set: 24
+- visual_items: 18
+- visual_passages: [N1, PD1]
 
 ## Interactive lesson outline
 - L1: Hello, story spotter! Are you ready to read some fun stories with me?
@@ -36,6 +38,10 @@ Asha's mother packed upma in her tiffin every Monday. Asha liked upma, but she w
 On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.
 
 ### N1 — Notice
+- visual: visuals/g4-eng-ch01-N1.svg
+- visual_alt: |
+  A school notice pinned on a cork notice board.
+
 > **NOTICE**
 > Green Valley School  |  10 January
 >
@@ -43,8 +49,14 @@ On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they
 >
 > — Head Teacher
 
-### PD1 — Picture in Words: A Busy Vegetable Market
-In this picture, there is a busy market in the morning. On the left, an old woman is selling tomatoes and green chillies from a big basket. In the middle, a boy in a blue shirt is holding his father's hand. His father is paying for a bag of potatoes. On the right, a cow is standing near a fruit cart. The fruit seller is waving a stick to keep the cow away from his bananas. The sky is clear and sunny.
+### PD1 — Picture: A Busy Morning Market
+- visual: visuals/g4-eng-ch01-PD1.svg
+- visual_alt: |
+  A busy market scene with sellers, shoppers, stalls and an animal.
+- visual_longdesc: |
+  Text-only version for screen readers: On the left, under a "Vegetables" sign, an old woman sits on a stool beside a basket of red tomatoes and green chillies. In the middle, a boy in a blue shirt holds his father's hand. The father, in a green shirt, holds a sack labelled "Potatoes". On the right, under a "Fruits" sign, a fruit seller in an orange shirt stands behind a cart. The top shelf of the cart has bananas, and the bottom shelf has oranges. A cow stands calmly next to the cart. The sun is shining and there are no clouds.
+
+Look carefully at the picture. Questions about PD1 are answered by looking at it.
 
 ## Set A — Practice quiz
 
@@ -232,16 +244,19 @@ In this picture, there is a busy market in the morning. On the left, an old woma
 - id: g4-eng-ch01-a-13
 - skill: sequence
 - difficulty: easy
+- visual: visuals/g4-eng-ch01-a-13.svg
+- visual_alt: |
+  Four picture panels, labelled A to D, show different moments from a day of kite flying on a terrace.
 - stem: |
-  Read Passage P3. What did Diya and Grandfather do FIRST?
+  Read Passage P3 and look at the picture strip. Which panel shows what Diya and Grandfather did FIRST?
 - options:
-  - A: Held the kite high
-  - B: Waited for the breeze
-  - C: Wound up the string
-  - D: Tied the string to the kite
+  - A: Panel A
+  - B: Panel B
+  - C: Panel C
+  - D: Panel D
 - answer: D
 - explanation: |
-  Look for the word "First." "First, they tied the string to the kite."
+  The story says, "First, they tied the string to the kite." Only one panel shows the kite still on the floor, before it goes up.
 
 ### Q14
 - id: g4-eng-ch01-a-14
@@ -338,75 +353,78 @@ In this picture, there is a busy market in the morning. On the left, an old woma
 - skill: story-details
 - difficulty: easy
 - stem: |
-  Read Picture in Words PD1. What is on the LEFT side of the picture?
+  Look at Picture PD1. What is the old woman on the LEFT selling?
 - options:
-  - A: A cow
-  - B: A fruit cart
-  - C: An old woman selling tomatoes and green chillies
-  - D: A boy in a blue shirt
+  - A: Bananas and oranges
+  - B: Potatoes
+  - C: Tomatoes and green chillies
+  - D: Flowers
 - answer: C
 - explanation: |
-  The text says, "On the left, an old woman is selling tomatoes and green chillies." The boy is in the middle.
+  Look at the basket next to the old woman. It has round red tomatoes and long green chillies.
 
 ### Q21
 - id: g4-eng-ch01-a-21
-- skill: simple-inference
+- skill: story-details
 - difficulty: easy
 - stem: |
-  Read Picture in Words PD1. Why is the fruit seller waving a stick?
+  Look at Picture PD1. Which animal is standing near the fruit cart?
 - options:
-  - A: To call more customers
-  - B: To point at the sky
-  - C: To keep the cow away from his bananas
-  - D: To play a game
+  - A: A dog
+  - B: A goat
+  - C: A cow
+  - D: A cat
 - answer: C
 - explanation: |
-  The text says he waves it "to keep the cow away from his bananas." He doesn't want the cow to eat his fruit.
+  Look at the right side of the picture. A cow with horns and a tail is standing next to the fruit cart.
 
 ### Q22
 - id: g4-eng-ch01-a-22
 - skill: story-details
 - difficulty: easy
 - stem: |
-  Read Picture in Words PD1. At what time of day is the picture set?
+  Look at Picture PD1. What is on the TOP shelf of the fruit cart?
 - options:
-  - A: In the morning
-  - B: At night
-  - C: In the evening
-  - D: At midnight
+  - A: Bananas
+  - B: Oranges
+  - C: Tomatoes
+  - D: Potatoes
 - answer: A
 - explanation: |
-  The first line says it is "in the morning." The sunny sky is another clue.
+  Top means the highest shelf. The long yellow fruits there are bananas. The oranges are on the bottom shelf.
 
 ### Q23
 - id: g4-eng-ch01-a-23
-- skill: word-meaning
+- skill: story-details
 - difficulty: easy
 - stem: |
-  Read Picture in Words PD1. "There is a busy market." Here, "busy" means —
+  Look at Picture PD1. How many PEOPLE can you see in the picture?
 - options:
-  - A: empty
-  - B: closed
-  - C: quiet
-  - D: full of people doing many things
+  - A: Two
+  - B: Three
+  - C: Five
+  - D: Four
 - answer: D
 - explanation: |
-  The picture shows sellers, buyers, a boy and even a cow. A busy place has lots of people and activity.
+  Count carefully: the old woman, the boy, his father and the fruit seller. That makes four people. The cow is an animal, not a person.
 
 ### Q24
 - id: g4-eng-ch01-a-24
-- skill: word-meaning
+- skill: story-details
 - difficulty: medium
+- visual: visuals/g4-eng-ch01-a-24.svg
+- visual_alt: |
+  A Class 4 school timetable for Monday with times and subjects in rows.
 - stem: |
-  Read Passage P2. "Let's swap today," said Neel. What does "swap" mean?
+  Look at the timetable. Which class comes right AFTER the break?
 - options:
-  - A: Eat quickly
-  - B: Exchange
-  - C: Throw away
-  - D: Hide
+  - A: Maths
+  - B: EVS
+  - C: Art
+  - D: English
 - answer: B
 - explanation: |
-  Asha ate Neel's paratha, and Neel ate Asha's upma. To swap means to give one thing and get another back.
+  Find "Break" at 11:00, then look at the very next row. At 11:30 it is EVS.
 
 ## Set B — Alternate quiz
 
@@ -579,16 +597,19 @@ In this picture, there is a busy market in the morning. On the left, an old woma
 - id: g4-eng-ch01-b-12
 - skill: sequence
 - difficulty: medium
+- visual: visuals/g4-eng-ch01-b-12.svg
+- visual_alt: |
+  Four picture panels, labelled A to D, show moments from a day of kite flying on a terrace in mixed order.
 - stem: |
-  Read Passage P3. What happened right AFTER the strong breeze came?
+  Read Passage P3 and look at the picture strip. Which panel shows what happened right AFTER the strong breeze came?
 - options:
-  - A: They tied the string to the kite.
-  - B: The kite rose into the blue sky.
-  - C: They went downstairs.
-  - D: Another kite came close.
+  - A: Panel A
+  - B: Panel B
+  - C: Panel C
+  - D: Panel D
 - answer: B
 - explanation: |
-  "Then a strong breeze came, and the kite rose into the blue sky." The wind lifted the kite.
+  "Then a strong breeze came, and the kite rose into the blue sky." Look for the wind lines and the kite going up.
 
 ### Q13
 - id: g4-eng-ch01-b-13
@@ -670,7 +691,7 @@ In this picture, there is a busy market in the morning. On the left, an old woma
 - skill: story-details
 - difficulty: easy
 - stem: |
-  Read Picture in Words PD1. Who is holding his father's hand?
+  Look at Picture PD1. Who is holding the father's hand?
 - options:
   - A: The old woman
   - B: A boy in a blue shirt
@@ -678,52 +699,52 @@ In this picture, there is a busy market in the morning. On the left, an old woma
   - D: A girl in a red dress
 - answer: B
 - explanation: |
-  "In the middle, a boy in a blue shirt is holding his father's hand."
+  In the middle of the picture, a small boy in a blue shirt is holding his father's hand. There is no girl in the picture.
 
 ### Q19
 - id: g4-eng-ch01-b-19
 - skill: story-details
 - difficulty: easy
 - stem: |
-  Read Picture in Words PD1. What is the father paying for?
+  Look at Picture PD1. What is the father holding in his other hand?
 - options:
-  - A: A bag of potatoes
-  - B: Some tomatoes
-  - C: Some bananas
-  - D: Green chillies
+  - A: A sack of potatoes
+  - B: A basket of tomatoes
+  - C: A bunch of bananas
+  - D: An umbrella
 - answer: A
 - explanation: |
-  The text says, "His father is paying for a bag of potatoes." The tomatoes and chillies belong to the old woman.
+  The father holds a brown sack. It is labelled "Potatoes", and you can see potatoes at the top.
 
 ### Q20
 - id: g4-eng-ch01-b-20
 - skill: simple-inference
 - difficulty: hard
 - stem: |
-  Read Picture in Words PD1. Which sentence is TRUE about the picture?
+  Look at Picture PD1. Which sentence is TRUE about the picture?
 - options:
   - A: The cow is eating the bananas.
-  - B: The market is empty.
+  - B: There are two boys in the market.
   - C: It is raining.
-  - D: The old woman is selling vegetables from a basket.
+  - D: The old woman is sitting next to a basket of vegetables.
 - answer: D
 - explanation: |
-  Check each sentence against the text. The cow is only standing near the cart, the market is busy, and the sky is sunny.
+  Check each sentence against the picture. The cow is only standing, there is one boy, and the sun is shining.
 
 ### Q21
 - id: g4-eng-ch01-b-21
-- skill: word-meaning
+- skill: story-details
 - difficulty: easy
 - stem: |
-  Read Picture in Words PD1. "The sky is clear and sunny." Here, "clear" means —
+  Look at Picture PD1. What is on the BOTTOM shelf of the fruit cart?
 - options:
-  - A: cloudy
-  - B: dark
-  - C: rainy
-  - D: without clouds
+  - A: Bananas
+  - B: Tomatoes
+  - C: Green chillies
+  - D: Oranges
 - answer: D
 - explanation: |
-  A clear sky has no clouds, so the sun can shine. "Sunny" is a helpful clue.
+  Bottom means the lowest shelf. It has round orange fruits, which are oranges. The bananas are on the top shelf.
 
 ### Q22
 - id: g4-eng-ch01-b-22
@@ -742,18 +763,21 @@ In this picture, there is a busy market in the morning. On the left, an old woma
 
 ### Q23
 - id: g4-eng-ch01-b-23
-- skill: word-meaning
+- skill: story-details
 - difficulty: easy
+- visual: visuals/g4-eng-ch01-b-23.svg
+- visual_alt: |
+  A colourful school poster about Sports Day with flags at the top.
 - stem: |
-  Read Passage P2. "Her eyes watered." This means her eyes —
+  Look at the Sports Day poster. What should children wear on Sports Day?
 - options:
-  - A: were full of soap
-  - B: filled with tears
-  - C: turned blue
-  - D: closed tightly
+  - A: Their school uniform
+  - B: A white T-shirt and sports shoes
+  - C: A raincoat
+  - D: A party dress
 - answer: B
 - explanation: |
-  When eyes "water," tears come into them. Spicy food or a cut onion can make our eyes water.
+  Posters often have a box with special instructions. Read the box that says "What to wear".
 
 ### Q24
 - id: g4-eng-ch01-b-24
@@ -769,3 +793,16 @@ In this picture, there is a busy market in the morning. On the left, an old woma
 - answer: A
 - explanation: |
   They work as a team and stay out all day. They end "tired but happy," which shows they enjoyed it together.
+
+## Visual spec
+For engineering: how the picture fields work in all Grade 4 chapter files.
+
+- **Item-level visual.** These two fields come straight after `- difficulty:`:
+  - `- visual: visuals/<item-id>.svg` is a path relative to the chapter file.
+  - `- visual_alt: |` is a one-sentence screen-reader description. It never gives the answer away.
+- **Passage-level visual.** A notice, picture or poem card used by several items. The `- visual:` and `- visual_alt:` lines sit under the passage heading in the Passage bank, and the file is named `visuals/<chapter-id>-<passage-id>.svg` (e.g. `g4-eng-ch01-N1.svg`). Items that say "Read Notice N1" or "Look at Picture PD1" use that passage's visual, so they carry no visual field of their own.
+- **`visual_longdesc`** (PD1 only) is a full text equivalent for text-only or screen-reader mode. PD1 has no other text, so its questions need either the image or this long description.
+- **Render size.** SVGs use a `viewBox` (most are 400×260; N1 is 400×340, PD1 505×310, the poem card 400×320). Scale them to the container width and keep the aspect ratio. Text is at least 14 px at native size, uses `font-family="sans-serif"`, and there are no external assets or scripts.
+- **Placement.** Show a stem visual above the stem text. Show a passage visual with the passage, and keep it visible (or one tap away) while its items are answered.
+- **Picture options.** None are used: every visual item has text options A–D. The `<item-id>-A.svg` convention is reserved for later.
+- **Meta.** `visual_items` counts every item that needs a picture to answer, whether the picture belongs to the item or to its passage. `visual_passages` lists the passages that have a visual.

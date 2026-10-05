@@ -99,11 +99,16 @@ Screenshots (mobile 430×900):
 Quiz items support optional stem/option `figure` specs. Writer `**Diagram (SVG):**` blocks are
 ingest-sanitized and rendered as **original in-app SVG** (no copyrighted SOF scans).
 
-**Grade 4 live pictorial (~37% of MCQs / set = 18 of 48 per chapter):**
-- Maths Ch1 Large Numbers · Maths Ch2 Multiplication & Division
-- Science Ch1 Food · Ch2 Solids/Liquids/Gases · Ch3 Water
+**Live pictorial (≈9 of 24 MCQs per set = 18 of 48 per chapter, unless noted):**
+- **G3 Science** Ch1 Plant Parts · Ch2 Animals Food & Homes · Ch3 Sense Organs (inline SVG)
+- **G3 Maths** Ch1 Numbers (pictorial addendum)
+- **G4 Maths** Ch1 Large Numbers · Ch2 Mul/Div · Ch3 Fractions (pictorial addenda)
+- **G4 Science** Ch1 Food · Ch2 Matter · Ch3 Water (inline SVG)
+- **G4 English** Ch1 Reading (18) · Ch2 Grammar (16) · Ch3 Words (18) — external `visual:` SVGs inlined at ingest, with `visual_alt` / `visual_longdesc`
 
-Writers: `docs/sof-source/FIGURE-SPEC.md`. Ingest: `scripts/ingest_g4_maths_pictorial.py`, `scripts/ingest_g4_science.py`.
+Writers: `docs/sof-source/FIGURE-SPEC.md`.
+Ingest: `scripts/ingest_g3_science_pictorial.py`, `scripts/ingest_g3_maths_pictorial.py`,
+`scripts/ingest_g4_maths_pictorial.py`, `scripts/ingest_g4_science.py`, `scripts/ingest_g4_english.py`.
 
 
 ## Deploying to GitHub Pages

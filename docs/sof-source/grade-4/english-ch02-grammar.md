@@ -7,6 +7,8 @@
 - skills: [nouns, pronouns, adjectives, verbs-and-tenses, articles, prepositions, helping-verbs]
 - sets: 2
 - items_per_set: 24
+- visual_items: 16
+- visual_passages: []
 
 ## Interactive lesson outline
 - L1: Hello, word worker! Welcome to the Word Workshop, where we build sentences together.
@@ -169,8 +171,12 @@ Our new classroom is on the first floor. There is a big window next to my desk. 
 - id: g4-eng-ch02-a-09
 - skill: nouns
 - difficulty: easy
+- visual: visuals/g4-eng-ch02-a-09.svg
+- visual_alt: |
+  Two boxes: one shows a single child, and the other shows a group of three kids with a question mark label.
 - stem: |
-  What is the plural of "child"?
+  Look at the picture. Fill in the blank.
+  "One child, three ___."
 - options:
   - A: childs
   - B: childes
@@ -178,14 +184,18 @@ Our new classroom is on the first floor. There is a big window next to my desk. 
   - D: children
 - answer: D
 - explanation: |
-  Some plurals don't add -s. One child, many children. Never say "childrens."
+  Some plurals don't add -s. One child, many children. Never say "childrens".
 
 ### Q10
 - id: g4-eng-ch02-a-10
 - skill: nouns
 - difficulty: easy
+- visual: visuals/g4-eng-ch02-a-10.svg
+- visual_alt: |
+  Two panels: one shows a single cardboard box, and the other shows a larger number of them with a question mark label.
 - stem: |
-  What is the plural of "box"?
+  Look at the picture. Fill in the blank.
+  "One box, two ___."
 - options:
   - A: boxes
   - B: boxs
@@ -193,14 +203,17 @@ Our new classroom is on the first floor. There is a big window next to my desk. 
   - D: boxies
 - answer: A
 - explanation: |
-  Words ending in x, s, sh or ch add -es: box becomes boxes, bus becomes buses, dish becomes dishes.
+  Words ending in x, s, sh or ch add -es. So box becomes boxes, bus becomes buses and dish becomes dishes.
 
 ### Q11
 - id: g4-eng-ch02-a-11
 - skill: nouns
 - difficulty: easy
+- visual: visuals/g4-eng-ch02-a-11.svg
+- visual_alt: |
+  A king with a crown stands next to a grown-up woman wearing a crown, who is labelled with a question mark.
 - stem: |
-  What is the opposite gender of "king"?
+  Look at the picture. The king is standing next to the ___.
 - options:
   - A: prince
   - B: man
@@ -208,7 +221,7 @@ Our new classroom is on the first floor. There is a big window next to my desk. 
   - D: princess
 - answer: C
 - explanation: |
-  King and queen are a pair. Prince and princess are another pair.
+  The woman is a grown-up and wears a crown. A king's partner is a queen. A prince and a princess are young.
 
 ### Q12
 - id: g4-eng-ch02-a-12
@@ -229,9 +242,11 @@ Our new classroom is on the first floor. There is a big window next to my desk. 
 - id: g4-eng-ch02-a-13
 - skill: pronouns
 - difficulty: easy
+- visual: visuals/g4-eng-ch02-a-13.svg
+- visual_alt: |
+  A boy named Ravi points at his friend Sita and says a sentence with a missing word.
 - stem: |
-  Choose the correct pronoun.
-  "Sita is my friend. ___ lives near my house."
+  Look at the picture. Ravi points to his friend. Which word fills the blank in his speech bubble?
 - options:
   - A: She
   - B: He
@@ -239,15 +254,17 @@ Our new classroom is on the first floor. There is a big window next to my desk. 
   - D: They
 - answer: A
 - explanation: |
-  Sita is a girl, so we use "she" in place of her name.
+  Ravi is pointing at Sita, who is a girl, so we use "she" in place of her name.
 
 ### Q14
 - id: g4-eng-ch02-a-14
 - skill: pronouns
 - difficulty: medium
+- visual: visuals/g4-eng-ch02-a-14.svg
+- visual_alt: |
+  Two children named Anu and Rahul share a desk, and Anu speaks a sentence with a missing word.
 - stem: |
-  Choose the correct pronoun.
-  "Rahul and I are in the same class. ___ sit together."
+  Look at the picture. Which word fills the blank in Anu's speech bubble?
 - options:
   - A: They
   - B: He
@@ -255,7 +272,7 @@ Our new classroom is on the first floor. There is a big window next to my desk. 
   - D: You
 - answer: C
 - explanation: |
-  "Rahul and I" includes the speaker, so the pronoun is "we."
+  Anu is talking about Rahul and herself. "Rahul and I" includes the speaker, so the pronoun is "we".
 
 ### Q15
 - id: g4-eng-ch02-a-15
@@ -308,17 +325,19 @@ Our new classroom is on the first floor. There is a big window next to my desk. 
 - id: g4-eng-ch02-a-18
 - skill: verbs-and-tenses
 - difficulty: easy
+- visual: visuals/g4-eng-ch02-a-18.svg
+- visual_alt: |
+  A baby lying in a cradle with small letters floating above.
 - stem: |
-  Choose the correct verb.
-  "Look! The baby ___."
+  Look at the picture. What is the baby doing right now?
 - options:
-  - A: sleep
-  - B: is sleeping
-  - C: slept
-  - D: sleeps
+  - A: The baby sleep.
+  - B: The baby is sleeping.
+  - C: The baby are sleeping.
+  - D: The baby is eating.
 - answer: B
 - explanation: |
-  "Look!" means it is happening right now. Use is/am/are + -ing.
+  The baby's eyes are closed, and "Z z z" shows sleep. For something happening now, use is + -ing.
 
 ### Q19
 - id: g4-eng-ch02-a-19
@@ -372,17 +391,20 @@ Our new classroom is on the first floor. There is a big window next to my desk. 
 - id: g4-eng-ch02-a-22
 - skill: prepositions
 - difficulty: medium
+- visual: visuals/g4-eng-ch02-a-22.svg
+- visual_alt: |
+  A wall clock showing a time, next to a plate of food labelled Lunch.
 - stem: |
-  Fill in the blank.
-  "We have lunch ___ one o'clock."
+  Look at the clock. Fill in the blank.
+  "We have lunch ___."
 - options:
-  - A: in
-  - B: on
-  - C: at
-  - D: under
+  - A: in one o'clock
+  - B: on one o'clock
+  - C: at one o'clock
+  - D: at three o'clock
 - answer: C
 - explanation: |
-  Use "at" with clock times: at one o'clock, at 5 p.m.
+  The short hand points to 1 and the long hand to 12, so it is one o'clock. Use "at" with clock times.
 
 ### Q23
 - id: g4-eng-ch02-a-23
@@ -401,19 +423,21 @@ Our new classroom is on the first floor. There is a big window next to my desk. 
 
 ### Q24
 - id: g4-eng-ch02-a-24
-- skill: nouns
+- skill: prepositions
 - difficulty: hard
+- visual: visuals/g4-eng-ch02-a-24.svg
+- visual_alt: |
+  A room with a table, and a cat, a red ball and a dog in different places around it.
 - stem: |
-  "The happy girl sang sweetly."
-  Which word in this sentence is a NOUN?
+  Look at the picture. Which sentence is TRUE?
 - options:
-  - A: girl
-  - B: happy
-  - C: sang
-  - D: sweetly
+  - A: The ball is under the table.
+  - B: The cat is under the table.
+  - C: The dog is on the table.
+  - D: The cat is beside the dog.
 - answer: A
 - explanation: |
-  A noun names a person, place, animal or thing. "Girl" names a person. Happy describes her, and sang is the action.
+  Check each one. The cat is ON the table, the dog is BESIDE the table, and the red ball is UNDER the table.
 
 ## Set B — Alternate quiz
 
@@ -541,8 +565,12 @@ Our new classroom is on the first floor. There is a big window next to my desk. 
 - id: g4-eng-ch02-b-09
 - skill: nouns
 - difficulty: easy
+- visual: visuals/g4-eng-ch02-b-09.svg
+- visual_alt: |
+  Two panels: one shows a single grey mouse, and the other shows a group of the same animal with a question mark label.
 - stem: |
-  What is the plural of "mouse"?
+  Look at the picture. Fill in the blank.
+  "One mouse, three ___."
 - options:
   - A: mouses
   - B: mice
@@ -550,14 +578,18 @@ Our new classroom is on the first floor. There is a big window next to my desk. 
   - D: meese
 - answer: B
 - explanation: |
-  Some plurals change their spelling completely: one mouse, two mice. One tooth, two teeth.
+  Some plurals change their spelling completely. One mouse, three mice, and one tooth, two teeth.
 
 ### Q10
 - id: g4-eng-ch02-b-10
 - skill: nouns
 - difficulty: hard
+- visual: visuals/g4-eng-ch02-b-10.svg
+- visual_alt: |
+  Two panels: one shows a single smiling baby, and the other shows a larger number of them with a question mark label.
 - stem: |
-  What is the plural of "baby"?
+  Look at the picture. Fill in the blank.
+  "One baby, two ___."
 - options:
   - A: babys
   - B: babyes
@@ -565,14 +597,17 @@ Our new classroom is on the first floor. There is a big window next to my desk. 
   - D: babies
 - answer: D
 - explanation: |
-  When a word ends in a consonant + y, change y to i and add -es: baby becomes babies, city becomes cities.
+  When a word ends in a consonant + y, change the y to i and add -es. So baby becomes babies and city becomes cities.
 
 ### Q11
 - id: g4-eng-ch02-b-11
 - skill: nouns
 - difficulty: easy
+- visual: visuals/g4-eng-ch02-b-11.svg
+- visual_alt: |
+  A family picture of Uncle Raj, a grown-up woman labelled with a question mark, and a girl named Meena.
 - stem: |
-  What is the opposite gender of "uncle"?
+  Look at the picture. The woman is Uncle Raj's wife. She is Meena's ___.
 - options:
   - A: aunt
   - B: niece
@@ -580,7 +615,7 @@ Our new classroom is on the first floor. There is a big window next to my desk. 
   - D: mother
 - answer: A
 - explanation: |
-  Uncle and aunt are a pair. Nephew and niece are another pair.
+  Uncle and aunt are a pair. An uncle's wife is your aunt.
 
 ### Q12
 - id: g4-eng-ch02-b-12
@@ -617,9 +652,11 @@ Our new classroom is on the first floor. There is a big window next to my desk. 
 - id: g4-eng-ch02-b-14
 - skill: pronouns
 - difficulty: medium
+- visual: visuals/g4-eng-ch02-b-14.svg
+- visual_alt: |
+  A girl named Kavya speaks to her teacher, who is holding a book, and her sentence has a missing word.
 - stem: |
-  Choose the correct pronoun.
-  "Please give the book to ___."
+  Look at the picture. Kavya wants the book for herself. Which word fills the blank in her speech bubble?
 - options:
   - A: I
   - B: me
@@ -627,23 +664,26 @@ Our new classroom is on the first floor. There is a big window next to my desk. 
   - D: she
 - answer: B
 - explanation: |
-  After words like "to," use me, him, her, us or them. We say "give it to me," not "to I."
+  Kavya wants the book given to herself. After "to", use me, him, her, us or them. We say "give it to me".
 
 ### Q15
 - id: g4-eng-ch02-b-15
 - skill: adjectives
 - difficulty: easy
+- visual: visuals/g4-eng-ch02-b-15.svg
+- visual_alt: |
+  Two boys of different heights make music, one with a drum and one with a flute.
 - stem: |
-  "The tall boy played the drum."
-  Which word describes the boy?
+  Look at the picture. Fill in the blank with the correct describing word.
+  "The ___ boy is playing the drum."
 - options:
-  - A: boy
-  - B: played
+  - A: short
+  - B: sleepy
   - C: tall
-  - D: drum
+  - D: sad
 - answer: C
 - explanation: |
-  "Tall" is an adjective. It tells us what the boy looks like.
+  Look carefully. The boy with the drum is much taller than the boy with the flute. "Tall" describes him.
 
 ### Q16
 - id: g4-eng-ch02-b-16
@@ -664,17 +704,19 @@ Our new classroom is on the first floor. There is a big window next to my desk. 
 - id: g4-eng-ch02-b-17
 - skill: verbs-and-tenses
 - difficulty: easy
+- visual: visuals/g4-eng-ch02-b-17.svg
+- visual_alt: |
+  Three children play a game together in a green field.
 - stem: |
-  Choose the correct verb.
-  "We ___ cricket now."
+  Look at the picture. Choose the sentence that correctly tells what the children are doing now.
 - options:
-  - A: are playing
-  - B: is playing
-  - C: am playing
-  - D: played
+  - A: They are playing cricket.
+  - B: They is playing cricket.
+  - C: They are playing football.
+  - D: They am playing cricket.
 - answer: A
 - explanation: |
-  "Now" means it is happening at this moment. With "we," use "are" + -ing.
+  The picture shows a bat, a ball and wickets, so it's cricket. With "they", use "are" + -ing.
 
 ### Q18
 - id: g4-eng-ch02-b-18
@@ -744,33 +786,39 @@ Our new classroom is on the first floor. There is a big window next to my desk. 
 - id: g4-eng-ch02-b-22
 - skill: prepositions
 - difficulty: medium
+- visual: visuals/g4-eng-ch02-b-22.svg
+- visual_alt: |
+  A one-month wall calendar with one date circled.
 - stem: |
-  Fill in the blank.
-  "My birthday is ___ July."
+  Look at the calendar. Riya circled her birthday. Fill in the blank.
+  "My birthday is ___."
 - options:
-  - A: in
-  - B: on
-  - C: at
-  - D: under
+  - A: in July
+  - B: on July
+  - C: at July
+  - D: in June
 - answer: A
 - explanation: |
-  Use "in" with months and years (in July), "on" with days (on Monday), and "at" with times (at 3 o'clock).
+  The calendar page shows July. Use "in" with months, "on" with days and dates, and "at" with times.
 
 ### Q23
 - id: g4-eng-ch02-b-23
 - skill: prepositions
 - difficulty: easy
+- visual: visuals/g4-eng-ch02-b-23.svg
+- visual_alt: |
+  A bedroom with a bed on four legs and an orange cat hiding near it.
 - stem: |
-  Fill in the blank.
+  Look at the picture. Fill in the blank.
   "The cat is hiding ___ the bed."
 - options:
-  - A: at
-  - B: of
-  - C: to
+  - A: on
+  - B: beside
+  - C: behind
   - D: under
 - answer: D
 - explanation: |
-  "Under" means below something. A cat often hides below the bed.
+  The cat is on the floor, below the bed and between its legs. "Under" means below something.
 
 ### Q24
 - id: g4-eng-ch02-b-24

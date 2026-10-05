@@ -147,26 +147,27 @@ def answer_key(md, set_label):
     sec = md.split("## Answer Key")[1].split("### Set %s" % set_label)[1].split("### Set")[0]
     return [r.group(1).lower() for r in re.finditer(r"^\|\s*Q\d+\s*\|\s*([A-D])\s*\|", sec, re.M)]
 
-src_dir = ROOT / "sof-maths/grade-3"
-done, skipped = [], []
-for p in sorted(src_dir.glob("*.md")):
-    spec = CHAPTERS.get(p.name)
-    if not spec:
-        skipped.append(p.name); continue
-    md = p.read_text()
-    a, b = maths_sets(md, spec["prefix"])
-    for label, qs in (("A", a), ("B", b)):
-        assert len(qs) == 24, "%s set %s has %d questions" % (p.name, label, len(qs))
-        key = answer_key(md, label)
-        got = [q["answerId"] for q in qs]
-        assert key == got, "%s set %s answer key mismatch:\n key=%s\n got=%s" % (p.name, label, key, got)
-        for q in qs:
-            assert len(q["options"]) == 4 and len({o["text"] for o in q["options"]}) == 4, q["id"]
-    emit_module(OUT / spec["file"], spec["export"], spec["meta"], spec["lesson"], a, b)
-    d = DOCS / "grade-3"; d.mkdir(parents=True, exist_ok=True)
-    (d / spec["doc"]).write_text(md)
-    done.append(p.name)
+if __name__ == "__main__":
+    src_dir = ROOT / "sof-maths/grade-3"
+    done, skipped = [], []
+    for p in sorted(src_dir.glob("*.md")):
+        spec = CHAPTERS.get(p.name)
+        if not spec:
+            skipped.append(p.name); continue
+        md = p.read_text()
+        a, b = maths_sets(md, spec["prefix"])
+        for label, qs in (("A", a), ("B", b)):
+            assert len(qs) == 24, "%s set %s has %d questions" % (p.name, label, len(qs))
+            key = answer_key(md, label)
+            got = [q["answerId"] for q in qs]
+            assert key == got, "%s set %s answer key mismatch:\n key=%s\n got=%s" % (p.name, label, key, got)
+            for q in qs:
+                assert len(q["options"]) == 4 and len({o["text"] for o in q["options"]}) == 4, q["id"]
+        emit_module(OUT / spec["file"], spec["export"], spec["meta"], spec["lesson"], a, b)
+        d = DOCS / "grade-3"; d.mkdir(parents=True, exist_ok=True)
+        (d / spec["doc"]).write_text(md)
+        done.append(p.name)
 
-print("ingested:", done)
-if skipped:
-    print("SKIPPED (no lesson spec yet):", skipped)
+    print("ingested:", done)
+    if skipped:
+        print("SKIPPED (no lesson spec yet):", skipped)

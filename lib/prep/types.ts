@@ -275,15 +275,20 @@ export type FigureSpec =
       type: "image";
       src: string;
       alt: string;
+      /** Optional full text equivalent for screen readers (e.g. picture-only passages). */
+      longdesc?: string;
     }
   | {
       /**
-       * Writer-authored inline SVG from `**Diagram (SVG):**` fenced blocks.
+       * Writer-authored inline SVG from `**Diagram (SVG):**` fenced blocks,
+       * or sanitized external chapter visuals (English `visual:` SVGs inlined at ingest).
        * Must be sanitized (no script / event handlers) before render.
        */
       type: "svg";
       markup: string;
       alt?: string;
+      /** Optional full text equivalent for screen readers (e.g. PD1 picture passages). */
+      longdesc?: string;
     };
 
 export interface PrepChoice {
