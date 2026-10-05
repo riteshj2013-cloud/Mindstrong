@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { Mascot } from "@/components/ui/Mascot";
 import type { PrepQuestion } from "@/lib/prep/types";
@@ -13,11 +13,15 @@ export function QuizPlayer({
   title,
   questions,
   onFinish,
+  onContinue,
   tryBeforeHint = true,
 }: {
   title: string;
   questions: PrepQuestion[];
+  /** Persist score — called once as soon as the set completes (idempotent). */
   onFinish: (correct: number, total: number) => void;
+  /** Navigate away; defaults to a no-op after auto-save. */
+  onContinue?: () => void;
   tryBeforeHint?: boolean;
 }) {
   const [i, setI] = useState(0);
@@ -26,6 +30,7 @@ export function QuizPlayer({
   const [hints, setHints] = useState<Record<string, number>>({});
   const [revealed, setRevealed] = useState(false);
   const [done, setDone] = useState(false);
+  const savedRef = useRef(false);
 
   const q = questions[i];
   const total = questions.length;
@@ -33,6 +38,12 @@ export function QuizPlayer({
     () => questions.filter((qq) => answers[qq.id] === qq.answerId).length,
     [answers, questions],
   );
+
+  useEffect(() => {
+    if (!done || savedRef.current) return;
+    savedRef.current = true;
+    onFinish(correctCount, total);
+  }, [done, correctCount, total, onFinish]);
 
   if (!q && !done) return null;
 
@@ -44,8 +55,8 @@ export function QuizPlayer({
         <p className="font-display text-4xl font-semibold text-coral">
           {correctCount}/{total}
         </p>
-        <p className="text-ink/60">Brave tries count. Review explanations as you go next time.</p>
-        <Button onClick={() => onFinish(correctCount, total)}>Save & continue</Button>
+        <p className="text-ink/60">Score saved. Brave tries count!</p>
+        <Button onClick={() => (onContinue ? onContinue() : undefined)}>Continue</Button>
       </div>
     );
   }

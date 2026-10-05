@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/Button";
+import { NavChip } from "@/components/ui/NavChip";
 import { PHASE_META, PLAY_PHASES, type ContentPack, type PlayPhase } from "@/lib/types";
 import { remainingByPhase } from "@/lib/session";
 
@@ -13,6 +14,12 @@ const PHASE_COLORS: Record<PlayPhase, string> = {
   reflect: "bg-sun/70",
 };
 
+function labelList(phases: PlayPhase[], pack: ContentPack): string {
+  return phases
+    .map((p) => pack.phases[p]?.kidTitle || PHASE_META[p].label)
+    .join(" · ");
+}
+
 export function SectionPicker({
   pack,
   selected,
@@ -21,6 +28,7 @@ export function SectionPicker({
   onCancel,
   exhausted,
   onRestart,
+  lastSaved,
 }: {
   pack: ContentPack;
   selected: PlayPhase[];
@@ -29,9 +37,16 @@ export function SectionPicker({
   onCancel?: () => void;
   exhausted?: boolean;
   onRestart?: () => void;
+  /** Last persisted selection — hint + restore target when toggling off “all”. */
+  lastSaved?: PlayPhase[];
 }) {
   const remaining = remainingByPhase(pack);
   const selectedCount = selected.reduce((n, p) => n + remaining[p], 0);
+  const allOn = PLAY_PHASES.every((p) => selected.includes(p));
+  const hintPhases =
+    lastSaved && lastSaved.length > 0
+      ? PLAY_PHASES.filter((p) => lastSaved.includes(p))
+      : null;
 
   function toggle(phase: PlayPhase) {
     if (selected.includes(phase)) {
@@ -41,8 +56,16 @@ export function SectionPicker({
     }
   }
 
-  function selectAll() {
-    onChange([...PLAY_PHASES]);
+  function onToggleAll() {
+    if (allOn) {
+      if (hintPhases && hintPhases.length > 0 && hintPhases.length < PLAY_PHASES.length) {
+        onChange(hintPhases);
+      } else {
+        onChange(["warm_up"]);
+      }
+    } else {
+      onChange([...PLAY_PHASES]);
+    }
   }
 
   return (
@@ -52,6 +75,22 @@ export function SectionPicker({
         <p className="text-sm font-bold text-ink/55">
           Tap to turn on or off. We’ll skip ones you’ve already finished.
         </p>
+        {hintPhases && (
+          <p className="mt-1 text-xs font-bold text-ink/45">
+            Last time: {labelList(hintPhases, pack)}
+          </p>
+        )}
+      </div>
+
+      <div className="flex flex-wrap gap-2">
+        <NavChip tone={allOn ? "accent" : "soft"} onClick={onToggleAll} aria-pressed={allOn}>
+          {allOn ? "All sections ✓" : "Select all"}
+        </NavChip>
+        {onCancel && (
+          <NavChip tone="solid" onClick={onCancel}>
+            Cancel
+          </NavChip>
+        )}
       </div>
 
       <ul className="space-y-2">
@@ -98,17 +137,6 @@ export function SectionPicker({
           );
         })}
       </ul>
-
-      <div className="flex gap-2">
-        <Button variant="ghost" className="!min-h-12 !text-base" onClick={selectAll}>
-          All on
-        </Button>
-        {onCancel && (
-          <Button variant="ghost" className="!min-h-12 !text-base" onClick={onCancel}>
-            Cancel
-          </Button>
-        )}
-      </div>
 
       {exhausted ? (
         <div className="space-y-2 rounded-2xl bg-cream p-4">

@@ -1,39 +1,37 @@
-import Link from "next/link";
+"use client";
+
+import { usePathname } from "next/navigation";
+import { GateGuard } from "@/components/parent/GateGuard";
 import { Brand } from "@/components/ui/Brand";
+import { NavChip } from "@/components/ui/NavChip";
 
 export default function ParentLayout({ children }: { children: React.ReactNode }) {
-  return (
+  const pathname = usePathname() ?? "";
+  const isGate = pathname.includes("/parent/gate");
+
+  const shell = (
     <div className="flex flex-1 flex-col gap-4">
-      <header className="flex items-center justify-between border-b border-ink/10 pb-3">
+      <header className="flex flex-wrap items-center justify-between gap-2 border-b border-ink/10 pb-3">
         <Brand small />
-        <nav className="flex gap-1 text-sm font-bold">
-          <Link
-            href="/parent/progress"
-            className="rounded-full px-3 py-2 text-ink/60 hover:bg-white hover:text-ink"
-          >
+        <nav className="flex flex-wrap gap-2">
+          <NavChip href="/parent/progress" tone="soft">
             Progress
-          </Link>
-          <Link
-            href="/parent/settings"
-            className="rounded-full px-3 py-2 text-ink/60 hover:bg-white hover:text-ink"
-          >
+          </NavChip>
+          <NavChip href="/parent/settings" tone="soft">
             Settings
-          </Link>
-          <Link
-            href="/plans"
-            className="rounded-full px-3 py-2 text-ink/60 hover:bg-white hover:text-ink"
-          >
+          </NavChip>
+          <NavChip href="/plans" tone="soft">
             Plans
-          </Link>
-          <Link
-            href="/"
-            className="rounded-full bg-white px-3 py-2 text-ink shadow-soft"
-          >
+          </NavChip>
+          <NavChip href="/" tone="solid">
             Kid view
-          </Link>
+          </NavChip>
         </nav>
       </header>
       {children}
     </div>
   );
+
+  if (isGate) return shell;
+  return <GateGuard>{shell}</GateGuard>;
 }

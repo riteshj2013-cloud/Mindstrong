@@ -31,11 +31,14 @@ export default function PrepPaperPage() {
     (correct: number, total: number) => {
       if (!subject || grade == null) return;
       savePaperScore(subject, grade, correct, total);
-      savePrepActive(null);
-      router.push("/prep");
     },
-    [subject, grade, router],
+    [subject, grade],
   );
+
+  const onContinue = useCallback(() => {
+    savePrepActive(null);
+    router.push("/prep");
+  }, [router]);
 
   if (active === undefined) {
     return (
@@ -73,7 +76,7 @@ export default function PrepPaperPage() {
   return (
     <main className="flex flex-1 flex-col gap-3">
       <header className="flex items-center justify-between">
-        <Link href="/prep" className="rounded-full bg-white px-3 py-2 text-sm font-bold shadow-soft">
+        <Link href="/prep" className="inline-flex min-h-11 items-center rounded-full bg-white px-4 py-2.5 text-sm font-bold text-ink shadow-soft border border-ink/10">
           ← Prep
         </Link>
         <p className="max-w-[60%] truncate text-center font-display text-sm font-semibold">
@@ -86,6 +89,7 @@ export default function PrepPaperPage() {
         questions={questions}
         tryBeforeHint={false}
         onFinish={onFinish}
+        onContinue={onContinue}
       />
     </main>
   );

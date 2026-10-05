@@ -33,11 +33,14 @@ export default function PrepQuizPage() {
     (correct: number, total: number) => {
       if (!subject || grade == null || !chapterId || !setId) return;
       saveSetScore(subject, grade, chapterId, setId, correct, total);
-      savePrepActive(null);
-      router.push("/prep");
     },
-    [subject, grade, chapterId, setId, router],
+    [subject, grade, chapterId, setId],
   );
+
+  const onContinue = useCallback(() => {
+    savePrepActive(null);
+    router.push("/prep");
+  }, [router]);
 
   if (active === undefined) {
     return (
@@ -77,7 +80,7 @@ export default function PrepQuizPage() {
   return (
     <main className="flex flex-1 flex-col gap-3">
       <header className="flex items-center justify-between">
-        <Link href="/prep" className="rounded-full bg-white px-3 py-2 text-sm font-bold shadow-soft">
+        <Link href="/prep" className="inline-flex min-h-11 items-center rounded-full bg-white px-4 py-2.5 text-sm font-bold text-ink shadow-soft border border-ink/10">
           ← Prep
         </Link>
         <p className="font-display text-base font-semibold">
@@ -89,6 +92,7 @@ export default function PrepQuizPage() {
         title={`${chapter?.title ?? ""} · ${set?.title ?? ""}`}
         questions={questions}
         onFinish={onFinish}
+        onContinue={onContinue}
       />
     </main>
   );

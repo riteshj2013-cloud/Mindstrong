@@ -9,10 +9,10 @@ import { Mascot } from "@/components/ui/Mascot";
 import { BAND_LABELS, ageToBand, clampAge } from "@/lib/content/age";
 import {
   clearAllCompleted,
-  clearDailyCompleted,
   clearPrepCompleted,
   countDailyDone,
   countPrepSetsDone,
+  restartDailyExercises,
   useCompleted,
 } from "@/lib/completed";
 import {
@@ -177,7 +177,7 @@ function SettingsInner() {
             <Button
               variant="warn"
               onClick={() => {
-                if (confirmDone === "daily") clearDailyCompleted();
+                if (confirmDone === "daily") restartDailyExercises();
                 else if (confirmDone === "prep") clearPrepCompleted();
                 else clearAllCompleted();
                 setConfirmDone(null);

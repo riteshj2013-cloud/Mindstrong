@@ -5,13 +5,16 @@ import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { Brand } from "@/components/ui/Brand";
 import { Button } from "@/components/ui/Button";
+import { NavChip } from "@/components/ui/NavChip";
 import { Mascot } from "@/components/ui/Mascot";
 import {
   ALL_GRADES,
   ALL_SUBJECTS,
   SUBJECT_META,
+  countTriedSets,
   getChapterProgress,
   getPrepPack,
+  getSetScore,
   gradeLabel,
   gradeSubtitle,
   isGradeReady,
@@ -129,12 +132,9 @@ export default function PrepHubPage() {
     <main className="flex flex-1 flex-col gap-5">
       <header className="flex items-center justify-between">
         <Brand />
-        <Link
-          href="/"
-          className="rounded-full bg-white px-3 py-2 text-sm font-bold text-ink/55 shadow-soft"
-        >
+        <NavChip href="/" tone="solid">
           Home
-        </Link>
+        </NavChip>
       </header>
 
       {stage === "subject" && (
@@ -177,7 +177,7 @@ export default function PrepHubPage() {
                 <button
                   type="button"
                   onClick={() => setConfirmRestart(true)}
-                  className="w-full rounded-2xl bg-cream px-3 py-3 text-sm font-bold text-ink/60"
+                  className="flex min-h-11 w-full items-center justify-center rounded-2xl border border-ink/15 bg-sun/70 px-3 py-3 text-sm font-bold text-ink shadow-soft"
                 >
                   Start over prep sets ({countPrepSetsDone(completed)} finished) 🔄
                 </button>
@@ -208,13 +208,9 @@ export default function PrepHubPage() {
 
       {stage === "grade" && subject && (
         <>
-          <button
-            type="button"
-            className="text-left text-sm font-bold text-ink/50"
-            onClick={() => setStage("subject")}
-          >
+          <NavChip tone="solid" onClick={() => setStage("subject")}>
             ← Subjects
-          </button>
+          </NavChip>
           <div>
             <h1 className="text-3xl font-semibold">{SUBJECT_META[subject].label}</h1>
             <p className="text-base font-semibold text-ink/60">
@@ -255,13 +251,9 @@ export default function PrepHubPage() {
 
       {stage === "path" && subject && grade && pack && (
         <>
-          <button
-            type="button"
-            className="text-left text-sm font-bold text-ink/50"
-            onClick={() => setStage("grade")}
-          >
+          <NavChip tone="solid" onClick={() => setStage("grade")}>
             ← Grades
-          </button>
+          </NavChip>
           <div>
             <h1 className="text-3xl font-semibold">
               {SUBJECT_META[subject].emoji} {gradeLabel(grade)}
@@ -293,18 +285,20 @@ export default function PrepHubPage() {
 
       {stage === "chapters" && subject && grade && pack && (
         <>
-          <button
-            type="button"
-            className="text-left text-sm font-bold text-ink/50"
-            onClick={() => setStage("path")}
-          >
+          <NavChip tone="solid" onClick={() => setStage("path")}>
             ← Paths
-          </button>
+          </NavChip>
           <h1 className="text-3xl font-semibold">Chapters</h1>
           <div className="grid gap-3">
             {pack.chapters.map((c) => {
               const cp = getChapterProgress(progress, subject, grade, c.id);
-              const setsDone = Object.keys(cp.sets).length;
+              const setsDone = countTriedSets(
+                progress,
+                subject,
+                grade,
+                c.id,
+                c.sets.map((s) => s.id),
+              );
               return (
                 <button
                   key={c.id}
@@ -333,13 +327,9 @@ export default function PrepHubPage() {
 
       {stage === "chapter" && subject && grade && chapter && (
         <>
-          <button
-            type="button"
-            className="text-left text-sm font-bold text-ink/50"
-            onClick={() => setStage("chapters")}
-          >
+          <NavChip tone="solid" onClick={() => setStage("chapters")}>
             ← Chapters
-          </button>
+          </NavChip>
           <div className="rounded-[2rem] bg-gradient-to-br from-plum/20 to-sky/20 p-5 shadow-soft">
             <p className="text-4xl">{chapter.emoji}</p>
             <h1 className="text-3xl font-semibold">{chapter.title}</h1>
@@ -370,7 +360,7 @@ export default function PrepHubPage() {
           <section className="space-y-3">
             <h2 className="text-xl font-semibold">Practice sets</h2>
             {chapter.sets.map((s) => {
-              const score = getChapterProgress(progress, subject, grade, chapter.id).sets[s.id];
+              const score = getSetScore(progress, subject, grade, chapter.id, s.id);
               const done = isPrepSetDone(subject, grade, chapter.id, s.id, completed);
               return (
                 <button

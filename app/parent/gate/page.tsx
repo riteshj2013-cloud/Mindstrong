@@ -1,8 +1,9 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
+import { Suspense, useEffect, useState } from "react";
 import { Button } from "@/components/ui/Button";
+import { NavChip } from "@/components/ui/NavChip";
 import { Mascot } from "@/components/ui/Mascot";
 import { gateIsOpen, passGate } from "@/lib/storage";
 
@@ -11,16 +12,26 @@ import { gateIsOpen, passGate } from "@/lib/storage";
  * Gate token lives in sessionStorage for ~30 minutes.
  */
 export default function ParentGatePage() {
+  return (
+    <Suspense fallback={<div className="flex flex-1 items-center justify-center"><Mascot size={72} float={false} /></div>}>
+      <ParentGateInner />
+    </Suspense>
+  );
+}
+
+function ParentGateInner() {
   const router = useRouter();
+  const search = useSearchParams();
+  const next = search.get("next") || "/parent/progress";
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
     if (gateIsOpen()) {
-      router.replace("/parent/progress");
+      router.replace(next);
       return;
     }
     setReady(true);
-  }, [router]);
+  }, [router, next]);
 
   if (!ready) {
     return (
@@ -43,14 +54,14 @@ export default function ParentGatePage() {
         <Button
           onClick={() => {
             passGate();
-            router.push("/parent/progress");
+            router.push(next);
           }}
         >
           I’m the grown-up
         </Button>
-        <Button variant="ghost" onClick={() => router.push("/")}>
+        <NavChip tone="soft" className="w-full !min-h-14 text-base" onClick={() => router.push("/")}>
           Oops, back to kid view
-        </Button>
+        </NavChip>
       </div>
     </main>
   );

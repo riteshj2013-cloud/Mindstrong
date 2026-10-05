@@ -21,6 +21,20 @@ export const DEFAULT_PREP_PROGRESS: PrepProgress = {
   paperScores: {},
 };
 
+/** Globally unique set progress key: chapter + set (pack already scopes subject+grade). */
+export function setStoreId(chapterId: string, setId: string): string {
+  if (setId.includes("::")) return setId;
+  return `${chapterId}::${setId}`;
+}
+
+function readSetScore(
+  sets: Record<string, { correct: number; total: number; at: string }>,
+  chapterId: string,
+  setId: string,
+) {
+  return sets[setStoreId(chapterId, setId)] ?? sets[setId];
+}
+
 /** Memoize by raw string so useSyncExternalStore gets referentially stable snapshots. */
 const cache = new Map<string, { raw: string | null; value: unknown }>();
 
@@ -147,9 +161,12 @@ export function saveSetScore(
     lessonDone: pack[chapterId]?.lessonDone ?? false,
     sets: { ...(pack[chapterId]?.sets ?? {}) },
   };
-  const prev = ch.sets[setId];
+  const sid = setStoreId(chapterId, setId);
+  const prev = readSetScore(ch.sets, chapterId, setId);
   if (!prev || correct >= prev.correct) {
-    ch.sets[setId] = { correct, total, at: new Date().toISOString() };
+    // Write namespaced key; drop legacy bare id if present to avoid double-count.
+    const { [setId]: _legacy, ...rest } = ch.sets;
+    ch.sets = { ...rest, [sid]: { correct, total, at: new Date().toISOString() } };
   }
   pack[chapterId] = ch;
   savePrepProgress({
@@ -180,4 +197,26 @@ export function rememberPrepChoice(subject: PrepSubject, grade: Grade) {
   const p = readPrepProgress();
   if (p.lastSubject === subject && p.lastGrade === grade) return;
   savePrepProgress({ ...p, lastSubject: subject, lastGrade: grade });
+}
+
+export function countTriedSets(
+  progress: PrepProgress,
+  subject: PrepSubject,
+  grade: Grade,
+  chapterId: string,
+  setIds: string[],
+): number {
+  const ch = getChapterProgress(progress, subject, grade, chapterId);
+  return setIds.filter((id) => !!readSetScore(ch.sets, chapterId, id)).length;
+}
+
+export function getSetScore(
+  progress: PrepProgress,
+  subject: PrepSubject,
+  grade: Grade,
+  chapterId: string,
+  setId: string,
+) {
+  const ch = getChapterProgress(progress, subject, grade, chapterId);
+  return readSetScore(ch.sets, chapterId, setId);
 }

@@ -4,6 +4,7 @@ import { useSyncExternalStore } from "react";
 import type { AgeBand, PlayPhase } from "./types";
 import type { Grade, PrepSubject } from "./prep/types";
 import { packKey } from "./prep/types";
+import { saveActiveSession } from "./storage";
 
 /**
  * Tracks which content items/sets have been finished so we don't repeat them
@@ -15,7 +16,7 @@ const CHANGE = "mindstrong:completed";
 
 export interface CompletedContent {
   v: 1;
-  /** Keys: `${ageBand}|${phase}|${itemId}` → ISO timestamp */
+  /** Keys: `${phase}|${itemId}` (legacy: `${ageBand}|${phase}|${itemId}`) → ISO */
   daily: Record<string, string>;
   /** Keys: `${subject}-g${grade}|${chapterId}|${setId}` → ISO timestamp */
   prepSets: Record<string, string>;
@@ -95,8 +96,16 @@ export function useCompleted(): CompletedContent | undefined {
   return useSyncExternalStore(subscribe, readCompleted, () => undefined);
 }
 
-export function dailyItemKey(ageBand: AgeBand, phase: PlayPhase, itemId: string): string {
-  return `${ageBand}|${phase}|${itemId}`;
+/** Canonical key — item ids are shared across age bands, so no-repeat is global. */
+export function dailyItemKey(_ageBand: AgeBand | null, phase: PlayPhase, itemId: string): string {
+  return `${phase}|${itemId}`;
+}
+
+function dailyKeyMatches(key: string, phase: PlayPhase, itemId: string): boolean {
+  const modern = `${phase}|${itemId}`;
+  if (key === modern) return true;
+  // Legacy mindstrong.v1 keys: `${ageBand}|${phase}|${itemId}`
+  return key.endsWith(`|${phase}|${itemId}`);
 }
 
 export function prepSetKey(
@@ -114,13 +123,16 @@ export function isDailyItemDone(
   itemId: string,
   store = readCompleted(),
 ): boolean {
-  return !!store.daily[dailyItemKey(ageBand, phase, itemId)];
+  void ageBand;
+  if (store.daily[dailyItemKey(null, phase, itemId)]) return true;
+  return Object.keys(store.daily).some((k) => dailyKeyMatches(k, phase, itemId));
 }
 
 export function markDailyItemDone(ageBand: AgeBand, phase: PlayPhase, itemId: string) {
-  const key = dailyItemKey(ageBand, phase, itemId);
+  void ageBand;
+  const key = dailyItemKey(null, phase, itemId);
   const prev = readCompleted();
-  if (prev.daily[key]) return;
+  if (isDailyItemDone(ageBand, phase, itemId, prev)) return;
   writeCompleted({
     ...prev,
     daily: { ...prev.daily, [key]: new Date().toISOString() },
@@ -166,6 +178,15 @@ export function clearDailyCompleted() {
   writeCompleted({ ...prev, daily: {} });
 }
 
+/**
+ * Start over daily: unlock finished items AND clear any in-progress session
+ * so the section picker shows instead of resuming a stale run.
+ */
+export function restartDailyExercises() {
+  clearDailyCompleted();
+  saveActiveSession(null);
+}
+
 /** Clear only prep set “done” history — keeps daily & streaks. */
 export function clearPrepCompleted() {
   const prev = readCompleted();
@@ -175,4 +196,5 @@ export function clearPrepCompleted() {
 /** Clear both daily + prep done history — does not touch streak/progress. */
 export function clearAllCompleted() {
   writeCompleted(DEFAULT_COMPLETED);
+  saveActiveSession(null);
 }

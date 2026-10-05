@@ -115,7 +115,7 @@ export function startSession(
   }
   const session: ActiveSession = {
     v: 1,
-    id: `${day}-${p.id}`,
+    id: `${day}-${p.id}-${Date.now()}`,
     date: day,
     packId: p.id,
     phase: phases[0],
@@ -203,6 +203,44 @@ export function phaseIndex(phase: Phase, phases: PlayPhase[] = PLAY_PHASES): num
   return phases.indexOf(phase as PlayPhase);
 }
 
+
+/** Rewrite intro/close “Next: …” copy from the selected session queue. */
+export function withDynamicNextCopy(
+  item: ItemSpec,
+  session: ActiveSession,
+  pack: ContentPack,
+): ItemSpec {
+  if (item.type !== "intro") return item;
+  const phase = currentPhase(session);
+  if (!phase) return item;
+  const ids = phaseItemIds(session, pack, phase);
+  const isLastInPhase = session.itemIndex >= ids.length - 1;
+  if (!isLastInPhase) return item;
+
+  const phases = sessionPhases(session);
+  const i = phases.indexOf(phase);
+  const nextPhase = i >= 0 && i + 1 < phases.length ? phases[i + 1] : null;
+
+  if (!nextPhase) {
+    return {
+      ...item,
+      cta: item.cta ? "Finish!" : item.cta,
+      body: item.body.map((line) =>
+        /^Next:/i.test(line.trim()) ? "That’s the last section — finish strong!" : line,
+      ),
+    };
+  }
+
+  const kid = pack.phases[nextPhase].kidTitle;
+  return {
+    ...item,
+    cta: `Next: ${kid}!`,
+    body: item.body.map((line) =>
+      /^Next:/i.test(line.trim()) ? `Next: ${kid}.` : line,
+    ),
+  };
+}
+
 function markCurrentDone(session: ActiveSession, pack: ContentPack) {
   const phase = currentPhase(session);
   if (!phase) return;
@@ -265,7 +303,11 @@ export function completeSession(session: ActiveSession): {
     if (item) markDailyItemDone(pack.ageBand, phase, item.id);
   }
 
-  const hardItem = pack.phases.hard_try.items.find((i) => i.type === "hard_try");
+  // Only credit brave/hard-try stats when that section was actually in this run.
+  const playedHard = sessionPhases(session).includes("hard_try");
+  const hardItem = playedHard
+    ? pack.phases.hard_try.items.find((i) => i.type === "hard_try")
+    : undefined;
   const hardResult = hardItem ? getResult(session, hardItem.id) : emptyResult();
 
   const triedBeforeHintCount = Object.values(session.results).filter(
@@ -292,22 +334,19 @@ export function completeSession(session: ActiveSession): {
   };
 
   const prev = read<Progress>(KEYS.progress, DEFAULT_PROGRESS);
-  const history = [
-    summary,
-    ...prev.history.filter((h) => h.date !== summary.date),
-  ].slice(0, 60);
+  // Append every completed session (do not overwrite same-day). Skipping Hard try
+  // in a later session must not erase an earlier brave try the same day.
+  const history = [summary, ...prev.history].slice(0, 60);
 
   const streakDays = streakAfter(prev, summary.date);
   const nextProgress: Progress = {
     streakDays,
     bestStreak: Math.max(prev.bestStreak, streakDays),
     lastCompletedDate: summary.date,
-    sessionsCompleted: Math.max(
-      prev.sessionsCompleted + (prev.history.some((h) => h.date === summary.date) ? 0 : 1),
-      history.filter((h) => h.completed).length,
-    ),
+    sessionsCompleted: prev.sessionsCompleted + 1,
     history,
   };
+
 
   const done: ActiveSession = {
     ...session,

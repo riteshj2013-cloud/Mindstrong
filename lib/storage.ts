@@ -51,7 +51,11 @@ export function read<T>(key: Key, fallback: T): T {
   if (typeof window === "undefined") return fallback;
   const raw = readRaw(key);
   const hit = cache.get(key);
-  if (hit && hit.raw === raw) return hit.value as T;
+  if (hit && hit.raw === raw) {
+    // write(null) caches value:null — treat as missing and use fallback
+    if (raw == null || hit.value === null || hit.value === undefined) return fallback;
+    return hit.value as T;
+  }
   let value: T = fallback;
   if (raw != null) {
     try {
@@ -142,7 +146,13 @@ export const useActiveSession = () => useStored<ActiveSession | null>(KEYS.sessi
 export const useSettings = () => useStored<Settings>(KEYS.settings, DEFAULT_SETTINGS);
 
 export function saveProfile(p: Profile) {
-  write(KEYS.profile, normalizeProfile(p) ?? p);
+  const next = normalizeProfile(p) ?? p;
+  const prev = normalizeProfile(read<Profile | null>(KEYS.profile, null));
+  write(KEYS.profile, next);
+  // Age change invalidates an in-progress daily session (pack/queue no longer match).
+  if (prev && next && prev.age !== next.age) {
+    write(KEYS.session, null);
+  }
 }
 export function saveSettings(s: Settings) {
   write(KEYS.settings, s);
@@ -155,7 +165,8 @@ export function saveProgress(p: Progress) {
 }
 
 export function resetProgress() {
-  write(KEYS.progress, null);
+  // Write explicit defaults so streak/history clear even with cache quirks.
+  write(KEYS.progress, { ...DEFAULT_PROGRESS });
   write(KEYS.session, null);
 }
 

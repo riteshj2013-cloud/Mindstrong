@@ -19,7 +19,7 @@ import { Mascot } from "@/components/ui/Mascot";
 import { getPack, packForToday } from "@/lib/content";
 import { mondayPack } from "@/lib/content/monday";
 import { clampAge } from "@/lib/content/age";
-import { clearDailyCompleted } from "@/lib/completed";
+import { restartDailyExercises } from "@/lib/completed";
 import { localDay } from "@/lib/date";
 import {
   advance,
@@ -34,6 +34,7 @@ import {
   setResult,
   startSession,
   todaySummary,
+  withDynamicNextCopy,
 } from "@/lib/session";
 import { canSpeak, itemSpeech, speak } from "@/lib/speech";
 import {
@@ -57,6 +58,7 @@ export default function SessionPage() {
   const [selected, setSelected] = useState<PlayPhase[]>([...PLAY_PHASES]);
   const [showPicker, setShowPicker] = useState(false);
   const [confirmRestart, setConfirmRestart] = useState(false);
+  const [confirmLeave, setConfirmLeave] = useState(false);
 
   useEffect(() => {
     if (active && active.date !== today) saveActiveSession(null);
@@ -135,6 +137,7 @@ export default function SessionPage() {
               onCancel={doneToday ? () => setShowPicker(false) : () => router.push("/")}
               exhausted={remaining === 0}
               onRestart={() => setConfirmRestart(true)}
+              lastSaved={settings?.dailySections}
             />
             {confirmRestart && (
               <div className="mt-3 space-y-2 rounded-[1.75rem] border-2 border-coral/40 bg-white p-4 shadow-soft">
@@ -145,7 +148,7 @@ export default function SessionPage() {
                 <Button
                   variant="warn"
                   onClick={() => {
-                    clearDailyCompleted();
+                    restartDailyExercises();
                     setConfirmRestart(false);
                   }}
                 >
@@ -186,17 +189,29 @@ export default function SessionPage() {
     router.push("/done");
   }
 
+  const displayItem = item ? withDynamicNextCopy(item, session, pack) : null;
+
   return (
     <main className="flex flex-1 flex-col gap-4">
       <header className="flex items-center justify-between gap-2">
-        <Link
-          href="/"
-          className="flex h-14 w-14 items-center justify-center rounded-full bg-white text-2xl shadow-soft"
-          aria-label="Pause and go home"
-          title="Pause — we’ll save your spot"
-        >
-          ⏸️
-        </Link>
+        <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => setConfirmLeave(true)}
+            className="inline-flex min-h-11 items-center rounded-full border border-ink/10 bg-white px-4 py-2.5 text-sm font-bold text-ink shadow-soft"
+            aria-label="Home"
+          >
+            Home
+          </button>
+          <Link
+            href="/"
+            className="flex h-11 w-11 items-center justify-center rounded-full border border-ink/10 bg-white text-xl shadow-soft"
+            aria-label="Pause and go home"
+            title="Pause — we’ll save your spot"
+          >
+            ⏸️
+          </Link>
+        </div>
         {phaseSpec && (
           <div className="flex items-center gap-2 rounded-full bg-white px-4 py-2 shadow-soft">
             <span aria-hidden className="text-xl">
@@ -225,46 +240,61 @@ export default function SessionPage() {
 
       <PhaseDots phase={session.phase} phases={phases} />
 
+      {confirmLeave && (
+        <div className="space-y-2 rounded-[1.75rem] border-2 border-sky/40 bg-white p-4 shadow-soft">
+          <p className="font-display text-lg font-semibold">Leave session?</p>
+          <p className="text-sm font-semibold text-ink/60">
+            Your progress is saved — you can resume from Home.
+          </p>
+          <Button variant="secondary" onClick={() => router.push("/")}>
+            Yes — go Home
+          </Button>
+          <Button variant="ghost" onClick={() => setConfirmLeave(false)}>
+            Keep playing
+          </Button>
+        </div>
+      )}
+
       <section
-        key={item?.id}
+        key={displayItem?.id ?? item?.id}
         className="flex flex-1 animate-fade-up flex-col gap-4 rounded-[2.5rem] bg-white/60 p-4 shadow-soft backdrop-blur-sm"
       >
-        {item?.type === "intro" && <IntroCard item={item} onNext={next} />}
-        {item?.type === "ritual" && <RitualCard item={item} onNext={next} />}
-        {item?.type === "model" && <ModelCard item={item} onNext={next} />}
-        {item?.type === "choice" && (
+        {displayItem?.type === "intro" && <IntroCard item={displayItem} onNext={next} />}
+        {displayItem?.type === "ritual" && <RitualCard item={displayItem} onNext={next} />}
+        {displayItem?.type === "model" && <ModelCard item={displayItem} onNext={next} />}
+        {displayItem?.type === "choice" && (
           <ChoiceCard
-            item={item}
-            result={getResult(session, item.id)}
+            item={displayItem}
+            result={getResult(session, displayItem.id)}
             onResult={onResult}
             onNext={next}
           />
         )}
-        {item?.type === "build" && (
+        {displayItem?.type === "build" && (
           <BuildCard
-            item={item}
-            result={getResult(session, item.id)}
+            item={displayItem}
+            result={getResult(session, displayItem.id)}
             onResult={onResult}
             onNext={next}
           />
         )}
-        {item?.type === "hard_try" && (
+        {displayItem?.type === "hard_try" && (
           <HardTryCard
-            item={item}
-            result={getResult(session, item.id)}
+            item={displayItem}
+            result={getResult(session, displayItem.id)}
             onResult={onResult}
             onNext={next}
           />
         )}
-        {item?.type === "reflect" && (
+        {displayItem?.type === "reflect" && (
           <ReflectCard
-            item={item}
+            item={displayItem}
             reflection={session.reflection ?? {}}
             onReflect={(r) => setReflection(session, r)}
             onFinish={finish}
           />
         )}
-        {!item && (
+        {!displayItem && (
           <div className="flex flex-1 flex-col items-center justify-center gap-4 text-center">
             <Mascot mood="cheer" size={100} />
             <p className="text-lg font-bold">Section complete!</p>

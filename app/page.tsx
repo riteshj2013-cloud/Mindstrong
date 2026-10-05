@@ -9,12 +9,14 @@ import { SiteFooter } from "@/components/auth/SiteFooter";
 import { AgePicker } from "@/components/ui/AgePicker";
 import { Brand } from "@/components/ui/Brand";
 import { Button } from "@/components/ui/Button";
+import { NavChip } from "@/components/ui/NavChip";
 import { Mascot, MascotSays } from "@/components/ui/Mascot";
 import { packForToday } from "@/lib/content";
 import { BAND_LABELS, ageToBand, clampAge } from "@/lib/content/age";
 import {
-  clearDailyCompleted,
+  clearAllCompleted,
   countDailyDone,
+  restartDailyExercises,
   useCompleted,
 } from "@/lib/completed";
 import { localDay } from "@/lib/date";
@@ -27,6 +29,7 @@ import {
 } from "@/lib/session";
 import {
   DEFAULT_SETTINGS,
+  resetProgress,
   saveProfile,
   saveSettings,
   useActiveSession,
@@ -85,6 +88,10 @@ export default function Home() {
           className="w-full max-w-sm space-y-4"
           onSubmit={(e) => {
             e.preventDefault();
+            // Fresh profile → clear any leftover progress/session/done history
+            // so home never shows phantom ✅ / streak / brave tries.
+            resetProgress();
+            clearAllCompleted();
             saveProfile({
               childName: name.trim().slice(0, 24),
               age: clampAge(age),
@@ -155,7 +162,8 @@ export default function Home() {
   }
 
   function doRestartDaily() {
-    clearDailyCompleted();
+    restartDailyExercises();
+    setPicking(true);
     setConfirmRestart(false);
   }
 
@@ -168,8 +176,8 @@ export default function Home() {
         <div className="flex items-center gap-2">
           <AccountButton />
           <Link
-            href="/parent/settings"
-            className="rounded-full bg-white/90 px-3 py-1.5 text-sm font-bold text-ink/60 shadow-soft"
+            href="/parent/gate?next=/parent/settings"
+            className="inline-flex min-h-11 items-center rounded-full border border-ink/10 bg-white px-4 py-2.5 text-sm font-bold text-ink shadow-soft"
             title={`${BAND_LABELS[ageToBand(childAge)]} · tap to change`}
           >
             Age {childAge}
@@ -202,6 +210,7 @@ export default function Home() {
           onCancel={() => setPicking(false)}
           exhausted={remainingSelected === 0}
           onRestart={() => setConfirmRestart(true)}
+          lastSaved={settings?.dailySections}
         />
       ) : (
         <section className="grid gap-3">
@@ -291,7 +300,7 @@ export default function Home() {
             <button
               type="button"
               onClick={() => setConfirmRestart(true)}
-              className="mt-3 w-full rounded-2xl bg-cream px-3 py-3 text-sm font-bold text-ink/60"
+              className="mt-3 flex min-h-11 w-full items-center justify-center rounded-2xl border border-ink/15 bg-sun/70 px-3 py-3 text-sm font-bold text-ink shadow-soft"
             >
               Start over daily exercises ({dailyDoneCount} finished) 🔄
             </button>
@@ -321,19 +330,13 @@ export default function Home() {
         </MascotSays>
       )}
 
-      <div className="flex flex-col items-center gap-1 py-2">
-        <Link
-          href="/plans"
-          className="text-sm font-bold text-ink/55 underline-offset-4 hover:underline"
-        >
+      <div className="flex flex-col items-center gap-2 py-2">
+        <NavChip href="/plans" tone="soft">
           Plans for families →
-        </Link>
-        <Link
-          href="/parent/gate"
-          className="text-sm font-bold text-ink/45 underline-offset-4 hover:underline"
-        >
+        </NavChip>
+        <NavChip href="/parent/gate" tone="solid">
           Grown-ups →
-        </Link>
+        </NavChip>
       </div>
 
       <SiteFooter />

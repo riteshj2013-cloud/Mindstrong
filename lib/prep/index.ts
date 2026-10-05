@@ -21,6 +21,9 @@ export {
   readPrepActive,
   clearPrepActive,
   DEFAULT_PREP_PROGRESS,
+  countTriedSets,
+  getSetScore,
+  setStoreId,
 } from "./progress";
 
 export function getChapterSetQuestions(
