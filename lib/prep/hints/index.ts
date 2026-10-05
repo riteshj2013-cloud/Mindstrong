@@ -1,13 +1,31 @@
 import type { PrepQuestion } from "../types";
 import type { HintOverlay } from "./types";
+import { G3_MATHS_HINTS } from "./g3-maths";
+import { G3_SCIENCE_HINTS } from "./g3-science";
 import { G4_MATHS_HINTS } from "./g4-maths";
 import { G4_SCIENCE_HINTS } from "./g4-science";
+import { G4_ENGLISH_HINTS } from "./g4-english";
+import { G5_MATHS_HINTS } from "./g5-maths";
+import { G5_SCIENCE_HINTS } from "./g5-science";
+import { G5_ENGLISH_HINTS } from "./g5-english";
+import { G8_MATHS_HINTS } from "./g8-maths";
+import { G8_SCIENCE_HINTS } from "./g8-science";
+import { G8_ENGLISH_HINTS } from "./g8-english";
 
 export type { HintOverlay } from "./types";
 
 const ALL_HINT_OVERLAYS: Record<string, HintOverlay> = {
+  ...G3_MATHS_HINTS,
+  ...G3_SCIENCE_HINTS,
   ...G4_MATHS_HINTS,
   ...G4_SCIENCE_HINTS,
+  ...G4_ENGLISH_HINTS,
+  ...G5_MATHS_HINTS,
+  ...G5_SCIENCE_HINTS,
+  ...G5_ENGLISH_HINTS,
+  ...G8_MATHS_HINTS,
+  ...G8_SCIENCE_HINTS,
+  ...G8_ENGLISH_HINTS,
 };
 
 /** Phrases the ingest pipeline stamps when the writer left hints blank. */
@@ -45,10 +63,21 @@ export function applyHintsList(qs: PrepQuestion[]): PrepQuestion[] {
 }
 
 export function hintOverlayStats(): Record<string, number> {
-  const stats: Record<string, number> = {
-    "g4-maths": Object.keys(G4_MATHS_HINTS).length,
-    "g4-science": Object.keys(G4_SCIENCE_HINTS).length,
+  const packs: Record<string, Record<string, HintOverlay>> = {
+    "g3-maths": G3_MATHS_HINTS,
+    "g3-science": G3_SCIENCE_HINTS,
+    "g4-maths": G4_MATHS_HINTS,
+    "g4-science": G4_SCIENCE_HINTS,
+    "g4-english": G4_ENGLISH_HINTS,
+    "g5-maths": G5_MATHS_HINTS,
+    "g5-science": G5_SCIENCE_HINTS,
+    "g5-english": G5_ENGLISH_HINTS,
+    "g8-maths": G8_MATHS_HINTS,
+    "g8-science": G8_SCIENCE_HINTS,
+    "g8-english": G8_ENGLISH_HINTS,
   };
+  const stats: Record<string, number> = {};
+  for (const [k, v] of Object.entries(packs)) stats[k] = Object.keys(v).length;
   stats.total = Object.values(stats).reduce((a, b) => a + b, 0);
   return stats;
 }
