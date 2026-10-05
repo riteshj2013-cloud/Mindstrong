@@ -496,10 +496,10 @@ const SET_B: PrepQuestion[] = [
       { id: "a", text: "500" },
       { id: "b", text: "499" },
       { id: "c", text: "501" },
-      { id: "d", text: "502" }
+      { id: "d", text: "504" }
     ],
     answerId: "a",
-    explanation: "The numbers between are 499, 500 and 501, and only 500 is even.",
+    explanation: "The numbers between 498 and 502 are 499, 500 and 501, and only 500 is even. 504 is even, but it is bigger than 502.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

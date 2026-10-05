@@ -582,13 +582,13 @@ const SET_B: PrepQuestion[] = [
     id: "g5-eng-ch03-b-q21",
     prompt: "Which sentence is punctuated correctly?",
     options: [
-      { id: "a", text: "Ramu's sister said, \"come home early.\"" },
-      { id: "b", text: "Ramus sister said, \"Come home early.\"" },
+      { id: "a", text: "Ramu's sister said, come home early." },
+      { id: "b", text: "Ramus sister said \"Come home early\"." },
       { id: "c", text: "Ramu's sister said, \"Come home early.\"" },
-      { id: "d", text: "Ramu's sister said \"come home early\"" }
+      { id: "d", text: "\"Ramu's sister said, Come home early.\"" }
     ],
     answerId: "c",
-    explanation: "You need an apostrophe for belonging (Ramu's) and a comma before the speech. The spoken words begin with a capital, and the full stop goes inside the inverted commas.",
+    explanation: "Only C is fully correct: Ramu's needs an apostrophe for belonging, a comma comes before the speech, inverted commas go around only the spoken words, and the full stop goes inside them. A has no inverted commas, B misses the apostrophe and comma and puts the full stop outside, and D puts the inverted commas around the whole sentence.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {

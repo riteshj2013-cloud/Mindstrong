@@ -1,5 +1,6 @@
 import type { PrepQuestion } from "../types";
 import { G4_PICTORIAL_OVERLAYS, G4_PICTORIAL_STATS } from "./g4-overlays";
+import { cleanQuestion } from "../cleanText";
 
 const ALL_OVERLAYS = {
   ...G4_PICTORIAL_OVERLAYS,
@@ -26,7 +27,7 @@ export function applyPictorial(q: PrepQuestion): PrepQuestion {
 }
 
 export function applyPictorialList(qs: PrepQuestion[]): PrepQuestion[] {
-  return qs.map(applyPictorial);
+  return qs.map((q) => cleanQuestion(applyPictorial(q)));
 }
 
 export function pictorialStats() {

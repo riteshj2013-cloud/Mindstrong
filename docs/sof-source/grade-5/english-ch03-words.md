@@ -738,13 +738,13 @@ Ammu had butterflies in her stomach. Her teacher, Mr. D'Souza, had asked for a v
 - stem: |
   Which sentence is punctuated correctly?
 - options:
-  - A: Ramu's sister said, "come home early."
-  - B: Ramus sister said, "Come home early."
+  - A: Ramu's sister said, come home early.
+  - B: Ramus sister said "Come home early".
   - C: Ramu's sister said, "Come home early."
-  - D: Ramu's sister said "come home early"
+  - D: "Ramu's sister said, Come home early."
 - answer: C
 - explanation: |
-  You need an apostrophe for belonging (Ramu's) and a comma before the speech. The spoken words begin with a capital, and the full stop goes inside the inverted commas.
+  Only C is fully correct: Ramu's needs an apostrophe for belonging, a comma comes before the speech, inverted commas go around only the spoken words, and the full stop goes inside them. A has no inverted commas, B misses the apostrophe and comma and puts the full stop outside, and D puts the inverted commas around the whole sentence.
 
 ### Q22
 - id: g5-eng-ch03-b-22

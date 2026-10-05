@@ -2,12 +2,63 @@
 /**
  * Parse writer markdown into SOF chapter TypeScript modules.
  * Usage: node scripts/ingest-sof-md.mjs
+ *
+ * LEGACY: G5 Science Ch1 and G5 Maths Ch1 are now produced by scripts/ingest_g5_pictorial.py
+ * (with SVG figures). Re-running this script overwrites those modules WITHOUT figures —
+ * only use it for g5-english-detective, or port that chapter to Python.
  */
 import fs from "fs";
 import path from "path";
 
 const ROOT = "/workspace/mindstrong";
-const OUT = "/workspace/Mindstrong/lib/prep/content";
+// Write into THIS checkout/worktree (not a hard-coded clone).
+const OUT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "../lib/prep/content");
+
+// ---- Editorial stripping: writer/editor sections must never reach kids ----
+const EDITORIAL_HEADING_RE =
+  /^(#{1,6})[ \t]*\**[ \t]*(?:meta(?:data)?|pictorial notes?|visual (?:spec|notes?)|figure (?:spec|library|notes?)|engineering notes?|writer(?:'s)? notes?|editor(?:ial|'s)? notes?|notes? (?:for|to) (?:writers?|editors?|reviewers?|engineers?)|review(?:er)? notes?|qa(?: notes?| checklist)?|internal(?: notes?)?|todo|changelog|sources?(?: notes?)?|coverage(?: notes?)?|accessibility notes?)\b.*$/i;
+const LEAK_PATTERNS = [
+  [/(^|\n)[ \t]*#{1,6}[ \t]/, "markdown heading"],
+  [/pictorial notes/i, "Pictorial notes"],
+  [/visual spec/i, "Visual spec"],
+  [/not copied|copied or traced|past papers?/i, "sourcing note"],
+  [/\bSOF\b/, "SOF branding"],
+  [/\b(?:IMO|IEO|NSO)\b/, "exam branding"],
+  [/\b(?:TODO|FIXME|TBD)\b/, "TODO"],
+  [/\bmarkers? (?:ids?|named)\b|uniquely named marker/i, "SVG marker id"],
+];
+
+/** Drop writer/editor-only sections (heading → next heading of same/higher level). */
+function stripEditorialSections(md) {
+  const out = [];
+  let skip = null;
+  let fence = false;
+  for (const line of md.split("\n")) {
+    if (line.trimStart().startsWith("```")) fence = !fence;
+    const h = fence ? null : line.match(/^(#{1,6})\s/);
+    if (skip !== null) {
+      if (h && h[1].length <= skip) skip = null;
+      else continue;
+    }
+    const m = fence ? null : line.match(EDITORIAL_HEADING_RE);
+    if (m) {
+      skip = m[1].length;
+      continue;
+    }
+    out.push(line);
+  }
+  return out.join("\n");
+}
+
+/** Item text never contains headings: cut at the first one; trim trailing rules. */
+function cleanItemText(s) {
+  if (!s) return s || "";
+  return ("\n" + s).split(/\n[ \t]*#{1,6}[ \t]/)[0].slice(1).replace(/\s*(-{3,}\s*)+$/, "").trim();
+}
+
+function readWriterMd(p) {
+  return stripEditorialSections(fs.readFileSync(p, "utf8"));
+}
 
 function letterToId(L) {
   return L.toLowerCase();
@@ -21,6 +72,15 @@ function esc(s) {
 }
 
 function qToTs(q) {
+  q.prompt = cleanItemText(q.prompt);
+  q.explanation = cleanItemText(q.explanation || "");
+  q.hints = (q.hints || []).map(cleanItemText);
+  for (const o of q.options) o.text = cleanItemText(o.text);
+  for (const [name, text] of [["prompt", q.prompt], ["explanation", q.explanation], ...q.hints.map((h) => ["hint", h]), ...q.options.map((o) => ["option " + o.id, o.text])]) {
+    for (const [rx, label] of LEAK_PATTERNS) {
+      if (text && rx.test(text)) throw new Error(`Editorial leak (${label}) in ${q.id} ${name}: ${text.slice(0, 120)}`);
+    }
+  }
   const opts = q.options
     .map((o) => `      { id: "${o.id}", text: ${JSON.stringify(o.text)} }`)
     .join(",\n");
@@ -196,9 +256,8 @@ export const ${exportName}Questions: PrepQuestion[] = [...SET_A, ...SET_B];
 }
 
 // ---------- Science ----------
-const sciMd = fs.readFileSync(
+const sciMd = readWriterMd(
   path.join(ROOT, "sof-science/grade-5/chapter-01-plants-seeds-germination-dispersal.md"),
-  "utf8",
 );
 const sciA = parseScienceQuiz(
   sciMd.split("## Quiz Set A")[1].split("## Quiz Set B")[0],
@@ -352,9 +411,8 @@ fs.writeFileSync(
 );
 
 // ---------- Maths ----------
-const mathMd = fs.readFileSync(
+const mathMd = readWriterMd(
   path.join(ROOT, "sof-maths/grade-5/chapter-01-large-numbers.md"),
-  "utf8",
 );
 const mathA = parseMathsQuiz(
   mathMd.split("## Practice Set A")[1].split("## Practice Set B")[0],
@@ -495,9 +553,8 @@ fs.writeFileSync(
 );
 
 // ---------- English ----------
-const engMd = fs.readFileSync(
+const engMd = readWriterMd(
   path.join(ROOT, "grade-5-english/chapter-01.md"),
-  "utf8",
 );
 const engA = parseEnglishQuiz(
   engMd.split("## Set A — Practice quiz")[1].split("## Set B — Alternate quiz")[0],

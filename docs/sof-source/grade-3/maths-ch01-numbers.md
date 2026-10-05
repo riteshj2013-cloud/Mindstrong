@@ -508,9 +508,9 @@
   - A) 500
   - B) 499
   - C) 501
-  - D) 502
+  - D) 504
 - **answer**: A
-- **explanation**: The numbers between are 499, 500 and 501, and only 500 is even.
+- **explanation**: The numbers between 498 and 502 are 499, 500 and 501, and only 500 is even. 504 is even, but it is bigger than 502.
 - **skill**: before_after
 - **difficulty**: medium
 

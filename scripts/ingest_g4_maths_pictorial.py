@@ -10,6 +10,7 @@ import re, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from ingest_lib import (
+    strip_editorial_sections,
     ROOT, OUT, DOCS, maths_sets, emit_module, letter_id,
     extract_diagram_svg, sanitize_svg,
 )
@@ -44,6 +45,7 @@ JOBS = [
 
 
 def parse_pictorial_set(md: str, set_letter: str, id_prefix: str) -> list:
+    md = strip_editorial_sections(md)
     heading = "## Pictorial Set %s" % set_letter
     if heading not in md:
         raise ValueError("missing %s" % heading)

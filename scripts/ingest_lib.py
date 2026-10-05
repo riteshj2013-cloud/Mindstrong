@@ -9,10 +9,93 @@ OUT = REPO / "lib/prep/content"
 DOCS = REPO / "docs/sof-source"
 OUT.mkdir(parents=True, exist_ok=True)
 
+# ---------------------------------------------------------------------------
+# Editorial-section stripping (writer/editor notes must NEVER reach kids)
+# ---------------------------------------------------------------------------
+# Writer markdown carries sections for editors only: ## Meta, ## Pictorial notes,
+# ## Visual spec, ## Figure Library, ## Engineering notes, QA/reviewer notes …
+# They are removed from the markdown BEFORE parsing, and every emitted item
+# string is cut at the first markdown heading and checked for leaks.
+EDITORIAL_HEADING_RE = re.compile(
+    r"^(#{1,6})[ \t]*\**[ \t]*(?:"
+    r"meta(?:data)?|pictorial notes?|visual (?:spec|notes?)|figure (?:spec|library|notes?)|"
+    r"engineering notes?|writer(?:'s)? notes?|editor(?:ial|'s)? notes?|notes? (?:for|to) "
+    r"(?:writers?|editors?|reviewers?|engineers?)|review(?:er)? notes?|qa(?: notes?| checklist)?|"
+    r"internal(?: notes?)?|todo|changelog|sources?(?: notes?)?|coverage(?: notes?)?|accessibility notes?"
+    r")\b.*$",
+    re.I,
+)
+_HEADING_RE = re.compile(r"^(#{1,6})\s")
+
+# Strings that must never appear in kid-facing item text.
+LEAK_PATTERNS = [
+    (re.compile(r"(^|\n)[ \t]*#{1,6}[ \t]"), "markdown heading"),
+    (re.compile(r"pictorial notes", re.I), "Pictorial notes"),
+    (re.compile(r"visual spec", re.I), "Visual spec"),
+    (re.compile(r"not copied|copied or traced|past papers?", re.I), "sourcing note"),
+    (re.compile(r"\bSOF\b"), "SOF branding"),
+    (re.compile(r"\b(?:IMO|IEO|NSO)\b"), "exam branding"),
+    (re.compile(r"\b(?:TODO|FIXME|TBD)\b"), "TODO"),
+    (re.compile(r"\bmarkers? (?:ids?|named)\b|uniquely named marker|\(`ah[AB]?\d", re.I), "SVG marker id"),
+]
+
+
+def strip_editorial_sections(md: str) -> str:
+    """Drop writer/editor-only sections (heading → next heading of same/higher level)."""
+    out, skip_level, in_fence = [], None, False
+    for line in md.split("\n"):
+        if line.lstrip().startswith("```"):
+            in_fence = not in_fence
+        h = None if in_fence else _HEADING_RE.match(line)
+        if skip_level is not None:
+            if h and len(h.group(1)) <= skip_level:
+                skip_level = None
+            else:
+                continue
+        m = None if in_fence else EDITORIAL_HEADING_RE.match(line)
+        if m:
+            skip_level = len(m.group(1))
+            continue
+        out.append(line)
+    return "\n".join(out)
+
+
+def clean_item_text(s: str) -> str:
+    """Item text never contains headings: cut at the first one; trim trailing rules."""
+    if not s:
+        return s or ""
+    s = re.split(r"\n[ \t]*#{1,6}[ \t]", "\n" + s, maxsplit=1)[0][1:]
+    s = re.sub(r"\s*(-{3,}\s*)+$", "", s)
+    return s.strip()
+
+
+def clean_question(q: dict) -> dict:
+    q["prompt"] = clean_item_text(q.get("prompt", ""))
+    q["explanation"] = clean_item_text(q.get("explanation") or "")
+    q["hints"] = [clean_item_text(h) for h in (q.get("hints") or [])]
+    for o in q.get("options", []):
+        o["text"] = clean_item_text(o.get("text", ""))
+    return q
+
+
+def assert_no_leak(q: dict) -> None:
+    fields = [("prompt", q.get("prompt", "")), ("explanation", q.get("explanation", ""))]
+    fields += [("hint", h) for h in q.get("hints") or []]
+    fields += [("option " + o["id"], o.get("text", "")) for o in q.get("options", [])]
+    fig = q.get("figure") or {}
+    fields += [("figure alt", fig.get("alt", "")), ("figure longdesc", fig.get("longdesc", ""))]
+    for name, text in fields:
+        for rx, label in LEAK_PATTERNS:
+            if text and rx.search(text):
+                raise ValueError("Editorial leak (%s) in %s %s: %r" % (label, q.get("id"), name, text[:120]))
+
+
 def letter_id(L: str) -> str:
     return L.lower()
 
 def q_to_ts(q: dict) -> str:
+    clean_question(q)
+    assert_no_leak(q)
     def opt_ts(o):
         parts = ['id: %s' % json.dumps(o["id"]), 'text: %s' % json.dumps(o["text"])]
         if o.get("figure"):
@@ -374,7 +457,8 @@ def parse_english_quiz(block: str, passages: dict, id_prefix: str, set_id: str, 
     return qs
 
 def science_sets(md: str, prefix: str):
-    # Ignore writer ## Pictorial notes — only Quiz Set blocks are parsed.
+    # Writer ## Meta / ## Pictorial notes / ## Visual spec etc. are stripped first.
+    md = strip_editorial_sections(md)
     a = parse_science_quiz(md.split("## Quiz Set A")[1].split("## Quiz Set B")[0], prefix, "a")
     b_rest = md.split("## Quiz Set B")[1]
     b_rest = re.split(r"\n## (?!#)", b_rest)[0]  # stop before Answer Key / notes
@@ -382,12 +466,14 @@ def science_sets(md: str, prefix: str):
     return a, b
 
 def maths_sets(md: str, prefix: str):
+    md = strip_editorial_sections(md)
     rest = md.split("## Practice Set A")[1]
     a_block, b_rest = rest.split("## Practice Set B")
     b_block = b_rest.split("## Answer Key")[0] if "## Answer Key" in b_rest else b_rest
     return parse_maths_quiz(a_block, prefix, "a"), parse_maths_quiz(b_block, prefix, "b")
 
 def eng_sets(md: str, prefix: str, base_dir: Path | None = None):
+    md = strip_editorial_sections(md)
     bank = md.split("## Passage bank")[1].split("## Set A")[0] if "## Passage bank" in md else ""
     passages = {lab: extract_passage(bank, lab) if bank else "" for lab in PASSAGE_LABELS}
     passage_figs = {}
