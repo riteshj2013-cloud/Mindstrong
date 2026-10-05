@@ -9,6 +9,7 @@ import type {
   PrepSubject,
 } from "./types";
 import { packKey } from "./types";
+import { markPrepSetDone } from "../completed";
 
 const PROGRESS_KEY = "mindstrong.v1.prep.progress";
 const ACTIVE_KEY = "mindstrong.v1.prep.active";
@@ -157,6 +158,8 @@ export function saveSetScore(
     lastSubject: subject,
     lastGrade: grade,
   });
+  // No-repeat: this quiz set won't be offered again until Start over.
+  markPrepSetDone(subject, grade, chapterId, setId);
 }
 
 export function savePaperScore(subject: PrepSubject, grade: Grade, correct: number, total: number) {

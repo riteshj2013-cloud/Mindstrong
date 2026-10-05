@@ -2,17 +2,37 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { SectionPicker } from "@/components/session/SectionPicker";
 import { AgePicker } from "@/components/ui/AgePicker";
 import { Brand } from "@/components/ui/Brand";
 import { Button } from "@/components/ui/Button";
 import { Mascot, MascotSays } from "@/components/ui/Mascot";
 import { packForToday } from "@/lib/content";
 import { BAND_LABELS, ageToBand, clampAge } from "@/lib/content/age";
+import {
+  clearDailyCompleted,
+  countDailyDone,
+  useCompleted,
+} from "@/lib/completed";
 import { localDay } from "@/lib/date";
-import { displayStreak, hardAttemptsThisWeek, startSession, todaySummary } from "@/lib/session";
-import { saveProfile, useActiveSession, useProfile, useProgress } from "@/lib/storage";
-import { PLAY_PHASES, type ChildAge } from "@/lib/types";
+import {
+  countRemainingItems,
+  displayStreak,
+  hardAttemptsThisWeek,
+  startSession,
+  todaySummary,
+} from "@/lib/session";
+import {
+  DEFAULT_SETTINGS,
+  saveProfile,
+  saveSettings,
+  useActiveSession,
+  useProfile,
+  useProgress,
+  useSettings,
+} from "@/lib/storage";
+import { PLAY_PHASES, type ChildAge, type PlayPhase } from "@/lib/types";
 
 const PHASE_COLORS = ["bg-sun", "bg-plum", "bg-sky", "bg-mint", "bg-coral", "bg-sun"];
 
@@ -21,10 +41,29 @@ export default function Home() {
   const profile = useProfile();
   const progress = useProgress();
   const active = useActiveSession();
+  const settings = useSettings();
+  const completed = useCompleted();
   const [name, setName] = useState("");
   const [age, setAge] = useState<ChildAge>(8);
+  const [picking, setPicking] = useState(false);
+  const [selected, setSelected] = useState<PlayPhase[]>([...PLAY_PHASES]);
+  const [confirmRestart, setConfirmRestart] = useState(false);
 
-  if (profile === undefined || progress === undefined || active === undefined) {
+  useEffect(() => {
+    if (!settings) return;
+    const saved = settings.dailySections;
+    if (saved && saved.length > 0) {
+      setSelected(PLAY_PHASES.filter((p) => saved.includes(p)));
+    }
+  }, [settings]);
+
+  if (
+    profile === undefined ||
+    progress === undefined ||
+    active === undefined ||
+    settings === undefined ||
+    completed === undefined
+  ) {
     return (
       <div className="flex flex-1 items-center justify-center">
         <Mascot size={96} />
@@ -73,11 +112,49 @@ export default function Home() {
     active && active.date === today && active.phase !== "complete" ? active : null;
   const streak = displayStreak(progress, today);
   const hard = hardAttemptsThisWeek(progress, today);
-  const currentIdx = resumable ? PLAY_PHASES.findIndex((p) => p === resumable.phase) : -1;
+  const journeyPhases = resumable?.selectedPhases?.length
+    ? resumable.selectedPhases
+    : PLAY_PHASES;
+  const currentIdx = resumable
+    ? journeyPhases.findIndex((p) => p === resumable.phase)
+    : -1;
+  const dailyDoneCount = countDailyDone(completed);
+  const remainingSelected = countRemainingItems(
+    pack,
+    selected.length ? selected : PLAY_PHASES,
+  );
 
-  function goDaily() {
-    if (!resumable) startSession(pack);
+  function persistSections(next: PlayPhase[]) {
+    setSelected(next);
+    const s = settings ?? DEFAULT_SETTINGS;
+    saveSettings({ ...s, dailySections: next });
+  }
+
+  function openPicker() {
+    if (resumable) {
+      router.push("/session");
+      return;
+    }
+    setPicking(true);
+    setConfirmRestart(false);
+  }
+
+  function beginSession() {
+    if (selected.length === 0) return;
+    const result = startSession(pack, selected);
+    if (!result.ok) {
+      setConfirmRestart(false);
+      return;
+    }
+    const s = settings ?? DEFAULT_SETTINGS;
+    saveSettings({ ...s, dailySections: selected });
+    setPicking(false);
     router.push("/session");
+  }
+
+  function doRestartDaily() {
+    clearDailyCompleted();
+    setConfirmRestart(false);
   }
 
   const hello = profile.childName ? `Hi, ${profile.childName}!` : "Hi, brave brain!";
@@ -113,68 +190,111 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Dual-mode entry */}
-      <section className="grid gap-3">
-        <button
-          type="button"
-          onClick={goDaily}
-          className="rounded-[2rem] bg-gradient-to-br from-plum/30 to-sky/40 p-5 text-left shadow-chunky"
-        >
-          <p className="text-3xl" aria-hidden>
-            💪
-          </p>
-          <p className="font-display text-2xl font-semibold">Daily practice</p>
-          <p className="text-sm font-bold text-ink/60">
-            Reasoning · Maths · Spelling · Hard try
-            {doneToday ? " · done today ✅" : resumable ? " · resume ▶" : " · ~15–20 min"}
-          </p>
-        </button>
-        <Link
-          href="/prep"
-          className="rounded-[2rem] bg-gradient-to-br from-mint/50 to-leaf/30 p-5 text-left shadow-chunky"
-        >
-          <p className="text-3xl" aria-hidden>
-            🏆
-          </p>
-          <p className="font-display text-2xl font-semibold">Test prep (SOF)</p>
-          <p className="text-sm font-bold text-ink/60">
-            Maths · English · Science · lessons optional
-          </p>
-        </Link>
-      </section>
+      {picking ? (
+        <SectionPicker
+          pack={pack}
+          selected={selected}
+          onChange={persistSections}
+          onStart={beginSession}
+          onCancel={() => setPicking(false)}
+          exhausted={remainingSelected === 0}
+          onRestart={() => setConfirmRestart(true)}
+        />
+      ) : (
+        <section className="grid gap-3">
+          <button
+            type="button"
+            onClick={openPicker}
+            className="rounded-[2rem] bg-gradient-to-br from-plum/30 to-sky/40 p-5 text-left shadow-chunky"
+          >
+            <p className="text-3xl" aria-hidden>
+              💪
+            </p>
+            <p className="font-display text-2xl font-semibold">Daily practice</p>
+            <p className="text-sm font-bold text-ink/60">
+              Pick sections · skip finished ones
+              {doneToday ? " · done today ✅" : resumable ? " · resume ▶" : " · ~15–20 min"}
+            </p>
+          </button>
+          <Link
+            href="/prep"
+            className="rounded-[2rem] bg-gradient-to-br from-mint/50 to-leaf/30 p-5 text-left shadow-chunky"
+          >
+            <p className="text-3xl" aria-hidden>
+              🏆
+            </p>
+            <p className="font-display text-2xl font-semibold">Test prep (SOF)</p>
+            <p className="text-sm font-bold text-ink/60">
+              Maths · English · Science · lessons optional
+            </p>
+          </Link>
+        </section>
+      )}
 
-      <section className="rounded-[2rem] bg-white p-5 shadow-soft">
-        <div className="mb-3 flex items-baseline justify-between gap-2">
-          <h2 className="text-xl font-semibold">Today’s daily journey</h2>
-          <span className="text-xs font-bold text-ink/45">{pack.title}</span>
+      {confirmRestart && (
+        <div className="space-y-2 rounded-[1.75rem] border-2 border-coral/40 bg-white p-4 shadow-soft">
+          <p className="font-display text-lg font-semibold">Start over daily exercises?</p>
+          <p className="text-sm font-semibold text-ink/60">
+            You’ll see finished questions again. Your streak and brave-try stars stay.
+          </p>
+          <Button
+            variant="warn"
+            onClick={() => {
+              doRestartDaily();
+            }}
+          >
+            Yes — start over
+          </Button>
+          <Button variant="ghost" onClick={() => setConfirmRestart(false)}>
+            Keep going
+          </Button>
         </div>
-        <ol className="space-y-1.5">
-          {PLAY_PHASES.map((p, i) => {
-            const spec = pack.phases[p];
-            const done = doneToday || (currentIdx > -1 && i < currentIdx);
-            const now = i === currentIdx;
-            return (
-              <li
-                key={p}
-                className={`flex items-center gap-3 rounded-2xl px-2 py-1 ${now ? "bg-sky/10" : ""}`}
-              >
-                <span
-                  className={`flex h-10 w-10 items-center justify-center rounded-xl text-xl ${
-                    done ? "bg-mint/40" : PHASE_COLORS[i]
-                  }`}
-                  aria-hidden
+      )}
+
+      {!picking && (
+        <section className="rounded-[2rem] bg-white p-5 shadow-soft">
+          <div className="mb-3 flex items-baseline justify-between gap-2">
+            <h2 className="text-xl font-semibold">Today’s daily journey</h2>
+            <span className="text-xs font-bold text-ink/45">{pack.title}</span>
+          </div>
+          <ol className="space-y-1.5">
+            {journeyPhases.map((p, i) => {
+              const spec = pack.phases[p];
+              const done = doneToday || (currentIdx > -1 && i < currentIdx);
+              const now = i === currentIdx;
+              const colorIdx = PLAY_PHASES.indexOf(p);
+              return (
+                <li
+                  key={p}
+                  className={`flex items-center gap-3 rounded-2xl px-2 py-1 ${now ? "bg-sky/10" : ""}`}
                 >
-                  {done ? "✅" : spec.emoji}
-                </span>
-                <span className="flex-1 text-base font-bold">{spec.kidTitle}</span>
-                <span className="text-xs font-bold text-ink/40">
-                  {now ? "here" : `${spec.estimatedMin}m`}
-                </span>
-              </li>
-            );
-          })}
-        </ol>
-      </section>
+                  <span
+                    className={`flex h-10 w-10 items-center justify-center rounded-xl text-xl ${
+                      done ? "bg-mint/40" : PHASE_COLORS[colorIdx] ?? "bg-sun"
+                    }`}
+                    aria-hidden
+                  >
+                    {done ? "✅" : spec.emoji}
+                  </span>
+                  <span className="flex-1 text-base font-bold">{spec.kidTitle}</span>
+                  <span className="text-xs font-bold text-ink/40">
+                    {now ? "here" : `${spec.estimatedMin}m`}
+                  </span>
+                </li>
+              );
+            })}
+          </ol>
+          {dailyDoneCount > 0 && !confirmRestart && (
+            <button
+              type="button"
+              onClick={() => setConfirmRestart(true)}
+              className="mt-3 w-full rounded-2xl bg-cream px-3 py-3 text-sm font-bold text-ink/60"
+            >
+              Start over daily exercises ({dailyDoneCount} finished) 🔄
+            </button>
+          )}
+        </section>
+      )}
 
       <div className="grid grid-cols-2 gap-3">
         <div className="rounded-[2rem] bg-white p-4 text-center shadow-soft">

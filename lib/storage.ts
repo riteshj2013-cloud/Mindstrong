@@ -164,6 +164,11 @@ export function resetEverything() {
   try {
     window.sessionStorage.removeItem(GATE_KEY);
   } catch {}
+  // Also wipe exercise “done” history (lazy import avoided — key cleared directly).
+  try {
+    window.localStorage.removeItem("mindstrong.v1.completed");
+    window.dispatchEvent(new Event("mindstrong:completed"));
+  } catch {}
 }
 
 // ---------- Soft parent gate ----------

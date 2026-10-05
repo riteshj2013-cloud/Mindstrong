@@ -27,6 +27,12 @@ import {
   type PrepSubject,
 } from "@/lib/prep";
 import { clampAge } from "@/lib/content/age";
+import {
+  clearPrepCompleted,
+  countPrepSetsDone,
+  isPrepSetDone,
+  useCompleted,
+} from "@/lib/completed";
 import { useProfile } from "@/lib/storage";
 
 type Stage = "subject" | "grade" | "path" | "chapters" | "chapter";
@@ -37,10 +43,12 @@ export default function PrepHubPage() {
   const progress = usePrepProgress();
   const suggestedGrade = ageToGrade(clampAge(profile?.age ?? 8));
 
+  const completed = useCompleted();
   const [stage, setStage] = useState<Stage>("subject");
   const [subject, setSubject] = useState<PrepSubject | null>(null);
   const [grade, setGrade] = useState<Grade | null>(null);
   const [chapterId, setChapterId] = useState<string | null>(null);
+  const [confirmRestart, setConfirmRestart] = useState(false);
 
   // Recover from a stuck/corrupt prep.active left by an older bug.
   useEffect(() => {
@@ -57,7 +65,7 @@ export default function PrepHubPage() {
   );
   const chapter = pack?.chapters.find((c) => c.id === chapterId);
 
-  if (profile === undefined || progress === undefined) {
+  if (profile === undefined || progress === undefined || completed === undefined) {
     return (
       <div className="flex flex-1 items-center justify-center">
         <Mascot size={96} />
@@ -83,6 +91,7 @@ export default function PrepHubPage() {
   }
 
   function startSet(sub: PrepSubject, g: Grade, chId: string, setId: string) {
+    if (isPrepSetDone(sub, g, chId, setId, completed)) return;
     rememberPrepChoice(sub, g);
     savePrepActive({
       v: 1,
@@ -161,6 +170,39 @@ export default function PrepHubPage() {
               );
             })}
           </div>
+
+          {countPrepSetsDone(completed) > 0 && (
+            <div className="space-y-2 rounded-[1.75rem] bg-white p-4 shadow-soft">
+              {!confirmRestart ? (
+                <button
+                  type="button"
+                  onClick={() => setConfirmRestart(true)}
+                  className="w-full rounded-2xl bg-cream px-3 py-3 text-sm font-bold text-ink/60"
+                >
+                  Start over prep sets ({countPrepSetsDone(completed)} finished) 🔄
+                </button>
+              ) : (
+                <>
+                  <p className="font-display text-lg font-semibold">Start over prep sets?</p>
+                  <p className="text-sm font-semibold text-ink/60">
+                    Finished quiz sets unlock again. Scores & daily streak stay.
+                  </p>
+                  <Button
+                    variant="warn"
+                    onClick={() => {
+                      clearPrepCompleted();
+                      setConfirmRestart(false);
+                    }}
+                  >
+                    Yes — start over
+                  </Button>
+                  <Button variant="ghost" onClick={() => setConfirmRestart(false)}>
+                    Keep going
+                  </Button>
+                </>
+              )}
+            </div>
+          )}
         </>
       )}
 
@@ -329,21 +371,27 @@ export default function PrepHubPage() {
             <h2 className="text-xl font-semibold">Practice sets</h2>
             {chapter.sets.map((s) => {
               const score = getChapterProgress(progress, subject, grade, chapter.id).sets[s.id];
+              const done = isPrepSetDone(subject, grade, chapter.id, s.id, completed);
               return (
                 <button
                   key={s.id}
                   type="button"
+                  disabled={done}
                   onClick={() => startSet(subject, grade, chapter.id, s.id)}
-                  className="flex w-full items-center justify-between rounded-2xl bg-white px-4 py-4 text-left shadow-soft"
+                  className={`flex w-full items-center justify-between rounded-2xl px-4 py-4 text-left shadow-soft ${
+                    done ? "bg-mint/25 opacity-80" : "bg-white"
+                  }`}
                 >
                   <span>
                     <span className="block font-display text-lg font-semibold">{s.title}</span>
                     <span className="text-xs font-bold text-ink/45">
-                      {s.questionCount} MCQs · olympiad style
+                      {done
+                        ? "Done — start over prep to redo"
+                        : `${s.questionCount} MCQs · olympiad style`}
                     </span>
                   </span>
                   <span className="font-display text-lg font-semibold text-coral">
-                    {score ? `${score.correct}/${score.total}` : "▶"}
+                    {done ? "✅" : score ? `${score.correct}/${score.total}` : "▶"}
                   </span>
                 </button>
               );

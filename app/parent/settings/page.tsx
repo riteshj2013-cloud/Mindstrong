@@ -7,6 +7,14 @@ import { Button } from "@/components/ui/Button";
 import { Mascot } from "@/components/ui/Mascot";
 import { BAND_LABELS, ageToBand, clampAge } from "@/lib/content/age";
 import {
+  clearAllCompleted,
+  clearDailyCompleted,
+  clearPrepCompleted,
+  countDailyDone,
+  countPrepSetsDone,
+  useCompleted,
+} from "@/lib/completed";
+import {
   DEFAULT_SETTINGS,
   resetProgress,
   saveProfile,
@@ -27,9 +35,11 @@ export default function SettingsPage() {
 function SettingsInner() {
   const profile = useProfile();
   const settings = useSettings();
+  const completed = useCompleted();
   const [name, setName] = useState("");
   const [age, setAge] = useState<ChildAge>(8);
   const [confirmReset, setConfirmReset] = useState(false);
+  const [confirmDone, setConfirmDone] = useState<"daily" | "prep" | "both" | null>(null);
   const [saved, setSaved] = useState(false);
 
   useEffect(() => {
@@ -37,10 +47,9 @@ function SettingsInner() {
       setName(profile.childName || "");
       setAge(clampAge(profile.age));
     }
-    // Depend on primitives — profile object identity must not retrigger every render.
   }, [profile?.childName, profile?.age]);
 
-  if (profile === undefined || settings === undefined) {
+  if (profile === undefined || settings === undefined || completed === undefined) {
     return (
       <div className="flex flex-1 items-center justify-center">
         <Mascot size={72} float={false} />
@@ -51,6 +60,8 @@ function SettingsInner() {
   const s = settings ?? DEFAULT_SETTINGS;
   const currentName = name || profile?.childName || "";
   const band = ageToBand(age);
+  const dailyN = countDailyDone(completed);
+  const prepN = countPrepSetsDone(completed);
 
   return (
     <main className="flex flex-1 flex-col gap-5">
@@ -116,6 +127,55 @@ function SettingsInner() {
           checked={s.reduceMotion}
           onChange={(v) => saveSettings({ ...s, reduceMotion: v })}
         />
+      </section>
+
+      <section className="space-y-3 rounded-[1.75rem] border border-sky/30 bg-white p-5 shadow-soft">
+        <h2 className="text-lg font-semibold">Start over exercises</h2>
+        <p className="text-sm font-semibold text-ink/60">
+          Lets kids redo finished questions or quiz sets. Streak and brave-try stars stay.
+        </p>
+        <p className="text-xs font-bold text-ink/45">
+          Daily finished: {dailyN} · Prep sets finished: {prepN}
+        </p>
+        {confirmDone === null ? (
+          <div className="space-y-2">
+            <Button variant="secondary" onClick={() => setConfirmDone("daily")} disabled={dailyN === 0}>
+              Start over daily…
+            </Button>
+            <Button variant="secondary" onClick={() => setConfirmDone("prep")} disabled={prepN === 0}>
+              Start over prep sets…
+            </Button>
+            <Button
+              variant="secondary"
+              onClick={() => setConfirmDone("both")}
+              disabled={dailyN === 0 && prepN === 0}
+            >
+              Start over both…
+            </Button>
+          </div>
+        ) : (
+          <div className="space-y-2">
+            <p className="text-sm font-bold">
+              {confirmDone === "daily" && "Really unlock finished daily exercises again?"}
+              {confirmDone === "prep" && "Really unlock finished prep quiz sets again?"}
+              {confirmDone === "both" && "Really unlock daily + prep finished content again?"}
+            </p>
+            <Button
+              variant="warn"
+              onClick={() => {
+                if (confirmDone === "daily") clearDailyCompleted();
+                else if (confirmDone === "prep") clearPrepCompleted();
+                else clearAllCompleted();
+                setConfirmDone(null);
+              }}
+            >
+              Yes, start over
+            </Button>
+            <Button variant="ghost" onClick={() => setConfirmDone(null)}>
+              Cancel
+            </Button>
+          </div>
+        )}
       </section>
 
       <section className="space-y-3 rounded-[1.75rem] border border-coral/30 bg-white p-5 shadow-soft">

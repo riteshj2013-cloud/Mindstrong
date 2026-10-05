@@ -1,5 +1,6 @@
 import { addDays, localDay, weekStart } from "./date";
 import { getPack, packForToday } from "./content";
+import { isDailyItemDone, markDailyItemDone } from "./completed";
 import type {
   ActiveSession,
   ContentPack,
@@ -19,7 +20,6 @@ import {
   normalizeProfile,
   read,
   saveActiveSession,
-  saveProgress,
   write,
 } from "./storage";
 
@@ -42,22 +42,92 @@ function profileAge(): number {
   return normalizeProfile(raw)?.age ?? 8;
 }
 
-export function startSession(pack?: ContentPack): ActiveSession {
+/** Ordered phases for this session (selected subset, or all). */
+export function sessionPhases(session: ActiveSession): PlayPhase[] {
+  if (session.selectedPhases && session.selectedPhases.length > 0) {
+    return session.selectedPhases;
+  }
+  return PLAY_PHASES;
+}
+
+/** Build per-phase queues of not-yet-done item ids for the chosen sections. */
+export function buildSessionQueue(
+  pack: ContentPack,
+  selected: PlayPhase[],
+): { phases: PlayPhase[]; queue: Partial<Record<PlayPhase, string[]>> } {
+  const queue: Partial<Record<PlayPhase, string[]>> = {};
+  const phases: PlayPhase[] = [];
+  for (const phase of selected) {
+    const ids = pack.phases[phase].items
+      .filter((item) => !isDailyItemDone(pack.ageBand, phase, item.id))
+      .map((item) => item.id);
+    if (ids.length > 0) {
+      queue[phase] = ids;
+      phases.push(phase);
+    }
+  }
+  return { phases, queue };
+}
+
+/** How many fresh items remain in a pack for the given sections. */
+export function countRemainingItems(pack: ContentPack, selected: PlayPhase[]): number {
+  const { phases, queue } = buildSessionQueue(pack, selected);
+  return phases.reduce((n, phase) => n + (queue[phase]?.length ?? 0), 0);
+}
+
+/** Remaining items per section (for the picker UI). */
+export function remainingByPhase(
+  pack: ContentPack,
+  selected: PlayPhase[] = PLAY_PHASES,
+): Record<PlayPhase, number> {
+  const out = {} as Record<PlayPhase, number>;
+  for (const phase of PLAY_PHASES) {
+    out[phase] = pack.phases[phase].items.filter(
+      (item) => !isDailyItemDone(pack.ageBand, phase, item.id),
+    ).length;
+  }
+  // silence unused when callers pass selected for filtering elsewhere
+  void selected;
+  return out;
+}
+
+export type StartSessionResult =
+  | { ok: true; session: ActiveSession }
+  | { ok: false; reason: "empty" };
+
+/**
+ * Start a daily session for the chosen sections, skipping already-done items.
+ * Returns `{ ok: false }` when every selected section has nothing left.
+ */
+export function startSession(
+  pack?: ContentPack,
+  selectedPhases?: PlayPhase[],
+): StartSessionResult {
   const p = pack ?? packForToday("", profileAge());
   const day = localDay();
+  const wanted =
+    selectedPhases && selectedPhases.length > 0
+      ? PLAY_PHASES.filter((ph) => selectedPhases.includes(ph))
+      : PLAY_PHASES;
+  const { phases, queue } = buildSessionQueue(p, wanted);
+  if (phases.length === 0) {
+    return { ok: false, reason: "empty" };
+  }
   const session: ActiveSession = {
     v: 1,
     id: `${day}-${p.id}`,
     date: day,
     packId: p.id,
-    phase: "warm_up",
+    phase: phases[0],
     itemIndex: 0,
     startedAt: nowIso(),
     updatedAt: nowIso(),
     results: {},
+    selectedPhases: phases,
+    queue,
   };
   saveActiveSession(session);
-  return session;
+  return { ok: true, session };
 }
 
 /** Resume same-calendar-day active session, or null if none / stale. */
@@ -65,7 +135,6 @@ export function resumeOrNull(): ActiveSession | null {
   const s = read<ActiveSession | null>(KEYS.session, null);
   if (!s) return null;
   if (s.date !== localDay()) {
-    // Abandoned overnight — clear so tomorrow is fresh.
     saveActiveSession(null);
     return null;
   }
@@ -106,41 +175,64 @@ export function currentPhase(session: ActiveSession): PlayPhase | null {
   return session.phase;
 }
 
+function phaseItemIds(session: ActiveSession, pack: ContentPack, phase: PlayPhase): string[] {
+  if (session.queue && session.queue[phase]) return session.queue[phase]!;
+  // Legacy sessions without a queue — full phase list.
+  return pack.phases[phase].items.map((i) => i.id);
+}
+
 export function currentItem(
   session: ActiveSession,
   pack: ContentPack,
 ): ItemSpec | null {
   const phase = currentPhase(session);
   if (!phase) return null;
-  return pack.phases[phase].items[session.itemIndex] ?? null;
+  const ids = phaseItemIds(session, pack, phase);
+  const id = ids[session.itemIndex];
+  if (!id) return null;
+  return pack.phases[phase].items.find((i) => i.id === id) ?? null;
 }
 
-export function phaseIndex(phase: Phase): number {
+export function itemsInPhaseCount(session: ActiveSession, pack: ContentPack, phase: PlayPhase): number {
+  return phaseItemIds(session, pack, phase).length;
+}
+
+export function phaseIndex(phase: Phase, phases: PlayPhase[] = PLAY_PHASES): number {
   if (phase === "idle") return -1;
-  if (phase === "complete") return PLAY_PHASES.length;
-  return PLAY_PHASES.indexOf(phase);
+  if (phase === "complete") return phases.length;
+  return phases.indexOf(phase as PlayPhase);
 }
 
-/** Advance to next item or next phase. Returns the updated session. */
+function markCurrentDone(session: ActiveSession, pack: ContentPack) {
+  const phase = currentPhase(session);
+  if (!phase) return;
+  const item = currentItem(session, pack);
+  if (!item) return;
+  markDailyItemDone(pack.ageBand, phase, item.id);
+}
+
+/** Advance to next item or next selected phase. Marks the leaving item as done. */
 export function advance(session: ActiveSession, pack: ContentPack): ActiveSession {
   const phase = currentPhase(session);
   if (!phase) return session;
 
-  const items = pack.phases[phase].items;
-  if (session.itemIndex + 1 < items.length) {
+  markCurrentDone(session, pack);
+
+  const ids = phaseItemIds(session, pack, phase);
+  if (session.itemIndex + 1 < ids.length) {
     return touch({ ...session, itemIndex: session.itemIndex + 1 });
   }
 
-  const i = PLAY_PHASES.indexOf(phase);
-  if (i + 1 < PLAY_PHASES.length) {
+  const phases = sessionPhases(session);
+  const i = phases.indexOf(phase);
+  if (i + 1 < phases.length) {
     return touch({
       ...session,
-      phase: PLAY_PHASES[i + 1],
+      phase: phases[i + 1],
       itemIndex: 0,
     });
   }
 
-  // Enter complete — caller should call completeSession for progress.
   return touch({ ...session, phase: "complete", itemIndex: 0 });
 }
 
@@ -165,6 +257,14 @@ export function completeSession(session: ActiveSession): {
   progress: Progress;
 } {
   const pack = getPack(session.packId) ?? packForToday(session.date, profileAge());
+
+  // Mark the last (usually reflect) item done if we still have one.
+  const phase = currentPhase(session);
+  if (phase) {
+    const item = currentItem(session, pack);
+    if (item) markDailyItemDone(pack.ageBand, phase, item.id);
+  }
+
   const hardItem = pack.phases.hard_try.items.find((i) => i.type === "hard_try");
   const hardResult = hardItem ? getResult(session, hardItem.id) : emptyResult();
 
@@ -192,7 +292,6 @@ export function completeSession(session: ActiveSession): {
   };
 
   const prev = read<Progress>(KEYS.progress, DEFAULT_PROGRESS);
-  // Replace same-day entry if any, keep last ~60.
   const history = [
     summary,
     ...prev.history.filter((h) => h.date !== summary.date),
@@ -203,7 +302,10 @@ export function completeSession(session: ActiveSession): {
     streakDays,
     bestStreak: Math.max(prev.bestStreak, streakDays),
     lastCompletedDate: summary.date,
-    sessionsCompleted: Math.max(prev.sessionsCompleted + (prev.history.some((h) => h.date === summary.date) ? 0 : 1), history.filter((h) => h.completed).length),
+    sessionsCompleted: Math.max(
+      prev.sessionsCompleted + (prev.history.some((h) => h.date === summary.date) ? 0 : 1),
+      history.filter((h) => h.completed).length,
+    ),
     history,
   };
 
@@ -214,7 +316,7 @@ export function completeSession(session: ActiveSession): {
   };
 
   write(KEYS.progress, nextProgress);
-  write(KEYS.session, null); // clear active so home shows “done today”
+  write(KEYS.session, null);
 
   return { session: done, summary, progress: nextProgress };
 }

@@ -33,6 +33,19 @@ export const PLAY_PHASES: PlayPhase[] = [
   "reflect",
 ];
 
+/** Kid-facing labels for section picker / journey chrome. */
+export const PHASE_META: Record<
+  PlayPhase,
+  { label: string; emoji: string; short: string }
+> = {
+  warm_up: { label: "Warm-up", emoji: "🌅", short: "Warm" },
+  focus_a: { label: "Reasoning", emoji: "🧩", short: "Think" },
+  focus_b: { label: "Maths", emoji: "🧮", short: "Maths" },
+  focus_c: { label: "Spelling", emoji: "🔤", short: "Spell" },
+  hard_try: { label: "Hard try", emoji: "🦁", short: "Hard" },
+  reflect: { label: "Reflect", emoji: "💭", short: "Reflect" },
+};
+
 export type Weekday = "mon" | "tue" | "wed" | "thu" | "fri" | "sat" | "sun";
 
 // ---------- Visual tokens used to draw patterns / numbers ----------
@@ -210,6 +223,13 @@ export interface ActiveSession {
   updatedAt: string;
   results: Record<string, ItemResult>;
   reflection?: Reflection;
+  /** Sections chosen for this run (ordered). Defaults to all when absent. */
+  selectedPhases?: PlayPhase[];
+  /**
+   * Per-phase ordered item ids still to play (snapshot at start, minus completed).
+   * itemIndex indexes into queue[phase].
+   */
+  queue?: Partial<Record<PlayPhase, string[]>>;
 }
 
 export interface SessionSummary {
@@ -246,4 +266,6 @@ export interface Progress {
 export interface Settings {
   readAloud: boolean;
   reduceMotion: boolean;
+  /** Last daily section multi-select (persisted). Empty/absent → all on. */
+  dailySections?: PlayPhase[];
 }
