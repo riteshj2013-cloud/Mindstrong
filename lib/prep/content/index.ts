@@ -15,3 +15,4 @@ export { g8MathsRationals } from "./g8-maths-rationals";
 export { g8ScienceCells } from "./g8-science-cells";
 export { g8ScienceForce } from "./g8-science-force";
 export { g8ScienceMetals } from "./g8-science-metals";
+export { g8MathsComparing } from "./g8-maths-comparing";

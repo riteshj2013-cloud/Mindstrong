@@ -16,6 +16,7 @@ import { g8ScienceForce } from "./content/g8-science-force";
 import { g8ScienceMetals } from "./content/g8-science-metals";
 import { g8MathsRationals } from "./content/g8-maths-rationals";
 import { g8MathsLinear } from "./content/g8-maths-linear";
+import { g8MathsComparing } from "./content/g8-maths-comparing";
 
 function sets(topics: [string, string][]): ChapterDef["sets"] {
   return topics.map(([id, topic], i) => ({
@@ -563,7 +564,7 @@ const MATHS: Record<number, ChapterDef[]> = {
   8: [
     g8MathsRationals,
     g8MathsLinear,
-    ch("percent", "Percentages", "%", "Discounts & parts of 100", mathsFractionsLesson(), ["percent", "percent", "ratios"], ["percent"]),
+    g8MathsComparing,
   ],
 };
 
