@@ -15,6 +15,7 @@ import {
   gradeLabel,
   gradeSubtitle,
   isGradeReady,
+  READY_GRADES,
   packKey,
   clearPrepActive,
   rememberPrepChoice,
@@ -205,7 +206,7 @@ export default function PrepHubPage() {
             })}
           </div>
           <p className="text-xs font-semibold text-ink/45">
-            Grades 3, 5 & 8 are fully playable in this vertical slice.
+            Grades {READY_GRADES.join(", ")} are playable now. More grades coming soon.
           </p>
         </>
       )}

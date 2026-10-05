@@ -557,6 +557,11 @@ const MATHS: Record<number, ChapterDef[]> = {
     ch("add-sub", "Add & Subtract", "➕", "Carry, borrow & check", mathsPlaceValueLesson(), ["add-sub", "add-sub", "place-value"], ["add-sub"]),
     ch("multiply", "Multiply Basics", "✖️", "Arrays & times facts", mathsPlaceValueLesson(), ["multiply-basics", "multiply-basics", "add-sub"], ["multiply-basics"]),
   ],
+  4: [
+    ch("g4-large-numbers", "Numbers to 9999", "🔢", "Thousands, compare & expand", mathsPlaceValueLesson(), ["place-value", "place-value", "add-sub"], ["place-value", "add-sub"]),
+    ch("g4-multiply-divide", "Multiply & Divide", "✖️", "Times tables & sharing", mathsPlaceValueLesson(), ["multiply-basics", "multiply-basics", "add-sub"], ["multiply-basics", "add-sub"]),
+    ch("g4-fractions", "Fractions", "🍕", "Halves, quarters & parts", mathsFractionsLesson(), ["fractions", "fractions", "multiply-basics"], ["fractions"]),
+  ],
   5: [
     g5MathsLargeNumbers,
     g5MathsAngles,
@@ -575,6 +580,11 @@ const ENGLISH: Record<number, ChapterDef[]> = {
     ch("antonyms", "Antonyms", "🔄", "Opposite meanings", englishSynLesson(), ["antonyms", "antonyms", "vocabulary"], ["antonyms"]),
     ch("grammar", "Grammar Basics", "✏️", "Agree & fill-ins", englishGrammarLesson(), ["grammar", "grammar", "vocabulary"], ["grammar"]),
   ],
+  4: [
+    ch("g4-words", "Synonyms & Antonyms", "🔄", "Same and opposite meanings", englishSynLesson(), ["synonyms", "antonyms", "vocabulary"], ["synonyms", "antonyms", "vocabulary"]),
+    ch("g4-grammar", "Grammar", "✏️", "Agreement & fill-ins", englishGrammarLesson(), ["grammar", "grammar", "vocabulary"], ["grammar"]),
+    ch("g4-reading", "Reading Detective", "🔎", "Find the evidence", englishCompLesson(), ["comprehension", "comprehension", "vocabulary"], ["comprehension"]),
+  ],
   5: [
     g5EnglishDetective,
     g5EnglishGrammar,
@@ -592,6 +602,11 @@ const SCIENCE: Record<number, ChapterDef[]> = {
     g3SciencePlants,
     g3ScienceAnimals,
     g3ScienceSenses,
+  ],
+  4: [
+    ch("g4-living", "Living Things", "🌱", "Plants, animals & needs", scienceLivingLesson(), ["living-things", "living-things", "human-body"], ["living-things", "human-body"]),
+    ch("g4-water-materials", "Water & Materials", "💧", "Water cycle and what things are made of", scienceWaterLesson(), ["materials", "earth-space", "materials"], ["materials", "earth-space"]),
+    ch("g4-forces", "Forces & Magnets", "🧲", "Push, pull & attract", scienceForceLesson(), ["forces-energy", "forces-energy", "materials"], ["forces-energy"]),
   ],
   5: [
     g5SciencePlants,

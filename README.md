@@ -93,3 +93,18 @@ Screenshots (mobile 430×900):
 | Onboarding | `docs/screenshots/home.png` |
 | Home | `docs/screenshots/home-ready.png` |
 | Session warm-up | `docs/screenshots/tiny-win.png` |
+
+## Deploying to GitHub Pages
+
+```bash
+npm run build                       # static export to ./out (basePath /Mindstrong)
+scripts/deploy-gh-pages.sh "message" # fast-forward commit onto gh-pages, no force-push
+```
+
+Live: https://riteshj2013-cloud.github.io/Mindstrong/
+
+**Cache note:** GitHub Pages serves HTML with `Cache-Control: max-age=600`, so a browser
+can briefly hold an old `index.html` that points at previous `/_next/static/*` chunk
+hashes. The deploy script therefore keeps old hashed chunks under `_next/static`
+(they are content-hashed and never collide), so stale HTML still loads instead of
+blanking. If a page ever looks blank right after a deploy, a hard reload fixes it.

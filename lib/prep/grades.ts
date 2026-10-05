@@ -22,7 +22,7 @@ export function gradeSubtitle(grade: Grade): string {
 }
 
 /** Grades with full content in v1. */
-export const READY_GRADES: Grade[] = [3, 5, 8];
+export const READY_GRADES: Grade[] = [3, 4, 5, 8];
 
 export function isGradeReady(grade: Grade): boolean {
   return READY_GRADES.includes(grade);
