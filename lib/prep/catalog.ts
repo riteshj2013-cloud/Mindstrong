@@ -3,6 +3,7 @@ import { g3SciencePlants } from "./content/g3-science-plants";
 import { g3ScienceAnimals } from "./content/g3-science-animals";
 import { g3ScienceSenses } from "./content/g3-science-senses";
 import { g3MathsNumbers } from "./content/g3-maths-numbers";
+import { g4MathsLargeNumbers } from "./content/g4-maths-large-numbers";
 import { g4ScienceFood } from "./content/g4-science-food";
 import { g4ScienceMatter } from "./content/g4-science-matter";
 import { g4ScienceWater } from "./content/g4-science-water";
@@ -561,7 +562,7 @@ const MATHS: Record<number, ChapterDef[]> = {
     ch("multiply", "Multiply Basics", "✖️", "Arrays & times facts", mathsPlaceValueLesson(), ["multiply-basics", "multiply-basics", "add-sub"], ["multiply-basics"]),
   ],
   4: [
-    ch("g4-large-numbers", "Numbers to 9999", "🔢", "Thousands, compare & expand", mathsPlaceValueLesson(), ["place-value", "place-value", "add-sub"], ["place-value", "add-sub"]),
+    g4MathsLargeNumbers,
     ch("g4-multiply-divide", "Multiply & Divide", "✖️", "Times tables & sharing", mathsPlaceValueLesson(), ["multiply-basics", "multiply-basics", "add-sub"], ["multiply-basics", "add-sub"]),
     ch("g4-fractions", "Fractions", "🍕", "Halves, quarters & parts", mathsFractionsLesson(), ["fractions", "fractions", "multiply-basics"], ["fractions"]),
   ],
