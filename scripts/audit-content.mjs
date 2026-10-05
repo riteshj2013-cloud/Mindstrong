@@ -48,6 +48,14 @@ for (const s of types.ALL_SUBJECTS) for (const g of types.ALL_GRADES) {
   const pack = catalog.getPrepPack(s, g);
   walk(pack, `${s}-g${g}`);
 }
+// Also walk the questions exactly as served (pictorial + hint overlays + runtime cleaning).
+const prep = jiti(path.join(ROOT, "lib/prep/index.ts"));
+for (const s of types.ALL_SUBJECTS) for (const g of types.ALL_GRADES) {
+  const pack = catalog.getPrepPack(s, g);
+  for (const c of pack.chapters) for (const set of c.sets) {
+    if (set.questions?.length) walk(prep.getChapterSetQuestions(s, g, c.id, set.id), `served:${s}-g${g}.${c.id}.${set.id}`);
+  }
+}
 walk(types.SUBJECT_META, "SUBJECT_META");
 const daily = jiti(path.join(ROOT, "lib/content/index.ts"));
 for (const p of daily.ALL_READY_PACKS) walk(p, p.id);

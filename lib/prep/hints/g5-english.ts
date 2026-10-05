@@ -94,7 +94,7 @@ export const G5_ENGLISH_HINTS: Record<string, HintOverlay> = {
   "g5-eng-ch03-b-q18": ["Use word meaning, word parts, or context to decide."],
   "g5-eng-ch03-b-q19": ["Use word meaning, word parts, or context to decide."],
   "g5-eng-ch03-b-q20": ["Use word meaning, word parts, or context to decide."],
-  "g5-eng-ch03-b-q21": ["Use word meaning, word parts, or context to decide."],
+  "g5-eng-ch03-b-q21": ["Check four things: apostrophe for belonging, comma before the speech, inverted commas around only the spoken words, full stop inside them."],
   "g5-eng-ch03-b-q22": ["Use word meaning, word parts, or context to decide."],
   "g5-eng-ch03-b-q23": ["Use word meaning, word parts, or context to decide."],
   "g5-eng-ch03-b-q24": ["Use word meaning, word parts, or context to decide."],
