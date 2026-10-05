@@ -2,6 +2,7 @@ import { getPrepPack, listReadyGrades } from "./catalog";
 import { generatePaper, generateSet } from "./generate";
 import type { Grade, PrepQuestion, PrepSubject } from "./types";
 import { applyPictorialList } from "./pictorial";
+import { applyHintsList } from "./hints";
 import { READY_GRADES } from "./grades";
 
 export * from "./types";
@@ -37,7 +38,7 @@ export function getChapterSetQuestions(
   const set = chapter?.sets.find((s) => s.id === setId);
   if (!chapter || !set) return [];
   if (set.questions && set.questions.length > 0) {
-    return applyPictorialList(set.questions);
+    return applyHintsList(applyPictorialList(set.questions));
   }
   const seed =
     subject.charCodeAt(0) * 1000 +
@@ -69,7 +70,7 @@ export function getMockPaper(subject: PrepSubject, grade: Grade): PrepQuestion[]
       const j = Math.floor(rng() * (i + 1));
       [pool[i], pool[j]] = [pool[j], pool[i]];
     }
-    return applyPictorialList(pool.slice(0, pack.paperCount)).map((q, i) => ({
+    return applyHintsList(applyPictorialList(pool.slice(0, pack.paperCount))).map((q, i) => ({
       ...q,
       id: `paper-${i}-${q.id}`,
     }));
@@ -85,3 +86,4 @@ export function isPrepReady(subject: PrepSubject, grade: Grade): boolean {
 
 export { READY_GRADES };
 export { applyPictorial, applyPictorialList, pictorialStats, isPictorial } from "./pictorial";
+export { applyHints, applyHintsList, hintOverlayStats, isBoilerplateHints, BOILERPLATE_HINT_MARKERS } from "./hints";
