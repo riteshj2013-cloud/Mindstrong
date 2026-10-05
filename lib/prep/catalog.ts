@@ -3,6 +3,9 @@ import { g3SciencePlants } from "./content/g3-science-plants";
 import { g3ScienceAnimals } from "./content/g3-science-animals";
 import { g3ScienceSenses } from "./content/g3-science-senses";
 import { g3MathsNumbers } from "./content/g3-maths-numbers";
+import { g4ScienceFood } from "./content/g4-science-food";
+import { g4ScienceMatter } from "./content/g4-science-matter";
+import { g4ScienceWater } from "./content/g4-science-water";
 import { g5MathsLargeNumbers } from "./content/g5-maths-large-numbers";
 import { g5MathsAngles } from "./content/g5-maths-angles";
 import { g5MathsFractions } from "./content/g5-maths-fractions";
@@ -604,9 +607,9 @@ const SCIENCE: Record<number, ChapterDef[]> = {
     g3ScienceSenses,
   ],
   4: [
-    ch("g4-living", "Living Things", "🌱", "Plants, animals & needs", scienceLivingLesson(), ["living-things", "living-things", "human-body"], ["living-things", "human-body"]),
-    ch("g4-water-materials", "Water & Materials", "💧", "Water cycle and what things are made of", scienceWaterLesson(), ["materials", "earth-space", "materials"], ["materials", "earth-space"]),
-    ch("g4-forces", "Forces & Magnets", "🧲", "Push, pull & attract", scienceForceLesson(), ["forces-energy", "forces-energy", "materials"], ["forces-energy"]),
+    g4ScienceFood,
+    g4ScienceMatter,
+    g4ScienceWater,
   ],
   5: [
     g5SciencePlants,
