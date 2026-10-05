@@ -164,17 +164,20 @@ CHAPTERS = [
           "Each format has a pattern readers expect"])),
 ]
 
-src = ROOT / "grade-8-english"
-for spec in CHAPTERS:
-    md = (src / spec["src"]).read_text()
-    a, b = eng_sets(md, spec["prefix"])
-    for label, qs in (("A", a), ("B", b)):
-        assert len(qs) == 24, "%s set %s has %d" % (spec["src"], label, len(qs))
-        for q in qs:
-            assert q["answerId"] in "abcd" and len(q["options"]) == 4, q["id"]
-            assert len({o["text"] for o in q["options"]}) == 4, q["id"]
-            assert q["explanation"], q["id"]
-    emit_module(OUT / spec["file"], spec["export"], spec["meta"], spec["lesson"], a, b)
-    d = DOCS / "grade-8"; d.mkdir(parents=True, exist_ok=True)
-    (d / spec["doc"]).write_text(md)
-print("done")
+def run(chapters, src, grade):
+  for spec in chapters:
+      md = (src / spec["src"]).read_text()
+      a, b = eng_sets(md, spec["prefix"])
+      for label, qs in (("A", a), ("B", b)):
+          assert len(qs) == 24, "%s set %s has %d" % (spec["src"], label, len(qs))
+          for q in qs:
+              assert q["answerId"] in "abcd" and len(q["options"]) == 4, q["id"]
+              assert len({o["text"] for o in q["options"]}) == 4, q["id"]
+              assert q["explanation"], q["id"]
+      emit_module(OUT / spec["file"], spec["export"], spec["meta"], spec["lesson"], a, b)
+      d = DOCS / ("grade-%d" % grade); d.mkdir(parents=True, exist_ok=True)
+      (d / spec["doc"]).write_text(md)
+  print("done")
+
+if __name__ == "__main__":
+    run(CHAPTERS, ROOT / "grade-8-english", 8)

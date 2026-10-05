@@ -5,6 +5,9 @@ import { g3ScienceSenses } from "./content/g3-science-senses";
 import { g3MathsNumbers } from "./content/g3-maths-numbers";
 import { g4MathsLargeNumbers } from "./content/g4-maths-large-numbers";
 import { g4MathsMultiplyDivide } from "./content/g4-maths-multiply-divide";
+import { g4EnglishReading } from "./content/g4-english-reading";
+import { g4EnglishGrammar } from "./content/g4-english-grammar";
+import { g4EnglishWords } from "./content/g4-english-words";
 import { g4ScienceFood } from "./content/g4-science-food";
 import { g4ScienceMatter } from "./content/g4-science-matter";
 import { g4ScienceWater } from "./content/g4-science-water";
@@ -589,9 +592,9 @@ const ENGLISH: Record<number, ChapterDef[]> = {
     ch("grammar", "Grammar Basics", "✏️", "Agree & fill-ins", englishGrammarLesson(), ["grammar", "grammar", "vocabulary"], ["grammar"]),
   ],
   4: [
-    ch("g4-words", "Synonyms & Antonyms", "🔄", "Same and opposite meanings", englishSynLesson(), ["synonyms", "antonyms", "vocabulary"], ["synonyms", "antonyms", "vocabulary"]),
-    ch("g4-grammar", "Grammar", "✏️", "Agreement & fill-ins", englishGrammarLesson(), ["grammar", "grammar", "vocabulary"], ["grammar"]),
-    ch("g4-reading", "Reading Detective", "🔎", "Find the evidence", englishCompLesson(), ["comprehension", "comprehension", "vocabulary"], ["comprehension"]),
+    g4EnglishReading,
+    g4EnglishGrammar,
+    g4EnglishWords,
   ],
   5: [
     g5EnglishDetective,
