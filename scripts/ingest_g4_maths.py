@@ -238,6 +238,115 @@ LESSON_MULDIV = r'''const lesson: ChapterDef["lesson"] = [
   },
 ];'''
 
+LESSON_FRACTIONS = r"""const lesson: ChapterDef["lesson"] = [
+  {
+    id: "h",
+    type: "hook",
+    emoji: "🫓",
+    title: "Equal parts",
+    body: [
+      "A fraction is a part of a whole — but the parts must be equal!",
+      "Two equal pieces? Each one is a half.",
+      "Lesson is optional; jump to a set anytime.",
+    ],
+    cta: "Let's share!",
+    visual: "fraction-bar",
+    speak: "A fraction is a part of a whole. But the parts must be equal! Two equal pieces? Each one is a half.",
+  },
+  {
+    id: "r1",
+    type: "reveal",
+    title: "Halves, quarters, thirds",
+    lead: "Tap each card.",
+    visual: "fraction-bar",
+    speak: "Fold a paper in half, then fold it again. Now you have four equal quarters. Two quarters make one half. Three equal parts are called thirds.",
+    cards: [
+      { label: "Half (1/2)", reveal: "2 equal parts — take 1", emoji: "🌓" },
+      { label: "Quarter (1/4)", reveal: "4 equal parts; 2 quarters = 1 half", emoji: "🍕" },
+      { label: "Third (1/3)", reveal: "3 equal parts — take 1", emoji: "🍰" },
+      { label: "Three-quarters (3/4)", reveal: "Shade 3 of 4 equal parts", emoji: "🟧" },
+    ],
+  },
+  {
+    id: "d1",
+    type: "demo",
+    title: "Top and bottom",
+    visual: "fraction-bar",
+    speak: "The bottom number, the denominator, tells how many equal parts. The top number, the numerator, tells how many parts we take. A unit fraction has one on top. More parts means smaller pieces, so one half is bigger than one third.",
+    steps: [
+      "2/5: denominator 5 = equal parts in the whole",
+      "2/5: numerator 2 = parts we take",
+      "Unit fractions: 1/2 > 1/3 > 1/5 (more parts → smaller pieces)",
+      "Same-size pieces: 5/6 > 2/6 (more pieces → more)",
+    ],
+    punchline: "Bottom = equal parts · Top = parts taken",
+  },
+  {
+    id: "t1",
+    type: "try",
+    title: "Your turn",
+    prompt: "Which is bigger, 1/3 or 1/5?",
+    options: [
+      { id: "a", text: "1/3" },
+      { id: "b", text: "1/5" },
+      { id: "c", text: "They are equal" },
+      { id: "d", text: "Cannot tell" },
+    ],
+    answerId: "a",
+    why: "Cutting into 3 parts makes bigger pieces than cutting into 5 parts.",
+    visual: "fraction-bar",
+    speak: "Which is bigger, one third or one fifth?",
+  },
+  {
+    id: "d2",
+    type: "demo",
+    title: "Fraction of a group",
+    visual: "fraction-bar",
+    speak: "To find half of twelve, share twelve into two equal groups. Each group has six. In a story, find the whole first, then find the part. Three-quarters of sixteen is twelve.",
+    steps: [
+      "1/2 of 12 → 12 ÷ 2 = 6",
+      "1/4 of 20 → 20 ÷ 4 = 5",
+      "3/4 of 16 → 16 ÷ 4 = 4, then 4 × 3 = 12",
+      "Story: find the whole first, then the part",
+    ],
+    punchline: "Divide by the bottom, multiply by the top.",
+  },
+  {
+    id: "c1",
+    type: "check",
+    title: "Quick check",
+    visual: "fraction-bar",
+    speak: "One third of a class of twenty-four children wear glasses. How many children wear glasses?",
+    question: {
+      id: "g4-frac-check",
+      prompt: "1/3 of a class of 24 children wear glasses. How many wear glasses?",
+      options: [
+        { id: "a", text: "6" },
+        { id: "b", text: "8" },
+        { id: "c", text: "12" },
+        { id: "d", text: "3" },
+      ],
+      answerId: "b",
+      explanation: "24 ÷ 3 = 8 children.",
+      hints: ["The whole is 24.", "Share 24 into 3 equal groups."],
+    },
+  },
+  {
+    id: "w",
+    type: "wrap",
+    emoji: "⭐",
+    title: "Fraction friend!",
+    bullets: [
+      "Parts must be equal",
+      "Bottom = equal parts; top = parts taken",
+      "Unit fractions: more parts → smaller pieces",
+      "Set A and Set B ready — 24 MCQs each",
+    ],
+    cta: "Back to chapter",
+    speak: "You can name, compare and find fractions. Set A and Set B are ready.",
+  },
+];"""
+
 CHAPTERS = {
     "chapter-01-large-numbers.md": dict(
         prefix="g4-maths-large", file="g4-maths-large-numbers.ts", export="g4MathsLargeNumbers",
@@ -253,6 +362,13 @@ CHAPTERS = {
               "blurb": "Tables, carrying, sharing & remainders",
               "topic": "multiply-basics", "paperTopics": ["multiply-basics", "add-sub"]},
         lesson=LESSON_MULDIV),
+    "chapter-03-fractions.md": dict(
+        prefix="g4-maths-fractions", file="g4-maths-fractions.ts", export="g4MathsFractions",
+        doc="maths-ch03-fractions.md",
+        meta={"id": "g4-fractions", "title": "Fractions", "emoji": "🍕",
+              "blurb": "Halves, quarters, compare & fraction of a group",
+              "topic": "fractions", "paperTopics": ["fractions", "multiply-basics"]},
+        lesson=LESSON_FRACTIONS),
 }
 
 def answer_key(md, set_label):

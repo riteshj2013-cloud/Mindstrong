@@ -1,6 +1,7 @@
 export { g3MathsNumbers } from "./g3-maths-numbers";
 export { g4MathsLargeNumbers } from "./g4-maths-large-numbers";
 export { g4MathsMultiplyDivide } from "./g4-maths-multiply-divide";
+export { g4MathsFractions } from "./g4-maths-fractions";
 export { g4EnglishReading } from "./g4-english-reading";
 export { g4EnglishGrammar } from "./g4-english-grammar";
 export { g4EnglishWords } from "./g4-english-words";

@@ -5,6 +5,7 @@ import { g3ScienceSenses } from "./content/g3-science-senses";
 import { g3MathsNumbers } from "./content/g3-maths-numbers";
 import { g4MathsLargeNumbers } from "./content/g4-maths-large-numbers";
 import { g4MathsMultiplyDivide } from "./content/g4-maths-multiply-divide";
+import { g4MathsFractions } from "./content/g4-maths-fractions";
 import { g4EnglishReading } from "./content/g4-english-reading";
 import { g4EnglishGrammar } from "./content/g4-english-grammar";
 import { g4EnglishWords } from "./content/g4-english-words";
@@ -571,7 +572,7 @@ const MATHS: Record<number, ChapterDef[]> = {
   4: [
     g4MathsLargeNumbers,
     g4MathsMultiplyDivide,
-    ch("g4-fractions", "Fractions", "🍕", "Halves, quarters & parts", mathsFractionsLesson(), ["fractions", "fractions", "multiply-basics"], ["fractions"]),
+    g4MathsFractions,
   ],
   5: [
     g5MathsLargeNumbers,
