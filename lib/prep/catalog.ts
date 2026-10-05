@@ -1,7 +1,21 @@
 import type { ChapterDef, Grade, GradeSubjectPack, PrepSubject } from "./types";
+import { g3SciencePlants } from "./content/g3-science-plants";
+import { g3ScienceAnimals } from "./content/g3-science-animals";
+import { g3ScienceSenses } from "./content/g3-science-senses";
 import { g5MathsLargeNumbers } from "./content/g5-maths-large-numbers";
+import { g5MathsAngles } from "./content/g5-maths-angles";
+import { g5MathsFractions } from "./content/g5-maths-fractions";
 import { g5EnglishDetective } from "./content/g5-english-detective";
+import { g5EnglishGrammar } from "./content/g5-english-grammar";
+import { g5EnglishWords } from "./content/g5-english-words";
 import { g5SciencePlants } from "./content/g5-science-plants";
+import { g5ScienceBody } from "./content/g5-science-body";
+import { g5ScienceSpace } from "./content/g5-science-space";
+import { g8ScienceCells } from "./content/g8-science-cells";
+import { g8ScienceForce } from "./content/g8-science-force";
+import { g8ScienceMetals } from "./content/g8-science-metals";
+import { g8MathsRationals } from "./content/g8-maths-rationals";
+import { g8MathsLinear } from "./content/g8-maths-linear";
 
 function sets(topics: [string, string][]): ChapterDef["sets"] {
   return topics.map(([id, topic], i) => ({
@@ -543,12 +557,12 @@ const MATHS: Record<number, ChapterDef[]> = {
   ],
   5: [
     g5MathsLargeNumbers,
-    ch("fractions", "Fractions", "🍕", "Parts of a whole", mathsFractionsLesson(), ["fractions", "fractions", "decimals"], ["fractions", "decimals"]),
-    ch("decimals", "Decimals", "小数", "Tenths & hundredths", mathsFractionsLesson(), ["decimals", "decimals", "fractions"], ["decimals"]),
+    g5MathsAngles,
+    g5MathsFractions,
   ],
   8: [
-    ch("linear", "Linear Equations", "𝑥", "Solve for x", mathsAlgebraLesson(), ["linear-lite", "linear-lite", "ratios"], ["linear-lite"]),
-    ch("ratios", "Ratios & Proportion", "📐", "Scale amounts fairly", mathsAlgebraLesson(), ["ratios", "ratios", "percent"], ["ratios", "percent"]),
+    g8MathsRationals,
+    g8MathsLinear,
     ch("percent", "Percentages", "%", "Discounts & parts of 100", mathsFractionsLesson(), ["percent", "percent", "ratios"], ["percent"]),
   ],
 };
@@ -561,8 +575,8 @@ const ENGLISH: Record<number, ChapterDef[]> = {
   ],
   5: [
     g5EnglishDetective,
-    ch("grammar5", "Grammar Plus", "🧵", "Tenses & prepositions", englishGrammarLesson(), ["grammar", "grammar", "vocabulary"], ["grammar"]),
-    ch("vocab", "Vocabulary", "📖", "Precise word choice", englishSynLesson(), ["vocabulary", "synonyms", "antonyms"], ["vocabulary", "synonyms"]),
+    g5EnglishGrammar,
+    g5EnglishWords,
   ],
   8: [
     ch("comp8", "Comprehension", "🕵️", "Infer with evidence", englishCompLesson(), ["comprehension", "comprehension", "vocabulary"], ["comprehension"]),
@@ -573,19 +587,19 @@ const ENGLISH: Record<number, ChapterDef[]> = {
 
 const SCIENCE: Record<number, ChapterDef[]> = {
   3: [
-    ch("living", "Living Things", "🌱", "Alive vs not", scienceLivingLesson(), ["living-things", "living-things", "human-body"], ["living-things"]),
-    ch("body", "Our Body", "❤️", "Organs & senses", scienceLivingLesson(), ["human-body", "human-body", "living-things"], ["human-body"]),
-    ch("materials", "Materials", "🧊", "Properties & changes", scienceWaterLesson(), ["materials", "materials", "living-things"], ["materials"]),
+    g3SciencePlants,
+    g3ScienceAnimals,
+    g3ScienceSenses,
   ],
   5: [
     g5SciencePlants,
-    ch("water", "Water Cycle", "💧", "Evaporate & rain", scienceWaterLesson(), ["earth-space", "materials", "living-things"], ["earth-space", "materials"]),
-    ch("forces5", "Forces Around Us", "🧲", "Push, pull, friction", scienceForceLesson(), ["forces-energy", "forces-energy", "materials"], ["forces-energy"]),
+    g5ScienceBody,
+    g5ScienceSpace,
   ],
   8: [
-    ch("forces8", "Force & Pressure", "⚡", "Motion changers", scienceForceLesson(), ["forces-energy", "forces-energy", "materials"], ["forces-energy"]),
-    ch("cells", "Cell Basics", "🔬", "Unit of life", scienceLivingLesson(), ["cells-basics", "cells-basics", "living-things"], ["cells-basics"]),
-    ch("space8", "Earth & Space", "🚀", "Orbit & planets", scienceWaterLesson(), ["earth-space", "earth-space", "forces-energy"], ["earth-space"]),
+    g8ScienceCells,
+    g8ScienceForce,
+    g8ScienceMetals,
   ],
 };
 
