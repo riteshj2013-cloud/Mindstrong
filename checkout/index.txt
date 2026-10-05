@@ -1,0 +1,70 @@
+1:"$Sreact.fragment"
+3:I[89730,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js"],"MotionPref"]
+4:I[39756,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js"],"default"]
+5:I[37457,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js"],"default"]
+a:I[68027,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js"],"default",1]
+:HL["/Mindstrong/_next/static/chunks/2-nvm94fx2j8c.css","style"]
+:HL["/Mindstrong/_next/static/media/07454f8ad8aaac57-s.p.2kjei9psvcorz.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/Mindstrong/_next/static/media/5d52bd6c4cb3f315-s.p.0ez3bnoxb63ra.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:T631,(function(){
+  var KEY="ms-chunk-reload";
+  function reload(){
+    try{
+      var last=+sessionStorage.getItem(KEY)||0;
+      if(Date.now()-last<30000)return;
+      sessionStorage.setItem(KEY,String(Date.now()));
+    }catch(e){}
+    var u=new URL(location.href);
+    u.searchParams.set("v",String(Date.now()));
+    location.replace(u.toString());
+  }
+  function isChunkErr(r){
+    if(!r)return false;
+    var s=String((r&&(r.name+" "+r.message))||r);
+    return /ChunkLoadError|Loading (CSS )?chunk|Failed to fetch dynamically imported module|Importing a module script failed/i.test(s);
+  }
+  window.addEventListener("error",function(ev){
+    var t=ev&&ev.target;
+    if(t&&(t.tagName==="SCRIPT"||t.tagName==="LINK")){
+      var src=t.src||t.href||"";
+      if(src.indexOf("/_next/static/")!==-1)reload();
+      return;
+    }
+    if(isChunkErr(ev&&ev.error)||isChunkErr(ev&&ev.message))reload();
+  },true);
+  window.addEventListener("unhandledrejection",function(ev){
+    if(isChunkErr(ev&&ev.reason))reload();
+  });
+  window.addEventListener("load",function(){
+    // Backup: a chunk that 404'd before this listener existed.
+    try{
+      var bad=performance.getEntriesByType("resource").some(function(e){
+        return e.name.indexOf("/_next/static/")!==-1&&e.responseStatus>=400;
+      });
+      if(bad){reload();return;}
+    }catch(e){}
+    // Clean the ?v= marker once the page booted fine.
+    try{
+      var u=new URL(location.href);
+      if(u.searchParams.has("v")){u.searchParams.delete("v");history.replaceState(history.state,"",u.toString());}
+    }catch(e){}
+  });
+})();8:X
+0:{"P":null,"c":["","checkout",""],"q":"","i":false,"f":[[["",{"children":["checkout",{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Mindstrong/_next/static/chunks/2-nvm94fx2j8c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"nunito_22336911-module__FLPYxG__variable fredoka_5dae6085-module__-KAe2W__variable h-full antialiased","children":[["$","head",null,{"children":["$","script",null,{"id":"ms-chunk-reload","dangerouslySetInnerHTML":{"__html":"$2"}}]}],["$","body",null,{"className":"min-h-full","children":[["$","$L3",null,{}],["$","div",null,{"className":"mx-auto flex min-h-dvh w-full max-w-lg flex-col px-4 pb-8 pt-4","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$L6","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L7",{},null,false,null]},null,false,"$8"]},null,false,null],"$L9",false]],"m":"$undefined","G":["$a",["$Lb"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Y4Yq0zGQyFeKYMM5anZ0P"}
+c:I[47257,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js"],"ClientPageRoot"]
+d:I[37142,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js","/Mindstrong/_next/static/chunks/0_u6x5o_qyado.js","/Mindstrong/_next/static/chunks/2xz09ku659zy7.js"],"default"]
+10:I[97367,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js"],"OutletBoundary"]
+11:"$Sreact.suspense"
+13:I[97367,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js"],"ViewportBoundary"]
+15:I[97367,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js"],"MetadataBoundary"]
+6:["$","$L5",null,{}]
+7:["$","$1","c",{"children":[["$","$Lc",null,{"Component":"$d","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@e","$@f"]}}],[["$","script","script-0",{"src":"/Mindstrong/_next/static/chunks/0_u6x5o_qyado.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/Mindstrong/_next/static/chunks/2xz09ku659zy7.js","async":true,"nonce":"$undefined"}]],["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]]}]
+9:["$","$1","h",{"children":[null,["$","$L13",null,{"children":"$L14"}],["$","div",null,{"hidden":true,"children":["$","$L15",null,{"children":["$","$11",null,{"name":"Next.Metadata","children":"$L16"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+b:["$","link","0",{"rel":"stylesheet","href":"/Mindstrong/_next/static/chunks/2-nvm94fx2j8c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+8:C
+e:{}
+f:"$7:props:children:0:props:serverProvidedParams:params"
+14:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#fffaf0"}]]
+17:I[27201,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js"],"IconMark"]
+12:null
+16:[["$","title","0",{"children":"Mindstrong — Think hard. Stay brave."}],["$","meta","1",{"name":"description","content":"Daily practice (reasoning, maths, spelling) and SOF test prep for ages 6–15."}],["$","link","2",{"rel":"icon","href":"/Mindstrong/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L17","3",{}]]
