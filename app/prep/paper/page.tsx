@@ -2,10 +2,12 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useMemo } from "react";
+import { useCallback, useMemo } from "react";
 import { QuizPlayer } from "@/components/prep/QuizPlayer";
+import { Button } from "@/components/ui/Button";
 import { Mascot } from "@/components/ui/Mascot";
 import {
+  clearPrepActive,
   getMockPaper,
   getPrepPack,
   savePaperScore,
@@ -17,10 +19,23 @@ export default function PrepPaperPage() {
   const router = useRouter();
   const active = usePrepActive();
 
+  const subject = active?.kind === "paper" ? active.subject : null;
+  const grade = active?.kind === "paper" ? active.grade : null;
+
   const questions = useMemo(() => {
-    if (!active || active.kind !== "paper") return [];
-    return getMockPaper(active.subject, active.grade);
-  }, [active]);
+    if (!subject || grade == null) return [];
+    return getMockPaper(subject, grade);
+  }, [subject, grade]);
+
+  const onFinish = useCallback(
+    (correct: number, total: number) => {
+      if (!subject || grade == null) return;
+      savePaperScore(subject, grade, correct, total);
+      savePrepActive(null);
+      router.push("/prep");
+    },
+    [subject, grade, router],
+  );
 
   if (active === undefined) {
     return (
@@ -38,6 +53,17 @@ export default function PrepPaperPage() {
         <Link href="/prep" className="font-bold text-coral underline">
           Back to test prep
         </Link>
+        {active ? (
+          <Button
+            variant="ghost"
+            onClick={() => {
+              clearPrepActive();
+              router.push("/prep");
+            }}
+          >
+            Clear stuck session
+          </Button>
+        ) : null}
       </main>
     );
   }
@@ -59,11 +85,7 @@ export default function PrepPaperPage() {
         title={pack.paperTitle}
         questions={questions}
         tryBeforeHint={false}
-        onFinish={(correct, total) => {
-          savePaperScore(active.subject, active.grade, correct, total);
-          savePrepActive(null);
-          router.push("/prep");
-        }}
+        onFinish={onFinish}
       />
     </main>
   );

@@ -20,6 +20,9 @@ export const DEFAULT_PREP_PROGRESS: PrepProgress = {
   paperScores: {},
 };
 
+/** Memoize by raw string so useSyncExternalStore gets referentially stable snapshots. */
+const cache = new Map<string, { raw: string | null; value: unknown }>();
+
 function readRaw(key: string): string | null {
   try {
     return window.localStorage.getItem(key);
@@ -28,23 +31,38 @@ function readRaw(key: string): string | null {
   }
 }
 
+function cachedRead<T>(key: string, parse: (raw: string | null) => T): T {
+  if (typeof window === "undefined") return parse(null);
+  const raw = readRaw(key);
+  const hit = cache.get(key);
+  if (hit && hit.raw === raw) return hit.value as T;
+  const value = parse(raw);
+  cache.set(key, { raw, value });
+  return value;
+}
+
 function writeRaw(key: string, value: unknown | null) {
   try {
     if (value === null) window.localStorage.removeItem(key);
     else window.localStorage.setItem(key, JSON.stringify(value));
-  } catch {}
+  } catch {
+    /* private mode / quota */
+  }
+  // Keep snapshot in sync with the value we just wrote (stable until raw changes).
+  const raw = value === null ? null : JSON.stringify(value);
+  cache.set(key, { raw, value: value === null ? null : value });
   window.dispatchEvent(new Event(CHANGE));
 }
 
 export function readPrepProgress(): PrepProgress {
-  if (typeof window === "undefined") return DEFAULT_PREP_PROGRESS;
-  const raw = readRaw(PROGRESS_KEY);
-  if (!raw) return DEFAULT_PREP_PROGRESS;
-  try {
-    return { ...DEFAULT_PREP_PROGRESS, ...JSON.parse(raw) };
-  } catch {
-    return DEFAULT_PREP_PROGRESS;
-  }
+  return cachedRead(PROGRESS_KEY, (raw) => {
+    if (!raw) return DEFAULT_PREP_PROGRESS;
+    try {
+      return { ...DEFAULT_PREP_PROGRESS, ...JSON.parse(raw) } as PrepProgress;
+    } catch {
+      return DEFAULT_PREP_PROGRESS;
+    }
+  });
 }
 
 export function savePrepProgress(p: PrepProgress) {
@@ -52,21 +70,27 @@ export function savePrepProgress(p: PrepProgress) {
 }
 
 export function readPrepActive(): PrepActive | null {
-  if (typeof window === "undefined") return null;
-  const raw = readRaw(ACTIVE_KEY);
-  if (!raw) return null;
-  try {
-    return JSON.parse(raw) as PrepActive;
-  } catch {
-    return null;
-  }
+  return cachedRead(ACTIVE_KEY, (raw) => {
+    if (!raw) return null;
+    try {
+      return JSON.parse(raw) as PrepActive;
+    } catch {
+      return null;
+    }
+  });
 }
 
 export function savePrepActive(a: PrepActive | null) {
   writeRaw(ACTIVE_KEY, a);
 }
 
+/** Clear prep active session (recovery if a prior bug left a stuck session). */
+export function clearPrepActive() {
+  savePrepActive(null);
+}
+
 function subscribe(cb: () => void) {
+  if (typeof window === "undefined") return () => {};
   window.addEventListener("storage", cb);
   window.addEventListener(CHANGE, cb);
   return () => {
@@ -76,19 +100,11 @@ function subscribe(cb: () => void) {
 }
 
 export function usePrepProgress(): PrepProgress | undefined {
-  return useSyncExternalStore(
-    subscribe,
-    readPrepProgress,
-    () => undefined,
-  );
+  return useSyncExternalStore(subscribe, readPrepProgress, () => undefined);
 }
 
 export function usePrepActive(): PrepActive | null | undefined {
-  return useSyncExternalStore(
-    subscribe,
-    readPrepActive,
-    () => undefined,
-  );
+  return useSyncExternalStore(subscribe, readPrepActive, () => undefined);
 }
 
 export function getChapterProgress(
@@ -159,5 +175,6 @@ export function savePaperScore(subject: PrepSubject, grade: Grade, correct: numb
 
 export function rememberPrepChoice(subject: PrepSubject, grade: Grade) {
   const p = readPrepProgress();
+  if (p.lastSubject === subject && p.lastGrade === grade) return;
   savePrepProgress({ ...p, lastSubject: subject, lastGrade: grade });
 }

@@ -130,8 +130,10 @@ export interface ChapterSet {
   title: string;
   /** Target 20–25 olympiad-style MCQs. */
   questionCount: number;
-  /** Generator topic key used at runtime. */
+  /** Generator topic key used at runtime (fallback when questions absent). */
   topic: string;
+  /** Authored SOF items — preferred over procedural generation when present. */
+  questions?: PrepQuestion[];
 }
 
 export interface ChapterDef {

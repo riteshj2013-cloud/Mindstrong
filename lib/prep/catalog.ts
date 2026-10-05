@@ -1,4 +1,7 @@
 import type { ChapterDef, Grade, GradeSubjectPack, PrepSubject } from "./types";
+import { g5MathsLargeNumbers } from "./content/g5-maths-large-numbers";
+import { g5EnglishDetective } from "./content/g5-english-detective";
+import { g5SciencePlants } from "./content/g5-science-plants";
 
 function sets(topics: [string, string][]): ChapterDef["sets"] {
   return topics.map(([id, topic], i) => ({
@@ -539,9 +542,9 @@ const MATHS: Record<number, ChapterDef[]> = {
     ch("multiply", "Multiply Basics", "✖️", "Arrays & times facts", mathsPlaceValueLesson(), ["multiply-basics", "multiply-basics", "add-sub"], ["multiply-basics"]),
   ],
   5: [
+    g5MathsLargeNumbers,
     ch("fractions", "Fractions", "🍕", "Parts of a whole", mathsFractionsLesson(), ["fractions", "fractions", "decimals"], ["fractions", "decimals"]),
     ch("decimals", "Decimals", "小数", "Tenths & hundredths", mathsFractionsLesson(), ["decimals", "decimals", "fractions"], ["decimals"]),
-    ch("ops", "Bigger Operations", "🧮", "Multi-digit +/−/×", mathsPlaceValueLesson(), ["add-sub", "multiply-basics", "decimals"], ["add-sub", "multiply-basics"]),
   ],
   8: [
     ch("linear", "Linear Equations", "𝑥", "Solve for x", mathsAlgebraLesson(), ["linear-lite", "linear-lite", "ratios"], ["linear-lite"]),
@@ -557,9 +560,9 @@ const ENGLISH: Record<number, ChapterDef[]> = {
     ch("grammar", "Grammar Basics", "✏️", "Agree & fill-ins", englishGrammarLesson(), ["grammar", "grammar", "vocabulary"], ["grammar"]),
   ],
   5: [
-    ch("vocab", "Vocabulary", "📖", "Precise word choice", englishSynLesson(), ["vocabulary", "synonyms", "antonyms"], ["vocabulary", "synonyms"]),
+    g5EnglishDetective,
     ch("grammar5", "Grammar Plus", "🧵", "Tenses & prepositions", englishGrammarLesson(), ["grammar", "grammar", "vocabulary"], ["grammar"]),
-    ch("reading", "Reading Sense", "🔎", "Find the evidence", englishCompLesson(), ["comprehension", "comprehension", "vocabulary"], ["comprehension"]),
+    ch("vocab", "Vocabulary", "📖", "Precise word choice", englishSynLesson(), ["vocabulary", "synonyms", "antonyms"], ["vocabulary", "synonyms"]),
   ],
   8: [
     ch("comp8", "Comprehension", "🕵️", "Infer with evidence", englishCompLesson(), ["comprehension", "comprehension", "vocabulary"], ["comprehension"]),
@@ -575,9 +578,9 @@ const SCIENCE: Record<number, ChapterDef[]> = {
     ch("materials", "Materials", "🧊", "Properties & changes", scienceWaterLesson(), ["materials", "materials", "living-things"], ["materials"]),
   ],
   5: [
+    g5SciencePlants,
     ch("water", "Water Cycle", "💧", "Evaporate & rain", scienceWaterLesson(), ["earth-space", "materials", "living-things"], ["earth-space", "materials"]),
     ch("forces5", "Forces Around Us", "🧲", "Push, pull, friction", scienceForceLesson(), ["forces-energy", "forces-energy", "materials"], ["forces-energy"]),
-    ch("earth5", "Earth & Sky", "🌙", "Day, night, Moon", scienceWaterLesson(), ["earth-space", "earth-space", "forces-energy"], ["earth-space"]),
   ],
   8: [
     ch("forces8", "Force & Pressure", "⚡", "Motion changers", scienceForceLesson(), ["forces-energy", "forces-energy", "materials"], ["forces-energy"]),

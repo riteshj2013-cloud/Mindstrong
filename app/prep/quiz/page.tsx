@@ -2,10 +2,12 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useMemo } from "react";
+import { useCallback, useMemo } from "react";
 import { QuizPlayer } from "@/components/prep/QuizPlayer";
+import { Button } from "@/components/ui/Button";
 import { Mascot } from "@/components/ui/Mascot";
 import {
+  clearPrepActive,
   getChapterSetQuestions,
   getPrepPack,
   savePrepActive,
@@ -17,10 +19,25 @@ export default function PrepQuizPage() {
   const router = useRouter();
   const active = usePrepActive();
 
+  const subject = active?.kind === "set" ? active.subject : null;
+  const grade = active?.kind === "set" ? active.grade : null;
+  const chapterId = active?.kind === "set" ? active.chapterId : null;
+  const setId = active?.kind === "set" ? active.setId : null;
+
   const questions = useMemo(() => {
-    if (!active || active.kind !== "set" || !active.chapterId || !active.setId) return [];
-    return getChapterSetQuestions(active.subject, active.grade, active.chapterId, active.setId);
-  }, [active]);
+    if (!subject || grade == null || !chapterId || !setId) return [];
+    return getChapterSetQuestions(subject, grade, chapterId, setId);
+  }, [subject, grade, chapterId, setId]);
+
+  const onFinish = useCallback(
+    (correct: number, total: number) => {
+      if (!subject || grade == null || !chapterId || !setId) return;
+      saveSetScore(subject, grade, chapterId, setId, correct, total);
+      savePrepActive(null);
+      router.push("/prep");
+    },
+    [subject, grade, chapterId, setId, router],
+  );
 
   if (active === undefined) {
     return (
@@ -30,7 +47,7 @@ export default function PrepQuizPage() {
     );
   }
 
-  if (!active || active.kind !== "set" || !active.chapterId || !active.setId || !questions.length) {
+  if (!active || active.kind !== "set" || !chapterId || !setId || !questions.length) {
     return (
       <main className="flex flex-1 flex-col items-center justify-center gap-4 text-center">
         <Mascot mood="think" size={100} />
@@ -38,13 +55,24 @@ export default function PrepQuizPage() {
         <Link href="/prep" className="font-bold text-coral underline">
           Back to test prep
         </Link>
+        {active ? (
+          <Button
+            variant="ghost"
+            onClick={() => {
+              clearPrepActive();
+              router.push("/prep");
+            }}
+          >
+            Clear stuck session
+          </Button>
+        ) : null}
       </main>
     );
   }
 
   const pack = getPrepPack(active.subject, active.grade);
-  const chapter = pack.chapters.find((c) => c.id === active.chapterId);
-  const set = chapter?.sets.find((s) => s.id === active.setId);
+  const chapter = pack.chapters.find((c) => c.id === chapterId);
+  const set = chapter?.sets.find((s) => s.id === setId);
 
   return (
     <main className="flex flex-1 flex-col gap-3">
@@ -60,11 +88,7 @@ export default function PrepQuizPage() {
       <QuizPlayer
         title={`${chapter?.title ?? ""} · ${set?.title ?? ""}`}
         questions={questions}
-        onFinish={(correct, total) => {
-          saveSetScore(active.subject, active.grade, active.chapterId!, active.setId!, correct, total);
-          savePrepActive(null);
-          router.push("/prep");
-        }}
+        onFinish={onFinish}
       />
     </main>
   );
