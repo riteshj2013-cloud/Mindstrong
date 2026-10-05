@@ -11,7 +11,7 @@ import { Brand } from "@/components/ui/Brand";
 import { Button } from "@/components/ui/Button";
 import { NavChip } from "@/components/ui/NavChip";
 import { Mascot, MascotSays } from "@/components/ui/Mascot";
-import { packForToday } from "@/lib/content";
+import { MORE_DAILY_PACKS_SOON, todayPackInfo } from "@/lib/content";
 import { BAND_LABELS, ageToBand, clampAge } from "@/lib/content/age";
 import {
   clearAllCompleted,
@@ -115,7 +115,8 @@ export default function Home() {
 
   const today = localDay();
   const childAge = clampAge(profile.age);
-  const pack = packForToday(today, childAge);
+  const packInfo = todayPackInfo(today, childAge);
+  const pack = packInfo.pack;
   const doneToday = !!todaySummary(progress, today);
   const resumable =
     active && active.date === today && active.phase !== "complete" ? active : null;
@@ -193,7 +194,7 @@ export default function Home() {
         <div className="relative z-10 max-w-[62%]">
           <h1 className="text-4xl font-semibold leading-tight">{hello}</h1>
           <p className="mt-2 text-lg font-bold text-ink/75">
-            Pick a path: daily practice or SOF test prep.
+            Pick a path: daily practice or olympiad prep.
           </p>
         </div>
         <div className="absolute -bottom-2 right-2">
@@ -211,6 +212,7 @@ export default function Home() {
           exhausted={remainingSelected === 0}
           onRestart={() => setConfirmRestart(true)}
           lastSaved={settings?.dailySections}
+          moreSoon={packInfo.isFallback}
         />
       ) : (
         <section className="grid gap-3">
@@ -235,7 +237,7 @@ export default function Home() {
             <p className="text-3xl" aria-hidden>
               🏆
             </p>
-            <p className="font-display text-2xl font-semibold">Test prep (SOF)</p>
+            <p className="font-display text-2xl font-semibold">Olympiad prep</p>
             <p className="text-sm font-bold text-ink/60">
               Maths · English · Science · lessons optional
             </p>
@@ -267,8 +269,14 @@ export default function Home() {
         <section className="rounded-[2rem] bg-white p-5 shadow-soft">
           <div className="mb-3 flex items-baseline justify-between gap-2">
             <h2 className="text-xl font-semibold">Today’s daily journey</h2>
-            <span className="text-xs font-bold text-ink/45">{pack.title}</span>
+            <span className="text-xs font-bold text-ink/45">{packInfo.shortLabel}</span>
           </div>
+          {packInfo.isFallback && (
+            <p className="mb-3 rounded-2xl bg-cream px-3 py-2 text-xs font-bold text-ink/55">
+              🌱 Today we pick fresh questions from the Monday pack that you haven’t done yet.{" "}
+              {MORE_DAILY_PACKS_SOON}!
+            </p>
+          )}
           <ol className="space-y-1.5">
             {journeyPhases.map((p, i) => {
               const spec = pack.phases[p];
@@ -326,7 +334,7 @@ export default function Home() {
 
       {doneToday && (
         <MascotSays mood="cheer" size={56}>
-          Daily done — try SOF prep or see your stars!
+          Daily done — try olympiad prep or see your stars!
         </MascotSays>
       )}
 

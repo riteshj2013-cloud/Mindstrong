@@ -16,7 +16,7 @@ import {
 } from "@/components/session/items";
 import { Button } from "@/components/ui/Button";
 import { Mascot } from "@/components/ui/Mascot";
-import { getPack, packForToday } from "@/lib/content";
+import { MORE_DAILY_PACKS_SOON, getPack, todayPackInfo } from "@/lib/content";
 import { mondayPack } from "@/lib/content/monday";
 import { clampAge } from "@/lib/content/age";
 import { restartDailyExercises } from "@/lib/completed";
@@ -85,7 +85,8 @@ export default function SessionPage() {
 
   if (!session) {
     const doneToday = todaySummary(progress, today);
-    const pack = packForToday(today, clampAge(profile?.age ?? 8));
+    const packInfo = todayPackInfo(today, clampAge(profile?.age ?? 8));
+    const pack = packInfo.pack;
     const remaining = countRemainingItems(pack, selected.length ? selected : PLAY_PHASES);
 
     function begin() {
@@ -125,8 +126,15 @@ export default function SessionPage() {
               <>
                 <h1 className="mb-2 text-center text-4xl font-semibold">Ready, brave brain?</h1>
                 <p className="mb-4 text-center text-lg text-ink/70">
-                  {pack.title} · pick your sections
+                  {packInfo.isFallback
+                    ? "Fresh picks from the Monday pack · pick your sections"
+                    : `${pack.title} · pick your sections`}
                 </p>
+                {packInfo.isFallback && (
+                  <p className="-mt-2 mb-4 text-center text-sm font-bold text-ink/50">
+                    You won’t repeat questions you’ve finished. {MORE_DAILY_PACKS_SOON}!
+                  </p>
+                )}
               </>
             )}
             <SectionPicker
@@ -138,6 +146,7 @@ export default function SessionPage() {
               exhausted={remaining === 0}
               onRestart={() => setConfirmRestart(true)}
               lastSaved={settings?.dailySections}
+              moreSoon={packInfo.isFallback}
             />
             {confirmRestart && (
               <div className="mt-3 space-y-2 rounded-[1.75rem] border-2 border-coral/40 bg-white p-4 shadow-soft">

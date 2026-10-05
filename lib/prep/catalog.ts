@@ -641,7 +641,7 @@ function pack(subject: PrepSubject, grade: Grade, chapters: ChapterDef[] | undef
     grade,
     ready,
     chapters: chs,
-    paperTitle: `SOF-style ${subject === "maths" ? "IMO" : subject === "english" ? "IEO" : "NSO"} mock · Grade ${grade}`,
+    paperTitle: `Olympiad-style ${subject === "maths" ? "Maths" : subject === "english" ? "English" : "Science"} mock · Grade ${grade}`,
     paperCount: 30,
   };
 }

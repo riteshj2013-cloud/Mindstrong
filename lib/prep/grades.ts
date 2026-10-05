@@ -27,3 +27,12 @@ export const READY_GRADES: Grade[] = [3, 4, 5, 8];
 export function isGradeReady(grade: Grade): boolean {
   return READY_GRADES.includes(grade);
 }
+
+/**
+ * Closest playable grade for a grade that isn't ready yet
+ * (ties go to the lower, gentler grade). Returns `grade` itself if it is ready.
+ */
+export function nearestReadyGrade(grade: Grade, ready: Grade[] = READY_GRADES): Grade {
+  if (!ready.length || ready.includes(grade)) return grade;
+  return [...ready].sort((a, b) => Math.abs(a - grade) - Math.abs(b - grade) || a - b)[0];
+}

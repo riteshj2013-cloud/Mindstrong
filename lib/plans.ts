@@ -36,7 +36,7 @@ export const PLANS: Plan[] = [
   {
     id: "free",
     name: "Free",
-    tagline: "Daily practice + sample SOF sets",
+    tagline: "Daily practice + sample olympiad prep sets",
     priceLabel: "₹0",
     amountInr: 0,
     cadence: "forever",
@@ -44,7 +44,7 @@ export const PLANS: Plan[] = [
     isFree: true,
     features: [
       "Daily reasoning · maths · spelling",
-      "Sample SOF prep sets",
+      "Sample olympiad prep sets",
       "Streaks & brave-try stars",
       "Works offline on this device",
     ],
@@ -52,7 +52,7 @@ export const PLANS: Plan[] = [
   {
     id: "plus-monthly",
     name: "Mindstrong Plus",
-    tagline: "All SOF prep grades & chapters",
+    tagline: "All olympiad prep grades & chapters",
     priceLabel: "₹199",
     amountInr: 199,
     cadence: "month",
@@ -60,7 +60,7 @@ export const PLANS: Plan[] = [
     featured: true,
     badge: "Most flexible",
     features: [
-      "All SOF prep grades & chapters",
+      "All olympiad prep grades & chapters",
       "Lessons + quizzes",
       "Progress reports for parents",
       "Daily practice unlocked",
@@ -77,7 +77,7 @@ export const PLANS: Plan[] = [
     badge: "Save vs monthly",
     features: [
       "Everything in Plus monthly",
-      "All SOF prep grades & chapters",
+      "All olympiad prep grades & chapters",
       "Lessons + progress reports",
       "One payment for the school year",
     ],
@@ -118,8 +118,9 @@ export const PLANS: Plan[] = [
 export const PRICING_DISCLAIMER =
   "Proposed pricing — not final. Amounts may change before payments go live.";
 
+/** Shown in the site footer, prep hub, home, plans and checkout. (Identifier kept for imports.) */
 export const SOF_DISCLAIMER =
-  "Olympiad-style practice — not affiliated with SOF or any exam board.";
+  "Original olympiad-style practice. Not affiliated with or endorsed by SOF or any olympiad body.";
 
 export function getPlan(id: string | null | undefined): Plan | undefined {
   if (!id) return undefined;

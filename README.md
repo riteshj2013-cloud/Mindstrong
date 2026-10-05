@@ -40,7 +40,10 @@ npm run build && npm start   # production
 4. **Hard try** — `47 → 57 → 67 → __` (+10). Hints locked until **I tried**  
 5. **Reflect** — what felt hard / what you tried  
 
-Other weekdays resolve to a scaffold and fall back to Monday so the demo always works.
+Only Monday packs are written so far. On Tuesday–Sunday the app serves **fresh, unseen
+Monday-pack items** (via the no-repeat history in `lib/completed.ts`) and says so honestly:
+“Fresh picks from the Monday pack · More daily packs coming soon” (`todayPackInfo()` in
+`lib/content/index.ts`).
 
 ## Routes
 
@@ -109,6 +112,15 @@ ingest-sanitized and rendered as **original in-app SVG** (no copyrighted SOF sca
 - **G5 Maths** Ch1 Large Numbers (pictorial addendum)
 
 Writers: `docs/sof-source/FIGURE-SPEC.md`.
+
+**Editorial sections never ship.** Writer/editor-only sections (`## Meta`, `## Pictorial notes`,
+`## Visual spec`, `## Figure Library`, `## Engineering notes`, QA/reviewer notes…) are stripped by
+`strip_editorial_sections()` in `scripts/ingest_lib.py` before parsing; every emitted item string is
+cut at the first markdown heading and `assert_no_leak()` fails the ingest on leaks (SOF/IMO/NSO/IEO
+branding, “not copied”, marker ids, TODO). `lib/prep/cleanText.ts` is a runtime safety net.
+Run `node scripts/audit-content.mjs` before deploying — it walks every kid-facing string (prep
+items, lessons, daily packs, plans) and exits non-zero on editorial leaks, exam branding or `$`
+amounts (use ₹).
 Ingest: `scripts/ingest_g3_science_pictorial.py`, `scripts/ingest_g3_maths_pictorial.py`,
 `scripts/ingest_g4_maths_pictorial.py`, `scripts/ingest_g4_science.py`, `scripts/ingest_g4_english.py`, `scripts/ingest_g5_pictorial.py`.
 

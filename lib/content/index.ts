@@ -23,7 +23,11 @@ export const ALL_READY_PACKS: ContentPack[] = Object.values(MONDAY_BY_BAND);
 /** Default / legacy alias — ages 8–9 baseline. */
 export const mondayPack = mondayPack89;
 
-/** Lightweight scaffolds so other weekdays resolve without crashing. */
+/**
+ * Only Monday packs are authored so far. Other weekdays resolve to a not-ready
+ * scaffold, and `packForToday` serves the Monday pack instead — the no-repeat
+ * history (lib/completed.ts) means the child gets fresh, unseen Monday items.
+ */
 function scaffold(day: Weekday, band: AgeBand, title: string): ContentPack {
   const base = MONDAY_BY_BAND[band];
   return {
@@ -39,12 +43,12 @@ function scaffold(day: Weekday, band: AgeBand, title: string): ContentPack {
 function packsForBand(band: AgeBand): Record<Weekday, ContentPack> {
   return {
     mon: MONDAY_BY_BAND[band],
-    tue: scaffold("tue", band, "Tuesday · Coming soon"),
-    wed: scaffold("wed", band, "Wednesday · Coming soon"),
-    thu: scaffold("thu", band, "Thursday · Coming soon"),
-    fri: scaffold("fri", band, "Friday · Coming soon"),
-    sat: scaffold("sat", band, "Saturday · Coming soon"),
-    sun: scaffold("sun", band, "Sunday · Coming soon"),
+    tue: scaffold("tue", band, "Tuesday pack · not written yet"),
+    wed: scaffold("wed", band, "Wednesday pack · not written yet"),
+    thu: scaffold("thu", band, "Thursday pack · not written yet"),
+    fri: scaffold("fri", band, "Friday pack · not written yet"),
+    sat: scaffold("sat", band, "Saturday pack · not written yet"),
+    sun: scaffold("sun", band, "Sunday pack · not written yet"),
   };
 }
 
@@ -55,6 +59,34 @@ export function packForToday(day: string = "", age: number = 8): ContentPack {
   const pack = packsForBand(band)[wd];
   if (pack.ready) return pack;
   return MONDAY_BY_BAND[band];
+}
+
+export const MORE_DAILY_PACKS_SOON = "More daily packs coming soon";
+
+export interface TodayPackInfo {
+  /** Pack to actually play (today's, or the Monday pack as a fallback). */
+  pack: ContentPack;
+  weekday: Weekday;
+  /** True when today's weekday pack isn't written yet and we serve Monday items. */
+  isFallback: boolean;
+  /** Short, honest label for chrome (never implies a 7-day set is ready). */
+  shortLabel: string;
+}
+
+/** Today's pack plus honest copy about whether it's a fallback. */
+export function todayPackInfo(day: string = "", age: number = 8): TodayPackInfo {
+  const band = ageToBand(clampAge(age));
+  const wd = day ? weekdayOf(day) : weekdayOf();
+  const native = packsForBand(band)[wd];
+  if (native.ready) {
+    return { pack: native, weekday: wd, isFallback: false, shortLabel: native.title };
+  }
+  return {
+    pack: MONDAY_BY_BAND[band],
+    weekday: wd,
+    isFallback: true,
+    shortLabel: "Fresh picks · Monday pack",
+  };
 }
 
 export function packForAge(age: number, day: string = ""): ContentPack {

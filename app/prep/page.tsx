@@ -7,6 +7,7 @@ import { Brand } from "@/components/ui/Brand";
 import { Button } from "@/components/ui/Button";
 import { NavChip } from "@/components/ui/NavChip";
 import { Mascot } from "@/components/ui/Mascot";
+import { SiteFooter } from "@/components/auth/SiteFooter";
 import {
   ALL_GRADES,
   ALL_SUBJECTS,
@@ -18,7 +19,6 @@ import {
   gradeLabel,
   gradeSubtitle,
   isGradeReady,
-  READY_GRADES,
   packKey,
   clearPrepActive,
   rememberPrepChoice,
@@ -26,6 +26,7 @@ import {
   savePrepActive,
   usePrepProgress,
   ageToGrade,
+  nearestReadyGrade,
   type Grade,
   type PrepSubject,
 } from "@/lib/prep";
@@ -38,7 +39,7 @@ import {
 } from "@/lib/completed";
 import { useProfile } from "@/lib/storage";
 
-type Stage = "subject" | "grade" | "path" | "chapters" | "chapter";
+type Stage = "subject" | "grade" | "soon" | "path" | "chapters" | "chapter";
 
 export default function PrepHubPage() {
   const router = useRouter();
@@ -67,6 +68,11 @@ export default function PrepHubPage() {
     [subject, grade],
   );
   const chapter = pack?.chapters.find((c) => c.id === chapterId);
+
+  /** Grades with real content for a subject (READY_GRADES ∩ authored packs). */
+  function readyGradesFor(sub: PrepSubject): Grade[] {
+    return ALL_GRADES.filter((g) => isGradeReady(g) && getPrepPack(sub, g).ready);
+  }
 
   if (profile === undefined || progress === undefined || completed === undefined) {
     return (
@@ -140,7 +146,7 @@ export default function PrepHubPage() {
       {stage === "subject" && (
         <>
           <div>
-            <h1 className="text-3xl font-semibold">Test prep · SOF</h1>
+            <h1 className="text-3xl font-semibold">Olympiad prep</h1>
             <p className="text-base font-semibold text-ink/60">
               Pick a subject. Lessons are optional — practice sets are always open.
             </p>
@@ -155,7 +161,8 @@ export default function PrepHubPage() {
                   onClick={() => {
                     setSubject(s);
                     setGrade(suggestedGrade);
-                    setStage("grade");
+                    // Honest screen when the kid's grade has no content yet.
+                    setStage(readyGradesFor(s).includes(suggestedGrade) ? "grade" : "soon");
                   }}
                   className={`flex items-center gap-4 rounded-[2rem] p-5 text-left shadow-chunky ${meta.tone}`}
                 >
@@ -219,33 +226,78 @@ export default function PrepHubPage() {
           </div>
           <div className="grid grid-cols-5 gap-2">
             {ALL_GRADES.map((g) => {
-              const ready = isGradeReady(g) && getPrepPack(subject, g).ready;
+              const ready = readyGradesFor(subject).includes(g);
+              if (!ready) {
+                return (
+                  <button
+                    key={g}
+                    type="button"
+                    onClick={() => {
+                      setGrade(g);
+                      setStage("soon");
+                    }}
+                    className="flex min-h-14 flex-col items-center justify-center rounded-2xl border-2 border-dashed border-ink/15 bg-white/60 font-display text-lg font-semibold text-ink/45"
+                    aria-label={`Grade ${g} — coming soon`}
+                    title="Coming soon"
+                  >
+                    {g}
+                    <span className="block font-sans text-[9px] font-bold uppercase leading-tight tracking-wide">
+                      Coming soon
+                    </span>
+                  </button>
+                );
+              }
               return (
                 <button
                   key={g}
                   type="button"
                   onClick={() => {
                     setGrade(g);
-                    if (ready) setStage("path");
+                    setStage("path");
                   }}
                   className={`min-h-14 rounded-2xl font-display text-lg font-semibold ${
-                    ready
-                      ? grade === g
-                        ? "bg-coral text-white shadow-chunky"
-                        : "bg-white shadow-soft"
-                      : "bg-ink/5 text-ink/35"
+                    grade === g ? "bg-coral text-white shadow-chunky" : "bg-white shadow-soft"
                   }`}
-                  title={ready ? gradeSubtitle(g) : "Coming soon"}
+                  aria-label={`Grade ${g}`}
+                  title={gradeSubtitle(g)}
                 >
                   {g}
-                  {!ready && <span className="mt-0.5 block text-[9px]">soon</span>}
                 </button>
               );
             })}
           </div>
           <p className="text-xs font-semibold text-ink/45">
-            Grades {READY_GRADES.join(", ")} are playable now. More grades coming soon.
+            Ready now: Grades {readyGradesFor(subject).join(", ")}. Other grades are coming soon.
           </p>
+        </>
+      )}
+
+      {stage === "soon" && subject && grade && (
+        <>
+          <NavChip tone="solid" onClick={() => setStage("grade")}>
+            ← Grades
+          </NavChip>
+          <section className="flex flex-col items-center gap-3 rounded-[2rem] bg-white p-6 text-center shadow-soft">
+            <Mascot mood="think" size={96} />
+            <h1 className="text-3xl font-semibold">{gradeLabel(grade)} is coming soon</h1>
+            <p className="font-semibold text-ink/60">
+              We are still writing {SUBJECT_META[subject].label} olympiad prep for{" "}
+              {gradeLabel(grade)}. Ready now: Grades {readyGradesFor(subject).join(", ")}.
+            </p>
+            {readyGradesFor(subject).length > 0 && (
+              <Button
+                onClick={() => {
+                  setGrade(nearestReadyGrade(grade, readyGradesFor(subject)));
+                  setStage("path");
+                }}
+              >
+                Try nearest grade ({nearestReadyGrade(grade, readyGradesFor(subject))})
+              </Button>
+            )}
+            <Button variant="ghost" onClick={() => setStage("grade")}>
+              See all grades
+            </Button>
+          </section>
         </>
       )}
 
@@ -396,6 +448,8 @@ export default function PrepHubPage() {
           )}
         </>
       )}
+
+      <SiteFooter />
     </main>
   );
 }

@@ -29,6 +29,7 @@ export function SectionPicker({
   exhausted,
   onRestart,
   lastSaved,
+  moreSoon,
 }: {
   pack: ContentPack;
   selected: PlayPhase[];
@@ -39,6 +40,8 @@ export function SectionPicker({
   onRestart?: () => void;
   /** Last persisted selection — hint + restore target when toggling off “all”. */
   lastSaved?: PlayPhase[];
+  /** Today's weekday pack isn't written yet (serving Monday items) — say so honestly. */
+  moreSoon?: boolean;
 }) {
   const remaining = remainingByPhase(pack);
   const selectedCount = selected.reduce((n, p) => n + remaining[p], 0);
@@ -141,7 +144,9 @@ export function SectionPicker({
       {exhausted ? (
         <div className="space-y-2 rounded-2xl bg-cream p-4">
           <p className="text-center text-base font-bold text-ink/70">
-            You’ve finished every exercise in these sections!
+            {moreSoon
+              ? "You’ve finished every exercise we have so far in these sections! More daily packs coming soon."
+              : "You’ve finished every exercise in these sections!"}
           </p>
           {onRestart && (
             <Button variant="warn" onClick={onRestart}>

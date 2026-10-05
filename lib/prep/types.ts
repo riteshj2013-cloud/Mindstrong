@@ -14,21 +14,21 @@ export const SUBJECT_META: Record<
 > = {
   maths: {
     label: "Maths",
-    exam: "IMO-style",
+    exam: "Olympiad-style",
     emoji: "🔢",
     blurb: "Numbers, patterns & problem solving",
     tone: "bg-sky/30",
   },
   english: {
     label: "English",
-    exam: "IEO-style",
+    exam: "Olympiad-style",
     emoji: "📚",
     blurb: "Words, grammar & reading smarts",
     tone: "bg-plum/25",
   },
   science: {
     label: "Science",
-    exam: "NSO-style",
+    exam: "Olympiad-style",
     emoji: "🔬",
     blurb: "Living world, matter & how things work",
     tone: "bg-mint/40",

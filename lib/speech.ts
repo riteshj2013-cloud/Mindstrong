@@ -1,9 +1,14 @@
 import type { ItemSpec } from "./types";
 
+/** Read "₹280" as "280 rupees" (some voices skip or mangle the ₹ sign). */
+function speakableText(text: string): string {
+  return text.replace(/₹\s?([\d,]+(?:\.\d+)?)/g, "$1 rupees").replace(/₹/g, "rupees ");
+}
+
 export function speak(text: string) {
   if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
   window.speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(text);
+  const u = new SpeechSynthesisUtterance(speakableText(text));
   u.rate = 0.92;
   u.pitch = 1.1;
   window.speechSynthesis.speak(u);

@@ -24,8 +24,8 @@ export default function TermsPage() {
           go live.
         </p>
         <p>
-          Mindstrong provides olympiad-style practice for ages 6–15. We are not affiliated with
-          SOF or any exam board. Content and proposed pricing may change.
+          Mindstrong provides olympiad-style practice for ages 6–15. It is original practice
+          material and is not affiliated with or endorsed by SOF or any olympiad body. Content and proposed pricing may change.
         </p>
         <p>
           Until a real account provider and payments are enabled, demo accounts and plan
