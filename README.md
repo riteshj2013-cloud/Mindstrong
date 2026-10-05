@@ -94,6 +94,18 @@ Screenshots (mobile 430×900):
 | Home | `docs/screenshots/home-ready.png` |
 | Session warm-up | `docs/screenshots/tiny-win.png` |
 
+## Pictorial MCQs (SOF-style figures)
+
+Quiz items support optional stem/option `figure` specs. Writer `**Diagram (SVG):**` blocks are
+ingest-sanitized and rendered as **original in-app SVG** (no copyrighted SOF scans).
+
+**Grade 4 live pictorial (~37% of MCQs / set = 18 of 48 per chapter):**
+- Maths Ch1 Large Numbers · Maths Ch2 Multiplication & Division
+- Science Ch1 Food · Ch2 Solids/Liquids/Gases · Ch3 Water
+
+Writers: `docs/sof-source/FIGURE-SPEC.md`. Ingest: `scripts/ingest_g4_maths_pictorial.py`, `scripts/ingest_g4_science.py`.
+
+
 ## Deploying to GitHub Pages
 
 ```bash

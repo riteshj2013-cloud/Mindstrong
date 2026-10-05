@@ -39,21 +39,23 @@ CH = [
      ["Water means life", "Evaporation, condensation, precipitation", "Boil to stay safe; save every drop", "Set A and Set B ready — 24 MCQs each"])),
 ]
 
-src = ROOT / "sof-science/grade-4"
-for fname, prefix, out, export, doc, meta, lesson in CH:
-    p = src / fname
-    if not p.exists():
-        print("missing", fname); continue
-    md = p.read_text()
-    a, b = science_sets(md, prefix)
-    for q in a + b:  # strip trailing horizontal rules / whitespace from writer markdown
-        q["explanation"] = re.sub(r"\s*(-{3,}\s*)+$", "", q["explanation"]).strip()
-        q["prompt"] = re.sub(r"\s*(-{3,}\s*)+$", "", q["prompt"]).strip()
-    for label, qs in (("A", a), ("B", b)):
-        assert len(qs) == 24, "%s %s: %d" % (fname, label, len(qs))
-        for q in qs:
-            assert len(q["options"]) == 4 and len({o["text"] for o in q["options"]}) == 4, q["id"]
-            assert q["explanation"], q["id"]
-    emit_module(OUT / out, export, meta, lesson, a, b)
-    d = DOCS / "grade-4"; d.mkdir(parents=True, exist_ok=True)
-    (d / doc).write_text(md)
+
+if __name__ == "__main__":
+    src = ROOT / "sof-science/grade-4"
+    for fname, prefix, out, export, doc, meta, lesson in CH:
+        p = src / fname
+        if not p.exists():
+            print("missing", fname); continue
+        md = p.read_text()
+        a, b = science_sets(md, prefix)
+        for q in a + b:  # strip trailing horizontal rules / whitespace from writer markdown
+            q["explanation"] = re.sub(r"\s*(-{3,}\s*)+$", "", q["explanation"]).strip()
+            q["prompt"] = re.sub(r"\s*(-{3,}\s*)+$", "", q["prompt"]).strip()
+        for label, qs in (("A", a), ("B", b)):
+            assert len(qs) == 24, "%s %s: %d" % (fname, label, len(qs))
+            for q in qs:
+                assert len(q["options"]) == 4 and len({o["text"] for o in q["options"]}) == 4, q["id"]
+                assert q["explanation"], q["id"]
+        emit_module(OUT / out, export, meta, lesson, a, b)
+        d = DOCS / "grade-4"; d.mkdir(parents=True, exist_ok=True)
+        (d / doc).write_text(md)

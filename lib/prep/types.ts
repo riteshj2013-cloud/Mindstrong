@@ -35,20 +35,6 @@ export const SUBJECT_META: Record<
   },
 };
 
-export interface PrepChoice {
-  id: string;
-  text: string;
-}
-
-export interface PrepQuestion {
-  id: string;
-  prompt: string;
-  options: PrepChoice[];
-  answerId: string;
-  hints?: string[];
-  explanation?: string;
-}
-
 /**
  * Interactive lesson steps — not long passive text.
  * Lessons are OPTIONAL; sets unlock without finishing.
@@ -192,4 +178,128 @@ export interface PrepActive {
 
 export function packKey(subject: PrepSubject, grade: Grade): string {
   return `${subject}-g${grade}`;
+}
+
+// ---------- Pictorial figures (SVG specs rendered in-app; no external SOF scans) ----------
+
+/** Structured figure for a stem or an option — rendered as original SVG. */
+export type FigureSpec =
+  | {
+      type: "fraction-bar";
+      parts: number;
+      shaded: number;
+      label?: string;
+      /** Compare two bars stacked (e.g. 1/2 vs 2/4). */
+      compare?: { parts: number; shaded: number; label?: string };
+    }
+  | {
+      type: "fraction-circle";
+      parts: number;
+      shaded: number;
+      /** false = unequal slices (common olympiad trap). Default true. */
+      equal?: boolean;
+      label?: string;
+    }
+  | {
+      type: "shape-grid";
+      rows: number;
+      cols: number;
+      /** 0-based flat indices of shaded cells. */
+      shaded: number[];
+      cell?: "square" | "circle";
+      label?: string;
+    }
+  | {
+      type: "number-line";
+      min: number;
+      max: number;
+      step?: number;
+      point?: number;
+      points?: number[];
+      label?: string;
+    }
+  | {
+      type: "place-value-blocks";
+      thousands?: number;
+      hundreds?: number;
+      tens?: number;
+      ones?: number;
+      label?: string;
+    }
+  | {
+      type: "place-value-chart";
+      places: string[];
+      digits: string[];
+      highlightIndex?: number;
+      label?: string;
+    }
+  | {
+      type: "angle";
+      degrees: number;
+      label?: string;
+      showMeasure?: boolean;
+    }
+  | {
+      type: "shapes";
+      items: {
+        kind: "triangle" | "square" | "rectangle" | "circle" | "pentagon" | "hexagon";
+        label?: string;
+        highlight?: boolean;
+      }[];
+    }
+  | {
+      type: "labeled-diagram";
+      kind: "plant" | "cell" | "water-cycle" | "matter-states" | "food-plate";
+      /** Label ids to hide (fill-in / identify questions). */
+      blankIds?: string[];
+      highlightId?: string;
+      label?: string;
+    }
+  | {
+      type: "table";
+      headers: string[];
+      rows: string[][];
+      highlightCell?: [number, number];
+      label?: string;
+    }
+  | {
+      type: "array-grid";
+      rows: number;
+      cols: number;
+      /** Optional count label under the array. */
+      label?: string;
+      filled?: boolean;
+    }
+  | {
+      /** Local public asset only (under /Mindstrong/…); never remote SOF scans. */
+      type: "image";
+      src: string;
+      alt: string;
+    }
+  | {
+      /**
+       * Writer-authored inline SVG from `**Diagram (SVG):**` fenced blocks.
+       * Must be sanitized (no script / event handlers) before render.
+       */
+      type: "svg";
+      markup: string;
+      alt?: string;
+    };
+
+export interface PrepChoice {
+  id: string;
+  text: string;
+  /** Optional SVG figure for this option (A–D pictorial choices). */
+  figure?: FigureSpec;
+}
+
+export interface PrepQuestion {
+  id: string;
+  prompt: string;
+  options: PrepChoice[];
+  answerId: string;
+  hints?: string[];
+  explanation?: string;
+  /** Stem figure shown above or below the prompt. */
+  figure?: FigureSpec;
 }

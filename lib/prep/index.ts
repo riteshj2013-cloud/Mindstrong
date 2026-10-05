@@ -1,6 +1,7 @@
 import { getPrepPack, listReadyGrades } from "./catalog";
 import { generatePaper, generateSet } from "./generate";
 import type { Grade, PrepQuestion, PrepSubject } from "./types";
+import { applyPictorialList } from "./pictorial";
 import { READY_GRADES } from "./grades";
 
 export * from "./types";
@@ -33,7 +34,7 @@ export function getChapterSetQuestions(
   const set = chapter?.sets.find((s) => s.id === setId);
   if (!chapter || !set) return [];
   if (set.questions && set.questions.length > 0) {
-    return set.questions;
+    return applyPictorialList(set.questions);
   }
   const seed =
     subject.charCodeAt(0) * 1000 +
@@ -65,7 +66,10 @@ export function getMockPaper(subject: PrepSubject, grade: Grade): PrepQuestion[]
       const j = Math.floor(rng() * (i + 1));
       [pool[i], pool[j]] = [pool[j], pool[i]];
     }
-    return pool.slice(0, pack.paperCount).map((q, i) => ({ ...q, id: `paper-${i}-${q.id}` }));
+    return applyPictorialList(pool.slice(0, pack.paperCount)).map((q, i) => ({
+      ...q,
+      id: `paper-${i}-${q.id}`,
+    }));
   }
   const topics = pack.chapters.flatMap((c) => c.paperTopics);
   const seed = subject.charCodeAt(0) * 777 + grade * 31;
@@ -77,3 +81,4 @@ export function isPrepReady(subject: PrepSubject, grade: Grade): boolean {
 }
 
 export { READY_GRADES };
+export { applyPictorial, applyPictorialList, pictorialStats, isPictorial } from "./pictorial";

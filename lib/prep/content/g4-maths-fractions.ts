@@ -33,10 +33,10 @@ const SET_A: PrepQuestion[] = [
     id: "g4-maths-fractions-a-q03",
     prompt: "Which picture shows 1/2 shaded?",
     options: [
-      { id: "a", text: "A circle cut into 2 equal parts with 1 part shaded" },
-      { id: "b", text: "A circle cut into 2 unequal parts with the smaller part shaded" },
-      { id: "c", text: "A square cut into 4 equal parts with 1 part shaded" },
-      { id: "d", text: "A circle cut into 3 equal parts with 1 part shaded" }
+      { id: "a", text: "A circle cut into 2 equal parts with 1 part shaded", figure: {"type": "fraction-circle", "parts": 2, "shaded": 1} },
+      { id: "b", text: "A circle cut into 2 unequal parts with the smaller part shaded", figure: {"type": "fraction-circle", "parts": 2, "shaded": 1, "equal": false} },
+      { id: "c", text: "A square cut into 4 equal parts with 1 part shaded", figure: {"type": "shape-grid", "rows": 2, "cols": 2, "shaded": [0]} },
+      { id: "d", text: "A circle cut into 3 equal parts with 1 part shaded", figure: {"type": "fraction-circle", "parts": 3, "shaded": 1} }
     ],
     answerId: "a",
     explanation: "A half needs 2 EQUAL parts with 1 of them shaded.",

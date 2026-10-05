@@ -5,16 +5,17 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g4-maths-large-a-q01",
-    prompt: "In 52,746, which digit is in the thousands place?",
+    prompt: "Look at the Place Value Chart. Which digit is in the **Ten Thousands** column?",
     options: [
-      { id: "a", text: "5" },
-      { id: "b", text: "2" },
-      { id: "c", text: "7" },
-      { id: "d", text: "4" }
+      { id: "a", text: "3" },
+      { id: "b", text: "7" },
+      { id: "c", text: "0" },
+      { id: "d", text: "8" }
     ],
     answerId: "b",
-    explanation: "Reading from the right: 6 ones, 4 tens, 7 hundreds, 2 thousands and 5 ten thousands.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The first column, Ten Thousands, holds the digit 7 (the number is 73,058).",
+    hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 440 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Place Value Chart\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"440\" height=\"150\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"220.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Place Value Chart</text>\n  <rect class=\"part header\" x=\"20\" y=\"36\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"60.0\" y=\"54\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Ten Thousands</text>\n  <text class=\"label small\" x=\"60.0\" y=\"69\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">(TTh)</text>\n  <rect class=\"part cell\" x=\"20\" y=\"76\" width=\"80\" height=\"56\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part digit-tile\" x=\"42.0\" y=\"84\" width=\"36\" height=\"40\" rx=\"6\" fill=\"#fffde7\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"60.0\" y=\"112\" font-size=\"24\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">7</text>\n  <rect class=\"part header\" x=\"100\" y=\"36\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"140.0\" y=\"54\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Thousands</text>\n  <text class=\"label small\" x=\"140.0\" y=\"69\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">(Th)</text>\n  <rect class=\"part cell\" x=\"100\" y=\"76\" width=\"80\" height=\"56\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part digit-tile\" x=\"122.0\" y=\"84\" width=\"36\" height=\"40\" rx=\"6\" fill=\"#fffde7\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"140.0\" y=\"112\" font-size=\"24\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">3</text>\n  <rect class=\"part header\" x=\"180\" y=\"36\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"220.0\" y=\"54\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Hundreds</text>\n  <text class=\"label small\" x=\"220.0\" y=\"69\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">(H)</text>\n  <rect class=\"part cell\" x=\"180\" y=\"76\" width=\"80\" height=\"56\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part digit-tile\" x=\"202.0\" y=\"84\" width=\"36\" height=\"40\" rx=\"6\" fill=\"#fffde7\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"220.0\" y=\"112\" font-size=\"24\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">0</text>\n  <rect class=\"part header\" x=\"260\" y=\"36\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#fce4ec\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"300.0\" y=\"54\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Tens</text>\n  <text class=\"label small\" x=\"300.0\" y=\"69\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">(T)</text>\n  <rect class=\"part cell\" x=\"260\" y=\"76\" width=\"80\" height=\"56\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part digit-tile\" x=\"282.0\" y=\"84\" width=\"36\" height=\"40\" rx=\"6\" fill=\"#fffde7\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"300.0\" y=\"112\" font-size=\"24\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">5</text>\n  <rect class=\"part header\" x=\"340\" y=\"36\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#ede7f6\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"380.0\" y=\"54\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Ones</text>\n  <text class=\"label small\" x=\"380.0\" y=\"69\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">(O)</text>\n  <rect class=\"part cell\" x=\"340\" y=\"76\" width=\"80\" height=\"56\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part digit-tile\" x=\"362.0\" y=\"84\" width=\"36\" height=\"40\" rx=\"6\" fill=\"#fffde7\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"380.0\" y=\"112\" font-size=\"24\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">8</text>\n</svg>", "alt": "A place value chart with five columns: Ten Thousands 7, Thousands 3, Hundreds 0, Tens 5, Ones 8."}
   },
   {
     id: "g4-maths-large-a-q02",
@@ -31,42 +32,45 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-maths-large-a-q03",
-    prompt: "What is the place value of 6 in 8,615?",
+    prompt: "Look at the number line. It is split into equal jumps. What number does point **P** show?",
     options: [
-      { id: "a", text: "6" },
-      { id: "b", text: "60" },
-      { id: "c", text: "6,000" },
-      { id: "d", text: "600" }
+      { id: "a", text: "28,000" },
+      { id: "b", text: "24,000" },
+      { id: "c", text: "26,000" },
+      { id: "d", text: "29,000" }
     ],
-    answerId: "d",
-    explanation: "The 6 sits in the hundreds place, so it is worth 600.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "a",
+    explanation: "10,000 split into 5 equal jumps means each jump is 2,000; P is 4 jumps after 20,000, so 20,000 + 8,000 = 28,000.",
+    hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 440 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Where is P?\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"440\" height=\"150\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"220.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Where is P?</text>\n  <line class=\"axis\" x1=\"18\" y1=\"92\" x2=\"422\" y2=\"92\" stroke=\"#333\" stroke-width=\"2\"/>\n  <polygon class=\"arrow\" points=\"428,92 420,87 420,97\" fill=\"#333\"/>\n  <polygon class=\"arrow\" points=\"12,92 20,87 20,97\" fill=\"#333\"/>\n  <line class=\"tick\" x1=\"30.0\" y1=\"82\" x2=\"30.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"30.0\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">20,000</text>\n  <line class=\"tick\" x1=\"106.0\" y1=\"82\" x2=\"106.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"182.0\" y1=\"82\" x2=\"182.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"258.0\" y1=\"82\" x2=\"258.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"334.0\" y1=\"82\" x2=\"334.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"410.0\" y1=\"82\" x2=\"410.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"410.0\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">30,000</text>\n  <circle class=\"part point\" cx=\"334.0\" cy=\"92\" r=\"7\" fill=\"#42a5f5\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"arrow\" x1=\"334.0\" y1=\"52\" x2=\"334.0\" y2=\"80\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon class=\"arrow\" points=\"334.0,83 329.0,75 339.0,75\" fill=\"#333\"/>\n  <text class=\"label point-label\" x=\"334.0\" y=\"48\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">P</text>\n</svg>", "alt": "A number line from 20,000 to 30,000 split into 5 equal jumps; only the ends are labelled. Point P is on the fourth tick from the left."}
   },
   {
     id: "g4-maths-large-a-q04",
-    prompt: "Which number is 20,000 + 7,000 + 400 + 5?",
+    prompt: "Look at the blocks. Which number do the four blocks make together?",
     options: [
-      { id: "a", text: "27,405" },
-      { id: "b", text: "27,450" },
-      { id: "c", text: "2,745" },
-      { id: "d", text: "20,745" }
+      { id: "a", text: "53,240" },
+      { id: "b", text: "5,324" },
+      { id: "c", text: "53,024" },
+      { id: "d", text: "50,324" }
     ],
-    answerId: "a",
-    explanation: "There are no tens, so a 0 holds the tens place and the number is 27,405.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "c",
+    explanation: "50,000 + 3,000 + 20 + 4 = 53,024; there are no hundreds, so 0 goes in the hundreds place.",
+    hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 440 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Join the blocks\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"440\" height=\"150\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"220.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Join the blocks</text>\n  <rect class=\"part block\" x=\"21.0\" y=\"38.0\" width=\"120\" height=\"82.0\" rx=\"4\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"81.0\" y=\"84.0\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">50,000</text>\n  <text class=\"label small\" x=\"81.0\" y=\"138\" font-size=\"10.5\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Ten Thousands</text>\n  <text class=\"label op\" x=\"154.0\" y=\"95\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">+</text>\n  <rect class=\"part block\" x=\"167.0\" y=\"48.5\" width=\"90\" height=\"71.5\" rx=\"4\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"212.0\" y=\"89.25\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">3,000</text>\n  <text class=\"label small\" x=\"212.0\" y=\"138\" font-size=\"10.5\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Thousands</text>\n  <text class=\"label op\" x=\"270.0\" y=\"95\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">+</text>\n  <rect class=\"part block\" x=\"283.0\" y=\"59.0\" width=\"60\" height=\"61.0\" rx=\"4\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"313.0\" y=\"94.5\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">20</text>\n  <text class=\"label small\" x=\"313.0\" y=\"138\" font-size=\"10.5\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Tens</text>\n  <text class=\"label op\" x=\"356.0\" y=\"95\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">+</text>\n  <rect class=\"part block\" x=\"369.0\" y=\"62.5\" width=\"50\" height=\"57.5\" rx=\"4\" fill=\"#fce4ec\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"394.0\" y=\"96.25\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">4</text>\n  <text class=\"label small\" x=\"394.0\" y=\"138\" font-size=\"10.5\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Ones</text>\n</svg>", "alt": "Four blocks joined with plus signs: 50,000 plus 3,000 plus 20 plus 4, getting smaller from left to right."}
   },
   {
     id: "g4-maths-large-a-q05",
-    prompt: "Which of these numbers is the greatest?",
+    prompt: "Look at the bar chart. The bars look almost the same! Which fair, A, B, C or D, had the **most** visitors on Day 1?",
     options: [
-      { id: "a", text: "9,999" },
-      { id: "b", text: "10,002" },
-      { id: "c", text: "9,876" },
-      { id: "d", text: "8,999" }
+      { id: "a", text: "Fair A" },
+      { id: "b", text: "Fair B" },
+      { id: "c", text: "Fair C" },
+      { id: "d", text: "Fair D" }
     ],
-    answerId: "b",
-    explanation: "10,002 has five digits while the others have only four, so it is the greatest.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "d",
+    explanation: "All have 4 ten thousands; at thousands, 6 beats 5, and at hundreds, D's 8 beats A's 2 and C's 0, so 46,820 is the greatest.",
+    hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 440 236\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Visitors on Day 1\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"440\" height=\"236\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"220.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Visitors on Day 1</text>\n  <line class=\"axis\" x1=\"130\" y1=\"36\" x2=\"130\" y2=\"222\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label option-label\" x=\"14\" y=\"61\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">A</text>\n  <text class=\"label\" x=\"124\" y=\"61\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#333\">Pushkar Mela</text>\n  <rect class=\"part bar\" x=\"130\" y=\"44\" width=\"197.7\" height=\"26\" rx=\"2\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"333.7\" y=\"62\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">46,280</text>\n  <text class=\"label option-label\" x=\"14\" y=\"105\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">B</text>\n  <text class=\"label\" x=\"124\" y=\"105\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#333\">Hornbill Fest</text>\n  <rect class=\"part bar\" x=\"130\" y=\"88\" width=\"196.5\" height=\"26\" rx=\"2\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"332.5\" y=\"106\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">45,990</text>\n  <text class=\"label option-label\" x=\"14\" y=\"149\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">C</text>\n  <text class=\"label\" x=\"124\" y=\"149\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#333\">Surajkund Mela</text>\n  <rect class=\"part bar\" x=\"130\" y=\"132\" width=\"196.8\" height=\"26\" rx=\"2\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"332.8\" y=\"150\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">46,082</text>\n  <text class=\"label option-label\" x=\"14\" y=\"193\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">D</text>\n  <text class=\"label\" x=\"124\" y=\"193\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#333\">Dasara Fair</text>\n  <rect class=\"part bar\" x=\"130\" y=\"176\" width=\"200.0\" height=\"26\" rx=\"2\" fill=\"#fce4ec\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"336.0\" y=\"194\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">46,820</text>\n  <text class=\"label small\" x=\"220.0\" y=\"234\" font-size=\"10.5\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Number of visitors</text>\n</svg>", "alt": "Horizontal bar chart of Day 1 visitors. A Pushkar Mela 46,280; B Hornbill Fest 45,990; C Surajkund Mela 46,082; D Dasara Fair 46,820. Bars look almost equal in length."}
   },
   {
     id: "g4-maths-large-a-q06",
@@ -109,16 +113,17 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-maths-large-a-q09",
-    prompt: "How do we read 40,050?",
+    prompt: "Look at charts A, B, C and D. Which chart correctly shows **forty thousand five hundred six**?",
     options: [
-      { id: "a", text: "Four thousand fifty" },
-      { id: "b", text: "Forty thousand fifty" },
-      { id: "c", text: "Forty thousand five hundred" },
-      { id: "d", text: "Forty thousand five" }
+      { id: "a", text: "Chart A" },
+      { id: "b", text: "Chart B" },
+      { id: "c", text: "Chart C" },
+      { id: "d", text: "Chart D" }
     ],
     answerId: "b",
-    explanation: "40,050 has 4 ten thousands and 5 tens, so it is forty thousand fifty.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Forty thousand five hundred six = 40,506: 4 ten thousands, 0 thousands, 5 hundreds, 0 tens, 6 ones, which is Chart B.",
+    hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 460 250\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Which chart is correct?\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"460\" height=\"250\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"230.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Which chart is correct?</text>\n  <text class=\"label option-label\" x=\"28\" y=\"88\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">A</text>\n  <rect class=\"part header\" x=\"50\" y=\"48\" width=\"36\" height=\"22\" rx=\"0\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"68.0\" y=\"64\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">TTh</text>\n  <rect class=\"part cell\" x=\"50\" y=\"70\" width=\"36\" height=\"36\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"68.0\" y=\"96\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">4</text>\n  <rect class=\"part header\" x=\"86\" y=\"48\" width=\"36\" height=\"22\" rx=\"0\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"104.0\" y=\"64\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Th</text>\n  <rect class=\"part cell\" x=\"86\" y=\"70\" width=\"36\" height=\"36\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"104.0\" y=\"96\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">0</text>\n  <rect class=\"part header\" x=\"122\" y=\"48\" width=\"36\" height=\"22\" rx=\"0\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"140.0\" y=\"64\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">H</text>\n  <rect class=\"part cell\" x=\"122\" y=\"70\" width=\"36\" height=\"36\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"140.0\" y=\"96\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">5</text>\n  <rect class=\"part header\" x=\"158\" y=\"48\" width=\"36\" height=\"22\" rx=\"0\" fill=\"#fce4ec\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"176.0\" y=\"64\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">T</text>\n  <rect class=\"part cell\" x=\"158\" y=\"70\" width=\"36\" height=\"36\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"176.0\" y=\"96\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">6</text>\n  <rect class=\"part header\" x=\"194\" y=\"48\" width=\"36\" height=\"22\" rx=\"0\" fill=\"#ede7f6\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"212.0\" y=\"64\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">O</text>\n  <rect class=\"part cell\" x=\"194\" y=\"70\" width=\"36\" height=\"36\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"212.0\" y=\"96\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">0</text>\n  <text class=\"label option-label\" x=\"253\" y=\"88\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">B</text>\n  <rect class=\"part header\" x=\"275\" y=\"48\" width=\"36\" height=\"22\" rx=\"0\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"293.0\" y=\"64\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">TTh</text>\n  <rect class=\"part cell\" x=\"275\" y=\"70\" width=\"36\" height=\"36\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"293.0\" y=\"96\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">4</text>\n  <rect class=\"part header\" x=\"311\" y=\"48\" width=\"36\" height=\"22\" rx=\"0\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"329.0\" y=\"64\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Th</text>\n  <rect class=\"part cell\" x=\"311\" y=\"70\" width=\"36\" height=\"36\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"329.0\" y=\"96\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">0</text>\n  <rect class=\"part header\" x=\"347\" y=\"48\" width=\"36\" height=\"22\" rx=\"0\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"365.0\" y=\"64\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">H</text>\n  <rect class=\"part cell\" x=\"347\" y=\"70\" width=\"36\" height=\"36\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"365.0\" y=\"96\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">5</text>\n  <rect class=\"part header\" x=\"383\" y=\"48\" width=\"36\" height=\"22\" rx=\"0\" fill=\"#fce4ec\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"401.0\" y=\"64\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">T</text>\n  <rect class=\"part cell\" x=\"383\" y=\"70\" width=\"36\" height=\"36\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"401.0\" y=\"96\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">0</text>\n  <rect class=\"part header\" x=\"419\" y=\"48\" width=\"36\" height=\"22\" rx=\"0\" fill=\"#ede7f6\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"437.0\" y=\"64\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">O</text>\n  <rect class=\"part cell\" x=\"419\" y=\"70\" width=\"36\" height=\"36\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"437.0\" y=\"96\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">6</text>\n  <text class=\"label option-label\" x=\"28\" y=\"193\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">C</text>\n  <rect class=\"part header\" x=\"50\" y=\"153\" width=\"36\" height=\"22\" rx=\"0\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"68.0\" y=\"169\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">TTh</text>\n  <rect class=\"part cell\" x=\"50\" y=\"175\" width=\"36\" height=\"36\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"68.0\" y=\"201\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">4</text>\n  <rect class=\"part header\" x=\"86\" y=\"153\" width=\"36\" height=\"22\" rx=\"0\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"104.0\" y=\"169\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Th</text>\n  <rect class=\"part cell\" x=\"86\" y=\"175\" width=\"36\" height=\"36\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"104.0\" y=\"201\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">5</text>\n  <rect class=\"part header\" x=\"122\" y=\"153\" width=\"36\" height=\"22\" rx=\"0\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"140.0\" y=\"169\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">H</text>\n  <rect class=\"part cell\" x=\"122\" y=\"175\" width=\"36\" height=\"36\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"140.0\" y=\"201\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">0</text>\n  <rect class=\"part header\" x=\"158\" y=\"153\" width=\"36\" height=\"22\" rx=\"0\" fill=\"#fce4ec\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"176.0\" y=\"169\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">T</text>\n  <rect class=\"part cell\" x=\"158\" y=\"175\" width=\"36\" height=\"36\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"176.0\" y=\"201\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">6</text>\n  <rect class=\"part header\" x=\"194\" y=\"153\" width=\"36\" height=\"22\" rx=\"0\" fill=\"#ede7f6\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"212.0\" y=\"169\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">O</text>\n  <rect class=\"part cell\" x=\"194\" y=\"175\" width=\"36\" height=\"36\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"212.0\" y=\"201\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">0</text>\n  <text class=\"label option-label\" x=\"253\" y=\"193\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">D</text>\n  <rect class=\"part header\" x=\"275\" y=\"153\" width=\"36\" height=\"22\" rx=\"0\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"293.0\" y=\"169\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">TTh</text>\n  <rect class=\"part cell\" x=\"275\" y=\"175\" width=\"36\" height=\"36\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"293.0\" y=\"201\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">0</text>\n  <rect class=\"part header\" x=\"311\" y=\"153\" width=\"36\" height=\"22\" rx=\"0\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"329.0\" y=\"169\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Th</text>\n  <rect class=\"part cell\" x=\"311\" y=\"175\" width=\"36\" height=\"36\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"329.0\" y=\"201\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">4</text>\n  <rect class=\"part header\" x=\"347\" y=\"153\" width=\"36\" height=\"22\" rx=\"0\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"365.0\" y=\"169\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">H</text>\n  <rect class=\"part cell\" x=\"347\" y=\"175\" width=\"36\" height=\"36\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"365.0\" y=\"201\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">5</text>\n  <rect class=\"part header\" x=\"383\" y=\"153\" width=\"36\" height=\"22\" rx=\"0\" fill=\"#fce4ec\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"401.0\" y=\"169\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">T</text>\n  <rect class=\"part cell\" x=\"383\" y=\"175\" width=\"36\" height=\"36\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"401.0\" y=\"201\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">0</text>\n  <rect class=\"part header\" x=\"419\" y=\"153\" width=\"36\" height=\"22\" rx=\"0\" fill=\"#ede7f6\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"437.0\" y=\"169\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">O</text>\n  <rect class=\"part cell\" x=\"419\" y=\"175\" width=\"36\" height=\"36\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"437.0\" y=\"201\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">6</text>\n</svg>", "alt": "Four small place value charts labelled A to D. A: 4,0,5,6,0. B: 4,0,5,0,6. C: 4,5,0,6,0. D: 0,4,5,0,6."}
   },
   {
     id: "g4-maths-large-a-q10",
@@ -135,16 +140,17 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-maths-large-a-q11",
-    prompt: "What is the greatest 4-digit number you can make with 6, 1, 9 and 4, using each digit once?",
+    prompt: "Look at the four digit tiles. What is the **greatest** 4-digit number you can make using each tile once?",
     options: [
-      { id: "a", text: "9,614" },
-      { id: "b", text: "1,469" },
-      { id: "c", text: "9,641" },
-      { id: "d", text: "9,461" }
+      { id: "a", text: "9,742" },
+      { id: "b", text: "9,724" },
+      { id: "c", text: "7,942" },
+      { id: "d", text: "2,479" }
     ],
-    answerId: "c",
-    explanation: "Put the digits from biggest to smallest: 9, 6, 4, 1 makes 9,641.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "a",
+    explanation: "Put the tiles from biggest to smallest: 9, 7, 4, 2 \u2192 9,742.",
+    hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 320 130\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Digit Tiles\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"320\" height=\"130\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"160.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Digit Tiles</text>\n  <rect class=\"part tile\" x=\"45.0\" y=\"38\" width=\"50\" height=\"56\" rx=\"8\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"digit\" x=\"70.0\" y=\"76\" font-size=\"28\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">4</text>\n  <rect class=\"part tile\" x=\"105.0\" y=\"38\" width=\"50\" height=\"56\" rx=\"8\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"digit\" x=\"130.0\" y=\"76\" font-size=\"28\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">9</text>\n  <rect class=\"part tile\" x=\"165.0\" y=\"38\" width=\"50\" height=\"56\" rx=\"8\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"digit\" x=\"190.0\" y=\"76\" font-size=\"28\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">2</text>\n  <rect class=\"part tile\" x=\"225.0\" y=\"38\" width=\"50\" height=\"56\" rx=\"8\" fill=\"#fce4ec\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"digit\" x=\"250.0\" y=\"76\" font-size=\"28\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">7</text>\n  <text class=\"label small\" x=\"160.0\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Use each tile once.</text>\n</svg>", "alt": "Four digit tiles showing 4, 9, 2 and 7."}
   },
   {
     id: "g4-maths-large-a-q12",
@@ -174,16 +180,17 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-maths-large-a-q14",
-    prompt: "Round 6,750 to the nearest 100.",
+    prompt: "Look at the number line. The ball is at 3,862. Round 3,862 to the **nearest hundred**.",
     options: [
-      { id: "a", text: "6,700" },
-      { id: "b", text: "6,800" },
-      { id: "c", text: "7,000" },
-      { id: "d", text: "6,760" }
+      { id: "a", text: "3,800" },
+      { id: "b", text: "3,860" },
+      { id: "c", text: "3,900" },
+      { id: "d", text: "3,850" }
     ],
-    answerId: "b",
-    explanation: "The tens digit is 5, so we round up to 6,800.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "c",
+    explanation: "3,862 is past the halfway mark 3,850, so it is closer to 3,900.",
+    hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 440 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Round to the nearest hundred\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"440\" height=\"150\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"220.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Round to the nearest hundred</text>\n  <line class=\"axis\" x1=\"18\" y1=\"92\" x2=\"422\" y2=\"92\" stroke=\"#333\" stroke-width=\"2\"/>\n  <polygon class=\"arrow\" points=\"428,92 420,87 420,97\" fill=\"#333\"/>\n  <polygon class=\"arrow\" points=\"12,92 20,87 20,97\" fill=\"#333\"/>\n  <line class=\"tick\" x1=\"30.0\" y1=\"82\" x2=\"30.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"30.0\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">3,800</text>\n  <line class=\"tick\" x1=\"68.0\" y1=\"82\" x2=\"68.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"106.0\" y1=\"82\" x2=\"106.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"144.0\" y1=\"82\" x2=\"144.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"182.0\" y1=\"82\" x2=\"182.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"220.0\" y1=\"82\" x2=\"220.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"258.0\" y1=\"82\" x2=\"258.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"296.0\" y1=\"82\" x2=\"296.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"334.0\" y1=\"82\" x2=\"334.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"372.0\" y1=\"82\" x2=\"372.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"410.0\" y1=\"82\" x2=\"410.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"410.0\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">3,900</text>\n  <line class=\"part midpoint\" x1=\"220.0\" y1=\"70\" x2=\"220.0\" y2=\"106\" stroke=\"#e65100\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/>\n  <text class=\"label midpoint-label\" x=\"220.0\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">3,850</text>\n  <text class=\"label small\" x=\"220.0\" y=\"134\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#e65100\">(halfway)</text>\n  <circle class=\"part point\" cx=\"265.6\" cy=\"92\" r=\"7\" fill=\"#42a5f5\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"arrow\" x1=\"265.6\" y1=\"52\" x2=\"265.6\" y2=\"80\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon class=\"arrow\" points=\"265.6,83 260.6,75 270.6,75\" fill=\"#333\"/>\n  <text class=\"label point-label\" x=\"265.6\" y=\"48\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">3,862</text>\n</svg>", "alt": "A number line from 3,800 to 3,900 with ticks every 10. The halfway mark 3,850 is dashed in orange. A ball marked 3,862 sits just past the halfway mark."}
   },
   {
     id: "g4-maths-large-a-q15",
@@ -200,16 +207,17 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-maths-large-a-q16",
-    prompt: "What comes next: 12,500; 13,000; 13,500; ___?",
+    prompt: "Look at the cards. The same rule takes you from one card to the next. Which number goes on the **?** card?",
     options: [
-      { id: "a", text: "13,600" },
-      { id: "b", text: "14,500" },
-      { id: "c", text: "18,500" },
-      { id: "d", text: "14,000" }
+      { id: "a", text: "26,000" },
+      { id: "b", text: "25,900" },
+      { id: "c", text: "26,600" },
+      { id: "d", text: "26,100" }
     ],
     answerId: "d",
-    explanation: "Each number is 500 more than the one before, and 13,500 + 500 = 14,000.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Each card is 500 more than the one before: 25,600 + 500 = 26,100 (and 26,100 + 500 = 26,600).",
+    hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 508 100\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Find the missing card\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"508\" height=\"100\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"254.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Find the missing card</text>\n  <rect class=\"part card\" x=\"15\" y=\"40\" width=\"78\" height=\"40\" rx=\"6\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"54.0\" y=\"66\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">24,600</text>\n  <line class=\"arrow\" x1=\"96\" y1=\"60\" x2=\"110\" y2=\"60\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon class=\"arrow\" points=\"114,60 108,56 108,64\" fill=\"#333\"/>\n  <rect class=\"part card\" x=\"115\" y=\"40\" width=\"78\" height=\"40\" rx=\"6\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"154.0\" y=\"66\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">25,100</text>\n  <line class=\"arrow\" x1=\"196\" y1=\"60\" x2=\"210\" y2=\"60\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon class=\"arrow\" points=\"214,60 208,56 208,64\" fill=\"#333\"/>\n  <rect class=\"part card\" x=\"215\" y=\"40\" width=\"78\" height=\"40\" rx=\"6\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"254.0\" y=\"66\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">25,600</text>\n  <line class=\"arrow\" x1=\"296\" y1=\"60\" x2=\"310\" y2=\"60\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon class=\"arrow\" points=\"314,60 308,56 308,64\" fill=\"#333\"/>\n  <rect class=\"part card missing\" x=\"315\" y=\"40\" width=\"78\" height=\"40\" rx=\"6\" fill=\"#fff3e0\" stroke=\"#333\" stroke-width=\"2\" stroke-dasharray=\"5 3\"/>\n  <text class=\"label value\" x=\"354.0\" y=\"66\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">?</text>\n  <line class=\"arrow\" x1=\"396\" y1=\"60\" x2=\"410\" y2=\"60\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon class=\"arrow\" points=\"414,60 408,56 408,64\" fill=\"#333\"/>\n  <rect class=\"part card\" x=\"415\" y=\"40\" width=\"78\" height=\"40\" rx=\"6\" fill=\"#ede7f6\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"454.0\" y=\"66\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">26,600</text>\n</svg>", "alt": "Five cards joined by arrows: 24,600, 25,100, 25,600, a question mark card, 26,600."}
   },
   {
     id: "g4-maths-large-a-q17",
@@ -265,16 +273,17 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-maths-large-a-q21",
-    prompt: "What is the greatest 5-digit EVEN number you can make with 3, 8, 1, 6 and 5, using each digit once?",
+    prompt: "Look at the five digit tiles. Using each tile once, what is the **smallest 5-digit ODD number** you can make?",
     options: [
-      { id: "a", text: "86,531" },
-      { id: "b", text: "85,316" },
-      { id: "c", text: "65,318" },
-      { id: "d", text: "85,361" }
+      { id: "a", text: "30,487" },
+      { id: "b", text: "30,478" },
+      { id: "c", text: "30,847" },
+      { id: "d", text: "40,378" }
     ],
-    answerId: "b",
-    explanation: "It must end in 6 or 8; ending in 6 lets 8 lead, giving 85,316, which beats 65,318.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "a",
+    explanation: "It must end in 3 or 7; ending in 7 lets 3 lead: 3, then 0, 4, 8, then 7 \u2192 30,487. (30,478 is even.)",
+    hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 380 130\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Digit Tiles\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"380\" height=\"130\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"190.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Digit Tiles</text>\n  <rect class=\"part tile\" x=\"45.0\" y=\"38\" width=\"50\" height=\"56\" rx=\"8\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"digit\" x=\"70.0\" y=\"76\" font-size=\"28\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">4</text>\n  <rect class=\"part tile\" x=\"105.0\" y=\"38\" width=\"50\" height=\"56\" rx=\"8\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"digit\" x=\"130.0\" y=\"76\" font-size=\"28\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">0</text>\n  <rect class=\"part tile\" x=\"165.0\" y=\"38\" width=\"50\" height=\"56\" rx=\"8\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"digit\" x=\"190.0\" y=\"76\" font-size=\"28\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">7</text>\n  <rect class=\"part tile\" x=\"225.0\" y=\"38\" width=\"50\" height=\"56\" rx=\"8\" fill=\"#fce4ec\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"digit\" x=\"250.0\" y=\"76\" font-size=\"28\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">3</text>\n  <rect class=\"part tile\" x=\"285.0\" y=\"38\" width=\"50\" height=\"56\" rx=\"8\" fill=\"#ede7f6\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"digit\" x=\"310.0\" y=\"76\" font-size=\"28\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">8</text>\n  <text class=\"label small\" x=\"190.0\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Use each tile once.</text>\n</svg>", "alt": "Five digit tiles showing 4, 0, 7, 3 and 8."}
   },
   {
     id: "g4-maths-large-a-q22",
@@ -320,16 +329,17 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g4-maths-large-b-q01",
-    prompt: "In 38,915, which digit is in the ten thousands place?",
+    prompt: "Look at the number line. Each small jump is 1,000. Which number is point **Q** showing?",
     options: [
-      { id: "a", text: "8" },
-      { id: "b", text: "9" },
-      { id: "c", text: "5" },
-      { id: "d", text: "3" }
+      { id: "a", text: "54,500" },
+      { id: "b", text: "55,400" },
+      { id: "c", text: "45,500" },
+      { id: "d", text: "54,050" }
     ],
-    answerId: "d",
-    explanation: "The leftmost digit of a 5-digit number is in the ten thousands place, and here it is 3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "a",
+    explanation: "Q is halfway between 54,000 and 55,000, and halfway is 500 more, so Q = 54,500.",
+    hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 440 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Where is Q?\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"440\" height=\"150\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"220.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Where is Q?</text>\n  <line class=\"axis\" x1=\"18\" y1=\"92\" x2=\"422\" y2=\"92\" stroke=\"#333\" stroke-width=\"2\"/>\n  <polygon class=\"arrow\" points=\"428,92 420,87 420,97\" fill=\"#333\"/>\n  <polygon class=\"arrow\" points=\"12,92 20,87 20,97\" fill=\"#333\"/>\n  <line class=\"tick\" x1=\"30.0\" y1=\"82\" x2=\"30.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"30.0\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">50,000</text>\n  <line class=\"tick\" x1=\"68.0\" y1=\"82\" x2=\"68.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"106.0\" y1=\"82\" x2=\"106.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"144.0\" y1=\"82\" x2=\"144.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"182.0\" y1=\"82\" x2=\"182.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"220.0\" y1=\"82\" x2=\"220.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"220.0\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">55,000</text>\n  <line class=\"tick\" x1=\"258.0\" y1=\"82\" x2=\"258.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"296.0\" y1=\"82\" x2=\"296.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"334.0\" y1=\"82\" x2=\"334.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"372.0\" y1=\"82\" x2=\"372.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"410.0\" y1=\"82\" x2=\"410.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"410.0\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">60,000</text>\n  <circle class=\"part point\" cx=\"201.0\" cy=\"92\" r=\"7\" fill=\"#42a5f5\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"arrow\" x1=\"201.0\" y1=\"52\" x2=\"201.0\" y2=\"80\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon class=\"arrow\" points=\"201.0,83 196.0,75 206.0,75\" fill=\"#333\"/>\n  <text class=\"label point-label\" x=\"201.0\" y=\"48\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Q</text>\n</svg>", "alt": "A number line from 50,000 to 60,000 with ticks every 1,000; 50,000, 55,000 and 60,000 are labelled. Point Q is exactly halfway between the 4th and 5th ticks after 50,000."}
   },
   {
     id: "g4-maths-large-b-q02",
@@ -346,55 +356,59 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-maths-large-b-q03",
-    prompt: "What is the place value of 9 in 29,384?",
+    prompt: "Look at the Place Value Chart. What is the **place value** of the digit in the column marked with the star (orange star \u2605)?",
     options: [
-      { id: "a", text: "9" },
-      { id: "b", text: "900" },
-      { id: "c", text: "9,000" },
-      { id: "d", text: "90,000" }
+      { id: "a", text: "4" },
+      { id: "b", text: "400" },
+      { id: "c", text: "40,000" },
+      { id: "d", text: "4,000" }
     ],
-    answerId: "c",
-    explanation: "The 9 sits in the thousands place, so it is worth 9,000.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "d",
+    explanation: "The star is under Thousands, which holds 4, so its place value is 4 thousands = 4,000.",
+    hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 440 152\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Place Value Chart\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"440\" height=\"152\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"220.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Place Value Chart</text>\n  <rect class=\"part header\" x=\"20\" y=\"36\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"60.0\" y=\"54\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Ten Thousands</text>\n  <text class=\"label small\" x=\"60.0\" y=\"69\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">(TTh)</text>\n  <rect class=\"part cell\" x=\"20\" y=\"76\" width=\"80\" height=\"56\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part digit-tile\" x=\"42.0\" y=\"84\" width=\"36\" height=\"40\" rx=\"6\" fill=\"#fffde7\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"60.0\" y=\"112\" font-size=\"24\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">6</text>\n  <rect class=\"part header\" x=\"100\" y=\"36\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"140.0\" y=\"54\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Thousands</text>\n  <text class=\"label small\" x=\"140.0\" y=\"69\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">(Th)</text>\n  <rect class=\"part cell\" x=\"100\" y=\"76\" width=\"80\" height=\"56\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part digit-tile\" x=\"122.0\" y=\"84\" width=\"36\" height=\"40\" rx=\"6\" fill=\"#fffde7\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"140.0\" y=\"112\" font-size=\"24\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">4</text>\n  <polygon class=\"highlight star\" points=\"140.0,135.0 142.0,140.25 147.61,140.53 143.23,144.05 144.7,149.47 140.0,146.4 135.3,149.47 136.77,144.05 132.39,140.53 138.0,140.25\" fill=\"#ffb300\" stroke=\"#e65100\" stroke-width=\"1\"/>\n  <rect class=\"part header\" x=\"180\" y=\"36\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"220.0\" y=\"54\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Hundreds</text>\n  <text class=\"label small\" x=\"220.0\" y=\"69\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">(H)</text>\n  <rect class=\"part cell\" x=\"180\" y=\"76\" width=\"80\" height=\"56\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part digit-tile\" x=\"202.0\" y=\"84\" width=\"36\" height=\"40\" rx=\"6\" fill=\"#fffde7\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"220.0\" y=\"112\" font-size=\"24\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">9</text>\n  <rect class=\"part header\" x=\"260\" y=\"36\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#fce4ec\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"300.0\" y=\"54\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Tens</text>\n  <text class=\"label small\" x=\"300.0\" y=\"69\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">(T)</text>\n  <rect class=\"part cell\" x=\"260\" y=\"76\" width=\"80\" height=\"56\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part digit-tile\" x=\"282.0\" y=\"84\" width=\"36\" height=\"40\" rx=\"6\" fill=\"#fffde7\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"300.0\" y=\"112\" font-size=\"24\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">1</text>\n  <rect class=\"part header\" x=\"340\" y=\"36\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#ede7f6\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"380.0\" y=\"54\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Ones</text>\n  <text class=\"label small\" x=\"380.0\" y=\"69\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">(O)</text>\n  <rect class=\"part cell\" x=\"340\" y=\"76\" width=\"80\" height=\"56\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part digit-tile\" x=\"362.0\" y=\"84\" width=\"36\" height=\"40\" rx=\"6\" fill=\"#fffde7\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"380.0\" y=\"112\" font-size=\"24\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">5</text>\n</svg>", "alt": "A place value chart: Ten Thousands 6, Thousands 4, Hundreds 9, Tens 1, Ones 5. A star is under the Thousands column."}
   },
   {
     id: "g4-maths-large-b-q04",
-    prompt: "What is the expanded form of 61,207?",
+    prompt: "Look at the blocks. Which number do the three blocks make together?",
     options: [
-      { id: "a", text: "60,000 + 1,000 + 20 + 7" },
-      { id: "b", text: "60,000 + 1,000 + 200 + 7" },
-      { id: "c", text: "6,000 + 100 + 200 + 7" },
-      { id: "d", text: "60,000 + 100 + 200 + 7" }
+      { id: "a", text: "86,009" },
+      { id: "b", text: "80,609" },
+      { id: "c", text: "80,690" },
+      { id: "d", text: "8,069" }
     ],
     answerId: "b",
-    explanation: "6 is worth 60,000, 1 is worth 1,000, 2 is worth 200, 0 tens, and 7 ones.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "80,000 + 600 + 9 = 80,609; there are no thousands and no tens, so both get a 0.",
+    hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 440 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Join the blocks\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"440\" height=\"150\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"220.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Join the blocks</text>\n  <rect class=\"part block\" x=\"64.0\" y=\"34.5\" width=\"130\" height=\"85.5\" rx=\"4\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"129.0\" y=\"82.25\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">80,000</text>\n  <text class=\"label small\" x=\"129.0\" y=\"138\" font-size=\"10.5\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Ten Thousands</text>\n  <text class=\"label op\" x=\"207.0\" y=\"95\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">+</text>\n  <rect class=\"part block\" x=\"220.0\" y=\"52.0\" width=\"80\" height=\"68.0\" rx=\"4\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"260.0\" y=\"91.0\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">600</text>\n  <text class=\"label small\" x=\"260.0\" y=\"138\" font-size=\"10.5\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Hundreds</text>\n  <text class=\"label op\" x=\"313.0\" y=\"95\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">+</text>\n  <rect class=\"part block\" x=\"326.0\" y=\"62.5\" width=\"50\" height=\"57.5\" rx=\"4\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"351.0\" y=\"96.25\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">9</text>\n  <text class=\"label small\" x=\"351.0\" y=\"138\" font-size=\"10.5\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Ones</text>\n</svg>", "alt": "Three blocks joined with plus signs: 80,000 plus 600 plus 9. There is no thousands block and no tens block."}
   },
   {
     id: "g4-maths-large-b-q05",
-    prompt: "Which of these numbers is the smallest?",
+    prompt: "Look at the Village Census table. Which village has the **smallest** population?",
     options: [
-      { id: "a", text: "7,089" },
-      { id: "b", text: "7,098" },
-      { id: "c", text: "7,809" },
-      { id: "d", text: "7,890" }
+      { id: "a", text: "Rampur" },
+      { id: "b", text: "Sonpur" },
+      { id: "c", text: "Devgarh" },
+      { id: "d", text: "Kalyani" }
     ],
-    answerId: "a",
-    explanation: "All have 7 thousands; 7,089 has 0 hundreds and 8 tens, the smallest start.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "c",
+    explanation: "All begin 38 thousand; at the hundreds place Devgarh has 1, the smallest, so 38,146 is the least.",
+    hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Village Census\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"360\" height=\"200\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"180.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Village Census</text>\n  <rect class=\"part header\" x=\"20\" y=\"34\" width=\"40\" height=\"30\" rx=\"0\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"40.0\" y=\"54\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\"></text>\n  <rect class=\"part header\" x=\"60\" y=\"34\" width=\"160\" height=\"30\" rx=\"0\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"140.0\" y=\"54\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Village</text>\n  <rect class=\"part header\" x=\"220\" y=\"34\" width=\"120\" height=\"30\" rx=\"0\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"280.0\" y=\"54\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Population</text>\n  <rect class=\"part cell\" x=\"20\" y=\"64\" width=\"40\" height=\"30\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"40.0\" y=\"84\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">A</text>\n  <rect class=\"part cell\" x=\"60\" y=\"64\" width=\"160\" height=\"30\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"140.0\" y=\"84\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#333\">Rampur</text>\n  <rect class=\"part cell\" x=\"220\" y=\"64\" width=\"120\" height=\"30\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"280.0\" y=\"84\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#333\">38,416</text>\n  <rect class=\"part cell\" x=\"20\" y=\"94\" width=\"40\" height=\"30\" rx=\"0\" fill=\"#fafafa\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"40.0\" y=\"114\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">B</text>\n  <rect class=\"part cell\" x=\"60\" y=\"94\" width=\"160\" height=\"30\" rx=\"0\" fill=\"#fafafa\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"140.0\" y=\"114\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#333\">Sonpur</text>\n  <rect class=\"part cell\" x=\"220\" y=\"94\" width=\"120\" height=\"30\" rx=\"0\" fill=\"#fafafa\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"280.0\" y=\"114\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#333\">38,461</text>\n  <rect class=\"part cell\" x=\"20\" y=\"124\" width=\"40\" height=\"30\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"40.0\" y=\"144\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">C</text>\n  <rect class=\"part cell\" x=\"60\" y=\"124\" width=\"160\" height=\"30\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"140.0\" y=\"144\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#333\">Devgarh</text>\n  <rect class=\"part cell\" x=\"220\" y=\"124\" width=\"120\" height=\"30\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"280.0\" y=\"144\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#333\">38,146</text>\n  <rect class=\"part cell\" x=\"20\" y=\"154\" width=\"40\" height=\"30\" rx=\"0\" fill=\"#fafafa\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"40.0\" y=\"174\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">D</text>\n  <rect class=\"part cell\" x=\"60\" y=\"154\" width=\"160\" height=\"30\" rx=\"0\" fill=\"#fafafa\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"140.0\" y=\"174\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#333\">Kalyani</text>\n  <rect class=\"part cell\" x=\"220\" y=\"154\" width=\"120\" height=\"30\" rx=\"0\" fill=\"#fafafa\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"280.0\" y=\"174\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#333\">38,614</text>\n</svg>", "alt": "A table of four villages. A Rampur 38,416; B Sonpur 38,461; C Devgarh 38,146; D Kalyani 38,614."}
   },
   {
     id: "g4-maths-large-b-q06",
-    prompt: "What is the predecessor of 30,000?",
+    prompt: "Look at the Number Train. Each carriage is 1 more than the one before it. Which number goes on the **?** carriage?",
     options: [
-      { id: "a", text: "30,001" },
-      { id: "b", text: "29,990" },
-      { id: "c", text: "29,999" },
-      { id: "d", text: "39,999" }
+      { id: "a", text: "60,000" },
+      { id: "b", text: "59,990" },
+      { id: "c", text: "50,000" },
+      { id: "d", text: "60,010" }
     ],
-    answerId: "c",
-    explanation: "The predecessor is one less, and 30,000 \u2212 1 = 29,999.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "a",
+    explanation: "The successor of 59,999 is 59,999 + 1 = 60,000, and 60,000 + 1 = 60,001.",
+    hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 454 130\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Number Train\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"454\" height=\"130\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"227.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Number Train</text>\n  <rect class=\"part engine\" x=\"15\" y=\"48\" width=\"50\" height=\"46\" rx=\"6\" fill=\"#ffccbc\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part chimney\" x=\"43\" y=\"34\" width=\"16\" height=\"16\" rx=\"2\" fill=\"#ffccbc\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle class=\"part wheel\" cx=\"27\" cy=\"100\" r=\"8\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle class=\"part wheel\" cx=\"53\" cy=\"100\" r=\"8\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"part coupler\" x1=\"65\" y1=\"80\" x2=\"75\" y2=\"80\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part carriage\" x=\"75\" y=\"48\" width=\"86\" height=\"46\" rx=\"6\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"118.0\" y=\"77\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">59,998</text>\n  <circle class=\"part wheel\" cx=\"93\" cy=\"100\" r=\"8\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle class=\"part wheel\" cx=\"143\" cy=\"100\" r=\"8\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"part coupler\" x1=\"161\" y1=\"80\" x2=\"171\" y2=\"80\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part carriage\" x=\"171\" y=\"48\" width=\"86\" height=\"46\" rx=\"6\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"214.0\" y=\"77\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">59,999</text>\n  <circle class=\"part wheel\" cx=\"189\" cy=\"100\" r=\"8\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle class=\"part wheel\" cx=\"239\" cy=\"100\" r=\"8\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"part coupler\" x1=\"257\" y1=\"80\" x2=\"267\" y2=\"80\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part carriage missing\" x=\"267\" y=\"48\" width=\"86\" height=\"46\" rx=\"6\" fill=\"#fff3e0\" stroke=\"#333\" stroke-width=\"1.5\" stroke-dasharray=\"5 3\"/>\n  <text class=\"label value\" x=\"310.0\" y=\"77\" font-size=\"22\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">?</text>\n  <circle class=\"part wheel\" cx=\"285\" cy=\"100\" r=\"8\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle class=\"part wheel\" cx=\"335\" cy=\"100\" r=\"8\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"part coupler\" x1=\"353\" y1=\"80\" x2=\"363\" y2=\"80\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part carriage\" x=\"363\" y=\"48\" width=\"86\" height=\"46\" rx=\"6\" fill=\"#fce4ec\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"406.0\" y=\"77\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">60,001</text>\n  <circle class=\"part wheel\" cx=\"381\" cy=\"100\" r=\"8\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle class=\"part wheel\" cx=\"431\" cy=\"100\" r=\"8\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"part track\" x1=\"10\" y1=\"110\" x2=\"444\" y2=\"110\" stroke=\"#666\" stroke-width=\"2\"/>\n</svg>", "alt": "An engine pulling four carriages numbered 59,998, 59,999, a question mark, and 60,001."}
   },
   {
     id: "g4-maths-large-b-q07",
@@ -489,16 +503,17 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-maths-large-b-q14",
-    prompt: "Round 8,951 to the nearest 100.",
+    prompt: "Look at the number line. The ball is at 17,480. Round 17,480 to the **nearest thousand**.",
     options: [
-      { id: "a", text: "8,900" },
-      { id: "b", text: "8,950" },
-      { id: "c", text: "9,000" },
-      { id: "d", text: "9,100" }
+      { id: "a", text: "18,000" },
+      { id: "b", text: "17,500" },
+      { id: "c", text: "17,400" },
+      { id: "d", text: "17,000" }
     ],
-    answerId: "c",
-    explanation: "The tens digit is 5, so 8,951 rounds up to 9,000.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "d",
+    explanation: "17,480 has not reached the halfway mark 17,500, so it rounds down to 17,000.",
+    hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 440 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Round to the nearest thousand\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"440\" height=\"150\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"220.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Round to the nearest thousand</text>\n  <line class=\"axis\" x1=\"18\" y1=\"92\" x2=\"422\" y2=\"92\" stroke=\"#333\" stroke-width=\"2\"/>\n  <polygon class=\"arrow\" points=\"428,92 420,87 420,97\" fill=\"#333\"/>\n  <polygon class=\"arrow\" points=\"12,92 20,87 20,97\" fill=\"#333\"/>\n  <line class=\"tick\" x1=\"30.0\" y1=\"82\" x2=\"30.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"30.0\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">17,000</text>\n  <line class=\"tick\" x1=\"68.0\" y1=\"82\" x2=\"68.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"106.0\" y1=\"82\" x2=\"106.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"144.0\" y1=\"82\" x2=\"144.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"182.0\" y1=\"82\" x2=\"182.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"220.0\" y1=\"82\" x2=\"220.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"258.0\" y1=\"82\" x2=\"258.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"296.0\" y1=\"82\" x2=\"296.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"334.0\" y1=\"82\" x2=\"334.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"372.0\" y1=\"82\" x2=\"372.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"410.0\" y1=\"82\" x2=\"410.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"410.0\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">18,000</text>\n  <line class=\"part midpoint\" x1=\"220.0\" y1=\"70\" x2=\"220.0\" y2=\"106\" stroke=\"#e65100\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/>\n  <text class=\"label midpoint-label\" x=\"220.0\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">17,500</text>\n  <text class=\"label small\" x=\"220.0\" y=\"134\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#e65100\">(halfway)</text>\n  <circle class=\"part point\" cx=\"212.4\" cy=\"92\" r=\"7\" fill=\"#42a5f5\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"arrow\" x1=\"212.4\" y1=\"52\" x2=\"212.4\" y2=\"80\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon class=\"arrow\" points=\"212.4,83 207.4,75 217.4,75\" fill=\"#333\"/>\n  <text class=\"label point-label\" x=\"212.4\" y=\"48\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">17,480</text>\n</svg>", "alt": "A number line from 17,000 to 18,000 with ticks every 100. The halfway mark 17,500 is dashed in orange. A ball marked 17,480 sits just before the halfway mark."}
   },
   {
     id: "g4-maths-large-b-q15",
@@ -541,16 +556,17 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-maths-large-b-q18",
-    prompt: "Which number is 4 ten thousands + 12 thousands + 6 tens?",
+    prompt: "Look at the Mystery Number Cards. What number do the four cards make together?",
     options: [
-      { id: "a", text: "52,060" },
-      { id: "b", text: "41,260" },
-      { id: "c", text: "4,126" },
-      { id: "d", text: "52,600" }
+      { id: "a", text: "3,14,512" },
+      { id: "b", text: "44,512" },
+      { id: "c", text: "34,512" },
+      { id: "d", text: "45,412" }
     ],
-    answerId: "a",
-    explanation: "40,000 + 12,000 + 60 = 52,060.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "b",
+    explanation: "30,000 + 14,000 + 500 + 12 = 44,512 (14 thousands = 1 ten thousand + 4 thousands; 12 ones = 1 ten + 2 ones).",
+    hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 460 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Mystery Number Cards\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"460\" height=\"150\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"230.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Mystery Number Cards</text>\n  <rect class=\"part block\" x=\"18\" y=\"40\" width=\"92\" height=\"80\" rx=\"4\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"64.0\" y=\"78\" font-size=\"28\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">3</text>\n  <text class=\"label\" x=\"64.0\" y=\"104\" font-size=\"11.5\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Ten Thousands</text>\n  <text class=\"label op\" x=\"122\" y=\"86\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">+</text>\n  <rect class=\"part block\" x=\"134\" y=\"40\" width=\"92\" height=\"80\" rx=\"4\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"180.0\" y=\"78\" font-size=\"28\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">14</text>\n  <text class=\"label\" x=\"180.0\" y=\"104\" font-size=\"11.5\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Thousands</text>\n  <text class=\"label op\" x=\"238\" y=\"86\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">+</text>\n  <rect class=\"part block\" x=\"250\" y=\"40\" width=\"92\" height=\"80\" rx=\"4\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"296.0\" y=\"78\" font-size=\"28\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">5</text>\n  <text class=\"label\" x=\"296.0\" y=\"104\" font-size=\"11.5\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Hundreds</text>\n  <text class=\"label op\" x=\"354\" y=\"86\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">+</text>\n  <rect class=\"part block\" x=\"366\" y=\"40\" width=\"92\" height=\"80\" rx=\"4\" fill=\"#fce4ec\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"412.0\" y=\"78\" font-size=\"28\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">12</text>\n  <text class=\"label\" x=\"412.0\" y=\"104\" font-size=\"11.5\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Ones</text>\n  <text class=\"label small\" x=\"230.0\" y=\"140\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Each card tells how many of that place.</text>\n</svg>", "alt": "Four cards joined with plus signs: 3 Ten Thousands, 14 Thousands, 5 Hundreds, 12 Ones."}
   },
   {
     id: "g4-maths-large-b-q19",
@@ -606,29 +622,31 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-maths-large-b-q23",
-    prompt: "A stadium has 45,000 seats. For a kabaddi final, 28,750 tickets were sold online and 9,600 at the gate. How many seats were left empty?",
+    prompt: "Look at the bar chart of metro passengers. How many **more** passengers travelled on the busiest day than on the quietest day?",
     options: [
-      { id: "a", text: "16,250" },
-      { id: "b", text: "38,350" },
-      { id: "c", text: "7,650" },
-      { id: "d", text: "6,650" }
+      { id: "a", text: "4,245" },
+      { id: "b", text: "4,355" },
+      { id: "c", text: "2,670" },
+      { id: "d", text: "1,280" }
     ],
-    answerId: "d",
-    explanation: "Tickets sold = 28,750 + 9,600 = 38,350, and 45,000 \u2212 38,350 = 6,650 empty seats.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "a",
+    explanation: "Busiest is B, Tuesday (26,150); quietest is C, Wednesday (21,905); 26,150 \u2212 21,905 = 4,245.",
+    hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 440 236\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Metro Passengers at Rajiv Chowk\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"440\" height=\"236\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"220.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Metro Passengers at Rajiv Chowk</text>\n  <line class=\"axis\" x1=\"130\" y1=\"36\" x2=\"130\" y2=\"222\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label option-label\" x=\"14\" y=\"61\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">A</text>\n  <text class=\"label\" x=\"124\" y=\"61\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#333\">Monday</text>\n  <rect class=\"part bar\" x=\"130\" y=\"44\" width=\"179.6\" height=\"26\" rx=\"2\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"315.6\" y=\"62\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">23,480</text>\n  <text class=\"label option-label\" x=\"14\" y=\"105\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">B</text>\n  <text class=\"label\" x=\"124\" y=\"105\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#333\">Tuesday</text>\n  <rect class=\"part bar\" x=\"130\" y=\"88\" width=\"200.0\" height=\"26\" rx=\"2\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"336.0\" y=\"106\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">26,150</text>\n  <text class=\"label option-label\" x=\"14\" y=\"149\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">C</text>\n  <text class=\"label\" x=\"124\" y=\"149\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#333\">Wednesday</text>\n  <rect class=\"part bar\" x=\"130\" y=\"132\" width=\"167.5\" height=\"26\" rx=\"2\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"303.5\" y=\"150\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">21,905</text>\n  <text class=\"label option-label\" x=\"14\" y=\"193\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">D</text>\n  <text class=\"label\" x=\"124\" y=\"193\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#333\">Thursday</text>\n  <rect class=\"part bar\" x=\"130\" y=\"176\" width=\"189.4\" height=\"26\" rx=\"2\" fill=\"#fce4ec\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"325.4\" y=\"194\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">24,760</text>\n  <text class=\"label small\" x=\"220.0\" y=\"234\" font-size=\"10.5\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Number of passengers each day</text>\n</svg>", "alt": "Horizontal bar chart of metro passengers. A Monday 23,480; B Tuesday 26,150; C Wednesday 21,905; D Thursday 24,760."}
   },
   {
     id: "g4-maths-large-b-q24",
-    prompt: "What comes next: 50,000; 45,000; 41,000; 38,000; ___?",
+    prompt: "Look at the cards. The numbers go down by the same amount each time. Which number goes on the **?** card?",
     options: [
-      { id: "a", text: "35,000" },
-      { id: "b", text: "36,000" },
-      { id: "c", text: "37,000" },
-      { id: "d", text: "34,000" }
+      { id: "a", text: "65,500" },
+      { id: "b", text: "66,000" },
+      { id: "c", text: "65,000" },
+      { id: "d", text: "62,500" }
     ],
-    answerId: "b",
-    explanation: "We take away 5,000, then 4,000, then 3,000, so next we take away 2,000: 36,000.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "c",
+    explanation: "Each card is 2,500 less: 67,500 \u2212 2,500 = 65,000 (and 65,000 \u2212 2,500 = 62,500).",
+    hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 508 100\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Find the missing card\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"508\" height=\"100\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"254.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Find the missing card</text>\n  <rect class=\"part card\" x=\"15\" y=\"40\" width=\"78\" height=\"40\" rx=\"6\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"54.0\" y=\"66\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">72,500</text>\n  <line class=\"arrow\" x1=\"96\" y1=\"60\" x2=\"110\" y2=\"60\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon class=\"arrow\" points=\"114,60 108,56 108,64\" fill=\"#333\"/>\n  <rect class=\"part card\" x=\"115\" y=\"40\" width=\"78\" height=\"40\" rx=\"6\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"154.0\" y=\"66\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">70,000</text>\n  <line class=\"arrow\" x1=\"196\" y1=\"60\" x2=\"210\" y2=\"60\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon class=\"arrow\" points=\"214,60 208,56 208,64\" fill=\"#333\"/>\n  <rect class=\"part card\" x=\"215\" y=\"40\" width=\"78\" height=\"40\" rx=\"6\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"254.0\" y=\"66\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">67,500</text>\n  <line class=\"arrow\" x1=\"296\" y1=\"60\" x2=\"310\" y2=\"60\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon class=\"arrow\" points=\"314,60 308,56 308,64\" fill=\"#333\"/>\n  <rect class=\"part card missing\" x=\"315\" y=\"40\" width=\"78\" height=\"40\" rx=\"6\" fill=\"#fff3e0\" stroke=\"#333\" stroke-width=\"2\" stroke-dasharray=\"5 3\"/>\n  <text class=\"label value\" x=\"354.0\" y=\"66\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">?</text>\n  <line class=\"arrow\" x1=\"396\" y1=\"60\" x2=\"410\" y2=\"60\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon class=\"arrow\" points=\"414,60 408,56 408,64\" fill=\"#333\"/>\n  <rect class=\"part card\" x=\"415\" y=\"40\" width=\"78\" height=\"40\" rx=\"6\" fill=\"#ede7f6\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"454.0\" y=\"66\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">62,500</text>\n</svg>", "alt": "Five cards joined by arrows: 72,500, 70,000, 67,500, a question mark card, 62,500."}
   }
 ];
 

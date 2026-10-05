@@ -95,10 +95,10 @@
 ### Q03
 - **stem**: Which picture shows 1/2 shaded?
 - **options**:
-  - A) A circle cut into 2 equal parts with 1 part shaded
-  - B) A circle cut into 2 unequal parts with the smaller part shaded
-  - C) A square cut into 4 equal parts with 1 part shaded
-  - D) A circle cut into 3 equal parts with 1 part shaded
+  - A) [[fig:{"type":"fraction-circle","parts":2,"shaded":1}]] A circle cut into 2 equal parts with 1 part shaded
+  - B) [[fig:{"type":"fraction-circle","parts":2,"shaded":1,"equal":false}]] A circle cut into 2 unequal parts with the smaller part shaded
+  - C) [[fig:{"type":"shape-grid","rows":2,"cols":2,"shaded":[0]}]] A square cut into 4 equal parts with 1 part shaded
+  - D) [[fig:{"type":"fraction-circle","parts":3,"shaded":1}]] A circle cut into 3 equal parts with 1 part shaded
 - **answer**: A
 - **explanation**: A half needs 2 EQUAL parts with 1 of them shaded.
 - **skill**: identify_diagram

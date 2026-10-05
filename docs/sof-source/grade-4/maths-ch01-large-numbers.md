@@ -70,6 +70,7 @@
 
 ### Q01
 - **stem**: In 52,746, which digit is in the thousands place?
+- **figure**: {"type":"place-value-chart","places":["TTh","Th","H","T","O"],"digits":["5","2","7","4","6"],"highlightIndex":1}
 - **options**:
   - A) 5
   - B) 2

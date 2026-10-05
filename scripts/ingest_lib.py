@@ -12,10 +12,15 @@ def letter_id(L: str) -> str:
     return L.lower()
 
 def q_to_ts(q: dict) -> str:
-    opts = ",\n".join(
-        '      { id: %s, text: %s }' % (json.dumps(o["id"]), json.dumps(o["text"]))
-        for o in q["options"]
-    )
+    def opt_ts(o):
+        parts = ['id: %s' % json.dumps(o["id"]), 'text: %s' % json.dumps(o["text"])]
+        if o.get("figure"):
+            parts.append('figure: %s' % json.dumps(o["figure"]))
+        return '      { %s }' % ', '.join(parts)
+    opts = ",\n".join(opt_ts(o) for o in q["options"])
+    fig = ""
+    if q.get("figure"):
+        fig = ",\n    figure: %s" % json.dumps(q["figure"])
     return (
         "  {\n"
         "    id: %s,\n"
@@ -23,7 +28,7 @@ def q_to_ts(q: dict) -> str:
         "    options: [\n%s\n    ],\n"
         "    answerId: %s,\n"
         "    explanation: %s,\n"
-        "    hints: %s\n"
+        "    hints: %s%s\n"
         "  }"
     ) % (
         json.dumps(q["id"]),
@@ -32,7 +37,133 @@ def q_to_ts(q: dict) -> str:
         json.dumps(q["answerId"]),
         json.dumps(q.get("explanation") or ""),
         json.dumps(q.get("hints") or []),
+        fig,
     )
+
+
+def parse_figure_json(raw: str):
+    """Parse a JSON figure / option-figure blob; return None on failure."""
+    raw = (raw or "").strip()
+    if not raw:
+        return None
+    try:
+        obj = json.loads(raw)
+        if isinstance(obj, dict) and obj.get("type"):
+            return obj
+    except Exception:
+        return None
+    return None
+
+
+
+
+def sanitize_css(css: str) -> str:
+    """Allow class rules; strip dangerous CSS constructs."""
+    if not css:
+        return ""
+    c = css
+    c = re.sub(r"@import[^;]*;?", "", c, flags=re.I)
+    c = re.sub(r"expression\s*\([^)]*\)", "", c, flags=re.I)
+    c = re.sub(r"(?i)javascript\s*:", "", c)
+    c = re.sub(r"(?i)vbscript\s*:", "", c)
+    c = re.sub(r"(?i)behavior\s*:", "", c)
+    c = re.sub(r"(?i)-moz-binding\s*:", "", c)
+    c = re.sub(r"</?style\b[^>]*>", "", c, flags=re.I)
+    c = re.sub(r"</?script\b[^>]*>", "", c, flags=re.I)
+    return c
+
+
+def sanitize_svg(raw: str) -> str:
+    """Strip scripts/handlers; keep scrubbed <style> for writer class conventions."""
+    if not raw:
+        return ""
+    s = raw.strip()
+    s = re.sub(r"<!--.*?-->", "", s, flags=re.S)
+    s = re.sub(r"<!\[CDATA\[([\s\S]*?)\]\]>", r"\1", s)
+    def scrub_style(m):
+        return "<style>%s</style>" % sanitize_css(m.group(1))
+    s = re.sub(r"<style\b[^>]*>([\s\S]*?)</style>", scrub_style, s, flags=re.I)
+    s = re.sub(
+        r"<script\b[^>]*>[\s\S]*?</script>",
+        "",
+        s,
+        flags=re.I,
+    )
+    s = re.sub(
+        r"</?(?:script|foreignObject|foreignobject|iframe|object|embed|link|meta|image|animate(?:Transform|Motion)?|set|audio|video|handler)\b[^>]*>",
+        "",
+        s,
+        flags=re.I,
+    )
+    def scrub_attr(m):
+        name = m.group(1)
+        full = m.group(0)
+        n = name.lower()
+        if n.startswith("on"):
+            return ""
+        if n in ("href", "xlink:href", "src"):
+            val = full.split("=", 1)[1].strip().strip("\"'")
+            if re.match(r"(?i)^\s*(javascript|data|vbscript):", val):
+                return ""
+            if val.startswith("#"):
+                return full
+            return ""
+        if n == "style" and re.search(r"expression\s*\(", full, re.I):
+            return ""
+        return full
+    s = re.sub(r'\s([a-zA-Z_:][-a-zA-Z0-9_:]*)\s*=\s*(?:"[^"]*"|\'[^\']*\'|[^\s>]+)', scrub_attr, s)
+    m = re.search(r"<svg\b[^>]*>[\s\S]*?</svg>", s, re.I)
+    return m.group(0).strip() if m else ""
+
+
+def extract_diagram_svg(part: str):
+    """Parse **Diagram (SVG):** — fenced ```svg``` OR raw <svg>…</svg>."""
+    raw = None
+    m = re.search(
+        r"\*\*Diagram\s*\(SVG\):\*\*\s*```svg\s*([\s\S]*?)```",
+        part,
+        re.I,
+    )
+    if m:
+        raw = m.group(1)
+    else:
+        m = re.search(
+            r"\*\*Diagram\s*\(SVG\):\*\*\s*(<svg\b[\s\S]*?</svg>)",
+            part,
+            re.I,
+        )
+        if m:
+            raw = m.group(1)
+    if not raw:
+        return None
+    markup = sanitize_svg(raw)
+    if not markup:
+        return None
+    alt_m = re.search(r"-\s*\*\*alt\*\*:\s*(.+)", part)
+    aria = re.search(r'aria-label="([^"]*)"', markup)
+    alt = (alt_m.group(1).strip() if alt_m else "") or (aria.group(1) if aria else "")
+    fig = {"type": "svg", "markup": markup}
+    if alt:
+        fig["alt"] = alt
+    return fig
+
+
+def extract_stem_figure(part: str):
+    """Look for - **figure**: {...} or - figure: {...} on one line."""
+    m = re.search(r"(?:-\s*)?\*\*?figure\*\*?\s*:\s*(\{.*\})", part, re.I)
+    if not m:
+        m = re.search(r"-\s*figure:\s*(\{.*\})", part, re.I)
+    if not m:
+        return extract_diagram_svg(part)
+    return parse_figure_json(m.group(1)) or extract_diagram_svg(part)
+
+
+def extract_option_figure(text: str):
+    """Option text may embed [[fig:{...}]] before/instead of caption."""
+    m = re.search(r"\[\[fig:(\{.*?\})\]\]\s*(.*)$", text)
+    if not m:
+        return text, None
+    return (m.group(2).strip() or text), parse_figure_json(m.group(1))
 
 
 def parse_science_quiz(block: str, id_prefix: str, set_id: str) -> list:
@@ -59,24 +190,25 @@ def parse_science_quiz(block: str, id_prefix: str, set_id: str) -> list:
             print("  WARN %s %s Q%d incomplete stem=%s ans=%s opts=%d" % (
                 id_prefix, set_id, i, bool(stem_m), bool(ans_m), len(options)))
             continue
-        qs.append({
+        for o in options:
+            text2, fig = extract_option_figure(o["text"])
+            o["text"] = text2
+            if fig:
+                o["figure"] = fig
+        qobj = {
             "id": "%s-%s-q%02d" % (id_prefix, set_id, i),
             "prompt": stem_m.group(1).strip(),
             "options": options,
             "answerId": letter_id(ans_m.group(1)),
             "explanation": expl_m.group(1).strip() if expl_m else "",
             "hints": ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
-        })
+        }
+        fig = extract_stem_figure(part)
+        if fig:
+            qobj["figure"] = fig
+        qs.append(qobj)
     return qs
 
-def science_sets(md: str, prefix: str):
-    chunks = re.split(r"^## Quiz Set ([AB])[^\n]*$", md, flags=re.M)
-    bodies = {}
-    for i in range(1, len(chunks), 2):
-        bodies[chunks[i]] = chunks[i+1] if i+1 < len(chunks) else ""
-    if "A" not in bodies or "B" not in bodies:
-        raise ValueError("Quiz Set A/B not found for %s keys=%s" % (prefix, list(bodies)))
-    return parse_science_quiz(bodies["A"], prefix, "a"), parse_science_quiz(bodies["B"], prefix, "b")
 
 def parse_maths_quiz(block: str, id_prefix: str, set_id: str) -> list:
     qs = []
@@ -91,14 +223,24 @@ def parse_maths_quiz(block: str, id_prefix: str, set_id: str) -> list:
         if not stem_m or not ans_m or len(options) < 4:
             print("  WARN %s %s Q%d incomplete" % (id_prefix, set_id, i))
             continue
-        qs.append({
+        # Option figures via [[fig:{...}]]
+        for o in options:
+            text2, fig = extract_option_figure(o["text"])
+            o["text"] = text2
+            if fig:
+                o["figure"] = fig
+        qobj = {
             "id": "%s-%s-q%02d" % (id_prefix, set_id, i),
             "prompt": stem_m.group(1).strip(),
             "options": options,
             "answerId": letter_id(ans_m.group(1)),
             "explanation": expl_m.group(1).strip() if expl_m else "",
             "hints": ["Read carefully.", "Eliminate impossible options first."],
-        })
+        }
+        fig = extract_stem_figure(part)
+        if fig:
+            qobj["figure"] = fig
+        qs.append(qobj)
     return qs
 
 def extract_passage(bank: str, label: str) -> str:
@@ -134,14 +276,23 @@ def parse_english_quiz(block: str, passages: dict, id_prefix: str, set_id: str) 
         if not stem or not ans_m or len(options) < 4:
             print("  WARN eng %s %s Q%d incomplete" % (id_prefix, set_id, i))
             continue
-        qs.append({
+        for o in options:
+            text2, fig = extract_option_figure(o["text"])
+            o["text"] = text2
+            if fig:
+                o["figure"] = fig
+        qobj = {
             "id": "%s-%s-q%02d" % (id_prefix, set_id, i),
             "prompt": stem,
             "options": options,
             "answerId": letter_id(ans_m.group(1)),
             "explanation": expl,
             "hints": ["Look for clues in the text.", "Eliminate unsupported answers."],
-        })
+        }
+        fig = extract_stem_figure(part)
+        if fig:
+            qobj["figure"] = fig
+        qs.append(qobj)
     return qs
 
 def science_sets(md: str, prefix: str):

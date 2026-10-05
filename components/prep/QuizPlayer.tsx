@@ -6,6 +6,7 @@ import { Mascot } from "@/components/ui/Mascot";
 import type { PrepQuestion } from "@/lib/prep/types";
 import { SpeakButton } from "./SpeakButton";
 import { HintPanel } from "@/components/session/HintPanel";
+import { FigureRenderer } from "./FigureRenderer";
 
 export function QuizPlayer({
   title,
@@ -52,6 +53,7 @@ export function QuizPlayer({
   const hintCount = hints[q.id] ?? 0;
   const hasTried = !!tried[q.id] || !!picked;
   const hintLocked = tryBeforeHint && !hasTried;
+  const optionsHaveFigures = q.options.some((o) => !!o.figure);
 
   return (
     <div className="flex flex-1 flex-col gap-4">
@@ -74,11 +76,19 @@ export function QuizPlayer({
 
       <div className="flex-1 space-y-3 rounded-[2rem] bg-white/70 p-4 shadow-soft">
         <p className="whitespace-pre-wrap text-lg font-bold leading-snug">{q.prompt}</p>
-        <div className="grid gap-2">
+
+        {q.figure && (
+          <div className="rounded-2xl border border-ink/5 bg-cream/80 p-3">
+            <FigureRenderer spec={q.figure} />
+          </div>
+        )}
+
+        <div className={optionsHaveFigures ? "grid grid-cols-2 gap-2" : "grid gap-2"}>
           {q.options.map((o) => {
             const selected = picked === o.id;
             const show = revealed && !!picked;
             const isCorrect = o.id === q.answerId;
+            const letter = o.id.toUpperCase();
             return (
               <button
                 key={o.id}
@@ -89,7 +99,7 @@ export function QuizPlayer({
                   setTried((t) => ({ ...t, [q.id]: true }));
                   setRevealed(true);
                 }}
-                className={`rounded-2xl border-2 px-4 py-3 text-left font-semibold ${
+                className={`rounded-2xl border-2 px-3 py-3 text-left font-semibold ${
                   show && isCorrect
                     ? "border-leaf bg-mint/40"
                     : show && selected
@@ -99,7 +109,15 @@ export function QuizPlayer({
                         : "border-ink/10 bg-white shadow-soft"
                 }`}
               >
-                {o.text}
+                <span className="mb-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-ink/8 text-xs font-bold">
+                  {letter}
+                </span>
+                {o.figure && (
+                  <div className="my-2">
+                    <FigureRenderer spec={o.figure} compact />
+                  </div>
+                )}
+                {o.text ? <span className="block text-sm leading-snug">{o.text}</span> : null}
               </button>
             );
           })}

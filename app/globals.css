@@ -109,3 +109,26 @@ h1, h2, h3, .font-display {
   transition-duration: 1ms !important;
 }
 .reduce-motion .confetti { display: none; }
+
+
+/* Writer Diagram (SVG) figures — classes from sof pictorial markdown */
+.quiz-figure svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.quiz-figure .label,
+.quiz-figure .title,
+.quiz-figure .digit,
+.quiz-figure .value,
+.quiz-figure .option-label,
+.quiz-figure .point-label {
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+.quiz-figure .arrow {
+  fill: none;
+}
+.quiz-figure .highlight {
+  stroke-width: 2.5;
+}
