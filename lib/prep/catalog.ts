@@ -22,6 +22,9 @@ import { g8ScienceMetals } from "./content/g8-science-metals";
 import { g8MathsRationals } from "./content/g8-maths-rationals";
 import { g8MathsLinear } from "./content/g8-maths-linear";
 import { g8MathsComparing } from "./content/g8-maths-comparing";
+import { g8EnglishLiterature } from "./content/g8-english-literature";
+import { g8EnglishGrammar } from "./content/g8-english-grammar";
+import { g8EnglishWords } from "./content/g8-english-words";
 
 function sets(topics: [string, string][]): ChapterDef["sets"] {
   return topics.map(([id, topic], i) => ({
@@ -595,9 +598,9 @@ const ENGLISH: Record<number, ChapterDef[]> = {
     g5EnglishWords,
   ],
   8: [
-    ch("comp8", "Comprehension", "🕵️", "Infer with evidence", englishCompLesson(), ["comprehension", "comprehension", "vocabulary"], ["comprehension"]),
-    ch("idioms", "Idioms & Phrases", "💡", "Not always literal", englishSynLesson(), ["idioms-lite", "idioms-lite", "vocabulary"], ["idioms-lite"]),
-    ch("grammar8", "Advanced Grammar", "🧬", "Agreement & structure", englishGrammarLesson(), ["grammar", "grammar", "comprehension"], ["grammar"]),
+    g8EnglishLiterature,
+    g8EnglishGrammar,
+    g8EnglishWords,
   ],
 };
 

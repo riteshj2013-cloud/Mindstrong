@@ -21,3 +21,6 @@ export { g8ScienceCells } from "./g8-science-cells";
 export { g8ScienceForce } from "./g8-science-force";
 export { g8ScienceMetals } from "./g8-science-metals";
 export { g8MathsComparing } from "./g8-maths-comparing";
+export { g8EnglishLiterature } from "./g8-english-literature";
+export { g8EnglishGrammar } from "./g8-english-grammar";
+export { g8EnglishWords } from "./g8-english-words";

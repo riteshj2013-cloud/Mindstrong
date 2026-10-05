@@ -118,7 +118,7 @@ def parse_english_quiz(block: str, passages: dict, id_prefix: str, set_id: str) 
         else:
             sm = re.search(r"-\s*stem:\s*(.+)", part)
             stem = sm.group(1).strip() if sm else ""
-        mkey = re.search(r"\b(P[123]|N1|D1)\b", stem[:100])
+        mkey = re.search(r"\b(P[123]|N1|D1|E1|O1)\b", stem[:100])
         if mkey and mkey.group(1) in passages and passages[mkey.group(1)]:
             stem = "%s\n\n%s" % (passages[mkey.group(1)], stem)
         ans_m = re.search(r"-\s*answer:\s*([A-D])", part, re.I)
@@ -157,7 +157,7 @@ def maths_sets(md: str, prefix: str):
 
 def eng_sets(md: str, prefix: str):
     bank = md.split("## Passage bank")[1].split("## Set A")[0] if "## Passage bank" in md else ""
-    passages = {lab: extract_passage(bank, lab) if bank else "" for lab in ("P1", "P2", "P3", "N1", "D1")}
+    passages = {lab: extract_passage(bank, lab) if bank else "" for lab in ("P1", "P2", "P3", "N1", "D1", "E1", "O1")}
     a = parse_english_quiz(md.split("## Set A")[1].split("## Set B")[0], passages, prefix, "a")
     b = parse_english_quiz(md.split("## Set B")[1], passages, prefix, "b")
     return a, b
