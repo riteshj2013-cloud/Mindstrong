@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #fffaf0;
+  --color-ink: #2b2a4c;
+  --color-sun: #ffd54a;
+  --color-sky: #4fa8f0;
+  --color-mint: #5fd3b0;
+  --color-leaf: #2fb586;
+  --color-coral: #ff7a66;
+  --color-plum: #9b7ede;
+  --color-blush: #ffd6e0;
+
+  --font-sans: var(--font-nunito), ui-rounded, system-ui, sans-serif;
+  --font-display: var(--font-fredoka), var(--font-nunito), ui-rounded, system-ui, sans-serif;
+
+  --shadow-soft: 0 4px 0 rgba(43, 42, 76, 0.08), 0 8px 24px rgba(43, 42, 76, 0.08);
+  --shadow-chunky: 0 6px 0 rgba(43, 42, 76, 0.18);
+
+  --animate-bounce-in: bounce-in 600ms cubic-bezier(0.3, 1.6, 0.5, 1) both;
+  --animate-wiggle: wiggle 500ms ease-in-out both;
+  --animate-float: float 3.2s ease-in-out infinite;
+  --animate-pop: pop 380ms cubic-bezier(0.3, 1.6, 0.5, 1) both;
+  --animate-fade-up: fade-up 420ms ease-out both;
+
+  @keyframes bounce-in {
+    0% { transform: scale(0.6); opacity: 0; }
+    60% { transform: scale(1.08); opacity: 1; }
+    100% { transform: scale(1); }
+  }
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(0); }
+    20% { transform: rotate(-4deg); }
+    40% { transform: rotate(4deg); }
+    60% { transform: rotate(-2deg); }
+    80% { transform: rotate(2deg); }
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+  }
+  @keyframes pop {
+    0% { transform: scale(0.9); }
+    100% { transform: scale(1); }
+  }
+  @keyframes fade-up {
+    0% { transform: translateY(10px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+}
+
+html, body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+  background-image:
+    radial-gradient(circle at 10% 0%, rgba(255, 213, 74, 0.25), transparent 40%),
+    radial-gradient(circle at 100% 20%, rgba(79, 168, 240, 0.18), transparent 45%),
+    radial-gradient(circle at 0% 100%, rgba(95, 211, 176, 0.18), transparent 45%);
+  background-attachment: fixed;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-sky);
+  outline-offset: 3px;
+}
+
+/* Confetti */
+.confetti {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 50;
+}
+.confetti span {
+  position: absolute;
+  top: -20px;
+  width: 10px;
+  height: 14px;
+  border-radius: 3px;
+  animation: confetti-fall 2.4s cubic-bezier(0.2, 0.6, 0.4, 1) forwards;
+}
+@keyframes confetti-fall {
+  0% { transform: translateY(0) rotate(0); opacity: 1; }
+  100% { transform: translateY(105vh) rotate(720deg); opacity: 0.9; }
+}
+
+/* Reduced motion: OS preference or in-app setting */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+  }
+  .confetti { display: none; }
+}
+.reduce-motion *, .reduce-motion *::before, .reduce-motion *::after {
+  animation-duration: 1ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 1ms !important;
+}
+.reduce-motion .confetti { display: none; }
