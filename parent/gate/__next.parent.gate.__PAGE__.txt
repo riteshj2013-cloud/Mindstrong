@@ -1,20 +1,21 @@
 1:"$Sreact.fragment"
-2:I[47257,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js"],"ClientPageRoot"]
-3:I[68006,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js","/Mindstrong/_next/static/chunks/1o10jhuosoegr.js","/Mindstrong/_next/static/chunks/0blpaglntbtc9.js"],"default"]
-6:I[97367,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js"],"OutletBoundary"]
+2:I[47257,["/Mindstrong/_next/static/chunks/38zf5t_mfskyx.js"],"ClientPageRoot"]
+3:I[68006,["/Mindstrong/_next/static/chunks/38zf5t_mfskyx.js","/Mindstrong/_next/static/chunks/0hd7qj8-wiep3.js","/Mindstrong/_next/static/chunks/3a3415-vurmgt.js"],"default"]
+6:I[97367,["/Mindstrong/_next/static/chunks/38zf5t_mfskyx.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
-b:I[97367,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js"],"ViewportBoundary"]
-c:I[97367,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js"],"MetadataBoundary"]
-d:I[27201,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js"],"IconMark"]
-f:I[39756,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js"],"default"]
-10:I[37457,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js"],"default"]
-13:I[31299,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js","/Mindstrong/_next/static/chunks/1o10jhuosoegr.js"],"Mascot"]
-14:I[22016,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js","/Mindstrong/_next/static/chunks/1o10jhuosoegr.js"],""]
-:HL["/Mindstrong/_next/static/chunks/2rhzn25gpj-5a.css","style"]
+b:I[97367,["/Mindstrong/_next/static/chunks/38zf5t_mfskyx.js"],"ViewportBoundary"]
+c:I[97367,["/Mindstrong/_next/static/chunks/38zf5t_mfskyx.js"],"MetadataBoundary"]
+d:I[27201,["/Mindstrong/_next/static/chunks/38zf5t_mfskyx.js"],"IconMark"]
+f:I[39756,["/Mindstrong/_next/static/chunks/38zf5t_mfskyx.js"],"default"]
+10:I[37457,["/Mindstrong/_next/static/chunks/38zf5t_mfskyx.js"],"default"]
+13:I[92825,["/Mindstrong/_next/static/chunks/38zf5t_mfskyx.js"],"ClientSegmentRoot"]
+14:I[62593,["/Mindstrong/_next/static/chunks/38zf5t_mfskyx.js","/Mindstrong/_next/static/chunks/0hd7qj8-wiep3.js"],"default"]
+18:I[89730,["/Mindstrong/_next/static/chunks/38zf5t_mfskyx.js"],"MotionPref"]
+:HL["/Mindstrong/_next/static/chunks/1u2r2khk-vmfw.css","style"]
 a:X
 12:X
 12:C
-16:T631,(function(){
+17:T631,(function(){
   var KEY="ms-chunk-reload";
   function reload(){
     try{
@@ -57,18 +58,18 @@ a:X
       if(u.searchParams.has("v")){u.searchParams.delete("v");history.replaceState(history.state,"",u.toString());}
     }catch(e){}
   });
-})();0:{"buildId":"RQ6pIquURNb3YjbF8Rx4S","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/Mindstrong/_next/static/chunks/0blpaglntbtc9.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":"$@9","staleTime":"$a","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$Lb",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#fffaf0"}]]}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Mindstrong — Think hard. Stay brave."}],["$","meta","1",{"name":"description","content":"Daily practice (reasoning, maths, spelling) and SOF test prep for ages 6–15."}],["$","link","2",{"rel":"icon","href":"/Mindstrong/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$Ld","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":"$@e","staleTime":"$a","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lf",null,{"parallelRouterKey":"children","template":["$","$L10",null,{}]}]]}],"isPartial":"$@11","staleTime":"$a","varyParams":"$12"},{"rsc":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/Mindstrong/_next/static/chunks/1o10jhuosoegr.js","async":true}]],["$","div",null,{"className":"flex flex-1 flex-col gap-4","children":[["$","header",null,{"className":"flex items-center justify-between border-b border-ink/10 pb-3","children":[["$","div",null,{"className":"flex items-center gap-2","children":[["$","$L13",null,{"size":36,"float":false}],["$","div",null,{"className":"leading-none","children":[["$","p",null,{"className":"font-display font-semibold tracking-tight text-xl","children":["Mind",["$","span",null,{"className":"text-coral","children":"strong"}]]}],false]}]]}],["$","nav",null,{"className":"flex gap-1 text-sm font-bold","children":[["$","$L14",null,{"href":"/parent/progress","className":"rounded-full px-3 py-2 text-ink/60 hover:bg-white hover:text-ink","children":"Progress"}],["$","$L14",null,{"href":"/parent/settings","className":"rounded-full px-3 py-2 text-ink/60 hover:bg-white hover:text-ink","children":"Settings"}],["$","$L14",null,{"href":"/plans","className":"rounded-full px-3 py-2 text-ink/60 hover:bg-white hover:text-ink","children":"Plans"}],["$","$L14",null,{"href":"/","className":"rounded-full bg-white px-3 py-2 text-ink shadow-soft","children":"Kid view"}]]}]]}],["$","$Lf",null,{"parallelRouterKey":"children","template":["$","$L10",null,{}]}]]}]]}],"isPartial":"$@15","staleTime":"$a","varyParams":null},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Mindstrong/_next/static/chunks/2rhzn25gpj-5a.css","precedence":"next"}],["$","script","script-0",{"src":"/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js","async":true}]],["$","html",null,{"lang":"en","className":"nunito_22336911-module__FLPYxG__variable fredoka_5dae6085-module__-KAe2W__variable h-full antialiased","children":[["$","head",null,{"children":["$","script",null,{"id":"ms-chunk-reload","dangerouslySetInnerHTML":{"__html":"$16"}}]}],"$L17"]}]]}],"isPartial":"$@18","staleTime":"$a","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@19","rootVaryParams":null,"needsRuntimeRequest":"$@1a"}
-1b:I[89730,["/Mindstrong/_next/static/chunks/0w68p7q9n9o6d.js"],"MotionPref"]
+})();0:{"buildId":"igubIxBnI6xEbXkWQvuvW","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/Mindstrong/_next/static/chunks/3a3415-vurmgt.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":"$@9","staleTime":"$a","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$Lb",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#fffaf0"}]]}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Mindstrong — Think hard. Stay brave."}],["$","meta","1",{"name":"description","content":"Daily practice (reasoning, maths, spelling) and SOF test prep for ages 6–15."}],["$","link","2",{"rel":"icon","href":"/Mindstrong/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$Ld","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":"$@e","staleTime":"$a","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lf",null,{"parallelRouterKey":"children","template":["$","$L10",null,{}]}]]}],"isPartial":"$@11","staleTime":"$a","varyParams":"$12"},{"rsc":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/Mindstrong/_next/static/chunks/0hd7qj8-wiep3.js","async":true}]],["$","$L13",null,{"Component":"$14","slots":{"children":["$","$Lf",null,{"parallelRouterKey":"children","template":["$","$L10",null,{}]}]},"serverProvidedParams":{"params":"$0:data:0:rsc:props:children:0:props:serverProvidedParams:params","promises":["$@15"]}}]]}],"isPartial":"$@16","staleTime":"$a","varyParams":null},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Mindstrong/_next/static/chunks/1u2r2khk-vmfw.css","precedence":"next"}],["$","script","script-0",{"src":"/Mindstrong/_next/static/chunks/38zf5t_mfskyx.js","async":true}]],["$","html",null,{"lang":"en","className":"nunito_22336911-module__FLPYxG__variable fredoka_5dae6085-module__-KAe2W__variable h-full antialiased","children":[["$","head",null,{"children":["$","script",null,{"id":"ms-chunk-reload","dangerouslySetInnerHTML":{"__html":"$17"}}]}],["$","body",null,{"className":"min-h-full","children":[["$","$L18",null,{}],["$","div",null,{"className":"mx-auto flex min-h-dvh w-full max-w-lg flex-col px-4 pb-8 pt-4","children":"$L19"}]]}]]}]]}],"isPartial":"$@1a","staleTime":"$a","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@1b","rootVaryParams":null,"needsRuntimeRequest":"$@1c"}
 4:{}
 5:"$0:data:0:rsc:props:children:0:props:serverProvidedParams:params"
 8:null
-17:["$","body",null,{"className":"min-h-full","children":[["$","$L1b",null,{}],["$","div",null,{"className":"mx-auto flex min-h-dvh w-full max-w-lg flex-col px-4 pb-8 pt-4","children":["$","$Lf",null,{"parallelRouterKey":"children","template":["$","$L10",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]]}]
+15:"$0:data:0:rsc:props:children:0:props:serverProvidedParams:params"
+19:["$","$Lf",null,{"parallelRouterKey":"children","template":["$","$L10",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]
 a:300
-1a:true
+1c:true
 a:C
-19:0
+1b:0
 e:"$undefined"
 11:"$undefined"
-15:"$undefined"
-18:"$undefined"
+1a:"$undefined"
 9:"$undefined"
+16:"$undefined"
