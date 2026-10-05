@@ -1,4 +1,5 @@
 import type { ContentPack } from "../../types";
+import { spellingPhase } from "../spelling";
 
 /** Abstract reasoning, algebra-lite / proportional thinking — still kid-respectful. */
 export const mondayPack1415: ContentPack = {
@@ -324,6 +325,8 @@ export const mondayPack1415: ContentPack = {
         },
       ],
     },
+
+    focus_c: spellingPhase("14-15"),
 
     hard_try: {
       muscle: "confidence",

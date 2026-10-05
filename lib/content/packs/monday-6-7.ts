@@ -1,4 +1,5 @@
 import type { ContentPack } from "../../types";
+import { spellingPhase } from "../spelling";
 
 /** Early explorers — simple patterns, tens/ones intro, tiny hard try. */
 export const mondayPack67: ContentPack = {
@@ -315,6 +316,8 @@ export const mondayPack67: ContentPack = {
         },
       ],
     },
+
+    focus_c: spellingPhase("6-7"),
 
     hard_try: {
       muscle: "confidence",

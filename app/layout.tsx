@@ -9,7 +9,7 @@ const fredoka = Fredoka({ variable: "--font-fredoka", subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Mindstrong — Think hard. Stay brave.",
   description:
-    "A calm 15–20 minute daily session for ages 6–8: reasoning, maths and confidence.",
+    "Daily practice (reasoning, maths, spelling) and SOF test prep for ages 6–15.",
 };
 
 export const viewport: Viewport = {

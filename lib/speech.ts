@@ -9,6 +9,11 @@ export function speak(text: string) {
   window.speechSynthesis.speak(u);
 }
 
+export function stopSpeaking() {
+  if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
+  window.speechSynthesis.cancel();
+}
+
 export function canSpeak() {
   return typeof window !== "undefined" && "speechSynthesis" in window;
 }

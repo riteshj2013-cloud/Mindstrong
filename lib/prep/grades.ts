@@ -1,0 +1,29 @@
+import type { ChildAge } from "../types";
+import type { Grade } from "./types";
+import { clampAge } from "../content/age";
+
+/** Age 6→G1 … Age 15→G10 */
+export function ageToGrade(age: number): Grade {
+  const a = clampAge(age);
+  return (a - 5) as Grade;
+}
+
+export function gradeToTypicalAge(grade: Grade): ChildAge {
+  return (grade + 5) as ChildAge;
+}
+
+export function gradeLabel(grade: Grade): string {
+  return `Grade ${grade}`;
+}
+
+export function gradeSubtitle(grade: Grade): string {
+  const age = gradeToTypicalAge(grade);
+  return `Usually ages ${age}–${Math.min(15, age + 1)}`;
+}
+
+/** Grades with full content in v1. */
+export const READY_GRADES: Grade[] = [3, 5, 8];
+
+export function isGradeReady(grade: Grade): boolean {
+  return READY_GRADES.includes(grade);
+}

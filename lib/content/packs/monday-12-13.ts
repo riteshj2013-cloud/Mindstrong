@@ -1,4 +1,5 @@
 import type { ContentPack } from "../../types";
+import { spellingPhase } from "../spelling";
 
 /** Strategy reasoning, fractions/percents intro, multi-step word problems. */
 export const mondayPack1213: ContentPack = {
@@ -327,6 +328,8 @@ export const mondayPack1213: ContentPack = {
         },
       ],
     },
+
+    focus_c: spellingPhase("12-13"),
 
     hard_try: {
       muscle: "confidence",

@@ -1,4 +1,5 @@
 import type { ContentPack } from "../../types";
+import { spellingPhase } from "../spelling";
 
 /** Multi-step patterns, larger place value / multi-digit ops, harder stretch. */
 export const mondayPack1011: ContentPack = {
@@ -404,6 +405,8 @@ export const mondayPack1011: ContentPack = {
         },
       ],
     },
+
+    focus_c: spellingPhase("10-11"),
 
     hard_try: {
       muscle: "confidence",

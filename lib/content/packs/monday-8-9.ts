@@ -1,4 +1,5 @@
 import type { ContentPack } from "../../types";
+import { spellingPhase } from "../spelling";
 
 /** Fully playable Monday pack for ages 8–9 (baseline). */
 export const mondayPack89: ContentPack = {
@@ -391,6 +392,8 @@ export const mondayPack89: ContentPack = {
         },
       ],
     },
+
+    focus_c: spellingPhase("8-9"),
 
     hard_try: {
       muscle: "confidence",

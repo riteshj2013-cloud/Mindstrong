@@ -1,9 +1,9 @@
 /**
  * Mindstrong — shared types (v1, local-first).
- * Muscles: reasoning + maths + confidence. Ages 6–15.
+ * Muscles: reasoning + maths + spelling + confidence. Ages 6–15.
  */
 
-export type Muscle = "reasoning" | "maths" | "confidence";
+export type Muscle = "reasoning" | "maths" | "spelling" | "confidence";
 
 /** Single selectable child age (inclusive). */
 export type ChildAge = 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15;
@@ -16,6 +16,7 @@ export type Phase =
   | "warm_up"
   | "focus_a"
   | "focus_b"
+  | "focus_c"
   | "hard_try"
   | "reflect"
   | "complete";
@@ -27,6 +28,7 @@ export const PLAY_PHASES: PlayPhase[] = [
   "warm_up",
   "focus_a",
   "focus_b",
+  "focus_c",
   "hard_try",
   "reflect",
 ];
