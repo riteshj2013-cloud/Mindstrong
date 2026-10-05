@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { GateGuard } from "@/components/parent/GateGuard";
 import { AgePicker } from "@/components/ui/AgePicker";
 import { Button } from "@/components/ui/Button";
@@ -113,6 +114,19 @@ function SettingsInner() {
         >
           {saved ? "Saved ✓" : "Save profile"}
         </Button>
+      </section>
+
+      <section className="space-y-3 rounded-[1.75rem] border border-plum/30 bg-gradient-to-br from-plum/15 to-sky/20 p-5 shadow-soft">
+        <h2 className="text-lg font-semibold">Plans & account</h2>
+        <p className="text-sm font-semibold text-ink/60">
+          Proposed pricing for SOF prep unlocks. Payments are preview-only until Razorpay goes live.
+        </p>
+        <Link href="/plans">
+          <Button variant="secondary">View plans</Button>
+        </Link>
+        <Link href="/login">
+          <Button variant="ghost">Parent login / account</Button>
+        </Link>
       </section>
 
       <section className="space-y-3 rounded-[1.75rem] border border-ink/10 bg-white p-5 shadow-soft">

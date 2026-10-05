@@ -20,6 +20,12 @@ export default function ParentLayout({ children }: { children: React.ReactNode }
             Settings
           </Link>
           <Link
+            href="/plans"
+            className="rounded-full px-3 py-2 text-ink/60 hover:bg-white hover:text-ink"
+          >
+            Plans
+          </Link>
+          <Link
             href="/"
             className="rounded-full bg-white px-3 py-2 text-ink shadow-soft"
           >

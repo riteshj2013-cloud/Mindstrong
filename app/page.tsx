@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { SectionPicker } from "@/components/session/SectionPicker";
+import { AccountButton } from "@/components/auth/AccountButton";
+import { SiteFooter } from "@/components/auth/SiteFooter";
 import { AgePicker } from "@/components/ui/AgePicker";
 import { Brand } from "@/components/ui/Brand";
 import { Button } from "@/components/ui/Button";
@@ -161,9 +163,10 @@ export default function Home() {
 
   return (
     <main className="flex flex-1 flex-col gap-5">
-      <header className="flex items-center justify-between">
+      <header className="flex items-center justify-between gap-2">
         <Brand />
         <div className="flex items-center gap-2">
+          <AccountButton />
           <Link
             href="/parent/settings"
             className="rounded-full bg-white/90 px-3 py-1.5 text-sm font-bold text-ink/60 shadow-soft"
@@ -318,12 +321,22 @@ export default function Home() {
         </MascotSays>
       )}
 
-      <Link
-        href="/parent/gate"
-        className="block py-2 text-center text-sm font-bold text-ink/45 underline-offset-4 hover:underline"
-      >
-        Grown-ups →
-      </Link>
+      <div className="flex flex-col items-center gap-1 py-2">
+        <Link
+          href="/plans"
+          className="text-sm font-bold text-ink/55 underline-offset-4 hover:underline"
+        >
+          Plans for families →
+        </Link>
+        <Link
+          href="/parent/gate"
+          className="text-sm font-bold text-ink/45 underline-offset-4 hover:underline"
+        >
+          Grown-ups →
+        </Link>
+      </div>
+
+      <SiteFooter />
     </main>
   );
 }
