@@ -1,7 +1,8 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
-import type { ActiveSession, Profile, Progress, Settings } from "./types";
+import type { ActiveSession, ChildAge, Profile, Progress, Settings } from "./types";
+import { bandDefaultAge, clampAge } from "./content/age";
 
 /**
  * All persistence goes through this module.
@@ -99,13 +100,32 @@ export function useStored<T>(key: Key, fallback: T): T | undefined {
   );
 }
 
-export const useProfile = () => useStored<Profile | null>(KEYS.profile, null);
+export function useProfile(): Profile | null | undefined {
+  const raw = useStored<Profile | null>(KEYS.profile, null);
+  if (raw === undefined) return undefined;
+  return normalizeProfile(raw);
+}
 export const useProgress = () => useStored<Progress>(KEYS.progress, DEFAULT_PROGRESS);
 export const useActiveSession = () => useStored<ActiveSession | null>(KEYS.session, null);
 export const useSettings = () => useStored<Settings>(KEYS.settings, DEFAULT_SETTINGS);
 
+
+/** Coerce legacy profiles (ageBand-only) into { age: 6–15 }. */
+export function normalizeProfile(raw: Profile | null | undefined): Profile | null {
+  if (!raw) return null;
+  const age: ChildAge =
+    typeof (raw as Profile).age === "number"
+      ? clampAge((raw as Profile).age)
+      : bandDefaultAge((raw as Profile).ageBand);
+  return {
+    childName: raw.childName ?? "",
+    age,
+    createdAt: raw.createdAt ?? new Date().toISOString(),
+  };
+}
+
 export function saveProfile(p: Profile) {
-  write(KEYS.profile, p);
+  write(KEYS.profile, normalizeProfile(p) ?? p);
 }
 export function saveSettings(s: Settings) {
   write(KEYS.settings, s);

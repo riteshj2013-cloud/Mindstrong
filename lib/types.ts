@@ -1,9 +1,15 @@
 /**
  * Mindstrong — shared types (v1, local-first).
- * Muscles: reasoning + maths + confidence. Ages 6–8.
+ * Muscles: reasoning + maths + confidence. Ages 6–15.
  */
 
 export type Muscle = "reasoning" | "maths" | "confidence";
+
+/** Single selectable child age (inclusive). */
+export type ChildAge = 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15;
+
+/** Content difficulty band keyed by age. */
+export type AgeBand = "6-7" | "8-9" | "10-11" | "12-13" | "14-15";
 
 export type Phase =
   | "idle"
@@ -162,7 +168,7 @@ export interface PhaseSpec {
 
 export interface ContentPack {
   id: string;
-  ageBand: "6-8";
+  ageBand: AgeBand;
   weekday: Weekday;
   title: string;
   /** false = scaffold only (not yet authored). */
@@ -220,8 +226,11 @@ export interface SessionSummary {
 
 export interface Profile {
   childName: string;
-  ageBand: "6-8";
+  /** Child age 6–15. Drives which content pack loads. */
+  age: ChildAge;
   createdAt: string;
+  /** Legacy field from early builds; ignored once `age` is set. */
+  ageBand?: string;
 }
 
 export interface Progress {

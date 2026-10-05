@@ -5,14 +5,19 @@ import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { Confetti } from "@/components/ui/Confetti";
 import { Mascot } from "@/components/ui/Mascot";
-import { mondayPack } from "@/lib/content/monday";
+import { getPack, mondayPack } from "@/lib/content";
 import { localDay } from "@/lib/date";
 import { displayStreak, hardAttemptsThisWeek, todaySummary } from "@/lib/session";
 import { useProfile, useProgress } from "@/lib/storage";
 import type { ReflectItem } from "@/lib/types";
 
-const reflectItem = mondayPack.phases.reflect.items[0] as ReflectItem;
-function reflectLabel(q: "feltHard" | "whatTried", id?: string) {
+function reflectLabel(
+  packId: string | undefined,
+  q: "feltHard" | "whatTried",
+  id?: string,
+) {
+  const pack = (packId && getPack(packId)) || mondayPack;
+  const reflectItem = pack.phases.reflect.items[0] as ReflectItem;
   const opt = reflectItem.questions.find((x) => x.id === q)?.options.find((o) => o.id === id);
   return opt ? `${opt.emoji} ${opt.label}` : null;
 }
@@ -45,8 +50,8 @@ export default function DonePage() {
     );
   }
 
-  const felt = reflectLabel("feltHard", summary.reflection?.feltHard);
-  const tried = reflectLabel("whatTried", summary.reflection?.whatTried);
+  const felt = reflectLabel(summary.packId, "feltHard", summary.reflection?.feltHard);
+  const tried = reflectLabel(summary.packId, "whatTried", summary.reflection?.whatTried);
   const name = profile?.childName;
 
   return (
@@ -59,7 +64,7 @@ export default function DonePage() {
         {name ? `Amazing, ${name}!` : "Amazing work!"}
       </h1>
       <p className="max-w-xs text-lg font-bold text-ink/70">
-        You used <span className="text-coral">Try before hint</span>. That’s how brave
+        You used <span className="text-coral">Try before hint</span>. That's how brave
         brains grow.
       </p>
 

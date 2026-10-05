@@ -10,11 +10,13 @@ import type {
   Progress,
   Reflection,
   SessionSummary,
+  Profile,
 } from "./types";
 import { PLAY_PHASES } from "./types";
 import {
   DEFAULT_PROGRESS,
   KEYS,
+  normalizeProfile,
   read,
   saveActiveSession,
   saveProgress,
@@ -35,8 +37,13 @@ export function emptyResult(): ItemResult {
   };
 }
 
+function profileAge(): number {
+  const raw = read<Profile | null>(KEYS.profile, null);
+  return normalizeProfile(raw)?.age ?? 8;
+}
+
 export function startSession(pack?: ContentPack): ActiveSession {
-  const p = pack ?? packForToday();
+  const p = pack ?? packForToday("", profileAge());
   const day = localDay();
   const session: ActiveSession = {
     v: 1,
@@ -157,7 +164,7 @@ export function completeSession(session: ActiveSession): {
   summary: SessionSummary;
   progress: Progress;
 } {
-  const pack = getPack(session.packId) ?? packForToday(session.date);
+  const pack = getPack(session.packId) ?? packForToday(session.date, profileAge());
   const hardItem = pack.phases.hard_try.items.find((i) => i.type === "hard_try");
   const hardResult = hardItem ? getResult(session, hardItem.id) : emptyResult();
 

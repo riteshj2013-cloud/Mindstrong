@@ -1,9 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { GateGuard } from "@/components/parent/GateGuard";
+import { AgePicker } from "@/components/ui/AgePicker";
 import { Button } from "@/components/ui/Button";
 import { Mascot } from "@/components/ui/Mascot";
+import { BAND_LABELS, ageToBand, clampAge } from "@/lib/content/age";
 import {
   DEFAULT_SETTINGS,
   resetProgress,
@@ -12,6 +14,7 @@ import {
   useProfile,
   useSettings,
 } from "@/lib/storage";
+import type { ChildAge } from "@/lib/types";
 
 export default function SettingsPage() {
   return (
@@ -25,8 +28,15 @@ function SettingsInner() {
   const profile = useProfile();
   const settings = useSettings();
   const [name, setName] = useState("");
+  const [age, setAge] = useState<ChildAge>(8);
   const [confirmReset, setConfirmReset] = useState(false);
   const [saved, setSaved] = useState(false);
+
+  useEffect(() => {
+    if (profile) {
+      setAge(clampAge(profile.age));
+    }
+  }, [profile]);
 
   if (profile === undefined || settings === undefined) {
     return (
@@ -38,6 +48,7 @@ function SettingsInner() {
 
   const s = settings ?? DEFAULT_SETTINGS;
   const currentName = name || profile?.childName || "";
+  const band = ageToBand(age);
 
   return (
     <main className="flex flex-1 flex-col gap-5">
@@ -62,17 +73,32 @@ function SettingsInner() {
           className="min-h-12 w-full rounded-2xl border-2 border-ink/10 bg-cream px-4 text-lg font-semibold outline-none focus:border-sky"
           placeholder="Name"
         />
+
+        <AgePicker
+          value={age}
+          onChange={(a) => {
+            setAge(a);
+            setSaved(false);
+          }}
+          size="compact"
+          label="Child’s age (6–15)"
+        />
+        <p className="text-xs font-semibold text-ink/45">{BAND_LABELS[band]}</p>
+        <p className="text-xs font-semibold text-ink/45">
+          Changing age loads matching questions on the next new session.
+        </p>
+
         <Button
           onClick={() => {
             saveProfile({
               childName: currentName.trim().slice(0, 24),
-              ageBand: "6-8",
+              age: clampAge(age),
               createdAt: profile?.createdAt ?? new Date().toISOString(),
             });
             setSaved(true);
           }}
         >
-          {saved ? "Saved ✓" : "Save name"}
+          {saved ? "Saved ✓" : "Save profile"}
         </Button>
       </section>
 
@@ -93,7 +119,7 @@ function SettingsInner() {
       <section className="space-y-3 rounded-[1.75rem] border border-coral/30 bg-white p-5 shadow-soft">
         <h2 className="text-lg font-semibold text-coral">Reset progress</h2>
         <p className="text-sm font-semibold text-ink/60">
-          Clears streak, history, and any in-progress session. Profile name stays.
+          Clears streak, history, and any in-progress session. Profile name & age stay.
         </p>
         {!confirmReset ? (
           <Button variant="secondary" onClick={() => setConfirmReset(true)}>

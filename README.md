@@ -2,7 +2,7 @@
 
 **Think hard. Stay brave.**
 
-A calm, daily 15–20 minute capability session for ages **6–8**.
+A calm, daily 15–20 minute capability session for ages **6–15**.
 Muscles: **Reasoning · Maths · Confidence** (no Spelling in v1).
 
 Local-first MVP — everything lives in the browser (`localStorage`). No backend required.
@@ -22,7 +22,17 @@ npm run build && npm start   # production
 
 ## What’s playable
 
-**Monday pack (`mon-6-8-v1`) end-to-end:**
+**Age bands** map to Monday packs:
+
+| Ages | Pack id | Focus |
+|------|---------|-------|
+| 6–7 | `mon-6-7-v1` | Simple patterns, tens/ones intro |
+| 8–9 | `mon-8-9-v1` | Baseline patterns & tens |
+| 10–11 | `mon-10-11-v1` | Multi-step patterns, multi-digit |
+| 12–13 | `mon-12-13-v1` | Strategy, fractions/percents |
+| 14–15 | `mon-14-15-v1` | Abstract reasoning, algebra-lite |
+
+**Monday pack (example `mon-8-9-v1`) end-to-end:**
 
 1. **Warm-up** — `2, 4, 6, __, 10` + “Try before hint!” ritual  
 2. **Reasoning** — 5 pattern items (colors, shapes, stars, AAB, size+color)  
@@ -41,7 +51,7 @@ Other weekdays resolve to a scaffold and fall back to Monday so the demo always 
 | `/done` | Child | Celebration + badges |
 | `/parent/gate` | Parent | Soft “I’m the grown-up” gate |
 | `/parent/progress` | Parent | Streak · brave tries this week (target 4) · sessions |
-| `/parent/settings` | Parent | Child name, read-aloud, reduce motion, reset |
+| `/parent/settings` | Parent | Child name, age 6–15, read-aloud, reduce motion, reset |
 
 ## Session state machine
 

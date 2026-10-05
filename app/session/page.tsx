@@ -33,15 +33,18 @@ import { canSpeak, itemSpeech, speak } from "@/lib/speech";
 import {
   saveActiveSession,
   useActiveSession,
+  useProfile,
   useProgress,
   useSettings,
 } from "@/lib/storage";
+import { clampAge } from "@/lib/content/age";
 import type { ItemResult } from "@/lib/types";
 
 export default function SessionPage() {
   const router = useRouter();
   const active = useActiveSession();
   const progress = useProgress();
+  const profile = useProfile();
   const settings = useSettings();
   const today = localDay();
 
@@ -50,7 +53,7 @@ export default function SessionPage() {
     if (active && active.date !== today) saveActiveSession(null);
   }, [active, today]);
 
-  if (active === undefined || progress === undefined) {
+  if (active === undefined || progress === undefined || profile === undefined) {
     return (
       <div className="flex flex-1 items-center justify-center">
         <Mascot size={96} />
@@ -63,7 +66,7 @@ export default function SessionPage() {
 
   if (!session) {
     const doneToday = todaySummary(progress, today);
-    const pack = packForToday(today);
+    const pack = packForToday(today, clampAge(profile?.age ?? 8));
     return (
       <main className="flex flex-1 flex-col items-center justify-center gap-6 text-center">
         <Mascot mood={doneToday ? "cheer" : "happy"} size={140} />
