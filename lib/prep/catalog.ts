@@ -3,6 +3,7 @@ import { g3SciencePlants } from "./content/g3-science-plants";
 import { g3ScienceAnimals } from "./content/g3-science-animals";
 import { g3ScienceSenses } from "./content/g3-science-senses";
 import { g3MathsNumbers } from "./content/g3-maths-numbers";
+import { g3MathsAddSubtract } from "./content/g3-maths-add-subtract";
 import { g3EnglishSynonyms } from "./content/g3-english-synonyms";
 import { g4MathsLargeNumbers } from "./content/g4-maths-large-numbers";
 import { g4MathsMultiplyDivide } from "./content/g4-maths-multiply-divide";
@@ -567,7 +568,7 @@ function ch(
 const MATHS: Record<number, ChapterDef[]> = {
   3: [
     g3MathsNumbers,
-    ch("add-sub", "Add & Subtract", "➕", "Carry, borrow & check", mathsPlaceValueLesson(), ["add-sub", "add-sub", "place-value"], ["add-sub"]),
+    g3MathsAddSubtract,
     ch("multiply", "Multiply Basics", "✖️", "Arrays & times facts", mathsPlaceValueLesson(), ["multiply-basics", "multiply-basics", "add-sub"], ["multiply-basics"]),
   ],
   4: [
