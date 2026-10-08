@@ -18,6 +18,12 @@
     "g3-science-senses"
   ],
   [
+    "english",
+    3,
+    "g3EnglishSynonyms",
+    "g3-english-synonyms"
+  ],
+  [
     "science",
     5,
     "g5ScienceBody",
