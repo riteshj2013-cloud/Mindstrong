@@ -38,6 +38,9 @@ export const BOILERPLATE_HINT_MARKERS = [
   "Eliminate impossible options first.",
   "Look for clues in the text.",
   "Eliminate unsupported answers.",
+  // Soft chapter-wide stubs (e.g. G5 Eng Ch1 Detective) — overlays replace these.
+  "Look, Link, Decide",
+  "Eliminate answers the text does not support.",
 ] as const;
 
 export function isBoilerplateHints(hints: string[] | undefined): boolean {

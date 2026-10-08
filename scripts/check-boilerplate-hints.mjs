@@ -23,6 +23,8 @@ const BP_MARKERS = [
   "Eliminate impossible options first.",
   "Look for clues in the text.",
   "Eliminate unsupported answers.",
+  "Look, Link, Decide",
+  "Eliminate answers the text does not support.",
 ];
 
 function isBoilerplate(hints) {
