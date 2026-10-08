@@ -708,7 +708,7 @@ const lesson: ChapterDef["lesson"] = [
 export const g5ScienceSpace: ChapterDef = {
   id: "sun-moon-space",
   title: "Sun, Moon and Solar System",
-  emoji: "\\ud83c\\udf1e",
+  emoji: "🌞",
   blurb: "Day, night, Moon and planets",
   lesson,
   sets: [

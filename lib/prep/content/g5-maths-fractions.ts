@@ -708,7 +708,7 @@ const lesson: ChapterDef["lesson"] = [
 export const g5MathsFractions: ChapterDef = {
   id: "fractions-g5",
   title: "Fractions",
-  emoji: "\\ud83c\\udf55",
+  emoji: "🍕",
   blurb: "Parts of a whole",
   lesson,
   sets: [
