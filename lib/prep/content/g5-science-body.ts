@@ -708,7 +708,7 @@ const lesson: ChapterDef["lesson"] = [
 export const g5ScienceBody: ChapterDef = {
   id: "human-body",
   title: "Human Body",
-  emoji: "\\ud83e\\uddb4",
+  emoji: "🦴",
   blurb: "Skeleton, muscles and nerves",
   lesson,
   sets: [

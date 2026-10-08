@@ -708,7 +708,7 @@ const lesson: ChapterDef["lesson"] = [
 export const g5MathsAngles: ChapterDef = {
   id: "shapes-angles",
   title: "Shapes and Angles",
-  emoji: "\\ud83d\\udcd0",
+  emoji: "📐",
   blurb: "Degrees, turns and polygons",
   lesson,
   sets: [
