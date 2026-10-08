@@ -5,6 +5,11 @@ import { mondayPack89 } from "./packs/monday-8-9";
 import { mondayPack1011 } from "./packs/monday-10-11";
 import { mondayPack1213 } from "./packs/monday-12-13";
 import { mondayPack1415 } from "./packs/monday-14-15";
+import { tuesdayPack67 } from "./packs/tuesday-6-7";
+import { tuesdayPack89 } from "./packs/tuesday-8-9";
+import { tuesdayPack1011 } from "./packs/tuesday-10-11";
+import { tuesdayPack1213 } from "./packs/tuesday-12-13";
+import { tuesdayPack1415 } from "./packs/tuesday-14-15";
 import { weekdayOf } from "../date";
 
 export { ageToBand, clampAge, ALL_AGES, BAND_LABELS, MIN_AGE, MAX_AGE } from "./age";
@@ -18,13 +23,25 @@ export const MONDAY_BY_BAND: Record<AgeBand, ContentPack> = {
   "14-15": mondayPack1415,
 };
 
-export const ALL_READY_PACKS: ContentPack[] = Object.values(MONDAY_BY_BAND);
+/** Ready Tuesday packs keyed by age band. */
+export const TUESDAY_BY_BAND: Record<AgeBand, ContentPack> = {
+  "6-7": tuesdayPack67,
+  "8-9": tuesdayPack89,
+  "10-11": tuesdayPack1011,
+  "12-13": tuesdayPack1213,
+  "14-15": tuesdayPack1415,
+};
+
+export const ALL_READY_PACKS: ContentPack[] = [
+  ...Object.values(MONDAY_BY_BAND),
+  ...Object.values(TUESDAY_BY_BAND),
+];
 
 /** Default / legacy alias — ages 8–9 baseline. */
 export const mondayPack = mondayPack89;
 
 /**
- * Only Monday packs are authored so far. Other weekdays resolve to a not-ready
+ * Monday and Tuesday packs are authored. Other weekdays resolve to a not-ready
  * scaffold, and `packForToday` serves the Monday pack instead — the no-repeat
  * history (lib/completed.ts) means the child gets fresh, unseen Monday items.
  */
@@ -43,7 +60,7 @@ function scaffold(day: Weekday, band: AgeBand, title: string): ContentPack {
 function packsForBand(band: AgeBand): Record<Weekday, ContentPack> {
   return {
     mon: MONDAY_BY_BAND[band],
-    tue: scaffold("tue", band, "Tuesday pack · not written yet"),
+    tue: TUESDAY_BY_BAND[band],
     wed: scaffold("wed", band, "Wednesday pack · not written yet"),
     thu: scaffold("thu", band, "Thursday pack · not written yet"),
     fri: scaffold("fri", band, "Friday pack · not written yet"),

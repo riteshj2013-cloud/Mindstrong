@@ -40,7 +40,7 @@ export function SectionPicker({
   onRestart?: () => void;
   /** Last persisted selection — hint + restore target when toggling off “all”. */
   lastSaved?: PlayPhase[];
-  /** Today's weekday pack isn't written yet (serving Monday items) — say so honestly. */
+  /** Today's weekday pack isn't written yet (serving a ready day's items) — say so honestly. */
   moreSoon?: boolean;
 }) {
   const remaining = remainingByPhase(pack);
