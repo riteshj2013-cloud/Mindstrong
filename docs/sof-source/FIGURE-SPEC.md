@@ -82,7 +82,7 @@ python3 scripts/ingest_g4_english.py
 
 ```bash
 python3 scripts/ingest_g5_pictorial.py
-# Maths Ch1 Large Numbers pictorial addendum (when present)
+# Maths Ch1 Large Numbers · Ch2 Shapes & Angles · Ch3 Fractions pictorial addenda
 # Science Ch1–3 inline Diagram (SVG) in Quiz Sets
 # Skips English until grade-5-english/ / grade-8-english/ ship visual: + visuals/
 ```
