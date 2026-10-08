@@ -3,6 +3,7 @@ import { g3SciencePlants } from "./content/g3-science-plants";
 import { g3ScienceAnimals } from "./content/g3-science-animals";
 import { g3ScienceSenses } from "./content/g3-science-senses";
 import { g3MathsNumbers } from "./content/g3-maths-numbers";
+import { g3EnglishSynonyms } from "./content/g3-english-synonyms";
 import { g4MathsLargeNumbers } from "./content/g4-maths-large-numbers";
 import { g4MathsMultiplyDivide } from "./content/g4-maths-multiply-divide";
 import { g4MathsFractions } from "./content/g4-maths-fractions";
@@ -588,7 +589,7 @@ const MATHS: Record<number, ChapterDef[]> = {
 
 const ENGLISH: Record<number, ChapterDef[]> = {
   3: [
-    ch("synonyms", "Synonyms", "😊", "Words that match", englishSynLesson(), ["synonyms", "synonyms", "antonyms"], ["synonyms", "antonyms"]),
+    g3EnglishSynonyms,
     ch("antonyms", "Antonyms", "🔄", "Opposite meanings", englishSynLesson(), ["antonyms", "antonyms", "vocabulary"], ["antonyms"]),
     ch("grammar", "Grammar Basics", "✏️", "Agree & fill-ins", englishGrammarLesson(), ["grammar", "grammar", "vocabulary"], ["grammar"]),
   ],

@@ -11,6 +11,7 @@ export { g4ScienceWater } from "./g4-science-water";
 export { g3ScienceAnimals } from "./g3-science-animals";
 export { g3SciencePlants } from "./g3-science-plants";
 export { g3ScienceSenses } from "./g3-science-senses";
+export { g3EnglishSynonyms } from "./g3-english-synonyms";
 export { g5EnglishDetective } from "./g5-english-detective";
 export { g5EnglishGrammar } from "./g5-english-grammar";
 export { g5EnglishWords } from "./g5-english-words";
