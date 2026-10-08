@@ -24,6 +24,12 @@
     "g3-english-synonyms"
   ],
   [
+    "english",
+    3,
+    "g3EnglishAntonyms",
+    "g3-english-antonyms"
+  ],
+  [
     "science",
     5,
     "g5ScienceBody",
