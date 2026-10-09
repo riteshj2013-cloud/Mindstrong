@@ -97,6 +97,13 @@ Screenshots (mobile 430×900):
 | Home | `docs/screenshots/home-ready.png` |
 | Session warm-up | `docs/screenshots/tiny-win.png` |
 
+## Olympiad prep grade unlock
+
+A prep grade unlocks when **each** of maths, english, and science has ≥1 **authored**
+chapter (sets with real `questions[]`). Scaffold-only `ch()` entries and empty catalog
+slots (`[]` for G1/G2/G6/G7/G9/G10 until writers land content) stay “coming soon”.
+See `gradesWithContent()` in `lib/prep/grades.ts`.
+
 ## Pictorial MCQs (SOF-style figures)
 
 Quiz items support optional stem/option `figure` specs. Writer `**Diagram (SVG):**` blocks are

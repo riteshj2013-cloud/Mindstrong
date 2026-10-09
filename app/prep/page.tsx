@@ -18,7 +18,7 @@ import {
   getSetScore,
   gradeLabel,
   gradeSubtitle,
-  isGradeReady,
+  gradesWithContent,
   packKey,
   clearPrepActive,
   rememberPrepChoice,
@@ -69,9 +69,12 @@ export default function PrepHubPage() {
   );
   const chapter = pack?.chapters.find((c) => c.id === chapterId);
 
-  /** Grades with real content for a subject (READY_GRADES ∩ authored packs). */
-  function readyGradesFor(sub: PrepSubject): Grade[] {
-    return ALL_GRADES.filter((g) => isGradeReady(g) && getPrepPack(sub, g).ready);
+  /**
+   * Unlock: gradesWithContent() — ≥1 authored chapter per subject (maths, english,
+   * science). Scaffold-only `ch()` chapters do not count; empty grades stay “soon”.
+   */
+  function readyGradesFor(_sub: PrepSubject): Grade[] {
+    return gradesWithContent();
   }
 
   if (profile === undefined || progress === undefined || completed === undefined) {

@@ -566,7 +566,16 @@ function ch(
   };
 }
 
+/**
+ * Per-grade chapter lists. Every Grade 1–10 must have a key so writers can
+ * drop ChapterDef modules in without reshaping the catalog.
+ * Empty `[]` = structure ready, no playable content yet (UI shows “soon”).
+ * Prefer imported content modules over `ch()` scaffolds — only chapters with
+ * authored `questions[]` unlock a grade (see `isAuthoredChapter`).
+ */
 const MATHS: Record<number, ChapterDef[]> = {
+  1: [], // placeholder — Maths Writer
+  2: [], // placeholder — Maths Writer
   3: [
     g3MathsNumbers,
     g3MathsAddSubtract,
@@ -582,14 +591,20 @@ const MATHS: Record<number, ChapterDef[]> = {
     g5MathsAngles,
     g5MathsFractions,
   ],
+  6: [], // placeholder — Maths Writer
+  7: [], // placeholder — Maths Writer
   8: [
     g8MathsRationals,
     g8MathsLinear,
     g8MathsComparing,
   ],
+  9: [], // placeholder — Maths Writer
+  10: [], // placeholder — Maths Writer
 };
 
 const ENGLISH: Record<number, ChapterDef[]> = {
+  1: [], // placeholder — English Writer
+  2: [], // placeholder — English Writer
   3: [
     g3EnglishSynonyms,
     g3EnglishAntonyms,
@@ -605,14 +620,20 @@ const ENGLISH: Record<number, ChapterDef[]> = {
     g5EnglishGrammar,
     g5EnglishWords,
   ],
+  6: [], // placeholder — English Writer
+  7: [], // placeholder — English Writer
   8: [
     g8EnglishLiterature,
     g8EnglishGrammar,
     g8EnglishWords,
   ],
+  9: [], // placeholder — English Writer
+  10: [], // placeholder — English Writer
 };
 
 const SCIENCE: Record<number, ChapterDef[]> = {
+  1: [], // placeholder — Science Writer
+  2: [], // placeholder — Science Writer
   3: [
     g3SciencePlants,
     g3ScienceAnimals,
@@ -628,12 +649,30 @@ const SCIENCE: Record<number, ChapterDef[]> = {
     g5ScienceBody,
     g5ScienceSpace,
   ],
+  6: [], // placeholder — Science Writer
+  7: [], // placeholder — Science Writer
   8: [
     g8ScienceCells,
     g8ScienceForce,
     g8ScienceMetals,
   ],
+  9: [], // placeholder — Science Writer
+  10: [], // placeholder — Science Writer
 };
+
+/** True when a chapter has at least one set with real authored MCQs (not `ch()` scaffolds). */
+export function isAuthoredChapter(chapter: ChapterDef): boolean {
+  return chapter.sets.some((s) => (s.questions?.length ?? 0) > 0);
+}
+
+export function authoredChaptersFor(subject: PrepSubject, grade: Grade): ChapterDef[] {
+  const table = subject === "maths" ? MATHS : subject === "english" ? ENGLISH : SCIENCE;
+  return (table[grade] ?? []).filter(isAuthoredChapter);
+}
+
+export function subjectHasAuthoredContent(subject: PrepSubject, grade: Grade): boolean {
+  return authoredChaptersFor(subject, grade).length > 0;
+}
 
 function pack(subject: PrepSubject, grade: Grade, chapters: ChapterDef[] | undefined): GradeSubjectPack {
   const ready = !!chapters && chapters.length > 0;
@@ -654,7 +693,10 @@ export function getPrepPack(subject: PrepSubject, grade: Grade): GradeSubjectPac
   return pack(subject, grade, table[grade]);
 }
 
+/** Grades that have ≥1 authored chapter for this subject (scaffolds alone do not count). */
 export function listReadyGrades(subject: PrepSubject): Grade[] {
   const table = subject === "maths" ? MATHS : subject === "english" ? ENGLISH : SCIENCE;
-  return Object.keys(table).map(Number) as Grade[];
+  return (Object.keys(table).map(Number) as Grade[]).filter((g) =>
+    subjectHasAuthoredContent(subject, g),
+  );
 }
