@@ -48,6 +48,9 @@ import { g7EnglishWords } from "./content/g7-english-words";
 import { g7ScienceNutrition } from "./content/g7-science-nutrition";
 import { g7ScienceHeat } from "./content/g7-science-heat";
 import { g7ScienceAcids } from "./content/g7-science-acids";
+import { g5ScienceMatter } from "./content/g5-science-matter";
+import { g5ScienceForce } from "./content/g5-science-force";
+import { g5ScienceEnvironment } from "./content/g5-science-environment";
 import { g8ScienceCells } from "./content/g8-science-cells";
 import { g8ScienceForce } from "./content/g8-science-force";
 import { g8ScienceMetals } from "./content/g8-science-metals";
@@ -706,6 +709,9 @@ const SCIENCE: Record<number, ChapterDef[]> = {
     g5SciencePlants,
     g5ScienceBody,
     g5ScienceSpace,
+    g5ScienceMatter,
+    g5ScienceForce,
+    g5ScienceEnvironment,
   ],
   6: [], // placeholder — Science Writer
   7: [
