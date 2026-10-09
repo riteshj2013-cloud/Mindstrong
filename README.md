@@ -103,7 +103,7 @@ Screenshots (mobile 430×900):
 
 A prep grade unlocks when **each** of maths, english, and science has ≥1 **authored**
 chapter (sets with real `questions[]`). Scaffold-only `ch()` entries and empty catalog
-slots (`[]` for G10 until writers land content) stay “coming soon”.
+All grades 1–10 now have authored chapter packs (empty slots reserved only if a grade is intentionally locked).
 See `gradesWithContent()` in `lib/prep/grades.ts`.
 
 ## Pictorial MCQs (SOF-style figures)
@@ -130,6 +130,10 @@ ingest-sanitized and rendered as **original in-app SVG** (no copyrighted SOF sca
 - **G6 Science** Ch1 Food & Nutrition · Ch2 Fibre to Fabric · Ch3 Sorting Materials (authored Set A/B)
 - **G8** Maths · English · Science — 9 authored chapters (24+24 each)
 - **G9** Maths (Number Systems · Polynomials · Coordinate Geometry) · English (Literature · Grammar · Writing/Vocab) · Science (Matter · Cell/Tissues · Motion) — 9 authored chapters (24+24 each; sources in `docs/sof-source/grade-9/`)
+- **G10 Maths** Ch1 Real Numbers · Ch2 Polynomials · Ch3 Pair of Linear Equations (authored Set A/B, 24+24)
+- **G10 English** Ch1 Literature · Ch2 Grammar · Ch3 Writing (authored Set A/B, 24+24)
+- **G10 Science** Ch1 Chemical Reactions · Ch2 Life Processes · Ch3 Light — Reflection & Refraction (authored Set A/B, 24+24)
+**Ready grades:** 3, 4, 5, 8, **10** (`READY_GRADES` in `lib/prep/grades.ts`).
 
 Writers: `docs/sof-source/FIGURE-SPEC.md`.
 
