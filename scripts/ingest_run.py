@@ -206,6 +206,50 @@ emit_module(OUT/"g8-science-metals.ts", "g8ScienceMetals", {
 copy_doc(8, "science-ch03-metals.md", md)
 manifest.append(("science",8,"g8ScienceMetals","g8-science-metals"))
 
+# G8 Science Ch4–6 (authored under docs/sof-source; keep in sync)
+md = (DOCS/"grade-8/science-ch04-combustion.md").read_text()
+a,b = science_sets(md, "g8-sci-combustion")
+emit_module(OUT/"g8-science-combustion.ts", "g8ScienceCombustion", {
+  "id":"combustion-flame","title":"Combustion and Flame","emoji":"🔥","blurb":"Fuels, fire and flame zones",
+  "topic":"materials","paperTopics":["materials","forces-energy"],
+}, lesson_ts("Combustion and flame", "🔥", "magnet",
+  "Combustion needs fuel, oxygen and heat. Flames have zones; fuels differ in calorific value.",
+  [("Combustible","Burns in air with heat and light","🔥"),("Ignition temp","Lowest temperature to catch fire","🌡️"),
+   ("Fire triangle","Fuel, oxygen, heat","🔺"),("Calorific value","Heat from 1 kg fuel (kJ/kg)","📏")],
+  {"prompt":"Fire needs fuel, heat and…","options":[("a","Nitrogen only"),("b","Oxygen (air)"),("c","Argon"),("d","Sand")],
+   "answerId":"b","why":"Oxygen from air completes the fire triangle."},
+  ["Know combustible fuels", "Fire triangle", "Flame zones", "Sets ready"]), a, b)
+manifest.append(("science",8,"g8ScienceCombustion","g8-science-combustion"))
+
+md = (DOCS/"grade-8/science-ch05-sound.md").read_text()
+a,b = science_sets(md, "g8-sci-sound")
+emit_module(OUT/"g8-science-sound.ts", "g8ScienceSound", {
+  "id":"sound","title":"Sound","emoji":"🔊","blurb":"Vibrations, pitch and echoes",
+  "topic":"forces-energy","paperTopics":["forces-energy","materials"],
+}, lesson_ts("Sound", "🔊", "magnet",
+  "Sound comes from vibrations and needs a medium. Amplitude is loudness; frequency is pitch.",
+  [("Vibration","To-and-fro motion makes sound","🎸"),("Amplitude","Controls loudness","📢"),
+   ("Frequency","Controls pitch (hertz)","🎵"),("Ultrasound","Above 20 kHz; SONAR and scans","🦇")],
+  {"prompt":"Pitch of a sound depends mainly on…","options":[("a","Amplitude"),("b","Frequency"),("c","Colour"),("d","Smell")],
+   "answerId":"b","why":"Higher frequency means higher pitch."},
+  ["Vibration makes sound", "Needs a medium", "Pitch vs loudness", "Sets ready"]), a, b)
+manifest.append(("science",8,"g8ScienceSound","g8-science-sound"))
+
+md = (DOCS/"grade-8/science-ch06-chemical-effects.md").read_text()
+a,b = science_sets(md, "g8-sci-chemfx")
+emit_module(OUT/"g8-science-chemfx.ts", "g8ScienceChemfx", {
+  "id":"chemical-effects","title":"Chemical Effects of Current","emoji":"⚡","blurb":"Electrolytes and electroplating",
+  "topic":"materials","paperTopics":["materials","forces-energy"],
+}, lesson_ts("Chemical effects of current", "⚡", "magnet",
+  "Some liquids conduct via ions. Current can deposit metals — that is electroplating.",
+  [("Electrolyte","Liquid that conducts via ions","🧪"),("Cathode","Negative electrode — metal deposits here","➖"),
+   ("Anode","Positive electrode","➕"),("Electroplating","Thin metal coat using current","✨")],
+  {"prompt":"In electroplating, the object to coat is the…","options":[("a","Anode"),("b","Cathode"),("c","Fuse"),("d","Insulator")],
+   "answerId":"b","why":"Metal ions deposit on the cathode."},
+  ["Ions carry current", "Chemical effects", "Electroplating uses", "Sets ready"]), a, b)
+manifest.append(("science",8,"g8ScienceChemfx","g8-science-chemfx"))
+
+
 # G8 Maths Ch1 (+ Ch2 if present)
 md = (ROOT/"sof-maths/grade-8/chapter-01-rational-numbers.md").read_text()
 a,b = maths_sets(md, "g8-maths-rational")

@@ -31,6 +31,9 @@ import { g5ScienceSpace } from "./content/g5-science-space";
 import { g8ScienceCells } from "./content/g8-science-cells";
 import { g8ScienceForce } from "./content/g8-science-force";
 import { g8ScienceMetals } from "./content/g8-science-metals";
+import { g8ScienceCombustion } from "./content/g8-science-combustion";
+import { g8ScienceSound } from "./content/g8-science-sound";
+import { g8ScienceChemfx } from "./content/g8-science-chemfx";
 import { g8MathsRationals } from "./content/g8-maths-rationals";
 import { g8MathsLinear } from "./content/g8-maths-linear";
 import { g8MathsComparing } from "./content/g8-maths-comparing";
@@ -662,6 +665,9 @@ const SCIENCE: Record<number, ChapterDef[]> = {
     g8ScienceCells,
     g8ScienceForce,
     g8ScienceMetals,
+    g8ScienceCombustion,
+    g8ScienceSound,
+    g8ScienceChemfx,
   ],
   9: [], // placeholder — Science Writer
   10: [], // placeholder — Science Writer
