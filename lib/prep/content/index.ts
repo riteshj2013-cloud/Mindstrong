@@ -27,6 +27,8 @@ export { g3EnglishGrammar } from "./g3-english-grammar";
 export { g5EnglishDetective } from "./g5-english-detective";
 export { g5EnglishGrammar } from "./g5-english-grammar";
 export { g5EnglishWords } from "./g5-english-words";
+export { g5EnglishSpoken } from "./g5-english-spoken";
+export { g5EnglishWriting } from "./g5-english-writing";
 export { g5MathsAngles } from "./g5-maths-angles";
 export { g5MathsFractions } from "./g5-maths-fractions";
 export { g5MathsLargeNumbers } from "./g5-maths-large-numbers";
