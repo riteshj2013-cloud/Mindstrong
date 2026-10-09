@@ -115,7 +115,7 @@ ingest-sanitized and rendered as **original in-app SVG** (no copyrighted SOF sca
 - **G3 Maths** Ch1 Numbers (pictorial addendum) · Ch2 Add & Subtract (authored; pictorial later) · Ch3 Multiply Basics (authored; pictorial later)
 - **G4 Maths** Ch1 Large Numbers · Ch2 Mul/Div · Ch3 Fractions (pictorial addenda) · Ch4 Measurement · Ch5 Geometry · Ch6 Data Handling
 - **G4 Science** Ch1 Food · Ch2 Matter · Ch3 Water (inline SVG) · Ch4 Plants · Ch5 Animals · Ch6 Our Body
-- **G4 English** Ch1 Reading (18) · Ch2 Grammar (16) · Ch3 Words (18) — external `visual:` SVGs inlined at ingest, with `visual_alt` / `visual_longdesc`
+- **G4 English** Ch1 Reading (18) · Ch2 Grammar (16) · Ch3 Words (18) — external `visual:` SVGs · Ch4 Kind Voices · Ch5 Writers' Desk (authored Set A/B)
 - **G5 Science** Ch1 Plants/Seeds · Ch2 Human Body · Ch3 Sun/Moon/Space (inline SVG)
 - **G5 Maths** Ch1 Large Numbers · Ch2 Shapes & Angles · Ch3 Fractions (pictorial addenda)
 - **G7 Maths** Ch1 Integers · Ch2 Simple Equations · Ch3 Lines & Angles (lesson + 24+24 each)

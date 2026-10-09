@@ -214,5 +214,17 @@
     7,
     "g7ScienceAcids",
     "g7-science-acids"
+  ],
+  [
+    "english",
+    4,
+    "g4EnglishSpoken",
+    "g4-english-spoken"
+  ],
+  [
+    "english",
+    4,
+    "g4EnglishWriting",
+    "g4-english-writing"
   ]
 ]
