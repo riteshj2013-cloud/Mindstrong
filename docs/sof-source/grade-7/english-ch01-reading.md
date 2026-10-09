@@ -48,11 +48,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   What does Mr. Fernandes mean by “You cannot hurry a root”?
 - options:
-  - A: Growth takes time and cannot be rushed
-  - B: Roots should be pulled quickly
+  - A: Roots should be pulled quickly
+  - B: Growth takes time and cannot be rushed
   - C: Gardens need no water
   - D: Bicycles damage plants
-- answer: A
+- answer: B
 - explanation: |
   He is teaching patience — plants grow at their own pace.
 
@@ -63,11 +63,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   Which detail best supports that Ananya cares about green spaces?
 - options:
-  - A: She leaves feeling the city still has green worth protecting
-  - B: She drinks chai
-  - C: Sparrows hop
+  - A: She drinks chai
+  - B: Sparrows hop
+  - C: She leaves feeling the city still has green worth protecting
   - D: It rained at night
-- answer: A
+- answer: C
 - explanation: |
   The closing feeling shows her value for urban green pockets.
 
@@ -78,11 +78,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   The word “neat” in “neat rows” most nearly means…
 - options:
-  - A: Orderly
-  - B: Messy
-  - C: Hidden
-  - D: Expensive
-- answer: A
+  - A: Messy
+  - B: Hidden
+  - C: Expensive
+  - D: Orderly
+- answer: D
 - explanation: |
   Neat rows are tidy and carefully arranged.
 
@@ -108,11 +108,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   What is the central problem described?
 - options:
-  - A: Light aimed upward wastes energy and harms wildlife
-  - B: Too many bridges
+  - A: Too many bridges
+  - B: Light aimed upward wastes energy and harms wildlife
   - C: Lack of chai shops
   - D: Missing libraries
-- answer: A
+- answer: B
 - explanation: |
   The passage focuses on light pollution and its effects.
 
@@ -123,11 +123,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   What simple fix do volunteers suggest?
 - options:
-  - A: Aim outdoor lamps at the pavement, not the sky
-  - B: Turn off all electricity forever
-  - C: Ban bicycles
+  - A: Turn off all electricity forever
+  - B: Ban bicycles
+  - C: Aim outdoor lamps at the pavement, not the sky
   - D: Plant only spinach
-- answer: A
+- answer: C
 - explanation: |
   Shielding/tilting lamps toward the ground is the suggested change.
 
@@ -138,11 +138,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   Which result followed the changes?
 - options:
-  - A: Residents saw more stars from rooftops
-  - B: Birds disappeared
-  - C: Shops closed
-  - D: Rain stopped
-- answer: A
+  - A: Birds disappeared
+  - B: Shops closed
+  - C: Rain stopped
+  - D: Residents saw more stars from rooftops
+- answer: D
 - explanation: |
   Residents reported seeing more stars once lights were adjusted.
 
@@ -168,11 +168,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   The author’s tone is best described as…
 - options:
-  - A: Hopeful and practical
-  - B: Angry and hopeless
+  - A: Angry and hopeless
+  - B: Hopeful and practical
   - C: Comic only
   - D: Indifferent
-- answer: A
+- answer: B
 - explanation: |
   The piece notes a problem but highlights simple, workable fixes.
 
@@ -183,11 +183,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   Why do fishermen prefer the ferry?
 - options:
-  - A: It leaves them closer to their nets
-  - B: It is made of gold
-  - C: It is faster than the bridge
+  - A: It is made of gold
+  - B: It is faster than the bridge
+  - C: It leaves them closer to their nets
   - D: It has no captain
-- answer: A
+- answer: C
 - explanation: |
   The passage states the ferry leaves them closer to their nets.
 
@@ -198,11 +198,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   Why do school children prefer the bridge?
 - options:
-  - A: It is faster
-  - B: It tells stories
-  - C: It polishes railings
-  - D: It catches fish
-- answer: A
+  - A: It tells stories
+  - B: It polishes railings
+  - C: It catches fish
+  - D: It is faster
+- answer: D
 - explanation: |
   Children prefer the bridge because it is faster.
 
@@ -228,11 +228,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   “A ferry is a conversation with water” is an example of…
 - options:
-  - A: Metaphor
-  - B: Literal measurement
+  - A: Literal measurement
+  - B: Metaphor
   - C: A timetable
   - D: A weather report
-- answer: A
+- answer: B
 - explanation: |
   A ferry is not literally a conversation; the image is figurative.
 
@@ -243,11 +243,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   What does the contrast between bridge and ferry mainly highlight?
 - options:
-  - A: Speed versus a slower, relational journey
-  - B: That bridges are useless
-  - C: That ferries are unsafe
+  - A: That bridges are useless
+  - B: That ferries are unsafe
+  - C: Speed versus a slower, relational journey
   - D: That children dislike water
-- answer: A
+- answer: C
 - explanation: |
   Bridge = line/speed; ferry = conversation — different relationships to travel.
 
@@ -258,11 +258,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   Which inference is best supported?
 - options:
-  - A: Ananya values both work and quiet appreciation of nature
-  - B: Ananya hates cities
-  - C: Mr. Fernandes dislikes plants
-  - D: The library banned gardens
-- answer: A
+  - A: Ananya hates cities
+  - B: Mr. Fernandes dislikes plants
+  - C: The library banned gardens
+  - D: Ananya values both work and quiet appreciation of nature
+- answer: D
 - explanation: |
   She works carefully and leaves with a quiet protective feeling.
 
@@ -288,11 +288,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   What does Captain Leela keep doing regardless of preferences?
 - options:
-  - A: Keeping the timetable and caring for the ferry
-  - B: Building a new bridge
+  - A: Building a new bridge
+  - B: Keeping the timetable and caring for the ferry
   - C: Closing the river
   - D: Arguing daily
-- answer: A
+- answer: B
 - explanation: |
   She keeps the timetable, polishes railings, and tells stories.
 
@@ -303,11 +303,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   The sparrows mainly add…
 - options:
-  - A: A lively natural detail to the scene
-  - B: A warning about danger
-  - C: A reason to leave
+  - A: A warning about danger
+  - B: A reason to leave
+  - C: A lively natural detail to the scene
   - D: A maths problem
-- answer: A
+- answer: C
 - explanation: |
   Sparrows hopping among bean poles enrich the garden atmosphere.
 
@@ -318,11 +318,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   Which cause–effect pair is accurate?
 - options:
-  - A: Shielded lamps → more visible stars
-  - B: More stars → more light pollution
-  - C: Birds confuse lamps → more chai
-  - D: Mapping blocks → fewer bridges
-- answer: A
+  - A: More stars → more light pollution
+  - B: Birds confuse lamps → more chai
+  - C: Mapping blocks → fewer bridges
+  - D: Shielded lamps → more visible stars
+- answer: D
 - explanation: |
   Adjusting lamps reduces upward glare so stars become visible again.
 
@@ -348,11 +348,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   What did Ananya plant?
 - options:
-  - A: Tomato seedlings
-  - B: Only spinach
+  - A: Only spinach
+  - B: Tomato seedlings
   - C: Bean poles made of steel
   - D: Sparrows
-- answer: A
+- answer: B
 - explanation: |
   She planted tomato seedlings in neat rows.
 
@@ -363,11 +363,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   The phrase “reopen a window to the night” suggests…
 - options:
-  - A: Restoring access to a dark, starry sky
-  - B: Building glass windows
-  - C: Closing shops
+  - A: Building glass windows
+  - B: Closing shops
+  - C: Restoring access to a dark, starry sky
   - D: Stopping rain
-- answer: A
+- answer: C
 - explanation: |
   It figuratively means people can see the night sky again.
 
@@ -378,11 +378,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   Which theme fits best?
 - options:
-  - A: Different journeys can serve different needs
-  - B: Speed is the only value
-  - C: Stories are useless
-  - D: Bridges erase rivers
-- answer: A
+  - A: Speed is the only value
+  - B: Stories are useless
+  - C: Bridges erase rivers
+  - D: Different journeys can serve different needs
+- answer: D
 - explanation: |
   Fishermen and children choose differently; both needs coexist.
 
@@ -410,11 +410,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   Mr. Fernandes’s role in the garden is mainly to…
 - options:
-  - A: Water the spinach and share wisdom
-  - B: Sell bicycles
+  - A: Sell bicycles
+  - B: Water the spinach and share wisdom
   - C: Close the library
   - D: Chase sparrows
-- answer: A
+- answer: B
 - explanation: |
   He waters spinach and remarks on patience.
 
@@ -425,11 +425,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   What makes the soil “dark and soft”?
 - options:
-  - A: The night’s rain
-  - B: Chai spills
-  - C: Steel flasks
+  - A: Chai spills
+  - B: Steel flasks
+  - C: The night’s rain
   - D: Bean poles
-- answer: A
+- answer: C
 - explanation: |
   The soil was dark and soft after the night’s rain.
 
@@ -440,11 +440,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   Light pollution wastes electricity when lamps…
 - options:
-  - A: Shine upward uselessly
-  - B: Are shielded toward the ground
-  - C: Are turned off
-  - D: Use timers correctly
-- answer: A
+  - A: Are shielded toward the ground
+  - B: Are turned off
+  - C: Use timers correctly
+  - D: Shine upward uselessly
+- answer: D
 - explanation: |
   Upward-shining streetlights waste electricity.
 
@@ -470,11 +470,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   The passage suggests change is possible because…
 - options:
-  - A: Fixes are often simple and local
-  - B: Stars cannot return
+  - A: Stars cannot return
+  - B: Fixes are often simple and local
   - C: Only new laws abroad work
   - D: Mapping is impossible
-- answer: A
+- answer: B
 - explanation: |
   Simple lamp adjustments multiplied across a neighbourhood help.
 
@@ -485,11 +485,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   “A bridge is a line” most nearly suggests the bridge is…
 - options:
-  - A: A direct, efficient path
-  - B: A talking captain
-  - C: A fishing net
+  - A: A talking captain
+  - B: A fishing net
+  - C: A direct, efficient path
   - D: A muddy garden
-- answer: A
+- answer: C
 - explanation: |
   Compared with the ferry’s “conversation,” a line implies straight efficiency.
 
@@ -500,11 +500,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   When does the ferry cross?
 - options:
-  - A: At dawn
-  - B: Only at midnight
-  - C: Never
-  - D: After the library closes
-- answer: A
+  - A: Only at midnight
+  - B: Never
+  - C: After the library closes
+  - D: At dawn
+- answer: D
 - explanation: |
   The old ferry still crossed the river at dawn.
 
@@ -530,11 +530,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   Ananya arrives by…
 - options:
-  - A: Bicycle
-  - B: Ferry
+  - A: Ferry
+  - B: Bicycle
   - C: Bridge only
   - D: Submarine
-- answer: A
+- answer: B
 - explanation: |
   She wheeled her bicycle to the garden.
 
@@ -545,11 +545,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   Which audience is the passage most trying to persuade?
 - options:
-  - A: City residents and shop owners who can adjust lights
-  - B: Only deep-sea divers
-  - C: People without electricity
+  - A: Only deep-sea divers
+  - B: People without electricity
+  - C: City residents and shop owners who can adjust lights
   - D: Ferry passengers only
-- answer: A
+- answer: C
 - explanation: |
   It asks shops to tilt lamps and notes neighbourhood habits.
 
@@ -560,11 +560,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   Which statement is an opinion expressed in the passage?
 - options:
-  - A: Plants teach patience
-  - B: Ananya planted tomatoes
-  - C: It rained at night
-  - D: They shared chai
-- answer: A
+  - A: Ananya planted tomatoes
+  - B: It rained at night
+  - C: They shared chai
+  - D: Plants teach patience
+- answer: D
 - explanation: |
   “Plants teach patience” is a spoken judgment, not a measurable fact.
 
@@ -590,11 +590,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   What remains true despite the new bridge?
 - options:
-  - A: The ferry still runs at dawn
-  - B: Fishermen hate nets
+  - A: Fishermen hate nets
+  - B: The ferry still runs at dawn
   - C: Children fear bridges
   - D: The river disappeared
-- answer: A
+- answer: B
 - explanation: |
   Though a bridge stood nearby, the ferry still crossed at dawn.
 
@@ -605,11 +605,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   The steel flask mainly shows…
 - options:
-  - A: A realistic detail of their shared break
-  - B: That metal grows tomatoes
-  - C: A safety warning
+  - A: That metal grows tomatoes
+  - B: A safety warning
+  - C: A realistic detail of their shared break
   - D: A bus ticket
-- answer: A
+- answer: C
 - explanation: |
   They share chai from a steel flask — a concrete scene detail.
 
@@ -620,11 +620,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   Which title best fits the passage?
 - options:
-  - A: Reclaiming the Night Sky
-  - B: How to Build a Bridge
-  - C: Tomato Tips
-  - D: Ferry Timetables
-- answer: A
+  - A: How to Build a Bridge
+  - B: Tomato Tips
+  - C: Ferry Timetables
+  - D: Reclaiming the Night Sky
+- answer: D
 - explanation: |
   The focus is reducing light pollution to see stars again.
 
@@ -650,11 +650,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   Sequence: which happens last?
 - options:
-  - A: Ananya leaves with muddy shoes
-  - B: Night rain
+  - A: Night rain
+  - B: Ananya leaves with muddy shoes
   - C: Planting seedlings
   - D: Sharing chai
-- answer: A
+- answer: B
 - explanation: |
   Leaving with muddy shoes closes the scene.
 
@@ -665,11 +665,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   Which evidence shows the problem can reverse quickly?
 - options:
-  - A: Residents saw more stars within weeks
-  - B: Birds never migrate
-  - C: Lamps cannot tilt
+  - A: Birds never migrate
+  - B: Lamps cannot tilt
+  - C: Residents saw more stars within weeks
   - D: Mapping takes centuries
-- answer: A
+- answer: C
 - explanation: |
   Within weeks, more stars were visible after adjustments.
 
@@ -680,11 +680,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   The author’s purpose is mainly to…
 - options:
-  - A: Show how different crossings serve different human needs
-  - B: Teach multiplication
-  - C: Ban ferries
-  - D: Sell bridges
-- answer: A
+  - A: Teach multiplication
+  - B: Ban ferries
+  - C: Sell bridges
+  - D: Show how different crossings serve different human needs
+- answer: D
 - explanation: |
   The piece contrasts bridge and ferry without declaring one worthless.
 
@@ -710,11 +710,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   Asking shops to shield lamps is an example of…
 - options:
-  - A: Community action
-  - B: Ignoring the problem
+  - A: Ignoring the problem
+  - B: Community action
   - C: Increasing glare
   - D: Closing the night sky
-- answer: A
+- answer: B
 - explanation: |
   Volunteers engage local shops — grassroots action.
 
@@ -725,11 +725,11 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   Which contrast is central?
 - options:
-  - A: Ferry vs bridge
-  - B: Tomato vs spinach
-  - C: Stars vs sparrows
+  - A: Tomato vs spinach
+  - B: Stars vs sparrows
+  - C: Ferry vs bridge
   - D: Rain vs chai
-- answer: A
+- answer: C
 - explanation: |
   The passage turns on two ways of crossing the river.
 
@@ -740,10 +740,10 @@ The old ferry still crossed the river at dawn, though a new bridge stood nearby.
   
   Best summary?
 - options:
-  - A: Ananya and a neighbour tend a city garden and value patient green spaces
-  - B: Ananya builds a bridge
-  - C: Volunteers map streetlights
-  - D: A captain polishes railings
-- answer: A
+  - A: Ananya builds a bridge
+  - B: Volunteers map streetlights
+  - C: A captain polishes railings
+  - D: Ananya and a neighbour tend a city garden and value patient green spaces
+- answer: D
 - explanation: |
   Summary must cover garden work and the protective feeling.

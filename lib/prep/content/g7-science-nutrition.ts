@@ -20,12 +20,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-nutrition-a-q02",
     prompt: "The process by which green plants make food is\u2026",
     options: [
-      { id: "a", text: "Photosynthesis" },
-      { id: "b", text: "Respiration only" },
+      { id: "a", text: "Respiration only" },
+      { id: "b", text: "Photosynthesis" },
       { id: "c", text: "Transpiration only" },
       { id: "d", text: "Digestion" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Photosynthesis uses light to make food.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -33,12 +33,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-nutrition-a-q03",
     prompt: "Which gas do plants take in for photosynthesis?",
     options: [
-      { id: "a", text: "Carbon dioxide" },
-      { id: "b", text: "Nitrogen only" },
-      { id: "c", text: "Ozone" },
+      { id: "a", text: "Nitrogen only" },
+      { id: "b", text: "Ozone" },
+      { id: "c", text: "Carbon dioxide" },
       { id: "d", text: "Helium" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "CO\u2082 is a raw material for photosynthesis.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-nutrition-a-q04",
     prompt: "Which gas is released as a by-product of photosynthesis?",
     options: [
-      { id: "a", text: "Oxygen" },
-      { id: "b", text: "Nitrogen" },
-      { id: "c", text: "Carbon monoxide" },
-      { id: "d", text: "Argon" }
+      { id: "a", text: "Nitrogen" },
+      { id: "b", text: "Carbon monoxide" },
+      { id: "c", text: "Argon" },
+      { id: "d", text: "Oxygen" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Oxygen is liberated when plants photosynthesise.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -72,12 +72,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-nutrition-a-q06",
     prompt: "Where does photosynthesis mainly occur in a leaf?",
     options: [
-      { id: "a", text: "Chloroplasts" },
-      { id: "b", text: "Mitochondria only" },
+      { id: "a", text: "Mitochondria only" },
+      { id: "b", text: "Chloroplasts" },
       { id: "c", text: "Nucleus only" },
       { id: "d", text: "Cell wall only" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Chloroplasts contain chlorophyll for photosynthesis.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -85,12 +85,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-nutrition-a-q07",
     prompt: "Organisms that depend on others for food are\u2026",
     options: [
-      { id: "a", text: "Heterotrophs" },
-      { id: "b", text: "Autotrophs" },
-      { id: "c", text: "Producers only" },
+      { id: "a", text: "Autotrophs" },
+      { id: "b", text: "Producers only" },
+      { id: "c", text: "Heterotrophs" },
       { id: "d", text: "Chemosynthesisers only" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Heterotrophs cannot make food; they consume it.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -98,12 +98,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-nutrition-a-q08",
     prompt: "Fungi that feed on dead matter are\u2026",
     options: [
-      { id: "a", text: "Saprotrophs" },
-      { id: "b", text: "Parasites" },
-      { id: "c", text: "Autotrophs" },
-      { id: "d", text: "Herbivores" }
+      { id: "a", text: "Parasites" },
+      { id: "b", text: "Autotrophs" },
+      { id: "c", text: "Herbivores" },
+      { id: "d", text: "Saprotrophs" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Saprotrophs secrete enzymes on dead organic matter and absorb nutrients.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -124,12 +124,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-nutrition-a-q10",
     prompt: "Insectivorous plants like pitcher plant mainly capture insects to obtain\u2026",
     options: [
-      { id: "a", text: "Nitrogen nutrients" },
-      { id: "b", text: "Only sunlight" },
+      { id: "a", text: "Only sunlight" },
+      { id: "b", text: "Nitrogen nutrients" },
       { id: "c", text: "Only carbon dioxide" },
       { id: "d", text: "Only water vapour" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "They grow in nitrogen-poor soil and get nitrogen from insects.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-nutrition-a-q11",
     prompt: "Stomata on leaves mainly help in\u2026",
     options: [
-      { id: "a", text: "Gas exchange" },
-      { id: "b", text: "Making bones" },
-      { id: "c", text: "Pumping blood" },
+      { id: "a", text: "Making bones" },
+      { id: "b", text: "Pumping blood" },
+      { id: "c", text: "Gas exchange" },
       { id: "d", text: "Hearing sound" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Stomata allow CO\u2082 in and O\u2082/water vapour out.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-nutrition-a-q12",
     prompt: "Animals that eat only plants are\u2026",
     options: [
-      { id: "a", text: "Herbivores" },
-      { id: "b", text: "Carnivores" },
-      { id: "c", text: "Omnivores" },
-      { id: "d", text: "Parasites" }
+      { id: "a", text: "Carnivores" },
+      { id: "b", text: "Omnivores" },
+      { id: "c", text: "Parasites" },
+      { id: "d", text: "Herbivores" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Herbivores feed on plants.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -176,12 +176,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-nutrition-a-q14",
     prompt: "The first step of nutrition in animals is usually\u2026",
     options: [
-      { id: "a", text: "Ingestion" },
-      { id: "b", text: "Egestion" },
+      { id: "a", text: "Egestion" },
+      { id: "b", text: "Ingestion" },
       { id: "c", text: "Photosynthesis" },
       { id: "d", text: "Transpiration" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Ingestion means taking in food.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-nutrition-a-q15",
     prompt: "In humans, protein digestion begins mainly in the\u2026",
     options: [
-      { id: "a", text: "Stomach" },
-      { id: "b", text: "Mouth only" },
-      { id: "c", text: "Large intestine only" },
+      { id: "a", text: "Mouth only" },
+      { id: "b", text: "Large intestine only" },
+      { id: "c", text: "Stomach" },
       { id: "d", text: "Nose" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Gastric juices in the stomach start protein digestion.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-nutrition-a-q16",
     prompt: "Bile produced by the liver helps mainly to\u2026",
     options: [
-      { id: "a", text: "Emulsify fats" },
-      { id: "b", text: "Digest starch in the mouth" },
-      { id: "c", text: "Absorb oxygen" },
-      { id: "d", text: "Make chlorophyll" }
+      { id: "a", text: "Digest starch in the mouth" },
+      { id: "b", text: "Absorb oxygen" },
+      { id: "c", text: "Make chlorophyll" },
+      { id: "d", text: "Emulsify fats" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Bile emulsifies fats for easier digestion.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -228,12 +228,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-nutrition-a-q18",
     prompt: "Carbohydrates are mainly used by the body for\u2026",
     options: [
-      { id: "a", text: "Energy" },
-      { id: "b", text: "Only building bones" },
+      { id: "a", text: "Only building bones" },
+      { id: "b", text: "Energy" },
       { id: "c", text: "Only carrying oxygen in leaves" },
       { id: "d", text: "Insulation alone" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Carbohydrates are a primary energy source.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -241,12 +241,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-nutrition-a-q19",
     prompt: "Iodine deficiency can lead to\u2026",
     options: [
-      { id: "a", text: "Goitre" },
-      { id: "b", text: "Scurvy" },
-      { id: "c", text: "Rickets only" },
+      { id: "a", text: "Scurvy" },
+      { id: "b", text: "Rickets only" },
+      { id: "c", text: "Goitre" },
       { id: "d", text: "Night blindness only" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Lack of iodine affects the thyroid and can cause goitre.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -254,12 +254,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-nutrition-a-q20",
     prompt: "Vitamin C deficiency causes\u2026",
     options: [
-      { id: "a", text: "Scurvy" },
-      { id: "b", text: "Goitre" },
-      { id: "c", text: "Beriberi only" },
-      { id: "d", text: "Anaemia from iron only" }
+      { id: "a", text: "Goitre" },
+      { id: "b", text: "Beriberi only" },
+      { id: "c", text: "Anaemia from iron only" },
+      { id: "d", text: "Scurvy" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Scurvy is linked to lack of vitamin C.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -280,12 +280,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-nutrition-a-q22",
     prompt: "Rumination in cows involves\u2026",
     options: [
-      { id: "a", text: "Bringing back partly chewed food to chew again" },
-      { id: "b", text: "Photosynthesis in the stomach" },
+      { id: "a", text: "Photosynthesis in the stomach" },
+      { id: "b", text: "Bringing back partly chewed food to chew again" },
       { id: "c", text: "Breathing underwater" },
       { id: "d", text: "Making nectar" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Ruminants chew the cud.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -293,12 +293,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-nutrition-a-q23",
     prompt: "Amoeba takes in food using\u2026",
     options: [
-      { id: "a", text: "Pseudopodia" },
-      { id: "b", text: "Teeth" },
-      { id: "c", text: "Stomata" },
+      { id: "a", text: "Teeth" },
+      { id: "b", text: "Stomata" },
+      { id: "c", text: "Pseudopodia" },
       { id: "d", text: "Gills" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Pseudopodia surround food to form a food vacuole.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -306,12 +306,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-nutrition-a-q24",
     prompt: "Which is a symbiotic nutrition example?",
     options: [
-      { id: "a", text: "Lichen (alga + fungus)" },
-      { id: "b", text: "Tiger hunting deer" },
-      { id: "c", text: "Mushroom on dead log only" },
-      { id: "d", text: "Cuscuta on host only" }
+      { id: "a", text: "Tiger hunting deer" },
+      { id: "b", text: "Mushroom on dead log only" },
+      { id: "c", text: "Cuscuta on host only" },
+      { id: "d", text: "Lichen (alga + fungus)" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "In lichens, alga and fungus live together with mutual benefit.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
@@ -335,12 +335,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-nutrition-b-q02",
     prompt: "The site of photosynthesis in plant cells is the\u2026",
     options: [
-      { id: "a", text: "Chloroplast" },
-      { id: "b", text: "Ribosome" },
+      { id: "a", text: "Ribosome" },
+      { id: "b", text: "Chloroplast" },
       { id: "c", text: "Vacuole only" },
       { id: "d", text: "Cell wall" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Chloroplasts house the photosynthetic machinery.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-nutrition-b-q03",
     prompt: "Heterotrophic nutrition means\u2026",
     options: [
-      { id: "a", text: "Depending on other organisms for food" },
-      { id: "b", text: "Making food with sunlight only" },
-      { id: "c", text: "Living without energy" },
+      { id: "a", text: "Making food with sunlight only" },
+      { id: "b", text: "Living without energy" },
+      { id: "c", text: "Depending on other organisms for food" },
       { id: "d", text: "Breathing nitrogen only" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Heterotrophs obtain ready-made food.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-nutrition-b-q04",
     prompt: "Pitcher plant is green, yet it traps insects mainly because\u2026",
     options: [
-      { id: "a", text: "Soil lacks enough nitrogen" },
-      { id: "b", text: "It cannot photosynthesise at all" },
-      { id: "c", text: "It needs no water" },
-      { id: "d", text: "It is a fungus" }
+      { id: "a", text: "It cannot photosynthesise at all" },
+      { id: "b", text: "It needs no water" },
+      { id: "c", text: "It is a fungus" },
+      { id: "d", text: "Soil lacks enough nitrogen" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "It still photosynthesises but supplements nitrogen from insects.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-nutrition-b-q06",
     prompt: "Starch in leaves can be tested with\u2026",
     options: [
-      { id: "a", text: "Iodine solution" },
-      { id: "b", text: "Limewater only" },
+      { id: "a", text: "Limewater only" },
+      { id: "b", text: "Iodine solution" },
       { id: "c", text: "Phenolphthalein only" },
       { id: "d", text: "Copper sulphate only for starch" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Iodine turns blue-black with starch.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-nutrition-b-q07",
     prompt: "Parasitic nutrition harms the\u2026",
     options: [
-      { id: "a", text: "Host" },
-      { id: "b", text: "Only the parasite never" },
-      { id: "c", text: "Soil only" },
+      { id: "a", text: "Only the parasite never" },
+      { id: "b", text: "Soil only" },
+      { id: "c", text: "Host" },
       { id: "d", text: "Sun only" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Parasites derive nutrition from a living host, often harming it.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-nutrition-b-q08",
     prompt: "In human digestion, starch digestion begins in the\u2026",
     options: [
-      { id: "a", text: "Mouth" },
-      { id: "b", text: "Stomach only" },
-      { id: "c", text: "Large intestine" },
-      { id: "d", text: "Liver" }
+      { id: "a", text: "Stomach only" },
+      { id: "b", text: "Large intestine" },
+      { id: "c", text: "Liver" },
+      { id: "d", text: "Mouth" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Salivary amylase starts breaking down starch.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -439,12 +439,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-nutrition-b-q10",
     prompt: "Proteins are broken down into\u2026",
     options: [
-      { id: "a", text: "Amino acids" },
-      { id: "b", text: "Glucose only" },
+      { id: "a", text: "Glucose only" },
+      { id: "b", text: "Amino acids" },
       { id: "c", text: "Fatty acids only" },
       { id: "d", text: "Vitamins" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Proteins digest to amino acids.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -452,12 +452,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-nutrition-b-q11",
     prompt: "Fats are broken down into\u2026",
     options: [
-      { id: "a", text: "Fatty acids and glycerol" },
-      { id: "b", text: "Amino acids" },
-      { id: "c", text: "Glucose only" },
+      { id: "a", text: "Amino acids" },
+      { id: "b", text: "Glucose only" },
+      { id: "c", text: "Fatty acids and glycerol" },
       { id: "d", text: "Starch" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Fat digestion yields fatty acids and glycerol.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -465,12 +465,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-nutrition-b-q12",
     prompt: "A balanced diet should include\u2026",
     options: [
-      { id: "a", text: "Carbohydrates, proteins, fats, vitamins, minerals, fibre and water" },
-      { id: "b", text: "Only sugar" },
-      { id: "c", text: "Only fat" },
-      { id: "d", text: "Only vitamins" }
+      { id: "a", text: "Only sugar" },
+      { id: "b", text: "Only fat" },
+      { id: "c", text: "Only vitamins" },
+      { id: "d", text: "Carbohydrates, proteins, fats, vitamins, minerals, fibre and water" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "All nutrient classes matter in balance.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -491,12 +491,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-nutrition-b-q14",
     prompt: "Rickets is associated with deficiency of\u2026",
     options: [
-      { id: "a", text: "Vitamin D (and related calcium issues)" },
-      { id: "b", text: "Vitamin C only" },
+      { id: "a", text: "Vitamin C only" },
+      { id: "b", text: "Vitamin D (and related calcium issues)" },
       { id: "c", text: "Iodine only" },
       { id: "d", text: "Vitamin K only as sole cause named here" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Vitamin D helps calcium use for bones; deficiency relates to rickets.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -504,12 +504,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-nutrition-b-q15",
     prompt: "Decomposers in a food chain\u2026",
     options: [
-      { id: "a", text: "Break down dead matter and recycle nutrients" },
-      { id: "b", text: "Make food from sunlight" },
-      { id: "c", text: "Only eat living lions" },
+      { id: "a", text: "Make food from sunlight" },
+      { id: "b", text: "Only eat living lions" },
+      { id: "c", text: "Break down dead matter and recycle nutrients" },
       { id: "d", text: "Stop all cycles" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Bacteria and fungi recycle materials.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -517,12 +517,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-nutrition-b-q16",
     prompt: "Holozoic nutrition involves\u2026",
     options: [
-      { id: "a", text: "Ingesting and digesting solid food internally" },
-      { id: "b", text: "Absorbing only from dead logs as fungi do" },
-      { id: "c", text: "Photosynthesis" },
-      { id: "d", text: "Parasitism only" }
+      { id: "a", text: "Absorbing only from dead logs as fungi do" },
+      { id: "b", text: "Photosynthesis" },
+      { id: "c", text: "Parasitism only" },
+      { id: "d", text: "Ingesting and digesting solid food internally" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Humans and many animals show holozoic nutrition.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -543,12 +543,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-nutrition-b-q18",
     prompt: "Leaves appear green because chlorophyll\u2026",
     options: [
-      { id: "a", text: "Reflects green light more than it absorbs it" },
-      { id: "b", text: "Produces green paint" },
+      { id: "a", text: "Produces green paint" },
+      { id: "b", text: "Reflects green light more than it absorbs it" },
       { id: "c", text: "Absorbs only green and reflects all else always wrongly stated" },
       { id: "d", text: "Turns into iodine" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Chlorophyll absorbs other wavelengths more and reflects green.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -556,12 +556,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-nutrition-b-q19",
     prompt: "A food web is\u2026",
     options: [
-      { id: "a", text: "Many interlinked food chains" },
-      { id: "b", text: "A single straight chain only" },
-      { id: "c", text: "Only producers" },
+      { id: "a", text: "A single straight chain only" },
+      { id: "b", text: "Only producers" },
+      { id: "c", text: "Many interlinked food chains" },
       { id: "d", text: "A vitamin chart" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Real ecosystems have interconnected chains forming webs.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -569,12 +569,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-nutrition-b-q20",
     prompt: "Saliva contains an enzyme that acts on\u2026",
     options: [
-      { id: "a", text: "Starch" },
-      { id: "b", text: "Fats only" },
-      { id: "c", text: "Proteins only" },
-      { id: "d", text: "Vitamins" }
+      { id: "a", text: "Fats only" },
+      { id: "b", text: "Proteins only" },
+      { id: "c", text: "Vitamins" },
+      { id: "d", text: "Starch" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Salivary amylase acts on starch.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -595,12 +595,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-nutrition-b-q22",
     prompt: "Food (sugar) is transported in plants mainly through\u2026",
     options: [
-      { id: "a", text: "Phloem" },
-      { id: "b", text: "Xylem only" },
+      { id: "a", text: "Xylem only" },
+      { id: "b", text: "Phloem" },
       { id: "c", text: "Stomata only" },
       { id: "d", text: "Root hairs only" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Phloem transports food.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -608,12 +608,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-nutrition-b-q23",
     prompt: "Which mode of nutrition does a mushroom show?",
     options: [
-      { id: "a", text: "Saprotrophic" },
-      { id: "b", text: "Autotrophic photosynthesis like leaves" },
-      { id: "c", text: "Holozoic chewing" },
+      { id: "a", text: "Autotrophic photosynthesis like leaves" },
+      { id: "b", text: "Holozoic chewing" },
+      { id: "c", text: "Saprotrophic" },
       { id: "d", text: "Parasitic on sunlight" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Mushrooms feed on dead organic matter.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -621,12 +621,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-nutrition-b-q24",
     prompt: "Why are green plants called producers?",
     options: [
-      { id: "a", text: "They produce food that supports other organisms" },
-      { id: "b", text: "They produce only oxygen for sale" },
-      { id: "c", text: "They produce soil rocks" },
-      { id: "d", text: "They produce consumers" }
+      { id: "a", text: "They produce only oxygen for sale" },
+      { id: "b", text: "They produce soil rocks" },
+      { id: "c", text: "They produce consumers" },
+      { id: "d", text: "They produce food that supports other organisms" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Producers synthesise organic food from inorganic materials.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }

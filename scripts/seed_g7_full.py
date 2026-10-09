@@ -35,6 +35,61 @@ def Q(stem, opts, ans, expl, hint):
     }
 
 
+def balance_set(qs: list[dict]) -> list[dict]:
+    """Rotate option order so a 24-item set is exactly 6A/6B/6C/6D.
+
+    Preserves which option *text* is correct; only changes slot + answer letter.
+    """
+    letters = "ABCD"
+    out = []
+    for i, q in enumerate(qs):
+        target = letters[i % 4]
+        opts = list(q["options"])
+        ans_i = letters.index(q["answer"])
+        correct = opts[ans_i]
+        rest = [opts[j] for j in range(4) if j != ans_i]
+        new_opts = [None] * 4
+        ti = letters.index(target)
+        new_opts[ti] = correct
+        r = 0
+        for j in range(4):
+            if new_opts[j] is None:
+                new_opts[j] = rest[r]
+                r += 1
+        out.append({**q, "options": new_opts, "answer": target})
+    counts = {L: sum(1 for q in out if q["answer"] == L) for L in letters}
+    if counts != {L: 6 for L in letters}:
+        raise SystemExit("balance_set failed: %s" % counts)
+    return out
+
+
+def place_try_answer(try_q: dict, target: str) -> dict:
+    """Move lesson try-q correct option to target letter (a/b/c/d)."""
+    target = target.lower()
+    assert target in "abcd"
+    opts = list(try_q["options"])  # list of (id, text)
+    ans = try_q["answerId"].lower()
+    # normalize to texts in a-d order
+    by_id = {oid: text for oid, text in opts}
+    ordered = [by_id[L] for L in "abcd"]
+    ans_i = "abcd".index(ans)
+    correct = ordered[ans_i]
+    rest = [ordered[j] for j in range(4) if j != ans_i]
+    new_texts = [None] * 4
+    ti = "abcd".index(target)
+    new_texts[ti] = correct
+    r = 0
+    for j in range(4):
+        if new_texts[j] is None:
+            new_texts[j] = rest[r]
+            r += 1
+    return {
+        **try_q,
+        "options": [(L, new_texts[i]) for i, L in enumerate("abcd")],
+        "answerId": target,
+    }
+
+
 def to_items(qs, prefix, set_letter, default_hints):
     out = []
     for i, q in enumerate(qs, 1):
@@ -1988,20 +2043,22 @@ def main():
         ),
     ]
 
-    for ch in maths_chapters:
+    for mi, ch in enumerate(maths_chapters):
         a_raw, b_raw = ch["bank"]()
         assert len(a_raw) == 24 and len(b_raw) == 24, ch["prefix"]
+        a_raw, b_raw = balance_set(a_raw), balance_set(b_raw)
         write_maths_md(DOCS_G7 / ch["doc"], ch["meta"]["title"], ch["prefix"], ch["lesson_steps"], a_raw, b_raw)
         a = to_items(a_raw, ch["prefix"], "a", default_maths_hints)
         b = to_items(b_raw, ch["prefix"], "b", default_maths_hints)
         maths_hint_items.extend(a + b)
+        try_q = place_try_answer(ch["try_q"], "abcd"[mi % 4])
         lesson = lesson_ts(
             ch["meta"]["title"],
             ch["meta"]["emoji"],
             ch["visual"],
             ch["speak"],
             ch["cards"],
-            ch["try_q"],
+            try_q,
             ch["bullets"],
         )
         emit_module(OUT / ch["file"], ch["export"], ch["meta"], lesson, a, b)
@@ -2126,9 +2183,10 @@ def main():
         ),
     ]
 
-    for ch in eng_chapters:
+    for ei, ch in enumerate(eng_chapters):
         a_raw, b_raw = ch["bank"]()
         assert len(a_raw) == 24 and len(b_raw) == 24, ch["prefix"]
+        a_raw, b_raw = balance_set(a_raw), balance_set(b_raw)
         write_english_md(
             DOCS_G7 / ch["doc"],
             ch["meta"]["title"],
@@ -2141,13 +2199,14 @@ def main():
         a = to_items(a_raw, ch["prefix"], "a", default_eng_hints)
         b = to_items(b_raw, ch["prefix"], "b", default_eng_hints)
         eng_hint_items.extend(a + b)
+        try_q = place_try_answer(ch["try_q"], "abcd"[ei % 4])
         lesson = lesson_ts(
             ch["meta"]["title"],
             ch["meta"]["emoji"],
             ch["visual"],
             ch["speak"],
             ch["cards"],
-            ch["try_q"],
+            try_q,
             ch["bullets"],
         )
         emit_module(OUT / ch["file"], ch["export"], ch["meta"], lesson, a, b)
@@ -2264,20 +2323,22 @@ def main():
         ),
     ]
 
-    for ch in sci_chapters:
+    for si, ch in enumerate(sci_chapters):
         a_raw, b_raw = ch["bank"]()
         assert len(a_raw) == 24 and len(b_raw) == 24, ch["prefix"]
+        a_raw, b_raw = balance_set(a_raw), balance_set(b_raw)
         write_science_md(DOCS_G7 / ch["doc"], ch["meta"]["title"], ch["prefix"], ch["lesson_steps"], a_raw, b_raw)
         a = to_items(a_raw, ch["prefix"], "a", default_sci_hints)
         b = to_items(b_raw, ch["prefix"], "b", default_sci_hints)
         sci_hint_items.extend(a + b)
+        try_q = place_try_answer(ch["try_q"], "abcd"[si % 4])
         lesson = lesson_ts(
             ch["meta"]["title"],
             ch["meta"]["emoji"],
             ch["visual"],
             ch["speak"],
             ch["cards"],
-            ch["try_q"],
+            try_q,
             ch["bullets"],
         )
         emit_module(OUT / ch["file"], ch["export"], ch["meta"], lesson, a, b)

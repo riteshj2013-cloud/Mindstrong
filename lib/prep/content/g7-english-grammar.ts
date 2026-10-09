@@ -20,12 +20,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-grammar-a-q02",
     prompt: "Identify the noun: The curiosity of the child surprised us.",
     options: [
-      { id: "a", text: "curiosity" },
-      { id: "b", text: "surprised" },
+      { id: "a", text: "surprised" },
+      { id: "b", text: "curiosity" },
       { id: "c", text: "us" },
       { id: "d", text: "of" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Curiosity names an idea \u2014 a noun.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -33,12 +33,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-grammar-a-q03",
     prompt: "Which word is an adjective in \u201cThe quiet library calmed Mira\u201d?",
     options: [
-      { id: "a", text: "quiet" },
-      { id: "b", text: "library" },
-      { id: "c", text: "calmed" },
+      { id: "a", text: "library" },
+      { id: "b", text: "calmed" },
+      { id: "c", text: "quiet" },
       { id: "d", text: "Mira" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Quiet describes the library.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-grammar-a-q04",
     prompt: "Choose the correct pronoun: ____ are waiting outside.",
     options: [
-      { id: "a", text: "They" },
-      { id: "b", text: "Them" },
-      { id: "c", text: "Their" },
-      { id: "d", text: "Theirs" }
+      { id: "a", text: "Them" },
+      { id: "b", text: "Their" },
+      { id: "c", text: "Theirs" },
+      { id: "d", text: "They" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Subject pronoun They is needed.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -72,12 +72,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-grammar-a-q06",
     prompt: "Correct article: She bought ____ umbrella.",
     options: [
-      { id: "a", text: "an" },
-      { id: "b", text: "a" },
+      { id: "a", text: "a" },
+      { id: "b", text: "an" },
       { id: "c", text: "the only if unique always" },
       { id: "d", text: "no article possible" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Umbrella begins with a vowel sound \u2192 an.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -85,12 +85,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-grammar-a-q07",
     prompt: "Choose the correct tense: Yesterday we ____ a film.",
     options: [
-      { id: "a", text: "watched" },
-      { id: "b", text: "watch" },
-      { id: "c", text: "watching" },
+      { id: "a", text: "watch" },
+      { id: "b", text: "watching" },
+      { id: "c", text: "watched" },
       { id: "d", text: "watches" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Yesterday signals past tense.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -98,12 +98,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-grammar-a-q08",
     prompt: "Identify the preposition: The cat slept under the table.",
     options: [
-      { id: "a", text: "under" },
-      { id: "b", text: "cat" },
-      { id: "c", text: "slept" },
-      { id: "d", text: "table" }
+      { id: "a", text: "cat" },
+      { id: "b", text: "slept" },
+      { id: "c", text: "table" },
+      { id: "d", text: "under" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Under shows position.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -124,12 +124,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-grammar-a-q10",
     prompt: "Choose the conjunction: I stayed indoors ____ it was raining.",
     options: [
-      { id: "a", text: "because" },
-      { id: "b", text: "but only as contrast without cause" },
+      { id: "a", text: "but only as contrast without cause" },
+      { id: "b", text: "because" },
       { id: "c", text: "or" },
       { id: "d", text: "nor" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Because shows cause.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-grammar-a-q11",
     prompt: "Correct form: Neither of the answers ____ correct.",
     options: [
-      { id: "a", text: "is" },
-      { id: "b", text: "are" },
-      { id: "c", text: "were being" },
+      { id: "a", text: "are" },
+      { id: "b", text: "were being" },
+      { id: "c", text: "is" },
       { id: "d", text: "have" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Neither is singular \u2192 is.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-grammar-a-q12",
     prompt: "Identify the direct object: Riya wrote a letter.",
     options: [
-      { id: "a", text: "letter" },
-      { id: "b", text: "Riya" },
-      { id: "c", text: "wrote" },
-      { id: "d", text: "a" }
+      { id: "a", text: "Riya" },
+      { id: "b", text: "wrote" },
+      { id: "c", text: "a" },
+      { id: "d", text: "letter" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Letter receives the action of wrote.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -176,12 +176,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-grammar-a-q14",
     prompt: "Which is a complex sentence?",
     options: [
-      { id: "a", text: "Although it rained, we played." },
-      { id: "b", text: "We played." },
+      { id: "a", text: "We played." },
+      { id: "b", text: "Although it rained, we played." },
       { id: "c", text: "Rained and played." },
       { id: "d", text: "Play!" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "It has a dependent clause (Although\u2026) plus a main clause.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-grammar-a-q15",
     prompt: "Correct possessive: This is ____ book.",
     options: [
-      { id: "a", text: "Maya\u2019s" },
-      { id: "b", text: "Mayas" },
-      { id: "c", text: "Maya" },
+      { id: "a", text: "Mayas" },
+      { id: "b", text: "Maya" },
+      { id: "c", text: "Maya\u2019s" },
       { id: "d", text: "Mayas\u2019" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Singular possessive adds \u2019s.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-grammar-a-q16",
     prompt: "Choose the right verb: The news ____ surprising.",
     options: [
-      { id: "a", text: "is" },
-      { id: "b", text: "are" },
-      { id: "c", text: "were" },
-      { id: "d", text: "have" }
+      { id: "a", text: "are" },
+      { id: "b", text: "were" },
+      { id: "c", text: "have" },
+      { id: "d", text: "is" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "News is singular in standard usage.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -228,12 +228,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-grammar-a-q18",
     prompt: "Correct: Each of the students ____ a notebook.",
     options: [
-      { id: "a", text: "has" },
-      { id: "b", text: "have" },
+      { id: "a", text: "have" },
+      { id: "b", text: "has" },
       { id: "c", text: "having" },
       { id: "d", text: "are having" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Each is singular \u2192 has.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -241,12 +241,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-grammar-a-q19",
     prompt: "Which sentence uses the passive voice?",
     options: [
-      { id: "a", text: "The window was cleaned by Arun." },
-      { id: "b", text: "Arun cleaned the window." },
-      { id: "c", text: "Arun is cleaning." },
+      { id: "a", text: "Arun cleaned the window." },
+      { id: "b", text: "Arun is cleaning." },
+      { id: "c", text: "The window was cleaned by Arun." },
       { id: "d", text: "Clean the window!" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Was cleaned focuses on the receiver of the action.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -254,12 +254,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-grammar-a-q20",
     prompt: "Choose correct relative pronoun: The girl ____ won the race is my cousin.",
     options: [
-      { id: "a", text: "who" },
-      { id: "b", text: "which" },
-      { id: "c", text: "whom\u2019s" },
-      { id: "d", text: "what" }
+      { id: "a", text: "which" },
+      { id: "b", text: "whom\u2019s" },
+      { id: "c", text: "what" },
+      { id: "d", text: "who" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Who refers to people as subject.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -280,12 +280,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-grammar-a-q22",
     prompt: "Identify the subject: Across the field ran the dogs.",
     options: [
-      { id: "a", text: "the dogs" },
-      { id: "b", text: "Across" },
+      { id: "a", text: "Across" },
+      { id: "b", text: "the dogs" },
       { id: "c", text: "field" },
       { id: "d", text: "ran" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Dogs perform the action (inverted sentence).",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -293,12 +293,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-grammar-a-q23",
     prompt: "Correct plural: The ____ are sharp.",
     options: [
-      { id: "a", text: "knives" },
-      { id: "b", text: "knifes" },
-      { id: "c", text: "knife\u2019s" },
+      { id: "a", text: "knifes" },
+      { id: "b", text: "knife\u2019s" },
+      { id: "c", text: "knives" },
       { id: "d", text: "knive" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Knife \u2192 knives.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -306,12 +306,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-grammar-a-q24",
     prompt: "Choose the correctly ordered adjectives: She adopted a ____ puppy.",
     options: [
-      { id: "a", text: "small brown" },
-      { id: "b", text: "brown small" },
-      { id: "c", text: "brownly small" },
-      { id: "d", text: "smallness brown" }
+      { id: "a", text: "brown small" },
+      { id: "b", text: "brownly small" },
+      { id: "c", text: "smallness brown" },
+      { id: "d", text: "small brown" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Opinion/size before colour is the usual order: small brown.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   }
@@ -335,12 +335,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-grammar-b-q02",
     prompt: "Identify the clause type: \u201cwhen the bell rang\u201d in \u201cWe left when the bell rang.\u201d",
     options: [
-      { id: "a", text: "Adverb clause" },
-      { id: "b", text: "Noun only" },
+      { id: "a", text: "Noun only" },
+      { id: "b", text: "Adverb clause" },
       { id: "c", text: "Adjective phrase only" },
       { id: "d", text: "Interjection" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "It tells when \u2014 an adverb clause of time.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-grammar-b-q03",
     prompt: "Correct punctuation for a list: We need pens, pencils, ____ erasers.",
     options: [
-      { id: "a", text: "and" },
-      { id: "b", text: "or only forever" },
-      { id: "c", text: "but" },
+      { id: "a", text: "or only forever" },
+      { id: "b", text: "but" },
+      { id: "c", text: "and" },
       { id: "d", text: "nor" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Use and before the final item in a simple list.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-grammar-b-q04",
     prompt: "Choose the gerund: ____ is good exercise.",
     options: [
-      { id: "a", text: "Swimming" },
-      { id: "b", text: "Swam" },
-      { id: "c", text: "Swimmed" },
-      { id: "d", text: "To swam" }
+      { id: "a", text: "Swam" },
+      { id: "b", text: "Swimmed" },
+      { id: "c", text: "To swam" },
+      { id: "d", text: "Swimming" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Swimming acts as a noun (gerund).",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-grammar-b-q06",
     prompt: "Correct: The committee ____ decided.",
     options: [
-      { id: "a", text: "has" },
-      { id: "b", text: "have been many people always" },
+      { id: "a", text: "have been many people always" },
+      { id: "b", text: "has" },
       { id: "c", text: "are deciding as many always" },
       { id: "d", text: "were many" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Committee as a single unit takes singular has in this sense.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-grammar-b-q07",
     prompt: "Choose correct modal: You ____ wear a helmet. (strong obligation)",
     options: [
-      { id: "a", text: "must" },
-      { id: "b", text: "might" },
-      { id: "c", text: "could for weak only" },
+      { id: "a", text: "might" },
+      { id: "b", text: "could for weak only" },
+      { id: "c", text: "must" },
       { id: "d", text: "may perhaps" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Must expresses strong obligation.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-grammar-b-q08",
     prompt: "Identify the object pronoun: Give the book to ____.",
     options: [
-      { id: "a", text: "her" },
-      { id: "b", text: "she" },
-      { id: "c", text: "hers only as possessive noun phrase" },
-      { id: "d", text: "herself as intensive without object need" }
+      { id: "a", text: "she" },
+      { id: "b", text: "hers only as possessive noun phrase" },
+      { id: "c", text: "herself as intensive without object need" },
+      { id: "d", text: "her" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "After a preposition, use object pronoun her.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -439,12 +439,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-grammar-b-q10",
     prompt: "Which word is a correlative pair with \u201cnot only\u201d?",
     options: [
-      { id: "a", text: "but also" },
-      { id: "b", text: "and or" },
+      { id: "a", text: "and or" },
+      { id: "b", text: "but also" },
       { id: "c", text: "because" },
       { id: "d", text: "under" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Not only\u2026 but also\u2026",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -452,12 +452,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-grammar-b-q11",
     prompt: "Choose correct: Between you and ____, this plan works.",
     options: [
-      { id: "a", text: "me" },
-      { id: "b", text: "I" },
-      { id: "c", text: "myself always" },
+      { id: "a", text: "I" },
+      { id: "b", text: "myself always" },
+      { id: "c", text: "me" },
       { id: "d", text: "mine" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Object of preposition between \u2192 me.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -465,12 +465,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-grammar-b-q12",
     prompt: "Identify the finite verb: To win is his dream, but he trains hard.",
     options: [
-      { id: "a", text: "trains" },
-      { id: "b", text: "To win" },
-      { id: "c", text: "dream" },
-      { id: "d", text: "hard" }
+      { id: "a", text: "To win" },
+      { id: "b", text: "dream" },
+      { id: "c", text: "hard" },
+      { id: "d", text: "trains" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Trains is finite (tense-marked); \u201cTo win\u201d is infinitive.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -491,12 +491,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-grammar-b-q14",
     prompt: "Choose the correct question tag: You are ready, ____?",
     options: [
-      { id: "a", text: "aren\u2019t you" },
-      { id: "b", text: "are you not you" },
+      { id: "a", text: "are you not you" },
+      { id: "b", text: "aren\u2019t you" },
       { id: "c", text: "isn\u2019t I" },
       { id: "d", text: "don\u2019t we" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Positive statement \u2192 negative tag with matching verb.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -504,12 +504,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-grammar-b-q15",
     prompt: "Which is a compound sentence?",
     options: [
-      { id: "a", text: "I cooked, and she cleaned." },
-      { id: "b", text: "When I cooked, she cleaned." },
-      { id: "c", text: "Cooking." },
+      { id: "a", text: "When I cooked, she cleaned." },
+      { id: "b", text: "Cooking." },
+      { id: "c", text: "I cooked, and she cleaned." },
       { id: "d", text: "She." }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Two independent clauses joined by and.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -517,12 +517,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-grammar-b-q16",
     prompt: "Correct: One of my friends ____ abroad.",
     options: [
-      { id: "a", text: "lives" },
-      { id: "b", text: "live" },
-      { id: "c", text: "living" },
-      { id: "d", text: "have lived always as plural" }
+      { id: "a", text: "live" },
+      { id: "b", text: "living" },
+      { id: "c", text: "have lived always as plural" },
+      { id: "d", text: "lives" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "One is singular \u2192 lives.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -543,12 +543,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-grammar-b-q18",
     prompt: "Choose correct: She insisted on ____ early.",
     options: [
-      { id: "a", text: "leaving" },
-      { id: "b", text: "leave" },
+      { id: "a", text: "leave" },
+      { id: "b", text: "leaving" },
       { id: "c", text: "to left" },
       { id: "d", text: "left" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Insist on + gerund.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -556,12 +556,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-grammar-b-q19",
     prompt: "Which sentence avoids a double negative?",
     options: [
-      { id: "a", text: "I have no homework." },
-      { id: "b", text: "I don\u2019t have no homework." },
-      { id: "c", text: "I can\u2019t hardly see no board." },
+      { id: "a", text: "I don\u2019t have no homework." },
+      { id: "b", text: "I can\u2019t hardly see no board." },
+      { id: "c", text: "I have no homework." },
       { id: "d", text: "I never told nobody." }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "A single negative is enough.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -569,12 +569,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-grammar-b-q20",
     prompt: "Correct degree: Mount Everest is the ____ peak.",
     options: [
-      { id: "a", text: "highest" },
-      { id: "b", text: "higher" },
-      { id: "c", text: "high" },
-      { id: "d", text: "more highest" }
+      { id: "a", text: "higher" },
+      { id: "b", text: "high" },
+      { id: "c", text: "more highest" },
+      { id: "d", text: "highest" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Superlative highest for comparison among many.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -595,12 +595,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-grammar-b-q22",
     prompt: "Identify transitive verb usage: She ____ a poem.",
     options: [
-      { id: "a", text: "wrote" },
-      { id: "b", text: "slept" },
+      { id: "a", text: "slept" },
+      { id: "b", text: "wrote" },
       { id: "c", text: "arrived" },
       { id: "d", text: "smiled" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Wrote takes an object (poem).",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -608,12 +608,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-grammar-b-q23",
     prompt: "Correct: Hardly had we entered ____ it began to rain.",
     options: [
-      { id: "a", text: "when" },
-      { id: "b", text: "than" },
-      { id: "c", text: "then" },
+      { id: "a", text: "than" },
+      { id: "b", text: "then" },
+      { id: "c", text: "when" },
       { id: "d", text: "because" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Hardly\u2026 when\u2026 is the standard correlative.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -621,12 +621,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-grammar-b-q24",
     prompt: "Which sentence has correct subject\u2013verb agreement?",
     options: [
-      { id: "a", text: "The list of names is long." },
-      { id: "b", text: "The list of names are long." },
-      { id: "c", text: "The lists of name is long." },
-      { id: "d", text: "Names is a list." }
+      { id: "a", text: "The list of names are long." },
+      { id: "b", text: "The lists of name is long." },
+      { id: "c", text: "Names is a list." },
+      { id: "d", text: "The list of names is long." }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "The head noun list is singular \u2192 is.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   }
@@ -666,12 +666,12 @@ const lesson: ChapterDef["lesson"] = [
     title: "Quick try",
     prompt: "They ____ playing outside.",
     options: [
-        { id: "a", text: "are" },
-        { id: "b", text: "is" },
+        { id: "a", text: "is" },
+        { id: "b", text: "are" },
         { id: "c", text: "am" },
         { id: "d", text: "be" }
     ],
-    answerId: "a",
+    answerId: "b",
     why: "They is plural \u2192 are.",
     visual: "sentence",
     speak: "They ____ playing outside.",

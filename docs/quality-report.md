@@ -66,7 +66,7 @@ Infrastructure, unlocks, daily packs, audits, typecheck, and build are green. Co
 | 4 | 23% | OK |
 | 5 | 25% | OK |
 | 6 | 39% | English vocab/comprehension heavily B |
-| **7** | **100%** | **Every answer is A (432/432)** |
+| 7 | 25% | **Rebalanced** on `cursor/g7-answer-key-rebalance-9d2a` — each set 6A/6B/6C/6D (was 100% A) |
 | 8 | 29% | OK grade-level; some science sets ≥79% B |
 | 9 | 26% | OK grade-level; some English sets ≥75% B |
 | **10** | **~100%** | **430/432 answers are A** |
@@ -107,10 +107,10 @@ Notes from spot-check:
 
 ### Blocker
 
-1. **Grade 7 answer key is 100% A**  
-   - **Area:** Prep MCQs · all subjects  
-   - **Evidence:** Inventory — maths/english/science each `A=144 B=0 C=0 D=0`. Kids can clear every G7 set by always tapping A.  
-   - **Owner:** Maths Writer, English Writer, Science Writer (rebalance answerIds; regenerate options order)
+1. **Grade 7 answer key is 100% A** — **FIXED** (`cursor/g7-answer-key-rebalance-9d2a`)  
+   - **Was:** maths/english/science each `A=144 B=0 C=0 D=0` (432/432).  
+   - **Now:** every set exactly `6A/6B/6C/6D`; correct option *text* preserved; `scripts/seed_g7_full.py` applies `balance_set()` so future regen stays balanced.  
+   - Verify: `node scripts/count-g7-answer-keys.mjs`
 
 2. **Grade 10 answer key is ~100% A**  
    - **Area:** Prep MCQs · all subjects  
@@ -167,7 +167,7 @@ Notes from spot-check:
 
 ## Follow-ups for Chief of Staff
 
-1. **Priority 1 — rebalance G7 + G10 answer keys** before marketing those grades as ready (blocker). Likely a seed/generator bug that always places the correct option in slot `a`.
+1. **Priority 1 — rebalance G10 answer keys** (G7 fixed on `cursor/g7-answer-key-rebalance-9d2a`). G10 seed likely still always places the correct option in slot `a`.
 2. **Priority 2 — rebalance G1/G2 science + G6 sorting-materials / G6 English** extreme skew.
 3. **Priority 3 — English Writer:** repair G4 `story-spotters` pictorial items with real question stems (SR text out of `prompt`).
 4. Keep running `audit-content` + `check-boilerplate-hints` on every content PR; new `look-at-read` rule will catch the pictorial-title concat bug.

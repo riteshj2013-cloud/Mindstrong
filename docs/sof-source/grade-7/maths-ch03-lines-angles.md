@@ -38,33 +38,33 @@
 ### Q02
 - **stem**: A right angle measures…
 - **options**:
-  - A) 90°
-  - B) 45°
+  - A) 45°
+  - B) 90°
   - C) 180°
   - D) 360°
-- **answer**: A
+- **answer**: B
 - **explanation**: A square corner is 90°.
 - **difficulty**: mixed
 
 ### Q03
 - **stem**: An angle of 120° is…
 - **options**:
-  - A) Obtuse
-  - B) Acute
-  - C) Right
+  - A) Acute
+  - B) Right
+  - C) Obtuse
   - D) Reflex
-- **answer**: A
+- **answer**: C
 - **explanation**: Between 90° and 180° is obtuse.
 - **difficulty**: mixed
 
 ### Q04
 - **stem**: A straight angle measures…
 - **options**:
-  - A) 180°
-  - B) 90°
-  - C) 270°
-  - D) 360°
-- **answer**: A
+  - A) 90°
+  - B) 270°
+  - C) 360°
+  - D) 180°
+- **answer**: D
 - **explanation**: A straight line forms a 180° angle.
 - **difficulty**: mixed
 
@@ -82,33 +82,33 @@
 ### Q06
 - **stem**: Supplementary angles sum to…
 - **options**:
-  - A) 180°
-  - B) 90°
+  - A) 90°
+  - B) 180°
   - C) 360°
   - D) 270°
-- **answer**: A
+- **answer**: B
 - **explanation**: Two angles are supplementary if they add to 180°.
 - **difficulty**: mixed
 
 ### Q07
 - **stem**: Complement of 38° is…
 - **options**:
-  - A) 52°
-  - B) 142°
-  - C) 62°
+  - A) 142°
+  - B) 62°
+  - C) 52°
   - D) 48°
-- **answer**: A
+- **answer**: C
 - **explanation**: 90 − 38 = 52.
 - **difficulty**: mixed
 
 ### Q08
 - **stem**: Supplement of 110° is…
 - **options**:
-  - A) 70°
-  - B) 20°
-  - C) 250°
-  - D) 80°
-- **answer**: A
+  - A) 20°
+  - B) 250°
+  - C) 80°
+  - D) 70°
+- **answer**: D
 - **explanation**: 180 − 110 = 70.
 - **difficulty**: mixed
 
@@ -126,33 +126,33 @@
 ### Q10
 - **stem**: Adjacent angles on a straight line sum to…
 - **options**:
-  - A) 180°
-  - B) 90°
+  - A) 90°
+  - B) 180°
   - C) 360°
   - D) 45°
-- **answer**: A
+- **answer**: B
 - **explanation**: They form a linear pair — supplementary.
 - **difficulty**: mixed
 
 ### Q11
 - **stem**: If two lines intersect and one angle is 70°, the vertically opposite angle is…
 - **options**:
-  - A) 70°
-  - B) 110°
-  - C) 20°
+  - A) 110°
+  - B) 20°
+  - C) 70°
   - D) 90°
-- **answer**: A
+- **answer**: C
 - **explanation**: Vertically opposite angles are equal.
 - **difficulty**: mixed
 
 ### Q12
 - **stem**: If one angle of a linear pair is 65°, the other is…
 - **options**:
-  - A) 115°
-  - B) 25°
-  - C) 65°
-  - D) 295°
-- **answer**: A
+  - A) 25°
+  - B) 65°
+  - C) 295°
+  - D) 115°
+- **answer**: D
 - **explanation**: 180 − 65 = 115.
 - **difficulty**: mixed
 
@@ -170,33 +170,33 @@
 ### Q14
 - **stem**: In a triangle, the sum of interior angles is…
 - **options**:
-  - A) 180°
-  - B) 90°
+  - A) 90°
+  - B) 180°
   - C) 360°
   - D) 270°
-- **answer**: A
+- **answer**: B
 - **explanation**: Angle sum property of a triangle.
 - **difficulty**: mixed
 
 ### Q15
 - **stem**: An equilateral triangle has each angle…
 - **options**:
-  - A) 60°
-  - B) 90°
-  - C) 45°
+  - A) 90°
+  - B) 45°
+  - C) 60°
   - D) 120°
-- **answer**: A
+- **answer**: C
 - **explanation**: 180° ÷ 3 = 60°.
 - **difficulty**: mixed
 
 ### Q16
 - **stem**: A triangle with angles 40°, 60°, and ___.
 - **options**:
-  - A) 80°
-  - B) 90°
-  - C) 100°
-  - D) 70°
-- **answer**: A
+  - A) 90°
+  - B) 100°
+  - C) 70°
+  - D) 80°
+- **answer**: D
 - **explanation**: 180 − 40 − 60 = 80.
 - **difficulty**: mixed
 
@@ -214,33 +214,33 @@
 ### Q18
 - **stem**: Parallel lines cut by a transversal: corresponding angles are…
 - **options**:
-  - A) Equal
-  - B) Supplementary
+  - A) Supplementary
+  - B) Equal
   - C) Complementary
   - D) Always 90°
-- **answer**: A
+- **answer**: B
 - **explanation**: Corresponding angles are congruent when lines are parallel.
 - **difficulty**: mixed
 
 ### Q19
 - **stem**: Parallel lines: alternate interior angles are…
 - **options**:
-  - A) Equal
-  - B) Complementary
-  - C) Always obtuse
+  - A) Complementary
+  - B) Always obtuse
+  - C) Equal
   - D) Always acute
-- **answer**: A
+- **answer**: C
 - **explanation**: Alternate interior angles are equal for parallel lines.
 - **difficulty**: mixed
 
 ### Q20
 - **stem**: Parallel lines: consecutive interior angles are…
 - **options**:
-  - A) Supplementary
-  - B) Equal
-  - C) Complementary
-  - D) Always 45°
-- **answer**: A
+  - A) Equal
+  - B) Complementary
+  - C) Always 45°
+  - D) Supplementary
+- **answer**: D
 - **explanation**: They add to 180° (co-interior / same-side interior).
 - **difficulty**: mixed
 
@@ -258,33 +258,33 @@
 ### Q22
 - **stem**: A reflex angle is…
 - **options**:
-  - A) Greater than 180° and less than 360°
-  - B) Less than 90°
+  - A) Less than 90°
+  - B) Greater than 180° and less than 360°
   - C) Exactly 180°
   - D) Between 90° and 180°
-- **answer**: A
+- **answer**: B
 - **explanation**: Reflex angles measure more than a straight angle but less than a full turn.
 - **difficulty**: mixed
 
 ### Q23
 - **stem**: Two complementary angles are in the ratio 2 : 3. The larger is…
 - **options**:
-  - A) 54°
-  - B) 36°
-  - C) 108°
+  - A) 36°
+  - B) 108°
+  - C) 54°
   - D) 72°
-- **answer**: A
+- **answer**: C
 - **explanation**: 2x + 3x = 90 → 5x = 90 → x = 18; larger = 54°.
 - **difficulty**: mixed
 
 ### Q24
 - **stem**: Which pair can be complementary?
 - **options**:
-  - A) 40° and 50°
-  - B) 40° and 140°
-  - C) 90° and 90°
-  - D) 100° and 80°
-- **answer**: A
+  - A) 40° and 140°
+  - B) 90° and 90°
+  - C) 100° and 80°
+  - D) 40° and 50°
+- **answer**: D
 - **explanation**: 40 + 50 = 90.
 - **difficulty**: mixed
 
@@ -304,33 +304,33 @@
 ### Q02
 - **stem**: An angle is 20° more than its complement. The angle is?
 - **options**:
-  - A) 55°
-  - B) 35°
+  - A) 35°
+  - B) 55°
   - C) 70°
   - D) 110°
-- **answer**: A
+- **answer**: B
 - **explanation**: x + (x − 20) = 90 → 2x = 110 → x = 55.
 - **difficulty**: mixed
 
 ### Q03
 - **stem**: An angle is equal to its supplement. The angle is?
 - **options**:
-  - A) 90°
-  - B) 45°
-  - C) 180°
+  - A) 45°
+  - B) 180°
+  - C) 90°
   - D) 60°
-- **answer**: A
+- **answer**: C
 - **explanation**: x + x = 180 → x = 90.
 - **difficulty**: mixed
 
 ### Q04
 - **stem**: In △ABC, ∠A = 50°, ∠B = 60°. Exterior at C is?
 - **options**:
-  - A) 110°
-  - B) 70°
-  - C) 130°
-  - D) 80°
-- **answer**: A
+  - A) 70°
+  - B) 130°
+  - C) 80°
+  - D) 110°
+- **answer**: D
 - **explanation**: Interior at C is 70°; exterior = 180 − 70 = 110, also = A + B.
 - **difficulty**: mixed
 
@@ -348,33 +348,33 @@
 ### Q06
 - **stem**: l ∥ m; a transversal makes 112° with l. Alternate interior angle is?
 - **options**:
-  - A) 112°
-  - B) 68°
+  - A) 68°
+  - B) 112°
   - C) 22°
   - D) 180°
-- **answer**: A
+- **answer**: B
 - **explanation**: Alternate interior angles are equal.
 - **difficulty**: mixed
 
 ### Q07
 - **stem**: Angles of a triangle are in ratio 2 : 3 : 4. Largest angle?
 - **options**:
-  - A) 80°
-  - B) 40°
-  - C) 60°
+  - A) 40°
+  - B) 60°
+  - C) 80°
   - D) 90°
-- **answer**: A
+- **answer**: C
 - **explanation**: 2x+3x+4x=180 → 9x=180 → x=20; largest=80°.
 - **difficulty**: mixed
 
 ### Q08
 - **stem**: Can a triangle have two right angles?
 - **options**:
-  - A) No
-  - B) Yes
-  - C) Only if isosceles
-  - D) Only if equilateral
-- **answer**: A
+  - A) Yes
+  - B) Only if isosceles
+  - C) Only if equilateral
+  - D) No
+- **answer**: D
 - **explanation**: 90 + 90 = 180 leaves 0° for the third angle — impossible.
 - **difficulty**: mixed
 
@@ -392,33 +392,33 @@
 ### Q10
 - **stem**: If three angles around a point are 90°, 120°, and x, then x = ?
 - **options**:
-  - A) 150°
-  - B) 210°
+  - A) 210°
+  - B) 150°
   - C) 30°
   - D) 60°
-- **answer**: A
+- **answer**: B
 - **explanation**: 360 − 90 − 120 = 150.
 - **difficulty**: mixed
 
 ### Q11
 - **stem**: In an isosceles triangle, base angles are equal. If vertex is 40°, each base is?
 - **options**:
-  - A) 70°
-  - B) 40°
-  - C) 140°
+  - A) 40°
+  - B) 140°
+  - C) 70°
   - D) 80°
-- **answer**: A
+- **answer**: C
 - **explanation**: (180 − 40)/2 = 70.
 - **difficulty**: mixed
 
 ### Q12
 - **stem**: Which statement is always true?
 - **options**:
-  - A) Vertically opposite angles are equal
-  - B) Adjacent angles are equal
-  - C) Acute angles are complementary
-  - D) Obtuse angles are supplementary
-- **answer**: A
+  - A) Adjacent angles are equal
+  - B) Acute angles are complementary
+  - C) Obtuse angles are supplementary
+  - D) Vertically opposite angles are equal
+- **answer**: D
 - **explanation**: Vertical angles formed by intersecting lines are always equal.
 - **difficulty**: mixed
 
@@ -436,33 +436,33 @@
 ### Q14
 - **stem**: A ray that divides an angle into two equal parts is a…
 - **options**:
-  - A) Angle bisector
-  - B) Perpendicular bisector
+  - A) Perpendicular bisector
+  - B) Angle bisector
   - C) Transversal
   - D) Median
-- **answer**: A
+- **answer**: B
 - **explanation**: An angle bisector splits an angle into two congruent angles.
 - **difficulty**: mixed
 
 ### Q15
 - **stem**: Measure of each angle formed by bisecting a right angle?
 - **options**:
-  - A) 45°
-  - B) 90°
-  - C) 180°
+  - A) 90°
+  - B) 180°
+  - C) 45°
   - D) 30°
-- **answer**: A
+- **answer**: C
 - **explanation**: 90° ÷ 2 = 45°.
 - **difficulty**: mixed
 
 ### Q16
 - **stem**: If co-interior angles are (2x + 10)° and (3x − 20)°, and lines are parallel, x = ?
 - **options**:
-  - A) 38
-  - B) 30
-  - C) 42
-  - D) 20
-- **answer**: A
+  - A) 30
+  - B) 42
+  - C) 20
+  - D) 38
+- **answer**: D
 - **explanation**: (2x+10)+(3x−20)=180 → 5x − 10 = 180 → 5x = 190 → x = 38.
 - **difficulty**: mixed
 
@@ -480,33 +480,33 @@
 ### Q18
 - **stem**: In a right triangle, the other two angles are…
 - **options**:
-  - A) Acute and complementary
-  - B) Obtuse
+  - A) Obtuse
+  - B) Acute and complementary
   - C) Equal to 90°
   - D) Supplementary to each other only if both 90°
-- **answer**: A
+- **answer**: B
 - **explanation**: They sum to 90°, so each is acute and they are complementary.
 - **difficulty**: mixed
 
 ### Q19
 - **stem**: Two lines are parallel if a pair of corresponding angles is…
 - **options**:
-  - A) Equal
-  - B) Complementary
-  - C) 90°
+  - A) Complementary
+  - B) 90°
+  - C) Equal
   - D) Reflex
-- **answer**: A
+- **answer**: C
 - **explanation**: Equal corresponding angles is a parallel-line test.
 - **difficulty**: mixed
 
 ### Q20
 - **stem**: Angle of 270° is…
 - **options**:
-  - A) Reflex
-  - B) Obtuse
-  - C) Straight
-  - D) Acute
-- **answer**: A
+  - A) Obtuse
+  - B) Straight
+  - C) Acute
+  - D) Reflex
+- **answer**: D
 - **explanation**: 270° is between 180° and 360°.
 - **difficulty**: mixed
 
@@ -524,32 +524,32 @@
 ### Q22
 - **stem**: Sum of exterior angles of any convex polygon (one per vertex) is…
 - **options**:
-  - A) 360°
-  - B) 180°
+  - A) 180°
+  - B) 360°
   - C) 90°
   - D) Depends on sides
-- **answer**: A
+- **answer**: B
 - **explanation**: Exterior angles of a convex polygon sum to 360°.
 - **difficulty**: mixed
 
 ### Q23
 - **stem**: In △PQR, ∠P = ∠Q and exterior at R is 100°. Each of ∠P and ∠Q is?
 - **options**:
-  - A) 50°
-  - B) 40°
-  - C) 80°
+  - A) 40°
+  - B) 80°
+  - C) 50°
   - D) 100°
-- **answer**: A
+- **answer**: C
 - **explanation**: Exterior = P + Q = 100, and P = Q, so each 50°.
 - **difficulty**: mixed
 
 ### Q24
 - **stem**: Which drawing represents a pair of complementary angles?
 - **options**:
-  - A) 30° and 60° side by side making a right angle
-  - B) 30° and 60° making a straight line
-  - C) 90° and 90°
-  - D) 120° and 60° making a right angle
-- **answer**: A
+  - A) 30° and 60° making a straight line
+  - B) 90° and 90°
+  - C) 120° and 60° making a right angle
+  - D) 30° and 60° side by side making a right angle
+- **answer**: D
 - **explanation**: 30 + 60 = 90; they form a right angle together.
 - **difficulty**: mixed

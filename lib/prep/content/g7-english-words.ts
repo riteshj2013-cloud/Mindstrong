@@ -20,12 +20,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-words-a-q02",
     prompt: "Antonym of \u201cscarce\u201d?",
     options: [
-      { id: "a", text: "plentiful" },
-      { id: "b", text: "rare" },
+      { id: "a", text: "rare" },
+      { id: "b", text: "plentiful" },
       { id: "c", text: "tiny" },
       { id: "d", text: "hidden" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Scarce means in short supply; plentiful is the opposite.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -33,12 +33,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-words-a-q03",
     prompt: "Best meaning of \u201cglimpse\u201d?",
     options: [
-      { id: "a", text: "a quick look" },
-      { id: "b", text: "a long speech" },
-      { id: "c", text: "a heavy meal" },
+      { id: "a", text: "a long speech" },
+      { id: "b", text: "a heavy meal" },
+      { id: "c", text: "a quick look" },
       { id: "d", text: "a loud song" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "A glimpse is a brief look.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-words-a-q04",
     prompt: "Homophone of \u201cflour\u201d?",
     options: [
-      { id: "a", text: "flower" },
-      { id: "b", text: "floor" },
-      { id: "c", text: "flare" },
-      { id: "d", text: "four" }
+      { id: "a", text: "floor" },
+      { id: "b", text: "flare" },
+      { id: "c", text: "four" },
+      { id: "d", text: "flower" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Flour and flower sound alike but differ in meaning.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -72,12 +72,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-words-a-q06",
     prompt: "Synonym of \u201cancient\u201d?",
     options: [
-      { id: "a", text: "very old" },
-      { id: "b", text: "brand new" },
+      { id: "a", text: "brand new" },
+      { id: "b", text: "very old" },
       { id: "c", text: "tiny" },
       { id: "d", text: "noisy" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Ancient means belonging to the distant past.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -85,12 +85,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-words-a-q07",
     prompt: "Antonym of \u201cexpand\u201d?",
     options: [
-      { id: "a", text: "shrink" },
-      { id: "b", text: "grow" },
-      { id: "c", text: "widen" },
+      { id: "a", text: "grow" },
+      { id: "b", text: "widen" },
+      { id: "c", text: "shrink" },
       { id: "d", text: "increase" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Expand means become larger; shrink is opposite.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -98,12 +98,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-words-a-q08",
     prompt: "Context: \u201cThe referee\u2019s decision was impartial.\u201d Impartial means\u2026",
     options: [
-      { id: "a", text: "fair and unbiased" },
-      { id: "b", text: "angry" },
-      { id: "c", text: "delayed" },
-      { id: "d", text: "secret" }
+      { id: "a", text: "angry" },
+      { id: "b", text: "delayed" },
+      { id: "c", text: "secret" },
+      { id: "d", text: "fair and unbiased" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Impartial means not favouring either side.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -124,12 +124,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-words-a-q10",
     prompt: "Suffix in \u201chopeful\u201d suggests\u2026",
     options: [
-      { id: "a", text: "full of" },
-      { id: "b", text: "without" },
+      { id: "a", text: "without" },
+      { id: "b", text: "full of" },
       { id: "c", text: "again" },
       { id: "d", text: "against" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "-ful means full of.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-words-a-q11",
     prompt: "Synonym of \u201cassist\u201d?",
     options: [
-      { id: "a", text: "help" },
-      { id: "b", text: "hinder" },
-      { id: "c", text: "hide" },
+      { id: "a", text: "hinder" },
+      { id: "b", text: "hide" },
+      { id: "c", text: "help" },
       { id: "d", text: "harm" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Assist means help.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-words-a-q12",
     prompt: "Antonym of \u201cgenerous\u201d?",
     options: [
-      { id: "a", text: "selfish" },
-      { id: "b", text: "kind" },
-      { id: "c", text: "giving" },
-      { id: "d", text: "open" }
+      { id: "a", text: "kind" },
+      { id: "b", text: "giving" },
+      { id: "c", text: "open" },
+      { id: "d", text: "selfish" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Generous people give freely; selfish is opposite.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -176,12 +176,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-words-a-q14",
     prompt: "Choose the correctly spelled word:",
     options: [
-      { id: "a", text: "necessary" },
-      { id: "b", text: "neccessary" },
+      { id: "a", text: "neccessary" },
+      { id: "b", text: "necessary" },
       { id: "c", text: "neccesary" },
       { id: "d", text: "necesary" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Necessary has one c and two s\u2019s.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-words-a-q15",
     prompt: "Idiom: \u201conce in a blue moon\u201d means\u2026",
     options: [
-      { id: "a", text: "very rarely" },
-      { id: "b", text: "every night" },
-      { id: "c", text: "at noon" },
+      { id: "a", text: "every night" },
+      { id: "b", text: "at noon" },
+      { id: "c", text: "very rarely" },
       { id: "d", text: "underwater" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "It means something happens almost never.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-words-a-q16",
     prompt: "Synonym of \u201cprecise\u201d?",
     options: [
-      { id: "a", text: "exact" },
-      { id: "b", text: "vague" },
-      { id: "c", text: "messy" },
-      { id: "d", text: "late" }
+      { id: "a", text: "vague" },
+      { id: "b", text: "messy" },
+      { id: "c", text: "late" },
+      { id: "d", text: "exact" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Precise means exact and accurate.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -228,12 +228,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-words-a-q18",
     prompt: "\u201cReluctant\u201d means\u2026",
     options: [
-      { id: "a", text: "unwilling" },
-      { id: "b", text: "eager" },
+      { id: "a", text: "eager" },
+      { id: "b", text: "unwilling" },
       { id: "c", text: "loud" },
       { id: "d", text: "hungry" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Reluctant people hesitate to do something.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -241,12 +241,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-words-a-q19",
     prompt: "Root \u201cbio\u201d relates to\u2026",
     options: [
-      { id: "a", text: "life" },
-      { id: "b", text: "heat" },
-      { id: "c", text: "stone" },
+      { id: "a", text: "heat" },
+      { id: "b", text: "stone" },
+      { id: "c", text: "life" },
       { id: "d", text: "sound" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Biology is the study of life.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -254,12 +254,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-words-a-q20",
     prompt: "Choose the best word: The ____ of the story made us smile.",
     options: [
-      { id: "a", text: "moral" },
-      { id: "b", text: "mural" },
-      { id: "c", text: "mortal" },
-      { id: "d", text: "metal" }
+      { id: "a", text: "mural" },
+      { id: "b", text: "mortal" },
+      { id: "c", text: "metal" },
+      { id: "d", text: "moral" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Moral means the lesson of a story.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -280,12 +280,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-words-a-q22",
     prompt: "Synonym of \u201cfragile\u201d?",
     options: [
-      { id: "a", text: "delicate" },
-      { id: "b", text: "sturdy" },
+      { id: "a", text: "sturdy" },
+      { id: "b", text: "delicate" },
       { id: "c", text: "heavy" },
       { id: "d", text: "loud" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Fragile means easily broken; delicate is close.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -293,12 +293,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-words-a-q23",
     prompt: "Antonym of \u201cinclude\u201d?",
     options: [
-      { id: "a", text: "exclude" },
-      { id: "b", text: "contain" },
-      { id: "c", text: "add" },
+      { id: "a", text: "contain" },
+      { id: "b", text: "add" },
+      { id: "c", text: "exclude" },
       { id: "d", text: "invite" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Include brings in; exclude keeps out.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -306,12 +306,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-words-a-q24",
     prompt: "\u201cBenevolent\u201d most nearly means\u2026",
     options: [
-      { id: "a", text: "kind and generous" },
-      { id: "b", text: "cruel" },
-      { id: "c", text: "sleepy" },
-      { id: "d", text: "silent" }
+      { id: "a", text: "cruel" },
+      { id: "b", text: "sleepy" },
+      { id: "c", text: "silent" },
+      { id: "d", text: "kind and generous" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Benevolent describes goodwill and kindness.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   }
@@ -335,12 +335,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-words-b-q02",
     prompt: "Antonym of \u201cvictory\u201d?",
     options: [
-      { id: "a", text: "defeat" },
-      { id: "b", text: "trophy" },
+      { id: "a", text: "trophy" },
+      { id: "b", text: "defeat" },
       { id: "c", text: "cheer" },
       { id: "d", text: "medal" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Victory\u2019s opposite is defeat.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-words-b-q03",
     prompt: "\u201cDiligent\u201d means\u2026",
     options: [
-      { id: "a", text: "hard-working" },
-      { id: "b", text: "careless" },
-      { id: "c", text: "late" },
+      { id: "a", text: "careless" },
+      { id: "b", text: "late" },
+      { id: "c", text: "hard-working" },
       { id: "d", text: "noisy" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Diligent people work carefully and steadily.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-words-b-q04",
     prompt: "Idiom: \u201chit the nail on the head\u201d means\u2026",
     options: [
-      { id: "a", text: "describe something exactly right" },
-      { id: "b", text: "do carpentry" },
-      { id: "c", text: "hurt someone" },
-      { id: "d", text: "miss the point" }
+      { id: "a", text: "do carpentry" },
+      { id: "b", text: "hurt someone" },
+      { id: "c", text: "miss the point" },
+      { id: "d", text: "describe something exactly right" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "It means to be exactly correct.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-words-b-q06",
     prompt: "Prefix \u201cre-\u201d in \u201crewrite\u201d means\u2026",
     options: [
-      { id: "a", text: "again" },
-      { id: "b", text: "not" },
+      { id: "a", text: "not" },
+      { id: "b", text: "again" },
       { id: "c", text: "against" },
       { id: "d", text: "before" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Re- often means again.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-words-b-q07",
     prompt: "\u201cScarce\u201d in \u201cWater was scarce\u201d means\u2026",
     options: [
-      { id: "a", text: "in short supply" },
-      { id: "b", text: "flooding" },
-      { id: "c", text: "sweet" },
+      { id: "a", text: "flooding" },
+      { id: "b", text: "sweet" },
+      { id: "c", text: "in short supply" },
       { id: "d", text: "frozen" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Scarce means not enough.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-words-b-q08",
     prompt: "Antonym of \u201copaque\u201d?",
     options: [
-      { id: "a", text: "transparent" },
-      { id: "b", text: "heavy" },
-      { id: "c", text: "solid" },
-      { id: "d", text: "dark only" }
+      { id: "a", text: "heavy" },
+      { id: "b", text: "solid" },
+      { id: "c", text: "dark only" },
+      { id: "d", text: "transparent" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Transparent materials let light through.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -439,12 +439,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-words-b-q10",
     prompt: "Synonym of \u201cvast\u201d?",
     options: [
-      { id: "a", text: "huge" },
-      { id: "b", text: "tiny" },
+      { id: "a", text: "tiny" },
+      { id: "b", text: "huge" },
       { id: "c", text: "narrow" },
       { id: "d", text: "brief" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Vast means very large.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -452,12 +452,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-words-b-q11",
     prompt: "\u201cAmbiguous\u201d means\u2026",
     options: [
-      { id: "a", text: "unclear; having more than one meaning" },
-      { id: "b", text: "perfectly clear" },
-      { id: "c", text: "musical" },
+      { id: "a", text: "perfectly clear" },
+      { id: "b", text: "musical" },
+      { id: "c", text: "unclear; having more than one meaning" },
       { id: "d", text: "edible" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Ambiguous statements can be read in different ways.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -465,12 +465,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-words-b-q12",
     prompt: "Antonym of \u201cascend\u201d?",
     options: [
-      { id: "a", text: "descend" },
-      { id: "b", text: "climb" },
-      { id: "c", text: "rise" },
-      { id: "d", text: "lift" }
+      { id: "a", text: "climb" },
+      { id: "b", text: "rise" },
+      { id: "c", text: "lift" },
+      { id: "d", text: "descend" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Ascend = go up; descend = go down.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -491,12 +491,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-words-b-q14",
     prompt: "Idiom: \u201ccost an arm and a leg\u201d means\u2026",
     options: [
-      { id: "a", text: "be very expensive" },
-      { id: "b", text: "need surgery" },
+      { id: "a", text: "need surgery" },
+      { id: "b", text: "be very expensive" },
       { id: "c", text: "be free" },
       { id: "d", text: "be light" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "It means something costs a lot of money (use \u20b9 thinking).",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -504,12 +504,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-words-b-q15",
     prompt: "Synonym of \u201cbrief\u201d?",
     options: [
-      { id: "a", text: "short" },
-      { id: "b", text: "endless" },
-      { id: "c", text: "heavy" },
+      { id: "a", text: "endless" },
+      { id: "b", text: "heavy" },
+      { id: "c", text: "short" },
       { id: "d", text: "loud" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Brief means short in time or length.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -517,12 +517,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-words-b-q16",
     prompt: "Choose the correctly used word: The ____ was breathtaking.",
     options: [
-      { id: "a", text: "scenery" },
-      { id: "b", text: "scenary" },
-      { id: "c", text: "scenarye" },
-      { id: "d", text: "sceneries as uncountable misuse" }
+      { id: "a", text: "scenary" },
+      { id: "b", text: "scenarye" },
+      { id: "c", text: "sceneries as uncountable misuse" },
+      { id: "d", text: "scenery" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Scenery is the standard spelling/form here.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -543,12 +543,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-words-b-q18",
     prompt: "\u201cOptimistic\u201d means\u2026",
     options: [
-      { id: "a", text: "hopeful about the future" },
-      { id: "b", text: "sure of disaster" },
+      { id: "a", text: "sure of disaster" },
+      { id: "b", text: "hopeful about the future" },
       { id: "c", text: "silent" },
       { id: "d", text: "hungry" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Optimistic people expect good outcomes.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -556,12 +556,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-words-b-q19",
     prompt: "Homophone pair: \u201callowed\u201d pairs with\u2026",
     options: [
-      { id: "a", text: "aloud" },
-      { id: "b", text: "aloudly" },
-      { id: "c", text: "alloyed as the only pair" },
+      { id: "a", text: "aloudly" },
+      { id: "b", text: "alloyed as the only pair" },
+      { id: "c", text: "aloud" },
       { id: "d", text: "along" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Allowed and aloud sound the same.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -569,12 +569,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-words-b-q20",
     prompt: "Synonym of \u201crapid\u201d?",
     options: [
-      { id: "a", text: "quick" },
-      { id: "b", text: "slow" },
-      { id: "c", text: "late" },
-      { id: "d", text: "soft" }
+      { id: "a", text: "slow" },
+      { id: "b", text: "late" },
+      { id: "c", text: "soft" },
+      { id: "d", text: "quick" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Rapid means fast.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -595,12 +595,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-words-b-q22",
     prompt: "Antonym of \u201cpolite\u201d?",
     options: [
-      { id: "a", text: "rude" },
-      { id: "b", text: "kind" },
+      { id: "a", text: "kind" },
+      { id: "b", text: "rude" },
       { id: "c", text: "gentle" },
       { id: "d", text: "courteous" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Rude is the opposite of polite.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -608,12 +608,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-words-b-q23",
     prompt: "\u201cEssential\u201d most nearly means\u2026",
     options: [
-      { id: "a", text: "necessary" },
-      { id: "b", text: "optional" },
-      { id: "c", text: "decorative only" },
+      { id: "a", text: "optional" },
+      { id: "b", text: "decorative only" },
+      { id: "c", text: "necessary" },
       { id: "d", text: "forgotten" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Essential means needed / cannot do without.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -621,12 +621,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-words-b-q24",
     prompt: "Best word: She spoke with great ____.",
     options: [
-      { id: "a", text: "clarity" },
-      { id: "b", text: "clarify" },
-      { id: "c", text: "clearly as noun" },
-      { id: "d", text: "clearance only" }
+      { id: "a", text: "clarify" },
+      { id: "b", text: "clearly as noun" },
+      { id: "c", text: "clearance only" },
+      { id: "d", text: "clarity" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Clarity is the noun that fits after \u201cwith great.\u201d",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   }
@@ -666,12 +666,12 @@ const lesson: ChapterDef["lesson"] = [
     title: "Quick try",
     prompt: "Best synonym of \"brave\"?",
     options: [
-        { id: "a", text: "courageous" },
-        { id: "b", text: "timid" },
-        { id: "c", text: "silent" },
+        { id: "a", text: "timid" },
+        { id: "b", text: "silent" },
+        { id: "c", text: "courageous" },
         { id: "d", text: "narrow" }
     ],
-    answerId: "a",
+    answerId: "c",
     why: "Courageous \u2248 brave.",
     visual: "word-cards",
     speak: "Best synonym of \"brave\"?",

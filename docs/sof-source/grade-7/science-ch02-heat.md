@@ -37,31 +37,31 @@ D) Mass only
 ### Q2
 **Stem:** Temperature measures…
 **Options:**
-A) How hot or cold something is
-B) Only mass
+A) Only mass
+B) How hot or cold something is
 C) Only volume
 D) Only colour
-**Answer:** A
+**Answer:** B
 **Explanation:** Temperature indicates degree of hotness.
 
 ### Q3
 **Stem:** SI unit of temperature commonly used in science labs is…
 **Options:**
-A) Kelvin (K), with Celsius also widely used
-B) Kilogram
-C) Newton
+A) Kilogram
+B) Newton
+C) Kelvin (K), with Celsius also widely used
 D) Pascal only
-**Answer:** A
+**Answer:** C
 **Explanation:** Kelvin is the SI unit; Celsius is common in labs.
 
 ### Q4
 **Stem:** On the Celsius scale, water freezes at…
 **Options:**
-A) 0 °C
-B) 100 °C
-C) 32 °C
-D) 273 °C
-**Answer:** A
+A) 100 °C
+B) 32 °C
+C) 273 °C
+D) 0 °C
+**Answer:** D
 **Explanation:** Ice melts / water freezes at 0 °C under standard conditions.
 
 ### Q5
@@ -77,31 +77,31 @@ D) 212 °C as Celsius
 ### Q6
 **Stem:** A clinical thermometer is designed mainly to measure…
 **Options:**
-A) Human body temperature
-B) Boiling lava
+A) Boiling lava
+B) Human body temperature
 C) Outer space
 D) Furnace steel
-**Answer:** A
+**Answer:** B
 **Explanation:** Clinical thermometers cover a narrow range around body temperature.
 
 ### Q7
 **Stem:** Transfer of heat in solids without bulk movement of particles is mainly…
 **Options:**
-A) Conduction
-B) Convection
-C) Radiation only
+A) Convection
+B) Radiation only
+C) Conduction
 D) Evaporation
-**Answer:** A
+**Answer:** C
 **Explanation:** Conduction passes heat through particle collisions in solids.
 
 ### Q8
 **Stem:** Heat transfer by movement of a fluid is…
 **Options:**
-A) Convection
-B) Conduction only
-C) Reflection
-D) Condensation
-**Answer:** A
+A) Conduction only
+B) Reflection
+C) Condensation
+D) Convection
+**Answer:** D
 **Explanation:** Warm fluid rises and cooler fluid sinks — convection currents.
 
 ### Q9
@@ -117,31 +117,31 @@ D) Osmosis
 ### Q10
 **Stem:** Metals are usually ____ conductors of heat.
 **Options:**
-A) Good
-B) Poor
+A) Poor
+B) Good
 C) Non
 D) Variable as insulators always
-**Answer:** A
+**Answer:** B
 **Explanation:** Metals conduct heat well.
 
 ### Q11
 **Stem:** Wood and plastic are often used as handles because they are…
 **Options:**
-A) Poor conductors (insulators)
-B) Best conductors
-C) Sources of heat
+A) Best conductors
+B) Sources of heat
+C) Poor conductors (insulators)
 D) Magnetic
-**Answer:** A
+**Answer:** C
 **Explanation:** Insulators reduce heat flow to the hand.
 
 ### Q12
 **Stem:** Land breeze occurs mainly…
 **Options:**
-A) At night when land cools faster than sea
-B) Only at noon always
-C) Only in space
-D) When there is no air
-**Answer:** A
+A) Only at noon always
+B) Only in space
+C) When there is no air
+D) At night when land cools faster than sea
+**Answer:** D
 **Explanation:** At night, cooler land air moves toward warmer sea — land breeze.
 
 ### Q13
@@ -157,31 +157,31 @@ D) In a vacuum
 ### Q14
 **Stem:** Dark, dull surfaces are generally ____ absorbers of radiation.
 **Options:**
-A) Good
-B) Poor
+A) Poor
+B) Good
 C) Perfect reflectors always
 D) Transparent always
-**Answer:** A
+**Answer:** B
 **Explanation:** Dark dull surfaces absorb (and emit) radiation well.
 
 ### Q15
 **Stem:** Shiny, polished surfaces are generally ____ reflectors of radiation.
 **Options:**
-A) Good
-B) Poor
-C) Perfect absorbers always
+A) Poor
+B) Perfect absorbers always
+C) Good
 D) Heat sources
-**Answer:** A
+**Answer:** C
 **Explanation:** Shiny surfaces reflect radiant heat.
 
 ### Q16
 **Stem:** In a thermos flask, the vacuum mainly reduces heat transfer by…
 **Options:**
-A) Conduction and convection
-B) Radiation only completely alone
-C) Sound
-D) Magnetism
-**Answer:** A
+A) Radiation only completely alone
+B) Sound
+C) Magnetism
+D) Conduction and convection
+**Answer:** D
 **Explanation:** No medium means little conduction/convection; silvering reduces radiation.
 
 ### Q17
@@ -197,31 +197,31 @@ D) Sound energy
 ### Q18
 **Stem:** Evaporation causes cooling because…
 **Options:**
-A) Faster particles leave, lowering average energy of the rest
-B) Heat is created from nothing
+A) Heat is created from nothing
+B) Faster particles leave, lowering average energy of the rest
 C) Mass increases temperature
 D) Light turns into ice
-**Answer:** A
+**Answer:** B
 **Explanation:** Higher-energy molecules escape; remaining liquid cools.
 
 ### Q19
 **Stem:** Which expands more for the same rise in temperature (generally)?
 **Options:**
-A) Gases
-B) Solids always more than gases
-C) Nothing expands
+A) Solids always more than gases
+B) Nothing expands
+C) Gases
 D) Only colours
-**Answer:** A
+**Answer:** C
 **Explanation:** Gases expand more than liquids, which expand more than solids (typically).
 
 ### Q20
 **Stem:** Gaps left between railway tracks help with…
 **Options:**
-A) Thermal expansion of rails
-B) Magnetic trains only
-C) Cooling tea
-D) Soundproofing only
-**Answer:** A
+A) Magnetic trains only
+B) Cooling tea
+C) Soundproofing only
+D) Thermal expansion of rails
+**Answer:** D
 **Explanation:** Rails expand on hot days; gaps prevent buckling.
 
 ### Q21
@@ -237,31 +237,31 @@ D) Store vaccines
 ### Q22
 **Stem:** Heat flows spontaneously from…
 **Options:**
-A) Hotter to colder body
-B) Colder to hotter always
+A) Colder to hotter always
+B) Hotter to colder body
 C) Only upward
 D) Only in metals never in air
-**Answer:** A
+**Answer:** B
 **Explanation:** Net heat flows from higher to lower temperature.
 
 ### Q23
 **Stem:** Wearing light-coloured clothes in summer helps because they…
 **Options:**
-A) Absorb less radiant heat
-B) Absorb more heat always
-C) Block all oxygen
+A) Absorb more heat always
+B) Block all oxygen
+C) Absorb less radiant heat
 D) Create convection in bones
-**Answer:** A
+**Answer:** C
 **Explanation:** Light colours reflect more sunlight.
 
 ### Q24
 **Stem:** The range of a laboratory thermometer is typically wider than a clinical one because…
 **Options:**
-A) It measures many substances, not just body temperature
-B) It only measures body heat
-C) It cannot show 0 °C
-D) It uses no scale
-**Answer:** A
+A) It only measures body heat
+B) It cannot show 0 °C
+C) It uses no scale
+D) It measures many substances, not just body temperature
+**Answer:** D
 **Explanation:** Lab thermometers cover broader temperature ranges.
 
 ## Quiz Set B
@@ -279,31 +279,31 @@ D) Air
 ### Q2
 **Stem:** Convection currents in air explain…
 **Options:**
-A) Why warm air rises near a heater
-B) Why metals are shiny
+A) Why metals are shiny
+B) Why warm air rises near a heater
 C) Why ice is solid
 D) Why light needs wires
-**Answer:** A
+**Answer:** B
 **Explanation:** Heated air expands, becomes less dense, and rises.
 
 ### Q3
 **Stem:** We feel heat from a fire even to the side mainly by…
 **Options:**
-A) Radiation
-B) Only conduction through air as a solid
-C) Only convection downward always
+A) Only conduction through air as a solid
+B) Only convection downward always
+C) Radiation
 D) Magnetism
-**Answer:** A
+**Answer:** C
 **Explanation:** Radiant heat travels in straight lines from the fire.
 
 ### Q4
 **Stem:** Woollen clothes keep us warm because wool…
 **Options:**
-A) Traps air, which is a poor conductor
-B) Is a metal conductor
-C) Produces its own flame
-D) Removes all body heat instantly
-**Answer:** A
+A) Is a metal conductor
+B) Produces its own flame
+C) Removes all body heat instantly
+D) Traps air, which is a poor conductor
+**Answer:** D
 **Explanation:** Trapped air reduces heat loss from the body.
 
 ### Q5
@@ -319,31 +319,31 @@ D) Latent heat of fusion only
 ### Q6
 **Stem:** Digital thermometers often use…
 **Options:**
-A) Electronic sensors instead of mercury
-B) Only mercury columns
+A) Only mercury columns
+B) Electronic sensors instead of mercury
 C) Only alcohol for space
 D) No scale at all
-**Answer:** A
+**Answer:** B
 **Explanation:** Many modern thermometers are digital/electronic.
 
 ### Q7
 **Stem:** When a metal lid stuck on a glass jar is heated gently, it loosens because metal…
 **Options:**
-A) Expands more than glass typically
-B) Shrinks always
-C) Turns to gas
+A) Shrinks always
+B) Turns to gas
+C) Expands more than glass typically
 D) Becomes wood
-**Answer:** A
+**Answer:** C
 **Explanation:** Greater expansion of the metal lid frees it.
 
 ### Q8
 **Stem:** Boiling involves…
 **Options:**
-A) Rapid vaporisation throughout the liquid at a fixed temperature (at given pressure)
-B) Only surface evaporation below boiling point as the same thing
-C) Freezing
-D) Melting of ice only
-**Answer:** A
+A) Only surface evaporation below boiling point as the same thing
+B) Freezing
+C) Melting of ice only
+D) Rapid vaporisation throughout the liquid at a fixed temperature (at given pressure)
+**Answer:** D
 **Explanation:** Boiling is bulk vaporisation at the boiling point.
 
 ### Q9
@@ -359,31 +359,31 @@ D) Never for water
 ### Q10
 **Stem:** Which factor increases the rate of evaporation?
 **Options:**
-A) Higher temperature / wind / larger surface area
-B) Lower temperature always
+A) Lower temperature always
+B) Higher temperature / wind / larger surface area
 C) Still humid air with no wind and tiny area always
 D) Freezing the liquid
-**Answer:** A
+**Answer:** B
 **Explanation:** Warmth, wind, and surface area speed evaporation.
 
 ### Q11
 **Stem:** The mercury in a thermometer rises when heated because mercury…
 **Options:**
-A) Expands
-B) Contracts always
-C) Disappears
+A) Contracts always
+B) Disappears
+C) Expands
 D) Turns into wood
-**Answer:** A
+**Answer:** C
 **Explanation:** Thermal expansion of mercury moves the column up the scale.
 
 ### Q12
 **Stem:** A clinical thermometer should not be sterilised in boiling water because…
 **Options:**
-A) Its upper range is below boiling point of water; it may break
-B) It measures only ice
-C) Boiling water is too cold
-D) It has no glass
-**Answer:** A
+A) It measures only ice
+B) Boiling water is too cold
+C) It has no glass
+D) Its upper range is below boiling point of water; it may break
+**Answer:** D
 **Explanation:** Typical clinical upper limit is around 42 °C, far below 100 °C.
 
 ### Q13
@@ -399,31 +399,31 @@ D) Create more radiation inward always
 ### Q14
 **Stem:** The Sun’s heat reaches Earth primarily by…
 **Options:**
-A) Radiation
-B) Conduction through space air
+A) Conduction through space air
+B) Radiation
 C) Convection currents in vacuum
 D) Sound waves
-**Answer:** A
+**Answer:** B
 **Explanation:** Space is nearly vacuum; radiation carries solar energy.
 
 ### Q15
 **Stem:** In SI thinking, a temperature change of 1 °C equals a change of…
 **Options:**
-A) 1 K
-B) 10 K
-C) 100 K
+A) 10 K
+B) 100 K
+C) 1 K
 D) 273 K
-**Answer:** A
+**Answer:** C
 **Explanation:** Celsius and Kelvin degrees are the same size.
 
 ### Q16
 **Stem:** 0 °C equals how many kelvin (approximately)?
 **Options:**
-A) 273 K
-B) 100 K
-C) 0 K
-D) 373 K
-**Answer:** A
+A) 100 K
+B) 0 K
+C) 373 K
+D) 273 K
+**Answer:** D
 **Explanation:** T(K) ≈ t(°C) + 273.
 
 ### Q17
@@ -439,31 +439,31 @@ D) Stop convection forever
 ### Q18
 **Stem:** Heat capacity ideas: for the same heat input, a larger mass of water shows…
 **Options:**
-A) A smaller temperature rise
-B) An always larger rise
+A) An always larger rise
+B) A smaller temperature rise
 C) No effect of mass
 D) Instant boiling always
-**Answer:** A
+**Answer:** B
 **Explanation:** More mass needs more heat for the same ΔT.
 
 ### Q19
 **Stem:** Cooking pots often have copper/aluminium bottoms because metals…
 **Options:**
-A) Conduct heat well to the food
-B) Insulate perfectly
-C) Stay cold always
+A) Insulate perfectly
+B) Stay cold always
+C) Conduct heat well to the food
 D) Block all heat
-**Answer:** A
+**Answer:** C
 **Explanation:** Good conductors spread heat evenly for cooking.
 
 ### Q20
 **Stem:** The kink in a clinical thermometer is near the…
 **Options:**
-A) Bulb
-B) Top tip only
-C) Digital screen
-D) Battery
-**Answer:** A
+A) Top tip only
+B) Digital screen
+C) Battery
+D) Bulb
+**Answer:** D
 **Explanation:** Constriction is just above the bulb.
 
 ### Q21
@@ -479,29 +479,29 @@ D) Heat is measured in metres
 ### Q22
 **Stem:** In convection, warmer fluid rises because it becomes…
 **Options:**
-A) Less dense
-B) More dense always
+A) More dense always
+B) Less dense
 C) Solid
 D) Magnetic
-**Answer:** A
+**Answer:** B
 **Explanation:** Heating expands fluid, lowering density so it rises.
 
 ### Q23
 **Stem:** A wire gauze on a Bunsen burner helps…
 **Options:**
-A) Spread heat for even heating of glassware
-B) Cool the flame to ice
-C) Remove oxygen
+A) Cool the flame to ice
+B) Remove oxygen
+C) Spread heat for even heating of glassware
 D) Measure mass
-**Answer:** A
+**Answer:** C
 **Explanation:** It distributes heat under a beaker.
 
 ### Q24
 **Stem:** Which is a poor conductor of heat?
 **Options:**
-A) Air
-B) Iron
-C) Copper
-D) Aluminium
-**Answer:** A
+A) Iron
+B) Copper
+C) Aluminium
+D) Air
+**Answer:** D
 **Explanation:** Air is a good insulator when trapped.

@@ -20,12 +20,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-acids-a-q02",
     prompt: "Bases taste ____ and feel soapy (do not taste/touch unknowns!).",
     options: [
-      { id: "a", text: "Bitter" },
-      { id: "b", text: "Sour" },
+      { id: "a", text: "Sour" },
+      { id: "b", text: "Bitter" },
       { id: "c", text: "Sweet always" },
       { id: "d", text: "Metallic always" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Bases are typically bitter and soapy to touch \u2014 but never test unknowns that way.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -33,12 +33,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-acids-a-q03",
     prompt: "Litmus in acid turns\u2026",
     options: [
-      { id: "a", text: "Red" },
-      { id: "b", text: "Blue" },
-      { id: "c", text: "Green" },
+      { id: "a", text: "Blue" },
+      { id: "b", text: "Green" },
+      { id: "c", text: "Red" },
       { id: "d", text: "Black" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Blue litmus turns red in acid.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-acids-a-q04",
     prompt: "Litmus in base turns\u2026",
     options: [
-      { id: "a", text: "Blue" },
-      { id: "b", text: "Red" },
-      { id: "c", text: "Yellow" },
-      { id: "d", text: "Orange" }
+      { id: "a", text: "Red" },
+      { id: "b", text: "Yellow" },
+      { id: "c", text: "Orange" },
+      { id: "d", text: "Blue" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Red litmus turns blue in base.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -72,12 +72,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-acids-a-q06",
     prompt: "The pH of a neutral solution is\u2026",
     options: [
-      { id: "a", text: "7" },
-      { id: "b", text: "0" },
+      { id: "a", text: "0" },
+      { id: "b", text: "7" },
       { id: "c", text: "14" },
       { id: "d", text: "1" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "pH 7 is neutral at standard conditions.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -85,12 +85,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-acids-a-q07",
     prompt: "Acids have pH\u2026",
     options: [
-      { id: "a", text: "Less than 7" },
-      { id: "b", text: "Exactly 7" },
-      { id: "c", text: "Greater than 7 only" },
+      { id: "a", text: "Exactly 7" },
+      { id: "b", text: "Greater than 7 only" },
+      { id: "c", text: "Less than 7" },
       { id: "d", text: "Exactly 14" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Acidic solutions have pH < 7.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -98,12 +98,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-acids-a-q08",
     prompt: "Bases have pH\u2026",
     options: [
-      { id: "a", text: "Greater than 7" },
-      { id: "b", text: "Less than 7" },
-      { id: "c", text: "Exactly 0" },
-      { id: "d", text: "Exactly 7 only" }
+      { id: "a", text: "Less than 7" },
+      { id: "b", text: "Exactly 0" },
+      { id: "c", text: "Exactly 7 only" },
+      { id: "d", text: "Greater than 7" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Basic/alkaline solutions have pH > 7.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -124,12 +124,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-acids-a-q10",
     prompt: "China rose indicator turns ____ in acid.",
     options: [
-      { id: "a", text: "Dark pink / magenta" },
-      { id: "b", text: "Green" },
+      { id: "a", text: "Green" },
+      { id: "b", text: "Dark pink / magenta" },
       { id: "c", text: "Blue always" },
       { id: "d", text: "Black" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "China rose gives dark pink in acid and green in base.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-acids-a-q11",
     prompt: "Hydrochloric acid\u2019s formula is\u2026",
     options: [
-      { id: "a", text: "HCl" },
-      { id: "b", text: "H\u2082SO\u2084" },
-      { id: "c", text: "HNO\u2083" },
+      { id: "a", text: "H\u2082SO\u2084" },
+      { id: "b", text: "HNO\u2083" },
+      { id: "c", text: "HCl" },
       { id: "d", text: "NaOH" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "HCl is hydrochloric acid.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-acids-a-q12",
     prompt: "Sulphuric acid\u2019s formula is\u2026",
     options: [
-      { id: "a", text: "H\u2082SO\u2084" },
-      { id: "b", text: "HCl" },
-      { id: "c", text: "NaCl" },
-      { id: "d", text: "Ca(OH)\u2082" }
+      { id: "a", text: "HCl" },
+      { id: "b", text: "NaCl" },
+      { id: "c", text: "Ca(OH)\u2082" },
+      { id: "d", text: "H\u2082SO\u2084" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "H\u2082SO\u2084 is sulphuric acid.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -176,12 +176,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-acids-a-q14",
     prompt: "The reaction of acid + base produces\u2026",
     options: [
-      { id: "a", text: "Salt and water" },
-      { id: "b", text: "Only oxygen" },
+      { id: "a", text: "Only oxygen" },
+      { id: "b", text: "Salt and water" },
       { id: "c", text: "Only hydrogen always without salt" },
       { id: "d", text: "Only nitrogen" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Neutralisation: acid + base \u2192 salt + water.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-acids-a-q15",
     prompt: "Neutralisation is used in treating ant bites because ant venom is acidic and\u2026",
     options: [
-      { id: "a", text: "A mild base can neutralise it" },
-      { id: "b", text: "A strong acid helps more" },
-      { id: "c", text: "Salt removes oxygen" },
+      { id: "a", text: "A strong acid helps more" },
+      { id: "b", text: "Salt removes oxygen" },
+      { id: "c", text: "A mild base can neutralise it" },
       { id: "d", text: "Indicators cure bites" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Mild baking soda (base) can neutralise acidic ant venom.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-acids-a-q16",
     prompt: "Acids react with many metals to liberate\u2026",
     options: [
-      { id: "a", text: "Hydrogen gas" },
-      { id: "b", text: "Nitrogen gas" },
-      { id: "c", text: "Neon" },
-      { id: "d", text: "Ozone" }
+      { id: "a", text: "Nitrogen gas" },
+      { id: "b", text: "Neon" },
+      { id: "c", text: "Ozone" },
+      { id: "d", text: "Hydrogen gas" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Active metals + acid often give H\u2082.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -228,12 +228,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-acids-a-q18",
     prompt: "Baking soda\u2019s chemical name is\u2026",
     options: [
-      { id: "a", text: "Sodium hydrogen carbonate" },
-      { id: "b", text: "Sodium hydroxide" },
+      { id: "a", text: "Sodium hydroxide" },
+      { id: "b", text: "Sodium hydrogen carbonate" },
       { id: "c", text: "Calcium oxide" },
       { id: "d", text: "Potassium nitrate" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "NaHCO\u2083 is sodium hydrogen carbonate (baking soda).",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -241,12 +241,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-acids-a-q19",
     prompt: "Slaked lime is\u2026",
     options: [
-      { id: "a", text: "Calcium hydroxide" },
-      { id: "b", text: "Sodium chloride" },
-      { id: "c", text: "Hydrochloric acid" },
+      { id: "a", text: "Sodium chloride" },
+      { id: "b", text: "Hydrochloric acid" },
+      { id: "c", text: "Calcium hydroxide" },
       { id: "d", text: "Sugar" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Ca(OH)\u2082 is slaked lime.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -254,12 +254,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-acids-a-q20",
     prompt: "Which salt is used to make food tasty (common salt)?",
     options: [
-      { id: "a", text: "Sodium chloride" },
-      { id: "b", text: "Copper sulphate" },
-      { id: "c", text: "Calcium carbonate only as table salt" },
-      { id: "d", text: "Potassium permanganate" }
+      { id: "a", text: "Copper sulphate" },
+      { id: "b", text: "Calcium carbonate only as table salt" },
+      { id: "c", text: "Potassium permanganate" },
+      { id: "d", text: "Sodium chloride" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "NaCl is common salt.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -280,12 +280,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-acids-a-q22",
     prompt: "An alkali is\u2026",
     options: [
-      { id: "a", text: "A base that dissolves in water" },
-      { id: "b", text: "Any salt" },
+      { id: "a", text: "Any salt" },
+      { id: "b", text: "A base that dissolves in water" },
       { id: "c", text: "Any acid" },
       { id: "d", text: "An indicator" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Alkalis are water-soluble bases.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -293,12 +293,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-acids-a-q23",
     prompt: "Phenolphthalein in acid is\u2026",
     options: [
-      { id: "a", text: "Colourless" },
-      { id: "b", text: "Pink" },
-      { id: "c", text: "Blue" },
+      { id: "a", text: "Pink" },
+      { id: "b", text: "Blue" },
+      { id: "c", text: "Colourless" },
       { id: "d", text: "Green" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Phenolphthalein is colourless in acid and pink in base.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -306,12 +306,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-acids-a-q24",
     prompt: "Phenolphthalein in base is\u2026",
     options: [
-      { id: "a", text: "Pink" },
-      { id: "b", text: "Colourless" },
-      { id: "c", text: "Red litmus only" },
-      { id: "d", text: "Milky" }
+      { id: "a", text: "Colourless" },
+      { id: "b", text: "Red litmus only" },
+      { id: "c", text: "Milky" },
+      { id: "d", text: "Pink" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "It turns pink in basic solutions.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
@@ -335,12 +335,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-acids-b-q02",
     prompt: "Factory waste acids are often treated with\u2026",
     options: [
-      { id: "a", text: "Bases (neutralisation) before release" },
-      { id: "b", text: "More acid" },
+      { id: "a", text: "More acid" },
+      { id: "b", text: "Bases (neutralisation) before release" },
       { id: "c", text: "Only sugar" },
       { id: "d", text: "Only oxygen gas" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Neutralisation reduces environmental harm.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-acids-b-q03",
     prompt: "Ammonia solution is\u2026",
     options: [
-      { id: "a", text: "Basic" },
-      { id: "b", text: "Acidic" },
-      { id: "c", text: "Neutral salt only" },
+      { id: "a", text: "Acidic" },
+      { id: "b", text: "Neutral salt only" },
+      { id: "c", text: "Basic" },
       { id: "d", text: "An indicator dye only" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Aqueous ammonia is a base.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-acids-b-q04",
     prompt: "Which is an olfactory indicator?",
     options: [
-      { id: "a", text: "Onion / vanilla (odour changes in acid/base)" },
-      { id: "b", text: "Blue litmus paper only" },
-      { id: "c", text: "Thermometer" },
-      { id: "d", text: "Magnet" }
+      { id: "a", text: "Blue litmus paper only" },
+      { id: "b", text: "Thermometer" },
+      { id: "c", text: "Magnet" },
+      { id: "d", text: "Onion / vanilla (odour changes in acid/base)" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Olfactory indicators change smell in acid/base.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-acids-b-q06",
     prompt: "Acids turn methyl orange\u2026",
     options: [
-      { id: "a", text: "Red / pinkish" },
-      { id: "b", text: "Yellow" },
+      { id: "a", text: "Yellow" },
+      { id: "b", text: "Red / pinkish" },
       { id: "c", text: "Green" },
       { id: "d", text: "Blue" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Methyl orange is red in acid and yellow in base.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-acids-b-q07",
     prompt: "Bases turn methyl orange\u2026",
     options: [
-      { id: "a", text: "Yellow" },
-      { id: "b", text: "Red" },
-      { id: "c", text: "Black" },
+      { id: "a", text: "Red" },
+      { id: "b", text: "Black" },
+      { id: "c", text: "Yellow" },
       { id: "d", text: "Colourless always" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Methyl orange is yellow in basic medium.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-acids-b-q08",
     prompt: "Curd and citrus fruits contain\u2026",
     options: [
-      { id: "a", text: "Acids (lactic / citric etc.)" },
-      { id: "b", text: "Only strong bases" },
-      { id: "c", text: "Only pure metals" },
-      { id: "d", text: "Only indicators" }
+      { id: "a", text: "Only strong bases" },
+      { id: "b", text: "Only pure metals" },
+      { id: "c", text: "Only indicators" },
+      { id: "d", text: "Acids (lactic / citric etc.)" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Food acids give sour taste.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -439,12 +439,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-acids-b-q10",
     prompt: "Which gas is released when an acid reacts with a metal carbonate?",
     options: [
-      { id: "a", text: "Carbon dioxide" },
-      { id: "b", text: "Hydrogen only always" },
+      { id: "a", text: "Hydrogen only always" },
+      { id: "b", text: "Carbon dioxide" },
       { id: "c", text: "Nitrogen" },
       { id: "d", text: "Neon" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Acid + carbonate \u2192 salt + water + CO\u2082.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -452,12 +452,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-acids-b-q11",
     prompt: "Distilled water is\u2026",
     options: [
-      { id: "a", text: "Neutral" },
-      { id: "b", text: "Strongly acidic" },
-      { id: "c", text: "Strongly basic" },
+      { id: "a", text: "Strongly acidic" },
+      { id: "b", text: "Strongly basic" },
+      { id: "c", text: "Neutral" },
       { id: "d", text: "A salt crystal" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Pure water is neutral (pH 7).",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -465,12 +465,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-acids-b-q12",
     prompt: "A pH of 2 indicates a\u2026",
     options: [
-      { id: "a", text: "Strongly acidic solution" },
-      { id: "b", text: "Neutral solution" },
-      { id: "c", text: "Strongly basic solution" },
-      { id: "d", text: "Salt with pH 7" }
+      { id: "a", text: "Neutral solution" },
+      { id: "b", text: "Strongly basic solution" },
+      { id: "c", text: "Salt with pH 7" },
+      { id: "d", text: "Strongly acidic solution" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Far below 7 means strongly acidic.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -491,12 +491,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-acids-b-q14",
     prompt: "Neutralisation can be represented as\u2026",
     options: [
-      { id: "a", text: "H\u207a + OH\u207b \u2192 H\u2082O" },
-      { id: "b", text: "Na + Cl \u2192 only heat" },
+      { id: "a", text: "Na + Cl \u2192 only heat" },
+      { id: "b", text: "H\u207a + OH\u207b \u2192 H\u2082O" },
       { id: "c", text: "CO\u2082 \u2192 O\u2082" },
       { id: "d", text: "N\u2082 + O\u2082 \u2192 sugar" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Hydrogen ions and hydroxide ions form water.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -504,12 +504,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-acids-b-q15",
     prompt: "Plaster of Paris is related to\u2026",
     options: [
-      { id: "a", text: "Calcium sulphate chemistry (salts)" },
-      { id: "b", text: "Sodium hydroxide acid" },
-      { id: "c", text: "Only nitrogen gas" },
+      { id: "a", text: "Sodium hydroxide acid" },
+      { id: "b", text: "Only nitrogen gas" },
+      { id: "c", text: "Calcium sulphate chemistry (salts)" },
       { id: "d", text: "Chlorophyll" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "PoP comes from gypsum (a salt) chemistry.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -517,12 +517,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-acids-b-q16",
     prompt: "Bleaching powder is associated with\u2026",
     options: [
-      { id: "a", text: "Chlorine chemistry used for bleaching/disinfecting" },
-      { id: "b", text: "Only sugar refining as its only use named here" },
-      { id: "c", text: "Making chilli milder" },
-      { id: "d", text: "Photosynthesis" }
+      { id: "a", text: "Only sugar refining as its only use named here" },
+      { id: "b", text: "Making chilli milder" },
+      { id: "c", text: "Photosynthesis" },
+      { id: "d", text: "Chlorine chemistry used for bleaching/disinfecting" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Bleaching powder releases chlorine for bleaching/disinfection.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -543,12 +543,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-acids-b-q18",
     prompt: "Which is NOT a property of bases?",
     options: [
-      { id: "a", text: "They turn blue litmus red" },
-      { id: "b", text: "They feel soapy" },
+      { id: "a", text: "They feel soapy" },
+      { id: "b", text: "They turn blue litmus red" },
       { id: "c", text: "They have pH > 7" },
       { id: "d", text: "They can neutralise acids" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Bases turn red litmus blue; they do not turn blue litmus red.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -556,12 +556,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-acids-b-q19",
     prompt: "Universal indicator shows\u2026",
     options: [
-      { id: "a", text: "Different colours across the pH range" },
-      { id: "b", text: "Only one colour forever" },
-      { id: "c", text: "Temperature only" },
+      { id: "a", text: "Only one colour forever" },
+      { id: "b", text: "Temperature only" },
+      { id: "c", text: "Different colours across the pH range" },
       { id: "d", text: "Mass only" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Universal indicator maps pH to a colour chart.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -569,12 +569,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-acids-b-q20",
     prompt: "Diluting a strong acid should be done by\u2026",
     options: [
-      { id: "a", text: "Adding acid slowly to water (with care)" },
-      { id: "b", text: "Adding water to concentrated acid quickly" },
-      { id: "c", text: "Tasting first" },
-      { id: "d", text: "Heating in a closed bottle" }
+      { id: "a", text: "Adding water to concentrated acid quickly" },
+      { id: "b", text: "Tasting first" },
+      { id: "c", text: "Heating in a closed bottle" },
+      { id: "d", text: "Adding acid slowly to water (with care)" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Safety: acid into water, slowly, with stirring \u2014 never the reverse casually.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -595,12 +595,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-acids-b-q22",
     prompt: "Which ion do acids commonly release in water?",
     options: [
-      { id: "a", text: "H\u207a (hydrogen ions)" },
-      { id: "b", text: "OH\u207b only" },
+      { id: "a", text: "OH\u207b only" },
+      { id: "b", text: "H\u207a (hydrogen ions)" },
       { id: "c", text: "Only Na\u207a" },
       { id: "d", text: "Only Cl\u2082 gas always" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Acids furnish H\u207a in aqueous solution.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -608,12 +608,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-acids-b-q23",
     prompt: "Which ion do alkalis commonly release in water?",
     options: [
-      { id: "a", text: "OH\u207b (hydroxide ions)" },
-      { id: "b", text: "H\u207a only" },
-      { id: "c", text: "Only CO\u2083\u00b2\u207b always" },
+      { id: "a", text: "H\u207a only" },
+      { id: "b", text: "Only CO\u2083\u00b2\u207b always" },
+      { id: "c", text: "OH\u207b (hydroxide ions)" },
       { id: "d", text: "Only neon" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Alkalis furnish OH\u207b in water.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -621,12 +621,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-acids-b-q24",
     prompt: "Common salt, baking soda, and washing soda are all examples of\u2026",
     options: [
-      { id: "a", text: "Salts (useful compounds)" },
-      { id: "b", text: "Strong acids only" },
-      { id: "c", text: "Indicators only" },
-      { id: "d", text: "Metals only" }
+      { id: "a", text: "Strong acids only" },
+      { id: "b", text: "Indicators only" },
+      { id: "c", text: "Metals only" },
+      { id: "d", text: "Salts (useful compounds)" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "They are important salts used at home and industry.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
@@ -666,12 +666,12 @@ const lesson: ChapterDef["lesson"] = [
     title: "Quick try",
     prompt: "Acid + base gives\u2026",
     options: [
-        { id: "a", text: "Salt and water" },
-        { id: "b", text: "Only oxygen" },
-        { id: "c", text: "Only nitrogen" },
+        { id: "a", text: "Only oxygen" },
+        { id: "b", text: "Only nitrogen" },
+        { id: "c", text: "Salt and water" },
         { id: "d", text: "Only sugar" }
     ],
-    answerId: "a",
+    answerId: "c",
     why: "Neutralisation produces salt and water.",
     visual: "atom-lite",
     speak: "Acid + base gives\u2026",

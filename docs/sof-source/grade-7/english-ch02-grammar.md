@@ -33,11 +33,11 @@
 - stem: |
   Identify the noun: The curiosity of the child surprised us.
 - options:
-  - A: curiosity
-  - B: surprised
+  - A: surprised
+  - B: curiosity
   - C: us
   - D: of
-- answer: A
+- answer: B
 - explanation: |
   Curiosity names an idea — a noun.
 
@@ -46,11 +46,11 @@
 - stem: |
   Which word is an adjective in “The quiet library calmed Mira”?
 - options:
-  - A: quiet
-  - B: library
-  - C: calmed
+  - A: library
+  - B: calmed
+  - C: quiet
   - D: Mira
-- answer: A
+- answer: C
 - explanation: |
   Quiet describes the library.
 
@@ -59,11 +59,11 @@
 - stem: |
   Choose the correct pronoun: ____ are waiting outside.
 - options:
-  - A: They
-  - B: Them
-  - C: Their
-  - D: Theirs
-- answer: A
+  - A: Them
+  - B: Their
+  - C: Theirs
+  - D: They
+- answer: D
 - explanation: |
   Subject pronoun They is needed.
 
@@ -85,11 +85,11 @@
 - stem: |
   Correct article: She bought ____ umbrella.
 - options:
-  - A: an
-  - B: a
+  - A: a
+  - B: an
   - C: the only if unique always
   - D: no article possible
-- answer: A
+- answer: B
 - explanation: |
   Umbrella begins with a vowel sound → an.
 
@@ -98,11 +98,11 @@
 - stem: |
   Choose the correct tense: Yesterday we ____ a film.
 - options:
-  - A: watched
-  - B: watch
-  - C: watching
+  - A: watch
+  - B: watching
+  - C: watched
   - D: watches
-- answer: A
+- answer: C
 - explanation: |
   Yesterday signals past tense.
 
@@ -111,11 +111,11 @@
 - stem: |
   Identify the preposition: The cat slept under the table.
 - options:
-  - A: under
-  - B: cat
-  - C: slept
-  - D: table
-- answer: A
+  - A: cat
+  - B: slept
+  - C: table
+  - D: under
+- answer: D
 - explanation: |
   Under shows position.
 
@@ -137,11 +137,11 @@
 - stem: |
   Choose the conjunction: I stayed indoors ____ it was raining.
 - options:
-  - A: because
-  - B: but only as contrast without cause
+  - A: but only as contrast without cause
+  - B: because
   - C: or
   - D: nor
-- answer: A
+- answer: B
 - explanation: |
   Because shows cause.
 
@@ -150,11 +150,11 @@
 - stem: |
   Correct form: Neither of the answers ____ correct.
 - options:
-  - A: is
-  - B: are
-  - C: were being
+  - A: are
+  - B: were being
+  - C: is
   - D: have
-- answer: A
+- answer: C
 - explanation: |
   Neither is singular → is.
 
@@ -163,11 +163,11 @@
 - stem: |
   Identify the direct object: Riya wrote a letter.
 - options:
-  - A: letter
-  - B: Riya
-  - C: wrote
-  - D: a
-- answer: A
+  - A: Riya
+  - B: wrote
+  - C: a
+  - D: letter
+- answer: D
 - explanation: |
   Letter receives the action of wrote.
 
@@ -189,11 +189,11 @@
 - stem: |
   Which is a complex sentence?
 - options:
-  - A: Although it rained, we played.
-  - B: We played.
+  - A: We played.
+  - B: Although it rained, we played.
   - C: Rained and played.
   - D: Play!
-- answer: A
+- answer: B
 - explanation: |
   It has a dependent clause (Although…) plus a main clause.
 
@@ -202,11 +202,11 @@
 - stem: |
   Correct possessive: This is ____ book.
 - options:
-  - A: Maya’s
-  - B: Mayas
-  - C: Maya
+  - A: Mayas
+  - B: Maya
+  - C: Maya’s
   - D: Mayas’
-- answer: A
+- answer: C
 - explanation: |
   Singular possessive adds ’s.
 
@@ -215,11 +215,11 @@
 - stem: |
   Choose the right verb: The news ____ surprising.
 - options:
-  - A: is
-  - B: are
-  - C: were
-  - D: have
-- answer: A
+  - A: are
+  - B: were
+  - C: have
+  - D: is
+- answer: D
 - explanation: |
   News is singular in standard usage.
 
@@ -241,11 +241,11 @@
 - stem: |
   Correct: Each of the students ____ a notebook.
 - options:
-  - A: has
-  - B: have
+  - A: have
+  - B: has
   - C: having
   - D: are having
-- answer: A
+- answer: B
 - explanation: |
   Each is singular → has.
 
@@ -254,11 +254,11 @@
 - stem: |
   Which sentence uses the passive voice?
 - options:
-  - A: The window was cleaned by Arun.
-  - B: Arun cleaned the window.
-  - C: Arun is cleaning.
+  - A: Arun cleaned the window.
+  - B: Arun is cleaning.
+  - C: The window was cleaned by Arun.
   - D: Clean the window!
-- answer: A
+- answer: C
 - explanation: |
   Was cleaned focuses on the receiver of the action.
 
@@ -267,11 +267,11 @@
 - stem: |
   Choose correct relative pronoun: The girl ____ won the race is my cousin.
 - options:
-  - A: who
-  - B: which
-  - C: whom’s
-  - D: what
-- answer: A
+  - A: which
+  - B: whom’s
+  - C: what
+  - D: who
+- answer: D
 - explanation: |
   Who refers to people as subject.
 
@@ -293,11 +293,11 @@
 - stem: |
   Identify the subject: Across the field ran the dogs.
 - options:
-  - A: the dogs
-  - B: Across
+  - A: Across
+  - B: the dogs
   - C: field
   - D: ran
-- answer: A
+- answer: B
 - explanation: |
   Dogs perform the action (inverted sentence).
 
@@ -306,11 +306,11 @@
 - stem: |
   Correct plural: The ____ are sharp.
 - options:
-  - A: knives
-  - B: knifes
-  - C: knife’s
+  - A: knifes
+  - B: knife’s
+  - C: knives
   - D: knive
-- answer: A
+- answer: C
 - explanation: |
   Knife → knives.
 
@@ -319,11 +319,11 @@
 - stem: |
   Choose the correctly ordered adjectives: She adopted a ____ puppy.
 - options:
-  - A: small brown
-  - B: brown small
-  - C: brownly small
-  - D: smallness brown
-- answer: A
+  - A: brown small
+  - B: brownly small
+  - C: smallness brown
+  - D: small brown
+- answer: D
 - explanation: |
   Opinion/size before colour is the usual order: small brown.
 
@@ -347,11 +347,11 @@
 - stem: |
   Identify the clause type: “when the bell rang” in “We left when the bell rang.”
 - options:
-  - A: Adverb clause
-  - B: Noun only
+  - A: Noun only
+  - B: Adverb clause
   - C: Adjective phrase only
   - D: Interjection
-- answer: A
+- answer: B
 - explanation: |
   It tells when — an adverb clause of time.
 
@@ -360,11 +360,11 @@
 - stem: |
   Correct punctuation for a list: We need pens, pencils, ____ erasers.
 - options:
-  - A: and
-  - B: or only forever
-  - C: but
+  - A: or only forever
+  - B: but
+  - C: and
   - D: nor
-- answer: A
+- answer: C
 - explanation: |
   Use and before the final item in a simple list.
 
@@ -373,11 +373,11 @@
 - stem: |
   Choose the gerund: ____ is good exercise.
 - options:
-  - A: Swimming
-  - B: Swam
-  - C: Swimmed
-  - D: To swam
-- answer: A
+  - A: Swam
+  - B: Swimmed
+  - C: To swam
+  - D: Swimming
+- answer: D
 - explanation: |
   Swimming acts as a noun (gerund).
 
@@ -399,11 +399,11 @@
 - stem: |
   Correct: The committee ____ decided.
 - options:
-  - A: has
-  - B: have been many people always
+  - A: have been many people always
+  - B: has
   - C: are deciding as many always
   - D: were many
-- answer: A
+- answer: B
 - explanation: |
   Committee as a single unit takes singular has in this sense.
 
@@ -412,11 +412,11 @@
 - stem: |
   Choose correct modal: You ____ wear a helmet. (strong obligation)
 - options:
-  - A: must
-  - B: might
-  - C: could for weak only
+  - A: might
+  - B: could for weak only
+  - C: must
   - D: may perhaps
-- answer: A
+- answer: C
 - explanation: |
   Must expresses strong obligation.
 
@@ -425,11 +425,11 @@
 - stem: |
   Identify the object pronoun: Give the book to ____.
 - options:
-  - A: her
-  - B: she
-  - C: hers only as possessive noun phrase
-  - D: herself as intensive without object need
-- answer: A
+  - A: she
+  - B: hers only as possessive noun phrase
+  - C: herself as intensive without object need
+  - D: her
+- answer: D
 - explanation: |
   After a preposition, use object pronoun her.
 
@@ -451,11 +451,11 @@
 - stem: |
   Which word is a correlative pair with “not only”?
 - options:
-  - A: but also
-  - B: and or
+  - A: and or
+  - B: but also
   - C: because
   - D: under
-- answer: A
+- answer: B
 - explanation: |
   Not only… but also…
 
@@ -464,11 +464,11 @@
 - stem: |
   Choose correct: Between you and ____, this plan works.
 - options:
-  - A: me
-  - B: I
-  - C: myself always
+  - A: I
+  - B: myself always
+  - C: me
   - D: mine
-- answer: A
+- answer: C
 - explanation: |
   Object of preposition between → me.
 
@@ -477,11 +477,11 @@
 - stem: |
   Identify the finite verb: To win is his dream, but he trains hard.
 - options:
-  - A: trains
-  - B: To win
-  - C: dream
-  - D: hard
-- answer: A
+  - A: To win
+  - B: dream
+  - C: hard
+  - D: trains
+- answer: D
 - explanation: |
   Trains is finite (tense-marked); “To win” is infinitive.
 
@@ -503,11 +503,11 @@
 - stem: |
   Choose the correct question tag: You are ready, ____?
 - options:
-  - A: aren’t you
-  - B: are you not you
+  - A: are you not you
+  - B: aren’t you
   - C: isn’t I
   - D: don’t we
-- answer: A
+- answer: B
 - explanation: |
   Positive statement → negative tag with matching verb.
 
@@ -516,11 +516,11 @@
 - stem: |
   Which is a compound sentence?
 - options:
-  - A: I cooked, and she cleaned.
-  - B: When I cooked, she cleaned.
-  - C: Cooking.
+  - A: When I cooked, she cleaned.
+  - B: Cooking.
+  - C: I cooked, and she cleaned.
   - D: She.
-- answer: A
+- answer: C
 - explanation: |
   Two independent clauses joined by and.
 
@@ -529,11 +529,11 @@
 - stem: |
   Correct: One of my friends ____ abroad.
 - options:
-  - A: lives
-  - B: live
-  - C: living
-  - D: have lived always as plural
-- answer: A
+  - A: live
+  - B: living
+  - C: have lived always as plural
+  - D: lives
+- answer: D
 - explanation: |
   One is singular → lives.
 
@@ -555,11 +555,11 @@
 - stem: |
   Choose correct: She insisted on ____ early.
 - options:
-  - A: leaving
-  - B: leave
+  - A: leave
+  - B: leaving
   - C: to left
   - D: left
-- answer: A
+- answer: B
 - explanation: |
   Insist on + gerund.
 
@@ -568,11 +568,11 @@
 - stem: |
   Which sentence avoids a double negative?
 - options:
-  - A: I have no homework.
-  - B: I don’t have no homework.
-  - C: I can’t hardly see no board.
+  - A: I don’t have no homework.
+  - B: I can’t hardly see no board.
+  - C: I have no homework.
   - D: I never told nobody.
-- answer: A
+- answer: C
 - explanation: |
   A single negative is enough.
 
@@ -581,11 +581,11 @@
 - stem: |
   Correct degree: Mount Everest is the ____ peak.
 - options:
-  - A: highest
-  - B: higher
-  - C: high
-  - D: more highest
-- answer: A
+  - A: higher
+  - B: high
+  - C: more highest
+  - D: highest
+- answer: D
 - explanation: |
   Superlative highest for comparison among many.
 
@@ -607,11 +607,11 @@
 - stem: |
   Identify transitive verb usage: She ____ a poem.
 - options:
-  - A: wrote
-  - B: slept
+  - A: slept
+  - B: wrote
   - C: arrived
   - D: smiled
-- answer: A
+- answer: B
 - explanation: |
   Wrote takes an object (poem).
 
@@ -620,11 +620,11 @@
 - stem: |
   Correct: Hardly had we entered ____ it began to rain.
 - options:
-  - A: when
-  - B: than
-  - C: then
+  - A: than
+  - B: then
+  - C: when
   - D: because
-- answer: A
+- answer: C
 - explanation: |
   Hardly… when… is the standard correlative.
 
@@ -633,10 +633,10 @@
 - stem: |
   Which sentence has correct subject–verb agreement?
 - options:
-  - A: The list of names is long.
-  - B: The list of names are long.
-  - C: The lists of name is long.
-  - D: Names is a list.
-- answer: A
+  - A: The list of names are long.
+  - B: The lists of name is long.
+  - C: Names is a list.
+  - D: The list of names is long.
+- answer: D
 - explanation: |
   The head noun list is singular → is.

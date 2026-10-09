@@ -38,33 +38,33 @@
 ### Q02
 - **stem**: Solve: y − 9 = 4.
 - **options**:
-  - A) 13
-  - B) 5
+  - A) 5
+  - B) 13
   - C) −5
   - D) 36
-- **answer**: A
+- **answer**: B
 - **explanation**: Add 9: y = 13.
 - **difficulty**: mixed
 
 ### Q03
 - **stem**: Solve: 3m = 21.
 - **options**:
-  - A) 7
-  - B) 18
-  - C) 63
+  - A) 18
+  - B) 63
+  - C) 7
   - D) 24
-- **answer**: A
+- **answer**: C
 - **explanation**: Divide both sides by 3: m = 7.
 - **difficulty**: mixed
 
 ### Q04
 - **stem**: Solve: n/5 = 6.
 - **options**:
-  - A) 30
-  - B) 11
-  - C) 1
-  - D) 5/6
-- **answer**: A
+  - A) 11
+  - B) 1
+  - C) 5/6
+  - D) 30
+- **answer**: D
 - **explanation**: Multiply both sides by 5: n = 30.
 - **difficulty**: mixed
 
@@ -82,33 +82,33 @@
 ### Q06
 - **stem**: Solve: 5p − 4 = 16.
 - **options**:
-  - A) 4
-  - B) 20
+  - A) 20
+  - B) 4
   - C) 3
   - D) 12
-- **answer**: A
+- **answer**: B
 - **explanation**: 5p = 20, p = 4.
 - **difficulty**: mixed
 
 ### Q07
 - **stem**: Which is a solution of x − 2 = 10?
 - **options**:
-  - A) 12
-  - B) 8
-  - C) 20
+  - A) 8
+  - B) 20
+  - C) 12
   - D) 5
-- **answer**: A
+- **answer**: C
 - **explanation**: 12 − 2 = 10.
 - **difficulty**: mixed
 
 ### Q08
 - **stem**: Translate: “A number increased by 6 is 19.”
 - **options**:
-  - A) x + 6 = 19
-  - B) x − 6 = 19
-  - C) 6x = 19
-  - D) x/6 = 19
-- **answer**: A
+  - A) x − 6 = 19
+  - B) 6x = 19
+  - C) x/6 = 19
+  - D) x + 6 = 19
+- **answer**: D
 - **explanation**: Increased by means add.
 - **difficulty**: mixed
 
@@ -126,33 +126,33 @@
 ### Q10
 - **stem**: Solve: −x = 8.
 - **options**:
-  - A) −8
-  - B) 8
+  - A) 8
+  - B) −8
   - C) 0
   - D) 1
-- **answer**: A
+- **answer**: B
 - **explanation**: Multiply both sides by −1: x = −8.
 - **difficulty**: mixed
 
 ### Q11
 - **stem**: Solve: 4(x − 1) = 20.
 - **options**:
-  - A) 6
-  - B) 5
-  - C) 4
+  - A) 5
+  - B) 4
+  - C) 6
   - D) 21
-- **answer**: A
+- **answer**: C
 - **explanation**: x − 1 = 5, so x = 6.
 - **difficulty**: mixed
 
 ### Q12
 - **stem**: Solve: (x/3) + 2 = 5.
 - **options**:
-  - A) 9
-  - B) 7
-  - C) 3
-  - D) 15
-- **answer**: A
+  - A) 7
+  - B) 3
+  - C) 15
+  - D) 9
+- **answer**: D
 - **explanation**: x/3 = 3, so x = 9.
 - **difficulty**: mixed
 
@@ -170,33 +170,33 @@
 ### Q14
 - **stem**: Solve: 10 − x = 3.
 - **options**:
-  - A) 7
-  - B) 13
+  - A) 13
+  - B) 7
   - C) −7
   - D) 30
-- **answer**: A
+- **answer**: B
 - **explanation**: −x = 3 − 10 = −7, so x = 7. Or: x = 10 − 3.
 - **difficulty**: mixed
 
 ### Q15
 - **stem**: Which equation has solution x = 0?
 - **options**:
-  - A) 5x = 0
-  - B) x + 5 = 0
-  - C) x − 5 = 0
+  - A) x + 5 = 0
+  - B) x − 5 = 0
+  - C) 5x = 0
   - D) x/5 = 1
-- **answer**: A
+- **answer**: C
 - **explanation**: 5 × 0 = 0.
 - **difficulty**: mixed
 
 ### Q16
 - **stem**: Solve: 6x = −18.
 - **options**:
-  - A) −3
-  - B) 3
-  - C) −12
-  - D) 108
-- **answer**: A
+  - A) 3
+  - B) −12
+  - C) 108
+  - D) −3
+- **answer**: D
 - **explanation**: x = −18/6 = −3.
 - **difficulty**: mixed
 
@@ -214,33 +214,33 @@
 ### Q18
 - **stem**: A number minus 12 equals −5. The number is?
 - **options**:
-  - A) 7
-  - B) −7
+  - A) −7
+  - B) 7
   - C) 17
   - D) −17
-- **answer**: A
+- **answer**: B
 - **explanation**: x − 12 = −5 → x = 7.
 - **difficulty**: mixed
 
 ### Q19
 - **stem**: Solve: 3x + x = 20.
 - **options**:
-  - A) 5
-  - B) 10
-  - C) 4
+  - A) 10
+  - B) 4
+  - C) 5
   - D) 20
-- **answer**: A
+- **answer**: C
 - **explanation**: 4x = 20, x = 5.
 - **difficulty**: mixed
 
 ### Q20
 - **stem**: Solve: 2x − x + 4 = 9.
 - **options**:
-  - A) 5
-  - B) 13
-  - C) 4.5
-  - D) −5
-- **answer**: A
+  - A) 13
+  - B) 4.5
+  - C) −5
+  - D) 5
+- **answer**: D
 - **explanation**: x + 4 = 9, x = 5.
 - **difficulty**: mixed
 
@@ -258,33 +258,33 @@
 ### Q22
 - **stem**: Solve: 5(x + 2) = 5x + 10.
 - **options**:
-  - A) All real numbers (identity)
-  - B) x = 0 only
+  - A) x = 0 only
+  - B) All real numbers (identity)
   - C) x = 2 only
   - D) No solution
-- **answer**: A
+- **answer**: B
 - **explanation**: Expanding gives 5x + 10 = 5x + 10 — always true.
 - **difficulty**: mixed
 
 ### Q23
 - **stem**: Solve: 2x + 5 = 2x + 9.
 - **options**:
-  - A) No solution
-  - B) x = 0
-  - C) x = 2
+  - A) x = 0
+  - B) x = 2
+  - C) No solution
   - D) All real numbers
-- **answer**: A
+- **answer**: C
 - **explanation**: Subtract 2x: 5 = 9, which is false. No solution.
 - **difficulty**: mixed
 
 ### Q24
 - **stem**: Meera has ₹x. After spending ₹40 she has ₹110. Find x.
 - **options**:
-  - A) 150
-  - B) 70
-  - C) 40
-  - D) 110
-- **answer**: A
+  - A) 70
+  - B) 40
+  - C) 110
+  - D) 150
+- **answer**: D
 - **explanation**: x − 40 = 110 → x = 150.
 - **difficulty**: mixed
 
@@ -304,33 +304,33 @@
 ### Q02
 - **stem**: Solve: 3(x − 4) = 2(x + 1).
 - **options**:
-  - A) 14
-  - B) 10
+  - A) 10
+  - B) 14
   - C) −14
   - D) 2
-- **answer**: A
+- **answer**: B
 - **explanation**: 3x − 12 = 2x + 2 → x = 14.
 - **difficulty**: mixed
 
 ### Q03
 - **stem**: The sum of three consecutive integers starting at n is 54. Find n.
 - **options**:
-  - A) 17
-  - B) 18
-  - C) 16
+  - A) 18
+  - B) 16
+  - C) 17
   - D) 15
-- **answer**: A
+- **answer**: C
 - **explanation**: n + (n+1) + (n+2) = 54 → 3n + 3 = 54 → n = 17.
 - **difficulty**: mixed
 
 ### Q04
 - **stem**: Solve: x/4 = x/6 + 1.
 - **options**:
-  - A) 12
-  - B) 6
-  - C) 24
-  - D) 2
-- **answer**: A
+  - A) 6
+  - B) 24
+  - C) 2
+  - D) 12
+- **answer**: D
 - **explanation**: Multiply by 12: 3x = 2x + 12 → x = 12.
 - **difficulty**: mixed
 
@@ -348,33 +348,33 @@
 ### Q06
 - **stem**: Solve: −2x = 14.
 - **options**:
-  - A) −7
-  - B) 7
+  - A) 7
+  - B) −7
   - C) −16
   - D) 16
-- **answer**: A
+- **answer**: B
 - **explanation**: x = 14/(−2) = −7.
 - **difficulty**: mixed
 
 ### Q07
 - **stem**: If 2x − 1 = 9, then 3x + 2 = ?
 - **options**:
-  - A) 17
-  - B) 14
-  - C) 11
+  - A) 14
+  - B) 11
+  - C) 17
   - D) 5
-- **answer**: A
+- **answer**: C
 - **explanation**: 2x = 10, x = 5; 3×5 + 2 = 17.
 - **difficulty**: mixed
 
 ### Q08
 - **stem**: Solve: 8 − 3x = 2.
 - **options**:
-  - A) 2
-  - B) −2
-  - C) 10/3
-  - D) 3
-- **answer**: A
+  - A) −2
+  - B) 10/3
+  - C) 3
+  - D) 2
+- **answer**: D
 - **explanation**: −3x = −6 → x = 2.
 - **difficulty**: mixed
 
@@ -392,33 +392,33 @@
 ### Q10
 - **stem**: Solve: (2x + 1)/3 = 5.
 - **options**:
-  - A) 7
-  - B) 8
+  - A) 8
+  - B) 7
   - C) 14
   - D) 4
-- **answer**: A
+- **answer**: B
 - **explanation**: 2x + 1 = 15 → 2x = 14 → x = 7.
 - **difficulty**: mixed
 
 ### Q11
 - **stem**: Age: Ravi is 5 years older than Priya. Sum of ages is 29. Priya’s age?
 - **options**:
-  - A) 12
-  - B) 17
-  - C) 24
+  - A) 17
+  - B) 24
+  - C) 12
   - D) 5
-- **answer**: A
+- **answer**: C
 - **explanation**: p + (p+5) = 29 → 2p = 24 → p = 12.
 - **difficulty**: mixed
 
 ### Q12
 - **stem**: Solve: 9 − x = 2x.
 - **options**:
-  - A) 3
-  - B) 9
-  - C) −3
-  - D) 6
-- **answer**: A
+  - A) 9
+  - B) −3
+  - C) 6
+  - D) 3
+- **answer**: D
 - **explanation**: 9 = 3x → x = 3.
 - **difficulty**: mixed
 
@@ -436,33 +436,33 @@
 ### Q14
 - **stem**: Solve: 0.5x = 4.
 - **options**:
-  - A) 8
-  - B) 2
+  - A) 2
+  - B) 8
   - C) 4.5
   - D) 0.5
-- **answer**: A
+- **answer**: B
 - **explanation**: x = 4 / 0.5 = 8.
 - **difficulty**: mixed
 
 ### Q15
 - **stem**: Two numbers sum to 40; one is 3 more than the other. Smaller number?
 - **options**:
-  - A) 18.5
-  - B) 21.5
-  - C) 20
+  - A) 21.5
+  - B) 20
+  - C) 18.5
   - D) 17
-- **answer**: A
+- **answer**: C
 - **explanation**: x + (x+3) = 40 → 2x = 37 → x = 18.5.
 - **difficulty**: mixed
 
 ### Q16
 - **stem**: Solve: 4x + 7 = −9.
 - **options**:
-  - A) −4
-  - B) 4
-  - C) −16/4
-  - D) 2
-- **answer**: A
+  - A) 4
+  - B) −16/4
+  - C) 2
+  - D) −4
+- **answer**: D
 - **explanation**: 4x = −16 → x = −4.
 - **difficulty**: mixed
 
@@ -480,33 +480,33 @@
 ### Q18
 - **stem**: Solve: 5x − 2x + 6 = 24.
 - **options**:
-  - A) 6
-  - B) 10
+  - A) 10
+  - B) 6
   - C) 18
   - D) 3
-- **answer**: A
+- **answer**: B
 - **explanation**: 3x + 6 = 24 → 3x = 18 → x = 6.
 - **difficulty**: mixed
 
 ### Q19
 - **stem**: Check: Is x = −2 a solution of 3x + 8 = 2?
 - **options**:
-  - A) Yes
-  - B) No
-  - C) Only if x > 0
+  - A) No
+  - B) Only if x > 0
+  - C) Yes
   - D) Cannot tell
-- **answer**: A
+- **answer**: C
 - **explanation**: 3(−2) + 8 = −6 + 8 = 2. Yes.
 - **difficulty**: mixed
 
 ### Q20
 - **stem**: Solve: 12 = 3(x + 1).
 - **options**:
-  - A) 3
-  - B) 4
-  - C) 5
-  - D) 11
-- **answer**: A
+  - A) 4
+  - B) 5
+  - C) 11
+  - D) 3
+- **answer**: D
 - **explanation**: 4 = x + 1 → x = 3.
 - **difficulty**: mixed
 
@@ -524,32 +524,32 @@
 ### Q22
 - **stem**: From 3x = x + 90, x = ?
 - **options**:
-  - A) 45
-  - B) 30
+  - A) 30
+  - B) 45
   - C) 90
   - D) 15
-- **answer**: A
+- **answer**: B
 - **explanation**: 2x = 90 → x = 45.
 - **difficulty**: mixed
 
 ### Q23
 - **stem**: Solve: −(x − 4) = 10.
 - **options**:
-  - A) −6
-  - B) 6
-  - C) 14
+  - A) 6
+  - B) 14
+  - C) −6
   - D) −14
-- **answer**: A
+- **answer**: C
 - **explanation**: −x + 4 = 10 → −x = 6 → x = −6.
 - **difficulty**: mixed
 
 ### Q24
 - **stem**: Linear equation means the variable’s power is…
 - **options**:
-  - A) 1
-  - B) 2
-  - C) 0
-  - D) Any power
-- **answer**: A
+  - A) 2
+  - B) 0
+  - C) Any power
+  - D) 1
+- **answer**: D
 - **explanation**: In a linear equation, the unknown appears to the first power only.
 - **difficulty**: mixed
