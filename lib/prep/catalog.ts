@@ -61,6 +61,8 @@ import { g8MathsExponents } from "./content/g8-maths-exponents";
 import { g8EnglishLiterature } from "./content/g8-english-literature";
 import { g8EnglishGrammar } from "./content/g8-english-grammar";
 import { g8EnglishWords } from "./content/g8-english-words";
+import { g8EnglishSpoken } from "./content/g8-english-spoken";
+import { g8EnglishWriting } from "./content/g8-english-writing";
 
 function sets(topics: [string, string][]): ChapterDef["sets"] {
   return topics.map(([id, topic], i) => ({
@@ -673,6 +675,8 @@ const ENGLISH: Record<number, ChapterDef[]> = {
     g8EnglishLiterature,
     g8EnglishGrammar,
     g8EnglishWords,
+    g8EnglishSpoken,
+    g8EnglishWriting,
   ],
   9: [], // placeholder — English Writer
   10: [], // placeholder — English Writer
