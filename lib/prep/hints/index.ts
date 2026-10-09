@@ -18,6 +18,9 @@ import { G8_ENGLISH_HINTS } from "./g8-english";
 import { G6_MATHS_HINTS } from "./g6-maths";
 import { G6_SCIENCE_HINTS } from "./g6-science";
 import { G6_ENGLISH_HINTS } from "./g6-english";
+import { G9_MATHS_HINTS } from "./g9-maths";
+import { G9_SCIENCE_HINTS } from "./g9-science";
+import { G9_ENGLISH_HINTS } from "./g9-english";
 
 export type { HintOverlay } from "./types";
 
@@ -40,6 +43,9 @@ const ALL_HINT_OVERLAYS: Record<string, HintOverlay> = {
   ...G6_MATHS_HINTS,
   ...G6_SCIENCE_HINTS,
   ...G6_ENGLISH_HINTS,
+  ...G9_MATHS_HINTS,
+  ...G9_SCIENCE_HINTS,
+  ...G9_ENGLISH_HINTS,
 };
 
 /** Phrases the ingest pipeline stamps when the writer left hints blank. */
@@ -99,6 +105,9 @@ export function hintOverlayStats(): Record<string, number> {
     "g6-maths": G6_MATHS_HINTS,
     "g6-science": G6_SCIENCE_HINTS,
     "g6-english": G6_ENGLISH_HINTS,
+    "g9-maths": G9_MATHS_HINTS,
+    "g9-science": G9_SCIENCE_HINTS,
+    "g9-english": G9_ENGLISH_HINTS,
   };
   const stats: Record<string, number> = {};
   for (const [k, v] of Object.entries(packs)) stats[k] = Object.keys(v).length;
