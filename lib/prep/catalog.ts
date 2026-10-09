@@ -40,6 +40,9 @@ import { g8ScienceChemfx } from "./content/g8-science-chemfx";
 import { g8MathsRationals } from "./content/g8-maths-rationals";
 import { g8MathsLinear } from "./content/g8-maths-linear";
 import { g8MathsComparing } from "./content/g8-maths-comparing";
+import { g8MathsAlgebra } from "./content/g8-maths-algebra";
+import { g8MathsMensuration } from "./content/g8-maths-mensuration";
+import { g8MathsExponents } from "./content/g8-maths-exponents";
 import { g8EnglishLiterature } from "./content/g8-english-literature";
 import { g8EnglishGrammar } from "./content/g8-english-grammar";
 import { g8EnglishWords } from "./content/g8-english-words";
@@ -613,6 +616,9 @@ const MATHS: Record<number, ChapterDef[]> = {
     g8MathsRationals,
     g8MathsLinear,
     g8MathsComparing,
+    g8MathsAlgebra,
+    g8MathsMensuration,
+    g8MathsExponents,
   ],
   9: [], // placeholder — Maths Writer
   10: [], // placeholder — Maths Writer

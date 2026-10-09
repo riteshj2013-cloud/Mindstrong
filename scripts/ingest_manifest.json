@@ -136,5 +136,29 @@
     8,
     "g8ScienceChemfx",
     "g8-science-chemfx"
+  ],
+  [
+    "maths",
+    8,
+    "g8MathsAlgebra",
+    "g8-maths-algebra"
+  ],
+  [
+    "maths",
+    8,
+    "g8MathsMensuration",
+    "g8-maths-mensuration"
+  ],
+  [
+    "maths",
+    8,
+    "g8MathsExponents",
+    "g8-maths-exponents"
+  ],
+  [
+    "maths",
+    8,
+    "g8MathsComparing",
+    "g8-maths-comparing"
   ]
 ]
