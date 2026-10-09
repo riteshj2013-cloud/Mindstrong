@@ -4,7 +4,8 @@ Three tracks to treat the product as “ready”: **content quality**, **Google 
 Do them in parallel where you can; **content blockers** should be green before you call grades exam-ready in store listings.
 
 Live web: https://riteshj2013-cloud.github.io/Mindstrong/  
-Native shells: [`docs/mobile.md`](mobile.md) · Quality report: [`docs/quality-report.md`](quality-report.md)
+Native shells: [`mobile.md`](mobile.md) · Quality report: [`quality-report.md`](quality-report.md)  
+Store listing draft: [`store-listing.md`](store-listing.md) · Brand masters: [`branding/`](branding/)
 
 ---
 
