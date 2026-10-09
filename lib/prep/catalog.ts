@@ -20,6 +20,9 @@ import { g4EnglishWords } from "./content/g4-english-words";
 import { g4ScienceFood } from "./content/g4-science-food";
 import { g4ScienceMatter } from "./content/g4-science-matter";
 import { g4ScienceWater } from "./content/g4-science-water";
+import { g4SciencePlants } from "./content/g4-science-plants";
+import { g4ScienceAnimals } from "./content/g4-science-animals";
+import { g4ScienceOurBody } from "./content/g4-science-our-body";
 import { g5MathsLargeNumbers } from "./content/g5-maths-large-numbers";
 import { g5MathsAngles } from "./content/g5-maths-angles";
 import { g5MathsFractions } from "./content/g5-maths-fractions";
@@ -683,6 +686,9 @@ const SCIENCE: Record<number, ChapterDef[]> = {
     g4ScienceFood,
     g4ScienceMatter,
     g4ScienceWater,
+    g4SciencePlants,
+    g4ScienceAnimals,
+    g4ScienceOurBody,
   ],
   5: [
     g5SciencePlants,
