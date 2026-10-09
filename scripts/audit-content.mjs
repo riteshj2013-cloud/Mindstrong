@@ -24,6 +24,8 @@ const RULES = [
   ["dollar", /\$\s?\d|\d\s?\$|\bdollars?\b|\bUSD\b|\bcents?\b/i],
   // Pictorial ingest sometimes concatenates "Look at " + figure title → "Look at Read the …"
   ["look-at-read", /\bLook at Read\b/],
+  // G4-style pictorial scaffolding must live in figure.longdesc, never in the quiz prompt.
+  ["sr-longdesc-in-prompt", /Text-only version for screen readers/i],
 ];
 
 const findings = [];
@@ -39,6 +41,7 @@ function walk(v, where) {
   if (v && typeof v === "object") {
     for (const [k, x] of Object.entries(v)) {
       if (k === "markup" || k === "svg") continue; // raw SVG (may legitimately contain <marker>)
+      if (k === "longdesc") continue; // intentional AT text; flag only if it leaks into prompts
       walk(x, `${where}.${x && typeof x === "object" && x.id ? x.id : k}`);
     }
   }
