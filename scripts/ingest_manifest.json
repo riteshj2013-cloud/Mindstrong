@@ -48,6 +48,24 @@
     "g5-science-space"
   ],
   [
+    "science",
+    5,
+    "g5ScienceMatter",
+    "g5-science-matter"
+  ],
+  [
+    "science",
+    5,
+    "g5ScienceForce",
+    "g5-science-force"
+  ],
+  [
+    "science",
+    5,
+    "g5ScienceEnvironment",
+    "g5-science-environment"
+  ],
+  [
     "maths",
     4,
     "g4MathsMeasurement",
