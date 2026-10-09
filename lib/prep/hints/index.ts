@@ -1,5 +1,11 @@
 import type { PrepQuestion } from "../types";
 import type { HintOverlay } from "./types";
+import { G1_MATHS_HINTS } from "./g1-maths";
+import { G1_SCIENCE_HINTS } from "./g1-science";
+import { G1_ENGLISH_HINTS } from "./g1-english";
+import { G2_MATHS_HINTS } from "./g2-maths";
+import { G2_SCIENCE_HINTS } from "./g2-science";
+import { G2_ENGLISH_HINTS } from "./g2-english";
 import { G3_MATHS_HINTS } from "./g3-maths";
 import { G3_SCIENCE_HINTS } from "./g3-science";
 import { G3_ENGLISH_HINTS } from "./g3-english";
@@ -25,6 +31,12 @@ import { G9_ENGLISH_HINTS } from "./g9-english";
 export type { HintOverlay } from "./types";
 
 const ALL_HINT_OVERLAYS: Record<string, HintOverlay> = {
+  ...G1_MATHS_HINTS,
+  ...G1_SCIENCE_HINTS,
+  ...G1_ENGLISH_HINTS,
+  ...G2_MATHS_HINTS,
+  ...G2_SCIENCE_HINTS,
+  ...G2_ENGLISH_HINTS,
   ...G3_MATHS_HINTS,
   ...G3_SCIENCE_HINTS,
   ...G3_ENGLISH_HINTS,
@@ -87,6 +99,12 @@ export function applyHintsList(qs: PrepQuestion[]): PrepQuestion[] {
 
 export function hintOverlayStats(): Record<string, number> {
   const packs: Record<string, Record<string, HintOverlay>> = {
+    "g1-maths": G1_MATHS_HINTS,
+    "g1-science": G1_SCIENCE_HINTS,
+    "g1-english": G1_ENGLISH_HINTS,
+    "g2-maths": G2_MATHS_HINTS,
+    "g2-science": G2_SCIENCE_HINTS,
+    "g2-english": G2_ENGLISH_HINTS,
     "g3-maths": G3_MATHS_HINTS,
     "g3-science": G3_SCIENCE_HINTS,
     "g3-english": G3_ENGLISH_HINTS,

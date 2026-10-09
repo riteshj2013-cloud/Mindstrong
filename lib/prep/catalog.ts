@@ -1,4 +1,22 @@
 import type { ChapterDef, Grade, GradeSubjectPack, PrepSubject } from "./types";
+import { g1MathsNumbers } from "./content/g1-maths-numbers";
+import { g1MathsAdd } from "./content/g1-maths-add";
+import { g1MathsShapes } from "./content/g1-maths-shapes";
+import { g1EnglishLetters } from "./content/g1-english-letters";
+import { g1EnglishReading } from "./content/g1-english-reading";
+import { g1EnglishGrammar } from "./content/g1-english-grammar";
+import { g1SciencePlants } from "./content/g1-science-plants";
+import { g1ScienceAnimals } from "./content/g1-science-animals";
+import { g1ScienceBody } from "./content/g1-science-body";
+import { g2MathsPlaceValue } from "./content/g2-maths-place-value";
+import { g2MathsAddSubtract } from "./content/g2-maths-add-subtract";
+import { g2MathsTimeMoney } from "./content/g2-maths-time-money";
+import { g2EnglishReading } from "./content/g2-english-reading";
+import { g2EnglishGrammar } from "./content/g2-english-grammar";
+import { g2EnglishWords } from "./content/g2-english-words";
+import { g2SciencePlants } from "./content/g2-science-plants";
+import { g2ScienceAnimals } from "./content/g2-science-animals";
+import { g2ScienceAirWater } from "./content/g2-science-air-water";
 import { g3SciencePlants } from "./content/g3-science-plants";
 import { g3ScienceAnimals } from "./content/g3-science-animals";
 import { g3ScienceSenses } from "./content/g3-science-senses";
@@ -627,8 +645,8 @@ function ch(
  * authored `questions[]` unlock a grade (see `isAuthoredChapter`).
  */
 const MATHS: Record<number, ChapterDef[]> = {
-  1: [], // placeholder — Maths Writer
-  2: [], // placeholder — Maths Writer
+  1: [g1MathsNumbers, g1MathsAdd, g1MathsShapes],
+  2: [g2MathsPlaceValue, g2MathsAddSubtract, g2MathsTimeMoney],
   3: [
     g3MathsNumbers,
     g3MathsAddSubtract,
@@ -677,8 +695,8 @@ const MATHS: Record<number, ChapterDef[]> = {
 };
 
 const ENGLISH: Record<number, ChapterDef[]> = {
-  1: [], // placeholder — English Writer
-  2: [], // placeholder — English Writer
+  1: [g1EnglishLetters, g1EnglishReading, g1EnglishGrammar],
+  2: [g2EnglishReading, g2EnglishGrammar, g2EnglishWords],
   3: [
     g3EnglishSynonyms,
     g3EnglishAntonyms,
@@ -724,8 +742,8 @@ const ENGLISH: Record<number, ChapterDef[]> = {
 };
 
 const SCIENCE: Record<number, ChapterDef[]> = {
-  1: [], // placeholder — Science Writer
-  2: [], // placeholder — Science Writer
+  1: [g1SciencePlants, g1ScienceAnimals, g1ScienceBody],
+  2: [g2SciencePlants, g2ScienceAnimals, g2ScienceAirWater],
   3: [
     g3SciencePlants,
     g3ScienceAnimals,
