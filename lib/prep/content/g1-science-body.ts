@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q01",
     prompt: "We see with our\u2026",
     options: [
-      { id: "a", text: "ears" },
-      { id: "b", text: "eyes" },
-      { id: "c", text: "nose" },
-      { id: "d", text: "tongue" }
+      { id: "a", text: "eyes" },
+      { id: "b", text: "nose" },
+      { id: "c", text: "tongue" },
+      { id: "d", text: "ears" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "We see with our eyes.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -33,12 +33,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q03",
     prompt: "We smell with our\u2026",
     options: [
-      { id: "a", text: "nose" },
-      { id: "b", text: "eyes" },
-      { id: "c", text: "ears" },
-      { id: "d", text: "hair" }
+      { id: "a", text: "ears" },
+      { id: "b", text: "hair" },
+      { id: "c", text: "nose" },
+      { id: "d", text: "eyes" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "We smell with our nose.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q04",
     prompt: "We taste with our\u2026",
     options: [
-      { id: "a", text: "tongue" },
-      { id: "b", text: "elbow" },
-      { id: "c", text: "knee" },
-      { id: "d", text: "ear" }
+      { id: "a", text: "elbow" },
+      { id: "b", text: "knee" },
+      { id: "c", text: "ear" },
+      { id: "d", text: "tongue" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "We taste with our tongue.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -59,12 +59,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q05",
     prompt: "We have how many hands?",
     options: [
-      { id: "a", text: "1" },
-      { id: "b", text: "2" },
-      { id: "c", text: "3" },
-      { id: "d", text: "4" }
+      { id: "a", text: "2" },
+      { id: "b", text: "3" },
+      { id: "c", text: "4" },
+      { id: "d", text: "1" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "We have 2 hands.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -85,12 +85,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q07",
     prompt: "Brush your ___ every day.",
     options: [
-      { id: "a", text: "teeth" },
-      { id: "b", text: "shoes only" },
-      { id: "c", text: "books" },
-      { id: "d", text: "walls" }
+      { id: "a", text: "books" },
+      { id: "b", text: "walls" },
+      { id: "c", text: "teeth" },
+      { id: "d", text: "shoes only" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Brush your teeth every day.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -98,12 +98,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q08",
     prompt: "We breathe air in through our\u2026",
     options: [
-      { id: "a", text: "nose / mouth" },
-      { id: "b", text: "toes" },
-      { id: "c", text: "elbows" },
-      { id: "d", text: "hair" }
+      { id: "a", text: "toes" },
+      { id: "b", text: "elbows" },
+      { id: "c", text: "hair" },
+      { id: "d", text: "nose / mouth" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "We breathe through nose or mouth.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -124,12 +124,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q10",
     prompt: "Our heart is inside our\u2026",
     options: [
-      { id: "a", text: "chest" },
-      { id: "b", text: "shoe" },
-      { id: "c", text: "hat" },
-      { id: "d", text: "bag" }
+      { id: "a", text: "bag" },
+      { id: "b", text: "chest" },
+      { id: "c", text: "shoe" },
+      { id: "d", text: "hat" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "The heart is in the chest.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q11",
     prompt: "We have how many eyes?",
     options: [
-      { id: "a", text: "1" },
-      { id: "b", text: "2" },
-      { id: "c", text: "3" },
-      { id: "d", text: "4" }
+      { id: "a", text: "4" },
+      { id: "b", text: "1" },
+      { id: "c", text: "2" },
+      { id: "d", text: "3" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Most people have 2 eyes.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q12",
     prompt: "Skin helps us to\u2026",
     options: [
-      { id: "a", text: "feel touch" },
-      { id: "b", text: "fly" },
-      { id: "c", text: "bark" },
-      { id: "d", text: "lay eggs" }
+      { id: "a", text: "fly" },
+      { id: "b", text: "bark" },
+      { id: "c", text: "lay eggs" },
+      { id: "d", text: "feel touch" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Skin helps us feel touch.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -176,12 +176,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q14",
     prompt: "We should sleep at\u2026",
     options: [
-      { id: "a", text: "night / rest time" },
-      { id: "b", text: "never" },
-      { id: "c", text: "only in class always" },
-      { id: "d", text: "in the rain without care" }
+      { id: "a", text: "in the rain without care" },
+      { id: "b", text: "night / rest time" },
+      { id: "c", text: "never" },
+      { id: "d", text: "only in class always" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Sleep helps the body rest.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q15",
     prompt: "Fingers are on our\u2026",
     options: [
-      { id: "a", text: "hands" },
-      { id: "b", text: "ears" },
-      { id: "c", text: "nose tip only" },
-      { id: "d", text: "knees only" }
+      { id: "a", text: "nose tip only" },
+      { id: "b", text: "knees only" },
+      { id: "c", text: "hands" },
+      { id: "d", text: "ears" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Fingers are on our hands.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q16",
     prompt: "Which helps us chew food?",
     options: [
-      { id: "a", text: "teeth" },
-      { id: "b", text: "hair" },
-      { id: "c", text: "nails only" },
-      { id: "d", text: "eyelashes" }
+      { id: "a", text: "hair" },
+      { id: "b", text: "nails only" },
+      { id: "c", text: "eyelashes" },
+      { id: "d", text: "teeth" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Teeth help us chew food.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
@@ -231,12 +231,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q02",
     prompt: "Sunglasses protect our\u2026",
     options: [
-      { id: "a", text: "eyes" },
-      { id: "b", text: "toes" },
-      { id: "c", text: "elbows" },
-      { id: "d", text: "knees" }
+      { id: "a", text: "knees" },
+      { id: "b", text: "eyes" },
+      { id: "c", text: "toes" },
+      { id: "d", text: "elbows" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Sunglasses protect eyes from bright sun.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -244,12 +244,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q03",
     prompt: "A loud sound is heard by our\u2026",
     options: [
-      { id: "a", text: "ears" },
-      { id: "b", text: "eyes" },
-      { id: "c", text: "tongue" },
-      { id: "d", text: "hair" }
+      { id: "a", text: "tongue" },
+      { id: "b", text: "hair" },
+      { id: "c", text: "ears" },
+      { id: "d", text: "eyes" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Ears hear loud sounds.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -257,12 +257,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q04",
     prompt: "Sweet and salty are kinds of\u2026",
     options: [
-      { id: "a", text: "taste" },
-      { id: "b", text: "colour only" },
-      { id: "c", text: "shape only" },
-      { id: "d", text: "number" }
+      { id: "a", text: "colour only" },
+      { id: "b", text: "shape only" },
+      { id: "c", text: "number" },
+      { id: "d", text: "taste" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Sweet and salty are tastes.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -270,12 +270,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q05",
     prompt: "We have how many legs?",
     options: [
-      { id: "a", text: "1" },
-      { id: "b", text: "2" },
-      { id: "c", text: "3" },
-      { id: "d", text: "4" }
+      { id: "a", text: "2" },
+      { id: "b", text: "3" },
+      { id: "c", text: "4" },
+      { id: "d", text: "1" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "We have 2 legs.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -283,12 +283,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q06",
     prompt: "Cover your mouth when you\u2026",
     options: [
-      { id: "a", text: "sneeze or cough" },
-      { id: "b", text: "sleep only" },
-      { id: "c", text: "read" },
-      { id: "d", text: "draw" }
+      { id: "a", text: "draw" },
+      { id: "b", text: "sneeze or cough" },
+      { id: "c", text: "sleep only" },
+      { id: "d", text: "read" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Cover mouth when you sneeze or cough.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -296,12 +296,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q07",
     prompt: "Bones help our body to\u2026",
     options: [
-      { id: "a", text: "stand and move" },
-      { id: "b", text: "make honey" },
-      { id: "c", text: "fly alone" },
-      { id: "d", text: "turn into water" }
+      { id: "a", text: "fly alone" },
+      { id: "b", text: "turn into water" },
+      { id: "c", text: "stand and move" },
+      { id: "d", text: "make honey" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Bones help us stand and move.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -309,12 +309,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q08",
     prompt: "Drink plenty of\u2026",
     options: [
-      { id: "a", text: "water" },
-      { id: "b", text: "mud" },
-      { id: "c", text: "paint" },
-      { id: "d", text: "sand" }
+      { id: "a", text: "mud" },
+      { id: "b", text: "paint" },
+      { id: "c", text: "sand" },
+      { id: "d", text: "water" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Drink plenty of water.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -335,12 +335,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q10",
     prompt: "We smile with our\u2026",
     options: [
-      { id: "a", text: "mouth" },
-      { id: "b", text: "elbow" },
-      { id: "c", text: "knee" },
-      { id: "d", text: "heel" }
+      { id: "a", text: "heel" },
+      { id: "b", text: "mouth" },
+      { id: "c", text: "elbow" },
+      { id: "d", text: "knee" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "We smile with our mouth.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q11",
     prompt: "Ears help us enjoy\u2026",
     options: [
-      { id: "a", text: "music" },
-      { id: "b", text: "only colours" },
-      { id: "c", text: "only smells" },
-      { id: "d", text: "only tastes" }
+      { id: "a", text: "only smells" },
+      { id: "b", text: "only tastes" },
+      { id: "c", text: "music" },
+      { id: "d", text: "only colours" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Ears help us hear music.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q12",
     prompt: "A doctor checks if we are\u2026",
     options: [
-      { id: "a", text: "healthy" },
-      { id: "b", text: "a plant" },
-      { id: "c", text: "a car" },
-      { id: "d", text: "a cloud" }
+      { id: "a", text: "a plant" },
+      { id: "b", text: "a car" },
+      { id: "c", text: "a cloud" },
+      { id: "d", text: "healthy" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Doctors help keep us healthy.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q14",
     prompt: "Keep your body\u2026",
     options: [
-      { id: "a", text: "clean" },
-      { id: "b", text: "dirty always" },
-      { id: "c", text: "painted blue" },
-      { id: "d", text: "wet with mud always" }
+      { id: "a", text: "wet with mud always" },
+      { id: "b", text: "clean" },
+      { id: "c", text: "dirty always" },
+      { id: "d", text: "painted blue" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Keep your body clean.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q15",
     prompt: "We think with our\u2026",
     options: [
-      { id: "a", text: "brain" },
-      { id: "b", text: "shoes" },
-      { id: "c", text: "belt" },
-      { id: "d", text: "socks" }
+      { id: "a", text: "belt" },
+      { id: "b", text: "socks" },
+      { id: "c", text: "brain" },
+      { id: "d", text: "shoes" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "We think with our brain.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q16",
     prompt: "Which is a sense organ?",
     options: [
-      { id: "a", text: "eye" },
-      { id: "b", text: "shoe" },
-      { id: "c", text: "chair" },
-      { id: "d", text: "bag" }
+      { id: "a", text: "shoe" },
+      { id: "b", text: "chair" },
+      { id: "c", text: "bag" },
+      { id: "d", text: "eye" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "The eye is a sense organ.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
