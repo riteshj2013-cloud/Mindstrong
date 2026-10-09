@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """Shared emitters for Grade 10 pack (docs + TS modules + hint overlays)."""
 from __future__ import annotations
+import hashlib
 import json
+import random
 import re
 import sys
+from collections import Counter
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
@@ -18,23 +21,63 @@ HINTS.mkdir(parents=True, exist_ok=True)
 DOCS.mkdir(parents=True, exist_ok=True)
 
 BP_HINTS = ["Read carefully.", "Eliminate impossible options first."]
+LETTERS = "abcd"
 
 
 def q(prompt, options, answer, explanation, hint):
     """Build one MCQ. options: 4 strings; answer: 'a'|'b'|'c'|'d'."""
-    assert answer in "abcd" and len(options) == 4
+    assert answer in LETTERS and len(options) == 4
     assert len(set(options)) == 4, options
     return {
         "prompt": prompt,
-        "options": [{"id": "abcd"[i], "text": options[i]} for i in range(4)],
+        "options": [{"id": LETTERS[i], "text": options[i]} for i in range(4)],
         "answerId": answer,
         "explanation": explanation,
         "hint": hint,
     }
 
 
+def rebalance_set(items: list, seed_key: str) -> list:
+    """Shuffle option order so a 24-item set lands at 6A/6B/6C/6D.
+
+    Preserves the correct option *text* (and distractors); only position/answerId change.
+    """
+    assert len(items) == 24, f"{seed_key}: expected 24, got {len(items)}"
+    targets = list(LETTERS) * 6  # exactly six of each
+    rng = random.Random(int(hashlib.sha256(seed_key.encode()).hexdigest()[:16], 16))
+    rng.shuffle(targets)
+
+    out = []
+    for item, target in zip(items, targets):
+        opts = item["options"]
+        ans = item["answerId"]
+        assert ans in LETTERS, (seed_key, ans)
+        correct = next(o for o in opts if o["id"] == ans)
+        others = [o for o in opts if o["id"] != ans]
+        rng.shuffle(others)
+        placed = [None] * 4
+        idx = LETTERS.index(target)
+        placed[idx] = correct["text"]
+        oi = 0
+        for i in range(4):
+            if placed[i] is None:
+                placed[i] = others[oi]["text"]
+                oi += 1
+        assert all(t is not None for t in placed) and len(set(placed)) == 4
+        out.append({
+            **item,
+            "options": [{"id": LETTERS[i], "text": placed[i]} for i in range(4)],
+            "answerId": target,
+        })
+
+    counts = Counter(x["answerId"] for x in out)
+    assert all(counts[L] == 6 for L in LETTERS), f"{seed_key} balance {dict(counts)}"
+    return out
+
+
 def finalize(prefix: str, set_letter: str, raw: list) -> list:
     assert len(raw) == 24, f"{prefix}-{set_letter}: {len(raw)}"
+    raw = rebalance_set(raw, f"{prefix}-{set_letter}")
     out = []
     for i, item in enumerate(raw, 1):
         qq = {

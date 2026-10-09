@@ -8,8 +8,8 @@ const SET_A: PrepQuestion[] = [
     prompt: "The angle of incidence equals the angle of reflection. This is \u2014",
     options: [
       { id: "a", text: "a law of reflection" },
-      { id: "b", text: "Snell's law only" },
-      { id: "c", text: "Ohm's law" },
+      { id: "b", text: "Ohm's law" },
+      { id: "c", text: "Snell's law only" },
       { id: "d", text: "Hooke's law" }
     ],
     answerId: "a",
@@ -20,12 +20,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-sci-light-a-q02",
     prompt: "A ray along the normal to a plane mirror reflects \u2014",
     options: [
-      { id: "a", text: "back on itself" },
-      { id: "b", text: "at 90\u00b0 to the normal" },
-      { id: "c", text: "parallel to the mirror" },
-      { id: "d", text: "not at all" }
+      { id: "a", text: "at 90\u00b0 to the normal" },
+      { id: "b", text: "parallel to the mirror" },
+      { id: "c", text: "not at all" },
+      { id: "d", text: "back on itself" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "i = 0 \u21d2 r = 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -33,12 +33,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-sci-light-a-q03",
     prompt: "Image in a plane mirror is \u2014",
     options: [
-      { id: "a", text: "virtual, erect, same size, laterally inverted" },
+      { id: "a", text: "smaller always" },
       { id: "b", text: "real and inverted" },
-      { id: "c", text: "smaller always" },
-      { id: "d", text: "magnified always" }
+      { id: "c", text: "magnified always" },
+      { id: "d", text: "virtual, erect, same size, laterally inverted" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Plane mirrors make virtual, same-size, left-right flipped images.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-sci-light-a-q04",
     prompt: "Focal length f of a spherical mirror relates to radius R by \u2014",
     options: [
-      { id: "a", text: "f = R/2" },
+      { id: "a", text: "f = R\u00b2" },
       { id: "b", text: "f = 2R" },
-      { id: "c", text: "f = R" },
-      { id: "d", text: "f = R\u00b2" }
+      { id: "c", text: "f = R/2" },
+      { id: "d", text: "f = R" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "For spherical mirrors (paraxial), f = R/2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -59,12 +59,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-sci-light-a-q05",
     prompt: "A concave mirror can form a real image when the object is \u2014",
     options: [
-      { id: "a", text: "beyond the focus" },
-      { id: "b", text: "between pole and focus only" },
+      { id: "a", text: "inside the mirror material" },
+      { id: "b", text: "beyond the focus" },
       { id: "c", text: "at the pole" },
-      { id: "d", text: "inside the mirror material" }
+      { id: "d", text: "between pole and focus only" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Object outside F can give real inverted images on a screen.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -72,12 +72,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-sci-light-a-q06",
     prompt: "Magnification m = h\u2032/h equals \u2014",
     options: [
-      { id: "a", text: "\u2212v/u for mirrors (sign convention)" },
-      { id: "b", text: "u/v always positive only" },
-      { id: "c", text: "f/R" },
+      { id: "a", text: "u/v always positive only" },
+      { id: "b", text: "f/R" },
+      { id: "c", text: "\u2212v/u for mirrors (sign convention)" },
       { id: "d", text: "R/f" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "m = h\u2032/h = \u2212v/u in the New Cartesian convention for mirrors.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -86,9 +86,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "A ray through the centre of curvature of a concave mirror \u2014",
     options: [
       { id: "a", text: "reflects back on itself" },
-      { id: "b", text: "passes through focus only after" },
-      { id: "c", text: "grazes the pole without reflecting" },
-      { id: "d", text: "stops" }
+      { id: "b", text: "stops" },
+      { id: "c", text: "passes through focus only after" },
+      { id: "d", text: "grazes the pole without reflecting" }
     ],
     answerId: "a",
     explanation: "It hits along the normal (radius), so i=0.",
@@ -98,12 +98,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-sci-light-a-q08",
     prompt: "Refraction is \u2014",
     options: [
-      { id: "a", text: "bending of light when speed changes across a boundary" },
-      { id: "b", text: "bouncing from a mirror" },
-      { id: "c", text: "charging of electrons" },
+      { id: "a", text: "bouncing from a mirror" },
+      { id: "b", text: "charging of electrons" },
+      { id: "c", text: "bending of light when speed changes across a boundary" },
       { id: "d", text: "sound echo" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Light changes direction with optical density change.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -111,12 +111,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-sci-light-a-q09",
     prompt: "Absolute refractive index n = \u2014",
     options: [
-      { id: "a", text: "c/v" },
-      { id: "b", text: "v/c" },
-      { id: "c", text: "c\u00d7v" },
-      { id: "d", text: "1/c" }
+      { id: "a", text: "v/c" },
+      { id: "b", text: "1/c" },
+      { id: "c", text: "c/v" },
+      { id: "d", text: "c\u00d7v" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "n = speed in vacuum / speed in medium.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -124,12 +124,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-sci-light-a-q10",
     prompt: "Snell's law: n\u2081 sin i = \u2014",
     options: [
-      { id: "a", text: "n\u2082 sin r" },
-      { id: "b", text: "n\u2082 / sin r" },
-      { id: "c", text: "sin i / n\u2082" },
-      { id: "d", text: "n\u2081 / n\u2082" }
+      { id: "a", text: "n\u2081 / n\u2082" },
+      { id: "b", text: "n\u2082 sin r" },
+      { id: "c", text: "n\u2082 / sin r" },
+      { id: "d", text: "sin i / n\u2082" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "n\u2081 sin i = n\u2082 sin r at a boundary.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-sci-light-a-q11",
     prompt: "A convex lens is a \u2014",
     options: [
-      { id: "a", text: "converging lens" },
-      { id: "b", text: "diverging lens" },
+      { id: "a", text: "diverging lens" },
+      { id: "b", text: "converging lens" },
       { id: "c", text: "plane mirror" },
       { id: "d", text: "prism only" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Thicker in the middle; brings parallel rays to a focus.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-sci-light-a-q12",
     prompt: "A concave lens is a \u2014",
     options: [
-      { id: "a", text: "diverging lens" },
-      { id: "b", text: "converging lens" },
+      { id: "a", text: "optical fibre core only" },
+      { id: "b", text: "diverging lens" },
       { id: "c", text: "spherical mirror" },
-      { id: "d", text: "optical fibre core only" }
+      { id: "d", text: "converging lens" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Thinner in the middle; spreads parallel rays.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -163,12 +163,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-sci-light-a-q13",
     prompt: "Power of a lens P = \u2014",
     options: [
-      { id: "a", text: "1/f (f in metres), unit dioptre" },
-      { id: "b", text: "f in cm" },
-      { id: "c", text: "R/2" },
+      { id: "a", text: "R/2" },
+      { id: "b", text: "1/f (f in metres), unit dioptre" },
+      { id: "c", text: "f in cm" },
       { id: "d", text: "v\u2212u" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "P = 1/f with f in m; unit D (dioptre).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -176,12 +176,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-sci-light-a-q14",
     prompt: "Total internal reflection needs \u2014",
     options: [
-      { id: "a", text: "light in denser medium, i > critical angle" },
-      { id: "b", text: "always i = 0" },
-      { id: "c", text: "a rough surface" },
-      { id: "d", text: "no boundary" }
+      { id: "a", text: "a rough surface" },
+      { id: "b", text: "no boundary" },
+      { id: "c", text: "light in denser medium, i > critical angle" },
+      { id: "d", text: "always i = 0" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "From denser to rarer, beyond critical angle, light reflects fully.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -190,9 +190,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Critical angle is the incidence angle in the denser medium for which \u2014",
     options: [
       { id: "a", text: "refraction angle in rarer medium is 90\u00b0" },
-      { id: "b", text: "reflection is zero" },
-      { id: "c", text: "light stops" },
-      { id: "d", text: "n becomes 1" }
+      { id: "b", text: "n becomes 1" },
+      { id: "c", text: "reflection is zero" },
+      { id: "d", text: "light stops" }
     ],
     answerId: "a",
     explanation: "At critical angle, refracted ray grazes the surface.",
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-sci-light-a-q16",
     prompt: "Rainbows form mainly due to \u2014",
     options: [
-      { id: "a", text: "dispersion and reflection in water drops" },
-      { id: "b", text: "only mirrors" },
-      { id: "c", text: "only diffraction in air without water" },
-      { id: "d", text: "magnetism" }
+      { id: "a", text: "only diffraction in air without water" },
+      { id: "b", text: "magnetism" },
+      { id: "c", text: "only mirrors" },
+      { id: "d", text: "dispersion and reflection in water drops" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Droplets refract, reflect, and disperse sunlight.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -215,12 +215,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-sci-light-a-q17",
     prompt: "Which mirror is used as a shaving/makeup mirror?",
     options: [
-      { id: "a", text: "concave (enlarged erect when close)" },
-      { id: "b", text: "convex always diminished" },
+      { id: "a", text: "convex always diminished" },
+      { id: "b", text: "none" },
       { id: "c", text: "plane only sometimes smaller" },
-      { id: "d", text: "none" }
+      { id: "d", text: "concave (enlarged erect when close)" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Object between pole and F of concave \u2192 virtual enlarged erect.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -228,12 +228,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-sci-light-a-q18",
     prompt: "Rear-view mirrors on vehicles are often \u2014",
     options: [
-      { id: "a", text: "convex (wider field, diminished erect)" },
-      { id: "b", text: "concave only" },
-      { id: "c", text: "plane always with no field gain" },
-      { id: "d", text: "opaque" }
+      { id: "a", text: "plane always with no field gain" },
+      { id: "b", text: "opaque" },
+      { id: "c", text: "convex (wider field, diminished erect)" },
+      { id: "d", text: "concave only" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Convex mirrors give a wider field of view.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -241,12 +241,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-sci-light-a-q19",
     prompt: "Lens formula:",
     options: [
-      { id: "a", text: "1/v \u2212 1/u = 1/f" },
+      { id: "a", text: "v\u2212u=f" },
       { id: "b", text: "1/v + 1/u = 1/f always for lenses? mirrors differ" },
-      { id: "c", text: "v\u2212u=f" },
-      { id: "d", text: "m=f/u" }
+      { id: "c", text: "m=f/u" },
+      { id: "d", text: "1/v \u2212 1/u = 1/f" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "For thin lenses (Cartesian signs): 1/v \u2212 1/u = 1/f.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -254,12 +254,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-sci-light-a-q20",
     prompt: "SI unit of power of a lens is \u2014",
     options: [
-      { id: "a", text: "dioptre (D)" },
-      { id: "b", text: "metre" },
-      { id: "c", text: "watt" },
+      { id: "a", text: "watt" },
+      { id: "b", text: "dioptre (D)" },
+      { id: "c", text: "metre" },
       { id: "d", text: "candela" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "1 D = 1 m\u207b\u00b9.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -267,12 +267,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-sci-light-a-q21",
     prompt: "A real image \u2014",
     options: [
-      { id: "a", text: "can be caught on a screen" },
+      { id: "a", text: "needs no light" },
       { id: "b", text: "cannot exist for lenses" },
       { id: "c", text: "is always erect for single concave mirror all positions" },
-      { id: "d", text: "needs no light" }
+      { id: "d", text: "can be caught on a screen" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Rays actually converge; screen shows the image.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -281,8 +281,8 @@ const SET_A: PrepQuestion[] = [
     prompt: "Lateral inversion means \u2014",
     options: [
       { id: "a", text: "left-right reversal in a plane mirror image" },
-      { id: "b", text: "upside-down always" },
-      { id: "c", text: "colour change" },
+      { id: "b", text: "colour change" },
+      { id: "c", text: "upside-down always" },
       { id: "d", text: "magnification >1 always" }
     ],
     answerId: "a",
@@ -294,8 +294,8 @@ const SET_A: PrepQuestion[] = [
     prompt: "If u = \u221230 cm, f = \u221220 cm for a concave mirror, v equals \u2014",
     options: [
       { id: "a", text: "\u221260 cm" },
-      { id: "b", text: "+60 cm" },
-      { id: "c", text: "\u221212 cm" },
+      { id: "b", text: "\u221212 cm" },
+      { id: "c", text: "+60 cm" },
       { id: "d", text: "+30 cm" }
     ],
     answerId: "a",
@@ -307,8 +307,8 @@ const SET_A: PrepQuestion[] = [
     prompt: "White light splits into colours through a prism because of \u2014",
     options: [
       { id: "a", text: "dispersion (n depends on colour)" },
-      { id: "b", text: "only reflection" },
-      { id: "c", text: "magnetic lensing" },
+      { id: "b", text: "magnetic lensing" },
+      { id: "c", text: "only reflection" },
       { id: "d", text: "diffraction only in vacuum" }
     ],
     answerId: "a",
@@ -322,12 +322,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-sci-light-b-q01",
     prompt: "The normal at the point of incidence is \u2014",
     options: [
-      { id: "a", text: "perpendicular to the reflecting surface" },
-      { id: "b", text: "parallel to the mirror" },
+      { id: "a", text: "parallel to the mirror" },
+      { id: "b", text: "perpendicular to the reflecting surface" },
       { id: "c", text: "along the incident ray always" },
       { id: "d", text: "45\u00b0 always" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Angles i and r are measured from this normal.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -335,12 +335,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-sci-light-b-q02",
     prompt: "Image distance equals object distance for a plane mirror. Magnification is \u2014",
     options: [
-      { id: "a", text: "+1" },
-      { id: "b", text: "\u22121" },
+      { id: "a", text: "\u22121" },
+      { id: "b", text: "+1" },
       { id: "c", text: "0" },
       { id: "d", text: "2" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Same size, erect \u2192 m = +1.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-sci-light-b-q03",
     prompt: "Rays parallel to the principal axis of a concave mirror reflect through \u2014",
     options: [
-      { id: "a", text: "the focus" },
+      { id: "a", text: "the pole only" },
       { id: "b", text: "the centre of curvature always only" },
-      { id: "c", text: "the pole only" },
+      { id: "c", text: "the focus" },
       { id: "d", text: "infinity always after" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Definition of principal focus for a concave mirror.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-sci-light-b-q04",
     prompt: "An object at the centre of curvature of a concave mirror forms image \u2014",
     options: [
-      { id: "a", text: "at C, real, inverted, same size" },
-      { id: "b", text: "at F, magnified" },
-      { id: "c", text: "behind mirror, virtual" },
-      { id: "d", text: "at infinity" }
+      { id: "a", text: "behind mirror, virtual" },
+      { id: "b", text: "at infinity" },
+      { id: "c", text: "at F, magnified" },
+      { id: "d", text: "at C, real, inverted, same size" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Object at C \u2192 image at C, m=\u22121.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -374,12 +374,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-sci-light-b-q05",
     prompt: "Relative refractive index of medium 2 w.r.t. 1 is \u2014",
     options: [
-      { id: "a", text: "n\u2082/n\u2081" },
+      { id: "a", text: "c" },
       { id: "b", text: "n\u2081/n\u2082 only always smaller" },
-      { id: "c", text: "n\u2081\u00d7n\u2082" },
-      { id: "d", text: "c" }
+      { id: "c", text: "n\u2082/n\u2081" },
+      { id: "d", text: "n\u2081\u00d7n\u2082" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "\u2081n\u2082 = n\u2082/n\u2081 = v\u2081/v\u2082.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-sci-light-b-q06",
     prompt: "A glass slab shifts a ray \u2014",
     options: [
-      { id: "a", text: "laterally without changing direction (emergent parallel)" },
+      { id: "a", text: "not at all if thick" },
       { id: "b", text: "by focusing to a point always" },
-      { id: "c", text: "by dispersing into a rainbow always" },
-      { id: "d", text: "not at all if thick" }
+      { id: "c", text: "laterally without changing direction (emergent parallel)" },
+      { id: "d", text: "by dispersing into a rainbow always" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Emergent ray is parallel but displaced sideways.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-sci-light-b-q07",
     prompt: "Twinkling of stars is mainly due to \u2014",
     options: [
-      { id: "a", text: "atmospheric refraction" },
-      { id: "b", text: "mirrors on Earth" },
-      { id: "c", text: "stars switching off" },
-      { id: "d", text: "dispersion in space vacuum only" }
+      { id: "a", text: "stars switching off" },
+      { id: "b", text: "atmospheric refraction" },
+      { id: "c", text: "dispersion in space vacuum only" },
+      { id: "d", text: "mirrors on Earth" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Changing air layers bend starlight irregularly.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-sci-light-b-q08",
     prompt: "Optical fibres work on \u2014",
     options: [
-      { id: "a", text: "total internal reflection" },
-      { id: "b", text: "diffuse reflection only" },
-      { id: "c", text: "only absorption" },
-      { id: "d", text: "magnetic confinement" }
+      { id: "a", text: "only absorption" },
+      { id: "b", text: "magnetic confinement" },
+      { id: "c", text: "total internal reflection" },
+      { id: "d", text: "diffuse reflection only" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Core\u2013cladding TIR guides light with low loss.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -426,12 +426,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-sci-light-b-q09",
     prompt: "For a thin lens, if object is at 2F, image is \u2014",
     options: [
-      { id: "a", text: "at 2F, real, inverted, same size" },
+      { id: "a", text: "virtual erect always" },
       { id: "b", text: "at F" },
       { id: "c", text: "at infinity" },
-      { id: "d", text: "virtual erect always" }
+      { id: "d", text: "at 2F, real, inverted, same size" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Classic convex-lens case: u=\u22122f \u2192 v=+2f.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -440,9 +440,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "A myopic eye is corrected by a \u2014",
     options: [
       { id: "a", text: "concave lens" },
-      { id: "b", text: "convex lens" },
+      { id: "b", text: "plane mirror" },
       { id: "c", text: "cylindrical only always" },
-      { id: "d", text: "plane mirror" }
+      { id: "d", text: "convex lens" }
     ],
     answerId: "a",
     explanation: "Short-sight: focus in front of retina; diverge with concave.",
@@ -452,12 +452,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-sci-light-b-q11",
     prompt: "A hypermetropic eye is corrected by a \u2014",
     options: [
-      { id: "a", text: "convex lens" },
-      { id: "b", text: "concave lens" },
-      { id: "c", text: "prism only" },
-      { id: "d", text: "opaque contact" }
+      { id: "a", text: "opaque contact" },
+      { id: "b", text: "convex lens" },
+      { id: "c", text: "concave lens" },
+      { id: "d", text: "prism only" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Long-sight: focus behind retina; converge with convex.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -465,12 +465,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-sci-light-b-q12",
     prompt: "SI unit of focal length is \u2014",
     options: [
-      { id: "a", text: "metre" },
-      { id: "b", text: "dioptre" },
-      { id: "c", text: "candela" },
-      { id: "d", text: "newton" }
+      { id: "a", text: "dioptre" },
+      { id: "b", text: "candela" },
+      { id: "c", text: "newton" },
+      { id: "d", text: "metre" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "f is a length.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -478,12 +478,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-sci-light-b-q13",
     prompt: "When light enters glass from air, its speed \u2014",
     options: [
-      { id: "a", text: "decreases" },
-      { id: "b", text: "increases" },
+      { id: "a", text: "increases" },
+      { id: "b", text: "becomes zero" },
       { id: "c", text: "becomes infinite" },
-      { id: "d", text: "becomes zero" }
+      { id: "d", text: "decreases" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "n>1 \u21d2 v = c/n < c.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -492,8 +492,8 @@ const SET_B: PrepQuestion[] = [
     prompt: "The colour of light related most to \u2014",
     options: [
       { id: "a", text: "wavelength / frequency" },
-      { id: "b", text: "only amplitude of sound" },
-      { id: "c", text: "mirror thickness only" },
+      { id: "b", text: "mirror thickness only" },
+      { id: "c", text: "only amplitude of sound" },
       { id: "d", text: "lens power only" }
     ],
     answerId: "a",
@@ -505,9 +505,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "A real image formed by a convex lens on a screen is usually \u2014",
     options: [
       { id: "a", text: "inverted" },
-      { id: "b", text: "erect always" },
+      { id: "b", text: "invisible" },
       { id: "c", text: "same as object colour-inverted only" },
-      { id: "d", text: "invisible" }
+      { id: "d", text: "erect always" }
     ],
     answerId: "a",
     explanation: "Single convex lens real images are inverted.",
@@ -531,9 +531,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "If refractive index of water is 4/3, speed of light in water is about \u2014",
     options: [
       { id: "a", text: "2.25 \u00d7 10\u2078 m/s" },
-      { id: "b", text: "3 \u00d7 10\u2078 m/s" },
+      { id: "b", text: "4 \u00d7 10\u2078 m/s" },
       { id: "c", text: "1.5 \u00d7 10\u2078 m/s" },
-      { id: "d", text: "4 \u00d7 10\u2078 m/s" }
+      { id: "d", text: "3 \u00d7 10\u2078 m/s" }
     ],
     answerId: "a",
     explanation: "v=c/n \u2248 3e8/(4/3)=2.25e8 m/s.",
@@ -543,12 +543,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-sci-light-b-q18",
     prompt: "Astigmatism is commonly corrected using \u2014",
     options: [
-      { id: "a", text: "cylindrical lenses" },
-      { id: "b", text: "only concave spherical" },
-      { id: "c", text: "only convex spherical" },
-      { id: "d", text: "mirrors only" }
+      { id: "a", text: "mirrors only" },
+      { id: "b", text: "only convex spherical" },
+      { id: "c", text: "cylindrical lenses" },
+      { id: "d", text: "only concave spherical" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Different meridians need different powers.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -569,12 +569,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-sci-light-b-q20",
     prompt: "In mirror formula 1/v + 1/u = 1/f, sign convention usually takes \u2014",
     options: [
-      { id: "a", text: "object distance u negative for real object in front" },
-      { id: "b", text: "u always positive" },
-      { id: "c", text: "f always positive for all mirrors" },
-      { id: "d", text: "v never negative" }
+      { id: "a", text: "u always positive" },
+      { id: "b", text: "object distance u negative for real object in front" },
+      { id: "c", text: "v never negative" },
+      { id: "d", text: "f always positive for all mirrors" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "New Cartesian: light direction positive; real object u < 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -582,12 +582,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-sci-light-b-q21",
     prompt: "A pencil in a glass of water looks bent because of \u2014",
     options: [
-      { id: "a", text: "refraction at the water surface" },
-      { id: "b", text: "reflection only in the pencil" },
-      { id: "c", text: "dispersion into a spectrum always" },
-      { id: "d", text: "diffraction by air only" }
+      { id: "a", text: "diffraction by air only" },
+      { id: "b", text: "dispersion into a spectrum always" },
+      { id: "c", text: "reflection only in the pencil" },
+      { id: "d", text: "refraction at the water surface" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Rays from the submerged part bend at the interface.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -595,12 +595,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-sci-light-b-q22",
     prompt: "Combination of two thin lenses in contact: power \u2014",
     options: [
-      { id: "a", text: "P = P\u2081 + P\u2082" },
+      { id: "a", text: "P = P\u2081 \u2212 P\u2082 only" },
       { id: "b", text: "P = P\u2081P\u2082" },
-      { id: "c", text: "P = P\u2081 \u2212 P\u2082 only" },
-      { id: "d", text: "P = 1/(P\u2081+P\u2082)" }
+      { id: "c", text: "P = 1/(P\u2081+P\u2082)" },
+      { id: "d", text: "P = P\u2081 + P\u2082" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Powers add for thin lenses in contact.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -608,12 +608,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-sci-light-b-q23",
     prompt: "Which phenomenon does NOT need a change of medium?",
     options: [
-      { id: "a", text: "reflection at a mirror in one medium" },
-      { id: "b", text: "refraction" },
-      { id: "c", text: "TIR requiring denser start" },
-      { id: "d", text: "Snell's law bending" }
+      { id: "a", text: "Snell's law bending" },
+      { id: "b", text: "TIR requiring denser start" },
+      { id: "c", text: "reflection at a mirror in one medium" },
+      { id: "d", text: "refraction" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Reflection can occur at a mirror within the same medium.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -621,12 +621,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-sci-light-b-q24",
     prompt: "If f_convex = +20 cm, power is \u2014",
     options: [
-      { id: "a", text: "+5 D" },
-      { id: "b", text: "+0.2 D" },
+      { id: "a", text: "+0.2 D" },
+      { id: "b", text: "+5 D" },
       { id: "c", text: "\u22125 D" },
       { id: "d", text: "+20 D" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "f=0.20 m; P=1/0.2=+5 D.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
