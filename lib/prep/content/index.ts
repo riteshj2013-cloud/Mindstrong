@@ -42,3 +42,6 @@ export { g8MathsComparing } from "./g8-maths-comparing";
 export { g8EnglishLiterature } from "./g8-english-literature";
 export { g8EnglishGrammar } from "./g8-english-grammar";
 export { g8EnglishWords } from "./g8-english-words";
+export { g8MathsAlgebra } from "./g8-maths-algebra";
+export { g8MathsMensuration } from "./g8-maths-mensuration";
+export { g8MathsExponents } from "./g8-maths-exponents";
