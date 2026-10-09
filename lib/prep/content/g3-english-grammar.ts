@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g3-eng-grammar-a-q01",
     prompt: "Which word is a NOUN (a naming word)?",
     options: [
-      { id: "a", text: "run" },
-      { id: "b", text: "happy" },
-      { id: "c", text: "school" },
+      { id: "a", text: "school" },
+      { id: "b", text: "run" },
+      { id: "c", text: "happy" },
       { id: "d", text: "quickly" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "\"School\" names a place. Run is a verb, happy is an adjective, and quickly is an adverb.",
     hints: ["A noun names a person, place, or thing.", "Run tells an action, not a name."]
   },
@@ -21,11 +21,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Riya packed her **bag** for school. Which word is the noun?",
     options: [
       { id: "a", text: "packed" },
-      { id: "b", text: "her" },
-      { id: "c", text: "bag" },
+      { id: "b", text: "bag" },
+      { id: "c", text: "her" },
       { id: "d", text: "for" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "\"Bag\" names a thing. Packed is a verb (action).",
     hints: ["Find the word that names a thing.", "Packed tells what Riya did."]
   },
@@ -48,10 +48,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "childs" },
       { id: "b", text: "childes" },
-      { id: "c", text: "children" },
-      { id: "d", text: "childrens" }
+      { id: "c", text: "childrens" },
+      { id: "d", text: "children" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "The plural of child is children. We do not say childs or childrens.",
     hints: ["Some plurals do not just add -s.", "Never say childrens."]
   },
@@ -59,12 +59,12 @@ const SET_A: PrepQuestion[] = [
     id: "g3-eng-grammar-a-q05",
     prompt: "Which word is a VERB (an action word)?",
     options: [
-      { id: "a", text: "table" },
-      { id: "b", text: "jump" },
+      { id: "a", text: "jump" },
+      { id: "b", text: "table" },
       { id: "c", text: "blue" },
       { id: "d", text: "soft" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "\"Jump\" names an action. Table is a noun; blue and soft describe things.",
     hints: ["A verb tells what someone does.", "Table names a thing, not an action."]
   },
@@ -72,12 +72,12 @@ const SET_A: PrepQuestion[] = [
     id: "g3-eng-grammar-a-q06",
     prompt: "The birds ____ in the sky.",
     options: [
-      { id: "a", text: "fly" },
-      { id: "b", text: "sky" },
+      { id: "a", text: "sky" },
+      { id: "b", text: "fly" },
       { id: "c", text: "pretty" },
       { id: "d", text: "tree" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "\"Fly\" is the action the birds do. Sky and tree are nouns.",
     hints: ["Choose the action word that fits the blank.", "Sky names a place, not an action."]
   },
@@ -86,11 +86,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Kabir ____ his teeth every morning.",
     options: [
       { id: "a", text: "brush" },
-      { id: "b", text: "brushes" },
-      { id: "c", text: "brushing" },
+      { id: "b", text: "brushing" },
+      { id: "c", text: "brushes" },
       { id: "d", text: "brushed" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Kabir is one person (he), so we say brushes in the present.",
     hints: ["Kabir = he (one person).", "With he/she/it in the present, many verbs add -es or -s."]
   },
@@ -100,10 +100,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "is" },
       { id: "b", text: "am" },
-      { id: "c", text: "are" },
-      { id: "d", text: "be" }
+      { id: "c", text: "be" },
+      { id: "d", text: "are" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "\"They\" is plural, so we use are.",
     hints: ["They means more than one.", "Use are with we/you/they."]
   },
@@ -111,12 +111,12 @@ const SET_A: PrepQuestion[] = [
     id: "g3-eng-grammar-a-q09",
     prompt: "Which word is an ADJECTIVE (a describing word)?",
     options: [
-      { id: "a", text: "cat" },
-      { id: "b", text: "run" },
-      { id: "c", text: "fluffy" },
+      { id: "a", text: "fluffy" },
+      { id: "b", text: "cat" },
+      { id: "c", text: "run" },
       { id: "d", text: "and" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "\"Fluffy\" describes how something feels or looks. Cat is a noun; run is a verb.",
     hints: ["An adjective tells more about a noun.", "Cat names an animal; fluffy describes it."]
   },
@@ -125,11 +125,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Meena saw a **tall** tree. Which word is the adjective?",
     options: [
       { id: "a", text: "Meena" },
-      { id: "b", text: "saw" },
-      { id: "c", text: "tall" },
+      { id: "b", text: "tall" },
+      { id: "c", text: "saw" },
       { id: "d", text: "tree" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "\"Tall\" describes the tree. Tree is the noun being described.",
     hints: ["Find the word that describes the tree.", "Tree names the thing; tall tells what kind."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g3-eng-grammar-a-q11",
     prompt: "Choose the adjective that fits: The ____ mango is sweet.",
     options: [
-      { id: "a", text: "yellow" },
-      { id: "b", text: "eat" },
-      { id: "c", text: "quickly" },
+      { id: "a", text: "eat" },
+      { id: "b", text: "quickly" },
+      { id: "c", text: "yellow" },
       { id: "d", text: "under" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "\"Yellow\" describes the mango's colour. Eat is a verb; quickly tells how.",
     hints: ["Pick a word that describes the mango.", "Eat is an action, not a describing word."]
   },
@@ -151,11 +151,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which sentence uses an adjective?",
     options: [
       { id: "a", text: "Ravi runs." },
-      { id: "b", text: "The loud drum woke us." },
-      { id: "c", text: "She and I." },
-      { id: "d", text: "On the table." }
+      { id: "b", text: "She and I." },
+      { id: "c", text: "On the table." },
+      { id: "d", text: "The loud drum woke us." }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "\"Loud\" describes the drum. The other choices have no describing word for a noun.",
     hints: ["Look for a word that describes a noun.", "Loud tells what kind of drum."]
   },
@@ -163,12 +163,12 @@ const SET_A: PrepQuestion[] = [
     id: "g3-eng-grammar-a-q13",
     prompt: "Choose the correct article: ____ apple fell from the tree.",
     options: [
-      { id: "a", text: "A" },
-      { id: "b", text: "An" },
+      { id: "a", text: "An" },
+      { id: "b", text: "A" },
       { id: "c", text: "The" },
       { id: "d", text: "\u2014 (none)" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Use \"an\" before words that begin with a vowel sound. Apple begins with \"a\".",
     hints: ["Listen for the first sound of the next word.", "Apple begins with a vowel sound, so use an."]
   },
@@ -190,11 +190,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Sana wants ____ ice cream.",
     options: [
       { id: "a", text: "a" },
-      { id: "b", text: "an" },
-      { id: "c", text: "two" },
+      { id: "b", text: "two" },
+      { id: "c", text: "an" },
       { id: "d", text: "many" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "\"Ice\" begins with a vowel sound, so we say an ice cream.",
     hints: ["Check the first sound of ice.", "Ice starts with i \u2014 a vowel sound."]
   },
@@ -203,11 +203,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "We use \"the\" when we mean ____.",
     options: [
       { id: "a", text: "any one thing" },
-      { id: "b", text: "a special or known thing" },
-      { id: "c", text: "only plural nouns" },
-      { id: "d", text: "only verbs" }
+      { id: "b", text: "only plural nouns" },
+      { id: "c", text: "only verbs" },
+      { id: "d", text: "a special or known thing" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "\"The\" points to a special or already-known thing (the sun, the bag on the table).",
     hints: ["The often means that one we both know.", "A/an mean any one; the means a known one."]
   },
@@ -215,12 +215,12 @@ const SET_A: PrepQuestion[] = [
     id: "g3-eng-grammar-a-q17",
     prompt: "Yesterday, Riya ____ to the market.",
     options: [
-      { id: "a", text: "go" },
-      { id: "b", text: "goes" },
-      { id: "c", text: "went" },
+      { id: "a", text: "went" },
+      { id: "b", text: "go" },
+      { id: "c", text: "goes" },
       { id: "d", text: "going" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Yesterday means the past. The past form of go is went.",
     hints: ["Yesterday = past time.", "Go and goes are present forms."]
   },
@@ -256,10 +256,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "sleep" },
       { id: "b", text: "sleeps" },
-      { id: "c", text: "is sleeping" },
-      { id: "d", text: "slept" }
+      { id: "c", text: "slept" },
+      { id: "d", text: "is sleeping" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Right now needs present continuous: is sleeping.",
     hints: ["Right now = happening at this moment.", "Is + verb-ing shows an action in progress."]
   },
@@ -267,12 +267,12 @@ const SET_A: PrepQuestion[] = [
     id: "g3-eng-grammar-a-q21",
     prompt: "Which sentence is written correctly?",
     options: [
-      { id: "a", text: "where is my pencil" },
-      { id: "b", text: "Where is my pencil?" },
+      { id: "a", text: "Where is my pencil?" },
+      { id: "b", text: "where is my pencil" },
       { id: "c", text: "where is my pencil?" },
       { id: "d", text: "Where is my pencil" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "A question starts with a capital letter and ends with a question mark.",
     hints: ["Questions need a capital and a ?", "Where should start with a capital W."]
   },
@@ -281,11 +281,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Choose the correct end mark: What a lovely day___",
     options: [
       { id: "a", text: "." },
-      { id: "b", text: "?" },
-      { id: "c", text: "!" },
+      { id: "b", text: "!" },
+      { id: "c", text: "?" },
       { id: "d", text: "," }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "This shows strong feeling, so we use an exclamation mark (!).",
     hints: ["Does the sentence show strong feeling?", "What a\u2026 often ends with !"]
   },
@@ -294,11 +294,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which word should start with a capital letter?",
     options: [
       { id: "a", text: "the bird sang." },
-      { id: "b", text: "my name is kabir." },
-      { id: "c", text: "we ate lunch." },
+      { id: "b", text: "we ate lunch." },
+      { id: "c", text: "my name is kabir." },
       { id: "d", text: "she ran home." }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Names of people are proper nouns and need capital letters: Kabir.",
     hints: ["People's names need capitals.", "Kabir is a name."]
   },
@@ -307,11 +307,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Fix the sentence: ravi likes mangoes",
     options: [
       { id: "a", text: "ravi likes mangoes." },
-      { id: "b", text: "Ravi likes mangoes." },
-      { id: "c", text: "Ravi likes mangoes" },
-      { id: "d", text: "ravi Likes Mangoes." }
+      { id: "b", text: "Ravi likes mangoes" },
+      { id: "c", text: "ravi Likes Mangoes." },
+      { id: "d", text: "Ravi likes mangoes." }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Start with a capital letter (Ravi) and end with a full stop.",
     hints: ["Sentences start with a capital and usually end with a full stop.", "Ravi is a name, so it needs a capital."]
   }
@@ -322,12 +322,12 @@ const SET_B: PrepQuestion[] = [
     id: "g3-eng-grammar-b-q01",
     prompt: "Which word is a NOUN?",
     options: [
-      { id: "a", text: "sing" },
-      { id: "b", text: "garden" },
+      { id: "a", text: "garden" },
+      { id: "b", text: "sing" },
       { id: "c", text: "bright" },
       { id: "d", text: "slowly" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "\"Garden\" names a place. Sing is a verb; bright describes; slowly tells how.",
     hints: ["A noun names a person, place, or thing.", "Sing is an action word."]
   },
@@ -336,11 +336,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which word in this sentence is a COMMON noun? \"Asha fed the cow.\"",
     options: [
       { id: "a", text: "Asha" },
-      { id: "b", text: "fed" },
-      { id: "c", text: "cow" },
+      { id: "b", text: "cow" },
+      { id: "c", text: "fed" },
       { id: "d", text: "the" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "\"Cow\" is a common noun (any cow). Asha is a proper noun. Fed is a verb.",
     hints: ["Common nouns are general names, not special names.", "Asha is a special name (proper noun)."]
   },
@@ -362,11 +362,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "One box, two ____.",
     options: [
       { id: "a", text: "boxs" },
-      { id: "b", text: "boxes" },
-      { id: "c", text: "boxies" },
-      { id: "d", text: "boxen" }
+      { id: "b", text: "boxies" },
+      { id: "c", text: "boxen" },
+      { id: "d", text: "boxes" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Words ending in x add -es: box \u2192 boxes.",
     hints: ["Words ending in x, s, sh, or ch often add -es.", "Box + es = boxes."]
   },
@@ -374,12 +374,12 @@ const SET_B: PrepQuestion[] = [
     id: "g3-eng-grammar-b-q05",
     prompt: "Which word is a VERB?",
     options: [
-      { id: "a", text: "happy" },
-      { id: "b", text: "write" },
+      { id: "a", text: "write" },
+      { id: "b", text: "happy" },
       { id: "c", text: "green" },
       { id: "d", text: "desk" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "\"Write\" is an action. Happy and green describe; desk names a thing.",
     hints: ["A verb tells what someone does.", "Desk is a noun."]
   },
@@ -388,11 +388,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "The children ____ a song.",
     options: [
       { id: "a", text: "song" },
-      { id: "b", text: "loud" },
-      { id: "c", text: "sing" },
+      { id: "b", text: "sing" },
+      { id: "c", text: "loud" },
       { id: "d", text: "stage" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "\"Sing\" is the action. Song and stage are nouns.",
     hints: ["Choose the action that fits.", "Song names a thing, not an action."]
   },
@@ -401,11 +401,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "She ____ to school by bus.",
     options: [
       { id: "a", text: "go" },
-      { id: "b", text: "goes" },
-      { id: "c", text: "going" },
+      { id: "b", text: "going" },
+      { id: "c", text: "goes" },
       { id: "d", text: "gone" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "She is singular, so we say goes in the present.",
     hints: ["She = one person.", "With he/she/it, use goes not go."]
   },
@@ -415,10 +415,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "is" },
       { id: "b", text: "are" },
-      { id: "c", text: "am" },
-      { id: "d", text: "be" }
+      { id: "c", text: "be" },
+      { id: "d", text: "am" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "With I, we use am: I am a student.",
     hints: ["Remember: I am, you are, he/she is.", "Never say I is or I are."]
   },
@@ -426,12 +426,12 @@ const SET_B: PrepQuestion[] = [
     id: "g3-eng-grammar-b-q09",
     prompt: "Which word is an ADJECTIVE?",
     options: [
-      { id: "a", text: "dog" },
-      { id: "b", text: "bark" },
-      { id: "c", text: "noisy" },
+      { id: "a", text: "noisy" },
+      { id: "b", text: "dog" },
+      { id: "c", text: "bark" },
       { id: "d", text: "into" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "\"Noisy\" describes a sound or thing. Dog is a noun; bark can be a verb.",
     hints: ["An adjective describes a noun.", "Noisy tells what kind of sound or place."]
   },
@@ -440,11 +440,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "We ate a **sweet** ladoo. Which word is the adjective?",
     options: [
       { id: "a", text: "We" },
-      { id: "b", text: "ate" },
-      { id: "c", text: "sweet" },
+      { id: "b", text: "sweet" },
+      { id: "c", text: "ate" },
       { id: "d", text: "ladoo" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "\"Sweet\" describes the ladoo. Ladoo is the noun.",
     hints: ["Find the describing word.", "Sweet tells what the ladoo tastes like."]
   },
@@ -452,12 +452,12 @@ const SET_B: PrepQuestion[] = [
     id: "g3-eng-grammar-b-q11",
     prompt: "Choose the adjective: The ____ puppy wagged its tail.",
     options: [
-      { id: "a", text: "tiny" },
-      { id: "b", text: "ran" },
-      { id: "c", text: "quickly" },
+      { id: "a", text: "ran" },
+      { id: "b", text: "quickly" },
+      { id: "c", text: "tiny" },
       { id: "d", text: "under" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "\"Tiny\" describes the puppy's size.",
     hints: ["Pick a word that describes the puppy.", "Ran is a verb; quickly tells how."]
   },
@@ -466,11 +466,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "In \"a cold drink\", the adjective is ____.",
     options: [
       { id: "a", text: "a" },
-      { id: "b", text: "cold" },
-      { id: "c", text: "drink" },
-      { id: "d", text: "none" }
+      { id: "b", text: "drink" },
+      { id: "c", text: "none" },
+      { id: "d", text: "cold" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "\"Cold\" describes the drink.",
     hints: ["The adjective tells what kind of drink.", "Drink is the noun."]
   },
@@ -478,12 +478,12 @@ const SET_B: PrepQuestion[] = [
     id: "g3-eng-grammar-b-q13",
     prompt: "Choose the correct article: ____ umbrella is red.",
     options: [
-      { id: "a", text: "A" },
-      { id: "b", text: "An" },
+      { id: "a", text: "An" },
+      { id: "b", text: "A" },
       { id: "c", text: "\u2014 (none)" },
       { id: "d", text: "Them" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Umbrella begins with a vowel sound (u), so we use an.",
     hints: ["Listen to the first sound of umbrella.", "Umbrella starts with a vowel sound \u2192 an."]
   },
@@ -505,11 +505,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Please pass me ____ orange.",
     options: [
       { id: "a", text: "a" },
-      { id: "b", text: "an" },
-      { id: "c", text: "two" },
+      { id: "b", text: "two" },
+      { id: "c", text: "an" },
       { id: "d", text: "many" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Orange begins with a vowel sound, so we say an orange.",
     hints: ["Orange starts with o \u2014 a vowel sound.", "Use an before vowel sounds."]
   },
@@ -519,10 +519,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "A" },
       { id: "b", text: "An" },
-      { id: "c", text: "The" },
-      { id: "d", text: "Some" }
+      { id: "c", text: "Some" },
+      { id: "d", text: "The" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "There is only one moon we all know, so we say the moon.",
     hints: ["The is used for something unique or already known.", "We say the sun and the moon."]
   },
@@ -530,12 +530,12 @@ const SET_B: PrepQuestion[] = [
     id: "g3-eng-grammar-b-q17",
     prompt: "Last week, we ____ a movie.",
     options: [
-      { id: "a", text: "watch" },
-      { id: "b", text: "watches" },
-      { id: "c", text: "watched" },
+      { id: "a", text: "watched" },
+      { id: "b", text: "watch" },
+      { id: "c", text: "watches" },
       { id: "d", text: "watching" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Last week means the past. The past form is watched.",
     hints: ["Last week = past time.", "Watch/watches are present forms."]
   },
@@ -571,10 +571,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "rain" },
       { id: "b", text: "rains" },
-      { id: "c", text: "is raining" },
-      { id: "d", text: "rained" }
+      { id: "c", text: "rained" },
+      { id: "d", text: "is raining" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Look! means right now, so we use is raining.",
     hints: ["Look! points to something happening now.", "Is + verb-ing = action in progress."]
   },
@@ -582,12 +582,12 @@ const SET_B: PrepQuestion[] = [
     id: "g3-eng-grammar-b-q21",
     prompt: "Which sentence is written correctly?",
     options: [
-      { id: "a", text: "how old are you" },
-      { id: "b", text: "How old are you?" },
+      { id: "a", text: "How old are you?" },
+      { id: "b", text: "how old are you" },
       { id: "c", text: "how old are you?" },
       { id: "d", text: "How old are you" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "A question needs a capital letter at the start and a question mark at the end.",
     hints: ["Questions start with a capital and end with ?", "How needs a capital H."]
   },
@@ -596,11 +596,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Choose the correct end mark: Stop___",
     options: [
       { id: "a", text: "." },
-      { id: "b", text: "?" },
-      { id: "c", text: "!" },
+      { id: "b", text: "!" },
+      { id: "c", text: "?" },
       { id: "d", text: "," }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Stop! is a strong command, so we use an exclamation mark.",
     hints: ["Strong commands or feelings often use !", "Stop shows urgency."]
   },
@@ -609,11 +609,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which sentence uses capital letters correctly?",
     options: [
       { id: "a", text: "i live in mumbai." },
-      { id: "b", text: "I live in Mumbai." },
-      { id: "c", text: "i Live In Mumbai." },
+      { id: "b", text: "i Live In Mumbai." },
+      { id: "c", text: "I live in Mumbai." },
       { id: "d", text: "I live in mumbai." }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "I and Mumbai both need capitals. Mumbai is a place name.",
     hints: ["The word I and place names need capitals.", "Mumbai is a proper noun."]
   },
@@ -622,11 +622,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Fix the sentence: when is the test",
     options: [
       { id: "a", text: "when is the test?" },
-      { id: "b", text: "When is the test?" },
-      { id: "c", text: "When is the test." },
-      { id: "d", text: "when is the test." }
+      { id: "b", text: "When is the test." },
+      { id: "c", text: "when is the test." },
+      { id: "d", text: "When is the test?" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "It is a question, so start with When (capital) and end with ?",
     hints: ["This asks something \u2014 use a question mark.", "Start with a capital letter."]
   }

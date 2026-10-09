@@ -32,11 +32,11 @@
 - stem: |
   Which word is a NOUN (a naming word)?
 - options:
-  - A: run
-  - B: happy
-  - C: school
+  - A: school
+  - B: run
+  - C: happy
   - D: quickly
-- answer: C
+- answer: A
 - explanation: |
   "School" names a place. Run is a verb, happy is an adjective, and quickly is an adverb.
 - hints:
@@ -51,10 +51,10 @@
   Riya packed her **bag** for school. Which word is the noun?
 - options:
   - A: packed
-  - B: her
-  - C: bag
+  - B: bag
+  - C: her
   - D: for
-- answer: C
+- answer: B
 - explanation: |
   "Bag" names a thing. Packed is a verb (action).
 - hints:
@@ -88,9 +88,9 @@
 - options:
   - A: childs
   - B: childes
-  - C: children
-  - D: childrens
-- answer: C
+  - C: childrens
+  - D: children
+- answer: D
 - explanation: |
   The plural of child is children. We do not say childs or childrens.
 - hints:
@@ -104,11 +104,11 @@
 - stem: |
   Which word is a VERB (an action word)?
 - options:
-  - A: table
-  - B: jump
+  - A: jump
+  - B: table
   - C: blue
   - D: soft
-- answer: B
+- answer: A
 - explanation: |
   "Jump" names an action. Table is a noun; blue and soft describe things.
 - hints:
@@ -122,11 +122,11 @@
 - stem: |
   The birds ____ in the sky.
 - options:
-  - A: fly
-  - B: sky
+  - A: sky
+  - B: fly
   - C: pretty
   - D: tree
-- answer: A
+- answer: B
 - explanation: |
   "Fly" is the action the birds do. Sky and tree are nouns.
 - hints:
@@ -141,10 +141,10 @@
   Kabir ____ his teeth every morning.
 - options:
   - A: brush
-  - B: brushes
-  - C: brushing
+  - B: brushing
+  - C: brushes
   - D: brushed
-- answer: B
+- answer: C
 - explanation: |
   Kabir is one person (he), so we say brushes in the present.
 - hints:
@@ -160,9 +160,9 @@
 - options:
   - A: is
   - B: am
-  - C: are
-  - D: be
-- answer: C
+  - C: be
+  - D: are
+- answer: D
 - explanation: |
   "They" is plural, so we use are.
 - hints:
@@ -176,11 +176,11 @@
 - stem: |
   Which word is an ADJECTIVE (a describing word)?
 - options:
-  - A: cat
-  - B: run
-  - C: fluffy
+  - A: fluffy
+  - B: cat
+  - C: run
   - D: and
-- answer: C
+- answer: A
 - explanation: |
   "Fluffy" describes how something feels or looks. Cat is a noun; run is a verb.
 - hints:
@@ -195,10 +195,10 @@
   Meena saw a **tall** tree. Which word is the adjective?
 - options:
   - A: Meena
-  - B: saw
-  - C: tall
+  - B: tall
+  - C: saw
   - D: tree
-- answer: C
+- answer: B
 - explanation: |
   "Tall" describes the tree. Tree is the noun being described.
 - hints:
@@ -212,11 +212,11 @@
 - stem: |
   Choose the adjective that fits: The ____ mango is sweet.
 - options:
-  - A: yellow
-  - B: eat
-  - C: quickly
+  - A: eat
+  - B: quickly
+  - C: yellow
   - D: under
-- answer: A
+- answer: C
 - explanation: |
   "Yellow" describes the mango's colour. Eat is a verb; quickly tells how.
 - hints:
@@ -231,10 +231,10 @@
   Which sentence uses an adjective?
 - options:
   - A: Ravi runs.
-  - B: The loud drum woke us.
-  - C: She and I.
-  - D: On the table.
-- answer: B
+  - B: She and I.
+  - C: On the table.
+  - D: The loud drum woke us.
+- answer: D
 - explanation: |
   "Loud" describes the drum. The other choices have no describing word for a noun.
 - hints:
@@ -248,11 +248,11 @@
 - stem: |
   Choose the correct article: ____ apple fell from the tree.
 - options:
-  - A: A
-  - B: An
+  - A: An
+  - B: A
   - C: The
   - D: — (none)
-- answer: B
+- answer: A
 - explanation: |
   Use "an" before words that begin with a vowel sound. Apple begins with "a".
 - hints:
@@ -285,10 +285,10 @@
   Sana wants ____ ice cream.
 - options:
   - A: a
-  - B: an
-  - C: two
+  - B: two
+  - C: an
   - D: many
-- answer: B
+- answer: C
 - explanation: |
   "Ice" begins with a vowel sound, so we say an ice cream.
 - hints:
@@ -303,10 +303,10 @@
   We use "the" when we mean ____.
 - options:
   - A: any one thing
-  - B: a special or known thing
-  - C: only plural nouns
-  - D: only verbs
-- answer: B
+  - B: only plural nouns
+  - C: only verbs
+  - D: a special or known thing
+- answer: D
 - explanation: |
   "The" points to a special or already-known thing (the sun, the bag on the table).
 - hints:
@@ -320,11 +320,11 @@
 - stem: |
   Yesterday, Riya ____ to the market.
 - options:
-  - A: go
-  - B: goes
-  - C: went
+  - A: went
+  - B: go
+  - C: goes
   - D: going
-- answer: C
+- answer: A
 - explanation: |
   Yesterday means the past. The past form of go is went.
 - hints:
@@ -376,9 +376,9 @@
 - options:
   - A: sleep
   - B: sleeps
-  - C: is sleeping
-  - D: slept
-- answer: C
+  - C: slept
+  - D: is sleeping
+- answer: D
 - explanation: |
   Right now needs present continuous: is sleeping.
 - hints:
@@ -392,11 +392,11 @@
 - stem: |
   Which sentence is written correctly?
 - options:
-  - A: where is my pencil
-  - B: Where is my pencil?
+  - A: Where is my pencil?
+  - B: where is my pencil
   - C: where is my pencil?
   - D: Where is my pencil
-- answer: B
+- answer: A
 - explanation: |
   A question starts with a capital letter and ends with a question mark.
 - hints:
@@ -411,10 +411,10 @@
   Choose the correct end mark: What a lovely day___
 - options:
   - A: .
-  - B: ?
-  - C: !
+  - B: !
+  - C: ?
   - D: ,
-- answer: C
+- answer: B
 - explanation: |
   This shows strong feeling, so we use an exclamation mark (!).
 - hints:
@@ -429,10 +429,10 @@
   Which word should start with a capital letter?
 - options:
   - A: the bird sang.
-  - B: my name is kabir.
-  - C: we ate lunch.
+  - B: we ate lunch.
+  - C: my name is kabir.
   - D: she ran home.
-- answer: B
+- answer: C
 - explanation: |
   Names of people are proper nouns and need capital letters: Kabir.
 - hints:
@@ -447,10 +447,10 @@
   Fix the sentence: ravi likes mangoes
 - options:
   - A: ravi likes mangoes.
-  - B: Ravi likes mangoes.
-  - C: Ravi likes mangoes
-  - D: ravi Likes Mangoes.
-- answer: B
+  - B: Ravi likes mangoes
+  - C: ravi Likes Mangoes.
+  - D: Ravi likes mangoes.
+- answer: D
 - explanation: |
   Start with a capital letter (Ravi) and end with a full stop.
 - hints:
@@ -466,11 +466,11 @@
 - stem: |
   Which word is a NOUN?
 - options:
-  - A: sing
-  - B: garden
+  - A: garden
+  - B: sing
   - C: bright
   - D: slowly
-- answer: B
+- answer: A
 - explanation: |
   "Garden" names a place. Sing is a verb; bright describes; slowly tells how.
 - hints:
@@ -485,10 +485,10 @@
   Which word in this sentence is a COMMON noun? "Asha fed the cow."
 - options:
   - A: Asha
-  - B: fed
-  - C: cow
+  - B: cow
+  - C: fed
   - D: the
-- answer: C
+- answer: B
 - explanation: |
   "Cow" is a common noun (any cow). Asha is a proper noun. Fed is a verb.
 - hints:
@@ -521,10 +521,10 @@
   One box, two ____.
 - options:
   - A: boxs
-  - B: boxes
-  - C: boxies
-  - D: boxen
-- answer: B
+  - B: boxies
+  - C: boxen
+  - D: boxes
+- answer: D
 - explanation: |
   Words ending in x add -es: box → boxes.
 - hints:
@@ -538,11 +538,11 @@
 - stem: |
   Which word is a VERB?
 - options:
-  - A: happy
-  - B: write
+  - A: write
+  - B: happy
   - C: green
   - D: desk
-- answer: B
+- answer: A
 - explanation: |
   "Write" is an action. Happy and green describe; desk names a thing.
 - hints:
@@ -557,10 +557,10 @@
   The children ____ a song.
 - options:
   - A: song
-  - B: loud
-  - C: sing
+  - B: sing
+  - C: loud
   - D: stage
-- answer: C
+- answer: B
 - explanation: |
   "Sing" is the action. Song and stage are nouns.
 - hints:
@@ -575,10 +575,10 @@
   She ____ to school by bus.
 - options:
   - A: go
-  - B: goes
-  - C: going
+  - B: going
+  - C: goes
   - D: gone
-- answer: B
+- answer: C
 - explanation: |
   She is singular, so we say goes in the present.
 - hints:
@@ -594,9 +594,9 @@
 - options:
   - A: is
   - B: are
-  - C: am
-  - D: be
-- answer: C
+  - C: be
+  - D: am
+- answer: D
 - explanation: |
   With I, we use am: I am a student.
 - hints:
@@ -610,11 +610,11 @@
 - stem: |
   Which word is an ADJECTIVE?
 - options:
-  - A: dog
-  - B: bark
-  - C: noisy
+  - A: noisy
+  - B: dog
+  - C: bark
   - D: into
-- answer: C
+- answer: A
 - explanation: |
   "Noisy" describes a sound or thing. Dog is a noun; bark can be a verb.
 - hints:
@@ -629,10 +629,10 @@
   We ate a **sweet** ladoo. Which word is the adjective?
 - options:
   - A: We
-  - B: ate
-  - C: sweet
+  - B: sweet
+  - C: ate
   - D: ladoo
-- answer: C
+- answer: B
 - explanation: |
   "Sweet" describes the ladoo. Ladoo is the noun.
 - hints:
@@ -646,11 +646,11 @@
 - stem: |
   Choose the adjective: The ____ puppy wagged its tail.
 - options:
-  - A: tiny
-  - B: ran
-  - C: quickly
+  - A: ran
+  - B: quickly
+  - C: tiny
   - D: under
-- answer: A
+- answer: C
 - explanation: |
   "Tiny" describes the puppy's size.
 - hints:
@@ -665,10 +665,10 @@
   In "a cold drink", the adjective is ____.
 - options:
   - A: a
-  - B: cold
-  - C: drink
-  - D: none
-- answer: B
+  - B: drink
+  - C: none
+  - D: cold
+- answer: D
 - explanation: |
   "Cold" describes the drink.
 - hints:
@@ -682,11 +682,11 @@
 - stem: |
   Choose the correct article: ____ umbrella is red.
 - options:
-  - A: A
-  - B: An
+  - A: An
+  - B: A
   - C: — (none)
   - D: Them
-- answer: B
+- answer: A
 - explanation: |
   Umbrella begins with a vowel sound (u), so we use an.
 - hints:
@@ -719,10 +719,10 @@
   Please pass me ____ orange.
 - options:
   - A: a
-  - B: an
-  - C: two
+  - B: two
+  - C: an
   - D: many
-- answer: B
+- answer: C
 - explanation: |
   Orange begins with a vowel sound, so we say an orange.
 - hints:
@@ -738,9 +738,9 @@
 - options:
   - A: A
   - B: An
-  - C: The
-  - D: Some
-- answer: C
+  - C: Some
+  - D: The
+- answer: D
 - explanation: |
   There is only one moon we all know, so we say the moon.
 - hints:
@@ -754,11 +754,11 @@
 - stem: |
   Last week, we ____ a movie.
 - options:
-  - A: watch
-  - B: watches
-  - C: watched
+  - A: watched
+  - B: watch
+  - C: watches
   - D: watching
-- answer: C
+- answer: A
 - explanation: |
   Last week means the past. The past form is watched.
 - hints:
@@ -810,9 +810,9 @@
 - options:
   - A: rain
   - B: rains
-  - C: is raining
-  - D: rained
-- answer: C
+  - C: rained
+  - D: is raining
+- answer: D
 - explanation: |
   Look! means right now, so we use is raining.
 - hints:
@@ -826,11 +826,11 @@
 - stem: |
   Which sentence is written correctly?
 - options:
-  - A: how old are you
-  - B: How old are you?
+  - A: How old are you?
+  - B: how old are you
   - C: how old are you?
   - D: How old are you
-- answer: B
+- answer: A
 - explanation: |
   A question needs a capital letter at the start and a question mark at the end.
 - hints:
@@ -845,10 +845,10 @@
   Choose the correct end mark: Stop___
 - options:
   - A: .
-  - B: ?
-  - C: !
+  - B: !
+  - C: ?
   - D: ,
-- answer: C
+- answer: B
 - explanation: |
   Stop! is a strong command, so we use an exclamation mark.
 - hints:
@@ -863,10 +863,10 @@
   Which sentence uses capital letters correctly?
 - options:
   - A: i live in mumbai.
-  - B: I live in Mumbai.
-  - C: i Live In Mumbai.
+  - B: i Live In Mumbai.
+  - C: I live in Mumbai.
   - D: I live in mumbai.
-- answer: B
+- answer: C
 - explanation: |
   I and Mumbai both need capitals. Mumbai is a place name.
 - hints:
@@ -881,10 +881,10 @@
   Fix the sentence: when is the test
 - options:
   - A: when is the test?
-  - B: When is the test?
-  - C: When is the test.
-  - D: when is the test.
-- answer: B
+  - B: When is the test.
+  - C: when is the test.
+  - D: When is the test?
+- answer: D
 - explanation: |
   It is a question, so start with When (capital) and end with ?
 - hints:
