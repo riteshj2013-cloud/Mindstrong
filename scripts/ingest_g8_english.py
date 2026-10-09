@@ -8,7 +8,12 @@ Parses Set A / Set B (24 MCQs each, passages prepended to stems) and emits a
 from pathlib import Path
 import json, re, sys
 sys.path.insert(0, str(Path(__file__).parent))
-from ingest_lib import ROOT, OUT, DOCS, eng_sets, emit_module
+from ingest_lib import OUT, DOCS, eng_sets, emit_module
+
+# Local writer pack in this worktree (fallback: sibling /workspace/mindstrong).
+ROOT = Path(__file__).resolve().parent.parent / "grade-8-english"
+if not ROOT.is_dir():
+    ROOT = Path("/workspace/mindstrong") / "grade-8-english"
 
 J = json.dumps
 
@@ -162,10 +167,68 @@ CHAPTERS = [
               answerId="a", why="\u201cCall off\u201d means cancel."),
          ["Precision pro!", "Ask: who is the reader? what is the purpose?", "Near-twins differ by one letter",
           "Each format has a pattern readers expect"])),
+  dict(src="chapter-04.md", prefix="g8-eng-ch04", file="g8-english-spoken.ts", export="g8EnglishSpoken",
+       doc="english-ch04-spoken.md",
+       meta={"id": "speak-up-debate", "title": "Speak Up: Dialogue & Debate", "emoji": "🗣️",
+             "blurb": "Discourse markers, rebuttals & polite speech", "topic": "spoken-english",
+             "paperTopics": ["comprehension", "vocabulary", "grammar"]},
+       lesson=lesson(
+         dict(emoji="🗣️", title="Speak so listeners can follow",
+              body=["Good speaking is turn-taking, clear points and polite disagreement.",
+                    "Discourse markers are road signs: firstly, however, to sum up."],
+              speak="Today we practise spoken English the way it appears in dialogues, debates and real conversations.",
+              reveal_title="Talk toolkit",
+              reveal_speak="Tap each card: discourse markers, debate roles, rebuttal and register."),
+         [("Discourse markers", "Firstly / on the other hand / to sum up — guide the listener", "🧭"),
+          ("Proposition & opposition", "For the motion vs against the motion", "⚖️"),
+          ("Rebuttal", "Answer their strongest point — don't only repeat yours", "🔁"),
+          ("Register", "Chat allows fillers; debate needs clearer formal speech", "🎚️")],
+         dict(title="Upgrade a weak opening",
+              speak="Weak: Uniforms are boring and I hate them. Stronger: Uniforms limit self-expression without improving learning. The second version states a claim listeners can test.",
+              steps=["Motion: School uniforms should be optional.",
+                     "Weak: Uniforms are boring and I hate them.",
+                     "Stronger: Uniforms limit self-expression without improving learning.",
+                     "Debate language = a claim listeners can test"],
+              punchline="Would you mind if… keeps disagreement respectful."),
+         dict(prompt="Which marker best introduces a contrasting idea?",
+              options=[("a", "Firstly"), ("b", "For example"), ("c", "However"), ("d", "To sum up")],
+              answerId="c", why="However signals contrast. Firstly sequences; for example illustrates; to sum up concludes."),
+         ["Debate ready!", "Claim + reason beats slogans", "Answer the other side in rebuttal",
+          "Match register to the hall, not the corridor"])),
+  dict(src="chapter-05.md", prefix="g8-eng-ch05", file="g8-english-writing.ts", export="g8EnglishWriting",
+       doc="english-ch05-writing.md",
+       meta={"id": "writing-that-works", "title": "Writing That Works", "emoji": "📝",
+             "blurb": "Letters, notices, articles & emails", "topic": "writing",
+             "paperTopics": ["comprehension", "vocabulary"]},
+       lesson=lesson(
+         dict(emoji="📝", title="Formats readers expect",
+              body=["A notice, letter, article and email each have a pattern.",
+                    "Ask: who is my reader, and what should they do?"],
+              speak="Today we practise the formats readers expect: formal letters, notices, articles and emails.",
+              reveal_title="Four formats",
+              reveal_speak="Tap each card: notice, formal letter, article and email."),
+         [("Notice", "Body, NOTICE, date, heading, details, name & designation", "📋"),
+          ("Formal letter", "Addresses, date, subject, salutation, body, close, signature", "✉️"),
+          ("Article", "Heading, byline, opening, body, memorable close", "📰"),
+          ("Email", "Precise subject, greeting, clear ask, suitable close", "💻")],
+         dict(title="Subject line upgrade",
+              speak="Weak subject: Hello. Strong subject: Request for permission to use the AV room on 12 November. Name the purpose before they open the message.",
+              steps=["Weak subject: Hello.",
+                     "Reader learns nothing until they open it.",
+                     "Strong: Request for permission to use the AV room on 12 November.",
+                     "Purpose and details up front"],
+              punchline="Dear Sir/Madam → Yours faithfully · Named reader → Yours sincerely"),
+         dict(prompt="Dear Sir/Madam should be followed by which closing?",
+              options=[("a", "Yours sincerely"), ("b", "Yours faithfully"), ("c", "Love,"), ("d", "See ya")],
+              answerId="b", why="An unnamed formal salutation pairs with Yours faithfully."),
+         ["Format pro!", "Match purpose to genre", "Notices = brief facts; articles = viewpoint",
+          "Closings follow the salutation rule"])),
 ]
 
-def run(chapters, src, grade):
+def run(chapters, src, grade, only=None):
   for spec in chapters:
+      if only and spec["src"] not in only:
+          continue
       md = (src / spec["src"]).read_text()
       a, b = eng_sets(md, spec["prefix"], base_dir=src)
       for label, qs in (("A", a), ("B", b)):
@@ -177,7 +240,11 @@ def run(chapters, src, grade):
       emit_module(OUT / spec["file"], spec["export"], spec["meta"], spec["lesson"], a, b)
       d = DOCS / ("grade-%d" % grade); d.mkdir(parents=True, exist_ok=True)
       (d / spec["doc"]).write_text(md)
+      print("ingested", spec["src"], "→", spec["file"], "(%d+%d)" % (len(a), len(b)))
   print("done")
 
 if __name__ == "__main__":
-    run(CHAPTERS, ROOT / "grade-8-english", 8)
+    only = None
+    if len(sys.argv) > 1:
+        only = set(sys.argv[1:])
+    run(CHAPTERS, ROOT, 8, only=only)
