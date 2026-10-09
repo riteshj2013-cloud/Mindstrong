@@ -733,7 +733,7 @@ const lesson: ChapterDef["lesson"] = [
     bullets: [
       "Length, mass and capacity need different units",
       "Know the ×1000 and ×100 conversions",
-      "Pick sensible units; use ₹ stories only for money (not measure)",
+      "Pick sensible units for length, mass and capacity",
       "Set A and Set B ready — 24 MCQs each",
     ],
     cta: "Back to chapter",
