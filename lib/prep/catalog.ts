@@ -6,6 +6,7 @@ import { g3MathsNumbers } from "./content/g3-maths-numbers";
 import { g3MathsAddSubtract } from "./content/g3-maths-add-subtract";
 import { g3EnglishSynonyms } from "./content/g3-english-synonyms";
 import { g3EnglishAntonyms } from "./content/g3-english-antonyms";
+import { g3EnglishGrammar } from "./content/g3-english-grammar";
 import { g4MathsLargeNumbers } from "./content/g4-maths-large-numbers";
 import { g4MathsMultiplyDivide } from "./content/g4-maths-multiply-divide";
 import { g4MathsFractions } from "./content/g4-maths-fractions";
@@ -608,7 +609,7 @@ const ENGLISH: Record<number, ChapterDef[]> = {
   3: [
     g3EnglishSynonyms,
     g3EnglishAntonyms,
-    ch("grammar", "Grammar Basics", "✏️", "Agree & fill-ins", englishGrammarLesson(), ["grammar", "grammar", "vocabulary"], ["grammar"]),
+    g3EnglishGrammar,
   ],
   4: [
     g4EnglishReading,

@@ -30,6 +30,12 @@
     "g3-english-antonyms"
   ],
   [
+    "english",
+    3,
+    "g3EnglishGrammar",
+    "g3-english-grammar"
+  ],
+  [
     "science",
     5,
     "g5ScienceBody",
