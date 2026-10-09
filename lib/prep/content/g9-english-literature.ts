@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch01-a-q01",
     prompt: "Read:\n\n\"Riya paused at the old library door. Dust motes swam in a shaft of late light. She had promised herself she would return the borrowed journal, yet her fingers tightened on its worn cover. Inside were her grandmother’s recipes — and a letter never sent. “Some stories,” the librarian had once said, “wait for the right reader.” Riya breathed in the smell of paper and decided the right reader might be her.\"\n\nWhy does Riya pause at the library door?",
     options: [
-      { id: "a", text: "She is lost" },
-      { id: "b", text: "She feels conflicted about returning the journal" },
-      { id: "c", text: "She is angry at the librarian" },
-      { id: "d", text: "She forgot her keys" }
+      { id: "a", text: "She feels conflicted about returning the journal" },
+      { id: "b", text: "She is angry at the librarian" },
+      { id: "c", text: "She forgot her keys" },
+      { id: "d", text: "She is lost" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Her fingers tighten on the cover even though she promised to return it — hesitation and conflict.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -33,12 +33,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch01-a-q03",
     prompt: "Read:\n\n\"Riya paused at the old library door. Dust motes swam in a shaft of late light. She had promised herself she would return the borrowed journal, yet her fingers tightened on its worn cover. Inside were her grandmother’s recipes — and a letter never sent. “Some stories,” the librarian had once said, “wait for the right reader.” Riya breathed in the smell of paper and decided the right reader might be her.\"\n\nThe librarian’s line “Some stories wait for the right reader” suggests…",
     options: [
-      { id: "a", text: "books expire quickly" },
-      { id: "b", text: "meaning depends on who is ready to receive it" },
-      { id: "c", text: "librarians dislike children" },
-      { id: "d", text: "Riya should throw the letter away" }
+      { id: "a", text: "Riya should throw the letter away" },
+      { id: "b", text: "books expire quickly" },
+      { id: "c", text: "meaning depends on who is ready to receive it" },
+      { id: "d", text: "librarians dislike children" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "The quote implies timing and readiness matter for a story’s impact.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch01-a-q04",
     prompt: "Read:\n\n\"Riya paused at the old library door. Dust motes swam in a shaft of late light. She had promised herself she would return the borrowed journal, yet her fingers tightened on its worn cover. Inside were her grandmother’s recipes — and a letter never sent. “Some stories,” the librarian had once said, “wait for the right reader.” Riya breathed in the smell of paper and decided the right reader might be her.\"\n\nWhat is inside the journal besides recipes?",
     options: [
-      { id: "a", text: "A map" },
-      { id: "b", text: "A never-sent letter" },
-      { id: "c", text: "Money" },
-      { id: "d", text: "A train ticket" }
+      { id: "a", text: "Money" },
+      { id: "b", text: "A train ticket" },
+      { id: "c", text: "A map" },
+      { id: "d", text: "A never-sent letter" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "The passage explicitly mentions a letter never sent.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -59,12 +59,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch01-a-q05",
     prompt: "Read:\n\n\"Riya paused at the old library door. Dust motes swam in a shaft of late light. She had promised herself she would return the borrowed journal, yet her fingers tightened on its worn cover. Inside were her grandmother’s recipes — and a letter never sent. “Some stories,” the librarian had once said, “wait for the right reader.” Riya breathed in the smell of paper and decided the right reader might be her.\"\n\nRiya’s final decision shows she…",
     options: [
-      { id: "a", text: "rejects her grandmother" },
-      { id: "b", text: "chooses to engage with the story herself" },
-      { id: "c", text: "returns the journal immediately without thought" },
-      { id: "d", text: "leaves the library forever" }
+      { id: "a", text: "chooses to engage with the story herself" },
+      { id: "b", text: "returns the journal immediately without thought" },
+      { id: "c", text: "leaves the library forever" },
+      { id: "d", text: "rejects her grandmother" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "She decides she might be the right reader — engagement, not rejection.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -85,12 +85,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch01-a-q07",
     prompt: "Read:\n\n\"Riya paused at the old library door. Dust motes swam in a shaft of late light. She had promised herself she would return the borrowed journal, yet her fingers tightened on its worn cover. Inside were her grandmother’s recipes — and a letter never sent. “Some stories,” the librarian had once said, “wait for the right reader.” Riya breathed in the smell of paper and decided the right reader might be her.\"\n\nWhich best states a theme of the passage?",
     options: [
-      { id: "a", text: "Cooking is difficult" },
-      { id: "b", text: "Personal history can wait until someone is ready to face it" },
-      { id: "c", text: "Libraries are dusty" },
-      { id: "d", text: "Promises never matter" }
+      { id: "a", text: "Promises never matter" },
+      { id: "b", text: "Cooking is difficult" },
+      { id: "c", text: "Personal history can wait until someone is ready to face it" },
+      { id: "d", text: "Libraries are dusty" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "The delayed letter and “right reader” point to readiness with family stories.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -98,12 +98,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch01-a-q08",
     prompt: "Read:\n\n\"Riya paused at the old library door. Dust motes swam in a shaft of late light. She had promised herself she would return the borrowed journal, yet her fingers tightened on its worn cover. Inside were her grandmother’s recipes — and a letter never sent. “Some stories,” the librarian had once said, “wait for the right reader.” Riya breathed in the smell of paper and decided the right reader might be her.\"\n\nThe narrator’s tone toward Riya is mainly…",
     options: [
-      { id: "a", text: "mocking" },
-      { id: "b", text: "sympathetic / gentle" },
-      { id: "c", text: "furious" },
-      { id: "d", text: "indifferent" }
+      { id: "a", text: "furious" },
+      { id: "b", text: "indifferent" },
+      { id: "c", text: "mocking" },
+      { id: "d", text: "sympathetic / gentle" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Close attention to her hesitation and sensory world feels gentle, not mocking.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -111,12 +111,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch01-a-q09",
     prompt: "Read:\n\n\"The mountain path narrowed until Arjun had to turn sideways. Wind tugged at his jacket. Below, the valley looked like a crumpled green map. He checked his water bottle — half full — and thought of his sister’s dare: reach the ridge before noon. A goat watched him with calm eyes, as if it owned the cliff. Arjun laughed, surprising himself, and took the next step.\"\n\nWhy does Arjun turn sideways on the path?",
     options: [
-      { id: "a", text: "He is dancing" },
-      { id: "b", text: "The path has become very narrow" },
-      { id: "c", text: "He sees a train" },
-      { id: "d", text: "He dropped his bottle" }
+      { id: "a", text: "The path has become very narrow" },
+      { id: "b", text: "He sees a train" },
+      { id: "c", text: "He dropped his bottle" },
+      { id: "d", text: "He is dancing" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "The path “narrowed until Arjun had to turn sideways.”",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -124,12 +124,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch01-a-q10",
     prompt: "Read:\n\n\"The mountain path narrowed until Arjun had to turn sideways. Wind tugged at his jacket. Below, the valley looked like a crumpled green map. He checked his water bottle — half full — and thought of his sister’s dare: reach the ridge before noon. A goat watched him with calm eyes, as if it owned the cliff. Arjun laughed, surprising himself, and took the next step.\"\n\n“The valley looked like a crumpled green map” is an example of…",
     options: [
-      { id: "a", text: "simile" },
-      { id: "b", text: "metaphor" },
-      { id: "c", text: "alliteration" },
-      { id: "d", text: "hyperbole" }
+      { id: "a", text: "hyperbole" },
+      { id: "b", text: "simile" },
+      { id: "c", text: "metaphor" },
+      { id: "d", text: "alliteration" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "“Like” signals a simile comparing valley to a map.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch01-a-q11",
     prompt: "Read:\n\n\"The mountain path narrowed until Arjun had to turn sideways. Wind tugged at his jacket. Below, the valley looked like a crumpled green map. He checked his water bottle — half full — and thought of his sister’s dare: reach the ridge before noon. A goat watched him with calm eyes, as if it owned the cliff. Arjun laughed, surprising himself, and took the next step.\"\n\nArjun’s sister’s dare mainly adds…",
     options: [
-      { id: "a", text: "a goal and motivation" },
-      { id: "b", text: "a weather report" },
-      { id: "c", text: "a villain" },
-      { id: "d", text: "a recipe" }
+      { id: "a", text: "a villain" },
+      { id: "b", text: "a recipe" },
+      { id: "c", text: "a goal and motivation" },
+      { id: "d", text: "a weather report" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "The noon deadline gives purpose to the climb.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch01-a-q12",
     prompt: "Read:\n\n\"The mountain path narrowed until Arjun had to turn sideways. Wind tugged at his jacket. Below, the valley looked like a crumpled green map. He checked his water bottle — half full — and thought of his sister’s dare: reach the ridge before noon. A goat watched him with calm eyes, as if it owned the cliff. Arjun laughed, surprising himself, and took the next step.\"\n\nThe goat’s calm eyes, “as if it owned the cliff,” suggest…",
     options: [
-      { id: "a", text: "the goat is dangerous" },
-      { id: "b", text: "humorous confidence / quiet mastery of the place" },
-      { id: "c", text: "Arjun should go home" },
-      { id: "d", text: "the cliff is artificial" }
+      { id: "a", text: "Arjun should go home" },
+      { id: "b", text: "the cliff is artificial" },
+      { id: "c", text: "the goat is dangerous" },
+      { id: "d", text: "humorous confidence / quiet mastery of the place" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "The playful personification makes the goat seem serenely in charge.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch01-a-q15",
     prompt: "Read:\n\n\"The mountain path narrowed until Arjun had to turn sideways. Wind tugged at his jacket. Below, the valley looked like a crumpled green map. He checked his water bottle — half full — and thought of his sister’s dare: reach the ridge before noon. A goat watched him with calm eyes, as if it owned the cliff. Arjun laughed, surprising himself, and took the next step.\"\n\nThe overall mood of the climb passage is…",
     options: [
-      { id: "a", text: "tense but determined" },
-      { id: "b", text: "purely comic" },
-      { id: "c", text: "hopeless" },
-      { id: "d", text: "sleepy" }
+      { id: "a", text: "hopeless" },
+      { id: "b", text: "sleepy" },
+      { id: "c", text: "tense but determined" },
+      { id: "d", text: "purely comic" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Wind, narrow path, and dare create tension; the laugh and next step show resolve.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch01-a-q16",
     prompt: "Read:\n\n\"The mountain path narrowed until Arjun had to turn sideways. Wind tugged at his jacket. Below, the valley looked like a crumpled green map. He checked his water bottle — half full — and thought of his sister’s dare: reach the ridge before noon. A goat watched him with calm eyes, as if it owned the cliff. Arjun laughed, surprising himself, and took the next step.\"\n\nArjun’s next step at the end emphasises…",
     options: [
-      { id: "a", text: "giving up" },
-      { id: "b", text: "continuing despite difficulty" },
-      { id: "c", text: "returning the goat" },
-      { id: "d", text: "reading a map" }
+      { id: "a", text: "returning the goat" },
+      { id: "b", text: "reading a map" },
+      { id: "c", text: "giving up" },
+      { id: "d", text: "continuing despite difficulty" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "After laughing, he takes the next step — persistence.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -215,12 +215,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch01-a-q17",
     prompt: "Read:\n\n\"In the school courtyard, Mira watered a stubborn marigold. Classmates rushed past toward the football field, their cheers rising like bright balloons. Mira’s science fair board leaned against the wall, edges curling. She had measured plant growth for six weeks. Today the judges would come. The marigold, she noticed, had opened one new petal overnight — a small, quiet vote of confidence.\"\n\nMira’s marigold is called “stubborn,” which suggests…",
     options: [
-      { id: "a", text: "it grows easily" },
-      { id: "b", text: "it has been hard to keep going" },
-      { id: "c", text: "it is artificial" },
-      { id: "d", text: "judges dislike flowers" }
+      { id: "a", text: "it has been hard to keep going" },
+      { id: "b", text: "it is artificial" },
+      { id: "c", text: "judges dislike flowers" },
+      { id: "d", text: "it grows easily" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "“Stubborn” personifies difficulty in the plant’s survival/growth.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -241,12 +241,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch01-a-q19",
     prompt: "Read:\n\n\"In the school courtyard, Mira watered a stubborn marigold. Classmates rushed past toward the football field, their cheers rising like bright balloons. Mira’s science fair board leaned against the wall, edges curling. She had measured plant growth for six weeks. Today the judges would come. The marigold, she noticed, had opened one new petal overnight — a small, quiet vote of confidence.\"\n\nWhy do the curling edges of Mira’s board matter?",
     options: [
-      { id: "a", text: "They prove she cheated" },
-      { id: "b", text: "They hint at nervousness / imperfect preparation under pressure" },
-      { id: "c", text: "They show rain inside" },
-      { id: "d", text: "They are unrelated decoration" }
+      { id: "a", text: "They are unrelated decoration" },
+      { id: "b", text: "They prove she cheated" },
+      { id: "c", text: "They hint at nervousness / imperfect preparation under pressure" },
+      { id: "d", text: "They show rain inside" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Curling edges are a small imperfect detail that humanises her stress.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -254,12 +254,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch01-a-q20",
     prompt: "Read:\n\n\"In the school courtyard, Mira watered a stubborn marigold. Classmates rushed past toward the football field, their cheers rising like bright balloons. Mira’s science fair board leaned against the wall, edges curling. She had measured plant growth for six weeks. Today the judges would come. The marigold, she noticed, had opened one new petal overnight — a small, quiet vote of confidence.\"\n\nThe new petal is described as “a small, quiet vote of confidence.” This is mainly…",
     options: [
-      { id: "a", text: "literal election news" },
-      { id: "b", text: "figurative encouragement from the plant’s progress" },
-      { id: "c", text: "a judge’s scorecard" },
-      { id: "d", text: "a football chant" }
+      { id: "a", text: "a judge’s scorecard" },
+      { id: "b", text: "a football chant" },
+      { id: "c", text: "literal election news" },
+      { id: "d", text: "figurative encouragement from the plant’s progress" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "The plant cannot vote; the image figuratively reassures Mira.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -293,12 +293,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch01-a-q23",
     prompt: "Read:\n\n\"In the school courtyard, Mira watered a stubborn marigold. Classmates rushed past toward the football field, their cheers rising like bright balloons. Mira’s science fair board leaned against the wall, edges curling. She had measured plant growth for six weeks. Today the judges would come. The marigold, she noticed, had opened one new petal overnight — a small, quiet vote of confidence.\"\n\nA reasonable theme is…",
     options: [
-      { id: "a", text: "Quiet dedication can be its own kind of courage" },
-      { id: "b", text: "Football is better than science" },
-      { id: "c", text: "Flowers never bloom" },
-      { id: "d", text: "Judges are always unfair" }
+      { id: "a", text: "Flowers never bloom" },
+      { id: "b", text: "Judges are always unfair" },
+      { id: "c", text: "Quiet dedication can be its own kind of courage" },
+      { id: "d", text: "Football is better than science" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Her steady care and the petal’s “vote” support quiet courage.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -306,12 +306,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch01-a-q24",
     prompt: "Read:\n\n\"In the school courtyard, Mira watered a stubborn marigold. Classmates rushed past toward the football field, their cheers rising like bright balloons. Mira’s science fair board leaned against the wall, edges curling. She had measured plant growth for six weeks. Today the judges would come. The marigold, she noticed, had opened one new petal overnight — a small, quiet vote of confidence.\"\n\nThe author’s purpose is mainly to…",
     options: [
-      { id: "a", text: "list science fair rules" },
-      { id: "b", text: "portray a character’s quiet resolve before judgment" },
-      { id: "c", text: "teach photosynthesis formulas" },
-      { id: "d", text: "advertise football" }
+      { id: "a", text: "teach photosynthesis formulas" },
+      { id: "b", text: "advertise football" },
+      { id: "c", text: "list science fair rules" },
+      { id: "d", text: "portray a character’s quiet resolve before judgment" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Narrative focus is Mira’s feelings and resolve, not a rulebook.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   }

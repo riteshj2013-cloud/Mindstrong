@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch04-a-q01",
     prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. Which side of the debate is Rohan on?",
     options: [
-      { id: "a", text: "Opposition" },
-      { id: "b", text: "Proposition" },
-      { id: "c", text: "Judge" },
-      { id: "d", text: "Neutral chairperson" }
+      { id: "a", text: "Proposition" },
+      { id: "b", text: "Judge" },
+      { id: "c", text: "Neutral chairperson" },
+      { id: "d", text: "Opposition" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Rohan says he is on the proposition, so he argues that social media does more harm than good.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch04-a-q04",
     prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. Which line is the most polite request?",
     options: [
-      { id: "a", text: "\"Have you finished your opening speech for tomorrow?\"" },
-      { id: "b", text: "\"Would you mind if we practise for ten minutes after lunch?\"" },
-      { id: "c", text: "\"Please don't use 'like' every second word in the hall.\"" },
-      { id: "d", text: "\"Point taken. Formal register it is.\"" }
+      { id: "a", text: "\"Please don't use 'like' every second word in the hall.\"" },
+      { id: "b", text: "\"Point taken. Formal register it is.\"" },
+      { id: "c", text: "\"Have you finished your opening speech for tomorrow?\"" },
+      { id: "d", text: "\"Would you mind if we practise for ten minutes after lunch?\"" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "\"Would you mind if\u2026\" is a classic softener for a polite request. The others are a question, advice, or agreement.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -85,12 +85,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch04-a-q07",
     prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. \"Let's get cracking\" means \u2014",
     options: [
-      { id: "a", text: "let's start working immediately" },
-      { id: "b", text: "let's break something" },
-      { id: "c", text: "let's cancel the debate" },
-      { id: "d", text: "let's whisper" }
+      { id: "a", text: "let's cancel the debate" },
+      { id: "b", text: "let's whisper" },
+      { id: "c", text: "let's start working immediately" },
+      { id: "d", text: "let's break something" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "\"Get cracking\" is an informal idiom meaning to begin a task without delay.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -98,12 +98,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch04-a-q08",
     prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. \"Point taken\" shows that Anya \u2014",
     options: [
-      { id: "a", text: "rejects Rohan's advice" },
-      { id: "b", text: "accepts Rohan's advice" },
-      { id: "c", text: "changes the debate motion" },
-      { id: "d", text: "asks for more time" }
+      { id: "a", text: "changes the debate motion" },
+      { id: "b", text: "asks for more time" },
+      { id: "c", text: "rejects Rohan's advice" },
+      { id: "d", text: "accepts Rohan's advice" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "\"Point taken\" means she acknowledges and accepts what he said.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -111,12 +111,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch04-a-q09",
     prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest \u2014 none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead Opening speech P1. What is the motion being debated?",
     options: [
-      { id: "a", text: "Social media should be banned in schools" },
-      { id: "b", text: "Homework should be limited to one hour on school nights" },
-      { id: "c", text: "Sport should replace all homework" },
-      { id: "d", text: "Students should never study at home" }
+      { id: "a", text: "Homework should be limited to one hour on school nights" },
+      { id: "b", text: "Sport should replace all homework" },
+      { id: "c", text: "Students should never study at home" },
+      { id: "d", text: "Social media should be banned in schools" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "The speaker states the motion clearly in the opening: homework limited to one hour on school nights.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch04-a-q12",
     prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest \u2014 none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead Opening speech P1. How does the speaker handle a possible counter-argument?",
     options: [
-      { id: "a", text: "By ignoring critics completely" },
-      { id: "b", text: "By naming a likely claim (\"less homework means less learning\") and answering it" },
-      { id: "c", text: "By asking the judges to invent evidence" },
-      { id: "d", text: "By changing the motion mid-speech" }
+      { id: "a", text: "By asking the judges to invent evidence" },
+      { id: "b", text: "By changing the motion mid-speech" },
+      { id: "c", text: "By ignoring critics completely" },
+      { id: "d", text: "By naming a likely claim (\"less homework means less learning\") and answering it" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Anticipating critics and answering them strengthens a proposition speech.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -163,12 +163,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch04-a-q13",
     prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest \u2014 none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead Opening speech P1. Which claim is supported with a reason about concentration?",
     options: [
-      { id: "a", text: "Family meals are unnecessary" },
-      { id: "b", text: "After about sixty minutes, concentration falls for most adolescents" },
-      { id: "c", text: "Homework should last four hours" },
-      { id: "d", text: "Sport replaces all learning" }
+      { id: "a", text: "After about sixty minutes, concentration falls for most adolescents" },
+      { id: "b", text: "Homework should last four hours" },
+      { id: "c", text: "Sport replaces all learning" },
+      { id: "d", text: "Family meals are unnecessary" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "The first point links the one-hour limit to falling concentration after about sixty minutes.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch04-a-q15",
     prompt: "Thank you. The proposition painted a neat picture, but it skips an important fact. Many subjects \u2014 mathematics and languages especially \u2014 need spaced practice beyond a single hour. If we cap homework rigidly, weaker students lose the extra support they need at home. Moreover, \"one hour\" is not equal for everyone: a quiet desk at home is not the same as a crowded shared room. We on the opposition therefore reject a blanket limit. Instead, we propose clearer guidelines and better-designed tasks, not a one-size-fits-all clock. I ask the house to oppose the motion.\n\nRead Opposition rebuttal P2. Which line best shows a rebuttal (answering the other side)?",
     options: [
-      { id: "a", text: "\"Thank you.\"" },
-      { id: "b", text: "\"The proposition painted a neat picture, but it skips an important fact.\"" },
-      { id: "c", text: "\"I ask the house to oppose the motion.\"" },
-      { id: "d", text: "\"Moreover, 'one hour' is not equal for everyone\u2026\"" }
+      { id: "a", text: "\"Moreover, 'one hour' is not equal for everyone\u2026\"" },
+      { id: "b", text: "\"Thank you.\"" },
+      { id: "c", text: "\"The proposition painted a neat picture, but it skips an important fact.\"" },
+      { id: "d", text: "\"I ask the house to oppose the motion.\"" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Naming the proposition's picture and saying it skips a fact directly challenges the other side \u2014 classic rebuttal framing. D adds evidence; B marks the rebuttal move.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch04-a-q16",
     prompt: "Thank you. The proposition painted a neat picture, but it skips an important fact. Many subjects \u2014 mathematics and languages especially \u2014 need spaced practice beyond a single hour. If we cap homework rigidly, weaker students lose the extra support they need at home. Moreover, \"one hour\" is not equal for everyone: a quiet desk at home is not the same as a crowded shared room. We on the opposition therefore reject a blanket limit. Instead, we propose clearer guidelines and better-designed tasks, not a one-size-fits-all clock. I ask the house to oppose the motion.\n\nRead Opposition rebuttal P2. \"Moreover\" is used to \u2014",
     options: [
-      { id: "a", text: "add a further supporting point" },
-      { id: "b", text: "withdraw the previous sentence" },
-      { id: "c", text: "greet the judges" },
-      { id: "d", text: "change sides mid-debate" }
+      { id: "a", text: "withdraw the previous sentence" },
+      { id: "b", text: "greet the judges" },
+      { id: "c", text: "change sides mid-debate" },
+      { id: "d", text: "add a further supporting point" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "\"Moreover\" adds another reason on the same side of the argument.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -215,12 +215,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch04-a-q17",
     prompt: "Thank you. The proposition painted a neat picture, but it skips an important fact. Many subjects \u2014 mathematics and languages especially \u2014 need spaced practice beyond a single hour. If we cap homework rigidly, weaker students lose the extra support they need at home. Moreover, \"one hour\" is not equal for everyone: a quiet desk at home is not the same as a crowded shared room. We on the opposition therefore reject a blanket limit. Instead, we propose clearer guidelines and better-designed tasks, not a one-size-fits-all clock. I ask the house to oppose the motion.\n\nRead Opposition rebuttal P2. What alternative does the opposition propose instead of a rigid cap?",
     options: [
-      { id: "a", text: "Ban all homework forever" },
-      { id: "b", text: "Clearer guidelines and better-designed tasks" },
-      { id: "c", text: "Four hours of homework nightly" },
-      { id: "d", text: "No sport until exams end" }
+      { id: "a", text: "Clearer guidelines and better-designed tasks" },
+      { id: "b", text: "Four hours of homework nightly" },
+      { id: "c", text: "No sport until exams end" },
+      { id: "d", text: "Ban all homework forever" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "The speaker proposes clearer guidelines and better-designed tasks, not a one-size-fits-all clock.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -241,12 +241,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch04-a-q19",
     prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead Assembly announcement O1. Who is invited?",
     options: [
-      { id: "a", text: "Only teachers" },
-      { id: "b", text: "Classes 7 and 8 students" },
-      { id: "c", text: "Only Class 9" },
-      { id: "d", text: "Parents only" }
+      { id: "a", text: "Parents only" },
+      { id: "b", text: "Only teachers" },
+      { id: "c", text: "Classes 7 and 8 students" },
+      { id: "d", text: "Only Class 9" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "The announcement invites all Classes 7 and 8 students to the workshop.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -254,12 +254,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch04-a-q20",
     prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead Assembly announcement O1. By when must interested students give their names?",
     options: [
-      { id: "a", text: "Saturday noon" },
-      { id: "b", text: "Thursday" },
-      { id: "c", text: "Monday morning" },
-      { id: "d", text: "After the workshop" }
+      { id: "a", text: "Monday morning" },
+      { id: "b", text: "After the workshop" },
+      { id: "c", text: "Saturday noon" },
+      { id: "d", text: "Thursday" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Names should be given to the Club Secretary by Thursday.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -267,12 +267,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch04-a-q21",
     prompt: "Which reply disagrees politely with \"Homework should be banned completely\"?",
     options: [
-      { id: "a", text: "\"That's nonsense.\"" },
-      { id: "b", text: "\"I see your concern about stress, but a complete ban may hurt practice in maths.\"" },
-      { id: "c", text: "\"You are wrong, full stop.\"" },
-      { id: "d", text: "\"Whatever.\"" }
+      { id: "a", text: "\"I see your concern about stress, but a complete ban may hurt practice in maths.\"" },
+      { id: "b", text: "\"You are wrong, full stop.\"" },
+      { id: "c", text: "\"Whatever.\"" },
+      { id: "d", text: "\"That's nonsense.\"" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Acknowledging the other person's point and then offering a reason is respectful disagreement.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -293,12 +293,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch04-a-q23",
     prompt: "Which sentence is most suitable for a school debate opening?",
     options: [
-      { id: "a", text: "\"Yo, homework sucks, right?\"" },
-      { id: "b", text: "\"Honourable judges, we stand firmly for the motion that\u2026\"" },
-      { id: "c", text: "\"Um, like, I guess homework is, you know, bad?\"" },
-      { id: "d", text: "\"My mom says stuff about this.\"" }
+      { id: "a", text: "\"My mom says stuff about this.\"" },
+      { id: "b", text: "\"Yo, homework sucks, right?\"" },
+      { id: "c", text: "\"Honourable judges, we stand firmly for the motion that\u2026\"" },
+      { id: "d", text: "\"Um, like, I guess homework is, you know, bad?\"" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Debate openings use formal address and a clear stance; slang and heavy fillers weaken the register.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -306,12 +306,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch04-a-q24",
     prompt: "Choose the best marker to introduce a contrasting idea in a spoken argument.",
     options: [
-      { id: "a", text: "\"For example\"" },
-      { id: "b", text: "\"In conclusion\"" },
-      { id: "c", text: "\"However\"" },
-      { id: "d", text: "\"Firstly\"" }
+      { id: "a", text: "\"Firstly\"" },
+      { id: "b", text: "\"For example\"" },
+      { id: "c", text: "\"In conclusion\"" },
+      { id: "d", text: "\"However\"" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "\"However\" signals contrast. \"For example\" illustrates, \"In conclusion\" closes, and \"Firstly\" sequences.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   }
@@ -322,12 +322,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-eng-ch04-b-q01",
     prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. Anya is on the opposition. That means she will argue that \u2014",
     options: [
-      { id: "a", text: "social media does more harm than good" },
-      { id: "b", text: "the motion is false or overstated \u2014 social media also helps" },
-      { id: "c", text: "debates should be cancelled" },
-      { id: "d", text: "only judges may speak" }
+      { id: "a", text: "the motion is false or overstated \u2014 social media also helps" },
+      { id: "b", text: "debates should be cancelled" },
+      { id: "c", text: "only judges may speak" },
+      { id: "d", text: "social media does more harm than good" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Opposition argues against the motion; Anya plans to stress organising campaigns and study groups.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -335,12 +335,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-eng-ch04-b-q02",
     prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. What does Anya ask about Rohan's case?",
     options: [
-      { id: "a", text: "His strongest point" },
-      { id: "b", text: "The judges' names" },
-      { id: "c", text: "The bus timetable" },
-      { id: "d", text: "Whether lunch is vegetarian" }
+      { id: "a", text: "Whether lunch is vegetarian" },
+      { id: "b", text: "His strongest point" },
+      { id: "c", text: "The judges' names" },
+      { id: "d", text: "The bus timetable" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "She asks, \"What's your strongest point?\" to understand his case.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-eng-ch04-b-q03",
     prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. \"May I suggest you prepare a rebuttal\u2026\" is an example of \u2014",
     options: [
-      { id: "a", text: "an order shouted at a junior" },
-      { id: "b", text: "a polite suggestion" },
-      { id: "c", text: "a written notice heading" },
-      { id: "d", text: "a poem" }
+      { id: "a", text: "a poem" },
+      { id: "b", text: "an order shouted at a junior" },
+      { id: "c", text: "a polite suggestion" },
+      { id: "d", text: "a written notice heading" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "\"May I suggest\u2026\" softens advice into a polite suggestion.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-eng-ch04-b-q04",
     prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. \"Formal register it is\" means Anya will \u2014",
     options: [
-      { id: "a", text: "speak more carefully and formally in the debate hall" },
-      { id: "b", text: "write only in capital letters" },
-      { id: "c", text: "refuse to debate" },
-      { id: "d", text: "use more slang on purpose" }
+      { id: "a", text: "write only in capital letters" },
+      { id: "b", text: "refuse to debate" },
+      { id: "c", text: "use more slang on purpose" },
+      { id: "d", text: "speak more carefully and formally in the debate hall" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Register means matching tone to the situation; she agrees to speak formally.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -374,12 +374,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-eng-ch04-b-q05",
     prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest \u2014 none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead Opening speech P1. Which marker begins the speaker's first main reason?",
     options: [
-      { id: "a", text: "\"Secondly\"" },
-      { id: "b", text: "\"Firstly\"" },
-      { id: "c", text: "\"To sum up\"" },
-      { id: "d", text: "\"However\"" }
+      { id: "a", text: "\"Firstly\"" },
+      { id: "b", text: "\"To sum up\"" },
+      { id: "c", text: "\"However\"" },
+      { id: "d", text: "\"Secondly\"" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "The first reason is introduced with \"Firstly.\"",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-eng-ch04-b-q07",
     prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest \u2014 none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead Opening speech P1. The closing line \"I urge you to vote for the motion\" is meant to \u2014",
     options: [
-      { id: "a", text: "confuse the judges" },
-      { id: "b", text: "persuade the house to support the proposition" },
-      { id: "c", text: "surrender the debate" },
-      { id: "d", text: "change the topic to sport only" }
+      { id: "a", text: "change the topic to sport only" },
+      { id: "b", text: "confuse the judges" },
+      { id: "c", text: "persuade the house to support the proposition" },
+      { id: "d", text: "surrender the debate" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "A closing appeal asks listeners to vote with the speaker's side.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-eng-ch04-b-q08",
     prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest \u2014 none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead Opening speech P1 and Opposition rebuttal P2. Which statement is accurate?",
     options: [
-      { id: "a", text: "Both speakers support a rigid one-hour homework cap" },
-      { id: "b", text: "P1 supports the cap; P2 rejects a blanket one-hour limit" },
-      { id: "c", text: "Neither speaker mentions homework" },
-      { id: "d", text: "P2 agrees completely with P1" }
+      { id: "a", text: "Neither speaker mentions homework" },
+      { id: "b", text: "P2 agrees completely with P1" },
+      { id: "c", text: "Both speakers support a rigid one-hour homework cap" },
+      { id: "d", text: "P1 supports the cap; P2 rejects a blanket one-hour limit" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "P1 argues for the limit; P2 opposes a blanket cap and proposes guidelines instead.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -426,12 +426,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-eng-ch04-b-q09",
     prompt: "Thank you. The proposition painted a neat picture, but it skips an important fact. Many subjects \u2014 mathematics and languages especially \u2014 need spaced practice beyond a single hour. If we cap homework rigidly, weaker students lose the extra support they need at home. Moreover, \"one hour\" is not equal for everyone: a quiet desk at home is not the same as a crowded shared room. We on the opposition therefore reject a blanket limit. Instead, we propose clearer guidelines and better-designed tasks, not a one-size-fits-all clock. I ask the house to oppose the motion.\n\nRead Opposition rebuttal P2. Why does the speaker say \"'one hour' is not equal for everyone\"?",
     options: [
-      { id: "a", text: "Because clocks are broken in schools" },
-      { id: "b", text: "Because home study conditions differ (for example, quiet desk vs crowded room)" },
-      { id: "c", text: "Because one hour equals sixty minutes everywhere in the same way for fairness only" },
-      { id: "d", text: "Because judges refuse stopwatches" }
+      { id: "a", text: "Because home study conditions differ (for example, quiet desk vs crowded room)" },
+      { id: "b", text: "Because one hour equals sixty minutes everywhere in the same way for fairness only" },
+      { id: "c", text: "Because judges refuse stopwatches" },
+      { id: "d", text: "Because clocks are broken in schools" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "The speaker contrasts a quiet desk with a crowded shared room to show unequal conditions.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -452,12 +452,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-eng-ch04-b-q11",
     prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead Assembly announcement O1. What should students bring?",
     options: [
-      { id: "a", text: "A cricket bat" },
-      { id: "b", text: "A notebook and a pencil" },
-      { id: "c", text: "Lunch for the teachers" },
-      { id: "d", text: "Nothing at all" }
+      { id: "a", text: "Nothing at all" },
+      { id: "b", text: "A cricket bat" },
+      { id: "c", text: "A notebook and a pencil" },
+      { id: "d", text: "Lunch for the teachers" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "The announcement asks them to bring a notebook and a pencil.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -465,12 +465,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-eng-ch04-b-q12",
     prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead Assembly announcement O1. Where will the workshop be held?",
     options: [
-      { id: "a", text: "The playground" },
-      { id: "b", text: "Room 12" },
-      { id: "c", text: "The city library" },
-      { id: "d", text: "The principal's office" }
+      { id: "a", text: "The city library" },
+      { id: "b", text: "The principal's office" },
+      { id: "c", text: "The playground" },
+      { id: "d", text: "Room 12" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "The spoken notice places the workshop in Room 12.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -504,12 +504,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-eng-ch04-b-q15",
     prompt: "In debate terms, a \"motion\" is \u2014",
     options: [
-      { id: "a", text: "the statement being argued for or against" },
-      { id: "b", text: "the name of the school bus" },
-      { id: "c", text: "a type of homework diary" },
-      { id: "d", text: "the judge's lunch order" }
+      { id: "a", text: "a type of homework diary" },
+      { id: "b", text: "the judge's lunch order" },
+      { id: "c", text: "the statement being argued for or against" },
+      { id: "d", text: "the name of the school bus" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "The motion is the claim under debate \u2014 for example, that homework should be limited.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -517,12 +517,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-eng-ch04-b-q16",
     prompt: "Which pair correctly matches marker to job?",
     options: [
-      { id: "a", text: "\"Firstly\" = contrast; \"However\" = sequence" },
-      { id: "b", text: "\"Firstly\" = sequence; \"However\" = contrast" },
-      { id: "c", text: "\"To sum up\" = example; \"For instance\" = conclusion" },
-      { id: "d", text: "\"Moreover\" = apology; \"Please\" = evidence" }
+      { id: "a", text: "\"To sum up\" = example; \"For instance\" = conclusion" },
+      { id: "b", text: "\"Moreover\" = apology; \"Please\" = evidence" },
+      { id: "c", text: "\"Firstly\" = contrast; \"However\" = sequence" },
+      { id: "d", text: "\"Firstly\" = sequence; \"However\" = contrast" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "\"Firstly\" orders points; \"However\" introduces contrast.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -530,12 +530,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-eng-ch04-b-q17",
     prompt: "Which line fits a friendly chat better than a formal debate?",
     options: [
-      { id: "a", text: "\"Honourable judges, we reject the motion.\"" },
-      { id: "b", text: "\"To sum up, the evidence favours the opposition.\"" },
-      { id: "c", text: "\"Yeah, that point was kinda wild, ngl.\"" },
-      { id: "d", text: "\"Moreover, weaker students need spaced practice.\"" }
+      { id: "a", text: "\"Yeah, that point was kinda wild, ngl.\"" },
+      { id: "b", text: "\"Moreover, weaker students need spaced practice.\"" },
+      { id: "c", text: "\"Honourable judges, we reject the motion.\"" },
+      { id: "d", text: "\"To sum up, the evidence favours the opposition.\"" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Heavy slang and chat abbreviations suit friends, not a formal debate floor.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -556,12 +556,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-eng-ch04-b-q19",
     prompt: "Thank you. The proposition painted a neat picture, but it skips an important fact. Many subjects \u2014 mathematics and languages especially \u2014 need spaced practice beyond a single hour. If we cap homework rigidly, weaker students lose the extra support they need at home. Moreover, \"one hour\" is not equal for everyone: a quiet desk at home is not the same as a crowded shared room. We on the opposition therefore reject a blanket limit. Instead, we propose clearer guidelines and better-designed tasks, not a one-size-fits-all clock. I ask the house to oppose the motion.\n\nRead Opposition rebuttal P2. Which subject areas does the speaker say especially need practice beyond one hour?",
     options: [
-      { id: "a", text: "Only art and music" },
-      { id: "b", text: "Mathematics and languages" },
-      { id: "c", text: "Only physical education" },
-      { id: "d", text: "Cooking alone" }
+      { id: "a", text: "Cooking alone" },
+      { id: "b", text: "Only art and music" },
+      { id: "c", text: "Mathematics and languages" },
+      { id: "d", text: "Only physical education" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "The rebuttal names mathematics and languages as needing spaced practice.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -569,12 +569,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-eng-ch04-b-q20",
     prompt: "Choose the most polite way to ask someone to speak more slowly.",
     options: [
-      { id: "a", text: "\"Slow down, will you?\"" },
-      { id: "b", text: "\"Could you please speak a little more slowly?\"" },
-      { id: "c", text: "\"You're too fast. Fix it.\"" },
-      { id: "d", text: "\"Blah blah, hurry up.\"" }
+      { id: "a", text: "\"You're too fast. Fix it.\"" },
+      { id: "b", text: "\"Blah blah, hurry up.\"" },
+      { id: "c", text: "\"Slow down, will you?\"" },
+      { id: "d", text: "\"Could you please speak a little more slowly?\"" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "\"Could you please\u2026\" is a standard polite request form.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -595,12 +595,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-eng-ch04-b-q22",
     prompt: "Which phrase best softens disagreement in spoken English?",
     options: [
-      { id: "a", text: "\"I see your point, but\u2026\"" },
-      { id: "b", text: "\"Wrong again.\"" },
-      { id: "c", text: "\"As if!\"" },
-      { id: "d", text: "\"No way, ever.\"" }
+      { id: "a", text: "\"No way, ever.\"" },
+      { id: "b", text: "\"I see your point, but\u2026\"" },
+      { id: "c", text: "\"Wrong again.\"" },
+      { id: "d", text: "\"As if!\"" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Softeners acknowledge the other person before presenting a different view.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -608,12 +608,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-eng-ch04-b-q23",
     prompt: "A strong debate point usually contains \u2014",
     options: [
-      { id: "a", text: "only insults" },
-      { id: "b", text: "a claim plus a reason or evidence" },
-      { id: "c", text: "only jokes" },
-      { id: "d", text: "silence" }
+      { id: "a", text: "silence" },
+      { id: "b", text: "only insults" },
+      { id: "c", text: "a claim plus a reason or evidence" },
+      { id: "d", text: "only jokes" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Persuasive debate links a clear claim to reasons or evidence listeners can evaluate.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -621,12 +621,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-eng-ch04-b-q24",
     prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead Assembly announcement O1. After giving details, the speaker ends with \"Thank you.\" This mainly \u2014",
     options: [
-      { id: "a", text: "opens a new debate motion" },
-      { id: "b", text: "closes the spoken announcement politely" },
-      { id: "c", text: "cancels the workshop" },
-      { id: "d", text: "replaces the need for a date" }
+      { id: "a", text: "cancels the workshop" },
+      { id: "b", text: "replaces the need for a date" },
+      { id: "c", text: "opens a new debate motion" },
+      { id: "d", text: "closes the spoken announcement politely" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "\"Thank you\" is a polite closing for a public announcement.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   }
