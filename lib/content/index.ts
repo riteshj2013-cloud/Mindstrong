@@ -15,6 +15,26 @@ import { wednesdayPack89 } from "./packs/wednesday-8-9";
 import { wednesdayPack1011 } from "./packs/wednesday-10-11";
 import { wednesdayPack1213 } from "./packs/wednesday-12-13";
 import { wednesdayPack1415 } from "./packs/wednesday-14-15";
+import { thursdayPack67 } from "./packs/thursday-6-7";
+import { thursdayPack89 } from "./packs/thursday-8-9";
+import { thursdayPack1011 } from "./packs/thursday-10-11";
+import { thursdayPack1213 } from "./packs/thursday-12-13";
+import { thursdayPack1415 } from "./packs/thursday-14-15";
+import { fridayPack67 } from "./packs/friday-6-7";
+import { fridayPack89 } from "./packs/friday-8-9";
+import { fridayPack1011 } from "./packs/friday-10-11";
+import { fridayPack1213 } from "./packs/friday-12-13";
+import { fridayPack1415 } from "./packs/friday-14-15";
+import { saturdayPack67 } from "./packs/saturday-6-7";
+import { saturdayPack89 } from "./packs/saturday-8-9";
+import { saturdayPack1011 } from "./packs/saturday-10-11";
+import { saturdayPack1213 } from "./packs/saturday-12-13";
+import { saturdayPack1415 } from "./packs/saturday-14-15";
+import { sundayPack67 } from "./packs/sunday-6-7";
+import { sundayPack89 } from "./packs/sunday-8-9";
+import { sundayPack1011 } from "./packs/sunday-10-11";
+import { sundayPack1213 } from "./packs/sunday-12-13";
+import { sundayPack1415 } from "./packs/sunday-14-15";
 import { weekdayOf } from "../date";
 
 export { ageToBand, clampAge, ALL_AGES, BAND_LABELS, MIN_AGE, MAX_AGE } from "./age";
@@ -46,41 +66,64 @@ export const WEDNESDAY_BY_BAND: Record<AgeBand, ContentPack> = {
   "14-15": wednesdayPack1415,
 };
 
+/** Ready Thursday packs keyed by age band. */
+export const THURSDAY_BY_BAND: Record<AgeBand, ContentPack> = {
+  "6-7": thursdayPack67,
+  "8-9": thursdayPack89,
+  "10-11": thursdayPack1011,
+  "12-13": thursdayPack1213,
+  "14-15": thursdayPack1415,
+};
+
+/** Ready Friday packs keyed by age band. */
+export const FRIDAY_BY_BAND: Record<AgeBand, ContentPack> = {
+  "6-7": fridayPack67,
+  "8-9": fridayPack89,
+  "10-11": fridayPack1011,
+  "12-13": fridayPack1213,
+  "14-15": fridayPack1415,
+};
+
+/** Ready Saturday packs keyed by age band. */
+export const SATURDAY_BY_BAND: Record<AgeBand, ContentPack> = {
+  "6-7": saturdayPack67,
+  "8-9": saturdayPack89,
+  "10-11": saturdayPack1011,
+  "12-13": saturdayPack1213,
+  "14-15": saturdayPack1415,
+};
+
+/** Ready Sunday packs keyed by age band. */
+export const SUNDAY_BY_BAND: Record<AgeBand, ContentPack> = {
+  "6-7": sundayPack67,
+  "8-9": sundayPack89,
+  "10-11": sundayPack1011,
+  "12-13": sundayPack1213,
+  "14-15": sundayPack1415,
+};
+
 export const ALL_READY_PACKS: ContentPack[] = [
   ...Object.values(MONDAY_BY_BAND),
   ...Object.values(TUESDAY_BY_BAND),
   ...Object.values(WEDNESDAY_BY_BAND),
+  ...Object.values(THURSDAY_BY_BAND),
+  ...Object.values(FRIDAY_BY_BAND),
+  ...Object.values(SATURDAY_BY_BAND),
+  ...Object.values(SUNDAY_BY_BAND),
 ];
 
 /** Default / legacy alias — ages 8–9 baseline. */
 export const mondayPack = mondayPack89;
-
-/**
- * Monday–Wednesday packs are authored. Other weekdays resolve to a not-ready
- * scaffold, and `packForToday` serves the Monday pack instead — the no-repeat
- * history (lib/completed.ts) means the child gets fresh, unseen Monday items.
- */
-function scaffold(day: Weekday, band: AgeBand, title: string): ContentPack {
-  const base = MONDAY_BY_BAND[band];
-  return {
-    id: `${day}-${band}-scaffold`,
-    ageBand: band,
-    weekday: day,
-    title,
-    ready: false,
-    phases: base.phases,
-  };
-}
 
 function packsForBand(band: AgeBand): Record<Weekday, ContentPack> {
   return {
     mon: MONDAY_BY_BAND[band],
     tue: TUESDAY_BY_BAND[band],
     wed: WEDNESDAY_BY_BAND[band],
-    thu: scaffold("thu", band, "Thursday pack · not written yet"),
-    fri: scaffold("fri", band, "Friday pack · not written yet"),
-    sat: scaffold("sat", band, "Saturday pack · not written yet"),
-    sun: scaffold("sun", band, "Sunday pack · not written yet"),
+    thu: THURSDAY_BY_BAND[band],
+    fri: FRIDAY_BY_BAND[band],
+    sat: SATURDAY_BY_BAND[band],
+    sun: SUNDAY_BY_BAND[band],
   };
 }
 
