@@ -1,5 +1,6 @@
 export { g3MathsNumbers } from "./g3-maths-numbers";
 export { g3MathsAddSubtract } from "./g3-maths-add-subtract";
+export { g3MathsMultiply } from "./g3-maths-multiply";
 export { g4MathsLargeNumbers } from "./g4-maths-large-numbers";
 export { g4MathsMultiplyDivide } from "./g4-maths-multiply-divide";
 export { g4MathsFractions } from "./g4-maths-fractions";
