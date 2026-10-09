@@ -27,33 +27,33 @@
 ### Q01
 - **stem**: The process of obtaining and using food in living organisms is called —
 - **options**:
-  - A) nutrition
-  - B) excretion only
+  - A) phototropism
+  - B) nutrition
   - C) transpiration only
-  - D) phototropism
-- **answer**: A
+  - D) excretion only
+- **answer**: B
 - **explanation**: Nutrition covers intake and utilisation of food.
 - **difficulty**: mixed
 
 ### Q02
 - **stem**: Autotrophs —
 - **options**:
-  - A) make their own food (e.g. photosynthesis)
+  - A) lack chlorophyll always
   - B) only eat animals
   - C) cannot use sunlight
-  - D) lack chlorophyll always
-- **answer**: A
+  - D) make their own food (e.g. photosynthesis)
+- **answer**: D
 - **explanation**: Green plants and some bacteria fix energy into food.
 - **difficulty**: mixed
 
 ### Q03
 - **stem**: The site of photosynthesis in a plant cell is the —
 - **options**:
-  - A) chloroplast
-  - B) mitochondrion
-  - C) nucleus
+  - A) nucleus
+  - B) chloroplast
+  - C) mitochondrion
   - D) ribosome
-- **answer**: A
+- **answer**: B
 - **explanation**: Chlorophyll in chloroplasts captures light.
 - **difficulty**: mixed
 
@@ -62,8 +62,8 @@
 - **options**:
   - A) gas exchange and transpiration
   - B) absorbing minerals from soil
-  - C) storing starch only
-  - D) transporting food in phloem exclusively
+  - C) transporting food in phloem exclusively
+  - D) storing starch only
 - **answer**: A
 - **explanation**: Pores on leaves exchange CO₂/O₂ and release water vapour.
 - **difficulty**: mixed
@@ -71,44 +71,44 @@
 ### Q05
 - **stem**: In humans, proteins are mainly digested by —
 - **options**:
-  - A) pepsin and trypsin
+  - A) bile salts only
   - B) amylase only
   - C) lipase only
-  - D) bile salts only
-- **answer**: A
+  - D) pepsin and trypsin
+- **answer**: D
 - **explanation**: Pepsin (stomach) and trypsin (intestine) cleave proteins.
 - **difficulty**: mixed
 
 ### Q06
 - **stem**: Bile is produced by the —
 - **options**:
-  - A) liver
-  - B) pancreas
-  - C) stomach
-  - D) kidney
-- **answer**: A
+  - A) stomach
+  - B) kidney
+  - C) liver
+  - D) pancreas
+- **answer**: C
 - **explanation**: Liver makes bile; gall bladder stores it.
 - **difficulty**: mixed
 
 ### Q07
 - **stem**: The respiratory pigment in human blood is —
 - **options**:
-  - A) haemoglobin
-  - B) chlorophyll
-  - C) insulin
-  - D) pepsin
-- **answer**: A
+  - A) pepsin
+  - B) insulin
+  - C) chlorophyll
+  - D) haemoglobin
+- **answer**: D
 - **explanation**: Haemoglobin in RBCs carries oxygen.
 - **difficulty**: mixed
 
 ### Q08
 - **stem**: Aerobic respiration yields more energy because —
 - **options**:
-  - A) glucose is fully oxidised using oxygen
-  - B) no oxygen is used
+  - A) ATP is not involved
+  - B) glucose is fully oxidised using oxygen
   - C) only fermentation occurs
-  - D) ATP is not involved
-- **answer**: A
+  - D) no oxygen is used
+- **answer**: B
 - **explanation**: Complete oxidation to CO₂ and H₂O releases more ATP.
 - **difficulty**: mixed
 
@@ -126,33 +126,33 @@
 ### Q10
 - **stem**: Xylem transports —
 - **options**:
-  - A) water and minerals upward
+  - A) oxygen only
   - B) food downward only
-  - C) oxygen only
+  - C) water and minerals upward
   - D) urea
-- **answer**: A
+- **answer**: C
 - **explanation**: Xylem sap moves from roots toward leaves.
 - **difficulty**: mixed
 
 ### Q11
 - **stem**: Phloem transports —
 - **options**:
-  - A) food (sugars) to plant parts
-  - B) only water upward
-  - C) only minerals
-  - D) carbon dioxide soilward
-- **answer**: A
+  - A) only water upward
+  - B) carbon dioxide soilward
+  - C) food (sugars) to plant parts
+  - D) only minerals
+- **answer**: C
 - **explanation**: Translocation moves sucrose via phloem.
 - **difficulty**: mixed
 
 ### Q12
 - **stem**: The functional unit of the kidney is the —
 - **options**:
-  - A) nephron
-  - B) neuron
-  - C) alveolus
-  - D) villus
-- **answer**: A
+  - A) alveolus
+  - B) villus
+  - C) nephron
+  - D) neuron
+- **answer**: C
 - **explanation**: Nephrons filter blood and form urine.
 - **difficulty**: mixed
 
@@ -161,8 +161,8 @@
 - **options**:
   - A) aorta
   - B) pulmonary artery
-  - C) vena cava
-  - D) pulmonary vein
+  - C) pulmonary vein
+  - D) vena cava
 - **answer**: A
 - **explanation**: Aorta is the main systemic artery.
 - **difficulty**: mixed
@@ -170,22 +170,22 @@
 ### Q14
 - **stem**: Pulmonary artery carries —
 - **options**:
-  - A) deoxygenated blood to lungs
-  - B) oxygenated blood to body
-  - C) oxygenated blood to lungs
-  - D) lymph
-- **answer**: A
+  - A) oxygenated blood to body
+  - B) oxygenated blood to lungs
+  - C) lymph
+  - D) deoxygenated blood to lungs
+- **answer**: D
 - **explanation**: Right ventricle → pulmonary artery → lungs.
 - **difficulty**: mixed
 
 ### Q15
 - **stem**: Villi in the small intestine —
 - **options**:
-  - A) increase surface area for absorption
-  - B) produce bile
+  - A) pump blood
+  - B) increase surface area for absorption
   - C) filter urea
-  - D) pump blood
-- **answer**: A
+  - D) produce bile
+- **answer**: B
 - **explanation**: Finger-like folds maximise nutrient uptake.
 - **difficulty**: mixed
 
@@ -203,33 +203,33 @@
 ### Q17
 - **stem**: Human excretory wastes include —
 - **options**:
-  - A) urea
-  - B) glucose as main waste
+  - A) starch
+  - B) urea
   - C) oxygen
-  - D) starch
-- **answer**: A
+  - D) glucose as main waste
+- **answer**: B
 - **explanation**: Nitrogenous waste urea is removed in urine.
 - **difficulty**: mixed
 
 ### Q18
 - **stem**: Platelets help in —
 - **options**:
-  - A) blood clotting
+  - A) digesting fat
   - B) carrying oxygen
   - C) fighting all viruses alone
-  - D) digesting fat
-- **answer**: A
+  - D) blood clotting
+- **answer**: D
 - **explanation**: Platelets trigger clot formation at wounds.
 - **difficulty**: mixed
 
 ### Q19
 - **stem**: The breakdown of pyruvate in mitochondria (with O₂) yields —
 - **options**:
-  - A) CO₂, H₂O and energy (ATP)
+  - A) only alcohol
   - B) only lactic acid
-  - C) only alcohol
+  - C) CO₂, H₂O and energy (ATP)
   - D) starch
-- **answer**: A
+- **answer**: C
 - **explanation**: Krebs cycle / aerobic path in mitochondria.
 - **difficulty**: mixed
 
@@ -237,9 +237,9 @@
 - **stem**: Heterotrophs —
 - **options**:
   - A) depend on other organisms for food
-  - B) always photosynthesise
-  - C) make food from CO₂ only
-  - D) need no energy
+  - B) need no energy
+  - C) always photosynthesise
+  - D) make food from CO₂ only
 - **answer**: A
 - **explanation**: Animals and fungi are heterotrophs.
 - **difficulty**: mixed
@@ -258,33 +258,33 @@
 ### Q22
 - **stem**: Double circulation in humans means blood goes through the heart —
 - **options**:
-  - A) twice for each complete body circuit (pulmonary + systemic)
-  - B) only once ever
-  - C) only in veins
-  - D) never to the lungs
-- **answer**: A
+  - A) never to the lungs
+  - B) only in veins
+  - C) only once ever
+  - D) twice for each complete body circuit (pulmonary + systemic)
+- **answer**: D
 - **explanation**: Pulmonary and systemic circulations are separate; blood returns to the heart between them.
 - **difficulty**: mixed
 
 ### Q23
 - **stem**: Guard cells control —
 - **options**:
-  - A) stomatal opening
-  - B) heart rate
-  - C) urine volume only
+  - A) heart rate
+  - B) urine volume only
+  - C) stomatal opening
   - D) bone growth
-- **answer**: A
+- **answer**: C
 - **explanation**: Turgid guard cells open the stoma.
 - **difficulty**: mixed
 
 ### Q24
 - **stem**: Dialysis is used when —
 - **options**:
-  - A) kidneys fail to filter blood
-  - B) liver makes too much bile
+  - A) liver makes too much bile
+  - B) kidneys fail to filter blood
   - C) lungs lack alveoli temporarily for fun
   - D) stomach lacks acid
-- **answer**: A
+- **answer**: B
 - **explanation**: Artificial filtering replaces kidney function.
 - **difficulty**: mixed
 
@@ -293,33 +293,33 @@
 ### Q01
 - **stem**: Raw materials for photosynthesis are —
 - **options**:
-  - A) CO₂ and H₂O (with light & chlorophyll)
-  - B) only O₂
-  - C) only nitrogen gas
-  - D) urea
-- **answer**: A
+  - A) urea
+  - B) only nitrogen gas
+  - C) CO₂ and H₂O (with light & chlorophyll)
+  - D) only O₂
+- **answer**: C
 - **explanation**: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (light).
 - **difficulty**: mixed
 
 ### Q02
 - **stem**: Oxygen released in photosynthesis comes mainly from —
 - **options**:
-  - A) water
-  - B) carbon dioxide
-  - C) glucose
-  - D) soil minerals
-- **answer**: A
+  - A) carbon dioxide
+  - B) water
+  - C) soil minerals
+  - D) glucose
+- **answer**: B
 - **explanation**: Photolysis of water releases O₂.
 - **difficulty**: mixed
 
 ### Q03
 - **stem**: Peristalsis is —
 - **options**:
-  - A) wave-like muscle movement pushing food
+  - A) leaf folding
   - B) blood clotting
-  - C) leaf folding
-  - D) urine storage only
-- **answer**: A
+  - C) urine storage only
+  - D) wave-like muscle movement pushing food
+- **answer**: D
 - **explanation**: Gut walls contract rhythmically to move food.
 - **difficulty**: mixed
 
@@ -327,8 +327,8 @@
 - **stem**: Emulsification of fats is done by —
 - **options**:
   - A) bile salts
-  - B) pepsin
-  - C) amylase
+  - B) amylase
+  - C) pepsin
   - D) HCl alone
 - **answer**: A
 - **explanation**: Bile breaks fat into tiny droplets for lipase.
@@ -338,9 +338,9 @@
 - **stem**: Alveoli are adapted for gas exchange by having —
 - **options**:
   - A) large surface area and thin walls
-  - B) thick cartilage only
+  - B) nephrons
   - C) chloroplasts
-  - D) nephrons
+  - D) thick cartilage only
 - **answer**: A
 - **explanation**: Millions of thin, moist pouches contact capillaries.
 - **difficulty**: mixed
@@ -348,22 +348,22 @@
 ### Q06
 - **stem**: Lymph —
 - **options**:
-  - A) returns tissue fluid to blood and helps immunity
-  - B) carries oxygen mainly via haemoglobin
-  - C) is identical to pure water
-  - D) is made in alveoli
-- **answer**: A
+  - A) is identical to pure water
+  - B) is made in alveoli
+  - C) carries oxygen mainly via haemoglobin
+  - D) returns tissue fluid to blood and helps immunity
+- **answer**: D
 - **explanation**: Lymphatic system drains excess fluid and fights pathogens.
 - **difficulty**: mixed
 
 ### Q07
 - **stem**: Sphygmomanometer measures —
 - **options**:
-  - A) blood pressure
-  - B) body temperature only
-  - C) lung volume only
-  - D) blood sugar only
-- **answer**: A
+  - A) body temperature only
+  - B) blood sugar only
+  - C) blood pressure
+  - D) lung volume only
+- **answer**: C
 - **explanation**: It reads systolic/diastolic arterial pressure.
 - **difficulty**: mixed
 
@@ -372,8 +372,8 @@
 - **options**:
   - A) transpiration pull
   - B) blood pressure
-  - C) peristalsis
-  - D) bile flow
+  - C) bile flow
+  - D) peristalsis
 - **answer**: A
 - **explanation**: Evaporation from leaves pulls the xylem column.
 - **difficulty**: mixed
@@ -381,55 +381,55 @@
 ### Q09
 - **stem**: Ammonia is highly toxic; humans convert it to —
 - **options**:
-  - A) urea in the liver
+  - A) oxygen in lungs
   - B) glucose in muscle
-  - C) oxygen in lungs
-  - D) starch in leaves
-- **answer**: A
+  - C) starch in leaves
+  - D) urea in the liver
+- **answer**: D
 - **explanation**: Ornithine cycle forms urea for safer excretion.
 - **difficulty**: mixed
 
 ### Q10
 - **stem**: Capillaries are —
 - **options**:
-  - A) thin-walled vessels for exchange with tissues
-  - B) the largest arteries
-  - C) valves in veins only
+  - A) the largest arteries
+  - B) valves in veins only
+  - C) thin-walled vessels for exchange with tissues
   - D) air sacs
-- **answer**: A
+- **answer**: C
 - **explanation**: One-cell-thick walls allow diffusion.
 - **difficulty**: mixed
 
 ### Q11
 - **stem**: HCl in the stomach —
 - **options**:
-  - A) kills microbes and activates pepsin
-  - B) digests cellulose fully
+  - A) digests cellulose fully
+  - B) kills microbes and activates pepsin
   - C) makes bile
   - D) absorbs vitamins
-- **answer**: A
+- **answer**: B
 - **explanation**: Acidic pH (~2) and pepsinogen → pepsin.
 - **difficulty**: mixed
 
 ### Q12
 - **stem**: Aerobic respiration equation overall:
 - **options**:
-  - A) C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy
+  - A) 6CO₂ → glucose in animals
   - B) C₆H₁₂O₆ → lactic acid only
-  - C) 6CO₂ → glucose in animals
-  - D) N₂ + O₂ → protein
-- **answer**: A
+  - C) N₂ + O₂ → protein
+  - D) C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy
+- **answer**: D
 - **explanation**: Complete oxidation of glucose with oxygen.
 - **difficulty**: mixed
 
 ### Q13
 - **stem**: Valves in veins —
 - **options**:
-  - A) prevent backflow of blood
-  - B) produce RBCs
-  - C) filter urea
-  - D) secrete enzymes
-- **answer**: A
+  - A) secrete enzymes
+  - B) prevent backflow of blood
+  - C) produce RBCs
+  - D) filter urea
+- **answer**: B
 - **explanation**: One-way valves aid return against gravity.
 - **difficulty**: mixed
 
@@ -447,33 +447,33 @@
 ### Q15
 - **stem**: Paramecium takes food by —
 - **options**:
-  - A) cilia sweeping into oral groove
+  - A) roots
   - B) photosynthesis
-  - C) roots
-  - D) stomata
-- **answer**: A
+  - C) stomata
+  - D) cilia sweeping into oral groove
+- **answer**: D
 - **explanation**: Ciliary currents bring particles to the cytostome.
 - **difficulty**: mixed
 
 ### Q16
 - **stem**: ATP is —
 - **options**:
-  - A) an energy currency of cells
-  - B) a waste like urea
-  - C) a respiratory pigment
-  - D) a plant hormone only
-- **answer**: A
+  - A) a waste like urea
+  - B) a respiratory pigment
+  - C) a plant hormone only
+  - D) an energy currency of cells
+- **answer**: D
 - **explanation**: Adenosine triphosphate stores usable energy.
 - **difficulty**: mixed
 
 ### Q17
 - **stem**: Desert plants often have —
 - **options**:
-  - A) sunken stomata / thick cuticle to reduce water loss
+  - A) only phloem, no xylem
   - B) no roots
-  - C) only phloem, no xylem
+  - C) sunken stomata / thick cuticle to reduce water loss
   - D) gills
-- **answer**: A
+- **answer**: C
 - **explanation**: Xerophyte adaptations conserve water.
 - **difficulty**: mixed
 
@@ -481,8 +481,8 @@
 - **stem**: Blood group antibodies are found in —
 - **options**:
   - A) plasma
-  - B) only inside RBCs haemoglobin
-  - C) platelets only
+  - B) platelets only
+  - C) only inside RBCs haemoglobin
   - D) bone matrix
 - **answer**: A
 - **explanation**: Plasma carries antibodies (and many proteins).
@@ -491,11 +491,11 @@
 ### Q19
 - **stem**: The pancreas secretes —
 - **options**:
-  - A) digestive enzymes and hormones (insulin/glucagon)
+  - A) only urea
   - B) only bile
-  - C) only HCl
-  - D) only urea
-- **answer**: A
+  - C) digestive enzymes and hormones (insulin/glucagon)
+  - D) only HCl
+- **answer**: C
 - **explanation**: Exocrine enzymes + endocrine insulin/glucagon.
 - **difficulty**: mixed
 
@@ -503,9 +503,9 @@
 - **stem**: During heavy exercise, breathing rate rises to —
 - **options**:
   - A) supply more O₂ and remove more CO₂
-  - B) stop respiration
-  - C) cool blood by stopping heart
-  - D) close all alveoli
+  - B) cool blood by stopping heart
+  - C) close all alveoli
+  - D) stop respiration
 - **answer**: A
 - **explanation**: Muscles need more ATP and produce more CO₂.
 - **difficulty**: mixed
@@ -513,43 +513,43 @@
 ### Q21
 - **stem**: Saprophytic nutrition is seen in —
 - **options**:
-  - A) fungi like mushrooms on dead matter
-  - B) green leaves only
-  - C) human stomach only
-  - D) fish gills
-- **answer**: A
+  - A) green leaves only
+  - B) fungi like mushrooms on dead matter
+  - C) fish gills
+  - D) human stomach only
+- **answer**: B
 - **explanation**: Saprophytes digest dead organic matter externally.
 - **difficulty**: mixed
 
 ### Q22
 - **stem**: The correct path of urine is —
 - **options**:
-  - A) kidney → ureter → bladder → urethra
-  - B) kidney → urethra → bladder
+  - A) liver → ureter → skin
+  - B) kidney → ureter → bladder → urethra
   - C) bladder → kidney → ureter
-  - D) liver → ureter → skin
-- **answer**: A
+  - D) kidney → urethra → bladder
+- **answer**: B
 - **explanation**: Standard urinary tract order.
 - **difficulty**: mixed
 
 ### Q23
 - **stem**: Chlorophyll appears green because it —
 - **options**:
-  - A) reflects green wavelengths mainly
-  - B) emits only X-rays
-  - C) absorbs only green
-  - D) is made of iron oxide
-- **answer**: A
+  - A) is made of iron oxide
+  - B) absorbs only green
+  - C) reflects green wavelengths mainly
+  - D) emits only X-rays
+- **answer**: C
 - **explanation**: It absorbs red/blue and reflects green.
 - **difficulty**: mixed
 
 ### Q24
 - **stem**: Why is the wall of the left ventricle thicker than the right?
 - **options**:
-  - A) It pumps blood all around the body at higher pressure
-  - B) It only pumps to lungs
-  - C) It stores urine
-  - D) It makes bile
-- **answer**: A
+  - A) It stores urine
+  - B) It pumps blood all around the body at higher pressure
+  - C) It makes bile
+  - D) It only pumps to lungs
+- **answer**: B
 - **explanation**: Systemic circuit needs stronger push than pulmonary.
 - **difficulty**: mixed

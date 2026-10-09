@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-linear-a-q01",
     prompt: "The graph of a linear equation in two variables is \u2014",
     options: [
-      { id: "a", text: "a straight line" },
+      { id: "a", text: "a point only" },
       { id: "b", text: "a parabola" },
       { id: "c", text: "a circle" },
-      { id: "d", text: "a point only" }
+      { id: "d", text: "a straight line" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "ax+by+c=0 graphs as a straight line.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -20,12 +20,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-linear-a-q02",
     prompt: "The pair x + y = 5 and 2x + 2y = 10 has \u2014",
     options: [
-      { id: "a", text: "infinitely many solutions" },
-      { id: "b", text: "no solution" },
+      { id: "a", text: "exactly two solutions" },
+      { id: "b", text: "infinitely many solutions" },
       { id: "c", text: "unique solution" },
-      { id: "d", text: "exactly two solutions" }
+      { id: "d", text: "no solution" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Second is 2\u00d7 the first: coincident lines.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -33,12 +33,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-linear-a-q03",
     prompt: "The pair x + y = 5 and x + y = 7 has \u2014",
     options: [
-      { id: "a", text: "no solution" },
-      { id: "b", text: "unique solution" },
-      { id: "c", text: "infinitely many" },
-      { id: "d", text: "x=0 only" }
+      { id: "a", text: "x=0 only" },
+      { id: "b", text: "infinitely many" },
+      { id: "c", text: "no solution" },
+      { id: "d", text: "unique solution" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Parallel distinct lines (same left side, different constants).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-linear-a-q04",
     prompt: "Solve: x + y = 7 and x \u2212 y = 1. Then (x, y) = \u2014",
     options: [
-      { id: "a", text: "(4, 3)" },
-      { id: "b", text: "(3, 4)" },
-      { id: "c", text: "(5, 2)" },
+      { id: "a", text: "(5, 2)" },
+      { id: "b", text: "(4, 3)" },
+      { id: "c", text: "(3, 4)" },
       { id: "d", text: "(2, 5)" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Add: 2x=8 \u2192 x=4; y=3.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -59,12 +59,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-linear-a-q05",
     prompt: "For unique solution of a1x+b1y+c1=0 and a2x+b2y+c2=0 \u2014",
     options: [
-      { id: "a", text: "a1/a2 \u2260 b1/b2" },
-      { id: "b", text: "a1/a2 = b1/b2 = c1/c2" },
-      { id: "c", text: "a1/a2 = b1/b2 \u2260 c1/c2" },
-      { id: "d", text: "c1=c2=0" }
+      { id: "a", text: "a1/a2 = b1/b2 = c1/c2" },
+      { id: "b", text: "a1/a2 \u2260 b1/b2" },
+      { id: "c", text: "c1=c2=0" },
+      { id: "d", text: "a1/a2 = b1/b2 \u2260 c1/c2" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Lines intersect at one point iff slopes differ: a1/a2 \u2260 b1/b2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -85,12 +85,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-linear-a-q07",
     prompt: "Elimination: 2x+3y=5 and 3x+2y=5. Adding after suitable multiply yields \u2014",
     options: [
-      { id: "a", text: "x=1, y=1" },
-      { id: "b", text: "x=2, y=\u22121" },
-      { id: "c", text: "x=0, y=5/3" },
+      { id: "a", text: "x=2, y=\u22121" },
+      { id: "b", text: "x=0, y=5/3" },
+      { id: "c", text: "x=1, y=1" },
       { id: "d", text: "x=5, y=\u22125" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Multiply first\u00d72, second\u00d73: 4x+6y=10, 9x+6y=15; subtract: \u22125x=\u22125 \u2192 x=1; y=1.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -98,12 +98,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-linear-a-q08",
     prompt: "The line x = 3 is \u2014",
     options: [
-      { id: "a", text: "parallel to the y-axis" },
-      { id: "b", text: "parallel to the x-axis" },
+      { id: "a", text: "a circle" },
+      { id: "b", text: "parallel to the y-axis" },
       { id: "c", text: "the x-axis" },
-      { id: "d", text: "a circle" }
+      { id: "d", text: "parallel to the x-axis" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "x=3 is a vertical line, parallel to y-axis.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -111,12 +111,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-linear-a-q09",
     prompt: "The equation y = 0 represents \u2014",
     options: [
-      { id: "a", text: "the x-axis" },
+      { id: "a", text: "origin only" },
       { id: "b", text: "the y-axis" },
       { id: "c", text: "x=y" },
-      { id: "d", text: "origin only" }
+      { id: "d", text: "the x-axis" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "All points with y-coordinate 0 form the x-axis.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -126,8 +126,8 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "24" },
       { id: "b", text: "12" },
-      { id: "c", text: "6" },
-      { id: "d", text: "18" }
+      { id: "c", text: "18" },
+      { id: "d", text: "6" }
     ],
     answerId: "a",
     explanation: "x-int 4, y-int 6; product 24.",
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-linear-a-q11",
     prompt: "Solve by elimination: 3x \u2212 y = 3 and 9x \u2212 3y = 9. The system has \u2014",
     options: [
-      { id: "a", text: "infinitely many solutions" },
-      { id: "b", text: "no solution" },
-      { id: "c", text: "unique solution (1,0)" },
+      { id: "a", text: "unique solution (1,0)" },
+      { id: "b", text: "infinitely many solutions" },
+      { id: "c", text: "no solution" },
       { id: "d", text: "unique solution (0,3)" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Second = 3\u00d7 first: dependent equations.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-linear-a-q12",
     prompt: "The solution of x \u2212 2y = 0 and 3x + 4y = 20 is \u2014",
     options: [
-      { id: "a", text: "(4, 2)" },
-      { id: "b", text: "(2, 4)" },
-      { id: "c", text: "(5, 2.5)" },
-      { id: "d", text: "(0, 0)" }
+      { id: "a", text: "(2, 4)" },
+      { id: "b", text: "(4, 2)" },
+      { id: "c", text: "(0, 0)" },
+      { id: "d", text: "(5, 2.5)" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "x=2y; 6y+4y=20 \u2192 10y=20 \u2192 y=2, x=4.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -163,12 +163,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-linear-a-q13",
     prompt: "Graphically, inconsistent linear equations appear as \u2014",
     options: [
-      { id: "a", text: "parallel lines" },
-      { id: "b", text: "intersecting lines" },
-      { id: "c", text: "coincident lines" },
-      { id: "d", text: "perpendicular lines only" }
+      { id: "a", text: "coincident lines" },
+      { id: "b", text: "perpendicular lines only" },
+      { id: "c", text: "intersecting lines" },
+      { id: "d", text: "parallel lines" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "No common point \u21d2 parallel distinct lines.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -176,12 +176,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-linear-a-q14",
     prompt: "If am \u2212 bl \u2260 0 for equations ax+by=c, lx+my=n, the system has \u2014",
     options: [
-      { id: "a", text: "unique solution" },
+      { id: "a", text: "infinitely many" },
       { id: "b", text: "no solution" },
-      { id: "c", text: "infinitely many" },
-      { id: "d", text: "only x=0" }
+      { id: "c", text: "only x=0" },
+      { id: "d", text: "unique solution" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "am\u2212bl is the determinant a1b2\u2212a2b1 (up to naming); non-zero \u21d2 unique.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-linear-a-q15",
     prompt: "The cost of 2 pens and 3 pencils is \u20b940; 3 pens and 2 pencils is \u20b945. Cost of one pen is \u2014",
     options: [
-      { id: "a", text: "\u20b911" },
+      { id: "a", text: "\u20b99" },
       { id: "b", text: "\u20b910" },
-      { id: "c", text: "\u20b99" },
-      { id: "d", text: "\u20b912" }
+      { id: "c", text: "\u20b912" },
+      { id: "d", text: "\u20b911" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "2p+3c=40, 3p+2c=45. \u00d72 and \u00d73: 4p+6c=80, 9p+6c=135 \u2192 5p=55 \u2192 p=11.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-linear-a-q16",
     prompt: "y = 2x + 1 and y = 2x \u2212 4 are \u2014",
     options: [
-      { id: "a", text: "parallel" },
+      { id: "a", text: "intersecting at one point" },
       { id: "b", text: "perpendicular" },
       { id: "c", text: "coincident" },
-      { id: "d", text: "intersecting at one point" }
+      { id: "d", text: "parallel" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Same slope 2, different intercepts \u21d2 parallel.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -215,12 +215,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-linear-a-q17",
     prompt: "A pair of linear equations can represent \u2014",
     options: [
-      { id: "a", text: "all of: unique, none, or infinitely many solutions" },
-      { id: "b", text: "only unique solutions" },
-      { id: "c", text: "only integers" },
+      { id: "a", text: "only unique solutions" },
+      { id: "b", text: "only integers" },
+      { id: "c", text: "all of: unique, none, or infinitely many solutions" },
       { id: "d", text: "only positive x" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Depending on ratios of coefficients.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -241,12 +241,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-linear-a-q19",
     prompt: "Reduce 2x + 3y \u2212 9 = 0 and 4x + 6y \u2212 18 = 0. Consistency?",
     options: [
-      { id: "a", text: "dependent (infinite solutions)" },
+      { id: "a", text: "unique (0,3)" },
       { id: "b", text: "inconsistent" },
-      { id: "c", text: "unique (1,1)" },
-      { id: "d", text: "unique (0,3)" }
+      { id: "c", text: "dependent (infinite solutions)" },
+      { id: "d", text: "unique (1,1)" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Second = 2\u00d7 first exactly.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -256,8 +256,8 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "c = 0" },
       { id: "b", text: "a = 0" },
-      { id: "c", text: "b = 0" },
-      { id: "d", text: "a = b" }
+      { id: "c", text: "a = b" },
+      { id: "d", text: "b = 0" }
     ],
     answerId: "a",
     explanation: "Plug (0,0): c=0.",
@@ -267,12 +267,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-linear-a-q21",
     prompt: "For equations x/2 + y/3 = 1 and x/3 + y/2 = 1, multiply by 6 to clear denominators. System becomes \u2014",
     options: [
-      { id: "a", text: "3x + 2y = 6 and 2x + 3y = 6" },
-      { id: "b", text: "x + y = 1 and x + y = 1" },
-      { id: "c", text: "3x+2y=1 and 2x+3y=1" },
-      { id: "d", text: "2x+3y=6 and 3x+2y=6" }
+      { id: "a", text: "x + y = 1 and x + y = 1" },
+      { id: "b", text: "2x+3y=6 and 3x+2y=6" },
+      { id: "c", text: "3x + 2y = 6 and 2x + 3y = 6" },
+      { id: "d", text: "3x+2y=1 and 2x+3y=1" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "\u00d76: 3x+2y=6 and 2x+3y=6.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -280,12 +280,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-linear-a-q22",
     prompt: "Solving 3x+2y=6 and 2x+3y=6 by elimination, x equals \u2014",
     options: [
-      { id: "a", text: "6/5" },
-      { id: "b", text: "1" },
-      { id: "c", text: "2" },
-      { id: "d", text: "3/5" }
+      { id: "a", text: "2" },
+      { id: "b", text: "3/5" },
+      { id: "c", text: "6/5" },
+      { id: "d", text: "1" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "\u00d73 and \u00d72: 9x+6y=18, 4x+6y=12 \u2192 5x=6 \u2192 x=6/5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -322,12 +322,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-maths-linear-b-q01",
     prompt: "The lines 2x \u2212 y \u2212 3 = 0 and 4x \u2212 2y \u2212 k = 0 are coincident for k = \u2014",
     options: [
-      { id: "a", text: "6" },
-      { id: "b", text: "3" },
-      { id: "c", text: "0" },
-      { id: "d", text: "12" }
+      { id: "a", text: "0" },
+      { id: "b", text: "12" },
+      { id: "c", text: "6" },
+      { id: "d", text: "3" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Need a1/a2=b1/b2=c1/c2 \u2192 2/4=1/2=(\u22123)/(\u2212k) \u2192 1/2=3/k \u2192 k=6.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -335,12 +335,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-maths-linear-b-q02",
     prompt: "For parallel lines 2x \u2212 y \u2212 3 = 0 and 4x \u2212 2y \u2212 k = 0, k \u2260 \u2014",
     options: [
-      { id: "a", text: "6" },
-      { id: "b", text: "0" },
-      { id: "c", text: "3" },
-      { id: "d", text: "12" }
+      { id: "a", text: "12" },
+      { id: "b", text: "3" },
+      { id: "c", text: "0" },
+      { id: "d", text: "6" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Parallel when a1/a2=b1/b2\u2260c1/c2, so k\u22606.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-maths-linear-b-q03",
     prompt: "Solve: 0.2x + 0.3y = 1.3 and 0.4x + 0.5y = 2.3. Then x = \u2014",
     options: [
-      { id: "a", text: "2" },
-      { id: "b", text: "3" },
+      { id: "a", text: "3" },
+      { id: "b", text: "2" },
       { id: "c", text: "1" },
       { id: "d", text: "4" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "\u00d710: 2x+3y=13, 4x+5y=23. \u00d72 first: 4x+6y=26; subtract: y=3; 2x+9=13 \u2192 x=2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -374,12 +374,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-maths-linear-b-q05",
     prompt: "If 2x + 3y = 17 and 3x \u2212 2y = 6, then 2x + 3y + 3x \u2212 2y equals \u2014",
     options: [
-      { id: "a", text: "23" },
-      { id: "b", text: "17" },
-      { id: "c", text: "6" },
+      { id: "a", text: "17" },
+      { id: "b", text: "6" },
+      { id: "c", text: "23" },
       { id: "d", text: "11" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Sum of left sides equals 17+6=23; simplifies to 5x+y.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-maths-linear-b-q06",
     prompt: "A fraction becomes 1/2 if 1 is added to both numerator and denominator. It becomes 1/3 if 1 is subtracted from both. The fraction is \u2014",
     options: [
-      { id: "a", text: "3/7" },
+      { id: "a", text: "4/7" },
       { id: "b", text: "2/3" },
-      { id: "c", text: "3/5" },
-      { id: "d", text: "4/7" }
+      { id: "c", text: "3/7" },
+      { id: "d", text: "3/5" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "From the two conditions, n=3 and d=7.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -401,8 +401,8 @@ const SET_B: PrepQuestion[] = [
     prompt: "Taxi charges \u20b915 for first km and \u20b98 per additional km. For d km (d\u22651), fare F satisfies \u2014",
     options: [
       { id: "a", text: "F = 8d + 7" },
-      { id: "b", text: "F = 15d" },
-      { id: "c", text: "F = 8d + 15" },
+      { id: "b", text: "F = 8d + 15" },
+      { id: "c", text: "F = 15d" },
       { id: "d", text: "F = 7d + 8" }
     ],
     answerId: "a",
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-maths-linear-b-q08",
     prompt: "Two lines a1x+b1y+c1=0 and a2x+b2y+c2=0 are perpendicular if \u2014",
     options: [
-      { id: "a", text: "a1a2 + b1b2 = 0" },
-      { id: "b", text: "a1/a2 = b1/b2" },
-      { id: "c", text: "a1a2 = b1b2" },
-      { id: "d", text: "a1b2 \u2212 a2b1 = 0" }
+      { id: "a", text: "a1b2 \u2212 a2b1 = 0" },
+      { id: "b", text: "a1a2 = b1b2" },
+      { id: "c", text: "a1/a2 = b1/b2" },
+      { id: "d", text: "a1a2 + b1b2 = 0" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Slopes m1=\u2212a1/b1, m2=\u2212a2/b2; m1m2=\u22121 \u21d2 a1a2+b1b2=0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -426,12 +426,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-maths-linear-b-q09",
     prompt: "The solution set of 3x + 2y \u2212 1 = 0 and 3x + 2y \u2212 1 = 0 (same equation twice) is \u2014",
     options: [
-      { id: "a", text: "infinitely many points on the line" },
+      { id: "a", text: "only (1/3,0)" },
       { id: "b", text: "empty" },
-      { id: "c", text: "only (1/3,0)" },
+      { id: "c", text: "infinitely many points on the line" },
       { id: "d", text: "only (0,1/2)" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Identical equations \u21d2 every point of the line.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -439,12 +439,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-maths-linear-b-q10",
     prompt: "Using matrices idea: for  x + y = 5, 2x \u2212 y = 4, adding gives \u2014",
     options: [
-      { id: "a", text: "3x = 9 so x=3, then y=2" },
-      { id: "b", text: "x=5" },
-      { id: "c", text: "y=4" },
-      { id: "d", text: "x=y=0" }
+      { id: "a", text: "y=4" },
+      { id: "b", text: "3x = 9 so x=3, then y=2" },
+      { id: "c", text: "x=y=0" },
+      { id: "d", text: "x=5" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Add: 3x=9 \u2192 x=3; from x+y=5, y=2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -452,12 +452,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-maths-linear-b-q11",
     prompt: "Which ordered pair satisfies both x \u2212 y = 2 and 2x + y = 7?",
     options: [
-      { id: "a", text: "(3, 1)" },
-      { id: "b", text: "(2, 0)" },
-      { id: "c", text: "(1, \u22121)" },
-      { id: "d", text: "(4, 2)" }
+      { id: "a", text: "(2, 0)" },
+      { id: "b", text: "(3, 1)" },
+      { id: "c", text: "(4, 2)" },
+      { id: "d", text: "(1, \u22121)" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "3\u22121=2 and 6+1=7.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -466,9 +466,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "If the system kx + 2y = 5 and 3x + y = 1 has no solution, then k equals \u2014",
     options: [
       { id: "a", text: "6" },
-      { id: "b", text: "3" },
-      { id: "c", text: "2" },
-      { id: "d", text: "0" }
+      { id: "b", text: "0" },
+      { id: "c", text: "3" },
+      { id: "d", text: "2" }
     ],
     answerId: "a",
     explanation: "a1/a2=b1/b2\u2260c1/c2 \u2192 k/3 = 2/1 \u21d2 k=6, and 5/1 \u2260 that ratio for c.",
@@ -478,12 +478,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-maths-linear-b-q13",
     prompt: "Draw x + y = 4. It passes through \u2014",
     options: [
-      { id: "a", text: "(0,4) and (4,0)" },
-      { id: "b", text: "(0,0) only" },
+      { id: "a", text: "(1,1) only" },
+      { id: "b", text: "(0,4) and (4,0)" },
       { id: "c", text: "(2,3)" },
-      { id: "d", text: "(1,1) only" }
+      { id: "d", text: "(0,0) only" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Axis intercepts are 4 and 4.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -504,12 +504,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-maths-linear-b-q15",
     prompt: "Solve: x + 2y = 5 and 3x + 2y = 11. Then x equals \u2014",
     options: [
-      { id: "a", text: "3" },
+      { id: "a", text: "5" },
       { id: "b", text: "2" },
       { id: "c", text: "1" },
-      { id: "d", text: "5" }
+      { id: "d", text: "3" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Subtract: 2x=6 \u2192 x=3; then y=1.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -518,8 +518,8 @@ const SET_B: PrepQuestion[] = [
     prompt: "The pair  \u221a2 x + \u221a3 y = 0 and \u221a3 x \u2212 \u221a2 y = 0 has \u2014",
     options: [
       { id: "a", text: "unique solution (0,0)" },
-      { id: "b", text: "infinite solutions" },
-      { id: "c", text: "no solution" },
+      { id: "b", text: "no solution" },
+      { id: "c", text: "infinite solutions" },
       { id: "d", text: "solution (1,1)" }
     ],
     answerId: "a",
@@ -530,12 +530,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-maths-linear-b-q17",
     prompt: "Five years ago, a man was seven times as old as his son. After five years he will be three times as old. Present ages (man, son) \u2014",
     options: [
-      { id: "a", text: "(40, 10)" },
-      { id: "b", text: "(35, 5)" },
+      { id: "a", text: "(35, 5)" },
+      { id: "b", text: "(30, 10)" },
       { id: "c", text: "(42, 12)" },
-      { id: "d", text: "(30, 10)" }
+      { id: "d", text: "(40, 10)" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "m\u22125=7(s\u22125); m+5=3(s+5). From first m=7s\u221230; plug: 7s\u221230+5=3s+15 \u2192 4s=40 \u2192 s=10, m=40.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -543,12 +543,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-maths-linear-b-q18",
     prompt: "For what value of k do the equations 2x \u2212 y = 3 and 4x \u2212 ky = 6 represent coincident lines?",
     options: [
-      { id: "a", text: "2" },
-      { id: "b", text: "4" },
-      { id: "c", text: "1" },
+      { id: "a", text: "1" },
+      { id: "b", text: "2" },
+      { id: "c", text: "4" },
       { id: "d", text: "0" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Need 2/4 = 1/k = 3/6 \u2192 k=2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -556,12 +556,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-maths-linear-b-q19",
     prompt: "The distance between parallel lines 3x + 4y \u2212 5 = 0 and 3x + 4y \u2212 15 = 0 is \u2014",
     options: [
-      { id: "a", text: "2" },
-      { id: "b", text: "10" },
-      { id: "c", text: "1" },
-      { id: "d", text: "5" }
+      { id: "a", text: "1" },
+      { id: "b", text: "2" },
+      { id: "c", text: "5" },
+      { id: "d", text: "10" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "|\u22125\u2212(\u221215)|/5 = 10/5=2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -569,12 +569,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-maths-linear-b-q20",
     prompt: "A chemist has two solutions: 20% and 50% acid. How much of each to make 10 L of 35%? Let x = litres of 20%. Then \u2014",
     options: [
-      { id: "a", text: "x=5, (10\u2212x)=5" },
-      { id: "b", text: "x=3.5" },
-      { id: "c", text: "x=7" },
-      { id: "d", text: "x=2" }
+      { id: "a", text: "x=3.5" },
+      { id: "b", text: "x=7" },
+      { id: "c", text: "x=2" },
+      { id: "d", text: "x=5, (10\u2212x)=5" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "0.2x+0.5(10\u2212x)=3.5 \u2192 2\u22120.3x=3.5? 0.2x+5\u22120.5x=3.5 \u2192 5\u22120.3x=3.5 \u2192 0.3x=1.5 \u2192 x=5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -582,12 +582,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-maths-linear-b-q21",
     prompt: "Which system is inconsistent?",
     options: [
-      { id: "a", text: "x+y=2 and 2x+2y=5" },
-      { id: "b", text: "x+y=2 and 2x+2y=4" },
-      { id: "c", text: "x+y=2 and x\u2212y=0" },
-      { id: "d", text: "x=1 and y=2" }
+      { id: "a", text: "x=1 and y=2" },
+      { id: "b", text: "x+y=2 and x\u2212y=0" },
+      { id: "c", text: "x+y=2 and 2x+2y=5" },
+      { id: "d", text: "x+y=2 and 2x+2y=4" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Second would need =4 to match; 5 makes parallel distinct lines.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -595,12 +595,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-maths-linear-b-q22",
     prompt: "The value of k for which the system x + 2y = 3 and 5x + ky = 15 has infinitely many solutions is \u2014",
     options: [
-      { id: "a", text: "10" },
+      { id: "a", text: "15" },
       { id: "b", text: "5" },
       { id: "c", text: "3" },
-      { id: "d", text: "15" }
+      { id: "d", text: "10" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "1/5 = 2/k = 3/15 \u2192 k=10.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -609,9 +609,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "If 3x + 4y = 10 and 6x + 8y = 20, the system has \u2014",
     options: [
       { id: "a", text: "infinitely many solutions" },
-      { id: "b", text: "no solution" },
-      { id: "c", text: "unique solution (2,1)" },
-      { id: "d", text: "unique solution (0,0)" }
+      { id: "b", text: "unique solution (2,1)" },
+      { id: "c", text: "unique solution (0,0)" },
+      { id: "d", text: "no solution" }
     ],
     answerId: "a",
     explanation: "Second equation is exactly twice the first.",
@@ -621,12 +621,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-maths-linear-b-q24",
     prompt: "Solve: 5x \u2212 2y = 4 and 3x + y = 9. Then y equals \u2014",
     options: [
-      { id: "a", text: "3" },
+      { id: "a", text: "2" },
       { id: "b", text: "1" },
-      { id: "c", text: "2" },
+      { id: "c", text: "3" },
       { id: "d", text: "0" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "From second y=9\u22123x; 5x\u22122(9\u22123x)=4 \u2192 5x\u221218+6x=4 \u2192 11x=22 \u2192 x=2; y=3.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
