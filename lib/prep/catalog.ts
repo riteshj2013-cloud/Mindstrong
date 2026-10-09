@@ -4,6 +4,7 @@ import { g3ScienceAnimals } from "./content/g3-science-animals";
 import { g3ScienceSenses } from "./content/g3-science-senses";
 import { g3MathsNumbers } from "./content/g3-maths-numbers";
 import { g3MathsAddSubtract } from "./content/g3-maths-add-subtract";
+import { g3MathsMultiply } from "./content/g3-maths-multiply";
 import { g3EnglishSynonyms } from "./content/g3-english-synonyms";
 import { g3EnglishAntonyms } from "./content/g3-english-antonyms";
 import { g3EnglishGrammar } from "./content/g3-english-grammar";
@@ -592,7 +593,7 @@ const MATHS: Record<number, ChapterDef[]> = {
   3: [
     g3MathsNumbers,
     g3MathsAddSubtract,
-    ch("multiply", "Multiply Basics", "✖️", "Arrays & times facts", mathsPlaceValueLesson(), ["multiply-basics", "multiply-basics", "add-sub"], ["multiply-basics"]),
+    g3MathsMultiply,
   ],
   4: [
     g4MathsLargeNumbers,

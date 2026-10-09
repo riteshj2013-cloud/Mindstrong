@@ -112,7 +112,7 @@ ingest-sanitized and rendered as **original in-app SVG** (no copyrighted SOF sca
 **Live pictorial (≈9 of 24 MCQs per set = 18 of 48 per chapter, unless noted):**
 - **G3 Science** Ch1 Plant Parts · Ch2 Animals Food & Homes · Ch3 Sense Organs (inline SVG)
 - **G3 English** Ch1 Synonyms · Ch2 Antonyms · Ch3 Grammar Basics (authored Set A/B)
-- **G3 Maths** Ch1 Numbers (pictorial addendum) · Ch2 Add & Subtract (authored; pictorial later)
+- **G3 Maths** Ch1 Numbers (pictorial addendum) · Ch2 Add & Subtract (authored; pictorial later) · Ch3 Multiply Basics (authored; pictorial later)
 - **G4 Maths** Ch1 Large Numbers · Ch2 Mul/Div · Ch3 Fractions (pictorial addenda) · Ch4 Measurement · Ch5 Geometry · Ch6 Data Handling
 - **G4 Science** Ch1 Food · Ch2 Matter · Ch3 Water (inline SVG)
 - **G4 English** Ch1 Reading (18) · Ch2 Grammar (16) · Ch3 Words (18) — external `visual:` SVGs inlined at ingest, with `visual_alt` / `visual_longdesc`
