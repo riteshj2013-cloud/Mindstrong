@@ -100,5 +100,23 @@
     8,
     "g8MathsLinear",
     "g8-maths-linear"
+  ],
+  [
+    "science",
+    8,
+    "g8ScienceCombustion",
+    "g8-science-combustion"
+  ],
+  [
+    "science",
+    8,
+    "g8ScienceSound",
+    "g8-science-sound"
+  ],
+  [
+    "science",
+    8,
+    "g8ScienceChemfx",
+    "g8-science-chemfx"
   ]
 ]
