@@ -32,7 +32,7 @@ npm run mobile:open:ios        # Xcode (macOS)
 
 Live web (GitHub Pages): https://riteshj2013-cloud.github.io/Mindstrong/
 
-**Qualification (content + Play + App Store):** [`docs/qualification.md`](docs/qualification.md)
+**Qualification (content + Play + App Store):** [`docs/qualification.md`](docs/qualification.md) · **Store listing draft:** [`docs/store-listing.md`](docs/store-listing.md)
 
 ## What’s playable
 
