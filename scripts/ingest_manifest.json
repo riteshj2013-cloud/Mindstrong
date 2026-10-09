@@ -160,5 +160,59 @@
     8,
     "g8MathsComparing",
     "g8-maths-comparing"
+  ],
+  [
+    "maths",
+    7,
+    "g7MathsIntegers",
+    "g7-maths-integers"
+  ],
+  [
+    "maths",
+    7,
+    "g7MathsEquations",
+    "g7-maths-equations"
+  ],
+  [
+    "maths",
+    7,
+    "g7MathsAngles",
+    "g7-maths-angles"
+  ],
+  [
+    "english",
+    7,
+    "g7EnglishReading",
+    "g7-english-reading"
+  ],
+  [
+    "english",
+    7,
+    "g7EnglishGrammar",
+    "g7-english-grammar"
+  ],
+  [
+    "english",
+    7,
+    "g7EnglishWords",
+    "g7-english-words"
+  ],
+  [
+    "science",
+    7,
+    "g7ScienceNutrition",
+    "g7-science-nutrition"
+  ],
+  [
+    "science",
+    7,
+    "g7ScienceHeat",
+    "g7-science-heat"
+  ],
+  [
+    "science",
+    7,
+    "g7ScienceAcids",
+    "g7-science-acids"
   ]
 ]

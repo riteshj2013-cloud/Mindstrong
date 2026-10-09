@@ -9,6 +9,9 @@ import { G4_ENGLISH_HINTS } from "./g4-english";
 import { G5_MATHS_HINTS } from "./g5-maths";
 import { G5_SCIENCE_HINTS } from "./g5-science";
 import { G5_ENGLISH_HINTS } from "./g5-english";
+import { G7_MATHS_HINTS } from "./g7-maths";
+import { G7_SCIENCE_HINTS } from "./g7-science";
+import { G7_ENGLISH_HINTS } from "./g7-english";
 import { G8_MATHS_HINTS } from "./g8-maths";
 import { G8_SCIENCE_HINTS } from "./g8-science";
 import { G8_ENGLISH_HINTS } from "./g8-english";
@@ -25,6 +28,9 @@ const ALL_HINT_OVERLAYS: Record<string, HintOverlay> = {
   ...G5_MATHS_HINTS,
   ...G5_SCIENCE_HINTS,
   ...G5_ENGLISH_HINTS,
+  ...G7_MATHS_HINTS,
+  ...G7_SCIENCE_HINTS,
+  ...G7_ENGLISH_HINTS,
   ...G8_MATHS_HINTS,
   ...G8_SCIENCE_HINTS,
   ...G8_ENGLISH_HINTS,
@@ -78,6 +84,9 @@ export function hintOverlayStats(): Record<string, number> {
     "g5-maths": G5_MATHS_HINTS,
     "g5-science": G5_SCIENCE_HINTS,
     "g5-english": G5_ENGLISH_HINTS,
+    "g7-maths": G7_MATHS_HINTS,
+    "g7-science": G7_SCIENCE_HINTS,
+    "g7-english": G7_ENGLISH_HINTS,
     "g8-maths": G8_MATHS_HINTS,
     "g8-science": G8_SCIENCE_HINTS,
     "g8-english": G8_ENGLISH_HINTS,
