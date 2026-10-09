@@ -90,6 +90,18 @@
     "g5-english-words"
   ],
   [
+    "english",
+    5,
+    "g5EnglishSpoken",
+    "g5-english-spoken"
+  ],
+  [
+    "english",
+    5,
+    "g5EnglishWriting",
+    "g5-english-writing"
+  ],
+  [
     "science",
     8,
     "g8ScienceCells",

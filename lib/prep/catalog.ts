@@ -34,6 +34,8 @@ import { g5MathsData } from "./content/g5-maths-data";
 import { g5EnglishDetective } from "./content/g5-english-detective";
 import { g5EnglishGrammar } from "./content/g5-english-grammar";
 import { g5EnglishWords } from "./content/g5-english-words";
+import { g5EnglishSpoken } from "./content/g5-english-spoken";
+import { g5EnglishWriting } from "./content/g5-english-writing";
 import { g5SciencePlants } from "./content/g5-science-plants";
 import { g5ScienceBody } from "./content/g5-science-body";
 import { g5ScienceSpace } from "./content/g5-science-space";
@@ -664,6 +666,8 @@ const ENGLISH: Record<number, ChapterDef[]> = {
     g5EnglishDetective,
     g5EnglishGrammar,
     g5EnglishWords,
+    g5EnglishSpoken,
+    g5EnglishWriting,
   ],
   6: [], // placeholder — English Writer
   7: [
