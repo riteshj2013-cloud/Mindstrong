@@ -104,6 +104,15 @@ import { g9EnglishWords } from "./content/g9-english-words";
 import { g9ScienceMatter } from "./content/g9-science-matter";
 import { g9ScienceCell } from "./content/g9-science-cell";
 import { g9ScienceMotion } from "./content/g9-science-motion";
+import { g10MathsRealNumbers } from "./content/g10-maths-real-numbers";
+import { g10MathsPolynomials } from "./content/g10-maths-polynomials";
+import { g10MathsLinearPair } from "./content/g10-maths-linear-pair";
+import { g10EnglishLiterature } from "./content/g10-english-literature";
+import { g10EnglishGrammar } from "./content/g10-english-grammar";
+import { g10EnglishWriting } from "./content/g10-english-writing";
+import { g10ScienceChemReactions } from "./content/g10-science-chem-reactions";
+import { g10ScienceLifeProcesses } from "./content/g10-science-life-processes";
+import { g10ScienceLight } from "./content/g10-science-light";
 
 function sets(topics: [string, string][]): ChapterDef["sets"] {
   return topics.map(([id, topic], i) => ({
