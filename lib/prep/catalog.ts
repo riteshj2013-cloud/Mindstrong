@@ -19,6 +19,9 @@ import { g4ScienceWater } from "./content/g4-science-water";
 import { g5MathsLargeNumbers } from "./content/g5-maths-large-numbers";
 import { g5MathsAngles } from "./content/g5-maths-angles";
 import { g5MathsFractions } from "./content/g5-maths-fractions";
+import { g5MathsDecimals } from "./content/g5-maths-decimals";
+import { g5MathsMeasurement } from "./content/g5-maths-measurement";
+import { g5MathsData } from "./content/g5-maths-data";
 import { g5EnglishDetective } from "./content/g5-english-detective";
 import { g5EnglishGrammar } from "./content/g5-english-grammar";
 import { g5EnglishWords } from "./content/g5-english-words";
@@ -591,6 +594,9 @@ const MATHS: Record<number, ChapterDef[]> = {
     g5MathsLargeNumbers,
     g5MathsAngles,
     g5MathsFractions,
+    g5MathsDecimals,
+    g5MathsMeasurement,
+    g5MathsData,
   ],
   6: [], // placeholder — Maths Writer
   7: [], // placeholder — Maths Writer
