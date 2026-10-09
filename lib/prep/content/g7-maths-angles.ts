@@ -20,12 +20,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-maths-angles-a-q02",
     prompt: "A right angle measures\u2026",
     options: [
-      { id: "a", text: "90\u00b0" },
-      { id: "b", text: "45\u00b0" },
+      { id: "a", text: "45\u00b0" },
+      { id: "b", text: "90\u00b0" },
       { id: "c", text: "180\u00b0" },
       { id: "d", text: "360\u00b0" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "A square corner is 90\u00b0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -33,12 +33,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-maths-angles-a-q03",
     prompt: "An angle of 120\u00b0 is\u2026",
     options: [
-      { id: "a", text: "Obtuse" },
-      { id: "b", text: "Acute" },
-      { id: "c", text: "Right" },
+      { id: "a", text: "Acute" },
+      { id: "b", text: "Right" },
+      { id: "c", text: "Obtuse" },
       { id: "d", text: "Reflex" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Between 90\u00b0 and 180\u00b0 is obtuse.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-maths-angles-a-q04",
     prompt: "A straight angle measures\u2026",
     options: [
-      { id: "a", text: "180\u00b0" },
-      { id: "b", text: "90\u00b0" },
-      { id: "c", text: "270\u00b0" },
-      { id: "d", text: "360\u00b0" }
+      { id: "a", text: "90\u00b0" },
+      { id: "b", text: "270\u00b0" },
+      { id: "c", text: "360\u00b0" },
+      { id: "d", text: "180\u00b0" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "A straight line forms a 180\u00b0 angle.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -72,12 +72,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-maths-angles-a-q06",
     prompt: "Supplementary angles sum to\u2026",
     options: [
-      { id: "a", text: "180\u00b0" },
-      { id: "b", text: "90\u00b0" },
+      { id: "a", text: "90\u00b0" },
+      { id: "b", text: "180\u00b0" },
       { id: "c", text: "360\u00b0" },
       { id: "d", text: "270\u00b0" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Two angles are supplementary if they add to 180\u00b0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -85,12 +85,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-maths-angles-a-q07",
     prompt: "Complement of 38\u00b0 is\u2026",
     options: [
-      { id: "a", text: "52\u00b0" },
-      { id: "b", text: "142\u00b0" },
-      { id: "c", text: "62\u00b0" },
+      { id: "a", text: "142\u00b0" },
+      { id: "b", text: "62\u00b0" },
+      { id: "c", text: "52\u00b0" },
       { id: "d", text: "48\u00b0" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "90 \u2212 38 = 52.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -98,12 +98,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-maths-angles-a-q08",
     prompt: "Supplement of 110\u00b0 is\u2026",
     options: [
-      { id: "a", text: "70\u00b0" },
-      { id: "b", text: "20\u00b0" },
-      { id: "c", text: "250\u00b0" },
-      { id: "d", text: "80\u00b0" }
+      { id: "a", text: "20\u00b0" },
+      { id: "b", text: "250\u00b0" },
+      { id: "c", text: "80\u00b0" },
+      { id: "d", text: "70\u00b0" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "180 \u2212 110 = 70.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -124,12 +124,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-maths-angles-a-q10",
     prompt: "Adjacent angles on a straight line sum to\u2026",
     options: [
-      { id: "a", text: "180\u00b0" },
-      { id: "b", text: "90\u00b0" },
+      { id: "a", text: "90\u00b0" },
+      { id: "b", text: "180\u00b0" },
       { id: "c", text: "360\u00b0" },
       { id: "d", text: "45\u00b0" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "They form a linear pair \u2014 supplementary.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-maths-angles-a-q11",
     prompt: "If two lines intersect and one angle is 70\u00b0, the vertically opposite angle is\u2026",
     options: [
-      { id: "a", text: "70\u00b0" },
-      { id: "b", text: "110\u00b0" },
-      { id: "c", text: "20\u00b0" },
+      { id: "a", text: "110\u00b0" },
+      { id: "b", text: "20\u00b0" },
+      { id: "c", text: "70\u00b0" },
       { id: "d", text: "90\u00b0" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Vertically opposite angles are equal.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-maths-angles-a-q12",
     prompt: "If one angle of a linear pair is 65\u00b0, the other is\u2026",
     options: [
-      { id: "a", text: "115\u00b0" },
-      { id: "b", text: "25\u00b0" },
-      { id: "c", text: "65\u00b0" },
-      { id: "d", text: "295\u00b0" }
+      { id: "a", text: "25\u00b0" },
+      { id: "b", text: "65\u00b0" },
+      { id: "c", text: "295\u00b0" },
+      { id: "d", text: "115\u00b0" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "180 \u2212 65 = 115.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -176,12 +176,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-maths-angles-a-q14",
     prompt: "In a triangle, the sum of interior angles is\u2026",
     options: [
-      { id: "a", text: "180\u00b0" },
-      { id: "b", text: "90\u00b0" },
+      { id: "a", text: "90\u00b0" },
+      { id: "b", text: "180\u00b0" },
       { id: "c", text: "360\u00b0" },
       { id: "d", text: "270\u00b0" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Angle sum property of a triangle.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-maths-angles-a-q15",
     prompt: "An equilateral triangle has each angle\u2026",
     options: [
-      { id: "a", text: "60\u00b0" },
-      { id: "b", text: "90\u00b0" },
-      { id: "c", text: "45\u00b0" },
+      { id: "a", text: "90\u00b0" },
+      { id: "b", text: "45\u00b0" },
+      { id: "c", text: "60\u00b0" },
       { id: "d", text: "120\u00b0" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "180\u00b0 \u00f7 3 = 60\u00b0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-maths-angles-a-q16",
     prompt: "A triangle with angles 40\u00b0, 60\u00b0, and ___.",
     options: [
-      { id: "a", text: "80\u00b0" },
-      { id: "b", text: "90\u00b0" },
-      { id: "c", text: "100\u00b0" },
-      { id: "d", text: "70\u00b0" }
+      { id: "a", text: "90\u00b0" },
+      { id: "b", text: "100\u00b0" },
+      { id: "c", text: "70\u00b0" },
+      { id: "d", text: "80\u00b0" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "180 \u2212 40 \u2212 60 = 80.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -228,12 +228,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-maths-angles-a-q18",
     prompt: "Parallel lines cut by a transversal: corresponding angles are\u2026",
     options: [
-      { id: "a", text: "Equal" },
-      { id: "b", text: "Supplementary" },
+      { id: "a", text: "Supplementary" },
+      { id: "b", text: "Equal" },
       { id: "c", text: "Complementary" },
       { id: "d", text: "Always 90\u00b0" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Corresponding angles are congruent when lines are parallel.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -241,12 +241,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-maths-angles-a-q19",
     prompt: "Parallel lines: alternate interior angles are\u2026",
     options: [
-      { id: "a", text: "Equal" },
-      { id: "b", text: "Complementary" },
-      { id: "c", text: "Always obtuse" },
+      { id: "a", text: "Complementary" },
+      { id: "b", text: "Always obtuse" },
+      { id: "c", text: "Equal" },
       { id: "d", text: "Always acute" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Alternate interior angles are equal for parallel lines.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -254,12 +254,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-maths-angles-a-q20",
     prompt: "Parallel lines: consecutive interior angles are\u2026",
     options: [
-      { id: "a", text: "Supplementary" },
-      { id: "b", text: "Equal" },
-      { id: "c", text: "Complementary" },
-      { id: "d", text: "Always 45\u00b0" }
+      { id: "a", text: "Equal" },
+      { id: "b", text: "Complementary" },
+      { id: "c", text: "Always 45\u00b0" },
+      { id: "d", text: "Supplementary" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "They add to 180\u00b0 (co-interior / same-side interior).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -280,12 +280,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-maths-angles-a-q22",
     prompt: "A reflex angle is\u2026",
     options: [
-      { id: "a", text: "Greater than 180\u00b0 and less than 360\u00b0" },
-      { id: "b", text: "Less than 90\u00b0" },
+      { id: "a", text: "Less than 90\u00b0" },
+      { id: "b", text: "Greater than 180\u00b0 and less than 360\u00b0" },
       { id: "c", text: "Exactly 180\u00b0" },
       { id: "d", text: "Between 90\u00b0 and 180\u00b0" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Reflex angles measure more than a straight angle but less than a full turn.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -293,12 +293,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-maths-angles-a-q23",
     prompt: "Two complementary angles are in the ratio 2 : 3. The larger is\u2026",
     options: [
-      { id: "a", text: "54\u00b0" },
-      { id: "b", text: "36\u00b0" },
-      { id: "c", text: "108\u00b0" },
+      { id: "a", text: "36\u00b0" },
+      { id: "b", text: "108\u00b0" },
+      { id: "c", text: "54\u00b0" },
       { id: "d", text: "72\u00b0" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "2x + 3x = 90 \u2192 5x = 90 \u2192 x = 18; larger = 54\u00b0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -306,12 +306,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-maths-angles-a-q24",
     prompt: "Which pair can be complementary?",
     options: [
-      { id: "a", text: "40\u00b0 and 50\u00b0" },
-      { id: "b", text: "40\u00b0 and 140\u00b0" },
-      { id: "c", text: "90\u00b0 and 90\u00b0" },
-      { id: "d", text: "100\u00b0 and 80\u00b0" }
+      { id: "a", text: "40\u00b0 and 140\u00b0" },
+      { id: "b", text: "90\u00b0 and 90\u00b0" },
+      { id: "c", text: "100\u00b0 and 80\u00b0" },
+      { id: "d", text: "40\u00b0 and 50\u00b0" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "40 + 50 = 90.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
@@ -335,12 +335,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-maths-angles-b-q02",
     prompt: "An angle is 20\u00b0 more than its complement. The angle is?",
     options: [
-      { id: "a", text: "55\u00b0" },
-      { id: "b", text: "35\u00b0" },
+      { id: "a", text: "35\u00b0" },
+      { id: "b", text: "55\u00b0" },
       { id: "c", text: "70\u00b0" },
       { id: "d", text: "110\u00b0" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "x + (x \u2212 20) = 90 \u2192 2x = 110 \u2192 x = 55.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-maths-angles-b-q03",
     prompt: "An angle is equal to its supplement. The angle is?",
     options: [
-      { id: "a", text: "90\u00b0" },
-      { id: "b", text: "45\u00b0" },
-      { id: "c", text: "180\u00b0" },
+      { id: "a", text: "45\u00b0" },
+      { id: "b", text: "180\u00b0" },
+      { id: "c", text: "90\u00b0" },
       { id: "d", text: "60\u00b0" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "x + x = 180 \u2192 x = 90.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-maths-angles-b-q04",
     prompt: "In \u25b3ABC, \u2220A = 50\u00b0, \u2220B = 60\u00b0. Exterior at C is?",
     options: [
-      { id: "a", text: "110\u00b0" },
-      { id: "b", text: "70\u00b0" },
-      { id: "c", text: "130\u00b0" },
-      { id: "d", text: "80\u00b0" }
+      { id: "a", text: "70\u00b0" },
+      { id: "b", text: "130\u00b0" },
+      { id: "c", text: "80\u00b0" },
+      { id: "d", text: "110\u00b0" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Interior at C is 70\u00b0; exterior = 180 \u2212 70 = 110, also = A + B.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-maths-angles-b-q06",
     prompt: "l \u2225 m; a transversal makes 112\u00b0 with l. Alternate interior angle is?",
     options: [
-      { id: "a", text: "112\u00b0" },
-      { id: "b", text: "68\u00b0" },
+      { id: "a", text: "68\u00b0" },
+      { id: "b", text: "112\u00b0" },
       { id: "c", text: "22\u00b0" },
       { id: "d", text: "180\u00b0" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Alternate interior angles are equal.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-maths-angles-b-q07",
     prompt: "Angles of a triangle are in ratio 2 : 3 : 4. Largest angle?",
     options: [
-      { id: "a", text: "80\u00b0" },
-      { id: "b", text: "40\u00b0" },
-      { id: "c", text: "60\u00b0" },
+      { id: "a", text: "40\u00b0" },
+      { id: "b", text: "60\u00b0" },
+      { id: "c", text: "80\u00b0" },
       { id: "d", text: "90\u00b0" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "2x+3x+4x=180 \u2192 9x=180 \u2192 x=20; largest=80\u00b0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-maths-angles-b-q08",
     prompt: "Can a triangle have two right angles?",
     options: [
-      { id: "a", text: "No" },
-      { id: "b", text: "Yes" },
-      { id: "c", text: "Only if isosceles" },
-      { id: "d", text: "Only if equilateral" }
+      { id: "a", text: "Yes" },
+      { id: "b", text: "Only if isosceles" },
+      { id: "c", text: "Only if equilateral" },
+      { id: "d", text: "No" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "90 + 90 = 180 leaves 0\u00b0 for the third angle \u2014 impossible.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -439,12 +439,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-maths-angles-b-q10",
     prompt: "If three angles around a point are 90\u00b0, 120\u00b0, and x, then x = ?",
     options: [
-      { id: "a", text: "150\u00b0" },
-      { id: "b", text: "210\u00b0" },
+      { id: "a", text: "210\u00b0" },
+      { id: "b", text: "150\u00b0" },
       { id: "c", text: "30\u00b0" },
       { id: "d", text: "60\u00b0" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "360 \u2212 90 \u2212 120 = 150.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -452,12 +452,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-maths-angles-b-q11",
     prompt: "In an isosceles triangle, base angles are equal. If vertex is 40\u00b0, each base is?",
     options: [
-      { id: "a", text: "70\u00b0" },
-      { id: "b", text: "40\u00b0" },
-      { id: "c", text: "140\u00b0" },
+      { id: "a", text: "40\u00b0" },
+      { id: "b", text: "140\u00b0" },
+      { id: "c", text: "70\u00b0" },
       { id: "d", text: "80\u00b0" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "(180 \u2212 40)/2 = 70.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -465,12 +465,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-maths-angles-b-q12",
     prompt: "Which statement is always true?",
     options: [
-      { id: "a", text: "Vertically opposite angles are equal" },
-      { id: "b", text: "Adjacent angles are equal" },
-      { id: "c", text: "Acute angles are complementary" },
-      { id: "d", text: "Obtuse angles are supplementary" }
+      { id: "a", text: "Adjacent angles are equal" },
+      { id: "b", text: "Acute angles are complementary" },
+      { id: "c", text: "Obtuse angles are supplementary" },
+      { id: "d", text: "Vertically opposite angles are equal" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Vertical angles formed by intersecting lines are always equal.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -491,12 +491,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-maths-angles-b-q14",
     prompt: "A ray that divides an angle into two equal parts is a\u2026",
     options: [
-      { id: "a", text: "Angle bisector" },
-      { id: "b", text: "Perpendicular bisector" },
+      { id: "a", text: "Perpendicular bisector" },
+      { id: "b", text: "Angle bisector" },
       { id: "c", text: "Transversal" },
       { id: "d", text: "Median" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "An angle bisector splits an angle into two congruent angles.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -504,12 +504,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-maths-angles-b-q15",
     prompt: "Measure of each angle formed by bisecting a right angle?",
     options: [
-      { id: "a", text: "45\u00b0" },
-      { id: "b", text: "90\u00b0" },
-      { id: "c", text: "180\u00b0" },
+      { id: "a", text: "90\u00b0" },
+      { id: "b", text: "180\u00b0" },
+      { id: "c", text: "45\u00b0" },
       { id: "d", text: "30\u00b0" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "90\u00b0 \u00f7 2 = 45\u00b0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -517,12 +517,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-maths-angles-b-q16",
     prompt: "If co-interior angles are (2x + 10)\u00b0 and (3x \u2212 20)\u00b0, and lines are parallel, x = ?",
     options: [
-      { id: "a", text: "38" },
-      { id: "b", text: "30" },
-      { id: "c", text: "42" },
-      { id: "d", text: "20" }
+      { id: "a", text: "30" },
+      { id: "b", text: "42" },
+      { id: "c", text: "20" },
+      { id: "d", text: "38" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "(2x+10)+(3x\u221220)=180 \u2192 5x \u2212 10 = 180 \u2192 5x = 190 \u2192 x = 38.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -543,12 +543,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-maths-angles-b-q18",
     prompt: "In a right triangle, the other two angles are\u2026",
     options: [
-      { id: "a", text: "Acute and complementary" },
-      { id: "b", text: "Obtuse" },
+      { id: "a", text: "Obtuse" },
+      { id: "b", text: "Acute and complementary" },
       { id: "c", text: "Equal to 90\u00b0" },
       { id: "d", text: "Supplementary to each other only if both 90\u00b0" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "They sum to 90\u00b0, so each is acute and they are complementary.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -556,12 +556,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-maths-angles-b-q19",
     prompt: "Two lines are parallel if a pair of corresponding angles is\u2026",
     options: [
-      { id: "a", text: "Equal" },
-      { id: "b", text: "Complementary" },
-      { id: "c", text: "90\u00b0" },
+      { id: "a", text: "Complementary" },
+      { id: "b", text: "90\u00b0" },
+      { id: "c", text: "Equal" },
       { id: "d", text: "Reflex" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Equal corresponding angles is a parallel-line test.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -569,12 +569,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-maths-angles-b-q20",
     prompt: "Angle of 270\u00b0 is\u2026",
     options: [
-      { id: "a", text: "Reflex" },
-      { id: "b", text: "Obtuse" },
-      { id: "c", text: "Straight" },
-      { id: "d", text: "Acute" }
+      { id: "a", text: "Obtuse" },
+      { id: "b", text: "Straight" },
+      { id: "c", text: "Acute" },
+      { id: "d", text: "Reflex" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "270\u00b0 is between 180\u00b0 and 360\u00b0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -595,12 +595,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-maths-angles-b-q22",
     prompt: "Sum of exterior angles of any convex polygon (one per vertex) is\u2026",
     options: [
-      { id: "a", text: "360\u00b0" },
-      { id: "b", text: "180\u00b0" },
+      { id: "a", text: "180\u00b0" },
+      { id: "b", text: "360\u00b0" },
       { id: "c", text: "90\u00b0" },
       { id: "d", text: "Depends on sides" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Exterior angles of a convex polygon sum to 360\u00b0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -608,12 +608,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-maths-angles-b-q23",
     prompt: "In \u25b3PQR, \u2220P = \u2220Q and exterior at R is 100\u00b0. Each of \u2220P and \u2220Q is?",
     options: [
-      { id: "a", text: "50\u00b0" },
-      { id: "b", text: "40\u00b0" },
-      { id: "c", text: "80\u00b0" },
+      { id: "a", text: "40\u00b0" },
+      { id: "b", text: "80\u00b0" },
+      { id: "c", text: "50\u00b0" },
       { id: "d", text: "100\u00b0" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Exterior = P + Q = 100, and P = Q, so each 50\u00b0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -621,12 +621,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-maths-angles-b-q24",
     prompt: "Which drawing represents a pair of complementary angles?",
     options: [
-      { id: "a", text: "30\u00b0 and 60\u00b0 side by side making a right angle" },
-      { id: "b", text: "30\u00b0 and 60\u00b0 making a straight line" },
-      { id: "c", text: "90\u00b0 and 90\u00b0" },
-      { id: "d", text: "120\u00b0 and 60\u00b0 making a right angle" }
+      { id: "a", text: "30\u00b0 and 60\u00b0 making a straight line" },
+      { id: "b", text: "90\u00b0 and 90\u00b0" },
+      { id: "c", text: "120\u00b0 and 60\u00b0 making a right angle" },
+      { id: "d", text: "30\u00b0 and 60\u00b0 side by side making a right angle" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "30 + 60 = 90; they form a right angle together.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
@@ -666,12 +666,12 @@ const lesson: ChapterDef["lesson"] = [
     title: "Quick try",
     prompt: "Complement of 35 degrees?",
     options: [
-        { id: "a", text: "55\u00b0" },
-        { id: "b", text: "145\u00b0" },
-        { id: "c", text: "35\u00b0" },
+        { id: "a", text: "145\u00b0" },
+        { id: "b", text: "35\u00b0" },
+        { id: "c", text: "55\u00b0" },
         { id: "d", text: "90\u00b0" }
     ],
-    answerId: "a",
+    answerId: "c",
     why: "90 \u2212 35 = 55.",
     visual: "number-line",
     speak: "Complement of 35 degrees?",

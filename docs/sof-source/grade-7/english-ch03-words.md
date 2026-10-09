@@ -33,11 +33,11 @@
 - stem: |
   Antonym of “scarce”?
 - options:
-  - A: plentiful
-  - B: rare
+  - A: rare
+  - B: plentiful
   - C: tiny
   - D: hidden
-- answer: A
+- answer: B
 - explanation: |
   Scarce means in short supply; plentiful is the opposite.
 
@@ -46,11 +46,11 @@
 - stem: |
   Best meaning of “glimpse”?
 - options:
-  - A: a quick look
-  - B: a long speech
-  - C: a heavy meal
+  - A: a long speech
+  - B: a heavy meal
+  - C: a quick look
   - D: a loud song
-- answer: A
+- answer: C
 - explanation: |
   A glimpse is a brief look.
 
@@ -59,11 +59,11 @@
 - stem: |
   Homophone of “flour”?
 - options:
-  - A: flower
-  - B: floor
-  - C: flare
-  - D: four
-- answer: A
+  - A: floor
+  - B: flare
+  - C: four
+  - D: flower
+- answer: D
 - explanation: |
   Flour and flower sound alike but differ in meaning.
 
@@ -85,11 +85,11 @@
 - stem: |
   Synonym of “ancient”?
 - options:
-  - A: very old
-  - B: brand new
+  - A: brand new
+  - B: very old
   - C: tiny
   - D: noisy
-- answer: A
+- answer: B
 - explanation: |
   Ancient means belonging to the distant past.
 
@@ -98,11 +98,11 @@
 - stem: |
   Antonym of “expand”?
 - options:
-  - A: shrink
-  - B: grow
-  - C: widen
+  - A: grow
+  - B: widen
+  - C: shrink
   - D: increase
-- answer: A
+- answer: C
 - explanation: |
   Expand means become larger; shrink is opposite.
 
@@ -111,11 +111,11 @@
 - stem: |
   Context: “The referee’s decision was impartial.” Impartial means…
 - options:
-  - A: fair and unbiased
-  - B: angry
-  - C: delayed
-  - D: secret
-- answer: A
+  - A: angry
+  - B: delayed
+  - C: secret
+  - D: fair and unbiased
+- answer: D
 - explanation: |
   Impartial means not favouring either side.
 
@@ -137,11 +137,11 @@
 - stem: |
   Suffix in “hopeful” suggests…
 - options:
-  - A: full of
-  - B: without
+  - A: without
+  - B: full of
   - C: again
   - D: against
-- answer: A
+- answer: B
 - explanation: |
   -ful means full of.
 
@@ -150,11 +150,11 @@
 - stem: |
   Synonym of “assist”?
 - options:
-  - A: help
-  - B: hinder
-  - C: hide
+  - A: hinder
+  - B: hide
+  - C: help
   - D: harm
-- answer: A
+- answer: C
 - explanation: |
   Assist means help.
 
@@ -163,11 +163,11 @@
 - stem: |
   Antonym of “generous”?
 - options:
-  - A: selfish
-  - B: kind
-  - C: giving
-  - D: open
-- answer: A
+  - A: kind
+  - B: giving
+  - C: open
+  - D: selfish
+- answer: D
 - explanation: |
   Generous people give freely; selfish is opposite.
 
@@ -189,11 +189,11 @@
 - stem: |
   Choose the correctly spelled word:
 - options:
-  - A: necessary
-  - B: neccessary
+  - A: neccessary
+  - B: necessary
   - C: neccesary
   - D: necesary
-- answer: A
+- answer: B
 - explanation: |
   Necessary has one c and two s’s.
 
@@ -202,11 +202,11 @@
 - stem: |
   Idiom: “once in a blue moon” means…
 - options:
-  - A: very rarely
-  - B: every night
-  - C: at noon
+  - A: every night
+  - B: at noon
+  - C: very rarely
   - D: underwater
-- answer: A
+- answer: C
 - explanation: |
   It means something happens almost never.
 
@@ -215,11 +215,11 @@
 - stem: |
   Synonym of “precise”?
 - options:
-  - A: exact
-  - B: vague
-  - C: messy
-  - D: late
-- answer: A
+  - A: vague
+  - B: messy
+  - C: late
+  - D: exact
+- answer: D
 - explanation: |
   Precise means exact and accurate.
 
@@ -241,11 +241,11 @@
 - stem: |
   “Reluctant” means…
 - options:
-  - A: unwilling
-  - B: eager
+  - A: eager
+  - B: unwilling
   - C: loud
   - D: hungry
-- answer: A
+- answer: B
 - explanation: |
   Reluctant people hesitate to do something.
 
@@ -254,11 +254,11 @@
 - stem: |
   Root “bio” relates to…
 - options:
-  - A: life
-  - B: heat
-  - C: stone
+  - A: heat
+  - B: stone
+  - C: life
   - D: sound
-- answer: A
+- answer: C
 - explanation: |
   Biology is the study of life.
 
@@ -267,11 +267,11 @@
 - stem: |
   Choose the best word: The ____ of the story made us smile.
 - options:
-  - A: moral
-  - B: mural
-  - C: mortal
-  - D: metal
-- answer: A
+  - A: mural
+  - B: mortal
+  - C: metal
+  - D: moral
+- answer: D
 - explanation: |
   Moral means the lesson of a story.
 
@@ -293,11 +293,11 @@
 - stem: |
   Synonym of “fragile”?
 - options:
-  - A: delicate
-  - B: sturdy
+  - A: sturdy
+  - B: delicate
   - C: heavy
   - D: loud
-- answer: A
+- answer: B
 - explanation: |
   Fragile means easily broken; delicate is close.
 
@@ -306,11 +306,11 @@
 - stem: |
   Antonym of “include”?
 - options:
-  - A: exclude
-  - B: contain
-  - C: add
+  - A: contain
+  - B: add
+  - C: exclude
   - D: invite
-- answer: A
+- answer: C
 - explanation: |
   Include brings in; exclude keeps out.
 
@@ -319,11 +319,11 @@
 - stem: |
   “Benevolent” most nearly means…
 - options:
-  - A: kind and generous
-  - B: cruel
-  - C: sleepy
-  - D: silent
-- answer: A
+  - A: cruel
+  - B: sleepy
+  - C: silent
+  - D: kind and generous
+- answer: D
 - explanation: |
   Benevolent describes goodwill and kindness.
 
@@ -347,11 +347,11 @@
 - stem: |
   Antonym of “victory”?
 - options:
-  - A: defeat
-  - B: trophy
+  - A: trophy
+  - B: defeat
   - C: cheer
   - D: medal
-- answer: A
+- answer: B
 - explanation: |
   Victory’s opposite is defeat.
 
@@ -360,11 +360,11 @@
 - stem: |
   “Diligent” means…
 - options:
-  - A: hard-working
-  - B: careless
-  - C: late
+  - A: careless
+  - B: late
+  - C: hard-working
   - D: noisy
-- answer: A
+- answer: C
 - explanation: |
   Diligent people work carefully and steadily.
 
@@ -373,11 +373,11 @@
 - stem: |
   Idiom: “hit the nail on the head” means…
 - options:
-  - A: describe something exactly right
-  - B: do carpentry
-  - C: hurt someone
-  - D: miss the point
-- answer: A
+  - A: do carpentry
+  - B: hurt someone
+  - C: miss the point
+  - D: describe something exactly right
+- answer: D
 - explanation: |
   It means to be exactly correct.
 
@@ -399,11 +399,11 @@
 - stem: |
   Prefix “re-” in “rewrite” means…
 - options:
-  - A: again
-  - B: not
+  - A: not
+  - B: again
   - C: against
   - D: before
-- answer: A
+- answer: B
 - explanation: |
   Re- often means again.
 
@@ -412,11 +412,11 @@
 - stem: |
   “Scarce” in “Water was scarce” means…
 - options:
-  - A: in short supply
-  - B: flooding
-  - C: sweet
+  - A: flooding
+  - B: sweet
+  - C: in short supply
   - D: frozen
-- answer: A
+- answer: C
 - explanation: |
   Scarce means not enough.
 
@@ -425,11 +425,11 @@
 - stem: |
   Antonym of “opaque”?
 - options:
-  - A: transparent
-  - B: heavy
-  - C: solid
-  - D: dark only
-- answer: A
+  - A: heavy
+  - B: solid
+  - C: dark only
+  - D: transparent
+- answer: D
 - explanation: |
   Transparent materials let light through.
 
@@ -451,11 +451,11 @@
 - stem: |
   Synonym of “vast”?
 - options:
-  - A: huge
-  - B: tiny
+  - A: tiny
+  - B: huge
   - C: narrow
   - D: brief
-- answer: A
+- answer: B
 - explanation: |
   Vast means very large.
 
@@ -464,11 +464,11 @@
 - stem: |
   “Ambiguous” means…
 - options:
-  - A: unclear; having more than one meaning
-  - B: perfectly clear
-  - C: musical
+  - A: perfectly clear
+  - B: musical
+  - C: unclear; having more than one meaning
   - D: edible
-- answer: A
+- answer: C
 - explanation: |
   Ambiguous statements can be read in different ways.
 
@@ -477,11 +477,11 @@
 - stem: |
   Antonym of “ascend”?
 - options:
-  - A: descend
-  - B: climb
-  - C: rise
-  - D: lift
-- answer: A
+  - A: climb
+  - B: rise
+  - C: lift
+  - D: descend
+- answer: D
 - explanation: |
   Ascend = go up; descend = go down.
 
@@ -503,11 +503,11 @@
 - stem: |
   Idiom: “cost an arm and a leg” means…
 - options:
-  - A: be very expensive
-  - B: need surgery
+  - A: need surgery
+  - B: be very expensive
   - C: be free
   - D: be light
-- answer: A
+- answer: B
 - explanation: |
   It means something costs a lot of money (use ₹ thinking).
 
@@ -516,11 +516,11 @@
 - stem: |
   Synonym of “brief”?
 - options:
-  - A: short
-  - B: endless
-  - C: heavy
+  - A: endless
+  - B: heavy
+  - C: short
   - D: loud
-- answer: A
+- answer: C
 - explanation: |
   Brief means short in time or length.
 
@@ -529,11 +529,11 @@
 - stem: |
   Choose the correctly used word: The ____ was breathtaking.
 - options:
-  - A: scenery
-  - B: scenary
-  - C: scenarye
-  - D: sceneries as uncountable misuse
-- answer: A
+  - A: scenary
+  - B: scenarye
+  - C: sceneries as uncountable misuse
+  - D: scenery
+- answer: D
 - explanation: |
   Scenery is the standard spelling/form here.
 
@@ -555,11 +555,11 @@
 - stem: |
   “Optimistic” means…
 - options:
-  - A: hopeful about the future
-  - B: sure of disaster
+  - A: sure of disaster
+  - B: hopeful about the future
   - C: silent
   - D: hungry
-- answer: A
+- answer: B
 - explanation: |
   Optimistic people expect good outcomes.
 
@@ -568,11 +568,11 @@
 - stem: |
   Homophone pair: “allowed” pairs with…
 - options:
-  - A: aloud
-  - B: aloudly
-  - C: alloyed as the only pair
+  - A: aloudly
+  - B: alloyed as the only pair
+  - C: aloud
   - D: along
-- answer: A
+- answer: C
 - explanation: |
   Allowed and aloud sound the same.
 
@@ -581,11 +581,11 @@
 - stem: |
   Synonym of “rapid”?
 - options:
-  - A: quick
-  - B: slow
-  - C: late
-  - D: soft
-- answer: A
+  - A: slow
+  - B: late
+  - C: soft
+  - D: quick
+- answer: D
 - explanation: |
   Rapid means fast.
 
@@ -607,11 +607,11 @@
 - stem: |
   Antonym of “polite”?
 - options:
-  - A: rude
-  - B: kind
+  - A: kind
+  - B: rude
   - C: gentle
   - D: courteous
-- answer: A
+- answer: B
 - explanation: |
   Rude is the opposite of polite.
 
@@ -620,11 +620,11 @@
 - stem: |
   “Essential” most nearly means…
 - options:
-  - A: necessary
-  - B: optional
-  - C: decorative only
+  - A: optional
+  - B: decorative only
+  - C: necessary
   - D: forgotten
-- answer: A
+- answer: C
 - explanation: |
   Essential means needed / cannot do without.
 
@@ -633,10 +633,10 @@
 - stem: |
   Best word: She spoke with great ____.
 - options:
-  - A: clarity
-  - B: clarify
-  - C: clearly as noun
-  - D: clearance only
-- answer: A
+  - A: clarify
+  - B: clearly as noun
+  - C: clearance only
+  - D: clarity
+- answer: D
 - explanation: |
   Clarity is the noun that fits after “with great.”

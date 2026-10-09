@@ -20,12 +20,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-reading-a-q02",
     prompt: "Every Saturday morning, Ananya wheeled her bicycle to the community garden behind the library. The soil there was dark and soft after the night\u2019s rain. She planted tomato seedlings in neat rows while her neighbour, Mr. Fernandes, watered the spinach beds. \u201cPlants teach patience,\u201d he said. \u201cYou cannot hurry a root.\u201d When the sun climbed higher, they shared chai from a steel flask and watched sparrows hop between the bean poles. Ananya left with muddy shoes and a quiet feeling that the city still had pockets of green worth protecting.\n\nWhat does Mr. Fernandes mean by \u201cYou cannot hurry a root\u201d?",
     options: [
-      { id: "a", text: "Growth takes time and cannot be rushed" },
-      { id: "b", text: "Roots should be pulled quickly" },
+      { id: "a", text: "Roots should be pulled quickly" },
+      { id: "b", text: "Growth takes time and cannot be rushed" },
       { id: "c", text: "Gardens need no water" },
       { id: "d", text: "Bicycles damage plants" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "He is teaching patience \u2014 plants grow at their own pace.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -33,12 +33,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-reading-a-q03",
     prompt: "Every Saturday morning, Ananya wheeled her bicycle to the community garden behind the library. The soil there was dark and soft after the night\u2019s rain. She planted tomato seedlings in neat rows while her neighbour, Mr. Fernandes, watered the spinach beds. \u201cPlants teach patience,\u201d he said. \u201cYou cannot hurry a root.\u201d When the sun climbed higher, they shared chai from a steel flask and watched sparrows hop between the bean poles. Ananya left with muddy shoes and a quiet feeling that the city still had pockets of green worth protecting.\n\nWhich detail best supports that Ananya cares about green spaces?",
     options: [
-      { id: "a", text: "She leaves feeling the city still has green worth protecting" },
-      { id: "b", text: "She drinks chai" },
-      { id: "c", text: "Sparrows hop" },
+      { id: "a", text: "She drinks chai" },
+      { id: "b", text: "Sparrows hop" },
+      { id: "c", text: "She leaves feeling the city still has green worth protecting" },
       { id: "d", text: "It rained at night" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "The closing feeling shows her value for urban green pockets.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-reading-a-q04",
     prompt: "Every Saturday morning, Ananya wheeled her bicycle to the community garden behind the library. The soil there was dark and soft after the night\u2019s rain. She planted tomato seedlings in neat rows while her neighbour, Mr. Fernandes, watered the spinach beds. \u201cPlants teach patience,\u201d he said. \u201cYou cannot hurry a root.\u201d When the sun climbed higher, they shared chai from a steel flask and watched sparrows hop between the bean poles. Ananya left with muddy shoes and a quiet feeling that the city still had pockets of green worth protecting.\n\nThe word \u201cneat\u201d in \u201cneat rows\u201d most nearly means\u2026",
     options: [
-      { id: "a", text: "Orderly" },
-      { id: "b", text: "Messy" },
-      { id: "c", text: "Hidden" },
-      { id: "d", text: "Expensive" }
+      { id: "a", text: "Messy" },
+      { id: "b", text: "Hidden" },
+      { id: "c", text: "Expensive" },
+      { id: "d", text: "Orderly" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Neat rows are tidy and carefully arranged.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -72,12 +72,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-reading-a-q06",
     prompt: "Light pollution is not only an astronomer\u2019s problem. Streetlights that shine upward waste electricity and confuse migrating birds. In several Indian cities, volunteers have begun mapping the brightest blocks and asking shops to tilt or shield outdoor lamps. The change is often simple: aim light at the pavement, not the sky. Within weeks, residents reported seeing more stars from rooftops that once looked washed out. Small habits, multiplied across a neighbourhood, can reopen a window to the night.\n\nWhat is the central problem described?",
     options: [
-      { id: "a", text: "Light aimed upward wastes energy and harms wildlife" },
-      { id: "b", text: "Too many bridges" },
+      { id: "a", text: "Too many bridges" },
+      { id: "b", text: "Light aimed upward wastes energy and harms wildlife" },
       { id: "c", text: "Lack of chai shops" },
       { id: "d", text: "Missing libraries" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "The passage focuses on light pollution and its effects.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -85,12 +85,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-reading-a-q07",
     prompt: "Light pollution is not only an astronomer\u2019s problem. Streetlights that shine upward waste electricity and confuse migrating birds. In several Indian cities, volunteers have begun mapping the brightest blocks and asking shops to tilt or shield outdoor lamps. The change is often simple: aim light at the pavement, not the sky. Within weeks, residents reported seeing more stars from rooftops that once looked washed out. Small habits, multiplied across a neighbourhood, can reopen a window to the night.\n\nWhat simple fix do volunteers suggest?",
     options: [
-      { id: "a", text: "Aim outdoor lamps at the pavement, not the sky" },
-      { id: "b", text: "Turn off all electricity forever" },
-      { id: "c", text: "Ban bicycles" },
+      { id: "a", text: "Turn off all electricity forever" },
+      { id: "b", text: "Ban bicycles" },
+      { id: "c", text: "Aim outdoor lamps at the pavement, not the sky" },
       { id: "d", text: "Plant only spinach" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Shielding/tilting lamps toward the ground is the suggested change.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -98,12 +98,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-reading-a-q08",
     prompt: "Light pollution is not only an astronomer\u2019s problem. Streetlights that shine upward waste electricity and confuse migrating birds. In several Indian cities, volunteers have begun mapping the brightest blocks and asking shops to tilt or shield outdoor lamps. The change is often simple: aim light at the pavement, not the sky. Within weeks, residents reported seeing more stars from rooftops that once looked washed out. Small habits, multiplied across a neighbourhood, can reopen a window to the night.\n\nWhich result followed the changes?",
     options: [
-      { id: "a", text: "Residents saw more stars from rooftops" },
-      { id: "b", text: "Birds disappeared" },
-      { id: "c", text: "Shops closed" },
-      { id: "d", text: "Rain stopped" }
+      { id: "a", text: "Birds disappeared" },
+      { id: "b", text: "Shops closed" },
+      { id: "c", text: "Rain stopped" },
+      { id: "d", text: "Residents saw more stars from rooftops" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Residents reported seeing more stars once lights were adjusted.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -124,12 +124,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-reading-a-q10",
     prompt: "Light pollution is not only an astronomer\u2019s problem. Streetlights that shine upward waste electricity and confuse migrating birds. In several Indian cities, volunteers have begun mapping the brightest blocks and asking shops to tilt or shield outdoor lamps. The change is often simple: aim light at the pavement, not the sky. Within weeks, residents reported seeing more stars from rooftops that once looked washed out. Small habits, multiplied across a neighbourhood, can reopen a window to the night.\n\nThe author\u2019s tone is best described as\u2026",
     options: [
-      { id: "a", text: "Hopeful and practical" },
-      { id: "b", text: "Angry and hopeless" },
+      { id: "a", text: "Angry and hopeless" },
+      { id: "b", text: "Hopeful and practical" },
       { id: "c", text: "Comic only" },
       { id: "d", text: "Indifferent" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "The piece notes a problem but highlights simple, workable fixes.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-reading-a-q11",
     prompt: "The old ferry still crossed the river at dawn, though a new bridge stood nearby. Fishermen preferred the ferry because it left them closer to their nets. School children preferred the bridge because it was faster. Captain Leela never argued with either group. She simply kept the timetable, polished the railings, and told stories about the river\u2019s moods. \u201cA bridge is a line,\u201d she liked to say. \u201cA ferry is a conversation with water.\u201d\n\nWhy do fishermen prefer the ferry?",
     options: [
-      { id: "a", text: "It leaves them closer to their nets" },
-      { id: "b", text: "It is made of gold" },
-      { id: "c", text: "It is faster than the bridge" },
+      { id: "a", text: "It is made of gold" },
+      { id: "b", text: "It is faster than the bridge" },
+      { id: "c", text: "It leaves them closer to their nets" },
       { id: "d", text: "It has no captain" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "The passage states the ferry leaves them closer to their nets.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-reading-a-q12",
     prompt: "The old ferry still crossed the river at dawn, though a new bridge stood nearby. Fishermen preferred the ferry because it left them closer to their nets. School children preferred the bridge because it was faster. Captain Leela never argued with either group. She simply kept the timetable, polished the railings, and told stories about the river\u2019s moods. \u201cA bridge is a line,\u201d she liked to say. \u201cA ferry is a conversation with water.\u201d\n\nWhy do school children prefer the bridge?",
     options: [
-      { id: "a", text: "It is faster" },
-      { id: "b", text: "It tells stories" },
-      { id: "c", text: "It polishes railings" },
-      { id: "d", text: "It catches fish" }
+      { id: "a", text: "It tells stories" },
+      { id: "b", text: "It polishes railings" },
+      { id: "c", text: "It catches fish" },
+      { id: "d", text: "It is faster" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Children prefer the bridge because it is faster.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -176,12 +176,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-reading-a-q14",
     prompt: "The old ferry still crossed the river at dawn, though a new bridge stood nearby. Fishermen preferred the ferry because it left them closer to their nets. School children preferred the bridge because it was faster. Captain Leela never argued with either group. She simply kept the timetable, polished the railings, and told stories about the river\u2019s moods. \u201cA bridge is a line,\u201d she liked to say. \u201cA ferry is a conversation with water.\u201d\n\n\u201cA ferry is a conversation with water\u201d is an example of\u2026",
     options: [
-      { id: "a", text: "Metaphor" },
-      { id: "b", text: "Literal measurement" },
+      { id: "a", text: "Literal measurement" },
+      { id: "b", text: "Metaphor" },
       { id: "c", text: "A timetable" },
       { id: "d", text: "A weather report" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "A ferry is not literally a conversation; the image is figurative.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-reading-a-q15",
     prompt: "The old ferry still crossed the river at dawn, though a new bridge stood nearby. Fishermen preferred the ferry because it left them closer to their nets. School children preferred the bridge because it was faster. Captain Leela never argued with either group. She simply kept the timetable, polished the railings, and told stories about the river\u2019s moods. \u201cA bridge is a line,\u201d she liked to say. \u201cA ferry is a conversation with water.\u201d\n\nWhat does the contrast between bridge and ferry mainly highlight?",
     options: [
-      { id: "a", text: "Speed versus a slower, relational journey" },
-      { id: "b", text: "That bridges are useless" },
-      { id: "c", text: "That ferries are unsafe" },
+      { id: "a", text: "That bridges are useless" },
+      { id: "b", text: "That ferries are unsafe" },
+      { id: "c", text: "Speed versus a slower, relational journey" },
       { id: "d", text: "That children dislike water" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Bridge = line/speed; ferry = conversation \u2014 different relationships to travel.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-reading-a-q16",
     prompt: "Every Saturday morning, Ananya wheeled her bicycle to the community garden behind the library. The soil there was dark and soft after the night\u2019s rain. She planted tomato seedlings in neat rows while her neighbour, Mr. Fernandes, watered the spinach beds. \u201cPlants teach patience,\u201d he said. \u201cYou cannot hurry a root.\u201d When the sun climbed higher, they shared chai from a steel flask and watched sparrows hop between the bean poles. Ananya left with muddy shoes and a quiet feeling that the city still had pockets of green worth protecting.\n\nWhich inference is best supported?",
     options: [
-      { id: "a", text: "Ananya values both work and quiet appreciation of nature" },
-      { id: "b", text: "Ananya hates cities" },
-      { id: "c", text: "Mr. Fernandes dislikes plants" },
-      { id: "d", text: "The library banned gardens" }
+      { id: "a", text: "Ananya hates cities" },
+      { id: "b", text: "Mr. Fernandes dislikes plants" },
+      { id: "c", text: "The library banned gardens" },
+      { id: "d", text: "Ananya values both work and quiet appreciation of nature" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "She works carefully and leaves with a quiet protective feeling.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -228,12 +228,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-reading-a-q18",
     prompt: "The old ferry still crossed the river at dawn, though a new bridge stood nearby. Fishermen preferred the ferry because it left them closer to their nets. School children preferred the bridge because it was faster. Captain Leela never argued with either group. She simply kept the timetable, polished the railings, and told stories about the river\u2019s moods. \u201cA bridge is a line,\u201d she liked to say. \u201cA ferry is a conversation with water.\u201d\n\nWhat does Captain Leela keep doing regardless of preferences?",
     options: [
-      { id: "a", text: "Keeping the timetable and caring for the ferry" },
-      { id: "b", text: "Building a new bridge" },
+      { id: "a", text: "Building a new bridge" },
+      { id: "b", text: "Keeping the timetable and caring for the ferry" },
       { id: "c", text: "Closing the river" },
       { id: "d", text: "Arguing daily" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "She keeps the timetable, polishes railings, and tells stories.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -241,12 +241,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-reading-a-q19",
     prompt: "Every Saturday morning, Ananya wheeled her bicycle to the community garden behind the library. The soil there was dark and soft after the night\u2019s rain. She planted tomato seedlings in neat rows while her neighbour, Mr. Fernandes, watered the spinach beds. \u201cPlants teach patience,\u201d he said. \u201cYou cannot hurry a root.\u201d When the sun climbed higher, they shared chai from a steel flask and watched sparrows hop between the bean poles. Ananya left with muddy shoes and a quiet feeling that the city still had pockets of green worth protecting.\n\nThe sparrows mainly add\u2026",
     options: [
-      { id: "a", text: "A lively natural detail to the scene" },
-      { id: "b", text: "A warning about danger" },
-      { id: "c", text: "A reason to leave" },
+      { id: "a", text: "A warning about danger" },
+      { id: "b", text: "A reason to leave" },
+      { id: "c", text: "A lively natural detail to the scene" },
       { id: "d", text: "A maths problem" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Sparrows hopping among bean poles enrich the garden atmosphere.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -254,12 +254,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-reading-a-q20",
     prompt: "Light pollution is not only an astronomer\u2019s problem. Streetlights that shine upward waste electricity and confuse migrating birds. In several Indian cities, volunteers have begun mapping the brightest blocks and asking shops to tilt or shield outdoor lamps. The change is often simple: aim light at the pavement, not the sky. Within weeks, residents reported seeing more stars from rooftops that once looked washed out. Small habits, multiplied across a neighbourhood, can reopen a window to the night.\n\nWhich cause\u2013effect pair is accurate?",
     options: [
-      { id: "a", text: "Shielded lamps \u2192 more visible stars" },
-      { id: "b", text: "More stars \u2192 more light pollution" },
-      { id: "c", text: "Birds confuse lamps \u2192 more chai" },
-      { id: "d", text: "Mapping blocks \u2192 fewer bridges" }
+      { id: "a", text: "More stars \u2192 more light pollution" },
+      { id: "b", text: "Birds confuse lamps \u2192 more chai" },
+      { id: "c", text: "Mapping blocks \u2192 fewer bridges" },
+      { id: "d", text: "Shielded lamps \u2192 more visible stars" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Adjusting lamps reduces upward glare so stars become visible again.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -280,12 +280,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-reading-a-q22",
     prompt: "Every Saturday morning, Ananya wheeled her bicycle to the community garden behind the library. The soil there was dark and soft after the night\u2019s rain. She planted tomato seedlings in neat rows while her neighbour, Mr. Fernandes, watered the spinach beds. \u201cPlants teach patience,\u201d he said. \u201cYou cannot hurry a root.\u201d When the sun climbed higher, they shared chai from a steel flask and watched sparrows hop between the bean poles. Ananya left with muddy shoes and a quiet feeling that the city still had pockets of green worth protecting.\n\nWhat did Ananya plant?",
     options: [
-      { id: "a", text: "Tomato seedlings" },
-      { id: "b", text: "Only spinach" },
+      { id: "a", text: "Only spinach" },
+      { id: "b", text: "Tomato seedlings" },
       { id: "c", text: "Bean poles made of steel" },
       { id: "d", text: "Sparrows" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "She planted tomato seedlings in neat rows.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -293,12 +293,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-reading-a-q23",
     prompt: "Light pollution is not only an astronomer\u2019s problem. Streetlights that shine upward waste electricity and confuse migrating birds. In several Indian cities, volunteers have begun mapping the brightest blocks and asking shops to tilt or shield outdoor lamps. The change is often simple: aim light at the pavement, not the sky. Within weeks, residents reported seeing more stars from rooftops that once looked washed out. Small habits, multiplied across a neighbourhood, can reopen a window to the night.\n\nThe phrase \u201creopen a window to the night\u201d suggests\u2026",
     options: [
-      { id: "a", text: "Restoring access to a dark, starry sky" },
-      { id: "b", text: "Building glass windows" },
-      { id: "c", text: "Closing shops" },
+      { id: "a", text: "Building glass windows" },
+      { id: "b", text: "Closing shops" },
+      { id: "c", text: "Restoring access to a dark, starry sky" },
       { id: "d", text: "Stopping rain" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "It figuratively means people can see the night sky again.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -306,12 +306,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-eng-reading-a-q24",
     prompt: "The old ferry still crossed the river at dawn, though a new bridge stood nearby. Fishermen preferred the ferry because it left them closer to their nets. School children preferred the bridge because it was faster. Captain Leela never argued with either group. She simply kept the timetable, polished the railings, and told stories about the river\u2019s moods. \u201cA bridge is a line,\u201d she liked to say. \u201cA ferry is a conversation with water.\u201d\n\nWhich theme fits best?",
     options: [
-      { id: "a", text: "Different journeys can serve different needs" },
-      { id: "b", text: "Speed is the only value" },
-      { id: "c", text: "Stories are useless" },
-      { id: "d", text: "Bridges erase rivers" }
+      { id: "a", text: "Speed is the only value" },
+      { id: "b", text: "Stories are useless" },
+      { id: "c", text: "Bridges erase rivers" },
+      { id: "d", text: "Different journeys can serve different needs" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Fishermen and children choose differently; both needs coexist.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   }
@@ -335,12 +335,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-reading-b-q02",
     prompt: "Every Saturday morning, Ananya wheeled her bicycle to the community garden behind the library. The soil there was dark and soft after the night\u2019s rain. She planted tomato seedlings in neat rows while her neighbour, Mr. Fernandes, watered the spinach beds. \u201cPlants teach patience,\u201d he said. \u201cYou cannot hurry a root.\u201d When the sun climbed higher, they shared chai from a steel flask and watched sparrows hop between the bean poles. Ananya left with muddy shoes and a quiet feeling that the city still had pockets of green worth protecting.\n\nMr. Fernandes\u2019s role in the garden is mainly to\u2026",
     options: [
-      { id: "a", text: "Water the spinach and share wisdom" },
-      { id: "b", text: "Sell bicycles" },
+      { id: "a", text: "Sell bicycles" },
+      { id: "b", text: "Water the spinach and share wisdom" },
       { id: "c", text: "Close the library" },
       { id: "d", text: "Chase sparrows" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "He waters spinach and remarks on patience.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-reading-b-q03",
     prompt: "Every Saturday morning, Ananya wheeled her bicycle to the community garden behind the library. The soil there was dark and soft after the night\u2019s rain. She planted tomato seedlings in neat rows while her neighbour, Mr. Fernandes, watered the spinach beds. \u201cPlants teach patience,\u201d he said. \u201cYou cannot hurry a root.\u201d When the sun climbed higher, they shared chai from a steel flask and watched sparrows hop between the bean poles. Ananya left with muddy shoes and a quiet feeling that the city still had pockets of green worth protecting.\n\nWhat makes the soil \u201cdark and soft\u201d?",
     options: [
-      { id: "a", text: "The night\u2019s rain" },
-      { id: "b", text: "Chai spills" },
-      { id: "c", text: "Steel flasks" },
+      { id: "a", text: "Chai spills" },
+      { id: "b", text: "Steel flasks" },
+      { id: "c", text: "The night\u2019s rain" },
       { id: "d", text: "Bean poles" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "The soil was dark and soft after the night\u2019s rain.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-reading-b-q04",
     prompt: "Light pollution is not only an astronomer\u2019s problem. Streetlights that shine upward waste electricity and confuse migrating birds. In several Indian cities, volunteers have begun mapping the brightest blocks and asking shops to tilt or shield outdoor lamps. The change is often simple: aim light at the pavement, not the sky. Within weeks, residents reported seeing more stars from rooftops that once looked washed out. Small habits, multiplied across a neighbourhood, can reopen a window to the night.\n\nLight pollution wastes electricity when lamps\u2026",
     options: [
-      { id: "a", text: "Shine upward uselessly" },
-      { id: "b", text: "Are shielded toward the ground" },
-      { id: "c", text: "Are turned off" },
-      { id: "d", text: "Use timers correctly" }
+      { id: "a", text: "Are shielded toward the ground" },
+      { id: "b", text: "Are turned off" },
+      { id: "c", text: "Use timers correctly" },
+      { id: "d", text: "Shine upward uselessly" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Upward-shining streetlights waste electricity.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-reading-b-q06",
     prompt: "Light pollution is not only an astronomer\u2019s problem. Streetlights that shine upward waste electricity and confuse migrating birds. In several Indian cities, volunteers have begun mapping the brightest blocks and asking shops to tilt or shield outdoor lamps. The change is often simple: aim light at the pavement, not the sky. Within weeks, residents reported seeing more stars from rooftops that once looked washed out. Small habits, multiplied across a neighbourhood, can reopen a window to the night.\n\nThe passage suggests change is possible because\u2026",
     options: [
-      { id: "a", text: "Fixes are often simple and local" },
-      { id: "b", text: "Stars cannot return" },
+      { id: "a", text: "Stars cannot return" },
+      { id: "b", text: "Fixes are often simple and local" },
       { id: "c", text: "Only new laws abroad work" },
       { id: "d", text: "Mapping is impossible" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Simple lamp adjustments multiplied across a neighbourhood help.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-reading-b-q07",
     prompt: "The old ferry still crossed the river at dawn, though a new bridge stood nearby. Fishermen preferred the ferry because it left them closer to their nets. School children preferred the bridge because it was faster. Captain Leela never argued with either group. She simply kept the timetable, polished the railings, and told stories about the river\u2019s moods. \u201cA bridge is a line,\u201d she liked to say. \u201cA ferry is a conversation with water.\u201d\n\n\u201cA bridge is a line\u201d most nearly suggests the bridge is\u2026",
     options: [
-      { id: "a", text: "A direct, efficient path" },
-      { id: "b", text: "A talking captain" },
-      { id: "c", text: "A fishing net" },
+      { id: "a", text: "A talking captain" },
+      { id: "b", text: "A fishing net" },
+      { id: "c", text: "A direct, efficient path" },
       { id: "d", text: "A muddy garden" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Compared with the ferry\u2019s \u201cconversation,\u201d a line implies straight efficiency.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-reading-b-q08",
     prompt: "The old ferry still crossed the river at dawn, though a new bridge stood nearby. Fishermen preferred the ferry because it left them closer to their nets. School children preferred the bridge because it was faster. Captain Leela never argued with either group. She simply kept the timetable, polished the railings, and told stories about the river\u2019s moods. \u201cA bridge is a line,\u201d she liked to say. \u201cA ferry is a conversation with water.\u201d\n\nWhen does the ferry cross?",
     options: [
-      { id: "a", text: "At dawn" },
-      { id: "b", text: "Only at midnight" },
-      { id: "c", text: "Never" },
-      { id: "d", text: "After the library closes" }
+      { id: "a", text: "Only at midnight" },
+      { id: "b", text: "Never" },
+      { id: "c", text: "After the library closes" },
+      { id: "d", text: "At dawn" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "The old ferry still crossed the river at dawn.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -439,12 +439,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-reading-b-q10",
     prompt: "Every Saturday morning, Ananya wheeled her bicycle to the community garden behind the library. The soil there was dark and soft after the night\u2019s rain. She planted tomato seedlings in neat rows while her neighbour, Mr. Fernandes, watered the spinach beds. \u201cPlants teach patience,\u201d he said. \u201cYou cannot hurry a root.\u201d When the sun climbed higher, they shared chai from a steel flask and watched sparrows hop between the bean poles. Ananya left with muddy shoes and a quiet feeling that the city still had pockets of green worth protecting.\n\nAnanya arrives by\u2026",
     options: [
-      { id: "a", text: "Bicycle" },
-      { id: "b", text: "Ferry" },
+      { id: "a", text: "Ferry" },
+      { id: "b", text: "Bicycle" },
       { id: "c", text: "Bridge only" },
       { id: "d", text: "Submarine" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "She wheeled her bicycle to the garden.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -452,12 +452,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-reading-b-q11",
     prompt: "Light pollution is not only an astronomer\u2019s problem. Streetlights that shine upward waste electricity and confuse migrating birds. In several Indian cities, volunteers have begun mapping the brightest blocks and asking shops to tilt or shield outdoor lamps. The change is often simple: aim light at the pavement, not the sky. Within weeks, residents reported seeing more stars from rooftops that once looked washed out. Small habits, multiplied across a neighbourhood, can reopen a window to the night.\n\nWhich audience is the passage most trying to persuade?",
     options: [
-      { id: "a", text: "City residents and shop owners who can adjust lights" },
-      { id: "b", text: "Only deep-sea divers" },
-      { id: "c", text: "People without electricity" },
+      { id: "a", text: "Only deep-sea divers" },
+      { id: "b", text: "People without electricity" },
+      { id: "c", text: "City residents and shop owners who can adjust lights" },
       { id: "d", text: "Ferry passengers only" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "It asks shops to tilt lamps and notes neighbourhood habits.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -465,12 +465,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-reading-b-q12",
     prompt: "Every Saturday morning, Ananya wheeled her bicycle to the community garden behind the library. The soil there was dark and soft after the night\u2019s rain. She planted tomato seedlings in neat rows while her neighbour, Mr. Fernandes, watered the spinach beds. \u201cPlants teach patience,\u201d he said. \u201cYou cannot hurry a root.\u201d When the sun climbed higher, they shared chai from a steel flask and watched sparrows hop between the bean poles. Ananya left with muddy shoes and a quiet feeling that the city still had pockets of green worth protecting.\n\nWhich statement is an opinion expressed in the passage?",
     options: [
-      { id: "a", text: "Plants teach patience" },
-      { id: "b", text: "Ananya planted tomatoes" },
-      { id: "c", text: "It rained at night" },
-      { id: "d", text: "They shared chai" }
+      { id: "a", text: "Ananya planted tomatoes" },
+      { id: "b", text: "It rained at night" },
+      { id: "c", text: "They shared chai" },
+      { id: "d", text: "Plants teach patience" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "\u201cPlants teach patience\u201d is a spoken judgment, not a measurable fact.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -491,12 +491,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-reading-b-q14",
     prompt: "The old ferry still crossed the river at dawn, though a new bridge stood nearby. Fishermen preferred the ferry because it left them closer to their nets. School children preferred the bridge because it was faster. Captain Leela never argued with either group. She simply kept the timetable, polished the railings, and told stories about the river\u2019s moods. \u201cA bridge is a line,\u201d she liked to say. \u201cA ferry is a conversation with water.\u201d\n\nWhat remains true despite the new bridge?",
     options: [
-      { id: "a", text: "The ferry still runs at dawn" },
-      { id: "b", text: "Fishermen hate nets" },
+      { id: "a", text: "Fishermen hate nets" },
+      { id: "b", text: "The ferry still runs at dawn" },
       { id: "c", text: "Children fear bridges" },
       { id: "d", text: "The river disappeared" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Though a bridge stood nearby, the ferry still crossed at dawn.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -504,12 +504,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-reading-b-q15",
     prompt: "Every Saturday morning, Ananya wheeled her bicycle to the community garden behind the library. The soil there was dark and soft after the night\u2019s rain. She planted tomato seedlings in neat rows while her neighbour, Mr. Fernandes, watered the spinach beds. \u201cPlants teach patience,\u201d he said. \u201cYou cannot hurry a root.\u201d When the sun climbed higher, they shared chai from a steel flask and watched sparrows hop between the bean poles. Ananya left with muddy shoes and a quiet feeling that the city still had pockets of green worth protecting.\n\nThe steel flask mainly shows\u2026",
     options: [
-      { id: "a", text: "A realistic detail of their shared break" },
-      { id: "b", text: "That metal grows tomatoes" },
-      { id: "c", text: "A safety warning" },
+      { id: "a", text: "That metal grows tomatoes" },
+      { id: "b", text: "A safety warning" },
+      { id: "c", text: "A realistic detail of their shared break" },
       { id: "d", text: "A bus ticket" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "They share chai from a steel flask \u2014 a concrete scene detail.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -517,12 +517,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-reading-b-q16",
     prompt: "Light pollution is not only an astronomer\u2019s problem. Streetlights that shine upward waste electricity and confuse migrating birds. In several Indian cities, volunteers have begun mapping the brightest blocks and asking shops to tilt or shield outdoor lamps. The change is often simple: aim light at the pavement, not the sky. Within weeks, residents reported seeing more stars from rooftops that once looked washed out. Small habits, multiplied across a neighbourhood, can reopen a window to the night.\n\nWhich title best fits the passage?",
     options: [
-      { id: "a", text: "Reclaiming the Night Sky" },
-      { id: "b", text: "How to Build a Bridge" },
-      { id: "c", text: "Tomato Tips" },
-      { id: "d", text: "Ferry Timetables" }
+      { id: "a", text: "How to Build a Bridge" },
+      { id: "b", text: "Tomato Tips" },
+      { id: "c", text: "Ferry Timetables" },
+      { id: "d", text: "Reclaiming the Night Sky" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "The focus is reducing light pollution to see stars again.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -543,12 +543,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-reading-b-q18",
     prompt: "Every Saturday morning, Ananya wheeled her bicycle to the community garden behind the library. The soil there was dark and soft after the night\u2019s rain. She planted tomato seedlings in neat rows while her neighbour, Mr. Fernandes, watered the spinach beds. \u201cPlants teach patience,\u201d he said. \u201cYou cannot hurry a root.\u201d When the sun climbed higher, they shared chai from a steel flask and watched sparrows hop between the bean poles. Ananya left with muddy shoes and a quiet feeling that the city still had pockets of green worth protecting.\n\nSequence: which happens last?",
     options: [
-      { id: "a", text: "Ananya leaves with muddy shoes" },
-      { id: "b", text: "Night rain" },
+      { id: "a", text: "Night rain" },
+      { id: "b", text: "Ananya leaves with muddy shoes" },
       { id: "c", text: "Planting seedlings" },
       { id: "d", text: "Sharing chai" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Leaving with muddy shoes closes the scene.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -556,12 +556,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-reading-b-q19",
     prompt: "Light pollution is not only an astronomer\u2019s problem. Streetlights that shine upward waste electricity and confuse migrating birds. In several Indian cities, volunteers have begun mapping the brightest blocks and asking shops to tilt or shield outdoor lamps. The change is often simple: aim light at the pavement, not the sky. Within weeks, residents reported seeing more stars from rooftops that once looked washed out. Small habits, multiplied across a neighbourhood, can reopen a window to the night.\n\nWhich evidence shows the problem can reverse quickly?",
     options: [
-      { id: "a", text: "Residents saw more stars within weeks" },
-      { id: "b", text: "Birds never migrate" },
-      { id: "c", text: "Lamps cannot tilt" },
+      { id: "a", text: "Birds never migrate" },
+      { id: "b", text: "Lamps cannot tilt" },
+      { id: "c", text: "Residents saw more stars within weeks" },
       { id: "d", text: "Mapping takes centuries" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Within weeks, more stars were visible after adjustments.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -569,12 +569,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-reading-b-q20",
     prompt: "The old ferry still crossed the river at dawn, though a new bridge stood nearby. Fishermen preferred the ferry because it left them closer to their nets. School children preferred the bridge because it was faster. Captain Leela never argued with either group. She simply kept the timetable, polished the railings, and told stories about the river\u2019s moods. \u201cA bridge is a line,\u201d she liked to say. \u201cA ferry is a conversation with water.\u201d\n\nThe author\u2019s purpose is mainly to\u2026",
     options: [
-      { id: "a", text: "Show how different crossings serve different human needs" },
-      { id: "b", text: "Teach multiplication" },
-      { id: "c", text: "Ban ferries" },
-      { id: "d", text: "Sell bridges" }
+      { id: "a", text: "Teach multiplication" },
+      { id: "b", text: "Ban ferries" },
+      { id: "c", text: "Sell bridges" },
+      { id: "d", text: "Show how different crossings serve different human needs" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "The piece contrasts bridge and ferry without declaring one worthless.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -595,12 +595,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-reading-b-q22",
     prompt: "Light pollution is not only an astronomer\u2019s problem. Streetlights that shine upward waste electricity and confuse migrating birds. In several Indian cities, volunteers have begun mapping the brightest blocks and asking shops to tilt or shield outdoor lamps. The change is often simple: aim light at the pavement, not the sky. Within weeks, residents reported seeing more stars from rooftops that once looked washed out. Small habits, multiplied across a neighbourhood, can reopen a window to the night.\n\nAsking shops to shield lamps is an example of\u2026",
     options: [
-      { id: "a", text: "Community action" },
-      { id: "b", text: "Ignoring the problem" },
+      { id: "a", text: "Ignoring the problem" },
+      { id: "b", text: "Community action" },
       { id: "c", text: "Increasing glare" },
       { id: "d", text: "Closing the night sky" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Volunteers engage local shops \u2014 grassroots action.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -608,12 +608,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-reading-b-q23",
     prompt: "The old ferry still crossed the river at dawn, though a new bridge stood nearby. Fishermen preferred the ferry because it left them closer to their nets. School children preferred the bridge because it was faster. Captain Leela never argued with either group. She simply kept the timetable, polished the railings, and told stories about the river\u2019s moods. \u201cA bridge is a line,\u201d she liked to say. \u201cA ferry is a conversation with water.\u201d\n\nWhich contrast is central?",
     options: [
-      { id: "a", text: "Ferry vs bridge" },
-      { id: "b", text: "Tomato vs spinach" },
-      { id: "c", text: "Stars vs sparrows" },
+      { id: "a", text: "Tomato vs spinach" },
+      { id: "b", text: "Stars vs sparrows" },
+      { id: "c", text: "Ferry vs bridge" },
       { id: "d", text: "Rain vs chai" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "The passage turns on two ways of crossing the river.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -621,12 +621,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-eng-reading-b-q24",
     prompt: "Every Saturday morning, Ananya wheeled her bicycle to the community garden behind the library. The soil there was dark and soft after the night\u2019s rain. She planted tomato seedlings in neat rows while her neighbour, Mr. Fernandes, watered the spinach beds. \u201cPlants teach patience,\u201d he said. \u201cYou cannot hurry a root.\u201d When the sun climbed higher, they shared chai from a steel flask and watched sparrows hop between the bean poles. Ananya left with muddy shoes and a quiet feeling that the city still had pockets of green worth protecting.\n\nBest summary?",
     options: [
-      { id: "a", text: "Ananya and a neighbour tend a city garden and value patient green spaces" },
-      { id: "b", text: "Ananya builds a bridge" },
-      { id: "c", text: "Volunteers map streetlights" },
-      { id: "d", text: "A captain polishes railings" }
+      { id: "a", text: "Ananya builds a bridge" },
+      { id: "b", text: "Volunteers map streetlights" },
+      { id: "c", text: "A captain polishes railings" },
+      { id: "d", text: "Ananya and a neighbour tend a city garden and value patient green spaces" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Summary must cover garden work and the protective feeling.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   }

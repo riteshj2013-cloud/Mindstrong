@@ -37,31 +37,31 @@ D) Saprotrophs only
 ### Q2
 **Stem:** The process by which green plants make food is…
 **Options:**
-A) Photosynthesis
-B) Respiration only
+A) Respiration only
+B) Photosynthesis
 C) Transpiration only
 D) Digestion
-**Answer:** A
+**Answer:** B
 **Explanation:** Photosynthesis uses light to make food.
 
 ### Q3
 **Stem:** Which gas do plants take in for photosynthesis?
 **Options:**
-A) Carbon dioxide
-B) Nitrogen only
-C) Ozone
+A) Nitrogen only
+B) Ozone
+C) Carbon dioxide
 D) Helium
-**Answer:** A
+**Answer:** C
 **Explanation:** CO₂ is a raw material for photosynthesis.
 
 ### Q4
 **Stem:** Which gas is released as a by-product of photosynthesis?
 **Options:**
-A) Oxygen
-B) Nitrogen
-C) Carbon monoxide
-D) Argon
-**Answer:** A
+A) Nitrogen
+B) Carbon monoxide
+C) Argon
+D) Oxygen
+**Answer:** D
 **Explanation:** Oxygen is liberated when plants photosynthesise.
 
 ### Q5
@@ -77,31 +77,31 @@ D) Keratin
 ### Q6
 **Stem:** Where does photosynthesis mainly occur in a leaf?
 **Options:**
-A) Chloroplasts
-B) Mitochondria only
+A) Mitochondria only
+B) Chloroplasts
 C) Nucleus only
 D) Cell wall only
-**Answer:** A
+**Answer:** B
 **Explanation:** Chloroplasts contain chlorophyll for photosynthesis.
 
 ### Q7
 **Stem:** Organisms that depend on others for food are…
 **Options:**
-A) Heterotrophs
-B) Autotrophs
-C) Producers only
+A) Autotrophs
+B) Producers only
+C) Heterotrophs
 D) Chemosynthesisers only
-**Answer:** A
+**Answer:** C
 **Explanation:** Heterotrophs cannot make food; they consume it.
 
 ### Q8
 **Stem:** Fungi that feed on dead matter are…
 **Options:**
-A) Saprotrophs
-B) Parasites
-C) Autotrophs
-D) Herbivores
-**Answer:** A
+A) Parasites
+B) Autotrophs
+C) Herbivores
+D) Saprotrophs
+**Answer:** D
 **Explanation:** Saprotrophs secrete enzymes on dead organic matter and absorb nutrients.
 
 ### Q9
@@ -117,31 +117,31 @@ D) Insect only
 ### Q10
 **Stem:** Insectivorous plants like pitcher plant mainly capture insects to obtain…
 **Options:**
-A) Nitrogen nutrients
-B) Only sunlight
+A) Only sunlight
+B) Nitrogen nutrients
 C) Only carbon dioxide
 D) Only water vapour
-**Answer:** A
+**Answer:** B
 **Explanation:** They grow in nitrogen-poor soil and get nitrogen from insects.
 
 ### Q11
 **Stem:** Stomata on leaves mainly help in…
 **Options:**
-A) Gas exchange
-B) Making bones
-C) Pumping blood
+A) Making bones
+B) Pumping blood
+C) Gas exchange
 D) Hearing sound
-**Answer:** A
+**Answer:** C
 **Explanation:** Stomata allow CO₂ in and O₂/water vapour out.
 
 ### Q12
 **Stem:** Animals that eat only plants are…
 **Options:**
-A) Herbivores
-B) Carnivores
-C) Omnivores
-D) Parasites
-**Answer:** A
+A) Carnivores
+B) Omnivores
+C) Parasites
+D) Herbivores
+**Answer:** D
 **Explanation:** Herbivores feed on plants.
 
 ### Q13
@@ -157,31 +157,31 @@ D) Producers
 ### Q14
 **Stem:** The first step of nutrition in animals is usually…
 **Options:**
-A) Ingestion
-B) Egestion
+A) Egestion
+B) Ingestion
 C) Photosynthesis
 D) Transpiration
-**Answer:** A
+**Answer:** B
 **Explanation:** Ingestion means taking in food.
 
 ### Q15
 **Stem:** In humans, protein digestion begins mainly in the…
 **Options:**
-A) Stomach
-B) Mouth only
-C) Large intestine only
+A) Mouth only
+B) Large intestine only
+C) Stomach
 D) Nose
-**Answer:** A
+**Answer:** C
 **Explanation:** Gastric juices in the stomach start protein digestion.
 
 ### Q16
 **Stem:** Bile produced by the liver helps mainly to…
 **Options:**
-A) Emulsify fats
-B) Digest starch in the mouth
-C) Absorb oxygen
-D) Make chlorophyll
-**Answer:** A
+A) Digest starch in the mouth
+B) Absorb oxygen
+C) Make chlorophyll
+D) Emulsify fats
+**Answer:** D
 **Explanation:** Bile emulsifies fats for easier digestion.
 
 ### Q17
@@ -197,31 +197,31 @@ D) Leaf area
 ### Q18
 **Stem:** Carbohydrates are mainly used by the body for…
 **Options:**
-A) Energy
-B) Only building bones
+A) Only building bones
+B) Energy
 C) Only carrying oxygen in leaves
 D) Insulation alone
-**Answer:** A
+**Answer:** B
 **Explanation:** Carbohydrates are a primary energy source.
 
 ### Q19
 **Stem:** Iodine deficiency can lead to…
 **Options:**
-A) Goitre
-B) Scurvy
-C) Rickets only
+A) Scurvy
+B) Rickets only
+C) Goitre
 D) Night blindness only
-**Answer:** A
+**Answer:** C
 **Explanation:** Lack of iodine affects the thyroid and can cause goitre.
 
 ### Q20
 **Stem:** Vitamin C deficiency causes…
 **Options:**
-A) Scurvy
-B) Goitre
-C) Beriberi only
-D) Anaemia from iron only
-**Answer:** A
+A) Goitre
+B) Beriberi only
+C) Anaemia from iron only
+D) Scurvy
+**Answer:** D
 **Explanation:** Scurvy is linked to lack of vitamin C.
 
 ### Q21
@@ -237,31 +237,31 @@ D) Parasite
 ### Q22
 **Stem:** Rumination in cows involves…
 **Options:**
-A) Bringing back partly chewed food to chew again
-B) Photosynthesis in the stomach
+A) Photosynthesis in the stomach
+B) Bringing back partly chewed food to chew again
 C) Breathing underwater
 D) Making nectar
-**Answer:** A
+**Answer:** B
 **Explanation:** Ruminants chew the cud.
 
 ### Q23
 **Stem:** Amoeba takes in food using…
 **Options:**
-A) Pseudopodia
-B) Teeth
-C) Stomata
+A) Teeth
+B) Stomata
+C) Pseudopodia
 D) Gills
-**Answer:** A
+**Answer:** C
 **Explanation:** Pseudopodia surround food to form a food vacuole.
 
 ### Q24
 **Stem:** Which is a symbiotic nutrition example?
 **Options:**
-A) Lichen (alga + fungus)
-B) Tiger hunting deer
-C) Mushroom on dead log only
-D) Cuscuta on host only
-**Answer:** A
+A) Tiger hunting deer
+B) Mushroom on dead log only
+C) Cuscuta on host only
+D) Lichen (alga + fungus)
+**Answer:** D
 **Explanation:** In lichens, alga and fungus live together with mutual benefit.
 
 ## Quiz Set B
@@ -279,31 +279,31 @@ D) Soil only
 ### Q2
 **Stem:** The site of photosynthesis in plant cells is the…
 **Options:**
-A) Chloroplast
-B) Ribosome
+A) Ribosome
+B) Chloroplast
 C) Vacuole only
 D) Cell wall
-**Answer:** A
+**Answer:** B
 **Explanation:** Chloroplasts house the photosynthetic machinery.
 
 ### Q3
 **Stem:** Heterotrophic nutrition means…
 **Options:**
-A) Depending on other organisms for food
-B) Making food with sunlight only
-C) Living without energy
+A) Making food with sunlight only
+B) Living without energy
+C) Depending on other organisms for food
 D) Breathing nitrogen only
-**Answer:** A
+**Answer:** C
 **Explanation:** Heterotrophs obtain ready-made food.
 
 ### Q4
 **Stem:** Pitcher plant is green, yet it traps insects mainly because…
 **Options:**
-A) Soil lacks enough nitrogen
-B) It cannot photosynthesise at all
-C) It needs no water
-D) It is a fungus
-**Answer:** A
+A) It cannot photosynthesise at all
+B) It needs no water
+C) It is a fungus
+D) Soil lacks enough nitrogen
+**Answer:** D
 **Explanation:** It still photosynthesises but supplements nitrogen from insects.
 
 ### Q5
@@ -319,31 +319,31 @@ D) Magnetic energy
 ### Q6
 **Stem:** Starch in leaves can be tested with…
 **Options:**
-A) Iodine solution
-B) Limewater only
+A) Limewater only
+B) Iodine solution
 C) Phenolphthalein only
 D) Copper sulphate only for starch
-**Answer:** A
+**Answer:** B
 **Explanation:** Iodine turns blue-black with starch.
 
 ### Q7
 **Stem:** Parasitic nutrition harms the…
 **Options:**
-A) Host
-B) Only the parasite never
-C) Soil only
+A) Only the parasite never
+B) Soil only
+C) Host
 D) Sun only
-**Answer:** A
+**Answer:** C
 **Explanation:** Parasites derive nutrition from a living host, often harming it.
 
 ### Q8
 **Stem:** In human digestion, starch digestion begins in the…
 **Options:**
-A) Mouth
-B) Stomach only
-C) Large intestine
-D) Liver
-**Answer:** A
+A) Stomach only
+B) Large intestine
+C) Liver
+D) Mouth
+**Answer:** D
 **Explanation:** Salivary amylase starts breaking down starch.
 
 ### Q9
@@ -359,31 +359,31 @@ D) Stomata
 ### Q10
 **Stem:** Proteins are broken down into…
 **Options:**
-A) Amino acids
-B) Glucose only
+A) Glucose only
+B) Amino acids
 C) Fatty acids only
 D) Vitamins
-**Answer:** A
+**Answer:** B
 **Explanation:** Proteins digest to amino acids.
 
 ### Q11
 **Stem:** Fats are broken down into…
 **Options:**
-A) Fatty acids and glycerol
-B) Amino acids
-C) Glucose only
+A) Amino acids
+B) Glucose only
+C) Fatty acids and glycerol
 D) Starch
-**Answer:** A
+**Answer:** C
 **Explanation:** Fat digestion yields fatty acids and glycerol.
 
 ### Q12
 **Stem:** A balanced diet should include…
 **Options:**
-A) Carbohydrates, proteins, fats, vitamins, minerals, fibre and water
-B) Only sugar
-C) Only fat
-D) Only vitamins
-**Answer:** A
+A) Only sugar
+B) Only fat
+C) Only vitamins
+D) Carbohydrates, proteins, fats, vitamins, minerals, fibre and water
+**Answer:** D
 **Explanation:** All nutrient classes matter in balance.
 
 ### Q13
@@ -399,31 +399,31 @@ D) Iodine
 ### Q14
 **Stem:** Rickets is associated with deficiency of…
 **Options:**
-A) Vitamin D (and related calcium issues)
-B) Vitamin C only
+A) Vitamin C only
+B) Vitamin D (and related calcium issues)
 C) Iodine only
 D) Vitamin K only as sole cause named here
-**Answer:** A
+**Answer:** B
 **Explanation:** Vitamin D helps calcium use for bones; deficiency relates to rickets.
 
 ### Q15
 **Stem:** Decomposers in a food chain…
 **Options:**
-A) Break down dead matter and recycle nutrients
-B) Make food from sunlight
-C) Only eat living lions
+A) Make food from sunlight
+B) Only eat living lions
+C) Break down dead matter and recycle nutrients
 D) Stop all cycles
-**Answer:** A
+**Answer:** C
 **Explanation:** Bacteria and fungi recycle materials.
 
 ### Q16
 **Stem:** Holozoic nutrition involves…
 **Options:**
-A) Ingesting and digesting solid food internally
-B) Absorbing only from dead logs as fungi do
-C) Photosynthesis
-D) Parasitism only
-**Answer:** A
+A) Absorbing only from dead logs as fungi do
+B) Photosynthesis
+C) Parasitism only
+D) Ingesting and digesting solid food internally
+**Answer:** D
 **Explanation:** Humans and many animals show holozoic nutrition.
 
 ### Q17
@@ -439,31 +439,31 @@ D) Pigment
 ### Q18
 **Stem:** Leaves appear green because chlorophyll…
 **Options:**
-A) Reflects green light more than it absorbs it
-B) Produces green paint
+A) Produces green paint
+B) Reflects green light more than it absorbs it
 C) Absorbs only green and reflects all else always wrongly stated
 D) Turns into iodine
-**Answer:** A
+**Answer:** B
 **Explanation:** Chlorophyll absorbs other wavelengths more and reflects green.
 
 ### Q19
 **Stem:** A food web is…
 **Options:**
-A) Many interlinked food chains
-B) A single straight chain only
-C) Only producers
+A) A single straight chain only
+B) Only producers
+C) Many interlinked food chains
 D) A vitamin chart
-**Answer:** A
+**Answer:** C
 **Explanation:** Real ecosystems have interconnected chains forming webs.
 
 ### Q20
 **Stem:** Saliva contains an enzyme that acts on…
 **Options:**
-A) Starch
-B) Fats only
-C) Proteins only
-D) Vitamins
-**Answer:** A
+A) Fats only
+B) Proteins only
+C) Vitamins
+D) Starch
+**Answer:** D
 **Explanation:** Salivary amylase acts on starch.
 
 ### Q21
@@ -479,29 +479,29 @@ D) Nerves
 ### Q22
 **Stem:** Food (sugar) is transported in plants mainly through…
 **Options:**
-A) Phloem
-B) Xylem only
+A) Xylem only
+B) Phloem
 C) Stomata only
 D) Root hairs only
-**Answer:** A
+**Answer:** B
 **Explanation:** Phloem transports food.
 
 ### Q23
 **Stem:** Which mode of nutrition does a mushroom show?
 **Options:**
-A) Saprotrophic
-B) Autotrophic photosynthesis like leaves
-C) Holozoic chewing
+A) Autotrophic photosynthesis like leaves
+B) Holozoic chewing
+C) Saprotrophic
 D) Parasitic on sunlight
-**Answer:** A
+**Answer:** C
 **Explanation:** Mushrooms feed on dead organic matter.
 
 ### Q24
 **Stem:** Why are green plants called producers?
 **Options:**
-A) They produce food that supports other organisms
-B) They produce only oxygen for sale
-C) They produce soil rocks
-D) They produce consumers
-**Answer:** A
+A) They produce only oxygen for sale
+B) They produce soil rocks
+C) They produce consumers
+D) They produce food that supports other organisms
+**Answer:** D
 **Explanation:** Producers synthesise organic food from inorganic materials.

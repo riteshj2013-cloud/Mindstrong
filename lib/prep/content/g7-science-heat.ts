@@ -20,12 +20,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-heat-a-q02",
     prompt: "Temperature measures\u2026",
     options: [
-      { id: "a", text: "How hot or cold something is" },
-      { id: "b", text: "Only mass" },
+      { id: "a", text: "Only mass" },
+      { id: "b", text: "How hot or cold something is" },
       { id: "c", text: "Only volume" },
       { id: "d", text: "Only colour" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Temperature indicates degree of hotness.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -33,12 +33,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-heat-a-q03",
     prompt: "SI unit of temperature commonly used in science labs is\u2026",
     options: [
-      { id: "a", text: "Kelvin (K), with Celsius also widely used" },
-      { id: "b", text: "Kilogram" },
-      { id: "c", text: "Newton" },
+      { id: "a", text: "Kilogram" },
+      { id: "b", text: "Newton" },
+      { id: "c", text: "Kelvin (K), with Celsius also widely used" },
       { id: "d", text: "Pascal only" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Kelvin is the SI unit; Celsius is common in labs.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-heat-a-q04",
     prompt: "On the Celsius scale, water freezes at\u2026",
     options: [
-      { id: "a", text: "0 \u00b0C" },
-      { id: "b", text: "100 \u00b0C" },
-      { id: "c", text: "32 \u00b0C" },
-      { id: "d", text: "273 \u00b0C" }
+      { id: "a", text: "100 \u00b0C" },
+      { id: "b", text: "32 \u00b0C" },
+      { id: "c", text: "273 \u00b0C" },
+      { id: "d", text: "0 \u00b0C" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Ice melts / water freezes at 0 \u00b0C under standard conditions.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -72,12 +72,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-heat-a-q06",
     prompt: "A clinical thermometer is designed mainly to measure\u2026",
     options: [
-      { id: "a", text: "Human body temperature" },
-      { id: "b", text: "Boiling lava" },
+      { id: "a", text: "Boiling lava" },
+      { id: "b", text: "Human body temperature" },
       { id: "c", text: "Outer space" },
       { id: "d", text: "Furnace steel" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Clinical thermometers cover a narrow range around body temperature.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -85,12 +85,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-heat-a-q07",
     prompt: "Transfer of heat in solids without bulk movement of particles is mainly\u2026",
     options: [
-      { id: "a", text: "Conduction" },
-      { id: "b", text: "Convection" },
-      { id: "c", text: "Radiation only" },
+      { id: "a", text: "Convection" },
+      { id: "b", text: "Radiation only" },
+      { id: "c", text: "Conduction" },
       { id: "d", text: "Evaporation" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Conduction passes heat through particle collisions in solids.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -98,12 +98,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-heat-a-q08",
     prompt: "Heat transfer by movement of a fluid is\u2026",
     options: [
-      { id: "a", text: "Convection" },
-      { id: "b", text: "Conduction only" },
-      { id: "c", text: "Reflection" },
-      { id: "d", text: "Condensation" }
+      { id: "a", text: "Conduction only" },
+      { id: "b", text: "Reflection" },
+      { id: "c", text: "Condensation" },
+      { id: "d", text: "Convection" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Warm fluid rises and cooler fluid sinks \u2014 convection currents.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -124,12 +124,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-heat-a-q10",
     prompt: "Metals are usually ____ conductors of heat.",
     options: [
-      { id: "a", text: "Good" },
-      { id: "b", text: "Poor" },
+      { id: "a", text: "Poor" },
+      { id: "b", text: "Good" },
       { id: "c", text: "Non" },
       { id: "d", text: "Variable as insulators always" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Metals conduct heat well.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-heat-a-q11",
     prompt: "Wood and plastic are often used as handles because they are\u2026",
     options: [
-      { id: "a", text: "Poor conductors (insulators)" },
-      { id: "b", text: "Best conductors" },
-      { id: "c", text: "Sources of heat" },
+      { id: "a", text: "Best conductors" },
+      { id: "b", text: "Sources of heat" },
+      { id: "c", text: "Poor conductors (insulators)" },
       { id: "d", text: "Magnetic" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Insulators reduce heat flow to the hand.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-heat-a-q12",
     prompt: "Land breeze occurs mainly\u2026",
     options: [
-      { id: "a", text: "At night when land cools faster than sea" },
-      { id: "b", text: "Only at noon always" },
-      { id: "c", text: "Only in space" },
-      { id: "d", text: "When there is no air" }
+      { id: "a", text: "Only at noon always" },
+      { id: "b", text: "Only in space" },
+      { id: "c", text: "When there is no air" },
+      { id: "d", text: "At night when land cools faster than sea" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "At night, cooler land air moves toward warmer sea \u2014 land breeze.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -176,12 +176,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-heat-a-q14",
     prompt: "Dark, dull surfaces are generally ____ absorbers of radiation.",
     options: [
-      { id: "a", text: "Good" },
-      { id: "b", text: "Poor" },
+      { id: "a", text: "Poor" },
+      { id: "b", text: "Good" },
       { id: "c", text: "Perfect reflectors always" },
       { id: "d", text: "Transparent always" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Dark dull surfaces absorb (and emit) radiation well.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-heat-a-q15",
     prompt: "Shiny, polished surfaces are generally ____ reflectors of radiation.",
     options: [
-      { id: "a", text: "Good" },
-      { id: "b", text: "Poor" },
-      { id: "c", text: "Perfect absorbers always" },
+      { id: "a", text: "Poor" },
+      { id: "b", text: "Perfect absorbers always" },
+      { id: "c", text: "Good" },
       { id: "d", text: "Heat sources" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Shiny surfaces reflect radiant heat.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-heat-a-q16",
     prompt: "In a thermos flask, the vacuum mainly reduces heat transfer by\u2026",
     options: [
-      { id: "a", text: "Conduction and convection" },
-      { id: "b", text: "Radiation only completely alone" },
-      { id: "c", text: "Sound" },
-      { id: "d", text: "Magnetism" }
+      { id: "a", text: "Radiation only completely alone" },
+      { id: "b", text: "Sound" },
+      { id: "c", text: "Magnetism" },
+      { id: "d", text: "Conduction and convection" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "No medium means little conduction/convection; silvering reduces radiation.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -228,12 +228,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-heat-a-q18",
     prompt: "Evaporation causes cooling because\u2026",
     options: [
-      { id: "a", text: "Faster particles leave, lowering average energy of the rest" },
-      { id: "b", text: "Heat is created from nothing" },
+      { id: "a", text: "Heat is created from nothing" },
+      { id: "b", text: "Faster particles leave, lowering average energy of the rest" },
       { id: "c", text: "Mass increases temperature" },
       { id: "d", text: "Light turns into ice" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Higher-energy molecules escape; remaining liquid cools.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -241,12 +241,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-heat-a-q19",
     prompt: "Which expands more for the same rise in temperature (generally)?",
     options: [
-      { id: "a", text: "Gases" },
-      { id: "b", text: "Solids always more than gases" },
-      { id: "c", text: "Nothing expands" },
+      { id: "a", text: "Solids always more than gases" },
+      { id: "b", text: "Nothing expands" },
+      { id: "c", text: "Gases" },
       { id: "d", text: "Only colours" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Gases expand more than liquids, which expand more than solids (typically).",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -254,12 +254,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-heat-a-q20",
     prompt: "Gaps left between railway tracks help with\u2026",
     options: [
-      { id: "a", text: "Thermal expansion of rails" },
-      { id: "b", text: "Magnetic trains only" },
-      { id: "c", text: "Cooling tea" },
-      { id: "d", text: "Soundproofing only" }
+      { id: "a", text: "Magnetic trains only" },
+      { id: "b", text: "Cooling tea" },
+      { id: "c", text: "Soundproofing only" },
+      { id: "d", text: "Thermal expansion of rails" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Rails expand on hot days; gaps prevent buckling.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -280,12 +280,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-heat-a-q22",
     prompt: "Heat flows spontaneously from\u2026",
     options: [
-      { id: "a", text: "Hotter to colder body" },
-      { id: "b", text: "Colder to hotter always" },
+      { id: "a", text: "Colder to hotter always" },
+      { id: "b", text: "Hotter to colder body" },
       { id: "c", text: "Only upward" },
       { id: "d", text: "Only in metals never in air" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Net heat flows from higher to lower temperature.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -293,12 +293,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-heat-a-q23",
     prompt: "Wearing light-coloured clothes in summer helps because they\u2026",
     options: [
-      { id: "a", text: "Absorb less radiant heat" },
-      { id: "b", text: "Absorb more heat always" },
-      { id: "c", text: "Block all oxygen" },
+      { id: "a", text: "Absorb more heat always" },
+      { id: "b", text: "Block all oxygen" },
+      { id: "c", text: "Absorb less radiant heat" },
       { id: "d", text: "Create convection in bones" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Light colours reflect more sunlight.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -306,12 +306,12 @@ const SET_A: PrepQuestion[] = [
     id: "g7-sci-heat-a-q24",
     prompt: "The range of a laboratory thermometer is typically wider than a clinical one because\u2026",
     options: [
-      { id: "a", text: "It measures many substances, not just body temperature" },
-      { id: "b", text: "It only measures body heat" },
-      { id: "c", text: "It cannot show 0 \u00b0C" },
-      { id: "d", text: "It uses no scale" }
+      { id: "a", text: "It only measures body heat" },
+      { id: "b", text: "It cannot show 0 \u00b0C" },
+      { id: "c", text: "It uses no scale" },
+      { id: "d", text: "It measures many substances, not just body temperature" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Lab thermometers cover broader temperature ranges.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
@@ -335,12 +335,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-heat-b-q02",
     prompt: "Convection currents in air explain\u2026",
     options: [
-      { id: "a", text: "Why warm air rises near a heater" },
-      { id: "b", text: "Why metals are shiny" },
+      { id: "a", text: "Why metals are shiny" },
+      { id: "b", text: "Why warm air rises near a heater" },
       { id: "c", text: "Why ice is solid" },
       { id: "d", text: "Why light needs wires" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Heated air expands, becomes less dense, and rises.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-heat-b-q03",
     prompt: "We feel heat from a fire even to the side mainly by\u2026",
     options: [
-      { id: "a", text: "Radiation" },
-      { id: "b", text: "Only conduction through air as a solid" },
-      { id: "c", text: "Only convection downward always" },
+      { id: "a", text: "Only conduction through air as a solid" },
+      { id: "b", text: "Only convection downward always" },
+      { id: "c", text: "Radiation" },
       { id: "d", text: "Magnetism" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Radiant heat travels in straight lines from the fire.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-heat-b-q04",
     prompt: "Woollen clothes keep us warm because wool\u2026",
     options: [
-      { id: "a", text: "Traps air, which is a poor conductor" },
-      { id: "b", text: "Is a metal conductor" },
-      { id: "c", text: "Produces its own flame" },
-      { id: "d", text: "Removes all body heat instantly" }
+      { id: "a", text: "Is a metal conductor" },
+      { id: "b", text: "Produces its own flame" },
+      { id: "c", text: "Removes all body heat instantly" },
+      { id: "d", text: "Traps air, which is a poor conductor" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Trapped air reduces heat loss from the body.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-heat-b-q06",
     prompt: "Digital thermometers often use\u2026",
     options: [
-      { id: "a", text: "Electronic sensors instead of mercury" },
-      { id: "b", text: "Only mercury columns" },
+      { id: "a", text: "Only mercury columns" },
+      { id: "b", text: "Electronic sensors instead of mercury" },
       { id: "c", text: "Only alcohol for space" },
       { id: "d", text: "No scale at all" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Many modern thermometers are digital/electronic.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-heat-b-q07",
     prompt: "When a metal lid stuck on a glass jar is heated gently, it loosens because metal\u2026",
     options: [
-      { id: "a", text: "Expands more than glass typically" },
-      { id: "b", text: "Shrinks always" },
-      { id: "c", text: "Turns to gas" },
+      { id: "a", text: "Shrinks always" },
+      { id: "b", text: "Turns to gas" },
+      { id: "c", text: "Expands more than glass typically" },
       { id: "d", text: "Becomes wood" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Greater expansion of the metal lid frees it.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-heat-b-q08",
     prompt: "Boiling involves\u2026",
     options: [
-      { id: "a", text: "Rapid vaporisation throughout the liquid at a fixed temperature (at given pressure)" },
-      { id: "b", text: "Only surface evaporation below boiling point as the same thing" },
-      { id: "c", text: "Freezing" },
-      { id: "d", text: "Melting of ice only" }
+      { id: "a", text: "Only surface evaporation below boiling point as the same thing" },
+      { id: "b", text: "Freezing" },
+      { id: "c", text: "Melting of ice only" },
+      { id: "d", text: "Rapid vaporisation throughout the liquid at a fixed temperature (at given pressure)" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Boiling is bulk vaporisation at the boiling point.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -439,12 +439,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-heat-b-q10",
     prompt: "Which factor increases the rate of evaporation?",
     options: [
-      { id: "a", text: "Higher temperature / wind / larger surface area" },
-      { id: "b", text: "Lower temperature always" },
+      { id: "a", text: "Lower temperature always" },
+      { id: "b", text: "Higher temperature / wind / larger surface area" },
       { id: "c", text: "Still humid air with no wind and tiny area always" },
       { id: "d", text: "Freezing the liquid" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Warmth, wind, and surface area speed evaporation.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -452,12 +452,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-heat-b-q11",
     prompt: "The mercury in a thermometer rises when heated because mercury\u2026",
     options: [
-      { id: "a", text: "Expands" },
-      { id: "b", text: "Contracts always" },
-      { id: "c", text: "Disappears" },
+      { id: "a", text: "Contracts always" },
+      { id: "b", text: "Disappears" },
+      { id: "c", text: "Expands" },
       { id: "d", text: "Turns into wood" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Thermal expansion of mercury moves the column up the scale.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -465,12 +465,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-heat-b-q12",
     prompt: "A clinical thermometer should not be sterilised in boiling water because\u2026",
     options: [
-      { id: "a", text: "Its upper range is below boiling point of water; it may break" },
-      { id: "b", text: "It measures only ice" },
-      { id: "c", text: "Boiling water is too cold" },
-      { id: "d", text: "It has no glass" }
+      { id: "a", text: "It measures only ice" },
+      { id: "b", text: "Boiling water is too cold" },
+      { id: "c", text: "It has no glass" },
+      { id: "d", text: "Its upper range is below boiling point of water; it may break" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Typical clinical upper limit is around 42 \u00b0C, far below 100 \u00b0C.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -491,12 +491,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-heat-b-q14",
     prompt: "The Sun\u2019s heat reaches Earth primarily by\u2026",
     options: [
-      { id: "a", text: "Radiation" },
-      { id: "b", text: "Conduction through space air" },
+      { id: "a", text: "Conduction through space air" },
+      { id: "b", text: "Radiation" },
       { id: "c", text: "Convection currents in vacuum" },
       { id: "d", text: "Sound waves" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Space is nearly vacuum; radiation carries solar energy.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -504,12 +504,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-heat-b-q15",
     prompt: "In SI thinking, a temperature change of 1 \u00b0C equals a change of\u2026",
     options: [
-      { id: "a", text: "1 K" },
-      { id: "b", text: "10 K" },
-      { id: "c", text: "100 K" },
+      { id: "a", text: "10 K" },
+      { id: "b", text: "100 K" },
+      { id: "c", text: "1 K" },
       { id: "d", text: "273 K" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Celsius and Kelvin degrees are the same size.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -517,12 +517,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-heat-b-q16",
     prompt: "0 \u00b0C equals how many kelvin (approximately)?",
     options: [
-      { id: "a", text: "273 K" },
-      { id: "b", text: "100 K" },
-      { id: "c", text: "0 K" },
-      { id: "d", text: "373 K" }
+      { id: "a", text: "100 K" },
+      { id: "b", text: "0 K" },
+      { id: "c", text: "373 K" },
+      { id: "d", text: "273 K" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "T(K) \u2248 t(\u00b0C) + 273.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -543,12 +543,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-heat-b-q18",
     prompt: "Heat capacity ideas: for the same heat input, a larger mass of water shows\u2026",
     options: [
-      { id: "a", text: "A smaller temperature rise" },
-      { id: "b", text: "An always larger rise" },
+      { id: "a", text: "An always larger rise" },
+      { id: "b", text: "A smaller temperature rise" },
       { id: "c", text: "No effect of mass" },
       { id: "d", text: "Instant boiling always" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "More mass needs more heat for the same \u0394T.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -556,12 +556,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-heat-b-q19",
     prompt: "Cooking pots often have copper/aluminium bottoms because metals\u2026",
     options: [
-      { id: "a", text: "Conduct heat well to the food" },
-      { id: "b", text: "Insulate perfectly" },
-      { id: "c", text: "Stay cold always" },
+      { id: "a", text: "Insulate perfectly" },
+      { id: "b", text: "Stay cold always" },
+      { id: "c", text: "Conduct heat well to the food" },
       { id: "d", text: "Block all heat" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Good conductors spread heat evenly for cooking.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -569,12 +569,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-heat-b-q20",
     prompt: "The kink in a clinical thermometer is near the\u2026",
     options: [
-      { id: "a", text: "Bulb" },
-      { id: "b", text: "Top tip only" },
-      { id: "c", text: "Digital screen" },
-      { id: "d", text: "Battery" }
+      { id: "a", text: "Top tip only" },
+      { id: "b", text: "Digital screen" },
+      { id: "c", text: "Battery" },
+      { id: "d", text: "Bulb" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Constriction is just above the bulb.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -595,12 +595,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-heat-b-q22",
     prompt: "In convection, warmer fluid rises because it becomes\u2026",
     options: [
-      { id: "a", text: "Less dense" },
-      { id: "b", text: "More dense always" },
+      { id: "a", text: "More dense always" },
+      { id: "b", text: "Less dense" },
       { id: "c", text: "Solid" },
       { id: "d", text: "Magnetic" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Heating expands fluid, lowering density so it rises.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -608,12 +608,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-heat-b-q23",
     prompt: "A wire gauze on a Bunsen burner helps\u2026",
     options: [
-      { id: "a", text: "Spread heat for even heating of glassware" },
-      { id: "b", text: "Cool the flame to ice" },
-      { id: "c", text: "Remove oxygen" },
+      { id: "a", text: "Cool the flame to ice" },
+      { id: "b", text: "Remove oxygen" },
+      { id: "c", text: "Spread heat for even heating of glassware" },
       { id: "d", text: "Measure mass" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "It distributes heat under a beaker.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -621,12 +621,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-heat-b-q24",
     prompt: "Which is a poor conductor of heat?",
     options: [
-      { id: "a", text: "Air" },
-      { id: "b", text: "Iron" },
-      { id: "c", text: "Copper" },
-      { id: "d", text: "Aluminium" }
+      { id: "a", text: "Iron" },
+      { id: "b", text: "Copper" },
+      { id: "c", text: "Aluminium" },
+      { id: "d", text: "Air" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Air is a good insulator when trapped.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
@@ -666,12 +666,12 @@ const lesson: ChapterDef["lesson"] = [
     title: "Quick try",
     prompt: "Heat transfer that needs no medium?",
     options: [
-        { id: "a", text: "Radiation" },
-        { id: "b", text: "Conduction" },
+        { id: "a", text: "Conduction" },
+        { id: "b", text: "Radiation" },
         { id: "c", text: "Convection" },
         { id: "d", text: "Osmosis" }
     ],
-    answerId: "a",
+    answerId: "b",
     why: "Radiation can travel through vacuum.",
     visual: "water-cycle",
     speak: "Heat transfer that needs no medium?",
