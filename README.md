@@ -103,7 +103,7 @@ Screenshots (mobile 430×900):
 
 A prep grade unlocks when **each** of maths, english, and science has ≥1 **authored**
 chapter (sets with real `questions[]`). Scaffold-only `ch()` entries and empty catalog
-slots (`[]` for G1/G2/G10 until writers land content) stay “coming soon”.
+slots (`[]` for G10 until writers land content) stay “coming soon”.
 See `gradesWithContent()` in `lib/prep/grades.ts`.
 
 ## Pictorial MCQs (SOF-style figures)
@@ -112,6 +112,8 @@ Quiz items support optional stem/option `figure` specs. Writer `**Diagram (SVG):
 ingest-sanitized and rendered as **original in-app SVG** (no copyrighted SOF scans).
 
 **Live pictorial (≈9 of 24 MCQs per set = 18 of 48 per chapter, unless noted):**
+- **G1** Maths (Numbers · Add · Shapes) · English (Letters & Words · Reading Pictures · Simple Grammar) · Science (Plants · Animals · My Body) — olympiad-lite **16+16** per chapter
+- **G2** Maths (Place Value · Add & Subtract · Time & Money) · English (Reading · Grammar · Words) · Science (Plants · Animals · Air & Water) — olympiad-lite **16+16** per chapter
 - **G3 Science** Ch1 Plant Parts · Ch2 Animals Food & Homes · Ch3 Sense Organs (inline SVG)
 - **G3 English** Ch1 Synonyms · Ch2 Antonyms · Ch3 Grammar Basics (authored Set A/B)
 - **G3 Maths** Ch1 Numbers (pictorial addendum) · Ch2 Add & Subtract (authored; pictorial later) · Ch3 Multiply Basics (authored; pictorial later)

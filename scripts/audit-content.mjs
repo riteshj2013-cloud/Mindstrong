@@ -63,6 +63,37 @@ const plans = jiti(path.join(ROOT, "lib/plans.ts"));
 ALLOW.add(plans.SOF_DISCLAIMER);
 walk(plans, "plans");
 
+/** G1/G2 olympiad-lite: authored sets must be at least 16 MCQs; every READY grade needs 9 chapters. */
+const grades = jiti(path.join(ROOT, "lib/prep/grades.ts"));
+for (const g of grades.READY_GRADES) {
+  let chapterTotal = 0;
+  for (const s of types.ALL_SUBJECTS) {
+    const pack = catalog.getPrepPack(s, g);
+    chapterTotal += pack.chapters.length;
+    if (g <= 2) {
+      for (const c of pack.chapters) {
+        for (const set of c.sets) {
+          const n = set.questions?.length ?? 0;
+          if (n < 16) {
+            findings.push({
+              rule: "set-size",
+              where: `${s}-g${g}.${c.id}.${set.id}`,
+              text: `${n} authored MCQs (G1/G2 olympiad-lite min 16)`,
+            });
+          }
+        }
+      }
+    }
+  }
+  if (chapterTotal < 9) {
+    findings.push({
+      rule: "grade-coverage",
+      where: `READY_GRADES g${g}`,
+      text: `${chapterTotal} chapters across subjects (need 9 for full unlock)`,
+    });
+  }
+}
+
 const seen = new Set();
 const uniq = findings.filter((f) => { const k = f.rule + f.text; if (seen.has(k)) return false; seen.add(k); return true; });
 for (const f of uniq) console.log(`${f.rule.padEnd(18)} ${f.where}\n    ${f.text}`);
