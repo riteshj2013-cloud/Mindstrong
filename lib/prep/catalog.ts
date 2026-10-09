@@ -17,6 +17,8 @@ import { g4MathsDataHandling } from "./content/g4-maths-data-handling";
 import { g4EnglishReading } from "./content/g4-english-reading";
 import { g4EnglishGrammar } from "./content/g4-english-grammar";
 import { g4EnglishWords } from "./content/g4-english-words";
+import { g4EnglishSpoken } from "./content/g4-english-spoken";
+import { g4EnglishWriting } from "./content/g4-english-writing";
 import { g4ScienceFood } from "./content/g4-science-food";
 import { g4ScienceMatter } from "./content/g4-science-matter";
 import { g4ScienceWater } from "./content/g4-science-water";
@@ -653,6 +655,8 @@ const ENGLISH: Record<number, ChapterDef[]> = {
     g4EnglishReading,
     g4EnglishGrammar,
     g4EnglishWords,
+    g4EnglishSpoken,
+    g4EnglishWriting,
   ],
   5: [
     g5EnglishDetective,

@@ -10,6 +10,8 @@ export { g4MathsDataHandling } from "./g4-maths-data-handling";
 export { g4EnglishReading } from "./g4-english-reading";
 export { g4EnglishGrammar } from "./g4-english-grammar";
 export { g4EnglishWords } from "./g4-english-words";
+export { g4EnglishSpoken } from "./g4-english-spoken";
+export { g4EnglishWriting } from "./g4-english-writing";
 export { g4ScienceFood } from "./g4-science-food";
 export { g4ScienceMatter } from "./g4-science-matter";
 export { g4ScienceWater } from "./g4-science-water";
