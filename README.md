@@ -20,6 +20,18 @@ Open [http://localhost:3000](http://localhost:3000).
 npm run build && npm start   # production
 ```
 
+### Android & iOS (Capacitor)
+
+Native shells live in `android/` and `ios/`. Full guide: [`docs/mobile.md`](docs/mobile.md).
+
+```bash
+npm run mobile:sync            # build root-path web + sync both platforms
+npm run mobile:open:android    # Android Studio
+npm run mobile:open:ios        # Xcode (macOS)
+```
+
+Live web (GitHub Pages): https://riteshj2013-cloud.github.io/Mindstrong/
+
 ## What’s playable
 
 **Age bands** map to Monday packs:
