@@ -3,9 +3,11 @@
 **Date:** 2026-10-09  
 **Branch:** `cursor/quality-full-audit-9d2a` (base `main`)  
 **Reviewer:** Quality Reviewer  
-**Verdict:** **PASS WITH NOTES**
+**Verdict:** **PASS WITH NOTES** (historical audit; blockers below were fixed in follow-up PRs #33–#35)
 
-Infrastructure, unlocks, daily packs, audits, typecheck, and build are green. Content volume matches the G1–10 unlock brief. Serious answer-key integrity issues in **Grades 7 and 10** (and severe skew elsewhere) need writer follow-up before those grades are treated as exam-ready.
+Infrastructure, unlocks, daily packs, audits, typecheck, and build are green. Content volume matches the G1–10 unlock brief.
+
+**Post-audit fixes landed on `main`:** G7/G10 answer keys rebalanced to 6A/6B/6C/6D; G4 `story-spotters` stem leaks cleaned; G6 + extreme G1/G2 skew rebalanced. Re-run Quality Reviewer to republish a clean PASS. Full store/content gate: [`docs/qualification.md`](qualification.md).
 
 ---
 
