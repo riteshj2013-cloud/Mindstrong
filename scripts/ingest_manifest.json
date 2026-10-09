@@ -49,6 +49,24 @@
   ],
   [
     "maths",
+    4,
+    "g4MathsMeasurement",
+    "g4-maths-measurement"
+  ],
+  [
+    "maths",
+    4,
+    "g4MathsGeometry",
+    "g4-maths-geometry"
+  ],
+  [
+    "maths",
+    4,
+    "g4MathsDataHandling",
+    "g4-maths-data-handling"
+  ],
+  [
+    "maths",
     5,
     "g5MathsAngles",
     "g5-maths-angles"
