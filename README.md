@@ -40,10 +40,12 @@ npm run build && npm start   # production
 4. **Hard try** — `47 → 57 → 67 → __` (+10). Hints locked until **I tried**  
 5. **Reflect** — what felt hard / what you tried  
 
-Only Monday packs are written so far. On Tuesday–Sunday the app serves **fresh, unseen
-Monday-pack items** (via the no-repeat history in `lib/completed.ts`) and says so honestly:
-“Fresh picks from the Monday pack · More daily packs coming soon” (`todayPackInfo()` in
-`lib/content/index.ts`).
+**Olympiad-style prep grades** (`READY_GRADES` in `lib/prep/grades.ts`): **3, 4, 5, 8, 9**.
+Grade 9 ships 9 chapters (Maths · English · Science) with lesson + Set A/B (24+24 MCQs each) — **432** items.
+
+Daily packs: Monday–Wednesday packs exist for the age bands. On days without a dedicated pack
+the app serves **fresh, unseen** items from an earlier weekday pack (via `lib/completed.ts`)
+and says so honestly (`todayPackInfo()` in `lib/content/index.ts`).
 
 ## Routes
 
@@ -101,7 +103,7 @@ Screenshots (mobile 430×900):
 
 A prep grade unlocks when **each** of maths, english, and science has ≥1 **authored**
 chapter (sets with real `questions[]`). Scaffold-only `ch()` entries and empty catalog
-slots (`[]` for G1/G2/G6/G7/G9/G10 until writers land content) stay “coming soon”.
+slots (`[]` for G1/G2/G10 until writers land content) stay “coming soon”.
 See `gradesWithContent()` in `lib/prep/grades.ts`.
 
 ## Pictorial MCQs (SOF-style figures)
@@ -124,6 +126,8 @@ ingest-sanitized and rendered as **original in-app SVG** (no copyrighted SOF sca
 - **G6 Maths** Ch1 Integers · Ch2 Fractions & Decimals · Ch3 Basic Geometry (authored Set A/B)
 - **G6 English** Ch1 Reading Comprehension · Ch2 Grammar · Ch3 Vocabulary (authored Set A/B)
 - **G6 Science** Ch1 Food & Nutrition · Ch2 Fibre to Fabric · Ch3 Sorting Materials (authored Set A/B)
+- **G8** Maths · English · Science — 9 authored chapters (24+24 each)
+- **G9** Maths (Number Systems · Polynomials · Coordinate Geometry) · English (Literature · Grammar · Writing/Vocab) · Science (Matter · Cell/Tissues · Motion) — 9 authored chapters (24+24 each; sources in `docs/sof-source/grade-9/`)
 
 Writers: `docs/sof-source/FIGURE-SPEC.md`.
 
