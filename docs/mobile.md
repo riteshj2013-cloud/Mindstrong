@@ -57,13 +57,17 @@ Then **Run** on an emulator / simulator / device from the IDE.
 
 Do **not** sync a Pages build (`/Mindstrong` assets) into Capacitor — deep links and chunks will 404 inside the WebView.
 
-## Store release (next steps for you)
+## Store release
+
+Full **Play + App Store + content** qualification checklist: [`docs/qualification.md`](qualification.md).
+
+Short version:
 
 1. Replace default Capacitor icons / splash (`android/app/src/main/res`, `ios/App/App/Assets.xcassets`).
 2. Create Play Console + App Store Connect listings (age rating 6+, education).
-3. Android: generate a release keystore; configure `android/app/build.gradle` signing.
-4. iOS: set Team + Bundle ID in Xcode; enable signing.
-5. Optional later: Capacitor plugins (Status Bar, Splash Screen, Push, Keyboard), Firebase Auth deep links for mobile.
+3. Android: generate a release keystore; build a signed `.aab`.
+4. iOS: set Team in Xcode; Archive → TestFlight → App Review.
+5. Optional later: Status Bar / Splash / Push plugins, Firebase Auth deep links.
 
 ## Live web (unchanged)
 

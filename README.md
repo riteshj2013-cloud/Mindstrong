@@ -32,6 +32,8 @@ npm run mobile:open:ios        # Xcode (macOS)
 
 Live web (GitHub Pages): https://riteshj2013-cloud.github.io/Mindstrong/
 
+**Qualification (content + Play + App Store):** [`docs/qualification.md`](docs/qualification.md)
+
 ## What’s playable
 
 **Age bands** map to Monday packs:
