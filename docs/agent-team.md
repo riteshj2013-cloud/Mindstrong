@@ -41,6 +41,12 @@ Each ready grade aims for **≥3 chapters per subject** (Maths / English / Scien
 4. Checks: `audit-content.mjs`, `check-boilerplate-hints.mjs`.
 5. ₹ not `$`; no SOF/IMO/IEO/NSO branding in kid-facing copy.
 6. Cloud Agents use **Cursor** usage (not Grok Bot weekly).
+1. English Writer — G3 **Antonyms** authored pack (Synonyms already on `main`)
+2. Maths Writer — G3 **Add & Subtract** authored pack
+3. Daily Coach — **Wednesday** packs for all five age bands
+4. UI Tester — smoke home / prep / Tuesday session on deployed or local build
+5. English Writer (next) — G3 Grammar; Maths Writer (next) — G3 Multiply
+6. **Done (G10 Author):** Grade 10 full pack — 3 Maths + 3 English + 3 Science (432 MCQs); `READY_GRADES` includes 10
 
 ## Kickoff template
 

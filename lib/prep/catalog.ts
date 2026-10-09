@@ -691,7 +691,11 @@ const MATHS: Record<number, ChapterDef[]> = {
     g9MathsPolynomials,
     g9MathsCoordinate,
   ],
-  10: [], // placeholder — Maths Writer
+  10: [
+    g10MathsRealNumbers,
+    g10MathsPolynomials,
+    g10MathsLinearPair,
+  ],
 };
 
 const ENGLISH: Record<number, ChapterDef[]> = {
@@ -738,7 +742,11 @@ const ENGLISH: Record<number, ChapterDef[]> = {
     g9EnglishGrammar,
     g9EnglishWords,
   ],
-  10: [], // placeholder — English Writer
+  10: [
+    g10EnglishLiterature,
+    g10EnglishGrammar,
+    g10EnglishWriting,
+  ],
 };
 
 const SCIENCE: Record<number, ChapterDef[]> = {
@@ -788,7 +796,11 @@ const SCIENCE: Record<number, ChapterDef[]> = {
     g9ScienceCell,
     g9ScienceMotion,
   ],
-  10: [], // placeholder — Science Writer
+  10: [
+    g10ScienceChemReactions,
+    g10ScienceLifeProcesses,
+    g10ScienceLight,
+  ],
 };
 
 /** True when a chapter has at least one set with real authored MCQs (not `ch()` scaffolds). */

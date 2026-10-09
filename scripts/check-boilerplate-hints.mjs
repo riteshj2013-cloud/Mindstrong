@@ -48,7 +48,7 @@ function loadOverlays() {
 
 function parseContentQuestions() {
   const dir = path.join(root, "lib/prep/content");
-  const QID = /^\s+id:\s*"(g\d-[a-z]+-[a-z0-9-]+-[abc]-q\d+)"/gm;
+  const QID = /^\s+id:\s*"(g\d+-[a-z]+-[a-z0-9-]+-[abc]-q\d+)"/gm;
   const out = [];
   for (const f of fs.readdirSync(dir).filter((n) => n.endsWith(".ts") && n !== "index.ts")) {
     const text = fs.readFileSync(path.join(dir, f), "utf8");
