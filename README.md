@@ -121,6 +121,9 @@ ingest-sanitized and rendered as **original in-app SVG** (no copyrighted SOF sca
 - **G7 Maths** Ch1 Integers · Ch2 Simple Equations · Ch3 Lines & Angles (lesson + 24+24 each)
 - **G7 English** Ch1 Reading · Ch2 Grammar · Ch3 Words/Vocab (lesson + 24+24 each)
 - **G7 Science** Ch1 Nutrition in Plants/Animals · Ch2 Heat · Ch3 Acids, Bases & Salts (lesson + 24+24 each)
+- **G6 Maths** Ch1 Integers · Ch2 Fractions & Decimals · Ch3 Basic Geometry (authored Set A/B)
+- **G6 English** Ch1 Reading Comprehension · Ch2 Grammar · Ch3 Vocabulary (authored Set A/B)
+- **G6 Science** Ch1 Food & Nutrition · Ch2 Fibre to Fabric · Ch3 Sorting Materials (authored Set A/B)
 
 Writers: `docs/sof-source/FIGURE-SPEC.md`.
 

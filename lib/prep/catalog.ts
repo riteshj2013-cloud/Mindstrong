@@ -68,6 +68,15 @@ import { g8EnglishGrammar } from "./content/g8-english-grammar";
 import { g8EnglishWords } from "./content/g8-english-words";
 import { g8EnglishSpoken } from "./content/g8-english-spoken";
 import { g8EnglishWriting } from "./content/g8-english-writing";
+import { g6MathsIntegers } from "./content/g6-maths-integers";
+import { g6MathsFractionsDecimals } from "./content/g6-maths-fractions-decimals";
+import { g6MathsGeometry } from "./content/g6-maths-geometry";
+import { g6EnglishComprehension } from "./content/g6-english-comprehension";
+import { g6EnglishGrammar } from "./content/g6-english-grammar";
+import { g6EnglishVocabulary } from "./content/g6-english-vocabulary";
+import { g6ScienceFood } from "./content/g6-science-food";
+import { g6ScienceFibre } from "./content/g6-science-fibre";
+import { g6ScienceSeparation } from "./content/g6-science-separation";
 
 function sets(topics: [string, string][]): ChapterDef["sets"] {
   return topics.map(([id, topic], i) => ({
@@ -632,7 +641,11 @@ const MATHS: Record<number, ChapterDef[]> = {
     g5MathsMeasurement,
     g5MathsData,
   ],
-  6: [], // placeholder — Maths Writer
+  6: [
+    g6MathsIntegers,
+    g6MathsFractionsDecimals,
+    g6MathsGeometry,
+  ],
   7: [
     g7MathsIntegers,
     g7MathsEquations,
@@ -672,7 +685,11 @@ const ENGLISH: Record<number, ChapterDef[]> = {
     g5EnglishSpoken,
     g5EnglishWriting,
   ],
-  6: [], // placeholder — English Writer
+  6: [
+    g6EnglishComprehension,
+    g6EnglishGrammar,
+    g6EnglishVocabulary,
+  ],
   7: [
     g7EnglishReading,
     g7EnglishGrammar,
@@ -713,7 +730,11 @@ const SCIENCE: Record<number, ChapterDef[]> = {
     g5ScienceForce,
     g5ScienceEnvironment,
   ],
-  6: [], // placeholder — Science Writer
+  6: [
+    g6ScienceFood,
+    g6ScienceFibre,
+    g6ScienceSeparation,
+  ],
   7: [
     g7ScienceNutrition,
     g7ScienceHeat,
