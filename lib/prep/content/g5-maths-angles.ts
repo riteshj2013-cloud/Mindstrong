@@ -87,7 +87,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-maths-angles-a-q07",
-    prompt: "Look at Read the angle. What **type** of angle is shown?",
+    prompt: "Look at the angle. What **type** of angle is shown?",
     options: [
       { id: "a", text: "Obtuse" },
       { id: "b", text: "Straight" },
@@ -329,7 +329,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g5-maths-angles-b-q01",
-    prompt: "Look at Read the angle. What **type** of angle is shown?",
+    prompt: "Look at the angle. What **type** of angle is shown?",
     options: [
       { id: "a", text: "Acute" },
       { id: "b", text: "Right" },

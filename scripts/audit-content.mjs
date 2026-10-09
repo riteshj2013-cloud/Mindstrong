@@ -22,6 +22,8 @@ const RULES = [
   ["meta", /(^|\n)\s*\**Meta\**\s*:?\s*(\n|$)/],
   ["marker-id", /\bmarkers? (?:ids?|named)\b|uniquely named marker/i],
   ["dollar", /\$\s?\d|\d\s?\$|\bdollars?\b|\bUSD\b|\bcents?\b/i],
+  // Pictorial ingest sometimes concatenates "Look at " + figure title → "Look at Read the …"
+  ["look-at-read", /\bLook at Read\b/],
 ];
 
 const findings = [];

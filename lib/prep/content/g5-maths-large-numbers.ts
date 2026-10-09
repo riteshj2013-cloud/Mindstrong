@@ -383,7 +383,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-large-b-q05",
-    prompt: "Look at Read the Scale. All ticks are equally spaced. What number is at point **P**?",
+    prompt: "Look at the scale. All ticks are equally spaced. What number is at point **P**?",
     options: [
       { id: "a", text: "3,10,000" },
       { id: "b", text: "3,00,000" },
