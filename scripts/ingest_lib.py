@@ -93,6 +93,52 @@ def assert_no_leak(q: dict) -> None:
 def letter_id(L: str) -> str:
     return L.lower()
 
+
+def balance_set(qs: list) -> list:
+    """Rotate option order so a set is as even as possible across A/B/C/D.
+
+    Preserves which option *text* is correct (and any option figures); only
+    changes slot + answerId. For 24-item sets this yields exactly 6/6/6/6.
+    """
+    if not qs:
+        return qs
+    letters = "abcd"
+    n = len(qs)
+    base, rem = divmod(n, 4)
+    targets = []
+    for i, L in enumerate(letters):
+        targets.extend([L] * (base + (1 if i < rem else 0)))
+    # Interleave a,b,c,d so kids don't get long runs of the same letter.
+    interleaved: list[str] = []
+    bag = {L: targets.count(L) for L in letters}
+    while len(interleaved) < n:
+        for L in letters:
+            if bag[L] > 0:
+                interleaved.append(L)
+                bag[L] -= 1
+    out = []
+    for q, target in zip(qs, interleaved):
+        opts = list(q["options"])
+        by_id = {o["id"]: o for o in opts}
+        ans = q["answerId"]
+        correct = by_id[ans]
+        rest = [o for o in opts if o["id"] != ans]
+        new_opts = [None] * 4
+        ti = letters.index(target)
+        new_opts[ti] = {**correct, "id": target}
+        r = 0
+        for j, L in enumerate(letters):
+            if new_opts[j] is None:
+                new_opts[j] = {**rest[r], "id": L}
+                r += 1
+        out.append({**q, "options": new_opts, "answerId": target})
+    counts = {L: sum(1 for q in out if q["answerId"] == L) for L in letters}
+    expected = {L: base + (1 if i < rem else 0) for i, L in enumerate(letters)}
+    if counts != expected:
+        raise SystemExit("balance_set failed: got %s expected %s" % (counts, expected))
+    return out
+
+
 def q_to_ts(q: dict) -> str:
     clean_question(q)
     assert_no_leak(q)
@@ -463,14 +509,14 @@ def science_sets(md: str, prefix: str):
     b_rest = md.split("## Quiz Set B")[1]
     b_rest = re.split(r"\n## (?!#)", b_rest)[0]  # stop before Answer Key / notes
     b = parse_science_quiz(b_rest, prefix, "b")
-    return a, b
+    return balance_set(a), balance_set(b)
 
 def maths_sets(md: str, prefix: str):
     md = strip_editorial_sections(md)
     rest = md.split("## Practice Set A")[1]
     a_block, b_rest = rest.split("## Practice Set B")
     b_block = b_rest.split("## Answer Key")[0] if "## Answer Key" in b_rest else b_rest
-    return parse_maths_quiz(a_block, prefix, "a"), parse_maths_quiz(b_block, prefix, "b")
+    return balance_set(parse_maths_quiz(a_block, prefix, "a")), balance_set(parse_maths_quiz(b_block, prefix, "b"))
 
 def eng_sets(md: str, prefix: str, base_dir: Path | None = None):
     md = strip_editorial_sections(md)
@@ -488,7 +534,7 @@ def eng_sets(md: str, prefix: str, base_dir: Path | None = None):
     set_b = re.split(r"\n## Visual spec\b", set_b)[0]
     a = parse_english_quiz(set_a, passages, prefix, "a", base_dir, passage_figs)
     b = parse_english_quiz(set_b, passages, prefix, "b", base_dir, passage_figs)
-    return a, b
+    return balance_set(a), balance_set(b)
 
 def lesson_ts(title, emoji, visual, speak, cards, try_q, bullets):
     cards_ts = ",\n".join(

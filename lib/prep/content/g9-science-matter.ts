@@ -322,12 +322,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q01",
     prompt: "Particles of matter are…",
     options: [
-      { id: "a", text: "visible easily always as separate dots to the eye" },
-      { id: "b", text: "extremely small" },
-      { id: "c", text: "never in motion" },
-      { id: "d", text: "without spaces between them" }
+      { id: "a", text: "extremely small" },
+      { id: "b", text: "never in motion" },
+      { id: "c", text: "without spaces between them" },
+      { id: "d", text: "visible easily always as separate dots to the eye" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Particles are too small to see individually; they move and have spaces.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q04",
     prompt: "Steam at 100°C causes more severe burns than water at 100°C mainly because steam…",
     options: [
-      { id: "a", text: "has lower temperature" },
-      { id: "b", text: "carries latent heat of vaporisation released on condensation" },
-      { id: "c", text: "is denser than water" },
-      { id: "d", text: "has no energy" }
+      { id: "a", text: "is denser than water" },
+      { id: "b", text: "has no energy" },
+      { id: "c", text: "has lower temperature" },
+      { id: "d", text: "carries latent heat of vaporisation released on condensation" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Condensing steam releases latent heat in addition to cooling.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q07",
     prompt: "A liquid’s boiling point depends on…",
     options: [
-      { id: "a", text: "colour only" },
-      { id: "b", text: "external pressure" },
-      { id: "c", text: "only the container’s brand" },
-      { id: "d", text: "magnetism only" }
+      { id: "a", text: "magnetism only" },
+      { id: "b", text: "colour only" },
+      { id: "c", text: "external pressure" },
+      { id: "d", text: "only the container’s brand" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Lower pressure → lower boiling point (e.g., on mountains).",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q08",
     prompt: "Which statement is true?",
     options: [
-      { id: "a", text: "Gases have definite shape" },
-      { id: "b", text: "Solids are highly compressible" },
-      { id: "c", text: "Liquids flow and take container shape" },
-      { id: "d", text: "Particles in solids never vibrate" }
+      { id: "a", text: "Particles in solids never vibrate" },
+      { id: "b", text: "Gases have definite shape" },
+      { id: "c", text: "Solids are highly compressible" },
+      { id: "d", text: "Liquids flow and take container shape" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Liquids flow; solids vibrate about fixed positions; gases lack definite shape.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -426,12 +426,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q09",
     prompt: "Sponge is compressible though solid because…",
     options: [
-      { id: "a", text: "it has no particles" },
-      { id: "b", text: "it has tiny holes filled with air" },
-      { id: "c", text: "it is a liquid" },
-      { id: "d", text: "it is a gas" }
+      { id: "a", text: "it has tiny holes filled with air" },
+      { id: "b", text: "it is a liquid" },
+      { id: "c", text: "it is a gas" },
+      { id: "d", text: "it has no particles" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Air pockets compress; the material itself is solid.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -452,12 +452,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q11",
     prompt: "Kelvin scale starts at…",
     options: [
-      { id: "a", text: "0°C" },
-      { id: "b", text: "absolute zero (−273°C approx.)" },
-      { id: "c", text: "100°C" },
-      { id: "d", text: "32°F only" }
+      { id: "a", text: "32°F only" },
+      { id: "b", text: "0°C" },
+      { id: "c", text: "absolute zero (−273°C approx.)" },
+      { id: "d", text: "100°C" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "0 K is absolute zero ≈ −273°C.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -465,12 +465,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q12",
     prompt: "Which change is physical?",
     options: [
-      { id: "a", text: "burning paper" },
-      { id: "b", text: "rusting iron" },
-      { id: "c", text: "melting wax" },
-      { id: "d", text: "digesting food" }
+      { id: "a", text: "digesting food" },
+      { id: "b", text: "burning paper" },
+      { id: "c", text: "rusting iron" },
+      { id: "d", text: "melting wax" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Melting wax changes state, not chemical identity.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -491,12 +491,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q14",
     prompt: "The force of attraction between particles is weakest in…",
     options: [
-      { id: "a", text: "solids" },
-      { id: "b", text: "liquids" },
-      { id: "c", text: "gases" },
-      { id: "d", text: "ice only" }
+      { id: "a", text: "liquids" },
+      { id: "b", text: "gases" },
+      { id: "c", text: "ice only" },
+      { id: "d", text: "solids" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Gas particles interact least strongly.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -504,12 +504,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q15",
     prompt: "At the melting point, solid and liquid…",
     options: [
-      { id: "a", text: "cannot coexist" },
-      { id: "b", text: "can coexist in equilibrium" },
-      { id: "c", text: "must both be gases" },
-      { id: "d", text: "have zero mass" }
+      { id: "a", text: "have zero mass" },
+      { id: "b", text: "cannot coexist" },
+      { id: "c", text: "can coexist in equilibrium" },
+      { id: "d", text: "must both be gases" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "During melting, both phases can be present at the melting temperature.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -530,12 +530,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q17",
     prompt: "Ice floats on water because…",
     options: [
-      { id: "a", text: "ice is denser" },
-      { id: "b", text: "ice is less dense than liquid water" },
-      { id: "c", text: "ice has no mass" },
-      { id: "d", text: "water has no particles" }
+      { id: "a", text: "ice is less dense than liquid water" },
+      { id: "b", text: "ice has no mass" },
+      { id: "c", text: "water has no particles" },
+      { id: "d", text: "ice is denser" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Open structure of ice makes it less dense than water.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -556,12 +556,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q19",
     prompt: "Intermixing of particles of two different types of matter on their own is…",
     options: [
-      { id: "a", text: "diffusion" },
-      { id: "b", text: "sedimentation" },
-      { id: "c", text: "filtration" },
-      { id: "d", text: "distillation always" }
+      { id: "a", text: "filtration" },
+      { id: "b", text: "distillation always" },
+      { id: "c", text: "diffusion" },
+      { id: "d", text: "sedimentation" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Diffusion is spontaneous mixing of particles.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -569,12 +569,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q20",
     prompt: "To convert 25°C to kelvin…",
     options: [
-      { id: "a", text: "subtract 273" },
-      { id: "b", text: "add 273" },
-      { id: "c", text: "multiply by 273" },
-      { id: "d", text: "divide by 273" }
+      { id: "a", text: "multiply by 273" },
+      { id: "b", text: "divide by 273" },
+      { id: "c", text: "subtract 273" },
+      { id: "d", text: "add 273" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "K ≈ °C + 273 → 298 K.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -582,12 +582,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q21",
     prompt: "Which best explains why liquids can be poured?",
     options: [
-      { id: "a", text: "particles are fixed in place rigidly" },
-      { id: "b", text: "particles can move past one another while staying close" },
-      { id: "c", text: "particles are infinitely far apart" },
-      { id: "d", text: "there are no forces at all" }
+      { id: "a", text: "particles can move past one another while staying close" },
+      { id: "b", text: "particles are infinitely far apart" },
+      { id: "c", text: "there are no forces at all" },
+      { id: "d", text: "particles are fixed in place rigidly" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Liquid particles move/slide while cohesive enough to keep volume.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -608,12 +608,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q23",
     prompt: "Heat required to change 1 kg of solid to liquid at melting point is called…",
     options: [
-      { id: "a", text: "latent heat of fusion" },
-      { id: "b", text: "latent heat of vaporisation" },
-      { id: "c", text: "specific heat only" },
-      { id: "d", text: "solar constant" }
+      { id: "a", text: "specific heat only" },
+      { id: "b", text: "solar constant" },
+      { id: "c", text: "latent heat of fusion" },
+      { id: "d", text: "latent heat of vaporisation" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Latent heat of fusion is for solid ↔ liquid.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -621,12 +621,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q24",
     prompt: "Matter around us exists mainly in…",
     options: [
-      { id: "a", text: "one state only" },
-      { id: "b", text: "three common states: solid, liquid, gas" },
-      { id: "c", text: "only plasma" },
-      { id: "d", text: "only vapour" }
+      { id: "a", text: "only plasma" },
+      { id: "b", text: "only vapour" },
+      { id: "c", text: "one state only" },
+      { id: "d", text: "three common states: solid, liquid, gas" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "School science focuses on solid, liquid and gas.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }

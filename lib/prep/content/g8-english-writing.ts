@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch05-a-q01",
     prompt: "**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1\u20132 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nRead Notice N1. Who has issued the notice?",
     options: [
-      { id: "a", text: "The House Captains" },
-      { id: "b", text: "Kabir Sen, Cultural Secretary" },
-      { id: "c", text: "The Principal alone, with no name shown" },
-      { id: "d", text: "Class 9 monitors only" }
+      { id: "a", text: "Kabir Sen, Cultural Secretary" },
+      { id: "b", text: "The Principal alone, with no name shown" },
+      { id: "c", text: "Class 9 monitors only" },
+      { id: "d", text: "The House Captains" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "A notice ends with the issuer's name and designation \u2014 here Kabir Sen, Cultural Secretary.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -33,12 +33,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch05-a-q03",
     prompt: "**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1\u20132 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nRead Notice N1. Which detail is essential for a student who wants to take part?",
     options: [
-      { id: "a", text: "The colour of the Activity Hall curtains" },
-      { id: "b", text: "Time and place of the auditions" },
-      { id: "c", text: "Kabir Sen's favourite play" },
-      { id: "d", text: "The school's founding year" }
+      { id: "a", text: "The school's founding year" },
+      { id: "b", text: "The colour of the Activity Hall curtains" },
+      { id: "c", text: "Time and place of the auditions" },
+      { id: "d", text: "Kabir Sen's favourite play" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Notices must answer what, when and where so readers can act.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -59,12 +59,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch05-a-q05",
     prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nRead Email E1. Why is the subject line effective?",
     options: [
-      { id: "a", text: "It is vague on purpose" },
-      { id: "b", text: "It states the request and the topic briefly" },
-      { id: "c", text: "It contains only the word \"Hi\"" },
-      { id: "d", text: "It lists every book title" }
+      { id: "a", text: "It states the request and the topic briefly" },
+      { id: "b", text: "It contains only the word \"Hi\"" },
+      { id: "c", text: "It lists every book title" },
+      { id: "d", text: "It is vague on purpose" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "A strong subject names the purpose (extend return date) and the topic (Class 8 project books).",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -72,12 +72,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch05-a-q06",
     prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nRead Email E1. Why does Nisha close with \"Yours sincerely\"?",
     options: [
-      { id: "a", text: "She addressed a named person, Ms. Iyer" },
-      { id: "b", text: "She does not know the librarian at all" },
-      { id: "c", text: "\"Yours sincerely\" is used only with \"Dear Sir/Madam\"" },
-      { id: "d", text: "Emails never use a closing" }
+      { id: "a", text: "Emails never use a closing" },
+      { id: "b", text: "She addressed a named person, Ms. Iyer" },
+      { id: "c", text: "She does not know the librarian at all" },
+      { id: "d", text: "\"Yours sincerely\" is used only with \"Dear Sir/Madam\"" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "A named salutation pairs with \"Yours sincerely\"; \"Dear Sir/Madam\" pairs with \"Yours faithfully.\"",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -85,12 +85,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch05-a-q07",
     prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nRead Email E1. What clear request does Nisha make?",
     options: [
-      { id: "a", text: "To ban the Science Fair" },
-      { id: "b", text: "A one-week extension for returning project books" },
-      { id: "c", text: "To close the library" },
-      { id: "d", text: "To change her class section" }
+      { id: "a", text: "To change her class section" },
+      { id: "b", text: "To ban the Science Fair" },
+      { id: "c", text: "A one-week extension for returning project books" },
+      { id: "d", text: "To close the library" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "The opening paragraph states she is requesting a one-week extension.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -98,12 +98,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch05-a-q08",
     prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nRead Email E1. Which best describes the tone?",
     options: [
-      { id: "a", text: "Rude and demanding" },
-      { id: "b", text: "Polite, specific and purposeful" },
-      { id: "c", text: "Joking and slangy" },
-      { id: "d", text: "Angry and threatening" }
+      { id: "a", text: "Joking and slangy" },
+      { id: "b", text: "Angry and threatening" },
+      { id: "c", text: "Rude and demanding" },
+      { id: "d", text: "Polite, specific and purposeful" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "She explains the need, offers a return date and thanks the librarian in advance \u2014 polite and clear.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -111,12 +111,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch05-a-q09",
     prompt: "14 Lake Road\nIndore \u2013 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead Formal letter P1. Where does the sender's address appear?",
     options: [
-      { id: "a", text: "Only after the signature" },
-      { id: "b", text: "At the top, before the date" },
-      { id: "c", text: "In the subject line" },
-      { id: "d", text: "Nowhere" }
+      { id: "a", text: "At the top, before the date" },
+      { id: "b", text: "In the subject line" },
+      { id: "c", text: "Nowhere" },
+      { id: "d", text: "Only after the signature" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "In a formal letter the sender's address comes first, followed by the date.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -124,12 +124,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch05-a-q10",
     prompt: "14 Lake Road\nIndore \u2013 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead Formal letter P1. Why is \"Yours faithfully\" the correct closing?",
     options: [
-      { id: "a", text: "The reader is addressed as Sir/Madam, not by name" },
-      { id: "b", text: "The writer knows the editor personally by first name in the salutation" },
-      { id: "c", text: "Faithfully is only for emails" },
-      { id: "d", text: "The letter is informal" }
+      { id: "a", text: "The letter is informal" },
+      { id: "b", text: "The reader is addressed as Sir/Madam, not by name" },
+      { id: "c", text: "The writer knows the editor personally by first name in the salutation" },
+      { id: "d", text: "Faithfully is only for emails" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Unnamed salutations take \"Yours faithfully.\"",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch05-a-q11",
     prompt: "14 Lake Road\nIndore \u2013 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead Formal letter P1. What is the writer's main purpose?",
     options: [
-      { id: "a", text: "To complain about canteen food" },
-      { id: "b", text: "To highlight an unsafe crossing and urge action" },
-      { id: "c", text: "To advertise a scooter brand" },
-      { id: "d", text: "To resign from school" }
+      { id: "a", text: "To resign from school" },
+      { id: "b", text: "To complain about canteen food" },
+      { id: "c", text: "To highlight an unsafe crossing and urge action" },
+      { id: "d", text: "To advertise a scooter brand" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "The subject and body focus on the faded crossing and a request for coverage and safety measures.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch05-a-q12",
     prompt: "14 Lake Road\nIndore \u2013 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead Formal letter P1. Which element is correctly placed for a formal letter to an editor?",
     options: [
-      { id: "a", text: "Subject line before the salutation" },
-      { id: "b", text: "Subject line after \"Yours faithfully\"" },
-      { id: "c", text: "No subject line at all" },
-      { id: "d", text: "Receiver's address missing on purpose" }
+      { id: "a", text: "Subject line after \"Yours faithfully\"" },
+      { id: "b", text: "No subject line at all" },
+      { id: "c", text: "Receiver's address missing on purpose" },
+      { id: "d", text: "Subject line before the salutation" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Formal letters include a subject after the receiver's details and before \"Dear\u2026\"",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -163,12 +163,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch05-a-q13",
     prompt: "**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead Article P2. What is the heading?",
     options: [
-      { id: "a", text: "By Meera Joseph, Class 8" },
-      { id: "b", text: "When the Playground Went Quiet" },
-      { id: "c", text: "Student Council Minutes" },
-      { id: "d", text: "NOTICE" }
+      { id: "a", text: "When the Playground Went Quiet" },
+      { id: "b", text: "Student Council Minutes" },
+      { id: "c", text: "NOTICE" },
+      { id: "d", text: "By Meera Joseph, Class 8" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "The heading/title is the bold line that names the piece; the byline names the writer.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch05-a-q15",
     prompt: "**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead Article P2. What problem does the writer describe?",
     options: [
-      { id: "a", text: "The canteen closed forever" },
-      { id: "b", text: "Building work removed the play space students used at break" },
-      { id: "c", text: "Cricket was banned nationwide" },
-      { id: "d", text: "Corridors were widened too much" }
+      { id: "a", text: "Corridors were widened too much" },
+      { id: "b", text: "The canteen closed forever" },
+      { id: "c", text: "Building work removed the play space students used at break" },
+      { id: "d", text: "Cricket was banned nationwide" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Diggers turned the pitch into a construction site, so break-time play was lost.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch05-a-q16",
     prompt: "**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead Article P2. What solution does the Student Council propose?",
     options: [
-      { id: "a", text: "Stop all construction" },
-      { id: "b", text: "A temporary games zone on the front lawn with soft balls only" },
-      { id: "c", text: "Longer exams" },
-      { id: "d", text: "Closing the canteen" }
+      { id: "a", text: "Longer exams" },
+      { id: "b", text: "Closing the canteen" },
+      { id: "c", text: "Stop all construction" },
+      { id: "d", text: "A temporary games zone on the front lawn with soft balls only" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "The article reports a temporary games zone on the front lawn until the block opens.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -241,12 +241,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch05-a-q19",
     prompt: "Which format is best for a short opinion piece in the school magazine?",
     options: [
-      { id: "a", text: "Formal letter to an editor of a city paper only" },
-      { id: "b", text: "Article" },
-      { id: "c", text: "Bank cheque" },
-      { id: "d", text: "Math formula sheet" }
+      { id: "a", text: "Math formula sheet" },
+      { id: "b", text: "Formal letter to an editor of a city paper only" },
+      { id: "c", text: "Article" },
+      { id: "d", text: "Bank cheque" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Magazine pieces use article format: heading, byline, engaging body and close.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -254,12 +254,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch05-a-q20",
     prompt: "14 Lake Road\nIndore \u2013 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead Formal letter P1. Who is the intended primary reader?",
     options: [
-      { id: "a", text: "Aarav's classmates only" },
-      { id: "b", text: "The Editor of The City Herald" },
-      { id: "c", text: "The canteen staff" },
-      { id: "d", text: "A pen friend abroad" }
+      { id: "a", text: "The canteen staff" },
+      { id: "b", text: "A pen friend abroad" },
+      { id: "c", text: "Aarav's classmates only" },
+      { id: "d", text: "The Editor of The City Herald" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "The receiver's address and salutation target the newspaper editor.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -293,12 +293,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch05-a-q23",
     prompt: "In a school notice, the word NOTICE usually appears \u2014",
     options: [
-      { id: "a", text: "only in the last sentence" },
-      { id: "b", text: "as a clear centred heading near the top" },
-      { id: "c", text: "inside the signature only" },
-      { id: "d", text: "nowhere" }
+      { id: "a", text: "nowhere" },
+      { id: "b", text: "only in the last sentence" },
+      { id: "c", text: "as a clear centred heading near the top" },
+      { id: "d", text: "inside the signature only" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Standard notice layout places NOTICE prominently under the issuing body's name.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -306,12 +306,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch05-a-q24",
     prompt: "Match the pair that belongs together.",
     options: [
-      { id: "a", text: "Dear Sir/Madam \u2192 Yours sincerely" },
-      { id: "b", text: "Dear Ms. Iyer \u2192 Yours faithfully" },
-      { id: "c", text: "Dear Sir/Madam \u2192 Yours faithfully" },
-      { id: "d", text: "Dear Rohan \u2192 Yours obediently as the only correct close for friends" }
+      { id: "a", text: "Dear Rohan \u2192 Yours obediently as the only correct close for friends" },
+      { id: "b", text: "Dear Sir/Madam \u2192 Yours sincerely" },
+      { id: "c", text: "Dear Ms. Iyer \u2192 Yours faithfully" },
+      { id: "d", text: "Dear Sir/Madam \u2192 Yours faithfully" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Unnamed formal salutations take \"Yours faithfully\"; named ones take \"Yours sincerely.\"",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   }

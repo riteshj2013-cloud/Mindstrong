@@ -258,6 +258,43 @@ def emit_md(path: Path, *, grade: int, subject: str, chapter_id: str, title: str
     print("wrote", path.relative_to(REPO))
 
 
+def balance_set(qs: list[dict], seed_key: str) -> list[dict]:
+    """Rotate option order so a 24-item set is exactly 6A/6B/6C/6D.
+
+    Preserves correct option *text*; only position + answerId change.
+    """
+    letters = "abcd"
+    assert len(qs) == 24, "%s: expected 24, got %d" % (seed_key, len(qs))
+    # Interleave a,b,c,d → six of each without long same-letter runs.
+    targets = []
+    bag = {L: 6 for L in letters}
+    while len(targets) < 24:
+        for L in letters:
+            if bag[L] > 0:
+                targets.append(L)
+                bag[L] -= 1
+    out = []
+    for q, target in zip(qs, targets):
+        opts = list(q["options"])
+        by_id = {o["id"]: o for o in opts}
+        ans = q["answerId"]
+        correct = by_id[ans]
+        rest = [o for o in opts if o["id"] != ans]
+        new_opts = [None] * 4
+        ti = letters.index(target)
+        new_opts[ti] = {"id": target, "text": correct["text"]}
+        r = 0
+        for j, L in enumerate(letters):
+            if new_opts[j] is None:
+                new_opts[j] = {"id": L, "text": rest[r]["text"]}
+                r += 1
+        out.append({**q, "options": new_opts, "answerId": target})
+    counts = {L: sum(1 for q in out if q["answerId"] == L) for L in letters}
+    if counts != {L: 6 for L in letters}:
+        raise SystemExit("%s balance_set failed: %s" % (seed_key, counts))
+    return out
+
+
 def normalize_qs(raw: list[dict], prefix: str, set_id: str, default_hints: list[str]) -> list[dict]:
     out = []
     assert len(raw) == 24, "%s-%s expected 24 got %d" % (prefix, set_id, len(raw))
@@ -293,7 +330,7 @@ def normalize_qs(raw: list[dict], prefix: str, set_id: str, default_hints: list[
             if re.search(bad, blob):
                 raise ValueError("leak %s in %s" % (bad, item["id"]))
         out.append(item)
-    return out
+    return balance_set(out, "%s-%s" % (prefix, set_id))
 
 
 def emit_hints(path: Path, export: str, items: list[dict]) -> None:

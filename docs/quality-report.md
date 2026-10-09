@@ -5,7 +5,7 @@
 **Reviewer:** Quality Reviewer  
 **Verdict:** **PASS WITH NOTES**
 
-All prior **blockers are cleared** on `main` (G7/G10 answer rebalance, G4 story-spotter stems, G6 sorting-materials + extreme G1/G2/G6 skew fixes). Infrastructure, unlocks, daily packs, audits, typecheck, and build are green. Remaining notes are residual answer-letter skew (mostly G8/G9) and generic cross-grade stems — not ship-blockers. Full store/content gate: [`docs/qualification.md`](qualification.md).
+All prior **blockers are cleared** on `main` (G7/G10 answer rebalance, G4 story-spotter stems, G6 sorting-materials + extreme G1/G2/G6 skew fixes). **G8/G9 answer-letter skew** (≥60% one letter) cleared on `cursor/g8-g9-answer-skew-rebalance-9d2a`. Infrastructure, unlocks, daily packs, audits, typecheck, and build are green. Remaining notes are residual non-G8/G9 skew and generic cross-grade stems — not ship-blockers. Full store/content gate: [`docs/qualification.md`](qualification.md).
 
 ---
 
@@ -38,8 +38,8 @@ All prior **blockers are cleared** on `main` (G7/G10 answer rebalance, G4 story-
 | Daily ready packs | 35 (7 days × 5 age bands) |
 | Audit findings | 0 |
 | Boilerplate hints remaining | 0 (5184 overlays cover 5184 items) |
-| Answer-skew sets (>50% one letter) | 57 sets (was 113) |
-| Extreme skew sets (≥75% one letter) | 23 sets (was 77) |
+| Answer-skew sets (>50% one letter) | 57 at re-audit; **G8/G9 ≥60% cleared** (19 sets rebalanced) |
+| Extreme skew sets (≥75% one letter) | 23 at re-audit (mostly G8/G9); **G8/G9 now 0 ≥75%** |
 | Exact duplicate prompts (cross-set/grade, same subject) | 96 pairs (mostly generic stems) |
 | Within-set exact duplicate prompts | 1 (`g4-maths-fractions` set-b q11/q17 — different options) |
 
@@ -69,36 +69,26 @@ All prior **blockers are cleared** on `main` (G7/G10 answer rebalance, G4 story-
 | 5 | 24.6% | OK |
 | 6 | 33.8% | OK grade-level; `sorting-materials` now 6/6/6/6; grammar still B-leaning |
 | **7** | **25.0%** | **Balanced** — 108/108/108/108 across 432 items; every set 6A/6B/6C/6D |
-| 8 | 29.3% | Grade-level OK; several science/maths sets ≥75% B or A |
-| 9 | 26.4% | %A OK but **%B ≈ 60%** grade-wide; several English/science sets ≥75% B |
+| 8 | ~28.6% | **Rebalanced** skewed sets → 0 ≥60%; grade ~29/28/23/21 A/B/C/D |
+| 9 | ~29.4% | **Rebalanced** (was ~60% B) → 0 ≥60%; grade ~29/35/21/15 A/B/C/D |
 | **10** | **25.0%** | **Balanced** — 108/108/108/108 across 432 items; every set 6A/6B/6C/6D (was ~100% A) |
 
-### Extreme skew sets (≥75% one letter) — 23 remaining
+### Extreme skew sets (≥75% one letter)
 
-| Set | Dominant | Share |
-| --- | --- | ---: |
-| `english-g9.writing-vocab.set-a` | B | 22/24 (92%) |
-| `maths-g8.mensuration.set-b` | A | 21/24 (88%) |
-| `english-g2.reading.set-b` | A | 14/16 (88%) |
-| `science-g8.chemical-effects.set-a` | B | 21/24 (88%) |
-| `science-g9.cell-tissues.set-a` | B | 21/24 (88%) |
-| `english-g9.grammar-workshop.set-a` | B | 20/24 (83%) |
-| `science-g6.fibre-fabric.set-b` | A | 20/24 (83%) |
-| `science-g8.combustion-flame.set-b` | B | 20/24 (83%) |
-| `science-g9.cell-tissues.set-b` | B | 20/24 (83%) |
-| `maths-g2.place-value.set-b` | A | 13/16 (81%) |
-| `science-g1.plants.set-b` | A | 13/16 (81%) |
-| `science-g8.sound.set-a/b` | B | 19/24 (79%) |
-| `science-g8.chemical-effects.set-b` | B | 19/24 (79%) |
-| `science-g9.motion.set-a` | B | 19/24 (79%) |
-| `maths-g1.numbers.set-b` | B | 12/16 (75%) |
-| `maths-g2.time-money.set-a` | B | 12/16 (75%) |
-| `english-g1.letters-words.set-b` | B | 12/16 (75%) |
-| `english-g1.reading-pics.set-a` | B | 12/16 (75%) |
-| `english-g8.speak-up-debate.set-a` | B | 18/24 (75%) |
-| `english-g9.literature-mcq.set-a` | B | 18/24 (75%) |
-| `english-g9.writing-vocab.set-b` | B | 18/24 (75%) |
-| `science-g6.food-nutrition.set-b` | A | 18/24 (75%) |
+**G8/G9 rows from the re-audit table below are cleared** (option-shuffle → `6A/6B/6C/6D`). Residual ≥75% (non-G8/G9) still open for other writers:
+
+| Set | Dominant | Share | Status |
+| --- | --- | ---: | --- |
+| `english-g2.reading.set-b` | A | 14/16 (88%) | open |
+| `science-g6.fibre-fabric.set-b` | A | 20/24 (83%) | open |
+| `maths-g2.place-value.set-b` | A | 13/16 (81%) | open |
+| `science-g1.plants.set-b` | A | 13/16 (81%) | open |
+| `maths-g1.numbers.set-b` | B | 12/16 (75%) | open |
+| `maths-g2.time-money.set-a` | B | 12/16 (75%) | open |
+| `english-g1.letters-words.set-b` | B | 12/16 (75%) | open |
+| `english-g1.reading-pics.set-a` | B | 12/16 (75%) | open |
+| `science-g6.food-nutrition.set-b` | A | 18/24 (75%) | open |
+| *(14 G8/G9 sets that were ≥75%)* | — | — | **fixed** |
 
 ---
 
@@ -115,7 +105,7 @@ Checked served questions (prompt, options, hints, ₹/$, branding, lesson types)
 | maths `numbers` | 1 | Age-ok short stems | n/a | none | item-specific | hook→…→wrap | B-heavy set-b |
 | maths `integers` | 6 | OK | ₹ in pack | none | item-specific | hook→…→wrap | A/B heavy |
 | english `comprehension` | 6 | Passage-appropriate | ₹ in pack | none | item-specific | hook→…→wrap | 12/12/12/12 |
-| science `combustion-flame` | 8 | OK | n/a | none | item-specific | hook→…→wrap | B-skewed |
+| science `combustion-flame` | 8 | OK | n/a | none | item-specific | hook→…→wrap | set-b now 6/6/6/6 |
 | maths `real-numbers` | 10 | OK | n/a | none | item-specific | hook→…→wrap | 12/12/12/12 |
 | english `literature` | 10 | OK | n/a | none | item-specific | hook→…→wrap | 12/12/12/12 |
 
@@ -142,13 +132,12 @@ Notes from spot-check:
 
 ### Major
 
-1. **Residual extreme answer skew (23 sets ≥75% one letter)**  
-   - **Hotspots:** G8 science (sound, chemical-effects, combustion), G9 English/science (writing-vocab, cell-tissues, grammar), plus a few G1/G2 and G6 fibre/food sets.  
-   - **Owner:** Maths / English / Science Writers (option-shuffle / rebalance without changing correct *text*).
+1. **Residual extreme answer skew (23 sets ≥75% one letter)** — **G8/G9 portion FIXED** (`cursor/g8-g9-answer-skew-rebalance-9d2a`)  
+   - **Was:** G8 science (sound, chemical-effects, combustion) + G9 English/science heavily B-skewed; G9 ~60% B grade-wide.  
+   - **Now:** every G8/G9 set that was ≥60% one letter rebalanced to `6A/6B/6C/6D` (19 sets); G8/G9 have **0 sets ≥60%** one letter. Correct option *text* preserved. Generators (`ingest_lib.balance_set`, `g9_pack/emit.balance_set`) keep regen balanced.  
+   - Remaining ≥75% sets (if any) are outside G8/G9 (G1/G2/G6 fibre/food etc.) — separate owner.
 
-2. **G9 grade-wide B bias (~60% B)**  
-   - Even where %A looks fine, distractor placement still clusters on B.  
-   - **Owner:** English / Science Writers for G9 packs.
+2. ~~**G9 grade-wide B bias (~60% B)**~~ → **FIXED** with the rebalance above (G9 now ~29/35/21/15 A/B/C/D).
 
 3. **Generic / repeated stems across grades**  
    - **Evidence:** 96 cross-set duplicate prompts (e.g. “Which is correct?”, shared pictorial stems).  
@@ -164,6 +153,10 @@ Notes from spot-check:
    - Not kid-facing; low risk.  
    - **Owner:** Catalog / writers (cosmetic).
 
+### Follow-ups addressed
+
+- **G8/G9 answer-letter skew (≥60% one letter):** 19 sets option-shuffled to `6A/6B/6C/6D` (±0); G8 grade ~29/28/23/21%, G9 ~29/35/21/15%; **0 sets ≥75%**. Script: `scripts/rebalance_g8_g9_answer_skew.py`. G7/G10 left untouched.
+
 ---
 
 ## Fixes shipped in this PR
@@ -175,11 +168,12 @@ Notes from spot-check:
 
 ## Follow-ups for Chief of Staff
 
-1. **Priority 1 — rebalance residual ≥75% sets** (table above), starting with G8 science + G9 English/science.
-2. **Priority 2 — G9 letter mix:** reduce B-cluster toward ~25% each letter per set.
-3. Optional: warn-only inventory script (answer-skew + dup-stem) in CI; not failing yet.
-4. Daily Coach lane remains complete for Mon–Sun × 5 bands — no scaffold leftovers.
-5. Keep running `audit-content` + `check-boilerplate-hints` on every content PR; new `sr-longdesc-in-prompt` rule guards the G4 pictorial leak class.
+1. ~~**Priority 1 — rebalance residual ≥75% sets** (G8 science + G9 English/science)~~ → done on `cursor/g8-g9-answer-skew-rebalance-9d2a`.
+2. ~~**Priority 2 — G9 letter mix**~~ → done with same rebalance.
+3. Optional: rebalance remaining non-G8/G9 ≥75% sets (G1/G2/G6 fibre/food) if still present after merge.
+4. Optional: warn-only inventory script (answer-skew + dup-stem) in CI; not failing yet.
+5. Daily Coach lane remains complete for Mon–Sun × 5 bands — no scaffold leftovers.
+6. Keep running `audit-content` + `check-boilerplate-hints` on every content PR; new `sr-longdesc-in-prompt` rule guards the G4 pictorial leak class.
 
 ---
 

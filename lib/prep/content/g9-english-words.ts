@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q01",
     prompt: "Choose the synonym of “brief”.",
     options: [
-      { id: "a", text: "lengthy" },
-      { id: "b", text: "concise" },
-      { id: "c", text: "noisy" },
-      { id: "d", text: "ancient" }
+      { id: "a", text: "concise" },
+      { id: "b", text: "noisy" },
+      { id: "c", text: "ancient" },
+      { id: "d", text: "lengthy" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Brief means short/concise.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -33,12 +33,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q03",
     prompt: "Choose the correct word: The ____ of the school spoke to parents.",
     options: [
-      { id: "a", text: "principle" },
-      { id: "b", text: "principal" },
-      { id: "c", text: "premier" },
-      { id: "d", text: "principle’s" }
+      { id: "a", text: "principle’s" },
+      { id: "b", text: "principle" },
+      { id: "c", text: "principal" },
+      { id: "d", text: "premier" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Principal = head of school; principle = rule/belief.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q04",
     prompt: "Idiom: “break the ice” means…",
     options: [
-      { id: "a", text: "shatter glass" },
-      { id: "b", text: "start conversation in a friendly way" },
-      { id: "c", text: "cancel a match" },
-      { id: "d", text: "freeze water" }
+      { id: "a", text: "cancel a match" },
+      { id: "b", text: "freeze water" },
+      { id: "c", text: "shatter glass" },
+      { id: "d", text: "start conversation in a friendly way" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "It means ease social tension / begin chatting.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -85,12 +85,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q07",
     prompt: "Synonym of “diligent”…",
     options: [
-      { id: "a", text: "lazy" },
-      { id: "b", text: "hardworking" },
-      { id: "c", text: "rude" },
-      { id: "d", text: "noisy" }
+      { id: "a", text: "noisy" },
+      { id: "b", text: "lazy" },
+      { id: "c", text: "hardworking" },
+      { id: "d", text: "rude" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Diligent means careful and hardworking.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -98,12 +98,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q08",
     prompt: "Antonym of “optimistic”…",
     options: [
-      { id: "a", text: "hopeful" },
-      { id: "b", text: "cheerful" },
-      { id: "c", text: "pessimistic" },
-      { id: "d", text: "eager" }
+      { id: "a", text: "eager" },
+      { id: "b", text: "hopeful" },
+      { id: "c", text: "cheerful" },
+      { id: "d", text: "pessimistic" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Optimistic ↔ pessimistic.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -111,12 +111,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q09",
     prompt: "Phrasal verb: “call off” means…",
     options: [
-      { id: "a", text: "phone someone" },
-      { id: "b", text: "cancel" },
-      { id: "c", text: "shout loudly" },
-      { id: "d", text: "visit briefly" }
+      { id: "a", text: "cancel" },
+      { id: "b", text: "shout loudly" },
+      { id: "c", text: "visit briefly" },
+      { id: "d", text: "phone someone" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Call off = cancel.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q11",
     prompt: "Word meaning “capable of being heard”…",
     options: [
-      { id: "a", text: "edible" },
-      { id: "b", text: "audible" },
-      { id: "c", text: "visible" },
-      { id: "d", text: "legible" }
+      { id: "a", text: "legible" },
+      { id: "b", text: "edible" },
+      { id: "c", text: "audible" },
+      { id: "d", text: "visible" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Audible = can be heard.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q12",
     prompt: "Choose correctly: stationery vs stationary — “The bus was ____ in traffic.”",
     options: [
-      { id: "a", text: "stationery" },
-      { id: "b", text: "stationary" },
-      { id: "c", text: "stationerly" },
-      { id: "d", text: "stationory" }
+      { id: "a", text: "stationerly" },
+      { id: "b", text: "stationory" },
+      { id: "c", text: "stationery" },
+      { id: "d", text: "stationary" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Stationary = not moving; stationery = writing materials.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -163,12 +163,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q13",
     prompt: "Idiom: “once in a blue moon” means…",
     options: [
-      { id: "a", text: "very often" },
-      { id: "b", text: "very rarely" },
-      { id: "c", text: "at night only" },
-      { id: "d", text: "during exams" }
+      { id: "a", text: "very rarely" },
+      { id: "b", text: "at night only" },
+      { id: "c", text: "during exams" },
+      { id: "d", text: "very often" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "It means very rarely.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q15",
     prompt: "Antonym of “expand”…",
     options: [
-      { id: "a", text: "enlarge" },
-      { id: "b", text: "contract" },
-      { id: "c", text: "grow" },
-      { id: "d", text: "spread" }
+      { id: "a", text: "spread" },
+      { id: "b", text: "enlarge" },
+      { id: "c", text: "contract" },
+      { id: "d", text: "grow" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Expand ↔ contract/shrink.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q16",
     prompt: "Choose the best word: A ____ speech bored the audience.",
     options: [
-      { id: "a", text: "concise" },
-      { id: "b", text: "tedious" },
-      { id: "c", text: "vivid" },
-      { id: "d", text: "witty" }
+      { id: "a", text: "vivid" },
+      { id: "b", text: "witty" },
+      { id: "c", text: "concise" },
+      { id: "d", text: "tedious" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Tedious = long and boring.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -215,12 +215,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q17",
     prompt: "One-word: Government by the people…",
     options: [
-      { id: "a", text: "monarchy" },
-      { id: "b", text: "democracy" },
-      { id: "c", text: "autocracy" },
-      { id: "d", text: "bureaucracy" }
+      { id: "a", text: "democracy" },
+      { id: "b", text: "autocracy" },
+      { id: "c", text: "bureaucracy" },
+      { id: "d", text: "monarchy" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Democracy = rule by the people.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -241,12 +241,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q19",
     prompt: "Choose for a formal email opening to an unknown reader:",
     options: [
-      { id: "a", text: "Hey!" },
-      { id: "b", text: "Dear Sir or Madam," },
-      { id: "c", text: "Yo," },
-      { id: "d", text: "What’s up," }
+      { id: "a", text: "What’s up," },
+      { id: "b", text: "Hey!" },
+      { id: "c", text: "Dear Sir or Madam," },
+      { id: "d", text: "Yo," }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Unknown recipient → Dear Sir or Madam.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -254,12 +254,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q20",
     prompt: "Confusable: “accept” vs “except” — “All ____ Rohan were present.”",
     options: [
-      { id: "a", text: "accept" },
-      { id: "b", text: "except" },
-      { id: "c", text: "expect" },
-      { id: "d", text: "access" }
+      { id: "a", text: "expect" },
+      { id: "b", text: "access" },
+      { id: "c", text: "accept" },
+      { id: "d", text: "except" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Except = leaving out; accept = receive/agree.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -267,12 +267,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q21",
     prompt: "Synonym of “courageous”…",
     options: [
-      { id: "a", text: "timid" },
-      { id: "b", text: "brave" },
-      { id: "c", text: "silent" },
-      { id: "d", text: "clever" }
+      { id: "a", text: "brave" },
+      { id: "b", text: "silent" },
+      { id: "c", text: "clever" },
+      { id: "d", text: "timid" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Courageous ≈ brave.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -293,12 +293,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q23",
     prompt: "Choose precise word: The ____ of the mountain was covered with snow.",
     options: [
-      { id: "a", text: "peek" },
-      { id: "b", text: "peak" },
-      { id: "c", text: "pique" },
-      { id: "d", text: "peel" }
+      { id: "a", text: "peel" },
+      { id: "b", text: "peek" },
+      { id: "c", text: "peak" },
+      { id: "d", text: "pique" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Peak = top of a mountain.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -306,12 +306,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q24",
     prompt: "One-word: A person who travels to work daily…",
     options: [
-      { id: "a", text: "tourist" },
-      { id: "b", text: "commuter" },
-      { id: "c", text: "pilgrim" },
-      { id: "d", text: "nomad" }
+      { id: "a", text: "pilgrim" },
+      { id: "b", text: "nomad" },
+      { id: "c", text: "tourist" },
+      { id: "d", text: "commuter" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Commuter travels regularly to work.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   }
@@ -322,12 +322,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q01",
     prompt: "Antonym of “ancient”…",
     options: [
-      { id: "a", text: "old" },
-      { id: "b", text: "modern" },
-      { id: "c", text: "historic" },
-      { id: "d", text: "aged" }
+      { id: "a", text: "modern" },
+      { id: "b", text: "historic" },
+      { id: "c", text: "aged" },
+      { id: "d", text: "old" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Ancient ↔ modern/new.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q03",
     prompt: "Idiom: “hit the nail on the head” means…",
     options: [
-      { id: "a", text: "do carpentry" },
-      { id: "b", text: "describe something exactly right" },
-      { id: "c", text: "fail a test" },
-      { id: "d", text: "sleep early" }
+      { id: "a", text: "sleep early" },
+      { id: "b", text: "do carpentry" },
+      { id: "c", text: "describe something exactly right" },
+      { id: "d", text: "fail a test" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "It means be exactly correct.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q04",
     prompt: "Confusable: “complement” vs “compliment” — “Her scarf was a perfect ____ to the dress.”",
     options: [
-      { id: "a", text: "compliment" },
-      { id: "b", text: "complement" },
-      { id: "c", text: "compliance" },
-      { id: "d", text: "complex" }
+      { id: "a", text: "compliance" },
+      { id: "b", text: "complex" },
+      { id: "c", text: "compliment" },
+      { id: "d", text: "complement" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Complement = completes/goes well with; compliment = praise.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -374,12 +374,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q05",
     prompt: "Phrasal: “put off” means…",
     options: [
-      { id: "a", text: "wear clothes" },
-      { id: "b", text: "postpone" },
-      { id: "c", text: "extinguish" },
-      { id: "d", text: "publish" }
+      { id: "a", text: "postpone" },
+      { id: "b", text: "extinguish" },
+      { id: "c", text: "publish" },
+      { id: "d", text: "wear clothes" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Put off = postpone/delay.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q06",
     prompt: "One-word: Incapable of being read…",
     options: [
-      { id: "a", text: "illegible" },
-      { id: "b", text: "illegal" },
-      { id: "c", text: "illogical" },
-      { id: "d", text: "eligible" }
+      { id: "a", text: "eligible" },
+      { id: "b", text: "illegible" },
+      { id: "c", text: "illegal" },
+      { id: "d", text: "illogical" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Illegible = unreadable handwriting/text.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q07",
     prompt: "Choose formal closing when the reader’s name is unknown:",
     options: [
-      { id: "a", text: "Yours sincerely" },
-      { id: "b", text: "Yours faithfully" },
-      { id: "c", text: "See ya" },
-      { id: "d", text: "Love" }
+      { id: "a", text: "Love" },
+      { id: "b", text: "Yours sincerely" },
+      { id: "c", text: "Yours faithfully" },
+      { id: "d", text: "See ya" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Unknown name → Yours faithfully (with Dear Sir/Madam).",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q08",
     prompt: "Synonym of “reluctant”…",
     options: [
-      { id: "a", text: "eager" },
-      { id: "b", text: "unwilling" },
-      { id: "c", text: "joyful" },
-      { id: "d", text: "swift" }
+      { id: "a", text: "joyful" },
+      { id: "b", text: "swift" },
+      { id: "c", text: "eager" },
+      { id: "d", text: "unwilling" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Reluctant = unwilling/hesitant.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -426,12 +426,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q09",
     prompt: "Antonym of “generous”…",
     options: [
-      { id: "a", text: "kind" },
-      { id: "b", text: "stingy" },
-      { id: "c", text: "helpful" },
-      { id: "d", text: "noble" }
+      { id: "a", text: "stingy" },
+      { id: "b", text: "helpful" },
+      { id: "c", text: "noble" },
+      { id: "d", text: "kind" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Generous ↔ stingy/miserly.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -452,12 +452,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q11",
     prompt: "Idiom: “cost an arm and a leg” means…",
     options: [
-      { id: "a", text: "be very expensive" },
-      { id: "b", text: "require surgery" },
-      { id: "c", text: "be free" },
-      { id: "d", text: "be light" }
+      { id: "a", text: "be free" },
+      { id: "b", text: "be light" },
+      { id: "c", text: "be very expensive" },
+      { id: "d", text: "require surgery" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "It means very costly.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -465,12 +465,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q12",
     prompt: "Word for “a period of ten years”…",
     options: [
-      { id: "a", text: "decade" },
-      { id: "b", text: "century" },
-      { id: "c", text: "millennium" },
-      { id: "d", text: "fortnight" }
+      { id: "a", text: "century" },
+      { id: "b", text: "millennium" },
+      { id: "c", text: "fortnight" },
+      { id: "d", text: "decade" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Decade = 10 years.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -478,12 +478,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q13",
     prompt: "Phrasal: “give up” means…",
     options: [
-      { id: "a", text: "donate upward" },
-      { id: "b", text: "quit / stop trying" },
-      { id: "c", text: "raise a hand" },
-      { id: "d", text: "start again" }
+      { id: "a", text: "quit / stop trying" },
+      { id: "b", text: "raise a hand" },
+      { id: "c", text: "start again" },
+      { id: "d", text: "donate upward" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Give up = quit.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -504,12 +504,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q15",
     prompt: "Choose the most precise word: The witness gave a ____ account of the event.",
     options: [
-      { id: "a", text: "blurry" },
-      { id: "b", text: "vivid" },
-      { id: "c", text: "mute" },
-      { id: "d", text: "lazy" }
+      { id: "a", text: "lazy" },
+      { id: "b", text: "blurry" },
+      { id: "c", text: "vivid" },
+      { id: "d", text: "mute" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Vivid = clear and detailed.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -517,12 +517,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q16",
     prompt: "Antonym of “scarce” already practised; antonym of “victory”…",
     options: [
-      { id: "a", text: "triumph" },
-      { id: "b", text: "defeat" },
-      { id: "c", text: "medal" },
-      { id: "d", text: "cheer" }
+      { id: "a", text: "medal" },
+      { id: "b", text: "cheer" },
+      { id: "c", text: "triumph" },
+      { id: "d", text: "defeat" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Victory ↔ defeat.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -530,12 +530,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q17",
     prompt: "One-word: A fictitious name used by a writer…",
     options: [
-      { id: "a", text: "biography" },
-      { id: "b", text: "autograph" },
-      { id: "c", text: "pseudonym" },
-      { id: "d", text: "manuscript" }
+      { id: "a", text: "pseudonym" },
+      { id: "b", text: "manuscript" },
+      { id: "c", text: "biography" },
+      { id: "d", text: "autograph" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Pseudonym = pen name / fictitious name.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -556,12 +556,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q19",
     prompt: "Synonym of “abandon”…",
     options: [
-      { id: "a", text: "keep" },
-      { id: "b", text: "leave" },
-      { id: "c", text: "build" },
-      { id: "d", text: "polish" }
+      { id: "a", text: "polish" },
+      { id: "b", text: "keep" },
+      { id: "c", text: "leave" },
+      { id: "d", text: "build" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Abandon means leave behind / give up.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -569,12 +569,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q20",
     prompt: "Idiom: “on cloud nine” means…",
     options: [
-      { id: "a", text: "very happy" },
-      { id: "b", text: "lost in fog" },
-      { id: "c", text: "asleep" },
-      { id: "d", text: "angry" }
+      { id: "a", text: "lost in fog" },
+      { id: "b", text: "asleep" },
+      { id: "c", text: "angry" },
+      { id: "d", text: "very happy" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "On cloud nine = extremely happy.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -582,12 +582,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q21",
     prompt: "Choose: Their ideas ____ each other well.",
     options: [
-      { id: "a", text: "compliment" },
-      { id: "b", text: "complement" },
-      { id: "c", text: "comply" },
-      { id: "d", text: "complicate" }
+      { id: "a", text: "complement" },
+      { id: "b", text: "comply" },
+      { id: "c", text: "complicate" },
+      { id: "d", text: "compliment" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Complement means go well together.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -608,12 +608,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q23",
     prompt: "One-word: Happening every year…",
     options: [
-      { id: "a", text: "annual" },
-      { id: "b", text: "manual" },
-      { id: "c", text: "casual" },
-      { id: "d", text: "neutral" }
+      { id: "a", text: "casual" },
+      { id: "b", text: "neutral" },
+      { id: "c", text: "annual" },
+      { id: "d", text: "manual" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Annual = yearly.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -621,12 +621,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q24",
     prompt: "Best subject line for a school email requesting leave:",
     options: [
-      { id: "a", text: "sup" },
-      { id: "b", text: "Request for leave — [dates] — [name]" },
-      { id: "c", text: "!!!!!!" },
-      { id: "d", text: "see attached meme" }
+      { id: "a", text: "!!!!!!" },
+      { id: "b", text: "see attached meme" },
+      { id: "c", text: "sup" },
+      { id: "d", text: "Request for leave — [dates] — [name]" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Clear, formal, informative subject lines help readers.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   }
