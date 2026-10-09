@@ -32,6 +32,15 @@ import { g5EnglishWords } from "./content/g5-english-words";
 import { g5SciencePlants } from "./content/g5-science-plants";
 import { g5ScienceBody } from "./content/g5-science-body";
 import { g5ScienceSpace } from "./content/g5-science-space";
+import { g7MathsIntegers } from "./content/g7-maths-integers";
+import { g7MathsEquations } from "./content/g7-maths-equations";
+import { g7MathsAngles } from "./content/g7-maths-angles";
+import { g7EnglishReading } from "./content/g7-english-reading";
+import { g7EnglishGrammar } from "./content/g7-english-grammar";
+import { g7EnglishWords } from "./content/g7-english-words";
+import { g7ScienceNutrition } from "./content/g7-science-nutrition";
+import { g7ScienceHeat } from "./content/g7-science-heat";
+import { g7ScienceAcids } from "./content/g7-science-acids";
 import { g8ScienceCells } from "./content/g8-science-cells";
 import { g8ScienceForce } from "./content/g8-science-force";
 import { g8ScienceMetals } from "./content/g8-science-metals";
@@ -612,7 +621,11 @@ const MATHS: Record<number, ChapterDef[]> = {
     g5MathsData,
   ],
   6: [], // placeholder — Maths Writer
-  7: [], // placeholder — Maths Writer
+  7: [
+    g7MathsIntegers,
+    g7MathsEquations,
+    g7MathsAngles,
+  ],
   8: [
     g8MathsRationals,
     g8MathsLinear,
@@ -644,7 +657,11 @@ const ENGLISH: Record<number, ChapterDef[]> = {
     g5EnglishWords,
   ],
   6: [], // placeholder — English Writer
-  7: [], // placeholder — English Writer
+  7: [
+    g7EnglishReading,
+    g7EnglishGrammar,
+    g7EnglishWords,
+  ],
   8: [
     g8EnglishLiterature,
     g8EnglishGrammar,
@@ -673,7 +690,11 @@ const SCIENCE: Record<number, ChapterDef[]> = {
     g5ScienceSpace,
   ],
   6: [], // placeholder — Science Writer
-  7: [], // placeholder — Science Writer
+  7: [
+    g7ScienceNutrition,
+    g7ScienceHeat,
+    g7ScienceAcids,
+  ],
   8: [
     g8ScienceCells,
     g8ScienceForce,

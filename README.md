@@ -118,6 +118,9 @@ ingest-sanitized and rendered as **original in-app SVG** (no copyrighted SOF sca
 - **G4 English** Ch1 Reading (18) · Ch2 Grammar (16) · Ch3 Words (18) — external `visual:` SVGs inlined at ingest, with `visual_alt` / `visual_longdesc`
 - **G5 Science** Ch1 Plants/Seeds · Ch2 Human Body · Ch3 Sun/Moon/Space (inline SVG)
 - **G5 Maths** Ch1 Large Numbers · Ch2 Shapes & Angles · Ch3 Fractions (pictorial addenda)
+- **G7 Maths** Ch1 Integers · Ch2 Simple Equations · Ch3 Lines & Angles (lesson + 24+24 each)
+- **G7 English** Ch1 Reading · Ch2 Grammar · Ch3 Words/Vocab (lesson + 24+24 each)
+- **G7 Science** Ch1 Nutrition in Plants/Animals · Ch2 Heat · Ch3 Acids, Bases & Salts (lesson + 24+24 each)
 
 Writers: `docs/sof-source/FIGURE-SPEC.md`.
 
