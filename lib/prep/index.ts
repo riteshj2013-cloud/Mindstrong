@@ -7,7 +7,13 @@ import { READY_GRADES } from "./grades";
 
 export * from "./types";
 export * from "./grades";
-export { getPrepPack, listReadyGrades } from "./catalog";
+export {
+  getPrepPack,
+  listReadyGrades,
+  isAuthoredChapter,
+  authoredChaptersFor,
+  subjectHasAuthoredContent,
+} from "./catalog";
 export {
   readPrepProgress,
   savePrepProgress,
