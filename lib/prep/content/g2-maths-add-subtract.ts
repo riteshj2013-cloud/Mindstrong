@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-addsub-a-q01",
     prompt: "12 + 5 = ?",
     options: [
-      { id: "a", text: "16" },
-      { id: "b", text: "17" },
-      { id: "c", text: "15" },
-      { id: "d", text: "18" }
+      { id: "a", text: "17" },
+      { id: "b", text: "15" },
+      { id: "c", text: "18" },
+      { id: "d", text: "16" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "12 + 5 = 17.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -33,12 +33,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-addsub-a-q03",
     prompt: "15 + 10 = ?",
     options: [
-      { id: "a", text: "25" },
-      { id: "b", text: "5" },
-      { id: "c", text: "150" },
-      { id: "d", text: "20" }
+      { id: "a", text: "150" },
+      { id: "b", text: "20" },
+      { id: "c", text: "25" },
+      { id: "d", text: "5" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "15 + 10 = 25.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-addsub-a-q04",
     prompt: "18 \u2212 8 = ?",
     options: [
-      { id: "a", text: "8" },
-      { id: "b", text: "10" },
-      { id: "c", text: "26" },
-      { id: "d", text: "9" }
+      { id: "a", text: "26" },
+      { id: "b", text: "9" },
+      { id: "c", text: "8" },
+      { id: "d", text: "10" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "18 \u2212 8 = 10.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -59,12 +59,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-addsub-a-q05",
     prompt: "9 + 6 = ?",
     options: [
-      { id: "a", text: "14" },
-      { id: "b", text: "15" },
-      { id: "c", text: "16" },
-      { id: "d", text: "13" }
+      { id: "a", text: "15" },
+      { id: "b", text: "16" },
+      { id: "c", text: "13" },
+      { id: "d", text: "14" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "9 + 6 = 15.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -85,12 +85,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-addsub-a-q07",
     prompt: "Riya has 20 pencils. She gives 3. Left?",
     options: [
-      { id: "a", text: "16" },
-      { id: "b", text: "17" },
-      { id: "c", text: "23" },
-      { id: "d", text: "15" }
+      { id: "a", text: "15" },
+      { id: "b", text: "16" },
+      { id: "c", text: "17" },
+      { id: "d", text: "23" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "20 \u2212 3 = 17.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -98,12 +98,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-addsub-a-q08",
     prompt: "7 + 8 = ?",
     options: [
-      { id: "a", text: "14" },
-      { id: "b", text: "15" },
-      { id: "c", text: "16" },
-      { id: "d", text: "13" }
+      { id: "a", text: "16" },
+      { id: "b", text: "13" },
+      { id: "c", text: "14" },
+      { id: "d", text: "15" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "7 + 8 = 15.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -111,12 +111,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-addsub-a-q09",
     prompt: "30 \u2212 10 = ?",
     options: [
-      { id: "a", text: "10" },
-      { id: "b", text: "20" },
-      { id: "c", text: "40" },
-      { id: "d", text: "25" }
+      { id: "a", text: "20" },
+      { id: "b", text: "40" },
+      { id: "c", text: "25" },
+      { id: "d", text: "10" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "30 \u2212 10 = 20.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-addsub-a-q11",
     prompt: "A pencil costs \u20b98. An eraser costs \u20b95. Total?",
     options: [
-      { id: "a", text: "\u20b912" },
-      { id: "b", text: "\u20b913" },
-      { id: "c", text: "\u20b914" },
-      { id: "d", text: "\u20b93" }
+      { id: "a", text: "\u20b93" },
+      { id: "b", text: "\u20b912" },
+      { id: "c", text: "\u20b913" },
+      { id: "d", text: "\u20b914" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "8 + 5 = \u20b913.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-addsub-a-q12",
     prompt: "25 \u2212 5 = ?",
     options: [
-      { id: "a", text: "15" },
-      { id: "b", text: "20" },
-      { id: "c", text: "30" },
-      { id: "d", text: "10" }
+      { id: "a", text: "30" },
+      { id: "b", text: "10" },
+      { id: "c", text: "15" },
+      { id: "d", text: "20" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "25 \u2212 5 = 20.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -163,12 +163,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-addsub-a-q13",
     prompt: "16 + 4 = ?",
     options: [
-      { id: "a", text: "19" },
-      { id: "b", text: "20" },
-      { id: "c", text: "21" },
-      { id: "d", text: "12" }
+      { id: "a", text: "20" },
+      { id: "b", text: "21" },
+      { id: "c", text: "12" },
+      { id: "d", text: "19" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "16 + 4 = 20.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-addsub-a-q15",
     prompt: "13 + 6 = ?",
     options: [
-      { id: "a", text: "18" },
-      { id: "b", text: "19" },
-      { id: "c", text: "20" },
-      { id: "d", text: "17" }
+      { id: "a", text: "17" },
+      { id: "b", text: "18" },
+      { id: "c", text: "19" },
+      { id: "d", text: "20" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "13 + 6 = 19.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-addsub-a-q16",
     prompt: "Which is correct?",
     options: [
-      { id: "a", text: "10 \u2212 3 = 8" },
-      { id: "b", text: "10 \u2212 3 = 7" },
-      { id: "c", text: "10 \u2212 3 = 6" },
-      { id: "d", text: "10 \u2212 3 = 13" }
+      { id: "a", text: "10 \u2212 3 = 6" },
+      { id: "b", text: "10 \u2212 3 = 13" },
+      { id: "c", text: "10 \u2212 3 = 8" },
+      { id: "d", text: "10 \u2212 3 = 7" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "10 \u2212 3 = 7.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
@@ -218,12 +218,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-addsub-b-q01",
     prompt: "14 + 5 = ?",
     options: [
-      { id: "a", text: "18" },
-      { id: "b", text: "19" },
-      { id: "c", text: "20" },
-      { id: "d", text: "15" }
+      { id: "a", text: "19" },
+      { id: "b", text: "20" },
+      { id: "c", text: "15" },
+      { id: "d", text: "18" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "14 + 5 = 19.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -244,12 +244,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-addsub-b-q03",
     prompt: "8 + 9 = ?",
     options: [
-      { id: "a", text: "16" },
-      { id: "b", text: "17" },
-      { id: "c", text: "18" },
-      { id: "d", text: "15" }
+      { id: "a", text: "15" },
+      { id: "b", text: "16" },
+      { id: "c", text: "17" },
+      { id: "d", text: "18" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "8 + 9 = 17.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -257,12 +257,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-addsub-b-q04",
     prompt: "17 \u2212 7 = ?",
     options: [
-      { id: "a", text: "9" },
-      { id: "b", text: "10" },
-      { id: "c", text: "24" },
-      { id: "d", text: "11" }
+      { id: "a", text: "24" },
+      { id: "b", text: "11" },
+      { id: "c", text: "9" },
+      { id: "d", text: "10" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "17 \u2212 7 = 10.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -270,12 +270,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-addsub-b-q05",
     prompt: "21 + 4 = ?",
     options: [
-      { id: "a", text: "24" },
-      { id: "b", text: "25" },
-      { id: "c", text: "26" },
-      { id: "d", text: "20" }
+      { id: "a", text: "25" },
+      { id: "b", text: "26" },
+      { id: "c", text: "20" },
+      { id: "d", text: "24" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "21 + 4 = 25.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -296,12 +296,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-addsub-b-q07",
     prompt: "Kabir has \u20b930. He spends \u20b910. Left?",
     options: [
-      { id: "a", text: "\u20b910" },
-      { id: "b", text: "\u20b920" },
-      { id: "c", text: "\u20b940" },
-      { id: "d", text: "\u20b915" }
+      { id: "a", text: "\u20b915" },
+      { id: "b", text: "\u20b910" },
+      { id: "c", text: "\u20b920" },
+      { id: "d", text: "\u20b940" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "30 \u2212 10 = \u20b920.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -309,12 +309,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-addsub-b-q08",
     prompt: "6 + 7 = ?",
     options: [
-      { id: "a", text: "12" },
-      { id: "b", text: "13" },
-      { id: "c", text: "14" },
-      { id: "d", text: "11" }
+      { id: "a", text: "14" },
+      { id: "b", text: "11" },
+      { id: "c", text: "12" },
+      { id: "d", text: "13" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "6 + 7 = 13.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -322,12 +322,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-addsub-b-q09",
     prompt: "40 \u2212 20 = ?",
     options: [
-      { id: "a", text: "10" },
-      { id: "b", text: "20" },
-      { id: "c", text: "60" },
-      { id: "d", text: "30" }
+      { id: "a", text: "20" },
+      { id: "b", text: "60" },
+      { id: "c", text: "30" },
+      { id: "d", text: "10" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "40 \u2212 20 = 20.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-addsub-b-q11",
     prompt: "A toy costs \u20b915. A ball costs \u20b910. Total?",
     options: [
-      { id: "a", text: "\u20b920" },
-      { id: "b", text: "\u20b925" },
-      { id: "c", text: "\u20b95" },
-      { id: "d", text: "\u20b930" }
+      { id: "a", text: "\u20b930" },
+      { id: "b", text: "\u20b920" },
+      { id: "c", text: "\u20b925" },
+      { id: "d", text: "\u20b95" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "15 + 10 = \u20b925.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-addsub-b-q12",
     prompt: "28 \u2212 8 = ?",
     options: [
-      { id: "a", text: "18" },
-      { id: "b", text: "20" },
-      { id: "c", text: "36" },
-      { id: "d", text: "10" }
+      { id: "a", text: "36" },
+      { id: "b", text: "10" },
+      { id: "c", text: "18" },
+      { id: "d", text: "20" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "28 \u2212 8 = 20.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -374,12 +374,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-addsub-b-q13",
     prompt: "9 + 9 = ?",
     options: [
-      { id: "a", text: "16" },
-      { id: "b", text: "18" },
-      { id: "c", text: "19" },
-      { id: "d", text: "17" }
+      { id: "a", text: "18" },
+      { id: "b", text: "19" },
+      { id: "c", text: "17" },
+      { id: "d", text: "16" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "9 + 9 = 18.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-addsub-b-q15",
     prompt: "23 + 5 = ?",
     options: [
-      { id: "a", text: "27" },
-      { id: "b", text: "28" },
-      { id: "c", text: "29" },
-      { id: "d", text: "18" }
+      { id: "a", text: "18" },
+      { id: "b", text: "27" },
+      { id: "c", text: "28" },
+      { id: "d", text: "29" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "23 + 5 = 28.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-addsub-b-q16",
     prompt: "Which is correct?",
     options: [
-      { id: "a", text: "12 + 3 = 14" },
-      { id: "b", text: "12 + 3 = 15" },
-      { id: "c", text: "12 + 3 = 16" },
-      { id: "d", text: "12 + 3 = 9" }
+      { id: "a", text: "12 + 3 = 16" },
+      { id: "b", text: "12 + 3 = 9" },
+      { id: "c", text: "12 + 3 = 14" },
+      { id: "d", text: "12 + 3 = 15" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "12 + 3 = 15.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }

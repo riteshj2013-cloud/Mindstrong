@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q01",
     prompt: "Which animal says meow?",
     options: [
-      { id: "a", text: "dog" },
-      { id: "b", text: "cat" },
-      { id: "c", text: "cow" },
-      { id: "d", text: "frog" }
+      { id: "a", text: "cat" },
+      { id: "b", text: "cow" },
+      { id: "c", text: "frog" },
+      { id: "d", text: "dog" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "A cat says meow.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -20,12 +20,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q02",
     prompt: "Fish live in\u2026",
     options: [
-      { id: "a", text: "water" },
-      { id: "b", text: "trees only" },
-      { id: "c", text: "deserts only" },
-      { id: "d", text: "clouds" }
+      { id: "a", text: "clouds" },
+      { id: "b", text: "water" },
+      { id: "c", text: "trees only" },
+      { id: "d", text: "deserts only" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Fish live in water.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -33,12 +33,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q03",
     prompt: "A cow gives us\u2026",
     options: [
-      { id: "a", text: "milk" },
-      { id: "b", text: "wool only" },
-      { id: "c", text: "honey" },
-      { id: "d", text: "silk" }
+      { id: "a", text: "honey" },
+      { id: "b", text: "silk" },
+      { id: "c", text: "milk" },
+      { id: "d", text: "wool only" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Cows give milk.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q04",
     prompt: "Which animal can fly?",
     options: [
-      { id: "a", text: "elephant" },
-      { id: "b", text: "sparrow" },
-      { id: "c", text: "crocodile" },
-      { id: "d", text: "goat" }
+      { id: "a", text: "crocodile" },
+      { id: "b", text: "goat" },
+      { id: "c", text: "elephant" },
+      { id: "d", text: "sparrow" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "A sparrow can fly.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -72,12 +72,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q06",
     prompt: "A lion is a\u2026",
     options: [
-      { id: "a", text: "wild animal" },
-      { id: "b", text: "insect only" },
-      { id: "c", text: "fish" },
-      { id: "d", text: "bird" }
+      { id: "a", text: "bird" },
+      { id: "b", text: "wild animal" },
+      { id: "c", text: "insect only" },
+      { id: "d", text: "fish" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "A lion is a wild animal.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -85,12 +85,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q07",
     prompt: "Which animal hops?",
     options: [
-      { id: "a", text: "fish" },
-      { id: "b", text: "rabbit" },
-      { id: "c", text: "snail" },
-      { id: "d", text: "turtle" }
+      { id: "a", text: "turtle" },
+      { id: "b", text: "fish" },
+      { id: "c", text: "rabbit" },
+      { id: "d", text: "snail" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Rabbits hop.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -98,12 +98,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q08",
     prompt: "Birds have\u2026",
     options: [
-      { id: "a", text: "wings" },
-      { id: "b", text: "fins only" },
-      { id: "c", text: "wheels" },
-      { id: "d", text: "roots" }
+      { id: "a", text: "fins only" },
+      { id: "b", text: "wheels" },
+      { id: "c", text: "roots" },
+      { id: "d", text: "wings" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Birds have wings.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q11",
     prompt: "Bees make\u2026",
     options: [
-      { id: "a", text: "honey" },
-      { id: "b", text: "milk" },
-      { id: "c", text: "wool" },
-      { id: "d", text: "bread" }
+      { id: "a", text: "wool" },
+      { id: "b", text: "bread" },
+      { id: "c", text: "honey" },
+      { id: "d", text: "milk" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Bees make honey.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q12",
     prompt: "An elephant has a long\u2026",
     options: [
-      { id: "a", text: "trunk" },
-      { id: "b", text: "fin" },
-      { id: "c", text: "beak only" },
-      { id: "d", text: "shell" }
+      { id: "a", text: "fin" },
+      { id: "b", text: "beak only" },
+      { id: "c", text: "shell" },
+      { id: "d", text: "trunk" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Elephants have trunks.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -176,12 +176,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q14",
     prompt: "Sheep give us\u2026",
     options: [
-      { id: "a", text: "wool" },
-      { id: "b", text: "honey" },
-      { id: "c", text: "eggs only" },
-      { id: "d", text: "silk" }
+      { id: "a", text: "silk" },
+      { id: "b", text: "wool" },
+      { id: "c", text: "honey" },
+      { id: "d", text: "eggs only" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Sheep give wool.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q15",
     prompt: "A frog can live\u2026",
     options: [
-      { id: "a", text: "near water and land" },
-      { id: "b", text: "only in fire" },
-      { id: "c", text: "only in space" },
-      { id: "d", text: "only in ice cream" }
+      { id: "a", text: "only in space" },
+      { id: "b", text: "only in ice cream" },
+      { id: "c", text: "near water and land" },
+      { id: "d", text: "only in fire" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Frogs like water and land.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q16",
     prompt: "Which is NOT an animal?",
     options: [
-      { id: "a", text: "tiger" },
-      { id: "b", text: "table" },
-      { id: "c", text: "deer" },
-      { id: "d", text: "monkey" }
+      { id: "a", text: "deer" },
+      { id: "b", text: "monkey" },
+      { id: "c", text: "tiger" },
+      { id: "d", text: "table" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "A table is not an animal.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
@@ -218,12 +218,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q01",
     prompt: "Which animal says quack?",
     options: [
-      { id: "a", text: "cat" },
-      { id: "b", text: "duck" },
-      { id: "c", text: "cow" },
-      { id: "d", text: "horse" }
+      { id: "a", text: "duck" },
+      { id: "b", text: "cow" },
+      { id: "c", text: "horse" },
+      { id: "d", text: "cat" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "A duck says quack.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -231,12 +231,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q02",
     prompt: "Where do monkeys like to live?",
     options: [
-      { id: "a", text: "in trees" },
-      { id: "b", text: "under the sea only" },
-      { id: "c", text: "in fire" },
-      { id: "d", text: "in cups" }
+      { id: "a", text: "in cups" },
+      { id: "b", text: "in trees" },
+      { id: "c", text: "under the sea only" },
+      { id: "d", text: "in fire" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Many monkeys live in trees.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -244,12 +244,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q03",
     prompt: "A horse can\u2026",
     options: [
-      { id: "a", text: "run fast" },
-      { id: "b", text: "swim like a fish always" },
-      { id: "c", text: "fly with wings" },
-      { id: "d", text: "lay eggs like a hen" }
+      { id: "a", text: "fly with wings" },
+      { id: "b", text: "lay eggs like a hen" },
+      { id: "c", text: "run fast" },
+      { id: "d", text: "swim like a fish always" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Horses can run fast.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -257,12 +257,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q04",
     prompt: "Which animal has a hard shell?",
     options: [
-      { id: "a", text: "cat" },
-      { id: "b", text: "tortoise" },
-      { id: "c", text: "dog" },
-      { id: "d", text: "cow" }
+      { id: "a", text: "dog" },
+      { id: "b", text: "cow" },
+      { id: "c", text: "cat" },
+      { id: "d", text: "tortoise" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "A tortoise has a hard shell.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -283,12 +283,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q06",
     prompt: "A tiger has\u2026",
     options: [
-      { id: "a", text: "stripes" },
-      { id: "b", text: "wheels" },
-      { id: "c", text: "feathers only" },
-      { id: "d", text: "fins only" }
+      { id: "a", text: "fins only" },
+      { id: "b", text: "stripes" },
+      { id: "c", text: "wheels" },
+      { id: "d", text: "feathers only" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Tigers have stripes.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -296,12 +296,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q07",
     prompt: "Which animal swims?",
     options: [
-      { id: "a", text: "fish" },
-      { id: "b", text: "hen" },
-      { id: "c", text: "camel" },
-      { id: "d", text: "sparrow" }
+      { id: "a", text: "camel" },
+      { id: "b", text: "sparrow" },
+      { id: "c", text: "fish" },
+      { id: "d", text: "hen" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Fish swim.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -309,12 +309,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q08",
     prompt: "Pets need\u2026",
     options: [
-      { id: "a", text: "care and food" },
-      { id: "b", text: "no care" },
-      { id: "c", text: "only stones" },
-      { id: "d", text: "only screens" }
+      { id: "a", text: "no care" },
+      { id: "b", text: "only stones" },
+      { id: "c", text: "only screens" },
+      { id: "d", text: "care and food" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Pets need care and food.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -335,12 +335,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q10",
     prompt: "Which animal has a pouch?",
     options: [
-      { id: "a", text: "kangaroo" },
-      { id: "b", text: "fish" },
-      { id: "c", text: "eagle" },
-      { id: "d", text: "ant" }
+      { id: "a", text: "ant" },
+      { id: "b", text: "kangaroo" },
+      { id: "c", text: "fish" },
+      { id: "d", text: "eagle" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "A kangaroo has a pouch.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q11",
     prompt: "Snakes\u2026",
     options: [
-      { id: "a", text: "have no legs" },
-      { id: "b", text: "have six legs" },
-      { id: "c", text: "have wings" },
-      { id: "d", text: "have fins like sharks always" }
+      { id: "a", text: "have wings" },
+      { id: "b", text: "have fins like sharks always" },
+      { id: "c", text: "have no legs" },
+      { id: "d", text: "have six legs" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Snakes have no legs.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q12",
     prompt: "A peacock is a\u2026",
     options: [
-      { id: "a", text: "bird" },
-      { id: "b", text: "fish" },
-      { id: "c", text: "insect only" },
-      { id: "d", text: "mammal only" }
+      { id: "a", text: "fish" },
+      { id: "b", text: "insect only" },
+      { id: "c", text: "mammal only" },
+      { id: "d", text: "bird" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "A peacock is a bird.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q14",
     prompt: "Cats like to\u2026",
     options: [
-      { id: "a", text: "drink milk" },
-      { id: "b", text: "bark" },
-      { id: "c", text: "moo" },
-      { id: "d", text: "quack" }
+      { id: "a", text: "quack" },
+      { id: "b", text: "drink milk" },
+      { id: "c", text: "bark" },
+      { id: "d", text: "moo" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Cats often drink milk.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q15",
     prompt: "Wild animals live\u2026",
     options: [
-      { id: "a", text: "in forests / wild places" },
-      { id: "b", text: "only in school bags" },
-      { id: "c", text: "only in fridges" },
-      { id: "d", text: "only in books" }
+      { id: "a", text: "only in fridges" },
+      { id: "b", text: "only in books" },
+      { id: "c", text: "in forests / wild places" },
+      { id: "d", text: "only in school bags" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Wild animals live in wild places.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q16",
     prompt: "Which is an insect?",
     options: [
-      { id: "a", text: "butterfly" },
-      { id: "b", text: "cow" },
-      { id: "c", text: "elephant" },
-      { id: "d", text: "whale" }
+      { id: "a", text: "cow" },
+      { id: "b", text: "elephant" },
+      { id: "c", text: "whale" },
+      { id: "d", text: "butterfly" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "A butterfly is an insect.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }

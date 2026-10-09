@@ -256,7 +256,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q20",
-    prompt: "A busy market scene with sellers, shoppers, stalls and an animal.\n  Text-only version for screen readers: On the left, under a \"Vegetables\" sign, an old woman sits on a stool beside a basket of red tomatoes and green chillies. In the middle, a boy in a blue shirt holds his father's hand. The father, in a green shirt, holds a sack labelled \"Potatoes\". On the right, under a \"Fruits\" sign, a fruit seller in an orange shirt stands behind a cart. The top shelf of the cart has bananas, and the bottom shelf has oranges. A cow stands calmly next to the cart. The sun is shining and there are no clouds.\n\nLook carefully at the picture. Questions about PD1 are answered by looking at it.\n\nLook at Picture PD1. What is the old woman on the LEFT selling?",
+    prompt: "Look at the picture. What is the old woman on the LEFT selling?",
     options: [
       { id: "a", text: "Bananas and oranges" },
       { id: "b", text: "Potatoes" },
@@ -270,7 +270,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q21",
-    prompt: "A busy market scene with sellers, shoppers, stalls and an animal.\n  Text-only version for screen readers: On the left, under a \"Vegetables\" sign, an old woman sits on a stool beside a basket of red tomatoes and green chillies. In the middle, a boy in a blue shirt holds his father's hand. The father, in a green shirt, holds a sack labelled \"Potatoes\". On the right, under a \"Fruits\" sign, a fruit seller in an orange shirt stands behind a cart. The top shelf of the cart has bananas, and the bottom shelf has oranges. A cow stands calmly next to the cart. The sun is shining and there are no clouds.\n\nLook carefully at the picture. Questions about PD1 are answered by looking at it.\n\nLook at Picture PD1. Which animal is standing near the fruit cart?",
+    prompt: "Look at the picture. Which animal is standing near the fruit cart?",
     options: [
       { id: "a", text: "A dog" },
       { id: "b", text: "A goat" },
@@ -284,7 +284,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q22",
-    prompt: "A busy market scene with sellers, shoppers, stalls and an animal.\n  Text-only version for screen readers: On the left, under a \"Vegetables\" sign, an old woman sits on a stool beside a basket of red tomatoes and green chillies. In the middle, a boy in a blue shirt holds his father's hand. The father, in a green shirt, holds a sack labelled \"Potatoes\". On the right, under a \"Fruits\" sign, a fruit seller in an orange shirt stands behind a cart. The top shelf of the cart has bananas, and the bottom shelf has oranges. A cow stands calmly next to the cart. The sun is shining and there are no clouds.\n\nLook carefully at the picture. Questions about PD1 are answered by looking at it.\n\nLook at Picture PD1. What is on the TOP shelf of the fruit cart?",
+    prompt: "Look at the picture. What is on the TOP shelf of the fruit cart?",
     options: [
       { id: "a", text: "Bananas" },
       { id: "b", text: "Oranges" },
@@ -298,7 +298,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q23",
-    prompt: "A busy market scene with sellers, shoppers, stalls and an animal.\n  Text-only version for screen readers: On the left, under a \"Vegetables\" sign, an old woman sits on a stool beside a basket of red tomatoes and green chillies. In the middle, a boy in a blue shirt holds his father's hand. The father, in a green shirt, holds a sack labelled \"Potatoes\". On the right, under a \"Fruits\" sign, a fruit seller in an orange shirt stands behind a cart. The top shelf of the cart has bananas, and the bottom shelf has oranges. A cow stands calmly next to the cart. The sun is shining and there are no clouds.\n\nLook carefully at the picture. Questions about PD1 are answered by looking at it.\n\nLook at Picture PD1. How many PEOPLE can you see in the picture?",
+    prompt: "Look at the picture. How many PEOPLE can you see in the picture?",
     options: [
       { id: "a", text: "Two" },
       { id: "b", text: "Three" },
@@ -554,7 +554,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q18",
-    prompt: "A busy market scene with sellers, shoppers, stalls and an animal.\n  Text-only version for screen readers: On the left, under a \"Vegetables\" sign, an old woman sits on a stool beside a basket of red tomatoes and green chillies. In the middle, a boy in a blue shirt holds his father's hand. The father, in a green shirt, holds a sack labelled \"Potatoes\". On the right, under a \"Fruits\" sign, a fruit seller in an orange shirt stands behind a cart. The top shelf of the cart has bananas, and the bottom shelf has oranges. A cow stands calmly next to the cart. The sun is shining and there are no clouds.\n\nLook carefully at the picture. Questions about PD1 are answered by looking at it.\n\nLook at Picture PD1. Who is holding the father's hand?",
+    prompt: "Look at the picture. Who is holding the father's hand?",
     options: [
       { id: "a", text: "The old woman" },
       { id: "b", text: "A boy in a blue shirt" },
@@ -568,7 +568,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q19",
-    prompt: "A busy market scene with sellers, shoppers, stalls and an animal.\n  Text-only version for screen readers: On the left, under a \"Vegetables\" sign, an old woman sits on a stool beside a basket of red tomatoes and green chillies. In the middle, a boy in a blue shirt holds his father's hand. The father, in a green shirt, holds a sack labelled \"Potatoes\". On the right, under a \"Fruits\" sign, a fruit seller in an orange shirt stands behind a cart. The top shelf of the cart has bananas, and the bottom shelf has oranges. A cow stands calmly next to the cart. The sun is shining and there are no clouds.\n\nLook carefully at the picture. Questions about PD1 are answered by looking at it.\n\nLook at Picture PD1. What is the father holding in his other hand?",
+    prompt: "Look at the picture. What is the father holding in his other hand?",
     options: [
       { id: "a", text: "A sack of potatoes" },
       { id: "b", text: "A basket of tomatoes" },
@@ -582,7 +582,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q20",
-    prompt: "A busy market scene with sellers, shoppers, stalls and an animal.\n  Text-only version for screen readers: On the left, under a \"Vegetables\" sign, an old woman sits on a stool beside a basket of red tomatoes and green chillies. In the middle, a boy in a blue shirt holds his father's hand. The father, in a green shirt, holds a sack labelled \"Potatoes\". On the right, under a \"Fruits\" sign, a fruit seller in an orange shirt stands behind a cart. The top shelf of the cart has bananas, and the bottom shelf has oranges. A cow stands calmly next to the cart. The sun is shining and there are no clouds.\n\nLook carefully at the picture. Questions about PD1 are answered by looking at it.\n\nLook at Picture PD1. Which sentence is TRUE about the picture?",
+    prompt: "Look at the picture. Which sentence is TRUE about the picture?",
     options: [
       { id: "a", text: "The cow is eating the bananas." },
       { id: "b", text: "There are two boys in the market." },
@@ -596,7 +596,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q21",
-    prompt: "A busy market scene with sellers, shoppers, stalls and an animal.\n  Text-only version for screen readers: On the left, under a \"Vegetables\" sign, an old woman sits on a stool beside a basket of red tomatoes and green chillies. In the middle, a boy in a blue shirt holds his father's hand. The father, in a green shirt, holds a sack labelled \"Potatoes\". On the right, under a \"Fruits\" sign, a fruit seller in an orange shirt stands behind a cart. The top shelf of the cart has bananas, and the bottom shelf has oranges. A cow stands calmly next to the cart. The sun is shining and there are no clouds.\n\nLook carefully at the picture. Questions about PD1 are answered by looking at it.\n\nLook at Picture PD1. What is on the BOTTOM shelf of the fruit cart?",
+    prompt: "Look at the picture. What is on the BOTTOM shelf of the fruit cart?",
     options: [
       { id: "a", text: "Bananas" },
       { id: "b", text: "Tomatoes" },
