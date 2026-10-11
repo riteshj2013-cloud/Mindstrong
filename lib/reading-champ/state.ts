@@ -21,7 +21,7 @@ const BADGE_BY_SERIES: Record<string, string> = {
   "captain-comet": "space",
   "wonder-wombat": "science",
   "time-hop": "history",
-  "aesop-fables": "fables",
+  "shared-fables": "fables",
 };
 
 export function defaultReadingState(now = "1970-01-01T00:00:00.000Z"): ReadingState {

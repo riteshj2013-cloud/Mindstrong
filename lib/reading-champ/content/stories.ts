@@ -1,8 +1,11 @@
 import type { Bubble, BubbleKind, ComprehensionQ, GlossaryEntry, Story, StorySource } from "../types";
+import { FABLE_STORIES } from "./stories-fables";
+import { MLC_STORIES } from "./stories-mlc";
+import { WOMBAT_STORIES } from "./stories-wombat";
 
 const ART = {
-  pipeline: "placeholder-svg" as const,
-  notes: "Placeholder scene kit. Swap for layered house-style art later. Keep every word in the text layer.",
+  pipeline: "house-svg" as const,
+  notes: "House-style SVG character kits and backgrounds. Keep every word in the text layer.",
 };
 
 function source(origin: StorySource["origin"], extra: Partial<StorySource> = {}): StorySource {
@@ -68,159 +71,8 @@ function base(
 
 const g = (word: string, definition: string): GlossaryEntry => ({ word, definition });
 
-export const STORIES: Story[] = [
-  base({
-    id: "mlc-glow",
-    title: "The Glowing Book",
-    seriesId: "midnight-library",
-    episode: 1,
-    genre: "fiction",
-    subgenre: "adventure",
-    themes: ["books", "friendship"],
-    ladderLevel: 5,
-    expectedMinutes: 4,
-    stretchEligible: false,
-    glossary: [g("glow", "A soft light."), g("brave", "Ready to try, even if you feel a wobble.")],
-    talkAbout: "Would you open a glowing book if a friend stayed with you?",
-    comprehension: [
-      q("What was glowing?", [["book", "The book", "📘"], ["window", "The window", "🪟"], ["lamp", "A lamp", "💡"]], "book", "recall"),
-      q(
-        "How do the friends feel?",
-        [["brave", "Brave together", "🤝"], ["mad", "Mad", "😠"], ["sleepy", "Sleepy", "😴"]],
-        "brave",
-        "inference",
-      ),
-    ],
-    pages: [
-      {
-        id: "p1",
-        panels: [
-          {
-            id: "a",
-            scene: "library",
-            characters: ["mira", "dev"],
-            bubbles: [
-              bubble("a1", "speech", "Look, Dev. That book glows.", "Mira"),
-              bubble("a2", "speech", "It is after school.", "Dev"),
-            ],
-          },
-          {
-            id: "b",
-            scene: "library",
-            characters: ["mira", "dev"],
-            bubbles: [
-              bubble("b1", "speech", "The glow is blue and soft.", "Mira"),
-              bubble("b2", "caption", "They stepped closer."),
-            ],
-          },
-        ],
-      },
-      {
-        id: "p2",
-        panels: [
-          {
-            id: "c",
-            scene: "library",
-            characters: ["mira", "dev"],
-            bubbles: [
-              bubble("c1", "speech", "I feel brave because you are here.", "Dev"),
-              bubble("c2", "speech", "We can open it, but we stay close.", "Mira"),
-            ],
-          },
-          {
-            id: "d",
-            scene: "library",
-            characters: ["mira"],
-            bubbles: [
-              bubble("d1", "caption", "The book showed a tiny door."),
-              bubble("d2", "speech", "A door. Should we peek?", "Mira"),
-            ],
-          },
-        ],
-      },
-    ],
-  }),
-  base({
-    id: "mlc-door",
-    title: "The Door in the Shelf",
-    seriesId: "midnight-library",
-    episode: 2,
-    genre: "fiction",
-    subgenre: "adventure",
-    themes: ["books", "friendship"],
-    ladderLevel: 6,
-    expectedMinutes: 5,
-    stretchEligible: true,
-    glossary: [
-      g("nervous", "A fluttery feeling before something new."),
-      g("fable", "A very old story that teaches a kind idea."),
-      g("lonely", "Feeling alone and wishing for a friend."),
-    ],
-    talkAbout: "Dev felt nervous and then glad. When have you felt both?",
-    comprehension: [
-      q(
-        "Where did the tiny door lead?",
-        [["garden", "A quiet garden", "🌿"], ["sea", "The sea", "🌊"], ["shop", "A shop", "🏪"]],
-        "garden",
-        "recall",
-      ),
-      q(
-        "How did Dev feel at first?",
-        [["nervous", "A bit nervous", "😟"], ["angry", "Angry", "😠"], ["bored", "Bored", "😐"]],
-        "nervous",
-        "inference",
-      ),
-    ],
-    pages: [
-      {
-        id: "p1",
-        panels: [
-          {
-            id: "a",
-            scene: "library",
-            characters: ["mira", "dev"],
-            bubbles: [
-              bubble("a1", "caption", "The tiny door led into a quiet garden."),
-              bubble("a2", "speech", "I think the book is glad we came.", "Mira"),
-            ],
-          },
-          {
-            id: "b",
-            scene: "library",
-            characters: ["dev", "mira"],
-            bubbles: [
-              bubble("b1", "speech", "I was nervous, but your smile helped.", "Dev"),
-              bubble("b2", "speech", "We can look, but we will go back.", "Mira"),
-            ],
-          },
-        ],
-      },
-      {
-        id: "p2",
-        panels: [
-          {
-            id: "c",
-            scene: "savanna",
-            characters: ["mira", "dev"],
-            bubbles: [
-              bubble("c1", "caption", "A lion slept under a big tree."),
-              bubble("c2", "speech", "He looks strong, but he looks lonely too.", "Dev"),
-            ],
-          },
-          {
-            id: "d",
-            scene: "library",
-            characters: ["mira", "dev"],
-            bubbles: [
-              bubble("d1", "speech", "This is an old fable. We can read it next.", "Mira"),
-              bubble("d2", "caption", "The door faded, and they were back."),
-            ],
-          },
-        ],
-      },
-    ],
-  }),
-  base({
+const SAMPLE_STORIES: Story[] = [
+base({
     id: "comet-quiet",
     title: "The Quiet Planet",
     seriesId: "captain-comet",
@@ -296,7 +148,7 @@ export const STORIES: Story[] = [
       },
     ],
   }),
-  base({
+base({
     id: "comet-signal",
     title: "Signal in the Dark",
     seriesId: "captain-comet",
@@ -385,178 +237,7 @@ export const STORIES: Story[] = [
       },
     ],
   }),
-  base({
-    id: "wombat-sky",
-    title: "Why Is the Sky Blue?",
-    seriesId: "wonder-wombat",
-    episode: 1,
-    genre: "nonfiction",
-    subgenre: "science",
-    themes: ["science", "sky"],
-    ladderLevel: 5,
-    expectedMinutes: 4,
-    stretchEligible: false,
-    glossary: [
-      g("sunlight", "Light that comes from the sun."),
-      g("scatters", "Spreads out in many directions."),
-    ],
-    talkAbout: "Look outside together. What color is the sky right now, and what else can you notice?",
-    comprehension: [
-      q(
-        "What color light scatters to make the sky look blue?",
-        [["blue", "Blue light", "🔵"], ["mud", "Mud", "🟤"], ["ink", "Ink", "🖤"]],
-        "blue",
-        "recall",
-      ),
-      q(
-        "When can red light reach you more?",
-        [["sunset", "At sunset", "🌅"], ["lunch", "At lunch", "🥪"], ["class", "In class", "✏️"]],
-        "sunset",
-        "recall",
-      ),
-    ],
-    pages: [
-      {
-        id: "p1",
-        panels: [
-          {
-            id: "a",
-            scene: "burrow",
-            characters: ["wombat"],
-            bubbles: [
-              bubble("a1", "speech", "Why is the sky blue?", "Wombat"),
-              bubble("a2", "caption", "Wombat looked up on a clear day."),
-            ],
-          },
-          {
-            id: "b",
-            scene: "burrow",
-            characters: ["wombat"],
-            bubbles: [
-              bubble("b1", "speech", "Sunlight has many colors.", "Wombat"),
-              bubble("b2", "caption", "Blue light scatters in the air."),
-            ],
-          },
-        ],
-      },
-      {
-        id: "p2",
-        panels: [
-          {
-            id: "c",
-            scene: "meadow",
-            characters: ["wombat"],
-            bubbles: [
-              bubble("c1", "speech", "The blue light bounces to your eyes.", "Wombat"),
-              bubble("c2", "caption", "That is why the sky looks blue."),
-            ],
-          },
-          {
-            id: "d",
-            scene: "burrow",
-            characters: ["wombat"],
-            bubbles: [
-              bubble("d1", "speech", "At sunset, red light can reach you too.", "Wombat"),
-              bubble("d2", "caption", "Wombat smiled at the blue sky."),
-            ],
-          },
-        ],
-      },
-    ],
-  }),
-  base({
-    id: "wombat-storm",
-    title: "Why Do We See Lightning First?",
-    seriesId: "wonder-wombat",
-    episode: 2,
-    genre: "nonfiction",
-    subgenre: "science",
-    themes: ["science", "weather"],
-    ladderLevel: 7,
-    expectedMinutes: 5,
-    stretchEligible: true,
-    glossary: [
-      g("lightning", "A giant spark in a storm cloud."),
-      g("thunder", "The sound that the spark makes."),
-      g("rumbles", "A long, low rolling sound."),
-    ],
-    talkAbout: "What is your family's plan when you hear thunder?",
-    comprehension: [
-      q(
-        "What is lightning?",
-        [["spark", "A huge spark", "⚡"], ["bird", "A bird", "🐦"], ["drum", "A drum", "🥁"]],
-        "spark",
-        "recall",
-      ),
-      q(
-        "Why do you see the flash first?",
-        [["fast", "Light is faster than sound", "💡"], ["eyes", "Eyes are louder", "👀"], ["wind", "Wind hides sound", "💨"]],
-        "fast",
-        "inference",
-      ),
-      q(
-        "Where should you go in a storm?",
-        [["inside", "Inside a strong building", "🏠"], ["tree", "Under a tall tree", "🌳"], ["pool", "Into a pool", "🏊"]],
-        "inside",
-        "recall",
-      ),
-    ],
-    pages: [
-      {
-        id: "p1",
-        panels: [
-          {
-            id: "a",
-            scene: "burrow",
-            characters: ["wombat"],
-            bubbles: [
-              bubble("a1", "speech", "Lightning is a huge spark in a storm cloud.", "Wombat"),
-              bubble("a2", "caption", "The spark is very hot."),
-            ],
-          },
-          {
-            id: "b",
-            scene: "burrow",
-            characters: ["wombat"],
-            bubbles: [
-              bubble("b1", "speech", "Thunder is the sound that spark makes.", "Wombat"),
-              bubble("b2", "caption", "Sound travels slower than light."),
-            ],
-          },
-          {
-            id: "c",
-            scene: "burrow",
-            characters: ["wombat"],
-            bubbles: [bubble("c1", "speech", "You see the flash first because light is fast.", "Wombat")],
-          },
-        ],
-      },
-      {
-        id: "p2",
-        panels: [
-          {
-            id: "d",
-            scene: "burrow",
-            characters: ["wombat"],
-            bubbles: [
-              bubble("d1", "speech", "If you hear thunder, the storm is close.", "Wombat"),
-              bubble("d2", "caption", "Go inside a strong building."),
-            ],
-          },
-          {
-            id: "e",
-            scene: "burrow",
-            characters: ["wombat"],
-            bubbles: [
-              bubble("e1", "speech", "Stay away from tall trees in a storm.", "Wombat"),
-              bubble("e2", "caption", "Wombat waits until the rumbles stop."),
-            ],
-          },
-        ],
-      },
-    ],
-  }),
-  base({
+base({
     id: "timehop-train",
     title: "The First Passenger Train",
     seriesId: "time-hop",
@@ -643,7 +324,7 @@ export const STORIES: Story[] = [
       },
     ],
   }),
-  base({
+base({
     id: "timehop-letter",
     title: "Two Views of the Same Train",
     seriesId: "time-hop",
@@ -746,87 +427,11 @@ export const STORIES: Story[] = [
       },
     ],
   }),
-  base({
-    id: "aesop-lion-mouse",
-    title: "The Lion and the Mouse",
-    seriesId: "aesop-fables",
-    episode: 1,
-    genre: "fiction",
-    subgenre: "fable",
-    themes: ["kindness", "animals"],
-    ladderLevel: 6,
-    expectedMinutes: 5,
-    stretchEligible: true,
-    glossary: [g("gnaw", "To chew through something bit by bit."), g("net", "Ropes tied to trap an animal.")],
-    talkAbout: "The mouse was small and still helped. Who is a helper in your life?",
-    source: source("adapted", {
-      license: "Public domain fable. This comic script is an original adaptation, not a copy of a modern translation.",
-      attribution: "Adapted from the public-domain fable “The Lion and the Mouse,” attributed to Aesop.",
-      sourceUrl: "https://www.gutenberg.org/ebooks/21",
-      notes:
-        "Plot only. Wording is original. Do not brand this episode with the Project Gutenberg name. NC false, SA false. Not a legal review.",
-    }),
-    comprehension: [
-      q(
-        "Who woke the lion?",
-        [["mouse", "The mouse", "🐭"], ["bird", "A bird", "🐦"], ["boy", "A boy", "👦"]],
-        "mouse",
-        "recall",
-      ),
-      q(
-        "How did the mouse help later?",
-        [["ropes", "Chewed the ropes", "🪢"], ["sang", "Sang a song", "🎵"], ["hid", "Hid the lion", "🙈"]],
-        "ropes",
-        "inference",
-      ),
-    ],
-    pages: [
-      {
-        id: "p1",
-        panels: [
-          {
-            id: "a",
-            scene: "savanna",
-            characters: ["lion", "mouse"],
-            bubbles: [
-              bubble("a1", "caption", "A lion slept in the warm sun."),
-              bubble("a2", "speech", "Oh! I ran right over his paw.", "Mouse"),
-            ],
-          },
-          {
-            id: "b",
-            scene: "savanna",
-            characters: ["lion", "mouse"],
-            bubbles: [
-              bubble("b1", "speech", "A tiny mouse woke me. I could eat you.", "Lion"),
-              bubble("b2", "speech", "Please let me go. I may help you one day.", "Mouse"),
-            ],
-          },
-        ],
-      },
-      {
-        id: "p2",
-        panels: [
-          {
-            id: "c",
-            scene: "savanna",
-            characters: ["lion", "mouse"],
-            bubbles: [
-              bubble("c1", "speech", "You are small, but I will let you go.", "Lion"),
-              bubble("c2", "caption", "Later, a rope net held the lion."),
-            ],
-          },
-          {
-            id: "d",
-            scene: "savanna",
-            characters: ["lion", "mouse"],
-            bubbles: [
-              bubble("d1", "speech", "I can gnaw the ropes. Then you will be free.", "Mouse"),
-              bubble("d2", "caption", "The lion was free, and he thanked his small friend."),
-            ],
-          },
-        ],
-      },
-    ],
-  }),
+];
+
+export const STORIES: Story[] = [
+  ...MLC_STORIES,
+  ...WOMBAT_STORIES,
+  ...FABLE_STORIES,
+  ...SAMPLE_STORIES,
 ];
