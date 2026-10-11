@@ -27,6 +27,7 @@ import {
   startSession,
   todaySummary,
 } from "@/lib/session";
+import { useReading } from "@/lib/reading-champ/store";
 import {
   DEFAULT_SETTINGS,
   resetProgress,
@@ -48,6 +49,7 @@ export default function Home() {
   const active = useActiveSession();
   const settings = useSettings();
   const completed = useCompleted();
+  const reading = useReading();
   const [name, setName] = useState("");
   const [age, setAge] = useState<ChildAge>(8);
   const [picking, setPicking] = useState(false);
@@ -67,7 +69,8 @@ export default function Home() {
     progress === undefined ||
     active === undefined ||
     settings === undefined ||
-    completed === undefined
+    completed === undefined ||
+    reading === undefined
   ) {
     return (
       <div className="flex flex-1 items-center justify-center">
@@ -194,7 +197,7 @@ export default function Home() {
         <div className="relative z-10 max-w-[62%]">
           <h1 className="text-4xl font-semibold leading-tight">{hello}</h1>
           <p className="mt-2 text-lg font-bold text-ink/75">
-            Pick a path: daily practice or olympiad prep.
+            Pick a path: daily practice, olympiad prep, or Reading Champ.
           </p>
         </div>
         <div className="absolute -bottom-2 right-2">
@@ -240,6 +243,20 @@ export default function Home() {
             <p className="font-display text-2xl font-semibold">Olympiad prep</p>
             <p className="text-sm font-bold text-ink/60">
               Maths · English · Science · lessons optional
+            </p>
+          </Link>
+          <Link
+            href="/reading"
+            className="rounded-[2rem] bg-gradient-to-br from-sky/40 to-sun/50 p-5 text-left shadow-chunky"
+          >
+            <p className="text-3xl" aria-hidden>
+              📚
+            </p>
+            <p className="font-display text-2xl font-semibold">Reading Champ</p>
+            <p className="text-sm font-bold text-ink/60">
+              {reading.current && !reading.finishedIds.includes(reading.current.storyId)
+                ? "Continue your comic"
+                : "Comics for ages 8–10 · Story Scout"}
             </p>
           </Link>
         </section>

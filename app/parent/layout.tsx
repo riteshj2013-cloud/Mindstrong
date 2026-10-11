@@ -17,6 +17,9 @@ export default function ParentLayout({ children }: { children: React.ReactNode }
           <NavChip href="/parent/progress" tone="soft">
             Progress
           </NavChip>
+          <NavChip href="/parent/reading" tone="soft">
+            Reading
+          </NavChip>
           <NavChip href="/parent/settings" tone="soft">
             Settings
           </NavChip>

@@ -66,11 +66,17 @@ and says so honestly (`todayPackInfo()` in `lib/content/index.ts`).
 
 | Path | Mode | Purpose |
 |------|------|---------|
-| `/` | Child | Home — greeting, streak, journey map, start/resume |
+| `/` | Child | Home — greeting, streak, journey map, start/resume, Reading Champ |
 | `/session` | Child | Session player (state machine) |
 | `/done` | Child | Celebration + badges |
+| `/reading` | Child | Reading Champ — continue, Pick 1 of 3, series |
+| `/reading/placement` | Child | Story Scout placement game |
+| `/reading/read/[storyId]` | Child | Paged comic reader |
+| `/reading/shelf` | Child | Cover shelf, reading days, weekly goal |
+| `/reading/words` | Child | Word Collection |
 | `/parent/gate` | Parent | Soft “I’m the grown-up” gate |
 | `/parent/progress` | Parent | Streak · brave tries this week (target 4) · sessions |
+| `/parent/reading` | Parent | Reading Champ weekly summary |
 | `/parent/settings` | Parent | Child name, age 6–15, read-aloud, reduce motion, reset |
 
 ## Session state machine
@@ -82,12 +88,23 @@ idle → warm_up → focus_a → focus_b → hard_try → reflect → complete
 Same-calendar-day resume from `mindstrong.v1.session.active`.  
 Try-before-hint: hints stay locked until a first attempt; hard try requires an explicit **I tried**.
 
+## Reading Champ
+
+A third home path, next to daily practice and olympiad prep. Comics for ages 8–10 (the sample library is S1–S5). It uses the same child nickname and age as the rest of Mindstrong, and the same grown-up gate.
+
+```bash
+npm test   # level engine, linter, placement, interests, shelf
+```
+
+Full notes, including how to add a story and what is still out of scope: [`docs/reading-champ.md`](docs/reading-champ.md).
+
 ## Storage keys
 
 - `mindstrong.v1.profile`
 - `mindstrong.v1.progress`
 - `mindstrong.v1.session.active`
 - `mindstrong.v1.settings`
+- `mindstrong.v1.reading` — Reading Champ only (levels, shelf, words, interests)
 - Soft gate: `sessionStorage` key `mindstrong.v1.parentGate`
 
 Parent metrics lead with **streak**, **hard attempts this week**, and **sessions completed** — not % correct.
