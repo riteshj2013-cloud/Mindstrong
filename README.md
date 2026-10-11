@@ -26,6 +26,7 @@ Native shells live in `android/` and `ios/`. Full guide: [`docs/mobile.md`](docs
 
 ```bash
 npm run mobile:sync            # build root-path web + sync both platforms
+npm run mobile:build:android   # debug APK + unsigned release AAB → dist/
 npm run mobile:open:android    # Android Studio
 npm run mobile:open:ios        # Xcode (macOS)
 ```

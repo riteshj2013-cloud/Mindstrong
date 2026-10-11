@@ -48,6 +48,27 @@ npm run mobile:open:ios      # Xcode (macOS only)
 
 Then **Run** on an emulator / simulator / device from the IDE.
 
+## Build Android APK / AAB (CLI)
+
+With Android SDK installed and `ANDROID_HOME` set:
+
+```bash
+npm run mobile:build:android
+```
+
+Outputs:
+
+| File | Use |
+| --- | --- |
+| `dist/Mindstrong-debug.apk` | Sideload / internal test (`adb install -r …`) |
+| `dist/Mindstrong-release-unsigned.aab` | Sign, then upload to Play Console |
+
+```bash
+adb install -r dist/Mindstrong-debug.apk
+```
+
+**iOS:** build on a Mac with Xcode (`npm run mobile:ios` → Archive → TestFlight). This Linux environment cannot produce an `.ipa`.
+
 ## Web vs mobile builds
 
 | Target | Command | `basePath` |
