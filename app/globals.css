@@ -175,3 +175,18 @@ h1, h2, h3, .font-display {
 .quiz-figure .highlight {
   stroke-width: 2.5;
 }
+
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("./fonts/opendyslexic-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-dyslexia {
+  font-family: "OpenDyslexic", Verdana, "Trebuchet MS", sans-serif;
+  letter-spacing: 0.02em;
+  word-spacing: 0.08em;
+  line-height: 1.55;
+}

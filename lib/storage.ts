@@ -180,6 +180,10 @@ export function resetEverything() {
     window.localStorage.removeItem("mindstrong.v1.completed");
     window.dispatchEvent(new Event("mindstrong:completed"));
   } catch {}
+  try {
+    window.localStorage.removeItem("mindstrong.v1.reading");
+    window.dispatchEvent(new Event("mindstrong:reading"));
+  } catch {}
 }
 
 // ---------- Soft parent gate ----------
