@@ -31,8 +31,8 @@ export const CONTENT_FLOOR = 5;
 const S_CEILINGS: Record<number, Omit<LevelCeiling, "ladder" | "band" | "step" | "sCode">> = {
   5: {
     maxWordsPerBubble: 12,
-    maxPanelsPerPage: 3,
-    maxWordsPerPage: 40,
+    maxPanelsPerPage: 4,
+    maxWordsPerPage: 56,
     maxWordsPerSentence: 12,
     maxAvgSentence: 8,
     maxSentencesPerPanel: 2,
@@ -41,7 +41,7 @@ const S_CEILINGS: Record<number, Omit<LevelCeiling, "ladder" | "band" | "step" |
   6: {
     maxWordsPerBubble: 16,
     maxPanelsPerPage: 4,
-    maxWordsPerPage: 55,
+    maxWordsPerPage: 64,
     maxWordsPerSentence: 14,
     maxAvgSentence: 10,
     maxSentencesPerPanel: 3,

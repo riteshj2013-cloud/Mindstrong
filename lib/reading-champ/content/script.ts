@@ -5,6 +5,7 @@
  * Later lines are `Speaker: sentence`, `caption: …`, `narration: …`, or `thought: …`.
  */
 
+import { packComicPages } from "../comic-pages";
 import type { Bubble, BubbleKind, ComprehensionQ, GlossaryEntry, SceneId, Story, StoryPage, StorySource } from "../types";
 
 const KINDS = new Set<BubbleKind>(["caption", "narration", "thought"]);
@@ -135,7 +136,7 @@ export function makeStory(
     ladderLevel: draft.ladderLevel,
     ageFloor: 8,
     language: "en",
-    pages: parseScript(draft.script),
+    pages: packComicPages(parseScript(draft.script), draft.ladderLevel),
     glossary: draft.glossary,
     comprehension: draft.comprehension,
     talkAbout: draft.talkAbout,

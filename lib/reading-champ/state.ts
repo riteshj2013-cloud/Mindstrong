@@ -49,6 +49,7 @@ export function defaultReadingState(now = "1970-01-01T00:00:00.000Z"): ReadingSt
     notice: null,
     textSize: "md",
     dyslexiaFont: false,
+    guidedView: false,
     voice: "default",
     badges: [],
     dailyLimitMin: null,
@@ -156,6 +157,14 @@ export function startStory(
 export function setPanel(state: ReadingState, panelIndex: number): ReadingState {
   if (!state.current) return state;
   return { ...state, current: { ...state.current, panelIndex } };
+}
+
+export function setGuidedView(state: ReadingState, guidedView: boolean, panelIndex: number): ReadingState {
+  return {
+    ...state,
+    guidedView,
+    current: state.current ? { ...state.current, panelIndex } : state.current,
+  };
 }
 
 export function saveWord(

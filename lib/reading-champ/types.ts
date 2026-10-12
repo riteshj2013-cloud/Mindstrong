@@ -248,6 +248,8 @@ export interface ReadingState {
   notice: "new-stories" | "easier-picks" | null;
   textSize: "sm" | "md" | "lg";
   dyslexiaFont: boolean;
+  /** Optional one-panel view for S1–S2 or a dyslexia-font reader. */
+  guidedView: boolean;
   voice: "default" | "en-IN";
   badges: string[];
   dailyLimitMin: number | null;

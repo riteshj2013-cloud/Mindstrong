@@ -19,8 +19,8 @@ Open the app, create a nickname if you have not already, then choose **Reading C
 ## What the sample includes
 
 - Story Scout placement. Two short strips at S2 (fiction and non-fiction), then S3 or S1. A strip passes only when both taps are right. The child is placed one level below the highest pass. Non-fiction starts one level lower when the library has room. Parents can override on the Reading summary.
-- Paged reader. One panel at a time, swipe or Next. Text sits in live bubbles, not in the art.
-- Hear it. Browser speech with word highlighting. Indian English is used when that voice exists.
+- Page reader. A comic page shows every panel on that page at once, fitted to the screen width. Swipe or tap the edges to turn the page. Non-fiction opens as a book page of paragraphs. Pinch, Zoom page, or tap a picture to enlarge it. One-panel view is an optional toggle on S1–S2, or when the dyslexia font is on.
+- Hear it reads the whole page, highlighting each word. Indian English is used when that voice exists.
 - Tap a word for a short meaning and a Word Collection.
 - Text size and the OpenDyslexic font (SIL Open Font License, see `app/fonts/OpenDyslexic-OFL.txt`).
 - End screen: “That is enough for today”, then an optional next-episode button. Nothing autoplays.
@@ -39,19 +39,19 @@ Art is a house-style SVG kit (`components/reading-champ/PanelArt.tsx`): reusable
 
 | Code | Ladder | Words / bubble | Panels / page | Words / page |
 |------|--------|----------------|---------------|--------------|
-| S1 | 5 | 12 | 3 | 40 |
-| S2 | 6 | 16 | 4 | 55 |
+| S1 | 5 | 12 | 4 | 56 |
+| S2 | 6 | 16 | 4 | 64 |
 | S3 | 7 | 20 | 4 | 70 |
 | S4 | 8 | 25 | 5 | 90 |
 | S5 | 9 | 30 | 5 | 110 |
 
-Sentence-length and vocabulary ceilings live in `lib/reading-champ/levels.ts`. Rungs outside 5–9 have provisional ceilings only. Sample episodes are short on purpose. A non-sample story with fewer than 10 pages gets a linter warning. Production episodes are meant to be 10–16 pages (up to 20 at S5).
+Sentence-length and vocabulary ceilings live in `lib/reading-champ/levels.ts`. Rungs outside 5–9 have provisional ceilings only. A production episode is at least 3 full pages, and each of those pages holds 3–5 panels. S1 and S2 word caps are high enough for that full page to stay readable on a phone. Short samples are marked `sample`.
 
 Promote when there are at least 60 minutes at the level, finish credit of 2 from the last 3 stories, comprehension of at least 80%, and at most 3 lookups per 100 words. A finished Challenge counts as 2 finish credit. A missed Challenge is ignored. Demotion is quiet: the child sees “easier picks”, never “down”. At most one change every 7 days.
 
 ## Add a story
 
-1. Add a `makeStory` call in `stories-mlc.ts`, `stories-wombat.ts`, `stories-fables.ts`, or `stories.ts`. A script starts each page with `# page`. The next line is `scene character,character`. Later lines are `Name: sentence`, `caption: …`, or `narration: …`.
+1. Add a `makeStory` call in `stories-mlc.ts`, `stories-wombat.ts`, `stories-fables.ts`, or `stories.ts`. Each `# page` block is one panel beat (`scene character,character`, then `Name: sentence`, `caption: …`, or `narration: …`). The reader groups those beats into full comic pages of 3–5 panels.
 2. Use only character ids from `lib/reading-champ/art.ts` and scene ids from `SceneId`.
 3. Set `status: "reviewed"`. Drafts never appear on the shelf. Production episodes are 10–16 pages (up to 20 at S5) and are not marked `sample`.
 4. Record `source` (origin, license, attribution, NC, SA, who checked it, and when). Adapted works also need a source URL. Write new wording. Do not copy a translation.

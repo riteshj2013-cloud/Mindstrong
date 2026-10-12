@@ -8,19 +8,27 @@ import { Button } from "@/components/ui/Button";
 import { Mascot } from "@/components/ui/Mascot";
 import { defineWord, nextEpisode, toMeta } from "@/lib/reading-champ/content";
 import { flatPanels } from "@/lib/reading-champ/text";
-import { abandonStory, finishStory, markGoalCelebrated, saveWord, setPanel, startStory } from "@/lib/reading-champ/state";
+import {
+  abandonStory,
+  finishStory,
+  markGoalCelebrated,
+  saveWord,
+  setGuidedView,
+  setPanel,
+  startStory,
+} from "@/lib/reading-champ/state";
 import { updateReading, useReading } from "@/lib/reading-champ/store";
-import type { Story } from "@/lib/reading-champ/types";
+import type { Story, StoryPage } from "@/lib/reading-champ/types";
 import { localDay } from "@/lib/date";
 import { stopSpeaking } from "@/lib/speech";
-import { BubbleText } from "./BubbleText";
-import { PanelArt } from "./PanelArt";
+import { pageBubbleOrder, StoryPageView } from "./PageView";
 import { ReadingHeader } from "./ReadingHeader";
-import { speakWords } from "./speak";
+import { speakWords, wordStarts } from "./speak";
 
 export function Reader({ story, challenge }: { story: Story; challenge: boolean }) {
   const reading = useReading();
   const router = useRouter();
+  const pages = story.pages;
   const panels = useMemo(() => flatPanels(story), [story]);
   const meta = useMemo(() => toMeta(story), [story]);
   const [phase, setPhase] = useState<"read" | "questions" | "enough">("read");
@@ -29,7 +37,9 @@ export function Reader({ story, challenge }: { story: Story; challenge: boolean 
   const [heard, setHeard] = useState<{ bubbleId: string; index: number } | null>(null);
   const [defined, setDefined] = useState<{ word: string; meaning: string | null } | null>(null);
   const [tools, setTools] = useState(false);
+  const [zoom, setZoom] = useState(1);
   const [touchX, setTouchX] = useState<number | null>(null);
+  const pinch = useRef<{ distance: number; zoom: number } | null>(null);
   const startedFor = useRef<string | null>(null);
 
   useEffect(() => {
@@ -51,23 +61,46 @@ export function Reader({ story, challenge }: { story: Story; challenge: boolean 
     );
   }
 
-  const index = reading.current?.storyId === story.id ? reading.current.panelIndex : 0;
-  const panel = panels[Math.min(index, panels.length - 1)];
+  const guideAllowed = story.ladderLevel <= 6 || reading.dyslexiaFont;
+  const guided = guideAllowed && reading.guidedView;
+  const total = guided ? panels.length : pages.length;
+  const index = Math.min(
+    reading.current?.storyId === story.id ? reading.current.panelIndex : 0,
+    Math.max(0, total - 1),
+  );
+  const page: StoryPage | undefined = guided
+    ? panels[index]
+      ? { id: `guided-${panels[index].panel.id}`, panels: [panels[index].panel] }
+      : undefined
+    : pages[index];
+  const book = story.genre === "nonfiction";
   const textSize = reading.textSize;
   const dyslexia = reading.dyslexiaFont;
 
   function go(next: number) {
     stopSpeaking();
     setHeard(null);
-    updateReading((state) => setPanel(state, next));
+    updateReading((state) => setPanel(state, Math.min(Math.max(0, next), total - 1)));
   }
 
-  function hear(bubbleId: string, text: string) {
-    setHeard({ bubbleId, index: -1 });
+  function hear(target: StoryPage) {
+    const order = pageBubbleOrder(target);
+    const text = order.map((item) => item.text).join(" ");
+    setHeard({ bubbleId: order[0]?.bubbleId ?? "", index: -1 });
     speakWords(
       text,
       reading!.voice,
-      (wordIndex) => setHeard({ bubbleId, index: wordIndex }),
+      (wordIndex) => {
+        let remaining = wordIndex;
+        for (const item of order) {
+          const count = wordStarts(item.text).length;
+          if (remaining < count) {
+            setHeard({ bubbleId: item.bubbleId, index: remaining });
+            return;
+          }
+          remaining -= count;
+        }
+      },
       () => setHeard(null),
     );
   }
@@ -86,6 +119,22 @@ export function Reader({ story, challenge }: { story: Story; challenge: boolean 
     );
   }
 
+  function toggleGuide() {
+    stopSpeaking();
+    setHeard(null);
+    if (!reading!.guidedView) {
+      const pageIndex = Math.min(index, pages.length - 1);
+      const flatIndex = Math.max(
+        0,
+        panels.findIndex((item) => item.pageIndex === pageIndex),
+      );
+      updateReading((state) => setGuidedView(state, true, flatIndex));
+      return;
+    }
+    const pageIndex = panels[index]?.pageIndex ?? 0;
+    updateReading((state) => setGuidedView(state, false, pageIndex));
+  }
+
   function finish() {
     const started = Date.parse(reading?.current?.startedAt ?? "") || Date.now();
     const minutes = Math.max(0.5, Math.round(((Date.now() - started) / 60000) * 10) / 10);
@@ -102,72 +151,120 @@ export function Reader({ story, challenge }: { story: Story; challenge: boolean 
   }
 
   const upcoming = nextEpisode(story);
+  const progress = total === 0 ? 0 : ((index + 1) / total) * 100;
 
   return (
     <main className="flex flex-1 flex-col gap-4">
       <ReadingHeader title={story.title} />
-      {phase === "read" && panel && (
+      {phase === "read" && page && (
         <section
           className="space-y-3"
-          onTouchStart={(event) => setTouchX(event.changedTouches[0]?.clientX ?? null)}
+          onTouchStart={(event) => {
+            if (event.touches.length === 2) {
+              const [a, b] = [event.touches[0], event.touches[1]];
+              pinch.current = {
+                distance: Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY),
+                zoom,
+              };
+              return;
+            }
+            pinch.current = null;
+            setTouchX(event.changedTouches[0]?.clientX ?? null);
+          }}
+          onTouchMove={(event) => {
+            if (event.touches.length !== 2 || !pinch.current) return;
+            const [a, b] = [event.touches[0], event.touches[1]];
+            const distance = Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
+            const next = pinch.current.zoom * (distance / pinch.current.distance);
+            setZoom(Math.min(2.4, Math.max(1, next)));
+          }}
           onTouchEnd={(event) => {
-            if (touchX == null) return;
+            if (pinch.current) {
+              pinch.current = null;
+              return;
+            }
+            if (touchX == null || zoom > 1) return;
             const dx = (event.changedTouches[0]?.clientX ?? touchX) - touchX;
-            if (dx < -40 && index < panels.length - 1) go(index + 1);
-            if (dx > 40 && index > 0) go(index - 1);
+            if (dx < -48 && index < total - 1) go(index + 1);
+            if (dx > 48 && index > 0) go(index - 1);
             setTouchX(null);
           }}
         >
-          <div className="overflow-hidden rounded-[2rem] bg-white shadow-chunky">
-            <PanelArt scene={panel.panel.scene} characters={panel.panel.characters} />
+          <div className="space-y-1">
+            <div
+              className="h-3 overflow-hidden rounded-full bg-white"
+              role="progressbar"
+              aria-valuemin={1}
+              aria-valuemax={total}
+              aria-valuenow={index + 1}
+              aria-label={guided ? "Panel progress" : "Page progress"}
+            >
+              <div className="h-full rounded-full bg-coral" style={{ width: `${progress}%` }} />
+            </div>
+            <p className="text-center text-sm font-bold text-ink/60">
+              {guided ? "Panel" : "Page"} {index + 1} of {total}
+            </p>
           </div>
-          <p className="text-center text-sm font-bold text-ink/50">
-            Panel {index + 1} of {panels.length}
-          </p>
-          <ul className="space-y-3">
-            {panel.panel.bubbles.map((bubble) => (
-              <li key={bubble.id} className="rounded-[1.5rem] bg-white p-4 shadow-soft">
-                <div className="mb-2 flex items-center justify-between gap-2">
-                  <p className="text-sm font-bold text-ink/55">
-                    {bubble.kind === "speech" || bubble.kind === "thought"
-                      ? bubble.speaker
-                      : bubble.kind === "narration"
-                        ? "Narration"
-                        : "Caption"}
-                  </p>
-                  <button
-                    type="button"
-                    className="inline-flex min-h-12 items-center rounded-full bg-sky/20 px-4 text-sm font-bold"
-                    onClick={() => hear(bubble.id, bubble.text)}
-                  >
-                    Hear it
-                  </button>
-                </div>
-                <BubbleText
-                  text={bubble.text}
+          <div className="relative">
+            <button
+              type="button"
+              aria-label={guided ? "Previous panel" : "Previous page"}
+              className="absolute top-0 bottom-0 left-0 z-10 w-8"
+              disabled={index === 0}
+              onClick={() => go(index - 1)}
+            />
+            <button
+              type="button"
+              aria-label={guided ? "Next panel" : "Next page"}
+              className="absolute top-0 bottom-0 right-0 z-10 w-8"
+              disabled={index >= total - 1}
+              onClick={() => go(index + 1)}
+            />
+            <div className="overflow-x-auto">
+              <div style={{ width: `${zoom * 100}%` }}>
+                <StoryPageView
+                  page={page}
+                  book={book}
                   textSize={textSize}
                   dyslexia={dyslexia}
-                  activeIndex={heard?.bubbleId === bubble.id ? heard.index : null}
+                  heard={heard}
                   onWord={onDefine}
                 />
-              </li>
-            ))}
-          </ul>
+              </div>
+            </div>
+          </div>
           <div className="grid grid-cols-2 gap-3">
             <Button variant="secondary" disabled={index === 0} onClick={() => go(index - 1)}>
-              Back
+              {guided ? "Previous panel" : "Previous page"}
             </Button>
-            {index < panels.length - 1 ? (
-              <Button onClick={() => go(index + 1)}>Next</Button>
+            {index < total - 1 ? (
+              <Button onClick={() => go(index + 1)}>{guided ? "Next panel" : "Next page"}</Button>
             ) : (
               <Button onClick={() => setPhase("questions")}>Questions</Button>
             )}
           </div>
-          <button
-            type="button"
-            className="min-h-12 text-sm font-bold text-ink/60"
-            onClick={() => setTools((open) => !open)}
-          >
+          <Button variant="secondary" onClick={() => page && hear(page)}>
+            {guided ? "Hear this panel" : "Hear this page"}
+          </Button>
+          <div className="flex flex-wrap gap-2">
+            <button
+              type="button"
+              className="min-h-12 rounded-full bg-white px-4 font-bold"
+              onClick={() => setZoom((value) => (value > 1 ? 1 : 1.6))}
+            >
+              {zoom > 1 ? "Fit page" : "Zoom page"}
+            </button>
+            {guideAllowed && (
+              <button
+                type="button"
+                className={`min-h-12 rounded-full px-4 font-bold ${guided ? "bg-sun" : "bg-white"}`}
+                onClick={toggleGuide}
+              >
+                {guided ? "Show the whole page" : "One panel at a time"}
+              </button>
+            )}
+          </div>
+          <button type="button" className="min-h-12 text-sm font-bold text-ink/60" onClick={() => setTools((open) => !open)}>
             Text size and font
           </button>
           {tools && (

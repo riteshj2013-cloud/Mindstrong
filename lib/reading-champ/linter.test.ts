@@ -39,11 +39,13 @@ describe("level linter", () => {
         `${story.id}: ${errors.map((issue) => `${issue.where ?? ""} ${issue.message}`).join("; ")}`,
       );
       if (!story.sample) {
-        const maxPages = story.ladderLevel >= 9 ? 20 : 16;
-        assert.ok(
-          story.pages.length >= 10 && story.pages.length <= maxPages,
-          `${story.id} has ${story.pages.length} pages`,
-        );
+        assert.ok(story.pages.length >= 3, `${story.id} has ${story.pages.length} pages`);
+        for (const page of story.pages) {
+          assert.ok(
+            page.panels.length >= 3 && page.panels.length <= 5,
+            `${story.id} ${page.id} has ${page.panels.length} panels`,
+          );
+        }
         assert.ok(story.glossary.length >= 2, `${story.id} needs glossary words`);
         assert.equal(story.comprehension.length >= 2 && story.comprehension.length <= 3, true);
         for (const entry of story.glossary) {
@@ -112,6 +114,12 @@ describe("level linter", () => {
               scene: "library",
               characters: ["dev"],
               bubbles: [{ id: "h", kind: "speech", speaker: "Dev", text: "Another panel." }],
+            },
+            {
+              id: "i",
+              scene: "library",
+              characters: ["mira"],
+              bubbles: [{ id: "j", kind: "speech", speaker: "Mira", text: "One more panel." }],
             },
           ],
         },

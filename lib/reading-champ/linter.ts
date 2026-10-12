@@ -154,12 +154,15 @@ export function lintStory(story: Story): LintIssue[] {
       message: "NC and SA flags must be recorded as true or false.",
     });
   }
-  if (!story.sample && story.pages.length < 10) {
-    issues.push({
-      severity: "warn",
-      code: "production-length",
-      message: "Production episodes are 10–16 pages (up to 20 at S5). Mark shorts as samples or add pages.",
-    });
+  if (!story.sample) {
+    const thin = story.pages.some((page) => page.panels.length < 3 || page.panels.length > 5);
+    if (story.pages.length < 3 || thin) {
+      issues.push({
+        severity: "warn",
+        code: "production-length",
+        message: "A full episode is at least 3 comic pages, with 3–5 panels on each page. Mark shorts as samples.",
+      });
+    }
   }
   if (!story.talkAbout?.trim()) {
     issues.push({
