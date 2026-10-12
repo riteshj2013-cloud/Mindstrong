@@ -213,7 +213,7 @@ function parseEnglishQuiz(block, setId) {
 function emitModule({ exportName, chapterMeta, lessonTs, setA, setB }) {
   const body = `import type { ChapterDef, PrepQuestion } from "../types";
 
-/** ${chapterMeta.title} — authored SOF content (original). */
+/** ${chapterMeta.title} — original olympiad-style content (not affiliated with SOF). */
 
 const SET_A: PrepQuestion[] = [
 ${setA.map(qToTs).join(",\n")}

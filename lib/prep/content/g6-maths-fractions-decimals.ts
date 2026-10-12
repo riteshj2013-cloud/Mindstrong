@@ -1,6 +1,6 @@
 import type { ChapterDef, PrepQuestion } from "../types";
 
-/** Fractions & Decimals - authored SOF content (original). */
+/** Fractions & Decimals - original olympiad-style content (not affiliated with SOF). */
 
 const SET_A: PrepQuestion[] = [
   {

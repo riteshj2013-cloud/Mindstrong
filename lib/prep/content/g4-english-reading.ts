@@ -1,6 +1,6 @@
 import type { ChapterDef, PrepQuestion } from "../types";
 
-/** Story Spotters - authored SOF content (original). */
+/** Story Spotters - original olympiad-style content (not affiliated with SOF). */
 
 const SET_A: PrepQuestion[] = [
   {

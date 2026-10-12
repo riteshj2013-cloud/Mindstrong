@@ -1,6 +1,6 @@
 import type { ChapterDef, PrepQuestion } from "../types";
 
-/** Rational Numbers - authored SOF content (original). */
+/** Rational Numbers - original olympiad-style content (not affiliated with SOF). */
 
 const SET_A: PrepQuestion[] = [
   {

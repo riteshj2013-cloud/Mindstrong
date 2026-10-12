@@ -1,6 +1,6 @@
 import type { ChapterDef, PrepQuestion } from "../types";
 
-/** Matter in Our Surroundings - authored olympiad-style content (original). */
+/** Matter in Our Surroundings - original olympiad-style content (not affiliated with SOF). */
 
 const SET_A: PrepQuestion[] = [
   {

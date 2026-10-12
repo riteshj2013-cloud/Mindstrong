@@ -163,14 +163,6 @@ def emit_chapter(
     set_a = finalize(prefix, "a", set_a_raw)
     set_b = finalize(prefix, "b", set_b_raw)
     emit_module(OUT / file, export, meta, lesson, set_a, set_b)
-    # Prefer olympiad-style wording in the module banner (avoid exam-brand tokens in source).
-    out_path = OUT / file
-    out_path.write_text(
-        out_path.read_text().replace(
-            "authored SOF content (original).",
-            "authored olympiad-style content (original).",
-        )
-    )
     write_md(doc, meta["title"], {**meta, "subject": meta.get("subjectLabel", "Subject"), "chapter_id": f"g10-{meta['id']}"}, lesson_outline, set_a, set_b, passages)
     hints = {}
     for qs, raw in ((set_a, set_a_raw), (set_b, set_b_raw)):

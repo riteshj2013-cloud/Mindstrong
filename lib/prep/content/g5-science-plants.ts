@@ -1,6 +1,6 @@
 import type { ChapterDef, PrepQuestion } from "../types";
 
-/** Plants: Seeds & Dispersal - authored SOF content (original). */
+/** Plants: Seeds & Dispersal - original olympiad-style content (not affiliated with SOF). */
 
 const SET_A: PrepQuestion[] = [
   {

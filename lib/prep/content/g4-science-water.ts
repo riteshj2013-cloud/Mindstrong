@@ -1,6 +1,6 @@
 import type { ChapterDef, PrepQuestion } from "../types";
 
-/** Water: Sources, Uses & Cycle - authored SOF content (original). */
+/** Water: Sources, Uses & Cycle - original olympiad-style content (not affiliated with SOF). */
 
 const SET_A: PrepQuestion[] = [
   {

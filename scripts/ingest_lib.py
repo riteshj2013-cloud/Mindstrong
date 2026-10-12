@@ -599,7 +599,7 @@ def lesson_ts(title, emoji, visual, speak, cards, try_q, bullets):
     )
 
 def emit_module(path: Path, export_name: str, meta: dict, lesson: str, set_a: list, set_b: list):
-    note = "%s - authored SOF content (original)." % meta["title"]
+    note = "%s - original olympiad-style content (not affiliated with SOF)." % meta["title"]
     body = """import type { ChapterDef, PrepQuestion } from "../types";
 
 /** %s */

@@ -138,7 +138,7 @@ chapter (sets with real `questions[]`). Scaffold-only `ch()` entries and empty c
 All grades 1–10 now have authored chapter packs (empty slots reserved only if a grade is intentionally locked).
 See `gradesWithContent()` in `lib/prep/grades.ts`.
 
-## Pictorial MCQs (SOF-style figures)
+## Pictorial MCQs (olympiad-style figures)
 
 Quiz items support optional stem/option `figure` specs. Writer `**Diagram (SVG):**` blocks are
 ingest-sanitized and rendered as **original in-app SVG** (no copyrighted SOF scans).

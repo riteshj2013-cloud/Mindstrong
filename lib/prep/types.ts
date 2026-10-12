@@ -1,4 +1,4 @@
-/** SOF-style test prep types (local-first). */
+/** Olympiad-style test prep types (local-first; not affiliated with SOF). */
 
 export type PrepSubject = "maths" | "english" | "science";
 
@@ -118,7 +118,7 @@ export interface ChapterSet {
   questionCount: number;
   /** Generator topic key used at runtime (fallback when questions absent). */
   topic: string;
-  /** Authored SOF items — preferred over procedural generation when present. */
+  /** Original authored items (olympiad-style, not affiliated with SOF) — preferred over procedural generation when present. */
   questions?: PrepQuestion[];
 }
 

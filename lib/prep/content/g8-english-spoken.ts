@@ -1,6 +1,6 @@
 import type { ChapterDef, PrepQuestion } from "../types";
 
-/** Speak Up: Dialogue & Debate - authored SOF content (original). */
+/** Speak Up: Dialogue & Debate - original olympiad-style content (not affiliated with SOF). */
 
 const SET_A: PrepQuestion[] = [
   {
