@@ -149,9 +149,8 @@ Notes from spot-check:
    - Same prompt, different option lists/answers — noisy for dup detection only.  
    - **Owner:** Maths Writer (optional).
 
-5. **Source file comments still say “authored SOF content”**  
-   - Not kid-facing; low risk.  
-   - **Owner:** Catalog / writers (cosmetic).
+5. **Source file comments said “authored SOF content”** — *resolved:* comments, generators (`generate_g6_pack.py`, `ingest_lib.py`, `ingest-sof-md.mjs`, `g10/emit.py`) and docs now say “original olympiad-style content (not affiliated with SOF)”.  
+   - Was not kid-facing; cosmetic.
 
 ### Follow-ups addressed
 

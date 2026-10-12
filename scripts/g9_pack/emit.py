@@ -155,7 +155,7 @@ def emit_module(
     set_a: list,
     set_b: list,
 ) -> None:
-    note = "%s - authored olympiad-style content (original)." % meta["title"]
+    note = "%s - original olympiad-style content (not affiliated with SOF)." % meta["title"]
     body = """import type { ChapterDef, PrepQuestion } from "../types";
 
 /** %s */

@@ -61,7 +61,7 @@ export function getMockPaper(subject: PrepSubject, grade: Grade): PrepQuestion[]
     c.sets.flatMap((s) => s.questions ?? []),
   );
   if (authored.length >= pack.paperCount) {
-    // Deterministic sample from authored SOF items when available.
+    // Deterministic sample from original authored items when available.
     const seed = subject.charCodeAt(0) * 777 + grade * 31;
     let a = seed >>> 0;
     const rng = () => {

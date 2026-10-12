@@ -826,7 +826,7 @@ def emit_content_ts(ch: dict) -> str:
     paper = ", ".join(esc(t) for t in ch["paperTopics"])
     return f'''import type {{ ChapterDef, PrepQuestion }} from "../types";
 
-/** {ch["title"]} - authored SOF content (original). */
+/** {ch["title"]} - original olympiad-style content (not affiliated with SOF). */
 
 const SET_A: PrepQuestion[] = [
 {set_a}
