@@ -7,6 +7,7 @@ import { Confetti } from "@/components/ui/Confetti";
 import { Button } from "@/components/ui/Button";
 import { Mascot } from "@/components/ui/Mascot";
 import { defineWord, nextEpisode, toMeta } from "@/lib/reading-champ/content";
+import { displayMinutes, estimateReadingMinutes } from "@/lib/reading-champ/reading-time";
 import { flatPanels } from "@/lib/reading-champ/text";
 import {
   abandonStory,
@@ -152,6 +153,7 @@ export function Reader({ story, challenge }: { story: Story; challenge: boolean 
 
   const upcoming = nextEpisode(story);
   const progress = total === 0 ? 0 : ((index + 1) / total) * 100;
+  const readMinutes = displayMinutes(estimateReadingMinutes(story));
 
   return (
     <main className="flex flex-1 flex-col gap-4">
@@ -202,7 +204,7 @@ export function Reader({ story, challenge }: { story: Story; challenge: boolean 
               <div className="h-full rounded-full bg-coral" style={{ width: `${progress}%` }} />
             </div>
             <p className="text-center text-sm font-bold text-ink/60">
-              {guided ? "Panel" : "Page"} {index + 1} of {total}
+              About {readMinutes} min · {guided ? "Panel" : "Page"} {index + 1} of {total}
             </p>
           </div>
           <div className="relative">

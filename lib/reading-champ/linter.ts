@@ -1,10 +1,11 @@
 /**
  * Level linter. Ceilings come from `ceilingFor` (words per bubble, panels per
  * page, words per page, plus sentence length and vocabulary).
- * Sample episodes may be shorter than the 10–16 page production target.
+ * Estimated reading time comes from `reading-time.ts`. A story under 10 minutes fails.
  */
 
 import { ceilingFor } from "./levels";
+import { estimateReadingMinutes, READING_TIME } from "./reading-time";
 import { pageWordCount, sentences, syllables, wordCount, words } from "./text";
 import type { GlossaryEntry, Story, StoryPage } from "./types";
 
@@ -156,11 +157,11 @@ export function lintStory(story: Story): LintIssue[] {
   }
   if (!story.sample) {
     const thin = story.pages.some((page) => page.panels.length < 3 || page.panels.length > 5);
-    if (story.pages.length < 3 || thin) {
+    if (story.pages.length < 10 || thin) {
       issues.push({
         severity: "warn",
         code: "production-length",
-        message: "A full episode is at least 3 comic pages, with 3–5 panels on each page. Mark shorts as samples.",
+        message: "A full episode is at least 10 comic pages, with 3–5 panels on each page.",
       });
     }
   }
@@ -169,6 +170,14 @@ export function lintStory(story: Story): LintIssue[] {
       severity: "error",
       code: "talk-about",
       message: "Each story needs one talk-about-it question for the parent summary.",
+    });
+  }
+  const minutes = estimateReadingMinutes(story);
+  if (minutes < READING_TIME.minimumMinutes) {
+    issues.push({
+      severity: "error",
+      code: "reading-time",
+      message: `Estimated reading time is ${minutes.toFixed(1)} minutes. A story needs at least ${READING_TIME.minimumMinutes}.`,
     });
   }
   return issues;

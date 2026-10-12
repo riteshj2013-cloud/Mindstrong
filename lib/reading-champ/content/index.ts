@@ -1,3 +1,4 @@
+import { displayMinutes, estimateReadingMinutes } from "../reading-time";
 import { normalizeWord, storyWordCount, words } from "../text";
 import type { GlossaryEntry, Story, StoryMeta } from "../types";
 import { PLACEMENT_STRIPS, stripByGenreLevel } from "./placement-strips";
@@ -57,7 +58,7 @@ export function toMeta(story: Story): StoryMeta {
     ladderLevel: story.ladderLevel,
     status: story.status,
     stretchEligible: story.stretchEligible,
-    expectedMinutes: story.expectedMinutes,
+    expectedMinutes: displayMinutes(estimateReadingMinutes(story)),
     talkAbout: story.talkAbout,
     wordCount: storyWordCount(story),
     sample: story.sample,

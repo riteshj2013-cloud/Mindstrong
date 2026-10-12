@@ -39,7 +39,7 @@ describe("level linter", () => {
         `${story.id}: ${errors.map((issue) => `${issue.where ?? ""} ${issue.message}`).join("; ")}`,
       );
       if (!story.sample) {
-        assert.ok(story.pages.length >= 3, `${story.id} has ${story.pages.length} pages`);
+        assert.ok(story.pages.length >= 10 && story.pages.length <= 20, `${story.id} has ${story.pages.length} pages`);
         for (const page of story.pages) {
           assert.ok(
             page.panels.length >= 3 && page.panels.length <= 5,

@@ -6,6 +6,7 @@
  */
 
 import { packComicPages } from "../comic-pages";
+import { displayMinutes, estimateReadingMinutes } from "../reading-time";
 import type { Bubble, BubbleKind, ComprehensionQ, GlossaryEntry, SceneId, Story, StoryPage, StorySource } from "../types";
 
 const KINDS = new Set<BubbleKind>(["caption", "narration", "thought"]);
@@ -125,6 +126,7 @@ export function makeStory(
     source?: StorySource;
   },
 ): Story {
+  const pages = packComicPages(parseScript(draft.script), draft.ladderLevel);
   return {
     id: draft.id,
     title: draft.title,
@@ -136,11 +138,17 @@ export function makeStory(
     ladderLevel: draft.ladderLevel,
     ageFloor: 8,
     language: "en",
-    pages: packComicPages(parseScript(draft.script), draft.ladderLevel),
+    pages,
     glossary: draft.glossary,
     comprehension: draft.comprehension,
     talkAbout: draft.talkAbout,
-    expectedMinutes: draft.expectedMinutes,
+    expectedMinutes: displayMinutes(
+      estimateReadingMinutes({
+        pages,
+        ladderLevel: draft.ladderLevel,
+        comprehension: draft.comprehension,
+      }),
+    ),
     status: "reviewed",
     stretchEligible: draft.stretchEligible,
     source: draft.source ?? originalSource(),

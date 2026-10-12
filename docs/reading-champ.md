@@ -30,7 +30,7 @@ Open the app, create a nickname if you have not already, then choose **Reading C
 - Interest scores on device (topics, genres, series), with decay and a new-topic slot so one genre does not take over. Parents can turn personalization off.
 - Cover shelf, forgiving reading-days calendar with up to two rest days, child-set weekly goal, light genre badges.
 - Parent weekly summary: days, stories, genres, plain-language level, one talk-about-it question per story, an interests line, reminder settings, a daily time hint, export, and delete.
-- 30 reviewed stories. The Midnight Library Club (10 fiction episodes) and Wonder Wombat's Why Files (10 non-fiction episodes) run 10–12 pages across S1–S5. Six more are original retellings of public-domain tales: Aesop (*The Tortoise and the Hare*, *The Lion and the Mouse*, *The Ant and the Grasshopper*), the Kacchapa Jataka, and two Panchatantra tales (*The Monkey and the Crocodile*, *The Blue Jackal*). Each records source, license, and attribution. Captain Comet and Time-Hop Reporters are still short samples. The Project Gutenberg name is not used as a brand.
+- 30 reviewed stories, 344 comic pages, and 22,871 words. Every episode is written to take at least 10 minutes for a child at its level (the estimates land between about 16 and 21 minutes). The Midnight Library Club (10 fiction episodes) and Wonder Wombat's Why Files (10 non-fiction episodes) run across S1–S5, with Captain Comet, Time-Hop Reporters, and six original retellings of public-domain tales: Aesop (*The Tortoise and the Hare*, *The Lion and the Mouse*, *The Ant and the Grasshopper*), the Kacchapa Jataka, and two Panchatantra tales (*The Monkey and the Crocodile*, *The Blue Jackal*). Each records source, license, and attribution. The Project Gutenberg name is not used as a brand.
 - The Jataka retelling lands the tortoise safely in a pond. The ant retelling shares a meal. Both notes are on the story source.
 
 Art is a house-style SVG kit (`components/reading-champ/PanelArt.tsx`): reusable characters and backgrounds, thick outlines, no words in the pictures. Character names live in `lib/reading-champ/art.ts`.
@@ -45,15 +45,40 @@ Art is a house-style SVG kit (`components/reading-champ/PanelArt.tsx`): reusable
 | S4 | 8 | 25 | 5 | 90 |
 | S5 | 9 | 30 | 5 | 110 |
 
-Sentence-length and vocabulary ceilings live in `lib/reading-champ/levels.ts`. Rungs outside 5–9 have provisional ceilings only. A production episode is at least 3 full pages, and each of those pages holds 3–5 panels. S1 and S2 word caps are high enough for that full page to stay readable on a phone. Short samples are marked `sample`.
+Sentence-length and vocabulary ceilings live in `lib/reading-champ/levels.ts`. Rungs outside 5–9 have provisional ceilings only. A full episode is at least 10 comic pages, and each page holds 3–5 panels. S1 and S2 word caps are high enough for that full page to stay readable on a phone.
+
+## Reading time
+
+`lib/reading-champ/reading-time.ts` estimates how long a child aged 8–10 needs for a comic at that level. The linter fails a story under 10 minutes. Cards and the story page show the estimate as “About 12 min”.
+
+The model is tunable:
+
+| Level | Words per minute | Seconds to look at one panel |
+|-------|------------------|------------------------------|
+| S1 | 65 | 10 |
+| S2 | 80 | 9 |
+| S3 | 95 | 8 |
+| S4 | 110 | 7 |
+| S5 | 125 | 6 |
+
+Shared constants: 2 word lookups per 100 words, 12 seconds per lookup, 22 seconds per comprehension tap. Words per minute sit a little under typical oral-fluency midpoints for grades 3–5, because a comic splits attention between the words and the picture. Panel time is for looking. Lookup time stays under the “more than 3 taps per 100 words feels hard” rule.
+
+```
+minutes = words / wordsPerMinute
+  + panels * secondsPerPanel / 60
+  + (words / 100) * 2 * 12 / 60
+  + questions * 22 / 60
+```
+
+This is a planning estimate, not a stopwatch. The end screen still follows the child’s own time.
 
 Promote when there are at least 60 minutes at the level, finish credit of 2 from the last 3 stories, comprehension of at least 80%, and at most 3 lookups per 100 words. A finished Challenge counts as 2 finish credit. A missed Challenge is ignored. Demotion is quiet: the child sees “easier picks”, never “down”. At most one change every 7 days.
 
 ## Add a story
 
-1. Add a `makeStory` call in `stories-mlc.ts`, `stories-wombat.ts`, `stories-fables.ts`, or `stories.ts`. Each `# page` block is one panel beat (`scene character,character`, then `Name: sentence`, `caption: …`, or `narration: …`). The reader groups those beats into full comic pages of 3–5 panels.
+1. Add a `makeStory` call in `stories-mlc.ts`, `stories-wombat.ts`, `stories-fables.ts`, `stories-comet.ts`, or `stories-timehop.ts`. Each `# page` block is one panel beat (`scene character,character`, then `Name: sentence`, `caption: …`, or `narration: …`). The reader groups those beats into full comic pages of 3–5 panels.
 2. Use only character ids from `lib/reading-champ/art.ts` and scene ids from `SceneId`.
-3. Set `status: "reviewed"`. Drafts never appear on the shelf. Production episodes are 10–16 pages (up to 20 at S5) and are not marked `sample`.
+3. Set `status: "reviewed"`. Drafts never appear on the shelf. A full episode is 10–20 comic pages and is not marked `sample`. `lintStory` fails it when the reading-time estimate is under 10 minutes.
 4. Record `source` (origin, license, attribution, NC, SA, who checked it, and when). Adapted works also need a source URL. Write new wording. Do not copy a translation.
 5. Give the story 2 or 3 comprehension taps and glossary words that actually appear in the bubbles.
 6. Run `npm test`. `lintStory` checks the ceilings, and the content test checks pages, glossary, scenes, and characters.
