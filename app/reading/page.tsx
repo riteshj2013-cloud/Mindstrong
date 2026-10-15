@@ -91,6 +91,7 @@ export default function ReadingHomePage() {
         <Link href={`/reading/read/${current.id}`} className="rounded-[1.75rem] bg-white p-4 shadow-chunky">
           <p className="text-sm font-bold text-ink/50">Continue</p>
           <p className="font-display text-2xl font-semibold">{current.title}</p>
+          <p className="text-sm font-bold text-ink/55">About {current.expectedMinutes} min</p>
         </Link>
       )}
       {!reading.placed ? (
@@ -117,7 +118,9 @@ export default function ReadingHomePage() {
               <p className="text-sm font-bold text-ink/45">{slot.reason}</p>
               <Link href={`/reading/read/${slot.story.id}${slot.role === "challenge" ? "?challenge=1" : ""}`}>
                 <p className="font-display text-2xl font-semibold">{slot.story.title}</p>
-                <p className="text-sm font-bold text-ink/55">{seriesById(slot.story.seriesId)?.title}</p>
+                <p className="text-sm font-bold text-ink/55">
+                  {seriesById(slot.story.seriesId)?.title} · About {slot.story.expectedMinutes} min
+                </p>
               </Link>
               <div className="mt-2 flex flex-wrap gap-2">
                 {slot.story.themes.map((theme) => (

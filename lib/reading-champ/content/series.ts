@@ -34,10 +34,10 @@ export const SERIES: SeriesInfo[] = [
     emoji: "⏳",
   },
   {
-    id: "aesop-fables",
+    id: "shared-fables",
     title: "Fables we can share",
     genre: "fiction",
-    blurb: "A public-domain fable, retold in our own words.",
+    blurb: "Aesop, Jataka, and Panchatantra tales, retold in our own words.",
     themes: ["kindness", "animals"],
     emoji: "🦁",
   },
@@ -48,5 +48,5 @@ export const GENRE_BADGES: { id: string; seriesId: string; label: string; emoji:
   { id: "space", seriesId: "captain-comet", label: "Space explorer", emoji: "🚀" },
   { id: "science", seriesId: "wonder-wombat", label: "Science detective", emoji: "🔬" },
   { id: "history", seriesId: "time-hop", label: "History hopper", emoji: "⏳" },
-  { id: "fables", seriesId: "aesop-fables", label: "Fable friend", emoji: "🦁" },
+  { id: "fables", seriesId: "shared-fables", label: "Fable friend", emoji: "🦁" },
 ];

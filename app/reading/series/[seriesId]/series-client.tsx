@@ -47,6 +47,7 @@ export function SeriesClient() {
               <Link href={`/reading/read/${story.id}`}>
                 <p className="text-sm font-bold text-ink/45">Episode {story.episode}</p>
                 <p className="font-display text-2xl font-semibold">{story.title}</p>
+                <p className="text-sm font-bold text-ink/55">About {story.expectedMinutes} min</p>
                 {done && <p className="text-sm font-bold text-leaf">On your shelf</p>}
               </Link>
               <div className="mt-3 grid grid-cols-2 gap-2">

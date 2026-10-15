@@ -10,11 +10,21 @@ export type BubbleKind = "speech" | "thought" | "caption" | "narration";
 
 export type SceneId =
   | "library"
+  | "stacks"
+  | "night"
+  | "garden"
   | "space"
   | "burrow"
   | "meadow"
-  | "time"
+  | "sky"
+  | "pond"
+  | "forest"
   | "savanna"
+  | "time"
+  | "village"
+  | "river"
+  | "moon"
+  | "market"
   | "train"
   | "timeline";
 
@@ -89,7 +99,7 @@ export interface Story {
   /** Short samples skip the production page-count warning. */
   sample?: boolean;
   source: StorySource;
-  art: { pipeline: "placeholder-svg"; notes: string };
+  art: { pipeline: "house-svg"; notes: string };
 }
 
 export interface SeriesInfo {
@@ -238,6 +248,8 @@ export interface ReadingState {
   notice: "new-stories" | "easier-picks" | null;
   textSize: "sm" | "md" | "lg";
   dyslexiaFont: boolean;
+  /** Optional one-panel view for S1–S2 or a dyslexia-font reader. */
+  guidedView: boolean;
   voice: "default" | "en-IN";
   badges: string[];
   dailyLimitMin: number | null;

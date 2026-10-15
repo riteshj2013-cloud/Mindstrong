@@ -14,12 +14,15 @@ export function BubbleText({
   textSize,
   dyslexia,
   onWord,
+  inline = false,
 }: {
   text: string;
   activeIndex: number | null;
   textSize: "sm" | "md" | "lg";
   dyslexia: boolean;
   onWord: (word: string) => void;
+  /** Inside a book paragraph, so the words stay in one block of text. */
+  inline?: boolean;
 }) {
   const parts = text.split(/(\s+)/).reduce<
     { key: number; kind: "gap" | "plain" | "word"; text: string; wordIndex?: number; word?: string }[]
@@ -30,8 +33,9 @@ export function BubbleText({
     const wordIndex = items.filter((item) => item.kind === "word").length;
     return [...items, { key: index, kind: "word", text: part, wordIndex, word: normalizeWord(token) }];
   }, []);
+  const Tag = inline ? "span" : "p";
   return (
-    <p className={`leading-relaxed ${SIZE[textSize]} ${dyslexia ? "font-dyslexia" : ""}`}>
+    <Tag className={`leading-relaxed ${SIZE[textSize]} ${dyslexia ? "font-dyslexia" : ""}`}>
       {parts.map((part) => {
         if (part.kind !== "word" || part.wordIndex == null || !part.word) {
           return <span key={part.key}>{part.text}</span>;
@@ -50,6 +54,6 @@ export function BubbleText({
           </button>
         );
       })}
-    </p>
+    </Tag>
   );
 }

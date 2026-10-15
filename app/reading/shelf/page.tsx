@@ -92,6 +92,7 @@ export default function ShelfPage() {
                       {story.genre === "nonfiction" ? "🔎" : "📘"}
                     </p>
                     <p className="font-display text-lg font-semibold">{story.title}</p>
+                    <p className="text-sm font-bold text-ink/55">About {story.expectedMinutes} min</p>
                   </Link>
                 </li>
               );

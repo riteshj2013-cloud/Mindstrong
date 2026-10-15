@@ -90,7 +90,7 @@ Try-before-hint: hints stay locked until a first attempt; hard try requires an e
 
 ## Reading Champ
 
-A third home path, next to daily practice and olympiad prep. Comics for ages 8–10 (the sample library is S1–S5). It uses the same child nickname and age as the rest of Mindstrong, and the same grown-up gate.
+A third home path, next to daily practice and olympiad prep. Comics for ages 8–10, with 30 reviewed S1–S5 stories (344 pages, 22,871 words). Each episode is estimated at 10 minutes or more for a child at that level. It uses the same child nickname and age as the rest of Mindstrong, and the same grown-up gate.
 
 ```bash
 npm test   # level engine, linter, placement, interests, shelf

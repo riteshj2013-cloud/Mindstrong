@@ -3,8 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { BubbleText } from "@/components/reading-champ/BubbleText";
-import { PanelArt } from "@/components/reading-champ/PanelArt";
+import { pageBubbleOrder, StoryPageView } from "@/components/reading-champ/PageView";
 import { ReadingHeader } from "@/components/reading-champ/ReadingHeader";
 import { Button } from "@/components/ui/Button";
 import { Mascot } from "@/components/ui/Mascot";
@@ -12,7 +11,7 @@ import { stripByGenreLevel } from "@/lib/reading-champ/content";
 import { stripPassed } from "@/lib/reading-champ/placement";
 import { ensurePlacement, submitPlacementStrip } from "@/lib/reading-champ/state";
 import { updateReading, useReading } from "@/lib/reading-champ/store";
-import { speakWords } from "@/components/reading-champ/speak";
+import { speakWords, wordStarts } from "@/components/reading-champ/speak";
 import { stopSpeaking } from "@/lib/speech";
 
 export default function PlacementPage() {
@@ -21,7 +20,7 @@ export default function PlacementPage() {
   const [panelIndex, setPanelIndex] = useState(0);
   const [questionIndex, setQuestionIndex] = useState(0);
   const [correct, setCorrect] = useState(0);
-  const [heard, setHeard] = useState<number | null>(null);
+  const [heard, setHeard] = useState<{ bubbleId: string; index: number } | null>(null);
   const [showQuestions, setShowQuestions] = useState(false);
 
   useEffect(() => {
@@ -65,8 +64,8 @@ export default function PlacementPage() {
     );
   }
 
-  const panels = strip.pages.flatMap((page) => page.panels);
-  const panel = panels[panelIndex];
+  const pages = strip.pages;
+  const page = pages[Math.min(panelIndex, pages.length - 1)];
   const question = strip.questions[questionIndex];
 
   function resetStrip() {
@@ -81,42 +80,52 @@ export default function PlacementPage() {
     <main className="flex flex-1 flex-col gap-4">
       <ReadingHeader title="Story Scout" />
       <p className="text-center font-bold text-ink/60">Help Bo find stories that fit. There is no score.</p>
-      {!showQuestions && panel && (
+      {!showQuestions && page && (
         <section className="space-y-3">
-          <div className="overflow-hidden rounded-[2rem] bg-white shadow-chunky">
-            <PanelArt scene={panel.scene} characters={panel.characters} />
-          </div>
-          {panel.bubbles.map((bubble) => (
-            <div key={bubble.id} className="rounded-[1.5rem] bg-white p-4 shadow-soft">
-              <div className="mb-2 flex items-center justify-between">
-                <p className="text-sm font-bold text-ink/50">{bubble.speaker ?? "Caption"}</p>
-                <button
-                  type="button"
-                  className="min-h-12 rounded-full bg-sky/20 px-4 text-sm font-bold"
-                  onClick={() => {
-                    setHeard(-1);
-                    speakWords(bubble.text, reading.voice, (index) => setHeard(index), () => setHeard(null));
-                  }}
-                >
-                  Hear it
-                </button>
-              </div>
-              <BubbleText
-                text={bubble.text}
-                textSize={reading.textSize}
-                dyslexia={reading.dyslexiaFont}
-                activeIndex={heard}
-                onWord={() => {}}
-              />
-            </div>
-          ))}
+          <p className="text-center text-sm font-bold text-ink/55">
+            Page {panelIndex + 1} of {pages.length}
+          </p>
+          <StoryPageView
+            page={page}
+            book={strip.genre === "nonfiction"}
+            textSize={reading.textSize}
+            dyslexia={reading.dyslexiaFont}
+            heard={heard}
+            onWord={() => {}}
+          />
+          <Button
+            variant="secondary"
+            onClick={() => {
+              const order = pageBubbleOrder(page);
+              const text = order.map((item) => item.text).join(" ");
+              setHeard({ bubbleId: order[0]?.bubbleId ?? "", index: -1 });
+              speakWords(
+                text,
+                reading.voice,
+                (wordIndex) => {
+                  let remaining = wordIndex;
+                  for (const item of order) {
+                    const count = wordStarts(item.text).length;
+                    if (remaining < count) {
+                      setHeard({ bubbleId: item.bubbleId, index: remaining });
+                      return;
+                    }
+                    remaining -= count;
+                  }
+                },
+                () => setHeard(null),
+              );
+            }}
+          >
+            Hear this page
+          </Button>
           <Button
             onClick={() => {
-              if (panelIndex < panels.length - 1) setPanelIndex((n) => n + 1);
+              if (panelIndex < pages.length - 1) setPanelIndex((n) => n + 1);
               else setShowQuestions(true);
             }}
           >
-            {panelIndex < panels.length - 1 ? "Next" : "Tap the picture"}
+            {panelIndex < pages.length - 1 ? "Next page" : "Tap the picture"}
           </Button>
         </section>
       )}

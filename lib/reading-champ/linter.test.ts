@@ -1,19 +1,71 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
+import { CHARACTER_KITS } from "./art";
+import { storyHasWord } from "./content";
 import { PLACEMENT_STRIPS } from "./content/placement-strips";
 import { STORIES } from "./content/stories";
 import { lintErrors, lintPages, lintStory } from "./linter";
-import type { Story } from "./types";
+import type { SceneId, Story } from "./types";
+
+const SCENES = new Set<SceneId>([
+  "library",
+  "stacks",
+  "night",
+  "garden",
+  "space",
+  "burrow",
+  "meadow",
+  "sky",
+  "pond",
+  "forest",
+  "savanna",
+  "time",
+  "village",
+  "river",
+  "moon",
+  "market",
+  "train",
+  "timeline",
+]);
 
 describe("level linter", () => {
   it("accepts every sample story and placement strip", () => {
     for (const story of STORIES) {
-      const errors = lintErrors(lintStory(story));
+      const issues = lintStory(story);
+      const errors = lintErrors(issues);
       assert.deepEqual(
         errors,
         [],
-        `${story.id}: ${errors.map((issue) => issue.message).join("; ")}`,
+        `${story.id}: ${errors.map((issue) => `${issue.where ?? ""} ${issue.message}`).join("; ")}`,
       );
+      if (!story.sample) {
+        assert.ok(story.pages.length >= 10 && story.pages.length <= 20, `${story.id} has ${story.pages.length} pages`);
+        for (const page of story.pages) {
+          assert.ok(
+            page.panels.length >= 3 && page.panels.length <= 5,
+            `${story.id} ${page.id} has ${page.panels.length} panels`,
+          );
+        }
+        assert.ok(story.glossary.length >= 2, `${story.id} needs glossary words`);
+        assert.equal(story.comprehension.length >= 2 && story.comprehension.length <= 3, true);
+        for (const entry of story.glossary) {
+          assert.equal(storyHasWord(story, entry.word), true, `${story.id} glossary missing ${entry.word}`);
+        }
+        const warns = issues.filter((issue) => issue.severity === "warn");
+        assert.deepEqual(
+          warns,
+          [],
+          `${story.id} warnings: ${warns.map((issue) => issue.message).join("; ")}`,
+        );
+      }
+      for (const page of story.pages) {
+        for (const panel of page.panels) {
+          assert.equal(SCENES.has(panel.scene), true, `${story.id} scene ${panel.scene}`);
+          for (const id of panel.characters) {
+            assert.equal(id in CHARACTER_KITS, true, `${story.id} character ${id}`);
+          }
+        }
+      }
     }
     for (const strip of PLACEMENT_STRIPS) {
       const errors = lintErrors(lintPages(strip.pages, strip.ladderLevel, strip.glossary));
@@ -62,6 +114,12 @@ describe("level linter", () => {
               scene: "library",
               characters: ["dev"],
               bubbles: [{ id: "h", kind: "speech", speaker: "Dev", text: "Another panel." }],
+            },
+            {
+              id: "i",
+              scene: "library",
+              characters: ["mira"],
+              bubbles: [{ id: "j", kind: "speech", speaker: "Mira", text: "One more panel." }],
             },
           ],
         },
