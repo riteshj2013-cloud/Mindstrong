@@ -1008,12 +1008,12 @@ Wombat: Count from the flash to the boom.
 
 # page
 burrow wombat,dot
-Dot: About five counts means about one mile.
+Dot: About three counts means about one km.
 Wombat: More counts mean the storm is farther.
 
 # page
 meadow wombat,dot
-Dot: Ten counts would mean about two miles.
+Dot: Six counts would mean about two km.
 Wombat: One quick count means it is very near.
 
 # page
@@ -1134,11 +1134,11 @@ Wombat: A small number means it is close.
 # page
 burrow wombat,dot
 Dot: Trust the count more than a wild guess.
-Wombat: Five counts is about one mile away.
+Wombat: Three counts is about one km away.
 
 # page
 meadow wombat,dot
-Dot: Ten counts is about two miles away.
+Dot: Six counts is about two km away.
 Wombat: That storm is farther than a one count storm.
 
 # page
