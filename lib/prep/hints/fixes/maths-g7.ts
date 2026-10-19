@@ -1,7 +1,7 @@
 /**
  * Grade 7 Maths — item-specific hint fixes (fix layer).
  * Source: app repo commit 4291140 (served hints: lib/prep/content + lib/prep/hints overlays). Written 2026-10-19.
- * Items changed: 68 | hints: 68
+ * Items changed: 69 | hints: 69
  * By category (primary): answer-revealing fixed 14 · generic replaced 51 · shared-hint split 2
  * Each hint nudges the method using the item's own numbers/objects; none contains the answer,
  * an option letter or "eliminate options". A later hint is a stronger nudge (a first step worked).
@@ -81,4 +81,5 @@ export const G7_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g7-maths-angles-b-q20": ["270° is more than a straight angle of 180° but less than a full turn of 360°. Name that angle type."],
   "g7-maths-angles-b-q22": ["Walk round a convex polygon, turning by the exterior angle at each vertex. How much have you turned in total?"],
   "g7-maths-integers-a-q22": ["Write 8 + ? = −5. Which number must you add to 8 to land on −5 on the number line?"],
+  "g7-maths-angles-a-q17": ["The angles of a triangle add to 180°, and so do angles on a straight line. Write both facts and compare."],
 };
