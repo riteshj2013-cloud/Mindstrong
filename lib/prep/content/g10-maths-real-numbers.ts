@@ -350,7 +350,7 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "\u221a18 / 50" },
       { id: "b", text: "3/5" },
-      { id: "c", text: "3\u221a2 / 5\u221a2" },
+      { id: "c", text: "3\u221a2 / 5" },
       { id: "d", text: "9/25" }
     ],
     answerId: "b",

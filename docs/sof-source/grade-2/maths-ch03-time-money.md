@@ -234,12 +234,12 @@
 
 ### Q9
 - **stem**: Lunch time is often around…
-- A) noon / midday
+- A) noon
 - B) midnight only
 - C) 3 a.m. only
-- D) never
+- D) 7 p.m. only
 - **answer**: A
-- **explanation**: Lunch is often around midday.
+- **explanation**: Lunch is often around noon, 12 o'clock in the daytime (also called midday). 7 p.m. is nearer dinner time; midnight and 3 a.m. are in the night.
 
 ### Q10
 - **stem**: A toy costs ₹25. You have ₹30. Can you buy it?

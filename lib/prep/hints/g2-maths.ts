@@ -90,7 +90,7 @@ export const G2_MATHS_HINTS: Record<string, HintOverlay> = {
   "g2-maths-timemoney-b-q06": ["Three twos."],
   "g2-maths-timemoney-b-q07": ["30 minutes past."],
   "g2-maths-timemoney-b-q08": ["Compare."],
-  "g2-maths-timemoney-b-q09": ["Middle of day.", "Noon."],
+  "g2-maths-timemoney-b-q09": ["Middle of day.", "The clock shows 12 in the daytime."],
   "g2-maths-timemoney-b-q10": ["Compare money to price."],
   "g2-maths-timemoney-b-q11": ["Longer = minutes."],
   "g2-maths-timemoney-b-q12": ["Two tens."],

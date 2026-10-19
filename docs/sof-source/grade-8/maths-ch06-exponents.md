@@ -183,7 +183,7 @@
   - A) 3⁴
   - B) 3⁻⁴
   - C) 9⁻²
-  - D) Both B and C
+  - D) Both 3⁻⁴ and 9⁻²
 - **answer**: D
 - **explanation**: 81 = 3⁴ = 9², so 1/81 = 3⁻⁴ = 9⁻².
 - **skill**: negative
@@ -473,7 +473,7 @@
   - A) 5²
   - B) 5⁻²
   - C) 25⁻¹
-  - D) Both B and C
+  - D) Both 5⁻² and 25⁻¹
 - **answer**: D
 - **explanation**: 25 = 5², so 1/25 = 5⁻² = 25⁻¹.
 - **skill**: negative
