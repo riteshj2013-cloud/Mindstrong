@@ -124,14 +124,14 @@
 - **difficulty**: mixed
 
 ### Q10
-- **stem**: Xylem transports —
+- **stem**: At night, when transpiration is very low, water still rises a little in the xylem of a plant. This is mainly due to —
 - **options**:
-  - A) oxygen only
-  - B) food downward only
-  - C) water and minerals upward
-  - D) urea
+  - A) photosynthesis in the leaves
+  - B) translocation in the phloem
+  - C) root pressure
+  - D) peristalsis
 - **answer**: C
-- **explanation**: Xylem sap moves from roots toward leaves.
+- **explanation**: Root cells actively take in ions from the soil, and water follows by osmosis. This builds root pressure that pushes water up the xylem, which matters most at night. Translocation is tempting, but it moves food through the phloem, not water through the xylem.
 - **difficulty**: mixed
 
 ### Q11
@@ -291,14 +291,14 @@
 ## Set B
 
 ### Q01
-- **stem**: Raw materials for photosynthesis are —
+- **stem**: Before testing a leaf for starch, a potted plant is kept in the dark for about two days. Why?
 - **options**:
-  - A) urea
-  - B) only nitrogen gas
-  - C) CO₂ and H₂O (with light & chlorophyll)
-  - D) only O₂
+  - A) To increase the amount of chlorophyll
+  - B) To make all the stomata open
+  - C) To use up the starch already stored in the leaves
+  - D) To kill the leaf cells so that iodine can enter
 - **answer**: C
-- **explanation**: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (light).
+- **explanation**: In the dark the plant cannot photosynthesise, so it uses up the starch already in its leaves (destarching). Any starch found after exposure to light must then be newly made. Opening stomata is tempting, but stomata usually close in the dark and that has nothing to do with stored starch.
 - **difficulty**: mixed
 
 ### Q02

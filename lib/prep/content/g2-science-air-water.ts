@@ -385,15 +385,15 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g2-sci-airwater-b-q14",
-    prompt: "Snow is water in a ___ form.",
+    prompt: "Riya blows into a balloon and it gets bigger. What fills the balloon?",
     options: [
-      { id: "a", text: "liquid only" },
-      { id: "b", text: "solid" },
-      { id: "c", text: "gas only" },
-      { id: "d", text: "plastic" }
+      { id: "a", text: "water" },
+      { id: "b", text: "air" },
+      { id: "c", text: "sand" },
+      { id: "d", text: "light" }
     ],
     answerId: "b",
-    explanation: "Snow is solid water.",
+    explanation: "When Riya blows, air from her lungs goes into the balloon. Air takes up space, so the balloon grows. Water is wrong: nothing wet came out of Riya's mouth.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

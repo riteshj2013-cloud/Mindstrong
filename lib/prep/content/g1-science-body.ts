@@ -135,15 +135,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g1-sci-body-a-q11",
-    prompt: "We have how many eyes?",
+    prompt: "When you sit on a chair, which part of your legs bends?",
     options: [
-      { id: "a", text: "1" },
-      { id: "b", text: "3" },
-      { id: "c", text: "2" },
-      { id: "d", text: "4" }
+      { id: "a", text: "ears" },
+      { id: "b", text: "elbows" },
+      { id: "c", text: "knees" },
+      { id: "d", text: "nose" }
     ],
     answerId: "c",
-    explanation: "Most people have 2 eyes.",
+    explanation: "Our knees are in the middle of our legs. They bend when we sit, kneel or climb steps. Elbows bend too, but elbows are in our arms, not our legs.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -268,15 +268,15 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g1-sci-body-b-q05",
-    prompt: "We have how many legs?",
+    prompt: "On a cold winter morning, what should we wear to keep our body warm?",
     options: [
-      { id: "a", text: "2" },
-      { id: "b", text: "1" },
-      { id: "c", text: "3" },
-      { id: "d", text: "4" }
+      { id: "a", text: "a warm sweater" },
+      { id: "b", text: "a paper hat" },
+      { id: "c", text: "wet clothes" },
+      { id: "d", text: "swimming clothes" }
     ],
     answerId: "a",
-    explanation: "We have 2 legs.",
+    explanation: "A warm sweater keeps the heat of our body close to us, so we feel warm in winter. Swimming clothes are clothes too, but they are thin and made for water, not for the cold.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

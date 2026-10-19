@@ -31,15 +31,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g2-sci-animals-a-q03",
-    prompt: "Birds have ___ to fly.",
+    prompt: "Which animal moves by crawling on its belly?",
     options: [
-      { id: "a", text: "fins only" },
-      { id: "b", text: "roots" },
-      { id: "c", text: "wings" },
-      { id: "d", text: "wheels" }
+      { id: "a", text: "horse" },
+      { id: "b", text: "parrot" },
+      { id: "c", text: "snake" },
+      { id: "d", text: "kangaroo" }
     ],
     answerId: "c",
-    explanation: "Birds use wings to fly.",
+    explanation: "A snake has no legs. It moves by bending its long body and sliding along on its belly. A kangaroo also moves in a special way, but it hops on its strong back legs.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

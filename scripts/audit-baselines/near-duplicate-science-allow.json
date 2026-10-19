@@ -1,0 +1,23 @@
+{
+ "note": "Science pairs that look alike to scripts/near-duplicate-science-stems.mjs but test different facts (reviewed 2026-10-19). Add a reason for every pair.",
+ "pairs": [
+  "g2-sci-animals-a-q07|g2-sci-animals-b-q07",
+  "g3-sci-animals-a-q02|g3-sci-animals-b-q02",
+  "g3-sci-animals-a-q22|g3-sci-animals-b-q17",
+  "g4-sci-water-b-q06|g4-sci-water-b-q07",
+  "g8-sci-metals-a-q01|g8-sci-metals-b-q01",
+  "g9-sci-motion-a-q09|g9-sci-motion-a-q10",
+  "g1-sci-animals-b-q06|g2-sci-animals-b-q02",
+  "g7-sci-acids-b-q11|g8-sci-chemfx-a-q02"
+ ],
+ "reasons": {
+  "g2-sci-animals-a-q07|g2-sci-animals-b-q07": "insects have 6 legs vs spiders have 8: a deliberate contrast, different answers",
+  "g3-sci-animals-a-q22|g3-sci-animals-b-q17": "different diagrams and animals; one asks for the wrong match, the other for the right one",
+  "g3-sci-animals-a-q02|g3-sci-animals-b-q02": "herbivore vs carnivore: different facts",
+  "g4-sci-water-b-q06|g4-sci-water-b-q07": "freezing (water to ice) vs melting (ice to water)",
+  "g8-sci-metals-a-q01|g8-sci-metals-b-q01": "malleability (sheets) vs ductility (wires)",
+  "g9-sci-motion-a-q09|g9-sci-motion-a-q10": "slope of distance-time (speed) vs velocity-time (acceleration)",
+  "g1-sci-animals-b-q06|g2-sci-animals-b-q02": "tiger has stripes (G1) vs tiger is a carnivore (G2)",
+  "g7-sci-acids-b-q11|g8-sci-chemfx-a-q02": "distilled water is neutral (G7) vs a poor conductor (G8)"
+ }
+}

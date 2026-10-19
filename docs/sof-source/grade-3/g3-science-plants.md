@@ -125,13 +125,13 @@
 - **Answer:** A
 - **Explanation:** Fruits keep seeds safe inside. Cut an apple and you will see small seeds.
 
-**Q7.** *(Recall)* Most leaves are which colour?
-- A) Blue
-- B) Black
-- C) Pink
-- D) Green
+**Q7.** *(Recall)* At a feast in Kerala, food is served on one large, wide leaf. Which leaf is it most likely to be?
+- A) Tulsi leaf
+- B) Neem leaf
+- C) Grass blade
+- D) Banana leaf
 - **Answer:** D
-- **Explanation:** Most leaves are green. The green colour helps them use sunlight to make food.
+- **Explanation:** Banana leaves are very large, wide, smooth and waterproof, so in many parts of India they are used as plates. Neem is a common tree too, but its leaves are small and narrow.
 
 **Q8.** *(Recall)* What does a leaf need to make food?
 - A) Sand, salt and sugar

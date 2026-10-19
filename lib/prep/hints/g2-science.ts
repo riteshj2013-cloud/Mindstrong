@@ -36,7 +36,7 @@ export const G2_SCIENCE_HINTS: Record<string, HintOverlay> = {
   "g2-sci-plants-b-q16": ["Needs light.", "Weak."],
   "g2-sci-animals-a-q01": ["Cow, goat, deer.", "Herbivore."],
   "g2-sci-animals-a-q02": ["Lion, tiger.", "Carnivore."],
-  "g2-sci-animals-a-q03": ["Flight."],
+  "g2-sci-animals-a-q03": ["Which animal has no legs at all, so its belly slides along the ground as it moves?"],
   "g2-sci-animals-a-q04": ["In water."],
   "g2-sci-animals-a-q05": ["Plant eater."],
   "g2-sci-animals-a-q06": ["Long sleep."],
@@ -95,7 +95,7 @@ export const G2_SCIENCE_HINTS: Record<string, HintOverlay> = {
   "g2-sci-airwater-b-q11": ["Sun lifts water."],
   "g2-sci-airwater-b-q12": ["Keep water clean.", "Rivers."],
   "g2-sci-airwater-b-q13": ["Feel the breeze."],
-  "g2-sci-airwater-b-q14": ["Cold weather."],
+  "g2-sci-airwater-b-q14": ["You cannot see it, but you push it out of your mouth each time you breathe out into the balloon."],
   "g2-sci-airwater-b-q15": ["Lungs.", "Breathing."],
   "g2-sci-airwater-b-q16": ["Kills germs.", "Safer."],
 };

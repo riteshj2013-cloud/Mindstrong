@@ -829,14 +829,14 @@ D) Nest
 **Explanation:** Cows live in a cowshed. It keeps them safe from rain and hot sun.
 
 ### Q7
-**Stem:** Which of these is an omnivore?
+**Stem:** Which animal can live both on land and in water?
 **Options:**
-A) Deer
-B) Human
-C) Tiger
-D) Rabbit
+A) Cow
+B) Frog
+C) Parrot
+D) Camel
 **Answer:** B
-**Explanation:** Humans eat plant food like rice and fruits. We also eat eggs, fish or milk. So we are omnivores.
+**Explanation:** A frog starts life in water as a tadpole. When it grows, it hops on land and also swims using its webbed back feet. A camel is wrong: it lives in dry deserts with very little water.
 
 ### Q8 · Pictorial
 **Diagram (SVG):**

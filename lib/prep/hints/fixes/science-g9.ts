@@ -5,6 +5,7 @@
  * By category (primary): answer-leak fixed 7 · chapter-shared hint split 0 · other strict-check fixes 46
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
+ * Also holds hints for items rewritten in the Science near-duplicate stem pass (2026-10-19).
  * Merge: these WIN over G9_SCIENCE_HINTS and over authored question.hints (see ../index.ts applyHints).
  */
 import type { HintOverlay } from "../types";
@@ -16,7 +17,7 @@ export const G9_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g9-sci-matter-a-q05": ["Think of a brick, milk in a jug and air in a balloon. Which keeps both its own shape and its own volume?"],
   "g9-sci-matter-a-q09": ["Clothes dry slowly on a damp, sticky monsoon day. Which listed change makes the air less able to take in more vapour?"],
   "g9-sci-matter-a-q10": ["Pour one cup of water into a plate, then a bottle. Does the amount change? Does the shape change?"],
-  "g9-sci-matter-a-q12": ["Kelvin reading = Celsius reading + 273. Apply that rule to zero degrees Celsius."],
+  "g9-sci-matter-a-q12": ["The water now tastes sweet, so the sugar is still there. How could it fit in without raising the level?"],
   "g9-sci-matter-a-q16": ["Humid air already holds much water vapour. Can evaporation into it be as quick as into dry air?"],
   "g9-sci-matter-a-q17": ["Ice melts at the same temperature at which water freezes, the lower fixed point of the Celsius scale."],
   "g9-sci-matter-a-q18": ["LPG is stored as a liquid in a strong steel cylinder. What does squeezing or cooling do to gas particles?"],

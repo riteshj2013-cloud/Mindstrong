@@ -122,15 +122,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-sci-life-a-q10",
-    prompt: "Xylem transports \u2014",
+    prompt: "At night, when transpiration is very low, water still rises a little in the xylem of a plant. This is mainly due to \u2014",
     options: [
-      { id: "a", text: "oxygen only" },
-      { id: "b", text: "food downward only" },
-      { id: "c", text: "water and minerals upward" },
-      { id: "d", text: "urea" }
+      { id: "a", text: "photosynthesis in the leaves" },
+      { id: "b", text: "translocation in the phloem" },
+      { id: "c", text: "root pressure" },
+      { id: "d", text: "peristalsis" }
     ],
     answerId: "c",
-    explanation: "Xylem sap moves from roots toward leaves.",
+    explanation: "Root cells actively take in ions from the soil, and water follows by osmosis. This builds root pressure that pushes water up the xylem, which matters most at night. Translocation is tempting, but it moves food through the phloem, not water through the xylem.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -320,15 +320,15 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g10-sci-life-b-q01",
-    prompt: "Raw materials for photosynthesis are \u2014",
+    prompt: "Before testing a leaf for starch, a potted plant is kept in the dark for about two days. Why?",
     options: [
-      { id: "a", text: "urea" },
-      { id: "b", text: "only nitrogen gas" },
-      { id: "c", text: "CO\u2082 and H\u2082O (with light & chlorophyll)" },
-      { id: "d", text: "only O\u2082" }
+      { id: "a", text: "To increase the amount of chlorophyll" },
+      { id: "b", text: "To make all the stomata open" },
+      { id: "c", text: "To use up the starch already stored in the leaves" },
+      { id: "d", text: "To kill the leaf cells so that iodine can enter" }
     ],
     answerId: "c",
-    explanation: "6CO\u2082 + 6H\u2082O \u2192 C\u2086H\u2081\u2082O\u2086 + 6O\u2082 (light).",
+    explanation: "In the dark the plant cannot photosynthesise, so it uses up the starch already in its leaves (destarching). Any starch found after exposure to light must then be newly made. Opening stomata is tempting, but stomata usually close in the dark and that has nothing to do with stored starch.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

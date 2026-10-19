@@ -320,3 +320,20 @@ These stems were not exact duplicates, but they tested the same fact inside one 
 - `g3-sci-senses-b-q09` (touch → skin, same as b-q02) → “Which of these can you find out ONLY by touching, not by looking?” (warm or cold)
 - `g3-sci-senses-b-q16` (pain → skin, same as b-q02) → “Why is it useful that our skin can feel pain?” (it warns us to move away)
 
+## Follow-up 2: Science near-duplicates (branch `science-dup-stems-2026-10-19`)
+
+All Science entries above were already resolved on main (checked against the served stems). A near-duplicate scan of the Science bank (`scripts/near-duplicate-science-stems.mjs`, stem + options token overlap) found 11 more same-fact items, within a grade or repeated from a lower grade. Each later item was replaced with a new original item on the same chapter concept. The id, difficulty and answer letter stay the same, and each new item has its own hint and an explanation that names the tempting wrong option:
+
+- `g1-sci-body-a-q11` (repeats g1-sci-body-a-q05: count hands; same options and answer 2) → “When you sit on a chair, which part of your legs bends?” (knees)
+- `g1-sci-body-b-q05` (repeats g1-sci-body-a-q05: count hands; same options and answer 2) → “On a cold winter morning, what should we wear to keep our body warm?” (a warm sweater)
+- `g2-sci-airwater-b-q14` (repeats g2-sci-airwater-a-q04: ice is solid water; snow repeated the fact) → “Riya blows into a balloon and it gets bigger. What fills the balloon?” (air)
+- `g2-sci-animals-a-q03` (repeats g1-sci-animals-a-q08: birds have wings) → “Which animal moves by crawling on its belly?” (snake)
+- `g3-sci-plants-a-q07` (repeats g1-sci-plants-a-q02: leaves are green) → “At a feast in Kerala, food is served on one large, wide leaf. Which leaf is it most likely to be?” (Banana leaf)
+- `g3-sci-animals-b-q07` (repeats g2-sci-animals-a-q10: human is an omnivore) → “Which animal can live both on land and in water?” (Frog)
+- `g4-sci-plants-a-q01` (repeats g1-sci-plants-a-q01: root grows under the soil) → “A banyan tree has roots that grow down from its branches into the soil, like pillars. What are these roots called?” (Prop roots)
+- `g4-sci-plants-a-q09` (repeats g3-sci-plants-a-q12: we eat spinach leaves) → “Which of these vegetables do we eat as a FLOWER?” (Cauliflower)
+- `g9-sci-matter-a-q12` (repeats g7-sci-heat-b-q16: 0 °C = 273 K) → “A spoon of sugar is stirred into 50 mL of water until it dissolves, and the water level hardly rises. This shows that particles of matter —” (have spaces between them)
+- `g10-sci-life-b-q01` (repeats g7-sci-nutrition-b-q01: raw materials of photosynthesis) → “Before testing a leaf for starch, a potted plant is kept in the dark for about two days. Why?” (To use up the starch already stored in the leaves)
+- `g10-sci-life-a-q10` (repeats g9-sci-cell-a-q15: xylem transports water and minerals) → “At night, when transpiration is very low, water still rises a little in the xylem of a plant. This is mainly due to —” (root pressure)
+
+Pairs that look alike but test different facts are listed with reasons in `scripts/audit-baselines/near-duplicate-science-allow.json`.

@@ -59,14 +59,14 @@
 ## Quiz Set A — 24 MCQs
 
 ### A1
-**Stem:** Which part of a plant usually grows under the soil and takes in water?
-- A) Root
-- B) Flower
-- C) Fruit
-- D) Leaf
+**Stem:** A banyan tree has roots that grow down from its branches into the soil, like pillars. What are these roots called?
+- A) Prop roots
+- B) Tendrils
+- C) Thorns
+- D) Runners
 
 **Answer:** A
-**Explanation:** Roots grow down into the soil. They take in water and minerals and hold the plant firmly.
+**Explanation:** Prop roots grow down from the branches of a banyan tree and support its heavy, spreading branches. Tendrils also hold on to things, but they are thin coiling parts that help climbers like the pea plant hold a support.
 
 ### A2
 **Stem:** Which plant part is often called the plant's kitchen because it makes food?
@@ -139,14 +139,14 @@
 **Explanation:** A carrot is a swollen root that stores food. It grows under the soil.
 
 ### A9
-**Stem:** When we eat spinach (palak), which plant part are we mostly eating?
-- A) Leaf
-- B) Root
-- C) Stem
-- D) Seed
+**Stem:** Which of these vegetables do we eat as a FLOWER?
+- A) Cauliflower
+- B) Carrot
+- C) Potato
+- D) Spinach
 
 **Answer:** A
-**Explanation:** Spinach is made of soft green leaves. Leafy vegetables give us vitamins and fibre.
+**Explanation:** The white head of a cauliflower is made of many tiny flower buds packed tightly together. Spinach is also a soft green vegetable, but we eat its leaves. Carrot is a root and potato is an underground stem.
 
 ### A10
 **Stem:** What do we usually find inside a ripe mango or apple?
