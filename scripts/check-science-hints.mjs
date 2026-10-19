@@ -3,21 +3,28 @@
  * check-science-hints.mjs — verifies the EFFECTIVE (served) Science hints,
  * i.e. after applyPictorialList + applyHints (fix layer > authored > overlay).
  *
- * Errors (exit 1):
- *   (a) hint-contains-answer: a hint contains the correct option text
- *       (normalized: lower-case, punctuation collapsed, whole-word match);
+ * Errors (exit 1), on the served hint:
+ *   (a) hint-contains-answer: a hint contains the correct answer or one of its alternatives, matched with
+ *       scripts/science-hint-leak.mjs (picture-label prefixes such as "A — " stripped, articles dropped,
+ *       parentheticals checked on their own, "/" and " or " alternatives split, CO₂ = CO2, plurals folded);
  *   (b) hint-letter-ref: a hint names an option by letter ("option B", "(c)", "A and C"…)
  *       or is a bare letter;
  *   (c) hint-dup-in-chapter: two different questions in one chapter serve an identical hint;
  *   (d) hint-too-long: a hint is longer than 25 words.
+ * Every hint layer that can reach a child is checked and reported separately: the question's own
+ * (authored) hints, the overlay in lib/prep/hints/g{n}-science.ts, and the fix layer in
+ * lib/prep/hints/fixes. A leak in a layer that is not served (shadowed by a higher layer) is a warning.
  * Warnings (reported, not fatal):
- *   hint-contains-answer-part: a hint contains a ≥4-letter slash/parenthesis part of the answer.
+ *   hint-head-term: multi-word answer whose distinctive head term (longest 5+ letter content word) is in
+ *                   the hint; hint-paren-word: a one-word parenthetical of the answer is in the hint;
+ *   shadowed-leak:  a leak in a layer that the served hint overrides.
  *
  * Usage: node scripts/check-science-hints.mjs [--grade N] [--verbose]
  */
 import { createJiti } from "jiti";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { leakFindings } from "./science-hint-leak.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const jiti = createJiti(import.meta.url, { alias: { "@": ROOT } });
@@ -25,6 +32,12 @@ const load = (p) => jiti(path.join(ROOT, p));
 const catalog = load("lib/prep/catalog.ts");
 const types = load("lib/prep/types.ts");
 const prep = load("lib/prep/index.ts");
+const hintsMod = load("lib/prep/hints/index.ts");
+const fixes = load("lib/prep/hints/fixes/index.ts").ITEM_HINT_FIXES;
+const overlays = {};
+for (const g of types.ALL_GRADES) {
+  try { Object.assign(overlays, load(`lib/prep/hints/g${g}-science.ts`)[`G${g}_SCIENCE_HINTS`] ?? {}); } catch { /* grade has no overlay */ }
+}
 
 const args = process.argv.slice(2);
 const onlyGrade = args.includes("--grade") ? Number(args[args.indexOf("--grade") + 1]) : null;
@@ -54,25 +67,12 @@ function letterRefs(h) {
 }
 const norm = (s) =>
   String(s ?? "").normalize("NFKC").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
-const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-const wordIn = (needle, hay) =>
-  !!needle && new RegExp(`(?:^| )${esc(needle)}(?: |$)`, "u").test(hay);
-function containsAnswer(hint, answer) {
-  const a = norm(answer);
-  if (!a || (a.length < 2 && !/^\d$/.test(a))) return false; // single letters: equality only
-  return wordIn(a, norm(hint));
-}
-function answerParts(answer) {
-  return String(answer ?? "")
-    .split(/[/()]/)
-    .map(norm)
-    .filter((p) => p.replace(/ /g, "").length >= 4 && p !== norm(answer));
-}
 
 const errors = [];
 const warnings = [];
 let items = 0;
 let hintCount = 0;
+const layerLeaks = { authored: 0, overlay: 0, fix: 0, served: 0 };
 for (const g of types.ALL_GRADES) {
   if (onlyGrade && g !== onlyGrade) continue;
   const pack = catalog.getPrepPack("science", g);
@@ -81,16 +81,33 @@ for (const g of types.ALL_GRADES) {
     const seen = new Map(); // normalized hint -> first question id
     for (const set of ch.sets) {
       if (!set.questions?.length) continue;
+      const raw = new Map(set.questions.map((x) => [x.id, x]));
       for (const q of prep.getChapterSetQuestions("science", g, ch.id, set.id)) {
         items++;
         const answer = q.options.find((o) => o.id === q.answerId)?.text ?? "";
+        const authored = raw.get(q.id)?.hints ?? [];
+        const layers = {
+          authored: hintsMod.isBoilerplateHints(authored) ? [] : authored,
+          overlay: overlays[q.id] ?? [],
+          fix: fixes[q.id] ?? [],
+        };
+        const servedFrom = fixes[q.id] ? "fix" : layers.authored.length ? "authored" : overlays[q.id] ? "overlay" : "authored";
+        for (const [layer, hs] of Object.entries(layers)) {
+          if (layer === servedFrom) continue; // reported below as the served hint
+          for (const h of hs) for (const f of leakFindings(h, answer)) {
+            if (f.level !== "error") continue;
+            layerLeaks[layer]++;
+            warnings.push(`shadowed-leak [${layer}, not served; served=${servedFrom}]  ${q.id}: "${h}"  [${f.rule}: ${f.part}]`);
+          }
+        }
         for (const h of q.hints ?? []) {
           hintCount++;
-          const at = `${q.id}: "${h}"`;
-          if (containsAnswer(h, answer)) errors.push(`hint-contains-answer  ${at}  [answer: ${answer}]`);
-          else if (norm(h) === norm(answer)) errors.push(`hint-is-answer  ${at}`);
-          for (const p of answerParts(answer))
-            if (wordIn(p, norm(h))) warnings.push(`hint-contains-answer-part  ${at}  [part: ${p}]`);
+          const at = `${q.id} [served from ${servedFrom}]: "${h}"`;
+          for (const f of leakFindings(h, answer)) {
+            if (f.level === "error") { layerLeaks.served++; errors.push(`hint-contains-answer  ${at}  [${f.rule}: ${f.part}; answer: ${answer}]`); }
+            else warnings.push(`hint-${f.rule}  ${at}  [${f.part}; answer: ${answer}]`);
+          }
+          if (norm(h) === norm(answer)) errors.push(`hint-is-answer  ${at}`);
           const refs = letterRefs(h);
           if (refs.length) errors.push(`hint-letter-ref  ${at}  [${refs.join(", ")}]`);
           const words = h.trim().split(/\s+/).filter(Boolean).length;
@@ -110,6 +127,7 @@ for (const e of errors) byRule[e.split(" ")[0]] = (byRule[e.split(" ")[0]] ?? 0)
 console.log(`science hints: ${items} served questions, ${hintCount} hints checked`);
 console.log(`errors: ${errors.length}`, JSON.stringify(byRule));
 console.log(`warnings: ${warnings.length}`);
+console.log(`answer leaks by layer (served = fatal; others shadowed): ${JSON.stringify(layerLeaks)}`);
 for (const e of errors) console.log("  ERROR " + e);
 if (verbose) for (const w of warnings) console.log("  warn  " + w);
 process.exit(errors.length ? 1 : 0);

@@ -6,6 +6,7 @@
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
  * Also holds hints for items rewritten in the Science near-duplicate stem pass (2026-10-19).
+ * Leak review (2026-10-19): hints rewritten where the hardened check-science-hints.mjs found answer text.
  * Merge: these WIN over G3_SCIENCE_HINTS and over authored question.hints (see ../index.ts applyHints).
  */
 import type { HintOverlay } from "../types";
@@ -137,7 +138,7 @@ export const G3_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g3-sci-senses-b-q01": ["Tasting happens inside the open mouth. Find the label that points into the mouth on the face."],
   "g3-sci-senses-b-q02": ["Rub soft cotton on your arm. Which organ covering your arm feels how soft it is?"],
   "g3-sci-senses-b-q03": ["A cartoon is pictures that move on a screen. Which organ do you need to watch pictures?"],
-  "g3-sci-senses-b-q04": ["Sugar goes in kheer and laddoos. What taste do those sweets have?"],
+  "g3-sci-senses-b-q04": ["Think of kheer and laddoos, made with sugar. Is that taste like lemon, like salt, or something else?"],
   "g3-sci-senses-b-q05": ["The school bell rings and makes a sound. Which picture shows the organ that catches sound?"],
   "g3-sci-senses-b-q06": ["Garbage, smoke and rotten eggs smell bad. Which one is a flower we put in garlands?"],
   "g3-sci-senses-b-q07": ["A raw green mango makes your face scrunch up, like lemon does. Which taste is that?"],

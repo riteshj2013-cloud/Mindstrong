@@ -1,12 +1,13 @@
 /**
  * Grade 1 Science — item-specific hint fixes (fix layer).
  * Source: app repo origin/main c5a133b (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 89 | hints: 121
+ * Items changed: 90 | hints: 122
  * By category (primary): answer-leak fixed 3 · chapter-shared hint split 9 · other strict-check fixes 23
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
  * Pass 2 (2026-10-19): 54 vague single-hint items rewritten as item-specific nudges for 6–7-year-olds.
  * Also holds hints for items rewritten in the Science near-duplicate stem pass (2026-10-19).
+ * Leak review (2026-10-19): hints rewritten where the hardened check-science-hints.mjs found answer text.
  * Merge: these WIN over G1_SCIENCE_HINTS and over authored question.hints (see ../index.ts applyHints).
  */
 import type { HintOverlay } from "../types";
@@ -40,9 +41,10 @@ export const G1_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g1-sci-plants-b-q04": ["Push a seed into wet soil in a pot. After some days, what green thing comes up and keeps growing?"],
   "g1-sci-plants-b-q10": ["Which flower in the list grows in a pond and has pretty pink petals?"],
   "g1-sci-plants-b-q14": ["A big tree did not start big. What small thing did the tree grow from first?"],
+  "g1-sci-plants-a-q03": ["Plant a seed in a pot and water it every day. What will slowly come out of it and grow?"],
   // g1-science-animals
   "g1-sci-animals-a-q03": ["Think of what a cow gives at the dairy."],
-  "g1-sci-animals-a-q06": ["Lions live in the jungle, not in our homes.", "Is a lion a pet or an animal of the forest?"],
+  "g1-sci-animals-a-q06": ["Lions live in the jungle, not in our homes.", "Would a lion live with your family like a pet cat, or out in the jungle?"],
   "g1-sci-animals-a-q15": ["Frogs swim in ponds and hop on grass.", "A frog can be found in two kinds of places."],
   "g1-sci-animals-b-q02": ["Monkeys love to climb and swing.", "Where can a monkey climb and swing on branches?"],
   "g1-sci-animals-b-q03": ["A horse has four long, strong legs.", "What can a horse do with its strong legs?"],
@@ -78,7 +80,7 @@ export const G1_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g1-sci-body-a-q06": ["Look down at what touches the ground when you walk."],
   "g1-sci-body-a-q08": ["Breathe in slowly. Where does the air go in?", "Put your hand near your face and breathe in. Where do you feel the air going in?"],
   "g1-sci-body-a-q11": ["Sit down slowly on a chair. Watch your legs.", "Touch the middle of one leg as you sit. Which part folds?"],
-  "g1-sci-body-a-q12": ["Skin covers your whole body.", "Touch something soft. Which sense tells you it is soft?"],
+  "g1-sci-body-a-q12": ["Skin covers your whole body.", "Close your eyes and stroke a soft toy. How does your skin know it is soft?"],
   "g1-sci-body-a-q13": ["Exercise is running, jumping and playing.", "Does playing every day help your body or hurt it?"],
   "g1-sci-body-a-q14": ["Sleep helps the body rest.", "When is it dark and quiet, time for bed?"],
   "g1-sci-body-b-q05": ["Think of a chilly morning before school.", "On a cold morning, what do you put on over your shirt?"],

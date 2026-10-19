@@ -1,12 +1,13 @@
 /**
  * Grade 2 Science — item-specific hint fixes (fix layer).
  * Source: app repo origin/main c5a133b (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 89 | hints: 133
+ * Items changed: 90 | hints: 134
  * By category (primary): answer-leak fixed 0 · chapter-shared hint split 6 · other strict-check fixes 38
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
  * Pass 2 (2026-10-19): 43 vague single-hint items rewritten as item-specific nudges for 6–7-year-olds.
  * Also holds hints for items rewritten in the Science near-duplicate stem pass (2026-10-19).
+ * Leak review (2026-10-19): hints rewritten where the hardened check-science-hints.mjs found answer text.
  * Merge: these WIN over G2_SCIENCE_HINTS and over authored question.hints (see ../index.ts applyHints).
  */
 import type { HintOverlay } from "../types";
@@ -74,6 +75,7 @@ export const G2_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g2-sci-animals-b-q10": ["A burrow is a hole dug under the ground. Which animal in the list digs one to live in?"],
   "g2-sci-animals-b-q12": ["Silk threads come from a cocoon. Which little creature spins the cocoon?"],
   "g2-sci-animals-b-q16": ["Which animal in the list has feathers and sits on its eggs in a nest?"],
+  "g2-sci-animals-b-q14": ["A hive has many small six-sided rooms made of wax. Which buzzing insects store honey there?"],
   // g2-science-air-water
   "g2-sci-airwater-a-q03": ["Water has three forms.", "When water is heated, it rises into the air. What form is that?"],
   "g2-sci-airwater-a-q07": ["Boiling water bubbles hard.", "Look above a boiling pot. What rises from the water?"],
