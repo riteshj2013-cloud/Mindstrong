@@ -204,7 +204,7 @@ item(
     ["Surface P", "Surface Q", "Surface R", "Surface S"], "a",
     "The block stopped soonest on P, so P gave the most friction, which fits rough sandpaper gripping the block. "
     "Surface Q, where the block slid farthest, has the least friction, more like smooth ice.",
-    "Friction slows a sliding block. On which surface did the block stop soonest after the same push?",
+    "Friction slows a sliding block. Would a rough surface make the block slide a short way or a long way after the same push?",
     figure(
         "Four strips labelled P, Q, R and S with a wooden block at the left end of each. Arrows show it slid about 20 cm on P, 95 cm on Q, 70 cm on R and 45 cm on S.",
         text(165, 26, "same push each time", size=13, weight="500"),

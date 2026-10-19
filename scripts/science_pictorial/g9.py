@@ -115,7 +115,7 @@ item(
     ["It is being heated only", "Pressure is being applied and it is being cooled", "Its mass is being removed", "It is being left open to the air"], "b",
     "The piston pushes down, raising the pressure and forcing the particles closer together, while the ice bath lowers the temperature so they move more slowly. Together these turn the gas into a liquid. "
     "Heating would do the opposite, making the particles move faster and spread further apart.",
-    "Look at what the piston and the ice are each doing. How does each one change the particles?",
+    "Look at what the piston and the ice are each doing to the gas. How does each one change its particles?",
     figure(
         "A sealed cylinder of gas standing in a tub of ice. A piston is being pushed down into the cylinder by a large arrow. Drops of liquid are collecting at the bottom of the cylinder.",
         rect(40, 120, 240, 80, fill="#e0f2fe", stroke="#475569", sw=2, rx=4),
@@ -316,7 +316,7 @@ item(
     ["Part P", "Part Q", "Part R", "Part S"], "c",
     "R is the nucleus, the large round body with its own boundary that holds the chromosomes (DNA) and controls the cell's activities. "
     "S is a mitochondrion, which releases energy but does not hold the cell's main genetic material.",
-    "The control centre holds the chromosomes. Which labelled part is a large body with a boundary of its own?",
+    "The control centre holds the chromosomes. Which organelle is that, and how does it look in a cell drawing?",
     figure(
         "An animal cell. P points to the thin outer boundary, Q to the jelly-like filling, R to a large round body near the centre containing thread-like strands, and S to a small oval body with folded inner walls.",
         ellipse(160, 110, 115, 78, fill="#fef3c7", stroke="#92400e", sw=2.5),
@@ -350,7 +350,7 @@ item(
     ["Tissue P", "Tissue Q", "Tissue R", "No tissue shown"], "b",
     "Q has very thick walls all round, a tiny space in the middle and no nuclei: it is sclerenchyma, whose dead, lignified cells give rigid support. "
     "R is collenchyma: its walls are thick only at the corners and its cells are living, so it gives flexible support instead.",
-    "Dead cells have no nucleus. Which drawing has very thick walls and no nuclei at all?",
+    "Which plant tissue is made of dead cells with walls thickened by lignin? Think how its walls and contents would look.",
     figure(
         "Three plant tissues. P: rounded thin-walled cells with nuclei and small spaces between them. Q: cells with very thick walls all round, only a tiny space inside and no nuclei. R: living cells with nuclei whose walls are thickened only at the corners.",
         tissue(12, 40, "paren"), tissue(114, 40, "scler"), tissue(216, 40, "colle"),
@@ -470,7 +470,7 @@ item(
     ["Part P", "Part Q", "Part R", "Part S"], "d",
     "S is the thick outermost layer that gives the plant cell its firm box shape: the cell wall. "
     "R, just inside it, is the thin plasma membrane, which lies within the wall rather than outside it.",
-    "Plant cells have both a thin membrane and a thick wall. Which of these two layers is on the very outside?",
+    "Plant cells have both a thin membrane and a thick wall. Which one is made of cellulose and gives the cell its stiff shape?",
     figure(
         "A box-shaped plant cell. P points to a small green oval body, Q to a large clear sac in the middle, R to a thin line just inside the outer edge, and S to the thick outermost layer.",
         rect(70, 40, 180, 140, fill="#ecfccb", stroke="#3f6212", sw=7, rx=4), rect(80, 50, 160, 120, fill="none", stroke="#65a30d", sw=1.5, rx=3),
@@ -511,7 +511,7 @@ item(
     ["Tissue P", "Tissue Q", "Both P and Q", "Tissue R"], "d",
     "R has striped, branching cells joined end to end, each with one central nucleus: this is cardiac muscle, found only in the heart, where it contracts rhythmically without tiring. "
     "P is also striped, but its long unbranched fibres with many nuclei are skeletal muscle, which moves bones.",
-    "Heart muscle cells are striped and branch to join their neighbours. Which drawing shows branching cells?",
+    "Heart muscle is striped, like the muscle that moves bones. How are heart muscle cells joined to one another?",
     figure(
         "Three muscle tissues. P: long, unbranched striped fibres, each with many nuclei along its edge. Q: spindle-shaped cells without stripes, each with one nucleus. "
         "R: striped cells that branch and join their neighbours, each with one central nucleus.",

@@ -237,7 +237,7 @@ export const G5_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g5-sci-force-b-q03": ["The magnet pulls the iron pin across a small gap without touching it. Which kind of force acts across a gap?"],
   "g5-sci-force-b-q04": ["Load is what you move and effort is what you apply. What do we call the support point the lever turns on?"],
   "g5-sci-force-b-q05": ["Pulling down on the flag rope makes the flag go up. Is it easier for you to pull down or to lift upward?"],
-  "g5-sci-force-b-q06": ["Friction slows a sliding block. On which surface did the block stop soonest after the same push?"],
+  "g5-sci-force-b-q06": ["Friction slows a sliding block. Would a rough surface make the block slide a short way or a long way after the same push?"],
   "g5-sci-force-b-q07": ["The axe's thin edge enters a crack and the thick part pushes the sides of the log apart. What job is that?"],
   "g5-sci-force-b-q08": ["Ramp P is longer than lifting straight up along Q. A ramp trades a longer path for what kind of push?"],
   "g5-sci-force-b-q09": ["A wheel and axle is a round wheel that turns together with a rod through its centre. Which pair matches?"],

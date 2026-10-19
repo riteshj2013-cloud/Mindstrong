@@ -52,7 +52,7 @@ item(
     ["Part P", "Part Q", "Part R", "Part S"], "a",
     "Part P is a mitochondrion, the powerhouse of the cell: it breaks down food such as glucose using oxygen and releases energy. "
     "Part Q, the large round nucleus, controls the cell's work but does not release energy from food.",
-    "Energy from food is released in the cell's powerhouse. Which labelled part has folded inner walls?",
+    "Energy from food is released in the cell's powerhouse. Which organelle is that, and what does it look like in a drawing?",
     figure(
         "An animal cell drawn as a rounded blob. Four parts are labelled: P is a small oval body with folded inner walls, Q is a large round body near the centre, "
         "R is the thin outer boundary, and S is the jelly-like filling.",
@@ -92,7 +92,7 @@ item(
     ["400×", "50×", "4×", "4000×"], "a",
     "Total magnification is the eyepiece power multiplied by the objective power: 10 × 40 = 400, so the object looks 400 times bigger. "
     "50× comes from adding the two numbers, which is a common mistake.",
-    "Find the number on the eyepiece and on the objective lens. Are the two powers added or multiplied?",
+    "Find the power marked on the eyepiece and on the objective lens. To get the total magnification, are the two added or multiplied?",
     figure(
         "A side view of a compound microscope. The eyepiece at the top is marked 10× and the objective lens near the stage is marked 40×.",
         microscope(60, eyepiece="eyepiece 10×", objective="objective 40×"),
@@ -215,7 +215,7 @@ item(
     ["Part P", "Part Q", "Part R", "Part S"], "d",
     "S is the large central vacuole, a sac of cell sap that stores water, salts and wastes and keeps the cell firm. "
     "Q is the nucleus, which controls the cell's activities rather than storing water.",
-    "Look for the sac filled with watery cell sap. In a grown plant cell, how much of the space does it fill?",
+    "Which part of a plant cell holds watery cell sap and keeps the cell firm? Recall how big it is in a grown cell.",
     figure(
         "A box-shaped plant cell. P points to one of several small green oval bodies, Q to a round body near the left side, "
         "R to the thick outer layer, and S to a large clear sac in the middle.",
@@ -258,7 +258,7 @@ item(
     ["Drawing P", "Drawing Q", "Drawing R", "Drawing S"], "c",
     "R is a round disc dented in the middle on both sides (biconcave), seen from the front and from the side. It has no nucleus, and its large surface helps it carry oxygen. "
     "Q, the long spindle with a nucleus, is a muscle cell, not a blood cell.",
-    "Red blood cells squeeze through tiny tubes and have no nucleus. Which drawing has no nucleus at all?",
+    "Red blood cells squeeze through tiny tubes and carry oxygen. Which shape gives a cell a large surface and lets it bend?",
     figure(
         "Four cell drawings. P: a cell body with many branches and a long fibre. Q: a long cell pointed at both ends with a nucleus. "
         "R: a round red disc, pale in the centre, also shown from the side as pinched in the middle, with no nucleus. S: a rectangle with a thick wall and a nucleus.",
@@ -276,7 +276,7 @@ item(
     ["Human cheek lining", "A bacterium", "An Amoeba", "A Hydrilla leaf"], "d",
     "The thick outer wall, the nucleus and the many green chloroplasts mark a green plant cell, such as one from a Hydrilla leaf. "
     "A bacterium also has a cell wall, but it has no proper nucleus and no chloroplasts.",
-    "Look at the green oval bodies and the thick outer wall. Which of these living things makes its own food?",
+    "What are the green oval bodies called? Which of the four sources has cells with these bodies and a thick wall?",
     figure(
         "A box-shaped cell with a thick outer wall, a round nucleus near one side, a large clear sac, and many small green oval bodies around the edge.",
         rect(60, 35, 200, 150, fill="#f7fee7", stroke="#3f6212", sw=6, rx=4), rect(105, 62, 120, 96, fill="#e0f2fe", stroke="#0284c7", sw=1.2, rx=18),
@@ -343,7 +343,7 @@ item(
     ["10 N to the right", "20 N to the right", "50 N to the right", "600 N to the right"], "c",
     "Both forces act to the right, so they add: 30 N + 20 N = 50 N to the right. "
     "10 N would be the answer only if the two pushes acted in opposite directions.",
-    "Check the arrow directions. When two pushes point the same way, do you add them or subtract them?",
+    "Check the arrow directions on the box. When two pushes point the same way, do you add or subtract them to get the net force?",
     figure(
         "A box on the floor. Two arrows on its left side both point to the right: the upper one, Riya, is 30 N and the lower one, Aman, is 20 N.",
         line(10, 170, 310, 170, stroke=INK, sw=2), box_crate(170, 90, 90, 80),
@@ -671,7 +671,7 @@ item(
     ["Oxygen only", "Oxygen and water", "Water only", "Carbon dioxide and nitrogen"], "b",
     "Only the nail in tube 1, which has both air and water, has rusted. Tube 2 has water but no air (boiled water under oil), and tube 3 has air but no water (dried by calcium chloride). "
     "Water only cannot be right, because the nail in tube 2 had water and did not rust.",
-    "Tube 2 has no air and tube 3 has no water. What does tube 1 have that each of the others lacks?",
+    "Only one nail rusted. What does the oil layer keep out of tube 2, and what does calcium chloride remove from tube 3?",
     figure(
         "Three test tubes after a week. Tube 1: open, with a nail half in tap water, and the nail is covered in brown rust. "
         "Tube 2: corked, with a nail in boiled water under a layer of oil; the nail is clean. Tube 3: corked, with a nail in dry air above some calcium chloride; the nail is clean.",
@@ -876,7 +876,7 @@ item(
     figure(
         "A candle flame with three zones: zone 1 is the dark innermost part around the wick, zone 2 is the bright yellow middle part, and zone 3 is the thin pale blue outer layer.",
         candle(140, 210, h=60, zones=True),
-        leader(140, 128, 230, 150, "zone 1", size=13), leader(156, 80, 230, 95, "zone 2", size=13), leader(175, 50, 230, 40, "zone 3", size=13),
+        leader(140, 128, 230, 150, "zone 1", size=13), leader(156, 80, 230, 95, "zone 2", size=13), leader(160, 66, 230, 40, "zone 3", size=13),
     ),
 )
 
@@ -1009,7 +1009,7 @@ item(
         "A candle flame with a glass plate held in its bright yellow middle zone, labelled X. Beside it, the plate after a few seconds has a round black sooty patch.",
         candle(110, 210, h=60, zones=True),
         rect(60, 88, 100, 6, fill="#e0f2fe", stroke="#0369a1", sw=1.2),
-        leader(132, 112, 40, 130, "X", size=16),
+        leader(95, 112, 40, 130, "X", size=16),
         rect(205, 100, 100, 8, fill="#e0f2fe", stroke="#0369a1", sw=1.2), ellipse(255, 104, 22, 5, fill="#111827", stroke="none"),
         text(255, 132, "plate afterwards", size=12, weight="600"),
     ),
@@ -1276,7 +1276,7 @@ item(
     ["Collecting sound from outside", "Turning vibrations into nerve signals", "Keeping the ear canal clean", "Passing eardrum vibrations to the inner ear"], "d",
     "X is the chain of three tiny bones in the middle ear. They pick up the vibrations of the eardrum and pass them on to the inner ear. "
     "Turning vibrations into nerve signals is the job of the snail-shaped cochlea beyond X, not of X itself.",
-    "X sits between the eardrum and the snail-shaped inner ear. What does it pass along from one to the other?",
+    "X is a chain of three tiny bones in the middle ear. What reaches these bones first, and what do they do with it?",
     figure(
         "A simplified drawing of the human ear: the outer ear flap, the ear canal ending at a thin sheet, then X marking a chain of three tiny bones, followed by a coiled snail-shaped part.",
         ear({"bones": "X"}),
@@ -1469,7 +1469,7 @@ item(
     ["It makes the copper more impure", "It gives purer copper, deposited on the thin sheet (cathode)", "It turns copper into plastic", "It removes all electrons from the atoms"], "b",
     "The thick block of impure copper, joined to the positive terminal, slowly dissolves, and pure copper is deposited on the thin sheet joined to the negative terminal; the impurities fall to the bottom as sludge. "
     "It does not make the copper more impure: the impurities are left behind in the sludge.",
-    "Notice which block gets thinner and where the sludge collects. Which electrode grows with clean metal?",
+    "Notice which copper block gets thinner and where the sludge collects. Which electrode grows with clean metal?",
     figure(
         "A tank of copper sulphate solution. On the left, a thin sheet of copper joined to the negative terminal. On the right, a thick block of impure copper joined to the positive terminal, with sludge collecting beneath it.",
         cell_setup(70, "−", "+", lw=5, rw=26, left_fill="#f59e0b", right_fill="#a16207", left_lab="thin sheet", right_lab="thick block", beaker_w=180),

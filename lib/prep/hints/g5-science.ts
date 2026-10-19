@@ -223,7 +223,7 @@ export const G5_SCIENCE_HINTS: Record<string, HintOverlay> = {
   "g5-sci-force-b-q03": ["Gravity pulls objects toward Earth; magnets can pull some metals without touching."],
   "g5-sci-force-b-q04": ["A lever has a fulcrum, load and effort \u2014 think see-saw, crowbar, scissors."],
   "g5-sci-force-b-q05": ["A fixed pulley mainly changes the direction of your pull (pull down to lift up)."],
-  "g5-sci-force-b-q06": ["Friction slows a sliding block. On which surface did the block stop soonest after the same push?"],
+  "g5-sci-force-b-q06": ["Friction slows a sliding block. Would a rough surface make the block slide a short way or a long way after the same push?"],
   "g5-sci-force-b-q07": ["Simple machines help us use force more easily: lever, pulley, ramp, wheel, screw, wedge."],
   "g5-sci-force-b-q08": ["An inclined plane (ramp) lets you use a smaller force over a longer distance."],
   "g5-sci-force-b-q09": ["A wheel and axle reduce friction so loads roll instead of scrape."],
