@@ -32,7 +32,7 @@ def q_to_ts(q: dict) -> str:
         "    options: [\n%s\n    ],\n"
         "    answerId: %s,\n"
         "    explanation: %s,\n"
-        "    hints: %s\n"
+        "    hints: %s%s\n"
         "  }"
     ) % (
         J(q["id"]),
@@ -41,6 +41,7 @@ def q_to_ts(q: dict) -> str:
         J(q["answerId"]),
         J(q["explanation"]),
         J(q.get("hints") or BP_HINTS),
+        (",\n    figure: %s" % J(q["figure"])) if q.get("figure") else "",
     )
 
 
@@ -243,6 +244,10 @@ def emit_md(path: Path, *, grade: int, subject: str, chapter_id: str, title: str
         lines.append("")
         for i, q in enumerate(qs, 1):
             lines.append(f"### Q{i:02d}")
+            if q.get("figure"):
+                lines.append("- **diagram (SVG)**:")
+                lines.append(q["figure"]["markup"])
+                lines.append(f"- **alt**: {q['figure'].get('alt', '')}")
             lines.append(f"- **stem**: {md_escape(q['prompt'])}")
             lines.append("- **options**:")
             for o in q["options"]:

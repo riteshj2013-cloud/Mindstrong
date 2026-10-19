@@ -7,7 +7,7 @@
 - Source basis: NCERT Class 5 EVS / typical olympiad themes (original items only)
 
 ## Pictorial notes
-Visual items include force scenes P–S, see-saw lever, fixed pulley, ramp versus lift, wheel cart, and axe wedge. Grade 5 depth only — no pascal calculations.
+Visual items include force scenes P–S, see-saw lever, fixed pulley, ramp versus lift, wheel cart, axe wedge, a paper triangle wound into a screw, and slide distances on four surfaces. Grade 5 depth only — no pascal calculations.
 
 ## Learning objectives
 - Define force as a push or pull and list what forces can do to motion and shape.
@@ -303,15 +303,17 @@ D) see-saw fulcrum only
 **Answer:** C
 **Explanation:** A wedge is thick at one end and thin at the other. It forces materials apart when driven in.
 
-### Q14
-**Stem:** A screw is best thought of as —
+### Q14 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="Step 1: a right-angled paper triangle with its slanting edge drawn in red. Step 2: the same paper wound round a pencil, the red edge forming a spiral up the pencil." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><polygon points="30,170 130,170 130,60" fill="#fef3c7" stroke="#92400e" stroke-width="1.5" stroke-linejoin="round"/><line x1="30" y1="170" x2="130" y2="60" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/><text x="80" y="200" font-size="16" text-anchor="middle" font-weight="700" fill="#1f2937">1</text><rect x="205" y="40" width="26" height="140" fill="#fde68a" stroke="#a16207" stroke-width="1.5"/><polygon points="205,180 231,180 218,200" fill="#fcd34d" stroke="#a16207" stroke-width="1.5" stroke-linejoin="round"/><path d="M205,70 Q218,80 231,58" fill="none" stroke="#dc2626" stroke-width="3" stroke-linejoin="round"/><path d="M205,92 Q218,102 231,80" fill="none" stroke="#dc2626" stroke-width="3" stroke-linejoin="round"/><path d="M205,114 Q218,124 231,102" fill="none" stroke="#dc2626" stroke-width="3" stroke-linejoin="round"/><path d="M205,136 Q218,146 231,124" fill="none" stroke="#dc2626" stroke-width="3" stroke-linejoin="round"/><path d="M205,158 Q218,168 231,146" fill="none" stroke="#dc2626" stroke-width="3" stroke-linejoin="round"/><text x="270" y="200" font-size="16" text-anchor="middle" font-weight="700" fill="#1f2937">2</text><line x1="150" y1="120" x2="182.0" y2="120.0" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/><polygon points="190,120 182,124.4 182,115.6" fill="#1f2937" stroke="#1f2937" stroke-width="1" stroke-linejoin="round"/></svg>
+**Stem:** Sana cuts a right-angled paper triangle (1) and winds it round a pencil (2). The slanting edge makes a spiral, as shown. Which simple machine has she made a model of?
 **Options:**
-A) a magnet with threads
-B) a pulley made of wood
-C) an inclined plane wrapped around a rod
-D) a lever with no fulcrum
+A) A wheel and axle
+B) A pulley
+C) A screw
+D) A lever
 **Answer:** C
-**Explanation:** The thread of a screw is like a ramp wound around a cylinder — a type of inclined plane.
+**Explanation:** The slanting edge of the triangle is a ramp (an inclined plane); wound round a rod it becomes the spiral thread of a screw. It is not a wheel and axle, which needs a large wheel fixed to a thin rod that turns with it.
 
 ### Q15 · Pictorial
 **Diagram (SVG):**
@@ -433,7 +435,7 @@ D) wheel and axle
 **Explanation:** Turning the knob (wheel) turns a shaft (axle) that pulls the latch — wheel and axle.
 
 ### Q21
-**Stem:** Which statement is true?
+**Stem:** Which statement about forces is true?
 **Options:**
 A) Forces cannot change direction of motion
 B) Friction always helps sliding with zero grip needed
@@ -584,15 +586,17 @@ D) gravity reverses
 **Answer:** A
 **Explanation:** Fixed pulleys mainly redirect force so you can pull in a comfortable direction.
 
-### Q6
-**Stem:** Which surface usually gives the most friction for a sliding wooden block?
+### Q6 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="Four strips labelled P, Q, R and S with a wooden block at the left end of each. Arrows show it slid about 20 cm on P, 95 cm on Q, 70 cm on R and 45 cm on S." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><text x="165" y="26" font-size="13" text-anchor="middle" font-weight="500" fill="#1f2937">same push each time</text><rect x="40" y="40" width="250" height="18" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1"/><text x="26" y="54" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">P</text><rect x="42" y="42" width="16" height="14" fill="#c99a6b" stroke="#6b4a2b" stroke-width="1"/><line x1="60" y1="49" x2="89.0" y2="49.0" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/><polygon points="96,49 89,52.9 89,45.1" fill="#2563eb" stroke="#2563eb" stroke-width="1" stroke-linejoin="round"/><rect x="40" y="84" width="250" height="18" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1"/><text x="26" y="98" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">Q</text><rect x="42" y="86" width="16" height="14" fill="#c99a6b" stroke="#6b4a2b" stroke-width="1"/><line x1="60" y1="93" x2="224.0" y2="93.0" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/><polygon points="231,93 224,96.8 224,89.2" fill="#2563eb" stroke="#2563eb" stroke-width="1" stroke-linejoin="round"/><rect x="40" y="128" width="250" height="18" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1"/><text x="26" y="142" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">R</text><rect x="42" y="130" width="16" height="14" fill="#c99a6b" stroke="#6b4a2b" stroke-width="1"/><line x1="60" y1="137" x2="179.0" y2="137.0" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/><polygon points="186,137 179,140.8 179,133.2" fill="#2563eb" stroke="#2563eb" stroke-width="1" stroke-linejoin="round"/><rect x="40" y="172" width="250" height="18" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1"/><text x="26" y="186" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">S</text><rect x="42" y="174" width="16" height="14" fill="#c99a6b" stroke="#6b4a2b" stroke-width="1"/><line x1="60" y1="181" x2="134.0" y2="181.0" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/><polygon points="141,181 134,184.8 134,177.2" fill="#2563eb" stroke="#2563eb" stroke-width="1" stroke-linejoin="round"/><text x="102" y="53" font-size="12" text-anchor="start" font-weight="600" fill="#1f2937">20 cm</text><text x="237" y="97" font-size="12" text-anchor="start" font-weight="600" fill="#1f2937">95 cm</text><text x="192" y="141" font-size="12" text-anchor="start" font-weight="600" fill="#1f2937">70 cm</text><text x="147" y="185" font-size="12" text-anchor="start" font-weight="600" fill="#1f2937">45 cm</text></svg>
+**Stem:** The same push sends an identical wooden block along four different surfaces. The arrows show how far it slid on each. Which surface is most likely rough sandpaper?
 **Options:**
-A) Rough sandpaper
-B) Smooth ice
-C) Oiled glass
-D) A polished metal sheet with oil
+A) Surface P
+B) Surface Q
+C) Surface R
+D) Surface S
 **Answer:** A
-**Explanation:** Rough surfaces raise friction. Ice, oil and polish make sliding easier (less friction).
+**Explanation:** The block stopped soonest on P, so P gave the most friction, which fits rough sandpaper gripping the block. Surface Q, where the block slid farthest, has the least friction, more like smooth ice.
 
 ### Q7 · Pictorial
 **Diagram (SVG):**

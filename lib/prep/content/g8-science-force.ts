@@ -57,7 +57,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-sci-force-a-q05",
-    prompt: "Riya pushes a box to the right with a force of 30 N. Aman pushes the same box to the right with 20 N. What is the net force on the box?",
+    prompt: "Riya and Aman push the same box, as shown. What is the net force on the box?",
     options: [
       { id: "a", text: "10 N to the right" },
       { id: "b", text: "20 N to the right" },
@@ -65,8 +65,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "600 N to the right" }
     ],
     answerId: "c",
-    explanation: "Forces acting in the same direction add up: 30 N + 20 N = 50 N, to the right.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Both forces act to the right, so they add: 30 N + 20 N = 50 N to the right. 10 N would be the answer only if the two pushes acted in opposite directions.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A box on the floor. Two arrows on its left side both point to the right: the upper one, Riya, is 30 N and the lower one, Aman, is 20 N.\" font-family=\"system-ui, sans-serif\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/><line x1=\"10\" y1=\"170\" x2=\"310\" y2=\"170\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linecap=\"round\"/><rect x=\"170\" y=\"90\" width=\"90\" height=\"80\" fill=\"#d6a76a\" stroke=\"#78350f\" stroke-width=\"2\"/><line x1=\"170\" y1=\"90\" x2=\"260\" y2=\"170\" stroke=\"#92400e\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><line x1=\"260\" y1=\"90\" x2=\"170\" y2=\"170\" stroke=\"#92400e\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><line x1=\"60\" y1=\"110\" x2=\"158.0\" y2=\"110.0\" stroke=\"#2563eb\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"166,110 158,114.4 158,105.6\" fill=\"#2563eb\" stroke=\"#2563eb\" stroke-width=\"1\" stroke-linejoin=\"round\"/><text x=\"90\" y=\"100\" font-size=\"13\" text-anchor=\"start\" font-weight=\"600\" fill=\"#1f2937\">Riya: 30 N</text><line x1=\"80\" y1=\"150\" x2=\"158.0\" y2=\"150.0\" stroke=\"#dc2626\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"166,150 158,154.4 158,145.6\" fill=\"#dc2626\" stroke=\"#dc2626\" stroke-width=\"1\" stroke-linejoin=\"round\"/><text x=\"90\" y=\"140\" font-size=\"13\" text-anchor=\"start\" font-weight=\"600\" fill=\"#1f2937\">Aman: 20 N</text></svg>", "alt": "A box on the floor. Two arrows on its left side both point to the right: the upper one, Riya, is 30 N and the lower one, Aman, is 20 N."}
   },
   {
     id: "g8-sci-force-a-q06",
@@ -96,16 +97,17 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-sci-force-a-q08",
-    prompt: "Why do good school bags have wide shoulder straps?",
+    prompt: "School bags P and Q hold the same 5 kg load. Why is bag Q more comfortable to carry?",
     options: [
-      { id: "a", text: "To make the bag heavier" },
-      { id: "b", text: "To increase the pressure on the shoulders" },
-      { id: "c", text: "To make the bag look attractive" },
-      { id: "d", text: "To spread the weight over a larger area and reduce pressure" }
+      { id: "a", text: "Its straps make the bag heavier" },
+      { id: "b", text: "Its straps increase the pressure on the shoulders" },
+      { id: "c", text: "It looks more attractive" },
+      { id: "d", text: "Its straps spread the weight over a larger area and reduce the pressure" }
     ],
     answerId: "d",
-    explanation: "Pressure = force \u00f7 area. A wider strap gives a larger area, so the same weight produces less pressure and the bag feels more comfortable.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Both bags weigh the same, but Q's wide straps touch more of each shoulder, so the same force is spread over a larger area and the pressure is lower. Straps that increased the pressure would make the bag hurt more, not less.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Two school bags, each holding 5 kg. Bag P has very thin straps; bag Q has wide, flat straps.\" font-family=\"system-ui, sans-serif\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/><rect x=\"40\" y=\"100\" width=\"90\" height=\"95\" rx=\"10\" fill=\"#60a5fa\" stroke=\"#1e3a8a\" stroke-width=\"2\"/><rect x=\"60\" y=\"140\" width=\"50\" height=\"30\" rx=\"4\" fill=\"#93c5fd\" stroke=\"#1e3a8a\" stroke-width=\"1.5\"/><path d=\"M55,102 Q55,40 85,40 Q115,40 115,102\" fill=\"none\" stroke=\"#1e3a8a\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M55,102 Q55,40 85,40 Q115,40 115,102\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"3\" stroke-linejoin=\"round\"/><text x=\"85\" y=\"165\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1e3a8a\">5 kg</text><text x=\"85\" y=\"214\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">P</text><rect x=\"190\" y=\"100\" width=\"90\" height=\"95\" rx=\"10\" fill=\"#60a5fa\" stroke=\"#1e3a8a\" stroke-width=\"2\"/><rect x=\"210\" y=\"140\" width=\"50\" height=\"30\" rx=\"4\" fill=\"#93c5fd\" stroke=\"#1e3a8a\" stroke-width=\"1.5\"/><path d=\"M205,102 Q205,40 235,40 Q265,40 265,102\" fill=\"none\" stroke=\"#1e3a8a\" stroke-width=\"20\" stroke-linejoin=\"round\"/><path d=\"M205,102 Q205,40 235,40 Q265,40 265,102\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"18\" stroke-linejoin=\"round\"/><text x=\"235\" y=\"165\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1e3a8a\">5 kg</text><text x=\"235\" y=\"214\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">Q</text></svg>", "alt": "Two school bags, each holding 5 kg. Bag P has very thin straps; bag Q has wide, flat straps."}
   },
   {
     id: "g8-sci-force-a-q09",
@@ -174,20 +176,21 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-sci-force-a-q14",
-    prompt: "A tall water bottle has three small holes, one near the top, one in the middle, and one near the bottom. From which hole does water come out with the greatest force?",
+    prompt: "Three small holes are made in a tall bottle full of water, as shown. From which hole does water come out with the greatest force?",
     options: [
-      { id: "a", text: "The hole near the bottom" },
-      { id: "b", text: "The hole in the middle" },
-      { id: "c", text: "The hole near the top" },
-      { id: "d", text: "All three holes equally" }
+      { id: "a", text: "From hole 3" },
+      { id: "b", text: "From hole 2" },
+      { id: "c", text: "From hole 1" },
+      { id: "d", text: "From all three holes equally" }
     ],
     answerId: "a",
-    explanation: "The bottom hole has the most water above it. Pressure is greatest there, so water rushes out with the most force.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Hole 3 is lowest, with the deepest water above it, so the pressure there is greatest and its jet is strongest. Hole 1 near the top has the least water above it, so its jet is the weakest.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A tall bottle filled with water to near the top, with three small holes in one side: hole 1 near the top, hole 2 in the middle and hole 3 near the bottom. No water jets are shown.\" font-family=\"system-ui, sans-serif\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/><path d=\"M120,200 L120,60 Q120,46 134,40 L134,20 L166,20 L166,40 Q180,46 180,60 L180,200 Z\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"122\" y=\"54\" width=\"56\" height=\"144\" fill=\"#bfdbfe\" stroke=\"none\" stroke-width=\"1.5\"/><line x1=\"122\" y1=\"54\" x2=\"178\" y2=\"54\" stroke=\"#2563eb\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"120\" y1=\"200\" x2=\"180\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"180\" cy=\"80\" r=\"4\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"180\" cy=\"125\" r=\"4\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"180\" cy=\"172\" r=\"4\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"184\" y1=\"80\" x2=\"230\" y2=\"80\" stroke=\"#475569\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><circle cx=\"184\" cy=\"80\" r=\"2\" fill=\"#475569\" stroke=\"none\" stroke-width=\"1.5\"/><text x=\"234\" y=\"85\" font-size=\"13\" text-anchor=\"start\" font-weight=\"700\" fill=\"#1f2937\">hole 1</text><line x1=\"184\" y1=\"125\" x2=\"230\" y2=\"125\" stroke=\"#475569\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><circle cx=\"184\" cy=\"125\" r=\"2\" fill=\"#475569\" stroke=\"none\" stroke-width=\"1.5\"/><text x=\"234\" y=\"130\" font-size=\"13\" text-anchor=\"start\" font-weight=\"700\" fill=\"#1f2937\">hole 2</text><line x1=\"184\" y1=\"172\" x2=\"230\" y2=\"172\" stroke=\"#475569\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><circle cx=\"184\" cy=\"172\" r=\"2\" fill=\"#475569\" stroke=\"none\" stroke-width=\"1.5\"/><text x=\"234\" y=\"177\" font-size=\"13\" text-anchor=\"start\" font-weight=\"700\" fill=\"#1f2937\">hole 3</text><line x1=\"60\" y1=\"212\" x2=\"260\" y2=\"212\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-linecap=\"round\"/></svg>", "alt": "A tall bottle filled with water to near the top, with three small holes in one side: hole 1 near the top, hole 2 in the middle and hole 3 near the bottom. No water jets are shown."}
   },
   {
     id: "g8-sci-force-a-q15",
-    prompt: "Why are the walls of a dam made thicker at the bottom than at the top?",
+    prompt: "The picture shows a cross-section of a dam holding back a lake. Why is the wall built in this shape?",
     options: [
       { id: "a", text: "So that the dam looks stronger" },
       { id: "b", text: "Because water is colder at the bottom" },
@@ -195,8 +198,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "To stop fish from swimming through" }
     ],
     answerId: "c",
-    explanation: "Water pressure increases with depth, so the base of the dam must withstand the largest push. A thicker base makes it stronger there.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Water pressure increases with depth, so the bottom of the wall takes the biggest push from the lake; the wall is made thickest there. Colder water is not the reason: the push of the water on the wall depends on its depth.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A cross-section of a concrete dam: a wall that is narrow at the top and very wide at the bottom, with a deep lake on the left side and dry ground on the right.\" font-family=\"system-ui, sans-serif\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/><rect x=\"10\" y=\"60\" width=\"150\" height=\"140\" fill=\"#bfdbfe\" stroke=\"none\" stroke-width=\"1.5\"/><line x1=\"10\" y1=\"60\" x2=\"150\" y2=\"60\" stroke=\"#2563eb\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><path d=\"M30,60 q6,-4 12,0\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M70,60 q6,-4 12,0\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M110,60 q6,-4 12,0\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><polygon points=\"150,40 180,40 280,200 150,200\" fill=\"#d1d5db\" stroke=\"#374151\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"0\" y1=\"200\" x2=\"320\" y2=\"200\" stroke=\"#78350f\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"70\" y=\"130\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"600\" fill=\"#1f2937\">lake</text><text x=\"300\" y=\"190\" font-size=\"12\" text-anchor=\"end\" font-weight=\"500\" fill=\"#1f2937\">ground</text></svg>", "alt": "A cross-section of a concrete dam: a wall that is narrow at the top and very wide at the bottom, with a deep lake on the left side and dry ground on the right."}
   },
   {
     id: "g8-sci-force-a-q16",
@@ -213,16 +217,17 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-sci-force-a-q17",
-    prompt: "A brick weighing 30 N measures 0.3 m \u00d7 0.1 m \u00d7 0.05 m. On which face should it rest to exert the GREATEST pressure on the ground?",
+    prompt: "A brick weighing 30 N has the measurements shown. On which labelled face should it rest to press on the ground with the GREATEST pressure?",
     options: [
-      { id: "a", text: "The 0.1 m \u00d7 0.05 m face" },
-      { id: "b", text: "The 0.3 m \u00d7 0.1 m face" },
-      { id: "c", text: "The 0.3 m \u00d7 0.05 m face" },
-      { id: "d", text: "The pressure is the same on every face." }
+      { id: "a", text: "Face P" },
+      { id: "b", text: "Face Q" },
+      { id: "c", text: "Face R" },
+      { id: "d", text: "The pressure is the same on every face" }
     ],
     answerId: "a",
-    explanation: "The weight stays 30 N, so pressure is largest on the smallest area. The 0.1 m \u00d7 0.05 m face is only 0.005 m\u00b2, which gives 30 \u00f7 0.005 = 6000 Pa.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Pressure = force \u00f7 area, and the weight is 30 N whichever way the brick rests, so the smallest face gives the most pressure. Face P is 0.1 m \u00d7 0.05 m = 0.005 m\u00b2, giving 30 \u00f7 0.005 = 6000 Pa. Face Q is the largest face, so it gives the least pressure.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A brick drawn in three dimensions, 0.3 m long, 0.1 m deep and 0.05 m high. Q marks the large top face, R the long front face, and P the small end face.\" font-family=\"system-ui, sans-serif\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/><polygon points=\"70,120 250,120 250,150 70,150\" fill=\"#f97316\" stroke=\"#7c2d12\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"70,120 120,80 300,80 250,120\" fill=\"#fdba74\" stroke=\"#7c2d12\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"250,120 300,80 300,110 250,150\" fill=\"#ea580c\" stroke=\"#7c2d12\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"185\" y=\"104\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">Q</text><text x=\"160\" y=\"141\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#ffffff\">R</text><text x=\"275\" y=\"122\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#ffffff\">P</text><line x1=\"160.0\" y1=\"165.0\" x2=\"77.0\" y2=\"165.0\" stroke=\"#1f2937\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"70,165 77,161.2 77,168.8\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\" stroke-linejoin=\"round\"/><line x1=\"160.0\" y1=\"165.0\" x2=\"243.0\" y2=\"165.0\" stroke=\"#1f2937\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"250,165 243,168.8 243,161.2\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\" stroke-linejoin=\"round\"/><text x=\"160\" y=\"182\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"600\" fill=\"#1f2937\">0.3 m</text><line x1=\"282.0\" y1=\"139.0\" x2=\"263.48832077123234\" y2=\"153.65507938944108\" stroke=\"#1f2937\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"258,158 261.1,150.6 265.9,156.7\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\" stroke-linejoin=\"round\"/><line x1=\"282.0\" y1=\"139.0\" x2=\"300.51167922876766\" y2=\"124.34492061055893\" stroke=\"#1f2937\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"306,120 302.9,127.4 298.1,121.3\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\" stroke-linejoin=\"round\"/><text x=\"268\" y=\"176\" font-size=\"13\" text-anchor=\"start\" font-weight=\"600\" fill=\"#1f2937\">0.1 m</text><line x1=\"58.0\" y1=\"135.0\" x2=\"58.0\" y2=\"127.0\" stroke=\"#1f2937\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58,120 61.9,127 54.1,127\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\" stroke-linejoin=\"round\"/><line x1=\"58.0\" y1=\"135.0\" x2=\"58.0\" y2=\"143.0\" stroke=\"#1f2937\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58,150 54.1,143 61.9,143\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\" stroke-linejoin=\"round\"/><text x=\"52\" y=\"140\" font-size=\"12\" text-anchor=\"end\" font-weight=\"600\" fill=\"#1f2937\">0.05 m</text><text x=\"160\" y=\"40\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">weight 30 N</text></svg>", "alt": "A brick drawn in three dimensions, 0.3 m long, 0.1 m deep and 0.05 m high. Q marks the large top face, R the long front face, and P the small end face."}
   },
   {
     id: "g8-sci-force-a-q18",
@@ -239,16 +244,17 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-sci-force-a-q19",
-    prompt: "Three containers have very different shapes: one wide, one narrow, and one cone-shaped. Each has the same base area and is filled with water to the same height. How does the water pressure at the bottom compare?",
+    prompt: "Containers P, Q and R have the same base area and are filled with water as shown. How does the water pressure at the bottom compare?",
     options: [
-      { id: "a", text: "It is greatest in the widest container." },
-      { id: "b", text: "It is greatest in the narrowest container." },
-      { id: "c", text: "It is greatest in the container holding the most water." },
-      { id: "d", text: "It is the same in all three containers." }
+      { id: "a", text: "It is greatest at the bottom of P" },
+      { id: "b", text: "It is greatest at the bottom of Q" },
+      { id: "c", text: "It is greatest at the bottom of R" },
+      { id: "d", text: "It is the same in all three containers" }
     ],
     answerId: "d",
-    explanation: "Liquid pressure depends on the depth of the liquid, not on the container's shape or the total amount of water. Equal depth means equal pressure at the bottom.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "The dashed line shows the water is equally deep in all three, and liquid pressure depends on depth, not on the container's shape or how much water it holds. P holds the most water, but its extra water presses on the sloping sides, not on the base, so its bottom pressure is not greater.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Three containers on a bench with equal bases: P widens towards the top, Q has straight sides, and R narrows towards the top. A dashed line across all three marks the water surface in each.\" font-family=\"system-ui, sans-serif\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/><polygon points=\"40,190 90,190 109.643,80 20.3571,80\" fill=\"#bfdbfe\" stroke=\"none\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><polyline points=\"15,50 40,190 90,190 115,50\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"140,190 190,190 190,80 140,80\" fill=\"#bfdbfe\" stroke=\"none\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><polyline points=\"140,50 140,190 190,190 190,50\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"240,190 290,190 275.857,80 254.143,80\" fill=\"#bfdbfe\" stroke=\"none\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><polyline points=\"258,50 240,190 290,190 272,50\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"10\" y1=\"80\" x2=\"310\" y2=\"80\" stroke=\"#2563eb\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\" stroke-linecap=\"round\"/><line x1=\"10\" y1=\"190\" x2=\"310\" y2=\"190\" stroke=\"#94a3b8\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"65\" y=\"210\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">P</text><text x=\"165\" y=\"210\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">Q</text><text x=\"265\" y=\"210\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">R</text></svg>", "alt": "Three containers on a bench with equal bases: P widens towards the top, Q has straight sides, and R narrows towards the top. A dashed line across all three marks the water surface in each."}
   },
   {
     id: "g8-sci-force-a-q20",
@@ -450,16 +456,17 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-sci-force-b-q11",
-    prompt: "Army tanks and bulldozers move on wide caterpillar tracks instead of narrow wheels. This is mainly to \u2014",
+    prompt: "Two vehicles of the same weight drive onto the same soft mud, as shown. Why does vehicle 2 stay on top of the mud?",
     options: [
-      { id: "a", text: "spread their weight over a larger area and reduce pressure on the ground" },
-      { id: "b", text: "increase their top speed" },
-      { id: "c", text: "increase their pressure on the ground for digging" },
-      { id: "d", text: "reduce their weight" }
+      { id: "a", text: "Its tracks spread its weight over a larger area, so the pressure is lower" },
+      { id: "b", text: "It moves faster" },
+      { id: "c", text: "It presses harder on the ground" },
+      { id: "d", text: "It weighs less" }
     ],
     answerId: "a",
-    explanation: "Tracks cover a large area, so the heavy vehicle exerts less pressure and does not sink into soft or muddy ground.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Vehicle 2's wide tracks touch a much larger area of mud, so the same weight gives a lower pressure and it does not sink in. It does not press harder: a higher pressure would push it deeper into the mud, as happened to vehicle 1.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Two vehicles of equal weight on soft mud. Vehicle 1 has two narrow wheels that have sunk deep into the mud. Vehicle 2 has long wide tracks and sits on the surface.\" font-family=\"system-ui, sans-serif\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/><rect x=\"0\" y=\"140\" width=\"320\" height=\"80\" fill=\"#a16207\" stroke=\"none\" stroke-width=\"1.5\" opacity=\"0.55\"/><line x1=\"0\" y1=\"140\" x2=\"320\" y2=\"140\" stroke=\"#713f12\" stroke-width=\"2\" stroke-linecap=\"round\"/><rect x=\"30\" y=\"80\" width=\"100\" height=\"45\" rx=\"4\" fill=\"#facc15\" stroke=\"#713f12\" stroke-width=\"2\"/><rect x=\"80\" y=\"55\" width=\"40\" height=\"28\" fill=\"#fde68a\" stroke=\"#713f12\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"152\" r=\"15\" fill=\"#374151\" stroke=\"#111827\" stroke-width=\"2\"/><circle cx=\"110\" cy=\"152\" r=\"15\" fill=\"#374151\" stroke=\"#111827\" stroke-width=\"2\"/><rect x=\"195\" y=\"80\" width=\"100\" height=\"45\" rx=\"4\" fill=\"#facc15\" stroke=\"#713f12\" stroke-width=\"2\"/><rect x=\"245\" y=\"55\" width=\"40\" height=\"28\" fill=\"#fde68a\" stroke=\"#713f12\" stroke-width=\"2\"/><rect x=\"185\" y=\"114\" width=\"120\" height=\"26\" rx=\"13\" fill=\"#374151\" stroke=\"#111827\" stroke-width=\"2\"/><circle cx=\"199\" cy=\"127\" r=\"8\" fill=\"#9ca3af\" stroke=\"#111827\" stroke-width=\"1.2\"/><circle cx=\"222\" cy=\"127\" r=\"8\" fill=\"#9ca3af\" stroke=\"#111827\" stroke-width=\"1.2\"/><circle cx=\"245\" cy=\"127\" r=\"8\" fill=\"#9ca3af\" stroke=\"#111827\" stroke-width=\"1.2\"/><circle cx=\"268\" cy=\"127\" r=\"8\" fill=\"#9ca3af\" stroke=\"#111827\" stroke-width=\"1.2\"/><circle cx=\"291\" cy=\"127\" r=\"8\" fill=\"#9ca3af\" stroke=\"#111827\" stroke-width=\"1.2\"/><text x=\"80\" y=\"200\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">vehicle 1</text><text x=\"245\" y=\"200\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">vehicle 2</text></svg>", "alt": "Two vehicles of equal weight on soft mud. Vehicle 1 has two narrow wheels that have sunk deep into the mud. Vehicle 2 has long wide tracks and sits on the surface."}
   },
   {
     id: "g8-sci-force-b-q12",
@@ -476,29 +483,31 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-sci-force-b-q13",
-    prompt: "Which knife cuts vegetables more easily, and why?",
+    prompt: "Knives P and Q are pressed onto a tomato with the same force. The close-ups show their edges. Which cuts more easily, and why?",
     options: [
-      { id: "a", text: "A blunt knife, because its edge has a larger area" },
-      { id: "b", text: "A sharp knife, because its thin edge has a smaller area and produces greater pressure" },
-      { id: "c", text: "Both cut equally well with the same force." },
-      { id: "d", text: "A blunt knife, because it produces more friction" }
+      { id: "a", text: "Knife Q, because its edge has a larger area" },
+      { id: "b", text: "Knife P, because its thin edge has a smaller area and gives greater pressure" },
+      { id: "c", text: "Both cut equally well with the same force" },
+      { id: "d", text: "Knife Q, because it gives more friction" }
     ],
     answerId: "b",
-    explanation: "The same force on the sharp knife's very thin edge gives a much higher pressure, which cuts through the vegetable more easily.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "P's very thin edge touches only a tiny area, so the same force gives a much greater pressure and slices into the tomato. Knife Q's wider edge spreads the force over a larger area, which lowers the pressure, so the larger area does not help it cut.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Two knives pressing down on tomatoes with equal force arrows. Close-ups of the blades: knife P ends in a very thin edge; knife Q ends in a wide, flat edge.\" font-family=\"system-ui, sans-serif\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/><polygon points=\"40,30 110,30 110,60 75,120\" fill=\"#e5e7eb\" stroke=\"#1f2937\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><polygon points=\"200,30 270,30 270,60 250,110 220,110 200,60\" fill=\"#e5e7eb\" stroke=\"#1f2937\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><circle cx=\"75\" cy=\"160\" r=\"34\" fill=\"#ef4444\" stroke=\"#7f1d1d\" stroke-width=\"1.5\"/><circle cx=\"235\" cy=\"160\" r=\"34\" fill=\"#ef4444\" stroke=\"#7f1d1d\" stroke-width=\"1.5\"/><line x1=\"75\" y1=\"2\" x2=\"75.0\" y2=\"19.0\" stroke=\"#1f2937\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"75,27 70.6,19 79.4,19\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\" stroke-linejoin=\"round\"/><line x1=\"235\" y1=\"2\" x2=\"235.0\" y2=\"19.0\" stroke=\"#1f2937\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"235,27 230.6,19 239.4,19\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\" stroke-linejoin=\"round\"/><text x=\"160\" y=\"18\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"600\" fill=\"#1f2937\">same force</text><text x=\"25\" y=\"50\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">P</text><text x=\"185\" y=\"50\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">Q</text><text x=\"75\" y=\"212\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"500\" fill=\"#1f2937\">thin edge</text><text x=\"235\" y=\"212\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"500\" fill=\"#1f2937\">wide edge</text></svg>", "alt": "Two knives pressing down on tomatoes with equal force arrows. Close-ups of the blades: knife P ends in a very thin edge; knife Q ends in a wide, flat edge."}
   },
   {
     id: "g8-sci-force-b-q14",
-    prompt: "A water tank is on the roof of a four-storey building. Water flows faster from a tap on the ground floor than from a tap on the top floor. Why?",
+    prompt: "In the building shown, water comes out faster from tap T1 than from tap T4. Why?",
     options: [
-      { id: "a", text: "Taps on the ground floor are always wider." },
-      { id: "b", text: "Water on the ground floor is warmer." },
-      { id: "c", text: "There is less friction in pipes on the ground floor." },
-      { id: "d", text: "The ground-floor tap has a greater height of water above it, so the pressure is higher." }
+      { id: "a", text: "Tap T1 is wider" },
+      { id: "b", text: "The water at T1 is warmer" },
+      { id: "c", text: "There is less friction in the pipe at T1" },
+      { id: "d", text: "T1 has a greater height of water above it, so the pressure is higher" }
     ],
     answerId: "d",
-    explanation: "Liquid pressure increases with depth. The ground-floor tap is much farther below the water level in the tank, so the pressure there is greater.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "T1 is on the ground floor, far below the water level in the roof tank, so the depth of water above it, and so the pressure, is greatest. The taps are drawn the same size, so T1 being wider cannot explain the faster flow.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A four-storey building with a water tank on the roof and one pipe running down the side. Tap T4 is on the top floor and tap T1 is on the ground floor; both taps are the same size.\" font-family=\"system-ui, sans-serif\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/><rect x=\"80\" y=\"50\" width=\"140\" height=\"160\" fill=\"#f1f5f9\" stroke=\"#475569\" stroke-width=\"2\"/><line x1=\"80\" y1=\"90\" x2=\"220\" y2=\"90\" stroke=\"#94a3b8\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><line x1=\"80\" y1=\"130\" x2=\"220\" y2=\"130\" stroke=\"#94a3b8\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><line x1=\"80\" y1=\"170\" x2=\"220\" y2=\"170\" stroke=\"#94a3b8\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><rect x=\"110\" y=\"18\" width=\"60\" height=\"32\" fill=\"#bfdbfe\" stroke=\"#1e3a8a\" stroke-width=\"2\"/><line x1=\"110\" y1=\"26\" x2=\"170\" y2=\"26\" stroke=\"#2563eb\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><polyline points=\"170,44 240,44 240,196\" fill=\"none\" stroke=\"#64748b\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"240\" y1=\"76\" x2=\"256\" y2=\"76\" stroke=\"#64748b\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"256\" y1=\"76\" x2=\"256\" y2=\"84\" stroke=\"#64748b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"240\" y1=\"196\" x2=\"256\" y2=\"196\" stroke=\"#64748b\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"256\" y1=\"196\" x2=\"256\" y2=\"204\" stroke=\"#64748b\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"266\" y=\"82\" font-size=\"14\" text-anchor=\"start\" font-weight=\"600\" fill=\"#1f2937\">T4</text><text x=\"266\" y=\"202\" font-size=\"14\" text-anchor=\"start\" font-weight=\"600\" fill=\"#1f2937\">T1</text><text x=\"150\" y=\"75\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"500\" fill=\"#1f2937\">4th floor</text><text x=\"150\" y=\"195\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"500\" fill=\"#1f2937\">ground floor</text><line x1=\"0\" y1=\"210\" x2=\"320\" y2=\"210\" stroke=\"#78350f\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg>", "alt": "A four-storey building with a water tank on the roof and one pipe running down the side. Tap T4 is on the top floor and tap T1 is on the ground floor; both taps are the same size."}
   },
   {
     id: "g8-sci-force-b-q15",
@@ -567,7 +576,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-sci-force-b-q20",
-    prompt: "A woman weighing 600 N stands on stiletto heels with a total contact area of 0.0002 m\u00b2. An elephant weighing 40,000 N stands on four feet with a total area of 0.4 m\u00b2. Who exerts more pressure on the floor?",
+    prompt: "Use the data cards to decide who presses harder on the floor.",
     options: [
       { id: "a", text: "The woman, about 30 times more than the elephant" },
       { id: "b", text: "The elephant, because it is much heavier" },
@@ -575,8 +584,9 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "The elephant, about 30 times more than the woman" }
     ],
     answerId: "a",
-    explanation: "The woman exerts 600 \u00f7 0.0002 = 3,000,000 Pa. The elephant exerts 40,000 \u00f7 0.4 = 100,000 Pa. Her tiny heel area makes her pressure about 30 times greater.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "The woman exerts 600 \u00f7 0.0002 = 3,000,000 Pa and the elephant 40,000 \u00f7 0.4 = 100,000 Pa, so her pressure is about 30 times greater. The elephant is much heavier, but its weight is spread over a far larger area.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Two data cards. Woman in stiletto heels: weight 600 N, total contact area 0.0002 square metres. Elephant on four feet: weight 40,000 N, total contact area 0.4 square metres.\" font-family=\"system-ui, sans-serif\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/><rect x=\"15\" y=\"30\" width=\"140\" height=\"160\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.5\"/><text x=\"85\" y=\"54\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">Woman in heels</text><path d=\"M40,120 L70,96 L110,96 Q120,96 120,108 L120,116 L74,116 L52,128 L52,140 L48,140 L46,126 Z\" fill=\"#be185d\" stroke=\"#831843\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><text x=\"85\" y=\"152\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"600\" fill=\"#1f2937\">weight 600 N</text><text x=\"85\" y=\"172\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"600\" fill=\"#1f2937\">area 0.0002 m\u00b2</text><rect x=\"165\" y=\"30\" width=\"140\" height=\"160\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.5\"/><text x=\"235\" y=\"54\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">Elephant</text><ellipse cx=\"240\" cy=\"105\" rx=\"30\" ry=\"24\" fill=\"#9ca3af\" stroke=\"#374151\" stroke-width=\"1.5\"/><ellipse cx=\"222\" cy=\"84\" rx=\"5\" ry=\"4\" fill=\"#6b7280\" stroke=\"none\" stroke-width=\"1.5\"/><ellipse cx=\"234\" cy=\"84\" rx=\"5\" ry=\"4\" fill=\"#6b7280\" stroke=\"none\" stroke-width=\"1.5\"/><ellipse cx=\"246\" cy=\"84\" rx=\"5\" ry=\"4\" fill=\"#6b7280\" stroke=\"none\" stroke-width=\"1.5\"/><ellipse cx=\"258\" cy=\"84\" rx=\"5\" ry=\"4\" fill=\"#6b7280\" stroke=\"none\" stroke-width=\"1.5\"/><text x=\"235\" y=\"152\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"600\" fill=\"#1f2937\">weight 40,000 N</text><text x=\"235\" y=\"172\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"600\" fill=\"#1f2937\">area 0.4 m\u00b2</text></svg>", "alt": "Two data cards. Woman in stiletto heels: weight 600 N, total contact area 0.0002 square metres. Elephant on four feet: weight 40,000 N, total contact area 0.4 square metres."}
   },
   {
     id: "g8-sci-force-b-q21",
@@ -593,7 +603,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-sci-force-b-q22",
-    prompt: "In the sea, water pressure rises by about 1 atmosphere for every 10 m of depth. The air at the surface already presses with about 1 atmosphere. What is the total pressure on a diver 30 m deep?",
+    prompt: "Use the information in the picture to find the total pressure on the diver.",
     options: [
       { id: "a", text: "About 4 atmospheres" },
       { id: "b", text: "About 3 atmospheres" },
@@ -601,8 +611,9 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "About 1 atmosphere" }
     ],
     answerId: "a",
-    explanation: "30 m of water adds about 3 atmospheres. Adding the 1 atmosphere of air above the water gives a total of about 4 atmospheres.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "The diver is 30 m deep, and every 10 m of water adds about 1 atmosphere, so the water adds about 3 atmospheres. The air above the sea adds 1 more, giving about 4 atmospheres. 3 atmospheres forgets the air already pressing on the sea surface.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A depth scale beside the sea marked 0, 10, 20 and 30 m. A note says the air at the surface presses with 1 atmosphere and the water adds 1 atmosphere for every 10 m. A diver floats at the 30 m mark.\" font-family=\"system-ui, sans-serif\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/><rect x=\"60\" y=\"50\" width=\"260\" height=\"170\" fill=\"#bfdbfe\" stroke=\"none\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"50\" x2=\"320\" y2=\"50\" stroke=\"#2563eb\" stroke-width=\"2\" stroke-linecap=\"round\"/><text x=\"190\" y=\"26\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">air above: 1 atm</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"44\" y1=\"50\" x2=\"56\" y2=\"50\" stroke=\"#1f2937\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"40\" y=\"55\" font-size=\"12\" text-anchor=\"end\" font-weight=\"600\" fill=\"#1f2937\">0 m</text><line x1=\"44\" y1=\"100\" x2=\"56\" y2=\"100\" stroke=\"#1f2937\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"40\" y=\"105\" font-size=\"12\" text-anchor=\"end\" font-weight=\"600\" fill=\"#1f2937\">10 m</text><line x1=\"44\" y1=\"150\" x2=\"56\" y2=\"150\" stroke=\"#1f2937\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"40\" y=\"155\" font-size=\"12\" text-anchor=\"end\" font-weight=\"600\" fill=\"#1f2937\">20 m</text><line x1=\"44\" y1=\"200\" x2=\"56\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"40\" y=\"205\" font-size=\"12\" text-anchor=\"end\" font-weight=\"600\" fill=\"#1f2937\">30 m</text><text x=\"200\" y=\"90\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"600\" fill=\"#1f2937\">+1 atm for every 10 m</text><ellipse cx=\"180\" cy=\"200\" rx=\"26\" ry=\"8\" fill=\"#111827\" stroke=\"none\" stroke-width=\"1.5\"/><circle cx=\"214\" cy=\"196\" r=\"8\" fill=\"#fbbf24\" stroke=\"#111827\" stroke-width=\"1.5\"/><rect x=\"160\" y=\"188\" width=\"24\" height=\"6\" fill=\"#f59e0b\" stroke=\"none\" stroke-width=\"1.5\"/><text x=\"260\" y=\"186\" font-size=\"12\" text-anchor=\"start\" font-weight=\"600\" fill=\"#1f2937\">diver</text></svg>", "alt": "A depth scale beside the sea marked 0, 10, 20 and 30 m. A note says the air at the surface presses with 1 atmosphere and the water adds 1 atmosphere for every 10 m. A diver floats at the 30 m mark."}
   },
   {
     id: "g8-sci-force-b-q23",
@@ -619,16 +630,17 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-sci-force-b-q24",
-    prompt: "Water is poured into a U-shaped glass tube with one wide arm and one narrow arm. When the water settles, how do the water levels in the two arms compare?",
+    prompt: "Water is poured into the glass tube shown until it is about half full. When the water settles, how do the levels in arms X and Y compare?",
     options: [
-      { id: "a", text: "Higher in the wide arm" },
+      { id: "a", text: "Higher in the wide arm X" },
       { id: "b", text: "The same level in both arms" },
-      { id: "c", text: "Higher in the narrow arm" },
+      { id: "c", text: "Higher in the narrow arm Y" },
       { id: "d", text: "Higher in whichever arm the water was poured into" }
     ],
     answerId: "b",
-    explanation: "Liquid pressure depends only on depth, not on the width of the tube. The water settles when the pressure at the bottom is equal from both sides, which happens when both levels are the same height.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Liquid pressure depends only on depth, not on the width of the tube, so the water stops moving when both surfaces are at the same height. The narrow arm Y does not end up higher: the pressure at the bottom balances when the depths are equal.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"An empty U-shaped glass tube with a wide arm X on the left and a narrow arm Y on the right, joined at the bottom.\" font-family=\"system-ui, sans-serif\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/><path d=\"M70,30 L70,160 Q70,195 105,195 L215,195 Q235,195 235,170 L235,30\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><path d=\"M130,30 L130,150 Q130,160 140,160 L210,160 Q215,160 215,150 L215,30\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><text x=\"100\" y=\"22\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">X</text><text x=\"225\" y=\"22\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">Y</text><text x=\"285\" y=\"110\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"500\" fill=\"#1f2937\">empty</text></svg>", "alt": "An empty U-shaped glass tube with a wide arm X on the left and a narrow arm Y on the right, joined at the bottom."}
   }
 ];
 

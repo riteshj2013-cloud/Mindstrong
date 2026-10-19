@@ -179,16 +179,17 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-sci-force-a-q14",
-    prompt: "A screw is best thought of as \u2014",
+    prompt: "Sana cuts a right-angled paper triangle (1) and winds it round a pencil (2). The slanting edge makes a spiral, as shown. Which simple machine has she made a model of?",
     options: [
-      { id: "a", text: "a magnet with threads" },
-      { id: "b", text: "a pulley made of wood" },
-      { id: "c", text: "an inclined plane wrapped around a rod" },
-      { id: "d", text: "a lever with no fulcrum" }
+      { id: "a", text: "A wheel and axle" },
+      { id: "b", text: "A pulley" },
+      { id: "c", text: "A screw" },
+      { id: "d", text: "A lever" }
     ],
     answerId: "c",
-    explanation: "The thread of a screw is like a ramp wound around a cylinder \u2014 a type of inclined plane.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "The slanting edge of the triangle is a ramp (an inclined plane); wound round a rod it becomes the spiral thread of a screw. It is not a wheel and axle, which needs a large wheel fixed to a thin rod that turns with it.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Step 1: a right-angled paper triangle with its slanting edge drawn in red. Step 2: the same paper wound round a pencil, the red edge forming a spiral up the pencil.\" font-family=\"system-ui, sans-serif\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/><polygon points=\"30,170 130,170 130,60\" fill=\"#fef3c7\" stroke=\"#92400e\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><line x1=\"30\" y1=\"170\" x2=\"130\" y2=\"60\" stroke=\"#dc2626\" stroke-width=\"3\" stroke-linecap=\"round\"/><text x=\"80\" y=\"200\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">1</text><rect x=\"205\" y=\"40\" width=\"26\" height=\"140\" fill=\"#fde68a\" stroke=\"#a16207\" stroke-width=\"1.5\"/><polygon points=\"205,180 231,180 218,200\" fill=\"#fcd34d\" stroke=\"#a16207\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><path d=\"M205,70 Q218,80 231,58\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M205,92 Q218,102 231,80\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M205,114 Q218,124 231,102\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M205,136 Q218,146 231,124\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M205,158 Q218,168 231,146\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"3\" stroke-linejoin=\"round\"/><text x=\"270\" y=\"200\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">2</text><line x1=\"150\" y1=\"120\" x2=\"182.0\" y2=\"120.0\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"190,120 182,124.4 182,115.6\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\" stroke-linejoin=\"round\"/></svg>", "alt": "Step 1: a right-angled paper triangle with its slanting edge drawn in red. Step 2: the same paper wound round a pencil, the red edge forming a spiral up the pencil."}
   },
   {
     id: "g5-sci-force-a-q15",
@@ -394,16 +395,17 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-sci-force-b-q06",
-    prompt: "Which surface usually gives the most friction for a sliding wooden block?",
+    prompt: "The same push sends an identical wooden block along four different surfaces. The arrows show how far it slid on each. Which surface is most likely rough sandpaper?",
     options: [
-      { id: "a", text: "Rough sandpaper" },
-      { id: "b", text: "Smooth ice" },
-      { id: "c", text: "Oiled glass" },
-      { id: "d", text: "A polished metal sheet with oil" }
+      { id: "a", text: "Surface P" },
+      { id: "b", text: "Surface Q" },
+      { id: "c", text: "Surface R" },
+      { id: "d", text: "Surface S" }
     ],
     answerId: "a",
-    explanation: "Rough surfaces raise friction. Ice, oil and polish make sliding easier (less friction).",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "The block stopped soonest on P, so P gave the most friction, which fits rough sandpaper gripping the block. Surface Q, where the block slid farthest, has the least friction, more like smooth ice.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Four strips labelled P, Q, R and S with a wooden block at the left end of each. Arrows show it slid about 20 cm on P, 95 cm on Q, 70 cm on R and 45 cm on S.\" font-family=\"system-ui, sans-serif\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/><text x=\"165\" y=\"26\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"500\" fill=\"#1f2937\">same push each time</text><rect x=\"40\" y=\"40\" width=\"250\" height=\"18\" fill=\"#f3f4f6\" stroke=\"#9ca3af\" stroke-width=\"1\"/><text x=\"26\" y=\"54\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">P</text><rect x=\"42\" y=\"42\" width=\"16\" height=\"14\" fill=\"#c99a6b\" stroke=\"#6b4a2b\" stroke-width=\"1\"/><line x1=\"60\" y1=\"49\" x2=\"89.0\" y2=\"49.0\" stroke=\"#2563eb\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"96,49 89,52.9 89,45.1\" fill=\"#2563eb\" stroke=\"#2563eb\" stroke-width=\"1\" stroke-linejoin=\"round\"/><rect x=\"40\" y=\"84\" width=\"250\" height=\"18\" fill=\"#f3f4f6\" stroke=\"#9ca3af\" stroke-width=\"1\"/><text x=\"26\" y=\"98\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">Q</text><rect x=\"42\" y=\"86\" width=\"16\" height=\"14\" fill=\"#c99a6b\" stroke=\"#6b4a2b\" stroke-width=\"1\"/><line x1=\"60\" y1=\"93\" x2=\"224.0\" y2=\"93.0\" stroke=\"#2563eb\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"231,93 224,96.8 224,89.2\" fill=\"#2563eb\" stroke=\"#2563eb\" stroke-width=\"1\" stroke-linejoin=\"round\"/><rect x=\"40\" y=\"128\" width=\"250\" height=\"18\" fill=\"#f3f4f6\" stroke=\"#9ca3af\" stroke-width=\"1\"/><text x=\"26\" y=\"142\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">R</text><rect x=\"42\" y=\"130\" width=\"16\" height=\"14\" fill=\"#c99a6b\" stroke=\"#6b4a2b\" stroke-width=\"1\"/><line x1=\"60\" y1=\"137\" x2=\"179.0\" y2=\"137.0\" stroke=\"#2563eb\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"186,137 179,140.8 179,133.2\" fill=\"#2563eb\" stroke=\"#2563eb\" stroke-width=\"1\" stroke-linejoin=\"round\"/><rect x=\"40\" y=\"172\" width=\"250\" height=\"18\" fill=\"#f3f4f6\" stroke=\"#9ca3af\" stroke-width=\"1\"/><text x=\"26\" y=\"186\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"700\" fill=\"#1f2937\">S</text><rect x=\"42\" y=\"174\" width=\"16\" height=\"14\" fill=\"#c99a6b\" stroke=\"#6b4a2b\" stroke-width=\"1\"/><line x1=\"60\" y1=\"181\" x2=\"134.0\" y2=\"181.0\" stroke=\"#2563eb\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"141,181 134,184.8 134,177.2\" fill=\"#2563eb\" stroke=\"#2563eb\" stroke-width=\"1\" stroke-linejoin=\"round\"/><text x=\"102\" y=\"53\" font-size=\"12\" text-anchor=\"start\" font-weight=\"600\" fill=\"#1f2937\">20 cm</text><text x=\"237\" y=\"97\" font-size=\"12\" text-anchor=\"start\" font-weight=\"600\" fill=\"#1f2937\">95 cm</text><text x=\"192\" y=\"141\" font-size=\"12\" text-anchor=\"start\" font-weight=\"600\" fill=\"#1f2937\">70 cm</text><text x=\"147\" y=\"185\" font-size=\"12\" text-anchor=\"start\" font-weight=\"600\" fill=\"#1f2937\">45 cm</text></svg>", "alt": "Four strips labelled P, Q, R and S with a wooden block at the left end of each. Arrows show it slid about 20 cm on P, 95 cm on Q, 70 cm on R and 45 cm on S."}
   },
   {
     id: "g5-sci-force-b-q07",

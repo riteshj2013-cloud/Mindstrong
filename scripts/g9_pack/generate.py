@@ -31,6 +31,9 @@ import maths_data  # noqa: E402
 import english_data  # noqa: E402
 import science_data  # noqa: E402
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+import science_pictorial  # noqa: E402  (2026-10-19 diagram versions of chosen Science items)
+
 
 def bp_for(ch: dict) -> list[str]:
     kind = ch.get("bp", "maths")
@@ -47,6 +50,10 @@ def process(chapters: list[dict], subject: str) -> list[dict]:
         hints_bp = bp_for(ch)
         set_a = normalize_qs(ch["A"], ch["prefix"], "a", hints_bp)
         set_b = normalize_qs(ch["B"], ch["prefix"], "b", hints_bp)
+        if subject == "Science":
+            # After the option reshuffle: specs are written in final A-D order with the balanced letter.
+            set_a = science_pictorial.apply_items(set_a)
+            set_b = science_pictorial.apply_items(set_b)
         L = ch["lesson"]
         lesson = lesson_ts(
             emoji=L["emoji"],
