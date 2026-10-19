@@ -1,11 +1,12 @@
 /**
  * Grade 10 Science — item-specific hint fixes (fix layer).
  * Source: app repo origin/main c5a133b (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 62 | hints: 62
+ * Items changed: 71 | hints: 71
  * By category (primary): answer-leak fixed 12 · chapter-shared hint split 0 · other strict-check fixes 49
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
  * Also holds hints for items rewritten in the Science near-duplicate stem pass (2026-10-19).
+ * Leak review (2026-10-19): hints rewritten where the hardened check-science-hints.mjs found answer text.
  * Merge: these WIN over G10_SCIENCE_HINTS and over authored question.hints (see ../index.ts applyHints).
  */
 import type { HintOverlay } from "../types";
@@ -14,7 +15,7 @@ export const G10_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   // g10-science-chem-reactions
   "g10-sci-chem-a-q02": ["Rust forms when iron reacts with oxygen and moisture over time. Which processes name that kind of reaction?"],
   "g10-sci-chem-a-q04": ["Count H and O atoms on both sides. Hydrogen and oxygen are diatomic, so the product must balance both."],
-  "g10-sci-chem-a-q07": ["Remember OIL RIG for electron transfer, and recall oxygen and hydrogen in burning. Which choice covers all three ideas?"],
+  "g10-sci-chem-a-q07": ["Watch for the word 'only'. Oxidation has more than one textbook definition. Which choice does not limit it to one idea?"],
   "g10-sci-chem-a-q09": ["In a redox reaction, electrons lost by one substance are gained by another. Which two processes happen together?"],
   "g10-sci-chem-a-q11": ["Aluminium reduces iron oxide and gives molten iron with intense heat. Which use joins railway tracks with that iron?"],
   "g10-sci-chem-a-q13": ["Recall the reactivity series: which of the three reacts violently with water and must be stored under kerosene?"],
@@ -35,6 +36,7 @@ export const G10_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-sci-chem-b-q19": ["Marble is calcium carbonate. A carbonate reacts with acid to give a salt, water and which gas that turns lime water milky?"],
   "g10-sci-chem-b-q22": ["'Photo' means light. Which reaction happens only when light falls on the substance, as in old camera film?"],
   "g10-sci-chem-b-q24": ["Oils in chips turn rancid when oxygen attacks them. Why would packers push air out with an unreactive gas?"],
+  "g10-sci-chem-b-q20": ["Black CuO turns to brown Cu as hydrogen takes away its oxygen. What is losing oxygen called?"],
   // g10-science-life-processes
   "g10-sci-life-a-q01": ["The life process here covers taking in food and using it for energy and growth. Name the overall process."],
   "g10-sci-life-a-q02": ["'Auto' means self and 'troph' means nourishment. How does an autotroph get its food?"],
@@ -55,6 +57,11 @@ export const G10_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-sci-life-b-q20": ["During heavy exercise muscles respire faster. What must the lungs bring in faster, and what must they remove?"],
   "g10-sci-life-b-q21": ["Saprophytes feed on dead and decaying matter and break it down. Which organisms grow on rotting logs?"],
   "g10-sci-life-a-q10": ["Root cells take in ions from the soil and water follows by osmosis. What builds up at the base of the xylem?"],
+  "g10-sci-life-a-q12": ["Each kidney has about a million tiny filtering units, each with a glomerulus and a tubule. What is one such unit called?"],
+  "g10-sci-life-a-q14": ["Most arteries carry oxygen-rich blood, but the pulmonary artery leaves the right ventricle. Where does it go, and carrying what?"],
+  "g10-sci-life-a-q18": ["Platelets gather at a cut and help seal it. Which process stops the bleeding?"],
+  "g10-sci-life-b-q08": ["Water evaporating from leaves pulls a column of water up the xylem. What is this pulling force called?"],
+  "g10-sci-life-b-q09": ["Ammonia is changed into a less toxic substance before the kidneys remove it. Which organ does it, and into what?"],
   // g10-science-light
   "g10-sci-light-a-q01": ["Measure both angles from the normal at the point of incidence. Which rule states that they are equal?"],
   "g10-sci-light-a-q06": ["Magnification compares image height with object height. For mirrors, write it using image and object distances with signs."],
@@ -76,4 +83,7 @@ export const G10_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-sci-light-b-q17": ["Speed in water = c ÷ n. Divide 3 × 10⁸ m/s by 4/3."],
   "g10-sci-light-b-q22": ["Lens power is measured in dioptres. For two thin lenses in contact, how do the separate powers combine?"],
   "g10-sci-light-b-q24": ["Power P = 1/f with f in metres. Convert 20 cm to metres before taking the reciprocal."],
+  "g10-sci-light-a-q20": ["Lens power is 1/f with f in metres. What special name is given to the unit 1/m for lenses?"],
+  "g10-sci-light-a-q05": ["A concave mirror forms real images only for objects on one side of F. Which side: nearer the pole or farther?"],
+  "g10-sci-light-b-q01": ["The normal is drawn where the ray hits the mirror. What angle does it make with the mirror surface?"],
 };

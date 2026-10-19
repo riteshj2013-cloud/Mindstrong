@@ -5,6 +5,7 @@
  * By category (primary): answer-leak fixed 46 · chapter-shared hint split 237 · other strict-check fixes 5
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
+ * Leak review (2026-10-19): hints rewritten where the hardened check-science-hints.mjs found answer text.
  * Merge: these WIN over G5_SCIENCE_HINTS and over authored question.hints (see ../index.ts applyHints).
  */
 import type { HintOverlay } from "../types";
@@ -118,7 +119,7 @@ export const G5_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g5-sci-space-a-q07": ["One planet is covered with rusty, reddish dust and rocks. Which one looks red in the night sky?"],
   "g5-sci-space-a-q08": ["Start Zoya's order with the all-dark disc, then let the lit part grow: thin curve, half, then fully lit."],
   "g5-sci-space-a-q09": ["Recall the planet order from the Sun, then count along the numbered orbits until you reach our home planet."],
-  "g5-sci-space-a-q10": ["A satellite is a body that goes around a planet. The Moon circles Earth, and nobody built it."],
+  "g5-sci-space-a-q10": ["A satellite goes around a planet. Which choice names a body that circles Earth rather than the Sun?"],
   "g5-sci-space-a-q11": ["Picture Earth turning the way the question says. The edge turning into sunlight first is where the Sun seems to come up."],
   "g5-sci-space-a-q12": ["A shadow falls on the side away from the light. At 7 a.m., where is the Sun on Arjun's compass?"],
   "g5-sci-space-a-q13": ["Shadows are shortest when the Sun is highest overhead. Which of the three Sun places is at the top of its path?"],
@@ -272,7 +273,7 @@ export const G5_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g5-sci-env-a-q14": ["Planting new trees on a bare hill is the opposite of cutting forests down. Which term means growing forests?"],
   "g5-sci-env-a-q15": ["Reduce means cutting how much you use at the start, not using again or remaking. Which habit does that?"],
   "g5-sci-env-a-q16": ["Crops and forests grow in soil. What does soil give a plant's roots besides a place to hold on?"],
-  "g5-sci-env-a-q17": ["Loud loudspeakers late at night disturb sleep. Which kind of pollution is unwanted, harmful sound?"],
+  "g5-sci-env-a-q17": ["Loudspeakers do not make water, soil or rain dirty. What do very loud speakers spoil for people trying to sleep?"],
   "g5-sci-env-a-q18": ["Compare the pictures: one burns coal and makes smoke, others use sunlight or wind. Which option burns no fuel?"],
   "g5-sci-env-a-q19": ["Forests give animals shelter and food. What do animals lose when their forest is cleared?"],
   "g5-sci-env-a-q20": ["Conserving water means saving it. Which choice catches free rain instead of letting tap water run?"],

@@ -1,11 +1,13 @@
 /**
  * Grade 1 Science — item-specific hint fixes (fix layer).
  * Source: app repo origin/main c5a133b (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 35 | hints: 67
+ * Items changed: 90 | hints: 122
  * By category (primary): answer-leak fixed 3 · chapter-shared hint split 9 · other strict-check fixes 23
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
+ * Pass 2 (2026-10-19): 54 vague single-hint items rewritten as item-specific nudges for 6–7-year-olds.
  * Also holds hints for items rewritten in the Science near-duplicate stem pass (2026-10-19).
+ * Leak review (2026-10-19): hints rewritten where the hardened check-science-hints.mjs found answer text.
  * Merge: these WIN over G1_SCIENCE_HINTS and over authored question.hints (see ../index.ts applyHints).
  */
 import type { HintOverlay } from "../types";
@@ -13,7 +15,7 @@ import type { HintOverlay } from "../types";
 export const G1_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   // g1-science-plants
   "g1-sci-plants-a-q06": ["Bees and butterflies come to a flower.", "What does a flower look like that makes bees visit it?"],
-  "g1-sci-plants-a-q08": ["Mangoes hang high up on branches.", "Which choice is a tall plant with a trunk where a mango could grow?"],
+  "g1-sci-plants-a-q08": ["A mango hangs high up on a branch.", "Which choice is a tall plant with a trunk where a mango could grow?"],
   "g1-sci-plants-a-q09": ["Pull gently on a plant in a pot.", "What keeps the plant from coming out of the soil?"],
   "g1-sci-plants-a-q12": ["The stem is the plant's middle part.", "What would the plant do if its stem broke?"],
   "g1-sci-plants-b-q02": ["Sunlight is the leaf's helper.", "What do leaves make for the plant using sunlight?"],
@@ -24,9 +26,25 @@ export const G1_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g1-sci-plants-b-q12": ["The green colour in leaves catches sunlight.", "Leaves use sunlight to feed the plant. What do they make?"],
   "g1-sci-plants-b-q15": ["Touch a rose stem carefully.", "Thorns are sharp. What can a sharp thorn do to a finger?"],
   "g1-sci-plants-b-q16": ["Plants help us breathe.", "Trees make the air around us better. What do plants give us?"],
+  "g1-sci-plants-a-q01": ["Pull a small weed out of the soil. Which plant part was hiding under the soil, holding on tight?"],
+  "g1-sci-plants-a-q02": ["Look at the leaves on a mango tree or a tulsi plant. What colour are most of them?"],
+  "g1-sci-plants-a-q04": ["The plant cooks its own food using sunlight. Which flat part catches the sunlight?"],
+  "g1-sci-plants-a-q05": ["When you are thirsty you drink something. What do we pour on plants from a watering can?"],
+  "g1-sci-plants-a-q07": ["Plants kept near a sunny window grow well. What shines in through the window to help plants grow?"],
+  "g1-sci-plants-a-q10": ["A plant grows in soil and has leaves and petals. Which one grows in a garden?"],
+  "g1-sci-plants-a-q11": ["Cut an apple or a mango in half. What small things do you find inside the fruit?"],
+  "g1-sci-plants-a-q13": ["A cactus grows in the desert, with hot sand all around it. What is the desert like?"],
+  "g1-sci-plants-a-q14": ["A carpenter makes tables from wood. Where does the carpenter get the wood from?"],
+  "g1-sci-plants-a-q15": ["Name the parts of a plant you know. Which word in the list is a part of a car or cycle?"],
+  "g1-sci-plants-a-q16": ["Plants grow, drink water and need food, just like you and your pet dog. Which word describes all of you?"],
+  "g1-sci-plants-b-q01": ["Water poured on the soil goes down. Which plant part under the soil drinks it up?"],
+  "g1-sci-plants-b-q04": ["Push a seed into wet soil in a pot. After some days, what green thing comes up and keeps growing?"],
+  "g1-sci-plants-b-q10": ["Which flower in the list grows in a pond and has pretty pink petals?"],
+  "g1-sci-plants-b-q14": ["A big tree did not start big. What small thing did the tree grow from first?"],
+  "g1-sci-plants-a-q03": ["Plant a seed in a pot and water it every day. What will slowly come out of it and grow?"],
   // g1-science-animals
   "g1-sci-animals-a-q03": ["Think of what a cow gives at the dairy."],
-  "g1-sci-animals-a-q06": ["Lions live in the jungle, not in our homes.", "Is a lion a pet or an animal of the forest?"],
+  "g1-sci-animals-a-q06": ["Lions live in the jungle, not in our homes.", "Would a lion live with your family like a pet cat, or out in the jungle?"],
   "g1-sci-animals-a-q15": ["Frogs swim in ponds and hop on grass.", "A frog can be found in two kinds of places."],
   "g1-sci-animals-b-q02": ["Monkeys love to climb and swing.", "Where can a monkey climb and swing on branches?"],
   "g1-sci-animals-b-q03": ["A horse has four long, strong legs.", "What can a horse do with its strong legs?"],
@@ -36,17 +54,56 @@ export const G1_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g1-sci-animals-b-q13": ["Farmers use a big, strong animal to pull a cart.", "Picture a village cart in a field. Which large animal with horns walks in front of it?"],
   "g1-sci-animals-b-q14": ["Cats lap up a drink from a bowl.", "What white drink do cats often like?"],
   "g1-sci-animals-b-q15": ["Wild animals are not kept as pets.", "Where do tigers and deer live on their own?"],
+  "g1-sci-animals-a-q01": ["Which furry pet animal at home drinks milk and makes the sound meow?"],
+  "g1-sci-animals-a-q02": ["Fish have fins and gills for swimming. Where do you see fish swimming?"],
+  "g1-sci-animals-a-q04": ["Look up at the sky. Which animal in the list has wings and feathers?"],
+  "g1-sci-animals-a-q05": ["Dogs are kept at home, fed and loved by the family. What do we call such animal friends?"],
+  "g1-sci-animals-a-q07": ["Which animal has long ears and strong back legs to jump, jump, jump?"],
+  "g1-sci-animals-a-q08": ["Birds fly high in the sky. Which body part do birds flap to fly?"],
+  "g1-sci-animals-a-q09": ["We eat boiled or fried ones at breakfast. What does a hen lay in her nest?"],
+  "g1-sci-animals-a-q10": ["Whales, sharks and dolphins live in the sea. Which animal walks on land?"],
+  "g1-sci-animals-a-q11": ["Bees visit flowers all day. What sweet, sticky food do bees make?"],
+  "g1-sci-animals-a-q12": ["An elephant picks up food with its long nose. What do we call that long nose?"],
+  "g1-sci-animals-a-q13": ["Which animal in the list is so small it can walk on your finger?"],
+  "g1-sci-animals-a-q14": ["Sheep have thick, soft, curly hair. What do we get from it to make sweaters?"],
+  "g1-sci-animals-a-q16": ["Animals eat, move and grow. Which thing in the list cannot eat or move?"],
+  "g1-sci-animals-b-q01": ["Which bird swims in ponds and makes the sound quack?"],
+  "g1-sci-animals-b-q04": ["Which animal walks slowly and hides inside a hard cover on its back?"],
+  "g1-sci-animals-b-q05": ["Cows spend the day eating in green fields. What green food do cows chew?"],
+  "g1-sci-animals-b-q06": ["Look at a tiger's orange coat. What are the black lines on it called?"],
+  "g1-sci-animals-b-q07": ["Which animal in the list has fins and swims in water?"],
+  "g1-sci-animals-b-q10": ["Which animal carries its baby in a pocket on its tummy and hops?"],
+  "g1-sci-animals-b-q12": ["A peacock has feathers, a beak and lays eggs. Which kind of animal is a peacock?"],
+  "g1-sci-animals-b-q16": ["Insects are small and have six legs. Which one in the list has six legs and pretty wings?"],
   // g1-science-my-body
   "g1-sci-body-a-q05": ["Hold up your hands and count them.", "Count one for each hand you hold up."],
   "g1-sci-body-a-q06": ["Look down at what touches the ground when you walk."],
   "g1-sci-body-a-q08": ["Breathe in slowly. Where does the air go in?", "Put your hand near your face and breathe in. Where do you feel the air going in?"],
   "g1-sci-body-a-q11": ["Sit down slowly on a chair. Watch your legs.", "Touch the middle of one leg as you sit. Which part folds?"],
-  "g1-sci-body-a-q12": ["Skin covers your whole body.", "Touch something soft. Which sense tells you it is soft?"],
+  "g1-sci-body-a-q12": ["Skin covers your whole body.", "Close your eyes and stroke a soft toy. How does your skin know it is soft?"],
   "g1-sci-body-a-q13": ["Exercise is running, jumping and playing.", "Does playing every day help your body or hurt it?"],
   "g1-sci-body-a-q14": ["Sleep helps the body rest.", "When is it dark and quiet, time for bed?"],
   "g1-sci-body-b-q05": ["Think of a chilly morning before school.", "On a cold morning, what do you put on over your shirt?"],
   "g1-sci-body-b-q06": ["Germs can fly out of your mouth.", "When do germs fly out of your mouth fast? Think of a tickly nose."],
   "g1-sci-body-b-q07": ["Bones are hard and strong inside your body.", "Without bones, could your body stay up straight?"],
   "g1-sci-body-b-q09": ["Nails are hard and grow at the tips.", "Where do nails grow? Look at the tips of your hands and feet."],
-  "g1-sci-body-b-q13": ["When you jump, you push off the ground.", "Which body parts bend and push up when you jump?"],
+  "g1-sci-body-b-q13": ["Before jumping, you bend down and push off the ground.", "Which body parts bend and push you up when jumping?"],
+  "g1-sci-body-a-q01": ["Your ears hear and your nose smells. Which body part do you cover so that you cannot see your toys?"],
+  "g1-sci-body-a-q07": ["We brush in the morning and at night. What do we brush inside our mouth?"],
+  "g1-sci-body-a-q09": ["Germs on dirty hands can make us ill. When should we wash our hands, so food stays clean?"],
+  "g1-sci-body-a-q10": ["Put your hand on the left side of your body and feel your heart go thump-thump. Where is it?"],
+  "g1-sci-body-a-q15": ["Wiggle your fingers. Which body part are your fingers joined to?"],
+  "g1-sci-body-a-q16": ["Bite into an apple. What hard white things in your mouth do you chew with?"],
+  "g1-sci-body-b-q01": ["Clap, clap, clap! Which body part do you use to clap?"],
+  "g1-sci-body-b-q02": ["Sunglasses cover the top of your face in bright sun. What do sunglasses protect?"],
+  "g1-sci-body-b-q03": ["Cover the sides of your head and a loud sound gets softer. Which body part hears the sound?"],
+  "g1-sci-body-b-q04": ["Sweet laddoo and salty chips. Your tongue tells them apart. What sense is that?"],
+  "g1-sci-body-b-q08": ["Our body needs to drink a lot every day. What clean drink is best?"],
+  "g1-sci-body-b-q10": ["When you are happy you smile. Which part of your face makes the smile?"],
+  "g1-sci-body-b-q11": ["Your ears hear sounds. Which choice is something you can hear and enjoy?"],
+  "g1-sci-body-b-q14": ["We take a bath and wash our hands every day. How should we keep our body?"],
+  "g1-sci-body-b-q15": ["Shoes, belts and socks are things we wear. Which part inside your head helps you think about a sum?"],
+  "g1-sci-body-b-q16": ["Sense organs help us see, hear, smell, taste and touch. Which one in the list helps us see?"],
+  "g1-sci-body-a-q02": ["Your eyes look and your feet walk. Which body part helps you hear the school bell ring?"],
+  "g1-sci-body-b-q12": ["When you have a cold, a doctor listens to your chest. What does the doctor want to know about you?"],
 };

@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "node --experimental-strip-types --import ./scripts/reading-champ-test-register.mjs --test lib/reading-champ/*.test.ts",
+    "test": "node --experimental-strip-types --import ./scripts/reading-champ-test-register.mjs --test lib/reading-champ/*.test.ts scripts/*.test.mjs",
     "build:mobile": "NEXT_PUBLIC_BASE_PATH= next build",
     "cap:sync": "npx cap sync",
     "mobile:android": "npm run build:mobile && npx cap sync android",
