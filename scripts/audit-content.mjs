@@ -5,16 +5,23 @@
  * Structural checks on served sets: answer-letter skew (>50% one letter), duplicate stems,
  * and inline SVG figures missing an aria-label / alt text.
  * Hint checks: bare-letter hints, option-letter references, hints that equal / contain the answer.
- * Warnings (non-fatal): chapters that never use one of A/B/C/D as the answer.
- * Usage: node scripts/audit-content.mjs   (exit 1 on findings)
+ * Warnings (non-fatal): chapters that never use one of A/B/C/D as the answer, and near-duplicate
+ * stems from scripts/near-duplicate-science-stems.mjs and scripts/near-duplicate-english-stems.mjs
+ * (pairs not in their allow-lists under scripts/audit-baselines/).
+ * Usage: node scripts/audit-content.mjs [--strict]   (exit 1 on findings; --strict also fails on any warning)
  */
 import { createJiti } from "jiti";
+import { spawnSync } from "child_process";
 import fs from "fs";
+import os from "os";
 import path from "path";
 import { fileURLToPath } from "url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const jiti = createJiti(import.meta.url, { alias: { "@": ROOT } });
+
+const STRICT = process.argv.includes("--strict");
+const nearDupStats = [];
 
 const RULES = [
   ["editorial-heading", /(^|\n)\s*#{1,6}\s/],
@@ -364,6 +371,20 @@ for (const g of grades.READY_GRADES) {
   }
 }
 
+/** Near-duplicate stem scanners (Science, English) → warnings; --strict turns them into a failure. */
+for (const [subject, script] of [["Science", "near-duplicate-science-stems.mjs"], ["English", "near-duplicate-english-stems.mjs"]]) {
+  const out = path.join(fs.mkdtempSync(path.join(os.tmpdir(), "nd-")), "pairs.json");
+  const r = spawnSync(process.execPath, [path.join(ROOT, "scripts", script), "--json", out], { cwd: ROOT, encoding: "utf8", env: { ...process.env, MINDSTRONG_ROOT: ROOT } });
+  if (r.status !== 0 || !fs.existsSync(out)) {
+    findings.push({ rule: "near-duplicate-scan", where: script, text: `scanner failed (exit ${r.status}): ${(r.stderr || r.stdout || "").trim().split("\n").slice(-3).join(" | ")}` });
+    continue;
+  }
+  const { pairs } = JSON.parse(fs.readFileSync(out, "utf8"));
+  fs.rmSync(path.dirname(out), { recursive: true, force: true });
+  for (const p of pairs) warnings.push(`near-duplicate-stem (${subject}) ${p.a} ~ ${p.b} [${p.reasons.join(", ")}]: "${String(p.aStem).slice(0, 70)}" | "${String(p.bStem).slice(0, 70)}"`);
+  nearDupStats.push(`${subject} ${pairs.length}`);
+}
+
 const seen = new Set();
 const uniq = findings.filter((f) => { const k = f.rule + f.text; if (seen.has(k)) return false; seen.add(k); return true; });
 for (const f of uniq) console.log(`${f.rule.padEnd(18)} ${f.where}\n    ${f.text}`);
@@ -377,5 +398,6 @@ for (const c of softChecks) {
   console.log(`${c.rule}: ${c.hits.size} item(s), ${[...c.hits.keys()].filter((id) => c.baseline.has(id)).length} known in ${c.file}` + (stale.length ? `; ${stale.length} fixed, remove from baseline: ${stale.join(", ")}` : ""));
 }
 if (staleLeaks.length) console.log(`note: ${staleLeaks.length} id(s) in the hint-leak baseline no longer leak; remove them: ${staleLeaks.join(", ")}`);
-console.log(`${uniq.length} finding(s), ${warnings.length} warning(s)`);
-process.exit(uniq.length ? 1 : 0);
+console.log(`near-duplicate stems (not allow-listed): ${nearDupStats.join(", ")}`);
+console.log(`${uniq.length} finding(s), ${warnings.length} warning(s)${STRICT && warnings.length ? " (--strict: warnings fail)" : ""}`);
+process.exit(uniq.length || (STRICT && warnings.length) ? 1 : 0);

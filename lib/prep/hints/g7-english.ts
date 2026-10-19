@@ -82,7 +82,7 @@ export const G7_ENGLISH_HINTS: Record<string, HintOverlay> = {
   "g7-eng-grammar-b-q06": ["Look at \"its verdict\": is the jury one unit or many people?", "A collective noun acting as one unit takes a singular verb."],
   "g7-eng-grammar-b-q07": ["Modals signal strength of need."],
   "g7-eng-grammar-b-q08": ["Object form after to/for."],
-  "g7-eng-grammar-b-q09": ["\"said\" is in the past, so the reported verb usually moves back one tense.", "\"like\" is present; change it to its past form."],
+  "g7-eng-grammar-b-q09": ["\"said\" is in the past, so the reported verb usually moves back one tense.", "\"enjoy\" is present; change it to its past form."],
   "g7-eng-grammar-b-q10": ["Correlative conjunctions travel in pairs."],
   "g7-eng-grammar-b-q11": ["After a preposition use object pronouns."],
   "g7-eng-grammar-b-q12": ["Finite verbs show tense."],

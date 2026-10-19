@@ -398,7 +398,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch03-b-q07",
-    prompt: "Choose the closing for a formal letter that begins “Dear Ms Iyer,” (the reader is named):",
+    prompt: "Choose the closing for a formal letter that begins “Dear Mr Mehta,” (the reader is named):",
     options: [
       { id: "a", text: "Yours faithfully" },
       { id: "b", text: "See ya" },
@@ -406,8 +406,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Love" }
     ],
     answerId: "c",
-    explanation: "When a formal letter names the reader (Dear Ms Iyer), it closes with 'Yours sincerely'. 'Yours faithfully' is for 'Dear Sir/Madam', when the name is unknown.",
-    hints: ["The salutation names the reader, Ms Iyer.", "\"Yours faithfully\" pairs with Dear Sir/Madam; which formal closing pairs with a name?"]
+    explanation: "When a formal letter names the reader (Dear Mr Mehta), it closes with 'Yours sincerely'. 'Yours faithfully' is for 'Dear Sir/Madam', when the name is unknown.",
+    hints: ["The salutation names the reader, Mr Mehta.", "\"Yours faithfully\" pairs with Dear Sir/Madam; which formal closing pairs with a name?"]
   },
   {
     id: "g9-eng-ch03-b-q08",

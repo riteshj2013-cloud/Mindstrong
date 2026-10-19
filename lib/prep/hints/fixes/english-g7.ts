@@ -81,7 +81,7 @@ export const G7_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g7-eng-words-a-q11": ["Children gather shells on the beach into a bucket.", "Scatter means the opposite: spreading things apart."],
   "g7-eng-words-a-q02": ["A vacant seat on the bus has nobody in it.", "Find the word for a seat someone is sitting in, the opposite of vacant."],
   "g7-eng-grammar-a-q11": ["The real subject here: \"One\", not \"my pens\".", "\"One of ...\" always takes a singular verb."],
-  "g7-eng-grammar-b-q09": ["\"said\" is in the past, so the reported verb usually moves back one tense.", "\"like\" is present; change it to its past form."],
+  "g7-eng-grammar-b-q09": ["\"said\" is in the past, so the reported verb usually moves back one tense.", "\"enjoy\" is present; change it to its past form."],
   "g7-eng-grammar-a-q10": ["The second part explains why Kabir wore a raincoat.", "\"but\" shows contrast; pick the conjunction that gives a reason."],
   "g7-eng-grammar-a-q16": ["\"Measles\" ends in -s but names a single illness.", "Names of illnesses ending in -s take a singular verb."],
   "g7-eng-grammar-a-q17": ["An interjection is a short word that shows sudden feeling.", "Dropped is the action and lunchbox is a thing; find the cry of surprise."],

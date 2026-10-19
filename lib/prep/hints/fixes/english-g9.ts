@@ -76,6 +76,6 @@ export const G9_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g9-eng-ch03-a-q04": ["This idiom comes from tennis but is about decisions, not sport.", "After the firm sent its offer, \"the ball is in your court\". Who acts next?"],
   "g9-eng-ch03-a-q17": ["Think of someone who never learned to read a newspaper or write a letter.", "Ignorant is about knowledge in general; this word is only about reading and writing."],
   "g9-eng-ch03-b-q01": ["A reckless driver speeds through red lights.", "Find the word for a careful driver, the opposite of reckless."],
-  "g9-eng-ch03-b-q07": ["The salutation names the reader, Ms Iyer.", "\"Yours faithfully\" pairs with Dear Sir/Madam; which formal closing pairs with a name?"],
+  "g9-eng-ch03-b-q07": ["The salutation names the reader, Mr Mehta.", "\"Yours faithfully\" pairs with Dear Sir/Madam; which formal closing pairs with a name?"],
   "g9-eng-ch03-b-q16": ["A hostile crowd boos and shouts at the visiting team.", "Find the word for a crowd that greets visitors warmly, the opposite of hostile."],
 };

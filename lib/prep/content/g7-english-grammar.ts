@@ -424,16 +424,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-eng-grammar-b-q09",
-    prompt: "Correct reported speech: Riya said, “I like mangoes.” → Riya said that she ____ mangoes.",
+    prompt: "Correct reported speech: Kabir said, “I enjoy chess.” → Kabir said that he ____ chess.",
     options: [
-      { id: "a", text: "liked" },
-      { id: "b", text: "likes" },
-      { id: "c", text: "like" },
-      { id: "d", text: "is liking" }
+      { id: "a", text: "enjoyed" },
+      { id: "b", text: "enjoys" },
+      { id: "c", text: "enjoy" },
+      { id: "d", text: "is enjoying" }
     ],
     answerId: "a",
-    explanation: "After a past reporting verb ('said'), the present 'like' shifts back to the past 'liked'. 'likes' keeps the present tense, which is not the usual reported form.",
-    hints: ["\"said\" is in the past, so the reported verb usually moves back one tense.", "\"like\" is present; change it to its past form."]
+    explanation: "After a past reporting verb ('said'), the present 'enjoy' shifts back to the past 'enjoyed'. 'enjoys' keeps the present tense, which is not the usual reported form.",
+    hints: ["\"said\" is in the past, so the reported verb usually moves back one tense.", "\"enjoy\" is present; change it to its past form."]
   },
   {
     id: "g7-eng-grammar-b-q10",

@@ -128,7 +128,7 @@ export const G9_ENGLISH_HINTS: Record<string, HintOverlay> = {
   "g9-eng-ch03-b-q04": ["Goes-with → complement."],
   "g9-eng-ch03-b-q05": ["Off can suggest pushing away in time."],
   "g9-eng-ch03-b-q06": ["Travel agents send this plan before a journey so you know where to be each day.", "A diary looks back on events; this document looks ahead to the trip."],
-  "g9-eng-ch03-b-q07": ["The salutation names the reader, Ms Iyer.", "\"Yours faithfully\" pairs with Dear Sir/Madam; which formal closing pairs with a name?"],
+  "g9-eng-ch03-b-q07": ["The salutation names the reader, Mr Mehta.", "\"Yours faithfully\" pairs with Dear Sir/Madam; which formal closing pairs with a name?"],
   "g9-eng-ch03-b-q08": ["A candid answer tells the plain truth, even if it is awkward.", "Find the word for speaking openly and honestly, like candid."],
   "g9-eng-ch03-b-q09": ["Humble people do not boast. Which word describes someone who does?"],
   "g9-eng-ch03-b-q10": ["Advice → counsel."],
