@@ -135,14 +135,14 @@ D) Hearing sound
 **Explanation:** Stomata allow CO₂ in and O₂/water vapour out.
 
 ### Q12
-**Stem:** Animals that eat only plants are…
+**Stem:** A bear eats berries, roots, honey and fish. Based on its diet, a bear is —
 **Options:**
-A) Carnivores
-B) Omnivores
-C) Parasites
-D) Herbivores
+A) a herbivore
+B) a carnivore
+C) a parasite
+D) an omnivore
 **Answer:** D
-**Explanation:** Herbivores feed on plants.
+**Explanation:** An animal that eats both plants (berries, roots) and animals (fish) is an omnivore. “Carnivore” is tempting because bears catch fish, but they eat plant food too.
 
 ### Q13
 **Stem:** Humans are typically…

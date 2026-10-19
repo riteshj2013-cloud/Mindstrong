@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-plants-a-q01",
     prompt: "Which part of a plant grows under the soil?",
     options: [
-      { id: "a", text: "leaf" },
-      { id: "b", text: "root" },
+      { id: "a", text: "root" },
+      { id: "b", text: "leaf" },
       { id: "c", text: "flower" },
       { id: "d", text: "fruit" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Roots grow under the soil.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -34,11 +34,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "A seed can grow into a\u2026",
     options: [
       { id: "a", text: "stone" },
-      { id: "b", text: "new plant" },
-      { id: "c", text: "cloud" },
+      { id: "b", text: "cloud" },
+      { id: "c", text: "new plant" },
       { id: "d", text: "car" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "A seed grows into a new plant.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -47,11 +47,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which part makes food for the plant?",
     options: [
       { id: "a", text: "root" },
-      { id: "b", text: "leaf" },
-      { id: "c", text: "stone" },
-      { id: "d", text: "pot" }
+      { id: "b", text: "stone" },
+      { id: "c", text: "pot" },
+      { id: "d", text: "leaf" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Leaves make food with sunlight.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -59,12 +59,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-plants-a-q05",
     prompt: "We water plants because they need\u2026",
     options: [
-      { id: "a", text: "music" },
-      { id: "b", text: "water" },
+      { id: "a", text: "water" },
+      { id: "b", text: "music" },
       { id: "c", text: "toys" },
       { id: "d", text: "shoes" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Plants need water to live.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -85,12 +85,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-plants-a-q07",
     prompt: "Which do plants need to grow?",
     options: [
-      { id: "a", text: "sunlight" },
-      { id: "b", text: "TV" },
-      { id: "c", text: "phones" },
+      { id: "a", text: "TV" },
+      { id: "b", text: "phones" },
+      { id: "c", text: "sunlight" },
       { id: "d", text: "cars" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Plants need sunlight.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -99,11 +99,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "A mango grows on a\u2026",
     options: [
       { id: "a", text: "fish" },
-      { id: "b", text: "tree" },
-      { id: "c", text: "cloud" },
-      { id: "d", text: "bike" }
+      { id: "b", text: "cloud" },
+      { id: "c", text: "bike" },
+      { id: "d", text: "tree" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Mangoes grow on trees.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -111,12 +111,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-plants-a-q09",
     prompt: "Roots help the plant to\u2026",
     options: [
-      { id: "a", text: "fly" },
-      { id: "b", text: "hold in the soil" },
+      { id: "a", text: "hold in the soil" },
+      { id: "b", text: "fly" },
       { id: "c", text: "sing" },
       { id: "d", text: "read" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Roots hold the plant in the soil.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-plants-a-q11",
     prompt: "Fruits often have ___ inside.",
     options: [
-      { id: "a", text: "seeds" },
-      { id: "b", text: "wheels" },
-      { id: "c", text: "books" },
+      { id: "a", text: "wheels" },
+      { id: "b", text: "books" },
+      { id: "c", text: "seeds" },
       { id: "d", text: "socks" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Fruits keep seeds inside.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-plants-a-q12",
     prompt: "The stem\u2026",
     options: [
-      { id: "a", text: "holds the plant up" },
-      { id: "b", text: "is always under soil" },
-      { id: "c", text: "is an animal" },
-      { id: "d", text: "makes thunder" }
+      { id: "a", text: "is always under soil" },
+      { id: "b", text: "is an animal" },
+      { id: "c", text: "makes thunder" },
+      { id: "d", text: "holds the plant up" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "The stem holds the plant up.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -163,12 +163,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-plants-a-q13",
     prompt: "A cactus lives where it is\u2026",
     options: [
-      { id: "a", text: "very wet always" },
-      { id: "b", text: "dry" },
+      { id: "a", text: "dry" },
+      { id: "b", text: "very wet always" },
       { id: "c", text: "under the sea" },
       { id: "d", text: "in snow only" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Cactus plants like dry places.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -176,12 +176,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-plants-a-q14",
     prompt: "We get wood from\u2026",
     options: [
-      { id: "a", text: "trees" },
-      { id: "b", text: "fish" },
+      { id: "a", text: "fish" },
+      { id: "b", text: "trees" },
       { id: "c", text: "clouds" },
       { id: "d", text: "stones only" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Wood comes from trees.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-plants-a-q16",
     prompt: "Plants are\u2026",
     options: [
-      { id: "a", text: "living" },
-      { id: "b", text: "not living" },
-      { id: "c", text: "made of plastic only" },
-      { id: "d", text: "always toys" }
+      { id: "a", text: "not living" },
+      { id: "b", text: "made of plastic only" },
+      { id: "c", text: "always toys" },
+      { id: "d", text: "living" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Plants are living things.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
@@ -218,12 +218,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q01",
     prompt: "Which part drinks water from the soil?",
     options: [
-      { id: "a", text: "flower" },
-      { id: "b", text: "root" },
+      { id: "a", text: "root" },
+      { id: "b", text: "flower" },
       { id: "c", text: "fruit skin" },
       { id: "d", text: "thorn only" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Roots drink water from the soil.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -231,12 +231,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q02",
     prompt: "Sunlight helps leaves to\u2026",
     options: [
-      { id: "a", text: "make food" },
-      { id: "b", text: "dance" },
+      { id: "a", text: "dance" },
+      { id: "b", text: "make food" },
       { id: "c", text: "sleep only" },
       { id: "d", text: "make noise" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Leaves use sunlight to make food.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -244,12 +244,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q03",
     prompt: "A baby plant is called a\u2026",
     options: [
-      { id: "a", text: "seedling" },
-      { id: "b", text: "rocket" },
-      { id: "c", text: "pillow" },
+      { id: "a", text: "rocket" },
+      { id: "b", text: "pillow" },
+      { id: "c", text: "seedling" },
       { id: "d", text: "truck" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "A baby plant is a seedling.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -258,11 +258,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which grows from a seed?",
     options: [
       { id: "a", text: "chair" },
-      { id: "b", text: "plant" },
-      { id: "c", text: "glass" },
-      { id: "d", text: "phone" }
+      { id: "b", text: "glass" },
+      { id: "c", text: "phone" },
+      { id: "d", text: "plant" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "A plant grows from a seed.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -283,12 +283,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q06",
     prompt: "A leaf is usually\u2026",
     options: [
-      { id: "a", text: "flat and green" },
-      { id: "b", text: "round like a ball only" },
+      { id: "a", text: "round like a ball only" },
+      { id: "b", text: "flat and green" },
       { id: "c", text: "made of iron" },
       { id: "d", text: "blue metal" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Leaves are often flat and green.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -296,12 +296,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q07",
     prompt: "Bees visit flowers for\u2026",
     options: [
-      { id: "a", text: "nectar" },
-      { id: "b", text: "stones" },
-      { id: "c", text: "books" },
+      { id: "a", text: "stones" },
+      { id: "b", text: "books" },
+      { id: "c", text: "nectar" },
       { id: "d", text: "shoes" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Bees take nectar from flowers.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -309,12 +309,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q08",
     prompt: "A coconut tree is\u2026",
     options: [
-      { id: "a", text: "tall" },
-      { id: "b", text: "a fish" },
-      { id: "c", text: "a bird" },
-      { id: "d", text: "a cup" }
+      { id: "a", text: "a fish" },
+      { id: "b", text: "a bird" },
+      { id: "c", text: "a cup" },
+      { id: "d", text: "tall" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Coconut trees are tall.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -322,12 +322,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q09",
     prompt: "Soil helps plants by giving\u2026",
     options: [
-      { id: "a", text: "TV shows" },
-      { id: "b", text: "a place to grow" },
+      { id: "a", text: "a place to grow" },
+      { id: "b", text: "TV shows" },
       { id: "c", text: "music" },
       { id: "d", text: "cars" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Soil is where plants grow.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -335,12 +335,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q10",
     prompt: "Which is a flower?",
     options: [
-      { id: "a", text: "lotus" },
-      { id: "b", text: "spoon" },
+      { id: "a", text: "spoon" },
+      { id: "b", text: "lotus" },
       { id: "c", text: "eraser" },
       { id: "d", text: "sock" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "A lotus is a flower.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q11",
     prompt: "Dry leaves fall in\u2026",
     options: [
-      { id: "a", text: "autumn / dry season" },
-      { id: "b", text: "only at night always" },
-      { id: "c", text: "from the moon" },
+      { id: "a", text: "only at night always" },
+      { id: "b", text: "from the moon" },
+      { id: "c", text: "autumn / dry season" },
       { id: "d", text: "from cars" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Leaves fall in dry or autumn times.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q12",
     prompt: "The green colour in leaves helps them\u2026",
     options: [
-      { id: "a", text: "make food" },
-      { id: "b", text: "bark like dogs" },
-      { id: "c", text: "fly planes" },
-      { id: "d", text: "cook rice" }
+      { id: "a", text: "bark like dogs" },
+      { id: "b", text: "fly planes" },
+      { id: "c", text: "cook rice" },
+      { id: "d", text: "make food" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Green helps leaves make food.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q14",
     prompt: "Which comes first?",
     options: [
-      { id: "a", text: "seed" },
-      { id: "b", text: "big tree" },
+      { id: "a", text: "big tree" },
+      { id: "b", text: "seed" },
       { id: "c", text: "fruit only" },
       { id: "d", text: "wood chair" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Life often starts with a seed.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q15",
     prompt: "Thorns on a rose\u2026",
     options: [
-      { id: "a", text: "can prick" },
-      { id: "b", text: "are sweets" },
-      { id: "c", text: "are roots" },
+      { id: "a", text: "are sweets" },
+      { id: "b", text: "are roots" },
+      { id: "c", text: "can prick" },
       { id: "d", text: "are fruits" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Thorns can prick \u2014 be careful.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q16",
     prompt: "Plants give us\u2026",
     options: [
-      { id: "a", text: "oxygen / fresh air" },
-      { id: "b", text: "only plastic" },
-      { id: "c", text: "only noise" },
-      { id: "d", text: "only smoke" }
+      { id: "a", text: "only plastic" },
+      { id: "b", text: "only noise" },
+      { id: "c", text: "only smoke" },
+      { id: "d", text: "oxygen / fresh air" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Plants help give fresh air.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }

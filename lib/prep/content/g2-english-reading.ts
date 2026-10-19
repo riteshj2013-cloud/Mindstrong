@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-reading-a-q01",
     prompt: "Read: \"Tina waters the plants every morning.\" When does Tina water them?",
     options: [
-      { id: "a", text: "at night" },
-      { id: "b", text: "every morning" },
+      { id: "a", text: "every morning" },
+      { id: "b", text: "at night" },
       { id: "c", text: "only on Sunday" },
       { id: "d", text: "never" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "The sentence says every morning.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -34,11 +34,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Read: \"Rohan shared his lunch with Meena.\" What did Rohan do?",
     options: [
       { id: "a", text: "hid his lunch" },
-      { id: "b", text: "shared his lunch" },
-      { id: "c", text: "threw his lunch" },
+      { id: "b", text: "threw his lunch" },
+      { id: "c", text: "shared his lunch" },
       { id: "d", text: "sold his lunch" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "He shared his lunch with Meena.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-reading-a-q04",
     prompt: "Why do we wear a raincoat?",
     options: [
-      { id: "a", text: "to stay dry in rain" },
-      { id: "b", text: "to fly" },
-      { id: "c", text: "to sleep underwater" },
-      { id: "d", text: "to cook" }
+      { id: "a", text: "to fly" },
+      { id: "b", text: "to sleep underwater" },
+      { id: "c", text: "to cook" },
+      { id: "d", text: "to stay dry in rain" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "A raincoat keeps us dry in the rain.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -72,12 +72,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-reading-a-q06",
     prompt: "Read: \"The bus was late, so Kabir ran.\" Why did Kabir run?",
     options: [
-      { id: "a", text: "the bus was late" },
-      { id: "b", text: "he was sleepy" },
+      { id: "a", text: "he was sleepy" },
+      { id: "b", text: "the bus was late" },
       { id: "c", text: "it was a holiday" },
       { id: "d", text: "he lost a shoe for fun" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Because the bus was late.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -85,12 +85,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-reading-a-q07",
     prompt: "Which sentence shows kindness?",
     options: [
-      { id: "a", text: "She helped her friend." },
-      { id: "b", text: "She broke the toy." },
-      { id: "c", text: "She shouted angrily." },
+      { id: "a", text: "She broke the toy." },
+      { id: "b", text: "She shouted angrily." },
+      { id: "c", text: "She helped her friend." },
       { id: "d", text: "She hid the book forever." }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Helping a friend is kind.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -99,11 +99,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Read: \"Ants work together to carry food.\" What do ants do?",
     options: [
       { id: "a", text: "sleep all day only" },
-      { id: "b", text: "work together" },
-      { id: "c", text: "drive cars" },
-      { id: "d", text: "read novels" }
+      { id: "b", text: "drive cars" },
+      { id: "c", text: "read novels" },
+      { id: "d", text: "work together" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "They work together to carry food.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -138,11 +138,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Read: \"Leela felt proud after her race.\" How did Leela feel?",
     options: [
       { id: "a", text: "sad" },
-      { id: "b", text: "proud" },
-      { id: "c", text: "sleepy only" },
+      { id: "b", text: "sleepy only" },
+      { id: "c", text: "proud" },
       { id: "d", text: "angry" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Proud \u2014 from the sentence.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-reading-a-q12",
     prompt: "A library is a place to\u2026",
     options: [
-      { id: "a", text: "borrow books" },
-      { id: "b", text: "swim with sharks" },
-      { id: "c", text: "park aeroplanes" },
-      { id: "d", text: "bake only" }
+      { id: "a", text: "swim with sharks" },
+      { id: "b", text: "park aeroplanes" },
+      { id: "c", text: "bake only" },
+      { id: "d", text: "borrow books" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Libraries are for books.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -163,12 +163,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-reading-a-q13",
     prompt: "Read: \"First wash hands. Next eat. Then play.\" What comes first?",
     options: [
-      { id: "a", text: "play" },
-      { id: "b", text: "eat" },
-      { id: "c", text: "wash hands" },
+      { id: "a", text: "wash hands" },
+      { id: "b", text: "play" },
+      { id: "c", text: "eat" },
       { id: "d", text: "sleep" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "First means wash hands comes first.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-reading-a-q15",
     prompt: "Which title fits a story about a lost kitten found at home?",
     options: [
-      { id: "a", text: "The Kitten Comes Home" },
-      { id: "b", text: "Space Rockets" },
-      { id: "c", text: "Deep Sea Sharks" },
+      { id: "a", text: "Space Rockets" },
+      { id: "b", text: "Deep Sea Sharks" },
+      { id: "c", text: "The Kitten Comes Home" },
       { id: "d", text: "Maths Only" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "The title matches the kitten story.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-reading-a-q16",
     prompt: "Read: \"Aarav closed the tap to save water.\" Why did Aarav close the tap?",
     options: [
-      { id: "a", text: "to save water" },
-      { id: "b", text: "to waste water" },
-      { id: "c", text: "to make noise" },
-      { id: "d", text: "to cook rice" }
+      { id: "a", text: "to waste water" },
+      { id: "b", text: "to make noise" },
+      { id: "c", text: "to cook rice" },
+      { id: "d", text: "to save water" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "To save water \u2014 from the sentence.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
@@ -218,12 +218,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q01",
     prompt: "Read: \"Sara feeds the sparrows on the balcony.\" Whom does Sara feed?",
     options: [
-      { id: "a", text: "cats only" },
-      { id: "b", text: "sparrows" },
+      { id: "a", text: "sparrows" },
+      { id: "b", text: "cats only" },
       { id: "c", text: "fish in the sea" },
       { id: "d", text: "cows" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "She feeds the sparrows.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -231,12 +231,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q02",
     prompt: "Read: \"The ball rolled behind the sofa.\" Where is the ball?",
     options: [
-      { id: "a", text: "behind the sofa" },
-      { id: "b", text: "on the moon" },
+      { id: "a", text: "on the moon" },
+      { id: "b", text: "behind the sofa" },
       { id: "c", text: "in the fridge" },
       { id: "d", text: "under the sea" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Behind the sofa \u2014 place words.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -244,12 +244,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q03",
     prompt: "Read: \"Neha thanked the shopkeeper.\" What did Neha do?",
     options: [
-      { id: "a", text: "thanked him" },
-      { id: "b", text: "ignored him" },
-      { id: "c", text: "ran without paying" },
+      { id: "a", text: "ignored him" },
+      { id: "b", text: "ran without paying" },
+      { id: "c", text: "thanked him" },
       { id: "d", text: "hid" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "She thanked the shopkeeper.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -257,12 +257,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q04",
     prompt: "Why do we use an umbrella?",
     options: [
-      { id: "a", text: "to keep rain off" },
-      { id: "b", text: "to dig soil" },
-      { id: "c", text: "to write sums" },
-      { id: "d", text: "to sleep" }
+      { id: "a", text: "to dig soil" },
+      { id: "b", text: "to write sums" },
+      { id: "c", text: "to sleep" },
+      { id: "d", text: "to keep rain off" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Umbrellas keep rain off us.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -283,12 +283,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q06",
     prompt: "Read: \"It started to rain, so we went inside.\" Why did they go inside?",
     options: [
-      { id: "a", text: "it started to rain" },
-      { id: "b", text: "they were hungry only" },
+      { id: "a", text: "they were hungry only" },
+      { id: "b", text: "it started to rain" },
       { id: "c", text: "the TV called" },
       { id: "d", text: "shoes were new" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Because it started to rain.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -296,12 +296,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q07",
     prompt: "Which sentence shows sharing?",
     options: [
-      { id: "a", text: "He gave half his snack to his sister." },
-      { id: "b", text: "He hid all the snacks." },
-      { id: "c", text: "He threw snacks away." },
+      { id: "a", text: "He hid all the snacks." },
+      { id: "b", text: "He threw snacks away." },
+      { id: "c", text: "He gave half his snack to his sister." },
       { id: "d", text: "He sat alone angrily." }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Giving half is sharing.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -309,12 +309,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q08",
     prompt: "Read: \"Bees fly from flower to flower.\" What do bees do?",
     options: [
-      { id: "a", text: "fly to flowers" },
-      { id: "b", text: "drive buses" },
-      { id: "c", text: "read books" },
-      { id: "d", text: "swim in ice" }
+      { id: "a", text: "drive buses" },
+      { id: "b", text: "read books" },
+      { id: "c", text: "swim in ice" },
+      { id: "d", text: "fly to flowers" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "They fly from flower to flower.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -335,12 +335,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q10",
     prompt: "Read: \"Look both ways before you cross.\" What should you do?",
     options: [
-      { id: "a", text: "look both ways" },
-      { id: "b", text: "run with eyes closed" },
+      { id: "a", text: "run with eyes closed" },
+      { id: "b", text: "look both ways" },
       { id: "c", text: "sit on the road" },
       { id: "d", text: "ignore cars" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Look both ways \u2014 safety rule.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q11",
     prompt: "Read: \"Kabir felt brave on stage.\" How did Kabir feel?",
     options: [
-      { id: "a", text: "brave" },
-      { id: "b", text: "sleepy only" },
-      { id: "c", text: "lost forever" },
+      { id: "a", text: "sleepy only" },
+      { id: "b", text: "lost forever" },
+      { id: "c", text: "brave" },
       { id: "d", text: "angry at shoes" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Brave \u2014 feeling word.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q12",
     prompt: "A post office is a place to\u2026",
     options: [
-      { id: "a", text: "send letters" },
-      { id: "b", text: "swim" },
-      { id: "c", text: "grow rice only" },
-      { id: "d", text: "park planes" }
+      { id: "a", text: "swim" },
+      { id: "b", text: "grow rice only" },
+      { id: "c", text: "park planes" },
+      { id: "d", text: "send letters" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Post offices help send letters.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -374,12 +374,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q13",
     prompt: "Read: \"First pack the bag. Next wear shoes. Then leave.\" What comes last?",
     options: [
-      { id: "a", text: "pack the bag" },
-      { id: "b", text: "wear shoes" },
-      { id: "c", text: "leave" },
+      { id: "a", text: "leave" },
+      { id: "b", text: "pack the bag" },
+      { id: "c", text: "wear shoes" },
       { id: "d", text: "sleep" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Then leave \u2014 last step.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q14",
     prompt: "Read: \"Stars twinkle in the night sky.\" When do stars twinkle here?",
     options: [
-      { id: "a", text: "at night" },
-      { id: "b", text: "only at noon" },
+      { id: "a", text: "only at noon" },
+      { id: "b", text: "at night" },
       { id: "c", text: "only underwater" },
       { id: "d", text: "never" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "In the night sky.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q15",
     prompt: "Best title for a story about saving a street puppy?",
     options: [
-      { id: "a", text: "A Puppy Needs Help" },
-      { id: "b", text: "Rocket Science" },
-      { id: "c", text: "Deep Ocean" },
+      { id: "a", text: "Rocket Science" },
+      { id: "b", text: "Deep Ocean" },
+      { id: "c", text: "A Puppy Needs Help" },
       { id: "d", text: "Silent Stones" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Title matches the puppy story.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q16",
     prompt: "Read: \"Meera switched off lights to save power.\" Why switch off?",
     options: [
-      { id: "a", text: "to save power" },
-      { id: "b", text: "to waste power" },
-      { id: "c", text: "to break bulbs" },
-      { id: "d", text: "to hide" }
+      { id: "a", text: "to waste power" },
+      { id: "b", text: "to break bulbs" },
+      { id: "c", text: "to hide" },
+      { id: "d", text: "to save power" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "To save power \u2014 reason given.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }

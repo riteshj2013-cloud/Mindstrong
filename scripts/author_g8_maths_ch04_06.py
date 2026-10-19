@@ -88,7 +88,7 @@ ALGEBRA_B[22] = (
 
 MENSURATION_A = [
     ("Area of a rectangle with length 12 cm and breadth 5 cm is…", ["17 cm²", "60 cm²", "34 cm²", "120 cm²"], "B", "Area = length × breadth = 12 × 5 = 60 cm².", "area_2d", "easy"),
-    ("Perimeter of a square of side 9 cm is…", ["36 cm", "81 cm", "18 cm", "27 cm"], "A", "Perimeter = 4 × side = 4 × 9 = 36 cm.", "area_2d", "easy"),
+    ("A square park has a perimeter of 48 m. What is its area?", ["144 m²", "12 m²", "96 m²", "192 m²"], "A", "Side = 48 ÷ 4 = 12 m, so area = 12 × 12 = 144 m². 96 m² is tempting if you double the perimeter instead of finding the side first.", "area_2d", "easy"),
     ("Area of a triangle with base 10 cm and height 6 cm is…", ["60 cm²", "30 cm²", "16 cm²", "32 cm²"], "B", "Area = (1/2) × base × height = (1/2) × 10 × 6 = 30 cm².", "area_2d", "easy"),
     ("Circumference of a circle of radius 7 cm (take π = 22/7) is…", ["44 cm", "154 cm", "22 cm", "88 cm"], "A", "C = 2πr = 2 × (22/7) × 7 = 44 cm.", "circle", "easy"),
     ("Area of a circle of radius 7 cm (π = 22/7) is…", ["44 cm²", "154 cm²", "49 cm²", "22 cm²"], "B", "A = πr² = (22/7) × 49 = 154 cm².", "circle", "easy"),

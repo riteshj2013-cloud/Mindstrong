@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-meas-a-q01",
     prompt: "How many centimetres are there in 1 metre?",
     options: [
-      { id: "a", text: "10 cm" },
-      { id: "b", text: "100 cm" },
+      { id: "a", text: "100 cm" },
+      { id: "b", text: "10 cm" },
       { id: "c", text: "1000 cm" },
       { id: "d", text: "50 cm" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "1 m = 100 cm.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -21,11 +21,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "How many metres are there in 1 kilometre?",
     options: [
       { id: "a", text: "10 m" },
-      { id: "b", text: "100 m" },
-      { id: "c", text: "1000 m" },
+      { id: "b", text: "1000 m" },
+      { id: "c", text: "100 m" },
       { id: "d", text: "10000 m" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "1 km = 1000 m.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -48,10 +48,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "10 ml" },
       { id: "b", text: "100 ml" },
-      { id: "c", text: "1000 ml" },
-      { id: "d", text: "500 ml" }
+      { id: "c", text: "500 ml" },
+      { id: "d", text: "1000 ml" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "1 L = 1000 ml.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -59,12 +59,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-meas-a-q05",
     prompt: "What is the perimeter of a square with side 4 cm?",
     options: [
-      { id: "a", text: "8 cm" },
-      { id: "b", text: "12 cm" },
-      { id: "c", text: "16 cm" },
+      { id: "a", text: "16 cm" },
+      { id: "b", text: "8 cm" },
+      { id: "c", text: "12 cm" },
       { id: "d", text: "20 cm" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Perimeter of a square is 4 \u00d7 side = 4 \u00d7 4 = 16 cm.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -98,12 +98,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-meas-a-q08",
     prompt: "What is the area of a rectangle 7 cm by 3 cm?",
     options: [
-      { id: "a", text: "21 cm\u00b2" },
-      { id: "b", text: "20 cm\u00b2" },
-      { id: "c", text: "10 cm\u00b2" },
-      { id: "d", text: "24 cm\u00b2" }
+      { id: "a", text: "20 cm\u00b2" },
+      { id: "b", text: "10 cm\u00b2" },
+      { id: "c", text: "24 cm\u00b2" },
+      { id: "d", text: "21 cm\u00b2" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Area = length \u00d7 breadth = 7 \u00d7 3 = 21 cm\u00b2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -111,12 +111,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-meas-a-q09",
     prompt: "Which unit is best for the length of a classroom?",
     options: [
-      { id: "a", text: "millimetre" },
-      { id: "b", text: "centimetre" },
-      { id: "c", text: "metre" },
+      { id: "a", text: "metre" },
+      { id: "b", text: "millimetre" },
+      { id: "c", text: "centimetre" },
       { id: "d", text: "kilometre" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "A classroom is a few metres long, so metre is the sensible unit.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -138,11 +138,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Convert 3 m to centimetres.",
     options: [
       { id: "a", text: "30 cm" },
-      { id: "b", text: "300 cm" },
-      { id: "c", text: "3000 cm" },
+      { id: "b", text: "3000 cm" },
+      { id: "c", text: "300 cm" },
       { id: "d", text: "3 cm" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "3 \u00d7 100 = 300 cm.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -152,10 +152,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "200 g" },
       { id: "b", text: "20 g" },
-      { id: "c", text: "2000 g" },
-      { id: "d", text: "2500 g" }
+      { id: "c", text: "2500 g" },
+      { id: "d", text: "2000 g" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "2 \u00d7 1000 = 2000 g.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -163,12 +163,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-meas-a-q13",
     prompt: "A rectangular park is 40 m long and 25 m broad. What is its perimeter?",
     options: [
-      { id: "a", text: "65 m" },
-      { id: "b", text: "130 m" },
+      { id: "a", text: "130 m" },
+      { id: "b", text: "65 m" },
       { id: "c", text: "1000 m" },
       { id: "d", text: "90 m" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Perimeter = 2 \u00d7 (40 + 25) = 2 \u00d7 65 = 130 m.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-meas-a-q15",
     prompt: "Convert 450 cm to metres.",
     options: [
-      { id: "a", text: "4.5 m" },
-      { id: "b", text: "45 m" },
-      { id: "c", text: "0.45 m" },
+      { id: "a", text: "45 m" },
+      { id: "b", text: "0.45 m" },
+      { id: "c", text: "4.5 m" },
       { id: "d", text: "4500 m" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "450 \u00f7 100 = 4.5 m.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-meas-a-q16",
     prompt: "Convert 3500 ml to litres.",
     options: [
-      { id: "a", text: "3.5 L" },
-      { id: "b", text: "35 L" },
-      { id: "c", text: "0.35 L" },
-      { id: "d", text: "350 L" }
+      { id: "a", text: "35 L" },
+      { id: "b", text: "0.35 L" },
+      { id: "c", text: "350 L" },
+      { id: "d", text: "3.5 L" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "3500 \u00f7 1000 = 3.5 L.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -215,12 +215,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-meas-a-q17",
     prompt: "A rectangular stamp is 3 cm by 2 cm. What is its area?",
     options: [
-      { id: "a", text: "5 cm\u00b2" },
-      { id: "b", text: "6 cm\u00b2" },
+      { id: "a", text: "6 cm\u00b2" },
+      { id: "b", text: "5 cm\u00b2" },
       { id: "c", text: "10 cm\u00b2" },
       { id: "d", text: "12 cm\u00b2" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Area = 3 \u00d7 2 = 6 cm\u00b2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -242,11 +242,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "A square has perimeter 36 cm. What is the length of one side?",
     options: [
       { id: "a", text: "6 cm" },
-      { id: "b", text: "9 cm" },
-      { id: "c", text: "12 cm" },
+      { id: "b", text: "12 cm" },
+      { id: "c", text: "9 cm" },
       { id: "d", text: "18 cm" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Side = perimeter \u00f7 4 = 36 \u00f7 4 = 9 cm.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -256,10 +256,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "13 m\u00b2" },
       { id: "b", text: "26 m\u00b2" },
-      { id: "c", text: "40 m\u00b2" },
-      { id: "d", text: "45 m\u00b2" }
+      { id: "c", text: "45 m\u00b2" },
+      { id: "d", text: "40 m\u00b2" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Area = 8 \u00d7 5 = 40 m\u00b2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -267,12 +267,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-meas-a-q21",
     prompt: "Which is longer: 1.2 km or 1200 m?",
     options: [
-      { id: "a", text: "1.2 km" },
-      { id: "b", text: "1200 m" },
-      { id: "c", text: "They are equal" },
+      { id: "a", text: "They are equal" },
+      { id: "b", text: "1.2 km" },
+      { id: "c", text: "1200 m" },
       { id: "d", text: "Cannot tell" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "1.2 km = 1200 m, so they are equal.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -308,10 +308,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "4" },
       { id: "b", text: "6" },
-      { id: "c", text: "8" },
-      { id: "d", text: "10" }
+      { id: "c", text: "10" },
+      { id: "d", text: "8" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "2 L = 2000 ml; 2000 \u00f7 250 = 8 cans.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
@@ -322,12 +322,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-meas-b-q01",
     prompt: "How many millimetres are in 1 centimetre?",
     options: [
-      { id: "a", text: "1 mm" },
-      { id: "b", text: "10 mm" },
+      { id: "a", text: "10 mm" },
+      { id: "b", text: "1 mm" },
       { id: "c", text: "100 mm" },
       { id: "d", text: "1000 mm" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "1 cm = 10 mm.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -336,11 +336,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "How many centimetres are in 1 kilometre?",
     options: [
       { id: "a", text: "100 cm" },
-      { id: "b", text: "1000 cm" },
-      { id: "c", text: "10,000 cm" },
-      { id: "d", text: "100,000 cm" }
+      { id: "b", text: "100,000 cm" },
+      { id: "c", text: "1000 cm" },
+      { id: "d", text: "10,000 cm" }
     ],
-    answerId: "d",
+    answerId: "b",
     explanation: "1 km = 1000 m = 1000 \u00d7 100 cm = 100,000 cm.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-meas-b-q03",
     prompt: "How many kilograms equal 5000 g?",
     options: [
-      { id: "a", text: "5 kg" },
-      { id: "b", text: "50 kg" },
-      { id: "c", text: "0.5 kg" },
+      { id: "a", text: "50 kg" },
+      { id: "b", text: "0.5 kg" },
+      { id: "c", text: "5 kg" },
       { id: "d", text: "500 kg" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "5000 \u00f7 1000 = 5 kg.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-meas-b-q04",
     prompt: "How many litres equal 2000 ml?",
     options: [
-      { id: "a", text: "2 L" },
-      { id: "b", text: "20 L" },
-      { id: "c", text: "0.2 L" },
-      { id: "d", text: "200 L" }
+      { id: "a", text: "20 L" },
+      { id: "b", text: "0.2 L" },
+      { id: "c", text: "200 L" },
+      { id: "d", text: "2 L" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "2000 \u00f7 1000 = 2 L.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -374,12 +374,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-meas-b-q05",
     prompt: "What is the perimeter of a square with side 7 cm?",
     options: [
-      { id: "a", text: "14 cm" },
-      { id: "b", text: "21 cm" },
-      { id: "c", text: "28 cm" },
+      { id: "a", text: "28 cm" },
+      { id: "b", text: "14 cm" },
+      { id: "c", text: "21 cm" },
       { id: "d", text: "49 cm" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "4 \u00d7 7 = 28 cm.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -401,11 +401,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "What is the perimeter of a rectangle 9 cm by 4 cm?",
     options: [
       { id: "a", text: "13 cm" },
-      { id: "b", text: "26 cm" },
-      { id: "c", text: "36 cm" },
+      { id: "b", text: "36 cm" },
+      { id: "c", text: "26 cm" },
       { id: "d", text: "22 cm" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "2 \u00d7 (9 + 4) = 26 cm.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -415,10 +415,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "16 cm\u00b2" },
       { id: "b", text: "32 cm\u00b2" },
-      { id: "c", text: "60 cm\u00b2" },
-      { id: "d", text: "100 cm\u00b2" }
+      { id: "c", text: "100 cm\u00b2" },
+      { id: "d", text: "60 cm\u00b2" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "10 \u00d7 6 = 60 cm\u00b2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -426,12 +426,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-meas-b-q09",
     prompt: "Which unit is best for the distance between two cities?",
     options: [
-      { id: "a", text: "cm" },
-      { id: "b", text: "mm" },
-      { id: "c", text: "km" },
+      { id: "a", text: "km" },
+      { id: "b", text: "cm" },
+      { id: "c", text: "mm" },
       { id: "d", text: "ml" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "City distances are measured in kilometres.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -440,11 +440,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which unit is best for a spoon of cough syrup?",
     options: [
       { id: "a", text: "kilometre" },
-      { id: "b", text: "kilogram" },
-      { id: "c", text: "millilitre" },
+      { id: "b", text: "millilitre" },
+      { id: "c", text: "kilogram" },
       { id: "d", text: "metre" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Small liquid amounts use millilitres.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -467,10 +467,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "30 ml" },
       { id: "b", text: "300 ml" },
-      { id: "c", text: "3000 ml" },
-      { id: "d", text: "3 ml" }
+      { id: "c", text: "3 ml" },
+      { id: "d", text: "3000 ml" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "3 \u00d7 1000 = 3000 ml.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -478,12 +478,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-meas-b-q13",
     prompt: "A rectangular photo is 18 cm by 12 cm. What is its perimeter?",
     options: [
-      { id: "a", text: "30 cm" },
-      { id: "b", text: "60 cm" },
+      { id: "a", text: "60 cm" },
+      { id: "b", text: "30 cm" },
       { id: "c", text: "216 cm" },
       { id: "d", text: "48 cm" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "2 \u00d7 (18 + 12) = 60 cm.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -505,11 +505,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Convert 2.5 m to centimetres.",
     options: [
       { id: "a", text: "25 cm" },
-      { id: "b", text: "250 cm" },
-      { id: "c", text: "2500 cm" },
+      { id: "b", text: "2500 cm" },
+      { id: "c", text: "250 cm" },
       { id: "d", text: "2.5 cm" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "2.5 \u00d7 100 = 250 cm.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -518,11 +518,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Convert 1.25 kg to grams.",
     options: [
       { id: "a", text: "125 g" },
-      { id: "b", text: "1250 g" },
-      { id: "c", text: "12.5 g" },
-      { id: "d", text: "12500 g" }
+      { id: "b", text: "12.5 g" },
+      { id: "c", text: "12500 g" },
+      { id: "d", text: "1250 g" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "1.25 \u00d7 1000 = 1250 g.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -530,12 +530,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-meas-b-q17",
     prompt: "A notebook page is 20 cm by 15 cm. What is its area?",
     options: [
-      { id: "a", text: "35 cm\u00b2" },
-      { id: "b", text: "70 cm\u00b2" },
-      { id: "c", text: "300 cm\u00b2" },
+      { id: "a", text: "300 cm\u00b2" },
+      { id: "b", text: "35 cm\u00b2" },
+      { id: "c", text: "70 cm\u00b2" },
       { id: "d", text: "200 cm\u00b2" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "20 \u00d7 15 = 300 cm\u00b2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -557,11 +557,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "A square has area 81 cm\u00b2. What is the length of one side?",
     options: [
       { id: "a", text: "8 cm" },
-      { id: "b", text: "9 cm" },
-      { id: "c", text: "18 cm" },
+      { id: "b", text: "18 cm" },
+      { id: "c", text: "9 cm" },
       { id: "d", text: "40.5 cm" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Side \u00d7 side = 81, so side = 9 cm.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -571,10 +571,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "80 m\u00b2" },
       { id: "b", text: "160 m\u00b2" },
-      { id: "c", text: "1500 m\u00b2" },
-      { id: "d", text: "800 m\u00b2" }
+      { id: "c", text: "800 m\u00b2" },
+      { id: "d", text: "1500 m\u00b2" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "50 \u00d7 30 = 1500 m\u00b2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -623,10 +623,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "12" },
       { id: "b", text: "20" },
-      { id: "c", text: "24" },
-      { id: "d", text: "6" }
+      { id: "c", text: "6" },
+      { id: "d", text: "24" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "12 L = 12,000 ml; 12,000 \u00f7 500 = 24 bottles.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
@@ -636,7 +636,7 @@ const lesson: ChapterDef["lesson"] = [
   {
     id: "h",
     type: "hook",
-    emoji: "📏",
+    emoji: "\ud83d\udccf",
     title: "Measurement and area",
     body: [
       "An interactive lesson with tap-to-reveal and a quick try.",
@@ -690,7 +690,7 @@ const lesson: ChapterDef["lesson"] = [
 export const g5MathsMeasurement: ChapterDef = {
   id: "measurement-area",
   title: "Measurement & Area",
-  emoji: "📏",
+  emoji: "\ud83d\udccf",
   blurb: "Length, mass, perimeter and area",
   lesson,
   sets: [

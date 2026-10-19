@@ -464,7 +464,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-maths-fractions-b-q11",
-    prompt: "Which list goes from smallest to greatest?",
+    prompt: "Which list of unit fractions goes from smallest to greatest?",
     options: [
       { id: "a", text: "1/6, 1/4, 1/2" },
       { id: "b", text: "1/2, 1/4, 1/6" },
@@ -544,7 +544,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-maths-fractions-b-q17",
-    prompt: "Which list goes from smallest to greatest?",
+    prompt: "Which list of sevenths goes from smallest to greatest?",
     options: [
       { id: "a", text: "6/7, 3/7, 1/7" },
       { id: "b", text: "3/7, 1/7, 6/7" },

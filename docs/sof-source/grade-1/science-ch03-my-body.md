@@ -18,12 +18,12 @@
 **Stem:** We see with our…
 
 **Options:**
-- A) ears
-- B) eyes
+- A) eyes
+- B) ears
 - C) nose
 - D) tongue
 
-**Answer:** B
+**Answer:** A
 
 **Explanation:** We see with our eyes.
 
@@ -46,12 +46,12 @@
 **Stem:** We smell with our…
 
 **Options:**
-- A) nose
-- B) eyes
-- C) ears
+- A) eyes
+- B) ears
+- C) nose
 - D) hair
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** We smell with our nose.
 
@@ -60,12 +60,12 @@
 **Stem:** We taste with our…
 
 **Options:**
-- A) tongue
-- B) elbow
-- C) knee
-- D) ear
+- A) elbow
+- B) knee
+- C) ear
+- D) tongue
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** We taste with our tongue.
 
@@ -74,12 +74,12 @@
 **Stem:** We have how many hands?
 
 **Options:**
-- A) 1
-- B) 2
+- A) 2
+- B) 1
 - C) 3
 - D) 4
 
-**Answer:** B
+**Answer:** A
 
 **Explanation:** We have 2 hands.
 
@@ -102,12 +102,12 @@
 **Stem:** Brush your ___ every day.
 
 **Options:**
-- A) teeth
-- B) shoes only
-- C) books
+- A) shoes only
+- B) books
+- C) teeth
 - D) walls
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Brush your teeth every day.
 
@@ -116,12 +116,12 @@
 **Stem:** We breathe air in through our…
 
 **Options:**
-- A) nose / mouth
-- B) toes
-- C) elbows
-- D) hair
+- A) toes
+- B) elbows
+- C) hair
+- D) nose / mouth
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** We breathe through nose or mouth.
 
@@ -144,12 +144,12 @@
 **Stem:** Our heart is inside our…
 
 **Options:**
-- A) chest
-- B) shoe
+- A) shoe
+- B) chest
 - C) hat
 - D) bag
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** The heart is in the chest.
 
@@ -159,11 +159,11 @@
 
 **Options:**
 - A) 1
-- B) 2
-- C) 3
+- B) 3
+- C) 2
 - D) 4
 
-**Answer:** B
+**Answer:** C
 
 **Explanation:** Most people have 2 eyes.
 
@@ -172,12 +172,12 @@
 **Stem:** Skin helps us to…
 
 **Options:**
-- A) feel touch
-- B) fly
-- C) bark
-- D) lay eggs
+- A) fly
+- B) bark
+- C) lay eggs
+- D) feel touch
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Skin helps us feel touch.
 
@@ -200,12 +200,12 @@
 **Stem:** We should sleep at…
 
 **Options:**
-- A) night / rest time
-- B) never
+- A) never
+- B) night / rest time
 - C) only in class always
 - D) in the rain without care
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Sleep helps the body rest.
 
@@ -214,12 +214,12 @@
 **Stem:** Fingers are on our…
 
 **Options:**
-- A) hands
-- B) ears
-- C) nose tip only
+- A) ears
+- B) nose tip only
+- C) hands
 - D) knees only
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Fingers are on our hands.
 
@@ -228,12 +228,12 @@
 **Stem:** Which helps us chew food?
 
 **Options:**
-- A) teeth
-- B) hair
-- C) nails only
-- D) eyelashes
+- A) hair
+- B) nails only
+- C) eyelashes
+- D) teeth
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Teeth help us chew food.
 
@@ -259,12 +259,12 @@
 **Stem:** Sunglasses protect our…
 
 **Options:**
-- A) eyes
-- B) toes
+- A) toes
+- B) eyes
 - C) elbows
 - D) knees
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Sunglasses protect eyes from bright sun.
 
@@ -273,12 +273,12 @@
 **Stem:** A loud sound is heard by our…
 
 **Options:**
-- A) ears
-- B) eyes
-- C) tongue
+- A) eyes
+- B) tongue
+- C) ears
 - D) hair
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Ears hear loud sounds.
 
@@ -287,12 +287,12 @@
 **Stem:** Sweet and salty are kinds of…
 
 **Options:**
-- A) taste
-- B) colour only
-- C) shape only
-- D) number
+- A) colour only
+- B) shape only
+- C) number
+- D) taste
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Sweet and salty are tastes.
 
@@ -301,12 +301,12 @@
 **Stem:** We have how many legs?
 
 **Options:**
-- A) 1
-- B) 2
+- A) 2
+- B) 1
 - C) 3
 - D) 4
 
-**Answer:** B
+**Answer:** A
 
 **Explanation:** We have 2 legs.
 
@@ -315,12 +315,12 @@
 **Stem:** Cover your mouth when you…
 
 **Options:**
-- A) sneeze or cough
-- B) sleep only
+- A) sleep only
+- B) sneeze or cough
 - C) read
 - D) draw
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Cover mouth when you sneeze or cough.
 
@@ -329,12 +329,12 @@
 **Stem:** Bones help our body to…
 
 **Options:**
-- A) stand and move
-- B) make honey
-- C) fly alone
+- A) make honey
+- B) fly alone
+- C) stand and move
 - D) turn into water
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Bones help us stand and move.
 
@@ -343,12 +343,12 @@
 **Stem:** Drink plenty of…
 
 **Options:**
-- A) water
-- B) mud
-- C) paint
-- D) sand
+- A) mud
+- B) paint
+- C) sand
+- D) water
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Drink plenty of water.
 
@@ -371,12 +371,12 @@
 **Stem:** We smile with our…
 
 **Options:**
-- A) mouth
-- B) elbow
+- A) elbow
+- B) mouth
 - C) knee
 - D) heel
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** We smile with our mouth.
 
@@ -385,12 +385,12 @@
 **Stem:** Ears help us enjoy…
 
 **Options:**
-- A) music
-- B) only colours
-- C) only smells
+- A) only colours
+- B) only smells
+- C) music
 - D) only tastes
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Ears help us hear music.
 
@@ -399,12 +399,12 @@
 **Stem:** A doctor checks if we are…
 
 **Options:**
-- A) healthy
-- B) a plant
-- C) a car
-- D) a cloud
+- A) a plant
+- B) a car
+- C) a cloud
+- D) healthy
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Doctors help keep us healthy.
 
@@ -427,12 +427,12 @@
 **Stem:** Keep your body…
 
 **Options:**
-- A) clean
-- B) dirty always
+- A) dirty always
+- B) clean
 - C) painted blue
 - D) wet with mud always
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Keep your body clean.
 
@@ -441,12 +441,12 @@
 **Stem:** We think with our…
 
 **Options:**
-- A) brain
-- B) shoes
-- C) belt
+- A) shoes
+- B) belt
+- C) brain
 - D) socks
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** We think with our brain.
 
@@ -455,12 +455,12 @@
 **Stem:** Which is a sense organ?
 
 **Options:**
-- A) eye
-- B) shoe
-- C) chair
-- D) bag
+- A) shoe
+- B) chair
+- C) bag
+- D) eye
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** The eye is a sense organ.
 

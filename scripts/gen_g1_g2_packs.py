@@ -9,6 +9,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from ingest_lib import emit_module, lesson_ts, q_to_ts  # noqa: E402
+from answer_balance import balance_items  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
 OUT = REPO / "lib/prep/content"
@@ -374,7 +375,12 @@ def g1_eng_grammar():
         q("Pick the opposite of big.", ["large", "huge", "small", "tall"], "c", "Small is the opposite of big.", "Not a twin — an opposite.", "Small."),
     ]
     b = [
-        q("Pick the correct sentence.", ["we go home.", "We go home.", "we Go home.", "WE go Home always."], "b", "Start with a capital W.", "Sentence start.", "We…"),
+        q("\"we play in the park.\" Which word needs a capital letter?",
+      ["play", "we", "park", "the"],
+      "b",
+      "The first word of a sentence starts with a capital letter, so it should be \"We\". \"park\" is tempting, but it is not a name, so it stays small.",
+      "Which words need a capital letter: the start of a sentence, names, or both?",
+      "Is any word here the name of a person or a place?"),
         q("We say ___ egg.", ["a", "an", "the the", "two"], "b", "Egg starts with a vowel sound — an.", "An egg.", "An."),
         q("The girl ___ kind.", ["am", "is", "are", "be"], "b", "One girl — is.", "Singular.", "Is."),
         q("You ___ my friend.", ["am", "is", "are", "be"], "c", "With you we use are.", "You are…", "Are."),
@@ -386,7 +392,12 @@ def g1_eng_grammar():
         q("We say ___ orange.", ["a", "an", "two two", "an an"], "b", "Orange starts with a vowel sound — an.", "An orange.", "An."),
         q("He ___ tall.", ["am", "is", "are", "be"], "b", "He takes is.", "One boy.", "Is."),
         q("Pick the sentence with a full stop.", ["What time is it", "It is time to eat.", "Help", "Wow"], "b", "Telling sentence + full stop.", "Ends with .", "It is time…"),
-        q("Which is a question?", ["Bo smiles.", "Can you help?", "Red is a colour.", "A soft pillow."], "b", "Can you help? asks something.", "Ends with ?", "Question."),
+        q("Which sentence needs a question mark (?) at the end?",
+      ["My cap is red", "Where is my cap", "I have a cap", "The cap is on the bed"],
+      "b",
+      "\"Where is my cap\" asks something, so it ends with a question mark. The others tell us something, so they end with a full stop.",
+      "A question asks something.",
+      "Read each one aloud. Which one sounds like you are asking?"),
         q("Her bag ___ new.", ["am", "is", "are", "be"], "b", "Bag is singular — is.", "Her bag is…", "Is."),
         q("We use ___ before dog.", ["a", "an", "an an", "the the the"], "a", "Dog starts with a consonant — a.", "A dog.", "A."),
         q("Pick the opposite of happy.", ["glad", "joyful", "sad", "merry"], "c", "Sad is the opposite of happy.", "Not a twin.", "Sad."),
@@ -593,7 +604,12 @@ def g2_maths_addsub():
         q("9 + 9 = ?", ["16", "18", "19", "17"], "b", "9 + 9 = 18.", "Double nine.", "18."),
         q("16 − 6 = ?", ["8", "10", "22", "12"], "b", "16 − 6 = 10.", "Take away six.", "10."),
         q("23 + 5 = ?", ["27", "28", "29", "18"], "b", "23 + 5 = 28.", "Count on five.", "28."),
-        q("Which is correct?", ["12 + 3 = 14", "12 + 3 = 15", "12 + 3 = 16", "12 + 3 = 9"], "b", "12 + 3 = 15.", "Add three.", "15."),
+        q("Which addition fact is correct?",
+      ["12 + 3 = 14", "12 + 3 = 15", "12 + 3 = 16", "12 + 3 = 9"],
+      "b",
+      "12 + 3 = 15.",
+      "Start at 12 and count on three more.",
+      "Check each answer by counting back from it."),
     ]
     return a, b
 
@@ -688,13 +704,23 @@ def g2_eng_reading():
 
 def g2_eng_grammar():
     a = [
-        q("Pick the correct sentence.", ["she go to school.", "She goes to school.", "She going to school.", "She gone to school."], "b", "She goes — singular + -s on the verb.", "One person.", "Goes."),
+        q("Fill in the blank: \"She ___ to school every day.\"",
+      ["go", "goes", "going", "gone"],
+      "b",
+      "With one person (she) in the present, the verb takes -s or -es: she goes. \"go\" is tempting, but we say I go and they go, not she go.",
+      "\"She\" is one person.",
+      "Say each word in the sentence aloud. Which sounds right?"),
         q("They ___ playing in the park.", ["is", "are", "am", "be"], "b", "They takes are.", "Plural.", "Are."),
         q("Choose the past tense of walk.", ["walk", "walks", "walked", "walking"], "c", "Walked is past tense.", "Yesterday word.", "Walked."),
         q("A ___ names a person, place or thing.", ["verb", "noun", "adjective", "question"], "b", "A noun names a person, place or thing.", "Naming word.", "Noun."),
         q("Pick the describing word.", ["run", "happy", "school", "under"], "b", "Happy describes a feeling.", "Adjective.", "Happy."),
         q("I ___ finished my homework.", ["has", "have", "is", "are"], "b", "I have finished…", "I + have.", "Have."),
-        q("Which needs a capital letter?", ["mumbai", "river", "pencil", "cloud"], "a", "City names: Mumbai.", "Proper noun.", "Mumbai."),
+        q("\"We visited pune last week.\" Which word needs a capital letter?",
+      ["pune", "visited", "last", "week"],
+      "a",
+      "Pune is the name of a city, so it needs a capital: Pune. \"week\" is tempting because it is about time, but it is not a name; only day and month names get capitals.",
+      "Names of places start with a capital letter.",
+      "Which word is the name of one special place?"),
         q("We ___ to the market yesterday.", ["go", "goes", "went", "going"], "c", "Yesterday → past → went.", "Time clue.", "Went."),
         q("An adjective describes a…", ["noun", "full stop", "number only", "silence"], "a", "Adjectives describe nouns.", "Which or what kind.", "Noun."),
         q("She ___ a song now.", ["sing", "sings", "is singing", "sang"], "c", "Now → is singing.", "Present continuous.", "Is singing."),
@@ -706,18 +732,38 @@ def g2_eng_grammar():
         q("Pick the correct punctuation.", ["What is your name.", "What is your name?", "What is your name!", "what is your name"], "b", "Questions end with ?", "Asking.", "?"),
     ]
     b = [
-        q("Pick the correct sentence.", ["He eat rice.", "He eats rice.", "He eating rice.", "He eated rice."], "b", "He eats — singular + -s.", "One boy.", "Eats."),
+        q("Fill in the blank: \"He ___ rice for lunch.\"",
+      ["eat", "eats", "eating", "eated"],
+      "b",
+      "With one person (he) in the present, the verb takes -s: he eats. \"eated\" is tempting, but \"eat\" is not changed with -ed; its past form is \"ate\".",
+      "\"He\" is one boy.",
+      "Which word fits after \"He\" without any helping word?"),
         q("We ___ ready for the test.", ["is", "am", "are", "be"], "c", "We takes are.", "Plural we.", "Are."),
         q("Past tense of jump?", ["jump", "jumps", "jumped", "jumping"], "c", "Jumped is past.", "Already happened.", "Jumped."),
         q("A verb shows an…", ["action", "colour only", "place name only", "silence"], "a", "Verbs show actions.", "Doing word.", "Action."),
-        q("Pick the describing word.", ["run", "bright", "under", "and"], "b", "Bright describes something.", "Adjective.", "Bright."),
+        q("Pick the describing word: \"Ravi has a big kite.\"",
+      ["Ravi", "has", "big", "kite"],
+      "c",
+      "\"big\" tells us what the kite is like, so it is the describing word. \"kite\" is tempting, but it names a thing, so it is a naming word.",
+      "A describing word tells us what something is like.",
+      "Find the naming word first, then the word that tells more about it."),
         q("She ___ done her work.", ["have", "has", "are", "am"], "b", "She has done…", "She + has.", "Has."),
-        q("Which needs a capital?", ["monday", "tree", "cup", "sand"], "a", "Day names: Monday.", "Proper noun.", "Monday."),
+        q("Which day name is written correctly?",
+      ["Sunday", "sunday", "SUNday", "sunDay"],
+      "a",
+      "Day names begin with a capital letter and the other letters are small: Sunday. \"SUNday\" is tempting because it has capitals, but only the first letter should be a capital.",
+      "Days of the week are names.",
+      "Look at how your own name is written on your notebook."),
         q("They ___ football last evening.", ["play", "plays", "played", "playing"], "c", "Last evening → past → played.", "Time clue.", "Played."),
         q("Replace 'The children' with a pronoun.", ["he", "she", "they", "it"], "c", "Children = they.", "Plural people.", "They."),
         q("He ___ reading a book now.", ["am", "is", "are", "be"], "b", "He is reading…", "Singular + continuous.", "Is."),
         q("This is ___ umbrella.", ["a", "an", "two", "an an"], "b", "An umbrella — vowel sound.", "A vs an.", "An."),
-        q("Which is a question word?", ["how", "blue", "desk", "softly"], "a", "How asks about manner.", "Question word.", "How."),
+        q("Which question word asks about a time?",
+      ["When", "Who", "What", "Where"],
+      "a",
+      "\"When\" asks about time, as in \"When is the bus?\" \"Where\" is tempting, but it asks about a place.",
+      "Think of asking about the time a bus comes.",
+      "Who asks about a person; where asks about a place."),
         q("Opposite of early?", ["late", "soon", "quick", "near"], "a", "Late is the opposite of early.", "Time opposite.", "Late."),
         q("Join: care + ful =", ["careful", "caring", "cares", "careless"], "a", "care + ful = careful.", "Full of care.", "Careful."),
         q("Pick correct end mark: Wow, that is great__", [".", "?", "!", ","], "c", "Strong feeling → !", "Excitement.", "!"),
@@ -1075,8 +1121,9 @@ def main():
     for ch in chapters:
         a_raw, b_raw = ch["bank"]()
         assert len(a_raw) == 16 and len(b_raw) == 16, (ch["prefix"], len(a_raw), len(b_raw))
-        set_a = stamp(a_raw, ch["prefix"], "a")
-        set_b = stamp(b_raw, ch["prefix"], "b")
+        # Balance answer letters (~25% each) at generation time so a regen never re-skews.
+        set_a = balance_items(stamp(a_raw, ch["prefix"], "a"))
+        set_b = balance_items(stamp(b_raw, ch["prefix"], "b"))
         docs = DOCS1 if ch["grade"] == 1 else DOCS2
         write_md(docs / ch["md"], ch["meta"]["title"], ch["grade"], ch["subject"], ch["meta"]["id"], set_a, set_b, ch["kind"])
 

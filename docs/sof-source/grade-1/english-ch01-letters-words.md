@@ -25,19 +25,19 @@
 ### Q2
 - stem: Which word starts with M?
 - A: sun
-- B: moon
-- C: cat
+- B: cat
+- C: moon
 - D: dog
-- answer: B
+- answer: C
 - explanation: Moon starts with M.
 
 ### Q3
 - stem: Find the word: "c" + "at" =
 - A: bat
-- B: cat
-- C: hat
-- D: mat
-- answer: B
+- B: hat
+- C: mat
+- D: cat
+- answer: D
 - explanation: c + at makes cat.
 
 ### Q4
@@ -51,20 +51,20 @@
 
 ### Q5
 - stem: How many letters are in the word SUN?
-- A: 2
-- B: 3
+- A: 3
+- B: 2
 - C: 4
 - D: 1
-- answer: B
+- answer: A
 - explanation: S-U-N has 3 letters.
 
 ### Q6
 - stem: Which word ends with "g"?
-- A: bag
-- B: bat
-- C: bus
+- A: bat
+- B: bus
+- C: bag
 - D: bee
-- answer: A
+- answer: C
 - explanation: Bag ends with g.
 
 ### Q7
@@ -79,19 +79,19 @@
 ### Q8
 - stem: Which word means a pet that meows?
 - A: dog
-- B: cat
-- C: cow
-- D: hen
-- answer: B
+- B: cow
+- C: hen
+- D: cat
+- answer: D
 - explanation: A cat meows.
 
 ### Q9
 - stem: Rhymes with "hat"?
-- A: hot
-- B: sit
-- C: cat
+- A: cat
+- B: hot
+- C: sit
 - D: cup
-- answer: C
+- answer: A
 - explanation: Cat rhymes with hat.
 
 ### Q10
@@ -106,55 +106,55 @@
 ### Q11
 - stem: Which is a word?
 - A: xyzq
-- B: book
-- C: 1234
+- B: 1234
+- C: book
 - D: ##
-- answer: B
+- answer: C
 - explanation: Book is a real word.
 
 ### Q12
 - stem: Ball starts with which sound?
-- A: b
-- B: c
-- C: d
-- D: s
-- answer: A
+- A: c
+- B: d
+- C: s
+- D: b
+- answer: D
 - explanation: Ball starts with /b/.
 
 ### Q13
 - stem: How many vowels in AEIOU list?
-- A: 3
-- B: 4
-- C: 5
+- A: 5
+- B: 3
+- C: 4
 - D: 6
-- answer: C
+- answer: A
 - explanation: A E I O U — five vowels.
 
 ### Q14
 - stem: Small letter for "T" is…
-- A: t
-- B: T
+- A: T
+- B: t
 - C: s
 - D: l
-- answer: A
+- answer: B
 - explanation: Small form of T is t.
 
 ### Q15
 - stem: Which word names a colour?
 - A: run
-- B: red
-- C: cup
+- B: cup
+- C: red
 - D: sit
-- answer: B
+- answer: C
 - explanation: Red is a colour.
 
 ### Q16
 - stem: Join: bl + ue =
-- A: blue
-- B: blow
-- C: glue
-- D: clue
-- answer: A
+- A: blow
+- B: glue
+- C: clue
+- D: blue
+- answer: D
 - explanation: bl + ue = blue.
 
 
@@ -172,37 +172,37 @@
 ### Q2
 - stem: Which word starts with S?
 - A: moon
-- B: sun
-- C: apple
+- B: apple
+- C: sun
 - D: egg
-- answer: B
+- answer: C
 - explanation: Sun starts with S.
 
 ### Q3
 - stem: Find the word: "p" + "en" =
 - A: pan
-- B: pen
-- C: pin
-- D: pun
-- answer: B
+- B: pin
+- C: pun
+- D: pen
+- answer: D
 - explanation: p + en = pen.
 
 ### Q4
 - stem: How many letters in DOG?
-- A: 2
-- B: 3
+- A: 3
+- B: 2
 - C: 4
 - D: 5
-- answer: B
+- answer: A
 - explanation: D-O-G has 3 letters.
 
 ### Q5
 - stem: Which word ends with "t"?
 - A: cup
-- B: cat
-- C: bus
+- B: bus
+- C: cat
 - D: sun
-- answer: B
+- answer: C
 - explanation: Cat ends with t.
 
 ### Q6
@@ -218,18 +218,18 @@
 - stem: Which animal says moo?
 - A: cat
 - B: dog
-- C: cow
-- D: bird
-- answer: C
+- C: bird
+- D: cow
+- answer: D
 - explanation: A cow says moo.
 
 ### Q8
 - stem: Rhymes with "sun"?
-- A: sit
-- B: fun
+- A: fun
+- B: sit
 - C: sip
 - D: map
-- answer: B
+- answer: A
 - explanation: Fun rhymes with sun.
 
 ### Q9
@@ -244,63 +244,63 @@
 ### Q10
 - stem: Which is NOT a letter?
 - A: M
-- B: 7
-- C: Z
+- B: Z
+- C: 7
 - D: K
-- answer: B
+- answer: C
 - explanation: 7 is a number, not a letter.
 
 ### Q11
 - stem: Tree starts with…
-- A: t
-- B: r
+- A: r
+- B: t
 - C: e
 - D: s
-- answer: A
+- answer: B
 - explanation: Tree starts with t.
 
 ### Q12
 - stem: How many letters in YES?
 - A: 2
-- B: 3
-- C: 4
-- D: 1
-- answer: B
+- B: 4
+- C: 1
+- D: 3
+- answer: D
 - explanation: Y-E-S has 3 letters.
 
 ### Q13
 - stem: Which word names a fruit?
-- A: chair
-- B: mango
+- A: mango
+- B: chair
 - C: shoe
 - D: rain
-- answer: B
+- answer: A
 - explanation: Mango is a fruit.
 
 ### Q14
 - stem: Small letter for "G" is…
-- A: g
-- B: G
+- A: G
+- B: g
 - C: q
 - D: y
-- answer: A
+- answer: B
 - explanation: Small form of G is g.
 
 ### Q15
 - stem: Join: sh + ip =
 - A: shop
-- B: ship
-- C: sip
+- B: sip
+- C: ship
 - D: hip
-- answer: B
+- answer: C
 - explanation: sh + ip = ship.
 
 ### Q16
 - stem: Which word has 2 letters?
 - A: cat
-- B: on
-- C: sun
-- D: ball
-- answer: B
+- B: sun
+- C: ball
+- D: on
+- answer: D
 - explanation: On has two letters: o, n.
 

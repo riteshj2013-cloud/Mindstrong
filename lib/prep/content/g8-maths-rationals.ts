@@ -83,7 +83,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-maths-rational-a-q07",
-    prompt: "Which statement is true?",
+    prompt: "Which statement about integers and rational numbers is true?",
     options: [
       { id: "a", text: "Every integer is a rational number" },
       { id: "b", text: "Every rational number is an integer" },

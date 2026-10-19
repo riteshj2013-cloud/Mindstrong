@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-words-a-q01",
     prompt: "Word closest in meaning to \"happy\"?",
     options: [
-      { id: "a", text: "sad" },
-      { id: "b", text: "glad" },
+      { id: "a", text: "glad" },
+      { id: "b", text: "sad" },
       { id: "c", text: "angry" },
       { id: "d", text: "tired" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Glad means nearly the same as happy.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -34,11 +34,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "A baby dog is called a\u2026",
     options: [
       { id: "a", text: "kitten" },
-      { id: "b", text: "puppy" },
-      { id: "c", text: "cub" },
+      { id: "b", text: "cub" },
+      { id: "c", text: "puppy" },
       { id: "d", text: "calf" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "A baby dog is a puppy.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-words-a-q04",
     prompt: "Complete: as busy as a\u2026",
     options: [
-      { id: "a", text: "bee" },
-      { id: "b", text: "stone" },
-      { id: "c", text: "pillow" },
-      { id: "d", text: "cloud" }
+      { id: "a", text: "stone" },
+      { id: "b", text: "pillow" },
+      { id: "c", text: "cloud" },
+      { id: "d", text: "bee" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "As busy as a bee.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -59,12 +59,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-words-a-q05",
     prompt: "Which word means \"very big\"?",
     options: [
-      { id: "a", text: "tiny" },
-      { id: "b", text: "huge" },
+      { id: "a", text: "huge" },
+      { id: "b", text: "tiny" },
       { id: "c", text: "thin" },
       { id: "d", text: "soft" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Huge means very big.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -72,12 +72,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-words-a-q06",
     prompt: "Rhymes with light?",
     options: [
-      { id: "a", text: "night" },
-      { id: "b", text: "long" },
+      { id: "a", text: "long" },
+      { id: "b", text: "night" },
       { id: "c", text: "lamp" },
       { id: "d", text: "leaf" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Night rhymes with light.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -86,11 +86,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Compound word: sun + flower =",
     options: [
       { id: "a", text: "sunshine" },
-      { id: "b", text: "sunflower" },
-      { id: "c", text: "sunset" },
+      { id: "b", text: "sunset" },
+      { id: "c", text: "sunflower" },
       { id: "d", text: "sunlight" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "sun + flower = sunflower.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -99,11 +99,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Prefix un- in \"unhappy\" means\u2026",
     options: [
       { id: "a", text: "very" },
-      { id: "b", text: "not" },
-      { id: "c", text: "again" },
-      { id: "d", text: "before" }
+      { id: "b", text: "again" },
+      { id: "c", text: "before" },
+      { id: "d", text: "not" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "un- means not.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -111,12 +111,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-words-a-q09",
     prompt: "Synonym of begin?",
     options: [
-      { id: "a", text: "end" },
-      { id: "b", text: "start" },
+      { id: "a", text: "start" },
+      { id: "b", text: "end" },
       { id: "c", text: "stop" },
       { id: "d", text: "finish" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Start means nearly the same as begin.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-words-a-q11",
     prompt: "A place where books are kept?",
     options: [
-      { id: "a", text: "library" },
-      { id: "b", text: "kitchen only" },
-      { id: "c", text: "garage only" },
+      { id: "a", text: "kitchen only" },
+      { id: "b", text: "garage only" },
+      { id: "c", text: "library" },
       { id: "d", text: "garden only" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "A library keeps books.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-words-a-q12",
     prompt: "Which word is a naming word for a person?",
     options: [
-      { id: "a", text: "doctor" },
-      { id: "b", text: "run" },
-      { id: "c", text: "blue" },
-      { id: "d", text: "quickly" }
+      { id: "a", text: "run" },
+      { id: "b", text: "blue" },
+      { id: "c", text: "quickly" },
+      { id: "d", text: "doctor" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Doctor names a person.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-words-a-q15",
     prompt: "Word for a person who teaches?",
     options: [
-      { id: "a", text: "teacher" },
-      { id: "b", text: "driver only" },
-      { id: "c", text: "singer only" },
+      { id: "a", text: "driver only" },
+      { id: "b", text: "singer only" },
+      { id: "c", text: "teacher" },
       { id: "d", text: "painter only" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "A teacher teaches.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-words-a-q16",
     prompt: "Homophones: pair / \u2026",
     options: [
-      { id: "a", text: "pear" },
-      { id: "b", text: "peer" },
-      { id: "c", text: "poor" },
-      { id: "d", text: "pour" }
+      { id: "a", text: "peer" },
+      { id: "b", text: "poor" },
+      { id: "c", text: "pour" },
+      { id: "d", text: "pear" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Pair and pear sound alike.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
@@ -218,12 +218,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-words-b-q01",
     prompt: "Word closest to \"fast\"?",
     options: [
-      { id: "a", text: "slow" },
-      { id: "b", text: "quick" },
+      { id: "a", text: "quick" },
+      { id: "b", text: "slow" },
       { id: "c", text: "late" },
       { id: "d", text: "heavy" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Quick means nearly the same as fast.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -245,11 +245,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "A baby cat is called a\u2026",
     options: [
       { id: "a", text: "puppy" },
-      { id: "b", text: "kitten" },
-      { id: "c", text: "cub" },
+      { id: "b", text: "cub" },
+      { id: "c", text: "kitten" },
       { id: "d", text: "chick" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "A baby cat is a kitten.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -257,12 +257,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-words-b-q04",
     prompt: "Complete: as light as a\u2026",
     options: [
-      { id: "a", text: "feather" },
-      { id: "b", text: "rock" },
-      { id: "c", text: "truck" },
-      { id: "d", text: "elephant" }
+      { id: "a", text: "rock" },
+      { id: "b", text: "truck" },
+      { id: "c", text: "elephant" },
+      { id: "d", text: "feather" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "As light as a feather.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -270,12 +270,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-words-b-q05",
     prompt: "Which means \"very small\"?",
     options: [
-      { id: "a", text: "huge" },
-      { id: "b", text: "tiny" },
+      { id: "a", text: "tiny" },
+      { id: "b", text: "huge" },
       { id: "c", text: "wide" },
       { id: "d", text: "tall" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Tiny means very small.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -283,12 +283,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-words-b-q06",
     prompt: "Rhymes with cake?",
     options: [
-      { id: "a", text: "lake" },
-      { id: "b", text: "cook" },
+      { id: "a", text: "cook" },
+      { id: "b", text: "lake" },
       { id: "c", text: "coat" },
       { id: "d", text: "kick" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Lake rhymes with cake.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -296,12 +296,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-words-b-q07",
     prompt: "Compound: rain + bow =",
     options: [
-      { id: "a", text: "rainbow" },
-      { id: "b", text: "raincoat" },
-      { id: "c", text: "raindrop" },
+      { id: "a", text: "raincoat" },
+      { id: "b", text: "raindrop" },
+      { id: "c", text: "rainbow" },
       { id: "d", text: "rainfall" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "rain + bow = rainbow.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -310,11 +310,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Prefix re- in \"redo\" means\u2026",
     options: [
       { id: "a", text: "not" },
-      { id: "b", text: "again" },
-      { id: "c", text: "before" },
-      { id: "d", text: "against" }
+      { id: "b", text: "before" },
+      { id: "c", text: "against" },
+      { id: "d", text: "again" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "re- means again.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -322,12 +322,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-words-b-q09",
     prompt: "Synonym of end?",
     options: [
-      { id: "a", text: "begin" },
-      { id: "b", text: "finish" },
+      { id: "a", text: "finish" },
+      { id: "b", text: "begin" },
       { id: "c", text: "start" },
       { id: "d", text: "open" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Finish means nearly the same as end.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-words-b-q11",
     prompt: "A place to buy food and things?",
     options: [
-      { id: "a", text: "market" },
-      { id: "b", text: "pillow" },
-      { id: "c", text: "cloud" },
+      { id: "a", text: "pillow" },
+      { id: "b", text: "cloud" },
+      { id: "c", text: "market" },
       { id: "d", text: "dream" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "A market is for buying things.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-words-b-q12",
     prompt: "Naming word for a place?",
     options: [
-      { id: "a", text: "school" },
-      { id: "b", text: "run" },
-      { id: "c", text: "soft" },
-      { id: "d", text: "quickly" }
+      { id: "a", text: "run" },
+      { id: "b", text: "soft" },
+      { id: "c", text: "quickly" },
+      { id: "d", text: "school" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "School names a place.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-words-b-q15",
     prompt: "Person who drives a bus?",
     options: [
-      { id: "a", text: "driver" },
-      { id: "b", text: "cook only" },
-      { id: "c", text: "teacher only" },
+      { id: "a", text: "cook only" },
+      { id: "b", text: "teacher only" },
+      { id: "c", text: "driver" },
       { id: "d", text: "doctor only" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "A driver drives.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-words-b-q16",
     prompt: "Homophones: sea / \u2026",
     options: [
-      { id: "a", text: "see" },
-      { id: "b", text: "say" },
-      { id: "c", text: "sit" },
-      { id: "d", text: "set" }
+      { id: "a", text: "say" },
+      { id: "b", text: "sit" },
+      { id: "c", text: "set" },
+      { id: "d", text: "see" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Sea and see sound alike.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }

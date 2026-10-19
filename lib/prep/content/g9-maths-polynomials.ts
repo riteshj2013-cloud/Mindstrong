@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-poly-a-q01",
     prompt: "The degree of the polynomial 5x³ − 2x + 7 is…",
     options: [
-      { id: "a", text: "5" },
-      { id: "b", text: "3" },
+      { id: "a", text: "3" },
+      { id: "b", text: "5" },
       { id: "c", text: "2" },
       { id: "d", text: "7" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "The highest power of x with a non-zero coefficient is 3.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -21,11 +21,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "A linear polynomial has degree…",
     options: [
       { id: "a", text: "0" },
-      { id: "b", text: "1" },
-      { id: "c", text: "2" },
+      { id: "b", text: "2" },
+      { id: "c", text: "1" },
       { id: "d", text: "3" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "By definition, linear polynomials are degree 1.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -34,11 +34,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "The zero of the polynomial p(x) = 2x − 6 is…",
     options: [
       { id: "a", text: "6" },
-      { id: "b", text: "3" },
-      { id: "c", text: "−3" },
-      { id: "d", text: "2" }
+      { id: "b", text: "−3" },
+      { id: "c", text: "2" },
+      { id: "d", text: "3" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "2x − 6 = 0 → x = 3.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-poly-a-q04",
     prompt: "Which is a quadratic polynomial?",
     options: [
-      { id: "a", text: "x³ + 1" },
-      { id: "b", text: "5x − 2" },
-      { id: "c", text: "x² − 4x + 3" },
+      { id: "a", text: "x² − 4x + 3" },
+      { id: "b", text: "x³ + 1" },
+      { id: "c", text: "5x − 2" },
       { id: "d", text: "7" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Degree 2 makes it quadratic.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -59,12 +59,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-poly-a-q05",
     prompt: "If p(x) = x² − 5x + 6, then p(2) equals…",
     options: [
-      { id: "a", text: "0" },
-      { id: "b", text: "2" },
+      { id: "a", text: "2" },
+      { id: "b", text: "0" },
       { id: "c", text: "6" },
       { id: "d", text: "−4" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "4 − 10 + 6 = 0, so x = 2 is a zero.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -86,11 +86,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "If (x − 1) is a factor of p(x), then…",
     options: [
       { id: "a", text: "p(0) = 1" },
-      { id: "b", text: "p(1) = 0" },
-      { id: "c", text: "p(−1) = 0" },
+      { id: "b", text: "p(−1) = 0" },
+      { id: "c", text: "p(1) = 0" },
       { id: "d", text: "p(1) = 1" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Factor theorem: (x − a) is a factor iff p(a) = 0. Here a = 1.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -100,10 +100,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "9" },
       { id: "b", text: "1" },
-      { id: "c", text: "0" },
-      { id: "d", text: "undefined" }
+      { id: "c", text: "undefined" },
+      { id: "d", text: "0" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Non-zero constants are degree 0. (The zero polynomial’s degree is left undefined.)",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-poly-a-q11",
     prompt: "Expand (x + 2)(x + 5).",
     options: [
-      { id: "a", text: "x² + 7x + 10" },
-      { id: "b", text: "x² + 10x + 7" },
-      { id: "c", text: "x² + 3x + 10" },
+      { id: "a", text: "x² + 10x + 7" },
+      { id: "b", text: "x² + 3x + 10" },
+      { id: "c", text: "x² + 7x + 10" },
       { id: "d", text: "x² + 7x + 7" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "x² + 5x + 2x + 10 = x² + 7x + 10.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-poly-a-q12",
     prompt: "If p(x) = x³ − 1, then p(1) equals…",
     options: [
-      { id: "a", text: "0" },
-      { id: "b", text: "1" },
-      { id: "c", text: "−1" },
-      { id: "d", text: "2" }
+      { id: "a", text: "1" },
+      { id: "b", text: "−1" },
+      { id: "c", text: "2" },
+      { id: "d", text: "0" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "1 − 1 = 0, so (x − 1) is a factor of x³ − 1.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -163,12 +163,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-poly-a-q13",
     prompt: "Which identity is correct?",
     options: [
-      { id: "a", text: "(a + b)² = a² + b²" },
-      { id: "b", text: "(a + b)² = a² + 2ab + b²" },
+      { id: "a", text: "(a + b)² = a² + 2ab + b²" },
+      { id: "b", text: "(a + b)² = a² + b²" },
       { id: "c", text: "(a − b)² = a² − b²" },
       { id: "d", text: "(a + b)(a − b) = a² + b²" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "(a + b)² expands to a² + 2ab + b².",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -177,11 +177,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "The coefficient of x in 3x³ − 4x² + 5x − 6 is…",
     options: [
       { id: "a", text: "3" },
-      { id: "b", text: "−4" },
-      { id: "c", text: "5" },
+      { id: "b", text: "5" },
+      { id: "c", text: "−4" },
       { id: "d", text: "−6" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "The term 5x has coefficient 5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-poly-a-q15",
     prompt: "Divide x² + 5x + 6 by (x + 2). The quotient is…",
     options: [
-      { id: "a", text: "x + 3" },
-      { id: "b", text: "x + 2" },
-      { id: "c", text: "x + 5" },
+      { id: "a", text: "x + 2" },
+      { id: "b", text: "x + 5" },
+      { id: "c", text: "x + 3" },
       { id: "d", text: "x − 3" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "(x + 2)(x + 3) = x² + 5x + 6.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -203,11 +203,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "A cubic polynomial has degree…",
     options: [
       { id: "a", text: "2" },
-      { id: "b", text: "3" },
-      { id: "c", text: "4" },
-      { id: "d", text: "1" }
+      { id: "b", text: "4" },
+      { id: "c", text: "1" },
+      { id: "d", text: "3" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Cubic means degree 3.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -215,12 +215,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-poly-a-q17",
     prompt: "If α and β are zeros of x² − 5x + 6, then α + β equals…",
     options: [
-      { id: "a", text: "6" },
-      { id: "b", text: "5" },
+      { id: "a", text: "5" },
+      { id: "b", text: "6" },
       { id: "c", text: "−5" },
       { id: "d", text: "1" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "For x² − (sum)x + product, sum of zeros = 5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -228,12 +228,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-poly-a-q18",
     prompt: "p(x) = 2x² − 3x + 1. Then p(1) equals…",
     options: [
-      { id: "a", text: "0" },
-      { id: "b", text: "1" },
+      { id: "a", text: "1" },
+      { id: "b", text: "0" },
       { id: "c", text: "2" },
       { id: "d", text: "−1" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "2 − 3 + 1 = 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -242,11 +242,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which is a monomial?",
     options: [
       { id: "a", text: "x + 1" },
-      { id: "b", text: "3x²y" },
-      { id: "c", text: "x² − y²" },
+      { id: "b", text: "x² − y²" },
+      { id: "c", text: "3x²y" },
       { id: "d", text: "2x + 3y + 1" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "A monomial is a single term; 3x²y is one term.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -254,12 +254,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-poly-a-q20",
     prompt: "Factorise: x² + 5x + 6",
     options: [
-      { id: "a", text: "(x + 2)(x + 3)" },
-      { id: "b", text: "(x + 1)(x + 6)" },
-      { id: "c", text: "(x − 2)(x − 3)" },
-      { id: "d", text: "(x + 5)(x + 1)" }
+      { id: "a", text: "(x + 1)(x + 6)" },
+      { id: "b", text: "(x − 2)(x − 3)" },
+      { id: "c", text: "(x + 5)(x + 1)" },
+      { id: "d", text: "(x + 2)(x + 3)" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Need two numbers that multiply to 6 and add to 5: 2 and 3.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -280,12 +280,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-poly-a-q22",
     prompt: "(x + y)² − (x − y)² equals…",
     options: [
-      { id: "a", text: "4xy" },
-      { id: "b", text: "2xy" },
+      { id: "a", text: "2xy" },
+      { id: "b", text: "4xy" },
       { id: "c", text: "x² − y²" },
       { id: "d", text: "0" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Expand: (x²+2xy+y²) − (x²−2xy+y²) = 4xy.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -308,10 +308,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "2 only" },
       { id: "b", text: "−2 only" },
-      { id: "c", text: "2 and −2" },
-      { id: "d", text: "4 and −4" }
+      { id: "c", text: "4 and −4" },
+      { id: "d", text: "2 and −2" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "x² − 4 = (x − 2)(x + 2) = 0 → x = ±2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
@@ -375,9 +375,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "If p(x) = x³ − 6x² + 11x − 6 and p(1)=0, which is a factor?",
     options: [
       { id: "a", text: "x − 1" },
-      { id: "b", text: "x − 6" },
-      { id: "c", text: "x + 6" },
-      { id: "d", text: "x + 1" }
+      { id: "b", text: "x + 1" },
+      { id: "c", text: "x − 6" },
+      { id: "d", text: "x + 6" }
     ],
     answerId: "a",
     explanation: "p(1)=0 ⇒ (x − 1) is a factor by the factor theorem.",
@@ -387,10 +387,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-poly-b-q06",
     prompt: "Expand (2x − 3)².",
     options: [
-      { id: "a", text: "4x² − 6x + 9" },
+      { id: "a", text: "4x² − 9" },
       { id: "b", text: "4x² − 12x + 9" },
-      { id: "c", text: "4x² − 9" },
-      { id: "d", text: "4x² + 12x + 9" }
+      { id: "c", text: "4x² + 12x + 9" },
+      { id: "d", text: "4x² − 6x + 9" }
     ],
     answerId: "b",
     explanation: "(2x)² − 2·2x·3 + 3² = 4x² − 12x + 9.",
@@ -400,10 +400,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-poly-b-q07",
     prompt: "The coefficient of x² in (x + 1)(x + 2)(x + 3) is…",
     options: [
-      { id: "a", text: "5" },
-      { id: "b", text: "9" },
+      { id: "a", text: "11" },
+      { id: "b", text: "5" },
       { id: "c", text: "6" },
-      { id: "d", text: "11" }
+      { id: "d", text: "9" }
     ],
     answerId: "c",
     explanation: "First (x+1)(x+2)=x²+3x+2; times (x+3): x³+3x² + 3x²+9x + 2x+6 = x³+6x²+11x+6. Coefficient of x² is 6.",
@@ -427,9 +427,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which is a binomial?",
     options: [
       { id: "a", text: "x² + 3x" },
-      { id: "b", text: "x² + 3x + 2" },
-      { id: "c", text: "0" },
-      { id: "d", text: "5x" }
+      { id: "b", text: "5x" },
+      { id: "c", text: "x² + 3x + 2" },
+      { id: "d", text: "0" }
     ],
     answerId: "a",
     explanation: "A binomial has exactly two terms.",
@@ -439,10 +439,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-poly-b-q10",
     prompt: "Factorise: 4x² − 12x + 9",
     options: [
-      { id: "a", text: "(2x − 9)(2x − 1)" },
+      { id: "a", text: "(2x + 3)²" },
       { id: "b", text: "(2x − 3)²" },
-      { id: "c", text: "(2x + 3)²" },
-      { id: "d", text: "(4x − 3)(x − 3)" }
+      { id: "c", text: "(4x − 3)(x − 3)" },
+      { id: "d", text: "(2x − 9)(2x − 1)" }
     ],
     answerId: "b",
     explanation: "It is a perfect square: (2x − 3)².",
@@ -452,10 +452,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-poly-b-q11",
     prompt: "If α, β are zeros of x² − 7x + 10, then αβ equals…",
     options: [
-      { id: "a", text: "−7" },
-      { id: "b", text: "7" },
+      { id: "a", text: "7" },
+      { id: "b", text: "−10" },
       { id: "c", text: "10" },
-      { id: "d", text: "−10" }
+      { id: "d", text: "−7" }
     ],
     answerId: "c",
     explanation: "Product of zeros = constant/leading = 10.",
@@ -504,10 +504,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-poly-b-q15",
     prompt: "Which is NOT a polynomial in x?",
     options: [
-      { id: "a", text: "5" },
-      { id: "b", text: "x² + √2 x + 1" },
+      { id: "a", text: "x² + √2 x + 1" },
+      { id: "b", text: "√3 x³ − 4" },
       { id: "c", text: "x + 1/x" },
-      { id: "d", text: "√3 x³ − 4" }
+      { id: "d", text: "5" }
     ],
     answerId: "c",
     explanation: "1/x = x⁻¹ is not a non-negative integer power, so not a polynomial.",
@@ -556,10 +556,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-poly-b-q19",
     prompt: "For p(x)=2x²+5x−3, p(−3) equals…",
     options: [
-      { id: "a", text: "−6" },
-      { id: "b", text: "18" },
+      { id: "a", text: "6" },
+      { id: "b", text: "−6" },
       { id: "c", text: "0" },
-      { id: "d", text: "6" }
+      { id: "d", text: "18" }
     ],
     answerId: "c",
     explanation: "2·9 + 5·(−3) − 3 = 18 − 15 − 3 = 0.",
@@ -583,9 +583,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "If the remainder is 0 when p(x) is divided by (x + 3), then…",
     options: [
       { id: "a", text: "p(−3)=0" },
-      { id: "b", text: "p(0)=−3" },
-      { id: "c", text: "p(3)=−3" },
-      { id: "d", text: "p(3)=0" }
+      { id: "b", text: "p(3)=0" },
+      { id: "c", text: "p(0)=−3" },
+      { id: "d", text: "p(3)=−3" }
     ],
     answerId: "a",
     explanation: "x + 3 = x − (−3), so evaluate at −3.",
@@ -595,10 +595,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-poly-b-q22",
     prompt: "Factorise: x² − 2x − 15",
     options: [
-      { id: "a", text: "(x + 5)(x + 3)" },
+      { id: "a", text: "(x − 3)(x + 5)" },
       { id: "b", text: "(x − 5)(x + 3)" },
-      { id: "c", text: "(x − 3)(x + 5)" },
-      { id: "d", text: "(x − 15)(x + 1)" }
+      { id: "c", text: "(x − 15)(x + 1)" },
+      { id: "d", text: "(x + 5)(x + 3)" }
     ],
     answerId: "b",
     explanation: "Numbers that multiply to −15 and add to −2: −5 and 3.",
@@ -608,10 +608,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-poly-b-q23",
     prompt: "The leading coefficient of −7x⁵ + 3x² − 1 is…",
     options: [
-      { id: "a", text: "−1" },
-      { id: "b", text: "5" },
+      { id: "a", text: "3" },
+      { id: "b", text: "−1" },
       { id: "c", text: "−7" },
-      { id: "d", text: "3" }
+      { id: "d", text: "5" }
     ],
     answerId: "c",
     explanation: "Leading coefficient belongs to the highest-degree term: −7.",

@@ -8,9 +8,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "A liquid that allows electric current to pass through it easily is called a \u2014",
     options: [
       { id: "a", text: "Good conductor (conducting liquid)" },
-      { id: "b", text: "Magnetic insulator only" },
-      { id: "c", text: "Non-electrolyte always" },
-      { id: "d", text: "Poor conductor" }
+      { id: "b", text: "Poor conductor" },
+      { id: "c", text: "Magnetic insulator only" },
+      { id: "d", text: "Non-electrolyte always" }
     ],
     answerId: "a",
     explanation: "Liquids that let current pass readily are good conductors of electricity.",
@@ -33,10 +33,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-chemfx-a-q03",
     prompt: "Adding common salt to distilled water \u2014",
     options: [
-      { id: "a", text: "Removes all charge forever" },
-      { id: "b", text: "Turns it into oil" },
+      { id: "a", text: "Makes it a perfect insulator" },
+      { id: "b", text: "Removes all charge forever" },
       { id: "c", text: "Makes it conduct better" },
-      { id: "d", text: "Makes it a perfect insulator" }
+      { id: "d", text: "Turns it into oil" }
     ],
     answerId: "c",
     explanation: "Salt provides ions that carry current, so the solution conducts much better.",
@@ -46,9 +46,9 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-chemfx-a-q04",
     prompt: "Lemon juice and vinegar usually \u2014",
     options: [
-      { id: "a", text: "Are better insulators than oil for that reason alone" },
-      { id: "b", text: "Block all current like rubber" },
-      { id: "c", text: "Never contain ions" },
+      { id: "a", text: "Never contain ions" },
+      { id: "b", text: "Are better insulators than oil for that reason alone" },
+      { id: "c", text: "Block all current like rubber" },
       { id: "d", text: "Conduct electricity because of ions from acids" }
     ],
     answerId: "d",
@@ -85,10 +85,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-chemfx-a-q07",
     prompt: "A liquid that conducts electricity due to the presence of ions is called an \u2014",
     options: [
-      { id: "a", text: "Alloy" },
-      { id: "b", text: "Insulator" },
+      { id: "a", text: "Insulator" },
+      { id: "b", text: "Electromagnet" },
       { id: "c", text: "Electrolyte" },
-      { id: "d", text: "Electromagnet" }
+      { id: "d", text: "Alloy" }
     ],
     answerId: "c",
     explanation: "Electrolytes contain ions that move when a potential difference is applied.",
@@ -98,9 +98,9 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-chemfx-a-q08",
     prompt: "When electric current passes through copper sulphate solution with copper electrodes, copper is deposited on the \u2014",
     options: [
-      { id: "a", text: "Battery terminals outside the beaker only" },
-      { id: "b", text: "Air above the liquid" },
-      { id: "c", text: "Anode only as a gas" },
+      { id: "a", text: "Anode only as a gas" },
+      { id: "b", text: "Battery terminals outside the beaker only" },
+      { id: "c", text: "Air above the liquid" },
       { id: "d", text: "Cathode" }
     ],
     answerId: "d",
@@ -112,9 +112,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "The electrode connected to the negative terminal of the battery is the \u2014",
     options: [
       { id: "a", text: "Cathode" },
-      { id: "b", text: "Fuse" },
-      { id: "c", text: "Resistor only" },
-      { id: "d", text: "Anode" }
+      { id: "b", text: "Anode" },
+      { id: "c", text: "Fuse" },
+      { id: "d", text: "Resistor only" }
     ],
     answerId: "a",
     explanation: "By definition in these experiments, the cathode is the negative electrode.",
@@ -137,10 +137,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-chemfx-a-q11",
     prompt: "Electroplating is the process of \u2014",
     options: [
-      { id: "a", text: "Measuring temperature" },
-      { id: "b", text: "Painting wood with oil" },
+      { id: "a", text: "Painting wood with oil" },
+      { id: "b", text: "Melting plastic only" },
       { id: "c", text: "Depositing a thin layer of one metal onto another using electric current" },
-      { id: "d", text: "Melting plastic only" }
+      { id: "d", text: "Measuring temperature" }
     ],
     answerId: "c",
     explanation: "Electroplating uses electrolysis to coat an object with a thin metal layer.",
@@ -150,9 +150,9 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-chemfx-a-q12",
     prompt: "In electroplating a spoon with silver, the spoon should be made the \u2014",
     options: [
-      { id: "a", text: "Battery acid" },
-      { id: "b", text: "Open switch" },
-      { id: "c", text: "Anode" },
+      { id: "a", text: "Anode" },
+      { id: "b", text: "Battery acid" },
+      { id: "c", text: "Open switch" },
       { id: "d", text: "Cathode" }
     ],
     answerId: "d",
@@ -164,9 +164,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Chromium plating on car parts and taps is done mainly to \u2014",
     options: [
       { id: "a", text: "Improve appearance and resist corrosion" },
-      { id: "b", text: "Stop all electricity in cities" },
-      { id: "c", text: "Turn steel into wood" },
-      { id: "d", text: "Make them absorb more rust" }
+      { id: "b", text: "Make them absorb more rust" },
+      { id: "c", text: "Stop all electricity in cities" },
+      { id: "d", text: "Turn steel into wood" }
     ],
     answerId: "a",
     explanation: "Chrome layers look shiny and protect the metal underneath from corrosion.",
@@ -189,10 +189,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-chemfx-a-q15",
     prompt: "An LED can be used in a tester for liquids because it \u2014",
     options: [
-      { id: "a", text: "Produces salt" },
-      { id: "b", text: "Needs a huge current that always melts wires" },
+      { id: "a", text: "Needs a huge current that always melts wires" },
+      { id: "b", text: "Works only in vacuum" },
       { id: "c", text: "Glows even with a small current" },
-      { id: "d", text: "Works only in vacuum" }
+      { id: "d", text: "Produces salt" }
     ],
     answerId: "c",
     explanation: "LEDs light with a small current, so they show weak conduction clearly.",
@@ -216,9 +216,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which change is a chemical effect of electric current?",
     options: [
       { id: "a", text: "Metal depositing on an electrode from a salt solution" },
-      { id: "b", text: "A magnet attracting iron filings in dry air only" },
-      { id: "c", text: "A mirror reflecting light" },
-      { id: "d", text: "A bulb filament getting hot only as a physical glow with no deposit" }
+      { id: "b", text: "A bulb filament getting hot only as a physical glow with no deposit" },
+      { id: "c", text: "A magnet attracting iron filings in dry air only" },
+      { id: "d", text: "A mirror reflecting light" }
     ],
     answerId: "a",
     explanation: "Deposition of metal from solution is a chemical change caused by current.",
@@ -241,10 +241,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-chemfx-a-q19",
     prompt: "Tap water usually conducts better than distilled water because tap water \u2014",
     options: [
-      { id: "a", text: "Has no oxygen atoms" },
-      { id: "b", text: "Is pure H2O with zero ions" },
+      { id: "a", text: "Is pure H2O with zero ions" },
+      { id: "b", text: "Is an oil mixture" },
       { id: "c", text: "Contains dissolved salts and minerals that provide ions" },
-      { id: "d", text: "Is an oil mixture" }
+      { id: "d", text: "Has no oxygen atoms" }
     ],
     answerId: "c",
     explanation: "Dissolved impurities supply ions that carry current.",
@@ -254,9 +254,9 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-chemfx-a-q20",
     prompt: "Honey is generally a \u2014",
     options: [
-      { id: "a", text: "Type of electrode metal" },
-      { id: "b", text: "Source of free electrons like a battery" },
-      { id: "c", text: "Good metallic conductor like copper" },
+      { id: "a", text: "Good metallic conductor like copper" },
+      { id: "b", text: "Type of electrode metal" },
+      { id: "c", text: "Source of free electrons like a battery" },
       { id: "d", text: "Poor conductor of electricity" }
     ],
     answerId: "d",
@@ -268,9 +268,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Why are carbon rods often used as electrodes in school electrolysis of solutions?",
     options: [
       { id: "a", text: "They are conducting and relatively inert in many solutions" },
-      { id: "b", text: "They are perfect insulators" },
-      { id: "c", text: "They produce only music" },
-      { id: "d", text: "They dissolve into sugar instantly" }
+      { id: "b", text: "They dissolve into sugar instantly" },
+      { id: "c", text: "They are perfect insulators" },
+      { id: "d", text: "They produce only music" }
     ],
     answerId: "a",
     explanation: "Carbon (graphite) conducts and does not react as readily as some metals in simple demos.",
@@ -293,10 +293,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-chemfx-a-q23",
     prompt: "If the LED in a liquid tester does not glow and the compass shows no deflection, the liquid is likely \u2014",
     options: [
-      { id: "a", text: "A strong acid mist in air only" },
-      { id: "b", text: "A good electrolyte" },
+      { id: "a", text: "A good electrolyte" },
+      { id: "b", text: "Pure copper metal" },
       { id: "c", text: "A poor conductor under the test conditions" },
-      { id: "d", text: "Pure copper metal" }
+      { id: "d", text: "A strong acid mist in air only" }
     ],
     answerId: "c",
     explanation: "No signs of current mean the liquid is not conducting well in that circuit.",
@@ -306,9 +306,9 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-chemfx-a-q24",
     prompt: "Safety rule for school tests of liquids with batteries: \u2014",
     options: [
-      { id: "a", text: "Taste every solution" },
-      { id: "b", text: "Short the battery terminals with wet hands for fun" },
-      { id: "c", text: "Use mains 230 V sockets dipped in the beaker" },
+      { id: "a", text: "Use mains 230 V sockets dipped in the beaker" },
+      { id: "b", text: "Taste every solution" },
+      { id: "c", text: "Short the battery terminals with wet hands for fun" },
       { id: "d", text: "Use a low-voltage battery pack and keep setups away from mains water hazards" }
     ],
     answerId: "d",
@@ -323,9 +323,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which solution is the best conductor among these typical school samples?",
     options: [
       { id: "a", text: "Strong salt solution" },
-      { id: "b", text: "Pure vegetable oil" },
-      { id: "c", text: "Dry air" },
-      { id: "d", text: "Distilled water" }
+      { id: "b", text: "Distilled water" },
+      { id: "c", text: "Pure vegetable oil" },
+      { id: "d", text: "Dry air" }
     ],
     answerId: "a",
     explanation: "A strong salt solution has many ions and conducts well compared with distilled water or oil.",
@@ -348,10 +348,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-chemfx-b-q03",
     prompt: "Negatively charged ions in an electrolyte move toward the \u2014",
     options: [
-      { id: "a", text: "LED bulb glass" },
-      { id: "b", text: "Cathode" },
+      { id: "a", text: "Cathode" },
+      { id: "b", text: "Centre of the Earth only" },
       { id: "c", text: "Anode" },
-      { id: "d", text: "Centre of the Earth only" }
+      { id: "d", text: "LED bulb glass" }
     ],
     answerId: "c",
     explanation: "Negative ions (anions) are attracted to the positive anode.",
@@ -361,9 +361,9 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-chemfx-b-q04",
     prompt: "Electroplating requires \u2014",
     options: [
-      { id: "a", text: "Only a wooden spoon" },
-      { id: "b", text: "Vacuum and sunlight only" },
-      { id: "c", text: "No electrolyte and no battery" },
+      { id: "a", text: "No electrolyte and no battery" },
+      { id: "b", text: "Only a wooden spoon" },
+      { id: "c", text: "Vacuum and sunlight only" },
       { id: "d", text: "An electrolyte, electrodes, and a source of current" }
     ],
     answerId: "d",
@@ -375,9 +375,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "To nickel-plate an iron key, a suitable arrangement is \u2014",
     options: [
       { id: "a", text: "Key as cathode in a nickel salt solution with a nickel anode" },
-      { id: "b", text: "Key disconnected from the circuit" },
-      { id: "c", text: "Key as a fuse in open air only" },
-      { id: "d", text: "Key as anode in distilled oil" }
+      { id: "b", text: "Key as anode in distilled oil" },
+      { id: "c", text: "Key disconnected from the circuit" },
+      { id: "d", text: "Key as a fuse in open air only" }
     ],
     answerId: "a",
     explanation: "The key (cathode) receives nickel ions from the solution; nickel metal can supply the anode.",
@@ -400,10 +400,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-chemfx-b-q07",
     prompt: "A compass needle deflects near a wire in a closed liquid-tester circuit. This shows \u2014",
     options: [
-      { id: "a", text: "The liquid is pure oil for sure" },
-      { id: "b", text: "No current flows" },
+      { id: "a", text: "No current flows" },
+      { id: "b", text: "Only heat exists with zero current" },
       { id: "c", text: "A current is present (magnetic effect of current)" },
-      { id: "d", text: "Only heat exists with zero current" }
+      { id: "d", text: "The liquid is pure oil for sure" }
     ],
     answerId: "c",
     explanation: "Deflection means the wire carries current and has a magnetic field.",
@@ -427,9 +427,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which is a chemical effect rather than only a heating effect of current?",
     options: [
       { id: "a", text: "Gas bubbles forming at electrodes in acidified water" },
-      { id: "b", text: "A room heater glowing" },
-      { id: "c", text: "Friction from rubbing hands" },
-      { id: "d", text: "A wire becoming warm" }
+      { id: "b", text: "A wire becoming warm" },
+      { id: "c", text: "A room heater glowing" },
+      { id: "d", text: "Friction from rubbing hands" }
     ],
     answerId: "a",
     explanation: "New gas substances forming means a chemical change from electrolysis.",
@@ -452,10 +452,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-chemfx-b-q11",
     prompt: "Boiling water is still a poorer conductor than salt solution mainly because \u2014",
     options: [
-      { id: "a", text: "Salt removes gravity" },
-      { id: "b", text: "Heat destroys all protons" },
+      { id: "a", text: "Heat destroys all protons" },
+      { id: "b", text: "Boiling water becomes a metal" },
       { id: "c", text: "Salt solution has far more mobile ions than pure water" },
-      { id: "d", text: "Boiling water becomes a metal" }
+      { id: "d", text: "Salt removes gravity" }
     ],
     answerId: "c",
     explanation: "Ions from salt dominate conduction compared with the few ions in water alone.",
@@ -465,9 +465,9 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-chemfx-b-q12",
     prompt: "During electroplating, the metal object that receives the coating loses \u2014",
     options: [
-      { id: "a", text: "All of its mass always to the anode instantly" },
-      { id: "b", text: "Its solid shape and becomes gas" },
-      { id: "c", text: "Its place as cathode if plating works" },
+      { id: "a", text: "Its place as cathode if plating works" },
+      { id: "b", text: "All of its mass always to the anode instantly" },
+      { id: "c", text: "Its solid shape and becomes gas" },
       { id: "d", text: "Nothing essential if ions deposit on it \u2014 it gains a metal layer" }
     ],
     answerId: "d",
@@ -479,9 +479,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Industrial chromium plating baths must be handled carefully because \u2014",
     options: [
       { id: "a", text: "The chemicals can be hazardous even though the idea is the same as school electroplating" },
-      { id: "b", text: "They produce only music" },
-      { id: "c", text: "They never use electric current" },
-      { id: "d", text: "They are only distilled water" }
+      { id: "b", text: "They are only distilled water" },
+      { id: "c", text: "They produce only music" },
+      { id: "d", text: "They never use electric current" }
     ],
     answerId: "a",
     explanation: "Real plating chemicals can be toxic; schools use safer demos and stress safety.",
@@ -491,10 +491,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-chemfx-b-q14",
     prompt: "If you reverse the battery connections in a simple copper-plating demo \u2014",
     options: [
-      { id: "a", text: "Frequency of sound doubles" },
+      { id: "a", text: "Copper starts floating as a gas in air permanently" },
       { id: "b", text: "The roles of electrodes reverse and deposition switches sides" },
-      { id: "c", text: "Copper starts floating as a gas in air permanently" },
-      { id: "d", text: "The solution becomes an insulator instantly forever" }
+      { id: "c", text: "The solution becomes an insulator instantly forever" },
+      { id: "d", text: "Frequency of sound doubles" }
     ],
     answerId: "b",
     explanation: "Reversing polarity swaps which electrode is cathode, so deposition moves.",
@@ -504,10 +504,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-chemfx-b-q15",
     prompt: "Which everyday object is commonly protected by electroplating?",
     options: [
-      { id: "a", text: "A glass window pane with no metal" },
-      { id: "b", text: "A wooden pencil core only" },
+      { id: "a", text: "A wooden pencil core only" },
+      { id: "b", text: "A cotton shirt" },
       { id: "c", text: "A steel bathroom tap with a chromium layer" },
-      { id: "d", text: "A cotton shirt" }
+      { id: "d", text: "A glass window pane with no metal" }
     ],
     answerId: "c",
     explanation: "Metal taps and fittings are often chrome-plated for shine and rust resistance.",
@@ -517,9 +517,9 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-chemfx-b-q16",
     prompt: "A tester bulb glows brightly in copper sulphate solution but stays dark in oil. This comparison shows \u2014",
     options: [
-      { id: "a", text: "Both liquids are identical conductors" },
-      { id: "b", text: "Oil has more Cu2+ ions" },
-      { id: "c", text: "Oil is the better electrolyte" },
+      { id: "a", text: "Oil is the better electrolyte" },
+      { id: "b", text: "Both liquids are identical conductors" },
+      { id: "c", text: "Oil has more Cu2+ ions" },
       { id: "d", text: "Copper sulphate solution conducts and oil does not (under the test)" }
     ],
     answerId: "d",
@@ -531,9 +531,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Chemical effects of current are the basis of \u2014",
     options: [
       { id: "a", text: "Electroplating and electrolytic refining" },
-      { id: "b", text: "Only echo location in bats" },
-      { id: "c", text: "Only measuring pitch in hertz" },
-      { id: "d", text: "Only rainbows" }
+      { id: "b", text: "Only rainbows" },
+      { id: "c", text: "Only echo location in bats" },
+      { id: "d", text: "Only measuring pitch in hertz" }
     ],
     answerId: "a",
     explanation: "Both processes use current through electrolytes to move and deposit metals.",
@@ -556,10 +556,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-chemfx-b-q19",
     prompt: "In electroplating, the electrolyte should contain \u2014",
     options: [
-      { id: "a", text: "Only sand" },
-      { id: "b", text: "Only nitrogen gas bubbles with no liquid" },
+      { id: "a", text: "Only pure oil" },
+      { id: "b", text: "Only sand" },
       { id: "c", text: "Ions of the metal to be deposited" },
-      { id: "d", text: "Only pure oil" }
+      { id: "d", text: "Only nitrogen gas bubbles with no liquid" }
     ],
     answerId: "c",
     explanation: "Metal ions in solution are what deposit onto the cathode.",
@@ -569,9 +569,9 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-chemfx-b-q20",
     prompt: "Why might a factory electroplate zinc onto iron (galvanising-related protection ideas)?",
     options: [
-      { id: "a", text: "To convert iron into oxygen" },
-      { id: "b", text: "To stop electroplating science" },
-      { id: "c", text: "To make iron rust faster on purpose" },
+      { id: "a", text: "To make iron rust faster on purpose" },
+      { id: "b", text: "To convert iron into oxygen" },
+      { id: "c", text: "To stop electroplating science" },
       { id: "d", text: "To protect iron from corrosion" }
     ],
     answerId: "d",
@@ -593,12 +593,12 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-sci-chemfx-b-q22",
-    prompt: "Which pair is correctly matched?",
+    prompt: "During electrolysis, which electrode is correctly matched with its charge?",
     options: [
-      { id: "a", text: "Anode \u2014 negative electrode" },
+      { id: "a", text: "Cathode \u2014 positive electrode" },
       { id: "b", text: "Cathode \u2014 negative electrode; anode \u2014 positive electrode" },
-      { id: "c", text: "Electrolyte \u2014 perfect vacuum" },
-      { id: "d", text: "Cathode \u2014 positive electrode" }
+      { id: "c", text: "Anode \u2014 negative electrode" },
+      { id: "d", text: "Electrolyte \u2014 perfect vacuum" }
     ],
     answerId: "b",
     explanation: "In electrolytic cells for these lessons, cathode is negative and anode is positive.",
@@ -608,10 +608,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-chemfx-b-q23",
     prompt: "Passing current through acidified water can produce hydrogen and oxygen gases. This shows \u2014",
     options: [
-      { id: "a", text: "Acid removes all electricity" },
-      { id: "b", text: "Water is an element that cannot change" },
+      { id: "a", text: "Water is an element that cannot change" },
+      { id: "b", text: "Gases are only illusions" },
       { id: "c", text: "Electric current can cause chemical decomposition" },
-      { id: "d", text: "Gases are only illusions" }
+      { id: "d", text: "Acid removes all electricity" }
     ],
     answerId: "c",
     explanation: "Electrolysis splits water (helped by acid) into hydrogen and oxygen \u2014 a chemical effect.",
@@ -621,9 +621,9 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-chemfx-b-q24",
     prompt: "The main idea of this chapter is that electric current in liquids can \u2014",
     options: [
-      { id: "a", text: "Travel through vacuum better than in wires" },
-      { id: "b", text: "Replace the need for any electrolyte forever" },
-      { id: "c", text: "Only produce sound echoes" },
+      { id: "a", text: "Only produce sound echoes" },
+      { id: "b", text: "Travel through vacuum better than in wires" },
+      { id: "c", text: "Replace the need for any electrolyte forever" },
       { id: "d", text: "Cause chemical changes such as deposition and gas formation, used in electroplating" }
     ],
     answerId: "d",

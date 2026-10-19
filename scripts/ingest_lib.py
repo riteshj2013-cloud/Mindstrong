@@ -95,47 +95,22 @@ def letter_id(L: str) -> str:
 
 
 def balance_set(qs: list) -> list:
-    """Rotate option order so a set is as even as possible across A/B/C/D.
+    """Reorder options so a set is as even as possible across A/B/C/D.
 
-    Preserves which option *text* is correct (and any option figures); only
-    changes slot + answerId. For 24-item sets this yields exactly 6/6/6/6.
+    Delegates to scripts/answer_balance.py: preserves which option *text* is correct
+    (and any option figures); only slot + answerId change. Items whose options or
+    explanation refer to positions ("Both B and C", "All of them", "Only D ...") are
+    pinned in their written order so those references stay true.
     """
-    if not qs:
-        return qs
-    letters = "abcd"
-    n = len(qs)
-    base, rem = divmod(n, 4)
-    targets = []
-    for i, L in enumerate(letters):
-        targets.extend([L] * (base + (1 if i < rem else 0)))
-    # Interleave a,b,c,d so kids don't get long runs of the same letter.
-    interleaved: list[str] = []
-    bag = {L: targets.count(L) for L in letters}
-    while len(interleaved) < n:
-        for L in letters:
-            if bag[L] > 0:
-                interleaved.append(L)
-                bag[L] -= 1
-    out = []
-    for q, target in zip(qs, interleaved):
-        opts = list(q["options"])
-        by_id = {o["id"]: o for o in opts}
-        ans = q["answerId"]
-        correct = by_id[ans]
-        rest = [o for o in opts if o["id"] != ans]
-        new_opts = [None] * 4
-        ti = letters.index(target)
-        new_opts[ti] = {**correct, "id": target}
-        r = 0
-        for j, L in enumerate(letters):
-            if new_opts[j] is None:
-                new_opts[j] = {**rest[r], "id": L}
-                r += 1
-        out.append({**q, "options": new_opts, "answerId": target})
-    counts = {L: sum(1 for q in out if q["answerId"] == L) for L in letters}
-    expected = {L: base + (1 if i < rem else 0) for i, L in enumerate(letters)}
-    if counts != expected:
-        raise SystemExit("balance_set failed: got %s expected %s" % (counts, expected))
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from answer_balance import balance_items
+
+    out = balance_items(list(qs))
+    if out:
+        counts = {L: sum(1 for q in out if q["answerId"] == L) for L in "abcd"}
+        if max(counts.values()) * 2 > len(out):
+            raise SystemExit("balance_set failed: %s" % counts)
     return out
 
 

@@ -33,10 +33,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-animals-a-q03",
     prompt: "Birds have ___ to fly.",
     options: [
-      { id: "a", text: "roots" },
-      { id: "b", text: "wheels" },
+      { id: "a", text: "fins only" },
+      { id: "b", text: "roots" },
       { id: "c", text: "wings" },
-      { id: "d", text: "fins only" }
+      { id: "d", text: "wheels" }
     ],
     answerId: "c",
     explanation: "Birds use wings to fly.",
@@ -46,9 +46,9 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-animals-a-q04",
     prompt: "Fish breathe with\u2026",
     options: [
-      { id: "a", text: "leaves" },
-      { id: "b", text: "noses only" },
-      { id: "c", text: "lungs like us always" },
+      { id: "a", text: "lungs like us always" },
+      { id: "b", text: "leaves" },
+      { id: "c", text: "noses only" },
       { id: "d", text: "gills" }
     ],
     answerId: "d",
@@ -72,10 +72,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-animals-a-q06",
     prompt: "Which animal may hibernate in cold?",
     options: [
-      { id: "a", text: "ant always" },
+      { id: "a", text: "fish in fire" },
       { id: "b", text: "bear" },
-      { id: "c", text: "fish in fire" },
-      { id: "d", text: "eagle always" }
+      { id: "c", text: "eagle always" },
+      { id: "d", text: "ant always" }
     ],
     answerId: "b",
     explanation: "Some bears hibernate in cold weather.",
@@ -85,10 +85,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-animals-a-q07",
     prompt: "Insects usually have ___ legs.",
     options: [
-      { id: "a", text: "2" },
-      { id: "b", text: "4" },
+      { id: "a", text: "4" },
+      { id: "b", text: "8" },
       { id: "c", text: "6" },
-      { id: "d", text: "8" }
+      { id: "d", text: "2" }
     ],
     answerId: "c",
     explanation: "Insects have 6 legs.",
@@ -124,10 +124,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-animals-a-q10",
     prompt: "Which is an omnivore?",
     options: [
-      { id: "a", text: "deer only" },
+      { id: "a", text: "cow only" },
       { id: "b", text: "human" },
-      { id: "c", text: "cow only" },
-      { id: "d", text: "tiger only" }
+      { id: "c", text: "tiger only" },
+      { id: "d", text: "deer only" }
     ],
     answerId: "b",
     explanation: "Humans can eat plants and animals.",
@@ -137,10 +137,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-animals-a-q11",
     prompt: "Camels store fat in their\u2026",
     options: [
-      { id: "a", text: "wings" },
-      { id: "b", text: "beaks" },
+      { id: "a", text: "fins" },
+      { id: "b", text: "wings" },
       { id: "c", text: "humps" },
-      { id: "d", text: "fins" }
+      { id: "d", text: "beaks" }
     ],
     answerId: "c",
     explanation: "Camels have humps with fat.",
@@ -176,10 +176,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-animals-a-q14",
     prompt: "A nest is a home for\u2026",
     options: [
-      { id: "a", text: "cars" },
+      { id: "a", text: "fish only always" },
       { id: "b", text: "birds" },
-      { id: "c", text: "fish only always" },
-      { id: "d", text: "worms in space" }
+      { id: "c", text: "worms in space" },
+      { id: "d", text: "cars" }
     ],
     answerId: "b",
     explanation: "Birds live in nests.",
@@ -189,10 +189,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-animals-a-q15",
     prompt: "Endangered animals need\u2026",
     options: [
-      { id: "a", text: "less forests forever" },
-      { id: "b", text: "noise only" },
+      { id: "a", text: "more hunting" },
+      { id: "b", text: "less forests forever" },
       { id: "c", text: "protection" },
-      { id: "d", text: "more hunting" }
+      { id: "d", text: "noise only" }
     ],
     answerId: "c",
     explanation: "Endangered animals need protection.",
@@ -244,10 +244,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-animals-b-q03",
     prompt: "Ducks have ___ feet for swimming.",
     options: [
-      { id: "a", text: "roots" },
-      { id: "b", text: "claws only" },
+      { id: "a", text: "wheels" },
+      { id: "b", text: "roots" },
       { id: "c", text: "webbed" },
-      { id: "d", text: "wheels" }
+      { id: "d", text: "claws only" }
     ],
     answerId: "c",
     explanation: "Webbed feet help ducks swim.",
@@ -283,10 +283,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-animals-b-q06",
     prompt: "Migration means animals\u2026",
     options: [
-      { id: "a", text: "become plants" },
+      { id: "a", text: "never move" },
       { id: "b", text: "travel with seasons" },
-      { id: "c", text: "never move" },
-      { id: "d", text: "turn to stone" }
+      { id: "c", text: "turn to stone" },
+      { id: "d", text: "become plants" }
     ],
     answerId: "b",
     explanation: "Migration is seasonal travel.",
@@ -296,10 +296,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-animals-b-q07",
     prompt: "Spiders have ___ legs.",
     options: [
-      { id: "a", text: "2" },
-      { id: "b", text: "6" },
+      { id: "a", text: "6" },
+      { id: "b", text: "4" },
       { id: "c", text: "8" },
-      { id: "d", text: "4" }
+      { id: "d", text: "2" }
     ],
     answerId: "c",
     explanation: "Spiders have 8 legs.",
@@ -335,10 +335,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-animals-b-q10",
     prompt: "Which animal lives in a burrow?",
     options: [
-      { id: "a", text: "shark" },
+      { id: "a", text: "eagle only" },
       { id: "b", text: "rabbit" },
-      { id: "c", text: "eagle only" },
-      { id: "d", text: "whale" }
+      { id: "c", text: "whale" },
+      { id: "d", text: "shark" }
     ],
     answerId: "b",
     explanation: "Rabbits may live in burrows.",
@@ -348,10 +348,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-animals-b-q11",
     prompt: "Elephants use their trunks to\u2026",
     options: [
-      { id: "a", text: "lay eggs" },
-      { id: "b", text: "make honey" },
+      { id: "a", text: "fly" },
+      { id: "b", text: "lay eggs" },
       { id: "c", text: "pick food and drink" },
-      { id: "d", text: "fly" }
+      { id: "d", text: "make honey" }
     ],
     answerId: "c",
     explanation: "Trunks help pick food and drink.",
@@ -387,10 +387,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-animals-b-q14",
     prompt: "A hive is a home for\u2026",
     options: [
-      { id: "a", text: "cows" },
+      { id: "a", text: "lions" },
       { id: "b", text: "bees" },
-      { id: "c", text: "lions" },
-      { id: "d", text: "whales" }
+      { id: "c", text: "whales" },
+      { id: "d", text: "cows" }
     ],
     answerId: "b",
     explanation: "Bees live in a hive.",
@@ -400,10 +400,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-animals-b-q15",
     prompt: "We should not ___ wild animals.",
     options: [
-      { id: "a", text: "learn about carefully" },
-      { id: "b", text: "protect" },
+      { id: "a", text: "respect" },
+      { id: "b", text: "learn about carefully" },
       { id: "c", text: "hurt or tease" },
-      { id: "d", text: "respect" }
+      { id: "d", text: "protect" }
     ],
     answerId: "c",
     explanation: "Do not hurt wild animals.",

@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-algebra-a-q01",
     prompt: "Which of these is a monomial?",
     options: [
-      { id: "a", text: "2x + 3" },
-      { id: "b", text: "5xy" },
+      { id: "a", text: "5xy" },
+      { id: "b", text: "2x + 3" },
       { id: "c", text: "x + y + z" },
       { id: "d", text: "a\u00b2 \u2212 b\u00b2" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "A monomial is a single term; 5xy has one term, while the others have two or more.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-algebra-a-q04",
     prompt: "Add: (2x + 3) + (5x \u2212 1)",
     options: [
-      { id: "a", text: "7x + 2" },
-      { id: "b", text: "7x + 4" },
-      { id: "c", text: "3x + 2" },
-      { id: "d", text: "7x \u2212 2" }
+      { id: "a", text: "7x + 4" },
+      { id: "b", text: "3x + 2" },
+      { id: "c", text: "7x \u2212 2" },
+      { id: "d", text: "7x + 2" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Like terms: 2x + 5x = 7x and 3 + (\u22121) = 2, so the sum is 7x + 2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -85,12 +85,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-algebra-a-q07",
     prompt: "What is (x + 2)(x + 3)?",
     options: [
-      { id: "a", text: "x\u00b2 + 5x + 6" },
-      { id: "b", text: "x\u00b2 + 6" },
-      { id: "c", text: "x\u00b2 + 5" },
+      { id: "a", text: "x\u00b2 + 6" },
+      { id: "b", text: "x\u00b2 + 5" },
+      { id: "c", text: "x\u00b2 + 5x + 6" },
       { id: "d", text: "2x + 5" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "FOIL: x\u00b2 + 3x + 2x + 6 = x\u00b2 + 5x + 6.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -99,11 +99,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Expand: 2(x \u2212 4)",
     options: [
       { id: "a", text: "2x \u2212 4" },
-      { id: "b", text: "2x \u2212 8" },
-      { id: "c", text: "x \u2212 8" },
-      { id: "d", text: "2x + 8" }
+      { id: "b", text: "x \u2212 8" },
+      { id: "c", text: "2x + 8" },
+      { id: "d", text: "2x \u2212 8" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Distribute: 2 \u00d7 x \u2212 2 \u00d7 4 = 2x \u2212 8.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -111,12 +111,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-algebra-a-q09",
     prompt: "Which identity is (a + b)\u00b2?",
     options: [
-      { id: "a", text: "a\u00b2 + b\u00b2" },
-      { id: "b", text: "a\u00b2 + 2ab + b\u00b2" },
+      { id: "a", text: "a\u00b2 + 2ab + b\u00b2" },
+      { id: "b", text: "a\u00b2 + b\u00b2" },
       { id: "c", text: "a\u00b2 \u2212 2ab + b\u00b2" },
       { id: "d", text: "a\u00b2 \u2212 b\u00b2" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "The square of a sum is a\u00b2 + 2ab + b\u00b2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -125,11 +125,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "(a \u2212 b)\u00b2 equals\u2026",
     options: [
       { id: "a", text: "a\u00b2 \u2212 b\u00b2" },
-      { id: "b", text: "a\u00b2 + 2ab + b\u00b2" },
-      { id: "c", text: "a\u00b2 \u2212 2ab + b\u00b2" },
+      { id: "b", text: "a\u00b2 \u2212 2ab + b\u00b2" },
+      { id: "c", text: "a\u00b2 + 2ab + b\u00b2" },
       { id: "d", text: "a\u00b2 + b\u00b2" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "The square of a difference is a\u00b2 \u2212 2ab + b\u00b2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-algebra-a-q12",
     prompt: "Evaluate (x + 3)\u00b2 when x = 2.",
     options: [
-      { id: "a", text: "25" },
-      { id: "b", text: "13" },
-      { id: "c", text: "10" },
-      { id: "d", text: "7" }
+      { id: "a", text: "13" },
+      { id: "b", text: "10" },
+      { id: "c", text: "7" },
+      { id: "d", text: "25" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "(2 + 3)\u00b2 = 5\u00b2 = 25.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -176,12 +176,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-algebra-a-q14",
     prompt: "Expand: (2x + 1)(x \u2212 3)",
     options: [
-      { id: "a", text: "2x\u00b2 \u2212 5x \u2212 3" },
-      { id: "b", text: "2x\u00b2 \u2212 6x \u2212 3" },
+      { id: "a", text: "2x\u00b2 \u2212 6x \u2212 3" },
+      { id: "b", text: "2x\u00b2 \u2212 5x \u2212 3" },
       { id: "c", text: "2x\u00b2 \u2212 5x + 3" },
       { id: "d", text: "2x\u00b2 + 5x \u2212 3" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "2x\u00b7x + 2x\u00b7(\u22123) + 1\u00b7x + 1\u00b7(\u22123) = 2x\u00b2 \u2212 6x + x \u2212 3 = 2x\u00b2 \u2212 5x \u2212 3.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -191,10 +191,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "5" },
       { id: "b", text: "\u22122" },
-      { id: "c", text: "7" },
-      { id: "d", text: "\u22129" }
+      { id: "c", text: "\u22129" },
+      { id: "d", text: "7" }
     ],
-    answerId: "d",
+    answerId: "c",
     explanation: "The constant term has no variable factor; here it is \u22129.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -203,11 +203,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Expand using identity: (3x + 2)\u00b2",
     options: [
       { id: "a", text: "9x\u00b2 + 4" },
-      { id: "b", text: "9x\u00b2 + 12x + 4" },
-      { id: "c", text: "9x\u00b2 + 6x + 4" },
-      { id: "d", text: "6x\u00b2 + 12x + 4" }
+      { id: "b", text: "9x\u00b2 + 6x + 4" },
+      { id: "c", text: "6x\u00b2 + 12x + 4" },
+      { id: "d", text: "9x\u00b2 + 12x + 4" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "(3x)\u00b2 + 2\u00b73x\u00b72 + 2\u00b2 = 9x\u00b2 + 12x + 4.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -215,12 +215,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-algebra-a-q17",
     prompt: "Expand: (5y \u2212 3)\u00b2",
     options: [
-      { id: "a", text: "25y\u00b2 \u2212 9" },
-      { id: "b", text: "25y\u00b2 \u2212 30y + 9" },
+      { id: "a", text: "25y\u00b2 \u2212 30y + 9" },
+      { id: "b", text: "25y\u00b2 \u2212 9" },
       { id: "c", text: "25y\u00b2 \u2212 15y + 9" },
       { id: "d", text: "25y\u00b2 + 30y + 9" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "(5y)\u00b2 \u2212 2\u00b75y\u00b73 + 3\u00b2 = 25y\u00b2 \u2212 30y + 9.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -229,11 +229,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Factor: x\u00b2 \u2212 16",
     options: [
       { id: "a", text: "(x \u2212 4)\u00b2" },
-      { id: "b", text: "(x + 4)\u00b2" },
-      { id: "c", text: "(x + 4)(x \u2212 4)" },
+      { id: "b", text: "(x + 4)(x \u2212 4)" },
+      { id: "c", text: "(x + 4)\u00b2" },
       { id: "d", text: "x(x \u2212 16)" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "x\u00b2 \u2212 16 = x\u00b2 \u2212 4\u00b2 = (x + 4)(x \u2212 4).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -241,12 +241,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-algebra-a-q19",
     prompt: "If (a + b)\u00b2 = 49 and ab = 10, find a\u00b2 + b\u00b2.",
     options: [
-      { id: "a", text: "29" },
-      { id: "b", text: "39" },
-      { id: "c", text: "59" },
+      { id: "a", text: "39" },
+      { id: "b", text: "59" },
+      { id: "c", text: "29" },
       { id: "d", text: "9" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "(a + b)\u00b2 = a\u00b2 + 2ab + b\u00b2 = 49, so a\u00b2 + b\u00b2 = 49 \u2212 2\u00b710 = 29.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -254,12 +254,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-algebra-a-q20",
     prompt: "Simplify: (x + y)\u00b2 \u2212 (x \u2212 y)\u00b2",
     options: [
-      { id: "a", text: "4xy" },
-      { id: "b", text: "2x\u00b2 + 2y\u00b2" },
-      { id: "c", text: "0" },
-      { id: "d", text: "2xy" }
+      { id: "a", text: "2x\u00b2 + 2y\u00b2" },
+      { id: "b", text: "0" },
+      { id: "c", text: "2xy" },
+      { id: "d", text: "4xy" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Expand: (x\u00b2 + 2xy + y\u00b2) \u2212 (x\u00b2 \u2212 2xy + y\u00b2) = 4xy.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -280,12 +280,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-algebra-a-q22",
     prompt: "The product (2a \u2212 3b)(2a + 3b) equals\u2026",
     options: [
-      { id: "a", text: "4a\u00b2 \u2212 9b\u00b2" },
-      { id: "b", text: "4a\u00b2 + 9b\u00b2" },
+      { id: "a", text: "4a\u00b2 + 9b\u00b2" },
+      { id: "b", text: "4a\u00b2 \u2212 9b\u00b2" },
       { id: "c", text: "4a\u00b2 \u2212 6ab \u2212 9b\u00b2" },
       { id: "d", text: "4a\u00b2 \u2212 12ab + 9b\u00b2" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Difference of squares: (2a)\u00b2 \u2212 (3b)\u00b2 = 4a\u00b2 \u2212 9b\u00b2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -293,12 +293,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-algebra-a-q23",
     prompt: "Find the value of 102\u00b2 using an identity.",
     options: [
-      { id: "a", text: "10404" },
-      { id: "b", text: "10000" },
-      { id: "c", text: "10400" },
+      { id: "a", text: "10000" },
+      { id: "b", text: "10400" },
+      { id: "c", text: "10404" },
       { id: "d", text: "10204" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "102\u00b2 = (100 + 2)\u00b2 = 10000 + 400 + 4 = 10404.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -306,12 +306,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-algebra-a-q24",
     prompt: "Simplify: 3(x \u2212 2) \u2212 2(x + 5) + 4",
     options: [
-      { id: "a", text: "x \u2212 12" },
-      { id: "b", text: "x + 2" },
-      { id: "c", text: "5x \u2212 12" },
-      { id: "d", text: "x \u2212 2" }
+      { id: "a", text: "x + 2" },
+      { id: "b", text: "5x \u2212 12" },
+      { id: "c", text: "x \u2212 2" },
+      { id: "d", text: "x \u2212 12" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "3x \u2212 6 \u2212 2x \u2212 10 + 4 = x \u2212 12.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
@@ -323,11 +323,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which expression is a binomial?",
     options: [
       { id: "a", text: "7" },
-      { id: "b", text: "3x" },
-      { id: "c", text: "x + 5" },
+      { id: "b", text: "x + 5" },
+      { id: "c", text: "3x" },
       { id: "d", text: "x\u00b2 + 2x + 1" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "A binomial has exactly two terms; x + 5 has two.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -349,11 +349,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "What is the coefficient of y in 2x \u2212 5y + 8?",
     options: [
       { id: "a", text: "2" },
-      { id: "b", text: "\u22125" },
-      { id: "c", text: "8" },
-      { id: "d", text: "5" }
+      { id: "b", text: "8" },
+      { id: "c", text: "5" },
+      { id: "d", text: "\u22125" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "The term \u22125y has coefficient \u22125.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-algebra-b-q07",
     prompt: "Expand: (y \u2212 1)(y + 4)",
     options: [
-      { id: "a", text: "y\u00b2 + 3y \u2212 4" },
-      { id: "b", text: "y\u00b2 + 5y \u2212 4" },
-      { id: "c", text: "y\u00b2 \u2212 3y \u2212 4" },
-      { id: "d", text: "y\u00b2 + 3y + 4" }
+      { id: "a", text: "y\u00b2 + 5y \u2212 4" },
+      { id: "b", text: "y\u00b2 \u2212 3y \u2212 4" },
+      { id: "c", text: "y\u00b2 + 3y + 4" },
+      { id: "d", text: "y\u00b2 + 3y \u2212 4" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "y\u00b2 + 4y \u2212 y \u2212 4 = y\u00b2 + 3y \u2212 4.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-algebra-b-q08",
     prompt: "Expand: \u2212(2x \u2212 5)",
     options: [
-      { id: "a", text: "\u22122x \u2212 5" },
-      { id: "b", text: "\u22122x + 5" },
+      { id: "a", text: "\u22122x + 5" },
+      { id: "b", text: "\u22122x \u2212 5" },
       { id: "c", text: "2x \u2212 5" },
       { id: "d", text: "2x + 5" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "The minus flips both signs: \u22122x + 5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -440,11 +440,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which is equal to (x + 5)\u00b2?",
     options: [
       { id: "a", text: "x\u00b2 + 25" },
-      { id: "b", text: "x\u00b2 + 10x + 25" },
-      { id: "c", text: "x\u00b2 + 5x + 25" },
+      { id: "b", text: "x\u00b2 + 5x + 25" },
+      { id: "c", text: "x\u00b2 + 10x + 25" },
       { id: "d", text: "x\u00b2 \u2212 10x + 25" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "(x + 5)\u00b2 = x\u00b2 + 2\u00b7x\u00b75 + 25 = x\u00b2 + 10x + 25.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -453,11 +453,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "(x \u2212 7)\u00b2 equals\u2026",
     options: [
       { id: "a", text: "x\u00b2 \u2212 49" },
-      { id: "b", text: "x\u00b2 \u2212 14x + 49" },
-      { id: "c", text: "x\u00b2 + 14x + 49" },
-      { id: "d", text: "x\u00b2 \u2212 7x + 49" }
+      { id: "b", text: "x\u00b2 + 14x + 49" },
+      { id: "c", text: "x\u00b2 \u2212 7x + 49" },
+      { id: "d", text: "x\u00b2 \u2212 14x + 49" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "(x \u2212 7)\u00b2 = x\u00b2 \u2212 14x + 49.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -478,12 +478,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-algebra-b-q13",
     prompt: "Divide: 12a\u00b3b\u00b2 \u00f7 3ab",
     options: [
-      { id: "a", text: "4a\u00b2b" },
-      { id: "b", text: "4a\u00b3b" },
+      { id: "a", text: "4a\u00b3b" },
+      { id: "b", text: "4a\u00b2b" },
       { id: "c", text: "9a\u00b2b" },
       { id: "d", text: "4ab" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "12/3 = 4, a\u00b3/a = a\u00b2, b\u00b2/b = b.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -491,12 +491,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-algebra-b-q14",
     prompt: "Expand: (3x \u2212 2)(2x + 5)",
     options: [
-      { id: "a", text: "6x\u00b2 + 11x \u2212 10" },
-      { id: "b", text: "6x\u00b2 + 19x \u2212 10" },
-      { id: "c", text: "6x\u00b2 \u2212 11x \u2212 10" },
+      { id: "a", text: "6x\u00b2 + 19x \u2212 10" },
+      { id: "b", text: "6x\u00b2 \u2212 11x \u2212 10" },
+      { id: "c", text: "6x\u00b2 + 11x \u2212 10" },
       { id: "d", text: "5x\u00b2 + 11x \u2212 10" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "6x\u00b2 + 15x \u2212 4x \u2212 10 = 6x\u00b2 + 11x \u2212 10.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -518,11 +518,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Expand: (4m \u2212 1)\u00b2",
     options: [
       { id: "a", text: "16m\u00b2 \u2212 1" },
-      { id: "b", text: "16m\u00b2 \u2212 8m + 1" },
-      { id: "c", text: "16m\u00b2 \u2212 4m + 1" },
-      { id: "d", text: "8m\u00b2 \u2212 8m + 1" }
+      { id: "b", text: "16m\u00b2 \u2212 4m + 1" },
+      { id: "c", text: "8m\u00b2 \u2212 8m + 1" },
+      { id: "d", text: "16m\u00b2 \u2212 8m + 1" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "(4m)\u00b2 \u2212 2\u00b74m\u00b71 + 1 = 16m\u00b2 \u2212 8m + 1.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -530,12 +530,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-algebra-b-q17",
     prompt: "Factor: 49 \u2212 p\u00b2",
     options: [
-      { id: "a", text: "(7 \u2212 p)\u00b2" },
-      { id: "b", text: "(7 + p)(7 \u2212 p)" },
+      { id: "a", text: "(7 + p)(7 \u2212 p)" },
+      { id: "b", text: "(7 \u2212 p)\u00b2" },
       { id: "c", text: "(49 \u2212 p)(49 + p)" },
       { id: "d", text: "7(7 \u2212 p)" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "49 \u2212 p\u00b2 = 7\u00b2 \u2212 p\u00b2 = (7 + p)(7 \u2212 p).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -543,12 +543,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-algebra-b-q18",
     prompt: "If (a \u2212 b)\u00b2 = 25 and ab = 6, find a\u00b2 + b\u00b2.",
     options: [
-      { id: "a", text: "37" },
-      { id: "b", text: "13" },
+      { id: "a", text: "13" },
+      { id: "b", text: "37" },
       { id: "c", text: "31" },
       { id: "d", text: "19" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "(a \u2212 b)\u00b2 = a\u00b2 \u2212 2ab + b\u00b2 = 25, so a\u00b2 + b\u00b2 = 25 + 12 = 37.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -556,12 +556,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-algebra-b-q19",
     prompt: "Expand: (x + y + 1)(x + y \u2212 1)",
     options: [
-      { id: "a", text: "(x + y)\u00b2 \u2212 1" },
-      { id: "b", text: "(x + y)\u00b2 + 1" },
-      { id: "c", text: "x\u00b2 + y\u00b2 \u2212 1" },
+      { id: "a", text: "(x + y)\u00b2 + 1" },
+      { id: "b", text: "x\u00b2 + y\u00b2 \u2212 1" },
+      { id: "c", text: "(x + y)\u00b2 \u2212 1" },
       { id: "d", text: "x\u00b2 + y\u00b2 + 1" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Let z = x + y; then (z + 1)(z \u2212 1) = z\u00b2 \u2212 1 = (x + y)\u00b2 \u2212 1.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -569,12 +569,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-algebra-b-q20",
     prompt: "Find 98\u00b2 using (100 \u2212 2)\u00b2.",
     options: [
-      { id: "a", text: "9604" },
-      { id: "b", text: "9804" },
-      { id: "c", text: "9404" },
-      { id: "d", text: "10004" }
+      { id: "a", text: "9804" },
+      { id: "b", text: "9404" },
+      { id: "c", text: "10004" },
+      { id: "d", text: "9604" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "(100 \u2212 2)\u00b2 = 10000 \u2212 400 + 4 = 9604.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -595,12 +595,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-algebra-b-q22",
     prompt: "The expression (x + 1/x)\u00b2 \u2212 2 equals\u2026",
     options: [
-      { id: "a", text: "x\u00b2 + 1/x\u00b2" },
-      { id: "b", text: "x\u00b2 \u2212 1/x\u00b2" },
+      { id: "a", text: "x\u00b2 \u2212 1/x\u00b2" },
+      { id: "b", text: "x\u00b2 + 1/x\u00b2" },
       { id: "c", text: "2" },
       { id: "d", text: "x + 1/x" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "(x + 1/x)\u00b2 = x\u00b2 + 2 + 1/x\u00b2, so subtract 2 to get x\u00b2 + 1/x\u00b2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -608,12 +608,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-algebra-b-q23",
     prompt: "Expand and simplify: (x \u2212 3)(x + 3) \u2212 (x \u2212 1)\u00b2",
     options: [
-      { id: "a", text: "2x \u2212 10" },
-      { id: "b", text: "\u22122x \u2212 10" },
-      { id: "c", text: "2x + 10" },
+      { id: "a", text: "\u22122x \u2212 10" },
+      { id: "b", text: "2x + 10" },
+      { id: "c", text: "2x \u2212 10" },
       { id: "d", text: "x\u00b2 \u2212 10" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "(x\u00b2 \u2212 9) \u2212 (x\u00b2 \u2212 2x + 1) = \u22129 + 2x \u2212 1 = 2x \u2212 10.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -621,12 +621,12 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-algebra-b-q24",
     prompt: "What must be added to x\u00b2 + 6x to make a perfect square?",
     options: [
-      { id: "a", text: "9" },
-      { id: "b", text: "6" },
-      { id: "c", text: "36" },
-      { id: "d", text: "3" }
+      { id: "a", text: "6" },
+      { id: "b", text: "36" },
+      { id: "c", text: "3" },
+      { id: "d", text: "9" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "x\u00b2 + 6x + 9 = (x + 3)\u00b2, so add 9.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }

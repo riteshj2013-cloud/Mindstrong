@@ -5,15 +5,15 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g2-eng-grammar-a-q01",
-    prompt: "Pick the correct sentence.",
+    prompt: "Fill in the blank: \"She ___ to school every day.\"",
     options: [
-      { id: "a", text: "she go to school." },
-      { id: "b", text: "She goes to school." },
-      { id: "c", text: "She going to school." },
-      { id: "d", text: "She gone to school." }
+      { id: "a", text: "goes" },
+      { id: "b", text: "go" },
+      { id: "c", text: "going" },
+      { id: "d", text: "gone" }
     ],
-    answerId: "b",
-    explanation: "She goes \u2014 singular + -s on the verb.",
+    answerId: "a",
+    explanation: "With one person (she) in the present, the verb takes -s or -es: she goes. \"go\" is tempting, but we say I go and they go, not she go.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -47,11 +47,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "A ___ names a person, place or thing.",
     options: [
       { id: "a", text: "verb" },
-      { id: "b", text: "noun" },
-      { id: "c", text: "adjective" },
-      { id: "d", text: "question" }
+      { id: "b", text: "adjective" },
+      { id: "c", text: "question" },
+      { id: "d", text: "noun" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "A noun names a person, place or thing.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -59,12 +59,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-grammar-a-q05",
     prompt: "Pick the describing word.",
     options: [
-      { id: "a", text: "run" },
-      { id: "b", text: "happy" },
+      { id: "a", text: "happy" },
+      { id: "b", text: "run" },
       { id: "c", text: "school" },
       { id: "d", text: "under" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Happy describes a feeling.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -83,15 +83,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g2-eng-grammar-a-q07",
-    prompt: "Which needs a capital letter?",
+    prompt: "\"We visited pune last week.\" Which word needs a capital letter?",
     options: [
-      { id: "a", text: "mumbai" },
-      { id: "b", text: "river" },
-      { id: "c", text: "pencil" },
-      { id: "d", text: "cloud" }
+      { id: "a", text: "visited" },
+      { id: "b", text: "last" },
+      { id: "c", text: "pune" },
+      { id: "d", text: "week" }
     ],
-    answerId: "a",
-    explanation: "City names: Mumbai.",
+    answerId: "c",
+    explanation: "Pune is the name of a city, so it needs a capital: Pune. \"week\" is tempting because it is about time, but it is not a name; only day and month names get capitals.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -100,10 +100,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "go" },
       { id: "b", text: "goes" },
-      { id: "c", text: "went" },
-      { id: "d", text: "going" }
+      { id: "c", text: "going" },
+      { id: "d", text: "went" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Yesterday \u2192 past \u2192 went.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -125,11 +125,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "She ___ a song now.",
     options: [
       { id: "a", text: "sing" },
-      { id: "b", text: "sings" },
-      { id: "c", text: "is singing" },
+      { id: "b", text: "is singing" },
+      { id: "c", text: "sings" },
       { id: "d", text: "sang" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Now \u2192 is singing.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -138,11 +138,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Pick the pronoun for Rani.",
     options: [
       { id: "a", text: "he" },
-      { id: "b", text: "she" },
-      { id: "c", text: "it" },
+      { id: "b", text: "it" },
+      { id: "c", text: "she" },
       { id: "d", text: "they" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Rani is a girl \u2192 she.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -151,11 +151,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "This is ___ apple.",
     options: [
       { id: "a", text: "a" },
-      { id: "b", text: "an" },
-      { id: "c", text: "the the" },
-      { id: "d", text: "two" }
+      { id: "b", text: "the the" },
+      { id: "c", text: "two" },
+      { id: "d", text: "an" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "An before vowel sound.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -163,12 +163,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-grammar-a-q13",
     prompt: "Which is a question word?",
     options: [
-      { id: "a", text: "quietly" },
-      { id: "b", text: "where" },
+      { id: "a", text: "where" },
+      { id: "b", text: "quietly" },
       { id: "c", text: "green" },
       { id: "d", text: "slowly" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Where asks about place.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -176,12 +176,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-grammar-a-q14",
     prompt: "The opposite of always is\u2026",
     options: [
-      { id: "a", text: "never" },
-      { id: "b", text: "often" },
+      { id: "a", text: "often" },
+      { id: "b", text: "never" },
       { id: "c", text: "sometimes" },
       { id: "d", text: "daily" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Never is the opposite of always.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-grammar-a-q15",
     prompt: "Join: soft + ly =",
     options: [
-      { id: "a", text: "softly" },
-      { id: "b", text: "softing" },
-      { id: "c", text: "softs" },
+      { id: "a", text: "softing" },
+      { id: "b", text: "softs" },
+      { id: "c", text: "softly" },
       { id: "d", text: "softness" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "soft + ly = softly (how).",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -203,11 +203,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Pick the correct punctuation.",
     options: [
       { id: "a", text: "What is your name." },
-      { id: "b", text: "What is your name?" },
-      { id: "c", text: "What is your name!" },
-      { id: "d", text: "what is your name" }
+      { id: "b", text: "What is your name!" },
+      { id: "c", text: "what is your name" },
+      { id: "d", text: "What is your name?" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Questions end with ?",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
@@ -216,15 +216,15 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g2-eng-grammar-b-q01",
-    prompt: "Pick the correct sentence.",
+    prompt: "Fill in the blank: \"He ___ rice for lunch.\"",
     options: [
-      { id: "a", text: "He eat rice." },
-      { id: "b", text: "He eats rice." },
-      { id: "c", text: "He eating rice." },
-      { id: "d", text: "He eated rice." }
+      { id: "a", text: "eats" },
+      { id: "b", text: "eat" },
+      { id: "c", text: "eating" },
+      { id: "d", text: "eated" }
     ],
-    answerId: "b",
-    explanation: "He eats \u2014 singular + -s.",
+    answerId: "a",
+    explanation: "With one person (he) in the present, the verb takes -s: he eats. \"eated\" is tempting, but \"eat\" is not changed with -ed; its past form is \"ate\".",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -232,11 +232,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "We ___ ready for the test.",
     options: [
       { id: "a", text: "is" },
-      { id: "b", text: "am" },
-      { id: "c", text: "are" },
+      { id: "b", text: "are" },
+      { id: "c", text: "am" },
       { id: "d", text: "be" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "We takes are.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -257,26 +257,26 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-grammar-b-q04",
     prompt: "A verb shows an\u2026",
     options: [
-      { id: "a", text: "action" },
-      { id: "b", text: "colour only" },
-      { id: "c", text: "place name only" },
-      { id: "d", text: "silence" }
+      { id: "a", text: "colour only" },
+      { id: "b", text: "place name only" },
+      { id: "c", text: "silence" },
+      { id: "d", text: "action" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Verbs show actions.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g2-eng-grammar-b-q05",
-    prompt: "Pick the describing word.",
+    prompt: "Pick the describing word: \"Ravi has a big kite.\"",
     options: [
-      { id: "a", text: "run" },
-      { id: "b", text: "bright" },
-      { id: "c", text: "under" },
-      { id: "d", text: "and" }
+      { id: "a", text: "big" },
+      { id: "b", text: "Ravi" },
+      { id: "c", text: "has" },
+      { id: "d", text: "kite" }
     ],
-    answerId: "b",
-    explanation: "Bright describes something.",
+    answerId: "a",
+    explanation: "\"big\" tells us what the kite is like, so it is the describing word. \"kite\" is tempting, but it names a thing, so it is a naming word.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -294,15 +294,15 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g2-eng-grammar-b-q07",
-    prompt: "Which needs a capital?",
+    prompt: "Which day name is written correctly?",
     options: [
-      { id: "a", text: "monday" },
-      { id: "b", text: "tree" },
-      { id: "c", text: "cup" },
-      { id: "d", text: "sand" }
+      { id: "a", text: "sunday" },
+      { id: "b", text: "SUNday" },
+      { id: "c", text: "Sunday" },
+      { id: "d", text: "sunDay" }
     ],
-    answerId: "a",
-    explanation: "Day names: Monday.",
+    answerId: "c",
+    explanation: "Day names begin with a capital letter and the other letters are small: Sunday. \"SUNday\" is tempting because it has capitals, but only the first letter should be a capital.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -311,10 +311,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "play" },
       { id: "b", text: "plays" },
-      { id: "c", text: "played" },
-      { id: "d", text: "playing" }
+      { id: "c", text: "playing" },
+      { id: "d", text: "played" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Last evening \u2192 past \u2192 played.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -322,12 +322,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-grammar-b-q09",
     prompt: "Replace 'The children' with a pronoun.",
     options: [
-      { id: "a", text: "he" },
-      { id: "b", text: "she" },
-      { id: "c", text: "they" },
+      { id: "a", text: "they" },
+      { id: "b", text: "he" },
+      { id: "c", text: "she" },
       { id: "d", text: "it" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Children = they.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -349,25 +349,25 @@ const SET_B: PrepQuestion[] = [
     prompt: "This is ___ umbrella.",
     options: [
       { id: "a", text: "a" },
-      { id: "b", text: "an" },
-      { id: "c", text: "two" },
+      { id: "b", text: "two" },
+      { id: "c", text: "an" },
       { id: "d", text: "an an" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "An umbrella \u2014 vowel sound.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g2-eng-grammar-b-q12",
-    prompt: "Which is a question word?",
+    prompt: "Which question word asks about a time?",
     options: [
-      { id: "a", text: "how" },
-      { id: "b", text: "blue" },
-      { id: "c", text: "desk" },
-      { id: "d", text: "softly" }
+      { id: "a", text: "Who" },
+      { id: "b", text: "What" },
+      { id: "c", text: "Where" },
+      { id: "d", text: "When" }
     ],
-    answerId: "a",
-    explanation: "How asks about manner.",
+    answerId: "d",
+    explanation: "\"When\" asks about time, as in \"When is the bus?\" \"Where\" is tempting, but it asks about a place.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-grammar-b-q14",
     prompt: "Join: care + ful =",
     options: [
-      { id: "a", text: "careful" },
-      { id: "b", text: "caring" },
+      { id: "a", text: "caring" },
+      { id: "b", text: "careful" },
       { id: "c", text: "cares" },
       { id: "d", text: "careless" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "care + ful = careful.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-grammar-b-q16",
     prompt: "Articles a/an/the are used before\u2026",
     options: [
-      { id: "a", text: "nouns" },
-      { id: "b", text: "verbs only" },
-      { id: "c", text: "full stops" },
-      { id: "d", text: "numbers only" }
+      { id: "a", text: "verbs only" },
+      { id: "b", text: "full stops" },
+      { id: "c", text: "numbers only" },
+      { id: "d", text: "nouns" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Articles come before nouns.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }

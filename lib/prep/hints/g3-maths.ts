@@ -32,7 +32,7 @@ export const G3_MATHS_HINTS: Record<string, HintOverlay> = {
   "g3-maths-numbers-b-q04": ["Look at the figure first; read every label before choosing."],
   "g3-maths-numbers-b-q05": ["Even numbers end in 0, 2, 4, 6 or 8; odd end in 1, 3, 5, 7 or 9."],
   "g3-maths-numbers-b-q06": ["Compare from the left: hundreds, then tens, then ones."],
-  "g3-maths-numbers-b-q07": ["Look at the figure first; read every label before choosing."],
+  "g3-maths-numbers-b-q07": ["Count the hundreds first, then the tens, then the ones, and write the digits in that order."],
   "g3-maths-numbers-b-q08": ["Find what is added or taken each time, then do that again."],
   "g3-maths-numbers-b-q09": ["Just before / predecessor means one less."],
   "g3-maths-numbers-b-q10": ["Read hundreds, tens and ones from the figure, then join them."],

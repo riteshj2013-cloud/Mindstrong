@@ -272,7 +272,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-sci-force-a-q21",
-    prompt: "Which statement is true?",
+    prompt: "Which statement about forces is true?",
     options: [
       { id: "a", text: "Forces cannot change direction of motion" },
       { id: "b", text: "Friction always helps sliding with zero grip needed" },

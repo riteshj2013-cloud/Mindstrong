@@ -483,7 +483,7 @@ D) Measuring salt by taste
 **Explanation:** Distance relates to echo time and the known speed of sound in water.
 
 ### Q19
-**Stem:** Which statement is true?
+**Stem:** Which statement about sound is true?
 **Options:**
 A) Sound is a form of energy produced by vibrations
 B) Sound is a type of smell

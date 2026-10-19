@@ -252,7 +252,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-a-q20",
-    prompt: "Which sentence uses commas correctly?",
+    prompt: "Asha lists the fruit she bought. Which sentence uses commas correctly?",
     options: [
       { id: "a", text: "I bought apples bananas, and, grapes." },
       { id: "b", text: "I bought, apples bananas and grapes." },
@@ -580,7 +580,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-b-q21",
-    prompt: "Which sentence is punctuated correctly?",
+    prompt: "Ramu's sister calls him home. Which sentence is punctuated correctly?",
     options: [
       { id: "a", text: "Ramu's sister said, come home early." },
       { id: "b", text: "Ramus sister said \"Come home early\"." },

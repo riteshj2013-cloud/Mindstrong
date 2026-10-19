@@ -410,7 +410,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-maths-numbers-b-q07",
-    prompt: "Look at the blocks. What number do the blocks make together?",
+    prompt: "Look at the hundreds, tens and ones blocks. What number do they show?",
     options: [
       { id: "a", text: "862" },
       { id: "b", text: "268" },

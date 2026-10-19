@@ -8,9 +8,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Choose the correct sentence.",
     options: [
       { id: "a", text: "She doesn’t like tea." },
-      { id: "b", text: "She doesn’t likes tea." },
-      { id: "c", text: "She not like tea." },
-      { id: "d", text: "She don’t like tea." }
+      { id: "b", text: "She don’t like tea." },
+      { id: "c", text: "She doesn’t likes tea." },
+      { id: "d", text: "She not like tea." }
     ],
     answerId: "a",
     explanation: "Third-person singular needs doesn’t + base verb.",
@@ -33,10 +33,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch02-a-q03",
     prompt: "Change to passive: “The chef cooked the meal.”",
     options: [
-      { id: "a", text: "The chef was cooked the meal." },
-      { id: "b", text: "The meal cooked the chef." },
+      { id: "a", text: "The meal cooked the chef." },
+      { id: "b", text: "The meal is cooking the chef." },
       { id: "c", text: "The meal was cooked by the chef." },
-      { id: "d", text: "The meal is cooking the chef." }
+      { id: "d", text: "The chef was cooked the meal." }
     ],
     answerId: "c",
     explanation: "Object becomes subject; past simple → was/were + past participle.",
@@ -46,9 +46,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch02-a-q04",
     prompt: "Reported speech: He said, “I am tired.” → He said that he ____ tired.",
     options: [
-      { id: "a", text: "will be" },
-      { id: "b", text: "were being" },
-      { id: "c", text: "is" },
+      { id: "a", text: "is" },
+      { id: "b", text: "will be" },
+      { id: "c", text: "were being" },
       { id: "d", text: "was" }
     ],
     answerId: "d",
@@ -60,9 +60,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Choose the correct article: She is ____ honest person.",
     options: [
       { id: "a", text: "an" },
-      { id: "b", text: "the" },
-      { id: "c", text: "no article" },
-      { id: "d", text: "a" }
+      { id: "b", text: "a" },
+      { id: "c", text: "the" },
+      { id: "d", text: "no article" }
     ],
     answerId: "a",
     explanation: "Honest begins with a vowel sound → an.",
@@ -72,10 +72,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch02-a-q06",
     prompt: "Identify the error: “Neither of the answers are correct.”",
     options: [
-      { id: "a", text: "of the answers" },
+      { id: "a", text: "Neither" },
       { id: "b", text: "are → should be is" },
-      { id: "c", text: "correct" },
-      { id: "d", text: "Neither" }
+      { id: "c", text: "of the answers" },
+      { id: "d", text: "correct" }
     ],
     answerId: "b",
     explanation: "Neither is singular → is.",
@@ -85,10 +85,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch02-a-q07",
     prompt: "Modal: You ____ wear a helmet on this site. (strong obligation)",
     options: [
-      { id: "a", text: "may" },
-      { id: "b", text: "might" },
+      { id: "a", text: "might" },
+      { id: "b", text: "could" },
       { id: "c", text: "must" },
-      { id: "d", text: "could" }
+      { id: "d", text: "may" }
     ],
     answerId: "c",
     explanation: "Must expresses strong obligation.",
@@ -98,9 +98,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch02-a-q08",
     prompt: "Choose the correct verb: The news ____ surprising.",
     options: [
-      { id: "a", text: "were" },
-      { id: "b", text: "have" },
-      { id: "c", text: "are" },
+      { id: "a", text: "are" },
+      { id: "b", text: "were" },
+      { id: "c", text: "have" },
       { id: "d", text: "is" }
     ],
     answerId: "d",
@@ -109,15 +109,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch02-a-q09",
-    prompt: "Fill in: If it rains, we ____ indoors.",
+    prompt: "Fill in: If you heat ice, it ____.",
     options: [
-      { id: "a", text: "stay" },
-      { id: "b", text: "stayed" },
-      { id: "c", text: "would stayed" },
-      { id: "d", text: "had stayed" }
+      { id: "a", text: "melts" },
+      { id: "b", text: "melted" },
+      { id: "c", text: "would melt" },
+      { id: "d", text: "had melted" }
     ],
     answerId: "a",
-    explanation: "First conditional: If + present, will/can/other present forms; “stay” fits as a present/instructional result (or “will stay”). Among options, stay is correct.",
+    explanation: "This is the zero conditional for a general truth: if + present, present. So “it melts”. “Would melt” is tempting, but that belongs to the second conditional, used for imaginary situations.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
@@ -137,10 +137,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch02-a-q11",
     prompt: "Voice: “A song was sung by the choir” is…",
     options: [
-      { id: "a", text: "interrogative" },
-      { id: "b", text: "active voice" },
+      { id: "a", text: "active voice" },
+      { id: "b", text: "imperative" },
       { id: "c", text: "passive voice" },
-      { id: "d", text: "imperative" }
+      { id: "d", text: "interrogative" }
     ],
     answerId: "c",
     explanation: "Was sung + by-phrase marks passive.",
@@ -150,9 +150,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch02-a-q12",
     prompt: "Choose: She has been working here ____ 2019.",
     options: [
-      { id: "a", text: "from" },
-      { id: "b", text: "at" },
-      { id: "c", text: "for" },
+      { id: "a", text: "for" },
+      { id: "b", text: "from" },
+      { id: "c", text: "at" },
       { id: "d", text: "since" }
     ],
     answerId: "d",
@@ -164,9 +164,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Reported: “Where do you live?” she asked me. → She asked me where I ____.",
     options: [
       { id: "a", text: "lived" },
-      { id: "b", text: "do live" },
-      { id: "c", text: "am living yesterday" },
-      { id: "d", text: "live" }
+      { id: "b", text: "live" },
+      { id: "c", text: "do live" },
+      { id: "d", text: "am living yesterday" }
     ],
     answerId: "a",
     explanation: "Wh-question becomes statement order with backshift: lived.",
@@ -187,24 +187,24 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch02-a-q15",
-    prompt: "Identify the clause type: “when the bell rang” in “We left when the bell rang.”",
+    prompt: "Identify the clause type: “that she was right” in “Everyone knew that she was right.”",
     options: [
-      { id: "a", text: "noun clause" },
-      { id: "b", text: "adjective clause" },
-      { id: "c", text: "adverb clause of time" },
+      { id: "a", text: "adjective clause" },
+      { id: "b", text: "adverb clause of reason" },
+      { id: "c", text: "noun clause" },
       { id: "d", text: "main clause" }
     ],
     answerId: "c",
-    explanation: "It modifies left by telling when — adverbial time clause.",
+    explanation: "The clause is the object of “knew” (knew what?), so it is a noun clause. It is tempting to call it an adjective clause because it begins with “that”, but it does not describe any noun.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
     id: "g9-eng-ch02-a-q16",
     prompt: "Fill: Neither Ravi nor his friends ____ ready.",
     options: [
-      { id: "a", text: "was" },
-      { id: "b", text: "has" },
-      { id: "c", text: "is" },
+      { id: "a", text: "is" },
+      { id: "b", text: "was" },
+      { id: "c", text: "has" },
       { id: "d", text: "are" }
     ],
     answerId: "d",
@@ -216,9 +216,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Choose correct: I look forward to ____ you.",
     options: [
       { id: "a", text: "meeting" },
-      { id: "b", text: "met" },
-      { id: "c", text: "meets" },
-      { id: "d", text: "meet" }
+      { id: "b", text: "meet" },
+      { id: "c", text: "met" },
+      { id: "d", text: "meets" }
     ],
     answerId: "a",
     explanation: "Look forward to + gerund.",
@@ -228,10 +228,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch02-a-q18",
     prompt: "Passive of “People speak English here.”",
     options: [
-      { id: "a", text: "English are spoken here." },
+      { id: "a", text: "English spoken here people." },
       { id: "b", text: "English is spoken here." },
-      { id: "c", text: "English spoken here people." },
-      { id: "d", text: "English was speak here." }
+      { id: "c", text: "English was speak here." },
+      { id: "d", text: "English are spoken here." }
     ],
     answerId: "b",
     explanation: "Present simple passive: is/are + past participle; English is singular mass → is spoken.",
@@ -241,10 +241,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch02-a-q19",
     prompt: "Choose the right determiner: ____ of the milk was spilled.",
     options: [
-      { id: "a", text: "Several" },
-      { id: "b", text: "Many" },
+      { id: "a", text: "Many" },
+      { id: "b", text: "Few" },
       { id: "c", text: "Much" },
-      { id: "d", text: "Few" }
+      { id: "d", text: "Several" }
     ],
     answerId: "c",
     explanation: "Milk is uncountable → much.",
@@ -254,9 +254,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch02-a-q20",
     prompt: "Error spot: “He suggested to go home.” Correct form uses…",
     options: [
-      { id: "a", text: "suggested go" },
-      { id: "b", text: "suggested gone" },
-      { id: "c", text: "suggested to go" },
+      { id: "a", text: "suggested to go" },
+      { id: "b", text: "suggested go" },
+      { id: "c", text: "suggested gone" },
       { id: "d", text: "suggested going" }
     ],
     answerId: "d",
@@ -268,9 +268,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Choose: She ____ finished the novel before the exam started.",
     options: [
       { id: "a", text: "had" },
-      { id: "b", text: "have" },
-      { id: "c", text: "having" },
-      { id: "d", text: "has" }
+      { id: "b", text: "has" },
+      { id: "c", text: "have" },
+      { id: "d", text: "having" }
     ],
     answerId: "a",
     explanation: "Past perfect for earlier past before another past.",
@@ -293,10 +293,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch02-a-q23",
     prompt: "Fill: It’s time we ____ home.",
     options: [
-      { id: "a", text: "going" },
-      { id: "b", text: "go" },
+      { id: "a", text: "go" },
+      { id: "b", text: "gone" },
       { id: "c", text: "went" },
-      { id: "d", text: "gone" }
+      { id: "d", text: "going" }
     ],
     answerId: "c",
     explanation: "It’s time + past tense form (unreal present).",
@@ -306,9 +306,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch02-a-q24",
     prompt: "Choose correct preposition: She is good ____ mathematics.",
     options: [
-      { id: "a", text: "on" },
-      { id: "b", text: "by" },
-      { id: "c", text: "in" },
+      { id: "a", text: "in" },
+      { id: "b", text: "on" },
+      { id: "c", text: "by" },
       { id: "d", text: "at" }
     ],
     answerId: "d",
@@ -335,12 +335,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch02-b-q02",
     prompt: "Active form of “The window was broken by the storm.”",
     options: [
-      { id: "a", text: "The storm broke the window." },
-      { id: "b", text: "The storm was broken the window." },
+      { id: "a", text: "The storm was broken the window." },
+      { id: "b", text: "The storm broke the window." },
       { id: "c", text: "The window broke the storm." },
       { id: "d", text: "The storm broken window." }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Restore the agent as subject; past simple active: broke.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -349,11 +349,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Reported: She said, “I will call tomorrow.” → She said she ____ call the next day.",
     options: [
       { id: "a", text: "will" },
-      { id: "b", text: "would" },
-      { id: "c", text: "shall" },
+      { id: "b", text: "shall" },
+      { id: "c", text: "would" },
       { id: "d", text: "can" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Will → would; tomorrow → the next day.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -362,11 +362,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Fill: He has lived here ____ five years.",
     options: [
       { id: "a", text: "since" },
-      { id: "b", text: "for" },
-      { id: "c", text: "from" },
-      { id: "d", text: "during" }
+      { id: "b", text: "from" },
+      { id: "c", text: "during" },
+      { id: "d", text: "for" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Five years is a duration, so use for. Since takes a starting point.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -374,12 +374,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch02-b-q05",
     prompt: "Choose the correct question tag: You’re ready, ____?",
     options: [
-      { id: "a", text: "are you" },
-      { id: "b", text: "aren’t you" },
+      { id: "a", text: "aren’t you" },
+      { id: "b", text: "are you" },
       { id: "c", text: "isn’t you" },
       { id: "d", text: "don’t you" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Positive statement → negative tag: aren’t you.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch02-b-q06",
     prompt: "Identify tense: “She had been waiting for an hour when the bus arrived.”",
     options: [
-      { id: "a", text: "past perfect continuous" },
-      { id: "b", text: "present perfect" },
+      { id: "a", text: "present perfect" },
+      { id: "b", text: "past perfect continuous" },
       { id: "c", text: "simple past" },
       { id: "d", text: "future perfect" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Had been + -ing marks past perfect continuous.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch02-b-q07",
     prompt: "Choose: Hardly had we entered ____ it started raining.",
     options: [
-      { id: "a", text: "when" },
-      { id: "b", text: "than" },
-      { id: "c", text: "then" },
+      { id: "a", text: "than" },
+      { id: "b", text: "then" },
+      { id: "c", text: "when" },
       { id: "d", text: "that" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Hardly…when is the correlative pair.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch02-b-q08",
     prompt: "Correct the adjective order: “a leather black new bag” →",
     options: [
-      { id: "a", text: "a new black leather bag" },
-      { id: "b", text: "a black new leather bag" },
-      { id: "c", text: "a leather new black bag" },
-      { id: "d", text: "a new leather black bag" }
+      { id: "a", text: "a black new leather bag" },
+      { id: "b", text: "a leather new black bag" },
+      { id: "c", text: "a new leather black bag" },
+      { id: "d", text: "a new black leather bag" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Typical order: opinion/age → colour → material.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -426,26 +426,26 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch02-b-q09",
     prompt: "Fill: Prefer tea ____ coffee.",
     options: [
-      { id: "a", text: "than" },
-      { id: "b", text: "to" },
+      { id: "a", text: "to" },
+      { id: "b", text: "than" },
       { id: "c", text: "from" },
       { id: "d", text: "over than" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Prefer A to B.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
     id: "g9-eng-ch02-b-q10",
-    prompt: "Which is a complex sentence?",
+    prompt: "Which of these is a complex sentence?",
     options: [
-      { id: "a", text: "I came and I saw." },
-      { id: "b", text: "I came." },
-      { id: "c", text: "I came when you called." },
-      { id: "d", text: "Come here." }
+      { id: "a", text: "She won and she smiled." },
+      { id: "b", text: "She smiled because she had won." },
+      { id: "c", text: "She smiled." },
+      { id: "d", text: "Smile!" }
     ],
-    answerId: "c",
-    explanation: "One independent + one dependent clause (when…).",
+    answerId: "b",
+    explanation: "A complex sentence has a main clause and a dependent clause; “because she had won” cannot stand alone. “She won and she smiled” is tempting because it has two clauses, but both are main clauses joined by “and”, so it is compound.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
@@ -453,11 +453,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Choose: Each of the players ____ a medal.",
     options: [
       { id: "a", text: "receive" },
-      { id: "b", text: "receives" },
-      { id: "c", text: "have received" },
+      { id: "b", text: "have received" },
+      { id: "c", text: "receives" },
       { id: "d", text: "are receiving" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Each is singular → receives.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -465,12 +465,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch02-b-q12",
     prompt: "Passive: “They are repairing the road.”",
     options: [
-      { id: "a", text: "The road is being repaired." },
-      { id: "b", text: "The road is repaired them." },
-      { id: "c", text: "The road was being repair." },
-      { id: "d", text: "The road repairs." }
+      { id: "a", text: "The road is repaired them." },
+      { id: "b", text: "The road was being repair." },
+      { id: "c", text: "The road repairs." },
+      { id: "d", text: "The road is being repaired." }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Present continuous passive: is/are being + past participle.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -478,12 +478,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch02-b-q13",
     prompt: "Choose synonym of the underlined idea: He was reluctant to speak. He was…",
     options: [
-      { id: "a", text: "eager" },
-      { id: "b", text: "unwilling" },
+      { id: "a", text: "unwilling" },
+      { id: "b", text: "eager" },
       { id: "c", text: "loud" },
       { id: "d", text: "certain" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Reluctant means unwilling/hesitant.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -505,11 +505,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Reported command: “Close the door,” he said to me. → He told me ____ the door.",
     options: [
       { id: "a", text: "close" },
-      { id: "b", text: "to close" },
-      { id: "c", text: "closing" },
+      { id: "b", text: "closing" },
+      { id: "c", text: "to close" },
       { id: "d", text: "closed" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Told + object + to-infinitive.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -518,11 +518,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Choose correct: Between you and ____, this is secret.",
     options: [
       { id: "a", text: "I" },
-      { id: "b", text: "me" },
-      { id: "c", text: "myself" },
-      { id: "d", text: "mine" }
+      { id: "b", text: "myself" },
+      { id: "c", text: "mine" },
+      { id: "d", text: "me" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Object of preposition between → me.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -530,12 +530,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch02-b-q17",
     prompt: "Which sentence is in the present perfect?",
     options: [
-      { id: "a", text: "She wrote a letter." },
-      { id: "b", text: "She has written a letter." },
+      { id: "a", text: "She has written a letter." },
+      { id: "b", text: "She wrote a letter." },
       { id: "c", text: "She had written a letter." },
       { id: "d", text: "She writes a letter." }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Has/have + past participle = present perfect.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -543,12 +543,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch02-b-q18",
     prompt: "Error: “One of my friend is a pilot.” Correction:",
     options: [
-      { id: "a", text: "One of my friends is a pilot." },
-      { id: "b", text: "One of my friend are a pilot." },
+      { id: "a", text: "One of my friend are a pilot." },
+      { id: "b", text: "One of my friends is a pilot." },
       { id: "c", text: "One of my friends are a pilot." },
       { id: "d", text: "One my friends is a pilot." }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "One of + plural noun + singular verb.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -557,11 +557,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Fill: No sooner had she left ____ the phone rang.",
     options: [
       { id: "a", text: "when" },
-      { id: "b", text: "than" },
-      { id: "c", text: "then" },
+      { id: "b", text: "then" },
+      { id: "c", text: "than" },
       { id: "d", text: "but" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "No sooner…than.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -571,10 +571,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "who" },
       { id: "b", text: "whom" },
-      { id: "c", text: "whose" },
-      { id: "d", text: "which" }
+      { id: "c", text: "which" },
+      { id: "d", text: "whose" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Whose shows possession (man’s house).",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
@@ -582,13 +582,13 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch02-b-q21",
     prompt: "Conditional: If I ____ you, I would apologise.",
     options: [
-      { id: "a", text: "am" },
-      { id: "b", text: "was" },
-      { id: "c", text: "were" },
+      { id: "a", text: "were" },
+      { id: "b", text: "am" },
+      { id: "c", text: "was" },
       { id: "d", text: "will be" }
     ],
-    answerId: "c",
-    explanation: "Second conditional often uses were for all persons (subjunctive).",
+    answerId: "a",
+    explanation: "Second conditional often uses were for all persons (subjunctive). 'was' is common in casual speech, but formal English uses 'were'.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
@@ -609,12 +609,12 @@ const SET_B: PrepQuestion[] = [
     prompt: "Identify the infinitive: “She hopes to win.”",
     options: [
       { id: "a", text: "hopes" },
-      { id: "b", text: "to win" },
-      { id: "c", text: "she" },
-      { id: "d", text: "win as bare only" }
+      { id: "b", text: "she" },
+      { id: "c", text: "to win" },
+      { id: "d", text: "hopes to" }
     ],
-    answerId: "b",
-    explanation: "To win is the to-infinitive.",
+    answerId: "c",
+    explanation: "“To win” is the to-infinitive: to + the base verb. “Hopes” is the main verb that changes with the subject (she hopes, they hope), and “hopes to” is tempting but wrongly pairs “to” with the main verb instead of with “win”.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
@@ -622,11 +622,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Choose: Seldom ____ such courage.",
     options: [
       { id: "a", text: "we have seen" },
-      { id: "b", text: "have we seen" },
-      { id: "c", text: "we saw have" },
-      { id: "d", text: "seen we have" }
+      { id: "b", text: "we saw have" },
+      { id: "c", text: "seen we have" },
+      { id: "d", text: "have we seen" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Negative adverb fronting triggers inversion: have we seen.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   }

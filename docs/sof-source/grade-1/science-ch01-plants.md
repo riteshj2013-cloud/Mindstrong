@@ -18,12 +18,12 @@
 **Stem:** Which part of a plant grows under the soil?
 
 **Options:**
-- A) leaf
-- B) root
+- A) root
+- B) leaf
 - C) flower
 - D) fruit
 
-**Answer:** B
+**Answer:** A
 
 **Explanation:** Roots grow under the soil.
 
@@ -47,11 +47,11 @@
 
 **Options:**
 - A) stone
-- B) new plant
-- C) cloud
+- B) cloud
+- C) new plant
 - D) car
 
-**Answer:** B
+**Answer:** C
 
 **Explanation:** A seed grows into a new plant.
 
@@ -61,11 +61,11 @@
 
 **Options:**
 - A) root
-- B) leaf
-- C) stone
-- D) pot
+- B) stone
+- C) pot
+- D) leaf
 
-**Answer:** B
+**Answer:** D
 
 **Explanation:** Leaves make food with sunlight.
 
@@ -74,12 +74,12 @@
 **Stem:** We water plants because they need…
 
 **Options:**
-- A) music
-- B) water
+- A) water
+- B) music
 - C) toys
 - D) shoes
 
-**Answer:** B
+**Answer:** A
 
 **Explanation:** Plants need water to live.
 
@@ -102,12 +102,12 @@
 **Stem:** Which do plants need to grow?
 
 **Options:**
-- A) sunlight
-- B) TV
-- C) phones
+- A) TV
+- B) phones
+- C) sunlight
 - D) cars
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Plants need sunlight.
 
@@ -117,11 +117,11 @@
 
 **Options:**
 - A) fish
-- B) tree
-- C) cloud
-- D) bike
+- B) cloud
+- C) bike
+- D) tree
 
-**Answer:** B
+**Answer:** D
 
 **Explanation:** Mangoes grow on trees.
 
@@ -130,12 +130,12 @@
 **Stem:** Roots help the plant to…
 
 **Options:**
-- A) fly
-- B) hold in the soil
+- A) hold in the soil
+- B) fly
 - C) sing
 - D) read
 
-**Answer:** B
+**Answer:** A
 
 **Explanation:** Roots hold the plant in the soil.
 
@@ -158,12 +158,12 @@
 **Stem:** Fruits often have ___ inside.
 
 **Options:**
-- A) seeds
-- B) wheels
-- C) books
+- A) wheels
+- B) books
+- C) seeds
 - D) socks
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Fruits keep seeds inside.
 
@@ -172,12 +172,12 @@
 **Stem:** The stem…
 
 **Options:**
-- A) holds the plant up
-- B) is always under soil
-- C) is an animal
-- D) makes thunder
+- A) is always under soil
+- B) is an animal
+- C) makes thunder
+- D) holds the plant up
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** The stem holds the plant up.
 
@@ -186,12 +186,12 @@
 **Stem:** A cactus lives where it is…
 
 **Options:**
-- A) very wet always
-- B) dry
+- A) dry
+- B) very wet always
 - C) under the sea
 - D) in snow only
 
-**Answer:** B
+**Answer:** A
 
 **Explanation:** Cactus plants like dry places.
 
@@ -200,12 +200,12 @@
 **Stem:** We get wood from…
 
 **Options:**
-- A) trees
-- B) fish
+- A) fish
+- B) trees
 - C) clouds
 - D) stones only
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Wood comes from trees.
 
@@ -228,12 +228,12 @@
 **Stem:** Plants are…
 
 **Options:**
-- A) living
-- B) not living
-- C) made of plastic only
-- D) always toys
+- A) not living
+- B) made of plastic only
+- C) always toys
+- D) living
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Plants are living things.
 
@@ -245,12 +245,12 @@
 **Stem:** Which part drinks water from the soil?
 
 **Options:**
-- A) flower
-- B) root
+- A) root
+- B) flower
 - C) fruit skin
 - D) thorn only
 
-**Answer:** B
+**Answer:** A
 
 **Explanation:** Roots drink water from the soil.
 
@@ -259,12 +259,12 @@
 **Stem:** Sunlight helps leaves to…
 
 **Options:**
-- A) make food
-- B) dance
+- A) dance
+- B) make food
 - C) sleep only
 - D) make noise
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Leaves use sunlight to make food.
 
@@ -273,12 +273,12 @@
 **Stem:** A baby plant is called a…
 
 **Options:**
-- A) seedling
-- B) rocket
-- C) pillow
+- A) rocket
+- B) pillow
+- C) seedling
 - D) truck
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** A baby plant is a seedling.
 
@@ -288,11 +288,11 @@
 
 **Options:**
 - A) chair
-- B) plant
-- C) glass
-- D) phone
+- B) glass
+- C) phone
+- D) plant
 
-**Answer:** B
+**Answer:** D
 
 **Explanation:** A plant grows from a seed.
 
@@ -315,12 +315,12 @@
 **Stem:** A leaf is usually…
 
 **Options:**
-- A) flat and green
-- B) round like a ball only
+- A) round like a ball only
+- B) flat and green
 - C) made of iron
 - D) blue metal
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Leaves are often flat and green.
 
@@ -329,12 +329,12 @@
 **Stem:** Bees visit flowers for…
 
 **Options:**
-- A) nectar
-- B) stones
-- C) books
+- A) stones
+- B) books
+- C) nectar
 - D) shoes
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Bees take nectar from flowers.
 
@@ -343,12 +343,12 @@
 **Stem:** A coconut tree is…
 
 **Options:**
-- A) tall
-- B) a fish
-- C) a bird
-- D) a cup
+- A) a fish
+- B) a bird
+- C) a cup
+- D) tall
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Coconut trees are tall.
 
@@ -357,12 +357,12 @@
 **Stem:** Soil helps plants by giving…
 
 **Options:**
-- A) TV shows
-- B) a place to grow
+- A) a place to grow
+- B) TV shows
 - C) music
 - D) cars
 
-**Answer:** B
+**Answer:** A
 
 **Explanation:** Soil is where plants grow.
 
@@ -371,12 +371,12 @@
 **Stem:** Which is a flower?
 
 **Options:**
-- A) lotus
-- B) spoon
+- A) spoon
+- B) lotus
 - C) eraser
 - D) sock
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** A lotus is a flower.
 
@@ -385,12 +385,12 @@
 **Stem:** Dry leaves fall in…
 
 **Options:**
-- A) autumn / dry season
-- B) only at night always
-- C) from the moon
+- A) only at night always
+- B) from the moon
+- C) autumn / dry season
 - D) from cars
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Leaves fall in dry or autumn times.
 
@@ -399,12 +399,12 @@
 **Stem:** The green colour in leaves helps them…
 
 **Options:**
-- A) make food
-- B) bark like dogs
-- C) fly planes
-- D) cook rice
+- A) bark like dogs
+- B) fly planes
+- C) cook rice
+- D) make food
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Green helps leaves make food.
 
@@ -427,12 +427,12 @@
 **Stem:** Which comes first?
 
 **Options:**
-- A) seed
-- B) big tree
+- A) big tree
+- B) seed
 - C) fruit only
 - D) wood chair
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Life often starts with a seed.
 
@@ -441,12 +441,12 @@
 **Stem:** Thorns on a rose…
 
 **Options:**
-- A) can prick
-- B) are sweets
-- C) are roots
+- A) are sweets
+- B) are roots
+- C) can prick
 - D) are fruits
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Thorns can prick — be careful.
 
@@ -455,12 +455,12 @@
 **Stem:** Plants give us…
 
 **Options:**
-- A) oxygen / fresh air
-- B) only plastic
-- C) only noise
-- D) only smoke
+- A) only plastic
+- B) only noise
+- C) only smoke
+- D) oxygen / fresh air
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Plants help give fresh air.
 

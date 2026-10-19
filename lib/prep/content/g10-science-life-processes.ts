@@ -135,15 +135,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-sci-life-a-q11",
-    prompt: "Phloem transports \u2014",
+    prompt: "Sugars made in the leaves reach the roots of a plant through the \u2014",
     options: [
-      { id: "a", text: "only water upward" },
-      { id: "b", text: "carbon dioxide soilward" },
-      { id: "c", text: "food (sugars) to plant parts" },
-      { id: "d", text: "only minerals" }
+      { id: "a", text: "xylem" },
+      { id: "b", text: "root hairs" },
+      { id: "c", text: "phloem" },
+      { id: "d", text: "stomata" }
     ],
     answerId: "c",
-    explanation: "Translocation moves sucrose via phloem.",
+    explanation: "Phloem carries food (sugars) from the leaves to other parts of the plant, including the roots; this is translocation. Xylem is tempting because it also connects roots and leaves, but it carries water and minerals upward.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

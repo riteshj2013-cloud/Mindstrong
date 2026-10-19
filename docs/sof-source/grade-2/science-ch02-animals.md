@@ -46,12 +46,12 @@
 **Stem:** Birds have ___ to fly.
 
 **Options:**
-- A) wings
-- B) fins only
-- C) roots
+- A) fins only
+- B) roots
+- C) wings
 - D) wheels
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Birds use wings to fly.
 
@@ -61,11 +61,11 @@
 
 **Options:**
 - A) lungs like us always
-- B) gills
-- C) leaves
-- D) noses only
+- B) leaves
+- C) noses only
+- D) gills
 
-**Answer:** B
+**Answer:** D
 
 **Explanation:** Fish breathe with gills.
 
@@ -88,12 +88,12 @@
 **Stem:** Which animal may hibernate in cold?
 
 **Options:**
-- A) bear
-- B) fish in fire
+- A) fish in fire
+- B) bear
 - C) eagle always
 - D) ant always
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Some bears hibernate in cold weather.
 
@@ -103,11 +103,11 @@
 
 **Options:**
 - A) 4
-- B) 6
-- C) 8
+- B) 8
+- C) 6
 - D) 2
 
-**Answer:** B
+**Answer:** C
 
 **Explanation:** Insects have 6 legs.
 
@@ -116,12 +116,12 @@
 **Stem:** A frog’s young one is a…
 
 **Options:**
-- A) tadpole
-- B) puppy
-- C) kitten
-- D) cub
+- A) puppy
+- B) kitten
+- C) cub
+- D) tadpole
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** A young frog is a tadpole.
 
@@ -144,12 +144,12 @@
 **Stem:** Which is an omnivore?
 
 **Options:**
-- A) human
-- B) cow only
+- A) cow only
+- B) human
 - C) tiger only
 - D) deer only
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Humans can eat plants and animals.
 
@@ -158,12 +158,12 @@
 **Stem:** Camels store fat in their…
 
 **Options:**
-- A) humps
-- B) fins
-- C) wings
+- A) fins
+- B) wings
+- C) humps
 - D) beaks
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Camels have humps with fat.
 
@@ -172,12 +172,12 @@
 **Stem:** Which animal gives wool?
 
 **Options:**
-- A) sheep
-- B) fish
-- C) frog
-- D) eagle
+- A) fish
+- B) frog
+- C) eagle
+- D) sheep
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Sheep give wool.
 
@@ -200,12 +200,12 @@
 **Stem:** A nest is a home for…
 
 **Options:**
-- A) birds
-- B) fish only always
+- A) fish only always
+- B) birds
 - C) worms in space
 - D) cars
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Birds live in nests.
 
@@ -214,12 +214,12 @@
 **Stem:** Endangered animals need…
 
 **Options:**
-- A) protection
-- B) more hunting
-- C) less forests forever
+- A) more hunting
+- B) less forests forever
+- C) protection
 - D) noise only
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Endangered animals need protection.
 
@@ -228,12 +228,12 @@
 **Stem:** Which has a backbone?
 
 **Options:**
-- A) dog
-- B) jellyfish
-- C) worm
-- D) ant
+- A) jellyfish
+- B) worm
+- C) ant
+- D) dog
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** A dog has a backbone.
 
@@ -273,12 +273,12 @@
 **Stem:** Ducks have ___ feet for swimming.
 
 **Options:**
-- A) webbed
-- B) wheels
-- C) roots
+- A) wheels
+- B) roots
+- C) webbed
 - D) claws only
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Webbed feet help ducks swim.
 
@@ -287,12 +287,12 @@
 **Stem:** Whales are…
 
 **Options:**
-- A) mammals that live in water
-- B) fish with scales only
-- C) insects
-- D) birds
+- A) fish with scales only
+- B) insects
+- C) birds
+- D) mammals that live in water
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Whales are water mammals.
 
@@ -315,12 +315,12 @@
 **Stem:** Migration means animals…
 
 **Options:**
-- A) travel with seasons
-- B) never move
+- A) never move
+- B) travel with seasons
 - C) turn to stone
 - D) become plants
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Migration is seasonal travel.
 
@@ -330,11 +330,11 @@
 
 **Options:**
 - A) 6
-- B) 8
-- C) 4
+- B) 4
+- C) 8
 - D) 2
 
-**Answer:** B
+**Answer:** C
 
 **Explanation:** Spiders have 8 legs.
 
@@ -343,12 +343,12 @@
 **Stem:** A caterpillar can become a…
 
 **Options:**
-- A) butterfly
-- B) frog
-- C) fish
-- D) bird nest
+- A) frog
+- B) fish
+- C) bird nest
+- D) butterfly
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Caterpillar becomes a butterfly.
 
@@ -371,12 +371,12 @@
 **Stem:** Which animal lives in a burrow?
 
 **Options:**
-- A) rabbit
-- B) eagle only
+- A) eagle only
+- B) rabbit
 - C) whale
 - D) shark
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Rabbits may live in burrows.
 
@@ -385,12 +385,12 @@
 **Stem:** Elephants use their trunks to…
 
 **Options:**
-- A) pick food and drink
-- B) fly
-- C) lay eggs
+- A) fly
+- B) lay eggs
+- C) pick food and drink
 - D) make honey
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Trunks help pick food and drink.
 
@@ -399,12 +399,12 @@
 **Stem:** Silk comes from…
 
 **Options:**
-- A) silkworm
-- B) cow
-- C) goat
-- D) hen
+- A) cow
+- B) goat
+- C) hen
+- D) silkworm
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Silkworms give silk.
 
@@ -427,12 +427,12 @@
 **Stem:** A hive is a home for…
 
 **Options:**
-- A) bees
-- B) lions
+- A) lions
+- B) bees
 - C) whales
 - D) cows
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Bees live in a hive.
 
@@ -441,12 +441,12 @@
 **Stem:** We should not ___ wild animals.
 
 **Options:**
-- A) hurt or tease
-- B) respect
-- C) learn about carefully
+- A) respect
+- B) learn about carefully
+- C) hurt or tease
 - D) protect
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Do not hurt wild animals.
 
@@ -455,12 +455,12 @@
 **Stem:** Which animal lays eggs?
 
 **Options:**
-- A) hen
-- B) dog
-- C) cat
-- D) cow
+- A) dog
+- B) cat
+- C) cow
+- D) hen
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Hens lay eggs.
 

@@ -26,11 +26,11 @@
 
 Where do Kabir and Meera go every Sunday?
 - **options**:
-  - A) The market
-  - B) The neighbourhood library
+  - A) The neighbourhood library
+  - B) The market
   - C) The mangrove forest
   - D) Mrs Rao’s house
-- **answer**: B
+- **answer**: A
 - **explanation**: The first sentence says they visit the neighbourhood library every Sunday.
 - **hint**: Find the place named in the opening sentence.
 
@@ -66,10 +66,10 @@ Who showed them the new shelf?
 What was Meera’s borrowed story about?
 - **options**:
   - A) Mangroves in storms
-  - B) A girl who plants trees by a dry river
-  - C) How to run a library
-  - D) A coastal lighthouse
-- **answer**: B
+  - B) How to run a library
+  - C) A coastal lighthouse
+  - D) A girl who plants trees by a dry river
+- **answer**: D
 - **explanation**: Meera borrowed a story about a girl who plants trees along a dry river.
 - **hint**: Find the sentence about Meera’s book.
 
@@ -78,11 +78,11 @@ What was Meera’s borrowed story about?
 
 According to Kabir’s article, mangroves —
 - **options**:
-  - A) harm the coast
-  - B) protect the coast during storms
+  - A) protect the coast during storms
+  - B) harm the coast
   - C) grow only in deserts
   - D) are folk tales
-- **answer**: B
+- **answer**: A
 - **explanation**: The article said mangroves protect the coast during storms.
 - **hint**: Locate the mangrove sentence.
 
@@ -105,10 +105,10 @@ How soon must they return the books?
 From whom does Amma buy vegetables?
 - **options**:
   - A) Mrs Rao
-  - B) Uncle Raju
-  - C) Kabir
+  - B) Kabir
+  - C) Uncle Raju
   - D) Mr Das
-- **answer**: B
+- **answer**: C
 - **explanation**: She buys from Uncle Raju’s stall.
 - **hint**: Name the vendor in the passage.
 
@@ -118,10 +118,10 @@ From whom does Amma buy vegetables?
 What quality of Uncle Raju is highlighted?
 - **options**:
   - A) He rushes customers
-  - B) He weighs carefully and never rushes
-  - C) He sells only fruit
-  - D) He ignores Amma
-- **answer**: B
+  - B) He sells only fruit
+  - C) He ignores Amma
+  - D) He weighs carefully and never rushes
+- **answer**: D
 - **explanation**: He weighs tomatoes carefully and never rushes.
 - **hint**: Find the description of how he works.
 
@@ -130,11 +130,11 @@ What quality of Uncle Raju is highlighted?
 
 How much coriander did Amma ask for?
 - **options**:
-  - A) Two kilos
-  - B) A bunch
+  - A) A bunch
+  - B) Two kilos
   - C) A bag of seeds
   - D) None
-- **answer**: B
+- **answer**: A
 - **explanation**: She asked for a bunch of coriander.
 - **hint**: Read Amma’s order carefully.
 
@@ -157,10 +157,10 @@ Where was the coriander from?
 How much did Amma pay?
 - **options**:
   - A) ₹19
-  - B) ₹90
-  - C) ₹900
+  - B) ₹900
+  - C) ₹90
   - D) ₹9
-- **answer**: B
+- **answer**: C
 - **explanation**: Amma paid ₹90.
 - **hint**: Look for the rupee amount.
 
@@ -170,10 +170,10 @@ How much did Amma pay?
 What did Amma tell her son on the walk home?
 - **options**:
   - A) Markets are boring
-  - B) Honest traders make shopping a pleasure
-  - C) Never buy tomatoes
-  - D) Coriander is expensive
-- **answer**: B
+  - B) Never buy tomatoes
+  - C) Coriander is expensive
+  - D) Honest traders make shopping a pleasure
+- **answer**: D
 - **explanation**: She said honest traders make shopping a pleasure.
 - **hint**: Check the closing sentence.
 
@@ -182,11 +182,11 @@ What did Amma tell her son on the walk home?
 
 When did the science club meet?
 - **options**:
-  - A) Before breakfast
-  - B) After lunch
+  - A) After lunch
+  - B) Before breakfast
   - C) At midnight
   - D) On Sunday only
-- **answer**: B
+- **answer**: A
 - **explanation**: The club met after lunch.
 - **hint**: Find the meeting time.
 
@@ -208,11 +208,11 @@ What did Ananya say recycling paper does?
 
 According to Rohan, sorting plastic from kitchen waste —
 - **options**:
-  - A) keeps drains cleaner
-  - B) grows mangroves
-  - C) mends bat grips
+  - A) grows mangroves
+  - B) mends bat grips
+  - C) keeps drains cleaner
   - D) buys tomatoes
-- **answer**: A
+- **answer**: C
 - **explanation**: Rohan said sorting plastic keeps drains cleaner.
 - **hint**: Find Rohan’s point about plastic.
 
@@ -222,10 +222,10 @@ According to Rohan, sorting plastic from kitchen waste —
 What did Mr Das ask members to bring?
 - **options**:
   - A) Lunch boxes
-  - B) One idea for the annual fair
-  - C) Mangrove plants
-  - D) ₹90 each
-- **answer**: B
+  - B) Mangrove plants
+  - C) ₹90 each
+  - D) One idea for the annual fair
+- **answer**: D
 - **explanation**: He asked each member to bring one idea for the annual fair.
 - **hint**: Locate the teacher’s request.
 
@@ -234,11 +234,11 @@ What did Mr Das ask members to bring?
 
 Ananya’s fair idea was a stall about —
 - **options**:
-  - A) Composting only
-  - B) Making seed balls
+  - A) Making seed balls
+  - B) Composting only
   - C) Selling tomatoes
   - D) Indoor cricket
-- **answer**: B
+- **answer**: A
 - **explanation**: Ananya suggested a stall that shows how to make seed balls.
 - **hint**: Find Ananya’s suggestion.
 
@@ -260,11 +260,11 @@ How did Mr Das respond to both ideas?
 
 Why does the cricket ground become hard to use in the monsoon?
 - **options**:
-  - A) It turns muddy
-  - B) It becomes too dry
-  - C) It is locked forever
+  - A) It becomes too dry
+  - B) It is locked forever
+  - C) It turns muddy
   - D) It has no coach
-- **answer**: A
+- **answer**: C
 - **explanation**: The ground turns muddy during the monsoon.
 - **hint**: Find the monsoon detail.
 
@@ -274,10 +274,10 @@ Why does the cricket ground become hard to use in the monsoon?
 Where does the coach move practice on rainy evenings?
 - **options**:
   - A) To the beach
-  - B) To the indoor hall
-  - C) To the library
-  - D) To Uncle Raju’s stall
-- **answer**: B
+  - B) To the library
+  - C) To Uncle Raju’s stall
+  - D) To the indoor hall
+- **answer**: D
 - **explanation**: Practice moves to the indoor hall.
 - **hint**: Locate the indoor practice sentence.
 
@@ -286,11 +286,11 @@ Where does the coach move practice on rainy evenings?
 
 What happened last Tuesday?
 - **options**:
-  - A) They played until dusk outdoors
-  - B) Lightning flashed and practice was cut short
+  - A) Lightning flashed and practice was cut short
+  - B) They played until dusk outdoors
   - C) Priya bought tomatoes
   - D) Mr Das cancelled science club
-- **answer**: B
+- **answer**: A
 - **explanation**: Lightning flashed and practice was cut short.
 - **hint**: Find Tuesday’s event.
 
@@ -313,10 +313,10 @@ How did Priya use the extra time?
 What lesson did Priya share with her friend?
 - **options**:
   - A) Speed matters most
-  - B) Patience is part of becoming a better player
-  - C) Never practise indoors
+  - B) Never practise indoors
+  - C) Patience is part of becoming a better player
   - D) Mud is good for batting
-- **answer**: B
+- **answer**: C
 - **explanation**: She said patience is part of becoming a better player.
 - **hint**: Find Priya’s message about patience.
 
@@ -326,10 +326,10 @@ What lesson did Priya share with her friend?
 What did the team do on Wednesday?
 - **options**:
   - A) Stayed home
-  - B) Practised fielding until dusk
-  - C) Visited the library
-  - D) Made seed balls
-- **answer**: B
+  - B) Visited the library
+  - C) Made seed balls
+  - D) Practised fielding until dusk
+- **answer**: D
 - **explanation**: With the sun back, they practised fielding until dusk.
 - **hint**: Read the final sentence.
 
@@ -340,11 +340,11 @@ What did the team do on Wednesday?
 
 Meera is Kabir’s —
 - **options**:
-  - A) librarian
-  - B) sister
+  - A) sister
+  - B) librarian
   - C) coach
   - D) vendor
-- **answer**: B
+- **answer**: A
 - **explanation**: The opening calls Meera his sister.
 - **hint**: Check how Meera is introduced.
 
@@ -367,10 +367,10 @@ The new shelf held books by —
 Which word best describes Mrs Rao in this passage?
 - **options**:
   - A) Unhelpful
-  - B) Helpful
-  - C) Angry
+  - B) Angry
+  - C) Helpful
   - D) Absent
-- **answer**: B
+- **answer**: C
 - **explanation**: She showed them a new shelf — a helpful action.
 - **hint**: Infer from what Mrs Rao does.
 
@@ -379,11 +379,11 @@ Which word best describes Mrs Rao in this passage?
 
 Kabir’s article topic is closest to —
 - **options**:
-  - A) coastal protection
-  - B) indoor cricket
-  - C) market prices
-  - D) folk dances
-- **answer**: A
+  - A) indoor cricket
+  - B) market prices
+  - C) folk dances
+  - D) coastal protection
+- **answer**: D
 - **explanation**: Mangroves protecting the coast is about coastal protection.
 - **hint**: Link mangroves to the main idea.
 
@@ -392,11 +392,11 @@ Kabir’s article topic is closest to —
 
 The main purpose of the visit was —
 - **options**:
-  - A) to buy tomatoes
-  - B) to borrow or explore books
+  - A) to borrow or explore books
+  - B) to buy tomatoes
   - C) to plant mangroves
   - D) to mend a bat
-- **answer**: B
+- **answer**: A
 - **explanation**: They visit the library and borrow/find reading material.
 - **hint**: What do people usually do at a library here?
 
@@ -406,10 +406,10 @@ The main purpose of the visit was —
 Which detail is NOT in the passage?
 - **options**:
   - A) They visit every Sunday
-  - B) Meera likes folk tales
-  - C) Kabir bought a cricket bat
+  - B) Kabir bought a cricket bat
+  - C) Meera likes folk tales
   - D) They will return books in ten days
-- **answer**: C
+- **answer**: B
 - **explanation**: No cricket bat is mentioned for Kabir.
 - **hint**: Eliminate details that appear; find the outsider.
 
@@ -418,11 +418,11 @@ Which detail is NOT in the passage?
 
 Amma buys from the same stall —
 - **options**:
-  - A) each week
-  - B) once a year
-  - C) never
+  - A) once a year
+  - B) never
+  - C) each week
   - D) only in the monsoon
-- **answer**: A
+- **answer**: C
 - **explanation**: She buys from the same stall each week.
 - **hint**: Find the frequency.
 
@@ -431,11 +431,11 @@ Amma buys from the same stall —
 
 What did Amma buy besides coriander?
 - **options**:
-  - A) Two kilos of tomatoes
-  - B) Science magazines
-  - C) Seed balls
-  - D) A cricket bat
-- **answer**: A
+  - A) Science magazines
+  - B) Seed balls
+  - C) A cricket bat
+  - D) Two kilos of tomatoes
+- **answer**: D
 - **explanation**: She asked for two kilos of tomatoes and a bunch of coriander.
 - **hint**: List the items in her order.
 
@@ -444,11 +444,11 @@ What did Amma buy besides coriander?
 
 Uncle Raju’s smile suggests he is —
 - **options**:
-  - A) rude
-  - B) friendly
+  - A) friendly
+  - B) rude
   - C) afraid
   - D) silent always
-- **answer**: B
+- **answer**: A
 - **explanation**: Smiling while talking about fresh coriander suggests friendliness.
 - **hint**: Infer from his manner.
 
@@ -471,10 +471,10 @@ The money amount uses which currency symbol in the passage?
 Who walked home with Amma?
 - **options**:
   - A) Uncle Raju
-  - B) Her son
-  - C) Mrs Rao
+  - B) Mrs Rao
+  - C) Her son
   - D) Mr Das
-- **answer**: B
+- **answer**: C
 - **explanation**: She told her son on the walk home.
 - **hint**: Who receives Amma’s comment?
 
@@ -484,10 +484,10 @@ Who walked home with Amma?
 The passage’s closing message praises —
 - **options**:
   - A) rushing
-  - B) honesty in trade
-  - C) ignoring vendors
-  - D) high prices
-- **answer**: B
+  - B) ignoring vendors
+  - C) high prices
+  - D) honesty in trade
+- **answer**: D
 - **explanation**: Honest traders make shopping a pleasure.
 - **hint**: Focus on the final moral.
 
@@ -496,11 +496,11 @@ The passage’s closing message praises —
 
 Who explained that recycling paper saves trees?
 - **options**:
-  - A) Rohan
-  - B) Ananya
+  - A) Ananya
+  - B) Rohan
   - C) Mr Das
   - D) Uncle Raju
-- **answer**: B
+- **answer**: A
 - **explanation**: Ananya explained that point.
 - **hint**: Match speaker to idea.
 
@@ -536,10 +536,10 @@ Mr Das is the students’ —
 How did the group react when Mr Das approved sharing a corner?
 - **options**:
   - A) They cried
-  - B) Everyone clapped
-  - C) They left silently
-  - D) They cancelled recycling
-- **answer**: B
+  - B) They left silently
+  - C) They cancelled recycling
+  - D) Everyone clapped
+- **answer**: D
 - **explanation**: Everyone clapped.
 - **hint**: Find the reaction word.
 
@@ -548,11 +548,11 @@ How did the group react when Mr Das approved sharing a corner?
 
 The annual fair ideas are mainly about —
 - **options**:
-  - A) sports scores
-  - B) caring for the environment
+  - A) caring for the environment
+  - B) sports scores
   - C) buying tomatoes
   - D) library fines
-- **answer**: B
+- **answer**: A
 - **explanation**: Seed balls and composting are environment-care ideas.
 - **hint**: What theme links both stalls?
 
@@ -575,10 +575,10 @@ Which statement is true?
 Priya’s coach changes the venue when —
 - **options**:
   - A) it is sunny
-  - B) evenings are rainy
-  - C) the library opens
+  - B) the library opens
+  - C) evenings are rainy
   - D) tomatoes are cheap
-- **answer**: B
+- **answer**: C
 - **explanation**: On rainy evenings practice moves indoors.
 - **hint**: Link weather to venue.
 
@@ -588,10 +588,10 @@ Priya’s coach changes the venue when —
 Why was Tuesday’s practice cut short?
 - **options**:
   - A) Priya was late
-  - B) Lightning flashed
-  - C) The bat was perfect
-  - D) The hall was closed forever
-- **answer**: B
+  - B) The bat was perfect
+  - C) The hall was closed forever
+  - D) Lightning flashed
+- **answer**: D
 - **explanation**: Lightning led to cutting practice short.
 - **hint**: Find the Tuesday cause.
 
@@ -627,10 +627,10 @@ On Wednesday the team practised —
 The passage suggests Priya is —
 - **options**:
   - A) giving up cricket
-  - B) using setbacks to improve
-  - C) afraid of the sun
+  - B) afraid of the sun
+  - C) using setbacks to improve
   - D) a librarian
-- **answer**: B
+- **answer**: C
 - **explanation**: She mends her grip and values patience — improving through setbacks.
 - **hint**: Infer from her actions and words.
 
@@ -640,10 +640,10 @@ The passage suggests Priya is —
 Which title best fits Passage P4?
 - **options**:
   - A) Market Day Bargains
-  - B) Rain, Practice and Patience
-  - C) Mangroves at War
-  - D) Library Sundays
-- **answer**: B
+  - B) Mangroves at War
+  - C) Library Sundays
+  - D) Rain, Practice and Patience
+- **answer**: D
 - **explanation**: The focus is rainy practice, patience and returning to the ground.
 - **hint**: Choose the title that covers the whole story.
 

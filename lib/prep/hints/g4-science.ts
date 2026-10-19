@@ -74,7 +74,7 @@ export const G4_SCIENCE_HINTS: Record<string, HintOverlay> = {
   "g4-sci-matter-a-q22": ["Use the figure: decide if what you see keeps shape, flows, or fills all space."],
   "g4-sci-matter-a-q23": ["Use the figure: decide if what you see keeps shape, flows, or fills all space."],
   "g4-sci-matter-a-q24": ["Use the figure: decide if what you see keeps shape, flows, or fills all space."],
-  "g4-sci-matter-b-q01": ["Liquids flow and take the shape of their container."],
+  "g4-sci-matter-b-q01": ["Liquids flow. Does the amount of water change, or only its shape?"],
   "g4-sci-matter-b-q02": ["Use the figure: decide if what you see keeps shape, flows, or fills all space."],
   "g4-sci-matter-b-q03": ["What invisible gas is pumped inside a football?"],
   "g4-sci-matter-b-q04": ["Matter appears in three familiar forms — list them."],

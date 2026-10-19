@@ -148,15 +148,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-sci-nutrition-a-q12",
-    prompt: "Animals that eat only plants are\u2026",
+    prompt: "A bear eats berries, roots, honey and fish. Based on its diet, a bear is \u2014",
     options: [
-      { id: "a", text: "Carnivores" },
-      { id: "b", text: "Omnivores" },
-      { id: "c", text: "Parasites" },
-      { id: "d", text: "Herbivores" }
+      { id: "a", text: "a herbivore" },
+      { id: "b", text: "a carnivore" },
+      { id: "c", text: "a parasite" },
+      { id: "d", text: "an omnivore" }
     ],
     answerId: "d",
-    explanation: "Herbivores feed on plants.",
+    explanation: "An animal that eats both plants (berries, roots) and animals (fish) is an omnivore. \u201cCarnivore\u201d is tempting because bears catch fish, but they eat plant food too.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

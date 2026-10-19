@@ -109,7 +109,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-eng-grammar-a-q09",
-    prompt: "Which sentence is punctuated correctly?",
+    prompt: "Kabir asks a question. Which sentence is punctuated correctly?",
     options: [
       { id: "a", text: "\u201cAre you ready?\u201d asked Kabir." },
       { id: "b", text: "\u201cAre you ready\u201d asked Kabir?" },
@@ -372,15 +372,15 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-eng-grammar-b-q05",
-    prompt: "Which sentence is imperative?",
+    prompt: "Which of these is an imperative sentence?",
     options: [
-      { id: "a", text: "Please close the door." },
-      { id: "b", text: "The door is closed." },
-      { id: "c", text: "Is the door closed?" },
-      { id: "d", text: "The door closed itself in a story only." }
+      { id: "a", text: "Switch off the fan before you leave." },
+      { id: "b", text: "The fan is switched off." },
+      { id: "c", text: "Did you switch off the fan?" },
+      { id: "d", text: "What a noisy fan!" }
     ],
     answerId: "a",
-    explanation: "Imperatives give requests or commands.",
+    explanation: "An imperative sentence gives a command or request, usually starting with the verb: \"Switch off the fan...\" \"What a noisy fan!\" is tempting because it is forceful, but it is an exclamation, not an order.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {

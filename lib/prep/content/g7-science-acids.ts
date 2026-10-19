@@ -556,13 +556,13 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-acids-b-q19",
     prompt: "Universal indicator shows\u2026",
     options: [
-      { id: "a", text: "Only one colour forever" },
-      { id: "b", text: "Temperature only" },
+      { id: "a", text: "Only whether a solution is acidic or basic, like litmus" },
+      { id: "b", text: "The same colour for every acid" },
       { id: "c", text: "Different colours across the pH range" },
-      { id: "d", text: "Mass only" }
+      { id: "d", text: "Blue in acids and red in bases" }
     ],
     answerId: "c",
-    explanation: "Universal indicator maps pH to a colour chart.",
+    explanation: "Universal indicator is a mixture of indicators, so it shows a range of colours across the pH scale and tells how strongly acidic or basic a solution is. \u201cOnly acidic or basic, like litmus\u201d is tempting, but that is all litmus can tell; universal indicator also shows strength. Strong and weak acids give different colours, and acids turn it red or orange while bases turn it blue or purple, not the other way round.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

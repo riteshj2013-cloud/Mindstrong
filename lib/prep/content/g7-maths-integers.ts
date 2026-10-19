@@ -5,15 +5,15 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g7-maths-integers-a-q01",
-    prompt: "Which of these is an integer?",
+    prompt: "How many integers lie strictly between \u22123 and 2?",
     options: [
-      { id: "a", text: "\u22127" },
-      { id: "b", text: "3/4" },
-      { id: "c", text: "\u221a2" },
-      { id: "d", text: "0.333\u2026 repeating only as non-integer form" }
+      { id: "a", text: "4" },
+      { id: "b", text: "3" },
+      { id: "c", text: "5" },
+      { id: "d", text: "6" }
     ],
     answerId: "a",
-    explanation: "Integers are \u2026, \u22122, \u22121, 0, 1, 2, \u2026. Fractions that are not whole numbers are not integers.",
+    explanation: "The integers strictly between \u22123 and 2 are \u22122, \u22121, 0 and 1, so there are 4. 5 is tempting if you include one endpoint, and 6 if you include both.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -148,7 +148,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-maths-integers-a-q12",
-    prompt: "Which statement is true?",
+    prompt: "Which statement comparing \u22125 and \u22122 is true?",
     options: [
       { id: "a", text: "\u22125 > \u22122" },
       { id: "b", text: "\u22125 = \u22122" },
@@ -278,15 +278,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-maths-integers-a-q22",
-    prompt: "Which is the smallest?",
+    prompt: "The temperatures in four cities one winter night were \u22124\u00b0C, 2\u00b0C, \u22129\u00b0C and 0\u00b0C. Which was the coldest?",
     options: [
-      { id: "a", text: "\u22121" },
-      { id: "b", text: "\u2212100" },
-      { id: "c", text: "0" },
-      { id: "d", text: "2" }
+      { id: "a", text: "\u22124\u00b0C" },
+      { id: "b", text: "\u22129\u00b0C" },
+      { id: "c", text: "0\u00b0C" },
+      { id: "d", text: "2\u00b0C" }
     ],
     answerId: "b",
-    explanation: "\u2212100 is the most negative, so the smallest.",
+    explanation: "The coldest temperature is the smallest number. \u22129 is further left on the number line than \u22124, so \u22129\u00b0C is coldest. \u22124\u00b0C is tempting if you think 4 is smaller than 9 and ignore the minus sign.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -424,15 +424,15 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-maths-integers-b-q09",
-    prompt: "Which is true for every integer n?",
+    prompt: "For every integer n, which of these is always equal to n?",
     options: [
-      { id: "a", text: "n \u00d7 1 = n" },
-      { id: "b", text: "n \u00f7 0 = 0" },
-      { id: "c", text: "n + 1 = n" },
-      { id: "d", text: "n \u00d7 0 = 1" }
+      { id: "a", text: "n \u00d7 1" },
+      { id: "b", text: "n \u00d7 (\u22121)" },
+      { id: "c", text: "n \u00d7 0" },
+      { id: "d", text: "n + 1" }
     ],
     answerId: "a",
-    explanation: "1 is the multiplicative identity. Division by 0 is undefined.",
+    explanation: "1 is the multiplicative identity, so n \u00d7 1 = n for every integer. n \u00d7 (\u22121) is tempting, but it gives \u2212n (the sign flips), and n \u00d7 0 = 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

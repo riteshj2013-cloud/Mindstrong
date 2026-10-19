@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-combustion-a-q01",
     prompt: "A substance that burns in air to produce heat and light is called a \u2014",
     options: [
-      { id: "a", text: "Non-combustible substance" },
-      { id: "b", text: "Combustible substance" },
+      { id: "a", text: "Combustible substance" },
+      { id: "b", text: "Non-combustible substance" },
       { id: "c", text: "Coolant" },
       { id: "d", text: "Insulator" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Combustible substances catch fire and burn in air, giving heat and light. Non-combustible substances do not burn.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -21,11 +21,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which of these is a non-combustible substance?",
     options: [
       { id: "a", text: "Wood" },
-      { id: "b", text: "Paper" },
-      { id: "c", text: "Kerosene" },
-      { id: "d", text: "Glass" }
+      { id: "b", text: "Glass" },
+      { id: "c", text: "Paper" },
+      { id: "d", text: "Kerosene" }
     ],
-    answerId: "d",
+    answerId: "b",
     explanation: "Glass does not burn in air. Wood, paper, and kerosene are fuels that can burn.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -47,11 +47,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "LPG burns with a blue flame on a stove almost as soon as the burner is lit. This is an example of \u2014",
     options: [
       { id: "a", text: "Spontaneous combustion" },
-      { id: "b", text: "Rapid combustion" },
-      { id: "c", text: "Explosion only" },
-      { id: "d", text: "Smouldering without oxygen" }
+      { id: "b", text: "Explosion only" },
+      { id: "c", text: "Smouldering without oxygen" },
+      { id: "d", text: "Rapid combustion" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Rapid combustion produces heat and light quickly. LPG and CNG show rapid combustion.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -59,12 +59,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-combustion-a-q05",
     prompt: "Oily rags left in a warm cupboard slowly heat up and catch fire without a match. This is \u2014",
     options: [
-      { id: "a", text: "Rapid combustion" },
-      { id: "b", text: "Spontaneous combustion" },
+      { id: "a", text: "Spontaneous combustion" },
+      { id: "b", text: "Rapid combustion" },
       { id: "c", text: "Complete combustion only" },
       { id: "d", text: "An acid\u2013base reaction" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Spontaneous combustion begins on its own when a substance slowly reaches its ignition temperature.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -86,11 +86,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "The three essential conditions for a fire are fuel, heat, and \u2014",
     options: [
       { id: "a", text: "Nitrogen" },
-      { id: "b", text: "Oxygen (air)" },
-      { id: "c", text: "Carbon dioxide" },
+      { id: "b", text: "Carbon dioxide" },
+      { id: "c", text: "Oxygen (air)" },
       { id: "d", text: "Argon" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Fire needs fuel, oxygen from air, and enough heat. Removing any one puts the fire out.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -99,11 +99,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Why should you never pour water on a burning oil pan?",
     options: [
       { id: "a", text: "Water raises the ignition temperature of oil" },
-      { id: "b", text: "Water sinks under oil and the oil can splash and spread the fire" },
-      { id: "c", text: "Water turns oil into LPG" },
-      { id: "d", text: "Water increases the calorific value of oil" }
+      { id: "b", text: "Water turns oil into LPG" },
+      { id: "c", text: "Water increases the calorific value of oil" },
+      { id: "d", text: "Water sinks under oil and the oil can splash and spread the fire" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Oil floats on water. Water can vaporise under the oil and throw burning oil around, spreading the fire.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -111,12 +111,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-combustion-a-q09",
     prompt: "Carbon dioxide fire extinguishers put out fire mainly by \u2014",
     options: [
-      { id: "a", text: "Raising the fuel's ignition temperature" },
-      { id: "b", text: "Cutting off the supply of air (oxygen)" },
+      { id: "a", text: "Cutting off the supply of air (oxygen)" },
+      { id: "b", text: "Raising the fuel's ignition temperature" },
       { id: "c", text: "Adding more fuel" },
       { id: "d", text: "Increasing the flame temperature" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "CO2 is denser than air and forms a blanket that cuts off oxygen from the fuel.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-combustion-a-q11",
     prompt: "The yellow luminous zone of a candle flame gives light mainly because of \u2014",
     options: [
-      { id: "a", text: "Glowing unburnt carbon particles" },
-      { id: "b", text: "Completely burnt water vapour only" },
-      { id: "c", text: "Cold air from the room" },
+      { id: "a", text: "Completely burnt water vapour only" },
+      { id: "b", text: "Cold air from the room" },
+      { id: "c", text: "Glowing unburnt carbon particles" },
       { id: "d", text: "Nitrogen gas" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Incomplete burning in the middle zone produces hot carbon particles that glow and give yellow light.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -151,11 +151,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "The innermost dark zone of a candle flame contains mainly \u2014",
     options: [
       { id: "a", text: "Completely burnt ash" },
-      { id: "b", text: "Unburnt wax vapour" },
-      { id: "c", text: "Liquid water" },
-      { id: "d", text: "Solid wax only" }
+      { id: "b", text: "Liquid water" },
+      { id: "c", text: "Solid wax only" },
+      { id: "d", text: "Unburnt wax vapour" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Wax vapour rises into the innermost zone before it mixes well with air, so little burning happens there.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -163,12 +163,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-combustion-a-q13",
     prompt: "Calorific value of a fuel is the heat produced when \u2014",
     options: [
-      { id: "a", text: "One gram of fuel melts" },
-      { id: "b", text: "One kilogram of fuel burns completely" },
+      { id: "a", text: "One kilogram of fuel burns completely" },
+      { id: "b", text: "One gram of fuel melts" },
       { id: "c", text: "One litre of water freezes" },
       { id: "d", text: "One mole of oxygen is cooled" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Calorific value is heat from complete burning of 1 kg of fuel, usually in kJ/kg.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -177,11 +177,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which unit is commonly used for calorific value?",
     options: [
       { id: "a", text: "newton" },
-      { id: "b", text: "pascal" },
-      { id: "c", text: "kilojoule per kilogram (kJ/kg)" },
+      { id: "b", text: "kilojoule per kilogram (kJ/kg)" },
+      { id: "c", text: "pascal" },
       { id: "d", text: "metre per second" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Calorific value is heat energy per unit mass, so kJ/kg is the usual unit in school science.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-combustion-a-q16",
     prompt: "Burning coal that contains sulphur can produce sulphur dioxide, which may lead to \u2014",
     options: [
-      { id: "a", text: "Acid rain" },
-      { id: "b", text: "An increase in soil nitrogen only" },
-      { id: "c", text: "Colder winters only" },
-      { id: "d", text: "More oxygen in air" }
+      { id: "a", text: "An increase in soil nitrogen only" },
+      { id: "b", text: "Colder winters only" },
+      { id: "c", text: "More oxygen in air" },
+      { id: "d", text: "Acid rain" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Sulphur dioxide dissolves in rainwater and forms acids, contributing to acid rain.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -215,12 +215,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-combustion-a-q17",
     prompt: "Which gas released by burning fossil fuels is most linked to global warming?",
     options: [
-      { id: "a", text: "Oxygen" },
-      { id: "b", text: "Nitrogen" },
-      { id: "c", text: "Carbon dioxide" },
+      { id: "a", text: "Carbon dioxide" },
+      { id: "b", text: "Oxygen" },
+      { id: "c", text: "Nitrogen" },
       { id: "d", text: "Argon" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Extra carbon dioxide traps heat in the atmosphere and contributes to global warming.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -229,11 +229,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "A good domestic fuel should \u2014",
     options: [
       { id: "a", text: "Have a very low calorific value and produce thick smoke" },
-      { id: "b", text: "Be hard to light and leave a lot of ash" },
-      { id: "c", text: "Have a high calorific value and burn with little smoke" },
+      { id: "b", text: "Have a high calorific value and burn with little smoke" },
+      { id: "c", text: "Be hard to light and leave a lot of ash" },
       { id: "d", text: "Be stored as an open powder near a flame" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Useful fuels give plenty of heat, light easily in a controlled way, and produce little harmful smoke.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -241,12 +241,12 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-combustion-a-q19",
     prompt: "White phosphorus catches fire in air at room temperature because \u2014",
     options: [
-      { id: "a", text: "Its ignition temperature is below room temperature" },
-      { id: "b", text: "It is non-combustible" },
-      { id: "c", text: "It needs no oxygen" },
+      { id: "a", text: "It is non-combustible" },
+      { id: "b", text: "It needs no oxygen" },
+      { id: "c", text: "Its ignition temperature is below room temperature" },
       { id: "d", text: "It is colder than ice" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "If the ignition temperature is lower than the surroundings, the substance can catch fire easily.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -255,11 +255,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Forest fires can start when dry leaves catch fire from the heat of the Sun because dry leaves have \u2014",
     options: [
       { id: "a", text: "A very high ignition temperature" },
-      { id: "b", text: "A low ignition temperature" },
-      { id: "c", text: "No carbon" },
-      { id: "d", text: "Only nitrogen" }
+      { id: "b", text: "No carbon" },
+      { id: "c", text: "Only nitrogen" },
+      { id: "d", text: "A low ignition temperature" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Dry leaves ignite at a relatively low temperature, so strong heating can start a fire.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -294,11 +294,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Water puts out a wood fire mainly by \u2014",
     options: [
       { id: "a", text: "Adding more oxygen" },
-      { id: "b", text: "Cooling the fuel below its ignition temperature and limiting air contact" },
-      { id: "c", text: "Turning wood into coal" },
+      { id: "b", text: "Turning wood into coal" },
+      { id: "c", text: "Cooling the fuel below its ignition temperature and limiting air contact" },
       { id: "d", text: "Raising the flame temperature" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Water cools the burning material and the steam formed can also help keep air away.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -308,10 +308,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "Combustion never needs oxygen" },
       { id: "b", text: "Combustion always happens below freezing point" },
-      { id: "c", text: "Combustion is a chemical process that needs a combustible substance and usually oxygen" },
-      { id: "d", text: "Only metals can burn" }
+      { id: "c", text: "Only metals can burn" },
+      { id: "d", text: "Combustion is a chemical process that needs a combustible substance and usually oxygen" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Combustion is the burning of a fuel, usually in oxygen, that releases heat and often light.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
@@ -323,9 +323,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which pair correctly matches a substance with whether it is combustible?",
     options: [
       { id: "a", text: "Kerosene \u2014 combustible; glass \u2014 non-combustible" },
-      { id: "b", text: "Water \u2014 combustible; wood \u2014 non-combustible" },
-      { id: "c", text: "Stone \u2014 combustible; coal \u2014 non-combustible" },
-      { id: "d", text: "Iron nail \u2014 combustible; paper \u2014 non-combustible" }
+      { id: "b", text: "Stone \u2014 combustible; coal \u2014 non-combustible" },
+      { id: "c", text: "Iron nail \u2014 combustible; paper \u2014 non-combustible" },
+      { id: "d", text: "Water \u2014 combustible; wood \u2014 non-combustible" }
     ],
     answerId: "a",
     explanation: "Kerosene burns; glass does not. Stone, iron, and water are not fuels in ordinary air.",
@@ -348,10 +348,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-combustion-b-q03",
     prompt: "Spontaneous combustion differs from rapid combustion because it \u2014",
     options: [
-      { id: "a", text: "Happens only under water" },
-      { id: "b", text: "Always needs a match flame at the start" },
+      { id: "a", text: "Always needs a match flame at the start" },
+      { id: "b", text: "Never produces heat" },
       { id: "c", text: "Can start without an external flame when heat builds up slowly" },
-      { id: "d", text: "Never produces heat" }
+      { id: "d", text: "Happens only under water" }
     ],
     answerId: "c",
     explanation: "In spontaneous combustion, slow heating reaches the ignition temperature without a separate flame.",
@@ -361,9 +361,9 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-combustion-b-q04",
     prompt: "During an explosion, a large volume of gas forms suddenly. This mainly causes \u2014",
     options: [
-      { id: "a", text: "The fuel to freeze" },
-      { id: "b", text: "Air to turn into liquid oxygen" },
-      { id: "c", text: "A quiet cooling effect" },
+      { id: "a", text: "A quiet cooling effect" },
+      { id: "b", text: "The fuel to freeze" },
+      { id: "c", text: "Air to turn into liquid oxygen" },
       { id: "d", text: "A sudden increase in pressure and a loud sound" }
     ],
     answerId: "d",
@@ -375,9 +375,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Cutting off air from a small fire with a wet blanket works because \u2014",
     options: [
       { id: "a", text: "Oxygen needed for burning is blocked" },
-      { id: "b", text: "The fuel's calorific value rises" },
-      { id: "c", text: "Ignition temperature becomes zero" },
-      { id: "d", text: "The blanket increases oxygen" }
+      { id: "b", text: "The blanket increases oxygen" },
+      { id: "c", text: "The fuel's calorific value rises" },
+      { id: "d", text: "Ignition temperature becomes zero" }
     ],
     answerId: "a",
     explanation: "Without oxygen, the fire triangle is broken and burning stops.",
@@ -413,9 +413,9 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-combustion-b-q08",
     prompt: "Goldsmiths often use the outermost zone of a flame when heating gold because \u2014",
     options: [
-      { id: "a", text: "It contains only unburnt wax" },
-      { id: "b", text: "It has no oxygen" },
-      { id: "c", text: "It is the coolest and darkest" },
+      { id: "a", text: "It is the coolest and darkest" },
+      { id: "b", text: "It contains only unburnt wax" },
+      { id: "c", text: "It has no oxygen" },
       { id: "d", text: "It gives the highest temperature for melting and working the metal" }
     ],
     answerId: "d",
@@ -427,9 +427,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which fuel usually has a higher calorific value than wood?",
     options: [
       { id: "a", text: "LPG" },
-      { id: "b", text: "Green twigs" },
-      { id: "c", text: "Wet leaves" },
-      { id: "d", text: "Damp cow dung" }
+      { id: "b", text: "Wet leaves" },
+      { id: "c", text: "Damp cow dung" },
+      { id: "d", text: "Green twigs" }
     ],
     answerId: "a",
     explanation: "LPG releases much more heat per kilogram than wood or wet biomass fuels.",
@@ -452,10 +452,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-combustion-b-q11",
     prompt: "Choosing CNG over petrol for many vehicles helps the environment mainly by \u2014",
     options: [
-      { id: "a", text: "Increasing sulphur in the air" },
-      { id: "b", text: "Producing more thick black smoke" },
+      { id: "a", text: "Producing more thick black smoke" },
+      { id: "b", text: "Removing all oxygen from cities" },
       { id: "c", text: "Reducing harmful exhaust gases compared with petrol or diesel" },
-      { id: "d", text: "Removing all oxygen from cities" }
+      { id: "d", text: "Increasing sulphur in the air" }
     ],
     answerId: "c",
     explanation: "CNG burns more cleanly, so vehicles release fewer pollutants.",
@@ -465,9 +465,9 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-combustion-b-q12",
     prompt: "A substance with a very high ignition temperature is \u2014",
     options: [
-      { id: "a", text: "Always explosive" },
-      { id: "b", text: "Always a liquid" },
-      { id: "c", text: "Easier to set on fire with a small spark" },
+      { id: "a", text: "Easier to set on fire with a small spark" },
+      { id: "b", text: "Always explosive" },
+      { id: "c", text: "Always a liquid" },
       { id: "d", text: "Harder to set on fire under normal conditions" }
     ],
     answerId: "d",
@@ -479,9 +479,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Inflammable substances such as petrol and alcohol \u2014",
     options: [
       { id: "a", text: "Have low ignition temperatures and catch fire easily" },
-      { id: "b", text: "Cannot be fuels" },
-      { id: "c", text: "Burn only in pure nitrogen" },
-      { id: "d", text: "Have high ignition temperatures and never burn" }
+      { id: "b", text: "Have high ignition temperatures and never burn" },
+      { id: "c", text: "Cannot be fuels" },
+      { id: "d", text: "Burn only in pure nitrogen" }
     ],
     answerId: "a",
     explanation: "Inflammable liquids ignite easily because their ignition temperatures are low.",
@@ -504,10 +504,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-combustion-b-q15",
     prompt: "Which product of incomplete combustion is especially dangerous in closed rooms?",
     options: [
-      { id: "a", text: "Pure nitrogen" },
-      { id: "b", text: "Water vapour only" },
+      { id: "a", text: "Water vapour only" },
+      { id: "b", text: "Argon" },
       { id: "c", text: "Carbon monoxide" },
-      { id: "d", text: "Argon" }
+      { id: "d", text: "Pure nitrogen" }
     ],
     answerId: "c",
     explanation: "Carbon monoxide binds strongly in blood and can be fatal in poorly ventilated spaces.",
@@ -517,9 +517,9 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-combustion-b-q16",
     prompt: "The fire triangle collapses if you remove \u2014",
     options: [
-      { id: "a", text: "Only the sound of burning" },
-      { id: "b", text: "Gravity" },
-      { id: "c", text: "Only the colour of the flame" },
+      { id: "a", text: "Only the colour of the flame" },
+      { id: "b", text: "Only the sound of burning" },
+      { id: "c", text: "Gravity" },
       { id: "d", text: "Any one of fuel, oxygen, or heat" }
     ],
     answerId: "d",
@@ -531,9 +531,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Calorific value helps us compare fuels because it tells \u2014",
     options: [
       { id: "a", text: "How much heat one kilogram of fuel can give when burnt completely" },
-      { id: "b", text: "The colour of the flame only" },
-      { id: "c", text: "The melting point of glass" },
-      { id: "d", text: "How heavy the fuel cylinder is" }
+      { id: "b", text: "How heavy the fuel cylinder is" },
+      { id: "c", text: "The colour of the flame only" },
+      { id: "d", text: "The melting point of glass" }
     ],
     answerId: "a",
     explanation: "Fuels with higher calorific value give more heat per kilogram.",
@@ -556,10 +556,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-combustion-b-q19",
     prompt: "A candle flame goes out when covered with a glass because \u2014",
     options: [
-      { id: "a", text: "Glass adds nitrogen fuel" },
-      { id: "b", text: "The wax becomes non-combustible instantly" },
+      { id: "a", text: "The wax becomes non-combustible instantly" },
+      { id: "b", text: "The ignition temperature rises to infinity" },
       { id: "c", text: "Oxygen inside is used up and not replaced" },
-      { id: "d", text: "The ignition temperature rises to infinity" }
+      { id: "d", text: "Glass adds nitrogen fuel" }
     ],
     answerId: "c",
     explanation: "The flame uses the trapped oxygen; when oxygen is gone, combustion stops.",
@@ -569,9 +569,9 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-combustion-b-q20",
     prompt: "Which is the best description of a fuel?",
     options: [
-      { id: "a", text: "Only solid metals" },
-      { id: "b", text: "Only water and sand" },
-      { id: "c", text: "Any substance that never reacts with oxygen" },
+      { id: "a", text: "Any substance that never reacts with oxygen" },
+      { id: "b", text: "Only solid metals" },
+      { id: "c", text: "Only water and sand" },
       { id: "d", text: "A combustible substance that is burnt to obtain heat (and often light)" }
     ],
     answerId: "d",
@@ -583,9 +583,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Unburnt carbon particles from smoky fuels can cause \u2014",
     options: [
       { id: "a", text: "Respiratory problems and blackening of buildings" },
-      { id: "b", text: "More ozone at ground level that always heals lungs" },
-      { id: "c", text: "Only a sweet smell" },
-      { id: "d", text: "Clearer lungs" }
+      { id: "b", text: "Clearer lungs" },
+      { id: "c", text: "More ozone at ground level that always heals lungs" },
+      { id: "d", text: "Only a sweet smell" }
     ],
     answerId: "a",
     explanation: "Soot and smoke irritate the lungs and dirty walls and monuments.",
@@ -608,10 +608,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-combustion-b-q23",
     prompt: "Why is the innermost zone of a flame least hot?",
     options: [
-      { id: "a", text: "It is outside the flame entirely" },
-      { id: "b", text: "It has the most oxygen and complete burning" },
+      { id: "a", text: "It has the most oxygen and complete burning" },
+      { id: "b", text: "It is made of solid diamond" },
       { id: "c", text: "Fuel vapour there has not mixed well with air, so little combustion occurs" },
-      { id: "d", text: "It is made of solid diamond" }
+      { id: "d", text: "It is outside the flame entirely" }
     ],
     answerId: "c",
     explanation: "Without enough oxygen mixed in, burning is minimal and the zone stays cooler.",

@@ -369,15 +369,15 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-frac-b-q04",
-    prompt: "Which of these is NOT a unit fraction?",
+    prompt: "Which of these unit fractions is the largest?",
     options: [
-      { id: "a", text: "1/2" },
-      { id: "b", text: "1/7" },
-      { id: "c", text: "1/100" },
-      { id: "d", text: "3/10" }
+      { id: "a", text: "1/12" },
+      { id: "b", text: "1/9" },
+      { id: "c", text: "1/20" },
+      { id: "d", text: "1/4" }
     ],
     answerId: "d",
-    explanation: "A unit fraction must have 1 as its numerator, but 3/10 has 3.",
+    explanation: "For unit fractions, the smaller the denominator, the bigger each piece, so 1/4 is the largest. 1/20 is tempting because 20 is the biggest number, but it means the whole is cut into the most, and smallest, pieces.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

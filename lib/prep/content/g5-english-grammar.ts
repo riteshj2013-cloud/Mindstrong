@@ -437,15 +437,15 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-b-q10",
-    prompt: "Which of these is a common noun?",
+    prompt: "\"My cousin lives near the river yamuna.\" Which word should begin with a capital letter?",
     options: [
-      { id: "a", text: "city" },
-      { id: "b", text: "Delhi" },
-      { id: "c", text: "Ganga" },
-      { id: "d", text: "Monday" }
+      { id: "a", text: "yamuna" },
+      { id: "b", text: "cousin" },
+      { id: "c", text: "river" },
+      { id: "d", text: "near" }
     ],
     answerId: "a",
-    explanation: "A common noun is a general name and has no capital letter. \"City\" could be any city; \"Delhi\" names one particular city.",
+    explanation: "Yamuna is the name of one particular river, so it is a proper noun and needs a capital: Yamuna. \"river\" is tempting, but it is a common noun, a general name for any river.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
@@ -606,7 +606,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-b-q23",
-    prompt: "Which sentence is correct?",
+    prompt: "Which sentence about the children is correct?",
     options: [
       { id: "a", text: "The childrens are singing." },
       { id: "b", text: "The children are singing." },

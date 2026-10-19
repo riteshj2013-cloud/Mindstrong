@@ -35,11 +35,11 @@
 ### Q02
 - **stem**: Proteins are mainly needed for —
 - **options**:
-  - A) body building and repair
-  - B) only night vision
-  - C) making food sweet
+  - A) only night vision
+  - B) making food sweet
+  - C) body building and repair
   - D) colouring clothes
-- **answer**: A
+- **answer**: C
 - **explanation**: Proteins help build and repair body tissues.
 - **hint**: Body-building nutrient.
 
@@ -47,21 +47,21 @@
 - **stem**: Which food is rich in dietary fibre (roughage)?
 - **options**:
   - A) Clear oil
-  - B) Whole grains and vegetables
-  - C) Sugar only
-  - D) Salt
-- **answer**: B
+  - B) Sugar only
+  - C) Salt
+  - D) Whole grains and vegetables
+- **answer**: D
 - **explanation**: Whole grains, fruits and vegetables provide roughage.
 - **hint**: Fibre foods.
 
 ### Q04
 - **stem**: Vitamin C deficiency can cause —
 - **options**:
-  - A) scurvy
-  - B) goitre
-  - C) night blindness
+  - A) goitre
+  - B) night blindness
+  - C) scurvy
   - D) anaemia from iron only
-- **answer**: A
+- **answer**: C
 - **explanation**: Lack of vitamin C leads to scurvy.
 - **hint**: Link vitamin C to its deficiency disease.
 
@@ -69,10 +69,10 @@
 - **stem**: Iodine deficiency is linked to —
 - **options**:
   - A) scurvy
-  - B) goitre
-  - C) rickets
-  - D) beri-beri
-- **answer**: B
+  - B) rickets
+  - C) beri-beri
+  - D) goitre
+- **answer**: D
 - **explanation**: Lack of iodine can cause goitre (swollen thyroid).
 - **hint**: Iodine → thyroid.
 
@@ -102,10 +102,10 @@
 - **stem**: A balanced diet means —
 - **options**:
   - A) only sweets
-  - B) enough of all nutrient groups in right amounts
-  - C) only protein
+  - B) only protein
+  - C) enough of all nutrient groups in right amounts
   - D) skipping breakfast always
-- **answer**: B
+- **answer**: C
 - **explanation**: A balanced diet includes carbohydrates, proteins, fats, vitamins, minerals, fibre and water in suitable amounts.
 - **hint**: All groups, right amounts.
 
@@ -124,10 +124,10 @@
 - **stem**: Fats give more energy per gram than carbohydrates, but too much fat can —
 - **options**:
   - A) always cure scurvy
-  - B) lead to obesity and heart strain
-  - C) replace water needs
-  - D) remove all fibre
-- **answer**: B
+  - B) replace water needs
+  - C) remove all fibre
+  - D) lead to obesity and heart strain
+- **answer**: D
 - **explanation**: Excess fat is linked to obesity and other health problems.
 - **hint**: Risk of excess fat.
 
@@ -146,10 +146,10 @@
 - **stem**: Which meal is closest to balanced?
 - **options**:
   - A) Only chips
-  - B) Roti, dal, sabzi and curd
-  - C) Only sweets
+  - B) Only sweets
+  - C) Roti, dal, sabzi and curd
   - D) Only aerated drinks
-- **answer**: B
+- **answer**: C
 - **explanation**: Roti (energy), dal (protein), sabzi (vitamins/fibre) and curd (protein/minerals) cover key groups.
 - **hint**: Look for mixed nutrient groups.
 
@@ -157,10 +157,10 @@
 - **stem**: Water in the diet is essential because it —
 - **options**:
   - A) has no role
-  - B) helps transport nutrients and remove wastes
-  - C) replaces all proteins
-  - D) is a carbohydrate
-- **answer**: B
+  - B) replaces all proteins
+  - C) is a carbohydrate
+  - D) helps transport nutrients and remove wastes
+- **answer**: D
 - **explanation**: Water transports substances and helps remove wastes.
 - **hint**: Jobs of water.
 
@@ -200,11 +200,11 @@
 ### Q17
 - **stem**: Obesity can result from —
 - **options**:
-  - A) eating far more energy than you use
-  - B) drinking only water
-  - C) eating only greens forever
+  - A) drinking only water
+  - B) eating only greens forever
+  - C) eating far more energy than you use
   - D) iodine deficiency alone
-- **answer**: A
+- **answer**: C
 - **explanation**: Taking in much more energy than the body uses leads to fat storage and obesity.
 - **hint**: Energy in vs energy out.
 
@@ -223,21 +223,21 @@
 - **stem**: Milk is a good source of —
 - **options**:
   - A) only fibre
-  - B) protein and calcium
-  - C) iodine only
-  - D) roughage only
-- **answer**: B
+  - B) iodine only
+  - C) roughage only
+  - D) protein and calcium
+- **answer**: D
 - **explanation**: Milk provides proteins and calcium for bones and teeth.
 - **hint**: Nutrients in milk.
 
 ### Q20
 - **stem**: Roughage helps mainly in —
 - **options**:
-  - A) night vision
-  - B) smooth bowel movement
+  - A) smooth bowel movement
+  - B) night vision
   - C) making haemoglobin
   - D) iodine uptake only
-- **answer**: B
+- **answer**: A
 - **explanation**: Dietary fibre aids digestion and bowel movement.
 - **hint**: Job of fibre.
 
@@ -266,11 +266,11 @@
 ### Q23
 - **stem**: A person with anaemia may need more —
 - **options**:
-  - A) iron-rich foods
-  - B) only sugar
-  - C) only oil
+  - A) only sugar
+  - B) only oil
+  - C) iron-rich foods
   - D) iodised salt only for taste
-- **answer**: A
+- **answer**: C
 - **explanation**: Anaemia often relates to iron deficiency; iron-rich foods help.
 - **hint**: Anaemia and iron.
 
@@ -278,10 +278,10 @@
 - **stem**: Why is iodised salt recommended?
 - **options**:
   - A) It colours food blue
-  - B) It helps prevent iodine deficiency disorders
-  - C) It replaces all vitamins
-  - D) It is pure carbohydrate
-- **answer**: B
+  - B) It replaces all vitamins
+  - C) It is pure carbohydrate
+  - D) It helps prevent iodine deficiency disorders
+- **answer**: D
 - **explanation**: Iodised salt supplies iodine to prevent goitre and related problems.
 - **hint**: Why add iodine to salt?
 
@@ -290,44 +290,44 @@
 ### Q01
 - **stem**: Carbohydrates are stored in plants mainly as —
 - **options**:
-  - A) starch
-  - B) iron filings
+  - A) iron filings
+  - B) starch
   - C) plastic
   - D) iodine crystals
-- **answer**: A
+- **answer**: B
 - **explanation**: Plants store carbohydrates largely as starch.
 - **hint**: Plant storage form.
 
 ### Q02
 - **stem**: Which food is a rich protein source for many vegetarians?
 - **options**:
-  - A) Pulses (dal)
-  - B) Sugar
-  - C) Clear oil
+  - A) Sugar
+  - B) Clear oil
+  - C) Pulses (dal)
   - D) Salt
-- **answer**: A
+- **answer**: C
 - **explanation**: Pulses are important protein foods in vegetarian diets.
 - **hint**: Veg protein.
 
 ### Q03
 - **stem**: Vitamin D helps the body use —
 - **options**:
-  - A) calcium for bones
-  - B) iodine only
-  - C) fibre only
-  - D) plastic
-- **answer**: A
+  - A) iodine only
+  - B) fibre only
+  - C) plastic
+  - D) calcium for bones
+- **answer**: D
 - **explanation**: Vitamin D aids calcium use for strong bones.
 - **hint**: D and bones.
 
 ### Q04
 - **stem**: Which is NOT a nutrient?
 - **options**:
-  - A) Protein
-  - B) Vitamin
-  - C) Roughage (fibre)
-  - D) Plate
-- **answer**: D
+  - A) Plate
+  - B) Protein
+  - C) Vitamin
+  - D) Roughage (fibre)
+- **answer**: A
 - **explanation**: A plate is not a nutrient; fibre is considered an important dietary component.
 - **hint**: Which item is not food chemistry?
 
@@ -345,22 +345,22 @@
 ### Q06
 - **stem**: Scurvy symptoms can include —
 - **options**:
-  - A) bleeding gums
-  - B) goitre only
-  - C) blue skin from iodine
+  - A) goitre only
+  - B) blue skin from iodine
+  - C) bleeding gums
   - D) stronger night vision
-- **answer**: A
+- **answer**: C
 - **explanation**: Scurvy (vitamin C lack) can cause bleeding gums.
 - **hint**: Scurvy signs.
 
 ### Q07
 - **stem**: A diet with only rice for weeks may lack —
 - **options**:
-  - A) enough variety of nutrients
-  - B) all carbohydrates forever
-  - C) water in rice
-  - D) any energy
-- **answer**: A
+  - A) all carbohydrates forever
+  - B) water in rice
+  - C) any energy
+  - D) enough variety of nutrients
+- **answer**: D
 - **explanation**: Single-food diets miss proteins, vitamins and minerals.
 - **hint**: Why variety matters.
 
@@ -389,22 +389,22 @@
 ### Q10
 - **stem**: Calcium is especially important for —
 - **options**:
-  - A) bones and teeth
-  - B) making cloth
-  - C) magnetism
+  - A) making cloth
+  - B) magnetism
+  - C) bones and teeth
   - D) evaporation
-- **answer**: A
+- **answer**: C
 - **explanation**: Calcium strengthens bones and teeth.
 - **hint**: Calcium’s job.
 
 ### Q11
 - **stem**: Energy-giving foods include —
 - **options**:
-  - A) rice and potato
-  - B) only vitamin tablets
-  - C) only water
-  - D) only salt
-- **answer**: A
+  - A) only vitamin tablets
+  - B) only water
+  - C) only salt
+  - D) rice and potato
+- **answer**: D
 - **explanation**: Rice and potato are carbohydrate-rich energy foods.
 - **hint**: Energy examples.
 
@@ -433,35 +433,35 @@
 ### Q14
 - **stem**: Eggs are a good source of —
 - **options**:
-  - A) protein
-  - B) only fibre
+  - A) only fibre
+  - B) protein
   - C) only iodine salt
   - D) cotton
-- **answer**: A
+- **answer**: B
 - **explanation**: Eggs provide high-quality protein.
 - **hint**: Egg nutrient.
 
 ### Q15
 - **stem**: A child who rarely plays outdoors may risk low —
 - **options**:
-  - A) vitamin D
-  - B) cotton fibre
-  - C) plastic
+  - A) cotton fibre
+  - B) plastic
+  - C) vitamin D
   - D) magnetism
-- **answer**: A
+- **answer**: C
 - **explanation**: Less sunlight can mean less vitamin D production.
 - **hint**: Outdoor light and vitamins.
 
 ### Q16
-- **stem**: Which statement is true?
+- **stem**: Which statement about fats in our diet is true?
 - **options**:
   - A) Fats are never needed
-  - B) Some fat is needed but not in excess
-  - C) Only sugar is a balanced diet
-  - D) Water is optional forever
-- **answer**: B
+  - B) Only sugar is a balanced diet
+  - C) Water is optional forever
+  - D) Some fat is needed but not in excess
+- **answer**: D
 - **explanation**: The body needs some fat for energy and vitamins, but excess is harmful.
-- **hint**: Balance about fats.
+- **hint**: Fats give energy and help the body use some vitamins. Is the problem fat itself, or too much of it?
 
 ### Q17
 - **stem**: Goitre affects the —
@@ -477,33 +477,33 @@
 ### Q18
 - **stem**: Which food pair gives both energy and body-building nutrients?
 - **options**:
-  - A) Rice and dal
-  - B) Only sugar and salt
+  - A) Only sugar and salt
+  - B) Rice and dal
   - C) Only oil and sugar
   - D) Only aerated drink and chips
-- **answer**: A
+- **answer**: B
 - **explanation**: Rice (carb) + dal (protein) cover energy and building.
 - **hint**: Pair energy + protein.
 
 ### Q19
 - **stem**: Oral rehydration after diarrhoea mainly replaces —
 - **options**:
-  - A) lost water and salts
-  - B) cotton
-  - C) vitamin A only
+  - A) cotton
+  - B) vitamin A only
+  - C) lost water and salts
   - D) plastic
-- **answer**: A
+- **answer**: C
 - **explanation**: ORS replaces fluids and electrolytes.
 - **hint**: What ORS restores.
 
 ### Q20
 - **stem**: Which is a deficiency disease?
 - **options**:
-  - A) Scurvy
-  - B) Filtration
-  - C) Weaving
-  - D) Sieving
-- **answer**: A
+  - A) Filtration
+  - B) Weaving
+  - C) Sieving
+  - D) Scurvy
+- **answer**: D
 - **explanation**: Scurvy is caused by nutrient deficiency.
 - **hint**: Disease from missing nutrient.
 
@@ -521,11 +521,11 @@
 ### Q22
 - **stem**: Too little protein in the diet may lead to —
 - **options**:
-  - A) poor growth and repair
-  - B) stronger muscles always
+  - A) stronger muscles always
+  - B) poor growth and repair
   - C) extra vitamin C only
   - D) automatic goitre cure
-- **answer**: A
+- **answer**: B
 - **explanation**: Proteins are needed for growth and tissue repair.
 - **hint**: Low protein effect.
 
@@ -533,10 +533,10 @@
 - **stem**: Which practice keeps food safer?
 - **options**:
   - A) Leaving cooked food uncovered for days
-  - B) Covering and refrigerating leftovers promptly
-  - C) Using dirty utensils
+  - B) Using dirty utensils
+  - C) Covering and refrigerating leftovers promptly
   - D) Never washing hands
-- **answer**: B
+- **answer**: C
 - **explanation**: Covering and chilling leftovers reduces spoilage and germ growth.
 - **hint**: Food safety habit.
 
@@ -544,10 +544,10 @@
 - **stem**: A balanced thali for a schoolchild should usually include —
 - **options**:
   - A) only dessert
-  - B) cereal, protein food, vegetables/fruit and some fat in moderation
-  - C) only fried snacks
-  - D) only vitamins pills
-- **answer**: B
+  - B) only fried snacks
+  - C) only vitamins pills
+  - D) cereal, protein food, vegetables/fruit and some fat in moderation
+- **answer**: D
 - **explanation**: A mixed thali covers major nutrient groups.
 - **hint**: Picture a complete plate.
 

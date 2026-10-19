@@ -27,12 +27,12 @@
 ### Q01
 - **stem**: Distance is…
 - **options**:
-  - A) a vector
-  - B) a scalar (path length)
-  - C) always equal to displacement
-  - D) measured only in kg
-- **answer**: B
-- **explanation**: Distance is scalar path length; displacement is vector.
+  - A) a scalar (path length)
+  - B) always equal to displacement
+  - C) the shortest straight-line gap between start and finish
+  - D) a vector
+- **answer**: A
+- **explanation**: Distance is the total length of the path travelled, so it is a scalar. The shortest straight-line gap between start and finish is the size of the displacement, not the distance; the two are equal only when the body moves in a straight line without turning back. Displacement, not distance, is the vector.
 - **skill**: basics
 - **difficulty**: easy
 
@@ -51,11 +51,11 @@
 ### Q03
 - **stem**: Speed equals…
 - **options**:
-  - A) distance / time
-  - B) displacement / time only as a name for speed
-  - C) force / mass
+  - A) displacement / time only as a name for speed
+  - B) force / mass
+  - C) distance / time
   - D) mass × acceleration
-- **answer**: A
+- **answer**: C
 - **explanation**: Average speed = total distance / total time.
 - **skill**: speed
 - **difficulty**: easy
@@ -63,11 +63,11 @@
 ### Q04
 - **stem**: Velocity is…
 - **options**:
-  - A) speed with direction (a vector)
-  - B) only a scalar like distance
-  - C) the same as acceleration
-  - D) measured in kilograms
-- **answer**: A
+  - A) only a scalar like distance
+  - B) the same as acceleration
+  - C) measured in kilograms
+  - D) speed with direction (a vector)
+- **answer**: D
 - **explanation**: Velocity is a vector: speed with direction.
 - **skill**: velocity
 - **difficulty**: easy
@@ -75,11 +75,11 @@
 ### Q05
 - **stem**: SI unit of acceleration is…
 - **options**:
-  - A) m/s
-  - B) m/s²
+  - A) m/s²
+  - B) m/s
   - C) m²/s
   - D) N
-- **answer**: B
+- **answer**: A
 - **explanation**: Acceleration is rate of change of velocity → m/s².
 - **skill**: units
 - **difficulty**: easy
@@ -100,10 +100,10 @@
 - **stem**: If a car goes 100 m east then 100 m west, displacement is…
 - **options**:
   - A) 200 m east
-  - B) 0
-  - C) 100 m west
+  - B) 100 m west
+  - C) 0
   - D) 100 m east
-- **answer**: B
+- **answer**: C
 - **explanation**: Net change in position is zero.
 - **skill**: basics
 - **difficulty**: easy
@@ -112,10 +112,10 @@
 - **stem**: Average velocity equals…
 - **options**:
   - A) total distance / time
-  - B) displacement / total time
-  - C) speed × time
-  - D) acceleration × time only always
-- **answer**: B
+  - B) speed × time
+  - C) acceleration × time only always
+  - D) displacement / total time
+- **answer**: D
 - **explanation**: Average velocity uses displacement over time.
 - **skill**: velocity
 - **difficulty**: medium
@@ -123,11 +123,11 @@
 ### Q09
 - **stem**: The slope of a distance–time graph gives…
 - **options**:
-  - A) acceleration
-  - B) speed
+  - A) speed
+  - B) acceleration
   - C) force
   - D) mass
-- **answer**: B
+- **answer**: A
 - **explanation**: Slope of s–t (distance–time) indicates speed.
 - **skill**: graphs
 - **difficulty**: medium
@@ -148,10 +148,10 @@
 - **stem**: Area under a velocity–time graph gives…
 - **options**:
   - A) acceleration
-  - B) displacement (for the interval)
-  - C) force
+  - B) force
+  - C) displacement (for the interval)
   - D) power
-- **answer**: B
+- **answer**: C
 - **explanation**: ∫v dt corresponds to displacement.
 - **skill**: graphs
 - **difficulty**: medium
@@ -161,9 +161,9 @@
 - **options**:
   - A) speed
   - B) distance
-  - C) displacement
-  - D) time
-- **answer**: C
+  - C) time
+  - D) displacement
+- **answer**: D
 - **explanation**: Displacement has magnitude and direction.
 - **skill**: basics
 - **difficulty**: easy
@@ -171,11 +171,11 @@
 ### Q13
 - **stem**: Uniform circular motion has…
 - **options**:
-  - A) constant velocity
-  - B) constant speed but changing velocity (direction)
+  - A) constant speed but changing velocity (direction)
+  - B) constant velocity
   - C) zero speed
   - D) no acceleration
-- **answer**: B
+- **answer**: A
 - **explanation**: Direction changes continuously ⇒ velocity changes ⇒ centripetal acceleration.
 - **skill**: accel
 - **difficulty**: medium
@@ -183,11 +183,11 @@
 ### Q14
 - **stem**: Equation for velocity under constant acceleration: v = …
 - **options**:
-  - A) u + at
-  - B) u − a/t
+  - A) u − a/t
+  - B) u + at
   - C) ut + a
   - D) a/u + t
-- **answer**: A
+- **answer**: B
 - **explanation**: First equation of motion: v = u + at.
 - **skill**: equations
 - **difficulty**: easy
@@ -196,10 +196,10 @@
 - **stem**: s = ut + ½at² assumes…
 - **options**:
   - A) variable acceleration randomly
-  - B) constant acceleration (and straight-line motion as used in class)
-  - C) zero mass
+  - B) zero mass
+  - C) constant acceleration (and straight-line motion as used in class)
   - D) circular path only
-- **answer**: B
+- **answer**: C
 - **explanation**: Standard equations assume constant acceleration.
 - **skill**: equations
 - **difficulty**: medium
@@ -208,10 +208,10 @@
 - **stem**: A body starts from rest. Its initial velocity u is…
 - **options**:
   - A) maximum
-  - B) 0
-  - C) equal to g always
-  - D) infinite
-- **answer**: B
+  - B) equal to g always
+  - C) infinite
+  - D) 0
+- **answer**: D
 - **explanation**: From rest means u = 0.
 - **skill**: equations
 - **difficulty**: easy
@@ -219,11 +219,11 @@
 ### Q17
 - **stem**: If acceleration is negative (deceleration), speed generally…
 - **options**:
-  - A) increases
-  - B) decreases (when velocity and accel oppose)
+  - A) decreases (when velocity and accel oppose)
+  - B) increases
   - C) stays meaningless
   - D) becomes mass
-- **answer**: B
+- **answer**: A
 - **explanation**: Deceleration reduces speed when opposing velocity.
 - **skill**: accel
 - **difficulty**: medium
@@ -243,11 +243,11 @@
 ### Q19
 - **stem**: Which graph is a straight line through origin for uniform speed?
 - **options**:
-  - A) distance–time
-  - B) velocity–time always curved
-  - C) acceleration–time always rising
+  - A) velocity–time always curved
+  - B) acceleration–time always rising
+  - C) distance–time
   - D) force–time only
-- **answer**: A
+- **answer**: C
 - **explanation**: Constant speed ⇒ linear distance–time through proportional rise.
 - **skill**: graphs
 - **difficulty**: medium
@@ -256,10 +256,10 @@
 - **stem**: Displacement’s SI unit is…
 - **options**:
   - A) second
-  - B) metre
-  - C) m/s
-  - D) kg
-- **answer**: B
+  - B) m/s
+  - C) kg
+  - D) metre
+- **answer**: D
 - **explanation**: Displacement is a length → metre.
 - **skill**: units
 - **difficulty**: easy
@@ -267,11 +267,11 @@
 ### Q21
 - **stem**: A particle moves 3 m east and 4 m north. Net displacement magnitude is…
 - **options**:
-  - A) 7 m
-  - B) 5 m
+  - A) 5 m
+  - B) 7 m
   - C) 1 m
   - D) 12 m
-- **answer**: B
+- **answer**: A
 - **explanation**: Perpendicular paths: √(3²+4²)=5 m.
 - **skill**: basics
 - **difficulty**: medium
@@ -292,10 +292,10 @@
 - **stem**: If v–t graph is a horizontal line, acceleration is…
 - **options**:
   - A) positive constant
-  - B) zero
-  - C) increasing
+  - B) increasing
+  - C) zero
   - D) undefined always
-- **answer**: B
+- **answer**: C
 - **explanation**: Horizontal v means constant velocity → a = 0.
 - **skill**: graphs
 - **difficulty**: easy
@@ -304,10 +304,10 @@
 - **stem**: Free fall near Earth (ignoring air) has acceleration approximately…
 - **options**:
   - A) 0
-  - B) 9.8 m/s² downward
-  - C) 9.8 m/s upward always
-  - D) 98 m/s²
-- **answer**: B
+  - B) 9.8 m/s upward always
+  - C) 98 m/s²
+  - D) 9.8 m/s² downward
+- **answer**: D
 - **explanation**: g ≈ 9.8 m/s² downward.
 - **skill**: accel
 - **difficulty**: easy
@@ -317,11 +317,11 @@
 ### Q01
 - **stem**: Which quantity can be negative in one-dimensional motion?
 - **options**:
-  - A) distance
-  - B) speed
-  - C) displacement
+  - A) displacement
+  - B) distance
+  - C) speed
   - D) time interval
-- **answer**: C
+- **answer**: A
 - **explanation**: Displacement can be negative depending on chosen positive direction.
 - **skill**: basics
 - **difficulty**: medium
@@ -329,11 +329,11 @@
 ### Q02
 - **stem**: A bus travels 60 km in 2 hours. Average speed is…
 - **options**:
-  - A) 30 km/h
-  - B) 120 km/h
+  - A) 120 km/h
+  - B) 30 km/h
   - C) 60 km/h
   - D) 15 km/h
-- **answer**: A
+- **answer**: B
 - **explanation**: 60/2 = 30 km/h.
 - **skill**: speed
 - **difficulty**: easy
@@ -341,11 +341,11 @@
 ### Q03
 - **stem**: If displacement is 40 m and time is 8 s, average velocity magnitude is…
 - **options**:
-  - A) 5 m/s
-  - B) 32 m/s
-  - C) 48 m/s
+  - A) 32 m/s
+  - B) 48 m/s
+  - C) 5 m/s
   - D) 0.2 m/s
-- **answer**: A
+- **answer**: C
 - **explanation**: 40/8 = 5 m/s.
 - **skill**: velocity
 - **difficulty**: easy
@@ -354,10 +354,10 @@
 - **stem**: Acceleration is zero when…
 - **options**:
   - A) velocity changes
-  - B) velocity is constant
-  - C) force is infinite
-  - D) distance is maximum
-- **answer**: B
+  - B) force is infinite
+  - C) distance is maximum
+  - D) velocity is constant
+- **answer**: D
 - **explanation**: Constant velocity (including rest) means zero acceleration.
 - **skill**: accel
 - **difficulty**: easy
@@ -390,10 +390,10 @@
 - **stem**: If a v–t graph is a straight line sloping upward, acceleration is…
 - **options**:
   - A) zero
-  - B) constant and positive
-  - C) infinite
+  - B) infinite
+  - C) constant and positive
   - D) negative always
-- **answer**: B
+- **answer**: C
 - **explanation**: Constant positive slope → constant positive a.
 - **skill**: graphs
 - **difficulty**: medium
@@ -401,11 +401,11 @@
 ### Q08
 - **stem**: Scalar quantities have…
 - **options**:
-  - A) magnitude only
-  - B) magnitude and direction
-  - C) only direction
-  - D) neither
-- **answer**: A
+  - A) magnitude and direction
+  - B) only direction
+  - C) neither
+  - D) magnitude only
+- **answer**: D
 - **explanation**: Scalars: magnitude only.
 - **skill**: basics
 - **difficulty**: easy
@@ -426,10 +426,10 @@
 - **stem**: Distance is never…
 - **options**:
   - A) positive
-  - B) zero
-  - C) negative
+  - B) negative
+  - C) zero
   - D) greater than displacement magnitude in a detour
-- **answer**: C
+- **answer**: B
 - **explanation**: Distance cannot be negative.
 - **skill**: basics
 - **difficulty**: easy
@@ -437,11 +437,11 @@
 ### Q11
 - **stem**: For a freely falling object from rest, after time t, speed is about…
 - **options**:
-  - A) gt
-  - B) g/t
-  - C) g + t
+  - A) g/t
+  - B) g + t
+  - C) gt
   - D) t/g
-- **answer**: A
+- **answer**: C
 - **explanation**: v = u + gt with u = 0 → v = gt.
 - **skill**: equations
 - **difficulty**: medium
@@ -449,11 +449,11 @@
 ### Q12
 - **stem**: Uniform motion means…
 - **options**:
-  - A) equal distances in equal intervals of time (constant speed on a straight path as taught)
-  - B) ever-changing speed
-  - C) rest only
-  - D) circular with changing speed
-- **answer**: A
+  - A) ever-changing speed
+  - B) rest only
+  - C) circular with changing speed
+  - D) equal distances in equal intervals of time (constant speed on a straight path as taught)
+- **answer**: D
 - **explanation**: Equal distances in equal times characterises uniform motion.
 - **skill**: speed
 - **difficulty**: easy
@@ -461,11 +461,11 @@
 ### Q13
 - **stem**: Non-uniform motion means…
 - **options**:
-  - A) constant speed always
-  - B) changing speed (unequal distances in equal times)
+  - A) changing speed (unequal distances in equal times)
+  - B) constant speed always
   - C) zero displacement always
   - D) motion without path
-- **answer**: B
+- **answer**: A
 - **explanation**: Speed changes in non-uniform motion.
 - **skill**: speed
 - **difficulty**: easy
@@ -473,11 +473,11 @@
 ### Q14
 - **stem**: If u = 0, a = 2 m/s², t = 3 s, then s =…
 - **options**:
-  - A) 9 m
-  - B) 6 m
+  - A) 6 m
+  - B) 9 m
   - C) 18 m
   - D) 3 m
-- **answer**: A
+- **answer**: B
 - **explanation**: s = 0·t + ½·2·9 = 9 m.
 - **skill**: equations
 - **difficulty**: medium
@@ -486,10 +486,10 @@
 - **stem**: A body moving east with speed 5 m/s has velocity…
 - **options**:
   - A) 5 m/s
-  - B) 5 m/s east
-  - C) 5 m east
+  - B) 5 m east
+  - C) 5 m/s east
   - D) 25 m/s²
-- **answer**: B
+- **answer**: C
 - **explanation**: Velocity needs the direction stated.
 - **skill**: velocity
 - **difficulty**: easy
@@ -498,10 +498,10 @@
 - **stem**: Retardation means…
 - **options**:
   - A) positive acceleration in direction of velocity
-  - B) acceleration opposite to velocity (deceleration)
-  - C) zero velocity only
-  - D) constant speed forever
-- **answer**: B
+  - B) zero velocity only
+  - C) constant speed forever
+  - D) acceleration opposite to velocity (deceleration)
+- **answer**: D
 - **explanation**: Retardation/deceleration opposes velocity.
 - **skill**: accel
 - **difficulty**: medium
@@ -509,11 +509,11 @@
 ### Q17
 - **stem**: The odometer of a car measures…
 - **options**:
-  - A) instantaneous velocity vector
-  - B) distance travelled
+  - A) distance travelled
+  - B) instantaneous velocity vector
   - C) acceleration
   - D) displacement only
-- **answer**: B
+- **answer**: A
 - **explanation**: Odometer records path distance.
 - **skill**: basics
 - **difficulty**: easy
@@ -534,10 +534,10 @@
 - **stem**: If distance–time graph is a curve bending upward, speed is…
 - **options**:
   - A) constant
-  - B) increasing
-  - C) zero
+  - B) zero
+  - C) increasing
   - D) negative
-- **answer**: B
+- **answer**: C
 - **explanation**: Increasing slope means increasing speed.
 - **skill**: graphs
 - **difficulty**: hard
@@ -546,10 +546,10 @@
 - **stem**: Displacement magnitude is always ____ distance.
 - **options**:
   - A) greater than
-  - B) less than or equal to
-  - C) unrelated to
-  - D) exactly twice
-- **answer**: B
+  - B) unrelated to
+  - C) exactly twice
+  - D) less than or equal to
+- **answer**: D
 - **explanation**: Shortest path ≤ actual path length.
 - **skill**: basics
 - **difficulty**: medium
@@ -557,11 +557,11 @@
 ### Q21
 - **stem**: For constant speed on a straight line, acceleration is…
 - **options**:
-  - A) g
-  - B) 0
+  - A) 0
+  - B) g
   - C) v/t always non-zero
   - D) infinite
-- **answer**: B
+- **answer**: A
 - **explanation**: No velocity change → a = 0.
 - **skill**: accel
 - **difficulty**: easy
@@ -570,10 +570,10 @@
 - **stem**: Which equation does not require time explicitly?
 - **options**:
   - A) v = u + at
-  - B) s = ut + ½at²
-  - C) v² = u² + 2as
+  - B) v² = u² + 2as
+  - C) s = ut + ½at²
   - D) all require t
-- **answer**: C
+- **answer**: B
 - **explanation**: v² = u² + 2as has no t.
 - **skill**: equations
 - **difficulty**: medium
@@ -582,10 +582,10 @@
 - **stem**: A ball thrown upward returns to the hand. Net displacement is…
 - **options**:
   - A) maximum height
-  - B) zero
-  - C) twice the height
+  - B) twice the height
+  - C) zero
   - D) equal to distance
-- **answer**: B
+- **answer**: C
 - **explanation**: Back to start → displacement zero; distance is twice height.
 - **skill**: basics
 - **difficulty**: medium
@@ -593,11 +593,11 @@
 ### Q24
 - **stem**: SI unit of speed is…
 - **options**:
-  - A) m/s
-  - B) m/s²
-  - C) N
-  - D) kg/m
-- **answer**: A
+  - A) m/s²
+  - B) N
+  - C) kg/m
+  - D) m/s
+- **answer**: D
 - **explanation**: Speed = distance/time → m/s.
 - **skill**: units
 - **difficulty**: easy

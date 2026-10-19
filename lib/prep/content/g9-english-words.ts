@@ -8,9 +8,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Choose the synonym of “brief”.",
     options: [
       { id: "a", text: "concise" },
-      { id: "b", text: "noisy" },
-      { id: "c", text: "ancient" },
-      { id: "d", text: "lengthy" }
+      { id: "b", text: "lengthy" },
+      { id: "c", text: "noisy" },
+      { id: "d", text: "ancient" }
     ],
     answerId: "a",
     explanation: "Brief means short/concise.",
@@ -18,25 +18,25 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch03-a-q02",
-    prompt: "Antonym of “scarce” is…",
+    prompt: "Antonym of “frequent” is…",
     options: [
-      { id: "a", text: "rare" },
-      { id: "b", text: "abundant" },
-      { id: "c", text: "tiny" },
-      { id: "d", text: "hidden" }
+      { id: "a", text: "regular" },
+      { id: "b", text: "rare" },
+      { id: "c", text: "common" },
+      { id: "d", text: "often" }
     ],
     answerId: "b",
-    explanation: "Scarce ↔ abundant/plentiful.",
+    explanation: "Frequent means happening often, so its opposite is rare. “Regular” and “common” are tempting, but they are close to frequent in meaning, not opposite.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
     id: "g9-eng-ch03-a-q03",
     prompt: "Choose the correct word: The ____ of the school spoke to parents.",
     options: [
-      { id: "a", text: "principle’s" },
-      { id: "b", text: "principle" },
+      { id: "a", text: "principle" },
+      { id: "b", text: "premier" },
       { id: "c", text: "principal" },
-      { id: "d", text: "premier" }
+      { id: "d", text: "principle’s" }
     ],
     answerId: "c",
     explanation: "Principal = head of school; principle = rule/belief.",
@@ -46,9 +46,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q04",
     prompt: "Idiom: “break the ice” means…",
     options: [
-      { id: "a", text: "cancel a match" },
-      { id: "b", text: "freeze water" },
-      { id: "c", text: "shatter glass" },
+      { id: "a", text: "shatter glass" },
+      { id: "b", text: "cancel a match" },
+      { id: "c", text: "freeze water" },
       { id: "d", text: "start conversation in a friendly way" }
     ],
     answerId: "d",
@@ -85,10 +85,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q07",
     prompt: "Synonym of “diligent”…",
     options: [
-      { id: "a", text: "noisy" },
-      { id: "b", text: "lazy" },
+      { id: "a", text: "lazy" },
+      { id: "b", text: "rude" },
       { id: "c", text: "hardworking" },
-      { id: "d", text: "rude" }
+      { id: "d", text: "noisy" }
     ],
     answerId: "c",
     explanation: "Diligent means careful and hardworking.",
@@ -98,9 +98,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q08",
     prompt: "Antonym of “optimistic”…",
     options: [
-      { id: "a", text: "eager" },
-      { id: "b", text: "hopeful" },
-      { id: "c", text: "cheerful" },
+      { id: "a", text: "hopeful" },
+      { id: "b", text: "cheerful" },
+      { id: "c", text: "eager" },
       { id: "d", text: "pessimistic" }
     ],
     answerId: "d",
@@ -112,9 +112,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Phrasal verb: “call off” means…",
     options: [
       { id: "a", text: "cancel" },
-      { id: "b", text: "shout loudly" },
-      { id: "c", text: "visit briefly" },
-      { id: "d", text: "phone someone" }
+      { id: "b", text: "phone someone" },
+      { id: "c", text: "shout loudly" },
+      { id: "d", text: "visit briefly" }
     ],
     answerId: "a",
     explanation: "Call off = cancel.",
@@ -137,10 +137,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q11",
     prompt: "Word meaning “capable of being heard”…",
     options: [
-      { id: "a", text: "legible" },
-      { id: "b", text: "edible" },
+      { id: "a", text: "edible" },
+      { id: "b", text: "visible" },
       { id: "c", text: "audible" },
-      { id: "d", text: "visible" }
+      { id: "d", text: "legible" }
     ],
     answerId: "c",
     explanation: "Audible = can be heard.",
@@ -150,9 +150,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q12",
     prompt: "Choose correctly: stationery vs stationary — “The bus was ____ in traffic.”",
     options: [
-      { id: "a", text: "stationerly" },
-      { id: "b", text: "stationory" },
-      { id: "c", text: "stationery" },
+      { id: "a", text: "stationery" },
+      { id: "b", text: "stationerly" },
+      { id: "c", text: "stationory" },
       { id: "d", text: "stationary" }
     ],
     answerId: "d",
@@ -161,50 +161,50 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch03-a-q13",
-    prompt: "Idiom: “once in a blue moon” means…",
+    prompt: "Idiom: “a blessing in disguise” means…",
     options: [
-      { id: "a", text: "very rarely" },
-      { id: "b", text: "at night only" },
-      { id: "c", text: "during exams" },
-      { id: "d", text: "very often" }
+      { id: "a", text: "something good that first seemed bad" },
+      { id: "b", text: "a gift wrapped in paper" },
+      { id: "c", text: "a person in a costume" },
+      { id: "d", text: "a lucky charm" }
     ],
     answerId: "a",
-    explanation: "It means very rarely.",
+    explanation: "A blessing in disguise is something that seems unfortunate at first but turns out to be good. “A gift wrapped in paper” is tempting because it is hidden, but the idiom is about a situation, not an object.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
     id: "g9-eng-ch03-a-q14",
-    prompt: "Synonym of “fragile”…",
+    prompt: "Synonym of “obstinate”…",
     options: [
-      { id: "a", text: "sturdy" },
-      { id: "b", text: "delicate" },
-      { id: "c", text: "heavy" },
-      { id: "d", text: "loud" }
+      { id: "a", text: "flexible" },
+      { id: "b", text: "stubborn" },
+      { id: "c", text: "obedient" },
+      { id: "d", text: "timid" }
     ],
     answerId: "b",
-    explanation: "Fragile = easily broken; delicate.",
+    explanation: "Obstinate means refusing to change one's mind, which is stubborn. “Flexible” and “obedient” are tempting distractors but mean nearly the opposite.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
     id: "g9-eng-ch03-a-q15",
-    prompt: "Antonym of “expand”…",
+    prompt: "Antonym of “conceal”…",
     options: [
-      { id: "a", text: "spread" },
-      { id: "b", text: "enlarge" },
-      { id: "c", text: "contract" },
-      { id: "d", text: "grow" }
+      { id: "a", text: "hide" },
+      { id: "b", text: "cover" },
+      { id: "c", text: "reveal" },
+      { id: "d", text: "bury" }
     ],
     answerId: "c",
-    explanation: "Expand ↔ contract/shrink.",
+    explanation: "To conceal is to hide something, so its opposite is to reveal it. “Cover” and “bury” are tempting because they are common actions, but they also mean hiding something, so they are near-synonyms, not opposites.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
     id: "g9-eng-ch03-a-q16",
     prompt: "Choose the best word: A ____ speech bored the audience.",
     options: [
-      { id: "a", text: "vivid" },
-      { id: "b", text: "witty" },
-      { id: "c", text: "concise" },
+      { id: "a", text: "concise" },
+      { id: "b", text: "vivid" },
+      { id: "c", text: "witty" },
       { id: "d", text: "tedious" }
     ],
     answerId: "d",
@@ -216,9 +216,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "One-word: Government by the people…",
     options: [
       { id: "a", text: "democracy" },
-      { id: "b", text: "autocracy" },
-      { id: "c", text: "bureaucracy" },
-      { id: "d", text: "monarchy" }
+      { id: "b", text: "monarchy" },
+      { id: "c", text: "autocracy" },
+      { id: "d", text: "bureaucracy" }
     ],
     answerId: "a",
     explanation: "Democracy = rule by the people.",
@@ -241,10 +241,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q19",
     prompt: "Choose for a formal email opening to an unknown reader:",
     options: [
-      { id: "a", text: "What’s up," },
-      { id: "b", text: "Hey!" },
+      { id: "a", text: "Hey!" },
+      { id: "b", text: "Yo," },
       { id: "c", text: "Dear Sir or Madam," },
-      { id: "d", text: "Yo," }
+      { id: "d", text: "What’s up," }
     ],
     answerId: "c",
     explanation: "Unknown recipient → Dear Sir or Madam.",
@@ -254,9 +254,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q20",
     prompt: "Confusable: “accept” vs “except” — “All ____ Rohan were present.”",
     options: [
-      { id: "a", text: "expect" },
-      { id: "b", text: "access" },
-      { id: "c", text: "accept" },
+      { id: "a", text: "accept" },
+      { id: "b", text: "expect" },
+      { id: "c", text: "access" },
       { id: "d", text: "except" }
     ],
     answerId: "d",
@@ -268,9 +268,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Synonym of “courageous”…",
     options: [
       { id: "a", text: "brave" },
-      { id: "b", text: "silent" },
-      { id: "c", text: "clever" },
-      { id: "d", text: "timid" }
+      { id: "b", text: "timid" },
+      { id: "c", text: "silent" },
+      { id: "d", text: "clever" }
     ],
     answerId: "a",
     explanation: "Courageous ≈ brave.",
@@ -278,25 +278,25 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch03-a-q22",
-    prompt: "Idiom: “spill the beans” means…",
+    prompt: "Idiom: “bite the bullet” means…",
     options: [
-      { id: "a", text: "cook dinner" },
-      { id: "b", text: "reveal a secret" },
-      { id: "c", text: "plant seeds" },
-      { id: "d", text: "cry loudly" }
+      { id: "a", text: "give up a task" },
+      { id: "b", text: "face something difficult bravely" },
+      { id: "c", text: "eat very quickly" },
+      { id: "d", text: "hurt one's teeth" }
     ],
     answerId: "b",
-    explanation: "Spill the beans = tell a secret.",
+    explanation: "To bite the bullet is to make yourself do something unpleasant or difficult with courage. “Give up a task” is tempting because the situation is hard, but the idiom means the opposite: you go ahead with it.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
     id: "g9-eng-ch03-a-q23",
     prompt: "Choose precise word: The ____ of the mountain was covered with snow.",
     options: [
-      { id: "a", text: "peel" },
-      { id: "b", text: "peek" },
+      { id: "a", text: "peek" },
+      { id: "b", text: "pique" },
       { id: "c", text: "peak" },
-      { id: "d", text: "pique" }
+      { id: "d", text: "peel" }
     ],
     answerId: "c",
     explanation: "Peak = top of a mountain.",
@@ -306,9 +306,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-eng-ch03-a-q24",
     prompt: "One-word: A person who travels to work daily…",
     options: [
-      { id: "a", text: "pilgrim" },
-      { id: "b", text: "nomad" },
-      { id: "c", text: "tourist" },
+      { id: "a", text: "tourist" },
+      { id: "b", text: "pilgrim" },
+      { id: "c", text: "nomad" },
       { id: "d", text: "commuter" }
     ],
     answerId: "d",
@@ -323,9 +323,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Antonym of “ancient”…",
     options: [
       { id: "a", text: "modern" },
-      { id: "b", text: "historic" },
-      { id: "c", text: "aged" },
-      { id: "d", text: "old" }
+      { id: "b", text: "old" },
+      { id: "c", text: "historic" },
+      { id: "d", text: "aged" }
     ],
     answerId: "a",
     explanation: "Ancient ↔ modern/new.",
@@ -333,37 +333,37 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch03-b-q02",
-    prompt: "Synonym of “precise”…",
+    prompt: "Synonym of “meticulous”…",
     options: [
-      { id: "a", text: "vague" },
-      { id: "b", text: "exact" },
-      { id: "c", text: "rough" },
-      { id: "d", text: "random" }
+      { id: "a", text: "careless" },
+      { id: "b", text: "painstaking" },
+      { id: "c", text: "hasty" },
+      { id: "d", text: "casual" }
     ],
     answerId: "b",
-    explanation: "Precise = exact/accurate.",
+    explanation: "Meticulous means very careful about every detail, which is what painstaking means. “Hasty” is tempting for a busy worker, but it means too quick and careless.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
     id: "g9-eng-ch03-b-q03",
-    prompt: "Idiom: “hit the nail on the head” means…",
+    prompt: "Idiom: “the tip of the iceberg” means…",
     options: [
-      { id: "a", text: "sleep early" },
-      { id: "b", text: "do carpentry" },
-      { id: "c", text: "describe something exactly right" },
-      { id: "d", text: "fail a test" }
+      { id: "a", text: "the coldest part of the sea" },
+      { id: "b", text: "the highest point of a mountain" },
+      { id: "c", text: "a small visible part of a much bigger problem" },
+      { id: "d", text: "the end of a matter" }
     ],
     answerId: "c",
-    explanation: "It means be exactly correct.",
+    explanation: "Most of an iceberg is hidden under water, so “the tip of the iceberg” is a small visible sign of a much larger problem. “The end of a matter” is tempting because a tip is an end, but the idiom suggests much more is still to come.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
     id: "g9-eng-ch03-b-q04",
     prompt: "Confusable: “complement” vs “compliment” — “Her scarf was a perfect ____ to the dress.”",
     options: [
-      { id: "a", text: "compliance" },
-      { id: "b", text: "complex" },
-      { id: "c", text: "compliment" },
+      { id: "a", text: "compliment" },
+      { id: "b", text: "compliance" },
+      { id: "c", text: "complex" },
       { id: "d", text: "complement" }
     ],
     answerId: "d",
@@ -375,9 +375,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Phrasal: “put off” means…",
     options: [
       { id: "a", text: "postpone" },
-      { id: "b", text: "extinguish" },
-      { id: "c", text: "publish" },
-      { id: "d", text: "wear clothes" }
+      { id: "b", text: "wear clothes" },
+      { id: "c", text: "extinguish" },
+      { id: "d", text: "publish" }
     ],
     answerId: "a",
     explanation: "Put off = postpone/delay.",
@@ -387,10 +387,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q06",
     prompt: "One-word: Incapable of being read…",
     options: [
-      { id: "a", text: "eligible" },
+      { id: "a", text: "illegal" },
       { id: "b", text: "illegible" },
-      { id: "c", text: "illegal" },
-      { id: "d", text: "illogical" }
+      { id: "c", text: "illogical" },
+      { id: "d", text: "eligible" }
     ],
     answerId: "b",
     explanation: "Illegible = unreadable handwriting/text.",
@@ -400,10 +400,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q07",
     prompt: "Choose formal closing when the reader’s name is unknown:",
     options: [
-      { id: "a", text: "Love" },
-      { id: "b", text: "Yours sincerely" },
+      { id: "a", text: "Yours sincerely" },
+      { id: "b", text: "See ya" },
       { id: "c", text: "Yours faithfully" },
-      { id: "d", text: "See ya" }
+      { id: "d", text: "Love" }
     ],
     answerId: "c",
     explanation: "Unknown name → Yours faithfully (with Dear Sir/Madam).",
@@ -413,9 +413,9 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q08",
     prompt: "Synonym of “reluctant”…",
     options: [
-      { id: "a", text: "joyful" },
-      { id: "b", text: "swift" },
-      { id: "c", text: "eager" },
+      { id: "a", text: "eager" },
+      { id: "b", text: "joyful" },
+      { id: "c", text: "swift" },
       { id: "d", text: "unwilling" }
     ],
     answerId: "d",
@@ -424,15 +424,15 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch03-b-q09",
-    prompt: "Antonym of “generous”…",
+    prompt: "Antonym of “humble”…",
     options: [
-      { id: "a", text: "stingy" },
-      { id: "b", text: "helpful" },
-      { id: "c", text: "noble" },
-      { id: "d", text: "kind" }
+      { id: "a", text: "arrogant" },
+      { id: "b", text: "modest" },
+      { id: "c", text: "meek" },
+      { id: "d", text: "simple" }
     ],
     answerId: "a",
-    explanation: "Generous ↔ stingy/miserly.",
+    explanation: "Humble means not proud, so its opposite is arrogant. “Modest” and “meek” are tempting, but they are close in meaning to humble.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
@@ -450,15 +450,15 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch03-b-q11",
-    prompt: "Idiom: “cost an arm and a leg” means…",
+    prompt: "Idiom: “under the weather” means…",
     options: [
-      { id: "a", text: "be free" },
-      { id: "b", text: "be light" },
-      { id: "c", text: "be very expensive" },
-      { id: "d", text: "require surgery" }
+      { id: "a", text: "outdoors in the rain" },
+      { id: "b", text: "very happy" },
+      { id: "c", text: "feeling unwell" },
+      { id: "d", text: "worried about the forecast" }
     ],
     answerId: "c",
-    explanation: "It means very costly.",
+    explanation: "If you are under the weather, you feel slightly ill. “Outdoors in the rain” is tempting as the literal reading, but idioms are not literal.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
@@ -479,9 +479,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Phrasal: “give up” means…",
     options: [
       { id: "a", text: "quit / stop trying" },
-      { id: "b", text: "raise a hand" },
-      { id: "c", text: "start again" },
-      { id: "d", text: "donate upward" }
+      { id: "b", text: "donate upward" },
+      { id: "c", text: "raise a hand" },
+      { id: "d", text: "start again" }
     ],
     answerId: "a",
     explanation: "Give up = quit.",
@@ -504,10 +504,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q15",
     prompt: "Choose the most precise word: The witness gave a ____ account of the event.",
     options: [
-      { id: "a", text: "lazy" },
-      { id: "b", text: "blurry" },
+      { id: "a", text: "blurry" },
+      { id: "b", text: "mute" },
       { id: "c", text: "vivid" },
-      { id: "d", text: "mute" }
+      { id: "d", text: "lazy" }
     ],
     answerId: "c",
     explanation: "Vivid = clear and detailed.",
@@ -517,9 +517,9 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q16",
     prompt: "Antonym of “scarce” already practised; antonym of “victory”…",
     options: [
-      { id: "a", text: "medal" },
-      { id: "b", text: "cheer" },
-      { id: "c", text: "triumph" },
+      { id: "a", text: "triumph" },
+      { id: "b", text: "medal" },
+      { id: "c", text: "cheer" },
       { id: "d", text: "defeat" }
     ],
     answerId: "d",
@@ -531,9 +531,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "One-word: A fictitious name used by a writer…",
     options: [
       { id: "a", text: "pseudonym" },
-      { id: "b", text: "manuscript" },
-      { id: "c", text: "biography" },
-      { id: "d", text: "autograph" }
+      { id: "b", text: "biography" },
+      { id: "c", text: "autograph" },
+      { id: "d", text: "manuscript" }
     ],
     answerId: "a",
     explanation: "Pseudonym = pen name / fictitious name.",
@@ -554,15 +554,15 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch03-b-q19",
-    prompt: "Synonym of “abandon”…",
+    prompt: "Synonym of “diminish”…",
     options: [
-      { id: "a", text: "polish" },
-      { id: "b", text: "keep" },
-      { id: "c", text: "leave" },
-      { id: "d", text: "build" }
+      { id: "a", text: "increase" },
+      { id: "b", text: "brighten" },
+      { id: "c", text: "lessen" },
+      { id: "d", text: "repeat" }
     ],
     answerId: "c",
-    explanation: "Abandon means leave behind / give up.",
+    explanation: "To diminish is to become or make smaller, which is to lessen. “Increase” is its opposite.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
@@ -583,9 +583,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Choose: Their ideas ____ each other well.",
     options: [
       { id: "a", text: "complement" },
-      { id: "b", text: "comply" },
-      { id: "c", text: "complicate" },
-      { id: "d", text: "compliment" }
+      { id: "b", text: "compliment" },
+      { id: "c", text: "comply" },
+      { id: "d", text: "complicate" }
     ],
     answerId: "a",
     explanation: "Complement means go well together.",
@@ -608,10 +608,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q23",
     prompt: "One-word: Happening every year…",
     options: [
-      { id: "a", text: "casual" },
-      { id: "b", text: "neutral" },
+      { id: "a", text: "manual" },
+      { id: "b", text: "casual" },
       { id: "c", text: "annual" },
-      { id: "d", text: "manual" }
+      { id: "d", text: "neutral" }
     ],
     answerId: "c",
     explanation: "Annual = yearly.",
@@ -621,9 +621,9 @@ const SET_B: PrepQuestion[] = [
     id: "g9-eng-ch03-b-q24",
     prompt: "Best subject line for a school email requesting leave:",
     options: [
-      { id: "a", text: "!!!!!!" },
-      { id: "b", text: "see attached meme" },
-      { id: "c", text: "sup" },
+      { id: "a", text: "sup" },
+      { id: "b", text: "!!!!!!" },
+      { id: "c", text: "see attached meme" },
       { id: "d", text: "Request for leave — [dates] — [name]" }
     ],
     answerId: "d",

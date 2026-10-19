@@ -32,12 +32,12 @@
 **Stem:** Leaves make food using…
 
 **Options:**
-- A) sunlight
-- B) moonlight only
+- A) moonlight only
+- B) sunlight
 - C) noise
 - D) plastic
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Leaves use sunlight to make food.
 
@@ -47,11 +47,11 @@
 
 **Options:**
 - A) above the soil
-- B) under the soil
-- C) in the sky
+- B) in the sky
+- C) under the soil
 - D) in shoes
 
-**Answer:** B
+**Answer:** C
 
 **Explanation:** Roots grow under the soil.
 
@@ -60,12 +60,12 @@
 **Stem:** Which plant part becomes a fruit?
 
 **Options:**
-- A) flower
-- B) root hair only
-- C) thorn only
-- D) dead leaf
+- A) root hair only
+- B) thorn only
+- C) dead leaf
+- D) flower
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** A flower can become a fruit.
 
@@ -88,12 +88,12 @@
 **Stem:** The stem carries ___ up to the leaves.
 
 **Options:**
-- A) water
-- B) stones
+- A) stones
+- B) water
 - C) toys
 - D) books
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** The stem carries water up.
 
@@ -102,12 +102,12 @@
 **Stem:** Plants take in carbon dioxide and give out…
 
 **Options:**
-- A) oxygen
-- B) plastic
-- C) sand
+- A) plastic
+- B) sand
+- C) oxygen
 - D) smoke only
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Plants give out oxygen.
 
@@ -116,12 +116,12 @@
 **Stem:** A climber plant needs…
 
 **Options:**
-- A) support
-- B) wheels
-- C) batteries
-- D) screens
+- A) wheels
+- B) batteries
+- C) screens
+- D) support
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Climbers need support to grow up.
 
@@ -144,12 +144,12 @@
 **Stem:** Dry seeds stored in a jar…
 
 **Options:**
-- A) may stay dormant
-- B) always sprout at once
+- A) always sprout at once
+- B) may stay dormant
 - C) turn into fish
 - D) become metal
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Dry seeds can stay dormant until watered.
 
@@ -158,12 +158,12 @@
 **Stem:** Chlorophyll makes leaves look…
 
 **Options:**
-- A) green
-- B) blue metal
-- C) pink always
+- A) blue metal
+- B) pink always
+- C) green
 - D) glass
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Chlorophyll is green.
 
@@ -172,12 +172,12 @@
 **Stem:** Which helps scatter seeds?
 
 **Options:**
-- A) wind and animals
-- B) only silence
-- C) only plastic bags
-- D) only darkness
+- A) only silence
+- B) only plastic bags
+- C) only darkness
+- D) wind and animals
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Wind and animals can scatter seeds.
 
@@ -200,12 +200,12 @@
 **Stem:** Plants in water (like lotus) are…
 
 **Options:**
-- A) aquatic plants
-- B) desert only
+- A) desert only
+- B) aquatic plants
 - C) space plants
 - D) metal plants
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Lotus is an aquatic plant.
 
@@ -214,12 +214,12 @@
 **Stem:** We should not ___ plants without care.
 
 **Options:**
-- A) pluck or harm
-- B) water
-- C) give sunlight
+- A) water
+- B) give sunlight
+- C) pluck or harm
 - D) protect
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Do not harm plants carelessly.
 
@@ -228,12 +228,12 @@
 **Stem:** Photosynthesis mainly happens in the…
 
 **Options:**
-- A) leaf
-- B) rock
-- C) plastic pot only
-- D) wire
+- A) rock
+- B) plastic pot only
+- C) wire
+- D) leaf
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Photosynthesis happens in the leaf.
 
@@ -259,12 +259,12 @@
 **Stem:** Flowers attract insects with…
 
 **Options:**
-- A) colour and smell
-- B) noise machines
+- A) noise machines
+- B) colour and smell
 - C) plastic toys
 - D) metal
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Colour and smell attract insects.
 
@@ -273,12 +273,12 @@
 **Stem:** Which part holds the plant upright?
 
 **Options:**
-- A) stem
-- B) petal only
-- C) seed coat only
+- A) petal only
+- B) seed coat only
+- C) stem
 - D) nectar
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** The stem holds the plant up.
 
@@ -287,12 +287,12 @@
 **Stem:** Mango seed is found…
 
 **Options:**
-- A) inside the fruit
-- B) in the leaf tip only
-- C) in the air only
-- D) in a stone always
+- A) in the leaf tip only
+- B) in the air only
+- C) in a stone always
+- D) inside the fruit
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** The seed is inside the mango fruit.
 
@@ -315,12 +315,12 @@
 **Stem:** Plants need air, water and…
 
 **Options:**
-- A) sunlight
-- B) TV
+- A) TV
+- B) sunlight
 - C) phones
 - D) petrol
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Sunlight is needed with air and water.
 
@@ -329,12 +329,12 @@
 **Stem:** A cactus stores water in its…
 
 **Options:**
-- A) stem
-- B) flower only
-- C) roots only always
+- A) flower only
+- B) roots only always
+- C) stem
 - D) seeds only
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Cactus stems store water.
 
@@ -343,12 +343,12 @@
 **Stem:** Which is NOT a plant need?
 
 **Options:**
-- A) video games
-- B) water
-- C) light
-- D) air
+- A) water
+- B) light
+- C) air
+- D) video games
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Video games are not a plant need.
 
@@ -371,12 +371,12 @@
 **Stem:** Germination means a seed…
 
 **Options:**
-- A) starts to grow
-- B) turns to metal
+- A) turns to metal
+- B) starts to grow
 - C) flies to space
 - D) becomes a fish
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Germination is when a seed starts to grow.
 
@@ -385,12 +385,12 @@
 **Stem:** The green food made by leaves travels through the…
 
 **Options:**
-- A) stem
-- B) only the soil forever
-- C) only the sky
+- A) only the soil forever
+- B) only the sky
+- C) stem
 - D) only wires
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Food moves through the stem.
 
@@ -399,12 +399,12 @@
 **Stem:** Which plant grows in water?
 
 **Options:**
-- A) lotus
-- B) cactus
-- C) desert thorn only
-- D) pine on dry rock only
+- A) cactus
+- B) desert thorn only
+- C) pine on dry rock only
+- D) lotus
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Lotus grows in water.
 
@@ -427,12 +427,12 @@
 **Stem:** Fallen leaves can become…
 
 **Options:**
-- A) compost over time
-- B) glass
+- A) glass
+- B) compost over time
 - C) metal
 - D) plastic
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Leaves can break down into compost.
 
@@ -441,12 +441,12 @@
 **Stem:** A tendril helps a plant to…
 
 **Options:**
-- A) climb
-- B) swim
-- C) bark
+- A) swim
+- B) bark
+- C) climb
 - D) fly planes
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Tendrils help plants climb.
 
@@ -455,12 +455,12 @@
 **Stem:** Without sunlight for long, a green plant may…
 
 **Options:**
-- A) become weak
-- B) turn into a car
-- C) start singing
-- D) become a fish
+- A) turn into a car
+- B) start singing
+- C) become a fish
+- D) become weak
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** No light → plant becomes weak.
 

@@ -511,7 +511,7 @@ D) Bulbs work only in vacuum liquids
 **Explanation:** LEDs are sensitive indicators for small currents in testers.
 
 ### Q22
-**Stem:** Which pair is correctly matched?
+**Stem:** During electrolysis, which electrode is correctly matched with its charge?
 **Options:**
 A) Cathode — positive electrode
 B) Anode — negative electrode

@@ -18,41 +18,41 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-maths-angles-a-q02",
-    prompt: "A right angle measures\u2026",
+    prompt: "Two angles together make a right angle. One of them is 35\u00b0. The other is\u2026",
     options: [
-      { id: "a", text: "45\u00b0" },
-      { id: "b", text: "90\u00b0" },
-      { id: "c", text: "180\u00b0" },
-      { id: "d", text: "360\u00b0" }
+      { id: "a", text: "35\u00b0" },
+      { id: "b", text: "55\u00b0" },
+      { id: "c", text: "65\u00b0" },
+      { id: "d", text: "145\u00b0" }
     ],
     answerId: "b",
-    explanation: "A square corner is 90\u00b0.",
+    explanation: "A right angle is 90\u00b0, so the other angle is 90\u00b0 \u2212 35\u00b0 = 55\u00b0. 145\u00b0 is tempting, but that uses 180\u00b0 (a straight angle) instead of 90\u00b0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
     id: "g7-maths-angles-a-q03",
-    prompt: "An angle of 120\u00b0 is\u2026",
+    prompt: "An angle of 250\u00b0 is \u2014",
     options: [
-      { id: "a", text: "Acute" },
-      { id: "b", text: "Right" },
-      { id: "c", text: "Obtuse" },
-      { id: "d", text: "Reflex" }
+      { id: "a", text: "acute" },
+      { id: "b", text: "obtuse" },
+      { id: "c", text: "reflex" },
+      { id: "d", text: "straight" }
     ],
     answerId: "c",
-    explanation: "Between 90\u00b0 and 180\u00b0 is obtuse.",
+    explanation: "An angle greater than 180\u00b0 and less than 360\u00b0 is reflex. Obtuse is tempting because 250\u00b0 is big, but obtuse angles lie between 90\u00b0 and 180\u00b0 only.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
     id: "g7-maths-angles-a-q04",
-    prompt: "A straight angle measures\u2026",
+    prompt: "Angles x and 3x form a linear pair. What is x?",
     options: [
-      { id: "a", text: "90\u00b0" },
-      { id: "b", text: "270\u00b0" },
-      { id: "c", text: "360\u00b0" },
-      { id: "d", text: "180\u00b0" }
+      { id: "a", text: "30\u00b0" },
+      { id: "b", text: "60\u00b0" },
+      { id: "c", text: "90\u00b0" },
+      { id: "d", text: "45\u00b0" }
     ],
     answerId: "d",
-    explanation: "A straight line forms a 180\u00b0 angle.",
+    explanation: "A linear pair adds up to 180\u00b0, so x + 3x = 4x = 180\u00b0 and x = 45\u00b0. 30\u00b0 is tempting if you use 120\u00b0 or forget that the two angles together make a straight angle.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -109,15 +109,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-maths-angles-a-q09",
-    prompt: "Vertically opposite angles are\u2026",
+    prompt: "Two straight lines cross. One of the angles formed is 65\u00b0. What is the angle vertically opposite to it?",
     options: [
-      { id: "a", text: "Equal" },
-      { id: "b", text: "Complementary" },
-      { id: "c", text: "Always acute" },
-      { id: "d", text: "Always 90\u00b0" }
+      { id: "a", text: "65\u00b0" },
+      { id: "b", text: "25\u00b0" },
+      { id: "c", text: "115\u00b0" },
+      { id: "d", text: "295\u00b0" }
     ],
     answerId: "a",
-    explanation: "When two lines cross, opposite angles are equal.",
+    explanation: "Vertically opposite angles are equal, so it is 65\u00b0. 115\u00b0 is tempting, but that is the angle next to it on the straight line (180\u00b0 \u2212 65\u00b0), not the opposite one.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

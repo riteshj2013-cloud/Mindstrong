@@ -40,10 +40,10 @@
 - **stem**: In the ordered pair (3, −2), the abscissa is…
 - **options**:
   - A) −2
-  - B) 3
-  - C) 0
+  - B) 0
+  - C) 3
   - D) 5
-- **answer**: B
+- **answer**: C
 - **explanation**: Abscissa means the x-coordinate, which is 3.
 - **skill**: basics
 - **difficulty**: easy
@@ -52,10 +52,10 @@
 - **stem**: The point (−4, 5) lies in which quadrant?
 - **options**:
   - A) I
-  - B) II
-  - C) III
-  - D) IV
-- **answer**: B
+  - B) III
+  - C) IV
+  - D) II
+- **answer**: D
 - **explanation**: x negative, y positive → quadrant II.
 - **skill**: quadrants
 - **difficulty**: easy
@@ -63,11 +63,11 @@
 ### Q04
 - **stem**: A point on the x-axis has…
 - **options**:
-  - A) x = 0
-  - B) y = 0
+  - A) y = 0
+  - B) x = 0
   - C) x = y
   - D) x = −y
-- **answer**: B
+- **answer**: A
 - **explanation**: On the x-axis the y-coordinate is 0.
 - **skill**: axes
 - **difficulty**: easy
@@ -100,10 +100,10 @@
 - **stem**: The ordinate of (−7, 0) is…
 - **options**:
   - A) −7
-  - B) 0
-  - C) 7
-  - D) undefined
-- **answer**: B
+  - B) 7
+  - C) undefined
+  - D) 0
+- **answer**: D
 - **explanation**: Ordinate is the y-coordinate: 0.
 - **skill**: basics
 - **difficulty**: easy
@@ -111,11 +111,11 @@
 ### Q08
 - **stem**: Points (2, 0), (−3, 0) and (5, 0) are…
 - **options**:
-  - A) on the y-axis
-  - B) on the x-axis
+  - A) on the x-axis
+  - B) on the y-axis
   - C) in quadrant I
   - D) at the origin
-- **answer**: B
+- **answer**: A
 - **explanation**: Each has y = 0, so all lie on the x-axis.
 - **skill**: axes
 - **difficulty**: easy
@@ -135,11 +135,11 @@
 ### Q10
 - **stem**: If a point has equal abscissa and ordinate and lies in quadrant I, an example is…
 - **options**:
-  - A) (2, 2)
-  - B) (−2, −2)
-  - C) (2, −2)
+  - A) (−2, −2)
+  - B) (2, −2)
+  - C) (2, 2)
   - D) (−2, 2)
-- **answer**: A
+- **answer**: C
 - **explanation**: Equal positive coordinates sit in quadrant I.
 - **skill**: quadrants
 - **difficulty**: easy
@@ -147,11 +147,11 @@
 ### Q11
 - **stem**: Distance between (0, 0) and (3, 4) is…
 - **options**:
-  - A) 5
-  - B) 7
-  - C) 12
-  - D) 25
-- **answer**: A
+  - A) 7
+  - B) 12
+  - C) 25
+  - D) 5
+- **answer**: D
 - **explanation**: √(3² + 4²) = √(9+16) = 5.
 - **skill**: distance
 - **difficulty**: easy
@@ -159,11 +159,11 @@
 ### Q12
 - **stem**: Which point is 3 units to the left of the origin on the x-axis?
 - **options**:
-  - A) (3, 0)
-  - B) (0, 3)
-  - C) (−3, 0)
+  - A) (−3, 0)
+  - B) (3, 0)
+  - C) (0, 3)
   - D) (0, −3)
-- **answer**: C
+- **answer**: A
 - **explanation**: Left on the x-axis means negative x: (−3, 0).
 - **skill**: axes
 - **difficulty**: easy
@@ -172,10 +172,10 @@
 - **stem**: The signs of coordinates in quadrant IV are…
 - **options**:
   - A) (+, +)
-  - B) (−, +)
-  - C) (−, −)
-  - D) (+, −)
-- **answer**: D
+  - B) (+, −)
+  - C) (−, +)
+  - D) (−, −)
+- **answer**: B
 - **explanation**: Quadrant IV: x positive, y negative.
 - **skill**: quadrants
 - **difficulty**: easy
@@ -184,10 +184,10 @@
 - **stem**: If P(x, y) lies on the y-axis, then…
 - **options**:
   - A) y = 0
-  - B) x = 0
-  - C) x = y
+  - B) x = y
+  - C) x = 0
   - D) x + y = 0
-- **answer**: B
+- **answer**: C
 - **explanation**: On the y-axis, x = 0.
 - **skill**: axes
 - **difficulty**: easy
@@ -197,9 +197,9 @@
 - **options**:
   - A) in quadrant III
   - B) in quadrant IV
-  - C) on the negative y-axis
-  - D) on the positive x-axis
-- **answer**: C
+  - C) on the positive x-axis
+  - D) on the negative y-axis
+- **answer**: D
 - **explanation**: x = 0 and y < 0 means on the negative y-axis (not inside a quadrant).
 - **skill**: axes
 - **difficulty**: medium
@@ -219,11 +219,11 @@
 ### Q17
 - **stem**: Reflecting (5, −2) in the y-axis gives…
 - **options**:
-  - A) (−5, −2)
-  - B) (5, 2)
+  - A) (5, 2)
+  - B) (−5, −2)
   - C) (−5, 2)
   - D) (2, −5)
-- **answer**: A
+- **answer**: B
 - **explanation**: y-axis reflection flips the sign of x.
 - **skill**: reflect
 - **difficulty**: medium
@@ -232,10 +232,10 @@
 - **stem**: Which ordered pair represents the origin?
 - **options**:
   - A) (1, 1)
-  - B) (0, 0)
-  - C) (0, 1)
+  - B) (0, 1)
+  - C) (0, 0)
   - D) (1, 0)
-- **answer**: B
+- **answer**: C
 - **explanation**: The origin is (0, 0).
 - **skill**: basics
 - **difficulty**: easy
@@ -244,10 +244,10 @@
 - **stem**: A point with abscissa −3 and ordinate 7 is written…
 - **options**:
   - A) (7, −3)
-  - B) (−3, 7)
-  - C) (−3, −7)
-  - D) (3, 7)
-- **answer**: B
+  - B) (−3, −7)
+  - C) (3, 7)
+  - D) (−3, 7)
+- **answer**: D
 - **explanation**: Ordered pairs are (abscissa, ordinate) = (−3, 7).
 - **skill**: basics
 - **difficulty**: easy
@@ -255,11 +255,11 @@
 ### Q20
 - **stem**: How many quadrants does the Cartesian plane have?
 - **options**:
-  - A) 2
-  - B) 3
-  - C) 4
+  - A) 4
+  - B) 2
+  - C) 3
   - D) 5
-- **answer**: C
+- **answer**: A
 - **explanation**: The two axes divide the plane into four quadrants.
 - **skill**: quadrants
 - **difficulty**: easy
@@ -267,11 +267,11 @@
 ### Q21
 - **stem**: Which point on the y-axis is equidistant from (2, 0) and (−2, 0)?
 - **options**:
-  - A) (0, 0)
-  - B) (2, 2)
+  - A) (2, 2)
+  - B) (0, 0)
   - C) (1, 0)
   - D) (2, 0)
-- **answer**: A
+- **answer**: B
 - **explanation**: Any point (0, y) is equidistant from (2,0) and (−2,0); among the options, (0,0) works.
 - **skill**: distance
 - **difficulty**: hard
@@ -280,10 +280,10 @@
 - **stem**: If both coordinates of a point are zero, the point…
 - **options**:
   - A) lies in quadrant I
-  - B) is the origin
-  - C) lies on x-axis only, not y-axis
+  - B) lies on x-axis only, not y-axis
+  - C) is the origin
   - D) does not exist
-- **answer**: B
+- **answer**: C
 - **explanation**: (0,0) is the origin, belonging to both axes.
 - **skill**: basics
 - **difficulty**: easy
@@ -304,10 +304,10 @@
 - **stem**: The vertical line through (−2, 5) has equation…
 - **options**:
   - A) y = −2
-  - B) x = −2
-  - C) y = 5
-  - D) x = 5
-- **answer**: B
+  - B) y = 5
+  - C) x = 5
+  - D) x = −2
+- **answer**: D
 - **explanation**: A vertical line has constant x-coordinate: x = −2.
 - **skill**: axes
 - **difficulty**: medium
@@ -317,11 +317,11 @@
 ### Q01
 - **stem**: The Cartesian plane is also called the…
 - **options**:
-  - A) number line only
-  - B) coordinate plane
+  - A) coordinate plane
+  - B) number line only
   - C) quadrant line
   - D) ray plane
-- **answer**: B
+- **answer**: A
 - **explanation**: It is the coordinate (or Cartesian) plane.
 - **skill**: basics
 - **difficulty**: easy
@@ -330,10 +330,10 @@
 - **stem**: Point (0, 8) lies…
 - **options**:
   - A) in quadrant I
-  - B) on the positive y-axis
-  - C) on the positive x-axis
+  - B) on the positive x-axis
+  - C) on the positive y-axis
   - D) in quadrant II
-- **answer**: B
+- **answer**: C
 - **explanation**: x = 0, y > 0 → positive y-axis.
 - **skill**: axes
 - **difficulty**: easy
@@ -342,10 +342,10 @@
 - **stem**: In quadrant II, x is ____ and y is ____.
 - **options**:
   - A) positive, positive
-  - B) negative, positive
-  - C) negative, negative
-  - D) positive, negative
-- **answer**: B
+  - B) negative, negative
+  - C) positive, negative
+  - D) negative, positive
+- **answer**: D
 - **explanation**: Quadrant II: x < 0, y > 0.
 - **skill**: quadrants
 - **difficulty**: easy
@@ -365,11 +365,11 @@
 ### Q05
 - **stem**: Mirror image of (−1, 6) across the origin is…
 - **options**:
-  - A) (1, −6)
-  - B) (−1, −6)
+  - A) (−1, −6)
+  - B) (1, −6)
   - C) (1, 6)
   - D) (6, −1)
-- **answer**: A
+- **answer**: B
 - **explanation**: Point reflection through origin: (x, y) → (−x, −y).
 - **skill**: reflect
 - **difficulty**: medium
@@ -379,9 +379,9 @@
 - **options**:
   - A) (4, 0)
   - B) (4, −2)
-  - C) (4, 7)
-  - D) (0, 4)
-- **answer**: D
+  - C) (0, 4)
+  - D) (4, 7)
+- **answer**: C
 - **explanation**: (0, 4) has x = 0, not 4.
 - **skill**: axes
 - **difficulty**: easy
@@ -414,10 +414,10 @@
 - **stem**: The point (7, 7) lies…
 - **options**:
   - A) on the x-axis
-  - B) on the y-axis
-  - C) on the line y = x in quadrant I
+  - B) on the line y = x in quadrant I
+  - C) on the y-axis
   - D) at the origin
-- **answer**: C
+- **answer**: B
 - **explanation**: Equal positive coordinates → on y = x in quadrant I.
 - **skill**: quadrants
 - **difficulty**: medium
@@ -438,10 +438,10 @@
 - **stem**: Coordinates of a point 4 units above the x-axis and 3 units left of the y-axis are…
 - **options**:
   - A) (4, −3)
-  - B) (−3, 4)
-  - C) (3, 4)
+  - B) (3, 4)
+  - C) (−3, 4)
   - D) (−4, 3)
-- **answer**: B
+- **answer**: C
 - **explanation**: Left of y-axis → x = −3; above x-axis → y = 4.
 - **skill**: basics
 - **difficulty**: medium
@@ -450,10 +450,10 @@
 - **stem**: Which is true for every point on the x-axis?
 - **options**:
   - A) abscissa is zero
-  - B) ordinate is zero
-  - C) both coordinates equal
-  - D) both coordinates positive
-- **answer**: B
+  - B) both coordinates equal
+  - C) both coordinates positive
+  - D) ordinate is zero
+- **answer**: D
 - **explanation**: y = 0 for every point on the x-axis.
 - **skill**: axes
 - **difficulty**: easy
@@ -461,11 +461,11 @@
 ### Q13
 - **stem**: The area of the triangle formed by (0,0), (4,0) and (0,3) is…
 - **options**:
-  - A) 12
-  - B) 6
+  - A) 6
+  - B) 12
   - C) 7
   - D) 24
-- **answer**: B
+- **answer**: A
 - **explanation**: Right triangle with legs 4 and 3: area = (1/2)·4·3 = 6.
 - **skill**: distance
 - **difficulty**: medium
@@ -474,10 +474,10 @@
 - **stem**: Point (−3, −3) lies in…
 - **options**:
   - A) I
-  - B) II
-  - C) III
+  - B) III
+  - C) II
   - D) IV
-- **answer**: C
+- **answer**: B
 - **explanation**: Both negative → quadrant III.
 - **skill**: quadrants
 - **difficulty**: easy
@@ -486,10 +486,10 @@
 - **stem**: The horizontal line through (5, −2) has equation…
 - **options**:
   - A) x = 5
-  - B) y = −2
-  - C) x = −2
+  - B) x = −2
+  - C) y = −2
   - D) y = 5
-- **answer**: B
+- **answer**: C
 - **explanation**: Horizontal lines have constant y.
 - **skill**: axes
 - **difficulty**: medium
@@ -497,11 +497,11 @@
 ### Q16
 - **stem**: Distance between (−1, −1) and (2, 3) is…
 - **options**:
-  - A) 5
-  - B) √18
-  - C) 7
-  - D) 25
-- **answer**: A
+  - A) √18
+  - B) 7
+  - C) 25
+  - D) 5
+- **answer**: D
 - **explanation**: √[(2−(−1))² + (3−(−1))²] = √(9+16) = 5.
 - **skill**: distance
 - **difficulty**: medium
@@ -521,11 +521,11 @@
 ### Q18
 - **stem**: If a point lies in quadrant I, then…
 - **options**:
-  - A) x > 0 and y > 0
-  - B) x < 0 and y > 0
+  - A) x < 0 and y > 0
+  - B) x > 0 and y > 0
   - C) x > 0 and y < 0
   - D) x < 0 and y < 0
-- **answer**: A
+- **answer**: B
 - **explanation**: Quadrant I is the (+, +) region.
 - **skill**: quadrants
 - **difficulty**: easy
@@ -534,10 +534,10 @@
 - **stem**: The points (1, 2) and (1, −5)…
 - **options**:
   - A) have the same ordinate
-  - B) lie on a vertical line
-  - C) lie on the x-axis
+  - B) lie on the x-axis
+  - C) lie on a vertical line
   - D) are the same point
-- **answer**: B
+- **answer**: C
 - **explanation**: Same x-coordinate ⇒ vertical line x = 1.
 - **skill**: axes
 - **difficulty**: medium
@@ -545,11 +545,11 @@
 ### Q20
 - **stem**: Coordinates (−6, 0) describe a point…
 - **options**:
-  - A) 6 units left of origin on the x-axis
-  - B) 6 units up on the y-axis
-  - C) in quadrant II
-  - D) in quadrant III
-- **answer**: A
+  - A) 6 units up on the y-axis
+  - B) in quadrant II
+  - C) in quadrant III
+  - D) 6 units left of origin on the x-axis
+- **answer**: D
 - **explanation**: y = 0 and x = −6 → on the negative x-axis.
 - **skill**: axes
 - **difficulty**: easy
@@ -581,11 +581,11 @@
 ### Q23
 - **stem**: Which pair of points are symmetric about the y-axis?
 - **options**:
-  - A) (2, 3) and (−2, 3)
-  - B) (2, 3) and (2, −3)
-  - C) (2, 3) and (−2, −3)
+  - A) (2, 3) and (2, −3)
+  - B) (2, 3) and (−2, −3)
+  - C) (2, 3) and (−2, 3)
   - D) (2, 3) and (3, 2)
-- **answer**: A
+- **answer**: C
 - **explanation**: y-axis symmetry flips x only: (2,3) ↔ (−2,3).
 - **skill**: reflect
 - **difficulty**: medium
@@ -594,10 +594,10 @@
 - **stem**: The origin is…
 - **options**:
   - A) in quadrant I only
-  - B) the intersection of the axes
-  - C) not a point of the plane
-  - D) only on the x-axis, not the y-axis
-- **answer**: B
+  - B) not a point of the plane
+  - C) only on the x-axis, not the y-axis
+  - D) the intersection of the axes
+- **answer**: D
 - **explanation**: Origin is where both axes meet and belongs to both.
 - **skill**: basics
 - **difficulty**: easy

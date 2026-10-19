@@ -8,9 +8,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Synonym of ancient is —",
     options: [
       { id: "a", text: "old" },
-      { id: "b", text: "tiny" },
-      { id: "c", text: "quick" },
-      { id: "d", text: "modern" }
+      { id: "b", text: "modern" },
+      { id: "c", text: "tiny" },
+      { id: "d", text: "quick" }
     ],
     answerId: "a",
     explanation: "Ancient means very old.",
@@ -33,10 +33,10 @@ const SET_A: PrepQuestion[] = [
     id: "g6-eng-vocab-a-q03",
     prompt: "Synonym of assist is —",
     options: [
-      { id: "a", text: "delay" },
-      { id: "b", text: "hinder" },
+      { id: "a", text: "hinder" },
+      { id: "b", text: "ignore" },
       { id: "c", text: "help" },
-      { id: "d", text: "ignore" }
+      { id: "d", text: "delay" }
     ],
     answerId: "c",
     explanation: "Assist means help.",
@@ -46,9 +46,9 @@ const SET_A: PrepQuestion[] = [
     id: "g6-eng-vocab-a-q04",
     prompt: "Antonym of scarce is —",
     options: [
-      { id: "a", text: "little" },
-      { id: "b", text: "thin" },
-      { id: "c", text: "rare" },
+      { id: "a", text: "rare" },
+      { id: "b", text: "little" },
+      { id: "c", text: "thin" },
       { id: "d", text: "plentiful" }
     ],
     answerId: "d",
@@ -60,9 +60,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "In “the storm was fierce,” fierce means —",
     options: [
       { id: "a", text: "violent" },
-      { id: "b", text: "silent" },
-      { id: "c", text: "colourful" },
-      { id: "d", text: "gentle" }
+      { id: "b", text: "gentle" },
+      { id: "c", text: "silent" },
+      { id: "d", text: "colourful" }
     ],
     answerId: "a",
     explanation: "Fierce here means violent or intense.",
@@ -72,10 +72,10 @@ const SET_A: PrepQuestion[] = [
     id: "g6-eng-vocab-a-q06",
     prompt: "Choose the word that means ‘a person who sells goods’:",
     options: [
-      { id: "a", text: "passenger" },
+      { id: "a", text: "author" },
       { id: "b", text: "vendor" },
-      { id: "c", text: "author" },
-      { id: "d", text: "coach" }
+      { id: "c", text: "coach" },
+      { id: "d", text: "passenger" }
     ],
     answerId: "b",
     explanation: "A vendor sells goods.",
@@ -85,10 +85,10 @@ const SET_A: PrepQuestion[] = [
     id: "g6-eng-vocab-a-q07",
     prompt: "Prefix un- in unkind means —",
     options: [
-      { id: "a", text: "before" },
-      { id: "b", text: "very" },
+      { id: "a", text: "very" },
+      { id: "b", text: "again" },
       { id: "c", text: "not" },
-      { id: "d", text: "again" }
+      { id: "d", text: "before" }
     ],
     answerId: "c",
     explanation: "Un- often means not: unkind = not kind.",
@@ -98,9 +98,9 @@ const SET_A: PrepQuestion[] = [
     id: "g6-eng-vocab-a-q08",
     prompt: "Suffix -ful in useful means —",
     options: [
-      { id: "a", text: "against" },
-      { id: "b", text: "before" },
-      { id: "c", text: "without" },
+      { id: "a", text: "without" },
+      { id: "b", text: "against" },
+      { id: "c", text: "before" },
       { id: "d", text: "full of" }
     ],
     answerId: "d",
@@ -112,9 +112,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Synonym of glance is —",
     options: [
       { id: "a", text: "quick look" },
-      { id: "b", text: "shout" },
-      { id: "c", text: "run" },
-      { id: "d", text: "stare for hours" }
+      { id: "b", text: "stare for hours" },
+      { id: "c", text: "shout" },
+      { id: "d", text: "run" }
     ],
     answerId: "a",
     explanation: "A glance is a quick look.",
@@ -137,10 +137,10 @@ const SET_A: PrepQuestion[] = [
     id: "g6-eng-vocab-a-q11",
     prompt: "Choose the correct meaning of transparent:",
     options: [
-      { id: "a", text: "Always wet" },
-      { id: "b", text: "Cannot be seen through" },
+      { id: "a", text: "Cannot be seen through" },
+      { id: "b", text: "Very heavy" },
       { id: "c", text: "Can be seen through" },
-      { id: "d", text: "Very heavy" }
+      { id: "d", text: "Always wet" }
     ],
     answerId: "c",
     explanation: "Transparent materials let light through so you can see through them.",
@@ -164,9 +164,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Synonym of commence is —",
     options: [
       { id: "a", text: "begin" },
-      { id: "b", text: "pause" },
-      { id: "c", text: "cancel" },
-      { id: "d", text: "end" }
+      { id: "b", text: "end" },
+      { id: "c", text: "pause" },
+      { id: "d", text: "cancel" }
     ],
     answerId: "a",
     explanation: "Commence means begin.",
@@ -189,10 +189,10 @@ const SET_A: PrepQuestion[] = [
     id: "g6-eng-vocab-a-q15",
     prompt: "In “honest traders,” honest means —",
     options: [
-      { id: "a", text: "loud" },
-      { id: "b", text: "new" },
+      { id: "a", text: "rich" },
+      { id: "b", text: "loud" },
       { id: "c", text: "truthful and fair" },
-      { id: "d", text: "rich" }
+      { id: "d", text: "new" }
     ],
     answerId: "c",
     explanation: "Honest means truthful and fair.",
@@ -202,9 +202,9 @@ const SET_A: PrepQuestion[] = [
     id: "g6-eng-vocab-a-q16",
     prompt: "Choose the odd one out (not a synonym of happy):",
     options: [
-      { id: "a", text: "cheerful" },
-      { id: "b", text: "joyful" },
-      { id: "c", text: "glad" },
+      { id: "a", text: "joyful" },
+      { id: "b", text: "glad" },
+      { id: "c", text: "cheerful" },
       { id: "d", text: "miserable" }
     ],
     answerId: "d",
@@ -216,9 +216,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Meaning of durable:",
     options: [
       { id: "a", text: "Lasting a long time" },
-      { id: "b", text: "Always soft" },
-      { id: "c", text: "Invisible" },
-      { id: "d", text: "Easily broken" }
+      { id: "b", text: "Easily broken" },
+      { id: "c", text: "Always soft" },
+      { id: "d", text: "Invisible" }
     ],
     answerId: "a",
     explanation: "Durable means lasting / not easily worn out.",
@@ -241,10 +241,10 @@ const SET_A: PrepQuestion[] = [
     id: "g6-eng-vocab-a-q19",
     prompt: "Synonym of cautious is —",
     options: [
-      { id: "a", text: "swift always" },
-      { id: "b", text: "careless" },
+      { id: "a", text: "careless" },
+      { id: "b", text: "noisy" },
       { id: "c", text: "careful" },
-      { id: "d", text: "noisy" }
+      { id: "d", text: "swift always" }
     ],
     answerId: "c",
     explanation: "Cautious means careful.",
@@ -254,9 +254,9 @@ const SET_A: PrepQuestion[] = [
     id: "g6-eng-vocab-a-q20",
     prompt: "The idiom “break the ice” means —",
     options: [
-      { id: "a", text: "end a game" },
-      { id: "b", text: "buy vegetables" },
-      { id: "c", text: "smash frozen water only" },
+      { id: "a", text: "smash frozen water only" },
+      { id: "b", text: "end a game" },
+      { id: "c", text: "buy vegetables" },
       { id: "d", text: "start a friendly conversation" }
     ],
     answerId: "d",
@@ -268,9 +268,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Choose the correct word: The ____ of the story is to be patient.",
     options: [
       { id: "a", text: "moral" },
-      { id: "b", text: "mural" },
-      { id: "c", text: "mortal" },
-      { id: "d", text: "morale" }
+      { id: "b", text: "morale" },
+      { id: "c", text: "mural" },
+      { id: "d", text: "mortal" }
     ],
     answerId: "a",
     explanation: "Moral means the lesson of a story.",
@@ -293,10 +293,10 @@ const SET_A: PrepQuestion[] = [
     id: "g6-eng-vocab-a-q23",
     prompt: "Synonym of fragrant is —",
     options: [
-      { id: "a", text: "rough" },
-      { id: "b", text: "smelly in a bad way" },
+      { id: "a", text: "smelly in a bad way" },
+      { id: "b", text: "silent" },
       { id: "c", text: "sweet-smelling" },
-      { id: "d", text: "silent" }
+      { id: "d", text: "rough" }
     ],
     answerId: "c",
     explanation: "Fragrant means sweet-smelling.",
@@ -306,9 +306,9 @@ const SET_A: PrepQuestion[] = [
     id: "g6-eng-vocab-a-q24",
     prompt: "In “sorting plastic from kitchen waste,” waste means —",
     options: [
-      { id: "a", text: "a footrace" },
-      { id: "b", text: "a library shelf" },
-      { id: "c", text: "valuable treasure" },
+      { id: "a", text: "valuable treasure" },
+      { id: "b", text: "a footrace" },
+      { id: "c", text: "a library shelf" },
       { id: "d", text: "unwanted discarded material" }
     ],
     answerId: "d",
@@ -323,9 +323,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Synonym of rapid is —",
     options: [
       { id: "a", text: "quick" },
-      { id: "b", text: "heavy" },
-      { id: "c", text: "quiet" },
-      { id: "d", text: "slow" }
+      { id: "b", text: "slow" },
+      { id: "c", text: "heavy" },
+      { id: "d", text: "quiet" }
     ],
     answerId: "a",
     explanation: "Rapid means quick.",
@@ -348,10 +348,10 @@ const SET_B: PrepQuestion[] = [
     id: "g6-eng-vocab-b-q03",
     prompt: "Synonym of tiny is —",
     options: [
-      { id: "a", text: "wide" },
-      { id: "b", text: "huge" },
+      { id: "a", text: "huge" },
+      { id: "b", text: "tall" },
       { id: "c", text: "small" },
-      { id: "d", text: "tall" }
+      { id: "d", text: "wide" }
     ],
     answerId: "c",
     explanation: "Tiny means very small.",
@@ -361,9 +361,9 @@ const SET_B: PrepQuestion[] = [
     id: "g6-eng-vocab-b-q04",
     prompt: "Antonym of victory is —",
     options: [
-      { id: "a", text: "prize" },
-      { id: "b", text: "cheer" },
-      { id: "c", text: "win" },
+      { id: "a", text: "win" },
+      { id: "b", text: "prize" },
+      { id: "c", text: "cheer" },
       { id: "d", text: "defeat" }
     ],
     answerId: "d",
@@ -375,9 +375,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "In “fresh coriander,” fresh means —",
     options: [
       { id: "a", text: "recently harvested / not stale" },
-      { id: "b", text: "frozen solid" },
-      { id: "c", text: "expensive" },
-      { id: "d", text: "stale" }
+      { id: "b", text: "stale" },
+      { id: "c", text: "frozen solid" },
+      { id: "d", text: "expensive" }
     ],
     answerId: "a",
     explanation: "Fresh means newly produced / not stale.",
@@ -400,10 +400,10 @@ const SET_B: PrepQuestion[] = [
     id: "g6-eng-vocab-b-q07",
     prompt: "Prefix re- in rewrite means —",
     options: [
-      { id: "a", text: "against" },
-      { id: "b", text: "not" },
+      { id: "a", text: "not" },
+      { id: "b", text: "wrongly" },
       { id: "c", text: "again" },
-      { id: "d", text: "wrongly" }
+      { id: "d", text: "against" }
     ],
     answerId: "c",
     explanation: "Re- often means again: rewrite = write again.",
@@ -413,9 +413,9 @@ const SET_B: PrepQuestion[] = [
     id: "g6-eng-vocab-b-q08",
     prompt: "Suffix -less in careless means —",
     options: [
-      { id: "a", text: "more" },
-      { id: "b", text: "before" },
-      { id: "c", text: "full of" },
+      { id: "a", text: "full of" },
+      { id: "b", text: "more" },
+      { id: "c", text: "before" },
       { id: "d", text: "without" }
     ],
     answerId: "d",
@@ -427,9 +427,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Synonym of purchase is —",
     options: [
       { id: "a", text: "buy" },
-      { id: "b", text: "borrow" },
-      { id: "c", text: "lose" },
-      { id: "d", text: "sell" }
+      { id: "b", text: "sell" },
+      { id: "c", text: "borrow" },
+      { id: "d", text: "lose" }
     ],
     answerId: "a",
     explanation: "Purchase means buy.",
@@ -452,10 +452,10 @@ const SET_B: PrepQuestion[] = [
     id: "g6-eng-vocab-b-q11",
     prompt: "Meaning of fertile (soil):",
     options: [
-      { id: "a", text: "made of plastic" },
-      { id: "b", text: "barren" },
+      { id: "a", text: "barren" },
+      { id: "b", text: "always sandy" },
       { id: "c", text: "able to grow plants well" },
-      { id: "d", text: "always sandy" }
+      { id: "d", text: "made of plastic" }
     ],
     answerId: "c",
     explanation: "Fertile soil is good for growing plants.",
@@ -479,9 +479,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Synonym of vanish is —",
     options: [
       { id: "a", text: "disappear" },
-      { id: "b", text: "shine" },
-      { id: "c", text: "grow" },
-      { id: "d", text: "appear" }
+      { id: "b", text: "appear" },
+      { id: "c", text: "shine" },
+      { id: "d", text: "grow" }
     ],
     answerId: "a",
     explanation: "Vanish means disappear.",
@@ -504,10 +504,10 @@ const SET_B: PrepQuestion[] = [
     id: "g6-eng-vocab-b-q15",
     prompt: "In “annual fair,” annual means —",
     options: [
-      { id: "a", text: "never" },
-      { id: "b", text: "weekly" },
+      { id: "a", text: "weekly" },
+      { id: "b", text: "daily" },
       { id: "c", text: "happening once a year" },
-      { id: "d", text: "daily" }
+      { id: "d", text: "never" }
     ],
     answerId: "c",
     explanation: "Annual means once a year.",
@@ -517,9 +517,9 @@ const SET_B: PrepQuestion[] = [
     id: "g6-eng-vocab-b-q16",
     prompt: "Odd one out (not a synonym of big):",
     options: [
-      { id: "a", text: "enormous" },
-      { id: "b", text: "large" },
-      { id: "c", text: "huge" },
+      { id: "a", text: "large" },
+      { id: "b", text: "huge" },
+      { id: "c", text: "enormous" },
       { id: "d", text: "tiny" }
     ],
     answerId: "d",
@@ -531,9 +531,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Meaning of flexible:",
     options: [
       { id: "a", text: "able to bend easily" },
-      { id: "b", text: "always wet" },
-      { id: "c", text: "made of stone only" },
-      { id: "d", text: "unable to bend" }
+      { id: "b", text: "unable to bend" },
+      { id: "c", text: "always wet" },
+      { id: "d", text: "made of stone only" }
     ],
     answerId: "a",
     explanation: "Flexible means able to bend without breaking.",
@@ -556,10 +556,10 @@ const SET_B: PrepQuestion[] = [
     id: "g6-eng-vocab-b-q19",
     prompt: "Synonym of difficult is —",
     options: [
-      { id: "a", text: "clear" },
-      { id: "b", text: "easy" },
+      { id: "a", text: "easy" },
+      { id: "b", text: "simple" },
       { id: "c", text: "hard" },
-      { id: "d", text: "simple" }
+      { id: "d", text: "clear" }
     ],
     answerId: "c",
     explanation: "Difficult means hard.",
@@ -569,9 +569,9 @@ const SET_B: PrepQuestion[] = [
     id: "g6-eng-vocab-b-q20",
     prompt: "The idiom “a piece of cake” means —",
     options: [
-      { id: "a", text: "something expensive" },
-      { id: "b", text: "a cricket shot" },
-      { id: "c", text: "a dessert only" },
+      { id: "a", text: "a dessert only" },
+      { id: "b", text: "something expensive" },
+      { id: "c", text: "a cricket shot" },
       { id: "d", text: "something very easy" }
     ],
     answerId: "d",
@@ -583,9 +583,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Choose the correct word: Please ____ the lights when you leave.",
     options: [
       { id: "a", text: "switch off" },
-      { id: "b", text: "open" },
-      { id: "c", text: "grow" },
-      { id: "d", text: "close" }
+      { id: "b", text: "close" },
+      { id: "c", text: "open" },
+      { id: "d", text: "grow" }
     ],
     answerId: "a",
     explanation: "We switch off / turn off lights (not close lights).",
@@ -608,10 +608,10 @@ const SET_B: PrepQuestion[] = [
     id: "g6-eng-vocab-b-q23",
     prompt: "Synonym of weary is —",
     options: [
-      { id: "a", text: "loud" },
-      { id: "b", text: "fresh" },
+      { id: "a", text: "fresh" },
+      { id: "b", text: "excited" },
       { id: "c", text: "tired" },
-      { id: "d", text: "excited" }
+      { id: "d", text: "loud" }
     ],
     answerId: "c",
     explanation: "Weary means tired.",
@@ -621,9 +621,9 @@ const SET_B: PrepQuestion[] = [
     id: "g6-eng-vocab-b-q24",
     prompt: "In “fielding until dusk,” dusk means —",
     options: [
-      { id: "a", text: "midnight only" },
-      { id: "b", text: "dawn" },
-      { id: "c", text: "midday" },
+      { id: "a", text: "midday" },
+      { id: "b", text: "midnight only" },
+      { id: "c", text: "dawn" },
       { id: "d", text: "evening twilight" }
     ],
     answerId: "d",

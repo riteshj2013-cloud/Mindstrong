@@ -25,14 +25,14 @@
 ## Practice Set A
 
 ### Q01
-- **stem**: Which of these is an integer?
+- **stem**: How many integers lie strictly between −3 and 2?
 - **options**:
-  - A) −7
-  - B) 3/4
-  - C) √2
-  - D) 0.333… repeating only as non-integer form
+  - A) 4
+  - B) 3
+  - C) 5
+  - D) 6
 - **answer**: A
-- **explanation**: Integers are …, −2, −1, 0, 1, 2, …. Fractions that are not whole numbers are not integers.
+- **explanation**: The integers strictly between −3 and 2 are −2, −1, 0 and 1, so there are 4. 5 is tempting if you include one endpoint, and 6 if you include both.
 - **difficulty**: mixed
 
 ### Q02
@@ -146,7 +146,7 @@
 - **difficulty**: mixed
 
 ### Q12
-- **stem**: Which statement is true?
+- **stem**: Which statement comparing −5 and −2 is true?
 - **options**:
   - A) −5 > −2
   - B) −5 = −2
@@ -256,14 +256,14 @@
 - **difficulty**: mixed
 
 ### Q22
-- **stem**: Which is the smallest?
+- **stem**: The temperatures in four cities one winter night were −4°C, 2°C, −9°C and 0°C. Which was the coldest?
 - **options**:
-  - A) −1
-  - B) −100
-  - C) 0
-  - D) 2
+  - A) −4°C
+  - B) −9°C
+  - C) 0°C
+  - D) 2°C
 - **answer**: B
-- **explanation**: −100 is the most negative, so the smallest.
+- **explanation**: The coldest temperature is the smallest number. −9 is further left on the number line than −4, so −9°C is coldest. −4°C is tempting if you think 4 is smaller than 9 and ignore the minus sign.
 - **difficulty**: mixed
 
 ### Q23
@@ -379,14 +379,14 @@
 - **difficulty**: mixed
 
 ### Q09
-- **stem**: Which is true for every integer n?
+- **stem**: For every integer n, which of these is always equal to n?
 - **options**:
-  - A) n × 1 = n
-  - B) n ÷ 0 = 0
-  - C) n + 1 = n
-  - D) n × 0 = 1
+  - A) n × 1
+  - B) n × (−1)
+  - C) n × 0
+  - D) n + 1
 - **answer**: A
-- **explanation**: 1 is the multiplicative identity. Division by 0 is undefined.
+- **explanation**: 1 is the multiplicative identity, so n × 1 = n for every integer. n × (−1) is tempting, but it gives −n (the sign flips), and n × 0 = 0.
 - **difficulty**: mixed
 
 ### Q10

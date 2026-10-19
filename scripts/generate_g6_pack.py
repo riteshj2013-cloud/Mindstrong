@@ -70,9 +70,10 @@ MATHS_INT_A = [
     q("Compute (−36) ÷ 9.", ["4", "−4", "45", "−45"], "b",
       "Negative divided by positive is negative: −4.",
       "Different signs when dividing → negative quotient."),
-    q("Which statement is true?",
+    q("Which statement about natural numbers and integers is true?",
       ["Every natural number is an integer", "Every integer is a natural number",
-       "−1 is a natural number", "0 is not an integer"], "a",
+       "−1 is a natural number", "0 is not an integer"],
+      "a",
       "Natural numbers 1, 2, 3, … are integers. Negatives and 0 are integers but not natural (in the usual school meaning).",
       "Natural ⊂ whole ⊂ integers — which way do the sets nest?"),
     q("The temperature was −2°C in the morning and rose by 7°C. What is the new temperature?",
@@ -355,8 +356,9 @@ MATHS_FRAC_B = [
     q("Convert 0.125 to a fraction in simplest form.", ["125/1000", "1/8", "1/4", "5/40"], "b",
       "0.125 = 125/1000 = 1/8.",
       "Three decimal places → /1000, then simplify."),
-    q("Which statement is true?",
-      ["0.7 > 7/10", "0.7 = 7/10", "0.7 < 7/10", "0.07 = 7/10"], "b",
+    q("Which statement about 0.7 and 7/10 is true?",
+      ["0.7 > 7/10", "0.7 = 7/10", "0.7 < 7/10", "0.07 = 7/10"],
+      "b",
       "7/10 = 0.7 exactly.",
       "Convert and compare."),
     q("A rope is 6.4 m. Cut into pieces of 0.8 m each. How many pieces?",
@@ -372,12 +374,16 @@ MATHS_FRAC_B = [
 # MATHS Ch3: Basic Geometry
 # ─────────────────────────────────────────────────────────────────────────────
 MATHS_GEO_A = [
-    q("A ray has —", ["two endpoints", "one endpoint", "no endpoints", "three endpoints"], "b",
-      "A ray starts at one endpoint and goes on forever in one direction.",
-      "Ray = start point + endless direction."),
-    q("A line segment has —", ["one endpoint", "two endpoints", "no endpoints", "infinite endpoints"], "b",
-      "A segment is the part of a line between two endpoints.",
-      "Segment = finite piece with two ends."),
+    q("Which of these is a good model of a ray?",
+      ["The edge of a ruler", "A torch beam shining into the night sky", "A railway track between two stations", "A rope tied between two poles"],
+      "b",
+      "A ray starts at one point and goes on without end in one direction, like a torch beam starting at the torch. A ruler edge, a track between two stations and a rope between poles all have two ends, so they model line segments.",
+      "A ray has a starting point but no finishing point. Which of these has only one end?"),
+    q("Points P, Q and R lie on a line in that order. How many line segments can be named using these points as endpoints?",
+      ["2", "3", "4", "6"],
+      "b",
+      "The segments are PQ, QR and PR, so there are 3. 2 is tempting if you count only the short pieces and forget the whole segment PR.",
+      "Each segment needs two endpoints. List every pair of points."),
     q("An angle measuring 90° is called —", ["acute", "obtuse", "right", "reflex"], "c",
       "A right angle measures exactly 90°.",
       "Square corner = right angle = 90°."),
@@ -387,12 +393,16 @@ MATHS_GEO_A = [
     q("An angle of 120° is —", ["acute", "right", "obtuse", "straight"], "c",
       "Obtuse angles are between 90° and 180°. 120° is obtuse.",
       "Bigger than right, smaller than straight."),
-    q("A straight angle measures —", ["0°", "90°", "180°", "360°"], "c",
-      "A straight angle is a half-turn: 180°.",
-      "Flat line angle = 180°."),
-    q("How many sides does a triangle have?", ["2", "3", "4", "5"], "b",
-      "A triangle is a closed shape with 3 sides.",
-      "Tri- means three."),
+    q("The hands of a clock form a straight angle at —",
+      ["3 o'clock", "6 o'clock", "9 o'clock", "12 o'clock"],
+      "b",
+      "At 6 o'clock the hands point in opposite directions, making a straight angle of 180°. At 3 o'clock and 9 o'clock they make a right angle (90°), and at 12 o'clock they overlap (0°).",
+      "A straight angle is a half turn, so the two hands must point in opposite directions."),
+    q("A polygon has 5 vertices. How many sides does it have?",
+      ["4", "5", "6", "10"],
+      "b",
+      "In any polygon each side joins two neighbouring vertices, so the number of sides equals the number of vertices: 5 (a pentagon). 10 is tempting if you add vertices and sides together.",
+      "Walk round the shape: after each corner comes one side. Compare the two counts."),
     q("The sum of angles in any triangle is —", ["90°", "180°", "270°", "360°"], "b",
       "Interior angles of a triangle always sum to 180°.",
       "Triangle angle sum is a half-turn."),
@@ -403,10 +413,11 @@ MATHS_GEO_A = [
       ["Rectangle that is not a square", "Rhombus that is not a square", "Square", "Trapezium"], "c",
       "A square has equal sides and four right angles.",
       "Equal sides + right angles → square."),
-    q("Parallel lines —",
-      ["meet at one point", "never meet", "meet at two points", "are always curved"], "b",
-      "Parallel lines stay the same distance apart and never meet.",
-      "Like railway tracks."),
+    q("Which pair of lines on a ruled notebook page are parallel?",
+      ["Two printed lines running across the page", "A printed line and the margin line", "The two diagonals of the page", "The top edge and the left edge of the page"],
+      "a",
+      "The printed lines across the page stay the same distance apart and never meet, so they are parallel. The margin line meets the printed lines at right angles, so those are perpendicular, not parallel; the diagonals cross in the middle, and the top and left edges meet at a corner.",
+      "Parallel lines keep the same gap all along and never meet. Check whether each pair crosses or meets."),
     q("Perpendicular lines meet at —", ["45°", "60°", "90°", "180°"], "c",
       "Perpendicular means they form a right angle (90°).",
       "⊥ means 90°."),
@@ -472,10 +483,11 @@ MATHS_GEO_B = [
     q("How many diagonals does a quadrilateral have?", ["1", "2", "3", "4"], "b",
       "A quadrilateral has 2 diagonals.",
       "Join opposite corners — how many ways?"),
-    q("A triangle with all sides equal is —",
-      ["scalene", "isosceles but not equilateral", "equilateral", "right-angled only"], "c",
-      "All three sides equal → equilateral.",
-      "Equal sides name."),
+    q("A triangle has sides 6 cm, 6 cm and 4 cm. It is —",
+      ["scalene", "isosceles", "equilateral", "right-angled"],
+      "b",
+      "Exactly two sides are equal (6 cm and 6 cm), so it is isosceles. It is not equilateral, because that needs all three sides equal, and it is not scalene, because scalene triangles have no equal sides.",
+      "Count how many sides have the same length."),
     q("A triangle with one angle 90° is —",
       ["acute-angled", "obtuse-angled", "right-angled", "equilateral"], "c",
       "One right angle → right-angled triangle.",
@@ -547,6 +559,8 @@ MATHS_GEO_B = [
       "A circle’s boundary is curved, so it is not a polygon.",
       "Polygons need straight sides only."),
 ]
+
+from answer_balance import balance_letter_lists  # type: ignore  # noqa: E402
 
 # English + Science banks live alongside; continue in generate_g6_pack_rest.py data.
 from generate_g6_data_eng_sci import (  # type: ignore  # noqa: E402
@@ -1006,6 +1020,9 @@ def main() -> None:
         assert len(ch["set_a"]) == 24 and len(ch["set_b"]) == 24, (
             ch["title"], len(ch["set_a"]), len(ch["set_b"])
         )
+        # Balance answer letters (~6A/6B/6C/6D) so a regen never re-skews the sets.
+        ch["set_a"] = balance_letter_lists(ch["set_a"])
+        ch["set_b"] = balance_letter_lists(ch["set_b"])
 
     src_dir = ROOT / "docs/sof-source/grade-6"
     src_dir.mkdir(parents=True, exist_ok=True)

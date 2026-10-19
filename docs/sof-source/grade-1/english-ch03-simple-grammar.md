@@ -15,11 +15,11 @@
 
 ### Q1
 - stem: Pick the correct sentence.
-- A: i like tea.
-- B: I like tea.
+- A: I like tea.
+- B: i like tea.
 - C: i Like tea.
 - D: I like Tea always wrong.
-- answer: B
+- answer: A
 - explanation: Sentences start with a capital letter.
 
 ### Q2
@@ -34,64 +34,64 @@
 ### Q3
 - stem: The boys ___ playing.
 - A: is
-- B: are
-- C: am
+- B: am
+- C: are
 - D: be
-- answer: B
+- answer: C
 - explanation: Boys is more than one — use are.
 
 ### Q4
 - stem: She ___ my sister.
 - A: am
-- B: is
-- C: are
-- D: be
-- answer: B
+- B: are
+- C: be
+- D: is
+- answer: D
 - explanation: She takes is.
 
 ### Q5
 - stem: I ___ a student.
-- A: is
-- B: are
-- C: am
+- A: am
+- B: is
+- C: are
 - D: be
-- answer: C
+- answer: A
 - explanation: With I we use am.
 
 ### Q6
 - stem: Pick the naming word (noun).
 - A: run
-- B: happy
-- C: school
+- B: school
+- C: happy
 - D: quickly
-- answer: C
+- answer: B
 - explanation: School names a place — a noun.
 
 ### Q7
 - stem: Pick the doing word (verb).
 - A: red
-- B: jump
-- C: soft
+- B: soft
+- C: jump
 - D: tall
-- answer: B
+- answer: C
 - explanation: Jump is an action — a verb.
 
 ### Q8
 - stem: Which needs a capital letter?
-- A: monday
-- B: tree
-- C: cup
-- D: sand
-- answer: A
+- A: tree
+- B: cup
+- C: sand
+- D: monday
+- answer: D
 - explanation: Day names start with a capital: Monday.
 
 ### Q9
 - stem: A cat ___ soft.
-- A: am
-- B: is
+- A: is
+- B: am
 - C: are
 - D: be
-- answer: B
+- answer: A
 - explanation: One cat — use is.
 
 ### Q10
@@ -115,19 +115,19 @@
 ### Q12
 - stem: Pick the full stop sentence.
 - A: Where is Bo
-- B: Bo is brave.
-- C: Wow
-- D: Oh
-- answer: B
+- B: Wow
+- C: Oh
+- D: Bo is brave.
+- answer: D
 - explanation: A telling sentence ends with a full stop.
 
 ### Q13
 - stem: Which is a question?
-- A: I sit.
-- B: Are you ready?
+- A: Are you ready?
+- B: I sit.
 - C: The sun is hot.
 - D: Red bag.
-- answer: B
+- answer: A
 - explanation: Questions often start with Are/Is/What and end with ?
 
 ### Q14
@@ -141,33 +141,33 @@
 
 ### Q15
 - stem: We use ___ before ball.
-- A: a
-- B: an
-- C: an an
+- A: an
+- B: an an
+- C: a
 - D: the the the
-- answer: A
+- answer: C
 - explanation: Ball starts with a consonant sound — a.
 
 ### Q16
 - stem: Pick the opposite of big.
 - A: large
 - B: huge
-- C: small
-- D: tall
-- answer: C
+- C: tall
+- D: small
+- answer: D
 - explanation: Small is the opposite of big.
 
 
 ## Set B — 16 MCQs
 
 ### Q1
-- stem: Pick the correct sentence.
-- A: we go home.
-- B: We go home.
-- C: we Go home.
-- D: WE go Home always.
-- answer: B
-- explanation: Start with a capital W.
+- stem: "we play in the park." Which word needs a capital letter?
+- A: we
+- B: play
+- C: park
+- D: the
+- answer: A
+- explanation: The first word of a sentence starts with a capital letter, so it should be "We". "park" is tempting, but it is not a name, so it stays small.
 
 ### Q2
 - stem: We say ___ egg.
@@ -181,64 +181,64 @@
 ### Q3
 - stem: The girl ___ kind.
 - A: am
-- B: is
-- C: are
+- B: are
+- C: is
 - D: be
-- answer: B
+- answer: C
 - explanation: One girl — is.
 
 ### Q4
 - stem: You ___ my friend.
 - A: am
 - B: is
-- C: are
-- D: be
-- answer: C
+- C: be
+- D: are
+- answer: D
 - explanation: With you we use are.
 
 ### Q5
 - stem: I ___ hungry.
-- A: is
-- B: are
-- C: am
+- A: am
+- B: is
+- C: are
 - D: be
-- answer: C
+- answer: A
 - explanation: I am hungry.
 
 ### Q6
 - stem: Pick the naming word.
 - A: blue
-- B: softly
-- C: teacher
+- B: teacher
+- C: softly
 - D: run
-- answer: C
+- answer: B
 - explanation: Teacher names a person.
 
 ### Q7
 - stem: Pick the doing word.
 - A: cold
-- B: sing
-- C: green
+- B: green
+- C: sing
 - D: tiny
-- answer: B
+- answer: C
 - explanation: Sing is an action.
 
 ### Q8
 - stem: Which needs a capital?
-- A: delhi
-- B: river
-- C: stone
-- D: leaf
-- answer: A
+- A: river
+- B: stone
+- C: leaf
+- D: delhi
+- answer: D
 - explanation: Place names: Delhi.
 
 ### Q9
 - stem: Dogs ___ loyal.
-- A: is
-- B: am
-- C: are
+- A: are
+- B: is
+- C: am
 - D: be
-- answer: C
+- answer: A
 - explanation: Dogs is plural — are.
 
 ### Q10
@@ -253,29 +253,29 @@
 ### Q11
 - stem: He ___ tall.
 - A: am
-- B: is
-- C: are
+- B: are
+- C: is
 - D: be
-- answer: B
+- answer: C
 - explanation: He takes is.
 
 ### Q12
 - stem: Pick the sentence with a full stop.
 - A: What time is it
-- B: It is time to eat.
-- C: Help
-- D: Wow
-- answer: B
+- B: Help
+- C: Wow
+- D: It is time to eat.
+- answer: D
 - explanation: Telling sentence + full stop.
 
 ### Q13
-- stem: Which is a question?
-- A: Bo smiles.
-- B: Can you help?
-- C: Red is a colour.
-- D: A soft pillow.
-- answer: B
-- explanation: Can you help? asks something.
+- stem: Which sentence needs a question mark (?) at the end?
+- A: Where is my cap
+- B: My cap is red
+- C: I have a cap
+- D: The cap is on the bed
+- answer: A
+- explanation: "Where is my cap" asks something, so it ends with a question mark. The others tell us something, so they end with a full stop.
 
 ### Q14
 - stem: Her bag ___ new.
@@ -288,19 +288,19 @@
 
 ### Q15
 - stem: We use ___ before dog.
-- A: a
-- B: an
-- C: an an
+- A: an
+- B: an an
+- C: a
 - D: the the the
-- answer: A
+- answer: C
 - explanation: Dog starts with a consonant — a.
 
 ### Q16
 - stem: Pick the opposite of happy.
 - A: glad
 - B: joyful
-- C: sad
-- D: merry
-- answer: C
+- C: merry
+- D: sad
+- answer: D
 - explanation: Sad is the opposite of happy.
 

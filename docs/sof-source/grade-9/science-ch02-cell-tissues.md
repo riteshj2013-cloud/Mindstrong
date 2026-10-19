@@ -27,11 +27,11 @@
 ### Q01
 - **stem**: The basic structural and functional unit of life is the…
 - **options**:
-  - A) tissue
-  - B) organ
-  - C) cell
+  - A) cell
+  - B) tissue
+  - C) organ
   - D) organism
-- **answer**: C
+- **answer**: A
 - **explanation**: Cell theory: cell is the basic unit of life.
 - **skill**: basics
 - **difficulty**: easy
@@ -52,10 +52,10 @@
 - **stem**: The control centre of the cell that contains genetic material is the…
 - **options**:
   - A) mitochondrion
-  - B) nucleus
-  - C) ribosome
+  - B) ribosome
+  - C) nucleus
   - D) vacuole
-- **answer**: B
+- **answer**: C
 - **explanation**: Nucleus houses DNA and controls activities.
 - **skill**: organelle
 - **difficulty**: easy
@@ -64,10 +64,10 @@
 - **stem**: Powerhouse of the cell refers to…
 - **options**:
   - A) nucleus
-  - B) mitochondria
-  - C) golgi apparatus
-  - D) cell wall
-- **answer**: B
+  - B) golgi apparatus
+  - C) cell wall
+  - D) mitochondria
+- **answer**: D
 - **explanation**: Mitochondria release energy (cellular respiration).
 - **skill**: organelle
 - **difficulty**: easy
@@ -75,11 +75,11 @@
 ### Q05
 - **stem**: Which is present in plant cells but not in typical animal cells?
 - **options**:
-  - A) mitochondria
-  - B) cell membrane
-  - C) cell wall
+  - A) cell wall
+  - B) mitochondria
+  - C) cell membrane
   - D) ribosomes
-- **answer**: C
+- **answer**: A
 - **explanation**: Rigid cell wall of cellulose is plant-typical.
 - **skill**: compare
 - **difficulty**: easy
@@ -100,10 +100,10 @@
 - **stem**: A group of similar cells performing a specific function forms a…
 - **options**:
   - A) organelle
-  - B) tissue
-  - C) organ system only
+  - B) organ system only
+  - C) tissue
   - D) population
-- **answer**: B
+- **answer**: C
 - **explanation**: Tissue = group of similar cells with a common function.
 - **skill**: organisation
 - **difficulty**: easy
@@ -112,10 +112,10 @@
 - **stem**: The selectively permeable boundary of an animal cell is the…
 - **options**:
   - A) cell wall
-  - B) plasma membrane
-  - C) nuclear envelope only
-  - D) cytoplasm
-- **answer**: B
+  - B) nuclear envelope only
+  - C) cytoplasm
+  - D) plasma membrane
+- **answer**: D
 - **explanation**: Plasma/cell membrane controls entry and exit.
 - **skill**: organelle
 - **difficulty**: easy
@@ -123,11 +123,11 @@
 ### Q09
 - **stem**: Prokaryotic cells lack a…
 - **options**:
-  - A) cell membrane
-  - B) true membrane-bound nucleus
+  - A) true membrane-bound nucleus
+  - B) cell membrane
   - C) DNA of any kind
   - D) ribosomes always
-- **answer**: B
+- **answer**: A
 - **explanation**: Prokaryotes lack a true nucleus; DNA is not in a nuclear envelope.
 - **skill**: classify
 - **difficulty**: medium
@@ -148,10 +148,10 @@
 - **stem**: Meristematic tissue in plants is responsible for…
 - **options**:
   - A) photosynthesis only
-  - B) growth by cell division
-  - C) transport of only water forever without division
+  - B) transport of only water forever without division
+  - C) growth by cell division
   - D) storing only fat in animals
-- **answer**: B
+- **answer**: C
 - **explanation**: Meristems actively divide to allow growth.
 - **skill**: tissue
 - **difficulty**: medium
@@ -160,10 +160,10 @@
 - **stem**: Epithelial tissue in animals mainly…
 - **options**:
   - A) contracts to move bones
-  - B) covers body surfaces and lines cavities
-  - C) carries oxygen as haemoglobin tissue name
-  - D) stores only starch
-- **answer**: B
+  - B) carries oxygen as haemoglobin tissue name
+  - C) stores only starch
+  - D) covers body surfaces and lines cavities
+- **answer**: D
 - **explanation**: Epithelium covers and lines surfaces.
 - **skill**: tissue
 - **difficulty**: medium
@@ -171,11 +171,11 @@
 ### Q13
 - **stem**: Large central vacuoles are typical of…
 - **options**:
-  - A) animal cells
-  - B) plant cells
+  - A) plant cells
+  - B) animal cells
   - C) viruses
   - D) all bacteria without exception in exams always
-- **answer**: B
+- **answer**: A
 - **explanation**: Mature plant cells often have a large central vacuole.
 - **skill**: compare
 - **difficulty**: easy
@@ -196,10 +196,10 @@
 - **stem**: Xylem mainly transports…
 - **options**:
   - A) food from leaves
-  - B) water and minerals from roots
-  - C) oxygen in blood
+  - B) oxygen in blood
+  - C) water and minerals from roots
   - D) hormones only in animals
-- **answer**: B
+- **answer**: C
 - **explanation**: Xylem conducts water and minerals upward.
 - **skill**: tissue
 - **difficulty**: medium
@@ -208,10 +208,10 @@
 - **stem**: Phloem transports…
 - **options**:
   - A) water only upward always
-  - B) food (sugars) to plant parts
-  - C) only carbon dioxide
-  - D) only sunlight
-- **answer**: B
+  - B) only carbon dioxide
+  - C) only sunlight
+  - D) food (sugars) to plant parts
+- **answer**: D
 - **explanation**: Phloem moves prepared food.
 - **skill**: tissue
 - **difficulty**: medium
@@ -219,11 +219,11 @@
 ### Q17
 - **stem**: Which organelle packages and dispatches proteins?
 - **options**:
-  - A) lysosome
-  - B) golgi apparatus
+  - A) golgi apparatus
+  - B) lysosome
   - C) chloroplast
   - D) cell wall
-- **answer**: B
+- **answer**: A
 - **explanation**: Golgi modifies and packages materials.
 - **skill**: organelle
 - **difficulty**: medium
@@ -244,10 +244,10 @@
 - **stem**: Connective tissue examples include…
 - **options**:
   - A) skin epithelium only
-  - B) blood, bone and cartilage
-  - C) xylem
+  - B) xylem
+  - C) blood, bone and cartilage
   - D) meristem
-- **answer**: B
+- **answer**: C
 - **explanation**: Blood, bone and cartilage are connective tissues.
 - **skill**: tissue
 - **difficulty**: medium
@@ -256,10 +256,10 @@
 - **stem**: Muscle tissue is specialised for…
 - **options**:
   - A) impulse only
-  - B) contraction and movement
-  - C) photosynthesis
-  - D) covering surfaces only
-- **answer**: B
+  - B) photosynthesis
+  - C) covering surfaces only
+  - D) contraction and movement
+- **answer**: D
 - **explanation**: Muscles contract to produce movement.
 - **skill**: tissue
 - **difficulty**: easy
@@ -267,11 +267,11 @@
 ### Q21
 - **stem**: Nervous tissue is specialised to…
 - **options**:
-  - A) store fat
-  - B) transmit impulses
+  - A) transmit impulses
+  - B) store fat
   - C) transport water in stems
   - D) make glucose in leaves
-- **answer**: B
+- **answer**: A
 - **explanation**: Neurons transmit electrical/chemical signals.
 - **skill**: tissue
 - **difficulty**: easy
@@ -280,10 +280,10 @@
 - **stem**: Which is unicellular?
 - **options**:
   - A) mango tree
-  - B) human
-  - C) Amoeba
+  - B) Amoeba
+  - C) human
   - D) rose plant
-- **answer**: C
+- **answer**: B
 - **explanation**: Amoeba is a single-celled organism.
 - **skill**: basics
 - **difficulty**: easy
@@ -292,10 +292,10 @@
 - **stem**: Cell wall of plants is mainly made of…
 - **options**:
   - A) chitin only as in all plants
-  - B) cellulose
-  - C) peptidoglycan only
+  - B) peptidoglycan only
+  - C) cellulose
   - D) keratin
-- **answer**: B
+- **answer**: C
 - **explanation**: Plant cell walls are chiefly cellulose.
 - **skill**: compare
 - **difficulty**: easy
@@ -304,10 +304,10 @@
 - **stem**: Chromosomes are found in the…
 - **options**:
   - A) vacuole
-  - B) nucleus
-  - C) cell wall
-  - D) mitochondrial nickname only never nucleus
-- **answer**: B
+  - B) cell wall
+  - C) mitochondrial nickname only never nucleus
+  - D) nucleus
+- **answer**: D
 - **explanation**: Chromosomes reside in the nucleus (as chromatin/chromosomes).
 - **skill**: organelle
 - **difficulty**: easy
@@ -317,11 +317,11 @@
 ### Q01
 - **stem**: Who proposed that all cells arise from pre-existing cells?
 - **options**:
-  - A) Hooke alone
-  - B) Virchow
+  - A) Virchow
+  - B) Hooke alone
   - C) Einstein
   - D) Lavoisier
-- **answer**: B
+- **answer**: A
 - **explanation**: Virchow: Omnis cellula e cellula.
 - **skill**: history
 - **difficulty**: medium
@@ -342,10 +342,10 @@
 - **stem**: Which cells lack chloroplasts?
 - **options**:
   - A) leaf mesophyll cells
-  - B) typical animal cells
-  - C) green algal cells with chloroplasts
+  - B) green algal cells with chloroplasts
+  - C) typical animal cells
   - D) plant guard cells
-- **answer**: B
+- **answer**: C
 - **explanation**: Animal cells do not have chloroplasts.
 - **skill**: compare
 - **difficulty**: easy
@@ -354,10 +354,10 @@
 - **stem**: Permanent tissues in plants are formed from…
 - **options**:
   - A) blood
-  - B) meristematic tissues that have lost the ability to divide
-  - C) only animal epithelium
-  - D) viruses
-- **answer**: B
+  - B) only animal epithelium
+  - C) viruses
+  - D) meristematic tissues that have lost the ability to divide
+- **answer**: D
 - **explanation**: Differentiation of meristems yields permanent tissues.
 - **skill**: tissue
 - **difficulty**: medium
@@ -365,11 +365,11 @@
 ### Q05
 - **stem**: Parenchyma typically…
 - **options**:
-  - A) is dead with thick lignin always
-  - B) is living and soft, often storing food
+  - A) is living and soft, often storing food
+  - B) is dead with thick lignin always
   - C) transmits nerve impulses
   - D) contracts like biceps
-- **answer**: B
+- **answer**: A
 - **explanation**: Parenchyma is living ground tissue, often storage.
 - **skill**: tissue
 - **difficulty**: medium
@@ -377,11 +377,11 @@
 ### Q06
 - **stem**: Collenchyma provides…
 - **options**:
-  - A) flexibility and support to growing plant parts
-  - B) impulse conduction
+  - A) impulse conduction
+  - B) flexibility and support to growing plant parts
   - C) oxygen transport in blood
   - D) only flower colour
-- **answer**: A
+- **answer**: B
 - **explanation**: Collenchyma supports young stems/petioles with flexibility.
 - **skill**: tissue
 - **difficulty**: medium
@@ -390,10 +390,10 @@
 - **stem**: The nucleus is separated from cytoplasm by the…
 - **options**:
   - A) cell wall
-  - B) nuclear membrane
-  - C) xylem
+  - B) xylem
+  - C) nuclear membrane
   - D) cuticle only
-- **answer**: B
+- **answer**: C
 - **explanation**: Nuclear envelope/membrane bounds the nucleus.
 - **skill**: organelle
 - **difficulty**: easy
@@ -402,10 +402,10 @@
 - **stem**: Mitochondria are more numerous in cells that…
 - **options**:
   - A) need little energy
-  - B) require a lot of energy
-  - C) are dead xylem vessels only
-  - D) have no membrane
-- **answer**: B
+  - B) are dead xylem vessels only
+  - C) have no membrane
+  - D) require a lot of energy
+- **answer**: D
 - **explanation**: Active cells need more mitochondria for ATP.
 - **skill**: organelle
 - **difficulty**: medium
@@ -413,11 +413,11 @@
 ### Q09
 - **stem**: Which is an example of a connective tissue that is fluid?
 - **options**:
-  - A) bone
-  - B) blood
+  - A) blood
+  - B) bone
   - C) cartilage only
   - D) tendon only
-- **answer**: B
+- **answer**: A
 - **explanation**: Blood is a fluid connective tissue.
 - **skill**: tissue
 - **difficulty**: medium
@@ -438,10 +438,10 @@
 - **stem**: Smooth muscles are found in…
 - **options**:
   - A) biceps mainly
-  - B) walls of internal organs (involuntary)
-  - C) heart only as skeletal
+  - B) heart only as skeletal
+  - C) walls of internal organs (involuntary)
   - D) leaf veins
-- **answer**: B
+- **answer**: C
 - **explanation**: Visceral/smooth muscle is involuntary in organ walls.
 - **skill**: tissue
 - **difficulty**: medium
@@ -450,10 +450,10 @@
 - **stem**: The heart is made of…
 - **options**:
   - A) epithelial tissue only
-  - B) cardiac muscle tissue
-  - C) only parenchyma
-  - D) only sclerenchyma
-- **answer**: B
+  - B) only parenchyma
+  - C) only sclerenchyma
+  - D) cardiac muscle tissue
+- **answer**: D
 - **explanation**: Cardiac muscle is specialised heart muscle.
 - **skill**: tissue
 - **difficulty**: easy
@@ -461,11 +461,11 @@
 ### Q13
 - **stem**: Plastids that store starch are…
 - **options**:
-  - A) chloroplasts
-  - B) leucoplasts (amyloplasts)
+  - A) leucoplasts (amyloplasts)
+  - B) chloroplasts
   - C) chromoplasts that always photosynthesise
   - D) lysosomes
-- **answer**: B
+- **answer**: A
 - **explanation**: Leucoplasts/amyloplasts store starch.
 - **skill**: organelle
 - **difficulty**: hard
@@ -486,10 +486,10 @@
 - **stem**: Which feature is absent in prokaryotes?
 - **options**:
   - A) ribosomes
-  - B) membrane-bound organelles like mitochondria
-  - C) plasma membrane
+  - B) plasma membrane
+  - C) membrane-bound organelles like mitochondria
   - D) DNA
-- **answer**: B
+- **answer**: C
 - **explanation**: Prokaryotes lack membrane-bound organelles.
 - **skill**: classify
 - **difficulty**: medium
@@ -498,10 +498,10 @@
 - **stem**: The outermost layer in plant cells is usually the…
 - **options**:
   - A) plasma membrane inside the wall
-  - B) cell wall
-  - C) nuclear membrane outside everything
-  - D) cytoplasm shell
-- **answer**: B
+  - B) nuclear membrane outside everything
+  - C) cytoplasm shell
+  - D) cell wall
+- **answer**: D
 - **explanation**: Cell wall is outside the plasma membrane in plants.
 - **skill**: compare
 - **difficulty**: easy
@@ -533,11 +533,11 @@
 ### Q19
 - **stem**: Who observed living cells (e.g., protozoa) with better microscopes after Hooke?
 - **options**:
-  - A) Leeuwenhoek
-  - B) Dalton
-  - C) Bohr
+  - A) Dalton
+  - B) Bohr
+  - C) Leeuwenhoek
   - D) Faraday
-- **answer**: A
+- **answer**: C
 - **explanation**: Antonie van Leeuwenhoek observed living microbes/cells.
 - **skill**: history
 - **difficulty**: medium
@@ -545,11 +545,11 @@
 ### Q20
 - **stem**: Cell theory states that…
 - **options**:
-  - A) all living beings are made of cells / cell products
-  - B) rocks are made of cells
-  - C) energy cannot be created
-  - D) atoms are indivisible
-- **answer**: A
+  - A) rocks are made of cells
+  - B) energy cannot be created
+  - C) atoms are indivisible
+  - D) all living beings are made of cells / cell products
+- **answer**: D
 - **explanation**: Cell theory concerns organisation of living things.
 - **skill**: basics
 - **difficulty**: easy
@@ -557,11 +557,11 @@
 ### Q21
 - **stem**: Vacuoles in animal cells are generally…
 - **options**:
-  - A) larger than in plants
-  - B) smaller (when present) than the plant central vacuole
+  - A) smaller (when present) than the plant central vacuole
+  - B) larger than in plants
   - C) made of cellulose wall
   - D) absent in all cells forever
-- **answer**: B
+- **answer**: A
 - **explanation**: Animal vacuoles are smaller/more temporary than plant central vacuoles.
 - **skill**: compare
 - **difficulty**: medium
@@ -582,10 +582,10 @@
 - **stem**: A multicellular organism…
 - **options**:
   - A) has only one cell
-  - B) is made of many cells
-  - C) cannot have tissues
+  - B) cannot have tissues
+  - C) is made of many cells
   - D) never grows
-- **answer**: B
+- **answer**: C
 - **explanation**: Multi- = many cells.
 - **skill**: basics
 - **difficulty**: easy
@@ -594,10 +594,10 @@
 - **stem**: The organelle involved in photosynthesis contains the pigment…
 - **options**:
   - A) haemoglobin
-  - B) chlorophyll
-  - C) melanin only
-  - D) keratin
-- **answer**: B
+  - B) melanin only
+  - C) keratin
+  - D) chlorophyll
+- **answer**: D
 - **explanation**: Chlorophyll in chloroplasts captures light.
 - **skill**: organelle
 - **difficulty**: easy

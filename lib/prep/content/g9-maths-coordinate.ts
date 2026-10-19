@@ -21,11 +21,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "In the ordered pair (3, −2), the abscissa is…",
     options: [
       { id: "a", text: "−2" },
-      { id: "b", text: "3" },
-      { id: "c", text: "0" },
+      { id: "b", text: "0" },
+      { id: "c", text: "3" },
       { id: "d", text: "5" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Abscissa means the x-coordinate, which is 3.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -34,11 +34,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "The point (−4, 5) lies in which quadrant?",
     options: [
       { id: "a", text: "I" },
-      { id: "b", text: "II" },
-      { id: "c", text: "III" },
-      { id: "d", text: "IV" }
+      { id: "b", text: "III" },
+      { id: "c", text: "IV" },
+      { id: "d", text: "II" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "x negative, y positive → quadrant II.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-coord-a-q04",
     prompt: "A point on the x-axis has…",
     options: [
-      { id: "a", text: "x = 0" },
-      { id: "b", text: "y = 0" },
+      { id: "a", text: "y = 0" },
+      { id: "b", text: "x = 0" },
       { id: "c", text: "x = y" },
       { id: "d", text: "x = −y" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "On the x-axis the y-coordinate is 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -86,11 +86,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "The ordinate of (−7, 0) is…",
     options: [
       { id: "a", text: "−7" },
-      { id: "b", text: "0" },
-      { id: "c", text: "7" },
-      { id: "d", text: "undefined" }
+      { id: "b", text: "7" },
+      { id: "c", text: "undefined" },
+      { id: "d", text: "0" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Ordinate is the y-coordinate: 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -98,12 +98,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-coord-a-q08",
     prompt: "Points (2, 0), (−3, 0) and (5, 0) are…",
     options: [
-      { id: "a", text: "on the y-axis" },
-      { id: "b", text: "on the x-axis" },
+      { id: "a", text: "on the x-axis" },
+      { id: "b", text: "on the y-axis" },
       { id: "c", text: "in quadrant I" },
       { id: "d", text: "at the origin" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Each has y = 0, so all lie on the x-axis.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -124,12 +124,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-coord-a-q10",
     prompt: "If a point has equal abscissa and ordinate and lies in quadrant I, an example is…",
     options: [
-      { id: "a", text: "(2, 2)" },
-      { id: "b", text: "(−2, −2)" },
-      { id: "c", text: "(2, −2)" },
+      { id: "a", text: "(−2, −2)" },
+      { id: "b", text: "(2, −2)" },
+      { id: "c", text: "(2, 2)" },
       { id: "d", text: "(−2, 2)" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Equal positive coordinates sit in quadrant I.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-coord-a-q11",
     prompt: "Distance between (0, 0) and (3, 4) is…",
     options: [
-      { id: "a", text: "5" },
-      { id: "b", text: "7" },
-      { id: "c", text: "12" },
-      { id: "d", text: "25" }
+      { id: "a", text: "7" },
+      { id: "b", text: "12" },
+      { id: "c", text: "25" },
+      { id: "d", text: "5" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "√(3² + 4²) = √(9+16) = 5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-coord-a-q12",
     prompt: "Which point is 3 units to the left of the origin on the x-axis?",
     options: [
-      { id: "a", text: "(3, 0)" },
-      { id: "b", text: "(0, 3)" },
-      { id: "c", text: "(−3, 0)" },
+      { id: "a", text: "(−3, 0)" },
+      { id: "b", text: "(3, 0)" },
+      { id: "c", text: "(0, 3)" },
       { id: "d", text: "(0, −3)" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Left on the x-axis means negative x: (−3, 0).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -164,11 +164,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "The signs of coordinates in quadrant IV are…",
     options: [
       { id: "a", text: "(+, +)" },
-      { id: "b", text: "(−, +)" },
-      { id: "c", text: "(−, −)" },
-      { id: "d", text: "(+, −)" }
+      { id: "b", text: "(+, −)" },
+      { id: "c", text: "(−, +)" },
+      { id: "d", text: "(−, −)" }
     ],
-    answerId: "d",
+    answerId: "b",
     explanation: "Quadrant IV: x positive, y negative.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -177,11 +177,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "If P(x, y) lies on the y-axis, then…",
     options: [
       { id: "a", text: "y = 0" },
-      { id: "b", text: "x = 0" },
-      { id: "c", text: "x = y" },
+      { id: "b", text: "x = y" },
+      { id: "c", text: "x = 0" },
       { id: "d", text: "x + y = 0" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "On the y-axis, x = 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -191,10 +191,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "in quadrant III" },
       { id: "b", text: "in quadrant IV" },
-      { id: "c", text: "on the negative y-axis" },
-      { id: "d", text: "on the positive x-axis" }
+      { id: "c", text: "on the positive x-axis" },
+      { id: "d", text: "on the negative y-axis" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "x = 0 and y < 0 means on the negative y-axis (not inside a quadrant).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -215,12 +215,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-coord-a-q17",
     prompt: "Reflecting (5, −2) in the y-axis gives…",
     options: [
-      { id: "a", text: "(−5, −2)" },
-      { id: "b", text: "(5, 2)" },
+      { id: "a", text: "(5, 2)" },
+      { id: "b", text: "(−5, −2)" },
       { id: "c", text: "(−5, 2)" },
       { id: "d", text: "(2, −5)" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "y-axis reflection flips the sign of x.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -229,11 +229,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which ordered pair represents the origin?",
     options: [
       { id: "a", text: "(1, 1)" },
-      { id: "b", text: "(0, 0)" },
-      { id: "c", text: "(0, 1)" },
+      { id: "b", text: "(0, 1)" },
+      { id: "c", text: "(0, 0)" },
       { id: "d", text: "(1, 0)" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "The origin is (0, 0).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -242,11 +242,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "A point with abscissa −3 and ordinate 7 is written…",
     options: [
       { id: "a", text: "(7, −3)" },
-      { id: "b", text: "(−3, 7)" },
-      { id: "c", text: "(−3, −7)" },
-      { id: "d", text: "(3, 7)" }
+      { id: "b", text: "(−3, −7)" },
+      { id: "c", text: "(3, 7)" },
+      { id: "d", text: "(−3, 7)" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Ordered pairs are (abscissa, ordinate) = (−3, 7).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -254,12 +254,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-coord-a-q20",
     prompt: "How many quadrants does the Cartesian plane have?",
     options: [
-      { id: "a", text: "2" },
-      { id: "b", text: "3" },
-      { id: "c", text: "4" },
+      { id: "a", text: "4" },
+      { id: "b", text: "2" },
+      { id: "c", text: "3" },
       { id: "d", text: "5" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "The two axes divide the plane into four quadrants.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -267,12 +267,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-coord-a-q21",
     prompt: "Which point on the y-axis is equidistant from (2, 0) and (−2, 0)?",
     options: [
-      { id: "a", text: "(0, 0)" },
-      { id: "b", text: "(2, 2)" },
+      { id: "a", text: "(2, 2)" },
+      { id: "b", text: "(0, 0)" },
       { id: "c", text: "(1, 0)" },
       { id: "d", text: "(2, 0)" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Any point (0, y) is equidistant from (2,0) and (−2,0); among the options, (0,0) works.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -281,11 +281,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "If both coordinates of a point are zero, the point…",
     options: [
       { id: "a", text: "lies in quadrant I" },
-      { id: "b", text: "is the origin" },
-      { id: "c", text: "lies on x-axis only, not y-axis" },
+      { id: "b", text: "lies on x-axis only, not y-axis" },
+      { id: "c", text: "is the origin" },
       { id: "d", text: "does not exist" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "(0,0) is the origin, belonging to both axes.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -307,11 +307,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "The vertical line through (−2, 5) has equation…",
     options: [
       { id: "a", text: "y = −2" },
-      { id: "b", text: "x = −2" },
-      { id: "c", text: "y = 5" },
-      { id: "d", text: "x = 5" }
+      { id: "b", text: "y = 5" },
+      { id: "c", text: "x = 5" },
+      { id: "d", text: "x = −2" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "A vertical line has constant x-coordinate: x = −2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
@@ -322,12 +322,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-coord-b-q01",
     prompt: "The Cartesian plane is also called the…",
     options: [
-      { id: "a", text: "number line only" },
-      { id: "b", text: "coordinate plane" },
+      { id: "a", text: "coordinate plane" },
+      { id: "b", text: "number line only" },
       { id: "c", text: "quadrant line" },
       { id: "d", text: "ray plane" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "It is the coordinate (or Cartesian) plane.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -336,11 +336,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Point (0, 8) lies…",
     options: [
       { id: "a", text: "in quadrant I" },
-      { id: "b", text: "on the positive y-axis" },
-      { id: "c", text: "on the positive x-axis" },
+      { id: "b", text: "on the positive x-axis" },
+      { id: "c", text: "on the positive y-axis" },
       { id: "d", text: "in quadrant II" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "x = 0, y > 0 → positive y-axis.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -349,11 +349,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "In quadrant II, x is ____ and y is ____.",
     options: [
       { id: "a", text: "positive, positive" },
-      { id: "b", text: "negative, positive" },
-      { id: "c", text: "negative, negative" },
-      { id: "d", text: "positive, negative" }
+      { id: "b", text: "negative, negative" },
+      { id: "c", text: "positive, negative" },
+      { id: "d", text: "negative, positive" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Quadrant II: x < 0, y > 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -374,12 +374,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-coord-b-q05",
     prompt: "Mirror image of (−1, 6) across the origin is…",
     options: [
-      { id: "a", text: "(1, −6)" },
-      { id: "b", text: "(−1, −6)" },
+      { id: "a", text: "(−1, −6)" },
+      { id: "b", text: "(1, −6)" },
       { id: "c", text: "(1, 6)" },
       { id: "d", text: "(6, −1)" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Point reflection through origin: (x, y) → (−x, −y).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -389,10 +389,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "(4, 0)" },
       { id: "b", text: "(4, −2)" },
-      { id: "c", text: "(4, 7)" },
-      { id: "d", text: "(0, 4)" }
+      { id: "c", text: "(0, 4)" },
+      { id: "d", text: "(4, 7)" }
     ],
-    answerId: "d",
+    answerId: "c",
     explanation: "(0, 4) has x = 0, not 4.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -427,11 +427,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "The point (7, 7) lies…",
     options: [
       { id: "a", text: "on the x-axis" },
-      { id: "b", text: "on the y-axis" },
-      { id: "c", text: "on the line y = x in quadrant I" },
+      { id: "b", text: "on the line y = x in quadrant I" },
+      { id: "c", text: "on the y-axis" },
       { id: "d", text: "at the origin" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Equal positive coordinates → on y = x in quadrant I.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -453,11 +453,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Coordinates of a point 4 units above the x-axis and 3 units left of the y-axis are…",
     options: [
       { id: "a", text: "(4, −3)" },
-      { id: "b", text: "(−3, 4)" },
-      { id: "c", text: "(3, 4)" },
+      { id: "b", text: "(3, 4)" },
+      { id: "c", text: "(−3, 4)" },
       { id: "d", text: "(−4, 3)" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Left of y-axis → x = −3; above x-axis → y = 4.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -466,11 +466,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which is true for every point on the x-axis?",
     options: [
       { id: "a", text: "abscissa is zero" },
-      { id: "b", text: "ordinate is zero" },
-      { id: "c", text: "both coordinates equal" },
-      { id: "d", text: "both coordinates positive" }
+      { id: "b", text: "both coordinates equal" },
+      { id: "c", text: "both coordinates positive" },
+      { id: "d", text: "ordinate is zero" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "y = 0 for every point on the x-axis.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -478,12 +478,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-coord-b-q13",
     prompt: "The area of the triangle formed by (0,0), (4,0) and (0,3) is…",
     options: [
-      { id: "a", text: "12" },
-      { id: "b", text: "6" },
+      { id: "a", text: "6" },
+      { id: "b", text: "12" },
       { id: "c", text: "7" },
       { id: "d", text: "24" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Right triangle with legs 4 and 3: area = (1/2)·4·3 = 6.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -492,11 +492,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Point (−3, −3) lies in…",
     options: [
       { id: "a", text: "I" },
-      { id: "b", text: "II" },
-      { id: "c", text: "III" },
+      { id: "b", text: "III" },
+      { id: "c", text: "II" },
       { id: "d", text: "IV" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Both negative → quadrant III.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -505,11 +505,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "The horizontal line through (5, −2) has equation…",
     options: [
       { id: "a", text: "x = 5" },
-      { id: "b", text: "y = −2" },
-      { id: "c", text: "x = −2" },
+      { id: "b", text: "x = −2" },
+      { id: "c", text: "y = −2" },
       { id: "d", text: "y = 5" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Horizontal lines have constant y.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -517,12 +517,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-coord-b-q16",
     prompt: "Distance between (−1, −1) and (2, 3) is…",
     options: [
-      { id: "a", text: "5" },
-      { id: "b", text: "√18" },
-      { id: "c", text: "7" },
-      { id: "d", text: "25" }
+      { id: "a", text: "√18" },
+      { id: "b", text: "7" },
+      { id: "c", text: "25" },
+      { id: "d", text: "5" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "√[(2−(−1))² + (3−(−1))²] = √(9+16) = 5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -543,12 +543,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-coord-b-q18",
     prompt: "If a point lies in quadrant I, then…",
     options: [
-      { id: "a", text: "x > 0 and y > 0" },
-      { id: "b", text: "x < 0 and y > 0" },
+      { id: "a", text: "x < 0 and y > 0" },
+      { id: "b", text: "x > 0 and y > 0" },
       { id: "c", text: "x > 0 and y < 0" },
       { id: "d", text: "x < 0 and y < 0" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Quadrant I is the (+, +) region.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -557,11 +557,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "The points (1, 2) and (1, −5)…",
     options: [
       { id: "a", text: "have the same ordinate" },
-      { id: "b", text: "lie on a vertical line" },
-      { id: "c", text: "lie on the x-axis" },
+      { id: "b", text: "lie on the x-axis" },
+      { id: "c", text: "lie on a vertical line" },
       { id: "d", text: "are the same point" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Same x-coordinate ⇒ vertical line x = 1.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -569,12 +569,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-coord-b-q20",
     prompt: "Coordinates (−6, 0) describe a point…",
     options: [
-      { id: "a", text: "6 units left of origin on the x-axis" },
-      { id: "b", text: "6 units up on the y-axis" },
-      { id: "c", text: "in quadrant II" },
-      { id: "d", text: "in quadrant III" }
+      { id: "a", text: "6 units up on the y-axis" },
+      { id: "b", text: "in quadrant II" },
+      { id: "c", text: "in quadrant III" },
+      { id: "d", text: "6 units left of origin on the x-axis" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "y = 0 and x = −6 → on the negative x-axis.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -608,12 +608,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-coord-b-q23",
     prompt: "Which pair of points are symmetric about the y-axis?",
     options: [
-      { id: "a", text: "(2, 3) and (−2, 3)" },
-      { id: "b", text: "(2, 3) and (2, −3)" },
-      { id: "c", text: "(2, 3) and (−2, −3)" },
+      { id: "a", text: "(2, 3) and (2, −3)" },
+      { id: "b", text: "(2, 3) and (−2, −3)" },
+      { id: "c", text: "(2, 3) and (−2, 3)" },
       { id: "d", text: "(2, 3) and (3, 2)" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "y-axis symmetry flips x only: (2,3) ↔ (−2,3).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -622,11 +622,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "The origin is…",
     options: [
       { id: "a", text: "in quadrant I only" },
-      { id: "b", text: "the intersection of the axes" },
-      { id: "c", text: "not a point of the plane" },
-      { id: "d", text: "only on the x-axis, not the y-axis" }
+      { id: "b", text: "not a point of the plane" },
+      { id: "c", text: "only on the x-axis, not the y-axis" },
+      { id: "d", text: "the intersection of the axes" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Origin is where both axes meet and belongs to both.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }

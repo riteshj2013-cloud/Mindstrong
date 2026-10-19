@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-eng-gram-a-q01",
     prompt: "Choose the correct verb: She ____ to school by bus.",
     options: [
-      { id: "a", text: "go" },
-      { id: "b", text: "goes" },
+      { id: "a", text: "goes" },
+      { id: "b", text: "go" },
       { id: "c", text: "going" },
       { id: "d", text: "gone" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "She is singular third person, so the present form is goes.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -21,11 +21,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Choose the correct verb: The boys ____ playing cricket.",
     options: [
       { id: "a", text: "is" },
-      { id: "b", text: "are" },
-      { id: "c", text: "am" },
-      { id: "d", text: "be" }
+      { id: "b", text: "am" },
+      { id: "c", text: "be" },
+      { id: "d", text: "are" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Boys is plural → are.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -33,12 +33,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-eng-gram-a-q03",
     prompt: "Identify the noun: The librarian opened a new shelf.",
     options: [
-      { id: "a", text: "opened" },
-      { id: "b", text: "new" },
-      { id: "c", text: "librarian" },
+      { id: "a", text: "librarian" },
+      { id: "b", text: "opened" },
+      { id: "c", text: "new" },
       { id: "d", text: "a" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Librarian names a person — a noun.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -47,11 +47,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Identify the adjective: Meera read an exciting story.",
     options: [
       { id: "a", text: "Meera" },
-      { id: "b", text: "read" },
-      { id: "c", text: "exciting" },
+      { id: "b", text: "exciting" },
+      { id: "c", text: "read" },
       { id: "d", text: "story" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Exciting describes the story — an adjective.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -86,11 +86,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Past tense of write is —",
     options: [
       { id: "a", text: "writed" },
-      { id: "b", text: "wrote" },
-      { id: "c", text: "writtened" },
-      { id: "d", text: "writing" }
+      { id: "b", text: "writtened" },
+      { id: "c", text: "writing" },
+      { id: "d", text: "wrote" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Write → wrote (past) → written (past participle).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -99,11 +99,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Choose the correct pronoun: Ravi and ____ are partners.",
     options: [
       { id: "a", text: "me" },
-      { id: "b", text: "I" },
-      { id: "c", text: "mine" },
+      { id: "b", text: "mine" },
+      { id: "c", text: "I" },
       { id: "d", text: "myself" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Subject position needs I: Ravi and I.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -111,12 +111,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-eng-gram-a-q09",
     prompt: "Which sentence is in the future tense?",
     options: [
-      { id: "a", text: "She walks home." },
-      { id: "b", text: "She walked home." },
-      { id: "c", text: "She will walk home." },
+      { id: "a", text: "She will walk home." },
+      { id: "b", text: "She walks home." },
+      { id: "c", text: "She walked home." },
       { id: "d", text: "She is walking home." }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Will walk marks future time.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -151,11 +151,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Choose the correct preposition: The book is ____ the table.",
     options: [
       { id: "a", text: "in" },
-      { id: "b", text: "on" },
-      { id: "c", text: "at" },
-      { id: "d", text: "by only for people" }
+      { id: "b", text: "at" },
+      { id: "c", text: "by only for people" },
+      { id: "d", text: "on" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "On the table is the usual preposition for surface contact.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -163,12 +163,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-eng-gram-a-q13",
     prompt: "Which is a complete sentence?",
     options: [
-      { id: "a", text: "When the rain stopped." },
-      { id: "b", text: "The rain stopped." },
+      { id: "a", text: "The rain stopped." },
+      { id: "b", text: "When the rain stopped." },
       { id: "c", text: "Because the rain." },
       { id: "d", text: "Stopping the rain." }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "The rain stopped has a subject and a finite verb.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -203,11 +203,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Direct to indirect: She said, “I am ready.” → She said that she ____ ready.",
     options: [
       { id: "a", text: "am" },
-      { id: "b", text: "was" },
-      { id: "c", text: "is" },
-      { id: "d", text: "were" }
+      { id: "b", text: "is" },
+      { id: "c", text: "were" },
+      { id: "d", text: "was" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Present am becomes was in backshift after a past reporting verb.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -215,12 +215,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-eng-gram-a-q17",
     prompt: "Choose the correct conjunction: I stayed home ____ it was raining.",
     options: [
-      { id: "a", text: "and" },
-      { id: "b", text: "but" },
-      { id: "c", text: "because" },
+      { id: "a", text: "because" },
+      { id: "b", text: "and" },
+      { id: "c", text: "but" },
       { id: "d", text: "or" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Because shows reason.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -229,11 +229,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Identify the subject: Across the field ran the foal.",
     options: [
       { id: "a", text: "Across" },
-      { id: "b", text: "the field" },
-      { id: "c", text: "ran" },
-      { id: "d", text: "the foal" }
+      { id: "b", text: "the foal" },
+      { id: "c", text: "the field" },
+      { id: "d", text: "ran" }
     ],
-    answerId: "d",
+    answerId: "b",
     explanation: "The foal is who ran — the subject, even after the verb.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -242,11 +242,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Choose the correct verb: Bread and butter ____ his breakfast.",
     options: [
       { id: "a", text: "are" },
-      { id: "b", text: "is" },
-      { id: "c", text: "were" },
+      { id: "b", text: "were" },
+      { id: "c", text: "is" },
       { id: "d", text: "be" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Treated as one dish → singular is.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -254,12 +254,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-eng-gram-a-q20",
     prompt: "Which word is a collective noun?",
     options: [
-      { id: "a", text: "team" },
-      { id: "b", text: "player" },
-      { id: "c", text: "run" },
-      { id: "d", text: "quickly" }
+      { id: "a", text: "player" },
+      { id: "b", text: "run" },
+      { id: "c", text: "quickly" },
+      { id: "d", text: "team" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Team names a group — a collective noun.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -267,12 +267,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-eng-gram-a-q21",
     prompt: "Choose the correct form: The news ____ good today.",
     options: [
-      { id: "a", text: "are" },
-      { id: "b", text: "is" },
+      { id: "a", text: "is" },
+      { id: "b", text: "are" },
       { id: "c", text: "were" },
       { id: "d", text: "have" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "News is singular in agreement → is.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -281,11 +281,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Identify the interjection: Wow! That catch was brilliant.",
     options: [
       { id: "a", text: "That" },
-      { id: "b", text: "catch" },
-      { id: "c", text: "Wow" },
+      { id: "b", text: "Wow" },
+      { id: "c", text: "catch" },
       { id: "d", text: "brilliant" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Wow! expresses sudden feeling — an interjection.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -307,11 +307,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which sentence uses a possessive pronoun?",
     options: [
       { id: "a", text: "This book is her." },
-      { id: "b", text: "This book is hers." },
-      { id: "c", text: "This book is she." },
-      { id: "d", text: "This book is him." }
+      { id: "b", text: "This book is she." },
+      { id: "c", text: "This book is him." },
+      { id: "d", text: "This book is hers." }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Hers is the possessive pronoun form.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
@@ -322,12 +322,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-eng-gram-b-q01",
     prompt: "Choose the correct verb: My friends ____ here.",
     options: [
-      { id: "a", text: "lives" },
-      { id: "b", text: "live" },
+      { id: "a", text: "live" },
+      { id: "b", text: "lives" },
       { id: "c", text: "living" },
       { id: "d", text: "lived always only" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Friends is plural → live.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -349,11 +349,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Identify the verb: The mangroves protect the coast.",
     options: [
       { id: "a", text: "mangroves" },
-      { id: "b", text: "protect" },
-      { id: "c", text: "the" },
+      { id: "b", text: "the" },
+      { id: "c", text: "protect" },
       { id: "d", text: "coast" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Protect is the action word — the verb.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -362,11 +362,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Choose the correct article: He is ____ honest man.",
     options: [
       { id: "a", text: "a" },
-      { id: "b", text: "an" },
-      { id: "c", text: "the only" },
-      { id: "d", text: "no article" }
+      { id: "b", text: "the only" },
+      { id: "c", text: "no article" },
+      { id: "d", text: "an" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Honest begins with a vowel sound → an.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -374,12 +374,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-eng-gram-b-q05",
     prompt: "Past participle of eat is —",
     options: [
-      { id: "a", text: "ate" },
-      { id: "b", text: "eated" },
-      { id: "c", text: "eaten" },
+      { id: "a", text: "eaten" },
+      { id: "b", text: "ate" },
+      { id: "c", text: "eated" },
       { id: "d", text: "eating" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Eat → ate → eaten.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -414,11 +414,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Choose the correct preposition: Divide the sweets ____ the two sisters.",
     options: [
       { id: "a", text: "among" },
-      { id: "b", text: "between" },
-      { id: "c", text: "in" },
-      { id: "d", text: "into only for liquids" }
+      { id: "b", text: "in" },
+      { id: "c", text: "into only for liquids" },
+      { id: "d", text: "between" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Between is used for two; among for more than two.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -426,12 +426,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-eng-gram-b-q09",
     prompt: "Identify the conjunction: Hurry up, or we will miss the bus.",
     options: [
-      { id: "a", text: "Hurry" },
-      { id: "b", text: "up" },
-      { id: "c", text: "or" },
+      { id: "a", text: "or" },
+      { id: "b", text: "Hurry" },
+      { id: "c", text: "up" },
       { id: "d", text: "bus" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Or joins alternatives — a conjunction.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -453,11 +453,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Change to plural: The child is sleeping.",
     options: [
       { id: "a", text: "The childs is sleeping." },
-      { id: "b", text: "The children are sleeping." },
-      { id: "c", text: "The childrens is sleeping." },
+      { id: "b", text: "The childrens is sleeping." },
+      { id: "c", text: "The children are sleeping." },
       { id: "d", text: "The child are sleeping." }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Child → children; verb becomes are.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -467,10 +467,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "Close the door." },
       { id: "b", text: "What a catch!" },
-      { id: "c", text: "Where is my bat?" },
-      { id: "d", text: "The bat is new." }
+      { id: "c", text: "The bat is new." },
+      { id: "d", text: "Where is my bat?" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Where is my bat? asks a question.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -478,12 +478,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-eng-gram-b-q13",
     prompt: "Choose the correct form: She has ____ the letter.",
     options: [
-      { id: "a", text: "wrote" },
-      { id: "b", text: "written" },
+      { id: "a", text: "written" },
+      { id: "b", text: "wrote" },
       { id: "c", text: "write" },
       { id: "d", text: "writing" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Has takes the past participle written.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -492,11 +492,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Identify the object: Kabir borrowed a magazine.",
     options: [
       { id: "a", text: "Kabir" },
-      { id: "b", text: "borrowed" },
-      { id: "c", text: "a magazine" },
+      { id: "b", text: "a magazine" },
+      { id: "c", text: "borrowed" },
       { id: "d", text: "None" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "A magazine receives the action — the object.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -505,11 +505,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Choose the correct determiner: There isn’t ____ milk left.",
     options: [
       { id: "a", text: "many" },
-      { id: "b", text: "much" },
-      { id: "c", text: "few" },
+      { id: "b", text: "few" },
+      { id: "c", text: "much" },
       { id: "d", text: "several" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Milk is uncountable → much.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -517,12 +517,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-eng-gram-b-q16",
     prompt: "Which sentence is imperative?",
     options: [
-      { id: "a", text: "Please return the books in ten days." },
-      { id: "b", text: "The books are new." },
-      { id: "c", text: "Are the books new?" },
-      { id: "d", text: "What useful books!" }
+      { id: "a", text: "The books are new." },
+      { id: "b", text: "Are the books new?" },
+      { id: "c", text: "What useful books!" },
+      { id: "d", text: "Please return the books in ten days." }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Please return… gives a polite command/request.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -530,12 +530,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-eng-gram-b-q17",
     prompt: "Choose the correct relative pronoun: The girl ____ planted trees is Meera’s heroine.",
     options: [
-      { id: "a", text: "which" },
-      { id: "b", text: "who" },
+      { id: "a", text: "who" },
+      { id: "b", text: "which" },
       { id: "c", text: "whose" },
       { id: "d", text: "what" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Who refers to people.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -557,11 +557,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Choose the correct verb: The committee ____ decided the date.",
     options: [
       { id: "a", text: "have" },
-      { id: "b", text: "has" },
-      { id: "c", text: "are" },
+      { id: "b", text: "are" },
+      { id: "c", text: "has" },
       { id: "d", text: "were" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Committee as one body → has.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -569,12 +569,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-eng-gram-b-q20",
     prompt: "Identify the abstract noun: Honesty makes shopping a pleasure.",
     options: [
-      { id: "a", text: "Honesty" },
-      { id: "b", text: "makes" },
-      { id: "c", text: "shopping" },
-      { id: "d", text: "a" }
+      { id: "a", text: "makes" },
+      { id: "b", text: "shopping" },
+      { id: "c", text: "a" },
+      { id: "d", text: "Honesty" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Honesty names a quality — an abstract noun.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -582,12 +582,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-eng-gram-b-q21",
     prompt: "Choose the correct form: If it rains, we ____ indoors.",
     options: [
-      { id: "a", text: "practise" },
-      { id: "b", text: "practised" },
-      { id: "c", text: "will practise" },
+      { id: "a", text: "will practise" },
+      { id: "b", text: "practise" },
+      { id: "c", text: "practised" },
       { id: "d", text: "practising" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "First conditional: if + present, will + verb.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -609,11 +609,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Choose the correct order: (a) a red (b) she bought (c) ribbon",
     options: [
       { id: "a", text: "a-b-c" },
-      { id: "b", text: "b-a-c" },
-      { id: "c", text: "c-b-a" },
+      { id: "b", text: "c-b-a" },
+      { id: "c", text: "b-a-c" },
       { id: "d", text: "a-c-b" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "She bought a red ribbon.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -622,11 +622,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which sentence has correct punctuation?",
     options: [
       { id: "a", text: "Wow that catch was brilliant" },
-      { id: "b", text: "Wow! That catch was brilliant." },
-      { id: "c", text: "Wow. that catch was brilliant" },
-      { id: "d", text: "Wow that catch was brilliant?" }
+      { id: "b", text: "Wow. that catch was brilliant" },
+      { id: "c", text: "Wow that catch was brilliant?" },
+      { id: "d", text: "Wow! That catch was brilliant." }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Interjection takes ! and the next sentence starts with a capital.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }

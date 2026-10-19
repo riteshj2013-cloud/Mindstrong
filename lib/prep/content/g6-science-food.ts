@@ -20,12 +20,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-food-a-q02",
     prompt: "Proteins are mainly needed for —",
     options: [
-      { id: "a", text: "body building and repair" },
-      { id: "b", text: "only night vision" },
-      { id: "c", text: "making food sweet" },
+      { id: "a", text: "only night vision" },
+      { id: "b", text: "making food sweet" },
+      { id: "c", text: "body building and repair" },
       { id: "d", text: "colouring clothes" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Proteins help build and repair body tissues.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -34,11 +34,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which food is rich in dietary fibre (roughage)?",
     options: [
       { id: "a", text: "Clear oil" },
-      { id: "b", text: "Whole grains and vegetables" },
-      { id: "c", text: "Sugar only" },
-      { id: "d", text: "Salt" }
+      { id: "b", text: "Sugar only" },
+      { id: "c", text: "Salt" },
+      { id: "d", text: "Whole grains and vegetables" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Whole grains, fruits and vegetables provide roughage.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-food-a-q04",
     prompt: "Vitamin C deficiency can cause —",
     options: [
-      { id: "a", text: "scurvy" },
-      { id: "b", text: "goitre" },
-      { id: "c", text: "night blindness" },
+      { id: "a", text: "goitre" },
+      { id: "b", text: "night blindness" },
+      { id: "c", text: "scurvy" },
       { id: "d", text: "anaemia from iron only" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Lack of vitamin C leads to scurvy.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -60,11 +60,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Iodine deficiency is linked to —",
     options: [
       { id: "a", text: "scurvy" },
-      { id: "b", text: "goitre" },
-      { id: "c", text: "rickets" },
-      { id: "d", text: "beri-beri" }
+      { id: "b", text: "rickets" },
+      { id: "c", text: "beri-beri" },
+      { id: "d", text: "goitre" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Lack of iodine can cause goitre (swollen thyroid).",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -99,11 +99,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "A balanced diet means —",
     options: [
       { id: "a", text: "only sweets" },
-      { id: "b", text: "enough of all nutrient groups in right amounts" },
-      { id: "c", text: "only protein" },
+      { id: "b", text: "only protein" },
+      { id: "c", text: "enough of all nutrient groups in right amounts" },
       { id: "d", text: "skipping breakfast always" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "A balanced diet includes carbohydrates, proteins, fats, vitamins, minerals, fibre and water in suitable amounts.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -125,11 +125,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Fats give more energy per gram than carbohydrates, but too much fat can —",
     options: [
       { id: "a", text: "always cure scurvy" },
-      { id: "b", text: "lead to obesity and heart strain" },
-      { id: "c", text: "replace water needs" },
-      { id: "d", text: "remove all fibre" }
+      { id: "b", text: "replace water needs" },
+      { id: "c", text: "remove all fibre" },
+      { id: "d", text: "lead to obesity and heart strain" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Excess fat is linked to obesity and other health problems.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -151,11 +151,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which meal is closest to balanced?",
     options: [
       { id: "a", text: "Only chips" },
-      { id: "b", text: "Roti, dal, sabzi and curd" },
-      { id: "c", text: "Only sweets" },
+      { id: "b", text: "Only sweets" },
+      { id: "c", text: "Roti, dal, sabzi and curd" },
       { id: "d", text: "Only aerated drinks" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Roti (energy), dal (protein), sabzi (vitamins/fibre) and curd (protein/minerals) cover key groups.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -164,11 +164,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Water in the diet is essential because it —",
     options: [
       { id: "a", text: "has no role" },
-      { id: "b", text: "helps transport nutrients and remove wastes" },
-      { id: "c", text: "replaces all proteins" },
-      { id: "d", text: "is a carbohydrate" }
+      { id: "b", text: "replaces all proteins" },
+      { id: "c", text: "is a carbohydrate" },
+      { id: "d", text: "helps transport nutrients and remove wastes" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Water transports substances and helps remove wastes.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -215,12 +215,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-food-a-q17",
     prompt: "Obesity can result from —",
     options: [
-      { id: "a", text: "eating far more energy than you use" },
-      { id: "b", text: "drinking only water" },
-      { id: "c", text: "eating only greens forever" },
+      { id: "a", text: "drinking only water" },
+      { id: "b", text: "eating only greens forever" },
+      { id: "c", text: "eating far more energy than you use" },
       { id: "d", text: "iodine deficiency alone" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Taking in much more energy than the body uses leads to fat storage and obesity.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -242,11 +242,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Milk is a good source of —",
     options: [
       { id: "a", text: "only fibre" },
-      { id: "b", text: "protein and calcium" },
-      { id: "c", text: "iodine only" },
-      { id: "d", text: "roughage only" }
+      { id: "b", text: "iodine only" },
+      { id: "c", text: "roughage only" },
+      { id: "d", text: "protein and calcium" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Milk provides proteins and calcium for bones and teeth.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -254,12 +254,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-food-a-q20",
     prompt: "Roughage helps mainly in —",
     options: [
-      { id: "a", text: "night vision" },
-      { id: "b", text: "smooth bowel movement" },
+      { id: "a", text: "smooth bowel movement" },
+      { id: "b", text: "night vision" },
       { id: "c", text: "making haemoglobin" },
       { id: "d", text: "iodine uptake only" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Dietary fibre aids digestion and bowel movement.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -293,12 +293,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-food-a-q23",
     prompt: "A person with anaemia may need more —",
     options: [
-      { id: "a", text: "iron-rich foods" },
-      { id: "b", text: "only sugar" },
-      { id: "c", text: "only oil" },
+      { id: "a", text: "only sugar" },
+      { id: "b", text: "only oil" },
+      { id: "c", text: "iron-rich foods" },
       { id: "d", text: "iodised salt only for taste" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Anaemia often relates to iron deficiency; iron-rich foods help.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -307,11 +307,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Why is iodised salt recommended?",
     options: [
       { id: "a", text: "It colours food blue" },
-      { id: "b", text: "It helps prevent iodine deficiency disorders" },
-      { id: "c", text: "It replaces all vitamins" },
-      { id: "d", text: "It is pure carbohydrate" }
+      { id: "b", text: "It replaces all vitamins" },
+      { id: "c", text: "It is pure carbohydrate" },
+      { id: "d", text: "It helps prevent iodine deficiency disorders" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Iodised salt supplies iodine to prevent goitre and related problems.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
@@ -322,12 +322,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-food-b-q01",
     prompt: "Carbohydrates are stored in plants mainly as —",
     options: [
-      { id: "a", text: "starch" },
-      { id: "b", text: "iron filings" },
+      { id: "a", text: "iron filings" },
+      { id: "b", text: "starch" },
       { id: "c", text: "plastic" },
       { id: "d", text: "iodine crystals" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Plants store carbohydrates largely as starch.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -335,12 +335,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-food-b-q02",
     prompt: "Which food is a rich protein source for many vegetarians?",
     options: [
-      { id: "a", text: "Pulses (dal)" },
-      { id: "b", text: "Sugar" },
-      { id: "c", text: "Clear oil" },
+      { id: "a", text: "Sugar" },
+      { id: "b", text: "Clear oil" },
+      { id: "c", text: "Pulses (dal)" },
       { id: "d", text: "Salt" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Pulses are important protein foods in vegetarian diets.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-food-b-q03",
     prompt: "Vitamin D helps the body use —",
     options: [
-      { id: "a", text: "calcium for bones" },
-      { id: "b", text: "iodine only" },
-      { id: "c", text: "fibre only" },
-      { id: "d", text: "plastic" }
+      { id: "a", text: "iodine only" },
+      { id: "b", text: "fibre only" },
+      { id: "c", text: "plastic" },
+      { id: "d", text: "calcium for bones" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Vitamin D aids calcium use for strong bones.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-food-b-q04",
     prompt: "Which is NOT a nutrient?",
     options: [
-      { id: "a", text: "Protein" },
-      { id: "b", text: "Vitamin" },
-      { id: "c", text: "Roughage (fibre)" },
-      { id: "d", text: "Plate" }
+      { id: "a", text: "Plate" },
+      { id: "b", text: "Protein" },
+      { id: "c", text: "Vitamin" },
+      { id: "d", text: "Roughage (fibre)" }
     ],
-    answerId: "d",
+    answerId: "a",
     explanation: "A plate is not a nutrient; fibre is considered an important dietary component.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-food-b-q06",
     prompt: "Scurvy symptoms can include —",
     options: [
-      { id: "a", text: "bleeding gums" },
-      { id: "b", text: "goitre only" },
-      { id: "c", text: "blue skin from iodine" },
+      { id: "a", text: "goitre only" },
+      { id: "b", text: "blue skin from iodine" },
+      { id: "c", text: "bleeding gums" },
       { id: "d", text: "stronger night vision" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Scurvy (vitamin C lack) can cause bleeding gums.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-food-b-q07",
     prompt: "A diet with only rice for weeks may lack —",
     options: [
-      { id: "a", text: "enough variety of nutrients" },
-      { id: "b", text: "all carbohydrates forever" },
-      { id: "c", text: "water in rice" },
-      { id: "d", text: "any energy" }
+      { id: "a", text: "all carbohydrates forever" },
+      { id: "b", text: "water in rice" },
+      { id: "c", text: "any energy" },
+      { id: "d", text: "enough variety of nutrients" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Single-food diets miss proteins, vitamins and minerals.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -439,12 +439,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-food-b-q10",
     prompt: "Calcium is especially important for —",
     options: [
-      { id: "a", text: "bones and teeth" },
-      { id: "b", text: "making cloth" },
-      { id: "c", text: "magnetism" },
+      { id: "a", text: "making cloth" },
+      { id: "b", text: "magnetism" },
+      { id: "c", text: "bones and teeth" },
       { id: "d", text: "evaporation" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Calcium strengthens bones and teeth.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -452,12 +452,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-food-b-q11",
     prompt: "Energy-giving foods include —",
     options: [
-      { id: "a", text: "rice and potato" },
-      { id: "b", text: "only vitamin tablets" },
-      { id: "c", text: "only water" },
-      { id: "d", text: "only salt" }
+      { id: "a", text: "only vitamin tablets" },
+      { id: "b", text: "only water" },
+      { id: "c", text: "only salt" },
+      { id: "d", text: "rice and potato" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Rice and potato are carbohydrate-rich energy foods.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -491,12 +491,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-food-b-q14",
     prompt: "Eggs are a good source of —",
     options: [
-      { id: "a", text: "protein" },
-      { id: "b", text: "only fibre" },
+      { id: "a", text: "only fibre" },
+      { id: "b", text: "protein" },
       { id: "c", text: "only iodine salt" },
       { id: "d", text: "cotton" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Eggs provide high-quality protein.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -504,25 +504,25 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-food-b-q15",
     prompt: "A child who rarely plays outdoors may risk low —",
     options: [
-      { id: "a", text: "vitamin D" },
-      { id: "b", text: "cotton fibre" },
-      { id: "c", text: "plastic" },
+      { id: "a", text: "cotton fibre" },
+      { id: "b", text: "plastic" },
+      { id: "c", text: "vitamin D" },
       { id: "d", text: "magnetism" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Less sunlight can mean less vitamin D production.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g6-sci-food-b-q16",
-    prompt: "Which statement is true?",
+    prompt: "Which statement about fats in our diet is true?",
     options: [
       { id: "a", text: "Fats are never needed" },
-      { id: "b", text: "Some fat is needed but not in excess" },
-      { id: "c", text: "Only sugar is a balanced diet" },
-      { id: "d", text: "Water is optional forever" }
+      { id: "b", text: "Only sugar is a balanced diet" },
+      { id: "c", text: "Water is optional forever" },
+      { id: "d", text: "Some fat is needed but not in excess" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "The body needs some fat for energy and vitamins, but excess is harmful.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -543,12 +543,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-food-b-q18",
     prompt: "Which food pair gives both energy and body-building nutrients?",
     options: [
-      { id: "a", text: "Rice and dal" },
-      { id: "b", text: "Only sugar and salt" },
+      { id: "a", text: "Only sugar and salt" },
+      { id: "b", text: "Rice and dal" },
       { id: "c", text: "Only oil and sugar" },
       { id: "d", text: "Only aerated drink and chips" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Rice (carb) + dal (protein) cover energy and building.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -556,12 +556,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-food-b-q19",
     prompt: "Oral rehydration after diarrhoea mainly replaces —",
     options: [
-      { id: "a", text: "lost water and salts" },
-      { id: "b", text: "cotton" },
-      { id: "c", text: "vitamin A only" },
+      { id: "a", text: "cotton" },
+      { id: "b", text: "vitamin A only" },
+      { id: "c", text: "lost water and salts" },
       { id: "d", text: "plastic" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "ORS replaces fluids and electrolytes.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -569,12 +569,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-food-b-q20",
     prompt: "Which is a deficiency disease?",
     options: [
-      { id: "a", text: "Scurvy" },
-      { id: "b", text: "Filtration" },
-      { id: "c", text: "Weaving" },
-      { id: "d", text: "Sieving" }
+      { id: "a", text: "Filtration" },
+      { id: "b", text: "Weaving" },
+      { id: "c", text: "Sieving" },
+      { id: "d", text: "Scurvy" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Scurvy is caused by nutrient deficiency.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -595,12 +595,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-food-b-q22",
     prompt: "Too little protein in the diet may lead to —",
     options: [
-      { id: "a", text: "poor growth and repair" },
-      { id: "b", text: "stronger muscles always" },
+      { id: "a", text: "stronger muscles always" },
+      { id: "b", text: "poor growth and repair" },
       { id: "c", text: "extra vitamin C only" },
       { id: "d", text: "automatic goitre cure" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Proteins are needed for growth and tissue repair.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -609,11 +609,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which practice keeps food safer?",
     options: [
       { id: "a", text: "Leaving cooked food uncovered for days" },
-      { id: "b", text: "Covering and refrigerating leftovers promptly" },
-      { id: "c", text: "Using dirty utensils" },
+      { id: "b", text: "Using dirty utensils" },
+      { id: "c", text: "Covering and refrigerating leftovers promptly" },
       { id: "d", text: "Never washing hands" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Covering and chilling leftovers reduces spoilage and germ growth.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -622,11 +622,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "A balanced thali for a schoolchild should usually include —",
     options: [
       { id: "a", text: "only dessert" },
-      { id: "b", text: "cereal, protein food, vegetables/fruit and some fat in moderation" },
-      { id: "c", text: "only fried snacks" },
-      { id: "d", text: "only vitamins pills" }
+      { id: "b", text: "only fried snacks" },
+      { id: "c", text: "only vitamins pills" },
+      { id: "d", text: "cereal, protein food, vegetables/fruit and some fat in moderation" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "A mixed thali covers major nutrient groups.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }

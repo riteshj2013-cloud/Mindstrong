@@ -2,6 +2,8 @@
 /**
  * Content QA audit: walks every user-visible string in prep chapters + daily packs
  * (skipping raw SVG markup) and flags editorial leaks, exam branding and "$" amounts.
+ * Structural checks on served sets: answer-letter skew (>50% one letter), duplicate stems,
+ * and inline SVG figures missing an aria-label / alt text.
  * Usage: node scripts/audit-content.mjs   (exit 1 on findings)
  */
 import { createJiti } from "jiti";
@@ -55,10 +57,62 @@ for (const s of types.ALL_SUBJECTS) for (const g of types.ALL_GRADES) {
 }
 // Also walk the questions exactly as served (pictorial + hint overlays + runtime cleaning).
 const prep = jiti(path.join(ROOT, "lib/prep/index.ts"));
+/** Every authored set as served: { where, questions }. Used by the structural checks below. */
+const servedSets = [];
 for (const s of types.ALL_SUBJECTS) for (const g of types.ALL_GRADES) {
   const pack = catalog.getPrepPack(s, g);
   for (const c of pack.chapters) for (const set of c.sets) {
-    if (set.questions?.length) walk(prep.getChapterSetQuestions(s, g, c.id, set.id), `served:${s}-g${g}.${c.id}.${set.id}`);
+    if (!set.questions?.length) continue;
+    const qs = prep.getChapterSetQuestions(s, g, c.id, set.id);
+    const where = `served:${s}-g${g}.${c.id}.${set.id}`;
+    walk(qs, where);
+    servedSets.push({ where, questions: qs });
+  }
+}
+
+/** Answer-letter balance: no authored set may have more than 50% of its keys on one letter. */
+for (const { where, questions } of servedSets) {
+  const counts = {};
+  for (const q of questions) counts[q.answerId] = (counts[q.answerId] ?? 0) + 1;
+  const [letter, n] = Object.entries(counts).sort((a, b) => b[1] - a[1])[0];
+  if (n * 2 > questions.length) {
+    findings.push({
+      rule: "answer-skew",
+      where,
+      text: `${n}/${questions.length} answers are "${letter.toUpperCase()}" (max 50%); counts ${JSON.stringify(counts)}`,
+    });
+  }
+}
+
+/** Duplicate stems: the same question text (ignoring case, quotes, punctuation) may appear only once. */
+const normStem = (p) =>
+  String(p ?? "")
+    .toLowerCase()
+    .replace(/\*/g, "")
+    .replace(/[“”"‘’'…—–:?.!,;()]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+const firstStem = new Map();
+for (const { where, questions } of servedSets) {
+  for (const q of questions) {
+    const k = normStem(q.prompt);
+    const prev = firstStem.get(k);
+    if (prev) findings.push({ rule: "duplicate-stem", where: `${where}.${q.id}`, text: `${q.id} repeats the stem of ${prev}: ${q.prompt.slice(-100)}` });
+    else firstStem.set(k, q.id);
+  }
+}
+
+/** Every inline SVG figure needs a meaningful aria-label on its root <svg> (and alt text for the wrapper). */
+for (const { where, questions } of servedSets) {
+  for (const q of questions) {
+    const figs = [["stem", q.figure], ...q.options.map((o) => [`option ${o.id}`, o.figure])];
+    for (const [slot, f] of figs) {
+      if (!f || f.type !== "svg") continue;
+      const root = (f.markup.match(/<svg\b[^>]*>/i) ?? [""])[0];
+      const label = (root.match(/\saria-label\s*=\s*"([^"]*)"/i) ?? [])[1]?.trim() ?? "";
+      if (label.length < 8) findings.push({ rule: "svg-aria-label", where: `${where}.${q.id}`, text: `${q.id} ${slot} SVG has no meaningful aria-label` });
+      if (!f.alt || !f.alt.trim()) findings.push({ rule: "svg-alt", where: `${where}.${q.id}`, text: `${q.id} ${slot} SVG has no alt text (screen readers hear "Diagram")` });
+    }
   }
 }
 walk(types.SUBJECT_META, "SUBJECT_META");
