@@ -1,20 +1,8 @@
 {
  "note": "Known hint-partial-quote items as of 2026-10-19, listed with details in docs/quality/hints-partial-quote-2026-10-19.json. scripts/audit-content.mjs fails on any hit NOT listed here. Delete ids as the writers fix them.",
- "count": 14,
+ "count": 2,
  "items": [
-  "g3-eng-grammar-a-q23",
-  "g4-eng-ch04-b-q04",
-  "g5-eng-ch01-b-q12",
-  "g5-eng-ch04-b-q17",
-  "g5-eng-ch05-b-q16",
-  "g5-eng-ch05-b-q20",
-  "g5-eng-ch05-b-q24",
   "g7-sci-acids-b-q17",
-  "g7-sci-acids-b-q18",
-  "g8-eng-ch02-b-q07",
-  "g8-eng-ch04-a-q08",
-  "g8-eng-ch04-b-q16",
-  "g8-eng-ch05-b-q10",
-  "g8-eng-ch05-b-q22"
+  "g7-sci-acids-b-q18"
  ]
 }

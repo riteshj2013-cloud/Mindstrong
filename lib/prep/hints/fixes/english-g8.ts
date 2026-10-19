@@ -32,7 +32,7 @@ export const G8_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g8-eng-ch02-b-q03": ["\"Since then\" links 1721 to the present day.", "Use the present perfect helper that agrees with \"the sport\", which is singular."],
   "g8-eng-ch02-b-q04": ["The blank joins a clause to \"narrow lanes\", which is a place.", "Choose the relative word that refers to a place."],
   "g8-eng-ch02-b-q05": ["The blank is the subject of \"can hold\" and refers back to \"stadiums\".", "Stadiums are things, not people — and the word must act as the subject of the clause."],
-  "g8-eng-ch02-b-q07": ["The judging is the main past event in Passage P1.", "Past perfect shows which past action finished before another past action."],
+  "g8-eng-ch02-b-q07": ["Find the later past event in Passage P1 that the drip-rate work came before.", "Past perfect shows which past action finished before another past action."],
   "g8-eng-ch02-b-q09": ["\"has stolen\" is present perfect, so the passive keeps the present perfect.", "Present perfect passive = has/have + been + past participle; the doer \"Someone\" can be dropped."],
   "g8-eng-ch02-b-q10": ["\"Listen!\" shows the piano is being played at this very moment.", "Use the present continuous with \"Someone\" (singular)."],
   "g8-eng-ch02-b-q11": ["\"yesterday\" is a finished past time.", "Finished past time takes the simple past, never the present perfect."],
@@ -145,4 +145,10 @@ export const G8_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g8-eng-ch05-a-q20": ["A formal letter has the receiver's address block below the sender's address and date.", "Read the three lines after \"10 November 2026\" in Formal letter P1."],
   "g8-eng-ch05-b-q05": ["Check the \"To:\" line and the greeting in Nisha's email.", "The greeting \"Dear Ms. Iyer\" and the address librarian@peakview.edu.in point to one person."],
   "g8-eng-ch05-b-q21": ["A byline is the line \"By …\" under a title, naming the writer.", "Which of these pieces is written by one named writer for readers to enjoy?"],
+  // Pass 4 (2026-10-19): hint-rules-out / hint-partial-quote rewrites for items not already in this file
+  "g8-eng-ch04-a-q08": ["Notice what Anya says right after \"Point taken\": \"Formal register it is.\""],
+  "g8-eng-ch04-b-q16": ["One marker puts ideas in order; the other shows a turn against the point before."],
+  "g8-eng-ch05-b-q10": ["Which detail gives the reader a real example of danger, with a time?"],
+  "g8-eng-ch05-b-q22": ["Ask what each text mainly does: a notice gives facts and steps; an article shares views."],
+  "g8-eng-lrach-a-q04": ["All three root words, legal, literate and logical, start with the same letter.", "Look at the first letter of each root word; some not-prefixes change their spelling to suit it."],
 };
