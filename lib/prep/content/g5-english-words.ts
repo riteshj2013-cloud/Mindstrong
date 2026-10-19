@@ -239,16 +239,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-a-q19",
-    prompt: "Choose ONE word for: \"a place where books are kept for people to read or borrow.\"",
+    prompt: "Choose ONE word for: \"a shop where medicines are sold.\"",
     options: [
-      { id: "a", text: "library" },
+      { id: "a", text: "pharmacy" },
       { id: "b", text: "bakery" },
       { id: "c", text: "laboratory" },
       { id: "d", text: "museum" }
     ],
     answerId: "a",
-    explanation: "A library keeps books to read and borrow. A laboratory is for experiments, and a museum displays objects.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "A pharmacy (a chemist's shop) sells medicines. 'laboratory' is where scientists do experiments; it is not a shop.",
+    hints: ["Think of the shop you visit with a doctor's prescription.", "A laboratory is for experiments, not for buying medicine."]
   },
   {
     id: "g5-eng-ch03-a-q20",

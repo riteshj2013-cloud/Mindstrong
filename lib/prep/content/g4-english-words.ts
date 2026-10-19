@@ -194,16 +194,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-a-q15",
-    prompt: "Which word means almost the SAME as \"quick\"?",
+    prompt: "Which word means almost the SAME as \"shiny\"?",
     options: [
-      { id: "a", text: "slow" },
-      { id: "b", text: "late" },
-      { id: "c", text: "fast" },
-      { id: "d", text: "lazy" }
+      { id: "a", text: "dull" },
+      { id: "b", text: "rough" },
+      { id: "c", text: "bright" },
+      { id: "d", text: "wet" }
     ],
     answerId: "c",
-    explanation: "Quick and fast both mean moving at great speed. \"Slow\" is the opposite of quick.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Shiny things give back light, so they look bright. 'dull' is the opposite: no shine at all.",
+    hints: ["A shiny new coin catches the light.", "Find another word for shiny, like the sun on a clear day."]
   },
   {
     id: "g4-eng-ch03-a-q16",

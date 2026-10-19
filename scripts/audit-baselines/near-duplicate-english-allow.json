@@ -1,0 +1,39 @@
+{
+ "note": "English pairs that look alike to scripts/near-duplicate-english-stems.mjs but test different targets or tasks (reviewed 2026-10-19). Add a reason for every pair.",
+ "pairs": [
+  "g1-eng-letters-a-q04|g1-eng-letters-a-q07",
+  "g1-eng-letters-a-q05|g1-eng-letters-b-q04",
+  "g1-eng-letters-a-q05|g1-eng-letters-b-q12",
+  "g1-eng-letters-b-q04|g1-eng-letters-b-q12",
+  "g1-eng-grammar-a-q02|g1-eng-grammar-a-q10",
+  "g1-eng-grammar-a-q02|g1-eng-grammar-b-q02",
+  "g1-eng-grammar-a-q02|g1-eng-grammar-b-q10",
+  "g1-eng-grammar-a-q10|g1-eng-grammar-b-q02",
+  "g1-eng-grammar-a-q10|g1-eng-grammar-b-q10",
+  "g1-eng-grammar-b-q02|g1-eng-grammar-b-q10",
+  "g1-eng-grammar-a-q05|g1-eng-grammar-b-q05",
+  "g1-eng-grammar-a-q15|g1-eng-grammar-b-q15",
+  "g2-eng-words-a-q01|g6-eng-vocab-a-q16",
+  "g3-eng-synonyms-a-q02|g6-eng-vocab-b-q16",
+  "g3-eng-synonyms-a-q05|g7-eng-words-b-q05",
+  "g3-eng-antonyms-a-q04|g3-eng-antonyms-b-q03"
+ ],
+ "reasons": {
+  "g1-eng-letters-a-q04|g1-eng-letters-a-q07": "different questions (which is a letter / capital of a)",
+  "g1-eng-letters-a-q05|g1-eng-letters-b-q04": "count letters: SUN vs DOG (different words)",
+  "g1-eng-letters-a-q05|g1-eng-letters-b-q12": "count letters: SUN vs YES (different words)",
+  "g1-eng-letters-b-q04|g1-eng-letters-b-q12": "count letters: DOG vs YES (different words)",
+  "g1-eng-grammar-a-q02|g1-eng-grammar-a-q10": "an + apple vs an + umbrella (different nouns)",
+  "g1-eng-grammar-a-q02|g1-eng-grammar-b-q02": "an + apple vs an + egg (different nouns)",
+  "g1-eng-grammar-a-q02|g1-eng-grammar-b-q10": "an + apple vs an + orange (different nouns)",
+  "g1-eng-grammar-a-q10|g1-eng-grammar-b-q02": "an + umbrella vs an + egg (different nouns)",
+  "g1-eng-grammar-a-q10|g1-eng-grammar-b-q10": "an + umbrella vs an + orange (different nouns)",
+  "g1-eng-grammar-b-q02|g1-eng-grammar-b-q10": "an + egg vs an + orange (different nouns)",
+  "g1-eng-grammar-a-q05|g1-eng-grammar-b-q05": "I am a student / I am hungry (different sentences)",
+  "g1-eng-grammar-a-q15|g1-eng-grammar-b-q15": "a + ball vs a + dog (different nouns)",
+  "g2-eng-words-a-q01|g6-eng-vocab-a-q16": "pick-the-synonym vs odd-one-out (different task)",
+  "g3-eng-synonyms-a-q02|g6-eng-vocab-b-q16": "pick-the-synonym vs odd-one-out (different task)",
+  "g3-eng-synonyms-a-q05|g7-eng-words-b-q05": "pick-the-synonym vs odd-one-out (different task)",
+  "g3-eng-antonyms-a-q04|g3-eng-antonyms-b-q03": "opposite of up vs opposite of above (different targets)"
+ }
+}

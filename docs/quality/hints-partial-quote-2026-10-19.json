@@ -1,118 +1,11 @@
 {
- "note": "hint-partial-quote hits on main as of 2026-10-19 (see scripts/audit-content.mjs for the rule). For the writers: rewrite these hints so they nudge toward the reasoning instead of quoting most of the correct option. Updated after PR #59 (Science rule-out/partial-quote fixes): fixed items removed.",
+ "note": "hint-partial-quote hits on main as of 2026-10-19 (see scripts/audit-content.mjs for the rule). For the writers: rewrite these hints so they nudge toward the reasoning instead of quoting most of the correct option. Updated after #59 (Science) and the English rule-out pass: fixed items removed.",
  "rule": "hint-partial-quote",
- "count": 16,
+ "count": 2,
  "bySubject": {
-  "eng": 12,
-  "maths": 2,
   "sci": 2
  },
  "items": [
-  {
-   "id": "g3-eng-grammar-a-q23",
-   "where": "served:english-g3.grammar.set-a",
-   "hint": "Kabir is a name.",
-   "answer": "my name is kabir.",
-   "words": [
-    "name",
-    "kabir"
-   ],
-   "of": 2
-  },
-  {
-   "id": "g4-eng-ch04-b-q04",
-   "where": "served:english-g4.kind-voices.set-b",
-   "hint": "State your stop clearly.",
-   "answer": "He says please and thank you, and states his stop clearly.",
-   "words": [
-    "state",
-    "stop",
-    "clearly"
-   ],
-   "of": 4
-  },
-  {
-   "id": "g4-maths-data-a-q20",
-   "where": "served:maths-g4.g4-data-handling.set-a",
-   "hint": "On a bar graph, a bar's height shows its value. Test each statement against that.",
-   "answer": "Bars of equal height show equal values",
-   "words": [
-    "height",
-    "show",
-    "value"
-   ],
-   "of": 4
-  },
-  {
-   "id": "g5-eng-ch01-b-q12",
-   "where": "served:english-g5.detective-eyes.set-b",
-   "hint": "“Once” means at an earlier time — the books had been ignored before.",
-   "answer": "Books that had been ignored earlier",
-   "words": [
-    "ignored",
-    "earlier"
-   ],
-   "of": 2
-  },
-  {
-   "id": "g5-eng-ch04-b-q17",
-   "where": "served:english-g5.talk-it-out.set-b",
-   "hint": "Excuse me, ma'am — could you please…? fits class.",
-   "answer": "\"Excuse me, ma'am — could you please repeat the question?\"",
-   "words": [
-    "excuse",
-    "please"
-   ],
-   "of": 2
-  },
-  {
-   "id": "g5-eng-ch05-b-q16",
-   "where": "served:english-g5.write-it-right.set-b",
-   "hint": "Date/time, greeting, facts, name — message checklist.",
-   "answer": "date/time, greeting, key facts, writer's name",
-   "words": [
-    "date",
-    "time",
-    "greeting",
-    "fact",
-    "name"
-   ],
-   "of": 7
-  },
-  {
-   "id": "g5-eng-ch05-b-q20",
-   "where": "served:english-g5.write-it-right.set-b",
-   "hint": "Whole-school facts belong on a notice board.",
-   "answer": "A notice on the board",
-   "words": [
-    "notice",
-    "board"
-   ],
-   "of": 2
-  },
-  {
-   "id": "g5-eng-ch05-b-q24",
-   "where": "served:english-g5.write-it-right.set-b",
-   "hint": "Name and designation appear together at the end.",
-   "answer": "With the name at the end",
-   "words": [
-    "name",
-    "end"
-   ],
-   "of": 2
-  },
-  {
-   "id": "g7-maths-angles-a-q17",
-   "where": "served:maths-g7.lines-angles.set-a",
-   "hint": "Exterior = sum of the other two interiors.",
-   "answer": "Sum of the two remote interior angles",
-   "words": [
-    "sum",
-    "two",
-    "interior"
-   ],
-   "of": 4
-  },
   {
    "id": "g7-sci-acids-b-q17",
    "where": "served:science-g7.acids-bases-salts.set-b",
@@ -138,66 +31,6 @@
     "red"
    ],
    "of": 4
-  },
-  {
-   "id": "g8-eng-ch02-b-q07",
-   "where": "served:english-g8.grammar-microscope.set-b",
-   "hint": "The judging is the main past event in Passage P1.",
-   "answer": "The actions were completed before the main past event, the judging.",
-   "words": [
-    "main",
-    "event",
-    "judging"
-   ],
-   "of": 4
-  },
-  {
-   "id": "g8-eng-ch04-a-q08",
-   "where": "served:english-g8.speak-up-debate.set-a",
-   "hint": "Does 'Point taken' accept or reject advice?",
-   "answer": "accepts Rohan's advice",
-   "words": [
-    "accept",
-    "advice"
-   ],
-   "of": 2
-  },
-  {
-   "id": "g8-eng-ch04-b-q16",
-   "where": "served:english-g8.speak-up-debate.set-b",
-   "hint": "Match Firstly to order and However to contrast.",
-   "answer": "\"Firstly\" = sequence; \"However\" = contrast",
-   "words": [
-    "firstly",
-    "however",
-    "contrast"
-   ],
-   "of": 4
-  },
-  {
-   "id": "g8-eng-ch05-b-q10",
-   "where": "served:english-g8.writing-that-works.set-b",
-   "hint": "Which detail is a specific recent incident, not vague anger?",
-   "answer": "A specific recent incident of students leaping back from a scooter",
-   "words": [
-    "specific",
-    "recent",
-    "incident"
-   ],
-   "of": 4
-  },
-  {
-   "id": "g8-eng-ch05-b-q22",
-   "where": "served:english-g8.writing-that-works.set-b",
-   "hint": "Compare N1's job (inform/instruct) with P2's job (reflect/persuade).",
-   "answer": "N1 mainly informs and instructs; P2 mainly reflects and persuades",
-   "words": [
-    "inform",
-    "instruct",
-    "reflect",
-    "persuade"
-   ],
-   "of": 5
   }
  ]
 }

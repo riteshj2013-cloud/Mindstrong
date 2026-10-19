@@ -5,16 +5,16 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g7-eng-grammar-a-q01",
-    prompt: "Choose the correct verb: She ____ to school every day.",
+    prompt: "Choose the correct verb: The train to Pune ____ at 6 a.m. every day.",
     options: [
-      { id: "a", text: "goes" },
-      { id: "b", text: "go" },
-      { id: "c", text: "going" },
-      { id: "d", text: "gone" }
+      { id: "a", text: "leaves" },
+      { id: "b", text: "leave" },
+      { id: "c", text: "leaving" },
+      { id: "d", text: "are leaving" }
     ],
     answerId: "a",
-    explanation: "Singular subject \u201cShe\u201d takes goes.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Timetable facts use the simple present, and 'the train' is singular, so 'leaves'. 'leave' would need a plural subject.",
+    hints: ["A fixed timetable is a repeated fact, told in the simple present.", "\"The train\" is singular, so the verb needs its he/she/it form."]
   },
   {
     id: "g7-eng-grammar-a-q02",
@@ -70,29 +70,29 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-eng-grammar-a-q06",
-    prompt: "Correct article: She bought ____ umbrella.",
+    prompt: "Correct article: She waited for ____ hour at the station.",
     options: [
       { id: "a", text: "a" },
       { id: "b", text: "an" },
-      { id: "c", text: "the only if unique always" },
-      { id: "d", text: "no article possible" }
+      { id: "c", text: "some" },
+      { id: "d", text: "no article" }
     ],
     answerId: "b",
-    explanation: "Umbrella begins with a vowel sound \u2192 an.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "In 'hour' the h is silent, so the word begins with a vowel sound and takes 'an'. 'a' looks right from the spelling, but the article goes by sound.",
+    hints: ["Say \"hour\" aloud; do you hear the h?", "Choose the article by the first sound, not the first letter of \"hour\"."]
   },
   {
     id: "g7-eng-grammar-a-q07",
-    prompt: "Choose the correct tense: Yesterday we ____ a film.",
+    prompt: "Choose the correct tense: Last Sunday we ____ our grandparents.",
     options: [
-      { id: "a", text: "watch" },
-      { id: "b", text: "watching" },
-      { id: "c", text: "watched" },
-      { id: "d", text: "watches" }
+      { id: "a", text: "visit" },
+      { id: "b", text: "visiting" },
+      { id: "c", text: "visited" },
+      { id: "d", text: "visits" }
     ],
     answerId: "c",
-    explanation: "Yesterday signals past tense.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "'Last Sunday' points to a finished time in the past, so the simple past 'visited' is right. 'visit' is present tense.",
+    hints: ["\"Last Sunday\" is already over.", "Pick the form that shows a finished action in the past."]
   },
   {
     id: "g7-eng-grammar-a-q08",
@@ -122,20 +122,20 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-eng-grammar-a-q10",
-    prompt: "Choose the conjunction: I stayed indoors ____ it was raining.",
+    prompt: "Choose the conjunction: Kabir wore a raincoat ____ the sky was cloudy.",
     options: [
-      { id: "a", text: "but only as contrast without cause" },
+      { id: "a", text: "but" },
       { id: "b", text: "because" },
       { id: "c", text: "or" },
       { id: "d", text: "nor" }
     ],
     answerId: "b",
-    explanation: "Because shows cause.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "The cloudy sky is the reason for the raincoat, so 'because'. 'but' shows contrast, and there is no contrast here.",
+    hints: ["The second part explains why Kabir wore a raincoat.", "\"but\" shows contrast; pick the conjunction that gives a reason."]
   },
   {
     id: "g7-eng-grammar-a-q11",
-    prompt: "Correct form: Neither of the answers ____ correct.",
+    prompt: "Correct form: One of my pens ____ missing.",
     options: [
       { id: "a", text: "are" },
       { id: "b", text: "were being" },
@@ -143,8 +143,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "have" }
     ],
     answerId: "c",
-    explanation: "Neither is singular \u2192 is.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "The subject is 'One', which is singular, so 'is'. 'are' is tempting because 'pens' is plural, but 'pens' is not the subject.",
+    hints: ["The real subject here: \"One\", not \"my pens\".", "\"One of ...\" always takes a singular verb."]
   },
   {
     id: "g7-eng-grammar-a-q12",
@@ -200,7 +200,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-eng-grammar-a-q16",
-    prompt: "Choose the right verb: The news ____ surprising.",
+    prompt: "Choose the right verb: Measles ____ a serious illness.",
     options: [
       { id: "a", text: "are" },
       { id: "b", text: "were" },
@@ -208,25 +208,25 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "is" }
     ],
     answerId: "d",
-    explanation: "News is singular in standard usage.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "'Measles' ends in -s but names one illness, so it takes 'is'. 'are' is tempting because of the -s ending.",
+    hints: ["\"Measles\" ends in -s but names a single illness.", "Names of illnesses ending in -s take a singular verb."]
   },
   {
     id: "g7-eng-grammar-a-q17",
-    prompt: "Identify the interjection: Wow, that sparkler is bright!",
+    prompt: "Identify the interjection: Oops, I dropped my lunchbox!",
     options: [
-      { id: "a", text: "Wow" },
-      { id: "b", text: "sparkler" },
-      { id: "c", text: "bright" },
-      { id: "d", text: "that" }
+      { id: "a", text: "Oops" },
+      { id: "b", text: "dropped" },
+      { id: "c", text: "lunchbox" },
+      { id: "d", text: "my" }
     ],
     answerId: "a",
-    explanation: "Wow expresses sudden feeling.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "'Oops' is an interjection: a short cry of surprise. 'dropped' is the verb that tells what happened.",
+    hints: ["An interjection is a short word that shows sudden feeling.", "Dropped is the action and lunchbox is a thing; find the cry of surprise."]
   },
   {
     id: "g7-eng-grammar-a-q18",
-    prompt: "Correct: Each of the students ____ a notebook.",
+    prompt: "Correct: Every one of the players ____ a jersey number.",
     options: [
       { id: "a", text: "have" },
       { id: "b", text: "has" },
@@ -234,8 +234,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "are having" }
     ],
     answerId: "b",
-    explanation: "Each is singular \u2192 has.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "'Every one' is singular, so it takes 'has'. 'have' is tempting because 'players' is plural, but the verb agrees with 'every one'.",
+    hints: ["The subject is \"Every one\", not \"the players\".", "\"Every one of ...\" is singular, so pick the singular form of have."]
   },
   {
     id: "g7-eng-grammar-a-q19",
@@ -252,29 +252,29 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-eng-grammar-a-q20",
-    prompt: "Choose correct relative pronoun: The girl ____ won the race is my cousin.",
+    prompt: "Choose correct relative pronoun: The doctor ____ treated my grandfather lives nearby.",
     options: [
       { id: "a", text: "which" },
-      { id: "b", text: "whom\u2019s" },
+      { id: "b", text: "whose" },
       { id: "c", text: "what" },
       { id: "d", text: "who" }
     ],
     answerId: "d",
-    explanation: "Who refers to people as subject.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "The doctor is a person and the subject of 'treated', so 'who'. 'which' is for things.",
+    hints: ["The blank refers to \"The doctor\" and is the subject of \"treated\".", "\"which\" is for things; choose the pronoun for people as subjects."]
   },
   {
     id: "g7-eng-grammar-a-q21",
-    prompt: "Fill in: If it rains, we ____ indoors.",
+    prompt: "Fill in: If the bus is late, we ____ a taxi.",
     options: [
-      { id: "a", text: "will stay" },
-      { id: "b", text: "stayed" },
-      { id: "c", text: "staying" },
-      { id: "d", text: "have stayed yesterday" }
+      { id: "a", text: "will take" },
+      { id: "b", text: "took" },
+      { id: "c", text: "taking" },
+      { id: "d", text: "have taken" }
     ],
     answerId: "a",
-    explanation: "First conditional: If + present, will + base verb.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "First conditional: if + present, will + base verb. 'took' is past and does not match the present 'is late'.",
+    hints: ["\"If the bus is late\" talks about a possible future event.", "First conditional: if + present tense, then will + base verb."]
   },
   {
     id: "g7-eng-grammar-a-q22",
@@ -291,16 +291,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-eng-grammar-a-q23",
-    prompt: "Correct plural: The ____ are sharp.",
+    prompt: "Correct plural: The ____ fell from the trees in autumn.",
     options: [
-      { id: "a", text: "knifes" },
-      { id: "b", text: "knife\u2019s" },
-      { id: "c", text: "knives" },
-      { id: "d", text: "knive" }
+      { id: "a", text: "leafs" },
+      { id: "b", text: "leaf’s" },
+      { id: "c", text: "leaves" },
+      { id: "d", text: "leave" }
     ],
     answerId: "c",
-    explanation: "Knife \u2192 knives.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Leaf changes f to v and adds -es: leaves. 'leaf’s' has an apostrophe, which shows possession, not plural.",
+    hints: ["Some nouns ending in f change before the plural ending, like wolf.", "An apostrophe shows ownership, not more than one."]
   },
   {
     id: "g7-eng-grammar-a-q24",
@@ -385,16 +385,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-eng-grammar-b-q06",
-    prompt: "Correct: The committee ____ decided.",
+    prompt: "Correct: The jury ____ given its verdict.",
     options: [
-      { id: "a", text: "have been many people always" },
+      { id: "a", text: "have" },
       { id: "b", text: "has" },
-      { id: "c", text: "are deciding as many always" },
-      { id: "d", text: "were many" }
+      { id: "c", text: "are" },
+      { id: "d", text: "were" }
     ],
     answerId: "b",
-    explanation: "Committee as a single unit takes singular has in this sense.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "'its verdict' shows the jury acting as one unit, so 'has'. 'have' would treat the members separately, which clashes with 'its'.",
+    hints: ["Look at \"its verdict\": is the jury one unit or many people?", "A collective noun acting as one unit takes a singular verb."]
   },
   {
     id: "g7-eng-grammar-b-q07",
@@ -424,16 +424,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-eng-grammar-b-q09",
-    prompt: "Correct reported speech: He said, \u201cI am tired.\u201d \u2192 He said that he ____ tired.",
+    prompt: "Correct reported speech: Kabir said, “I enjoy chess.” → Kabir said that he ____ chess.",
     options: [
-      { id: "a", text: "was" },
-      { id: "b", text: "is" },
-      { id: "c", text: "am" },
-      { id: "d", text: "be" }
+      { id: "a", text: "enjoyed" },
+      { id: "b", text: "enjoys" },
+      { id: "c", text: "enjoy" },
+      { id: "d", text: "is enjoying" }
     ],
     answerId: "a",
-    explanation: "Present becomes past in backshift: am \u2192 was.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "After a past reporting verb ('said'), the present 'enjoy' shifts back to the past 'enjoyed'. 'enjoys' keeps the present tense, which is not the usual reported form.",
+    hints: ["\"said\" is in the past, so the reported verb usually moves back one tense.", "\"enjoy\" is present; change it to its past form."]
   },
   {
     id: "g7-eng-grammar-b-q10",
@@ -476,7 +476,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-eng-grammar-b-q13",
-    prompt: "Correct article usage: ____ Himalayas are majestic.",
+    prompt: "Correct article usage: ____ Ganga flows through Varanasi.",
     options: [
       { id: "a", text: "The" },
       { id: "b", text: "A" },
@@ -484,8 +484,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "No article" }
     ],
     answerId: "a",
-    explanation: "Mountain ranges take the.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Names of rivers take 'the': the Ganga. 'No article' is tempting because Ganga is a name, but rivers are an exception to the no-article rule for names.",
+    hints: ["Names of rivers, seas and oceans follow a special article rule.", "Most names take no article, but rivers are an exception."]
   },
   {
     id: "g7-eng-grammar-b-q14",
@@ -567,16 +567,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-eng-grammar-b-q20",
-    prompt: "Correct degree: Mount Everest is the ____ peak.",
+    prompt: "Correct degree: Of all the students, Asha is the ____.",
     options: [
-      { id: "a", text: "higher" },
-      { id: "b", text: "high" },
-      { id: "c", text: "more highest" },
-      { id: "d", text: "highest" }
+      { id: "a", text: "taller" },
+      { id: "b", text: "tall" },
+      { id: "c", text: "more tallest" },
+      { id: "d", text: "tallest" }
     ],
     answerId: "d",
-    explanation: "Superlative highest for comparison among many.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "'Of all the students' compares more than two, so the superlative 'tallest' is needed. 'taller' compares only two.",
+    hints: ["\"Of all the students\" compares Asha with the whole group.", "Taller compares two; Asha is compared with the whole class."]
   },
   {
     id: "g7-eng-grammar-b-q21",

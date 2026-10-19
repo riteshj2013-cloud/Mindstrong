@@ -5,16 +5,16 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g9-eng-ch03-a-q01",
-    prompt: "Choose the synonym of “brief”.",
+    prompt: "Choose the synonym of “frugal”.",
     options: [
-      { id: "a", text: "concise" },
-      { id: "b", text: "lengthy" },
-      { id: "c", text: "noisy" },
-      { id: "d", text: "ancient" }
+      { id: "a", text: "thrifty" },
+      { id: "b", text: "wasteful" },
+      { id: "c", text: "generous" },
+      { id: "d", text: "careless" }
     ],
     answerId: "a",
-    explanation: "Brief means short/concise.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Frugal means careful with money and avoiding waste, the same as thrifty. 'wasteful' is the opposite.",
+    hints: ["A frugal family saves every rupee and wastes nothing.", "Find the word for being careful with money, like frugal."]
   },
   {
     id: "g9-eng-ch03-a-q02",
@@ -31,29 +31,29 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch03-a-q03",
-    prompt: "Choose the correct word: The ____ of the school spoke to parents.",
+    prompt: "Choose the correct word: After dinner, we had ice cream for ____.",
     options: [
-      { id: "a", text: "principle" },
-      { id: "b", text: "premier" },
-      { id: "c", text: "principal" },
-      { id: "d", text: "principle’s" }
+      { id: "a", text: "desert" },
+      { id: "b", text: "deserts" },
+      { id: "c", text: "dessert" },
+      { id: "d", text: "dissert" }
     ],
     answerId: "c",
-    explanation: "Principal = head of school; principle = rule/belief.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Dessert (double s) is the sweet dish after a meal. 'desert' is a dry, sandy region.",
+    hints: ["The blank names the sweet course after dinner.", "The word \"desert\" names a dry sandy region; the sweet course is spelt differently."]
   },
   {
     id: "g9-eng-ch03-a-q04",
-    prompt: "Idiom: “break the ice” means…",
+    prompt: "Idiom: “the ball is in your court” means…",
     options: [
-      { id: "a", text: "shatter glass" },
-      { id: "b", text: "cancel a match" },
-      { id: "c", text: "freeze water" },
-      { id: "d", text: "start conversation in a friendly way" }
+      { id: "a", text: "you must play tennis now" },
+      { id: "b", text: "you have lost the game" },
+      { id: "c", text: "the match is over" },
+      { id: "d", text: "it is your turn to decide or act" }
     ],
     answerId: "d",
-    explanation: "It means ease social tension / begin chatting.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "'The ball is in your court' means the next decision or move is yours. 'you must play tennis now' takes the sports image literally.",
+    hints: ["This idiom comes from tennis but is about decisions, not sport.", "After the firm sent its offer, \"the ball is in your court\". Who acts next?"]
   },
   {
     id: "g9-eng-ch03-a-q05",
@@ -213,16 +213,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch03-a-q17",
-    prompt: "One-word: Government by the people…",
+    prompt: "One-word: A person who cannot read or write…",
     options: [
-      { id: "a", text: "democracy" },
-      { id: "b", text: "monarchy" },
-      { id: "c", text: "autocracy" },
-      { id: "d", text: "bureaucracy" }
+      { id: "a", text: "illiterate" },
+      { id: "b", text: "illegible" },
+      { id: "c", text: "ignorant" },
+      { id: "d", text: "innocent" }
     ],
     answerId: "a",
-    explanation: "Democracy = rule by the people.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Illiterate means unable to read or write. 'Ignorant' means lacking knowledge in general, which is broader.",
+    hints: ["Think of someone who never learned to read a newspaper or write a letter.", "Ignorant is about knowledge in general; this word is only about reading and writing."]
   },
   {
     id: "g9-eng-ch03-a-q18",
@@ -320,16 +320,16 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g9-eng-ch03-b-q01",
-    prompt: "Antonym of “ancient”…",
+    prompt: "Antonym of “reckless”…",
     options: [
-      { id: "a", text: "modern" },
-      { id: "b", text: "old" },
-      { id: "c", text: "historic" },
-      { id: "d", text: "aged" }
+      { id: "a", text: "cautious" },
+      { id: "b", text: "careless" },
+      { id: "c", text: "hasty" },
+      { id: "d", text: "daring" }
     ],
     answerId: "a",
-    explanation: "Ancient ↔ modern/new.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Reckless means acting without thinking of danger; cautious is the opposite. 'careless' is close to reckless, not its opposite.",
+    hints: ["A reckless driver speeds through red lights.", "Find the word for a careful driver, the opposite of reckless."]
   },
   {
     id: "g9-eng-ch03-b-q02",
@@ -385,42 +385,42 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch03-b-q06",
-    prompt: "One-word: Incapable of being read…",
+    prompt: "One-word: A detailed plan of a journey, listing places and dates…",
     options: [
-      { id: "a", text: "illegal" },
-      { id: "b", text: "illegible" },
-      { id: "c", text: "illogical" },
-      { id: "d", text: "eligible" }
+      { id: "a", text: "diary" },
+      { id: "b", text: "itinerary" },
+      { id: "c", text: "souvenir" },
+      { id: "d", text: "passport" }
     ],
     answerId: "b",
-    explanation: "Illegible = unreadable handwriting/text.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "An itinerary is the planned route and schedule of a trip. A 'diary' records what already happened, day by day, not the plan ahead.",
+    hints: ["Travel agents send this plan before a journey so you know where to be each day.", "A diary looks back on events; this document looks ahead to the trip."]
   },
   {
     id: "g9-eng-ch03-b-q07",
-    prompt: "Choose formal closing when the reader’s name is unknown:",
+    prompt: "Choose the closing for a formal letter that begins “Dear Mr Mehta,” (the reader is named):",
     options: [
-      { id: "a", text: "Yours sincerely" },
+      { id: "a", text: "Yours faithfully" },
       { id: "b", text: "See ya" },
-      { id: "c", text: "Yours faithfully" },
+      { id: "c", text: "Yours sincerely" },
       { id: "d", text: "Love" }
     ],
     answerId: "c",
-    explanation: "Unknown name → Yours faithfully (with Dear Sir/Madam).",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "When a formal letter names the reader (Dear Mr Mehta), it closes with 'Yours sincerely'. 'Yours faithfully' is for 'Dear Sir/Madam', when the name is unknown.",
+    hints: ["The salutation names the reader, Mr Mehta.", "\"Yours faithfully\" pairs with Dear Sir/Madam; which formal closing pairs with a name?"]
   },
   {
     id: "g9-eng-ch03-b-q08",
-    prompt: "Synonym of “reluctant”…",
+    prompt: "Synonym of “candid”…",
     options: [
-      { id: "a", text: "eager" },
-      { id: "b", text: "joyful" },
-      { id: "c", text: "swift" },
-      { id: "d", text: "unwilling" }
+      { id: "a", text: "secretive" },
+      { id: "b", text: "shy" },
+      { id: "c", text: "polite" },
+      { id: "d", text: "frank" }
     ],
     answerId: "d",
-    explanation: "Reluctant = unwilling/hesitant.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Candid means honest and open, the same as frank. 'polite' is tempting, but a candid remark may not be polite at all.",
+    hints: ["A candid answer tells the plain truth, even if it is awkward.", "Find the word for speaking openly and honestly, like candid."]
   },
   {
     id: "g9-eng-ch03-b-q09",
@@ -515,16 +515,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch03-b-q16",
-    prompt: "Antonym of “scarce” already practised; antonym of “victory”…",
+    prompt: "Antonym of “hostile”…",
     options: [
-      { id: "a", text: "triumph" },
-      { id: "b", text: "medal" },
-      { id: "c", text: "cheer" },
-      { id: "d", text: "defeat" }
+      { id: "a", text: "aggressive" },
+      { id: "b", text: "unfriendly" },
+      { id: "c", text: "bitter" },
+      { id: "d", text: "welcoming" }
     ],
     answerId: "d",
-    explanation: "Victory ↔ defeat.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Hostile means unfriendly and aggressive; welcoming is the opposite. 'unfriendly' is a synonym, not an antonym.",
+    hints: ["A hostile crowd boos and shouts at the visiting team.", "Find the word for a crowd that greets visitors warmly, the opposite of hostile."]
   },
   {
     id: "g9-eng-ch03-b-q17",

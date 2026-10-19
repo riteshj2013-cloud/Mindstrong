@@ -44,16 +44,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch02-a-q04",
-    prompt: "Reported speech: He said, “I am tired.” → He said that he ____ tired.",
+    prompt: "Reported speech: Meena said, “I can solve this puzzle.” → Meena said that she ____ solve that puzzle.",
     options: [
-      { id: "a", text: "is" },
-      { id: "b", text: "will be" },
-      { id: "c", text: "were being" },
-      { id: "d", text: "was" }
+      { id: "a", text: "can" },
+      { id: "b", text: "will" },
+      { id: "c", text: "may" },
+      { id: "d", text: "could" }
     ],
     answerId: "d",
-    explanation: "Backshift present to past after a past reporting verb.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "After the past reporting verb 'said', 'can' shifts back to 'could'. 'can' keeps the direct-speech form, which clashes with 'said'.",
+    hints: ["\"said\" is past, so the modal in the reported clause shifts back.", "Each present modal has a past partner; find the partner of the one Meena used."]
   },
   {
     id: "g9-eng-ch02-a-q05",
@@ -83,7 +83,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch02-a-q07",
-    prompt: "Modal: You ____ wear a helmet on this site. (strong obligation)",
+    prompt: "Modal: You ____ be exhausted after such a long journey. (logical certainty)",
     options: [
       { id: "a", text: "might" },
       { id: "b", text: "could" },
@@ -91,12 +91,12 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "may" }
     ],
     answerId: "c",
-    explanation: "Must expresses strong obligation.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "'Must' expresses a confident deduction. 'might' and 'may' show only possibility, which is weaker than the certainty asked for.",
+    hints: ["The speaker draws a confident conclusion about the long journey, not an order.", "Pick the modal that shows a strong, logical deduction."]
   },
   {
     id: "g9-eng-ch02-a-q08",
-    prompt: "Choose the correct verb: The news ____ surprising.",
+    prompt: "Choose the correct verb: The furniture in this room ____ new.",
     options: [
       { id: "a", text: "are" },
       { id: "b", text: "were" },
@@ -104,8 +104,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "is" }
     ],
     answerId: "d",
-    explanation: "News is singular in standard English → is.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "'Furniture' is uncountable, so it takes a singular verb: is. 'are' is tempting because a room has many pieces, but the noun itself is singular.",
+    hints: ["\"Furniture\" counts as an uncountable noun.", "Uncountable nouns take a singular verb, even when they mean many items."]
   },
   {
     id: "g9-eng-ch02-a-q09",
@@ -200,7 +200,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch02-a-q16",
-    prompt: "Fill: Neither Ravi nor his friends ____ ready.",
+    prompt: "Fill: Not only the captain but also the players ____ tired.",
     options: [
       { id: "a", text: "is" },
       { id: "b", text: "was" },
@@ -208,8 +208,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "are" }
     ],
     answerId: "d",
-    explanation: "With neither…nor, the verb agrees with the nearer subject (friends → are).",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "With 'not only … but also', the verb agrees with the nearer subject, 'the players', so 'are'. 'is' would agree with 'the captain', which is further away.",
+    hints: ["With \"not only … but also\", the verb agrees with the nearer subject.", "\"the players\" sits right next to the blank, and it is plural."]
   },
   {
     id: "g9-eng-ch02-a-q17",
@@ -239,16 +239,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch02-a-q19",
-    prompt: "Choose the right determiner: ____ of the milk was spilled.",
+    prompt: "Choose the right determiner: We don’t have ____ time before the train leaves.",
     options: [
-      { id: "a", text: "Many" },
-      { id: "b", text: "Few" },
-      { id: "c", text: "Much" },
-      { id: "d", text: "Several" }
+      { id: "a", text: "many" },
+      { id: "b", text: "few" },
+      { id: "c", text: "much" },
+      { id: "d", text: "several" }
     ],
     answerId: "c",
-    explanation: "Milk is uncountable → much.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Here 'time' is uncountable (an amount), so 'much'. 'many' goes with countable plurals such as minutes.",
+    hints: ["Here \"time\" means an amount, not a number of occasions.", "Time as an amount is uncountable; pick the determiner for amounts."]
   },
   {
     id: "g9-eng-ch02-a-q20",
@@ -304,16 +304,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch02-a-q24",
-    prompt: "Choose correct preposition: She is good ____ mathematics.",
+    prompt: "Choose correct preposition: She is afraid ____ spiders.",
     options: [
       { id: "a", text: "in" },
       { id: "b", text: "on" },
       { id: "c", text: "by" },
-      { id: "d", text: "at" }
+      { id: "d", text: "of" }
     ],
     answerId: "d",
-    explanation: "Good at + subject/skill.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "'Afraid' is always followed by 'of'. 'by' might seem to show cause, but 'afraid by' is not standard English.",
+    hints: ["\"afraid\" is followed by a fixed preposition.", "We say \"scared ___ the dark\"; the same preposition follows afraid."]
   }
 ];
 
@@ -372,16 +372,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch02-b-q05",
-    prompt: "Choose the correct question tag: You’re ready, ____?",
+    prompt: "Choose the correct question tag: Let’s go for a walk, ____?",
     options: [
-      { id: "a", text: "aren’t you" },
-      { id: "b", text: "are you" },
-      { id: "c", text: "isn’t you" },
-      { id: "d", text: "don’t you" }
+      { id: "a", text: "shall we" },
+      { id: "b", text: "will you" },
+      { id: "c", text: "won’t we" },
+      { id: "d", text: "don’t we" }
     ],
     answerId: "a",
-    explanation: "Positive statement → negative tag: aren’t you.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Sentences beginning with 'Let's' take the tag 'shall we?'. 'will you?' is used after commands such as 'Close the door'.",
+    hints: ["\"Let's\" includes both the speaker and the listener.", "Tags after \"Let's\" use a special modal, not do or will."]
   },
   {
     id: "g9-eng-ch02-b-q06",
@@ -398,16 +398,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch02-b-q07",
-    prompt: "Choose: Hardly had we entered ____ it started raining.",
+    prompt: "Choose: Not until the rain stopped ____ we leave the shelter.",
     options: [
       { id: "a", text: "than" },
       { id: "b", text: "then" },
-      { id: "c", text: "when" },
+      { id: "c", text: "did" },
       { id: "d", text: "that" }
     ],
     answerId: "c",
-    explanation: "Hardly…when is the correlative pair.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "When a sentence starts with 'Not until …', the main clause is inverted: did we leave. 'then' is tempting, but it leaves the clause without its auxiliary.",
+    hints: ["Starting with \"Not until\" makes the main clause flip its word order.", "The main clause needs an auxiliary before \"we leave\", as in a question."]
   },
   {
     id: "g9-eng-ch02-b-q08",
@@ -476,16 +476,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch02-b-q13",
-    prompt: "Choose synonym of the underlined idea: He was reluctant to speak. He was…",
+    prompt: "Choose synonym of the underlined idea: She was hesitant to raise her hand. She was…",
     options: [
-      { id: "a", text: "unwilling" },
+      { id: "a", text: "unsure" },
       { id: "b", text: "eager" },
       { id: "c", text: "loud" },
       { id: "d", text: "certain" }
     ],
     answerId: "a",
-    explanation: "Reluctant means unwilling/hesitant.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Hesitant means unsure and slow to act. 'certain' is the opposite.",
+    hints: ["She paused and waited before raising her hand.", "Find the word for not feeling confident about acting, like hesitant."]
   },
   {
     id: "g9-eng-ch02-b-q14",
@@ -515,7 +515,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g9-eng-ch02-b-q16",
-    prompt: "Choose correct: Between you and ____, this is secret.",
+    prompt: "Choose correct: The teacher gave the prize to Asha and ____.",
     options: [
       { id: "a", text: "I" },
       { id: "b", text: "myself" },
@@ -523,8 +523,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "me" }
     ],
     answerId: "d",
-    explanation: "Object of preposition between → me.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "After the preposition 'to', use the object pronoun: me. 'I' sounds polite, but it is the subject form.",
+    hints: ["Drop \"Asha and\" and say the sentence with just the pronoun.", "After \"to\", a pronoun takes its object form."]
   },
   {
     id: "g9-eng-ch02-b-q17",

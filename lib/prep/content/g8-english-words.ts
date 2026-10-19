@@ -291,16 +291,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch03-a-q23",
-    prompt: "\"My cousin from Canada visits us once in a blue moon.\" What does the idiom mean?",
+    prompt: "\"Rohan was all ears when Grandpa began the story.\" What does the idiom mean?",
     options: [
-      { id: "a", text: "Every month" },
-      { id: "b", text: "Only at night" },
-      { id: "c", text: "When the sky is clear" },
-      { id: "d", text: "Very rarely" }
+      { id: "a", text: "Very sleepy" },
+      { id: "b", text: "Hard of hearing" },
+      { id: "c", text: "Talking loudly" },
+      { id: "d", text: "Listening eagerly" }
     ],
     answerId: "d",
-    explanation: "A \"blue moon\" is a rare event, so the idiom means something happens very seldom. The distance from Canada also supports this.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "'All ears' means listening with full attention. 'Hard of hearing' is also about ears, but it means the opposite of keen listening.",
+    hints: ["Imagine Rohan leaning forward as Grandpa's story begins.", "The idiom is not about the size of ears; how does Rohan pay attention?"]
   },
   {
     id: "g8-eng-ch03-a-q24",

@@ -528,16 +528,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-b-q17",
-    prompt: "Choose the correct verb.\n\"The sun ___ in the east.\"",
+    prompt: "Choose the correct verb.\n\"Water ___ at 100 °C.\"",
     options: [
-      { id: "a", text: "rising" },
-      { id: "b", text: "rose" },
-      { id: "c", text: "rises" },
-      { id: "d", text: "is rise" }
+      { id: "a", text: "boiling" },
+      { id: "b", text: "boiled" },
+      { id: "c", text: "boils" },
+      { id: "d", text: "is boil" }
     ],
     answerId: "c",
-    explanation: "The simple present is used for facts that are always true. With a singular subject like \"the sun,\" add -s.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "A scientific fact is always true, so we use the simple present: water boils at 100 °C. 'boiled' is past tense and suggests it happened only once.",
+    hints: ["This sentence states a fact about water that is true every time.", "General truths use the simple present, and \"water\" is singular."]
   },
   {
     id: "g5-eng-ch02-b-q18",

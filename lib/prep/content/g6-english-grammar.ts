@@ -5,20 +5,20 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g6-eng-gram-a-q01",
-    prompt: "Choose the correct verb: She ____ to school by bus.",
+    prompt: "Choose the correct verb: My grandmother ____ the plants every evening.",
     options: [
-      { id: "a", text: "goes" },
-      { id: "b", text: "go" },
-      { id: "c", text: "going" },
-      { id: "d", text: "gone" }
+      { id: "a", text: "waters" },
+      { id: "b", text: "water" },
+      { id: "c", text: "watering" },
+      { id: "d", text: "have watered" }
     ],
     answerId: "a",
-    explanation: "She is singular third person, so the present form is goes.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "'My grandmother' is singular and 'every evening' shows a habit, so the simple present takes -s: waters. 'water' would need a plural subject.",
+    hints: ["\"every evening\" shows a habit, so use the simple present.", "\"My grandmother\" is one person; think of the -s ending used with he or she."]
   },
   {
     id: "g6-eng-gram-a-q02",
-    prompt: "Choose the correct verb: The boys ____ playing cricket.",
+    prompt: "Choose the correct verb: The puppies ____ sleeping in the basket.",
     options: [
       { id: "a", text: "is" },
       { id: "b", text: "am" },
@@ -26,8 +26,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "are" }
     ],
     answerId: "d",
-    explanation: "Boys is plural → are.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "'Puppies' is plural, so it takes 'are'. 'is' would be right only for one puppy.",
+    hints: ["\"puppies\" means more than one puppy.", "A plural subject with an -ing verb needs the plural helper, not is or am."]
   },
   {
     id: "g6-eng-gram-a-q03",
@@ -187,16 +187,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-gram-a-q15",
-    prompt: "Choose the correct superlative: Mount Everest is the ____ peak.",
+    prompt: "Choose the correct superlative: The cheetah is the ____ land animal.",
     options: [
-      { id: "a", text: "high" },
-      { id: "b", text: "higher" },
-      { id: "c", text: "highest" },
-      { id: "d", text: "most highest" }
+      { id: "a", text: "fast" },
+      { id: "b", text: "faster" },
+      { id: "c", text: "fastest" },
+      { id: "d", text: "most fastest" }
     ],
     answerId: "c",
-    explanation: "Among many peaks → highest.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Comparing one animal with all others needs the superlative: fastest. 'most fastest' doubles the superlative, which is wrong.",
+    hints: ["The cheetah is compared with every other land animal.", "For a superlative, use the -est form, and never put most before it."]
   },
   {
     id: "g6-eng-gram-a-q16",
@@ -567,16 +567,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-gram-b-q20",
-    prompt: "Identify the abstract noun: Honesty makes shopping a pleasure.",
+    prompt: "Identify the abstract noun: Her kindness won every heart.",
     options: [
-      { id: "a", text: "makes" },
-      { id: "b", text: "shopping" },
-      { id: "c", text: "a" },
-      { id: "d", text: "Honesty" }
+      { id: "a", text: "won" },
+      { id: "b", text: "every" },
+      { id: "c", text: "heart" },
+      { id: "d", text: "kindness" }
     ],
     answerId: "d",
-    explanation: "Honesty names a quality — an abstract noun.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Kindness is a quality you cannot see or touch, so it is an abstract noun. 'heart' is a concrete noun (a body part), even in this expression.",
+    hints: ["An abstract noun names a quality you cannot touch.", "\"heart\" names a body part; which word names a good quality?"]
   },
   {
     id: "g6-eng-gram-b-q21",

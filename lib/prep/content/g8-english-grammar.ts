@@ -213,16 +213,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch02-a-q17",
-    prompt: "Choose the most suitable modal.\n\"You ___ wear a helmet while riding a two-wheeler; it is the law.\"",
+    prompt: "Choose the most suitable modal.\n\"Visitors ___ not touch the paintings; it is strictly forbidden.\"",
     options: [
       { id: "a", text: "might" },
-      { id: "b", text: "can" },
+      { id: "b", text: "need" },
       { id: "c", text: "must" },
-      { id: "d", text: "may" }
+      { id: "d", text: "would" }
     ],
     answerId: "c",
-    explanation: "\"It is the law\" signals a strong obligation, and \"must\" expresses that. \"Might\" and \"may\" suggest only possibility.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "'Strictly forbidden' signals a prohibition, so 'must not'. 'need not' means it is not necessary, which is a much weaker idea.",
+    hints: ["\"strictly forbidden\" tells you this is a firm rule.", "Choose the modal that, with not, means something is not allowed at all."]
   },
   {
     id: "g8-eng-ch02-a-q18",
