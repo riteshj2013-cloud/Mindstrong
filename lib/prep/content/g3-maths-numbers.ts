@@ -345,12 +345,12 @@ const SET_B: PrepQuestion[] = [
     id: "g3-maths-numbers-b-q02",
     prompt: "Which number has 5 hundreds, 0 tens and 7 ones?",
     options: [
-      { id: "a", text: "507" },
-      { id: "b", text: "570" },
+      { id: "a", text: "570" },
+      { id: "b", text: "507" },
       { id: "c", text: "75" },
       { id: "d", text: "5007" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "5 hundreds, no tens and 7 ones make 507, and the zero holds the tens place.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -400,11 +400,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which number is smaller: 432 or 423?",
     options: [
       { id: "a", text: "432" },
-      { id: "b", text: "We cannot tell" },
-      { id: "c", text: "Both are the same" },
-      { id: "d", text: "423" }
+      { id: "b", text: "423" },
+      { id: "c", text: "We cannot tell" },
+      { id: "d", text: "Both are the same" }
     ],
-    answerId: "d",
+    answerId: "b",
     explanation: "Both have 4 hundreds, but 423 has only 2 tens and 432 has 3 tens.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -413,11 +413,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Look at the hundreds, tens and ones blocks. What number do they show?",
     options: [
       { id: "a", text: "862" },
-      { id: "b", text: "268" },
-      { id: "c", text: "286" },
+      { id: "b", text: "286" },
+      { id: "c", text: "268" },
       { id: "d", text: "2608" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "200 + 60 + 8 = 268.",
     hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 440 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Join the blocks\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"440\" height=\"150\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"220.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Join the blocks</text>\n  <rect class=\"part block\" x=\"66.0\" y=\"38.0\" width=\"120\" height=\"82.0\" rx=\"4\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"126.0\" y=\"84.0\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">200</text>\n  <text class=\"label small\" x=\"126.0\" y=\"138\" font-size=\"10.5\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Hundreds</text>\n  <text class=\"label op\" x=\"199.0\" y=\"95\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">+</text>\n  <rect class=\"part block\" x=\"212.0\" y=\"52.0\" width=\"80\" height=\"68.0\" rx=\"4\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"252.0\" y=\"91.0\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">60</text>\n  <text class=\"label small\" x=\"252.0\" y=\"138\" font-size=\"10.5\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Tens</text>\n  <text class=\"label op\" x=\"305.0\" y=\"95\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">+</text>\n  <rect class=\"part block\" x=\"318.0\" y=\"60.400000000000006\" width=\"56\" height=\"59.599999999999994\" rx=\"4\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"346.0\" y=\"95.2\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">8</text>\n  <text class=\"label small\" x=\"346.0\" y=\"138\" font-size=\"10.5\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Ones</text>\n</svg>", "alt": "Three blocks joined with plus signs: 200 (Hundreds) plus 60 (Tens) plus 8 (Ones)."}
@@ -427,11 +427,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Count by 10s: 340, 350, 360, ___. What comes next?",
     options: [
       { id: "a", text: "361" },
-      { id: "b", text: "370" },
-      { id: "c", text: "460" },
-      { id: "d", text: "380" }
+      { id: "b", text: "460" },
+      { id: "c", text: "380" },
+      { id: "d", text: "370" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "When we count by 10s, we add 10 each time, and 360 + 10 = 370.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -439,12 +439,12 @@ const SET_B: PrepQuestion[] = [
     id: "g3-maths-numbers-b-q09",
     prompt: "Which number comes just before 1000?",
     options: [
-      { id: "a", text: "1001" },
-      { id: "b", text: "990" },
-      { id: "c", text: "900" },
-      { id: "d", text: "999" }
+      { id: "a", text: "999" },
+      { id: "b", text: "1001" },
+      { id: "c", text: "990" },
+      { id: "d", text: "900" }
     ],
-    answerId: "d",
+    answerId: "a",
     explanation: "One less than 1000 is 999.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -453,11 +453,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Look at the Number Houses. What is the digit in the house with the **star** worth?",
     options: [
       { id: "a", text: "4" },
-      { id: "b", text: "40" },
-      { id: "c", text: "419" },
-      { id: "d", text: "400" }
+      { id: "b", text: "400" },
+      { id: "c", text: "40" },
+      { id: "d", text: "419" }
     ],
-    answerId: "d",
+    answerId: "b",
     explanation: "The star is under the Hundreds house. 4 in the hundreds house is worth 400.",
     hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 420 205\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Number Houses\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"420\" height=\"205\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"210.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Number Houses</text>\n  <polygon class=\"part roof\" points=\"24,80 82.0,40 140,80\" fill=\"#ef9a9a\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"82.0\" y=\"72\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Hundreds</text>\n  <rect class=\"part house\" x=\"30\" y=\"80\" width=\"104\" height=\"82\" rx=\"0\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part door digit-tile\" x=\"60.0\" y=\"94\" width=\"44\" height=\"52\" rx=\"6\" fill=\"#fffde7\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"82.0\" y=\"131\" font-size=\"28\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">4</text>\n  <text class=\"label small\" x=\"82.0\" y=\"178\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">(H)</text>\n  <polygon class=\"highlight star\" points=\"82.0,184.0 84.0,189.25 89.61,189.53 85.23,193.05 86.7,198.47 82.0,195.4 77.3,198.47 78.77,193.05 74.39,189.53 80.0,189.25\" fill=\"#ffb300\" stroke=\"#e65100\" stroke-width=\"1\"/>\n  <polygon class=\"part roof\" points=\"152,80 210.0,40 268,80\" fill=\"#90caf9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"210.0\" y=\"72\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Tens</text>\n  <rect class=\"part house\" x=\"158\" y=\"80\" width=\"104\" height=\"82\" rx=\"0\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part door digit-tile\" x=\"188.0\" y=\"94\" width=\"44\" height=\"52\" rx=\"6\" fill=\"#fffde7\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"210.0\" y=\"131\" font-size=\"28\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">1</text>\n  <text class=\"label small\" x=\"210.0\" y=\"178\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">(T)</text>\n  <polygon class=\"part roof\" points=\"280,80 338.0,40 396,80\" fill=\"#a5d6a7\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"338.0\" y=\"72\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Ones</text>\n  <rect class=\"part house\" x=\"286\" y=\"80\" width=\"104\" height=\"82\" rx=\"0\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part door digit-tile\" x=\"316.0\" y=\"94\" width=\"44\" height=\"52\" rx=\"6\" fill=\"#fffde7\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"338.0\" y=\"131\" font-size=\"28\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">9</text>\n  <text class=\"label small\" x=\"338.0\" y=\"178\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">(O)</text>\n</svg>", "alt": "Three houses: Hundreds holds 4, Tens holds 1, Ones holds 9. A star is under the Hundreds house."}
@@ -468,10 +468,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "270" },
       { id: "b", text: "702" },
-      { id: "c", text: "720" },
-      { id: "d", text: "207" }
+      { id: "c", text: "207" },
+      { id: "d", text: "720" }
     ],
-    answerId: "d",
+    answerId: "c",
     explanation: "Zero cannot go first, so start with 2. Then put 0, then 7. That makes 207.",
     hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 260 130\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Digit Tiles\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"260\" height=\"130\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"130.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Digit Tiles</text>\n  <rect class=\"part tile\" x=\"45.0\" y=\"38\" width=\"50\" height=\"56\" rx=\"8\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"digit\" x=\"70.0\" y=\"76\" font-size=\"28\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">0</text>\n  <rect class=\"part tile\" x=\"105.0\" y=\"38\" width=\"50\" height=\"56\" rx=\"8\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"digit\" x=\"130.0\" y=\"76\" font-size=\"28\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">7</text>\n  <rect class=\"part tile\" x=\"165.0\" y=\"38\" width=\"50\" height=\"56\" rx=\"8\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"digit\" x=\"190.0\" y=\"76\" font-size=\"28\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">2</text>\n  <text class=\"label small\" x=\"130.0\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Zero cannot go first!</text>\n</svg>", "alt": "Three digit tiles showing 0, 7 and 2, with the note: Zero cannot go first!"}
@@ -482,10 +482,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "503" },
       { id: "b", text: "350" },
-      { id: "c", text: "530" },
-      { id: "d", text: "035" }
+      { id: "c", text: "035" },
+      { id: "d", text: "530" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Put 5 first, then 3, and zero goes last to make 530.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -507,11 +507,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which list goes from biggest to smallest?",
     options: [
       { id: "a", text: "781, 187, 718" },
-      { id: "b", text: "718, 781, 187" },
-      { id: "c", text: "187, 718, 781" },
-      { id: "d", text: "781, 718, 187" }
+      { id: "b", text: "781, 718, 187" },
+      { id: "c", text: "718, 781, 187" },
+      { id: "d", text: "187, 718, 781" }
     ],
-    answerId: "d",
+    answerId: "b",
     explanation: "781 and 718 both have 7 hundreds, but 781 has more tens, and 187 has only 1 hundred.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -534,10 +534,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "510" },
       { id: "b", text: "490" },
-      { id: "c", text: "500" },
-      { id: "d", text: "530" }
+      { id: "c", text: "530" },
+      { id: "d", text: "500" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Each card is 20 less: 520 \u2212 20 = 500. Then 500 \u2212 20 = 480.",
     hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 508 100\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Find the missing card\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"508\" height=\"100\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"254.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Find the missing card</text>\n  <rect class=\"part card\" x=\"15\" y=\"40\" width=\"78\" height=\"40\" rx=\"6\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"54.0\" y=\"66\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">560</text>\n  <line class=\"arrow\" x1=\"96\" y1=\"60\" x2=\"110\" y2=\"60\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon class=\"arrow\" points=\"114,60 108,56 108,64\" fill=\"#333\"/>\n  <rect class=\"part card\" x=\"115\" y=\"40\" width=\"78\" height=\"40\" rx=\"6\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"154.0\" y=\"66\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">540</text>\n  <line class=\"arrow\" x1=\"196\" y1=\"60\" x2=\"210\" y2=\"60\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon class=\"arrow\" points=\"214,60 208,56 208,64\" fill=\"#333\"/>\n  <rect class=\"part card\" x=\"215\" y=\"40\" width=\"78\" height=\"40\" rx=\"6\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"254.0\" y=\"66\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">520</text>\n  <line class=\"arrow\" x1=\"296\" y1=\"60\" x2=\"310\" y2=\"60\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon class=\"arrow\" points=\"314,60 308,56 308,64\" fill=\"#333\"/>\n  <rect class=\"part card missing\" x=\"315\" y=\"40\" width=\"78\" height=\"40\" rx=\"6\" fill=\"#fff3e0\" stroke=\"#333\" stroke-width=\"2\" stroke-dasharray=\"5 3\"/>\n  <text class=\"label value\" x=\"354.0\" y=\"66\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">?</text>\n  <line class=\"arrow\" x1=\"396\" y1=\"60\" x2=\"410\" y2=\"60\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon class=\"arrow\" points=\"414,60 408,56 408,64\" fill=\"#333\"/>\n  <rect class=\"part card\" x=\"415\" y=\"40\" width=\"78\" height=\"40\" rx=\"6\" fill=\"#ede7f6\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"454.0\" y=\"66\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">480</text>\n</svg>", "alt": "Five cards joined by arrows: 560, 540, 520, a question mark card, 480."}
@@ -560,11 +560,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "How many even numbers are there from 11 to 21?",
     options: [
       { id: "a", text: "4" },
-      { id: "b", text: "10" },
-      { id: "c", text: "6" },
-      { id: "d", text: "5" }
+      { id: "b", text: "5" },
+      { id: "c", text: "10" },
+      { id: "d", text: "6" }
     ],
-    answerId: "d",
+    answerId: "b",
     explanation: "The even numbers are 12, 14, 16, 18 and 20, which makes 5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -585,12 +585,12 @@ const SET_B: PrepQuestion[] = [
     id: "g3-maths-numbers-b-q20",
     prompt: "Look at the blocks. Count carefully! What number do all the blocks make?",
     options: [
-      { id: "a", text: "424" },
-      { id: "b", text: "3124" },
-      { id: "c", text: "324" },
-      { id: "d", text: "342" }
+      { id: "a", text: "3124" },
+      { id: "b", text: "324" },
+      { id: "c", text: "342" },
+      { id: "d", text: "424" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "3 flats = 300, 12 rods = 120, 4 cubes = 4. So 300 + 120 + 4 = 424.",
     hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 460 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Count the Blocks\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"460\" height=\"200\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"230.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Count the Blocks</text>\n  <rect class=\"part hundred-flat\" x=\"16\" y=\"60\" width=\"70\" height=\"70\" rx=\"0\" fill=\"#ffccbc\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"part grid\" x1=\"23\" y1=\"60\" x2=\"23\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"16\" y1=\"67\" x2=\"86\" y2=\"67\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"30\" y1=\"60\" x2=\"30\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"16\" y1=\"74\" x2=\"86\" y2=\"74\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"37\" y1=\"60\" x2=\"37\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"16\" y1=\"81\" x2=\"86\" y2=\"81\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"44\" y1=\"60\" x2=\"44\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"16\" y1=\"88\" x2=\"86\" y2=\"88\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"51\" y1=\"60\" x2=\"51\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"16\" y1=\"95\" x2=\"86\" y2=\"95\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"58\" y1=\"60\" x2=\"58\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"16\" y1=\"102\" x2=\"86\" y2=\"102\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"65\" y1=\"60\" x2=\"65\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"16\" y1=\"109\" x2=\"86\" y2=\"109\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"72\" y1=\"60\" x2=\"72\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"16\" y1=\"116\" x2=\"86\" y2=\"116\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"79\" y1=\"60\" x2=\"79\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"16\" y1=\"123\" x2=\"86\" y2=\"123\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <rect class=\"part hundred-flat\" x=\"92\" y=\"60\" width=\"70\" height=\"70\" rx=\"0\" fill=\"#ffccbc\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"part grid\" x1=\"99\" y1=\"60\" x2=\"99\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"92\" y1=\"67\" x2=\"162\" y2=\"67\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"106\" y1=\"60\" x2=\"106\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"92\" y1=\"74\" x2=\"162\" y2=\"74\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"113\" y1=\"60\" x2=\"113\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"92\" y1=\"81\" x2=\"162\" y2=\"81\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"120\" y1=\"60\" x2=\"120\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"92\" y1=\"88\" x2=\"162\" y2=\"88\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"127\" y1=\"60\" x2=\"127\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"92\" y1=\"95\" x2=\"162\" y2=\"95\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"134\" y1=\"60\" x2=\"134\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"92\" y1=\"102\" x2=\"162\" y2=\"102\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"141\" y1=\"60\" x2=\"141\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"92\" y1=\"109\" x2=\"162\" y2=\"109\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"148\" y1=\"60\" x2=\"148\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"92\" y1=\"116\" x2=\"162\" y2=\"116\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"155\" y1=\"60\" x2=\"155\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"92\" y1=\"123\" x2=\"162\" y2=\"123\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <rect class=\"part hundred-flat\" x=\"168\" y=\"60\" width=\"70\" height=\"70\" rx=\"0\" fill=\"#ffccbc\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"part grid\" x1=\"175\" y1=\"60\" x2=\"175\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"168\" y1=\"67\" x2=\"238\" y2=\"67\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"182\" y1=\"60\" x2=\"182\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"168\" y1=\"74\" x2=\"238\" y2=\"74\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"189\" y1=\"60\" x2=\"189\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"168\" y1=\"81\" x2=\"238\" y2=\"81\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"196\" y1=\"60\" x2=\"196\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"168\" y1=\"88\" x2=\"238\" y2=\"88\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"203\" y1=\"60\" x2=\"203\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"168\" y1=\"95\" x2=\"238\" y2=\"95\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"210\" y1=\"60\" x2=\"210\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"168\" y1=\"102\" x2=\"238\" y2=\"102\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"217\" y1=\"60\" x2=\"217\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"168\" y1=\"109\" x2=\"238\" y2=\"109\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"224\" y1=\"60\" x2=\"224\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"168\" y1=\"116\" x2=\"238\" y2=\"116\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"231\" y1=\"60\" x2=\"231\" y2=\"130\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"168\" y1=\"123\" x2=\"238\" y2=\"123\" stroke=\"#bf6f5a\" stroke-width=\"0.6\"/>\n  <rect class=\"part ten-rod\" x=\"250\" y=\"60\" width=\"9\" height=\"70\" rx=\"0\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"part grid\" x1=\"250\" y1=\"67\" x2=\"259\" y2=\"67\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"250\" y1=\"74\" x2=\"259\" y2=\"74\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"250\" y1=\"81\" x2=\"259\" y2=\"81\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"250\" y1=\"88\" x2=\"259\" y2=\"88\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"250\" y1=\"95\" x2=\"259\" y2=\"95\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"250\" y1=\"102\" x2=\"259\" y2=\"102\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"250\" y1=\"109\" x2=\"259\" y2=\"109\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"250\" y1=\"116\" x2=\"259\" y2=\"116\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"250\" y1=\"123\" x2=\"259\" y2=\"123\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <rect class=\"part ten-rod\" x=\"263\" y=\"60\" width=\"9\" height=\"70\" rx=\"0\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"part grid\" x1=\"263\" y1=\"67\" x2=\"272\" y2=\"67\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"263\" y1=\"74\" x2=\"272\" y2=\"74\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"263\" y1=\"81\" x2=\"272\" y2=\"81\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"263\" y1=\"88\" x2=\"272\" y2=\"88\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"263\" y1=\"95\" x2=\"272\" y2=\"95\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"263\" y1=\"102\" x2=\"272\" y2=\"102\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"263\" y1=\"109\" x2=\"272\" y2=\"109\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"263\" y1=\"116\" x2=\"272\" y2=\"116\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"263\" y1=\"123\" x2=\"272\" y2=\"123\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <rect class=\"part ten-rod\" x=\"276\" y=\"60\" width=\"9\" height=\"70\" rx=\"0\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"part grid\" x1=\"276\" y1=\"67\" x2=\"285\" y2=\"67\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"276\" y1=\"74\" x2=\"285\" y2=\"74\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"276\" y1=\"81\" x2=\"285\" y2=\"81\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"276\" y1=\"88\" x2=\"285\" y2=\"88\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"276\" y1=\"95\" x2=\"285\" y2=\"95\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"276\" y1=\"102\" x2=\"285\" y2=\"102\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"276\" y1=\"109\" x2=\"285\" y2=\"109\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"276\" y1=\"116\" x2=\"285\" y2=\"116\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"276\" y1=\"123\" x2=\"285\" y2=\"123\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <rect class=\"part ten-rod\" x=\"289\" y=\"60\" width=\"9\" height=\"70\" rx=\"0\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"part grid\" x1=\"289\" y1=\"67\" x2=\"298\" y2=\"67\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"289\" y1=\"74\" x2=\"298\" y2=\"74\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"289\" y1=\"81\" x2=\"298\" y2=\"81\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"289\" y1=\"88\" x2=\"298\" y2=\"88\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"289\" y1=\"95\" x2=\"298\" y2=\"95\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"289\" y1=\"102\" x2=\"298\" y2=\"102\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"289\" y1=\"109\" x2=\"298\" y2=\"109\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"289\" y1=\"116\" x2=\"298\" y2=\"116\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"289\" y1=\"123\" x2=\"298\" y2=\"123\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <rect class=\"part ten-rod\" x=\"302\" y=\"60\" width=\"9\" height=\"70\" rx=\"0\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"part grid\" x1=\"302\" y1=\"67\" x2=\"311\" y2=\"67\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"302\" y1=\"74\" x2=\"311\" y2=\"74\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"302\" y1=\"81\" x2=\"311\" y2=\"81\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"302\" y1=\"88\" x2=\"311\" y2=\"88\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"302\" y1=\"95\" x2=\"311\" y2=\"95\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"302\" y1=\"102\" x2=\"311\" y2=\"102\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"302\" y1=\"109\" x2=\"311\" y2=\"109\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"302\" y1=\"116\" x2=\"311\" y2=\"116\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"302\" y1=\"123\" x2=\"311\" y2=\"123\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <rect class=\"part ten-rod\" x=\"315\" y=\"60\" width=\"9\" height=\"70\" rx=\"0\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"part grid\" x1=\"315\" y1=\"67\" x2=\"324\" y2=\"67\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"315\" y1=\"74\" x2=\"324\" y2=\"74\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"315\" y1=\"81\" x2=\"324\" y2=\"81\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"315\" y1=\"88\" x2=\"324\" y2=\"88\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"315\" y1=\"95\" x2=\"324\" y2=\"95\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"315\" y1=\"102\" x2=\"324\" y2=\"102\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"315\" y1=\"109\" x2=\"324\" y2=\"109\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"315\" y1=\"116\" x2=\"324\" y2=\"116\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"315\" y1=\"123\" x2=\"324\" y2=\"123\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <rect class=\"part ten-rod\" x=\"328\" y=\"60\" width=\"9\" height=\"70\" rx=\"0\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"part grid\" x1=\"328\" y1=\"67\" x2=\"337\" y2=\"67\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"328\" y1=\"74\" x2=\"337\" y2=\"74\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"328\" y1=\"81\" x2=\"337\" y2=\"81\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"328\" y1=\"88\" x2=\"337\" y2=\"88\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"328\" y1=\"95\" x2=\"337\" y2=\"95\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"328\" y1=\"102\" x2=\"337\" y2=\"102\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"328\" y1=\"109\" x2=\"337\" y2=\"109\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"328\" y1=\"116\" x2=\"337\" y2=\"116\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"328\" y1=\"123\" x2=\"337\" y2=\"123\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <rect class=\"part ten-rod\" x=\"341\" y=\"60\" width=\"9\" height=\"70\" rx=\"0\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"part grid\" x1=\"341\" y1=\"67\" x2=\"350\" y2=\"67\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"341\" y1=\"74\" x2=\"350\" y2=\"74\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"341\" y1=\"81\" x2=\"350\" y2=\"81\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"341\" y1=\"88\" x2=\"350\" y2=\"88\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"341\" y1=\"95\" x2=\"350\" y2=\"95\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"341\" y1=\"102\" x2=\"350\" y2=\"102\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"341\" y1=\"109\" x2=\"350\" y2=\"109\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"341\" y1=\"116\" x2=\"350\" y2=\"116\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"341\" y1=\"123\" x2=\"350\" y2=\"123\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <rect class=\"part ten-rod\" x=\"354\" y=\"60\" width=\"9\" height=\"70\" rx=\"0\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"part grid\" x1=\"354\" y1=\"67\" x2=\"363\" y2=\"67\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"354\" y1=\"74\" x2=\"363\" y2=\"74\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"354\" y1=\"81\" x2=\"363\" y2=\"81\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"354\" y1=\"88\" x2=\"363\" y2=\"88\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"354\" y1=\"95\" x2=\"363\" y2=\"95\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"354\" y1=\"102\" x2=\"363\" y2=\"102\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"354\" y1=\"109\" x2=\"363\" y2=\"109\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"354\" y1=\"116\" x2=\"363\" y2=\"116\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"354\" y1=\"123\" x2=\"363\" y2=\"123\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <rect class=\"part ten-rod\" x=\"367\" y=\"60\" width=\"9\" height=\"70\" rx=\"0\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"part grid\" x1=\"367\" y1=\"67\" x2=\"376\" y2=\"67\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"367\" y1=\"74\" x2=\"376\" y2=\"74\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"367\" y1=\"81\" x2=\"376\" y2=\"81\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"367\" y1=\"88\" x2=\"376\" y2=\"88\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"367\" y1=\"95\" x2=\"376\" y2=\"95\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"367\" y1=\"102\" x2=\"376\" y2=\"102\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"367\" y1=\"109\" x2=\"376\" y2=\"109\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"367\" y1=\"116\" x2=\"376\" y2=\"116\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"367\" y1=\"123\" x2=\"376\" y2=\"123\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <rect class=\"part ten-rod\" x=\"380\" y=\"60\" width=\"9\" height=\"70\" rx=\"0\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"part grid\" x1=\"380\" y1=\"67\" x2=\"389\" y2=\"67\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"380\" y1=\"74\" x2=\"389\" y2=\"74\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"380\" y1=\"81\" x2=\"389\" y2=\"81\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"380\" y1=\"88\" x2=\"389\" y2=\"88\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"380\" y1=\"95\" x2=\"389\" y2=\"95\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"380\" y1=\"102\" x2=\"389\" y2=\"102\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"380\" y1=\"109\" x2=\"389\" y2=\"109\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"380\" y1=\"116\" x2=\"389\" y2=\"116\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"380\" y1=\"123\" x2=\"389\" y2=\"123\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <rect class=\"part ten-rod\" x=\"393\" y=\"60\" width=\"9\" height=\"70\" rx=\"0\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"part grid\" x1=\"393\" y1=\"67\" x2=\"402\" y2=\"67\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"393\" y1=\"74\" x2=\"402\" y2=\"74\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"393\" y1=\"81\" x2=\"402\" y2=\"81\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"393\" y1=\"88\" x2=\"402\" y2=\"88\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"393\" y1=\"95\" x2=\"402\" y2=\"95\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"393\" y1=\"102\" x2=\"402\" y2=\"102\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"393\" y1=\"109\" x2=\"402\" y2=\"109\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"393\" y1=\"116\" x2=\"402\" y2=\"116\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <line class=\"part grid\" x1=\"393\" y1=\"123\" x2=\"402\" y2=\"123\" stroke=\"#5c8bc0\" stroke-width=\"0.6\"/>\n  <rect class=\"part one-cube\" x=\"414\" y=\"121\" width=\"9\" height=\"9\" rx=\"0\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part one-cube\" x=\"427\" y=\"121\" width=\"9\" height=\"9\" rx=\"0\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part one-cube\" x=\"414\" y=\"108\" width=\"9\" height=\"9\" rx=\"0\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part one-cube\" x=\"427\" y=\"108\" width=\"9\" height=\"9\" rx=\"0\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label small\" x=\"230.0\" y=\"160\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Flat = 100 \u00b7 Rod = 10 \u00b7 Small cube = 1</text>\n</svg>", "alt": "Three hundred-flats, twelve ten-rods and four small unit cubes. A key says flat = 100, rod = 10, small cube = 1."}
@@ -599,12 +599,12 @@ const SET_B: PrepQuestion[] = [
     id: "g3-maths-numbers-b-q21",
     prompt: "How many different 3-digit numbers can you make with 2, 7 and 0, using each digit once?",
     options: [
-      { id: "a", text: "2" },
-      { id: "b", text: "3" },
-      { id: "c", text: "6" },
-      { id: "d", text: "4" }
+      { id: "a", text: "4" },
+      { id: "b", text: "2" },
+      { id: "c", text: "3" },
+      { id: "d", text: "6" }
     ],
-    answerId: "d",
+    answerId: "a",
     explanation: "Zero cannot go first, so we get only 207, 270, 702 and 720.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -640,11 +640,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "What comes next: 200, 199, 197, 194, ___?",
     options: [
       { id: "a", text: "189" },
-      { id: "b", text: "190" },
-      { id: "c", text: "191" },
-      { id: "d", text: "192" }
+      { id: "b", text: "191" },
+      { id: "c", text: "192" },
+      { id: "d", text: "190" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "We take away 1, then 2, then 3, so next we take away 4, and 194 \u2212 4 = 190.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }

@@ -51,11 +51,11 @@
 ### Q03
 - **stem**: The decimal expansion of 1/8 is…
 - **options**:
-  - A) 0.125 (terminating)
-  - B) 0.121212… (non-terminating repeating)
-  - C) 0.1121121112… (non-repeating)
-  - D) √2
-- **answer**: A
+  - A) 0.121212… (non-terminating repeating)
+  - B) 0.1121121112… (non-repeating)
+  - C) √2
+  - D) 0.125 (terminating)
+- **answer**: D
 - **explanation**: 1 ÷ 8 = 0.125 exactly, so the expansion terminates.
 - **skill**: decimals
 - **difficulty**: easy
@@ -63,11 +63,11 @@
 ### Q04
 - **stem**: A number whose decimal is non-terminating and non-repeating must be…
 - **options**:
-  - A) rational
-  - B) irrational
+  - A) irrational
+  - B) rational
   - C) an integer
   - D) a whole number
-- **answer**: B
+- **answer**: A
 - **explanation**: Non-terminating non-repeating decimals define irrational numbers.
 - **skill**: decimals
 - **difficulty**: easy
@@ -76,10 +76,10 @@
 - **stem**: Between 2 and 3 there are…
 - **options**:
   - A) no rational numbers
-  - B) exactly one rational
-  - C) infinitely many rationals
+  - B) infinitely many rationals
+  - C) exactly one rational
   - D) exactly two rationals
-- **answer**: C
+- **answer**: B
 - **explanation**: Between any two distinct reals there are infinitely many rationals (and irrationals).
 - **skill**: density
 - **difficulty**: easy
@@ -89,9 +89,9 @@
 - **options**:
   - A) 16/25
   - B) 4/25
-  - C) 8/5
-  - D) 4/5
-- **answer**: D
+  - C) 4/5
+  - D) 8/5
+- **answer**: C
 - **explanation**: √(16/25) = √16 / √25 = 4/5.
 - **skill**: roots
 - **difficulty**: easy
@@ -99,11 +99,11 @@
 ### Q07
 - **stem**: Which statement about number sets is true?
 - **options**:
-  - A) Every natural number is a whole number
-  - B) Every integer is irrational
-  - C) Every real number is rational
-  - D) 0 is not a real number
-- **answer**: A
+  - A) Every integer is irrational
+  - B) Every real number is rational
+  - C) 0 is not a real number
+  - D) Every natural number is a whole number
+- **answer**: D
 - **explanation**: Natural numbers are 1,2,3,… and wholes add 0, so every natural is whole.
 - **skill**: sets
 - **difficulty**: easy
@@ -111,11 +111,11 @@
 ### Q08
 - **stem**: The rationalising factor of √3 is…
 - **options**:
-  - A) 3
-  - B) √3
+  - A) √3
+  - B) 3
   - C) 1/3
   - D) √2
-- **answer**: B
+- **answer**: A
 - **explanation**: √3 × √3 = 3, a rational number, so √3 rationalises √3.
 - **skill**: rationalise
 - **difficulty**: easy
@@ -136,10 +136,10 @@
 - **stem**: Which is a terminating decimal?
 - **options**:
   - A) 1/3
-  - B) 1/6
-  - C) 1/7
-  - D) 1/5
-- **answer**: D
+  - B) 1/5
+  - C) 1/6
+  - D) 1/7
+- **answer**: B
 - **explanation**: 1/5 = 0.2. A fraction in lowest terms terminates iff the denominator’s primes are only 2 and/or 5.
 - **skill**: decimals
 - **difficulty**: medium
@@ -159,11 +159,11 @@
 ### Q12
 - **stem**: If x = √5 + √3 and y = √5 − √3, then xy equals…
 - **options**:
-  - A) 2
-  - B) 8
-  - C) √15
-  - D) √5 − √3
-- **answer**: A
+  - A) 8
+  - B) √15
+  - C) √5 − √3
+  - D) 2
+- **answer**: D
 - **explanation**: xy = (√5)² − (√3)² = 5 − 3 = 2.
 - **skill**: surds
 - **difficulty**: medium
@@ -171,11 +171,11 @@
 ### Q13
 - **stem**: On the number line, √2 lies between…
 - **options**:
-  - A) 0 and 1
-  - B) 1 and 2
+  - A) 1 and 2
+  - B) 0 and 1
   - C) 2 and 3
   - D) 3 and 4
-- **answer**: B
+- **answer**: A
 - **explanation**: 1² = 1 and 2² = 4, so √2 ≈ 1.414 lies between 1 and 2.
 - **skill**: locate
 - **difficulty**: easy
@@ -184,10 +184,10 @@
 - **stem**: Which law is correct for positive real a and integers m, n?
 - **options**:
   - A) a^m * a^n = a^(m*n)
-  - B) a^m * a^n = a^(m-n)
-  - C) a^m * a^n = a^(m+n)
+  - B) a^m * a^n = a^(m+n)
+  - C) a^m * a^n = a^(m-n)
   - D) (a^m)^n = a^(m+n)
-- **answer**: C
+- **answer**: B
 - **explanation**: When multiplying same bases, add exponents: a^m * a^n = a^(m+n).
 - **skill**: exponents
 - **difficulty**: easy
@@ -197,9 +197,9 @@
 - **options**:
   - A) 12
   - B) √35
-  - C) −2
-  - D) 2
-- **answer**: D
+  - C) 2
+  - D) −2
+- **answer**: C
 - **explanation**: Difference of squares: 7 − 5 = 2.
 - **skill**: surds
 - **difficulty**: easy
@@ -207,11 +207,11 @@
 ### Q16
 - **stem**: Which number is rational?
 - **options**:
-  - A) 0.¯27
-  - B) π
-  - C) √7
-  - D) 0.101001000100001… (pattern of growing zeros)
-- **answer**: A
+  - A) π
+  - B) √7
+  - C) 0.101001000100001… (pattern of growing zeros)
+  - D) 0.¯27
+- **answer**: D
 - **explanation**: 0.¯27 = 27/99 is a repeating decimal, hence rational. The others are irrational.
 - **skill**: decimals
 - **difficulty**: medium
@@ -219,11 +219,11 @@
 ### Q17
 - **stem**: Rationalising the denominator of 1/√5 gives…
 - **options**:
-  - A) 5/√5
-  - B) √5 / 5
+  - A) √5 / 5
+  - B) 5/√5
   - C) √5
   - D) 1/5
-- **answer**: B
+- **answer**: A
 - **explanation**: Multiply numerator and denominator by √5: √5 / 5.
 - **skill**: rationalise
 - **difficulty**: easy
@@ -232,10 +232,10 @@
 - **stem**: If 2ˣ = 32, then x equals…
 - **options**:
   - A) 4
-  - B) 6
-  - C) 5
+  - B) 5
+  - C) 6
   - D) 16
-- **answer**: C
+- **answer**: B
 - **explanation**: 32 = 2⁵, so x = 5.
 - **skill**: exponents
 - **difficulty**: easy
@@ -245,9 +245,9 @@
 - **options**:
   - A) always rational
   - B) always an integer
-  - C) sometimes zero
-  - D) always irrational
-- **answer**: D
+  - C) always irrational
+  - D) sometimes zero
+- **answer**: C
 - **explanation**: For non-zero rational r and irrational α, rα is irrational (else α would be rational).
 - **skill**: irrational
 - **difficulty**: medium
@@ -255,11 +255,11 @@
 ### Q20
 - **stem**: √(0.09) equals…
 - **options**:
-  - A) 0.3
-  - B) 0.03
-  - C) 0.9
-  - D) 3
-- **answer**: A
+  - A) 0.03
+  - B) 0.9
+  - C) 3
+  - D) 0.3
+- **answer**: D
 - **explanation**: 0.09 = 9/100, and √(9/100) = 3/10 = 0.3.
 - **skill**: roots
 - **difficulty**: easy
@@ -267,12 +267,12 @@
 ### Q21
 - **stem**: Which expression equals (3²)³?
 - **options**:
-  - A) 3⁵
-  - B) 3⁶
-  - C) 9³
-  - D) both B and C
-- **answer**: D
-- **explanation**: (3²)³ = 3⁶ and 9³ = (3²)³ = 3⁶, so both B and C.
+  - A) both 3⁶ and 9³
+  - B) 3⁵
+  - C) 3⁶
+  - D) 9³
+- **answer**: A
+- **explanation**: (3²)³ = 3⁶ because the powers multiply (2 × 3 = 6), and 9³ = (3²)³ = 3⁶ too, so both 3⁶ and 9³ are equal to it. 3⁵ may look right if you add the powers (2 + 3) instead of multiplying them.
 - **skill**: exponents
 - **difficulty**: medium
 

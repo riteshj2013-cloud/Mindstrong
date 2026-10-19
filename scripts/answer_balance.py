@@ -27,15 +27,18 @@ _POSITIONAL_OPTION = re.compile(
     r"|\b(?:option|choice)s?\s+[A-Da-d]\b",
     re.I,
 )
-# Option text that names a lettered figure part ("Card A", "Shape B", "Label C", or just "D").
-_LABEL_OPTION = re.compile(r"\b[A-Z][a-z]+ [A-D](?![\w'’])|^\s*[A-D]\s*$")
+# Option text that names a lettered/numbered figure part ("Card A", "Shape B", "D — river", "Group 3").
+_LABEL_OPTION = re.compile(r"\b[A-Z][a-z]+ [A-D](?![\w'’])|^\s*[A-D]\s*$|^\s*[A-D]\s*[—–:)-]|^\s*[A-Z][a-z]+ \d{1,2}\s*$")
 # Letter references inside explanations/hints, e.g. "Only D matches", "In C and D", "option B".
 _POSITIONAL_TEXT = re.compile(
     r"\b(?:[Oo]ption|[Cc]hoice)s?\s+\(?[A-Da-d]\)?(?![\w'’])"
     r"|\b(?:Only|only|In|in)\s+[A-D](?![\w'’])"
     r"|\b[A-D]\s*(?:,|and|or|nor)\s*[A-D](?![\w'’])"
     r"|\b[A-D] (?:is|are) (?:wrong|correct|right|incorrect|true|false)\b"
+    r"|(?<![\w(])\([A-D]\)"  # "Honey (C) is sweet"
 )
+# A hint that is a bare letter ("A.") reads as an option letter once options move.
+_BARE_LETTER = re.compile(r"^\W*[A-Za-z]\W*$")
 
 
 def _text(o) -> str:
@@ -45,7 +48,10 @@ def _text(o) -> str:
 def is_pinned(item: dict) -> bool:
     if any(_POSITIONAL_OPTION.search(_text(o)) or _LABEL_OPTION.search(_text(o)) for o in item["options"]):
         return True
-    blob = " ".join([item.get("explanation") or ""] + list(item.get("hints") or []) + [item.get("hint") or "", item.get("hint_overlay") or ""])
+    hints = list(item.get("hints") or []) + [item.get("hint") or "", item.get("hint_overlay") or ""]
+    if any(h and _BARE_LETTER.match(h) for h in hints):
+        return True
+    blob = " ".join([item.get("explanation") or ""] + hints)
     return bool(_POSITIONAL_TEXT.search(blob))
 
 

@@ -549,7 +549,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "They're going to the market too." }
     ],
     answerId: "d",
-    explanation: "They're = they are. \"To\" shows direction (to the market). \"Too\" means also. Only D uses each word correctly.",
+    explanation: "They're = they are. \"To\" shows direction (to the market). \"Too\" means also. Only \"They're going to the market too.\" uses each word correctly; the other sentences mix up their/there/they're or use \"too\" where \"to\" is needed.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
@@ -588,7 +588,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\"Ramu's sister said, Come home early.\"" }
     ],
     answerId: "c",
-    explanation: "Only C is fully correct: Ramu's needs an apostrophe for belonging, a comma comes before the speech, inverted commas go around only the spoken words, and the full stop goes inside them. A has no inverted commas, B misses the apostrophe and comma and puts the full stop outside, and D puts the inverted commas around the whole sentence.",
+    explanation: "Only Ramu's sister said, \"Come home early.\" is fully correct: Ramu's needs an apostrophe for belonging, a comma comes before the speech, inverted commas go around only the spoken words, and the full stop goes inside them. One sentence has no inverted commas at all, one misses the apostrophe and the comma and puts the full stop outside, and one puts the inverted commas around the whole sentence.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {

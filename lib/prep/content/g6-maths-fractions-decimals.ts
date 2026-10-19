@@ -18,7 +18,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-maths-frac-a-q02",
-    prompt: "What is 5/6 − 1/6?",
+    prompt: "What is 5/6 − 1/6 in its simplest form?",
     options: [
       { id: "a", text: "4/6" },
       { id: "b", text: "2/3" },
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4/12" }
     ],
     answerId: "b",
-    explanation: "5/6 − 1/6 = 4/6 = 2/3 in simplest form.",
+    explanation: "5/6 − 1/6 = 4/6, and dividing top and bottom by 2 gives 2/3. 4/6 may look right because it has the same value, but 4 and 6 still share the factor 2, so it is not in its simplest form.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -476,7 +476,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-maths-frac-b-q13",
-    prompt: "What is 2/3 × 9/10?",
+    prompt: "What is 2/3 × 9/10 in its simplest form?",
     options: [
       { id: "a", text: "3/5" },
       { id: "b", text: "18/30" },
@@ -484,7 +484,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2/10" }
     ],
     answerId: "a",
-    explanation: "2/3 × 9/10 = 18/30 = 3/5.",
+    explanation: "2/3 × 9/10 = 18/30, and dividing top and bottom by 6 gives 3/5. 18/30 may look right because it has the same value, but 18 and 30 still share the factor 6, so it is not in its simplest form.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

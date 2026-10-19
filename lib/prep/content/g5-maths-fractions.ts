@@ -64,11 +64,11 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "Panel A" },
       { id: "b", text: "Panel B" },
-      { id: "c", text: "Panel D" },
-      { id: "d", text: "Panel C" }
+      { id: "c", text: "Panel C" },
+      { id: "d", text: "Panel D" }
     ],
-    answerId: "d",
-    explanation: "A half means 1 of 2 equal parts. Only Panel C shows that. A has unequal parts, B is 1/3 and D is 1/4.",
+    answerId: "c",
+    explanation: "A half means 1 of 2 equal parts. Only Panel C shows that. Panel A may look right because one part is shaded, but its two parts are not equal; Panel B shows 1/3 and Panel D shows 1/4.",
     hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 480 260\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Four diagrams which shows one half\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"480\" height=\"260\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"240\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Which shows 1/2 shaded?</text>\n  <rect class=\"part panel\" x=\"10\" y=\"34\" width=\"225\" height=\"100\" rx=\"8\" fill=\"#fff\" stroke=\"#666\" stroke-width=\"1\"/>\n  <text class=\"label option-label\" x=\"24\" y=\"56\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1565c0\">A</text>\n  <rect class=\"part piece shaded\" x=\"50\" y=\"60\" width=\"50\" height=\"55\" fill=\"#ffab91\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"100\" y=\"60\" width=\"100\" height=\"55\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part panel\" x=\"245\" y=\"34\" width=\"225\" height=\"100\" rx=\"8\" fill=\"#fff\" stroke=\"#666\" stroke-width=\"1\"/>\n  <text class=\"label option-label\" x=\"259\" y=\"56\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1565c0\">B</text>\n  <path class=\"part slice shaded\" d=\"M 357 90 L 357.0 58.0 A 32 32 0 0 1 384.7 106.0 Z\" fill=\"#ffab91\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <path class=\"part slice\" d=\"M 357 90 L 384.7 106.0 A 32 32 0 0 1 329.3 106.0 Z\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <path class=\"part slice\" d=\"M 357 90 L 329.3 106.0 A 32 32 0 0 1 357.0 58.0 Z\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part panel\" x=\"10\" y=\"144\" width=\"225\" height=\"100\" rx=\"8\" fill=\"#fff\" stroke=\"#666\" stroke-width=\"1\"/>\n  <text class=\"label option-label\" x=\"24\" y=\"166\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1565c0\">C</text>\n  <path class=\"part slice shaded\" d=\"M 122 200 L 122.0 168.0 A 32 32 0 0 1 122.0 232.0 Z\" fill=\"#ffab91\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <path class=\"part slice\" d=\"M 122 200 L 122.0 232.0 A 32 32 0 0 1 122.0 168.0 Z\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part panel\" x=\"245\" y=\"144\" width=\"225\" height=\"100\" rx=\"8\" fill=\"#fff\" stroke=\"#666\" stroke-width=\"1\"/>\n  <text class=\"label option-label\" x=\"259\" y=\"166\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1565c0\">D</text>\n  <rect class=\"part piece shaded\" x=\"280.0\" y=\"175\" width=\"40.0\" height=\"40\" rx=\"0\" fill=\"#ffab91\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"320.0\" y=\"175\" width=\"40.0\" height=\"40\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"360.0\" y=\"175\" width=\"40.0\" height=\"40\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"400.0\" y=\"175\" width=\"40.0\" height=\"40\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n</svg>", "alt": "Four panels. A has unequal parts with the small part shaded. B is a circle in 3 equal parts with 1 shaded. C is a circle in 2 equal parts with 1 shaded. D is a bar in 4 equal parts with 1 shaded."}
   },
@@ -177,7 +177,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "d",
-    explanation: "1/5 of 30 is 6, so 2/5 of 30 is 2 \u00d7 6 = 12, while 6 is the trap of stopping at 1/5.",
+    explanation: "1/5 of 30 is 6, so 2/5 of 30 is 2 × 6 = 12. 6 may look right, but that is only 1/5 of 30.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

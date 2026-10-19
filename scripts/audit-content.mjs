@@ -4,9 +4,12 @@
  * (skipping raw SVG markup) and flags editorial leaks, exam branding and "$" amounts.
  * Structural checks on served sets: answer-letter skew (>50% one letter), duplicate stems,
  * and inline SVG figures missing an aria-label / alt text.
+ * Hint checks: bare-letter hints, option-letter references, hints that equal / contain the answer.
+ * Warnings (non-fatal): chapters that never use one of A/B/C/D as the answer.
  * Usage: node scripts/audit-content.mjs   (exit 1 on findings)
  */
 import { createJiti } from "jiti";
+import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
@@ -28,6 +31,8 @@ const RULES = [
   ["look-at-read", /\bLook at Read\b/],
   // G4-style pictorial scaffolding must live in figure.longdesc, never in the quiz prompt.
   ["sr-longdesc-in-prompt", /Text-only version for screen readers/i],
+  // Writer/editor jargon must never reach kids ("tempting distractors", "synesthetic-ish", "the trap").
+  ["editorial-word", /\bdistractors?\b|\b[a-z]+-ish\b|\bsynesthe|\b(?:a|the) trap\b(?! (?:air|heat|light|sunlight|water))/i],
 ];
 
 const findings = [];
@@ -118,6 +123,92 @@ for (const { where, questions } of servedSets) {
 walk(types.SUBJECT_META, "SUBJECT_META");
 const daily = jiti(path.join(ROOT, "lib/content/index.ts"));
 for (const p of daily.ALL_READY_PACKS) walk(p, p.id);
+/**
+ * Hints must nudge, never point at a position or hand over the answer:
+ *  - hint-bare-letter:  a hint that is just a letter ("A.", "B") reads as an option letter;
+ *  - hint-letter-ref:   "option B", "(c)", "Only D", "A and C", "B is wrong" — option order is
+ *                        rebalanced, so letters in hints go stale (figure labels such as
+ *                        "Card B" or "Panel C" are fixed in the picture and are allowed);
+ *  - hint-is-answer:    the hint equals the correct option text;
+ *  - hint-contains-answer: the hint contains the correct option text verbatim. Items that
+ *    already did this on 2026-10-19 are listed in scripts/audit-baselines/hint-contains-answer.json
+ *    for the writers' hint rewrite; only NEW ones fail. Remove ids from that file as they are fixed.
+ */
+const LABEL_NOUN = /\b(?:card|label|panel|shape|bar|picture|part|point|home|town|library|jar|box|bag|glass|line|bottle|group|row|column|tile|scene|figure|diagram|strip|cup|beaker|tube|flask|pot|plant|child|student|team|class|grade|vitamin|route|path|arrow|ray|object|mirror|magnet|bulb|graph|pattern|step|stage|region|zone|side|corner|angle|triangle|circle|square|sample|solution|liquid|substance|person|friend|lens|cell|site|tank|ball|block|spring|trolley|car|train|ship|city|village|shop|house|room|door|window|tap|bowl|plate|sheet|set|tray|basket|road|field|vertex|vertices|points|segment|letter|hepatitis)s?\s*$/i;
+const LETTER_REF = [
+  /\b(?:option|choice|answer)s?\s*\(?[A-Da-d]\)?(?![\w'’])/gi,
+  /(?<![\w)])\([A-Da-d]\)/g,
+  /(?<![\w'’°/.-])[A-D]\s*(?:,|and|or|nor|&)\s*[A-D](?![\w'’])/g,
+  /\b(?:[Oo]nly|[Ii]n|[Pp]ick|[Cc]hoose|[Nn]ot)\s+[A-D](?![\w'’])/g,
+  /(?<![\w'’°/.-])[A-D] (?:is|are|has|gives|uses|shows|matches|misses|puts) /g,
+  /(?:^|[.!?]\s+)[A-D][.:)](?:\s|$)/g,
+];
+function letterRefs(h) {
+  const out = [];
+  for (const re of LETTER_REF) {
+    for (const m of h.matchAll(re)) {
+      const lead = m[0].match(/^[\s.!?]*/)[0].length;
+      if (LABEL_NOUN.test(h.slice(0, m.index + lead))) continue;
+      out.push(m[0].trim());
+    }
+  }
+  return out;
+}
+const normText = (s) => String(s ?? "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+function containsAnswer(hint, answer) {
+  const a = String(answer ?? "").trim().replace(/[.!?]+$/, "").trim();
+  if (!a || (a.length < 2 && !/^\d$/.test(a))) return false; // single letters: equality check only
+  return new RegExp(`(?<![\\p{L}\\p{N}])${escapeRe(a.toLowerCase())}(?![\\p{L}\\p{N}])`, "u").test(hint.toLowerCase());
+}
+const leakBaselinePath = path.join(ROOT, "scripts/audit-baselines/hint-contains-answer.json");
+const leakBaseline = new Set(JSON.parse(fs.readFileSync(leakBaselinePath, "utf8")).items);
+const leakSeen = new Set();
+let knownLeaks = 0;
+const hintStats = { bare: 0, ref: 0, equal: 0, contains: 0 };
+for (const { where, questions } of servedSets) {
+  for (const q of questions) {
+    const correct = q.options.find((o) => o.id === q.answerId)?.text ?? "";
+    (q.hints ?? []).forEach((h, i) => {
+      const at = `${where}.${q.id}.hints[${i}]`;
+      if (/^[^\p{L}\p{N}]*\p{L}[^\p{L}\p{N}]*$/u.test(h)) {
+        hintStats.bare++;
+        findings.push({ rule: "hint-bare-letter", where: at, text: `${q.id} hint is a bare letter: "${h}"` });
+      } else {
+        const refs = letterRefs(h);
+        if (refs.length) {
+          hintStats.ref++;
+          findings.push({ rule: "hint-letter-ref", where: at, text: `${q.id} hint names an option by letter (${refs.join(", ")}): ${h}` });
+        }
+      }
+      if (normText(h) && normText(h) === normText(correct)) {
+        hintStats.equal++;
+        findings.push({ rule: "hint-is-answer", where: at, text: `${q.id} hint is the correct option: "${h}"` });
+      } else if (containsAnswer(h, correct)) {
+        hintStats.contains++;
+        leakSeen.add(q.id);
+        if (leakBaseline.has(q.id)) knownLeaks++;
+        else findings.push({ rule: "hint-contains-answer", where: at, text: `${q.id} hint contains the correct option "${correct}": ${h}` });
+      }
+    });
+  }
+}
+const staleLeaks = [...leakBaseline].filter((id) => !leakSeen.has(id));
+
+/** Warning only: every chapter should use each answer letter at least once. */
+const warnings = [];
+const chapterLetters = new Map();
+for (const { where, questions } of servedSets) {
+  const ch = where.replace(/\.[^.]+$/, "");
+  const c = chapterLetters.get(ch) ?? { a: 0, b: 0, c: 0, d: 0 };
+  for (const q of questions) c[q.answerId] = (c[q.answerId] ?? 0) + 1;
+  chapterLetters.set(ch, c);
+}
+for (const [ch, c] of chapterLetters) {
+  const missing = Object.keys(c).filter((L) => !c[L]);
+  if (missing.length) warnings.push(`chapter-missing-letter ${ch} never uses ${missing.map((L) => L.toUpperCase()).join("/")} as the answer; counts ${JSON.stringify(c)}`);
+}
+
 const plans = jiti(path.join(ROOT, "lib/plans.ts"));
 ALLOW.add(plans.SOF_DISCLAIMER);
 walk(plans, "plans");
@@ -156,5 +247,11 @@ for (const g of grades.READY_GRADES) {
 const seen = new Set();
 const uniq = findings.filter((f) => { const k = f.rule + f.text; if (seen.has(k)) return false; seen.add(k); return true; });
 for (const f of uniq) console.log(`${f.rule.padEnd(18)} ${f.where}\n    ${f.text}`);
-console.log(`\n${uniq.length} finding(s)`);
+for (const w of warnings) console.log(`warning            ${w}`);
+console.log(
+  `\nhint checks: ${hintStats.bare} bare-letter, ${hintStats.ref} letter-reference, ${hintStats.equal} hint-is-answer, ` +
+    `${hintStats.contains} hint-contains-answer (${knownLeaks} known in ${path.relative(ROOT, leakBaselinePath)}, ${leakSeen.size} items)`,
+);
+if (staleLeaks.length) console.log(`note: ${staleLeaks.length} id(s) in the hint-leak baseline no longer leak; remove them: ${staleLeaks.join(", ")}`);
+console.log(`${uniq.length} finding(s), ${warnings.length} warning(s)`);
 process.exit(uniq.length ? 1 : 0);

@@ -299,7 +299,7 @@ export const mondayPack1213: ContentPack = {
         {
           id: "mb-6",
           type: "choice",
-          prompt: "True or false-ish: 0.5 = 50% = ½",
+          prompt: "Do all three match? 0.5 = 50% = ½",
           options: [
             { id: "true", text: "All three match" },
             { id: "half", text: "Only 0.5 and ½ match" },

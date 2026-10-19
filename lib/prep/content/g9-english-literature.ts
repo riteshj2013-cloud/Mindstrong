@@ -510,7 +510,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "smell" }
     ],
     answerId: "c",
-    explanation: "Sound (cheers) is pictured as bright rising balloons — synesthetic-ish imagery.",
+    explanation: "The cheers are something we hear, but the writer shows them as bright balloons we can see rising. A sound is turned into a picture for the eyes.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {

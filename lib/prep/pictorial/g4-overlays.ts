@@ -269,49 +269,6 @@ export const G4_PICTORIAL_OVERLAYS: Record<string, PictorialOverlay> = {
       "label": "1 piece of 4"
     }
   },
-  "g4-maths-fractions-a-q03": {
-    "options": {
-      "a": {
-        "figure": {
-          "type": "fraction-circle",
-          "parts": 2,
-          "shaded": 1,
-          "equal": true
-        },
-        "text": "2 equal parts, 1 shaded"
-      },
-      "b": {
-        "figure": {
-          "type": "fraction-circle",
-          "parts": 2,
-          "shaded": 1,
-          "equal": false
-        },
-        "text": "2 unequal parts, smaller shaded"
-      },
-      "c": {
-        "figure": {
-          "type": "shape-grid",
-          "rows": 2,
-          "cols": 2,
-          "shaded": [
-            0
-          ],
-          "label": "1 of 4"
-        },
-        "text": "4 equal parts, 1 shaded"
-      },
-      "d": {
-        "figure": {
-          "type": "fraction-circle",
-          "parts": 3,
-          "shaded": 1,
-          "equal": true
-        },
-        "text": "3 equal parts, 1 shaded"
-      }
-    }
-  },
   "g4-maths-fractions-a-q04": {
     "figure": {
       "type": "fraction-circle",
@@ -428,57 +385,6 @@ export const G4_PICTORIAL_OVERLAYS: Record<string, PictorialOverlay> = {
         "parts": 5,
         "shaded": 2,
         "label": "2/5"
-      }
-    }
-  },
-  "g4-maths-fractions-b-q03": {
-    "options": {
-      "a": {
-        "figure": {
-          "type": "shape-grid",
-          "rows": 2,
-          "cols": 2,
-          "shaded": [
-            0
-          ],
-          "label": "unequal?"
-        },
-        "text": "4 unequal, 1 shaded"
-      },
-      "b": {
-        "figure": {
-          "type": "shape-grid",
-          "rows": 1,
-          "cols": 2,
-          "shaded": [
-            0
-          ]
-        },
-        "text": "2 equal, 1 shaded (=1/2)"
-      },
-      "c": {
-        "figure": {
-          "type": "shape-grid",
-          "rows": 2,
-          "cols": 2,
-          "shaded": [
-            0,
-            1,
-            2
-          ]
-        },
-        "text": "4 equal, 3 shaded"
-      },
-      "d": {
-        "figure": {
-          "type": "shape-grid",
-          "rows": 2,
-          "cols": 2,
-          "shaded": [
-            0
-          ]
-        },
-        "text": "4 equal, 1 shaded"
       }
     }
   },
@@ -1377,10 +1283,10 @@ export const G4_PICTORIAL_OVERLAYS: Record<string, PictorialOverlay> = {
 };
 
 export const G4_PICTORIAL_STATS = {
-  "total": 99,
+  "total": 97,
   "byChapter": {
     "maths-large": 15,
-    "maths-fractions": 16,
+    "maths-fractions": 14,
     "maths-muldiv": 15,
     "science-food": 12,
     "science-matter": 12,

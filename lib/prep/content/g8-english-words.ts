@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "The rule's affect was positive." }
     ],
     answerId: "a",
-    explanation: "\"Affect\" is the verb (to influence), so \"will affect\" is right. In C and D a noun is needed, so they would need \"effect.\"",
+    explanation: "\"Affect\" is the verb (to influence), so \"will affect\" is right. In \"a big ___ on attendance\" and \"The rule's ___ was positive\" a noun is needed, so those sentences would need \"effect.\"",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
@@ -286,7 +286,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "The bank closes at four on Saturdays." }
     ],
     answerId: "a",
-    explanation: "Homonyms share a spelling but have different meanings. Fishing boats point to a riverside, while B and D mean a financial institution and C means \"rely on.\"",
+    explanation: "Homonyms share a spelling but have different meanings. Fishing boats point to a riverside, while the savings sentence and the Saturday-closing sentence mean a financial institution, and \"bank on me\" means \"rely on.\"",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
@@ -458,7 +458,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Diaries must be written in the passive voice." }
     ],
     answerId: "c",
-    explanation: "Both formats include dates, as Dev's list shows, so A is wrong. The real difference is register: reports record facts impersonally, while diaries share personal feelings.",
+    explanation: "Both formats include dates, as Dev's list shows, so \"Diaries have dates, but reports never do\" is wrong. The real difference is register: reports record facts impersonally, while diaries share personal feelings.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {

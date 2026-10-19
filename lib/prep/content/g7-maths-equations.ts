@@ -518,12 +518,12 @@ const SET_B: PrepQuestion[] = [
     prompt: "Solve: 4x + 7 = \u22129.",
     options: [
       { id: "a", text: "4" },
-      { id: "b", text: "\u221216/4" },
+      { id: "b", text: "\u22121/2" },
       { id: "c", text: "2" },
       { id: "d", text: "\u22124" }
     ],
     answerId: "d",
-    explanation: "4x = \u221216 \u2192 x = \u22124.",
+    explanation: "4x = \u22129 \u2212 7 = \u221216, so x = \u221216 \u00f7 4 = \u22124. 4 may look right if the minus sign is dropped, and \u22121/2 comes from adding 7 to \u22129 instead of subtracting it.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

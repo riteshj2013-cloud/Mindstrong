@@ -64,7 +64,7 @@ export const G9_ENGLISH_HINTS: Record<string, HintOverlay> = {
   "g9-eng-ch02-a-q12": ["2019 is a point in time → since."],
   "g9-eng-ch02-a-q13": ["No question word order after asked."],
   "g9-eng-ch02-a-q14": ["Don’t stack more + -er."],
-  "g9-eng-ch02-a-q15": ["Ask “Everyone knew what?” The answer is doing the job of a noun."],
+  "g9-eng-ch02-a-q15": ["Ask 'Everyone knew what?' What job does that group of words do in the sentence?"],
   "g9-eng-ch02-a-q16": ["Proximity rule for neither…nor."],
   "g9-eng-ch02-a-q17": ["Here “to” is a preposition, not infinitive marker."],
   "g9-eng-ch02-a-q18": ["Drop the generic people; keep tense."],

@@ -18,15 +18,24 @@ DOCS1 = REPO / "docs/sof-source/grade-1"
 DOCS2 = REPO / "docs/sof-source/grade-2"
 
 
+def _norm(s: str) -> str:
+    return re.sub(r"[\W_]+", " ", s.lower()).strip()
+
+
 def q(prompt, opts, ans, expl, h1, h2, figure=None):
     letters = ["a", "b", "c", "d"]
     options = [{"id": letters[i], "text": opts[i]} for i in range(4)]
+    correct = opts[letters.index(ans.lower())]
+    # A hint that is just the correct option ("Cat.", "₹25.") gives the answer away, and a
+    # bare letter ("A.") reads as an option letter once options are shuffled. Drop such hints;
+    # the remaining hint is the item's own nudge (audit: hint-is-answer / hint-bare-letter).
+    hints = [h for h in (h1, h2) if _norm(h) != _norm(correct) and not re.fullmatch(r"\W*[A-Za-z]\W*", h)]
     obj = {
         "prompt": prompt,
         "options": options,
         "answerId": ans.lower(),
         "explanation": expl,
-        "hints": [h1, h2],
+        "hints": hints or [h1],
     }
     if figure:
         obj["figure"] = figure
@@ -277,33 +286,33 @@ def g1_maths_shapes():
 
 def g1_eng_letters():
     a = [
-        q('Which letter comes after "B"?', ["A", "C", "D", "E"], "b", "A, B, C — C comes after B.", "Say the alphabet.", "B then C."),
+        q('Which letter comes after "B"?', ["A", "C", "D", "E"], "b", "A, B, C — C comes after B.", "Say the alphabet.", "Sing the alphabet song up to 'bee'. Which sound comes next?"),
         q("Which word starts with M?", ["sun", "moon", "cat", "dog"], "b", "Moon starts with M.", "Listen to the first sound.", "M-oon."),
         q('Find the word: "c" + "at" =', ["bat", "cat", "hat", "mat"], "b", "c + at makes cat.", "Blend the sounds.", "Cat."),
-        q("Which is a letter?", ["3", "A", "!", "10"], "b", "A is a letter of the alphabet.", "Letters are A–Z.", "A."),
+        q("Which is a letter?", ["3", "A", "!", "10"], "b", "A is a letter of the alphabet.", "Letters are A–Z.", "A letter stands for a sound we say in words. Which one is not a number or a mark?"),
         q("How many letters are in the word SUN?", ["2", "3", "4", "1"], "b", "S-U-N has 3 letters.", "Count each letter.", "Three."),
         q('Which word ends with "g"?', ["bag", "bat", "bus", "bee"], "a", "Bag ends with g.", "Look at the last letter.", "…g."),
-        q("Capital letter for a is…", ["A", "B", "a", "E"], "a", "The capital of a is A.", "Big letter form.", "A."),
+        q("Capital letter for a is…", ["A", "B", "a", "E"], "a", "The capital of a is A.", "Big letter form.", "Say the first sound of 'ant'. Which big letter makes that sound?"),
         q("Which word means a pet that meows?", ["dog", "cat", "cow", "hen"], "b", "A cat meows.", "Think of pets.", "Cat."),
         q('Rhymes with "hat"?', ["hot", "sit", "cat", "cup"], "c", "Cat rhymes with hat.", "Same ending sound.", "-at."),
         q("First letter of INDIA is…", ["N", "I", "D", "A"], "b", "INDIA starts with I.", "Look at the start.", "I."),
         q("Which is a word?", ["xyzq", "book", "1234", "##"], "b", "Book is a real word.", "Pick a word you know.", "Book."),
-        q("Ball starts with which sound?", ["b", "c", "d", "s"], "a", "Ball starts with /b/.", "Say ball slowly.", "B."),
+        q("Ball starts with which sound?", ["b", "c", "d", "s"], "a", "Ball starts with /b/.", "Say ball slowly.", "Press your lips together and say 'ball'. Which letter makes that first sound?"),
         q("How many vowels in AEIOU list?", ["3", "4", "5", "6"], "c", "A E I O U — five vowels.", "Count them.", "Five."),
         q('Small letter for "T" is…', ["t", "T", "s", "l"], "a", "Small form of T is t.", "Lower case.", "t."),
         q("Which word names a colour?", ["run", "red", "cup", "sit"], "b", "Red is a colour.", "Colours you know.", "Red."),
         q("Join: bl + ue =", ["blue", "blow", "glue", "clue"], "a", "bl + ue = blue.", "Blend the parts.", "Blue."),
     ]
     b = [
-        q('Which letter comes before "D"?', ["B", "C", "E", "F"], "b", "C comes before D.", "Alphabet order.", "C."),
+        q('Which letter comes before "D"?', ["B", "C", "E", "F"], "b", "C comes before D.", "Alphabet order.", "Sing the alphabet song slowly. Which sound do you sing just before 'dee'?"),
         q("Which word starts with S?", ["moon", "sun", "apple", "egg"], "b", "Sun starts with S.", "First sound /s/.", "Sun."),
         q('Find the word: "p" + "en" =', ["pan", "pen", "pin", "pun"], "b", "p + en = pen.", "Blend.", "Pen."),
         q("How many letters in DOG?", ["2", "3", "4", "5"], "b", "D-O-G has 3 letters.", "Count.", "Three."),
         q('Which word ends with "t"?', ["cup", "cat", "bus", "sun"], "b", "Cat ends with t.", "Last letter.", "t."),
-        q("Capital of b is…", ["B", "b", "D", "P"], "a", "Capital of b is B.", "Big letter.", "B."),
+        q("Capital of b is…", ["B", "b", "D", "P"], "a", "Capital of b is B.", "Big letter.", "Say 'bat'. Which big letter makes the same first sound as small b?"),
         q("Which animal says moo?", ["cat", "dog", "cow", "bird"], "c", "A cow says moo.", "Farm animal.", "Cow."),
         q('Rhymes with "sun"?', ["sit", "fun", "sip", "map"], "b", "Fun rhymes with sun.", "Same -un sound.", "Fun."),
-        q("First letter of APPLE is…", ["P", "A", "L", "E"], "b", "APPLE starts with A.", "Start of the word.", "A."),
+        q("First letter of APPLE is…", ["P", "A", "L", "E"], "b", "APPLE starts with A.", "Start of the word.", "Say 'apple' slowly and listen to the very first sound. Which letter makes it?"),
         q("Which is NOT a letter?", ["M", "7", "Z", "K"], "b", "7 is a number, not a letter.", "Odd one out.", "7."),
         q("Tree starts with…", ["t", "r", "e", "s"], "a", "Tree starts with t.", "First sound.", "T."),
         q("How many letters in YES?", ["2", "3", "4", "1"], "b", "Y-E-S has 3 letters.", "Count.", "Three."),
@@ -371,7 +380,7 @@ def g1_eng_grammar():
         q("Pick the full stop sentence.", ["Where is Bo", "Bo is brave.", "Wow", "Oh"], "b", "A telling sentence ends with a full stop.", "Not a question.", "Full stop."),
         q("Which is a question?", ["I sit.", "Are you ready?", "The sun is hot.", "Red bag."], "b", "Questions often start with Are/Is/What and end with ?", "Look for ?", "Are you ready?"),
         q("My name ___ Kabir.", ["am", "is", "are", "be"], "b", "Name is singular — is.", "My name is…", "Is."),
-        q("We use ___ before ball.", ["a", "an", "an an", "the the the"], "a", "Ball starts with a consonant sound — a.", "A ball.", "A."),
+        q("We use ___ before ball.", ["a", "an", "an an", "the the the"], "a", "Ball starts with a consonant sound — a.", "Does 'ball' start with a vowel sound (a, e, i, o, u)?", "Say 'a ball' and 'an ball' aloud. Which sounds right?"),
         q("Pick the opposite of big.", ["large", "huge", "small", "tall"], "c", "Small is the opposite of big.", "Not a twin — an opposite.", "Small."),
     ]
     b = [
@@ -399,7 +408,7 @@ def g1_eng_grammar():
       "A question asks something.",
       "Read each one aloud. Which one sounds like you are asking?"),
         q("Her bag ___ new.", ["am", "is", "are", "be"], "b", "Bag is singular — is.", "Her bag is…", "Is."),
-        q("We use ___ before dog.", ["a", "an", "an an", "the the the"], "a", "Dog starts with a consonant — a.", "A dog.", "A."),
+        q("We use ___ before dog.", ["a", "an", "an an", "the the the"], "a", "Dog starts with a consonant — a.", "Does 'dog' start with a vowel sound (a, e, i, o, u)?", "Say 'a dog' and 'an dog' aloud. Which sounds right?"),
         q("Pick the opposite of happy.", ["glad", "joyful", "sad", "merry"], "c", "Sad is the opposite of happy.", "Not a twin.", "Sad."),
     ]
     return a, b

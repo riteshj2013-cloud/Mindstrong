@@ -222,7 +222,7 @@ MATTER_B = [
     _q("To convert 25°C to kelvin…",
        ["subtract 273", "add 273", "multiply by 273", "divide by 273"],
        "b", "K ≈ °C + 273 → 298 K.",
-       "Add 273.", "units", "easy"),
+       "0°C is 273 K, and the kelvin scale has no negative values. Which way does the number move?", "units", "easy"),
     _q("Which best explains why liquids can be poured?",
        ["particles are fixed in place rigidly", "particles can move past one another while staying close", "particles are infinitely far apart", "there are no forces at all"],
        "b", "Liquid particles move/slide while cohesive enough to keep volume.",
