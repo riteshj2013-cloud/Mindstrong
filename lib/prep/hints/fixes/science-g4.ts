@@ -1,11 +1,12 @@
 /**
  * Grade 4 Science — item-specific hint fixes (fix layer).
  * Source: app repo origin/main c5a133b (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 101 | hints: 102
+ * Items changed: 103 | hints: 104
  * By category (primary): answer-leak fixed 1 · chapter-shared hint split 82 · other strict-check fixes 9
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
  * Also holds hints for items rewritten in the Science near-duplicate stem pass (2026-10-19).
+ * Rule-out / partial-quote review (2026-10-19): hints rewritten so they name at most one wrong option and quote no part of the answer.
  * Leak review (2026-10-19): hints rewritten where the hardened check-science-hints.mjs found answer text.
  * Merge: these WIN over G4_SCIENCE_HINTS and over authored question.hints (see ../index.ts applyHints).
  */
@@ -16,7 +17,7 @@ export const G4_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-sci-food-a-q04": ["Think of the rough, stringy part of fruits, vegetables and whole grains that helps food pass along the intestines."],
   "g4-sci-food-a-q05": ["Follow the arrow from Tara's skin to the box. Which vitamin is made when gentle sunlight falls on skin?"],
   "g4-sci-food-a-q07": ["Orange, tomato, spinach and carrot are all fruits and vegetables full of vitamins and minerals. Which column guards health?"],
-  "g4-sci-food-a-q09": ["Carbohydrates are the starchy energy foods. Egg, fish and paneer are body-building foods. Which is starchy?"],
+  "g4-sci-food-a-q09": ["Carbohydrates are the starchy energy foods, like rice and roti. Which of these is mostly starch?"],
   "g4-sci-food-a-q10": ["Count the shaded parts on the water meter: how many of the 3 equal parts are blue?"],
   "g4-sci-food-a-q11": ["Riya needs quick energy in the match. Which snack is a fruit full of natural sugar?"],
   "g4-sci-food-a-q12": ["Bleeding gums mean too little of the vitamin found in sour fruits like amla. Which labelled foods fit?"],
@@ -52,19 +53,20 @@ export const G4_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-sci-matter-a-q10": ["Milk, water, juice and oil flow, and air spreads. Find the group where every item keeps its shape."],
   "g4-sci-matter-a-q11": ["Melting turns solid into liquid. Which word means the opposite: a liquid becoming solid as it cools?"],
   "g4-sci-matter-a-q12": ["Look at the wavy lines rising from the wet shirt in the sun. Where did the water go as it dried?"],
-  "g4-sci-matter-a-q13": ["A brick and an eraser keep their shape; air spreads everywhere. Which one takes the shape of its cup?"],
+  "g4-sci-matter-a-q13": ["Pour it from a glass into a bowl: the amount stays the same, but its shape changes. Which one behaves like that?"],
   "g4-sci-matter-a-q14": ["The drops are on the OUTSIDE of the cold glass, so they did not leak out. They came from vapour in the air."],
   "g4-sci-matter-a-q15": ["The smell of the incense stick reaches every corner of the room. Which state of matter spreads to fill a room?"],
-  "g4-sci-matter-a-q16": ["Honey, coconut oil and vinegar can be poured and flow. Which one is made of hard little crystals?"],
+  "g4-sci-matter-a-q16": ["A liquid can be poured and spreads into a smooth puddle. Which one is made of hard little grains instead?"],
   "g4-sci-matter-a-q18": ["Glass P is tall and thin, Glass Q is wide. The same cup of water was poured. Does the amount change?"],
-  "g4-sci-matter-a-q21": ["Sugar pours like water, but look at one grain closely. Does each tiny grain keep its own shape?"],
+  "g4-sci-matter-a-q21": ["Put a few crystals under a magnifying glass. Do they change form when poured, or stay as they are?"],
   "g4-sci-matter-a-q22": ["Compare the two plungers in Riya's syringes: the air one moved in, the water one did not. What does that show?"],
   "g4-sci-matter-a-q23": ["In the flowchart, heat is given. Arrow 1 turns ice into water; arrow 2 turns water into vapour. Name each change."],
   "g4-sci-matter-a-q24": ["Puddles dry up fastest with heat and moving air. Which picture has the most of both?"],
-  "g4-sci-matter-b-q02": ["Jar Y's juice has a flat top and jar Z's dots fill the jar. Which jar holds something that keeps its own shape?"],
-  "g4-sci-matter-b-q06": ["Coconut water and rain water flow, and air spreads out. Which one is hard and keeps its shape?"],
-  "g4-sci-matter-b-q08": ["Brick, pencil and plate keep their shape. Which one can be poured from a jar, even if slowly?"],
+  "g4-sci-matter-b-q02": ["Look at each jar. Which one holds something that keeps the same shape even if you tip the jar?"],
+  "g4-sci-matter-b-q06": ["A solid is hard and keeps its own shape. Which of these could you hold in your hand without it running away?"],
+  "g4-sci-matter-b-q08": ["Things that flow can be poured, even if slowly. Which one could you pour from a jar onto a roti?"],
   "g4-sci-matter-b-q11": ["Gases like air, steam and smoke spread out and have no fixed volume. Find the pair with no gas in it."],
+  "g4-sci-matter-b-q12": ["The hot bath fills the air with steam. What happens to it when it touches the cold glass?"],
   "g4-sci-matter-b-q13": ["Melted wax hardens as it cools. Which word also names water turning into ice in a freezer?"],
   "g4-sci-matter-b-q14": ["The air took a round shape in one balloon and a long shape in the other. What does air do inside any container?"],
   "g4-sci-matter-b-q15": ["Your warm hand is not hot enough to melt metal, stone or glass. Which treat goes soft and sticky in your palm?"],
@@ -76,7 +78,7 @@ export const G4_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-sci-matter-a-q07": ["Milk is a liquid and flows. After Meera pours it into the round bowl, what does the milk look like?"],
   "g4-sci-matter-b-q01": ["Water is a liquid and flows. Once Riya pours it into the flat plate, how does the water spread out?"],
   // g4-science-water-cycle
-  "g4-sci-water-a-q01": ["Plants wilt and animals get thirsty without it. Gold, toys and plastic are not needed to live."],
+  "g4-sci-water-a-q01": ["Plants wilt and animals grow thirsty without it. Which of these do all living things need every day?"],
   "g4-sci-water-a-q04": ["Groundwater lies deep below us. Which choice is a machine you press up and down to pull it up?"],
   "g4-sci-water-a-q06": ["Look at each picture for someone washing dishes, clothes or the floor with water."],
   "g4-sci-water-a-q09": ["Clouds bring rain and form when vapour cools high in the sky. What do clouds hold that falls as rain?"],
@@ -103,7 +105,7 @@ export const G4_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-sci-water-b-q13": ["The puddle shrank on a sunny day between 10 a.m. and 3 p.m. Where did the water go?"],
   "g4-sci-water-b-q15": ["Wasting water means letting it run for no use. In which picture does the tap run while hands are being soaped?"],
   "g4-sci-water-b-q16": ["Mud is heavy. If the pot is left still, the mud sinks. What can then trap the leftover bits before boiling?"],
-  "g4-sci-water-b-q18": ["It did not rain, but the grass is wet at dawn. Morning air is cool. What happens to vapour on cool grass?"],
+  "g4-sci-water-b-q18": ["The night was cold and it did not rain. Think about the invisible moisture around us touching chilly blades of grass."],
   "g4-sci-water-b-q19": ["Fixing taps, reusing rinse water and storing rainwater all save water. Which choice lets water run every day?"],
   "g4-sci-water-b-q22": ["Both plates hold the same water; only sun and shade differ. Does heat make evaporation faster or slower?"],
   "g4-sci-water-b-q23": ["The clouds are dark and heavy with water drops. They cannot hold any more. What happens next?"],
@@ -116,6 +118,7 @@ export const G4_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-sci-plants-b-q09": ["Jute is a tall plant grown in Bengal. Which part of it gives long, strong threads for bags?"],
   "g4-sci-plants-b-q02": ["Photosynthesis needs sunlight and chlorophyll. Which plant part spreads out flat to catch the sunlight?"],
   // g4-science-animals
+  "g4-sci-animals-a-q01": ["A camel's is the desert and a frog's is a pond. What does the word habitat describe?"],
   "g4-sci-animals-b-q17": ["Complete the analogy: gills are a fish's breathing organs. Who breathes with lungs, like you do?"],
   "g4-sci-animals-a-q23": ["Think of a camel's hump or a duck's webbed feet. What do such features do for an animal in its habitat?"],
 };

@@ -1,25 +1,15 @@
 {
  "note": "Known hint-partial-quote items as of 2026-10-19, listed with details in docs/quality/hints-partial-quote-2026-10-19.json. scripts/audit-content.mjs fails on any hit NOT listed here. Delete ids as the writers fix them.",
- "count": 27,
+ "count": 16,
  "items": [
-  "g10-sci-chem-b-q17",
-  "g10-sci-light-a-q14",
   "g3-eng-grammar-a-q23",
-  "g3-sci-senses-a-q15",
   "g4-eng-ch04-b-q04",
   "g4-maths-data-a-q20",
-  "g4-sci-animals-a-q01",
-  "g4-sci-matter-a-q21",
-  "g4-sci-matter-b-q12",
-  "g4-sci-water-b-q18",
   "g5-eng-ch01-b-q12",
   "g5-eng-ch04-b-q17",
   "g5-eng-ch05-b-q16",
   "g5-eng-ch05-b-q20",
   "g5-eng-ch05-b-q24",
-  "g5-sci-force-b-q13",
-  "g5-sci-matter-b-q08",
-  "g5-sci-space-a-q19",
   "g7-maths-angles-a-q17",
   "g7-sci-acids-b-q17",
   "g7-sci-acids-b-q18",
@@ -27,7 +17,6 @@
   "g8-eng-ch04-a-q08",
   "g8-eng-ch04-b-q16",
   "g8-eng-ch05-b-q10",
-  "g8-eng-ch05-b-q22",
-  "g9-sci-matter-b-q17"
+  "g8-eng-ch05-b-q22"
  ]
 }

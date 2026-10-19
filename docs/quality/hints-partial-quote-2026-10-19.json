@@ -1,37 +1,13 @@
 {
- "note": "hint-partial-quote hits on main as of 2026-10-19 (see scripts/audit-content.mjs for the rule). For the writers: rewrite these hints so they nudge toward the reasoning instead of quoting most of the correct option.",
+ "note": "hint-partial-quote hits on main as of 2026-10-19 (see scripts/audit-content.mjs for the rule). For the writers: rewrite these hints so they nudge toward the reasoning instead of quoting most of the correct option. Updated after PR #59 (Science rule-out/partial-quote fixes): fixed items removed.",
  "rule": "hint-partial-quote",
- "count": 27,
+ "count": 16,
  "bySubject": {
-  "sci": 13,
   "eng": 12,
-  "maths": 2
+  "maths": 2,
+  "sci": 2
  },
  "items": [
-  {
-   "id": "g10-sci-chem-b-q17",
-   "where": "served:science-g10.chem-reactions.set-b",
-   "hint": "Track oxygen in zinc oxide plus carbon: whatever gains oxygen is oxidised; whatever loses oxygen is reduced.",
-   "answer": "C oxidised, ZnO reduced",
-   "words": [
-    "oxidised",
-    "reduced"
-   ],
-   "of": 2
-  },
-  {
-   "id": "g10-sci-light-a-q14",
-   "where": "served:science-g10.light.set-a",
-   "hint": "Optical fibres trap light inside. Which medium must the light start in, and how must the angle compare with the critical angle?",
-   "answer": "light in denser medium, i > critical angle",
-   "words": [
-    "light",
-    "medium",
-    "critical",
-    "angle"
-   ],
-   "of": 5
-  },
   {
    "id": "g3-eng-grammar-a-q23",
    "where": "served:english-g3.grammar.set-a",
@@ -40,17 +16,6 @@
    "words": [
     "name",
     "kabir"
-   ],
-   "of": 2
-  },
-  {
-   "id": "g3-sci-senses-a-q15",
-   "where": "served:science-g3.sense-organs.set-a",
-   "hint": "Eyes need enough light and clean hands. Which picture shows reading the safe way?",
-   "answer": "Reading in good light",
-   "words": [
-    "reading",
-    "light"
    ],
    "of": 2
   },
@@ -75,56 +40,6 @@
     "height",
     "show",
     "value"
-   ],
-   "of": 4
-  },
-  {
-   "id": "g4-sci-animals-a-q01",
-   "where": "served:science-g4.animals.set-a",
-   "hint": "What word means the natural home where an animal lives and finds food?",
-   "answer": "The natural place where an animal lives",
-   "words": [
-    "natural",
-    "animal",
-    "live"
-   ],
-   "of": 4
-  },
-  {
-   "id": "g4-sci-matter-a-q21",
-   "where": "served:science-g4.solids-liquids-gases.set-a",
-   "hint": "Sugar pours like water, but look at one grain closely. Does each tiny grain keep its own shape?",
-   "answer": "Each tiny grain of sugar has its own fixed shape",
-   "words": [
-    "tiny",
-    "grain",
-    "shape"
-   ],
-   "of": 4
-  },
-  {
-   "id": "g4-sci-matter-b-q12",
-   "where": "served:science-g4.solids-liquids-gases.set-b",
-   "hint": "When vapour cools, it turns back into tiny liquid drops.",
-   "answer": "Water vapour cools on the mirror and turns into tiny drops",
-   "words": [
-    "vapour",
-    "cool",
-    "turn",
-    "tiny",
-    "drop"
-   ],
-   "of": 6
-  },
-  {
-   "id": "g4-sci-water-b-q18",
-   "where": "served:science-g4.water-cycle.set-b",
-   "hint": "It did not rain, but the grass is wet at dawn. Morning air is cool. What happens to vapour on cool grass?",
-   "answer": "Water vapour in the air cools on the cool grass and forms drops",
-   "words": [
-    "vapour",
-    "air",
-    "cool"
    ],
    "of": 4
   },
@@ -185,44 +100,6 @@
     "end"
    ],
    "of": 2
-  },
-  {
-   "id": "g5-sci-force-b-q13",
-   "where": "served:science-g5.force-machines.set-b",
-   "hint": "Compare the wheeled cart with the box dragged on the floor. Which needs less force: rolling or sliding?",
-   "answer": "Rolling needs less force than dragging",
-   "words": [
-    "rolling",
-    "need",
-    "less",
-    "force"
-   ],
-   "of": 5
-  },
-  {
-   "id": "g5-sci-matter-b-q08",
-   "where": "served:science-g5.matter-materials.set-b",
-   "hint": "Condensation is gas turning into liquid, like drops on a cold glass. Find the arrow from vapour to liquid.",
-   "answer": "Water vapour → liquid water",
-   "words": [
-    "vapour",
-    "liquid"
-   ],
-   "of": 2
-  },
-  {
-   "id": "g5-sci-space-a-q19",
-   "where": "served:science-g5.sun-moon-space.set-a",
-   "hint": "A normal year has 365 days, but Earth's trip around the Sun takes a quarter day more. What do four quarters make?",
-   "answer": "Because Earth takes about 365¼ days to go around the Sun, and four quarter days add up to one day.",
-   "words": [
-    "take",
-    "around",
-    "sun",
-    "four",
-    "quarter"
-   ],
-   "of": 6
   },
   {
    "id": "g7-maths-angles-a-q17",
@@ -321,18 +198,6 @@
     "persuade"
    ],
    "of": 5
-  },
-  {
-   "id": "g9-sci-matter-b-q17",
-   "where": "served:science-g9.matter-surroundings.set-b",
-   "hint": "An object floats if it is less dense than the liquid. Compare a block of ice with the same volume of water.",
-   "answer": "ice is less dense than liquid water",
-   "words": [
-    "less",
-    "dense",
-    "liquid"
-   ],
-   "of": 3
   }
  ]
 }

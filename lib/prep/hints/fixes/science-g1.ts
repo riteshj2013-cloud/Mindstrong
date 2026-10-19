@@ -88,7 +88,7 @@ export const G1_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g1-sci-body-b-q07": ["Bones are hard and strong inside your body.", "Without bones, could your body stay up straight?"],
   "g1-sci-body-b-q09": ["Nails are hard and grow at the tips.", "Where do nails grow? Look at the tips of your hands and feet."],
   "g1-sci-body-b-q13": ["Before jumping, you bend down and push off the ground.", "Which body parts bend and push you up when jumping?"],
-  "g1-sci-body-a-q01": ["Your ears hear and your nose smells. Which body part do you cover so that you cannot see your toys?"],
+  "g1-sci-body-a-q01": ["Your nose is for smelling. Shut the two parts just above it and the room goes dark. Which body part lets you see?"],
   "g1-sci-body-a-q07": ["We brush in the morning and at night. What do we brush inside our mouth?"],
   "g1-sci-body-a-q09": ["Germs on dirty hands can make us ill. When should we wash our hands, so food stays clean?"],
   "g1-sci-body-a-q10": ["Put your hand on the left side of your body and feel your heart go thump-thump. Where is it?"],
@@ -104,6 +104,6 @@ export const G1_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g1-sci-body-b-q14": ["We take a bath and wash our hands every day. How should we keep our body?"],
   "g1-sci-body-b-q15": ["Thinking happens inside your body.", "Point to your head. What is inside it that helps you think and remember?"],
   "g1-sci-body-b-q16": ["Sense organs help us see, hear, smell, taste and touch. Which one in the list helps us see?"],
-  "g1-sci-body-a-q02": ["Your eyes look and your feet walk. Which body part helps you hear the school bell ring?"],
+  "g1-sci-body-a-q02": ["Cover the sides of your head and the school bell sounds quiet. Which body part helps you hear it?"],
   "g1-sci-body-b-q12": ["When you have a cold, a doctor listens to your chest. What does the doctor want to know about you?"],
 };
