@@ -10,6 +10,13 @@
 import fs from "fs";
 import path from "path";
 
+// --- RETIRED GENERATOR guard (docs/content-sources.md; checked by scripts/audit-content.mjs) ---
+if (!process.argv.includes("--force") && process.env.MINDSTRONG_FORCE_RETIRED !== "1") {
+  console.error("DEPRECATED: scripts/ingest-sof-md.mjs no longer reproduces the served files and would overwrite later fixes. lib/prep/content is the source of truth; edit content/fix-layer files directly (see docs/content-sources.md). Pass --force only if you really mean to overwrite them.");
+  process.exit(1);
+}
+// --- end RETIRED GENERATOR guard ---
+
 const ROOT = "/workspace/mindstrong";
 // Write into THIS checkout/worktree (not a hard-coded clone).
 const OUT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "../lib/prep/content");

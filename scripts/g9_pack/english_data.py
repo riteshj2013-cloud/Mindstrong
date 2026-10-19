@@ -1,4 +1,12 @@
 """Grade 9 English: Literature MCQ, Grammar, Writing/Vocab."""
+# --- RETIRED GENERATOR guard (docs/content-sources.md; checked by scripts/audit-content.mjs) ---
+import os as _os, sys as _sys
+if "--force" in _sys.argv:
+    _sys.argv.remove("--force")
+    _os.environ["MINDSTRONG_FORCE_RETIRED"] = "1"
+if _os.environ.get("MINDSTRONG_FORCE_RETIRED") != "1":
+    _sys.exit("DEPRECATED: scripts/g9_pack/english_data.py no longer reproduces the served files and would overwrite later fixes. lib/prep/content is the source of truth; edit content/fix-layer files directly (see docs/content-sources.md). Pass --force only if you really mean to overwrite them.")
+# --- end RETIRED GENERATOR guard ---
 
 def _q(prompt, options, answer, explanation, hint, skill="general", difficulty="medium"):
     return {

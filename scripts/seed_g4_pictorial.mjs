@@ -6,6 +6,13 @@
 import fs from "fs";
 import path from "path";
 
+// --- RETIRED GENERATOR guard (docs/content-sources.md; checked by scripts/audit-content.mjs) ---
+if (!process.argv.includes("--force") && process.env.MINDSTRONG_FORCE_RETIRED !== "1") {
+  console.error("DEPRECATED: scripts/seed_g4_pictorial.mjs no longer reproduces the served files and would overwrite later fixes. lib/prep/content is the source of truth; edit content/fix-layer files directly (see docs/content-sources.md). Pass --force only if you really mean to overwrite them.");
+  process.exit(1);
+}
+// --- end RETIRED GENERATOR guard ---
+
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
 const OUT = path.join(ROOT, "lib/prep/pictorial/g4-overlays.ts");
 
