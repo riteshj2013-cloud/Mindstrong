@@ -1,11 +1,12 @@
 /**
  * Grade 4 Science — item-specific hint fixes (fix layer).
  * Source: app repo origin/main c5a133b (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 94 | hints: 94
+ * Items changed: 101 | hints: 101
  * By category (primary): answer-leak fixed 1 · chapter-shared hint split 82 · other strict-check fixes 9
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
  * Also holds hints for items rewritten in the Science near-duplicate stem pass (2026-10-19).
+ * Leak review (2026-10-19): hints rewritten where the hardened check-science-hints.mjs found answer text.
  * Merge: these WIN over G4_SCIENCE_HINTS and over authored question.hints (see ../index.ts applyHints).
  */
 import type { HintOverlay } from "../types";
@@ -72,6 +73,8 @@ export const G4_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-sci-matter-b-q22": ["Two things happened in 20 minutes: the ice is gone from inside, and drops formed on the outside. Name each change."],
   "g4-sci-matter-b-q23": ["Meena's boiling water rises as an invisible gas, then cools under the lid. Trace water, gas, then back again."],
   "g4-sci-matter-b-q24": ["The top half of the closed bottle looks empty, but is any bottle ever truly empty? What invisible gas fills spaces?"],
+  "g4-sci-matter-a-q07": ["Milk is a liquid and flows. After Meera pours it into the round bowl, what does the milk look like?"],
+  "g4-sci-matter-b-q01": ["Water is a liquid and flows. Once Riya pours it into the flat plate, how does the water spread out?"],
   // g4-science-water-cycle
   "g4-sci-water-a-q01": ["Plants wilt and animals get thirsty without it. Gold, toys and plastic are not needed to live."],
   "g4-sci-water-a-q04": ["Groundwater lies deep below us. Which choice is a machine you press up and down to pull it up?"],
@@ -104,10 +107,15 @@ export const G4_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-sci-water-b-q19": ["Fixing taps, reusing rinse water and storing rainwater all save water. Which choice lets water run every day?"],
   "g4-sci-water-b-q22": ["Both plates hold the same water; only sun and shade differ. Does heat make evaporation faster or slower?"],
   "g4-sci-water-b-q23": ["The clouds are dark and heavy with water drops. They cannot hold any more. What happens next?"],
+  "g4-sci-water-a-q02": ["Natural water is not made by people. Which labelled source flows over the land by itself, with no pipe or pump?"],
   // g4-science-plants
   "g4-sci-plants-b-q07": ["In a germinating seed one baby part heads down into soil and the other heads up toward light. Which grows upward?"],
   "g4-sci-plants-a-q01": ["What job do these pillar-like roots do for the heavy branches? Pick the name that matches that job."],
   "g4-sci-plants-a-q09": ["Look for the vegetable with a white head made of tightly packed tiny buds. Its name gives a clue."],
+  "g4-sci-plants-a-q17": ["Potato eyes are buds that sprout new shoots. Do roots have buds like these?"],
+  "g4-sci-plants-b-q09": ["Jute is a tall plant grown in Bengal. Which part of it gives long, strong threads for bags?"],
+  "g4-sci-plants-b-q02": ["Photosynthesis needs sunlight and chlorophyll. Which plant part spreads out flat to catch the sunlight?"],
   // g4-science-animals
   "g4-sci-animals-b-q17": ["Complete the analogy: gills are a fish's breathing organs. Who breathes with lungs, like you do?"],
+  "g4-sci-animals-a-q23": ["Think of a camel's hump or a duck's webbed feet. What do such features do for an animal in its habitat?"],
 };

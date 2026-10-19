@@ -1,10 +1,11 @@
 /**
  * Grade 6 Science — item-specific hint fixes (fix layer).
  * Source: app repo origin/main c5a133b (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 23 | hints: 23
+ * Items changed: 31 | hints: 31
  * By category (primary): answer-leak fixed 4 · chapter-shared hint split 0 · other strict-check fixes 19
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
+ * Leak review (2026-10-19): hints rewritten where the hardened check-science-hints.mjs found answer text.
  * Merge: these WIN over G6_SCIENCE_HINTS and over authored question.hints (see ../index.ts applyHints).
  */
 import type { HintOverlay } from "../types";
@@ -21,10 +22,16 @@ export const G6_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g6-sci-food-b-q14": ["Eggs, dal and paneer are body-building foods that help muscles grow. Which nutrient group do they belong to?"],
   "g6-sci-food-b-q19": ["ORS is water mixed with sugar and salt. During diarrhoea, what does the body lose that ORS puts back?"],
   "g6-sci-food-b-q24": ["A balanced thali covers energy, body-building and protective foods. Which choice includes all food groups, not just one?"],
+  "g6-sci-food-a-q02": ["Dal, eggs and paneer help children grow taller and help cuts heal. What two jobs do proteins do?"],
+  "g6-sci-food-b-q17": ["Goitre is a swelling caused by too little iodine. Which gland uses iodine to make its hormone?"],
   // g6-science-fibre-fabric
   "g6-sci-fibre-a-q13": ["Sericulture is silk farming. Which creature spins the cocoons that silk threads come from?"],
   "g6-sci-fibre-b-q01": ["Raw fibre is spun into thread, then the thread is woven into cloth. Put the three stages in order."],
   "g6-sci-fibre-b-q22": ["Natural fibres come from plants or animals. Which fibre is made in factories from chemicals?"],
+  "g6-sci-fibre-a-q07": ["Spinning twists short strands together into one long thread. Which change starts with raw strands and ends with thread?"],
+  "g6-sci-fibre-a-q01": ["Cotton grows on a plant. After the flowers, round fluffy pods burst open. What is that pod called?"],
+  "g6-sci-fibre-a-q19": ["Gandhiji used a charkha every day to turn cotton into thread. What is that job called?"],
+  "g6-sci-fibre-a-q22": ["Coir doormats and ropes are brown and rough. Which fruit's thick outer layer gives this fibre?"],
   // g6-science-sorting-materials
   "g6-sci-sep-a-q04": ["A sieve has holes; small grains fall through and pebbles stay back. Which property of particles does this sort by?"],
   "g6-sci-sep-a-q05": ["In sedimentation, leave muddy water in a glass undisturbed. What happens to the heavy mud particles over time?"],
@@ -36,4 +43,6 @@ export const G6_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g6-sci-sep-b-q18": ["Pebbles in dal are big, few and easy to see. Which simple method uses only your fingers?"],
   "g6-sci-sep-b-q23": ["Sieving works only when solid particles have very different sizes. Which mixture has big and small solid bits?"],
   "g6-sci-sep-b-q24": ["Seawater is left to dry in shallow pans. Which dissolved white solid that we use in cooking stays behind?"],
+  "g6-sci-sep-a-q02": ["Threshing happens after harvest: farmers beat the dried crop on the ground. What falls off, and what is left behind?"],
+  "g6-sci-sep-a-q17": ["Pour oil into water and wait. Do the two mix, or does one float on top as a separate layer?"],
 };

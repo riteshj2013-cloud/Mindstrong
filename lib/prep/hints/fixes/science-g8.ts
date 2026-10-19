@@ -1,10 +1,11 @@
 /**
  * Grade 8 Science — item-specific hint fixes (fix layer).
  * Source: app repo origin/main c5a133b (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 143 | hints: 143
+ * Items changed: 144 | hints: 144
  * By category (primary): answer-leak fixed 3 · chapter-shared hint split 138 · other strict-check fixes 2
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
+ * Leak review (2026-10-19): hints rewritten where the hardened check-science-hints.mjs found answer text.
  * Merge: these WIN over G8_SCIENCE_HINTS and over authored question.hints (see ../index.ts applyHints).
  */
 import type { HintOverlay } from "../types";
@@ -14,7 +15,7 @@ export const G8_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g8-sci-cells-a-q01": ["The word 'cell' was coined in 1665 by the English scientist who looked at cork. Leeuwenhoek came later with living cells."],
   "g8-sci-cells-a-q02": ["Hooke saw empty, box-like dead compartments, like a honeycomb. Which material is made of dead bark cells?"],
   "g8-sci-cells-a-q03": ["Every living thing, from bacteria to elephants, is built from tiny units. Name the smallest unit that can live on its own."],
-  "g8-sci-cells-a-q04": ["The glass slide rests on the stage. Which small metal parts press down on it so it cannot slip?"],
+  "g8-sci-cells-a-q04": ["The slide rests on a flat platform under the lens. Which two small metal parts press down on it so it cannot slip?"],
   "g8-sci-cells-a-q05": ["'Selectively' means choosing. A selectively permeable membrane chooses what to let through. Does it allow all, none or some?"],
   "g8-sci-cells-a-q06": ["A powerhouse supplies energy. Which organelle carries out respiration and releases energy from food?"],
   "g8-sci-cells-a-q07": ["Nucleus, membrane and mitochondria occur in both cell types. Which rigid outer layer do only plant cells have?"],
@@ -158,4 +159,6 @@ export const G8_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g8-sci-combustion-a-q22": ["With too little oxygen, each carbon atom gets one oxygen atom, not two. Which gas forms, and is it safe?"],
   // g8-science-sound
   "g8-sci-sound-a-q17": ["The ear needs about 0.1 s between shout and echo, and sound travels about 340 m/s. How far must the wall be?"],
+  // g8-science-chemfx
+  "g8-sci-chemfx-a-q01": ["Lemon juice and salt water let a tester bulb glow. What do we call a liquid that lets current pass easily?"],
 };

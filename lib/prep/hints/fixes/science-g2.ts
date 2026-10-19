@@ -1,11 +1,13 @@
 /**
  * Grade 2 Science — item-specific hint fixes (fix layer).
  * Source: app repo origin/main c5a133b (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 46 | hints: 90
+ * Items changed: 90 | hints: 134
  * By category (primary): answer-leak fixed 0 · chapter-shared hint split 6 · other strict-check fixes 38
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
+ * Pass 2 (2026-10-19): 43 vague single-hint items rewritten as item-specific nudges for 6–7-year-olds.
  * Also holds hints for items rewritten in the Science near-duplicate stem pass (2026-10-19).
+ * Leak review (2026-10-19): hints rewritten where the hardened check-science-hints.mjs found answer text.
  * Merge: these WIN over G2_SCIENCE_HINTS and over authored question.hints (see ../index.ts applyHints).
  */
 import type { HintOverlay } from "../types";
@@ -23,6 +25,25 @@ export const G2_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g2-sci-plants-b-q12": ["A cactus likes dry land.", "Which plant floats in a pond?"],
   "g2-sci-plants-b-q14": ["Fallen leaves rot slowly on the ground.", "Rotted leaves turn into food for the soil."],
   "g2-sci-plants-b-q16": ["Green plants make food using sunlight.", "With no food for a long time, how would a plant look?"],
+  "g2-sci-plants-a-q01": ["Put a seed on wet cotton and keep it away from the cold. What two things help the seed sprout?"],
+  "g2-sci-plants-a-q02": ["Leaves make food in the daytime, not at night. What do leaves need from the sky?"],
+  "g2-sci-plants-a-q04": ["After the petals fall off a plant, a small fruit starts to grow in their place. Which part was there before?"],
+  "g2-sci-plants-a-q05": ["Some vegetables grow under the soil. Which one in the list is an orange root?"],
+  "g2-sci-plants-a-q06": ["The stem is like a pipe from the roots to the leaves. What does it carry up?"],
+  "g2-sci-plants-a-q07": ["We breathe out carbon dioxide and plants take it in. What gas do plants give out that we breathe?"],
+  "g2-sci-plants-a-q08": ["A climber's stem is thin and weak. What must it hold on to, like a stick or a wall?"],
+  "g2-sci-plants-a-q09": ["Cereal plants give us grains for roti and bread. Which one in the list gives grain?"],
+  "g2-sci-plants-a-q11": ["Chlorophyll is the colour stuff inside leaves. Look at a leaf. What colour does chlorophyll give?"],
+  "g2-sci-plants-a-q12": ["Seeds travel far from the plant. What blows them, or carries them on fur and in beaks?"],
+  "g2-sci-plants-a-q16": ["Photosynthesis is food making in a plant. Which green, flat part does that job?"],
+  "g2-sci-plants-b-q02": ["Bees fly to bright, sweet-smelling flowers. What two things on flowers call the insects?"],
+  "g2-sci-plants-b-q03": ["The plant stands tall and straight. Which part in the middle holds it up?"],
+  "g2-sci-plants-b-q05": ["Palak paneer uses green leaves. Which plant in the list do we eat as leaves?"],
+  "g2-sci-plants-b-q06": ["A plant kept in a dark cupboard grows weak. Besides air and water, what does a plant need?"],
+  "g2-sci-plants-b-q07": ["A cactus has no big leaves. Which thick, green part of the cactus holds its water?"],
+  "g2-sci-plants-b-q11": ["Food made by leaves must reach the roots. Which part joins the leaves to the roots?"],
+  "g2-sci-plants-b-q13": ["Farmers grow rice, wheat and vegetables. Why do farmers grow these plants?"],
+  "g2-sci-plants-b-q15": ["A tendril is a thin curly thread that wraps around a stick. What does it help the plant do?"],
   // g2-science-animals
   "g2-sci-animals-a-q01": ["Cows, goats and deer eat grass and leaves.", "Plant-eaters have a special name."],
   "g2-sci-animals-a-q02": ["Lions and tigers hunt other animals.", "Animals that eat other animals have a special name."],
@@ -39,6 +60,22 @@ export const G2_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g2-sci-animals-b-q13": ["Nocturnal animals are active at night.", "Animals awake in sunlight have the opposite name."],
   "g2-sci-animals-b-q15": ["Wild animals deserve kindness.", "Which choice would be unkind to a wild animal?"],
   "g2-sci-animals-a-q03": ["Which animal has no legs at all, so its belly slides along the ground as it moves?"],
+  "g2-sci-animals-a-q04": ["Fish stay under water all the time. Which body parts on the sides of the head help fish breathe?"],
+  "g2-sci-animals-a-q05": ["A cow eats grass and leaves, never meat. What is a plant-only eater called?"],
+  "g2-sci-animals-a-q06": ["Some animals sleep through the whole cold winter. Which big furry animal in the list does that?"],
+  "g2-sci-animals-a-q08": ["A frog lays eggs in a pond. What is the baby that comes out of a frog's egg?"],
+  "g2-sci-animals-a-q09": ["Animals need food and water. What else do they need to breathe and to live safely?"],
+  "g2-sci-animals-a-q12": ["Sweaters are made from soft, curly hair of a farm animal. Which animal in the list is it?"],
+  "g2-sci-animals-a-q13": ["Owls and bats sleep in the day and hunt in the dark. When are nocturnal animals awake?"],
+  "g2-sci-animals-a-q16": ["A backbone is a row of bones down the back. Which animal in the list has bones inside?"],
+  "g2-sci-animals-b-q02": ["A tiger hunts deer and eats their meat. What is a meat eater called?"],
+  "g2-sci-animals-b-q03": ["Look at a duck's feet. Skin joins its toes like a paddle. What are such feet called?"],
+  "g2-sci-animals-b-q05": ["Honey comes from flower nectar. Which buzzing insects collect it and make honey?"],
+  "g2-sci-animals-b-q08": ["A caterpillar makes a case, sleeps, and comes out with colourful wings. What does it become?"],
+  "g2-sci-animals-b-q10": ["A burrow is a hole dug under the ground. Which animal in the list digs one to live in?"],
+  "g2-sci-animals-b-q12": ["Silk threads come from a cocoon. Which little creature spins the cocoon?"],
+  "g2-sci-animals-b-q16": ["Which animal in the list has feathers and sits on its eggs in a nest?"],
+  "g2-sci-animals-b-q14": ["A hive has many small six-sided rooms made of wax. Which buzzing insects store honey there?"],
   // g2-science-air-water
   "g2-sci-airwater-a-q03": ["Water has three forms.", "When water is heated, it rises into the air. What form is that?"],
   "g2-sci-airwater-a-q07": ["Boiling water bubbles hard.", "Look above a boiling pot. What rises from the water?"],
@@ -60,4 +97,13 @@ export const G2_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g2-sci-airwater-b-q15": ["We breathe air all day.", "Clean air keeps our lungs well."],
   "g2-sci-airwater-b-q16": ["Boiling water kills germs.", "Water with no germs is better to drink."],
   "g2-sci-airwater-b-q14": ["You cannot see it, but you push it out of your mouth each time you breathe out into the balloon."],
+  "g2-sci-airwater-a-q01": ["Hold your breath for a moment. What do we breathe in through our nose all day?"],
+  "g2-sci-airwater-a-q02": ["Air moving fast makes trees shake and kites fly. What is moving air called?"],
+  "g2-sci-airwater-a-q04": ["Water put in the freezer becomes hard ice that keeps its shape. Which form of water is ice?"],
+  "g2-sci-airwater-a-q05": ["Dirty water can make us ill. What kind of water is safe to drink?"],
+  "g2-sci-airwater-a-q06": ["Look up before rain: the sky gets dark and grey. Where does the rain fall from?"],
+  "g2-sci-airwater-a-q12": ["After rain, the sun comes out and puddles slowly go. Where does the puddle water go?"],
+  "g2-sci-airwater-b-q02": ["Boiling water makes steam rise from the pot and spread into the air. Which form of water is steam?"],
+  "g2-sci-airwater-b-q10": ["Push an empty glass upside down into water. Water cannot fill it. What does the air inside take up?"],
+  "g2-sci-airwater-b-q13": ["Switch on a fan and feel it on your face. What does a fan push around the room?"],
 };
