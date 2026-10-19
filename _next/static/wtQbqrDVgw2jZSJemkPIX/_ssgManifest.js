@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Freading\u002Fread\u002F[storyId]","\u002Freading\u002Fseries\u002F[seriesId]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
