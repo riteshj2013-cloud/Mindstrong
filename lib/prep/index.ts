@@ -4,6 +4,7 @@ import type { Grade, PrepQuestion, PrepSubject } from "./types";
 import { applyPictorialList } from "./pictorial";
 import { applyHintsList } from "./hints";
 import { READY_GRADES } from "./grades";
+import { mockBlockFor } from "./mocks";
 
 export * from "./types";
 export * from "./grades";
@@ -57,10 +58,14 @@ export function getChapterSetQuestions(
 export function getMockPaper(subject: PrepSubject, grade: Grade): PrepQuestion[] {
   const pack = getPrepPack(subject, grade);
   if (!pack.ready) return [];
+  // LR-style + Achievers addendum: lives inside chapter sets, served as the mock's closing block.
+  const block = mockBlockFor(subject, grade);
+  const blockIds = new Set(block.map((q) => q.id));
   const authored = pack.chapters.flatMap((c) =>
-    c.sets.flatMap((s) => s.questions ?? []),
+    c.sets.flatMap((s) => (s.questions ?? []).filter((q) => !blockIds.has(q.id))),
   );
-  if (authored.length >= pack.paperCount) {
+  const coreCount = pack.paperCount - block.length;
+  if (authored.length >= coreCount) {
     // Deterministic sample from original authored items when available.
     const seed = subject.charCodeAt(0) * 777 + grade * 31;
     let a = seed >>> 0;
@@ -76,7 +81,7 @@ export function getMockPaper(subject: PrepSubject, grade: Grade): PrepQuestion[]
       const j = Math.floor(rng() * (i + 1));
       [pool[i], pool[j]] = [pool[j], pool[i]];
     }
-    return applyHintsList(applyPictorialList(pool.slice(0, pack.paperCount))).map((q, i) => ({
+    return applyHintsList(applyPictorialList([...pool.slice(0, coreCount), ...block])).map((q, i) => ({
       ...q,
       id: `paper-${i}-${q.id}`,
     }));

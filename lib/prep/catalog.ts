@@ -1,4 +1,5 @@
 import type { ChapterDef, Grade, GradeSubjectPack, PrepSubject } from "./types";
+import { mockPaperCount, withMockAddenda } from "./mocks";
 import { g1MathsNumbers } from "./content/g1-maths-numbers";
 import { g1MathsAdd } from "./content/g1-maths-add";
 import { g1MathsShapes } from "./content/g1-maths-shapes";
@@ -828,7 +829,7 @@ export function subjectHasAuthoredContent(subject: PrepSubject, grade: Grade): b
 
 function pack(subject: PrepSubject, grade: Grade, chapters: ChapterDef[] | undefined): GradeSubjectPack {
   const ready = !!chapters && chapters.length > 0;
-  const chs = chapters ?? [];
+  const chs = withMockAddenda(subject, grade, chapters ?? []);
   const paperTopics = chs.flatMap((c) => c.paperTopics);
   return {
     subject,
@@ -836,7 +837,7 @@ function pack(subject: PrepSubject, grade: Grade, chapters: ChapterDef[] | undef
     ready,
     chapters: chs,
     paperTitle: `Olympiad-style ${subject === "maths" ? "Maths" : subject === "english" ? "English" : "Science"} mock · Grade ${grade}`,
-    paperCount: 30,
+    paperCount: mockPaperCount(subject, grade, 30),
   };
 }
 
