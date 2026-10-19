@@ -1,8 +1,8 @@
 /**
  * Grade 7 Maths — item-specific hint fixes (fix layer).
  * Source: app repo commit 4291140 (served hints: lib/prep/content + lib/prep/hints overlays). Written 2026-10-19.
- * Items changed: 14 | hints: 14
- * By category (primary): answer-revealing fixed 14
+ * Items changed: 15 | hints: 15
+ * By category (primary): answer-revealing fixed 14 · generic replaced 1
  * Each hint nudges the method using the item's own numbers/objects; none contains the answer,
  * an option letter or "eliminate options". A later hint is a stronger nudge (a first step worked).
  * Merge: these WIN over G7_MATHS_HINTS and over authored question.hints (see applyHints in ../index.ts).
@@ -17,6 +17,7 @@ export const G7_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   // g7-maths simple-equations — Simple Equations
   "g7-maths-equations-a-q06": ["Undo the subtraction first, so 5p equals 16 plus the amount taken away. Then divide by 5."],
   "g7-maths-equations-a-q23": ["Subtract 2x from both sides of 2x + 5 = 2x + 9. Is what remains ever true?"],
+  "g7-maths-equations-b-q16": ["Subtract 7 from both sides of 4x + 7 = −9, then divide by the coefficient of x. Keep the negative sign."],
   "g7-maths-equations-b-q20": ["Divide 12 by the number outside the bracket to find x + 1, then subtract 1."],
   "g7-maths-equations-b-q24": ["A linear equation such as 2x + 5 = 9 has no x² or x³ term. What power of the variable is left?"],
   // g7-maths lines-angles — Lines and Angles

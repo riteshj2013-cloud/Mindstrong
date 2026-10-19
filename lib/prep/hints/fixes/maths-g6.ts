@@ -1,8 +1,8 @@
 /**
  * Grade 6 Maths — item-specific hint fixes (fix layer).
  * Source: app repo commit 4291140 (served hints: lib/prep/content + lib/prep/hints overlays). Written 2026-10-19.
- * Items changed: 11 | hints: 11
- * By category (primary): answer-revealing fixed 11
+ * Items changed: 12 | hints: 12
+ * By category (primary): answer-revealing fixed 11 · generic replaced 1
  * Each hint nudges the method using the item's own numbers/objects; none contains the answer,
  * an option letter or "eliminate options". A later hint is a stronger nudge (a first step worked).
  * Merge: these WIN over G6_MATHS_HINTS and over authored question.hints (see applyHints in ../index.ts).
@@ -11,6 +11,7 @@ import type { HintOverlay } from "../types";
 
 export const G6_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   // g6-maths integers — Integers
+  "g6-maths-int-a-q15": ["Start at 0 on the number line and move 1 step left for each (−1). Where do you stop?"],
   "g6-maths-int-b-q21": ["Check each factor between −2 and 17. Multiplying by nothing at all gives nothing."],
   // g6-maths fractions-decimals — Fractions & Decimals
   "g6-maths-frac-a-q15": ["Split 2.5 into 2 and 0.5, multiply each part by 4, then add."],
