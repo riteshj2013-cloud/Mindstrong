@@ -1,7 +1,7 @@
 /**
  * Grade 10 Maths — item-specific hint fixes (fix layer).
  * Source: app repo commit 4291140 (served hints: lib/prep/content + lib/prep/hints overlays). Written 2026-10-19.
- * Items changed: 59 | hints: 60
+ * Items changed: 67 | hints: 68
  * By category (primary): answer-revealing fixed 10 · generic replaced 47 · shared-hint split 2
  * Each hint nudges the method using the item's own numbers/objects; none contains the answer,
  * an option letter or "eliminate options". A later hint is a stronger nudge (a first step worked).
@@ -26,7 +26,7 @@ export const G10_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-maths-real-a-q22": ["Co-prime numbers such as 8 and 15 share no prime factor. List their factors and find the highest shared factor."],
   "g10-maths-real-b-q01": ["Divide 867 by 255 and keep the remainder. Then divide 255 by that remainder.", "867 = 3 × 255 + 102. Next divide 255 by 102, and keep going until the remainder is 0."],
   "g10-maths-real-b-q03": ["Simplify 18/50 first by dividing top and bottom by 2. Then take the root of the top and of the bottom."],
-  "g10-maths-real-b-q04": ["A p/q number has a decimal that ends or repeats. Is π's decimal like that? What about √2 or √7?"],
+  "g10-maths-real-b-q04": ["Find the biggest multiple of 17 that is not more than 400. r is what is left over."],
   "g10-maths-real-b-q06": ["Let x = 0.666…. Then 10x = 6.666…. Subtract, solve for x, then simplify."],
   "g10-maths-real-b-q07": ["Write 75 as 25 × a number and 12 as 4 × the same number. Simplify both roots, then subtract."],
   "g10-maths-real-b-q12": ["Multiply top and bottom by √7 + √2. The bottom becomes 7 − 2."],
@@ -38,7 +38,7 @@ export const G10_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-maths-real-b-q23": ["Squaring gives x/y = 16/25. Split 82 in the ratio 16 : 25, then subtract y from x."],
   "g10-maths-real-b-q24": ["Multiply top and bottom by √2 + 1; the bottom becomes 2 − 1. Then use √2 ≈ 1.414."],
   // g10-maths polynomials — Polynomials
-  "g10-maths-poly-a-q04": ["By the remainder theorem, put x equal to the number that makes the divisor zero, then evaluate x³ − 2x² + 4."],
+  "g10-maths-poly-a-q04": ["Factorise x² − 4x + 4. Are its two zeros different, or the same number twice?"],
   "g10-maths-poly-a-q08": ["A quadratic has at most 2 zeros because its degree is 2. What is the degree of a cubic polynomial?"],
   "g10-maths-poly-a-q09": ["Write p(x) = 2 as 2 × x raised to some power. Which power of x equals 1?"],
   "g10-maths-poly-a-q10": ["Factor x² − 2x − 8 into two brackets. Which values make each bracket zero?"],
@@ -72,4 +72,12 @@ export const G10_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-maths-linear-b-q18": ["For coincident lines, 4x − ky = 6 must be exactly double 2x − y = 3. What must k be?"],
   "g10-maths-linear-b-q21": ["Inconsistent means parallel lines. Multiply x + y = 2 by 2 and compare its constant with each pair."],
   "g10-maths-linear-b-q23": ["Multiply 3x + 4y = 10 by 2. Is it the same as 6x + 8y = 20?"],
+  "g10-maths-real-a-q09": ["For the HCF, keep only the primes both numbers share, each with its smaller power."],
+  "g10-maths-real-a-q08": ["Make the denominator a power of 10 by multiplying top and bottom by enough 5s. Which power of 10 do you get?"],
+  "g10-maths-real-b-q15": ["A number ending in 0 has both 2 and 5 as prime factors. Which primes can 4ⁿ have?"],
+  "g10-maths-poly-a-q01": ["Sum of zeros = −(coefficient of x)/(coefficient of x²). Write that in terms of k and set it equal to −1."],
+  "g10-maths-poly-b-q02": ["Multiply the divisor by the quotient, then subtract that product from x³ − 3x² + 5x − 3."],
+  "g10-maths-real-b-q13": ["Keep dividing 360 by the smallest prime that works, and count every division you make."],
+  "g10-maths-poly-a-q07": ["Sum of zeros = −(coefficient of x)/(coefficient of x²). Subtract the known zero from that sum."],
+  "g10-maths-poly-a-q20": ["Find a pair of numbers that multiply to −6 and add to −1. Which number in the pair is larger?"],
 };

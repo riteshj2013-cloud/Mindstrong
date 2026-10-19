@@ -1,7 +1,7 @@
 /**
  * Grade 3 Maths — item-specific hint fixes (fix layer).
  * Source: app repo commit 4291140 (served hints: lib/prep/content + lib/prep/hints overlays). Written 2026-10-19.
- * Items changed: 97 | hints: 97
+ * Items changed: 98 | hints: 98
  * By category (primary): answer-revealing fixed 10 · generic replaced 5 · shared-hint split 82
  * Each hint nudges the method using the item's own numbers/objects; none contains the answer,
  * an option letter or "eliminate options". A later hint is a stronger nudge (a first step worked).
@@ -110,4 +110,5 @@ export const G3_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g3-maths-multiply-b-q16": ["Double 8 means 8 + 8. How many groups of 8 is that?"],
   "g3-maths-multiply-b-q18": ["Multiplication works in either order. Swap the two numbers in 7 × 4 = 28."],
   "g3-maths-multiply-b-q21": ["Multiplying by 10 puts a 0 after the number. Try it with 8."],
+  "g3-maths-numbers-b-q07": ["First write the number the blocks show before. Which place changes when one hundreds block is added?"],
 };

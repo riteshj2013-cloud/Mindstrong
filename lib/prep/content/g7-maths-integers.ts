@@ -135,16 +135,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-maths-integers-a-q11",
-    prompt: "What is |\u221219|?",
+    prompt: "For how many integers x is |x| < 3?",
     options: [
-      { id: "a", text: "\u221219" },
-      { id: "b", text: "0" },
-      { id: "c", text: "19" },
-      { id: "d", text: "1" }
+      { id: "a", text: "3" },
+      { id: "b", text: "4" },
+      { id: "c", text: "5" },
+      { id: "d", text: "7" }
     ],
     answerId: "c",
-    explanation: "Absolute value is distance from 0, so |\u221219| = 19.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "|x| < 3 means x is less than 3 steps from 0, so x = \u22122, \u22121, 0, 1 or 2. That is 5 integers. 4 is tempting if you forget 0, and 7 if you also count \u22123 and 3.",
+    hints: ["List the integers whose distance from 0 is less than 3. Remember 0 and the negative ones."]
   },
   {
     id: "g7-maths-integers-a-q12",
@@ -187,16 +187,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-maths-integers-a-q15",
-    prompt: "Simplify: \u2212(\u221211).",
+    prompt: "In a quiz, each correct answer scores +4 and each wrong answer scores \u22122. Ravi gets 11 correct and 6 wrong. What is his score?",
     options: [
-      { id: "a", text: "\u221211" },
-      { id: "b", text: "0" },
-      { id: "c", text: "11" },
-      { id: "d", text: "1" }
+      { id: "a", text: "56" },
+      { id: "b", text: "22" },
+      { id: "c", text: "32" },
+      { id: "d", text: "10" }
     ],
     answerId: "c",
-    explanation: "The negative of \u221211 is 11.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "11 \u00d7 4 = 44 and 6 \u00d7 (\u22122) = \u221212, so his score is 44 + (\u221212) = 32. 56 is tempting if you add the marks for wrong answers instead of taking them away.",
+    hints: ["Work out Ravi's marks for the 11 correct answers and for the 6 wrong ones separately. Then add them; one total is negative."]
   },
   {
     id: "g7-maths-integers-a-q16",
@@ -278,16 +278,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-maths-integers-a-q22",
-    prompt: "The temperatures in four cities one winter night were \u22124\u00b0C, 2\u00b0C, \u22129\u00b0C and 0\u00b0C. Which was the coldest?",
+    prompt: "The sum of two integers is \u22125. One of them is 8. What is the other?",
     options: [
-      { id: "a", text: "\u22124\u00b0C" },
-      { id: "b", text: "\u22129\u00b0C" },
-      { id: "c", text: "0\u00b0C" },
-      { id: "d", text: "2\u00b0C" }
+      { id: "a", text: "\u22123" },
+      { id: "b", text: "3" },
+      { id: "c", text: "\u221213" },
+      { id: "d", text: "13" }
     ],
-    answerId: "b",
-    explanation: "The coldest temperature is the smallest number. \u22129 is further left on the number line than \u22124, so \u22129\u00b0C is coldest. \u22124\u00b0C is tempting if you think 4 is smaller than 9 and ignore the minus sign.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "c",
+    explanation: "The other integer is \u22125 \u2212 8 = \u221213, because 8 + (\u221213) = \u22125. \u22123 is tempting, but 8 + (\u22123) = 5, not \u22125.",
+    hints: ["Write 8 + ? = \u22125. Which number must you add to 8 to land on \u22125 on the number line?"]
   },
   {
     id: "g7-maths-integers-a-q23",
@@ -424,16 +424,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-maths-integers-b-q09",
-    prompt: "For every integer n, which of these is always equal to n?",
+    prompt: "Group the numbers smartly to evaluate (\u22124) \u00d7 37 \u00d7 (\u221225).",
     options: [
-      { id: "a", text: "n \u00d7 1" },
-      { id: "b", text: "n \u00d7 (\u22121)" },
-      { id: "c", text: "n \u00d7 0" },
-      { id: "d", text: "n + 1" }
+      { id: "a", text: "\u22123,700" },
+      { id: "b", text: "\u2212173" },
+      { id: "c", text: "3,700" },
+      { id: "d", text: "\u2212370" }
     ],
-    answerId: "a",
-    explanation: "1 is the multiplicative identity, so n \u00d7 1 = n for every integer. n \u00d7 (\u22121) is tempting, but it gives \u2212n (the sign flips), and n \u00d7 0 = 0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "c",
+    explanation: "(\u22124) \u00d7 (\u221225) = 100, and 100 \u00d7 37 = 3,700. Two negative factors make a positive product. \u22123,700 is tempting if you forget that the two negatives cancel.",
+    hints: ["Multiply (\u22124) and (\u221225) first, since that gives a round number. Then multiply by 37. Watch the signs."]
   },
   {
     id: "g7-maths-integers-b-q10",
@@ -476,16 +476,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-maths-integers-b-q13",
-    prompt: "Evaluate: (\u22121) \u00d7 (\u22121) \u00d7 (\u22121) \u00d7 (\u22121).",
+    prompt: "Evaluate: (\u22121)\u2075\u2070 + (\u22121)\u2075\u00b9.",
     options: [
-      { id: "a", text: "1" },
-      { id: "b", text: "\u22121" },
-      { id: "c", text: "0" },
-      { id: "d", text: "4" }
+      { id: "a", text: "0" },
+      { id: "b", text: "2" },
+      { id: "c", text: "\u22122" },
+      { id: "d", text: "1" }
     ],
     answerId: "a",
-    explanation: "Four negatives \u2192 positive. Product is 1.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "An even power of \u22121 is 1 and an odd power of \u22121 is \u22121, so the sum is 1 + (\u22121) = 0. 2 is tempting if you think every power of \u22121 is 1.",
+    hints: ["Is 50 even or odd? Is 51? Work out each power of \u22121, then add the two results."]
   },
   {
     id: "g7-maths-integers-b-q14",
@@ -580,16 +580,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-maths-integers-b-q21",
-    prompt: "Evaluate: \u2212|\u221212|.",
+    prompt: "If |x| = 12 and x is negative, what is x \u2212 5?",
     options: [
-      { id: "a", text: "\u221212" },
-      { id: "b", text: "12" },
-      { id: "c", text: "0" },
-      { id: "d", text: "1" }
+      { id: "a", text: "\u221217" },
+      { id: "b", text: "7" },
+      { id: "c", text: "\u22127" },
+      { id: "d", text: "17" }
     ],
     answerId: "a",
-    explanation: "|\u221212| = 12, then the outer minus makes \u221212.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "|x| = 12 means x is 12 or \u221212. x is negative, so x = \u221212, and \u221212 \u2212 5 = \u221217. 7 is tempting if you take x = 12.",
+    hints: ["Which two numbers are 12 steps from zero? Pick the negative one, then subtract 5."]
   },
   {
     id: "g7-maths-integers-b-q22",

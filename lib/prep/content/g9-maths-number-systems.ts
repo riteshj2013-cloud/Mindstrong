@@ -502,16 +502,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g9-maths-numbers-b-q15",
-    prompt: "5⁻² equals…",
+    prompt: "Which rational number lies between √2 and √3?",
     options: [
-      { id: "a", text: "−25" },
-      { id: "b", text: "−10" },
-      { id: "c", text: "1/10" },
-      { id: "d", text: "1/25" }
+      { id: "a", text: "1.5" },
+      { id: "b", text: "1.8" },
+      { id: "c", text: "1.3" },
+      { id: "d", text: "2" }
     ],
-    answerId: "d",
-    explanation: "5⁻² = 1/5² = 1/25. A negative exponent means a reciprocal, not a negative number, so −25 is wrong; −10 and 1/10 come from multiplying 5 by 2 instead of raising it to the power.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "a",
+    explanation: "1.5² = 2.25, which is between 2 and 3, so √2 < 1.5 < √3. 1.8 is tempting because it sits between 1 and 2, but 1.8² = 3.24 > 3, so it is bigger than √3.",
+    hints: ["Square each option and compare it with 2 and 3. The number you want has a square between them."]
   },
   {
     id: "g9-maths-numbers-b-q16",

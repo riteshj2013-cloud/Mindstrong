@@ -40,7 +40,7 @@ export const G9_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g9-maths-numbers-b-q11": ["In 0.101001000100001… the run of zeros keeps growing. Is there a fixed block of digits that repeats?"],
   "g9-maths-numbers-b-q12": ["Use (a + b)(a − b) = a² − b² with a = 2 and b = √3."],
   "g9-maths-numbers-b-q14": ["Which perfect squares lie just below and just above 10? Take their square roots."],
-  "g9-maths-numbers-b-q15": ["A negative power means a reciprocal: 5⁻² = 1 ÷ 5². It does not make the number negative."],
+  "g9-maths-numbers-b-q15": ["Square each option and compare it with 2 and 3. The number you want has a square between them."],
   "g9-maths-numbers-b-q16": ["The additive inverse is −(√5 − 2). Multiply each term inside the bracket by −1."],
   "g9-maths-numbers-b-q19": ["Square both sides of √(x − 1) = 3, then add 1."],
   "g9-maths-numbers-b-q20": ["Square each part of 5√2 separately: 5² times (√2)²."],

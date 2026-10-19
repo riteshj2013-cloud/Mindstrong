@@ -25,14 +25,14 @@
 ## Set A
 
 ### Q01
-- **stem**: The degree of the polynomial 4x² − x⁵ + 3x is —
+- **stem**: The sum of the zeros of kx² + 3x + 2 is −1. What is k?
 - **options**:
-  - A) 5
-  - B) 2
-  - C) 1
-  - D) 3
-- **answer**: A
-- **explanation**: The degree is the highest power of x with a non-zero coefficient, which is 5 (from −x⁵). 2 is tempting because 4x² is written first, but the order of terms does not matter.
+  - A) −3
+  - B) 1/3
+  - C) 3
+  - D) 2
+- **answer**: C
+- **explanation**: Sum of zeros = −3/k = −1 gives k = 3. −3 is tempting if you forget the minus sign in −b/a: −3/(−3) = 1, not −1.
 - **difficulty**: mixed
 
 ### Q02
@@ -58,14 +58,14 @@
 - **difficulty**: mixed
 
 ### Q04
-- **stem**: The remainder when x³ − 2x² + 4 is divided by x + 1 is —
+- **stem**: At how many points does the graph of y = x² − 4x + 4 meet the x-axis?
 - **options**:
-  - A) 1
-  - B) 3
-  - C) −1
-  - D) 7
-- **answer**: A
-- **explanation**: x + 1 = x − (−1), so the remainder is p(−1) = −1 − 2 + 4 = 1. 3 is tempting, but that is p(1), which uses the wrong sign.
+  - A) 2
+  - B) 1
+  - C) 0
+  - D) 3
+- **answer**: B
+- **explanation**: x² − 4x + 4 = (x − 2)², so both zeros are 2 and the graph just touches the x-axis at one point, (2, 0). 2 is tempting because a quadratic can have two zeros, but here they are equal.
 - **difficulty**: mixed
 
 ### Q05
@@ -91,14 +91,14 @@
 - **difficulty**: mixed
 
 ### Q07
-- **stem**: If α and β are zeros of x² − 5x + 6, then αβ equals —
+- **stem**: One zero of x² − 3x − 10 is 5. Using the sum of the zeros, what is the other zero?
 - **options**:
-  - A) 5
-  - B) 6
-  - C) 1
-  - D) −6
+  - A) −8
+  - B) −2
+  - C) 2
+  - D) 8
 - **answer**: B
-- **explanation**: Product = c/a = 6.
+- **explanation**: Sum of zeros = −b/a = 3, so the other zero is 3 − 5 = −2. Check: 5 × (−2) = −10 = c/a. −8 is tempting if you take the sum as −3.
 - **difficulty**: mixed
 
 ### Q08
@@ -234,14 +234,14 @@
 - **difficulty**: mixed
 
 ### Q20
-- **stem**: Product of zeros of 3x² − 5x + 2 is —
+- **stem**: If x² − x − 6 = (x + a)(x + b) with a > b, then a equals —
 - **options**:
-  - A) −2/3
-  - B) 3/2
-  - C) 2/3
-  - D) 5/3
+  - A) 3
+  - B) −3
+  - C) 2
+  - D) −2
 - **answer**: C
-- **explanation**: c/a = 2/3.
+- **explanation**: x² − x − 6 = (x + 2)(x − 3), so a = 2 and b = −3. 3 is tempting because 3 is a zero of the polynomial, but the factor x − 3 means b = −3.
 - **difficulty**: mixed
 
 ### Q21
@@ -302,14 +302,14 @@
 - **difficulty**: mixed
 
 ### Q02
-- **stem**: Remainder when x³ − 4x + 5 is divided by x − 3 is —
+- **stem**: When x³ − 3x² + 5x − 3 is divided by x² − x + 1, the quotient is x − 2. What is the remainder?
 - **options**:
-  - A) 5
-  - B) 20
-  - C) 8
-  - D) −10
-- **answer**: B
-- **explanation**: By the remainder theorem the remainder is p(3) = 27 − 12 + 5 = 20. −10 is tempting, but that is p(−3), which uses the wrong sign.
+  - A) x − 1
+  - B) −2x + 1
+  - C) 2x + 1
+  - D) 2x − 1
+- **answer**: D
+- **explanation**: (x² − x + 1)(x − 2) = x³ − 3x² + 3x − 2. Subtracting it from x³ − 3x² + 5x − 3 leaves 2x − 1. −2x + 1 is tempting if you subtract the wrong way round.
 - **difficulty**: mixed
 
 ### Q03

@@ -55,15 +55,15 @@
 - **hint**: Additive inverse of a is the number that sums with a to 0.
 
 ### Q04
-- **stem**: What is |−12|?
+- **stem**: Which of these numbers has the greatest absolute value?
 - **options**:
-  - A) −12
-  - B) 0
-  - C) 1/12
-  - D) 12
+  - A) 9
+  - B) −5
+  - C) 11
+  - D) −12
 - **answer**: D
-- **explanation**: Absolute value is the distance from 0, so |−12| = 12.
-- **hint**: Absolute value drops the sign — distance from zero.
+- **explanation**: Absolute value is the distance from 0: |9| = 9, |−5| = 5, |11| = 11 and |−12| = 12. So −12 is farthest from 0. 11 is tempting because it is the greatest number, but −12 is farther from 0.
+- **hint**: Absolute value ignores the sign. Compare how far each number is from 0 on the number line.
 
 ### Q05
 - **stem**: Compute (−8) + (−5).
@@ -310,15 +310,15 @@
 - **hint**: Distance is the absolute difference.
 
 ### Q03
-- **stem**: What is −(−18)?
+- **stem**: What is −(−18) + (−6)?
 - **options**:
-  - A) −18
-  - B) 0
-  - C) 18
-  - D) 1/18
+  - A) −24
+  - B) −12
+  - C) 12
+  - D) 24
 - **answer**: C
-- **explanation**: The negative of −18 is 18.
-- **hint**: Two minuses cancel.
+- **explanation**: −(−18) = 18, and 18 + (−6) = 12. −24 is tempting if you treat −(−18) as −18.
+- **hint**: First simplify −(−18): two minus signs together make a plus. Then add −6.
 
 ### Q04
 - **stem**: Compute (−25) + 40.
@@ -420,15 +420,15 @@
 - **hint**: Most negative = smallest.
 
 ### Q13
-- **stem**: Compute (−1) × (−1) × (−1) × (−1).
+- **stem**: Which of these gives a negative answer?
 - **options**:
-  - A) 1
-  - B) −1
-  - C) 0
-  - D) 4
+  - A) (−1) × (−1) × (−1)
+  - B) (−3) × (−4)
+  - C) (−2) × 5 × (−1)
+  - D) (−6) ÷ (−2)
 - **answer**: A
-- **explanation**: Four negatives multiply to a positive: 1.
-- **hint**: Even count of negatives → positive.
+- **explanation**: (−1) × (−1) × (−1) has three negative factors, an odd number, so it equals −1. (−3) × (−4) = 12, (−2) × 5 × (−1) = 10 and (−6) ÷ (−2) = 3 are all positive.
+- **hint**: Count the negative numbers in each one. An odd count of negatives gives a negative answer.
 
 ### Q14
 - **stem**: The product of two integers is −36. One integer is −4. The other is —

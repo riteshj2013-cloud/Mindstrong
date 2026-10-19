@@ -1,7 +1,7 @@
 /**
  * Grade 4 Maths — item-specific hint fixes (fix layer).
  * Source: app repo commit 4291140 (served hints: lib/prep/content + lib/prep/hints overlays). Written 2026-10-19.
- * Items changed: 248 | hints: 299  [+5 review fixes kept from 68708b2]
+ * Items changed: 249 | hints: 305  [+5 review fixes kept from 68708b2]
  * By category (primary): answer-revealing fixed 34 · generic replaced 97 · shared-hint split 117
  * Each hint nudges the method using the item's own numbers/objects; none contains the answer,
  * an option letter or "eliminate options". A later hint is a stronger nudge (a first step worked).
@@ -153,7 +153,7 @@ export const G4_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-maths-measurement-a-q18": ["Change every capacity to ml, using 1 l = 1,000 ml. Then find the smallest."],
   "g4-maths-measurement-a-q19": ["Each metre is 100 cm, and the cricket pitch is about 20 m long.", "Count in hundreds of centimetres, once for each metre: 100, 200, and on until you have counted 20 metres."],
   "g4-maths-measurement-a-q20": ["1 litre is 1,000 ml, and Meera drinks 250 ml each morning.", "Count up in 250 ml steps: 250, 500, 750, and on. How many steps reach 1,000 ml?"],
-  "g4-maths-measurement-a-q21": ["Kilo- in kilometre is the same multiple as in kilogram. Check the unit and the count in each statement.", "A kilometre is measured in metres, not centimetres. Recall how many metres make 1 km."],
+  "g4-maths-measurement-a-q21": ["Kilo- in kilometre is the same multiple as in kilogram. In each statement about 1 km, check both the unit and the count.", "A kilometre is measured in metres, not centimetres. Recall how many metres make 1 km."],
   "g4-maths-measurement-a-q22": ["Add the kg first: 2 kg + 1 kg. Then add the grams: 300 g + 700 g.", "The grams make a full 1,000 g. Change that into 1 kg and add it to the kilograms."],
   "g4-maths-measurement-a-q24": ["1 litre is 1,000 ml, so the tank's 15 litres is 15,000 ml.", "Each litre fills two 500 ml bottles. How many bottles do 15 litres fill?"],
   "g4-maths-measurement-b-q01": ["An apple is light, much lighter than a 1 kg bag of atta. Which unit measures small masses?"],

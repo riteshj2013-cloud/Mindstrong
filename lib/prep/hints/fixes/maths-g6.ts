@@ -11,7 +11,7 @@ import type { HintOverlay } from "../types";
 
 export const G6_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   // g6-maths integers — Integers
-  "g6-maths-int-a-q04": ["Absolute value is the distance from zero on the number line, and distance is never negative."],
+  "g6-maths-int-a-q04": ["Absolute value ignores the sign. Compare how far each number is from 0 on the number line."],
   "g6-maths-int-a-q05": ["Both numbers are negative. Add 8 and 5, then keep the minus sign."],
   "g6-maths-int-a-q06": ["Adding −9 is the same as taking away 9. Start at 15 and step back 9."],
   "g6-maths-int-a-q07": ["Subtracting −7 is the same as adding 7. Start at −20 and move 7 to the right."],
@@ -25,7 +25,7 @@ export const G6_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g6-maths-int-a-q20": ["Multiply (−2) × (−2) × (−2). An odd number of negatives gives a negative answer."],
   "g6-maths-int-a-q23": ["Negative divided by negative is positive. How many 6s make 18?"],
   "g6-maths-int-b-q01": ["Integers are whole numbers and their negatives. Check each set for any fraction or decimal that is not whole."],
-  "g6-maths-int-b-q03": ["The opposite of a negative number is positive. Two minus signs side by side cancel out."],
+  "g6-maths-int-b-q03": ["First simplify −(−18): two minus signs together make a plus. Then add −6."],
   "g6-maths-int-b-q04": ["The signs differ, so subtract 25 from 40 and keep the sign of the bigger number."],
   "g6-maths-int-b-q05": ["20 is bigger than 9, so the result is negative. Find 20 − 9, then add the minus sign."],
   "g6-maths-int-b-q06": ["Start at −7 on the number line and move 5 more steps to the left."],
@@ -33,7 +33,7 @@ export const G6_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g6-maths-int-b-q08": ["Negative divided by positive is negative. How many 8s make 48?"],
   "g6-maths-int-b-q09": ["Put the values in: −4 + 9. Start at −4 on the number line and move 9 to the right."],
   "g6-maths-int-b-q10": ["a − b = −5 − (−3). Subtracting −3 means adding 3."],
-  "g6-maths-int-b-q13": ["Pair up the negatives: each pair of minus signs makes a positive. How many pairs are there?"],
+  "g6-maths-int-b-q13": ["Count the negative numbers in each one. An odd count of negatives gives a negative answer."],
   "g6-maths-int-b-q15": ["Find the distance of −9 from zero and of −4 from zero, then subtract."],
   "g6-maths-int-b-q16": ["Work out each expression with 5 and −5, one at a time. Remember that subtracting −5 is the same as adding 5."],
   "g6-maths-int-b-q17": ["Add Riya's first two scores, −8 + 12, then add the −3."],

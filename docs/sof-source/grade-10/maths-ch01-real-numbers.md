@@ -106,25 +106,25 @@
 - **difficulty**: mixed
 
 ### Q08
-- **stem**: Rationalising the denominator of 6/√3 gives —
+- **stem**: After how many decimal places does the decimal expansion of 13/(2³ × 5²) end?
 - **options**:
-  - A) 2/√3
-  - B) √3/2
-  - C) 6√3
-  - D) 2√3
-- **answer**: D
-- **explanation**: 6/√3 × √3/√3 = 6√3/3 = 2√3. 6√3 is tempting if you multiply the top by √3 but forget that the bottom becomes 3.
+  - A) 5
+  - B) 3
+  - C) 2
+  - D) 6
+- **answer**: B
+- **explanation**: Multiply top and bottom by 5 to get 65/(2³ × 5³) = 65/1000 = 0.065, which ends after 3 places (the larger of the two powers). 5 is tempting, but you do not add the powers 3 + 2.
 - **difficulty**: mixed
 
 ### Q09
-- **stem**: Which statement about rational and irrational numbers is true?
+- **stem**: The HCF of 2³ × 3² × 5 and 2² × 3³ × 7 is —
 - **options**:
-  - A) √2 is rational
-  - B) π is rational
-  - C) Every integer is a rational number
-  - D) Every rational is an integer
-- **answer**: C
-- **explanation**: Any integer n = n/1 is rational.
+  - A) 7560
+  - B) 216
+  - C) 1260
+  - D) 36
+- **answer**: D
+- **explanation**: Shared primes are 2 and 3; the smaller powers are 2² and 3², so the HCF is 2² × 3² = 36. 7560 is tempting, but that takes the larger powers of every prime: it is the LCM.
 - **difficulty**: mixed
 
 ### Q10
@@ -328,14 +328,14 @@
 - **difficulty**: mixed
 
 ### Q04
-- **stem**: Which number can be written in the form p/q, where p and q are integers and q ≠ 0?
+- **stem**: Using Euclid's division lemma, 400 = 17q + r with 0 ≤ r < 17. What is r?
 - **options**:
-  - A) 0.333… (the 3 repeats for ever)
-  - B) π
-  - C) √2 + 1
-  - D) √7
-- **answer**: A
-- **explanation**: 0.333… = 1/3, so it is rational. π is tempting because 22/7 is often used for it, but 22/7 is only an approximation; π is irrational, and so are √7 and √2 + 1.
+  - A) 23
+  - B) 0
+  - C) 17
+  - D) 9
+- **answer**: D
+- **explanation**: 17 × 23 = 391 and 400 − 391 = 9, so r = 9. 23 is tempting, but that is the quotient q, not the remainder.
 - **difficulty**: mixed
 
 ### Q05
@@ -427,14 +427,14 @@
 - **difficulty**: mixed
 
 ### Q13
-- **stem**: The sum of a rational number and an irrational number is —
+- **stem**: In the prime factorisation of 360, how many prime factors are there when repeated factors are counted?
 - **options**:
-  - A) sometimes undefined
-  - B) always rational
-  - C) always an integer
-  - D) always irrational
+  - A) 3
+  - B) 4
+  - C) 5
+  - D) 6
 - **answer**: D
-- **explanation**: e.g. 2 + √3 is irrational.
+- **explanation**: 360 = 2 × 2 × 2 × 3 × 3 × 5 = 2³ × 3² × 5, so there are 3 + 2 + 1 = 6 prime factors when repeats are counted. 3 is tempting, but that counts only the different primes 2, 3 and 5.
 - **difficulty**: mixed
 
 ### Q14
@@ -449,14 +449,14 @@
 - **difficulty**: mixed
 
 ### Q15
-- **stem**: √(0.0016) equals —
+- **stem**: For which natural number n does 4ⁿ end with the digit 0?
 - **options**:
-  - A) 0.04
-  - B) 0.004
-  - C) 0.4
-  - D) 0.008
+  - A) No natural number n
+  - B) n = 10
+  - C) n = 5
+  - D) Every even n
 - **answer**: A
-- **explanation**: 0.0016 = 16/10000, so √0.0016 = 4/100 = 0.04. 0.4 is tempting, but 0.4 × 0.4 = 0.16; the square root has half as many decimal places as the number.
+- **explanation**: 4ⁿ = 2²ⁿ has only the prime 2, never 5, so it can never end in 0. n = 10 is tempting because 10 ends in 0, but 4¹⁰ = 1,048,576 ends in 6.
 - **difficulty**: mixed
 
 ### Q16

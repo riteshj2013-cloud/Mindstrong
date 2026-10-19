@@ -5,16 +5,16 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g10-maths-poly-a-q01",
-    prompt: "The degree of the polynomial 4x\u00b2 \u2212 x\u2075 + 3x is \u2014",
+    prompt: "The sum of the zeros of kx\u00b2 + 3x + 2 is \u22121. What is k?",
     options: [
-      { id: "a", text: "5" },
-      { id: "b", text: "2" },
-      { id: "c", text: "1" },
-      { id: "d", text: "3" }
+      { id: "a", text: "\u22123" },
+      { id: "b", text: "1/3" },
+      { id: "c", text: "3" },
+      { id: "d", text: "2" }
     ],
-    answerId: "a",
-    explanation: "The degree is the highest power of x with a non-zero coefficient, which is 5 (from \u2212x\u2075). 2 is tempting because 4x\u00b2 is written first, but the order of terms does not matter.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "c",
+    explanation: "Sum of zeros = \u22123/k = \u22121 gives k = 3. \u22123 is tempting if you forget the minus sign in \u2212b/a: \u22123/(\u22123) = 1, not \u22121.",
+    hints: ["Sum of zeros = \u2212(coefficient of x)/(coefficient of x\u00b2). Write that in terms of k and set it equal to \u22121."]
   },
   {
     id: "g10-maths-poly-a-q02",
@@ -44,16 +44,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-maths-poly-a-q04",
-    prompt: "The remainder when x\u00b3 \u2212 2x\u00b2 + 4 is divided by x + 1 is \u2014",
+    prompt: "At how many points does the graph of y = x\u00b2 \u2212 4x + 4 meet the x-axis?",
     options: [
-      { id: "a", text: "1" },
-      { id: "b", text: "3" },
-      { id: "c", text: "\u22121" },
-      { id: "d", text: "7" }
+      { id: "a", text: "2" },
+      { id: "b", text: "1" },
+      { id: "c", text: "0" },
+      { id: "d", text: "3" }
     ],
-    answerId: "a",
-    explanation: "x + 1 = x \u2212 (\u22121), so the remainder is p(\u22121) = \u22121 \u2212 2 + 4 = 1. 3 is tempting, but that is p(1), which uses the wrong sign.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "b",
+    explanation: "x\u00b2 \u2212 4x + 4 = (x \u2212 2)\u00b2, so both zeros are 2 and the graph just touches the x-axis at one point, (2, 0). 2 is tempting because a quadratic can have two zeros, but here they are equal.",
+    hints: ["Factorise x\u00b2 \u2212 4x + 4. Are its two zeros different, or the same number twice?"]
   },
   {
     id: "g10-maths-poly-a-q05",
@@ -83,16 +83,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-maths-poly-a-q07",
-    prompt: "If \u03b1 and \u03b2 are zeros of x\u00b2 \u2212 5x + 6, then \u03b1\u03b2 equals \u2014",
+    prompt: "One zero of x\u00b2 \u2212 3x \u2212 10 is 5. Using the sum of the zeros, what is the other zero?",
     options: [
-      { id: "a", text: "5" },
-      { id: "b", text: "6" },
-      { id: "c", text: "1" },
-      { id: "d", text: "\u22126" }
+      { id: "a", text: "\u22128" },
+      { id: "b", text: "\u22122" },
+      { id: "c", text: "2" },
+      { id: "d", text: "8" }
     ],
     answerId: "b",
-    explanation: "Product = c/a = 6.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Sum of zeros = \u2212b/a = 3, so the other zero is 3 \u2212 5 = \u22122. Check: 5 \u00d7 (\u22122) = \u221210 = c/a. \u22128 is tempting if you take the sum as \u22123.",
+    hints: ["Sum of zeros = \u2212(coefficient of x)/(coefficient of x\u00b2). Subtract the known zero from that sum."]
   },
   {
     id: "g10-maths-poly-a-q08",
@@ -252,16 +252,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-maths-poly-a-q20",
-    prompt: "Product of zeros of 3x\u00b2 \u2212 5x + 2 is \u2014",
+    prompt: "If x\u00b2 \u2212 x \u2212 6 = (x + a)(x + b) with a > b, then a equals \u2014",
     options: [
-      { id: "a", text: "\u22122/3" },
-      { id: "b", text: "3/2" },
-      { id: "c", text: "2/3" },
-      { id: "d", text: "5/3" }
+      { id: "a", text: "3" },
+      { id: "b", text: "\u22123" },
+      { id: "c", text: "2" },
+      { id: "d", text: "\u22122" }
     ],
     answerId: "c",
-    explanation: "c/a = 2/3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "x\u00b2 \u2212 x \u2212 6 = (x + 2)(x \u2212 3), so a = 2 and b = \u22123. 3 is tempting because 3 is a zero of the polynomial, but the factor x \u2212 3 means b = \u22123.",
+    hints: ["Find a pair of numbers that multiply to \u22126 and add to \u22121. Which number in the pair is larger?"]
   },
   {
     id: "g10-maths-poly-a-q21",
@@ -333,16 +333,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-maths-poly-b-q02",
-    prompt: "Remainder when x\u00b3 \u2212 4x + 5 is divided by x \u2212 3 is \u2014",
+    prompt: "When x\u00b3 \u2212 3x\u00b2 + 5x \u2212 3 is divided by x\u00b2 \u2212 x + 1, the quotient is x \u2212 2. What is the remainder?",
     options: [
-      { id: "a", text: "5" },
-      { id: "b", text: "20" },
-      { id: "c", text: "8" },
-      { id: "d", text: "\u221210" }
+      { id: "a", text: "x \u2212 1" },
+      { id: "b", text: "\u22122x + 1" },
+      { id: "c", text: "2x + 1" },
+      { id: "d", text: "2x \u2212 1" }
     ],
-    answerId: "b",
-    explanation: "By the remainder theorem the remainder is p(3) = 27 \u2212 12 + 5 = 20. \u221210 is tempting, but that is p(\u22123), which uses the wrong sign.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "d",
+    explanation: "(x\u00b2 \u2212 x + 1)(x \u2212 2) = x\u00b3 \u2212 3x\u00b2 + 3x \u2212 2. Subtracting it from x\u00b3 \u2212 3x\u00b2 + 5x \u2212 3 leaves 2x \u2212 1. \u22122x + 1 is tempting if you subtract the wrong way round.",
+    hints: ["Multiply the divisor by the quotient, then subtract that product from x\u00b3 \u2212 3x\u00b2 + 5x \u2212 3."]
   },
   {
     id: "g10-maths-poly-b-q03",
