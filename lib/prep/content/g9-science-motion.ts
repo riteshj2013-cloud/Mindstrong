@@ -9,11 +9,11 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "a scalar (path length)" },
       { id: "b", text: "always equal to displacement" },
-      { id: "c", text: "measured only in kg" },
+      { id: "c", text: "the shortest straight-line gap between start and finish" },
       { id: "d", text: "a vector" }
     ],
     answerId: "a",
-    explanation: "Distance is scalar path length; displacement is vector.",
+    explanation: "Distance is the total length of the path travelled, so it is a scalar. The shortest straight-line gap between start and finish is the size of the displacement, not the distance; the two are equal only when the body moves in a straight line without turning back. Displacement, not distance, is the vector.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -33,10 +33,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-motion-a-q03",
     prompt: "Speed equals…",
     options: [
-      { id: "a", text: "force / mass" },
-      { id: "b", text: "mass × acceleration" },
+      { id: "a", text: "displacement / time only as a name for speed" },
+      { id: "b", text: "force / mass" },
       { id: "c", text: "distance / time" },
-      { id: "d", text: "displacement / time only as a name for speed" }
+      { id: "d", text: "mass × acceleration" }
     ],
     answerId: "c",
     explanation: "Average speed = total distance / total time.",
@@ -60,9 +60,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "SI unit of acceleration is…",
     options: [
       { id: "a", text: "m/s²" },
-      { id: "b", text: "m²/s" },
-      { id: "c", text: "N" },
-      { id: "d", text: "m/s" }
+      { id: "b", text: "m/s" },
+      { id: "c", text: "m²/s" },
+      { id: "d", text: "N" }
     ],
     answerId: "a",
     explanation: "Acceleration is rate of change of velocity → m/s².",
@@ -85,10 +85,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-motion-a-q07",
     prompt: "If a car goes 100 m east then 100 m west, displacement is…",
     options: [
-      { id: "a", text: "100 m east" },
-      { id: "b", text: "200 m east" },
+      { id: "a", text: "200 m east" },
+      { id: "b", text: "100 m west" },
       { id: "c", text: "0" },
-      { id: "d", text: "100 m west" }
+      { id: "d", text: "100 m east" }
     ],
     answerId: "c",
     explanation: "Net change in position is zero.",
@@ -98,9 +98,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-motion-a-q08",
     prompt: "Average velocity equals…",
     options: [
-      { id: "a", text: "speed × time" },
-      { id: "b", text: "acceleration × time only always" },
-      { id: "c", text: "total distance / time" },
+      { id: "a", text: "total distance / time" },
+      { id: "b", text: "speed × time" },
+      { id: "c", text: "acceleration × time only always" },
       { id: "d", text: "displacement / total time" }
     ],
     answerId: "d",
@@ -112,9 +112,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "The slope of a distance–time graph gives…",
     options: [
       { id: "a", text: "speed" },
-      { id: "b", text: "force" },
-      { id: "c", text: "mass" },
-      { id: "d", text: "acceleration" }
+      { id: "b", text: "acceleration" },
+      { id: "c", text: "force" },
+      { id: "d", text: "mass" }
     ],
     answerId: "a",
     explanation: "Slope of s–t (distance–time) indicates speed.",
@@ -137,10 +137,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-motion-a-q11",
     prompt: "Area under a velocity–time graph gives…",
     options: [
-      { id: "a", text: "power" },
-      { id: "b", text: "acceleration" },
+      { id: "a", text: "acceleration" },
+      { id: "b", text: "force" },
       { id: "c", text: "displacement (for the interval)" },
-      { id: "d", text: "force" }
+      { id: "d", text: "power" }
     ],
     answerId: "c",
     explanation: "∫v dt corresponds to displacement.",
@@ -150,9 +150,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-motion-a-q12",
     prompt: "Which is a vector quantity?",
     options: [
-      { id: "a", text: "time" },
-      { id: "b", text: "speed" },
-      { id: "c", text: "distance" },
+      { id: "a", text: "speed" },
+      { id: "b", text: "distance" },
+      { id: "c", text: "time" },
       { id: "d", text: "displacement" }
     ],
     answerId: "d",
@@ -164,9 +164,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Uniform circular motion has…",
     options: [
       { id: "a", text: "constant speed but changing velocity (direction)" },
-      { id: "b", text: "zero speed" },
-      { id: "c", text: "no acceleration" },
-      { id: "d", text: "constant velocity" }
+      { id: "b", text: "constant velocity" },
+      { id: "c", text: "zero speed" },
+      { id: "d", text: "no acceleration" }
     ],
     answerId: "a",
     explanation: "Direction changes continuously ⇒ velocity changes ⇒ centripetal acceleration.",
@@ -176,10 +176,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-motion-a-q14",
     prompt: "Equation for velocity under constant acceleration: v = …",
     options: [
-      { id: "a", text: "a/u + t" },
+      { id: "a", text: "u − a/t" },
       { id: "b", text: "u + at" },
-      { id: "c", text: "u − a/t" },
-      { id: "d", text: "ut + a" }
+      { id: "c", text: "ut + a" },
+      { id: "d", text: "a/u + t" }
     ],
     answerId: "b",
     explanation: "First equation of motion: v = u + at.",
@@ -189,10 +189,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-motion-a-q15",
     prompt: "s = ut + ½at² assumes…",
     options: [
-      { id: "a", text: "circular path only" },
-      { id: "b", text: "variable acceleration randomly" },
+      { id: "a", text: "variable acceleration randomly" },
+      { id: "b", text: "zero mass" },
       { id: "c", text: "constant acceleration (and straight-line motion as used in class)" },
-      { id: "d", text: "zero mass" }
+      { id: "d", text: "circular path only" }
     ],
     answerId: "c",
     explanation: "Standard equations assume constant acceleration.",
@@ -202,9 +202,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-motion-a-q16",
     prompt: "A body starts from rest. Its initial velocity u is…",
     options: [
-      { id: "a", text: "equal to g always" },
-      { id: "b", text: "infinite" },
-      { id: "c", text: "maximum" },
+      { id: "a", text: "maximum" },
+      { id: "b", text: "equal to g always" },
+      { id: "c", text: "infinite" },
       { id: "d", text: "0" }
     ],
     answerId: "d",
@@ -216,9 +216,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "If acceleration is negative (deceleration), speed generally…",
     options: [
       { id: "a", text: "decreases (when velocity and accel oppose)" },
-      { id: "b", text: "stays meaningless" },
-      { id: "c", text: "becomes mass" },
-      { id: "d", text: "increases" }
+      { id: "b", text: "increases" },
+      { id: "c", text: "stays meaningless" },
+      { id: "d", text: "becomes mass" }
     ],
     answerId: "a",
     explanation: "Deceleration reduces speed when opposing velocity.",
@@ -241,10 +241,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-motion-a-q19",
     prompt: "Which graph is a straight line through origin for uniform speed?",
     options: [
-      { id: "a", text: "acceleration–time always rising" },
-      { id: "b", text: "force–time only" },
+      { id: "a", text: "velocity–time always curved" },
+      { id: "b", text: "acceleration–time always rising" },
       { id: "c", text: "distance–time" },
-      { id: "d", text: "velocity–time always curved" }
+      { id: "d", text: "force–time only" }
     ],
     answerId: "c",
     explanation: "Constant speed ⇒ linear distance–time through proportional rise.",
@@ -254,9 +254,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-motion-a-q20",
     prompt: "Displacement’s SI unit is…",
     options: [
-      { id: "a", text: "m/s" },
-      { id: "b", text: "kg" },
-      { id: "c", text: "second" },
+      { id: "a", text: "second" },
+      { id: "b", text: "m/s" },
+      { id: "c", text: "kg" },
       { id: "d", text: "metre" }
     ],
     answerId: "d",
@@ -268,9 +268,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "A particle moves 3 m east and 4 m north. Net displacement magnitude is…",
     options: [
       { id: "a", text: "5 m" },
-      { id: "b", text: "1 m" },
-      { id: "c", text: "12 m" },
-      { id: "d", text: "7 m" }
+      { id: "b", text: "7 m" },
+      { id: "c", text: "1 m" },
+      { id: "d", text: "12 m" }
     ],
     answerId: "a",
     explanation: "Perpendicular paths: √(3²+4²)=5 m.",
@@ -293,10 +293,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-motion-a-q23",
     prompt: "If v–t graph is a horizontal line, acceleration is…",
     options: [
-      { id: "a", text: "undefined always" },
-      { id: "b", text: "positive constant" },
+      { id: "a", text: "positive constant" },
+      { id: "b", text: "increasing" },
       { id: "c", text: "zero" },
-      { id: "d", text: "increasing" }
+      { id: "d", text: "undefined always" }
     ],
     answerId: "c",
     explanation: "Horizontal v means constant velocity → a = 0.",
@@ -306,9 +306,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-motion-a-q24",
     prompt: "Free fall near Earth (ignoring air) has acceleration approximately…",
     options: [
-      { id: "a", text: "9.8 m/s upward always" },
-      { id: "b", text: "98 m/s²" },
-      { id: "c", text: "0" },
+      { id: "a", text: "0" },
+      { id: "b", text: "9.8 m/s upward always" },
+      { id: "c", text: "98 m/s²" },
       { id: "d", text: "9.8 m/s² downward" }
     ],
     answerId: "d",
@@ -322,12 +322,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-motion-b-q01",
     prompt: "Which quantity can be negative in one-dimensional motion?",
     options: [
-      { id: "a", text: "distance" },
-      { id: "b", text: "speed" },
-      { id: "c", text: "displacement" },
+      { id: "a", text: "displacement" },
+      { id: "b", text: "distance" },
+      { id: "c", text: "speed" },
       { id: "d", text: "time interval" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Displacement can be negative depending on chosen positive direction.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -335,12 +335,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-motion-b-q02",
     prompt: "A bus travels 60 km in 2 hours. Average speed is…",
     options: [
-      { id: "a", text: "30 km/h" },
-      { id: "b", text: "120 km/h" },
+      { id: "a", text: "120 km/h" },
+      { id: "b", text: "30 km/h" },
       { id: "c", text: "60 km/h" },
       { id: "d", text: "15 km/h" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "60/2 = 30 km/h.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-motion-b-q03",
     prompt: "If displacement is 40 m and time is 8 s, average velocity magnitude is…",
     options: [
-      { id: "a", text: "5 m/s" },
-      { id: "b", text: "32 m/s" },
-      { id: "c", text: "48 m/s" },
+      { id: "a", text: "32 m/s" },
+      { id: "b", text: "48 m/s" },
+      { id: "c", text: "5 m/s" },
       { id: "d", text: "0.2 m/s" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "40/8 = 5 m/s.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -362,11 +362,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Acceleration is zero when…",
     options: [
       { id: "a", text: "velocity changes" },
-      { id: "b", text: "velocity is constant" },
-      { id: "c", text: "force is infinite" },
-      { id: "d", text: "distance is maximum" }
+      { id: "b", text: "force is infinite" },
+      { id: "c", text: "distance is maximum" },
+      { id: "d", text: "velocity is constant" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Constant velocity (including rest) means zero acceleration.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -401,11 +401,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "If a v–t graph is a straight line sloping upward, acceleration is…",
     options: [
       { id: "a", text: "zero" },
-      { id: "b", text: "constant and positive" },
-      { id: "c", text: "infinite" },
+      { id: "b", text: "infinite" },
+      { id: "c", text: "constant and positive" },
       { id: "d", text: "negative always" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Constant positive slope → constant positive a.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-motion-b-q08",
     prompt: "Scalar quantities have…",
     options: [
-      { id: "a", text: "magnitude only" },
-      { id: "b", text: "magnitude and direction" },
-      { id: "c", text: "only direction" },
-      { id: "d", text: "neither" }
+      { id: "a", text: "magnitude and direction" },
+      { id: "b", text: "only direction" },
+      { id: "c", text: "neither" },
+      { id: "d", text: "magnitude only" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Scalars: magnitude only.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -440,11 +440,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Distance is never…",
     options: [
       { id: "a", text: "positive" },
-      { id: "b", text: "zero" },
-      { id: "c", text: "negative" },
+      { id: "b", text: "negative" },
+      { id: "c", text: "zero" },
       { id: "d", text: "greater than displacement magnitude in a detour" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Distance cannot be negative.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -452,12 +452,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-motion-b-q11",
     prompt: "For a freely falling object from rest, after time t, speed is about…",
     options: [
-      { id: "a", text: "gt" },
-      { id: "b", text: "g/t" },
-      { id: "c", text: "g + t" },
+      { id: "a", text: "g/t" },
+      { id: "b", text: "g + t" },
+      { id: "c", text: "gt" },
       { id: "d", text: "t/g" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "v = u + gt with u = 0 → v = gt.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -465,12 +465,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-motion-b-q12",
     prompt: "Uniform motion means…",
     options: [
-      { id: "a", text: "equal distances in equal intervals of time (constant speed on a straight path as taught)" },
-      { id: "b", text: "ever-changing speed" },
-      { id: "c", text: "rest only" },
-      { id: "d", text: "circular with changing speed" }
+      { id: "a", text: "ever-changing speed" },
+      { id: "b", text: "rest only" },
+      { id: "c", text: "circular with changing speed" },
+      { id: "d", text: "equal distances in equal intervals of time (constant speed on a straight path as taught)" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Equal distances in equal times characterises uniform motion.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -478,12 +478,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-motion-b-q13",
     prompt: "Non-uniform motion means…",
     options: [
-      { id: "a", text: "constant speed always" },
-      { id: "b", text: "changing speed (unequal distances in equal times)" },
+      { id: "a", text: "changing speed (unequal distances in equal times)" },
+      { id: "b", text: "constant speed always" },
       { id: "c", text: "zero displacement always" },
       { id: "d", text: "motion without path" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Speed changes in non-uniform motion.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -491,12 +491,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-motion-b-q14",
     prompt: "If u = 0, a = 2 m/s², t = 3 s, then s =…",
     options: [
-      { id: "a", text: "9 m" },
-      { id: "b", text: "6 m" },
+      { id: "a", text: "6 m" },
+      { id: "b", text: "9 m" },
       { id: "c", text: "18 m" },
       { id: "d", text: "3 m" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "s = 0·t + ½·2·9 = 9 m.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -505,11 +505,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "A body moving east with speed 5 m/s has velocity…",
     options: [
       { id: "a", text: "5 m/s" },
-      { id: "b", text: "5 m/s east" },
-      { id: "c", text: "5 m east" },
+      { id: "b", text: "5 m east" },
+      { id: "c", text: "5 m/s east" },
       { id: "d", text: "25 m/s²" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Velocity needs the direction stated.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -518,11 +518,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Retardation means…",
     options: [
       { id: "a", text: "positive acceleration in direction of velocity" },
-      { id: "b", text: "acceleration opposite to velocity (deceleration)" },
-      { id: "c", text: "zero velocity only" },
-      { id: "d", text: "constant speed forever" }
+      { id: "b", text: "zero velocity only" },
+      { id: "c", text: "constant speed forever" },
+      { id: "d", text: "acceleration opposite to velocity (deceleration)" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Retardation/deceleration opposes velocity.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -530,12 +530,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-motion-b-q17",
     prompt: "The odometer of a car measures…",
     options: [
-      { id: "a", text: "instantaneous velocity vector" },
-      { id: "b", text: "distance travelled" },
+      { id: "a", text: "distance travelled" },
+      { id: "b", text: "instantaneous velocity vector" },
       { id: "c", text: "acceleration" },
       { id: "d", text: "displacement only" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Odometer records path distance.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -557,11 +557,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "If distance–time graph is a curve bending upward, speed is…",
     options: [
       { id: "a", text: "constant" },
-      { id: "b", text: "increasing" },
-      { id: "c", text: "zero" },
+      { id: "b", text: "zero" },
+      { id: "c", text: "increasing" },
       { id: "d", text: "negative" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Increasing slope means increasing speed.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -570,11 +570,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Displacement magnitude is always ____ distance.",
     options: [
       { id: "a", text: "greater than" },
-      { id: "b", text: "less than or equal to" },
-      { id: "c", text: "unrelated to" },
-      { id: "d", text: "exactly twice" }
+      { id: "b", text: "unrelated to" },
+      { id: "c", text: "exactly twice" },
+      { id: "d", text: "less than or equal to" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Shortest path ≤ actual path length.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -582,12 +582,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-motion-b-q21",
     prompt: "For constant speed on a straight line, acceleration is…",
     options: [
-      { id: "a", text: "g" },
-      { id: "b", text: "0" },
+      { id: "a", text: "0" },
+      { id: "b", text: "g" },
       { id: "c", text: "v/t always non-zero" },
       { id: "d", text: "infinite" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "No velocity change → a = 0.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -596,11 +596,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which equation does not require time explicitly?",
     options: [
       { id: "a", text: "v = u + at" },
-      { id: "b", text: "s = ut + ½at²" },
-      { id: "c", text: "v² = u² + 2as" },
+      { id: "b", text: "v² = u² + 2as" },
+      { id: "c", text: "s = ut + ½at²" },
       { id: "d", text: "all require t" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "v² = u² + 2as has no t.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -609,11 +609,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "A ball thrown upward returns to the hand. Net displacement is…",
     options: [
       { id: "a", text: "maximum height" },
-      { id: "b", text: "zero" },
-      { id: "c", text: "twice the height" },
+      { id: "b", text: "twice the height" },
+      { id: "c", text: "zero" },
       { id: "d", text: "equal to distance" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Back to start → displacement zero; distance is twice height.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -621,12 +621,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-motion-b-q24",
     prompt: "SI unit of speed is…",
     options: [
-      { id: "a", text: "m/s" },
-      { id: "b", text: "m/s²" },
-      { id: "c", text: "N" },
-      { id: "d", text: "kg/m" }
+      { id: "a", text: "m/s²" },
+      { id: "b", text: "N" },
+      { id: "c", text: "kg/m" },
+      { id: "d", text: "m/s" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Speed = distance/time → m/s.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }

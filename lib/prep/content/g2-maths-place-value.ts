@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-place-a-q01",
     prompt: "In 47, the digit 4 stands for\u2026",
     options: [
-      { id: "a", text: "4 ones" },
-      { id: "b", text: "4 tens" },
+      { id: "a", text: "4 tens" },
+      { id: "b", text: "4 ones" },
       { id: "c", text: "40 tens" },
       { id: "d", text: "7 tens" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "4 is in the tens place \u2192 4 tens.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -33,12 +33,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-place-a-q03",
     prompt: "How many tens in 30?",
     options: [
-      { id: "a", text: "3" },
-      { id: "b", text: "0" },
-      { id: "c", text: "30" },
+      { id: "a", text: "0" },
+      { id: "b", text: "30" },
+      { id: "c", text: "3" },
       { id: "d", text: "10" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "30 = 3 tens and 0 ones.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -46,12 +46,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-place-a-q04",
     prompt: "10 ones make\u2026",
     options: [
-      { id: "a", text: "1 ten" },
-      { id: "b", text: "10 tens" },
-      { id: "c", text: "1 one" },
-      { id: "d", text: "0" }
+      { id: "a", text: "10 tens" },
+      { id: "b", text: "1 one" },
+      { id: "c", text: "0" },
+      { id: "d", text: "1 ten" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "10 ones bundle into 1 ten.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -72,12 +72,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-place-a-q06",
     prompt: "Expand 38.",
     options: [
-      { id: "a", text: "30 + 8" },
-      { id: "b", text: "3 + 8" },
+      { id: "a", text: "3 + 8" },
+      { id: "b", text: "30 + 8" },
       { id: "c", text: "38 + 0 only wrong" },
       { id: "d", text: "80 + 3" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "38 = 30 + 8.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -86,11 +86,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which is greater: 29 or 92?",
     options: [
       { id: "a", text: "29" },
-      { id: "b", text: "92" },
-      { id: "c", text: "same" },
+      { id: "b", text: "same" },
+      { id: "c", text: "92" },
       { id: "d", text: "0" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "92 has more tens, so it is greater.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -99,11 +99,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "What is the place of 6 in 61?",
     options: [
       { id: "a", text: "ones" },
-      { id: "b", text: "tens" },
-      { id: "c", text: "hundreds" },
-      { id: "d", text: "none" }
+      { id: "b", text: "hundreds" },
+      { id: "c", text: "none" },
+      { id: "d", text: "tens" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "In 61, 6 is in the tens place.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -124,12 +124,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-place-a-q10",
     prompt: "Smallest two-digit number?",
     options: [
-      { id: "a", text: "10" },
-      { id: "b", text: "11" },
+      { id: "a", text: "11" },
+      { id: "b", text: "10" },
       { id: "c", text: "9" },
       { id: "d", text: "01" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "10 is the smallest two-digit number.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-place-a-q11",
     prompt: "Biggest two-digit number?",
     options: [
-      { id: "a", text: "99" },
-      { id: "b", text: "90" },
-      { id: "c", text: "100" },
+      { id: "a", text: "90" },
+      { id: "b", text: "100" },
+      { id: "c", text: "99" },
       { id: "d", text: "89" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "99 is the biggest two-digit number.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-place-a-q12",
     prompt: "20 + 7 = ?",
     options: [
-      { id: "a", text: "27" },
-      { id: "b", text: "207" },
-      { id: "c", text: "72" },
-      { id: "d", text: "9" }
+      { id: "a", text: "207" },
+      { id: "b", text: "72" },
+      { id: "c", text: "9" },
+      { id: "d", text: "27" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "20 + 7 = 27.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -176,12 +176,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-place-a-q14",
     prompt: "Which shows 5 tens?",
     options: [
-      { id: "a", text: "50" },
-      { id: "b", text: "5" },
+      { id: "a", text: "5" },
+      { id: "b", text: "50" },
       { id: "c", text: "15" },
       { id: "d", text: "500" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "5 tens = 50.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-place-a-q15",
     prompt: "In 80, how many ones?",
     options: [
-      { id: "a", text: "0" },
-      { id: "b", text: "8" },
-      { id: "c", text: "80" },
+      { id: "a", text: "8" },
+      { id: "b", text: "80" },
+      { id: "c", text: "0" },
       { id: "d", text: "10" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "80 has 0 ones.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -203,11 +203,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Order small to big: 15, 51, 25. Middle number?",
     options: [
       { id: "a", text: "15" },
-      { id: "b", text: "25" },
-      { id: "c", text: "51" },
-      { id: "d", text: "10" }
+      { id: "b", text: "51" },
+      { id: "c", text: "10" },
+      { id: "d", text: "25" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Order: 15, 25, 51. Middle is 25.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
@@ -218,12 +218,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-place-b-q01",
     prompt: "In 63, the digit 6 stands for\u2026",
     options: [
-      { id: "a", text: "6 ones" },
-      { id: "b", text: "6 tens" },
+      { id: "a", text: "6 tens" },
+      { id: "b", text: "6 ones" },
       { id: "c", text: "60 ones as tens value" },
       { id: "d", text: "3 tens" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "6 is in tens \u2192 6 tens (60).",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -244,12 +244,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-place-b-q03",
     prompt: "How many tens in 70?",
     options: [
-      { id: "a", text: "7" },
-      { id: "b", text: "0" },
-      { id: "c", text: "70" },
+      { id: "a", text: "0" },
+      { id: "b", text: "70" },
+      { id: "c", text: "7" },
       { id: "d", text: "10" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "70 = 7 tens.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -257,12 +257,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-place-b-q04",
     prompt: "Which number is 4 tens and 0 ones?",
     options: [
-      { id: "a", text: "40" },
-      { id: "b", text: "4" },
-      { id: "c", text: "400" },
-      { id: "d", text: "14" }
+      { id: "a", text: "4" },
+      { id: "b", text: "400" },
+      { id: "c", text: "14" },
+      { id: "d", text: "40" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "4 tens + 0 ones = 40.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -283,12 +283,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-place-b-q06",
     prompt: "Which is smaller: 48 or 84?",
     options: [
-      { id: "a", text: "48" },
-      { id: "b", text: "84" },
+      { id: "a", text: "84" },
+      { id: "b", text: "48" },
       { id: "c", text: "same" },
       { id: "d", text: "100" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "48 has fewer tens than 84.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -297,11 +297,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Place of 9 in 19?",
     options: [
       { id: "a", text: "tens" },
-      { id: "b", text: "ones" },
-      { id: "c", text: "hundreds" },
+      { id: "b", text: "hundreds" },
+      { id: "c", text: "ones" },
       { id: "d", text: "none" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "In 19, 9 is ones.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -309,12 +309,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-place-b-q08",
     prompt: "9 tens + 2 ones = ?",
     options: [
-      { id: "a", text: "92" },
-      { id: "b", text: "29" },
-      { id: "c", text: "11" },
-      { id: "d", text: "902" }
+      { id: "a", text: "29" },
+      { id: "b", text: "11" },
+      { id: "c", text: "902" },
+      { id: "d", text: "92" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "9 tens + 2 ones = 92.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -335,12 +335,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-place-b-q10",
     prompt: "Aman has \u20b910 notes: 2 notes, and \u20b91 coins: 3. Total?",
     options: [
-      { id: "a", text: "\u20b923" },
-      { id: "b", text: "\u20b932" },
+      { id: "a", text: "\u20b932" },
+      { id: "b", text: "\u20b923" },
       { id: "c", text: "\u20b95" },
       { id: "d", text: "\u20b913" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "2 tens + 3 ones = \u20b923.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-place-b-q11",
     prompt: "Which equals 1 ten?",
     options: [
-      { id: "a", text: "10 ones" },
-      { id: "b", text: "1 one" },
-      { id: "c", text: "100 ones" },
+      { id: "a", text: "1 one" },
+      { id: "b", text: "100 ones" },
+      { id: "c", text: "10 ones" },
       { id: "d", text: "2 ones" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "1 ten = 10 ones.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-place-b-q12",
     prompt: "35 = 30 + ?",
     options: [
-      { id: "a", text: "5" },
-      { id: "b", text: "3" },
-      { id: "c", text: "35" },
-      { id: "d", text: "0" }
+      { id: "a", text: "3" },
+      { id: "b", text: "35" },
+      { id: "c", text: "0" },
+      { id: "d", text: "5" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "35 = 30 + 5.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-place-b-q14",
     prompt: "Least using digits 2 and 8?",
     options: [
-      { id: "a", text: "28" },
-      { id: "b", text: "82" },
+      { id: "a", text: "82" },
+      { id: "b", text: "28" },
       { id: "c", text: "20" },
       { id: "d", text: "8" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Smaller tens digit: 28.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-place-b-q15",
     prompt: "How many ones in 44?",
     options: [
-      { id: "a", text: "4" },
-      { id: "b", text: "40" },
-      { id: "c", text: "44" },
+      { id: "a", text: "40" },
+      { id: "b", text: "44" },
+      { id: "c", text: "4" },
       { id: "d", text: "8" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Ones digit is 4.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-place-b-q16",
     prompt: "2 tens more than 15 is\u2026",
     options: [
-      { id: "a", text: "35" },
-      { id: "b", text: "17" },
-      { id: "c", text: "25" },
-      { id: "d", text: "13" }
+      { id: "a", text: "17" },
+      { id: "b", text: "25" },
+      { id: "c", text: "13" },
+      { id: "d", text: "35" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "15 + 20 = 35.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }

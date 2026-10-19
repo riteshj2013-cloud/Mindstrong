@@ -35,33 +35,33 @@
 ### Q02
 - **stem**: Threshing separates —
 - **options**:
-  - A) grain from stalks
-  - B) salt from seawater by freezing only
+  - A) salt from seawater by freezing only
+  - B) grain from stalks
   - C) iron from sand with hands only
   - D) cream by filtering paper
-- **answer**: A
+- **answer**: B
 - **explanation**: Threshing beats stalks so grain separates.
 - **hint**: Grain harvest separation.
 
 ### Q03
 - **stem**: Winnowing uses —
 - **options**:
-  - A) wind or blowing air to separate lighter husk
-  - B) only magnets
-  - C) only filters
+  - A) only magnets
+  - B) only filters
+  - C) wind or blowing air to separate lighter husk
   - D) only evaporation pans
-- **answer**: A
+- **answer**: C
 - **explanation**: Lighter husk blows away; heavier grain falls.
 - **hint**: Wind separation.
 
 ### Q04
 - **stem**: Sieving separates particles based on —
 - **options**:
-  - A) size
-  - B) colour only
-  - C) magnetism only
-  - D) taste only
-- **answer**: A
+  - A) colour only
+  - B) magnetism only
+  - C) taste only
+  - D) size
+- **answer**: D
 - **explanation**: A sieve lets smaller particles pass and holds larger ones.
 - **hint**: Sieve property.
 
@@ -79,33 +79,33 @@
 ### Q06
 - **stem**: Decantation is —
 - **options**:
-  - A) pouring off liquid carefully after settling
-  - B) boiling metal
+  - A) boiling metal
+  - B) pouring off liquid carefully after settling
   - C) spinning cotton
   - D) measuring angles
-- **answer**: A
+- **answer**: B
 - **explanation**: After sedimentation, liquid is poured off the sediment.
 - **hint**: Pour after settling.
 
 ### Q07
 - **stem**: Filtration uses a filter to —
 - **options**:
-  - A) trap insoluble solids and let liquid pass
-  - B) separate two gases by colour only
-  - C) shear sheep
+  - A) separate two gases by colour only
+  - B) shear sheep
+  - C) trap insoluble solids and let liquid pass
   - D) weave cloth
-- **answer**: A
+- **answer**: C
 - **explanation**: Filter paper/cloth holds residue; filtrate passes.
 - **hint**: Filter job.
 
 ### Q08
 - **stem**: Evaporation separates —
 - **options**:
-  - A) dissolved solid from a solution by turning liquid to vapour
-  - B) iron from sand with wind
-  - C) husks by handpicking only
-  - D) yarn from fibre
-- **answer**: A
+  - A) iron from sand with wind
+  - B) husks by handpicking only
+  - C) yarn from fibre
+  - D) dissolved solid from a solution by turning liquid to vapour
+- **answer**: D
 - **explanation**: Water evaporates; dissolved salt remains.
 - **hint**: Sun/heat on solutions.
 
@@ -123,33 +123,33 @@
 ### Q10
 - **stem**: A magnet can separate —
 - **options**:
-  - A) iron filings from sand
-  - B) salt from sugar
+  - A) salt from sugar
+  - B) iron filings from sand
   - C) oil from water by magnetism alone
   - D) husks from grain by magnetism alone
-- **answer**: A
+- **answer**: B
 - **explanation**: Iron is magnetic; sand is not.
 - **hint**: Magnetic property use.
 
 ### Q11
 - **stem**: Which mixture can be separated by filtration?
 - **options**:
-  - A) Chalk powder in water
-  - B) Salt fully dissolved in water
-  - C) Sugar fully dissolved in water
+  - A) Salt fully dissolved in water
+  - B) Sugar fully dissolved in water
+  - C) Chalk powder in water
   - D) Alcohol mixed completely as one phase without solid
-- **answer**: A
+- **answer**: C
 - **explanation**: Insoluble chalk is trapped by a filter; dissolved salt/sugar pass with water.
 - **hint**: Need undissolved solid for filtration.
 
 ### Q12
 - **stem**: Cream from milk can be separated by —
 - **options**:
-  - A) centrifugation (or churning principles)
-  - B) winnowing husk
-  - C) magnetic separation
-  - D) sieving with large mesh only
-- **answer**: A
+  - A) winnowing husk
+  - B) magnetic separation
+  - C) sieving with large mesh only
+  - D) centrifugation (or churning principles)
+- **answer**: D
 - **explanation**: Centrifugation spins denser and lighter parts apart; cream rises/separates.
 - **hint**: Spin separation for milk.
 
@@ -167,33 +167,33 @@
 ### Q14
 - **stem**: Insoluble impurities in water can be removed by —
 - **options**:
-  - A) sedimentation and filtration
-  - B) only adding more salt
+  - A) only adding more salt
+  - B) sedimentation and filtration
   - C) weaving
   - D) sericulture
-- **answer**: A
+- **answer**: B
 - **explanation**: Settle, then filter to clarify water.
 - **hint**: Muddy water cleanup.
 
 ### Q15
 - **stem**: Which method suits separating tea leaves from prepared tea?
 - **options**:
-  - A) Filtration/straining
-  - B) Magnetic separation
-  - C) Winnowing on a farm roof only
+  - A) Magnetic separation
+  - B) Winnowing on a farm roof only
+  - C) Filtration/straining
   - D) Shearing
-- **answer**: A
+- **answer**: C
 - **explanation**: A strainer filters tea leaves.
 - **hint**: Kitchen filtration.
 
 ### Q16
 - **stem**: Alcohol mixed completely with water is best separated in later classes by —
 - **options**:
-  - A) distillation
-  - B) handpicking
-  - C) winnowing
-  - D) magnetic separation
-- **answer**: A
+  - A) handpicking
+  - B) winnowing
+  - C) magnetic separation
+  - D) distillation
+- **answer**: D
 - **explanation**: Miscible liquids need distillation (different boiling points), not simple pouring.
 - **hint**: Method for mixed liquids.
 
@@ -211,33 +211,33 @@
 ### Q18
 - **stem**: Which is a pure substance among these everyday ideas?
 - **options**:
-  - A) Distilled water (approx. pure H2O)
-  - B) Muddy river water
+  - A) Muddy river water
+  - B) Distilled water (approx. pure H2O)
   - C) Air as a fixed compound
   - D) Trail mix
-- **answer**: A
+- **answer**: B
 - **explanation**: Distilled water is essentially pure water; the others are mixtures.
 - **hint**: Pure vs mixture.
 
 ### Q19
 - **stem**: Air is best described as —
 - **options**:
-  - A) a mixture of gases
-  - B) a single pure element only
-  - C) a fabric
+  - A) a single pure element only
+  - B) a fabric
+  - C) a mixture of gases
   - D) a vitamin
-- **answer**: A
+- **answer**: C
 - **explanation**: Air contains nitrogen, oxygen and other gases mixed.
 - **hint**: Air composition type.
 
 ### Q20
 - **stem**: Sieving flour removes —
 - **options**:
-  - A) larger impurities/lumps
-  - B) all dissolved sugar
-  - C) magnetic only dust
-  - D) water by evaporation
-- **answer**: A
+  - A) all dissolved sugar
+  - B) magnetic only dust
+  - C) water by evaporation
+  - D) larger impurities/lumps
+- **answer**: D
 - **explanation**: Lumps and bran bits stay on the sieve.
 - **hint**: Kitchen sieving.
 
@@ -255,33 +255,33 @@
 ### Q22
 - **stem**: Condensation is the change from —
 - **options**:
-  - A) gas/vapour to liquid
-  - B) liquid to solid always named condensation
+  - A) liquid to solid always named condensation
+  - B) gas/vapour to liquid
   - C) solid to fibre
   - D) yarn to fabric
-- **answer**: A
+- **answer**: B
 - **explanation**: Vapour cools to liquid in condensation.
 - **hint**: Opposite of evaporation.
 
 ### Q23
 - **stem**: Why do we separate substances?
 - **options**:
-  - A) To get useful components or remove harmful ones
-  - B) Only to weave cloth
-  - C) Only to name angles
+  - A) Only to weave cloth
+  - B) Only to name angles
+  - C) To get useful components or remove harmful ones
   - D) Never for any reason
-- **answer**: A
+- **answer**: C
 - **explanation**: Separation yields useful materials and removes impurities.
 - **hint**: Purpose of separation.
 
 ### Q24
 - **stem**: Which pair is a mixture?
 - **options**:
-  - A) Sand and salt
-  - B) Distilled water only
-  - C) Pure gold element sample
-  - D) Oxygen gas alone as element sample
-- **answer**: A
+  - A) Distilled water only
+  - B) Pure gold element sample
+  - C) Oxygen gas alone as element sample
+  - D) Sand and salt
+- **answer**: D
 - **explanation**: Sand + salt is a mixture of two solids.
 - **hint**: Spot the mixture.
 
@@ -301,33 +301,33 @@
 ### Q02
 - **stem**: Residue on filter paper is —
 - **options**:
-  - A) the solid left behind
-  - B) the liquid that passed
+  - A) the liquid that passed
+  - B) the solid left behind
   - C) a gas only
   - D) a magnetic field
-- **answer**: A
+- **answer**: B
 - **explanation**: Residue is the trapped solid; filtrate is the liquid that passed.
 - **hint**: Residue vs filtrate.
 
 ### Q03
 - **stem**: Which separation uses heat and vapour?
 - **options**:
-  - A) Evaporation
-  - B) Handpicking
-  - C) Magnetic separation
+  - A) Handpicking
+  - B) Magnetic separation
+  - C) Evaporation
   - D) Sieving dry sand only
-- **answer**: A
+- **answer**: C
 - **explanation**: Evaporation needs heat (or sun) to vapourise liquid.
 - **hint**: Heat-driven method.
 
 ### Q04
 - **stem**: Husk is separated from grain mainly by —
 - **options**:
-  - A) winnowing
-  - B) reeling silk
-  - C) sericulture
-  - D) knitting
-- **answer**: A
+  - A) reeling silk
+  - B) sericulture
+  - C) knitting
+  - D) winnowing
+- **answer**: D
 - **explanation**: Winnowing blows husk away from grain.
 - **hint**: Farm method for husk.
 
@@ -345,33 +345,33 @@
 ### Q06
 - **stem**: Loading (in water purification talks) helps —
 - **options**:
-  - A) fine clay settle faster by adding alum etc.
-  - B) spin silk
+  - A) spin silk
+  - B) fine clay settle faster by adding alum etc.
   - C) weave jute
   - D) grow cotton
-- **answer**: A
+- **answer**: B
 - **explanation**: Alum helps fine suspended particles clump and settle.
 - **hint**: Alum/loading idea.
 
 ### Q07
 - **stem**: Which is insoluble in water?
 - **options**:
-  - A) Sand
-  - B) Salt
-  - C) Sugar
+  - A) Salt
+  - B) Sugar
+  - C) Sand
   - D) Lemon juice acids that dissolve
-- **answer**: A
+- **answer**: C
 - **explanation**: Sand does not dissolve; salt and sugar do.
 - **hint**: Spot the insoluble.
 
 ### Q08
 - **stem**: Saturated solution means —
 - **options**:
-  - A) no more solute dissolves at that temperature
-  - B) the beaker is empty
-  - C) only gases present
-  - D) a type of fabric
-- **answer**: A
+  - A) the beaker is empty
+  - B) only gases present
+  - C) a type of fabric
+  - D) no more solute dissolves at that temperature
+- **answer**: D
 - **explanation**: At saturation, added solute remains undissolved.
 - **hint**: Define saturated.
 
@@ -389,33 +389,33 @@
 ### Q10
 - **stem**: Sawdust mixed with iron filings: best first step?
 - **options**:
-  - A) Use a magnet
-  - B) Evaporate with sun
+  - A) Evaporate with sun
+  - B) Use a magnet
   - C) Winnow as if husk identically always
   - D) Weave them
-- **answer**: A
+- **answer**: B
 - **explanation**: Magnet removes iron quickly.
 - **hint**: Best tool first.
 
 ### Q11
 - **stem**: Which change is reversible among these separations?
 - **options**:
-  - A) Dissolving salt then evaporating water to get salt back
-  - B) Burning paper to ash
-  - C) Cooking an egg hard
+  - A) Burning paper to ash
+  - B) Cooking an egg hard
+  - C) Dissolving salt then evaporating water to get salt back
   - D) Rusting iron completely as oxide only
-- **answer**: A
+- **answer**: C
 - **explanation**: Salt can be recovered by evaporating water — a reversible physical separation path.
 - **hint**: Recovering dissolved salt.
 
 ### Q12
 - **stem**: Filtrate is —
 - **options**:
-  - A) the liquid that passes through the filter
-  - B) the solid on the paper only
-  - C) a sheep
-  - D) a loom
-- **answer**: A
+  - A) the solid on the paper only
+  - B) a sheep
+  - C) a loom
+  - D) the liquid that passes through the filter
+- **answer**: D
 - **explanation**: Filtrate = liquid collected after filtration.
 - **hint**: Define filtrate.
 
@@ -433,33 +433,33 @@
 ### Q14
 - **stem**: Which apparatus is typical for filtration in the lab?
 - **options**:
-  - A) Filter paper + funnel
-  - B) Charkha
+  - A) Charkha
+  - B) Filter paper + funnel
   - C) Protractor
   - D) Handloom
-- **answer**: A
+- **answer**: B
 - **explanation**: Funnel and filter paper are standard.
 - **hint**: Lab filtration gear.
 
 ### Q15
 - **stem**: Separating colours of ink is an introduction to —
 - **options**:
-  - A) chromatography (later classes)
-  - B) shearing
-  - C) ginning
+  - A) shearing
+  - B) ginning
+  - C) chromatography (later classes)
   - D) knitting
-- **answer**: A
+- **answer**: C
 - **explanation**: Ink dyes can be separated by chromatography.
 - **hint**: Ink travel method name.
 
 ### Q16
 - **stem**: Which is a heterogeneous mixture?
 - **options**:
-  - A) Sand in water
-  - B) Salt completely dissolved in water
-  - C) Sugar completely dissolved in water
-  - D) Air well mixed as one phase discussion
-- **answer**: A
+  - A) Salt completely dissolved in water
+  - B) Sugar completely dissolved in water
+  - C) Air well mixed as one phase discussion
+  - D) Sand in water
+- **answer**: D
 - **explanation**: Sand in water shows distinct phases/particles — heterogeneous.
 - **hint**: See distinct parts.
 
@@ -477,33 +477,33 @@
 ### Q18
 - **stem**: Pebbles from dal can be removed by —
 - **options**:
-  - A) handpicking
-  - B) distillation only
+  - A) distillation only
+  - B) handpicking
   - C) magnetic separation always
   - D) reeling
-- **answer**: A
+- **answer**: B
 - **explanation**: Large pebbles are handpicked from dal.
 - **hint**: Kitchen handpicking.
 
 ### Q19
 - **stem**: Which property is used in magnetic separation?
 - **options**:
-  - A) Magnetism
-  - B) Colour only
-  - C) Taste only
+  - A) Colour only
+  - B) Taste only
+  - C) Magnetism
   - D) Smell only
-- **answer**: A
+- **answer**: C
 - **explanation**: Magnetic materials respond to a magnet.
 - **hint**: Key property.
 
 ### Q20
 - **stem**: Drying clothes in the sun mainly involves —
 - **options**:
-  - A) evaporation of water
-  - B) sedimentation of cloth
-  - C) magnetic drying
-  - D) winnowing shirts
-- **answer**: A
+  - A) sedimentation of cloth
+  - B) magnetic drying
+  - C) winnowing shirts
+  - D) evaporation of water
+- **answer**: D
 - **explanation**: Water in clothes evaporates into air.
 - **hint**: Sun drying science.
 
@@ -521,33 +521,33 @@
 ### Q22
 - **stem**: To get drinking water from muddy water at a basic level, you might —
 - **options**:
-  - A) allow settling, then filter (and further purify as needed)
-  - B) add more mud
+  - A) add more mud
+  - B) allow settling, then filter (and further purify as needed)
   - C) winnow it
   - D) shear it
-- **answer**: A
+- **answer**: B
 - **explanation**: Sedimentation + filtration remove many solids (further purification may still be needed).
 - **hint**: Clarify muddy water steps.
 
 ### Q23
 - **stem**: Which mixture is best separated by sieving?
 - **options**:
-  - A) Pebbles mixed with sand
-  - B) Salt dissolved in water
-  - C) Alcohol in water
+  - A) Salt dissolved in water
+  - B) Alcohol in water
+  - C) Pebbles mixed with sand
   - D) Cream in milk by sieve mesh only
-- **answer**: A
+- **answer**: C
 - **explanation**: Different solid sizes → sieving works.
 - **hint**: Size-based solids.
 
 ### Q24
 - **stem**: The solid left after seawater evaporates is mainly —
 - **options**:
-  - A) salt
-  - B) pure oxygen cakes
-  - C) cotton fibre
-  - D) wool
-- **answer**: A
+  - A) pure oxygen cakes
+  - B) cotton fibre
+  - C) wool
+  - D) salt
+- **answer**: D
 - **explanation**: Dissolved salts remain after water evaporates.
 - **hint**: What stays in the pan?
 

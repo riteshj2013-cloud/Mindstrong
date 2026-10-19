@@ -60,7 +60,7 @@ export const G10_SCIENCE_HINTS: Record<string, HintOverlay> = {
   "g10-sci-life-a-q08": ["Aerobic = with oxygen."],
   "g10-sci-life-a-q09": ["Yeast makes alcohol; muscles make lactate."],
   "g10-sci-life-a-q10": ["Xylem = water highway."],
-  "g10-sci-life-a-q11": ["Phloem = food highway."],
+  "g10-sci-life-a-q11": ["One transport tissue is the food highway, the other the water highway. Which carries food?"],
   "g10-sci-life-a-q12": ["Each kidney has about a million nephrons."],
   "g10-sci-life-a-q13": ["Left ventricle \u2192 aorta \u2192 body."],
   "g10-sci-life-a-q14": ["Pulmonary artery is the exception: artery with deoxygenated blood."],

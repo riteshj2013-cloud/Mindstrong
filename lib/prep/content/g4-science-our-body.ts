@@ -320,7 +320,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g4-sci-body-b-q01",
-    prompt: "Which pair is correctly matched?",
+    prompt: "Which sense organ is correctly matched with its sense?",
     options: [
       { id: "a", text: "Tongue \u2014 taste" },
       { id: "b", text: "Eyes \u2014 hearing" },
@@ -541,7 +541,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-sci-body-b-q18",
-    prompt: "Which statement is true?",
+    prompt: "Which statement about the human body is true?",
     options: [
       { id: "a", text: "Bones are soft like insects' wings always" },
       { id: "b", text: "Muscles and bones work together so we can move" },

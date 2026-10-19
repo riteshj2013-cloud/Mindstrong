@@ -329,15 +329,15 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g4-sci-matter-b-q01",
-    prompt: "Which of these is a liquid?",
+    prompt: "Riya pours water from a tall glass into a flat plate. What happens to the water?",
     options: [
-      { id: "a", text: "Rock" },
-      { id: "b", text: "Smoke" },
-      { id: "c", text: "Milk" },
-      { id: "d", text: "Spoon" }
+      { id: "a", text: "It keeps the shape of the glass" },
+      { id: "b", text: "It changes its amount" },
+      { id: "c", text: "It takes the shape of the plate" },
+      { id: "d", text: "It turns into a gas at once" }
     ],
     answerId: "c",
-    explanation: "Milk flows and takes the shape of its glass, so it is a liquid. A rock and a spoon are solids, and smoke is mostly gas.",
+    explanation: "A liquid has a fixed amount but takes the shape of its container, so the water spreads out to the shape of the plate. \"It changes its amount\" is tempting because the water looks lower and wider, but no water is lost.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -595,7 +595,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-sci-matter-b-q21",
-    prompt: "Which statement is TRUE?",
+    prompt: "Which statement about solids, liquids and gases is TRUE?",
     options: [
       { id: "a", text: "Liquids have a fixed shape" },
       { id: "b", text: "Gases have a fixed volume" },

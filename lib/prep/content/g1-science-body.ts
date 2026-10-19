@@ -8,9 +8,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "We see with our\u2026",
     options: [
       { id: "a", text: "eyes" },
-      { id: "b", text: "nose" },
-      { id: "c", text: "tongue" },
-      { id: "d", text: "ears" }
+      { id: "b", text: "ears" },
+      { id: "c", text: "nose" },
+      { id: "d", text: "tongue" }
     ],
     answerId: "a",
     explanation: "We see with our eyes.",
@@ -33,10 +33,10 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q03",
     prompt: "We smell with our\u2026",
     options: [
-      { id: "a", text: "ears" },
-      { id: "b", text: "hair" },
+      { id: "a", text: "eyes" },
+      { id: "b", text: "ears" },
       { id: "c", text: "nose" },
-      { id: "d", text: "eyes" }
+      { id: "d", text: "hair" }
     ],
     answerId: "c",
     explanation: "We smell with our nose.",
@@ -60,9 +60,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "We have how many hands?",
     options: [
       { id: "a", text: "2" },
-      { id: "b", text: "3" },
-      { id: "c", text: "4" },
-      { id: "d", text: "1" }
+      { id: "b", text: "1" },
+      { id: "c", text: "3" },
+      { id: "d", text: "4" }
     ],
     answerId: "a",
     explanation: "We have 2 hands.",
@@ -85,10 +85,10 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q07",
     prompt: "Brush your ___ every day.",
     options: [
-      { id: "a", text: "books" },
-      { id: "b", text: "walls" },
+      { id: "a", text: "shoes only" },
+      { id: "b", text: "books" },
       { id: "c", text: "teeth" },
-      { id: "d", text: "shoes only" }
+      { id: "d", text: "walls" }
     ],
     answerId: "c",
     explanation: "Brush your teeth every day.",
@@ -124,10 +124,10 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q10",
     prompt: "Our heart is inside our\u2026",
     options: [
-      { id: "a", text: "bag" },
+      { id: "a", text: "shoe" },
       { id: "b", text: "chest" },
-      { id: "c", text: "shoe" },
-      { id: "d", text: "hat" }
+      { id: "c", text: "hat" },
+      { id: "d", text: "bag" }
     ],
     answerId: "b",
     explanation: "The heart is in the chest.",
@@ -137,10 +137,10 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q11",
     prompt: "We have how many eyes?",
     options: [
-      { id: "a", text: "4" },
-      { id: "b", text: "1" },
+      { id: "a", text: "1" },
+      { id: "b", text: "3" },
       { id: "c", text: "2" },
-      { id: "d", text: "3" }
+      { id: "d", text: "4" }
     ],
     answerId: "c",
     explanation: "Most people have 2 eyes.",
@@ -176,10 +176,10 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q14",
     prompt: "We should sleep at\u2026",
     options: [
-      { id: "a", text: "in the rain without care" },
+      { id: "a", text: "never" },
       { id: "b", text: "night / rest time" },
-      { id: "c", text: "never" },
-      { id: "d", text: "only in class always" }
+      { id: "c", text: "only in class always" },
+      { id: "d", text: "in the rain without care" }
     ],
     answerId: "b",
     explanation: "Sleep helps the body rest.",
@@ -189,10 +189,10 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q15",
     prompt: "Fingers are on our\u2026",
     options: [
-      { id: "a", text: "nose tip only" },
-      { id: "b", text: "knees only" },
+      { id: "a", text: "ears" },
+      { id: "b", text: "nose tip only" },
       { id: "c", text: "hands" },
-      { id: "d", text: "ears" }
+      { id: "d", text: "knees only" }
     ],
     answerId: "c",
     explanation: "Fingers are on our hands.",
@@ -231,10 +231,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q02",
     prompt: "Sunglasses protect our\u2026",
     options: [
-      { id: "a", text: "knees" },
+      { id: "a", text: "toes" },
       { id: "b", text: "eyes" },
-      { id: "c", text: "toes" },
-      { id: "d", text: "elbows" }
+      { id: "c", text: "elbows" },
+      { id: "d", text: "knees" }
     ],
     answerId: "b",
     explanation: "Sunglasses protect eyes from bright sun.",
@@ -244,10 +244,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q03",
     prompt: "A loud sound is heard by our\u2026",
     options: [
-      { id: "a", text: "tongue" },
-      { id: "b", text: "hair" },
+      { id: "a", text: "eyes" },
+      { id: "b", text: "tongue" },
       { id: "c", text: "ears" },
-      { id: "d", text: "eyes" }
+      { id: "d", text: "hair" }
     ],
     answerId: "c",
     explanation: "Ears hear loud sounds.",
@@ -271,9 +271,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "We have how many legs?",
     options: [
       { id: "a", text: "2" },
-      { id: "b", text: "3" },
-      { id: "c", text: "4" },
-      { id: "d", text: "1" }
+      { id: "b", text: "1" },
+      { id: "c", text: "3" },
+      { id: "d", text: "4" }
     ],
     answerId: "a",
     explanation: "We have 2 legs.",
@@ -283,10 +283,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q06",
     prompt: "Cover your mouth when you\u2026",
     options: [
-      { id: "a", text: "draw" },
+      { id: "a", text: "sleep only" },
       { id: "b", text: "sneeze or cough" },
-      { id: "c", text: "sleep only" },
-      { id: "d", text: "read" }
+      { id: "c", text: "read" },
+      { id: "d", text: "draw" }
     ],
     answerId: "b",
     explanation: "Cover mouth when you sneeze or cough.",
@@ -296,10 +296,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q07",
     prompt: "Bones help our body to\u2026",
     options: [
-      { id: "a", text: "fly alone" },
-      { id: "b", text: "turn into water" },
+      { id: "a", text: "make honey" },
+      { id: "b", text: "fly alone" },
       { id: "c", text: "stand and move" },
-      { id: "d", text: "make honey" }
+      { id: "d", text: "turn into water" }
     ],
     answerId: "c",
     explanation: "Bones help us stand and move.",
@@ -335,10 +335,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q10",
     prompt: "We smile with our\u2026",
     options: [
-      { id: "a", text: "heel" },
+      { id: "a", text: "elbow" },
       { id: "b", text: "mouth" },
-      { id: "c", text: "elbow" },
-      { id: "d", text: "knee" }
+      { id: "c", text: "knee" },
+      { id: "d", text: "heel" }
     ],
     answerId: "b",
     explanation: "We smile with our mouth.",
@@ -348,10 +348,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q11",
     prompt: "Ears help us enjoy\u2026",
     options: [
-      { id: "a", text: "only smells" },
-      { id: "b", text: "only tastes" },
+      { id: "a", text: "only colours" },
+      { id: "b", text: "only smells" },
       { id: "c", text: "music" },
-      { id: "d", text: "only colours" }
+      { id: "d", text: "only tastes" }
     ],
     answerId: "c",
     explanation: "Ears help us hear music.",
@@ -387,10 +387,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q14",
     prompt: "Keep your body\u2026",
     options: [
-      { id: "a", text: "wet with mud always" },
+      { id: "a", text: "dirty always" },
       { id: "b", text: "clean" },
-      { id: "c", text: "dirty always" },
-      { id: "d", text: "painted blue" }
+      { id: "c", text: "painted blue" },
+      { id: "d", text: "wet with mud always" }
     ],
     answerId: "b",
     explanation: "Keep your body clean.",
@@ -400,10 +400,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q15",
     prompt: "We think with our\u2026",
     options: [
-      { id: "a", text: "belt" },
-      { id: "b", text: "socks" },
+      { id: "a", text: "shoes" },
+      { id: "b", text: "belt" },
       { id: "c", text: "brain" },
-      { id: "d", text: "shoes" }
+      { id: "d", text: "socks" }
     ],
     answerId: "c",
     explanation: "We think with our brain.",

@@ -15,11 +15,11 @@
 
 ### Q1
 - **stem**: How many minutes are in 1 hour?
-- A) 30
-- B) 60
+- A) 60
+- B) 30
 - C) 100
 - D) 24
-- **answer**: B
+- **answer**: A
 - **explanation**: 1 hour = 60 minutes.
 
 ### Q2
@@ -34,19 +34,19 @@
 ### Q3
 - **stem**: ₹10 + ₹5 = ?
 - A) ₹10
-- B) ₹15
-- C) ₹20
+- B) ₹20
+- C) ₹15
 - D) ₹5
-- **answer**: B
+- **answer**: C
 - **explanation**: 10 + 5 = ₹15.
 
 ### Q4
 - **stem**: There are ___ days in a week.
 - A) 5
 - B) 6
-- C) 7
-- D) 8
-- **answer**: C
+- C) 8
+- D) 7
+- **answer**: D
 - **explanation**: A week has 7 days.
 
 ### Q5
@@ -70,28 +70,28 @@
 ### Q7
 - **stem**: Half past 2 is written as…
 - A) 2:00
-- B) 2:30
-- C) 2:15
+- B) 2:15
+- C) 2:30
 - D) 3:00
-- **answer**: B
+- **answer**: C
 - **explanation**: Half past 2 = 2:30.
 
 ### Q8
 - **stem**: Which is more money: ₹20 or ₹12?
 - A) ₹12
-- B) ₹20
-- C) same
-- D) ₹0
-- **answer**: B
+- B) same
+- C) ₹0
+- D) ₹20
+- **answer**: D
 - **explanation**: ₹20 is more than ₹12.
 
 ### Q9
 - **stem**: How many hours in a day?
-- A) 12
-- B) 24
+- A) 24
+- B) 12
 - C) 60
 - D) 7
-- **answer**: B
+- **answer**: A
 - **explanation**: A day has 24 hours.
 
 ### Q10
@@ -106,19 +106,19 @@
 ### Q11
 - **stem**: The short hand on a clock is the…
 - A) minute hand
-- B) hour hand
-- C) second only always
+- B) second only always
+- C) hour hand
 - D) date
-- **answer**: B
+- **answer**: C
 - **explanation**: The short hand shows the hour.
 
 ### Q12
 - **stem**: ₹5 × 2 = ?
 - A) ₹5
-- B) ₹10
-- C) ₹15
-- D) ₹7
-- **answer**: B
+- B) ₹15
+- C) ₹7
+- D) ₹10
+- **answer**: D
 - **explanation**: Two ₹5 make ₹10.
 
 ### Q13
@@ -141,20 +141,20 @@
 
 ### Q15
 - **stem**: Quarter past 4 is…
-- A) 4:15
-- B) 4:30
-- C) 4:45
+- A) 4:30
+- B) 4:45
+- C) 4:15
 - D) 4:00
-- **answer**: A
+- **answer**: C
 - **explanation**: Quarter past = 15 minutes past → 4:15.
 
 ### Q16
 - **stem**: You buy a pencil for ₹7 with a ₹10 note. Change?
 - A) ₹2
-- B) ₹3
-- C) ₹7
-- D) ₹10
-- **answer**: B
+- B) ₹7
+- C) ₹10
+- D) ₹3
+- **answer**: D
 - **explanation**: 10 − 7 = ₹3.
 
 
@@ -162,74 +162,74 @@
 
 ### Q1
 - **stem**: How many seconds in 1 minute?
-- A) 30
-- B) 60
+- A) 60
+- B) 30
 - C) 100
 - D) 24
-- **answer**: B
+- **answer**: A
 - **explanation**: 1 minute = 60 seconds.
 
 ### Q2
 - **stem**: A clock shows 6:00. Hour hand on…
 - A) 12
-- B) 3
-- C) 6
+- B) 6
+- C) 3
 - D) 9
-- **answer**: C
+- **answer**: B
 - **explanation**: At 6:00 hour hand on 6.
 
 ### Q3
 - **stem**: ₹20 − ₹5 = ?
 - A) ₹10
-- B) ₹15
-- C) ₹25
+- B) ₹25
+- C) ₹15
 - D) ₹5
-- **answer**: B
+- **answer**: C
 - **explanation**: 20 − 5 = ₹15.
 
 ### Q4
 - **stem**: Sunday is a day of the…
-- A) week
-- B) hour
-- C) minute
-- D) coin
-- **answer**: A
+- A) hour
+- B) minute
+- C) coin
+- D) week
+- **answer**: D
 - **explanation**: Sunday is a day of the week.
 
 ### Q5
 - **stem**: Evening comes ___ afternoon.
-- A) before
-- B) after
+- A) after
+- B) before
 - C) never
 - D) only underwater
-- **answer**: B
+- **answer**: A
 - **explanation**: Evening comes after afternoon.
 
 ### Q6
 - **stem**: Three ₹2 coins make…
 - A) ₹2
-- B) ₹4
-- C) ₹6
+- B) ₹6
+- C) ₹4
 - D) ₹8
-- **answer**: C
+- **answer**: B
 - **explanation**: 2 + 2 + 2 = ₹6.
 
 ### Q7
 - **stem**: Half past 5 is…
 - A) 5:00
-- B) 5:30
-- C) 5:15
+- B) 5:15
+- C) 5:30
 - D) 6:00
-- **answer**: B
+- **answer**: C
 - **explanation**: Half past 5 = 5:30.
 
 ### Q8
 - **stem**: Which is less: ₹9 or ₹19?
-- A) ₹9
-- B) ₹19
-- C) same
-- D) ₹90
-- **answer**: A
+- A) ₹19
+- B) same
+- C) ₹90
+- D) ₹9
+- **answer**: D
 - **explanation**: ₹9 is less than ₹19.
 
 ### Q9
@@ -243,29 +243,29 @@
 
 ### Q10
 - **stem**: A toy costs ₹25. You have ₹30. Can you buy it?
-- A) yes
-- B) no
+- A) no
+- B) yes
 - C) only with ₹10
 - D) never
-- **answer**: A
+- **answer**: B
 - **explanation**: 30 is more than 25 — yes.
 
 ### Q11
 - **stem**: The long hand on a clock is the…
 - A) hour hand
-- B) minute hand
-- C) date
+- B) date
+- C) minute hand
 - D) year
-- **answer**: B
+- **answer**: C
 - **explanation**: The long hand shows minutes.
 
 ### Q12
 - **stem**: ₹10 + ₹10 = ?
 - A) ₹10
-- B) ₹20
-- C) ₹30
-- D) ₹100
-- **answer**: B
+- B) ₹30
+- C) ₹100
+- D) ₹20
+- **answer**: D
 - **explanation**: 10 + 10 = ₹20.
 
 ### Q13
@@ -288,19 +288,19 @@
 
 ### Q15
 - **stem**: Quarter to 3 is…
-- A) 2:45
-- B) 3:15
-- C) 3:45
+- A) 3:15
+- B) 3:45
+- C) 2:45
 - D) 2:15
-- **answer**: A
+- **answer**: C
 - **explanation**: Quarter to 3 = 15 minutes before 3 → 2:45.
 
 ### Q16
 - **stem**: You pay ₹50 for books costing ₹40. Change?
 - A) ₹5
-- B) ₹10
-- C) ₹20
-- D) ₹40
-- **answer**: B
+- B) ₹20
+- C) ₹40
+- D) ₹10
+- **answer**: D
 - **explanation**: 50 − 40 = ₹10.
 

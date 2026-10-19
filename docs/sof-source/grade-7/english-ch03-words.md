@@ -384,28 +384,28 @@
 ### Q05
 - id: g7-eng-words-b-05
 - stem: |
-  Choose the odd one out (not a synonym of “happy”):
+  Choose the odd one out (not a synonym of “brave”):
 - options:
-  - A: miserable
-  - B: joyful
-  - C: glad
-  - D: cheerful
+  - A: timid
+  - B: courageous
+  - C: fearless
+  - D: bold
 - answer: A
 - explanation: |
-  Miserable is an antonym of happy.
+  Timid means shy and easily frightened, the opposite of brave. Courageous, fearless and bold all mean brave.
 
 ### Q06
 - id: g7-eng-words-b-06
 - stem: |
-  Prefix “re-” in “rewrite” means…
+  Prefix “mis-” in “misunderstand” means…
 - options:
-  - A: not
-  - B: again
-  - C: against
-  - D: before
+  - A: again
+  - B: wrongly
+  - C: before
+  - D: not
 - answer: B
 - explanation: |
-  Re- often means again.
+  Mis- means wrongly or badly: to misunderstand is to understand wrongly. “Not” is tempting, but that is the meaning of un- or in-; misunderstanding still involves understanding, just incorrectly.
 
 ### Q07
 - id: g7-eng-words-b-07

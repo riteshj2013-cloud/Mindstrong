@@ -8,9 +8,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "12 + 5 = ?",
     options: [
       { id: "a", text: "17" },
-      { id: "b", text: "15" },
-      { id: "c", text: "18" },
-      { id: "d", text: "16" }
+      { id: "b", text: "16" },
+      { id: "c", text: "15" },
+      { id: "d", text: "18" }
     ],
     answerId: "a",
     explanation: "12 + 5 = 17.",
@@ -33,10 +33,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-addsub-a-q03",
     prompt: "15 + 10 = ?",
     options: [
-      { id: "a", text: "150" },
-      { id: "b", text: "20" },
+      { id: "a", text: "5" },
+      { id: "b", text: "150" },
       { id: "c", text: "25" },
-      { id: "d", text: "5" }
+      { id: "d", text: "20" }
     ],
     answerId: "c",
     explanation: "15 + 10 = 25.",
@@ -46,9 +46,9 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-addsub-a-q04",
     prompt: "18 \u2212 8 = ?",
     options: [
-      { id: "a", text: "26" },
-      { id: "b", text: "9" },
-      { id: "c", text: "8" },
+      { id: "a", text: "8" },
+      { id: "b", text: "26" },
+      { id: "c", text: "9" },
       { id: "d", text: "10" }
     ],
     answerId: "d",
@@ -60,9 +60,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "9 + 6 = ?",
     options: [
       { id: "a", text: "15" },
-      { id: "b", text: "16" },
-      { id: "c", text: "13" },
-      { id: "d", text: "14" }
+      { id: "b", text: "14" },
+      { id: "c", text: "16" },
+      { id: "d", text: "13" }
     ],
     answerId: "a",
     explanation: "9 + 6 = 15.",
@@ -85,10 +85,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-addsub-a-q07",
     prompt: "Riya has 20 pencils. She gives 3. Left?",
     options: [
-      { id: "a", text: "15" },
-      { id: "b", text: "16" },
+      { id: "a", text: "16" },
+      { id: "b", text: "23" },
       { id: "c", text: "17" },
-      { id: "d", text: "23" }
+      { id: "d", text: "15" }
     ],
     answerId: "c",
     explanation: "20 \u2212 3 = 17.",
@@ -98,9 +98,9 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-addsub-a-q08",
     prompt: "7 + 8 = ?",
     options: [
-      { id: "a", text: "16" },
-      { id: "b", text: "13" },
-      { id: "c", text: "14" },
+      { id: "a", text: "14" },
+      { id: "b", text: "16" },
+      { id: "c", text: "13" },
       { id: "d", text: "15" }
     ],
     answerId: "d",
@@ -112,9 +112,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "30 \u2212 10 = ?",
     options: [
       { id: "a", text: "20" },
-      { id: "b", text: "40" },
-      { id: "c", text: "25" },
-      { id: "d", text: "10" }
+      { id: "b", text: "10" },
+      { id: "c", text: "40" },
+      { id: "d", text: "25" }
     ],
     answerId: "a",
     explanation: "30 \u2212 10 = 20.",
@@ -137,10 +137,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-addsub-a-q11",
     prompt: "A pencil costs \u20b98. An eraser costs \u20b95. Total?",
     options: [
-      { id: "a", text: "\u20b93" },
-      { id: "b", text: "\u20b912" },
+      { id: "a", text: "\u20b912" },
+      { id: "b", text: "\u20b914" },
       { id: "c", text: "\u20b913" },
-      { id: "d", text: "\u20b914" }
+      { id: "d", text: "\u20b93" }
     ],
     answerId: "c",
     explanation: "8 + 5 = \u20b913.",
@@ -150,9 +150,9 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-addsub-a-q12",
     prompt: "25 \u2212 5 = ?",
     options: [
-      { id: "a", text: "30" },
-      { id: "b", text: "10" },
-      { id: "c", text: "15" },
+      { id: "a", text: "15" },
+      { id: "b", text: "30" },
+      { id: "c", text: "10" },
       { id: "d", text: "20" }
     ],
     answerId: "d",
@@ -164,9 +164,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "16 + 4 = ?",
     options: [
       { id: "a", text: "20" },
-      { id: "b", text: "21" },
-      { id: "c", text: "12" },
-      { id: "d", text: "19" }
+      { id: "b", text: "19" },
+      { id: "c", text: "21" },
+      { id: "d", text: "12" }
     ],
     answerId: "a",
     explanation: "16 + 4 = 20.",
@@ -189,10 +189,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-addsub-a-q15",
     prompt: "13 + 6 = ?",
     options: [
-      { id: "a", text: "17" },
-      { id: "b", text: "18" },
+      { id: "a", text: "18" },
+      { id: "b", text: "20" },
       { id: "c", text: "19" },
-      { id: "d", text: "20" }
+      { id: "d", text: "17" }
     ],
     answerId: "c",
     explanation: "13 + 6 = 19.",
@@ -202,9 +202,9 @@ const SET_A: PrepQuestion[] = [
     id: "g2-maths-addsub-a-q16",
     prompt: "Which is correct?",
     options: [
-      { id: "a", text: "10 \u2212 3 = 6" },
-      { id: "b", text: "10 \u2212 3 = 13" },
-      { id: "c", text: "10 \u2212 3 = 8" },
+      { id: "a", text: "10 \u2212 3 = 8" },
+      { id: "b", text: "10 \u2212 3 = 6" },
+      { id: "c", text: "10 \u2212 3 = 13" },
       { id: "d", text: "10 \u2212 3 = 7" }
     ],
     answerId: "d",
@@ -219,9 +219,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "14 + 5 = ?",
     options: [
       { id: "a", text: "19" },
-      { id: "b", text: "20" },
-      { id: "c", text: "15" },
-      { id: "d", text: "18" }
+      { id: "b", text: "18" },
+      { id: "c", text: "20" },
+      { id: "d", text: "15" }
     ],
     answerId: "a",
     explanation: "14 + 5 = 19.",
@@ -244,10 +244,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-addsub-b-q03",
     prompt: "8 + 9 = ?",
     options: [
-      { id: "a", text: "15" },
-      { id: "b", text: "16" },
+      { id: "a", text: "16" },
+      { id: "b", text: "18" },
       { id: "c", text: "17" },
-      { id: "d", text: "18" }
+      { id: "d", text: "15" }
     ],
     answerId: "c",
     explanation: "8 + 9 = 17.",
@@ -257,9 +257,9 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-addsub-b-q04",
     prompt: "17 \u2212 7 = ?",
     options: [
-      { id: "a", text: "24" },
-      { id: "b", text: "11" },
-      { id: "c", text: "9" },
+      { id: "a", text: "9" },
+      { id: "b", text: "24" },
+      { id: "c", text: "11" },
       { id: "d", text: "10" }
     ],
     answerId: "d",
@@ -271,9 +271,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "21 + 4 = ?",
     options: [
       { id: "a", text: "25" },
-      { id: "b", text: "26" },
-      { id: "c", text: "20" },
-      { id: "d", text: "24" }
+      { id: "b", text: "24" },
+      { id: "c", text: "26" },
+      { id: "d", text: "20" }
     ],
     answerId: "a",
     explanation: "21 + 4 = 25.",
@@ -296,10 +296,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-addsub-b-q07",
     prompt: "Kabir has \u20b930. He spends \u20b910. Left?",
     options: [
-      { id: "a", text: "\u20b915" },
-      { id: "b", text: "\u20b910" },
+      { id: "a", text: "\u20b910" },
+      { id: "b", text: "\u20b940" },
       { id: "c", text: "\u20b920" },
-      { id: "d", text: "\u20b940" }
+      { id: "d", text: "\u20b915" }
     ],
     answerId: "c",
     explanation: "30 \u2212 10 = \u20b920.",
@@ -309,9 +309,9 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-addsub-b-q08",
     prompt: "6 + 7 = ?",
     options: [
-      { id: "a", text: "14" },
-      { id: "b", text: "11" },
-      { id: "c", text: "12" },
+      { id: "a", text: "12" },
+      { id: "b", text: "14" },
+      { id: "c", text: "11" },
       { id: "d", text: "13" }
     ],
     answerId: "d",
@@ -323,9 +323,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "40 \u2212 20 = ?",
     options: [
       { id: "a", text: "20" },
-      { id: "b", text: "60" },
-      { id: "c", text: "30" },
-      { id: "d", text: "10" }
+      { id: "b", text: "10" },
+      { id: "c", text: "60" },
+      { id: "d", text: "30" }
     ],
     answerId: "a",
     explanation: "40 \u2212 20 = 20.",
@@ -348,10 +348,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-addsub-b-q11",
     prompt: "A toy costs \u20b915. A ball costs \u20b910. Total?",
     options: [
-      { id: "a", text: "\u20b930" },
-      { id: "b", text: "\u20b920" },
+      { id: "a", text: "\u20b920" },
+      { id: "b", text: "\u20b95" },
       { id: "c", text: "\u20b925" },
-      { id: "d", text: "\u20b95" }
+      { id: "d", text: "\u20b930" }
     ],
     answerId: "c",
     explanation: "15 + 10 = \u20b925.",
@@ -361,9 +361,9 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-addsub-b-q12",
     prompt: "28 \u2212 8 = ?",
     options: [
-      { id: "a", text: "36" },
-      { id: "b", text: "10" },
-      { id: "c", text: "18" },
+      { id: "a", text: "18" },
+      { id: "b", text: "36" },
+      { id: "c", text: "10" },
       { id: "d", text: "20" }
     ],
     answerId: "d",
@@ -375,9 +375,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "9 + 9 = ?",
     options: [
       { id: "a", text: "18" },
-      { id: "b", text: "19" },
-      { id: "c", text: "17" },
-      { id: "d", text: "16" }
+      { id: "b", text: "16" },
+      { id: "c", text: "19" },
+      { id: "d", text: "17" }
     ],
     answerId: "a",
     explanation: "9 + 9 = 18.",
@@ -400,10 +400,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-addsub-b-q15",
     prompt: "23 + 5 = ?",
     options: [
-      { id: "a", text: "18" },
-      { id: "b", text: "27" },
+      { id: "a", text: "27" },
+      { id: "b", text: "29" },
       { id: "c", text: "28" },
-      { id: "d", text: "29" }
+      { id: "d", text: "18" }
     ],
     answerId: "c",
     explanation: "23 + 5 = 28.",
@@ -411,11 +411,11 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g2-maths-addsub-b-q16",
-    prompt: "Which is correct?",
+    prompt: "Which addition fact is correct?",
     options: [
-      { id: "a", text: "12 + 3 = 16" },
-      { id: "b", text: "12 + 3 = 9" },
-      { id: "c", text: "12 + 3 = 14" },
+      { id: "a", text: "12 + 3 = 14" },
+      { id: "b", text: "12 + 3 = 16" },
+      { id: "c", text: "12 + 3 = 9" },
       { id: "d", text: "12 + 3 = 15" }
     ],
     answerId: "d",

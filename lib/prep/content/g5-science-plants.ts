@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-sci-plants-a-q23",
-    prompt: "Which statement about germination is correct?",
+    prompt: "Riya puts a bean seed on wet cotton in a bowl. Which statement about its germination is correct?",
     options: [
       { id: "a", text: "Seeds cannot germinate without soil." },
       { id: "b", text: "Seeds need fertiliser to germinate." },

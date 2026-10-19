@@ -467,7 +467,7 @@ D) Bulb
 **Explanation:** Constriction is just above the bulb.
 
 ### Q21
-**Stem:** Which statement is true?
+**Stem:** Which statement about heat and temperature is true?
 **Options:**
 A) Heat and temperature are related but not the same
 B) Heat and temperature are identical

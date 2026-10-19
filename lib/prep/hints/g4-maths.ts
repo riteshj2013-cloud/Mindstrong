@@ -42,7 +42,7 @@ export const G4_MATHS_HINTS: Record<string, HintOverlay> = {
   "g4-maths-fractions-b-q14": ["Divide the whole by the bottom number, then multiply by the top if needed."],
   "g4-maths-fractions-b-q15": ["Count the shaded parts in the figure first, then count all equal parts."],
   "g4-maths-fractions-b-q16": ["Name the whole, count equal parts, then write parts-used over parts-in-all."],
-  "g4-maths-fractions-b-q17": ["Compare fractions with like bottoms, or use a common denominator / picture."],
+  "g4-maths-fractions-b-q17": ["When the bottom numbers are the same, compare the top numbers: fewer parts means less."],
   "g4-maths-fractions-b-q18": ["Sharing equally means divide the total by the number of groups."],
   "g4-maths-fractions-b-q19": ["Divide the whole by the bottom number, then multiply by the top if needed."],
   "g4-maths-fractions-b-q20": ["Divide the whole by the bottom number, then multiply by the top if needed."],

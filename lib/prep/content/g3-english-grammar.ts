@@ -580,7 +580,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-grammar-b-q21",
-    prompt: "Which sentence is written correctly?",
+    prompt: "Riya wants to ask her new friend's age. Which sentence is written correctly?",
     options: [
       { id: "a", text: "How old are you?" },
       { id: "b", text: "how old are you" },
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A question needs a capital letter at the start and a question mark at the end.",
-    hints: ["Questions start with a capital and end with ?", "How needs a capital H."]
+    hints: ["A question begins with a capital letter and ends with a question mark.", "Check both the first letter and the last mark."]
   },
   {
     id: "g3-eng-grammar-b-q22",

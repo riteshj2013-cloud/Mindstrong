@@ -96,20 +96,20 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-maths-real-a-q08",
-    prompt: "Rationalising the denominator of 1/\u221a5 gives \u2014",
+    prompt: "Rationalising the denominator of 6/\u221a3 gives \u2014",
     options: [
-      { id: "a", text: "1/5" },
-      { id: "b", text: "\u221a5" },
-      { id: "c", text: "5/\u221a5" },
-      { id: "d", text: "\u221a5/5" }
+      { id: "a", text: "2/\u221a3" },
+      { id: "b", text: "\u221a3/2" },
+      { id: "c", text: "6\u221a3" },
+      { id: "d", text: "2\u221a3" }
     ],
     answerId: "d",
-    explanation: "Multiply by \u221a5/\u221a5: \u221a5/5.",
+    explanation: "6/\u221a3 \u00d7 \u221a3/\u221a3 = 6\u221a3/3 = 2\u221a3. 6\u221a3 is tempting if you multiply the top by \u221a3 but forget that the bottom becomes 3.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
     id: "g10-maths-real-a-q09",
-    prompt: "Which statement is true?",
+    prompt: "Which statement about rational and irrational numbers is true?",
     options: [
       { id: "a", text: "\u221a2 is rational" },
       { id: "b", text: "\u03c0 is rational" },
@@ -200,15 +200,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-maths-real-a-q16",
-    prompt: "The product of a non-zero rational and an irrational number is \u2014",
+    prompt: "The sum of a rational number and an irrational number is always \u2014",
     options: [
-      { id: "a", text: "always an integer" },
-      { id: "b", text: "always irrational" },
-      { id: "c", text: "always rational" },
-      { id: "d", text: "sometimes zero" }
+      { id: "a", text: "an integer" },
+      { id: "b", text: "irrational" },
+      { id: "c", text: "rational" },
+      { id: "d", text: "zero" }
     ],
     answerId: "b",
-    explanation: "e.g. 2\u00d7\u221a3 = 2\u221a3 is irrational (non-zero rational \u00d7 irrational).",
+    explanation: "If r + x were rational for rational r and irrational x, then x = (r + x) \u2212 r would be rational, which is impossible. So the sum is irrational, e.g. 2 + \u221a3. \u201cRational\u201d is tempting by thinking of \u221a2 + (\u2212\u221a2) = 0, but \u2212\u221a2 is irrational, not rational.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -359,15 +359,15 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-maths-real-b-q04",
-    prompt: "Which number is rational?",
+    prompt: "Which number can be written in the form p/q, where p and q are integers and q \u2260 0?",
     options: [
-      { id: "a", text: "0.\\overline{3}" },
-      { id: "b", text: "\u221a2 + 1" },
-      { id: "c", text: "\u221a7" },
-      { id: "d", text: "\u03c0" }
+      { id: "a", text: "0.333\u2026 (the 3 repeats for ever)" },
+      { id: "b", text: "\u03c0" },
+      { id: "c", text: "\u221a2 + 1" },
+      { id: "d", text: "\u221a7" }
     ],
     answerId: "a",
-    explanation: "0.\\overline{3} = 1/3 is rational; the others are irrational.",
+    explanation: "0.333\u2026 = 1/3, so it is rational. \u03c0 is tempting because 22/7 is often used for it, but 22/7 is only an approximation; \u03c0 is irrational, and so are \u221a7 and \u221a2 + 1.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -502,15 +502,15 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-maths-real-b-q15",
-    prompt: "\u221a(0.09) equals \u2014",
+    prompt: "\u221a(0.0016) equals \u2014",
     options: [
-      { id: "a", text: "0.3" },
-      { id: "b", text: "0.9" },
-      { id: "c", text: "0.03" },
-      { id: "d", text: "0.009" }
+      { id: "a", text: "0.04" },
+      { id: "b", text: "0.004" },
+      { id: "c", text: "0.4" },
+      { id: "d", text: "0.008" }
     ],
     answerId: "a",
-    explanation: "\u221a0.09 = \u221a(9/100) = 3/10 = 0.3.",
+    explanation: "0.0016 = 16/10000, so \u221a0.0016 = 4/100 = 0.04. 0.4 is tempting, but 0.4 \u00d7 0.4 = 0.16; the square root has half as many decimal places as the number.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

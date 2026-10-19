@@ -40,7 +40,7 @@ export const G9_MATHS_HINTS: Record<string, HintOverlay> = {
   "g9-maths-numbers-b-q12": ["Use the difference of squares on conjugates."],
   "g9-maths-numbers-b-q13": ["Only the product (and quotient) rules hold in general for square roots."],
   "g9-maths-numbers-b-q14": ["Compare with nearby perfect squares."],
-  "g9-maths-numbers-b-q15": ["Negative exponent means reciprocal of the positive power."],
+  "g9-maths-numbers-b-q15": ["A negative power flips the number into a fraction. It does not make the answer negative."],
   "g9-maths-numbers-b-q16": ["Flip the sign of the whole expression."],
   "g9-maths-numbers-b-q17": ["Combine under one root or simplify each surd first."],
   "g9-maths-numbers-b-q18": ["Wholes start at 0; integers include negatives."],

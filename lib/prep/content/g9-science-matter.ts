@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-matter-a-q01",
     prompt: "Matter is anything that has…",
     options: [
-      { id: "a", text: "only colour" },
-      { id: "b", text: "mass and occupies space" },
+      { id: "a", text: "mass and occupies space" },
+      { id: "b", text: "only colour" },
       { id: "c", text: "only smell" },
       { id: "d", text: "only taste" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Matter has mass and occupies space.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -21,11 +21,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "In which state are particles most loosely packed and free to move far apart?",
     options: [
       { id: "a", text: "solid" },
-      { id: "b", text: "liquid" },
-      { id: "c", text: "gas" },
+      { id: "b", text: "gas" },
+      { id: "c", text: "liquid" },
       { id: "d", text: "all equal" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Gas particles are farthest apart and move freely.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -34,11 +34,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "The change of a liquid into vapour at any temperature below boiling point is…",
     options: [
       { id: "a", text: "melting" },
-      { id: "b", text: "evaporation" },
-      { id: "c", text: "sublimation" },
+      { id: "b", text: "sublimation" },
+      { id: "c", text: "evaporation" },
       { id: "d", text: "condensation" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Evaporation occurs at the surface below boiling point.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -48,10 +48,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "melting" },
       { id: "b", text: "freezing" },
-      { id: "c", text: "sublimation" },
-      { id: "d", text: "evaporation" }
+      { id: "c", text: "evaporation" },
+      { id: "d", text: "sublimation" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Solid → gas directly is sublimation.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -59,12 +59,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-matter-a-q05",
     prompt: "Which has a definite shape and definite volume?",
     options: [
-      { id: "a", text: "gas" },
-      { id: "b", text: "liquid" },
-      { id: "c", text: "solid" },
+      { id: "a", text: "solid" },
+      { id: "b", text: "gas" },
+      { id: "c", text: "liquid" },
       { id: "d", text: "plasma only in stars" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Solids keep shape and volume.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -86,11 +86,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Latent heat of vaporisation is the heat…",
     options: [
       { id: "a", text: "to raise temperature of vapour by 1°C" },
-      { id: "b", text: "to convert unit mass of liquid to vapour at constant temperature" },
-      { id: "c", text: "to melt any solid" },
+      { id: "b", text: "to melt any solid" },
+      { id: "c", text: "to convert unit mass of liquid to vapour at constant temperature" },
       { id: "d", text: "stored only in solids" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "It is heat to change liquid → vapour without temperature change (per unit mass).",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -98,26 +98,26 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-matter-a-q08",
     prompt: "Cooling caused by evaporation happens because…",
     options: [
-      { id: "a", text: "higher-energy particles leave, lowering average kinetic energy of the rest" },
-      { id: "b", text: "particles stop moving completely" },
-      { id: "c", text: "mass of liquid increases" },
-      { id: "d", text: "volume becomes exactly zero" }
+      { id: "a", text: "particles stop moving completely" },
+      { id: "b", text: "mass of liquid increases" },
+      { id: "c", text: "volume becomes exactly zero" },
+      { id: "d", text: "higher-energy particles leave, lowering average kinetic energy of the rest" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Faster particles escape; remaining liquid has lower average kinetic energy → cooler.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g9-sci-matter-a-q09",
-    prompt: "Which factor increases the rate of evaporation?",
+    prompt: "Which change DECREASES the rate of evaporation?",
     options: [
-      { id: "a", text: "decreasing surface area" },
-      { id: "b", text: "increasing humidity" },
-      { id: "c", text: "increasing wind speed" },
-      { id: "d", text: "decreasing temperature" }
+      { id: "a", text: "an increase in humidity" },
+      { id: "b", text: "an increase in temperature" },
+      { id: "c", text: "an increase in surface area" },
+      { id: "d", text: "an increase in wind speed" }
     ],
-    answerId: "c",
-    explanation: "Wind removes vapour, speeding further evaporation.",
+    answerId: "a",
+    explanation: "When the air already holds a lot of water vapour (high humidity), it takes up more vapour slowly, so evaporation slows. Temperature, surface area and wind speed all speed evaporation up when they increase.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -138,11 +138,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "The SI unit of temperature commonly converted from Celsius in science is…",
     options: [
       { id: "a", text: "fahrenheit only" },
-      { id: "b", text: "kelvin" },
-      { id: "c", text: "calorie" },
+      { id: "b", text: "calorie" },
+      { id: "c", text: "kelvin" },
       { id: "d", text: "pascal" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "SI unit of thermodynamic temperature is kelvin.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -152,10 +152,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "0 K" },
       { id: "b", text: "100 K" },
-      { id: "c", text: "273 K" },
-      { id: "d", text: "373 K" }
+      { id: "c", text: "373 K" },
+      { id: "d", text: "273 K" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "T(K) = t(°C) + 273 (approx. 273.15).",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -163,26 +163,26 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-matter-a-q13",
     prompt: "Interparticle forces are strongest in…",
     options: [
-      { id: "a", text: "gases" },
-      { id: "b", text: "liquids" },
-      { id: "c", text: "solids" },
+      { id: "a", text: "solids" },
+      { id: "b", text: "gases" },
+      { id: "c", text: "liquids" },
       { id: "d", text: "vacuums" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Solids have the strongest forces and least particle motion freedom.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g9-sci-matter-a-q14",
-    prompt: "Condensation is the change from…",
+    prompt: "Water droplets form on the outside of a glass of iced water. This is because…",
     options: [
-      { id: "a", text: "liquid to solid" },
-      { id: "b", text: "gas to liquid" },
-      { id: "c", text: "solid to gas" },
-      { id: "d", text: "liquid to gas" }
+      { id: "a", text: "water leaks through the glass" },
+      { id: "b", text: "water vapour in the air condenses on the cold glass" },
+      { id: "c", text: "the ice evaporates through the glass" },
+      { id: "d", text: "the glass gives out water, like sweat" }
     ],
     answerId: "b",
-    explanation: "Gas → liquid is condensation.",
+    explanation: "Water vapour in the air cools on the cold surface and condenses into droplets. “Water leaks through the glass” is tempting, but glass is not porous, and the drops even appear when the glass holds only ice.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -191,10 +191,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "they have spaces between them" },
       { id: "b", text: "they are continuously moving" },
-      { id: "c", text: "they attract each other" },
-      { id: "d", text: "they are always at absolute rest in liquids" }
+      { id: "c", text: "they are always at absolute rest in liquids" },
+      { id: "d", text: "they attract each other" }
     ],
-    answerId: "d",
+    answerId: "c",
     explanation: "Particles move in all states; they are not at absolute rest in liquids.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -203,11 +203,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Humidity high means evaporation is…",
     options: [
       { id: "a", text: "faster" },
-      { id: "b", text: "slower" },
-      { id: "c", text: "unchanged always" },
-      { id: "d", text: "impossible" }
+      { id: "b", text: "unchanged always" },
+      { id: "c", text: "impossible" },
+      { id: "d", text: "slower" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Air already holds much vapour, so net evaporation slows.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -215,12 +215,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-matter-a-q17",
     prompt: "Melting point of ice at standard pressure is…",
     options: [
-      { id: "a", text: "100°C" },
-      { id: "b", text: "0°C" },
+      { id: "a", text: "0°C" },
+      { id: "b", text: "100°C" },
       { id: "c", text: "−273°C" },
       { id: "d", text: "37°C" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Ice melts at 0°C at standard atmospheric pressure.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -242,11 +242,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which process cools a clay pot of water?",
     options: [
       { id: "a", text: "water freezing solid instantly" },
-      { id: "b", text: "evaporation through porous walls" },
-      { id: "c", text: "condensation inside only" },
+      { id: "b", text: "condensation inside only" },
+      { id: "c", text: "evaporation through porous walls" },
       { id: "d", text: "sublimation of clay" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Porous pots allow evaporation that cools the remaining water.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -255,11 +255,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Plasma (mentioned in advanced contexts) is…",
     options: [
       { id: "a", text: "a solid crystal always" },
-      { id: "b", text: "an ionised gas-like state of matter" },
-      { id: "c", text: "only liquid metal" },
-      { id: "d", text: "identical to ice" }
+      { id: "b", text: "only liquid metal" },
+      { id: "c", text: "identical to ice" },
+      { id: "d", text: "an ionised gas-like state of matter" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Plasma consists of ionised particles; often called a fourth state.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -267,12 +267,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-matter-a-q21",
     prompt: "Diffusion is fastest in…",
     options: [
-      { id: "a", text: "solids" },
-      { id: "b", text: "liquids" },
-      { id: "c", text: "gases" },
+      { id: "a", text: "gases" },
+      { id: "b", text: "solids" },
+      { id: "c", text: "liquids" },
       { id: "d", text: "all equal always" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Particles move fastest and are least packed in gases.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -281,11 +281,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "During melting of ice at 0°C, temperature of the mixture…",
     options: [
       { id: "a", text: "rises steadily" },
-      { id: "b", text: "falls steadily" },
-      { id: "c", text: "stays constant until melting finishes" },
+      { id: "b", text: "stays constant until melting finishes" },
+      { id: "c", text: "falls steadily" },
       { id: "d", text: "becomes 100°C at once" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Heat goes into latent heat; temperature plateaus during the phase change.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -308,10 +308,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "0°C" },
       { id: "b", text: "50°C" },
-      { id: "c", text: "100°C" },
-      { id: "d", text: "273°C" }
+      { id: "c", text: "273°C" },
+      { id: "d", text: "100°C" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Water boils at 100°C at 1 atm.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
@@ -323,9 +323,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Particles of matter are…",
     options: [
       { id: "a", text: "extremely small" },
-      { id: "b", text: "never in motion" },
-      { id: "c", text: "without spaces between them" },
-      { id: "d", text: "visible easily always as separate dots to the eye" }
+      { id: "b", text: "visible easily always as separate dots to the eye" },
+      { id: "c", text: "never in motion" },
+      { id: "d", text: "without spaces between them" }
     ],
     answerId: "a",
     explanation: "Particles are too small to see individually; they move and have spaces.",
@@ -361,9 +361,9 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q04",
     prompt: "Steam at 100°C causes more severe burns than water at 100°C mainly because steam…",
     options: [
-      { id: "a", text: "is denser than water" },
-      { id: "b", text: "has no energy" },
-      { id: "c", text: "has lower temperature" },
+      { id: "a", text: "has lower temperature" },
+      { id: "b", text: "is denser than water" },
+      { id: "c", text: "has no energy" },
       { id: "d", text: "carries latent heat of vaporisation released on condensation" }
     ],
     answerId: "d",
@@ -400,10 +400,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q07",
     prompt: "A liquid’s boiling point depends on…",
     options: [
-      { id: "a", text: "magnetism only" },
-      { id: "b", text: "colour only" },
+      { id: "a", text: "colour only" },
+      { id: "b", text: "only the container’s brand" },
       { id: "c", text: "external pressure" },
-      { id: "d", text: "only the container’s brand" }
+      { id: "d", text: "magnetism only" }
     ],
     answerId: "c",
     explanation: "Lower pressure → lower boiling point (e.g., on mountains).",
@@ -411,11 +411,11 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g9-sci-matter-b-q08",
-    prompt: "Which statement is true?",
+    prompt: "Which statement about the states of matter is true?",
     options: [
-      { id: "a", text: "Particles in solids never vibrate" },
-      { id: "b", text: "Gases have definite shape" },
-      { id: "c", text: "Solids are highly compressible" },
+      { id: "a", text: "Gases have definite shape" },
+      { id: "b", text: "Solids are highly compressible" },
+      { id: "c", text: "Particles in solids never vibrate" },
       { id: "d", text: "Liquids flow and take container shape" }
     ],
     answerId: "d",
@@ -427,9 +427,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Sponge is compressible though solid because…",
     options: [
       { id: "a", text: "it has tiny holes filled with air" },
-      { id: "b", text: "it is a liquid" },
-      { id: "c", text: "it is a gas" },
-      { id: "d", text: "it has no particles" }
+      { id: "b", text: "it has no particles" },
+      { id: "c", text: "it is a liquid" },
+      { id: "d", text: "it is a gas" }
     ],
     answerId: "a",
     explanation: "Air pockets compress; the material itself is solid.",
@@ -452,10 +452,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q11",
     prompt: "Kelvin scale starts at…",
     options: [
-      { id: "a", text: "32°F only" },
-      { id: "b", text: "0°C" },
+      { id: "a", text: "0°C" },
+      { id: "b", text: "100°C" },
       { id: "c", text: "absolute zero (−273°C approx.)" },
-      { id: "d", text: "100°C" }
+      { id: "d", text: "32°F only" }
     ],
     answerId: "c",
     explanation: "0 K is absolute zero ≈ −273°C.",
@@ -465,9 +465,9 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q12",
     prompt: "Which change is physical?",
     options: [
-      { id: "a", text: "digesting food" },
-      { id: "b", text: "burning paper" },
-      { id: "c", text: "rusting iron" },
+      { id: "a", text: "burning paper" },
+      { id: "b", text: "rusting iron" },
+      { id: "c", text: "digesting food" },
       { id: "d", text: "melting wax" }
     ],
     answerId: "d",
@@ -491,10 +491,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q14",
     prompt: "The force of attraction between particles is weakest in…",
     options: [
-      { id: "a", text: "liquids" },
+      { id: "a", text: "solids" },
       { id: "b", text: "gases" },
-      { id: "c", text: "ice only" },
-      { id: "d", text: "solids" }
+      { id: "c", text: "liquids" },
+      { id: "d", text: "ice only" }
     ],
     answerId: "b",
     explanation: "Gas particles interact least strongly.",
@@ -504,10 +504,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q15",
     prompt: "At the melting point, solid and liquid…",
     options: [
-      { id: "a", text: "have zero mass" },
-      { id: "b", text: "cannot coexist" },
+      { id: "a", text: "cannot coexist" },
+      { id: "b", text: "must both be gases" },
       { id: "c", text: "can coexist in equilibrium" },
-      { id: "d", text: "must both be gases" }
+      { id: "d", text: "have zero mass" }
     ],
     answerId: "c",
     explanation: "During melting, both phases can be present at the melting temperature.",
@@ -531,9 +531,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Ice floats on water because…",
     options: [
       { id: "a", text: "ice is less dense than liquid water" },
-      { id: "b", text: "ice has no mass" },
-      { id: "c", text: "water has no particles" },
-      { id: "d", text: "ice is denser" }
+      { id: "b", text: "ice is denser" },
+      { id: "c", text: "ice has no mass" },
+      { id: "d", text: "water has no particles" }
     ],
     answerId: "a",
     explanation: "Open structure of ice makes it less dense than water.",
@@ -557,21 +557,21 @@ const SET_B: PrepQuestion[] = [
     prompt: "Intermixing of particles of two different types of matter on their own is…",
     options: [
       { id: "a", text: "filtration" },
-      { id: "b", text: "distillation always" },
+      { id: "b", text: "evaporation" },
       { id: "c", text: "diffusion" },
-      { id: "d", text: "sedimentation" }
+      { id: "d", text: "sublimation" }
     ],
     answerId: "c",
-    explanation: "Diffusion is spontaneous mixing of particles.",
+    explanation: "Diffusion is the intermixing of particles of two different types of matter on their own, because the particles keep moving. Evaporation is tempting because it also happens on its own, but it is particles of one liquid escaping from its surface into the air, not two kinds of matter mixing. Filtration is a separation method and sublimation is a change of state (solid to gas).",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g9-sci-matter-b-q20",
     prompt: "To convert 25°C to kelvin…",
     options: [
-      { id: "a", text: "multiply by 273" },
-      { id: "b", text: "divide by 273" },
-      { id: "c", text: "subtract 273" },
+      { id: "a", text: "subtract 273" },
+      { id: "b", text: "multiply by 273" },
+      { id: "c", text: "divide by 273" },
       { id: "d", text: "add 273" }
     ],
     answerId: "d",
@@ -583,9 +583,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which best explains why liquids can be poured?",
     options: [
       { id: "a", text: "particles can move past one another while staying close" },
-      { id: "b", text: "particles are infinitely far apart" },
-      { id: "c", text: "there are no forces at all" },
-      { id: "d", text: "particles are fixed in place rigidly" }
+      { id: "b", text: "particles are fixed in place rigidly" },
+      { id: "c", text: "particles are infinitely far apart" },
+      { id: "d", text: "there are no forces at all" }
     ],
     answerId: "a",
     explanation: "Liquid particles move/slide while cohesive enough to keep volume.",
@@ -608,10 +608,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q23",
     prompt: "Heat required to change 1 kg of solid to liquid at melting point is called…",
     options: [
-      { id: "a", text: "specific heat only" },
-      { id: "b", text: "solar constant" },
+      { id: "a", text: "latent heat of vaporisation" },
+      { id: "b", text: "specific heat only" },
       { id: "c", text: "latent heat of fusion" },
-      { id: "d", text: "latent heat of vaporisation" }
+      { id: "d", text: "solar constant" }
     ],
     answerId: "c",
     explanation: "Latent heat of fusion is for solid ↔ liquid.",
@@ -621,9 +621,9 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-matter-b-q24",
     prompt: "Matter around us exists mainly in…",
     options: [
-      { id: "a", text: "only plasma" },
-      { id: "b", text: "only vapour" },
-      { id: "c", text: "one state only" },
+      { id: "a", text: "one state only" },
+      { id: "b", text: "only plasma" },
+      { id: "c", text: "only vapour" },
       { id: "d", text: "three common states: solid, liquid, gas" }
     ],
     answerId: "d",

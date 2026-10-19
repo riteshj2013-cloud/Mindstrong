@@ -8,9 +8,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Sound is produced by \u2014",
     options: [
       { id: "a", text: "Vibrating objects" },
-      { id: "b", text: "Only hot objects" },
-      { id: "c", text: "Only magnetic objects" },
-      { id: "d", text: "Objects at complete rest only" }
+      { id: "b", text: "Objects at complete rest only" },
+      { id: "c", text: "Only hot objects" },
+      { id: "d", text: "Only magnetic objects" }
     ],
     answerId: "a",
     explanation: "Vibrating objects disturb the surrounding medium and produce sound.",
@@ -33,10 +33,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-sound-a-q03",
     prompt: "Sound cannot travel through \u2014",
     options: [
-      { id: "a", text: "Water" },
-      { id: "b", text: "Iron" },
+      { id: "a", text: "Air" },
+      { id: "b", text: "Water" },
       { id: "c", text: "Vacuum" },
-      { id: "d", text: "Air" }
+      { id: "d", text: "Iron" }
     ],
     answerId: "c",
     explanation: "Sound needs a material medium. There are almost no particles in a vacuum to carry the vibration.",
@@ -46,9 +46,9 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-sound-a-q04",
     prompt: "In which medium does sound generally travel fastest among these?",
     options: [
-      { id: "a", text: "Vacuum" },
-      { id: "b", text: "Air" },
-      { id: "c", text: "Water" },
+      { id: "a", text: "Air" },
+      { id: "b", text: "Water" },
+      { id: "c", text: "Vacuum" },
       { id: "d", text: "Steel" }
     ],
     answerId: "d",
@@ -60,9 +60,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "The maximum displacement of a vibrating particle from its rest position is called \u2014",
     options: [
       { id: "a", text: "Amplitude" },
-      { id: "b", text: "Pitch" },
-      { id: "c", text: "Wavelength only as loudness" },
-      { id: "d", text: "Frequency" }
+      { id: "b", text: "Frequency" },
+      { id: "c", text: "Pitch" },
+      { id: "d", text: "Wavelength only as loudness" }
     ],
     answerId: "a",
     explanation: "Amplitude measures how far the particle moves from its mean position.",
@@ -72,10 +72,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-sound-a-q06",
     prompt: "Loudness of sound mainly depends on \u2014",
     options: [
-      { id: "a", text: "Magnetic field only" },
+      { id: "a", text: "Colour of the object" },
       { id: "b", text: "Amplitude" },
-      { id: "c", text: "Colour of the object" },
-      { id: "d", text: "Only the listener's height" }
+      { id: "c", text: "Only the listener's height" },
+      { id: "d", text: "Magnetic field only" }
     ],
     answerId: "b",
     explanation: "Greater amplitude means more energy in the wave and a louder sound.",
@@ -85,10 +85,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-sound-a-q07",
     prompt: "The number of oscillations per second is called \u2014",
     options: [
-      { id: "a", text: "Echo time" },
-      { id: "b", text: "Amplitude" },
+      { id: "a", text: "Amplitude" },
+      { id: "b", text: "Loudness" },
       { id: "c", text: "Frequency" },
-      { id: "d", text: "Loudness" }
+      { id: "d", text: "Echo time" }
     ],
     answerId: "c",
     explanation: "Frequency counts how many vibrations happen each second.",
@@ -98,9 +98,9 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-sound-a-q08",
     prompt: "The SI unit of frequency is \u2014",
     options: [
-      { id: "a", text: "joule" },
-      { id: "b", text: "pascal" },
-      { id: "c", text: "metre" },
+      { id: "a", text: "metre" },
+      { id: "b", text: "joule" },
+      { id: "c", text: "pascal" },
       { id: "d", text: "hertz (Hz)" }
     ],
     answerId: "d",
@@ -137,10 +137,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-sound-a-q11",
     prompt: "Sounds of frequency less than 20 Hz are called \u2014",
     options: [
-      { id: "a", text: "Light waves" },
-      { id: "b", text: "Ultrasound" },
+      { id: "a", text: "Ultrasound" },
+      { id: "b", text: "Audible music only" },
       { id: "c", text: "Infrasound" },
-      { id: "d", text: "Audible music only" }
+      { id: "d", text: "Light waves" }
     ],
     answerId: "c",
     explanation: "Infrasound is below the lower limit of human hearing.",
@@ -150,9 +150,9 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-sound-a-q12",
     prompt: "Sounds of frequency greater than 20,000 Hz are called \u2014",
     options: [
-      { id: "a", text: "Thunder only" },
-      { id: "b", text: "Visible light" },
-      { id: "c", text: "Infrasound" },
+      { id: "a", text: "Infrasound" },
+      { id: "b", text: "Thunder only" },
+      { id: "c", text: "Visible light" },
       { id: "d", text: "Ultrasound" }
     ],
     answerId: "d",
@@ -164,9 +164,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which animal is well known for using ultrasound for navigation?",
     options: [
       { id: "a", text: "Bat" },
-      { id: "b", text: "Snail" },
-      { id: "c", text: "Goldfish only in silence" },
-      { id: "d", text: "Earthworm" }
+      { id: "b", text: "Earthworm" },
+      { id: "c", text: "Snail" },
+      { id: "d", text: "Goldfish only in silence" }
     ],
     answerId: "a",
     explanation: "Bats emit ultrasound and use returning echoes to find their way and hunt.",
@@ -189,10 +189,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-sound-a-q15",
     prompt: "The outer part of the ear that collects sound is the \u2014",
     options: [
-      { id: "a", text: "Auditory nerve only" },
-      { id: "b", text: "Eardrum" },
+      { id: "a", text: "Eardrum" },
+      { id: "b", text: "Stirrup bone only" },
       { id: "c", text: "Pinna" },
-      { id: "d", text: "Stirrup bone only" }
+      { id: "d", text: "Auditory nerve only" }
     ],
     answerId: "c",
     explanation: "The pinna funnels sound into the ear canal toward the eardrum.",
@@ -202,9 +202,9 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-sound-a-q16",
     prompt: "An echo is \u2014",
     options: [
-      { id: "a", text: "Light bouncing from a mirror" },
-      { id: "b", text: "A smell travelling in air" },
-      { id: "c", text: "Sound that is absorbed completely" },
+      { id: "a", text: "Sound that is absorbed completely" },
+      { id: "b", text: "Light bouncing from a mirror" },
+      { id: "c", text: "A smell travelling in air" },
       { id: "d", text: "Reflected sound heard after a noticeable delay" }
     ],
     answerId: "d",
@@ -216,9 +216,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "For a distinct echo to be heard, the reflecting surface should generally be \u2014",
     options: [
       { id: "a", text: "Far enough for a clear time gap (about 17 m or more in air at room conditions in school problems)" },
-      { id: "b", text: "Inside the ear only" },
-      { id: "c", text: "Made of vacuum" },
-      { id: "d", text: "Very close, less than a few centimetres" }
+      { id: "b", text: "Very close, less than a few centimetres" },
+      { id: "c", text: "Inside the ear only" },
+      { id: "d", text: "Made of vacuum" }
     ],
     answerId: "a",
     explanation: "School science uses a minimum distance so the reflected sound arrives after the original has ended.",
@@ -241,10 +241,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-sound-a-q19",
     prompt: "Prolonged exposure to very loud noise can \u2014",
     options: [
-      { id: "a", text: "Stop all vibrations in nature" },
-      { id: "b", text: "Improve hearing forever" },
+      { id: "a", text: "Improve hearing forever" },
+      { id: "b", text: "Turn sound into light" },
       { id: "c", text: "Damage hearing and cause stress" },
-      { id: "d", text: "Turn sound into light" }
+      { id: "d", text: "Stop all vibrations in nature" }
     ],
     answerId: "c",
     explanation: "Loud noise can harm the ear and affect health and concentration.",
@@ -254,9 +254,9 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-sound-a-q20",
     prompt: "SONAR is used mainly to \u2014",
     options: [
-      { id: "a", text: "Grow plants faster" },
-      { id: "b", text: "Measure only room temperature" },
-      { id: "c", text: "Cook food with sound" },
+      { id: "a", text: "Cook food with sound" },
+      { id: "b", text: "Grow plants faster" },
+      { id: "c", text: "Measure only room temperature" },
       { id: "d", text: "Detect objects and find distances under water using ultrasound" }
     ],
     answerId: "d",
@@ -293,10 +293,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-sound-a-q23",
     prompt: "If the amplitude of a sound wave is halved, the sound becomes \u2014",
     options: [
-      { id: "a", text: "Unable to travel" },
-      { id: "b", text: "Louder" },
+      { id: "a", text: "Louder" },
+      { id: "b", text: "Higher in pitch only for that reason" },
       { id: "c", text: "Softer" },
-      { id: "d", text: "Higher in pitch only for that reason" }
+      { id: "d", text: "Unable to travel" }
     ],
     answerId: "c",
     explanation: "Smaller amplitude means less loudness, so the sound is softer.",
@@ -306,9 +306,9 @@ const SET_A: PrepQuestion[] = [
     id: "g8-sci-sound-a-q24",
     prompt: "A shrill whistle has a higher pitch than a drum beat mainly because the whistle has \u2014",
     options: [
-      { id: "a", text: "Zero amplitude" },
-      { id: "b", text: "No vibrations" },
-      { id: "c", text: "Lower frequency" },
+      { id: "a", text: "Lower frequency" },
+      { id: "b", text: "Zero amplitude" },
+      { id: "c", text: "No vibrations" },
       { id: "d", text: "Higher frequency" }
     ],
     answerId: "d",
@@ -323,9 +323,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "A stretched rubber band produces sound when plucked because it \u2014",
     options: [
       { id: "a", text: "Vibrates" },
-      { id: "b", text: "Turns into a liquid" },
-      { id: "c", text: "Stops all motion" },
-      { id: "d", text: "Becomes magnetic" }
+      { id: "b", text: "Becomes magnetic" },
+      { id: "c", text: "Turns into a liquid" },
+      { id: "d", text: "Stops all motion" }
     ],
     answerId: "a",
     explanation: "Plucking makes the rubber band vibrate, and those vibrations create sound.",
@@ -348,10 +348,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-sound-b-q03",
     prompt: "Astronauts on the Moon cannot talk to each other by ordinary air sound because \u2014",
     options: [
-      { id: "a", text: "Ears do not work in low gravity alone" },
-      { id: "b", text: "The Moon is too bright" },
+      { id: "a", text: "The Moon is too bright" },
+      { id: "b", text: "Sound is faster than light there" },
       { id: "c", text: "There is no air (almost vacuum) to carry sound" },
-      { id: "d", text: "Sound is faster than light there" }
+      { id: "d", text: "Ears do not work in low gravity alone" }
     ],
     answerId: "c",
     explanation: "Without a material medium, ordinary sound cannot travel between them.",
@@ -361,9 +361,9 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-sound-b-q04",
     prompt: "Two sounds have the same frequency but different amplitudes. They differ mainly in \u2014",
     options: [
-      { id: "a", text: "Colour" },
-      { id: "b", text: "Chemical formula" },
-      { id: "c", text: "Pitch" },
+      { id: "a", text: "Pitch" },
+      { id: "b", text: "Colour" },
+      { id: "c", text: "Chemical formula" },
       { id: "d", text: "Loudness" }
     ],
     answerId: "d",
@@ -375,9 +375,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "A sound of 30,000 Hz is \u2014",
     options: [
       { id: "a", text: "Ultrasound for humans" },
-      { id: "b", text: "Infrasound" },
-      { id: "c", text: "Visible light" },
-      { id: "d", text: "Audible to all humans" }
+      { id: "b", text: "Audible to all humans" },
+      { id: "c", text: "Infrasound" },
+      { id: "d", text: "Visible light" }
     ],
     answerId: "a",
     explanation: "30 kHz is above 20 kHz, so it is ultrasound for a typical human ear.",
@@ -400,10 +400,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-sound-b-q07",
     prompt: "Dogs can often hear a whistle that humans cannot because \u2014",
     options: [
-      { id: "a", text: "Dogs do not use ears" },
-      { id: "b", text: "Dogs see better colours" },
+      { id: "a", text: "Dogs see better colours" },
+      { id: "b", text: "Whistles produce only light" },
       { id: "c", text: "Their audible range can include higher frequencies than ours" },
-      { id: "d", text: "Whistles produce only light" }
+      { id: "d", text: "Dogs do not use ears" }
     ],
     answerId: "c",
     explanation: "Many dogs hear higher frequencies, including some ultrasound.",
@@ -413,9 +413,9 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-sound-b-q08",
     prompt: "The tiny bones of the middle ear help to \u2014",
     options: [
-      { id: "a", text: "Pump blood" },
-      { id: "b", text: "Focus light on the retina" },
-      { id: "c", text: "Produce saliva" },
+      { id: "a", text: "Produce saliva" },
+      { id: "b", text: "Pump blood" },
+      { id: "c", text: "Focus light on the retina" },
       { id: "d", text: "Transmit eardrum vibrations toward the inner ear" }
     ],
     answerId: "d",
@@ -427,9 +427,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Reverberation in a hall is \u2014",
     options: [
       { id: "a", text: "Persistence of sound due to multiple reflections" },
-      { id: "b", text: "Sound travelling in vacuum" },
-      { id: "c", text: "A type of smell" },
-      { id: "d", text: "Complete silence" }
+      { id: "b", text: "Complete silence" },
+      { id: "c", text: "Sound travelling in vacuum" },
+      { id: "d", text: "A type of smell" }
     ],
     answerId: "a",
     explanation: "Repeated reflections make sound linger; soft materials are used to control it.",
@@ -452,10 +452,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-sound-b-q11",
     prompt: "Ultrasound scans in hospitals are useful because ultrasound can \u2014",
     options: [
-      { id: "a", text: "Remove gravity" },
-      { id: "b", text: "Cook tissue with visible light only" },
+      { id: "a", text: "Cook tissue with visible light only" },
+      { id: "b", text: "Replace all X-rays for broken bones always" },
       { id: "c", text: "Help form images of internal organs without using ordinary sound we hear" },
-      { id: "d", text: "Replace all X-rays for broken bones always" }
+      { id: "d", text: "Remove gravity" }
     ],
     answerId: "c",
     explanation: "High-frequency ultrasound echoes from tissues are processed into images.",
@@ -465,9 +465,9 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-sound-b-q12",
     prompt: "Which action increases noise pollution?",
     options: [
-      { id: "a", text: "Planting trees near roads" },
-      { id: "b", text: "Speaking softly in libraries" },
-      { id: "c", text: "Using silencers on vehicles" },
+      { id: "a", text: "Using silencers on vehicles" },
+      { id: "b", text: "Planting trees near roads" },
+      { id: "c", text: "Speaking softly in libraries" },
       { id: "d", text: "Unnecessary honking and very loud loudspeakers" }
     ],
     answerId: "d",
@@ -479,9 +479,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "The speed of sound is greatest in which of these at usual school conditions?",
     options: [
       { id: "a", text: "A metal rod" },
-      { id: "b", text: "Outer space vacuum" },
-      { id: "c", text: "Air at room temperature" },
-      { id: "d", text: "Water" }
+      { id: "b", text: "Air at room temperature" },
+      { id: "c", text: "Water" },
+      { id: "d", text: "Outer space vacuum" }
     ],
     answerId: "a",
     explanation: "Particles in solids are closer, so sound generally travels fastest in solids.",
@@ -491,10 +491,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-sound-b-q14",
     prompt: "If frequency doubles and amplitude stays the same, the sound becomes \u2014",
     options: [
-      { id: "a", text: "Only brighter light" },
+      { id: "a", text: "Lower in pitch and much louder" },
       { id: "b", text: "Higher in pitch but similarly loud (amplitude unchanged)" },
-      { id: "c", text: "Lower in pitch and much louder" },
-      { id: "d", text: "Silent" }
+      { id: "c", text: "Silent" },
+      { id: "d", text: "Only brighter light" }
     ],
     answerId: "b",
     explanation: "Pitch follows frequency; loudness mainly follows amplitude.",
@@ -504,10 +504,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-sound-b-q15",
     prompt: "Soft curtains and carpets in a room help reduce echoes because they \u2014",
     options: [
-      { id: "a", text: "Increase amplitude of every wave" },
-      { id: "b", text: "Reflect all sound perfectly" },
+      { id: "a", text: "Reflect all sound perfectly" },
+      { id: "b", text: "Create vacuum" },
       { id: "c", text: "Absorb a good part of the sound energy" },
-      { id: "d", text: "Create vacuum" }
+      { id: "d", text: "Increase amplitude of every wave" }
     ],
     answerId: "c",
     explanation: "Soft, porous materials absorb sound and cut unwanted reflections.",
@@ -517,9 +517,9 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-sound-b-q16",
     prompt: "The unit hertz means \u2014",
     options: [
-      { id: "a", text: "One metre per second squared" },
-      { id: "b", text: "One newton per metre" },
-      { id: "c", text: "One joule per kilogram" },
+      { id: "a", text: "One joule per kilogram" },
+      { id: "b", text: "One metre per second squared" },
+      { id: "c", text: "One newton per metre" },
       { id: "d", text: "One vibration per second" }
     ],
     answerId: "d",
@@ -543,10 +543,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-sound-b-q18",
     prompt: "A ship measures ocean depth with SONAR by \u2014",
     options: [
-      { id: "a", text: "Measuring salt by taste" },
+      { id: "a", text: "Using only a thermometer" },
       { id: "b", text: "Sending ultrasound and timing the echo from the seabed" },
-      { id: "c", text: "Using only a thermometer" },
-      { id: "d", text: "Burning fuel underwater" }
+      { id: "c", text: "Burning fuel underwater" },
+      { id: "d", text: "Measuring salt by taste" }
     ],
     answerId: "b",
     explanation: "Distance relates to echo time and the known speed of sound in water.",
@@ -554,12 +554,12 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-sci-sound-b-q19",
-    prompt: "Which statement is true?",
+    prompt: "Which statement about sound is true?",
     options: [
-      { id: "a", text: "Sound needs no energy to be produced" },
-      { id: "b", text: "Sound always travels fastest in vacuum" },
+      { id: "a", text: "Sound is a type of smell" },
+      { id: "b", text: "Sound needs no energy to be produced" },
       { id: "c", text: "Sound is a form of energy produced by vibrations" },
-      { id: "d", text: "Sound is a type of smell" }
+      { id: "d", text: "Sound always travels fastest in vacuum" }
     ],
     answerId: "c",
     explanation: "Vibrating sources transfer energy through the medium as sound.",
@@ -569,9 +569,9 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-sound-b-q20",
     prompt: "A low-pitched drum sound compared with a high-pitched flute note has \u2014",
     options: [
-      { id: "a", text: "No amplitude" },
-      { id: "b", text: "Only ultrasonic waves" },
-      { id: "c", text: "Higher frequency" },
+      { id: "a", text: "Higher frequency" },
+      { id: "b", text: "No amplitude" },
+      { id: "c", text: "Only ultrasonic waves" },
       { id: "d", text: "Lower frequency" }
     ],
     answerId: "d",
@@ -583,9 +583,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "We hear our own voice differently in a recording partly because \u2014",
     options: [
       { id: "a", text: "Bone conduction and air paths differ when we speak versus when we only listen" },
-      { id: "b", text: "The ear has no eardrum while speaking" },
-      { id: "c", text: "Sound cannot reflect indoors" },
-      { id: "d", text: "Recordings remove all amplitude" }
+      { id: "b", text: "Recordings remove all amplitude" },
+      { id: "c", text: "The ear has no eardrum while speaking" },
+      { id: "d", text: "Sound cannot reflect indoors" }
     ],
     answerId: "a",
     explanation: "When speaking, vibrations also reach the inner ear through bones of the head.",
@@ -608,10 +608,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-sound-b-q23",
     prompt: "Which medium is necessary for you to hear a classroom bell?",
     options: [
-      { id: "a", text: "Only glass with no air" },
-      { id: "b", text: "Vacuum between bell and ear" },
+      { id: "a", text: "Vacuum between bell and ear" },
+      { id: "b", text: "Only pure hydrogen always" },
       { id: "c", text: "Air (or another material medium) between bell and ear" },
-      { id: "d", text: "Only pure hydrogen always" }
+      { id: "d", text: "Only glass with no air" }
     ],
     answerId: "c",
     explanation: "Air carries the bell's vibrations to your ears.",
@@ -621,9 +621,9 @@ const SET_B: PrepQuestion[] = [
     id: "g8-sci-sound-b-q24",
     prompt: "Bats and dolphins both benefit from ultrasound mainly for \u2014",
     options: [
-      { id: "a", text: "Producing magnetic fields" },
-      { id: "b", text: "Changing seasons" },
-      { id: "c", text: "Photosynthesis" },
+      { id: "a", text: "Photosynthesis" },
+      { id: "b", text: "Producing magnetic fields" },
+      { id: "c", text: "Changing seasons" },
       { id: "d", text: "Echolocation \u2014 sensing surroundings with echoes" }
     ],
     answerId: "d",

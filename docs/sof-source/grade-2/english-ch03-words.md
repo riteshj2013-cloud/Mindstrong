@@ -15,11 +15,11 @@
 
 ### Q1
 - stem: Word closest in meaning to "happy"?
-- A: sad
-- B: glad
+- A: glad
+- B: sad
 - C: angry
 - D: tired
-- answer: B
+- answer: A
 - explanation: Glad means nearly the same as happy.
 
 ### Q2
@@ -34,64 +34,64 @@
 ### Q3
 - stem: A baby dog is called a…
 - A: kitten
-- B: puppy
-- C: cub
+- B: cub
+- C: puppy
 - D: calf
-- answer: B
+- answer: C
 - explanation: A baby dog is a puppy.
 
 ### Q4
 - stem: Complete: as busy as a…
-- A: bee
-- B: stone
-- C: pillow
-- D: cloud
-- answer: A
+- A: stone
+- B: pillow
+- C: cloud
+- D: bee
+- answer: D
 - explanation: As busy as a bee.
 
 ### Q5
 - stem: Which word means "very big"?
-- A: tiny
-- B: huge
+- A: huge
+- B: tiny
 - C: thin
 - D: soft
-- answer: B
+- answer: A
 - explanation: Huge means very big.
 
 ### Q6
 - stem: Rhymes with light?
-- A: night
-- B: long
+- A: long
+- B: night
 - C: lamp
 - D: leaf
-- answer: A
+- answer: B
 - explanation: Night rhymes with light.
 
 ### Q7
 - stem: Compound word: sun + flower =
 - A: sunshine
-- B: sunflower
-- C: sunset
+- B: sunset
+- C: sunflower
 - D: sunlight
-- answer: B
+- answer: C
 - explanation: sun + flower = sunflower.
 
 ### Q8
 - stem: Prefix un- in "unhappy" means…
 - A: very
-- B: not
-- C: again
-- D: before
-- answer: B
+- B: again
+- C: before
+- D: not
+- answer: D
 - explanation: un- means not.
 
 ### Q9
 - stem: Synonym of begin?
-- A: end
-- B: start
+- A: start
+- B: end
 - C: stop
 - D: finish
-- answer: B
+- answer: A
 - explanation: Start means nearly the same as begin.
 
 ### Q10
@@ -105,20 +105,20 @@
 
 ### Q11
 - stem: A place where books are kept?
-- A: library
-- B: kitchen only
-- C: garage only
+- A: kitchen only
+- B: garage only
+- C: library
 - D: garden only
-- answer: A
+- answer: C
 - explanation: A library keeps books.
 
 ### Q12
 - stem: Which word is a naming word for a person?
-- A: doctor
-- B: run
-- C: blue
-- D: quickly
-- answer: A
+- A: run
+- B: blue
+- C: quickly
+- D: doctor
+- answer: D
 - explanation: Doctor names a person.
 
 ### Q13
@@ -141,20 +141,20 @@
 
 ### Q15
 - stem: Word for a person who teaches?
-- A: teacher
-- B: driver only
-- C: singer only
+- A: driver only
+- B: singer only
+- C: teacher
 - D: painter only
-- answer: A
+- answer: C
 - explanation: A teacher teaches.
 
 ### Q16
 - stem: Homophones: pair / …
-- A: pear
-- B: peer
-- C: poor
-- D: pour
-- answer: A
+- A: peer
+- B: poor
+- C: pour
+- D: pear
+- answer: D
 - explanation: Pair and pear sound alike.
 
 
@@ -162,11 +162,11 @@
 
 ### Q1
 - stem: Word closest to "fast"?
-- A: slow
-- B: quick
+- A: quick
+- B: slow
 - C: late
 - D: heavy
-- answer: B
+- answer: A
 - explanation: Quick means nearly the same as fast.
 
 ### Q2
@@ -181,64 +181,64 @@
 ### Q3
 - stem: A baby cat is called a…
 - A: puppy
-- B: kitten
-- C: cub
+- B: cub
+- C: kitten
 - D: chick
-- answer: B
+- answer: C
 - explanation: A baby cat is a kitten.
 
 ### Q4
 - stem: Complete: as light as a…
-- A: feather
-- B: rock
-- C: truck
-- D: elephant
-- answer: A
+- A: rock
+- B: truck
+- C: elephant
+- D: feather
+- answer: D
 - explanation: As light as a feather.
 
 ### Q5
 - stem: Which means "very small"?
-- A: huge
-- B: tiny
+- A: tiny
+- B: huge
 - C: wide
 - D: tall
-- answer: B
+- answer: A
 - explanation: Tiny means very small.
 
 ### Q6
 - stem: Rhymes with cake?
-- A: lake
-- B: cook
+- A: cook
+- B: lake
 - C: coat
 - D: kick
-- answer: A
+- answer: B
 - explanation: Lake rhymes with cake.
 
 ### Q7
 - stem: Compound: rain + bow =
-- A: rainbow
-- B: raincoat
-- C: raindrop
+- A: raincoat
+- B: raindrop
+- C: rainbow
 - D: rainfall
-- answer: A
+- answer: C
 - explanation: rain + bow = rainbow.
 
 ### Q8
 - stem: Prefix re- in "redo" means…
 - A: not
-- B: again
-- C: before
-- D: against
-- answer: B
+- B: before
+- C: against
+- D: again
+- answer: D
 - explanation: re- means again.
 
 ### Q9
 - stem: Synonym of end?
-- A: begin
-- B: finish
+- A: finish
+- B: begin
 - C: start
 - D: open
-- answer: B
+- answer: A
 - explanation: Finish means nearly the same as end.
 
 ### Q10
@@ -252,20 +252,20 @@
 
 ### Q11
 - stem: A place to buy food and things?
-- A: market
-- B: pillow
-- C: cloud
+- A: pillow
+- B: cloud
+- C: market
 - D: dream
-- answer: A
+- answer: C
 - explanation: A market is for buying things.
 
 ### Q12
 - stem: Naming word for a place?
-- A: school
-- B: run
-- C: soft
-- D: quickly
-- answer: A
+- A: run
+- B: soft
+- C: quickly
+- D: school
+- answer: D
 - explanation: School names a place.
 
 ### Q13
@@ -288,19 +288,19 @@
 
 ### Q15
 - stem: Person who drives a bus?
-- A: driver
-- B: cook only
-- C: teacher only
+- A: cook only
+- B: teacher only
+- C: driver
 - D: doctor only
-- answer: A
+- answer: C
 - explanation: A driver drives.
 
 ### Q16
 - stem: Homophones: sea / …
-- A: see
-- B: say
-- C: sit
-- D: set
-- answer: A
+- A: say
+- B: sit
+- C: set
+- D: see
+- answer: D
 - explanation: Sea and see sound alike.
 

@@ -65,7 +65,7 @@ export const G2_MATHS_HINTS: Record<string, HintOverlay> = {
   "g2-maths-addsub-b-q13": ["Double nine.", "18."],
   "g2-maths-addsub-b-q14": ["Take away six.", "10."],
   "g2-maths-addsub-b-q15": ["Count on five.", "28."],
-  "g2-maths-addsub-b-q16": ["Add three.", "15."],
+  "g2-maths-addsub-b-q16": ["Start at 12 and count on three more.", "Check each answer by counting back from it."],
   "g2-maths-timemoney-a-q01": ["Clock face.", "60."],
   "g2-maths-timemoney-a-q02": ["Hour hand shorter.", "3."],
   "g2-maths-timemoney-a-q03": ["Add the rupees.", "\u20b915."],

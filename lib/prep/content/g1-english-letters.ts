@@ -21,11 +21,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which word starts with M?",
     options: [
       { id: "a", text: "sun" },
-      { id: "b", text: "moon" },
-      { id: "c", text: "cat" },
+      { id: "b", text: "cat" },
+      { id: "c", text: "moon" },
       { id: "d", text: "dog" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Moon starts with M.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -34,11 +34,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Find the word: \"c\" + \"at\" =",
     options: [
       { id: "a", text: "bat" },
-      { id: "b", text: "cat" },
-      { id: "c", text: "hat" },
-      { id: "d", text: "mat" }
+      { id: "b", text: "hat" },
+      { id: "c", text: "mat" },
+      { id: "d", text: "cat" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "c + at makes cat.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -59,12 +59,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-eng-letters-a-q05",
     prompt: "How many letters are in the word SUN?",
     options: [
-      { id: "a", text: "2" },
-      { id: "b", text: "3" },
+      { id: "a", text: "3" },
+      { id: "b", text: "2" },
       { id: "c", text: "4" },
       { id: "d", text: "1" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "S-U-N has 3 letters.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -72,12 +72,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-eng-letters-a-q06",
     prompt: "Which word ends with \"g\"?",
     options: [
-      { id: "a", text: "bag" },
-      { id: "b", text: "bat" },
-      { id: "c", text: "bus" },
+      { id: "a", text: "bat" },
+      { id: "b", text: "bus" },
+      { id: "c", text: "bag" },
       { id: "d", text: "bee" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Bag ends with g.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -99,11 +99,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which word means a pet that meows?",
     options: [
       { id: "a", text: "dog" },
-      { id: "b", text: "cat" },
-      { id: "c", text: "cow" },
-      { id: "d", text: "hen" }
+      { id: "b", text: "cow" },
+      { id: "c", text: "hen" },
+      { id: "d", text: "cat" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "A cat meows.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -111,12 +111,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-eng-letters-a-q09",
     prompt: "Rhymes with \"hat\"?",
     options: [
-      { id: "a", text: "hot" },
-      { id: "b", text: "sit" },
-      { id: "c", text: "cat" },
+      { id: "a", text: "cat" },
+      { id: "b", text: "hot" },
+      { id: "c", text: "sit" },
       { id: "d", text: "cup" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Cat rhymes with hat.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -138,11 +138,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which is a word?",
     options: [
       { id: "a", text: "xyzq" },
-      { id: "b", text: "book" },
-      { id: "c", text: "1234" },
+      { id: "b", text: "1234" },
+      { id: "c", text: "book" },
       { id: "d", text: "##" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Book is a real word.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -150,12 +150,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-eng-letters-a-q12",
     prompt: "Ball starts with which sound?",
     options: [
-      { id: "a", text: "b" },
-      { id: "b", text: "c" },
-      { id: "c", text: "d" },
-      { id: "d", text: "s" }
+      { id: "a", text: "c" },
+      { id: "b", text: "d" },
+      { id: "c", text: "s" },
+      { id: "d", text: "b" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Ball starts with /b/.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -163,12 +163,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-eng-letters-a-q13",
     prompt: "How many vowels in AEIOU list?",
     options: [
-      { id: "a", text: "3" },
-      { id: "b", text: "4" },
-      { id: "c", text: "5" },
+      { id: "a", text: "5" },
+      { id: "b", text: "3" },
+      { id: "c", text: "4" },
       { id: "d", text: "6" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "A E I O U \u2014 five vowels.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -176,12 +176,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-eng-letters-a-q14",
     prompt: "Small letter for \"T\" is\u2026",
     options: [
-      { id: "a", text: "t" },
-      { id: "b", text: "T" },
+      { id: "a", text: "T" },
+      { id: "b", text: "t" },
       { id: "c", text: "s" },
       { id: "d", text: "l" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Small form of T is t.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -190,11 +190,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which word names a colour?",
     options: [
       { id: "a", text: "run" },
-      { id: "b", text: "red" },
-      { id: "c", text: "cup" },
+      { id: "b", text: "cup" },
+      { id: "c", text: "red" },
       { id: "d", text: "sit" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Red is a colour.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-eng-letters-a-q16",
     prompt: "Join: bl + ue =",
     options: [
-      { id: "a", text: "blue" },
-      { id: "b", text: "blow" },
-      { id: "c", text: "glue" },
-      { id: "d", text: "clue" }
+      { id: "a", text: "blow" },
+      { id: "b", text: "glue" },
+      { id: "c", text: "clue" },
+      { id: "d", text: "blue" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "bl + ue = blue.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
@@ -232,11 +232,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which word starts with S?",
     options: [
       { id: "a", text: "moon" },
-      { id: "b", text: "sun" },
-      { id: "c", text: "apple" },
+      { id: "b", text: "apple" },
+      { id: "c", text: "sun" },
       { id: "d", text: "egg" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Sun starts with S.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -245,11 +245,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Find the word: \"p\" + \"en\" =",
     options: [
       { id: "a", text: "pan" },
-      { id: "b", text: "pen" },
-      { id: "c", text: "pin" },
-      { id: "d", text: "pun" }
+      { id: "b", text: "pin" },
+      { id: "c", text: "pun" },
+      { id: "d", text: "pen" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "p + en = pen.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -257,12 +257,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-eng-letters-b-q04",
     prompt: "How many letters in DOG?",
     options: [
-      { id: "a", text: "2" },
-      { id: "b", text: "3" },
+      { id: "a", text: "3" },
+      { id: "b", text: "2" },
       { id: "c", text: "4" },
       { id: "d", text: "5" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "D-O-G has 3 letters.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -271,11 +271,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which word ends with \"t\"?",
     options: [
       { id: "a", text: "cup" },
-      { id: "b", text: "cat" },
-      { id: "c", text: "bus" },
+      { id: "b", text: "bus" },
+      { id: "c", text: "cat" },
       { id: "d", text: "sun" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Cat ends with t.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -298,10 +298,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "cat" },
       { id: "b", text: "dog" },
-      { id: "c", text: "cow" },
-      { id: "d", text: "bird" }
+      { id: "c", text: "bird" },
+      { id: "d", text: "cow" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "A cow says moo.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -309,12 +309,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-eng-letters-b-q08",
     prompt: "Rhymes with \"sun\"?",
     options: [
-      { id: "a", text: "sit" },
-      { id: "b", text: "fun" },
+      { id: "a", text: "fun" },
+      { id: "b", text: "sit" },
       { id: "c", text: "sip" },
       { id: "d", text: "map" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Fun rhymes with sun.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -336,11 +336,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which is NOT a letter?",
     options: [
       { id: "a", text: "M" },
-      { id: "b", text: "7" },
-      { id: "c", text: "Z" },
+      { id: "b", text: "Z" },
+      { id: "c", text: "7" },
       { id: "d", text: "K" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "7 is a number, not a letter.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-eng-letters-b-q11",
     prompt: "Tree starts with\u2026",
     options: [
-      { id: "a", text: "t" },
-      { id: "b", text: "r" },
+      { id: "a", text: "r" },
+      { id: "b", text: "t" },
       { id: "c", text: "e" },
       { id: "d", text: "s" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Tree starts with t.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -362,11 +362,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "How many letters in YES?",
     options: [
       { id: "a", text: "2" },
-      { id: "b", text: "3" },
-      { id: "c", text: "4" },
-      { id: "d", text: "1" }
+      { id: "b", text: "4" },
+      { id: "c", text: "1" },
+      { id: "d", text: "3" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Y-E-S has 3 letters.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -374,12 +374,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-eng-letters-b-q13",
     prompt: "Which word names a fruit?",
     options: [
-      { id: "a", text: "chair" },
-      { id: "b", text: "mango" },
+      { id: "a", text: "mango" },
+      { id: "b", text: "chair" },
       { id: "c", text: "shoe" },
       { id: "d", text: "rain" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Mango is a fruit.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-eng-letters-b-q14",
     prompt: "Small letter for \"G\" is\u2026",
     options: [
-      { id: "a", text: "g" },
-      { id: "b", text: "G" },
+      { id: "a", text: "G" },
+      { id: "b", text: "g" },
       { id: "c", text: "q" },
       { id: "d", text: "y" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Small form of G is g.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -401,11 +401,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Join: sh + ip =",
     options: [
       { id: "a", text: "shop" },
-      { id: "b", text: "ship" },
-      { id: "c", text: "sip" },
+      { id: "b", text: "sip" },
+      { id: "c", text: "ship" },
       { id: "d", text: "hip" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "sh + ip = ship.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -414,11 +414,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which word has 2 letters?",
     options: [
       { id: "a", text: "cat" },
-      { id: "b", text: "on" },
-      { id: "c", text: "sun" },
-      { id: "d", text: "ball" }
+      { id: "b", text: "sun" },
+      { id: "c", text: "ball" },
+      { id: "d", text: "on" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "On has two letters: o, n.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }

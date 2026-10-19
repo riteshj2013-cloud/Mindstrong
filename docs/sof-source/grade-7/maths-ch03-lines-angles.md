@@ -36,36 +36,36 @@
 - **difficulty**: mixed
 
 ### Q02
-- **stem**: A right angle measures…
+- **stem**: Two angles together make a right angle. One of them is 35°. The other is…
 - **options**:
-  - A) 45°
-  - B) 90°
-  - C) 180°
-  - D) 360°
+  - A) 35°
+  - B) 55°
+  - C) 65°
+  - D) 145°
 - **answer**: B
-- **explanation**: A square corner is 90°.
+- **explanation**: A right angle is 90°, so the other angle is 90° − 35° = 55°. 145° is tempting, but that uses 180° (a straight angle) instead of 90°.
 - **difficulty**: mixed
 
 ### Q03
-- **stem**: An angle of 120° is…
+- **stem**: An angle of 250° is —
 - **options**:
-  - A) Acute
-  - B) Right
-  - C) Obtuse
-  - D) Reflex
+  - A) acute
+  - B) obtuse
+  - C) reflex
+  - D) straight
 - **answer**: C
-- **explanation**: Between 90° and 180° is obtuse.
+- **explanation**: An angle greater than 180° and less than 360° is reflex. Obtuse is tempting because 250° is big, but obtuse angles lie between 90° and 180° only.
 - **difficulty**: mixed
 
 ### Q04
-- **stem**: A straight angle measures…
+- **stem**: Angles x and 3x form a linear pair. What is x?
 - **options**:
-  - A) 90°
-  - B) 270°
-  - C) 360°
-  - D) 180°
+  - A) 30°
+  - B) 60°
+  - C) 90°
+  - D) 45°
 - **answer**: D
-- **explanation**: A straight line forms a 180° angle.
+- **explanation**: A linear pair adds up to 180°, so x + 3x = 4x = 180° and x = 45°. 30° is tempting if you use 120° or forget that the two angles together make a straight angle.
 - **difficulty**: mixed
 
 ### Q05
@@ -113,14 +113,14 @@
 - **difficulty**: mixed
 
 ### Q09
-- **stem**: Vertically opposite angles are…
+- **stem**: Two straight lines cross. One of the angles formed is 65°. What is the angle vertically opposite to it?
 - **options**:
-  - A) Equal
-  - B) Complementary
-  - C) Always acute
-  - D) Always 90°
+  - A) 65°
+  - B) 25°
+  - C) 115°
+  - D) 295°
 - **answer**: A
-- **explanation**: When two lines cross, opposite angles are equal.
+- **explanation**: Vertically opposite angles are equal, so it is 65°. 115° is tempting, but that is the angle next to it on the straight line (180° − 65°), not the opposite one.
 - **difficulty**: mixed
 
 ### Q10

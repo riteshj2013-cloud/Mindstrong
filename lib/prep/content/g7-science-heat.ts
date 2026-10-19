@@ -580,7 +580,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-sci-heat-b-q21",
-    prompt: "Which statement is true?",
+    prompt: "Which statement about heat and temperature is true?",
     options: [
       { id: "a", text: "Heat and temperature are related but not the same" },
       { id: "b", text: "Heat and temperature are identical" },

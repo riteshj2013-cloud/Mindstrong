@@ -372,28 +372,28 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-eng-words-b-q05",
-    prompt: "Choose the odd one out (not a synonym of \u201chappy\u201d):",
+    prompt: "Choose the odd one out (not a synonym of \u201cbrave\u201d):",
     options: [
-      { id: "a", text: "miserable" },
-      { id: "b", text: "joyful" },
-      { id: "c", text: "glad" },
-      { id: "d", text: "cheerful" }
+      { id: "a", text: "timid" },
+      { id: "b", text: "courageous" },
+      { id: "c", text: "fearless" },
+      { id: "d", text: "bold" }
     ],
     answerId: "a",
-    explanation: "Miserable is an antonym of happy.",
+    explanation: "Timid means shy and easily frightened, the opposite of brave. Courageous, fearless and bold all mean brave.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
     id: "g7-eng-words-b-q06",
-    prompt: "Prefix \u201cre-\u201d in \u201crewrite\u201d means\u2026",
+    prompt: "Prefix \u201cmis-\u201d in \u201cmisunderstand\u201d means\u2026",
     options: [
-      { id: "a", text: "not" },
-      { id: "b", text: "again" },
-      { id: "c", text: "against" },
-      { id: "d", text: "before" }
+      { id: "a", text: "again" },
+      { id: "b", text: "wrongly" },
+      { id: "c", text: "before" },
+      { id: "d", text: "not" }
     ],
     answerId: "b",
-    explanation: "Re- often means again.",
+    explanation: "Mis- means wrongly or badly: to misunderstand is to understand wrongly. \u201cNot\u201d is tempting, but that is the meaning of un- or in-; misunderstanding still involves understanding, just incorrectly.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {

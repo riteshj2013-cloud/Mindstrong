@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-fibre-a-q01",
     prompt: "Cotton fibre comes from the —",
     options: [
-      { id: "a", text: "stem of jute only" },
-      { id: "b", text: "cotton plant’s boll" },
+      { id: "a", text: "cotton plant’s boll" },
+      { id: "b", text: "stem of jute only" },
       { id: "c", text: "sheep’s fleece" },
       { id: "d", text: "silkworm cocoon" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Cotton fibres grow in the boll of the cotton plant.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -34,11 +34,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Silk fibre is produced by —",
     options: [
       { id: "a", text: "cotton plants" },
-      { id: "b", text: "silkworms" },
-      { id: "c", text: "jute plants" },
+      { id: "b", text: "jute plants" },
+      { id: "c", text: "silkworms" },
       { id: "d", text: "sheep" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Silkworms spin cocoons of silk fibre.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -47,11 +47,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Jute fibre is mainly obtained from the plant’s —",
     options: [
       { id: "a", text: "flower petals" },
-      { id: "b", text: "stem" },
-      { id: "c", text: "roots only" },
-      { id: "d", text: "seeds only" }
+      { id: "b", text: "roots only" },
+      { id: "c", text: "seeds only" },
+      { id: "d", text: "stem" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Jute fibres come from the stem.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -59,12 +59,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-fibre-a-q05",
     prompt: "Which is a natural fibre?",
     options: [
-      { id: "a", text: "Nylon" },
-      { id: "b", text: "Polyester" },
-      { id: "c", text: "Cotton" },
+      { id: "a", text: "Cotton" },
+      { id: "b", text: "Nylon" },
+      { id: "c", text: "Polyester" },
       { id: "d", text: "Acrylic" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Cotton is natural; nylon, polyester and acrylic are synthetic.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -73,11 +73,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which is a synthetic fibre?",
     options: [
       { id: "a", text: "Wool" },
-      { id: "b", text: "Silk" },
-      { id: "c", text: "Polyester" },
+      { id: "b", text: "Polyester" },
+      { id: "c", text: "Silk" },
       { id: "d", text: "Jute" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Polyester is made from chemicals — synthetic.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -86,11 +86,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Spinning converts —",
     options: [
       { id: "a", text: "fabric into fibre" },
-      { id: "b", text: "fibre into yarn" },
-      { id: "c", text: "yarn into sheep" },
+      { id: "b", text: "yarn into sheep" },
+      { id: "c", text: "fibre into yarn" },
       { id: "d", text: "plastic into cotton" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Spinning twists fibres into yarn.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -99,11 +99,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Weaving is done on a —",
     options: [
       { id: "a", text: "charkha only forever" },
-      { id: "b", text: "loom" },
-      { id: "c", text: "filter paper" },
-      { id: "d", text: "protractor" }
+      { id: "b", text: "filter paper" },
+      { id: "c", text: "protractor" },
+      { id: "d", text: "loom" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Weaving interlaces yarns on a loom.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -124,12 +124,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-fibre-a-q10",
     prompt: "Cotton plants grow well in —",
     options: [
-      { id: "a", text: "black soil and warm climate (typical regions)" },
-      { id: "b", text: "only polar ice" },
+      { id: "a", text: "only polar ice" },
+      { id: "b", text: "black soil and warm climate (typical regions)" },
       { id: "c", text: "only deep ocean" },
       { id: "d", text: "only deserts with no water ever" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Cotton needs a warm climate and suitable soils such as black soil in many Indian regions.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-fibre-a-q11",
     prompt: "The process of separating cotton fibres from seeds is —",
     options: [
-      { id: "a", text: "ginning" },
-      { id: "b", text: "reeling" },
-      { id: "c", text: "shearing" },
+      { id: "a", text: "reeling" },
+      { id: "b", text: "shearing" },
+      { id: "c", text: "ginning" },
       { id: "d", text: "sericulture" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Ginning removes seeds from cotton fibres.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -151,11 +151,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Shearing refers to —",
     options: [
       { id: "a", text: "cutting silk cocoons with acid only" },
-      { id: "b", text: "removing wool fleece from sheep" },
-      { id: "c", text: "weaving jute" },
-      { id: "d", text: "filtering water" }
+      { id: "b", text: "weaving jute" },
+      { id: "c", text: "filtering water" },
+      { id: "d", text: "removing wool fleece from sheep" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Shearing is cutting/removing the sheep’s wool.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -163,12 +163,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-fibre-a-q13",
     prompt: "Sericulture is the rearing of —",
     options: [
-      { id: "a", text: "sheep" },
-      { id: "b", text: "silkworms" },
+      { id: "a", text: "silkworms" },
+      { id: "b", text: "sheep" },
       { id: "c", text: "cotton plants" },
       { id: "d", text: "jute" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Sericulture means silkworm rearing for silk.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -176,12 +176,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-fibre-a-q14",
     prompt: "Yarn is —",
     options: [
-      { id: "a", text: "a thin continuous strand made from fibres" },
-      { id: "b", text: "a finished stitched shirt only" },
+      { id: "a", text: "a finished stitched shirt only" },
+      { id: "b", text: "a thin continuous strand made from fibres" },
       { id: "c", text: "a type of soil" },
       { id: "d", text: "a vitamin" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Yarn is spun fibre ready for fabric making.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -190,11 +190,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which fabric is usually most suitable for hot, humid weather?",
     options: [
       { id: "a", text: "Heavy wool coat" },
-      { id: "b", text: "Cotton" },
-      { id: "c", text: "Thick acrylic winter wear only" },
+      { id: "b", text: "Thick acrylic winter wear only" },
+      { id: "c", text: "Cotton" },
       { id: "d", text: "Leather jacket only" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Cotton is breathable and comfortable in heat.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -203,24 +203,24 @@ const SET_A: PrepQuestion[] = [
     prompt: "Jute is widely used to make —",
     options: [
       { id: "a", text: "winter sweaters only" },
-      { id: "b", text: "gunny bags and mats" },
-      { id: "c", text: "silk sarees only" },
-      { id: "d", text: "nylon ropes only" }
+      { id: "b", text: "silk sarees only" },
+      { id: "c", text: "nylon ropes only" },
+      { id: "d", text: "gunny bags and mats" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Jute is common for sacks, mats and similar goods.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g6-sci-fibre-a-q17",
-    prompt: "Which statement is true?",
+    prompt: "Which statement about fibres is true?",
     options: [
-      { id: "a", text: "All fibres are synthetic" },
-      { id: "b", text: "Some fibres are natural and some are synthetic" },
+      { id: "a", text: "Some fibres are natural and some are synthetic" },
+      { id: "b", text: "All fibres are synthetic" },
       { id: "c", text: "Wool comes from cotton seeds" },
       { id: "d", text: "Silk comes from sheep" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Fibres may be natural (plant/animal) or synthetic.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -228,12 +228,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-fibre-a-q18",
     prompt: "Reeling in silk processing means —",
     options: [
-      { id: "a", text: "unwinding silk filament from the cocoon" },
-      { id: "b", text: "shearing sheep" },
+      { id: "a", text: "shearing sheep" },
+      { id: "b", text: "unwinding silk filament from the cocoon" },
       { id: "c", text: "ginning cotton" },
       { id: "d", text: "knitting wool" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Reeling draws silk filament off the cocoon.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -241,12 +241,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-fibre-a-q19",
     prompt: "A charkha is used for —",
     options: [
-      { id: "a", text: "spinning yarn" },
-      { id: "b", text: "filtering tea" },
-      { id: "c", text: "measuring angles" },
+      { id: "a", text: "filtering tea" },
+      { id: "b", text: "measuring angles" },
+      { id: "c", text: "spinning yarn" },
       { id: "d", text: "evaporating salt" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "A charkha is a spinning device.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -256,10 +256,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "Jute" },
       { id: "b", text: "Cotton" },
-      { id: "c", text: "Wool" },
-      { id: "d", text: "Nylon" }
+      { id: "c", text: "Nylon" },
+      { id: "d", text: "Wool" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Wool is an animal fibre; jute and cotton are plant fibres; nylon is synthetic.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -280,12 +280,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-fibre-a-q22",
     prompt: "Coir fibre comes from —",
     options: [
-      { id: "a", text: "coconut husk" },
-      { id: "b", text: "sheep" },
+      { id: "a", text: "sheep" },
+      { id: "b", text: "coconut husk" },
       { id: "c", text: "silkworm" },
       { id: "d", text: "nylon pellets" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Coir is from coconut husk — a plant fibre.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -294,11 +294,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which property makes cotton clothes comfortable in summer?",
     options: [
       { id: "a", text: "They are waterproof plastic" },
-      { id: "b", text: "They absorb sweat and allow air flow better than many synthetics" },
-      { id: "c", text: "They are always thicker than wool" },
+      { id: "b", text: "They are always thicker than wool" },
+      { id: "c", text: "They absorb sweat and allow air flow better than many synthetics" },
       { id: "d", text: "They are metals" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Cotton absorbs moisture and breathes.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -306,12 +306,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-fibre-a-q24",
     prompt: "Synthetic fibres are often —",
     options: [
-      { id: "a", text: "made from petrochemicals" },
-      { id: "b", text: "harvested from sheep" },
-      { id: "c", text: "grown as cotton bolls" },
-      { id: "d", text: "spun by silkworms" }
+      { id: "a", text: "harvested from sheep" },
+      { id: "b", text: "grown as cotton bolls" },
+      { id: "c", text: "spun by silkworms" },
+      { id: "d", text: "made from petrochemicals" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Many synthetics come from chemical/petroleum sources.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
@@ -322,12 +322,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-fibre-b-q01",
     prompt: "Which sequence is correct?",
     options: [
-      { id: "a", text: "Fabric → yarn → fibre" },
-      { id: "b", text: "Fibre → yarn → fabric" },
+      { id: "a", text: "Fibre → yarn → fabric" },
+      { id: "b", text: "Fabric → yarn → fibre" },
       { id: "c", text: "Yarn → fibre → fabric" },
       { id: "d", text: "Fabric → fibre → yarn" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Fibres are spun to yarn, then woven/knitted to fabric.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -335,12 +335,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-fibre-b-q02",
     prompt: "Lint is a term linked with —",
     options: [
-      { id: "a", text: "cotton fibres after ginning" },
-      { id: "b", text: "sheep shearing only" },
+      { id: "a", text: "sheep shearing only" },
+      { id: "b", text: "cotton fibres after ginning" },
       { id: "c", text: "nylon melt" },
       { id: "d", text: "salt crystals" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Cotton lint refers to the fibres separated from seeds.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -348,12 +348,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-fibre-b-q03",
     prompt: "Among common natural fibres discussed in class, silk is often noted for its —",
     options: [
-      { id: "a", text: "strength and shine" },
-      { id: "b", text: "being a metal" },
-      { id: "c", text: "coming from sheep" },
+      { id: "a", text: "being a metal" },
+      { id: "b", text: "coming from sheep" },
+      { id: "c", text: "strength and shine" },
       { id: "d", text: "being synthetic polyester" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Silk is valued for strength and lustre among natural fibres.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-fibre-b-q04",
     prompt: "Polyester clothes —",
     options: [
-      { id: "a", text: "dry quickly compared with many cottons" },
-      { id: "b", text: "are always made by silkworms" },
-      { id: "c", text: "come from sheep" },
-      { id: "d", text: "are a vitamin" }
+      { id: "a", text: "are always made by silkworms" },
+      { id: "b", text: "come from sheep" },
+      { id: "c", text: "are a vitamin" },
+      { id: "d", text: "dry quickly compared with many cottons" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Synthetics like polyester often dry quickly.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -374,12 +374,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-fibre-b-q05",
     prompt: "Which animal fibre can come from goats (e.g. pashmina type discussions)?",
     options: [
-      { id: "a", text: "Cotton" },
-      { id: "b", text: "Wool/specialty animal underfur fibres" },
+      { id: "a", text: "Wool/specialty animal underfur fibres" },
+      { id: "b", text: "Cotton" },
       { id: "c", text: "Jute" },
       { id: "d", text: "Nylon" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Some fine animal fibres come from goats; wool broadly is animal.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-fibre-b-q06",
     prompt: "Retting is a step used for —",
     options: [
-      { id: "a", text: "loosening jute fibres from the stem" },
-      { id: "b", text: "shearing wool" },
+      { id: "a", text: "shearing wool" },
+      { id: "b", text: "loosening jute fibres from the stem" },
       { id: "c", text: "reeling silk only" },
       { id: "d", text: "knitting sweaters" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Retting soaks jute stems so fibres can be separated.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -401,11 +401,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which fabric choice suits a cold hill station better?",
     options: [
       { id: "a", text: "Light cotton tee only" },
-      { id: "b", text: "Woollen sweater" },
-      { id: "c", text: "Wet jute sack as clothing" },
+      { id: "b", text: "Wet jute sack as clothing" },
+      { id: "c", text: "Woollen sweater" },
       { id: "d", text: "Paper" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Wool traps air and keeps the body warm.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-fibre-b-q08",
     prompt: "Handloom fabrics are made —",
     options: [
-      { id: "a", text: "on looms operated largely by hand/foot power" },
-      { id: "b", text: "only in chemical reactors" },
-      { id: "c", text: "by silkworms directly as shirts" },
-      { id: "d", text: "by magnets" }
+      { id: "a", text: "only in chemical reactors" },
+      { id: "b", text: "by silkworms directly as shirts" },
+      { id: "c", text: "by magnets" },
+      { id: "d", text: "on looms operated largely by hand/foot power" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Handlooms are manually operated weaving devices.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -426,12 +426,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-fibre-b-q09",
     prompt: "Which is plant fibre?",
     options: [
-      { id: "a", text: "Silk" },
-      { id: "b", text: "Wool" },
-      { id: "c", text: "Jute" },
+      { id: "a", text: "Jute" },
+      { id: "b", text: "Silk" },
+      { id: "c", text: "Wool" },
       { id: "d", text: "Nylon" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Jute is a plant stem fibre.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -439,12 +439,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-fibre-b-q10",
     prompt: "Burning a cotton thread typically smells like —",
     options: [
-      { id: "a", text: "burning paper (plant material)" },
-      { id: "b", text: "burning hair always for cotton" },
+      { id: "a", text: "burning hair always for cotton" },
+      { id: "b", text: "burning paper (plant material)" },
       { id: "c", text: "burning plastic sweet smell always" },
       { id: "d", text: "no smell ever" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Cotton is cellulose plant fibre and smells like burning paper.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -452,12 +452,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-fibre-b-q11",
     prompt: "Burning wool often smells like —",
     options: [
-      { id: "a", text: "burning hair/feathers (protein)" },
-      { id: "b", text: "burning paper only" },
-      { id: "c", text: "pure mint" },
+      { id: "a", text: "burning paper only" },
+      { id: "b", text: "pure mint" },
+      { id: "c", text: "burning hair/feathers (protein)" },
       { id: "d", text: "ozone only" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Wool is protein fibre and smells like burning hair.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -465,12 +465,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-fibre-b-q12",
     prompt: "Why are jute bags called eco-friendly compared with some plastics?",
     options: [
-      { id: "a", text: "Jute is biodegradable plant fibre" },
-      { id: "b", text: "Jute is a metal" },
-      { id: "c", text: "Jute never decomposes" },
-      { id: "d", text: "Jute is pure plastic" }
+      { id: "a", text: "Jute is a metal" },
+      { id: "b", text: "Jute never decomposes" },
+      { id: "c", text: "Jute is pure plastic" },
+      { id: "d", text: "Jute is biodegradable plant fibre" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Natural jute can break down more readily than many plastics.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -491,12 +491,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-fibre-b-q14",
     prompt: "Which occupation is linked to silk?",
     options: [
-      { id: "a", text: "Sericulturist" },
-      { id: "b", text: "Astronaut only" },
+      { id: "a", text: "Astronaut only" },
+      { id: "b", text: "Sericulturist" },
       { id: "c", text: "Deep-sea diver only" },
       { id: "d", text: "Protractor maker only" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Sericulturists rear silkworms.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -504,12 +504,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-fibre-b-q15",
     prompt: "Cotton is preferred for bandages partly because it is —",
     options: [
-      { id: "a", text: "soft and absorbent" },
-      { id: "b", text: "completely waterproof plastic" },
-      { id: "c", text: "a metal mesh" },
+      { id: "a", text: "completely waterproof plastic" },
+      { id: "b", text: "a metal mesh" },
+      { id: "c", text: "soft and absorbent" },
       { id: "d", text: "edible protein" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Soft absorbent cotton suits wound care.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -517,12 +517,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-fibre-b-q16",
     prompt: "Which step comes first in wool processing among these?",
     options: [
-      { id: "a", text: "Shearing" },
-      { id: "b", text: "Weaving a finished coat" },
-      { id: "c", text: "Wearing the sweater" },
-      { id: "d", text: "Dyeing a stitched blazer only" }
+      { id: "a", text: "Weaving a finished coat" },
+      { id: "b", text: "Wearing the sweater" },
+      { id: "c", text: "Dyeing a stitched blazer only" },
+      { id: "d", text: "Shearing" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "First the fleece is sheared from the animal.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -543,12 +543,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-fibre-b-q18",
     prompt: "Which tool helps spin yarn by hand traditionally?",
     options: [
-      { id: "a", text: "Takli or charkha" },
-      { id: "b", text: "Beaker" },
+      { id: "a", text: "Beaker" },
+      { id: "b", text: "Takli or charkha" },
       { id: "c", text: "Bar magnet" },
       { id: "d", text: "Thermometer" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Takli and charkha are traditional spinning devices.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -556,12 +556,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-fibre-b-q19",
     prompt: "Fabric edges may fray because —",
     options: [
-      { id: "a", text: "yarns can slip out when not finished" },
-      { id: "b", text: "fabric turns into water" },
-      { id: "c", text: "magnets pull cotton" },
+      { id: "a", text: "fabric turns into water" },
+      { id: "b", text: "magnets pull cotton" },
+      { id: "c", text: "yarns can slip out when not finished" },
       { id: "d", text: "vitamins escape" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Unfinished edges let yarns loosen — hence hems/selvedge.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -569,12 +569,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-fibre-b-q20",
     prompt: "Which is true of knitting?",
     options: [
-      { id: "a", text: "It can make stretchy fabrics like socks" },
-      { id: "b", text: "It always needs two perpendicular yarn sheets like weaving" },
-      { id: "c", text: "It grows cotton" },
-      { id: "d", text: "It is evaporation" }
+      { id: "a", text: "It always needs two perpendicular yarn sheets like weaving" },
+      { id: "b", text: "It grows cotton" },
+      { id: "c", text: "It is evaporation" },
+      { id: "d", text: "It can make stretchy fabrics like socks" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Knitted fabrics often stretch — good for socks.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -595,12 +595,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-fibre-b-q22",
     prompt: "Which fibre is least likely to be called natural?",
     options: [
-      { id: "a", text: "Acrylic" },
-      { id: "b", text: "Cotton" },
+      { id: "a", text: "Cotton" },
+      { id: "b", text: "Acrylic" },
       { id: "c", text: "Wool" },
       { id: "d", text: "Silk" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Acrylic is synthetic.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -608,12 +608,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-fibre-b-q23",
     prompt: "Why sort laundry by fabric type sometimes?",
     options: [
-      { id: "a", text: "Different fabrics need different wash/heat care" },
-      { id: "b", text: "All fabrics are identical metals" },
-      { id: "c", text: "Sorting removes vitamins" },
+      { id: "a", text: "All fabrics are identical metals" },
+      { id: "b", text: "Sorting removes vitamins" },
+      { id: "c", text: "Different fabrics need different wash/heat care" },
       { id: "d", text: "It creates iodine" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Wool, cotton and synthetics tolerate heat/agitation differently.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -621,12 +621,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-fibre-b-q24",
     prompt: "The smallest usable textile building block among these is —",
     options: [
-      { id: "a", text: "fibre" },
-      { id: "b", text: "stitched garment" },
-      { id: "c", text: "full loom shed" },
-      { id: "d", text: "market stall" }
+      { id: "a", text: "stitched garment" },
+      { id: "b", text: "full loom shed" },
+      { id: "c", text: "market stall" },
+      { id: "d", text: "fibre" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Fibre is the basic strand; yarn and fabric are built from it.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }

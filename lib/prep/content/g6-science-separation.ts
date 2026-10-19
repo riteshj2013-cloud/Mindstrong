@@ -20,10 +20,10 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-sep-a-q02",
     prompt: "Threshing separates —",
     options: [
-      { id: "a", text: "cream by filtering paper" },
+      { id: "a", text: "salt from seawater by freezing only" },
       { id: "b", text: "grain from stalks" },
-      { id: "c", text: "salt from seawater by freezing only" },
-      { id: "d", text: "iron from sand with hands only" }
+      { id: "c", text: "iron from sand with hands only" },
+      { id: "d", text: "cream by filtering paper" }
     ],
     answerId: "b",
     explanation: "Threshing beats stalks so grain separates.",
@@ -33,10 +33,10 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-sep-a-q03",
     prompt: "Winnowing uses —",
     options: [
-      { id: "a", text: "only filters" },
-      { id: "b", text: "only evaporation pans" },
+      { id: "a", text: "only magnets" },
+      { id: "b", text: "only filters" },
       { id: "c", text: "wind or blowing air to separate lighter husk" },
-      { id: "d", text: "only magnets" }
+      { id: "d", text: "only evaporation pans" }
     ],
     answerId: "c",
     explanation: "Lighter husk blows away; heavier grain falls.",
@@ -72,10 +72,10 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-sep-a-q06",
     prompt: "Decantation is —",
     options: [
-      { id: "a", text: "measuring angles" },
+      { id: "a", text: "boiling metal" },
       { id: "b", text: "pouring off liquid carefully after settling" },
-      { id: "c", text: "boiling metal" },
-      { id: "d", text: "spinning cotton" }
+      { id: "c", text: "spinning cotton" },
+      { id: "d", text: "measuring angles" }
     ],
     answerId: "b",
     explanation: "After sedimentation, liquid is poured off the sediment.",
@@ -85,10 +85,10 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-sep-a-q07",
     prompt: "Filtration uses a filter to —",
     options: [
-      { id: "a", text: "shear sheep" },
-      { id: "b", text: "weave cloth" },
+      { id: "a", text: "separate two gases by colour only" },
+      { id: "b", text: "shear sheep" },
       { id: "c", text: "trap insoluble solids and let liquid pass" },
-      { id: "d", text: "separate two gases by colour only" }
+      { id: "d", text: "weave cloth" }
     ],
     answerId: "c",
     explanation: "Filter paper/cloth holds residue; filtrate passes.",
@@ -124,10 +124,10 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-sep-a-q10",
     prompt: "A magnet can separate —",
     options: [
-      { id: "a", text: "husks from grain by magnetism alone" },
+      { id: "a", text: "salt from sugar" },
       { id: "b", text: "iron filings from sand" },
-      { id: "c", text: "salt from sugar" },
-      { id: "d", text: "oil from water by magnetism alone" }
+      { id: "c", text: "oil from water by magnetism alone" },
+      { id: "d", text: "husks from grain by magnetism alone" }
     ],
     answerId: "b",
     explanation: "Iron is magnetic; sand is not.",
@@ -137,10 +137,10 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-sep-a-q11",
     prompt: "Which mixture can be separated by filtration?",
     options: [
-      { id: "a", text: "Sugar fully dissolved in water" },
-      { id: "b", text: "Alcohol mixed completely as one phase without solid" },
+      { id: "a", text: "Salt fully dissolved in water" },
+      { id: "b", text: "Sugar fully dissolved in water" },
       { id: "c", text: "Chalk powder in water" },
-      { id: "d", text: "Salt fully dissolved in water" }
+      { id: "d", text: "Alcohol mixed completely as one phase without solid" }
     ],
     answerId: "c",
     explanation: "Insoluble chalk is trapped by a filter; dissolved salt/sugar pass with water.",
@@ -176,10 +176,10 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-sep-a-q14",
     prompt: "Insoluble impurities in water can be removed by —",
     options: [
-      { id: "a", text: "sericulture" },
+      { id: "a", text: "only adding more salt" },
       { id: "b", text: "sedimentation and filtration" },
-      { id: "c", text: "only adding more salt" },
-      { id: "d", text: "weaving" }
+      { id: "c", text: "weaving" },
+      { id: "d", text: "sericulture" }
     ],
     answerId: "b",
     explanation: "Settle, then filter to clarify water.",
@@ -189,10 +189,10 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-sep-a-q15",
     prompt: "Which method suits separating tea leaves from prepared tea?",
     options: [
-      { id: "a", text: "Winnowing on a farm roof only" },
-      { id: "b", text: "Shearing" },
+      { id: "a", text: "Magnetic separation" },
+      { id: "b", text: "Winnowing on a farm roof only" },
       { id: "c", text: "Filtration/straining" },
-      { id: "d", text: "Magnetic separation" }
+      { id: "d", text: "Shearing" }
     ],
     answerId: "c",
     explanation: "A strainer filters tea leaves.",
@@ -228,10 +228,10 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-sep-a-q18",
     prompt: "Which is a pure substance among these everyday ideas?",
     options: [
-      { id: "a", text: "Trail mix" },
+      { id: "a", text: "Muddy river water" },
       { id: "b", text: "Distilled water (approx. pure H2O)" },
-      { id: "c", text: "Muddy river water" },
-      { id: "d", text: "Air as a fixed compound" }
+      { id: "c", text: "Air as a fixed compound" },
+      { id: "d", text: "Trail mix" }
     ],
     answerId: "b",
     explanation: "Distilled water is essentially pure water; the others are mixtures.",
@@ -241,10 +241,10 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-sep-a-q19",
     prompt: "Air is best described as —",
     options: [
-      { id: "a", text: "a fabric" },
-      { id: "b", text: "a vitamin" },
+      { id: "a", text: "a single pure element only" },
+      { id: "b", text: "a fabric" },
       { id: "c", text: "a mixture of gases" },
-      { id: "d", text: "a single pure element only" }
+      { id: "d", text: "a vitamin" }
     ],
     answerId: "c",
     explanation: "Air contains nitrogen, oxygen and other gases mixed.",
@@ -280,10 +280,10 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-sep-a-q22",
     prompt: "Condensation is the change from —",
     options: [
-      { id: "a", text: "yarn to fabric" },
+      { id: "a", text: "liquid to solid always named condensation" },
       { id: "b", text: "gas/vapour to liquid" },
-      { id: "c", text: "liquid to solid always named condensation" },
-      { id: "d", text: "solid to fibre" }
+      { id: "c", text: "solid to fibre" },
+      { id: "d", text: "yarn to fabric" }
     ],
     answerId: "b",
     explanation: "Vapour cools to liquid in condensation.",
@@ -293,10 +293,10 @@ const SET_A: PrepQuestion[] = [
     id: "g6-sci-sep-a-q23",
     prompt: "Why do we separate substances?",
     options: [
-      { id: "a", text: "Only to name angles" },
-      { id: "b", text: "Never for any reason" },
+      { id: "a", text: "Only to weave cloth" },
+      { id: "b", text: "Only to name angles" },
       { id: "c", text: "To get useful components or remove harmful ones" },
-      { id: "d", text: "Only to weave cloth" }
+      { id: "d", text: "Never for any reason" }
     ],
     answerId: "c",
     explanation: "Separation yields useful materials and removes impurities.",
@@ -335,10 +335,10 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-sep-b-q02",
     prompt: "Residue on filter paper is —",
     options: [
-      { id: "a", text: "a magnetic field" },
+      { id: "a", text: "the liquid that passed" },
       { id: "b", text: "the solid left behind" },
-      { id: "c", text: "the liquid that passed" },
-      { id: "d", text: "a gas only" }
+      { id: "c", text: "a gas only" },
+      { id: "d", text: "a magnetic field" }
     ],
     answerId: "b",
     explanation: "Residue is the trapped solid; filtrate is the liquid that passed.",
@@ -348,10 +348,10 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-sep-b-q03",
     prompt: "Which separation uses heat and vapour?",
     options: [
-      { id: "a", text: "Magnetic separation" },
-      { id: "b", text: "Sieving dry sand only" },
+      { id: "a", text: "Handpicking" },
+      { id: "b", text: "Magnetic separation" },
       { id: "c", text: "Evaporation" },
-      { id: "d", text: "Handpicking" }
+      { id: "d", text: "Sieving dry sand only" }
     ],
     answerId: "c",
     explanation: "Evaporation needs heat (or sun) to vapourise liquid.",
@@ -387,10 +387,10 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-sep-b-q06",
     prompt: "Loading (in water purification talks) helps —",
     options: [
-      { id: "a", text: "grow cotton" },
+      { id: "a", text: "spin silk" },
       { id: "b", text: "fine clay settle faster by adding alum etc." },
-      { id: "c", text: "spin silk" },
-      { id: "d", text: "weave jute" }
+      { id: "c", text: "weave jute" },
+      { id: "d", text: "grow cotton" }
     ],
     answerId: "b",
     explanation: "Alum helps fine suspended particles clump and settle.",
@@ -400,10 +400,10 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-sep-b-q07",
     prompt: "Which is insoluble in water?",
     options: [
-      { id: "a", text: "Sugar" },
-      { id: "b", text: "Lemon juice acids that dissolve" },
+      { id: "a", text: "Salt" },
+      { id: "b", text: "Sugar" },
       { id: "c", text: "Sand" },
-      { id: "d", text: "Salt" }
+      { id: "d", text: "Lemon juice acids that dissolve" }
     ],
     answerId: "c",
     explanation: "Sand does not dissolve; salt and sugar do.",
@@ -439,10 +439,10 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-sep-b-q10",
     prompt: "Sawdust mixed with iron filings: best first step?",
     options: [
-      { id: "a", text: "Weave them" },
+      { id: "a", text: "Evaporate with sun" },
       { id: "b", text: "Use a magnet" },
-      { id: "c", text: "Evaporate with sun" },
-      { id: "d", text: "Winnow as if husk identically always" }
+      { id: "c", text: "Winnow as if husk identically always" },
+      { id: "d", text: "Weave them" }
     ],
     answerId: "b",
     explanation: "Magnet removes iron quickly.",
@@ -452,10 +452,10 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-sep-b-q11",
     prompt: "Which change is reversible among these separations?",
     options: [
-      { id: "a", text: "Cooking an egg hard" },
-      { id: "b", text: "Rusting iron completely as oxide only" },
+      { id: "a", text: "Burning paper to ash" },
+      { id: "b", text: "Cooking an egg hard" },
       { id: "c", text: "Dissolving salt then evaporating water to get salt back" },
-      { id: "d", text: "Burning paper to ash" }
+      { id: "d", text: "Rusting iron completely as oxide only" }
     ],
     answerId: "c",
     explanation: "Salt can be recovered by evaporating water — a reversible physical separation path.",
@@ -491,10 +491,10 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-sep-b-q14",
     prompt: "Which apparatus is typical for filtration in the lab?",
     options: [
-      { id: "a", text: "Handloom" },
+      { id: "a", text: "Charkha" },
       { id: "b", text: "Filter paper + funnel" },
-      { id: "c", text: "Charkha" },
-      { id: "d", text: "Protractor" }
+      { id: "c", text: "Protractor" },
+      { id: "d", text: "Handloom" }
     ],
     answerId: "b",
     explanation: "Funnel and filter paper are standard.",
@@ -504,10 +504,10 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-sep-b-q15",
     prompt: "Separating colours of ink is an introduction to —",
     options: [
-      { id: "a", text: "ginning" },
-      { id: "b", text: "knitting" },
+      { id: "a", text: "shearing" },
+      { id: "b", text: "ginning" },
       { id: "c", text: "chromatography (later classes)" },
-      { id: "d", text: "shearing" }
+      { id: "d", text: "knitting" }
     ],
     answerId: "c",
     explanation: "Ink dyes can be separated by chromatography.",
@@ -543,10 +543,10 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-sep-b-q18",
     prompt: "Pebbles from dal can be removed by —",
     options: [
-      { id: "a", text: "reeling" },
+      { id: "a", text: "distillation only" },
       { id: "b", text: "handpicking" },
-      { id: "c", text: "distillation only" },
-      { id: "d", text: "magnetic separation always" }
+      { id: "c", text: "magnetic separation always" },
+      { id: "d", text: "reeling" }
     ],
     answerId: "b",
     explanation: "Large pebbles are handpicked from dal.",
@@ -556,10 +556,10 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-sep-b-q19",
     prompt: "Which property is used in magnetic separation?",
     options: [
-      { id: "a", text: "Taste only" },
-      { id: "b", text: "Smell only" },
+      { id: "a", text: "Colour only" },
+      { id: "b", text: "Taste only" },
       { id: "c", text: "Magnetism" },
-      { id: "d", text: "Colour only" }
+      { id: "d", text: "Smell only" }
     ],
     answerId: "c",
     explanation: "Magnetic materials respond to a magnet.",
@@ -595,10 +595,10 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-sep-b-q22",
     prompt: "To get drinking water from muddy water at a basic level, you might —",
     options: [
-      { id: "a", text: "shear it" },
+      { id: "a", text: "add more mud" },
       { id: "b", text: "allow settling, then filter (and further purify as needed)" },
-      { id: "c", text: "add more mud" },
-      { id: "d", text: "winnow it" }
+      { id: "c", text: "winnow it" },
+      { id: "d", text: "shear it" }
     ],
     answerId: "b",
     explanation: "Sedimentation + filtration remove many solids (further purification may still be needed).",
@@ -608,10 +608,10 @@ const SET_B: PrepQuestion[] = [
     id: "g6-sci-sep-b-q23",
     prompt: "Which mixture is best separated by sieving?",
     options: [
-      { id: "a", text: "Alcohol in water" },
-      { id: "b", text: "Cream in milk by sieve mesh only" },
+      { id: "a", text: "Salt dissolved in water" },
+      { id: "b", text: "Alcohol in water" },
       { id: "c", text: "Pebbles mixed with sand" },
-      { id: "d", text: "Salt dissolved in water" }
+      { id: "d", text: "Cream in milk by sieve mesh only" }
     ],
     answerId: "c",
     explanation: "Different solid sizes → sieving works.",

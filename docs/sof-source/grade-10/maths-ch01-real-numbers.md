@@ -106,18 +106,18 @@
 - **difficulty**: mixed
 
 ### Q08
-- **stem**: Rationalising the denominator of 1/√5 gives —
+- **stem**: Rationalising the denominator of 6/√3 gives —
 - **options**:
-  - A) 1/5
-  - B) √5
-  - C) 5/√5
-  - D) √5/5
+  - A) 2/√3
+  - B) √3/2
+  - C) 6√3
+  - D) 2√3
 - **answer**: D
-- **explanation**: Multiply by √5/√5: √5/5.
+- **explanation**: 6/√3 × √3/√3 = 6√3/3 = 2√3. 6√3 is tempting if you multiply the top by √3 but forget that the bottom becomes 3.
 - **difficulty**: mixed
 
 ### Q09
-- **stem**: Which statement is true?
+- **stem**: Which statement about rational and irrational numbers is true?
 - **options**:
   - A) √2 is rational
   - B) π is rational
@@ -194,14 +194,14 @@
 - **difficulty**: mixed
 
 ### Q16
-- **stem**: The product of a non-zero rational and an irrational number is —
+- **stem**: The sum of a rational number and an irrational number is always —
 - **options**:
-  - A) always an integer
-  - B) always irrational
-  - C) always rational
-  - D) sometimes zero
+  - A) an integer
+  - B) irrational
+  - C) rational
+  - D) zero
 - **answer**: B
-- **explanation**: e.g. 2×√3 = 2√3 is irrational (non-zero rational × irrational).
+- **explanation**: If r + x were rational for rational r and irrational x, then x = (r + x) − r would be rational, which is impossible. So the sum is irrational, e.g. 2 + √3. “Rational” is tempting by thinking of √2 + (−√2) = 0, but −√2 is irrational, not rational.
 - **difficulty**: mixed
 
 ### Q17
@@ -328,14 +328,14 @@
 - **difficulty**: mixed
 
 ### Q04
-- **stem**: Which number is rational?
+- **stem**: Which number can be written in the form p/q, where p and q are integers and q ≠ 0?
 - **options**:
-  - A) 0.\overline{3}
-  - B) √2 + 1
-  - C) √7
-  - D) π
+  - A) 0.333… (the 3 repeats for ever)
+  - B) π
+  - C) √2 + 1
+  - D) √7
 - **answer**: A
-- **explanation**: 0.\overline{3} = 1/3 is rational; the others are irrational.
+- **explanation**: 0.333… = 1/3, so it is rational. π is tempting because 22/7 is often used for it, but 22/7 is only an approximation; π is irrational, and so are √7 and √2 + 1.
 - **difficulty**: mixed
 
 ### Q05
@@ -449,14 +449,14 @@
 - **difficulty**: mixed
 
 ### Q15
-- **stem**: √(0.09) equals —
+- **stem**: √(0.0016) equals —
 - **options**:
-  - A) 0.3
-  - B) 0.9
-  - C) 0.03
-  - D) 0.009
+  - A) 0.04
+  - B) 0.004
+  - C) 0.4
+  - D) 0.008
 - **answer**: A
-- **explanation**: √0.09 = √(9/100) = 3/10 = 0.3.
+- **explanation**: 0.0016 = 16/10000, so √0.0016 = 4/100 = 0.04. 0.4 is tempting, but 0.4 × 0.4 = 0.16; the square root has half as many decimal places as the number.
 - **difficulty**: mixed
 
 ### Q16

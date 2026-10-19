@@ -24,11 +24,11 @@
 ### Q01
 - **stem**: Choose the correct verb: She ____ to school by bus.
 - **options**:
-  - A) go
-  - B) goes
+  - A) goes
+  - B) go
   - C) going
   - D) gone
-- **answer**: B
+- **answer**: A
 - **explanation**: She is singular third person, so the present form is goes.
 - **hint**: Match singular subject to singular verb.
 
@@ -36,21 +36,21 @@
 - **stem**: Choose the correct verb: The boys ____ playing cricket.
 - **options**:
   - A) is
-  - B) are
-  - C) am
-  - D) be
-- **answer**: B
+  - B) am
+  - C) be
+  - D) are
+- **answer**: D
 - **explanation**: Boys is plural → are.
 - **hint**: Plural subject needs a plural verb.
 
 ### Q03
 - **stem**: Identify the noun: The librarian opened a new shelf.
 - **options**:
-  - A) opened
-  - B) new
-  - C) librarian
+  - A) librarian
+  - B) opened
+  - C) new
   - D) a
-- **answer**: C
+- **answer**: A
 - **explanation**: Librarian names a person — a noun.
 - **hint**: Which word names a person, place or thing?
 
@@ -58,10 +58,10 @@
 - **stem**: Identify the adjective: Meera read an exciting story.
 - **options**:
   - A) Meera
-  - B) read
-  - C) exciting
+  - B) exciting
+  - C) read
   - D) story
-- **answer**: C
+- **answer**: B
 - **explanation**: Exciting describes the story — an adjective.
 - **hint**: Find the describing word.
 
@@ -91,10 +91,10 @@
 - **stem**: Past tense of write is —
 - **options**:
   - A) writed
-  - B) wrote
-  - C) writtened
-  - D) writing
-- **answer**: B
+  - B) writtened
+  - C) writing
+  - D) wrote
+- **answer**: D
 - **explanation**: Write → wrote (past) → written (past participle).
 - **hint**: Irregular past of write.
 
@@ -102,21 +102,21 @@
 - **stem**: Choose the correct pronoun: Ravi and ____ are partners.
 - **options**:
   - A) me
-  - B) I
-  - C) mine
+  - B) mine
+  - C) I
   - D) myself
-- **answer**: B
+- **answer**: C
 - **explanation**: Subject position needs I: Ravi and I.
 - **hint**: Would you say I are partners or me are partners?
 
 ### Q09
 - **stem**: Which sentence is in the future tense?
 - **options**:
-  - A) She walks home.
-  - B) She walked home.
-  - C) She will walk home.
+  - A) She will walk home.
+  - B) She walks home.
+  - C) She walked home.
   - D) She is walking home.
-- **answer**: C
+- **answer**: A
 - **explanation**: Will walk marks future time.
 - **hint**: Look for will + verb.
 
@@ -146,21 +146,21 @@
 - **stem**: Choose the correct preposition: The book is ____ the table.
 - **options**:
   - A) in
-  - B) on
-  - C) at
-  - D) by only for people
-- **answer**: B
+  - B) at
+  - C) by only for people
+  - D) on
+- **answer**: D
 - **explanation**: On the table is the usual preposition for surface contact.
 - **hint**: Surface → on.
 
 ### Q13
 - **stem**: Which is a complete sentence?
 - **options**:
-  - A) When the rain stopped.
-  - B) The rain stopped.
+  - A) The rain stopped.
+  - B) When the rain stopped.
   - C) Because the rain.
   - D) Stopping the rain.
-- **answer**: B
+- **answer**: A
 - **explanation**: The rain stopped has a subject and a finite verb.
 - **hint**: Need a full subject + verb thought.
 
@@ -190,21 +190,21 @@
 - **stem**: Direct to indirect: She said, “I am ready.” → She said that she ____ ready.
 - **options**:
   - A) am
-  - B) was
-  - C) is
-  - D) were
-- **answer**: B
+  - B) is
+  - C) were
+  - D) was
+- **answer**: D
 - **explanation**: Present am becomes was in backshift after a past reporting verb.
 - **hint**: Backshift the tense after said.
 
 ### Q17
 - **stem**: Choose the correct conjunction: I stayed home ____ it was raining.
 - **options**:
-  - A) and
-  - B) but
-  - C) because
+  - A) because
+  - B) and
+  - C) but
   - D) or
-- **answer**: C
+- **answer**: A
 - **explanation**: Because shows reason.
 - **hint**: Which linker shows cause?
 
@@ -212,10 +212,10 @@
 - **stem**: Identify the subject: Across the field ran the foal.
 - **options**:
   - A) Across
-  - B) the field
-  - C) ran
-  - D) the foal
-- **answer**: D
+  - B) the foal
+  - C) the field
+  - D) ran
+- **answer**: B
 - **explanation**: The foal is who ran — the subject, even after the verb.
 - **hint**: Who did the action?
 
@@ -223,32 +223,32 @@
 - **stem**: Choose the correct verb: Bread and butter ____ his breakfast.
 - **options**:
   - A) are
-  - B) is
-  - C) were
+  - B) were
+  - C) is
   - D) be
-- **answer**: B
+- **answer**: C
 - **explanation**: Treated as one dish → singular is.
 - **hint**: Paired food as one unit.
 
 ### Q20
 - **stem**: Which word is a collective noun?
 - **options**:
-  - A) team
-  - B) player
-  - C) run
-  - D) quickly
-- **answer**: A
+  - A) player
+  - B) run
+  - C) quickly
+  - D) team
+- **answer**: D
 - **explanation**: Team names a group — a collective noun.
 - **hint**: Word for a group acting as one.
 
 ### Q21
 - **stem**: Choose the correct form: The news ____ good today.
 - **options**:
-  - A) are
-  - B) is
+  - A) is
+  - B) are
   - C) were
   - D) have
-- **answer**: B
+- **answer**: A
 - **explanation**: News is singular in agreement → is.
 - **hint**: News takes a singular verb.
 
@@ -256,10 +256,10 @@
 - **stem**: Identify the interjection: Wow! That catch was brilliant.
 - **options**:
   - A) That
-  - B) catch
-  - C) Wow
+  - B) Wow
+  - C) catch
   - D) brilliant
-- **answer**: C
+- **answer**: B
 - **explanation**: Wow! expresses sudden feeling — an interjection.
 - **hint**: Which word bursts with feeling?
 
@@ -278,10 +278,10 @@
 - **stem**: Which sentence uses a possessive pronoun?
 - **options**:
   - A) This book is her.
-  - B) This book is hers.
-  - C) This book is she.
-  - D) This book is him.
-- **answer**: B
+  - B) This book is she.
+  - C) This book is him.
+  - D) This book is hers.
+- **answer**: D
 - **explanation**: Hers is the possessive pronoun form.
 - **hint**: Possessive pronouns: mine, yours, his, hers, ours, theirs.
 
@@ -290,11 +290,11 @@
 ### Q01
 - **stem**: Choose the correct verb: My friends ____ here.
 - **options**:
-  - A) lives
-  - B) live
+  - A) live
+  - B) lives
   - C) living
   - D) lived always only
-- **answer**: B
+- **answer**: A
 - **explanation**: Friends is plural → live.
 - **hint**: Plural subject → plural verb.
 
@@ -313,10 +313,10 @@
 - **stem**: Identify the verb: The mangroves protect the coast.
 - **options**:
   - A) mangroves
-  - B) protect
-  - C) the
+  - B) the
+  - C) protect
   - D) coast
-- **answer**: B
+- **answer**: C
 - **explanation**: Protect is the action word — the verb.
 - **hint**: Which word shows the action?
 
@@ -324,21 +324,21 @@
 - **stem**: Choose the correct article: He is ____ honest man.
 - **options**:
   - A) a
-  - B) an
-  - C) the only
-  - D) no article
-- **answer**: B
+  - B) the only
+  - C) no article
+  - D) an
+- **answer**: D
 - **explanation**: Honest begins with a vowel sound → an.
 - **hint**: Listen for the vowel sound, not just the letter.
 
 ### Q05
 - **stem**: Past participle of eat is —
 - **options**:
-  - A) ate
-  - B) eated
-  - C) eaten
+  - A) eaten
+  - B) ate
+  - C) eated
   - D) eating
-- **answer**: C
+- **answer**: A
 - **explanation**: Eat → ate → eaten.
 - **hint**: Third form after has/have.
 
@@ -368,21 +368,21 @@
 - **stem**: Choose the correct preposition: Divide the sweets ____ the two sisters.
 - **options**:
   - A) among
-  - B) between
-  - C) in
-  - D) into only for liquids
-- **answer**: B
+  - B) in
+  - C) into only for liquids
+  - D) between
+- **answer**: D
 - **explanation**: Between is used for two; among for more than two.
 - **hint**: Two people → between.
 
 ### Q09
 - **stem**: Identify the conjunction: Hurry up, or we will miss the bus.
 - **options**:
-  - A) Hurry
-  - B) up
-  - C) or
+  - A) or
+  - B) Hurry
+  - C) up
   - D) bus
-- **answer**: C
+- **answer**: A
 - **explanation**: Or joins alternatives — a conjunction.
 - **hint**: Which word links choices?
 
@@ -401,10 +401,10 @@
 - **stem**: Change to plural: The child is sleeping.
 - **options**:
   - A) The childs is sleeping.
-  - B) The children are sleeping.
-  - C) The childrens is sleeping.
+  - B) The childrens is sleeping.
+  - C) The children are sleeping.
   - D) The child are sleeping.
-- **answer**: B
+- **answer**: C
 - **explanation**: Child → children; verb becomes are.
 - **hint**: Irregular plural + verb agreement.
 
@@ -413,20 +413,20 @@
 - **options**:
   - A) Close the door.
   - B) What a catch!
-  - C) Where is my bat?
-  - D) The bat is new.
-- **answer**: C
+  - C) The bat is new.
+  - D) Where is my bat?
+- **answer**: D
 - **explanation**: Where is my bat? asks a question.
 - **hint**: Questions ask; they often end with ?
 
 ### Q13
 - **stem**: Choose the correct form: She has ____ the letter.
 - **options**:
-  - A) wrote
-  - B) written
+  - A) written
+  - B) wrote
   - C) write
   - D) writing
-- **answer**: B
+- **answer**: A
 - **explanation**: Has takes the past participle written.
 - **hint**: Has/have + past participle.
 
@@ -434,10 +434,10 @@
 - **stem**: Identify the object: Kabir borrowed a magazine.
 - **options**:
   - A) Kabir
-  - B) borrowed
-  - C) a magazine
+  - B) a magazine
+  - C) borrowed
   - D) None
-- **answer**: C
+- **answer**: B
 - **explanation**: A magazine receives the action — the object.
 - **hint**: What was borrowed?
 
@@ -445,32 +445,32 @@
 - **stem**: Choose the correct determiner: There isn’t ____ milk left.
 - **options**:
   - A) many
-  - B) much
-  - C) few
+  - B) few
+  - C) much
   - D) several
-- **answer**: B
+- **answer**: C
 - **explanation**: Milk is uncountable → much.
 - **hint**: Uncountable nouns take much, not many.
 
 ### Q16
 - **stem**: Which sentence is imperative?
 - **options**:
-  - A) Please return the books in ten days.
-  - B) The books are new.
-  - C) Are the books new?
-  - D) What useful books!
-- **answer**: A
+  - A) The books are new.
+  - B) Are the books new?
+  - C) What useful books!
+  - D) Please return the books in ten days.
+- **answer**: D
 - **explanation**: Please return… gives a polite command/request.
 - **hint**: Imperatives tell someone to do something.
 
 ### Q17
 - **stem**: Choose the correct relative pronoun: The girl ____ planted trees is Meera’s heroine.
 - **options**:
-  - A) which
-  - B) who
+  - A) who
+  - B) which
   - C) whose
   - D) what
-- **answer**: B
+- **answer**: A
 - **explanation**: Who refers to people.
 - **hint**: People → who.
 
@@ -489,32 +489,32 @@
 - **stem**: Choose the correct verb: The committee ____ decided the date.
 - **options**:
   - A) have
-  - B) has
-  - C) are
+  - B) are
+  - C) has
   - D) were
-- **answer**: B
+- **answer**: C
 - **explanation**: Committee as one body → has.
 - **hint**: Collective noun as a unit → singular.
 
 ### Q20
 - **stem**: Identify the abstract noun: Honesty makes shopping a pleasure.
 - **options**:
-  - A) Honesty
-  - B) makes
-  - C) shopping
-  - D) a
-- **answer**: A
+  - A) makes
+  - B) shopping
+  - C) a
+  - D) Honesty
+- **answer**: D
 - **explanation**: Honesty names a quality — an abstract noun.
 - **hint**: Which word names an idea you cannot touch?
 
 ### Q21
 - **stem**: Choose the correct form: If it rains, we ____ indoors.
 - **options**:
-  - A) practise
-  - B) practised
-  - C) will practise
+  - A) will practise
+  - B) practise
+  - C) practised
   - D) practising
-- **answer**: C
+- **answer**: A
 - **explanation**: First conditional: if + present, will + verb.
 - **hint**: If + present → will + base verb.
 
@@ -533,10 +533,10 @@
 - **stem**: Choose the correct order: (a) a red (b) she bought (c) ribbon
 - **options**:
   - A) a-b-c
-  - B) b-a-c
-  - C) c-b-a
+  - B) c-b-a
+  - C) b-a-c
   - D) a-c-b
-- **answer**: B
+- **answer**: C
 - **explanation**: She bought a red ribbon.
 - **hint**: Subject–verb–object with adjective before noun.
 
@@ -544,10 +544,10 @@
 - **stem**: Which sentence has correct punctuation?
 - **options**:
   - A) Wow that catch was brilliant
-  - B) Wow! That catch was brilliant.
-  - C) Wow. that catch was brilliant
-  - D) Wow that catch was brilliant?
-- **answer**: B
+  - B) Wow. that catch was brilliant
+  - C) Wow that catch was brilliant?
+  - D) Wow! That catch was brilliant.
+- **answer**: D
 - **explanation**: Interjection takes ! and the next sentence starts with a capital.
 - **hint**: Exclamation mark + capital.
 

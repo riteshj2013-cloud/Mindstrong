@@ -82,14 +82,14 @@
 - **difficulty**: easy
 
 ### Q02
-- **stem**: Perimeter of a square of side 9 cm is…
+- **stem**: A square park has a perimeter of 48 m. What is its area?
 - **options**:
-  - A) 36 cm
-  - B) 81 cm
-  - C) 18 cm
-  - D) 27 cm
+  - A) 144 m²
+  - B) 12 m²
+  - C) 96 m²
+  - D) 192 m²
 - **answer**: A
-- **explanation**: Perimeter = 4 × side = 4 × 9 = 36 cm.
+- **explanation**: Side = 48 ÷ 4 = 12 m, so area = 12 × 12 = 144 m². 96 m² is tempting if you double the perimeter instead of finding the side first.
 - **skill**: area_2d
 - **difficulty**: easy
 

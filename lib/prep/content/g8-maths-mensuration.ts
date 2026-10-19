@@ -8,9 +8,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Area of a rectangle with length 12 cm and breadth 5 cm is\u2026",
     options: [
       { id: "a", text: "60 cm\u00b2" },
-      { id: "b", text: "34 cm\u00b2" },
-      { id: "c", text: "120 cm\u00b2" },
-      { id: "d", text: "17 cm\u00b2" }
+      { id: "b", text: "17 cm\u00b2" },
+      { id: "c", text: "34 cm\u00b2" },
+      { id: "d", text: "120 cm\u00b2" }
     ],
     answerId: "a",
     explanation: "Area = length \u00d7 breadth = 12 \u00d7 5 = 60 cm\u00b2.",
@@ -18,25 +18,25 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-maths-mensuration-a-q02",
-    prompt: "Perimeter of a square of side 9 cm is\u2026",
+    prompt: "A square park has a perimeter of 48 m. What is its area?",
     options: [
-      { id: "a", text: "27 cm" },
-      { id: "b", text: "36 cm" },
-      { id: "c", text: "81 cm" },
-      { id: "d", text: "18 cm" }
+      { id: "a", text: "12 m\u00b2" },
+      { id: "b", text: "144 m\u00b2" },
+      { id: "c", text: "96 m\u00b2" },
+      { id: "d", text: "192 m\u00b2" }
     ],
     answerId: "b",
-    explanation: "Perimeter = 4 \u00d7 side = 4 \u00d7 9 = 36 cm.",
+    explanation: "Side = 48 \u00f7 4 = 12 m, so area = 12 \u00d7 12 = 144 m\u00b2. 96 m\u00b2 is tempting if you double the perimeter instead of finding the side first.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
     id: "g8-maths-mensuration-a-q03",
     prompt: "Area of a triangle with base 10 cm and height 6 cm is\u2026",
     options: [
-      { id: "a", text: "32 cm\u00b2" },
-      { id: "b", text: "60 cm\u00b2" },
+      { id: "a", text: "60 cm\u00b2" },
+      { id: "b", text: "16 cm\u00b2" },
       { id: "c", text: "30 cm\u00b2" },
-      { id: "d", text: "16 cm\u00b2" }
+      { id: "d", text: "32 cm\u00b2" }
     ],
     answerId: "c",
     explanation: "Area = (1/2) \u00d7 base \u00d7 height = (1/2) \u00d7 10 \u00d7 6 = 30 cm\u00b2.",
@@ -60,9 +60,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Area of a circle of radius 7 cm (\u03c0 = 22/7) is\u2026",
     options: [
       { id: "a", text: "154 cm\u00b2" },
-      { id: "b", text: "49 cm\u00b2" },
-      { id: "c", text: "22 cm\u00b2" },
-      { id: "d", text: "44 cm\u00b2" }
+      { id: "b", text: "44 cm\u00b2" },
+      { id: "c", text: "49 cm\u00b2" },
+      { id: "d", text: "22 cm\u00b2" }
     ],
     answerId: "a",
     explanation: "A = \u03c0r\u00b2 = (22/7) \u00d7 49 = 154 cm\u00b2.",
@@ -85,10 +85,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-mensuration-a-q07",
     prompt: "Volume of a cuboid 5 cm \u00d7 3 cm \u00d7 2 cm is\u2026",
     options: [
-      { id: "a", text: "15 cm\u00b3" },
-      { id: "b", text: "60 cm\u00b3" },
+      { id: "a", text: "10 cm\u00b3" },
+      { id: "b", text: "15 cm\u00b3" },
       { id: "c", text: "30 cm\u00b3" },
-      { id: "d", text: "10 cm\u00b3" }
+      { id: "d", text: "60 cm\u00b3" }
     ],
     answerId: "c",
     explanation: "V = l \u00d7 b \u00d7 h = 5 \u00d7 3 \u00d7 2 = 30 cm\u00b3.",
@@ -112,9 +112,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Total surface area of a cube of edge 3 cm is\u2026",
     options: [
       { id: "a", text: "54 cm\u00b2" },
-      { id: "b", text: "36 cm\u00b2" },
-      { id: "c", text: "18 cm\u00b2" },
-      { id: "d", text: "27 cm\u00b2" }
+      { id: "b", text: "27 cm\u00b2" },
+      { id: "c", text: "36 cm\u00b2" },
+      { id: "d", text: "18 cm\u00b2" }
     ],
     answerId: "a",
     explanation: "TSA = 6a\u00b2 = 6 \u00d7 9 = 54 cm\u00b2.",
@@ -124,10 +124,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-mensuration-a-q10",
     prompt: "Area of a parallelogram with base 8 cm and height 5 cm is\u2026",
     options: [
-      { id: "a", text: "80 cm\u00b2" },
+      { id: "a", text: "13 cm\u00b2" },
       { id: "b", text: "40 cm\u00b2" },
-      { id: "c", text: "13 cm\u00b2" },
-      { id: "d", text: "20 cm\u00b2" }
+      { id: "c", text: "20 cm\u00b2" },
+      { id: "d", text: "80 cm\u00b2" }
     ],
     answerId: "b",
     explanation: "Area = base \u00d7 height = 8 \u00d7 5 = 40 cm\u00b2.",
@@ -137,10 +137,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-mensuration-a-q11",
     prompt: "A circle has diameter 14 cm. Its radius is\u2026",
     options: [
-      { id: "a", text: "44 cm" },
-      { id: "b", text: "28 cm" },
+      { id: "a", text: "28 cm" },
+      { id: "b", text: "14 cm" },
       { id: "c", text: "7 cm" },
-      { id: "d", text: "14 cm" }
+      { id: "d", text: "44 cm" }
     ],
     answerId: "c",
     explanation: "Radius is half the diameter: 14/2 = 7 cm.",
@@ -176,10 +176,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-mensuration-a-q14",
     prompt: "Curved surface area of a cylinder: r = 7 cm, h = 10 cm (\u03c0 = 22/7).",
     options: [
-      { id: "a", text: "140 cm\u00b2" },
+      { id: "a", text: "1540 cm\u00b2" },
       { id: "b", text: "440 cm\u00b2" },
-      { id: "c", text: "1540 cm\u00b2" },
-      { id: "d", text: "220 cm\u00b2" }
+      { id: "c", text: "220 cm\u00b2" },
+      { id: "d", text: "140 cm\u00b2" }
     ],
     answerId: "b",
     explanation: "CSA = 2\u03c0rh = 2\u00d7(22/7)\u00d77\u00d710 = 440 cm\u00b2.",
@@ -189,10 +189,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-mensuration-a-q15",
     prompt: "A cuboid is 8 cm \u00d7 6 cm \u00d7 5 cm. Its total surface area is\u2026",
     options: [
-      { id: "a", text: "118 cm\u00b2" },
-      { id: "b", text: "480 cm\u00b2" },
+      { id: "a", text: "240 cm\u00b2" },
+      { id: "b", text: "118 cm\u00b2" },
       { id: "c", text: "236 cm\u00b2" },
-      { id: "d", text: "240 cm\u00b2" }
+      { id: "d", text: "480 cm\u00b2" }
     ],
     answerId: "c",
     explanation: "TSA = 2(lb + bh + hl) = 2(48 + 30 + 40) = 2\u00d7118 = 236 cm\u00b2.",
@@ -241,10 +241,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-mensuration-a-q19",
     prompt: "Diagonal of a rectangle 6 cm by 8 cm is\u2026",
     options: [
-      { id: "a", text: "48 cm" },
-      { id: "b", text: "7 cm" },
+      { id: "a", text: "14 cm" },
+      { id: "b", text: "48 cm" },
       { id: "c", text: "10 cm" },
-      { id: "d", text: "14 cm" }
+      { id: "d", text: "7 cm" }
     ],
     answerId: "c",
     explanation: "By Pythagoras: \u221a(36 + 64) = \u221a100 = 10 cm.",
@@ -280,10 +280,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-mensuration-a-q22",
     prompt: "A path 1 m wide runs inside a square park of side 20 m. Area of the path is\u2026",
     options: [
-      { id: "a", text: "39 m\u00b2" },
+      { id: "a", text: "400 m\u00b2" },
       { id: "b", text: "76 m\u00b2" },
-      { id: "c", text: "400 m\u00b2" },
-      { id: "d", text: "361 m\u00b2" }
+      { id: "c", text: "361 m\u00b2" },
+      { id: "d", text: "39 m\u00b2" }
     ],
     answerId: "b",
     explanation: "Inner square side 18 m; path area = 400 \u2212 324 = 76 m\u00b2.",
@@ -293,10 +293,10 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-mensuration-a-q23",
     prompt: "Volume of water in a tank 2 m \u00d7 1.5 m filled to 80 cm depth is\u2026",
     options: [
-      { id: "a", text: "3 m\u00b3" },
-      { id: "b", text: "1.2 m\u00b3" },
+      { id: "a", text: "2.4 cm\u00b3" },
+      { id: "b", text: "3 m\u00b3" },
       { id: "c", text: "2.4 m\u00b3" },
-      { id: "d", text: "2.4 cm\u00b3" }
+      { id: "d", text: "1.2 m\u00b3" }
     ],
     answerId: "c",
     explanation: "Depth = 0.8 m; V = 2 \u00d7 1.5 \u00d7 0.8 = 2.4 m\u00b3.",
@@ -323,9 +323,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Area of a square of side 11 cm is\u2026",
     options: [
       { id: "a", text: "121 cm\u00b2" },
-      { id: "b", text: "22 cm\u00b2" },
-      { id: "c", text: "110 cm\u00b2" },
-      { id: "d", text: "44 cm\u00b2" }
+      { id: "b", text: "44 cm\u00b2" },
+      { id: "c", text: "22 cm\u00b2" },
+      { id: "d", text: "110 cm\u00b2" }
     ],
     answerId: "a",
     explanation: "Area = side\u00b2 = 11\u00b2 = 121 cm\u00b2.",
@@ -335,10 +335,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-mensuration-b-q02",
     prompt: "Perimeter of a rectangle 15 cm by 8 cm is\u2026",
     options: [
-      { id: "a", text: "38 cm" },
+      { id: "a", text: "120 cm" },
       { id: "b", text: "46 cm" },
-      { id: "c", text: "120 cm" },
-      { id: "d", text: "23 cm" }
+      { id: "c", text: "23 cm" },
+      { id: "d", text: "38 cm" }
     ],
     answerId: "b",
     explanation: "P = 2(l + b) = 2(15 + 8) = 46 cm.",
@@ -348,10 +348,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-mensuration-b-q03",
     prompt: "Area of a right triangle with legs 6 cm and 8 cm is\u2026",
     options: [
-      { id: "a", text: "28 cm\u00b2" },
-      { id: "b", text: "48 cm\u00b2" },
+      { id: "a", text: "48 cm\u00b2" },
+      { id: "b", text: "14 cm\u00b2" },
       { id: "c", text: "24 cm\u00b2" },
-      { id: "d", text: "14 cm\u00b2" }
+      { id: "d", text: "28 cm\u00b2" }
     ],
     answerId: "c",
     explanation: "Area = (1/2)\u00d76\u00d78 = 24 cm\u00b2.",
@@ -361,9 +361,9 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-mensuration-b-q04",
     prompt: "Diameter of a circle with circumference 44 cm (\u03c0 = 22/7) is\u2026",
     options: [
-      { id: "a", text: "22 cm" },
-      { id: "b", text: "28 cm" },
-      { id: "c", text: "7 cm" },
+      { id: "a", text: "7 cm" },
+      { id: "b", text: "22 cm" },
+      { id: "c", text: "28 cm" },
       { id: "d", text: "14 cm" }
     ],
     answerId: "d",
@@ -387,10 +387,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-mensuration-b-q06",
     prompt: "Edge of a cube whose volume is 125 cm\u00b3 is\u2026",
     options: [
-      { id: "a", text: "10 cm" },
+      { id: "a", text: "25 cm" },
       { id: "b", text: "5 cm" },
-      { id: "c", text: "25 cm" },
-      { id: "d", text: "15 cm" }
+      { id: "c", text: "15 cm" },
+      { id: "d", text: "10 cm" }
     ],
     answerId: "b",
     explanation: "a\u00b3 = 125 \u21d2 a = 5 cm.",
@@ -400,10 +400,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-mensuration-b-q07",
     prompt: "Volume of a cuboid 10 cm \u00d7 4 cm \u00d7 3 cm is\u2026",
     options: [
-      { id: "a", text: "40 cm\u00b3" },
-      { id: "b", text: "240 cm\u00b3" },
+      { id: "a", text: "17 cm\u00b3" },
+      { id: "b", text: "40 cm\u00b3" },
       { id: "c", text: "120 cm\u00b3" },
-      { id: "d", text: "17 cm\u00b3" }
+      { id: "d", text: "240 cm\u00b3" }
     ],
     answerId: "c",
     explanation: "V = 10 \u00d7 4 \u00d7 3 = 120 cm\u00b3.",
@@ -439,10 +439,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-mensuration-b-q10",
     prompt: "Area of a rhombus with diagonals 10 cm and 8 cm is\u2026",
     options: [
-      { id: "a", text: "36 cm\u00b2" },
+      { id: "a", text: "80 cm\u00b2" },
       { id: "b", text: "40 cm\u00b2" },
-      { id: "c", text: "80 cm\u00b2" },
-      { id: "d", text: "18 cm\u00b2" }
+      { id: "c", text: "18 cm\u00b2" },
+      { id: "d", text: "36 cm\u00b2" }
     ],
     answerId: "b",
     explanation: "Area = (1/2)\u00d7d\u2081\u00d7d\u2082 = (1/2)\u00d710\u00d78 = 40 cm\u00b2.",
@@ -452,10 +452,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-mensuration-b-q11",
     prompt: "A circular pond has radius 21 m. Area (\u03c0 = 22/7) is\u2026",
     options: [
-      { id: "a", text: "462 m\u00b2" },
-      { id: "b", text: "2772 m\u00b2" },
+      { id: "a", text: "132 m\u00b2" },
+      { id: "b", text: "462 m\u00b2" },
       { id: "c", text: "1386 m\u00b2" },
-      { id: "d", text: "132 m\u00b2" }
+      { id: "d", text: "2772 m\u00b2" }
     ],
     answerId: "c",
     explanation: "A = (22/7)\u00d7441 = 1386 m\u00b2.",
@@ -491,10 +491,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-mensuration-b-q14",
     prompt: "CSA of a cylinder: r = 5 cm, h = 14 cm (\u03c0 = 22/7).",
     options: [
-      { id: "a", text: "700 cm\u00b2" },
+      { id: "a", text: "220 cm\u00b2" },
       { id: "b", text: "440 cm\u00b2" },
-      { id: "c", text: "220 cm\u00b2" },
-      { id: "d", text: "350 cm\u00b2" }
+      { id: "c", text: "350 cm\u00b2" },
+      { id: "d", text: "700 cm\u00b2" }
     ],
     answerId: "b",
     explanation: "2\u03c0rh = 2\u00d7(22/7)\u00d75\u00d714 = 440 cm\u00b2.",
@@ -504,10 +504,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-mensuration-b-q15",
     prompt: "How many litres does a cuboid tank 2 m \u00d7 1 m \u00d7 0.5 m hold?",
     options: [
-      { id: "a", text: "10 L" },
-      { id: "b", text: "2000 L" },
+      { id: "a", text: "100 L" },
+      { id: "b", text: "10 L" },
       { id: "c", text: "1000 L" },
-      { id: "d", text: "100 L" }
+      { id: "d", text: "2000 L" }
     ],
     answerId: "c",
     explanation: "V = 1 m\u00b3 = 1000 litres.",
@@ -543,10 +543,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-mensuration-b-q18",
     prompt: "Number of 1 cm cubes in a 5 cm \u00d7 4 cm \u00d7 3 cm cuboid is\u2026",
     options: [
-      { id: "a", text: "120" },
+      { id: "a", text: "12" },
       { id: "b", text: "60" },
-      { id: "c", text: "12" },
-      { id: "d", text: "20" }
+      { id: "c", text: "20" },
+      { id: "d", text: "120" }
     ],
     answerId: "b",
     explanation: "Volume in cm\u00b3 equals the count of 1 cm cubes: 5\u00d74\u00d73 = 60.",
@@ -556,10 +556,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-mensuration-b-q19",
     prompt: "A wire of length 88 cm is bent into a circle. Radius (\u03c0 = 22/7) is\u2026",
     options: [
-      { id: "a", text: "28 cm" },
-      { id: "b", text: "11 cm" },
+      { id: "a", text: "7 cm" },
+      { id: "b", text: "28 cm" },
       { id: "c", text: "14 cm" },
-      { id: "d", text: "7 cm" }
+      { id: "d", text: "11 cm" }
     ],
     answerId: "c",
     explanation: "2\u03c0r = 88 \u21d2 r = 88 \u00d7 7/(2\u00d722) = 14 cm.",
@@ -595,10 +595,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-mensuration-b-q22",
     prompt: "Outer side of a square frame is 12 cm; inner side 10 cm. Area of the frame is\u2026",
     options: [
-      { id: "a", text: "100 cm\u00b2" },
+      { id: "a", text: "24 cm\u00b2" },
       { id: "b", text: "44 cm\u00b2" },
-      { id: "c", text: "24 cm\u00b2" },
-      { id: "d", text: "120 cm\u00b2" }
+      { id: "c", text: "120 cm\u00b2" },
+      { id: "d", text: "100 cm\u00b2" }
     ],
     answerId: "b",
     explanation: "Outer area 144 \u2212 inner 100 = 44 cm\u00b2.",
@@ -608,10 +608,10 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-mensuration-b-q23",
     prompt: "A cylindrical pipe has inner r = 3.5 cm and length 20 m. Volume of water it can hold (\u03c0 = 22/7) is\u2026",
     options: [
-      { id: "a", text: "1540 cm\u00b3" },
-      { id: "b", text: "440 cm\u00b3" },
+      { id: "a", text: "7700 cm\u00b3" },
+      { id: "b", text: "1540 cm\u00b3" },
       { id: "c", text: "77000 cm\u00b3" },
-      { id: "d", text: "7700 cm\u00b3" }
+      { id: "d", text: "440 cm\u00b3" }
     ],
     answerId: "c",
     explanation: "Length = 2000 cm; V = (22/7)\u00d712.25\u00d72000 = 77000 cm\u00b3.",

@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-frac-a-q01",
     prompt: "What is 3/4 + 1/4?",
     options: [
-      { id: "a", text: "4/8" },
-      { id: "b", text: "1" },
+      { id: "a", text: "1" },
+      { id: "b", text: "4/8" },
       { id: "c", text: "3/8" },
       { id: "d", text: "2/4" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Like denominators: 3/4 + 1/4 = 4/4 = 1.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -34,11 +34,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which fraction is equivalent to 2/3?",
     options: [
       { id: "a", text: "3/2" },
-      { id: "b", text: "4/6" },
-      { id: "c", text: "2/6" },
+      { id: "b", text: "2/6" },
+      { id: "c", text: "4/6" },
       { id: "d", text: "6/3" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Multiply top and bottom by 2: 2/3 = 4/6.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -47,11 +47,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "What is 2/5 of 40?",
     options: [
       { id: "a", text: "8" },
-      { id: "b", text: "16" },
-      { id: "c", text: "20" },
-      { id: "d", text: "10" }
+      { id: "b", text: "20" },
+      { id: "c", text: "10" },
+      { id: "d", text: "16" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "2/5 × 40 = 16.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -86,11 +86,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which is greater: 0.45 or 0.5?",
     options: [
       { id: "a", text: "0.45" },
-      { id: "b", text: "0.5" },
-      { id: "c", text: "Equal" },
+      { id: "b", text: "Equal" },
+      { id: "c", text: "0.5" },
       { id: "d", text: "Cannot tell" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "0.50 > 0.45, so 0.5 is greater.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -98,12 +98,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-frac-a-q08",
     prompt: "What is 1.2 + 0.35?",
     options: [
-      { id: "a", text: "1.55" },
-      { id: "b", text: "1.45" },
-      { id: "c", text: "4.7" },
-      { id: "d", text: "0.155" }
+      { id: "a", text: "1.45" },
+      { id: "b", text: "4.7" },
+      { id: "c", text: "0.155" },
+      { id: "d", text: "1.55" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "1.20 + 0.35 = 1.55.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-frac-a-q11",
     prompt: "Express 125/100 as a decimal.",
     options: [
-      { id: "a", text: "1.25" },
-      { id: "b", text: "12.5" },
-      { id: "c", text: "0.125" },
+      { id: "a", text: "12.5" },
+      { id: "b", text: "0.125" },
+      { id: "c", text: "1.25" },
       { id: "d", text: "125" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "125/100 = 1.25.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -152,10 +152,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "8/12 m" },
       { id: "b", text: "11/8 m" },
-      { id: "c", text: "1 3/8 m" },
-      { id: "d", text: "1 1/8 m" }
+      { id: "c", text: "1 1/8 m" },
+      { id: "d", text: "1 3/8 m" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "3/4 = 6/8; 6/8 + 5/8 = 11/8 = 1 3/8 m.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -176,12 +176,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-frac-a-q14",
     prompt: "Simplify 18/24.",
     options: [
-      { id: "a", text: "3/4" },
-      { id: "b", text: "9/12" },
+      { id: "a", text: "9/12" },
+      { id: "b", text: "3/4" },
       { id: "c", text: "2/3" },
       { id: "d", text: "6/8" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Divide top and bottom by 6: 3/4.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-frac-a-q15",
     prompt: "What is 2.5 × 4?",
     options: [
-      { id: "a", text: "10" },
-      { id: "b", text: "1.0" },
-      { id: "c", text: "6.5" },
+      { id: "a", text: "1.0" },
+      { id: "b", text: "6.5" },
+      { id: "c", text: "10" },
       { id: "d", text: "8.5" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "2.5 × 4 = 10.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -203,11 +203,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Ravi walks 2.4 km in the morning and 1.85 km in the evening. Total?",
     options: [
       { id: "a", text: "3.25 km" },
-      { id: "b", text: "4.25 km" },
-      { id: "c", text: "4.125 km" },
-      { id: "d", text: "3.125 km" }
+      { id: "b", text: "4.125 km" },
+      { id: "c", text: "3.125 km" },
+      { id: "d", text: "4.25 km" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "2.40 + 1.85 = 4.25 km.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -215,12 +215,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-frac-a-q17",
     prompt: "Which is a proper fraction?",
     options: [
-      { id: "a", text: "5/4" },
-      { id: "b", text: "4/4" },
-      { id: "c", text: "3/7" },
+      { id: "a", text: "3/7" },
+      { id: "b", text: "5/4" },
+      { id: "c", text: "4/4" },
       { id: "d", text: "9/5" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "A proper fraction has numerator smaller than denominator: 3/7.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -228,12 +228,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-frac-a-q18",
     prompt: "Convert 2 1/4 to an improper fraction.",
     options: [
-      { id: "a", text: "9/4" },
-      { id: "b", text: "5/4" },
+      { id: "a", text: "5/4" },
+      { id: "b", text: "9/4" },
       { id: "c", text: "8/4" },
       { id: "d", text: "6/4" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "2 × 4 + 1 = 9, so 9/4.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -254,12 +254,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-frac-a-q20",
     prompt: "Arrange ascending: 0.09, 0.9, 0.19.",
     options: [
-      { id: "a", text: "0.09, 0.19, 0.9" },
-      { id: "b", text: "0.9, 0.19, 0.09" },
-      { id: "c", text: "0.09, 0.9, 0.19" },
-      { id: "d", text: "0.19, 0.09, 0.9" }
+      { id: "a", text: "0.9, 0.19, 0.09" },
+      { id: "b", text: "0.09, 0.9, 0.19" },
+      { id: "c", text: "0.19, 0.09, 0.9" },
+      { id: "d", text: "0.09, 0.19, 0.9" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "0.09 < 0.19 < 0.90.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -293,12 +293,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-frac-a-q23",
     prompt: "Compute 7/10 + 0.2.",
     options: [
-      { id: "a", text: "0.9" },
-      { id: "b", text: "0.72" },
-      { id: "c", text: "1.0" },
+      { id: "a", text: "0.72" },
+      { id: "b", text: "1.0" },
+      { id: "c", text: "0.9" },
       { id: "d", text: "0.5" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "7/10 = 0.7; 0.7 + 0.2 = 0.9.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -306,12 +306,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-frac-a-q24",
     prompt: "A bottle holds 1.5 L. Meera pours out 3/5 L. How much is left?",
     options: [
-      { id: "a", text: "0.9 L" },
-      { id: "b", text: "1.1 L" },
-      { id: "c", text: "0.8 L" },
-      { id: "d", text: "1.2 L" }
+      { id: "a", text: "1.1 L" },
+      { id: "b", text: "0.8 L" },
+      { id: "c", text: "1.2 L" },
+      { id: "d", text: "0.9 L" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "3/5 = 0.6; 1.5 − 0.6 = 0.9 L.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
@@ -322,12 +322,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-frac-b-q01",
     prompt: "What is 1/3 + 1/6?",
     options: [
-      { id: "a", text: "2/9" },
-      { id: "b", text: "1/2" },
+      { id: "a", text: "1/2" },
+      { id: "b", text: "2/9" },
       { id: "c", text: "1/9" },
       { id: "d", text: "2/6" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "1/3 = 2/6; 2/6 + 1/6 = 3/6 = 1/2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -349,11 +349,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which pair are equivalent?",
     options: [
       { id: "a", text: "1/2 and 2/3" },
-      { id: "b", text: "3/5 and 6/10" },
-      { id: "c", text: "2/4 and 3/9" },
+      { id: "b", text: "2/4 and 3/9" },
+      { id: "c", text: "3/5 and 6/10" },
       { id: "d", text: "4/6 and 2/2" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "3/5 × 2/2 = 6/10.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -361,12 +361,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-frac-b-q04",
     prompt: "What is 3/4 of 2.4?",
     options: [
-      { id: "a", text: "1.8" },
-      { id: "b", text: "0.8" },
-      { id: "c", text: "3.2" },
-      { id: "d", text: "1.2" }
+      { id: "a", text: "0.8" },
+      { id: "b", text: "3.2" },
+      { id: "c", text: "1.2" },
+      { id: "d", text: "1.8" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "2.4 ÷ 4 = 0.6; 0.6 × 3 = 1.8.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -374,12 +374,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-frac-b-q05",
     prompt: "Convert 0.08 to a fraction in simplest form.",
     options: [
-      { id: "a", text: "8/10" },
-      { id: "b", text: "2/25" },
+      { id: "a", text: "2/25" },
+      { id: "b", text: "8/10" },
       { id: "c", text: "8/100" },
       { id: "d", text: "4/50" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "0.08 = 8/100 = 2/25.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-frac-b-q06",
     prompt: "Convert 9/4 to a mixed number.",
     options: [
-      { id: "a", text: "2 1/4" },
-      { id: "b", text: "1 1/4" },
+      { id: "a", text: "1 1/4" },
+      { id: "b", text: "2 1/4" },
       { id: "c", text: "2 1/9" },
       { id: "d", text: "4/9" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "9 ÷ 4 = 2 remainder 1 → 2 1/4.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-frac-b-q07",
     prompt: "What is 2.05 + 3.7?",
     options: [
-      { id: "a", text: "5.75" },
-      { id: "b", text: "5.12" },
-      { id: "c", text: "5.775" },
+      { id: "a", text: "5.12" },
+      { id: "b", text: "5.775" },
+      { id: "c", text: "5.75" },
       { id: "d", text: "23.75" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "2.05 + 3.70 = 5.75.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-frac-b-q08",
     prompt: "What is 6 − 2.48?",
     options: [
-      { id: "a", text: "3.52" },
-      { id: "b", text: "4.52" },
-      { id: "c", text: "3.62" },
-      { id: "d", text: "4.62" }
+      { id: "a", text: "4.52" },
+      { id: "b", text: "3.62" },
+      { id: "c", text: "4.62" },
+      { id: "d", text: "3.52" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "6.00 − 2.48 = 3.52.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -466,11 +466,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Express 4.2 as a fraction in simplest form.",
     options: [
       { id: "a", text: "42/10" },
-      { id: "b", text: "21/5" },
-      { id: "c", text: "4/2" },
-      { id: "d", text: "42/100" }
+      { id: "b", text: "4/2" },
+      { id: "c", text: "42/100" },
+      { id: "d", text: "21/5" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "4.2 = 42/10 = 21/5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -478,12 +478,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-frac-b-q13",
     prompt: "What is 2/3 × 9/10?",
     options: [
-      { id: "a", text: "18/30" },
-      { id: "b", text: "3/5" },
+      { id: "a", text: "3/5" },
+      { id: "b", text: "18/30" },
       { id: "c", text: "11/13" },
       { id: "d", text: "2/10" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "2/3 × 9/10 = 18/30 = 3/5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -491,12 +491,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-frac-b-q14",
     prompt: "A tank is 5/8 full. If capacity is 40 L, how many litres are in it?",
     options: [
-      { id: "a", text: "25 L" },
-      { id: "b", text: "20 L" },
+      { id: "a", text: "20 L" },
+      { id: "b", text: "25 L" },
       { id: "c", text: "32 L" },
       { id: "d", text: "15 L" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "5/8 × 40 = 25 L.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -505,11 +505,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Round 3.678 to 2 decimal places.",
     options: [
       { id: "a", text: "3.67" },
-      { id: "b", text: "3.68" },
-      { id: "c", text: "3.70" },
+      { id: "b", text: "3.70" },
+      { id: "c", text: "3.68" },
       { id: "d", text: "3.60" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "The third decimal is 8 ≥ 5, so 3.68.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -517,12 +517,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-frac-b-q16",
     prompt: "What is 0.4 + 2/5?",
     options: [
-      { id: "a", text: "0.8" },
-      { id: "b", text: "1.0" },
-      { id: "c", text: "0.6" },
-      { id: "d", text: "0.9" }
+      { id: "a", text: "1.0" },
+      { id: "b", text: "0.6" },
+      { id: "c", text: "0.9" },
+      { id: "d", text: "0.8" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "2/5 = 0.4; 0.4 + 0.4 = 0.8.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -543,12 +543,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-frac-b-q18",
     prompt: "Compute 12.6 ÷ 3.",
     options: [
-      { id: "a", text: "4.2" },
-      { id: "b", text: "3.2" },
+      { id: "a", text: "3.2" },
+      { id: "b", text: "4.2" },
       { id: "c", text: "42" },
       { id: "d", text: "0.42" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "12.6 ÷ 3 = 4.2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -557,11 +557,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "A pizza is cut into 8 equal slices. Mira eats 3. What fraction remains?",
     options: [
       { id: "a", text: "3/8" },
-      { id: "b", text: "5/8" },
-      { id: "c", text: "3/5" },
+      { id: "b", text: "3/5" },
+      { id: "c", text: "5/8" },
       { id: "d", text: "8/5" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "8 − 3 = 5 slices left → 5/8.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -569,12 +569,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-frac-b-q20",
     prompt: "What is 7/2 − 1.5?",
     options: [
-      { id: "a", text: "2" },
-      { id: "b", text: "3.5" },
-      { id: "c", text: "5.5" },
-      { id: "d", text: "1" }
+      { id: "a", text: "3.5" },
+      { id: "b", text: "5.5" },
+      { id: "c", text: "1" },
+      { id: "d", text: "2" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "7/2 = 3.5; 3.5 − 1.5 = 2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -582,18 +582,18 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-frac-b-q21",
     prompt: "Convert 0.125 to a fraction in simplest form.",
     options: [
-      { id: "a", text: "125/1000" },
-      { id: "b", text: "1/8" },
+      { id: "a", text: "1/8" },
+      { id: "b", text: "125/1000" },
       { id: "c", text: "1/4" },
       { id: "d", text: "5/40" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "0.125 = 125/1000 = 1/8.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
     id: "g6-maths-frac-b-q22",
-    prompt: "Which statement is true?",
+    prompt: "Which statement about 0.7 and 7/10 is true?",
     options: [
       { id: "a", text: "0.7 > 7/10" },
       { id: "b", text: "0.7 = 7/10" },
@@ -608,12 +608,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-frac-b-q23",
     prompt: "A rope is 6.4 m. Cut into pieces of 0.8 m each. How many pieces?",
     options: [
-      { id: "a", text: "8" },
-      { id: "b", text: "7" },
-      { id: "c", text: "9" },
+      { id: "a", text: "7" },
+      { id: "b", text: "9" },
+      { id: "c", text: "8" },
       { id: "d", text: "6" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "6.4 ÷ 0.8 = 64 ÷ 8 = 8.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -622,11 +622,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "What is 5/6 of 18?",
     options: [
       { id: "a", text: "12" },
-      { id: "b", text: "15" },
-      { id: "c", text: "9" },
-      { id: "d", text: "10" }
+      { id: "b", text: "9" },
+      { id: "c", text: "10" },
+      { id: "d", text: "15" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "18 ÷ 6 = 3; 3 × 5 = 15.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }

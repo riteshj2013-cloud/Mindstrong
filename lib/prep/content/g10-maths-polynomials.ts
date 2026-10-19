@@ -5,15 +5,15 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g10-maths-poly-a-q01",
-    prompt: "The degree of the polynomial 5x\u00b3 \u2212 2x + 7 is \u2014",
+    prompt: "The degree of the polynomial 4x\u00b2 \u2212 x\u2075 + 3x is \u2014",
     options: [
-      { id: "a", text: "3" },
-      { id: "b", text: "5" },
+      { id: "a", text: "5" },
+      { id: "b", text: "2" },
       { id: "c", text: "1" },
-      { id: "d", text: "0" }
+      { id: "d", text: "3" }
     ],
     answerId: "a",
-    explanation: "Highest power of x with non-zero coefficient is 3.",
+    explanation: "The degree is the highest power of x with a non-zero coefficient, which is 5 (from \u2212x\u2075). 2 is tempting because 4x\u00b2 is written first, but the order of terms does not matter.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -44,15 +44,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-maths-poly-a-q04",
-    prompt: "The remainder when x\u00b3 + 3x + 1 is divided by x \u2212 1 is \u2014",
+    prompt: "The remainder when x\u00b3 \u2212 2x\u00b2 + 4 is divided by x + 1 is \u2014",
     options: [
-      { id: "a", text: "5" },
-      { id: "b", text: "1" },
-      { id: "c", text: "0" },
-      { id: "d", text: "3" }
+      { id: "a", text: "1" },
+      { id: "b", text: "3" },
+      { id: "c", text: "\u22121" },
+      { id: "d", text: "7" }
     ],
     answerId: "a",
-    explanation: "By remainder theorem, p(1)=1+3+1=5.",
+    explanation: "x + 1 = x \u2212 (\u22121), so the remainder is p(\u22121) = \u22121 \u2212 2 + 4 = 1. 3 is tempting, but that is p(1), which uses the wrong sign.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -70,15 +70,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-maths-poly-a-q06",
-    prompt: "If \u03b1 and \u03b2 are zeros of x\u00b2 \u2212 5x + 6, then \u03b1 + \u03b2 equals \u2014",
+    prompt: "If \u03b1 and \u03b2 are the zeros of 2x\u00b2 \u2212 7x + 3, then \u03b1\u03b2 equals \u2014",
     options: [
-      { id: "a", text: "\u22125" },
-      { id: "b", text: "1" },
-      { id: "c", text: "6" },
-      { id: "d", text: "5" }
+      { id: "a", text: "3" },
+      { id: "b", text: "\u22123/2" },
+      { id: "c", text: "7/2" },
+      { id: "d", text: "3/2" }
     ],
     answerId: "d",
-    explanation: "Sum of zeros = \u2212b/a = 5.",
+    explanation: "For ax\u00b2 + bx + c, the product of zeros is c/a = 3/2. 3 is tempting if you forget to divide by a = 2, and 7/2 is the sum of the zeros (\u2212b/a), not the product.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -333,15 +333,15 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-maths-poly-b-q02",
-    prompt: "Remainder when 2x\u00b3 \u2212 3x\u00b2 + x \u2212 1 is divided by x \u2212 2 is \u2014",
+    prompt: "Remainder when x\u00b3 \u2212 4x + 5 is divided by x \u2212 3 is \u2014",
     options: [
-      { id: "a", text: "1" },
-      { id: "b", text: "5" },
-      { id: "c", text: "0" },
-      { id: "d", text: "3" }
+      { id: "a", text: "5" },
+      { id: "b", text: "20" },
+      { id: "c", text: "8" },
+      { id: "d", text: "\u221210" }
     ],
     answerId: "b",
-    explanation: "p(2)=16\u221212+2\u22121=5.",
+    explanation: "By the remainder theorem the remainder is p(3) = 27 \u2212 12 + 5 = 20. \u221210 is tempting, but that is p(\u22123), which uses the wrong sign.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

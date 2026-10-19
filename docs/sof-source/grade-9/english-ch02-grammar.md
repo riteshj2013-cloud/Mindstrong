@@ -27,11 +27,11 @@
 ### Q01
 - **stem**: Choose the correct sentence.
 - **options**:
-  - A) She don’t like tea.
-  - B) She doesn’t like tea.
+  - A) She doesn’t like tea.
+  - B) She don’t like tea.
   - C) She doesn’t likes tea.
   - D) She not like tea.
-- **answer**: B
+- **answer**: A
 - **explanation**: Third-person singular needs doesn’t + base verb.
 - **skill**: agreement
 - **difficulty**: easy
@@ -52,10 +52,10 @@
 - **stem**: Change to passive: “The chef cooked the meal.”
 - **options**:
   - A) The meal cooked the chef.
-  - B) The meal was cooked by the chef.
-  - C) The meal is cooking the chef.
+  - B) The meal is cooking the chef.
+  - C) The meal was cooked by the chef.
   - D) The chef was cooked the meal.
-- **answer**: B
+- **answer**: C
 - **explanation**: Object becomes subject; past simple → was/were + past participle.
 - **skill**: voice
 - **difficulty**: easy
@@ -64,10 +64,10 @@
 - **stem**: Reported speech: He said, “I am tired.” → He said that he ____ tired.
 - **options**:
   - A) is
-  - B) was
-  - C) will be
-  - D) were being
-- **answer**: B
+  - B) will be
+  - C) were being
+  - D) was
+- **answer**: D
 - **explanation**: Backshift present to past after a past reporting verb.
 - **skill**: reported
 - **difficulty**: easy
@@ -75,11 +75,11 @@
 ### Q05
 - **stem**: Choose the correct article: She is ____ honest person.
 - **options**:
-  - A) a
-  - B) an
+  - A) an
+  - B) a
   - C) the
   - D) no article
-- **answer**: B
+- **answer**: A
 - **explanation**: Honest begins with a vowel sound → an.
 - **skill**: articles
 - **difficulty**: easy
@@ -88,10 +88,10 @@
 - **stem**: Identify the error: “Neither of the answers are correct.”
 - **options**:
   - A) Neither
-  - B) of the answers
-  - C) are → should be is
+  - B) are → should be is
+  - C) of the answers
   - D) correct
-- **answer**: C
+- **answer**: B
 - **explanation**: Neither is singular → is.
 - **skill**: agreement
 - **difficulty**: medium
@@ -100,10 +100,10 @@
 - **stem**: Modal: You ____ wear a helmet on this site. (strong obligation)
 - **options**:
   - A) might
-  - B) must
-  - C) could
+  - B) could
+  - C) must
   - D) may
-- **answer**: B
+- **answer**: C
 - **explanation**: Must expresses strong obligation.
 - **skill**: modals
 - **difficulty**: easy
@@ -112,23 +112,23 @@
 - **stem**: Choose the correct verb: The news ____ surprising.
 - **options**:
   - A) are
-  - B) is
-  - C) were
-  - D) have
-- **answer**: B
+  - B) were
+  - C) have
+  - D) is
+- **answer**: D
 - **explanation**: News is singular in standard English → is.
 - **skill**: agreement
 - **difficulty**: medium
 
 ### Q09
-- **stem**: Fill in: If it rains, we ____ indoors.
+- **stem**: Fill in: If you heat ice, it ____.
 - **options**:
-  - A) stay
-  - B) stayed
-  - C) would stayed
-  - D) had stayed
+  - A) melts
+  - B) melted
+  - C) would melt
+  - D) had melted
 - **answer**: A
-- **explanation**: First conditional: If + present, will/can/other present forms; “stay” fits as a present/instructional result (or “will stay”). Among options, stay is correct.
+- **explanation**: This is the zero conditional for a general truth: if + present, present. So “it melts”. “Would melt” is tempting, but that belongs to the second conditional, used for imaginary situations.
 - **skill**: conditional
 - **difficulty**: medium
 
@@ -148,10 +148,10 @@
 - **stem**: Voice: “A song was sung by the choir” is…
 - **options**:
   - A) active voice
-  - B) passive voice
-  - C) imperative
+  - B) imperative
+  - C) passive voice
   - D) interrogative
-- **answer**: B
+- **answer**: C
 - **explanation**: Was sung + by-phrase marks passive.
 - **skill**: voice
 - **difficulty**: easy
@@ -160,10 +160,10 @@
 - **stem**: Choose: She has been working here ____ 2019.
 - **options**:
   - A) for
-  - B) since
-  - C) from
-  - D) at
-- **answer**: B
+  - B) from
+  - C) at
+  - D) since
+- **answer**: D
 - **explanation**: Since + starting point; for + duration.
 - **skill**: preposition
 - **difficulty**: easy
@@ -171,11 +171,11 @@
 ### Q13
 - **stem**: Reported: “Where do you live?” she asked me. → She asked me where I ____.
 - **options**:
-  - A) live
-  - B) lived
+  - A) lived
+  - B) live
   - C) do live
   - D) am living yesterday
-- **answer**: B
+- **answer**: A
 - **explanation**: Wh-question becomes statement order with backshift: lived.
 - **skill**: reported
 - **difficulty**: medium
@@ -193,14 +193,14 @@
 - **difficulty**: easy
 
 ### Q15
-- **stem**: Identify the clause type: “when the bell rang” in “We left when the bell rang.”
+- **stem**: Identify the clause type: “that she was right” in “Everyone knew that she was right.”
 - **options**:
-  - A) noun clause
-  - B) adjective clause
-  - C) adverb clause of time
+  - A) adjective clause
+  - B) adverb clause of reason
+  - C) noun clause
   - D) main clause
 - **answer**: C
-- **explanation**: It modifies left by telling when — adverbial time clause.
+- **explanation**: The clause is the object of “knew” (knew what?), so it is a noun clause. It is tempting to call it an adjective clause because it begins with “that”, but it does not describe any noun.
 - **skill**: clauses
 - **difficulty**: medium
 
@@ -208,10 +208,10 @@
 - **stem**: Fill: Neither Ravi nor his friends ____ ready.
 - **options**:
   - A) is
-  - B) are
-  - C) was
-  - D) has
-- **answer**: B
+  - B) was
+  - C) has
+  - D) are
+- **answer**: D
 - **explanation**: With neither…nor, the verb agrees with the nearer subject (friends → are).
 - **skill**: agreement
 - **difficulty**: hard
@@ -219,11 +219,11 @@
 ### Q17
 - **stem**: Choose correct: I look forward to ____ you.
 - **options**:
-  - A) meet
-  - B) meeting
+  - A) meeting
+  - B) meet
   - C) met
   - D) meets
-- **answer**: B
+- **answer**: A
 - **explanation**: Look forward to + gerund.
 - **skill**: verb-pattern
 - **difficulty**: medium
@@ -231,11 +231,11 @@
 ### Q18
 - **stem**: Passive of “People speak English here.”
 - **options**:
-  - A) English is spoken here.
-  - B) English spoken here people.
+  - A) English spoken here people.
+  - B) English is spoken here.
   - C) English was speak here.
   - D) English are spoken here.
-- **answer**: A
+- **answer**: B
 - **explanation**: Present simple passive: is/are + past participle; English is singular mass → is spoken.
 - **skill**: voice
 - **difficulty**: easy
@@ -244,10 +244,10 @@
 - **stem**: Choose the right determiner: ____ of the milk was spilled.
 - **options**:
   - A) Many
-  - B) Much
-  - C) Few
+  - B) Few
+  - C) Much
   - D) Several
-- **answer**: B
+- **answer**: C
 - **explanation**: Milk is uncountable → much.
 - **skill**: determiners
 - **difficulty**: easy
@@ -256,10 +256,10 @@
 - **stem**: Error spot: “He suggested to go home.” Correct form uses…
 - **options**:
   - A) suggested to go
-  - B) suggested going
-  - C) suggested go
-  - D) suggested gone
-- **answer**: B
+  - B) suggested go
+  - C) suggested gone
+  - D) suggested going
+- **answer**: D
 - **explanation**: Suggest + gerund (or that-clause), not to-infinitive.
 - **skill**: verb-pattern
 - **difficulty**: medium
@@ -267,11 +267,11 @@
 ### Q21
 - **stem**: Choose: She ____ finished the novel before the exam started.
 - **options**:
-  - A) has
-  - B) had
+  - A) had
+  - B) has
   - C) have
   - D) having
-- **answer**: B
+- **answer**: A
 - **explanation**: Past perfect for earlier past before another past.
 - **skill**: tense
 - **difficulty**: medium
@@ -292,10 +292,10 @@
 - **stem**: Fill: It’s time we ____ home.
 - **options**:
   - A) go
-  - B) went
-  - C) gone
+  - B) gone
+  - C) went
   - D) going
-- **answer**: B
+- **answer**: C
 - **explanation**: It’s time + past tense form (unreal present).
 - **skill**: tense
 - **difficulty**: hard
@@ -304,10 +304,10 @@
 - **stem**: Choose correct preposition: She is good ____ mathematics.
 - **options**:
   - A) in
-  - B) at
-  - C) on
-  - D) by
-- **answer**: B
+  - B) on
+  - C) by
+  - D) at
+- **answer**: D
 - **explanation**: Good at + subject/skill.
 - **skill**: preposition
 - **difficulty**: easy
@@ -329,11 +329,11 @@
 ### Q02
 - **stem**: Active form of “The window was broken by the storm.”
 - **options**:
-  - A) The storm broke the window.
-  - B) The storm was broken the window.
+  - A) The storm was broken the window.
+  - B) The storm broke the window.
   - C) The window broke the storm.
   - D) The storm broken window.
-- **answer**: A
+- **answer**: B
 - **explanation**: Restore the agent as subject; past simple active: broke.
 - **skill**: voice
 - **difficulty**: easy
@@ -342,10 +342,10 @@
 - **stem**: Reported: She said, “I will call tomorrow.” → She said she ____ call the next day.
 - **options**:
   - A) will
-  - B) would
-  - C) shall
+  - B) shall
+  - C) would
   - D) can
-- **answer**: B
+- **answer**: C
 - **explanation**: Will → would; tomorrow → the next day.
 - **skill**: reported
 - **difficulty**: easy
@@ -354,10 +354,10 @@
 - **stem**: Fill: He has lived here ____ five years.
 - **options**:
   - A) since
-  - B) for
-  - C) from
-  - D) during
-- **answer**: B
+  - B) from
+  - C) during
+  - D) for
+- **answer**: D
 - **explanation**: Five years is a duration, so use for. Since takes a starting point.
 - **skill**: preposition
 - **difficulty**: easy
@@ -365,11 +365,11 @@
 ### Q05
 - **stem**: Choose the correct question tag: You’re ready, ____?
 - **options**:
-  - A) are you
-  - B) aren’t you
+  - A) aren’t you
+  - B) are you
   - C) isn’t you
   - D) don’t you
-- **answer**: B
+- **answer**: A
 - **explanation**: Positive statement → negative tag: aren’t you.
 - **skill**: tags
 - **difficulty**: easy
@@ -377,11 +377,11 @@
 ### Q06
 - **stem**: Identify tense: “She had been waiting for an hour when the bus arrived.”
 - **options**:
-  - A) past perfect continuous
-  - B) present perfect
+  - A) present perfect
+  - B) past perfect continuous
   - C) simple past
   - D) future perfect
-- **answer**: A
+- **answer**: B
 - **explanation**: Had been + -ing marks past perfect continuous.
 - **skill**: tense
 - **difficulty**: medium
@@ -389,11 +389,11 @@
 ### Q07
 - **stem**: Choose: Hardly had we entered ____ it started raining.
 - **options**:
-  - A) when
-  - B) than
-  - C) then
+  - A) than
+  - B) then
+  - C) when
   - D) that
-- **answer**: A
+- **answer**: C
 - **explanation**: Hardly…when is the correlative pair.
 - **skill**: connectors
 - **difficulty**: hard
@@ -401,11 +401,11 @@
 ### Q08
 - **stem**: Correct the adjective order: “a leather black new bag” →
 - **options**:
-  - A) a new black leather bag
-  - B) a black new leather bag
-  - C) a leather new black bag
-  - D) a new leather black bag
-- **answer**: A
+  - A) a black new leather bag
+  - B) a leather new black bag
+  - C) a new leather black bag
+  - D) a new black leather bag
+- **answer**: D
 - **explanation**: Typical order: opinion/age → colour → material.
 - **skill**: adjectives
 - **difficulty**: hard
@@ -413,24 +413,24 @@
 ### Q09
 - **stem**: Fill: Prefer tea ____ coffee.
 - **options**:
-  - A) than
-  - B) to
+  - A) to
+  - B) than
   - C) from
   - D) over than
-- **answer**: B
+- **answer**: A
 - **explanation**: Prefer A to B.
 - **skill**: preposition
 - **difficulty**: easy
 
 ### Q10
-- **stem**: Which is a complex sentence?
+- **stem**: Which of these is a complex sentence?
 - **options**:
-  - A) I came and I saw.
-  - B) I came.
-  - C) I came when you called.
-  - D) Come here.
-- **answer**: C
-- **explanation**: One independent + one dependent clause (when…).
+  - A) She won and she smiled.
+  - B) She smiled because she had won.
+  - C) She smiled.
+  - D) Smile!
+- **answer**: B
+- **explanation**: A complex sentence has a main clause and a dependent clause; “because she had won” cannot stand alone. “She won and she smiled” is tempting because it has two clauses, but both are main clauses joined by “and”, so it is compound.
 - **skill**: sentences
 - **difficulty**: medium
 
@@ -438,10 +438,10 @@
 - **stem**: Choose: Each of the players ____ a medal.
 - **options**:
   - A) receive
-  - B) receives
-  - C) have received
+  - B) have received
+  - C) receives
   - D) are receiving
-- **answer**: B
+- **answer**: C
 - **explanation**: Each is singular → receives.
 - **skill**: agreement
 - **difficulty**: easy
@@ -449,11 +449,11 @@
 ### Q12
 - **stem**: Passive: “They are repairing the road.”
 - **options**:
-  - A) The road is being repaired.
-  - B) The road is repaired them.
-  - C) The road was being repair.
-  - D) The road repairs.
-- **answer**: A
+  - A) The road is repaired them.
+  - B) The road was being repair.
+  - C) The road repairs.
+  - D) The road is being repaired.
+- **answer**: D
 - **explanation**: Present continuous passive: is/are being + past participle.
 - **skill**: voice
 - **difficulty**: medium
@@ -461,11 +461,11 @@
 ### Q13
 - **stem**: Choose synonym of the underlined idea: He was reluctant to speak. He was…
 - **options**:
-  - A) eager
-  - B) unwilling
+  - A) unwilling
+  - B) eager
   - C) loud
   - D) certain
-- **answer**: B
+- **answer**: A
 - **explanation**: Reluctant means unwilling/hesitant.
 - **skill**: vocab
 - **difficulty**: easy
@@ -486,10 +486,10 @@
 - **stem**: Reported command: “Close the door,” he said to me. → He told me ____ the door.
 - **options**:
   - A) close
-  - B) to close
-  - C) closing
+  - B) closing
+  - C) to close
   - D) closed
-- **answer**: B
+- **answer**: C
 - **explanation**: Told + object + to-infinitive.
 - **skill**: reported
 - **difficulty**: easy
@@ -498,10 +498,10 @@
 - **stem**: Choose correct: Between you and ____, this is secret.
 - **options**:
   - A) I
-  - B) me
-  - C) myself
-  - D) mine
-- **answer**: B
+  - B) myself
+  - C) mine
+  - D) me
+- **answer**: D
 - **explanation**: Object of preposition between → me.
 - **skill**: pronouns
 - **difficulty**: medium
@@ -509,11 +509,11 @@
 ### Q17
 - **stem**: Which sentence is in the present perfect?
 - **options**:
-  - A) She wrote a letter.
-  - B) She has written a letter.
+  - A) She has written a letter.
+  - B) She wrote a letter.
   - C) She had written a letter.
   - D) She writes a letter.
-- **answer**: B
+- **answer**: A
 - **explanation**: Has/have + past participle = present perfect.
 - **skill**: tense
 - **difficulty**: easy
@@ -521,11 +521,11 @@
 ### Q18
 - **stem**: Error: “One of my friend is a pilot.” Correction:
 - **options**:
-  - A) One of my friends is a pilot.
-  - B) One of my friend are a pilot.
+  - A) One of my friend are a pilot.
+  - B) One of my friends is a pilot.
   - C) One of my friends are a pilot.
   - D) One my friends is a pilot.
-- **answer**: A
+- **answer**: B
 - **explanation**: One of + plural noun + singular verb.
 - **skill**: agreement
 - **difficulty**: medium
@@ -534,10 +534,10 @@
 - **stem**: Fill: No sooner had she left ____ the phone rang.
 - **options**:
   - A) when
-  - B) than
-  - C) then
+  - B) then
+  - C) than
   - D) but
-- **answer**: B
+- **answer**: C
 - **explanation**: No sooner…than.
 - **skill**: connectors
 - **difficulty**: medium
@@ -547,9 +547,9 @@
 - **options**:
   - A) who
   - B) whom
-  - C) whose
-  - D) which
-- **answer**: C
+  - C) which
+  - D) whose
+- **answer**: D
 - **explanation**: Whose shows possession (man’s house).
 - **skill**: relative
 - **difficulty**: easy
@@ -557,12 +557,12 @@
 ### Q21
 - **stem**: Conditional: If I ____ you, I would apologise.
 - **options**:
-  - A) am
-  - B) was
-  - C) were
+  - A) were
+  - B) am
+  - C) was
   - D) will be
-- **answer**: C
-- **explanation**: Second conditional often uses were for all persons (subjunctive).
+- **answer**: A
+- **explanation**: Second conditional often uses were for all persons (subjunctive). 'was' is common in casual speech, but formal English uses 'were'.
 - **skill**: conditional
 - **difficulty**: medium
 
@@ -582,11 +582,11 @@
 - **stem**: Identify the infinitive: “She hopes to win.”
 - **options**:
   - A) hopes
-  - B) to win
-  - C) she
-  - D) win as bare only
-- **answer**: B
-- **explanation**: To win is the to-infinitive.
+  - B) she
+  - C) to win
+  - D) hopes to
+- **answer**: C
+- **explanation**: “To win” is the to-infinitive: to + the base verb. “Hopes” is the main verb that changes with the subject (she hopes, they hope), and “hopes to” is tempting but wrongly pairs “to” with the main verb instead of with “win”.
 - **skill**: verb-pattern
 - **difficulty**: easy
 
@@ -594,10 +594,10 @@
 - **stem**: Choose: Seldom ____ such courage.
 - **options**:
   - A) we have seen
-  - B) have we seen
-  - C) we saw have
-  - D) seen we have
-- **answer**: B
+  - B) we saw have
+  - C) seen we have
+  - D) have we seen
+- **answer**: D
 - **explanation**: Negative adverb fronting triggers inversion: have we seen.
 - **skill**: inversion
 - **difficulty**: hard

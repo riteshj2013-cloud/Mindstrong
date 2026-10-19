@@ -22,26 +22,26 @@
 ## Practice Set A
 
 ### Q01
-- **stem**: A ray has —
+- **stem**: Which of these is a good model of a ray?
 - **options**:
-  - A) two endpoints
-  - B) one endpoint
-  - C) no endpoints
-  - D) three endpoints
-- **answer**: B
-- **explanation**: A ray starts at one endpoint and goes on forever in one direction.
-- **hint**: Ray = start point + endless direction.
+  - A) A torch beam shining into the night sky
+  - B) The edge of a ruler
+  - C) A railway track between two stations
+  - D) A rope tied between two poles
+- **answer**: A
+- **explanation**: A ray starts at one point and goes on without end in one direction, like a torch beam starting at the torch. A ruler edge, a track between two stations and a rope between poles all have two ends, so they model line segments.
+- **hint**: A ray has a starting point but no finishing point. Which of these has only one end?
 
 ### Q02
-- **stem**: A line segment has —
+- **stem**: Points P, Q and R lie on a line in that order. How many line segments can be named using these points as endpoints?
 - **options**:
-  - A) one endpoint
-  - B) two endpoints
-  - C) no endpoints
-  - D) infinite endpoints
+  - A) 2
+  - B) 3
+  - C) 4
+  - D) 6
 - **answer**: B
-- **explanation**: A segment is the part of a line between two endpoints.
-- **hint**: Segment = finite piece with two ends.
+- **explanation**: The segments are PQ, QR and PR, so there are 3. 2 is tempting if you count only the short pieces and forget the whole segment PR.
+- **hint**: Each segment needs two endpoints. List every pair of points.
 
 ### Q03
 - **stem**: An angle measuring 90° is called —
@@ -57,66 +57,66 @@
 ### Q04
 - **stem**: An angle of 45° is —
 - **options**:
-  - A) acute
-  - B) right
-  - C) obtuse
-  - D) straight
-- **answer**: A
+  - A) right
+  - B) obtuse
+  - C) straight
+  - D) acute
+- **answer**: D
 - **explanation**: Acute angles are less than 90°. 45° is acute.
 - **hint**: Compare with 90°.
 
 ### Q05
 - **stem**: An angle of 120° is —
 - **options**:
-  - A) acute
-  - B) right
-  - C) obtuse
+  - A) obtuse
+  - B) acute
+  - C) right
   - D) straight
-- **answer**: C
+- **answer**: A
 - **explanation**: Obtuse angles are between 90° and 180°. 120° is obtuse.
 - **hint**: Bigger than right, smaller than straight.
 
 ### Q06
-- **stem**: A straight angle measures —
+- **stem**: The hands of a clock form a straight angle at —
 - **options**:
-  - A) 0°
-  - B) 90°
-  - C) 180°
-  - D) 360°
-- **answer**: C
-- **explanation**: A straight angle is a half-turn: 180°.
-- **hint**: Flat line angle = 180°.
+  - A) 3 o'clock
+  - B) 6 o'clock
+  - C) 9 o'clock
+  - D) 12 o'clock
+- **answer**: B
+- **explanation**: At 6 o'clock the hands point in opposite directions, making a straight angle of 180°. At 3 o'clock and 9 o'clock they make a right angle (90°), and at 12 o'clock they overlap (0°).
+- **hint**: A straight angle is a half turn, so the two hands must point in opposite directions.
 
 ### Q07
-- **stem**: How many sides does a triangle have?
+- **stem**: A polygon has 5 vertices. How many sides does it have?
 - **options**:
-  - A) 2
-  - B) 3
-  - C) 4
-  - D) 5
-- **answer**: B
-- **explanation**: A triangle is a closed shape with 3 sides.
-- **hint**: Tri- means three.
+  - A) 4
+  - B) 6
+  - C) 5
+  - D) 10
+- **answer**: C
+- **explanation**: In any polygon each side joins two neighbouring vertices, so the number of sides equals the number of vertices: 5 (a pentagon). 10 is tempting if you add vertices and sides together.
+- **hint**: Walk round the shape: after each corner comes one side. Compare the two counts.
 
 ### Q08
 - **stem**: The sum of angles in any triangle is —
 - **options**:
   - A) 90°
-  - B) 180°
-  - C) 270°
-  - D) 360°
-- **answer**: B
+  - B) 270°
+  - C) 360°
+  - D) 180°
+- **answer**: D
 - **explanation**: Interior angles of a triangle always sum to 180°.
 - **hint**: Triangle angle sum is a half-turn.
 
 ### Q09
 - **stem**: A quadrilateral has how many sides?
 - **options**:
-  - A) 3
-  - B) 4
+  - A) 4
+  - B) 3
   - C) 5
   - D) 6
-- **answer**: B
+- **answer**: A
 - **explanation**: Quad means four — four sides.
 - **hint**: Count the sides of a four-sided polygon.
 
@@ -124,43 +124,43 @@
 - **stem**: Which shape has all sides equal and all angles 90°?
 - **options**:
   - A) Rectangle that is not a square
-  - B) Rhombus that is not a square
-  - C) Square
+  - B) Square
+  - C) Rhombus that is not a square
   - D) Trapezium
-- **answer**: C
+- **answer**: B
 - **explanation**: A square has equal sides and four right angles.
 - **hint**: Equal sides + right angles → square.
 
 ### Q11
-- **stem**: Parallel lines —
+- **stem**: Which pair of lines on a ruled notebook page are parallel?
 - **options**:
-  - A) meet at one point
-  - B) never meet
-  - C) meet at two points
-  - D) are always curved
-- **answer**: B
-- **explanation**: Parallel lines stay the same distance apart and never meet.
-- **hint**: Like railway tracks.
+  - A) A printed line and the margin line
+  - B) The two diagonals of the page
+  - C) Two printed lines running across the page
+  - D) The top edge and the left edge of the page
+- **answer**: C
+- **explanation**: The printed lines across the page stay the same distance apart and never meet, so they are parallel. The margin line meets the printed lines at right angles, so those are perpendicular, not parallel; the diagonals cross in the middle, and the top and left edges meet at a corner.
+- **hint**: Parallel lines keep the same gap all along and never meet. Check whether each pair crosses or meets.
 
 ### Q12
 - **stem**: Perpendicular lines meet at —
 - **options**:
   - A) 45°
   - B) 60°
-  - C) 90°
-  - D) 180°
-- **answer**: C
+  - C) 180°
+  - D) 90°
+- **answer**: D
 - **explanation**: Perpendicular means they form a right angle (90°).
 - **hint**: ⊥ means 90°.
 
 ### Q13
 - **stem**: A circle’s distance from centre to any point on it is the —
 - **options**:
-  - A) diameter
-  - B) radius
+  - A) radius
+  - B) diameter
   - C) chord
   - D) arc
-- **answer**: B
+- **answer**: A
 - **explanation**: Radius is centre-to-rim distance.
 - **hint**: Half a diameter is a radius.
 
@@ -168,10 +168,10 @@
 - **stem**: If the radius of a circle is 7 cm, the diameter is —
 - **options**:
   - A) 3.5 cm
-  - B) 7 cm
-  - C) 14 cm
+  - B) 14 cm
+  - C) 7 cm
   - D) 21 cm
-- **answer**: C
+- **answer**: B
 - **explanation**: Diameter = 2 × radius = 14 cm.
 - **hint**: Diameter is twice the radius.
 
@@ -190,10 +190,10 @@
 - **stem**: A closed figure made of straight line segments is a —
 - **options**:
   - A) ray
-  - B) polygon
-  - C) curve
-  - D) line
-- **answer**: B
+  - B) curve
+  - C) line
+  - D) polygon
+- **answer**: D
 - **explanation**: Polygons are closed shapes with straight sides.
 - **hint**: Straight sides + closed = polygon.
 
@@ -212,10 +212,10 @@
 - **stem**: Which is an acute-angled triangle?
 - **options**:
   - A) Angles 90°, 45°, 45°
-  - B) Angles 100°, 40°, 40°
-  - C) Angles 60°, 60°, 60°
+  - B) Angles 60°, 60°, 60°
+  - C) Angles 100°, 40°, 40°
   - D) Angles 120°, 30°, 30°
-- **answer**: C
+- **answer**: B
 - **explanation**: All three angles of an equilateral triangle are 60° — all acute.
 - **hint**: Every angle must be less than 90°.
 
@@ -223,10 +223,10 @@
 - **stem**: A rectangle has length 8 cm and breadth 5 cm. Perimeter is —
 - **options**:
   - A) 13 cm
-  - B) 26 cm
-  - C) 40 cm
+  - B) 40 cm
+  - C) 26 cm
   - D) 20 cm
-- **answer**: B
+- **answer**: C
 - **explanation**: Perimeter = 2(l + b) = 2(13) = 26 cm.
 - **hint**: Add length and breadth, then double.
 
@@ -235,20 +235,20 @@
 - **options**:
   - A) 12 cm²
   - B) 24 cm²
-  - C) 36 cm²
-  - D) 18 cm²
-- **answer**: C
+  - C) 18 cm²
+  - D) 36 cm²
+- **answer**: D
 - **explanation**: Area = side × side = 36 cm².
 - **hint**: Square area = side squared.
 
 ### Q21
 - **stem**: Which point lies inside a circle of centre O and radius 5 cm?
 - **options**:
-  - A) A point 5 cm from O
-  - B) A point 6 cm from O
-  - C) A point 3 cm from O
+  - A) A point 3 cm from O
+  - B) A point 5 cm from O
+  - C) A point 6 cm from O
   - D) A point 5.5 cm from O
-- **answer**: C
+- **answer**: A
 - **explanation**: Points at distance less than the radius lie inside. 3 < 5.
 - **hint**: Inside means distance from centre < radius.
 
@@ -267,10 +267,10 @@
 - **stem**: Two angles that add to 180° are called —
 - **options**:
   - A) complementary
-  - B) supplementary
-  - C) acute
+  - B) acute
+  - C) supplementary
   - D) right
-- **answer**: B
+- **answer**: C
 - **explanation**: Supplementary angles sum to 180°.
 - **hint**: Supplement → straight angle.
 
@@ -279,9 +279,9 @@
 - **options**:
   - A) radius
   - B) tangent
-  - C) diameter
-  - D) arc
-- **answer**: C
+  - C) arc
+  - D) diameter
+- **answer**: D
 - **explanation**: The longest chord through the centre is the diameter.
 - **hint**: Centre-cutting chord = diameter.
 
@@ -290,11 +290,11 @@
 ### Q01
 - **stem**: Which figure has no endpoints?
 - **options**:
-  - A) Ray
-  - B) Line segment
-  - C) Line
+  - A) Line
+  - B) Ray
+  - C) Line segment
   - D) Angle
-- **answer**: C
+- **answer**: A
 - **explanation**: A line extends endlessly in both directions — no endpoints.
 - **hint**: Line vs ray vs segment.
 
@@ -302,10 +302,10 @@
 - **stem**: An angle of 180° is —
 - **options**:
   - A) acute
-  - B) obtuse
-  - C) right
-  - D) straight
-- **answer**: D
+  - B) straight
+  - C) obtuse
+  - D) right
+- **answer**: B
 - **explanation**: 180° is a straight angle.
 - **hint**: Flat half-turn.
 
@@ -324,32 +324,32 @@
 - **stem**: How many diagonals does a quadrilateral have?
 - **options**:
   - A) 1
-  - B) 2
-  - C) 3
-  - D) 4
-- **answer**: B
+  - B) 3
+  - C) 4
+  - D) 2
+- **answer**: D
 - **explanation**: A quadrilateral has 2 diagonals.
 - **hint**: Join opposite corners — how many ways?
 
 ### Q05
-- **stem**: A triangle with all sides equal is —
+- **stem**: A triangle has sides 6 cm, 6 cm and 4 cm. It is —
 - **options**:
-  - A) scalene
-  - B) isosceles but not equilateral
+  - A) isosceles
+  - B) scalene
   - C) equilateral
-  - D) right-angled only
-- **answer**: C
-- **explanation**: All three sides equal → equilateral.
-- **hint**: Equal sides name.
+  - D) right-angled
+- **answer**: A
+- **explanation**: Exactly two sides are equal (6 cm and 6 cm), so it is isosceles. It is not equilateral, because that needs all three sides equal, and it is not scalene, because scalene triangles have no equal sides.
+- **hint**: Count how many sides have the same length.
 
 ### Q06
 - **stem**: A triangle with one angle 90° is —
 - **options**:
   - A) acute-angled
-  - B) obtuse-angled
-  - C) right-angled
+  - B) right-angled
+  - C) obtuse-angled
   - D) equilateral
-- **answer**: C
+- **answer**: B
 - **explanation**: One right angle → right-angled triangle.
 - **hint**: Look for the 90° corner.
 
@@ -357,10 +357,10 @@
 - **stem**: Perimeter of a regular hexagon of side 4 cm is —
 - **options**:
   - A) 20 cm
-  - B) 24 cm
-  - C) 16 cm
+  - B) 16 cm
+  - C) 24 cm
   - D) 28 cm
-- **answer**: B
+- **answer**: C
 - **explanation**: 6 × 4 = 24 cm.
 - **hint**: Regular hexagon: six equal sides.
 
@@ -369,20 +369,20 @@
 - **options**:
   - A) 13 cm²
   - B) 26 cm²
-  - C) 36 cm²
-  - D) 18 cm²
-- **answer**: C
+  - C) 18 cm²
+  - D) 36 cm²
+- **answer**: D
 - **explanation**: Area = l × b = 36 cm².
 - **hint**: Length times breadth.
 
 ### Q09
 - **stem**: If diameter is 20 cm, radius is —
 - **options**:
-  - A) 40 cm
-  - B) 10 cm
+  - A) 10 cm
+  - B) 40 cm
   - C) 20 cm
   - D) 5 cm
-- **answer**: B
+- **answer**: A
 - **explanation**: Radius = diameter ÷ 2 = 10 cm.
 - **hint**: Half the diameter.
 
@@ -400,33 +400,33 @@
 ### Q11
 - **stem**: In a triangle, two angles are 40° and 65°. The third is —
 - **options**:
-  - A) 75°
-  - B) 85°
-  - C) 105°
+  - A) 85°
+  - B) 105°
+  - C) 75°
   - D) 95°
-- **answer**: A
+- **answer**: C
 - **explanation**: 180 − 40 − 65 = 75°.
 - **hint**: Subtract the two known angles from 180°.
 
 ### Q12
 - **stem**: A square of perimeter 32 cm has side —
 - **options**:
-  - A) 8 cm
-  - B) 16 cm
-  - C) 4 cm
-  - D) 12 cm
-- **answer**: A
+  - A) 16 cm
+  - B) 4 cm
+  - C) 12 cm
+  - D) 8 cm
+- **answer**: D
 - **explanation**: Side = perimeter ÷ 4 = 8 cm.
 - **hint**: Four equal sides share the perimeter.
 
 ### Q13
 - **stem**: Which tool draws a circle?
 - **options**:
-  - A) Protractor
-  - B) Ruler
-  - C) Compass
+  - A) Compass
+  - B) Protractor
+  - C) Ruler
   - D) Set square only
-- **answer**: C
+- **answer**: A
 - **explanation**: A compass draws circles of a chosen radius.
 - **hint**: Point + pencil arm.
 
@@ -456,10 +456,10 @@
 - **stem**: An isosceles triangle has —
 - **options**:
   - A) all sides different
-  - B) at least two sides equal
-  - C) all angles 90°
-  - D) no equal sides
-- **answer**: B
+  - B) all angles 90°
+  - C) no equal sides
+  - D) at least two sides equal
+- **answer**: D
 - **explanation**: Isosceles means at least two sides equal.
 - **hint**: Iso- = equal (sides).
 
@@ -489,21 +489,21 @@
 - **stem**: The region enclosed by a circle is its —
 - **options**:
   - A) circumference
-  - B) interior (disk)
-  - C) chord
+  - B) chord
+  - C) interior (disk)
   - D) secant
-- **answer**: B
+- **answer**: C
 - **explanation**: The interior region is the disk; circumference is the boundary length.
 - **hint**: Inside vs boundary.
 
 ### Q20
 - **stem**: If ∠P and ∠Q are complementary and ∠P = 35°, then ∠Q = —
 - **options**:
-  - A) 55°
-  - B) 145°
-  - C) 65°
-  - D) 45°
-- **answer**: A
+  - A) 145°
+  - B) 65°
+  - C) 45°
+  - D) 55°
+- **answer**: D
 - **explanation**: 90 − 35 = 55°.
 - **hint**: Complementary sum to 90°.
 
@@ -522,10 +522,10 @@
 - **stem**: A scalene triangle has —
 - **options**:
   - A) all sides equal
-  - B) two sides equal
-  - C) all sides different
+  - B) all sides different
+  - C) two sides equal
   - D) two right angles
-- **answer**: C
+- **answer**: B
 - **explanation**: Scalene means all three sides different lengths.
 - **hint**: No equal sides.
 
@@ -533,10 +533,10 @@
 - **stem**: The longest chord of a circle is always the —
 - **options**:
   - A) radius
-  - B) diameter
-  - C) tangent
+  - B) tangent
+  - C) diameter
   - D) minor arc
-- **answer**: B
+- **answer**: C
 - **explanation**: The diameter is the longest chord.
 - **hint**: Through the centre = longest.
 
@@ -545,9 +545,9 @@
 - **options**:
   - A) triangle
   - B) square
-  - C) circle
-  - D) rectangle
-- **answer**: C
+  - C) rectangle
+  - D) circle
+- **answer**: D
 - **explanation**: A circle’s boundary is curved, so it is not a polygon.
 - **hint**: Polygons need straight sides only.
 

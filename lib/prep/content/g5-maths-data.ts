@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-data-a-q01",
     prompt: "What are data?",
     options: [
-      { id: "a", text: "Only drawings" },
-      { id: "b", text: "Facts and numbers we collect" },
+      { id: "a", text: "Facts and numbers we collect" },
+      { id: "b", text: "Only drawings" },
       { id: "c", text: "Only graphs" },
       { id: "d", text: "Only tallies" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Data are facts and numbers collected for a purpose.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -47,11 +47,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "In a bar graph, bars should have\u2026",
     options: [
       { id: "a", text: "Different widths" },
-      { id: "b", text: "Equal widths" },
-      { id: "c", text: "No scale" },
-      { id: "d", text: "No title" }
+      { id: "b", text: "No scale" },
+      { id: "c", text: "No title" },
+      { id: "d", text: "Equal widths" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Bars are drawn with equal width so heights can be compared fairly.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -59,12 +59,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-data-a-q05",
     prompt: "Which graph uses pictures to show data?",
     options: [
-      { id: "a", text: "Bar graph" },
-      { id: "b", text: "Pictograph" },
+      { id: "a", text: "Pictograph" },
+      { id: "b", text: "Bar graph" },
       { id: "c", text: "Number line only" },
       { id: "d", text: "Place-value chart" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "A pictograph uses pictures (icons) for quantities.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -73,11 +73,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "The number of times a value appears is called its\u2026",
     options: [
       { id: "a", text: "Average" },
-      { id: "b", text: "Mode only" },
-      { id: "c", text: "Frequency" },
+      { id: "b", text: "Frequency" },
+      { id: "c", text: "Mode only" },
       { id: "d", text: "Perimeter" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Frequency is how often a value appears.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -86,11 +86,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Tally marks for 7 are best written as\u2026",
     options: [
       { id: "a", text: "Seven single strokes only with no bundles" },
-      { id: "b", text: "One bundle of 5 and two more" },
-      { id: "c", text: "Two bundles of 5" },
+      { id: "b", text: "Two bundles of 5" },
+      { id: "c", text: "One bundle of 5 and two more" },
       { id: "d", text: "One stroke" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "7 = 5 + 2, so one bundle and two strokes.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -99,11 +99,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "A bar graph shows favourite colours. The tallest bar means\u2026",
     options: [
       { id: "a", text: "The least popular colour" },
-      { id: "b", text: "The most popular colour" },
-      { id: "c", text: "An error" },
-      { id: "d", text: "Equal votes" }
+      { id: "b", text: "An error" },
+      { id: "c", text: "Equal votes" },
+      { id: "d", text: "The most popular colour" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "The tallest bar has the greatest frequency.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -111,12 +111,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-data-a-q09",
     prompt: "What is the average of 2, 4 and 6?",
     options: [
-      { id: "a", text: "3" },
-      { id: "b", text: "4" },
+      { id: "a", text: "4" },
+      { id: "b", text: "3" },
       { id: "c", text: "5" },
       { id: "d", text: "12" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Total 12 divided by 3 numbers gives 4.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -138,11 +138,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "A table has columns for Name and Marks. To find Meera's marks you\u2026",
     options: [
       { id: "a", text: "Ignore headings" },
-      { id: "b", text: "Find Meera's row and read the Marks cell" },
-      { id: "c", text: "Add all marks" },
+      { id: "b", text: "Add all marks" },
+      { id: "c", text: "Find Meera's row and read the Marks cell" },
       { id: "d", text: "Draw a pictograph first" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Use the row for Meera and the Marks column.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -152,10 +152,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "3" },
       { id: "b", text: "8" },
-      { id: "c", text: "15" },
-      { id: "d", text: "5" }
+      { id: "c", text: "5" },
+      { id: "d", text: "15" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "3 \u00d7 5 = 15 books.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -163,12 +163,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-data-a-q13",
     prompt: "A class survey: Bus 12, Walk 8, Cycle 5. How many children were surveyed?",
     options: [
-      { id: "a", text: "12" },
-      { id: "b", text: "20" },
-      { id: "c", text: "25" },
+      { id: "a", text: "25" },
+      { id: "b", text: "12" },
+      { id: "c", text: "20" },
       { id: "d", text: "15" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "12 + 8 + 5 = 25 children.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -203,11 +203,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Bars on a graph show scores 20, 35, 15, 30. What is the highest score shown?",
     options: [
       { id: "a", text: "20" },
-      { id: "b", text: "35" },
-      { id: "c", text: "15" },
-      { id: "d", text: "30" }
+      { id: "b", text: "15" },
+      { id: "c", text: "30" },
+      { id: "d", text: "35" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "35 is the greatest value.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -215,12 +215,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-data-a-q17",
     prompt: "What is the average of 10, 20, 30 and 40?",
     options: [
-      { id: "a", text: "20" },
-      { id: "b", text: "25" },
+      { id: "a", text: "25" },
+      { id: "b", text: "20" },
       { id: "c", text: "30" },
       { id: "d", text: "100" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Sum 100 \u00f7 4 = 25.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -229,11 +229,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "In 2, 2, 3, 4, 4, 4, 5, the mode is\u2026",
     options: [
       { id: "a", text: "2" },
-      { id: "b", text: "3" },
-      { id: "c", text: "4" },
+      { id: "b", text: "4" },
+      { id: "c", text: "3" },
       { id: "d", text: "5" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "4 appears three times, more than any other value.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -242,11 +242,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "A tally shows |||| |||| || for red votes. How many votes for red?",
     options: [
       { id: "a", text: "10" },
-      { id: "b", text: "12" },
-      { id: "c", text: "8" },
+      { id: "b", text: "8" },
+      { id: "c", text: "12" },
       { id: "d", text: "2" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Two bundles of 5 and two more make 12.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -254,12 +254,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-data-a-q20",
     prompt: "Which is needed on a clear bar graph?",
     options: [
-      { id: "a", text: "A title and labelled axes" },
-      { id: "b", text: "Only colours" },
-      { id: "c", text: "No scale" },
-      { id: "d", text: "Random bar widths" }
+      { id: "a", text: "Only colours" },
+      { id: "b", text: "No scale" },
+      { id: "c", text: "Random bar widths" },
+      { id: "d", text: "A title and labelled axes" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Title, labels and scale make the graph readable.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -281,11 +281,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "In a pictograph, 1 \ud83c\udf4e = 4 children. Friday shows 1\u00be icons. How many children?",
     options: [
       { id: "a", text: "5" },
-      { id: "b", text: "6" },
-      { id: "c", text: "7" },
+      { id: "b", text: "7" },
+      { id: "c", text: "6" },
       { id: "d", text: "8" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "1 icon = 4 and \u00be icon = 3, total 7.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -294,11 +294,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Marks: 12, 15, 18, 15, 20. What is the mode?",
     options: [
       { id: "a", text: "12" },
-      { id: "b", text: "15" },
-      { id: "c", text: "18" },
+      { id: "b", text: "18" },
+      { id: "c", text: "15" },
       { id: "d", text: "20" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "15 appears twice; every other mark appears once.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -308,10 +308,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "6" },
       { id: "b", text: "11" },
-      { id: "c", text: "30" },
-      { id: "d", text: "5" }
+      { id: "c", text: "5" },
+      { id: "d", text: "30" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "6 \u00d7 5 = 30 students.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
@@ -322,12 +322,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-data-b-q01",
     prompt: "Why do we organise data in tables?",
     options: [
-      { id: "a", text: "To hide numbers" },
-      { id: "b", text: "To make data neat and easy to read" },
+      { id: "a", text: "To make data neat and easy to read" },
+      { id: "b", text: "To hide numbers" },
       { id: "c", text: "To avoid totals" },
       { id: "d", text: "To erase tallies" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Tables organise data so patterns are easier to see.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -336,11 +336,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Four tally bundles of five each show how many?",
     options: [
       { id: "a", text: "4" },
-      { id: "b", text: "5" },
-      { id: "c", text: "20" },
+      { id: "b", text: "20" },
+      { id: "c", text: "5" },
       { id: "d", text: "9" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "4 \u00d7 5 = 20.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -363,10 +363,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "Title" },
       { id: "b", text: "Scale only" },
-      { id: "c", text: "Horizontal axis (or x-axis)" },
-      { id: "d", text: "Mode" }
+      { id: "c", text: "Mode" },
+      { id: "d", text: "Horizontal axis (or x-axis)" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "The bottom axis is the horizontal axis.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -374,12 +374,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-data-b-q05",
     prompt: "Which display uses bars of equal width?",
     options: [
-      { id: "a", text: "Pictograph" },
-      { id: "b", text: "Bar graph" },
+      { id: "a", text: "Bar graph" },
+      { id: "b", text: "Pictograph" },
       { id: "c", text: "Tally only" },
       { id: "d", text: "Place-value chart" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Bar graphs use equal-width bars.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-data-b-q06",
     prompt: "Raw scores written as they are collected are called\u2026",
     options: [
-      { id: "a", text: "Raw data" },
-      { id: "b", text: "Mode" },
+      { id: "a", text: "Mode" },
+      { id: "b", text: "Raw data" },
       { id: "c", text: "Perimeter" },
       { id: "d", text: "Percent" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Unsorted collected facts are raw data.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -401,11 +401,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Tally marks for 3 look like\u2026",
     options: [
       { id: "a", text: "One bundle of 5" },
-      { id: "b", text: "Three single strokes" },
-      { id: "c", text: "Two bundles" },
+      { id: "b", text: "Two bundles" },
+      { id: "c", text: "Three single strokes" },
       { id: "d", text: "Ten strokes" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Three is fewer than five, so three single strokes.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -414,11 +414,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "The shortest bar on a bar graph shows\u2026",
     options: [
       { id: "a", text: "The greatest frequency" },
-      { id: "b", text: "The least frequency" },
-      { id: "c", text: "The average" },
-      { id: "d", text: "The mode always" }
+      { id: "b", text: "The average" },
+      { id: "c", text: "The mode always" },
+      { id: "d", text: "The least frequency" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Shortest bar means the smallest count.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -426,12 +426,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-data-b-q09",
     prompt: "What is the average of 5, 5 and 8?",
     options: [
-      { id: "a", text: "5" },
-      { id: "b", text: "6" },
+      { id: "a", text: "6" },
+      { id: "b", text: "5" },
       { id: "c", text: "8" },
       { id: "d", text: "18" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Sum 18 \u00f7 3 = 6.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -440,11 +440,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "In the list 9, 1, 9, 2, the mode is\u2026",
     options: [
       { id: "a", text: "1" },
-      { id: "b", text: "2" },
-      { id: "c", text: "9" },
+      { id: "b", text: "9" },
+      { id: "c", text: "2" },
       { id: "d", text: "There is no mode" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "9 appears twice; others appear once.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -452,12 +452,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-data-b-q11",
     prompt: "A table shows Day and Temperature. Tuesday's temperature is found by\u2026",
     options: [
-      { id: "a", text: "Reading Tuesday's row" },
-      { id: "b", text: "Ignoring the table" },
-      { id: "c", text: "Only using a pictograph" },
+      { id: "a", text: "Ignoring the table" },
+      { id: "b", text: "Only using a pictograph" },
+      { id: "c", text: "Reading Tuesday's row" },
       { id: "d", text: "Guessing" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Find the Tuesday row and read the temperature.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -478,12 +478,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-data-b-q13",
     prompt: "Ice-cream flavours: Vanilla 9, Chocolate 14, Strawberry 7. How many children chose chocolate or vanilla?",
     options: [
-      { id: "a", text: "14" },
-      { id: "b", text: "23" },
+      { id: "a", text: "23" },
+      { id: "b", text: "14" },
       { id: "c", text: "16" },
       { id: "d", text: "30" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "14 + 9 = 23.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -505,11 +505,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "A pictograph key is 1 \ud83c\udf33 = 4 trees. There are 3\u00bc icons. How many trees?",
     options: [
       { id: "a", text: "12" },
-      { id: "b", text: "13" },
-      { id: "c", text: "14" },
+      { id: "b", text: "14" },
+      { id: "c", text: "13" },
       { id: "d", text: "16" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "3 \u00d7 4 = 12 and \u00bc icon = 1, total 13.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -519,10 +519,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "40" },
       { id: "b", text: "55" },
-      { id: "c", text: "35" },
-      { id: "d", text: "60" }
+      { id: "c", text: "60" },
+      { id: "d", text: "35" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "35 is the smallest value.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -571,10 +571,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "9" },
       { id: "b", text: "11" },
-      { id: "c", text: "18" },
-      { id: "d", text: "2" }
+      { id: "c", text: "2" },
+      { id: "d", text: "18" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "9 \u00d7 2 = 18 goals.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -596,11 +596,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "In a pictograph, 1 \ud83d\udc1f = 8 fish. A day shows 2\u00be icons. How many fish?",
     options: [
       { id: "a", text: "16" },
-      { id: "b", text: "20" },
-      { id: "c", text: "22" },
+      { id: "b", text: "22" },
+      { id: "c", text: "20" },
       { id: "d", text: "24" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "2 \u00d7 8 = 16 and \u00be \u00d7 8 = 6, total 22.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -609,11 +609,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Scores: 11, 14, 11, 17, 14, 14. What is the mode?",
     options: [
       { id: "a", text: "11" },
-      { id: "b", text: "14" },
-      { id: "c", text: "17" },
+      { id: "b", text: "17" },
+      { id: "c", text: "14" },
       { id: "d", text: "13" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "14 appears three times; 11 appears twice.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -623,10 +623,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "7.5" },
       { id: "b", text: "11.5" },
-      { id: "c", text: "30" },
-      { id: "d", text: "32" }
+      { id: "c", text: "32" },
+      { id: "d", text: "30" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "7.5 \u00d7 4 = 30 pupils.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
@@ -636,7 +636,7 @@ const lesson: ChapterDef["lesson"] = [
   {
     id: "h",
     type: "hook",
-    emoji: "📊",
+    emoji: "\ud83d\udcca",
     title: "Data handling",
     body: [
       "An interactive lesson with tap-to-reveal and a quick try.",
@@ -690,7 +690,7 @@ const lesson: ChapterDef["lesson"] = [
 export const g5MathsData: ChapterDef = {
   id: "data-handling",
   title: "Data Handling",
-  emoji: "📊",
+  emoji: "\ud83d\udcca",
   blurb: "Tallies, graphs, average and mode",
   lesson,
   sets: [

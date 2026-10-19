@@ -25,14 +25,14 @@
 ## Set A
 
 ### Q01
-- **stem**: The degree of the polynomial 5x³ − 2x + 7 is —
+- **stem**: The degree of the polynomial 4x² − x⁵ + 3x is —
 - **options**:
-  - A) 3
-  - B) 5
+  - A) 5
+  - B) 2
   - C) 1
-  - D) 0
+  - D) 3
 - **answer**: A
-- **explanation**: Highest power of x with non-zero coefficient is 3.
+- **explanation**: The degree is the highest power of x with a non-zero coefficient, which is 5 (from −x⁵). 2 is tempting because 4x² is written first, but the order of terms does not matter.
 - **difficulty**: mixed
 
 ### Q02
@@ -58,14 +58,14 @@
 - **difficulty**: mixed
 
 ### Q04
-- **stem**: The remainder when x³ + 3x + 1 is divided by x − 1 is —
+- **stem**: The remainder when x³ − 2x² + 4 is divided by x + 1 is —
 - **options**:
-  - A) 5
-  - B) 1
-  - C) 0
-  - D) 3
+  - A) 1
+  - B) 3
+  - C) −1
+  - D) 7
 - **answer**: A
-- **explanation**: By remainder theorem, p(1)=1+3+1=5.
+- **explanation**: x + 1 = x − (−1), so the remainder is p(−1) = −1 − 2 + 4 = 1. 3 is tempting, but that is p(1), which uses the wrong sign.
 - **difficulty**: mixed
 
 ### Q05
@@ -80,14 +80,14 @@
 - **difficulty**: mixed
 
 ### Q06
-- **stem**: If α and β are zeros of x² − 5x + 6, then α + β equals —
+- **stem**: If α and β are the zeros of 2x² − 7x + 3, then αβ equals —
 - **options**:
-  - A) −5
-  - B) 1
-  - C) 6
-  - D) 5
+  - A) 3
+  - B) −3/2
+  - C) 7/2
+  - D) 3/2
 - **answer**: D
-- **explanation**: Sum of zeros = −b/a = 5.
+- **explanation**: For ax² + bx + c, the product of zeros is c/a = 3/2. 3 is tempting if you forget to divide by a = 2, and 7/2 is the sum of the zeros (−b/a), not the product.
 - **difficulty**: mixed
 
 ### Q07
@@ -302,14 +302,14 @@
 - **difficulty**: mixed
 
 ### Q02
-- **stem**: Remainder when 2x³ − 3x² + x − 1 is divided by x − 2 is —
+- **stem**: Remainder when x³ − 4x + 5 is divided by x − 3 is —
 - **options**:
-  - A) 1
-  - B) 5
-  - C) 0
-  - D) 3
+  - A) 5
+  - B) 20
+  - C) 8
+  - D) −10
 - **answer**: B
-- **explanation**: p(2)=16−12+2−1=5.
+- **explanation**: By the remainder theorem the remainder is p(3) = 27 − 12 + 5 = 20. −10 is tempting, but that is p(−3), which uses the wrong sign.
 - **difficulty**: mixed
 
 ### Q03

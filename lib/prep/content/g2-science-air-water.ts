@@ -20,10 +20,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-airwater-a-q02",
     prompt: "Moving air is called\u2026",
     options: [
-      { id: "a", text: "metal" },
+      { id: "a", text: "soil" },
       { id: "b", text: "wind" },
-      { id: "c", text: "soil" },
-      { id: "d", text: "fire" }
+      { id: "c", text: "fire" },
+      { id: "d", text: "metal" }
     ],
     answerId: "b",
     explanation: "Moving air is wind.",
@@ -33,10 +33,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-airwater-a-q03",
     prompt: "Water can be liquid, solid (ice) or\u2026",
     options: [
-      { id: "a", text: "plastic" },
-      { id: "b", text: "wood" },
+      { id: "a", text: "metal" },
+      { id: "b", text: "plastic" },
       { id: "c", text: "gas or vapour" },
-      { id: "d", text: "metal" }
+      { id: "d", text: "wood" }
     ],
     answerId: "c",
     explanation: "Water can become vapour (gas).",
@@ -72,10 +72,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-airwater-a-q06",
     prompt: "Rain comes from\u2026",
     options: [
-      { id: "a", text: "shoes" },
+      { id: "a", text: "stones" },
       { id: "b", text: "clouds" },
-      { id: "c", text: "stones" },
-      { id: "d", text: "plastic bags" }
+      { id: "c", text: "plastic bags" },
+      { id: "d", text: "shoes" }
     ],
     answerId: "b",
     explanation: "Rain falls from clouds.",
@@ -85,10 +85,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-airwater-a-q07",
     prompt: "Boiling water can turn into\u2026",
     options: [
-      { id: "a", text: "glass" },
-      { id: "b", text: "iron" },
+      { id: "a", text: "sand" },
+      { id: "b", text: "glass" },
       { id: "c", text: "steam or vapour" },
-      { id: "d", text: "sand" }
+      { id: "d", text: "iron" }
     ],
     answerId: "c",
     explanation: "Boiling makes steam.",
@@ -124,10 +124,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-airwater-a-q10",
     prompt: "A breeze is\u2026",
     options: [
-      { id: "a", text: "a fruit" },
+      { id: "a", text: "a rock" },
       { id: "b", text: "gentle wind" },
-      { id: "c", text: "a rock" },
-      { id: "d", text: "a fire" }
+      { id: "c", text: "a fire" },
+      { id: "d", text: "a fruit" }
     ],
     answerId: "b",
     explanation: "A breeze is a gentle wind.",
@@ -137,10 +137,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-airwater-a-q11",
     prompt: "Fish need ___ in water to live.",
     options: [
-      { id: "a", text: "sand only" },
-      { id: "b", text: "fire" },
+      { id: "a", text: "plastic" },
+      { id: "b", text: "sand only" },
       { id: "c", text: "oxygen in the water" },
-      { id: "d", text: "plastic" }
+      { id: "d", text: "fire" }
     ],
     answerId: "c",
     explanation: "Fish need oxygen in water.",
@@ -176,10 +176,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-airwater-a-q14",
     prompt: "Smoke and dust can make air\u2026",
     options: [
-      { id: "a", text: "silent forever" },
+      { id: "a", text: "sweeter always" },
       { id: "b", text: "dirty or polluted" },
-      { id: "c", text: "sweeter always" },
-      { id: "d", text: "made of gold" }
+      { id: "c", text: "made of gold" },
+      { id: "d", text: "silent forever" }
     ],
     answerId: "b",
     explanation: "Smoke and dust pollute air.",
@@ -189,10 +189,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-airwater-a-q15",
     prompt: "Clouds are made of tiny\u2026",
     options: [
-      { id: "a", text: "plastic bits only" },
-      { id: "b", text: "metal sheets" },
+      { id: "a", text: "stones" },
+      { id: "b", text: "plastic bits only" },
       { id: "c", text: "water droplets" },
-      { id: "d", text: "stones" }
+      { id: "d", text: "metal sheets" }
     ],
     answerId: "c",
     explanation: "Clouds hold tiny water droplets.",
@@ -231,10 +231,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-airwater-b-q02",
     prompt: "Steam is water as a\u2026",
     options: [
-      { id: "a", text: "metal" },
+      { id: "a", text: "solid only" },
       { id: "b", text: "gas" },
-      { id: "c", text: "solid only" },
-      { id: "d", text: "plastic" }
+      { id: "c", text: "plastic" },
+      { id: "d", text: "metal" }
     ],
     answerId: "b",
     explanation: "Steam is water vapour (gas).",
@@ -244,10 +244,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-airwater-b-q03",
     prompt: "We get much of our drinking water from\u2026",
     options: [
-      { id: "a", text: "only from plastic smoke" },
-      { id: "b", text: "only from sand" },
+      { id: "a", text: "only from fire" },
+      { id: "b", text: "only from plastic smoke" },
       { id: "c", text: "rivers and taps after cleaning" },
-      { id: "d", text: "only from fire" }
+      { id: "d", text: "only from sand" }
     ],
     answerId: "c",
     explanation: "Water often comes from rivers, cleaned for taps.",
@@ -283,10 +283,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-airwater-b-q06",
     prompt: "Plants also need ___ from air.",
     options: [
-      { id: "a", text: "screens" },
+      { id: "a", text: "plastic bags" },
       { id: "b", text: "gases from air" },
-      { id: "c", text: "plastic bags" },
-      { id: "d", text: "metal sheets" }
+      { id: "c", text: "metal sheets" },
+      { id: "d", text: "screens" }
     ],
     answerId: "b",
     explanation: "Plants use air gases too.",
@@ -296,10 +296,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-airwater-b-q07",
     prompt: "Closing the tap while brushing\u2026",
     options: [
-      { id: "a", text: "makes more rain instantly" },
-      { id: "b", text: "stops air" },
+      { id: "a", text: "wastes water" },
+      { id: "b", text: "makes more rain instantly" },
       { id: "c", text: "saves water" },
-      { id: "d", text: "wastes water" }
+      { id: "d", text: "stops air" }
     ],
     answerId: "c",
     explanation: "Closing the tap saves water.",
@@ -335,10 +335,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-airwater-b-q10",
     prompt: "Air takes up\u2026",
     options: [
-      { id: "a", text: "only taste" },
+      { id: "a", text: "no space ever" },
       { id: "b", text: "space" },
-      { id: "c", text: "no space ever" },
-      { id: "d", text: "only colour" }
+      { id: "c", text: "only colour" },
+      { id: "d", text: "only taste" }
     ],
     answerId: "b",
     explanation: "Air takes up space \u2014 fill a balloon.",
@@ -348,10 +348,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-airwater-b-q11",
     prompt: "The water cycle includes rain, clouds and\u2026",
     options: [
-      { id: "a", text: "metal melting only" },
-      { id: "b", text: "noise" },
+      { id: "a", text: "plastic making" },
+      { id: "b", text: "metal melting only" },
       { id: "c", text: "evaporation" },
-      { id: "d", text: "plastic making" }
+      { id: "d", text: "noise" }
     ],
     answerId: "c",
     explanation: "Evaporation is part of the water cycle.",
@@ -387,10 +387,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-airwater-b-q14",
     prompt: "Snow is water in a ___ form.",
     options: [
-      { id: "a", text: "plastic" },
+      { id: "a", text: "liquid only" },
       { id: "b", text: "solid" },
-      { id: "c", text: "liquid only" },
-      { id: "d", text: "gas only" }
+      { id: "c", text: "gas only" },
+      { id: "d", text: "plastic" }
     ],
     answerId: "b",
     explanation: "Snow is solid water.",
@@ -400,10 +400,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-airwater-b-q15",
     prompt: "Clean air is important for\u2026",
     options: [
-      { id: "a", text: "stopping rain forever" },
-      { id: "b", text: "hiding the sun" },
+      { id: "a", text: "making more dust" },
+      { id: "b", text: "stopping rain forever" },
       { id: "c", text: "healthy breathing" },
-      { id: "d", text: "making more dust" }
+      { id: "d", text: "hiding the sun" }
     ],
     answerId: "c",
     explanation: "Clean air helps healthy breathing.",

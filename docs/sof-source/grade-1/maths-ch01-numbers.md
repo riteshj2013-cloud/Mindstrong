@@ -15,11 +15,11 @@
 
 ### Q1
 - **stem**: Which number comes just after 5?
-- A) 4
-- B) 6
+- A) 6
+- B) 4
 - C) 7
 - D) 3
-- **answer**: B
+- **answer**: A
 - **explanation**: One more than 5 is 6.
 
 ### Q2
@@ -34,19 +34,19 @@
 ### Q3
 - **stem**: Which number is bigger: 8 or 3?
 - A) 3
-- B) 8
-- C) 1
+- B) 1
+- C) 8
 - D) 0
-- **answer**: B
+- **answer**: C
 - **explanation**: 8 is more than 3.
 
 ### Q4
 - **stem**: Count the stars: ★ ★ ★. How many?
 - A) 2
-- B) 3
-- C) 4
-- D) 5
-- **answer**: B
+- B) 4
+- C) 5
+- D) 3
+- **answer**: D
 - **explanation**: There are 3 stars.
 
 ### Q5
@@ -70,28 +70,28 @@
 ### Q7
 - **stem**: Which set shows 4 apples?
 - A) 🍎🍎🍎
-- B) 🍎🍎🍎🍎
-- C) 🍎🍎
+- B) 🍎🍎
+- C) 🍎🍎🍎🍎
 - D) 🍎
-- **answer**: B
+- **answer**: C
 - **explanation**: Four apples means 🍎🍎🍎🍎.
 
 ### Q8
 - **stem**: Fill in: 2, 4, 6, __.
 - A) 5
 - B) 7
-- C) 8
-- D) 10
-- **answer**: C
+- C) 10
+- D) 8
+- **answer**: D
 - **explanation**: The pattern adds 2 each time. Next is 8.
 
 ### Q9
 - **stem**: Which number is the smallest?
-- A) 9
-- B) 2
+- A) 2
+- B) 9
 - C) 7
 - D) 5
-- **answer**: B
+- **answer**: A
 - **explanation**: 2 is the smallest of these.
 
 ### Q10
@@ -105,29 +105,29 @@
 
 ### Q11
 - **stem**: Which digit is in 14?
-- A) 1 and 4
-- B) 2 and 4
-- C) 1 and 5
+- A) 2 and 4
+- B) 1 and 5
+- C) 1 and 4
 - D) 4 and 0
-- **answer**: A
+- **answer**: C
 - **explanation**: 14 has digits 1 and 4.
 
 ### Q12
 - **stem**: What comes next: 1, 2, 3, __?
 - A) 5
-- B) 4
-- C) 0
-- D) 6
-- **answer**: B
+- B) 0
+- C) 6
+- D) 4
+- **answer**: D
 - **explanation**: After 3 comes 4.
 
 ### Q13
 - **stem**: Kabir counts to 10. Which number did he say last?
-- A) 9
-- B) 10
+- A) 10
+- B) 9
 - C) 8
 - D) 11
-- **answer**: B
+- **answer**: A
 - **explanation**: Counting to 10 ends on 10.
 
 ### Q14
@@ -141,20 +141,20 @@
 
 ### Q15
 - **stem**: Zero means…
-- A) nothing
-- B) ten
-- C) one
+- A) ten
+- B) one
+- C) nothing
 - D) many
-- **answer**: A
+- **answer**: C
 - **explanation**: Zero means no things — nothing.
 
 ### Q16
 - **stem**: Meera sees 6 birds. 1 flies away. How many are left?
-- A) 5
-- B) 6
-- C) 7
-- D) 4
-- **answer**: A
+- A) 6
+- B) 7
+- C) 4
+- D) 5
+- **answer**: D
 - **explanation**: 6 − 1 = 5.
 
 
@@ -162,11 +162,11 @@
 
 ### Q1
 - **stem**: Which number comes just after 9?
-- A) 8
-- B) 10
+- A) 10
+- B) 8
 - C) 7
 - D) 11
-- **answer**: B
+- **answer**: A
 - **explanation**: One more than 9 is 10.
 
 ### Q2
@@ -181,28 +181,28 @@
 ### Q3
 - **stem**: Which number is smaller: 6 or 1?
 - A) 6
-- B) 1
-- C) both same
+- B) both same
+- C) 1
 - D) 7
-- **answer**: B
+- **answer**: C
 - **explanation**: 1 is smaller than 6.
 
 ### Q4
 - **stem**: Count: ● ● ● ● ●. How many dots?
 - A) 4
-- B) 5
-- C) 6
-- D) 3
-- **answer**: B
+- B) 6
+- C) 3
+- D) 5
+- **answer**: D
 - **explanation**: There are 5 dots.
 
 ### Q5
 - **stem**: What is the number name for 10?
-- A) nine
-- B) eleven
-- C) ten
+- A) ten
+- B) nine
+- C) eleven
 - D) twelve
-- **answer**: C
+- **answer**: A
 - **explanation**: 10 is ten.
 
 ### Q6
@@ -226,55 +226,55 @@
 ### Q8
 - **stem**: Aarav has 3 pencils. He gets 2 more. How many now?
 - A) 4
-- B) 5
-- C) 3
-- D) 6
-- **answer**: B
+- B) 3
+- C) 6
+- D) 5
+- **answer**: D
 - **explanation**: 3 + 2 = 5.
 
 ### Q9
 - **stem**: Which number is between 4 and 6?
-- A) 3
-- B) 5
+- A) 5
+- B) 3
 - C) 7
 - D) 2
-- **answer**: B
+- **answer**: A
 - **explanation**: 5 sits between 4 and 6.
 
 ### Q10
 - **stem**: What comes just before 2?
-- A) 1
-- B) 3
+- A) 3
+- B) 1
 - C) 0
 - D) 4
-- **answer**: A
+- **answer**: B
 - **explanation**: Just before 2 is 1.
 
 ### Q11
 - **stem**: Which shows 2 cats?
 - A) 🐱
-- B) 🐱🐱
-- C) 🐱🐱🐱
+- B) 🐱🐱🐱
+- C) 🐱🐱
 - D) 🐱🐱🐱🐱
-- **answer**: B
+- **answer**: C
 - **explanation**: Two cats: 🐱🐱.
 
 ### Q12
 - **stem**: 15 has how many tens?
-- A) 1
-- B) 5
-- C) 15
-- D) 0
-- **answer**: A
+- A) 5
+- B) 15
+- C) 0
+- D) 1
+- **answer**: D
 - **explanation**: 15 = 1 ten and 5 ones.
 
 ### Q13
 - **stem**: Biggest number here?
-- A) 3
-- B) 8
+- A) 8
+- B) 3
 - C) 5
 - D) 2
-- **answer**: B
+- **answer**: A
 - **explanation**: 8 is the biggest.
 
 ### Q14
@@ -289,18 +289,18 @@
 ### Q15
 - **stem**: Which is the same as 5 + 0?
 - A) 0
-- B) 5
-- C) 50
+- B) 50
+- C) 5
 - D) 1
-- **answer**: B
+- **answer**: C
 - **explanation**: Adding zero keeps the number: 5.
 
 ### Q16
 - **stem**: Order from small to big: 2, 9, 4. What is middle?
 - A) 2
-- B) 4
-- C) 9
-- D) 1
-- **answer**: B
+- B) 9
+- C) 1
+- D) 4
+- **answer**: D
 - **explanation**: Small to big: 2, 4, 9. Middle is 4.
 

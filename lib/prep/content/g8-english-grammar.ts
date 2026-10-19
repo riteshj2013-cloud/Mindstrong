@@ -304,7 +304,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch02-a-q24",
-    prompt: "Which sentence is grammatically correct?",
+    prompt: "Which sentence using \"one of\" is grammatically correct?",
     options: [
       { id: "a", text: "One of my friends lives in Pune." },
       { id: "b", text: "One of my friend lives in Pune." },

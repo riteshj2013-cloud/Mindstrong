@@ -8,9 +8,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "The basic structural and functional unit of life is the…",
     options: [
       { id: "a", text: "cell" },
-      { id: "b", text: "organism" },
-      { id: "c", text: "tissue" },
-      { id: "d", text: "organ" }
+      { id: "b", text: "tissue" },
+      { id: "c", text: "organ" },
+      { id: "d", text: "organism" }
     ],
     answerId: "a",
     explanation: "Cell theory: cell is the basic unit of life.",
@@ -33,10 +33,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-cell-a-q03",
     prompt: "The control centre of the cell that contains genetic material is the…",
     options: [
-      { id: "a", text: "vacuole" },
-      { id: "b", text: "mitochondrion" },
+      { id: "a", text: "mitochondrion" },
+      { id: "b", text: "ribosome" },
       { id: "c", text: "nucleus" },
-      { id: "d", text: "ribosome" }
+      { id: "d", text: "vacuole" }
     ],
     answerId: "c",
     explanation: "Nucleus houses DNA and controls activities.",
@@ -46,9 +46,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-cell-a-q04",
     prompt: "Powerhouse of the cell refers to…",
     options: [
-      { id: "a", text: "golgi apparatus" },
-      { id: "b", text: "cell wall" },
-      { id: "c", text: "nucleus" },
+      { id: "a", text: "nucleus" },
+      { id: "b", text: "golgi apparatus" },
+      { id: "c", text: "cell wall" },
       { id: "d", text: "mitochondria" }
     ],
     answerId: "d",
@@ -60,9 +60,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which is present in plant cells but not in typical animal cells?",
     options: [
       { id: "a", text: "cell wall" },
-      { id: "b", text: "ribosomes" },
-      { id: "c", text: "mitochondria" },
-      { id: "d", text: "cell membrane" }
+      { id: "b", text: "mitochondria" },
+      { id: "c", text: "cell membrane" },
+      { id: "d", text: "ribosomes" }
     ],
     answerId: "a",
     explanation: "Rigid cell wall of cellulose is plant-typical.",
@@ -85,10 +85,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-cell-a-q07",
     prompt: "A group of similar cells performing a specific function forms a…",
     options: [
-      { id: "a", text: "population" },
-      { id: "b", text: "organelle" },
+      { id: "a", text: "organelle" },
+      { id: "b", text: "organ system only" },
       { id: "c", text: "tissue" },
-      { id: "d", text: "organ system only" }
+      { id: "d", text: "population" }
     ],
     answerId: "c",
     explanation: "Tissue = group of similar cells with a common function.",
@@ -98,9 +98,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-cell-a-q08",
     prompt: "The selectively permeable boundary of an animal cell is the…",
     options: [
-      { id: "a", text: "nuclear envelope only" },
-      { id: "b", text: "cytoplasm" },
-      { id: "c", text: "cell wall" },
+      { id: "a", text: "cell wall" },
+      { id: "b", text: "nuclear envelope only" },
+      { id: "c", text: "cytoplasm" },
       { id: "d", text: "plasma membrane" }
     ],
     answerId: "d",
@@ -112,9 +112,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Prokaryotic cells lack a…",
     options: [
       { id: "a", text: "true membrane-bound nucleus" },
-      { id: "b", text: "DNA of any kind" },
-      { id: "c", text: "ribosomes always" },
-      { id: "d", text: "cell membrane" }
+      { id: "b", text: "cell membrane" },
+      { id: "c", text: "DNA of any kind" },
+      { id: "d", text: "ribosomes always" }
     ],
     answerId: "a",
     explanation: "Prokaryotes lack a true nucleus; DNA is not in a nuclear envelope.",
@@ -137,10 +137,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-cell-a-q11",
     prompt: "Meristematic tissue in plants is responsible for…",
     options: [
-      { id: "a", text: "storing only fat in animals" },
-      { id: "b", text: "photosynthesis only" },
+      { id: "a", text: "photosynthesis only" },
+      { id: "b", text: "transport of only water forever without division" },
       { id: "c", text: "growth by cell division" },
-      { id: "d", text: "transport of only water forever without division" }
+      { id: "d", text: "storing only fat in animals" }
     ],
     answerId: "c",
     explanation: "Meristems actively divide to allow growth.",
@@ -150,9 +150,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-cell-a-q12",
     prompt: "Epithelial tissue in animals mainly…",
     options: [
-      { id: "a", text: "carries oxygen as haemoglobin tissue name" },
-      { id: "b", text: "stores only starch" },
-      { id: "c", text: "contracts to move bones" },
+      { id: "a", text: "contracts to move bones" },
+      { id: "b", text: "carries oxygen as haemoglobin tissue name" },
+      { id: "c", text: "stores only starch" },
       { id: "d", text: "covers body surfaces and lines cavities" }
     ],
     answerId: "d",
@@ -164,9 +164,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Large central vacuoles are typical of…",
     options: [
       { id: "a", text: "plant cells" },
-      { id: "b", text: "viruses" },
-      { id: "c", text: "all bacteria without exception in exams always" },
-      { id: "d", text: "animal cells" }
+      { id: "b", text: "animal cells" },
+      { id: "c", text: "viruses" },
+      { id: "d", text: "all bacteria without exception in exams always" }
     ],
     answerId: "a",
     explanation: "Mature plant cells often have a large central vacuole.",
@@ -189,10 +189,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-cell-a-q15",
     prompt: "Xylem mainly transports…",
     options: [
-      { id: "a", text: "hormones only in animals" },
-      { id: "b", text: "food from leaves" },
+      { id: "a", text: "food from leaves" },
+      { id: "b", text: "oxygen in blood" },
       { id: "c", text: "water and minerals from roots" },
-      { id: "d", text: "oxygen in blood" }
+      { id: "d", text: "hormones only in animals" }
     ],
     answerId: "c",
     explanation: "Xylem conducts water and minerals upward.",
@@ -202,9 +202,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-cell-a-q16",
     prompt: "Phloem transports…",
     options: [
-      { id: "a", text: "only carbon dioxide" },
-      { id: "b", text: "only sunlight" },
-      { id: "c", text: "water only upward always" },
+      { id: "a", text: "water only upward always" },
+      { id: "b", text: "only carbon dioxide" },
+      { id: "c", text: "only sunlight" },
       { id: "d", text: "food (sugars) to plant parts" }
     ],
     answerId: "d",
@@ -216,9 +216,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which organelle packages and dispatches proteins?",
     options: [
       { id: "a", text: "golgi apparatus" },
-      { id: "b", text: "chloroplast" },
-      { id: "c", text: "cell wall" },
-      { id: "d", text: "lysosome" }
+      { id: "b", text: "lysosome" },
+      { id: "c", text: "chloroplast" },
+      { id: "d", text: "cell wall" }
     ],
     answerId: "a",
     explanation: "Golgi modifies and packages materials.",
@@ -241,10 +241,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-cell-a-q19",
     prompt: "Connective tissue examples include…",
     options: [
-      { id: "a", text: "meristem" },
-      { id: "b", text: "skin epithelium only" },
+      { id: "a", text: "skin epithelium only" },
+      { id: "b", text: "xylem" },
       { id: "c", text: "blood, bone and cartilage" },
-      { id: "d", text: "xylem" }
+      { id: "d", text: "meristem" }
     ],
     answerId: "c",
     explanation: "Blood, bone and cartilage are connective tissues.",
@@ -254,9 +254,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-cell-a-q20",
     prompt: "Muscle tissue is specialised for…",
     options: [
-      { id: "a", text: "photosynthesis" },
-      { id: "b", text: "covering surfaces only" },
-      { id: "c", text: "impulse only" },
+      { id: "a", text: "impulse only" },
+      { id: "b", text: "photosynthesis" },
+      { id: "c", text: "covering surfaces only" },
       { id: "d", text: "contraction and movement" }
     ],
     answerId: "d",
@@ -268,9 +268,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Nervous tissue is specialised to…",
     options: [
       { id: "a", text: "transmit impulses" },
-      { id: "b", text: "transport water in stems" },
-      { id: "c", text: "make glucose in leaves" },
-      { id: "d", text: "store fat" }
+      { id: "b", text: "store fat" },
+      { id: "c", text: "transport water in stems" },
+      { id: "d", text: "make glucose in leaves" }
     ],
     answerId: "a",
     explanation: "Neurons transmit electrical/chemical signals.",
@@ -280,10 +280,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-cell-a-q22",
     prompt: "Which is unicellular?",
     options: [
-      { id: "a", text: "human" },
+      { id: "a", text: "mango tree" },
       { id: "b", text: "Amoeba" },
-      { id: "c", text: "rose plant" },
-      { id: "d", text: "mango tree" }
+      { id: "c", text: "human" },
+      { id: "d", text: "rose plant" }
     ],
     answerId: "b",
     explanation: "Amoeba is a single-celled organism.",
@@ -293,10 +293,10 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-cell-a-q23",
     prompt: "Cell wall of plants is mainly made of…",
     options: [
-      { id: "a", text: "keratin" },
-      { id: "b", text: "chitin only as in all plants" },
+      { id: "a", text: "chitin only as in all plants" },
+      { id: "b", text: "peptidoglycan only" },
       { id: "c", text: "cellulose" },
-      { id: "d", text: "peptidoglycan only" }
+      { id: "d", text: "keratin" }
     ],
     answerId: "c",
     explanation: "Plant cell walls are chiefly cellulose.",
@@ -306,9 +306,9 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-cell-a-q24",
     prompt: "Chromosomes are found in the…",
     options: [
-      { id: "a", text: "cell wall" },
-      { id: "b", text: "mitochondrial nickname only never nucleus" },
-      { id: "c", text: "vacuole" },
+      { id: "a", text: "vacuole" },
+      { id: "b", text: "cell wall" },
+      { id: "c", text: "mitochondrial nickname only never nucleus" },
       { id: "d", text: "nucleus" }
     ],
     answerId: "d",
@@ -323,9 +323,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Who proposed that all cells arise from pre-existing cells?",
     options: [
       { id: "a", text: "Virchow" },
-      { id: "b", text: "Einstein" },
-      { id: "c", text: "Lavoisier" },
-      { id: "d", text: "Hooke alone" }
+      { id: "b", text: "Hooke alone" },
+      { id: "c", text: "Einstein" },
+      { id: "d", text: "Lavoisier" }
     ],
     answerId: "a",
     explanation: "Virchow: Omnis cellula e cellula.",
@@ -348,10 +348,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-cell-b-q03",
     prompt: "Which cells lack chloroplasts?",
     options: [
-      { id: "a", text: "plant guard cells" },
-      { id: "b", text: "leaf mesophyll cells" },
+      { id: "a", text: "leaf mesophyll cells" },
+      { id: "b", text: "green algal cells with chloroplasts" },
       { id: "c", text: "typical animal cells" },
-      { id: "d", text: "green algal cells with chloroplasts" }
+      { id: "d", text: "plant guard cells" }
     ],
     answerId: "c",
     explanation: "Animal cells do not have chloroplasts.",
@@ -361,9 +361,9 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-cell-b-q04",
     prompt: "Permanent tissues in plants are formed from…",
     options: [
-      { id: "a", text: "only animal epithelium" },
-      { id: "b", text: "viruses" },
-      { id: "c", text: "blood" },
+      { id: "a", text: "blood" },
+      { id: "b", text: "only animal epithelium" },
+      { id: "c", text: "viruses" },
       { id: "d", text: "meristematic tissues that have lost the ability to divide" }
     ],
     answerId: "d",
@@ -375,9 +375,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Parenchyma typically…",
     options: [
       { id: "a", text: "is living and soft, often storing food" },
-      { id: "b", text: "transmits nerve impulses" },
-      { id: "c", text: "contracts like biceps" },
-      { id: "d", text: "is dead with thick lignin always" }
+      { id: "b", text: "is dead with thick lignin always" },
+      { id: "c", text: "transmits nerve impulses" },
+      { id: "d", text: "contracts like biceps" }
     ],
     answerId: "a",
     explanation: "Parenchyma is living ground tissue, often storage.",
@@ -387,10 +387,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-cell-b-q06",
     prompt: "Collenchyma provides…",
     options: [
-      { id: "a", text: "only flower colour" },
+      { id: "a", text: "impulse conduction" },
       { id: "b", text: "flexibility and support to growing plant parts" },
-      { id: "c", text: "impulse conduction" },
-      { id: "d", text: "oxygen transport in blood" }
+      { id: "c", text: "oxygen transport in blood" },
+      { id: "d", text: "only flower colour" }
     ],
     answerId: "b",
     explanation: "Collenchyma supports young stems/petioles with flexibility.",
@@ -400,10 +400,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-cell-b-q07",
     prompt: "The nucleus is separated from cytoplasm by the…",
     options: [
-      { id: "a", text: "cuticle only" },
-      { id: "b", text: "cell wall" },
+      { id: "a", text: "cell wall" },
+      { id: "b", text: "xylem" },
       { id: "c", text: "nuclear membrane" },
-      { id: "d", text: "xylem" }
+      { id: "d", text: "cuticle only" }
     ],
     answerId: "c",
     explanation: "Nuclear envelope/membrane bounds the nucleus.",
@@ -413,9 +413,9 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-cell-b-q08",
     prompt: "Mitochondria are more numerous in cells that…",
     options: [
-      { id: "a", text: "are dead xylem vessels only" },
-      { id: "b", text: "have no membrane" },
-      { id: "c", text: "need little energy" },
+      { id: "a", text: "need little energy" },
+      { id: "b", text: "are dead xylem vessels only" },
+      { id: "c", text: "have no membrane" },
       { id: "d", text: "require a lot of energy" }
     ],
     answerId: "d",
@@ -427,9 +427,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which is an example of a connective tissue that is fluid?",
     options: [
       { id: "a", text: "blood" },
-      { id: "b", text: "cartilage only" },
-      { id: "c", text: "tendon only" },
-      { id: "d", text: "bone" }
+      { id: "b", text: "bone" },
+      { id: "c", text: "cartilage only" },
+      { id: "d", text: "tendon only" }
     ],
     answerId: "a",
     explanation: "Blood is a fluid connective tissue.",
@@ -452,10 +452,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-cell-b-q11",
     prompt: "Smooth muscles are found in…",
     options: [
-      { id: "a", text: "leaf veins" },
-      { id: "b", text: "biceps mainly" },
+      { id: "a", text: "biceps mainly" },
+      { id: "b", text: "heart only as skeletal" },
       { id: "c", text: "walls of internal organs (involuntary)" },
-      { id: "d", text: "heart only as skeletal" }
+      { id: "d", text: "leaf veins" }
     ],
     answerId: "c",
     explanation: "Visceral/smooth muscle is involuntary in organ walls.",
@@ -465,9 +465,9 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-cell-b-q12",
     prompt: "The heart is made of…",
     options: [
-      { id: "a", text: "only parenchyma" },
-      { id: "b", text: "only sclerenchyma" },
-      { id: "c", text: "epithelial tissue only" },
+      { id: "a", text: "epithelial tissue only" },
+      { id: "b", text: "only parenchyma" },
+      { id: "c", text: "only sclerenchyma" },
       { id: "d", text: "cardiac muscle tissue" }
     ],
     answerId: "d",
@@ -479,9 +479,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Plastids that store starch are…",
     options: [
       { id: "a", text: "leucoplasts (amyloplasts)" },
-      { id: "b", text: "chromoplasts that always photosynthesise" },
-      { id: "c", text: "lysosomes" },
-      { id: "d", text: "chloroplasts" }
+      { id: "b", text: "chloroplasts" },
+      { id: "c", text: "chromoplasts that always photosynthesise" },
+      { id: "d", text: "lysosomes" }
     ],
     answerId: "a",
     explanation: "Leucoplasts/amyloplasts store starch.",
@@ -504,10 +504,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-cell-b-q15",
     prompt: "Which feature is absent in prokaryotes?",
     options: [
-      { id: "a", text: "DNA" },
-      { id: "b", text: "ribosomes" },
+      { id: "a", text: "ribosomes" },
+      { id: "b", text: "plasma membrane" },
       { id: "c", text: "membrane-bound organelles like mitochondria" },
-      { id: "d", text: "plasma membrane" }
+      { id: "d", text: "DNA" }
     ],
     answerId: "c",
     explanation: "Prokaryotes lack membrane-bound organelles.",
@@ -517,9 +517,9 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-cell-b-q16",
     prompt: "The outermost layer in plant cells is usually the…",
     options: [
-      { id: "a", text: "nuclear membrane outside everything" },
-      { id: "b", text: "cytoplasm shell" },
-      { id: "c", text: "plasma membrane inside the wall" },
+      { id: "a", text: "plasma membrane inside the wall" },
+      { id: "b", text: "nuclear membrane outside everything" },
+      { id: "c", text: "cytoplasm shell" },
       { id: "d", text: "cell wall" }
     ],
     answerId: "d",
@@ -556,10 +556,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-cell-b-q19",
     prompt: "Who observed living cells (e.g., protozoa) with better microscopes after Hooke?",
     options: [
-      { id: "a", text: "Bohr" },
-      { id: "b", text: "Faraday" },
+      { id: "a", text: "Dalton" },
+      { id: "b", text: "Bohr" },
       { id: "c", text: "Leeuwenhoek" },
-      { id: "d", text: "Dalton" }
+      { id: "d", text: "Faraday" }
     ],
     answerId: "c",
     explanation: "Antonie van Leeuwenhoek observed living microbes/cells.",
@@ -583,9 +583,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Vacuoles in animal cells are generally…",
     options: [
       { id: "a", text: "smaller (when present) than the plant central vacuole" },
-      { id: "b", text: "made of cellulose wall" },
-      { id: "c", text: "absent in all cells forever" },
-      { id: "d", text: "larger than in plants" }
+      { id: "b", text: "larger than in plants" },
+      { id: "c", text: "made of cellulose wall" },
+      { id: "d", text: "absent in all cells forever" }
     ],
     answerId: "a",
     explanation: "Animal vacuoles are smaller/more temporary than plant central vacuoles.",
@@ -608,10 +608,10 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-cell-b-q23",
     prompt: "A multicellular organism…",
     options: [
-      { id: "a", text: "never grows" },
-      { id: "b", text: "has only one cell" },
+      { id: "a", text: "has only one cell" },
+      { id: "b", text: "cannot have tissues" },
       { id: "c", text: "is made of many cells" },
-      { id: "d", text: "cannot have tissues" }
+      { id: "d", text: "never grows" }
     ],
     answerId: "c",
     explanation: "Multi- = many cells.",
@@ -621,9 +621,9 @@ const SET_B: PrepQuestion[] = [
     id: "g9-sci-cell-b-q24",
     prompt: "The organelle involved in photosynthesis contains the pigment…",
     options: [
-      { id: "a", text: "melanin only" },
-      { id: "b", text: "keratin" },
-      { id: "c", text: "haemoglobin" },
+      { id: "a", text: "haemoglobin" },
+      { id: "b", text: "melanin only" },
+      { id: "c", text: "keratin" },
       { id: "d", text: "chlorophyll" }
     ],
     answerId: "d",

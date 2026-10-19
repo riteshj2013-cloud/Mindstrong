@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-int-a-q01",
     prompt: "Which of these is an integer?",
     options: [
-      { id: "a", text: "3.5" },
-      { id: "b", text: "-7" },
+      { id: "a", text: "-7" },
+      { id: "b", text: "3.5" },
       { id: "c", text: "2/3" },
       { id: "d", text: "√2" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Integers are whole numbers and their negatives. −7 is an integer; 3.5, 2/3 and √2 are not.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -21,11 +21,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "On a number line, which number lies to the left of −3?",
     options: [
       { id: "a", text: "−2" },
-      { id: "b", text: "0" },
-      { id: "c", text: "−5" },
+      { id: "b", text: "−5" },
+      { id: "c", text: "0" },
       { id: "d", text: "3" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Numbers decrease as you move left. −5 is left of −3.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -34,11 +34,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "What is the additive inverse of 9?",
     options: [
       { id: "a", text: "9" },
-      { id: "b", text: "−9" },
-      { id: "c", text: "1/9" },
+      { id: "b", text: "1/9" },
+      { id: "c", text: "−9" },
       { id: "d", text: "0" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "The additive inverse of a is −a, because a + (−a) = 0. So the inverse of 9 is −9.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -47,11 +47,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "What is |−12|?",
     options: [
       { id: "a", text: "−12" },
-      { id: "b", text: "12" },
-      { id: "c", text: "0" },
-      { id: "d", text: "1/12" }
+      { id: "b", text: "0" },
+      { id: "c", text: "1/12" },
+      { id: "d", text: "12" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Absolute value is the distance from 0, so |−12| = 12.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -73,11 +73,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Compute 15 + (−9).",
     options: [
       { id: "a", text: "24" },
-      { id: "b", text: "−24" },
-      { id: "c", text: "6" },
+      { id: "b", text: "6" },
+      { id: "c", text: "−24" },
       { id: "d", text: "−6" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "15 + (−9) = 15 − 9 = 6.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -86,11 +86,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Compute (−20) − (−7).",
     options: [
       { id: "a", text: "−27" },
-      { id: "b", text: "−13" },
-      { id: "c", text: "27" },
+      { id: "b", text: "27" },
+      { id: "c", text: "−13" },
       { id: "d", text: "13" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Subtracting a negative is adding: (−20) − (−7) = (−20) + 7 = −13.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -99,11 +99,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Compute (−6) × 4.",
     options: [
       { id: "a", text: "24" },
-      { id: "b", text: "−24" },
-      { id: "c", text: "10" },
-      { id: "d", text: "−2" }
+      { id: "b", text: "10" },
+      { id: "c", text: "−2" },
+      { id: "d", text: "−24" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "A negative times a positive is negative: −24.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -111,12 +111,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-int-a-q09",
     prompt: "Compute (−3) × (−5).",
     options: [
-      { id: "a", text: "−15" },
-      { id: "b", text: "15" },
+      { id: "a", text: "15" },
+      { id: "b", text: "−15" },
       { id: "c", text: "−8" },
       { id: "d", text: "8" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "A negative times a negative is positive: 15.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -135,14 +135,14 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-maths-int-a-q11",
-    prompt: "Which statement is true?",
+    prompt: "Which statement about natural numbers and integers is true?",
     options: [
-      { id: "a", text: "Every natural number is an integer" },
-      { id: "b", text: "Every integer is a natural number" },
-      { id: "c", text: "−1 is a natural number" },
+      { id: "a", text: "Every integer is a natural number" },
+      { id: "b", text: "−1 is a natural number" },
+      { id: "c", text: "Every natural number is an integer" },
       { id: "d", text: "0 is not an integer" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Natural numbers 1, 2, 3, … are integers. Negatives and 0 are integers but not natural (in the usual school meaning).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -151,11 +151,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "The temperature was −2°C in the morning and rose by 7°C. What is the new temperature?",
     options: [
       { id: "a", text: "9°C" },
-      { id: "b", text: "5°C" },
-      { id: "c", text: "−9°C" },
-      { id: "d", text: "−5°C" }
+      { id: "b", text: "−9°C" },
+      { id: "c", text: "−5°C" },
+      { id: "d", text: "5°C" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "−2 + 7 = 5, so the new temperature is 5°C.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-int-a-q15",
     prompt: "What is (−1) + (−1) + (−1)?",
     options: [
-      { id: "a", text: "−3" },
-      { id: "b", text: "3" },
-      { id: "c", text: "−1" },
+      { id: "a", text: "3" },
+      { id: "b", text: "−1" },
+      { id: "c", text: "−3" },
       { id: "d", text: "1" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Three groups of −1 sum to −3.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -203,11 +203,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which number is greater: −8 or −3?",
     options: [
       { id: "a", text: "−8" },
-      { id: "b", text: "−3" },
-      { id: "c", text: "They are equal" },
-      { id: "d", text: "Cannot tell" }
+      { id: "b", text: "They are equal" },
+      { id: "c", text: "Cannot tell" },
+      { id: "d", text: "−3" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "−3 is to the right of −8 on the number line, so −3 > −8.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -215,12 +215,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-int-a-q17",
     prompt: "Compute 0 − (−15).",
     options: [
-      { id: "a", text: "−15" },
-      { id: "b", text: "15" },
+      { id: "a", text: "15" },
+      { id: "b", text: "−15" },
       { id: "c", text: "0" },
       { id: "d", text: "−30" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "0 − (−15) = 0 + 15 = 15.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -241,12 +241,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-int-a-q19",
     prompt: "What is |5 − 12|?",
     options: [
-      { id: "a", text: "7" },
-      { id: "b", text: "−7" },
-      { id: "c", text: "17" },
+      { id: "a", text: "−7" },
+      { id: "b", text: "17" },
+      { id: "c", text: "7" },
       { id: "d", text: "−17" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "5 − 12 = −7, and |−7| = 7.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -254,12 +254,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-int-a-q20",
     prompt: "Compute (−2)³.",
     options: [
-      { id: "a", text: "−8" },
-      { id: "b", text: "8" },
-      { id: "c", text: "−6" },
-      { id: "d", text: "6" }
+      { id: "a", text: "8" },
+      { id: "b", text: "−6" },
+      { id: "c", text: "6" },
+      { id: "d", text: "−8" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "(−2)³ = (−2)×(−2)×(−2) = 4 × (−2) = −8.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -267,12 +267,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-int-a-q21",
     prompt: "The successor of −11 is —",
     options: [
-      { id: "a", text: "−12" },
-      { id: "b", text: "−10" },
+      { id: "a", text: "−10" },
+      { id: "b", text: "−12" },
       { id: "c", text: "11" },
       { id: "d", text: "10" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Successor means +1: −11 + 1 = −10.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -293,12 +293,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-int-a-q23",
     prompt: "Compute (−18) ÷ (−6).",
     options: [
-      { id: "a", text: "3" },
-      { id: "b", text: "−3" },
-      { id: "c", text: "12" },
+      { id: "a", text: "−3" },
+      { id: "b", text: "12" },
+      { id: "c", text: "3" },
       { id: "d", text: "−12" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Negative ÷ negative = positive: 3.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -306,12 +306,12 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-int-a-q24",
     prompt: "Which expression equals −10?",
     options: [
-      { id: "a", text: "(−4) + (−6)" },
-      { id: "b", text: "(−4) − (−6)" },
-      { id: "c", text: "4 + 6" },
-      { id: "d", text: "(−4) × (−6)" }
+      { id: "a", text: "(−4) − (−6)" },
+      { id: "b", text: "4 + 6" },
+      { id: "c", text: "(−4) × (−6)" },
+      { id: "d", text: "(−4) + (−6)" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "(−4) + (−6) = −10. The others give 2, 10 and 24.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
@@ -349,11 +349,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "What is −(−18)?",
     options: [
       { id: "a", text: "−18" },
-      { id: "b", text: "18" },
-      { id: "c", text: "0" },
+      { id: "b", text: "0" },
+      { id: "c", text: "18" },
       { id: "d", text: "1/18" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "The negative of −18 is 18.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -363,10 +363,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "65" },
       { id: "b", text: "−65" },
-      { id: "c", text: "15" },
-      { id: "d", text: "−15" }
+      { id: "c", text: "−15" },
+      { id: "d", text: "15" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "−25 + 40 = 15.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-int-b-q06",
     prompt: "Compute (−7) − 5.",
     options: [
-      { id: "a", text: "−12" },
-      { id: "b", text: "−2" },
+      { id: "a", text: "−2" },
+      { id: "b", text: "−12" },
       { id: "c", text: "12" },
       { id: "d", text: "2" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "(−7) − 5 = (−7) + (−5) = −12.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -401,11 +401,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Compute 6 × (−3) × (−2).",
     options: [
       { id: "a", text: "−36" },
-      { id: "b", text: "36" },
-      { id: "c", text: "−12" },
+      { id: "b", text: "−12" },
+      { id: "c", text: "36" },
       { id: "d", text: "12" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "6 × (−3) = −18; (−18) × (−2) = 36.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -414,11 +414,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Compute (−48) ÷ 8.",
     options: [
       { id: "a", text: "6" },
-      { id: "b", text: "−6" },
-      { id: "c", text: "40" },
-      { id: "d", text: "−40" }
+      { id: "b", text: "40" },
+      { id: "c", text: "−40" },
+      { id: "d", text: "−6" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "−48 ÷ 8 = −6.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -426,12 +426,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-int-b-q09",
     prompt: "If a = −4 and b = 9, what is a + b?",
     options: [
-      { id: "a", text: "13" },
-      { id: "b", text: "−13" },
-      { id: "c", text: "5" },
+      { id: "a", text: "5" },
+      { id: "b", text: "13" },
+      { id: "c", text: "−13" },
       { id: "d", text: "−5" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "−4 + 9 = 5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -452,12 +452,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-int-b-q11",
     prompt: "A submarine is at −120 m. It rises 45 m. What is its new depth?",
     options: [
-      { id: "a", text: "−75 m" },
-      { id: "b", text: "−165 m" },
-      { id: "c", text: "75 m" },
+      { id: "a", text: "−165 m" },
+      { id: "b", text: "75 m" },
+      { id: "c", text: "−75 m" },
       { id: "d", text: "165 m" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "−120 + 45 = −75 m.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -466,11 +466,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which is the smallest?",
     options: [
       { id: "a", text: "−1" },
-      { id: "b", text: "−19" },
-      { id: "c", text: "0" },
-      { id: "d", text: "2" }
+      { id: "b", text: "0" },
+      { id: "c", text: "2" },
+      { id: "d", text: "−19" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "−19 is farthest left on the number line.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -491,12 +491,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-int-b-q14",
     prompt: "The product of two integers is −36. One integer is −4. The other is —",
     options: [
-      { id: "a", text: "9" },
-      { id: "b", text: "−9" },
+      { id: "a", text: "−9" },
+      { id: "b", text: "9" },
       { id: "c", text: "32" },
       { id: "d", text: "−32" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "(−4) × 9 = −36, so the other integer is 9.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -505,11 +505,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Compute |−9| − |−4|.",
     options: [
       { id: "a", text: "−5" },
-      { id: "b", text: "5" },
-      { id: "c", text: "13" },
+      { id: "b", text: "13" },
+      { id: "c", text: "5" },
       { id: "d", text: "−13" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "|−9| = 9 and |−4| = 4, so 9 − 4 = 5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -517,12 +517,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-int-b-q16",
     prompt: "Which expression is equal to 0?",
     options: [
-      { id: "a", text: "5 + (−5)" },
-      { id: "b", text: "5 × (−5)" },
-      { id: "c", text: "5 − (−5)" },
-      { id: "d", text: "(−5) − 5" }
+      { id: "a", text: "5 × (−5)" },
+      { id: "b", text: "5 − (−5)" },
+      { id: "c", text: "(−5) − 5" },
+      { id: "d", text: "5 + (−5)" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "5 + (−5) = 0. The others are −25, 10 and −10.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -556,12 +556,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-int-b-q19",
     prompt: "What is (−15) + (−15) + 30?",
     options: [
-      { id: "a", text: "0" },
-      { id: "b", text: "30" },
-      { id: "c", text: "−30" },
+      { id: "a", text: "30" },
+      { id: "b", text: "−30" },
+      { id: "c", text: "0" },
       { id: "d", text: "60" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "−15 − 15 + 30 = 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -569,12 +569,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-int-b-q20",
     prompt: "Which property is shown by (−3) + 5 = 5 + (−3)?",
     options: [
-      { id: "a", text: "Commutative of addition" },
-      { id: "b", text: "Associative of multiplication" },
-      { id: "c", text: "Distributive" },
-      { id: "d", text: "Closure of subtraction" }
+      { id: "a", text: "Associative of multiplication" },
+      { id: "b", text: "Distributive" },
+      { id: "c", text: "Closure of subtraction" },
+      { id: "d", text: "Commutative of addition" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Order of addends can swap — commutative property of addition.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -608,12 +608,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-int-b-q23",
     prompt: "Compute (−72) ÷ (−8).",
     options: [
-      { id: "a", text: "9" },
-      { id: "b", text: "−9" },
-      { id: "c", text: "64" },
+      { id: "a", text: "−9" },
+      { id: "b", text: "64" },
+      { id: "c", text: "9" },
       { id: "d", text: "−64" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Negative ÷ negative = 9.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -621,12 +621,12 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-int-b-q24",
     prompt: "Which is true for every integer n?",
     options: [
-      { id: "a", text: "n + 0 = n" },
-      { id: "b", text: "n × 0 = n" },
-      { id: "c", text: "n − n = n" },
-      { id: "d", text: "n ÷ n = 0" }
+      { id: "a", text: "n × 0 = n" },
+      { id: "b", text: "n − n = n" },
+      { id: "c", text: "n ÷ n = 0" },
+      { id: "d", text: "n + 0 = n" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "0 is the additive identity: n + 0 = n.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }

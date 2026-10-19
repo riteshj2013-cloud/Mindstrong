@@ -14,13 +14,13 @@
 ## Set A — 16 MCQs
 
 ### Q1
-- stem: Pick the correct sentence.
-- A: she go to school.
-- B: She goes to school.
-- C: She going to school.
-- D: She gone to school.
-- answer: B
-- explanation: She goes — singular + -s on the verb.
+- stem: Fill in the blank: "She ___ to school every day."
+- A: goes
+- B: go
+- C: going
+- D: gone
+- answer: A
+- explanation: With one person (she) in the present, the verb takes -s or -es: she goes. "go" is tempting, but we say I go and they go, not she go.
 
 ### Q2
 - stem: They ___ playing in the park.
@@ -43,19 +43,19 @@
 ### Q4
 - stem: A ___ names a person, place or thing.
 - A: verb
-- B: noun
-- C: adjective
-- D: question
-- answer: B
+- B: adjective
+- C: question
+- D: noun
+- answer: D
 - explanation: A noun names a person, place or thing.
 
 ### Q5
 - stem: Pick the describing word.
-- A: run
-- B: happy
+- A: happy
+- B: run
 - C: school
 - D: under
-- answer: B
+- answer: A
 - explanation: Happy describes a feeling.
 
 ### Q6
@@ -68,21 +68,21 @@
 - explanation: I have finished…
 
 ### Q7
-- stem: Which needs a capital letter?
-- A: mumbai
-- B: river
-- C: pencil
-- D: cloud
-- answer: A
-- explanation: City names: Mumbai.
+- stem: "We visited pune last week." Which word needs a capital letter?
+- A: visited
+- B: last
+- C: pune
+- D: week
+- answer: C
+- explanation: Pune is the name of a city, so it needs a capital: Pune. "week" is tempting because it is about time, but it is not a name; only day and month names get capitals.
 
 ### Q8
 - stem: We ___ to the market yesterday.
 - A: go
 - B: goes
-- C: went
-- D: going
-- answer: C
+- C: going
+- D: went
+- answer: D
 - explanation: Yesterday → past → went.
 
 ### Q9
@@ -97,85 +97,85 @@
 ### Q10
 - stem: She ___ a song now.
 - A: sing
-- B: sings
-- C: is singing
+- B: is singing
+- C: sings
 - D: sang
-- answer: C
+- answer: B
 - explanation: Now → is singing.
 
 ### Q11
 - stem: Pick the pronoun for Rani.
 - A: he
-- B: she
-- C: it
+- B: it
+- C: she
 - D: they
-- answer: B
+- answer: C
 - explanation: Rani is a girl → she.
 
 ### Q12
 - stem: This is ___ apple.
 - A: a
-- B: an
-- C: the the
-- D: two
-- answer: B
+- B: the the
+- C: two
+- D: an
+- answer: D
 - explanation: An before vowel sound.
 
 ### Q13
 - stem: Which is a question word?
-- A: quietly
-- B: where
+- A: where
+- B: quietly
 - C: green
 - D: slowly
-- answer: B
+- answer: A
 - explanation: Where asks about place.
 
 ### Q14
 - stem: The opposite of always is…
-- A: never
-- B: often
+- A: often
+- B: never
 - C: sometimes
 - D: daily
-- answer: A
+- answer: B
 - explanation: Never is the opposite of always.
 
 ### Q15
 - stem: Join: soft + ly =
-- A: softly
-- B: softing
-- C: softs
+- A: softing
+- B: softs
+- C: softly
 - D: softness
-- answer: A
+- answer: C
 - explanation: soft + ly = softly (how).
 
 ### Q16
 - stem: Pick the correct punctuation.
 - A: What is your name.
-- B: What is your name?
-- C: What is your name!
-- D: what is your name
-- answer: B
+- B: What is your name!
+- C: what is your name
+- D: What is your name?
+- answer: D
 - explanation: Questions end with ?
 
 
 ## Set B — 16 MCQs
 
 ### Q1
-- stem: Pick the correct sentence.
-- A: He eat rice.
-- B: He eats rice.
-- C: He eating rice.
-- D: He eated rice.
-- answer: B
-- explanation: He eats — singular + -s.
+- stem: Fill in the blank: "He ___ rice for lunch."
+- A: eats
+- B: eat
+- C: eating
+- D: eated
+- answer: A
+- explanation: With one person (he) in the present, the verb takes -s: he eats. "eated" is tempting, but "eat" is not changed with -ed; its past form is "ate".
 
 ### Q2
 - stem: We ___ ready for the test.
 - A: is
-- B: am
-- C: are
+- B: are
+- C: am
 - D: be
-- answer: C
+- answer: B
 - explanation: We takes are.
 
 ### Q3
@@ -189,21 +189,21 @@
 
 ### Q4
 - stem: A verb shows an…
-- A: action
-- B: colour only
-- C: place name only
-- D: silence
-- answer: A
+- A: colour only
+- B: place name only
+- C: silence
+- D: action
+- answer: D
 - explanation: Verbs show actions.
 
 ### Q5
-- stem: Pick the describing word.
-- A: run
-- B: bright
-- C: under
-- D: and
-- answer: B
-- explanation: Bright describes something.
+- stem: Pick the describing word: "Ravi has a big kite."
+- A: big
+- B: Ravi
+- C: has
+- D: kite
+- answer: A
+- explanation: "big" tells us what the kite is like, so it is the describing word. "kite" is tempting, but it names a thing, so it is a naming word.
 
 ### Q6
 - stem: She ___ done her work.
@@ -215,30 +215,30 @@
 - explanation: She has done…
 
 ### Q7
-- stem: Which needs a capital?
-- A: monday
-- B: tree
-- C: cup
-- D: sand
-- answer: A
-- explanation: Day names: Monday.
+- stem: Which day name is written correctly?
+- A: sunday
+- B: SUNday
+- C: Sunday
+- D: sunDay
+- answer: C
+- explanation: Day names begin with a capital letter and the other letters are small: Sunday. "SUNday" is tempting because it has capitals, but only the first letter should be a capital.
 
 ### Q8
 - stem: They ___ football last evening.
 - A: play
 - B: plays
-- C: played
-- D: playing
-- answer: C
+- C: playing
+- D: played
+- answer: D
 - explanation: Last evening → past → played.
 
 ### Q9
 - stem: Replace 'The children' with a pronoun.
-- A: he
-- B: she
-- C: they
+- A: they
+- B: he
+- C: she
 - D: it
-- answer: C
+- answer: A
 - explanation: Children = they.
 
 ### Q10
@@ -253,20 +253,20 @@
 ### Q11
 - stem: This is ___ umbrella.
 - A: a
-- B: an
-- C: two
+- B: two
+- C: an
 - D: an an
-- answer: B
+- answer: C
 - explanation: An umbrella — vowel sound.
 
 ### Q12
-- stem: Which is a question word?
-- A: how
-- B: blue
-- C: desk
-- D: softly
-- answer: A
-- explanation: How asks about manner.
+- stem: Which question word asks about a time?
+- A: Who
+- B: What
+- C: Where
+- D: When
+- answer: D
+- explanation: "When" asks about time, as in "When is the bus?" "Where" is tempting, but it asks about a place.
 
 ### Q13
 - stem: Opposite of early?
@@ -279,11 +279,11 @@
 
 ### Q14
 - stem: Join: care + ful =
-- A: careful
-- B: caring
+- A: caring
+- B: careful
 - C: cares
 - D: careless
-- answer: A
+- answer: B
 - explanation: care + ful = careful.
 
 ### Q15
@@ -297,10 +297,10 @@
 
 ### Q16
 - stem: Articles a/an/the are used before…
-- A: nouns
-- B: verbs only
-- C: full stops
-- D: numbers only
-- answer: A
+- A: verbs only
+- B: full stops
+- C: numbers only
+- D: nouns
+- answer: D
 - explanation: Articles come before nouns.
 

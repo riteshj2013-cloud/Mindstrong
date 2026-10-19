@@ -449,12 +449,12 @@ D) They can neutralise acids
 ### Q19
 **Stem:** Universal indicator shows…
 **Options:**
-A) Only one colour forever
-B) Temperature only
+A) Only whether a solution is acidic or basic, like litmus
+B) The same colour for every acid
 C) Different colours across the pH range
-D) Mass only
+D) Blue in acids and red in bases
 **Answer:** C
-**Explanation:** Universal indicator maps pH to a colour chart.
+**Explanation:** Universal indicator is a mixture of indicators, so it shows a range of colours across the pH scale and tells how strongly acidic or basic a solution is. “Only acidic or basic, like litmus” is tempting, but that is all litmus can tell; universal indicator also shows strength. Strong and weak acids give different colours, and acids turn it red or orange while bases turn it blue or purple, not the other way round.
 
 ### Q20
 **Stem:** Diluting a strong acid should be done by…

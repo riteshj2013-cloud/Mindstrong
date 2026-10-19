@@ -21,11 +21,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "What decimal represents 7 hundredths?",
     options: [
       { id: "a", text: "0.7" },
-      { id: "b", text: "7.0" },
-      { id: "c", text: "0.07" },
+      { id: "b", text: "0.07" },
+      { id: "c", text: "7.0" },
       { id: "d", text: "0.007" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "7 hundredths is 7/100, written as 0.07 with the 7 in the hundredths place.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -34,11 +34,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "In 4.86, which digit is in the tenths place?",
     options: [
       { id: "a", text: "4" },
-      { id: "b", text: "8" },
-      { id: "c", text: "6" },
+      { id: "b", text: "6" },
+      { id: "c", text: "8" },
       { id: "d", text: "0" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Just after the decimal point is the tenths place, so the digit is 8.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -47,11 +47,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which number is equal to 0.5?",
     options: [
       { id: "a", text: "1/5" },
-      { id: "b", text: "1/2" },
-      { id: "c", text: "5" },
-      { id: "d", text: "1/50" }
+      { id: "b", text: "5" },
+      { id: "c", text: "1/50" },
+      { id: "d", text: "1/2" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "0.5 means 5/10, which simplifies to 1/2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -59,12 +59,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-dec-a-q05",
     prompt: "Which is greater: 0.8 or 0.75?",
     options: [
-      { id: "a", text: "0.75" },
-      { id: "b", text: "0.8" },
+      { id: "a", text: "0.8" },
+      { id: "b", text: "0.75" },
       { id: "c", text: "They are equal" },
       { id: "d", text: "Cannot tell" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "0.80 is greater than 0.75 when both have hundredths, so 0.8 is greater.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -72,12 +72,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-dec-a-q06",
     prompt: "What is 1.2 + 0.5?",
     options: [
-      { id: "a", text: "1.7" },
-      { id: "b", text: "1.25" },
+      { id: "a", text: "1.25" },
+      { id: "b", text: "1.7" },
       { id: "c", text: "0.7" },
       { id: "d", text: "6.2" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Line up the points: 1.2 + 0.5 = 1.7.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -85,12 +85,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-dec-a-q07",
     prompt: "What is 3.6 \u2212 1.4?",
     options: [
-      { id: "a", text: "2.2" },
-      { id: "b", text: "2.0" },
-      { id: "c", text: "5.0" },
+      { id: "a", text: "2.0" },
+      { id: "b", text: "5.0" },
+      { id: "c", text: "2.2" },
       { id: "d", text: "1.2" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Subtract tenths then ones: 3.6 \u2212 1.4 = 2.2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -99,11 +99,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "What is 0.4 \u00d7 10?",
     options: [
       { id: "a", text: "0.04" },
-      { id: "b", text: "4" },
-      { id: "c", text: "40" },
-      { id: "d", text: "0.4" }
+      { id: "b", text: "40" },
+      { id: "c", text: "0.4" },
+      { id: "d", text: "4" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "Multiplying by 10 moves the decimal point one place right: 0.4 becomes 4.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -111,12 +111,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-dec-a-q09",
     prompt: "What is 25% as a fraction in simplest form?",
     options: [
-      { id: "a", text: "25/100" },
-      { id: "b", text: "1/4" },
+      { id: "a", text: "1/4" },
+      { id: "b", text: "25/100" },
       { id: "c", text: "1/25" },
       { id: "d", text: "4/1" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "25% = 25/100 = 1/4 after dividing top and bottom by 25.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -124,12 +124,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-dec-a-q10",
     prompt: "What is 50% of 80?",
     options: [
-      { id: "a", text: "40" },
-      { id: "b", text: "30" },
+      { id: "a", text: "30" },
+      { id: "b", text: "40" },
       { id: "c", text: "50" },
       { id: "d", text: "16" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "50% means half, and half of 80 is 40.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-dec-a-q11",
     prompt: "Write 3/10 as a decimal.",
     options: [
-      { id: "a", text: "0.3" },
-      { id: "b", text: "3.0" },
-      { id: "c", text: "0.03" },
+      { id: "a", text: "3.0" },
+      { id: "b", text: "0.03" },
+      { id: "c", text: "0.3" },
       { id: "d", text: "0.003" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "3/10 is three tenths, written as 0.3.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -151,11 +151,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which shows one and twenty-five hundredths?",
     options: [
       { id: "a", text: "1.025" },
-      { id: "b", text: "1.25" },
-      { id: "c", text: "12.5" },
-      { id: "d", text: "0.125" }
+      { id: "b", text: "12.5" },
+      { id: "c", text: "0.125" },
+      { id: "d", text: "1.25" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "1 whole and 25 hundredths is 1.25.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -163,12 +163,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-dec-a-q13",
     prompt: "Arrange in ascending order: 0.4, 0.35, 0.405",
     options: [
-      { id: "a", text: "0.4, 0.35, 0.405" },
-      { id: "b", text: "0.35, 0.4, 0.405" },
+      { id: "a", text: "0.35, 0.4, 0.405" },
+      { id: "b", text: "0.4, 0.35, 0.405" },
       { id: "c", text: "0.35, 0.405, 0.4" },
       { id: "d", text: "0.405, 0.4, 0.35" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "As hundredths: 0.35, 0.40, 0.405 \u2192 ascending is 0.35, 0.4, 0.405.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -177,11 +177,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "What is the place value of 9 in 5.391?",
     options: [
       { id: "a", text: "9 ones" },
-      { id: "b", text: "9 tenths" },
-      { id: "c", text: "9 hundredths" },
+      { id: "b", text: "9 hundredths" },
+      { id: "c", text: "9 tenths" },
       { id: "d", text: "9 thousandths" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Places after the point are tenths, hundredths, thousandths \u2014 so 9 is hundredths.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-dec-a-q15",
     prompt: "What is 2.05 + 1.3?",
     options: [
-      { id: "a", text: "3.35" },
-      { id: "b", text: "3.08" },
-      { id: "c", text: "2.18" },
+      { id: "a", text: "3.08" },
+      { id: "b", text: "2.18" },
+      { id: "c", text: "3.35" },
       { id: "d", text: "4.35" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Write 1.3 as 1.30; 2.05 + 1.30 = 3.35.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-dec-a-q16",
     prompt: "What is 4.2 \u2212 0.85?",
     options: [
-      { id: "a", text: "3.35" },
-      { id: "b", text: "3.45" },
-      { id: "c", text: "4.65" },
-      { id: "d", text: "3.15" }
+      { id: "a", text: "3.45" },
+      { id: "b", text: "4.65" },
+      { id: "c", text: "3.15" },
+      { id: "d", text: "3.35" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "4.20 \u2212 0.85 = 3.35.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -215,12 +215,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-dec-a-q17",
     prompt: "What is 0.56 \u00d7 100?",
     options: [
-      { id: "a", text: "5.6" },
-      { id: "b", text: "56" },
+      { id: "a", text: "56" },
+      { id: "b", text: "5.6" },
       { id: "c", text: "560" },
       { id: "d", text: "0.0056" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "\u00d7100 moves the point two places right: 0.56 \u2192 56.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -241,12 +241,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-dec-a-q19",
     prompt: "What is 10% of 250?",
     options: [
-      { id: "a", text: "25" },
-      { id: "b", text: "2.5" },
-      { id: "c", text: "250" },
+      { id: "a", text: "2.5" },
+      { id: "b", text: "250" },
+      { id: "c", text: "25" },
       { id: "d", text: "10" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "10% means divide by 10, so 250 \u00f7 10 = 25.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -255,11 +255,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "A bottle holds 0.75 L. How many millilitres is that?",
     options: [
       { id: "a", text: "75 ml" },
-      { id: "b", text: "750 ml" },
-      { id: "c", text: "7.5 ml" },
-      { id: "d", text: "7500 ml" }
+      { id: "b", text: "7.5 ml" },
+      { id: "c", text: "7500 ml" },
+      { id: "d", text: "750 ml" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "1 L = 1000 ml, so 0.75 \u00d7 1000 = 750 ml.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -267,12 +267,12 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-dec-a-q21",
     prompt: "Which fraction equals 0.2?",
     options: [
-      { id: "a", text: "1/2" },
-      { id: "b", text: "1/5" },
+      { id: "a", text: "1/5" },
+      { id: "b", text: "1/2" },
       { id: "c", text: "2/5" },
       { id: "d", text: "1/20" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "0.2 = 2/10 = 1/5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -281,11 +281,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Riya scored 18 marks out of 20. What percent did she score?",
     options: [
       { id: "a", text: "18%" },
-      { id: "b", text: "80%" },
-      { id: "c", text: "90%" },
+      { id: "b", text: "90%" },
+      { id: "c", text: "80%" },
       { id: "d", text: "95%" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "18/20 = 90/100 = 90%.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -294,11 +294,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "A shirt costs \u20b9400. A shop offers 25% off. What is the sale price?",
     options: [
       { id: "a", text: "\u20b9100" },
-      { id: "b", text: "\u20b9300" },
-      { id: "c", text: "\u20b9325" },
+      { id: "b", text: "\u20b9325" },
+      { id: "c", text: "\u20b9300" },
       { id: "d", text: "\u20b9375" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "25% of 400 is 100, so the sale price is 400 \u2212 100 = \u20b9300.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -307,11 +307,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "What is 6.04 \u00f7 10?",
     options: [
       { id: "a", text: "60.4" },
-      { id: "b", text: "0.604" },
-      { id: "c", text: "0.064" },
-      { id: "d", text: "6.4" }
+      { id: "b", text: "0.064" },
+      { id: "c", text: "6.4" },
+      { id: "d", text: "0.604" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "\u00f710 moves the point one place left: 6.04 \u2192 0.604.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
@@ -322,12 +322,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-dec-b-q01",
     prompt: "What decimal represents 9 tenths?",
     options: [
-      { id: "a", text: "0.09" },
-      { id: "b", text: "0.9" },
+      { id: "a", text: "0.9" },
+      { id: "b", text: "0.09" },
       { id: "c", text: "9.0" },
       { id: "d", text: "0.009" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "9 tenths is 9/10 = 0.9.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -349,11 +349,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "In 7.253, which digit is in the hundredths place?",
     options: [
       { id: "a", text: "2" },
-      { id: "b", text: "5" },
-      { id: "c", text: "3" },
+      { id: "b", text: "3" },
+      { id: "c", text: "5" },
       { id: "d", text: "7" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Tenths is 2, hundredths is 5, thousandths is 3.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -362,11 +362,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which number is equal to 0.25?",
     options: [
       { id: "a", text: "1/2" },
-      { id: "b", text: "1/4" },
-      { id: "c", text: "1/25" },
-      { id: "d", text: "2/5" }
+      { id: "b", text: "1/25" },
+      { id: "c", text: "2/5" },
+      { id: "d", text: "1/4" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "0.25 = 25/100 = 1/4.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -387,12 +387,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-dec-b-q06",
     prompt: "What is 0.8 + 0.15?",
     options: [
-      { id: "a", text: "0.95" },
-      { id: "b", text: "0.23" },
+      { id: "a", text: "0.23" },
+      { id: "b", text: "0.95" },
       { id: "c", text: "0.815" },
       { id: "d", text: "1.95" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "0.80 + 0.15 = 0.95.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -400,12 +400,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-dec-b-q07",
     prompt: "What is 5.0 \u2212 2.3?",
     options: [
-      { id: "a", text: "2.7" },
-      { id: "b", text: "3.7" },
-      { id: "c", text: "7.3" },
+      { id: "a", text: "3.7" },
+      { id: "b", text: "7.3" },
+      { id: "c", text: "2.7" },
       { id: "d", text: "2.3" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "5.0 \u2212 2.3 = 2.7.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -414,11 +414,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "What is 1.5 \u00d7 10?",
     options: [
       { id: "a", text: "0.15" },
-      { id: "b", text: "15" },
-      { id: "c", text: "150" },
-      { id: "d", text: "1.05" }
+      { id: "b", text: "150" },
+      { id: "c", text: "1.05" },
+      { id: "d", text: "15" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "\u00d710 moves the point one place right: 1.5 \u2192 15.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -426,12 +426,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-dec-b-q09",
     prompt: "What is 10% as a decimal?",
     options: [
-      { id: "a", text: "10" },
-      { id: "b", text: "1.0" },
-      { id: "c", text: "0.1" },
+      { id: "a", text: "0.1" },
+      { id: "b", text: "10" },
+      { id: "c", text: "1.0" },
       { id: "d", text: "0.01" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "10% = 10/100 = 0.1.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -439,12 +439,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-dec-b-q10",
     prompt: "What is 25% of 40?",
     options: [
-      { id: "a", text: "10" },
-      { id: "b", text: "15" },
+      { id: "a", text: "15" },
+      { id: "b", text: "10" },
       { id: "c", text: "8" },
       { id: "d", text: "20" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "25% is one quarter; 40 \u00f7 4 = 10.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -453,11 +453,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Write 7/100 as a decimal.",
     options: [
       { id: "a", text: "0.7" },
-      { id: "b", text: "0.07" },
-      { id: "c", text: "7.0" },
+      { id: "b", text: "7.0" },
+      { id: "c", text: "0.07" },
       { id: "d", text: "0.007" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "7/100 is seven hundredths = 0.07.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -466,11 +466,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which shows three and six hundredths?",
     options: [
       { id: "a", text: "3.6" },
-      { id: "b", text: "3.06" },
-      { id: "c", text: "3.006" },
-      { id: "d", text: "0.36" }
+      { id: "b", text: "3.006" },
+      { id: "c", text: "0.36" },
+      { id: "d", text: "3.06" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "3 wholes and 6 hundredths is 3.06.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -491,12 +491,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-dec-b-q14",
     prompt: "What is the face value of 6 in 8.46?",
     options: [
-      { id: "a", text: "6" },
-      { id: "b", text: "0.6" },
+      { id: "a", text: "0.6" },
+      { id: "b", text: "6" },
       { id: "c", text: "0.06" },
       { id: "d", text: "60" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Face value is the digit itself, which is 6.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -504,12 +504,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-dec-b-q15",
     prompt: "What is 0.9 + 2.45?",
     options: [
-      { id: "a", text: "3.35" },
-      { id: "b", text: "2.54" },
-      { id: "c", text: "3.25" },
+      { id: "a", text: "2.54" },
+      { id: "b", text: "3.25" },
+      { id: "c", text: "3.35" },
       { id: "d", text: "12.45" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "0.90 + 2.45 = 3.35.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -517,12 +517,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-dec-b-q16",
     prompt: "What is 6.5 \u2212 2.75?",
     options: [
-      { id: "a", text: "3.75" },
-      { id: "b", text: "4.25" },
-      { id: "c", text: "3.25" },
-      { id: "d", text: "4.75" }
+      { id: "a", text: "4.25" },
+      { id: "b", text: "3.25" },
+      { id: "c", text: "4.75" },
+      { id: "d", text: "3.75" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "6.50 \u2212 2.75 = 3.75.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -544,11 +544,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Write 2/5 as a percent.",
     options: [
       { id: "a", text: "20%" },
-      { id: "b", text: "25%" },
-      { id: "c", text: "40%" },
+      { id: "b", text: "40%" },
+      { id: "c", text: "25%" },
       { id: "d", text: "50%" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "2/5 = 0.4 = 40%.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -557,11 +557,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "What is 5% of 200?",
     options: [
       { id: "a", text: "5" },
-      { id: "b", text: "10" },
-      { id: "c", text: "20" },
+      { id: "b", text: "20" },
+      { id: "c", text: "10" },
       { id: "d", text: "50" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "5% of 200 = (5/100)\u00d7200 = 10.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -570,11 +570,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "A ribbon is 1.25 m long. How many centimetres is that?",
     options: [
       { id: "a", text: "12.5 cm" },
-      { id: "b", text: "125 cm" },
-      { id: "c", text: "1.25 cm" },
-      { id: "d", text: "1250 cm" }
+      { id: "b", text: "1.25 cm" },
+      { id: "c", text: "1250 cm" },
+      { id: "d", text: "125 cm" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "1 m = 100 cm, so 1.25 \u00d7 100 = 125 cm.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -609,11 +609,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "A bag costs \u20b9250. After a 20% discount, what does it cost?",
     options: [
       { id: "a", text: "\u20b950" },
-      { id: "b", text: "\u20b9200" },
-      { id: "c", text: "\u20b9230" },
+      { id: "b", text: "\u20b9230" },
+      { id: "c", text: "\u20b9200" },
       { id: "d", text: "\u20b9180" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "20% of 250 is 50; sale price is 250 \u2212 50 = \u20b9200.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -621,12 +621,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-dec-b-q24",
     prompt: "What is (0.6 + 0.15) \u00d7 10?",
     options: [
-      { id: "a", text: "7.5" },
-      { id: "b", text: "6.15" },
-      { id: "c", text: "0.75" },
-      { id: "d", text: "75" }
+      { id: "a", text: "6.15" },
+      { id: "b", text: "0.75" },
+      { id: "c", text: "75" },
+      { id: "d", text: "7.5" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "0.6 + 0.15 = 0.75; 0.75 \u00d7 10 = 7.5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
@@ -636,7 +636,7 @@ const lesson: ChapterDef["lesson"] = [
   {
     id: "h",
     type: "hook",
-    emoji: "💯",
+    emoji: "\ud83d\udcaf",
     title: "Decimals and percentages",
     body: [
       "An interactive lesson with tap-to-reveal and a quick try.",
@@ -690,7 +690,7 @@ const lesson: ChapterDef["lesson"] = [
 export const g5MathsDecimals: ChapterDef = {
   id: "decimals-percentages",
   title: "Decimals & Percentages",
-  emoji: "💯",
+  emoji: "\ud83d\udcaf",
   blurb: "Tenths, hundredths and percent",
   lesson,
   sets: [

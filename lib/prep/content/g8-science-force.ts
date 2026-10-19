@@ -5,15 +5,15 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g8-sci-force-a-q01",
-    prompt: "In science, a force is best described as \u2014",
+    prompt: "A force can change all of these EXCEPT —",
     options: [
-      { id: "a", text: "only a push" },
-      { id: "b", text: "a push or a pull" },
-      { id: "c", text: "only a pull" },
-      { id: "d", text: "the speed of a moving object" }
+      { id: "a", text: "the speed of an object" },
+      { id: "b", text: "the direction of motion" },
+      { id: "c", text: "the shape of an object" },
+      { id: "d", text: "the mass of an object" }
     ],
-    answerId: "b",
-    explanation: "A force is any push or pull on an object. Speed describes motion. It is not a force.",
+    answerId: "d",
+    explanation: "A force can speed up, slow down or turn a moving object, and can change its shape, like squeezing clay. It cannot change the amount of matter in the object, its mass. Shape is tempting, but pressing a ball of dough shows a force can change shape.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

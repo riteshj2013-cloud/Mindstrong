@@ -27,11 +27,11 @@
 ### Q01
 - **stem**: Matter is anything that has…
 - **options**:
-  - A) only colour
-  - B) mass and occupies space
+  - A) mass and occupies space
+  - B) only colour
   - C) only smell
   - D) only taste
-- **answer**: B
+- **answer**: A
 - **explanation**: Matter has mass and occupies space.
 - **skill**: basics
 - **difficulty**: easy
@@ -40,10 +40,10 @@
 - **stem**: In which state are particles most loosely packed and free to move far apart?
 - **options**:
   - A) solid
-  - B) liquid
-  - C) gas
+  - B) gas
+  - C) liquid
   - D) all equal
-- **answer**: C
+- **answer**: B
 - **explanation**: Gas particles are farthest apart and move freely.
 - **skill**: states
 - **difficulty**: easy
@@ -52,10 +52,10 @@
 - **stem**: The change of a liquid into vapour at any temperature below boiling point is…
 - **options**:
   - A) melting
-  - B) evaporation
-  - C) sublimation
+  - B) sublimation
+  - C) evaporation
   - D) condensation
-- **answer**: B
+- **answer**: C
 - **explanation**: Evaporation occurs at the surface below boiling point.
 - **skill**: change
 - **difficulty**: easy
@@ -65,9 +65,9 @@
 - **options**:
   - A) melting
   - B) freezing
-  - C) sublimation
-  - D) evaporation
-- **answer**: C
+  - C) evaporation
+  - D) sublimation
+- **answer**: D
 - **explanation**: Solid → gas directly is sublimation.
 - **skill**: change
 - **difficulty**: easy
@@ -75,11 +75,11 @@
 ### Q05
 - **stem**: Which has a definite shape and definite volume?
 - **options**:
-  - A) gas
-  - B) liquid
-  - C) solid
+  - A) solid
+  - B) gas
+  - C) liquid
   - D) plasma only in stars
-- **answer**: C
+- **answer**: A
 - **explanation**: Solids keep shape and volume.
 - **skill**: states
 - **difficulty**: easy
@@ -100,10 +100,10 @@
 - **stem**: Latent heat of vaporisation is the heat…
 - **options**:
   - A) to raise temperature of vapour by 1°C
-  - B) to convert unit mass of liquid to vapour at constant temperature
-  - C) to melt any solid
+  - B) to melt any solid
+  - C) to convert unit mass of liquid to vapour at constant temperature
   - D) stored only in solids
-- **answer**: B
+- **answer**: C
 - **explanation**: It is heat to change liquid → vapour without temperature change (per unit mass).
 - **skill**: latent
 - **difficulty**: medium
@@ -111,24 +111,24 @@
 ### Q08
 - **stem**: Cooling caused by evaporation happens because…
 - **options**:
-  - A) higher-energy particles leave, lowering average kinetic energy of the rest
-  - B) particles stop moving completely
-  - C) mass of liquid increases
-  - D) volume becomes exactly zero
-- **answer**: A
+  - A) particles stop moving completely
+  - B) mass of liquid increases
+  - C) volume becomes exactly zero
+  - D) higher-energy particles leave, lowering average kinetic energy of the rest
+- **answer**: D
 - **explanation**: Faster particles escape; remaining liquid has lower average kinetic energy → cooler.
 - **skill**: evaporation
 - **difficulty**: hard
 
 ### Q09
-- **stem**: Which factor increases the rate of evaporation?
+- **stem**: Which change DECREASES the rate of evaporation?
 - **options**:
-  - A) decreasing surface area
-  - B) increasing humidity
-  - C) increasing wind speed
-  - D) decreasing temperature
-- **answer**: C
-- **explanation**: Wind removes vapour, speeding further evaporation.
+  - A) an increase in humidity
+  - B) an increase in temperature
+  - C) an increase in surface area
+  - D) an increase in wind speed
+- **answer**: A
+- **explanation**: When the air already holds a lot of water vapour (high humidity), it takes up more vapour slowly, so evaporation slows. Temperature, surface area and wind speed all speed evaporation up when they increase.
 - **skill**: evaporation
 - **difficulty**: medium
 
@@ -148,10 +148,10 @@
 - **stem**: The SI unit of temperature commonly converted from Celsius in science is…
 - **options**:
   - A) fahrenheit only
-  - B) kelvin
-  - C) calorie
+  - B) calorie
+  - C) kelvin
   - D) pascal
-- **answer**: B
+- **answer**: C
 - **explanation**: SI unit of thermodynamic temperature is kelvin.
 - **skill**: units
 - **difficulty**: easy
@@ -161,9 +161,9 @@
 - **options**:
   - A) 0 K
   - B) 100 K
-  - C) 273 K
-  - D) 373 K
-- **answer**: C
+  - C) 373 K
+  - D) 273 K
+- **answer**: D
 - **explanation**: T(K) = t(°C) + 273 (approx. 273.15).
 - **skill**: units
 - **difficulty**: easy
@@ -171,24 +171,24 @@
 ### Q13
 - **stem**: Interparticle forces are strongest in…
 - **options**:
-  - A) gases
-  - B) liquids
-  - C) solids
+  - A) solids
+  - B) gases
+  - C) liquids
   - D) vacuums
-- **answer**: C
+- **answer**: A
 - **explanation**: Solids have the strongest forces and least particle motion freedom.
 - **skill**: particle
 - **difficulty**: easy
 
 ### Q14
-- **stem**: Condensation is the change from…
+- **stem**: Water droplets form on the outside of a glass of iced water. This is because…
 - **options**:
-  - A) liquid to solid
-  - B) gas to liquid
-  - C) solid to gas
-  - D) liquid to gas
+  - A) water leaks through the glass
+  - B) water vapour in the air condenses on the cold glass
+  - C) the ice evaporates through the glass
+  - D) the glass gives out water, like sweat
 - **answer**: B
-- **explanation**: Gas → liquid is condensation.
+- **explanation**: Water vapour in the air cools on the cold surface and condenses into droplets. “Water leaks through the glass” is tempting, but glass is not porous, and the drops even appear when the glass holds only ice.
 - **skill**: change
 - **difficulty**: easy
 
@@ -197,9 +197,9 @@
 - **options**:
   - A) they have spaces between them
   - B) they are continuously moving
-  - C) they attract each other
-  - D) they are always at absolute rest in liquids
-- **answer**: D
+  - C) they are always at absolute rest in liquids
+  - D) they attract each other
+- **answer**: C
 - **explanation**: Particles move in all states; they are not at absolute rest in liquids.
 - **skill**: particle
 - **difficulty**: medium
@@ -208,10 +208,10 @@
 - **stem**: Humidity high means evaporation is…
 - **options**:
   - A) faster
-  - B) slower
-  - C) unchanged always
-  - D) impossible
-- **answer**: B
+  - B) unchanged always
+  - C) impossible
+  - D) slower
+- **answer**: D
 - **explanation**: Air already holds much vapour, so net evaporation slows.
 - **skill**: evaporation
 - **difficulty**: medium
@@ -219,11 +219,11 @@
 ### Q17
 - **stem**: Melting point of ice at standard pressure is…
 - **options**:
-  - A) 100°C
-  - B) 0°C
+  - A) 0°C
+  - B) 100°C
   - C) −273°C
   - D) 37°C
-- **answer**: B
+- **answer**: A
 - **explanation**: Ice melts at 0°C at standard atmospheric pressure.
 - **skill**: change
 - **difficulty**: easy
@@ -244,10 +244,10 @@
 - **stem**: Which process cools a clay pot of water?
 - **options**:
   - A) water freezing solid instantly
-  - B) evaporation through porous walls
-  - C) condensation inside only
+  - B) condensation inside only
+  - C) evaporation through porous walls
   - D) sublimation of clay
-- **answer**: B
+- **answer**: C
 - **explanation**: Porous pots allow evaporation that cools the remaining water.
 - **skill**: evaporation
 - **difficulty**: medium
@@ -256,10 +256,10 @@
 - **stem**: Plasma (mentioned in advanced contexts) is…
 - **options**:
   - A) a solid crystal always
-  - B) an ionised gas-like state of matter
-  - C) only liquid metal
-  - D) identical to ice
-- **answer**: B
+  - B) only liquid metal
+  - C) identical to ice
+  - D) an ionised gas-like state of matter
+- **answer**: D
 - **explanation**: Plasma consists of ionised particles; often called a fourth state.
 - **skill**: states
 - **difficulty**: hard
@@ -267,11 +267,11 @@
 ### Q21
 - **stem**: Diffusion is fastest in…
 - **options**:
-  - A) solids
-  - B) liquids
-  - C) gases
+  - A) gases
+  - B) solids
+  - C) liquids
   - D) all equal always
-- **answer**: C
+- **answer**: A
 - **explanation**: Particles move fastest and are least packed in gases.
 - **skill**: particle
 - **difficulty**: easy
@@ -280,10 +280,10 @@
 - **stem**: During melting of ice at 0°C, temperature of the mixture…
 - **options**:
   - A) rises steadily
-  - B) falls steadily
-  - C) stays constant until melting finishes
+  - B) stays constant until melting finishes
+  - C) falls steadily
   - D) becomes 100°C at once
-- **answer**: C
+- **answer**: B
 - **explanation**: Heat goes into latent heat; temperature plateaus during the phase change.
 - **skill**: latent
 - **difficulty**: medium
@@ -305,9 +305,9 @@
 - **options**:
   - A) 0°C
   - B) 50°C
-  - C) 100°C
-  - D) 273°C
-- **answer**: C
+  - C) 273°C
+  - D) 100°C
+- **answer**: D
 - **explanation**: Water boils at 100°C at 1 atm.
 - **skill**: change
 - **difficulty**: easy
@@ -317,11 +317,11 @@
 ### Q01
 - **stem**: Particles of matter are…
 - **options**:
-  - A) visible easily always as separate dots to the eye
-  - B) extremely small
+  - A) extremely small
+  - B) visible easily always as separate dots to the eye
   - C) never in motion
   - D) without spaces between them
-- **answer**: B
+- **answer**: A
 - **explanation**: Particles are too small to see individually; they move and have spaces.
 - **skill**: particle
 - **difficulty**: easy
@@ -354,10 +354,10 @@
 - **stem**: Steam at 100°C causes more severe burns than water at 100°C mainly because steam…
 - **options**:
   - A) has lower temperature
-  - B) carries latent heat of vaporisation released on condensation
-  - C) is denser than water
-  - D) has no energy
-- **answer**: B
+  - B) is denser than water
+  - C) has no energy
+  - D) carries latent heat of vaporisation released on condensation
+- **answer**: D
 - **explanation**: Condensing steam releases latent heat in addition to cooling.
 - **skill**: latent
 - **difficulty**: hard
@@ -390,22 +390,22 @@
 - **stem**: A liquid’s boiling point depends on…
 - **options**:
   - A) colour only
-  - B) external pressure
-  - C) only the container’s brand
+  - B) only the container’s brand
+  - C) external pressure
   - D) magnetism only
-- **answer**: B
+- **answer**: C
 - **explanation**: Lower pressure → lower boiling point (e.g., on mountains).
 - **skill**: change
 - **difficulty**: medium
 
 ### Q08
-- **stem**: Which statement is true?
+- **stem**: Which statement about the states of matter is true?
 - **options**:
   - A) Gases have definite shape
   - B) Solids are highly compressible
-  - C) Liquids flow and take container shape
-  - D) Particles in solids never vibrate
-- **answer**: C
+  - C) Particles in solids never vibrate
+  - D) Liquids flow and take container shape
+- **answer**: D
 - **explanation**: Liquids flow; solids vibrate about fixed positions; gases lack definite shape.
 - **skill**: states
 - **difficulty**: easy
@@ -413,11 +413,11 @@
 ### Q09
 - **stem**: Sponge is compressible though solid because…
 - **options**:
-  - A) it has no particles
-  - B) it has tiny holes filled with air
+  - A) it has tiny holes filled with air
+  - B) it has no particles
   - C) it is a liquid
   - D) it is a gas
-- **answer**: B
+- **answer**: A
 - **explanation**: Air pockets compress; the material itself is solid.
 - **skill**: states
 - **difficulty**: medium
@@ -438,10 +438,10 @@
 - **stem**: Kelvin scale starts at…
 - **options**:
   - A) 0°C
-  - B) absolute zero (−273°C approx.)
-  - C) 100°C
+  - B) 100°C
+  - C) absolute zero (−273°C approx.)
   - D) 32°F only
-- **answer**: B
+- **answer**: C
 - **explanation**: 0 K is absolute zero ≈ −273°C.
 - **skill**: units
 - **difficulty**: medium
@@ -451,9 +451,9 @@
 - **options**:
   - A) burning paper
   - B) rusting iron
-  - C) melting wax
-  - D) digesting food
-- **answer**: C
+  - C) digesting food
+  - D) melting wax
+- **answer**: D
 - **explanation**: Melting wax changes state, not chemical identity.
 - **skill**: change
 - **difficulty**: medium
@@ -474,10 +474,10 @@
 - **stem**: The force of attraction between particles is weakest in…
 - **options**:
   - A) solids
-  - B) liquids
-  - C) gases
+  - B) gases
+  - C) liquids
   - D) ice only
-- **answer**: C
+- **answer**: B
 - **explanation**: Gas particles interact least strongly.
 - **skill**: particle
 - **difficulty**: easy
@@ -486,10 +486,10 @@
 - **stem**: At the melting point, solid and liquid…
 - **options**:
   - A) cannot coexist
-  - B) can coexist in equilibrium
-  - C) must both be gases
+  - B) must both be gases
+  - C) can coexist in equilibrium
   - D) have zero mass
-- **answer**: B
+- **answer**: C
 - **explanation**: During melting, both phases can be present at the melting temperature.
 - **skill**: latent
 - **difficulty**: medium
@@ -509,11 +509,11 @@
 ### Q17
 - **stem**: Ice floats on water because…
 - **options**:
-  - A) ice is denser
-  - B) ice is less dense than liquid water
+  - A) ice is less dense than liquid water
+  - B) ice is denser
   - C) ice has no mass
   - D) water has no particles
-- **answer**: B
+- **answer**: A
 - **explanation**: Open structure of ice makes it less dense than water.
 - **skill**: states
 - **difficulty**: medium
@@ -533,12 +533,12 @@
 ### Q19
 - **stem**: Intermixing of particles of two different types of matter on their own is…
 - **options**:
-  - A) diffusion
-  - B) sedimentation
-  - C) filtration
-  - D) distillation always
-- **answer**: A
-- **explanation**: Diffusion is spontaneous mixing of particles.
+  - A) filtration
+  - B) evaporation
+  - C) diffusion
+  - D) sublimation
+- **answer**: C
+- **explanation**: Diffusion is the intermixing of particles of two different types of matter on their own, because the particles keep moving. Evaporation is tempting because it also happens on its own, but it is particles of one liquid escaping from its surface into the air, not two kinds of matter mixing. Filtration is a separation method and sublimation is a change of state (solid to gas).
 - **skill**: particle
 - **difficulty**: easy
 
@@ -546,10 +546,10 @@
 - **stem**: To convert 25°C to kelvin…
 - **options**:
   - A) subtract 273
-  - B) add 273
-  - C) multiply by 273
-  - D) divide by 273
-- **answer**: B
+  - B) multiply by 273
+  - C) divide by 273
+  - D) add 273
+- **answer**: D
 - **explanation**: K ≈ °C + 273 → 298 K.
 - **skill**: units
 - **difficulty**: easy
@@ -557,11 +557,11 @@
 ### Q21
 - **stem**: Which best explains why liquids can be poured?
 - **options**:
-  - A) particles are fixed in place rigidly
-  - B) particles can move past one another while staying close
+  - A) particles can move past one another while staying close
+  - B) particles are fixed in place rigidly
   - C) particles are infinitely far apart
   - D) there are no forces at all
-- **answer**: B
+- **answer**: A
 - **explanation**: Liquid particles move/slide while cohesive enough to keep volume.
 - **skill**: states
 - **difficulty**: medium
@@ -581,11 +581,11 @@
 ### Q23
 - **stem**: Heat required to change 1 kg of solid to liquid at melting point is called…
 - **options**:
-  - A) latent heat of fusion
-  - B) latent heat of vaporisation
-  - C) specific heat only
+  - A) latent heat of vaporisation
+  - B) specific heat only
+  - C) latent heat of fusion
   - D) solar constant
-- **answer**: A
+- **answer**: C
 - **explanation**: Latent heat of fusion is for solid ↔ liquid.
 - **skill**: latent
 - **difficulty**: medium
@@ -594,10 +594,10 @@
 - **stem**: Matter around us exists mainly in…
 - **options**:
   - A) one state only
-  - B) three common states: solid, liquid, gas
-  - C) only plasma
-  - D) only vapour
-- **answer**: B
+  - B) only plasma
+  - C) only vapour
+  - D) three common states: solid, liquid, gas
+- **answer**: D
 - **explanation**: School science focuses on solid, liquid and gas.
 - **skill**: basics
 - **difficulty**: easy

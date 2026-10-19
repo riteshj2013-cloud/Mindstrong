@@ -259,38 +259,19 @@ def emit_md(path: Path, *, grade: int, subject: str, chapter_id: str, title: str
 
 
 def balance_set(qs: list[dict], seed_key: str) -> list[dict]:
-    """Rotate option order so a 24-item set is exactly 6A/6B/6C/6D.
+    """Reorder options so a 24-item set is ~6A/6B/6C/6D (shared scripts/answer_balance.py).
 
-    Preserves correct option *text*; only position + answerId change.
+    Preserves correct option *text*; only position + answerId change. Items whose options
+    refer to positions ("both A and B") are pinned in their written order.
     """
-    letters = "abcd"
+    import sys
+    sys.path.insert(0, str(REPO / "scripts"))
+    from answer_balance import balance_items  # noqa: E402
+
     assert len(qs) == 24, "%s: expected 24, got %d" % (seed_key, len(qs))
-    # Interleave a,b,c,d → six of each without long same-letter runs.
-    targets = []
-    bag = {L: 6 for L in letters}
-    while len(targets) < 24:
-        for L in letters:
-            if bag[L] > 0:
-                targets.append(L)
-                bag[L] -= 1
-    out = []
-    for q, target in zip(qs, targets):
-        opts = list(q["options"])
-        by_id = {o["id"]: o for o in opts}
-        ans = q["answerId"]
-        correct = by_id[ans]
-        rest = [o for o in opts if o["id"] != ans]
-        new_opts = [None] * 4
-        ti = letters.index(target)
-        new_opts[ti] = {"id": target, "text": correct["text"]}
-        r = 0
-        for j, L in enumerate(letters):
-            if new_opts[j] is None:
-                new_opts[j] = {"id": L, "text": rest[r]["text"]}
-                r += 1
-        out.append({**q, "options": new_opts, "answerId": target})
-    counts = {L: sum(1 for q in out if q["answerId"] == L) for L in letters}
-    if counts != {L: 6 for L in letters}:
+    out = balance_items(qs)
+    counts = {L: sum(1 for q in out if q["answerId"] == L) for L in "abcd"}
+    if max(counts.values()) > 12:
         raise SystemExit("%s balance_set failed: %s" % (seed_key, counts))
     return out
 

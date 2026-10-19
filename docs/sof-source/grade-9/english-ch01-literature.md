@@ -31,11 +31,11 @@
 
 Why does Riya pause at the library door?
 - **options**:
-  - A) She is lost
-  - B) She feels conflicted about returning the journal
+  - A) She feels conflicted about returning the journal
+  - B) She is lost
   - C) She is angry at the librarian
   - D) She forgot her keys
-- **answer**: B
+- **answer**: A
 - **explanation**: Her fingers tighten on the cover even though she promised to return it — hesitation and conflict.
 - **skill**: inference
 - **difficulty**: easy
@@ -64,10 +64,10 @@ The dust motes in the light mainly create a sense of…
 The librarian’s line “Some stories wait for the right reader” suggests…
 - **options**:
   - A) books expire quickly
-  - B) meaning depends on who is ready to receive it
-  - C) librarians dislike children
+  - B) librarians dislike children
+  - C) meaning depends on who is ready to receive it
   - D) Riya should throw the letter away
-- **answer**: B
+- **answer**: C
 - **explanation**: The quote implies timing and readiness matter for a story’s impact.
 - **skill**: theme
 - **difficulty**: medium
@@ -80,10 +80,10 @@ The librarian’s line “Some stories wait for the right reader” suggests…
 What is inside the journal besides recipes?
 - **options**:
   - A) A map
-  - B) A never-sent letter
-  - C) Money
-  - D) A train ticket
-- **answer**: B
+  - B) Money
+  - C) A train ticket
+  - D) A never-sent letter
+- **answer**: D
 - **explanation**: The passage explicitly mentions a letter never sent.
 - **skill**: detail
 - **difficulty**: easy
@@ -95,11 +95,11 @@ What is inside the journal besides recipes?
 
 Riya’s final decision shows she…
 - **options**:
-  - A) rejects her grandmother
-  - B) chooses to engage with the story herself
+  - A) chooses to engage with the story herself
+  - B) rejects her grandmother
   - C) returns the journal immediately without thought
   - D) leaves the library forever
-- **answer**: B
+- **answer**: A
 - **explanation**: She decides she might be the right reader — engagement, not rejection.
 - **skill**: inference
 - **difficulty**: medium
@@ -128,10 +128,10 @@ The phrase “worn cover” implies the journal is…
 Which best states a theme of the passage?
 - **options**:
   - A) Cooking is difficult
-  - B) Personal history can wait until someone is ready to face it
-  - C) Libraries are dusty
+  - B) Libraries are dusty
+  - C) Personal history can wait until someone is ready to face it
   - D) Promises never matter
-- **answer**: B
+- **answer**: C
 - **explanation**: The delayed letter and “right reader” point to readiness with family stories.
 - **skill**: theme
 - **difficulty**: medium
@@ -144,10 +144,10 @@ Which best states a theme of the passage?
 The narrator’s tone toward Riya is mainly…
 - **options**:
   - A) mocking
-  - B) sympathetic / gentle
-  - C) furious
-  - D) indifferent
-- **answer**: B
+  - B) furious
+  - C) indifferent
+  - D) sympathetic / gentle
+- **answer**: D
 - **explanation**: Close attention to her hesitation and sensory world feels gentle, not mocking.
 - **skill**: tone
 - **difficulty**: medium
@@ -159,11 +159,11 @@ The narrator’s tone toward Riya is mainly…
 
 Why does Arjun turn sideways on the path?
 - **options**:
-  - A) He is dancing
-  - B) The path has become very narrow
+  - A) The path has become very narrow
+  - B) He is dancing
   - C) He sees a train
   - D) He dropped his bottle
-- **answer**: B
+- **answer**: A
 - **explanation**: The path “narrowed until Arjun had to turn sideways.”
 - **skill**: detail
 - **difficulty**: easy
@@ -175,11 +175,11 @@ Why does Arjun turn sideways on the path?
 
 “The valley looked like a crumpled green map” is an example of…
 - **options**:
-  - A) simile
-  - B) metaphor
+  - A) metaphor
+  - B) simile
   - C) alliteration
   - D) hyperbole
-- **answer**: A
+- **answer**: B
 - **explanation**: “Like” signals a simile comparing valley to a map.
 - **skill**: figurative
 - **difficulty**: easy
@@ -191,11 +191,11 @@ Why does Arjun turn sideways on the path?
 
 Arjun’s sister’s dare mainly adds…
 - **options**:
-  - A) a goal and motivation
-  - B) a weather report
-  - C) a villain
+  - A) a weather report
+  - B) a villain
+  - C) a goal and motivation
   - D) a recipe
-- **answer**: A
+- **answer**: C
 - **explanation**: The noon deadline gives purpose to the climb.
 - **skill**: structure
 - **difficulty**: medium
@@ -208,10 +208,10 @@ Arjun’s sister’s dare mainly adds…
 The goat’s calm eyes, “as if it owned the cliff,” suggest…
 - **options**:
   - A) the goat is dangerous
-  - B) humorous confidence / quiet mastery of the place
-  - C) Arjun should go home
-  - D) the cliff is artificial
-- **answer**: B
+  - B) Arjun should go home
+  - C) the cliff is artificial
+  - D) humorous confidence / quiet mastery of the place
+- **answer**: D
 - **explanation**: The playful personification makes the goat seem serenely in charge.
 - **skill**: inference
 - **difficulty**: medium
@@ -255,11 +255,11 @@ Which detail shows risk without stating “danger” directly?
 
 The overall mood of the climb passage is…
 - **options**:
-  - A) tense but determined
-  - B) purely comic
-  - C) hopeless
+  - A) purely comic
+  - B) hopeless
+  - C) tense but determined
   - D) sleepy
-- **answer**: A
+- **answer**: C
 - **explanation**: Wind, narrow path, and dare create tension; the laugh and next step show resolve.
 - **skill**: tone
 - **difficulty**: medium
@@ -272,10 +272,10 @@ The overall mood of the climb passage is…
 Arjun’s next step at the end emphasises…
 - **options**:
   - A) giving up
-  - B) continuing despite difficulty
-  - C) returning the goat
-  - D) reading a map
-- **answer**: B
+  - B) returning the goat
+  - C) reading a map
+  - D) continuing despite difficulty
+- **answer**: D
 - **explanation**: After laughing, he takes the next step — persistence.
 - **skill**: inference
 - **difficulty**: easy
@@ -287,11 +287,11 @@ Arjun’s next step at the end emphasises…
 
 Mira’s marigold is called “stubborn,” which suggests…
 - **options**:
-  - A) it grows easily
-  - B) it has been hard to keep going
+  - A) it has been hard to keep going
+  - B) it grows easily
   - C) it is artificial
   - D) judges dislike flowers
-- **answer**: B
+- **answer**: A
 - **explanation**: “Stubborn” personifies difficulty in the plant’s survival/growth.
 - **skill**: vocab
 - **difficulty**: easy
@@ -320,10 +320,10 @@ Mira’s marigold is called “stubborn,” which suggests…
 Why do the curling edges of Mira’s board matter?
 - **options**:
   - A) They prove she cheated
-  - B) They hint at nervousness / imperfect preparation under pressure
-  - C) They show rain inside
+  - B) They show rain inside
+  - C) They hint at nervousness / imperfect preparation under pressure
   - D) They are unrelated decoration
-- **answer**: B
+- **answer**: C
 - **explanation**: Curling edges are a small imperfect detail that humanises her stress.
 - **skill**: inference
 - **difficulty**: medium
@@ -336,10 +336,10 @@ Why do the curling edges of Mira’s board matter?
 The new petal is described as “a small, quiet vote of confidence.” This is mainly…
 - **options**:
   - A) literal election news
-  - B) figurative encouragement from the plant’s progress
-  - C) a judge’s scorecard
-  - D) a football chant
-- **answer**: B
+  - B) a judge’s scorecard
+  - C) a football chant
+  - D) figurative encouragement from the plant’s progress
+- **answer**: D
 - **explanation**: The plant cannot vote; the image figuratively reassures Mira.
 - **skill**: figurative
 - **difficulty**: medium
@@ -383,11 +383,11 @@ Six weeks of measuring plant growth shows Mira is…
 
 A reasonable theme is…
 - **options**:
-  - A) Quiet dedication can be its own kind of courage
-  - B) Football is better than science
-  - C) Flowers never bloom
+  - A) Football is better than science
+  - B) Flowers never bloom
+  - C) Quiet dedication can be its own kind of courage
   - D) Judges are always unfair
-- **answer**: A
+- **answer**: C
 - **explanation**: Her steady care and the petal’s “vote” support quiet courage.
 - **skill**: theme
 - **difficulty**: medium
@@ -400,10 +400,10 @@ A reasonable theme is…
 The author’s purpose is mainly to…
 - **options**:
   - A) list science fair rules
-  - B) portray a character’s quiet resolve before judgment
-  - C) teach photosynthesis formulas
-  - D) advertise football
-- **answer**: B
+  - B) teach photosynthesis formulas
+  - C) advertise football
+  - D) portray a character’s quiet resolve before judgment
+- **answer**: D
 - **explanation**: Narrative focus is Mira’s feelings and resolve, not a rulebook.
 - **skill**: purpose
 - **difficulty**: medium
@@ -433,11 +433,11 @@ Which sensory detail appears in the library scene?
 
 The journal mainly symbolises…
 - **options**:
-  - A) forgotten family connection / unfinished communication
-  - B) a school textbook
+  - A) a school textbook
+  - B) forgotten family connection / unfinished communication
   - C) money problems
   - D) a sports trophy
-- **answer**: A
+- **answer**: B
 - **explanation**: Recipes plus an unsent letter point to family memory and unfinished words.
 - **skill**: theme
 - **difficulty**: hard
@@ -449,11 +449,11 @@ The journal mainly symbolises…
 
 Riya’s tightened fingers are an example of…
 - **options**:
-  - A) showing emotion through action (show, don’t tell)
-  - B) a simile
-  - C) direct definition of fear
+  - A) a simile
+  - B) direct definition of fear
+  - C) showing emotion through action (show, don’t tell)
   - D) comic relief
-- **answer**: A
+- **answer**: C
 - **explanation**: Body language shows conflict without naming it.
 - **skill**: craft
 - **difficulty**: medium
@@ -466,10 +466,10 @@ Riya’s tightened fingers are an example of…
 “Late light” most nearly suggests…
 - **options**:
   - A) early morning
-  - B) end of day / fading afternoon
-  - C) midnight
-  - D) neon signs
-- **answer**: B
+  - B) midnight
+  - C) neon signs
+  - D) end of day / fading afternoon
+- **answer**: D
 - **explanation**: Late light implies late day.
 - **skill**: vocab
 - **difficulty**: easy
@@ -481,11 +481,11 @@ Riya’s tightened fingers are an example of…
 
 The passage is written in…
 - **options**:
-  - A) first person (“I”)
-  - B) second person (“you”)
-  - C) third person limited around Riya
+  - A) third person limited around Riya
+  - B) first person (“I”)
+  - C) second person (“you”)
   - D) only dialogue
-- **answer**: C
+- **answer**: A
 - **explanation**: Narration follows Riya’s actions and thoughts from outside using “she.”
 - **skill**: structure
 - **difficulty**: medium
@@ -513,11 +513,11 @@ Which inference is best supported?
 
 The crumpled green map image primarily helps the reader…
 - **options**:
-  - A) see the valley’s textured distance from above
-  - B) learn cartography
-  - C) meet Arjun’s sister
+  - A) learn cartography
+  - B) meet Arjun’s sister
+  - C) see the valley’s textured distance from above
   - D) count goats
-- **answer**: A
+- **answer**: C
 - **explanation**: The simile makes the view vivid from the height of the path.
 - **skill**: figurative
 - **difficulty**: medium
@@ -530,10 +530,10 @@ The crumpled green map image primarily helps the reader…
 Half-full water is a detail that…
 - **options**:
   - A) proves he will fail
-  - B) quietly marks limited resources on the climb
-  - C) means he just started
-  - D) is only about thirst advertising
-- **answer**: B
+  - B) means he just started
+  - C) is only about thirst advertising
+  - D) quietly marks limited resources on the climb
+- **answer**: D
 - **explanation**: It notes constraint without melodrama.
 - **skill**: craft
 - **difficulty**: medium
@@ -561,11 +561,11 @@ Arjun’s laugh functions as…
 
 The dare to reach the ridge before noon is an example of…
 - **options**:
-  - A) external motivation / goal
-  - B) flashback
+  - A) flashback
+  - B) external motivation / goal
   - C) metaphor for sleep
   - D) alliteration
-- **answer**: A
+- **answer**: B
 - **explanation**: A time-bound challenge from someone else drives action.
 - **skill**: structure
 - **difficulty**: easy
@@ -578,10 +578,10 @@ The dare to reach the ridge before noon is an example of…
 Which word best describes the goat’s role?
 - **options**:
   - A) antagonist villain
-  - B) brief comic witness
-  - C) narrator
+  - B) narrator
+  - C) brief comic witness
   - D) mapmaker
-- **answer**: B
+- **answer**: C
 - **explanation**: The calm, “owning” goat adds a wry beat, not a true villain arc.
 - **skill**: structure
 - **difficulty**: medium
@@ -593,11 +593,11 @@ Which word best describes the goat’s role?
 
 “Wind tugged at his jacket” personifies the wind by…
 - **options**:
-  - A) giving it a human-like action (tugging)
-  - B) measuring speed
-  - C) naming a storm
-  - D) using a simile with “like”
-- **answer**: A
+  - A) measuring speed
+  - B) naming a storm
+  - C) using a simile with “like”
+  - D) giving it a human-like action (tugging)
+- **answer**: D
 - **explanation**: Wind cannot literally tug as a person does; the verb personifies it.
 - **skill**: figurative
 - **difficulty**: easy
@@ -641,11 +641,11 @@ The curling board edges mainly make Mira seem…
 
 Calling cheers “bright balloons” appeals mainly to…
 - **options**:
-  - A) sound transformed into a visual image
-  - B) taste
-  - C) touch of rubber only
+  - A) taste
+  - B) touch of rubber only
+  - C) sound transformed into a visual image
   - D) smell
-- **answer**: A
+- **answer**: C
 - **explanation**: Sound (cheers) is pictured as bright rising balloons — synesthetic-ish imagery.
 - **skill**: figurative
 - **difficulty**: hard
@@ -658,10 +658,10 @@ Calling cheers “bright balloons” appeals mainly to…
 The marigold’s new petal overnight suggests…
 - **options**:
   - A) failure of the experiment
-  - B) incremental progress worth noticing
-  - C) judges cancelled
-  - D) Mira stopped watering
-- **answer**: B
+  - B) judges cancelled
+  - C) Mira stopped watering
+  - D) incremental progress worth noticing
+- **answer**: D
 - **explanation**: One new petal is small growth — progress.
 - **skill**: inference
 - **difficulty**: easy
@@ -706,10 +706,10 @@ Which title best fits the Mira passage?
 The word “motes” in “dust motes” most nearly means…
 - **options**:
   - A) large stones
-  - B) tiny particles
-  - C) books
+  - B) books
+  - C) tiny particles
   - D) windows
-- **answer**: B
+- **answer**: C
 - **explanation**: Dust motes are tiny floating particles.
 - **skill**: vocab
 - **difficulty**: easy
@@ -722,10 +722,10 @@ The word “motes” in “dust motes” most nearly means…
 The phrase “crumpled green map” emphasises the valley’s…
 - **options**:
   - A) smooth flatness
-  - B) folded, uneven green expanse from above
-  - C) exact road names
-  - D) lack of colour
-- **answer**: B
+  - B) exact road names
+  - C) lack of colour
+  - D) folded, uneven green expanse from above
+- **answer**: D
 - **explanation**: Crumpled suggests uneven folds; green paints vegetation.
 - **skill**: figurative
 - **difficulty**: medium
@@ -754,10 +754,10 @@ The science fair board “leaned against the wall” suggests Mira is…
 Which claim is NOT supported by the text?
 - **options**:
   - A) Riya holds a journal with family material
-  - B) A librarian once spoke about stories and readers
-  - C) Riya’s grandmother emailed her that morning
+  - B) Riya’s grandmother emailed her that morning
+  - C) A librarian once spoke about stories and readers
   - D) Riya notices the smell of paper
-- **answer**: C
+- **answer**: B
 - **explanation**: No email is mentioned; the letter is unsent and in the journal.
 - **skill**: detail
 - **difficulty**: medium
@@ -770,10 +770,10 @@ Which claim is NOT supported by the text?
 Arjun’s water bottle being half full is an example of…
 - **options**:
   - A) foreshadowing certain death
-  - B) a concrete detail that grounds the scene
-  - C) a metaphor for maps
+  - B) a metaphor for maps
+  - C) a concrete detail that grounds the scene
   - D) hyperbole
-- **answer**: B
+- **answer**: C
 - **explanation**: It is a literal, grounding detail (not certain doom).
 - **skill**: craft
 - **difficulty**: medium
@@ -785,11 +785,11 @@ Arjun’s water bottle being half full is an example of…
 
 The passage invites the reader to value…
 - **options**:
-  - A) patience and careful observation
-  - B) only winning trophies
-  - C) ignoring plants
-  - D) rushing always
-- **answer**: A
+  - A) only winning trophies
+  - B) ignoring plants
+  - C) rushing always
+  - D) patience and careful observation
+- **answer**: D
 - **explanation**: Six weeks of data and noticing one petal celebrate patience.
 - **skill**: theme
 - **difficulty**: easy

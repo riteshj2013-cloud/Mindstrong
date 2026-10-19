@@ -135,14 +135,14 @@
 - **difficulty**: mixed
 
 ### Q11
-- **stem**: Phloem transports —
+- **stem**: Sugars made in the leaves reach the roots of a plant through the —
 - **options**:
-  - A) only water upward
-  - B) carbon dioxide soilward
-  - C) food (sugars) to plant parts
-  - D) only minerals
+  - A) xylem
+  - B) root hairs
+  - C) phloem
+  - D) stomata
 - **answer**: C
-- **explanation**: Translocation moves sucrose via phloem.
+- **explanation**: Phloem carries food (sugars) from the leaves to other parts of the plant, including the roots; this is translocation. Xylem is tempting because it also connects roots and leaves, but it carries water and minerals upward.
 - **difficulty**: mixed
 
 ### Q12

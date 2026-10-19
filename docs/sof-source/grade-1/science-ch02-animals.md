@@ -18,12 +18,12 @@
 **Stem:** Which animal says meow?
 
 **Options:**
-- A) dog
-- B) cat
+- A) cat
+- B) dog
 - C) cow
 - D) frog
 
-**Answer:** B
+**Answer:** A
 
 **Explanation:** A cat says meow.
 
@@ -32,12 +32,12 @@
 **Stem:** Fish live in…
 
 **Options:**
-- A) water
-- B) trees only
+- A) trees only
+- B) water
 - C) deserts only
 - D) clouds
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Fish live in water.
 
@@ -46,12 +46,12 @@
 **Stem:** A cow gives us…
 
 **Options:**
-- A) milk
-- B) wool only
-- C) honey
+- A) wool only
+- B) honey
+- C) milk
 - D) silk
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Cows give milk.
 
@@ -61,11 +61,11 @@
 
 **Options:**
 - A) elephant
-- B) sparrow
-- C) crocodile
-- D) goat
+- B) crocodile
+- C) goat
+- D) sparrow
 
-**Answer:** B
+**Answer:** D
 
 **Explanation:** A sparrow can fly.
 
@@ -88,12 +88,12 @@
 **Stem:** A lion is a…
 
 **Options:**
-- A) wild animal
-- B) insect only
+- A) insect only
+- B) wild animal
 - C) fish
 - D) bird
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** A lion is a wild animal.
 
@@ -103,11 +103,11 @@
 
 **Options:**
 - A) fish
-- B) rabbit
-- C) snail
+- B) snail
+- C) rabbit
 - D) turtle
 
-**Answer:** B
+**Answer:** C
 
 **Explanation:** Rabbits hop.
 
@@ -116,12 +116,12 @@
 **Stem:** Birds have…
 
 **Options:**
-- A) wings
-- B) fins only
-- C) wheels
-- D) roots
+- A) fins only
+- B) wheels
+- C) roots
+- D) wings
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Birds have wings.
 
@@ -158,12 +158,12 @@
 **Stem:** Bees make…
 
 **Options:**
-- A) honey
-- B) milk
-- C) wool
+- A) milk
+- B) wool
+- C) honey
 - D) bread
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Bees make honey.
 
@@ -172,12 +172,12 @@
 **Stem:** An elephant has a long…
 
 **Options:**
-- A) trunk
-- B) fin
-- C) beak only
-- D) shell
+- A) fin
+- B) beak only
+- C) shell
+- D) trunk
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Elephants have trunks.
 
@@ -200,12 +200,12 @@
 **Stem:** Sheep give us…
 
 **Options:**
-- A) wool
-- B) honey
+- A) honey
+- B) wool
 - C) eggs only
 - D) silk
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Sheep give wool.
 
@@ -214,12 +214,12 @@
 **Stem:** A frog can live…
 
 **Options:**
-- A) near water and land
-- B) only in fire
-- C) only in space
+- A) only in fire
+- B) only in space
+- C) near water and land
 - D) only in ice cream
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Frogs like water and land.
 
@@ -229,11 +229,11 @@
 
 **Options:**
 - A) tiger
-- B) table
-- C) deer
-- D) monkey
+- B) deer
+- C) monkey
+- D) table
 
-**Answer:** B
+**Answer:** D
 
 **Explanation:** A table is not an animal.
 
@@ -245,12 +245,12 @@
 **Stem:** Which animal says quack?
 
 **Options:**
-- A) cat
-- B) duck
+- A) duck
+- B) cat
 - C) cow
 - D) horse
 
-**Answer:** B
+**Answer:** A
 
 **Explanation:** A duck says quack.
 
@@ -259,12 +259,12 @@
 **Stem:** Where do monkeys like to live?
 
 **Options:**
-- A) in trees
-- B) under the sea only
+- A) under the sea only
+- B) in trees
 - C) in fire
 - D) in cups
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Many monkeys live in trees.
 
@@ -273,12 +273,12 @@
 **Stem:** A horse can…
 
 **Options:**
-- A) run fast
-- B) swim like a fish always
-- C) fly with wings
+- A) swim like a fish always
+- B) fly with wings
+- C) run fast
 - D) lay eggs like a hen
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Horses can run fast.
 
@@ -288,11 +288,11 @@
 
 **Options:**
 - A) cat
-- B) tortoise
-- C) dog
-- D) cow
+- B) dog
+- C) cow
+- D) tortoise
 
-**Answer:** B
+**Answer:** D
 
 **Explanation:** A tortoise has a hard shell.
 
@@ -315,12 +315,12 @@
 **Stem:** A tiger has…
 
 **Options:**
-- A) stripes
-- B) wheels
+- A) wheels
+- B) stripes
 - C) feathers only
 - D) fins only
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Tigers have stripes.
 
@@ -329,12 +329,12 @@
 **Stem:** Which animal swims?
 
 **Options:**
-- A) fish
-- B) hen
-- C) camel
+- A) hen
+- B) camel
+- C) fish
 - D) sparrow
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Fish swim.
 
@@ -343,12 +343,12 @@
 **Stem:** Pets need…
 
 **Options:**
-- A) care and food
-- B) no care
-- C) only stones
-- D) only screens
+- A) no care
+- B) only stones
+- C) only screens
+- D) care and food
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** Pets need care and food.
 
@@ -371,12 +371,12 @@
 **Stem:** Which animal has a pouch?
 
 **Options:**
-- A) kangaroo
-- B) fish
+- A) fish
+- B) kangaroo
 - C) eagle
 - D) ant
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** A kangaroo has a pouch.
 
@@ -385,12 +385,12 @@
 **Stem:** Snakes…
 
 **Options:**
-- A) have no legs
-- B) have six legs
-- C) have wings
+- A) have six legs
+- B) have wings
+- C) have no legs
 - D) have fins like sharks always
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Snakes have no legs.
 
@@ -399,12 +399,12 @@
 **Stem:** A peacock is a…
 
 **Options:**
-- A) bird
-- B) fish
-- C) insect only
-- D) mammal only
+- A) fish
+- B) insect only
+- C) mammal only
+- D) bird
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** A peacock is a bird.
 
@@ -427,12 +427,12 @@
 **Stem:** Cats like to…
 
 **Options:**
-- A) drink milk
-- B) bark
+- A) bark
+- B) drink milk
 - C) moo
 - D) quack
 
-**Answer:** A
+**Answer:** B
 
 **Explanation:** Cats often drink milk.
 
@@ -441,12 +441,12 @@
 **Stem:** Wild animals live…
 
 **Options:**
-- A) in forests / wild places
-- B) only in school bags
-- C) only in fridges
+- A) only in school bags
+- B) only in fridges
+- C) in forests / wild places
 - D) only in books
 
-**Answer:** A
+**Answer:** C
 
 **Explanation:** Wild animals live in wild places.
 
@@ -455,12 +455,12 @@
 **Stem:** Which is an insect?
 
 **Options:**
-- A) butterfly
-- B) cow
-- C) elephant
-- D) whale
+- A) cow
+- B) elephant
+- C) whale
+- D) butterfly
 
-**Answer:** A
+**Answer:** D
 
 **Explanation:** A butterfly is an insect.
 

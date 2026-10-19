@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-maths-shapes-a-q01",
     prompt: "A round ball looks most like a\u2026",
     options: [
-      { id: "a", text: "square" },
-      { id: "b", text: "circle" },
+      { id: "a", text: "circle" },
+      { id: "b", text: "square" },
       { id: "c", text: "triangle" },
       { id: "d", text: "rectangle" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "A ball is round like a circle.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -48,10 +48,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "square" },
       { id: "b", text: "triangle" },
-      { id: "c", text: "circle" },
-      { id: "d", text: "rectangle" }
+      { id: "c", text: "rectangle" },
+      { id: "d", text: "circle" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "A circle is smooth \u2014 no corners.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -59,12 +59,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-maths-shapes-a-q05",
     prompt: "A book cover looks most like a\u2026",
     options: [
-      { id: "a", text: "circle" },
-      { id: "b", text: "triangle" },
-      { id: "c", text: "rectangle" },
+      { id: "a", text: "rectangle" },
+      { id: "b", text: "circle" },
+      { id: "c", text: "triangle" },
       { id: "d", text: "ball" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "A book is longer one way \u2014 a rectangle.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -73,11 +73,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "How many corners does a square have?",
     options: [
       { id: "a", text: "2" },
-      { id: "b", text: "3" },
-      { id: "c", text: "4" },
+      { id: "b", text: "4" },
+      { id: "c", text: "3" },
       { id: "d", text: "0" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "A square has 4 corners.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -86,11 +86,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which shape looks like a slice of pizza?",
     options: [
       { id: "a", text: "circle" },
-      { id: "b", text: "triangle" },
-      { id: "c", text: "square" },
+      { id: "b", text: "square" },
+      { id: "c", text: "triangle" },
       { id: "d", text: "oval" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "A pizza slice is triangle-shaped.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -100,10 +100,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "circle" },
       { id: "b", text: "triangle" },
-      { id: "c", text: "rectangle" },
-      { id: "d", text: "star" }
+      { id: "c", text: "star" },
+      { id: "d", text: "rectangle" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Most doors are rectangles.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -111,12 +111,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-maths-shapes-a-q09",
     prompt: "Which has 3 corners?",
     options: [
-      { id: "a", text: "circle" },
-      { id: "b", text: "square" },
-      { id: "c", text: "triangle" },
+      { id: "a", text: "triangle" },
+      { id: "b", text: "circle" },
+      { id: "c", text: "square" },
       { id: "d", text: "rectangle" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "A triangle has 3 corners.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -152,10 +152,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "square" },
       { id: "b", text: "triangle" },
-      { id: "c", text: "circle" },
-      { id: "d", text: "rectangle" }
+      { id: "c", text: "rectangle" },
+      { id: "d", text: "circle" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "A circle rolls.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -163,12 +163,12 @@ const SET_A: PrepQuestion[] = [
     id: "g1-maths-shapes-a-q13",
     prompt: "A sandwich cut corner to corner makes\u2026",
     options: [
-      { id: "a", text: "circles" },
-      { id: "b", text: "triangles" },
+      { id: "a", text: "triangles" },
+      { id: "b", text: "circles" },
       { id: "c", text: "squares only" },
       { id: "d", text: "ovals" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Corner-to-corner cuts make triangles.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -177,11 +177,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "All sides equal and 4 corners \u2014 what shape?",
     options: [
       { id: "a", text: "triangle" },
-      { id: "b", text: "circle" },
-      { id: "c", text: "square" },
+      { id: "b", text: "square" },
+      { id: "c", text: "circle" },
       { id: "d", text: "oval" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Equal sides + 4 corners = square.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -190,11 +190,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which is NOT a shape name?",
     options: [
       { id: "a", text: "circle" },
-      { id: "b", text: "apple" },
-      { id: "c", text: "square" },
+      { id: "b", text: "square" },
+      { id: "c", text: "apple" },
       { id: "d", text: "triangle" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Apple is a fruit, not a shape name.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -204,10 +204,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "circle" },
       { id: "b", text: "triangle" },
-      { id: "c", text: "rectangle" },
-      { id: "d", text: "star" }
+      { id: "c", text: "star" },
+      { id: "d", text: "rectangle" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Many window panes are rectangles.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
@@ -259,10 +259,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "square" },
       { id: "b", text: "triangle" },
-      { id: "c", text: "circle" },
-      { id: "d", text: "rectangle" }
+      { id: "c", text: "rectangle" },
+      { id: "d", text: "circle" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "A chapati is round like a circle.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -270,12 +270,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-maths-shapes-b-q05",
     prompt: "Rectangle sides: opposite sides are\u2026",
     options: [
-      { id: "a", text: "round" },
-      { id: "b", text: "equal" },
+      { id: "a", text: "equal" },
+      { id: "b", text: "round" },
       { id: "c", text: "broken" },
       { id: "d", text: "three" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Opposite sides of a rectangle are equal.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -284,11 +284,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "How many corners does a triangle have?",
     options: [
       { id: "a", text: "1" },
-      { id: "b", text: "2" },
-      { id: "c", text: "3" },
+      { id: "b", text: "3" },
+      { id: "c", text: "2" },
       { id: "d", text: "4" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Three corners on a triangle.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -311,10 +311,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "triangle" },
       { id: "b", text: "square" },
-      { id: "c", text: "circle" },
-      { id: "d", text: "rectangle" }
+      { id: "c", text: "rectangle" },
+      { id: "d", text: "circle" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Coins are round circles.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -322,12 +322,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-maths-shapes-b-q09",
     prompt: "Which has more sides: square or triangle?",
     options: [
-      { id: "a", text: "triangle" },
-      { id: "b", text: "square" },
+      { id: "a", text: "square" },
+      { id: "b", text: "triangle" },
       { id: "c", text: "same" },
       { id: "d", text: "circle" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Square has 4; triangle has 3. Square has more.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -349,11 +349,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Can a circle have a corner?",
     options: [
       { id: "a", text: "yes" },
-      { id: "b", text: "no" },
-      { id: "c", text: "only two" },
+      { id: "b", text: "only two" },
+      { id: "c", text: "no" },
       { id: "d", text: "only at night" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "A circle has no corners.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -363,10 +363,10 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "circle" },
       { id: "b", text: "triangle" },
-      { id: "c", text: "rectangle" },
-      { id: "d", text: "star" }
+      { id: "c", text: "star" },
+      { id: "d", text: "rectangle" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "Phone screens are rectangles.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -374,12 +374,12 @@ const SET_B: PrepQuestion[] = [
     id: "g1-maths-shapes-b-q13",
     prompt: "Three sticks joined end to end can make a\u2026",
     options: [
-      { id: "a", text: "circle" },
-      { id: "b", text: "triangle" },
+      { id: "a", text: "triangle" },
+      { id: "b", text: "circle" },
       { id: "c", text: "line only" },
       { id: "d", text: "ball" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Three sticks can make a triangle.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
@@ -388,11 +388,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which shape name starts with S?",
     options: [
       { id: "a", text: "circle" },
-      { id: "b", text: "triangle" },
-      { id: "c", text: "square" },
+      { id: "b", text: "square" },
+      { id: "c", text: "triangle" },
       { id: "d", text: "oval" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Square starts with S.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },

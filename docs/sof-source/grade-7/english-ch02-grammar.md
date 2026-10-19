@@ -122,7 +122,7 @@
 ### Q09
 - id: g7-eng-grammar-a-09
 - stem: |
-  Which sentence is punctuated correctly?
+  Kabir asks a question. Which sentence is punctuated correctly?
 - options:
   - A: “Are you ready?” asked Kabir.
   - B: “Are you ready” asked Kabir?
@@ -384,15 +384,15 @@
 ### Q05
 - id: g7-eng-grammar-b-05
 - stem: |
-  Which sentence is imperative?
+  Which of these is an imperative sentence?
 - options:
-  - A: Please close the door.
-  - B: The door is closed.
-  - C: Is the door closed?
-  - D: The door closed itself in a story only.
+  - A: Switch off the fan before you leave.
+  - B: The fan is switched off.
+  - C: Did you switch off the fan?
+  - D: What a noisy fan!
 - answer: A
 - explanation: |
-  Imperatives give requests or commands.
+  An imperative sentence gives a command or request, usually starting with the verb: "Switch off the fan..." "What a noisy fan!" is tempting because it is forceful, but it is an exclamation, not an order.
 
 ### Q06
 - id: g7-eng-grammar-b-06

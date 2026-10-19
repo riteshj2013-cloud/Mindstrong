@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-numbers-a-q01",
     prompt: "Which of the following is an irrational number?",
     options: [
-      { id: "a", text: "√9" },
-      { id: "b", text: "0.25" },
-      { id: "c", text: "√2" },
+      { id: "a", text: "√2" },
+      { id: "b", text: "√9" },
+      { id: "c", text: "0.25" },
       { id: "d", text: "7/3" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "√2 cannot be written as p/q in lowest terms; √9 = 3 and 0.25 = 1/4 are rational.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -21,11 +21,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Every rational number can also be called a…",
     options: [
       { id: "a", text: "natural number" },
-      { id: "b", text: "integer" },
-      { id: "c", text: "real number" },
+      { id: "b", text: "real number" },
+      { id: "c", text: "integer" },
       { id: "d", text: "whole number only" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Rationals sit inside the reals. Not every rational is a natural number or integer.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -61,10 +61,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "no rational numbers" },
       { id: "b", text: "exactly one rational" },
-      { id: "c", text: "exactly two rationals" },
-      { id: "d", text: "infinitely many rationals" }
+      { id: "c", text: "infinitely many rationals" },
+      { id: "d", text: "exactly two rationals" }
     ],
-    answerId: "d",
+    answerId: "c",
     explanation: "Between any two distinct reals there are infinitely many rationals (and irrationals).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -72,25 +72,25 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-numbers-a-q06",
     prompt: "√(16/25) simplifies to…",
     options: [
-      { id: "a", text: "4/5" },
-      { id: "b", text: "16/25" },
-      { id: "c", text: "4/25" },
-      { id: "d", text: "8/5" }
+      { id: "a", text: "16/25" },
+      { id: "b", text: "4/25" },
+      { id: "c", text: "8/5" },
+      { id: "d", text: "4/5" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "√(16/25) = √16 / √25 = 4/5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
     id: "g9-maths-numbers-a-q07",
-    prompt: "Which statement is true?",
+    prompt: "Which statement about number sets is true?",
     options: [
-      { id: "a", text: "Every integer is irrational" },
-      { id: "b", text: "Every real number is rational" },
-      { id: "c", text: "Every natural number is a whole number" },
+      { id: "a", text: "Every natural number is a whole number" },
+      { id: "b", text: "Every integer is irrational" },
+      { id: "c", text: "Every real number is rational" },
       { id: "d", text: "0 is not a real number" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "Natural numbers are 1,2,3,… and wholes add 0, so every natural is whole.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -98,12 +98,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-numbers-a-q08",
     prompt: "The rationalising factor of √3 is…",
     options: [
-      { id: "a", text: "√3" },
-      { id: "b", text: "3" },
+      { id: "a", text: "3" },
+      { id: "b", text: "√3" },
       { id: "c", text: "1/3" },
       { id: "d", text: "√2" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "√3 × √3 = 3, a rational number, so √3 rationalises √3.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -137,12 +137,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-numbers-a-q11",
     prompt: "√8 simplified in simplest radical form is…",
     options: [
-      { id: "a", text: "2√2" },
-      { id: "b", text: "4√2" },
-      { id: "c", text: "√4 · √2 = 2√2 only if written 2√2" },
+      { id: "a", text: "4√2" },
+      { id: "b", text: "√4 · √2 = 2√2 only if written 2√2" },
+      { id: "c", text: "2√2" },
       { id: "d", text: "8" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "√8 = √(4·2) = 2√2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -176,12 +176,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-numbers-a-q14",
     prompt: "Which law is correct for positive real a and integers m, n?",
     options: [
-      { id: "a", text: "a^m * a^n = a^(m+n)" },
-      { id: "b", text: "a^m * a^n = a^(m*n)" },
-      { id: "c", text: "a^m * a^n = a^(m-n)" },
+      { id: "a", text: "a^m * a^n = a^(m*n)" },
+      { id: "b", text: "a^m * a^n = a^(m-n)" },
+      { id: "c", text: "a^m * a^n = a^(m+n)" },
       { id: "d", text: "(a^m)^n = a^(m+n)" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "When multiplying same bases, add exponents: a^m * a^n = a^(m+n).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -189,12 +189,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-numbers-a-q15",
     prompt: "(√7 − √5)(√7 + √5) equals…",
     options: [
-      { id: "a", text: "2" },
-      { id: "b", text: "12" },
-      { id: "c", text: "√35" },
-      { id: "d", text: "−2" }
+      { id: "a", text: "12" },
+      { id: "b", text: "√35" },
+      { id: "c", text: "−2" },
+      { id: "d", text: "2" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Difference of squares: 7 − 5 = 2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -202,12 +202,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-numbers-a-q16",
     prompt: "Which number is rational?",
     options: [
-      { id: "a", text: "π" },
-      { id: "b", text: "√7" },
-      { id: "c", text: "0.101001000100001… (pattern of growing zeros)" },
-      { id: "d", text: "0.¯27" }
+      { id: "a", text: "0.¯27" },
+      { id: "b", text: "π" },
+      { id: "c", text: "√7" },
+      { id: "d", text: "0.101001000100001… (pattern of growing zeros)" }
     ],
-    answerId: "d",
+    answerId: "a",
     explanation: "0.¯27 = 27/99 is a repeating decimal, hence rational. The others are irrational.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -215,12 +215,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-numbers-a-q17",
     prompt: "Rationalising the denominator of 1/√5 gives…",
     options: [
-      { id: "a", text: "√5 / 5" },
-      { id: "b", text: "5/√5" },
+      { id: "a", text: "5/√5" },
+      { id: "b", text: "√5 / 5" },
       { id: "c", text: "√5" },
       { id: "d", text: "1/5" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "Multiply numerator and denominator by √5: √5 / 5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -229,11 +229,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "If 2ˣ = 32, then x equals…",
     options: [
       { id: "a", text: "4" },
-      { id: "b", text: "5" },
-      { id: "c", text: "6" },
+      { id: "b", text: "6" },
+      { id: "c", text: "5" },
       { id: "d", text: "16" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "32 = 2⁵, so x = 5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -242,11 +242,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "The product of a non-zero rational and an irrational number is…",
     options: [
       { id: "a", text: "always rational" },
-      { id: "b", text: "always irrational" },
-      { id: "c", text: "always an integer" },
-      { id: "d", text: "sometimes zero" }
+      { id: "b", text: "always an integer" },
+      { id: "c", text: "sometimes zero" },
+      { id: "d", text: "always irrational" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "For non-zero rational r and irrational α, rα is irrational (else α would be rational).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -281,11 +281,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "An example of a number that is real but not rational is…",
     options: [
       { id: "a", text: "−4" },
-      { id: "b", text: "22/7" },
-      { id: "c", text: "√11" },
+      { id: "b", text: "√11" },
+      { id: "c", text: "22/7" },
       { id: "d", text: "0" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "√11 is irrational (hence real but not rational). −4, 22/7 and 0 are rational.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -293,12 +293,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-numbers-a-q23",
     prompt: "Simplify: √50 − √18 + √8",
     options: [
-      { id: "a", text: "4√2" },
-      { id: "b", text: "3√2" },
-      { id: "c", text: "2√2" },
+      { id: "a", text: "3√2" },
+      { id: "b", text: "2√2" },
+      { id: "c", text: "4√2" },
       { id: "d", text: "5√2" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "√50=5√2, √18=3√2, √8=2√2 → 5√2 − 3√2 + 2√2 = 4√2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -306,12 +306,12 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-numbers-a-q24",
     prompt: "If a = 2 + √3, then 1/a equals…",
     options: [
-      { id: "a", text: "2 − √3" },
-      { id: "b", text: "√3 − 2" },
-      { id: "c", text: "2 + √3" },
-      { id: "d", text: "1/(2−√3) only, not simplified" }
+      { id: "a", text: "√3 − 2" },
+      { id: "b", text: "2 + √3" },
+      { id: "c", text: "1/(2−√3) only, not simplified" },
+      { id: "d", text: "2 − √3" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Rationalise: 1/(2+√3) · (2−√3)/(2−√3) = 2−√3, since (2)²−(√3)²=1.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
@@ -336,11 +336,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "The decimal 0.125125125… (repeating “125”) is…",
     options: [
       { id: "a", text: "irrational" },
-      { id: "b", text: "rational" },
-      { id: "c", text: "an integer" },
-      { id: "d", text: "not a real number" }
+      { id: "b", text: "an integer" },
+      { id: "c", text: "not a real number" },
+      { id: "d", text: "rational" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "A repeating block means a rational number (equal to 125/999).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -362,11 +362,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which set is densest in the sense that between any two members there is another of the same set?",
     options: [
       { id: "a", text: "Natural numbers" },
-      { id: "b", text: "Integers" },
-      { id: "c", text: "Even integers" },
-      { id: "d", text: "Rational numbers" }
+      { id: "b", text: "Rational numbers" },
+      { id: "c", text: "Integers" },
+      { id: "d", text: "Even integers" }
     ],
-    answerId: "d",
+    answerId: "b",
     explanation: "Rationals (and reals) are dense; integers have gaps of size 1.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -374,12 +374,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-numbers-b-q05",
     prompt: "Rationalise 3/(√7 − √5).",
     options: [
-      { id: "a", text: "(3/2)(√7 + √5)" },
-      { id: "b", text: "(3/2)(√7 − √5)" },
-      { id: "c", text: "3(√7 + √5)" },
+      { id: "a", text: "(3/2)(√7 − √5)" },
+      { id: "b", text: "3(√7 + √5)" },
+      { id: "c", text: "(3/2)(√7 + √5)" },
       { id: "d", text: "√7 + √5" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "Multiply by √7+√5: numerator 3(√7+√5), denominator 7−5=2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -388,11 +388,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "If 5ˣ⁺¹ = 125, then x equals…",
     options: [
       { id: "a", text: "1" },
-      { id: "b", text: "2" },
-      { id: "c", text: "3" },
-      { id: "d", text: "4" }
+      { id: "b", text: "3" },
+      { id: "c", text: "4" },
+      { id: "d", text: "2" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "125 = 5³, so x+1 = 3 and x = 2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -413,12 +413,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-numbers-b-q08",
     prompt: "Which fraction has a terminating decimal expansion?",
     options: [
-      { id: "a", text: "13/80" },
-      { id: "b", text: "7/12" },
+      { id: "a", text: "7/12" },
+      { id: "b", text: "13/80" },
       { id: "c", text: "11/14" },
       { id: "d", text: "5/6" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "80 = 2⁴·5, so after simplifying, only primes 2 and 5 remain → terminating.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -427,11 +427,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "π − 22/7 is…",
     options: [
       { id: "a", text: "rational" },
-      { id: "b", text: "irrational" },
-      { id: "c", text: "zero" },
+      { id: "b", text: "zero" },
+      { id: "c", text: "irrational" },
       { id: "d", text: "an integer" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "π is irrational and 22/7 is rational; their difference is irrational (and not zero).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -440,11 +440,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "(√2)⁶ equals…",
     options: [
       { id: "a", text: "4" },
-      { id: "b", text: "8" },
-      { id: "c", text: "16" },
-      { id: "d", text: "2√2" }
+      { id: "b", text: "16" },
+      { id: "c", text: "2√2" },
+      { id: "d", text: "8" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "(√2)⁶ = (2^{1/2})⁶ = 2³ = 8.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -452,12 +452,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-numbers-b-q11",
     prompt: "The number 0.101001000100001… (one more zero between 1s each time) is…",
     options: [
-      { id: "a", text: "rational" },
-      { id: "b", text: "irrational" },
+      { id: "a", text: "irrational" },
+      { id: "b", text: "rational" },
       { id: "c", text: "terminating" },
       { id: "d", text: "repeating" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "The gaps grow without a repeating block, so the decimal is non-repeating → irrational.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -465,18 +465,18 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-numbers-b-q12",
     prompt: "If x = 2 + √3, then x · (2 − √3) equals…",
     options: [
-      { id: "a", text: "1" },
-      { id: "b", text: "7" },
+      { id: "a", text: "7" },
+      { id: "b", text: "1" },
       { id: "c", text: "4 − 2√3" },
       { id: "d", text: "√3" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "(2+√3)(2−√3) = 4 − 3 = 1.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
     id: "g9-maths-numbers-b-q13",
-    prompt: "Which is correct?",
+    prompt: "Which rule about square roots is correct?",
     options: [
       { id: "a", text: "√(a+b) = √a + √b for all positive a,b" },
       { id: "b", text: "√(a·b) = √a · √b for non-negative a,b" },
@@ -492,37 +492,37 @@ const SET_B: PrepQuestion[] = [
     prompt: "Locate which integer pair traps √10.",
     options: [
       { id: "a", text: "2 and 3" },
-      { id: "b", text: "3 and 4" },
-      { id: "c", text: "4 and 5" },
+      { id: "b", text: "4 and 5" },
+      { id: "c", text: "3 and 4" },
       { id: "d", text: "1 and 2" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "3²=9 and 4²=16, so √10 ≈ 3.16 lies between 3 and 4.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
     id: "g9-maths-numbers-b-q15",
-    prompt: "2⁻³ equals…",
+    prompt: "5⁻² equals…",
     options: [
-      { id: "a", text: "−8" },
-      { id: "b", text: "−1/8" },
-      { id: "c", text: "1/8" },
-      { id: "d", text: "8" }
+      { id: "a", text: "−25" },
+      { id: "b", text: "−10" },
+      { id: "c", text: "1/10" },
+      { id: "d", text: "1/25" }
     ],
-    answerId: "c",
-    explanation: "2⁻³ = 1/2³ = 1/8.",
+    answerId: "d",
+    explanation: "5⁻² = 1/5² = 1/25. A negative exponent means a reciprocal, not a negative number, so −25 is wrong; −10 and 1/10 come from multiplying 5 by 2 instead of raising it to the power.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
     id: "g9-maths-numbers-b-q16",
     prompt: "The additive inverse of √5 − 2 is…",
     options: [
-      { id: "a", text: "√5 + 2" },
-      { id: "b", text: "2 − √5" },
+      { id: "a", text: "2 − √5" },
+      { id: "b", text: "√5 + 2" },
       { id: "c", text: "−√5 − 2" },
       { id: "d", text: "1/(√5 − 2)" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "Adding 2 − √5 cancels: (√5 − 2) + (2 − √5) = 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -544,11 +544,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which number is an integer but not a whole number?",
     options: [
       { id: "a", text: "0" },
-      { id: "b", text: "5" },
-      { id: "c", text: "−3" },
+      { id: "b", text: "−3" },
+      { id: "c", text: "5" },
       { id: "d", text: "12" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "Whole numbers are 0,1,2,…; −3 is an integer but not whole.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -557,11 +557,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "If √(x − 1) = 3, then x equals…",
     options: [
       { id: "a", text: "8" },
-      { id: "b", text: "10" },
-      { id: "c", text: "9" },
+      { id: "b", text: "9" },
+      { id: "c", text: "10" },
       { id: "d", text: "4" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Square both sides: x − 1 = 9 → x = 10.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -570,11 +570,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "(5√2)² equals…",
     options: [
       { id: "a", text: "10" },
-      { id: "b", text: "50" },
-      { id: "c", text: "25√2" },
-      { id: "d", text: "5√4" }
+      { id: "b", text: "25√2" },
+      { id: "c", text: "5√4" },
+      { id: "d", text: "50" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "(5√2)² = 25 · 2 = 50.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -582,25 +582,25 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-numbers-b-q21",
     prompt: "A number of the form p/q with p, q integers and q ≠ 0 is called…",
     options: [
-      { id: "a", text: "irrational" },
-      { id: "b", text: "rational" },
-      { id: "c", text: "transcendental only" },
-      { id: "d", text: "natural only" }
+      { id: "a", text: "rational" },
+      { id: "b", text: "irrational" },
+      { id: "c", text: "integer" },
+      { id: "d", text: "whole number" }
     ],
-    answerId: "b",
-    explanation: "That is the definition of a rational number.",
+    answerId: "a",
+    explanation: "Any number p/q with integers p, q and q ≠ 0 is a rational number. “Integer” is tempting because every integer can be written as n/1, but most such numbers, like 3/4, are not integers; “whole number” fails for the same reason and also for negatives. Irrational numbers are exactly the ones that cannot be written as p/q.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
     id: "g9-maths-numbers-b-q22",
     prompt: "Which equals 8^{2/3}?",
     options: [
-      { id: "a", text: "4" },
-      { id: "b", text: "2" },
+      { id: "a", text: "2" },
+      { id: "b", text: "4" },
       { id: "c", text: "16" },
       { id: "d", text: "64" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "8^{2/3} = (8^{1/3})² = 2² = 4.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -608,12 +608,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-numbers-b-q23",
     prompt: "√(72) in simplest form is…",
     options: [
-      { id: "a", text: "6√2" },
-      { id: "b", text: "8√2" },
-      { id: "c", text: "36√2" },
+      { id: "a", text: "8√2" },
+      { id: "b", text: "36√2" },
+      { id: "c", text: "6√2" },
       { id: "d", text: "12√3" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "√72 = √(36·2) = 6√2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -621,12 +621,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-numbers-b-q24",
     prompt: "If a > 0, then √a · √a equals…",
     options: [
-      { id: "a", text: "a" },
-      { id: "b", text: "√a" },
-      { id: "c", text: "a²" },
-      { id: "d", text: "2√a" }
+      { id: "a", text: "√a" },
+      { id: "b", text: "a²" },
+      { id: "c", text: "2√a" },
+      { id: "d", text: "a" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "√a · √a = a for a ≥ 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }

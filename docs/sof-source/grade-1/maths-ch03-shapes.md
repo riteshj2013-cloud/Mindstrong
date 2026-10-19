@@ -15,11 +15,11 @@
 
 ### Q1
 - **stem**: A round ball looks most like a…
-- A) square
-- B) circle
+- A) circle
+- B) square
 - C) triangle
 - D) rectangle
-- **answer**: B
+- **answer**: A
 - **explanation**: A ball is round like a circle.
 
 ### Q2
@@ -44,54 +44,54 @@
 - **stem**: Which shape has no corners?
 - A) square
 - B) triangle
-- C) circle
-- D) rectangle
-- **answer**: C
+- C) rectangle
+- D) circle
+- **answer**: D
 - **explanation**: A circle is smooth — no corners.
 
 ### Q5
 - **stem**: A book cover looks most like a…
-- A) circle
-- B) triangle
-- C) rectangle
+- A) rectangle
+- B) circle
+- C) triangle
 - D) ball
-- **answer**: C
+- **answer**: A
 - **explanation**: A book is longer one way — a rectangle.
 
 ### Q6
 - **stem**: How many corners does a square have?
 - A) 2
-- B) 3
-- C) 4
+- B) 4
+- C) 3
 - D) 0
-- **answer**: C
+- **answer**: B
 - **explanation**: A square has 4 corners.
 
 ### Q7
 - **stem**: Which shape looks like a slice of pizza?
 - A) circle
-- B) triangle
-- C) square
+- B) square
+- C) triangle
 - D) oval
-- **answer**: B
+- **answer**: C
 - **explanation**: A pizza slice is triangle-shaped.
 
 ### Q8
 - **stem**: A door is often shaped like a…
 - A) circle
 - B) triangle
-- C) rectangle
-- D) star
-- **answer**: C
+- C) star
+- D) rectangle
+- **answer**: D
 - **explanation**: Most doors are rectangles.
 
 ### Q9
 - **stem**: Which has 3 corners?
-- A) circle
-- B) square
-- C) triangle
+- A) triangle
+- B) circle
+- C) square
 - D) rectangle
-- **answer**: C
+- **answer**: A
 - **explanation**: A triangle has 3 corners.
 
 ### Q10
@@ -116,45 +116,45 @@
 - **stem**: Which shape can roll easily?
 - A) square
 - B) triangle
-- C) circle
-- D) rectangle
-- **answer**: C
+- C) rectangle
+- D) circle
+- **answer**: D
 - **explanation**: A circle rolls.
 
 ### Q13
 - **stem**: A sandwich cut corner to corner makes…
-- A) circles
-- B) triangles
+- A) triangles
+- B) circles
 - C) squares only
 - D) ovals
-- **answer**: B
+- **answer**: A
 - **explanation**: Corner-to-corner cuts make triangles.
 
 ### Q14
 - **stem**: All sides equal and 4 corners — what shape?
 - A) triangle
-- B) circle
-- C) square
+- B) square
+- C) circle
 - D) oval
-- **answer**: C
+- **answer**: B
 - **explanation**: Equal sides + 4 corners = square.
 
 ### Q15
 - **stem**: Which is NOT a shape name?
 - A) circle
-- B) apple
-- C) square
+- B) square
+- C) apple
 - D) triangle
-- **answer**: B
+- **answer**: C
 - **explanation**: Apple is a fruit, not a shape name.
 
 ### Q16
 - **stem**: A window pane is often a…
 - A) circle
 - B) triangle
-- C) rectangle
-- D) star
-- **answer**: C
+- C) star
+- D) rectangle
+- **answer**: D
 - **explanation**: Many window panes are rectangles.
 
 
@@ -191,27 +191,27 @@
 - **stem**: A chapati is most like a…
 - A) square
 - B) triangle
-- C) circle
-- D) rectangle
-- **answer**: C
+- C) rectangle
+- D) circle
+- **answer**: D
 - **explanation**: A chapati is round like a circle.
 
 ### Q5
 - **stem**: Rectangle sides: opposite sides are…
-- A) round
-- B) equal
+- A) equal
+- B) round
 - C) broken
 - D) three
-- **answer**: B
+- **answer**: A
 - **explanation**: Opposite sides of a rectangle are equal.
 
 ### Q6
 - **stem**: How many corners does a triangle have?
 - A) 1
-- B) 2
-- C) 3
+- B) 3
+- C) 2
 - D) 4
-- **answer**: C
+- **answer**: B
 - **explanation**: Three corners on a triangle.
 
 ### Q7
@@ -227,18 +227,18 @@
 - **stem**: A coin is shaped like a…
 - A) triangle
 - B) square
-- C) circle
-- D) rectangle
-- **answer**: C
+- C) rectangle
+- D) circle
+- **answer**: D
 - **explanation**: Coins are round circles.
 
 ### Q9
 - **stem**: Which has more sides: square or triangle?
-- A) triangle
-- B) square
+- A) square
+- B) triangle
 - C) same
 - D) circle
-- **answer**: B
+- **answer**: A
 - **explanation**: Square has 4; triangle has 3. Square has more.
 
 ### Q10
@@ -253,37 +253,37 @@
 ### Q11
 - **stem**: Can a circle have a corner?
 - A) yes
-- B) no
-- C) only two
+- B) only two
+- C) no
 - D) only at night
-- **answer**: B
+- **answer**: C
 - **explanation**: A circle has no corners.
 
 ### Q12
 - **stem**: A phone screen is often a…
 - A) circle
 - B) triangle
-- C) rectangle
-- D) star
-- **answer**: C
+- C) star
+- D) rectangle
+- **answer**: D
 - **explanation**: Phone screens are rectangles.
 
 ### Q13
 - **stem**: Three sticks joined end to end can make a…
-- A) circle
-- B) triangle
+- A) triangle
+- B) circle
 - C) line only
 - D) ball
-- **answer**: B
+- **answer**: A
 - **explanation**: Three sticks can make a triangle.
 
 ### Q14
 - **stem**: Which shape name starts with S?
 - A) circle
-- B) triangle
-- C) square
+- B) square
+- C) triangle
 - D) oval
-- **answer**: C
+- **answer**: B
 - **explanation**: Square starts with S.
 
 ### Q15

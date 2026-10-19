@@ -24,11 +24,11 @@
 ### Q01
 - **stem**: Synonym of ancient is —
 - **options**:
-  - A) modern
-  - B) old
+  - A) old
+  - B) modern
   - C) tiny
   - D) quick
-- **answer**: B
+- **answer**: A
 - **explanation**: Ancient means very old.
 - **hint**: Which word is closest in meaning to ancient?
 
@@ -47,10 +47,10 @@
 - **stem**: Synonym of assist is —
 - **options**:
   - A) hinder
-  - B) help
-  - C) ignore
+  - B) ignore
+  - C) help
   - D) delay
-- **answer**: B
+- **answer**: C
 - **explanation**: Assist means help.
 - **hint**: Near meaning of assist.
 
@@ -58,32 +58,32 @@
 - **stem**: Antonym of scarce is —
 - **options**:
   - A) rare
-  - B) plentiful
-  - C) little
-  - D) thin
-- **answer**: B
+  - B) little
+  - C) thin
+  - D) plentiful
+- **answer**: D
 - **explanation**: Scarce means not enough; plentiful is the opposite.
 - **hint**: Opposite of not-enough.
 
 ### Q05
 - **stem**: In “the storm was fierce,” fierce means —
 - **options**:
-  - A) gentle
-  - B) violent
+  - A) violent
+  - B) gentle
   - C) silent
   - D) colourful
-- **answer**: B
+- **answer**: A
 - **explanation**: Fierce here means violent or intense.
 - **hint**: Use the storm context.
 
 ### Q06
 - **stem**: Choose the word that means ‘a person who sells goods’:
 - **options**:
-  - A) vendor
-  - B) author
+  - A) author
+  - B) vendor
   - C) coach
   - D) passenger
-- **answer**: A
+- **answer**: B
 - **explanation**: A vendor sells goods.
 - **hint**: Seller word.
 
@@ -91,10 +91,10 @@
 - **stem**: Prefix un- in unkind means —
 - **options**:
   - A) very
-  - B) not
-  - C) again
+  - B) again
+  - C) not
   - D) before
-- **answer**: B
+- **answer**: C
 - **explanation**: Un- often means not: unkind = not kind.
 - **hint**: What does un- usually do?
 
@@ -102,21 +102,21 @@
 - **stem**: Suffix -ful in useful means —
 - **options**:
   - A) without
-  - B) full of
-  - C) against
-  - D) before
-- **answer**: B
+  - B) against
+  - C) before
+  - D) full of
+- **answer**: D
 - **explanation**: Useful means full of use / having use.
 - **hint**: -ful ≈ full of.
 
 ### Q09
 - **stem**: Synonym of glance is —
 - **options**:
-  - A) stare for hours
-  - B) quick look
+  - A) quick look
+  - B) stare for hours
   - C) shout
   - D) run
-- **answer**: B
+- **answer**: A
 - **explanation**: A glance is a quick look.
 - **hint**: Brief look word.
 
@@ -135,32 +135,32 @@
 - **stem**: Choose the correct meaning of transparent:
 - **options**:
   - A) Cannot be seen through
-  - B) Can be seen through
-  - C) Very heavy
+  - B) Very heavy
+  - C) Can be seen through
   - D) Always wet
-- **answer**: B
+- **answer**: C
 - **explanation**: Transparent materials let light through so you can see through them.
 - **hint**: See-through meaning.
 
 ### Q12
 - **stem**: Homophone of pair is —
 - **options**:
-  - A) pear
-  - B) peer only
-  - C) pour
-  - D) poor only
-- **answer**: A
+  - A) peer only
+  - B) pour
+  - C) poor only
+  - D) pear
+- **answer**: D
 - **explanation**: Pair and pear sound alike but differ in meaning.
 - **hint**: Same sound, different spelling.
 
 ### Q13
 - **stem**: Synonym of commence is —
 - **options**:
-  - A) end
-  - B) begin
+  - A) begin
+  - B) end
   - C) pause
   - D) cancel
-- **answer**: B
+- **answer**: A
 - **explanation**: Commence means begin.
 - **hint**: Start word.
 
@@ -178,11 +178,11 @@
 ### Q15
 - **stem**: In “honest traders,” honest means —
 - **options**:
-  - A) truthful and fair
-  - B) rich
-  - C) loud
+  - A) rich
+  - B) loud
+  - C) truthful and fair
   - D) new
-- **answer**: A
+- **answer**: C
 - **explanation**: Honest means truthful and fair.
 - **hint**: Context of traders.
 
@@ -191,20 +191,20 @@
 - **options**:
   - A) joyful
   - B) glad
-  - C) miserable
-  - D) cheerful
-- **answer**: C
+  - C) cheerful
+  - D) miserable
+- **answer**: D
 - **explanation**: Miserable means unhappy — the odd one.
 - **hint**: Which word does not mean happy?
 
 ### Q17
 - **stem**: Meaning of durable:
 - **options**:
-  - A) Easily broken
-  - B) Lasting a long time
+  - A) Lasting a long time
+  - B) Easily broken
   - C) Always soft
   - D) Invisible
-- **answer**: B
+- **answer**: A
 - **explanation**: Durable means lasting / not easily worn out.
 - **hint**: Long-lasting materials.
 
@@ -223,10 +223,10 @@
 - **stem**: Synonym of cautious is —
 - **options**:
   - A) careless
-  - B) careful
-  - C) noisy
+  - B) noisy
+  - C) careful
   - D) swift always
-- **answer**: B
+- **answer**: C
 - **explanation**: Cautious means careful.
 - **hint**: Near meaning of cautious.
 
@@ -234,21 +234,21 @@
 - **stem**: The idiom “break the ice” means —
 - **options**:
   - A) smash frozen water only
-  - B) start a friendly conversation
-  - C) end a game
-  - D) buy vegetables
-- **answer**: B
+  - B) end a game
+  - C) buy vegetables
+  - D) start a friendly conversation
+- **answer**: D
 - **explanation**: Break the ice means to start conversation and ease tension.
 - **hint**: Figurative meaning, not literal ice.
 
 ### Q21
 - **stem**: Choose the correct word: The ____ of the story is to be patient.
 - **options**:
-  - A) morale
-  - B) moral
+  - A) moral
+  - B) morale
   - C) mural
   - D) mortal
-- **answer**: B
+- **answer**: A
 - **explanation**: Moral means the lesson of a story.
 - **hint**: Story lesson word.
 
@@ -267,10 +267,10 @@
 - **stem**: Synonym of fragrant is —
 - **options**:
   - A) smelly in a bad way
-  - B) sweet-smelling
-  - C) silent
+  - B) silent
+  - C) sweet-smelling
   - D) rough
-- **answer**: B
+- **answer**: C
 - **explanation**: Fragrant means sweet-smelling.
 - **hint**: Pleasant smell word.
 
@@ -278,10 +278,10 @@
 - **stem**: In “sorting plastic from kitchen waste,” waste means —
 - **options**:
   - A) valuable treasure
-  - B) unwanted discarded material
-  - C) a footrace
-  - D) a library shelf
-- **answer**: B
+  - B) a footrace
+  - C) a library shelf
+  - D) unwanted discarded material
+- **answer**: D
 - **explanation**: Waste here means discarded unwanted material.
 - **hint**: Context of kitchen rubbish.
 
@@ -290,11 +290,11 @@
 ### Q01
 - **stem**: Synonym of rapid is —
 - **options**:
-  - A) slow
-  - B) quick
+  - A) quick
+  - B) slow
   - C) heavy
   - D) quiet
-- **answer**: B
+- **answer**: A
 - **explanation**: Rapid means quick.
 - **hint**: Near meaning of rapid.
 
@@ -313,10 +313,10 @@
 - **stem**: Synonym of tiny is —
 - **options**:
   - A) huge
-  - B) small
-  - C) tall
+  - B) tall
+  - C) small
   - D) wide
-- **answer**: B
+- **answer**: C
 - **explanation**: Tiny means very small.
 - **hint**: Near meaning of tiny.
 
@@ -324,21 +324,21 @@
 - **stem**: Antonym of victory is —
 - **options**:
   - A) win
-  - B) defeat
-  - C) prize
-  - D) cheer
-- **answer**: B
+  - B) prize
+  - C) cheer
+  - D) defeat
+- **answer**: D
 - **explanation**: Defeat is the opposite of victory.
 - **hint**: Opposite of winning.
 
 ### Q05
 - **stem**: In “fresh coriander,” fresh means —
 - **options**:
-  - A) stale
-  - B) recently harvested / not stale
+  - A) recently harvested / not stale
+  - B) stale
   - C) frozen solid
   - D) expensive
-- **answer**: B
+- **answer**: A
 - **explanation**: Fresh means newly produced / not stale.
 - **hint**: Food context.
 
@@ -357,10 +357,10 @@
 - **stem**: Prefix re- in rewrite means —
 - **options**:
   - A) not
-  - B) again
-  - C) wrongly
+  - B) wrongly
+  - C) again
   - D) against
-- **answer**: B
+- **answer**: C
 - **explanation**: Re- often means again: rewrite = write again.
 - **hint**: Again prefix.
 
@@ -368,21 +368,21 @@
 - **stem**: Suffix -less in careless means —
 - **options**:
   - A) full of
-  - B) without
-  - C) more
-  - D) before
-- **answer**: B
+  - B) more
+  - C) before
+  - D) without
+- **answer**: D
 - **explanation**: Careless means without care.
 - **hint**: -less ≈ without.
 
 ### Q09
 - **stem**: Synonym of purchase is —
 - **options**:
-  - A) sell
-  - B) buy
+  - A) buy
+  - B) sell
   - C) borrow
   - D) lose
-- **answer**: B
+- **answer**: A
 - **explanation**: Purchase means buy.
 - **hint**: Buy word.
 
@@ -401,32 +401,32 @@
 - **stem**: Meaning of fertile (soil):
 - **options**:
   - A) barren
-  - B) able to grow plants well
-  - C) always sandy
+  - B) always sandy
+  - C) able to grow plants well
   - D) made of plastic
-- **answer**: B
+- **answer**: C
 - **explanation**: Fertile soil is good for growing plants.
 - **hint**: Farming context.
 
 ### Q12
 - **stem**: Homophone of sea is —
 - **options**:
-  - A) see
-  - B) say
-  - C) sigh
-  - D) sow
-- **answer**: A
+  - A) say
+  - B) sigh
+  - C) sow
+  - D) see
+- **answer**: D
 - **explanation**: Sea and see sound the same.
 - **hint**: Same sound pair.
 
 ### Q13
 - **stem**: Synonym of vanish is —
 - **options**:
-  - A) appear
-  - B) disappear
+  - A) disappear
+  - B) appear
   - C) shine
   - D) grow
-- **answer**: B
+- **answer**: A
 - **explanation**: Vanish means disappear.
 - **hint**: Near meaning of vanish.
 
@@ -445,10 +445,10 @@
 - **stem**: In “annual fair,” annual means —
 - **options**:
   - A) weekly
-  - B) happening once a year
-  - C) daily
+  - B) daily
+  - C) happening once a year
   - D) never
-- **answer**: B
+- **answer**: C
 - **explanation**: Annual means once a year.
 - **hint**: Yearly word.
 
@@ -457,20 +457,20 @@
 - **options**:
   - A) large
   - B) huge
-  - C) tiny
-  - D) enormous
-- **answer**: C
+  - C) enormous
+  - D) tiny
+- **answer**: D
 - **explanation**: Tiny means small — the odd one.
 - **hint**: Which is not big?
 
 ### Q17
 - **stem**: Meaning of flexible:
 - **options**:
-  - A) unable to bend
-  - B) able to bend easily
+  - A) able to bend easily
+  - B) unable to bend
   - C) always wet
   - D) made of stone only
-- **answer**: B
+- **answer**: A
 - **explanation**: Flexible means able to bend without breaking.
 - **hint**: Bendable meaning.
 
@@ -489,10 +489,10 @@
 - **stem**: Synonym of difficult is —
 - **options**:
   - A) easy
-  - B) hard
-  - C) simple
+  - B) simple
+  - C) hard
   - D) clear
-- **answer**: B
+- **answer**: C
 - **explanation**: Difficult means hard.
 - **hint**: Near meaning of difficult.
 
@@ -500,21 +500,21 @@
 - **stem**: The idiom “a piece of cake” means —
 - **options**:
   - A) a dessert only
-  - B) something very easy
-  - C) something expensive
-  - D) a cricket shot
-- **answer**: B
+  - B) something expensive
+  - C) a cricket shot
+  - D) something very easy
+- **answer**: D
 - **explanation**: Informally, a piece of cake means very easy.
 - **hint**: Figurative ease.
 
 ### Q21
 - **stem**: Choose the correct word: Please ____ the lights when you leave.
 - **options**:
-  - A) close
-  - B) switch off
+  - A) switch off
+  - B) close
   - C) open
   - D) grow
-- **answer**: B
+- **answer**: A
 - **explanation**: We switch off / turn off lights (not close lights).
 - **hint**: Natural collocation for lights.
 
@@ -533,10 +533,10 @@
 - **stem**: Synonym of weary is —
 - **options**:
   - A) fresh
-  - B) tired
-  - C) excited
+  - B) excited
+  - C) tired
   - D) loud
-- **answer**: B
+- **answer**: C
 - **explanation**: Weary means tired.
 - **hint**: Near meaning of weary.
 
@@ -544,10 +544,10 @@
 - **stem**: In “fielding until dusk,” dusk means —
 - **options**:
   - A) midday
-  - B) evening twilight
-  - C) midnight only
-  - D) dawn
-- **answer**: B
+  - B) midnight only
+  - C) dawn
+  - D) evening twilight
+- **answer**: D
 - **explanation**: Dusk is the dim light at the end of the day.
 - **hint**: End-of-day light.
 

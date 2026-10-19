@@ -46,7 +46,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-maths-large-a-q04",
-    prompt: "Look at the blocks. Which number do the four blocks make together?",
+    prompt: "Look at the place-value blocks. Which number do they show altogether?",
     options: [
       { id: "a", text: "3,40,906" },
       { id: "b", text: "3,49,006" },

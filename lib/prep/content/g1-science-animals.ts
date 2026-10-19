@@ -8,9 +8,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which animal says meow?",
     options: [
       { id: "a", text: "cat" },
-      { id: "b", text: "cow" },
-      { id: "c", text: "frog" },
-      { id: "d", text: "dog" }
+      { id: "b", text: "dog" },
+      { id: "c", text: "cow" },
+      { id: "d", text: "frog" }
     ],
     answerId: "a",
     explanation: "A cat says meow.",
@@ -20,10 +20,10 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q02",
     prompt: "Fish live in\u2026",
     options: [
-      { id: "a", text: "clouds" },
+      { id: "a", text: "trees only" },
       { id: "b", text: "water" },
-      { id: "c", text: "trees only" },
-      { id: "d", text: "deserts only" }
+      { id: "c", text: "deserts only" },
+      { id: "d", text: "clouds" }
     ],
     answerId: "b",
     explanation: "Fish live in water.",
@@ -33,10 +33,10 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q03",
     prompt: "A cow gives us\u2026",
     options: [
-      { id: "a", text: "honey" },
-      { id: "b", text: "silk" },
+      { id: "a", text: "wool only" },
+      { id: "b", text: "honey" },
       { id: "c", text: "milk" },
-      { id: "d", text: "wool only" }
+      { id: "d", text: "silk" }
     ],
     answerId: "c",
     explanation: "Cows give milk.",
@@ -46,9 +46,9 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q04",
     prompt: "Which animal can fly?",
     options: [
-      { id: "a", text: "crocodile" },
-      { id: "b", text: "goat" },
-      { id: "c", text: "elephant" },
+      { id: "a", text: "elephant" },
+      { id: "b", text: "crocodile" },
+      { id: "c", text: "goat" },
       { id: "d", text: "sparrow" }
     ],
     answerId: "d",
@@ -72,10 +72,10 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q06",
     prompt: "A lion is a\u2026",
     options: [
-      { id: "a", text: "bird" },
+      { id: "a", text: "insect only" },
       { id: "b", text: "wild animal" },
-      { id: "c", text: "insect only" },
-      { id: "d", text: "fish" }
+      { id: "c", text: "fish" },
+      { id: "d", text: "bird" }
     ],
     answerId: "b",
     explanation: "A lion is a wild animal.",
@@ -85,10 +85,10 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q07",
     prompt: "Which animal hops?",
     options: [
-      { id: "a", text: "turtle" },
-      { id: "b", text: "fish" },
+      { id: "a", text: "fish" },
+      { id: "b", text: "snail" },
       { id: "c", text: "rabbit" },
-      { id: "d", text: "snail" }
+      { id: "d", text: "turtle" }
     ],
     answerId: "c",
     explanation: "Rabbits hop.",
@@ -137,10 +137,10 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q11",
     prompt: "Bees make\u2026",
     options: [
-      { id: "a", text: "wool" },
-      { id: "b", text: "bread" },
+      { id: "a", text: "milk" },
+      { id: "b", text: "wool" },
       { id: "c", text: "honey" },
-      { id: "d", text: "milk" }
+      { id: "d", text: "bread" }
     ],
     answerId: "c",
     explanation: "Bees make honey.",
@@ -176,10 +176,10 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q14",
     prompt: "Sheep give us\u2026",
     options: [
-      { id: "a", text: "silk" },
+      { id: "a", text: "honey" },
       { id: "b", text: "wool" },
-      { id: "c", text: "honey" },
-      { id: "d", text: "eggs only" }
+      { id: "c", text: "eggs only" },
+      { id: "d", text: "silk" }
     ],
     answerId: "b",
     explanation: "Sheep give wool.",
@@ -189,10 +189,10 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q15",
     prompt: "A frog can live\u2026",
     options: [
-      { id: "a", text: "only in space" },
-      { id: "b", text: "only in ice cream" },
+      { id: "a", text: "only in fire" },
+      { id: "b", text: "only in space" },
       { id: "c", text: "near water and land" },
-      { id: "d", text: "only in fire" }
+      { id: "d", text: "only in ice cream" }
     ],
     answerId: "c",
     explanation: "Frogs like water and land.",
@@ -202,9 +202,9 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q16",
     prompt: "Which is NOT an animal?",
     options: [
-      { id: "a", text: "deer" },
-      { id: "b", text: "monkey" },
-      { id: "c", text: "tiger" },
+      { id: "a", text: "tiger" },
+      { id: "b", text: "deer" },
+      { id: "c", text: "monkey" },
       { id: "d", text: "table" }
     ],
     answerId: "d",
@@ -219,9 +219,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which animal says quack?",
     options: [
       { id: "a", text: "duck" },
-      { id: "b", text: "cow" },
-      { id: "c", text: "horse" },
-      { id: "d", text: "cat" }
+      { id: "b", text: "cat" },
+      { id: "c", text: "cow" },
+      { id: "d", text: "horse" }
     ],
     answerId: "a",
     explanation: "A duck says quack.",
@@ -231,10 +231,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q02",
     prompt: "Where do monkeys like to live?",
     options: [
-      { id: "a", text: "in cups" },
+      { id: "a", text: "under the sea only" },
       { id: "b", text: "in trees" },
-      { id: "c", text: "under the sea only" },
-      { id: "d", text: "in fire" }
+      { id: "c", text: "in fire" },
+      { id: "d", text: "in cups" }
     ],
     answerId: "b",
     explanation: "Many monkeys live in trees.",
@@ -244,10 +244,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q03",
     prompt: "A horse can\u2026",
     options: [
-      { id: "a", text: "fly with wings" },
-      { id: "b", text: "lay eggs like a hen" },
+      { id: "a", text: "swim like a fish always" },
+      { id: "b", text: "fly with wings" },
       { id: "c", text: "run fast" },
-      { id: "d", text: "swim like a fish always" }
+      { id: "d", text: "lay eggs like a hen" }
     ],
     answerId: "c",
     explanation: "Horses can run fast.",
@@ -257,9 +257,9 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q04",
     prompt: "Which animal has a hard shell?",
     options: [
-      { id: "a", text: "dog" },
-      { id: "b", text: "cow" },
-      { id: "c", text: "cat" },
+      { id: "a", text: "cat" },
+      { id: "b", text: "dog" },
+      { id: "c", text: "cow" },
       { id: "d", text: "tortoise" }
     ],
     answerId: "d",
@@ -283,10 +283,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q06",
     prompt: "A tiger has\u2026",
     options: [
-      { id: "a", text: "fins only" },
+      { id: "a", text: "wheels" },
       { id: "b", text: "stripes" },
-      { id: "c", text: "wheels" },
-      { id: "d", text: "feathers only" }
+      { id: "c", text: "feathers only" },
+      { id: "d", text: "fins only" }
     ],
     answerId: "b",
     explanation: "Tigers have stripes.",
@@ -296,10 +296,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q07",
     prompt: "Which animal swims?",
     options: [
-      { id: "a", text: "camel" },
-      { id: "b", text: "sparrow" },
+      { id: "a", text: "hen" },
+      { id: "b", text: "camel" },
       { id: "c", text: "fish" },
-      { id: "d", text: "hen" }
+      { id: "d", text: "sparrow" }
     ],
     answerId: "c",
     explanation: "Fish swim.",
@@ -335,10 +335,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q10",
     prompt: "Which animal has a pouch?",
     options: [
-      { id: "a", text: "ant" },
+      { id: "a", text: "fish" },
       { id: "b", text: "kangaroo" },
-      { id: "c", text: "fish" },
-      { id: "d", text: "eagle" }
+      { id: "c", text: "eagle" },
+      { id: "d", text: "ant" }
     ],
     answerId: "b",
     explanation: "A kangaroo has a pouch.",
@@ -348,10 +348,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q11",
     prompt: "Snakes\u2026",
     options: [
-      { id: "a", text: "have wings" },
-      { id: "b", text: "have fins like sharks always" },
+      { id: "a", text: "have six legs" },
+      { id: "b", text: "have wings" },
       { id: "c", text: "have no legs" },
-      { id: "d", text: "have six legs" }
+      { id: "d", text: "have fins like sharks always" }
     ],
     answerId: "c",
     explanation: "Snakes have no legs.",
@@ -387,10 +387,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q14",
     prompt: "Cats like to\u2026",
     options: [
-      { id: "a", text: "quack" },
+      { id: "a", text: "bark" },
       { id: "b", text: "drink milk" },
-      { id: "c", text: "bark" },
-      { id: "d", text: "moo" }
+      { id: "c", text: "moo" },
+      { id: "d", text: "quack" }
     ],
     answerId: "b",
     explanation: "Cats often drink milk.",
@@ -400,10 +400,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q15",
     prompt: "Wild animals live\u2026",
     options: [
-      { id: "a", text: "only in fridges" },
-      { id: "b", text: "only in books" },
+      { id: "a", text: "only in school bags" },
+      { id: "b", text: "only in fridges" },
       { id: "c", text: "in forests / wild places" },
-      { id: "d", text: "only in school bags" }
+      { id: "d", text: "only in books" }
     ],
     answerId: "c",
     explanation: "Wild animals live in wild places.",
