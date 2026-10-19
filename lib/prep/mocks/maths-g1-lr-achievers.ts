@@ -18,7 +18,7 @@ export const G1_MATHS_LR_ACHIEVERS: MockAddendumItem[] = [
         { id: "d", text: "11" },
       ],
       answerId: "d",
-      hints: ["Look at how far Diya jumps from 3 to 5, and from 5 to 7.", "Each hop is the same size. Make one more hop of that size from 9."],
+      hints: ["Look at how far Diya jumps from 3 to 5, and from 5 to 7.", "Each of Diya's hops is the same size. Make one more hop of that size from 9."],
       explanation: "Each hop is 2, so after 9 comes 11. 10 is tempting, but that is a hop of only 1, not 2.",
     },
   },
@@ -142,7 +142,7 @@ export const G1_MATHS_LR_ACHIEVERS: MockAddendumItem[] = [
         { id: "d", text: "9" },
       ],
       answerId: "d",
-      hints: ["Try sharing 4 sweets, then 6 sweets, equally between 2 friends. Is anything left over?", "Check 8 the same way. Which number in the list leaves one sweet over when shared between 2 friends?"],
+      hints: ["Think of each number as sweets. Share 4 sweets equally between 2 friends. Is anything left over?", "Do the same with 6 and with each other number. Which number leaves one sweet over?"],
       explanation: "4, 6 and 8 can be shared equally into 2 groups; 9 cannot, because 1 is left over. 4 is tempting because it is the smallest number here, but it can still be shared into two groups of 2.",
     },
   },
@@ -154,7 +154,7 @@ export const G1_MATHS_LR_ACHIEVERS: MockAddendumItem[] = [
     difficulty: "hard",
     question: {
       id: "g1-maths-lrach-a-q08",
-      prompt: "Rohan has 5 marbles. He wins 4 more marbles, then gives 3 marbles to Diya. How many marbles does Rohan have now?",
+      prompt: "Ira has 5 mangoes. Her grandmother gives her 4 more. Then Ira gives 3 mangoes to Diya. How many mangoes does Ira have now?",
       options: [
         { id: "a", text: "9" },
         { id: "b", text: "12" },
@@ -162,8 +162,8 @@ export const G1_MATHS_LR_ACHIEVERS: MockAddendumItem[] = [
         { id: "d", text: "4" },
       ],
       answerId: "c",
-      hints: ["First find how many marbles Rohan has after he wins 4 more.", "Then take away the 3 marbles he gives to Diya."],
-      explanation: "5 + 4 = 9, and 9 − 3 = 6. 9 is tempting, but that forgets the 3 marbles Rohan gives to Diya.",
+      hints: ["First find how many mangoes Ira has after her grandmother gives her 4 more.", "Then take away the 3 mangoes Ira gives to Diya."],
+      explanation: "5 + 4 = 9, and 9 − 3 = 6. 9 is tempting, but that forgets the 3 mangoes Ira gives to Diya.",
     },
   },
   {

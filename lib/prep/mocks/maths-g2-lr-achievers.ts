@@ -142,7 +142,7 @@ export const G2_MATHS_LR_ACHIEVERS: MockAddendumItem[] = [
         { id: "d", text: "45" },
       ],
       answerId: "b",
-      hints: ["Look at the tens digit of 47, 42 and 45 first. Then check the other number in the list.", "Like 47, three numbers have 4 tens. Which number has its 4 in the ones place instead?"],
+      hints: ["Look at the tens digit of 47. Then look at the tens digit of each of the other numbers.", "Three of the numbers have the same tens digit as 47. Which number has a different tens digit?"],
       explanation: "47, 42 and 45 each have 4 tens; 84 has 8 tens and 4 ones. 42 is tempting because it is even like 84, but it has 4 tens like the others.",
     },
   },
