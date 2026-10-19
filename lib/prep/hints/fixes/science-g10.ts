@@ -1,8 +1,8 @@
 /**
  * Grade 10 Science — item-specific hint fixes (fix layer).
  * Source: app repo origin/main c5a133b (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 59 | hints: 59
- * By category (primary): answer-leak fixed 10 · chapter-shared hint split 0 · other strict-check fixes 49
+ * Items changed: 61 | hints: 61
+ * By category (primary): answer-leak fixed 12 · chapter-shared hint split 0 · other strict-check fixes 49
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
  * Merge: these WIN over G10_SCIENCE_HINTS and over authored question.hints (see ../index.ts applyHints).
@@ -19,6 +19,7 @@ export const G10_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-sci-chem-a-q13": ["Recall the reactivity series: which of the three reacts violently with water and must be stored under kerosene?"],
   "g10-sci-chem-a-q16": ["At the cathode, positive ions gain electrons. In water electrolysis, which gas collects there with twice the volume?"],
   "g10-sci-chem-a-q17": ["Rancidity is oxidation of fats and oils. Which choice keeps oxygen away or slows its attack?"],
+  "g10-sci-chem-a-q18": ["Hydrogen takes oxygen away from copper oxide. What do we call a substance that removes oxygen from another and is itself oxidised?"],
   "g10-sci-chem-a-q19": ["Heating lead nitrate gives lead oxide, oxygen and a reddish-brown gas. Which oxide of nitrogen has that colour?"],
   "g10-sci-chem-a-q22": ["Galvanised iron has a coating of a more reactive metal that corrodes first. Which listed metal is above iron?"],
   "g10-sci-chem-a-q23": ["Sodium goes from Na atoms to Na⁺ ions in NaOH. Losing electrons is which process?"],
@@ -27,6 +28,7 @@ export const G10_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-sci-chem-b-q06": ["During photosynthesis, plants absorb light energy and store it in glucose. Does the reaction take in energy or give it out?"],
   "g10-sci-chem-b-q10": ["Neutralisation of an acid by a base gives a salt plus water. Which salt comes from sodium and chloride?"],
   "g10-sci-chem-b-q13": ["A green coating on a copper coin is a new substance. Does forming a new substance mean a physical change?"],
+  "g10-sci-chem-b-q14": ["MnO₂ loses oxygen and ends up as MnCl₂, while HCl becomes Cl₂. What role does a substance that gets reduced play?"],
   "g10-sci-chem-b-q16": ["Respiration breaks down glucose and releases energy that keeps us warm. Is energy taken in or given out?"],
   "g10-sci-chem-b-q17": ["Track oxygen in zinc oxide plus carbon: whatever gains oxygen is oxidised; whatever loses oxygen is reduced."],
   "g10-sci-chem-b-q19": ["Marble is calcium carbonate. A carbonate reacts with acid to give a salt, water and which gas that turns lime water milky?"],
