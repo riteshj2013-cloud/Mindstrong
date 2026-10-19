@@ -4,7 +4,7 @@
  * Items changed: 88 | hints: 176
  * By category (primary): generic replaced 19 · answer-revealing fixed 65 · shared-hint split 4
  * Each entry is [hint1 (gentle nudge), hint2 (stronger nudge)]. Neither gives the answer.
- * Merge: these must WIN over G2_ENGLISH_HINTS and over authored question.hints (see README-2026-10-19.md).
+ * Merge: these must WIN over G2_ENGLISH_HINTS and over authored question.hints (fix layer in lib/prep/hints/fixes; see README-2026-10-19.md).
  */
 import type { HintOverlay } from "../types";
 

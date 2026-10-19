@@ -1,10 +1,10 @@
 /**
  * Grade 8 English — item-specific hint fixes (ts-ready overlay).
  * Source: app repo commit 8bfc38d (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 130 | hints: 260
- * By category (primary): generic replaced 95 · answer-revealing fixed 0 · shared-hint split 35
+ * Items changed: 131 | hints: 262
+ * By category (primary): generic replaced 95 · answer-revealing fixed 1 · shared-hint split 35
  * Each entry is [hint1 (gentle nudge), hint2 (stronger nudge)]. Neither gives the answer.
- * Merge: these must WIN over G8_ENGLISH_HINTS and over authored question.hints (see README-2026-10-19.md).
+ * Merge: these must WIN over G8_ENGLISH_HINTS and over authored question.hints (fix layer in lib/prep/hints/fixes; see README-2026-10-19.md).
  */
 import type { HintOverlay } from "../types";
 
@@ -96,6 +96,7 @@ export const G8_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g8-eng-ch01-b-q23": ["P2 is about light pollution; P3 is about a tree in the way of a road.", "In both, what is harmed when people build and light up cities?"],
   "g8-eng-ch01-b-q24": ["The opening details are copper wire, the smell of solder and radios \"like old patients\".", "Ask what mood these details create and what they show about Hamid's work."],
   // g8-english-spoken — Speak Up: Dialogue & Debate
+  "g8-eng-ch04-a-q10": ["Look at the speaker's own words just after the motion is stated.", "The speaker \"firmly support[s] this motion\" — which side of a debate supports the motion?"],
   "g8-eng-ch04-b-q22": ["Softening disagreement means showing respect for the other person's view first.", "Look for the only phrase that respects the other view before disagreeing."],
   // g8-english-words — The Right Word, the Right Format
   "g8-eng-ch03-a-q01": ["The issuer of a notice signs at the bottom with a name and designation.", "Look below \"Exciting prizes await the winners\" in Notice N1."],

@@ -2,9 +2,9 @@
  * Grade 1 English — item-specific hint fixes (ts-ready overlay).
  * Source: app repo commit 8bfc38d (lib/prep/content + lib/prep/hints). Written 2026-10-19.
  * Items changed: 87 | hints: 174
- * By category (primary): generic replaced 12 · answer-revealing fixed 71 · shared-hint split 6
+ * By category (primary): generic replaced 12 · answer-revealing fixed 69 · shared-hint split 6
  * Each entry is [hint1 (gentle nudge), hint2 (stronger nudge)]. Neither gives the answer.
- * Merge: these must WIN over G1_ENGLISH_HINTS and over authored question.hints (see README-2026-10-19.md).
+ * Merge: these must WIN over G1_ENGLISH_HINTS and over authored question.hints (fix layer in lib/prep/hints/fixes; see README-2026-10-19.md).
  *
  * Not included (PR #47 set these hints on purpose; they stay as in the overlay):
  *   g1-eng-letters-a-q01, g1-eng-letters-a-q07

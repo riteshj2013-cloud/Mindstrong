@@ -1,10 +1,10 @@
 /**
  * Grade 5 English — item-specific hint fixes (ts-ready overlay).
  * Source: app repo commit 8bfc38d (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 87 | hints: 174
- * By category (primary): generic replaced 62 · answer-revealing fixed 0 · shared-hint split 25
+ * Items changed: 94 | hints: 188
+ * By category (primary): generic replaced 62 · answer-revealing fixed 7 · shared-hint split 25
  * Each entry is [hint1 (gentle nudge), hint2 (stronger nudge)]. Neither gives the answer.
- * Merge: these must WIN over G5_ENGLISH_HINTS and over authored question.hints (see README-2026-10-19.md).
+ * Merge: these must WIN over G5_ENGLISH_HINTS and over authored question.hints (fix layer in lib/prep/hints/fixes; see README-2026-10-19.md).
  */
 import type { HintOverlay } from "../types";
 
@@ -12,7 +12,10 @@ export const G5_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   // g5-english-detective — Detective Eyes
   "g5-eng-ch01-a-q01": ["The main idea should cover the smudged rangoli, the clues and Kavya's reaction together.", "Check how Kavya feels at the end — does she stay cross with the kitten or not?"],
   "g5-eng-ch01-a-q07": ["Three choices are real rain signs that Dadi pointed out; one made Rohan think the day would stay dry.", "Ask which detail Rohan looked at when he said, \"It won't rain, Dadi.\""],
+  "g5-eng-ch01-a-q16": ["Drop \"Priya and\" and say the sentence with just the pronoun.", "The pronoun is part of the subject that \"made the labels\" — use the subject form."],
+  "g5-eng-ch01-a-q20": ["Rohan wanted to keep playing, then it started to pour.", "\"because\" gives a reason and \"so\" a result; which conjunction joins two opposite ideas?"],
   "g5-eng-ch01-a-q23": ["Start with the part that names who visits the old library.", "After the person comes the verb, then where she goes, and the time words come last."],
+  "g5-eng-ch01-b-q04": ["The kitten \"visited every evening\" near the gate where Kavya left milk.", "Did the kitten run, hide or sleep — or come by to see Kavya's home?"],
   "g5-eng-ch01-b-q19": ["October and November are names of months, not days or clock times.", "Remember the preposition rule: at for clock times, on for days and dates, and a different word for months."],
   "g5-eng-ch01-b-q20": ["The second part tells what will happen if you do not take the umbrella.", "Pick the joining word that means \"if not\", giving a warning about getting wet."],
   // g5-english-grammar — Word Builders
@@ -101,4 +104,8 @@ export const G5_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g5-eng-ch03-b-q24": ["The part with a comma, \"When the bell rang,\" sets the time.", "After the time clause, put who acted, then the action, then where they went."],
   // g5-english-writing — Write It Right
   "g5-eng-ch05-a-q05": ["Three of these details are written in the Library Week notice; one is never mentioned.", "Tick off each detail as you find it in the notice: dates, place, who gives names…"],
+  "g5-eng-ch05-a-q24": ["A letter to the Principal is formal, and you do not know them personally.", "\"Your buddy\" and \"See ya\" are casual; pick the formal closing used for an unknown reader."],
+  "g5-eng-ch05-b-q17": ["An informal letter starts with the writer's address at the top.", "A NOTICE heading and a librarian stamp do not belong in a letter; follow top-to-bottom order."],
+  "g5-eng-ch05-b-q19": ["You are writing to a friend in another city about your museum trip.", "A notice or gate pass is for school use; what do we send a friend by post?"],
+  "g5-eng-ch05-b-q21": ["A letter to the Principal is formal, so the opening must be polite.", "\"Hey!\" and \"Yo, Principal!\" are too casual, and \"Dear Diary\" is not for a person."],
 };
