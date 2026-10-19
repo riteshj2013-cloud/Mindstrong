@@ -1,8 +1,8 @@
 /**
  * Grade 7 Maths — item-specific hint fixes (fix layer).
  * Source: app repo commit 4291140 (served hints: lib/prep/content + lib/prep/hints overlays). Written 2026-10-19.
- * Items changed: 15 | hints: 15
- * By category (primary): answer-revealing fixed 14 · generic replaced 1
+ * Items changed: 67 | hints: 67
+ * By category (primary): answer-revealing fixed 14 · generic replaced 51 · shared-hint split 2
  * Each hint nudges the method using the item's own numbers/objects; none contains the answer,
  * an option letter or "eliminate options". A later hint is a stronger nudge (a first step worked).
  * Merge: these WIN over G7_MATHS_HINTS and over authored question.hints (see applyHints in ../index.ts).
@@ -11,21 +11,73 @@ import type { HintOverlay } from "../types";
 
 export const G7_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   // g7-maths integers — Integers
+  "g7-maths-integers-a-q04": ["Two negatives added go further left. Find 8 + 5 and put a minus sign in front."],
+  "g7-maths-integers-a-q05": ["Adding −4 means stepping 4 to the left. Start at 9 on the number line."],
+  "g7-maths-integers-a-q06": ["Subtracting −2 is the same as adding 2. Start at −6 and move 2 steps right."],
+  "g7-maths-integers-a-q07": ["A negative times a positive is negative. Work out 7 × 3, then add the sign."],
+  "g7-maths-integers-a-q08": ["A negative times a negative is positive. Work out 5 × 4."],
+  "g7-maths-integers-a-q09": ["Signs differ, so the quotient is negative. Which number times 9 gives 36?"],
+  "g7-maths-integers-a-q10": ["Same signs give a positive quotient. Which number times 6 gives 48?"],
+  "g7-maths-integers-a-q11": ["Absolute value means distance from zero on the number line. Can a distance be negative?"],
+  "g7-maths-integers-a-q12": ["On the number line, numbers further left are smaller. Is −5 left or right of −2?"],
+  "g7-maths-integers-a-q15": ["Two minus signs in a row cancel. The opposite of a negative number is positive."],
+  "g7-maths-integers-a-q16": ["Subtracting a negative is the same as adding its opposite. Start from 0 on the number line."],
+  "g7-maths-integers-a-q18": ["Write (−2) × (−2) × (−2). Multiply two at a time and track the sign."],
   "g7-maths-integers-a-q21": ["−15 and 15 are opposites, the same distance from the start on either side of the number line. What do they add to?"],
+  "g7-maths-integers-a-q24": ["Work left to right: first −9 − 4, then add 2."],
+  "g7-maths-integers-b-q01": ["Closed means the answer is always an integer too. Try 3 and −5 with each operation."],
   "g7-maths-integers-b-q02": ["In a + b = b + a, only the order of a and b changes. Which property is about swapping the order?"],
+  "g7-maths-integers-b-q04": ["Count the negative signs. An odd count gives a negative product. Then multiply 3 × 4 × 1."],
+  "g7-maths-integers-b-q06": ["Open the bracket: the minus sign changes the sign of a and of −b. Rearrange what you get."],
+  "g7-maths-integers-b-q08": ["Find the distance of −7 from zero, and of 3. Then subtract the second from the first."],
+  "g7-maths-integers-b-q09": ["Try n = 5 in each expression. Which one gives back 5, and would it for any n?"],
+  "g7-maths-integers-b-q10": ["Subtracting −9 means adding 9. Work left to right: 5 + 9, then subtract 3."],
+  "g7-maths-integers-b-q11": ["Divide −36 by the given negative factor. Negative divided by negative is positive."],
+  "g7-maths-integers-b-q13": ["Each pair of minus signs makes a positive. How many pairs of negatives are there?"],
+  "g7-maths-integers-b-q14": ["Add the two negatives first: −14 + (−6). Then add 20."],
+  "g7-maths-integers-b-q16": ["Undefined means it has no answer. Can any number times zero ever give 7?"],
+  "g7-maths-integers-b-q18": ["Work left to right: first (−25) ÷ 5, then multiply by (−2)."],
   "g7-maths-integers-b-q20": ["In a × (b + c), a multiplies each term inside the bracket. Which property spreads × over +?"],
+  "g7-maths-integers-b-q21": ["Work inside first: the bars give a distance from zero. Then apply the minus sign outside the bars."],
+  "g7-maths-integers-b-q22": ["List them: start just after −3 and stop just before 4. Do not include −3 or 4."],
+  "g7-maths-integers-b-q23": ["Multiply before adding: work out 3 × (−2) first, then add it to −8."],
   // g7-maths simple-equations — Simple Equations
+  "g7-maths-equations-a-q01": ["Take 7 away from both sides of x + 7 = 15."],
+  "g7-maths-equations-a-q02": ["Add 9 to both sides of y − 9 = 4."],
+  "g7-maths-equations-a-q03": ["Divide both sides of 3m = 21 by 3."],
+  "g7-maths-equations-a-q04": ["Multiply both sides of n/5 = 6 by 5."],
   "g7-maths-equations-a-q06": ["Undo the subtraction first, so 5p equals 16 plus the amount taken away. Then divide by 5."],
+  "g7-maths-equations-a-q07": ["Add 2 to both sides of x − 2 = 10. Then check your value in the equation."],
+  "g7-maths-equations-a-q10": ["Multiply both sides by −1 so that x is on its own."],
+  "g7-maths-equations-a-q13": ["Write 2n + 7 = 25. Take 7 from both sides, then halve."],
+  "g7-maths-equations-a-q19": ["First combine 3x + x into one term. Then divide 20 by its coefficient."],
+  "g7-maths-equations-a-q20": ["Simplify 2x − x first. Then take 4 from both sides of the equation."],
   "g7-maths-equations-a-q23": ["Subtract 2x from both sides of 2x + 5 = 2x + 9. Is what remains ever true?"],
+  "g7-maths-equations-b-q01": ["Take 4x from both sides and add 3 to both sides. Then divide by the coefficient of x."],
+  "g7-maths-equations-b-q02": ["Expand both brackets: 3x − 12 = 2x + 2. Then collect the x terms on one side."],
+  "g7-maths-equations-b-q04": ["Multiply every term by the LCM of 4 and 6 to clear the fractions, then solve."],
+  "g7-maths-equations-b-q05": ["Write 5n − 8 = 27. Add 8 to both sides, then divide by 5."],
+  "g7-maths-equations-b-q13": ["An equation is like a balance. What must you do to keep both sides equal?"],
+  "g7-maths-equations-b-q14": ["0.5x means half of x. If half of x is 4, what is the whole of x?"],
   "g7-maths-equations-b-q16": ["Subtract 7 from both sides of 4x + 7 = −9, then divide by the coefficient of x. Keep the negative sign."],
+  "g7-maths-equations-b-q17": ["Let the number be x. Write half a number first, then show it decreased by 3, then set it equal to 10."],
+  "g7-maths-equations-b-q18": ["Combine 5x − 2x into one term, subtract the constant from 24, then divide by the coefficient of x."],
+  "g7-maths-equations-b-q19": ["Put x = −2 into 3x + 8. Does it equal 2?"],
   "g7-maths-equations-b-q20": ["Divide 12 by the number outside the bracket to find x + 1, then subtract 1."],
+  "g7-maths-equations-b-q21": ["Write the cost of three tickets and of one ticket using ₹x. Which is ₹90 more?"],
   "g7-maths-equations-b-q24": ["A linear equation such as 2x + 5 = 9 has no x² or x³ term. What power of the variable is left?"],
   // g7-maths lines-angles — Lines and Angles
   "g7-maths-angles-a-q10": ["Adjacent angles on a straight line make a half-turn. A full turn is 360°."],
   "g7-maths-angles-a-q14": ["Tear off the corners of a paper triangle and line them up. They make a straight line."],
   "g7-maths-angles-a-q18": ["Corresponding angles sit in the same position at each crossing of the transversal. Slide one onto the other: do they match?"],
   "g7-maths-angles-b-q03": ["Supplementary angles add to 180°. If an angle equals its supplement, then x + x = 180°."],
+  "g7-maths-angles-b-q05": ["Corresponding angles sit in matching corners where the transversal meets l and m. With l ∥ m, how do they compare?"],
+  "g7-maths-angles-b-q07": ["The angles share 180° in the ratio 2 : 3 : 4. Find one part as 180° ÷ 9."],
   "g7-maths-angles-b-q09": ["Two adjacent angles that together make a straight line add to 180°. Which pair name means 'on a line'?"],
+  "g7-maths-angles-b-q12": ["Test each claim with examples: are adjacent angles always equal? Are two acute angles always complementary? Check every option like this."],
+  "g7-maths-angles-b-q15": ["Bisecting means splitting into two equal parts. Halve the 90° of a right angle."],
+  "g7-maths-angles-b-q18": ["A right triangle uses 90° of its 180°. What do the other two angles add to, and how big can each be?"],
   "g7-maths-angles-b-q19": ["Draw a transversal across parallel lines and measure the corresponding angles at both crossings. Compare them."],
   "g7-maths-angles-b-q20": ["270° is more than a straight angle of 180° but less than a full turn of 360°. Name that angle type."],
+  "g7-maths-angles-b-q22": ["Walk round a convex polygon, turning by the exterior angle at each vertex. How much have you turned in total?"],
 };
