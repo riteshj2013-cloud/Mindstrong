@@ -49,7 +49,27 @@ const tokens = (raw) => {
 };
 const ELIM_OPTIONS = /eliminat\w*\s+(?:the\s+)?(?:\w+\s+)?(?:options?|answers?|choices?)|process of elimination|eliminate (?:impossible|unsupported|wrong)/i;
 const GENERIC = [/read (the question )?carefully/i, ELIM_OPTIONS, /think about the lesson/i, /what (is|the) question (is )?asking/i, /look carefully/i, /lesson key ideas/i, /match what you see/i];
-const LETTER = [/\b(?:option|choice|answer)s?\s*\(?[A-Da-d]\)?(?![\w'’])/i, /(?<![\w)])\([A-Da-d]\)/, /(?<![\w'’°/.-])[A-D]\s*(?:,|and|or|nor|&)\s*[A-D](?![\w'’])/, /\b(?:[Oo]nly|[Pp]ick|[Cc]hoose)\s+[A-D](?![\w'’])/, /(?:^|[.!?]\s+)[A-D][.:)](?:\s|$)/];
+// Letter references: the exact rules from audit-content.mjs (figure labels such as "Card B" are allowed).
+const LABEL_NOUN = /\b(?:card|label|panel|shape|bar|picture|part|point|home|town|library|jar|box|bag|glass|line|bottle|group|row|column|tile|scene|figure|diagram|strip|cup|beaker|tube|flask|pot|plant|child|student|team|class|grade|vitamin|route|path|arrow|ray|object|mirror|magnet|bulb|graph|pattern|step|stage|region|zone|side|corner|angle|triangle|circle|square|sample|solution|liquid|substance|person|friend|lens|cell|site|tank|ball|block|spring|trolley|car|train|ship|city|village|shop|house|room|door|window|tap|bowl|plate|sheet|set|tray|basket|road|field|vertex|vertices|points|segment|letter|hepatitis)s?\s*$/i;
+const LETTER_REF = [
+  /\b(?:option|choice|answer)s?\s*\(?[A-Da-d]\)?(?![\w'’])/gi,
+  /(?<![\w)])\([A-Da-d]\)/g,
+  /(?<![\w'’°/.-])[A-D]\s*(?:,|and|or|nor|&)\s*[A-D](?![\w'’])/g,
+  /\b(?:[Oo]nly|[Ii]n|[Pp]ick|[Cc]hoose|[Nn]ot)\s+[A-D](?![\w'’])/g,
+  /(?<![\w'’°/.-])[A-D] (?:is|are|has|gives|uses|shows|matches|misses|puts) /g,
+  /(?:^|[.!?]\s+)[A-D][.:)](?:\s|$)/g,
+];
+function letterRefs(h) {
+  const out = [];
+  for (const re of LETTER_REF) {
+    for (const m of h.matchAll(re)) {
+      const lead = m[0].match(/^[\s.!?]*/)[0].length;
+      if (LABEL_NOUN.test(h.slice(0, m.index + lead))) continue;
+      out.push(m[0].trim());
+    }
+  }
+  return out;
+}
 
 const escRe = (x) => x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 function auditContains(hint, answer) {
@@ -106,7 +126,7 @@ for (const { g, chapter, q } of items) {
   hints.forEach((h, i) => {
     const add = (rule, why) => { flagged[rule].add(q.id); findings.push([q.id, rule, `hint[${i}] ${why}: ${h}`]); };
     for (const r of leakReasons(h, q)) add("leak", `contains answer ${r}`);
-    if (LETTER.some((re) => re.test(h)) || ELIM_OPTIONS.test(h)) add("letter", "names an option letter / says eliminate options");
+    if (letterRefs(h).length || ELIM_OPTIONS.test(h)) add("letter", "names an option letter / says eliminate options");
     const sh = byChapterHint.get(chapter + "\u0000" + norm(h));
     if (sh && sh.size > 1) add("shared", `identical to ${sh.size - 1} other item(s) in ${chapter}`);
     if (![...tokens(h)].some((t) => ctx.has(t))) add("no-token", "shares no number/word with the stem");
