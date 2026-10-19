@@ -897,7 +897,7 @@ Each figure is original, built only from SVG shapes and text. Every pictorial MC
 
 ### PQA05
 - **figure**: fig_005
-- **stem**: Look at Build the Number. Use all six tiles to make the **greatest** 6-digit number that has 1 in the Thousands slot. Which number is it?
+- **stem**: Build the Number. Use all six tiles to make the **greatest** 6-digit number that has 1 in the Thousands slot. Which number is it?
 
 **Diagram (SVG):**
 

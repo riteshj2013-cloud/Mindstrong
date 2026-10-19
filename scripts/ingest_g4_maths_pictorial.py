@@ -44,6 +44,28 @@ JOBS = [
 ]
 
 
+# Writer stems sometimes read "Look at <figure title>. ..." where the title is itself an
+# instruction or a question ("Look at Count the sides.", "Look at Which bar matches Bar 1?").
+# Drop the "Look at " before an instruction title, and drop a question title entirely.
+LOOK_AT_IMPERATIVE = (
+    r"Count|Name|Check|Build|Add|Take|Simplify|Place|Find|Read|Match|Use|Choose|Pick|Write|Compare|"
+    r"Join|Spot|Colou?r|Shade|Draw|Mark|Order|Sort|Fill|Complete|Show|Make|Put|Help|Solve|Measure|"
+    r"Round|Split|Share|Tick|Circle|Estimate|Turn|Look"
+)
+
+
+def clean_look_at(stem: str) -> str:
+    m = re.match(r"^Look at ([^.?!\n]*[.?!])[ \t]*(.*)$", stem, re.S)
+    if not m:
+        return stem
+    title, rest = m.group(1), m.group(2)
+    if title.endswith("?") and rest.strip():
+        return rest
+    if re.match(r"(?:%s)\b" % LOOK_AT_IMPERATIVE, title):
+        return (title + " " + rest).strip()
+    return stem
+
+
 def parse_pictorial_set(md: str, set_letter: str, id_prefix: str) -> list:
     md = strip_editorial_sections(md)
     heading = "## Pictorial Set %s" % set_letter
@@ -83,7 +105,7 @@ def parse_pictorial_set(md: str, set_letter: str, id_prefix: str) -> list:
                 replaces = int(rm.group(1))
         qs.append({
             "id": "%s-%s-pq%02d" % (id_prefix, set_letter.lower(), i),
-            "prompt": stem_m.group(1).strip(),
+            "prompt": clean_look_at(stem_m.group(1).strip()),
             "options": options,
             "answerId": letter_id(ans_m.group(1)),
             "explanation": expl_m.group(1).strip() if expl_m else "",

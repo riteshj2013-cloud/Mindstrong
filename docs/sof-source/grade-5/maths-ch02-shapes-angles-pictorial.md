@@ -557,7 +557,7 @@ Each figure is original, built only from SVG shapes and text. Every pictorial MC
 
 ### PQA01
 - **figure**: fig_001
-- **stem**: Look at Name the parts. What is the **orange point V** called?
+- **stem**: Name the parts. What is the **orange point V** called?
 
 **Diagram (SVG):**
 
@@ -672,7 +672,7 @@ Each figure is original, built only from SVG shapes and text. Every pictorial MC
 
 ### PQA04
 - **figure**: fig_004
-- **stem**: Look at Count the sides. Which shape is a **triangle**?
+- **stem**: Count the sides. Which shape is a **triangle**?
 
 **Diagram (SVG):**
 
@@ -762,7 +762,7 @@ Each figure is original, built only from SVG shapes and text. Every pictorial MC
 
 ### PQA06
 - **figure**: fig_006
-- **stem**: Look at Open or closed? Which shape is a **closed triangle**?
+- **stem**: Which shape is a **closed triangle**?
 
 **Diagram (SVG):**
 
@@ -963,7 +963,7 @@ Each figure is original, built only from SVG shapes and text. Every pictorial MC
 
 ### PQB02
 - **figure**: fig_011
-- **stem**: Look at Name this angle. Using the three points, what is the correct name?
+- **stem**: Name this angle. Using the three points, what is the correct name?
 
 **Diagram (SVG):**
 

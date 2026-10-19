@@ -178,7 +178,7 @@ export const G8_MATHS_HINTS: Record<string, HintOverlay> = {
   "g8-maths-algebra-b-q06": ["Distribute to every term, then combine like terms."],
   "g8-maths-algebra-b-q07": ["Distribute to every term, then combine like terms."],
   "g8-maths-algebra-b-q08": ["Distribute to every term, then combine like terms."],
-  "g8-maths-algebra-b-q09": ["Use (a\u00b1b)\u00b2 or a\u00b2\u2212b\u00b2; expand or factor with the matching pattern."],
+  "g8-maths-algebra-b-q09": ["Expand (a + b)(a − b) term by term and see which middle terms cancel."],
   "g8-maths-algebra-b-q10": ["Use (a\u00b1b)\u00b2 or a\u00b2\u2212b\u00b2; expand or factor with the matching pattern."],
   "g8-maths-algebra-b-q11": ["Use (a\u00b1b)\u00b2 or a\u00b2\u2212b\u00b2; expand or factor with the matching pattern."],
   "g8-maths-algebra-b-q12": ["Use (a\u00b1b)\u00b2 or a\u00b2\u2212b\u00b2; expand or factor with the matching pattern."],

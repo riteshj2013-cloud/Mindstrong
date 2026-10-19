@@ -28,7 +28,8 @@ const RULES = [
   ["marker-id", /\bmarkers? (?:ids?|named)\b|uniquely named marker/i],
   ["dollar", /\$\s?\d|\d\s?\$|\bdollars?\b|\bUSD\b|\bcents?\b/i],
   // Pictorial ingest sometimes concatenates "Look at " + figure title → "Look at Read the …"
-  ["look-at-read", /\bLook at Read\b/],
+  // ... or "Look at Count the sides." / "Look at Which bar matches Bar 1?" (title is an instruction or a question).
+  ["look-at-read", /\bLook at (?:Read|Count|Name|Check|Build|Add|Take|Simplify|Place|Find|Match|Use|Choose|Pick|Write|Compare|Join|Spot|Colou?r|Shade|Draw|Mark|Order|Sort|Fill|Complete|Show|Make|Put|Help|Solve|Measure|Round|Split|Share|Tick|Circle|Estimate|Turn|Which|What|How|Who|Where|When|Why)\b|\bLook at [A-Z][^.?!:;—\n]*\?/],
   // G4-style pictorial scaffolding must live in figure.longdesc, never in the quiz prompt.
   ["sr-longdesc-in-prompt", /Text-only version for screen readers/i],
   // Writer/editor jargon must never reach kids ("tempting distractors", "synesthetic-ish", "the trap").
@@ -183,10 +184,16 @@ function letterRefs(h) {
 }
 const normText = (s) => String(s ?? "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
 const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+/**
+ * Leak-matching form: NFKC (a² → a2, full-width → ASCII), lower-case, a space around every symbol and
+ * whitespace collapsed, so "a² − b²" and "a²−b²" (or "₹20" and "₹ 20") compare equal.
+ */
+const leakForm = (s) =>
+  String(s ?? "").normalize("NFKC").toLowerCase().replace(/[^\p{L}\p{N}\s]/gu, " $& ").replace(/\s+/g, " ").trim();
 function containsAnswer(hint, answer) {
-  const a = String(answer ?? "").trim().replace(/[.!?]+$/, "").trim();
+  const a = leakForm(String(answer ?? "").trim().replace(/[.!?]+$/, ""));
   if (!a || (a.length < 2 && !/^\d$/.test(a))) return false; // single letters: equality check only
-  return new RegExp(`(?<![\\p{L}\\p{N}])${escapeRe(a.toLowerCase())}(?![\\p{L}\\p{N}])`, "u").test(hint.toLowerCase());
+  return new RegExp(`(?:^| )${escapeRe(a)}(?= |$)`, "u").test(leakForm(hint));
 }
 const leakBaselinePath = path.join(ROOT, "scripts/audit-baselines/hint-contains-answer.json");
 const leakBaseline = new Set(JSON.parse(fs.readFileSync(leakBaselinePath, "utf8")).items);
@@ -221,6 +228,92 @@ for (const { where, questions } of [...servedSets, ...servedPapers]) {
   }
 }
 const staleLeaks = [...leakBaseline].filter((id) => !leakSeen.has(id));
+
+/**
+ * Two softer hint checks, baselined like hint-contains-answer (new hits fail; listed ids are for the writers):
+ *  - hint-rules-out: one hint names two or more WRONG options ("End, pause and cancel do not mean
+ *    starting."), so the child can eliminate instead of reason. A wrong option counts when its text
+ *    (articles dropped, ≥3 characters, not just a number) appears as whole words in the hint and does
+ *    not also appear in the stem (stem words are context, not a give-away).
+ *  - hint-partial-quote: one hint contains more than 2/3 of the correct option's distinctive content
+ *    words ("Cotton after ginning." for "cotton fibres after ginning"). Content words are ≥3 letters, not
+ *    stop-words, not in the stem and not shared by two or more wrong options; needs at least 2 of them.
+ *    Verbatim matches are left to hint-contains-answer.
+ */
+const looseForm = (s) => String(s ?? "").normalize("NFKC").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+const hasWords = (hay, needle) => !!needle && ` ${hay} `.includes(` ${needle} `);
+const optCore = (s) => looseForm(s).replace(/^(?:the|a|an|to) /, "");
+const PQ_STOP = new Set(
+  ("the and for are but not you all any can had her was one our out has have this that with from they will would there " +
+    "their what when which where who whom why how into than then them these those your about after before each other " +
+    "some such only own same too very just also more most does did being been were its his she him may might must " +
+    "shall should could over under again once here both few because while during above below between through off every").split(" "),
+);
+const contentWords = (s) => [
+  ...new Set(
+    looseForm(s)
+      .split(" ")
+      .filter((w) => w.length >= 3 && !PQ_STOP.has(w))
+      .map((w) => (w.length > 3 && w.endsWith("s") && !w.endsWith("ss") ? w.slice(0, -1) : w)),
+  ),
+];
+function rulesOut(q) {
+  const correct = optCore(q.options.find((o) => o.id === q.answerId)?.text);
+  const stem = looseForm(q.prompt);
+  const wrong = [
+    ...new Set(
+      q.options
+        .filter((o) => o.id !== q.answerId)
+        .map((o) => optCore(o.text))
+        .filter((d) => d.length >= 3 && !/^[\d .,/]+$/.test(d) && d !== correct)
+        .filter((d) => !hasWords(d, correct) && !hasWords(correct, d) && !hasWords(stem, d)),
+    ),
+  ];
+  for (const h of q.hints ?? []) {
+    const named = wrong.filter((d) => hasWords(looseForm(h), d));
+    if (named.length >= 2) return { hint: h, named };
+  }
+  return null;
+}
+function partialQuote(q) {
+  const correctText = q.options.find((o) => o.id === q.answerId)?.text ?? "";
+  const stem = new Set(contentWords(q.prompt));
+  const others = q.options.filter((o) => o.id !== q.answerId).map((o) => new Set(contentWords(o.text)));
+  const words = contentWords(correctText).filter((w) => !stem.has(w) && others.filter((s) => s.has(w)).length < 2);
+  if (words.length < 2) return null;
+  for (const h of q.hints ?? []) {
+    if (containsAnswer(h, correctText)) continue;
+    const hw = new Set(contentWords(h));
+    const hit = words.filter((w) => hw.has(w));
+    if (hit.length / words.length > 2 / 3) return { hint: h, answer: correctText, words: hit, of: words.length };
+  }
+  return null;
+}
+const softChecks = [
+  { rule: "hint-rules-out", fn: rulesOut, file: "scripts/audit-baselines/hint-rule-out.json" },
+  { rule: "hint-partial-quote", fn: partialQuote, file: "scripts/audit-baselines/hint-partial-quote.json" },
+].map((c) => ({ ...c, baseline: new Set(fs.existsSync(path.join(ROOT, c.file)) ? JSON.parse(fs.readFileSync(path.join(ROOT, c.file), "utf8")).items : []), hits: new Map() }));
+for (const { where, questions } of [...servedSets, ...servedPapers]) {
+  for (const q of questions) {
+    const id = baseId(q.id);
+    for (const c of softChecks) {
+      if (c.hits.has(id)) continue;
+      const r = c.fn(q);
+      if (!r) continue;
+      c.hits.set(id, { id, where, ...r });
+      if (!c.baseline.has(id)) findings.push({ rule: c.rule, where: `${where}.${q.id}`, text: `${id}: ${JSON.stringify(r)}` });
+    }
+  }
+}
+// AUDIT_WRITE_HINT_REPORTS=1 writes the full hit lists (for the writers) next to the baselines' docs.
+if (process.env.AUDIT_WRITE_HINT_REPORTS) {
+  for (const c of softChecks) {
+    const items = [...c.hits.values()].sort((a, b) => a.id.localeCompare(b.id));
+    const bySubject = {};
+    for (const it of items) { const s = it.id.split("-")[1]; bySubject[s] = (bySubject[s] ?? 0) + 1; }
+    fs.writeFileSync(path.join(ROOT, process.env.AUDIT_WRITE_HINT_REPORTS, `${c.rule.replace(/^hint-/, "hints-")}.json`), JSON.stringify({ rule: c.rule, count: items.length, bySubject, items }, null, 1) + "\n");
+  }
+}
 
 /** Warning only: every chapter should use each answer letter at least once. */
 const warnings = [];
@@ -279,6 +372,10 @@ console.log(
   `\nhint checks: ${hintStats.bare} bare-letter, ${hintStats.ref} letter-reference, ${hintStats.equal} hint-is-answer, ` +
     `${hintStats.contains} hint-contains-answer (${knownLeaks} known in ${path.relative(ROOT, leakBaselinePath)}, ${leakSeen.size} items)`,
 );
+for (const c of softChecks) {
+  const stale = [...c.baseline].filter((id) => !c.hits.has(id));
+  console.log(`${c.rule}: ${c.hits.size} item(s), ${[...c.hits.keys()].filter((id) => c.baseline.has(id)).length} known in ${c.file}` + (stale.length ? `; ${stale.length} fixed, remove from baseline: ${stale.join(", ")}` : ""));
+}
 if (staleLeaks.length) console.log(`note: ${staleLeaks.length} id(s) in the hint-leak baseline no longer leak; remove them: ${staleLeaks.join(", ")}`);
 console.log(`${uniq.length} finding(s), ${warnings.length} warning(s)`);
 process.exit(uniq.length ? 1 : 0);

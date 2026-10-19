@@ -45,7 +45,7 @@ export const G10_SCIENCE_HINTS: Record<string, HintOverlay> = {
   "g10-sci-chem-b-q17": ["Track oxygen transfer."],
   "g10-sci-chem-b-q18": ["Hydrogen gives the pop test."],
   "g10-sci-chem-b-q19": ["Carbonates + acid \u2192 carbon dioxide."],
-  "g10-sci-chem-b-q20": ["Loss of oxygen = reduction of the oxide."],
+  "g10-sci-chem-b-q20": ["Black copper oxide turns into brown copper. What has the oxide lost to the hydrogen?", "Gaining oxygen and losing oxygen have different names. Which one happens to the oxide here?"],
   "g10-sci-chem-b-q21": ["Think acid\u2013base neutralisation."],
   "g10-sci-chem-b-q22": ["Photo = driven by light."],
   "g10-sci-chem-b-q23": ["Balance Al and Fe together."],

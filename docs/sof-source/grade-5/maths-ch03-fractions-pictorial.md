@@ -751,7 +751,7 @@ Each figure is original, built only from SVG shapes and text. Every pictorial MC
 
 ### PQA05
 - **figure**: fig_005
-- **stem**: Look at Add the shaded parts. What is **2/7 + 3/7**?
+- **stem**: Add the shaded parts. What is **2/7 + 3/7**?
 
 **Diagram (SVG):**
 
@@ -850,7 +850,7 @@ Each figure is original, built only from SVG shapes and text. Every pictorial MC
 
 ### PQA07
 - **figure**: fig_007
-- **stem**: Look at Same amount shaded? Bars 1, 2 and 3 all show the same amount. Which list names those equivalent fractions?
+- **stem**: Bars 1, 2 and 3 all show the same amount. Which list names those equivalent fractions?
 
 **Diagram (SVG):**
 
@@ -1050,7 +1050,7 @@ Each figure is original, built only from SVG shapes and text. Every pictorial MC
 
 ### PQB03
 - **figure**: fig_012
-- **stem**: Look at Simplify the shaded fraction. What is **6/8** in simplest form?
+- **stem**: Simplify the shaded fraction. What is **6/8** in simplest form?
 
 **Diagram (SVG):**
 
@@ -1128,7 +1128,7 @@ Each figure is original, built only from SVG shapes and text. Every pictorial MC
 
 ### PQB05
 - **figure**: fig_014
-- **stem**: Look at Take 3/5 of the dots. How many dots are shaded, and what is 3/5 of 20?
+- **stem**: Take 3/5 of the dots. How many dots are shaded, and what is 3/5 of 20?
 
 **Diagram (SVG):**
 
@@ -1175,7 +1175,7 @@ Each figure is original, built only from SVG shapes and text. Every pictorial MC
 
 ### PQB06
 - **figure**: fig_015
-- **stem**: Look at Place the flag. The dashed flag sits at which mark?
+- **stem**: Place the flag. The dashed flag sits at which mark?
 
 **Diagram (SVG):**
 
@@ -1216,7 +1216,7 @@ Each figure is original, built only from SVG shapes and text. Every pictorial MC
 
 ### PQB07
 - **figure**: fig_016
-- **stem**: Look at Take away the shaded strip. What is **7/10 − 2/10**?
+- **stem**: Take away the shaded strip. What is **7/10 − 2/10**?
 
 **Diagram (SVG):**
 
@@ -1277,7 +1277,7 @@ Each figure is original, built only from SVG shapes and text. Every pictorial MC
 
 ### PQB08
 - **figure**: fig_017
-- **stem**: Look at Which bar matches Bar 1? Bar 1 shows 2/3. Which other bar shows the **same amount**?
+- **stem**: Bar 1 shows 2/3. Which other bar shows the **same amount**?
 
 **Diagram (SVG):**
 

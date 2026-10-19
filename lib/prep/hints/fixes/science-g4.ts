@@ -1,7 +1,7 @@
 /**
  * Grade 4 Science — item-specific hint fixes (fix layer).
  * Source: app repo origin/main c5a133b (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 101 | hints: 101
+ * Items changed: 101 | hints: 102
  * By category (primary): answer-leak fixed 1 · chapter-shared hint split 82 · other strict-check fixes 9
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
@@ -37,7 +37,7 @@ export const G4_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-sci-food-b-q10": ["Oil can be pressed out of some seeds. Which choice is a seed that gives cooking oil?"],
   "g4-sci-food-b-q11": ["The key says section 1 is energy food. Sections 2 and 3 need body-building and protective foods."],
   "g4-sci-food-b-q12": ["Protective foods are full of vitamins and minerals that keep us healthy. Which katori holds a food rich in vitamins?"],
-  "g4-sci-food-b-q13": ["Lata is tired and pale and needs iron. Which choice has iron-rich foods like greens and jaggery?"],
+  "g4-sci-food-b-q13": ["Which choice is a real food, not a sweet snack or drink, that builds blood?"],
   "g4-sci-food-b-q15": ["Germs multiply quickly where it is warm, and an uncovered bowl lets them in. Which dal faces both of these problems?"],
   "g4-sci-food-b-q16": ["Germs cannot grow well in very salty or oily food. What two things are added to mango pickle?"],
   "g4-sci-food-b-q17": ["A healthy tiffin has energy, body-building and protective foods. Which box has a fruit and curd too?"],
@@ -111,7 +111,7 @@ export const G4_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   // g4-science-plants
   "g4-sci-plants-b-q07": ["In a germinating seed one baby part heads down into soil and the other heads up toward light. Which grows upward?"],
   "g4-sci-plants-a-q01": ["What job do these pillar-like roots do for the heavy branches? Pick the name that matches that job."],
-  "g4-sci-plants-a-q09": ["Look for the vegetable with a white head made of tightly packed tiny buds. Its name gives a clue."],
+  "g4-sci-plants-a-q09": ["Think about which part you eat: leaves, a root, an underground stem, or a tight bunch of flower buds.", "Flower buds packed closely together make a white, bumpy head. Which vegetable looks like that?"],
   "g4-sci-plants-a-q17": ["Potato eyes are buds that sprout new shoots. Do roots have buds like these?"],
   "g4-sci-plants-b-q09": ["Jute is a tall plant grown in Bengal. Which part of it gives long, strong threads for bags?"],
   "g4-sci-plants-b-q02": ["Photosynthesis needs sunlight and chlorophyll. Which plant part spreads out flat to catch the sunlight?"],

@@ -184,7 +184,7 @@ export const G5_ENGLISH_HINTS: Record<string, HintOverlay> = {
   "g5-eng-ch04-b-q07": ["Kabir lists what to bring with the homework."],
   "g5-eng-ch04-b-q08": ["Feel better soon is a kindness about her fever."],
   "g5-eng-ch04-b-q09": ["Which door and landmark mark the office?"],
-  "g5-eng-ch04-b-q10": ["How may I help you? is a service greeting."],
+  "g5-eng-ch04-b-q10": ["Find the guard's very first line in the conversation.", "A guard on duty greets visitors politely and offers help. Which choice sounds like that?"],
   "g5-eng-ch04-b-q11": ["Thoughtful praises kindness — check her reply."],
   "g5-eng-ch04-b-q12": ["The guard says who to ask if she gets confused."],
   "g5-eng-ch04-b-q13": ["Name the event Ananya announces for tomorrow."],

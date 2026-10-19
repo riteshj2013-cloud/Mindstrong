@@ -1678,7 +1678,7 @@ Each figure is original, built only from SVG shapes and text. Every pictorial MC
 
 ### PQB08
 - **figure**: fig_017
-- **stem**: Look at Check the Table. One labelled cell has a **wrong** answer. Which cell is it?
+- **stem**: Check the Table. One labelled cell has a **wrong** answer. Which cell is it?
 
 **Diagram (SVG):**
 

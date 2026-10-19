@@ -1,7 +1,7 @@
 /**
  * Grade 6 English — item-specific hint fixes (ts-ready overlay).
  * Source: app repo commit 8bfc38d (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 56 | hints: 112
+ * Items changed: 56 | hints: 110
  * By category (primary): generic replaced 48 · answer-revealing fixed 8 · shared-hint split 0
  * Each entry is [hint1 (gentle nudge), hint2 (stronger nudge)]. Neither gives the answer.
  * Merge: these must WIN over G6_ENGLISH_HINTS and over authored question.hints (fix layer in lib/prep/hints/fixes; see README-2026-10-19.md).
@@ -59,7 +59,7 @@ export const G6_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g6-eng-vocab-a-q13": ["\"commence\" is a formal word used for the start of an exam or ceremony.", "End, pause and cancel do not mean starting."],
   "g6-eng-vocab-a-q18": ["\"arrival\" means coming to a place, like a train reaching a station.", "Entry and welcome are about coming in; find the word about going away."],
   "g6-eng-vocab-a-q21": ["The blank names what this story teaches: to be patient.", "\"morale\" means team spirit and \"mural\" is a wall painting; which word is a story's lesson?"],
-  "g6-eng-vocab-b-q05": ["\"fresh\" coriander came straight from the brother's farm in Passage P2.", "Stale and frozen are the opposite; this coriander came straight from the farm."],
+  "g6-eng-vocab-b-q05": ["Fresh food was picked recently; it is the opposite of stale."],
   "g6-eng-vocab-b-q07": ["Split \"rewrite\" into re- + write.", "Compare rewrite with redo and retell — what does re- add?"],
   "g6-eng-vocab-b-q08": ["\"careless\" is care + the suffix -less.", "Compare careful and careless — -ful means full of, so -less means the opposite."],
   "g6-eng-vocab-b-q09": ["\"purchase\" is what Amma does at the vegetable stall when she pays.", "\"sell\" is the shopkeeper's side; borrowing and losing involve no payment."],
@@ -67,5 +67,5 @@ export const G6_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g6-eng-vocab-b-q12": ["Homophones sound alike but are spelt differently, like \"sea\".", "Say each word aloud — which one sounds exactly like \"sea\"?"],
   "g6-eng-vocab-b-q17": ["A \"flexible\" ruler or straw can be curved without breaking.", "\"unable to bend\" is the opposite of flexible."],
   "g6-eng-vocab-b-q20": ["\"a piece of cake\" is an idiom, not about real dessert.", "If a test is \"a piece of cake\", how did it feel to do it?"],
-  "g6-eng-vocab-b-q24": ["The team practised \"until dusk\" after the sun returned in Passage P4.", "\"dawn\" is when the sun rises; dusk is the opposite end of the day."],
+  "g6-eng-vocab-b-q24": ["Dusk is the dim light after sunset; dawn is at the other end of the day."],
 };
