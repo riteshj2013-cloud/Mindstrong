@@ -1,11 +1,10 @@
 {
- "note": "hint-rules-out hits on main as of 2026-10-19 (see scripts/audit-content.mjs for the rule). For the writers: rewrite these hints so they nudge toward the reasoning instead of eliminating wrong options by name.",
+ "note": "hint-rules-out hits on main as of 2026-10-19 (see scripts/audit-content.mjs for the rule). For the writers: rewrite these hints so they nudge toward the reasoning instead of eliminating wrong options by name. Updated after PR #59 (Science rule-out/partial-quote fixes): fixed items removed.",
  "rule": "hint-rules-out",
- "count": 181,
+ "count": 139,
  "bySubject": {
   "eng": 131,
-  "maths": 8,
-  "sci": 42
+  "maths": 8
  },
  "items": [
   {
@@ -241,24 +240,6 @@
     "circle",
     "square",
     "triangle"
-   ]
-  },
-  {
-   "id": "g1-sci-body-a-q01",
-   "where": "served:science-g1.my-body.set-a",
-   "hint": "Your ears hear and your nose smells. Which body part do you cover so that you cannot see your toys?",
-   "named": [
-    "ears",
-    "nose"
-   ]
-  },
-  {
-   "id": "g1-sci-body-a-q02",
-   "where": "served:science-g1.my-body.set-a",
-   "hint": "Your eyes look and your feet walk. Which body part helps you hear the school bell ring?",
-   "named": [
-    "eyes",
-    "feet"
    ]
   },
   {
@@ -533,16 +514,6 @@
     "run",
     "soft",
     "quickly"
-   ]
-  },
-  {
-   "id": "g2-sci-plants-b-q08",
-   "where": "served:science-g2.plants.set-b",
-   "hint": "Plants need water, light and air.",
-   "named": [
-    "water",
-    "light",
-    "air"
    ]
   },
   {
@@ -966,62 +937,6 @@
    ]
   },
   {
-   "id": "g3-sci-animals-a-q09",
-   "where": "served:science-g3.animals-food-homes.set-a",
-   "hint": "People build a home for a horse with stalls and hay. Hive, sty and nest are for other animals.",
-   "named": [
-    "sty",
-    "hive",
-    "nest"
-   ]
-  },
-  {
-   "id": "g3-sci-animals-a-q13",
-   "where": "served:science-g3.animals-food-homes.set-a",
-   "hint": "A farmer keeps pigs in a muddy pen. Stable, kennel and hive belong to other animals.",
-   "named": [
-    "stable",
-    "kennel",
-    "hive"
-   ]
-  },
-  {
-   "id": "g3-sci-senses-a-q09",
-   "where": "served:science-g3.sense-organs.set-a",
-   "hint": "Lemon is sour, karela is bitter, salt is salty. Which food do bees make?",
-   "named": [
-    "lemon",
-    "salt"
-   ]
-  },
-  {
-   "id": "g3-sci-senses-a-q14",
-   "where": "served:science-g3.sense-organs.set-a",
-   "hint": "You did not taste, smell or hear the hot cup. Your hand felt the heat. Which sense was that?",
-   "named": [
-    "taste",
-    "smell"
-   ]
-  },
-  {
-   "id": "g3-sci-senses-a-q18",
-   "where": "served:science-g3.sense-organs.set-a",
-   "hint": "Your nose can find burnt toast, ripe mango and soap. Which thing can only be found by looking?",
-   "named": [
-    "burnt toast",
-    "ripe mango"
-   ]
-  },
-  {
-   "id": "g3-sci-senses-b-q06",
-   "where": "served:science-g3.sense-organs.set-b",
-   "hint": "Garbage, smoke and rotten eggs smell bad. Which one is a flower we put in garlands?",
-   "named": [
-    "garbage",
-    "smoke"
-   ]
-  },
-  {
    "id": "g4-eng-ch02-a-q11",
    "where": "served:english-g4.word-workshop.set-a",
    "hint": "A prince and a princess are children; what do we call a king's wife?",
@@ -1118,75 +1033,6 @@
    ]
   },
   {
-   "id": "g4-sci-food-a-q09",
-   "where": "served:science-g4.food-nutrition.set-a",
-   "hint": "Carbohydrates are the starchy energy foods. Egg, fish and paneer are body-building foods. Which is starchy?",
-   "named": [
-    "egg",
-    "fish",
-    "paneer"
-   ]
-  },
-  {
-   "id": "g4-sci-matter-a-q13",
-   "where": "served:science-g4.solids-liquids-gases.set-a",
-   "hint": "A brick and an eraser keep their shape; air spreads everywhere. Which one takes the shape of its cup?",
-   "named": [
-    "brick",
-    "air",
-    "eraser"
-   ]
-  },
-  {
-   "id": "g4-sci-matter-a-q16",
-   "where": "served:science-g4.solids-liquids-gases.set-a",
-   "hint": "Honey, coconut oil and vinegar can be poured and flow. Which one is made of hard little crystals?",
-   "named": [
-    "honey",
-    "coconut oil",
-    "vinegar"
-   ]
-  },
-  {
-   "id": "g4-sci-matter-b-q02",
-   "where": "served:science-g4.solids-liquids-gases.set-b",
-   "hint": "Jar Y's juice has a flat top and jar Z's dots fill the jar. Which jar holds something that keeps its own shape?",
-   "named": [
-    "jar y",
-    "jar z"
-   ]
-  },
-  {
-   "id": "g4-sci-matter-b-q06",
-   "where": "served:science-g4.solids-liquids-gases.set-b",
-   "hint": "Coconut water and rain water flow, and air spreads out. Which one is hard and keeps its shape?",
-   "named": [
-    "coconut water",
-    "air",
-    "rain water"
-   ]
-  },
-  {
-   "id": "g4-sci-matter-b-q08",
-   "where": "served:science-g4.solids-liquids-gases.set-b",
-   "hint": "Brick, pencil and plate keep their shape. Which one can be poured from a jar, even if slowly?",
-   "named": [
-    "brick",
-    "pencil",
-    "plate"
-   ]
-  },
-  {
-   "id": "g4-sci-water-a-q01",
-   "where": "served:science-g4.water-cycle.set-a",
-   "hint": "Plants wilt and animals get thirsty without it. Gold, toys and plastic are not needed to live.",
-   "named": [
-    "gold",
-    "toys",
-    "plastic"
-   ]
-  },
-  {
    "id": "g5-eng-ch02-a-q08",
    "where": "served:english-g5.word-builders.set-a",
    "hint": "Which word could fill \"a ___ of birds\" — unlike a river or a city like Mumbai?",
@@ -1239,82 +1085,6 @@
     "hey",
     "dear diary",
     "yo principal"
-   ]
-  },
-  {
-   "id": "g5-sci-env-a-q13",
-   "where": "served:science-g5.environment-resources.set-a",
-   "hint": "Non-renewable means it took millions of years to form and runs out. Sunlight, wind and rivers keep coming back.",
-   "named": [
-    "sunlight",
-    "wind"
-   ]
-  },
-  {
-   "id": "g5-sci-matter-a-q04",
-   "where": "served:science-g5.matter-materials.set-a",
-   "hint": "Clear glass and clean water let you see through them sharply. Opaque blocks light; translucent gives a blurry view.",
-   "named": [
-    "opaque",
-    "translucent"
-   ]
-  },
-  {
-   "id": "g5-sci-matter-a-q17",
-   "where": "served:science-g5.matter-materials.set-a",
-   "hint": "A window pane must let light through so you can see outside clearly. Wood, cardboard and rubber block light.",
-   "named": [
-    "wood",
-    "cardboard",
-    "rubber"
-   ]
-  },
-  {
-   "id": "g5-sci-matter-b-q03",
-   "where": "served:science-g5.matter-materials.set-b",
-   "hint": "A plug cover must stop current reaching your fingers. Copper, aluminium and iron are metals that conduct.",
-   "named": [
-    "copper",
-    "aluminium",
-    "iron"
-   ]
-  },
-  {
-   "id": "g5-sci-plants-a-q12",
-   "where": "served:science-g5.plants-seeds.set-a",
-   "hint": "Germination is sprouting and photosynthesis is food-making. Which term means seeds spreading to new places?",
-   "named": [
-    "germination",
-    "photosynthesis"
-   ]
-  },
-  {
-   "id": "g5-sci-plants-b-q04",
-   "where": "served:science-g5.plants-seeds.set-b",
-   "hint": "Dispersal is seeds travelling; pollination happens in flowers. Which word means a seed sprouting into a young plant?",
-   "named": [
-    "dispersal",
-    "pollination"
-   ]
-  },
-  {
-   "id": "g5-sci-plants-b-q16",
-   "where": "served:science-g5.plants-seeds.set-b",
-   "hint": "Maize, wheat and rice grains stay in one piece when soaked. Which seed splits into two halves?",
-   "named": [
-    "maize",
-    "wheat",
-    "rice"
-   ]
-  },
-  {
-   "id": "g5-sci-plants-b-q23",
-   "where": "served:science-g5.plants-seeds.set-b",
-   "hint": "Seeds travel by wind, water, animals or bursting pods. Which word is about leaves making food instead?",
-   "named": [
-    "wind",
-    "water",
-    "animals"
    ]
   },
   {
@@ -1474,168 +1244,6 @@
    ]
   },
   {
-   "id": "g7-sci-nutrition-b-q11",
-   "where": "served:science-g7.nutrition.set-b",
-   "hint": "Proteins break into amino acids and starch into glucose. Which two products do fats give after digestion?",
-   "named": [
-    "amino acids",
-    "starch"
-   ]
-  },
-  {
-   "id": "g8-sci-cells-a-q07",
-   "where": "served:science-g8.cells.set-a",
-   "hint": "Nucleus, membrane and mitochondria occur in both cell types. Which rigid outer layer do only plant cells have?",
-   "named": [
-    "nucleus",
-    "mitochondria"
-   ]
-  },
-  {
-   "id": "g8-sci-cells-a-q09",
-   "where": "served:science-g8.cells.set-a",
-   "hint": "Haemoglobin is in blood and melanin in skin. Which pigment makes leaves green and traps light in chloroplasts?",
-   "named": [
-    "haemoglobin",
-    "melanin"
-   ]
-  },
-  {
-   "id": "g8-sci-cells-a-q11",
-   "where": "served:science-g8.cells.set-a",
-   "hint": "Earthworm, mushroom and Hydra are built of many cells. Which organism moves by pseudopodia as a single cell?",
-   "named": [
-    "earthworm",
-    "mushroom",
-    "hydra"
-   ]
-  },
-  {
-   "id": "g8-sci-cells-a-q19",
-   "where": "served:science-g8.cells.set-a",
-   "hint": "Amoeba moves by pushing out temporary bulges of its cytoplasm. Cilia and flagella are permanent hair-like structures.",
-   "named": [
-    "cilia",
-    "flagella"
-   ]
-  },
-  {
-   "id": "g8-sci-cells-a-q20",
-   "where": "served:science-g8.cells.set-a",
-   "hint": "No nuclear membrane means a prokaryote. Amoeba, Paramecium and yeast are eukaryotes. Which is prokaryotic?",
-   "named": [
-    "amoeba",
-    "paramecium",
-    "yeast"
-   ]
-  },
-  {
-   "id": "g8-sci-cells-b-q08",
-   "where": "served:science-g8.cells.set-b",
-   "hint": "The cell wall is fully permeable in plants; the nucleus controls activities. Which thin layer decides what passes in and out?",
-   "named": [
-    "cell wall",
-    "nucleus"
-   ]
-  },
-  {
-   "id": "g8-sci-cells-b-q09",
-   "where": "served:science-g8.cells.set-b",
-   "hint": "Paramecium, Chlamydomonas and yeast are single-celled. Which organism has tentacles and a body made of many cells?",
-   "named": [
-    "paramecium",
-    "chlamydomonas",
-    "yeast"
-   ]
-  },
-  {
-   "id": "g8-sci-force-a-q02",
-   "where": "served:science-g8.force-pressure.set-a",
-   "hint": "The SI unit of force honours the scientist who gave the laws of motion. Pascal is for pressure and joule for energy.",
-   "named": [
-    "pascal",
-    "joule"
-   ]
-  },
-  {
-   "id": "g8-sci-force-b-q03",
-   "where": "served:science-g8.force-pressure.set-b",
-   "hint": "Friction, muscular force and the normal force from a table all need touching. Which force acts from a distance?",
-   "named": [
-    "friction",
-    "muscular force",
-    "normal force from a table"
-   ]
-  },
-  {
-   "id": "g8-sci-force-b-q04",
-   "where": "served:science-g8.force-pressure.set-b",
-   "hint": "A thermometer reads temperature and a barometer reads air pressure. Which device stretches a spring to read force?",
-   "named": [
-    "thermometer",
-    "barometer"
-   ]
-  },
-  {
-   "id": "g8-sci-metals-a-q02",
-   "where": "served:science-g8.metals-nonmetals.set-a",
-   "hint": "Sodium and aluminium are solids, and bromine is a liquid non-metal. Which metal flows like silver water in old thermometers?",
-   "named": [
-    "sodium",
-    "aluminium",
-    "bromine"
-   ]
-  },
-  {
-   "id": "g8-sci-metals-a-q04",
-   "where": "served:science-g8.metals-nonmetals.set-a",
-   "hint": "A temple bell rings when struck. Malleability is about sheets and ductility about wires. Which property is about sound?",
-   "named": [
-    "malleability",
-    "ductility"
-   ]
-  },
-  {
-   "id": "g8-sci-metals-a-q12",
-   "where": "served:science-g8.metals-nonmetals.set-a",
-   "hint": "This non-metal catches fire on its own in air, so it is kept under water. Sulphur, carbon and iodine are safe in air.",
-   "named": [
-    "sulphur",
-    "carbon",
-    "iodine"
-   ]
-  },
-  {
-   "id": "g8-sci-metals-b-q01",
-   "where": "served:science-g8.metals-nonmetals.set-b",
-   "hint": "Malleability is about sheets, sonority about ringing, lustre about shine. Which property is about wires?",
-   "named": [
-    "malleability",
-    "sonority",
-    "lustre"
-   ]
-  },
-  {
-   "id": "g8-sci-metals-b-q11",
-   "where": "served:science-g8.metals-nonmetals.set-b",
-   "hint": "Recall the reactivity series. Copper and gold do not react with water, and iron only slowly. Which reacts violently?",
-   "named": [
-    "copper",
-    "iron",
-    "gold"
-   ]
-  },
-  {
-   "id": "g8-sci-metals-b-q20",
-   "where": "served:science-g8.metals-nonmetals.set-b",
-   "hint": "Zinc, mercury and aluminium are metals. Which choice is a black solid found in coal and graphite?",
-   "named": [
-    "zinc",
-    "mercury",
-    "aluminium"
-   ]
-  },
-  {
    "id": "g9-eng-ch02-a-q19",
    "where": "served:english-g9.grammar-workshop.set-a",
    "hint": "\"Many\", \"Few\" and \"Several\" go with countable plural nouns.",
@@ -1708,15 +1316,6 @@
     "blurry",
     "mute",
     "lazy"
-   ]
-  },
-  {
-   "id": "g9-sci-motion-b-q01",
-   "where": "served:science-g9.motion.set-b",
-   "hint": "A vector quantity can point backwards along a line. Distance, speed and time intervals cannot be negative.",
-   "named": [
-    "distance",
-    "speed"
    ]
   }
  ]
