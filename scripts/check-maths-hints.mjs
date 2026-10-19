@@ -33,15 +33,18 @@ const STOP = new Set(("the and for are but not you all any can had her was one o
 const WORDS = ["zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"];
 const TENS = ["","","twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety"];
 const numWord = (n) => n < 20 ? WORDS[n] : n % 10 ? `${TENS[Math.floor(n / 10)]}[ -]${WORDS[n % 10]}` : n === 100 ? "hundred" : TENS[n / 10];
-const norm = (s) => String(s ?? "").toLowerCase().replace(/₹|rs\.?(?=\s*\d)/g, "").replace(/(\d),(?=\d{2,3}\b)/g, "$1").replace(/[\s\u00a0]+/g, " ").replace(/[.!?]+$/, "").trim();
+const norm = (s) => String(s ?? "").toLowerCase().replace(/[−–]/g, "-").replace(/₹|rs\.?(?=\s*\d)/g, "").replace(/(\d),(?=\d{2,3}\b)/g, "$1").replace(/[\s\u00a0]+/g, " ").replace(/[.!?]+$/, "").trim();
 const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const has = (h, a) => a && new RegExp(`(?<![\\p{L}\\p{N}.])${esc(a)}(?![\\p{L}\\p{N}]|\\.\\d)`, "u").test(h);
 const nums = (s) => [...norm(s).matchAll(/\d+(?:\.\d+)?(?:\/\d+)?/g)].map((m) => m[0]);
-const stemW = (w) => (w.length > 4 && w.endsWith("s") && !w.endsWith("ss") ? w.slice(0, -1) : w);
-const tokens = (s) => {
-  const t = new Set(nums(s));
+const stemW = (w) => (w.length > 3 && w.endsWith("s") && !w.endsWith("ss") ? w.slice(0, -1) : w);
+const SUP = { "⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4", "⁵": "5", "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9", "⁻": "-" };
+const tokens = (raw) => {
+  // Exponents count as tokens too: "5²" offers 5 and 2, "a⁶" offers a and 6.
+  const s = String(raw ?? "").replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹⁻]+/g, (m) => " ^" + [...m].map((c) => SUP[c]).join("") + " ");
+  const t = new Set(nums(s).flatMap((n) => [n, ...n.split("/")])); // a fraction also offers its numerator and denominator
   for (const m of String(s ?? "").toLowerCase().matchAll(/[a-z]{3,}/g)) if (!STOP.has(m[0])) t.add(stemW(m[0]));
-  for (const m of String(s ?? "").matchAll(/[₹%°×÷√π]|(?<![\p{L}])[b-hj-z](?![\p{L}])/gu)) t.add(m[0].toLowerCase()); // symbols + algebra variables
+  for (const m of String(s ?? "").matchAll(/[₹%°×÷√π]|(?<![\p{L}])(?:[b-hj-z]|a(?= \^))(?![\p{L}])/gu)) t.add(m[0].toLowerCase()); // symbols + algebra variables
   return t;
 };
 const ELIM_OPTIONS = /eliminat\w*\s+(?:the\s+)?(?:\w+\s+)?(?:options?|answers?|choices?)|process of elimination|eliminate (?:impossible|unsupported|wrong)/i;
@@ -54,7 +57,7 @@ export function leakReasons(h, q) {
   const out = [];
   if (cn && (cn.length >= 2 || /^\d$/.test(cn)) && has(hn, cn)) out.push(`option text "${correct}"`);
   const stemNums = new Set(nums(q.prompt));
-  const pureNum = /^[\d.\/\s%°a-z²³]*$/i.test(cn.replace(/\b(cm|m|km|kg|g|l|ml|mm|sq|cu|units?|years?|days?|hours?|minutes?|rupees|paise)\b/g, "")) && nums(cn).length === 1;
+  const pureNum = /^-?[\d.\/\s%°]*$/i.test(cn.replace(/\b(cm|m|km|kg|g|l|ml|mm|sq|cu|units?|years?|days?|hours?|minutes?|rupees|paise)\b[²³]?/g, "")) && nums(cn).length === 1;
   const others = q.options.filter((o) => o.id !== q.answerId).map((o) => new Set(nums(o.text)));
   for (const n of nums(correct)) {
     // A number already in the stem, or shared by every wrong option too, gives nothing away.
