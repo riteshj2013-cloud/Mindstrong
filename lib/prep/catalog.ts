@@ -31,6 +31,7 @@ import { g4MathsLargeNumbers } from "./content/g4-maths-large-numbers";
 import { g4MathsMultiplyDivide } from "./content/g4-maths-multiply-divide";
 import { g4MathsFractions } from "./content/g4-maths-fractions";
 import { g4MathsMeasurement } from "./content/g4-maths-measurement";
+import { g4MathsTimeMoney } from "./content/g4-maths-time-money";
 import { g4MathsGeometry } from "./content/g4-maths-geometry";
 import { g4MathsDataHandling } from "./content/g4-maths-data-handling";
 import { g4EnglishReading } from "./content/g4-english-reading";
@@ -667,6 +668,7 @@ const MATHS: Record<number, ChapterDef[]> = {
     g4MathsMultiplyDivide,
     g4MathsFractions,
     g4MathsMeasurement,
+    g4MathsTimeMoney,
     g4MathsGeometry,
     g4MathsDataHandling,
   ],
