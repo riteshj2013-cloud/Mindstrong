@@ -75,6 +75,33 @@ for (const s of types.ALL_SUBJECTS) for (const g of types.ALL_GRADES) {
   }
 }
 
+/**
+ * Mock papers exactly as served (getMockPaper): each must have pack.paperCount items, no item twice,
+ * and, where a grade has a mock addendum (lib/prep/mocks), end with that closing block in order.
+ * The hint and SVG rules below run on these papers too.
+ */
+const mocks = jiti(path.join(ROOT, "lib/prep/mocks/index.ts"));
+const baseId = (id) => String(id).replace(/^paper-\d+-/, "");
+const servedPapers = [];
+for (const s of types.ALL_SUBJECTS) for (const g of types.ALL_GRADES) {
+  const pack = catalog.getPrepPack(s, g);
+  if (!pack.ready) continue;
+  const paper = prep.getMockPaper(s, g);
+  const where = `paper:${s}-g${g}`;
+  walk(paper, where);
+  servedPapers.push({ where, questions: paper });
+  if (paper.length !== pack.paperCount) {
+    findings.push({ rule: "mock-length", where, text: `${paper.length} items served, paperCount is ${pack.paperCount}` });
+  }
+  const ids = paper.map((q) => baseId(q.id));
+  const dupes = ids.filter((id, i) => ids.indexOf(id) !== i);
+  if (dupes.length) findings.push({ rule: "mock-duplicate-item", where, text: `served twice: ${[...new Set(dupes)].join(", ")}` });
+  const block = mocks.mockBlockFor(s, g).map((q) => q.id);
+  if (block.length && ids.slice(-block.length).join(",") !== block.join(",")) {
+    findings.push({ rule: "mock-block", where, text: `closing block of ${block.length} addendum items is missing or out of order` });
+  }
+}
+
 /** Answer-letter balance: no authored set may have more than 50% of its keys on one letter. */
 for (const { where, questions } of servedSets) {
   const counts = {};
@@ -108,7 +135,7 @@ for (const { where, questions } of servedSets) {
 }
 
 /** Every inline SVG figure needs a meaningful aria-label on its root <svg> (and alt text for the wrapper). */
-for (const { where, questions } of servedSets) {
+for (const { where, questions } of [...servedSets, ...servedPapers]) {
   for (const q of questions) {
     const figs = [["stem", q.figure], ...q.options.map((o) => [`option ${o.id}`, o.figure])];
     for (const [slot, f] of figs) {
@@ -166,7 +193,7 @@ const leakBaseline = new Set(JSON.parse(fs.readFileSync(leakBaselinePath, "utf8"
 const leakSeen = new Set();
 let knownLeaks = 0;
 const hintStats = { bare: 0, ref: 0, equal: 0, contains: 0 };
-for (const { where, questions } of servedSets) {
+for (const { where, questions } of [...servedSets, ...servedPapers]) {
   for (const q of questions) {
     const correct = q.options.find((o) => o.id === q.answerId)?.text ?? "";
     (q.hints ?? []).forEach((h, i) => {
@@ -186,8 +213,8 @@ for (const { where, questions } of servedSets) {
         findings.push({ rule: "hint-is-answer", where: at, text: `${q.id} hint is the correct option: "${h}"` });
       } else if (containsAnswer(h, correct)) {
         hintStats.contains++;
-        leakSeen.add(q.id);
-        if (leakBaseline.has(q.id)) knownLeaks++;
+        leakSeen.add(baseId(q.id));
+        if (leakBaseline.has(baseId(q.id))) knownLeaks++;
         else findings.push({ rule: "hint-contains-answer", where: at, text: `${q.id} hint contains the correct option "${correct}": ${h}` });
       }
     });

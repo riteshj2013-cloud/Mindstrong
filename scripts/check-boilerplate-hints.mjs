@@ -130,21 +130,27 @@ function loadOverlays(sub = "") {
   return map;
 }
 
+/** Authored items: chapter content plus the mock addenda (lib/prep/mocks), which are appended to chapter sets. */
+const CONTENT_DIRS = ["lib/prep/content", "lib/prep/mocks"];
+
 function parseContentQuestions() {
-  const dir = path.join(root, "lib/prep/content");
   const QID = /^\s+id:\s*"(g\d+-[a-z]+-[a-z0-9-]+-[abc]-q\d+)"/gm;
   const out = [];
-  for (const f of fs.readdirSync(dir).filter((n) => n.endsWith(".ts") && n !== "index.ts")) {
-    const text = fs.readFileSync(path.join(dir, f), "utf8");
-    const matches = [...text.matchAll(QID)];
-    for (let i = 0; i < matches.length; i++) {
-      const id = matches[i][1];
-      const start = matches[i].index;
-      const end = i + 1 < matches.length ? matches[i + 1].index : text.length;
-      const block = text.slice(start, end);
-      const hm = block.match(/hints:\s*\[([^\]]*)\]/);
-      const hints = hm ? [...hm[1].matchAll(/"((?:[^"\\]|\\.)*)"/g)].map((x) => x[1].replace(/\\"/g, '"')) : [];
-      out.push({ id, file: f, hints, ctx: itemContext(block) });
+  for (const rel of CONTENT_DIRS) {
+    const dir = path.join(root, rel);
+    if (!fs.existsSync(dir)) continue;
+    for (const f of fs.readdirSync(dir).filter((n) => n.endsWith(".ts") && n !== "index.ts" && n !== "types.ts")) {
+      const text = fs.readFileSync(path.join(dir, f), "utf8");
+      const matches = [...text.matchAll(QID)];
+      for (let i = 0; i < matches.length; i++) {
+        const id = matches[i][1];
+        const start = matches[i].index;
+        const end = i + 1 < matches.length ? matches[i + 1].index : text.length;
+        const block = text.slice(start, end);
+        const hm = block.match(/hints:\s*\[([^\]]*)\]/);
+        const hints = hm ? [...hm[1].matchAll(/"((?:[^"\\]|\\.)*)"/g)].map((x) => x[1].replace(/\\"/g, '"')) : [];
+        out.push({ id, file: f, hints, ctx: itemContext(block) });
+      }
     }
   }
   return out;
