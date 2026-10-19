@@ -1,10 +1,10 @@
 /**
  * Grade 4 English — item-specific hint fixes (ts-ready overlay).
  * Source: app repo commit 8bfc38d (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 195 | hints: 390
- * By category (primary): generic replaced 146 · answer-revealing fixed 0 · shared-hint split 49
+ * Items changed: 196 | hints: 392
+ * By category (primary): generic replaced 146 · answer-revealing fixed 1 · shared-hint split 49
  * Each entry is [hint1 (gentle nudge), hint2 (stronger nudge)]. Neither gives the answer.
- * Merge: these must WIN over G4_ENGLISH_HINTS and over authored question.hints (see README-2026-10-19.md).
+ * Merge: these must WIN over G4_ENGLISH_HINTS and over authored question.hints (fix layer in lib/prep/hints/fixes; see README-2026-10-19.md).
  */
 import type { HintOverlay } from "../types";
 
@@ -197,6 +197,7 @@ export const G4_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-eng-ch05-a-q24": ["Rafi's letter to Grandfather begins with his address and the date.", "After the greeting comes the body; the closing with his name is always last."],
   "g4-eng-ch05-b-q01": ["Read the bold heading under NOTICE in Notice N2.", "The body says what Class 4 must attend and where."],
   "g4-eng-ch05-b-q02": ["Find the weekday names in the body of Notice N2.", "The days come right after the words \"every\"."],
+  "g4-eng-ch05-b-q03": ["Find the line in the notice that tells students what to wear.", "Look for the sentence starting with \"Wear\" just after the 7:30 a.m. timing."],
   "g4-eng-ch05-b-q05": ["Look at the last two lines of Notice N2.", "The name and role at the bottom tell who signed it."],
   "g4-eng-ch05-b-q06": ["A notice body first names the event, here the quiz.", "After the quiz name, give the date and time, then the place in the school."],
   "g4-eng-ch05-b-q07": ["Aisha's letter tells news and then asks Sana something.", "Find what Aisha says about Cubbon Park and what she asks Sana to do in the holidays."],
