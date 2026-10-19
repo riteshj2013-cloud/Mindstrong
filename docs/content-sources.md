@@ -57,6 +57,7 @@ Each retired script starts with a guard that exits with `DEPRECATED: …` unless
 - `g10/emit.py`: G10 emit helpers (used by retired generate_g10_pack.py)
 - `g10/__init__.py`: package marker
 - `g9_pack/emit.py`: G9 emit helpers (used by retired g9_pack/generate.py)
+- `science_pictorial/`: diagram versions of 118 G5/G8/G9 Science items, with SVG helpers (used by live author_g8_science_ch04_06.py and retired author_g5_science_ch04_06.py, g9_pack/generate.py)
 
 ## Adding or reviving a generator
 

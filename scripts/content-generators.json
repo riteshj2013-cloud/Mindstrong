@@ -43,6 +43,7 @@
   "scripts/answer_balance.py": "shared answer-letter balancing helpers",
   "scripts/g10/emit.py": "G10 emit helpers (used by retired generate_g10_pack.py)",
   "scripts/g10/__init__.py": "package marker",
-  "scripts/g9_pack/emit.py": "G9 emit helpers (used by retired g9_pack/generate.py)"
+  "scripts/g9_pack/emit.py": "G9 emit helpers (used by retired g9_pack/generate.py)",
+  "scripts/science_pictorial/__init__.py": "2026-10-19 diagram versions of 118 G5/G8/G9 Science items (data + helpers; imported by author_g5_science_ch04_06.py, author_g8_science_ch04_06.py and g9_pack/generate.py)"
  }
 }

@@ -9,6 +9,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from ingest_lib import REPO, OUT, DOCS, science_sets, lesson_ts, emit_module
+import science_pictorial  # 2026-10-19 diagram versions of chosen items (keeps ids + answer letters)
 
 GRADE_DOCS = DOCS / "grade-8"
 ROOT = REPO  # content lives in this checkout
@@ -22,7 +23,12 @@ def q(stem: str, options: list[str], answer: str, explanation: str) -> dict:
 def fmt_quiz(title: str, items: list[dict]) -> str:
     lines = [f"## {title}", ""]
     for i, item in enumerate(items, 1):
-        lines.append(f"### Q{i}")
+        if item.get("figure"):
+            lines.append(f"### Q{i} · Pictorial")
+            lines.append("**Diagram (SVG):**")
+            lines.append(item["figure"]["markup"])
+        else:
+            lines.append(f"### Q{i}")
         lines.append(f"**Stem:** {item['stem']}")
         lines.append("**Options:**")
         for letter, text in zip("ABCD", item["options"]):
@@ -760,6 +766,18 @@ def patch_file(path: Path, old: str, new: str) -> None:
     print(f"Patched {path}")
 
 
+def override_hints(path: Path, entries: dict[str, list[str]]) -> None:
+    """Rewrite existing overlay lines for the given ids (append_hints skips once a block exists)."""
+    text = path.read_text(encoding="utf-8")
+    n = 0
+    for qid, hints in entries.items():
+        pat = re.compile(r'^(  "%s": ).*,$' % re.escape(qid), re.M)
+        text, k = pat.subn(lambda m: m.group(1) + json.dumps(hints) + ",", text, count=1)
+        n += k
+    path.write_text(text, encoding="utf-8")
+    print(f"Overrode {n} hint overlays in {path}")
+
+
 def append_hints(path: Path, entries: dict[str, list[str]]) -> None:
     text = path.read_text(encoding="utf-8")
     # Insert before closing };
@@ -789,9 +807,11 @@ def main() -> None:
     ch5 = GRADE_DOCS / "science-ch05-sound.md"
     ch6 = GRADE_DOCS / "science-ch06-chemical-effects.md"
 
-    write_chapter(ch4, COMBUSTION_LESSON, COMBUSTION_A, COMBUSTION_B)
-    write_chapter(ch5, SOUND_LESSON, SOUND_A, SOUND_B)
-    write_chapter(ch6, CHEM_LESSON, CHEM_A, CHEM_B)
+    # Pictorial versions are written in final A-D order; the balancer leaves them in place.
+    P = science_pictorial.apply_letter_items
+    write_chapter(ch4, COMBUSTION_LESSON, P("g8-sci-combustion", "a", COMBUSTION_A), P("g8-sci-combustion", "b", COMBUSTION_B))
+    write_chapter(ch5, SOUND_LESSON, P("g8-sci-sound", "a", SOUND_A), P("g8-sci-sound", "b", SOUND_B))
+    write_chapter(ch6, CHEM_LESSON, P("g8-sci-chemfx", "a", CHEM_A), P("g8-sci-chemfx", "b", CHEM_B))
 
     chapters = [
         (
@@ -902,11 +922,16 @@ def main() -> None:
     for md_path, prefix, filename, export, meta, lesson, bank_key in chapters:
         md = md_path.read_text(encoding="utf-8")
         a, b = science_sets(md, prefix)
+        for it in a + b:
+            sp = science_pictorial.spec(it["id"])
+            if sp and (it["answerId"] != sp["answer"] or [o["text"] for o in it["options"]] != sp["options"] or not it.get("figure")):
+                raise SystemExit(f"{it['id']}: pictorial item moved by the balancer")
         if len(a) != 24 or len(b) != 24:
             raise SystemExit(f"{md_path.name}: expected 24+24, got {len(a)}+{len(b)}")
         emit_module(OUT / filename, export, meta, lesson, a, b)
         print(f"Emitted {filename}: {len(a)}+{len(b)}")
         all_hints.update(hints_for(prefix, bank_key))
+        all_hints.update({it["id"]: [science_pictorial.spec(it["id"])["hint"]] for it in a + b if science_pictorial.spec(it["id"])})
 
     # Wire content index
     index_path = OUT / "index.ts"
@@ -953,6 +978,8 @@ def main() -> None:
 
     # Hints
     append_hints(ROOT / "lib/prep/hints/g8-science.ts", all_hints)
+    override_hints(ROOT / "lib/prep/hints/g8-science.ts",
+                   {k: v for k, v in all_hints.items() if science_pictorial.spec(k)})
 
     # Manifest
     man_path = ROOT / "scripts/ingest_manifest.json"

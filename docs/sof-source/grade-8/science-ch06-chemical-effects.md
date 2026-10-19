@@ -129,15 +129,17 @@ D) Alloy
 **Answer:** B
 **Explanation:** Electrolytes contain ions that move when a potential difference is applied.
 
-### Q8
-**Stem:** When electric current passes through copper sulphate solution with copper electrodes, copper is deposited on the —
+### Q8 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="A beaker of blue copper sulphate solution with two copper electrodes joined to a battery. Electrode 1 on the left is joined to the negative terminal; electrode 2 on the right is joined to the positive terminal." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><rect x="92" y="115" width="136" height="78" fill="#93c5fd" stroke="none" stroke-width="1.5" opacity="0.8"/><path d="M90,90 L90,189 Q90,195 96,195 L224,195 Q230,195 230,189 L230,90" fill="none" stroke="#1f2937" stroke-width="2" stroke-linejoin="round"/><rect x="120.0" y="70" width="10" height="110" fill="#d97706" stroke="#1f2937" stroke-width="1.2"/><rect x="190.0" y="70" width="10" height="110" fill="#d97706" stroke="#1f2937" stroke-width="1.2"/><polyline points="125,70 125,30 138,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="195,70 195,30 182,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><rect x="138.0" y="20" width="44" height="20" rx="3" fill="#fef08a" stroke="#1f2937" stroke-width="1.5"/><text x="146.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">−</text><text x="174.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">+</text><text x="117" y="64" font-size="12" text-anchor="end" font-weight="700" fill="#1f2937">electrode 1</text><text x="203" y="64" font-size="12" text-anchor="start" font-weight="700" fill="#1f2937">electrode 2</text><text x="160" y="214" font-size="12" text-anchor="middle" font-weight="500" fill="#1f2937">copper sulphate solution</text></svg>
+**Stem:** In the set-up shown, current passes through copper sulphate solution between two copper electrodes. On which electrode is copper metal deposited?
 **Options:**
-A) Anode only as a gas
-B) Cathode
-C) Battery terminals outside the beaker only
-D) Air above the liquid
-**Answer:** B
-**Explanation:** Positive copper ions move to the negative electrode (cathode) and deposit as metal.
+A) On electrode 2 (+)
+B) On both electrodes equally
+C) On neither; a gas forms instead
+D) On electrode 1 (−)
+**Answer:** D
+**Explanation:** Copper ions in the solution carry a positive charge, so they are attracted to electrode 1, joined to the negative terminal (the cathode), where they deposit as copper metal. Electrode 2, joined to the positive terminal, is the anode: it slowly loses copper into the solution instead.
 
 ### Q9
 **Stem:** The electrode connected to the negative terminal of the battery is the —
@@ -199,25 +201,29 @@ D) Make the can conduct no heat
 **Answer:** B
 **Explanation:** Tin plating protects the iron and helps keep food safer from metal reactions.
 
-### Q15
-**Stem:** An LED can be used in a tester for liquids because it —
+### Q15 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="Two testers dipped in the same lemon juice. Tester 1 uses a torch bulb, which stays dark. Tester 2 uses an LED, which glows." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><rect x="22" y="115" width="116" height="78" fill="#fef08a" stroke="none" stroke-width="1.5" opacity="0.8"/><path d="M20,90 L20,189 Q20,195 26,195 L134,195 Q140,195 140,189 L140,90" fill="none" stroke="#1f2937" stroke-width="2" stroke-linejoin="round"/><rect x="52.0" y="70" width="6" height="110" fill="#9ca3af" stroke="#1f2937" stroke-width="1.2"/><rect x="102.0" y="70" width="6" height="110" fill="#9ca3af" stroke="#1f2937" stroke-width="1.2"/><polyline points="55,70 55,30 58,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="105,70 105,30 102,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><rect x="58.0" y="20" width="44" height="20" rx="3" fill="#fef08a" stroke="#1f2937" stroke-width="1.5"/><text x="66.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">−</text><text x="94.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">+</text><circle cx="80.0" cy="62" r="10" fill="#f1f5f9" stroke="#1f2937" stroke-width="1.5"/><text x="80" y="212" font-size="12" text-anchor="middle" font-weight="600" fill="#1f2937">tester 1: torch bulb</text><rect x="182" y="115" width="116" height="78" fill="#fef08a" stroke="none" stroke-width="1.5" opacity="0.8"/><path d="M180,90 L180,189 Q180,195 186,195 L294,195 Q300,195 300,189 L300,90" fill="none" stroke="#1f2937" stroke-width="2" stroke-linejoin="round"/><rect x="212.0" y="70" width="6" height="110" fill="#9ca3af" stroke="#1f2937" stroke-width="1.2"/><rect x="262.0" y="70" width="6" height="110" fill="#9ca3af" stroke="#1f2937" stroke-width="1.2"/><polyline points="215,70 215,30 218,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="265,70 265,30 262,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><rect x="218.0" y="20" width="44" height="20" rx="3" fill="#fef08a" stroke="#1f2937" stroke-width="1.5"/><text x="226.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">−</text><text x="254.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">+</text><polygon points="233,70 247,70 247,58 240,50 233,58" fill="#f87171" stroke="#1f2937" stroke-width="1.5" stroke-linejoin="round"/><line x1="252.0" y1="58" x2="258.0" y2="58" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/><line x1="228.0" y1="58" x2="222.0" y2="58" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/><line x1="240.0" y1="46" x2="240.0" y2="40" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/><line x1="248.4" y1="49.6" x2="252.6" y2="45.4" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/><line x1="231.6" y1="49.6" x2="227.4" y2="45.4" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/><text x="240" y="212" font-size="12" text-anchor="middle" font-weight="600" fill="#1f2937">tester 2: LED</text></svg>
+**Stem:** The same lemon juice is tested with two testers, as shown. Why does only tester 2 light up?
 **Options:**
-A) Needs a huge current that always melts wires
-B) Glows even with a small current
-C) Works only in vacuum
-D) Produces salt
-**Answer:** B
-**Explanation:** LEDs light with a small current, so they show weak conduction clearly.
+A) The LED needs a huge current
+B) The LED works only in a vacuum
+C) The LED glows even with a small current
+D) The LED makes salt in the juice
+**Answer:** C
+**Explanation:** Lemon juice is a weak conductor, so only a small current flows. That is too little to heat the filament of the torch bulb, but enough to make the LED glow. The LED does not need a huge current; if it did, it would stay dark just like the bulb.
 
-### Q16
-**Stem:** A magnetic compass near a wire can detect current because —
+### Q16 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="Two identical circuits, each a battery, a wire loop and a switch, with a compass lying under one wire of the loop. Switch open: the compass needle points to N. Switch closed: the needle has swung well away from N." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><polyline points="75,40 40,40 40,170 70,170" fill="none" stroke="#1f2937" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><polyline points="105,40 140,40 140,170 110,170" fill="none" stroke="#1f2937" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><rect x="72" y="30" width="36" height="20" rx="3" fill="#fef08a" stroke="#1f2937" stroke-width="1.5"/><line x1="70" y1="170" x2="104" y2="154" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/><circle cx="70" cy="170" r="3" fill="#1f2937" stroke="none" stroke-width="1.5"/><circle cx="110" cy="170" r="3" fill="#1f2937" stroke="none" stroke-width="1.5"/><circle cx="40" cy="105" r="28" fill="#ffffff" stroke="#1f2937" stroke-width="2"/><text x="40" y="74" font-size="11" text-anchor="middle" font-weight="700" fill="#1f2937">N</text><polygon points="40,83 36,105 44,105" fill="#dc2626" stroke="#7f1d1d" stroke-width="1" stroke-linejoin="round"/><polygon points="40,127 36,105 44,105" fill="#cbd5e1" stroke="#475569" stroke-width="1" stroke-linejoin="round"/><line x1="40" y1="70" x2="40" y2="140" stroke="#b45309" stroke-width="2.5" stroke-linecap="round"/><text x="90" y="200" font-size="13" text-anchor="middle" font-weight="700" fill="#1f2937">switch open</text><polyline points="235,40 200,40 200,170 230,170" fill="none" stroke="#1f2937" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><polyline points="265,40 300,40 300,170 270,170" fill="none" stroke="#1f2937" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><rect x="232" y="30" width="36" height="20" rx="3" fill="#fef08a" stroke="#1f2937" stroke-width="1.5"/><line x1="230" y1="170" x2="270" y2="170" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/><circle cx="230" cy="170" r="3" fill="#1f2937" stroke="none" stroke-width="1.5"/><circle cx="270" cy="170" r="3" fill="#1f2937" stroke="none" stroke-width="1.5"/><circle cx="200" cy="105" r="28" fill="#ffffff" stroke="#1f2937" stroke-width="2"/><text x="200" y="74" font-size="11" text-anchor="middle" font-weight="700" fill="#1f2937">N</text><polygon points="219.425,94.6716 198.122,101.468 201.878,108.532" fill="#dc2626" stroke="#7f1d1d" stroke-width="1" stroke-linejoin="round"/><polygon points="180.575,115.328 198.122,101.468 201.878,108.532" fill="#cbd5e1" stroke="#475569" stroke-width="1" stroke-linejoin="round"/><line x1="200" y1="70" x2="200" y2="140" stroke="#b45309" stroke-width="2.5" stroke-linecap="round"/><text x="250" y="200" font-size="13" text-anchor="middle" font-weight="700" fill="#1f2937">switch closed</text></svg>
+**Stem:** A compass sits close to a wire in a circuit. The pictures show the needle with the switch open and with it closed. Why does the needle turn when the switch is closed?
 **Options:**
-A) Current produces a magnetic effect that can deflect the needle
-B) Current produces only smell
-C) Compasses detect sound frequency
-D) Wires always become north poles forever
-**Answer:** A
-**Explanation:** A current-carrying wire has a magnetic field that can move a compass needle.
+A) The current gives off a smell
+B) The compass picks up the sound of the current
+C) The wire becomes a north pole for ever
+D) The current produces a magnetic effect that deflects the needle
+**Answer:** D
+**Explanation:** Closing the switch lets current flow, and a wire carrying a current has a magnetic effect around it, which pushes the compass needle aside. The wire does not become a magnet for ever: when the switch is opened again, the needle swings back to north.
 
 ### Q17
 **Stem:** Which change is a chemical effect of electric current?
@@ -229,25 +235,29 @@ D) A mirror reflecting light
 **Answer:** B
 **Explanation:** Deposition of metal from solution is a chemical change caused by current.
 
-### Q18
-**Stem:** Bubbles of gas at electrodes during electrolysis show that —
+### Q18 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="A beaker of acidified water with two carbon electrodes joined to a battery. Bubbles of gas rise from both electrodes. A thermometer in the water reads 25 degrees Celsius." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><rect x="62" y="115" width="146" height="78" fill="#e0f2fe" stroke="none" stroke-width="1.5" opacity="0.8"/><path d="M60,90 L60,189 Q60,195 66,195 L204,195 Q210,195 210,189 L210,90" fill="none" stroke="#1f2937" stroke-width="2" stroke-linejoin="round"/><rect x="91.0" y="70" width="8" height="110" fill="#374151" stroke="#1f2937" stroke-width="1.2"/><rect x="171.0" y="70" width="8" height="110" fill="#374151" stroke="#1f2937" stroke-width="1.2"/><polyline points="95,70 95,30 113,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="175,70 175,30 157,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><rect x="113.0" y="20" width="44" height="20" rx="3" fill="#fef08a" stroke="#1f2937" stroke-width="1.5"/><text x="121.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">−</text><text x="149.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">+</text><circle cx="89" cy="160" r="2.6" fill="#ffffff" stroke="#475569" stroke-width="0.9"/><circle cx="101" cy="148" r="2.6" fill="#ffffff" stroke="#475569" stroke-width="0.9"/><circle cx="89" cy="136" r="2.6" fill="#ffffff" stroke="#475569" stroke-width="0.9"/><circle cx="101" cy="124" r="2.6" fill="#ffffff" stroke="#475569" stroke-width="0.9"/><circle cx="89" cy="112" r="2.6" fill="#ffffff" stroke="#475569" stroke-width="0.9"/><circle cx="169" cy="160" r="2.6" fill="#ffffff" stroke="#475569" stroke-width="0.9"/><circle cx="181" cy="148" r="2.6" fill="#ffffff" stroke="#475569" stroke-width="0.9"/><circle cx="169" cy="136" r="2.6" fill="#ffffff" stroke="#475569" stroke-width="0.9"/><circle cx="181" cy="124" r="2.6" fill="#ffffff" stroke="#475569" stroke-width="0.9"/><circle cx="169" cy="112" r="2.6" fill="#ffffff" stroke="#475569" stroke-width="0.9"/><rect x="131" y="95" width="8" height="80" rx="4" fill="#ffffff" stroke="#1f2937" stroke-width="1.2"/><circle cx="135" cy="179" r="7" fill="#dc2626" stroke="#1f2937" stroke-width="1.2"/><rect x="133" y="145" width="4" height="32" fill="#dc2626" stroke="none" stroke-width="1.5"/><text x="135" y="87" font-size="12" text-anchor="middle" font-weight="700" fill="#1f2937">25 °C</text><text x="135" y="214" font-size="12" text-anchor="middle" font-weight="500" fill="#1f2937">acidified water</text></svg>
+**Stem:** Current is passed through acidified water, as shown. What do the bubbles at the electrodes show?
 **Options:**
-A) No chemical change occurred
-B) A chemical change produced gases from the liquid or solute
-C) The liquid became a permanent magnet
-D) Sound turned into light
+A) No chemical change has taken place
+B) A chemical change has made new gases from the liquid
+C) The liquid has become a magnet
+D) The water is simply boiling
 **Answer:** B
-**Explanation:** Gas evolution means new substances formed — a chemical effect of current.
+**Explanation:** New gases (hydrogen and oxygen) are forming at the electrodes, which shows that the current has caused a chemical change. The water is not boiling: the thermometer shows it is still at 25 °C.
 
-### Q19
-**Stem:** Tap water usually conducts better than distilled water because tap water —
+### Q19 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="Two beakers with the same LED tester. Beaker 1 holds tap water and the LED glows. Beaker 2 holds distilled water and the LED stays dark." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><rect x="22" y="115" width="116" height="78" fill="#bfdbfe" stroke="none" stroke-width="1.5" opacity="0.8"/><path d="M20,90 L20,189 Q20,195 26,195 L134,195 Q140,195 140,189 L140,90" fill="none" stroke="#1f2937" stroke-width="2" stroke-linejoin="round"/><rect x="52.0" y="70" width="6" height="110" fill="#9ca3af" stroke="#1f2937" stroke-width="1.2"/><rect x="102.0" y="70" width="6" height="110" fill="#9ca3af" stroke="#1f2937" stroke-width="1.2"/><polyline points="55,70 55,30 58,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="105,70 105,30 102,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><rect x="58.0" y="20" width="44" height="20" rx="3" fill="#fef08a" stroke="#1f2937" stroke-width="1.5"/><text x="66.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">−</text><text x="94.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">+</text><polygon points="73,70 87,70 87,58 80,50 73,58" fill="#f87171" stroke="#1f2937" stroke-width="1.5" stroke-linejoin="round"/><line x1="92.0" y1="58" x2="98.0" y2="58" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/><line x1="68.0" y1="58" x2="62.0" y2="58" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/><line x1="80.0" y1="46" x2="80.0" y2="40" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/><line x1="88.4" y1="49.6" x2="92.6" y2="45.4" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/><line x1="71.6" y1="49.6" x2="67.4" y2="45.4" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/><text x="80" y="212" font-size="12" text-anchor="middle" font-weight="600" fill="#1f2937">beaker 1: tap water</text><rect x="182" y="115" width="116" height="78" fill="#f0f9ff" stroke="none" stroke-width="1.5" opacity="0.8"/><path d="M180,90 L180,189 Q180,195 186,195 L294,195 Q300,195 300,189 L300,90" fill="none" stroke="#1f2937" stroke-width="2" stroke-linejoin="round"/><rect x="212.0" y="70" width="6" height="110" fill="#9ca3af" stroke="#1f2937" stroke-width="1.2"/><rect x="262.0" y="70" width="6" height="110" fill="#9ca3af" stroke="#1f2937" stroke-width="1.2"/><polyline points="215,70 215,30 218,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="265,70 265,30 262,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><rect x="218.0" y="20" width="44" height="20" rx="3" fill="#fef08a" stroke="#1f2937" stroke-width="1.5"/><text x="226.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">−</text><text x="254.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">+</text><polygon points="233,70 247,70 247,58 240,50 233,58" fill="#f1f5f9" stroke="#1f2937" stroke-width="1.5" stroke-linejoin="round"/><text x="240" y="212" font-size="12" text-anchor="middle" font-weight="600" fill="#1f2937">beaker 2: distilled water</text></svg>
+**Stem:** The same tester is dipped into two kinds of water, as shown. Why does it glow in beaker 1 but not in beaker 2?
 **Options:**
-A) Is pure H2O with zero ions
-B) Contains dissolved salts and minerals that provide ions
-C) Is an oil mixture
-D) Has no oxygen atoms
-**Answer:** B
-**Explanation:** Dissolved impurities supply ions that carry current.
+A) Tap water is pure water with no ions
+B) Tap water is an oil mixture
+C) Tap water contains dissolved salts that provide ions
+D) Tap water has no oxygen atoms
+**Answer:** C
+**Explanation:** Tap water has small amounts of dissolved salts and minerals, and their ions carry the current, so the LED glows. Distilled water is almost pure and has very few ions, so it hardly conducts. Pure water with no ions describes the distilled water in beaker 2, not tap water.
 
 ### Q20
 **Stem:** Honey is generally a —
@@ -269,15 +279,17 @@ D) They produce only music
 **Answer:** B
 **Explanation:** Carbon (graphite) conducts and does not react as readily as some metals in simple demos.
 
-### Q22
-**Stem:** Electrolytic refining of copper uses electric current to —
+### Q22 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="A tank of copper sulphate solution. On the left, a thin sheet of copper joined to the negative terminal. On the right, a thick block of impure copper joined to the positive terminal, with sludge collecting beneath it." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><rect x="72" y="115" width="176" height="78" fill="#93c5fd" stroke="none" stroke-width="1.5" opacity="0.8"/><path d="M70,90 L70,189 Q70,195 76,195 L244,195 Q250,195 250,189 L250,90" fill="none" stroke="#1f2937" stroke-width="2" stroke-linejoin="round"/><rect x="102.5" y="70" width="5" height="110" fill="#f59e0b" stroke="#1f2937" stroke-width="1.2"/><rect x="202.0" y="70" width="26" height="110" fill="#a16207" stroke="#1f2937" stroke-width="1.2"/><polyline points="105,70 105,30 138,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="215,70 215,30 182,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><rect x="138.0" y="20" width="44" height="20" rx="3" fill="#fef08a" stroke="#1f2937" stroke-width="1.5"/><text x="146.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">−</text><text x="174.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">+</text><text x="97" y="64" font-size="12" text-anchor="end" font-weight="700" fill="#1f2937">thin sheet</text><text x="223" y="64" font-size="12" text-anchor="start" font-weight="700" fill="#1f2937">thick block</text><circle cx="205" cy="190" r="3" fill="#57534e" stroke="none" stroke-width="1.5"/><circle cx="214" cy="187" r="3" fill="#57534e" stroke="none" stroke-width="1.5"/><circle cx="223" cy="190" r="3" fill="#57534e" stroke="none" stroke-width="1.5"/><circle cx="232" cy="187" r="3" fill="#57534e" stroke="none" stroke-width="1.5"/><circle cx="241" cy="190" r="3" fill="#57534e" stroke="none" stroke-width="1.5"/><text x="160" y="214" font-size="11" text-anchor="middle" font-weight="500" fill="#1f2937">copper sulphate solution, sludge under the block</text></svg>
+**Stem:** The picture shows copper being refined using electricity. What does this process achieve?
 **Options:**
-A) Make copper more impure
-B) Obtain purer copper by depositing it on the cathode
-C) Turn copper into plastic
-D) Remove all electrons from atoms forever
+A) It makes the copper more impure
+B) It gives purer copper, deposited on the thin sheet (cathode)
+C) It turns copper into plastic
+D) It removes all electrons from the atoms
 **Answer:** B
-**Explanation:** Pure copper plates out on the cathode from a copper salt solution.
+**Explanation:** The thick block of impure copper, joined to the positive terminal, slowly dissolves, and pure copper is deposited on the thin sheet joined to the negative terminal; the impurities fall to the bottom as sludge. It does not make the copper more impure: the impurities are left behind in the sludge.
 
 ### Q23
 **Stem:** If the LED in a liquid tester does not glow and the compass shows no deflection, the liquid is likely —
@@ -310,15 +322,17 @@ D) Dry air
 **Answer:** B
 **Explanation:** A strong salt solution has many ions and conducts well compared with distilled water or oil.
 
-### Q2
-**Stem:** When current flows in copper sulphate solution, Cu2+ ions move toward the —
+### Q2 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="A beaker of copper sulphate solution with two electrodes, P and Q, joined to a battery. P is joined to the negative terminal and Q to the positive terminal." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><rect x="92" y="115" width="136" height="78" fill="#93c5fd" stroke="none" stroke-width="1.5" opacity="0.8"/><path d="M90,90 L90,189 Q90,195 96,195 L224,195 Q230,195 230,189 L230,90" fill="none" stroke="#1f2937" stroke-width="2" stroke-linejoin="round"/><rect x="120.0" y="70" width="10" height="110" fill="#d97706" stroke="#1f2937" stroke-width="1.2"/><rect x="190.0" y="70" width="10" height="110" fill="#d97706" stroke="#1f2937" stroke-width="1.2"/><polyline points="125,70 125,30 138,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="195,70 195,30 182,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><rect x="138.0" y="20" width="44" height="20" rx="3" fill="#fef08a" stroke="#1f2937" stroke-width="1.5"/><text x="146.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">−</text><text x="174.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">+</text><text x="117" y="64" font-size="12" text-anchor="end" font-weight="700" fill="#1f2937">P</text><text x="203" y="64" font-size="12" text-anchor="start" font-weight="700" fill="#1f2937">Q</text><text x="160" y="214" font-size="12" text-anchor="middle" font-weight="500" fill="#1f2937">copper sulphate solution</text></svg>
+**Stem:** Copper sulphate solution contains positive copper ions (Cu2+). In the set-up shown, towards which electrode do these ions move?
 **Options:**
-A) Anode
-B) Cathode
-C) Open air only
-D) Plastic beaker wall only
+A) Electrode Q, the anode
+B) Electrode P, the cathode
+C) Neither electrode
+D) The beaker wall
 **Answer:** B
-**Explanation:** Positive ions are attracted to the negative cathode.
+**Explanation:** The Cu2+ ions are positive, so they move towards electrode P, which is joined to the negative terminal (the cathode). Electrode Q is joined to the positive terminal, and like charges repel, so positive ions move away from it, not towards it.
 
 ### Q3
 **Stem:** Negatively charged ions in an electrolyte move toward the —
@@ -340,15 +354,17 @@ D) Vacuum and sunlight only
 **Answer:** B
 **Explanation:** You need a conducting solution, electrodes, and current for plating.
 
-### Q5
-**Stem:** To nickel-plate an iron key, a suitable arrangement is —
+### Q5 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="A battery with two wires ending in clips: clip X on the negative terminal and clip Y on the positive terminal. Beside it are an iron key, a nickel plate and a beaker of nickel sulphate solution." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><rect x="130" y="20" width="60" height="24" rx="3" fill="#fef08a" stroke="#1f2937" stroke-width="1.5"/><text x="142" y="37" font-size="14" text-anchor="middle" font-weight="800" fill="#1f2937">−</text><text x="178" y="37" font-size="14" text-anchor="middle" font-weight="800" fill="#1f2937">+</text><polyline points="130,32 70,32 70,70" fill="none" stroke="#1f2937" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/><polyline points="190,32 250,32 250,70" fill="none" stroke="#1f2937" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/><rect x="63" y="70" width="14" height="10" fill="#475569" stroke="#1f2937" stroke-width="1"/><rect x="243" y="70" width="14" height="10" fill="#475569" stroke="#1f2937" stroke-width="1"/><text x="56" y="80" font-size="12" text-anchor="end" font-weight="700" fill="#1f2937">clip X</text><text x="264" y="80" font-size="12" text-anchor="start" font-weight="700" fill="#1f2937">clip Y</text><rect x="112" y="135" width="96" height="63" fill="#86efac" stroke="none" stroke-width="1.5" opacity="0.8"/><path d="M110,110 L110,194 Q110,200 116,200 L204,200 Q210,200 210,194 L210,110" fill="none" stroke="#1f2937" stroke-width="2" stroke-linejoin="round"/><text x="160" y="214" font-size="12" text-anchor="middle" font-weight="500" fill="#1f2937">nickel sulphate solution</text><circle cx="40" cy="150" r="10" fill="#ffffff" stroke="#6b7280" stroke-width="4"/><rect x="48" y="147" width="30" height="6" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/><rect x="68" y="153" width="4" height="6" fill="#9ca3af" stroke="none" stroke-width="1.5"/><text x="50" y="180" font-size="12" text-anchor="middle" font-weight="600" fill="#1f2937">iron key</text><rect x="250" y="130" width="30" height="50" fill="#d1d5db" stroke="#6b7280" stroke-width="1.5"/><text x="265" y="196" font-size="12" text-anchor="middle" font-weight="600" fill="#1f2937">nickel plate</text></svg>
+**Stem:** Priya wants to nickel-plate the iron key using the set-up shown. Which arrangement is correct?
 **Options:**
-A) Key as anode in distilled oil
-B) Key as cathode in a nickel salt solution with a nickel anode
-C) Key disconnected from the circuit
-D) Key as a fuse in open air only
-**Answer:** B
-**Explanation:** The key (cathode) receives nickel ions from the solution; nickel metal can supply the anode.
+A) Key on clip X (−), nickel plate on clip Y (+)
+B) Key on clip Y (+), nickel plate on clip X (−)
+C) Key in the solution, not joined to any clip
+D) Key and nickel plate both on clip Y (+)
+**Answer:** A
+**Explanation:** The object to be plated must be the cathode, joined to the negative terminal, so the key goes on clip X; nickel ions from the solution then deposit on it. The nickel plate goes on clip Y and slowly dissolves to replace the ions. With the key on clip Y (+), the key itself would be eaten away instead of being coated.
 
 ### Q6
 **Stem:** One reason spoons are electroplated with silver or chromium is to —
@@ -430,15 +446,17 @@ D) They never use electric current
 **Answer:** B
 **Explanation:** Real plating chemicals can be toxic; schools use safer demos and stress safety.
 
-### Q14
-**Stem:** If you reverse the battery connections in a simple copper-plating demo —
+### Q14 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="Two copper-plating set-ups with plates P and Q in copper sulphate solution. In set-up 1, P is joined to the negative terminal and Q to the positive. In set-up 2 the battery is turned round, so P is joined to the positive terminal and Q to the negative." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><rect x="17" y="115" width="121" height="78" fill="#93c5fd" stroke="none" stroke-width="1.5" opacity="0.8"/><path d="M15,90 L15,189 Q15,195 21,195 L134,195 Q140,195 140,189 L140,90" fill="none" stroke="#1f2937" stroke-width="2" stroke-linejoin="round"/><rect x="45.0" y="70" width="10" height="110" fill="#d97706" stroke="#1f2937" stroke-width="1.2"/><rect x="100.0" y="70" width="10" height="110" fill="#d97706" stroke="#1f2937" stroke-width="1.2"/><polyline points="50,70 50,30 55.5,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="105,70 105,30 99.5,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><rect x="55.5" y="20" width="44" height="20" rx="3" fill="#fef08a" stroke="#1f2937" stroke-width="1.5"/><text x="63.5" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">−</text><text x="91.5" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">+</text><text x="42" y="64" font-size="12" text-anchor="end" font-weight="700" fill="#1f2937">P</text><text x="113" y="64" font-size="12" text-anchor="start" font-weight="700" fill="#1f2937">Q</text><rect x="182" y="115" width="121" height="78" fill="#93c5fd" stroke="none" stroke-width="1.5" opacity="0.8"/><path d="M180,90 L180,189 Q180,195 186,195 L299,195 Q305,195 305,189 L305,90" fill="none" stroke="#1f2937" stroke-width="2" stroke-linejoin="round"/><rect x="210.0" y="70" width="10" height="110" fill="#d97706" stroke="#1f2937" stroke-width="1.2"/><rect x="265.0" y="70" width="10" height="110" fill="#d97706" stroke="#1f2937" stroke-width="1.2"/><polyline points="215,70 215,30 220.5,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="270,70 270,30 264.5,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><rect x="220.5" y="20" width="44" height="20" rx="3" fill="#fef08a" stroke="#1f2937" stroke-width="1.5"/><text x="228.5" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">+</text><text x="256.5" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">−</text><text x="207" y="64" font-size="12" text-anchor="end" font-weight="700" fill="#1f2937">P</text><text x="278" y="64" font-size="12" text-anchor="start" font-weight="700" fill="#1f2937">Q</text><text x="78" y="214" font-size="13" text-anchor="middle" font-weight="700" fill="#1f2937">set-up 1</text><text x="242" y="214" font-size="13" text-anchor="middle" font-weight="700" fill="#1f2937">set-up 2</text></svg>
+**Stem:** In set-up 1, copper is deposited on plate P. In set-up 2, the battery has been turned round, as shown. What happens now?
 **Options:**
-A) The roles of electrodes reverse and deposition switches sides
-B) Copper starts floating as a gas in air permanently
-C) The solution becomes an insulator instantly forever
-D) Frequency of sound doubles
-**Answer:** A
-**Explanation:** Reversing polarity swaps which electrode is cathode, so deposition moves.
+A) Copper turns into a gas
+B) The roles of the plates swap, and copper deposits on plate Q
+C) The solution stops conducting
+D) Copper still deposits on plate P
+**Answer:** B
+**Explanation:** Turning the battery round makes plate Q the one joined to the negative terminal, so it becomes the cathode; copper ions are now attracted to Q and deposit there. Copper does not keep depositing on P, because P is now joined to the positive terminal.
 
 ### Q15
 **Stem:** Which everyday object is commonly protected by electroplating?
@@ -450,15 +468,17 @@ D) A glass window pane with no metal
 **Answer:** B
 **Explanation:** Metal taps and fittings are often chrome-plated for shine and rust resistance.
 
-### Q16
-**Stem:** A tester bulb glows brightly in copper sulphate solution but stays dark in oil. This comparison shows —
+### Q16 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="The same bulb tester in two beakers. In blue copper sulphate solution the bulb glows brightly. In yellow cooking oil the bulb stays dark." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><rect x="22" y="115" width="116" height="78" fill="#60a5fa" stroke="none" stroke-width="1.5" opacity="0.8"/><path d="M20,90 L20,189 Q20,195 26,195 L134,195 Q140,195 140,189 L140,90" fill="none" stroke="#1f2937" stroke-width="2" stroke-linejoin="round"/><rect x="52.0" y="70" width="6" height="110" fill="#9ca3af" stroke="#1f2937" stroke-width="1.2"/><rect x="102.0" y="70" width="6" height="110" fill="#9ca3af" stroke="#1f2937" stroke-width="1.2"/><polyline points="55,70 55,30 58,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="105,70 105,30 102,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><rect x="58.0" y="20" width="44" height="20" rx="3" fill="#fef08a" stroke="#1f2937" stroke-width="1.5"/><text x="66.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">−</text><text x="94.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">+</text><circle cx="80.0" cy="62" r="10" fill="#fde047" stroke="#1f2937" stroke-width="1.5"/><line x1="94.0" y1="62" x2="100.0" y2="62" stroke="#eab308" stroke-width="2" stroke-linecap="round"/><line x1="66.0" y1="62" x2="60.0" y2="62" stroke="#eab308" stroke-width="2" stroke-linecap="round"/><line x1="80.0" y1="48" x2="80.0" y2="42" stroke="#eab308" stroke-width="2" stroke-linecap="round"/><line x1="89.8" y1="52.2" x2="94.0" y2="48.0" stroke="#eab308" stroke-width="2" stroke-linecap="round"/><line x1="70.2" y1="52.2" x2="66.0" y2="48.0" stroke="#eab308" stroke-width="2" stroke-linecap="round"/><text x="80" y="212" font-size="12" text-anchor="middle" font-weight="600" fill="#1f2937">copper sulphate solution</text><rect x="182" y="115" width="116" height="78" fill="#fde68a" stroke="none" stroke-width="1.5" opacity="0.8"/><path d="M180,90 L180,189 Q180,195 186,195 L294,195 Q300,195 300,189 L300,90" fill="none" stroke="#1f2937" stroke-width="2" stroke-linejoin="round"/><rect x="212.0" y="70" width="6" height="110" fill="#9ca3af" stroke="#1f2937" stroke-width="1.2"/><rect x="262.0" y="70" width="6" height="110" fill="#9ca3af" stroke="#1f2937" stroke-width="1.2"/><polyline points="215,70 215,30 218,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="265,70 265,30 262,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><rect x="218.0" y="20" width="44" height="20" rx="3" fill="#fef08a" stroke="#1f2937" stroke-width="1.5"/><text x="226.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">−</text><text x="254.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">+</text><circle cx="240.0" cy="62" r="10" fill="#f1f5f9" stroke="#1f2937" stroke-width="1.5"/><text x="240" y="212" font-size="12" text-anchor="middle" font-weight="600" fill="#1f2937">cooking oil</text></svg>
+**Stem:** A tester is placed first in copper sulphate solution and then in cooking oil. What do the results shown tell you?
 **Options:**
-A) Oil is the better electrolyte
-B) Copper sulphate solution conducts and oil does not (under the test)
-C) Both liquids are identical conductors
-D) Oil has more Cu2+ ions
-**Answer:** B
-**Explanation:** Brightness indicates conduction; oil fails the test.
+A) Oil is the better conductor
+B) Both liquids conduct equally
+C) Oil contains more copper ions
+D) Copper sulphate solution conducts but oil does not
+**Answer:** D
+**Explanation:** The bulb glows brightly in copper sulphate solution, so current flows through it. In oil the bulb stays dark, so oil does not conduct. Both liquids conducting equally cannot be right, because the bulb behaves so differently in the two.
 
 ### Q17
 **Stem:** Chemical effects of current are the basis of —
@@ -480,15 +500,17 @@ D) Mixing it with more oil
 **Answer:** B
 **Explanation:** Added electrolytes supply charge carriers.
 
-### Q19
-**Stem:** In electroplating, the electrolyte should contain —
+### Q19 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="A beaker with an unknown liquid, marked with a question mark. A spoon is joined to the negative terminal of a battery and a silver plate to the positive terminal." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><rect x="92" y="115" width="136" height="78" fill="#f1f5f9" stroke="none" stroke-width="1.5" opacity="0.8"/><path d="M90,90 L90,189 Q90,195 96,195 L224,195 Q230,195 230,189 L230,90" fill="none" stroke="#1f2937" stroke-width="2" stroke-linejoin="round"/><rect x="121.0" y="70" width="8" height="110" fill="#e5e7eb" stroke="#1f2937" stroke-width="1.2"/><rect x="187.0" y="70" width="16" height="110" fill="#cbd5e1" stroke="#1f2937" stroke-width="1.2"/><polyline points="125,70 125,30 138,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="195,70 195,30 182,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><rect x="138.0" y="20" width="44" height="20" rx="3" fill="#fef08a" stroke="#1f2937" stroke-width="1.5"/><text x="146.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">−</text><text x="174.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">+</text><text x="117" y="64" font-size="12" text-anchor="end" font-weight="700" fill="#1f2937">spoon</text><text x="203" y="64" font-size="12" text-anchor="start" font-weight="700" fill="#1f2937">silver plate</text><text x="160" y="150" font-size="26" text-anchor="middle" font-weight="700" fill="#dc2626">?</text></svg>
+**Stem:** A spoon is to be silver-plated using the set-up shown. What liquid should the beaker contain?
 **Options:**
-A) Ions of the metal to be deposited
-B) Only pure oil
-C) Only sand
-D) Only nitrogen gas bubbles with no liquid
-**Answer:** A
-**Explanation:** Metal ions in solution are what deposit onto the cathode.
+A) Cooking oil
+B) Distilled water
+C) A solution of a silver salt
+D) Sugar solution
+**Answer:** C
+**Explanation:** The silver that coats the spoon comes from silver ions in the liquid, so the electrolyte must be a solution of a silver salt, with a silver plate as the other electrode. Distilled water has almost no ions, so it would hardly conduct and has no silver to deposit.
 
 ### Q20
 **Stem:** Why might a factory electroplate zinc onto iron (galvanising-related protection ideas)?
@@ -520,15 +542,17 @@ D) Electrolyte — perfect vacuum
 **Answer:** C
 **Explanation:** In electrolytic cells for these lessons, cathode is negative and anode is positive.
 
-### Q23
-**Stem:** Passing current through acidified water can produce hydrogen and oxygen gases. This shows —
+### Q23 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="Two upside-down test tubes, first filled with water, stand over the electrodes in a beaker of acidified water joined to a battery. Tube 1 has collected twice as much gas as tube 2." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><rect x="72" y="115" width="176" height="78" fill="#e0f2fe" stroke="none" stroke-width="1.5" opacity="0.8"/><path d="M70,90 L70,189 Q70,195 76,195 L244,195 Q250,195 250,189 L250,90" fill="none" stroke="#1f2937" stroke-width="2" stroke-linejoin="round"/><rect x="102.0" y="70" width="6" height="110" fill="#374151" stroke="#1f2937" stroke-width="1.2"/><rect x="212.0" y="70" width="6" height="110" fill="#374151" stroke="#1f2937" stroke-width="1.2"/><polyline points="105,70 105,30 138,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="215,70 215,30 182,30" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><rect x="138.0" y="20" width="44" height="20" rx="3" fill="#fef08a" stroke="#1f2937" stroke-width="1.5"/><text x="146.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">−</text><text x="174.0" y="35" font-size="13" text-anchor="middle" font-weight="800" fill="#1f2937">+</text><circle cx="99" cy="160" r="2.6" fill="#ffffff" stroke="#475569" stroke-width="0.9"/><circle cx="111" cy="148" r="2.6" fill="#ffffff" stroke="#475569" stroke-width="0.9"/><circle cx="99" cy="136" r="2.6" fill="#ffffff" stroke="#475569" stroke-width="0.9"/><circle cx="111" cy="124" r="2.6" fill="#ffffff" stroke="#475569" stroke-width="0.9"/><circle cx="99" cy="112" r="2.6" fill="#ffffff" stroke="#475569" stroke-width="0.9"/><circle cx="209" cy="160" r="2.6" fill="#ffffff" stroke="#475569" stroke-width="0.9"/><circle cx="221" cy="148" r="2.6" fill="#ffffff" stroke="#475569" stroke-width="0.9"/><circle cx="209" cy="136" r="2.6" fill="#ffffff" stroke="#475569" stroke-width="0.9"/><circle cx="221" cy="124" r="2.6" fill="#ffffff" stroke="#475569" stroke-width="0.9"/><circle cx="209" cy="112" r="2.6" fill="#ffffff" stroke="#475569" stroke-width="0.9"/><rect x="92" y="55" width="26" height="120" rx="10" fill="#e0f2fe" stroke="#1f2937" stroke-width="1.6"/><rect x="94" y="57" width="22" height="64" rx="9" fill="#ffffff" stroke="none" stroke-width="1.5"/><rect x="202" y="55" width="26" height="120" rx="10" fill="#e0f2fe" stroke="#1f2937" stroke-width="1.6"/><rect x="204" y="57" width="22" height="32" rx="9" fill="#ffffff" stroke="none" stroke-width="1.5"/><text x="80" y="100" font-size="15" text-anchor="end" font-weight="700" fill="#1f2937">1</text><text x="240" y="80" font-size="15" text-anchor="start" font-weight="700" fill="#1f2937">2</text><text x="160" y="214" font-size="12" text-anchor="middle" font-weight="500" fill="#1f2937">acidified water</text></svg>
+**Stem:** Current is passed through acidified water in the apparatus shown. Gas collects in both tubes. What does this show?
 **Options:**
 A) Water is an element that cannot change
-B) Electric current can cause chemical decomposition
-C) Gases are only illusions
-D) Acid removes all electricity
-**Answer:** B
-**Explanation:** Electrolysis splits water (helped by acid) into hydrogen and oxygen — a chemical effect.
+B) The gas is only trapped air
+C) The current breaks water down into new substances
+D) The acid removes all electricity
+**Answer:** C
+**Explanation:** One tube collects hydrogen and the other oxygen, about 2 : 1 by volume, so the current has broken water down into new substances: a chemical effect of current. It cannot be trapped air: the tubes started full of water, and air would not appear in a 2 : 1 ratio.
 
 ### Q24
 **Stem:** The main idea of this chapter is that electric current in liquids can —

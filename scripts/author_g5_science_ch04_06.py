@@ -20,6 +20,7 @@ import json, re, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from ingest_lib import DOCS, OUT, lesson_ts, emit_module, sanitize_svg
+import science_pictorial  # 2026-10-19 diagram versions of chosen items (keeps ids + answer letters)
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -713,7 +714,7 @@ def build_ch5():
         Q("A door knob is a simple machine closest to a —",
           ["wedge splitting wood", "fixed pulley on a well", "lever see-saw only", "wheel and axle"], "D",
           "Turning the knob (wheel) turns a shaft (axle) that pulls the latch — wheel and axle.", H_wheel),
-        Q("Which statement is true?",
+        Q("Which statement about forces is true?",
           ["Forces cannot change direction of motion", "Friction always helps sliding with zero grip needed", "Magnets attract all plastics", "A force can change an object's speed or direction"], "D",
           "Forces can speed up, slow down, or turn objects. Magnets do not attract ordinary plastics.", H_force),
         Q("Why do we use a crowbar to lift a heavy lid?",
@@ -1155,7 +1156,7 @@ CHAPTERS = [
                  tts="Melting and freezing can reverse. Burning usually cannot give the paper back.",
                  interaction="Tap reversible or irreversible for five everyday changes."),
         ],
-        pict="Visual items include transparency sheets, dissolving beakers, filtration, circuit gap, sink/float tank, and change-of-state arrows. SVGs are original, viewBox 0 0 320 220, no blank lines inside svg.",
+        pict="Visual items include transparency sheets, dissolving beakers, filtration, circuit gap, sink/float tank, and change-of-state arrows; also settling jars, a sieve over a bowl, two liquid layers, spoons in hot water, a sponge close-up, an evaporating dish and a magnet over iron and sulphur. SVGs are original, viewBox 0 0 320 220, no blank lines inside svg.",
         chapter_meta={
             "id": "matter-materials",
             "title": "Matter and Materials",
@@ -1211,7 +1212,7 @@ CHAPTERS = [
                  tts="Wheels reduce scraping. A screw is a ramp around a rod. A wedge splits materials apart.",
                  interaction="Match each tool photo to its simple machine name."),
         ],
-        pict="Visual items include force scenes P–S, see-saw lever, fixed pulley, ramp versus lift, wheel cart, and axe wedge. Grade 5 depth only — no pascal calculations.",
+        pict="Visual items include force scenes P–S, see-saw lever, fixed pulley, ramp versus lift, wheel cart, axe wedge, a paper triangle wound into a screw, and slide distances on four surfaces. Grade 5 depth only — no pascal calculations.",
         chapter_meta={
             "id": "force-machines",
             "title": "Force and Simple Machines",
@@ -1267,7 +1268,7 @@ CHAPTERS = [
                  tts="Forests give oxygen and homes. Sun and wind can power us with less smoke than coal.",
                  interaction="Choose the greener energy card and one forest-care action."),
         ],
-        pict="Visual items include resource cards P–S, pollution scene A/B, 3 R bins, forest versus cleared hill, energy sources P–R, and water-cycle arrows.",
+        pict="Visual items include resource cards P–S, pollution scene A/B, 3 R bins, forest versus cleared hill, energy sources P–R, water-cycle arrows, and a home compost loop.",
         chapter_meta={
             "id": "environment-resources",
             "title": "Our Environment and Natural Resources",
@@ -1330,6 +1331,8 @@ def main():
     total_fig = 0
     for ch in CHAPTERS:
         set_a, set_b = ch["builder"]()
+        set_a = science_pictorial.apply_q_list(ch["prefix"], "a", set_a)
+        set_b = science_pictorial.apply_q_list(ch["prefix"], "b", set_b)
         write_md(
             docs / ch["doc"],
             ch["title"],

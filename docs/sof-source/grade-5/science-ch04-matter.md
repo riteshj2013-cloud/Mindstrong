@@ -7,7 +7,7 @@
 - Source basis: NCERT Class 5 EVS / typical olympiad themes (original items only)
 
 ## Pictorial notes
-Visual items include transparency sheets, dissolving beakers, filtration, circuit gap, sink/float tank, and change-of-state arrows. SVGs are original, viewBox 0 0 320 220, no blank lines inside svg.
+Visual items include transparency sheets, dissolving beakers, filtration, circuit gap, sink/float tank, and change-of-state arrows; also settling jars, a sieve over a bowl, two liquid layers, spoons in hot water, a sponge close-up, an evaporating dish and a magnet over iron and sulphur. SVGs are original, viewBox 0 0 320 220, no blank lines inside svg.
 
 ## Learning objectives
 - Explain that matter takes up space and has mass, and sort everyday materials by useful properties.
@@ -268,15 +268,17 @@ D) using only a large-hole sieve
 **Answer:** B
 **Explanation:** Iron is magnetic, so a magnet pulls the nails out of the sand. Filtration needs a liquid mixture.
 
-### Q12
-**Stem:** Sand does not dissolve in water. After stirring and waiting, sand settles at the bottom. This settling is called —
+### Q12 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="Two jars of water with the same water level. Jar 1, just after stirring, is evenly cloudy brown. Jar 2, one hour later, has clear water above a layer of sand at the bottom." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><rect x="37" y="62" width="86" height="108" fill="#d6b48a" stroke="none" stroke-width="1.5" opacity="0.75"/><circle cx="48" cy="92" r="1.8" fill="#a16207" stroke="none" stroke-width="1.5"/><circle cx="70" cy="110" r="1.8" fill="#a16207" stroke="none" stroke-width="1.5"/><circle cx="90" cy="84" r="1.8" fill="#a16207" stroke="none" stroke-width="1.5"/><circle cx="58" cy="130" r="1.8" fill="#a16207" stroke="none" stroke-width="1.5"/><circle cx="100" cy="120" r="1.8" fill="#a16207" stroke="none" stroke-width="1.5"/><circle cx="80" cy="140" r="1.8" fill="#a16207" stroke="none" stroke-width="1.5"/><circle cx="44" cy="150" r="1.8" fill="#a16207" stroke="none" stroke-width="1.5"/><circle cx="96" cy="156" r="1.8" fill="#a16207" stroke="none" stroke-width="1.5"/><circle cx="64" cy="162" r="1.8" fill="#a16207" stroke="none" stroke-width="1.5"/><circle cx="110" cy="98" r="1.8" fill="#a16207" stroke="none" stroke-width="1.5"/><circle cx="52" cy="112" r="1.8" fill="#a16207" stroke="none" stroke-width="1.5"/><circle cx="86" cy="126" r="1.8" fill="#a16207" stroke="none" stroke-width="1.5"/><path d="M35,50 L35,162 Q35,170 43,170 L117,170 Q125,170 125,162 L125,50" fill="none" stroke="#1f2937" stroke-width="2.2" stroke-linejoin="round"/><rect x="31" y="42" width="98" height="10" rx="3" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.2"/><rect x="207" y="62" width="86" height="92" fill="#bfdbfe" stroke="none" stroke-width="1.5" opacity="0.8"/><rect x="207" y="152" width="86" height="18" fill="#c08a4a" stroke="none" stroke-width="1.5"/><circle cx="212" cy="166" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="225" cy="159" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="238" cy="164" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="251" cy="157" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="264" cy="162" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="277" cy="155" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="290" cy="160" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="223" cy="165" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="236" cy="158" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="249" cy="163" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="262" cy="156" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="275" cy="161" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="288" cy="166" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="221" cy="159" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="234" cy="164" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="247" cy="157" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="260" cy="162" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="273" cy="155" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="286" cy="160" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="219" cy="165" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="232" cy="158" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="245" cy="163" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="258" cy="156" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="271" cy="161" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="284" cy="166" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><circle cx="217" cy="159" r="2.2" fill="#92400e" stroke="none" stroke-width="1.5"/><path d="M205,50 L205,162 Q205,170 213,170 L287,170 Q295,170 295,162 L295,50" fill="none" stroke="#1f2937" stroke-width="2.2" stroke-linejoin="round"/><rect x="201" y="42" width="98" height="10" rx="3" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.2"/><line x1="37" y1="62" x2="123" y2="62" stroke="#2563eb" stroke-width="1.5" stroke-linecap="round"/><line x1="207" y1="62" x2="293" y2="62" stroke="#2563eb" stroke-width="1.5" stroke-linecap="round"/><text x="80" y="196" font-size="13" text-anchor="middle" font-weight="600" fill="#1f2937">Jar 1: just stirred</text><text x="250" y="196" font-size="13" text-anchor="middle" font-weight="600" fill="#1f2937">Jar 2: after 1 hour</text><line x1="140" y1="110" x2="182.0" y2="110.0" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/><polygon points="190,110 182,114.4 182,105.6" fill="#1f2937" stroke="#1f2937" stroke-width="1" stroke-linejoin="round"/><text x="165" y="100" font-size="12" text-anchor="middle" font-weight="500" fill="#1f2937">wait</text></svg>
+**Stem:** Riya stirs sand into a jar of water (Jar 1). Jar 2 shows the same jar after it has stood still for one hour. What has happened in Jar 2?
 **Options:**
-A) evaporation
-B) sedimentation
-C) condensation
-D) melting
+A) Evaporation
+B) Sedimentation
+C) Condensation
+D) Melting
 **Answer:** B
-**Explanation:** Sedimentation is when heavier undissolved particles settle down. You can then pour off the clear water (decantation).
+**Explanation:** The heavier sand grains sank and collected at the bottom while the jar stood still. This is sedimentation. It is not evaporation: the water level has not dropped, so no water has turned into vapour.
 
 ### Q13 · Pictorial
 **Diagram (SVG):**
@@ -418,15 +420,17 @@ D) It is a good conductor of heat and fairly light
 **Answer:** D
 **Explanation:** Aluminium conducts heat well for cooking and is lighter than many other metals.
 
-### Q21
-**Stem:** Sieving is the best first step to separate —
+### Q21 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="A round sieve with a handle held over a bowl. Large grey lumps stay in the sieve while fine white powder falls through into the bowl." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><path d="M100,74 Q160,104 220,74" fill="none" stroke="#374151" stroke-width="2.5" stroke-linejoin="round"/><line x1="100" y1="74" x2="220" y2="74" stroke="#374151" stroke-width="2.5" stroke-linecap="round"/><line x1="110" y1="76" x2="110" y2="78.5" stroke="#9ca3af" stroke-width="0.8" stroke-linecap="round"/><line x1="120" y1="76" x2="120" y2="80.0" stroke="#9ca3af" stroke-width="0.8" stroke-linecap="round"/><line x1="130" y1="76" x2="130" y2="81.5" stroke="#9ca3af" stroke-width="0.8" stroke-linecap="round"/><line x1="140" y1="76" x2="140" y2="83.0" stroke="#9ca3af" stroke-width="0.8" stroke-linecap="round"/><line x1="150" y1="76" x2="150" y2="84.5" stroke="#9ca3af" stroke-width="0.8" stroke-linecap="round"/><line x1="160" y1="76" x2="160" y2="86.0" stroke="#9ca3af" stroke-width="0.8" stroke-linecap="round"/><line x1="170" y1="76" x2="170" y2="84.5" stroke="#9ca3af" stroke-width="0.8" stroke-linecap="round"/><line x1="180" y1="76" x2="180" y2="83.0" stroke="#9ca3af" stroke-width="0.8" stroke-linecap="round"/><line x1="190" y1="76" x2="190" y2="81.5" stroke="#9ca3af" stroke-width="0.8" stroke-linecap="round"/><line x1="200" y1="76" x2="200" y2="80.0" stroke="#9ca3af" stroke-width="0.8" stroke-linecap="round"/><line x1="210" y1="76" x2="210" y2="78.5" stroke="#9ca3af" stroke-width="0.8" stroke-linecap="round"/><rect x="220" y="70" width="70" height="8" rx="3" fill="#a16207" stroke="#713f12" stroke-width="1.2"/><ellipse cx="120" cy="66" rx="7" ry="5" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/><ellipse cx="140" cy="70" rx="7" ry="5" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/><ellipse cx="162" cy="64" rx="7" ry="5" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/><ellipse cx="184" cy="69" rx="7" ry="5" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/><ellipse cx="150" cy="60" rx="7" ry="5" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/><ellipse cx="200" cy="66" rx="7" ry="5" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/><circle cx="130" cy="92" r="1.6" fill="#f5f5f4" stroke="#a8a29e" stroke-width="0.6"/><circle cx="150" cy="100" r="1.6" fill="#f5f5f4" stroke="#a8a29e" stroke-width="0.6"/><circle cx="170" cy="95" r="1.6" fill="#f5f5f4" stroke="#a8a29e" stroke-width="0.6"/><circle cx="190" cy="104" r="1.6" fill="#f5f5f4" stroke="#a8a29e" stroke-width="0.6"/><circle cx="140" cy="112" r="1.6" fill="#f5f5f4" stroke="#a8a29e" stroke-width="0.6"/><circle cx="175" cy="116" r="1.6" fill="#f5f5f4" stroke="#a8a29e" stroke-width="0.6"/><circle cx="160" cy="124" r="1.6" fill="#f5f5f4" stroke="#a8a29e" stroke-width="0.6"/><circle cx="195" cy="120" r="1.6" fill="#f5f5f4" stroke="#a8a29e" stroke-width="0.6"/><circle cx="125" cy="120" r="1.6" fill="#f5f5f4" stroke="#a8a29e" stroke-width="0.6"/><circle cx="185" cy="132" r="1.6" fill="#f5f5f4" stroke="#a8a29e" stroke-width="0.6"/><path d="M90,140 Q160,210 230,140 Z" fill="#e7e5e4" stroke="#57534e" stroke-width="2" stroke-linejoin="round"/><ellipse cx="160" cy="150" rx="56" ry="8" fill="#fafaf9" stroke="#d6d3d1" stroke-width="1"/><text x="160" y="30" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">Sieve over a bowl</text><line x1="184" y1="64" x2="250" y2="45" stroke="#475569" stroke-width="1.2" stroke-linecap="round"/><circle cx="184" cy="64" r="2" fill="#475569" stroke="none" stroke-width="1.5"/><text x="254" y="50" font-size="13" text-anchor="start" font-weight="700" fill="#1f2937">lumps</text><line x1="170" y1="150" x2="258" y2="168" stroke="#475569" stroke-width="1.2" stroke-linecap="round"/><circle cx="170" cy="150" r="2" fill="#475569" stroke="none" stroke-width="1.5"/><text x="262" y="173" font-size="13" text-anchor="start" font-weight="700" fill="#1f2937">powder</text></svg>
+**Stem:** Arjun separates a dry mixture in the way shown in the picture. Which mixture could he be separating?
 **Options:**
-A) salt from seawater
-B) ink from water
-C) iron from copper wire
-D) pebbles from flour
+A) Salt from seawater
+B) Ink from water
+C) Iron pins from copper wire
+D) Small pebbles from flour
 **Answer:** D
-**Explanation:** A sieve lets fine flour fall through and keeps larger pebbles. Salt needs evaporation; metals need other methods.
+**Explanation:** The picture shows sieving: fine powder falls through the holes of the sieve and bigger lumps stay on top. That suits pebbles mixed with flour. Salt in seawater cannot be sieved, because dissolved salt passes through any holes with the water; it needs evaporation.
 
 ### Q22
 **Stem:** A translucent material —
@@ -490,15 +494,17 @@ D) Iron
 **Answer:** A
 **Explanation:** Plastic does not let current pass easily, so it is safer for covers. Copper, aluminium and iron conduct.
 
-### Q4
-**Stem:** Oil floats on water mainly because oil is —
+### Q4 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="A jar after shaking and standing for five minutes: a yellow layer X sits on top of a blue layer Y, with a sharp line between them." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><rect x="117" y="60" width="86" height="34" fill="#fde047" stroke="none" stroke-width="1.5" opacity="0.9"/><rect x="117" y="94" width="86" height="74" fill="#93c5fd" stroke="none" stroke-width="1.5" opacity="0.85"/><line x1="117" y1="94" x2="203" y2="94" stroke="#a16207" stroke-width="1.5" stroke-linecap="round"/><path d="M115,48 L115,160 Q115,168 123,168 L197,168 Q205,168 205,160 L205,48" fill="none" stroke="#1f2937" stroke-width="2.2" stroke-linejoin="round"/><rect x="111" y="40" width="98" height="10" rx="3" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.2"/><line x1="190" y1="77" x2="250" y2="70" stroke="#475569" stroke-width="1.2" stroke-linecap="round"/><circle cx="190" cy="77" r="2" fill="#475569" stroke="none" stroke-width="1.5"/><text x="254" y="75" font-size="16" text-anchor="start" font-weight="700" fill="#1f2937">X</text><line x1="190" y1="130" x2="250" y2="135" stroke="#475569" stroke-width="1.2" stroke-linecap="round"/><circle cx="190" cy="130" r="2" fill="#475569" stroke="none" stroke-width="1.5"/><text x="254" y="140" font-size="16" text-anchor="start" font-weight="700" fill="#1f2937">Y</text><text x="160" y="200" font-size="13" text-anchor="middle" font-weight="500" fill="#1f2937">after 5 minutes</text></svg>
+**Stem:** Ravi shakes two liquids that do not mix in a jar, then waits five minutes. The picture shows the jar. What does it tell you about liquid X compared with liquid Y?
 **Options:**
-A) less dense than water
-B) heavier than steel
-C) magnetic
-D) transparent only
+A) A cupful of X weighs less than a cupful of Y (X is less dense)
+B) A cupful of X weighs more than a cupful of Y
+C) X has dissolved in Y
+D) X is attracted by a magnet
 **Answer:** A
-**Explanation:** Less dense liquids float on denser ones. Oil is less dense than water, so it stays on top.
+**Explanation:** X stays on top of Y, so the same amount of X is lighter: X is less dense than Y. X has not dissolved: if it had, the jar would hold one mixed liquid, not two separate layers.
 
 ### Q5
 **Stem:** Crushing a chalk stick into powder is —
@@ -510,15 +516,17 @@ D) condensation
 **Answer:** A
 **Explanation:** The chalk is still chalk — only the size and shape changed. No new substance formed.
 
-### Q6
-**Stem:** Which pair are both good heat conductors?
+### Q6 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="Four spoons labelled 1 to 4 stand in a bowl of hot water. After two minutes the butter on spoons 1 and 2 has melted and run down; the butter on spoons 3 and 4 is still a firm lump." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><line x1="100" y1="70" x2="100" y2="175" stroke="#6b7280" stroke-width="6" stroke-linecap="round"/><path d="M93,70 Q100,62 107,70 L104,86 Q100,92 97,84 Z" fill="#fde68a" stroke="#ca8a04" stroke-width="1" stroke-linejoin="round"/><line x1="140" y1="70" x2="140" y2="175" stroke="#6b7280" stroke-width="6" stroke-linecap="round"/><path d="M133,70 Q140,62 147,70 L144,86 Q140,92 137,84 Z" fill="#fde68a" stroke="#ca8a04" stroke-width="1" stroke-linejoin="round"/><line x1="180" y1="70" x2="180" y2="175" stroke="#6b7280" stroke-width="6" stroke-linecap="round"/><rect x="171" y="56" width="18" height="14" rx="3" fill="#fde68a" stroke="#ca8a04" stroke-width="1.2"/><line x1="220" y1="70" x2="220" y2="175" stroke="#6b7280" stroke-width="6" stroke-linecap="round"/><rect x="211" y="56" width="18" height="14" rx="3" fill="#fde68a" stroke="#ca8a04" stroke-width="1.2"/><path d="M70,150 L80,195 L240,195 L250,150 Z" fill="#bfdbfe" stroke="#1f2937" stroke-width="2" stroke-linejoin="round"/><path d="M88,140 q5,-8 0,-16 q-5,-8 0,-16" fill="none" stroke="#f87171" stroke-width="1.5" stroke-linejoin="round"/><path d="M260,140 q5,-8 0,-16 q-5,-8 0,-16" fill="none" stroke="#f87171" stroke-width="1.5" stroke-linejoin="round"/><text x="100" y="42" font-size="15" text-anchor="middle" font-weight="700" fill="#1f2937">1</text><text x="140" y="42" font-size="15" text-anchor="middle" font-weight="700" fill="#1f2937">2</text><text x="180" y="42" font-size="15" text-anchor="middle" font-weight="700" fill="#1f2937">3</text><text x="220" y="42" font-size="15" text-anchor="middle" font-weight="700" fill="#1f2937">4</text><text x="160" y="214" font-size="12" text-anchor="middle" font-weight="500" fill="#1f2937">hot water · after 2 minutes</text></svg>
+**Stem:** Four spoons stand in a bowl of hot water with a dab of butter on top of each handle. The picture shows them after two minutes. Which pair of materials could spoons 1 and 2 be made of?
 **Options:**
 A) Copper and iron
 B) Wood and plastic
-C) Rubber and wool
-D) Paper and cork
+C) Bamboo and rubber
+D) Wood and copper
 **Answer:** A
-**Explanation:** Copper and iron are metals that conduct heat well. Wood, plastic, rubber, wool, paper and cork are poor conductors.
+**Explanation:** Heat travelled up spoons 1 and 2 fast enough to melt the butter, so both must be good conductors of heat, such as the metals copper and iron. Wood and copper cannot be right: a wooden spoon is a poor conductor, so its butter would stay solid.
 
 ### Q7
 **Stem:** Muddy river water left still in a jar becomes clearer at the top because of —
@@ -608,25 +616,29 @@ D) soluble
 **Answer:** B
 **Explanation:** Clear glass lets nearly all light through with a clear view, so it is transparent.
 
-### Q13
-**Stem:** Which method separates a dissolved solid from water after filtration is not needed?
+### Q13 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="Day 1: a wide dish of salty water in the sunshine. Day 3: the same dish is dry, with small white crystals left on its bottom." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><circle cx="160" cy="38" r="16" fill="#facc15" stroke="#b45309" stroke-width="2"/><line x1="182" y1="38" x2="190" y2="38" stroke="#b45309" stroke-width="2" stroke-linecap="round"/><line x1="138" y1="38" x2="130" y2="38" stroke="#b45309" stroke-width="2" stroke-linecap="round"/><line x1="160" y1="60" x2="160" y2="68" stroke="#b45309" stroke-width="2" stroke-linecap="round"/><line x1="175.4" y1="53.4" x2="181.0" y2="59.0" stroke="#b45309" stroke-width="2" stroke-linecap="round"/><line x1="144.6" y1="53.4" x2="139.0" y2="59.0" stroke="#b45309" stroke-width="2" stroke-linecap="round"/><line x1="175.4" y1="22.6" x2="181.0" y2="17.0" stroke="#b45309" stroke-width="2" stroke-linecap="round"/><line x1="144.6" y1="22.6" x2="139.0" y2="17.0" stroke="#b45309" stroke-width="2" stroke-linecap="round"/><path d="M30,160 L42,180 L118,180 L130,160 Z" fill="#e5e7eb" stroke="#374151" stroke-width="2" stroke-linejoin="round"/><rect x="38" y="160" width="84" height="12" fill="#93c5fd" stroke="none" stroke-width="1.5" opacity="0.9"/><path d="M200,160 L212,180 L288,180 L300,160 Z" fill="#e5e7eb" stroke="#374151" stroke-width="2" stroke-linejoin="round"/><rect x="210" y="167" width="7" height="6" fill="#ffffff" stroke="#64748b" stroke-width="1"/><rect x="221" y="167" width="7" height="6" fill="#ffffff" stroke="#64748b" stroke-width="1"/><rect x="232" y="167" width="7" height="6" fill="#ffffff" stroke="#64748b" stroke-width="1"/><rect x="243" y="167" width="7" height="6" fill="#ffffff" stroke="#64748b" stroke-width="1"/><rect x="254" y="167" width="7" height="6" fill="#ffffff" stroke="#64748b" stroke-width="1"/><rect x="265" y="167" width="7" height="6" fill="#ffffff" stroke="#64748b" stroke-width="1"/><rect x="276" y="167" width="7" height="6" fill="#ffffff" stroke="#64748b" stroke-width="1"/><rect x="287" y="167" width="7" height="6" fill="#ffffff" stroke="#64748b" stroke-width="1"/><text x="80" y="205" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">Day 1</text><text x="250" y="205" font-size="14" text-anchor="middle" font-weight="700" fill="#1f2937">Day 3</text><line x1="140" y1="170" x2="182.0" y2="170.0" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/><polygon points="190,170 182,174.4 182,165.6" fill="#1f2937" stroke="#1f2937" stroke-width="1" stroke-linejoin="round"/></svg>
+**Stem:** Pooja pours salty water into a wide dish and leaves it in the sun. The picture shows the dish on day 1 and on day 3. Which method has she used to get the salt back?
 **Options:**
 A) Handpicking
 B) Sieving
 C) Evaporation
-D) Using a magnet on sugar
+D) Using a magnet
 **Answer:** C
-**Explanation:** Heating or leaving the solution lets water evaporate; the dissolved solid remains.
+**Explanation:** The Sun's heat turned the water into vapour, which went into the air, and the white salt crystals were left in the dish. This is evaporation. Sieving cannot work, because dissolved salt passes through any sieve holes together with the water.
 
-### Q14
-**Stem:** A sponge soaks up water because it is —
+### Q14 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="A yellow kitchen sponge on the left. A magnifying glass on the right shows a close-up view of its surface with many small holes." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><rect x="40" y="80" width="90" height="55" rx="6" fill="#fde047" stroke="#ca8a04" stroke-width="2"/><circle cx="55" cy="92" r="2" fill="#ca8a04" stroke="none" stroke-width="1.5"/><circle cx="72" cy="103" r="2" fill="#ca8a04" stroke="none" stroke-width="1.5"/><circle cx="89" cy="114" r="2" fill="#ca8a04" stroke="none" stroke-width="1.5"/><circle cx="106" cy="125" r="2" fill="#ca8a04" stroke="none" stroke-width="1.5"/><circle cx="123" cy="102" r="2" fill="#ca8a04" stroke="none" stroke-width="1.5"/><circle cx="70" cy="113" r="2" fill="#ca8a04" stroke="none" stroke-width="1.5"/><circle cx="87" cy="124" r="2" fill="#ca8a04" stroke="none" stroke-width="1.5"/><circle cx="104" cy="101" r="2" fill="#ca8a04" stroke="none" stroke-width="1.5"/><circle cx="121" cy="112" r="2" fill="#ca8a04" stroke="none" stroke-width="1.5"/><circle cx="68" cy="123" r="2" fill="#ca8a04" stroke="none" stroke-width="1.5"/><circle cx="85" cy="100" r="2" fill="#ca8a04" stroke="none" stroke-width="1.5"/><circle cx="102" cy="111" r="2" fill="#ca8a04" stroke="none" stroke-width="1.5"/><circle cx="119" cy="122" r="2" fill="#ca8a04" stroke="none" stroke-width="1.5"/><circle cx="66" cy="99" r="2" fill="#ca8a04" stroke="none" stroke-width="1.5"/><circle cx="220" cy="105" r="58" fill="#fef9c3" stroke="#374151" stroke-width="4"/><ellipse cx="190" cy="77" rx="7" ry="5" fill="#ffffff" stroke="#ca8a04" stroke-width="1"/><ellipse cx="212" cy="71" rx="5" ry="4" fill="#ffffff" stroke="#ca8a04" stroke-width="1"/><ellipse cx="234" cy="79" rx="8" ry="6" fill="#ffffff" stroke="#ca8a04" stroke-width="1"/><ellipse cx="254" cy="95" rx="6" ry="5" fill="#ffffff" stroke="#ca8a04" stroke-width="1"/><ellipse cx="182" cy="103" rx="6" ry="7" fill="#ffffff" stroke="#ca8a04" stroke-width="1"/><ellipse cx="206" cy="99" rx="9" ry="6" fill="#ffffff" stroke="#ca8a04" stroke-width="1"/><ellipse cx="230" cy="107" rx="6" ry="5" fill="#ffffff" stroke="#ca8a04" stroke-width="1"/><ellipse cx="250" cy="121" rx="7" ry="5" fill="#ffffff" stroke="#ca8a04" stroke-width="1"/><ellipse cx="190" cy="129" rx="7" ry="5" fill="#ffffff" stroke="#ca8a04" stroke-width="1"/><ellipse cx="214" cy="127" rx="6" ry="6" fill="#ffffff" stroke="#ca8a04" stroke-width="1"/><ellipse cx="236" cy="135" rx="5" ry="4" fill="#ffffff" stroke="#ca8a04" stroke-width="1"/><ellipse cx="200" cy="145" rx="5" ry="4" fill="#ffffff" stroke="#ca8a04" stroke-width="1"/><ellipse cx="260" cy="113" rx="4" ry="4" fill="#ffffff" stroke="#ca8a04" stroke-width="1"/><line x1="261" y1="146" x2="296" y2="190" stroke="#374151" stroke-width="8" stroke-linecap="round"/><line x1="130" y1="100" x2="168" y2="92" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 3" stroke-linecap="round"/><line x1="130" y1="120" x2="168" y2="128" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 3" stroke-linecap="round"/><text x="85" y="160" font-size="13" text-anchor="middle" font-weight="600" fill="#1f2937">sponge</text><text x="220" y="30" font-size="13" text-anchor="middle" font-weight="600" fill="#1f2937">close-up</text></svg>
+**Stem:** Meena looks at a kitchen sponge through a magnifying glass, as shown. Why does the sponge soak up water so well?
 **Options:**
-A) magnetic
-B) opaque only
-C) porous (has tiny spaces)
-D) a pure metal
+A) It is made of metal
+B) It is waterproof
+C) It is full of tiny spaces that can hold water (porous)
+D) It dissolves in water
 **Answer:** C
-**Explanation:** Porous materials have tiny holes that can hold liquid. That is why a sponge absorbs water.
+**Explanation:** The close-up shows many small holes; water flows into these spaces and stays there, so the sponge is porous. Waterproof is the opposite: a waterproof material keeps water out instead of holding it.
 
 ### Q15 · Pictorial
 **Diagram (SVG):**
@@ -756,15 +768,17 @@ D) A wooden door
 **Answer:** D
 **Explanation:** A wooden door blocks light. Air, clear wrap and clean water let light through.
 
-### Q22
-**Stem:** Mixing iron filings and sulphur powder (without heating) makes —
+### Q22 · Pictorial
+**Diagram (SVG):**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="A horseshoe magnet held over a heap of grey and yellow powder. Grey filings cling to the ends of the magnet; the yellow powder stays in the heap." font-family="system-ui, sans-serif"><rect x="0" y="0" width="320" height="220" fill="#ffffff"/><path d="M125,100 L125,60 Q125,22 160,22 Q195,22 195,60 L195,100 L175,100 L175,60 Q175,42 160,42 Q145,42 145,60 L145,100 Z" fill="#ef4444" stroke="#7f1d1d" stroke-width="2" stroke-linejoin="round"/><rect x="125" y="92" width="20" height="10" fill="#e5e7eb" stroke="#7f1d1d" stroke-width="1.5"/><rect x="175" y="92" width="20" height="10" fill="#e5e7eb" stroke="#7f1d1d" stroke-width="1.5"/><line x1="127" y1="104" x2="129" y2="114" stroke="#4b5563" stroke-width="1.8" stroke-linecap="round"/><line x1="131" y1="104" x2="133" y2="114" stroke="#4b5563" stroke-width="1.8" stroke-linecap="round"/><line x1="135" y1="104" x2="137" y2="114" stroke="#4b5563" stroke-width="1.8" stroke-linecap="round"/><line x1="139" y1="104" x2="141" y2="114" stroke="#4b5563" stroke-width="1.8" stroke-linecap="round"/><line x1="143" y1="104" x2="145" y2="114" stroke="#4b5563" stroke-width="1.8" stroke-linecap="round"/><line x1="147" y1="104" x2="149" y2="114" stroke="#4b5563" stroke-width="1.8" stroke-linecap="round"/><line x1="171" y1="104" x2="173" y2="114" stroke="#4b5563" stroke-width="1.8" stroke-linecap="round"/><line x1="175" y1="104" x2="177" y2="114" stroke="#4b5563" stroke-width="1.8" stroke-linecap="round"/><line x1="179" y1="104" x2="181" y2="114" stroke="#4b5563" stroke-width="1.8" stroke-linecap="round"/><line x1="183" y1="104" x2="185" y2="114" stroke="#4b5563" stroke-width="1.8" stroke-linecap="round"/><line x1="187" y1="104" x2="189" y2="114" stroke="#4b5563" stroke-width="1.8" stroke-linecap="round"/><line x1="191" y1="104" x2="193" y2="114" stroke="#4b5563" stroke-width="1.8" stroke-linecap="round"/><path d="M110,185 Q165,140 220,185 Z" fill="#fef3c7" stroke="#a16207" stroke-width="1.5" stroke-linejoin="round"/><circle cx="130" cy="172" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="153" cy="163" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="176" cy="172" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="199" cy="163" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="152" cy="172" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="175" cy="163" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="198" cy="172" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="151" cy="163" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="174" cy="172" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="197" cy="163" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="150" cy="172" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="173" cy="163" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="196" cy="172" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="149" cy="163" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="172" cy="172" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="195" cy="163" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="148" cy="172" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="171" cy="163" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="194" cy="172" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="147" cy="163" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="170" cy="172" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="193" cy="163" r="1.8" fill="#4b5563" stroke="none" stroke-width="1.5"/><circle cx="126" cy="176" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="145" cy="163" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="164" cy="170" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="183" cy="157" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="202" cy="164" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="143" cy="171" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="162" cy="158" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="181" cy="165" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="200" cy="172" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="141" cy="159" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="160" cy="166" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="179" cy="173" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="198" cy="160" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="139" cy="167" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="158" cy="174" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="177" cy="161" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="196" cy="168" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="137" cy="175" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="156" cy="162" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="175" cy="169" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="194" cy="176" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="135" cy="163" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="154" cy="170" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="173" cy="157" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="192" cy="164" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="133" cy="171" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="152" cy="158" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><circle cx="171" cy="165" r="1.8" fill="#eab308" stroke="none" stroke-width="1.5"/><line x1="195" y1="110" x2="255" y2="95" stroke="#475569" stroke-width="1.2" stroke-linecap="round"/><circle cx="195" cy="110" r="2" fill="#475569" stroke="none" stroke-width="1.5"/><text x="259" y="100" font-size="12" text-anchor="start" font-weight="700" fill="#1f2937">grey bits</text><line x1="205" y1="178" x2="255" y2="175" stroke="#475569" stroke-width="1.2" stroke-linecap="round"/><circle cx="205" cy="178" r="2" fill="#475569" stroke="none" stroke-width="1.5"/><text x="259" y="180" font-size="12" text-anchor="start" font-weight="700" fill="#1f2937">yellow bits</text><text x="160" y="212" font-size="12" text-anchor="middle" font-weight="500" fill="#1f2937">no heating</text></svg>
+**Stem:** Aman mixes grey iron filings with yellow sulphur powder without heating. He then holds a magnet over the heap, as shown. What does the picture tell you?
 **Options:**
-A) a new single atom
-B) pure water
-C) only a gas
-D) a mixture that a magnet can still pull iron from
+A) The two powders have joined into one new substance
+B) The magnet pulls the sulphur
+C) Both powders have melted
+D) It is a mixture, so the iron can still be pulled out
 **Answer:** D
-**Explanation:** Without a chemical reaction, iron and sulphur stay a mixture. A magnet can still attract the iron filings.
+**Explanation:** Only the grey iron filings cling to the magnet, so the iron has kept its own properties: the powders are just mixed. If a new substance had formed, the magnet could not pick out the iron on its own.
 
 ### Q23
 **Stem:** Why do we use cotton or wool clothes in winter?
