@@ -44,16 +44,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-maths-int-a-q04",
-    prompt: "What is |−12|?",
+    prompt: "Which of these numbers has the greatest absolute value?",
     options: [
-      { id: "a", text: "−12" },
-      { id: "b", text: "0" },
-      { id: "c", text: "1/12" },
-      { id: "d", text: "12" }
+      { id: "a", text: "9" },
+      { id: "b", text: "−5" },
+      { id: "c", text: "11" },
+      { id: "d", text: "−12" }
     ],
     answerId: "d",
-    explanation: "Absolute value is the distance from 0, so |−12| = 12.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Absolute value is the distance from 0: |9| = 9, |−5| = 5, |11| = 11 and |−12| = 12. So −12 is farthest from 0. 11 is tempting because it is the greatest number, but −12 is farther from 0.",
+    hints: ["Absolute value ignores the sign. Compare how far each number is from 0 on the number line."]
   },
   {
     id: "g6-maths-int-a-q05",
@@ -346,16 +346,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-maths-int-b-q03",
-    prompt: "What is −(−18)?",
+    prompt: "What is −(−18) + (−6)?",
     options: [
-      { id: "a", text: "−18" },
-      { id: "b", text: "0" },
-      { id: "c", text: "18" },
-      { id: "d", text: "1/18" }
+      { id: "a", text: "−24" },
+      { id: "b", text: "−12" },
+      { id: "c", text: "12" },
+      { id: "d", text: "24" }
     ],
     answerId: "c",
-    explanation: "The negative of −18 is 18.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "−(−18) = 18, and 18 + (−6) = 12. −24 is tempting if you treat −(−18) as −18.",
+    hints: ["First simplify −(−18): two minus signs together make a plus. Then add −6."]
   },
   {
     id: "g6-maths-int-b-q04",
@@ -476,16 +476,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-maths-int-b-q13",
-    prompt: "Compute (−1) × (−1) × (−1) × (−1).",
+    prompt: "Which of these gives a negative answer?",
     options: [
-      { id: "a", text: "1" },
-      { id: "b", text: "−1" },
-      { id: "c", text: "0" },
-      { id: "d", text: "4" }
+      { id: "a", text: "(−1) × (−1) × (−1)" },
+      { id: "b", text: "(−3) × (−4)" },
+      { id: "c", text: "(−2) × 5 × (−1)" },
+      { id: "d", text: "(−6) ÷ (−2)" }
     ],
     answerId: "a",
-    explanation: "Four negatives multiply to a positive: 1.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "(−1) × (−1) × (−1) has three negative factors, an odd number, so it equals −1. (−3) × (−4) = 12, (−2) × 5 × (−1) = 10 and (−6) ÷ (−2) = 3 are all positive.",
+    hints: ["Count the negative numbers in each one. An odd count of negatives gives a negative answer."]
   },
   {
     id: "g6-maths-int-b-q14",

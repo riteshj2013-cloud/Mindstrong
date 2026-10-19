@@ -96,29 +96,29 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-maths-real-a-q08",
-    prompt: "Rationalising the denominator of 6/\u221a3 gives \u2014",
+    prompt: "After how many decimal places does the decimal expansion of 13/(2\u00b3 \u00d7 5\u00b2) end?",
     options: [
-      { id: "a", text: "2/\u221a3" },
-      { id: "b", text: "\u221a3/2" },
-      { id: "c", text: "6\u221a3" },
-      { id: "d", text: "2\u221a3" }
+      { id: "a", text: "5" },
+      { id: "b", text: "3" },
+      { id: "c", text: "2" },
+      { id: "d", text: "6" }
     ],
-    answerId: "d",
-    explanation: "6/\u221a3 \u00d7 \u221a3/\u221a3 = 6\u221a3/3 = 2\u221a3. 6\u221a3 is tempting if you multiply the top by \u221a3 but forget that the bottom becomes 3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "b",
+    explanation: "Multiply top and bottom by 5 to get 65/(2\u00b3 \u00d7 5\u00b3) = 65/1000 = 0.065, which ends after 3 places (the larger of the two powers). 5 is tempting, but you do not add the powers 3 + 2.",
+    hints: ["Make the denominator a power of 10 by multiplying top and bottom by enough 5s. Which power of 10 do you get?"]
   },
   {
     id: "g10-maths-real-a-q09",
-    prompt: "Which statement about rational and irrational numbers is true?",
+    prompt: "The HCF of 2\u00b3 \u00d7 3\u00b2 \u00d7 5 and 2\u00b2 \u00d7 3\u00b3 \u00d7 7 is \u2014",
     options: [
-      { id: "a", text: "\u221a2 is rational" },
-      { id: "b", text: "\u03c0 is rational" },
-      { id: "c", text: "Every integer is a rational number" },
-      { id: "d", text: "Every rational is an integer" }
+      { id: "a", text: "7560" },
+      { id: "b", text: "216" },
+      { id: "c", text: "1260" },
+      { id: "d", text: "36" }
     ],
-    answerId: "c",
-    explanation: "Any integer n = n/1 is rational.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "d",
+    explanation: "Shared primes are 2 and 3; the smaller powers are 2\u00b2 and 3\u00b2, so the HCF is 2\u00b2 \u00d7 3\u00b2 = 36. 7560 is tempting, but that takes the larger powers of every prime: it is the LCM.",
+    hints: ["For the HCF, keep only the primes both numbers share, each with its smaller power."]
   },
   {
     id: "g10-maths-real-a-q10",
@@ -359,16 +359,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-maths-real-b-q04",
-    prompt: "Which number can be written in the form p/q, where p and q are integers and q \u2260 0?",
+    prompt: "Using Euclid's division lemma, 400 = 17q + r with 0 \u2264 r < 17. What is r?",
     options: [
-      { id: "a", text: "0.333\u2026 (the 3 repeats for ever)" },
-      { id: "b", text: "\u03c0" },
-      { id: "c", text: "\u221a2 + 1" },
-      { id: "d", text: "\u221a7" }
+      { id: "a", text: "23" },
+      { id: "b", text: "0" },
+      { id: "c", text: "17" },
+      { id: "d", text: "9" }
     ],
-    answerId: "a",
-    explanation: "0.333\u2026 = 1/3, so it is rational. \u03c0 is tempting because 22/7 is often used for it, but 22/7 is only an approximation; \u03c0 is irrational, and so are \u221a7 and \u221a2 + 1.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    answerId: "d",
+    explanation: "17 \u00d7 23 = 391 and 400 \u2212 391 = 9, so r = 9. 23 is tempting, but that is the quotient q, not the remainder.",
+    hints: ["Find the biggest multiple of 17 that is not more than 400. r is what is left over."]
   },
   {
     id: "g10-maths-real-b-q05",
@@ -476,16 +476,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-maths-real-b-q13",
-    prompt: "The sum of a rational number and an irrational number is \u2014",
+    prompt: "In the prime factorisation of 360, how many prime factors are there when repeated factors are counted?",
     options: [
-      { id: "a", text: "sometimes undefined" },
-      { id: "b", text: "always rational" },
-      { id: "c", text: "always an integer" },
-      { id: "d", text: "always irrational" }
+      { id: "a", text: "3" },
+      { id: "b", text: "4" },
+      { id: "c", text: "5" },
+      { id: "d", text: "6" }
     ],
     answerId: "d",
-    explanation: "e.g. 2 + \u221a3 is irrational.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "360 = 2 \u00d7 2 \u00d7 2 \u00d7 3 \u00d7 3 \u00d7 5 = 2\u00b3 \u00d7 3\u00b2 \u00d7 5, so there are 3 + 2 + 1 = 6 prime factors when repeats are counted. 3 is tempting, but that counts only the different primes 2, 3 and 5.",
+    hints: ["Keep dividing 360 by the smallest prime that works, and count every division you make."]
   },
   {
     id: "g10-maths-real-b-q14",
@@ -502,16 +502,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-maths-real-b-q15",
-    prompt: "\u221a(0.0016) equals \u2014",
+    prompt: "For which natural number n does 4\u207f end with the digit 0?",
     options: [
-      { id: "a", text: "0.04" },
-      { id: "b", text: "0.004" },
-      { id: "c", text: "0.4" },
-      { id: "d", text: "0.008" }
+      { id: "a", text: "No natural number n" },
+      { id: "b", text: "n = 10" },
+      { id: "c", text: "n = 5" },
+      { id: "d", text: "Every even n" }
     ],
     answerId: "a",
-    explanation: "0.0016 = 16/10000, so \u221a0.0016 = 4/100 = 0.04. 0.4 is tempting, but 0.4 \u00d7 0.4 = 0.16; the square root has half as many decimal places as the number.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "4\u207f = 2\u00b2\u207f has only the prime 2, never 5, so it can never end in 0. n = 10 is tempting because 10 ends in 0, but 4\u00b9\u2070 = 1,048,576 ends in 6.",
+    hints: ["A number ending in 0 has both 2 and 5 as prime factors. Which primes can 4\u207f have?"]
   },
   {
     id: "g10-maths-real-b-q16",

@@ -135,14 +135,14 @@
 - **difficulty**: mixed
 
 ### Q11
-- **stem**: What is |−19|?
+- **stem**: For how many integers x is |x| < 3?
 - **options**:
-  - A) −19
-  - B) 0
-  - C) 19
-  - D) 1
+  - A) 3
+  - B) 4
+  - C) 5
+  - D) 7
 - **answer**: C
-- **explanation**: Absolute value is distance from 0, so |−19| = 19.
+- **explanation**: |x| < 3 means x is less than 3 steps from 0, so x = −2, −1, 0, 1 or 2. That is 5 integers. 4 is tempting if you forget 0, and 7 if you also count −3 and 3.
 - **difficulty**: mixed
 
 ### Q12
@@ -179,14 +179,14 @@
 - **difficulty**: mixed
 
 ### Q15
-- **stem**: Simplify: −(−11).
+- **stem**: In a quiz, each correct answer scores +4 and each wrong answer scores −2. Ravi gets 11 correct and 6 wrong. What is his score?
 - **options**:
-  - A) −11
-  - B) 0
-  - C) 11
-  - D) 1
+  - A) 56
+  - B) 22
+  - C) 32
+  - D) 10
 - **answer**: C
-- **explanation**: The negative of −11 is 11.
+- **explanation**: 11 × 4 = 44 and 6 × (−2) = −12, so his score is 44 + (−12) = 32. 56 is tempting if you add the marks for wrong answers instead of taking them away.
 - **difficulty**: mixed
 
 ### Q16
@@ -256,14 +256,14 @@
 - **difficulty**: mixed
 
 ### Q22
-- **stem**: The temperatures in four cities one winter night were −4°C, 2°C, −9°C and 0°C. Which was the coldest?
+- **stem**: The sum of two integers is −5. One of them is 8. What is the other?
 - **options**:
-  - A) −4°C
-  - B) −9°C
-  - C) 0°C
-  - D) 2°C
-- **answer**: B
-- **explanation**: The coldest temperature is the smallest number. −9 is further left on the number line than −4, so −9°C is coldest. −4°C is tempting if you think 4 is smaller than 9 and ignore the minus sign.
+  - A) −3
+  - B) 3
+  - C) −13
+  - D) 13
+- **answer**: C
+- **explanation**: The other integer is −5 − 8 = −13, because 8 + (−13) = −5. −3 is tempting, but 8 + (−3) = 5, not −5.
 - **difficulty**: mixed
 
 ### Q23
@@ -379,14 +379,14 @@
 - **difficulty**: mixed
 
 ### Q09
-- **stem**: For every integer n, which of these is always equal to n?
+- **stem**: Group the numbers smartly to evaluate (−4) × 37 × (−25).
 - **options**:
-  - A) n × 1
-  - B) n × (−1)
-  - C) n × 0
-  - D) n + 1
-- **answer**: A
-- **explanation**: 1 is the multiplicative identity, so n × 1 = n for every integer. n × (−1) is tempting, but it gives −n (the sign flips), and n × 0 = 0.
+  - A) −3,700
+  - B) −173
+  - C) 3,700
+  - D) −370
+- **answer**: C
+- **explanation**: (−4) × (−25) = 100, and 100 × 37 = 3,700. Two negative factors make a positive product. −3,700 is tempting if you forget that the two negatives cancel.
 - **difficulty**: mixed
 
 ### Q10
@@ -423,14 +423,14 @@
 - **difficulty**: mixed
 
 ### Q13
-- **stem**: Evaluate: (−1) × (−1) × (−1) × (−1).
+- **stem**: Evaluate: (−1)⁵⁰ + (−1)⁵¹.
 - **options**:
-  - A) 1
-  - B) −1
-  - C) 0
-  - D) 4
+  - A) 0
+  - B) 2
+  - C) −2
+  - D) 1
 - **answer**: A
-- **explanation**: Four negatives → positive. Product is 1.
+- **explanation**: An even power of −1 is 1 and an odd power of −1 is −1, so the sum is 1 + (−1) = 0. 2 is tempting if you think every power of −1 is 1.
 - **difficulty**: mixed
 
 ### Q14
@@ -511,14 +511,14 @@
 - **difficulty**: mixed
 
 ### Q21
-- **stem**: Evaluate: −|−12|.
+- **stem**: If |x| = 12 and x is negative, what is x − 5?
 - **options**:
-  - A) −12
-  - B) 12
-  - C) 0
-  - D) 1
+  - A) −17
+  - B) 7
+  - C) −7
+  - D) 17
 - **answer**: A
-- **explanation**: |−12| = 12, then the outer minus makes −12.
+- **explanation**: |x| = 12 means x is 12 or −12. x is negative, so x = −12, and −12 − 5 = −17. 7 is tempting if you take x = 12.
 - **difficulty**: mixed
 
 ### Q22

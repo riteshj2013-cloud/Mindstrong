@@ -410,17 +410,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-maths-numbers-b-q07",
-    prompt: "Look at the hundreds, tens and ones blocks. What number do they show?",
+    prompt: "Arun shows a number with 4 hundreds blocks, 9 tens blocks and 5 ones blocks. He adds one more hundreds block. What number do the blocks show now?",
     options: [
-      { id: "a", text: "862" },
-      { id: "b", text: "286" },
-      { id: "c", text: "268" },
-      { id: "d", text: "2608" }
+      { id: "a", text: "496" },
+      { id: "b", text: "595" },
+      { id: "c", text: "505" },
+      { id: "d", text: "1495" }
     ],
-    answerId: "c",
-    explanation: "200 + 60 + 8 = 268.",
-    hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
-    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 440 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Join the blocks\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"440\" height=\"150\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"220.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Join the blocks</text>\n  <rect class=\"part block\" x=\"66.0\" y=\"38.0\" width=\"120\" height=\"82.0\" rx=\"4\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"126.0\" y=\"84.0\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">200</text>\n  <text class=\"label small\" x=\"126.0\" y=\"138\" font-size=\"10.5\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Hundreds</text>\n  <text class=\"label op\" x=\"199.0\" y=\"95\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">+</text>\n  <rect class=\"part block\" x=\"212.0\" y=\"52.0\" width=\"80\" height=\"68.0\" rx=\"4\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"252.0\" y=\"91.0\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">60</text>\n  <text class=\"label small\" x=\"252.0\" y=\"138\" font-size=\"10.5\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Tens</text>\n  <text class=\"label op\" x=\"305.0\" y=\"95\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">+</text>\n  <rect class=\"part block\" x=\"318.0\" y=\"60.400000000000006\" width=\"56\" height=\"59.599999999999994\" rx=\"4\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"346.0\" y=\"95.2\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">8</text>\n  <text class=\"label small\" x=\"346.0\" y=\"138\" font-size=\"10.5\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Ones</text>\n</svg>", "alt": "Three blocks joined with plus signs: 200 (Hundreds) plus 60 (Tens) plus 8 (Ones)."}
+    answerId: "b",
+    explanation: "The blocks first show 495. One more hundreds block adds 100, so the number becomes 595. 496 is tempting, but that adds one ones block, not a hundreds block.",
+    hints: ["First write the number the blocks show before. Which place changes when one hundreds block is added?"]
   },
   {
     id: "g3-maths-numbers-b-q08",

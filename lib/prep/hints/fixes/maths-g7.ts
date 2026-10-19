@@ -1,7 +1,7 @@
 /**
  * Grade 7 Maths — item-specific hint fixes (fix layer).
  * Source: app repo commit 4291140 (served hints: lib/prep/content + lib/prep/hints overlays). Written 2026-10-19.
- * Items changed: 67 | hints: 67
+ * Items changed: 68 | hints: 68
  * By category (primary): answer-revealing fixed 14 · generic replaced 51 · shared-hint split 2
  * Each hint nudges the method using the item's own numbers/objects; none contains the answer,
  * an option letter or "eliminate options". A later hint is a stronger nudge (a first step worked).
@@ -18,9 +18,9 @@ export const G7_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g7-maths-integers-a-q08": ["A negative times a negative is positive. Work out 5 × 4."],
   "g7-maths-integers-a-q09": ["Signs differ, so the quotient is negative. Which number times 9 gives 36?"],
   "g7-maths-integers-a-q10": ["Same signs give a positive quotient. Which number times 6 gives 48?"],
-  "g7-maths-integers-a-q11": ["Absolute value means distance from zero on the number line. Can a distance be negative?"],
+  "g7-maths-integers-a-q11": ["List the integers whose distance from 0 is less than 3. Remember 0 and the negative ones."],
   "g7-maths-integers-a-q12": ["On the number line, numbers further left are smaller. Is −5 left or right of −2?"],
-  "g7-maths-integers-a-q15": ["Two minus signs in a row cancel. The opposite of a negative number is positive."],
+  "g7-maths-integers-a-q15": ["Work out Ravi's marks for the 11 correct answers and for the 6 wrong ones separately. Then add them; one total is negative."],
   "g7-maths-integers-a-q16": ["Subtracting a negative is the same as adding its opposite. Start from 0 on the number line."],
   "g7-maths-integers-a-q18": ["Write (−2) × (−2) × (−2). Multiply two at a time and track the sign."],
   "g7-maths-integers-a-q21": ["−15 and 15 are opposites, the same distance from the start on either side of the number line. What do they add to?"],
@@ -30,15 +30,15 @@ export const G7_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g7-maths-integers-b-q04": ["Count the negative signs. An odd count gives a negative product. Then multiply 3 × 4 × 1."],
   "g7-maths-integers-b-q06": ["Open the bracket: the minus sign changes the sign of a and of −b. Rearrange what you get."],
   "g7-maths-integers-b-q08": ["Find the distance of −7 from zero, and of 3. Then subtract the second from the first."],
-  "g7-maths-integers-b-q09": ["Try n = 5 in each expression. Which one gives back 5, and would it for any n?"],
+  "g7-maths-integers-b-q09": ["Multiply (−4) and (−25) first, since that gives a round number. Then multiply by 37. Watch the signs."],
   "g7-maths-integers-b-q10": ["Subtracting −9 means adding 9. Work left to right: 5 + 9, then subtract 3."],
   "g7-maths-integers-b-q11": ["Divide −36 by the given negative factor. Negative divided by negative is positive."],
-  "g7-maths-integers-b-q13": ["Each pair of minus signs makes a positive. How many pairs of negatives are there?"],
+  "g7-maths-integers-b-q13": ["Is 50 even or odd? Is 51? Work out each power of −1, then add the two results."],
   "g7-maths-integers-b-q14": ["Add the two negatives first: −14 + (−6). Then add 20."],
   "g7-maths-integers-b-q16": ["Undefined means it has no answer. Can any number times zero ever give 7?"],
   "g7-maths-integers-b-q18": ["Work left to right: first (−25) ÷ 5, then multiply by (−2)."],
   "g7-maths-integers-b-q20": ["In a × (b + c), a multiplies each term inside the bracket. Which property spreads × over +?"],
-  "g7-maths-integers-b-q21": ["Work inside first: the bars give a distance from zero. Then apply the minus sign outside the bars."],
+  "g7-maths-integers-b-q21": ["Which two numbers are 12 steps from zero? Pick the negative one, then subtract 5."],
   "g7-maths-integers-b-q22": ["List them: start just after −3 and stop just before 4. Do not include −3 or 4."],
   "g7-maths-integers-b-q23": ["Multiply before adding: work out 3 × (−2) first, then add it to −8."],
   // g7-maths simple-equations — Simple Equations
@@ -80,4 +80,5 @@ export const G7_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g7-maths-angles-b-q19": ["Draw a transversal across parallel lines and measure the corresponding angles at both crossings. Compare them."],
   "g7-maths-angles-b-q20": ["270° is more than a straight angle of 180° but less than a full turn of 360°. Name that angle type."],
   "g7-maths-angles-b-q22": ["Walk round a convex polygon, turning by the exterior angle at each vertex. How much have you turned in total?"],
+  "g7-maths-integers-a-q22": ["Write 8 + ? = −5. Which number must you add to 8 to land on −5 on the number line?"],
 };

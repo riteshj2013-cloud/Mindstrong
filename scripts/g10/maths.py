@@ -42,16 +42,16 @@ def real_numbers():
         "2√3 + 3√3 equals —",
         ["5√3", "5√6", "6√3", "√6"],
         "a", "Like surds add: (2+3)√3 = 5√3.", "Add coefficients of like radical terms."))
-    A.append(q("Rationalising the denominator of 6/√3 gives —",
-      ["2√3", "6√3", "√3/2", "2/√3"],
-      "a",
-      "6/√3 × √3/√3 = 6√3/3 = 2√3. 6√3 is tempting if you multiply the top by √3 but forget that the bottom becomes 3.",
-      "Multiply top and bottom by √3, then simplify the fraction."))
-    A.append(q("Which statement about rational and irrational numbers is true?",
-      ["Every integer is a rational number", "Every rational is an integer", "√2 is rational", "π is rational"],
-      "a",
-      "Any integer n = n/1 is rational.",
-      "Integers ⊂ rationals; irrationals like √2 and π are not rational."))
+    A.append(q("After how many decimal places does the decimal expansion of 13/(2³ × 5²) end?",
+      ["5", "3", "2", "6"],
+      "b",
+      "Multiply top and bottom by 5 to get 65/(2³ × 5³) = 65/1000 = 0.065, which ends after 3 places (the larger of the two powers). 5 is tempting, but you do not add the powers 3 + 2.",
+      "Make the denominator a power of 10 by multiplying top and bottom by enough 5s. Which power of 10 do you get?"))
+    A.append(q("The HCF of 2³ × 3² × 5 and 2² × 3³ × 7 is —",
+      ["7560", "216", "1260", "36"],
+      "d",
+      "Shared primes are 2 and 3; the smaller powers are 2² and 3², so the HCF is 2² × 3² = 36. 7560 is tempting, but that takes the larger powers of every prime: it is the LCM.",
+      "For the HCF, keep only the primes both numbers share, each with its smaller power."))
     A.append(q(
         "The prime factorisation of 140 is —",
         ["2² × 5 × 7", "2 × 5 × 14", "2³ × 5 × 7", "2² × 35"],
@@ -127,11 +127,11 @@ def real_numbers():
         "√(18/50) simplifies to —",
         ["3/5", "9/25", "√18 / 50", "3√2 / 5"],
         "a", "√(18/50) = √(9/25) = 3/5.", "Simplify the fraction inside before taking the root."))
-    B.append(q("Which number can be written in the form p/q, where p and q are integers and q ≠ 0?",
-      ["0.333… (the 3 repeats for ever)", "√2 + 1", "√7", "π"],
-      "a",
-      "0.333… = 1/3, so it is rational. π is tempting because 22/7 is often used for it, but 22/7 is only an approximation; π is irrational, and so are √7 and √2 + 1.",
-      "A decimal that repeats for ever can always be turned into a fraction. Which of these never repeats?"))
+    B.append(q("Using Euclid's division lemma, 400 = 17q + r with 0 ≤ r < 17. What is r?",
+      ["23", "0", "17", "9"],
+      "d",
+      "17 × 23 = 391 and 400 − 391 = 9, so r = 9. 23 is tempting, but that is the quotient q, not the remainder.",
+      "Find the biggest multiple of 17 that is not more than 400. r is what is left over."))
     B.append(q(
         "Using Euclid's algorithm, HCF(65, 117) = 13. Expressing 13 = 65x + 117y, one possible x is —",
         ["2", "−1", "3", "0"],
@@ -167,19 +167,20 @@ def real_numbers():
         "Rationalise: 3/(√7 − √2).",
         ["3(√7+√2)/5", "3(√7−√2)/5", "3(√7+√2)/9", "(√7+√2)/5"],
         "a", "Multiply by √7+√2: numerator 3(√7+√2), denominator 7−2=5.", "Multiply by the conjugate of the denominator."))
-    B.append(q(
-        "The sum of a rational number and an irrational number is —",
-        ["always irrational", "always rational", "always an integer", "sometimes undefined"],
-        "a", "e.g. 2 + √3 is irrational.", "Rational + irrational = irrational."))
+    B.append(q("In the prime factorisation of 360, how many prime factors are there when repeated factors are counted?",
+      ["3", "4", "5", "6"],
+      "d",
+      "360 = 2 × 2 × 2 × 3 × 3 × 5 = 2³ × 3² × 5, so there are 3 + 2 + 1 = 6 prime factors when repeats are counted. 3 is tempting, but that counts only the different primes 2, 3 and 5.",
+      "Keep dividing 360 by the smallest prime that works, and count every division you make."))
     B.append(q(
         "HCF(a, b) = 18 and LCM(a, b) = 756. If a = 108, then b = —",
         ["126", "162", "84", "216"],
         "a", "a×b = HCF×LCM → 108b = 18×756 = 13608 → b = 126.", "Use a×b = HCF×LCM and solve for b."))
-    B.append(q("√(0.0016) equals —",
-      ["0.04", "0.4", "0.004", "0.008"],
+    B.append(q("For which natural number n does 4ⁿ end with the digit 0?",
+      ["No natural number n", "n = 10", "n = 5", "Every even n"],
       "a",
-      "0.0016 = 16/10000, so √0.0016 = 4/100 = 0.04. 0.4 is tempting, but 0.4 × 0.4 = 0.16; the square root has half as many decimal places as the number.",
-      "Write 0.0016 as a fraction with 10000 at the bottom, then take the square root of top and bottom."))
+      "4ⁿ = 2²ⁿ has only the prime 2, never 5, so it can never end in 0. n = 10 is tempting because 10 ends in 0, but 4¹⁰ = 1,048,576 ends in 6.",
+      "A number ending in 0 has both 2 and 5 as prime factors. Which primes can 4ⁿ have?"))
     B.append(q(
         "The smallest number by which 243 should be multiplied to get a perfect cube is —",
         ["3", "9", "27", "1"],
@@ -263,20 +264,20 @@ def real_numbers():
 
 def polynomials():
     A, B = [], []
-    A.append(q("The degree of the polynomial 4x² − x⁵ + 3x is —",
-      ["2", "5", "1", "3"],
-      "b",
-      "The degree is the highest power of x with a non-zero coefficient, which is 5 (from −x⁵). 2 is tempting because 4x² is written first, but the order of terms does not matter.",
-      "Look at every term, not just the first one. Which power of x is largest?"))
+    A.append(q("The sum of the zeros of kx² + 3x + 2 is −1. What is k?",
+      ["−3", "1/3", "3", "2"],
+      "c",
+      "Sum of zeros = −3/k = −1 gives k = 3. −3 is tempting if you forget the minus sign in −b/a: −3/(−3) = 1, not −1.",
+      "Sum of zeros = −(coefficient of x)/(coefficient of x²). Write that in terms of k and set it equal to −1."))
     A.append(q("A zero of p(x) = x² − 5x + 6 is —",
         ["2", "5", "6", "−2"], "a", "p(2)=4−10+6=0. Factors (x−2)(x−3).", "Find x that makes p(x)=0; try factor pairs of 6."))
     A.append(q("If (x − 1) is a factor of x² + kx + 1, then k equals —",
         ["−2", "2", "1", "−1"], "a", "p(1)=0 → 1+k+1=0 → k=−2.", "Factor theorem: (x−a) factor ⇒ p(a)=0."))
-    A.append(q("The remainder when x³ − 2x² + 4 is divided by x + 1 is —",
-      ["1", "3", "7", "−1"],
-      "a",
-      "x + 1 = x − (−1), so the remainder is p(−1) = −1 − 2 + 4 = 1. 3 is tempting, but that is p(1), which uses the wrong sign.",
-      "Write x + 1 as x − a. What is a?"))
+    A.append(q("At how many points does the graph of y = x² − 4x + 4 meet the x-axis?",
+      ["2", "1", "0", "3"],
+      "b",
+      "x² − 4x + 4 = (x − 2)², so both zeros are 2 and the graph just touches the x-axis at one point, (2, 0). 2 is tempting because a quadratic can have two zeros, but here they are equal.",
+      "Factorise x² − 4x + 4. Are its two zeros different, or the same number twice?"))
     A.append(q("A quadratic polynomial with zeros 2 and −3 is —",
         ["x² + x − 6", "x² − x − 6", "x² + 5x − 6", "x² − 5x − 6"],
         "a", "Sum −1, product −6 → x² − (sum)x + product = x² + x − 6.", "Use x² − (sum)x + (product)."))
@@ -285,8 +286,11 @@ def polynomials():
       "a",
       "For ax² + bx + c, the product of zeros is c/a = 3/2. 3 is tempting if you forget to divide by a = 2, and 7/2 is the sum of the zeros (−b/a), not the product.",
       "Product of zeros = c/a. Do not forget the leading coefficient."))
-    A.append(q("If α and β are zeros of x² − 5x + 6, then αβ equals —",
-        ["6", "5", "−6", "1"], "a", "Product = c/a = 6.", "For ax²+bx+c, product = c/a."))
+    A.append(q("One zero of x² − 3x − 10 is 5. Using the sum of the zeros, what is the other zero?",
+      ["−8", "−2", "2", "8"],
+      "b",
+      "Sum of zeros = −b/a = 3, so the other zero is 3 − 5 = −2. Check: 5 × (−2) = −10 = c/a. −8 is tempting if you take the sum as −3.",
+      "Sum of zeros = −(coefficient of x)/(coefficient of x²). Subtract the known zero from that sum."))
     A.append(q("The number of zeros of a cubic polynomial is at most —",
         ["3", "2", "1", "4"], "a", "A degree-n polynomial has at most n zeros.", "Degree bounds the number of roots."))
     A.append(q("p(x) = 2 is a polynomial of degree —",
@@ -316,8 +320,11 @@ def polynomials():
         ["1", "−1", "0", "3"], "a", "p(−1)=−1+3−3+k=0 → k=1.", "Use factor theorem with x=−1."))
     A.append(q("Sum of zeros of 3x² − 5x + 2 is —",
         ["5/3", "2/3", "−5/3", "3/5"], "a", "−b/a = 5/3.", "Sum = −b/a."))
-    A.append(q("Product of zeros of 3x² − 5x + 2 is —",
-        ["2/3", "5/3", "−2/3", "3/2"], "a", "c/a = 2/3.", "Product = c/a."))
+    A.append(q("If x² − x − 6 = (x + a)(x + b) with a > b, then a equals —",
+      ["3", "−3", "2", "−2"],
+      "c",
+      "x² − x − 6 = (x + 2)(x − 3), so a = 2 and b = −3. 3 is tempting because 3 is a zero of the polynomial, but the factor x − 3 means b = −3.",
+      "Find a pair of numbers that multiply to −6 and add to −1. Which number in the pair is larger?"))
     A.append(q("If the zeros of a quadratic are equal, its discriminant is —",
         ["zero", "positive", "negative", "one"],
         "a", "Equal roots ⇔ b²−4ac = 0.", "Discriminant zero means repeated root."))
@@ -333,11 +340,11 @@ def polynomials():
     B.append(q("A cubic polynomial with zeros −1, 1 and 2 can be —",
         ["(x+1)(x−1)(x−2)", "(x−1)³", "x³+1", "x³−2"],
         "a", "Product of (x−zero) factors works (up to a constant).", "Build from (x − each zero)."))
-    B.append(q("Remainder when x³ − 4x + 5 is divided by x − 3 is —",
-      ["−10", "20", "5", "8"],
-      "b",
-      "By the remainder theorem the remainder is p(3) = 27 − 12 + 5 = 20. −10 is tempting, but that is p(−3), which uses the wrong sign.",
-      "Dividing by x − 3 means you evaluate the polynomial at x = 3."))
+    B.append(q("When x³ − 3x² + 5x − 3 is divided by x² − x + 1, the quotient is x − 2. What is the remainder?",
+      ["x − 1", "−2x + 1", "2x + 1", "2x − 1"],
+      "d",
+      "(x² − x + 1)(x − 2) = x³ − 3x² + 3x − 2. Subtracting it from x³ − 3x² + 5x − 3 leaves 2x − 1. −2x + 1 is tempting if you subtract the wrong way round.",
+      "Multiply the divisor by the quotient, then subtract that product from x³ − 3x² + 5x − 3."))
     B.append(q("If α + β = 5 and αβ = 6 for a quadratic monic polynomial, it is —",
         ["x² − 5x + 6", "x² + 5x + 6", "x² − 5x − 6", "x² + 5x − 6"],
         "a", "x² − (sum)x + product.", "Monic quadratic from sum and product."))

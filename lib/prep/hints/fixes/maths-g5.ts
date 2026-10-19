@@ -1,7 +1,7 @@
 /**
  * Grade 5 Maths — item-specific hint fixes (fix layer).
  * Source: app repo commit 4291140 (served hints: lib/prep/content + lib/prep/hints overlays). Written 2026-10-19.
- * Items changed: 247 | hints: 247
+ * Items changed: 248 | hints: 248
  * By category (primary): answer-revealing fixed 14 · generic replaced 6 · shared-hint split 227
  * Each hint nudges the method using the item's own numbers/objects; none contains the answer,
  * an option letter or "eliminate options". A later hint is a stronger nudge (a first step worked).
@@ -263,4 +263,5 @@ export const G5_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g5-maths-data-b-q22": ["Two whole icons are 2 × 8 fish. Three quarters of an icon is ¾ of 8 fish."],
   "g5-maths-data-b-q23": ["Count how often each score appears. The mode is the score that comes up most."],
   "g5-maths-data-b-q24": ["Each unit is 4 pupils. Multiply 7.5 by 4: do 7 × 4, then add half of 4."],
+  "g5-maths-angles-b-q01": ["All the slice tips meet at the centre and make one full turn together. Share that turn equally."],
 };

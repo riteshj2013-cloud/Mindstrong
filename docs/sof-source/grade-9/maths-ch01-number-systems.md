@@ -483,14 +483,14 @@
 - **difficulty**: easy
 
 ### Q15
-- **stem**: 5⁻² equals…
+- **stem**: Which rational number lies between √2 and √3?
 - **options**:
-  - A) −25
-  - B) −10
-  - C) 1/10
-  - D) 1/25
-- **answer**: D
-- **explanation**: 5⁻² = 1/5² = 1/25. A negative exponent means a reciprocal, not a negative number, so −25 is wrong; −10 and 1/10 come from multiplying 5 by 2 instead of raising it to the power.
+  - A) 1.5
+  - B) 1.8
+  - C) 1.3
+  - D) 2
+- **answer**: A
+- **explanation**: 1.5² = 2.25, which is between 2 and 3, so √2 < 1.5 < √3. 1.8 is tempting because it sits between 1 and 2, but 1.8² = 3.24 > 3, so it is bigger than √3.
 - **skill**: exponents
 - **difficulty**: easy
 

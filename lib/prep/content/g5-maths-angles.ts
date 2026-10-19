@@ -329,17 +329,16 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g5-maths-angles-b-q01",
-    prompt: "Look at the angle in the picture. Which type of angle is it?",
+    prompt: "A round pizza is cut from the centre into 8 equal slices. What is the angle at the tip of one slice?",
     options: [
-      { id: "a", text: "Acute" },
-      { id: "b", text: "Right" },
-      { id: "c", text: "Straight" },
-      { id: "d", text: "Obtuse" }
+      { id: "a", text: "45\u00b0" },
+      { id: "b", text: "22.5\u00b0" },
+      { id: "c", text: "60\u00b0" },
+      { id: "d", text: "90\u00b0" }
     ],
-    answerId: "d",
-    explanation: "140\u00b0 is greater than 90\u00b0 and less than 180\u00b0, so the angle is obtuse.",
-    hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
-    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 440 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Angle measuring 140 degrees\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"440\" height=\"170\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"220\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Read the angle</text>\n  <line class=\"part arm\" x1=\"40\" y1=\"130\" x2=\"400\" y2=\"130\" stroke=\"#333\" stroke-width=\"2.5\"/>\n  <line class=\"part arm\" x1=\"80\" y1=\"130\" x2=\"-19.6\" y2=\"46.4\" stroke=\"#333\" stroke-width=\"2.5\"/>\n  <circle class=\"part vertex\" cx=\"80\" cy=\"130\" r=\"5\" fill=\"#e65100\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <path class=\"part arc\" d=\"M 150 130 A 70 70 0 0 0 26.4 85.0\" fill=\"none\" stroke=\"#42a5f5\" stroke-width=\"2\"/>\n  <text class=\"label\" x=\"160\" y=\"95\" font-size=\"18\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">140\u00b0</text>\n  <text class=\"label small\" x=\"220\" y=\"155\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Compare the opening with a square corner.</text>\n</svg>", "alt": "A baseline with a second arm opening wide. A blue arc between them is labelled 140\u00b0."}
+    answerId: "a",
+    explanation: "The tips make a full turn of 360\u00b0 at the centre, so each is 360\u00b0 \u00f7 8 = 45\u00b0. 22.5\u00b0 is tempting, but it shares only a straight angle (180\u00b0), which is half a turn.",
+    hints: ["All the slice tips meet at the centre and make one full turn together. Share that turn equally."]
   },
   {
     id: "g5-maths-angles-b-q02",
