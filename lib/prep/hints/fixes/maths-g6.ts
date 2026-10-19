@@ -35,7 +35,7 @@ export const G6_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g6-maths-int-b-q10": ["a − b = −5 − (−3). Subtracting −3 means adding 3."],
   "g6-maths-int-b-q13": ["Pair up the negatives: each pair of minus signs makes a positive. How many pairs are there?"],
   "g6-maths-int-b-q15": ["Find the distance of −9 from zero and of −4 from zero, then subtract."],
-  "g6-maths-int-b-q16": ["A number plus its opposite gives zero. Work out each expression with 5 and −5."],
+  "g6-maths-int-b-q16": ["Work out each expression with 5 and −5, one at a time. Remember that subtracting −5 is the same as adding 5."],
   "g6-maths-int-b-q17": ["Add Riya's first two scores, −8 + 12, then add the −3."],
   "g6-maths-int-b-q20": ["(−3) + 5 = 5 + (−3) swaps the order of two numbers being added. Which property allows that swap?"],
   "g6-maths-int-b-q21": ["Check each factor between −2 and 17. Multiplying by nothing at all gives nothing."],

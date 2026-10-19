@@ -651,7 +651,7 @@ def g2_maths_timemoney():
         q("Three ₹2 coins make…", ["₹2", "₹4", "₹6", "₹8"], "c", "2 + 2 + 2 = ₹6.", "Three twos.", "₹6."),
         q("Half past 5 is…", ["5:00", "5:30", "5:15", "6:00"], "b", "Half past 5 = 5:30.", "30 minutes past.", "5:30."),
         q("Which is less: ₹9 or ₹19?", ["₹9", "₹19", "same", "₹90"], "a", "₹9 is less than ₹19.", "Compare.", "₹9."),
-        q("Lunch time is often around…", ["noon / midday", "midnight only", "3 a.m. only", "never"], "a", "Lunch is often around midday.", "Middle of day.", "Noon."),
+        q("Lunch time is often around…", ["noon", "midnight only", "3 a.m. only", "7 p.m. only"], "a", "Lunch is often around noon, 12 o'clock in the daytime (also called midday). 7 p.m. is nearer dinner time; midnight and 3 a.m. are in the night.", "Middle of day.", "The clock shows 12 in the daytime."),
         q("A toy costs ₹25. You have ₹30. Can you buy it?", ["yes", "no", "only with ₹10", "never"], "a", "30 is more than 25 — yes.", "Compare money to price.", "Yes."),
         q("The long hand on a clock is the…", ["hour hand", "minute hand", "date", "year"], "b", "The long hand shows minutes.", "Longer = minutes.", "Minute hand."),
         q("₹10 + ₹10 = ?", ["₹10", "₹20", "₹30", "₹100"], "b", "10 + 10 = ₹20.", "Two tens.", "₹20."),

@@ -125,7 +125,7 @@ def real_numbers():
         "a", "LCM(12,16,20) = 2⁴×3×5 = 240.", "Least common multiple of the three."))
     B.append(q(
         "√(18/50) simplifies to —",
-        ["3/5", "9/25", "√18 / 50", "3√2 / 5√2"],
+        ["3/5", "9/25", "√18 / 50", "3√2 / 5"],
         "a", "√(18/50) = √(9/25) = 3/5.", "Simplify the fraction inside before taking the root."))
     B.append(q("Which number can be written in the form p/q, where p and q are integers and q ≠ 0?",
       ["0.333… (the 3 repeats for ever)", "√2 + 1", "√7", "π"],

@@ -110,7 +110,7 @@ export const G5_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g5-maths-frac-b-q12": ["Both have 3 parts on top. Is a fifth or an eighth of a bar the bigger piece?"],
   "g5-maths-frac-b-q13": ["Find 1/4 of 32 mangoes by dividing by 4, then multiply by 3."],
   "g5-maths-frac-b-q14": ["Same bottoms: subtract the tops 7 − 3, keep eighths, then simplify."],
-  "g5-maths-frac-b-q16": ["The point is 6 jumps of 1/8 each. Write 6/8, then simplify."],
+  "g5-maths-frac-b-q16": ["The point is 6 jumps of 1/8 each. Write that as a fraction over 8, then divide top and bottom by their common factor."],
   "g5-maths-frac-b-q17": ["All have the same bottom, 12. Order them from largest to smallest by comparing the tops."],
   "g5-maths-frac-b-q18": ["What do you multiply 4 by to get 24? Multiply 5 by the same number."],
   "g5-maths-frac-b-q19": ["The part left is 1 − 5/6 of the journey. Find that fraction of 60 km."],

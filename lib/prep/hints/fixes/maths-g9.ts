@@ -1,7 +1,7 @@
 /**
  * Grade 9 Maths — item-specific hint fixes (fix layer).
  * Source: app repo commit 4291140 (served hints: lib/prep/content + lib/prep/hints overlays). Written 2026-10-19.
- * Items changed: 85 | hints: 85
+ * Items changed: 86 | hints: 86
  * By category (primary): answer-revealing fixed 11 · generic replaced 68 · shared-hint split 6
  * Each hint nudges the method using the item's own numbers/objects; none contains the answer,
  * an option letter or "eliminate options". A later hint is a stronger nudge (a first step worked).
@@ -97,5 +97,6 @@ export const G9_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g9-maths-coord-b-q18": ["Quadrant I is the upper-right part of the plane. Is x right or left of the y-axis, and is y above or below?"],
   "g9-maths-coord-b-q19": ["Both points have the same x-coordinate, 1. What kind of line joins points with equal x?"],
   "g9-maths-coord-b-q20": ["y = 0 puts (−6, 0) on an axis. The x-value −6 says which way and how far from the origin."],
-  "g9-maths-coord-b-q21": ["The distance formula subtracts x-values and y-values. Match 5 − 1 to the x-values and 2 − 2 to the y-values."],
+  "g9-maths-coord-b-q21": ["In the distance formula, the first bracket subtracts the two x-coordinates and the second subtracts the two y-coordinates. Check each pair."],
+  "g9-maths-coord-a-q14": ["Every point on the y-axis sits straight above or below the origin. Which coordinate is the same for all of them?"],
 };

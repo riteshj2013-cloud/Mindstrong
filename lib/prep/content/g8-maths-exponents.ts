@@ -127,7 +127,7 @@ const SET_A: PrepQuestion[] = [
       { id: "a", text: "3\u2074" },
       { id: "b", text: "3\u207b\u2074" },
       { id: "c", text: "9\u207b\u00b2" },
-      { id: "d", text: "Both B and C" }
+      { id: "d", text: "Both 3\u207b\u2074 and 9\u207b\u00b2" }
     ],
     answerId: "d",
     explanation: "81 = 3\u2074 = 9\u00b2, so 1/81 = 3\u207b\u2074 = 9\u207b\u00b2.",
@@ -442,7 +442,7 @@ const SET_B: PrepQuestion[] = [
       { id: "a", text: "5\u00b2" },
       { id: "b", text: "5\u207b\u00b2" },
       { id: "c", text: "25\u207b\u00b9" },
-      { id: "d", text: "Both B and C" }
+      { id: "d", text: "Both 5\u207b\u00b2 and 25\u207b\u00b9" }
     ],
     answerId: "d",
     explanation: "25 = 5\u00b2, so 1/25 = 5\u207b\u00b2 = 25\u207b\u00b9.",

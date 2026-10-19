@@ -64,7 +64,7 @@ export const G10_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-maths-linear-a-q23": ["Let the son be s and the father 3s. In 12 years: 3s + 12 = 2(s + 12). Solve for s."],
   "g10-maths-linear-a-q24": ["x = 2 is a vertical line and y = 3 is a horizontal line. Where do they meet?"],
   "g10-maths-linear-b-q02": ["Divide 4x − 2y − k = 0 by 2. For parallel lines its constant must differ from the first line's."],
-  "g10-maths-linear-b-q03": ["Multiply both by 10: 2x + 3y = 13 and 4x + 5y = 23. Eliminate x, find y, then x."],
+  "g10-maths-linear-b-q03": ["Multiply both equations by 10 to clear the decimals. Then eliminate x, find y, and substitute back to get x."],
   "g10-maths-linear-b-q05": ["The left side is the sum of both left sides of the equations. So add 17 and 6."],
   "g10-maths-linear-b-q06": ["Write (n + 1)/(d + 1) = 1/2 and (n − 1)/(d − 1) = 1/3. Cross-multiply and solve."],
   "g10-maths-linear-b-q13": ["In x + y = 4, find where the line meets each axis: make one variable zero, then the other."],

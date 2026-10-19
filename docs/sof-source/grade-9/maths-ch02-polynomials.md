@@ -343,7 +343,7 @@
 - **options**:
   - A) 4
   - B) −1
-  - C) both A and B
+  - C) both 4 and −1
   - D) 3
 - **answer**: C
 - **explanation**: (x − 4)(x + 1) = x² − 3x − 4, so zeros are 4 and −1.

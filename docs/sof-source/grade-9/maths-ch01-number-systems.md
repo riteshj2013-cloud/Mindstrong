@@ -125,7 +125,7 @@
 - **options**:
   - A) 6/9
   - B) 2/3
-  - C) both A and B (since 6/9 = 2/3)
+  - C) both 6/9 and 2/3
   - D) 6/10
 - **answer**: C
 - **explanation**: 0.¯6 = 6/9 = 2/3, so both equivalent fraction forms are correct.
@@ -511,7 +511,7 @@
 - **options**:
   - A) 3/2
   - B) √(9/4) = 3/2
-  - C) both A and B
+  - C) both 3/2 and √(9/4)
   - D) √2
 - **answer**: C
 - **explanation**: √18/√8 = √(18/8) = √(9/4) = 3/2.

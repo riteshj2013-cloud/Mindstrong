@@ -113,7 +113,7 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "6/9" },
       { id: "b", text: "2/3" },
-      { id: "c", text: "both A and B (since 6/9 = 2/3)" },
+      { id: "c", text: "both 6/9 and 2/3" },
       { id: "d", text: "6/10" }
     ],
     answerId: "c",
@@ -532,7 +532,7 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "3/2" },
       { id: "b", text: "√(9/4) = 3/2" },
-      { id: "c", text: "both A and B" },
+      { id: "c", text: "both 3/2 and √(9/4)" },
       { id: "d", text: "√2" }
     ],
     answerId: "c",

@@ -322,13 +322,13 @@ const SET_B: PrepQuestion[] = [
     id: "g2-maths-timemoney-b-q09",
     prompt: "Lunch time is often around\u2026",
     options: [
-      { id: "a", text: "noon / midday" },
+      { id: "a", text: "noon" },
       { id: "b", text: "midnight only" },
       { id: "c", text: "3 a.m. only" },
-      { id: "d", text: "never" }
+      { id: "d", text: "7 p.m. only" }
     ],
     answerId: "a",
-    explanation: "Lunch is often around midday.",
+    explanation: "Lunch is often around noon, 12 o'clock in the daytime (also called midday). 7 p.m. is nearer dinner time; midnight and 3 a.m. are in the night.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

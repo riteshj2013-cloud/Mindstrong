@@ -1,7 +1,7 @@
 /**
  * Grade 4 Maths — item-specific hint fixes (fix layer).
  * Source: app repo commit 4291140 (served hints: lib/prep/content + lib/prep/hints overlays). Written 2026-10-19.
- * Items changed: 34 | hints: 66
+ * Items changed: 39 | hints: 76
  * By category (primary): answer-revealing fixed 34
  * Each hint nudges the method using the item's own numbers/objects; none contains the answer,
  * an option letter or "eliminate options". A later hint is a stronger nudge (a first step worked).
@@ -47,5 +47,10 @@ export const G4_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-maths-data-a-q01": ["Count the strokes in one tally gate: the upright lines plus the slash across them.", "A tally gate has 4 upright strokes and 1 slash. Add the strokes."],
   "g4-maths-data-a-q22": ["Think of a marksheet: names go down in rows, subjects go across in columns.", "What do we call data set out in rows and columns, like a train chart or marksheet?"],
   "g4-maths-data-b-q05": ["A display where pictures stand for numbers has a key, like one picture = 5 books.", "Look for the display whose key tells what each picture stands for."],
+  "g4-maths-measurement-a-q07": ["The prefix kilo- means the same big multiple in kilogram, kilometre and kilolitre.", "Picture a 1 kg bag of sugar balanced by 1 g weights. How many weights would you need?"],
+  "g4-maths-measurement-a-q13": ["Think of body-based traditional measures.", "Ser, maund and tola are old weights. Which old unit measures length along your forearm?"],
+  "g4-maths-measurement-a-q21": ["Kilo- in kilometre is the same multiple as in kilogram. Check the unit and the count in each statement.", "A kilometre is measured in metres, not centimetres. Recall how many metres make 1 km."],
+  "g4-maths-measurement-b-q02": ["Kilo- in kilometre means the same multiple as in kilogram.", "Picture a 1 km walk made of 1 m steps. How many steps is that?"],
+  "g4-maths-geometry-a-q15": ["Right angles look like notebook corners.", "Sketch each shape. Which one has a notebook corner at all 4 of its corners, every time?"],
   "g4-maths-data-b-q08": ["Each step on the bar graph scale is the gap between neighbouring marks.", "Subtract one mark on the scale from the next, for example 6 from 8."],
 };
