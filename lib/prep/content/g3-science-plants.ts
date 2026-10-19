@@ -85,15 +85,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-sci-plants-a-q07",
-    prompt: "Most leaves are which colour?",
+    prompt: "At a feast in Kerala, food is served on one large, wide leaf. Which leaf is it most likely to be?",
     options: [
-      { id: "a", text: "Blue" },
-      { id: "b", text: "Black" },
-      { id: "c", text: "Pink" },
-      { id: "d", text: "Green" }
+      { id: "a", text: "Tulsi leaf" },
+      { id: "b", text: "Neem leaf" },
+      { id: "c", text: "Grass blade" },
+      { id: "d", text: "Banana leaf" }
     ],
     answerId: "d",
-    explanation: "Most leaves are green. The green colour helps them use sunlight to make food.",
+    explanation: "Banana leaves are very large, wide, smooth and waterproof, so in many parts of India they are used as plates. Neem is a common tree too, but its leaves are small and narrow.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

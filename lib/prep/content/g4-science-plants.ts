@@ -5,15 +5,15 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g4-sci-plants-a-q01",
-    prompt: "Which part of a plant usually grows under the soil and takes in water?",
+    prompt: "A banyan tree has roots that grow down from its branches into the soil, like pillars. What are these roots called?",
     options: [
-      { id: "a", text: "Root" },
-      { id: "b", text: "Flower" },
-      { id: "c", text: "Fruit" },
-      { id: "d", text: "Leaf" }
+      { id: "a", text: "Prop roots" },
+      { id: "b", text: "Tendrils" },
+      { id: "c", text: "Thorns" },
+      { id: "d", text: "Runners" }
     ],
     answerId: "a",
-    explanation: "Roots grow down into the soil. They take in water and minerals and hold the plant firmly.",
+    explanation: "Prop roots grow down from the branches of a banyan tree and support its heavy, spreading branches. Tendrils also hold on to things, but they are thin coiling parts that help climbers like the pea plant hold a support.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -109,15 +109,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-sci-plants-a-q09",
-    prompt: "When we eat spinach (palak), which plant part are we mostly eating?",
+    prompt: "Which of these vegetables do we eat as a FLOWER?",
     options: [
-      { id: "a", text: "Leaf" },
-      { id: "b", text: "Root" },
-      { id: "c", text: "Stem" },
-      { id: "d", text: "Seed" }
+      { id: "a", text: "Cauliflower" },
+      { id: "b", text: "Carrot" },
+      { id: "c", text: "Potato" },
+      { id: "d", text: "Spinach" }
     ],
     answerId: "a",
-    explanation: "Spinach is made of soft green leaves. Leafy vegetables give us vitamins and fibre.",
+    explanation: "The white head of a cauliflower is made of many tiny flower buds packed tightly together. Spinach is also a soft green vegetable, but we eat its leaves. Carrot is a root and potato is an underground stem.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

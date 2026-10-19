@@ -13,7 +13,7 @@ export const G9_SCIENCE_HINTS: Record<string, HintOverlay> = {
   "g9-sci-matter-a-q09": ["Think of clothes drying on a damp, sticky monsoon day."],
   "g9-sci-matter-a-q10": ["Pour water into different vessels."],
   "g9-sci-matter-a-q11": ["SI temperature unit."],
-  "g9-sci-matter-a-q12": ["Add 273 to Celsius."],
+  "g9-sci-matter-a-q12": ["The water now tastes sweet, so the sugar is still there. How could it fit in without raising the level?"],
   "g9-sci-matter-a-q13": ["Strong forces ↔ fixed shape."],
   "g9-sci-matter-a-q14": ["Where else could the water come from, apart from inside the glass?"],
   "g9-sci-matter-a-q15": ["Kinetic idea of matter."],

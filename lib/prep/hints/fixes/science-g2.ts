@@ -1,10 +1,11 @@
 /**
  * Grade 2 Science — item-specific hint fixes (fix layer).
  * Source: app repo origin/main c5a133b (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 44 | hints: 88
+ * Items changed: 46 | hints: 90
  * By category (primary): answer-leak fixed 0 · chapter-shared hint split 6 · other strict-check fixes 38
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
+ * Also holds hints for items rewritten in the Science near-duplicate stem pass (2026-10-19).
  * Merge: these WIN over G2_SCIENCE_HINTS and over authored question.hints (see ../index.ts applyHints).
  */
 import type { HintOverlay } from "../types";
@@ -37,6 +38,7 @@ export const G2_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g2-sci-animals-b-q11": ["An elephant's trunk is a long nose.", "How does an elephant reach leaves and water?"],
   "g2-sci-animals-b-q13": ["Nocturnal animals are active at night.", "Animals awake in sunlight have the opposite name."],
   "g2-sci-animals-b-q15": ["Wild animals deserve kindness.", "Which choice would be unkind to a wild animal?"],
+  "g2-sci-animals-a-q03": ["Which animal has no legs at all, so its belly slides along the ground as it moves?"],
   // g2-science-air-water
   "g2-sci-airwater-a-q03": ["Water has three forms.", "When water is heated, it rises into the air. What form is that?"],
   "g2-sci-airwater-a-q07": ["Boiling water bubbles hard.", "Look above a boiling pot. What rises from the water?"],
@@ -57,4 +59,5 @@ export const G2_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g2-sci-airwater-b-q12": ["Rubbish should go in dustbins.", "Where would rubbish make water dirty?"],
   "g2-sci-airwater-b-q15": ["We breathe air all day.", "Clean air keeps our lungs well."],
   "g2-sci-airwater-b-q16": ["Boiling water kills germs.", "Water with no germs is better to drink."],
+  "g2-sci-airwater-b-q14": ["You cannot see it, but you push it out of your mouth each time you breathe out into the balloon."],
 };

@@ -148,15 +148,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g9-sci-matter-a-q12",
-    prompt: "0°C equals how many kelvin?",
+    prompt: "A spoon of sugar is stirred into 50 mL of water until it dissolves, and the water level hardly rises. This shows that particles of matter \u2014",
     options: [
-      { id: "a", text: "0 K" },
-      { id: "b", text: "100 K" },
-      { id: "c", text: "373 K" },
-      { id: "d", text: "273 K" }
+      { id: "a", text: "are always at rest" },
+      { id: "b", text: "have no mass" },
+      { id: "c", text: "attract each other strongly" },
+      { id: "d", text: "have spaces between them" }
     ],
     answerId: "d",
-    explanation: "T(K) = t(°C) + 273 (approx. 273.15).",
+    explanation: "The sugar particles fit into the spaces between the water particles, so the volume hardly increases. Particles do attract each other, but attraction alone does not explain how the sugar fits in without raising the level.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

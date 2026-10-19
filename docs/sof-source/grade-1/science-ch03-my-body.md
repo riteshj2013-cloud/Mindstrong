@@ -155,17 +155,17 @@
 
 **Q11.**
 
-**Stem:** We have how many eyes?
+**Stem:** When you sit on a chair, which part of your legs bends?
 
 **Options:**
-- A) 1
-- B) 3
-- C) 2
-- D) 4
+- A) ears
+- B) elbows
+- C) knees
+- D) nose
 
 **Answer:** C
 
-**Explanation:** Most people have 2 eyes.
+**Explanation:** Our knees are in the middle of our legs. They bend when we sit, kneel or climb steps. Elbows bend too, but elbows are in our arms, not our legs.
 
 **Q12.**
 
@@ -298,17 +298,17 @@
 
 **Q5.**
 
-**Stem:** We have how many legs?
+**Stem:** On a cold winter morning, what should we wear to keep our body warm?
 
 **Options:**
-- A) 2
-- B) 1
-- C) 3
-- D) 4
+- A) a warm sweater
+- B) a paper hat
+- C) wet clothes
+- D) swimming clothes
 
 **Answer:** A
 
-**Explanation:** We have 2 legs.
+**Explanation:** A warm sweater keeps the heat of our body close to us, so we feel warm in winter. Swimming clothes are clothes too, but they are thin and made for water, not for the cold.
 
 **Q6.**
 

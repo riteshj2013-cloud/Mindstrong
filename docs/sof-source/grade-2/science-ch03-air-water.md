@@ -424,17 +424,17 @@
 
 **Q14.**
 
-**Stem:** Snow is water in a ___ form.
+**Stem:** Riya blows into a balloon and it gets bigger. What fills the balloon?
 
 **Options:**
-- A) liquid only
-- B) solid
-- C) gas only
-- D) plastic
+- A) water
+- B) air
+- C) sand
+- D) light
 
 **Answer:** B
 
-**Explanation:** Snow is solid water.
+**Explanation:** When Riya blows, air from her lungs goes into the balloon. Air takes up space, so the balloon grows. Water is wrong: nothing wet came out of Riya's mouth.
 
 **Q15.**
 

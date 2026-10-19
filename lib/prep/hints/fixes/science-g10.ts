@@ -1,10 +1,11 @@
 /**
  * Grade 10 Science — item-specific hint fixes (fix layer).
  * Source: app repo origin/main c5a133b (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 61 | hints: 61
+ * Items changed: 62 | hints: 62
  * By category (primary): answer-leak fixed 12 · chapter-shared hint split 0 · other strict-check fixes 49
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
+ * Also holds hints for items rewritten in the Science near-duplicate stem pass (2026-10-19).
  * Merge: these WIN over G10_SCIENCE_HINTS and over authored question.hints (see ../index.ts applyHints).
  */
 import type { HintOverlay } from "../types";
@@ -42,7 +43,7 @@ export const G10_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-sci-life-a-q16": ["In transpiration, water evaporating from leaves pulls more water up the xylem and takes heat away. Which two benefits follow?"],
   "g10-sci-life-a-q17": ["The liver turns extra amino acids into a nitrogen waste that kidneys filter into urine. Which waste is it?"],
   "g10-sci-life-a-q21": ["Salivary amylase works in the mouth on a carbohydrate in rice and chapati, turning it sweet as you chew."],
-  "g10-sci-life-b-q01": ["Photosynthesis makes glucose and releases oxygen. Which raw materials enter the leaf through stomata and roots?"],
+  "g10-sci-life-b-q01": ["The test should show only starch made during the experiment. What must happen to starch the leaf had beforehand?"],
   "g10-sci-life-b-q02": ["Experiments with labelled oxygen show the O₂ released comes from splitting a raw material taken in by roots."],
   "g10-sci-life-b-q03": ["The oesophagus and intestine walls contract in rhythmic waves. What does that rhythmic squeezing do to food?"],
   "g10-sci-life-b-q07": ["A sphygmomanometer has an arm cuff and a pressure gauge. What does a doctor read with it?"],
@@ -53,6 +54,7 @@ export const G10_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-sci-life-b-q18": ["Blood has cells and a straw-coloured liquid part. In ABO groups, antigens sit on red cells; where are antibodies?"],
   "g10-sci-life-b-q20": ["During heavy exercise muscles respire faster. What must the lungs bring in faster, and what must they remove?"],
   "g10-sci-life-b-q21": ["Saprophytes feed on dead and decaying matter and break it down. Which organisms grow on rotting logs?"],
+  "g10-sci-life-a-q10": ["Root cells take in ions from the soil and water follows by osmosis. What builds up at the base of the xylem?"],
   // g10-science-light
   "g10-sci-light-a-q01": ["Measure both angles from the normal at the point of incidence. Which rule states that they are equal?"],
   "g10-sci-light-a-q06": ["Magnification compares image height with object height. For mirrors, write it using image and object distances with signs."],

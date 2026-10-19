@@ -43,17 +43,17 @@
 
 **Q3.**
 
-**Stem:** Birds have ___ to fly.
+**Stem:** Which animal moves by crawling on its belly?
 
 **Options:**
-- A) fins only
-- B) roots
-- C) wings
-- D) wheels
+- A) horse
+- B) parrot
+- C) snake
+- D) kangaroo
 
 **Answer:** C
 
-**Explanation:** Birds use wings to fly.
+**Explanation:** A snake has no legs. It moves by bending its long body and sliding along on its belly. A kangaroo also moves in a special way, but it hops on its strong back legs.
 
 **Q4.**
 

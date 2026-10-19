@@ -5,6 +5,7 @@
  * By category (primary): answer-leak fixed 3 · chapter-shared hint split 9 · other strict-check fixes 23
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
+ * Also holds hints for items rewritten in the Science near-duplicate stem pass (2026-10-19).
  * Merge: these WIN over G1_SCIENCE_HINTS and over authored question.hints (see ../index.ts applyHints).
  */
 import type { HintOverlay } from "../types";
@@ -39,11 +40,11 @@ export const G1_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g1-sci-body-a-q05": ["Hold up your hands and count them.", "Count one for each hand you hold up."],
   "g1-sci-body-a-q06": ["Look down at what touches the ground when you walk."],
   "g1-sci-body-a-q08": ["Breathe in slowly. Where does the air go in?", "Put your hand near your face and breathe in. Where do you feel the air going in?"],
-  "g1-sci-body-a-q11": ["Look in a mirror and count your eyes.", "Cover one eye, then the other. How many eyes did you cover?"],
+  "g1-sci-body-a-q11": ["Sit down slowly on a chair. Watch your legs.", "Touch the middle of one leg as you sit. Which part folds?"],
   "g1-sci-body-a-q12": ["Skin covers your whole body.", "Touch something soft. Which sense tells you it is soft?"],
   "g1-sci-body-a-q13": ["Exercise is running, jumping and playing.", "Does playing every day help your body or hurt it?"],
   "g1-sci-body-a-q14": ["Sleep helps the body rest.", "When is it dark and quiet, time for bed?"],
-  "g1-sci-body-b-q05": ["Stand up and count your legs.", "Hop on one leg, then stand on all your legs. How many legs?"],
+  "g1-sci-body-b-q05": ["Think of a chilly morning before school.", "On a cold morning, what do you put on over your shirt?"],
   "g1-sci-body-b-q06": ["Germs can fly out of your mouth.", "When do germs fly out of your mouth fast? Think of a tickly nose."],
   "g1-sci-body-b-q07": ["Bones are hard and strong inside your body.", "Without bones, could your body stay up straight?"],
   "g1-sci-body-b-q09": ["Nails are hard and grow at the tips.", "Where do nails grow? Look at the tips of your hands and feet."],

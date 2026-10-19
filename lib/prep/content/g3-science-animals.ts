@@ -409,15 +409,15 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-sci-animals-b-q07",
-    prompt: "Which of these is an omnivore?",
+    prompt: "Which animal can live both on land and in water?",
     options: [
-      { id: "a", text: "Deer" },
-      { id: "b", text: "Human" },
-      { id: "c", text: "Tiger" },
-      { id: "d", text: "Rabbit" }
+      { id: "a", text: "Cow" },
+      { id: "b", text: "Frog" },
+      { id: "c", text: "Parrot" },
+      { id: "d", text: "Camel" }
     ],
     answerId: "b",
-    explanation: "Humans eat plant food like rice and fruits. We also eat eggs, fish or milk. So we are omnivores.",
+    explanation: "A frog starts life in water as a tadpole. When it grows, it hops on land and also swims using its webbed back feet. A camel is wrong: it lives in dry deserts with very little water.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

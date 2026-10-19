@@ -157,14 +157,14 @@
 - **difficulty**: easy
 
 ### Q12
-- **stem**: 0°C equals how many kelvin?
+- **stem**: A spoon of sugar is stirred into 50 mL of water until it dissolves, and the water level hardly rises. This shows that particles of matter —
 - **options**:
-  - A) 0 K
-  - B) 100 K
-  - C) 373 K
-  - D) 273 K
+  - A) are always at rest
+  - B) have no mass
+  - C) attract each other strongly
+  - D) have spaces between them
 - **answer**: D
-- **explanation**: T(K) = t(°C) + 273 (approx. 273.15).
+- **explanation**: The sugar particles fit into the spaces between the water particles, so the volume hardly increases. Particles do attract each other, but attraction alone does not explain how the sugar fits in without raising the level.
 - **skill**: units
 - **difficulty**: easy
 

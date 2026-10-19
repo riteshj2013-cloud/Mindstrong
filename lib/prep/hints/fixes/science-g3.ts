@@ -5,6 +5,7 @@
  * By category (primary): answer-leak fixed 25 · chapter-shared hint split 114 · other strict-check fixes 5
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
+ * Also holds hints for items rewritten in the Science near-duplicate stem pass (2026-10-19).
  * Merge: these WIN over G3_SCIENCE_HINTS and over authored question.hints (see ../index.ts applyHints).
  */
 import type { HintOverlay } from "../types";
@@ -17,7 +18,7 @@ export const G3_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g3-sci-plants-a-q04": ["Think of the tall middle part that stands up like a pole and works like a pipe up to the leaves."],
   "g3-sci-plants-a-q05": ["After the bee visits, the flower swells and grows into something we can pick and eat, like a mango."],
   "g3-sci-plants-a-q06": ["Cut an apple or a melon open. What small things inside most fruits could grow into new plants?"],
-  "g3-sci-plants-a-q07": ["Look at the trees outside your window. What colour are most of their leaves?"],
+  "g3-sci-plants-a-q07": ["Which plant has leaves big, wide and smooth enough to hold a whole meal of rice and curry?"],
   "g3-sci-plants-a-q08": ["Follow the three arrows into the green leaf in the picture. What do the sun, the cloud and the drop stand for?"],
   "g3-sci-plants-a-q09": ["A seed has a baby plant sleeping inside. Give it water and warmth. What does it become?"],
   "g3-sci-plants-a-q10": ["Bees and butterflies are drawn by bright colours and sweet smells. Which plant part do they visit?"],
@@ -90,7 +91,7 @@ export const G3_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g3-sci-animals-b-q04": ["The spider spins sticky silk threads, and the fly got stuck in them. What is this silk trap called?"],
   "g3-sci-animals-b-q05": ["In the food chain, follow the arrows: which animal eats the grass, and which eats that animal?"],
   "g3-sci-animals-b-q06": ["Farmers keep cows in a covered building with a roof. What is the cow's home called?"],
-  "g3-sci-animals-b-q07": ["An omnivore eats both plants and animals. Who eats rice and fruits, and also eggs, fish or milk?"],
+  "g3-sci-animals-b-q07": ["Think of an animal that hops on the bank of a pond and also swims in the pond."],
   "g3-sci-animals-b-q08": ["The little hill of soil has tunnels where tiny insects live together. Which insects build hills like this?"],
   "g3-sci-animals-b-q09": ["Birds build nests. Which animal in the list is a small bird that chirps?"],
   "g3-sci-animals-b-q10": ["An elephant is a huge plant eater. Which choice comes from trees?"],

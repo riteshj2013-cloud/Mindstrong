@@ -1,10 +1,11 @@
 /**
  * Grade 4 Science — item-specific hint fixes (fix layer).
  * Source: app repo origin/main c5a133b (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 92 | hints: 92
+ * Items changed: 94 | hints: 94
  * By category (primary): answer-leak fixed 1 · chapter-shared hint split 82 · other strict-check fixes 9
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
+ * Also holds hints for items rewritten in the Science near-duplicate stem pass (2026-10-19).
  * Merge: these WIN over G4_SCIENCE_HINTS and over authored question.hints (see ../index.ts applyHints).
  */
 import type { HintOverlay } from "../types";
@@ -105,6 +106,8 @@ export const G4_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-sci-water-b-q23": ["The clouds are dark and heavy with water drops. They cannot hold any more. What happens next?"],
   // g4-science-plants
   "g4-sci-plants-b-q07": ["In a germinating seed one baby part heads down into soil and the other heads up toward light. Which grows upward?"],
+  "g4-sci-plants-a-q01": ["What job do these pillar-like roots do for the heavy branches? Pick the name that matches that job."],
+  "g4-sci-plants-a-q09": ["Look for the vegetable with a white head made of tightly packed tiny buds. Its name gives a clue."],
   // g4-science-animals
   "g4-sci-animals-b-q17": ["Complete the analogy: gills are a fish's breathing organs. Who breathes with lungs, like you do?"],
 };
