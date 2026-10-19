@@ -7,12 +7,12 @@ const SET_A: PrepQuestion[] = [
     id: "g4-maths-muldiv-a-q01",
     prompt: "Look at the Frog Jumps. Which multiplication fact do the frog's jumps show?",
     options: [
-      { id: "a", text: "6 \u00d7 6 = 36" },
-      { id: "b", text: "5 + 6 = 11" },
-      { id: "c", text: "5 \u00d7 6 = 30" },
-      { id: "d", text: "4 \u00d7 6 = 24" }
+      { id: "a", text: "5 × 6 = 30" },
+      { id: "b", text: "6 × 6 = 36" },
+      { id: "c", text: "5 + 6 = 11" },
+      { id: "d", text: "4 × 6 = 24" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "The frog makes 5 jumps of 6 and lands on 30, so 5 \u00d7 6 = 30.",
     hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 460 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Frog Jumps\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"460\" height=\"150\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"230.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Frog Jumps</text>\n  <line class=\"axis\" x1=\"15\" y1=\"105\" x2=\"447\" y2=\"105\" stroke=\"#333\" stroke-width=\"2\"/>\n  <polygon class=\"arrow\" points=\"453,105 445,100 445,110\" fill=\"#333\"/>\n  <line class=\"tick\" x1=\"25.0\" y1=\"97\" x2=\"25.0\" y2=\"113\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"25.0\" y=\"131\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">0</text>\n  <line class=\"tick\" x1=\"93.33\" y1=\"97\" x2=\"93.33\" y2=\"113\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"93.33\" y=\"131\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">6</text>\n  <line class=\"tick\" x1=\"161.67\" y1=\"97\" x2=\"161.67\" y2=\"113\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"161.67\" y=\"131\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">12</text>\n  <line class=\"tick\" x1=\"230.0\" y1=\"97\" x2=\"230.0\" y2=\"113\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"230.0\" y=\"131\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">18</text>\n  <line class=\"tick\" x1=\"298.33\" y1=\"97\" x2=\"298.33\" y2=\"113\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"298.33\" y=\"131\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">24</text>\n  <line class=\"tick\" x1=\"366.67\" y1=\"97\" x2=\"366.67\" y2=\"113\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"366.67\" y=\"131\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">30</text>\n  <line class=\"tick\" x1=\"435.0\" y1=\"97\" x2=\"435.0\" y2=\"113\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"435.0\" y=\"131\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">36</text>\n  <path class=\"arrow jump\" d=\"M 25.0 101 Q 59.165 21 93.33 99\" fill=\"none\" stroke=\"#e65100\" stroke-width=\"2\"/>\n  <polygon class=\"arrow\" points=\"93.33,100 86.33,93 94.33,91\" fill=\"#e65100\"/>\n  <text class=\"label jump-label\" x=\"59.165\" y=\"55\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">+6</text>\n  <path class=\"arrow jump\" d=\"M 93.33 101 Q 127.5 21 161.67 99\" fill=\"none\" stroke=\"#e65100\" stroke-width=\"2\"/>\n  <polygon class=\"arrow\" points=\"161.67,100 154.67,93 162.67,91\" fill=\"#e65100\"/>\n  <text class=\"label jump-label\" x=\"127.5\" y=\"55\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">+6</text>\n  <path class=\"arrow jump\" d=\"M 161.67 101 Q 195.83499999999998 21 230.0 99\" fill=\"none\" stroke=\"#e65100\" stroke-width=\"2\"/>\n  <polygon class=\"arrow\" points=\"230.0,100 223.0,93 231.0,91\" fill=\"#e65100\"/>\n  <text class=\"label jump-label\" x=\"195.83499999999998\" y=\"55\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">+6</text>\n  <path class=\"arrow jump\" d=\"M 230.0 101 Q 264.16499999999996 21 298.33 99\" fill=\"none\" stroke=\"#e65100\" stroke-width=\"2\"/>\n  <polygon class=\"arrow\" points=\"298.33,100 291.33,93 299.33,91\" fill=\"#e65100\"/>\n  <text class=\"label jump-label\" x=\"264.16499999999996\" y=\"55\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">+6</text>\n  <path class=\"arrow jump\" d=\"M 298.33 101 Q 332.5 21 366.67 99\" fill=\"none\" stroke=\"#e65100\" stroke-width=\"2\"/>\n  <polygon class=\"arrow\" points=\"366.67,100 359.67,93 367.67,91\" fill=\"#e65100\"/>\n  <text class=\"label jump-label\" x=\"332.5\" y=\"55\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">+6</text>\n</svg>", "alt": "A number line from 0 to 36 marked every 6. Five orange jump arrows, each labelled +6, go from 0 to 30."}
@@ -22,11 +22,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Look at the Times Table Grid. Find the numbers hidden in cells **P** and **Q**. What is P + Q?",
     options: [
       { id: "a", text: "126" },
-      { id: "b", text: "118" },
-      { id: "c", text: "138" },
-      { id: "d", text: "128" }
+      { id: "b", text: "128" },
+      { id: "c", text: "118" },
+      { id: "d", text: "138" }
     ],
-    answerId: "d",
+    answerId: "b",
     explanation: "P = 7 \u00d7 8 = 56 and Q = 8 \u00d7 9 = 72, so P + Q = 128.",
     hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 320 220\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Times Table Grid\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"160.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Times Table Grid</text>\n  <rect class=\"part header\" x=\"20\" y=\"36\" width=\"70\" height=\"40\" rx=\"0\" fill=\"#e0e0e0\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"55.0\" y=\"62\" font-size=\"18\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">\u00d7</text>\n  <rect class=\"part header\" x=\"90\" y=\"36\" width=\"70\" height=\"40\" rx=\"0\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"125.0\" y=\"62\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">7</text>\n  <rect class=\"part header\" x=\"160\" y=\"36\" width=\"70\" height=\"40\" rx=\"0\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"195.0\" y=\"62\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">8</text>\n  <rect class=\"part header\" x=\"230\" y=\"36\" width=\"70\" height=\"40\" rx=\"0\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"265.0\" y=\"62\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">9</text>\n  <rect class=\"part header\" x=\"20\" y=\"76\" width=\"70\" height=\"40\" rx=\"0\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"55.0\" y=\"102\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">6</text>\n  <rect class=\"part cell\" x=\"90\" y=\"76\" width=\"70\" height=\"40\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"125.0\" y=\"103\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">42</text>\n  <rect class=\"part cell\" x=\"160\" y=\"76\" width=\"70\" height=\"40\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"195.0\" y=\"103\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">48</text>\n  <rect class=\"part cell\" x=\"230\" y=\"76\" width=\"70\" height=\"40\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"265.0\" y=\"103\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">54</text>\n  <rect class=\"part header\" x=\"20\" y=\"116\" width=\"70\" height=\"40\" rx=\"0\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"55.0\" y=\"142\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">7</text>\n  <rect class=\"part cell\" x=\"90\" y=\"116\" width=\"70\" height=\"40\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"125.0\" y=\"143\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">49</text>\n  <rect class=\"part cell labelled\" x=\"160\" y=\"116\" width=\"70\" height=\"40\" rx=\"0\" fill=\"#f3e5f5\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"195.0\" y=\"143\" font-size=\"18\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">?</text>\n  <text class=\"label option-label\" x=\"168\" y=\"129\" font-size=\"11\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1565c0\">P</text>\n  <rect class=\"part cell\" x=\"230\" y=\"116\" width=\"70\" height=\"40\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"265.0\" y=\"143\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">63</text>\n  <rect class=\"part header\" x=\"20\" y=\"156\" width=\"70\" height=\"40\" rx=\"0\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"55.0\" y=\"182\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">8</text>\n  <rect class=\"part cell\" x=\"90\" y=\"156\" width=\"70\" height=\"40\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"125.0\" y=\"183\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">56</text>\n  <rect class=\"part cell\" x=\"160\" y=\"156\" width=\"70\" height=\"40\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"195.0\" y=\"183\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">64</text>\n  <rect class=\"part cell labelled\" x=\"230\" y=\"156\" width=\"70\" height=\"40\" rx=\"0\" fill=\"#f3e5f5\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"265.0\" y=\"183\" font-size=\"18\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">?</text>\n  <text class=\"label option-label\" x=\"238\" y=\"169\" font-size=\"11\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1565c0\">Q</text>\n</svg>", "alt": "A multiplication grid with rows 6, 7, 8 and columns 7, 8, 9. Most cells are filled in. Cell P (row 7, column 8) and cell Q (row 8, column 9) show question marks."}
@@ -36,11 +36,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Look at the sheet of Star Stickers. How many stars are there in all?",
     options: [
       { id: "a", text: "11" },
-      { id: "b", text: "28" },
-      { id: "c", text: "24" },
+      { id: "b", text: "24" },
+      { id: "c", text: "28" },
       { id: "d", text: "32" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "There are 4 rows with 7 stars in each, and 4 \u00d7 7 = 28.",
     hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 318 206\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Star Stickers\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"318\" height=\"206\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"159.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Star Stickers</text>\n  <rect class=\"part tray\" x=\"32.0\" y=\"34\" width=\"254\" height=\"148\" rx=\"8\" fill=\"#fafafa\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon class=\"part star\" points=\"57.0,43.4 60.36,52.38 69.93,52.8 62.43,58.77 64.99,68.0 57.0,62.71 49.01,68.0 51.57,58.77 44.07,52.8 53.64,52.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"91.0,43.4 94.36,52.38 103.93,52.8 96.43,58.77 98.99,68.0 91.0,62.71 83.01,68.0 85.57,58.77 78.07,52.8 87.64,52.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"125.0,43.4 128.36,52.38 137.93,52.8 130.43,58.77 132.99,68.0 125.0,62.71 117.01,68.0 119.57,58.77 112.07,52.8 121.64,52.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"159.0,43.4 162.36,52.38 171.93,52.8 164.43,58.77 166.99,68.0 159.0,62.71 151.01,68.0 153.57,58.77 146.07,52.8 155.64,52.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"193.0,43.4 196.36,52.38 205.93,52.8 198.43,58.77 200.99,68.0 193.0,62.71 185.01,68.0 187.57,58.77 180.07,52.8 189.64,52.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"227.0,43.4 230.36,52.38 239.93,52.8 232.43,58.77 234.99,68.0 227.0,62.71 219.01,68.0 221.57,58.77 214.07,52.8 223.64,52.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"261.0,43.4 264.36,52.38 273.93,52.8 266.43,58.77 268.99,68.0 261.0,62.71 253.01,68.0 255.57,58.77 248.07,52.8 257.64,52.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"57.0,77.4 60.36,86.38 69.93,86.8 62.43,92.77 64.99,102.0 57.0,96.71 49.01,102.0 51.57,92.77 44.07,86.8 53.64,86.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"91.0,77.4 94.36,86.38 103.93,86.8 96.43,92.77 98.99,102.0 91.0,96.71 83.01,102.0 85.57,92.77 78.07,86.8 87.64,86.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"125.0,77.4 128.36,86.38 137.93,86.8 130.43,92.77 132.99,102.0 125.0,96.71 117.01,102.0 119.57,92.77 112.07,86.8 121.64,86.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"159.0,77.4 162.36,86.38 171.93,86.8 164.43,92.77 166.99,102.0 159.0,96.71 151.01,102.0 153.57,92.77 146.07,86.8 155.64,86.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"193.0,77.4 196.36,86.38 205.93,86.8 198.43,92.77 200.99,102.0 193.0,96.71 185.01,102.0 187.57,92.77 180.07,86.8 189.64,86.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"227.0,77.4 230.36,86.38 239.93,86.8 232.43,92.77 234.99,102.0 227.0,96.71 219.01,102.0 221.57,92.77 214.07,86.8 223.64,86.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"261.0,77.4 264.36,86.38 273.93,86.8 266.43,92.77 268.99,102.0 261.0,96.71 253.01,102.0 255.57,92.77 248.07,86.8 257.64,86.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"57.0,111.4 60.36,120.38 69.93,120.8 62.43,126.77 64.99,136.0 57.0,130.71 49.01,136.0 51.57,126.77 44.07,120.8 53.64,120.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"91.0,111.4 94.36,120.38 103.93,120.8 96.43,126.77 98.99,136.0 91.0,130.71 83.01,136.0 85.57,126.77 78.07,120.8 87.64,120.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"125.0,111.4 128.36,120.38 137.93,120.8 130.43,126.77 132.99,136.0 125.0,130.71 117.01,136.0 119.57,126.77 112.07,120.8 121.64,120.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"159.0,111.4 162.36,120.38 171.93,120.8 164.43,126.77 166.99,136.0 159.0,130.71 151.01,136.0 153.57,126.77 146.07,120.8 155.64,120.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"193.0,111.4 196.36,120.38 205.93,120.8 198.43,126.77 200.99,136.0 193.0,130.71 185.01,136.0 187.57,126.77 180.07,120.8 189.64,120.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"227.0,111.4 230.36,120.38 239.93,120.8 232.43,126.77 234.99,136.0 227.0,130.71 219.01,136.0 221.57,126.77 214.07,120.8 223.64,120.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"261.0,111.4 264.36,120.38 273.93,120.8 266.43,126.77 268.99,136.0 261.0,130.71 253.01,136.0 255.57,126.77 248.07,120.8 257.64,120.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"57.0,145.4 60.36,154.38 69.93,154.8 62.43,160.77 64.99,170.0 57.0,164.71 49.01,170.0 51.57,160.77 44.07,154.8 53.64,154.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"91.0,145.4 94.36,154.38 103.93,154.8 96.43,160.77 98.99,170.0 91.0,164.71 83.01,170.0 85.57,160.77 78.07,154.8 87.64,154.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"125.0,145.4 128.36,154.38 137.93,154.8 130.43,160.77 132.99,170.0 125.0,164.71 117.01,170.0 119.57,160.77 112.07,154.8 121.64,154.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"159.0,145.4 162.36,154.38 171.93,154.8 164.43,160.77 166.99,170.0 159.0,164.71 151.01,170.0 153.57,160.77 146.07,154.8 155.64,154.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"193.0,145.4 196.36,154.38 205.93,154.8 198.43,160.77 200.99,170.0 193.0,164.71 185.01,170.0 187.57,160.77 180.07,154.8 189.64,154.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"227.0,145.4 230.36,154.38 239.93,154.8 232.43,160.77 234.99,170.0 227.0,164.71 219.01,170.0 221.57,160.77 214.07,154.8 223.64,154.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n  <polygon class=\"part star\" points=\"261.0,145.4 264.36,154.38 273.93,154.8 266.43,160.77 268.99,170.0 261.0,164.71 253.01,170.0 255.57,160.77 248.07,154.8 257.64,154.38\" fill=\"#ffd54f\" stroke=\"#666\" stroke-width=\"1\"/>\n</svg>", "alt": "A sheet of star stickers arranged in 4 rows with 7 stars in each row."}
@@ -49,12 +49,12 @@ const SET_A: PrepQuestion[] = [
     id: "g4-maths-muldiv-a-q04",
     prompt: "What is 0 \u00d7 345?",
     options: [
-      { id: "a", text: "345" },
-      { id: "b", text: "1" },
-      { id: "c", text: "3,450" },
-      { id: "d", text: "0" }
+      { id: "a", text: "0" },
+      { id: "b", text: "345" },
+      { id: "c", text: "1" },
+      { id: "d", text: "3,450" }
     ],
-    answerId: "d",
+    answerId: "a",
     explanation: "Any number multiplied by 0 is 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -76,12 +76,12 @@ const SET_A: PrepQuestion[] = [
     id: "g4-maths-muldiv-a-q06",
     prompt: "What is 42 \u00f7 6?",
     options: [
-      { id: "a", text: "7" },
-      { id: "b", text: "6" },
+      { id: "a", text: "6" },
+      { id: "b", text: "7" },
       { id: "c", text: "8" },
       { id: "d", text: "36" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "6 \u00d7 7 = 42, so 42 \u00f7 6 = 7.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -89,12 +89,12 @@ const SET_A: PrepQuestion[] = [
     id: "g4-maths-muldiv-a-q07",
     prompt: "Look at the Fact Family Triangle. Corner A shows 63 and corner B shows 7. Which number belongs at corner **C**?",
     options: [
-      { id: "a", text: "9" },
-      { id: "b", text: "8" },
-      { id: "c", text: "56" },
+      { id: "a", text: "8" },
+      { id: "b", text: "56" },
+      { id: "c", text: "9" },
       { id: "d", text: "70" }
     ],
-    answerId: "a",
+    answerId: "c",
     explanation: "7 \u00d7 9 = 63, so 63 \u00f7 7 = 9 belongs at corner C.",
     hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 300 230\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Fact Family Triangle\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"300\" height=\"230\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"150.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Fact Family Triangle</text>\n  <polygon class=\"part triangle\" points=\"150,62 55,190 245,190\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"label op\" x=\"150\" y=\"150\" font-size=\"22\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#666\">\u00d7 \u00f7</text>\n  <circle class=\"part corner\" cx=\"150\" cy=\"62\" r=\"24\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"label value\" x=\"150\" y=\"69\" font-size=\"18\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">63</text>\n  <text class=\"label option-label\" x=\"184\" y=\"53\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">A</text>\n  <circle class=\"part corner\" cx=\"55\" cy=\"190\" r=\"24\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"label value\" x=\"55\" y=\"197\" font-size=\"18\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">7</text>\n  <text class=\"label option-label\" x=\"21\" y=\"195\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">B</text>\n  <circle class=\"part corner missing\" cx=\"245\" cy=\"190\" r=\"24\" fill=\"#fff3e0\" stroke=\"#333\" stroke-width=\"2\" stroke-dasharray=\"5 3\"/>\n  <text class=\"label value\" x=\"245\" y=\"197\" font-size=\"22\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">?</text>\n  <text class=\"label option-label\" x=\"279\" y=\"195\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">C</text>\n</svg>", "alt": "A triangle with circles at its corners. Corner A at the top shows 63, corner B at bottom left shows 7, and corner C at bottom right shows a question mark."}
@@ -105,10 +105,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "15" },
       { id: "b", text: "33" },
-      { id: "c", text: "36" },
-      { id: "d", text: "39" }
+      { id: "c", text: "39" },
+      { id: "d", text: "36" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "3 \u00d7 12 = 12 + 12 + 12 = 36.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -116,10 +116,10 @@ const SET_A: PrepQuestion[] = [
     id: "g4-maths-muldiv-a-q09",
     prompt: "Which of these is equal to 8 \u00d7 5?",
     options: [
-      { id: "a", text: "5 \u00d7 8" },
+      { id: "a", text: "5 × 8" },
       { id: "b", text: "8 + 5" },
-      { id: "c", text: "8 \u00d7 8" },
-      { id: "d", text: "5 \u00d7 5" }
+      { id: "c", text: "8 × 8" },
+      { id: "d", text: "5 × 5" }
     ],
     answerId: "a",
     explanation: "Changing the order of the factors does not change the product: both are 40.",
@@ -129,12 +129,12 @@ const SET_A: PrepQuestion[] = [
     id: "g4-maths-muldiv-a-q10",
     prompt: "Look at the figure. Didi shares all the laddoos equally on Plate 1, Plate 2 and Plate 3. How many laddoos go on each plate?",
     options: [
-      { id: "a", text: "6" },
-      { id: "b", text: "5" },
+      { id: "a", text: "5" },
+      { id: "b", text: "6" },
       { id: "c", text: "9" },
       { id: "d", text: "15" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "There are 18 laddoos and 3 plates, and 18 \u00f7 3 = 6.",
     hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 460 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Laddoos to Share\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"460\" height=\"200\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"230.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Laddoos to Share</text>\n  <circle class=\"part laddoo\" cx=\"110\" cy=\"48\" r=\"11\" fill=\"#ffb74d\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part laddoo\" cx=\"140\" cy=\"48\" r=\"11\" fill=\"#ffb74d\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part laddoo\" cx=\"170\" cy=\"48\" r=\"11\" fill=\"#ffb74d\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part laddoo\" cx=\"200\" cy=\"48\" r=\"11\" fill=\"#ffb74d\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part laddoo\" cx=\"230\" cy=\"48\" r=\"11\" fill=\"#ffb74d\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part laddoo\" cx=\"260\" cy=\"48\" r=\"11\" fill=\"#ffb74d\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part laddoo\" cx=\"290\" cy=\"48\" r=\"11\" fill=\"#ffb74d\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part laddoo\" cx=\"320\" cy=\"48\" r=\"11\" fill=\"#ffb74d\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part laddoo\" cx=\"350\" cy=\"48\" r=\"11\" fill=\"#ffb74d\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part laddoo\" cx=\"110\" cy=\"76\" r=\"11\" fill=\"#ffb74d\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part laddoo\" cx=\"140\" cy=\"76\" r=\"11\" fill=\"#ffb74d\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part laddoo\" cx=\"170\" cy=\"76\" r=\"11\" fill=\"#ffb74d\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part laddoo\" cx=\"200\" cy=\"76\" r=\"11\" fill=\"#ffb74d\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part laddoo\" cx=\"230\" cy=\"76\" r=\"11\" fill=\"#ffb74d\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part laddoo\" cx=\"260\" cy=\"76\" r=\"11\" fill=\"#ffb74d\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part laddoo\" cx=\"290\" cy=\"76\" r=\"11\" fill=\"#ffb74d\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part laddoo\" cx=\"320\" cy=\"76\" r=\"11\" fill=\"#ffb74d\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part laddoo\" cx=\"350\" cy=\"76\" r=\"11\" fill=\"#ffb74d\" stroke=\"#333\" stroke-width=\"1\"/>\n  <ellipse class=\"part plate\" cx=\"80\" cy=\"150\" rx=\"60.0\" ry=\"22\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <ellipse class=\"part plate-inner\" cx=\"80\" cy=\"150\" rx=\"46.0\" ry=\"13\" fill=\"#fff\" stroke=\"#666\" stroke-width=\"1\"/>\n  <text class=\"label\" x=\"80\" y=\"190\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Plate 1</text>\n  <ellipse class=\"part plate\" cx=\"230\" cy=\"150\" rx=\"60.0\" ry=\"22\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <ellipse class=\"part plate-inner\" cx=\"230\" cy=\"150\" rx=\"46.0\" ry=\"13\" fill=\"#fff\" stroke=\"#666\" stroke-width=\"1\"/>\n  <text class=\"label\" x=\"230\" y=\"190\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Plate 2</text>\n  <ellipse class=\"part plate\" cx=\"380\" cy=\"150\" rx=\"60.0\" ry=\"22\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <ellipse class=\"part plate-inner\" cx=\"380\" cy=\"150\" rx=\"46.0\" ry=\"13\" fill=\"#fff\" stroke=\"#666\" stroke-width=\"1\"/>\n  <text class=\"label\" x=\"380\" y=\"190\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Plate 3</text>\n  <line class=\"arrow\" x1=\"230\" y1=\"100\" x2=\"230\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/>\n  <polygon class=\"arrow\" points=\"230,124 225,116 235,116\" fill=\"#333\"/>\n  <text class=\"label small\" x=\"300\" y=\"108\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">share equally</text>\n</svg>", "alt": "Eighteen laddoos in two rows of nine, with an arrow pointing down to three empty plates labelled Plate 1, Plate 2 and Plate 3."}
@@ -144,11 +144,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Look at the Box Method for 47 \u00d7 6. The first box is already done. What is **47 \u00d7 6**?",
     options: [
       { id: "a", text: "242" },
-      { id: "b", text: "282" },
-      { id: "c", text: "272" },
+      { id: "b", text: "272" },
+      { id: "c", text: "282" },
       { id: "d", text: "287" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "The second box is 7 \u00d7 6 = 42, and 240 + 42 = 282.",
     hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 460 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Box Method: 47 \u00d7 6\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"460\" height=\"190\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"230.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Box Method: 47 \u00d7 6</text>\n  <rect class=\"part box\" x=\"60\" y=\"60\" width=\"293.0\" height=\"80\" rx=\"0\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"206.5\" y=\"50\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">40</text>\n  <text class=\"label value\" x=\"206.5\" y=\"106.0\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">240</text>\n  <rect class=\"part box\" x=\"353.0\" y=\"60\" width=\"67.0\" height=\"80\" rx=\"0\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"386.5\" y=\"50\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">7</text>\n  <text class=\"label value\" x=\"386.5\" y=\"106.0\" font-size=\"22\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">?</text>\n  <text class=\"label\" x=\"42\" y=\"106.0\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">6</text>\n  <text class=\"label small\" x=\"230.0\" y=\"176\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Each box = top number \u00d7 side number</text>\n</svg>", "alt": "A rectangle split into two boxes. The top labels are 40 and 7, and the side label is 6. The first box shows 240 and the second box shows a question mark."}
@@ -159,10 +159,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "218" },
       { id: "b", text: "846" },
-      { id: "c", text: "856" },
-      { id: "d", text: "864" }
+      { id: "c", text: "864" },
+      { id: "d", text: "856" }
     ],
-    answerId: "c",
+    answerId: "d",
     explanation: "200 \u00d7 4 = 800, 10 \u00d7 4 = 40 and 4 \u00d7 4 = 16, and 800 + 40 + 16 = 856.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -183,12 +183,12 @@ const SET_A: PrepQuestion[] = [
     id: "g4-maths-muldiv-a-q14",
     prompt: "Look at the Bead Bags. Rashmi put all her beads into Bags 1 to 4 and some were left over. Which division fact does the figure show?",
     options: [
-      { id: "a", text: "23 \u00f7 5 = 4 remainder 2" },
-      { id: "b", text: "23 \u00f7 5 = 3 remainder 8" },
-      { id: "c", text: "23 \u00f7 5 = 4 remainder 3" },
-      { id: "d", text: "20 \u00f7 5 = 4" }
+      { id: "a", text: "23 ÷ 5 = 4 remainder 2" },
+      { id: "b", text: "23 ÷ 5 = 4 remainder 3" },
+      { id: "c", text: "23 ÷ 5 = 3 remainder 8" },
+      { id: "d", text: "20 ÷ 5 = 4" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "4 bags of 5 make 20, plus 3 left over makes 23 beads, so 23 \u00f7 5 = 4 remainder 3.",
     hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 480 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Bead Bags\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"480\" height=\"190\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"240.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Bead Bags</text>\n  <circle class=\"part bag\" cx=\"54\" cy=\"88\" r=\"34\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle class=\"part counter\" cx=\"54.0\" cy=\"69.3\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part counter\" cx=\"71.78\" cy=\"82.22\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part counter\" cx=\"64.99\" cy=\"103.13\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part counter\" cx=\"43.01\" cy=\"103.13\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part counter\" cx=\"36.22\" cy=\"82.22\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <text class=\"label\" x=\"54\" y=\"140\" font-size=\"11.5\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Bag 1</text>\n  <circle class=\"part bag\" cx=\"136\" cy=\"88\" r=\"34\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle class=\"part counter\" cx=\"136.0\" cy=\"69.3\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part counter\" cx=\"153.78\" cy=\"82.22\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part counter\" cx=\"146.99\" cy=\"103.13\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part counter\" cx=\"125.01\" cy=\"103.13\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part counter\" cx=\"118.22\" cy=\"82.22\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <text class=\"label\" x=\"136\" y=\"140\" font-size=\"11.5\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Bag 2</text>\n  <circle class=\"part bag\" cx=\"218\" cy=\"88\" r=\"34\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle class=\"part counter\" cx=\"218.0\" cy=\"69.3\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part counter\" cx=\"235.78\" cy=\"82.22\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part counter\" cx=\"228.99\" cy=\"103.13\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part counter\" cx=\"207.01\" cy=\"103.13\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part counter\" cx=\"200.22\" cy=\"82.22\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <text class=\"label\" x=\"218\" y=\"140\" font-size=\"11.5\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Bag 3</text>\n  <circle class=\"part bag\" cx=\"300\" cy=\"88\" r=\"34\" fill=\"#fce4ec\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle class=\"part counter\" cx=\"300.0\" cy=\"69.3\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part counter\" cx=\"317.78\" cy=\"82.22\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part counter\" cx=\"310.99\" cy=\"103.13\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part counter\" cx=\"289.01\" cy=\"103.13\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part counter\" cx=\"282.22\" cy=\"82.22\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <text class=\"label\" x=\"300\" y=\"140\" font-size=\"11.5\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Bag 4</text>\n  <rect class=\"part leftover\" x=\"354\" y=\"58\" width=\"96\" height=\"64\" rx=\"8\" fill=\"#fff\" stroke=\"#e65100\" stroke-width=\"1.5\" stroke-dasharray=\"5 3\"/>\n  <circle class=\"part counter\" cx=\"376\" cy=\"90\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part counter\" cx=\"402\" cy=\"90\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle class=\"part counter\" cx=\"428\" cy=\"90\" r=\"6\" fill=\"#ba68c8\" stroke=\"#333\" stroke-width=\"1\"/>\n  <text class=\"label\" x=\"402\" y=\"140\" font-size=\"11.5\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">left over</text>\n  <text class=\"label small\" x=\"240.0\" y=\"176\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Each circle is one bag.</text>\n</svg>", "alt": "Four circles labelled Bag 1 to Bag 4, each holding 5 purple beads, and a dashed box marked 'left over' holding 3 beads."}
@@ -199,10 +199,10 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "8" },
       { id: "b", text: "48" },
-      { id: "c", text: "60" },
-      { id: "d", text: "9" }
+      { id: "c", text: "9" },
+      { id: "d", text: "60" }
     ],
-    answerId: "d",
+    answerId: "c",
     explanation: "6 \u00d7 9 = 54, so the missing number is 9.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -211,11 +211,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "A pack has 10 pencils. Ravi buys 7 packs and 4 loose pencils. How many pencils does he have?",
     options: [
       { id: "a", text: "21" },
-      { id: "b", text: "74" },
-      { id: "c", text: "70" },
-      { id: "d", text: "47" }
+      { id: "b", text: "70" },
+      { id: "c", text: "47" },
+      { id: "d", text: "74" }
     ],
-    answerId: "b",
+    answerId: "d",
     explanation: "7 packs give 7 \u00d7 10 = 70 pencils, and 70 + 4 = 74.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -223,12 +223,12 @@ const SET_A: PrepQuestion[] = [
     id: "g4-maths-muldiv-a-q17",
     prompt: "One notebook costs \u20b925. How much do 6 notebooks cost?",
     options: [
-      { id: "a", text: "\u20b931" },
-      { id: "b", text: "\u20b9125" },
-      { id: "c", text: "\u20b9140" },
-      { id: "d", text: "\u20b9150" }
+      { id: "a", text: "₹150" },
+      { id: "b", text: "₹31" },
+      { id: "c", text: "₹125" },
+      { id: "d", text: "₹140" }
     ],
-    answerId: "d",
+    answerId: "a",
     explanation: "6 \u00d7 \u20b925 = \u20b9150 (\u20b931 comes from adding instead of multiplying).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -236,12 +236,12 @@ const SET_A: PrepQuestion[] = [
     id: "g4-maths-muldiv-a-q18",
     prompt: "72 students stand in rows of 8 for assembly. How many rows are there?",
     options: [
-      { id: "a", text: "9" },
-      { id: "b", text: "8" },
+      { id: "a", text: "8" },
+      { id: "b", text: "9" },
       { id: "c", text: "64" },
       { id: "d", text: "80" }
     ],
-    answerId: "a",
+    answerId: "b",
     explanation: "72 \u00f7 8 = 9 rows, because 8 \u00d7 9 = 72.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -250,11 +250,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Find the missing number: ___ \u00f7 7 = 6",
     options: [
       { id: "a", text: "13" },
-      { id: "b", text: "42" },
-      { id: "c", text: "36" },
+      { id: "b", text: "36" },
+      { id: "c", text: "42" },
       { id: "d", text: "49" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "The missing number is 7 \u00d7 6 = 42.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -289,11 +289,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "What is 25 \u00d7 24?",
     options: [
       { id: "a", text: "49" },
-      { id: "b", text: "500" },
-      { id: "c", text: "600" },
+      { id: "b", text: "600" },
+      { id: "c", text: "500" },
       { id: "d", text: "620" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "25 \u00d7 4 = 100, and 24 is 6 fours, so 25 \u00d7 24 = 6 \u00d7 100 = 600.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -302,11 +302,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "A number is multiplied by 6 and then 4 is added. The answer is 70. What is the number?",
     options: [
       { id: "a", text: "12" },
-      { id: "b", text: "11" },
-      { id: "c", text: "10" },
+      { id: "b", text: "10" },
+      { id: "c", text: "11" },
       { id: "d", text: "64" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "Undo the steps: 70 \u2212 4 = 66, and 66 \u00f7 6 = 11.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -314,12 +314,12 @@ const SET_A: PrepQuestion[] = [
     id: "g4-maths-muldiv-a-q24",
     prompt: "Look at the price tags in the School Stationery Shop. Arjun buys 3 notebooks and 5 pencils and pays with a \u20b9200 note. How much change does he get?",
     options: [
-      { id: "a", text: "\u20b965" },
-      { id: "b", text: "\u20b975" },
-      { id: "c", text: "\u20b9135" },
-      { id: "d", text: "\u20b955" }
+      { id: "a", text: "₹75" },
+      { id: "b", text: "₹135" },
+      { id: "c", text: "₹55" },
+      { id: "d", text: "₹65" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "3 \u00d7 \u20b935 = \u20b9105 and 5 \u00d7 \u20b96 = \u20b930, so he spends \u20b9135. \u20b9200 \u2212 \u20b9135 = \u20b965.",
     hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 460 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"School Stationery Shop\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"460\" height=\"160\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"230.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">School Stationery Shop</text>\n  <path class=\"part tag\" d=\"M 38 50 L 150 50 L 150 130 L 38 130 L 20 90 Z\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle class=\"part hole\" cx=\"40\" cy=\"90\" r=\"5\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1\"/>\n  <text class=\"label\" x=\"96\" y=\"82\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Notebook</text>\n  <text class=\"label value\" x=\"96\" y=\"112\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">\u20b935</text>\n  <text class=\"label small\" x=\"96\" y=\"126\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">each</text>\n  <path class=\"part tag\" d=\"M 186 50 L 298 50 L 298 130 L 186 130 L 168 90 Z\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle class=\"part hole\" cx=\"188\" cy=\"90\" r=\"5\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1\"/>\n  <text class=\"label\" x=\"244\" y=\"82\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Pencil</text>\n  <text class=\"label value\" x=\"244\" y=\"112\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">\u20b96</text>\n  <text class=\"label small\" x=\"244\" y=\"126\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">each</text>\n  <path class=\"part tag\" d=\"M 334 50 L 446 50 L 446 130 L 334 130 L 316 90 Z\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle class=\"part hole\" cx=\"336\" cy=\"90\" r=\"5\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1\"/>\n  <text class=\"label\" x=\"392\" y=\"82\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Eraser</text>\n  <text class=\"label value\" x=\"392\" y=\"112\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">\u20b94</text>\n  <text class=\"label small\" x=\"392\" y=\"126\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">each</text>\n</svg>", "alt": "Three price tags: Notebook \u20b935 each, Pencil \u20b96 each, Eraser \u20b94 each."}

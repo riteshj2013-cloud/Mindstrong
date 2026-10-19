@@ -128,15 +128,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-maths-angles-a-q10",
-    prompt: "How many degrees are there in a half turn?",
+    prompt: "A wheel makes one complete turn. Through how many degrees has it turned?",
     options: [
-      { id: "a", text: "90\u00b0" },
-      { id: "b", text: "180\u00b0" },
-      { id: "c", text: "270\u00b0" },
-      { id: "d", text: "360\u00b0" }
+      { id: "a", text: "90°" },
+      { id: "b", text: "180°" },
+      { id: "c", text: "270°" },
+      { id: "d", text: "360°" }
     ],
-    answerId: "b",
-    explanation: "A full turn is 360\u00b0, so half a turn is 180\u00b0.",
+    answerId: "d",
+    explanation: "One complete turn is four quarter turns, and each quarter turn is 90°, so 4 × 90° = 360°. 180° may look right, but that is only a half turn.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -168,15 +168,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-maths-angles-a-q13",
-    prompt: "Ravi is facing North. He turns 90\u00b0 clockwise. Which direction is he facing now?",
+    prompt: "Meena is facing West. She turns 90° clockwise. Which direction is she facing now?",
     options: [
-      { id: "a", text: "North" },
-      { id: "b", text: "West" },
-      { id: "c", text: "South" },
-      { id: "d", text: "East" }
+      { id: "a", text: "South" },
+      { id: "b", text: "East" },
+      { id: "c", text: "North" },
+      { id: "d", text: "West" }
     ],
-    answerId: "d",
-    explanation: "Clockwise from North goes to East first, while West would be the result of an anticlockwise turn.",
+    answerId: "c",
+    explanation: "Clockwise goes N → E → S → W and round again, so one quarter turn clockwise from West brings Meena to North. South may look right, but that is where a 90° anticlockwise turn from West ends.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

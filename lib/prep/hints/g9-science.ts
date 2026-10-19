@@ -45,7 +45,7 @@ export const G9_SCIENCE_HINTS: Record<string, HintOverlay> = {
   "g9-sci-matter-b-q17": ["Density comparison."],
   "g9-sci-matter-b-q18": ["Name the property."],
   "g9-sci-matter-b-q19": ["Think of the smell of an incense stick spreading through a still room. What is that process called?"],
-  "g9-sci-matter-b-q20": ["Add 273."],
+  "g9-sci-matter-b-q20": ["0°C is 273 K, and the kelvin scale has no negative values. Which way does the number move?"],
   "g9-sci-matter-b-q21": ["Particle picture of fluidity."],
   "g9-sci-matter-b-q22": ["Classic sublimation substance."],
   "g9-sci-matter-b-q23": ["Fusion ↔ melting."],

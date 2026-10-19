@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "timid" }
     ],
     answerId: "b",
-    explanation: "Obstinate means refusing to change one's mind, which is stubborn. “Flexible” and “obedient” are tempting distractors but mean nearly the opposite.",
+    explanation: "Obstinate means refusing to change one's mind, which is stubborn. “Flexible” and “obedient” may look right, but they describe someone who changes or gives in easily, which is nearly the opposite of obstinate.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {

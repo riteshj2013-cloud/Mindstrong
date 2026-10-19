@@ -204,7 +204,7 @@ export const G4_MATHS_HINTS: Record<string, HintOverlay> = {
   "g4-maths-geometry-a-q08": ["Look for two arms and a corner.", "Vertex + two arms."],
   "g4-maths-geometry-a-q09": ["Think of the corner of a notebook.", "Square corner = 90\u00b0."],
   "g4-maths-geometry-a-q10": ["Acute = sharp / smaller than a square corner.", "Compare with 90\u00b0."],
-  "g4-maths-geometry-a-q11": ["Obtuse is 'open wider' than a right angle but not flat.", "Between 90\u00b0 and 180\u00b0."],
+  "g4-maths-geometry-a-q11": ["Obtuse is 'open wider' than a right angle but not flat."],
   "g4-maths-geometry-a-q12": ["All four sides of a square are equal.", "Divide perimeter by 4."],
   "g4-maths-geometry-a-q13": ["Walk along the fence of a park.", "Around the outside."],
   "g4-maths-geometry-a-q14": ["Add length and breadth, then double.", "2 \u00d7 (8 + 5)."],

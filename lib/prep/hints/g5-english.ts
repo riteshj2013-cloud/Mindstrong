@@ -240,7 +240,7 @@ export const G5_ENGLISH_HINTS: Record<string, HintOverlay> = {
   "g5-eng-ch05-b-q14": ["Read Zara's plan for tomorrow near the end."],
   "g5-eng-ch05-b-q15": ["Dear Diary addresses the journal itself."],
   "g5-eng-ch05-b-q16": ["Date/time, greeting, facts, name — message checklist."],
-  "g5-eng-ch05-b-q17": ["Address → date → Dear… → body → closing → name."],
+  "g5-eng-ch05-b-q17": ["Start at the top of the page: who is writing, and when? Then the greeting, the message, and the sign-off."],
   "g5-eng-ch05-b-q18": ["Personal feelings about a day suit a diary."],
   "g5-eng-ch05-b-q19": ["News for a friend in another city suits an informal letter."],
   "g5-eng-ch05-b-q20": ["Whole-school facts belong on a notice board."],

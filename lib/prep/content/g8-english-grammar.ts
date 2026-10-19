@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "One person designs every machine, and another improves it." }
     ],
     answerId: "d",
-    explanation: "The passive \"is designed\" is simple present, so the active must stay in simple present: \"designs,\" \"improves.\" Option A wrongly shifts to the past.",
+    explanation: "The passive \"is designed\" is simple present, so the active must stay in simple present: \"designs,\" \"improves.\" \"Designed\" and \"improved\" may look right, but they wrongly shift to the past.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Rahul said that he was tired." }
     ],
     answerId: "d",
-    explanation: "Change the pronoun (I becomes he) and step the tense back (am becomes was). \"Told\" needs an object, as in \"told me,\" so C is wrong.",
+    explanation: "Change the pronoun (I becomes he) and step the tense back (am becomes was). \"Told\" needs an object, as in \"told me,\" so \"Rahul told that he was tired\" is wrong.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
@@ -497,7 +497,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Let close the door." }
     ],
     answerId: "b",
-    explanation: "An imperative becomes passive with \"Let + object + be + past participle.\" Option A describes a state; it is not a command.",
+    explanation: "An imperative becomes passive with \"Let + object + be + past participle.\" \"The door is closed\" may look right, but it describes a state; it is not a command.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {

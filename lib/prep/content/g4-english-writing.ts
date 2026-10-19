@@ -414,12 +414,12 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which date format is clear for a school letter heading?",
     options: [
       { id: "a", text: "Someday soon" },
-      { id: "b", text: "Yesterday-ish" },
+      { id: "b", text: "Last Monday" },
       { id: "c", text: "Month of fun" },
       { id: "d", text: "8 October 2026" }
     ],
     answerId: "d",
-    explanation: "A full date (day + month + year) is clear for letters and notices.",
+    explanation: "A full date (day + month + year) is clear for letters and notices. \"Last Monday\" may look right, but it does not say which week, month or year.",
     hints: ["Use a complete calendar date.", "Avoid vague time words."],
   },
 {

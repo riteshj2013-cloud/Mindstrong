@@ -33,14 +33,14 @@
 - **hint**: Same bottoms — add the tops.
 
 ### Q02
-- **stem**: What is 5/6 − 1/6?
+- **stem**: What is 5/6 − 1/6 in its simplest form?
 - **options**:
   - A) 4/6
   - B) 2/3
   - C) 6/6
   - D) 4/12
 - **answer**: B
-- **explanation**: 5/6 − 1/6 = 4/6 = 2/3 in simplest form.
+- **explanation**: 5/6 − 1/6 = 4/6, and dividing top and bottom by 2 gives 2/3. 4/6 may look right because it has the same value, but 4 and 6 still share the factor 2, so it is not in its simplest form.
 - **hint**: Subtract tops, then simplify.
 
 ### Q03
@@ -420,14 +420,14 @@
 - **hint**: One decimal place → /10, then simplify.
 
 ### Q13
-- **stem**: What is 2/3 × 9/10?
+- **stem**: What is 2/3 × 9/10 in its simplest form?
 - **options**:
   - A) 3/5
   - B) 18/30
   - C) 11/13
   - D) 2/10
 - **answer**: A
-- **explanation**: 2/3 × 9/10 = 18/30 = 3/5.
+- **explanation**: 2/3 × 9/10 = 18/30, and dividing top and bottom by 6 gives 3/5. 18/30 may look right because it has the same value, but 18 and 30 still share the factor 6, so it is not in its simplest form.
 - **hint**: Multiply tops, multiply bottoms, simplify.
 
 ### Q14

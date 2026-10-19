@@ -549,7 +549,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1/2" }
     ],
     answerId: "c",
-    explanation: "If -2/3 \u2212 x = 1/6, then x = -2/3 \u2212 1/6 = -5/6, and -1/2 is the trap of adding 1/6 to -2/3.",
+    explanation: "If -2/3 − x = 1/6, then x = -2/3 − 1/6 = -5/6. -1/2 may look right, but it comes from adding 1/6 to -2/3 instead of subtracting it.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

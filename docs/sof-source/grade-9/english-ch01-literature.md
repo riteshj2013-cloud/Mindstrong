@@ -646,7 +646,7 @@ Calling cheers “bright balloons” appeals mainly to…
   - C) sound transformed into a visual image
   - D) smell
 - **answer**: C
-- **explanation**: Sound (cheers) is pictured as bright rising balloons — synesthetic-ish imagery.
+- **explanation**: The cheers are something we hear, but the writer shows them as bright balloons we can see rising. A sound is turned into a picture for the eyes.
 - **skill**: figurative
 - **difficulty**: hard
 

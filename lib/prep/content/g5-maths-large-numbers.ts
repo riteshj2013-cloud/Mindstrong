@@ -150,7 +150,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5,94,000" }
     ],
     answerId: "a",
-    explanation: "The place values are 6,00,000 and 600, and 6,00,000 \u2212 600 = 5,99,400, while 0 is the trap of using face values.",
+    explanation: "The place values are 6,00,000 and 600, and 6,00,000 − 600 = 5,99,400. 0 may look right if you subtract the face values (6 − 6) instead of the place values.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -269,7 +269,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7,61,742" }
     ],
     answerId: "d",
-    explanation: "The greatest is 8,65,310 and the smallest is 1,03,568, so the difference is 7,61,742 (9,68,878 is their sum, a trap).",
+    explanation: "The greatest is 8,65,310 and the smallest is 1,03,568, so the difference is 7,61,742. 9,68,878 may look right, but that is their sum, not their difference.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -308,7 +308,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3,64,865" }
     ],
     answerId: "b",
-    explanation: "3,46,250 + 12,875 \u2212 4,560 + 9,300 = 3,63,865, and adding the 4,560 instead of subtracting gives the trap 3,72,985.",
+    explanation: "3,46,250 + 12,875 − 4,560 + 9,300 = 3,63,865. 3,72,985 may look right, but it comes from adding the 4,560 instead of subtracting it.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -484,7 +484,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "S, Q, P, R" }
     ],
     answerId: "b",
-    explanation: "1,52,480 > 1,52,048 > 1,25,804 > 1,25,480, so the order is S, Q, R, P, and the trap lies in the swapped digits 4 and 0, and 4 and 8.",
+    explanation: "1,52,480 > 1,52,048 > 1,25,804 > 1,25,480, so the order is S, Q, R, P. The other orders may look right because these numbers swap the digits 4 and 0, and 4 and 8, so compare them digit by digit from the left.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

@@ -459,11 +459,11 @@
 - **stem**: Solve: 4x + 7 = −9.
 - **options**:
   - A) 4
-  - B) −16/4
+  - B) −1/2
   - C) 2
   - D) −4
 - **answer**: D
-- **explanation**: 4x = −16 → x = −4.
+- **explanation**: 4x = −9 − 7 = −16, so x = −16 ÷ 4 = −4. 4 may look right if the minus sign is dropped, and −1/2 comes from adding 7 to −9 instead of subtracting it.
 - **difficulty**: mixed
 
 ### Q17

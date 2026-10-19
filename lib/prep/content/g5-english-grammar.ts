@@ -299,7 +299,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "The dog wags its tail happily." }
     ],
     answerId: "d",
-    explanation: "Singular subjects take does/has/was, and plural subjects take were. Only D matches its subject and verb correctly.",
+    explanation: "Singular subjects take does/has/was, and plural subjects take were. Only \"The dog wags its tail happily.\" matches its subject and verb: \"She don't\" should be \"She doesn't\", \"He have\" should be \"He has\", and \"They was\" should be \"They were\".",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   },
   {
@@ -627,7 +627,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Light travels faster than sound." }
     ],
     answerId: "a",
-    explanation: "An adjective describes a noun. In A, \"light\" describes the bag. In B it is a verb, and in C and D it is a noun.",
+    explanation: "An adjective describes a noun. In \"this light bag\", \"light\" describes the bag, so it is an adjective. In \"light the lamp\" it is a verb (an action), and in \"The light in the room\" and \"Light travels\" it is a noun (a thing).",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   }
 ];
