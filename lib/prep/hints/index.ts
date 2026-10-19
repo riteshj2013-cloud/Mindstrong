@@ -30,6 +30,7 @@ import { G9_ENGLISH_HINTS } from "./g9-english";
 import { G10_MATHS_HINTS } from "./g10-maths";
 import { G10_SCIENCE_HINTS } from "./g10-science";
 import { G10_ENGLISH_HINTS } from "./g10-english";
+import { ITEM_HINT_FIXES } from "./fixes";
 
 export type { HintOverlay } from "./types";
 
@@ -89,10 +90,15 @@ export function isBoilerplateHints(hints: string[] | undefined): boolean {
 }
 
 /**
- * Merge hint overlays onto authored questions.
- * Precedence: authored non-boilerplate hints win; otherwise overlay wins over boilerplate.
+ * Merge hints onto authored questions. Precedence, highest first:
+ *   1. Fix layer (./fixes, ITEM_HINT_FIXES): reviewed rewrites; wins over everything below.
+ *   2. Authored question.hints that are not boilerplate (BOILERPLATE_HINT_MARKERS).
+ *   3. Overlay (ALL_HINT_OVERLAYS, ./g*-*.ts): fills blank or boilerplate authored hints.
+ *   4. Authored hints as written (boilerplate) when there is no overlay.
  */
 export function applyHints(q: PrepQuestion): PrepQuestion {
+  const fix = ITEM_HINT_FIXES[q.id];
+  if (fix && fix.length > 0) return { ...q, hints: [...fix] };
   const overlay = ALL_HINT_OVERLAYS[q.id];
   if (!overlay || overlay.length === 0) return q;
   if (!isBoilerplateHints(q.hints)) return q;

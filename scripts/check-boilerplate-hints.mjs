@@ -115,9 +115,10 @@ function gradeSubject(id) {
   return m ? { grade: Number(m[1]), subject: m[2] } : { grade: 0, subject: "unknown" };
 }
 
-function loadOverlays() {
-  const dir = path.join(root, "lib/prep/hints");
+function loadOverlays(sub = "") {
+  const dir = path.join(root, "lib/prep/hints", sub);
   const map = new Map();
+  if (!fs.existsSync(dir)) return map;
   for (const f of fs.readdirSync(dir).filter((n) => n.endsWith(".ts") && n !== "index.ts" && n !== "types.ts")) {
     const text = fs.readFileSync(path.join(dir, f), "utf8");
     for (const m of text.matchAll(/"([^"]+)":\s*\[([^\]]*)\]/g)) {
@@ -150,13 +151,21 @@ function parseContentQuestions() {
 }
 
 const overlays = loadOverlays();
+// Fix layer (lib/prep/hints/fixes): wins over authored hints and overlays, as in applyHints().
+const fixes = loadOverlays("fixes");
 const questions = parseContentQuestions();
+
+/** Same precedence as lib/prep/hints/index.ts applyHints(): fix > authored non-boilerplate > overlay. */
+function effectiveHints(q) {
+  const fix = fixes.get(q.id);
+  if (fix && fix.length) return fix;
+  const overlay = overlays.get(q.id);
+  return !isBoilerplate(q.hints) ? q.hints : overlay && overlay.length ? overlay : q.hints;
+}
 
 const remaining = [];
 for (const q of questions) {
-  const authoredOk = !isBoilerplate(q.hints);
-  const overlay = overlays.get(q.id);
-  const effective = authoredOk ? q.hints : overlay && overlay.length ? overlay : q.hints;
+  const effective = effectiveHints(q);
   if (isBoilerplate(effective)) {
     remaining.push({ ...q, effective });
   }
@@ -170,6 +179,7 @@ for (const r of remaining) {
 }
 
 console.log("Hint overlay entries:", overlays.size);
+console.log("Hint fix-layer entries:", fixes.size);
 console.log("Quiz items scanned:", questions.length);
 console.log("Remaining boilerplate after overlay:", remaining.length);
 console.log("");
@@ -189,9 +199,7 @@ if (process.argv.includes("--strict")) {
   const flagged = [];
   const boilerplateIds = new Set(remaining.map((r) => r.id));
   for (const q of questions) {
-    const authoredOk = !isBoilerplate(q.hints);
-    const overlay = overlays.get(q.id);
-    const effective = authoredOk ? q.hints : overlay && overlay.length ? overlay : q.hints;
+    const effective = effectiveHints(q);
     const reasons = effective.length ? genericReasons(effective, q.ctx) : [];
     const bp = boilerplateIds.has(q.id);
     if (reasons.length || bp) {
