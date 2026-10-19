@@ -16,6 +16,8 @@
  *   - later:     EVERY hint level is checked by all rules above; in addition a later hint (hint 2, 3, …)
  *                must not be a bare result ("19.", "Seven.", "It is 7.", "The answer is …", ≤3 words), and no
  *                hint may state the worked result ("… = 19", "… makes 19", "so it is 19") even when that number is in the stem.
+ *   - mock:      the served Maths mock papers are scanned too; every item of the closing LR + Achievers block
+ *                (lib/prep/mocks/maths-g*-lr-achievers.ts) must be covered by these checks.
  * Usage: node scripts/check-maths-hints.mjs [--grade 8] [--json out.json] [--list]
  * Exit 1 if any finding (respecting --grade filter).
  */
@@ -128,6 +130,27 @@ for (const g of types.ALL_GRADES) {
     for (const q of prep.getChapterSetQuestions("maths", g, c.id, set.id)) items.push({ g, chapter: `g${g}.${c.id}`, q });
   }
 }
+// Mock papers (lib/prep/mocks): the closing LR + Achievers block lives inside chapter sets, so it is checked
+// above; any served mock item not found in a set is added here, and every block item must be covered.
+const mocks = jiti(path.join(ROOT, "lib/prep/mocks/index.ts"));
+const seenIds = new Set(items.map((x) => x.q.id));
+const mockStats = { block: 0, extra: 0 };
+const mockMissing = [];
+for (const g of types.ALL_GRADES) {
+  if (onlyGrade && g !== onlyGrade) continue;
+  if (!catalog.getPrepPack("maths", g).ready) continue;
+  for (const pq of prep.getMockPaper("maths", g)) {
+    const id = pq.id.replace(/^paper-\d+-/, "");
+    if (seenIds.has(id)) continue;
+    items.push({ g, chapter: `g${g}.mock-paper`, q: { ...pq, id } });
+    seenIds.add(id);
+    mockStats.extra++;
+  }
+  for (const q of mocks.mockBlockFor("maths", g)) {
+    mockStats.block++;
+    if (!seenIds.has(q.id)) mockMissing.push(q.id);
+  }
+}
 const byChapterHint = new Map();
 for (const { chapter, q } of items) for (const h of q.hints ?? []) {
   const k = chapter + "\u0000" + norm(h);
@@ -166,9 +189,11 @@ for (const { g, q } of items) {
 }
 if (process.argv.includes("--list")) for (const f of findings) console.log(f.join("  "));
 console.log(`Maths items: ${items.length}; flagged items: ${any.size}`);
+console.log(`Mock closing-block items checked: ${mockStats.block - mockMissing.length}/${mockStats.block}` + (mockStats.extra ? `; ${mockStats.extra} served mock item(s) outside chapter sets also checked` : ""));
+for (const id of mockMissing) console.log(`  mock block item not checked: ${id}`);
 for (const k of Object.keys(flagged)) console.log(`  ${k.padEnd(9)} ${flagged[k].size}`);
 console.log("Per grade:");
 for (const [g, r] of Object.entries(perGrade)) console.log(`  ${g.padEnd(4)} ${JSON.stringify(r)}`);
 const out = arg("--json");
 if (out) fs.writeFileSync(out, JSON.stringify({ perGrade, flagged: Object.fromEntries(Object.entries(flagged).map(([k, v]) => [k, [...v]])), findings }, null, 1));
-process.exit(any.size ? 1 : 0);
+process.exit(any.size || mockMissing.length ? 1 : 0);
