@@ -1,11 +1,12 @@
 /**
  * Grade 9 Science — item-specific hint fixes (fix layer).
  * Source: app repo origin/main c5a133b (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 53 | hints: 53
+ * Items changed: 61 | hints: 61
  * By category (primary): answer-leak fixed 7 · chapter-shared hint split 0 · other strict-check fixes 46
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
  * Also holds hints for items rewritten in the Science near-duplicate stem pass (2026-10-19).
+ * Leak review (2026-10-19): hints rewritten where the hardened check-science-hints.mjs found answer text.
  * Merge: these WIN over G9_SCIENCE_HINTS and over authored question.hints (see ../index.ts applyHints).
  */
 import type { HintOverlay } from "../types";
@@ -33,6 +34,7 @@ export const G9_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g9-sci-matter-b-q18": ["Each change of state has a named temperature. Which named point is where a liquid starts to boil?"],
   "g9-sci-matter-b-q19": ["An incense stick's smell spreads through a still room with no fan. Which process mixes particles on their own?"],
   "g9-sci-matter-b-q22": ["Camphor in an open dish vanishes but never melts into a puddle. Which change of state skips the liquid stage?"],
+  "g9-sci-matter-b-q15": ["At the melting point of ice, 0 °C, a glass holds ice cubes in water. Do both stay, or must one vanish?"],
   // g9-science-cell-tissues
   "g9-sci-cell-a-q03": ["The control centre holds chromosomes and DNA. Mitochondria release energy and ribosomes make proteins."],
   "g9-sci-cell-a-q04": ["The powerhouse releases energy from food during respiration. Which organelle with folded inner membranes does that?"],
@@ -48,6 +50,10 @@ export const G9_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g9-sci-cell-b-q11": ["Smooth muscles work without our control, unlike biceps. Think of the stomach and intestines squeezing food along."],
   "g9-sci-cell-b-q18": ["Cartilage at the nose tip and ear is firm but flexible and joins or supports other parts. Which tissue group does that?"],
   "g9-sci-cell-b-q23": ["The prefix 'multi-' means many. Apply it to cells."],
+  "g9-sci-cell-a-q07": ["Levels of organisation go cells, then groups of similar cells, then organs. What is that middle level called?"],
+  "g9-sci-cell-a-q13": ["Which cells also have a cell wall and chloroplasts? Their large vacuole holds cell sap and keeps them firm."],
+  "g9-sci-cell-a-q18": ["Lysosomes are called suicide bags because they break down worn-out cell parts. What must they contain to do that?"],
+  "g9-sci-cell-b-q10": ["Striated muscles show light and dark bands and are attached to bones. Which muscles move your arms when you choose?"],
   // g9-science-motion
   "g9-sci-motion-a-q01": ["Distance has size but no direction and follows the actual route travelled. Which choices fit that description?"],
   "g9-sci-motion-a-q08": ["Average speed uses total path. Average velocity is a vector, so which quantity with direction goes on top?"],
@@ -67,4 +73,7 @@ export const G9_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g9-sci-motion-b-q19": ["The slope of a distance–time graph gives speed. If the curve keeps getting steeper, what happens to speed?"],
   "g9-sci-motion-b-q20": ["Displacement is the straight-line gap from start to finish; distance follows the actual path. Can the shortcut be longer?"],
   "g9-sci-motion-b-q22": ["Check each equation of motion for the symbol t. Which one has no t in it?"],
+  "g9-sci-motion-a-q04": ["Speed tells only how fast. What extra information does a GPS arrow add to that?"],
+  "g9-sci-motion-b-q04": ["Acceleration measures how quickly speed or direction is changing. When would that change be zero?"],
+  "g9-sci-motion-b-q18": ["A speedometer needle rises and falls as the car speeds up and slows. Does it show the trip average or the speed right now?"],
 };
