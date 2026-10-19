@@ -6,6 +6,14 @@ Each known chapter gets a hand-tuned lesson built from the writer's outline;
 Set A / Set B MCQs are parsed straight from the markdown and validated against
 the Answer Key table.
 """
+# --- RETIRED GENERATOR guard (docs/content-sources.md; checked by scripts/audit-content.mjs) ---
+import os as _os, sys as _sys
+if "--force" in _sys.argv:
+    _sys.argv.remove("--force")
+    _os.environ["MINDSTRONG_FORCE_RETIRED"] = "1"
+if _os.environ.get("MINDSTRONG_FORCE_RETIRED") != "1":
+    _sys.exit("DEPRECATED: scripts/ingest_g3_maths.py no longer reproduces the served files and would overwrite later fixes. lib/prep/content is the source of truth; edit content/fix-layer files directly (see docs/content-sources.md). Pass --force only if you really mean to overwrite them.")
+# --- end RETIRED GENERATOR guard ---
 from pathlib import Path
 import re, sys
 sys.path.insert(0, str(Path(__file__).parent))

@@ -1,6 +1,14 @@
 #!/usr/bin/env python3
 """Generate Grade 10 full pack: 9 chapters × (lesson + 24 + 24) MCQs, docs, hints."""
 from __future__ import annotations
+# --- RETIRED GENERATOR guard (docs/content-sources.md; checked by scripts/audit-content.mjs) ---
+import os as _os, sys as _sys
+if "--force" in _sys.argv:
+    _sys.argv.remove("--force")
+    _os.environ["MINDSTRONG_FORCE_RETIRED"] = "1"
+if _os.environ.get("MINDSTRONG_FORCE_RETIRED") != "1":
+    _sys.exit("DEPRECATED: scripts/generate_g10_pack.py no longer reproduces the served files and would overwrite later fixes. lib/prep/content is the source of truth; edit content/fix-layer files directly (see docs/content-sources.md). Pass --force only if you really mean to overwrite them.")
+# --- end RETIRED GENERATOR guard ---
 import json
 from pathlib import Path
 import sys

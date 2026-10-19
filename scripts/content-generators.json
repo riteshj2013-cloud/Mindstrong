@@ -1,0 +1,48 @@
+{
+ "note": "Content generators, checked 2026-10-19 by running each one on a clean copy of main and diffing. 'live' = reproduces the served files byte for byte (or is a no-op). 'retired' = would overwrite later fixes; each starts with a guard that exits unless --force is passed. scripts/audit-content.mjs checks this registry. See docs/content-sources.md.",
+ "live": {
+  "scripts/ingest_g4_maths_time_money.py": "G4 Maths M5 Time & Money (#61)",
+  "scripts/author_g5_maths_ch04_06.py": "G5 Maths ch04-06",
+  "scripts/author_g8_science_ch04_06.py": "G8 Science ch04-06",
+  "scripts/fix_quality_major_skew.py": "answer-letter skew fixer (no-op on current files)",
+  "scripts/rebalance_g8_g9_answer_skew.py": "G8/G9 answer-letter rebalancer (no-op on current files)",
+  "scripts/rebalance_ts_sets.py": "answer-letter rebalancer for .ts sets (no-op on current files)",
+  "scripts/patch-english-passages.mjs": "G5 English passage patcher (no-op on current files; hard-codes /workspace/Mindstrong paths)"
+ },
+ "retired": {
+  "scripts/seed_g7_full.py": "G7 pack: rewrites G7 English and Maths content and hints (undoes the #58 integer stems and the #62 near-duplicate rewrites)",
+  "scripts/generate_g10_pack.py": "G10 pack: rewrites G10 English, Maths and Science content and hints",
+  "scripts/g10/english.py": "G10 English data for generate_g10_pack.py (old near-duplicate stems)",
+  "scripts/g10/maths.py": "G10 Maths data for generate_g10_pack.py",
+  "scripts/g10/science.py": "G10 Science data for generate_g10_pack.py",
+  "scripts/g9_pack/generate.py": "G9 pack: rewrites G9 English, Maths and Science content and hints",
+  "scripts/g9_pack/english_data.py": "G9 English data for g9_pack/generate.py (old near-duplicate stems)",
+  "scripts/g9_pack/maths_data.py": "G9 Maths data for g9_pack/generate.py",
+  "scripts/g9_pack/science_data.py": "G9 Science data for g9_pack/generate.py",
+  "scripts/generate_g6_pack.py": "G6 pack: rewrites G6 English and Maths content and hints",
+  "scripts/generate_g6_data_eng_sci.py": "G6 English/Science data for generate_g6_pack.py",
+  "scripts/gen_g1_g2_packs.py": "G1/G2 packs: rewrites G2 English content and G2 hints",
+  "scripts/author_g5_english_ch04_ch05.py": "G5 English ch04-05: rewrites spoken/writing chapters",
+  "scripts/author_g5_science_ch04_06.py": "G5 Science ch04-06: reverts a later stem fix in g5-science-force",
+  "scripts/author_g8_maths_ch04_06.py": "G8 Maths ch04-06: rewrites g8-maths-exponents",
+  "scripts/ingest-sof-md.mjs": "Early G5 ingest: rewrites g5 English detective, Maths large numbers, Science plants",
+  "scripts/ingest_run.py": "Early G3/G5 ingest: rewrites 19 files; also writes /workspace/Mindstrong/scripts/ingest_manifest.json (hard-coded path)",
+  "scripts/ingest_g3_maths.py": "G3 Maths: no longer runs (answer-key assertion against changed writer files); would overwrite if it did",
+  "scripts/ingest_g3_maths_pictorial.py": "G3 Maths pictorial: rewrites g3-maths-numbers",
+  "scripts/ingest_g3_science_pictorial.py": "G3 Science pictorial: rewrites G3 Science content",
+  "scripts/ingest_g4_english.py": "G4 English: no longer runs (writer-file assertion); would overwrite if it did",
+  "scripts/ingest_g4_maths.py": "G4 Maths: no longer runs (answer-key assertion); would overwrite if it did",
+  "scripts/ingest_g4_maths_pictorial.py": "G4 Maths pictorial: rewrites G4 Maths large numbers, multiply-divide and fractions (undoes the G4 hint and stem fixes)",
+  "scripts/ingest_g4_science.py": "G4 Science: rewrites G4 Science food, matter and water",
+  "scripts/ingest_g5_pictorial.py": "G5 Maths/Science pictorial: rewrites 6 G5 content files",
+  "scripts/ingest_g8_english.py": "G8 English: no longer runs (writer pack missing chapter files); would overwrite if it did",
+  "scripts/seed_g4_pictorial.mjs": "G4 pictorial overlays: rewrites lib/prep/pictorial/g4-overlays.ts (undoes the #62 redrawn pictures)"
+ },
+ "libraries": {
+  "scripts/ingest_lib.py": "shared ingest helpers (used by live and retired generators)",
+  "scripts/answer_balance.py": "shared answer-letter balancing helpers",
+  "scripts/g10/emit.py": "G10 emit helpers (used by retired generate_g10_pack.py)",
+  "scripts/g10/__init__.py": "package marker",
+  "scripts/g9_pack/emit.py": "G9 emit helpers (used by retired g9_pack/generate.py)"
+ }
+}

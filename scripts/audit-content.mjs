@@ -5,6 +5,8 @@
  * Structural checks on served sets: answer-letter skew (>50% one letter), duplicate stems,
  * and inline SVG figures missing an aria-label / alt text.
  * Hint checks: bare-letter hints, option-letter references, hints that equal / contain the answer.
+ * Content generators: every script that writes served content is registered in scripts/content-generators.json; retired
+ *   ones must start with the --force guard and refuse to run without it (each is executed once to prove it).
  * Warnings (non-fatal): chapters that never use one of A/B/C/D as the answer, and near-duplicate
  * stems from scripts/near-duplicate-science-stems.mjs and scripts/near-duplicate-english-stems.mjs
  * (pairs not in their allow-lists under scripts/audit-baselines/).
@@ -22,6 +24,7 @@ const jiti = createJiti(import.meta.url, { alias: { "@": ROOT } });
 
 const STRICT = process.argv.includes("--strict");
 const nearDupStats = [];
+let generatorStats = "";
 
 const RULES = [
   ["editorial-heading", /(^|\n)\s*#{1,6}\s/],
@@ -371,6 +374,71 @@ for (const g of grades.READY_GRADES) {
   }
 }
 
+/**
+ * Content generators (scripts/content-generators.json, docs/content-sources.md).
+ * lib/prep/content is the source of truth. Every script that writes served content must be registered as
+ * live (reproduces the served files byte for byte), retired, or a shared library. A retired generator must start with
+ * the RETIRED GENERATOR guard, and running it without --force must exit 1 with "DEPRECATED" and write nothing.
+ */
+{
+  const regPath = path.join(ROOT, "scripts/content-generators.json");
+  const reg = JSON.parse(fs.readFileSync(regPath, "utf8"));
+  const docPath = path.join(ROOT, "docs/content-sources.md");
+  const doc = fs.existsSync(docPath) ? fs.readFileSync(docPath, "utf8") : "";
+  if (!doc) findings.push({ rule: "generator-registry", where: "docs/content-sources.md", text: "missing" });
+  const registered = new Set([...Object.keys(reg.live), ...Object.keys(reg.retired), ...Object.keys(reg.libraries ?? {})]);
+  const TOOL = /^(audit-|check-|near-duplicate-|count-|science-hint-leak|generate_mobile_branding)/;
+  const walk = (dir) => fs.readdirSync(dir, { withFileTypes: true }).flatMap((e) =>
+    e.isDirectory() ? (e.name === "audit-baselines" || e.name === "__pycache__" ? [] : walk(path.join(dir, e.name))) : [path.join(dir, e.name)]);
+  for (const abs of walk(path.join(ROOT, "scripts"))) {
+    const rel = path.relative(ROOT, abs).split(path.sep).join("/");
+    if (!/\.(py|mjs|js)$/.test(rel) || /\.test\.mjs$/.test(rel) || TOOL.test(path.basename(rel))) continue;
+    const src = fs.readFileSync(abs, "utf8");
+    const writesContent = /lib\/prep\/(content|hints|pictorial)|from ingest_lib import|emit_module|from \.emit import|import (maths|english|science)_data/.test(src);
+    if (writesContent && !registered.has(rel))
+      findings.push({ rule: "generator-unregistered", where: rel, text: "writes served content but is not listed in scripts/content-generators.json (live / retired / libraries)" });
+  }
+  const GUARD_PY = /^import os as _os, sys as _sys\nif "--force" in _sys\.argv:\n    _sys\.argv\.remove\("--force"\)\n    _os\.environ\["MINDSTRONG_FORCE_RETIRED"\] = "1"\nif _os\.environ\.get\("MINDSTRONG_FORCE_RETIRED"\) != "1":\n    _sys\.exit\("DEPRECATED: /;
+  const GUARD_JS = /^if \(!process\.argv\.includes\("--force"\) && process\.env\.MINDSTRONG_FORCE_RETIRED !== "1"\) \{\n  console\.error\("DEPRECATED: [^\n]*\n  process\.exit\(1\);\n\}/;
+  /** Source from the first statement that can do work (after shebang, comments, docstring, __future__ / builtin ESM imports). */
+  const firstCode = (rel, src) => {
+    let t = src.replace(/^#![^\n]*\n/, "");
+    const strip = rel.endsWith(".py")
+      ? (x) => x.replace(/^(?:[ \t]*(?:#[^\n]*)?\n)+/, "").replace(/^[rRuU]?("""|''')[\s\S]*?\1[^\n]*\n/, "").replace(/^from __future__ import [^\n]*\n/, "")
+      : (x) => x.replace(/^(?:[ \t]*(?:\/\/[^\n]*)?\n)+/, "").replace(/^\/\*[\s\S]*?\*\/[^\n]*\n/, "").replace(/^import [^\n]*from "(?:fs|path|url|node:[a-z_]+)";[^\n]*\n/, "");
+    for (;;) { const next = strip(t); if (next === t) return t; t = next; }
+  };
+  const guarded = [];
+  for (const rel of Object.keys(reg.retired)) {
+    const abs = path.join(ROOT, rel);
+    if (!fs.existsSync(abs)) { findings.push({ rule: "generator-registry", where: rel, text: "retired generator listed but missing" }); continue; }
+    const head = firstCode(rel, fs.readFileSync(abs, "utf8"));
+    if (!(rel.endsWith(".py") ? GUARD_PY : GUARD_JS).test(head))
+      findings.push({ rule: "generator-unguarded", where: rel, text: "retired generator must start with the RETIRED GENERATOR guard (exit unless --force) before any other code" });
+    else guarded.push(rel);
+    if (!doc.includes(rel.replace(/^scripts\//, ""))) findings.push({ rule: "generator-registry", where: rel, text: "retired generator not listed in docs/content-sources.md" });
+  }
+  for (const rel of Object.keys(reg.live)) {
+    const abs = path.join(ROOT, rel);
+    if (!fs.existsSync(abs)) { findings.push({ rule: "generator-registry", where: rel, text: "live generator listed but missing" }); continue; }
+    if (/RETIRED GENERATOR guard/.test(fs.readFileSync(abs, "utf8"))) findings.push({ rule: "generator-registry", where: rel, text: "listed as live but carries the retired guard" });
+    if (!doc.includes(rel.replace(/^scripts\//, ""))) findings.push({ rule: "generator-registry", where: rel, text: "live generator not listed in docs/content-sources.md" });
+  }
+  // Only generators whose guard is statically first are executed: run each WITHOUT --force; it must refuse.
+  const env = { ...process.env }; delete env.MINDSTRONG_FORCE_RETIRED;
+  const hasPy = spawnSync("python3", ["--version"], { encoding: "utf8" }).status === 0;
+  let ran = 0;
+  for (const rel of guarded) {
+    if (rel.endsWith(".py") && !hasPy) continue;
+    const r = spawnSync(rel.endsWith(".py") ? "python3" : process.execPath, [path.join(ROOT, rel)], { cwd: ROOT, encoding: "utf8", env, timeout: 30000 });
+    ran++;
+    if (r.status !== 1 || !/DEPRECATED/.test(r.stderr ?? ""))
+      findings.push({ rule: "generator-unguarded", where: rel, text: `ran without --force and did not refuse (exit ${r.status})` });
+  }
+  if (!hasPy) warnings.push("generator check: python3 not found, retired .py generators were checked statically only");
+  generatorStats = `${Object.keys(reg.live).length} live, ${Object.keys(reg.retired).length} retired (${ran} refused without --force)`;
+}
+
 /** Near-duplicate stem scanners (Science, English) → warnings; --strict turns them into a failure. */
 for (const [subject, script] of [["Science", "near-duplicate-science-stems.mjs"], ["English", "near-duplicate-english-stems.mjs"]]) {
   const out = path.join(fs.mkdtempSync(path.join(os.tmpdir(), "nd-")), "pairs.json");
@@ -399,5 +467,6 @@ for (const c of softChecks) {
 }
 if (staleLeaks.length) console.log(`note: ${staleLeaks.length} id(s) in the hint-leak baseline no longer leak; remove them: ${staleLeaks.join(", ")}`);
 console.log(`near-duplicate stems (not allow-listed): ${nearDupStats.join(", ")}`);
+console.log(`content generators: ${generatorStats}`);
 console.log(`${uniq.length} finding(s), ${warnings.length} warning(s)${STRICT && warnings.length ? " (--strict: warnings fail)" : ""}`);
 process.exit(uniq.length || (STRICT && warnings.length) ? 1 : 0);
