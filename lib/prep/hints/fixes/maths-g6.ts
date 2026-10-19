@@ -67,7 +67,7 @@ export const G6_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g6-maths-frac-b-q05": ["0.08 is 8 hundredths. Write it over 100, then divide top and bottom by 4."],
   "g6-maths-frac-b-q06": ["How many whole 4s fit in 9? That is the whole part; the remainder stays over 4."],
   "g6-maths-frac-b-q07": ["Write 3.7 as 3.70, line up the decimal points, then add 2.05."],
-  "g6-maths-frac-b-q09": ["Multiply both 1.5 and 0.3 by 10 to remove the decimals. Then divide."],
+  "g6-maths-frac-b-q09": ["Multiply 0.3 and the other number by 10 to remove the decimals. Then divide."],
   "g6-maths-frac-b-q10": ["Add the rupees ₹85 + ₹24, then the paise 50 + 75, carrying 100 paise over as ₹1."],
   "g6-maths-frac-b-q11": ["To find the least, write each with four decimal places, so 0.11 becomes 0.1100. Then compare digit by digit."],
   "g6-maths-frac-b-q12": ["Write 4.2 as 42/10, then divide the top and bottom by 2."],

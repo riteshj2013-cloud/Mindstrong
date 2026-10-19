@@ -51,11 +51,20 @@ const ELIM_OPTIONS = /eliminat\w*\s+(?:the\s+)?(?:\w+\s+)?(?:options?|answers?|c
 const GENERIC = [/read (the question )?carefully/i, ELIM_OPTIONS, /think about the lesson/i, /what (is|the) question (is )?asking/i, /look carefully/i, /lesson key ideas/i, /match what you see/i];
 const LETTER = [/\b(?:option|choice|answer)s?\s*\(?[A-Da-d]\)?(?![\w'’])/i, /(?<![\w)])\([A-Da-d]\)/, /(?<![\w'’°/.-])[A-D]\s*(?:,|and|or|nor|&)\s*[A-D](?![\w'’])/, /\b(?:[Oo]nly|[Pp]ick|[Cc]hoose)\s+[A-D](?![\w'’])/, /(?:^|[.!?]\s+)[A-D][.:)](?:\s|$)/];
 
+const escRe = (x) => x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+function auditContains(hint, answer) {
+  const a = String(answer ?? "").trim().replace(/[.!?]+$/, "").trim();
+  if (!a || (a.length < 2 && !/^\d$/.test(a))) return false;
+  return new RegExp(`(?<![\\p{L}\\p{N}])${escRe(a.toLowerCase())}(?![\\p{L}\\p{N}])`, "u").test(String(hint).toLowerCase());
+}
+
 export function leakReasons(h, q) {
   const correct = q.options.find((o) => o.id === q.answerId)?.text ?? "";
   const hn = norm(h), cn = norm(correct);
   const out = [];
   if (cn && (cn.length >= 2 || /^\d$/.test(cn)) && has(hn, cn)) out.push(`option text "${correct}"`);
+  // Same rule as audit-content.mjs containsAnswer (e.g. "4" inside "0.4" counts there), so the audit never disagrees.
+  else if (auditContains(h, correct)) out.push(`option text "${correct}" (audit-content rule)`);
   const stemNums = new Set(nums(q.prompt));
   const pureNum = /^-?[\d.\/\s%°]*$/i.test(cn.replace(/\b(cm|m|km|kg|g|l|ml|mm|sq|cu|units?|years?|days?|hours?|minutes?|rupees|paise)\b[²³]?/g, "")) && nums(cn).length === 1;
   const others = q.options.filter((o) => o.id !== q.answerId).map((o) => new Set(nums(o.text)));
