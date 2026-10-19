@@ -45,7 +45,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-maths-angles-a-q04",
-    prompt: "Look at Name the parts. What is the **orange point V** called?",
+    prompt: "Name the parts. What is the **orange point V** called?",
     options: [
       { id: "a", text: "An arm" },
       { id: "b", text: "A side" },
@@ -59,7 +59,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-maths-angles-a-q05",
-    prompt: "Look at Count the sides. Which shape is a **triangle**?",
+    prompt: "Count the sides. Which shape is a **triangle**?",
     options: [
       { id: "a", text: "Shape A" },
       { id: "b", text: "Shape B" },
@@ -73,7 +73,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-maths-angles-a-q06",
-    prompt: "Look at Open or closed? Which shape is a **closed triangle**?",
+    prompt: "Which shape is a **closed triangle**?",
     options: [
       { id: "a", text: "Shape A" },
       { id: "b", text: "Shape B" },
@@ -543,7 +543,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-angles-b-q17",
-    prompt: "Look at Name this angle. Using the three points, what is the correct name?",
+    prompt: "Name this angle. Using the three points, what is the correct name?",
     options: [
       { id: "a", text: "Angle BAC" },
       { id: "b", text: "Angle ABC" },

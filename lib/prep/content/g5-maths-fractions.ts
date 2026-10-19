@@ -74,7 +74,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-maths-frac-a-q06",
-    prompt: "Look at Add the shaded parts. What is **2/7 + 3/7**?",
+    prompt: "Add the shaded parts. What is **2/7 + 3/7**?",
     options: [
       { id: "a", text: "5/14" },
       { id: "b", text: "5/7" },
@@ -102,7 +102,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-maths-frac-a-q08",
-    prompt: "Look at Same amount shaded? Bars 1, 2 and 3 all show the same amount. Which list names those equivalent fractions?",
+    prompt: "Bars 1, 2 and 3 all show the same amount. Which list names those equivalent fractions?",
     options: [
       { id: "a", text: "1/2, 2/4, 4/8" },
       { id: "b", text: "1/2, 1/4, 1/8" },
@@ -395,7 +395,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-frac-b-q06",
-    prompt: "Look at Take away the shaded strip. What is **7/10 \u2212 2/10**?",
+    prompt: "Take away the shaded strip. What is **7/10 \u2212 2/10**?",
     options: [
       { id: "a", text: "5/0" },
       { id: "b", text: "5/20" },
@@ -423,7 +423,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-frac-b-q08",
-    prompt: "Look at Which bar matches Bar 1? Bar 1 shows 2/3. Which other bar shows the **same amount**?",
+    prompt: "Bar 1 shows 2/3. Which other bar shows the **same amount**?",
     options: [
       { id: "a", text: "Bar 2" },
       { id: "b", text: "Bar 3" },
@@ -437,7 +437,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-frac-b-q09",
-    prompt: "Look at Take 3/5 of the dots. How many dots are shaded, and what is 3/5 of 20?",
+    prompt: "Take 3/5 of the dots. How many dots are shaded, and what is 3/5 of 20?",
     options: [
       { id: "a", text: "10" },
       { id: "b", text: "15" },
@@ -465,7 +465,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-frac-b-q11",
-    prompt: "Look at Simplify the shaded fraction. What is **6/8** in simplest form?",
+    prompt: "Simplify the shaded fraction. What is **6/8** in simplest form?",
     options: [
       { id: "a", text: "6/4" },
       { id: "b", text: "3/8" },
@@ -518,7 +518,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-frac-b-q15",
-    prompt: "Look at Place the flag. The dashed flag sits at which mark?",
+    prompt: "Place the flag. The dashed flag sits at which mark?",
     options: [
       { id: "a", text: "1/4" },
       { id: "b", text: "2/4" },

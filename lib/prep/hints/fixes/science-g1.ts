@@ -1,7 +1,7 @@
 /**
  * Grade 1 Science — item-specific hint fixes (fix layer).
  * Source: app repo origin/main c5a133b (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 90 | hints: 122
+ * Items changed: 90 | hints: 125
  * By category (primary): answer-leak fixed 3 · chapter-shared hint split 9 · other strict-check fixes 23
  * Each entry is a method nudge (≤25 words) naming something from the stem, options or figure; no option letters,
  * never the correct option text. Items whose overlay had two hints keep two (gentle, stronger).
@@ -39,7 +39,7 @@ export const G1_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g1-sci-plants-a-q16": ["Plants grow, drink water and need food, just like you and your pet dog. Which word describes all of you?"],
   "g1-sci-plants-b-q01": ["Water poured on the soil goes down. Which plant part under the soil drinks it up?"],
   "g1-sci-plants-b-q04": ["Push a seed into wet soil in a pot. After some days, what green thing comes up and keeps growing?"],
-  "g1-sci-plants-b-q10": ["Which flower in the list grows in a pond and has pretty pink petals?"],
+  "g1-sci-plants-b-q10": ["A flower is part of a plant and has soft, coloured petals.", "Does each thing grow, or is it made by people?"],
   "g1-sci-plants-b-q14": ["A big tree did not start big. What small thing did the tree grow from first?"],
   "g1-sci-plants-a-q03": ["Plant a seed in a pot and water it every day. What will slowly come out of it and grow?"],
   // g1-science-animals
@@ -61,7 +61,7 @@ export const G1_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g1-sci-animals-a-q07": ["Which animal has long ears and strong back legs to jump, jump, jump?"],
   "g1-sci-animals-a-q08": ["Birds fly high in the sky. Which body part do birds flap to fly?"],
   "g1-sci-animals-a-q09": ["We eat boiled or fried ones at breakfast. What does a hen lay in her nest?"],
-  "g1-sci-animals-a-q10": ["Whales, sharks and dolphins live in the sea. Which animal walks on land?"],
+  "g1-sci-animals-a-q10": ["Some animals live in water and some live on land.", "Which animal could walk and run with you in a park?"],
   "g1-sci-animals-a-q11": ["Bees visit flowers all day. What sweet, sticky food do bees make?"],
   "g1-sci-animals-a-q12": ["An elephant picks up food with its long nose. What do we call that long nose?"],
   "g1-sci-animals-a-q13": ["Which animal in the list is so small it can walk on your finger?"],
@@ -102,7 +102,7 @@ export const G1_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g1-sci-body-b-q10": ["When you are happy you smile. Which part of your face makes the smile?"],
   "g1-sci-body-b-q11": ["Your ears hear sounds. Which choice is something you can hear and enjoy?"],
   "g1-sci-body-b-q14": ["We take a bath and wash our hands every day. How should we keep our body?"],
-  "g1-sci-body-b-q15": ["Shoes, belts and socks are things we wear. Which part inside your head helps you think about a sum?"],
+  "g1-sci-body-b-q15": ["Thinking happens inside your body.", "Point to your head. What is inside it that helps you think and remember?"],
   "g1-sci-body-b-q16": ["Sense organs help us see, hear, smell, taste and touch. Which one in the list helps us see?"],
   "g1-sci-body-a-q02": ["Your eyes look and your feet walk. Which body part helps you hear the school bell ring?"],
   "g1-sci-body-b-q12": ["When you have a cold, a doctor listens to your chest. What does the doctor want to know about you?"],

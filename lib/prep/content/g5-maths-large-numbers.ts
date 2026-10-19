@@ -101,7 +101,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-maths-large-a-q08",
-    prompt: "Look at Build the Number. Use all six tiles to make the **greatest** 6-digit number that has 1 in the Thousands slot. Which number is it?",
+    prompt: "Build the Number. Use all six tiles to make the **greatest** 6-digit number that has 1 in the Thousands slot. Which number is it?",
     options: [
       { id: "a", text: "9,64,310" },
       { id: "b", text: "9,61,430" },

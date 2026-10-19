@@ -1,7 +1,7 @@
 /**
  * Grade 10 English — item-specific hint fixes (ts-ready overlay).
  * Source: app repo commit 8bfc38d (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 72 | hints: 144
+ * Items changed: 72 | hints: 143
  * By category (primary): generic replaced 55 · answer-revealing fixed 17 · shared-hint split 0
  * Each entry is [hint1 (gentle nudge), hint2 (stronger nudge)]. Neither gives the answer.
  * Merge: these must WIN over G10_ENGLISH_HINTS and over authored question.hints (fix layer in lib/prep/hints/fixes; see README-2026-10-19.md).
@@ -46,7 +46,7 @@ export const G10_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-eng-ch01-a-q13": ["\"brittle as a whisper\" — both brittle and a whisper suggest something easy to break or lose.", "Would a pressed marigold from 1924 be heavy and strong, or thin and easily broken?"],
   "g10-eng-ch01-a-q17": ["\"when no one is late\" means there is no rush.", "The phrase describes how pages turn when time feels slow and calm."],
   "g10-eng-ch01-a-q19": ["\"Words are birds\" says words are birds, with no like or as.", "Simile needs like or as; which figure says one thing is another directly?"],
-  "g10-eng-ch01-a-q21": ["Read the poem's last two lines, starting \"Speak, then, as if the air\".", "Finish the sentence: the air \"were listening for something...\""],
+  "g10-eng-ch01-a-q21": ["Read the last line: what kind of words should we speak?"],
   "g10-eng-ch01-a-q24": ["Passage P2 is the old library, where time feels slower and a note says \"Do not finish this journey alone\".", "Link the quiet setting to Arun's feeling of connection with the past."],
   "g10-eng-ch01-b-q01": ["The school verandah is where Meera's class waits before the storm.", "Starting in a place every student knows helps the reader picture things before the rain changes them."],
   "g10-eng-ch01-b-q04": ["Read: \"When the sky finally opened, it opened all at once\".", "\"all at once\" and \"as if a seam had been ripped\" describe the pace — slow or sudden?"],

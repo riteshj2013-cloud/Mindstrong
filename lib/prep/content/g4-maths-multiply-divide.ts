@@ -491,7 +491,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-maths-muldiv-b-q13",
-    prompt: "Look at Check the Table. One labelled cell has a **wrong** answer. Which cell is it?",
+    prompt: "Check the Table. One labelled cell has a **wrong** answer. Which cell is it?",
     options: [
       { id: "a", text: "Cell A" },
       { id: "b", text: "Cell B" },

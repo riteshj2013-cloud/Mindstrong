@@ -1,7 +1,7 @@
 /**
  * Grade 4 English — item-specific hint fixes (ts-ready overlay).
  * Source: app repo commit 8bfc38d (lib/prep/content + lib/prep/hints). Written 2026-10-19.
- * Items changed: 196 | hints: 392
+ * Items changed: 196 | hints: 390
  * By category (primary): generic replaced 146 · answer-revealing fixed 1 · shared-hint split 49
  * Each entry is [hint1 (gentle nudge), hint2 (stronger nudge)]. Neither gives the answer.
  * Merge: these must WIN over G4_ENGLISH_HINTS and over authored question.hints (fix layer in lib/prep/hints/fixes; see README-2026-10-19.md).
@@ -67,7 +67,7 @@ export const G4_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-eng-ch01-a-q13": ["Find the word \"First\" in Passage P3.", "Match the very first action — something done with the string — to a panel."],
   "g4-eng-ch01-a-q14": ["A kite cannot really dance; \"danced\" describes how it moved in the sky.", "Picture a kite on a breezy day above the rooftops — how does it move?"],
   "g4-eng-ch01-a-q15": ["Look at what happened just before Diya pulled her string.", "Another kite came close — what did Diya's kite do after the gentle pull?"],
-  "g4-eng-ch01-a-q16": ["Look at the last sentence of the kite story in Passage P3.", "Find the time clue that begins with \"When the sun…\""],
+  "g4-eng-ch01-a-q16": ["Read the last sentence: what time of day do they bring the kite down?"],
   "g4-eng-ch01-a-q17": ["Read the main line of the notice under the school name.", "What will the school hold in the hall on Friday, 17 January?"],
   "g4-eng-ch01-a-q18": ["Find the sentence that begins with \"Please bring…\"", "Students will buy books, so what will they need to carry them in?"],
   "g4-eng-ch01-a-q19": ["Check the times given for the Book Fair on Friday.", "Mr. Sen wants to come at 2 p.m. — is that before or after the fair closes?"],
@@ -137,7 +137,7 @@ export const G4_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-eng-ch03-a-q03": ["The apostrophe in \"it's\" shows a letter is missing.", "Amma is talking about now, so \"it's\" joins \"it\" with a present form of \"be\"."],
   "g4-eng-ch03-a-q04": ["Amma says \"it's late\" because the day is ending.", "Find the word for coming before the usual time, like waking at 5 a.m."],
   "g4-eng-ch03-a-q05": ["Amma calls the child in, but the child says \"puddles cannot wait!\"", "How does a child feel about splashing in rain puddles?"],
-  "g4-eng-ch03-a-q06": ["Look for Tara's line where she asks to borrow a book about stars.", "Polite asking words include \"May I\" and \"please\"."],
+  "g4-eng-ch03-a-q06": ["Polite requests often use 'May I' and 'please'."],
   "g4-eng-ch03-a-q07": ["Was the librarian upset, or did Tara speak up on her own?", "Tara tells the librarian about her late book before she is asked."],
   "g4-eng-ch03-a-q08": ["\"When should I return it?\" starts with a question word.", "What kind of sentence does a question mark always end?"],
   "g4-eng-ch03-a-q09": ["A compound word is made of two whole words joined together.", "Split each word from Bunty's story: -ful, -less and -ly are endings, not whole words."],
