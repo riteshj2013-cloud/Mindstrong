@@ -19,7 +19,7 @@ export const G7_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g7-sci-nutrition-b-q02": ["Photosynthesis needs chlorophyll. Which green organelle in plant cells contains it?"],
   "g7-sci-nutrition-b-q03": ["'Hetero' means other and 'troph' means food. Autotrophs make their own food; heterotrophs do what?"],
   "g7-sci-nutrition-b-q07": ["A parasite like a tapeworm or Cuscuta takes food from another living thing. Who loses out?"],
-  "g7-sci-nutrition-b-q11": ["Proteins break into amino acids and starch into glucose. Which two products do fats give after digestion?"],
+  "g7-sci-nutrition-b-q11": ["Each nutrient breaks into its own smaller units. Recall the two products formed when bile and lipase act on fats."],
   "g7-sci-nutrition-b-q22": ["Plants have two transport tubes: one carries water up from roots, the other carries food from leaves. Which carries food?"],
   "g7-sci-nutrition-b-q17": ["In an equation, what you start with goes on the left and what is made goes on the right. Where does sugar appear?"],
   // g7-science-heat

@@ -20,7 +20,7 @@ export const G2_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g2-sci-plants-a-q15": ["Plants are living things.", "Which choice would hurt a plant?"],
   "g2-sci-plants-b-q01": ["A seedling has just come out of a seed.", "Is a seedling old or new?"],
   "g2-sci-plants-b-q04": ["Cut a mango open.", "Where do you find the big seed when you eat a mango?"],
-  "g2-sci-plants-b-q08": ["Plants need water, light and air.", "Which choice is a toy, not a plant need?"],
+  "g2-sci-plants-b-q08": ["Think about what a plant on your window needs each day to grow green and tall.", "Three choices help a plant stay alive. Find the one a plant could never use."],
   "g2-sci-plants-b-q10": ["Germination happens when a seed gets water.", "What does a seed do when it sprouts?"],
   "g2-sci-plants-b-q12": ["A cactus likes dry land.", "Which plant floats in a pond?"],
   "g2-sci-plants-b-q14": ["Fallen leaves rot slowly on the ground.", "Rotted leaves turn into food for the soil."],
