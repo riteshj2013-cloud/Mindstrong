@@ -19,9 +19,19 @@ import { G7_SCIENCE_HINT_FIXES } from "./science-g7";
 import { G8_SCIENCE_HINT_FIXES } from "./science-g8";
 import { G9_SCIENCE_HINT_FIXES } from "./science-g9";
 import { G10_SCIENCE_HINT_FIXES } from "./science-g10";
+import { G1_MATHS_HINT_FIXES } from "./maths-g1";
+import { G2_MATHS_HINT_FIXES } from "./maths-g2";
+import { G3_MATHS_HINT_FIXES } from "./maths-g3";
+import { G4_MATHS_HINT_FIXES } from "./maths-g4";
+import { G5_MATHS_HINT_FIXES } from "./maths-g5";
+import { G6_MATHS_HINT_FIXES } from "./maths-g6";
+import { G7_MATHS_HINT_FIXES } from "./maths-g7";
+import { G8_MATHS_HINT_FIXES } from "./maths-g8";
+import { G9_MATHS_HINT_FIXES } from "./maths-g9";
+import { G10_MATHS_HINT_FIXES } from "./maths-g10";
 
 /**
- * Hint FIX layer: reviewed item-specific rewrites (English writer and Science hint pass, 2026-10-19).
+ * Hint FIX layer: reviewed item-specific rewrites (English writer, Science and Maths hint passes, 2026-10-19).
  * Unlike the overlays in ../g*-*.ts, a fix wins over BOTH the overlay and the question's own
  * authored `hints` (see applyHints in ../index.ts). Use it to replace hints that are already
  * authored in content files or overlays; put new hints for unhinted items in the overlays.
@@ -47,6 +57,16 @@ export const HINT_FIX_PACKS: Record<string, Record<string, HintOverlay>> = {
   "g8-science": G8_SCIENCE_HINT_FIXES,
   "g9-science": G9_SCIENCE_HINT_FIXES,
   "g10-science": G10_SCIENCE_HINT_FIXES,
+  "g1-maths": G1_MATHS_HINT_FIXES,
+  "g2-maths": G2_MATHS_HINT_FIXES,
+  "g3-maths": G3_MATHS_HINT_FIXES,
+  "g4-maths": G4_MATHS_HINT_FIXES,
+  "g5-maths": G5_MATHS_HINT_FIXES,
+  "g6-maths": G6_MATHS_HINT_FIXES,
+  "g7-maths": G7_MATHS_HINT_FIXES,
+  "g8-maths": G8_MATHS_HINT_FIXES,
+  "g9-maths": G9_MATHS_HINT_FIXES,
+  "g10-maths": G10_MATHS_HINT_FIXES,
 };
 
 export const ITEM_HINT_FIXES: Record<string, HintOverlay> = Object.assign({}, ...Object.values(HINT_FIX_PACKS));

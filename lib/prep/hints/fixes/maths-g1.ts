@@ -1,0 +1,80 @@
+/**
+ * Grade 1 Maths — item-specific hint fixes (fix layer).
+ * Source: app repo commit 4291140 (served hints: lib/prep/content + lib/prep/hints overlays). Written 2026-10-19.
+ * Items changed: 64 | hints: 128
+ * By category (primary): answer-revealing fixed 64
+ * Each hint nudges the method using the item's own numbers/objects; none contains the answer,
+ * an option letter or "eliminate options". A later hint is a stronger nudge (a first step worked).
+ * Merge: these WIN over G1_MATHS_HINTS and over authored question.hints (see applyHints in ../index.ts).
+ */
+import type { HintOverlay } from "../types";
+
+export const G1_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
+  // g1-maths numbers — Numbers
+  "g1-maths-numbers-a-q01": ["Find 5 on a number line.", "Put your finger on 5 and hop one step to the right."],
+  "g1-maths-numbers-a-q03": ["Picture a pile of 3 sweets. Is the other pile bigger?", "Count up from 1. The number you reach later is bigger."],
+  "g1-maths-numbers-a-q04": ["Point to each star as you count.", "Touch each star once and say a number for it."],
+  "g1-maths-numbers-a-q05": ["Count back from 10.", "Say 10, then take one step back on the number line."],
+  "g1-maths-numbers-a-q06": ["Hold up 7 fingers and say the number.", "Count: six, then the next word is the name for 7."],
+  "g1-maths-numbers-a-q09": ["The smallest number is the one you say first when counting.", "Count up from 1. Stop at the first number from the list. That is the smallest."],
+  "g1-maths-numbers-a-q10": ["Put Riya's ball and Amaira's ball together.", "Hold 1 finger up, then add 1 more finger. Count them."],
+  "g1-maths-numbers-a-q11": ["14 has a tens digit and a ones digit.", "Say 14 slowly: one ten and some ones. Write both digits."],
+  "g1-maths-numbers-a-q12": ["Count 1, 2, 3 and keep going.", "After 3, say the very next number."],
+  "g1-maths-numbers-a-q13": ["Kabir starts at 1 and counts up.", "The last number Kabir says is where he stops counting."],
+  "g1-maths-numbers-a-q14": ["Is 5 more or less than the other number?", "On a number line, a number to the right of 5 is more."],
+  "g1-maths-numbers-a-q16": ["Meera had 6 birds. 1 flew away.", "Hold up 6 fingers. Fold down 1. Count the fingers still up."],
+  "g1-maths-numbers-b-q01": ["Count forward from 9.", "Say 9, then say the next number."],
+  "g1-maths-numbers-b-q02": ["Picture a bicycle from the side.", "Count the wheels: the front wheel, then the back wheel."],
+  "g1-maths-numbers-b-q03": ["Which number would make the smaller pile of toys?", "Count up from the start. Is 6 said before or after the other number?"],
+  "g1-maths-numbers-b-q04": ["Touch each dot as you count.", "Count the dots one by one and say the last number."],
+  "g1-maths-numbers-b-q06": ["Count on: 5, 6, 7…", "Say 5, 6, 7 out loud. Which number comes after 7?"],
+  "g1-maths-numbers-b-q07": ["Even numbers of things can be put in pairs.", "Put counters in twos for each number. The even number has none left over."],
+  "g1-maths-numbers-b-q08": ["Aarav had 3 pencils and got 2 more.", "Start at 3 and count on 2 more."],
+  "g1-maths-numbers-b-q09": ["Count from 4 to 6.", "Say 4, then the next number, then 6. Which is in the middle?"],
+  "g1-maths-numbers-b-q10": ["Count back from 2.", "Put your finger on 2 on a number line and hop back."],
+  "g1-maths-numbers-b-q12": ["15 has a tens digit and a ones digit.", "Which digit of 15 is on the left? That is the tens."],
+  "g1-maths-numbers-b-q13": ["Find the biggest number here.", "Count up from 1. The number here you reach last is biggest."],
+  "g1-maths-numbers-b-q14": ["Sara says one number for each egg.", "The last number Sara says tells how many eggs."],
+  "g1-maths-numbers-b-q15": ["Adding 0 adds nothing.", "Look at the first number in the sum. Adding 0 keeps it the same."],
+  "g1-maths-numbers-b-q16": ["Put the three numbers in order, small to big.", "Smallest goes first, biggest goes last. The one left is in the middle."],
+  // g1-maths add — Add
+  "g1-maths-add-a-q01": ["Count on from 2.", "Start at 2 and say three more numbers."],
+  "g1-maths-add-a-q02": ["Show 1 finger, then 1 more.", "Hold up 1 finger on each hand. Count all the fingers."],
+  "g1-maths-add-a-q03": ["Count on 2 from 4.", "Start at 4 and say two more numbers."],
+  "g1-maths-add-a-q04": ["Adding 0 adds nothing.", "Look at the first number. Adding 0 keeps it the same."],
+  "g1-maths-add-a-q05": ["3 + 3 is a double.", "Hold up 3 fingers on each hand and count them all."],
+  "g1-maths-add-a-q06": ["Count on 1 from 6.", "Say 6, then say the next number."],
+  "g1-maths-add-a-q07": ["Riya has 2 sweets and gets 4 more.", "Start at 4 and count on 2 more."],
+  "g1-maths-add-a-q08": ["Starting at 0 means you start with nothing.", "Adding to 0 is the same as just having the other number."],
+  "g1-maths-add-a-q09": ["Count on 2 from 7.", "Start at 7 and say two more numbers."],
+  "g1-maths-add-a-q10": ["4 + 4 is a double.", "Hold up 4 fingers on each hand and count them all."],
+  "g1-maths-add-a-q12": ["Start at the bigger number, 6.", "Say 6, then count on 1 more."],
+  "g1-maths-add-a-q13": ["Count on 3 from 5.", "Start at 5 and say three more numbers."],
+  "g1-maths-add-a-q14": ["Add 2 + 2 first.", "2 + 2 makes 4. Now add the last 2."],
+  "g1-maths-add-a-q15": ["Count on 1 from 9.", "Say 9, then say the next number."],
+  "g1-maths-add-b-q01": ["Count on from 4, the bigger number.", "Start at 4 and say three more numbers."],
+  "g1-maths-add-b-q02": ["5 + 5 is a double.", "Hold up all fingers on both hands. 5 on each. Count them."],
+  "g1-maths-add-b-q03": ["Start at 5, the bigger number, and add 2.", "Say 5, then count on 2 more."],
+  "g1-maths-add-b-q04": ["Adding 0 changes nothing.", "Look at the first number. Adding 0 more keeps it the same."],
+  "g1-maths-add-b-q05": ["Start at 8, the bigger number.", "Say 8, then count on 1 more."],
+  "g1-maths-add-b-q06": ["Count on 3 from 6.", "Start at 6 and say three more numbers."],
+  "g1-maths-add-b-q07": ["Neha has 4 crayons and finds 3 more.", "Start at 4 and count on 3 more."],
+  "g1-maths-add-b-q08": ["Count on 3 from 7.", "Start at 7 and say three more numbers."],
+  "g1-maths-add-b-q09": ["Start at 7, the bigger number.", "Say 7, then count on 2 more."],
+  "g1-maths-add-b-q10": ["Count on 1 from 4.", "Say 4, then say the next number."],
+  "g1-maths-add-b-q12": ["Count on 1 from 8.", "Say 8, then say the next number."],
+  "g1-maths-add-b-q13": ["Start at 5, the bigger number, and add 3.", "Say 5, then count on 3 more."],
+  "g1-maths-add-b-q14": ["Add 1 + 2 first.", "1 + 2 makes 3. Now add the last 3."],
+  "g1-maths-add-b-q15": ["Count on 4 from 6.", "Start at 6 and say four more numbers."],
+  // g1-maths shapes — Shapes
+  "g1-maths-shapes-a-q01": ["Think of the outline of a round ball.", "Trace a ball's outline. Does it have any corners or straight sides?"],
+  "g1-maths-shapes-a-q02": ["Draw a triangle and count its sides.", "Run your finger along each straight side of the triangle and count."],
+  "g1-maths-shapes-a-q03": ["Draw a square and count its sides.", "Touch each side of the square once and count as you go."],
+  "g1-maths-shapes-a-q04": ["Corners are pointy places on a shape.", "Run your finger round each shape. Which one never hits a pointy corner?"],
+  "g1-maths-shapes-a-q06": ["A corner is where two sides of a square meet.", "Touch each corner of a square once and count."],
+  "g1-maths-shapes-a-q11": ["Think of a door. It is a rectangle.", "Touch each straight side of the rectangle once and count."],
+  "g1-maths-shapes-a-q13": ["Picture a square sandwich cut from corner to corner.", "Draw a square and a line from one corner to the far corner. Look at each piece."],
+  "g1-maths-shapes-b-q05": ["Think of a rectangle like a book cover.", "Lay a book's top edge on its bottom edge. Are the opposite sides the same length?"],
+  "g1-maths-shapes-b-q06": ["Corners are the pointy tips of a triangle.", "Draw a triangle and touch each tip once as you count."],
+  "g1-maths-shapes-b-q16": ["Every side of a square is the same length.", "Draw a square and count its sides. All of them must be equal."],
+};
