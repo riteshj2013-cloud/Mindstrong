@@ -13,6 +13,9 @@
  *                e.g. "Which is correct?");
  *   - generic:   not use generic phrases ("read carefully", "think about the lesson", ...);
  *   - style:     ≤25 words, no "$"; later hints must differ from earlier ones.
+ *   - later:     EVERY hint level is checked by all rules above; in addition a later hint (hint 2, 3, …)
+ *                must not be a bare result ("19.", "Seven.", "It is 7.", "The answer is …", ≤3 words), and no
+ *                hint may state the worked result ("… = 19", "… makes 19", "so it is 19") even when that number is in the stem.
  * Usage: node scripts/check-maths-hints.mjs [--grade 8] [--json out.json] [--list]
  * Exit 1 if any finding (respecting --grade filter).
  */
@@ -78,6 +81,22 @@ function auditContains(hint, answer) {
   return new RegExp(`(?<![\\p{L}\\p{N}])${escRe(a.toLowerCase())}(?![\\p{L}\\p{N}])`, "u").test(String(hint).toLowerCase());
 }
 
+const isPureNum = (cn) => /^-?[\d.\/\s%°]*$/i.test(cn.replace(/\b(cm|m|km|kg|g|l|ml|mm|sq|cu|units?|years?|days?|hours?|minutes?|rupees|paise)\b[²³]?/g, "")) && nums(cn).length === 1;
+const VERB = /\b(count|add|find|say|look|touch|start|draw|think|put|multiply|divide|subtract|take|use|compare|try|check|work|write|share|hold|picture|imagine|trace|round|list|match|split|show|turn|move|hop|step|fold|point|read|ask|group|pair|double|halve)\b/i;
+const BARE = /^\W*(?:it(?:'s| is)|that(?:'s| is)|so (?:it|that)(?:'s| is)|the answer is|answer\s*:|=)/i;
+export function laterReasons(h, i, q) {
+  const correct = q.options.find((o) => o.id === q.answerId)?.text ?? "";
+  const out = [];
+  const words = h.trim().split(/\s+/).filter(Boolean);
+  const letters = h.replace(/[^\p{L}\s]/gu, " ").trim().split(/\s+/).filter((w) => w.length > 1);
+  if (i > 0 && (letters.length === 0 || BARE.test(h) || (words.length <= 3 && !VERB.test(h)))) out.push("is a bare result, not a nudge");
+  const ns = nums(correct);
+  const r = ns[ns.length - 1];
+  if (r && isPureNum(norm(correct)) && new RegExp(`(?:=|\\b(?:makes?|gives?|equals?|leaves?|is|are|so)\\b)\\s*(?:₹|rs\\.?\\s*)?${esc(r)}(?![\\d/.]|\\.\\d)`, "i").test(norm(h).replace(/[−–]/g, "-")))
+    out.push(`states the worked result ${r}`);
+  return out;
+}
+
 export function leakReasons(h, q) {
   const correct = q.options.find((o) => o.id === q.answerId)?.text ?? "";
   const hn = norm(h), cn = norm(correct);
@@ -86,7 +105,7 @@ export function leakReasons(h, q) {
   // Same rule as audit-content.mjs containsAnswer (e.g. "4" inside "0.4" counts there), so the audit never disagrees.
   else if (auditContains(h, correct)) out.push(`option text "${correct}" (audit-content rule)`);
   const stemNums = new Set(nums(q.prompt));
-  const pureNum = /^-?[\d.\/\s%°]*$/i.test(cn.replace(/\b(cm|m|km|kg|g|l|ml|mm|sq|cu|units?|years?|days?|hours?|minutes?|rupees|paise)\b[²³]?/g, "")) && nums(cn).length === 1;
+  const pureNum = isPureNum(cn);
   const others = q.options.filter((o) => o.id !== q.answerId).map((o) => new Set(nums(o.text)));
   for (const n of nums(correct)) {
     // A number already in the stem, or shared by every wrong option too, gives nothing away.
@@ -116,7 +135,7 @@ for (const { chapter, q } of items) for (const h of q.hints ?? []) {
   byChapterHint.get(k).add(q.id);
 }
 const findings = [];
-const flagged = { leak: new Set(), letter: new Set(), shared: new Set(), "no-token": new Set(), generic: new Set(), style: new Set() };
+const flagged = { leak: new Set(), later: new Set(), letter: new Set(), shared: new Set(), "no-token": new Set(), generic: new Set(), style: new Set() };
 for (const { g, chapter, q } of items) {
   let ctx = tokens([q.prompt, q.figure?.alt, q.figure?.longdesc].join(" "));
   // Option-only stems ("Which is correct?") carry their specifics in the options.
@@ -126,6 +145,7 @@ for (const { g, chapter, q } of items) {
   hints.forEach((h, i) => {
     const add = (rule, why) => { flagged[rule].add(q.id); findings.push([q.id, rule, `hint[${i}] ${why}: ${h}`]); };
     for (const r of leakReasons(h, q)) add("leak", `contains answer ${r}`);
+    for (const r of laterReasons(h, i, q)) add("later", r);
     if (letterRefs(h).length || ELIM_OPTIONS.test(h)) add("letter", "names an option letter / says eliminate options");
     const sh = byChapterHint.get(chapter + "\u0000" + norm(h));
     if (sh && sh.size > 1) add("shared", `identical to ${sh.size - 1} other item(s) in ${chapter}`);
@@ -139,7 +159,7 @@ for (const { g, chapter, q } of items) {
 const any = new Set(Object.values(flagged).flatMap((s) => [...s]));
 const perGrade = {};
 for (const { g, q } of items) {
-  const r = (perGrade[`G${g}`] ||= { items: 0, flagged: 0, leak: 0, letter: 0, shared: 0, "no-token": 0, generic: 0, style: 0 });
+  const r = (perGrade[`G${g}`] ||= { items: 0, flagged: 0, leak: 0, later: 0, letter: 0, shared: 0, "no-token": 0, generic: 0, style: 0 });
   r.items++;
   if (any.has(q.id)) r.flagged++;
   for (const k of Object.keys(flagged)) if (flagged[k].has(q.id)) r[k]++;
