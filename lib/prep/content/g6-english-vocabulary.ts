@@ -18,16 +18,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-vocab-a-q02",
-    prompt: "Antonym of brave is —",
+    prompt: "Antonym of guilty is —",
     options: [
-      { id: "a", text: "courageous" },
-      { id: "b", text: "timid" },
-      { id: "c", text: "bold" },
-      { id: "d", text: "heroic" }
+      { id: "a", text: "ashamed" },
+      { id: "b", text: "innocent" },
+      { id: "c", text: "sorry" },
+      { id: "d", text: "angry" }
     ],
     answerId: "b",
-    explanation: "Timid is the opposite of brave.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Guilty means having done wrong; innocent means having done nothing wrong. 'ashamed' is how a guilty person may feel, not the opposite.",
+    hints: ["A guilty person did the wrong thing.", "Find the word for someone who did nothing wrong, the opposite of guilty."]
   },
   {
     id: "g6-eng-vocab-a-q03",
@@ -83,7 +83,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-vocab-a-q07",
-    prompt: "Prefix un- in unkind means —",
+    prompt: "Prefix dis- in disagree means —",
     options: [
       { id: "a", text: "very" },
       { id: "b", text: "again" },
@@ -91,8 +91,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "before" }
     ],
     answerId: "c",
-    explanation: "Un- often means not: unkind = not kind.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "dis- reverses the meaning: disagree means not agree. 'again' is the meaning of re-, as in redo.",
+    hints: ["Split \"disagree\" into dis- + agree.", "Compare dislike and disobey; what does dis- do to the word after it?"]
   },
   {
     id: "g6-eng-vocab-a-q08",
@@ -122,16 +122,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-vocab-a-q10",
-    prompt: "Antonym of generous is —",
+    prompt: "Antonym of fragile is —",
     options: [
-      { id: "a", text: "kind" },
-      { id: "b", text: "selfish" },
-      { id: "c", text: "open" },
-      { id: "d", text: "giving" }
+      { id: "a", text: "delicate" },
+      { id: "b", text: "sturdy" },
+      { id: "c", text: "thin" },
+      { id: "d", text: "light" }
     ],
     answerId: "b",
-    explanation: "Selfish is opposite of generous.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Fragile means easily broken; sturdy means strong and hard to break. 'delicate' means nearly the same as fragile.",
+    hints: ["A fragile glass vase breaks if you drop it.", "Delicate is a twin of fragile; find the word for something hard to break."]
   },
   {
     id: "g6-eng-vocab-a-q11",
@@ -148,16 +148,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-vocab-a-q12",
-    prompt: "Homophone of pair is —",
+    prompt: "Homophone of sail is —",
     options: [
-      { id: "a", text: "peer only" },
-      { id: "b", text: "pour" },
-      { id: "c", text: "poor only" },
-      { id: "d", text: "pear" }
+      { id: "a", text: "sell" },
+      { id: "b", text: "seal" },
+      { id: "c", text: "soil" },
+      { id: "d", text: "sale" }
     ],
     answerId: "d",
-    explanation: "Pair and pear sound alike but differ in meaning.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Sail (the cloth on a boat) and sale (selling at lower prices) sound the same but are spelt differently. 'sell' is linked in meaning but sounds different.",
+    hints: ["Homophones sound exactly alike but are spelt differently.", "Say sail aloud, then find the word on a shop sign for lower prices."]
   },
   {
     id: "g6-eng-vocab-a-q13",
@@ -333,29 +333,29 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-vocab-b-q02",
-    prompt: "Antonym of noisy is —",
+    prompt: "Antonym of shallow is —",
     options: [
-      { id: "a", text: "loud" },
-      { id: "b", text: "quiet" },
-      { id: "c", text: "busy" },
-      { id: "d", text: "bright" }
+      { id: "a", text: "thin" },
+      { id: "b", text: "deep" },
+      { id: "c", text: "wide" },
+      { id: "d", text: "low" }
     ],
     answerId: "b",
-    explanation: "Quiet is the opposite of noisy.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Shallow water is not deep, so deep is its opposite. 'low' is close to shallow, not its opposite.",
+    hints: ["A shallow pond comes up only to your ankles.", "The opposite of shallow is water far over your head."]
   },
   {
     id: "g6-eng-vocab-b-q03",
-    prompt: "Synonym of tiny is —",
+    prompt: "Synonym of silent is —",
     options: [
-      { id: "a", text: "huge" },
-      { id: "b", text: "tall" },
-      { id: "c", text: "small" },
-      { id: "d", text: "wide" }
+      { id: "a", text: "loud" },
+      { id: "b", text: "busy" },
+      { id: "c", text: "quiet" },
+      { id: "d", text: "bright" }
     ],
     answerId: "c",
-    explanation: "Tiny means very small.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Silent means making no sound, which is the same as quiet. 'loud' is the opposite.",
+    hints: ["A silent room has no sound at all.", "Find another word for silent, like a library with no talking."]
   },
   {
     id: "g6-eng-vocab-b-q04",
@@ -398,16 +398,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-vocab-b-q07",
-    prompt: "Prefix re- in rewrite means —",
+    prompt: "Prefix pre- in preview means —",
     options: [
       { id: "a", text: "not" },
       { id: "b", text: "wrongly" },
-      { id: "c", text: "again" },
+      { id: "c", text: "before" },
       { id: "d", text: "against" }
     ],
     answerId: "c",
-    explanation: "Re- often means again: rewrite = write again.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "pre- means before: a preview is a look before the main show. 'against' is the meaning of anti-.",
+    hints: ["Split \"preview\" into pre- + view.", "Like the prefix in prepay and preheat: when does the action happen?"]
   },
   {
     id: "g6-eng-vocab-b-q08",
@@ -463,16 +463,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-vocab-b-q12",
-    prompt: "Homophone of sea is —",
+    prompt: "Homophone of knight is —",
     options: [
-      { id: "a", text: "say" },
-      { id: "b", text: "sigh" },
-      { id: "c", text: "sow" },
-      { id: "d", text: "see" }
+      { id: "a", text: "knit" },
+      { id: "b", text: "kite" },
+      { id: "c", text: "nine" },
+      { id: "d", text: "night" }
     ],
     answerId: "d",
-    explanation: "Sea and see sound the same.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Knight (the k is silent) sounds exactly like night. 'knit' also has a silent k, but its vowel sound is different.",
+    hints: ["The k in \"knight\" is silent; say it aloud.", "Which word sounds exactly like knight and names the time after evening?"]
   },
   {
     id: "g6-eng-vocab-b-q13",
@@ -489,16 +489,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-vocab-b-q14",
-    prompt: "Antonym of polite is —",
+    prompt: "Antonym of praise is —",
     options: [
-      { id: "a", text: "courteous" },
-      { id: "b", text: "rude" },
-      { id: "c", text: "kind" },
-      { id: "d", text: "gentle" }
+      { id: "a", text: "admire" },
+      { id: "b", text: "criticise" },
+      { id: "c", text: "thank" },
+      { id: "d", text: "reward" }
     ],
     answerId: "b",
-    explanation: "Rude is opposite of polite.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "To praise is to say good things about someone; to criticise is to point out faults. 'admire' is close to praise, not its opposite.",
+    hints: ["The coach praised the team for its hard work.", "Find the word for pointing out faults, the opposite of praise."]
   },
   {
     id: "g6-eng-vocab-b-q15",
@@ -567,16 +567,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-vocab-b-q20",
-    prompt: "The idiom “a piece of cake” means —",
+    prompt: "The idiom “hit the books” means —",
     options: [
-      { id: "a", text: "a dessert only" },
-      { id: "b", text: "something expensive" },
-      { id: "c", text: "a cricket shot" },
-      { id: "d", text: "something very easy" }
+      { id: "a", text: "hit someone with a book" },
+      { id: "b", text: "tidy the bookshelf" },
+      { id: "c", text: "sell old books" },
+      { id: "d", text: "study hard" }
     ],
     answerId: "d",
-    explanation: "Informally, a piece of cake means very easy.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "'Hit the books' means to study hard. 'hit someone with a book' is the literal reading, but the idiom is not about hitting.",
+    hints: ["\"hit the books\" is an idiom; nobody really hits anything.", "Before exams, Kabir decided to \"hit the books\". What did he do?"]
   },
   {
     id: "g6-eng-vocab-b-q21",

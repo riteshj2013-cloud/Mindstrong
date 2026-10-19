@@ -31,16 +31,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-eng-ch03-a-q03",
-    prompt: "Closing a formal letter to an unknown official: \u2014",
+    prompt: "In a formal letter, where does the subject line go?",
     options: [
-      { id: "a", text: "Yours faithfully" },
-      { id: "b", text: "See ya" },
-      { id: "c", text: "Yours lovingly" },
-      { id: "d", text: "Thnx" }
+      { id: "a", text: "after the receiver's address, before the salutation" },
+      { id: "b", text: "after the closing" },
+      { id: "c", text: "at the very top, above the sender's address" },
+      { id: "d", text: "inside the last paragraph" }
     ],
     answerId: "a",
-    explanation: "Unknown recipient \u2192 Yours faithfully; named \u2192 Yours sincerely.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The subject line comes after the receiver's address and before the salutation (Sir/Madam). Putting it above the sender's address is tempting, but it breaks the standard layout.",
+    hints: ["The subject line tells the topic before the letter greets the reader.", "It is not at the end and not above the sender's address; think of the order you read a letter in."]
   },
   {
     id: "g10-eng-ch03-a-q04",

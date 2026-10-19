@@ -5,29 +5,29 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g7-eng-words-a-q01",
-    prompt: "Synonym of \u201cbrave\u201d?",
+    prompt: "Synonym of “wealthy”?",
     options: [
-      { id: "a", text: "courageous" },
-      { id: "b", text: "timid" },
-      { id: "c", text: "silent" },
-      { id: "d", text: "narrow" }
+      { id: "a", text: "rich" },
+      { id: "b", text: "poor" },
+      { id: "c", text: "famous" },
+      { id: "d", text: "busy" }
     ],
     answerId: "a",
-    explanation: "Courageous means nearly the same as brave.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Wealthy means having a lot of money, which is rich. 'famous' means well known, which a wealthy person need not be.",
+    hints: ["A wealthy family owns big houses and many cars.", "Find the word that means having lots of money, like wealthy."]
   },
   {
     id: "g7-eng-words-a-q02",
-    prompt: "Antonym of \u201cscarce\u201d?",
+    prompt: "Antonym of “vacant”?",
     options: [
-      { id: "a", text: "rare" },
-      { id: "b", text: "plentiful" },
-      { id: "c", text: "tiny" },
-      { id: "d", text: "hidden" }
+      { id: "a", text: "empty" },
+      { id: "b", text: "occupied" },
+      { id: "c", text: "spare" },
+      { id: "d", text: "free" }
     ],
     answerId: "b",
-    explanation: "Scarce means in short supply; plentiful is the opposite.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "A vacant seat is empty; occupied means someone is using it. 'free' is close to vacant, not its opposite.",
+    hints: ["A vacant seat on the bus has nobody in it.", "Find the word for a seat someone is sitting in, the opposite of vacant."]
   },
   {
     id: "g7-eng-words-a-q03",
@@ -70,29 +70,29 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-eng-words-a-q06",
-    prompt: "Synonym of \u201cancient\u201d?",
+    prompt: "Synonym of “abundant”?",
     options: [
-      { id: "a", text: "brand new" },
-      { id: "b", text: "very old" },
-      { id: "c", text: "tiny" },
-      { id: "d", text: "noisy" }
+      { id: "a", text: "scarce" },
+      { id: "b", text: "more than enough" },
+      { id: "c", text: "costly" },
+      { id: "d", text: "empty" }
     ],
     answerId: "b",
-    explanation: "Ancient means belonging to the distant past.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Abundant means present in large amounts, more than enough. 'scarce' is the opposite: too little.",
+    hints: ["After good rains, the harvest was abundant and every granary overflowed.", "Find the meaning that tells of a large supply, like abundant."]
   },
   {
     id: "g7-eng-words-a-q07",
-    prompt: "Antonym of \u201cexpand\u201d?",
+    prompt: "Antonym of “import”?",
     options: [
-      { id: "a", text: "grow" },
-      { id: "b", text: "widen" },
-      { id: "c", text: "shrink" },
-      { id: "d", text: "increase" }
+      { id: "a", text: "bring in" },
+      { id: "b", text: "purchase" },
+      { id: "c", text: "export" },
+      { id: "d", text: "transport" }
     ],
     answerId: "c",
-    explanation: "Expand means become larger; shrink is opposite.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "To import is to bring goods into a country; to export is to send them out. 'bring in' means the same as import.",
+    hints: ["India imports oil from other countries.", "Bring in means the same as import; think of goods leaving the country."]
   },
   {
     id: "g7-eng-words-a-q08",
@@ -109,55 +109,55 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-eng-words-a-q09",
-    prompt: "Prefix in \u201cunhappy\u201d means\u2026",
+    prompt: "Prefix in “impossible” means…",
     options: [
       { id: "a", text: "not" },
       { id: "b", text: "again" },
       { id: "c", text: "before" },
-      { id: "d", text: "wrongly always" }
+      { id: "d", text: "very" }
     ],
     answerId: "a",
-    explanation: "Un- often means not.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "im- means not: impossible means not possible. 'before' is the meaning of pre-, as in preview.",
+    hints: ["Split \"impossible\" into im- + possible.", "Impolite and impatient use the same prefix; what does it do to each word?"]
   },
   {
     id: "g7-eng-words-a-q10",
-    prompt: "Suffix in \u201chopeful\u201d suggests\u2026",
+    prompt: "Suffix in “childhood” suggests…",
     options: [
       { id: "a", text: "without" },
-      { id: "b", text: "full of" },
+      { id: "b", text: "state or time of being" },
       { id: "c", text: "again" },
       { id: "d", text: "against" }
     ],
     answerId: "b",
-    explanation: "-ful means full of.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "-hood means a state or time of being: childhood is the time of being a child. 'without' is the meaning of -less.",
+    hints: ["Compare childhood, brotherhood and neighbourhood.", "Childhood is a part of life; what does -hood turn child into?"]
   },
   {
     id: "g7-eng-words-a-q11",
-    prompt: "Synonym of \u201cassist\u201d?",
+    prompt: "Synonym of “gather”?",
     options: [
-      { id: "a", text: "hinder" },
-      { id: "b", text: "hide" },
-      { id: "c", text: "help" },
-      { id: "d", text: "harm" }
+      { id: "a", text: "scatter" },
+      { id: "b", text: "lose" },
+      { id: "c", text: "collect" },
+      { id: "d", text: "break" }
     ],
     answerId: "c",
-    explanation: "Assist means help.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Gather means to bring things together, the same as collect. 'scatter' is the opposite.",
+    hints: ["Children gather shells on the beach into a bucket.", "Scatter means the opposite: spreading things apart."]
   },
   {
     id: "g7-eng-words-a-q12",
-    prompt: "Antonym of \u201cgenerous\u201d?",
+    prompt: "Antonym of “visible”?",
     options: [
-      { id: "a", text: "kind" },
-      { id: "b", text: "giving" },
-      { id: "c", text: "open" },
-      { id: "d", text: "selfish" }
+      { id: "a", text: "clear" },
+      { id: "b", text: "bright" },
+      { id: "c", text: "seen" },
+      { id: "d", text: "invisible" }
     ],
     answerId: "d",
-    explanation: "Generous people give freely; selfish is opposite.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Visible means able to be seen; invisible means unable to be seen. 'seen' leans the same way as visible.",
+    hints: ["Stars are visible on a clear night.", "Find the word for something you cannot see, like air, the opposite of visible."]
   },
   {
     id: "g7-eng-words-a-q13",
@@ -213,16 +213,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-eng-words-a-q17",
-    prompt: "Antonym of \u201ctemporary\u201d?",
+    prompt: "Antonym of “expensive”?",
     options: [
-      { id: "a", text: "permanent" },
-      { id: "b", text: "brief" },
-      { id: "c", text: "short" },
-      { id: "d", text: "passing" }
+      { id: "a", text: "cheap" },
+      { id: "b", text: "costly" },
+      { id: "c", text: "pricey" },
+      { id: "d", text: "rare" }
     ],
     answerId: "a",
-    explanation: "Temporary lasts a short time; permanent lasts.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Expensive means costing a lot; cheap means costing little. 'costly' means the same as expensive.",
+    hints: ["An expensive phone costs a lot of money.", "Find the word for something costing very little, the opposite of expensive."]
   },
   {
     id: "g7-eng-words-a-q18",
@@ -252,16 +252,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-eng-words-a-q20",
-    prompt: "Choose the best word: The ____ of the story made us smile.",
+    prompt: "Choose the best word: The team’s ____ was high after the win.",
     options: [
-      { id: "a", text: "mural" },
+      { id: "a", text: "moral" },
       { id: "b", text: "mortal" },
       { id: "c", text: "metal" },
-      { id: "d", text: "moral" }
+      { id: "d", text: "morale" }
     ],
     answerId: "d",
-    explanation: "Moral means the lesson of a story.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Morale means team spirit or confidence. 'moral' (without the final e) is the lesson of a story.",
+    hints: ["The blank names the team's spirit and confidence.", "One look-alike word names a story's lesson; that is not what the team feels."]
   },
   {
     id: "g7-eng-words-a-q21",
@@ -291,16 +291,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-eng-words-a-q23",
-    prompt: "Antonym of \u201cinclude\u201d?",
+    prompt: "Antonym of “accept”?",
     options: [
-      { id: "a", text: "contain" },
-      { id: "b", text: "add" },
-      { id: "c", text: "exclude" },
-      { id: "d", text: "invite" }
+      { id: "a", text: "agree" },
+      { id: "b", text: "take" },
+      { id: "c", text: "reject" },
+      { id: "d", text: "welcome" }
     ],
     answerId: "c",
-    explanation: "Include brings in; exclude keeps out.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Accept means to take or agree to something; reject means to refuse it. 'take' is close to accept, not its opposite.",
+    hints: ["You accept a gift when you take it happily.", "Find the word for saying no to a gift, the opposite of accept."]
   },
   {
     id: "g7-eng-words-a-q24",
@@ -333,16 +333,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-eng-words-b-q02",
-    prompt: "Antonym of \u201cvictory\u201d?",
+    prompt: "Antonym of “maximum”?",
     options: [
-      { id: "a", text: "trophy" },
-      { id: "b", text: "defeat" },
-      { id: "c", text: "cheer" },
-      { id: "d", text: "medal" }
+      { id: "a", text: "most" },
+      { id: "b", text: "minimum" },
+      { id: "c", text: "average" },
+      { id: "d", text: "plenty" }
     ],
     answerId: "b",
-    explanation: "Victory\u2019s opposite is defeat.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Maximum is the greatest amount; minimum is the least. 'most' is close to maximum, not its opposite.",
+    hints: ["The maximum speed is the highest speed allowed.", "Find the word for the lowest amount allowed, the opposite of maximum."]
   },
   {
     id: "g7-eng-words-b-q03",
@@ -567,42 +567,42 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-eng-words-b-q20",
-    prompt: "Synonym of \u201crapid\u201d?",
+    prompt: "Synonym of “swift”?",
     options: [
-      { id: "a", text: "slow" },
-      { id: "b", text: "late" },
-      { id: "c", text: "soft" },
-      { id: "d", text: "quick" }
+      { id: "a", text: "sluggish" },
+      { id: "b", text: "silent" },
+      { id: "c", text: "steady" },
+      { id: "d", text: "speedy" }
     ],
     answerId: "d",
-    explanation: "Rapid means fast.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Swift means moving very fast, like speedy. 'sluggish' is the opposite.",
+    hints: ["A swift runner reaches the finish line first.", "Find another word for swift that also means very fast."]
   },
   {
     id: "g7-eng-words-b-q21",
-    prompt: "Suffix \u201c-less\u201d in \u201cfearless\u201d means\u2026",
+    prompt: "Suffix “-able” in “readable” means…",
     options: [
-      { id: "a", text: "without" },
+      { id: "a", text: "can be done" },
       { id: "b", text: "full of" },
       { id: "c", text: "again" },
       { id: "d", text: "before" }
     ],
     answerId: "a",
-    explanation: "Fearless = without fear.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "-able means can be: readable means it can be read. 'full of' is the meaning of -ful.",
+    hints: ["Compare readable, washable and breakable.", "A washable shirt is one you are able to wash; what does -able add?"]
   },
   {
     id: "g7-eng-words-b-q22",
-    prompt: "Antonym of \u201cpolite\u201d?",
+    prompt: "Antonym of “voluntary”?",
     options: [
-      { id: "a", text: "kind" },
-      { id: "b", text: "rude" },
-      { id: "c", text: "gentle" },
-      { id: "d", text: "courteous" }
+      { id: "a", text: "willing" },
+      { id: "b", text: "compulsory" },
+      { id: "c", text: "optional" },
+      { id: "d", text: "free" }
     ],
     answerId: "b",
-    explanation: "Rude is the opposite of polite.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "Voluntary means done by choice; compulsory means required by a rule. 'optional' means nearly the same as voluntary.",
+    hints: ["Joining the weekend club is voluntary; nobody is forced.", "Find the word for something a rule forces everyone to do, the opposite of voluntary."]
   },
   {
     id: "g7-eng-words-b-q23",

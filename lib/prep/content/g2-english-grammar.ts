@@ -148,16 +148,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g2-eng-grammar-a-q12",
-    prompt: "This is ___ apple.",
+    prompt: "This is ___ igloo.",
     options: [
       { id: "a", text: "a" },
-      { id: "b", text: "the the" },
-      { id: "c", text: "two" },
+      { id: "b", text: "two" },
+      { id: "c", text: "many" },
       { id: "d", text: "an" }
     ],
     answerId: "d",
-    explanation: "An before vowel sound.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Igloo starts with a vowel sound, so we say an igloo. 'a' goes before consonant sounds, like a dog.",
+    hints: ["Say \"igloo\" aloud and listen to its first sound.", "Igloo starts with a vowel sound; pick the word for one igloo."]
   },
   {
     id: "g2-eng-grammar-a-q13",
@@ -346,16 +346,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g2-eng-grammar-b-q11",
-    prompt: "This is ___ umbrella.",
+    prompt: "This is ___ owl.",
     options: [
       { id: "a", text: "a" },
       { id: "b", text: "two" },
       { id: "c", text: "an" },
-      { id: "d", text: "an an" }
+      { id: "d", text: "many" }
     ],
     answerId: "c",
-    explanation: "An umbrella \u2014 vowel sound.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Owl begins with a vowel sound, so we say an owl. 'a' goes before consonant sounds, like a cat.",
+    hints: ["Say \"owl\" slowly. What sound comes first?", "Owl starts with a vowel sound, and there is only one owl."]
   },
   {
     id: "g2-eng-grammar-b-q12",

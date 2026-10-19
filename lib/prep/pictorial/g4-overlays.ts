@@ -1089,21 +1089,21 @@ export const G4_PICTORIAL_OVERLAYS: Record<string, PictorialOverlay> = {
     "figure": {
       "type": "table",
       "headers": [
-        "Tense",
-        "Example"
+        "Subject",
+        "Simple present"
       ],
       "rows": [
         [
-          "Past",
-          "went"
+          "they",
+          "go"
         ],
         [
-          "Present",
+          "it",
           "goes"
         ]
       ],
       "highlightCell": [
-        0,
+        1,
         0
       ]
     }

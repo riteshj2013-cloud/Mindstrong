@@ -5,16 +5,16 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g3-eng-synonyms-a-q01",
-    prompt: "Which word means almost the SAME as \"happy\"?",
+    prompt: "Which word means almost the SAME as \"rush\"?",
     options: [
-      { id: "a", text: "glad" },
-      { id: "b", text: "angry" },
-      { id: "c", text: "tiny" },
-      { id: "d", text: "slow" }
+      { id: "a", text: "hurry" },
+      { id: "b", text: "wait" },
+      { id: "c", text: "sleep" },
+      { id: "d", text: "sing" }
     ],
     answerId: "a",
-    explanation: "\"Glad\" and \"happy\" both name a good, cheerful feeling. \"Angry\" is a different feeling.",
-    hints: ["Think of a good feeling after good news.", "Angry is not a twin of happy."]
+    explanation: "Rush and hurry both mean to move fast because time is short. 'wait' is the opposite: staying where you are.",
+    hints: ["When you rush, you move fast because time is short.", "Find another word for rush, like moving fast to catch a bus."]
   },
   {
     id: "g3-eng-synonyms-a-q02",
@@ -44,16 +44,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-synonyms-a-q04",
-    prompt: "Which word means almost the SAME as \"begin\"?",
+    prompt: "Which word means almost the SAME as \"shut\"?",
     options: [
-      { id: "a", text: "end" },
-      { id: "b", text: "stop" },
-      { id: "c", text: "finish" },
-      { id: "d", text: "start" }
+      { id: "a", text: "open" },
+      { id: "b", text: "lift" },
+      { id: "c", text: "pull" },
+      { id: "d", text: "close" }
     ],
     answerId: "d",
-    explanation: "\"Start\" and \"begin\" both mean to get going. End, stop and finish are closer to stopping.",
-    hints: ["Begin means to get going.", "End and finish are not twins of begin."]
+    explanation: "Shut and close both mean to stop something being open. 'open' is the opposite.",
+    hints: ["You shut the door when you leave a room.", "Find another word for shut, like what you do to a book."]
   },
   {
     id: "g3-eng-synonyms-a-q05",
@@ -122,16 +122,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-synonyms-a-q10",
-    prompt: "Which word means almost the SAME as \"end\"?",
+    prompt: "Which word means almost the SAME as \"enjoy\"?",
     options: [
-      { id: "a", text: "start" },
-      { id: "b", text: "finish" },
-      { id: "c", text: "open" },
-      { id: "d", text: "begin" }
+      { id: "a", text: "hate" },
+      { id: "b", text: "like" },
+      { id: "c", text: "forget" },
+      { id: "d", text: "lose" }
     ],
     answerId: "b",
-    explanation: "\"Finish\" and \"end\" both mean to bring something to a close. \"Start\" and \"begin\" are opposites.",
-    hints: ["End means something is over.", "Start is the opposite of end."]
+    explanation: "To enjoy something is to like doing it. 'hate' is the opposite feeling.",
+    hints: ["You enjoy a game when it makes you happy.", "Find another word for enjoy: how you feel about your favourite food."]
   },
   {
     id: "g3-eng-synonyms-a-q11",

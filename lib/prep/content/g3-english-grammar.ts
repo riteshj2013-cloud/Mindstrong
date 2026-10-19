@@ -5,16 +5,16 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g3-eng-grammar-a-q01",
-    prompt: "Which word is a NOUN (a naming word)?",
+    prompt: "Which word in this sentence is a NOUN? \"My sister paints beautiful pictures.\"",
     options: [
-      { id: "a", text: "school" },
-      { id: "b", text: "run" },
-      { id: "c", text: "happy" },
-      { id: "d", text: "quickly" }
+      { id: "a", text: "sister" },
+      { id: "b", text: "paints" },
+      { id: "c", text: "beautiful" },
+      { id: "d", text: "my" }
     ],
     answerId: "a",
-    explanation: "\"School\" names a place. Run is a verb, happy is an adjective, and quickly is an adverb.",
-    hints: ["A noun names a person, place, or thing.", "Run tells an action, not a name."]
+    explanation: "Sister names a person, so it is a noun. 'paints' is an action word (a verb), not a naming word.",
+    hints: ["A noun names a person, place or thing.", "Paints is an action and beautiful describes. Which word names a person?"]
   },
   {
     id: "g3-eng-grammar-a-q02",
@@ -44,29 +44,29 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-grammar-a-q04",
-    prompt: "One child, many ____.",
+    prompt: "One man, many ____.",
     options: [
-      { id: "a", text: "childs" },
-      { id: "b", text: "childes" },
-      { id: "c", text: "childrens" },
-      { id: "d", text: "children" }
+      { id: "a", text: "mans" },
+      { id: "b", text: "manes" },
+      { id: "c", text: "mens" },
+      { id: "d", text: "men" }
     ],
     answerId: "d",
-    explanation: "The plural of child is children. We do not say childs or childrens.",
-    hints: ["Some plurals do not just add -s.", "Never say childrens."]
+    explanation: "Man has a special plural: men. 'mens' adds an extra s to a word that is already plural.",
+    hints: ["Man does not take -s to make more than one.", "\"mans\" is not a word; the vowel in man changes."]
   },
   {
     id: "g3-eng-grammar-a-q05",
     prompt: "Which word is a VERB (an action word)?",
     options: [
-      { id: "a", text: "jump" },
+      { id: "a", text: "clap" },
       { id: "b", text: "table" },
       { id: "c", text: "blue" },
       { id: "d", text: "soft" }
     ],
     answerId: "a",
-    explanation: "\"Jump\" names an action. Table is a noun; blue and soft describe things.",
-    hints: ["A verb tells what someone does.", "Table names a thing, not an action."]
+    explanation: "Clap is something you can do with your hands, so it is a verb. 'soft' describes how something feels; it is not an action.",
+    hints: ["A verb is something you can do with your body.", "A verb can be something your hands do after a show."]
   },
   {
     id: "g3-eng-grammar-a-q06",
@@ -96,7 +96,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-grammar-a-q08",
-    prompt: "They ____ playing in the park.",
+    prompt: "My friends ____ at the gate.",
     options: [
       { id: "a", text: "is" },
       { id: "b", text: "am" },
@@ -104,8 +104,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "are" }
     ],
     answerId: "d",
-    explanation: "\"They\" is plural, so we use are.",
-    hints: ["They means more than one.", "Use are with we/you/they."]
+    explanation: "'My friends' means more than one, so we use 'are'. 'is' is for one friend.",
+    hints: ["\"My friends\" means more than one friend.", "Many friends need the verb for more than one, not is or am."]
   },
   {
     id: "g3-eng-grammar-a-q09",
@@ -213,16 +213,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-grammar-a-q17",
-    prompt: "Yesterday, Riya ____ to the market.",
+    prompt: "Last night, Dad ____ a story to us.",
     options: [
-      { id: "a", text: "went" },
-      { id: "b", text: "go" },
-      { id: "c", text: "goes" },
-      { id: "d", text: "going" }
+      { id: "a", text: "told" },
+      { id: "b", text: "tell" },
+      { id: "c", text: "tells" },
+      { id: "d", text: "telling" }
     ],
     answerId: "a",
-    explanation: "Yesterday means the past. The past form of go is went.",
-    hints: ["Yesterday = past time.", "Go and goes are present forms."]
+    explanation: "'Last night' shows the past, so the past form 'told' is correct. 'tells' is present tense.",
+    hints: ["\"Last night\" tells us when it happened.", "Last night is finished time, so the verb needs its past form."]
   },
   {
     id: "g3-eng-grammar-a-q18",
@@ -398,20 +398,20 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-grammar-b-q07",
-    prompt: "She ____ to school by bus.",
+    prompt: "Ravi ____ his bicycle to school.",
     options: [
-      { id: "a", text: "go" },
-      { id: "b", text: "going" },
-      { id: "c", text: "goes" },
-      { id: "d", text: "gone" }
+      { id: "a", text: "ride" },
+      { id: "b", text: "riding" },
+      { id: "c", text: "rides" },
+      { id: "d", text: "to ride" }
     ],
     answerId: "c",
-    explanation: "She is singular, so we say goes in the present.",
-    hints: ["She = one person.", "With he/she/it, use goes not go."]
+    explanation: "Ravi is one person and this is something he does every day, so the verb takes -s: rides. 'ride' is used with I, you, we or they.",
+    hints: ["Ravi is one boy, and this is his daily habit.", "With one person, the verb needs an ending, like \"she sings\"."]
   },
   {
     id: "g3-eng-grammar-b-q08",
-    prompt: "I ____ a student.",
+    prompt: "I ____ eight years old.",
     options: [
       { id: "a", text: "is" },
       { id: "b", text: "are" },
@@ -419,8 +419,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "am" }
     ],
     answerId: "d",
-    explanation: "With I, we use am: I am a student.",
-    hints: ["Remember: I am, you are, he/she is.", "Never say I is or I are."]
+    explanation: "With 'I' we always use 'am': I am eight years old. 'is' goes with he, she or it.",
+    hints: ["The sentence starts with \"I\".", "\"I\" has its own helper word; \"I is\" and \"I are\" are wrong."]
   },
   {
     id: "g3-eng-grammar-b-q09",
@@ -476,16 +476,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-grammar-b-q13",
-    prompt: "Choose the correct article: ____ umbrella is red.",
+    prompt: "Choose the correct article: ____ eagle flew over the hill.",
     options: [
       { id: "a", text: "An" },
       { id: "b", text: "A" },
-      { id: "c", text: "\u2014 (none)" },
-      { id: "d", text: "Them" }
+      { id: "c", text: "Two" },
+      { id: "d", text: "Many" }
     ],
     answerId: "a",
-    explanation: "Umbrella begins with a vowel sound (u), so we use an.",
-    hints: ["Listen to the first sound of umbrella.", "Umbrella starts with a vowel sound \u2192 an."]
+    explanation: "Eagle starts with a vowel sound, so 'An eagle' is correct. 'A' is used only before consonant sounds.",
+    hints: ["Say \"eagle\" aloud and listen to its first sound.", "One eagle flew; pick the article used before a vowel sound."]
   },
   {
     id: "g3-eng-grammar-b-q14",

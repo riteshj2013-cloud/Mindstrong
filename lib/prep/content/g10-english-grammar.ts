@@ -5,16 +5,16 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g10-eng-ch02-a-q01",
-    prompt: "Choose the correct form: She ____ to the market yesterday.",
+    prompt: "Choose the correct form: The bell ____ before we reached the gate.",
     options: [
-      { id: "a", text: "gone" },
-      { id: "b", text: "go" },
-      { id: "c", text: "went" },
-      { id: "d", text: "going" }
+      { id: "a", text: "rung" },
+      { id: "b", text: "ring" },
+      { id: "c", text: "rang" },
+      { id: "d", text: "ringing" }
     ],
     answerId: "c",
-    explanation: "Past simple for a finished time (yesterday).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The ringing is a finished past action, so the simple past 'rang' fits. 'rung' is the past participle and needs has, have or had before it.",
+    hints: ["Both actions are in the past; one form of ring needs a helper verb.", "\"rung\" works only after has/have/had; which form stands alone in the past?"]
   },
   {
     id: "g10-eng-ch02-a-q02",
@@ -44,16 +44,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-eng-ch02-a-q04",
-    prompt: "Reported speech: She said, \"I am tired.\" \u2192 She said that she ____ tired.",
+    prompt: "Reported speech: She said, \"I have finished my work.\" → She said that she ____ her work.",
     options: [
-      { id: "a", text: "were" },
-      { id: "b", text: "am" },
-      { id: "c", text: "is" },
-      { id: "d", text: "was" }
+      { id: "a", text: "has finished" },
+      { id: "b", text: "finished" },
+      { id: "c", text: "have finished" },
+      { id: "d", text: "had finished" }
     ],
     answerId: "d",
-    explanation: "Backshift: present \u2192 past after a past reporting verb.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "After 'said', the present perfect 'have finished' shifts back to the past perfect 'had finished'. 'has finished' keeps the present perfect.",
+    hints: ["The direct speech uses the present perfect; after \"said\" it moves one tense back.", "One step back from has/have + V3 is the past perfect form."]
   },
   {
     id: "g10-eng-ch02-a-q05",
@@ -70,7 +70,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-eng-ch02-a-q06",
-    prompt: "Fill in: Neither of the answers ____ correct.",
+    prompt: "Fill in: Either of these routes ____ fine for the trip.",
     options: [
       { id: "a", text: "is" },
       { id: "b", text: "have" },
@@ -78,34 +78,34 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "were being" }
     ],
     answerId: "a",
-    explanation: "Neither of + plural noun often takes singular verb in formal exam English.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "'Either' means one of two, so it takes a singular verb: is. 'are' agrees with 'routes', but 'routes' is not the subject.",
+    hints: ["\"Either\" points to one of two routes.", "\"Either of ...\" takes a singular verb, whatever noun follows \"of\"."]
   },
   {
     id: "g10-eng-ch02-a-q07",
-    prompt: "Identify the clause type: \"I know that she is right.\" \u2014 \"that she is right\" is a \u2014",
+    prompt: "Identify the clause type: \"The house where I grew up has been sold.\" — \"where I grew up\" is a —",
     options: [
-      { id: "a", text: "adverb clause of time" },
-      { id: "b", text: "main clause only" },
-      { id: "c", text: "noun clause" },
-      { id: "d", text: "adjective clause only" }
+      { id: "a", text: "adverb clause of place" },
+      { id: "b", text: "main clause" },
+      { id: "c", text: "adjective clause" },
+      { id: "d", text: "noun clause" }
     ],
     answerId: "c",
-    explanation: "It acts as object of know \u2192 noun clause.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "'Where I grew up' describes the noun 'house', so it is an adjective (relative) clause. 'Adverb clause of place' is tempting because of 'where', but this clause tells us which house.",
+    hints: ["Ask what \"where I grew up\" tells us more about.", "Does the clause describe a noun, or tell where an action happens?"]
   },
   {
     id: "g10-eng-ch02-a-q08",
-    prompt: "Choose the correct modal: You ____ wear a helmet; it's the rule.",
+    prompt: "Choose the correct modal: You ____ not have brought gifts; we said it was not necessary.",
     options: [
-      { id: "a", text: "could casually" },
+      { id: "a", text: "must" },
       { id: "b", text: "might" },
-      { id: "c", text: "must" },
-      { id: "d", text: "would for past habit only" }
+      { id: "c", text: "need" },
+      { id: "d", text: "would" }
     ],
     answerId: "c",
-    explanation: "Must expresses strong obligation/rule.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "'Need not have' + past participle says something was done but was unnecessary. 'must not have' would wrongly suggest a deduction or a ban.",
+    hints: ["The gifts were brought, but they were not required.", "Choose the modal that, with \"not have\", shows an action was unnecessary."]
   },
   {
     id: "g10-eng-ch02-a-q09",
@@ -122,42 +122,42 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-eng-ch02-a-q10",
-    prompt: "Relative pronoun: The girl ____ won the prize is my cousin.",
+    prompt: "Relative pronoun: The man ____ I met at the conference is a scientist.",
     options: [
-      { id: "a", text: "whose prize only without noun" },
-      { id: "b", text: "who" },
-      { id: "c", text: "whom for subject" },
-      { id: "d", text: "which" }
+      { id: "a", text: "which" },
+      { id: "b", text: "whom" },
+      { id: "c", text: "whose" },
+      { id: "d", text: "what" }
     ],
     answerId: "b",
-    explanation: "Who for people as subject of the relative clause.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The man is the object of 'met' (I met him), so 'whom' is correct in formal English. 'which' is for things, and 'whose' shows possession.",
+    hints: ["The blank refers to \"The man\", and \"I\" is already the subject of \"met\".", "Use the object form of who when the person receives the action."]
   },
   {
     id: "g10-eng-ch02-a-q11",
-    prompt: "Choose: If it rains, we ____ indoors.",
+    prompt: "Choose: Unless you hurry, you ____ the train.",
     options: [
-      { id: "a", text: "stayed" },
-      { id: "b", text: "had stayed" },
-      { id: "c", text: "would have stayed" },
-      { id: "d", text: "will stay" }
+      { id: "a", text: "missed" },
+      { id: "b", text: "had missed" },
+      { id: "c", text: "would have missed" },
+      { id: "d", text: "will miss" }
     ],
     answerId: "d",
-    explanation: "First conditional: If + present, will + base.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "'Unless' means 'if not' and works like a first conditional: unless + present, will + base verb. 'would have missed' belongs to the third conditional, for past situations.",
+    hints: ["\"Unless you hurry\" is about a possible future.", "Treat unless like \"if not\": the main clause takes will + base verb."]
   },
   {
     id: "g10-eng-ch02-a-q12",
-    prompt: "Article: She is ____ honest officer.",
+    prompt: "Article: She bought ____ one-way ticket.",
     options: [
-      { id: "a", text: "the only possible always" },
-      { id: "b", text: "a" },
-      { id: "c", text: "no article required wrongly as \"a\"" },
-      { id: "d", text: "an" }
+      { id: "a", text: "an" },
+      { id: "b", text: "no article" },
+      { id: "c", text: "some" },
+      { id: "d", text: "a" }
     ],
     answerId: "d",
-    explanation: "Honest begins with a vowel sound \u2192 an.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "'One' begins with a w sound, so we use 'a'. 'an' is tempting because the letter o is a vowel, but the sound decides.",
+    hints: ["Say \"one-way\" aloud and listen to the first sound.", "Choose by sound, not spelling: \"one\" begins with the consonant sound \"w\"."]
   },
   {
     id: "g10-eng-ch02-a-q13",
@@ -174,16 +174,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-eng-ch02-a-q14",
-    prompt: "Preposition: She is good ____ mathematics.",
+    prompt: "Preposition: The team is capable ____ winning the cup.",
     options: [
-      { id: "a", text: "at" },
+      { id: "a", text: "of" },
       { id: "b", text: "over" },
       { id: "c", text: "by" },
-      { id: "d", text: "in on" }
+      { id: "d", text: "in" }
     ],
     answerId: "a",
-    explanation: "Good at a subject/skill.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "'Capable' takes 'of' + -ing. 'in' may sound possible, but 'capable in winning' is not standard English.",
+    hints: ["\"capable\" takes a fixed preposition before \"winning\".", "Compare \"proud ___ her work\" and \"fond ___ music\"; the same preposition fits."]
   },
   {
     id: "g10-eng-ch02-a-q15",
@@ -200,7 +200,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-eng-ch02-a-q16",
-    prompt: "Concord: The news ____ good today.",
+    prompt: "Concord: The number of applicants ____ rising every year.",
     options: [
       { id: "a", text: "have" },
       { id: "b", text: "were" },
@@ -208,8 +208,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "is" }
     ],
     answerId: "d",
-    explanation: "News is singular despite the -s.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "'The number of' is singular (it is one number), so 'is'. 'are' is tempting because 'applicants' is plural; 'a number of' would take 'are'.",
+    hints: ["The head noun here: \"number\", not \"applicants\".", "\"The number of\" takes a singular verb; \"a number of\" takes a plural one."]
   },
   {
     id: "g10-eng-ch02-a-q17",
@@ -226,29 +226,29 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-eng-ch02-a-q18",
-    prompt: "Choose: By next year, they ____ the bridge.",
+    prompt: "Choose: By the time we reach the stadium, the match ____.",
     options: [
-      { id: "a", text: "will have completed" },
-      { id: "b", text: "completed" },
-      { id: "c", text: "had complete" },
-      { id: "d", text: "will completing" }
+      { id: "a", text: "will have started" },
+      { id: "b", text: "started" },
+      { id: "c", text: "has started" },
+      { id: "d", text: "will be start" }
     ],
     answerId: "a",
-    explanation: "Future perfect for completion before a future time.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The match starts before a future moment (reaching the stadium), so the future perfect 'will have started'. 'has started' is present perfect and does not fit a future time.",
+    hints: ["The starting happens before a future moment: reaching the stadium.", "Pick the tense for an action that will be complete before a future time."]
   },
   {
     id: "g10-eng-ch02-a-q19",
-    prompt: "Question tag: You are coming, ____?",
+    prompt: "Question tag: Nobody called while I was out, ____?",
     options: [
-      { id: "a", text: "don't you" },
-      { id: "b", text: "aren't you" },
-      { id: "c", text: "are you not coming tag wrong" },
-      { id: "d", text: "isn't you" }
+      { id: "a", text: "didn't they" },
+      { id: "b", text: "did they" },
+      { id: "c", text: "did he" },
+      { id: "d", text: "didn't he" }
     ],
     answerId: "b",
-    explanation: "Positive statement \u2192 negative tag with same auxiliary.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "'Nobody' makes the statement negative, so the tag is positive, and 'nobody' takes 'they' in tags: did they? 'didn't they' wrongly makes the tag negative too.",
+    hints: ["\"Nobody\" already makes the sentence negative.", "A negative statement takes a positive tag; nobody and somebody use \"they\" in tags."]
   },
   {
     id: "g10-eng-ch02-a-q20",
@@ -385,16 +385,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-eng-ch02-b-q06",
-    prompt: "Article: ____ Himalayas are in Asia.",
+    prompt: "Article: ____ Indian Ocean lies to the south of India.",
     options: [
-      { id: "a", text: "No article always wrong here" },
+      { id: "a", text: "A" },
       { id: "b", text: "An" },
       { id: "c", text: "The" },
-      { id: "d", text: "A" }
+      { id: "d", text: "No article" }
     ],
     answerId: "c",
-    explanation: "Mountain ranges take the.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Names of oceans take 'the': the Indian Ocean. 'An' is tempting because 'Indian' starts with a vowel sound, but a proper name like this needs the definite article.",
+    hints: ["Oceans, seas and rivers follow a special article rule.", "Ocean names such as \"Indian Ocean\" always take a definite article, whatever their first sound."]
   },
   {
     id: "g10-eng-ch02-b-q07",
@@ -502,16 +502,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-eng-ch02-b-q15",
-    prompt: "Choose: Hardly had he entered ____ the phone rang.",
+    prompt: "Choose: Seldom ____ such a beautiful sunset.",
     options: [
-      { id: "a", text: "that" },
-      { id: "b", text: "than" },
-      { id: "c", text: "when" },
-      { id: "d", text: "then" }
+      { id: "a", text: "I have seen" },
+      { id: "b", text: "I saw" },
+      { id: "c", text: "have I seen" },
+      { id: "d", text: "I had see" }
     ],
     answerId: "c",
-    explanation: "Hardly\u2026 when (not than).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Negative adverbs like 'seldom' at the start trigger inversion: have I seen. 'I have seen' is normal word order, which clashes with the fronted 'Seldom'.",
+    hints: ["\"Seldom\" at the start of a sentence changes the word order.", "Put the auxiliary before the subject, as in a question."]
   },
   {
     id: "g10-eng-ch02-b-q16",
