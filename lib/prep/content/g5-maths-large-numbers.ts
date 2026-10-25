@@ -128,7 +128,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-maths-large-a-q10",
-    prompt: "Look at Growing Jumps. The jump grows by the same amount each time. Which number goes on the **?** card?",
+    prompt: "Look at the number cards. The jump between cards grows by the same amount each time. Which number goes on the **?** card?",
     options: [
       { id: "a", text: "1,95,000" },
       { id: "b", text: "1,75,000" },
@@ -462,7 +462,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-large-b-q11",
-    prompt: "Look at Riya's Tiles. She wanted the **greatest** 6-digit number but made one swap mistake. Which two tiles should she swap to fix it?",
+    prompt: "Look at Riya's number tiles. She wanted the **greatest** 6-digit number but made one swap mistake. Which two tiles should she swap to fix it?",
     options: [
       { id: "a", text: "Tile 2 and Tile 4" },
       { id: "b", text: "Tile 3 and Tile 4" },
@@ -609,7 +609,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-large-b-q22",
-    prompt: "Look at Two Ways to Write. How do we read 7,500,000 in the **Indian** system?",
+    prompt: "The chart shows 7,500,000 written in the International system. How do we read this number in the **Indian** system?",
     options: [
       { id: "a", text: "7 crore 50 lakh" },
       { id: "b", text: "75 lakh" },

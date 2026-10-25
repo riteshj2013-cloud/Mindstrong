@@ -19,7 +19,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-maths-frac-a-q02",
-    prompt: "Look at Parts of a fraction. What is the **denominator** of the fraction shown?",
+    prompt: "Look at the fraction in the picture. What is its **denominator**?",
     options: [
       { id: "a", text: "8" },
       { id: "b", text: "5" },
@@ -116,7 +116,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-maths-frac-a-q09",
-    prompt: "Look at Laddoos on a plate. What fraction of the laddoos are marked?",
+    prompt: "Look at the laddoos on the plate. What fraction of the laddoos are marked with orange rings?",
     options: [
       { id: "a", text: "4/6" },
       { id: "b", text: "6/10" },
@@ -329,7 +329,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g5-maths-frac-b-q01",
-    prompt: "Look at Pizza slices left. What fraction of the pizza is still on the plate?",
+    prompt: "Look at the pizza. The shaded slices are still on the plate. What fraction of the pizza is left?",
     options: [
       { id: "a", text: "3/8" },
       { id: "b", text: "5/8" },
@@ -451,7 +451,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-frac-b-q10",
-    prompt: "Look at More than one whole. How many quarters are shaded in all, and what mixed number is that?",
+    prompt: "Look at the two circles. How many quarters are shaded in all, and what mixed number is that?",
     options: [
       { id: "a", text: "7/4 = 1 3/4" },
       { id: "b", text: "7/4 = 1 1/4" },
@@ -584,7 +584,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-frac-b-q20",
-    prompt: "Look at Balls in an over. What fraction of the over is done, in **simplest form**?",
+    prompt: "Look at the six balls of the over. What fraction of the over has been bowled, in **simplest form**?",
     options: [
       { id: "a", text: "3/6" },
       { id: "b", text: "1/2" },

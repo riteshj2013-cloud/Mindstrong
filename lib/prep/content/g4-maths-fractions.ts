@@ -140,7 +140,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-maths-fractions-a-q11",
-    prompt: "Look at Bars 1, 2 and 3. Each bar has one part shaded. Which list puts the shaded fractions in order from **greatest to smallest**?",
+    prompt: "Look at the three bars. They are the same size, and each has one part shaded. Which list puts the shaded fractions in order from **greatest to smallest**?",
     options: [
       { id: "a", text: "1/2, 1/3, 1/4" },
       { id: "b", text: "1/4, 1/3, 1/2" },
@@ -154,7 +154,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-maths-fractions-a-q12",
-    prompt: "Look at Bar 1 and Bar 2. How many parts of **Bar 2** must be shaded so that it shows the same amount as Bar 1?",
+    prompt: "Look at the two bars. They are the same size. How many parts of **Bar 2** must be shaded so that it shows the same amount as Bar 1?",
     options: [
       { id: "a", text: "2" },
       { id: "b", text: "4" },
@@ -286,7 +286,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-maths-fractions-a-q22",
-    prompt: "Look at Tanvi's Pencils. Tanvi gives **3/4** of her pencils to her friends and keeps the rest. How many pencils does she keep?",
+    prompt: "Look at Tanvi's pencils in the picture. Tanvi gives **3/4** of her pencils to her friends and keeps the rest. How many pencils does she keep?",
     options: [
       { id: "a", text: "12" },
       { id: "b", text: "8" },
@@ -411,7 +411,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-maths-fractions-b-q07",
-    prompt: "Look at Roti A and Roti B. They are the same size. Which sentence is true about the shaded pieces?",
+    prompt: "Look at the two rotis. They are the same size. Which sentence is true about the shaded pieces?",
     options: [
       { id: "a", text: "1/6 is bigger than 1/2." },
       { id: "b", text: "1/2 and 1/6 are the same size." },
@@ -477,7 +477,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-maths-fractions-b-q12",
-    prompt: "Look at Bar 1 and Bar 2. The shaded parts line up exactly. Which fraction is **equal to 1/3**?",
+    prompt: "Look at the two bars. The shaded parts line up exactly. Which fraction is **equal to 1/3**?",
     options: [
       { id: "a", text: "2/6" },
       { id: "b", text: "1/6" },
@@ -596,7 +596,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-maths-fractions-b-q21",
-    prompt: "Look at Kabir's Sticker Album. 1/3 of his stickers is 6. How many stickers does he have **in all**?",
+    prompt: "Look at the tape diagram of Kabir's sticker album. 1/3 of his stickers is 6. How many stickers does he have **in all**?",
     options: [
       { id: "a", text: "9" },
       { id: "b", text: "18" },
@@ -623,7 +623,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-maths-fractions-b-q23",
-    prompt: "Look at Simran's Pocket Money. She spends 1/4 on a kite and 2/4 on a book. How much money is in the part with the **?**",
+    prompt: "Look at the tape diagram of Simran's pocket money. She spends 1/4 on a kite and 2/4 on a book. How much money is in the part with the **?**",
     options: [
       { id: "a", text: "\u20b912" },
       { id: "b", text: "\u20b924" },

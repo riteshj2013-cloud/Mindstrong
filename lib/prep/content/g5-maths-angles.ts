@@ -154,7 +154,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-maths-angles-a-q12",
-    prompt: "Look at Quarter turn clockwise. The child starts facing North. After the turn, where does the child face?",
+    prompt: "Look at the compass. The child starts facing North and makes a quarter turn clockwise. Where does the child face now?",
     options: [
       { id: "a", text: "West" },
       { id: "b", text: "East" },
@@ -181,7 +181,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-maths-angles-a-q14",
-    prompt: "Look at Angles on a straight line. One angle is 70\u00b0. What is the **missing** angle?",
+    prompt: "Look at the two angles on a straight line. One angle is 70°. What is the **missing** angle?",
     options: [
       { id: "a", text: "70\u00b0" },
       { id: "b", text: "90\u00b0" },
@@ -382,7 +382,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-angles-b-q05",
-    prompt: "Look at Half turn. The child starts facing East. After a half turn, where does the child face?",
+    prompt: "Look at the compass. The child starts facing East and makes a half turn. Where does the child face now?",
     options: [
       { id: "a", text: "West" },
       { id: "b", text: "South" },
@@ -461,7 +461,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-angles-b-q11",
-    prompt: "Look at Odd one out. Three angles are acute. Which panel is the **odd one out**?",
+    prompt: "Look at the four angle panels. Three of the angles are acute. Which panel is the **odd one out**?",
     options: [
       { id: "a", text: "Panel A" },
       { id: "b", text: "Panel B" },
@@ -502,7 +502,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-angles-b-q14",
-    prompt: "Look at Angles around a point. Three angles are 90\u00b0 each. What is the **missing** angle?",
+    prompt: "Look at the four angles around a point. Three angles are 90° each. What is the **missing** angle?",
     options: [
       { id: "a", text: "45\u00b0" },
       { id: "b", text: "90\u00b0" },
@@ -609,7 +609,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-angles-b-q22",
-    prompt: "Look at Two equal angles. The upright arm makes a right angle with the baseline. One part is 45\u00b0. What is the **missing** part?",
+    prompt: "Look at the right angle split into two parts. One part is 45°. What is the **missing** part?",
     options: [
       { id: "a", text: "30\u00b0" },
       { id: "b", text: "45\u00b0" },
