@@ -265,4 +265,5 @@ export const G4_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-maths-data-b-q23": ["A frequency table lists each item with how many times it appears. Which list pairs names with counts?"],
   "g4-maths-data-b-q24": ["A bar graph is made from a table. After drawing it, compare it with the table. What should match?"],
   "g4-maths-measurement-a-q13": ["Think of body-based traditional measures.", "Bend your arm and look from elbow to fingertip. Which old unit is a length named after a body part?"],
+  "g4-maths-timemoney-a-q01": ["The short hand sits between two numbers, so use the smaller one (the only exception: between 12 and 1, the hour is 12). Count the long hand in jumps of five from the top."],
 };
