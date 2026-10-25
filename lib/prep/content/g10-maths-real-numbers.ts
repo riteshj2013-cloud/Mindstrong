@@ -255,11 +255,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which of the following has a non-terminating repeating decimal expansion?",
     options: [
       { id: "a", text: "1/5" },
-      { id: "b", text: "1/6" },
-      { id: "c", text: "3/8" },
+      { id: "b", text: "3/8" },
+      { id: "c", text: "1/6" },
       { id: "d", text: "7/25" }
     ],
-    answerId: "b",
+    answerId: "c",
     explanation: "6 = 2\u00d73 has a prime factor other than 2 or 5, so 1/6 = 0.1\u03056.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -569,12 +569,12 @@ const SET_B: PrepQuestion[] = [
     id: "g10-maths-real-b-q20",
     prompt: "Two numbers are in ratio 3:5 and their HCF is 8. Their LCM is \u2014",
     options: [
-      { id: "a", text: "24" },
+      { id: "a", text: "120" },
       { id: "b", text: "200" },
       { id: "c", text: "40" },
-      { id: "d", text: "120" }
+      { id: "d", text: "24" }
     ],
-    answerId: "d",
+    answerId: "a",
     explanation: "Numbers 24 and 40; LCM = 8\u00d73\u00d75 = 120.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },

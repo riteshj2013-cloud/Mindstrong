@@ -281,11 +281,11 @@ const SET_A: PrepQuestion[] = [
     prompt: "The sum of two integers is \u22125. One of them is 8. What is the other?",
     options: [
       { id: "a", text: "\u22123" },
-      { id: "b", text: "3" },
-      { id: "c", text: "\u221213" },
+      { id: "b", text: "\u221213" },
+      { id: "c", text: "3" },
       { id: "d", text: "13" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "The other integer is \u22125 \u2212 8 = \u221213, because 8 + (\u221213) = \u22125. \u22123 is tempting, but 8 + (\u22123) = 5, not \u22125.",
     hints: ["Write 8 + ? = \u22125. Which number must you add to 8 to land on \u22125 on the number line?"]
   },
@@ -426,12 +426,12 @@ const SET_B: PrepQuestion[] = [
     id: "g7-maths-integers-b-q09",
     prompt: "Group the numbers smartly to evaluate (\u22124) \u00d7 37 \u00d7 (\u221225).",
     options: [
-      { id: "a", text: "\u22123,700" },
+      { id: "a", text: "3,700" },
       { id: "b", text: "\u2212173" },
-      { id: "c", text: "3,700" },
+      { id: "c", text: "\u22123,700" },
       { id: "d", text: "\u2212370" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "(\u22124) \u00d7 (\u221225) = 100, and 100 \u00d7 37 = 3,700. Two negative factors make a positive product. \u22123,700 is tempting if you forget that the two negatives cancel.",
     hints: ["Multiply (\u22124) and (\u221225) first, since that gives a round number. Then multiply by 37. Watch the signs."]
   },
