@@ -142,7 +142,7 @@ export const G3_MATHS_LR_ACHIEVERS: MockAddendumItem[] = [
         { id: "d", text: "18" },
       ],
       answerId: "c",
-      hints: ["Say the 9 times table aloud and listen for 18 and 27.", "Keep going with the 9 times table past 27. Which number in the list do you never say?"],
+      hints: ["Which times table has both 18 and 27 in it?", "Count on in that table past 27, checking each number in the list as you go."],
       explanation: "18 = 2 × 9, 27 = 3 × 9 and 36 = 4 × 9, but 40 is not in the 9 times table. 36 is tempting because it is even like 40, but 36 is 4 × 9.",
     },
   },

@@ -265,4 +265,5 @@ export const G5_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g5-maths-data-b-q24": ["Each unit is 4 pupils. Multiply 7.5 by 4: do 7 × 4, then add half of 4."],
   "g5-maths-angles-b-q01": ["All the slice tips meet at the centre and make one full turn together. Share that turn equally."],
   "g5-maths-frac-b-q05": ["To show a third, the rectangle must be cut into equal strips. Check the strip widths in each description.", "Then count the strips: how many are there in all, and how many are shaded?"],
+  "g5-maths-frac-b-q20": ["Count the balls already bowled out of the six, write that as a fraction, then simplify it."],
 };

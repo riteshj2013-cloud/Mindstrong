@@ -18,7 +18,7 @@ export const G6_MATHS_LR_ACHIEVERS: MockAddendumItem[] = [
         { id: "d", text: "720" },
       ],
       answerId: "d",
-      hints: ["Divide each number by the one before it: 2 ÷ 1, 6 ÷ 2, 24 ÷ 6.", "The multiplier grows by one each time. What do you multiply 120 by to get the next number?"],
+      hints: ["Divide each number by the one before it: 2 ÷ 1, 6 ÷ 2, 24 ÷ 6.", "Write the results of your divisions in a row. What would the next one be, to use on 120?"],
       explanation: "The numbers are multiplied by 2, 3, 4, 5, so next is 120 × 6 = 720. 240 is tempting, but it multiplies by 2 again instead of by 6.",
     },
   },
