@@ -266,4 +266,7 @@ export const G5_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g5-maths-angles-b-q01": ["All the slice tips meet at the centre and make one full turn together. Share that turn equally."],
   "g5-maths-frac-b-q05": ["To show a third, the rectangle must be cut into equal strips. Check the strip widths in each description.", "Then count the strips: how many are there in all, and how many are shaded?"],
   "g5-maths-frac-b-q20": ["Count the balls already bowled out of the six, write that as a fraction, then simplify it."],
+  "g5-maths-frac-a-q02": ["In a fraction, which number tells how many equal parts the whole has?"],
+  "g5-maths-frac-a-q09": ["Count all the laddoos on the plate first.", "Now count only the laddoos with orange rings. Which count goes on top of the fraction?"],
+  "g5-maths-angles-b-q11": ["An acute angle is less than 90°. Read the measure on each panel.", "Which panel shows an angle that is not less than a right angle?"],
 };

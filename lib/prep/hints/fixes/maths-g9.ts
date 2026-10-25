@@ -99,5 +99,5 @@ export const G9_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g9-maths-coord-b-q20": ["y = 0 puts (−6, 0) on an axis. The x-value −6 says which way and how far from the origin."],
   "g9-maths-coord-b-q21": ["In the distance formula, the first bracket subtracts the two x-coordinates and the second subtracts the two y-coordinates. Check each pair."],
   "g9-maths-coord-a-q14": ["Every point on the y-axis sits straight above or below the origin. Which coordinate is the same for all of them?"],
-  "g9-maths-coord-a-q22": ["Picture the point with both coordinates zero on the grid. How far is it from each axis?", "At which point do the two axes cross, where both coordinates are zero?"],
+  "g9-maths-coord-a-q22": ["Write the point with both coordinates zero as an ordered pair. How far is it from each axis?", "Is that point on the x-axis, on the y-axis, on both or on neither? Which description fits?"],
 };

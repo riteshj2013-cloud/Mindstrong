@@ -83,4 +83,7 @@ export const G10_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-maths-linear-a-q13": ["Inconsistent linear equations have no common solution.", "Graphically, a common solution is where the lines meet. How must two lines lie if they never meet?"],
   "g10-maths-poly-b-q05": ["A zero of p(x) is a value of x that makes x² + 1 equal 0.", "Can x² be negative for a real x? Then what is the smallest value x² + 1 can take?"],
   "g10-maths-poly-b-q19": ["If 0 is a root, then p(0) = 0. Put x = 0 into each choice.", "Now put x = 5 into the choices that passed. Which one also gives 0?"],
+  "g10-maths-poly-a-q24": ["Find α + β and αβ from the coefficients of x² − x − 2.", "Expand (α + β)². How can you get α² + β² from it using αβ?"],
+  "g10-maths-poly-b-q24": ["Check that p(1) = 0, so (x − 1) is a factor of p(x).", "Divide p(x) by (x − 1), then multiply your quotient by (x − 1) to check you get p(x) back."],
+  "g10-maths-real-b-q20": ["Write the two numbers as 3 × HCF and 5 × HCF. What are they?", "Now find the LCM of those two numbers, for example by listing multiples of the larger one."],
 };

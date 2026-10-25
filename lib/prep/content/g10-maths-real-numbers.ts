@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0 < r \u2264 b" }
     ],
     answerId: "c",
-    explanation: "The remainder r satisfies 0 \u2264 r < b.",
+    explanation: "In a = bq + r the remainder r is at least 0 and less than b: if r were b or more, one more b could be taken out. '0 < r ≤ b' is tempting, but r is 0 when b divides a, and r can never equal b.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -26,12 +26,12 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "b",
-    explanation: "225 = 135\u00d71 + 90; 135 = 90\u00d71 + 45; 90 = 45\u00d72 + 0, so HCF = 45.",
+    explanation: "225 = 135 × 1 + 90; 135 = 90 × 1 + 45; 90 = 45 × 2 + 0, so HCF = 45. 15 is tempting because it divides both numbers, but it is only a common factor; 45 also divides both and is larger.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
     id: "g10-maths-real-a-q03",
-    prompt: "If HCF(a, b) = 12 and a \u00d7 b = 1800, then LCM(a, b) equals \u2014",
+    prompt: "If HCF(a, b) = 15 and a × b = 2250, then LCM(a, b) equals —",
     options: [
       { id: "a", text: "150" },
       { id: "b", text: "240" },
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "120" }
     ],
     answerId: "a",
-    explanation: "HCF \u00d7 LCM = product of numbers, so LCM = 1800/12 = 150.",
+    explanation: "HCF × LCM = a × b, so LCM = 2250 ÷ 15 = 150 (for example, a = 30 and b = 75). 120 is tempting, but 15 × 120 = 1800, not 2250, and 120 is not a multiple of 75.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.875 with bar (non-terminating)" }
     ],
     answerId: "a",
-    explanation: "8 = 2\u00b3, so the fraction has a terminating decimal 0.875.",
+    explanation: "8 = 2³ has only the prime 2, so 7/8 terminates: 7/8 = 875/1000 = 0.875. '0.875 with bar' is tempting, but a fraction whose denominator has only 2s and 5s never repeats; 7.8 just writes the digits side by side.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -65,20 +65,20 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "22/7" }
     ],
     answerId: "c",
-    explanation: "\u221a2 cannot be written as p/q; \u221a9 = 3 is rational.",
+    explanation: "√2 cannot be written as p/q, so it is irrational. √9 is tempting because of the root sign, but √9 = 3 is rational, and 22/7 is a fraction, so it is rational too (it is only close to π).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
     id: "g10-maths-real-a-q06",
     prompt: "\u221a(4 \u00d7 9) equals \u2014",
     options: [
-      { id: "a", text: "2\u221a9" },
+      { id: "a", text: "5" },
       { id: "b", text: "36" },
       { id: "c", text: "\u221a13" },
       { id: "d", text: "6" }
     ],
     answerId: "d",
-    explanation: "\u221a(4\u00d79) = \u221a4 \u00d7 \u221a9 = 2 \u00d7 3 = 6.",
+    explanation: "√(4 × 9) = √36 = 6, or √4 × √9 = 2 × 3 = 6. 36 is tempting, but that is 4 × 9 before taking the square root; 5 comes from adding √4 + √9 instead of multiplying.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5\u221a6" }
     ],
     answerId: "c",
-    explanation: "Like surds add: (2+3)\u221a3 = 5\u221a3.",
+    explanation: "Like surds add like like terms: 2√3 + 3√3 = (2 + 3)√3 = 5√3. 5√6 is tempting, but the surd part stays √3 (√3 + √3 = 2√3, not √6); 6√3 multiplies 2 × 3 instead of adding.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2\u00b2 \u00d7 5 \u00d7 7" }
     ],
     answerId: "d",
-    explanation: "140 = 2\u00d770 = 2\u00d72\u00d735 = 2\u00b2\u00d75\u00d77.",
+    explanation: "140 = 2 × 70 = 2 × 2 × 35 = 2² × 5 × 7, with every factor prime. 2² × 35 is tempting because it equals 140, but 35 = 5 × 7 is not prime, so the factorisation is not finished. 2³ × 5 × 7 = 280.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "a\u00b3b\u00b2" }
     ],
     answerId: "d",
-    explanation: "Take highest powers: a\u00b3 and b\u00b2 \u2192 a\u00b3b\u00b2.",
+    explanation: "The LCM takes the highest power of each prime: a³ (from q) and b² (from p), giving a³b². ab is tempting, but taking the lowest powers gives the HCF, not the LCM.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "c",
-    explanation: "404 = 96\u00d74 + 20; 96 = 20\u00d74 + 16; 20 = 16\u00d71 + 4; 16 = 4\u00d74 + 0 \u2192 HCF = 4.",
+    explanation: "404 = 96 × 4 + 20; 96 = 20 × 4 + 16; 20 = 16 × 1 + 4; 16 = 4 × 4 + 0, so HCF = 4. 16 is tempting because it appears as a remainder and divides 96, but 404 ÷ 16 = 25.25, so it does not divide 404.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -164,12 +164,12 @@ const SET_A: PrepQuestion[] = [
     prompt: "\u221a8 / \u221a2 simplifies to \u2014",
     options: [
       { id: "a", text: "2" },
-      { id: "b", text: "\u221a4 / 1" },
+      { id: "b", text: "2√2" },
       { id: "c", text: "\u221a6" },
       { id: "d", text: "4" }
     ],
     answerId: "a",
-    explanation: "\u221a8/\u221a2 = \u221a(8/2) = \u221a4 = 2.",
+    explanation: "√8 ÷ √2 = √(8 ÷ 2) = √4 = 2. 2√2 is tempting, but that is √8 on its own before dividing by √2; √6 wrongly uses 8 − 2 under the root.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5/2" }
     ],
     answerId: "a",
-    explanation: "\u221a5 \u2248 2.236 lies between 2 and 3; \u221a4 = 2 is rational.",
+    explanation: "√5 ≈ 2.236 lies between 2 and 3, and 5 is not a perfect square, so √5 is irrational. 2.5 is tempting because it lies between 2 and 3, but 2.5 = 5/2 is rational; √4 = 2 is rational and not between them.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "123/99" }
     ],
     answerId: "b",
-    explanation: "Let x = 0.\\overline{123}; 1000x \u2212 x = 123 \u2192 x = 123/999.",
+    explanation: "Let x = 0.123123…; then 1000x = 123.123…, so 1000x − x = 123 and x = 123/999. 123/1000 is tempting, but that is 0.123 exactly, which stops instead of repeating.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -221,7 +221,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10\u221a5" }
     ],
     answerId: "b",
-    explanation: "\u221a50 = \u221a(25\u00d72) = 5\u221a2.",
+    explanation: "√50 = √(25 × 2) = √25 × √2 = 5√2. 25√2 is tempting, but 25 comes out of the root as √25 = 5; 2√5 is √20.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -234,7 +234,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "either integer or irrational" }
     ],
     answerId: "d",
-    explanation: "If n is a perfect square, \u221an is an integer; otherwise it is irrational.",
+    explanation: "If n is a perfect square, √n is an integer, such as √9 = 3; otherwise √n is irrational, such as √2. 'Always irrational' is tempting, but it fails for perfect squares like 4, 9 and 16.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -247,7 +247,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "210" }
     ],
     answerId: "b",
-    explanation: "12=2\u00b2\u00d73, 15=3\u00d75, 21=3\u00d77 \u2192 LCM = 2\u00b2\u00d73\u00d75\u00d77 = 420.",
+    explanation: "12 = 2² × 3, 15 = 3 × 5 and 21 = 3 × 7, so LCM = 2² × 3 × 5 × 7 = 420. 210 is tempting, but it uses only one 2, and 210 is not divisible by 12.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -260,7 +260,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7/25" }
     ],
     answerId: "c",
-    explanation: "6 = 2\u00d73 has a prime factor other than 2 or 5, so 1/6 = 0.1\u03056.",
+    explanation: "1/6 = 0.1666…, which repeats because 6 = 2 × 3 has the prime 3. 3/8 is tempting, but 8 = 2³ has only 2s, so 3/8 = 0.375 terminates; 1/5 and 7/25 also terminate.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -273,7 +273,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221a36 / 2" }
     ],
     answerId: "a",
-    explanation: "\u221a3 \u00d7 \u221a12 = \u221a36 = 6.",
+    explanation: "√3 × √12 = √(3 × 12) = √36 = 6. √15 is tempting, but it adds 3 + 12 instead of multiplying them; √36 / 2 is only 3.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -286,7 +286,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "d",
-    explanation: "Co-prime means they share no common prime factor, so HCF = 1.",
+    explanation: "Co-prime numbers share no common factor except 1, so their HCF is 1. 'Their product' is tempting, but that is their LCM: for 4 and 9, HCF = 1 while LCM = 36.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -299,7 +299,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1.414" }
     ],
     answerId: "a",
-    explanation: "\u221a8 = 2\u221a2 \u2248 2\u00d71.414 = 2.828.",
+    explanation: "√8 = √(4 × 2) = 2√2 ≈ 2 × 1.414 = 2.828. 4.242 is tempting, but that is 3√2 = √18; 1.414 is √2 itself.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "a + b" }
     ],
     answerId: "c",
-    explanation: "This is the fundamental relation between HCF and LCM of two positives.",
+    explanation: "For two positive integers, HCF × LCM = a × b. For 4 and 6, HCF = 2 and LCM = 12, and 2 × 12 = 24 = 4 × 6. 'a + b' is tempting, but for 4 and 6 it gives 10, not 24.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
 ];
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "17" }
     ],
     answerId: "b",
-    explanation: "867 = 255\u00d73 + 102; 255 = 102\u00d72 + 51; 102 = 51\u00d72 + 0 \u2192 HCF = 51.",
+    explanation: "867 = 255 × 3 + 102; 255 = 102 × 2 + 51; 102 = 51 × 2 + 0, so HCF = 51. 17 is tempting because it divides both numbers, but 51 = 3 × 17 also divides both and is larger.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "180" }
     ],
     answerId: "a",
-    explanation: "LCM(12,16,20) = 2\u2074\u00d73\u00d75 = 240.",
+    explanation: "The least number divisible by all three is their LCM: 12 = 2² × 3, 16 = 2⁴ and 20 = 2² × 5, so LCM = 2⁴ × 3 × 5 = 240. 120 is tempting, but 120 ÷ 16 = 7.5, so it is not divisible by 16.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "9/25" }
     ],
     answerId: "b",
-    explanation: "\u221a(18/50) = \u221a(9/25) = 3/5.",
+    explanation: "18/50 = 9/25, so √(18/50) = √9 ÷ √25 = 3/5. 9/25 is tempting, but that is the fraction before taking the square root; 3√2 / 5 forgets that the 2 in 18 cancels with 50.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22121" }
     ],
     answerId: "b",
-    explanation: "Back-substitution gives 13 = 2\u00d765 + (\u22121)\u00d7117, so x = 2.",
+    explanation: "Back-substitution gives 13 = 2 × 65 + (−1) × 117 = 130 − 117, so x = 2. −1 is tempting, but −1 is the value of y, the multiplier of 117.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2/3" }
     ],
     answerId: "d",
-    explanation: "x=0.666\u2026; 10x\u2212x=6 \u2192 x=6/9=2/3.",
+    explanation: "Let x = 0.666…; then 10x − x = 6.666… − 0.666… = 6, so 9x = 6 and x = 6/9 = 2/3. 6/10 is tempting, but that is 0.6 exactly, which stops instead of repeating.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u221a63" }
     ],
     answerId: "a",
-    explanation: "\u221a75 = 5\u221a3 and \u221a12 = 2\u221a3, so 5\u221a3 \u2212 2\u221a3 = 3\u221a3.",
+    explanation: "√75 = √(25 × 3) = 5√3 and √12 = √(4 × 3) = 2√3, so √75 − √12 = 3√3. √63 is tempting, but you cannot subtract under the roots: √75 − √12 is not √(75 − 12). 7√3 adds instead of subtracting.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "37" }
     ],
     answerId: "c",
-    explanation: "n = 61q+37; n+24 = 61q+61 = 61(q+1)+0 \u2192 remainder 0.",
+    explanation: "The number is n = 61q + 37. Adding 24 gives 61q + 61 = 61(q + 1), so the remainder is 0. 61 is tempting, but a remainder on dividing by 61 must be less than 61; 37 ignores the added 24.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -432,7 +432,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "p is even" }
     ],
     answerId: "b",
-    explanation: "For prime p, p is not a perfect square, so \u221ap is irrational.",
+    explanation: "A prime p is never a perfect square, since its only factors are 1 and p, so √p is irrational. 'p is even' is tempting because 2 is prime, but 3, 5 and 7 are odd primes.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -445,7 +445,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "d",
-    explanation: "Difference of squares: 5 \u2212 2 = 3.",
+    explanation: "(√5 − √2)(√5 + √2) = (√5)² − (√2)² = 5 − 2 = 3. 7 is tempting, but it adds the squares instead of subtracting them; √3 keeps a root, but squaring removes the roots.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -458,7 +458,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "b",
-    explanation: "Trailing zeros need pairs of 2\u00d75; only one factor 5 \u2192 one trailing zero.",
+    explanation: "n = 2³ × 3² × 5 = 360. Each trailing zero needs one 2 and one 5, and n has only one 5, so it has one trailing zero. 3 is tempting from the three 2s, but each zero also needs a 5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -471,7 +471,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3(\u221a7\u2212\u221a2)/5" }
     ],
     answerId: "c",
-    explanation: "Multiply by \u221a7+\u221a2: numerator 3(\u221a7+\u221a2), denominator 7\u22122=5.",
+    explanation: "Multiply top and bottom by √7 + √2: the bottom becomes 7 − 2 = 5, so the answer is 3(√7 + √2)/5. (√7 + √2)/5 is tempting, but it loses the 3 in the numerator; 3(√7 + √2)/9 uses 7 + 2 instead of 7 − 2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -497,7 +497,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "84" }
     ],
     answerId: "c",
-    explanation: "a\u00d7b = HCF\u00d7LCM \u2192 108b = 18\u00d7756 = 13608 \u2192 b = 126.",
+    explanation: "HCF × LCM = a × b, so 108b = 18 × 756 = 13,608 and b = 126. Check: HCF(108, 126) = 18. 162 is tempting, but HCF(108, 162) = 54, not 18.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -523,7 +523,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "c",
-    explanation: "243 = 3\u2075; need one more 3 to make 3\u2076 = (3\u00b2)\u00b3.",
+    explanation: "243 = 3⁵. A perfect cube needs every power to be a multiple of 3, so one more 3 makes 3⁶ = 729 = 9³. 9 is tempting, but 243 × 9 = 3⁷, which is not a cube.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -536,7 +536,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "11/14" }
     ],
     answerId: "a",
-    explanation: "3125 = 5\u2075, so 13/3125 terminates; others have 3 or 7 in the denominator.",
+    explanation: "3125 = 5⁵ has only the prime 5, so 13/3125 terminates (it is 0.00416). 11/14 is tempting because 14 contains a 2, but its other factor 7 makes it repeat; 17/6 and 19/3 have a 3 in the denominator.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -549,7 +549,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3.55" }
     ],
     answerId: "d",
-    explanation: "5/\u221a2 = (5\u221a2)/2 \u2248 5\u00d71.41/2 = 3.525 \u2248 3.55.",
+    explanation: "5/√2 = 5√2/2 ≈ 5 × 1.41 ÷ 2 ≈ 3.53, so 3.55 is the closest option. 7.05 is tempting, but that is 5 × 1.41: you must divide by √2, not multiply.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -562,7 +562,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "p" }
     ],
     answerId: "d",
-    explanation: "\u221a(p\u00b2) = |p| = p for positive prime p.",
+    explanation: "√(p²) = p, because p is positive and p × p = p². √p is tempting, but √p × √p = p, not p².",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -575,7 +575,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "24" }
     ],
     answerId: "a",
-    explanation: "Numbers 24 and 40; LCM = 8\u00d73\u00d75 = 120.",
+    explanation: "With ratio 3 : 5 and HCF 8, the numbers are 3 × 8 = 24 and 5 × 8 = 40, so LCM = 8 × 3 × 5 = 120. 40 is tempting, but it is only the larger number, and 40 is not a multiple of 24.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -588,7 +588,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "25" }
     ],
     answerId: "a",
-    explanation: "\u221a25 = 5. Note \u221a(9+16) \u2260 \u221a9+\u221a16.",
+    explanation: "√(9 + 16) = √25 = 5. 7 is tempting, but √9 + √16 = 3 + 4 adds the roots; the square root of a sum is not the sum of the square roots.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -601,7 +601,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "is even" }
     ],
     answerId: "c",
-    explanation: "Unique prime factorisation (order ignored) is the fundamental theorem.",
+    explanation: "The fundamental theorem of arithmetic says every composite number can be written as a product of primes in exactly one way, apart from order: for example, 60 = 2² × 3 × 5. 'Is even' is tempting, but 9 and 15 are odd composite numbers.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -614,7 +614,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "c",
-    explanation: "\u221a(x/y)=4/5 \u2192 x/y=16/25 \u2192 x=16k, y=25k; 41k=82 \u2192 k=2; x\u2212y=32\u221250=\u221218.",
+    explanation: "√(x/y) = 4/5 gives x/y = 16/25, so x = 16k and y = 25k. Then 41k = 82, so k = 2, x = 32, y = 50 and x − y = −18. 18 is tempting, but y is larger than x, so x − y is negative.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -627,7 +627,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1.414" }
     ],
     answerId: "b",
-    explanation: "1/(\u221a2\u22121)\u00b7(\u221a2+1)/(\u221a2+1)=\u221a2+1\u22482.414.",
+    explanation: "Multiply by (√2 + 1)/(√2 + 1): 1/(√2 − 1) = (√2 + 1)/(2 − 1) = √2 + 1 ≈ 2.414. 0.414 is tempting, but that is √2 − 1, the denominator itself, not its reciprocal.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
 ];
