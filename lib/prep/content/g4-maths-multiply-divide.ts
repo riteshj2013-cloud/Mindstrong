@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-maths-muldiv-b-q02",
-    prompt: "Look at Skip Counting by 8. Which number belongs at point **P**?",
+    prompt: "Look at the number line. It counts on in equal jumps of 8. Which number belongs at point **P**?",
     options: [
       { id: "a", text: "32" },
       { id: "b", text: "30" },

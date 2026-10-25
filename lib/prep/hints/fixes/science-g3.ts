@@ -79,7 +79,7 @@ export const G3_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g3-sci-animals-a-q15": ["Omnivores eat both plants and animals. Which group eats fruits and also fish, eggs or insects?"],
   "g3-sci-animals-a-q16": ["The lion and its cubs rest in a cave. A wild animal's cave home has a short name."],
   "g3-sci-animals-a-q17": ["A nest is soft and hidden. Think about what a mother bird puts in it and who hatches there."],
-  "g3-sci-animals-a-q18": ["Cow, goat and deer all eat grass. Which animal in the list hunts instead?"],
+  "g3-sci-animals-a-q18": ["Think about what each animal eats.", "Do all four animals eat the same kind of food?"],
   "g3-sci-animals-a-q19": ["The bear eats fish, which is animal food, and honey and berries, which are plant foods. What kind of eater is that?"],
   "g3-sci-animals-a-q20": ["In the food chain, the rabbit eats grass. The empty box must be an animal that eats rabbits."],
   "g3-sci-animals-a-q21": ["The tailorbird is named after a tailor, who sews cloth. Its beak works like a needle on big leaves."],

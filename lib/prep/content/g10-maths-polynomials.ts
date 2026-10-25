@@ -176,12 +176,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-poly-a-q14",
     prompt: "A linear polynomial has how many zeros?",
     options: [
-      { id: "a", text: "none" },
-      { id: "b", text: "exactly one" },
+      { id: "a", text: "exactly one" },
+      { id: "b", text: "none" },
       { id: "c", text: "two" },
       { id: "d", text: "infinitely many" }
     ],
-    answerId: "b",
+    answerId: "a",
     explanation: "ax+b=0 has unique solution x=\u2212b/a (a\u22600).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -306,12 +306,12 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-poly-a-q24",
     prompt: "If \u03b1, \u03b2 are zeros of x\u00b2 \u2212 x \u2212 2, then \u03b1\u00b2 + \u03b2\u00b2 equals \u2014",
     options: [
-      { id: "a", text: "3" },
+      { id: "a", text: "5" },
       { id: "b", text: "1" },
-      { id: "c", text: "5" },
+      { id: "c", text: "3" },
       { id: "d", text: "4" }
     ],
-    answerId: "c",
+    answerId: "a",
     explanation: "\u03b1\u00b2+\u03b2\u00b2=(\u03b1+\u03b2)\u00b2\u22122\u03b1\u03b2=1\u22122(\u22122)=5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
@@ -622,11 +622,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "p(x)=x\u00b3\u22126x\u00b2+11x\u22126 has a zero at x=1. The quadratic factor is \u2014",
     options: [
       { id: "a", text: "x\u00b2 + 5x + 6" },
-      { id: "b", text: "x\u00b2 \u2212 6x + 11" },
+      { id: "b", text: "x\u00b2 \u2212 5x + 6" },
       { id: "c", text: "x\u00b2 \u2212 x + 6" },
-      { id: "d", text: "x\u00b2 \u2212 5x + 6" }
+      { id: "d", text: "x\u00b2 \u2212 6x + 11" }
     ],
-    answerId: "d",
+    answerId: "b",
     explanation: "Synthetic division by (x\u22121) yields x\u00b2\u22125x+6.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }

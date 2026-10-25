@@ -283,6 +283,44 @@ function rulesOut(q) {
     const named = wrong.filter((d) => hasWords(looseForm(h), d));
     if (named.length >= 2) return { hint: h, named };
   }
+  return listRulesOut(q, correct);
+}
+/**
+ * List phrasing ("Visited, last and week are everyday words", "not he, she or it", "Meena and tree are
+ * names"): two or more WRONG options strung together with commas / and / or / nor, followed by a
+ * verdict verb (are, is, name, …) or preceded by not/neither/than. Unlike the word check above this
+ * also counts short options and options whose words appear in the stem, because the list itself is the
+ * give-away.
+ */
+const listForm = (s) =>
+  String(s ?? "").normalize("NFKC").toLowerCase().replace(/[“”"‘’'*]/g, "").replace(/[^\p{L}\p{N},]+/gu, " ").replace(/\s*,\s*/g, " , ").trim();
+const escRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+function listRulesOut(q, correct) {
+  const wrong = [
+    ...new Set(
+      q.options
+        .filter((o) => o.id !== q.answerId)
+        .map((o) => listForm(optCore(o.text)).replace(/ , /g, " ").trim())
+        .filter((d) => d && !/^[\d .,/]+$/.test(d) && d !== listForm(correct)),
+    ),
+  ].sort((a, b) => b.length - a.length);
+  if (wrong.length < 2) return null;
+  const item = `(?:${wrong.map(escRe).join("|")})`;
+  const sep = "(?: , (?:and |or |nor )?| and | or | nor )";
+  const chain = new RegExp(
+    `(?:^|\\s)((?:not|neither|than) )?(${item}(?:${sep}${item})+)(?=\\s(?:are|were|is|was|all|both|name|names|describe|describes|tell|show|do|does|don t|cannot|can t|just)\\b)?`,
+    "g",
+  );
+  for (const h of q.hints ?? []) {
+    const f = ` ${listForm(h)} `;
+    for (const m of f.matchAll(chain)) {
+      const tail = f.slice(m.index + m[0].length);
+      const verdict = /^\s(?:are|were|is|was|all|both|name|names|describe|describes|tell|show|do|does|don t|cannot|can t|just)\b/.test(tail);
+      if (!m[1] && !verdict) continue;
+      const named = [...new Set(wrong.filter((d) => new RegExp(`(?:^| )${escRe(d)}(?= |$)`).test(m[2])))];
+      if (named.length >= 2) return { hint: h, named, phrasing: "list" };
+    }
+  }
   return null;
 }
 function partialQuote(q) {

@@ -154,7 +154,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-maths-angles-a-q12",
-    prompt: "Look at Quarter turn clockwise. The child starts facing North. After the turn, where does the child face?",
+    prompt: "Look at the compass. The child starts facing North and makes a quarter turn clockwise. Where does the child face now?",
     options: [
       { id: "a", text: "West" },
       { id: "b", text: "East" },
@@ -181,7 +181,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-maths-angles-a-q14",
-    prompt: "Look at Angles on a straight line. One angle is 70\u00b0. What is the **missing** angle?",
+    prompt: "Look at the two angles on a straight line. One angle is 70°. What is the **missing** angle?",
     options: [
       { id: "a", text: "70\u00b0" },
       { id: "b", text: "90\u00b0" },
@@ -382,7 +382,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-angles-b-q05",
-    prompt: "Look at Half turn. The child starts facing East. After a half turn, where does the child face?",
+    prompt: "Look at the compass. The child starts facing East and makes a half turn. Where does the child face now?",
     options: [
       { id: "a", text: "West" },
       { id: "b", text: "South" },
@@ -461,7 +461,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-angles-b-q11",
-    prompt: "Look at Odd one out. Three angles are acute. Which panel is the **odd one out**?",
+    prompt: "Look at the four angle panels. Three of the angles are acute. Which panel is the **odd one out**?",
     options: [
       { id: "a", text: "Panel A" },
       { id: "b", text: "Panel B" },
@@ -502,7 +502,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-angles-b-q14",
-    prompt: "Look at Angles around a point. Three angles are 90\u00b0 each. What is the **missing** angle?",
+    prompt: "Look at the four angles around a point. Three angles are 90° each. What is the **missing** angle?",
     options: [
       { id: "a", text: "45\u00b0" },
       { id: "b", text: "90\u00b0" },
@@ -597,19 +597,19 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-angles-b-q21",
     prompt: "Look at the compass. A child facing North makes a three-quarter turn anticlockwise. Which way does the child face now?",
     options: [
-      { id: "a", text: "East" },
+      { id: "a", text: "North" },
       { id: "b", text: "South" },
       { id: "c", text: "West" },
-      { id: "d", text: "North" }
+      { id: "d", text: "East" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Anticlockwise from North: N → W → S → E. Three quarter-turns land on East. West is tempting, but that is where a three-quarter turn clockwise (or a single quarter turn anticlockwise) would end.",
     hints: ["Look carefully at the diagram.", "Match what you see to the question asked."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 460 240\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"A compass with North, East, South and West marked and an arrow in the middle pointing North. Beside it, a curved arrow shows a three-quarter turn going anticlockwise.\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"460\" height=\"240\" fill=\"#fff\"/>\n  <circle class=\"part compass\" cx=\"140\" cy=\"120\" r=\"70\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"label\" x=\"140\" y=\"40\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">N</text>\n  <text class=\"label\" x=\"226\" y=\"125\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">E</text>\n  <text class=\"label\" x=\"140\" y=\"210\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">S</text>\n  <text class=\"label\" x=\"54\" y=\"125\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">W</text>\n  <polygon class=\"part arrow\" points=\"140,62 130,132 150,132\" fill=\"#e65100\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle class=\"part hub\" cx=\"140\" cy=\"120\" r=\"5\" fill=\"#333\"/>\n  <text class=\"label\" x=\"140\" y=\"232\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Start: facing North</text>\n  <path class=\"arrow\" d=\"M 340 58 A 32 32 0 1 0 372 90\" fill=\"none\" stroke=\"#e65100\" stroke-width=\"3\"/>\n  <polygon class=\"arrow\" points=\"372,80 365,93 379,93\" fill=\"#e65100\"/>\n  <circle cx=\"340\" cy=\"90\" r=\"3\" fill=\"#e65100\"/>\n  <text class=\"label\" x=\"340\" y=\"148\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">\u00be turn</text>\n  <text class=\"label\" x=\"340\" y=\"168\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">anticlockwise</text>\n  <text class=\"label small\" x=\"340\" y=\"200\" font-size=\"11\" text-anchor=\"middle\" fill=\"#666\">Anticlockwise is opposite</text>\n  <text class=\"label small\" x=\"340\" y=\"214\" font-size=\"11\" text-anchor=\"middle\" fill=\"#666\">to the clock hands.</text>\n</svg>", "alt": "A compass with North, East, South and West marked and an arrow in the middle pointing North. Beside it, a curved arrow shows a three-quarter turn going anticlockwise."}
   },
   {
     id: "g5-maths-angles-b-q22",
-    prompt: "Look at Two equal angles. The upright arm makes a right angle with the baseline. One part is 45\u00b0. What is the **missing** part?",
+    prompt: "Look at the right angle split into two parts. One part is 45°. What is the **missing** part?",
     options: [
       { id: "a", text: "30\u00b0" },
       { id: "b", text: "45\u00b0" },
@@ -625,12 +625,12 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-angles-b-q23",
     prompt: "A fan blade turns 30\u00b0 at a time. How many such turns make a straight angle?",
     options: [
-      { id: "a", text: "6" },
+      { id: "a", text: "12" },
       { id: "b", text: "3" },
       { id: "c", text: "9" },
-      { id: "d", text: "12" }
+      { id: "d", text: "6" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "A straight angle is 180\u00b0, and 180\u00b0 \u00f7 30\u00b0 = 6 turns, while 12 turns would make a full turn.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
@@ -639,11 +639,11 @@ const SET_B: PrepQuestion[] = [
     prompt: "What is the smaller angle between the hands of a clock at exactly 9:30?",
     options: [
       { id: "a", text: "75\u00b0" },
-      { id: "b", text: "90\u00b0" },
-      { id: "c", text: "105\u00b0" },
+      { id: "b", text: "105\u00b0" },
+      { id: "c", text: "90\u00b0" },
       { id: "d", text: "120\u00b0" }
     ],
-    answerId: "c",
+    answerId: "b",
     explanation: "At 9:30 the minute hand is on 6 and the hour hand is halfway between 9 and 10, so the gap is 3\u00bd \u00d7 30\u00b0 = 105\u00b0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }

@@ -5,7 +5,7 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g1-eng-reading-a-q01",
-    prompt: "Picture: a smiling sun. What is it?",
+    prompt: "Look at the picture. What is it?",
     options: [
       { id: "a", text: "sun" },
       { id: "b", text: "moon" },
@@ -14,7 +14,8 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A smiling sun picture shows the sun.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" width=\"320\" height=\"220\" role=\"img\" aria-label=\"A round yellow face with a big smile and short yellow rays all around it.\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" rx=\"16\" fill=\"#f4fbff\"/><line x1=\"222.0\" y1=\"110.0\" x2=\"248.0\" y2=\"110.0\" stroke=\"#f9a825\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"213.7\" y1=\"141.0\" x2=\"236.2\" y2=\"154.0\" stroke=\"#f9a825\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"191.0\" y1=\"163.7\" x2=\"204.0\" y2=\"186.2\" stroke=\"#f9a825\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"160.0\" y1=\"172.0\" x2=\"160.0\" y2=\"198.0\" stroke=\"#f9a825\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"129.0\" y1=\"163.7\" x2=\"116.0\" y2=\"186.2\" stroke=\"#f9a825\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"106.3\" y1=\"141.0\" x2=\"83.8\" y2=\"154.0\" stroke=\"#f9a825\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"98.0\" y1=\"110.0\" x2=\"72.0\" y2=\"110.0\" stroke=\"#f9a825\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"106.3\" y1=\"79.0\" x2=\"83.8\" y2=\"66.0\" stroke=\"#f9a825\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"129.0\" y1=\"56.3\" x2=\"116.0\" y2=\"33.8\" stroke=\"#f9a825\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"160.0\" y1=\"48.0\" x2=\"160.0\" y2=\"22.0\" stroke=\"#f9a825\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"191.0\" y1=\"56.3\" x2=\"204.0\" y2=\"33.8\" stroke=\"#f9a825\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"213.7\" y1=\"79.0\" x2=\"236.2\" y2=\"66.0\" stroke=\"#f9a825\" stroke-width=\"8\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"110\" r=\"50\" fill=\"#ffd54f\" stroke=\"#f9a825\" stroke-width=\"4\"/><circle cx=\"142\" cy=\"98\" r=\"6\" fill=\"#5d4037\"/><circle cx=\"178\" cy=\"98\" r=\"6\" fill=\"#5d4037\"/><path d=\"M 136 122 Q 160 146 184 122\" fill=\"none\" stroke=\"#5d4037\" stroke-width=\"5\" stroke-linecap=\"round\"/></svg>", "alt": "A round yellow face with a big smile and short yellow rays all around it."}
   },
   {
     id: "g1-eng-reading-a-q02",
@@ -96,7 +97,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g1-eng-reading-a-q08",
-    prompt: "Picture clue: umbrella. When do we use it?",
+    prompt: "When do we use an umbrella?",
     options: [
       { id: "a", text: "to eat" },
       { id: "b", text: "to sleep" },
@@ -161,7 +162,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g1-eng-reading-a-q13",
-    prompt: "Picture: school bag. Where do you take it?",
+    prompt: "Look at the picture. Where do children carry this bag every morning?",
     options: [
       { id: "a", text: "to school" },
       { id: "b", text: "to the moon" },
@@ -170,7 +171,8 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A school bag goes to school.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" width=\"320\" height=\"220\" role=\"img\" aria-label=\"A blue backpack with two shoulder straps, a front pocket and a top handle.\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" rx=\"16\" fill=\"#f4fbff\"/><path d=\"M 140 52 Q 160 26 180 52\" fill=\"none\" stroke=\"#1e3a8a\" stroke-width=\"8\" stroke-linecap=\"round\"/><rect x=\"104\" y=\"50\" width=\"112\" height=\"140\" rx=\"26\" fill=\"#3b82f6\" stroke=\"#1e3a8a\" stroke-width=\"4\"/><rect x=\"124\" y=\"120\" width=\"72\" height=\"50\" rx=\"10\" fill=\"#60a5fa\" stroke=\"#1e3a8a\" stroke-width=\"3\"/><line x1=\"124\" y1=\"136\" x2=\"196\" y2=\"136\" stroke=\"#1e3a8a\" stroke-width=\"3\"/><rect x=\"90\" y=\"70\" width=\"14\" height=\"100\" rx=\"7\" fill=\"#1e40af\"/><rect x=\"216\" y=\"70\" width=\"14\" height=\"100\" rx=\"7\" fill=\"#1e40af\"/><circle cx=\"160\" cy=\"80\" r=\"5\" fill=\"#fde047\"/></svg>", "alt": "A blue backpack with two shoulder straps, a front pocket and a top handle."}
   },
   {
     id: "g1-eng-reading-a-q14",
@@ -216,7 +218,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g1-eng-reading-b-q01",
-    prompt: "Picture: a green tree. What is it?",
+    prompt: "Look at the picture. What does it show?",
     options: [
       { id: "a", text: "tree" },
       { id: "b", text: "car" },
@@ -225,7 +227,8 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A green tree picture shows a tree.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" width=\"320\" height=\"220\" role=\"img\" aria-label=\"A tall plant with a thick brown trunk and a big round green top made of leaves, standing on grass.\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" rx=\"16\" fill=\"#f4fbff\"/><rect x=\"0\" y=\"186\" width=\"320\" height=\"34\" fill=\"#a5d6a7\"/><rect x=\"146\" y=\"112\" width=\"28\" height=\"80\" rx=\"6\" fill=\"#8d6e63\" stroke=\"#5d4037\" stroke-width=\"3\"/><circle cx=\"160\" cy=\"84\" r=\"52\" fill=\"#43a047\" stroke=\"#2e7d32\" stroke-width=\"4\"/><circle cx=\"118\" cy=\"104\" r=\"30\" fill=\"#4caf50\" stroke=\"#2e7d32\" stroke-width=\"3\"/><circle cx=\"202\" cy=\"104\" r=\"30\" fill=\"#4caf50\" stroke=\"#2e7d32\" stroke-width=\"3\"/></svg>", "alt": "A tall plant with a thick brown trunk and a big round green top made of leaves, standing on grass."}
   },
   {
     id: "g1-eng-reading-b-q02",
@@ -307,7 +310,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g1-eng-reading-b-q08",
-    prompt: "Picture clue: toothbrush. When do we use it?",
+    prompt: "What do we use a toothbrush for?",
     options: [
       { id: "a", text: "to cut paper" },
       { id: "b", text: "to kick a ball" },
@@ -372,7 +375,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g1-eng-reading-b-q13",
-    prompt: "Picture: rain drops. What is falling?",
+    prompt: "Look at the picture. What is falling from the cloud?",
     options: [
       { id: "a", text: "rain" },
       { id: "b", text: "sand" },
@@ -381,7 +384,8 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Rain drops mean rain is falling.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" width=\"320\" height=\"220\" role=\"img\" aria-label=\"A grey cloud with many small blue drops coming down from it.\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" rx=\"16\" fill=\"#f4fbff\"/><circle cx=\"130\" cy=\"70\" r=\"34\" fill=\"#90a4ae\"/><circle cx=\"175\" cy=\"58\" r=\"42\" fill=\"#90a4ae\"/><circle cx=\"215\" cy=\"76\" r=\"30\" fill=\"#90a4ae\"/><rect x=\"110\" y=\"72\" width=\"130\" height=\"34\" rx=\"17\" fill=\"#90a4ae\"/><path d=\"M 110 120 q -7 12 0 16 q 7 -4 0 -16 z\" fill=\"#42a5f5\" stroke=\"#1565c0\" stroke-width=\"1.5\"/><path d=\"M 140 150 q -7 12 0 16 q 7 -4 0 -16 z\" fill=\"#42a5f5\" stroke=\"#1565c0\" stroke-width=\"1.5\"/><path d=\"M 170 124 q -7 12 0 16 q 7 -4 0 -16 z\" fill=\"#42a5f5\" stroke=\"#1565c0\" stroke-width=\"1.5\"/><path d=\"M 200 156 q -7 12 0 16 q 7 -4 0 -16 z\" fill=\"#42a5f5\" stroke=\"#1565c0\" stroke-width=\"1.5\"/><path d=\"M 230 122 q -7 12 0 16 q 7 -4 0 -16 z\" fill=\"#42a5f5\" stroke=\"#1565c0\" stroke-width=\"1.5\"/><path d=\"M 125 182 q -7 12 0 16 q 7 -4 0 -16 z\" fill=\"#42a5f5\" stroke=\"#1565c0\" stroke-width=\"1.5\"/><path d=\"M 185 186 q -7 12 0 16 q 7 -4 0 -16 z\" fill=\"#42a5f5\" stroke=\"#1565c0\" stroke-width=\"1.5\"/><path d=\"M 215 190 q -7 12 0 16 q 7 -4 0 -16 z\" fill=\"#42a5f5\" stroke=\"#1565c0\" stroke-width=\"1.5\"/><path d=\"M 155 176 q -7 12 0 16 q 7 -4 0 -16 z\" fill=\"#42a5f5\" stroke=\"#1565c0\" stroke-width=\"1.5\"/></svg>", "alt": "A grey cloud with many small blue drops coming down from it."}
   },
   {
     id: "g1-eng-reading-b-q14",

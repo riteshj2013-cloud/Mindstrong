@@ -1,5 +1,5 @@
 {
- "note": "Known hint-rules-out items as of 2026-10-19, listed with details in docs/quality/hints-rule-out-2026-10-19.json. scripts/audit-content.mjs fails on any hit NOT listed here. Delete ids as the writers fix them.",
+ "note": "Known hint-rules-out items as of 2026-10-25 (word check since 2026-10-19; list phrasing such as 'X, Y and Z are…' / 'not X, Y or Z' added 2026-10-25, its 15 first hits rewritten). scripts/audit-content.mjs fails on any hit NOT listed here. Delete ids as the writers fix them.",
  "count": 0,
  "items": []
 }

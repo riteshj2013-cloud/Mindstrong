@@ -80,4 +80,7 @@ export const G10_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-maths-real-b-q13": ["Keep dividing 360 by the smallest prime that works, and count every division you make."],
   "g10-maths-poly-a-q07": ["Sum of zeros = −(coefficient of x)/(coefficient of x²). Subtract the known zero from that sum."],
   "g10-maths-poly-a-q20": ["Find a pair of numbers that multiply to −6 and add to −1. Which number in the pair is larger?"],
+  "g10-maths-linear-a-q13": ["Inconsistent linear equations have no common solution.", "Graphically, a common solution is where the lines meet. How must two lines lie if they never meet?"],
+  "g10-maths-poly-b-q05": ["A zero of p(x) is a value of x that makes x² + 1 equal 0.", "Can x² be negative for a real x? Then what is the smallest value x² + 1 can take?"],
+  "g10-maths-poly-b-q19": ["If 0 is a root, then p(0) = 0. Put x = 0 into each choice.", "Now put x = 5 into the choices that passed. Which one also gives 0?"],
 };

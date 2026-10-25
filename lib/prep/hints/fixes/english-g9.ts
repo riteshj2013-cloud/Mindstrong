@@ -78,4 +78,5 @@ export const G9_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g9-eng-ch03-b-q01": ["A reckless driver speeds through red lights.", "Find the word for a careful driver, the opposite of reckless."],
   "g9-eng-ch03-b-q07": ["The salutation names the reader, Mr Mehta.", "\"Yours faithfully\" pairs with Dear Sir/Madam; which formal closing pairs with a name?"],
   "g9-eng-ch03-b-q16": ["A hostile crowd boos and shouts at the visiting team.", "Find the word for a crowd that greets visitors warmly, the opposite of hostile."],
+  "g9-eng-ch02-b-q21": ["The speaker is imagining being someone else, which is not real.", "Imaginary If-sentences in formal English use a special past form of be. Which choice sounds like careful, formal writing?"],
 };

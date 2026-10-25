@@ -79,7 +79,7 @@ export function withMockAddenda(subject: PrepSubject, grade: Grade, chapters: Ch
       const add = bySet.get(k);
       if (!add || !s.questions?.length) return s;
       placed.add(k);
-      return { ...s, questions: [...s.questions, ...add] };
+      return { ...s, questions: [...s.questions, ...add], questionCount: s.questions.length + add.length };
     }),
   }));
   const missing = [...bySet.keys()].filter((k) => !placed.has(k));

@@ -18,7 +18,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-grammar-a-q02",
-    prompt: "Riya packed her **bag** for school. Which word is the noun?",
+    prompt: "Riya packed her bag for school. Which word is the noun?",
     options: [
       { id: "a", text: "packed" },
       { id: "b", text: "bag" },
@@ -122,7 +122,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-grammar-a-q10",
-    prompt: "Meena saw a **tall** tree. Which word is the adjective?",
+    prompt: "Meena saw a tall tree. Which word is the adjective?",
     options: [
       { id: "a", text: "Meena" },
       { id: "b", text: "tall" },
@@ -437,7 +437,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-grammar-b-q10",
-    prompt: "We ate a **sweet** ladoo. Which word is the adjective?",
+    prompt: "We ate a sweet ladoo. Which word is the adjective?",
     options: [
       { id: "a", text: "We" },
       { id: "b", text: "sweet" },

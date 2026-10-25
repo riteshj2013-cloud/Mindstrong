@@ -70,7 +70,7 @@ export const G1_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g1-eng-letters-b-q15": ["Say \"sh\", then say \"ip\".", "Push \"sh\" and \"ip\" together fast. Which word do you hear?"],
   "g1-eng-letters-b-q16": ["Count the letters in each word.", "Ball has four letters. Which word has just two letters?"],
   // g1-english-reading — Reading Pictures
-  "g1-eng-reading-a-q01": ["Look at the smiling picture. It shines in the day sky.", "It is big, hot and bright, and it is not a cloud."],
+  "g1-eng-reading-a-q01": ["Look at the smiling picture. It shines in the day sky.", "What gives us light and warmth in the daytime?"],
   "g1-eng-reading-a-q02": ["Find the words that tell where the cat is.", "Look at the words after \"The cat is\"."],
   "g1-eng-reading-a-q03": ["Which one has wings and feathers to fly?", "To fly, an animal flaps its wings up in the sky."],
   "g1-eng-reading-a-q04": ["Find the food word in \"I like ___.\"", "Look at the last word the child says."],
@@ -82,7 +82,7 @@ export const G1_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g1-eng-reading-a-q10": ["What do you pour into a glass to drink?", "Which one do you drink when you are thirsty?"],
   "g1-eng-reading-a-q11": ["Find who does the action \"lays\".", "Look at the word just before \"lays an egg\"."],
   "g1-eng-reading-a-q12": ["Where do you lie down at night to sleep?", "A place to sleep is soft and has a pillow."],
-  "g1-eng-reading-a-q13": ["A school bag holds books and a tiffin.", "Where do you go every morning with your school bag?"],
+  "g1-eng-reading-a-q13": ["This bag holds your books, pencil box and tiffin.", "Where do you meet your teacher and classmates on weekdays?"],
   "g1-eng-reading-a-q14": ["Find the last word in \"Birds live in ___.\"", "Birds build a home of twigs in a tree."],
   "g1-eng-reading-a-q15": ["What do you hold in your hand to write?", "You write on paper with something that has a sharp tip."],
   "g1-eng-reading-a-q16": ["Find the weather word in \"It is ___ in summer.\"", "Look at the word just before \"in summer\"."],

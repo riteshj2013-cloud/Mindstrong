@@ -582,12 +582,12 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-numbers-b-q21",
     prompt: "A number of the form p/q with p, q integers and q ≠ 0 is called…",
     options: [
-      { id: "a", text: "rational" },
+      { id: "a", text: "whole number" },
       { id: "b", text: "irrational" },
       { id: "c", text: "integer" },
-      { id: "d", text: "whole number" }
+      { id: "d", text: "rational" }
     ],
-    answerId: "a",
+    answerId: "d",
     explanation: "Any number p/q with integers p, q and q ≠ 0 is a rational number. “Integer” is tempting because every integer can be written as n/1, but most such numbers, like 3/4, are not integers; “whole number” fails for the same reason and also for negatives. Irrational numbers are exactly the ones that cannot be written as p/q.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },

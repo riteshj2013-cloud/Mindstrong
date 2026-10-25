@@ -151,4 +151,8 @@ export const G8_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g8-eng-ch05-b-q10": ["Which detail gives the reader a real example of danger, with a time?"],
   "g8-eng-ch05-b-q22": ["Ask what each text mainly does: a notice gives facts and steps; an article shares views."],
   "g8-eng-lrach-a-q04": ["All three root words, legal, literate and logical, start with the same letter.", "Look at the first letter of each root word; some not-prefixes change their spelling to suit it."],
+  "g8-eng-ch03-a-q20": ["A noun names a thing or an idea, so it can follow \"a\" or \"the\".", "Which ending turns a doing word into a naming word, like divide → division?"],
+  "g8-eng-ch02-a-q15": ["In reported speech someone else tells us what Rahul said. Who does \"I\" become when you talk about Rahul?", "After \"said that\", ask whether the verb stays in the present or moves one step back in time."],
+  "g8-eng-ch01-b-q04": ["Radios cannot feel anything, so the writer is comparing them to people. Read the simile that comes straight after.", "Think about how people in a waiting room usually behave while they wait their turn."],
+  "g8-eng-ch02-a-q19": ["Take the clause out. Which word in the sentence is it telling you more about?", "That word names a person. What kind of word usually tells you more about a naming word?"],
 };

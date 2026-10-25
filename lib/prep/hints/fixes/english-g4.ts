@@ -48,7 +48,7 @@ export const G4_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-eng-ch02-b-q18": ["The moon going around the Earth is always true.", "For one thing in a general fact, the verb needs an -s ending."],
   "g4-eng-ch02-b-q19": ["\"last week\" tells you to use a past form of \"be\".", "With \"I\", the past form of \"be\" is the singular one."],
   "g4-eng-ch02-b-q20": ["\"They\" means more than one person.", "\"has\" goes with he or she; \"They\" needs the other form."],
-  "g4-eng-ch02-b-q21": ["There is only one sun, and everyone knows which one we mean.", "Use one special article for one-of-a-kind things like moon and sky — not a or an."],
+  "g4-eng-ch02-b-q21": ["There is only one sun, and everyone knows which one we mean.", "Which article points to one particular thing that everyone already knows about?"],
   "g4-eng-ch02-b-q22": ["Look at which month is shown on the calendar.", "For months, we use \"in\"; for days and dates, we use \"on\"."],
   "g4-eng-ch02-b-q23": ["Look at where the orange cat is hiding in the bedroom picture.", "The bed has four legs — is the cat on top, beside, or below the bed?"],
   // g4-english-reading — Story Spotters
@@ -149,7 +149,7 @@ export const G4_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-eng-ch03-a-q15": ["A shiny new coin catches the light.", "Find another word for shiny, like the sun on a clear day."],
   "g4-eng-ch03-a-q16": ["The sentence is about birds singing — you use your ears.", "\"here\" is a place word; you need the sound-alike word for listening."],
   "g4-eng-ch03-a-q17": ["You put your name on paper with a pencil.", "\"right\" means correct or a direction; you need the sound-alike word that starts with a silent w."],
-  "g4-eng-ch03-a-q18": ["The blank tells how many apples there are in the basket.", "You need the sound-alike word that is a number, not \"too\" or \"to\"."],
+  "g4-eng-ch03-a-q18": ["The blank tells how many apples there are in the basket.", "Some of these words sound alike. Which spelling is used for a number?"],
   "g4-eng-ch03-a-q19": ["You need a prefix that means \"not\" in front of \"kind\".", "Think of untidy and unhappy — which prefix makes these words?"],
   "g4-eng-ch03-a-q20": ["\"rebuild\" is the prefix \"re-\" + \"build\".", "Think of retell and rewrite — what does the prefix \"re-\" mean in them?"],
   "g4-eng-ch03-a-q21": ["Read line 2 of the postcard by itself.", "Does line 2 of the postcard tell something, or does it ask something?"],
@@ -214,4 +214,8 @@ export const G4_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-eng-ch04-b-q04": ["Please and thank you matter on the bus too.", "Vikram also tells the conductor exactly where he is going."],
   // Near-duplicate fix (2026-10-19): hints for rewritten questions (see dedupe/english-near-dupes-2026-10-19.md)
   "g4-eng-ch02-a-q15": ["A verb is a doing word: something you can do.", "Which doing word can you do in a pool?"],
+  "g4-eng-ch02-a-q05": ["Find the naming word for the animal in the sentence first.", "Now look for the word that tells you what that animal was like."],
+  "g4-eng-ch02-a-q14": ["Read the first line of Anu's speech bubble. Who is she talking about?", "Is Anu talking about herself too, or only about other people?"],
+  "g4-eng-ch04-a-q16": ["You arrive after sunset. What part of the day is it?", "How do you show respect when you greet an older person?"],
+  "g4-eng-ch04-b-q02": ["2 p.m. comes after midday. Which part of the day is that?", "Pick a greeting that fits the time and is polite to a teacher."],
 };

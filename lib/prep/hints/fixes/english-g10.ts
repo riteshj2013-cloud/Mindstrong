@@ -53,7 +53,7 @@ export const G10_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-eng-ch01-b-q08": ["Arun closed the book \"gently, as if loudness might wake the past\".", "What does careful, quiet handling of an old diary show about his feelings?"],
   "g10-eng-ch01-b-q10": ["\"Inside, time had a different speed\" is not about real clocks or physics.", "It describes how time feels to Arun in the quiet library compared to the noisy street."],
   "g10-eng-ch01-b-q15": ["The poem opens with \"Hold the quiet like a cup\" and ends with speaking \"something true\".", "Combine the first advice (about quiet) with the last (about how to speak)."],
-  "g10-eng-ch01-b-q16": ["Look for a quotation showing the playground changed into something else.", "\"western hills\" and \"school verandah\" describe places, not a change caused by rain."],
+  "g10-eng-ch01-b-q16": ["Look for a quotation showing the playground changed into something else.", "Reread the sentences after the sky finally opens. Which quotation shows a change caused by the rain?"],
   "g10-eng-ch01-b-q19": ["Irony here comes from contrast between inside and outside the library.", "A brown-ink note from the past sits in silence while scooters argue with horns outside."],
   "g10-eng-ch01-b-q24": ["Both passages describe a place in rich detail: a monsoon schoolyard and an old library.", "In both, how does the setting affect what the character feels?"],
   // g10-english-writing — Writing
