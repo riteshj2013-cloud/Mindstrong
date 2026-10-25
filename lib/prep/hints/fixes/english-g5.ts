@@ -59,7 +59,7 @@ export const G5_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g5-eng-ch03-a-q01": ["A simile compares two things using \"like\" or \"as\".", "Three poem lines say one thing IS another; find the line that uses a comparing word."],
   "g5-eng-ch03-a-q02": ["Picture the lanes during heavy monsoon rain in the poem.", "A stream is moving water — what would make a lane look like that?"],
   "g5-eng-ch03-a-q03": ["The apostrophe in \"you'll\" shows that some letters were dropped.", "\"'ll\" is the short form of a helping verb about the future, as in \"I'll\" and \"we'll\"."],
-  "g5-eng-ch03-a-q04": ["\"quietly\" describes doing something with very little sound.", "Gently and softly are close in meaning to \"quietly\" — find the word that means the reverse."],
+  "g5-eng-ch03-a-q04": ["\"quietly\" describes doing something with very little sound.", "Picture the drummer in the first verse. Which word would describe how he played?"],
   "g5-eng-ch03-a-q05": ["The drummer \"thunders and rumbles\" and practises at noon — what makes those sounds in a storm?", "Look at the first line: who is called a drummer?"],
   "g5-eng-ch03-a-q06": ["Ishaan has a problem when he has only one hundred rupees.", "A polite request often begins with \"Could I…\" or \"May I…\"."],
   "g5-eng-ch03-a-q07": ["The apostrophe in \"They're\" takes the place of a missing letter.", "\"They're\" joins a pronoun with a present form of \"be\" — the verb stays in the present."],
