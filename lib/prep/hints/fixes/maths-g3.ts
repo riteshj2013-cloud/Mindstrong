@@ -18,7 +18,7 @@ export const G3_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g3-maths-numbers-a-q06": ["To find the bigger number, start with the hundreds: both have 6. Then compare the tens digits."],
   "g3-maths-numbers-a-q07": ["Write 700 + 9 as one number. With no tens block, what digit goes in the tens place?"],
   "g3-maths-numbers-a-q08": ["Find the jump from 125 to 150. Add that same jump to 175."],
-  "g3-maths-numbers-a-q09": ["Take 1 away from 500. There are no ones, so you must break a ten."],
+  "g3-maths-numbers-a-q09": ["Take 1 away from 500. There are no ones and no tens, so you must break a hundred."],
   "g3-maths-numbers-a-q10": ["The 8 in 832 is in the hundreds place. How many hundreds is that worth?"],
   "g3-maths-numbers-a-q11": ["For the biggest number, put the biggest tile in the hundreds place, then the next biggest in the tens."],
   "g3-maths-numbers-a-q12": ["Zero cannot start a 3-digit number. Choose the smallest digit allowed in front, then put the smaller remaining digit next."],

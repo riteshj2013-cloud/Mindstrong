@@ -197,4 +197,5 @@ export const G8_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g8-sci-sound-b-q08": ["X is a chain of three tiny bones in the middle ear. What reaches these bones first, and what do they do with it?"],
   "g8-sci-sound-b-q09": ["Count the paths drawn from the speaker to the listener. What happens when many reflections arrive one after another?"],
   "g8-sci-sound-b-q13": ["Both paths are the same length. Which material carried the sound that arrived first?"],
+  "g8-sci-combustion-a-q04": ["Think about how quickly the LPG catches fire and gives out heat and light.", "Did the LPG need a lit burner to start, or did it begin burning on its own?"],
 };

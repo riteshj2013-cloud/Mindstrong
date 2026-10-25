@@ -97,4 +97,5 @@ export const G9_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g9-sci-motion-a-q23": ["Does the velocity change as time passes? Acceleration is the change in velocity each second."],
   "g9-sci-motion-b-q12": ["Measure the gaps between neighbouring dots. Is the distance covered in each second the same?"],
   "g9-sci-motion-b-q23": ["Compare the point where the ball leaves the hand and the point where it is caught. How far apart are they?"],
+  "g9-sci-matter-b-q23": ["Melting turns a solid into a liquid while the temperature stays at the melting point.", "This heat is named after the science word for melting. Do you remember that word?"],
 };

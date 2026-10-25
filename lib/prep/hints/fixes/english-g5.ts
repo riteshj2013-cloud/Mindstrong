@@ -115,4 +115,7 @@ export const G5_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g5-eng-ch05-b-q20": ["Pick a format that everyone in the school can see and read in one place."],
   "g5-eng-ch05-b-q24": ["The designation goes beside the writer's signature line in the notice."],
   "g5-eng-ch02-a-q15": ["The word \"than\" tells you how many things are being compared.", "Count the beats in \"beautiful\". How do long describing words usually show that one thing has more of a quality?"],
+  "g5-eng-ch04-a-q23": ["Think about the time of day and who you are greeting.", "A teacher deserves a polite greeting with a respectful title."],
+  "g5-eng-ch05-a-q09": ["Is Dev writing to a friend or to an office?", "A letter ends with a closing that suits the relationship, followed by the writer's name."],
+  "g5-eng-ch05-b-q18": ["The goal is to remember your own feelings about one day.", "Which kind of writing is private, meant only for you to read later?"],
 };

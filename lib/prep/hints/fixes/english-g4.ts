@@ -216,4 +216,6 @@ export const G4_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-eng-ch02-a-q15": ["A verb is a doing word: something you can do.", "Which doing word can you do in a pool?"],
   "g4-eng-ch02-a-q05": ["Find the naming word for the animal in the sentence first.", "Now look for the word that tells you what that animal was like."],
   "g4-eng-ch02-a-q14": ["Read the first line of Anu's speech bubble. Who is she talking about?", "Is Anu talking about herself too, or only about other people?"],
+  "g4-eng-ch04-a-q16": ["You arrive after sunset. What part of the day is it?", "How do you show respect when you greet an older person?"],
+  "g4-eng-ch04-b-q02": ["2 p.m. comes after midday. Which part of the day is that?", "Pick a greeting that fits the time and is polite to a teacher."],
 };

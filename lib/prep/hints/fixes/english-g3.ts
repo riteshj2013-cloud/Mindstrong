@@ -83,4 +83,5 @@ export const G3_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g3-eng-grammar-a-q04": ["Man does not take -s to make more than one.", "\"mans\" is not a word; the vowel in man changes."],
   "g3-eng-synonyms-a-q10": ["You enjoy a game when it makes you happy.", "Find another word for enjoy: how you feel about your favourite food."],
   "g3-eng-antonyms-a-q16": ["You cannot see your lost ball anywhere.", "The opposite of lost is when your ball turns up again."],
+  "g3-eng-grammar-a-q19": ["Past tense means the action already happened.", "Put \"Yesterday\" at the start of each sentence. Which one still sounds right?"],
 };
