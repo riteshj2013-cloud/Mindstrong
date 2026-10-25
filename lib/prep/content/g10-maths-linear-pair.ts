@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "parallel lines" }
     ],
     answerId: "d",
-    explanation: "No common point \u21d2 parallel distinct lines.",
+    explanation: "Inconsistent equations have no common solution, so their lines never meet: they are parallel and distinct. Coincident lines are tempting because they also look like one direction, but they lie on top of each other and share every point, so those equations have infinitely many solutions.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

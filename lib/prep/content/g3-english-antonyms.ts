@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "sad" }
     ],
     answerId: "b",
-    explanation: "Lost means you cannot find it; found means you got it back. 'missing' means nearly the same as lost.",
+    explanation: "Lost means you cannot find it; found means you got it back, so found is the opposite. Gone is wrong because it means nearly the same as lost: the thing is no longer there. Missing also means nearly the same as lost.",
     hints: ["You cannot see your lost ball anywhere.", "The opposite of lost is when your ball turns up again."],
   },
   {

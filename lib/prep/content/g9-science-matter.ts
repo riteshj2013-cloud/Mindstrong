@@ -626,7 +626,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "solar constant" }
     ],
     answerId: "c",
-    explanation: "Latent heat of fusion is for solid ↔ liquid.",
+    explanation: "The heat needed to turn 1 kg of a solid into liquid at its melting point is the latent heat of fusion ('fusion' means melting). Latent heat of vaporisation is tempting because it is also latent heat, but it is for turning a liquid into gas at the boiling point.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

@@ -523,7 +523,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\"the cricket pitch was a shallow lake\"" }
     ],
     answerId: "d",
-    explanation: "Pitch \u2192 lake shows sudden transformation.",
+    explanation: "\"The cricket pitch was a shallow lake\" shows the rain turning a familiar part of the playground into something new. \"School verandah\" is tempting because it is also at school, but it only says where the coolness was felt; it shows no change.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

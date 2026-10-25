@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "it" }
     ],
     answerId: "a",
-    explanation: "Children = they.",
+    explanation: "'The children' means more than one child, so we use they: 'They are playing.' He is tempting because we use it for one boy, but it can stand for only one person, not a group.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u22122" }
     ],
     answerId: "b",
-    explanation: "p(2)=4\u221210+6=0. Factors (x\u22122)(x\u22123).",
+    explanation: "p(2) = 4 − 10 + 6 = 0, so 2 is a zero; the factors are (x − 2)(x − 3), giving zeros 2 and 3. 6 is tempting because it is the constant term, but p(6) = 36 − 30 + 6 = 12, not 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "c",
-    explanation: "p(1)=0 \u2192 1+k+1=0 \u2192 k=\u22122.",
+    explanation: "If x − 1 is a factor, then p(1) = 0: 1 + k + 1 = 0, so k = −2. 2 is tempting if you drop the minus sign, but with k = 2, p(1) = 1 + 2 + 1 = 4, not 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "x\u00b2 + 5x \u2212 6" }
     ],
     answerId: "b",
-    explanation: "Sum \u22121, product \u22126 \u2192 x\u00b2 \u2212 (sum)x + product = x\u00b2 + x \u2212 6.",
+    explanation: "Sum of zeros = 2 + (−3) = −1 and product = −6, so the polynomial is x² − (sum)x + product = x² + x − 6. x² − x − 6 is tempting if you forget the minus sign in −(sum)x; its zeros are 3 and −2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "d",
-    explanation: "A degree-n polynomial has at most n zeros.",
+    explanation: "A polynomial of degree n has at most n zeros, and a cubic has degree 3, so it has at most 3 zeros. 2 is tempting from quadratics, but a cubic such as x(x − 1)(x − 2) has three zeros: 0, 1 and 2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "undefined" }
     ],
     answerId: "b",
-    explanation: "Non-zero constants are degree 0.",
+    explanation: "p(x) = 2 is the same as 2x⁰, so a non-zero constant polynomial has degree 0. 2 is tempting because the value is 2, but the degree is the highest power of x, not the constant itself. Only the zero polynomial has no defined degree.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "b",
-    explanation: "(x\u22124)(x+2)=0 so a=4 or a=\u22122.",
+    explanation: "x² − 2x − 8 = (x − 4)(x + 2), so a = 4 or a = −2. 2 is tempting because −2 is a zero, but p(2) = 4 − 4 − 8 = −8, not 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "a parabola" }
     ],
     answerId: "d",
-    explanation: "Quadratic graphs are parabolas.",
+    explanation: "With a ≠ 0, y = ax² + bx + c is a quadratic, and the graph of every quadratic is a parabola, opening up when a > 0 and down when a < 0. A straight line is tempting, but that is the graph of a linear polynomial, which has no x² term.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u22123" }
     ],
     answerId: "c",
-    explanation: "p(2)=0 \u2192 4+2k+6=0 \u2192 2k=\u221210 \u2192 k=\u22125. Other zero 3.",
+    explanation: "p(2) = 0 gives 4 + 2k + 6 = 0, so 2k = −10 and k = −5; the other zero is 3, since 2 × 3 = 6. 5 is tempting if you drop the sign, but x² + 5x + 6 has zeros −2 and −3, not 2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "deg r = deg p" }
     ],
     answerId: "a",
-    explanation: "Remainder degree is less than divisor degree.",
+    explanation: "In p(x) = g(x)·q(x) + r(x), the remainder r(x) is either 0 or has a smaller degree than the divisor g(x), just as a number remainder is smaller than the divisor. 'deg r = deg p' is tempting, but then g(x) could still go into r(x), so the division would not be finished.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "infinitely many" }
     ],
     answerId: "a",
-    explanation: "ax+b=0 has unique solution x=\u2212b/a (a\u22600).",
+    explanation: "A linear polynomial ax + b with a ≠ 0 is zero only at x = −b/a, so it has exactly one zero. 'None' is tempting, but its graph is a straight line that is not parallel to the x-axis, so it must cross the x-axis exactly once.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "d",
-    explanation: "3x\u22126=0 \u2192 x=2.",
+    explanation: "3x − 6 = 0 gives 3x = 6, so x = 2. 6 is tempting because it is the number in the polynomial, but 3 × 6 − 6 = 12, not 0. −2 comes from a sign slip: 3 × (−2) − 6 = −12.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3/2" }
     ],
     answerId: "a",
-    explanation: "1/\u03b1+1/\u03b2=(\u03b1+\u03b2)/\u03b1\u03b2 = (3/2)/(1/2)=3.",
+    explanation: "1/α + 1/β = (α + β)/(αβ). For 2x² − 3x + 1, α + β = 3/2 and αβ = 1/2, so the answer is (3/2) ÷ (1/2) = 3. 3/2 is tempting, but that is only α + β; you still have to divide by αβ.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -221,7 +221,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221ax + 1" }
     ],
     answerId: "d",
-    explanation: "\u221ax = x^{1/2} has non-integer exponent.",
+    explanation: "√x + 1 = x^(1/2) + 1, and a polynomial may only have whole-number powers of x, so it is not a polynomial. 3 is tempting because it has no x at all, but a non-zero constant is a polynomial of degree 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -234,7 +234,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u22121" }
     ],
     answerId: "c",
-    explanation: "p(\u22121)=\u22121+3\u22123+k=0 \u2192 k=1.",
+    explanation: "If x + 1 is a factor, then p(−1) = 0: −1 + 3 − 3 + k = 0, so k = 1. −1 is tempting from a sign slip, but with k = −1, p(−1) = −1 + 3 − 3 − 1 = −2, not 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -247,7 +247,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5/3" }
     ],
     answerId: "d",
-    explanation: "\u2212b/a = 5/3.",
+    explanation: "Sum of zeros = −b/a = −(−5)/3 = 5/3. −5/3 is tempting if you forget the minus sign in −b/a, and 2/3 is the product c/a, not the sum.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -273,7 +273,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "positive" }
     ],
     answerId: "c",
-    explanation: "Equal roots \u21d4 b\u00b2\u22124ac = 0.",
+    explanation: "A quadratic has equal zeros exactly when b² − 4ac = 0, so the discriminant is zero. Positive is tempting, but a positive discriminant gives two different real zeros.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -286,7 +286,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(x\u22121)(x+1)\u00b2" }
     ],
     answerId: "a",
-    explanation: "x\u00b3\u22121=(x\u22121)(x\u00b2+x+1).",
+    explanation: "x³ − 1 is a difference of cubes: x³ − 1 = (x − 1)(x² + x + 1). (x − 1)³ is tempting, but it expands to x³ − 3x² + 3x − 1, which has extra terms; (x + 1)(x² − x + 1) gives x³ + 1.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -299,7 +299,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7" }
     ],
     answerId: "a",
-    explanation: "The linear term is \u22123x.",
+    explanation: "The term in x is −3x, so the coefficient of x is −3, sign included. 4 is tempting because it comes first, but 4 is the coefficient of x³; 7 is the constant term.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "a",
-    explanation: "\u03b1\u00b2+\u03b2\u00b2=(\u03b1+\u03b2)\u00b2\u22122\u03b1\u03b2=1\u22122(\u22122)=5.",
+    explanation: "For x² − x − 2, α + β = 1 and αβ = −2, so α² + β² = (α + β)² − 2αβ = 1 − 2(−2) = 1 + 4 = 5. Check: the zeros are 2 and −1, and 4 + 1 = 5. 1 is tempting if you square the sum and forget the −2αβ term.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
 ];
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "(x\u22121)\u00b3" }
     ],
     answerId: "a",
-    explanation: "Product of (x\u2212zero) factors works (up to a constant).",
+    explanation: "(x + 1)(x − 1)(x − 2) is zero at x = −1, 1 and 2, and multiplying three linear factors gives a cubic. (x − 1)³ is tempting because it is a cubic with the zero 1, but 1 is its only zero; at −1 and 2 it is not zero.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x\u00b2 \u2212 5x \u2212 6" }
     ],
     answerId: "b",
-    explanation: "x\u00b2 \u2212 (sum)x + product.",
+    explanation: "A monic quadratic is x² − (α + β)x + αβ = x² − 5x + 6; its zeros 2 and 3 add to 5 and multiply to 6. x² + 5x + 6 is tempting, but its zeros are −2 and −3, which add to −5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22122 and \u22123" }
     ],
     answerId: "b",
-    explanation: "Zeros are x=2 and x=3.",
+    explanation: "y = (x − 2)(x − 3) is zero when x − 2 = 0 or x − 3 = 0, so the graph cuts the x-axis at 2 and 3. −2 and −3 is tempting from the signs in the brackets, but x = −2 gives (−4)(−5) = 20, not 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "infinitely many zeros" }
     ],
     answerId: "b",
-    explanation: "x\u00b2+1\u22651>0 for all real x.",
+    explanation: "For every real x, x² ≥ 0, so x² + 1 ≥ 1 and can never be 0: there is no real zero. 'Two real zeros' is tempting because it is a quadratic, but a quadratic has at most two zeros, and this graph stays above the x-axis.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x\u00b2 + x + 1" }
     ],
     answerId: "c",
-    explanation: "p = gq + r \u2192 g = (p \u2212 r)/q. Verify: (x\u00b2\u2212x+1)(x\u22122)+(\u22122x+4)=x\u00b3\u22123x\u00b2+x+2.",
+    explanation: "From p = g·q + r, g = (p − r) ÷ q. Check x² − x + 1: (x² − x + 1)(x − 2) + (−2x + 4) = x³ − 3x² + 3x − 2 − 2x + 4 = x³ − 3x² + x + 2. x² − x − 1 is tempting because only the last sign differs, but it gives x³ − 3x² − x + 6.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "a",
-    explanation: "Product of zeros = 1 \u21d2 4k/(k\u00b2+4)=1 \u21d2 4k=k\u00b2+4 \u21d2 k\u00b2\u22124k+4=0 \u21d2 (k\u22122)\u00b2=0.",
+    explanation: "If one zero is the reciprocal of the other, their product is 1. Product = c/a = 4k/(k² + 4) = 1, so k² − 4k + 4 = 0, (k − 2)² = 0 and k = 2. −2 is tempting, but it gives 4k/(k² + 4) = −8/8 = −1, not 1.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x\u00b2 + 3x \u2212 2" }
     ],
     answerId: "a",
-    explanation: "x\u00b2 \u2212 (sum)x + product = x\u00b2 + 3x + 2.",
+    explanation: "x² − (sum)x + product = x² − (−3)x + 2 = x² + 3x + 2; its zeros −1 and −2 add to −3 and multiply to 2. x² − 3x + 2 is tempting if you forget the minus sign in −(sum)x: its zeros 1 and 2 add to +3.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -432,7 +432,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "only a = 0" }
     ],
     answerId: "a",
-    explanation: "p(\u22121)=\u22121+1+a\u2212a=0 for every a, so (x+1) is always a factor.",
+    explanation: "p(−1) = −1 + 1 + a − a = 0 for every value of a, so x + 1 is always a factor; in fact p(x) = (x + 1)(x² − a). 'Only a = 1' is tempting because a = 1 works, but so does every other value of a.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -445,7 +445,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "b",
-    explanation: "Degrees add under multiplication (leading coeffs non-zero).",
+    explanation: "When two polynomials are multiplied, their leading terms multiply, so the degrees add: 3 + 2 = 5 (x³ × x² = x⁵). 6 is tempting, but degrees are added, not multiplied.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -458,7 +458,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "16" }
     ],
     answerId: "c",
-    explanation: "(\u03b1\u2212\u03b2)\u00b2=(\u03b1+\u03b2)\u00b2\u22124\u03b1\u03b2=36\u221232=4.",
+    explanation: "(α − β)² = (α + β)² − 4αβ = 6² − 4 × 8 = 36 − 32 = 4. Check: the zeros 4 and 2 differ by 2, and 2² = 4. 2 is tempting, but that is α − β itself, not its square.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -471,7 +471,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "d",
-    explanation: "At most 4 real zeros for degree 4.",
+    explanation: "A polynomial of degree n has at most n zeros, so degree 4 gives at most 4 zeros. 5 is tempting, but a degree-4 graph can cross the x-axis at most 4 times; 5 zeros would need degree 5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -484,7 +484,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "6" }
     ],
     answerId: "d",
-    explanation: "Product of the constants (\u22122)(3)(\u22121) = 6.",
+    explanation: "The constant term is the product of the constants in the brackets: (−2) × 3 × (−1) = 6. −6 is tempting if you lose one minus sign, but two negatives multiply to a positive.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -497,7 +497,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "d",
-    explanation: "1 \u2212 4 + 3 = 0, so x=1 is a zero.",
+    explanation: "p(1) = 1 − 4 + 3 = 0, so x = 1 is a zero of p(x). 3 is tempting because it is the constant term, but 3 is p(0), not p(1).",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -510,7 +510,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x\u00b2 + 1" }
     ],
     answerId: "c",
-    explanation: "1\u22121=0; others don't vanish at 1.",
+    explanation: "x − 1 is a factor exactly when p(1) = 0, and for x³ − 1, p(1) = 1 − 1 = 0. x² − x + 1 is tempting, but p(1) = 1 − 1 + 1 = 1, not 0; the other two give 3 and 2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -523,7 +523,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1 and 3" }
     ],
     answerId: "c",
-    explanation: "(x\u22121)[(x\u22122)+(x\u22123)]=(x\u22121)(2x\u22125); zeros 1 and 5/2.",
+    explanation: "(x − 1)(x − 2) + (x − 1)(x − 3) = (x − 1)[(x − 2) + (x − 3)] = (x − 1)(2x − 5), so the zeros are 1 and 5/2 = 2.5. 2 and 3 is tempting from the brackets, but at x = 2 the expression is 1 × 0 + 1 × (−1) = −1, not 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -536,7 +536,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "b",
-    explanation: "\u03b1\u03b2(\u03b1+\u03b2)=2\u00d73=6.",
+    explanation: "α²β + αβ² = αβ(α + β). For x² − 3x + 2, αβ = 2 and α + β = 3, so the answer is 2 × 3 = 6. 5 is tempting because it adds αβ and α + β instead of multiplying them.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -549,7 +549,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22121" }
     ],
     answerId: "a",
-    explanation: "Leading coefficient is that of the highest degree term.",
+    explanation: "The leading coefficient belongs to the term with the highest power, −7x⁴, so it is −7, sign included. 4 is tempting, but 4 is the degree (the power of x), not the coefficient.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -562,7 +562,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x\u00b2 \u2212 5" }
     ],
     answerId: "c",
-    explanation: "x(x\u22125)=x\u00b2\u22125x has zeros 0 and 5.",
+    explanation: "x(x − 5) is zero when x = 0 or x = 5. x² − 5 is tempting because it contains 5, but its zeros are √5 and −√5; putting x = 5 gives 20.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -575,7 +575,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "c",
-    explanation: "p(\u22121)=1+1=2.",
+    explanation: "By the remainder theorem, the remainder on dividing by x + 1 is p(−1) = (−1)² + 1 = 2; indeed x² + 1 = (x + 1)(x − 1) + 2. 0 is tempting, but x + 1 is not a factor of x² + 1, because p(−1) is not 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -588,7 +588,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2x\u00b2 + 3x + 1" }
     ],
     answerId: "a",
-    explanation: "Original zeros 1,2; reciprocals 1, 1/2 \u2192 x\u00b2\u2212(3/2)x+1/2 \u2192 multiply by 2: 2x\u00b2\u22123x+1.",
+    explanation: "x² − 3x + 2 has zeros 1 and 2, so the new zeros are 1 and 1/2, with sum 3/2 and product 1/2. That gives x² − (3/2)x + 1/2, and multiplying by 2 gives 2x² − 3x + 1. x² − 3x + 2 is tempting, but it is the original polynomial, whose zeros are 1 and 2, not their reciprocals.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -601,7 +601,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "d",
-    explanation: "Exact division: degrees subtract.",
+    explanation: "If q divides p exactly, then p = q × (p/q). Degrees add when you multiply, so 4 = 2 + deg(p/q), which gives 2. 6 is tempting, but adding the degrees gives the degree of the product p·q, not of the quotient.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -614,7 +614,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u00b16" }
     ],
     answerId: "d",
-    explanation: "Discriminant k\u00b2\u221236=0 \u2192 k=\u00b16.",
+    explanation: "Equal zeros need discriminant 0: k² − 4 × 1 × 9 = 0, so k² = 36 and k = ±6, giving x² ± 6x + 9 = (x ± 3)². ±3 is tempting because 9 = 3², but k is the middle coefficient, which is 2 × 3 = 6.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -627,7 +627,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x\u00b2 \u2212 6x + 11" }
     ],
     answerId: "b",
-    explanation: "Synthetic division by (x\u22121) yields x\u00b2\u22125x+6.",
+    explanation: "Dividing x³ − 6x² + 11x − 6 by x − 1 gives the quotient x² − 5x + 6, and (x − 1)(x² − 5x + 6) = x³ − 6x² + 11x − 6. x² − 6x + 11 is tempting because it copies the first coefficients, but (x − 1)(x² − 6x + 11) = x³ − 7x² + 17x − 11.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
 ];
