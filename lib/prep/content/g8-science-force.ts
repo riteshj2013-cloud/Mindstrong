@@ -580,7 +580,7 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "The woman, about 30 times more than the elephant" },
       { id: "b", text: "The elephant, because it is much heavier" },
-      { id: "c", text: "Both exert equal pressure." },
+      { id: "c", text: "Both exert equal pressure" },
       { id: "d", text: "The elephant, about 30 times more than the woman" }
     ],
     answerId: "a",
