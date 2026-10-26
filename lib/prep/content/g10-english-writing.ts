@@ -98,9 +98,9 @@ const SET_A: PrepQuestion[] = [
     id: "g10-eng-ch03-a-q08",
     prompt: "A notice must include \u2014",
     options: [
-      { id: "a", text: "a formal letter salutation Dear Sir inside notice box only always" },
+      { id: "a", text: "a salutation such as Dear Sir" },
       { id: "b", text: "heading, date, body, name & designation" },
-      { id: "c", text: "only a poem" },
+      { id: "c", text: "a complimentary close like Yours faithfully" },
       { id: "d", text: "your Aadhaar number" }
     ],
     answerId: "b",
@@ -282,8 +282,8 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "in the subject line" },
       { id: "b", text: "nowhere" },
-      { id: "c", text: "after the signature only always in every board identically without variation" },
-      { id: "d", text: "at the top (before date), as per format taught" }
+      { id: "c", text: "after the signature" },
+      { id: "d", text: "at the top, before the date" }
     ],
     answerId: "d",
     explanation: "Standard school format: sender address \u2192 date \u2192 receiver \u2192 subject \u2192 salutation.",
@@ -505,9 +505,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "A bio-sketch should highlight \u2014",
     options: [
       { id: "a", text: "key life facts and achievements in organised order" },
-      { id: "b", text: "fictional powers only always" },
+      { id: "b", text: "imaginary adventures" },
       { id: "c", text: "exam board codes" },
-      { id: "d", text: "only one adjective" }
+      { id: "d", text: "a list of the person's favourite foods" }
     ],
     answerId: "a",
     explanation: "Concise factual portrait.",
@@ -520,7 +520,7 @@ const SET_B: PrepQuestion[] = [
       { id: "a", text: "notice heading NOTICE" },
       { id: "b", text: "Yours faithfully" },
       { id: "c", text: "date and first-person feelings about events" },
-      { id: "d", text: "third-person only always" }
+      { id: "d", text: "a formal subject line" }
     ],
     answerId: "c",
     explanation: "Personal, dated, reflective.",

@@ -439,7 +439,7 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-acids-b-q10",
     prompt: "Which gas is released when an acid reacts with a metal carbonate?",
     options: [
-      { id: "a", text: "Hydrogen only always" },
+      { id: "a", text: "Hydrogen" },
       { id: "b", text: "Carbon dioxide" },
       { id: "c", text: "Nitrogen" },
       { id: "d", text: "Neon" }

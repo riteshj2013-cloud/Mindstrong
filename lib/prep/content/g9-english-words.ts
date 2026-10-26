@@ -494,7 +494,7 @@ const SET_B: PrepQuestion[] = [
       { id: "a", text: "advice" },
       { id: "b", text: "advise" },
       { id: "c", text: "advicing" },
-      { id: "d", text: "advisory as verb" }
+      { id: "d", text: "advisory" }
     ],
     answerId: "b",
     explanation: "Advise = verb; advice = noun.",

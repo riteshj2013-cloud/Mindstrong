@@ -153,7 +153,11 @@ for (const { where, questions } of servedSets) {
 // Legitimate uses (items about the word "wrong", quoted rude replies, ...) are listed by "<qid>:<option>"
 // in scripts/audit-baselines/option-editorial-allow.json.
 const OPTION_EDITORIAL = [
-  /\bwrong\b/i,
+  /\bwrong\w*/i,
+  /\b(?:only|always) (?:only|always)\b/i,
+  /\bas (?:adverb|adjective|noun|verb)\b/i,
+  /\bmeaning because\b/i,
+  /\bas per format\b/i,
   /\btempting\b/i,
   /\bdistractors?\b/i,
   /\bmirrors differ\b/i,
@@ -168,7 +172,7 @@ for (const { where, questions } of [...servedSets, ...servedPapers]) {
   for (const q of questions) {
     for (const o of q.options ?? []) {
       const re = OPTION_EDITORIAL.find((r) => r.test(o.text));
-      if (re && !optionEditorialAllow.has(`${q.id}:${o.id}`))
+      if (re && !optionEditorialAllow.has(`${baseId(q.id)}:${o.id}`))
         findings.push({ rule: "option-editorial", where: `${where}.${q.id}`, text: `${q.id} option ${o.id} reads like a writer's note (${re}): ${o.text}` });
     }
   }

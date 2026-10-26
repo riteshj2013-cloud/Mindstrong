@@ -27,7 +27,7 @@ export const G10_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-eng-ch02-b-q04": ["The blank refers to \"the book\", a thing.", "Pick a relative word used for things, not for people."],
   "g10-eng-ch02-b-q06": ["Oceans, seas and rivers follow a special article rule.", "Ocean names such as \"Indian Ocean\" always take a definite article, whatever their first sound."],
   "g10-eng-ch02-b-q08": ["A question in active voice stays a question in the passive.", "In the passive question, \"Who\" becomes a phrase with \"by\", and the verb needs a past participle."],
-  "g10-eng-ch02-b-q13": ["\"congratulated\" takes a fixed preposition before the reason, \"my success\".", "We say \"congratulate someone ___ winning\" — not for, with or about."],
+  "g10-eng-ch02-b-q13": ["\"congratulated\" takes a fixed preposition before the reason, \"my success\".", "The same little word follows \"compliment someone ___ their work\" and \"Congratulations ___ your new job\"."],
   "g10-eng-ch02-b-q14": ["A cleft sentence \"It was Riya ___ solved\" focuses on a person.", "Riya is a person and the subject of \"solved\"; \"which\" is for things."],
   "g10-eng-ch02-b-q15": ["\"Seldom\" at the start of a sentence changes the word order.", "Put the auxiliary before the subject, as in a question."],
   "g10-eng-ch02-b-q16": ["\"ceased the activity\" means he quit the radio, not paused to begin it.", "After \"stopped\", the -ing form means quitting; \"to + verb\" means pausing in order to do it."],
