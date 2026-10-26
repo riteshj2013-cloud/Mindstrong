@@ -33,13 +33,13 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-plants-a-q03",
     prompt: "A seed can grow into a\u2026",
     options: [
-      { id: "a", text: "stone" },
-      { id: "b", text: "cloud" },
+      { id: "a", text: "bigger seed" },
+      { id: "b", text: "leaf" },
       { id: "c", text: "new plant" },
-      { id: "d", text: "car" }
+      { id: "d", text: "fruit" }
     ],
     answerId: "c",
-    explanation: "A seed can grow into a new plant. A stone is tempting because a seed can look small and hard like a stone, but a stone is not alive and cannot grow.",
+    explanation: "A seed grows into a new plant, which later gets leaves, flowers and fruits. 'Fruit' is tempting because seeds come from fruits, but a seed sprouts into a whole new plant, not a fruit.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -47,8 +47,8 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which part makes food for the plant?",
     options: [
       { id: "a", text: "root" },
-      { id: "b", text: "stone" },
-      { id: "c", text: "pot" },
+      { id: "b", text: "flower" },
+      { id: "c", text: "seed" },
       { id: "d", text: "leaf" }
     ],
     answerId: "d",
@@ -60,12 +60,12 @@ const SET_A: PrepQuestion[] = [
     prompt: "We water plants because they need\u2026",
     options: [
       { id: "a", text: "water" },
-      { id: "b", text: "music" },
-      { id: "c", text: "toys" },
-      { id: "d", text: "shoes" }
+      { id: "b", text: "salt" },
+      { id: "c", text: "sugar" },
+      { id: "d", text: "milk" }
     ],
     answerId: "a",
-    explanation: "We water plants because they need water to live. Music may be nice for us, but a plant cannot grow without water, while it can without music.",
+    explanation: "Plants need water to live and grow. Milk is tempting because it is good for us, but plants take in water through their roots, not milk.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -85,26 +85,26 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-plants-a-q07",
     prompt: "Which do plants need to grow?",
     options: [
-      { id: "a", text: "TV" },
-      { id: "b", text: "phones" },
+      { id: "a", text: "darkness" },
+      { id: "b", text: "salt" },
       { id: "c", text: "sunlight" },
-      { id: "d", text: "cars" }
+      { id: "d", text: "plastic covers" }
     ],
     answerId: "c",
-    explanation: "Plants need sunlight to grow. A TV gives out light too, but plants need the sun's light, not a screen.",
+    explanation: "Plants need sunlight to make their food and grow. Darkness is tempting because seeds can sprout under the soil, but a growing plant needs light.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g1-sci-plants-a-q08",
     prompt: "A mango grows on a\u2026",
     options: [
-      { id: "a", text: "fish" },
-      { id: "b", text: "cloud" },
-      { id: "c", text: "bike" },
+      { id: "a", text: "creeper" },
+      { id: "b", text: "small bush" },
+      { id: "c", text: "grass" },
       { id: "d", text: "tree" }
     ],
     answerId: "d",
-    explanation: "A mango grows on a tree. A cloud is tempting because it is high up like a tree top, but nothing grows on a cloud.",
+    explanation: "A mango grows on a big tree. A creeper is tempting because some fruits like pumpkins grow on creepers, but mangoes hang from tree branches.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -112,12 +112,12 @@ const SET_A: PrepQuestion[] = [
     prompt: "Roots help the plant to\u2026",
     options: [
       { id: "a", text: "hold in the soil" },
-      { id: "b", text: "fly" },
-      { id: "c", text: "sing" },
-      { id: "d", text: "read" }
+      { id: "b", text: "make flowers" },
+      { id: "c", text: "catch sunlight" },
+      { id: "d", text: "make seeds" }
     ],
     answerId: "a",
-    explanation: "Roots help the plant hold on in the soil. 'Fly' is tempting if you think of seeds blown by wind, but roots keep the plant in one place.",
+    explanation: "Roots hold the plant firmly in the soil and take in water. 'Catch sunlight' is tempting because plants need sunlight, but leaves catch it; roots stay under the soil in the dark.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -126,24 +126,24 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "dog" },
       { id: "b", text: "rose" },
-      { id: "c", text: "cup" },
-      { id: "d", text: "ball" }
+      { id: "c", text: "stone" },
+      { id: "d", text: "butterfly" }
     ],
     answerId: "b",
-    explanation: "A rose is a plant. A dog is tempting because it is also alive, but a dog is an animal, not a plant.",
+    explanation: "A rose is a plant. A butterfly is tempting because it sits on flowers, but it is an animal (an insect), not a plant.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g1-sci-plants-a-q11",
     prompt: "Fruits often have ___ inside.",
     options: [
-      { id: "a", text: "wheels" },
-      { id: "b", text: "books" },
+      { id: "a", text: "roots" },
+      { id: "b", text: "leaves" },
       { id: "c", text: "seeds" },
-      { id: "d", text: "socks" }
+      { id: "d", text: "flowers" }
     ],
     answerId: "c",
-    explanation: "Fruits often have seeds inside, like a mango or an apple. Socks and books are not part of any plant.",
+    explanation: "Fruits often have seeds inside, like a mango or an apple. Leaves are tempting because they grow near the fruits, but leaves grow outside on the branches, not inside a fruit.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -244,26 +244,26 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q03",
     prompt: "A baby plant is called a\u2026",
     options: [
-      { id: "a", text: "rocket" },
-      { id: "b", text: "pillow" },
+      { id: "a", text: "bud" },
+      { id: "b", text: "twig" },
       { id: "c", text: "seedling" },
-      { id: "d", text: "truck" }
+      { id: "d", text: "root" }
     ],
     answerId: "c",
-    explanation: "A baby plant is called a seedling. A pillow and a truck are not living things.",
+    explanation: "A baby plant that has just come out of a seed is a seedling. A bud is tempting because it is small and new, but a bud is a flower or leaf that has not opened yet.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g1-sci-plants-b-q04",
     prompt: "Which grows from a seed?",
     options: [
-      { id: "a", text: "chair" },
-      { id: "b", text: "glass" },
-      { id: "c", text: "phone" },
+      { id: "a", text: "chick" },
+      { id: "b", text: "butterfly" },
+      { id: "c", text: "stone" },
       { id: "d", text: "plant" }
     ],
     answerId: "d",
-    explanation: "A plant grows from a seed. A chair is tempting because it can be made of wood from a plant, but a chair is made by people, it does not grow.",
+    explanation: "A plant grows from a seed. A chick is tempting because it also grows from something small, but a chick hatches from an egg, not a seed.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -296,26 +296,26 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q07",
     prompt: "Bees visit flowers for\u2026",
     options: [
-      { id: "a", text: "stones" },
-      { id: "b", text: "books" },
+      { id: "a", text: "leaves" },
+      { id: "b", text: "seeds" },
       { id: "c", text: "nectar" },
-      { id: "d", text: "shoes" }
+      { id: "d", text: "petals" }
     ],
     answerId: "c",
-    explanation: "Bees visit flowers for nectar, a sweet juice. Stones and shoes are not found inside flowers.",
+    explanation: "Bees visit flowers for nectar, a sweet juice they turn into honey. Petals are tempting because they are the bright part bees see, but bees drink nectar; they do not eat petals.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g1-sci-plants-b-q08",
     prompt: "A coconut tree is\u2026",
     options: [
-      { id: "a", text: "a fish" },
-      { id: "b", text: "a bird" },
-      { id: "c", text: "a cup" },
+      { id: "a", text: "short" },
+      { id: "b", text: "a creeper" },
+      { id: "c", text: "a small bush" },
       { id: "d", text: "tall" }
     ],
     answerId: "d",
-    explanation: "A coconut tree is tall. A bird is tempting because birds sit on coconut trees, but the tree itself is a plant, not a bird.",
+    explanation: "A coconut tree is tall, with its leaves right at the top. 'A small bush' is tempting because both are plants, but a bush stays low; a coconut tree grows very tall.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -323,25 +323,25 @@ const SET_B: PrepQuestion[] = [
     prompt: "Soil helps plants by giving\u2026",
     options: [
       { id: "a", text: "a place to grow" },
-      { id: "b", text: "TV shows" },
-      { id: "c", text: "music" },
-      { id: "d", text: "cars" }
+      { id: "b", text: "sunlight" },
+      { id: "c", text: "colour" },
+      { id: "d", text: "shade" }
     ],
     answerId: "a",
-    explanation: "Soil gives plants a place to grow and hold their roots. Music and TV shows have nothing to do with soil.",
+    explanation: "Soil gives plants a place to grow, holds their roots and gives them water. Sunlight is tempting because plants need it, but sunlight comes from the sun, not from the soil.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g1-sci-plants-b-q10",
     prompt: "Which is a flower?",
     options: [
-      { id: "a", text: "spoon" },
+      { id: "a", text: "banyan" },
       { id: "b", text: "lotus" },
-      { id: "c", text: "eraser" },
-      { id: "d", text: "sock" }
+      { id: "c", text: "grass" },
+      { id: "d", text: "neem" }
     ],
     answerId: "b",
-    explanation: "A lotus is a flower. A sock or a spoon may be colourful, but they are made by people, not grown.",
+    explanation: "A lotus is a flower. Neem is tempting because it is a well-known plant, but neem is a tree we know for its leaves, not a flower.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -361,13 +361,13 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q12",
     prompt: "The green colour in leaves helps them\u2026",
     options: [
-      { id: "a", text: "bark like dogs" },
-      { id: "b", text: "fly planes" },
-      { id: "c", text: "cook rice" },
+      { id: "a", text: "drink water" },
+      { id: "b", text: "smell sweet" },
+      { id: "c", text: "fall off" },
       { id: "d", text: "make food" }
     ],
     answerId: "d",
-    explanation: "The green colour helps leaves make food. 'Cook rice' is tempting because it is about food, but people cook rice; leaves make their own food with sunlight.",
+    explanation: "The green colour in leaves helps them make food from sunlight. 'Drink water' is tempting because plants need water, but the roots take in water; the green colour is for making food.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -400,13 +400,13 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q15",
     prompt: "Thorns on a rose\u2026",
     options: [
-      { id: "a", text: "are sweets" },
+      { id: "a", text: "are soft" },
       { id: "b", text: "are roots" },
       { id: "c", text: "can prick" },
-      { id: "d", text: "are fruits" }
+      { id: "d", text: "smell sweet" }
     ],
     answerId: "c",
-    explanation: "Thorns on a rose can prick, so be careful. 'Are roots' is tempting because thorns are part of the plant, but roots grow under the soil, not on the stem.",
+    explanation: "Thorns on a rose are sharp and can prick, so be careful. 'Smell sweet' is tempting because roses smell lovely, but the smell comes from the petals, not the thorns.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

@@ -106,4 +106,5 @@ export const G2_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g2-sci-airwater-b-q02": ["Boiling water makes steam rise from the pot and spread into the air. Which form of water is steam?"],
   "g2-sci-airwater-b-q10": ["Push an empty glass upside down into water. Water cannot fill it. What does the air inside take up?"],
   "g2-sci-airwater-b-q13": ["Switch on a fan and feel it on your face. What does a fan push around the room?"],
+  "g2-sci-plants-b-q09": ["On a hot day, why do people stand under a tree?", "Leaves also give out something we breathe."],
 };

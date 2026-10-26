@@ -39,7 +39,7 @@ export const G1_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g1-sci-plants-a-q16": ["Plants grow, drink water and need food, just like you and your pet dog. Which word describes all of you?"],
   "g1-sci-plants-b-q01": ["Water poured on the soil goes down. Which plant part under the soil drinks it up?"],
   "g1-sci-plants-b-q04": ["Push a seed into wet soil in a pot. After some days, what green thing comes up and keeps growing?"],
-  "g1-sci-plants-b-q10": ["A flower is part of a plant and has soft, coloured petals.", "Does each thing grow, or is it made by people?"],
+  "g1-sci-plants-b-q10": ["A flower is part of a plant and has soft, coloured petals.", "Which one is best known for its petals, not for its leaves or its trunk?"],
   "g1-sci-plants-b-q14": ["A big tree did not start big. What small thing did the tree grow from first?"],
   "g1-sci-plants-a-q03": ["Plant a seed in a pot and water it every day. What will slowly come out of it and grow?"],
   // g1-science-animals
@@ -106,4 +106,7 @@ export const G1_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g1-sci-body-b-q16": ["Sense organs help us see, hear, smell, taste and touch. Which one in the list helps us see?"],
   "g1-sci-body-a-q02": ["Cover the sides of your head and the school bell sounds quiet. Which body part helps you hear it?"],
   "g1-sci-body-b-q12": ["When you have a cold, a doctor listens to your chest. What does the doctor want to know about you?"],
+  "g1-sci-plants-b-q03": ["Think of a seed that has just sprouted.", "What do we call the tiny new plant with its first leaves?"],
+  "g1-sci-plants-b-q07": ["Bees make honey.", "What sweet thing inside a flower do bees drink?"],
+  "g1-sci-plants-b-q08": ["Picture coconuts hanging at the top of the tree.", "Do you have to look up or down to see coconuts on the tree?"],
 };

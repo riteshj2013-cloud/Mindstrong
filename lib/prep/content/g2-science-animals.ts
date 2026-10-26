@@ -9,11 +9,11 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "herbivores" },
       { id: "b", text: "carnivores" },
-      { id: "c", text: "machines" },
-      { id: "d", text: "rocks" }
+      { id: "c", text: "omnivores" },
+      { id: "d", text: "insects" }
     ],
     answerId: "a",
-    explanation: "Animals that eat only plants are herbivores. Carnivores is tempting because it sounds similar, but carnivores eat other animals.",
+    explanation: "Animals that eat only plants are herbivores. Omnivores is tempting because they eat plants too, but omnivores also eat animals, so they do not eat only plants.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -22,11 +22,11 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "herbivores" },
       { id: "b", text: "carnivores" },
-      { id: "c", text: "plants" },
-      { id: "d", text: "stones" }
+      { id: "c", text: "plant-eaters" },
+      { id: "d", text: "grazers" }
     ],
     answerId: "b",
-    explanation: "Animals that eat other animals are carnivores. Herbivores is tempting because it sounds similar, but herbivores eat only plants.",
+    explanation: "Animals that eat other animals are carnivores. Herbivores is tempting because it sounds similar, but herbivores, the plant-eaters and grazers, eat only plants.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -220,11 +220,11 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "herbivores" },
       { id: "b", text: "carnivores" },
-      { id: "c", text: "cars" },
-      { id: "d", text: "rocks" }
+      { id: "c", text: "omnivores" },
+      { id: "d", text: "insects" }
     ],
     answerId: "a",
-    explanation: "Deer eat plants, so they are herbivores. Carnivores is tempting because it sounds similar, but carnivores eat meat.",
+    explanation: "Deer eat only plants, so they are herbivores. Omnivores is tempting because it is another eating word, but omnivores eat both plants and animals.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -311,7 +311,7 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "frog" },
       { id: "b", text: "fish" },
-      { id: "c", text: "bird nest" },
+      { id: "c", text: "spider" },
       { id: "d", text: "butterfly" }
     ],
     answerId: "d",
@@ -337,8 +337,8 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "eagle" },
       { id: "b", text: "rabbit" },
-      { id: "c", text: "whale" },
-      { id: "d", text: "shark" }
+      { id: "c", text: "monkey" },
+      { id: "d", text: "camel" }
     ],
     answerId: "b",
     explanation: "A rabbit digs a burrow under the ground to live in. An eagle is tempting because it also makes a home, but it builds a nest high up.",
@@ -348,13 +348,13 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-animals-b-q11",
     prompt: "Elephants use their trunks to\u2026",
     options: [
-      { id: "a", text: "fly" },
+      { id: "a", text: "see things" },
       { id: "b", text: "lay eggs" },
       { id: "c", text: "pick food and drink" },
-      { id: "d", text: "make honey" }
+      { id: "d", text: "hear sounds" }
     ],
     answerId: "c",
-    explanation: "Elephants use their trunks to pick up food and drink water. 'Lay eggs' is tempting if you mix up animals, but elephants give birth to babies.",
+    explanation: "Elephants use their trunks to pick up food and suck up water to drink. 'Hear sounds' is tempting because the trunk is on the head, but elephants hear with their big ears.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -387,13 +387,13 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-animals-b-q14",
     prompt: "A hive is a home for\u2026",
     options: [
-      { id: "a", text: "lions" },
+      { id: "a", text: "birds" },
       { id: "b", text: "bees" },
-      { id: "c", text: "whales" },
-      { id: "d", text: "cows" }
+      { id: "c", text: "ants" },
+      { id: "d", text: "spiders" }
     ],
     answerId: "b",
-    explanation: "A hive is a home for bees. Lions are tempting because their group has a special name, a pride, but their home is a den, not a hive.",
+    explanation: "A hive is a home for bees. Ants are tempting because they also live in big groups, but ants live in an anthill, not a hive.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -401,12 +401,12 @@ const SET_B: PrepQuestion[] = [
     prompt: "We should not ___ wild animals.",
     options: [
       { id: "a", text: "respect" },
-      { id: "b", text: "learn about carefully" },
+      { id: "b", text: "learn about" },
       { id: "c", text: "hurt or tease" },
       { id: "d", text: "protect" }
     ],
     answerId: "c",
-    explanation: "We should not hurt or tease wild animals. 'Protect' is tempting because the sentence says 'should not', but protecting wild animals is a good thing to do.",
+    explanation: "We should not hurt or tease wild animals. 'Learn about' and 'protect' are tempting because the sentence says 'should not', but learning about wild animals and protecting them are good things to do.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

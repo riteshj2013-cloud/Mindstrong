@@ -22,11 +22,11 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "on the roof" },
       { id: "b", text: "under the table" },
-      { id: "c", text: "in the sky" },
-      { id: "d", text: "in a cup" }
+      { id: "c", text: "on the bed" },
+      { id: "d", text: "behind the door" }
     ],
     answerId: "b",
-    explanation: "The sentence says the puppy hid under the table. 'On the roof' is tempting because it is also a place in a house, but the sentence says under the table.",
+    explanation: "The sentence says the puppy hid under the table. 'Behind the door' is tempting because it is also a hiding place in a house, but the sentence says under the table.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -112,12 +112,12 @@ const SET_A: PrepQuestion[] = [
     prompt: "What is the main idea: 'Bo planted seeds. He watered them. Green shoots came up.'?",
     options: [
       { id: "a", text: "Bo grew plants" },
-      { id: "b", text: "Bo flew a plane" },
+      { id: "b", text: "Bo picked flowers" },
       { id: "c", text: "Bo baked a cake" },
-      { id: "d", text: "Bo swam" }
+      { id: "d", text: "Bo bought seeds" }
     ],
     answerId: "a",
-    explanation: "Planting, watering and green shoots are all about one thing: Bo grew plants. 'Bo baked a cake' is tempting because baking also has steps, but nothing in the lines is about cooking.",
+    explanation: "Planting, watering and green shoots are all about one thing: Bo grew plants. 'Bo bought seeds' is tempting because seeds are in the lines, but he planted them; buying is never mentioned.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -178,11 +178,11 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "the sun" },
       { id: "b", text: "the moon" },
-      { id: "c", text: "a shoe" },
-      { id: "d", text: "a spoon" }
+      { id: "c", text: "the stars" },
+      { id: "d", text: "the lamp" }
     ],
     answerId: "b",
-    explanation: "The sentence says the moon looks bright tonight. 'The sun' is tempting because the sun is bright too, but the sentence talks about the moon at night.",
+    explanation: "The sentence says the moon looks bright tonight. The stars are tempting because they also shine at night, but the sentence talks about the moon.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -203,12 +203,12 @@ const SET_A: PrepQuestion[] = [
     prompt: "Read: \"Aarav closed the tap to save water.\" Why did Aarav close the tap?",
     options: [
       { id: "a", text: "to waste water" },
-      { id: "b", text: "to make noise" },
-      { id: "c", text: "to cook rice" },
+      { id: "b", text: "to fill a bucket" },
+      { id: "c", text: "to drink water" },
       { id: "d", text: "to save water" }
     ],
     answerId: "d",
-    explanation: "The sentence says Aarav closed the tap to save water. 'To waste water' is the opposite: closing the tap stops water from running out.",
+    explanation: "The sentence says Aarav closed the tap to save water. 'To fill a bucket' is tempting because we use taps to fill buckets, but you open a tap for that; closing it stops the water.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];
@@ -231,13 +231,13 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q02",
     prompt: "Read: \"The ball rolled behind the sofa.\" Where is the ball?",
     options: [
-      { id: "a", text: "on the moon" },
+      { id: "a", text: "under the sofa" },
       { id: "b", text: "behind the sofa" },
-      { id: "c", text: "in the fridge" },
-      { id: "d", text: "under the sea" }
+      { id: "c", text: "behind the door" },
+      { id: "d", text: "on the sofa" }
     ],
     answerId: "b",
-    explanation: "The sentence says the ball rolled behind the sofa. 'In the fridge' is tempting because a fridge is also in the house, but the place word in the sentence is 'behind the sofa'.",
+    explanation: "The sentence says the ball rolled behind the sofa. 'Under the sofa' is tempting because it is also near the sofa, but the place word is 'behind'.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -257,13 +257,13 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q04",
     prompt: "Why do we use an umbrella?",
     options: [
-      { id: "a", text: "to dig soil" },
-      { id: "b", text: "to write sums" },
-      { id: "c", text: "to sleep" },
+      { id: "a", text: "to keep warm" },
+      { id: "b", text: "to carry things" },
+      { id: "c", text: "to cool food" },
       { id: "d", text: "to keep rain off" }
     ],
     answerId: "d",
-    explanation: "We use an umbrella to keep the rain off. 'To sleep' is tempting only if you think of shade, but an umbrella is held up to stay dry.",
+    explanation: "We use an umbrella to keep the rain off. 'To keep warm' is tempting because we hold it over us, but an umbrella does not warm us; a sweater does.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -309,13 +309,13 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q08",
     prompt: "Read: \"Bees fly from flower to flower.\" What do bees do?",
     options: [
-      { id: "a", text: "drive buses" },
-      { id: "b", text: "read books" },
-      { id: "c", text: "swim in ice" },
+      { id: "a", text: "stay in one flower" },
+      { id: "b", text: "eat leaves" },
+      { id: "c", text: "walk on the ground" },
       { id: "d", text: "fly to flowers" }
     ],
     answerId: "d",
-    explanation: "The sentence says bees fly from flower to flower. 'Read books' is tempting only because stories show talking bees, but the sentence is about flying.",
+    explanation: "The sentence says bees fly from flower to flower. 'Stay in one flower' is tempting because a bee does stop at each flower, but the sentence says it moves on from flower to flower.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -324,24 +324,24 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "Mina sorted waste" },
       { id: "b", text: "Mina cooked dinner" },
-      { id: "c", text: "Mina flew kites" },
-      { id: "d", text: "Mina slept" }
+      { id: "c", text: "Mina bought bins" },
+      { id: "d", text: "Mina cleaned her room" }
     ],
     answerId: "a",
-    explanation: "Every line is about putting waste into bins, so the main idea is that Mina sorted waste. 'Mina cooked dinner' is tempting because cooking makes waste, but the lines never mention cooking.",
+    explanation: "Every line is about putting waste into bins, so the main idea is that Mina sorted waste. 'Mina cleaned her room' is tempting because sorting waste is tidy work, but the lines never mention her room.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g2-eng-reading-b-q10",
     prompt: "Read: \"Look both ways before you cross.\" What should you do?",
     options: [
-      { id: "a", text: "run with eyes closed" },
+      { id: "a", text: "run across fast" },
       { id: "b", text: "look both ways" },
-      { id: "c", text: "sit on the road" },
-      { id: "d", text: "ignore cars" }
+      { id: "c", text: "wait for the bus" },
+      { id: "d", text: "look only left" }
     ],
     answerId: "b",
-    explanation: "The sentence tells us to look both ways before crossing. 'Ignore cars' is the opposite of the safety rule; we must watch for cars.",
+    explanation: "The sentence tells us to look both ways before crossing. 'Look only left' is tempting because it is part of looking, but the rule says both ways: left and right.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -400,13 +400,13 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q15",
     prompt: "Best title for a story about saving a street puppy?",
     options: [
-      { id: "a", text: "Rocket Science" },
-      { id: "b", text: "Deep Ocean" },
+      { id: "a", text: "The Lost Kitten" },
+      { id: "b", text: "A Day at the Zoo" },
       { id: "c", text: "A Puppy Needs Help" },
-      { id: "d", text: "Silent Stones" }
+      { id: "d", text: "My New Bicycle" }
     ],
     answerId: "c",
-    explanation: "'A Puppy Needs Help' fits a story about saving a street puppy. 'Silent Stones' is tempting only because it sounds like a story title, but it has nothing to do with a puppy.",
+    explanation: "'A Puppy Needs Help' fits a story about saving a street puppy. 'The Lost Kitten' is tempting because it is also about a pet in trouble, but the story is about a puppy.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -414,8 +414,8 @@ const SET_B: PrepQuestion[] = [
     prompt: "Read: \"Meera switched off lights to save power.\" Why switch off?",
     options: [
       { id: "a", text: "to waste power" },
-      { id: "b", text: "to break bulbs" },
-      { id: "c", text: "to hide" },
+      { id: "b", text: "to fix the bulbs" },
+      { id: "c", text: "to see the stars" },
       { id: "d", text: "to save power" }
     ],
     answerId: "d",

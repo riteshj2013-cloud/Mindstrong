@@ -100,6 +100,6 @@ export const G1_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g1-eng-reading-b-q12": ["Where do you sit at the table?", "A place to sit has four legs and a seat."],
   "g1-eng-reading-b-q13": ["Look at the drops in the picture. They are wet.", "What falls from grey clouds?"],
   "g1-eng-reading-b-q14": ["Find the words after \"Fish swim\".", "Read the sentence again: fish swim in it."],
-  "g1-eng-reading-b-q15": ["Which thing do we read? It has pages, unlike a brick.", "Pages and words fill the thing we read, not a boat."],
+  "g1-eng-reading-b-q15": ["Which thing has pages with words and pictures on them?", "Think of what you open in a reading class."],
   "g1-eng-reading-b-q16": ["Find the feeling word after \"Winter feels\".", "Look at the last word of \"Winter feels ___.\""],
 };

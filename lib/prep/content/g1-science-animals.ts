@@ -60,12 +60,12 @@ const SET_A: PrepQuestion[] = [
     prompt: "Dogs are often kept as\u2026",
     options: [
       { id: "a", text: "pets" },
-      { id: "b", text: "cars" },
-      { id: "c", text: "plants" },
-      { id: "d", text: "shoes" }
+      { id: "b", text: "wild animals" },
+      { id: "c", text: "zoo animals" },
+      { id: "d", text: "sea animals" }
     ],
     answerId: "a",
-    explanation: "Dogs are often kept as pets at home. Plants are kept at home too, but a dog is an animal, not a plant.",
+    explanation: "Dogs are often kept at home as pets. 'Wild animals' is tempting because some dogs live on the streets, but dogs are tame animals that live with people.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -140,23 +140,23 @@ const SET_A: PrepQuestion[] = [
       { id: "a", text: "milk" },
       { id: "b", text: "wool" },
       { id: "c", text: "honey" },
-      { id: "d", text: "bread" }
+      { id: "d", text: "silk" }
     ],
     answerId: "c",
-    explanation: "Bees make honey from flower nectar. Milk is tempting because it is a food we get from animals, but milk comes from cows.",
+    explanation: "Bees make honey from flower nectar. Silk is tempting because it is also made by a tiny creature, but silk comes from silkworms, not bees.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g1-sci-animals-a-q12",
     prompt: "An elephant has a long\u2026",
     options: [
-      { id: "a", text: "fin" },
+      { id: "a", text: "neck" },
       { id: "b", text: "beak" },
-      { id: "c", text: "shell" },
+      { id: "c", text: "horn" },
       { id: "d", text: "trunk" }
     ],
     answerId: "d",
-    explanation: "An elephant has a long trunk. A beak is tempting because it is also a long nose-like part, but beaks belong to birds.",
+    explanation: "An elephant has a long trunk, which is its nose. A long neck is tempting because the giraffe is another very big animal, but it is the giraffe that has a long neck.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -244,13 +244,13 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q03",
     prompt: "A horse can\u2026",
     options: [
-      { id: "a", text: "swim like a fish" },
-      { id: "b", text: "fly with wings" },
+      { id: "a", text: "climb trees" },
+      { id: "b", text: "live under water" },
       { id: "c", text: "run fast" },
       { id: "d", text: "lay eggs like a hen" }
     ],
     answerId: "c",
-    explanation: "A horse can run fast. 'Lay eggs like a hen' is tempting because both are farm animals, but horses give birth to foals.",
+    explanation: "A horse can run fast on its strong legs. 'Climb trees' is tempting because monkeys and cats can, but a horse has hooves and cannot climb.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -271,21 +271,21 @@ const SET_B: PrepQuestion[] = [
     prompt: "Cows eat\u2026",
     options: [
       { id: "a", text: "grass" },
-      { id: "b", text: "stones" },
-      { id: "c", text: "plastic" },
-      { id: "d", text: "metal" }
+      { id: "b", text: "meat" },
+      { id: "c", text: "fish" },
+      { id: "d", text: "insects" }
     ],
     answerId: "a",
-    explanation: "Cows eat grass. Plastic is tempting because stray cows sometimes chew bags, but plastic makes them very sick; it is not their food.",
+    explanation: "Cows eat grass and other plants. Meat is tempting if you think of big animals like lions, but cows eat only plants.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g1-sci-animals-b-q06",
     prompt: "A tiger has\u2026",
     options: [
-      { id: "a", text: "a trunk" },
+      { id: "a", text: "a mane" },
       { id: "b", text: "stripes" },
-      { id: "c", text: "feathers" },
+      { id: "c", text: "a hump" },
       { id: "d", text: "spots" }
     ],
     answerId: "b",
@@ -335,13 +335,13 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q10",
     prompt: "Which animal has a pouch?",
     options: [
-      { id: "a", text: "fish" },
+      { id: "a", text: "camel" },
       { id: "b", text: "kangaroo" },
-      { id: "c", text: "eagle" },
-      { id: "d", text: "ant" }
+      { id: "c", text: "elephant" },
+      { id: "d", text: "monkey" }
     ],
     answerId: "b",
-    explanation: "A kangaroo carries its baby in a pouch. An eagle is tempting because it also carries food for its young, but it uses its claws, not a pouch.",
+    explanation: "A kangaroo carries its baby in a pouch on its tummy. A monkey is tempting because a baby monkey holds on to its mother's tummy, but a monkey has no pouch.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -349,7 +349,7 @@ const SET_B: PrepQuestion[] = [
     prompt: "Snakes\u2026",
     options: [
       { id: "a", text: "have six legs" },
-      { id: "b", text: "have wings" },
+      { id: "b", text: "have two legs" },
       { id: "c", text: "have no legs" },
       { id: "d", text: "have four legs" }
     ],
@@ -375,12 +375,12 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which animal is used to pull a cart?",
     options: [
       { id: "a", text: "bullock / ox" },
-      { id: "b", text: "butterfly" },
-      { id: "c", text: "goldfish" },
-      { id: "d", text: "sparrow" }
+      { id: "b", text: "deer" },
+      { id: "c", text: "cat" },
+      { id: "d", text: "rabbit" }
     ],
     answerId: "a",
-    explanation: "A bullock, or ox, is strong and is used to pull carts. A sparrow is tempting because birds carry twigs, but it is far too small to pull a cart.",
+    explanation: "A bullock (ox) is strong and is used to pull carts. A deer is tempting because it is also big with four legs, but it is a wild animal and is not trained to pull carts.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -389,11 +389,11 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "bark" },
       { id: "b", text: "drink milk" },
-      { id: "c", text: "moo" },
-      { id: "d", text: "quack" }
+      { id: "c", text: "eat grass" },
+      { id: "d", text: "lay eggs" }
     ],
     answerId: "b",
-    explanation: "Cats like to drink milk. Bark is tempting because dogs are pets like cats, but barking is what dogs do.",
+    explanation: "Cats like to drink milk. 'Bark' is tempting because dogs are pets like cats, but barking is what dogs do.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -413,13 +413,13 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q16",
     prompt: "Which is an insect?",
     options: [
-      { id: "a", text: "cow" },
-      { id: "b", text: "elephant" },
-      { id: "c", text: "whale" },
+      { id: "a", text: "spider" },
+      { id: "b", text: "snail" },
+      { id: "c", text: "earthworm" },
       { id: "d", text: "butterfly" }
     ],
     answerId: "d",
-    explanation: "A butterfly is an insect with six legs. A whale is tempting because it is an animal too, but it is a huge sea mammal, not an insect.",
+    explanation: "A butterfly is an insect: it has six legs. A spider is tempting because it is small and crawly, but a spider has eight legs, so it is not an insect.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];

@@ -34,12 +34,12 @@ const SET_A: PrepQuestion[] = [
     prompt: "Roots grow mostly\u2026",
     options: [
       { id: "a", text: "above the soil" },
-      { id: "b", text: "in the sky" },
+      { id: "b", text: "in the air" },
       { id: "c", text: "under the soil" },
-      { id: "d", text: "in shoes" }
+      { id: "d", text: "inside the stem" }
     ],
     answerId: "c",
-    explanation: "Roots grow mostly under the soil. 'Above the soil' is tempting because a few plants show some roots, but most roots stay underground.",
+    explanation: "Roots grow mostly under the soil, where they hold the plant and take in water. 'In the air' is tempting because a few plants like the banyan have hanging roots, but most roots grow underground.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -72,13 +72,13 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-plants-a-q06",
     prompt: "The stem carries ___ up to the leaves.",
     options: [
-      { id: "a", text: "stones" },
+      { id: "a", text: "sunlight" },
       { id: "b", text: "water" },
-      { id: "c", text: "toys" },
-      { id: "d", text: "books" }
+      { id: "c", text: "soil" },
+      { id: "d", text: "seeds" }
     ],
     answerId: "b",
-    explanation: "The stem carries water up from the roots to the leaves. Stones are tempting because they are in the soil, but a stem carries only water and food.",
+    explanation: "The stem carries water from the roots up to the leaves. Sunlight is tempting because leaves need it, but sunlight falls straight on the leaves; it does not travel up the stem.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -98,13 +98,13 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-plants-a-q08",
     prompt: "A climber plant needs\u2026",
     options: [
-      { id: "a", text: "wheels" },
-      { id: "b", text: "batteries" },
-      { id: "c", text: "screens" },
+      { id: "a", text: "salt water" },
+      { id: "b", text: "no sunlight" },
+      { id: "c", text: "a desert" },
       { id: "d", text: "support" }
     ],
     answerId: "d",
-    explanation: "A climber plant needs support, like a wall or stick, to grow upwards. Wheels and batteries are things machines need, not plants.",
+    explanation: "A climber has a weak stem, so it needs support like a wall, stick or tree to grow upwards. 'No sunlight' is tempting because some plants grow in shade, but climbers grow up towards the sunlight.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -231,13 +231,13 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-plants-b-q02",
     prompt: "Flowers attract insects with\u2026",
     options: [
-      { id: "a", text: "noise machines" },
+      { id: "a", text: "loud sounds" },
       { id: "b", text: "colour and smell" },
-      { id: "c", text: "plastic toys" },
-      { id: "d", text: "metal" }
+      { id: "c", text: "sharp thorns" },
+      { id: "d", text: "sticky leaves" }
     ],
     answerId: "b",
-    explanation: "Flowers attract insects with bright colour and sweet smell. Noise machines are tempting if you think sound calls insects, but flowers make no sound.",
+    explanation: "Flowers attract insects with bright colours and sweet smells. Sharp thorns are tempting because roses have them, but thorns keep animals away; they do not attract insects.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -283,13 +283,13 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-plants-b-q06",
     prompt: "Plants need air, water and\u2026",
     options: [
-      { id: "a", text: "TV" },
+      { id: "a", text: "salt" },
       { id: "b", text: "sunlight" },
-      { id: "c", text: "phones" },
-      { id: "d", text: "petrol" }
+      { id: "c", text: "darkness" },
+      { id: "d", text: "sugar" }
     ],
     answerId: "b",
-    explanation: "Plants need air, water and sunlight. Petrol is tempting because machines need it to run, but plants get energy from the sun.",
+    explanation: "Plants need air, water and sunlight. Darkness is tempting because seeds sprout under the soil, but a growing plant needs light to make its food.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -323,7 +323,7 @@ const SET_B: PrepQuestion[] = [
     prompt: "Trees help us by giving\u2026",
     options: [
       { id: "a", text: "shade and air" },
-      { id: "b", text: "noise" },
+      { id: "b", text: "dust" },
       { id: "c", text: "smoke" },
       { id: "d", text: "plastic" }
     ],
@@ -335,13 +335,13 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-plants-b-q10",
     prompt: "Germination means a seed\u2026",
     options: [
-      { id: "a", text: "turns to metal" },
+      { id: "a", text: "dries up" },
       { id: "b", text: "starts to grow" },
-      { id: "c", text: "flies to space" },
-      { id: "d", text: "becomes a fish" }
+      { id: "c", text: "rots away" },
+      { id: "d", text: "is planted" }
     ],
     answerId: "b",
-    explanation: "Germination means a seed starts to grow: a tiny root pushes down and a shoot pushes up. 'Turns to metal' and 'becomes a fish' can never happen, because a seed always grows into a plant.",
+    explanation: "Germination means a seed starts to grow: a tiny root goes down and a shoot comes up. 'Is planted' is tempting because planting comes first, but putting a seed in the soil is not germination; germination is when it starts growing.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -375,51 +375,51 @@ const SET_B: PrepQuestion[] = [
     prompt: "Farmers grow plants for\u2026",
     options: [
       { id: "a", text: "food" },
-      { id: "b", text: "noise" },
+      { id: "b", text: "smoke" },
       { id: "c", text: "dust" },
       { id: "d", text: "plastic" }
     ],
     answerId: "a",
-    explanation: "Farmers grow plants for food. Dust is tempting because farm fields are dusty, but dust is not what farmers grow.",
+    explanation: "Farmers grow plants such as wheat, rice and vegetables for food. Smoke is tempting if you think of farm fires, but farmers do not grow plants to make smoke.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g2-sci-plants-b-q14",
     prompt: "Fallen leaves can become\u2026",
     options: [
-      { id: "a", text: "glass" },
+      { id: "a", text: "stones" },
       { id: "b", text: "compost over time" },
-      { id: "c", text: "metal" },
-      { id: "d", text: "plastic" }
+      { id: "c", text: "sand" },
+      { id: "d", text: "seeds" }
     ],
     answerId: "b",
-    explanation: "Fallen leaves slowly break down into compost that feeds the soil. Glass is tempting because dry leaves crackle, but leaves rot; they never turn into glass.",
+    explanation: "Fallen leaves slowly rot and become compost that feeds the soil. 'Seeds' is tempting because both fall from plants, but seeds come from fruits; leaves do not turn into seeds.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g2-sci-plants-b-q15",
     prompt: "A tendril helps a plant to\u2026",
     options: [
-      { id: "a", text: "swim" },
-      { id: "b", text: "bark" },
+      { id: "a", text: "store water" },
+      { id: "b", text: "make seeds" },
       { id: "c", text: "climb" },
-      { id: "d", text: "fly planes" }
+      { id: "d", text: "drink water" }
     ],
     answerId: "c",
-    explanation: "A tendril is a thin curly part that wraps around a support to help a plant climb. 'Swim' is tempting if you think of water plants, but tendrils hold on, they do not swim.",
+    explanation: "A tendril is a thin curly part that wraps around a support so the plant can climb. 'Drink water' is tempting because it is thin like a root, but roots take in water; tendrils hold on.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g2-sci-plants-b-q16",
     prompt: "Without sunlight for long, a green plant may\u2026",
     options: [
-      { id: "a", text: "turn into a car" },
-      { id: "b", text: "start singing" },
-      { id: "c", text: "become a fish" },
+      { id: "a", text: "grow greener" },
+      { id: "b", text: "make more food" },
+      { id: "c", text: "grow bigger leaves" },
       { id: "d", text: "become weak" }
     ],
     answerId: "d",
-    explanation: "Without sunlight for a long time, a green plant cannot make food, so it becomes weak. A plant can never turn into a car, start singing or become a fish.",
+    explanation: "Without sunlight, a green plant cannot make food, so it becomes weak and pale. 'Make more food' is tempting if you think rest helps, but leaves need sunlight to make food, so without it the plant makes less and grows weak.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];

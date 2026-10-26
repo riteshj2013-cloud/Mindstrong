@@ -46,13 +46,13 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-words-a-q04",
     prompt: "Complete: as busy as a\u2026",
     options: [
-      { id: "a", text: "stone" },
-      { id: "b", text: "pillow" },
-      { id: "c", text: "cloud" },
+      { id: "a", text: "snail" },
+      { id: "b", text: "cat" },
+      { id: "c", text: "owl" },
       { id: "d", text: "bee" }
     ],
     answerId: "d",
-    explanation: "We say 'as busy as a bee' because bees work all day. 'Cloud' is tempting because clouds move about, but they are not known for being busy.",
+    explanation: "The saying is 'as busy as a bee', because bees work all day. 'Snail' is tempting because it is also a small creature, but a snail is known for being slow, not busy.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -348,13 +348,13 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-words-b-q11",
     prompt: "A place to buy food and things?",
     options: [
-      { id: "a", text: "pillow" },
-      { id: "b", text: "cloud" },
+      { id: "a", text: "library" },
+      { id: "b", text: "hospital" },
       { id: "c", text: "market" },
-      { id: "d", text: "dream" }
+      { id: "d", text: "school" }
     ],
     answerId: "c",
-    explanation: "A market is a place to buy food and things. 'Pillow' is tempting because we buy pillows at a market, but a pillow is a thing, not a place.",
+    explanation: "A market is a place to buy food and things. 'Library' is tempting because we get books there, but we borrow books from a library; we do not buy them.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
