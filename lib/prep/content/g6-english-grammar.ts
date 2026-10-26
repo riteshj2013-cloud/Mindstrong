@@ -325,7 +325,7 @@ const SET_B: PrepQuestion[] = [
       { id: "a", text: "live" },
       { id: "b", text: "lives" },
       { id: "c", text: "living" },
-      { id: "d", text: "lived always only" }
+      { id: "d", text: "is living" }
     ],
     answerId: "a",
     explanation: "Friends is plural → live.",

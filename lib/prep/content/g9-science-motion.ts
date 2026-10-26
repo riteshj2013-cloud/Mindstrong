@@ -101,7 +101,7 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "total distance / time" },
       { id: "b", text: "speed × time" },
-      { id: "c", text: "acceleration × time only always" },
+      { id: "c", text: "acceleration × time" },
       { id: "d", text: "displacement / total time" }
     ],
     answerId: "d",

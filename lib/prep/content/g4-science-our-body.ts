@@ -556,10 +556,10 @@ const SET_B: PrepQuestion[] = [
     id: "g4-sci-body-b-q19",
     prompt: "If smoke smells strong in the kitchen, your ______ sense warns you first.",
     options: [
-      { id: "a", text: "Sight only always" },
+      { id: "a", text: "Sight" },
       { id: "b", text: "Taste of sugar" },
       { id: "c", text: "Smell" },
-      { id: "d", text: "Hearing of colours" }
+      { id: "d", text: "Hearing" }
     ],
     answerId: "c",
     explanation: "The nose detects smells such as smoke and can warn of danger.",

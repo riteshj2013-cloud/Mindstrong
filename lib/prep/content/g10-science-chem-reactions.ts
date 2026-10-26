@@ -361,9 +361,9 @@ const SET_B: PrepQuestion[] = [
     id: "g10-sci-chem-b-q04",
     prompt: "Corrosion of copper in moist air forms a green coating of \u2014",
     options: [
-      { id: "a", text: "pure copper oxide black only always" },
+      { id: "a", text: "black copper oxide" },
       { id: "b", text: "basic copper carbonate" },
-      { id: "c", text: "copper sulphate only" },
+      { id: "c", text: "copper sulphate" },
       { id: "d", text: "copper metal" }
     ],
     answerId: "b",

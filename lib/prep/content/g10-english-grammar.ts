@@ -280,20 +280,20 @@ const SET_A: PrepQuestion[] = [
     id: "g10-eng-ch02-a-q22",
     prompt: "Linker: She was tired; ____, she finished the race.",
     options: [
-      { id: "a", text: "moreover only adding same idea wrongly" },
+      { id: "a", text: "moreover" },
       { id: "b", text: "however" },
       { id: "c", text: "for example" },
-      { id: "d", text: "therefore meaning because tired" }
+      { id: "d", text: "therefore" }
     ],
     answerId: "b",
-    explanation: "However shows contrast despite tiredness.",
+    explanation: "'However' shows a contrast: she was tired, but she still finished. 'Therefore' is tempting because it is also a linker, but it shows a result, and finishing the race is not a result of being tired.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
     id: "g10-eng-ch02-a-q23",
     prompt: "Infinitive of purpose: He went to the shop ____ milk.",
     options: [
-      { id: "a", text: "buying for to" },
+      { id: "a", text: "for buying" },
       { id: "b", text: "for buy" },
       { id: "c", text: "buy" },
       { id: "d", text: "to buy" }
@@ -308,7 +308,7 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "were" },
       { id: "b", text: "has" },
-      { id: "c", text: "was always only" },
+      { id: "c", text: "was" },
       { id: "d", text: "is" }
     ],
     answerId: "a",
@@ -322,7 +322,7 @@ const SET_B: PrepQuestion[] = [
     id: "g10-eng-ch02-b-q01",
     prompt: "Tense: \"I had left before she arrived\" is \u2014",
     options: [
-      { id: "a", text: "past continuous only" },
+      { id: "a", text: "past continuous" },
       { id: "b", text: "future perfect" },
       { id: "c", text: "present perfect" },
       { id: "d", text: "past perfect + simple past" }
@@ -361,7 +361,7 @@ const SET_B: PrepQuestion[] = [
     id: "g10-eng-ch02-b-q04",
     prompt: "Relative: This is the book ____ I told you about.",
     options: [
-      { id: "a", text: "whom book" },
+      { id: "a", text: "whom" },
       { id: "b", text: "that / which" },
       { id: "c", text: "who" },
       { id: "d", text: "whose" }
@@ -429,7 +429,7 @@ const SET_B: PrepQuestion[] = [
       { id: "a", text: "called off" },
       { id: "b", text: "called on" },
       { id: "c", text: "put up" },
-      { id: "d", text: "called in wrongly for cancel" }
+      { id: "d", text: "called in" }
     ],
     answerId: "a",
     explanation: "Call off = cancel.",
@@ -439,9 +439,9 @@ const SET_B: PrepQuestion[] = [
     id: "g10-eng-ch02-b-q10",
     prompt: "Concord: Either the teacher or the students ____ to speak.",
     options: [
-      { id: "a", text: "was only" },
+      { id: "a", text: "was" },
       { id: "b", text: "is" },
-      { id: "c", text: "has always" },
+      { id: "c", text: "has" },
       { id: "d", text: "have" }
     ],
     answerId: "d",
@@ -467,11 +467,11 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "beauty" },
       { id: "b", text: "beautifully" },
-      { id: "c", text: "more beautiful song as adverb" },
+      { id: "c", text: "more beautiful" },
       { id: "d", text: "beautiful" }
     ],
     answerId: "b",
-    explanation: "Modify verb sang with adverb beautifully.",
+    explanation: "An adverb describes the verb sang, so 'beautifully'. 'Beautiful' is tempting, but it is an adjective and can only describe a noun.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -479,8 +479,8 @@ const SET_B: PrepQuestion[] = [
     prompt: "Preposition: He congratulated me ____ my success.",
     options: [
       { id: "a", text: "on" },
-      { id: "b", text: "about only always" },
-      { id: "c", text: "for at" },
+      { id: "b", text: "about" },
+      { id: "c", text: "at" },
       { id: "d", text: "with" }
     ],
     answerId: "a",
@@ -493,7 +493,7 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "who" },
       { id: "b", text: "what" },
-      { id: "c", text: "whom solved wrongly" },
+      { id: "c", text: "whom" },
       { id: "d", text: "which" }
     ],
     answerId: "a",
@@ -517,13 +517,13 @@ const SET_B: PrepQuestion[] = [
     id: "g10-eng-ch02-b-q16",
     prompt: "Gerund vs infinitive: He stopped ____ to the radio. (ceased the activity)",
     options: [
-      { id: "a", text: "to listen meaning interrupt to then listen" },
+      { id: "a", text: "to listen" },
       { id: "b", text: "listening" },
       { id: "c", text: "listened" },
       { id: "d", text: "listen" }
     ],
     answerId: "b",
-    explanation: "Stop + gerund = quit that activity.",
+    explanation: "Stop + gerund means quitting that activity, so 'stopped listening'. 'To listen' is tempting, but stop + to-infinitive means stopping something else in order to listen, which is not what the brackets say.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -595,7 +595,7 @@ const SET_B: PrepQuestion[] = [
     id: "g10-eng-ch02-b-q22",
     prompt: "Choose connector: He is rich; ____ he is not happy.",
     options: [
-      { id: "a", text: "therefore only" },
+      { id: "a", text: "therefore" },
       { id: "b", text: "so" },
       { id: "c", text: "yet / still / however" },
       { id: "d", text: "because" }
@@ -611,7 +611,7 @@ const SET_B: PrepQuestion[] = [
       { id: "a", text: "worked" },
       { id: "b", text: "that work" },
       { id: "c", text: "to work" },
-      { id: "d", text: "for work working" }
+      { id: "d", text: "for working" }
     ],
     answerId: "c",
     explanation: "too + adj + to-infinitive.",

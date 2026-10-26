@@ -622,8 +622,8 @@ const SET_B: PrepQuestion[] = [
     prompt: "Best word: She spoke with great ____.",
     options: [
       { id: "a", text: "clarify" },
-      { id: "b", text: "clearly as noun" },
-      { id: "c", text: "clearance only" },
+      { id: "b", text: "clearly" },
+      { id: "c", text: "clearance" },
       { id: "d", text: "clarity" }
     ],
     answerId: "d",

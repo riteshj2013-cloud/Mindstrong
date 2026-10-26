@@ -62,10 +62,10 @@ const SET_A: PrepQuestion[] = [
       { id: "a", text: "100 \u00b0C" },
       { id: "b", text: "0 \u00b0C" },
       { id: "c", text: "50 \u00b0C" },
-      { id: "d", text: "212 \u00b0C as Celsius" }
+      { id: "d", text: "212 °C" }
     ],
     answerId: "a",
-    explanation: "Pure water boils at 100 \u00b0C at standard pressure.",
+    explanation: "Pure water boils at 100 °C at standard pressure. 212 is tempting because it is the boiling point of water on the Fahrenheit scale (212 °F), not the Celsius scale.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -127,7 +127,7 @@ const SET_A: PrepQuestion[] = [
       { id: "a", text: "Poor" },
       { id: "b", text: "Good" },
       { id: "c", text: "Non" },
-      { id: "d", text: "Variable as insulators always" }
+      { id: "d", text: "Average" }
     ],
     answerId: "b",
     explanation: "Metals conduct heat well.",
@@ -348,8 +348,8 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-heat-b-q03",
     prompt: "We feel heat from a fire even to the side mainly by\u2026",
     options: [
-      { id: "a", text: "Only conduction through air as a solid" },
-      { id: "b", text: "Only convection downward always" },
+      { id: "a", text: "Conduction through the air" },
+      { id: "b", text: "Convection currents in the air" },
       { id: "c", text: "Radiation" },
       { id: "d", text: "Magnetism" }
     ],

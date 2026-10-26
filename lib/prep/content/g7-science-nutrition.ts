@@ -545,11 +545,11 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "Produces green paint" },
       { id: "b", text: "Reflects green light more than it absorbs it" },
-      { id: "c", text: "Absorbs only green and reflects all else always wrongly stated" },
+      { id: "c", text: "Absorbs green light and reflects all other colours" },
       { id: "d", text: "Turns into iodine" }
     ],
     answerId: "b",
-    explanation: "Chlorophyll absorbs other wavelengths more and reflects green.",
+    explanation: "Chlorophyll absorbs red and blue light strongly and reflects much of the green, so leaves look green. 'Absorbs green light' is tempting, but it is the reverse: the colour we see is the light that is reflected, not absorbed.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

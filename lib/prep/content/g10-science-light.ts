@@ -349,9 +349,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Rays parallel to the principal axis of a concave mirror reflect through \u2014",
     options: [
       { id: "a", text: "the pole only" },
-      { id: "b", text: "the centre of curvature always only" },
+      { id: "b", text: "the centre of curvature" },
       { id: "c", text: "the focus" },
-      { id: "d", text: "infinity always after" }
+      { id: "d", text: "a point beyond the centre of curvature" }
     ],
     answerId: "c",
     explanation: "Definition of principal focus for a concave mirror.",
@@ -375,7 +375,7 @@ const SET_B: PrepQuestion[] = [
     prompt: "Relative refractive index of medium 2 w.r.t. 1 is \u2014",
     options: [
       { id: "a", text: "c" },
-      { id: "b", text: "n\u2081/n\u2082 only always smaller" },
+      { id: "b", text: "n₁/n₂" },
       { id: "c", text: "n\u2082/n\u2081" },
       { id: "d", text: "n\u2081\u00d7n\u2082" }
     ],
@@ -441,7 +441,7 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "concave lens" },
       { id: "b", text: "plane mirror" },
-      { id: "c", text: "cylindrical only always" },
+      { id: "c", text: "cylindrical lens" },
       { id: "d", text: "convex lens" }
     ],
     answerId: "a",
