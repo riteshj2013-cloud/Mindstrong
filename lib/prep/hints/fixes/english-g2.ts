@@ -56,7 +56,7 @@ export const G2_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g2-eng-reading-b-q01": ["Find the animal word in the sentence about Sara.", "Look at the word right after \"feeds the\"."],
   "g2-eng-reading-b-q02": ["Find the place words in the sentence about the ball.", "Look at the words after \"rolled\"."],
   "g2-eng-reading-b-q03": ["Find the action word after \"Neha\".", "Neha was polite to the shopkeeper — what polite thing did she say?"],
-  "g2-eng-reading-b-q04": ["An umbrella is used in wet weather.", "Do we use an umbrella to dig or write, or to stay dry?"],
+  "g2-eng-reading-b-q04": ["An umbrella is used in wet weather.", "Think of what falls from the sky on a monsoon day."],
   "g2-eng-reading-b-q05": ["Find the time words in the sentence about Papa.", "Look at the words after \"reads the newspaper\"."],
   "g2-eng-reading-b-q06": ["The word \"so\" joins the reason to what they did.", "Read the part before \"so we went inside\"."],
   "g2-eng-reading-b-q07": ["Sharing means giving some of what you have.", "Hiding or throwing snacks is not sharing; who gives part of a snack away?"],
@@ -102,4 +102,5 @@ export const G2_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g2-eng-words-b-q16": ["Homophones sound the same but mean different things, like \"sea\".", "Say each word aloud. Which one sounds exactly like \"sea\" but is spelt differently?"],
   // Pass 4 (2026-10-19): hint-rules-out / hint-partial-quote rewrites for items not already in this file
   "g2-eng-grammar-b-q12": ["Think of asking about the time a bus comes.", "Ask \"___ does the bus come?\" Which word asks about a time?"],
+  "g2-eng-reading-a-q14": ["Read the sentence again. Which word comes just before \"looks bright\"?", "The sentence names one thing we see in the night sky."],
 };

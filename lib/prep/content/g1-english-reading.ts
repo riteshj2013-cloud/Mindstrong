@@ -24,7 +24,7 @@ const SET_A: PrepQuestion[] = [
       { id: "a", text: "in a box" },
       { id: "b", text: "on the mat" },
       { id: "c", text: "under a car" },
-      { id: "d", text: "in water" }
+      { id: "d", text: "on the bed" }
     ],
     answerId: "b",
     explanation: "The sentence says the cat is on the mat. 'In a box' is tempting because cats like boxes, but the sentence says mat.",
@@ -62,7 +62,7 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "moon" },
       { id: "b", text: "sun" },
-      { id: "c", text: "school bus" },
+      { id: "c", text: "kites" },
       { id: "d", text: "rainbow" }
     ],
     answerId: "a",
@@ -99,13 +99,13 @@ const SET_A: PrepQuestion[] = [
     id: "g1-eng-reading-a-q08",
     prompt: "When do we use an umbrella?",
     options: [
-      { id: "a", text: "to eat" },
-      { id: "b", text: "to sleep" },
-      { id: "c", text: "to swim" },
+      { id: "a", text: "at mealtime" },
+      { id: "b", text: "at bedtime" },
+      { id: "c", text: "in the bath" },
       { id: "d", text: "in the rain" }
     ],
     answerId: "d",
-    explanation: "We use an umbrella in the rain. 'To swim' is tempting because both rain and swimming are about water, but we do not carry an umbrella to swim.",
+    explanation: "We use an umbrella in the rain to stay dry. 'In the bath' is tempting because both are about water, but in the bath we want to get wet; an umbrella keeps rain off.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -125,13 +125,13 @@ const SET_A: PrepQuestion[] = [
     id: "g1-eng-reading-a-q10",
     prompt: "We drink\u2026",
     options: [
-      { id: "a", text: "stones" },
+      { id: "a", text: "oil" },
       { id: "b", text: "water" },
-      { id: "c", text: "sand" },
-      { id: "d", text: "smoke" }
+      { id: "c", text: "ink" },
+      { id: "d", text: "soapy water" }
     ],
     answerId: "b",
-    explanation: "We drink water. Smoke is tempting because it moves like a liquid in the air, but smoke is harmful and cannot be drunk.",
+    explanation: "We drink water. Oil is tempting because it is a liquid like water, but oil is for cooking, not for drinking.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -151,13 +151,13 @@ const SET_A: PrepQuestion[] = [
     id: "g1-eng-reading-a-q12",
     prompt: "Which is a place to sleep?",
     options: [
-      { id: "a", text: "spoon" },
-      { id: "b", text: "ball" },
-      { id: "c", text: "pen" },
+      { id: "a", text: "table" },
+      { id: "b", text: "kitchen" },
+      { id: "c", text: "bathroom" },
       { id: "d", text: "bed" }
     ],
     answerId: "d",
-    explanation: "A bed is a place to sleep. A ball is tempting because it is soft and round, but we play with a ball; we sleep on a bed.",
+    explanation: "A bed is a place to sleep. A table is tempting because it is flat and in the house, but we eat and write at a table; we sleep on a bed.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -165,12 +165,12 @@ const SET_A: PrepQuestion[] = [
     prompt: "Look at the picture. Where do children carry this bag every morning?",
     options: [
       { id: "a", text: "to school" },
-      { id: "b", text: "to the moon" },
-      { id: "c", text: "into the sea" },
-      { id: "d", text: "under soil" }
+      { id: "b", text: "to the market" },
+      { id: "c", text: "to the park" },
+      { id: "d", text: "to the doctor" }
     ],
     answerId: "a",
-    explanation: "Children carry a school bag to school every morning. To the moon is tempting because it sounds exciting, but nobody takes a school bag to the moon, into the sea or under the soil.",
+    explanation: "Children carry a school bag to school every morning. 'To the market' is tempting because people carry bags there too, but this is a school bag for books.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
     figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" width=\"320\" height=\"220\" role=\"img\" aria-label=\"A blue backpack with two shoulder straps, a front pocket and a top handle.\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" rx=\"16\" fill=\"#f4fbff\"/><path d=\"M 140 52 Q 160 26 180 52\" fill=\"none\" stroke=\"#1e3a8a\" stroke-width=\"8\" stroke-linecap=\"round\"/><rect x=\"104\" y=\"50\" width=\"112\" height=\"140\" rx=\"26\" fill=\"#3b82f6\" stroke=\"#1e3a8a\" stroke-width=\"4\"/><rect x=\"124\" y=\"120\" width=\"72\" height=\"50\" rx=\"10\" fill=\"#60a5fa\" stroke=\"#1e3a8a\" stroke-width=\"3\"/><line x1=\"124\" y1=\"136\" x2=\"196\" y2=\"136\" stroke=\"#1e3a8a\" stroke-width=\"3\"/><rect x=\"90\" y=\"70\" width=\"14\" height=\"100\" rx=\"7\" fill=\"#1e40af\"/><rect x=\"216\" y=\"70\" width=\"14\" height=\"100\" rx=\"7\" fill=\"#1e40af\"/><circle cx=\"160\" cy=\"80\" r=\"5\" fill=\"#fde047\"/></svg>", "alt": "A blue backpack with two shoulder straps, a front pocket and a top handle."}
   },
@@ -178,26 +178,26 @@ const SET_A: PrepQuestion[] = [
     id: "g1-eng-reading-a-q14",
     prompt: "Read: \"Birds live in nests.\" Where do birds live?",
     options: [
-      { id: "a", text: "cars" },
+      { id: "a", text: "caves" },
       { id: "b", text: "nests" },
-      { id: "c", text: "cups" },
-      { id: "d", text: "shoes" }
+      { id: "c", text: "burrows" },
+      { id: "d", text: "hives" }
     ],
     answerId: "b",
-    explanation: "The sentence says birds live in nests. Cups are tempting because a nest is round like a cup, but the sentence says nests.",
+    explanation: "The sentence says birds live in nests. Burrows are tempting because they are animal homes too, but rabbits live in burrows; the sentence says nests.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g1-eng-reading-a-q15",
     prompt: "We write with a\u2026",
     options: [
-      { id: "a", text: "shoe" },
-      { id: "b", text: "plate" },
+      { id: "a", text: "spoon" },
+      { id: "b", text: "ruler" },
       { id: "c", text: "pencil" },
-      { id: "d", text: "chair" }
+      { id: "d", text: "eraser" }
     ],
     answerId: "c",
-    explanation: "We write with a pencil. A plate is tempting because it is flat like paper, but we eat from a plate.",
+    explanation: "We write with a pencil. An eraser is tempting because we use it with a pencil, but an eraser rubs out writing; it does not write.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -312,13 +312,13 @@ const SET_B: PrepQuestion[] = [
     id: "g1-eng-reading-b-q08",
     prompt: "What do we use a toothbrush for?",
     options: [
-      { id: "a", text: "to cut paper" },
-      { id: "b", text: "to kick a ball" },
-      { id: "c", text: "to cook rice" },
+      { id: "a", text: "to comb hair" },
+      { id: "b", text: "to write" },
+      { id: "c", text: "to eat food" },
       { id: "d", text: "to brush teeth" }
     ],
     answerId: "d",
-    explanation: "We use a toothbrush to brush our teeth. 'To cut paper' is tempting because a toothbrush is held in the hand like scissors, but it has soft bristles for cleaning teeth.",
+    explanation: "We use a toothbrush to brush our teeth. 'To comb hair' is tempting because a toothbrush has bristles like a hairbrush, but we use a comb or hairbrush for hair.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -326,51 +326,51 @@ const SET_B: PrepQuestion[] = [
     prompt: "Read: \"Mira hops.\" What does Mira do?",
     options: [
       { id: "a", text: "hops" },
-      { id: "b", text: "flies a plane" },
-      { id: "c", text: "drives" },
-      { id: "d", text: "swims in space" }
+      { id: "b", text: "runs" },
+      { id: "c", text: "sits" },
+      { id: "d", text: "sleeps" }
     ],
     answerId: "a",
-    explanation: "The sentence says Mira hops, so hopping is the action. 'Swims in space' is tempting only because it is also a moving action, but the sentence says hops.",
+    explanation: "The sentence says Mira hops, so hopping is the action. 'Runs' is tempting because it is also a moving action, but the sentence says hops.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g1-eng-reading-b-q10",
     prompt: "We eat with a\u2026",
     options: [
-      { id: "a", text: "shoe" },
+      { id: "a", text: "comb" },
       { id: "b", text: "spoon" },
-      { id: "c", text: "broom" },
-      { id: "d", text: "bell" }
+      { id: "c", text: "pencil" },
+      { id: "d", text: "brush" }
     ],
     answerId: "b",
-    explanation: "We eat with a spoon. A bell is tempting because it is a small metal thing like a spoon, but we ring a bell; we eat with a spoon.",
+    explanation: "We eat with a spoon. A comb is tempting because it is a small thing we hold in the hand, but we comb our hair with it; we eat with a spoon.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g1-eng-reading-b-q11",
     prompt: "Read: \"The frog jumps.\" Who jumps?",
     options: [
-      { id: "a", text: "rock" },
-      { id: "b", text: "cup" },
+      { id: "a", text: "fish" },
+      { id: "b", text: "cat" },
       { id: "c", text: "frog" },
-      { id: "d", text: "mat" }
+      { id: "d", text: "dog" }
     ],
     answerId: "c",
-    explanation: "The sentence says the frog jumps. A rock is tempting because frogs sit on rocks, but a rock cannot jump.",
+    explanation: "The sentence says the frog jumps. A fish is tempting because frogs and fish both live near ponds, but the sentence names the frog.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g1-eng-reading-b-q12",
     prompt: "Which is a place to sit?",
     options: [
-      { id: "a", text: "cloud" },
-      { id: "b", text: "flame" },
-      { id: "c", text: "needle" },
+      { id: "a", text: "cup" },
+      { id: "b", text: "plate" },
+      { id: "c", text: "lamp" },
       { id: "d", text: "chair" }
     ],
     answerId: "d",
-    explanation: "A chair is a place to sit. A cloud is tempting because it looks soft, but no one can sit on a cloud.",
+    explanation: "A chair is a place to sit. A lamp is tempting because it stands in the room like a chair, but it gives light; we cannot sit on it.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -404,8 +404,8 @@ const SET_B: PrepQuestion[] = [
     id: "g1-eng-reading-b-q15",
     prompt: "We read a\u2026",
     options: [
-      { id: "a", text: "brick" },
-      { id: "b", text: "broom" },
+      { id: "a", text: "pen" },
+      { id: "b", text: "bag" },
       { id: "c", text: "book" },
       { id: "d", text: "boat" }
     ],
@@ -418,12 +418,12 @@ const SET_B: PrepQuestion[] = [
     prompt: "Read: \"Winter feels cold.\" How does winter feel?",
     options: [
       { id: "a", text: "hot" },
-      { id: "b", text: "sweet" },
-      { id: "c", text: "loud" },
+      { id: "b", text: "wet" },
+      { id: "c", text: "windy" },
       { id: "d", text: "cold" }
     ],
     answerId: "d",
-    explanation: "The sentence says winter feels cold. Hot is the opposite: summer is hot, winter is cold.",
+    explanation: "The sentence says winter feels cold. Windy is tempting because winter can be windy, but the word in the sentence is cold.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];

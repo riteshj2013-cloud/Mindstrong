@@ -22,11 +22,11 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "a" },
       { id: "b", text: "an" },
-      { id: "c", text: "the the" },
+      { id: "c", text: "many" },
       { id: "d", text: "two" }
     ],
     answerId: "b",
-    explanation: "Apple starts with a vowel sound, so we say 'an apple'. 'A' is tempting because we use it with most words, but before a vowel sound like a-pple we use 'an'.",
+    explanation: "Apple starts with a vowel sound, so we say 'an apple'. 'A' is tempting because we use it with most words, but before a vowel sound we use 'an'. 'Two' and 'many' need more than one apple: two apples.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -126,11 +126,11 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "a" },
       { id: "b", text: "an" },
-      { id: "c", text: "two two" },
-      { id: "d", text: "an an" }
+      { id: "c", text: "two" },
+      { id: "d", text: "many" }
     ],
     answerId: "b",
-    explanation: "Umbrella starts with a vowel sound, so we say 'an umbrella'. 'A' is tempting because we use it with many words, but before a vowel sound we use 'an'.",
+    explanation: "Umbrella starts with a vowel sound, so we say 'an umbrella'. 'A' is tempting because we use it with many words, but before a vowel sound we use 'an'. 'Two' and 'many' need umbrellas, not umbrella.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -190,12 +190,12 @@ const SET_A: PrepQuestion[] = [
     prompt: "We use ___ before ball.",
     options: [
       { id: "a", text: "an" },
-      { id: "b", text: "an an" },
+      { id: "b", text: "two" },
       { id: "c", text: "a" },
-      { id: "d", text: "the the the" }
+      { id: "d", text: "many" }
     ],
     answerId: "c",
-    explanation: "Ball starts with a consonant sound, so we say 'a ball'. 'An' is tempting because it also means one, but 'an' goes before vowel sounds like apple.",
+    explanation: "Ball starts with a consonant sound, so we say 'a ball'. 'An' is tempting because it also means one, but 'an' goes before vowel sounds like apple. 'Two' and 'many' need balls, not ball.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -233,11 +233,11 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "a" },
       { id: "b", text: "an" },
-      { id: "c", text: "the the" },
+      { id: "c", text: "many" },
       { id: "d", text: "two" }
     ],
     answerId: "b",
-    explanation: "Egg starts with a vowel sound, so we say 'an egg'. 'A' is tempting because we use it with most words, but before a vowel sound we use 'an'.",
+    explanation: "Egg starts with a vowel sound, so we say 'an egg'. 'A' is tempting because we use it with most words, but before a vowel sound we use 'an'. 'Two' and 'many' need eggs, not egg.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -337,11 +337,11 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "a" },
       { id: "b", text: "an" },
-      { id: "c", text: "two two" },
-      { id: "d", text: "an an" }
+      { id: "c", text: "two" },
+      { id: "d", text: "many" }
     ],
     answerId: "b",
-    explanation: "Orange starts with a vowel sound, so we say 'an orange'. 'A' is tempting because we use it with many words, but before a vowel sound we use 'an'.",
+    explanation: "Orange starts with a vowel sound, so we say 'an orange'. 'A' is tempting because we use it with many words, but before a vowel sound we use 'an'. 'Two' and 'many' need oranges, not orange.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -401,12 +401,12 @@ const SET_B: PrepQuestion[] = [
     prompt: "We use ___ before dog.",
     options: [
       { id: "a", text: "an" },
-      { id: "b", text: "an an" },
+      { id: "b", text: "two" },
       { id: "c", text: "a" },
-      { id: "d", text: "the the the" }
+      { id: "d", text: "many" }
     ],
     answerId: "c",
-    explanation: "Dog starts with a consonant sound, so we say 'a dog'. 'An' is tempting because it also means one, but 'an' goes before vowel sounds.",
+    explanation: "Dog starts with a consonant sound, so we say 'a dog'. 'An' is tempting because it also means one, but 'an' goes before vowel sounds. 'Two' and 'many' need dogs, not dog.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -460,10 +460,10 @@ const lesson: ChapterDef["lesson"] = [
         { id: "a", text: "a" },
         { id: "b", text: "an" },
         { id: "c", text: "two" },
-        { id: "d", text: "the the" }
+        { id: "d", text: "many" }
     ],
     answerId: "b",
-    why: "An egg \u2014 vowel sound.",
+    why: "Egg starts with a vowel sound, so we say an egg. Two and many need eggs, not egg.",
     visual: "sentence",
     speak: "We say ___ egg.",
   },

@@ -86,25 +86,25 @@ const SET_A: PrepQuestion[] = [
     prompt: "Brush your ___ every day.",
     options: [
       { id: "a", text: "nails" },
-      { id: "b", text: "books" },
+      { id: "b", text: "ears" },
       { id: "c", text: "teeth" },
-      { id: "d", text: "walls" }
+      { id: "d", text: "eyes" }
     ],
     answerId: "c",
-    explanation: "Brush your teeth every day to keep them clean. Nails are tempting because we keep them clean too, but we cut and wash nails, we do not brush them every day.",
+    explanation: "We brush our teeth every day to keep them clean and strong. Nails are tempting because we keep them clean too, but we cut and scrub nails; a toothbrush is for teeth.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g1-sci-body-a-q08",
     prompt: "We breathe air in through our\u2026",
     options: [
-      { id: "a", text: "toes" },
-      { id: "b", text: "elbows" },
-      { id: "c", text: "hair" },
+      { id: "a", text: "ears" },
+      { id: "b", text: "eyes" },
+      { id: "c", text: "cheeks" },
       { id: "d", text: "nose / mouth" }
     ],
     answerId: "d",
-    explanation: "Air goes in through the nose or the mouth. Hair is tempting because it is on the head, but hair has no opening for air to go in.",
+    explanation: "Air goes in through the nose or the mouth. Ears are tempting because they are openings on the head, but they are for hearing; air does not reach the lungs through them.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -113,24 +113,24 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "before" },
       { id: "b", text: "never" },
-      { id: "c", text: "only once a week" },
+      { id: "c", text: "while" },
       { id: "d", text: "instead of" }
     ],
     answerId: "a",
-    explanation: "Wash your hands before eating so germs do not go into your mouth. 'Only once a week' is tempting if you think washing sometimes is enough, but hands get dirty every day.",
+    explanation: "Wash your hands before eating so germs do not go into your mouth with the food. 'While' is tempting because hands and food meet at the same time, but you cannot wash and eat together; washing must come first.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g1-sci-body-a-q10",
     prompt: "Our heart is inside our\u2026",
     options: [
-      { id: "a", text: "shoe" },
+      { id: "a", text: "head" },
       { id: "b", text: "chest" },
-      { id: "c", text: "hat" },
-      { id: "d", text: "bag" }
+      { id: "c", text: "tummy" },
+      { id: "d", text: "leg" }
     ],
     answerId: "b",
-    explanation: "The heart is inside the chest, under the ribs. A hat or shoe is something we wear outside the body, so the heart cannot be inside it.",
+    explanation: "The heart is inside the chest, behind the ribs. The tummy is tempting because it is close by, but the tummy holds the stomach; the heart is higher up, in the chest.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -150,13 +150,13 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q12",
     prompt: "Skin helps us to\u2026",
     options: [
-      { id: "a", text: "fly" },
-      { id: "b", text: "bark" },
-      { id: "c", text: "lay eggs" },
+      { id: "a", text: "see" },
+      { id: "b", text: "hear" },
+      { id: "c", text: "taste" },
       { id: "d", text: "feel touch" }
     ],
     answerId: "d",
-    explanation: "Skin helps us feel touch, like hot, cold, soft and rough. 'Lay eggs' is tempting if you think of animals with skin, but people do not lay eggs.",
+    explanation: "Skin helps us feel touch: hot, cold, soft and rough. 'Taste' is tempting because food touches our lips and mouth, but tasting is done by the tongue, not the skin.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -259,11 +259,11 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "colour" },
       { id: "b", text: "smell" },
-      { id: "c", text: "number" },
+      { id: "c", text: "sound" },
       { id: "d", text: "taste" }
     ],
     answerId: "d",
-    explanation: "Sweet and salty are kinds of taste. Smell is tempting because food also has a smell, but we find out sweet or salty with the tongue.",
+    explanation: "Sweet and salty are kinds of taste. Smell is tempting because food also has a smell, but we find out if food is sweet or salty with the tongue.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -271,12 +271,12 @@ const SET_B: PrepQuestion[] = [
     prompt: "On a cold winter morning, what should we wear to keep our body warm?",
     options: [
       { id: "a", text: "a warm sweater" },
-      { id: "b", text: "a paper hat" },
+      { id: "b", text: "a thin cotton shirt" },
       { id: "c", text: "wet clothes" },
       { id: "d", text: "swimming clothes" }
     ],
     answerId: "a",
-    explanation: "A warm sweater keeps the heat of our body close to us, so we feel warm in winter. Swimming clothes are clothes too, but they are thin and made for water, not for the cold.",
+    explanation: "A warm sweater keeps the body warm on a cold morning. A thin cotton shirt is tempting because it is comfortable, but it is meant for hot days and lets the cold in.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -296,26 +296,26 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q07",
     prompt: "Bones help our body to\u2026",
     options: [
-      { id: "a", text: "make honey" },
-      { id: "b", text: "fly alone" },
+      { id: "a", text: "see" },
+      { id: "b", text: "taste food" },
       { id: "c", text: "stand and move" },
-      { id: "d", text: "turn into water" }
+      { id: "d", text: "digest food" }
     ],
     answerId: "c",
-    explanation: "Bones help our body stand and move. 'Fly alone' is tempting if you think of birds' bones, but our bones hold us up; they do not make us fly.",
+    explanation: "Bones make a strong frame that helps us stand and move. 'Digest food' is tempting because bones are inside the body too, but it is the stomach that digests food.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g1-sci-body-b-q08",
     prompt: "Drink plenty of\u2026",
     options: [
-      { id: "a", text: "mud" },
-      { id: "b", text: "paint" },
-      { id: "c", text: "sand" },
+      { id: "a", text: "soft drinks" },
+      { id: "b", text: "tea" },
+      { id: "c", text: "sugary syrup" },
       { id: "d", text: "water" }
     ],
     answerId: "d",
-    explanation: "Drink plenty of water to stay healthy. Mud and paint may look like liquids, but they are not safe to drink.",
+    explanation: "Drink plenty of water to stay healthy. Soft drinks are tempting because they stop thirst, but they have lots of sugar, so we should not drink plenty of them.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -335,13 +335,13 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q10",
     prompt: "We smile with our\u2026",
     options: [
-      { id: "a", text: "elbow" },
+      { id: "a", text: "nose" },
       { id: "b", text: "mouth" },
-      { id: "c", text: "knee" },
-      { id: "d", text: "heel" }
+      { id: "c", text: "ears" },
+      { id: "d", text: "forehead" }
     ],
     answerId: "b",
-    explanation: "We smile with our mouth. The heel is a body part too, but it is on the foot and cannot smile.",
+    explanation: "We smile with our mouth. The nose is tempting because it is right above the mouth, but it does not curve up when we smile; the lips do.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -361,13 +361,13 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q12",
     prompt: "A doctor checks if we are\u2026",
     options: [
-      { id: "a", text: "a plant" },
-      { id: "b", text: "a car" },
-      { id: "c", text: "a cloud" },
+      { id: "a", text: "rich" },
+      { id: "b", text: "clever" },
+      { id: "c", text: "good at games" },
       { id: "d", text: "healthy" }
     ],
     answerId: "d",
-    explanation: "A doctor checks if we are healthy. A plant is tempting because plants can get sick too, but a plant doctor is different; our doctor checks people.",
+    explanation: "A doctor checks if we are healthy. 'Clever' is tempting because a doctor asks us questions, but our teacher checks our learning; the doctor checks our body.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -376,11 +376,11 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "legs" },
       { id: "b", text: "ears" },
-      { id: "c", text: "hair" },
-      { id: "d", text: "eyelashes" }
+      { id: "c", text: "eyes" },
+      { id: "d", text: "teeth" }
     ],
     answerId: "a",
-    explanation: "Jumping uses our legs. Hair may bounce when we jump, but it does not push us up; the legs do.",
+    explanation: "Jumping uses our legs to push us up. The eyes are tempting because they help us see where to land, but they do not push us up; the legs do.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -400,26 +400,26 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q15",
     prompt: "We think with our\u2026",
     options: [
-      { id: "a", text: "shoes" },
-      { id: "b", text: "belt" },
+      { id: "a", text: "heart" },
+      { id: "b", text: "stomach" },
       { id: "c", text: "brain" },
-      { id: "d", text: "socks" }
+      { id: "d", text: "bones" }
     ],
     answerId: "c",
-    explanation: "We think with our brain, inside the head. A belt or socks are things we wear; they cannot think.",
+    explanation: "We think with our brain, inside the head. The heart is tempting because people say 'think with your heart', but the heart pumps blood; the brain does the thinking.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g1-sci-body-b-q16",
     prompt: "Which is a sense organ?",
     options: [
-      { id: "a", text: "shoe" },
-      { id: "b", text: "chair" },
-      { id: "c", text: "bag" },
+      { id: "a", text: "elbow" },
+      { id: "b", text: "knee" },
+      { id: "c", text: "hair" },
       { id: "d", text: "eye" }
     ],
     answerId: "d",
-    explanation: "The eye is a sense organ because it helps us see. A shoe is tempting because we wear it on the body, but it is a thing we put on, not a part of us.",
+    explanation: "The eye is a sense organ because it helps us see. The elbow is tempting because it is a body part, but it only helps the arm bend; it does not sense sight, sound, smell, taste or touch.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];
