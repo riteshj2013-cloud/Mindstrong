@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "24" }
     ],
     answerId: "a",
-    explanation: "1 hour = 60 minutes.",
+    explanation: "1 hour has 60 minutes; the minute hand goes all the way round once. 100 is tempting because we count many things in hundreds, but time uses 60.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b95" }
     ],
     answerId: "c",
-    explanation: "10 + 5 = \u20b915.",
+    explanation: "₹10 and ₹5 more make 10 + 5 = ₹15. ₹5 is tempting, but that takes away instead of adding.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7" }
     ],
     answerId: "d",
-    explanation: "A week has 7 days.",
+    explanation: "A week has 7 days, from Monday to Sunday. 5 is tempting if you count only Monday to Friday, but Saturday and Sunday make 7.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "only in winter" }
     ],
     answerId: "a",
-    explanation: "Morning comes after night.",
+    explanation: "First comes night, then the Sun rises and it is morning, so morning comes after night. 'Before the sun sets' is tempting, but morning comes before sunset, not before night.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b91" }
     ],
     answerId: "b",
-    explanation: "1 + 2 = \u20b93.",
+    explanation: "A ₹1 coin and a ₹2 coin make 1 + 2 = ₹3. ₹2 is tempting, but that counts only the bigger coin.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3:00" }
     ],
     answerId: "c",
-    explanation: "Half past 2 = 2:30.",
+    explanation: "Half past 2 is 30 minutes after 2 o'clock, written 2:30. 3:00 is tempting, but that is a full hour after 2.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b920" }
     ],
     answerId: "d",
-    explanation: "\u20b920 is more than \u20b912.",
+    explanation: "₹20 is 2 tens and ₹12 is 1 ten and 2 ones, so ₹20 is more. ₹12 is tempting because 2 is in both, but it has fewer tens.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7" }
     ],
     answerId: "a",
-    explanation: "A day has 24 hours.",
+    explanation: "A whole day and night has 24 hours: the hour hand goes round the clock twice. 12 is tempting, but that is only one trip round the clock.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b90" }
     ],
     answerId: "b",
-    explanation: "20 \u2212 10 = \u20b910 change.",
+    explanation: "You give ₹20 for a ₹10 notebook, so the change is 20 − 10 = ₹10. ₹20 is tempting, but that is the money you gave, not what comes back.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "date" }
     ],
     answerId: "c",
-    explanation: "The short hand shows the hour.",
+    explanation: "The short hand points to the hour, so it is the hour hand. 'Minute hand' is tempting, but the minute hand is the long one.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b910" }
     ],
     answerId: "d",
-    explanation: "Two \u20b95 make \u20b910.",
+    explanation: "₹5 × 2 means two lots of ₹5: 5 + 5 = ₹10. ₹7 is tempting, but that adds 5 + 2 instead of taking two fives.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "never" }
     ],
     answerId: "a",
-    explanation: "School often starts in the morning.",
+    explanation: "Most schools start in the morning, after breakfast. 'Midnight only' is tempting if you mix up the times, but midnight is when everyone is asleep.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "neither" }
     ],
     answerId: "b",
-    explanation: "\u20b95 is worth more than \u20b91.",
+    explanation: "₹5 is worth more than ₹1: one ₹5 coin buys as much as five ₹1 coins. 'Same' is tempting because coins can look alike, but their values differ.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b93" }
     ],
     answerId: "d",
-    explanation: "10 \u2212 7 = \u20b93.",
+    explanation: "You give ₹10 for a ₹7 pencil, so the change is 10 − 7 = ₹3. ₹7 is tempting, but that is the price of the pencil, not the change.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];
@@ -224,7 +224,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "24" }
     ],
     answerId: "a",
-    explanation: "1 minute = 60 seconds.",
+    explanation: "1 minute has 60 seconds, just as 1 hour has 60 minutes. 100 is tempting because we count many things in hundreds, but time uses 60.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -237,7 +237,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "9" }
     ],
     answerId: "b",
-    explanation: "At 6:00 hour hand on 6.",
+    explanation: "At 6:00 the short hour hand points to 6. 12 is tempting, but at 6:00 it is the long minute hand that points to 12.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -250,7 +250,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b95" }
     ],
     answerId: "c",
-    explanation: "20 \u2212 5 = \u20b915.",
+    explanation: "₹20 take away ₹5 is 20 − 5 = ₹15. ₹25 is tempting, but that adds ₹5 instead of taking it away.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -263,7 +263,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "week" }
     ],
     answerId: "d",
-    explanation: "Sunday is a day of the week.",
+    explanation: "Sunday is one of the 7 days of the week. Hour is tempting because it is also a unit of time, but an hour is much shorter than a day.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -276,7 +276,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "only underwater" }
     ],
     answerId: "a",
-    explanation: "Evening comes after afternoon.",
+    explanation: "The day goes morning, afternoon, then evening, so evening comes after afternoon. 'Before' is tempting, but afternoon comes first.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -289,7 +289,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b98" }
     ],
     answerId: "b",
-    explanation: "2 + 2 + 2 = \u20b96.",
+    explanation: "Three ₹2 coins make 2 + 2 + 2 = ₹6. ₹4 is tempting, but that counts only two of the three coins.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -302,7 +302,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "6:00" }
     ],
     answerId: "c",
-    explanation: "Half past 5 = 5:30.",
+    explanation: "Half past 5 is 30 minutes after 5 o'clock, written 5:30. 6:00 is tempting, but that is a full hour after 5.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -315,7 +315,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b99" }
     ],
     answerId: "d",
-    explanation: "\u20b99 is less than \u20b919.",
+    explanation: "₹9 has no tens and ₹19 has 1 ten, so ₹9 is less. ₹19 is tempting because it ends in 9 too, but it is the bigger amount.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "never" }
     ],
     answerId: "b",
-    explanation: "30 is more than 25 \u2014 yes.",
+    explanation: "You have ₹30 and the toy costs ₹25; 30 is more than 25, so yes, with ₹5 left over. 'No' is tempting if you compare only the ones digits, 0 and 5.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "year" }
     ],
     answerId: "c",
-    explanation: "The long hand shows minutes.",
+    explanation: "The long hand points to the minutes, so it is the minute hand. 'Hour hand' is tempting, but the hour hand is the short one.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b920" }
     ],
     answerId: "d",
-    explanation: "10 + 10 = \u20b920.",
+    explanation: "₹10 + ₹10 is 1 ten + 1 ten = 2 tens = ₹20. ₹100 is tempting, but that is 10 tens, not 2 tens.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "never" }
     ],
     answerId: "a",
-    explanation: "Night comes after evening.",
+    explanation: "The day goes afternoon, evening and then night, so night comes after evening. 'Morning only forever' is tempting, but morning comes after night, not before it.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "b",
-    explanation: "\u20b95 = five \u20b91 coins.",
+    explanation: "A ₹5 note is worth the same as five ₹1 coins: 1 + 1 + 1 + 1 + 1 = 5. 1 is tempting, but one ₹1 coin is only ₹1.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b910" }
     ],
     answerId: "d",
-    explanation: "50 \u2212 40 = \u20b910.",
+    explanation: "You pay ₹50 for books costing ₹40, so the change is 50 − 40 = ₹10. ₹40 is tempting, but that is the price of the books, not the change.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];

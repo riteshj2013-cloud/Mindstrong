@@ -239,15 +239,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-sci-light-a-q19",
-    prompt: "Lens formula:",
+    prompt: "Which is the lens formula for a thin lens (new Cartesian sign convention)?",
     options: [
       { id: "a", text: "v\u2212u=f" },
-      { id: "b", text: "1/v + 1/u = 1/f always for lenses? mirrors differ" },
+      { id: "b", text: "1/v + 1/u = 1/f" },
       { id: "c", text: "m=f/u" },
       { id: "d", text: "1/v \u2212 1/u = 1/f" }
     ],
     answerId: "d",
-    explanation: "For thin lenses (Cartesian signs): 1/v \u2212 1/u = 1/f.",
+    explanation: "For a thin lens, with the new Cartesian sign convention, 1/v − 1/u = 1/f. 1/v + 1/u = 1/f is tempting, but that is the mirror formula; for a lens the sign between 1/v and 1/u is minus. v − u = f has no reciprocals, and magnification for a lens is m = v/u, not f/u.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

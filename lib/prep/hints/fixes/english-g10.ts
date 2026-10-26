@@ -92,4 +92,5 @@ export const G10_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-eng-ch02-a-q16": ["The head noun here: \"number\", not \"applicants\".", "\"The number of\" takes a singular verb; \"a number of\" takes a plural one."],
   "g10-eng-ch02-a-q18": ["The starting happens before a future moment: reaching the stadium.", "Pick the tense for an action that will be complete before a future time."],
   "g10-eng-ch03-a-q03": ["The subject line tells the topic before the letter greets the reader.", "It is not at the end and not above the sender's address; think of the order you read a letter in."],
+  "g10-eng-ch02-b-q11": ["When a command is reported after \"told us\", what verb form follows?"],
 };

@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "a",
-    explanation: "One more than 5 is 6.",
+    explanation: "Counting goes 4, 5, 6, so the number just after 5 is 6. 4 is tempting, but 4 comes just before 5, not after it.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "b",
-    explanation: "One hand has 5 fingers.",
+    explanation: "Count the fingers on one hand: 1, 2, 3, 4, 5. 10 is tempting, but that is the fingers on both hands.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "c",
-    explanation: "8 is more than 3.",
+    explanation: "8 is bigger because it comes later when we count: 3 comes before 8. 3 is tempting because it is in the question, but it is the smaller one.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "d",
-    explanation: "There are 3 stars.",
+    explanation: "Touch each star once and count: 1, 2, 3. 4 is tempting if you count one star twice.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "a",
-    explanation: "Just before 10 is 9.",
+    explanation: "Counting goes 8, 9, 10, so the number just before 10 is 9. 11 is tempting, but 11 comes just after 10, not before it.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "five" }
     ],
     answerId: "b",
-    explanation: "7 is written as seven.",
+    explanation: "We write 7 as seven. Six is tempting because it is close, but six is the name for 6.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\ud83c\udf4e" }
     ],
     answerId: "c",
-    explanation: "Four apples means \ud83c\udf4e\ud83c\udf4e\ud83c\udf4e\ud83c\udf4e.",
+    explanation: "Count the apples in each set: 1, 2, 3, 4. The set of 3 apples is tempting, but it is one apple short.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "a",
-    explanation: "2 is the smallest of these.",
+    explanation: "2 comes first when we count, so it is the smallest. 5 is tempting because it is in the middle, but 2 comes before 5.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "b",
-    explanation: "1 + 1 = 2.",
+    explanation: "Riya's 1 ball and Amaira's 1 ball make 1 + 1 = 2 balls. 1 is tempting, but that counts only one girl's ball.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4 and 0" }
     ],
     answerId: "c",
-    explanation: "14 has digits 1 and 4.",
+    explanation: "14 is written with a 1 and a 4, so its digits are 1 and 4. 1 and 5 is tempting, but 15 is the number with those digits.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "d",
-    explanation: "After 3 comes 4.",
+    explanation: "Counting goes 1, 2, 3 and then 4. 5 is tempting, but that skips over 4.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "11" }
     ],
     answerId: "a",
-    explanation: "Counting to 10 ends on 10.",
+    explanation: "Kabir stops counting at 10, so 10 is the last number he says. 11 is tempting, but he did not count past 10.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "b",
-    explanation: "9 is more than 5.",
+    explanation: "9 comes after 5 when we count, so 9 shows more. 'Same' is tempting, but 5 and 9 are different numbers.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "many" }
     ],
     answerId: "c",
-    explanation: "Zero means no things \u2014 nothing.",
+    explanation: "Zero means nothing at all, like an empty plate with no laddoos. One is tempting because it is so small, but one still means there is something.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "d",
-    explanation: "6 \u2212 1 = 5.",
+    explanation: "Meera had 6 birds and 1 flew away, so 6 − 1 = 5 are left. 7 is tempting, but that adds the bird instead of taking it away.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];
@@ -224,7 +224,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "11" }
     ],
     answerId: "a",
-    explanation: "One more than 9 is 10.",
+    explanation: "Counting goes 8, 9, 10, so the number just after 9 is 10. 8 is tempting, but 8 comes just before 9.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -237,7 +237,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "b",
-    explanation: "A bicycle has 2 wheels.",
+    explanation: "A bicycle has one wheel at the front and one at the back: 2 wheels. 3 is tempting, but that is a tricycle or an auto-rickshaw.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -250,7 +250,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "7" }
     ],
     answerId: "c",
-    explanation: "1 is smaller than 6.",
+    explanation: "1 comes before 6 when we count, so 1 is smaller. 6 is tempting because it is in the question, but it is the bigger one.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -263,7 +263,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "d",
-    explanation: "There are 5 dots.",
+    explanation: "Touch each dot once and count: 1, 2, 3, 4, 5. 4 is tempting if you miss one dot.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -276,7 +276,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "twelve" }
     ],
     answerId: "a",
-    explanation: "10 is ten.",
+    explanation: "We write 10 as ten. Eleven is tempting because it comes next, but eleven is the name for 11.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -289,7 +289,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "b",
-    explanation: "After 7 comes 8.",
+    explanation: "Counting goes 5, 6, 7 and then 8. 9 is tempting, but that skips over 8.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -302,7 +302,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "7" }
     ],
     answerId: "c",
-    explanation: "4 is even (2, 4, 6, 8\u2026).",
+    explanation: "Even numbers go 2, 4, 6, 8, so 4 is even. 3, 5 and 7 are tempting because they are near 4, but they are odd: one is always left over in pairs.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -315,7 +315,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "d",
-    explanation: "3 + 2 = 5.",
+    explanation: "Aarav had 3 pencils and got 2 more, so 3 + 2 = 5. 4 is tempting if you stop one count too soon.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "a",
-    explanation: "5 sits between 4 and 6.",
+    explanation: "Counting goes 4, 5, 6, so 5 is between 4 and 6. 3 is tempting, but 3 comes before 4, not between 4 and 6.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "b",
-    explanation: "Just before 2 is 1.",
+    explanation: "Counting goes 1, 2, 3, so the number just before 2 is 1. 3 is tempting, but 3 comes just after 2.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\ud83d\udc31\ud83d\udc31\ud83d\udc31\ud83d\udc31" }
     ],
     answerId: "c",
-    explanation: "Two cats: \ud83d\udc31\ud83d\udc31.",
+    explanation: "Count the cats in each set; only one set has exactly 2 cats. The set of 3 cats is tempting, but it has one cat too many.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "d",
-    explanation: "15 = 1 ten and 5 ones.",
+    explanation: "15 is 1 ten and 5 ones, so it has 1 ten. 5 is tempting, but 5 is the number of ones, not tens.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "a",
-    explanation: "8 is the biggest.",
+    explanation: "8 comes last when we count 2, 3, 5, 8, so it is the biggest. 5 is tempting, but 5 comes before 8.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "b",
-    explanation: "She counted four eggs.",
+    explanation: "Sara's last count is 4, so there are 4 eggs. 5 is tempting, but she stopped at 4 and did not say 5.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "c",
-    explanation: "Adding zero keeps the number: 5.",
+    explanation: "Adding 0 adds nothing, so 5 + 0 = 5. 50 is tempting, but that just writes 5 and 0 side by side; it is not adding.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
