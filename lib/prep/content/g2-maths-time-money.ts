@@ -57,15 +57,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g2-maths-timemoney-a-q05",
-    prompt: "Morning comes ___ night.",
+    prompt: "Night ends and the sun rises. Morning comes ___ night.",
     options: [
       { id: "a", text: "after" },
-      { id: "b", text: "before the sun sets" },
-      { id: "c", text: "never" },
-      { id: "d", text: "only in winter" }
+      { id: "b", text: "before" },
+      { id: "c", text: "during" },
+      { id: "d", text: "at the same time as" }
     ],
     answerId: "a",
-    explanation: "First comes night, then the Sun rises and it is morning, so morning comes after night. 'Before the sun sets' is tempting, but morning comes before sunset, not before night.",
+    explanation: "Night ends, the sun rises, and then it is morning, so morning comes after night. 'Before' is tempting because morning comes before night on the same day, but here night ends first and then morning begins.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -138,9 +138,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "The short hand on a clock is the\u2026",
     options: [
       { id: "a", text: "minute hand" },
-      { id: "b", text: "second only always" },
+      { id: "b", text: "second hand" },
       { id: "c", text: "hour hand" },
-      { id: "d", text: "date" }
+      { id: "d", text: "alarm hand" }
     ],
     answerId: "c",
     explanation: "The short hand points to the hour, so it is the hour hand. 'Minute hand' is tempting, but the minute hand is the long one.",
@@ -164,12 +164,12 @@ const SET_A: PrepQuestion[] = [
     prompt: "School often starts in the\u2026",
     options: [
       { id: "a", text: "morning" },
-      { id: "b", text: "midnight only" },
-      { id: "c", text: "only at 3 a.m." },
-      { id: "d", text: "never" }
+      { id: "b", text: "evening" },
+      { id: "c", text: "night" },
+      { id: "d", text: "midnight" }
     ],
     answerId: "a",
-    explanation: "Most schools start in the morning, after breakfast. 'Midnight only' is tempting if you mix up the times, but midnight is when everyone is asleep.",
+    explanation: "Most schools start in the morning, after breakfast. Evening is tempting, but by evening school is over for the day; night and midnight are when we sleep.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -272,8 +272,8 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "after" },
       { id: "b", text: "before" },
-      { id: "c", text: "never" },
-      { id: "d", text: "only underwater" }
+      { id: "c", text: "during" },
+      { id: "d", text: "at the same time as" }
     ],
     answerId: "a",
     explanation: "The day goes morning, afternoon, then evening, so evening comes after afternoon. 'Before' is tempting, but afternoon comes first.",
@@ -323,12 +323,12 @@ const SET_B: PrepQuestion[] = [
     prompt: "Lunch time is often around\u2026",
     options: [
       { id: "a", text: "noon" },
-      { id: "b", text: "midnight only" },
-      { id: "c", text: "3 a.m. only" },
-      { id: "d", text: "7 p.m. only" }
+      { id: "b", text: "midnight" },
+      { id: "c", text: "7 a.m." },
+      { id: "d", text: "7 p.m." }
     ],
     answerId: "a",
-    explanation: "Lunch is often around noon, 12 o'clock in the daytime (also called midday). 7 p.m. is nearer dinner time; midnight and 3 a.m. are in the night.",
+    explanation: "Lunch is often around noon, 12 o'clock in the daytime (also called midday). 7 p.m. is tempting because it is a mealtime too, but that is nearer dinner; 7 a.m. is breakfast time, and midnight is in the night.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -337,8 +337,8 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "no" },
       { id: "b", text: "yes" },
-      { id: "c", text: "only with \u20b910" },
-      { id: "d", text: "never" }
+      { id: "c", text: "no, you need ₹5 more" },
+      { id: "d", text: "yes, with nothing left over" }
     ],
     answerId: "b",
     explanation: "You have ₹30 and the toy costs ₹25; 30 is more than 25, so yes, with ₹5 left over. 'No' is tempting if you compare only the ones digits, 0 and 5.",
@@ -375,12 +375,12 @@ const SET_B: PrepQuestion[] = [
     prompt: "Night comes after\u2026",
     options: [
       { id: "a", text: "evening" },
-      { id: "b", text: "morning only forever" },
-      { id: "c", text: "noon forever" },
-      { id: "d", text: "never" }
+      { id: "b", text: "morning" },
+      { id: "c", text: "noon" },
+      { id: "d", text: "sunrise" }
     ],
     answerId: "a",
-    explanation: "The day goes afternoon, evening and then night, so night comes after evening. 'Morning only forever' is tempting, but morning comes after night, not before it.",
+    explanation: "The day goes afternoon, evening and then night, so night comes after evening. Morning is tempting because it is also a time of day, but morning comes after night, not before it. Sunrise and noon come early in the day.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

@@ -3,6 +3,8 @@
  * Content QA audit: walks every user-visible string in prep chapters + daily packs
  * (skipping raw SVG markup) and flags editorial leaks, exam branding and "$" amounts.
  * Structural checks on served sets: answer-letter skew (>50% one letter), duplicate stems,
+ * editorial notes left inside options ("always wrong", "wrong order preferred"; allow-list in
+ * scripts/audit-baselines/option-editorial-allow.json),
  * and inline SVG figures missing an aria-label / alt text.
  * Hint checks: bare-letter hints, option-letter references, hints that equal / contain the answer.
  * Content generators: every script that writes served content is registered in scripts/content-generators.json; retired
@@ -146,6 +148,32 @@ for (const { where, questions } of servedSets) {
 }
 
 /** Every inline SVG figure needs a meaningful aria-label on its root <svg> (and alt text for the wrapper). */
+// Options are shown to kids verbatim, so writer's notes left inside an option ("I like Tea always wrong.",
+// "beautiful silk red wrong order preferred", "double? also a double displacement") must fail the audit.
+// Legitimate uses (items about the word "wrong", quoted rude replies, ...) are listed by "<qid>:<option>"
+// in scripts/audit-baselines/option-editorial-allow.json.
+const OPTION_EDITORIAL = [
+  /\bwrong\b/i,
+  /\btempting\b/i,
+  /\bdistractors?\b/i,
+  /\bmirrors differ\b/i,
+  /\bas the same thing\b/i,
+  /\bpreferred\b/i,
+  /\?\s*(?:also|for|not|mirrors|only|always|wrong)\b/i,
+];
+const optionEditorialAllow = new Set(
+  JSON.parse(fs.readFileSync(path.join(ROOT, "scripts/audit-baselines/option-editorial-allow.json"), "utf8")).allow,
+);
+for (const { where, questions } of [...servedSets, ...servedPapers]) {
+  for (const q of questions) {
+    for (const o of q.options ?? []) {
+      const re = OPTION_EDITORIAL.find((r) => r.test(o.text));
+      if (re && !optionEditorialAllow.has(`${q.id}:${o.id}`))
+        findings.push({ rule: "option-editorial", where: `${where}.${q.id}`, text: `${q.id} option ${o.id} reads like a writer's note (${re}): ${o.text}` });
+    }
+  }
+}
+
 for (const { where, questions } of [...servedSets, ...servedPapers]) {
   for (const q of questions) {
     const figs = [["stem", q.figure], ...q.options.map((o) => [`option ${o.id}`, o.figure])];

@@ -20,10 +20,10 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q02",
     prompt: "Fish live in\u2026",
     options: [
-      { id: "a", text: "trees only" },
+      { id: "a", text: "trees" },
       { id: "b", text: "water" },
-      { id: "c", text: "deserts only" },
-      { id: "d", text: "clouds" }
+      { id: "c", text: "sand" },
+      { id: "d", text: "nests" }
     ],
     answerId: "b",
     explanation: "Fish live in water.",
@@ -33,7 +33,7 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q03",
     prompt: "A cow gives us\u2026",
     options: [
-      { id: "a", text: "wool only" },
+      { id: "a", text: "wool" },
       { id: "b", text: "honey" },
       { id: "c", text: "milk" },
       { id: "d", text: "silk" }
@@ -72,7 +72,7 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q06",
     prompt: "A lion is a\u2026",
     options: [
-      { id: "a", text: "insect only" },
+      { id: "a", text: "pet animal" },
       { id: "b", text: "wild animal" },
       { id: "c", text: "fish" },
       { id: "d", text: "bird" }
@@ -98,9 +98,9 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q08",
     prompt: "Birds have\u2026",
     options: [
-      { id: "a", text: "fins only" },
-      { id: "b", text: "wheels" },
-      { id: "c", text: "roots" },
+      { id: "a", text: "fins" },
+      { id: "b", text: "four legs" },
+      { id: "c", text: "trunks" },
       { id: "d", text: "wings" }
     ],
     answerId: "d",
@@ -151,7 +151,7 @@ const SET_A: PrepQuestion[] = [
     prompt: "An elephant has a long\u2026",
     options: [
       { id: "a", text: "fin" },
-      { id: "b", text: "beak only" },
+      { id: "b", text: "beak" },
       { id: "c", text: "shell" },
       { id: "d", text: "trunk" }
     ],
@@ -178,7 +178,7 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "honey" },
       { id: "b", text: "wool" },
-      { id: "c", text: "eggs only" },
+      { id: "c", text: "eggs" },
       { id: "d", text: "silk" }
     ],
     answerId: "b",
@@ -189,10 +189,10 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-animals-a-q15",
     prompt: "A frog can live\u2026",
     options: [
-      { id: "a", text: "only in fire" },
-      { id: "b", text: "only in space" },
+      { id: "a", text: "only in trees" },
+      { id: "b", text: "only in deserts" },
       { id: "c", text: "near water and land" },
-      { id: "d", text: "only in ice cream" }
+      { id: "d", text: "only in the sea" }
     ],
     answerId: "c",
     explanation: "Frogs like water and land.",
@@ -231,10 +231,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q02",
     prompt: "Where do monkeys like to live?",
     options: [
-      { id: "a", text: "under the sea only" },
+      { id: "a", text: "under the sea" },
       { id: "b", text: "in trees" },
-      { id: "c", text: "in fire" },
-      { id: "d", text: "in cups" }
+      { id: "c", text: "in deserts" },
+      { id: "d", text: "in ponds" }
     ],
     answerId: "b",
     explanation: "Many monkeys live in trees.",
@@ -244,7 +244,7 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q03",
     prompt: "A horse can\u2026",
     options: [
-      { id: "a", text: "swim like a fish always" },
+      { id: "a", text: "swim like a fish" },
       { id: "b", text: "fly with wings" },
       { id: "c", text: "run fast" },
       { id: "d", text: "lay eggs like a hen" }
@@ -283,10 +283,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q06",
     prompt: "A tiger has\u2026",
     options: [
-      { id: "a", text: "wheels" },
+      { id: "a", text: "a trunk" },
       { id: "b", text: "stripes" },
-      { id: "c", text: "feathers only" },
-      { id: "d", text: "fins only" }
+      { id: "c", text: "feathers" },
+      { id: "d", text: "spots" }
     ],
     answerId: "b",
     explanation: "Tigers have stripes.",
@@ -310,8 +310,8 @@ const SET_B: PrepQuestion[] = [
     prompt: "Pets need\u2026",
     options: [
       { id: "a", text: "no care" },
-      { id: "b", text: "only stones" },
-      { id: "c", text: "only screens" },
+      { id: "b", text: "only water" },
+      { id: "c", text: "only toys" },
       { id: "d", text: "care and food" }
     ],
     answerId: "d",
@@ -325,7 +325,7 @@ const SET_B: PrepQuestion[] = [
       { id: "a", text: "milk" },
       { id: "b", text: "honey" },
       { id: "c", text: "silk" },
-      { id: "d", text: "wool only always" }
+      { id: "d", text: "eggs" }
     ],
     answerId: "a",
     explanation: "Goats can give milk.",
@@ -351,7 +351,7 @@ const SET_B: PrepQuestion[] = [
       { id: "a", text: "have six legs" },
       { id: "b", text: "have wings" },
       { id: "c", text: "have no legs" },
-      { id: "d", text: "have fins like sharks always" }
+      { id: "d", text: "have four legs" }
     ],
     answerId: "c",
     explanation: "Snakes have no legs.",
@@ -362,8 +362,8 @@ const SET_B: PrepQuestion[] = [
     prompt: "A peacock is a\u2026",
     options: [
       { id: "a", text: "fish" },
-      { id: "b", text: "insect only" },
-      { id: "c", text: "mammal only" },
+      { id: "b", text: "insect" },
+      { id: "c", text: "mammal" },
       { id: "d", text: "bird" }
     ],
     answerId: "d",
@@ -400,10 +400,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-animals-b-q15",
     prompt: "Wild animals live\u2026",
     options: [
-      { id: "a", text: "only in school bags" },
-      { id: "b", text: "only in fridges" },
+      { id: "a", text: "only in zoos" },
+      { id: "b", text: "only in houses" },
       { id: "c", text: "in forests / wild places" },
-      { id: "d", text: "only in books" }
+      { id: "d", text: "only on farms" }
     ],
     answerId: "c",
     explanation: "Wild animals live in wild places.",

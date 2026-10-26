@@ -256,11 +256,11 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "red silk beautiful" },
       { id: "b", text: "silk beautiful red" },
-      { id: "c", text: "beautiful silk red wrong order preferred" },
+      { id: "c", text: "red beautiful silk" },
       { id: "d", text: "beautiful red silk" }
     ],
     answerId: "d",
-    explanation: "Opinion \u2192 colour \u2192 material is standard order.",
+    explanation: "The usual order is opinion → colour → material, so 'beautiful red silk scarf'. 'red beautiful silk' is tempting because silk is still next to the noun, but the opinion word beautiful must come before the colour red.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -348,13 +348,13 @@ const SET_B: PrepQuestion[] = [
     id: "g10-eng-ch02-b-q03",
     prompt: "Modal deduction: The lights are on; she ____ at home.",
     options: [
-      { id: "a", text: "can't have been? for present" },
+      { id: "a", text: "can't be" },
       { id: "b", text: "must be" },
       { id: "c", text: "must been" },
       { id: "d", text: "should to be" }
     ],
     answerId: "b",
-    explanation: "Must be = logical conclusion about now.",
+    explanation: "'Must be' expresses a confident deduction about the present, and the lights being on are the evidence. 'Can't be' is tempting because it is also a present deduction, but it means she is surely not at home, which goes against the evidence. 'Must been' and 'should to be' are not correct forms.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

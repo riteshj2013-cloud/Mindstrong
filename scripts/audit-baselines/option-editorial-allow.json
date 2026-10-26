@@ -1,0 +1,12 @@
+{
+  "about": "Options that legitimately contain a word the option-editorial check looks for (e.g. 'wrong' as vocabulary, a quoted rude reply, a debate phrase). Key: <questionId>:<optionId>.",
+  "allow": [
+    "g3-eng-synonyms-b-q09:a",
+    "g3-eng-antonyms-a-q21:c",
+    "g4-maths-data-b-q19:a",
+    "g5-eng-ch04-b-q20:d",
+    "g8-eng-ch01-a-q11:c",
+    "g8-eng-ch04-a-q21:b",
+    "g8-eng-ch04-b-q22:c"
+  ]
+}

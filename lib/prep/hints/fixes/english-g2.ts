@@ -78,7 +78,7 @@ export const G2_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g2-eng-words-a-q08": ["\"unhappy\" is un- + happy.", "If you are unhappy, are you happy or the opposite?"],
   "g2-eng-words-a-q09": ["A synonym means the same as \"begin\", like the first step of a race.", "Begin is the first step; find the word that means the same."],
   "g2-eng-words-a-q10": ["An antonym means the opposite of \"full\".", "Full means lots inside; find the word for nothing inside."],
-  "g2-eng-words-a-q11": ["Where do people go to read and borrow books?", "A kitchen is for cooking and a garage for cars."],
+  "g2-eng-words-a-q11": ["Where do people go to read and borrow books?", "At school, which room has shelves of storybooks you can take home for a week?"],
   "g2-eng-words-a-q12": ["A naming word for a person names someone, like a teacher.", "Which person helps sick people get well?"],
   "g2-eng-words-a-q13": ["A polite word is a kind word.", "A polite word is what we add to ask nicely for something."],
   "g2-eng-words-a-q14": ["\"child\" has a special plural; it does not just add -s.", "Think of man → men: plurals like child change instead of adding -s."],

@@ -85,7 +85,7 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q07",
     prompt: "Brush your ___ every day.",
     options: [
-      { id: "a", text: "shoes only" },
+      { id: "a", text: "nails" },
       { id: "b", text: "books" },
       { id: "c", text: "teeth" },
       { id: "d", text: "walls" }
@@ -113,8 +113,8 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "before" },
       { id: "b", text: "never" },
-      { id: "c", text: "only once a year" },
-      { id: "d", text: "with paint" }
+      { id: "c", text: "only once a week" },
+      { id: "d", text: "instead of" }
     ],
     answerId: "a",
     explanation: "Wash hands before eating.",
@@ -164,9 +164,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Exercise makes our body\u2026",
     options: [
       { id: "a", text: "stronger" },
-      { id: "b", text: "weaker always" },
-      { id: "c", text: "made of stone" },
-      { id: "d", text: "invisible" }
+      { id: "b", text: "weaker" },
+      { id: "c", text: "sleepy" },
+      { id: "d", text: "smaller" }
     ],
     answerId: "a",
     explanation: "Exercise helps us stay strong.",
@@ -176,10 +176,10 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-body-a-q14",
     prompt: "We should sleep at\u2026",
     options: [
-      { id: "a", text: "never" },
+      { id: "a", text: "school time" },
       { id: "b", text: "night / rest time" },
-      { id: "c", text: "only in class always" },
-      { id: "d", text: "in the rain without care" }
+      { id: "c", text: "playtime" },
+      { id: "d", text: "lunch time" }
     ],
     answerId: "b",
     explanation: "Sleep helps the body rest.",
@@ -190,9 +190,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Fingers are on our\u2026",
     options: [
       { id: "a", text: "ears" },
-      { id: "b", text: "nose tip only" },
+      { id: "b", text: "feet" },
       { id: "c", text: "hands" },
-      { id: "d", text: "knees only" }
+      { id: "d", text: "knees" }
     ],
     answerId: "c",
     explanation: "Fingers are on our hands.",
@@ -203,7 +203,7 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which helps us chew food?",
     options: [
       { id: "a", text: "hair" },
-      { id: "b", text: "nails only" },
+      { id: "b", text: "nails" },
       { id: "c", text: "eyelashes" },
       { id: "d", text: "teeth" }
     ],
@@ -257,8 +257,8 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q04",
     prompt: "Sweet and salty are kinds of\u2026",
     options: [
-      { id: "a", text: "colour only" },
-      { id: "b", text: "shape only" },
+      { id: "a", text: "colour" },
+      { id: "b", text: "smell" },
       { id: "c", text: "number" },
       { id: "d", text: "taste" }
     ],
@@ -283,7 +283,7 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q06",
     prompt: "Cover your mouth when you\u2026",
     options: [
-      { id: "a", text: "sleep only" },
+      { id: "a", text: "sleep" },
       { id: "b", text: "sneeze or cough" },
       { id: "c", text: "read" },
       { id: "d", text: "draw" }
@@ -348,10 +348,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q11",
     prompt: "Ears help us enjoy\u2026",
     options: [
-      { id: "a", text: "only colours" },
-      { id: "b", text: "only smells" },
+      { id: "a", text: "pictures" },
+      { id: "b", text: "smells" },
       { id: "c", text: "music" },
-      { id: "d", text: "only tastes" }
+      { id: "d", text: "tastes" }
     ],
     answerId: "c",
     explanation: "Ears help us hear music.",
@@ -375,8 +375,8 @@ const SET_B: PrepQuestion[] = [
     prompt: "Jumping uses our\u2026",
     options: [
       { id: "a", text: "legs" },
-      { id: "b", text: "ears only" },
-      { id: "c", text: "hair only" },
+      { id: "b", text: "ears" },
+      { id: "c", text: "hair" },
       { id: "d", text: "eyelashes" }
     ],
     answerId: "a",
@@ -387,10 +387,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-body-b-q14",
     prompt: "Keep your body\u2026",
     options: [
-      { id: "a", text: "dirty always" },
+      { id: "a", text: "dirty" },
       { id: "b", text: "clean" },
-      { id: "c", text: "painted blue" },
-      { id: "d", text: "wet with mud always" }
+      { id: "c", text: "smelly" },
+      { id: "d", text: "muddy" }
     ],
     answerId: "b",
     explanation: "Keep your body clean.",
