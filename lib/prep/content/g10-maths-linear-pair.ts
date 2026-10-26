@@ -627,7 +627,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "c",
-    explanation: "From second y=9\u22123x; 5x\u22122(9\u22123x)=4 \u2192 5x\u221218+6x=4 \u2192 11x=22 \u2192 x=2; y=3.",
+    explanation: "From the second equation, y = 9 − 3x. Then 5x − 2(9 − 3x) = 4 → 5x − 18 + 6x = 4 → 11x = 22 → x = 2, so y = 9 − 6 = 3. 2 is tempting, but that is x, not y.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
 ];

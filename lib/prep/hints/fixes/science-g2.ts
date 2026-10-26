@@ -83,7 +83,7 @@ export const G2_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g2-sci-airwater-a-q09": ["Saving water means using it well.", "Turning off taps stops water from going down the drain."],
   "g2-sci-airwater-a-q10": ["A breeze is moving air.", "Is a breeze strong or soft?"],
   "g2-sci-airwater-a-q11": ["Fish breathe with gills.", "Gills take a gas from the water. Which gas do we breathe too?"],
-  "g2-sci-airwater-a-q13": ["Think of how you use water every day.", "We drink water and wash with it."],
+  "g2-sci-airwater-a-q13": ["Think of how you use water every day.", "Think of what you did with water this morning before school."],
   "g2-sci-airwater-a-q14": ["Smoke and dust make air hard to breathe.", "What happens to air when smoke and dust mix in?"],
   "g2-sci-airwater-a-q15": ["Clouds float in the sky and bring rain.", "Rain falls from clouds. What must clouds be made of?"],
   "g2-sci-airwater-a-q16": ["Flies and dust can fall on open food.", "Covering food keeps germs out."],

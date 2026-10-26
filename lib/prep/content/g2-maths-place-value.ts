@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "c",
-    explanation: "30 = 3 tens and 0 ones.",
+    explanation: "30 is 3 tens and 0 ones, so it has 3 tens. 30 is tempting, but that is the whole number, not how many tens.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1 ten" }
     ],
     answerId: "d",
-    explanation: "10 ones bundle into 1 ten.",
+    explanation: "10 ones bundled together make 1 ten. '10 tens' is tempting, but 10 tens make 100.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7" }
     ],
     answerId: "a",
-    explanation: "2 tens + 5 ones = 25.",
+    explanation: "2 tens is 20 and 5 ones is 5, so the number is 25. 52 is tempting, but that puts the 5 in the tens place.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -74,11 +74,11 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "3 + 8" },
       { id: "b", text: "30 + 8" },
-      { id: "c", text: "38 + 0 only wrong" },
+      { id: "c", text: "300 + 8" },
       { id: "d", text: "80 + 3" }
     ],
     answerId: "b",
-    explanation: "38 = 30 + 8.",
+    explanation: "38 has 3 tens and 8 ones, so 38 = 30 + 8. 3 + 8 is tempting, but the 3 stands for 3 tens, which is 30, not 3.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -113,11 +113,11 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "4 and 5" },
       { id: "b", text: "5 and 4" },
-      { id: "c", text: "40 and 5 wrong words" },
+      { id: "c", text: "40 and 5" },
       { id: "d", text: "9 and 0" }
     ],
     answerId: "a",
-    explanation: "45 = 4 tens and 5 ones.",
+    explanation: "In 45, the 4 is in the tens place and the 5 is in the ones place: 4 tens and 5 ones. 5 and 4 is tempting, but that swaps the places and makes 54.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "01" }
     ],
     answerId: "b",
-    explanation: "10 is the smallest two-digit number.",
+    explanation: "10 is the first number with two digits, so it is the smallest two-digit number. 9 is tempting because it is smaller, but 9 has only one digit.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "89" }
     ],
     answerId: "c",
-    explanation: "99 is the biggest two-digit number.",
+    explanation: "99 has the biggest digit, 9, in both places, so it is the biggest two-digit number. 100 is tempting because it comes next, but 100 has three digits.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "27" }
     ],
     answerId: "d",
-    explanation: "20 + 7 = 27.",
+    explanation: "20 + 7 = 27: start at 20 and count on 7. 207 is tempting, but that just writes the numbers side by side; it is not adding.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "304" }
     ],
     answerId: "a",
-    explanation: "3 tens + 4 ones = 34.",
+    explanation: "3 packs of 10 is 3 tens = 30, and 4 loose stickers make 34. 43 is tempting, but that swaps the tens and the ones.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "500" }
     ],
     answerId: "b",
-    explanation: "5 tens = 50.",
+    explanation: "5 tens is 10 + 10 + 10 + 10 + 10 = 50. 5 is tempting, but that is 5 ones, not 5 tens.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "c",
-    explanation: "80 has 0 ones.",
+    explanation: "80 is 8 tens and 0 ones, so it has 0 ones. 8 is tempting, but 8 is the number of tens.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "25" }
     ],
     answerId: "d",
-    explanation: "Order: 15, 25, 51. Middle is 25.",
+    explanation: "In order from small to big: 15, 25, 51, so 25 is in the middle. 51 is tempting because it is in the middle of the question, but it is the biggest.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];
@@ -237,7 +237,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "6 ones" }
     ],
     answerId: "b",
-    explanation: "3 is in ones \u2192 3 ones.",
+    explanation: "In 63, the 3 is in the ones place, so it stands for 3 ones. '3 tens' is tempting, but the tens digit of 63 is 6.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -250,7 +250,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "c",
-    explanation: "70 = 7 tens.",
+    explanation: "70 is 7 tens and 0 ones, so it has 7 tens. 70 is tempting, but that is the whole number, not how many tens.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -263,7 +263,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "40" }
     ],
     answerId: "d",
-    explanation: "4 tens + 0 ones = 40.",
+    explanation: "4 tens is 40, and 0 ones adds nothing, so the number is 40. 4 is tempting, but that is 4 ones, not 4 tens.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -276,7 +276,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "60 + 5" }
     ],
     answerId: "a",
-    explanation: "56 = 50 + 6.",
+    explanation: "56 has 5 tens and 6 ones, so 56 = 50 + 6. 5 + 6 is tempting, but the 5 stands for 5 tens, which is 50, not 5.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -289,7 +289,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "100" }
     ],
     answerId: "b",
-    explanation: "48 has fewer tens than 84.",
+    explanation: "48 has 4 tens and 84 has 8 tens, so 48 is smaller. 84 is tempting because it has the same digits, but its tens digit is bigger.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -302,7 +302,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "none" }
     ],
     answerId: "c",
-    explanation: "In 19, 9 is ones.",
+    explanation: "In 19, the 1 is in the tens place and the 9 is in the ones place. Tens is tempting because 9 is the bigger digit, but its place is ones.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -315,7 +315,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "92" }
     ],
     answerId: "d",
-    explanation: "9 tens + 2 ones = 92.",
+    explanation: "9 tens is 90, and 2 more ones make 92. 29 is tempting, but that swaps the tens and the ones.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "a",
-    explanation: "100 = 10 tens.",
+    explanation: "10 tens make 100, just as 10 ones make 1 ten. 1 is tempting, but that is how many hundreds are in 100, not tens.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b913" }
     ],
     answerId: "b",
-    explanation: "2 tens + 3 ones = \u20b923.",
+    explanation: "2 notes of ₹10 make ₹20, and 3 coins of ₹1 make ₹3, so the total is ₹23. ₹32 is tempting, but that swaps the tens and the ones.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2 ones" }
     ],
     answerId: "c",
-    explanation: "1 ten = 10 ones.",
+    explanation: "1 ten is a bundle of 10 ones. 100 ones is tempting, but 100 ones make 10 tens.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "d",
-    explanation: "35 = 30 + 5.",
+    explanation: "35 is 3 tens and 5 ones, so 35 = 30 + 5. 3 is tempting, but the 3 is already used in the 30.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "a",
-    explanation: "Put larger digit in tens: 82.",
+    explanation: "To make the greatest number, put the bigger digit, 8, in the tens place: 82. 28 is tempting, but that puts the smaller digit in the tens place and gives the least number.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "b",
-    explanation: "Smaller tens digit: 28.",
+    explanation: "To make the least number, put the smaller digit, 2, in the tens place: 28. 82 is tempting, but that is the greatest number you can make.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "c",
-    explanation: "Ones digit is 4.",
+    explanation: "44 is 4 tens and 4 ones, so it has 4 ones. 40 is tempting, but 40 is the value of the 4 tens.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "35" }
     ],
     answerId: "d",
-    explanation: "15 + 20 = 35.",
+    explanation: "2 tens is 20, and 15 + 20 = 35. 17 is tempting, but that adds 2 ones instead of 2 tens.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];

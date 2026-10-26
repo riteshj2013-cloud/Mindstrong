@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "rectangle" }
     ],
     answerId: "a",
-    explanation: "A ball is round like a circle.",
+    explanation: "A ball is round all over, like a circle. A square is tempting, but a square has straight sides and corners, and a ball has none.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "b",
-    explanation: "A triangle has 3 sides.",
+    explanation: "Trace a triangle with your finger: 1, 2, 3 straight sides. 4 is tempting, but 4 sides make a square or a rectangle.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "c",
-    explanation: "A square has 4 equal sides.",
+    explanation: "A square has 4 sides, and all 4 are the same length. 2 is tempting because a rectangle has pairs of equal sides, but in a square all 4 match.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "circle" }
     ],
     answerId: "d",
-    explanation: "A circle is smooth \u2014 no corners.",
+    explanation: "A circle is one smooth curve with no corners. A triangle is tempting because it is small, but it still has 3 pointy corners.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "b",
-    explanation: "A square has 4 corners.",
+    explanation: "Touch the corners of a square: 1, 2, 3, 4. 3 is tempting, but 3 corners make a triangle.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "oval" }
     ],
     answerId: "c",
-    explanation: "A pizza slice is triangle-shaped.",
+    explanation: "A pizza slice has a pointy tip and two straight sides that meet the crust, like a triangle. Circle is tempting because the whole pizza is round, but one slice is not.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "rectangle" }
     ],
     answerId: "d",
-    explanation: "Most doors are rectangles.",
+    explanation: "A door is tall with 4 straight sides and 4 corners, like a rectangle. A triangle is tempting because some roofs have that shape, but a door has 4 sides, not 3.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "rectangle" }
     ],
     answerId: "a",
-    explanation: "A triangle has 3 corners.",
+    explanation: "A triangle has 3 sides and 3 corners. A square is tempting, but a square has 4 corners.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6" }
     ],
     answerId: "c",
-    explanation: "A rectangle has 4 sides.",
+    explanation: "A rectangle has 4 straight sides: 2 long ones and 2 short ones. 2 is tempting if you count only the long sides.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "circle" }
     ],
     answerId: "d",
-    explanation: "A circle rolls.",
+    explanation: "A circle has no corners, so it can roll easily, like a wheel. A square is tempting, but its corners stop it from rolling.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "ovals" }
     ],
     answerId: "a",
-    explanation: "Corner-to-corner cuts make triangles.",
+    explanation: "Cutting a square sandwich from one corner to the opposite corner gives 2 triangles. Squares is tempting, but each piece now has only 3 corners.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "oval" }
     ],
     answerId: "b",
-    explanation: "Equal sides + 4 corners = square.",
+    explanation: "A square has 4 corners and all its sides are the same length. A triangle is tempting because its sides can be equal too, but it has only 3 corners.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "rectangle" }
     ],
     answerId: "d",
-    explanation: "Many window panes are rectangles.",
+    explanation: "A window pane usually has 4 straight sides and 4 corners, like a rectangle. Circle is tempting because some windows are round, but most panes are rectangles.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];
@@ -237,7 +237,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "line" }
     ],
     answerId: "b",
-    explanation: "Many warning boards are triangles.",
+    explanation: "Many traffic warning boards have 3 sides and 3 corners, like a triangle. Circle is tempting because some signs are round, but those usually tell you what not to do.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -250,7 +250,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "oval" }
     ],
     answerId: "c",
-    explanation: "A square\u2019s four corners match.",
+    explanation: "A square has 4 corners that are all the same. A triangle is tempting, but it has only 3 corners, not 4.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -263,7 +263,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "circle" }
     ],
     answerId: "d",
-    explanation: "A chapati is round like a circle.",
+    explanation: "A chapati is flat and round, like a circle. A square is tempting because some parathas are folded into squares, but a chapati is round.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -276,7 +276,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "three" }
     ],
     answerId: "a",
-    explanation: "Opposite sides of a rectangle are equal.",
+    explanation: "In a rectangle, the top and bottom sides match, and the two sides match too, so opposite sides are equal. 'Three' is tempting, but a rectangle has 4 sides, not 3.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -289,7 +289,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "b",
-    explanation: "Three corners on a triangle.",
+    explanation: "A triangle has 3 sides, and they meet at 3 corners. 4 is tempting, but 4 corners make a square or a rectangle.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -302,7 +302,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "moon" }
     ],
     answerId: "c",
-    explanation: "A box face can be a square.",
+    explanation: "A box face has 4 straight sides and 4 corners, and it can be a square. Circle is tempting, but a box face has corners and a circle has none.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -315,7 +315,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "circle" }
     ],
     answerId: "d",
-    explanation: "Coins are round circles.",
+    explanation: "A coin is flat and round, like a circle. A square is tempting, but a coin has no corners, which is why it can roll.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "rectangle" }
     ],
     answerId: "b",
-    explanation: "The cone tip is triangle-shaped.",
+    explanation: "An ice-cream cone gets narrower to a point at the tip, like the corner of a triangle. Circle is tempting because the top of the cone is round, but the tip is pointy.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "only at night" }
     ],
     answerId: "c",
-    explanation: "A circle has no corners.",
+    explanation: "A circle is one smooth curve, so it has no corners at all. 'Only two' is tempting, but a circle has no place where two straight sides meet.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "rectangle" }
     ],
     answerId: "d",
-    explanation: "Phone screens are rectangles.",
+    explanation: "A phone screen has 4 straight sides and 4 corners, longer one way, like a rectangle. Circle is tempting because some watch screens are round, but a phone screen is not.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "ball" }
     ],
     answerId: "a",
-    explanation: "Three sticks can make a triangle.",
+    explanation: "Three sticks joined end to end make 3 sides and 3 corners: a triangle. Circle is tempting, but sticks are straight and cannot bend into a round shape.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "oval" }
     ],
     answerId: "b",
-    explanation: "Square starts with S.",
+    explanation: "Square begins with the sound S. Circle is tempting because it sounds like it starts with S, but it is spelt with a C.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "box" }
     ],
     answerId: "c",
-    explanation: "A bangle is round \u2014 a circle.",
+    explanation: "A bangle is round, like a circle. Box is tempting because bangles are kept in one, but a box has corners and a bangle has none.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

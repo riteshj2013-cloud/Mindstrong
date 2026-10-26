@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "18" }
     ],
     answerId: "a",
-    explanation: "12 + 5 = 17.",
+    explanation: "12 + 5 = 17: start at 12 and count on 5. 16 is tempting if you stop one count too soon.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "b",
-    explanation: "20 \u2212 4 = 16.",
+    explanation: "20 − 4 = 16: start at 20 and count back 4. 24 is tempting, but that adds 4 instead of taking it away.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "c",
-    explanation: "15 + 10 = 25.",
+    explanation: "15 + 10 = 25: adding 1 ten turns 1 ten into 2 tens, and the 5 ones stay. 5 is tempting, but that takes away instead of adding.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "d",
-    explanation: "18 \u2212 8 = 10.",
+    explanation: "18 − 8 = 10: start at 18 and count back 8. 26 is tempting, but that adds 8 instead of taking it away.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "13" }
     ],
     answerId: "a",
-    explanation: "9 + 6 = 15.",
+    explanation: "9 + 6 = 15: start at 9 and count on 6. 14 is tempting if you stop one count too soon.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "19" }
     ],
     answerId: "b",
-    explanation: "14 \u2212 5 = 9.",
+    explanation: "14 − 5 = 9: start at 14 and count back 5. 19 is tempting, but that adds 5 instead of taking it away.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "c",
-    explanation: "20 \u2212 3 = 17.",
+    explanation: "Riya gives some pencils away, so take away: 20 − 3 = 17. 23 is tempting, but that adds 3 instead of taking them away.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "d",
-    explanation: "7 + 8 = 15.",
+    explanation: "7 + 8 = 15: start at 8 and count on 7. 14 is tempting if you stop one count too soon.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "25" }
     ],
     answerId: "a",
-    explanation: "30 \u2212 10 = 20.",
+    explanation: "30 − 10 = 20: 3 tens take away 1 ten leaves 2 tens. 40 is tempting, but that adds 10 instead of taking it away.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "b",
-    explanation: "11 + 11 = 22.",
+    explanation: "11 + 11 = 22: 1 ten + 1 ten = 2 tens, and 1 one + 1 one = 2 ones. 12 is tempting, but that adds only 1 to 11 instead of all of 11.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b93" }
     ],
     answerId: "c",
-    explanation: "8 + 5 = \u20b913.",
+    explanation: "Buying both means adding: ₹8 + ₹5 = ₹13. ₹3 is tempting, but that is the difference in price, not the total.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "d",
-    explanation: "25 \u2212 5 = 20.",
+    explanation: "25 − 5 = 20: start at 25 and count back 5. 30 is tempting, but that adds 5 instead of taking it away.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "a",
-    explanation: "16 + 4 = 20.",
+    explanation: "16 + 4 = 20: start at 16 and count on 4. 12 is tempting, but that takes away instead of adding.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "11" }
     ],
     answerId: "b",
-    explanation: "19 \u2212 9 = 10.",
+    explanation: "19 − 9 = 10: start at 19 and count back 9. 28 is tempting, but that adds 9 instead of taking it away.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "17" }
     ],
     answerId: "c",
-    explanation: "13 + 6 = 19.",
+    explanation: "13 + 6 = 19: start at 13 and count on 6. 18 is tempting if you stop one count too soon.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10 \u2212 3 = 7" }
     ],
     answerId: "d",
-    explanation: "10 \u2212 3 = 7.",
+    explanation: "Count back 3 from 10: 9, 8, 7, so 10 − 3 = 7. 10 − 3 = 13 is tempting, but that adds 3 instead of taking it away.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];
@@ -224,7 +224,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "a",
-    explanation: "14 + 5 = 19.",
+    explanation: "14 + 5 = 19: start at 14 and count on 5. 18 is tempting if you stop one count too soon.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -237,7 +237,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "b",
-    explanation: "22 \u2212 2 = 20.",
+    explanation: "22 − 2 = 20: start at 22 and count back 2. 24 is tempting, but that adds 2 instead of taking it away.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -250,7 +250,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "c",
-    explanation: "8 + 9 = 17.",
+    explanation: "8 + 9 = 17: start at 9 and count on 8. 16 is tempting if you stop one count too soon.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -263,7 +263,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "d",
-    explanation: "17 \u2212 7 = 10.",
+    explanation: "17 − 7 = 10: start at 17 and count back 7. 24 is tempting, but that adds 7 instead of taking it away.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -276,7 +276,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "a",
-    explanation: "21 + 4 = 25.",
+    explanation: "21 + 4 = 25: start at 21 and count on 4. 24 is tempting if you stop one count too soon.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -289,7 +289,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "21" }
     ],
     answerId: "b",
-    explanation: "15 \u2212 6 = 9.",
+    explanation: "15 − 6 = 9: start at 15 and count back 6. 21 is tempting, but that adds 6 instead of taking it away.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -302,7 +302,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b915" }
     ],
     answerId: "c",
-    explanation: "30 \u2212 10 = \u20b920.",
+    explanation: "Kabir spends money, so take away: ₹30 − ₹10 = ₹20. ₹40 is tempting, but that adds the ₹10 instead of taking it away.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -315,7 +315,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "13" }
     ],
     answerId: "d",
-    explanation: "6 + 7 = 13.",
+    explanation: "6 + 7 = 13: start at 7 and count on 6. 12 is tempting if you stop one count too soon.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "a",
-    explanation: "40 \u2212 20 = 20.",
+    explanation: "40 − 20 = 20: 4 tens take away 2 tens leaves 2 tens. 60 is tempting, but that adds 20 instead of taking it away.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "b",
-    explanation: "12 + 12 = 24.",
+    explanation: "12 + 12 = 24: 1 ten + 1 ten = 2 tens, and 2 ones + 2 ones = 4 ones. 22 is tempting, but that adds only the ten of the second 12 and forgets its 2 ones.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b930" }
     ],
     answerId: "c",
-    explanation: "15 + 10 = \u20b925.",
+    explanation: "Buying both means adding: ₹15 + ₹10 = ₹25. ₹5 is tempting, but that is the difference in price, not the total.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "d",
-    explanation: "28 \u2212 8 = 20.",
+    explanation: "28 − 8 = 20: start at 28 and count back 8. 36 is tempting, but that adds 8 instead of taking it away.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "17" }
     ],
     answerId: "a",
-    explanation: "9 + 9 = 18.",
+    explanation: "9 + 9 = 18: start at 9 and count on 9. 17 is tempting if you stop one count too soon.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "b",
-    explanation: "16 \u2212 6 = 10.",
+    explanation: "16 − 6 = 10: start at 16 and count back 6. 22 is tempting, but that adds 6 instead of taking it away.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "18" }
     ],
     answerId: "c",
-    explanation: "23 + 5 = 28.",
+    explanation: "23 + 5 = 28: start at 23 and count on 5. 18 is tempting, but that takes away instead of adding.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "12 + 3 = 15" }
     ],
     answerId: "d",
-    explanation: "12 + 3 = 15.",
+    explanation: "Count on 3 from 12: 13, 14, 15, so 12 + 3 = 15. 12 + 3 = 14 is tempting if you stop one count too soon.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];
