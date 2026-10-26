@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "be" }
     ],
     answerId: "b",
-    explanation: "They takes are.",
+    explanation: "They means more than one, so we say 'They are playing.' 'Is' is tempting because we say 'He is playing', but 'is' goes with one person.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "walking" }
     ],
     answerId: "c",
-    explanation: "Walked is past tense.",
+    explanation: "Walked is the past tense of walk. 'Walking' is tempting because it also changes the word, but it is used for an action that is happening.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "noun" }
     ],
     answerId: "d",
-    explanation: "A noun names a person, place or thing.",
+    explanation: "A noun names a person, place or thing. 'Verb' is tempting because it is another word type we learn, but a verb shows an action.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "under" }
     ],
     answerId: "a",
-    explanation: "Happy describes a feeling.",
+    explanation: "Happy is a describing word because it tells how someone feels. 'School' is tempting because it is a common word, but it names a place.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "are" }
     ],
     answerId: "b",
-    explanation: "I have finished\u2026",
+    explanation: "With I we use have: 'I have finished my homework.' 'Has' is tempting because it means the same, but 'has' goes with he, she or it.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "went" }
     ],
     answerId: "d",
-    explanation: "Yesterday \u2192 past \u2192 went.",
+    explanation: "Yesterday is in the past, so we use went. 'Go' is tempting because it is the main word, but it is for now, not yesterday.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "sentence" }
     ],
     answerId: "a",
-    explanation: "Adjectives describe nouns.",
+    explanation: "An adjective describes a noun, like 'red ball'. 'Verb' is tempting because words can describe actions too, but those describing words are adverbs.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "sang" }
     ],
     answerId: "b",
-    explanation: "Now \u2192 is singing.",
+    explanation: "'Now' tells us the action is happening at this moment, so 'She is singing a song now.' 'Sings' is tempting because it goes with she, but it is for something she does often, not right now.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "they" }
     ],
     answerId: "c",
-    explanation: "Rani is a girl \u2192 she.",
+    explanation: "Rani is a girl, so we use she. 'They' is tempting because it is also a pronoun, but they is for more than one person.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "slowly" }
     ],
     answerId: "a",
-    explanation: "Where asks about place.",
+    explanation: "Where is a question word; it asks about a place. 'Quietly' is tempting because it is a 'how' word, but it describes an action; it does not ask.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "daily" }
     ],
     answerId: "b",
-    explanation: "Never is the opposite of always.",
+    explanation: "Never is the opposite of always. 'Sometimes' is tempting because it is in between, but the opposite of always is never.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "softness" }
     ],
     answerId: "c",
-    explanation: "soft + ly = softly (how).",
+    explanation: "soft + ly makes softly, which tells how something is done. 'Softness' is tempting because it is also made from soft, but it adds -ness, not -ly.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "What is your name?" }
     ],
     answerId: "d",
-    explanation: "Questions end with ?",
+    explanation: "A question ends with a question mark: 'What is your name?' 'What is your name.' is tempting because it has a capital and an end mark, but a full stop is for telling sentences.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];
@@ -237,7 +237,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "be" }
     ],
     answerId: "b",
-    explanation: "We takes are.",
+    explanation: "We means more than one, so we say 'We are ready.' 'Am' is tempting because 'we' includes me, but 'am' goes only with I.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -250,7 +250,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "jumping" }
     ],
     answerId: "c",
-    explanation: "Jumped is past.",
+    explanation: "Jumped is the past tense of jump. 'Jumping' is tempting because it also changes the word, but it is used for an action that is happening.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -263,7 +263,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "action" }
     ],
     answerId: "d",
-    explanation: "Verbs show actions.",
+    explanation: "A verb shows an action, like run or eat. 'Object' is tempting because actions are done to things, but a naming word for a thing is a noun.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -289,7 +289,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "am" }
     ],
     answerId: "b",
-    explanation: "She has done\u2026",
+    explanation: "With she we use has: 'She has done her work.' 'Have' is tempting because it means the same, but 'have' goes with I, you, we and they.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -315,7 +315,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "played" }
     ],
     answerId: "d",
-    explanation: "Last evening \u2192 past \u2192 played.",
+    explanation: "'Last evening' is in the past, so we say 'They played football.' 'Play' is tempting because it goes with they, but it is for now, not the past.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "be" }
     ],
     answerId: "b",
-    explanation: "He is reading\u2026",
+    explanation: "With he we use is: 'He is reading a book now.' 'Are' is tempting because the action is happening now, but 'are' goes with you, we and they.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "near" }
     ],
     answerId: "a",
-    explanation: "Late is the opposite of early.",
+    explanation: "Late is the opposite of early. 'Soon' is tempting because it is also a time word, but soon means in a short while, not the opposite of early.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "careless" }
     ],
     answerId: "b",
-    explanation: "care + ful = careful.",
+    explanation: "care + ful makes careful. 'Careless' is tempting because it is also made from care, but it adds -less and means the opposite.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "," }
     ],
     answerId: "c",
-    explanation: "Strong feeling \u2192 !",
+    explanation: "'Wow, that is great!' shows a strong feeling, so it ends with !. A full stop is tempting because the sentence tells something, but strong feelings take an exclamation mark.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "nouns" }
     ],
     answerId: "d",
-    explanation: "Articles come before nouns.",
+    explanation: "Articles a, an and the come before nouns: a cat, the sun. 'Pronouns' is tempting because they stand for nouns, but we never say 'a he' or 'the she'.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];

@@ -22,7 +22,7 @@ export const G1_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g1-sci-plants-b-q05": ["Plants are living, like pets.", "What should we do for plants so they stay healthy?"],
   "g1-sci-plants-b-q06": ["Hold a leaf in your hand.", "Think about a leaf's shape and its colour."],
   "g1-sci-plants-b-q09": ["Roots go down into the soil.", "What does soil give roots and the plant?"],
-  "g1-sci-plants-b-q11": ["Dry leaves fall at one time of year.", "Think of the season when trees look bare."],
+  "g1-sci-plants-b-q11": ["Dry leaves fall at one time of year.", "Think of the season that comes just before trees stand bare."],
   "g1-sci-plants-b-q12": ["The green colour in leaves catches sunlight.", "Leaves use sunlight to feed the plant. What do they make?"],
   "g1-sci-plants-b-q15": ["Touch a rose stem carefully.", "Thorns are sharp. What can a sharp thorn do to a finger?"],
   "g1-sci-plants-b-q16": ["Plants help us breathe.", "Trees make the air around us better. What do plants give us?"],

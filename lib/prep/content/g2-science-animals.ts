@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "rocks" }
     ],
     answerId: "a",
-    explanation: "Herbivores eat plants.",
+    explanation: "Animals that eat only plants are herbivores. Carnivores is tempting because it sounds similar, but carnivores eat other animals.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "stones" }
     ],
     answerId: "b",
-    explanation: "Carnivores eat other animals.",
+    explanation: "Animals that eat other animals are carnivores. Herbivores is tempting because it sounds similar, but herbivores eat only plants.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "gills" }
     ],
     answerId: "d",
-    explanation: "Fish breathe with gills.",
+    explanation: "Fish breathe with gills that take oxygen from water. 'Lungs like us' is tempting, but lungs breathe air; fish live under water.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "insect" }
     ],
     answerId: "a",
-    explanation: "Cows eat grass \u2014 herbivores.",
+    explanation: "A cow eats grass and plants, so it is a herbivore. Carnivore is tempting because cows are big, but a carnivore eats meat.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "cow" }
     ],
     answerId: "b",
-    explanation: "Some bears hibernate in cold weather.",
+    explanation: "Some bears hibernate, sleeping through the cold months. A camel is tempting because it can go a long time without water, but it does not sleep through winter.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "c",
-    explanation: "Insects have 6 legs.",
+    explanation: "Insects have 6 legs. 8 is tempting because spiders look like insects, but spiders are not insects; they have 8 legs.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "tadpole" }
     ],
     answerId: "d",
-    explanation: "A young frog is a tadpole.",
+    explanation: "A frog's young one is a tadpole. A cub is tempting because it is a young animal too, but a cub is a young lion or bear.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "clothes" }
     ],
     answerId: "a",
-    explanation: "Animals need air and shelter too.",
+    explanation: "Animals need food, water, air and shelter. Toys are tempting because pets play with them, but animals can live without toys.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "deer" }
     ],
     answerId: "b",
-    explanation: "Humans can eat plants and animals.",
+    explanation: "A human is an omnivore, eating both plants and animals. A tiger is tempting, but it eats only meat, so it is a carnivore.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "beaks" }
     ],
     answerId: "c",
-    explanation: "Camels have humps with fat.",
+    explanation: "Camels store fat in their humps. Wings and fins belong to birds and fish; a camel has neither.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "sheep" }
     ],
     answerId: "d",
-    explanation: "Sheep give wool.",
+    explanation: "Sheep give us wool. An eagle is tempting because it has soft feathers, but feathers are not wool.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "all day" }
     ],
     answerId: "a",
-    explanation: "Nocturnal means active at night.",
+    explanation: "Nocturnal animals are active at night, like owls. 'All day' is tempting, but those are diurnal animals, active in daylight.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "lions" }
     ],
     answerId: "b",
-    explanation: "Birds live in nests.",
+    explanation: "Birds build nests to live in and lay eggs. Fish is tempting because some fish guard eggs, but a nest is a bird's home.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "more roads" }
     ],
     answerId: "c",
-    explanation: "Endangered animals need protection.",
+    explanation: "Endangered animals need protection so they do not die out. 'More roads' is tempting if you think roads help people reach animals, but roads cut through forests and harm them.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "dog" }
     ],
     answerId: "d",
-    explanation: "A dog has a backbone.",
+    explanation: "A dog has a backbone. A worm is tempting because it is long like a spine, but it is soft with no bones at all.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];
@@ -224,7 +224,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "rocks" }
     ],
     answerId: "a",
-    explanation: "Deer are herbivores.",
+    explanation: "Deer eat plants, so they are herbivores. Carnivores is tempting because it sounds similar, but carnivores eat meat.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -237,7 +237,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "insect" }
     ],
     answerId: "b",
-    explanation: "Tigers eat meat \u2014 carnivores.",
+    explanation: "A tiger eats other animals, so it is a carnivore. Omnivore is tempting, but an omnivore eats plants too, and tigers do not.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -250,7 +250,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "clawed" }
     ],
     answerId: "c",
-    explanation: "Webbed feet help ducks swim.",
+    explanation: "Ducks have webbed feet that push water like paddles. Clawed is tempting because ducks have small claws, but the skin between their toes is what helps them swim.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -263,7 +263,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "mammals that live in water" }
     ],
     answerId: "d",
-    explanation: "Whales are water mammals.",
+    explanation: "Whales are mammals that live in water; they breathe air and feed milk to their young. 'Fish with scales' is tempting because they swim, but whales have no scales and breathe with lungs.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -276,7 +276,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "hens" }
     ],
     answerId: "a",
-    explanation: "Bees make honey.",
+    explanation: "Bees make honey from the nectar of flowers. Cows are tempting because they give us milk, but they do not make honey.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -289,7 +289,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "change colour" }
     ],
     answerId: "b",
-    explanation: "Migration is seasonal travel.",
+    explanation: "Migration means animals travel to new places as the seasons change. 'Sleep all winter' is tempting, but that is hibernation, not travelling.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -302,7 +302,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "c",
-    explanation: "Spiders have 8 legs.",
+    explanation: "Spiders have 8 legs. 6 is tempting because insects have 6, but spiders are not insects.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -315,7 +315,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "butterfly" }
     ],
     answerId: "d",
-    explanation: "Caterpillar becomes a butterfly.",
+    explanation: "A caterpillar grows into a butterfly. A frog is tempting because a tadpole also changes shape, but a tadpole, not a caterpillar, becomes a frog.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "cages" }
     ],
     answerId: "a",
-    explanation: "Pets need food and care.",
+    explanation: "Pets need regular food and care. Toys are tempting because pets enjoy playing, but food and care are what keep them alive.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "shark" }
     ],
     answerId: "b",
-    explanation: "Rabbits may live in burrows.",
+    explanation: "A rabbit digs a burrow under the ground to live in. An eagle is tempting because it also makes a home, but it builds a nest high up.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "make honey" }
     ],
     answerId: "c",
-    explanation: "Trunks help pick food and drink.",
+    explanation: "Elephants use their trunks to pick up food and drink water. 'Lay eggs' is tempting if you mix up animals, but elephants give birth to babies.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "silkworm" }
     ],
     answerId: "d",
-    explanation: "Silkworms give silk.",
+    explanation: "Silk comes from the cocoon of the silkworm. A goat is tempting because some goats give soft hair for cloth, but that is wool, not silk.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "hibernating" }
     ],
     answerId: "a",
-    explanation: "Diurnal means active by day.",
+    explanation: "Animals active by day are diurnal. Nocturnal is tempting because it is the other well-known word, but it means active at night.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "cows" }
     ],
     answerId: "b",
-    explanation: "Bees live in a hive.",
+    explanation: "A hive is a home for bees. Lions are tempting because their group has a special name, a pride, but their home is a den, not a hive.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "protect" }
     ],
     answerId: "c",
-    explanation: "Do not hurt wild animals.",
+    explanation: "We should not hurt or tease wild animals. 'Protect' is tempting because the sentence says 'should not', but protecting wild animals is a good thing to do.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "hen" }
     ],
     answerId: "d",
-    explanation: "Hens lay eggs.",
+    explanation: "A hen lays eggs. A cow is tempting because it is a farm animal that gives us food, but a cow gives birth to calves.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];

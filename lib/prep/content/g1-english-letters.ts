@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "E" }
     ],
     answerId: "b",
-    explanation: "A, B, C \u2014 C comes after B.",
+    explanation: "A, B, C: C comes right after B. A is tempting because it is next to B, but A comes before B, not after.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "dog" }
     ],
     answerId: "c",
-    explanation: "Moon starts with M.",
+    explanation: "Moon starts with M. 'Sun' is tempting because the sun and moon go together, but sun starts with S.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "cat" }
     ],
     answerId: "d",
-    explanation: "c + at makes cat.",
+    explanation: "c + at makes cat. 'Bat' is tempting because it also ends in -at, but it starts with b, not c.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "b",
-    explanation: "A is a letter of the alphabet.",
+    explanation: "A is a letter of the alphabet. 10 is tempting because it is written with signs too, but it is a number, not a letter.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "a",
-    explanation: "S-U-N has 3 letters.",
+    explanation: "S-U-N has 3 letters. 2 is tempting if you miss the middle letter U, but count each one: S, U, N.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "bee" }
     ],
     answerId: "c",
-    explanation: "Bag ends with g.",
+    explanation: "Bag ends with g. 'Bat' is tempting because it starts the same way, but it ends with t.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "E" }
     ],
     answerId: "a",
-    explanation: "The capital of a is A.",
+    explanation: "The capital of a is A. The small 'a' is tempting because it is the same letter, but it is the small form, not the capital.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "cat" }
     ],
     answerId: "d",
-    explanation: "A cat meows.",
+    explanation: "A cat is a pet that meows. 'Dog' is tempting because it is also a pet, but a dog barks.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "cup" }
     ],
     answerId: "a",
-    explanation: "Cat rhymes with hat.",
+    explanation: "Cat rhymes with hat because both end in -at. 'Hot' is tempting because it starts with h like hat, but rhyming words share the end sound, not the start.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "A" }
     ],
     answerId: "b",
-    explanation: "INDIA starts with I.",
+    explanation: "INDIA starts with I. N is tempting because it is the next letter, but the first letter is I.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "##" }
     ],
     answerId: "c",
-    explanation: "Book is a real word.",
+    explanation: "Book is a real word. 'xyzq' is tempting because it is made of letters, but it is not a word we can read or say.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "b" }
     ],
     answerId: "d",
-    explanation: "Ball starts with /b/.",
+    explanation: "Ball starts with the /b/ sound. 'd' is tempting because b and d look alike, but ball starts with b.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6" }
     ],
     answerId: "a",
-    explanation: "A E I O U \u2014 five vowels.",
+    explanation: "A, E, I, O, U: there are 5 vowels in the list. 4 is tempting if you miss one, so count them one by one.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "l" }
     ],
     answerId: "b",
-    explanation: "Small form of T is t.",
+    explanation: "The small form of T is t. 'l' is tempting because it is also a tall straight line, but t has a cross line and l does not.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "sit" }
     ],
     answerId: "c",
-    explanation: "Red is a colour.",
+    explanation: "Red is a colour. 'Cup' is tempting because cups come in colours, but cup names a thing, not a colour.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "blue" }
     ],
     answerId: "d",
-    explanation: "bl + ue = blue.",
+    explanation: "bl + ue makes blue. 'Glue' is tempting because it also ends in -ue, but it starts with gl, not bl.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];
@@ -224,7 +224,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "F" }
     ],
     answerId: "b",
-    explanation: "C comes before D.",
+    explanation: "C comes just before D. B is tempting because it is also before D, but it is two places before; C is right before.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -237,7 +237,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "egg" }
     ],
     answerId: "c",
-    explanation: "Sun starts with S.",
+    explanation: "Sun starts with S. 'Moon' is tempting because the sun and moon go together, but moon starts with M.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -250,7 +250,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "pen" }
     ],
     answerId: "d",
-    explanation: "p + en = pen.",
+    explanation: "p + en makes pen. 'Pin' is tempting because it starts with p too, but it ends in -in, not -en.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -263,7 +263,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "a",
-    explanation: "D-O-G has 3 letters.",
+    explanation: "D-O-G has 3 letters. 2 is tempting if you miss the middle letter O, but count each one: D, O, G.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -276,7 +276,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "sun" }
     ],
     answerId: "c",
-    explanation: "Cat ends with t.",
+    explanation: "Cat ends with t. 'Cup' is tempting because it starts with c like cat, but it ends with p.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -289,7 +289,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "P" }
     ],
     answerId: "a",
-    explanation: "Capital of b is B.",
+    explanation: "The capital of b is B. D is tempting because the small b and capital D look alike, but the capital of b is B.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -302,7 +302,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "cow" }
     ],
     answerId: "d",
-    explanation: "A cow says moo.",
+    explanation: "A cow says moo. 'Dog' is tempting because it is also a common animal, but a dog barks.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -315,7 +315,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "map" }
     ],
     answerId: "a",
-    explanation: "Fun rhymes with sun.",
+    explanation: "Fun rhymes with sun because both end in -un. 'Sit' is tempting because it starts with s like sun, but rhyming words share the end sound.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "E" }
     ],
     answerId: "b",
-    explanation: "APPLE starts with A.",
+    explanation: "APPLE starts with A. P is tempting because it comes twice in the word, but the first letter is A.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "K" }
     ],
     answerId: "c",
-    explanation: "7 is a number, not a letter.",
+    explanation: "7 is a number, not a letter. Z is tempting because it is at the very end of the alphabet and looks a bit like a 7, but it is still a letter.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "s" }
     ],
     answerId: "b",
-    explanation: "Tree starts with t.",
+    explanation: "Tree starts with t. 'r' is tempting because you hear it early in tree, but t comes first.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "d",
-    explanation: "Y-E-S has 3 letters.",
+    explanation: "Y-E-S has 3 letters. 2 is tempting because the word is short, but count each one: Y, E, S.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "rain" }
     ],
     answerId: "a",
-    explanation: "Mango is a fruit.",
+    explanation: "A mango is a fruit. 'Rain' is tempting because it helps fruits grow, but rain is not a fruit.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "y" }
     ],
     answerId: "b",
-    explanation: "Small form of G is g.",
+    explanation: "The small form of G is g. 'q' is tempting because it looks like g with a tail, but the small g curls the other way.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "hip" }
     ],
     answerId: "c",
-    explanation: "sh + ip = ship.",
+    explanation: "sh + ip makes ship. 'Sip' is tempting because it also ends in -ip, but it starts with s, not sh.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "on" }
     ],
     answerId: "d",
-    explanation: "On has two letters: o, n.",
+    explanation: "On has 2 letters: o and n. 'Cat' is tempting because it is a short word, but it has 3 letters.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];
