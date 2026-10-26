@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "ice" }
     ],
     answerId: "a",
-    explanation: "Seeds need water and warmth to sprout.",
+    explanation: "Seeds need water and warmth to sprout. Ice is tempting because it is frozen water, but it is too cold for a seed to start growing.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "flowers" }
     ],
     answerId: "b",
-    explanation: "Leaves use sunlight to make food.",
+    explanation: "Leaves make food using sunlight. Moonlight is tempting because it is light too, but it is far too weak for leaves to make food.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "in shoes" }
     ],
     answerId: "c",
-    explanation: "Roots grow under the soil.",
+    explanation: "Roots grow mostly under the soil. 'Above the soil' is tempting because a few plants show some roots, but most roots stay underground.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "flower" }
     ],
     answerId: "d",
-    explanation: "A flower can become a fruit.",
+    explanation: "After a flower is pollinated, it can become a fruit. The stem is tempting because fruits hang from it, but the stem only holds the fruit.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "onion" }
     ],
     answerId: "a",
-    explanation: "Carrot is a root we eat.",
+    explanation: "We eat the root of a carrot. An onion is tempting because it also grows underground, but the onion we eat is a swollen bud of leaves, not a root.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "books" }
     ],
     answerId: "b",
-    explanation: "The stem carries water up.",
+    explanation: "The stem carries water up from the roots to the leaves. Stones are tempting because they are in the soil, but a stem carries only water and food.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "carbon dioxide" }
     ],
     answerId: "c",
-    explanation: "Plants give out oxygen.",
+    explanation: "Plants take in carbon dioxide and give out oxygen. Carbon dioxide is tempting because it is in the question, but that is the gas plants take in, not give out.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "support" }
     ],
     answerId: "d",
-    explanation: "Climbers need support to grow up.",
+    explanation: "A climber plant needs support, like a wall or stick, to grow upwards. Wheels and batteries are things machines need, not plants.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "mango" }
     ],
     answerId: "a",
-    explanation: "Wheat is a cereal plant.",
+    explanation: "Wheat is a cereal plant that gives us grain for chapatis. Mango is tempting because it is a food plant too, but it is a fruit tree, not a cereal.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "grow leaves in the jar" }
     ],
     answerId: "b",
-    explanation: "Dry seeds can stay dormant until watered.",
+    explanation: "Dry seeds in a jar may stay dormant, resting until they get water. 'Always sprout at once' is tempting because seeds grow, but without water they cannot start.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "brown" }
     ],
     answerId: "c",
-    explanation: "Chlorophyll is green.",
+    explanation: "Chlorophyll makes leaves look green. Yellow is tempting because old leaves turn yellow, but that happens when chlorophyll fades away.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "wind and animals" }
     ],
     answerId: "d",
-    explanation: "Wind and animals can scatter seeds.",
+    explanation: "Wind and animals carry seeds to new places. 'Only sunlight' is tempting because plants need sun, but sunlight cannot move a seed.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "root" }
     ],
     answerId: "a",
-    explanation: "Potato is an underground stem.",
+    explanation: "A potato grows underground but is a stem: it has eyes that grow new shoots. Root is tempting because it is underground, but roots do not have eyes.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "creepers" }
     ],
     answerId: "b",
-    explanation: "Lotus is an aquatic plant.",
+    explanation: "Plants that grow in water, like the lotus, are aquatic plants. Creepers is tempting because the lotus spreads, but creepers spread along the ground, not in water.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "protect" }
     ],
     answerId: "c",
-    explanation: "Do not harm plants carelessly.",
+    explanation: "We should not pluck or harm plants carelessly. 'Water' is tempting because the sentence says 'should not', but watering helps plants, so we should do it.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "leaf" }
     ],
     answerId: "d",
-    explanation: "Photosynthesis happens in the leaf.",
+    explanation: "Photosynthesis, making food with sunlight, mainly happens in the leaf. The flower is tempting because it is a bright part of the plant, but it makes seeds, not food.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];
@@ -224,7 +224,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "seed" }
     ],
     answerId: "a",
-    explanation: "A seedling is a young plant.",
+    explanation: "A seedling is a young plant that has just grown from a seed. 'Seed' is tempting because the words look alike, but the seedling is what comes out of the seed.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -237,7 +237,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "metal" }
     ],
     answerId: "b",
-    explanation: "Colour and smell attract insects.",
+    explanation: "Flowers attract insects with bright colour and sweet smell. Noise machines are tempting if you think sound calls insects, but flowers make no sound.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -250,7 +250,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "flower" }
     ],
     answerId: "c",
-    explanation: "The stem holds the plant up.",
+    explanation: "The stem holds the plant upright. The leaf is tempting because it is a big part, but leaves make food; they do not hold the plant up.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -263,7 +263,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "inside the fruit" }
     ],
     answerId: "d",
-    explanation: "The seed is inside the mango fruit.",
+    explanation: "A mango seed is found inside the fruit. 'On the bark' is tempting because mangoes grow on trees, but the seed is inside the fruit we eat.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -276,7 +276,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "mango" }
     ],
     answerId: "a",
-    explanation: "Spinach leaves are eaten.",
+    explanation: "We eat the leaves of spinach. Carrot is tempting because it is a vegetable too, but we eat its root, not its leaf.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -289,7 +289,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "petrol" }
     ],
     answerId: "b",
-    explanation: "Sunlight is needed with air and water.",
+    explanation: "Plants need air, water and sunlight. Petrol is tempting because machines need it to run, but plants get energy from the sun.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -302,7 +302,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "thorns" }
     ],
     answerId: "c",
-    explanation: "Cactus stems store water.",
+    explanation: "A cactus stores water in its thick stem. Thorns are tempting because they are the cactus's best-known part, but thorns are thin and hold no water.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -315,7 +315,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "video games" }
     ],
     answerId: "d",
-    explanation: "Video games are not a plant need.",
+    explanation: "Video games are not something a plant needs. Air is tempting because we cannot see it, but plants do need air, as well as water and light.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "plastic" }
     ],
     answerId: "a",
-    explanation: "Trees give shade and help the air.",
+    explanation: "Trees give us shade and fresh air. Smoke is tempting because burning wood makes smoke, but a living tree cleans the air.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -341,20 +341,20 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "becomes a fish" }
     ],
     answerId: "b",
-    explanation: "Germination is when a seed starts to grow.",
+    explanation: "Germination means a seed starts to grow: a tiny root pushes down and a shoot pushes up. 'Turns to metal' and 'becomes a fish' can never happen, because a seed always grows into a plant.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g2-sci-plants-b-q11",
-    prompt: "The green food made by leaves travels through the\u2026",
+    prompt: "The food made by the leaves travels through the…",
     options: [
-      { id: "a", text: "the soil" },
-      { id: "b", text: "the air" },
+      { id: "a", text: "soil" },
+      { id: "b", text: "air" },
       { id: "c", text: "stem" },
-      { id: "d", text: "the flowers" }
+      { id: "d", text: "flowers" }
     ],
     answerId: "c",
-    explanation: "Food moves through the stem.",
+    explanation: "The food made by leaves travels through the stem to the roots and other parts. Flowers are tempting because they also get food, but they receive it; the stem is the path it travels through.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "lotus" }
     ],
     answerId: "d",
-    explanation: "Lotus grows in water.",
+    explanation: "The lotus grows in water. The pine is tempting because it is a tall green plant, but it grows on land, often on hills.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "plastic" }
     ],
     answerId: "a",
-    explanation: "Farmers grow plants for food.",
+    explanation: "Farmers grow plants for food. Dust is tempting because farm fields are dusty, but dust is not what farmers grow.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "plastic" }
     ],
     answerId: "b",
-    explanation: "Leaves can break down into compost.",
+    explanation: "Fallen leaves slowly break down into compost that feeds the soil. Glass is tempting because dry leaves crackle, but leaves rot; they never turn into glass.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "fly planes" }
     ],
     answerId: "c",
-    explanation: "Tendrils help plants climb.",
+    explanation: "A tendril is a thin curly part that wraps around a support to help a plant climb. 'Swim' is tempting if you think of water plants, but tendrils hold on, they do not swim.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "become weak" }
     ],
     answerId: "d",
-    explanation: "No light \u2192 plant becomes weak.",
+    explanation: "Without sunlight for a long time, a green plant cannot make food, so it becomes weak. A plant can never turn into a car, start singing or become a fish.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];

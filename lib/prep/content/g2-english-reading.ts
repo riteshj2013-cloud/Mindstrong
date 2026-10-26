@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "every evening" }
     ],
     answerId: "a",
-    explanation: "The sentence says every morning.",
+    explanation: "The sentence says Tina waters the plants every morning. 'Every evening' is tempting because it also means every day, but the sentence says morning, not evening.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "in a cup" }
     ],
     answerId: "b",
-    explanation: "Under the table \u2014 from the sentence.",
+    explanation: "The sentence says the puppy hid under the table. 'On the roof' is tempting because it is also a place in a house, but the sentence says under the table.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "sold his lunch" }
     ],
     answerId: "c",
-    explanation: "He shared his lunch with Meena.",
+    explanation: "The sentence says Rohan shared his lunch with Meena. 'Sold his lunch' is tempting because Meena got the lunch, but sharing means giving some for free.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "to stay dry in rain" }
     ],
     answerId: "d",
-    explanation: "A raincoat keeps us dry in the rain.",
+    explanation: "We wear a raincoat to stay dry in the rain. 'To keep the sun away' is tempting because a raincoat covers us, but for the sun we use a cap or umbrella.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "after school" }
     ],
     answerId: "a",
-    explanation: "At bedtime \u2014 from the sentence.",
+    explanation: "The sentence says Grandma tells stories at bedtime. 'In the morning' is tempting because stories can be told any time, but the sentence names bedtime.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "he lost a shoe for fun" }
     ],
     answerId: "b",
-    explanation: "Because the bus was late.",
+    explanation: "The word 'so' tells us why: the bus was late, so Kabir ran. 'He was sleepy' is tempting because people rush when they wake up late, but the sentence does not say he was sleepy.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "She hid her friend's book." }
     ],
     answerId: "c",
-    explanation: "Helping a friend is kind.",
+    explanation: "Helping a friend shows kindness. 'She hid her friend's book' is tempting because it is about a friend, but hiding a friend's things is unkind.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "work together" }
     ],
     answerId: "d",
-    explanation: "They work together to carry food.",
+    explanation: "The sentence says ants work together to carry food. 'Work alone' is tempting because each ant is small and busy, but the sentence says together.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Bo swam" }
     ],
     answerId: "a",
-    explanation: "The lines are about growing plants.",
+    explanation: "Planting, watering and green shoots are all about one thing: Bo grew plants. 'Bo baked a cake' is tempting because baking also has steps, but nothing in the lines is about cooking.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "throw the pan" }
     ],
     answerId: "b",
-    explanation: "Do not touch \u2014 stay safe.",
+    explanation: "The sentence says 'Do not touch the hot pan', so we must not touch it. 'Touch the pan' is tempting because those words are in the sentence, but 'Do not' at the start means the opposite.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "angry" }
     ],
     answerId: "c",
-    explanation: "Proud \u2014 from the sentence.",
+    explanation: "The sentence says Leela felt proud after her race. 'Sleepy' is tempting because a race can make you tired, but the feeling word in the sentence is proud.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "borrow books" }
     ],
     answerId: "d",
-    explanation: "Libraries are for books.",
+    explanation: "A library is a place to borrow books. 'Watch films' is tempting because some libraries have films, but a library is mainly for books.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "sleep" }
     ],
     answerId: "a",
-    explanation: "First means wash hands comes first.",
+    explanation: "'First' tells us washing hands comes first. 'Eat' is tempting because it comes in the middle, but it is the 'next' step, not the first.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "a spoon" }
     ],
     answerId: "b",
-    explanation: "The moon looks bright.",
+    explanation: "The sentence says the moon looks bright tonight. 'The sun' is tempting because the sun is bright too, but the sentence talks about the moon at night.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "The Lost Puppy" }
     ],
     answerId: "c",
-    explanation: "The title matches the kitten story.",
+    explanation: "'The Kitten Comes Home' matches a story about a lost kitten found at home. 'The Lost Puppy' is tempting because it is about a lost pet, but the story is about a kitten, not a puppy.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "to save water" }
     ],
     answerId: "d",
-    explanation: "To save water \u2014 from the sentence.",
+    explanation: "The sentence says Aarav closed the tap to save water. 'To waste water' is the opposite: closing the tap stops water from running out.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];
@@ -224,7 +224,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "cows" }
     ],
     answerId: "a",
-    explanation: "She feeds the sparrows.",
+    explanation: "The sentence says Sara feeds the sparrows. 'Pigeons' is tempting because pigeons also come to balconies, but the sentence names sparrows.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -237,7 +237,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "under the sea" }
     ],
     answerId: "b",
-    explanation: "Behind the sofa \u2014 place words.",
+    explanation: "The sentence says the ball rolled behind the sofa. 'In the fridge' is tempting because a fridge is also in the house, but the place word in the sentence is 'behind the sofa'.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -250,7 +250,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "hid" }
     ],
     answerId: "c",
-    explanation: "She thanked the shopkeeper.",
+    explanation: "The sentence says Neha thanked the shopkeeper. 'Ignored him' is tempting because the sentence is short, but Neha spoke to him to say thank you.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -263,7 +263,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "to keep rain off" }
     ],
     answerId: "d",
-    explanation: "Umbrellas keep rain off us.",
+    explanation: "We use an umbrella to keep the rain off. 'To sleep' is tempting only if you think of shade, but an umbrella is held up to stay dry.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -276,7 +276,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "at lunchtime" }
     ],
     answerId: "a",
-    explanation: "After breakfast \u2014 time clue.",
+    explanation: "The sentence says Papa reads after breakfast. 'Before school' is tempting because it is also in the morning, but the time clue is 'after breakfast'.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -289,7 +289,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "it was getting dark" }
     ],
     answerId: "b",
-    explanation: "Because it started to rain.",
+    explanation: "The word 'so' gives the reason: it started to rain, so they went inside. 'It was getting dark' is tempting because that is also a reason to go in, but the sentence talks about rain.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -302,7 +302,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "He sat alone angrily." }
     ],
     answerId: "c",
-    explanation: "Giving half is sharing.",
+    explanation: "Giving half his snack to his sister is sharing. 'He hid all the snacks' is tempting because it is about snacks too, but hiding them keeps them from others.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -315,7 +315,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "fly to flowers" }
     ],
     answerId: "d",
-    explanation: "They fly from flower to flower.",
+    explanation: "The sentence says bees fly from flower to flower. 'Read books' is tempting only because stories show talking bees, but the sentence is about flying.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Mina slept" }
     ],
     answerId: "a",
-    explanation: "All lines are about sorting waste.",
+    explanation: "Every line is about putting waste into bins, so the main idea is that Mina sorted waste. 'Mina cooked dinner' is tempting because cooking makes waste, but the lines never mention cooking.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "ignore cars" }
     ],
     answerId: "b",
-    explanation: "Look both ways \u2014 safety rule.",
+    explanation: "The sentence tells us to look both ways before crossing. 'Ignore cars' is the opposite of the safety rule; we must watch for cars.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "tired" }
     ],
     answerId: "c",
-    explanation: "Brave \u2014 feeling word.",
+    explanation: "The sentence says Kabir felt brave on stage. 'Scared' is tempting because many people feel scared on stage, but the sentence says brave.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "send letters" }
     ],
     answerId: "d",
-    explanation: "Post offices help send letters.",
+    explanation: "A post office is a place to send letters. 'Borrow books' is tempting because a post office is also a public building, but that is what a library is for.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "sleep" }
     ],
     answerId: "a",
-    explanation: "Then leave \u2014 last step.",
+    explanation: "'Then' marks the last step, which is leave. 'Wear shoes' is tempting because it comes after packing, but it is the 'next' step, not the last.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "after lunch" }
     ],
     answerId: "b",
-    explanation: "In the night sky.",
+    explanation: "The sentence says stars twinkle in the night sky, so it is at night. 'In the morning' is tempting because the sky is clear then too, but stars cannot be seen in daylight.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Silent Stones" }
     ],
     answerId: "c",
-    explanation: "Title matches the puppy story.",
+    explanation: "'A Puppy Needs Help' fits a story about saving a street puppy. 'Silent Stones' is tempting only because it sounds like a story title, but it has nothing to do with a puppy.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "to save power" }
     ],
     answerId: "d",
-    explanation: "To save power \u2014 reason given.",
+    explanation: "The sentence says Meera switched off the lights to save power. 'To waste power' is the opposite: switching off stops power from being used.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];

@@ -126,11 +126,11 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "Poor" },
       { id: "b", text: "Good" },
-      { id: "c", text: "Non" },
+      { id: "c", text: "Very poor" },
       { id: "d", text: "Average" }
     ],
     answerId: "b",
-    explanation: "Metals conduct heat well.",
+    explanation: "Metals conduct heat well, which is why a steel pan heats up fast. 'Poor' or 'Very poor' is tempting if you think of a cool metal spoon, but those words describe wood and plastic, which is why pan handles are made of them.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

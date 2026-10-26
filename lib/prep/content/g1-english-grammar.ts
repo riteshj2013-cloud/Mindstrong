@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "two" }
     ],
     answerId: "b",
-    explanation: "Apple starts with a vowel sound \u2014 use an.",
+    explanation: "Apple starts with a vowel sound, so we say 'an apple'. 'A' is tempting because we use it with most words, but before a vowel sound like a-pple we use 'an'.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "be" }
     ],
     answerId: "c",
-    explanation: "Boys is more than one \u2014 use are.",
+    explanation: "Boys means more than one, so we say 'The boys are playing'. 'Is' is tempting because we say 'The boy is playing', but that is for one boy.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "is" }
     ],
     answerId: "d",
-    explanation: "She takes is.",
+    explanation: "With she we use is: 'She is my sister.' 'Am' is tempting because it is also a form of 'be', but 'am' goes only with I.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "be" }
     ],
     answerId: "a",
-    explanation: "With I we use am.",
+    explanation: "With I we always use am: 'I am a student.' 'Is' is tempting because we say 'He is a student', but with I it must be am.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "quickly" }
     ],
     answerId: "b",
-    explanation: "School names a place \u2014 a noun.",
+    explanation: "School is a naming word because it names a place. 'Happy' is tempting because it is a common word, but it describes how someone feels.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "tall" }
     ],
     answerId: "c",
-    explanation: "Jump is an action \u2014 a verb.",
+    explanation: "Jump is a doing word because it is an action. 'Tall' is tempting because it is about the body, but it tells how someone looks, not what they do.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "monday" }
     ],
     answerId: "d",
-    explanation: "Day names start with a capital: Monday.",
+    explanation: "Names of days start with a capital letter, so monday should be Monday. 'Tree' is tempting because it is a naming word too, but it is not a special name, so it stays small.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "be" }
     ],
     answerId: "a",
-    explanation: "One cat \u2014 use is.",
+    explanation: "There is one cat, so we say 'A cat is soft.' 'Are' is tempting because we say 'Cats are soft', but that is for more than one cat.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "an an" }
     ],
     answerId: "b",
-    explanation: "Umbrella starts with a vowel sound \u2014 an.",
+    explanation: "Umbrella starts with a vowel sound, so we say 'an umbrella'. 'A' is tempting because we use it with many words, but before a vowel sound we use 'an'.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "be" }
     ],
     answerId: "c",
-    explanation: "They is plural \u2014 use are.",
+    explanation: "They means more than one, so we say 'They are happy.' 'Is' is tempting because we say 'He is happy', but 'is' goes with one person.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Bo is brave." }
     ],
     answerId: "d",
-    explanation: "A telling sentence ends with a full stop.",
+    explanation: "'Bo is brave.' is a telling sentence that ends with a full stop. 'Where is Bo' is tempting because it is a full sentence, but it asks something, so it needs a question mark.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Red bag." }
     ],
     answerId: "a",
-    explanation: "Questions often start with Are/Is/What and end with ?",
+    explanation: "'Are you ready?' asks something and ends with a question mark. 'The sun is hot.' is tempting because it is a full sentence, but it tells, it does not ask.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "be" }
     ],
     answerId: "b",
-    explanation: "Name is singular \u2014 is.",
+    explanation: "'My name' is one thing, so we say 'My name is Kabir.' 'Am' is tempting because the sentence is about me, but the word before the gap is 'name', not I.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "the the the" }
     ],
     answerId: "c",
-    explanation: "Ball starts with a consonant sound \u2014 a.",
+    explanation: "Ball starts with a consonant sound, so we say 'a ball'. 'An' is tempting because it also means one, but 'an' goes before vowel sounds like apple.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "small" }
     ],
     answerId: "d",
-    explanation: "Small is the opposite of big.",
+    explanation: "Small is the opposite of big. 'Tall' is tempting because it is also about size, but tall is about height, and it is not the opposite of big.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];
@@ -237,7 +237,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "two" }
     ],
     answerId: "b",
-    explanation: "Egg starts with a vowel sound \u2014 an.",
+    explanation: "Egg starts with a vowel sound, so we say 'an egg'. 'A' is tempting because we use it with most words, but before a vowel sound we use 'an'.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -250,7 +250,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "be" }
     ],
     answerId: "c",
-    explanation: "One girl \u2014 is.",
+    explanation: "There is one girl, so we say 'The girl is kind.' 'Are' is tempting because we say 'The girls are kind', but that is for more than one.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -263,7 +263,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "are" }
     ],
     answerId: "d",
-    explanation: "With you we use are.",
+    explanation: "With you we use are: 'You are my friend.' 'Is' is tempting because a friend is one person, but 'you' always takes 'are'.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -276,7 +276,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "be" }
     ],
     answerId: "a",
-    explanation: "I am hungry.",
+    explanation: "With I we always use am: 'I am hungry.' 'Is' is tempting because we say 'He is hungry', but with I it must be am.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -289,7 +289,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "run" }
     ],
     answerId: "b",
-    explanation: "Teacher names a person.",
+    explanation: "Teacher is a naming word because it names a person. 'Run' is tempting because teachers do things, but run is an action word.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -302,7 +302,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "tiny" }
     ],
     answerId: "c",
-    explanation: "Sing is an action.",
+    explanation: "Sing is a doing word because it is an action. 'Tiny' is tempting because it is a short word, but it tells the size of something.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -315,7 +315,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "delhi" }
     ],
     answerId: "d",
-    explanation: "Place names: Delhi.",
+    explanation: "Names of places start with a capital letter, so delhi should be Delhi. 'River' is tempting because it is a place in nature, but it is not a special name, so it stays small.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "be" }
     ],
     answerId: "a",
-    explanation: "Dogs is plural \u2014 are.",
+    explanation: "Dogs means more than one, so we say 'Dogs are loyal.' 'Is' is tempting because we say 'A dog is loyal', but that is for one dog.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "an an" }
     ],
     answerId: "b",
-    explanation: "Orange starts with a vowel sound \u2014 an.",
+    explanation: "Orange starts with a vowel sound, so we say 'an orange'. 'A' is tempting because we use it with many words, but before a vowel sound we use 'an'.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "be" }
     ],
     answerId: "c",
-    explanation: "He takes is.",
+    explanation: "With he we use is: 'He is tall.' 'Are' is tempting because we say 'They are tall', but that is for more than one person.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "It is time to eat." }
     ],
     answerId: "d",
-    explanation: "Telling sentence + full stop.",
+    explanation: "'It is time to eat.' is a telling sentence that ends with a full stop. 'What time is it' is tempting because it is a full sentence, but it asks, so it needs a question mark.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "be" }
     ],
     answerId: "b",
-    explanation: "Bag is singular \u2014 is.",
+    explanation: "'Her bag' is one thing, so we say 'Her bag is new.' 'Are' is tempting because we say 'Her bags are new', but that is for more than one bag.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "the the the" }
     ],
     answerId: "c",
-    explanation: "Dog starts with a consonant \u2014 a.",
+    explanation: "Dog starts with a consonant sound, so we say 'a dog'. 'An' is tempting because it also means one, but 'an' goes before vowel sounds.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "sad" }
     ],
     answerId: "d",
-    explanation: "Sad is the opposite of happy.",
+    explanation: "Sad is the opposite of happy. 'Glad' is tempting because it is a feeling word, but glad means almost the same as happy.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];

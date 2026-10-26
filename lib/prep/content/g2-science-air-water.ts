@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "noise" }
     ],
     answerId: "a",
-    explanation: "We breathe air.",
+    explanation: "We need air to breathe. Noise is tempting because it travels through the air, but we cannot breathe sound; our lungs need air.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "metal" }
     ],
     answerId: "b",
-    explanation: "Moving air is wind.",
+    explanation: "Moving air is called wind. Fire is tempting because a fire can make air move, but fire is burning, not moving air itself.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "wood" }
     ],
     answerId: "c",
-    explanation: "Water can become vapour (gas).",
+    explanation: "Water can be a liquid, a solid (ice) or a gas called water vapour. Metal and wood are solids made of other materials; water never turns into them.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "solid" }
     ],
     answerId: "d",
-    explanation: "Ice is solid water.",
+    explanation: "Ice is water in the solid form. 'Melted' is tempting because ice melts, but once it melts it is liquid water, not ice.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "muddy" }
     ],
     answerId: "a",
-    explanation: "Drink clean water.",
+    explanation: "We should drink clean water. Salty sea water is tempting because it is still water, but the salt makes it unsafe to drink.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "shoes" }
     ],
     answerId: "b",
-    explanation: "Rain falls from clouds.",
+    explanation: "Rain falls from clouds. Plastic bags can float in the sky in the wind, but they do not make rain.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "iron" }
     ],
     answerId: "c",
-    explanation: "Boiling makes steam.",
+    explanation: "Boiling water turns into steam, which is water vapour. Glass is tempting because steam fogs up a glass, but the water does not become glass.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "cannot see it" }
     ],
     answerId: "d",
-    explanation: "Air is invisible.",
+    explanation: "Air is all around us, but we cannot see it. 'Can hear it all the time' is tempting because we hear wind, but still air makes no sound.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "throwing bottles in drains" }
     ],
     answerId: "a",
-    explanation: "Saving water means not wasting it.",
+    explanation: "Saving water means not wasting it. 'Leaving taps open' is the opposite: it lets water run away.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "a fruit" }
     ],
     answerId: "b",
-    explanation: "A breeze is a gentle wind.",
+    explanation: "A breeze is a gentle wind. A fire is tempting because it can feel warm on a windy day, but a breeze is just moving air.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "mud" }
     ],
     answerId: "c",
-    explanation: "Fish need oxygen in water.",
+    explanation: "Fish need the oxygen that is mixed in the water. Sunlight is tempting because many living things need it, but fish breathe oxygen through their gills.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "evaporates" }
     ],
     answerId: "d",
-    explanation: "Water evaporates into air.",
+    explanation: "Puddles dry up because the water evaporates into the air. 'Melts' is tempting because ice melts into water, but a puddle is already liquid; it rises into the air as vapour.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "making the air we breathe" }
     ],
     answerId: "a",
-    explanation: "We drink and clean with water.",
+    explanation: "We use water for drinking and cleaning. 'Drying wet clothes' is tempting because it is about water, but clothes dry when water leaves them; water does not dry them.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "fresher" }
     ],
     answerId: "b",
-    explanation: "Smoke and dust pollute air.",
+    explanation: "Smoke and dust make air dirty, or polluted. 'Cooler' is tempting because smoky days can look dull, but smoke and dust do not clean or cool the air; they spoil it.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "cotton threads" }
     ],
     answerId: "c",
-    explanation: "Clouds hold tiny water droplets.",
+    explanation: "Clouds are made of tiny water droplets. Cotton threads are tempting because clouds look soft like cotton, but they are really water.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "clean and safe" }
     ],
     answerId: "d",
-    explanation: "Covering keeps food and water safe.",
+    explanation: "Covering food and water keeps them clean and safe from flies and dust. 'Cold' is tempting because a fridge keeps food cold, but a cover only keeps dirt out.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];
@@ -224,7 +224,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "stop the sun" }
     ],
     answerId: "a",
-    explanation: "Wind dries clothes and flies kites.",
+    explanation: "Wind can dry clothes and fly kites. 'Stop the sun' is tempting if you think of clouds blown by wind, but wind cannot stop the sun.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -237,7 +237,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "powder" }
     ],
     answerId: "b",
-    explanation: "Steam is water vapour (gas).",
+    explanation: "Steam is water as a gas. 'Liquid' is tempting because steam comes from liquid water, but once water boils into steam it is a gas.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -250,7 +250,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "ice from the fridge" }
     ],
     answerId: "c",
-    explanation: "Water often comes from rivers, cleaned for taps.",
+    explanation: "Much of our drinking water comes from rivers and reaches taps after cleaning. 'Ice from the fridge' is tempting because it is clean water, but fridge ice is made from tap water; it is not where our water comes from.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -263,7 +263,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "liquid water" }
     ],
     answerId: "d",
-    explanation: "Ice melts to liquid water.",
+    explanation: "Ice melts into liquid water. Sand is tempting because ice can look grainy, but melting only changes ice back into water.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -276,7 +276,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "quiet and calm" }
     ],
     answerId: "a",
-    explanation: "Storms can be dangerous \u2014 stay safe.",
+    explanation: "A strong wind storm can be dangerous, so stay indoors. 'Good for flying kites' is tempting because kites need wind, but a storm is far too strong and unsafe.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -289,7 +289,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "screens" }
     ],
     answerId: "b",
-    explanation: "Plants use air gases too.",
+    explanation: "Plants take in gases from the air to make food. Plastic bags may blow onto plants, but plants cannot use plastic.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -302,7 +302,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "stops air" }
     ],
     answerId: "c",
-    explanation: "Closing the tap saves water.",
+    explanation: "Closing the tap while brushing saves water. 'Wastes water' is the opposite; leaving the tap running is what wastes it.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -315,7 +315,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "air near the ground" }
     ],
     answerId: "d",
-    explanation: "Fog is tiny drops in air near the ground.",
+    explanation: "Fog is tiny water drops in the air near the ground. 'Clouds high in the sky' is tempting because clouds are also water drops, but fog is low, close to the ground.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "turn invisible" }
     ],
     answerId: "a",
-    explanation: "Dirty water can make us ill.",
+    explanation: "Dirty water has germs that can make us ill. 'Grow taller instantly' is tempting because water helps us grow healthy, but dirty water harms us.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "space only when it moves" }
     ],
     answerId: "b",
-    explanation: "Air takes up space \u2014 fill a balloon.",
+    explanation: "Air takes up space: blowing into a balloon makes it bigger. 'Space only when it moves' is tempting because we notice wind more, but still air in a balloon takes up space too.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "thunder" }
     ],
     answerId: "c",
-    explanation: "Evaporation is part of the water cycle.",
+    explanation: "The water cycle includes evaporation, clouds and rain. Thunder is tempting because it comes with rain, but it is a sound, not a step that moves water.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "rivers and lakes" }
     ],
     answerId: "d",
-    explanation: "Do not throw rubbish into rivers.",
+    explanation: "We should not throw rubbish into rivers and lakes, because it makes the water dirty. 'Recycling bins' is tempting because the sentence says 'should not', but recycling bins are made for rubbish like bottles and paper.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "soil" }
     ],
     answerId: "a",
-    explanation: "A fan moves air.",
+    explanation: "A fan moves air, which is why we feel a breeze. Light is tempting because a fan may have a lamp, but its blades push air, not light.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "making noise" }
     ],
     answerId: "c",
-    explanation: "Clean air helps healthy breathing.",
+    explanation: "Clean air is important for healthy breathing. 'Making rain' is tempting because air carries clouds, but clean air matters most for our lungs.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "safer to drink when advised" }
     ],
     answerId: "d",
-    explanation: "Boiling can make water safer.",
+    explanation: "Boiling water kills germs, which can make it safer to drink. 'Dirtier' is the opposite; boiling does not add dirt.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];

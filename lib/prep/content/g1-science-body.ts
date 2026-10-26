@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "tongue" }
     ],
     answerId: "a",
-    explanation: "We see with our eyes.",
+    explanation: "We see with our eyes. Ears are tempting because they are also on our head, but ears help us hear, not see.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "feet" }
     ],
     answerId: "b",
-    explanation: "We hear with our ears.",
+    explanation: "We hear with our ears. Eyes are tempting because they are also on our face, but eyes help us see, not hear.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "hair" }
     ],
     answerId: "c",
-    explanation: "We smell with our nose.",
+    explanation: "We smell with our nose. Ears are tempting because they sit close by on the head, but ears hear sounds; they cannot smell.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "tongue" }
     ],
     answerId: "d",
-    explanation: "We taste with our tongue.",
+    explanation: "We taste with our tongue. The ear is tempting because it is on the head near the mouth, but ears hear; only the tongue tastes food.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "a",
-    explanation: "We have 2 hands.",
+    explanation: "We have 2 hands, a left one and a right one. 1 is tempting if you count only the hand you write with, but we have two.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "hair" }
     ],
     answerId: "b",
-    explanation: "We walk with our feet.",
+    explanation: "We walk with our feet. Ears, nose and hair are all body parts too, but none of them touch the ground to carry us.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "walls" }
     ],
     answerId: "c",
-    explanation: "Brush your teeth every day.",
+    explanation: "Brush your teeth every day to keep them clean. Nails are tempting because we keep them clean too, but we cut and wash nails, we do not brush them every day.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "nose / mouth" }
     ],
     answerId: "d",
-    explanation: "We breathe through nose or mouth.",
+    explanation: "Air goes in through the nose or the mouth. Hair is tempting because it is on the head, but hair has no opening for air to go in.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "instead of" }
     ],
     answerId: "a",
-    explanation: "Wash hands before eating.",
+    explanation: "Wash your hands before eating so germs do not go into your mouth. 'Only once a week' is tempting if you think washing sometimes is enough, but hands get dirty every day.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "bag" }
     ],
     answerId: "b",
-    explanation: "The heart is in the chest.",
+    explanation: "The heart is inside the chest, under the ribs. A hat or shoe is something we wear outside the body, so the heart cannot be inside it.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "feel touch" }
     ],
     answerId: "d",
-    explanation: "Skin helps us feel touch.",
+    explanation: "Skin helps us feel touch, like hot, cold, soft and rough. 'Lay eggs' is tempting if you think of animals with skin, but people do not lay eggs.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "smaller" }
     ],
     answerId: "a",
-    explanation: "Exercise helps us stay strong.",
+    explanation: "Exercise makes our body stronger. 'Sleepy' is tempting because we may feel tired after playing, but exercise builds strength, it does not make us sleepy all the time.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "lunch time" }
     ],
     answerId: "b",
-    explanation: "Sleep helps the body rest.",
+    explanation: "We should sleep at night so the body can rest. Rest time is tempting because it sounds like sleep time, but a short rest in the day is not our main sleep.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "knees" }
     ],
     answerId: "c",
-    explanation: "Fingers are on our hands.",
+    explanation: "Fingers are on our hands. Feet are tempting because they also have parts that wiggle, but those are toes, not fingers.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "teeth" }
     ],
     answerId: "d",
-    explanation: "Teeth help us chew food.",
+    explanation: "Teeth help us chew food. Nails are tempting because they are hard like teeth, but nails are on fingers and toes, not in the mouth.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];
@@ -224,7 +224,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "hair" }
     ],
     answerId: "a",
-    explanation: "We clap with our hands.",
+    explanation: "We clap with our hands. Ears are tempting because we hear the clap with them, but ears hear; hands make the clap.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -237,7 +237,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "knees" }
     ],
     answerId: "b",
-    explanation: "Sunglasses protect eyes from bright sun.",
+    explanation: "Sunglasses protect our eyes from bright sunlight. Knees and elbows can get hurt too, but sunglasses are worn over the eyes, not on them.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -250,7 +250,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "hair" }
     ],
     answerId: "c",
-    explanation: "Ears hear loud sounds.",
+    explanation: "Our ears hear loud sounds. Eyes are tempting because we may look towards a loud noise, but we see with eyes and hear with ears.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -263,7 +263,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "taste" }
     ],
     answerId: "d",
-    explanation: "Sweet and salty are tastes.",
+    explanation: "Sweet and salty are kinds of taste. Smell is tempting because food also has a smell, but we find out sweet or salty with the tongue.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -289,7 +289,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "draw" }
     ],
     answerId: "b",
-    explanation: "Cover mouth when you sneeze or cough.",
+    explanation: "Cover your mouth when you sneeze or cough so germs do not spread. Sleep is tempting because the mouth may be open, but sleeping does not spray germs at others.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -302,7 +302,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "turn into water" }
     ],
     answerId: "c",
-    explanation: "Bones help us stand and move.",
+    explanation: "Bones help our body stand and move. 'Fly alone' is tempting if you think of birds' bones, but our bones hold us up; they do not make us fly.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -315,7 +315,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "water" }
     ],
     answerId: "d",
-    explanation: "Drink plenty of water.",
+    explanation: "Drink plenty of water to stay healthy. Mud and paint may look like liquids, but they are not safe to drink.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "tongue" }
     ],
     answerId: "a",
-    explanation: "Nails grow on fingers and toes.",
+    explanation: "Nails grow on our fingers and toes. The tongue is tempting because it is a body part we use every day, but no nails grow on it.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "heel" }
     ],
     answerId: "b",
-    explanation: "We smile with our mouth.",
+    explanation: "We smile with our mouth. The heel is a body part too, but it is on the foot and cannot smile.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "tastes" }
     ],
     answerId: "c",
-    explanation: "Ears help us hear music.",
+    explanation: "Ears help us enjoy music. Pictures are tempting because we enjoy them too, but we enjoy pictures with our eyes, not our ears.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "healthy" }
     ],
     answerId: "d",
-    explanation: "Doctors help keep us healthy.",
+    explanation: "A doctor checks if we are healthy. A plant is tempting because plants can get sick too, but a plant doctor is different; our doctor checks people.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "eyelashes" }
     ],
     answerId: "a",
-    explanation: "Jumping uses our legs.",
+    explanation: "Jumping uses our legs. Hair may bounce when we jump, but it does not push us up; the legs do.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "muddy" }
     ],
     answerId: "b",
-    explanation: "Keep your body clean.",
+    explanation: "Keep your body clean to stay healthy. Muddy is tempting after playing outside, but we must wash the mud off.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "socks" }
     ],
     answerId: "c",
-    explanation: "We think with our brain.",
+    explanation: "We think with our brain, inside the head. A belt or socks are things we wear; they cannot think.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "eye" }
     ],
     answerId: "d",
-    explanation: "The eye is a sense organ.",
+    explanation: "The eye is a sense organ because it helps us see. A shoe is tempting because we wear it on the body, but it is a thing we put on, not a part of us.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];

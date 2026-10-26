@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "frog" }
     ],
     answerId: "a",
-    explanation: "A cat says meow.",
+    explanation: "A cat says meow. A dog is tempting because it is also a pet, but a dog barks: woof!",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "nests" }
     ],
     answerId: "b",
-    explanation: "Fish live in water.",
+    explanation: "Fish live in water. Nests are tempting because they are animal homes, but nests are for birds; fish need water to breathe.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "silk" }
     ],
     answerId: "c",
-    explanation: "Cows give milk.",
+    explanation: "A cow gives us milk. Wool is tempting because it also comes from a farm animal, but wool comes from sheep.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "sparrow" }
     ],
     answerId: "d",
-    explanation: "A sparrow can fly.",
+    explanation: "A sparrow is a bird and can fly. A crocodile is tempting because it moves fast, but it walks and swims; it has no wings.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "shoes" }
     ],
     answerId: "a",
-    explanation: "Dogs are common pets.",
+    explanation: "Dogs are often kept as pets at home. Plants are kept at home too, but a dog is an animal, not a plant.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "bird" }
     ],
     answerId: "b",
-    explanation: "A lion is a wild animal.",
+    explanation: "A lion is a wild animal that lives in forests and grasslands. 'Pet animal' is tempting because a lion looks like a big cat, but it is far too dangerous to keep at home.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "turtle" }
     ],
     answerId: "c",
-    explanation: "Rabbits hop.",
+    explanation: "A rabbit hops on its strong back legs. A turtle is tempting because it walks on land too, but it crawls slowly; it does not hop.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "wings" }
     ],
     answerId: "d",
-    explanation: "Birds have wings.",
+    explanation: "Birds have wings to fly. Four legs is tempting because many animals have them, but birds stand on two legs.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "honey" }
     ],
     answerId: "a",
-    explanation: "Hens lay eggs.",
+    explanation: "A hen lays eggs. Milk is tempting because hens are farm animals like cows, but milk comes from cows and goats.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "dolphin" }
     ],
     answerId: "b",
-    explanation: "A dog lives on land.",
+    explanation: "A dog lives on land. A dolphin is tempting because it is friendly and clever like a dog, but it lives in the sea.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "bread" }
     ],
     answerId: "c",
-    explanation: "Bees make honey.",
+    explanation: "Bees make honey from flower nectar. Milk is tempting because it is a food we get from animals, but milk comes from cows.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "trunk" }
     ],
     answerId: "d",
-    explanation: "Elephants have trunks.",
+    explanation: "An elephant has a long trunk. A beak is tempting because it is also a long nose-like part, but beaks belong to birds.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "giraffe" }
     ],
     answerId: "a",
-    explanation: "An ant is tiny.",
+    explanation: "An ant is tiny. A giraffe is tempting because it has a thin neck, but a giraffe is one of the tallest animals.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "silk" }
     ],
     answerId: "b",
-    explanation: "Sheep give wool.",
+    explanation: "Sheep give us wool. Silk is tempting because it is also used to make cloth, but silk comes from silkworms.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "only in the sea" }
     ],
     answerId: "c",
-    explanation: "Frogs like water and land.",
+    explanation: "A frog can live both near water and on land. 'Only in the sea' is tempting because frogs swim, but frogs live in ponds and on land, not in salty sea water.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "table" }
     ],
     answerId: "d",
-    explanation: "A table is not an animal.",
+    explanation: "A table is not an animal; it is furniture made by people. A table has four legs like a deer, but it is not alive.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];
@@ -224,7 +224,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "horse" }
     ],
     answerId: "a",
-    explanation: "A duck says quack.",
+    explanation: "A duck says quack. A horse is tempting because it is also a farm animal, but a horse neighs.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -237,7 +237,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "in ponds" }
     ],
     answerId: "b",
-    explanation: "Many monkeys live in trees.",
+    explanation: "Many monkeys live in trees, jumping from branch to branch. Deserts are tempting because some animals live there, but monkeys need trees for food and shelter.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -250,7 +250,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "lay eggs like a hen" }
     ],
     answerId: "c",
-    explanation: "Horses can run fast.",
+    explanation: "A horse can run fast. 'Lay eggs like a hen' is tempting because both are farm animals, but horses give birth to foals.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -263,7 +263,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "tortoise" }
     ],
     answerId: "d",
-    explanation: "A tortoise has a hard shell.",
+    explanation: "A tortoise has a hard shell on its back. A cow is tempting because it has hard hooves and horns, but it has no shell.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -276,7 +276,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "metal" }
     ],
     answerId: "a",
-    explanation: "Cows eat grass.",
+    explanation: "Cows eat grass. Plastic is tempting because stray cows sometimes chew bags, but plastic makes them very sick; it is not their food.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -289,7 +289,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "spots" }
     ],
     answerId: "b",
-    explanation: "Tigers have stripes.",
+    explanation: "A tiger has stripes. Spots are tempting because a leopard looks like a tiger, but a leopard has spots and a tiger has stripes.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -302,7 +302,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "sparrow" }
     ],
     answerId: "c",
-    explanation: "Fish swim.",
+    explanation: "A fish swims. A hen is tempting because ducks are birds that swim, but a hen stays on land.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -315,7 +315,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "care and food" }
     ],
     answerId: "d",
-    explanation: "Pets need care and food.",
+    explanation: "Pets need care and food. 'Only water' is tempting because water is important, but pets also need food and love.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "eggs" }
     ],
     answerId: "a",
-    explanation: "Goats can give milk.",
+    explanation: "A goat gives milk. Eggs are tempting because goats are farm animals like hens, but only birds such as hens lay eggs.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "ant" }
     ],
     answerId: "b",
-    explanation: "A kangaroo has a pouch.",
+    explanation: "A kangaroo carries its baby in a pouch. An eagle is tempting because it also carries food for its young, but it uses its claws, not a pouch.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "have four legs" }
     ],
     answerId: "c",
-    explanation: "Snakes have no legs.",
+    explanation: "Snakes have no legs; they slide on their bodies. 'Four legs' is tempting because a lizard looks like a snake, but lizards have legs and snakes do not.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "bird" }
     ],
     answerId: "d",
-    explanation: "A peacock is a bird.",
+    explanation: "A peacock has feathers and lays eggs, so it is a bird. Insect is tempting because peacocks are colourful like butterflies, but insects are tiny with six legs.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "sparrow" }
     ],
     answerId: "a",
-    explanation: "Bullocks can pull carts.",
+    explanation: "A bullock, or ox, is strong and is used to pull carts. A sparrow is tempting because birds carry twigs, but it is far too small to pull a cart.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "quack" }
     ],
     answerId: "b",
-    explanation: "Cats often drink milk.",
+    explanation: "Cats like to drink milk. Bark is tempting because dogs are pets like cats, but barking is what dogs do.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "only on farms" }
     ],
     answerId: "c",
-    explanation: "Wild animals live in wild places.",
+    explanation: "Wild animals live in forests and other wild places. 'Only in zoos' is tempting because we see them there, but most wild animals live in the wild.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "butterfly" }
     ],
     answerId: "d",
-    explanation: "A butterfly is an insect.",
+    explanation: "A butterfly is an insect with six legs. A whale is tempting because it is an animal too, but it is a huge sea mammal, not an insect.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];

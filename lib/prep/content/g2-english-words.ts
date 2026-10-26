@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "tired" }
     ],
     answerId: "a",
-    explanation: "Glad means nearly the same as happy.",
+    explanation: "Glad means nearly the same as happy. 'Tired' is tempting because it is also a feeling, but it does not mean happy.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "spicy" }
     ],
     answerId: "b",
-    explanation: "Cold is the opposite of hot.",
+    explanation: "Cold is the opposite of hot. 'Warm' is tempting because it is a temperature word, but warm is close to hot, not its opposite.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "calf" }
     ],
     answerId: "c",
-    explanation: "A baby dog is a puppy.",
+    explanation: "A baby dog is a puppy. 'Kitten' is tempting because it is also a baby pet, but a kitten is a baby cat.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "bee" }
     ],
     answerId: "d",
-    explanation: "As busy as a bee.",
+    explanation: "We say 'as busy as a bee' because bees work all day. 'Cloud' is tempting because clouds move about, but they are not known for being busy.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "soft" }
     ],
     answerId: "a",
-    explanation: "Huge means very big.",
+    explanation: "Huge means very big. 'Thin' is tempting because it is also a size word, but thin means narrow, not big.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "leaf" }
     ],
     answerId: "b",
-    explanation: "Night rhymes with light.",
+    explanation: "Night rhymes with light because both end in -ight. 'Lamp' is tempting because a lamp gives light, but it does not sound like light at the end.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "sunlight" }
     ],
     answerId: "c",
-    explanation: "sun + flower = sunflower.",
+    explanation: "sun + flower makes sunflower. 'Sunshine' is tempting because it also starts with sun, but its second part is shine, not flower.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "not" }
     ],
     answerId: "d",
-    explanation: "un- means not.",
+    explanation: "un- means not, so unhappy means not happy. 'Again' is tempting because it is a common word-starter meaning, but that is re-, as in redo.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "finish" }
     ],
     answerId: "a",
-    explanation: "Start means nearly the same as begin.",
+    explanation: "Start means nearly the same as begin. 'Finish' is tempting because it is also about doing a task, but it means the opposite: to end.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "loaded" }
     ],
     answerId: "b",
-    explanation: "Empty is the opposite of full.",
+    explanation: "Empty is the opposite of full. 'Packed' is tempting because it is a 'how much' word, but packed means nearly the same as full.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "garden" }
     ],
     answerId: "c",
-    explanation: "A library keeps books.",
+    explanation: "Books are kept in a library. 'Kitchen' is tempting because recipe books can be kept there, but a kitchen is for cooking.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "doctor" }
     ],
     answerId: "d",
-    explanation: "Doctor names a person.",
+    explanation: "Doctor is a naming word for a person. 'Run' is tempting because doctors do things, but run is an action word.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "hey you" }
     ],
     answerId: "a",
-    explanation: "Please is polite.",
+    explanation: "Please is the polite word. 'Hey you' is tempting because it is a way to call someone, but it sounds rude.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "child" }
     ],
     answerId: "b",
-    explanation: "Children is the plural of child.",
+    explanation: "The plural of child is children. 'Childs' is tempting because we add -s to most words, but child has a special plural.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "painter" }
     ],
     answerId: "c",
-    explanation: "A teacher teaches.",
+    explanation: "A person who teaches is a teacher. 'Painter' is tempting because it also ends in -er for a job, but a painter paints.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "pear" }
     ],
     answerId: "d",
-    explanation: "Pair and pear sound alike.",
+    explanation: "Pair and pear sound the same but mean different things. 'Pour' is tempting because it looks a little like pair, but it sounds different.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];
@@ -224,7 +224,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "heavy" }
     ],
     answerId: "a",
-    explanation: "Quick means nearly the same as fast.",
+    explanation: "Quick means nearly the same as fast. 'Slow' is tempting because it is also a speed word, but it means the opposite.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -237,7 +237,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "free" }
     ],
     answerId: "b",
-    explanation: "Closed is the opposite of open.",
+    explanation: "Closed is the opposite of open. 'Wide' is tempting because we say 'wide open', but wide is about size, not the opposite.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -250,7 +250,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "chick" }
     ],
     answerId: "c",
-    explanation: "A baby cat is a kitten.",
+    explanation: "A baby cat is a kitten. 'Puppy' is tempting because it is also a baby pet, but a puppy is a baby dog.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -263,7 +263,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "feather" }
     ],
     answerId: "d",
-    explanation: "As light as a feather.",
+    explanation: "We say 'as light as a feather' because feathers weigh almost nothing. 'Rock' is tempting because it is a common thing, but rocks are heavy.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -276,7 +276,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "tall" }
     ],
     answerId: "a",
-    explanation: "Tiny means very small.",
+    explanation: "Tiny means very small. 'Huge' is tempting because it is also a size word, but it means very big.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -289,7 +289,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "kick" }
     ],
     answerId: "b",
-    explanation: "Lake rhymes with cake.",
+    explanation: "Lake rhymes with cake because both end in -ake. 'Cook' is tempting because cooks make cakes, but it does not sound like cake at the end.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -302,7 +302,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "rainfall" }
     ],
     answerId: "c",
-    explanation: "rain + bow = rainbow.",
+    explanation: "rain + bow makes rainbow. 'Raincoat' is tempting because it also starts with rain, but its second part is coat, not bow.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -315,7 +315,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "again" }
     ],
     answerId: "d",
-    explanation: "re- means again.",
+    explanation: "re- means again, so redo means do again. 'Not' is tempting because some starters change a word's meaning, but 'not' is shown by un-, as in undo.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "open" }
     ],
     answerId: "a",
-    explanation: "Finish means nearly the same as end.",
+    explanation: "Finish means nearly the same as end. 'Begin' is tempting because it is also about a task, but it means the opposite.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "beside" }
     ],
     answerId: "b",
-    explanation: "Far is the opposite of near.",
+    explanation: "Far is the opposite of near. 'Close' is tempting because it is a distance word, but close means nearly the same as near.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "dream" }
     ],
     answerId: "c",
-    explanation: "A market is for buying things.",
+    explanation: "A market is a place to buy food and things. 'Pillow' is tempting because we buy pillows at a market, but a pillow is a thing, not a place.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "school" }
     ],
     answerId: "d",
-    explanation: "School names a place.",
+    explanation: "School is a naming word for a place. 'Run' is tempting because children run at school, but run is an action word.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "no" }
     ],
     answerId: "a",
-    explanation: "Thank you is polite.",
+    explanation: "'Thank you' is the polite reply when someone helps. 'No' is tempting because it is short, but it does not thank the helper.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "meese" }
     ],
     answerId: "b",
-    explanation: "Mice is the plural of mouse.",
+    explanation: "The plural of mouse is mice. 'Mouses' is tempting because we add -s to most words, but mouse has a special plural.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "doctor" }
     ],
     answerId: "c",
-    explanation: "A driver drives.",
+    explanation: "A person who drives a bus is a driver. 'Teacher' is tempting because a teacher may ride the school bus, but the driver drives it.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "see" }
     ],
     answerId: "d",
-    explanation: "Sea and see sound alike.",
+    explanation: "Sea and see sound the same but mean different things. 'Say' is tempting because it starts with s too, but it sounds different.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];

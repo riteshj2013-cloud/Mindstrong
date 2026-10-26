@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "in water" }
     ],
     answerId: "b",
-    explanation: "The sentence says on the mat.",
+    explanation: "The sentence says the cat is on the mat. 'In a box' is tempting because cats like boxes, but the sentence says mat.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "cow" }
     ],
     answerId: "c",
-    explanation: "Birds can fly.",
+    explanation: "A bird can fly with its wings. A fish is tempting because it moves fast in water, but it swims; it cannot fly.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "mango" }
     ],
     answerId: "d",
-    explanation: "The word mango is in the sentence.",
+    explanation: "The sentence says 'I like mango.' Apple is tempting because it is also a fruit, but the word in the sentence is mango.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "rainbow" }
     ],
     answerId: "a",
-    explanation: "At night we see the moon.",
+    explanation: "At night we often see the moon. A rainbow is tempting because it is also in the sky, but we see rainbows in the day after rain.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "black" }
     ],
     answerId: "b",
-    explanation: "The sentence says red bag.",
+    explanation: "The sentence says Rani has a red bag. Blue is tempting because it is a common bag colour, but the colour word in the sentence is red.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "goat" }
     ],
     answerId: "c",
-    explanation: "Fish live in water.",
+    explanation: "A fish lives in water. A hen is tempting because it is a farm animal near ponds, but a hen lives on land.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "in the rain" }
     ],
     answerId: "d",
-    explanation: "We use an umbrella in the rain.",
+    explanation: "We use an umbrella in the rain. 'To swim' is tempting because both rain and swimming are about water, but we do not carry an umbrella to swim.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "sits" }
     ],
     answerId: "a",
-    explanation: "Tom runs \u2014 that is the action.",
+    explanation: "The sentence says Tom runs fast, so the action is runs. 'Sits' is tempting because it is also an action word, but the sentence says runs.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "smoke" }
     ],
     answerId: "b",
-    explanation: "We drink water.",
+    explanation: "We drink water. Smoke is tempting because it moves like a liquid in the air, but smoke is harmful and cannot be drunk.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "cat" }
     ],
     answerId: "c",
-    explanation: "The hen lays the egg.",
+    explanation: "The sentence says the hen lays an egg. A cow is tempting because it gives us food too, but a cow gives milk, not eggs.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "bed" }
     ],
     answerId: "d",
-    explanation: "We sleep on a bed.",
+    explanation: "A bed is a place to sleep. A ball is tempting because it is soft and round, but we play with a ball; we sleep on a bed.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -184,7 +184,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "shoes" }
     ],
     answerId: "b",
-    explanation: "The sentence says nests.",
+    explanation: "The sentence says birds live in nests. Cups are tempting because a nest is round like a cup, but the sentence says nests.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -197,7 +197,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "chair" }
     ],
     answerId: "c",
-    explanation: "We write with a pencil.",
+    explanation: "We write with a pencil. A plate is tempting because it is flat like paper, but we eat from a plate.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -210,7 +210,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "hot" }
     ],
     answerId: "d",
-    explanation: "The sentence says hot.",
+    explanation: "The sentence says it is hot in summer. Windy is tempting because summer can be windy, but the word in the sentence is hot.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];
@@ -240,7 +240,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "by the gate" }
     ],
     answerId: "b",
-    explanation: "By the door \u2014 that is the place.",
+    explanation: "The sentence says the dog sits by the door. 'By the gate' is tempting because it is also near the way in, but the sentence says door.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -253,7 +253,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "duck" }
     ],
     answerId: "c",
-    explanation: "A dog says bow-wow.",
+    explanation: "A dog says bow-wow. A cat is tempting because it is also a pet, but a cat says meow.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -266,7 +266,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "bus" }
     ],
     answerId: "d",
-    explanation: "The word is bus.",
+    explanation: "The sentence says 'I see a bus.' Train is tempting because it also carries many people, but the word in the sentence is bus.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -279,7 +279,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "owl" }
     ],
     answerId: "a",
-    explanation: "In the morning we see the sun.",
+    explanation: "In the morning we see the sun. Stars are tempting because they also shine in the sky, but we see stars at night.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -292,7 +292,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "pink" }
     ],
     answerId: "b",
-    explanation: "Blue frock \u2014 colour is blue.",
+    explanation: "The sentence says Leela has a blue frock. Pink is tempting because it is a common frock colour, but the colour word is blue.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -305,7 +305,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "frog" }
     ],
     answerId: "c",
-    explanation: "A cow gives milk.",
+    explanation: "A cow gives us milk. A tiger is tempting because it is a big animal like a cow, but it is wild and does not give us milk.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -318,7 +318,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "to brush teeth" }
     ],
     answerId: "d",
-    explanation: "A toothbrush cleans teeth.",
+    explanation: "We use a toothbrush to brush our teeth. 'To cut paper' is tempting because a toothbrush is held in the hand like scissors, but it has soft bristles for cleaning teeth.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -331,7 +331,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "swims in space" }
     ],
     answerId: "a",
-    explanation: "Mira hops \u2014 hopping is the action.",
+    explanation: "The sentence says Mira hops, so hopping is the action. 'Swims in space' is tempting only because it is also a moving action, but the sentence says hops.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -344,7 +344,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "bell" }
     ],
     answerId: "b",
-    explanation: "We eat with a spoon.",
+    explanation: "We eat with a spoon. A bell is tempting because it is a small metal thing like a spoon, but we ring a bell; we eat with a spoon.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -357,7 +357,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "mat" }
     ],
     answerId: "c",
-    explanation: "The frog jumps.",
+    explanation: "The sentence says the frog jumps. A rock is tempting because frogs sit on rocks, but a rock cannot jump.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -370,7 +370,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "chair" }
     ],
     answerId: "d",
-    explanation: "We sit on a chair.",
+    explanation: "A chair is a place to sit. A cloud is tempting because it looks soft, but no one can sit on a cloud.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -397,7 +397,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "in trees" }
     ],
     answerId: "b",
-    explanation: "In water \u2014 from the sentence.",
+    explanation: "The sentence says fish swim in water. 'In the air' is tempting because birds move there, but fish need water.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -410,7 +410,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "boat" }
     ],
     answerId: "c",
-    explanation: "We read a book.",
+    explanation: "We read a book. A boat is tempting because the word looks a lot like book, but we ride in a boat; we read a book.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -423,7 +423,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "cold" }
     ],
     answerId: "d",
-    explanation: "The sentence says cold.",
+    explanation: "The sentence says winter feels cold. Hot is the opposite: summer is hot, winter is cold.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   }
 ];

@@ -557,12 +557,12 @@ const SET_B: PrepQuestion[] = [
     prompt: "If smoke smells strong in the kitchen, your ______ sense warns you first.",
     options: [
       { id: "a", text: "Sight" },
-      { id: "b", text: "Taste of sugar" },
+      { id: "b", text: "Taste" },
       { id: "c", text: "Smell" },
       { id: "d", text: "Hearing" }
     ],
     answerId: "c",
-    explanation: "The nose detects smells such as smoke and can warn of danger.",
+    explanation: "The nose detects smells such as smoke and can warn of danger. Sight is tempting because smoke can be seen, but a strong smell often reaches you before you can see the smoke or flames.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
