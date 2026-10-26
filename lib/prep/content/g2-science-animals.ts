@@ -46,9 +46,9 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-animals-a-q04",
     prompt: "Fish breathe with\u2026",
     options: [
-      { id: "a", text: "lungs like us always" },
-      { id: "b", text: "leaves" },
-      { id: "c", text: "noses only" },
+      { id: "a", text: "lungs like us" },
+      { id: "b", text: "skin" },
+      { id: "c", text: "fins" },
       { id: "d", text: "gills" }
     ],
     answerId: "d",
@@ -72,10 +72,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-animals-a-q06",
     prompt: "Which animal may hibernate in cold?",
     options: [
-      { id: "a", text: "fish in fire" },
+      { id: "a", text: "camel" },
       { id: "b", text: "bear" },
-      { id: "c", text: "eagle always" },
-      { id: "d", text: "ant always" }
+      { id: "c", text: "eagle" },
+      { id: "d", text: "cow" }
     ],
     answerId: "b",
     explanation: "Some bears hibernate in cold weather.",
@@ -112,9 +112,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Animals need food, water and\u2026",
     options: [
       { id: "a", text: "air and shelter" },
-      { id: "b", text: "only screens" },
-      { id: "c", text: "only plastic" },
-      { id: "d", text: "only noise" }
+      { id: "b", text: "toys" },
+      { id: "c", text: "money" },
+      { id: "d", text: "clothes" }
     ],
     answerId: "a",
     explanation: "Animals need air and shelter too.",
@@ -124,10 +124,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-animals-a-q10",
     prompt: "Which is an omnivore?",
     options: [
-      { id: "a", text: "cow only" },
+      { id: "a", text: "cow" },
       { id: "b", text: "human" },
-      { id: "c", text: "tiger only" },
-      { id: "d", text: "deer only" }
+      { id: "c", text: "tiger" },
+      { id: "d", text: "deer" }
     ],
     answerId: "b",
     explanation: "Humans can eat plants and animals.",
@@ -164,9 +164,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Nocturnal animals are active at\u2026",
     options: [
       { id: "a", text: "night" },
-      { id: "b", text: "only noon" },
-      { id: "c", text: "only in class" },
-      { id: "d", text: "never" }
+      { id: "b", text: "noon" },
+      { id: "c", text: "morning" },
+      { id: "d", text: "all day" }
     ],
     answerId: "a",
     explanation: "Nocturnal means active at night.",
@@ -176,10 +176,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-animals-a-q14",
     prompt: "A nest is a home for\u2026",
     options: [
-      { id: "a", text: "fish only always" },
+      { id: "a", text: "fish" },
       { id: "b", text: "birds" },
-      { id: "c", text: "worms in space" },
-      { id: "d", text: "cars" }
+      { id: "c", text: "cows" },
+      { id: "d", text: "lions" }
     ],
     answerId: "b",
     explanation: "Birds live in nests.",
@@ -190,9 +190,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Endangered animals need\u2026",
     options: [
       { id: "a", text: "more hunting" },
-      { id: "b", text: "less forests forever" },
+      { id: "b", text: "fewer forests" },
       { id: "c", text: "protection" },
-      { id: "d", text: "noise only" }
+      { id: "d", text: "more roads" }
     ],
     answerId: "c",
     explanation: "Endangered animals need protection.",
@@ -233,8 +233,8 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "herbivore" },
       { id: "b", text: "carnivore" },
-      { id: "c", text: "plant" },
-      { id: "d", text: "insect only" }
+      { id: "c", text: "omnivore" },
+      { id: "d", text: "insect" }
     ],
     answerId: "b",
     explanation: "Tigers eat meat \u2014 carnivores.",
@@ -244,10 +244,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-animals-b-q03",
     prompt: "Ducks have ___ feet for swimming.",
     options: [
-      { id: "a", text: "wheels" },
-      { id: "b", text: "roots" },
+      { id: "a", text: "hooved" },
+      { id: "b", text: "hairy" },
       { id: "c", text: "webbed" },
-      { id: "d", text: "claws only" }
+      { id: "d", text: "clawed" }
     ],
     answerId: "c",
     explanation: "Webbed feet help ducks swim.",
@@ -257,7 +257,7 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-animals-b-q04",
     prompt: "Whales are\u2026",
     options: [
-      { id: "a", text: "fish with scales only" },
+      { id: "a", text: "fish with scales" },
       { id: "b", text: "insects" },
       { id: "c", text: "birds" },
       { id: "d", text: "mammals that live in water" }
@@ -285,8 +285,8 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "never move" },
       { id: "b", text: "travel with seasons" },
-      { id: "c", text: "turn to stone" },
-      { id: "d", text: "become plants" }
+      { id: "c", text: "sleep all winter" },
+      { id: "d", text: "change colour" }
     ],
     answerId: "b",
     explanation: "Migration is seasonal travel.",
@@ -324,8 +324,8 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "food and care" },
       { id: "b", text: "neglect" },
-      { id: "c", text: "only screens" },
-      { id: "d", text: "only noise" }
+      { id: "c", text: "toys" },
+      { id: "d", text: "cages" }
     ],
     answerId: "a",
     explanation: "Pets need food and care.",
@@ -335,7 +335,7 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-animals-b-q10",
     prompt: "Which animal lives in a burrow?",
     options: [
-      { id: "a", text: "eagle only" },
+      { id: "a", text: "eagle" },
       { id: "b", text: "rabbit" },
       { id: "c", text: "whale" },
       { id: "d", text: "shark" }
@@ -375,9 +375,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Animals that are active by day are\u2026",
     options: [
       { id: "a", text: "diurnal" },
-      { id: "b", text: "nocturnal only" },
-      { id: "c", text: "made of metal" },
-      { id: "d", text: "plants" }
+      { id: "b", text: "nocturnal" },
+      { id: "c", text: "migratory" },
+      { id: "d", text: "hibernating" }
     ],
     answerId: "a",
     explanation: "Diurnal means active by day.",

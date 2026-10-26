@@ -31,15 +31,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-sci-heat-a-q03",
-    prompt: "SI unit of temperature commonly used in science labs is\u2026",
+    prompt: "The SI unit of temperature is the…",
     options: [
       { id: "a", text: "Kilogram" },
       { id: "b", text: "Newton" },
-      { id: "c", text: "Kelvin (K), with Celsius also widely used" },
-      { id: "d", text: "Pascal only" }
+      { id: "c", text: "Kelvin (K)" },
+      { id: "d", text: "Pascal" }
     ],
     answerId: "c",
-    explanation: "Kelvin is the SI unit; Celsius is common in labs.",
+    explanation: "The SI unit of temperature is the kelvin (K); Celsius is used a lot in labs, but it is not the SI unit. Pascal is tempting because it is also an SI unit, but it measures pressure, just as the kilogram measures mass and the newton measures force.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -413,13 +413,13 @@ const SET_B: PrepQuestion[] = [
     id: "g7-sci-heat-b-q08",
     prompt: "Boiling involves\u2026",
     options: [
-      { id: "a", text: "Only surface evaporation below boiling point as the same thing" },
+      { id: "a", text: "Slow evaporation from the surface only, below the boiling point" },
       { id: "b", text: "Freezing" },
       { id: "c", text: "Melting of ice only" },
       { id: "d", text: "Rapid vaporisation throughout the liquid at a fixed temperature (at given pressure)" }
     ],
     answerId: "d",
-    explanation: "Boiling is bulk vaporisation at the boiling point.",
+    explanation: "Boiling is rapid vaporisation all through the liquid at its boiling point. Surface evaporation is tempting because liquid turns to vapour in both, but evaporation is slow, happens only at the surface and can happen below the boiling point.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

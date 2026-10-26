@@ -151,12 +151,12 @@ const SET_A: PrepQuestion[] = [
     prompt: "Acid + base \u2192 salt + water is \u2014",
     options: [
       { id: "a", text: "neutralisation" },
-      { id: "b", text: "double? also a double displacement" },
+      { id: "b", text: "combination" },
       { id: "c", text: "decomposition" },
       { id: "d", text: "displacement" }
     ],
     answerId: "a",
-    explanation: "Classic neutralisation definition.",
+    explanation: "An acid reacting with a base to give salt and water is neutralisation. Displacement is tempting because ions swap partners, but no single more reactive element pushes another out of a compound. It is not combination, which makes one product, or decomposition, where one substance breaks down.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

@@ -137,10 +137,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-words-a-q11",
     prompt: "A place where books are kept?",
     options: [
-      { id: "a", text: "kitchen only" },
-      { id: "b", text: "garage only" },
+      { id: "a", text: "kitchen" },
+      { id: "b", text: "garage" },
       { id: "c", text: "library" },
-      { id: "d", text: "garden only" }
+      { id: "d", text: "garden" }
     ],
     answerId: "c",
     explanation: "A library keeps books.",
@@ -189,10 +189,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-words-a-q15",
     prompt: "Word for a person who teaches?",
     options: [
-      { id: "a", text: "driver only" },
-      { id: "b", text: "singer only" },
+      { id: "a", text: "driver" },
+      { id: "b", text: "singer" },
       { id: "c", text: "teacher" },
-      { id: "d", text: "painter only" }
+      { id: "d", text: "painter" }
     ],
     answerId: "c",
     explanation: "A teacher teaches.",
@@ -400,10 +400,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-words-b-q15",
     prompt: "Person who drives a bus?",
     options: [
-      { id: "a", text: "cook only" },
-      { id: "b", text: "teacher only" },
+      { id: "a", text: "cook" },
+      { id: "b", text: "teacher" },
       { id: "c", text: "driver" },
-      { id: "d", text: "doctor only" }
+      { id: "d", text: "doctor" }
     ],
     answerId: "c",
     explanation: "A driver drives.",

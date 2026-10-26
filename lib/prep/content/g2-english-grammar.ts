@@ -113,8 +113,8 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "noun" },
       { id: "b", text: "full stop" },
-      { id: "c", text: "number only" },
-      { id: "d", text: "silence" }
+      { id: "c", text: "verb" },
+      { id: "d", text: "sentence" }
     ],
     answerId: "a",
     explanation: "Adjectives describe nouns.",
@@ -257,9 +257,9 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-grammar-b-q04",
     prompt: "A verb shows an\u2026",
     options: [
-      { id: "a", text: "colour only" },
-      { id: "b", text: "place name only" },
-      { id: "c", text: "silence" },
+      { id: "a", text: "object" },
+      { id: "b", text: "idea" },
+      { id: "c", text: "answer" },
       { id: "d", text: "action" }
     ],
     answerId: "d",
@@ -413,9 +413,9 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-grammar-b-q16",
     prompt: "Articles a/an/the are used before\u2026",
     options: [
-      { id: "a", text: "verbs only" },
+      { id: "a", text: "verbs" },
       { id: "b", text: "full stops" },
-      { id: "c", text: "numbers only" },
+      { id: "c", text: "pronouns" },
       { id: "d", text: "nouns" }
     ],
     answerId: "d",

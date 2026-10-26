@@ -72,10 +72,10 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-plants-a-q06",
     prompt: "A flower is often\u2026",
     options: [
-      { id: "a", text: "under soil only" },
+      { id: "a", text: "under the soil" },
       { id: "b", text: "bright and pretty" },
-      { id: "c", text: "made of metal" },
-      { id: "d", text: "a rock" }
+      { id: "c", text: "brown and dry" },
+      { id: "d", text: "hard like wood" }
     ],
     answerId: "b",
     explanation: "Flowers are often bright and pretty.",
@@ -150,9 +150,9 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-plants-a-q12",
     prompt: "The stem\u2026",
     options: [
-      { id: "a", text: "is always under soil" },
-      { id: "b", text: "is an animal" },
-      { id: "c", text: "makes thunder" },
+      { id: "a", text: "takes in water from the soil" },
+      { id: "b", text: "makes the seeds" },
+      { id: "c", text: "is the colourful part" },
       { id: "d", text: "holds the plant up" }
     ],
     answerId: "d",
@@ -164,9 +164,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "A cactus lives where it is\u2026",
     options: [
       { id: "a", text: "dry" },
-      { id: "b", text: "very wet always" },
-      { id: "c", text: "under the sea" },
-      { id: "d", text: "in snow only" }
+      { id: "b", text: "very wet" },
+      { id: "c", text: "shady and damp" },
+      { id: "d", text: "in snow" }
     ],
     answerId: "a",
     explanation: "Cactus plants like dry places.",
@@ -176,10 +176,10 @@ const SET_A: PrepQuestion[] = [
     id: "g1-sci-plants-a-q14",
     prompt: "We get wood from\u2026",
     options: [
-      { id: "a", text: "fish" },
+      { id: "a", text: "sand" },
       { id: "b", text: "trees" },
-      { id: "c", text: "clouds" },
-      { id: "d", text: "stones only" }
+      { id: "c", text: "cotton" },
+      { id: "d", text: "stones" }
     ],
     answerId: "b",
     explanation: "Wood comes from trees.",
@@ -203,8 +203,8 @@ const SET_A: PrepQuestion[] = [
     prompt: "Plants are\u2026",
     options: [
       { id: "a", text: "not living" },
-      { id: "b", text: "made of plastic only" },
-      { id: "c", text: "always toys" },
+      { id: "b", text: "animals" },
+      { id: "c", text: "unable to grow" },
       { id: "d", text: "living" }
     ],
     answerId: "d",
@@ -220,8 +220,8 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "root" },
       { id: "b", text: "flower" },
-      { id: "c", text: "fruit skin" },
-      { id: "d", text: "thorn only" }
+      { id: "c", text: "stem" },
+      { id: "d", text: "leaf" }
     ],
     answerId: "a",
     explanation: "Roots drink water from the soil.",
@@ -231,10 +231,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q02",
     prompt: "Sunlight helps leaves to\u2026",
     options: [
-      { id: "a", text: "dance" },
+      { id: "a", text: "drink water" },
       { id: "b", text: "make food" },
-      { id: "c", text: "sleep only" },
-      { id: "d", text: "make noise" }
+      { id: "c", text: "fall off" },
+      { id: "d", text: "change colour" }
     ],
     answerId: "b",
     explanation: "Leaves use sunlight to make food.",
@@ -272,8 +272,8 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "care for" },
       { id: "b", text: "kick" },
-      { id: "c", text: "burn always" },
-      { id: "d", text: "ignore forever" }
+      { id: "c", text: "pluck" },
+      { id: "d", text: "ignore" }
     ],
     answerId: "a",
     explanation: "We should care for plants.",
@@ -283,10 +283,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q06",
     prompt: "A leaf is usually\u2026",
     options: [
-      { id: "a", text: "round like a ball only" },
+      { id: "a", text: "round like a ball" },
       { id: "b", text: "flat and green" },
-      { id: "c", text: "made of iron" },
-      { id: "d", text: "blue metal" }
+      { id: "c", text: "thick and hard" },
+      { id: "d", text: "red and furry" }
     ],
     answerId: "b",
     explanation: "Leaves are often flat and green.",
@@ -348,7 +348,7 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q11",
     prompt: "Dry leaves fall in\u2026",
     options: [
-      { id: "a", text: "only at night always" },
+      { id: "a", text: "the rainy season" },
       { id: "b", text: "from the moon" },
       { id: "c", text: "autumn / dry season" },
       { id: "d", text: "from cars" }
@@ -376,8 +376,8 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "water" },
       { id: "b", text: "no care" },
-      { id: "c", text: "only darkness forever" },
-      { id: "d", text: "salt only" }
+      { id: "c", text: "darkness" },
+      { id: "d", text: "salt water" }
     ],
     answerId: "a",
     explanation: "Potted plants need water too.",
@@ -389,8 +389,8 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "big tree" },
       { id: "b", text: "seed" },
-      { id: "c", text: "fruit only" },
-      { id: "d", text: "wood chair" }
+      { id: "c", text: "flower" },
+      { id: "d", text: "small plant" }
     ],
     answerId: "b",
     explanation: "Life often starts with a seed.",
@@ -413,9 +413,9 @@ const SET_B: PrepQuestion[] = [
     id: "g1-sci-plants-b-q16",
     prompt: "Plants give us\u2026",
     options: [
-      { id: "a", text: "only plastic" },
-      { id: "b", text: "only noise" },
-      { id: "c", text: "only smoke" },
+      { id: "a", text: "plastic" },
+      { id: "b", text: "metal" },
+      { id: "c", text: "smoke" },
       { id: "d", text: "oxygen / fresh air" }
     ],
     answerId: "d",

@@ -46,9 +46,9 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-airwater-a-q04",
     prompt: "Ice is water in the ___ form.",
     options: [
-      { id: "a", text: "liquid only" },
-      { id: "b", text: "gas only" },
-      { id: "c", text: "plastic" },
+      { id: "a", text: "liquid" },
+      { id: "b", text: "gas" },
+      { id: "c", text: "melted" },
       { id: "d", text: "solid" }
     ],
     answerId: "d",
@@ -61,7 +61,7 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "clean" },
       { id: "b", text: "dirty" },
-      { id: "c", text: "salty sea only" },
+      { id: "c", text: "salty sea" },
       { id: "d", text: "muddy" }
     ],
     answerId: "a",
@@ -98,9 +98,9 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-airwater-a-q08",
     prompt: "Air is all around us but we usually\u2026",
     options: [
-      { id: "a", text: "can eat it like bread" },
-      { id: "b", text: "paint it only" },
-      { id: "c", text: "hold it easily always" },
+      { id: "a", text: "can see it clearly" },
+      { id: "b", text: "can hold it in our hands" },
+      { id: "c", text: "can hear it all the time" },
       { id: "d", text: "cannot see it" }
     ],
     answerId: "d",
@@ -137,10 +137,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-airwater-a-q11",
     prompt: "Fish need ___ in water to live.",
     options: [
-      { id: "a", text: "plastic" },
-      { id: "b", text: "sand only" },
+      { id: "a", text: "sunlight" },
+      { id: "b", text: "sand" },
       { id: "c", text: "oxygen in the water" },
-      { id: "d", text: "fire" }
+      { id: "d", text: "mud" }
     ],
     answerId: "c",
     explanation: "Fish need oxygen in water.",
@@ -150,9 +150,9 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-airwater-a-q12",
     prompt: "Puddles dry up because water\u2026",
     options: [
-      { id: "a", text: "turns to stone" },
-      { id: "b", text: "freezes always" },
-      { id: "c", text: "becomes metal" },
+      { id: "a", text: "turns into sand" },
+      { id: "b", text: "freezes" },
+      { id: "c", text: "melts" },
       { id: "d", text: "evaporates" }
     ],
     answerId: "d",
@@ -164,9 +164,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Which is a use of water?",
     options: [
       { id: "a", text: "drinking and cleaning" },
-      { id: "b", text: "only flying planes" },
-      { id: "c", text: "only making noise" },
-      { id: "d", text: "only making plastic" }
+      { id: "b", text: "lighting a fire" },
+      { id: "c", text: "drying wet clothes" },
+      { id: "d", text: "making the air we breathe" }
     ],
     answerId: "a",
     explanation: "We drink and clean with water.",
@@ -176,10 +176,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-airwater-a-q14",
     prompt: "Smoke and dust can make air\u2026",
     options: [
-      { id: "a", text: "sweeter always" },
+      { id: "a", text: "cleaner" },
       { id: "b", text: "dirty or polluted" },
-      { id: "c", text: "made of gold" },
-      { id: "d", text: "silent forever" }
+      { id: "c", text: "cooler" },
+      { id: "d", text: "fresher" }
     ],
     answerId: "b",
     explanation: "Smoke and dust pollute air.",
@@ -190,9 +190,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Clouds are made of tiny\u2026",
     options: [
       { id: "a", text: "stones" },
-      { id: "b", text: "plastic bits only" },
+      { id: "b", text: "dust bits" },
       { id: "c", text: "water droplets" },
-      { id: "d", text: "metal sheets" }
+      { id: "d", text: "cotton threads" }
     ],
     answerId: "c",
     explanation: "Clouds hold tiny water droplets.",
@@ -203,8 +203,8 @@ const SET_A: PrepQuestion[] = [
     prompt: "Cover food and water to keep them\u2026",
     options: [
       { id: "a", text: "dirty" },
-      { id: "b", text: "hot always" },
-      { id: "c", text: "salty always" },
+      { id: "b", text: "cold" },
+      { id: "c", text: "hard" },
       { id: "d", text: "clean and safe" }
     ],
     answerId: "d",
@@ -231,10 +231,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-airwater-b-q02",
     prompt: "Steam is water as a\u2026",
     options: [
-      { id: "a", text: "solid only" },
+      { id: "a", text: "solid" },
       { id: "b", text: "gas" },
-      { id: "c", text: "plastic" },
-      { id: "d", text: "metal" }
+      { id: "c", text: "liquid" },
+      { id: "d", text: "powder" }
     ],
     answerId: "b",
     explanation: "Steam is water vapour (gas).",
@@ -244,10 +244,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-airwater-b-q03",
     prompt: "We get much of our drinking water from\u2026",
     options: [
-      { id: "a", text: "only from fire" },
-      { id: "b", text: "only from plastic smoke" },
+      { id: "a", text: "the sea, without cleaning" },
+      { id: "b", text: "puddles on the road" },
       { id: "c", text: "rivers and taps after cleaning" },
-      { id: "d", text: "only from sand" }
+      { id: "d", text: "ice from the fridge" }
     ],
     answerId: "c",
     explanation: "Water often comes from rivers, cleaned for taps.",
@@ -271,9 +271,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "A strong wind storm can be\u2026",
     options: [
       { id: "a", text: "dangerous" },
-      { id: "b", text: "always safe under trees" },
-      { id: "c", text: "made of candy" },
-      { id: "d", text: "silent always" }
+      { id: "b", text: "fun to play in" },
+      { id: "c", text: "good for flying kites" },
+      { id: "d", text: "quiet and calm" }
     ],
     answerId: "a",
     explanation: "Storms can be dangerous \u2014 stay safe.",
@@ -309,9 +309,9 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-airwater-b-q08",
     prompt: "Fog is tiny water drops in the\u2026",
     options: [
-      { id: "a", text: "only underground always" },
-      { id: "b", text: "only in books" },
-      { id: "c", text: "only in shoes" },
+      { id: "a", text: "soil" },
+      { id: "b", text: "clouds high in the sky" },
+      { id: "c", text: "rivers" },
       { id: "d", text: "air near the ground" }
     ],
     answerId: "d",
@@ -335,10 +335,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-airwater-b-q10",
     prompt: "Air takes up\u2026",
     options: [
-      { id: "a", text: "no space ever" },
+      { id: "a", text: "no space" },
       { id: "b", text: "space" },
-      { id: "c", text: "only colour" },
-      { id: "d", text: "only taste" }
+      { id: "c", text: "only outside space" },
+      { id: "d", text: "space only when it moves" }
     ],
     answerId: "b",
     explanation: "Air takes up space \u2014 fill a balloon.",
@@ -348,10 +348,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-airwater-b-q11",
     prompt: "The water cycle includes rain, clouds and\u2026",
     options: [
-      { id: "a", text: "plastic making" },
-      { id: "b", text: "metal melting only" },
+      { id: "a", text: "burning" },
+      { id: "b", text: "boiling of milk" },
       { id: "c", text: "evaporation" },
-      { id: "d", text: "noise" }
+      { id: "d", text: "thunder" }
     ],
     answerId: "c",
     explanation: "Evaporation is part of the water cycle.",
@@ -375,9 +375,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "A fan moves\u2026",
     options: [
       { id: "a", text: "air" },
-      { id: "b", text: "stones" },
-      { id: "c", text: "water from wells always" },
-      { id: "d", text: "soil only" }
+      { id: "b", text: "light" },
+      { id: "c", text: "water" },
+      { id: "d", text: "soil" }
     ],
     answerId: "a",
     explanation: "A fan moves air.",
@@ -400,10 +400,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-airwater-b-q15",
     prompt: "Clean air is important for\u2026",
     options: [
-      { id: "a", text: "making more dust" },
-      { id: "b", text: "stopping rain forever" },
+      { id: "a", text: "making rain" },
+      { id: "b", text: "growing taller" },
       { id: "c", text: "healthy breathing" },
-      { id: "d", text: "hiding the sun" }
+      { id: "d", text: "making noise" }
     ],
     answerId: "c",
     explanation: "Clean air helps healthy breathing.",

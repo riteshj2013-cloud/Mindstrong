@@ -267,7 +267,7 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch05-a-q21",
     prompt: "A student writes a formal letter that begins \"Hey Editor!\" and ends \"See ya.\" The main problem is \u2014",
     options: [
-      { id: "a", text: "wrong register for a formal letter" },
+      { id: "a", text: "language far too casual for a formal letter" },
       { id: "b", text: "missing paper size" },
       { id: "c", text: "too many facts" },
       { id: "d", text: "using a subject line" }
@@ -306,13 +306,13 @@ const SET_A: PrepQuestion[] = [
     id: "g8-eng-ch05-a-q24",
     prompt: "Match the pair that belongs together.",
     options: [
-      { id: "a", text: "Dear Rohan \u2192 Yours obediently as the only correct close for friends" },
+      { id: "a", text: "Dear Rohan → Yours faithfully" },
       { id: "b", text: "Dear Sir/Madam \u2192 Yours sincerely" },
       { id: "c", text: "Dear Ms. Iyer \u2192 Yours faithfully" },
       { id: "d", text: "Dear Sir/Madam \u2192 Yours faithfully" }
     ],
     answerId: "d",
-    explanation: "Unnamed formal salutations take \"Yours faithfully\"; named ones take \"Yours sincerely.\"",
+    explanation: "Unnamed formal salutations such as Dear Sir/Madam take 'Yours faithfully'; named ones take 'Yours sincerely'. 'Dear Sir/Madam → Yours sincerely' is tempting because it is also a formal close, but sincerely goes with a named person. 'Dear Rohan' starts a letter to a friend, which does not end with 'Yours faithfully'.",
     hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
   }
 ];

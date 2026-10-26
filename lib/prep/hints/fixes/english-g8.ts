@@ -155,4 +155,5 @@ export const G8_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g8-eng-ch02-a-q15": ["In reported speech someone else tells us what Rahul said. Who does \"I\" become when you talk about Rahul?", "After \"said that\", ask whether the verb stays in the present or moves one step back in time."],
   "g8-eng-ch01-b-q04": ["Radios cannot feel anything, so the writer is comparing them to people. Read the simile that comes straight after.", "Think about how people in a waiting room usually behave while they wait their turn."],
   "g8-eng-ch02-a-q19": ["Take the clause out. Which word in the sentence is it telling you more about?", "That word names a person. What kind of word usually tells you more about a naming word?"],
+  "g8-eng-ch05-a-q24": ["Look at each greeting: does it name the reader, or not? Then think which formal close goes with that kind of greeting."],
 };

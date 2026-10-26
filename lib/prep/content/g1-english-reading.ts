@@ -9,7 +9,7 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "sun" },
       { id: "b", text: "moon" },
-      { id: "c", text: "star only" },
+      { id: "c", text: "flower" },
       { id: "d", text: "cloud" }
     ],
     answerId: "a",
@@ -205,8 +205,8 @@ const SET_A: PrepQuestion[] = [
     prompt: "Read: \"It is hot in summer.\" How is summer?",
     options: [
       { id: "a", text: "cold" },
-      { id: "b", text: "dark always" },
-      { id: "c", text: "wet only" },
+      { id: "b", text: "windy" },
+      { id: "c", text: "rainy" },
       { id: "d", text: "hot" }
     ],
     answerId: "d",
@@ -234,10 +234,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-eng-reading-b-q02",
     prompt: "Read: \"The dog sits by the door.\" Where is the dog?",
     options: [
-      { id: "a", text: "in the sky" },
+      { id: "a", text: "under the bed" },
       { id: "b", text: "by the door" },
-      { id: "c", text: "on the roof only" },
-      { id: "d", text: "in a cup" }
+      { id: "c", text: "on the roof" },
+      { id: "d", text: "by the gate" }
     ],
     answerId: "b",
     explanation: "By the door \u2014 that is the place.",
@@ -274,8 +274,8 @@ const SET_B: PrepQuestion[] = [
     prompt: "In the morning we see the\u2026",
     options: [
       { id: "a", text: "sun" },
-      { id: "b", text: "moon only" },
-      { id: "c", text: "stars only" },
+      { id: "b", text: "stars" },
+      { id: "c", text: "fireflies" },
       { id: "d", text: "owl" }
     ],
     answerId: "a",
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "a", text: "rain" },
       { id: "b", text: "sand" },
       { id: "c", text: "stones" },
-      { id: "d", text: "leaves only" }
+      { id: "d", text: "leaves" }
     ],
     answerId: "a",
     explanation: "Small blue drops are falling from the grey cloud, so it is rain. Stones is tempting because stones can fall too, but clouds hold water, not stones.",
@@ -391,10 +391,10 @@ const SET_B: PrepQuestion[] = [
     id: "g1-eng-reading-b-q14",
     prompt: "Read: \"Fish swim in water.\" Where do fish swim?",
     options: [
-      { id: "a", text: "in fire" },
+      { id: "a", text: "in the sand" },
       { id: "b", text: "in water" },
-      { id: "c", text: "in air only" },
-      { id: "d", text: "on roads" }
+      { id: "c", text: "in the air" },
+      { id: "d", text: "in trees" }
     ],
     answerId: "b",
     explanation: "In water \u2014 from the sentence.",
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
       { id: "a", text: "brick" },
       { id: "b", text: "broom" },
       { id: "c", text: "book" },
-      { id: "d", text: "boat only" }
+      { id: "d", text: "boat" }
     ],
     answerId: "c",
     explanation: "We read a book.",

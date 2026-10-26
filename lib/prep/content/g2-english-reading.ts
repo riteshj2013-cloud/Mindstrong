@@ -9,8 +9,8 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "every morning" },
       { id: "b", text: "at night" },
-      { id: "c", text: "only on Sunday" },
-      { id: "d", text: "never" }
+      { id: "c", text: "on Sunday" },
+      { id: "d", text: "every evening" }
     ],
     answerId: "a",
     explanation: "The sentence says every morning.",
@@ -46,9 +46,9 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-reading-a-q04",
     prompt: "Why do we wear a raincoat?",
     options: [
-      { id: "a", text: "to fly" },
-      { id: "b", text: "to sleep underwater" },
-      { id: "c", text: "to cook" },
+      { id: "a", text: "to stay cool in summer" },
+      { id: "b", text: "to go swimming" },
+      { id: "c", text: "to keep the sun away" },
       { id: "d", text: "to stay dry in rain" }
     ],
     answerId: "d",
@@ -60,9 +60,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Read: \"Grandma tells stories at bedtime.\" When does Grandma tell stories?",
     options: [
       { id: "a", text: "at bedtime" },
-      { id: "b", text: "at noon only" },
-      { id: "c", text: "in maths class only" },
-      { id: "d", text: "never" }
+      { id: "b", text: "at lunchtime" },
+      { id: "c", text: "in the morning" },
+      { id: "d", text: "after school" }
     ],
     answerId: "a",
     explanation: "At bedtime \u2014 from the sentence.",
@@ -88,7 +88,7 @@ const SET_A: PrepQuestion[] = [
       { id: "a", text: "She broke the toy." },
       { id: "b", text: "She shouted angrily." },
       { id: "c", text: "She helped her friend." },
-      { id: "d", text: "She hid the book forever." }
+      { id: "d", text: "She hid her friend's book." }
     ],
     answerId: "c",
     explanation: "Helping a friend is kind.",
@@ -98,9 +98,9 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-reading-a-q08",
     prompt: "Read: \"Ants work together to carry food.\" What do ants do?",
     options: [
-      { id: "a", text: "sleep all day only" },
-      { id: "b", text: "drive cars" },
-      { id: "c", text: "read novels" },
+      { id: "a", text: "sleep all day" },
+      { id: "b", text: "work alone" },
+      { id: "c", text: "fight over food" },
       { id: "d", text: "work together" }
     ],
     answerId: "d",
@@ -138,7 +138,7 @@ const SET_A: PrepQuestion[] = [
     prompt: "Read: \"Leela felt proud after her race.\" How did Leela feel?",
     options: [
       { id: "a", text: "sad" },
-      { id: "b", text: "sleepy only" },
+      { id: "b", text: "sleepy" },
       { id: "c", text: "proud" },
       { id: "d", text: "angry" }
     ],
@@ -150,9 +150,9 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-reading-a-q12",
     prompt: "A library is a place to\u2026",
     options: [
-      { id: "a", text: "swim with sharks" },
-      { id: "b", text: "park aeroplanes" },
-      { id: "c", text: "bake only" },
+      { id: "a", text: "buy vegetables" },
+      { id: "b", text: "watch films" },
+      { id: "c", text: "play cricket" },
       { id: "d", text: "borrow books" }
     ],
     answerId: "d",
@@ -189,10 +189,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-eng-reading-a-q15",
     prompt: "Which title fits a story about a lost kitten found at home?",
     options: [
-      { id: "a", text: "Space Rockets" },
+      { id: "a", text: "A Day at the Zoo" },
       { id: "b", text: "Deep Sea Sharks" },
       { id: "c", text: "The Kitten Comes Home" },
-      { id: "d", text: "Maths Only" }
+      { id: "d", text: "The Lost Puppy" }
     ],
     answerId: "c",
     explanation: "The title matches the kitten story.",
@@ -219,8 +219,8 @@ const SET_B: PrepQuestion[] = [
     prompt: "Read: \"Sara feeds the sparrows on the balcony.\" Whom does Sara feed?",
     options: [
       { id: "a", text: "sparrows" },
-      { id: "b", text: "cats only" },
-      { id: "c", text: "fish in the sea" },
+      { id: "b", text: "cats" },
+      { id: "c", text: "pigeons" },
       { id: "d", text: "cows" }
     ],
     answerId: "a",
@@ -271,9 +271,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Read: \"Papa reads the newspaper after breakfast.\" When does Papa read?",
     options: [
       { id: "a", text: "after breakfast" },
-      { id: "b", text: "before dawn only" },
-      { id: "c", text: "at midnight only" },
-      { id: "d", text: "never" }
+      { id: "b", text: "before school" },
+      { id: "c", text: "after dinner" },
+      { id: "d", text: "at lunchtime" }
     ],
     answerId: "a",
     explanation: "After breakfast \u2014 time clue.",
@@ -283,10 +283,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q06",
     prompt: "Read: \"It started to rain, so we went inside.\" Why did they go inside?",
     options: [
-      { id: "a", text: "they were hungry only" },
+      { id: "a", text: "they were hungry" },
       { id: "b", text: "it started to rain" },
-      { id: "c", text: "the TV called" },
-      { id: "d", text: "shoes were new" }
+      { id: "c", text: "it was too hot" },
+      { id: "d", text: "it was getting dark" }
     ],
     answerId: "b",
     explanation: "Because it started to rain.",
@@ -348,10 +348,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q11",
     prompt: "Read: \"Kabir felt brave on stage.\" How did Kabir feel?",
     options: [
-      { id: "a", text: "sleepy only" },
-      { id: "b", text: "lost forever" },
+      { id: "a", text: "sleepy" },
+      { id: "b", text: "scared" },
       { id: "c", text: "brave" },
-      { id: "d", text: "angry at shoes" }
+      { id: "d", text: "tired" }
     ],
     answerId: "c",
     explanation: "Brave \u2014 feeling word.",
@@ -361,9 +361,9 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q12",
     prompt: "A post office is a place to\u2026",
     options: [
-      { id: "a", text: "swim" },
-      { id: "b", text: "grow rice only" },
-      { id: "c", text: "park planes" },
+      { id: "a", text: "borrow books" },
+      { id: "b", text: "buy medicines" },
+      { id: "c", text: "buy vegetables" },
       { id: "d", text: "send letters" }
     ],
     answerId: "d",
@@ -387,10 +387,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-eng-reading-b-q14",
     prompt: "Read: \"Stars twinkle in the night sky.\" When do stars twinkle here?",
     options: [
-      { id: "a", text: "only at noon" },
+      { id: "a", text: "in the morning" },
       { id: "b", text: "at night" },
-      { id: "c", text: "only underwater" },
-      { id: "d", text: "never" }
+      { id: "c", text: "at noon" },
+      { id: "d", text: "after lunch" }
     ],
     answerId: "b",
     explanation: "In the night sky.",

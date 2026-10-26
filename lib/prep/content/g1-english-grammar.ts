@@ -10,10 +10,10 @@ const SET_A: PrepQuestion[] = [
       { id: "a", text: "I like tea." },
       { id: "b", text: "i like tea." },
       { id: "c", text: "i Like tea." },
-      { id: "d", text: "I like Tea always wrong." }
+      { id: "d", text: "I like Tea." }
     ],
     answerId: "a",
-    explanation: "Sentences start with a capital letter.",
+    explanation: "A sentence starts with a capital letter, and the word I is always a capital. 'I like Tea.' is tempting because it starts with a capital, but tea is not a name, so it stays small.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

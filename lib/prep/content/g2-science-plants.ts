@@ -8,9 +8,9 @@ const SET_A: PrepQuestion[] = [
     prompt: "Seeds need ___ to sprout.",
     options: [
       { id: "a", text: "water and warmth" },
-      { id: "b", text: "only darkness forever" },
-      { id: "c", text: "plastic" },
-      { id: "d", text: "metal" }
+      { id: "b", text: "salt" },
+      { id: "c", text: "strong wind" },
+      { id: "d", text: "ice" }
     ],
     answerId: "a",
     explanation: "Seeds need water and warmth to sprout.",
@@ -20,10 +20,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-plants-a-q02",
     prompt: "Leaves make food using\u2026",
     options: [
-      { id: "a", text: "moonlight only" },
+      { id: "a", text: "moonlight" },
       { id: "b", text: "sunlight" },
-      { id: "c", text: "noise" },
-      { id: "d", text: "plastic" }
+      { id: "c", text: "darkness" },
+      { id: "d", text: "flowers" }
     ],
     answerId: "b",
     explanation: "Leaves use sunlight to make food.",
@@ -46,9 +46,9 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-plants-a-q04",
     prompt: "Which plant part becomes a fruit?",
     options: [
-      { id: "a", text: "root hair only" },
-      { id: "b", text: "thorn only" },
-      { id: "c", text: "dead leaf" },
+      { id: "a", text: "root" },
+      { id: "b", text: "leaf" },
+      { id: "c", text: "stem" },
       { id: "d", text: "flower" }
     ],
     answerId: "d",
@@ -61,8 +61,8 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "carrot" },
       { id: "b", text: "mango" },
-      { id: "c", text: "rose petal only" },
-      { id: "d", text: "banana skin only" }
+      { id: "c", text: "cabbage" },
+      { id: "d", text: "onion" }
     ],
     answerId: "a",
     explanation: "Carrot is a root we eat.",
@@ -85,10 +85,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-plants-a-q07",
     prompt: "Plants take in carbon dioxide and give out\u2026",
     options: [
-      { id: "a", text: "plastic" },
-      { id: "b", text: "sand" },
+      { id: "a", text: "nitrogen" },
+      { id: "b", text: "smoke" },
       { id: "c", text: "oxygen" },
-      { id: "d", text: "smoke only" }
+      { id: "d", text: "carbon dioxide" }
     ],
     answerId: "c",
     explanation: "Plants give out oxygen.",
@@ -113,8 +113,8 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "wheat" },
       { id: "b", text: "rose" },
-      { id: "c", text: "neem only" },
-      { id: "d", text: "cactus fruit only" }
+      { id: "c", text: "neem" },
+      { id: "d", text: "mango" }
     ],
     answerId: "a",
     explanation: "Wheat is a cereal plant.",
@@ -126,8 +126,8 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "always sprout at once" },
       { id: "b", text: "may stay dormant" },
-      { id: "c", text: "turn into fish" },
-      { id: "d", text: "become metal" }
+      { id: "c", text: "rot at once" },
+      { id: "d", text: "grow leaves in the jar" }
     ],
     answerId: "b",
     explanation: "Dry seeds can stay dormant until watered.",
@@ -137,10 +137,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-plants-a-q11",
     prompt: "Chlorophyll makes leaves look\u2026",
     options: [
-      { id: "a", text: "blue metal" },
-      { id: "b", text: "pink always" },
+      { id: "a", text: "yellow" },
+      { id: "b", text: "red" },
       { id: "c", text: "green" },
-      { id: "d", text: "glass" }
+      { id: "d", text: "brown" }
     ],
     answerId: "c",
     explanation: "Chlorophyll is green.",
@@ -150,9 +150,9 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-plants-a-q12",
     prompt: "Which helps scatter seeds?",
     options: [
-      { id: "a", text: "only silence" },
-      { id: "b", text: "only plastic bags" },
-      { id: "c", text: "only darkness" },
+      { id: "a", text: "only sunlight" },
+      { id: "b", text: "only soil" },
+      { id: "c", text: "only shade" },
       { id: "d", text: "wind and animals" }
     ],
     answerId: "d",
@@ -165,8 +165,8 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "stem" },
       { id: "b", text: "flower" },
-      { id: "c", text: "leaf only" },
-      { id: "d", text: "fruit only" }
+      { id: "c", text: "leaf" },
+      { id: "d", text: "root" }
     ],
     answerId: "a",
     explanation: "Potato is an underground stem.",
@@ -176,10 +176,10 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-plants-a-q14",
     prompt: "Plants in water (like lotus) are\u2026",
     options: [
-      { id: "a", text: "desert only" },
+      { id: "a", text: "desert plants" },
       { id: "b", text: "aquatic plants" },
-      { id: "c", text: "space plants" },
-      { id: "d", text: "metal plants" }
+      { id: "c", text: "climbers" },
+      { id: "d", text: "creepers" }
     ],
     answerId: "b",
     explanation: "Lotus is an aquatic plant.",
@@ -202,9 +202,9 @@ const SET_A: PrepQuestion[] = [
     id: "g2-sci-plants-a-q16",
     prompt: "Photosynthesis mainly happens in the\u2026",
     options: [
-      { id: "a", text: "rock" },
-      { id: "b", text: "plastic pot only" },
-      { id: "c", text: "wire" },
+      { id: "a", text: "flower" },
+      { id: "b", text: "root" },
+      { id: "c", text: "fruit" },
       { id: "d", text: "leaf" }
     ],
     answerId: "d",
@@ -219,9 +219,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "A seedling is a\u2026",
     options: [
       { id: "a", text: "young plant" },
-      { id: "b", text: "old tree only" },
-      { id: "c", text: "dead leaf" },
-      { id: "d", text: "stone" }
+      { id: "b", text: "old tree" },
+      { id: "c", text: "flower bud" },
+      { id: "d", text: "seed" }
     ],
     answerId: "a",
     explanation: "A seedling is a young plant.",
@@ -244,10 +244,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-plants-b-q03",
     prompt: "Which part holds the plant upright?",
     options: [
-      { id: "a", text: "petal only" },
-      { id: "b", text: "seed coat only" },
+      { id: "a", text: "petal" },
+      { id: "b", text: "leaf" },
       { id: "c", text: "stem" },
-      { id: "d", text: "nectar" }
+      { id: "d", text: "flower" }
     ],
     answerId: "c",
     explanation: "The stem holds the plant up.",
@@ -257,9 +257,9 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-plants-b-q04",
     prompt: "Mango seed is found\u2026",
     options: [
-      { id: "a", text: "in the leaf tip only" },
-      { id: "b", text: "in the air only" },
-      { id: "c", text: "in a stone always" },
+      { id: "a", text: "in the leaf" },
+      { id: "b", text: "in the root" },
+      { id: "c", text: "on the bark" },
       { id: "d", text: "inside the fruit" }
     ],
     answerId: "d",
@@ -271,9 +271,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "We eat the leaf of\u2026",
     options: [
       { id: "a", text: "spinach" },
-      { id: "b", text: "carrot root only" },
-      { id: "c", text: "potato only" },
-      { id: "d", text: "coconut shell only" }
+      { id: "b", text: "carrot" },
+      { id: "c", text: "potato" },
+      { id: "d", text: "mango" }
     ],
     answerId: "a",
     explanation: "Spinach leaves are eaten.",
@@ -296,10 +296,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-plants-b-q07",
     prompt: "A cactus stores water in its\u2026",
     options: [
-      { id: "a", text: "flower only" },
-      { id: "b", text: "roots only always" },
+      { id: "a", text: "flower" },
+      { id: "b", text: "roots" },
       { id: "c", text: "stem" },
-      { id: "d", text: "seeds only" }
+      { id: "d", text: "thorns" }
     ],
     answerId: "c",
     explanation: "Cactus stems store water.",
@@ -323,9 +323,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Trees help us by giving\u2026",
     options: [
       { id: "a", text: "shade and air" },
-      { id: "b", text: "only noise" },
-      { id: "c", text: "only smoke" },
-      { id: "d", text: "only plastic" }
+      { id: "b", text: "noise" },
+      { id: "c", text: "smoke" },
+      { id: "d", text: "plastic" }
     ],
     answerId: "a",
     explanation: "Trees give shade and help the air.",
@@ -348,10 +348,10 @@ const SET_B: PrepQuestion[] = [
     id: "g2-sci-plants-b-q11",
     prompt: "The green food made by leaves travels through the\u2026",
     options: [
-      { id: "a", text: "only the soil forever" },
-      { id: "b", text: "only the sky" },
+      { id: "a", text: "the soil" },
+      { id: "b", text: "the air" },
       { id: "c", text: "stem" },
-      { id: "d", text: "only wires" }
+      { id: "d", text: "the flowers" }
     ],
     answerId: "c",
     explanation: "Food moves through the stem.",
@@ -362,8 +362,8 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which plant grows in water?",
     options: [
       { id: "a", text: "cactus" },
-      { id: "b", text: "desert thorn only" },
-      { id: "c", text: "pine on dry rock only" },
+      { id: "b", text: "desert thorn" },
+      { id: "c", text: "pine" },
       { id: "d", text: "lotus" }
     ],
     answerId: "d",
@@ -375,9 +375,9 @@ const SET_B: PrepQuestion[] = [
     prompt: "Farmers grow plants for\u2026",
     options: [
       { id: "a", text: "food" },
-      { id: "b", text: "only noise" },
-      { id: "c", text: "only dust" },
-      { id: "d", text: "only plastic" }
+      { id: "b", text: "noise" },
+      { id: "c", text: "dust" },
+      { id: "d", text: "plastic" }
     ],
     answerId: "a",
     explanation: "Farmers grow plants for food.",

@@ -325,7 +325,7 @@ const SET_B: PrepQuestion[] = [
       { id: "a", text: "\"That's kind of you. Thank you!\"" },
       { id: "b", text: "\"Go away.\"" },
       { id: "c", text: "\"I already know everything.\"" },
-      { id: "d", text: "\"Where is the canteen only?\"" }
+      { id: "d", text: "\"Where is the canteen?\"" }
     ],
     answerId: "a",
     explanation: "He accepts the welcome with thanks \u2014 warm and polite.",

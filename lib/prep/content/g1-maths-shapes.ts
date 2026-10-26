@@ -165,7 +165,7 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "triangles" },
       { id: "b", text: "circles" },
-      { id: "c", text: "squares only" },
+      { id: "c", text: "squares" },
       { id: "d", text: "ovals" }
     ],
     answerId: "a",
@@ -233,8 +233,8 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "circle" },
       { id: "b", text: "triangle" },
-      { id: "c", text: "square only" },
-      { id: "d", text: "line" }
+      { id: "c", text: "oval" },
+      { id: "d", text: "rectangle" }
     ],
     answerId: "b",
     explanation: "Many traffic warning boards have 3 sides and 3 corners, like a triangle. Circle is tempting because some signs are round, but those usually tell you what not to do.",
@@ -349,12 +349,12 @@ const SET_B: PrepQuestion[] = [
     prompt: "Can a circle have a corner?",
     options: [
       { id: "a", text: "yes" },
-      { id: "b", text: "only two" },
+      { id: "b", text: "one corner" },
       { id: "c", text: "no" },
-      { id: "d", text: "only at night" }
+      { id: "d", text: "four corners" }
     ],
     answerId: "c",
-    explanation: "A circle is one smooth curve, so it has no corners at all. 'Only two' is tempting, but a circle has no place where two straight sides meet.",
+    explanation: "A circle is one smooth curve, so it has no corners at all. 'One corner' is tempting if you think the curve must start somewhere, but a corner is where two straight sides meet, and a circle has no straight sides.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
@@ -376,8 +376,8 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "triangle" },
       { id: "b", text: "circle" },
-      { id: "c", text: "line only" },
-      { id: "d", text: "ball" }
+      { id: "c", text: "square" },
+      { id: "d", text: "rectangle" }
     ],
     answerId: "a",
     explanation: "Three sticks joined end to end make 3 sides and 3 corners: a triangle. Circle is tempting, but sticks are straight and cannot bend into a round shape.",
