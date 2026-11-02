@@ -15,6 +15,7 @@ Each retired script starts with a guard that exits with `DEPRECATED: …` unless
 | `ingest_g3_maths_fractions.py` | G3 Maths ch04 Fractions |
 | `ingest_g3_maths_measurement.py` | G3 Maths ch05 Measurement |
 | `ingest_g3_maths_money.py` | G3 Maths ch06 Money |
+| `ingest_g3_maths_time.py` | G3 Maths ch07 Time |
 | `ingest_g4_maths_ch08.py` | G4 Maths M8 Everyday Word Problems |
 | `ingest_g4_maths_ch09.py` | G4 Maths M9 Logical Reasoning: patterns, analogies, classification |
 | `ingest_g4_maths_ch10.py` | G4 Maths M10 Logical Reasoning: coding, ranking, alphabet |
