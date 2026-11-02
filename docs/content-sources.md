@@ -15,6 +15,7 @@ Each retired script starts with a guard that exits with `DEPRECATED: …` unless
 | `ingest_g3_maths_fractions.py` | G3 Maths ch04 Fractions |
 | `ingest_g3_maths_measurement.py` | G3 Maths ch05 Measurement |
 | `ingest_g4_maths_ch08.py` | G4 Maths M8 Everyday Word Problems |
+| `ingest_g4_maths_ch09.py` | G4 Maths M9 Logical Reasoning: patterns, analogies, classification |
 | `author_g5_maths_ch04_06.py` | G5 Maths ch04-06 |
 | `author_g8_science_ch04_06.py` | G8 Science ch04-06 |
 | `fix_quality_major_skew.py` | answer-letter skew fixer (no-op on current files) |
