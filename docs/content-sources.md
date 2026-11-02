@@ -11,6 +11,7 @@ Each retired script starts with a guard that exits with `DEPRECATED: …` unless
 | Script | What it does |
 |---|---|
 | `ingest_g4_maths_time_money.py` | G4 Maths M5 Time & Money (#61) |
+| `ingest_g4_maths_ch06_ch07.py` | G4 Maths M6 Perimeter, Area & Symmetry and M7 Graphs & Tables |
 | `author_g5_maths_ch04_06.py` | G5 Maths ch04-06 |
 | `author_g8_science_ch04_06.py` | G8 Science ch04-06 |
 | `fix_quality_major_skew.py` | answer-letter skew fixer (no-op on current files) |

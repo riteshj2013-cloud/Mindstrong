@@ -34,6 +34,8 @@ import { g4MathsMeasurement } from "./content/g4-maths-measurement";
 import { g4MathsTimeMoney } from "./content/g4-maths-time-money";
 import { g4MathsGeometry } from "./content/g4-maths-geometry";
 import { g4MathsDataHandling } from "./content/g4-maths-data-handling";
+import { g4MathsGeometryPerimeter } from "./content/g4-maths-geometry-perimeter";
+import { g4MathsGraphsTables } from "./content/g4-maths-graphs-tables";
 import { g4EnglishReading } from "./content/g4-english-reading";
 import { g4EnglishGrammar } from "./content/g4-english-grammar";
 import { g4EnglishWords } from "./content/g4-english-words";
@@ -670,7 +672,9 @@ const MATHS: Record<number, ChapterDef[]> = {
     g4MathsMeasurement,
     g4MathsTimeMoney,
     g4MathsGeometry,
+    g4MathsGeometryPerimeter,
     g4MathsDataHandling,
+    g4MathsGraphsTables,
   ],
   5: [
     g5MathsLargeNumbers,
