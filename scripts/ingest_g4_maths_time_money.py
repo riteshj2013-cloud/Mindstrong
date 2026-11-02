@@ -111,6 +111,10 @@ def main() -> None:
             q["hints"] = [HINT_OVERRIDES.get(q["id"].split(PREFIX + "-")[1], r["hint"])]
             fig = q.get("figure")
             if fig:
+                # data-* is invisible authoring metadata (e.g. data-time="7:40") that would ship in the
+                # JS chunk and hand over the answer; strip it (audit rule svg-data-attr).
+                fig["markup"] = re.sub(r'\sdata-[a-zA-Z0-9_-]+\s*=\s*"[^"]*"', "", fig["markup"])
+                assert "data-" not in fig["markup"], q["id"]
                 assert fig.get("alt"), q["id"]
                 assert re.search(r'aria-label="[^"]+"', fig["markup"]), q["id"]
         counts = {L: sum(1 for q in qs if q["answerId"] == L) for L in "abcd"}

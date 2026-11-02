@@ -65,6 +65,9 @@ export function sanitizeSvg(raw: string): string {
     (full, name: string) => {
       const n = name.toLowerCase();
       if (EVENT_ATTR.test(n)) return "";
+      // data-* never affects rendering; drop it so authoring metadata (e.g. data-time="7:40"
+      // on a clock) cannot reach the DOM. Content is also kept free of it (audit: svg-data-attr).
+      if (n.startsWith("data-")) return "";
       if (n === "href" || n === "xlink:href" || n === "src") {
         const val = full.split("=").slice(1).join("=").trim().replace(/^['"]|['"]$/g, "");
         if (DANGEROUS_URL.test(val)) return "";

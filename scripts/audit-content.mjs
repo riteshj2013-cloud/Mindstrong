@@ -178,6 +178,10 @@ for (const { where, questions } of [...servedSets, ...servedPapers]) {
   }
 }
 
+/** svg-data-attr: data-* attributes inside figure markup (e.g. data-time="7:40" on a clock). */
+const SVG_DATA_ATTR_G = /\sdata-[\w-]+\s*=/gi;
+/** Same, in raw source text where attribute quotes may be escaped (\\"). */
+const SVG_DATA_ATTR_SRC_G = /\sdata-[\w-]+\s*=\s*\\?["']/gi;
 for (const { where, questions } of [...servedSets, ...servedPapers]) {
   for (const q of questions) {
     const figs = [["stem", q.figure], ...q.options.map((o) => [`option ${o.id}`, o.figure])];
@@ -187,7 +191,26 @@ for (const { where, questions } of [...servedSets, ...servedPapers]) {
       const label = (root.match(/\saria-label\s*=\s*"([^"]*)"/i) ?? [])[1]?.trim() ?? "";
       if (label.length < 8) findings.push({ rule: "svg-aria-label", where: `${where}.${q.id}`, text: `${q.id} ${slot} SVG has no meaningful aria-label` });
       if (!f.alt || !f.alt.trim()) findings.push({ rule: "svg-alt", where: `${where}.${q.id}`, text: `${q.id} ${slot} SVG has no alt text (screen readers hear "Diagram")` });
+      const dataAttrs = f.markup.match(SVG_DATA_ATTR_G) ?? [];
+      if (dataAttrs.length) findings.push({ rule: "svg-data-attr", where: `${where}.${q.id}`, text: `${q.id} ${slot} SVG carries data-* attributes (shipped in the page source, can leak the answer): ${[...new Set(dataAttrs.map((a) => a.trim()))].join(", ")}` });
     }
+  }
+}
+/**
+ * svg-data-attr (source scan): every file that ships figure markup (content, mocks, pictorial
+ * overlays, daily packs, hints) must carry no data-* attributes — they are invisible but sit in
+ * the JS chunk, so values like data-time="7:40" hand over the answer. Catches markup that is not
+ * reachable through the served sets above (lesson visuals, unused-but-bundled figures).
+ */
+for (const dir of ["lib/prep/content", "lib/prep/mocks", "lib/prep/pictorial", "lib/prep/hints", "lib/content"]) {
+  const abs = path.join(ROOT, dir);
+  if (!fs.existsSync(abs)) continue;
+  for (const file of fs.readdirSync(abs, { recursive: true })) {
+    if (!/\.(ts|tsx|json)$/.test(file)) continue;
+    const text = fs.readFileSync(path.join(abs, file), "utf8");
+    if (!/<svg\b/i.test(text)) continue;
+    const hits = text.match(SVG_DATA_ATTR_SRC_G) ?? [];
+    if (hits.length) findings.push({ rule: "svg-data-attr", where: `${dir}/${file}`, text: `${hits.length} data-* attribute(s) in SVG markup: ${[...new Set(hits.map((h) => h.trim().split("=")[0]))].join(", ")}` });
   }
 }
 walk(types.SUBJECT_META, "SUBJECT_META");
