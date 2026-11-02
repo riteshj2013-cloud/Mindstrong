@@ -95,7 +95,7 @@ export const G2_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g2-sci-airwater-b-q08": ["Fog makes the morning look misty.", "Where do you see fog: up high or close by?"],
   "g2-sci-airwater-b-q12": ["Rubbish should go in dustbins.", "Where would rubbish make water dirty?"],
   "g2-sci-airwater-b-q15": ["We breathe air all day.", "Clean air keeps our lungs well."],
-  "g2-sci-airwater-b-q16": ["Boiling water kills germs.", "Water with no germs is better to drink."],
+  "g2-sci-airwater-b-q16": ["Boiling water kills germs.", "Think about what germs in water can do to our tummy."],
   "g2-sci-airwater-b-q14": ["You cannot see it, but you push it out of your mouth each time you breathe out into the balloon."],
   "g2-sci-airwater-a-q01": ["Hold your breath for a moment. What do we breathe in through our nose all day?"],
   "g2-sci-airwater-a-q02": ["Air moving fast makes trees shake and kites fly. What is moving air called?"],

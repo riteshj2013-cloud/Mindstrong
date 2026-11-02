@@ -52,7 +52,7 @@ export const G1_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g1-sci-animals-b-q09": ["Think of a drink we get from a goat."],
   "g1-sci-animals-b-q11": ["Snakes slither on their bodies.", "Count: how many legs do you see on a snake?"],
   "g1-sci-animals-b-q13": ["Farmers use a big, strong animal to pull a cart.", "Picture a village cart in a field. Which large animal with horns walks in front of it?"],
-  "g1-sci-animals-b-q14": ["Cats lap up a drink from a bowl.", "What white drink do cats often like?"],
+  "g1-sci-animals-b-q14": ["Cats move quietly and have sharp claws.", "Which small animals do cats like to chase at home or in a barn?"],
   "g1-sci-animals-b-q15": ["Wild animals are not kept as pets.", "Where do tigers and deer live on their own?"],
   "g1-sci-animals-a-q01": ["Which furry pet animal at home drinks milk and makes the sound meow?"],
   "g1-sci-animals-a-q02": ["Fish have fins and gills for swimming. Where do you see fish swimming?"],

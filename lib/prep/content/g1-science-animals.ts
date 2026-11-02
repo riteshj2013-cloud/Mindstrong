@@ -388,12 +388,12 @@ const SET_B: PrepQuestion[] = [
     prompt: "Cats like to\u2026",
     options: [
       { id: "a", text: "bark" },
-      { id: "b", text: "drink milk" },
-      { id: "c", text: "eat grass" },
+      { id: "b", text: "catch mice" },
+      { id: "c", text: "pull carts" },
       { id: "d", text: "lay eggs" }
     ],
     answerId: "b",
-    explanation: "Cats like to drink milk. 'Bark' is tempting because dogs are pets like cats, but barking is what dogs do.",
+    explanation: "Cats like to catch mice; they are quick hunters with sharp claws. 'Bark' is tempting because dogs are pets like cats, but barking is what dogs do.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
