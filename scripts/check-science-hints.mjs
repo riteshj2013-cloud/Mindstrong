@@ -73,6 +73,28 @@ const warnings = [];
 let items = 0;
 let hintCount = 0;
 const layerLeaks = { authored: 0, overlay: 0, fix: 0, served: 0 };
+const checkedIds = new Set();
+function checkServed(q, answer, servedFrom, g, chId, seen) {
+  checkedIds.add(q.id);
+  for (const h of q.hints ?? []) {
+    hintCount++;
+    const at = `${q.id} [served from ${servedFrom}]: "${h}"`;
+    for (const f of leakFindings(h, answer)) {
+      if (f.level === "error") { layerLeaks.served++; errors.push(`hint-contains-answer  ${at}  [${f.rule}: ${f.part}; answer: ${answer}]`); }
+      else warnings.push(`hint-${f.rule}  ${at}  [${f.part}; answer: ${answer}]`);
+    }
+    if (norm(h) === norm(answer)) errors.push(`hint-is-answer  ${at}`);
+    const refs = letterRefs(h);
+    if (refs.length) errors.push(`hint-letter-ref  ${at}  [${refs.join(", ")}]`);
+    const words = h.trim().split(/\s+/).filter(Boolean).length;
+    if (words > MAX_WORDS) errors.push(`hint-too-long (${words} words)  ${at}`);
+    const key = norm(h);
+    const prev = seen.get(key);
+    if (prev && prev !== q.id) errors.push(`hint-dup-in-chapter  g${g}/${chId}  ${q.id} repeats ${prev}: "${h}"`);
+    else if (!prev) seen.set(key, q.id);
+  }
+}
+
 for (const g of types.ALL_GRADES) {
   if (onlyGrade && g !== onlyGrade) continue;
   const pack = catalog.getPrepPack("science", g);
@@ -100,25 +122,31 @@ for (const g of types.ALL_GRADES) {
             warnings.push(`shadowed-leak [${layer}, not served; served=${servedFrom}]  ${q.id}: "${h}"  [${f.rule}: ${f.part}]`);
           }
         }
-        for (const h of q.hints ?? []) {
-          hintCount++;
-          const at = `${q.id} [served from ${servedFrom}]: "${h}"`;
-          for (const f of leakFindings(h, answer)) {
-            if (f.level === "error") { layerLeaks.served++; errors.push(`hint-contains-answer  ${at}  [${f.rule}: ${f.part}; answer: ${answer}]`); }
-            else warnings.push(`hint-${f.rule}  ${at}  [${f.part}; answer: ${answer}]`);
-          }
-          if (norm(h) === norm(answer)) errors.push(`hint-is-answer  ${at}`);
-          const refs = letterRefs(h);
-          if (refs.length) errors.push(`hint-letter-ref  ${at}  [${refs.join(", ")}]`);
-          const words = h.trim().split(/\s+/).filter(Boolean).length;
-          if (words > MAX_WORDS) errors.push(`hint-too-long (${words} words)  ${at}`);
-          const key = norm(h);
-          const prev = seen.get(key);
-          if (prev && prev !== q.id) errors.push(`hint-dup-in-chapter  g${g}/${ch.id}  ${q.id} repeats ${prev}: "${h}"`);
-          else if (!prev) seen.set(key, q.id);
-        }
+        checkServed(q, answer, servedFrom, g, ch.id, seen);
       }
     }
+  }
+}
+
+// Mock papers (lib/prep/mocks): the closing LR + Achievers block lives inside chapter sets, so it is checked
+// above; any served mock item not found in a set is checked here, and every block item must be covered.
+const mocks = load("lib/prep/mocks/index.ts");
+const mockStats = { block: 0, extra: 0 };
+const mockMissing = [];
+for (const g of types.ALL_GRADES) {
+  if (onlyGrade && g !== onlyGrade) continue;
+  if (!catalog.getPrepPack("science", g)?.ready) continue;
+  const seen = new Map();
+  for (const pq of prep.getMockPaper("science", g)) {
+    const id = pq.id.replace(/^paper-\d+-/, "");
+    if (checkedIds.has(id)) continue;
+    items++;
+    mockStats.extra++;
+    checkServed({ ...pq, id }, pq.options.find((o) => o.id === pq.answerId)?.text ?? "", "mock-paper", g, "mock-paper", seen);
+  }
+  for (const q of mocks.mockBlockFor("science", g)) {
+    mockStats.block++;
+    if (!checkedIds.has(q.id)) mockMissing.push(q.id);
   }
 }
 
@@ -128,6 +156,8 @@ console.log(`science hints: ${items} served questions, ${hintCount} hints checke
 console.log(`errors: ${errors.length}`, JSON.stringify(byRule));
 console.log(`warnings: ${warnings.length}`);
 console.log(`answer leaks by layer (served = fatal; others shadowed): ${JSON.stringify(layerLeaks)}`);
+console.log(`Mock closing-block items checked: ${mockStats.block - mockMissing.length}/${mockStats.block}` + (mockStats.extra ? `; ${mockStats.extra} served mock item(s) outside chapter sets also checked` : ""));
+for (const id of mockMissing) console.log(`  mock block item not checked: ${id}`);
 for (const e of errors) console.log("  ERROR " + e);
 if (verbose) for (const w of warnings) console.log("  warn  " + w);
-process.exit(errors.length ? 1 : 0);
+process.exit(errors.length || mockMissing.length ? 1 : 0);

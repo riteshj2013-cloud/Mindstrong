@@ -20,6 +20,16 @@ import { G7_MATHS_LR_ACHIEVERS } from "./maths-g7-lr-achievers";
 import { G8_MATHS_LR_ACHIEVERS } from "./maths-g8-lr-achievers";
 import { G9_MATHS_LR_ACHIEVERS } from "./maths-g9-lr-achievers";
 import { G10_MATHS_LR_ACHIEVERS } from "./maths-g10-lr-achievers";
+import { G1_SCIENCE_LR_ACHIEVERS } from "./science-g1-lr-achievers";
+import { G2_SCIENCE_LR_ACHIEVERS } from "./science-g2-lr-achievers";
+import { G3_SCIENCE_LR_ACHIEVERS } from "./science-g3-lr-achievers";
+import { G4_SCIENCE_LR_ACHIEVERS } from "./science-g4-lr-achievers";
+import { G5_SCIENCE_LR_ACHIEVERS } from "./science-g5-lr-achievers";
+import { G6_SCIENCE_LR_ACHIEVERS } from "./science-g6-lr-achievers";
+import { G7_SCIENCE_LR_ACHIEVERS } from "./science-g7-lr-achievers";
+import { G8_SCIENCE_LR_ACHIEVERS } from "./science-g8-lr-achievers";
+import { G9_SCIENCE_LR_ACHIEVERS } from "./science-g9-lr-achievers";
+import { G10_SCIENCE_LR_ACHIEVERS } from "./science-g10-lr-achievers";
 
 export type { MockAddendumItem, MockSection, MockDifficulty } from "./types";
 
@@ -37,7 +47,7 @@ export const ENGLISH_MOCK_ADDENDA: Partial<Record<Grade, MockAddendumItem[]>> = 
   10: G10_ENGLISH_LR_ACHIEVERS,
 };
 
-/** Maths mock addenda by grade (7 logical-reasoning + 5 Achievers). Science has none yet. */
+/** Maths mock addenda by grade (7 logical-reasoning + 5 Achievers). */
 export const MATHS_MOCK_ADDENDA: Partial<Record<Grade, MockAddendumItem[]>> = {
   1: G1_MATHS_LR_ACHIEVERS,
   2: G2_MATHS_LR_ACHIEVERS,
@@ -51,9 +61,24 @@ export const MATHS_MOCK_ADDENDA: Partial<Record<Grade, MockAddendumItem[]>> = {
   10: G10_MATHS_LR_ACHIEVERS,
 };
 
+/** Science mock addenda by grade (7 logical-reasoning + 5 Achievers). */
+export const SCIENCE_MOCK_ADDENDA: Partial<Record<Grade, MockAddendumItem[]>> = {
+  1: G1_SCIENCE_LR_ACHIEVERS,
+  2: G2_SCIENCE_LR_ACHIEVERS,
+  3: G3_SCIENCE_LR_ACHIEVERS,
+  4: G4_SCIENCE_LR_ACHIEVERS,
+  5: G5_SCIENCE_LR_ACHIEVERS,
+  6: G6_SCIENCE_LR_ACHIEVERS,
+  7: G7_SCIENCE_LR_ACHIEVERS,
+  8: G8_SCIENCE_LR_ACHIEVERS,
+  9: G9_SCIENCE_LR_ACHIEVERS,
+  10: G10_SCIENCE_LR_ACHIEVERS,
+};
+
 export function mockAddendaFor(subject: PrepSubject, grade: Grade): MockAddendumItem[] {
   if (subject === "english") return ENGLISH_MOCK_ADDENDA[grade] ?? [];
   if (subject === "maths") return MATHS_MOCK_ADDENDA[grade] ?? [];
+  if (subject === "science") return SCIENCE_MOCK_ADDENDA[grade] ?? [];
   return [];
 }
 
@@ -102,8 +127,8 @@ export function mockBlockFor(subject: PrepSubject, grade: Grade): PrepQuestion[]
 /**
  * Mock length. With an addendum block, English mocks follow the olympiad-style totals used in
  * the writer guidelines (35 for Classes 1–4, 50 for Classes 5–10); otherwise the pack default.
- * Maths keeps the pack default (30): its 12-item block replaces the last 12 sampled items,
- * so a Maths mock is 18 sampled chapter items + the closing block.
+ * Maths and Science keep the pack default (30): the 12-item block replaces the last 12 sampled
+ * items, so a Maths or Science mock is 18 sampled chapter items + the closing block.
  */
 export function mockPaperCount(subject: PrepSubject, grade: Grade, fallback: number): number {
   if (subject !== "english" || !mockAddendaFor(subject, grade).length) return fallback;
