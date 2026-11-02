@@ -24,6 +24,7 @@ import { g3ScienceSenses } from "./content/g3-science-senses";
 import { g3MathsNumbers } from "./content/g3-maths-numbers";
 import { g3MathsAddSubtract } from "./content/g3-maths-add-subtract";
 import { g3MathsMultiply } from "./content/g3-maths-multiply";
+import { g3MathsFractions } from "./content/g3-maths-fractions";
 import { g3EnglishSynonyms } from "./content/g3-english-synonyms";
 import { g3EnglishAntonyms } from "./content/g3-english-antonyms";
 import { g3EnglishGrammar } from "./content/g3-english-grammar";
@@ -664,6 +665,7 @@ const MATHS: Record<number, ChapterDef[]> = {
     g3MathsNumbers,
     g3MathsAddSubtract,
     g3MathsMultiply,
+    g3MathsFractions,
   ],
   4: [
     g4MathsLargeNumbers,
