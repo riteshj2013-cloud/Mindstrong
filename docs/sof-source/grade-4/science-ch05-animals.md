@@ -79,14 +79,14 @@
 **Explanation:** Fish have gills and fins suited to living in water. Camels are desert animals; eagles fly in air.
 
 ### A3
-**Stem:** Animals that eat only plants are called ______.
+**Stem:** An elephant eats grass, leaves, bark and fruit, and never eats meat. Going by its food, an elephant is a ______.
 - A) Carnivores
 - B) Omnivores
 - C) Herbivores
 - D) Producers
 
 **Answer:** C
-**Explanation:** Herbivores eat plants. Cows, deer and goats are herbivores.
+**Explanation:** An elephant eats only plant parts, so it is a herbivore. Producers is tempting because plants are its food, but producers are the green plants that make their own food, and an elephant cannot do that.
 
 ### A4
 **Stem:** A tiger mainly eats other animals. A tiger is a ______.

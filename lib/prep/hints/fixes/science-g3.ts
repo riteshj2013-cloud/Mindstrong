@@ -14,7 +14,7 @@ import type { HintOverlay } from "../types";
 export const G3_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   // g3-science-plants-parts
   "g3-sci-plants-a-q01": ["Find the soil line in the picture. Which label points to the part below it?"],
-  "g3-sci-plants-a-q02": ["Which green, flat part catches sunlight and is called the plant's kitchen?"],
+  "g3-sci-plants-a-q02": ["Which part of the tree is green, flat and spread out wide to catch as much sunlight as it can?"],
   "g3-sci-plants-a-q03": ["Roots work like a drinking straw for the plant. What would a straw pull up from wet soil?"],
   "g3-sci-plants-a-q04": ["Think of the tall middle part that stands up like a pole and works like a pipe up to the leaves."],
   "g3-sci-plants-a-q05": ["After the bee visits, the flower swells and grows into something we can pick and eat, like a mango."],
@@ -63,7 +63,7 @@ export const G3_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g3-sci-plants-b-q24": ["Meena says every underground part is a root. Which food grows underground but has eyes that sprout?"],
   // g3-science-animals-food-homes
   "g3-sci-animals-a-q01": ["Lions, eagles and snakes hunt other animals. Which animal spends its day chewing grass?"],
-  "g3-sci-animals-a-q02": ["Cows, goats and deer are plant eaters. Meat eaters and mixed eaters have other names. Which name fits plant eaters?"],
+  "g3-sci-animals-a-q02": ["Think about what these three animals eat and what they never eat. Which group name comes from the idea of plant food?"],
   "g3-sci-animals-a-q03": ["A lion hunts other animals. Which plate has food that comes from an animal?"],
   "g3-sci-animals-a-q04": ["A bird builds its home from twigs and grass. Which picture shows eggs sitting in twigs?"],
   "g3-sci-animals-a-q05": ["Honeybees live together and store honey in wax cells. Which home is made of wax?"],

@@ -85,13 +85,13 @@
 - **Answer:** B
 - **Explanation:** Roots grow down into the soil. They drink water and hold the plant in place.
 
-**Q2.** *(Recall)* Which part of a plant makes food for the plant?
+**Q2.** *(Recall)* Sunlight falls on a mango tree all day. In which part does the tree use sunlight, air and water to make its food?
 - A) Root
 - B) Seed
 - C) Stem
 - D) Leaf
 - **Answer:** D
-- **Explanation:** Leaves are the plant's kitchen. They make food using sunlight, air and water.
+- **Explanation:** The leaf is the plant's kitchen: it uses sunlight, air and water to make food. The stem is tempting because it carries water up the tree, but it only moves water and food; it does not make food.
 
 **Q3.** *(Recall)* What do roots take from the soil?
 - A) Water
