@@ -1,6 +1,6 @@
 import type { MockAddendumItem } from "./types";
 
-/** Grade 6 English mock addendum: 7 logical-reasoning-style + 5 Achievers items (original; olympiad-style, not affiliated with any exam body). */
+/** Grade 6 English mock addendum: 9 logical-reasoning-style + 6 Achievers items (original; olympiad-style, not affiliated with any exam body). */
 export const G6_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
   {
     chapterId: "vocabulary",
@@ -244,6 +244,67 @@ export const G6_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
       answerId: "b",
       hints: ["The bananas, the object of the active sentence, become the new subject.", "Keep the past time, and match the helping verb to the plural bananas."],
       explanation: "The bananas (plural) come first, with were + past participle: The bananas were snatched by the monkeys. “The bananas was snatched” is tempting, but a plural subject needs were.",
+    },
+  },
+  {
+    chapterId: "comprehension",
+    setId: "set-b",
+    section: "logical-reasoning",
+    skill: "seating-clues",
+    difficulty: "hard",
+    question: {
+      id: "g6-eng-lrach-a-q13",
+      prompt: "Amit, Bhavna, Charu, Deepak and Esha sit in a row of five seats, facing the stage.\n\nClue 1: Charu sits in the middle seat.\nClue 2: Esha sits immediately to the right of Charu.\nClue 3: Amit sits at the left end.\nClue 4: Bhavna does not sit next to Amit.\n\nWho sits between Amit and Charu?",
+      options: [
+        { id: "a", text: "Esha" },
+        { id: "b", text: "No one sits between them" },
+        { id: "c", text: "Deepak" },
+        { id: "d", text: "Bhavna" },
+      ],
+      answerId: "c",
+      hints: ["Place Charu, Esha and Amit first, since their seats are fixed by the clues.", "Two seats are left. The clue about Bhavna decides which one is hers."],
+      explanation: "Charu is in seat 3, Esha in seat 4 and Amit in seat 1. Bhavna cannot sit next to Amit, so she takes seat 5 and Deepak takes seat 2: Amit, Deepak, Charu, Esha, Bhavna. “Bhavna” is tempting, but seat 2 is next to Amit.",
+      figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 214\" width=\"620\" height=\"214\" role=\"img\" aria-label=\"Five seats in a row: 5 empty chairs in a row numbered 1 to 5, with the left end and right end marked. Names to place: Amit, Bhavna, Charu, Deepak, Esha.\"><title>Five seats in a row</title><desc>A picture showing 5 empty chairs in a row numbered 1 to 5, with the left end and right end marked. Names to place: Amit, Bhavna, Charu, Deepak, Esha.</desc><rect x=\"0\" y=\"0\" width=\"620\" height=\"214\" rx=\"14\" fill=\"#fffaf0\"/><text x=\"310.0\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"15\" font-weight=\"700\" fill=\"#5d4037\">Five seats in a row</text><rect x=\"32.0\" y=\"52\" width=\"58\" height=\"40\" rx=\"8\" fill=\"#e3f2fd\" stroke=\"#1e5aa8\" stroke-width=\"2.5\"/><rect x=\"26.0\" y=\"92\" width=\"70\" height=\"16\" rx=\"5\" fill=\"#bbdefb\" stroke=\"#1e5aa8\" stroke-width=\"2.5\"/><line x1=\"36.0\" y1=\"108\" x2=\"36.0\" y2=\"124\" stroke=\"#1e5aa8\" stroke-width=\"3\"/><line x1=\"86.0\" y1=\"108\" x2=\"86.0\" y2=\"124\" stroke=\"#1e5aa8\" stroke-width=\"3\"/><text x=\"61.0\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">Seat 1</text><rect x=\"156.5\" y=\"52\" width=\"58\" height=\"40\" rx=\"8\" fill=\"#e3f2fd\" stroke=\"#1e5aa8\" stroke-width=\"2.5\"/><rect x=\"150.5\" y=\"92\" width=\"70\" height=\"16\" rx=\"5\" fill=\"#bbdefb\" stroke=\"#1e5aa8\" stroke-width=\"2.5\"/><line x1=\"160.5\" y1=\"108\" x2=\"160.5\" y2=\"124\" stroke=\"#1e5aa8\" stroke-width=\"3\"/><line x1=\"210.5\" y1=\"108\" x2=\"210.5\" y2=\"124\" stroke=\"#1e5aa8\" stroke-width=\"3\"/><text x=\"185.5\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">Seat 2</text><rect x=\"281.0\" y=\"52\" width=\"58\" height=\"40\" rx=\"8\" fill=\"#e3f2fd\" stroke=\"#1e5aa8\" stroke-width=\"2.5\"/><rect x=\"275.0\" y=\"92\" width=\"70\" height=\"16\" rx=\"5\" fill=\"#bbdefb\" stroke=\"#1e5aa8\" stroke-width=\"2.5\"/><line x1=\"285.0\" y1=\"108\" x2=\"285.0\" y2=\"124\" stroke=\"#1e5aa8\" stroke-width=\"3\"/><line x1=\"335.0\" y1=\"108\" x2=\"335.0\" y2=\"124\" stroke=\"#1e5aa8\" stroke-width=\"3\"/><text x=\"310.0\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">Seat 3</text><rect x=\"405.5\" y=\"52\" width=\"58\" height=\"40\" rx=\"8\" fill=\"#e3f2fd\" stroke=\"#1e5aa8\" stroke-width=\"2.5\"/><rect x=\"399.5\" y=\"92\" width=\"70\" height=\"16\" rx=\"5\" fill=\"#bbdefb\" stroke=\"#1e5aa8\" stroke-width=\"2.5\"/><line x1=\"409.5\" y1=\"108\" x2=\"409.5\" y2=\"124\" stroke=\"#1e5aa8\" stroke-width=\"3\"/><line x1=\"459.5\" y1=\"108\" x2=\"459.5\" y2=\"124\" stroke=\"#1e5aa8\" stroke-width=\"3\"/><text x=\"434.5\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">Seat 4</text><rect x=\"530.0\" y=\"52\" width=\"58\" height=\"40\" rx=\"8\" fill=\"#e3f2fd\" stroke=\"#1e5aa8\" stroke-width=\"2.5\"/><rect x=\"524.0\" y=\"92\" width=\"70\" height=\"16\" rx=\"5\" fill=\"#bbdefb\" stroke=\"#1e5aa8\" stroke-width=\"2.5\"/><line x1=\"534.0\" y1=\"108\" x2=\"534.0\" y2=\"124\" stroke=\"#1e5aa8\" stroke-width=\"3\"/><line x1=\"584.0\" y1=\"108\" x2=\"584.0\" y2=\"124\" stroke=\"#1e5aa8\" stroke-width=\"3\"/><text x=\"559.0\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">Seat 5</text><text x=\"22\" y=\"166\" text-anchor=\"start\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#c62828\">left end</text><text x=\"598\" y=\"166\" text-anchor=\"end\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#c62828\">right end</text><text x=\"310.0\" y=\"166\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"400\" fill=\"#607d8b\">Facing the stage</text><text x=\"22\" y=\"196\" text-anchor=\"start\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#5d4037\">To place:</text><rect x=\"100\" y=\"179\" width=\"48.4\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"124.2\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Amit</text><rect x=\"156.4\" y=\"179\" width=\"65.6\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"189.2\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Bhavna</text><rect x=\"230.0\" y=\"179\" width=\"57.0\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"258.5\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Charu</text><rect x=\"295.0\" y=\"179\" width=\"65.6\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"327.8\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Deepak</text><rect x=\"368.6\" y=\"179\" width=\"48.4\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"392.8\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Esha</text></svg>", "alt": "Five seats in a row: 5 empty chairs in a row numbered 1 to 5, with the left end and right end marked. Names to place: Amit, Bhavna, Charu, Deepak, Esha."},
+    },
+  },
+  {
+    chapterId: "vocabulary",
+    setId: "set-b",
+    section: "logical-reasoning",
+    skill: "mixed-rule-coding",
+    difficulty: "hard",
+    question: {
+      id: "g6-eng-lrach-a-q14",
+      prompt: "In a code, each vowel changes to the next vowel (A → E, E → I, I → O, O → U, U → A), consonants stay the same, and then the whole word is written backwards. So TIGER → TOGIR → RIGOT.\n\nHow is PLANET written in this code?",
+      options: [
+        { id: "a", text: "TINELQ" },
+        { id: "b", text: "TINELP" },
+        { id: "c", text: "PLENIT" },
+        { id: "d", text: "TENALP" },
+      ],
+      answerId: "b",
+      hints: ["Do the vowel step first: find the vowels in PLANET and change each one.", "The TIGER example has one more step after the vowels change."],
+      explanation: "A → E and E → I gives PLENIT; written backwards that is TINELP. “PLENIT” is tempting, but it forgets to write the word backwards.",
+    },
+  },
+  {
+    chapterId: "comprehension",
+    setId: "set-b",
+    section: "achievers",
+    skill: "two-fact-inference",
+    difficulty: "hard",
+    question: {
+      id: "g6-eng-lrach-a-q15",
+      prompt: "Read.\n\nEvery student who finished the science project got a badge. Meera did not get a badge. Arjun finished his project before Meera started hers.\n\nWhich of these must be true?",
+      options: [
+        { id: "a", text: "Meera never started her project." },
+        { id: "b", text: "Arjun did not get a badge." },
+        { id: "c", text: "Meera finished her project before Arjun." },
+        { id: "d", text: "Meera did not finish her science project." },
+      ],
+      answerId: "d",
+      hints: ["Think about the badge rule and Meera together.", "Does the passage say whether Meera started her project?"],
+      explanation: "Everyone who finished got a badge, and Meera did not get one, so she did not finish. “Meera never started her project” is tempting, but the last sentence shows she did start.",
     },
   },
 ];

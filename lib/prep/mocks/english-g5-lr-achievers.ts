@@ -1,6 +1,6 @@
 import type { MockAddendumItem } from "./types";
 
-/** Grade 5 English mock addendum: 7 logical-reasoning-style + 5 Achievers items (original; olympiad-style, not affiliated with any exam body). */
+/** Grade 5 English mock addendum: 9 logical-reasoning-style + 6 Achievers items (original; olympiad-style, not affiliated with any exam body). */
 export const G5_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
   {
     chapterId: "words-at-work",
@@ -244,6 +244,67 @@ export const G5_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
       answerId: "d",
       hints: ["Two things change: the person word and the tense.", "I becomes the right word for Mira, and like moves one step into the past."],
       explanation: "I becomes she and like becomes liked: Mira said that she liked mangoes. “she likes mangoes” is tempting, but after said, the verb usually shifts into the past.",
+    },
+  },
+  {
+    chapterId: "detective-eyes",
+    setId: "set-a",
+    section: "logical-reasoning",
+    skill: "ordering-clues",
+    difficulty: "hard",
+    question: {
+      id: "g5-eng-lrach-a-q13",
+      prompt: "Ishan, Jaya, Kunal and Lata ran a race. There were no ties.\n\nClue 1: Lata finished last.\nClue 2: Jaya finished just before Kunal.\nClue 3: Ishan did not finish first.\n\nWho finished third?",
+      options: [
+        { id: "a", text: "Ishan" },
+        { id: "b", text: "Kunal" },
+        { id: "c", text: "Jaya" },
+        { id: "d", text: "Lata" },
+      ],
+      answerId: "a",
+      hints: ["Fix Lata's place in the race first.", "Two runners finished one right after the other. Try both ways that pair could fit, then check the clue about who did not finish first."],
+      explanation: "Lata is fourth. If Jaya and Kunal were second and third, Ishan would be first, which is not allowed. So Jaya is first, Kunal second, Ishan third. “Kunal” is tempting, but that would leave Ishan first.",
+      figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 214\" width=\"520\" height=\"214\" role=\"img\" aria-label=\"Four finishing places: four empty finishing places marked 1st to 4th. Names to place: Ishan, Jaya, Kunal, Lata.\"><title>Four finishing places</title><desc>A picture showing four empty finishing places marked 1st to 4th. Names to place: Ishan, Jaya, Kunal, Lata.</desc><rect x=\"0\" y=\"0\" width=\"520\" height=\"214\" rx=\"14\" fill=\"#fffaf0\"/><text x=\"260.0\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"15\" font-weight=\"700\" fill=\"#5d4037\">Four finishing places</text><rect x=\"22.0\" y=\"52\" width=\"78\" height=\"70\" rx=\"10\" fill=\"#fff3c4\" stroke=\"#e0a100\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"61.0\" y=\"94\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#1b2a41\">?</text><text x=\"61.0\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">1st</text><rect x=\"154.7\" y=\"52\" width=\"78\" height=\"70\" rx=\"10\" fill=\"#fff3c4\" stroke=\"#e0a100\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"193.7\" y=\"94\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#1b2a41\">?</text><text x=\"193.7\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">2nd</text><rect x=\"287.3\" y=\"52\" width=\"78\" height=\"70\" rx=\"10\" fill=\"#fff3c4\" stroke=\"#e0a100\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"326.3\" y=\"94\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#1b2a41\">?</text><text x=\"326.3\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">3rd</text><rect x=\"420.0\" y=\"52\" width=\"78\" height=\"70\" rx=\"10\" fill=\"#fff3c4\" stroke=\"#e0a100\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"459.0\" y=\"94\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#1b2a41\">?</text><text x=\"459.0\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">4th</text><text x=\"22\" y=\"196\" text-anchor=\"start\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#5d4037\">To place:</text><rect x=\"100\" y=\"179\" width=\"57.0\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"128.5\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Ishan</text><rect x=\"165.0\" y=\"179\" width=\"48.4\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"189.2\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Jaya</text><rect x=\"221.4\" y=\"179\" width=\"57.0\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"249.9\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Kunal</text><rect x=\"286.4\" y=\"179\" width=\"48.4\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"310.6\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Lata</text></svg>", "alt": "Four finishing places: four empty finishing places marked 1st to 4th. Names to place: Ishan, Jaya, Kunal, Lata."},
+    },
+  },
+  {
+    chapterId: "word-builders",
+    setId: "set-b",
+    section: "logical-reasoning",
+    skill: "two-step-analogy",
+    difficulty: "hard",
+    question: {
+      id: "g5-eng-lrach-a-q14",
+      prompt: "strong is to strength as long is to ___.",
+      options: [
+        { id: "a", text: "longness" },
+        { id: "b", text: "longth" },
+        { id: "c", text: "lengthen" },
+        { id: "d", text: "length" },
+      ],
+      answerId: "d",
+      hints: ["Strength is the naming word (noun) made from strong. What changed in the spelling?", "Make the same kind of noun from long, with the same vowel change."],
+      explanation: "Strong → strength makes a noun, and the o changes to e. Long → length follows the same pattern. “Lengthen” is tempting, but it is a doing word (verb), not a noun like strength.",
+    },
+  },
+  {
+    chapterId: "detective-eyes",
+    setId: "set-b",
+    section: "achievers",
+    skill: "two-fact-inference",
+    difficulty: "hard",
+    question: {
+      id: "g5-eng-lrach-a-q15",
+      prompt: "Read.\n\nThe town library is open only on weekdays. Riya can go only on days when she has no dance class. Her dance classes are on Monday, Tuesday and Friday.\n\nOn which days can Riya visit the library?",
+      options: [
+        { id: "a", text: "Only on Wednesday" },
+        { id: "b", text: "Saturday and Sunday" },
+        { id: "c", text: "Wednesday and Thursday" },
+        { id: "d", text: "Monday and Tuesday" },
+      ],
+      answerId: "c",
+      hints: ["First list the days the town library is open.", "Then cross out the days Riya has dance class."],
+      explanation: "The library opens Monday to Friday. Taking away her dance days leaves Wednesday and Thursday. “Saturday and Sunday” is tempting because she has no dance class then, but the library is closed at weekends.",
     },
   },
 ];

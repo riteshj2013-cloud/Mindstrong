@@ -1,6 +1,6 @@
 import type { MockAddendumItem } from "./types";
 
-/** Grade 9 English mock addendum: 7 logical-reasoning-style + 5 Achievers items (original; olympiad-style, not affiliated with any exam body). */
+/** Grade 9 English mock addendum: 9 logical-reasoning-style + 6 Achievers items (original; olympiad-style, not affiliated with any exam body). */
 export const G9_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
   {
     chapterId: "writing-vocab",
@@ -100,7 +100,7 @@ export const G9_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
         { id: "d", text: "preserve" },
       ],
       answerId: "a",
-      hints: ["All the cards begin with pres. Sort by the fifth letter, c or e.", "Then sort each pair, like prescribe and prescription, by the first letter where they differ."],
+      hints: ["All four cards begin with the same four letters, so start comparing at the fifth letter.", "When two words still match, keep going letter by letter until they differ, then count along to the third place."],
       explanation: "Order: prescribe, prescription (presc-), presence, preserve (prese-). Presence comes before preserve since n comes before r. “Preserve” is tempting, but it comes last.",
       figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 226\" width=\"420\" height=\"226\" role=\"img\" aria-label=\"Four numbered dictionary cards: 1 prescribe, 2 prescription, 3 presence, 4 preserve.\"><title>Dictionary cards: pres words</title><desc>Four dictionary cards in two rows of two, numbered 1 to 4: 1 prescribe, 2 prescription, 3 presence, 4 preserve.</desc><rect x=\"0\" y=\"0\" width=\"420\" height=\"226\" rx=\"14\" fill=\"#fffaf0\"/><text x=\"210.0\" y=\"32\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"15\" font-weight=\"700\" fill=\"#5d4037\">Dictionary cards</text><rect x=\"16\" y=\"46\" width=\"186\" height=\"74\" rx=\"12\" fill=\"#fdf1e7\" stroke=\"#8d5a2b\" stroke-width=\"2.5\"/><circle cx=\"36\" cy=\"66\" r=\"13\" fill=\"#8d5a2b\"/><text x=\"36\" y=\"71\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#ffffff\">1</text><text x=\"117.0\" y=\"91.0\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"22\" font-weight=\"700\" fill=\"#1b2a41\">prescribe</text><rect x=\"218\" y=\"46\" width=\"186\" height=\"74\" rx=\"12\" fill=\"#fdf1e7\" stroke=\"#8d5a2b\" stroke-width=\"2.5\"/><circle cx=\"238\" cy=\"66\" r=\"13\" fill=\"#8d5a2b\"/><text x=\"238\" y=\"71\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#ffffff\">2</text><text x=\"319.0\" y=\"91.0\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"19\" font-weight=\"700\" fill=\"#1b2a41\">prescription</text><rect x=\"16\" y=\"136\" width=\"186\" height=\"74\" rx=\"12\" fill=\"#fdf1e7\" stroke=\"#8d5a2b\" stroke-width=\"2.5\"/><circle cx=\"36\" cy=\"156\" r=\"13\" fill=\"#8d5a2b\"/><text x=\"36\" y=\"161\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#ffffff\">3</text><text x=\"117.0\" y=\"181.0\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"22\" font-weight=\"700\" fill=\"#1b2a41\">presence</text><rect x=\"218\" y=\"136\" width=\"186\" height=\"74\" rx=\"12\" fill=\"#fdf1e7\" stroke=\"#8d5a2b\" stroke-width=\"2.5\"/><circle cx=\"238\" cy=\"156\" r=\"13\" fill=\"#8d5a2b\"/><text x=\"238\" y=\"161\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#ffffff\">4</text><text x=\"319.0\" y=\"181.0\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"22\" font-weight=\"700\" fill=\"#1b2a41\">preserve</text></svg>", "alt": "Four numbered dictionary cards: 1 prescribe, 2 prescription, 3 presence, 4 preserve."},
     },
@@ -244,6 +244,67 @@ export const G9_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
       answerId: "c",
       hints: ["Starting a sentence with Not only causes inversion, like in a question.", "After does, sing returns to its plain form."],
       explanation: "Not only + does + subject + plain verb: Not only does she sing well. “Not only she sings well” is tempting, but it misses the inversion.",
+    },
+  },
+  {
+    chapterId: "literature-mcq",
+    setId: "set-a",
+    section: "logical-reasoning",
+    skill: "circular-seating",
+    difficulty: "hard",
+    question: {
+      id: "g9-eng-lrach-a-q13",
+      prompt: "Arun, Bina, Chetan, Divya, Ehsan and Farah sit around a round table with six evenly spaced seats.\n\nClue 1: Arun sits directly opposite Divya.\nClue 2: Bina sits in the seat next to Arun, going clockwise.\nClue 3: Chetan sits directly opposite Bina.\nClue 4: Farah does not sit next to Divya.\n\nWho sits directly opposite Farah?",
+      options: [
+        { id: "a", text: "Ehsan" },
+        { id: "b", text: "Divya" },
+        { id: "c", text: "Bina" },
+        { id: "d", text: "Chetan" },
+      ],
+      answerId: "a",
+      hints: ["Seat Arun anywhere around the table, then place the people the clues tie to him.", "Two seats are left at the end. The clue about Farah decides which seat is hers."],
+      explanation: "Arun opposite Divya, Bina one seat clockwise from Arun, and Chetan opposite Bina. Ehsan and Farah fill the last two seats, and Farah cannot be next to Divya, so Ehsan sits next to Divya, which puts Ehsan directly opposite Farah. “Chetan” is tempting, but Chetan sits opposite Bina.",
+      figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 296\" width=\"520\" height=\"296\" role=\"img\" aria-label=\"A round table with six seats: six evenly spaced empty seats, clockwise arrow shown. People to seat: Arun, Bina, Chetan, Divya, Ehsan, Farah.\"><title>A round table with six seats</title><desc>A round table with six evenly spaced empty seats and an arrow showing the clockwise direction. People to seat: Arun, Bina, Chetan, Divya, Ehsan, Farah.</desc><rect x=\"0\" y=\"0\" width=\"520\" height=\"296\" rx=\"14\" fill=\"#fffaf0\"/><text x=\"260.0\" y=\"26\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"15\" font-weight=\"700\" fill=\"#5d4037\">A round table with six seats</text><circle cx=\"260\" cy=\"148\" r=\"62\" fill=\"#efebe9\" stroke=\"#8d5a2b\" stroke-width=\"2.5\"/><text x=\"260\" y=\"153\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#8d5a2b\">table</text><circle cx=\"260.0\" cy=\"56.0\" r=\"20\" fill=\"#fff3c4\" stroke=\"#e0a100\" stroke-width=\"2.5\" stroke-dasharray=\"5 3\"/><text x=\"260.0\" y=\"62.0\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#1b2a41\">?</text><circle cx=\"339.7\" cy=\"102.0\" r=\"20\" fill=\"#fff3c4\" stroke=\"#e0a100\" stroke-width=\"2.5\" stroke-dasharray=\"5 3\"/><text x=\"339.7\" y=\"108.0\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#1b2a41\">?</text><circle cx=\"339.7\" cy=\"194.0\" r=\"20\" fill=\"#fff3c4\" stroke=\"#e0a100\" stroke-width=\"2.5\" stroke-dasharray=\"5 3\"/><text x=\"339.7\" y=\"200.0\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#1b2a41\">?</text><circle cx=\"260.0\" cy=\"240.0\" r=\"20\" fill=\"#fff3c4\" stroke=\"#e0a100\" stroke-width=\"2.5\" stroke-dasharray=\"5 3\"/><text x=\"260.0\" y=\"246.0\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#1b2a41\">?</text><circle cx=\"180.3\" cy=\"194.0\" r=\"20\" fill=\"#fff3c4\" stroke=\"#e0a100\" stroke-width=\"2.5\" stroke-dasharray=\"5 3\"/><text x=\"180.3\" y=\"200.0\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#1b2a41\">?</text><circle cx=\"180.3\" cy=\"102.0\" r=\"20\" fill=\"#fff3c4\" stroke=\"#e0a100\" stroke-width=\"2.5\" stroke-dasharray=\"5 3\"/><text x=\"180.3\" y=\"108.0\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#1b2a41\">?</text><path d=\"M 388 108 A 136 136 0 0 1 388 188\" fill=\"none\" stroke=\"#2e7d32\" stroke-width=\"2.5\"/><polygon points=\"382,184 394,184 388,196\" fill=\"#2e7d32\"/><text x=\"410\" y=\"152\" text-anchor=\"start\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"12\" font-weight=\"700\" fill=\"#2e7d32\">clockwise</text><text x=\"22\" y=\"278\" text-anchor=\"start\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#5d4037\">To place:</text><rect x=\"100\" y=\"261\" width=\"48.4\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"124.2\" y=\"278\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Arun</text><rect x=\"156.4\" y=\"261\" width=\"48.4\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"180.6\" y=\"278\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Bina</text><rect x=\"212.8\" y=\"261\" width=\"65.6\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"245.6\" y=\"278\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Chetan</text><rect x=\"286.4\" y=\"261\" width=\"57.0\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"314.9\" y=\"278\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Divya</text><rect x=\"351.4\" y=\"261\" width=\"57.0\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"379.9\" y=\"278\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Ehsan</text><rect x=\"416.4\" y=\"261\" width=\"57.0\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"444.9\" y=\"278\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Farah</text></svg>", "alt": "A round table with six seats: six evenly spaced empty seats, clockwise arrow shown. People to seat: Arun, Bina, Chetan, Divya, Ehsan, Farah."},
+    },
+  },
+  {
+    chapterId: "writing-vocab",
+    setId: "set-a",
+    section: "logical-reasoning",
+    skill: "two-step-analogy",
+    difficulty: "hard",
+    question: {
+      id: "g9-eng-lrach-a-q14",
+      prompt: "pirate is to piracy as diplomat is to ___.",
+      options: [
+        { id: "a", text: "diplomacity" },
+        { id: "b", text: "diplomatic" },
+        { id: "c", text: "diplomatcy" },
+        { id: "d", text: "diplomacy" },
+      ],
+      answerId: "d",
+      hints: ["A pirate is a person, and piracy names what that person does. Find the same link for diplomat.", "Look at how the ending of pirate changes to make piracy, and make the same change to diplomat."],
+      explanation: "A pirate carries out piracy; a diplomat carries out diplomacy. In both, the t sound at the end becomes -cy. “Diplomatic” is tempting because it is also made from diplomat, but it is a describing word (adjective), not the name of what a diplomat does.",
+    },
+  },
+  {
+    chapterId: "literature-mcq",
+    setId: "set-a",
+    section: "achievers",
+    skill: "two-fact-inference",
+    difficulty: "hard",
+    question: {
+      id: "g9-eng-lrach-a-q15",
+      prompt: "Read.\n\nThe city museum gives free entry to students on weekdays. At weekends everyone pays ₹100, except children under five, who always enter free. Kavya, a 15-year-old student, visited with her 4-year-old brother on a Sunday.\n\nHow much did they pay in total?",
+      options: [
+        { id: "a", text: "Nothing" },
+        { id: "b", text: "₹200" },
+        { id: "c", text: "₹100" },
+        { id: "d", text: "₹50" },
+      ],
+      answerId: "c",
+      hints: ["First check which day Kavya visited and whether the student rule applies on that day.", "Then check the museum rule for her brother's age."],
+      explanation: "On a Sunday the student offer does not apply, so Kavya pays ₹100; her brother is under five, so he is free. Total ₹100. “Nothing” is tempting because Kavya is a student, but free student entry is only on weekdays.",
     },
   },
 ];

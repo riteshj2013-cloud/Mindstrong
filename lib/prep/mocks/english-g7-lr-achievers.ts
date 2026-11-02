@@ -1,6 +1,6 @@
 import type { MockAddendumItem } from "./types";
 
-/** Grade 7 English mock addendum: 7 logical-reasoning-style + 5 Achievers items (original; olympiad-style, not affiliated with any exam body). */
+/** Grade 7 English mock addendum: 9 logical-reasoning-style + 6 Achievers items (original; olympiad-style, not affiliated with any exam body). */
 export const G7_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
   {
     chapterId: "word-power",
@@ -244,6 +244,66 @@ export const G7_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
       answerId: "c",
       hints: ["The coach is giving an instruction, not a statement.", "Instructions in reported speech use told + person + to."],
       explanation: "Commands become told + object + to-verb: The coach told us to practise every day. “said us to” is tempting, but said cannot be followed directly by us.",
+    },
+  },
+  {
+    chapterId: "word-power",
+    setId: "set-b",
+    section: "logical-reasoning",
+    skill: "two-step-decoding",
+    difficulty: "hard",
+    question: {
+      id: "g7-eng-lrach-a-q13",
+      prompt: "In a code, each letter is first changed to its number in the alphabet (A = 1, B = 2, … Z = 26), and then 1 is added to each number. So BAD is written 3-2-5.\n\nWhich word is written 13-2-14-17?",
+      options: [
+        { id: "a", text: "CAMP" },
+        { id: "b", text: "MBNQ" },
+        { id: "c", text: "LAMB" },
+        { id: "d", text: "LAMP" },
+      ],
+      answerId: "d",
+      hints: ["To decode, undo the steps in the opposite order to the BAD example.", "Undo the adding first, then turn each number back into a letter."],
+      explanation: "Take 1 from each number: 12-1-13-16. Those letters are L, A, M, P, so the word is LAMP. “MBNQ” is tempting, but it turns the numbers into letters without taking away the 1 first.",
+    },
+  },
+  {
+    chapterId: "word-power",
+    setId: "set-b",
+    section: "logical-reasoning",
+    skill: "two-step-analogy",
+    difficulty: "hard",
+    question: {
+      id: "g7-eng-lrach-a-q14",
+      prompt: "explain is to explanation as pronounce is to ___.",
+      options: [
+        { id: "a", text: "pronounciation" },
+        { id: "b", text: "pronunciation" },
+        { id: "c", text: "pronouncing" },
+        { id: "d", text: "pronunciated" },
+      ],
+      answerId: "b",
+      hints: ["Explain turns into a naming word (noun) with -ation, and its spelling changes in the middle.", "Pronounce changes in a similar way: one letter in its middle part drops out."],
+      explanation: "Explain → explanation is a verb turning into an -ation noun, with a spelling change (ai → a). Pronounce → pronunciation also changes: the o before u drops. “Pronounciation” is tempting, but it keeps the o, which is a common spelling mistake.",
+    },
+  },
+  {
+    chapterId: "reading-smart",
+    setId: "set-a",
+    section: "achievers",
+    skill: "two-fact-inference",
+    difficulty: "hard",
+    question: {
+      id: "g7-eng-lrach-a-q15",
+      prompt: "Read.\n\nAt Hillview School, Class 7 has PE on the days the art room is closed. The art room is closed on Tuesdays and Fridays. On Friday, Nikhil, who is in Class 7, forgot his sports shoes.\n\nWhat can you infer?",
+      options: [
+        { id: "a", text: "Nikhil had PE that day without his sports shoes." },
+        { id: "b", text: "Class 7 has no PE on Fridays." },
+        { id: "c", text: "The art room was open on Friday." },
+        { id: "d", text: "Nikhil had art class on Friday." },
+      ],
+      answerId: "a",
+      hints: ["Link the art room days to the PE days for Class 7.", "Now check which day Nikhil forgot his sports shoes."],
+      explanation: "The art room is closed on Fridays, so Class 7 has PE then, and Nikhil forgot his shoes that day. “Nikhil had art class on Friday” is tempting, but the art room is closed on Fridays.",
     },
   },
 ];

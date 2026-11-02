@@ -1,6 +1,6 @@
 import type { MockAddendumItem } from "./types";
 
-/** Grade 1 English mock addendum: 7 logical-reasoning-style + 5 Achievers items (original; olympiad-style, not affiliated with any exam body). */
+/** Grade 1 English mock addendum: 9 logical-reasoning-style + 6 Achievers items (original; olympiad-style, not affiliated with any exam body). */
 export const G1_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
   {
     chapterId: "letters-words",
@@ -244,6 +244,67 @@ export const G1_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
       answerId: "a",
       hints: ["Two words must change: the naming word and the joining word.", "Add s to dog, and use the joining word for many."],
       explanation: "For many dogs we add s and use are: The dogs are happy. “The dogs is happy” is tempting, but “is” only goes with one dog.",
+    },
+  },
+  {
+    chapterId: "reading-pics",
+    setId: "set-a",
+    section: "logical-reasoning",
+    skill: "ordering-clues",
+    difficulty: "hard",
+    question: {
+      id: "g1-eng-lrach-a-q13",
+      prompt: "Three friends stand in a line: Anu, Bala and Chitra.\n\nClue 1: Anu is first.\nClue 2: Chitra is not last.\n\nWhat is the order from first to last?",
+      options: [
+        { id: "a", text: "Bala, Chitra, Anu" },
+        { id: "b", text: "Anu, Chitra, Bala" },
+        { id: "c", text: "Anu, Bala, Chitra" },
+        { id: "d", text: "Chitra, Anu, Bala" },
+      ],
+      answerId: "b",
+      hints: ["Start with the clue that tells you exactly where one friend stands in the line.", "Once one place in the line is fixed, use the clue about who is not last."],
+      explanation: "Anu is first. Chitra cannot be last, so Chitra is in the middle and Bala is last: Anu, Chitra, Bala. “Anu, Bala, Chitra” is tempting because Anu is first, but it puts Chitra last.",
+      figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 214\" width=\"440\" height=\"214\" role=\"img\" aria-label=\"Three spots in a line: three empty spots in a line marked first, middle and last. Names to place: Anu, Bala, Chitra.\"><title>Three spots in a line</title><desc>A picture showing three empty spots in a line marked first, middle and last. Names to place: Anu, Bala, Chitra.</desc><rect x=\"0\" y=\"0\" width=\"440\" height=\"214\" rx=\"14\" fill=\"#fffaf0\"/><text x=\"220.0\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"15\" font-weight=\"700\" fill=\"#5d4037\">Three spots in a line</text><rect x=\"22.0\" y=\"52\" width=\"78\" height=\"70\" rx=\"10\" fill=\"#fff3c4\" stroke=\"#e0a100\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"61.0\" y=\"94\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#1b2a41\">?</text><text x=\"61.0\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">first</text><rect x=\"181.0\" y=\"52\" width=\"78\" height=\"70\" rx=\"10\" fill=\"#fff3c4\" stroke=\"#e0a100\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"220.0\" y=\"94\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#1b2a41\">?</text><text x=\"220.0\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">middle</text><rect x=\"340.0\" y=\"52\" width=\"78\" height=\"70\" rx=\"10\" fill=\"#fff3c4\" stroke=\"#e0a100\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"379.0\" y=\"94\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#1b2a41\">?</text><text x=\"379.0\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">last</text><text x=\"22\" y=\"196\" text-anchor=\"start\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#5d4037\">To place:</text><rect x=\"100\" y=\"179\" width=\"39.8\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"119.9\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Anu</text><rect x=\"147.8\" y=\"179\" width=\"48.4\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"172.0\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Bala</text><rect x=\"204.20000000000002\" y=\"179\" width=\"65.6\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"237.0\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Chitra</text></svg>", "alt": "Three spots in a line: three empty spots in a line marked first, middle and last. Names to place: Anu, Bala, Chitra."},
+    },
+  },
+  {
+    chapterId: "letters-words",
+    setId: "set-b",
+    section: "logical-reasoning",
+    skill: "two-step-analogy",
+    difficulty: "hard",
+    question: {
+      id: "g1-eng-lrach-a-q14",
+      prompt: "sing is to singing as run is to ___.",
+      options: [
+        { id: "a", text: "running" },
+        { id: "b", text: "runing" },
+        { id: "c", text: "ran" },
+        { id: "d", text: "runner" },
+      ],
+      answerId: "a",
+      hints: ["First find what was added to sing to make singing.", "Run ends in one vowel and one consonant. What happens to the last letter before -ing?"],
+      explanation: "Sing → singing adds -ing. Run also takes -ing, but its last letter n doubles first: running. “Runing” is tempting because it just adds -ing, but it misses the double n.",
+    },
+  },
+  {
+    chapterId: "reading-pics",
+    setId: "set-b",
+    section: "achievers",
+    skill: "two-fact-inference",
+    difficulty: "hard",
+    question: {
+      id: "g1-eng-lrach-a-q15",
+      prompt: "Read.\n\nMina's ball is red. Ravi's ball is blue. The blue ball is in the box. The red ball is under the cot.\n\nWhere is Mina's ball?",
+      options: [
+        { id: "a", text: "on the cot" },
+        { id: "b", text: "in Ravi's bag" },
+        { id: "c", text: "under the cot" },
+        { id: "d", text: "in the box" },
+      ],
+      answerId: "c",
+      hints: ["First find the colour of Mina's ball.", "Then find where the ball of that colour is."],
+      explanation: "Mina's ball is red, and the red ball is under the cot. “In the box” is tempting, but that is where the blue ball is, and the blue ball is Ravi's.",
     },
   },
 ];

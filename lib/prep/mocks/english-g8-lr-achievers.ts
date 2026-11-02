@@ -1,6 +1,6 @@
 import type { MockAddendumItem } from "./types";
 
-/** Grade 8 English mock addendum: 7 logical-reasoning-style + 5 Achievers items (original; olympiad-style, not affiliated with any exam body). */
+/** Grade 8 English mock addendum: 10 logical-reasoning-style + 5 Achievers items (original; olympiad-style, not affiliated with any exam body). */
 export const G8_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
   {
     chapterId: "right-word-format",
@@ -244,6 +244,67 @@ export const G8_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
       answerId: "a",
       hints: ["The old trees become the subject, and not goes after the helping verb.", "Passive needs a form of be plus the past participle."],
       explanation: "Passive past with a plural subject: were + uprooted; negative: were not uprooted. “were not uproot” is tempting, but the passive needs the past participle uprooted.",
+    },
+  },
+  {
+    chapterId: "between-the-lines",
+    setId: "set-a",
+    section: "logical-reasoning",
+    skill: "ordering-clues",
+    difficulty: "hard",
+    question: {
+      id: "g8-eng-lrach-a-q13",
+      prompt: "Five families live in a five-storey building, one family on each floor. Floor 1 is the bottom floor.\n\nClue 1: The Dases live on the top floor.\nClue 2: The Guptas live on the floor just below the Iyers.\nClue 3: The Khans live on the floor just below the Guptas.\nClue 4: The Menons live above the Iyers.\n\nWhich family lives on floor 4?",
+      options: [
+        { id: "a", text: "the Menons" },
+        { id: "b", text: "the Iyers" },
+        { id: "c", text: "the Guptas" },
+        { id: "d", text: "the Dases" },
+      ],
+      answerId: "a",
+      hints: ["Three families are stacked on floors in a row, each just below the next. Which floors could those be?", "Remember the top floor is taken, and one family must live above the Iyers."],
+      explanation: "The Dases take floor 5. The Khans, Guptas and Iyers are stacked in that order, and the Menons are above the Iyers, so it must be Khans 1, Guptas 2, Iyers 3, Menons 4. “The Iyers” is tempting, but then the Menons would need floor 5, which the Dases have.",
+      figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" width=\"480\" height=\"300\" role=\"img\" aria-label=\"A five-storey building: five empty floors numbered 1 (bottom) to 5 (top). Families to place: Dases, Guptas, Iyers, Khans, Menons.\"><title>A five-storey building</title><desc>A building with five empty floors, numbered Floor 1 at the bottom to Floor 5 at the top. Families to place: Dases, Guptas, Iyers, Khans, Menons.</desc><rect x=\"0\" y=\"0\" width=\"480\" height=\"300\" rx=\"14\" fill=\"#fffaf0\"/><text x=\"240.0\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"15\" font-weight=\"700\" fill=\"#5d4037\">A five-storey building</text><polygon points=\"140,62 240,40 340,62\" fill=\"#ffccbc\" stroke=\"#8d5a2b\" stroke-width=\"2.5\"/><rect x=\"140\" y=\"62\" width=\"200\" height=\"40\" fill=\"#ffffff\" stroke=\"#8d5a2b\" stroke-width=\"2.5\"/><text x=\"120\" y=\"88\" text-anchor=\"end\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">Floor 5</text><text x=\"240\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#e0a100\">?</text><rect x=\"140\" y=\"102\" width=\"200\" height=\"40\" fill=\"#ffffff\" stroke=\"#8d5a2b\" stroke-width=\"2.5\"/><text x=\"120\" y=\"128\" text-anchor=\"end\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">Floor 4</text><text x=\"240\" y=\"129\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#e0a100\">?</text><rect x=\"140\" y=\"142\" width=\"200\" height=\"40\" fill=\"#ffffff\" stroke=\"#8d5a2b\" stroke-width=\"2.5\"/><text x=\"120\" y=\"168\" text-anchor=\"end\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">Floor 3</text><text x=\"240\" y=\"169\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#e0a100\">?</text><rect x=\"140\" y=\"182\" width=\"200\" height=\"40\" fill=\"#ffffff\" stroke=\"#8d5a2b\" stroke-width=\"2.5\"/><text x=\"120\" y=\"208\" text-anchor=\"end\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">Floor 2</text><text x=\"240\" y=\"209\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#e0a100\">?</text><rect x=\"140\" y=\"222\" width=\"200\" height=\"40\" fill=\"#ffffff\" stroke=\"#8d5a2b\" stroke-width=\"2.5\"/><text x=\"120\" y=\"248\" text-anchor=\"end\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">Floor 1</text><text x=\"240\" y=\"249\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#e0a100\">?</text><text x=\"360\" y=\"76\" text-anchor=\"start\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"12\" font-weight=\"700\" fill=\"#c62828\">top</text><text x=\"360\" y=\"248\" text-anchor=\"start\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"12\" font-weight=\"700\" fill=\"#c62828\">bottom</text><text x=\"22\" y=\"284\" text-anchor=\"start\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#5d4037\">To place:</text><rect x=\"100\" y=\"267\" width=\"57.0\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"128.5\" y=\"284\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Dases</text><rect x=\"165.0\" y=\"267\" width=\"65.6\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"197.8\" y=\"284\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Guptas</text><rect x=\"238.6\" y=\"267\" width=\"57.0\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"267.1\" y=\"284\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Iyers</text><rect x=\"303.6\" y=\"267\" width=\"57.0\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"332.1\" y=\"284\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Khans</text><rect x=\"368.6\" y=\"267\" width=\"65.6\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"401.4\" y=\"284\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Menons</text></svg>", "alt": "A five-storey building: five empty floors numbered 1 (bottom) to 5 (top). Families to place: Dases, Guptas, Iyers, Khans, Menons."},
+    },
+  },
+  {
+    chapterId: "right-word-format",
+    setId: "set-a",
+    section: "logical-reasoning",
+    skill: "two-step-coding",
+    difficulty: "hard",
+    question: {
+      id: "g8-eng-lrach-a-q14",
+      prompt: "In a code, a six-letter word is split into two halves, and each half is written backwards. So MARKET → MAR + KET → RAM + TEK → RAMTEK.\n\nHow is PENCIL written in this code?",
+      options: [
+        { id: "a", text: "CILPEN" },
+        { id: "b", text: "NEPCIL" },
+        { id: "c", text: "NEPLIC" },
+        { id: "d", text: "LICNEP" },
+      ],
+      answerId: "c",
+      hints: ["Split PENCIL into two halves of three letters, just like MARKET.", "Turn each half around on its own, and keep the halves in their places."],
+      explanation: "PEN + CIL → NEP + LIC → NEPLIC. “LICNEP” is tempting, but it writes the whole word backwards, which also swaps the two halves.",
+    },
+  },
+  {
+    chapterId: "right-word-format",
+    setId: "set-b",
+    section: "logical-reasoning",
+    skill: "two-step-analogy",
+    difficulty: "hard",
+    question: {
+      id: "g8-eng-lrach-a-q15",
+      prompt: "fame is to famous as glory is to ___.",
+      options: [
+        { id: "a", text: "gloried" },
+        { id: "b", text: "gloryous" },
+        { id: "c", text: "glorous" },
+        { id: "d", text: "glorious" },
+      ],
+      answerId: "d",
+      hints: ["Famous is the describing word (adjective) made from fame. Which ending was added?", "Glory ends in y. Think about what happens to y before that ending."],
+      explanation: "Fame + -ous gives famous. Glory takes -ous too, but the y changes to i first: glorious. “Gloryous” is tempting, but it keeps the y.",
     },
   },
 ];
