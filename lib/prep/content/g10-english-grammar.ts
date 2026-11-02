@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Little" }
     ],
     answerId: "c",
-    explanation: "Most of + plural countable works; much is for uncountables.",
+    explanation: "Most fits: 'most of the students' means the greater part of a countable group, and it agrees with the plural verb 'were'. Much is tempting because it also means a large amount, but much goes only with uncountable nouns (much water), never with students. Little is also for uncountables, and 'each one of much' is not English.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -536,7 +536,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "few" }
     ],
     answerId: "a",
-    explanation: "Hope uncountable \u2192 little; few is for countables.",
+    explanation: "Little fits: hope is uncountable here, so a small amount of it is 'little hope'. Few is tempting because it also means 'only a small number', but few goes only with countable plurals (few friends). Many and several also need countable plurals, so they cannot go with hope.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

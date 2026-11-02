@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "none" }
     ],
     answerId: "c",
-    explanation: "Zn is above hydrogen; Cu and Ag are below.",
+    explanation: "Zn is above hydrogen in the reactivity series, so it displaces H\u2082 from dilute acids and bubbles appear. Cu is tempting because it is a familiar metal, but Cu and Ag both lie below hydrogen, so neither releases H\u2082 from a dilute acid. 'none' is wrong because zinc does react.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -610,11 +610,11 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "2Al + Fe\u2082O\u2083 \u2192 Al\u2082O\u2083 + 2Fe" },
       { id: "b", text: "Al + 2Fe₂O₃ → Al₂O₃ + 4Fe" },
-      { id: "c", text: "3Al + Fe\u2082O\u2083 \u2192 \u2026" },
+      { id: "c", text: "3Al + Fe\u2082O\u2083 \u2192 Al\u2082O\u2083 + 2Fe" },
       { id: "d", text: "Al + Fe\u2082O\u2083 \u2192 Al\u2082O\u2083 + Fe" }
     ],
     answerId: "a",
-    explanation: "2Al + Fe₂O₃ → Al₂O₃ + 2Fe has 2 Al, 2 Fe and 3 O on each side. Al + Fe₂O₃ → Al₂O₃ + Fe is tempting because the formulas are right, but it has 1 Al on the left and 2 on the right.",
+    explanation: "2Al + Fe₂O₃ → Al₂O₃ + 2Fe has 2 Al, 2 Fe and 3 O on each side. Al + Fe₂O₃ → Al₂O₃ + Fe is tempting because the formulas are right, but it has 1 Al on the left and 2 on the right. 3Al + Fe₂O₃ → Al₂O₃ + 2Fe fixes the Fe but leaves 3 Al on the left and only 2 on the right.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
