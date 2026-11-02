@@ -1,6 +1,6 @@
 import type { MockAddendumItem } from "./types";
 
-/** Grade 2 English mock addendum: 7 logical-reasoning-style + 5 Achievers items (original; olympiad-style, not affiliated with any exam body). */
+/** Grade 2 English mock addendum: 9 logical-reasoning-style + 6 Achievers items (original; olympiad-style, not affiliated with any exam body). */
 export const G2_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
   {
     chapterId: "words",
@@ -244,6 +244,67 @@ export const G2_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
       answerId: "b",
       hints: ["In the question, the helping word comes before Tara.", "Then end the sentence with a question mark."],
       explanation: "To ask, move can to the front and add a question mark: Can Tara swim? “Tara can swim?” is tempting, but only the mark changed, not the word order.",
+    },
+  },
+  {
+    chapterId: "reading",
+    setId: "set-a",
+    section: "logical-reasoning",
+    skill: "seating-clues",
+    difficulty: "hard",
+    question: {
+      id: "g2-eng-lrach-a-q13",
+      prompt: "Raju, Sona, Tia and Vik sit on four chairs in a row.\n\nClue 1: Raju sits on the chair at the left end.\nClue 2: Sona sits next to Raju.\nClue 3: Tia is not on the chair at the right end.\n\nWho sits next to Vik?",
+      options: [
+        { id: "a", text: "Sona" },
+        { id: "b", text: "Raju" },
+        { id: "c", text: "Tia" },
+        { id: "d", text: "Both Sona and Tia" },
+      ],
+      answerId: "c",
+      hints: ["Start with Raju, because a clue tells you exactly which chair is his.", "After the first two chairs are filled, use the clue about the right end to fill the last two."],
+      explanation: "Raju is at the left end and Sona is next to him. Tia is not at the right end, so Tia takes the third chair and Vik the fourth: Raju, Sona, Tia, Vik. Only Tia is next to Vik. “Sona” is tempting, but Sona is two chairs away from Vik.",
+      figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 214\" width=\"520\" height=\"214\" role=\"img\" aria-label=\"Four chairs in a row: 4 empty chairs in a row numbered 1 to 4, with the left end and right end marked. Names to place: Raju, Sona, Tia, Vik.\"><title>Four chairs in a row</title><desc>A picture showing 4 empty chairs in a row numbered 1 to 4, with the left end and right end marked. Names to place: Raju, Sona, Tia, Vik.</desc><rect x=\"0\" y=\"0\" width=\"520\" height=\"214\" rx=\"14\" fill=\"#fffaf0\"/><text x=\"260.0\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"15\" font-weight=\"700\" fill=\"#5d4037\">Four chairs in a row</text><rect x=\"32.0\" y=\"52\" width=\"58\" height=\"40\" rx=\"8\" fill=\"#e3f2fd\" stroke=\"#1e5aa8\" stroke-width=\"2.5\"/><rect x=\"26.0\" y=\"92\" width=\"70\" height=\"16\" rx=\"5\" fill=\"#bbdefb\" stroke=\"#1e5aa8\" stroke-width=\"2.5\"/><line x1=\"36.0\" y1=\"108\" x2=\"36.0\" y2=\"124\" stroke=\"#1e5aa8\" stroke-width=\"3\"/><line x1=\"86.0\" y1=\"108\" x2=\"86.0\" y2=\"124\" stroke=\"#1e5aa8\" stroke-width=\"3\"/><text x=\"61.0\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">Chair 1</text><rect x=\"164.7\" y=\"52\" width=\"58\" height=\"40\" rx=\"8\" fill=\"#e3f2fd\" stroke=\"#1e5aa8\" stroke-width=\"2.5\"/><rect x=\"158.7\" y=\"92\" width=\"70\" height=\"16\" rx=\"5\" fill=\"#bbdefb\" stroke=\"#1e5aa8\" stroke-width=\"2.5\"/><line x1=\"168.7\" y1=\"108\" x2=\"168.7\" y2=\"124\" stroke=\"#1e5aa8\" stroke-width=\"3\"/><line x1=\"218.7\" y1=\"108\" x2=\"218.7\" y2=\"124\" stroke=\"#1e5aa8\" stroke-width=\"3\"/><text x=\"193.7\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">Chair 2</text><rect x=\"297.3\" y=\"52\" width=\"58\" height=\"40\" rx=\"8\" fill=\"#e3f2fd\" stroke=\"#1e5aa8\" stroke-width=\"2.5\"/><rect x=\"291.3\" y=\"92\" width=\"70\" height=\"16\" rx=\"5\" fill=\"#bbdefb\" stroke=\"#1e5aa8\" stroke-width=\"2.5\"/><line x1=\"301.3\" y1=\"108\" x2=\"301.3\" y2=\"124\" stroke=\"#1e5aa8\" stroke-width=\"3\"/><line x1=\"351.3\" y1=\"108\" x2=\"351.3\" y2=\"124\" stroke=\"#1e5aa8\" stroke-width=\"3\"/><text x=\"326.3\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">Chair 3</text><rect x=\"430.0\" y=\"52\" width=\"58\" height=\"40\" rx=\"8\" fill=\"#e3f2fd\" stroke=\"#1e5aa8\" stroke-width=\"2.5\"/><rect x=\"424.0\" y=\"92\" width=\"70\" height=\"16\" rx=\"5\" fill=\"#bbdefb\" stroke=\"#1e5aa8\" stroke-width=\"2.5\"/><line x1=\"434.0\" y1=\"108\" x2=\"434.0\" y2=\"124\" stroke=\"#1e5aa8\" stroke-width=\"3\"/><line x1=\"484.0\" y1=\"108\" x2=\"484.0\" y2=\"124\" stroke=\"#1e5aa8\" stroke-width=\"3\"/><text x=\"459.0\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">Chair 4</text><text x=\"22\" y=\"166\" text-anchor=\"start\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#c62828\">left end</text><text x=\"498\" y=\"166\" text-anchor=\"end\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#c62828\">right end</text><text x=\"22\" y=\"196\" text-anchor=\"start\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#5d4037\">To place:</text><rect x=\"100\" y=\"179\" width=\"48.4\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"124.2\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Raju</text><rect x=\"156.4\" y=\"179\" width=\"48.4\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"180.6\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Sona</text><rect x=\"212.8\" y=\"179\" width=\"39.8\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"232.7\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Tia</text><rect x=\"260.6\" y=\"179\" width=\"39.8\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"280.5\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">Vik</text></svg>", "alt": "Four chairs in a row: 4 empty chairs in a row numbered 1 to 4, with the left end and right end marked. Names to place: Raju, Sona, Tia, Vik."},
+    },
+  },
+  {
+    chapterId: "words",
+    setId: "set-a",
+    section: "logical-reasoning",
+    skill: "two-step-coding",
+    difficulty: "hard",
+    question: {
+      id: "g2-eng-lrach-a-q14",
+      prompt: "In a secret code, each letter moves one step forward, and then the word is written backwards. So “cat” → “dbu” → “ubd”.\n\nHow is “dog” written in this code?",
+      options: [
+        { id: "a", text: "hpe" },
+        { id: "b", text: "god" },
+        { id: "c", text: "cnf" },
+        { id: "d", text: "eph" },
+      ],
+      answerId: "a",
+      hints: ["There are two steps in this secret code. Do the first step on every letter of dog.", "Do not stop after the first step: the word must also be turned around."],
+      explanation: "d → e, o → p, g → h gives “eph”; written backwards it is hpe. “eph” is tempting, but it stops after the first step and forgets to write the word backwards.",
+    },
+  },
+  {
+    chapterId: "reading",
+    setId: "set-b",
+    section: "achievers",
+    skill: "two-fact-inference",
+    difficulty: "hard",
+    question: {
+      id: "g2-eng-lrach-a-q15",
+      prompt: "Read.\n\nThe toy shop opens at 9 o'clock. Neha reached the toy shop one hour before it opened.\n\nAt what time did Neha reach the shop?",
+      options: [
+        { id: "a", text: "1 o'clock" },
+        { id: "b", text: "8 o'clock" },
+        { id: "c", text: "10 o'clock" },
+        { id: "d", text: "9 o'clock" },
+      ],
+      answerId: "b",
+      hints: ["First find the time the toy shop opens.", "Before means earlier. Count back from the opening time."],
+      explanation: "The shop opens at 9, and Neha came one hour before that, so she came at 8 o'clock. “10 o'clock” is tempting, but that is one hour after the shop opens, not before.",
     },
   },
 ];

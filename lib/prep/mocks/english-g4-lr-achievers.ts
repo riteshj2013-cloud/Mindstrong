@@ -1,6 +1,6 @@
 import type { MockAddendumItem } from "./types";
 
-/** Grade 4 English mock addendum: 7 logical-reasoning-style + 5 Achievers items (original; olympiad-style, not affiliated with any exam body). */
+/** Grade 4 English mock addendum: 10 logical-reasoning-style + 5 Achievers items (original; olympiad-style, not affiliated with any exam body). */
 export const G4_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
   {
     chapterId: "word-garden",
@@ -244,6 +244,67 @@ export const G4_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
       answerId: "c",
       hints: ["Who takes the place of one word in the second sentence.", "Put who right after girl, the naming word it describes."],
       explanation: "Who replaces she and comes right after girl: I met a girl who plays the veena. “who she plays” is tempting, but it keeps she, so the girl is named twice.",
+    },
+  },
+  {
+    chapterId: "story-spotters",
+    setId: "set-b",
+    section: "logical-reasoning",
+    skill: "ordering-clues",
+    difficulty: "hard",
+    question: {
+      id: "g4-eng-lrach-a-q13",
+      prompt: "Four books stand on a shelf: an atlas, a diary, a dictionary and a storybook.\n\nClue 1: The storybook is at the right end.\nClue 2: The atlas is somewhere to the left of the dictionary.\nClue 3: The diary is between the atlas and the dictionary.\n\nWhich book is second from the left?",
+      options: [
+        { id: "a", text: "the diary" },
+        { id: "b", text: "the storybook" },
+        { id: "c", text: "the dictionary" },
+        { id: "d", text: "the atlas" },
+      ],
+      answerId: "a",
+      hints: ["Put the storybook in place first, because one clue tells you its exact spot on the shelf.", "Three books are left for three spots. Which one must sit between the other two?"],
+      explanation: "The storybook takes the right end. The diary sits between the atlas and the dictionary, with the atlas on the left: atlas, diary, dictionary, storybook. “The dictionary” is tempting, but it is third, because the diary has to come between it and the atlas.",
+      figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 214\" width=\"520\" height=\"214\" role=\"img\" aria-label=\"A shelf with four spaces: 4 empty spaces on a shelf, with the left and right ends marked. Names to place: atlas, diary, dictionary, storybook.\"><title>A shelf with four spaces</title><desc>A picture showing 4 empty spaces on a shelf, with the left and right ends marked. Names to place: atlas, diary, dictionary, storybook.</desc><rect x=\"0\" y=\"0\" width=\"520\" height=\"214\" rx=\"14\" fill=\"#fffaf0\"/><text x=\"260.0\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"15\" font-weight=\"700\" fill=\"#5d4037\">A shelf with four spaces</text><rect x=\"22.0\" y=\"52\" width=\"78\" height=\"70\" rx=\"6\" fill=\"#ffffff\" stroke=\"#8d5a2b\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"61.0\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">Space 1</text><rect x=\"154.7\" y=\"52\" width=\"78\" height=\"70\" rx=\"6\" fill=\"#ffffff\" stroke=\"#8d5a2b\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"193.7\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">Space 2</text><rect x=\"287.3\" y=\"52\" width=\"78\" height=\"70\" rx=\"6\" fill=\"#ffffff\" stroke=\"#8d5a2b\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"326.3\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">Space 3</text><rect x=\"420.0\" y=\"52\" width=\"78\" height=\"70\" rx=\"6\" fill=\"#ffffff\" stroke=\"#8d5a2b\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"459.0\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#607d8b\">Space 4</text><text x=\"22\" y=\"166\" text-anchor=\"start\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#c62828\">left</text><text x=\"498\" y=\"166\" text-anchor=\"end\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#c62828\">right</text><text x=\"22\" y=\"196\" text-anchor=\"start\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#5d4037\">To place:</text><rect x=\"100\" y=\"179\" width=\"57.0\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"128.5\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">atlas</text><rect x=\"165.0\" y=\"179\" width=\"57.0\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"193.5\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">diary</text><rect x=\"230.0\" y=\"179\" width=\"100.0\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"280.0\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">dictionary</text><rect x=\"338.0\" y=\"179\" width=\"91.4\" height=\"24\" rx=\"12\" fill=\"#e8f5e9\" stroke=\"#2e7d32\" stroke-width=\"1.5\"/><text x=\"383.7\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b5e20\">storybook</text></svg>", "alt": "A shelf with four spaces: 4 empty spaces on a shelf, with the left and right ends marked. Names to place: atlas, diary, dictionary, storybook."},
+    },
+  },
+  {
+    chapterId: "word-garden",
+    setId: "set-b",
+    section: "logical-reasoning",
+    skill: "two-step-coding",
+    difficulty: "hard",
+    question: {
+      id: "g4-eng-lrach-a-q14",
+      prompt: "In a code, each letter moves two steps back in the alphabet, and then the first and last letters swap places. So FISH → DGQF → FGQD.\n\nHow is TOWN written in this code?",
+      options: [
+        { id: "a", text: "RMUL" },
+        { id: "b", text: "LMUR" },
+        { id: "c", text: "PQYV" },
+        { id: "d", text: "LMUT" },
+      ],
+      answerId: "b",
+      hints: ["Do the first step on all four letters of TOWN: two steps back each.", "Now look at the second step in the FISH example and do it to your result."],
+      explanation: "T → R, O → M, W → U, N → L gives RMUL; swapping the first and last letters gives LMUR. “RMUL” is tempting, but it stops before the swap.",
+    },
+  },
+  {
+    chapterId: "word-workshop",
+    setId: "set-b",
+    section: "logical-reasoning",
+    skill: "two-step-analogy",
+    difficulty: "hard",
+    question: {
+      id: "g4-eng-lrach-a-q15",
+      prompt: "write is to writer as rob is to ___.",
+      options: [
+        { id: "a", text: "robbery" },
+        { id: "b", text: "robbed" },
+        { id: "c", text: "rober" },
+        { id: "d", text: "robber" },
+      ],
+      answerId: "d",
+      hints: ["A writer is a person who writes. What kind of word is needed for rob?", "Rob ends in one vowel and one consonant. Think about its last letter before you add the ending."],
+      explanation: "Writer means a person who writes, so we need the person who robs. Rob doubles its b before -er: robber. “Rober” is tempting, but it forgets the double b.",
     },
   },
 ];

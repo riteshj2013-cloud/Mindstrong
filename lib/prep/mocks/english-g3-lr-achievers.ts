@@ -1,6 +1,6 @@
 import type { MockAddendumItem } from "./types";
 
-/** Grade 3 English mock addendum: 7 logical-reasoning-style + 5 Achievers items (original; olympiad-style, not affiliated with any exam body). */
+/** Grade 3 English mock addendum: 9 logical-reasoning-style + 6 Achievers items (original; olympiad-style, not affiliated with any exam body). */
 export const G3_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
   {
     chapterId: "synonyms",
@@ -244,6 +244,66 @@ export const G3_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
       answerId: "b",
       hints: ["Two changes: past time and a not.", "After did not, the word for play goes back to its plain form."],
       explanation: "Past negative uses did not + plain verb: Ravi did not play cricket. “did not played” is tempting, but after did we never add -ed.",
+    },
+  },
+  {
+    chapterId: "antonyms",
+    setId: "set-a",
+    section: "logical-reasoning",
+    skill: "mixed-rule-coding",
+    difficulty: "hard",
+    question: {
+      id: "g3-eng-lrach-a-q13",
+      prompt: "In a code, every consonant moves one step forward in the alphabet, but vowels (A, E, I, O, U) stay the same. So MILK is written NIML.\n\nHow is BOAT written in this code?",
+      options: [
+        { id: "a", text: "COAT" },
+        { id: "b", text: "BOAU" },
+        { id: "c", text: "CPBU" },
+        { id: "d", text: "COAU" },
+      ],
+      answerId: "d",
+      hints: ["Look at MILK and NIML: which letters changed, and which stayed the same?", "Sort the letters of BOAT into vowels and consonants before you change anything."],
+      explanation: "B → C and T → U, while the vowels O and A stay: COAU. “CPBU” is tempting because it moves every letter, but the vowels must stay the same.",
+    },
+  },
+  {
+    chapterId: "synonyms",
+    setId: "set-b",
+    section: "logical-reasoning",
+    skill: "two-step-analogy",
+    difficulty: "hard",
+    question: {
+      id: "g3-eng-lrach-a-q14",
+      prompt: "happy is to unhappiness as kind is to ___.",
+      options: [
+        { id: "a", text: "unkindly" },
+        { id: "b", text: "unkindness" },
+        { id: "c", text: "kindness" },
+        { id: "d", text: "unkind" },
+      ],
+      answerId: "b",
+      hints: ["Count the changes from happy to unhappiness: something was added at the front AND at the end.", "Make both of those changes to kind."],
+      explanation: "Happy gets un- at the front and -ness at the end (y changes to i). Kind gets the same two changes: unkindness. “Kindness” is tempting, but it makes only one of the two changes.",
+    },
+  },
+  {
+    chapterId: "grammar",
+    setId: "set-a",
+    section: "achievers",
+    skill: "two-fact-inference",
+    difficulty: "hard",
+    question: {
+      id: "g3-eng-lrach-a-q15",
+      prompt: "Read.\n\nKiran always wears his raincoat when it rains. On Tuesday he left his raincoat at home. He got wet on the way to school.\n\nWhat can we tell about Tuesday?",
+      options: [
+        { id: "a", text: "Kiran wore his raincoat to school." },
+        { id: "b", text: "It was sunny and dry all day." },
+        { id: "c", text: "It rained, and Kiran had no raincoat." },
+        { id: "d", text: "Kiran did not go to school." },
+      ],
+      answerId: "c",
+      hints: ["Find the sentence about where Kiran's raincoat was on Tuesday.", "Why would Kiran get wet on the way to school?"],
+      explanation: "He got wet, so it rained, and his raincoat was at home. “Kiran wore his raincoat to school” is tempting because he always wears it in rain, but on Tuesday he left it at home.",
     },
   },
 ];

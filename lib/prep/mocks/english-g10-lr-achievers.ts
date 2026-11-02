@@ -1,6 +1,6 @@
 import type { MockAddendumItem } from "./types";
 
-/** Grade 10 English mock addendum: 7 logical-reasoning-style + 5 Achievers items (original; olympiad-style, not affiliated with any exam body). */
+/** Grade 10 English mock addendum: 9 logical-reasoning-style + 6 Achievers items (original; olympiad-style, not affiliated with any exam body). */
 export const G10_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
   {
     chapterId: "writing",
@@ -244,6 +244,67 @@ export const G10_ENGLISH_LR_ACHIEVERS: MockAddendumItem[] = [
       answerId: "c",
       hints: ["The -ing phrase about the letter must describe the subject after the comma.", "Who opened the letter? That person must come right after the comma."],
       explanation: "Opening the letter describes he, who comes next. “Opening the letter, a cheque was found” is tempting because it sounds formal, but it says the cheque opened the letter.",
+    },
+  },
+  {
+    chapterId: "literature",
+    setId: "set-a",
+    section: "logical-reasoning",
+    skill: "grid-ordering",
+    difficulty: "hard",
+    question: {
+      id: "g10-eng-lrach-a-q13",
+      prompt: "Ishita, Jai, Kabir and Leena each give one talk, one per day from Monday to Thursday. The topics are poetry, rivers, robots and stamps, one each.\n\nClue 1: The rivers talk is on Monday.\nClue 2: The robots talk is on the day right after Jai's talk.\nClue 3: Leena speaks on Thursday.\nClue 4: Ishita's topic is poetry, and she speaks after Kabir.\nClue 5: Jai's talk is not about stamps.\n\nOn which day is the robots talk, and who gives it?",
+      options: [
+        { id: "a", text: "Monday, Jai" },
+        { id: "b", text: "Tuesday, Ishita" },
+        { id: "c", text: "Tuesday, Kabir" },
+        { id: "d", text: "Wednesday, Kabir" },
+      ],
+      answerId: "c",
+      hints: ["Find who can speak on Monday: the rivers talk rules out anyone whose topic is already known.", "Once Monday is settled, the robots clue fixes Tuesday's topic. Then use Ishita's clue."],
+      explanation: "Leena has Thursday, and Ishita (poetry) cannot give the Monday rivers talk. If Kabir gave rivers on Monday, the robots talk right after Jai would force Jai onto Wednesday with Leena giving robots, leaving Jai with stamps, which clue 5 forbids. So Jai gives rivers on Monday and robots is on Tuesday. Ishita's talk is poetry, so she takes Wednesday, and Kabir, who speaks before her, gives robots on Tuesday. “Tuesday, Ishita” is tempting, but Ishita's talk is poetry, not robots.",
+      figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" width=\"440\" height=\"250\" role=\"img\" aria-label=\"Clue grid: people and days: an empty grid with Ishita, Jai, Kabir, Leena down the side and Monday to Thursday across the top; topics poetry, rivers, robots, stamps.\"><title>Clue grid: people and days</title><desc>An empty clue grid with the people Ishita, Jai, Kabir, Leena down the side and the days Mon, Tue, Wed, Thu across the top. Topics listed below: poetry, rivers, robots, stamps.</desc><rect x=\"0\" y=\"0\" width=\"440\" height=\"250\" rx=\"14\" fill=\"#fffaf0\"/><text x=\"220.0\" y=\"26\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"15\" font-weight=\"700\" fill=\"#5d4037\">Clue grid: people and days</text><text x=\"157.5\" y=\"72\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1e5aa8\">Mon</text><text x=\"232.5\" y=\"72\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1e5aa8\">Tue</text><text x=\"307.5\" y=\"72\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1e5aa8\">Wed</text><text x=\"382.5\" y=\"72\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1e5aa8\">Thu</text><text x=\"110\" y=\"106\" text-anchor=\"end\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b2a41\">Ishita</text><rect x=\"120\" y=\"84\" width=\"75\" height=\"34\" fill=\"#ffffff\" stroke=\"#90a4ae\" stroke-width=\"1.5\"/><rect x=\"195\" y=\"84\" width=\"75\" height=\"34\" fill=\"#ffffff\" stroke=\"#90a4ae\" stroke-width=\"1.5\"/><rect x=\"270\" y=\"84\" width=\"75\" height=\"34\" fill=\"#ffffff\" stroke=\"#90a4ae\" stroke-width=\"1.5\"/><rect x=\"345\" y=\"84\" width=\"75\" height=\"34\" fill=\"#ffffff\" stroke=\"#90a4ae\" stroke-width=\"1.5\"/><text x=\"110\" y=\"140\" text-anchor=\"end\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b2a41\">Jai</text><rect x=\"120\" y=\"118\" width=\"75\" height=\"34\" fill=\"#ffffff\" stroke=\"#90a4ae\" stroke-width=\"1.5\"/><rect x=\"195\" y=\"118\" width=\"75\" height=\"34\" fill=\"#ffffff\" stroke=\"#90a4ae\" stroke-width=\"1.5\"/><rect x=\"270\" y=\"118\" width=\"75\" height=\"34\" fill=\"#ffffff\" stroke=\"#90a4ae\" stroke-width=\"1.5\"/><rect x=\"345\" y=\"118\" width=\"75\" height=\"34\" fill=\"#ffffff\" stroke=\"#90a4ae\" stroke-width=\"1.5\"/><text x=\"110\" y=\"174\" text-anchor=\"end\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b2a41\">Kabir</text><rect x=\"120\" y=\"152\" width=\"75\" height=\"34\" fill=\"#ffffff\" stroke=\"#90a4ae\" stroke-width=\"1.5\"/><rect x=\"195\" y=\"152\" width=\"75\" height=\"34\" fill=\"#ffffff\" stroke=\"#90a4ae\" stroke-width=\"1.5\"/><rect x=\"270\" y=\"152\" width=\"75\" height=\"34\" fill=\"#ffffff\" stroke=\"#90a4ae\" stroke-width=\"1.5\"/><rect x=\"345\" y=\"152\" width=\"75\" height=\"34\" fill=\"#ffffff\" stroke=\"#90a4ae\" stroke-width=\"1.5\"/><text x=\"110\" y=\"208\" text-anchor=\"end\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#1b2a41\">Leena</text><rect x=\"120\" y=\"186\" width=\"75\" height=\"34\" fill=\"#ffffff\" stroke=\"#90a4ae\" stroke-width=\"1.5\"/><rect x=\"195\" y=\"186\" width=\"75\" height=\"34\" fill=\"#ffffff\" stroke=\"#90a4ae\" stroke-width=\"1.5\"/><rect x=\"270\" y=\"186\" width=\"75\" height=\"34\" fill=\"#ffffff\" stroke=\"#90a4ae\" stroke-width=\"1.5\"/><rect x=\"345\" y=\"186\" width=\"75\" height=\"34\" fill=\"#ffffff\" stroke=\"#90a4ae\" stroke-width=\"1.5\"/><text x=\"22\" y=\"236\" text-anchor=\"start\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#5d4037\">Topics: poetry, rivers, robots, stamps</text></svg>", "alt": "Clue grid: people and days: an empty grid with Ishita, Jai, Kabir, Leena down the side and Monday to Thursday across the top; topics poetry, rivers, robots, stamps."},
+    },
+  },
+  {
+    chapterId: "writing",
+    setId: "set-a",
+    section: "logical-reasoning",
+    skill: "mixed-rule-coding",
+    difficulty: "hard",
+    question: {
+      id: "g10-eng-lrach-a-q14",
+      prompt: "In a code, letters in odd positions (1st, 3rd, 5th, …) move one step forward, and letters in even positions (2nd, 4th, …) move one step back. So STORM is written TSPQN.\n\nHow is BRIDGE written in this code?",
+      options: [
+        { id: "a", text: "CQJCHD" },
+        { id: "b", text: "CSJEHF" },
+        { id: "c", text: "AQHCFD" },
+        { id: "d", text: "CQJCHF" },
+      ],
+      answerId: "a",
+      hints: ["Number the letters of BRIDGE from 1 to 6 before changing any of them.", "Check the STORM example: which positions moved forward and which moved back?"],
+      explanation: "B+1 = C, R−1 = Q, I+1 = J, D−1 = C, G+1 = H, E−1 = D, so the code is CQJCHD. “CSJEHF” is tempting, but it moves every letter forward and ignores the even-position rule.",
+    },
+  },
+  {
+    chapterId: "literature",
+    setId: "set-a",
+    section: "achievers",
+    skill: "two-fact-inference",
+    difficulty: "hard",
+    question: {
+      id: "g10-eng-lrach-a-q15",
+      prompt: "Read.\n\nEvery novel in the school library has been approved by the reading committee. The committee approves only books that have a Hindi or an English edition. Neelkanth is a novel in the school library.\n\nWhich statement must be true?",
+      options: [
+        { id: "a", text: "Every book with an English edition is in the library." },
+        { id: "b", text: "The reading committee wrote Neelkanth." },
+        { id: "c", text: "Neelkanth was first written in Hindi." },
+        { id: "d", text: "Neelkanth has a Hindi or an English edition." },
+      ],
+      answerId: "d",
+      hints: ["Link the first sentence to the novel named in the last sentence.", "Then apply the rule the committee follows. Be careful about what it does NOT say about the language a book was first written in."],
+      explanation: "Neelkanth is in the library, so the committee approved it, and the committee approves only books with a Hindi or English edition. “Neelkanth was first written in Hindi” is tempting, but having a Hindi edition does not tell us the language it was written in.",
     },
   },
 ];
