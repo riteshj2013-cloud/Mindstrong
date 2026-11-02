@@ -162,7 +162,7 @@ export const G8_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "a",
       hints: ["What is used up inside the jar while the candle burns?", "Check each one on its own, then ask whether the need for oxygen gives the reason the flame stops."],
-      explanation: "Both are true. Burning needs oxygen, and under the jar the candle soon uses up the oxygen that is trapped there, so the flame goes out. So Statement 2 explains Statement 1.",
+      explanation: "Both are true. Burning needs oxygen, and under the jar the candle soon uses up the oxygen that is trapped there, so the flame goes out. So Statement 2 explains Statement 1. Picking 'both true, but Statement 2 does not explain Statement 1' is tempting, but the oxygen running out is exactly why the flame dies.",
     },
   },
   {
@@ -182,7 +182,7 @@ export const G8_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "c",
       hints: ["Aluminium can be beaten into thin sheets and it shines. What kind of element does that?", "Check each one on its own. Have you seen food wrapped in shiny foil?"],
-      explanation: "Aluminium foil is used to wrap food, so Statement 1 is true. Aluminium is a metal: it is malleable, lustrous and conducts heat and electricity, so Statement 2 is not true.",
+      explanation: "Aluminium foil is used to wrap food, so Statement 1 is true. Aluminium is a metal: it is malleable, lustrous and conducts heat and electricity, so Statement 2 is not true. Picking 'both statements are true' is tempting because foil is thin and light, but aluminium is still a metal.",
     },
   },
   {
@@ -202,7 +202,7 @@ export const G8_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "d",
       hints: ["Put your ear to one end of a long steel railing while a friend taps the far end. What do you notice?", "Can sound pass through empty space, where there is no medium at all?"],
-      explanation: "Sound needs a medium, such as a solid, liquid or gas, so Statement 2 is true. Sound travels much faster in solids like steel than in air, so Statement 1 is not true.",
+      explanation: "Sound needs a medium, such as a solid, liquid or gas, so Statement 2 is true. Sound travels much faster in solids like steel than in air, so Statement 1 is not true. Picking 'both statements are true' is tempting because we usually hear sounds through air, but sound travels faster in steel.",
     },
   },
   {

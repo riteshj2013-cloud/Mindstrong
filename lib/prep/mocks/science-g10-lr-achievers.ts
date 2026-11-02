@@ -161,7 +161,7 @@ export const G10_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "a",
       hints: ["Check each one on its own. Then trace light from the dipped part of the pencil to your eye.", "Does that light cross the water surface on its way to the eye?"],
-      explanation: "Both are true. Light from the part of the pencil under water bends away from the normal as it leaves the water, so that part seems raised and the pencil looks bent. So Statement 2 explains Statement 1.",
+      explanation: "Both are true. Light from the part of the pencil under water bends away from the normal as it leaves the water, so that part seems raised and the pencil looks bent. So Statement 2 explains Statement 1. Picking 'both true, but Statement 2 does not explain Statement 1' is tempting, but light bending at the water surface is exactly why the pencil looks bent.",
     },
   },
   {
@@ -201,7 +201,7 @@ export const G10_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "d",
       hints: ["Check each one on its own. Which side of the heart receives blood from the body?", "Count the upper and lower chambers on each side of the heart."],
-      explanation: "The heart has four chambers, two atria and two ventricles, so Statement 2 is true. The right side receives oxygen-poor blood and pumps it to the lungs; the left side pumps oxygen-rich blood to the body, so Statement 1 is false.",
+      explanation: "The heart has four chambers, two atria and two ventricles, so Statement 2 is true. The right side receives oxygen-poor blood and pumps it to the lungs; the left side pumps oxygen-rich blood to the body, so Statement 1 is false. Picking 'both statements are true' is tempting because the heart does pump oxygen-rich blood to the body, but it is the left side that does this, not the right.",
     },
   },
   {

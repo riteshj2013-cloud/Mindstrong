@@ -163,7 +163,7 @@ export const G5_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "a",
       hints: ["Walk round a chair while always facing it. How many times does your body turn?", "Check each one on its own, then see whether the matching times give a reason."],
-      explanation: "Both are true. The Moon spins once in the same time it takes to go round the Earth once, about 27 days, so the same side always faces us. So Statement 2 explains Statement 1.",
+      explanation: "Both are true. The Moon spins once in the same time it takes to go round the Earth once, about 27 days, so the same side always faces us. So Statement 2 explains Statement 1. Picking 'both true, but Statement 2 does not explain Statement 1' is tempting, but the matching times are exactly why the same side always faces us.",
     },
   },
   {
@@ -183,7 +183,7 @@ export const G5_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "c",
       hints: ["Feel your chest. What hard bones curve round your lungs?", "Which bones move up and down when you chew? Are they in the chest?"],
-      explanation: "The rib cage curves round the lungs and heart and protects them, so Statement 1 is true. We chew with our jaw bones, not our ribs, so Statement 2 is not true.",
+      explanation: "The rib cage curves round the lungs and heart and protects them, so Statement 1 is true. We chew with our jaw bones, not our ribs, so Statement 2 is not true. Picking 'both statements are true' is tempting because ribs and jaws are both bones, but only the jaw helps us chew.",
     },
   },
   {
@@ -203,7 +203,7 @@ export const G5_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "d",
       hints: ["Picture dropping an iron nail into a bucket of water. Does it stay at the top?", "Things that are heavier than the same amount of water sink in water."],
-      explanation: "Iron is heavier than the same amount of water, so Statement 2 is true. Because of this, an iron nail sinks; it does not float. So Statement 1 is not true. Big iron ships float only because their hollow shape holds a lot of air.",
+      explanation: "Iron is heavier than the same amount of water, so Statement 2 is true. Because of this, an iron nail sinks; it does not float. So Statement 1 is not true. Big iron ships float only because their hollow shape holds a lot of air. Picking 'both statements are true' is tempting if you think of huge iron ships, but a solid iron nail sinks.",
     },
   },
   {

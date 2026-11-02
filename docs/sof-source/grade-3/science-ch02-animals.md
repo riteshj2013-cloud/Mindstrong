@@ -86,14 +86,14 @@ D) Snake
 **Explanation:** A cow eats grass and leaves. It does not eat other animals, so it is a herbivore.
 
 ### Q2
-**Stem:** What do we call animals that eat only plants?
+**Stem:** Deer, cows and goats spend the day munching grass and leaves, and they never eat meat. Which word describes all three of them?
 **Options:**
 A) Herbivores
 B) Carnivores
 C) Omnivores
 D) Insects
 **Answer:** A
-**Explanation:** Herbivores are plant eaters. Cows, goats and deer are herbivores.
+**Explanation:** Deer, cows and goats eat only plants, so they are herbivores. Omnivores is tempting because many animals eat plants, but omnivores also eat meat.
 
 ### Q3 · Pictorial
 **Diagram (SVG):**

@@ -162,7 +162,7 @@ export const G9_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "a",
       hints: ["Where does the heat come from that turns sweat into vapour?", "Check each one on its own, then ask whether evaporation gives the reason for the cool feeling."],
-      explanation: "Both are true. Sweat needs heat (latent heat) to evaporate and takes it from the skin, so the skin cools. A breeze speeds up evaporation. So Statement 2 explains Statement 1.",
+      explanation: "Both are true. Sweat needs heat (latent heat) to evaporate and takes it from the skin, so the skin cools. A breeze speeds up evaporation. So Statement 2 explains Statement 1. Picking 'both true, but Statement 2 does not explain Statement 1' is tempting, but sweat taking heat from the skin as it evaporates is exactly why we feel cool.",
     },
   },
   {
@@ -182,7 +182,7 @@ export const G9_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "d",
       hints: ["Velocity has both size and direction. If only the direction changes, does the velocity change?", "Check each one on its own. Does a stone whirled on a string keep moving in one direction?"],
-      explanation: "In circular motion the direction keeps changing, so Statement 2 is true. A change in direction means the velocity changes, so the body is accelerating even at constant speed. So Statement 1 is not true.",
+      explanation: "In circular motion the direction keeps changing, so Statement 2 is true. A change in direction means the velocity changes, so the body is accelerating even at constant speed. So Statement 1 is not true. Picking 'Statement 1 is true' is tempting because the speed stays the same, but velocity includes direction, and the direction keeps changing.",
     },
   },
   {
@@ -202,7 +202,7 @@ export const G9_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "b",
       hints: ["Check each one on its own. What does each of these two cell organelles do?", "A reason must say why mitochondria are a powerhouse. Does a fact about ribosomes do that?"],
-      explanation: "Both are true. Mitochondria release energy from food, so they are the powerhouse of the cell, and ribosomes make proteins. But making proteins is not why mitochondria are called the powerhouse, so Statement 2 does not explain Statement 1.",
+      explanation: "Both are true. Mitochondria release energy from food, so they are the powerhouse of the cell, and ribosomes make proteins. But making proteins is not why mitochondria are called the powerhouse, so Statement 2 does not explain Statement 1. Picking 'Statement 2 explains Statement 1' is tempting because both are true facts about the cell, but ribosomes making proteins does not explain why mitochondria give energy.",
     },
   },
   {

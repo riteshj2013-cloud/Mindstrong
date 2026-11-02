@@ -196,7 +196,7 @@ export const G4_SCIENCE_HINTS: Record<string, HintOverlay> = {
   "g4-sci-plants-b-q24": ["Start with a seed \u2014 what is the growing order toward new seeds?"],
   "g4-sci-animals-a-q01": ["What word means the natural home where an animal lives and finds food?"],
   "g4-sci-animals-a-q02": ["Which animal breathes with gills and swims with fins?"],
-  "g4-sci-animals-a-q03": ["Plant-only eaters have which -vore name?"],
+  "g4-sci-animals-a-q03": ["Sort the elephant's foods: grass, leaves, bark, fruit. Do any of them come from an animal?"],
   "g4-sci-animals-a-q04": ["Meat-eating hunters are called what?"],
   "g4-sci-animals-a-q05": ["Which group eats both plants and animal food?"],
   "g4-sci-animals-a-q06": ["What desert trick does a camel's hump help with?"],

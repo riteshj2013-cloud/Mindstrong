@@ -162,7 +162,7 @@ export const G7_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "a",
       hints: ["Think about why fluffy woollen fibres stop body heat from escaping in winter.", "Check each one on its own, then ask whether trapped air gives the reason for the warmth."],
-      explanation: "Both are true. Air trapped between the wool fibres is a poor conductor, so it slows the loss of body heat. That is why woollens keep us warm, so Statement 2 explains Statement 1.",
+      explanation: "Both are true. Air trapped between the wool fibres is a poor conductor, so it slows the loss of body heat. That is why woollens keep us warm, so Statement 2 explains Statement 1. Picking 'both true, but Statement 2 does not explain Statement 1' is tempting, but the trapped air is exactly why woollens keep our body heat in.",
     },
   },
   {
@@ -182,7 +182,7 @@ export const G7_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "d",
       hints: ["Cuscuta is a yellow, leafless climber. Can it make food without green leaves?", "Check each one on its own. Where does Cuscuta get its food from?"],
-      explanation: "Cuscuta (amarbel) has no green leaves, so it cannot make food by photosynthesis; Statement 1 is not true. It is a parasite that takes food from the host plant it climbs on, so Statement 2 is true.",
+      explanation: "Cuscuta (amarbel) has no green leaves, so it cannot make food by photosynthesis; Statement 1 is not true. It is a parasite that takes food from the host plant it climbs on, so Statement 2 is true. Picking 'Statement 1 is true' is tempting because most plants make their own food, but Cuscuta has no green leaves and cannot.",
     },
   },
   {
@@ -202,7 +202,7 @@ export const G7_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "b",
       hints: ["Check each one on its own. What is in vinegar, and what kind of substance is sodium hydroxide?", "A reason has to answer why sodium hydroxide is a base. Does a fact about vinegar do that?"],
-      explanation: "Both are true. Sodium hydroxide is a base, and vinegar contains acetic acid. But a fact about vinegar cannot be the reason sodium hydroxide is a base, so Statement 2 does not explain Statement 1.",
+      explanation: "Both are true. Sodium hydroxide is a base, and vinegar contains acetic acid. But a fact about vinegar cannot be the reason sodium hydroxide is a base, so Statement 2 does not explain Statement 1. Picking 'Statement 2 explains Statement 1' is tempting because both are true facts about acids and bases, but one does not cause the other.",
     },
   },
   {

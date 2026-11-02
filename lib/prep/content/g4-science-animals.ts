@@ -31,7 +31,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-sci-animals-a-q03",
-    prompt: "Animals that eat only plants are called ______.",
+    prompt: "An elephant eats grass, leaves, bark and fruit, and never eats meat. Going by its food, an elephant is a ______.",
     options: [
       { id: "a", text: "Carnivores" },
       { id: "b", text: "Omnivores" },
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Producers" }
     ],
     answerId: "c",
-    explanation: "Herbivores eat plants. Cows, deer and goats are herbivores.",
+    explanation: "An elephant eats only plant parts, so it is a herbivore. Producers is tempting because plants are its food, but producers are the green plants that make their own food, and an elephant cannot do that.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

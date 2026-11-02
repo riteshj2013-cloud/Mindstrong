@@ -163,7 +163,7 @@ export const G3_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "a",
       hints: ["Think about why a bird that digs into hard tree bark needs a strong beak.", "Check each one on its own, then ask whether the use of the beak gives a reason for its shape."],
-      explanation: "Both are true. A woodpecker pecks holes in hard bark to find insects to eat, and a strong, sharp beak is needed for this job. So Statement 2 explains Statement 1.",
+      explanation: "Both are true. A woodpecker pecks holes in hard bark to find insects to eat, and a strong, sharp beak is needed for this job. So Statement 2 explains Statement 1. Picking 'both true, but Statement 2 does not explain Statement 1' is tempting, but pecking holes in hard bark is exactly why the beak must be strong and sharp.",
     },
   },
   {
@@ -183,7 +183,7 @@ export const G3_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "c",
       hints: ["What tiny parts on the tongue sense sweet, sour, salty and bitter?", "Check each one on its own. Can the tongue taste food without those tiny parts?"],
-      explanation: "The tongue does help us taste, so Statement 1 is true. It tastes food using thousands of tiny taste buds, so Statement 2 is not true. Both cannot be true together.",
+      explanation: "The tongue does help us taste, so Statement 1 is true. It tastes food using thousands of tiny taste buds, so Statement 2 is not true. Both cannot be true together. Picking 'both statements are true' is tempting if you read quickly, but the word 'no' makes Statement 2 false.",
     },
   },
   {
@@ -203,7 +203,7 @@ export const G3_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "d",
       hints: ["Where do you see frogs hopping in the rainy season?", "Check each one on its own: where a frog lives, and how a frog can take in air."],
-      explanation: "A frog can take in air through its moist skin, so Statement 2 is true. But a frog lives both in water and on land, so Statement 1 is not true. Breathing through skin helps it in water, but it also uses lungs on land.",
+      explanation: "A frog can take in air through its moist skin, so Statement 2 is true. But a frog lives both in water and on land, so Statement 1 is not true. Breathing through skin helps it in water, but it also uses lungs on land. Picking 'Statement 1 is true' is tempting because frogs are often seen in ponds, but they also live on land.",
     },
   },
   {

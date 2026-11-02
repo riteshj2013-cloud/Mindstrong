@@ -163,7 +163,7 @@ export const G2_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "a",
       hints: ["Think about where the water in wet clothes goes as they dry.", "Check whether the sun and the wind help clothes dry faster, and how."],
-      explanation: "Both are true. Sun and wind help the water in wet clothes go into the air, so clothes dry faster on a sunny, windy day. So 2 tells why 1 happens.",
+      explanation: "Both are true. Sun and wind help the water in wet clothes go into the air, so clothes dry faster on a sunny, windy day. So 2 tells why 1 happens. Picking 'both are true, but 2 does not tell why 1 happens' is tempting, but the sun and the wind are exactly why the clothes dry faster.",
     },
   },
   {
@@ -183,7 +183,7 @@ export const G2_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "b",
       hints: ["Why is it good to turn off the tap? Think of water going down the drain.", "Does boiling water give a reason for turning off the tap while brushing?"],
-      explanation: "Both are true. We turn off the tap to save water. Water does boil when heated, but that has nothing to do with saving water, so 2 does not tell why 1 happens.",
+      explanation: "Both are true. We turn off the tap to save water. Water does boil when heated, but that has nothing to do with saving water, so 2 does not tell why 1 happens. Picking '2 tells why 1 happens' is tempting because both sentences are true, but boiling water is not the reason we save it.",
     },
   },
   {
@@ -203,7 +203,7 @@ export const G2_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "d",
       hints: ["Think of a big bird that runs fast but never flies.", "Check each part on its own. Do all birds have feathers? Do all birds fly?"],
-      explanation: "Every bird has feathers, so Sentence 2 is true. But not all birds can fly; an ostrich and a penguin cannot. So Sentence 1 is not true. Feathers alone do not make every bird fly.",
+      explanation: "Every bird has feathers, so Sentence 2 is true. But not all birds can fly; an ostrich and a penguin cannot. So Sentence 1 is not true. Feathers alone do not make every bird fly. Picking 'both are true' is tempting because most birds fly, but Sentence 1 says every bird can fly.",
     },
   },
   {

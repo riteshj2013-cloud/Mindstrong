@@ -19,7 +19,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-sci-plants-a-q02",
-    prompt: "Which part of a plant makes food for the plant?",
+    prompt: "Sunlight falls on a mango tree all day. In which part does the tree use sunlight, air and water to make its food?",
     options: [
       { id: "a", text: "Root" },
       { id: "b", text: "Seed" },
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Leaf" }
     ],
     answerId: "d",
-    explanation: "Leaves are the plant's kitchen. They make food using sunlight, air and water.",
+    explanation: "The leaf is the plant's kitchen: it uses sunlight, air and water to make food. The stem is tempting because it carries water up the tree, but it only moves water and food; it does not make food.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

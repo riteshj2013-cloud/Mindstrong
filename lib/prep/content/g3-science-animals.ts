@@ -18,7 +18,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-sci-animals-a-q02",
-    prompt: "What do we call animals that eat only plants?",
+    prompt: "Deer, cows and goats spend the day munching grass and leaves, and they never eat meat. Which word describes all three of them?",
     options: [
       { id: "a", text: "Herbivores" },
       { id: "b", text: "Carnivores" },
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Insects" }
     ],
     answerId: "a",
-    explanation: "Herbivores are plant eaters. Cows, goats and deer are herbivores.",
+    explanation: "Deer, cows and goats eat only plants, so they are herbivores. Omnivores is tempting because many animals eat plants, but omnivores also eat meat.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {

@@ -3,7 +3,7 @@ import type { HintOverlay } from "./types";
 /** Grade 3 Science item-specific hints (overlay; survives content re-ingest) */
 export const G3_SCIENCE_HINTS: Record<string, HintOverlay> = {
   "g3-sci-animals-a-q01": ["Animals that eat only plants are herbivores."],
-  "g3-sci-animals-a-q02": ["Animals that eat only plants are herbivores."],
+  "g3-sci-animals-a-q02": ["Think about what these three animals eat and what they never eat."],
   "g3-sci-animals-a-q03": ["Look at the animal or arrows in the figure; match food or home."],
   "g3-sci-animals-a-q04": ["Match the animal to its natural home: land, water, trees, or burrow."],
   "g3-sci-animals-a-q05": ["Match the animal to its natural home: land, water, trees, or burrow."],

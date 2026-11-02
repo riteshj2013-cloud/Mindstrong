@@ -203,7 +203,7 @@ export const G1_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "b",
       hints: ["Think about what soap takes off our hands before a meal.", "A reason must answer: why wash before eating? Read the second one with that question in mind."],
-      explanation: "Both are true. We wash hands with soap to remove germs and dirt before eating. Having ten fingers is true, but it is not the reason we wash our hands, so 2 does not tell why 1 happens.",
+      explanation: "Both are true. We wash hands with soap to remove germs and dirt before eating. Having ten fingers is true, but it is not the reason we wash our hands, so 2 does not tell why 1 happens. Picking '2 tells why 1 happens' is tempting because both sentences are true, but having ten fingers is not why we wash them; germs are.",
     },
   },
   {

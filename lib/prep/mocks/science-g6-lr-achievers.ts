@@ -163,7 +163,7 @@ export const G6_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "a",
       hints: ["Think about what cotton does with sweat on a hot, humid day.", "Check each one on its own, then ask whether the way cotton handles sweat gives the reason for comfort."],
-      explanation: "Both are true. Cotton absorbs sweat and lets it evaporate, and evaporation cools the body. That is why cotton is comfortable in hot, humid weather, so Statement 2 explains Statement 1.",
+      explanation: "Both are true. Cotton absorbs sweat and lets it evaporate, and evaporation cools the body. That is why cotton is comfortable in hot, humid weather, so Statement 2 explains Statement 1. Picking 'both true, but Statement 2 does not explain Statement 1' is tempting, but soaking up sweat and letting it dry is exactly why cotton feels comfortable.",
     },
   },
   {
@@ -183,7 +183,7 @@ export const G6_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "d",
       hints: ["Picture a few drops of oil poured into a glass of water. Where do they go?", "Check each one on its own. Does the oil stay mixed, or does it form a layer?"],
-      explanation: "Oil is lighter than water, so Statement 2 is true. Oil and water do not mix; the oil forms a separate layer on top, so Statement 1 is not true. Being lighter is why the oil floats, but it does not make the two mix.",
+      explanation: "Oil is lighter than water, so Statement 2 is true. Oil and water do not mix; the oil forms a separate layer on top, so Statement 1 is not true. Being lighter is why the oil floats, but it does not make the two mix. Picking 'both statements are true' is tempting because oil and water sit in one glass, but they stay in two separate layers.",
     },
   },
   {
@@ -203,7 +203,7 @@ export const G6_SCIENCE_LR_ACHIEVERS: MockAddendumItem[] = [
       ],
       answerId: "c",
       hints: ["Think about which nutrient builds and repairs muscles and other body parts.", "Fats give us energy. Is that the same as building the body?"],
-      explanation: "Children need protein to grow and repair their bodies, so Statement 1 is true. Proteins, not fats, are the body-building foods; fats mainly give energy, so Statement 2 is not true.",
+      explanation: "Children need protein to grow and repair their bodies, so Statement 1 is true. Proteins, not fats, are the body-building foods; fats mainly give energy, so Statement 2 is not true. Picking 'both statements are true' is tempting because fats are an important food, but they mainly give energy, not body-building.",
     },
   },
   {
