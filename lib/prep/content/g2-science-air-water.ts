@@ -416,7 +416,7 @@ const SET_B: PrepQuestion[] = [
       { id: "a", text: "dirtier" },
       { id: "b", text: "saltier" },
       { id: "c", text: "colder" },
-      { id: "d", text: "safer to drink when advised" }
+      { id: "d", text: "safer to drink" }
     ],
     answerId: "d",
     explanation: "Boiling water kills germs, which can make it safer to drink. 'Colder' is tempting because we let boiled water cool before drinking, but boiling makes water hot; it is the boiling that kills the germs.",

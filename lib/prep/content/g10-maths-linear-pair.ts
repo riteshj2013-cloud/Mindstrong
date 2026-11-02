@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "a straight line" }
     ],
     answerId: "d",
-    explanation: "ax+by+c=0 graphs as a straight line.",
+    explanation: "Any equation ax + by + c = 0 graphs as a straight line. 'A parabola' is tempting because it is a familiar curve, but a parabola needs an x² term; a linear equation has none.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "no solution" }
     ],
     answerId: "b",
-    explanation: "Second is 2\u00d7 the first: coincident lines.",
+    explanation: "2x + 2y = 10 is just 2 × (x + y = 5), so both equations draw the same line and every point on it is a solution. 'Unique solution' is tempting because most pairs meet once, but these lines coincide rather than cross.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(2, 5)" }
     ],
     answerId: "b",
-    explanation: "Add: 2x=8 \u2192 x=4; y=3.",
+    explanation: "Adding gives 2x = 8, so x = 4 and y = 3; check: 4 − 3 = 1. (3, 4) is tempting because it uses the same numbers, but 3 − 4 = −1, not 1.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "a",
-    explanation: "2y+1+y=7 \u2192 3y=6 \u2192 y=2.",
+    explanation: "Substitute: 2y + 1 + y = 7, so 3y = 6 and y = 2 (then x = 5). 3 is tempting, but y = 3 gives x = 7 and 7 + 3 = 10, not 7.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "parallel to the x-axis" }
     ],
     answerId: "b",
-    explanation: "x=3 is a vertical line, parallel to y-axis.",
+    explanation: "Every point on x = 3 has x-coordinate 3, so the line is vertical, parallel to the y-axis. 'Parallel to the x-axis' is tempting because the equation mentions x, but fixing x makes the line vertical, not horizontal.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "the x-axis" }
     ],
     answerId: "d",
-    explanation: "All points with y-coordinate 0 form the x-axis.",
+    explanation: "All points with y-coordinate 0 lie on the x-axis. 'The y-axis' is tempting because the equation is in y, but the y-axis is x = 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6" }
     ],
     answerId: "a",
-    explanation: "x-int 4, y-int 6; product 24.",
+    explanation: "Put y = 0: x = 4, so OA = 4; put x = 0: y = 6, so OB = 6. OA·OB = 24. 12 is tempting because it is the constant in the equation, but the product of the intercepts is 4 × 6 = 24.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "unique solution (0,3)" }
     ],
     answerId: "b",
-    explanation: "Second = 3\u00d7 first: dependent equations.",
+    explanation: "9x − 3y = 9 is 3 × (3x − y = 3), so both describe one line and there are infinitely many solutions. 'Unique solution (1, 0)' is tempting because (1, 0) does satisfy both, but so does every other point on the line.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(5, 2.5)" }
     ],
     answerId: "b",
-    explanation: "x=2y; 6y+4y=20 \u2192 10y=20 \u2192 y=2, x=4.",
+    explanation: "From x = 2y: 6y + 4y = 20, so y = 2 and x = 4. (2, 4) is tempting because it swaps the same numbers, but 2 − 2(4) = −6, not 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "parallel" }
     ],
     answerId: "d",
-    explanation: "Same slope 2, different intercepts \u21d2 parallel.",
+    explanation: "Both lines have slope 2 but different intercepts (1 and −4), so they are parallel and never meet. 'Coincident' is tempting because the slopes match, but coincident lines also need the same intercept.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -221,7 +221,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "only positive x" }
     ],
     answerId: "c",
-    explanation: "Depending on ratios of coefficients.",
+    explanation: "Depending on the ratios of the coefficients, a pair can meet once, never meet (parallel) or coincide. 'Only unique solutions' is tempting because many textbook pairs meet once, but parallel and coincident pairs also occur.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -247,7 +247,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "unique (1,1)" }
     ],
     answerId: "c",
-    explanation: "Second = 2\u00d7 first exactly.",
+    explanation: "4x + 6y − 18 = 0 is exactly 2 × the first equation, so the pair is dependent with infinitely many solutions. 'Unique (0, 3)' is tempting because (0, 3) satisfies both, but it is only one of infinitely many common points.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -260,7 +260,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "b = 0" }
     ],
     answerId: "a",
-    explanation: "Plug (0,0): c=0.",
+    explanation: "Putting x = 0, y = 0 gives c = 0, so the line passes through the origin exactly when c = 0. 'a = 0' is tempting, but a = 0 only makes the line horizontal; it can still miss the origin.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -268,12 +268,12 @@ const SET_A: PrepQuestion[] = [
     prompt: "For equations x/2 + y/3 = 1 and x/3 + y/2 = 1, multiply by 6 to clear denominators. System becomes \u2014",
     options: [
       { id: "a", text: "x + y = 1 and x + y = 1" },
-      { id: "b", text: "2x+3y=6 and 3x+2y=6" },
+      { id: "b", text: "x/2 + y/3 = 6 and x/3 + y/2 = 6" },
       { id: "c", text: "3x + 2y = 6 and 2x + 3y = 6" },
       { id: "d", text: "3x+2y=1 and 2x+3y=1" }
     ],
     answerId: "c",
-    explanation: "\u00d76: 3x+2y=6 and 2x+3y=6.",
+    explanation: "Multiply each by 6: x/2 + y/3 = 1 becomes 3x + 2y = 6 and x/3 + y/2 = 1 becomes 2x + 3y = 6. '3x+2y=1 and 2x+3y=1' is tempting because the left sides are right, but the right-hand side 1 must be multiplied by 6 too.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -286,7 +286,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "c",
-    explanation: "\u00d73 and \u00d72: 9x+6y=18, 4x+6y=12 \u2192 5x=6 \u2192 x=6/5.",
+    explanation: "Multiply by 3 and 2: 9x + 6y = 18 and 4x + 6y = 12; subtract to get 5x = 6, so x = 6/5. 1 is tempting by symmetry (x = y = 1), but 3 + 2 = 5, not 6.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -299,7 +299,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(24, 8)" }
     ],
     answerId: "a",
-    explanation: "f=3s; 3s+12=2(s+12) \u2192 3s+12=2s+24 \u2192 s=12, f=36.",
+    explanation: "f = 3s and 3s + 12 = 2(s + 12) give s = 12, f = 36. (30, 10) is tempting because 30 is 3 × 10, but in 12 years they are 42 and 22, and 42 is not twice 22.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "no graph" }
     ],
     answerId: "a",
-    explanation: "x=2 is vertical; y=3 is horizontal; they meet at (2,3).",
+    explanation: "x = 2 is a vertical line and y = 3 is a horizontal line; together they meet at (2, 3). 'A single line' is tempting because each equation alone is a line, but here there are two different lines.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
 ];
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "c",
-    explanation: "Need a1/a2=b1/b2=c1/c2 \u2192 2/4=1/2=(\u22123)/(\u2212k) \u2192 1/2=3/k \u2192 k=6.",
+    explanation: "Coincident lines need 2/4 = (−1)/(−2) = (−3)/(−k), so 1/2 = 3/k and k = 6. 3 is tempting because it copies the first constant, but the second equation is double the first, so its constant must be 6.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "6" }
     ],
     answerId: "d",
-    explanation: "Parallel when a1/a2=b1/b2\u2260c1/c2, so k\u22606.",
+    explanation: "Parallel lines need a1/a2 = b1/b2 ≠ c1/c2; with k = 6 the lines coincide, so k ≠ 6. 3 is tempting because it matches the first constant, but k = 3 still gives parallel lines.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "a",
-    explanation: "Intercepts 4 and 3; area = (1/2)\u00d74\u00d73=6.",
+    explanation: "3x + 4y = 12 meets the axes at (4, 0) and (0, 3), so the area is (1/2) × 4 × 3 = 6. 12 is tempting, but that is 4 × 3 without the half.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "11" }
     ],
     answerId: "c",
-    explanation: "Sum of left sides equals 17+6=23; simplifies to 5x+y.",
+    explanation: "Adding the two equations adds their right sides: 17 + 6 = 23. 11 is tempting if you subtract, but the question adds the left sides, so the right sides add too.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3/5" }
     ],
     answerId: "c",
-    explanation: "From the two conditions, n=3 and d=7.",
+    explanation: "Let the fraction be n/d: (n+1)/(d+1) = 1/2 gives d = 2n + 1, and (n−1)/(d−1) = 1/3 gives d = 3n − 2, so n = 3 and d = 7. 3/5 is tempting because it has the right numerator, but (3+1)/(5+1) = 2/3, not 1/2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "F = 7d + 8" }
     ],
     answerId: "a",
-    explanation: "F=15+8(d\u22121)=8d+7.",
+    explanation: "The first km costs ₹15 and the other (d − 1) km cost ₹8 each: F = 15 + 8(d − 1) = 8d + 7. F = 8d + 15 is tempting, but it charges ₹8 for the first km on top of the ₹15.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "a1a2 + b1b2 = 0" }
     ],
     answerId: "d",
-    explanation: "Slopes m1=\u2212a1/b1, m2=\u2212a2/b2; m1m2=\u22121 \u21d2 a1a2+b1b2=0.",
+    explanation: "Slopes are −a1/b1 and −a2/b2; perpendicular means their product is −1, which gives a1a2 + b1b2 = 0. a1/a2 = b1/b2 is tempting, but that is the condition for parallel lines.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -432,7 +432,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "only (0,1/2)" }
     ],
     answerId: "c",
-    explanation: "Identical equations \u21d2 every point of the line.",
+    explanation: "The two equations are identical, so every point on 3x + 2y − 1 = 0 satisfies both. 'Only (1/3, 0)' is tempting because that point does lie on the line, but so do infinitely many others.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -445,7 +445,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x=5" }
     ],
     answerId: "b",
-    explanation: "Add: 3x=9 \u2192 x=3; from x+y=5, y=2.",
+    explanation: "Adding cancels y: 3x = 9, so x = 3, and then y = 5 − 3 = 2. x = 5 is tempting because 5 is on the right of the first equation, but then y = 0 and 2(5) − 0 = 10, not 4.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -458,7 +458,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "(1, \u22121)" }
     ],
     answerId: "b",
-    explanation: "3\u22121=2 and 6+1=7.",
+    explanation: "(3, 1) works in both: 3 − 1 = 2 and 6 + 1 = 7. (2, 0) is tempting because 2 − 0 = 2, but 2(2) + 0 = 4, not 7.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -484,7 +484,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "(0,0) only" }
     ],
     answerId: "b",
-    explanation: "Axis intercepts are 4 and 4.",
+    explanation: "Put x = 0 to get y = 4 and y = 0 to get x = 4, so the line passes through (0, 4) and (4, 0). (2, 3) is tempting because it looks central, but 2 + 3 = 5, not 4.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -497,7 +497,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "origin" }
     ],
     answerId: "a",
-    explanation: "Unique solution = unique intersection.",
+    explanation: "A consistent independent pair has exactly one common solution: the point where the two lines cross. 'Any point on either line' is tempting, but a point on only one line fails the other equation.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -510,7 +510,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "d",
-    explanation: "Subtract: 2x=6 \u2192 x=3; then y=1.",
+    explanation: "Subtracting the first from the second gives 2x = 6, so x = 3 and then y = 1. 1 is tempting, but that is the value of y, not x.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -523,7 +523,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "solution (1,1)" }
     ],
     answerId: "a",
-    explanation: "Determinant  \u22122\u22123=\u22125\u22600, only trivial solution.",
+    explanation: "The coefficient determinant is √2(−√2) − √3·√3 = −5 ≠ 0, so the only solution is (0, 0). (1, 1) is tempting, but √2 + √3 is not 0.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -549,7 +549,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "b",
-    explanation: "Need 2/4 = 1/k = 3/6 \u2192 k=2.",
+    explanation: "Coincident lines need 2/4 = (−1)/(−k) = 3/6, so 1/k = 1/2 and k = 2. 4 is tempting because 4 already appears as a coefficient, but k = 4 makes 1/k = 1/4, not 1/2.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -562,7 +562,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "b",
-    explanation: "|\u22125\u2212(\u221215)|/5 = 10/5=2.",
+    explanation: "Distance = |c1 − c2|/√(a² + b²) = |−5 + 15|/√(9 + 16) = 10/5 = 2. 10 is tempting, but it forgets to divide by √(3² + 4²) = 5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -601,7 +601,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "d",
-    explanation: "1/5 = 2/k = 3/15 \u2192 k=10.",
+    explanation: "Infinitely many solutions need 1/5 = 2/k = 3/15, so k = 10. 5 is tempting because it matches the x-coefficient, but 2/5 is not 1/5.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -614,7 +614,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "no solution" }
     ],
     answerId: "a",
-    explanation: "Second equation is exactly twice the first.",
+    explanation: "6x + 8y = 20 is exactly 2 × (3x + 4y = 10), so the lines coincide and there are infinitely many solutions. 'No solution' is tempting because the coefficients are in ratio, but the constants are in the same ratio too.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

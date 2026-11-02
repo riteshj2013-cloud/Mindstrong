@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "past perfect" }
     ],
     answerId: "b",
-    explanation: "have/has + past participle = present perfect.",
+    explanation: "'Have finished' is have/has + past participle, which is the present perfect. 'Simple past' is tempting because the action is complete, but the simple past would be 'They finished'.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Meal cooks" }
     ],
     answerId: "a",
-    explanation: "Object becomes subject; be + V3 + by-agent.",
+    explanation: "In the passive, the object 'the meal' becomes the subject: is + cooked + by the chef. 'The chef is cooked by the meal' is tempting because it uses the passive pattern, but it swaps the doer and the thing done.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "He don't likes tea" }
     ],
     answerId: "b",
-    explanation: "Third person singular: does not / doesn't + base verb.",
+    explanation: "With he/she/it we use doesn't + base verb: 'He doesn't like tea'. 'He doesn't likes tea' is tempting because 'he' usually takes -s, but after doesn't the verb stays in its base form.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "As soon he arrives begins" }
     ],
     answerId: "c",
-    explanation: "No sooner + auxiliary + subject\u2026 than\u2026",
+    explanation: "'No sooner did he arrive than the meeting began' keeps the meaning and uses the correct pattern (no sooner + did + subject… than). 'Hardly he arrive' is tempting because hardly also shows quick timing, but it needs 'had he arrived… when' to be correct.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Stolen my bicycle someone" }
     ],
     answerId: "a",
-    explanation: "Past simple passive: was/were + V3.",
+    explanation: "The past simple passive is was/were + past participle: 'My bicycle was stolen'. 'My bicycle is stealing' is tempting because it starts with the bicycle, but it is active and present, as if the bicycle were the thief.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -221,7 +221,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "reads" }
     ],
     answerId: "b",
-    explanation: "Enjoy takes a gerund (V-ing).",
+    explanation: "'Enjoy' is followed by a gerund: 'She enjoys reading novels'. 'Read' is tempting because it is the base verb, but 'enjoys read' is ungrammatical.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -299,7 +299,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "to buy" }
     ],
     answerId: "d",
-    explanation: "to + verb expresses purpose.",
+    explanation: "The to-infinitive shows purpose: 'He went to the shop to buy milk'. 'For buying' is tempting because 'for' can show purpose, but with a verb of purpose standard English uses 'to buy'.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "past perfect + simple past" }
     ],
     answerId: "d",
-    explanation: "Earlier past = past perfect; later past = simple past.",
+    explanation: "'Had left' is past perfect (the earlier action) and 'arrived' is simple past (the later one). 'Present perfect' is tempting because both use have/had + past participle, but present perfect uses have/has, not had.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "A flyover is being built" }
     ],
     answerId: "d",
-    explanation: "Present continuous passive: is/are being + V3.",
+    explanation: "Present continuous passive is is/are + being + past participle: 'A flyover is being built'. 'A flyover builds' is tempting because the flyover is the subject, but it is active, as if the flyover built something.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "whose" }
     ],
     answerId: "b",
-    explanation: "That/which for things; object of about.",
+    explanation: "For a thing, the relative pronoun is that or which: 'the book that I told you about'. 'Whom' is tempting because it is used for objects, but whom refers only to people.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "passes" }
     ],
     answerId: "a",
-    explanation: "If + past perfect, would have + V3.",
+    explanation: "A third conditional uses If + past perfect, then would have + past participle: 'she would have passed'. 'Will pass' is tempting because it is a common future form, but it belongs to the first conditional about real future events.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "She suggested go home" }
     ],
     answerId: "b",
-    explanation: "Suggest + gerund (not to-infinitive).",
+    explanation: "'Suggest' takes a gerund, so 'She suggested going home' is correct. 'She suggested to going' is tempting because it keeps the -ing, but 'to' should not be there.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "By whom was this letter written?" }
     ],
     answerId: "d",
-    explanation: "Passive interrogative with by whom / who\u2026by.",
+    explanation: "The passive question is 'By whom was this letter written?' (by whom + was + subject + past participle). 'Who was this letter wrote?' is tempting because it is close, but 'wrote' must be the past participle 'written', and 'by' is missing.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -432,7 +432,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "called in" }
     ],
     answerId: "a",
-    explanation: "Call off = cancel.",
+    explanation: "'Called off' means cancelled, which fits a meeting stopped by rain. 'Called on' is tempting because it uses the same verb, but call on means to visit someone.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -445,7 +445,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "have" }
     ],
     answerId: "d",
-    explanation: "Agree with the nearer subject (students \u2192 have).",
+    explanation: "With either… or, the verb agrees with the nearer subject: 'the students' is plural, so 'have'. 'Has' is tempting because 'the teacher' is singular, but the teacher is the farther subject.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -458,7 +458,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "sitting down" }
     ],
     answerId: "b",
-    explanation: "Tell + object + to-infinitive.",
+    explanation: "A reported command uses tell + object + to-infinitive: 'told us to sit down'. 'That sit down' is tempting because reported statements often use 'that', but commands take 'to' + verb.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -484,7 +484,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "with" }
     ],
     answerId: "a",
-    explanation: "Congratulate someone on something.",
+    explanation: "We congratulate someone 'on' something: 'congratulated me on my success'. 'About' is tempting because it often introduces a topic, but congratulate is followed by 'on'.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -497,7 +497,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "which" }
     ],
     answerId: "a",
-    explanation: "It was X who\u2026 for people.",
+    explanation: "In a cleft sentence about a person we use 'who': 'It was Riya who solved the puzzle'. 'Whom' is tempting because it also refers to people, but here the relative pronoun is the subject of 'solved', so it must be 'who'.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -549,7 +549,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "This must being finish" }
     ],
     answerId: "a",
-    explanation: "modal + be + V3.",
+    explanation: "A passive with a modal is modal + be + past participle: 'This must be finished'. 'This must finished' is tempting because it has the past participle, but it leaves out 'be'.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -588,7 +588,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "are" }
     ],
     answerId: "c",
-    explanation: "Subject names like Mathematics take singular.",
+    explanation: "'Mathematics' names one subject, so it takes a singular verb: 'is'. 'Are' is tempting because the word ends in -s, but it is not a plural here.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -601,7 +601,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "because" }
     ],
     answerId: "c",
-    explanation: "Contrast between wealth and unhappiness.",
+    explanation: "Being rich and not being happy contrast, so a contrast word like 'yet' fits. 'Therefore' is tempting because it joins two clauses, but it shows a result, and unhappiness does not follow from being rich.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -614,7 +614,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "for working" }
     ],
     answerId: "c",
-    explanation: "too + adj + to-infinitive.",
+    explanation: "'Too + adjective + to-infinitive' shows she cannot do something: 'too tired to work'. 'For working' is tempting because it also refers to work, but after 'too + adjective' we use 'to' + verb.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -627,7 +627,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "gerund" }
     ],
     answerId: "d",
-    explanation: "V-ing as noun subject = gerund.",
+    explanation: "'Swimming' is the -ing form used as a noun (the subject), so it is a gerund. 'Finite past verb' is tempting because it comes from a verb, but it has no tense and the main verb is 'is'.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
 ];

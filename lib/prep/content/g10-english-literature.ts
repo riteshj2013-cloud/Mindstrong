@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "a rumour" }
     ],
     answerId: "d",
-    explanation: "The first sentence says the monsoon arrived \"as a rumour.\"",
+    explanation: "The first sentence says the monsoon arrived 'not as rain at first but as a rumour'. 'A drought' is tempting because the passage starts with dry, dusty ground, but there is no drought; the rain is just about to come.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "calling it a rumour" }
     ],
     answerId: "a",
-    explanation: "Laughing is a human behaviour applied to the tree.",
+    explanation: "Laughing is something people do, so giving it to the tree personifies the tree. 'Calling it a rumour' is tempting because that is also figurative language in the passage, but the word 'rumour' describes the monsoon, not the tree.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "has a memory older than towns" }
     ],
     answerId: "d",
-    explanation: "Quoted idea: rain's memory is older than towns.",
+    explanation: "Her grandmother's saying is that rain 'has a memory older than towns'. 'Never falls in cities' is tempting because the saying mentions towns, but it compares rain's age with towns; it says nothing about where rain falls.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "corrugated roof" }
     ],
     answerId: "a",
-    explanation: "\"Smell of wet dust\" is olfactory imagery.",
+    explanation: "'The smell of wet dust' is the detail that appeals to our sense of smell. 'Corrugated roof' is tempting because it is a vivid concrete detail, but it is something we see, not smell.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "a mirage in drought" }
     ],
     answerId: "a",
-    explanation: "Heavy rain floods the pitch so it resembles a lake.",
+    explanation: "The pitch is not really a lake; calling it one is a metaphor for how badly it flooded. 'Literal construction of a lake overnight by workers' is tempting if you read the words literally, but the change happened 'within minutes' because of the rain.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "to meet a scooter mechanic" }
     ],
     answerId: "b",
-    explanation: "\"Arun had come for a project and stayed for a feeling\u2026\"",
+    explanation: "The passage says 'Arun had come for a project and stayed for a feeling'. 'To buy books' is tempting because he is surrounded by books, but this is a library, and the text names the project as his reason.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "oxymoron" }
     ],
     answerId: "c",
-    explanation: "\"Like\" compares dust to snow.",
+    explanation: "'Like' directly compares the floating dust to slow snow, which makes it a simile. 'Hyperbole only' is tempting because the image is striking, but nothing is exaggerated; it is a likeness made with 'like'.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "loud and fresh" }
     ],
     answerId: "c",
-    explanation: "Brittle + whisper = easily broken, barely there.",
+    explanation: "'Brittle' means easily broken and a whisper is faint, so the flower is fragile and delicate. 'Loud and fresh' is tempting because a whisper is a sound, but a whisper is the softest sound, and a pressed flower is dry, not fresh.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "abandoning all travel" }
     ],
     answerId: "a",
-    explanation: "It advises against solitary completion of a journey.",
+    explanation: "'Do not finish this journey alone' urges having company on the journey. 'Finishing homework alone' is tempting because Arun is there for a school project, but the note is about a journey, and it warns against going alone.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "tears the page" }
     ],
     answerId: "c",
-    explanation: "Quiet respect for history is the point of the simile.",
+    explanation: "Closing the book gently, as if noise might wake the past, shows he treats the past as delicate and deserving quiet. 'Wants to wake everyone in the library' is tempting because the line mentions waking, but he is avoiding loudness, not seeking it.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -221,7 +221,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "sports timing" }
     ],
     answerId: "b",
-    explanation: "No lateness \u2192 leisurely turning of pages.",
+    explanation: "When no one is late, nobody rushes, so pages turn slowly: the phrase suggests unhurried reading. 'Exam panic' is tempting because 'late' suggests deadlines, but the line says no one is late, so there is no pressure.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -234,7 +234,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "always loud" }
     ],
     answerId: "b",
-    explanation: "The cup image says silence is precious and spillable.",
+    explanation: "A cup can be carried with care or spilled, so the image treats quiet as something precious we can keep or waste. 'Made of ceramic only' is tempting if you read the cup literally, but the comparison is about how we handle quiet, not what it is made of.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -247,7 +247,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "simile (has like)" }
     ],
     answerId: "a",
-    explanation: "Direct equation without like/as \u2192 metaphor.",
+    explanation: "'Words are birds' says words are birds without 'like' or 'as', so it is a metaphor. 'Simile (has like)' is tempting because it is also a comparison, but this line does not use 'like'.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -260,7 +260,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "will not return to your hand" }
     ],
     answerId: "d",
-    explanation: "\"They will not return to your hand.\"",
+    explanation: "The poem says released words 'will not return to your hand'. 'Always return politely' is tempting because birds can fly home, but the poem says the opposite: once let go, words stay gone.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -273,7 +273,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "were angry" }
     ],
     answerId: "b",
-    explanation: "Final lines urge truth-seeking speech.",
+    explanation: "The last two lines say to speak 'as if the air were listening for something true'. 'Were empty of meaning' is tempting because air is literally empty, but the poem imagines the air as an attentive listener.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -286,7 +286,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "vengeful" }
     ],
     answerId: "b",
-    explanation: "Care with quiet and words shows reflective caution.",
+    explanation: "The poem calmly advises care with silence and with words, so its mood is reflective and cautionary. 'Indifferent to language' is tempting because the poem praises quiet, but it cares deeply about how we use words.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -299,7 +299,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Exams matter more than weather" }
     ],
     answerId: "c",
-    explanation: "Storm experience validates the grandmother's proverb.",
+    explanation: "The storm makes Meera feel her grandmother's old proverb is a real fact, so nature's force makes old wisdom feel newly true. 'Towns invent rain' is tempting because the proverb mentions towns, but it says rain is older than towns, not made by them.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "prove the school is closed forever" }
     ],
     answerId: "a",
-    explanation: "Concrete school setting makes the weather shift vivid.",
+    explanation: "The school verandah is an everyday place, which makes the sudden change in weather feel real and close. 'Prove the school is closed forever' is tempting because the class is standing outside, but nothing suggests the school has closed.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "made of paper" }
     ],
     answerId: "b",
-    explanation: "\"Leaning\" personifies/weightens the cloud on the landscape.",
+    explanation: "'Leaning' makes the cloud seem heavy, as if it had a body resting on the hills. 'Tiny as a speck' is tempting because clouds look small far away, but something leaning on hills must be large and weighty.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "no clear perspective" }
     ],
     answerId: "b",
-    explanation: "\"Meera stood\u2026\" uses third person focused on her.",
+    explanation: "The narrator says 'Meera stood…', using her name and 'she', so it is third person following Meera. 'First-person Meera saying \"I\"' is tempting because we share her thoughts, but she never says 'I'.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "snow-like" }
     ],
     answerId: "c",
-    explanation: "\"Opened all at once\" and instant flooding.",
+    explanation: "The sky 'opened all at once' and the pitch flooded 'within minutes', so the arrival was sudden and overwhelming. 'Gradual drizzle only' is tempting because the monsoon first came as a rumour, but when the rain itself came, it came all at once.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Proverbs are illegal" }
     ],
     answerId: "a",
-    explanation: "Lived weather turns abstract wisdom into something present.",
+    explanation: "Standing in the flooded mud, Meera feels the saying come true, so it becomes concrete and undeniable. 'Meera wrote the proverb that day' is tempting because she thinks about it then, but the saying is her grandmother's.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "exam year" }
     ],
     answerId: "a",
-    explanation: "A century-old diary makes the past tangible.",
+    explanation: "A diary from 1924 is a century old, yet Arun can hold it, so the date shows both how far away the past is and how near it feels through objects. 'Arun's birth year' is tempting because it is a year, but a boy doing a school project could not have been born in 1924.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "other silent books" }
     ],
     answerId: "a",
-    explanation: "Books' patience vs shouting world outside.",
+    explanation: "Books that 'did not shout' and 'waited' contrast with the noisy, impatient world outside, like the scooters arguing with horns. 'Other silent books' is tempting because books appear on both sides, but the contrast needs something noisy.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "anger" }
     ],
     answerId: "c",
-    explanation: "Gentle handling matches reverence for the past.",
+    explanation: "Closing the book gently shows respect and care for something old and fragile. 'Boredom only' is tempting because he is leaving the book, but he stayed for a feeling, and his gentleness shows he valued it.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -432,7 +432,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "preserved memory" }
     ],
     answerId: "d",
-    explanation: "A dried flower keeps a moment inside a book.",
+    explanation: "A pressed flower keeps a moment from the past alive inside a book, so it symbolises preserved memory. 'Future traffic' is tempting because the passage ends with scooters outside, but the flower belongs to the old diary, not to the street.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -445,7 +445,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "time travel science" }
     ],
     answerId: "b",
-    explanation: "Psychological time in a calm place.",
+    explanation: "Time does not really change speed; inside the calm library it simply feels slower and deeper. 'A broken clock on the wall only' is tempting if you read the line literally, but no clock is mentioned; the line describes a feeling.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -458,7 +458,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "a weather report" }
     ],
     answerId: "c",
-    explanation: "Commands address \"you\" with guidance.",
+    explanation: "'Hold' and 'Speak' are commands addressed to the reader, so the poem gives advice. 'A weather report' is tempting because the poem mentions air, but it gives instructions about speaking, not information about weather.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -471,7 +471,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "buying cups" }
     ],
     answerId: "a",
-    explanation: "Don't waste carefully held quiet in the noisy street.",
+    explanation: "Spilling quiet on the street means wasting the silence you carried by letting it pour into public noise. 'Painting roads' is tempting if you read 'spill on the street' literally, but the poem is talking about quiet, not paint.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -484,7 +484,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "only for birds" }
     ],
     answerId: "c",
-    explanation: "Once spoken, words can't be taken back fully.",
+    explanation: "Birds that won't come back show that spoken words cannot be taken back. 'Never heard' is tempting because the words fly away, but the poem says they don't return, not that no one hears them.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -497,7 +497,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "describe rain" }
     ],
     answerId: "b",
-    explanation: "\"As if the air were\u2026\" imagines attentive air.",
+    explanation: "'As if the air were listening' imagines an ideal, attentive listener for our words. 'State a scientific fact about nitrogen' is tempting because air is mentioned, but 'as if… were' signals an imagined situation, not a fact.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -510,7 +510,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "shout always" }
     ],
     answerId: "b",
-    explanation: "Care for quiet + speak for what is true.",
+    explanation: "The poem asks us to guard quiet and to speak as if something true were wanted, so it values silence and truthful speech. 'Never speak' is tempting because the poem praises quiet, but its last lines tell us how to speak, not to stay silent.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -536,7 +536,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\"scooters argued with horns\"" }
     ],
     answerId: "a",
-    explanation: "He came for a project but stayed for an unnamed feeling.",
+    explanation: "'Stayed for a feeling he could not name' shows that his reason for staying changed from the project to a feeling. '\"Pressed marigold\"' is tempting because it is a moving detail, but it does not tell us why he stayed.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -549,7 +549,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "greater / deeper than human settlements" }
     ],
     answerId: "d",
-    explanation: "Rain's \"memory\" outlasts urban history.",
+    explanation: "Rain with a memory 'older than towns' suggests nature is far older and deeper than human settlements. 'Smaller than a verandah' is tempting because the verandah is mentioned, but 'older than' makes nature greater, not smaller.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -575,7 +575,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "metre of a sonnet only" }
     ],
     answerId: "b",
-    explanation: "The break stages cause then effect.",
+    explanation: "Breaking the line after 'released' makes us pause, separating the act of speaking from its result on the next line. 'Rhyme scheme AABB' is tempting because poems often rhyme, but these lines do not rhyme in pairs.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -588,7 +588,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "notices sensory detail and connects it to inherited wisdom" }
     ],
     answerId: "d",
-    explanation: "She watches, remembers the saying, and feels its truth.",
+    explanation: "Meera watches the cloud, smell and rain closely and links them to her grandmother's saying. 'Hates proverbs always' is tempting because the proverb once felt like decoration to her, but now it feels like a fact to her, which shows respect, not hatred.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -614,7 +614,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "guard silence; release words carefully" }
     ],
     answerId: "d",
-    explanation: "Two linked metaphors about care with silence and speech.",
+    explanation: "The cup teaches us to guard silence and the birds teach us to release words carefully. 'Never use metaphors' is tempting because both lines are metaphors, but the poem uses them to teach care with speech, not to reject them.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {

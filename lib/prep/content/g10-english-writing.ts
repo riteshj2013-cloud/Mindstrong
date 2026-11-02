@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Dearest friend" }
     ],
     answerId: "b",
-    explanation: "Formal register uses Sir/Madam.",
+    explanation: "A formal letter to an official opens with 'Sir/Madam' or 'Respected Sir/Madam'. 'Dearest friend' is tempting because it is a polite opening, but it belongs in an informal letter, not one to the Municipal Commissioner.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "brief and specific" }
     ],
     answerId: "d",
-    explanation: "A clear subject helps the official file and act.",
+    explanation: "A brief, specific subject line tells the official at once what the letter is about. 'Omitted always' is tempting because informal letters have no subject line, but formal letters need one.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "interpret data with comparisons and a conclusion" }
     ],
     answerId: "d",
-    explanation: "Exam analytical paras read a chart/table and comment.",
+    explanation: "An analytical paragraph reads a chart or table, compares the figures and ends with a conclusion. 'List random adjectives' is tempting because good writing uses describing words, but without data and comparison it is not analysis.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "uses only one number with no claim" }
     ],
     answerId: "a",
-    explanation: "Overview sentence before details.",
+    explanation: "A strong opening sums up what the data shows overall before going into details. 'Uses only one number with no claim' is tempting because it does use data, but one number without a point does not introduce the analysis.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "blank" }
     ],
     answerId: "a",
-    explanation: "Headlines attract and inform quickly.",
+    explanation: "A headline must catch the eye and tell the reader the topic quickly. 'A full 200-word paragraph' is tempting because it gives more information, but that is the article body, not a headline.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "a shopping list only" }
     ],
     answerId: "c",
-    explanation: "Structured argumentative/informative flow.",
+    explanation: "An article body moves from introduction to the problem or discussion, then suggestions and a conclusion. 'Only data table with no words' is tempting because articles may use facts, but an article explains them in paragraphs.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "your Aadhaar number" }
     ],
     answerId: "b",
-    explanation: "Standard school notice format.",
+    explanation: "A school notice has a heading, date, body, and the writer's name and designation. 'A salutation such as Dear Sir' is tempting because letters begin that way, but a notice is addressed to everyone, so it has no salutation.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "first-person love letter style" }
     ],
     answerId: "c",
-    explanation: "Impersonal and brief.",
+    explanation: "Notices use the third person and short, clear sentences because they address a whole group. 'Chat slang' is tempting because it is quick to read, but a notice is formal and must be clear to everyone.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "only a moral with no events" }
     ],
     answerId: "c",
-    explanation: "Narrative arc keeps readers engaged.",
+    explanation: "A story needs a beginning, a conflict, a climax and an ending so readers want to follow it. 'Only a moral with no events' is tempting because many stories end with a moral, but without events there is no story.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "use only one word forever" }
     ],
     answerId: "a",
-    explanation: "Dialogue reveals character and advances action.",
+    explanation: "Good dialogue sounds like real speech and moves the plot forward. 'Replace all description always' is tempting because dialogue is lively, but stories still need description of setting and action.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "polite but firm" }
     ],
     answerId: "d",
-    explanation: "Respectful language with clear request for action.",
+    explanation: "A complaint should be polite but firm, stating the problem clearly and asking for action. 'Sarcastic slang' is tempting because the writer is annoyed, but sarcasm and slang make a formal letter less effective.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "a math derivation only" }
     ],
     answerId: "b",
-    explanation: "Public issue + stance + call to readers/authorities.",
+    explanation: "A letter to the editor raises a public issue, explains its effects and appeals for action. 'Class timetable only' is tempting because it is school-related, but it is not a public issue for newspaper readers.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "write half a word" }
     ],
     answerId: "c",
-    explanation: "Stay on task and within limits.",
+    explanation: "Keeping to the word limit means covering every required point without padding. 'Repeat the same sentence ten times' is tempting if you only think of reaching the word count, but repetition adds words, not content.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "describing a storm metaphor" }
     ],
     answerId: "b",
-    explanation: "Keeps parallel lists aligned.",
+    explanation: "'Respectively' links a list of values to an earlier list in the same order, e.g. 'Delhi and Pune scored 40 and 55 respectively'. 'Ending a letter' is tempting because 'Respectfully' is a letter close, but 'respectively' is a different word.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "second-person commands only" }
     ],
     answerId: "c",
-    explanation: "Reports record what happened.",
+    explanation: "A report records what happened, so it is factual, in time order and usually in the past tense. 'Second-person commands only' is tempting because notices and instructions use commands, but a report describes rather than instructs.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -221,7 +221,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "dates when relevant" }
     ],
     answerId: "a",
-    explanation: "\"Hello\" doesn't help prioritisation.",
+    explanation: "A subject line like 'Hello' tells the reader nothing about the email's topic, so it should be avoided. 'Dates when relevant' is tempting because extra detail can seem cluttered, but a relevant date makes a subject clearer.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -234,7 +234,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "are only spoken" }
     ],
     answerId: "c",
-    explanation: "School formal invites are structured and impersonal.",
+    explanation: "Formal invitations use the third person ('The Principal requests the pleasure…') and a fixed layout. 'Omit time and place' is tempting because formal cards look short, but every invitation must give the time and place.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -247,7 +247,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "must be a poem" }
     ],
     answerId: "a",
-    explanation: "Name the trend: rise, then fall.",
+    explanation: "A line that rises and then falls is described as having 'increased and then declined'. 'Stayed perfectly flat with no change' is tempting if you only compare the start and end, but the graph clearly rose and fell in between.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -260,7 +260,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "all sentences support one main idea" }
     ],
     answerId: "d",
-    explanation: "One paragraph, one job.",
+    explanation: "Paragraph unity means every sentence supports one main idea. 'Each sentence is a new unrelated topic' is tempting because it gives variety, but it breaks the paragraph's focus.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -273,7 +273,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "sums up and looks forward / calls to act" }
     ],
     answerId: "d",
-    explanation: "Closure with purpose.",
+    explanation: "A good conclusion sums up the article and looks ahead or calls readers to act. 'Repeats the headline only in reverse' is tempting because it links back to the start, but it adds nothing new.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -299,7 +299,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "never describe feelings" }
     ],
     answerId: "b",
-    explanation: "Concrete detail implies emotion.",
+    explanation: "'Show, don't tell' means using actions and senses (her voice shook, she stared at the floor) instead of only saying 'she was sad'. 'Only use adjectives' is tempting because adjectives describe, but words like 'sad' are exactly the labels to avoid.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "removing the subject" }
     ],
     answerId: "b",
-    explanation: "Content on-task before surface polish.",
+    explanation: "First check that the draft does the task and is clear, then fix grammar and spelling. 'Font colour only' is tempting because it is easy to change, but it does not affect what the writing says.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
 ];
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Fix it now, dude." }
     ],
     answerId: "b",
-    explanation: "Polite request + specific issue.",
+    explanation: "'I request you to look into the irregular water supply in our area' is polite, formal and names the problem. 'Fix it now, dude' is tempting because it is direct, but it is rude and informal.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "only describe colours of the bars" }
     ],
     answerId: "c",
-    explanation: "Comparison is the job.",
+    explanation: "A good paragraph compares the categories across the two years and points out the biggest change. 'Only describe colours of the bars' is tempting because colours are visible, but they carry no information about the data.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "decorate the page" }
     ],
     answerId: "b",
-    explanation: "Signals obligation for the audience.",
+    explanation: "'Compulsory' tells readers that attending or acting is required. 'Mean optional' is tempting because both words describe whether you must attend, but optional is the opposite of compulsory.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "ignore the line" }
     ],
     answerId: "b",
-    explanation: "Obey the stem's constraint.",
+    explanation: "The given line must be the first line of your story. 'Put the line only at the end' is tempting because some prompts give an ending, but 'beginning with' means it opens the story.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "demand personal revenge with threats" }
     ],
     answerId: "d",
-    explanation: "Threats are inappropriate; civic tone matters.",
+    explanation: "Letters to the editor stay civil, so threats and demands for revenge do not belong there. 'Suggest solutions' is tempting as something to leave out, but suggestions are a normal part of such letters.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "however, furthermore, for example" }
     ],
     answerId: "d",
-    explanation: "Linkers guide the reader.",
+    explanation: "Words like however, furthermore and for example link ideas so the reader can follow. 'Random emojis only' is tempting because emojis show feeling, but they do not show how one idea connects to the next.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "clear and factual" }
     ],
     answerId: "d",
-    explanation: "Readers need to know the event at a glance.",
+    explanation: "A report title should be clear and factual so readers know the event at a glance. 'A riddle' is tempting because it might grab attention, but a report must inform, not puzzle.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "doubled" }
     ],
     answerId: "a",
-    explanation: "60\u221245=15 percentage points (not \"rose by 15%\" of 45).",
+    explanation: "From 45% to 60% is a rise of 60 − 45 = 15 percentage points. 'Doubled' is tempting because it is a big rise, but doubling 45% would give 90%.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -432,7 +432,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "only attachments with no text" }
     ],
     answerId: "b",
-    explanation: "Same courtesy as letters, tighter.",
+    explanation: "A formal email has a clear subject, salutation, body, closing and the sender's name. 'Only attachments with no text' is tempting because attachments carry the content, but the email still needs a short message.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -445,7 +445,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "is prepared by earlier hints" }
     ],
     answerId: "d",
-    explanation: "Fair twists feel surprising yet earned.",
+    explanation: "A twist works when earlier clues prepare for it, so it surprises but still makes sense. 'Contradicts everything with no link' is tempting because it is surprising, but readers feel cheated when nothing set it up.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -458,7 +458,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Once there was a dragon." }
     ],
     answerId: "c",
-    explanation: "States issue + stakes + direction.",
+    explanation: "'Plastic waste is choking our drains and demands urgent community action' states the issue, its impact and what should happen. 'Plastic exists' is tempting because it is on topic, but it makes no point.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -471,7 +471,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "legal affidavit style only" }
     ],
     answerId: "a",
-    explanation: "Friendly tone, contractions OK.",
+    explanation: "A letter to a friend uses an informal but clear register. 'Same as to the President without change' is tempting because good manners always matter, but writing to a friend that formally sounds stiff.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -484,7 +484,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "add more errors" }
     ],
     answerId: "a",
-    explanation: "Fix the indicated mistake.",
+    explanation: "A spelling mark means you should correct the spelling of that word. 'Change the topic' is tempting only if you think the mark criticises content, but it points to a spelling mistake.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -497,7 +497,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "personal stories unrelated to the data" }
     ],
     answerId: "d",
-    explanation: "Stay data-centred.",
+    explanation: "An analytical paragraph should stay on the data, so personal stories unrelated to it should be left out. 'Comparatives like higher/lower' is tempting as something to avoid, but comparatives are exactly what analysis needs.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -510,7 +510,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "a list of the person's favourite foods" }
     ],
     answerId: "a",
-    explanation: "Concise factual portrait.",
+    explanation: "A bio-sketch presents the person's key life facts and achievements in a clear order. 'A list of the person's favourite foods' is tempting because it is personal information, but it is not a key fact about their life.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -523,7 +523,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "a formal subject line" }
     ],
     answerId: "c",
-    explanation: "Personal, dated, reflective.",
+    explanation: "A diary entry has a date and records your own feelings about events in the first person. 'A formal subject line' is tempting because letters and emails have one, but a diary is private and informal.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -536,7 +536,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "no receiver" }
     ],
     answerId: "c",
-    explanation: "Address the person named in the question.",
+    explanation: "The receiver is the person the task names: the Principal, with the school's name and place. 'The Municipal Commissioner always' is tempting because many formal letters go to officials, but this letter is addressed to the Principal.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -549,7 +549,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "because only" }
     ],
     answerId: "b",
-    explanation: "Contrast linkers clarify comparison.",
+    explanation: "Linkers like while, whereas and however show contrast between the two series. 'Because only' is tempting because it is also a linker, but 'because' gives a reason; it does not contrast.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -562,7 +562,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "offers a practical step" }
     ],
     answerId: "b",
-    explanation: "\"That is all\" adds nothing.",
+    explanation: "Ending with 'That is all' gives the reader no takeaway, so it is a weak conclusion. 'Restates the call to action' is tempting because it repeats something, but restating the action is a strong way to end.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -575,7 +575,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "memorise one essay for all topics" }
     ],
     answerId: "a",
-    explanation: "Process beats one-shot panic.",
+    explanation: "Good writing moves from plan to draft to revise to proofread. 'Proofread → plan → ignore task' is tempting because proofreading matters, but you cannot proofread before you have written anything.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -588,7 +588,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "acknowledge another view then rebut with reasons" }
     ],
     answerId: "d",
-    explanation: "Fairness + reasoned rebuttal.",
+    explanation: "A fair debate article admits the other view and then answers it with reasons. 'Avoid any claim' is tempting because it seems balanced, but a debate article must take a clear position.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -601,7 +601,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "all missing values" }
     ],
     answerId: "c",
-    explanation: "Majority = more than 50%; significant stresses size.",
+    explanation: "A majority means more than half, and 'significant' says it is clearly more than half. 'Exactly 1%' is tempting because 'significant' can mean statistically notable, but 1% is far below a majority.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -614,7 +614,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "a formal FIR" }
     ],
     answerId: "c",
-    explanation: "Human interest with respect.",
+    explanation: "A feature on a teacher should be respectful and readable and use specific stories about them. 'A formal FIR' is tempting because it is a factual document, but an FIR is a police complaint, not a magazine feature.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   },
   {
@@ -627,7 +627,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "change them to months secretly" }
     ],
     answerId: "a",
-    explanation: "Cover what the figure actually shows.",
+    explanation: "The paragraph should cover all three years shown, or clearly explain why it focuses on some. 'Ignore years' is tempting if you only compare heights of bars, but the years are what the bars compare.",
     hints: ["Read carefully.", "Eliminate impossible options first."]
   }
 ];
