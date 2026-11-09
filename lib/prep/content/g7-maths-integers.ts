@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(\u22121) \u00d7 12" }
     ],
     answerId: "a",
-    explanation: "A product is positive when the count of negative factors is even. (−3) × (−7) has two negatives, so it is positive. Each of the other options has exactly one negative factor, so each is negative.",
+    explanation: "A product is positive when the count of negative factors is even. (−3) × (−7) has two negatives, so it is positive. '(−3) × 7' is tempting if you only look at the first factor and forget you need an even count of minuses.",
     hints: ["Count the negative factors in each option. Even count → positive; odd count → negative."]
   },
   {
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Identity" }
     ],
     answerId: "b",
-    explanation: "a + b = b + a says order does not matter — the commutative property. Associative is about grouping (a + b) + c; distributive about a(b + c); identity about adding 0.",
+    explanation: "a + b = b + a says order does not matter — the commutative property. 'Associative' is tempting if you confuse swapping order with regrouping (a + b) + c = a + (b + c).",
     hints: ["In a + b = b + a, only the order of a and b changes. Which property name is about swapping order?"]
   },
   {

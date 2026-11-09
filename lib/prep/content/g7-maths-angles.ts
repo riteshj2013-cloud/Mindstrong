@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Vertically opposite angles are equal" }
     ],
     answerId: "d",
-    explanation: "Vertically opposite angles made by two intersecting lines are always equal. Adjacent angles are not always equal; two acute angles need not be complementary; two obtuse angles need not be supplementary.",
+    explanation: "Vertically opposite angles made by two intersecting lines are always equal. 'Adjacent angles are equal' is tempting if you mix vertical angles with a linear pair — neighbours on a straight line add to 180°, they are not equal.",
     hints: ["Test each claim with a quick sketch: can you draw a counter-example for 'adjacent angles are equal'? Which claim survives every sketch?"]
   },
   {
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Median" }
     ],
     answerId: "b",
-    explanation: "A ray that cuts an angle into two equal parts is an angle bisector. A perpendicular bisector cuts a segment at right angles through its midpoint; a median joins a vertex to the midpoint of the opposite side.",
+    explanation: "A ray that cuts an angle into two equal parts is an angle bisector. 'Perpendicular bisector' is tempting if you picture cutting a side at right angles through its midpoint instead of splitting an angle.",
     hints: ["The word 'bisect' means cut into two equal parts. What is being cut here — a length or an angle?"]
   },
   {
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Supplementary to each other only if both 90\u00b0" }
     ],
     answerId: "b",
-    explanation: "A right triangle already uses 90° of its 180°, so the other two add to 90° — each is acute and they are complementary. Obtuse is impossible for either of those two because their sum is only 90°.",
+    explanation: "A right triangle already uses 90° of its 180°, so the other two add to 90° — each is acute and they are complementary. 'Obtuse' is tempting if you forget that those two must share only 90° between them, so neither can be bigger than 90°.",
     hints: ["A right triangle has already used 90° of the angle sum. What do the other two angles add to, and can either of them be obtuse?"]
   },
   {
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Reflex" }
     ],
     answerId: "c",
-    explanation: "Equal corresponding angles is a test for parallel lines. Complementary or '90°' would describe a different relationship; reflex is never a parallel-line test.",
+    explanation: "Equal corresponding angles is a test for parallel lines. 'Complementary' is tempting if you confuse corresponding angles with a pair that makes a right angle; equal matching corners, not a 90° sum, is the parallel test.",
     hints: ["Draw a transversal across two lines and look at a pair of corresponding angles. What relationship between them tells you the lines are parallel?"]
   },
   {
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Reflex" }
     ],
     answerId: "d",
-    explanation: "270° is greater than 180° and less than 360°, so it is reflex. Obtuse covers only 90°–180°; straight is exactly 180°; acute is less than 90°.",
+    explanation: "270° is greater than 180° and less than 360°, so it is reflex. 'Obtuse' is tempting if you stop after 'bigger than 90°' and forget obtuse only goes up to 180°.",
     hints: ["Compare 270° with a straight angle and with a full turn. Which named type sits between those two?"]
   },
   {
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "30\u00b0 and 60\u00b0 side by side making a right angle" }
     ],
     answerId: "d",
-    explanation: "Complementary angles add to 90°, so 30° and 60° side by side making a right angle fit. 30° and 60° on a straight line would be supplementary (180°), not complementary; 120° and 60° cannot make a right angle.",
+    explanation: "Complementary angles add to 90°, so 30° and 60° side by side making a right angle fit. '30° and 60° making a straight line' is tempting if you use the supplement (180°) instead of the complement.",
     hints: ["Complementary angles must add to a right angle. Which drawing both adds to 90° and actually shows a right angle?"]
   }
 ];
