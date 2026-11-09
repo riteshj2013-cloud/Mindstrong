@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "c",
-    explanation: "A rational number p/q needs q ≠ 0, so 5/0 is not defined and is not rational. -3/7 is tempting if you add denominators with numerators or misalign place values, but the correct value is 5/0.",
+    explanation: "A rational number p/q needs q ≠ 0, so 5/0 is not defined and is not rational. -3/7 is tempting because it is a familiar fraction, but a rational needs a non-zero denominator; 5/0 is undefined, so it is not rational.",
     hints: ["A rational number is p/q with q not equal to 0. Check the denominator of each number; write integers like 2 as 2/1."]
   },
   {
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "-9/12" }
     ],
     answerId: "a",
-    explanation: "Standard form needs a positive denominator and no common factor, so 9/-12 becomes -9/12 and then -3/4. 3/-4 is tempting if you add denominators with numerators or misalign place values, but the correct value is -3/4.",
+    explanation: "Standard form needs a positive denominator and no common factor, so 9/-12 becomes -9/12 and then -3/4. 3/-4 is tempting if you move the minus to the denominator or skip cancelling the common factor; standard form (positive denominator, lowest terms) is -3/4.",
     hints: ["Move the minus sign from −12 up to the numerator, then divide 9 and 12 by their HCF."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5/8" }
     ],
     answerId: "d",
-    explanation: "The additive inverse is the number that gives 0 when added, and -5/8 + 5/8 = 0. -8/5 is tempting if you add denominators with numerators or misalign place values, but the correct value is 5/8.",
+    explanation: "The additive inverse is the number that gives 0 when added, and -5/8 + 5/8 =. -8/5 is tempting if you take the reciprocal instead of the opposite, or drop the sign change; the additive inverse is 5/8.",
     hints: ["The additive inverse is what you add to a number to get 0. Keep the digits and change only the sign."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "-2/7" }
     ],
     answerId: "b",
-    explanation: "(-2/7) × (-7/2) = 1, so the reciprocal keeps the negative sign. 7/2 is tempting if you add denominators with numerators or misalign place values, but the correct value is -7/2.",
+    explanation: "(-2/7) × (-7/2) = 1, so the reciprocal keeps the negative sign. 7/2 is tempting if you flip the sign away or forget to keep the negative on the reciprocal; the multiplicative inverse is -7/2.",
     hints: ["The multiplicative inverse multiplies to give 1. Flip the numerator and denominator of −2/7, and decide the sign."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "-2/5" }
     ],
     answerId: "d",
-    explanation: "With like denominators we add the numerators, and -3 + 1 = -2, so the answer is -2/5. -4/5 is tempting if you add denominators with numerators or misalign place values, but the correct value is -2/5.",
+    explanation: "With like denominators we add the numerators, and -3 + 1 = -2, so the answer is -2/5. -4/5 is tempting if you add the denominators as well as the numerators, or mishandle a sign; with a common denominator the sum is -2/5.",
     hints: ["The denominators match, so add the numerators −3 and 1 and keep the fifths."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "No such number exists" }
     ],
     answerId: "b",
-    explanation: "Adding 0 to any rational number leaves it unchanged, so 0 is the additive identity. 1 is tempting if you add denominators with numerators or misalign place values, but the correct value is 0.",
+    explanation: "Adding 0 to any rational number leaves it unchanged, so 0 is the additive identity. 1 is tempting if you confuse the additive identity with the multiplicative identity; adding 0 leaves every rational unchanged.",
     hints: ["The additive identity is the number you can add to any rational number without changing it."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Every rational number is a natural number" }
     ],
     answerId: "a",
-    explanation: "Any integer n can be written as n/1, so every integer is rational, but not every rational is an integer. Every rational number is an integer is tempting if you add denominators with numerators or misalign place values, but the correct value is Every integer is a rational number.",
+    explanation: "Any integer n can be written as n/1, so every integer is rational, but not every rational is an integer. Every rational number is an integer is tempting if you mishandle a sign or operate on numerators and denominators inconsistently; the correct rational is Every integer is a rational number.",
     hints: ["Can an integer like −4 be written as p/q? Test each statement about integers with a simple example."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "-1/3" }
     ],
     answerId: "c",
-    explanation: "(-4 × 3)/(9 × 2) = -12/18 = -2/3, while -8/27 is the result of dividing instead of multiplying. -1/3 is tempting if you add denominators with numerators or misalign place values, but the correct value is -2/3.",
+    explanation: "(-4 × 3)/(9 × 2) = -12/18 = -2/3, while -8/27 is the result of dividing instead of multiplying. -1/3 is tempting if you multiply across only one pair or cancel unmatched factors; multiplying numerators and denominators gives -2/3.",
     hints: ["Multiply tops and bottoms: (−4 × 3)/(9 × 2), then simplify and keep the negative sign."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3 and 4" }
     ],
     answerId: "b",
-    explanation: "-3/4 is three quarters of a unit to the left of 0, so it lies between -1 and 0. -2 and -1 is tempting if you add denominators with numerators or misalign place values, but the correct value is -1 and 0.",
+    explanation: "-3/4 is three quarters of a unit to the left of 0, so it lies between -1 and. -2 and -1 is tempting if you pick an endpoint or a value outside the open interval; a rational strictly between the bounds is -1 and 0.",
     hints: ["−3/4 is negative, so it sits to the left of the origin. Is it more or less than a whole step left?"]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2/3" }
     ],
     answerId: "a",
-    explanation: "Multiplying the numerator and denominator of -2/3 by 5 gives -10/15. 10/-12 is tempting if you add denominators with numerators or misalign place values, but the correct value is -10/15.",
+    explanation: "Multiplying the numerator and denominator of -2/3 by 5 gives -10/15. 10/-12 is tempting if you multiply numerator and denominator by different factors; equivalent form keeps the same value, -10/15.",
     hints: ["Multiply the top and bottom of −2/3 by the same number. Look for the fraction that keeps both the ratio and the sign."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7/9" }
     ],
     answerId: "c",
-    explanation: "Subtracting a negative means adding, so 4/6 + 5/6 = 9/6 = 3/2, while -1/6 comes from ignoring the double negative. -1/6 is tempting if you add denominators with numerators or misalign place values, but the correct value is 3/2.",
+    explanation: "Subtracting a negative means adding, so 4/6 + 5/6 = 9/6 = 3/2, while -1/6 comes from ignoring the double negative. -1/6 is tempting if you subtract the denominators or drop a minus sign; subtracting numerators over the common denominator gives 3/2.",
     hints: ["Subtracting a negative is adding. Change 2/3 to sixths, then add 5/6 and simplify."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3/8" }
     ],
     answerId: "a",
-    explanation: "Dividing means multiplying by the reciprocal, so (-7/12) × (9/14) = -63/168 = -3/8, while -49/54 forgets to flip 14/9. -49/54 is tempting if you add denominators with numerators or misalign place values, but the correct value is -3/8.",
+    explanation: "Dividing means multiplying by the reciprocal, so (-7/12) × (9/14) = -63/168 = -3/8, while -49/54 forgets to flip 14/9. -49/54 is tempting if you flip the wrong fraction or forget to multiply by the reciprocal; dividing by a rational means multiplying by its reciprocal, giving -3/8.",
     hints: ["Divide by multiplying by the reciprocal 9/14, then cancel 7 with 14 and 9 with 12."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Distributivity of multiplication over addition" }
     ],
     answerId: "d",
-    explanation: "Multiplying 3/4 into each term of the bracket is the distributive property. Commutativity is tempting if you add denominators with numerators or misalign place values, but the correct value is Distributivity of multiplication over addition.",
+    explanation: "Multiplying 3/4 into each term of the bracket is the distributive property. Commutativity is tempting if you add the denominators as well as the numerators, or mishandle a sign; with a common denominator the sum is Distributivity of multiplication over addition.",
     hints: ["See how 3/4 multiplies each term inside the bracket (2/5 + (−1/3)). Which property spreads × over +?"]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "All of these are closed" }
     ],
     answerId: "b",
-    explanation: "3 − 5 = −2 is not a natural number, so natural numbers are not closed under subtraction, while integers and rationals are. Rational numbers is tempting if you add denominators with numerators or misalign place values, but the correct value is Natural numbers.",
+    explanation: "3 − 5 = −2 is not a natural number, so natural numbers are not closed under subtraction, while integers and rationals are. Rational numbers is tempting if you subtract the denominators or drop a minus sign; subtracting numerators over the common denominator gives Natural numbers.",
     hints: ["Try 3 − 5 in each set of numbers. Is the result still in that set?"]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "-3/4, -2/3, -1/2" }
     ],
     answerId: "d",
-    explanation: "In twelfths they are -6/12, -8/12 and -9/12, so from smallest to largest the order is -3/4, -2/3, -1/2. -1/2, -2/3, -3/4 is tempting if you add denominators with numerators or misalign place values, but the correct value is -3/4, -2/3, -1/2.",
+    explanation: "In twelfths they are -6/12, -8/12 and -9/12, so from smallest to largest the order is -3/4, -2/3, -1/2. -1/2, -2/3, -3/4 is tempting if you mishandle a sign or operate on numerators and denominators inconsistently; the correct rational is -3/4, -2/3, -1/2.",
     hints: ["Write −1/2, −2/3 and −3/4 as twelfths. Ascending order puts the most negative first."]
   },
   {
@@ -221,7 +221,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "-2/5" }
     ],
     answerId: "c",
-    explanation: "-1/3 is negative and 1/4 is positive, so 0 lies between them, while -1/2 and -2/5 are both less than -1/3. -1/2 is tempting if you add denominators with numerators or misalign place values, but the correct value is 0.",
+    explanation: "-1/3 is negative and 1/4 is positive, so 0 lies between them, while -1/2 and -2/5 are both less than -1/3. -1/2 is tempting if you pick an endpoint or a value outside the open interval; a rational strictly between the bounds is 0.",
     hints: ["−1/3 is negative and 1/4 is positive. Which number sits between the negatives and the positives?"]
   },
   {
@@ -234,7 +234,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8/11" }
     ],
     answerId: "a",
-    explanation: "The missing number is 1 − (−3/8) = 8/8 + 3/8 = 11/8, while 5/8 wrongly treats -3/8 as positive. 5/8 is tempting if you add denominators with numerators or misalign place values, but the correct value is 11/8.",
+    explanation: "The missing number is 1 − (−3/8) = 8/8 + 3/8 = 11/8, while 5/8 wrongly treats -3/8 as positive. 5/8 is tempting if you add the denominators as well as the numerators, or mishandle a sign; with a common denominator the sum is 11/8.",
     hints: ["The missing number is 1 − (−3/8). Write 1 as 8/8 and remember that subtracting a negative adds."]
   },
   {
@@ -247,7 +247,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "-5/4" }
     ],
     answerId: "b",
-    explanation: "Two negative factors make the product positive, and (2 × 3 × 8)/(3 × 4 × 5) = 48/60 = 4/5. -4/5 is tempting if you add denominators with numerators or misalign place values, but the correct value is 4/5.",
+    explanation: "Two negative factors make the product positive, and (2 × 3 × 8)/(3 × 4 × 5) = 48/60 = 4/5. -4/5 is tempting if you multiply across only one pair or cancel unmatched factors; multiplying numerators and denominators gives 4/5.",
     hints: ["Count the negative factors to fix the sign, then cancel the 3s and simplify what is left."]
   },
   {
@@ -260,7 +260,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "31/60" }
     ],
     answerId: "d",
-    explanation: "With denominator 60, 45/60 − 24/60 + 10/60 = 31/60, while 11/60 wrongly subtracts the refill. 2/15 is tempting if you add denominators with numerators or misalign place values, but the correct value is 31/60.",
+    explanation: "With denominator 60, 45/60 − 24/60 + 10/60 = 31/60, while 11/60 wrongly subtracts the refill. 2/15 is tempting if you mishandle a sign or operate on numerators and denominators inconsistently; the correct rational is 31/60.",
     hints: ["Start with 3/4, subtract the 2/5 used, then add the 1/6 refilled. Use 60 as the common denominator."]
   },
   {
@@ -273,7 +273,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5/7" }
     ],
     answerId: "a",
-    explanation: "Taking out -5/7 as a common factor gives (-5/7) × (3/11 + 8/11) = (-5/7) × 1 = -5/7. -15/77 is tempting if you add denominators with numerators or misalign place values, but the correct value is -5/7.",
+    explanation: "Taking out -5/7 as a common factor gives (-5/7) × (3/11 + 8/11) = (-5/7) × 1 = -5/7. -15/77 is tempting if you add the denominators as well as the numerators, or mishandle a sign; with a common denominator the sum is -5/7.",
     hints: ["Both products share the same first factor. Take it out and add 3/11 + 8/11 first."]
   },
   {
@@ -286,7 +286,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "11" }
     ],
     answerId: "c",
-    explanation: "-1/2 = -5/10 and 1/2 = 5/10, so p can be any integer from -4 to 4, which gives 9 values. 10 is tempting if you add denominators with numerators or misalign place values, but the correct value is 9.",
+    explanation: "-1/2 = -5/10 and 1/2 = 5/10, so p can be any integer from -4 to 4, which gives 9 values. 10 is tempting if you pick an endpoint or a value outside the open interval; a rational strictly between the bounds is 9.",
     hints: ["Write −1/2 and 1/2 as tenths, then count the integers p strictly between the two numerators."]
   },
   {
@@ -299,7 +299,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "-1" }
     ],
     answerId: "b",
-    explanation: "1/x = -2/3, so x + 1/x = -9/6 − 4/6 = -13/6, while -5/6 forgets that the reciprocal is also negative. 13/6 is tempting if you add denominators with numerators or misalign place values, but the correct value is -13/6.",
+    explanation: "1/x = -2/3, so x + 1/x = -9/6 − 4/6 = -13/6, while -5/6 forgets that the reciprocal is also negative. 13/6 is tempting if you add the denominators as well as the numerators, or mishandle a sign; with a common denominator the sum is -13/6.",
     hints: ["1/x is the reciprocal of −3/2. Add x and 1/x using the common denominator 6."]
   },
   {
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "-7/3" }
     ],
     answerId: "d",
-    explanation: "12/4 simplifies to the integer 3, but -7/3 cannot be simplified to a whole number, so it is rational but not an integer. -7 is tempting if you add denominators with numerators or mishandle signs; the correct value is -7/3.",
+    explanation: "12/4 simplifies to the integer 3, but −7/3 cannot be simplified to a whole number, so it is rational but not an integer. −7 is tempting because it looks like the numerator alone, but −7 is an integer; the non-integer rational is −7/3.",
     hints: ["Simplify each number. Which rational number cannot become a whole number, the way 12/4 can?"]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3/-5" }
     ],
     answerId: "b",
-    explanation: "The two negatives cancel to give 15/25, which simplifies to 3/5 when divided by 5. -3/5 is tempting if you add denominators with numerators or misalign place values, but the correct value is 3/5.",
+    explanation: "The two negatives cancel to give 15/25, which simplifies to 3/5 when divided by 5. -3/5 is tempting if you move the minus to the denominator or skip cancelling the common factor; standard form (positive denominator, lowest terms) is 3/5.",
     hints: ["The two negatives in −15/−25 cancel. Then divide 15 and 25 by their HCF."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "-9/4" }
     ],
     answerId: "c",
-    explanation: "4/-9 equals -4/9, and adding 4/9 to it gives 0. -4/9 is tempting if you add denominators with numerators or misalign place values, but the correct value is 4/9.",
+    explanation: "4/-9 equals -4/9, and adding 4/9 to it gives. -4/9 is tempting if you take the reciprocal instead of the opposite, or drop the sign change; the additive inverse is 4/9.",
     hints: ["First rewrite 4/−9 with the minus sign on top. The additive inverse changes only the sign."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "-5/6" }
     ],
     answerId: "a",
-    explanation: "(-5/6) × (-6/5) = 1, so the reciprocal is -6/5 with the sign kept. 6/5 is tempting if you add denominators with numerators or misalign place values, but the correct value is -6/5.",
+    explanation: "(-5/6) × (-6/5) = 1, so the reciprocal is -6/5 with the sign kept. 6/5 is tempting if you flip the sign away or forget to keep the negative on the reciprocal; the multiplicative inverse is -6/5.",
     hints: ["The reciprocal flips the numerator and denominator of −5/6. Does the sign change?"]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1/2" }
     ],
     answerId: "c",
-    explanation: "Multiplying any rational number by 1 leaves it unchanged, so 1 is the multiplicative identity. 0 is tempting if you add denominators with numerators or misalign place values, but the correct value is 1.",
+    explanation: "Multiplying any rational number by 1 leaves it unchanged, so 1 is the multiplicative identity. 0 is tempting if you confuse the multiplicative identity with the additive identity; multiplying by 1 leaves every rational unchanged.",
     hints: ["The multiplicative identity is the number you multiply any rational number by to leave it unchanged."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1/2" }
     ],
     answerId: "a",
-    explanation: "No number multiplied by 0 gives 1, so 0 has no reciprocal. 1 is tempting if you add denominators with numerators or misalign place values, but the correct value is 0.",
+    explanation: "No number multiplied by 0 gives 1, so 0 has no reciprocal. 1 is tempting if you flip the sign away or forget to keep the negative on the reciprocal; the multiplicative inverse is 0.",
     hints: ["A number times its multiplicative inverse gives 1. Which rational number can never multiply to give 1?"]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1/2" }
     ],
     answerId: "b",
-    explanation: "Negative × negative is positive, and 15/60 = 1/4, while 25/9 is the result of dividing instead. -1/4 is tempting if you add denominators with numerators or misalign place values, but the correct value is 1/4.",
+    explanation: "Negative × negative is positive, and 15/60 = 1/4, while 25/9 is the result of dividing instead. -1/4 is tempting if you multiply across only one pair or cancel unmatched factors; multiplying numerators and denominators gives 1/4.",
     hints: ["Negative times negative is positive. Multiply 5 × 3 and 6 × 10, then simplify."]
   },
   {
@@ -432,7 +432,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "-3 and -2" }
     ],
     answerId: "c",
-    explanation: "5/-3 = -5/3, which is -1 and 2/3, so it lies between -2 and -1. -1 and 0 is tempting if you add denominators with numerators or misalign place values, but the correct value is -2 and -1.",
+    explanation: "5/-3 = -5/3, which is -1 and 2/3, so it lies between -2 and -1. -1 and 0 is tempting if you pick an endpoint or a value outside the open interval; a rational strictly between the bounds is -2 and -1.",
     hints: ["Rewrite 5/−3 as a mixed number: how many whole units fit in 5 thirds, and what is the sign?"]
   },
   {
@@ -445,7 +445,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "-9/14" }
     ],
     answerId: "b",
-    explanation: "3/-7 = -3/7, and multiplying the top and bottom by 4 gives -12/28. 12/28 is tempting if you add denominators with numerators or misalign place values, but the correct value is -12/28.",
+    explanation: "3/-7 = -3/7, and multiplying the top and bottom by 4 gives -12/28. 12/28 is tempting if you multiply numerator and denominator by different factors; equivalent form keeps the same value, -12/28.",
     hints: ["Rewrite 3/−7 with the minus sign on top, then multiply top and bottom by the same number."]
   },
   {
@@ -471,7 +471,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "-19/24" }
     ],
     answerId: "d",
-    explanation: "With LCM 24 this is -10/24 − 9/24 = -19/24, while -1/24 wrongly adds 9/24 instead of subtracting it. -8/20 is tempting if you add denominators with numerators or misalign place values, but the correct value is -19/24.",
+    explanation: "With LCM 24 this is -10/24 − 9/24 = -19/24, while -1/24 wrongly adds 9/24 instead of subtracting it. -8/20 is tempting if you subtract the denominators or drop a minus sign; subtracting numerators over the common denominator gives -19/24.",
     hints: ["Use the LCM of 12 and 8 as the denominator, then subtract, keeping track of the minus signs."]
   },
   {
@@ -484,7 +484,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4/3" }
     ],
     answerId: "b",
-    explanation: "(-9/16) × (-4/3) = 36/48 = 3/4, which is positive because there are two negatives. -3/4 is tempting if you add denominators with numerators or misalign place values, but the correct value is 3/4.",
+    explanation: "(-9/16) × (-4/3) = 36/48 = 3/4, which is positive because there are two negatives. -3/4 is tempting if you flip the wrong fraction or forget to multiply by the reciprocal; dividing by a rational means multiplying by its reciprocal, giving 3/4.",
     hints: ["Multiply −9/16 by the reciprocal of the divisor. Two negatives give a positive."]
   },
   {
@@ -497,7 +497,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Additive identity" }
     ],
     answerId: "c",
-    explanation: "The numbers stay in the same order and only the grouping changes, which is associativity. Commutativity of addition is tempting if you add denominators with numerators or misalign place values, but the correct value is Associativity of addition.",
+    explanation: "The numbers stay in the same order and only the grouping changes, which is associativity. Commutativity of addition is tempting if you add the denominators as well as the numerators, or mishandle a sign; with a common denominator the sum is Associativity of addition.",
     hints: ["In (−2/3 + 1/4) + 5/6 the order stays the same; only the brackets move. Which property is about grouping?"]
   },
   {
@@ -510,7 +510,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0 is a rational number" }
     ],
     answerId: "a",
-    explanation: "1 ÷ 2 = 1/2 is not an integer, so integers are not closed under division. Rational numbers are closed under multiplication is tempting if you add denominators with numerators or misalign place values, but the correct value is Integers are closed under division.",
+    explanation: "1 ÷ 2 = 1/2 is not an integer, so integers are not closed under division. Rational numbers are closed under multiplication is tempting if you mishandle a sign or operate on numerators and denominators inconsistently; the correct rational is Integers are closed under division.",
     hints: ["A statement is false if one example breaks it. Test each closure claim with small numbers like 1 and 2."]
   },
   {
@@ -523,7 +523,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3/4, 2/3, 5/8" }
     ],
     answerId: "d",
-    explanation: "In twenty-fourths they are 16/24, 15/24 and 18/24, so from largest to smallest the order is 3/4, 2/3, 5/8. 3/4, 5/8, 2/3 is tempting if you add denominators with numerators or misalign place values, but the correct value is 3/4, 2/3, 5/8.",
+    explanation: "In twenty-fourths they are 16/24, 15/24 and 18/24, so from largest to smallest the order is 3/4, 2/3, 5/8. 3/4, 5/8, 2/3 is tempting if you mishandle a sign or operate on numerators and denominators inconsistently; the correct rational is 3/4, 2/3, 5/8.",
     hints: ["Write 2/3, 5/8 and 3/4 over 24, then put them from largest to smallest."]
   },
   {
@@ -536,7 +536,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1/3" }
     ],
     answerId: "b",
-    explanation: "In twelfths, -1/2 = -6/12 and -1/3 = -4/12, so -5/12 lies between them. -1/4 is tempting if you add denominators with numerators or misalign place values, but the correct value is -5/12.",
+    explanation: "In twelfths, -1/2 = -6/12 and -1/3 = -4/12, so -5/12 lies between them. -1/4 is tempting if you pick an endpoint or a value outside the open interval; a rational strictly between the bounds is -5/12.",
     hints: ["Write −1/2 and −1/3 as twelfths. Which number sits between those two twelfths?"]
   },
   {
@@ -549,7 +549,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1/2" }
     ],
     answerId: "c",
-    explanation: "If -2/3 − x = 1/6, then x = -2/3 − 1/6 = -5/6. -1/2 may look right, but it comes from adding 1/6 to -2/3 instead of subtracting it. -1/2 is tempting if you add denominators with numerators or misalign place values, but the correct value is -5/6.",
+    explanation: "If -2/3 − x = 1/6, then x = -2/3 − 1/6 = -5/6. -1/2 may look right, but it comes from adding 1/6 to -2/3 instead of subtracting it. -1/2 is tempting if you subtract the denominators or drop a minus sign; subtracting numerators over the common denominator gives -5/6.",
     hints: ["Set up −2/3 − x = 1/6, then solve for x using sixths."]
   },
   {
@@ -562,7 +562,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "d",
-    explanation: "The two negatives make the product positive, and (3 × 8 × 3)/(4 × 9 × 2) = 72/72 = 1. -1 is tempting if you add denominators with numerators or misalign place values, but the correct value is 1.",
+    explanation: "The two negatives make the product positive, and (3 × 8 × 3)/(4 × 9 × 2) = 72/72 = 1. -1 is tempting if you multiply across only one pair or cancel unmatched factors; multiplying numerators and denominators gives 1.",
     hints: ["Two negative factors make the product positive. Cancel common factors in (3 × 8 × 3)/(4 × 9 × 2)."]
   },
   {
@@ -588,7 +588,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "-28/45" }
     ],
     answerId: "b",
-    explanation: "Taking 7/9 out as a common factor gives (7/9) × (-4/5 − 1/5) = (7/9) × (-1) = -7/9. 7/9 is tempting if you add denominators with numerators or misalign place values, but the correct value is -7/9.",
+    explanation: "Taking 7/9 out as a common factor gives (7/9) × (-4/5 − 1/5) = (7/9) × (-1) = -7/9. 7/9 is tempting if you subtract the denominators or drop a minus sign; subtracting numerators over the common denominator gives -7/9.",
     hints: ["Both products share the same first factor. Take it out and work out −4/5 − 1/5 first."]
   },
   {
@@ -601,7 +601,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "c",
-    explanation: "-1 = -6/6 and 1/2 = 3/6, so p can be any integer from -5 to 2, which gives 8 values. 7 is tempting if you add denominators with numerators or misalign place values, but the correct value is 8.",
+    explanation: "-1 = -6/6 and 1/2 = 3/6, so p can be any integer from -5 to 2, which gives 8 values. 7 is tempting if you pick an endpoint or a value outside the open interval; a rational strictly between the bounds is 8.",
     hints: ["Write −1 and 1/2 as sixths, then count the integers p strictly between the two numerators."]
   },
   {
@@ -614,7 +614,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "6/23" }
     ],
     answerId: "a",
-    explanation: "x − y = -23/20 and x × y = -3/10, so (-23/20) ÷ (-3/10) = 23/6, while -7/6 uses x + y instead. -23/6 is tempting if you add denominators with numerators or misalign place values, but the correct value is 23/6.",
+    explanation: "x − y = -23/20 and x × y = -3/10, so (-23/20) ÷ (-3/10) = 23/6, while -7/6 uses x + y instead. -23/6 is tempting if you subtract the denominators or drop a minus sign; subtracting numerators over the common denominator gives 23/6.",
     hints: ["Find x − y using twentieths and x × y separately, then divide by multiplying by the reciprocal."]
   },
   {
@@ -627,7 +627,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "-19/12" }
     ],
     answerId: "d",
-    explanation: "The other number is -3/4 − 5/6 = -9/12 − 10/12 = -19/12, while 1/12 subtracts in the wrong order. -8/10 is tempting if you add denominators with numerators or misalign place values, but the correct value is -19/12.",
+    explanation: "The other number is -3/4 − 5/6 = -9/12 − 10/12 = -19/12, while 1/12 subtracts in the wrong order. -8/10 is tempting if you add the denominators as well as the numerators, or mishandle a sign; with a common denominator the sum is -19/12.",
     hints: ["The other number is −3/4 − 5/6. Use 12 as the common denominator."]
   }
 ];
