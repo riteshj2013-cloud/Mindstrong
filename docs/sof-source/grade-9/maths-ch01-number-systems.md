@@ -423,16 +423,20 @@
 - **difficulty**: medium
 
 ### Q10
-- **stem**: (√2)⁶ equals…
+- **id**: g9-maths-numbers-b-q10
+- **stem**: In a number puzzle at her school in Bhopal, Devyani looks for the whole number k for which (∛5)ᵏ = 25. What is k?
 - **options**:
-  - A) 4
-  - B) 16
-  - C) 2√2
-  - D) 8
+  - A) 2
+  - B) 5
+  - C) 9
+  - D) 6
 - **answer**: D
-- **explanation**: (√2)⁶ = (2^{1/2})⁶ = 2³ = 8.
+- **explanation**: ∛5 = 5^(1/3), so (∛5)ᵏ = 5^(k/3). Since 25 = 5², k/3 = 2 and k = 6. Check: (∛5)⁶ = ((∛5)³)² = 5² = 25. 2 is tempting because 5² = 25, but the base here is ∛5, not 5, so it takes three times as many factors to reach 25.
+- **hint**: Write Devyani's ∛5 as a power of 5 with a fraction exponent, and write 25 as a power of 5 as well.
 - **skill**: exponents
 - **difficulty**: medium
+- **type**: mcq
+- **pictorial**: no
 
 ### Q11
 - **stem**: The number 0.101001000100001… (one more zero between 1s each time) is…

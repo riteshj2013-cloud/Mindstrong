@@ -438,16 +438,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g9-maths-numbers-b-q10",
-    prompt: "(√2)⁶ equals…",
+    prompt: "In a number puzzle at her school in Bhopal, Devyani looks for the whole number k for which (∛5)ᵏ = 25. What is k?",
     options: [
-      { id: "a", text: "4" },
-      { id: "b", text: "16" },
-      { id: "c", text: "2√2" },
-      { id: "d", text: "8" }
+      { id: "a", text: "2" },
+      { id: "b", text: "5" },
+      { id: "c", text: "9" },
+      { id: "d", text: "6" }
     ],
     answerId: "d",
-    explanation: "(√2)⁶ = (2^{1/2})⁶ = 2³ = 8. 4 is tempting if you compute (√2)⁴ = 4 and stop one power short of the exponent 6.",
-    hints: ["Convert √2 to a power of 2, then multiply exponents."]
+    explanation: "∛5 = 5^(1/3), so (∛5)ᵏ = 5^(k/3). Since 25 = 5², k/3 = 2 and k = 6. Check: (∛5)⁶ = ((∛5)³)² = 5² = 25. 2 is tempting because 5² = 25, but the base here is ∛5, not 5, so it takes three times as many factors to reach 25.",
+    hints: ["Write Devyani's ∛5 as a power of 5 with a fraction exponent, and write 25 as a power of 5 as well."]
   },
   {
     id: "g9-maths-numbers-b-q11",

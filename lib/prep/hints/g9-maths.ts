@@ -35,7 +35,7 @@ export const G9_MATHS_HINTS: Record<string, HintOverlay> = {
   "g9-maths-numbers-b-q07": ["Simplify each surd to a multiple of √3."],
   "g9-maths-numbers-b-q08": ["Prime-factor the denominator."],
   "g9-maths-numbers-b-q09": ["Irrational ± nonzero rational stays irrational."],
-  "g9-maths-numbers-b-q10": ["Convert √2 to a power of 2, then multiply exponents."],
+  "g9-maths-numbers-b-q10": ["Write Devyani's ∛5 as a power of 5 with a fraction exponent, and write 25 as a power of 5 as well."],
   "g9-maths-numbers-b-q11": ["No fixed repeating block means irrational."],
   "g9-maths-numbers-b-q12": ["Use the difference of squares on conjugates."],
   "g9-maths-numbers-b-q13": ["Only the product (and quotient) rules hold in general for square roots."],

@@ -133,4 +133,5 @@ export const G9_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g9-maths-coord-b-q22": ["Mark what “point, zero” asks for on the axes or point, then test each option against that clue."],
   "g9-maths-coord-b-q23": ["Mark what “pair, points” asks for on the axes or point, then test each option against that clue."],
   "g9-maths-coord-b-q24": ["Mark what “origin” asks for on the axes or point, then test each option against that clue."],
+  "g9-maths-numbers-b-q10": ["Write Devyani's ∛5 as a power of 5 with a fraction exponent, and write 25 as a power of 5 as well."],
 };

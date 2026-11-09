@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "d",
-    explanation: "3³ ÷ 3³ = 3⁰ = 1. 3 is tempting if you mix up whether to add or multiply exponents on the bases in “Simplify”, producing 3 rather than 1.",
+    explanation: "(3⁵ × 3⁻²) ÷ 3³ = 3^{5+(−2)−3} = 3⁰ = 1. 3 is tempting if you stop after 5+(−2)=3 and report that exponent as the answer instead of subtracting 3 and evaluating 3⁰ = 1.",
     hints: ["Add the exponents 5 and −2, then subtract 3. What is any non-zero number to the power 0?"]
   },
   {
@@ -451,16 +451,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-maths-exponents-b-q11",
-    prompt: "Simplify: (3\u2074 \u00d7 3\u00b2) \u00f7 3\u00b3",
+    prompt: "For a Diwali mela in Pune, Bhavik fills 2⁵ gift boxes, putting 2⁴ diyas into every box. All these diyas are then given out equally to 2⁶ families. Written as a power of 2, how many diyas does each family receive?",
     options: [
-      { id: "a", text: "3\u2075" },
-      { id: "b", text: "3\u2078" },
-      { id: "c", text: "3\u00b3" },
-      { id: "d", text: "3" }
+      { id: "a", text: "2¹⁴" },
+      { id: "b", text: "2¹⁵" },
+      { id: "c", text: "2³" },
+      { id: "d", text: "2⁹" }
     ],
     answerId: "c",
-    explanation: "3⁶ ÷ 3³ = 3³. 3⁵ is tempting if you mix up whether to add or multiply exponents on the bases in “Simplify”, producing 3⁵ rather than 3³.",
-    hints: ["Add the exponents 4 and 2 inside the bracket, then subtract the divisor's exponent."]
+    explanation: "The stall has 2⁵ × 2⁴ = 2⁵⁺⁴ = 2⁹ diyas. Sharing them equally among 2⁶ families divides: 2⁹ ÷ 2⁶ = 2⁹⁻⁶ = 2³, so each family gets 2³ = 8 diyas. 2¹⁴ is tempting if you multiply the exponents 5 and 4 to get 2²⁰ before dividing, but multiplying powers of the same base adds their exponents.",
+    hints: ["Bhavik's total is a product of powers with the same base; add those exponents, then subtract the exponent for the families."]
   },
   {
     id: "g8-maths-exponents-b-q12",

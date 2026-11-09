@@ -407,28 +407,36 @@
 - **difficulty**: easy
 
 ### Q05
-- **stem**: What is the perimeter of a square with side 7 cm?
+- **id**: g5-maths-meas-b-q05
+- **stem**: Baldev, a farmer near Nagpur, puts exactly one round of wire 36 m long around his square vegetable patch. How long is each side of the patch?
 - **options**:
-  - A) 14 cm
-  - B) 21 cm
-  - C) 28 cm
-  - D) 49 cm
+  - A) 6 m
+  - B) 12 m
+  - C) 9 m
+  - D) 18 m
 - **answer**: C
-- **explanation**: 4 × 7 = 28 cm.
+- **explanation**: A square has 4 equal sides, and one round of wire is its perimeter. So each side is 36 ÷ 4 = 9 m (check: 4 × 9 = 36 m). 6 m is tempting because 6 × 6 = 36, but that would make 36 the area of the patch, not the length of wire round it.
+- **hint**: The wire goes once round all the equal sides of Baldev's square patch, so share its length equally among those sides.
 - **skill**: perimeter
 - **difficulty**: easy
+- **type**: mcq
+- **pictorial**: no
 
 ### Q06
-- **stem**: What is the area of a square with side 8 cm?
+- **id**: g5-maths-meas-b-q06
+- **stem**: Hemlata's square verandah in Kochi measures 6 m along each edge. She covers the floor completely with square tiles that are 1 m along each edge, with no gaps or overlaps. How many tiles does she use?
 - **options**:
-  - A) 32 cm²
-  - B) 64 cm²
-  - C) 16 cm²
-  - D) 48 cm²
+  - A) 24
+  - B) 36
+  - C) 12
+  - D) 18
 - **answer**: B
-- **explanation**: 8 × 8 = 64 cm².
+- **explanation**: Each tile covers 1 square metre, so the number of tiles equals the area of the floor: 6 m × 6 m = 36 m², which needs 36 tiles. 24 is tempting because 4 × 6 = 24 is the distance round the edge (the perimeter), not the space covered.
+- **hint**: Each tile covers exactly one square metre of Hemlata's verandah, so find how many square metres the floor covers.
 - **skill**: area
 - **difficulty**: easy
+- **type**: mcq
+- **pictorial**: no
 
 ### Q07
 - **stem**: What is the perimeter of a rectangle 9 cm by 4 cm?

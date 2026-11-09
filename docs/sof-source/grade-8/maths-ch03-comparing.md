@@ -575,16 +575,20 @@
 - **difficulty**: medium
 
 ### Q19
-- **stem**: What is the compound interest on ₹5,000 at 8% per year for 2 years, compounded annually?
+- **id**: g8-maths-compare-b-q19
+- **stem**: Yashwant buys a scooter in Ludhiana for ₹80,000. Its value falls by 10% every year, each time on its value at the start of that year. What is the scooter worth after 2 years?
 - **options**:
-  - A) ₹832
-  - B) ₹800
-  - C) ₹864
-  - D) ₹5,832
+  - A) ₹64,800
+  - B) ₹64,000
+  - C) ₹72,000
+  - D) ₹15,200
 - **answer**: A
-- **explanation**: The amount is 5,000 × 1.08 × 1.08 = ₹5,832, so the CI is ₹832, while ₹800 is the simple interest.
+- **explanation**: After 1 year the value is 90% of ₹80,000 = ₹72,000. After 2 years it is 90% of ₹72,000 = ₹64,800 (that is, 80,000 × 0.9 × 0.9). ₹64,000 is tempting if you take 10% of ₹80,000 off twice, but the second year's 10% is taken from the lower value of ₹72,000.
+- **hint**: Find the value of Yashwant's scooter after the first year, then take the percentage fall from that new value for the next year.
 - **skill**: compound_interest
 - **difficulty**: medium
+- **type**: mcq
+- **pictorial**: no
 
 ### Q20
 - **stem**: A price is first increased by 25% and then decreased by 20%. What is the net change?

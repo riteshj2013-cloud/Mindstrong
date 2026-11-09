@@ -581,16 +581,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-maths-frac-b-q21",
-    prompt: "Convert 0.125 to a fraction in simplest form.",
+    prompt: "Mrinalini's grandmother in Rajkot uses 3/8 kg of peanuts from a 1 kg packet to make chikki. Which decimal shows the amount of peanuts she uses?",
     options: [
-      { id: "a", text: "1/8" },
-      { id: "b", text: "125/1000" },
-      { id: "c", text: "1/4" },
-      { id: "d", text: "5/40" }
+      { id: "a", text: "0.375 kg" },
+      { id: "b", text: "0.38 kg" },
+      { id: "c", text: "3.8 kg" },
+      { id: "d", text: "0.83 kg" }
     ],
     answerId: "a",
-    explanation: "0.125 = 125/1000 = 1/8. 125/1000 is tempting if you skip a common denominator or mis-place a decimal in “Convert / fraction / simplest”, reaching 125/1000 instead of 1/8, noticing form.",
-    hints: ["Write 0.125 as 125/1000, then keep dividing the top and bottom by 5."]
+    explanation: "3/8 means 3 ÷ 8. Since 1/8 = 0.125, 3/8 = 3 × 0.125 = 0.375, so she uses 0.375 kg of peanuts. 0.38 kg is tempting if you just write the digits 3 and 8 after the decimal point, but 0.38 is 38/100, not 3/8.",
+    hints: ["Mrinalini's grandmother's fraction is a division; divide the numerator by the denominator, adding zeros after the decimal point."]
   },
   {
     id: "g6-maths-frac-b-q22",

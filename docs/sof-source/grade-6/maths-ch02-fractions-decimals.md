@@ -508,15 +508,20 @@
 - **hint**: Match forms, then subtract.
 
 ### Q21
-- **stem**: Convert 0.125 to a fraction in simplest form.
+- **id**: g6-maths-frac-b-q21
+- **stem**: Mrinalini's grandmother in Rajkot uses 3/8 kg of peanuts from a 1 kg packet to make chikki. Which decimal shows the amount of peanuts she uses?
 - **options**:
-  - A) 1/8
-  - B) 125/1000
-  - C) 1/4
-  - D) 5/40
+  - A) 0.375 kg
+  - B) 0.38 kg
+  - C) 3.8 kg
+  - D) 0.83 kg
 - **answer**: A
-- **explanation**: 0.125 = 125/1000 = 1/8.
-- **hint**: Three decimal places → /1000, then simplify.
+- **explanation**: 3/8 means 3 ÷ 8. Since 1/8 = 0.125, 3/8 = 3 × 0.125 = 0.375, so she uses 0.375 kg of peanuts. 0.38 kg is tempting if you just write the digits 3 and 8 after the decimal point, but 0.38 is 38/100, not 3/8.
+- **hint**: Mrinalini's grandmother's fraction is a division; divide the numerator by the denominator, adding zeros after the decimal point.
+- **skill**: fraction_decimal_conversion
+- **difficulty**: medium
+- **type**: mcq
+- **pictorial**: no
 
 ### Q22
 - **stem**: Which statement about 0.7 and 7/10 is true?

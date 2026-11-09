@@ -555,16 +555,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-maths-compare-b-q19",
-    prompt: "What is the compound interest on \u20b95,000 at 8% per year for 2 years, compounded annually?",
+    prompt: "Yashwant buys a scooter in Ludhiana for ₹80,000. Its value falls by 10% every year, each time on its value at the start of that year. What is the scooter worth after 2 years?",
     options: [
-      { id: "a", text: "\u20b9832" },
-      { id: "b", text: "\u20b9800" },
-      { id: "c", text: "\u20b9864" },
-      { id: "d", text: "\u20b95,832" }
+      { id: "a", text: "₹64,800" },
+      { id: "b", text: "₹64,000" },
+      { id: "c", text: "₹72,000" },
+      { id: "d", text: "₹15,200" }
     ],
     answerId: "a",
-    explanation: "The amount is 5,000 × 1.08 × 1.08 = ₹5,832, so the CI is ₹832, while ₹800 is the simple interest. ₹800 is tempting if you treat a percentage or ratio in “compound / interest / per” as a raw count, which lands on ₹800 instead of ₹832.",
-    hints: ["Grow ₹5,000 by 8% for one year, then grow that amount by 8% again. Subtract ₹5,000."]
+    explanation: "After 1 year the value is 90% of ₹80,000 = ₹72,000. After 2 years it is 90% of ₹72,000 = ₹64,800 (that is, 80,000 × 0.9 × 0.9). ₹64,000 is tempting if you take 10% of ₹80,000 off twice, but the second year's 10% is taken from the lower value of ₹72,000.",
+    hints: ["Find the value of Yashwant's scooter after the first year, then take the percentage fall from that new value for the next year."]
   },
   {
     id: "g8-maths-compare-b-q20",
