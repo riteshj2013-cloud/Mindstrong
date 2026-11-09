@@ -240,7 +240,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-maths-data-a-q19",
-    prompt: "A tally shows |||| |||| || for red votes. How many votes for red?",
+    prompt: "Look at the tally chart. How many votes for red?",
     options: [
       { id: "a", text: "10" },
       { id: "b", text: "8" },
@@ -248,9 +248,10 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "c",
-    explanation: "Two bundles of 5 and two more make 12. 10 is tempting if you misread how many strokes sit in one tally bundle (each crossed bundle is 5); counting carefully gives 12.",
-    hints: ["Each |||| group in a tally has a slash across it, making a bundle of 5. Count the bundles, then the single strokes."]
-  },
+    explanation: "Two crossed bundles of 5 and two single strokes make 5 + 5 + 2 = 12. 10 is tempting if you count only the two bundles and forget the two extra strokes.",
+    hints: ["Each crossed group is a bundle of 5. Count the bundles, then the single strokes."]
+  ,
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 320 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Tally of two crossed bundles of five and two single strokes\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"320\" height=\"160\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"160.0\" y=\"28\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Red votes tally</text>\n  <line class=\"part tally\" x1=\"40\" y1=\"70\" x2=\"40\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"50\" y1=\"70\" x2=\"50\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"60\" y1=\"70\" x2=\"60\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"70\" y1=\"70\" x2=\"70\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"36\" y1=\"114\" x2=\"74\" y2=\"76\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"102\" y1=\"70\" x2=\"102\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"112\" y1=\"70\" x2=\"112\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"122\" y1=\"70\" x2=\"122\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"132\" y1=\"70\" x2=\"132\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"98\" y1=\"114\" x2=\"136\" y2=\"76\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"164\" y1=\"70\" x2=\"164\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"174\" y1=\"70\" x2=\"174\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <text class=\"label small\" x=\"160.0\" y=\"145\" font-size=\"11\" text-anchor=\"middle\" fill=\"#666\">Each crossed group is a bundle of 5.</text>\n</svg>", "alt": "Two crossed tally bundles of five and two single strokes for red votes."}},
   {
     id: "g5-maths-data-a-q20",
     prompt: "Which is needed on a clear bar graph?",
@@ -555,7 +556,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-data-b-q19",
-    prompt: "A tally shows |||| |||| |||| | for blue cars. How many blue cars?",
+    prompt: "Look at the tally chart. How many blue cars?",
     options: [
       { id: "a", text: "14" },
       { id: "b", text: "15" },
@@ -563,9 +564,10 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "c",
-    explanation: "Three bundles of 5 and one more = 16. 15 is tempting if you misread how many strokes sit in one tally bundle (each crossed bundle is 5); counting carefully gives 16.",
-    hints: ["In a tally, each |||| group with a slash is a bundle of 5. Count the bundles in fives, then add the single stroke."]
-  },
+    explanation: "Three crossed bundles of 5 and one single stroke make 15 + 1 = 16. 15 is tempting if you count only the three bundles and leave out the final single stroke.",
+    hints: ["Each crossed group is a bundle of 5. Count the bundles in fives, then add the single stroke."]
+  ,
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 320 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Tally of three crossed bundles of five and one single stroke\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"320\" height=\"160\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"160.0\" y=\"28\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Blue cars tally</text>\n  <line class=\"part tally\" x1=\"40\" y1=\"70\" x2=\"40\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"50\" y1=\"70\" x2=\"50\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"60\" y1=\"70\" x2=\"60\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"70\" y1=\"70\" x2=\"70\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"36\" y1=\"114\" x2=\"74\" y2=\"76\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"102\" y1=\"70\" x2=\"102\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"112\" y1=\"70\" x2=\"112\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"122\" y1=\"70\" x2=\"122\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"132\" y1=\"70\" x2=\"132\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"98\" y1=\"114\" x2=\"136\" y2=\"76\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"164\" y1=\"70\" x2=\"164\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"174\" y1=\"70\" x2=\"174\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"184\" y1=\"70\" x2=\"184\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"194\" y1=\"70\" x2=\"194\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"160\" y1=\"114\" x2=\"198\" y2=\"76\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"226\" y1=\"70\" x2=\"226\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <text class=\"label small\" x=\"160.0\" y=\"145\" font-size=\"11\" text-anchor=\"middle\" fill=\"#666\">Each crossed group is a bundle of 5.</text>\n</svg>", "alt": "Three crossed tally bundles of five and one single stroke for blue cars."}},
   {
     id: "g5-maths-data-b-q20",
     prompt: "Scale on a bar graph is 1 unit = 2 goals. A bar is 9 units tall. Goals scored?",
