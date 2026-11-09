@@ -165,7 +165,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "They cannot be compared" }
     ],
     answerId: "b",
-    explanation: "With the same numerator, the smaller denominator means bigger pieces, so 1/5 is greater even though 8 is bigger than 5. 1/8 is tempting if you compare numerators alone (or denominators alone) without a common denominator; the correct comparison gives 1/5.",
+    explanation: "With the same numerator, smaller denominator means larger pieces, so 1/5 > 1/8. 1/8 is tempting if you think the larger denominator makes the larger fraction.",
     hints: ["Share one roti among 5 children and another among 8. Which share is bigger?"]
   },
   {
@@ -296,7 +296,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "25" }
     ],
     answerId: "a",
-    explanation: "There are 3/8 × 40 = 15 girls and 40 − 15 = 25 boys, so there are 25 − 15 = 10 more boys. 5 is tempting if you compare numerators alone (or denominators alone) without a common denominator; the correct comparison gives 10.",
+    explanation: "Girls = 3/8 × 40 = 15; boys = 40 − 15 = 25; more boys = 25 − 15 = 10. 15 is tempting if you stop after finding the number of girls and report that instead of the difference.",
     hints: ["Find the girls as 3/8 of 40. The boys are the rest; subtract girls from boys."]
   },
   {
@@ -488,7 +488,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "It cannot be told" }
     ],
     answerId: "c",
-    explanation: "Compare 2/3 and 3/4 using twelfths: 2/3 = 8/12 and 3/4 = 9/12, so Sukanya has eaten more. Both have eaten the same amount is tempting because each girl has one piece of her bar left, but a quarter of a bar is a smaller piece than a third, so Sukanya has less left and has eaten more.",
+    explanation: "2/3 = 8/12 and 3/4 = 9/12, so Sukanya has eaten more. Both have eaten the same amount is tempting if you notice each girl has one piece left and treat 1/3 left as equal to 1/4 left.",
     hints: ["Write Harshita's fraction and her cousin's fraction as twelfths, or compare the size of the piece each girl still has left."]
   },
   {
@@ -607,7 +607,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5/9" }
     ],
     answerId: "d",
-    explanation: "Each fraction is just over half, and the amount over half shrinks from 2/3 to 5/9, which makes 5/9 the smallest. 2/3 is tempting if you compare numerators alone (or denominators alone) without a common denominator; the correct comparison gives 5/9.",
+    explanation: "As decimals: 2/3 ≈ 0.667, 3/5 = 0.6, 4/7 ≈ 0.571, 5/9 ≈ 0.556, so 5/9 is smallest. 2/3 is tempting if you pick the fraction with the smallest denominator, thinking that must be the smallest share.",
     hints: ["Change each fraction to a decimal by dividing top by bottom, then find the smallest."]
   },
   {
@@ -646,7 +646,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "70" }
     ],
     answerId: "c",
-    explanation: "If 2/5 is 14 marbles, then 1/5 is 7 marbles, so all 5/5 is 5 × 7 = 35 marbles. 28 is tempting if you compare numerators alone (or denominators alone) without a common denominator; the correct comparison gives 35.",
+    explanation: "If 2/5 = 14, then 1/5 = 7, so the whole is 5 × 7 = 35. 28 is tempting if you multiply 14 by the numerator 2 instead of finding one-fifth and then multiplying by 5.",
     hints: ["If 2/5 is 14 marbles, then 1/5 is half of 14. Multiply that by 5 for the whole."]
   }
 ];

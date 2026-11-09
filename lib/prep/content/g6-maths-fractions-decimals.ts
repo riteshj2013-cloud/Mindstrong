@@ -53,8 +53,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "16" }
     ],
     answerId: "d",
-    explanation: "2/5 × 40 = 16. 20 is tempting if you multiply only the numerators (or only the denominators) and leave the other pair; multiplying both pairs gives 16.",
-    hints: ["Divide by 5, then multiply by 2."]
+    explanation: "2/5 of 40 = 2 × (40 ÷ 5) = 16. 20 is tempting if you take half of 40 instead of two-fifths.",
+    hints: ["2/5 means 2 out of every 5 equal parts. Share 40 into 5 equal groups. How many of those groups does 2/5 ask you to take?"]
   },
   {
     id: "g6-maths-frac-a-q05",
@@ -368,8 +368,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1.8" }
     ],
     answerId: "d",
-    explanation: "2.4 ÷ 4 = 0.6; 0.6 × 3 = 1.8. 3.2 is tempting if you move the decimal one place instead of two when converting; the correct place shift gives 1.8.",
-    hints: ["Quarter of 2.4, then triple it."]
+    explanation: "2.4 ÷ 4 = 0.6 and 0.6 × 3 = 1.8. 1.2 is tempting if you take only half of 2.4 (2 of the 4 parts) instead of 3 of the 4 parts.",
+    hints: ["3/4 of a number means 3 of its 4 equal parts. What is one of the 4 equal parts of 2.4?"]
   },
   {
     id: "g6-maths-frac-b-q05",
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3.52" }
     ],
     answerId: "d",
-    explanation: "6.00 − 2.48 = 3.52. 4.52 is tempting if you compare the digits left-to-right without aligning place values.",
+    explanation: "6.00 − 2.48 = 3.52. 4.52 is tempting if you borrow to work out .00 − .48 = .52 but forget that the borrow turns the 6 into 5, so you still write 6 − 2 = 4 in the ones place.",
     hints: ["Write 6 as 6.00, then subtract."]
   },
   {
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.8" }
     ],
     answerId: "d",
-    explanation: "2/5 = 0.4; 0.4 + 0.4 = 0.8. 0.9 is tempting if you treat the decimals as fractions with different denominators and add tops only; aligning tenths gives 0.8.",
+    explanation: "2/5 = 0.4, so 0.4 + 0.4 = 0.8. 0.6 is tempting if you treat 2/5 as 0.2 and add 0.4 + 0.2.",
     hints: ["Convert 2/5 to a decimal first."]
   },
   {
@@ -628,8 +628,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "d",
-    explanation: "18 ÷ 6 = 3; 3 × 5 = 15. 12 is tempting if you treat a mixed number as an improper fraction with the wrong conversion; converting carefully gives 15.",
-    hints: ["One-sixth of 18, then five of those."]
+    explanation: "18 ÷ 6 = 3 and 3 × 5 = 15. 12 is tempting if you take 4/6 of 18 (two-thirds) instead of 5/6.",
+    hints: ["5/6 of 18 means 5 of its 6 equal parts. How big is one of those 6 parts?"]
   }
 ];
 
