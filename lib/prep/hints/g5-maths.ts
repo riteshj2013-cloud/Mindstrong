@@ -22,7 +22,7 @@ export const G5_MATHS_HINTS: Record<string, HintOverlay> = {
   "g5-maths-angles-a-q17": ["A right angle is a square corner — like a book corner."],
   "g5-maths-angles-a-q18": ["Classify by size: acute < right < obtuse < straight."],
   "g5-maths-angles-a-q19": ["A straight angle is a flat half-turn — 180°."],
-  "g5-maths-angles-a-q20": ["Each hour mark is 30°. Count marks from 12 to the hour hand."],
+  "g5-maths-angles-a-q20": ["On Gurleen's dial each step from one number to the next is 30°; count the steps along the dashed arc."],
   "g5-maths-angles-a-q21": ["Classify by size: acute < right < obtuse < straight."],
   "g5-maths-angles-a-q22": ["Classify by size: acute < right < obtuse < straight."],
   "g5-maths-angles-a-q23": ["Classify by size: acute < right < obtuse < straight."],

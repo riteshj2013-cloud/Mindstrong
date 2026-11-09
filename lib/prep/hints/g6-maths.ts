@@ -80,7 +80,7 @@ export const G6_MATHS_HINTS: Record<string, HintOverlay> = {
   "g6-maths-frac-b-q02": ["Match denominators, then subtract."],
   "g6-maths-frac-b-q03": ["Cross-multiply or simplify both."],
   "g6-maths-frac-b-q04": ["With 3, 4, 2 (q04), match denominators or place values before you compare or compute."],
-  "g6-maths-frac-b-q05": ["Two decimal places → /100, then simplify."],
+  "g6-maths-frac-b-q05": ["Turn each fraction into a decimal and test it against the two marks on Nishtha's number line."],
   "g6-maths-frac-b-q06": ["Divide; remainder over the denominator."],
   "g6-maths-frac-b-q07": ["Align decimal points."],
   "g6-maths-frac-b-q08": ["With 6, 2, 48 (q08), match denominators or place values before you compare or compute."],

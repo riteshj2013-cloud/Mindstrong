@@ -45,12 +45,12 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-maths-exponents-a-q04",
-    prompt: "(3\u00b2)\u00b3 = ?",
+    prompt: "(3²)³ = ?",
     options: [
-      { id: "a", text: "3\u2076" },
-      { id: "b", text: "3\u2075" },
-      { id: "c", text: "9\u00b3" },
-      { id: "d", text: "3\u2079" }
+      { id: "a", text: "3⁶" },
+      { id: "b", text: "3⁵" },
+      { id: "c", text: "3⁸" },
+      { id: "d", text: "3⁹" }
     ],
     answerId: "a",
     explanation: "Power of a power: multiply exponents, 2 × 3 = 6. 3⁵ is tempting if you add the exponents instead of multiplying them for a power of a power; multiplying the exponents gives 3⁶.",
@@ -136,16 +136,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-maths-exponents-a-q11",
-    prompt: "Simplify: (2\u00b3 \u00d7 2\u2075) \u00f7 2\u2074",
+    prompt: "Rasika, who lives in Jaipur, works out 2⁶ × 5⁶ without a calculator. How many zeros are there at the end of her answer?",
     options: [
-      { id: "a", text: "2\u00b9\u00b2" },
-      { id: "b", text: "2\u00b2" },
-      { id: "c", text: "2\u2074" },
-      { id: "d", text: "2\u2078" }
+      { id: "a", text: "12" },
+      { id: "b", text: "36" },
+      { id: "c", text: "6" },
+      { id: "d", text: "5" }
     ],
     answerId: "c",
-    explanation: "2⁸ ÷ 2⁴ = 2⁴. 2¹² is tempting if you multiply the exponents instead of adding them (same-base product rule); adding the exponents gives 2⁴.",
-    hints: ["Add the exponents 3 and 5 inside the bracket first, then subtract the divisor's exponent."]
+    explanation: "When two powers have the same exponent, you can multiply the bases: 2⁶ × 5⁶ = (2 × 5)⁶ = 10⁶ = 1,000,000, which ends in 6 zeros. 12 is tempting if you add the exponents 6 and 6, but adding exponents works only when the bases are the same, and here the bases 2 and 5 are different.",
+    hints: ["Pair each 2 in Rasika's product with a 5; think about what every such pair multiplies to."]
   },
   {
     id: "g8-maths-exponents-a-q12",
@@ -253,16 +253,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-maths-exponents-a-q20",
-    prompt: "Simplify: (3\u2075 \u00d7 3\u207b\u00b2) \u00f7 3\u00b3",
+    prompt: "In her school laboratory in Guwahati, Tarini looks at a tiny cell that is 10⁻⁵ m long. How many such cells, placed end to end in a straight line, would make a line 10⁻² m long?",
     options: [
-      { id: "a", text: "3" },
-      { id: "b", text: "3\u00b2" },
-      { id: "c", text: "3\u207b\u00b9" },
-      { id: "d", text: "1" }
+      { id: "a", text: "10⁻³" },
+      { id: "b", text: "10⁷" },
+      { id: "c", text: "10⁻⁷" },
+      { id: "d", text: "10³" }
     ],
     answerId: "d",
-    explanation: "(3⁵ × 3⁻²) ÷ 3³ = 3^{5+(−2)−3} = 3⁰ = 1. 3 is tempting if you treat 3⁰ as 3; any non-zero number to the power 0 is 1.",
-    hints: ["Add the exponents 5 and −2, then subtract 3. What is any non-zero number to the power 0?"]
+    explanation: "Number of cells = length of the line ÷ length of one cell = 10⁻² ÷ 10⁻⁵ = 10⁻²⁻⁽⁻⁵⁾ = 10³, that is 1,000 cells. 10⁻³ is tempting if you divide the wrong way round (10⁻⁵ ÷ 10⁻²), but a count of cells must be more than 1, because each cell is much shorter than the line.",
+    hints: ["Divide the length of the whole line by the length of one of Tarini's cells; for powers of the same base, subtract the exponents."]
   },
   {
     id: "g8-maths-exponents-a-q21",
@@ -305,16 +305,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-maths-exponents-a-q24",
-    prompt: "Simplify: (10\u00b3 \u00d7 10\u207b\u2075) \u00f7 10\u207b\u2074",
+    prompt: "In a class quiz in Chennai, Sunanda must write (p³q²)⁴ ÷ (p⁵q³)² in its simplest form, where p and q are not zero. What should she write?",
     options: [
-      { id: "a", text: "10\u2070" },
-      { id: "b", text: "10\u207b\u2076" },
-      { id: "c", text: "10\u2074" },
-      { id: "d", text: "10\u00b2" }
+      { id: "a", text: "q" },
+      { id: "b", text: "p²q" },
+      { id: "c", text: "p⁻²q⁻²" },
+      { id: "d", text: "p²q²" }
     ],
     answerId: "d",
-    explanation: "First (10³ × 10⁻⁵) = 10³⁺(⁻⁵) = 10⁻². Then divide: 10⁻² ÷ 10⁻⁴ = 10^{(−2)−(−4)} = 10^{−2+4} = 10². 10⁻⁶ is tempting if you add −4 instead of subtracting it; 10⁻²⁺⁴ = 10².",
-    hints: ["Add the exponents 3 and −5, then subtract −4. Subtracting a negative exponent adds."]
+    explanation: "Raising a product to a power multiplies each exponent: (p³q²)⁴ = p¹²q⁸ and (p⁵q³)² = p¹⁰q⁶. Dividing subtracts the exponents of matching letters: p¹²⁻¹⁰q⁸⁻⁶ = p²q². The option q is tempting if you add the outside power instead of multiplying (p⁷q⁶ ÷ p⁷q⁵), but a power of a power multiplies the exponents.",
+    hints: ["Multiply every exponent inside each of Sunanda's brackets by the power outside, then subtract exponents of matching letters."]
   }
 ];
 
@@ -568,16 +568,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-maths-exponents-b-q20",
-    prompt: "Simplify: (2\u2074 \u00f7 2\u2077) \u00d7 2\u00b3",
+    prompt: "In an inter-school maths relay in Indore, Aarush's team must find the value of (2/3)³ × (3/2)⁵. What is the value?",
     options: [
-      { id: "a", text: "2" },
-      { id: "b", text: "2\u207b\u00b9" },
-      { id: "c", text: "2\u2076" },
-      { id: "d", text: "1" }
+      { id: "a", text: "4/9" },
+      { id: "b", text: "1" },
+      { id: "c", text: "3/2" },
+      { id: "d", text: "9/4" }
     ],
     answerId: "d",
-    explanation: "2⁻³ × 2³ = 2⁰ = 1. 2 is tempting if you multiply the exponents instead of adding them (same-base product rule); adding the exponents gives 1.",
-    hints: ["Subtract the exponents 4 − 7, then add 3. What is any non-zero number to that power?"]
+    explanation: "3/2 is the reciprocal of 2/3, so (3/2)⁵ = (2/3)⁻⁵. Then (2/3)³ × (2/3)⁻⁵ = (2/3)³⁻⁵ = (2/3)⁻² = (3/2)² = 9/4. 4/9 is tempting if you end with (2/3)² instead of (2/3)⁻², forgetting that the bigger power belongs to 3/2.",
+    hints: ["Write the second fraction in Aarush's product as a power of 2/3 with a negative exponent, then add the exponents."]
   },
   {
     id: "g8-maths-exponents-b-q21",
@@ -620,16 +620,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-maths-exponents-b-q24",
-    prompt: "Simplify: (10\u207b\u00b2 \u00d7 10\u2074) \u00f7 10\u207b\u00b9",
+    prompt: "For a puzzle in her school magazine in Ahmedabad, Anupama must write 9³ × 27² as a single power of 3. Which power of 3 is correct?",
     options: [
-      { id: "a", text: "10\u00b9" },
-      { id: "b", text: "10\u207b\u00b3" },
-      { id: "c", text: "10\u2075" },
-      { id: "d", text: "10\u00b3" }
+      { id: "a", text: "3⁵" },
+      { id: "b", text: "3³⁶" },
+      { id: "c", text: "3¹⁰" },
+      { id: "d", text: "3¹²" }
     ],
     answerId: "d",
-    explanation: "10² ÷ 10⁻¹ = 10³. 10¹ is tempting if you multiply the exponents instead of adding them (same-base product rule); adding the exponents gives 10³.",
-    hints: ["Add the exponents −2 and 4, then subtract −1. Subtracting a negative exponent adds."]
+    explanation: "Write each base as a power of 3: 9 = 3² and 27 = 3³. Then 9³ = (3²)³ = 3⁶ and 27² = (3³)² = 3⁶, so 9³ × 27² = 3⁶ × 3⁶ = 3¹². 3⁵ is tempting if you just add the outside exponents 3 and 2, but the bases are 9 and 27, not 3, so they must first be written as powers of 3.",
+    hints: ["Rewrite Anupama's two bases as powers of a common smaller base before you use any exponent law."]
   }
 ];
 

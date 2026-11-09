@@ -290,16 +290,21 @@
 - **difficulty**: medium
 
 ### Q20
-- **stem**: At exactly 8 o'clock, what is the REFLEX angle between the hands of a clock?
+- **id**: g5-maths-angles-a-q20
+- **stem**: For an art project in Amritsar, Gurleen takes the hands off an old wall clock and stretches two ribbons from the centre of the dial: one to the number 2 and one to the number 7. The dashed arc in the picture marks the reflex angle between the ribbons. What is the size of this reflex angle?
+- **alt**: A clock dial numbered 1 to 12 with no hands. An orange ribbon goes from the centre to 2 and a purple ribbon goes from the centre to 7. A dashed green arc goes the long way round, from 7 past 12 to 2.
 - **options**:
-  - A) 120°
-  - B) 160°
-  - C) 200°
-  - D) 240°
+  - A) 150°
+  - B) 180°
+  - C) 240°
+  - D) 210°
 - **answer**: D
-- **explanation**: The smaller angle is 4 gaps × 30° = 120°, so the reflex angle is 360° − 120° = 240°.
+- **explanation**: Neighbouring numbers on a clock dial are 360° ÷ 12 = 30° apart. The short way from 2 to 7 is 5 steps, so the smaller angle is 5 × 30° = 150°, and the reflex angle is 360° − 150° = 210° (the long way, from 7 past 12 to 2, is 7 steps, and 7 × 30° = 210°). 150° is tempting because it is the smaller angle between the ribbons, but a reflex angle is the one greater than 180°.
+- **hint**: On Gurleen's dial each step from one number to the next is 30°; count the steps along the dashed arc.
 - **skill**: clock_angle
 - **difficulty**: hard
+- **type**: pictorial
+- **pictorial**: yes
 
 ### Q21
 - **stem**: Sita faces East. She turns 90° anticlockwise and then 180° clockwise. Which direction is she facing now?
