@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "75%" }
     ],
     answerId: "d",
-    explanation: "3/4 × 100% = 75%, while 34% just joins the digits together. 43% is tempting if you compare the wrong quantities or forget to simplify.",
+    explanation: "3/4 × 100% = 75%, while 34% just joins the digits together. 43% is tempting if you rearrange the digits or multiply by 10 instead of by 100; multiplying by 100 gives 75%.",
     hints: ["Multiply 3/4 by 100%, or first change 3/4 to a fraction out of 100."]
   },
   {
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.08%" }
     ],
     answerId: "b",
-    explanation: "Multiplying by 100 gives 0.08 × 100 = 8%. 0.8% is tempting if you compare the wrong quantities or forget to simplify.",
+    explanation: "Multiplying by 100 gives 0.08 × 100 = 8%. 0.8% is tempting if you rearrange the digits or multiply by 10 instead of by 100; multiplying by 100 gives 8%.",
     hints: ["Multiply 0.08 by 100: move the decimal point two places to the right."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5 : 1" }
     ],
     answerId: "a",
-    explanation: "2 m is 200 cm, so 40 : 200 = 1 : 5, while 20 : 1 forgets to convert the units. 1 : 20 is tempting if you compare the wrong quantities or forget to simplify.",
+    explanation: "2 m is 200 cm, so 40 : 200 = 1 : 5, while 20 : 1 forgets to convert the units. 1 : 20 is tempting if you skip converting to the same unit before simplifying, or invert the order; matching units first gives 1 : 5.",
     hints: ["Change 2 m to centimetres first, then divide both parts of the ratio by their HCF."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b960" }
     ],
     answerId: "c",
-    explanation: "15/100 × 600 = ₹90. ₹900 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹90.",
+    explanation: "15/100 × 600 = ₹90. ₹900 is tempting if you move the decimal one place instead of two when turning a rate into an amount; ₹90 is the true percentage of the base.",
     hints: ["Find 1% of ₹600 by dividing by 100, then multiply by 15."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Loss of \u20b920" }
     ],
     answerId: "a",
-    explanation: "SP is more than CP, so there is a profit of ₹300 − ₹250 = ₹50. Loss of ₹50 is tempting if you stop one step early or reverse a step, but the correct result is Profit of ₹50.",
+    explanation: "SP is more than CP, so there is a profit of ₹300 − ₹250 = ₹50. Loss of ₹50 is tempting if you swap selling price and cost price; because SP > CP here the result is Profit of ₹50.",
     hints: ["Compare the selling price ₹300 with the cost price ₹250. Which is bigger, and by how much?"]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b9680" }
     ],
     answerId: "d",
-    explanation: "SP = MP − discount = ₹800 − ₹120 = ₹680. ₹800 is tempting if you stop one step early or reverse a step, but the correct result is ₹680.",
+    explanation: "SP = MP − discount = ₹800 − ₹120 = ₹680. ₹800 is tempting if you quote the marked price itself or subtract the wrong amount; SP = MP − discount gives ₹680.",
     hints: ["Selling price = marked price − discount. Subtract ₹120 from ₹800."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b930" }
     ],
     answerId: "b",
-    explanation: "I = (2000 × 5 × 3)/100 = ₹300, while ₹2,300 is the amount, not the interest. ₹100 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹300.",
+    explanation: "I = (2000 × 5 × 3)/100 = ₹300, while ₹2,300 is the amount, not the interest. ₹100 is tempting if you compute rate × base and then divide by 10 rather than by 100; the correct percentage amount is ₹300.",
     hints: ["Use SI = P × R × T ÷ 100 with P = ₹2,000, R = 5 and T = 3."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "80%" }
     ],
     answerId: "c",
-    explanation: "18/24 = 3/4, which is 75%, while 25% is the percentage who failed. 80% is tempting if you compare the wrong quantities or forget to simplify.",
+    explanation: "18/24 = 3/4, which is 75%, while 25% is the percentage who failed. 80% is tempting if you treat the percentage as a raw count instead of parts per hundred; converting correctly gives 75%.",
     hints: ["Write 18 out of 24 as a fraction, simplify it, then multiply by 100%."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "60%" }
     ],
     answerId: "a",
-    explanation: "The increase of ₹10 on the original ₹50 is 20%, while 16 2/3% wrongly divides by the new price. 16 2/3% is tempting if you compare the wrong quantities or forget to simplify.",
+    explanation: "The increase of ₹10 on the original ₹50 is 20%, while 16 2/3% wrongly divides by the new price. 16 2/3% is tempting if you treat the percentage as a raw count instead of parts per hundred; converting correctly gives 20%.",
     hints: ["Find the rise in rupees, then divide it by the original price ₹50 and multiply by 100."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b920" }
     ],
     answerId: "b",
-    explanation: "5% of ₹400 is ₹20, so the bill is ₹400 + ₹20 = ₹420. ₹405 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹420.",
+    explanation: "5% of ₹400 is ₹20, so the bill is ₹400 + ₹20 = ₹420. ₹405 is tempting if you use the complementary percentage (100 − rate) on the base; applying the stated rate gives ₹420.",
     hints: ["Find 5% of ₹400, then add it to ₹400 for the total bill."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "250%" }
     ],
     answerId: "c",
-    explanation: "The loss is ₹250, and 250/1250 × 100 = 20%, while 25% wrongly divides by SP. 25% is tempting if you compare the wrong quantities or forget to simplify.",
+    explanation: "The loss is ₹250, and 250/1250 × 100 = 20%, while 25% wrongly divides by SP. 25% is tempting if you treat the percentage as a raw count instead of parts per hundred; converting correctly gives 20%.",
     hints: ["Find the loss in rupees, then divide it by the cost price ₹1,250 and multiply by 100."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b91,360" }
     ],
     answerId: "d",
-    explanation: "15% of ₹1,600 is ₹240, so SP = ₹1,600 − ₹240 = ₹1,360, while ₹240 is only the discount. ₹1,585 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹1,360.",
+    explanation: "15% of ₹1,600 is ₹240, so SP = ₹1,600 − ₹240 = ₹1,360, while ₹240 is only the discount. ₹1,585 is tempting if you treat the percentage as a fraction out of 10 instead of 100; out of 100 gives ₹1,360.",
     hints: ["Find 15% of ₹1,600, then subtract that discount from the marked price."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b921,600" }
     ],
     answerId: "b",
-    explanation: "The new salary is 1.2 times the old one, so the old salary is 18,000 ÷ 1.2 = ₹15,000, while ₹14,400 wrongly takes 20% off the new salary. ₹14,000 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹15,000.",
+    explanation: "The new salary is 1.2 times the old one, so the old salary is 18,000 ÷ 1.2 = ₹15,000, while ₹14,400 wrongly takes 20% off the new salary. ₹14,000 is tempting if you treat the percentage as a raw count instead of parts per hundred; converting correctly gives ₹15,000.",
     hints: ["After a 20% raise the new salary is 120% of the old one. Divide ₹18,000 by 1.2."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b99,720" }
     ],
     answerId: "a",
-    explanation: "P = (540 × 100)/(6 × 3) = 54,000/18 = ₹3,000. ₹1,800 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹3,000.",
+    explanation: "P = (540 × 100)/(6 × 3) = 54,000/18 = ₹3,000. ₹1,800 is tempting if you round an intermediate decimal before multiplying by the base; keeping precision gives ₹3,000.",
     hints: ["Use P = (SI × 100) ÷ (R × T) with SI = ₹540, R = 6 and T = 3."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b9600" }
     ],
     answerId: "d",
-    explanation: "25% of ₹480 is ₹120, so SP = ₹480 + ₹120 = ₹600, while ₹384 is a 20% loss. ₹505 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹600.",
+    explanation: "25% of ₹480 is ₹120, so SP = ₹480 + ₹120 = ₹600, while ₹384 is a 20% loss. ₹505 is tempting if you treat the percentage as a raw count instead of parts per hundred; converting correctly gives ₹600.",
     hints: ["Find 25% of ₹480 (a quarter of it), then add it to the cost price."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "60" }
     ],
     answerId: "c",
-    explanation: "There are 5 + 3 = 8 parts, so each part is 96 ÷ 8 = 12, and the girls are 3 × 12 = 36. 32 is tempting if you compare the wrong quantities or forget to simplify.",
+    explanation: "There are 5 + 3 = 8 parts, so each part is 96 ÷ 8 = 12, and the girls are 3 × 12 = 36. 32 is tempting if you skip converting to the same unit before simplifying, or invert the order; matching units first gives 36.",
     hints: ["The ratio 5 : 3 has 5 + 3 equal parts. Find one part of 96, then take the girls' share."]
   },
   {
@@ -221,7 +221,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "27,000" }
     ],
     answerId: "a",
-    explanation: "8% of 25,000 is 2,000, so the new population is 25,000 − 2,000 = 23,000. 24,800 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is 23,000.",
+    explanation: "8% of 25,000 is 2,000, so the new population is 25,000 − 2,000 = 23,000. 24,800 is tempting if you apply the rate to a nearby round number instead of the given base; the exact calculation is 23,000.",
     hints: ["Find 8% of 25,000, then subtract it from the population."]
   },
   {
@@ -234,7 +234,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "24%" }
     ],
     answerId: "b",
-    explanation: "The interest is ₹1,200, so R = (1200 × 100)/(5000 × 3) = 8%, while 24% forgets to divide by the 3 years. 12% is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is 8%.",
+    explanation: "The interest is ₹1,200, so R = (1200 × 100)/(5000 × 3) = 8%, while 24% forgets to divide by the 3 years. 12% is tempting if you forget the /100 in SI = (P×R×T)/100, or use the amount in place of interest; the correct figure is 8%.",
     hints: ["First find the interest: ₹6,200 − ₹5,000. Then use R = SI × 100 ÷ (P × T)."]
   },
   {
@@ -247,7 +247,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b912,100" }
     ],
     answerId: "c",
-    explanation: "The amount is 10,000 × 1.1 × 1.1 = ₹12,100, so the CI is ₹2,100, while ₹2,000 is the simple interest. ₹1,100 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹2,100.",
+    explanation: "The amount is 10,000 × 1.1 × 1.1 = ₹12,100, so the CI is ₹2,100, while ₹2,000 is the simple interest. ₹1,100 is tempting if you find what percent ₹2,100 is of something else rather than the asked percentage of the base; the asked amount is ₹2,100.",
     hints: ["Grow ₹10,000 by 10% for one year, then grow that new amount by 10% again. Subtract ₹10,000."]
   },
   {
@@ -260,7 +260,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2% decrease" }
     ],
     answerId: "a",
-    explanation: "1.2 × 0.8 = 0.96, so the final price is 4% less than the original, because the second 20% is taken on a bigger amount. 4% increase is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is 4% decrease.",
+    explanation: "1.2 × 0.8 = 0.96, so the final price is 4% less than the original, because the second 20% is taken on a bigger amount. 4% increase is tempting if you add the rate to the base instead of taking that percent of it; 4% decrease is the percentage amount.",
     hints: ["Start with a price of ₹100. Increase it by 20%, then decrease the new price by 20%."]
   },
   {
@@ -273,7 +273,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5% profit" }
     ],
     answerId: "d",
-    explanation: "For CP = ₹100, MP = ₹140 and SP = 140 × 0.75 = ₹105, so the profit is 5%, not 40% − 25% = 15%. 5% loss is tempting if you compare the wrong quantities or forget to simplify.",
+    explanation: "For CP = ₹100, MP = ₹140 and SP = 140 × 0.75 = ₹105, so the profit is 5%, not 40% − 25% = 15%. 5% loss is tempting if you move the decimal one place instead of two when turning a rate into an amount; 5% profit is the true percentage of the base.",
     hints: ["Take the cost price as ₹100. Mark it up by 40%, then take 25% off the marked price."]
   },
   {
@@ -286,7 +286,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b92,508.80" }
     ],
     answerId: "b",
-    explanation: "The price including GST is 1.12 times the original, so the original is 2,240 ÷ 1.12 = ₹2,000, while ₹1,971.20 wrongly takes 12% off ₹2,240. ₹1,880 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹2,000.",
+    explanation: "The price including GST is 1.12 times the original, so the original is 2,240 ÷ 1.12 = ₹2,000, while ₹1,971.20 wrongly takes 12% off ₹2,240. ₹1,880 is tempting if you compute rate × base and then divide by 10 rather than by 100; the correct percentage amount is ₹2,000.",
     hints: ["The bill is 112% of the price before GST. Divide ₹2,240 by 1.12."]
   },
   {
@@ -299,7 +299,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b9820" }
     ],
     answerId: "c",
-    explanation: "SI = ₹800 and CI = 8,000 × 1.05² − 8,000 = ₹820, so the difference is ₹20. ₹0 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹20.",
+    explanation: "SI = ₹800 and CI = 8,000 × 1.05² − 8,000 = ₹820, so the difference is ₹20. ₹0 is tempting if you use the complementary percentage (100 − rate) on the base; applying the stated rate gives ₹20.",
     hints: ["Find the simple interest for 2 years, then the compound interest by growing ₹8,000 by 5% twice. Subtract."]
   },
   {
@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "35% profit" }
     ],
     answerId: "a",
-    explanation: "The SPs are ₹4,800 and ₹3,400, which total ₹8,200 against a CP of ₹8,000, so the profit is ₹200 = 2.5%. 2.5% loss is tempting if you compare the wrong quantities or forget to simplify.",
+    explanation: "The SPs are ₹4,800 and ₹3,400, which total ₹8,200 against a CP of ₹8,000, so the profit is ₹200 = 2.5%. 2.5%. 2.5%. 2.5% loss is tempting if you treat the percentage as a fraction out of 10 instead of 100; out of 100 gives 25%.",
     hints: ["Find each selling price: ₹4,000 plus 20%, and ₹4,000 minus 15%. Compare their total with ₹8,000."]
   }
 ];
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "20%" }
     ],
     answerId: "b",
-    explanation: "2/5 × 100% = 40%. 25% is tempting if you compare the wrong quantities or forget to simplify.",
+    explanation: "2/5 × 100% = 40%. 25% is tempting if you multiply only the numerator by something near 10, or confuse 2/5 with 1/4; multiplying the fraction by 100 gives 40%.",
     hints: ["Multiply 2/5 by 100%, or make the denominator 100 first."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.375%" }
     ],
     answerId: "c",
-    explanation: "Multiplying by 100 gives 0.375 × 100 = 37.5%. 3.75% is tempting if you compare the wrong quantities or forget to simplify.",
+    explanation: "Multiplying by 100 gives 0.375 × 100 = 37.5%. 3. 3.75% is tempting if you rearrange the digits or multiply by 10 instead of by 100; multiplying by 100 gives 37.5%.",
     hints: ["Multiply 0.375 by 100: move the decimal point two places to the right."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1 : 4" }
     ],
     answerId: "d",
-    explanation: "3 kg is 3,000 g, so 750 : 3000 = 1 : 4, while 250 : 1 forgets to convert the units. 1 : 40 is tempting if you compare the wrong quantities or forget to simplify.",
+    explanation: "3 kg is 3,000 g, so 750 : 3000 = 1 : 4, while 250 : 1 forgets to convert the units. 1 : 40 is tempting if you skip converting to the same unit before simplifying, or invert the order; matching units first gives 1 : 4.",
     hints: ["Change 3 kg to grams first, then divide both parts of the ratio by 750."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b9540" }
     ],
     answerId: "a",
-    explanation: "12/100 × 450 = ₹54. ₹45 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹54.",
+    explanation: "12/100 × 450 = ₹54. ₹45 is tempting if you round an intermediate decimal before multiplying by the base; keeping precision gives ₹54.",
     hints: ["Find 10% of ₹450 and 2% of ₹450, then add them."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Profit of \u20b9600" }
     ],
     answerId: "c",
-    explanation: "SP is less than CP, so there is a loss of ₹640 − ₹600 = ₹40. Profit of ₹40 is tempting if you stop one step early or reverse a step, but the correct result is Loss of ₹40.",
+    explanation: "SP is less than CP, so there is a loss of ₹640 − ₹600 = ₹40. Profit of ₹40 is tempting if you swap selling price and cost price; because CP > SP here the result is Loss of ₹40.",
     hints: ["Compare the selling price ₹600 with the cost price ₹640. Which is bigger, and by how much?"]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b9150" }
     ],
     answerId: "d",
-    explanation: "Discount = MP − SP = ₹1,250 − ₹1,100 = ₹150. ₹50 is tempting if you stop one step early or reverse a step, but the correct result is ₹150.",
+    explanation: "Discount = MP − SP = ₹1,250 − ₹1,100 = ₹150. ₹50 is tempting if you quote the marked price itself or subtract the wrong amount; SP = MP − discount gives ₹150.",
     hints: ["Discount = marked price − selling price. Subtract ₹1,100 from ₹1,250."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b92,400" }
     ],
     answerId: "a",
-    explanation: "I = (1500 × 8 × 2)/100 = ₹240, while ₹120 is the interest for just 1 year. ₹120 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹240.",
+    explanation: "I = (1500 × 8 × 2)/100 = ₹240, while ₹120 is the interest for just 1 year. ₹120 is tempting if you apply the rate to a nearby round number instead of the given base; the exact calculation is ₹240.",
     hints: ["Use SI = P × R × T ÷ 100 with P = ₹1,500, R = 8 and T = 2."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "30%" }
     ],
     answerId: "b",
-    explanation: "42/60 = 0.7, which is 70%. 60% is tempting if you compare the wrong quantities or forget to simplify.",
+    explanation: "42/60 = 0.7, which is 70%. 60% is tempting if you treat the percentage as a raw count instead of parts per hundred; converting correctly gives 70%.",
     hints: ["Write 42 out of 60 as a fraction, simplify it, then multiply by 100%."]
   },
   {
@@ -432,7 +432,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15%" }
     ],
     answerId: "d",
-    explanation: "The fall of ₹12 on the original ₹80 is 15%, while 12% treats the rupee drop as a percent. 12% is tempting if you compare the wrong quantities or forget to simplify.",
+    explanation: "The fall of ₹12 on the original ₹80 is 15%, while 12% treats the rupee drop as a percent. 12% is tempting if you treat the percentage as a raw count instead of parts per hundred; converting correctly gives 15%.",
     hints: ["Find the fall in rupees, then divide it by the original price ₹80 and multiply by 100."]
   },
   {
@@ -445,7 +445,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b9410" }
     ],
     answerId: "b",
-    explanation: "18% of ₹500 is ₹90, while ₹590 is the total bill. ₹590 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹90.",
+    explanation: "18% of ₹500 is ₹90, while ₹590 is the total bill. ₹590 is tempting if you treat the percentage as a raw count instead of parts per hundred; converting correctly gives ₹90.",
     hints: ["The question asks for the GST alone. Find 18% of ₹500 as 10% plus 8%."]
   },
   {
@@ -458,7 +458,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "120%" }
     ],
     answerId: "c",
-    explanation: "The profit is ₹120, and 120/800 × 100 = 15%, while about 13% wrongly divides by SP. 13% is tempting if you compare the wrong quantities or forget to simplify.",
+    explanation: "The profit is ₹120, and 120/800 × 100 = 15%, while about 13% wrongly divides by SP. 13% is tempting if you treat the percentage as a raw count instead of parts per hundred; converting correctly gives 15%.",
     hints: ["Find the profit in rupees, then divide it by the cost price ₹800 and multiply by 100."]
   },
   {
@@ -471,7 +471,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b92,488" }
     ],
     answerId: "a",
-    explanation: "12% of ₹2,500 is ₹300, so SP = ₹2,500 − ₹300 = ₹2,200. ₹2,800 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹2,200.",
+    explanation: "12% of ₹2,500 is ₹300, so SP = ₹2,500 − ₹300 = ₹2,200. ₹2,800 is tempting if you find what percent ₹2,200 is of something else rather than the asked percentage of the base; the asked amount is ₹2,200.",
     hints: ["Find 12% of ₹2,500, then subtract that discount from the marked price."]
   },
   {
@@ -484,7 +484,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b91,200" }
     ],
     answerId: "d",
-    explanation: "The new price is 0.9 times the old one, so the old price is 1,080 ÷ 0.9 = ₹1,200, while ₹1,188 wrongly adds 10% of the new price. ₹1,180 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹1,200.",
+    explanation: "The new price is 0.9 times the old one, so the old price is 1,080 ÷ 0.9 = ₹1,200, while ₹1,188 wrongly adds 10% of the new price. ₹1,180 is tempting if you treat the percentage as a raw count instead of parts per hundred; converting correctly gives ₹1,200.",
     hints: ["After a 10% cut the price is 90% of the original. Divide ₹1,080 by 0.9."]
   },
   {
@@ -497,7 +497,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "30 years" }
     ],
     answerId: "c",
-    explanation: "T = (900 × 100)/(4000 × 7.5) = 90,000/30,000 = 3 years. 2 years is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is 3 years.",
+    explanation: "T = (900 × 100)/(4000 × 7.5) = 90,000/30,000 = 3 years. 2 years is tempting if you treat the percentage as a raw count instead of parts per hundred; converting correctly gives 3 years.",
     hints: ["Use T = (SI × 100) ÷ (P × R) with SI = ₹900, P = ₹4,000 and R = 7.5."]
   },
   {
@@ -510,7 +510,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b91,340" }
     ],
     answerId: "b",
-    explanation: "10% of ₹1,350 is ₹135, so SP = ₹1,350 − ₹135 = ₹1,215, while ₹1,485 adds the loss instead. ₹1,485 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹1,215.",
+    explanation: "10% of ₹1,350 is ₹135, so SP = ₹1,350 − ₹135 = ₹1,215, while ₹1,485 adds the loss instead. ₹1,485 is tempting if you add the rate to the base instead of taking that percent of it; ₹1,215 is the percentage amount.",
     hints: ["Find 10% of ₹1,350, then subtract it from the cost price because it is a loss."]
   },
   {
@@ -523,7 +523,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "60" }
     ],
     answerId: "d",
-    explanation: "7 parts are 84 mangoes, so 1 part is 12 and 5 parts are 60 apples. 49 is tempting if you compare the wrong quantities or forget to simplify.",
+    explanation: "7 parts are 84 mangoes, so 1 part is 12 and 5 parts are 60 apples. 49 is tempting if you skip converting to the same unit before simplifying, or invert the order; matching units first gives 60.",
     hints: ["7 parts of the ratio are the 84 mangoes. Find one part, then the apples are 5 parts."]
   },
   {
@@ -536,7 +536,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b910,200" }
     ],
     answerId: "a",
-    explanation: "15% of ₹12,000 is ₹1,800, so the new fee is ₹12,000 + ₹1,800 = ₹13,800. ₹13,200 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹13,800.",
+    explanation: "15% of ₹12,000 is ₹1,800, so the new fee is ₹12,000 + ₹1,800 = ₹13,800. ₹13,200 is tempting if you move the decimal one place instead of two when turning a rate into an amount; ₹13,800 is the true percentage of the base.",
     hints: ["Find 15% of ₹12,000 as 10% plus 5%, then add it to the old fee."]
   },
   {
@@ -549,7 +549,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b97,950" }
     ],
     answerId: "b",
-    explanation: "I = (7500 × 6 × 4)/100 = ₹1,800, so the amount is ₹7,500 + ₹1,800 = ₹9,300. ₹1,800 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹9,300.",
+    explanation: "I = (7500 × 6 × 4)/100 = ₹1,800, so the amount is ₹7,500 + ₹1,800 = ₹9,300. ₹1,800 is tempting if you compute rate × base and then divide by 10 rather than by 100; the correct percentage amount is ₹9,300.",
     hints: ["Find the simple interest with P = ₹7,500, R = 6, T = 4. The amount is principal plus interest."]
   },
   {
@@ -562,7 +562,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b95,832" }
     ],
     answerId: "a",
-    explanation: "The amount is 5,000 × 1.08 × 1.08 = ₹5,832, so the CI is ₹832, while ₹800 is the simple interest. ₹800 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹832.",
+    explanation: "The amount is 5,000 × 1.08 × 1.08 = ₹5,832, so the CI is ₹832, while ₹800 is the simple interest. ₹800 is tempting if you use the complementary percentage (100 − rate) on the base; applying the stated rate gives ₹832.",
     hints: ["Grow ₹5,000 by 8% for one year, then grow that amount by 8% again. Subtract ₹5,000."]
   },
   {
@@ -575,7 +575,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "No change" }
     ],
     answerId: "d",
-    explanation: "1.25 × 0.8 = 1, so the final price equals the original price. 5% increase is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is No change.",
+    explanation: "1.25 × 0.8 = 1, so the final price equals the original price. 5% increase is tempting if you treat the percentage as a fraction out of 10 instead of 100; out of 100 gives No change.",
     hints: ["Start with a price of ₹100. Increase it by 25%, then decrease the new price by 20%."]
   },
   {
@@ -588,7 +588,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b91,050" }
     ],
     answerId: "c",
-    explanation: "The required SP is 750 × 1.2 = ₹900, and SP = 0.9 × MP, so MP = 900 ÷ 0.9 = ₹1,000. ₹975 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹1,000.",
+    explanation: "The required SP is 750 × 1.2 = ₹900, and SP = 0.9 × MP, so MP = 900 ÷ 0.9 = ₹1,000. ₹975 is tempting if you treat the percentage as a raw count instead of parts per hundred; converting correctly gives ₹1,000.",
     hints: ["First find the selling price for a 20% profit on ₹750. That selling price is 90% of the marked price."]
   },
   {
@@ -601,7 +601,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b990" }
     ],
     answerId: "d",
-    explanation: "The price before tax is 1,890 ÷ 1.05 = ₹1,800, so the GST is ₹90, while ₹94.50 wrongly takes 5% of the whole bill. ₹1,800 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹90.",
+    explanation: "The price before tax is 1,890 ÷ 1.05 = ₹1,800, so the GST is ₹90, while ₹94.50 wrongly takes 5% of the whole bill. ₹1,800 is tempting if you treat the percentage as a raw count instead of parts per hundred; converting correctly gives ₹90.",
     hints: ["The bill is 105% of the price before GST. Find that price from ₹1,890, then subtract."]
   },
   {
@@ -614,7 +614,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "22,100" }
     ],
     answerId: "b",
-    explanation: "Growth compounds each year, so 20,000 × 1.05 × 1.05 = 22,050, while 22,000 treats it as simple growth. 22,000 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is 22,050.",
+    explanation: "Growth compounds each year, so 20,000 × 1.05 × 1.05 = 22,050, while 22,000 treats it as simple growth. 22,000 is tempting if you treat the percentage as a raw count instead of parts per hundred; converting correctly gives 22,050.",
     hints: ["Growth compounds: increase 20,000 by 5%, then increase that new number by 5% again."]
   },
   {
@@ -627,7 +627,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b97,020" }
     ],
     answerId: "c",
-    explanation: "CP = 5,850 ÷ 0.9 = ₹6,500, so the SP for a 10% gain is 6,500 × 1.1 = ₹7,150, while ₹6,435 wrongly adds 10% to ₹5,850. ₹6,435 is tempting if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹7,150.",
+    explanation: "CP = 5,850 ÷ 0.9 = ₹6,500, so the SP for a 10% gain is 6,500 × 1.1 = ₹7,150, while ₹6,435 wrongly adds 10% to ₹5,850. ₹6,435 is tempting if you treat the percentage as a raw count instead of parts per hundred; converting correctly gives ₹7,150.",
     hints: ["₹5,850 is 90% of the cost price. Find the cost price, then add 10% of it."]
   }
 ];

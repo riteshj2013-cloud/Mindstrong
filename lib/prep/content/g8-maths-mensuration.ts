@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "120 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "Area = length × breadth = 12 × 5 = 60 cm². 34 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 60 cm².",
+    explanation: "Area = length × breadth = 12 × 5 = 60 cm². 34 cm² is tempting if you add length and breadth (perimeter pieces) instead of multiplying; area = l × b gives 60 cm².",
     hints: ["Area of a rectangle = length × breadth. Multiply 12 cm by 5 cm."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "32 cm\u00b2" }
     ],
     answerId: "c",
-    explanation: "Area = (1/2) × base × height = (1/2) × 10 × 6 = 30 cm². 32 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 30 cm².",
+    explanation: "Area = (1/2) × base × height = (1/2) × 10 × 6 = 30 cm². 32 cm² is tempting if you forget the ½ in (1/2)×base×height, or use base+height; including the half gives 30 cm².",
     hints: ["Area of a triangle = ½ × base × height. Use base 10 cm and height 6 cm."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "44 cm" }
     ],
     answerId: "d",
-    explanation: "C = 2πr = 2 × (22/7) × 7 = 44 cm. 22 cm is tempting if you use the wrong place-value jump between units, but the correct conversion gives 44 cm.",
+    explanation: "C = 2πr = 2 × (22/7) × 7 = 44 cm. 22 cm is tempting if you compute πr (or πr²) instead of 2πr; circumference = 2πr gives 44 cm.",
     hints: ["Circumference = 2πr. Put r = 7 cm and π = 22/7; the 7s cancel."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "22 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "A = πr² = (22/7) × 49 = 154 cm². 49 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 154 cm².",
+    explanation: "A = πr² = (22/7) × 49 = 154 cm². 49 cm² is tempting if you stop at r² or compute 2πr (circumference) instead of πr²; area = πr² gives 154 cm².",
     hints: ["Area = πr². Square the radius 7 cm, then multiply by 22/7."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12 cm\u00b3" }
     ],
     answerId: "b",
-    explanation: "Volume = a³ = 4³ = 64 cm³. 48 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 64 cm³.",
+    explanation: "Volume = a³ = 4³ = 64 cm³. 48 cm³ is tempting if you compute 4×edge² (surface pieces) or edge² instead of edge³; volume = a³ gives 64 cm³.",
     hints: ["Volume of a cube = edge × edge × edge. Multiply 4 cm by itself three times."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "60 cm\u00b3" }
     ],
     answerId: "c",
-    explanation: "V = l × b × h = 5 × 3 × 2 = 30 cm³. 15 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 30 cm³.",
+    explanation: "V = l × b × h = 5 × 3 × 2 = 30 cm³. 15 cm³ is tempting if you multiply only two dimensions or add them; volume = l × b × h gives 30 cm³.",
     hints: ["Volume of a cuboid = length × breadth × height. Multiply 5, 3 and 2."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "100 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "LSA = 4a² = 4 × 25 = 100 cm². 125 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 100 cm².",
+    explanation: "LSA = 4a² = 4 × 25 = 100 cm². 125 cm² is tempting if you compute 4a² (lateral only) or a³ (volume) instead of 6a²; total surface area = 6a² gives 100 cm².",
     hints: ["The lateral surface of a cube is its 4 side faces. Each face is 5 cm × 5 cm."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "18 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "TSA = 6a² = 6 × 9 = 54 cm². 36 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 54 cm².",
+    explanation: "TSA = 6a² = 6 × 9 = 54 cm². 36 cm² is tempting if you compute 4a² (lateral only) or a³ (volume) instead of 6a²; total surface area = 6a² gives 54 cm².",
     hints: ["A cube has 6 equal square faces. Find the area of one face with edge 3 cm, then multiply."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "80 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "Area = base × height = 8 × 5 = 40 cm². 20 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 40 cm².",
+    explanation: "Area = base × height = 8 × 5 = 40 cm². 20 cm² is tempting if you forget a factor of 2 in the formula; including it gives 40 cm².",
     hints: ["Area of a parallelogram = base × height. Use base 8 cm and height 5 cm."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "44 cm" }
     ],
     answerId: "c",
-    explanation: "Radius is half the diameter: 14/2 = 7 cm. 14 cm is tempting if you use the wrong place-value jump between units, but the correct conversion gives 7 cm.",
+    explanation: "Radius is half the diameter: 14/2 = 7 cm. 14 cm is tempting if you double a length that should stay single (or confuse diameter with radius); the correct measure is 7 cm.",
     hints: ["The radius goes from the centre to the edge: half of the 14 cm diameter."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "32 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "Area = (1/2)(a + b)h = (1/2)(10 + 6)×4 = 32 cm². 24 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 32 cm².",
+    explanation: "Area = (1/2)(a + b)h = (1/2)(10 + 6)×4 = 32 cm². 24 cm² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 32 cm².",
     hints: ["Area of a trapezium = ½ × (sum of parallel sides) × height. Add 10 and 6 first."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "770 cm\u00b3" }
     ],
     answerId: "a",
-    explanation: "V = πr²h = (22/7)×49×10 = 1540 cm³. 770 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 1540 cm³.",
+    explanation: "V = πr²h = (22/7)×49×10 = 1540 cm³. 770 cm³ is tempting if you use 2πrh (a surface formula) or forget π; volume = πr²h gives 1540 cm³.",
     hints: ["Volume of a cylinder = πr²h. Find the base area with r = 7 cm, then multiply by h = 10 cm."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "140 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "CSA = 2πrh = 2×(22/7)×7×10 = 440 cm². 220 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 440 cm².",
+    explanation: "CSA = 2πrh = 2×(22/7)×7×10 = 440 cm². 220 cm² is tempting if you mix lateral and total surface formulas or drop a 2πr term; the correct surface measure is 440 cm².",
     hints: ["Curved surface area = 2πrh. Use r = 7 cm, h = 10 cm and π = 22/7."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "480 cm\u00b2" }
     ],
     answerId: "c",
-    explanation: "TSA = 2(lb + bh + hl) = 2(48 + 30 + 40) = 2×118 = 236 cm². 240 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 236 cm².",
+    explanation: "TSA = 2(lb + bh + hl) = 2(48 + 30 + 40) = 2×118 = 236 cm². 240 cm² is tempting if you use only two face pairs or confuse TSA with LSA; the full surface formula gives 236 cm².",
     hints: ["TSA = 2(lb + bh + hl). Find 8 × 6, 6 × 5 and 5 × 8 first."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "54 m\u00b2" }
     ],
     answerId: "d",
-    explanation: "Lateral area = 2(l + b)h = 2(5 + 4)×3 = 54 m². 60 m² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 54 m².",
+    explanation: "Lateral area = 2(l + b)h = 2(5 + 4)×3 = 54 m². 60 m² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 54 m².",
     hints: ["Four walls = 2(length + breadth) × height. Use 5 m, 4 m and the 3 m height."]
   },
   {
@@ -221,7 +221,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6400 m\u00b2" }
     ],
     answerId: "a",
-    explanation: "Side = 80/4 = 20 m; area = 20² = 400 m². 200 m² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 400 m².",
+    explanation: "Side = 80/4 = 20 m; area = 20² = 400 m². 200 m² is tempting if you forget a factor of 2 in the formula; including it gives 400 m².",
     hints: ["Divide the 80 m perimeter by 4 to get one side of the square park, then square that side."]
   },
   {
@@ -234,7 +234,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "36" }
     ],
     answerId: "b",
-    explanation: "Along each edge 6/2 = 3 cubes; 3³ = 27. 36 is tempting if you use the wrong place-value jump between units, but the correct conversion gives 27.",
+    explanation: "Along each edge 6/2 = 3 cubes; 3³ = 27. 36 is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 27.",
     hints: ["Find how many 2 cm cubes fit along one 6 cm edge, then cube that number."]
   },
   {
@@ -247,7 +247,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7 cm" }
     ],
     answerId: "c",
-    explanation: "By Pythagoras: √(36 + 64) = √100 = 10 cm. 7 cm is tempting if you use the wrong place-value jump between units, but the correct conversion gives 10 cm.",
+    explanation: "By Pythagoras: √(36 + 64) = √100 = 10 cm. 7 cm is tempting if you add the sides instead of using the Pythagoras/space-diagonal formula; the correct diagonal is 10 cm.",
     hints: ["The diagonal makes a right triangle with the 6 cm and 8 cm sides. Use Pythagoras."]
   },
   {
@@ -260,7 +260,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "269.5 m\u00b3" }
     ],
     answerId: "d",
-    explanation: "V = (22/7)×(3.5)²×7 = (22/7)×12.25×7 = 22×12.25 = 269.5 m³. 154 m³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 269.5 m³.",
+    explanation: "V = (22/7)×(3.5)²×7 = (22/7)×12.25×7 = 22×12.25 = 269.5 m³. 154 m³ is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 269.5 m³.",
     hints: ["V = πr²h. Square 3.5 m first, then multiply by 22/7 and by 7 m; the 7s cancel."]
   },
   {
@@ -273,7 +273,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "440 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "TSA = 2πr(h + r) = 2×(22/7)×7×(5 + 7) = 44×12 = 528 cm². 440 cm² is tempting if you use the wrong place-value jump between units, but the correct conversion gives 528 cm².",
+    explanation: "TSA = 2πr(h + r) = 2×(22/7)×7×(5 + 7) = 44×12 = 528 cm². 440 cm² is tempting if you mix lateral and total surface formulas or drop a 2πr term; the correct surface measure is 528 cm².",
     hints: ["TSA of a cylinder = 2πr(h + r). Use r = 7 cm and h = 5 cm."]
   },
   {
@@ -286,7 +286,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "39 m\u00b2" }
     ],
     answerId: "b",
-    explanation: "Inner square side 18 m; path area = 400 − 324 = 76 m². 39 m² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 76 m².",
+    explanation: "Inner square side 18 m; path area = 400 − 324 = 76 m². 39 m² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 76 m².",
     hints: ["The path takes 1 m off each side, so the inner square's side is 20 m − 2 m. Subtract inner area from outer."]
   },
   {
@@ -299,7 +299,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1.2 m\u00b3" }
     ],
     answerId: "c",
-    explanation: "Depth = 0.8 m; V = 2 × 1.5 × 0.8 = 2.4 m³. 2.4. 2.4 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 2.4 m³. 2.4 cm³ is tempting if you use the wrong formula or mix length with area/volume; the correct result is 2.4 m³.",
+    explanation: "Depth = 0.8 m; V = 2 × 1.5 × 0.8 = 2.4 m³. 2.4. 2.4. 2.4 cm³ is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 2.4 m³.",
     hints: ["Change the 80 cm depth to metres first, then multiply length × breadth × depth."]
   },
   {
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "110 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "Area = side² = 11² = 121 cm². 110 cm² is tempting if you use the wrong formula or mix length with area/volume; the correct result is 121 cm².",
+    explanation: "Area = side² = 11² = 121 cm². 110 cm² is tempting if you compute 10 × 11 (as if one side were shortened) instead of 11 × 11; squaring the side gives 121 cm².",
     hints: ["Area of a square = side × side. Multiply 11 cm by 11 cm."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "38 cm" }
     ],
     answerId: "b",
-    explanation: "P = 2(l + b) = 2(15 + 8) = 46 cm. 38 cm is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 46 cm.",
+    explanation: "P = 2(l + b) = 2(15 + 8) = 46 cm. 38 cm is tempting if you compute length × breadth (the area) or forget to double; perimeter = 2(l + b) gives 46 cm.",
     hints: ["Perimeter of a rectangle = 2 × (length + breadth). Add 15 cm and 8 cm first."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "28 cm\u00b2" }
     ],
     answerId: "c",
-    explanation: "Area = (1/2)×6×8 = 24 cm². 28 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 24 cm².",
+    explanation: "Area = (1/2)×6×8 = 24 cm². 28 cm² is tempting if you forget the ½ in (1/2)×base×height, or use base+height; including the half gives 24 cm².",
     hints: ["In a right triangle the two legs are the base and height. Area = ½ × 6 × 8."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "14 cm" }
     ],
     answerId: "d",
-    explanation: "C = πd ⇒ d = 44 × 7/22 = 14 cm. 7 cm is tempting if you use the wrong place-value jump between units, but the correct conversion gives 14 cm.",
+    explanation: "C = πd ⇒ d = 44 × 7/22 = 14 cm. 7 cm is tempting if you compute πr (or πr²) instead of 2πr; circumference = 2πr gives 14 cm.",
     hints: ["Circumference = πd. Divide 44 cm by 22/7, which means multiplying by 7/22."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "308 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "r = 7; A = (22/7)×49 = 154 cm². 44 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 154 cm².",
+    explanation: "r = 7; A = (22/7)×49 = 154 cm². 44 cm² is tempting if you stop at r² or compute 2πr (circumference) instead of πr²; area = πr² gives 154 cm².",
     hints: ["Halve the 14 cm diameter to get the radius, then use area = πr²."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "10 cm" }
     ],
     answerId: "b",
-    explanation: "a³ = 125 ⇒ a = 5 cm. 10 cm is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 5 cm.",
+    explanation: "a³ = 125 ⇒ a = 5 cm. 10 cm is tempting if you compute 4×edge² (surface pieces) or edge² instead of edge³; volume = a³ gives 5 cm.",
     hints: ["Find the number that, multiplied by itself three times, gives 125."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "240 cm\u00b3" }
     ],
     answerId: "c",
-    explanation: "V = 10 × 4 × 3 = 120 cm³. 40 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 120 cm³.",
+    explanation: "V = 10 × 4 × 3 = 120 cm³. 40 cm³ is tempting if you multiply only two dimensions or add them; volume = l × b × h gives 120 cm³.",
     hints: ["Volume of a cuboid = length × breadth × height. Multiply 10, 4 and 3."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "52 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "2(12 + 6 + 8) = 2×26 = 52 cm². 48 cm² is tempting if you use the wrong place-value jump between units, but the correct conversion gives 52 cm².",
+    explanation: "2(12 + 6 + 8) = 2×26 = 52 cm². 48 cm² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 52 cm².",
     hints: ["TSA = 2(lb + bh + hl). Find 4 × 3, 3 × 2 and 2 × 4 first."]
   },
   {
@@ -432,7 +432,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "50 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "LSA = 2(l + b)h = 2(6 + 4)×5 = 100 cm². 120 cm² is tempting if you use the wrong place-value jump between units, but the correct conversion gives 100 cm².",
+    explanation: "LSA = 2(l + b)h = 2(6 + 4)×5 = 100 cm². 120 cm² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 100 cm².",
     hints: ["LSA of a cuboid = 2(length + breadth) × height. Use 6 cm, 4 cm and height 5 cm."]
   },
   {
@@ -445,7 +445,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "36 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "Area = (1/2)×d₁×d₂ = (1/2)×10×8 = 40 cm². 36 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 40 cm².",
+    explanation: "Area = (1/2)×d₁×d₂ = (1/2)×10×8 = 40 cm². 36 cm² is tempting if you add the sides instead of using the Pythagoras/space-diagonal formula; the correct diagonal is 40 cm².",
     hints: ["Area of a rhombus = ½ × product of the diagonals. Use 10 cm and 8 cm."]
   },
   {
@@ -458,7 +458,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2772 m\u00b2" }
     ],
     answerId: "c",
-    explanation: "A = (22/7)×441 = 1386 m². 462 m² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 1386 m².",
+    explanation: "A = (22/7)×441 = 1386 m². 462 m² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 1386 m².",
     hints: ["Area = πr². Square the 21 m radius, then multiply by 22/7; 21 divides by 7 neatly."]
   },
   {
@@ -471,7 +471,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "50 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "(1/2)(12 + 8)×5 = 50 cm². 40 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 50 cm².",
+    explanation: "(1/2)(12 + 8)×5 = 50 cm². 40 cm² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 50 cm².",
     hints: ["Area of a trapezium = ½ × (sum of parallel sides) × height. Add 12 and 8 first."]
   },
   {
@@ -484,7 +484,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "616 cm\u00b3" }
     ],
     answerId: "a",
-    explanation: "V = (22/7)×(3.5)²×8 = 22×12.25×8/7… (22/7)×12.25×8 = 22×1.75×8 = 308 cm³. 154 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 308 cm³.",
+    explanation: "V = (22/7)×(3.5)²×8 = 22×12.25×8/7… (22/7)×12.25×8 = 22×1.75×8 = 308 cm³. 154 cm³ is tempting if you use 2πrh (a surface formula) or forget π; volume = πr²h gives 308 cm³.",
     hints: ["V = πr²h. Square 3.5 cm, multiply by 22/7, then by the height 8 cm."]
   },
   {
@@ -497,7 +497,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "700 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "2πrh = 2×(22/7)×5×14 = 440 cm². 350 cm² is tempting if you use the wrong place-value jump between units, but the correct conversion gives 440 cm².",
+    explanation: "2πrh = 2×(22/7)×5×14 = 440 cm². 350 cm² is tempting if you mix lateral and total surface formulas or drop a 2πr term; the correct surface measure is 440 cm².",
     hints: ["CSA = 2πrh. Use r = 5 cm and h = 14 cm; 14 cancels neatly with the 7 in 22/7."]
   },
   {
@@ -510,7 +510,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2000 L" }
     ],
     answerId: "c",
-    explanation: "V = 1 m³ = 1000 litres. 100 L is tempting if you use the wrong place-value jump between units, but the correct conversion gives 1000 L.",
+    explanation: "V = 1 m³ = 1000 litres. 100 L is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 1000 L.",
     hints: ["Find the volume of the tank in m³ first. Then convert, using how many litres fill one cubic metre."]
   },
   {
@@ -523,7 +523,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b91760" }
     ],
     answerId: "d",
-    explanation: "Area = 2(6+5)×4 = 88 m²; cost = 88 × 20 = ₹1760. ₹2400 is tempting if you use the wrong place-value jump between units, but the correct conversion gives ₹1760.",
+    explanation: "Area = 2(6+5)×4 = 88 m²; cost = 88 × 20 = ₹1760. ₹2400 is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives ₹1760.",
     hints: ["Find the area of the four walls: 2(6 + 5) × 4. Then multiply by ₹20 per m²."]
   },
   {
@@ -536,7 +536,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "18 cm" }
     ],
     answerId: "a",
-    explanation: "Rectangle area 144; side = √144 = 12 cm. 13 cm is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 12 cm.",
+    explanation: "Rectangle area 144; side = √144 = 12 cm. 13 cm is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 12 cm.",
     hints: ["First find the rectangle's area, 16 × 9. The square's side is the square root of that area."]
   },
   {
@@ -549,7 +549,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "120" }
     ],
     answerId: "b",
-    explanation: "Volume in cm³ equals the count of 1 cm cubes: 5×4×3 = 60. 20 is tempting if you use the wrong place-value jump between units, but the correct conversion gives 60.",
+    explanation: "Volume in cm³ equals the count of 1 cm cubes: 5×4×3 = 60. 20 is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 60.",
     hints: ["Each 1 cm cube takes up 1 cm³, so count the cubes by finding the volume 5 × 4 × 3."]
   },
   {
@@ -562,7 +562,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "11 cm" }
     ],
     answerId: "c",
-    explanation: "2πr = 88 ⇒ r = 88 × 7/(2×22) = 14 cm. 11 cm is tempting if you use the wrong place-value jump between units, but the correct conversion gives 14 cm.",
+    explanation: "2πr = 88 ⇒ r = 88 × 7/(2×22) = 14 cm. 11 cm is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 14 cm.",
     hints: ["The 88 cm wire becomes the circumference 2πr. Solve for r with π = 22/7."]
   },
   {
@@ -575,7 +575,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "37.68 cm\u00b3" }
     ],
     answerId: "d",
-    explanation: "V = (1/3)πr²h = (1/3)×3.14×9×4 = 37.68 cm³. 12 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 37.68 cm³.",
+    explanation: "V = (1/3)πr²h = (1/3)×3.14×9×4 = 37.68 cm³. 12 cm³ is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 37.68 cm³.",
     hints: ["Volume of a cone = ⅓ × π × r² × h. Use r = 3 cm, h = 4 cm and π = 3.14."]
   },
   {
@@ -588,7 +588,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "616 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "TSA = 3πr² = 3×(22/7)×49 = 462 cm². 308 cm² is tempting if you use the wrong place-value jump between units, but the correct conversion gives 462 cm².",
+    explanation: "TSA = 3πr² = 3×(22/7)×49 = 462 cm². 308 cm² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 462 cm².",
     hints: ["A hemisphere's TSA is its curved part 2πr² plus the flat circle πr². Use r = 7 cm."]
   },
   {
@@ -601,7 +601,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "100 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "Outer area 144 − inner 100 = 44 cm². 24 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 44 cm².",
+    explanation: "Outer area 144 − inner 100 = 44 cm². 24 cm² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 44 cm².",
     hints: ["Area of the frame = outer square area − inner square area. Square 12 cm and 10 cm."]
   },
   {
@@ -614,7 +614,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "440 cm\u00b3" }
     ],
     answerId: "c",
-    explanation: "Length = 2000 cm; V = (22/7)×12.25×2000 = 77000 cm³. 7700 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 77000 cm³.",
+    explanation: "Length = 2000 cm; V = (22/7)×12.25×2000 = 77000 cm³. 7700 cm³ is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 77000 cm³.",
     hints: ["Change the 20 m length to centimetres first, then use V = πr²h with r = 3.5 cm."]
   },
   {
@@ -627,7 +627,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "13 cm" }
     ],
     answerId: "d",
-    explanation: "l = √(r² + h²) = √(25 + 144) = √169 = 13 cm. 17 cm is tempting if you use the wrong place-value jump between units, but the correct conversion gives 13 cm.",
+    explanation: "l = √(r² + h²) = √(25 + 144) = √169 = 13 cm. 17 cm is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 13 cm.",
     hints: ["The radius, height and slant height form a right triangle. Use l² = r² + h² with 5 and 12."]
   }
 ];
