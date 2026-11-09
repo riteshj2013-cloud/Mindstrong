@@ -13,8 +13,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "a",
-    explanation: "3 tenths means 3/10, which is written as 0.3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3 tenths means 3/10, which is written as 0.3. 0.03 is tempting if you misread a place-value column.",
+    hints: ["Tenths is the first place after the decimal point. Which decimal has 3 in that place and nothing else?"]
   },
   {
     id: "g5-maths-dec-a-q02",
@@ -26,8 +26,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.007" }
     ],
     answerId: "b",
-    explanation: "7 hundredths is 7/100, written as 0.07 with the 7 in the hundredths place.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "7 hundredths is 7/100, written as 0.07 with the 7 in the hundredths place. 0.007 is tempting if you misread a place-value column.",
+    hints: ["Hundredths is the second place after the decimal point. Which decimal has 7 there and no tenths?"]
   },
   {
     id: "g5-maths-dec-a-q03",
@@ -39,8 +39,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "c",
-    explanation: "Just after the decimal point is the tenths place, so the digit is 8.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Just after the decimal point is the tenths place, so the digit is 8. 6 is tempting if you misread a place-value column.",
+    hints: ["In 4.86, the first digit after the decimal point is the tenths digit."]
   },
   {
     id: "g5-maths-dec-a-q04",
@@ -52,8 +52,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1/2" }
     ],
     answerId: "d",
-    explanation: "0.5 means 5/10, which simplifies to 1/2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "0.5 means 5/10, which simplifies to 1/2. 1/5 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["0.5 means 5 tenths, or 5/10. Simplify 5/10."]
   },
   {
     id: "g5-maths-dec-a-q05",
@@ -65,8 +65,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "a",
-    explanation: "0.80 is greater than 0.75 when both have hundredths, so 0.8 is greater.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "0.80 is greater than 0.75 when both have hundredths, so 0.8 is greater. 0.75 is tempting if you misread a place-value column.",
+    hints: ["Is 0.75 more or less than the other number once both are written with two decimal places?"]
   },
   {
     id: "g5-maths-dec-a-q06",
@@ -78,8 +78,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6.2" }
     ],
     answerId: "b",
-    explanation: "Line up the points: 1.2 + 0.5 = 1.7.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Line up the points: 1.2 + 0.5 = 1.7. 1.25 is tempting, but it does not match what the question asks.",
+    hints: ["Line up the decimal points of 1.2 and 0.5, then add the tenths first, then the ones."]
   },
   {
     id: "g5-maths-dec-a-q07",
@@ -91,8 +91,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1.2" }
     ],
     answerId: "c",
-    explanation: "Subtract tenths then ones: 3.6 \u2212 1.4 = 2.2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Subtract tenths then ones: 3.6 − 1.4 = 2.2. 2.0 is tempting if you misread a place-value column.",
+    hints: ["Line up the decimal points of 3.6 and 1.4, then subtract the tenths first, then the ones."]
   },
   {
     id: "g5-maths-dec-a-q08",
@@ -104,8 +104,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "d",
-    explanation: "Multiplying by 10 moves the decimal point one place right: 0.4 becomes 4.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Multiplying by 10 moves the decimal point one place right: 0.4 becomes 4. 0.4 is tempting if you misread a place-value column.",
+    hints: ["Multiplying by 10 moves every digit one place to the left, so tenths become ones. What does the decimal become?"]
   },
   {
     id: "g5-maths-dec-a-q09",
@@ -117,8 +117,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4/1" }
     ],
     answerId: "a",
-    explanation: "25% = 25/100 = 1/4 after dividing top and bottom by 25.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "25% = 25/100 = 1/4 after dividing top and bottom by 25. 25/100 is tempting if you add or cancel the wrong numbers in the fraction.",
+    hints: ["25% means 25 out of 100. Write 25/100 and divide the top and bottom by 25."]
   },
   {
     id: "g5-maths-dec-a-q10",
@@ -130,8 +130,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "16" }
     ],
     answerId: "b",
-    explanation: "50% means half, and half of 80 is 40.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "50% means half, and half of 80 is 40. 30 is tempting if you forget that percent means out of 100.",
+    hints: ["50% means 50 out of every 100, which is one half. Use that on 80."]
   },
   {
     id: "g5-maths-dec-a-q11",
@@ -143,8 +143,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.003" }
     ],
     answerId: "c",
-    explanation: "3/10 is three tenths, written as 0.3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3/10 is three tenths, written as 0.3. 0.03 is tempting if you misread a place-value column.",
+    hints: ["Tenths go in the first place after the decimal point. Where does the 3 of 3/10 go?"]
   },
   {
     id: "g5-maths-dec-a-q12",
@@ -156,8 +156,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1.25" }
     ],
     answerId: "d",
-    explanation: "1 whole and 25 hundredths is 1.25.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1 whole and 25 hundredths is 1.25. 1.025 is tempting if you misread a place-value column.",
+    hints: ["Write the whole number before the point, then twenty-five hundredths as two digits after it."]
   },
   {
     id: "g5-maths-dec-a-q13",
@@ -169,8 +169,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.405, 0.4, 0.35" }
     ],
     answerId: "a",
-    explanation: "As hundredths: 0.35, 0.40, 0.405 \u2192 ascending is 0.35, 0.4, 0.405.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "As hundredths: 0.35, 0.40, 0.405 → ascending is 0.35, 0.4, 0.405. 0.35, 0.405, 0.4 is tempting if you misread a place-value column.",
+    hints: ["Give each number three decimal places: 0.400, 0.350, 0.405. Then put them in ascending order."]
   },
   {
     id: "g5-maths-dec-a-q14",
@@ -182,8 +182,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "9 thousandths" }
     ],
     answerId: "b",
-    explanation: "Places after the point are tenths, hundredths, thousandths \u2014 so 9 is hundredths.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Places after the point are tenths, hundredths, thousandths — so 9 is hundredths. 9 ones is tempting if you misread a place-value column.",
+    hints: ["Name the places after the decimal point in 5.391 one by one. Which place does the 9 sit in?"]
   },
   {
     id: "g5-maths-dec-a-q15",
@@ -195,8 +195,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4.35" }
     ],
     answerId: "c",
-    explanation: "Write 1.3 as 1.30; 2.05 + 1.30 = 3.35.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Write 1.3 as 1.30; 2.05 + 1.30 = 3.35. 3.08 is tempting, but it does not match what the question asks.",
+    hints: ["Write 1.3 as 1.30 so both have two decimal places, then add 2.05 column by column."]
   },
   {
     id: "g5-maths-dec-a-q16",
@@ -208,8 +208,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3.35" }
     ],
     answerId: "d",
-    explanation: "4.20 \u2212 0.85 = 3.35.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "4.20 − 0.85 = 3.35. 3.45 is tempting, but it does not match what the question asks.",
+    hints: ["Write 4.2 as 4.20, line up the points with 0.85, then subtract, borrowing where needed."]
   },
   {
     id: "g5-maths-dec-a-q17",
@@ -221,8 +221,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.0056" }
     ],
     answerId: "a",
-    explanation: "\u00d7100 moves the point two places right: 0.56 \u2192 56.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "×100 moves the point two places right: 0.56 → 56. 5.6 is tempting if you mix up the angle type or the size of the turn.",
+    hints: ["Multiplying by 100 moves every digit two places to the left, so hundredths become ones. What does the decimal become?"]
   },
   {
     id: "g5-maths-dec-a-q18",
@@ -234,8 +234,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.75%" }
     ],
     answerId: "b",
-    explanation: "0.75 = 75/100 = 75%.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "0.75 = 75/100 = 75%. 7.5% is tempting if you forget that percent means out of 100.",
+    hints: ["To change a decimal to a percent, multiply 0.75 by 100."]
   },
   {
     id: "g5-maths-dec-a-q19",
@@ -247,8 +247,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "c",
-    explanation: "10% means divide by 10, so 250 \u00f7 10 = 25.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "10% means divide by 10, so 250 ÷ 10 = 25. 10 is tempting if you forget that percent means out of 100.",
+    hints: ["10% is one tenth. Divide 250 by 10."]
   },
   {
     id: "g5-maths-dec-a-q20",
@@ -260,8 +260,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "750 ml" }
     ],
     answerId: "d",
-    explanation: "1 L = 1000 ml, so 0.75 \u00d7 1000 = 750 ml.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1 L = 1000 ml, so 0.75 × 1000 = 750 ml. 75 ml is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["1 L = 1000 ml, so multiply 0.75 by 1000."]
   },
   {
     id: "g5-maths-dec-a-q21",
@@ -273,8 +273,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1/20" }
     ],
     answerId: "a",
-    explanation: "0.2 = 2/10 = 1/5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "0.2 = 2/10 = 1/5. 1/2 is tempting if you add or cancel the wrong numbers in the fraction.",
+    hints: ["0.2 means 2 tenths, or 2/10. Simplify 2/10."]
   },
   {
     id: "g5-maths-dec-a-q22",
@@ -286,8 +286,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "95%" }
     ],
     answerId: "b",
-    explanation: "18/20 = 90/100 = 90%.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "18/20 = 90/100 = 90%. 95% is tempting if you forget that percent means out of 100.",
+    hints: ["Write 18 marks out of 20 as a fraction, then multiply top and bottom by 5 to get a denominator of 100."]
   },
   {
     id: "g5-maths-dec-a-q23",
@@ -299,8 +299,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b9375" }
     ],
     answerId: "c",
-    explanation: "25% of 400 is 100, so the sale price is 400 \u2212 100 = \u20b9300.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "25% of 400 is 100, so the sale price is 400 − 100 = ₹300. ₹100 is tempting if you forget that percent means out of 100.",
+    hints: ["Find 25% of ₹400 (one quarter), then subtract it from ₹400."]
   },
   {
     id: "g5-maths-dec-a-q24",
@@ -312,8 +312,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.604" }
     ],
     answerId: "d",
-    explanation: "\u00f710 moves the point one place left: 6.04 \u2192 0.604.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "÷10 moves the point one place left: 6.04 → 0.604. 0.064 is tempting, but it does not match what the question asks.",
+    hints: ["Dividing by 10 moves every digit of 6.04 one place to the right."]
   }
 ];
 
@@ -328,8 +328,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.009" }
     ],
     answerId: "a",
-    explanation: "9 tenths is 9/10 = 0.9.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "9 tenths is 9/10 = 0.9. 0.09 is tempting if you misread a place-value column.",
+    hints: ["Tenths is the first place after the decimal point. Which decimal has 9 in that place and nothing else?"]
   },
   {
     id: "g5-maths-dec-b-q02",
@@ -341,8 +341,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.004" }
     ],
     answerId: "b",
-    explanation: "4 hundredths is 4/100 = 0.04.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "4 hundredths is 4/100 = 0.04. 0.004 is tempting if you misread a place-value column.",
+    hints: ["Hundredths is the second place after the decimal point. Which decimal has 4 there and no tenths?"]
   },
   {
     id: "g5-maths-dec-b-q03",
@@ -354,8 +354,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "7" }
     ],
     answerId: "c",
-    explanation: "Tenths is 2, hundredths is 5, thousandths is 3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Tenths is 2, hundredths is 5, thousandths is 3. 3 is tempting if you misread a place-value column.",
+    hints: ["In 7.253, count two places after the decimal point to reach the hundredths digit."]
   },
   {
     id: "g5-maths-dec-b-q04",
@@ -367,8 +367,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1/4" }
     ],
     answerId: "d",
-    explanation: "0.25 = 25/100 = 1/4.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "0.25 = 25/100 = 1/4. 1/2 is tempting, but it does not match what the question asks.",
+    hints: ["0.25 means 25 hundredths, or 25/100. Simplify by dividing top and bottom by 25."]
   },
   {
     id: "g5-maths-dec-b-q05",
@@ -380,8 +380,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "a",
-    explanation: "0.10 is greater than 0.09, so 0.09 is smaller.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "0.10 is greater than 0.09, so 0.09 is smaller. 0.1 is tempting, but it does not match what the question asks.",
+    hints: ["Write 0.1 with two decimal places, then compare the hundredths of both numbers."]
   },
   {
     id: "g5-maths-dec-b-q06",
@@ -393,8 +393,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1.95" }
     ],
     answerId: "b",
-    explanation: "0.80 + 0.15 = 0.95.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "0.80 + 0.15 = 0.95. 0.815 is tempting, but it does not match what the question asks.",
+    hints: ["Write 0.8 as 0.80, line up the decimal points with 0.15, then add."]
   },
   {
     id: "g5-maths-dec-b-q07",
@@ -406,8 +406,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2.3" }
     ],
     answerId: "c",
-    explanation: "5.0 \u2212 2.3 = 2.7.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "5.0 − 2.3 = 2.7. 2.3 is tempting, but it does not match what the question asks.",
+    hints: ["Line up the decimal points of 5.0 and 2.3. Borrow from the ones to subtract the tenths."]
   },
   {
     id: "g5-maths-dec-b-q08",
@@ -419,8 +419,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "d",
-    explanation: "\u00d710 moves the point one place right: 1.5 \u2192 15.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "×10 moves the point one place right: 1.5 → 15. 1.05 is tempting if you mix up the angle type or the size of the turn.",
+    hints: ["Multiplying by 10 moves every digit of 1.5 one place to the left."]
   },
   {
     id: "g5-maths-dec-b-q09",
@@ -432,8 +432,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.01" }
     ],
     answerId: "a",
-    explanation: "10% = 10/100 = 0.1.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "10% = 10/100 = 0.1. 0.01 is tempting if you misread a place-value column.",
+    hints: ["10% means 10 out of 100. Divide 10 by 100 to get a decimal."]
   },
   {
     id: "g5-maths-dec-b-q10",
@@ -445,8 +445,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "b",
-    explanation: "25% is one quarter; 40 \u00f7 4 = 10.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "25% is one quarter; 40 ÷ 4 = 10. 8 is tempting if you forget that percent means out of 100.",
+    hints: ["25% is one quarter. Split 40 into 4 equal parts."]
   },
   {
     id: "g5-maths-dec-b-q11",
@@ -458,8 +458,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.007" }
     ],
     answerId: "c",
-    explanation: "7/100 is seven hundredths = 0.07.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "7/100 is seven hundredths = 0.07. 0.007 is tempting if you misread a place-value column.",
+    hints: ["Hundredths take two places after the decimal point. Put the 7 of 7/100 in the second place."]
   },
   {
     id: "g5-maths-dec-b-q12",
@@ -471,8 +471,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3.06" }
     ],
     answerId: "d",
-    explanation: "3 wholes and 6 hundredths is 3.06.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3 wholes and 6 hundredths is 3.06. 3.006 is tempting if you misread a place-value column.",
+    hints: ["Write the whole number three before the point. Six hundredths goes in the second place after it; what fills the tenths?"]
   },
   {
     id: "g5-maths-dec-b-q13",
@@ -484,8 +484,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1.5, 1.005, 1.05" }
     ],
     answerId: "a",
-    explanation: "1.500 > 1.050 > 1.005.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1.500 > 1.050 > 1.005. 1.5, 1.005, 1.05 is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["Give each number three decimal places: 1.050, 1.500, 1.005. Then put them in descending order."]
   },
   {
     id: "g5-maths-dec-b-q14",
@@ -497,8 +497,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "60" }
     ],
     answerId: "b",
-    explanation: "Face value is the digit itself, which is 6.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Face value is the digit itself, which is 6. 0.6 is tempting, but it does not match what the question asks.",
+    hints: ["Face value is just the digit itself, whatever its place. Place value would depend on its position in 8.46."]
   },
   {
     id: "g5-maths-dec-b-q15",
@@ -510,8 +510,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "12.45" }
     ],
     answerId: "c",
-    explanation: "0.90 + 2.45 = 3.35.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "0.90 + 2.45 = 3.35. 3.25 is tempting, but it does not match what the question asks.",
+    hints: ["Write 0.9 as 0.90, line up the decimal points with 2.45, then add column by column."]
   },
   {
     id: "g5-maths-dec-b-q16",
@@ -523,8 +523,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3.75" }
     ],
     answerId: "d",
-    explanation: "6.50 \u2212 2.75 = 3.75.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "6.50 − 2.75 = 3.75. 4.25 is tempting, but it does not match what the question asks.",
+    hints: ["Write 6.5 as 6.50, line up the points with 2.75, then subtract, borrowing where needed."]
   },
   {
     id: "g5-maths-dec-b-q17",
@@ -536,8 +536,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "320" }
     ],
     answerId: "a",
-    explanation: "\u00f7100 moves the point two places left: 3.2 \u2192 0.032.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "÷100 moves the point two places left: 3.2 → 0.032. 0.32 is tempting, but it does not match what the question asks.",
+    hints: ["Dividing by 100 moves every digit of 3.2 two places to the right. Fill the gaps with zeros."]
   },
   {
     id: "g5-maths-dec-b-q18",
@@ -549,8 +549,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "50%" }
     ],
     answerId: "b",
-    explanation: "2/5 = 0.4 = 40%.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2/5 = 0.4 = 40%. 50% is tempting if you forget that percent means out of 100.",
+    hints: ["Make the denominator of 2/5 equal to 100 by multiplying the top and bottom by 20."]
   },
   {
     id: "g5-maths-dec-b-q19",
@@ -562,8 +562,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "50" }
     ],
     answerId: "c",
-    explanation: "5% of 200 = (5/100)\u00d7200 = 10.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "5% of 200 = (5/100)×200 = 10. 5 is tempting if you forget that percent means out of 100.",
+    hints: ["5% means 5 in every 100. How many hundreds are in 200?"]
   },
   {
     id: "g5-maths-dec-b-q20",
@@ -575,8 +575,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "125 cm" }
     ],
     answerId: "d",
-    explanation: "1 m = 100 cm, so 1.25 \u00d7 100 = 125 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1 m = 100 cm, so 1.25 × 100 = 125 cm. 12.5 cm is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["1 m = 100 cm, so multiply 1.25 by 100."]
   },
   {
     id: "g5-maths-dec-b-q21",
@@ -588,8 +588,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.125" }
     ],
     answerId: "a",
-    explanation: "3 \u00f7 8 = 0.375.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3 ÷ 8 = 0.375. 0.38 is tempting if you misread a place-value column.",
+    hints: ["Divide 3 by 8 using long division, adding zeros after the decimal point."]
   },
   {
     id: "g5-maths-dec-b-q22",
@@ -601,8 +601,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "50%" }
     ],
     answerId: "b",
-    explanation: "35/50 = 70/100 = 70%.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "35/50 = 70/100 = 70%. 65% is tempting if you forget that percent means out of 100.",
+    hints: ["Write 35 children out of 50 as a fraction, then double the top and bottom to make the denominator 100."]
   },
   {
     id: "g5-maths-dec-b-q23",
@@ -614,8 +614,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b9180" }
     ],
     answerId: "c",
-    explanation: "20% of 250 is 50; sale price is 250 \u2212 50 = \u20b9200.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "20% of 250 is 50; sale price is 250 − 50 = ₹200. ₹50 is tempting if you forget that percent means out of 100.",
+    hints: ["Find 20% of ₹250 (one fifth), then subtract it from ₹250."]
   },
   {
     id: "g5-maths-dec-b-q24",
@@ -627,8 +627,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "7.5" }
     ],
     answerId: "d",
-    explanation: "0.6 + 0.15 = 0.75; 0.75 \u00d7 10 = 7.5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "0.6 + 0.15 = 0.75; 0.75 × 10 = 7.5. 6.15 is tempting, but it does not match what the question asks.",
+    hints: ["Do the operation in brackets (or the sum) first, then scale by 10 or 100."]
   }
 ];
 
