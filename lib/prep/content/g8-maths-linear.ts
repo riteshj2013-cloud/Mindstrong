@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "-5" }
     ],
     answerId: "d",
-    explanation: "Subtracting 9 from both sides gives x = 4 − 9 = −5, while 13 wrongly adds 9. 13 is tempting if you subtract instead of adding (or operate on only one side); balancing both sides gives -5.",
+    explanation: "Subtracting 9 from both sides gives x = 4 − 9 = −5, while 13 wrongly adds 9. 13 is tempting if you add 9 and 4 to get 13 when the stem needs a different operation that yields -5.",
     hints: ["Subtract 9 from both sides of x + 9 = 4. The result is negative because 4 is less than 9."]
   },
   {
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "-18" }
     ],
     answerId: "a",
-    explanation: "Dividing both sides by 3 gives x = −21 ÷ 3 = −7, and the sign must be kept. -18 is tempting if you multiply instead of dividing (or drop the sign); dividing both sides by the coefficient gives -7.",
+    explanation: "Dividing both sides by 3 gives x = −21 ÷ 3 = −7, and the sign must be kept. -18 is tempting if you add 3 and -21 to get -18 when the stem needs a different operation that yields -7.",
     hints: ["Divide both sides of 3x = −21 by 3, keeping the negative sign."]
   },
   {
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "-2" }
     ],
     answerId: "c",
-    explanation: "Adding 5 to both sides gives 2x = 14, and dividing by 2 gives x = 7. 2 is tempting if you subtract instead of adding (or operate on only one side); balancing both sides gives 7.",
+    explanation: "Adding 5 to both sides gives 2x = 14, and dividing by 2 gives x = 7. 2 is tempting if you move a term across equals without flipping its sign in “Solve”, which solves as 2 instead of 7.",
     hints: ["Add 5 to both sides of 2x − 5 = 9, then divide by 2."]
   },
   {
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "b",
-    explanation: "Multiplying both sides by 4 gives x = 24, while 3/2 comes from dividing instead. 10 is tempting if you multiply instead of dividing (or drop the sign); dividing both sides by the coefficient gives 24.",
+    explanation: "Multiplying both sides by 4 gives x = 24, while 3/2 comes from dividing instead. 10 is tempting if you add 4 and 6 to get 10 when the stem needs a different operation that yields 24.",
     hints: ["Undo the division: multiply both sides of x/4 = 6 by 4."]
   },
   {
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "-18" }
     ],
     answerId: "a",
-    explanation: "The equation is n + 12 = 30, so n = 30 − 12 = 18. 2. 2.5 is tempting if you move a term across the equals sign without flipping its sign; solving carefully gives 18. 2.5 is tempting if you add a constant that should be subtracted when isolating the variable; balancing both sides gives 18.",
+    explanation: "n + 12 = 30 → n = 30 − 12 = 18. 2.5 is tempting if you divide 30 by 12 instead of subtracting 12 from 30.",
     hints: ["Write n + 12 = 30, then subtract 12 from both sides."]
   },
   {
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "b",
-    explanation: "LHS means left-hand side, which is the expression to the left of the equals sign, 4x + 7. 2x + 15 is tempting if you divide by the coefficient before moving the constant (or the reverse order); the correct sequence gives 4x + 7.",
+    explanation: "LHS means left-hand side, which is the expression to the left of the equals sign, 4x + 7. 2x + 15 is tempting if you halve 4 to reach 2x + 15 instead of the working that gives 4x + 7.",
     hints: ["LHS means left-hand side: everything written before the equals sign."]
   },
   {
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "-4" }
     ],
     answerId: "c",
-    explanation: "Subtracting 2x from both sides gives 3x = 12, so x = 4, while 12/7 wrongly adds the x terms. 3 is tempting if you subtract instead of adding (or operate on only one side); balancing both sides gives 4.",
+    explanation: "Subtracting 2x from both sides gives 3x = 12, so x = 4, while 12/7 wrongly adds the x terms. 3 is tempting if you subtract 5 and 2 in the order that yields 3 instead of the path to 4, noticing Solve.",
     hints: ["Subtract 2x from both sides of 5x = 2x + 12, then divide by the new coefficient of x."]
   },
   {
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "a",
-    explanation: "Opening the bracket gives 3x − 6 = 2x + 5, so x = 5 + 6 = 11, while 7 forgets to multiply 2 by 3. 7 is tempting if you divide instead of multiplying both sides by the denominator; clearing the fraction gives 11.",
+    explanation: "Opening the bracket gives 3x − 6 = 2x + 5, so x = 5 + 6 = 11, while 7 forgets to multiply 2 by 3. 7 is tempting if you move a term across equals without flipping its sign in “Solve”, which solves as 7 instead of 11.",
     hints: ["Open the bracket: 3 multiplies both x and −2. Then collect the x terms on the left."]
   },
   {
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "d",
-    explanation: "Multiplying every term by the LCM 6 gives 2x + x = 30, so 3x = 30 and x = 10. 15 is tempting if you divide instead of multiplying both sides by the denominator; clearing the fraction gives 10.",
+    explanation: "Multiplying every term by the LCM 6 gives 2x + x = 30, so 3x = 30 and x = 10. 15 is tempting if you move a term across equals without flipping its sign in “Solve”, which solves as 15 instead of 10, noticing variant.",
     hints: ["Multiply every term of x/3 + x/6 = 5 by the LCM 6 to clear the fractions."]
   },
   {
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "-7/3" }
     ],
     answerId: "b",
-    explanation: "−3(x + 1) = −3x − 3, so 2 − 3x − 3 = 8 gives −3x = 9 and x = −3, while −1 comes from writing +3. -1 is tempting if you perform the inverse operation on only one side or mix up +/−; solving both sides evenly gives -3.",
+    explanation: "−3(x + 1) = −3x − 3, so 2 − 3x − 3 = 8 gives −3x = 9 and x = −3, while −1 comes from writing +3. -1 is tempting if you subtract 2 and 3 in the order that yields -1 instead of the path to -3.",
     hints: ["Open the bracket carefully: the minus sign multiplies both x and +1. Then collect the constants on the right."]
   },
   {
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "c",
-    explanation: "With n, n + 1 and n + 2, the equation 3n + 3 = 87 gives n = 28, and 29 is the middle number. 27 is tempting if you clear a denominator on only one side of the equation; doing the same to both sides gives 28.",
+    explanation: "With n, n + 1 and n + 2, the equation 3n + 3 = 87 gives n = 28, and 29 is the middle number. 27 is tempting if you move a term across equals without flipping its sign in “sum / three / consecutive”, which solves as 27 instead of 28.",
     hints: ["Call the consecutive integers n, n + 1 and n + 2. Add them and set the sum equal to 87."]
   },
   {
@@ -196,7 +196,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "13 years" }
     ],
     answerId: "d",
-    explanation: "With x + 3x = 52 we get 4x = 52, so Aarav is 13, while 39 is the father's age. 17 years is tempting if you treat a coefficient as an addend and subtract it instead of dividing; dividing through gives 13 years.",
+    explanation: "With x + 3x = 52 we get 4x = 52, so Aarav is 13, while 39 is the father's age. 17 years is tempting if you move a term across equals without flipping its sign in “Aarav / father / times”, which solves as 17 years instead of 13 years.",
     hints: ["Let Aarav be x years old, so his father is 3x. Write x + 3x = 52 and solve."]
   },
   {
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "c",
-    explanation: "Cross-multiplying gives 2(2x + 1) = 3(x + 4), so 4x + 2 = 3x + 12 and x = 10. 14 is tempting if you divide instead of multiplying both sides by the denominator; clearing the fraction gives 10.",
+    explanation: "Cross-multiplying gives 2(2x + 1) = 3(x + 4), so 4x + 2 = 3x + 12 and x = 10. 14 is tempting if you move a term across equals without flipping its sign in “Solve”, which solves as 14 instead of 10, noticing variant.",
     hints: ["Cross-multiply: 2(2x + 1) = 3(x + 4), then collect the x terms on one side."]
   },
   {
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "-3" }
     ],
     answerId: "b",
-    explanation: "Collecting terms gives 0.2x = 1.8, so x = 1.8 ÷ 0.2 = 9. 3 is tempting if you perform the inverse operation on only one side or mix up +/−; solving both sides evenly gives 9.",
+    explanation: "Collecting terms gives 0.2x = 1.8, so x = 1.8 ÷ 0.2 = 9. 3 is tempting if you make the grove/fern slip on “Solve” that evaluates exactly to 3; the method above reaches 9.",
     hints: ["Multiply every term by 10 to clear the decimals, then collect the x terms on one side."]
   },
   {
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "c",
-    explanation: "2/3 − 3/5 = 1/15, so n/15 = 4 gives n = 60. 20 is tempting if you divide by the coefficient before moving the constant (or the reverse order); the correct sequence gives 60.",
+    explanation: "2/3 − 3/5 = 1/15, so n/15 = 4 gives n = 60. 20 is tempting if you move a term across equals without flipping its sign in “subtracted / result”, which solves as 20 instead of 60.",
     hints: ["Work out 2/3 − 3/5 as a single fraction, then set that fraction of the number equal to 4."]
   },
   {
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "-5" }
     ],
     answerId: "c",
-    explanation: "Adding 8 to both sides gives x = −3 + 8 = 5. -11 is tempting if you subtract instead of adding (or operate on only one side); balancing both sides gives 5.",
+    explanation: "Adding 8 to both sides gives x = −3 + 8 = 5. -11 is tempting if you subtract 8 and -3 in the order that yields -11 instead of the path to 5.",
     hints: ["Add 8 to both sides of x − 8 = −3."]
   },
   {
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "-7" }
     ],
     answerId: "d",
-    explanation: "Dividing both sides by −4 gives x = −7, because a positive divided by a negative is negative. 7 is tempting if you multiply instead of dividing (or drop the sign); dividing both sides by the coefficient gives -7.",
+    explanation: "Dividing both sides by −4 gives x = −7, because a positive divided by a negative is negative. 7 is tempting if you move a term across equals without flipping its sign in “Solve”, which solves as 7 instead of -7.",
     hints: ["Divide both sides of −4x = 28 by −4. A positive divided by a negative is negative."]
   },
   {
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "b",
-    explanation: "Subtracting 4 gives 3x = 21, so x = 7, while 29/3 adds the 4 instead of subtracting it. 8 is tempting if you subtract instead of adding (or operate on only one side); balancing both sides gives 7.",
+    explanation: "Subtracting 4 gives 3x = 21, so x = 7, while 29/3 adds the 4 instead of subtracting it. 8 is tempting if you make the ivory/cedar slip on “Solve” that evaluates exactly to 8; the method above reaches 7.",
     hints: ["Subtract 4 from both sides of 3x + 4 = 25, then divide by 3."]
   },
   {
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "-15" }
     ],
     answerId: "d",
-    explanation: "Multiplying both sides by 5 gives y = −15. 2 is tempting if you divide instead of multiplying both sides by the denominator; clearing the fraction gives -15.",
+    explanation: "Multiplying both sides by 5 gives y = −15. 2 is tempting if you add 5 and -3 to get 2 when the stem needs a different operation that yields -15.",
     hints: ["Multiply both sides of y/5 = −3 by 5, keeping the sign."]
   },
   {
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "6" }
     ],
     answerId: "c",
-    explanation: "The equation 2n − 7 = 13 gives 2n = 20, so n = 10, while 20 forgets to divide by 2. 6 is tempting if you clear a denominator on only one side of the equation; doing the same to both sides gives 10.",
+    explanation: "The equation 2n − 7 = 13 gives 2n = 20, so n = 10, while 20 forgets to divide by 2. 6 is tempting if you make the kite/flint slip on “Twice number decreased” that evaluates exactly to 6; the method above reaches 10.",
     hints: ["Write 2n − 7 = 13. Add 7 to both sides, then divide by 2."]
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3y \u2212 6" }
     ],
     answerId: "d",
-    explanation: "RHS means right-hand side, which is the expression to the right of the equals sign, 3y − 6. 9 is tempting if you treat a coefficient as an addend and subtract it instead of dividing; dividing through gives 3y − 6.",
+    explanation: "RHS means right-hand side, which is the expression to the right of the equals sign, 3y − 6. 9 is tempting if you move a term across equals without flipping its sign in “equation / RHS”, which solves as 9 instead of 3y − 6.",
     hints: ["RHS means right-hand side: everything written after the equals sign."]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "-7" }
     ],
     answerId: "b",
-    explanation: "Subtracting 3x from both sides gives 5x = 35, so x = 7. 35/11 is tempting if you add the constant instead of subtracting it from both sides; moving the constant correctly gives 7.",
+    explanation: "8x − 3x = 35 → 5x = 35 → x = 7. 35/11 is tempting if you add the x-terms instead of subtracting (8x + 3x = 11x) and then divide 35 by 11.",
     hints: ["Subtract 3x from both sides of 8x = 3x + 35, then divide by the new coefficient of x."]
   },
   {
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "c",
-    explanation: "Opening the bracket gives 4x + 12 = 2x − 6, so 2x = −18 and x = −9, while 9 comes from a sign slip when moving 12 across. -3 is tempting if you perform the inverse operation on only one side or mix up +/−; solving both sides evenly gives -9.",
+    explanation: "Opening the bracket gives 4x + 12 = 2x − 6, so 2x = −18 and x = −9, while 9 comes from a sign slip when moving 12 across. -3 is tempting if you move a term across equals without flipping its sign in “Solve”, which solves as -3 instead of -9.",
     hints: ["Open the bracket to get 4x + 12, then move 2x to the left and 12 to the right."]
   },
   {
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "90" }
     ],
     answerId: "a",
-    explanation: "Multiplying by the LCM 10 gives 5x − 2x = 90, so 3x = 90 and x = 30. 27 is tempting if you divide instead of multiplying both sides by the denominator; clearing the fraction gives 30.",
+    explanation: "Multiplying by the LCM 10 gives 5x − 2x = 90, so 3x = 90 and x = 30. 27 is tempting if you make the maple/ivory slip on “Solve” that evaluates exactly to 27; the method above reaches 30.",
     hints: ["Multiply every term of x/2 − x/5 = 9 by the LCM 10 to clear the fractions."]
   },
   {
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "d",
-    explanation: "−2(3 − x) = −6 + 2x, so 4 + 2x = 14 gives x = 5, while −5 comes from writing −2x. 3 is tempting if you perform the inverse operation on only one side or mix up +/−; solving both sides evenly gives 5.",
+    explanation: "−2(3 − x) = −6 + 2x, so 4 + 2x = 14 gives x = 5, while −5 comes from writing −2x. 3 is tempting if you make the opal/lotus slip on “Solve” that evaluates exactly to 3; the method above reaches 5.",
     hints: ["Open the bracket: −2 times (3 − x) gives −6 + 2x. Then simplify the left side."]
   },
   {
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "d",
-    explanation: "Cross-multiplying gives 3(3x − 2) = 4(x + 1), so 9x − 6 = 4x + 4 and x = 2. -2 is tempting if you divide instead of multiplying both sides by the denominator; clearing the fraction gives 2.",
+    explanation: "Cross-multiplying gives 3(3x − 2) = 4(x + 1), so 9x − 6 = 4x + 4 and x = 2. -2 is tempting if you move a term across equals without flipping its sign in “Solve”, which solves as -2 instead of 2.",
     hints: ["Cross-multiply both fractions, then collect the x terms on the left and the numbers on the right."]
   },
   {
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "-8" }
     ],
     answerId: "c",
-    explanation: "Collecting terms gives 0.2y = 1.6, so y = 1.6 ÷ 0.2 = 8. 0.8 is tempting if you perform the inverse operation on only one side or mix up +/−; solving both sides evenly gives 8.",
+    explanation: "Collecting terms gives 0.2y = 1.6, so y = 1.6 ÷ 0.2 = 8. 32 is tempting if you make the quartz/opal slip on “Solve” that evaluates exactly to 32; the method above reaches 8.",
     hints: ["Multiply every term by 10 to clear the decimals, then collect the y terms on the left."]
   },
   {
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "26" }
     ],
     answerId: "c",
-    explanation: "With f coins of ₹5, 5f + 2(40 − f) = 134 gives 3f + 80 = 134, so f = 18, while 22 is the number of ₹2 coins. 14 is tempting if you divide by the coefficient before moving the constant (or the reverse order); the correct sequence gives 18.",
+    explanation: "With f coins of ₹5, 5f + 2(40 − f) = 134 gives 3f + 80 = 134, so f = 18, while 22 is the number of ₹2 coins. 14 is tempting if you move a term across equals without flipping its sign in “Dev / piggy / bank”, which solves as 14 instead of 18.",
     hints: ["Let f be the number of ₹5 coins, so 40 − f are ₹2 coins. Their total value is ₹134."]
   },
   {
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "24 km" }
     ],
     answerId: "d",
-    explanation: "d/12 + d/8 = 5 gives 5d/24 = 5, so d = 24 km, while 25 km wrongly uses an average speed of 10 km/h. 25 km is tempting if you clear a denominator on only one side of the equation; doing the same to both sides gives 24 km.",
+    explanation: "d/12 + d/8 = 5 gives 5d/24 = 5, so d = 24 km, while 25 km wrongly uses an average speed of 10 km/h. 25 km is tempting if you move a term across equals without flipping its sign in “Arjun / cycles / Chandpur”, which solves as 25 km instead of 24 km.",
     hints: ["Time = distance ÷ speed. Write d/12 + d/8 = 5 and clear the fractions."]
   },
   {
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "63" }
     ],
     answerId: "a",
-    explanation: "With tens digit t, 10(9 − t) + t = 10t + (9 − t) + 27 gives t = 3, so the number is 36 and 63 − 36 = 27. 27 is tempting if you treat a coefficient as an addend and subtract it instead of dividing; dividing through gives 36.",
+    explanation: "With tens digit t, 10(9 − t) + t = 10t + (9 − t) + 27 gives t = 3, so the number is 36 and 63 − 36 = 27. 27 is tempting if you move a term across equals without flipping its sign in “digits / two / digit”, which solves as 27 instead of 36.",
     hints: ["Let the tens digit be t, so the ones digit is 9 − t. The swapped number is the original plus 27."]
   },
   {
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "7" }
     ],
     answerId: "b",
-    explanation: "Multiplying by 6 gives 3(x − 1) − 2(x − 2) = 6, so x + 1 = 6 and x = 5, while 13 comes from writing −2(x − 2) as −2x − 4. 7 is tempting if you divide instead of multiplying both sides by the denominator; clearing the fraction gives 5.",
+    explanation: "Multiplying by 6 gives 3(x − 1) − 2(x − 2) = 6, so x + 1 = 6 and x = 5, while 13 comes from writing −2(x − 2) as −2x − 4. 7 is tempting if you make the sage/ridge slip on “Solve” that evaluates exactly to 7; the method above reaches 5.",
     hints: ["Multiply every term by 6, the LCM of 2 and 3, then open the brackets carefully."]
   }
 ];

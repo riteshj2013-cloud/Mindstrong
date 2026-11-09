@@ -1,5 +1,5 @@
 {
-  "note": "Temporary allow-list: recycled tempting-clause templates (>=10 within a grade). Only G8/G9 may appear here; D PRs must burn each template down below the threshold and remove it. Empty after G8/G9 D.",
-  "threshold": 10,
+  "note": "Temporary allow-list: recycled tempting-clause templates (>=3 within a grade after stem-cut at . or ;). Empty after Logic Tester stock rewrite Nov 2026.",
+  "threshold": 3,
   "grades": {}
 }

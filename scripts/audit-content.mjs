@@ -537,7 +537,7 @@ for (const g of grades.READY_GRADES) {
 
 
 /** Explanation quality: recycled tempting templates + correct-is mismatches. */
-const EXPL_TMPL_THRESHOLD = 10;
+const EXPL_TMPL_THRESHOLD = 3;
 const explTmplBaselinePath = path.join(ROOT, "scripts/audit-baselines/explanation-recycled-templates.json");
 const explTmplBaseline = JSON.parse(fs.readFileSync(explTmplBaselinePath, "utf8"));
 const allowedTmplByGrade = new Map(); // grade -> Set(template)
@@ -553,8 +553,11 @@ const normTemptingTemplate = (expl) => {
   const parts = String(expl ?? "").split(/\bis tempting\b/i);
   if (parts.length < 2) return null;
   let t = parts[1].replace(/[−–—]/g, "-");
+  // Stem ends at first "." or ";" so trailing "gives N" tails do not hide recycled reasons.
+  const cut = t.search(/[.;]/);
+  if (cut >= 0) t = t.slice(0, cut);
   t = t.replace(/\d+\.?\d*/g, "N");
-  t = t.replace(/\s+/g, " ").trim().toLowerCase().split(".")[0].trim();
+  t = t.replace(/\s+/g, " ").trim().toLowerCase();
   return t || null;
 };
 const normClaim = (x) =>
@@ -576,7 +579,8 @@ for (const { questions } of servedSets) {
     const grade = Number(gm[1]);
     const expl = q.explanation;
     if (!expl) continue;
-    const tmpl = normTemptingTemplate(expl);
+    // Recycled-template threshold applies to G5–G9 (Logic Tester scope); other grades still run mismatch checks.
+    const tmpl = grade >= 5 && grade <= 9 ? normTemptingTemplate(expl) : null;
     if (tmpl) {
       if (!tmplHitsByGrade.has(grade)) tmplHitsByGrade.set(grade, new Map());
       const m = tmplHitsByGrade.get(grade);
@@ -645,6 +649,81 @@ for (const id of explMismatchBaseline) {
   }
 }
 
+
+/** Stray number fragments left in explanations (e.g. "0. 0.75 is tempting", "2.4. 2.4."). */
+// Integer orphan after a sentence end: ". 0. 0.75" / ". 3. 3.25". Do NOT use (N.\s+N) alone — that flags answer N then tempt N.
+const STRAY_INT_ORPHAN_RE = /[.!?]\s+\d+\.\s+/;
+// Exact decimal duplicate leftover: "2.4. 2.4."
+const STRAY_DEC_DUP_RE = /(\d+\.\d+)\.\s+\1(?:\s|\.|$)/;
+const strayFragHits = [];
+for (const { questions } of servedSets) {
+  for (const q of questions) {
+    const id = String(q.id ?? "");
+    if (!/^g([5-9])-maths-/.test(id)) continue;
+    const expl = String(q.explanation ?? "");
+    if (STRAY_INT_ORPHAN_RE.test(expl) || STRAY_DEC_DUP_RE.test(expl)) {
+      strayFragHits.push(id);
+      findings.push({
+        rule: "explanation-stray-fragment",
+        where: id,
+        text: `explanation has a stray number fragment: ${JSON.stringify(expl.slice(0, 160))}`,
+      });
+    }
+  }
+}
+
+/** Tempting clause names a value that is not among the item's option texts (G5–G9). */
+const stripClaim = (x) =>
+  normClaim(String(x ?? "").replace(/^['"“”]+|['"“”]+$/g, "").replace(/^the\s+/i, ""));
+const temptingValueHits = [];
+for (const { questions } of servedSets) {
+  for (const q of questions) {
+    const id = String(q.id ?? "");
+    if (!/^g([5-9])-maths-/.test(id)) continue;
+    const expl = String(q.explanation ?? "");
+    const m = expl.match(/([^.]+?)\s+is tempting\b/i);
+    if (!m) continue;
+    let named = m[1].trim();
+    const lastSent = named.split(/(?<=[.!?])\s+/).pop() ?? named;
+    named = lastSent.trim().replace(/^['"“”]+|['"“”]+$/g, "");
+    const opts = (q.options || []).map((o) => stripClaim(o.text));
+    const nn = stripClaim(named);
+    if (!nn || nn.length < 1) continue;
+    const ok = opts.some((o) => o === nn || o.includes(nn) || nn.includes(o) || o.split(/\s+/).includes(nn));
+    if (ok) continue;
+    temptingValueHits.push(id);
+    findings.push({
+      rule: "explanation-tempting-not-option",
+      where: id,
+      text: `tempting value ${JSON.stringify(named)} is not among options ${JSON.stringify((q.options || []).map((o) => o.text))}`,
+    });
+  }
+}
+
+/** Broken stock hint templates that do not nudge the child. */
+const BROKEN_HINT_RES = [
+  /Do the next algebra step for/i,
+  /Re-check .+ against every clue/i,
+  /Sketch the figure, mark .+, then apply the matching/i,
+];
+const brokenHintHits = [];
+for (const { questions } of [...servedSets, ...servedPapers]) {
+  for (const q of questions) {
+    const id = String(q.id ?? "");
+    if (!/^g([5-9])-maths-/.test(id)) continue;
+    for (const [i, h] of (q.hints ?? []).entries()) {
+      if (!BROKEN_HINT_RES.some((re) => re.test(String(h)))) continue;
+      brokenHintHits.push(id);
+      findings.push({
+        rule: "hint-broken-template",
+        where: `${id}.hints[${i}]`,
+        text: `${id}: ${JSON.stringify(h)}`,
+      });
+      break;
+    }
+  }
+}
+
 /** Near-duplicate stem scanners (Science, English) → warnings; --strict turns them into a failure. */
 for (const [subject, script] of [["Science", "near-duplicate-science-stems.mjs"], ["English", "near-duplicate-english-stems.mjs"]]) {
   const out = path.join(fs.mkdtempSync(path.join(os.tmpdir(), "nd-")), "pairs.json");
@@ -674,6 +753,6 @@ for (const c of softChecks) {
 if (staleLeaks.length) console.log(`note: ${staleLeaks.length} id(s) in the hint-leak baseline no longer leak; remove them: ${staleLeaks.join(", ")}`);
 console.log(`near-duplicate stems (not allow-listed): ${nearDupStats.join(", ")}`);
 console.log(`content generators: ${generatorStats}`);
-console.log(`explanation templates: threshold ${EXPL_TMPL_THRESHOLD}; ${explTmplStats.join(", ")}; mismatch hits ${explMismatchHits.length} (${[...explMismatchBaseline].filter((id) => explMismatchHits.some((h) => h.id === id)).length} allowed)`);
+console.log(`explanation templates: threshold ${EXPL_TMPL_THRESHOLD}; ${explTmplStats.join(", ")}; mismatch hits ${explMismatchHits.length} (${[...explMismatchBaseline].filter((id) => explMismatchHits.some((h) => h.id === id)).length} allowed); stray fragments ${strayFragHits.length}; tempting-not-option ${temptingValueHits.length}; broken-hint-templates ${brokenHintHits.length}`);
 console.log(`${uniq.length} finding(s), ${warnings.length} warning(s)${STRICT && warnings.length ? " (--strict: warnings fail)" : ""}`);
 process.exit(uniq.length || (STRICT && warnings.length) ? 1 : 0);

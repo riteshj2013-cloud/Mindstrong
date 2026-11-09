@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "reflex" }
     ],
     answerId: "c",
-    explanation: "A right angle measures exactly 90°. acute is tempting if you count an extra side that is not part of the polygon.",
+    explanation: "A right angle measures exactly 90°. acute is tempting if you apply the wrong angle/figure rule to “angle / measuring / called”, naming acute instead of right.",
     hints: ["Picture the corner of a notebook page. What special name is given to an angle measuring exactly 90°?"]
   },
   {
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "acute" }
     ],
     answerId: "d",
-    explanation: "Acute angles are less than 90°. 45° is acute. right is tempting if you name a ray when the figure is a line segment (or the other way round).",
+    explanation: "Acute angles are less than 90°. 45° is acute. right is tempting if you apply the wrong angle/figure rule to “angle”, naming right instead of acute.",
     hints: ["Compare with 90°."]
   },
   {
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "straight" }
     ],
     answerId: "a",
-    explanation: "Obtuse angles are between 90° and 180°. 120° is obtuse. acute is tempting if you use radius where diameter is needed.",
+    explanation: "Obtuse angles are between 90° and 180°. 120° is obtuse. acute is tempting if you apply the wrong angle/figure rule to “angle”, naming acute instead of obtuse.",
     hints: ["120° is more than a right angle of 90° but less than 180°. Which type is that?"]
   },
   {
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "180°" }
     ],
     answerId: "d",
-    explanation: "Interior angles of a triangle always sum to 180°. 90° is tempting if you count an extra side that is not part of the polygon.",
+    explanation: "Interior angles of a triangle always sum to 180°. 90° is tempting if you apply the wrong angle/figure rule to “sum / angles / triangle”, naming 90° instead of 180°.",
     hints: ["Triangle angle sum is a half-turn."]
   },
   {
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6" }
     ],
     answerId: "a",
-    explanation: "Quad means four — four sides. 3 is tempting if you name a ray when the figure is a line segment (or the other way round).",
+    explanation: "Quad means four — four sides. 3 is tempting if you apply the wrong angle/figure rule to “quadrilateral / many / sides”, naming 3 instead of 4.",
     hints: ["Draw a quadrilateral, such as a kite or a rectangle, and count its sides."]
   },
   {
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Trapezium" }
     ],
     answerId: "b",
-    explanation: "A square has equal sides and four right angles. Rectangle that is not a square is tempting if you add angle sizes that do not meet at the vertex asked for.",
+    explanation: "A square has equal sides and four right angles. Rectangle that is not a square is tempting if you apply the wrong angle/figure rule to “shape / sides / angles”, naming Rectangle that is not a square instead of Square.",
     hints: ["All angles 90° gives a rectangle shape. Which rectangle also has all its sides equal?"]
   },
   {
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "The top edge and the left edge of the page" }
     ],
     answerId: "c",
-    explanation: "The printed lines across the page stay the same distance apart and never meet, so they are parallel. The margin line meets the printed lines at right angles, so those are perpendicular, not parallel; the diagonals cross in the middle, and the top and left edges meet at a corner. A printed line and the margin line is tempting if you confuse this term with a closely related geometry word.",
+    explanation: "The printed lines across the page stay the same distance apart and never meet, so they are parallel. The margin line meets the printed lines at right angles, so those are perpendicular, not parallel; the diagonals cross in the middle, and the top and left edges meet at a corner. A printed line and the margin line is tempting if you apply the wrong angle/figure rule to “pair / lines / ruled”, naming A printed line and the margin line instead of Two printed lines running across the page.",
     hints: ["Parallel lines keep the same gap all along and never meet. Check whether each pair crosses or meets."]
   },
   {
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "90°" }
     ],
     answerId: "d",
-    explanation: "Perpendicular means they form a right angle (90°). 60° is tempting if you confuse this term with a closely related geometry word.",
+    explanation: "Perpendicular means they form a right angle (90°). 60° is tempting if you apply the wrong angle/figure rule to “Perpendicular / lines / meet”, naming 60° instead of 90°.",
     hints: ["Perpendicular lines meet like the edges at a corner of a book. What angle is that square corner?"]
   },
   {
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "arc" }
     ],
     answerId: "a",
-    explanation: "Radius is centre-to-rim distance. diameter is tempting if you confuse the circumference with the radius, diameter, or the disk inside.",
+    explanation: "Radius is centre-to-rim distance. diameter is tempting if you apply the wrong angle/figure rule to “circle / distance / centre”, naming diameter instead of radius.",
     hints: ["The distance from the centre of a circle to any point on it is half the diameter. What is it called?"]
   },
   {
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Angles 120°, 30°, 30°" }
     ],
     answerId: "b",
-    explanation: "All three angles of an equilateral triangle are 60° — all acute. Angles 90°, 45°, 45° is tempting if you use radius where diameter is needed.",
+    explanation: "An acute-angled triangle has every angle less than 90°. Angles 60°, 60°, 60° are all acute. Angles 90°, 45°, 45° is tempting if you accept a right angle as acute; 90° is right, not acute.",
     hints: ["An acute-angled triangle has every angle less than 90°. Check all three angles in each option."]
   },
   {
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "right" }
     ],
     answerId: "b",
-    explanation: "180° is a straight angle. acute is tempting if you count an extra side that is not part of the polygon.",
+    explanation: "180° is a straight angle. acute is tempting if you apply the wrong angle/figure rule to “angle”, naming acute instead of straight.",
     hints: ["At 180° the two arms point in exactly opposite directions and form a line. Which angle type is that?"]
   },
   {
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "right" }
     ],
     answerId: "c",
-    explanation: "Reflex angles lie between 180° and 360°. acute is tempting if you name a ray when the figure is a line segment (or the other way round).",
+    explanation: "Reflex angles lie between 180° and 360°. acute is tempting if you apply the wrong angle/figure rule to “angle / greater / less”, naming acute instead of reflex.",
     hints: ["Bigger than a straight angle."]
   },
   {
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "d",
-    explanation: "A quadrilateral has 2 diagonals. 1 is tempting if you add angle sizes that do not meet at the vertex asked for.",
+    explanation: "A quadrilateral has 2 diagonals. 1 is tempting if you apply the wrong angle/figure rule to “many / diagonals / quadrilateral”, naming 1 instead of 2.",
     hints: ["Join opposite corners — how many ways?"]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Only circle chords" }
     ],
     answerId: "b",
-    explanation: "Parallel lines never meet; perpendicular lines meet at 90° — impossible together. Any two lines is tempting if you confuse this term with a closely related geometry word.",
+    explanation: "Parallel lines never meet; perpendicular lines meet at 90° — impossible together. Any two lines is tempting if you apply the wrong angle/figure rule to “pair / lines / both”, naming Any two lines instead of No pair of lines.",
     hints: ["Can never-meeting lines also meet at 90°?"]
   },
   {
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Set square only" }
     ],
     answerId: "a",
-    explanation: "A compass draws circles of a chosen radius. Protractor is tempting if you confuse the circumference with the radius, diameter, or the disk inside.",
+    explanation: "A compass draws circles of a chosen radius. Protractor is tempting if you apply the wrong angle/figure rule to “tool / draws / circle”, naming Protractor instead of Compass.",
     hints: ["Which tool has a sharp point to hold the centre and a pencil arm that turns to draw a circle?"]
   },
   {
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "at least two sides equal" }
     ],
     answerId: "d",
-    explanation: "Isosceles means at least two sides equal. all sides different is tempting if you count an extra side that is not part of the polygon.",
+    explanation: "Isosceles means at least two sides equal. all sides different is tempting if you apply the wrong angle/figure rule to “isosceles / triangle”, naming all sides different instead of at least two sides equal.",
     hints: ["Iso means equal. In an isosceles triangle, how many sides must match?"]
   },
   {
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "heptagon" }
     ],
     answerId: "b",
-    explanation: "Penta- means five → pentagon. hexagon is tempting if you name a ray when the figure is a line segment (or the other way round).",
+    explanation: "Penta- means five → pentagon. hexagon is tempting if you apply the wrong angle/figure rule to “polygon / sides”, naming hexagon instead of pentagon.",
     hints: ["Hexa means 6, hepta means 7, octa means 8. Which polygon name is left for 5 sides?"]
   },
   {
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "secant" }
     ],
     answerId: "c",
-    explanation: "The interior region is the disk; circumference is the boundary length. circumference is tempting if you confuse the circumference with the radius, diameter, or the disk inside.",
+    explanation: "The interior region is the disk; circumference is the boundary length. circumference is tempting if you apply the wrong angle/figure rule to “region / enclosed / circle”, naming circumference instead of interior (disk).",
     hints: ["The circumference is the boundary of the circle. What do we call the region enclosed inside it?"]
   },
   {
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "55°" }
     ],
     answerId: "d",
-    explanation: "90 − 35 = 55°. 65° is tempting if you use the wrong angle relationship (for example complementary instead of supplementary); the correct measure is 55°.",
+    explanation: "90 − 35 = 55°. 65° is tempting if you apply the wrong angle/figure rule to “complementary”, naming 65° instead of 55°.",
     hints: ["Complementary sum to 90°."]
   },
   {
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "90°" }
     ],
     answerId: "a",
-    explanation: "180 − 110 = 70°. 80° is tempting if you use the wrong angle relationship (for example complementary instead of supplementary); the correct measure is 70°.",
+    explanation: "180 − 110 = 70°. 80° is tempting if you apply the wrong angle/figure rule to “supplementary”, naming 80° instead of 70°.",
     hints: ["Supplementary sum to 180°."]
   },
   {
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "two right angles" }
     ],
     answerId: "b",
-    explanation: "Scalene means all three sides different lengths. all sides equal is tempting if you use radius where diameter is needed.",
+    explanation: "Scalene means all three sides different lengths. all sides equal is tempting if you apply the wrong angle/figure rule to “scalene / triangle”, naming all sides equal instead of all sides different.",
     hints: ["Equilateral has all sides equal; isosceles has two. What is left for a scalene triangle?"]
   },
   {
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "circle" }
     ],
     answerId: "d",
-    explanation: "A circle’s boundary is curved, so it is not a polygon. triangle is tempting if you add angle sizes that do not meet at the vertex asked for.",
+    explanation: "A circle’s boundary is curved, so it is not a polygon. triangle is tempting if you apply the wrong angle/figure rule to “closed / shape / curved”, naming triangle instead of circle.",
     hints: ["Polygons need straight sides only."]
   }
 ];
