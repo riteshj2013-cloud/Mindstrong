@@ -13,8 +13,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6" }
     ],
     answerId: "a",
-    explanation: "The integers strictly between \u22123 and 2 are \u22122, \u22121, 0 and 1, so there are 4. 5 is tempting if you include one endpoint, and 6 if you include both.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The integers strictly between −3 and 2 are −2, −1, 0 and 1, so there are 4. 5 is tempting if you include one endpoint, and 6 if you include both.",
+    hints: ["\"Strictly between\" leaves out −3 and 2 themselves. Remember to count 0."]
   },
   {
     id: "g7-maths-integers-a-q02",
@@ -26,8 +26,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "b",
-    explanation: "A number plus its additive inverse equals 0, so \u221215 + 15 = 0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A number plus its additive inverse equals 0, so −15 + 15 = 0. 0 is tempting, but it does not match what the question asks.",
+    hints: ["Additive inverse means the number that sums with it to zero."]
   },
   {
     id: "g7-maths-integers-a-q03",
@@ -39,8 +39,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "c",
-    explanation: "More negative numbers lie farther to the left. \u221212 < \u22123.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "More negative numbers lie farther to the left. −12 < −3. −3 is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["On a number line, left means smaller."]
   },
   {
     id: "g7-maths-integers-a-q04",
@@ -52,8 +52,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221213" }
     ],
     answerId: "d",
-    explanation: "Adding two negatives: add absolute values and keep the negative sign \u2192 \u221213.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Adding two negatives: add absolute values and keep the negative sign → −13. −3 is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Two negatives added go further left. Find 8 + 5 and put a minus sign in front."]
   },
   {
     id: "g7-maths-integers-a-q05",
@@ -65,8 +65,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221213" }
     ],
     answerId: "a",
-    explanation: "9 \u2212 4 = 5. Adding a negative is subtraction.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "9 − 4 = 5. Adding a negative is subtraction. 13 is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Adding −4 means stepping 4 to the left. Start at 9 on the number line."]
   },
   {
     id: "g7-maths-integers-a-q06",
@@ -78,8 +78,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "b",
-    explanation: "Subtracting a negative is adding: \u22126 + 2 = \u22124.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Subtracting a negative is adding: −6 + 2 = −4. −8 is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Subtracting −2 is the same as adding 2. Start at −6 and move 2 steps right."]
   },
   {
     id: "g7-maths-integers-a-q07",
@@ -91,8 +91,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "c",
-    explanation: "Negative \u00d7 positive = negative. 7 \u00d7 3 = 21, so answer is \u221221.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Negative × positive = negative. 7 × 3 = 21, so answer is −21. −10 is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["A negative times a positive is negative. Work out 7 × 3, then add the sign."]
   },
   {
     id: "g7-maths-integers-a-q08",
@@ -104,8 +104,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "d",
-    explanation: "Negative \u00d7 negative = positive. 5 \u00d7 4 = 20.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Negative × negative = positive. 5 × 4 = 20. 9 is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["A negative times a negative is positive. Work out 5 × 4."]
   },
   {
     id: "g7-maths-integers-a-q09",
@@ -117,8 +117,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "45" }
     ],
     answerId: "a",
-    explanation: "Negative \u00f7 positive = negative. 36 \u00f7 9 = 4, so \u22124.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Negative ÷ positive = negative. 36 ÷ 9 = 4, so −4. 4 is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Signs differ, so the quotient is negative. Which number times 9 gives 36?"]
   },
   {
     id: "g7-maths-integers-a-q10",
@@ -130,8 +130,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221242" }
     ],
     answerId: "b",
-    explanation: "Negative \u00f7 negative = positive. 48 \u00f7 6 = 8.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Negative ÷ negative = positive. 48 ÷ 6 = 8. −8 is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Same signs give a positive quotient. Which number times 6 gives 48?"]
   },
   {
     id: "g7-maths-integers-a-q11",
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7" }
     ],
     answerId: "c",
-    explanation: "|x| < 3 means x is less than 3 steps from 0, so x = \u22122, \u22121, 0, 1 or 2. That is 5 integers. 4 is tempting if you forget 0, and 7 if you also count \u22123 and 3.",
+    explanation: "|x| < 3 means x is less than 3 steps from 0, so x = −2, −1, 0, 1 or 2. That is 5 integers. 4 is tempting if you forget 0, and 7 if you also count −3 and 3.",
     hints: ["List the integers whose distance from 0 is less than 3. Remember 0 and the negative ones."]
   },
   {
@@ -156,8 +156,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u22125 < \u22122" }
     ],
     answerId: "d",
-    explanation: "\u22125 is to the left of \u22122, so \u22125 is smaller.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "−5 is to the left of −2, so −5 is smaller. −5 = −2 is tempting, but it does not match what the question asks.",
+    hints: ["On the number line, numbers further left are smaller. Is −5 left or right of −2?"]
   },
   {
     id: "g7-maths-integers-a-q13",
@@ -169,8 +169,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221213 floors" }
     ],
     answerId: "a",
-    explanation: "\u22124 + 9 = +5 floors.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "−4 + 9 = +5 floors. +13 floors is tempting, but it does not match what the question asks.",
+    hints: ["Down is negative; up is positive."]
   },
   {
     id: "g7-maths-integers-a-q14",
@@ -182,8 +182,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3 \u00b0C" }
     ],
     answerId: "b",
-    explanation: "Final \u2212 initial = \u22123 \u2212 6 = \u22129 \u00b0C.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Final − initial = −3 − 6 = −9 °C. −3 °C is tempting, but it does not match what the question asks.",
+    hints: ["Change = new value minus old value."]
   },
   {
     id: "g7-maths-integers-a-q15",
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "c",
-    explanation: "11 \u00d7 4 = 44 and 6 \u00d7 (\u22122) = \u221212, so his score is 44 + (\u221212) = 32. 56 is tempting if you add the marks for wrong answers instead of taking them away.",
+    explanation: "11 × 4 = 44 and 6 × (−2) = −12, so his score is 44 + (−12) = 32. 56 is tempting if you add the marks for wrong answers instead of taking them away.",
     hints: ["Work out Ravi's marks for the 11 correct answers and for the 6 wrong ones separately. Then add them; one total is negative."]
   },
   {
@@ -208,8 +208,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "d",
-    explanation: "0 + 8 = 8.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "0 + 8 = 8. 0 is tempting, but it does not match what the question asks.",
+    hints: ["Subtracting a negative is the same as adding its opposite. Start from 0 on the number line."]
   },
   {
     id: "g7-maths-integers-a-q17",
@@ -221,8 +221,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(\u22121) \u00d7 12" }
     ],
     answerId: "a",
-    explanation: "Both factors negative \u2192 product positive.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Both factors negative → product positive. (−3) × 7 is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Count negative factors: even count → positive."]
   },
   {
     id: "g7-maths-integers-a-q18",
@@ -234,8 +234,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6" }
     ],
     answerId: "b",
-    explanation: "(\u22122)\u00d7(\u22122)\u00d7(\u22122) = 4 \u00d7 (\u22122) = \u22128. Odd power keeps the negative.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "(−2)×(−2)×(−2) = 4 × (−2) = −8. Odd power keeps the negative. −6 is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Write (−2) × (−2) × (−2). Multiply two at a time and track the sign."]
   },
   {
     id: "g7-maths-integers-a-q19",
@@ -247,8 +247,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "c",
-    explanation: "Successor means +1: \u22129 + 1 = \u22128.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Successor means +1: −9 + 1 = −8. −10 is tempting, but it does not match what the question asks.",
+    hints: ["Successor is one more on the number line."]
   },
   {
     id: "g7-maths-integers-a-q20",
@@ -260,8 +260,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221210" }
     ],
     answerId: "d",
-    explanation: "Predecessor means \u22121: \u22129 \u2212 1 = \u221210.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Predecessor means −1: −9 − 1 = −10. −8 is tempting, but it does not match what the question asks.",
+    hints: ["Predecessor is one less."]
   },
   {
     id: "g7-maths-integers-a-q21",
@@ -273,8 +273,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "a",
-    explanation: "A number plus its additive inverse is 0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A number plus its additive inverse is 0. 1 is tempting, but it does not match what the question asks.",
+    hints: ["−15 and 15 are opposites, the same distance from the start on either side of the number line. What do they add to?"]
   },
   {
     id: "g7-maths-integers-a-q22",
@@ -286,7 +286,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "13" }
     ],
     answerId: "b",
-    explanation: "The other integer is \u22125 \u2212 8 = \u221213, because 8 + (\u221213) = \u22125. \u22123 is tempting, but 8 + (\u22123) = 5, not \u22125.",
+    explanation: "The other integer is −5 − 8 = −13, because 8 + (−13) = −5. −3 is tempting, but 8 + (−3) = 5, not −5.",
     hints: ["Write 8 + ? = \u22125. Which number must you add to 8 to land on \u22125 on the number line?"]
   },
   {
@@ -299,8 +299,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u2212\u20b9540" }
     ],
     answerId: "c",
-    explanation: "\u2212240 + 300 = 60 rupees.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "−240 + 300 = 60 rupees. ₹540 is tempting, but it does not match what the question asks.",
+    hints: ["Debt is negative; deposits add."]
   },
   {
     id: "g7-maths-integers-a-q24",
@@ -312,8 +312,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221211" }
     ],
     answerId: "d",
-    explanation: "\u22129 \u2212 4 = \u221213; \u221213 + 2 = \u221211.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "−9 − 4 = −13; −13 + 2 = −11. −15 is tempting, but it does not match what the question asks.",
+    hints: ["Work left to right: first −9 − 4, then add 2."]
   }
 ];
 
@@ -328,8 +328,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Forming halves" }
     ],
     answerId: "a",
-    explanation: "Sum of two integers is always an integer. Division may give a non-integer.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Sum of two integers is always an integer. Division may give a non-integer. Division is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Closed means the answer is always an integer too. Try 3 and −5 with each operation."]
   },
   {
     id: "g7-maths-integers-b-q02",
@@ -341,8 +341,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Identity" }
     ],
     answerId: "b",
-    explanation: "Order of addition does not matter \u2014 commutative property.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Order of addition does not matter — commutative property. Associative is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["In a + b = b + a, only the order of a and b changes. Which property is about swapping the order?"]
   },
   {
     id: "g7-maths-integers-b-q03",
@@ -354,8 +354,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "None" }
     ],
     answerId: "c",
-    explanation: "a + 0 = a for every integer a.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "a + 0 = a for every integer a. 1 is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Identity leaves the number unchanged."]
   },
   {
     id: "g7-maths-integers-b-q04",
@@ -367,8 +367,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u221212" }
     ],
     answerId: "d",
-    explanation: "Three negatives: product is negative. 3\u00d74\u00d71 = 12 \u2192 \u221212.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Three negatives: product is negative. 3×4×1 = 12 → −12. −7 is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Count the negative signs. An odd count gives a negative product. Then multiply 3 × 4 × 1."]
   },
   {
     id: "g7-maths-integers-b-q05",
@@ -380,8 +380,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22125" }
     ],
     answerId: "a",
-    explanation: "\u221220 \u00f7 4 = \u22125.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "−20 ÷ 4 = −5. 5 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["What times −5 gives −20?"]
   },
   {
     id: "g7-maths-integers-b-q06",
@@ -393,8 +393,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "a + b" }
     ],
     answerId: "b",
-    explanation: "\u2212(a \u2212 b) = \u2212a + b = b \u2212 a.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "−(a − b) = −a + b = b − a. a − b is tempting, but it does not match what the question asks.",
+    hints: ["Open the bracket: the minus sign changes the sign of a and of −b. Rearrange what you get."]
   },
   {
     id: "g7-maths-integers-b-q07",
@@ -406,8 +406,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "105 m" }
     ],
     answerId: "c",
-    explanation: "\u221280 + 25 = \u221255 m (still below sea level).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "−80 + 25 = −55 m (still below sea level). −105 m is tempting, but it does not match what the question asks.",
+    hints: ["Rising adds a positive change to a negative depth."]
   },
   {
     id: "g7-maths-integers-b-q08",
@@ -419,8 +419,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "d",
-    explanation: "7 \u2212 3 = 4.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "7 − 3 = 4. 10 is tempting, but it does not match what the question asks.",
+    hints: ["Find the distance of −7 from zero, and of 3. Then subtract the second from the first."]
   },
   {
     id: "g7-maths-integers-b-q09",
@@ -432,7 +432,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u2212370" }
     ],
     answerId: "a",
-    explanation: "(\u22124) \u00d7 (\u221225) = 100, and 100 \u00d7 37 = 3,700. Two negative factors make a positive product. \u22123,700 is tempting if you forget that the two negatives cancel.",
+    explanation: "(−4) × (−25) = 100, and 100 × 37 = 3,700. Two negative factors make a positive product. −3,700 is tempting if you forget that the two negatives cancel.",
     hints: ["Multiply (\u22124) and (\u221225) first, since that gives a round number. Then multiply by 37. Watch the signs."]
   },
   {
@@ -445,8 +445,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "b",
-    explanation: "5 + 9 \u2212 3 = 11.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "5 + 9 − 3 = 11. 17 is tempting, but it does not match what the question asks.",
+    hints: ["Subtracting −9 means adding 9. Work left to right: 5 + 9, then subtract 3."]
   },
   {
     id: "g7-maths-integers-b-q11",
@@ -458,8 +458,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "42" }
     ],
     answerId: "c",
-    explanation: "(\u22126) \u00d7 6 = \u221236.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "(−6) × 6 = −36. −6 is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Divide −36 by the given negative factor. Negative divided by negative is positive."]
   },
   {
     id: "g7-maths-integers-b-q12",
@@ -471,8 +471,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22128, \u22122, 0, 5" }
     ],
     answerId: "d",
-    explanation: "From most negative to most positive: \u22128, \u22122, 0, 5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "From most negative to most positive: −8, −2, 0, 5. −2, −8, 0, 5 is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Ascending means smallest to largest."]
   },
   {
     id: "g7-maths-integers-b-q13",
@@ -484,7 +484,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "a",
-    explanation: "An even power of \u22121 is 1 and an odd power of \u22121 is \u22121, so the sum is 1 + (\u22121) = 0. 2 is tempting if you think every power of \u22121 is 1.",
+    explanation: "An even power of −1 is 1 and an odd power of −1 is −1, so the sum is 1 + (−1) = 0. 2 is tempting if you think every power of −1 is 1.",
     hints: ["Is 50 even or odd? Is 51? Work out each power of \u22121, then add the two results."]
   },
   {
@@ -497,8 +497,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22128" }
     ],
     answerId: "b",
-    explanation: "\u221214 \u2212 6 = \u221220; \u221220 + 20 = 0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "−14 − 6 = −20; −20 + 20 = 0. −8 is tempting, but it does not match what the question asks.",
+    hints: ["Add the two negatives first: −14 + (−6). Then add 20."]
   },
   {
     id: "g7-maths-integers-b-q15",
@@ -510,8 +510,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "c",
-    explanation: "\u22123 \u2212 7 = \u221210.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "−3 − 7 = −10. −4 is tempting, but it does not match what the question asks.",
+    hints: ["Subtract means add the opposite of b."]
   },
   {
     id: "g7-maths-integers-b-q16",
@@ -523,8 +523,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "7 \u00f7 0" }
     ],
     answerId: "d",
-    explanation: "Division by zero is never defined.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Division by zero is never defined. 7 ÷ (−1) is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Undefined means it has no answer. Can any number times zero ever give 7?"]
   },
   {
     id: "g7-maths-integers-b-q17",
@@ -536,8 +536,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Loss of \u20b9970" }
     ],
     answerId: "a",
-    explanation: "450 \u2212 520 = \u221270 \u2192 loss of \u20b970.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "450 − 520 = −70 → loss of ₹70. Gain of ₹70 is tempting, but it does not match what the question asks.",
+    hints: ["Gain positive, loss negative."]
   },
   {
     id: "g7-maths-integers-b-q18",
@@ -549,8 +549,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "b",
-    explanation: "\u221225 \u00f7 5 = \u22125; (\u22125)\u00d7(\u22122) = 10. Left to right.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "−25 ÷ 5 = −5; (−5)×(−2) = 10. Left to right. 2 is tempting, but it does not match what the question asks.",
+    hints: ["Work left to right: first (−25) ÷ 5, then multiply by (−2)."]
   },
   {
     id: "g7-maths-integers-b-q19",
@@ -562,8 +562,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Never zero" }
     ],
     answerId: "c",
-    explanation: "Examples: 5\u22122=3, 2\u22125=\u22123, 5\u22125=0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Examples: 5−2=3, 2−5=−3, 5−5=0. Only positive is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Difference depends on which is larger."]
   },
   {
     id: "g7-maths-integers-b-q20",
@@ -575,8 +575,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Distributive" }
     ],
     answerId: "d",
-    explanation: "Multiplication distributes over addition.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Multiplication distributes over addition. Commutative is tempting, but it does not match what the question asks.",
+    hints: ["In a × (b + c), a multiplies each term inside the bracket. Which property spreads × over +?"]
   },
   {
     id: "g7-maths-integers-b-q21",
@@ -588,7 +588,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "17" }
     ],
     answerId: "a",
-    explanation: "|x| = 12 means x is 12 or \u221212. x is negative, so x = \u221212, and \u221212 \u2212 5 = \u221217. 7 is tempting if you take x = 12.",
+    explanation: "|x| = 12 means x is 12 or −12. x is negative, so x = −12, and −12 − 5 = −17. 7 is tempting if you take x = 12.",
     hints: ["Which two numbers are 12 steps from zero? Pick the negative one, then subtract 5."]
   },
   {
@@ -601,8 +601,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "b",
-    explanation: "\u22122, \u22121, 0, 1, 2, 3 \u2014 six integers.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "−2, −1, 0, 1, 2, 3 — six integers. 5 is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["List them: start just after −3 and stop just before 4. Do not include −3 or 4."]
   },
   {
     id: "g7-maths-integers-b-q23",
@@ -614,8 +614,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "14" }
     ],
     answerId: "c",
-    explanation: "Multiply first: 3\u00d7(\u22122)=\u22126; then \u22128+(\u22126)=\u221214.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Multiply first: 3×(−2)=−6; then −8+(−6)=−14. −10 is tempting, but it does not match what the question asks.",
+    hints: ["Multiply before adding: work out 3 × (−2) first, then add it to −8."]
   },
   {
     id: "g7-maths-integers-b-q24",
@@ -627,8 +627,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22129 and 9" }
     ],
     answerId: "d",
-    explanation: "\u22129 + 9 = 0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "−9 + 9 = 0. −9 and 1/9 is tempting, but it does not match what the question asks.",
+    hints: ["Additive inverses sum to zero."]
   }
 ];
 

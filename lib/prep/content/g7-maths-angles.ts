@@ -13,8 +13,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Straight" }
     ],
     answerId: "a",
-    explanation: "Less than 90\u00b0 means acute.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Less than 90° means acute. Right is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Compare with 90°."]
   },
   {
     id: "g7-maths-angles-a-q02",
@@ -26,8 +26,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "145\u00b0" }
     ],
     answerId: "b",
-    explanation: "A right angle is 90\u00b0, so the other angle is 90\u00b0 \u2212 35\u00b0 = 55\u00b0. 145\u00b0 is tempting, but that uses 180\u00b0 (a straight angle) instead of 90\u00b0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A right angle is 90°, so the other angle is 90° − 35° = 55°. 145° is tempting, but that uses 180° (a straight angle) instead of 90°.",
+    hints: ["A right angle is a quarter turn. Subtract from that, not from a half turn."]
   },
   {
     id: "g7-maths-angles-a-q03",
@@ -39,8 +39,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "straight" }
     ],
     answerId: "c",
-    explanation: "An angle greater than 180\u00b0 and less than 360\u00b0 is reflex. Obtuse is tempting because 250\u00b0 is big, but obtuse angles lie between 90\u00b0 and 180\u00b0 only.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "An angle greater than 180° and less than 360° is reflex. Obtuse is tempting because 250° is big, but obtuse angles lie between 90° and 180° only.",
+    hints: ["Compare 250° with 90°, 180° and 360°."]
   },
   {
     id: "g7-maths-angles-a-q04",
@@ -52,8 +52,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "45\u00b0" }
     ],
     answerId: "d",
-    explanation: "A linear pair adds up to 180\u00b0, so x + 3x = 4x = 180\u00b0 and x = 45\u00b0. 30\u00b0 is tempting if you use 120\u00b0 or forget that the two angles together make a straight angle.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A linear pair adds up to 180°, so x + 3x = 4x = 180° and x = 45°. 30° is tempting if you use 120° or forget that the two angles together make a straight angle.",
+    hints: ["Angles on a straight line add up to 180°. Write that as an equation in x."]
   },
   {
     id: "g7-maths-angles-a-q05",
@@ -65,8 +65,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "45\u00b0" }
     ],
     answerId: "a",
-    explanation: "Two angles are complementary if they add to 90\u00b0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Two angles are complementary if they add to 90°. 45° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Complement → right angle total."]
   },
   {
     id: "g7-maths-angles-a-q06",
@@ -78,8 +78,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "270\u00b0" }
     ],
     answerId: "b",
-    explanation: "Two angles are supplementary if they add to 180\u00b0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Two angles are supplementary if they add to 180°. 270° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Supplement → straight angle total."]
   },
   {
     id: "g7-maths-angles-a-q07",
@@ -91,8 +91,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "48\u00b0" }
     ],
     answerId: "c",
-    explanation: "90 \u2212 38 = 52.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "90 − 38 = 52. 48° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Complement = 90° minus the angle."]
   },
   {
     id: "g7-maths-angles-a-q08",
@@ -104,8 +104,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "70\u00b0" }
     ],
     answerId: "d",
-    explanation: "180 \u2212 110 = 70.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "180 − 110 = 70. 80° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Supplement = 180° minus the angle."]
   },
   {
     id: "g7-maths-angles-a-q09",
@@ -117,8 +117,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "295\u00b0" }
     ],
     answerId: "a",
-    explanation: "Vertically opposite angles are equal, so it is 65\u00b0. 115\u00b0 is tempting, but that is the angle next to it on the straight line (180\u00b0 \u2212 65\u00b0), not the opposite one.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Vertically opposite angles are equal, so it is 65°. 115° is tempting, but that is the angle next to it on the straight line (180° − 65°), not the opposite one.",
+    hints: ["Vertically opposite angles face each other across the crossing point. Do they change size?"]
   },
   {
     id: "g7-maths-angles-a-q10",
@@ -130,8 +130,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "45\u00b0" }
     ],
     answerId: "b",
-    explanation: "They form a linear pair \u2014 supplementary.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "They form a linear pair — supplementary. 90° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Adjacent angles on a straight line make a half-turn. A full turn is 360°."]
   },
   {
     id: "g7-maths-angles-a-q11",
@@ -143,8 +143,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "90\u00b0" }
     ],
     answerId: "c",
-    explanation: "Vertically opposite angles are equal.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Vertically opposite angles are equal. 90° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Opposite equals opposite."]
   },
   {
     id: "g7-maths-angles-a-q12",
@@ -156,8 +156,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "115\u00b0" }
     ],
     answerId: "d",
-    explanation: "180 \u2212 65 = 115.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "180 − 65 = 115. 65° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Linear pair sums to 180°."]
   },
   {
     id: "g7-maths-angles-a-q13",
@@ -169,8 +169,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "270\u00b0" }
     ],
     answerId: "a",
-    explanation: "A full turn is 360\u00b0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A full turn is 360°. 270° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Full circle around a point."]
   },
   {
     id: "g7-maths-angles-a-q14",
@@ -182,8 +182,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "270\u00b0" }
     ],
     answerId: "b",
-    explanation: "Angle sum property of a triangle.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Angle sum property of a triangle. 270° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Tear off the corners of a paper triangle and line them up. They make a straight line."]
   },
   {
     id: "g7-maths-angles-a-q15",
@@ -195,8 +195,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "120\u00b0" }
     ],
     answerId: "c",
-    explanation: "180\u00b0 \u00f7 3 = 60\u00b0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "180° ÷ 3 = 60°. 45° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["All three angles equal."]
   },
   {
     id: "g7-maths-angles-a-q16",
@@ -208,8 +208,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "80\u00b0" }
     ],
     answerId: "d",
-    explanation: "180 \u2212 40 \u2212 60 = 80.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "180 − 40 − 60 = 80. 70° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Use the angle sum."]
   },
   {
     id: "g7-maths-angles-a-q17",
@@ -221,8 +221,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Half the opposite angle" }
     ],
     answerId: "a",
-    explanation: "Exterior-angle theorem for triangles.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Exterior-angle theorem for triangles. The adjacent interior angle is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["The angles of a triangle add to 180°, and so do angles on a straight line. Write both facts and compare."]
   },
   {
     id: "g7-maths-angles-a-q18",
@@ -234,8 +234,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Always 90\u00b0" }
     ],
     answerId: "b",
-    explanation: "Corresponding angles are congruent when lines are parallel.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Corresponding angles are congruent when lines are parallel. Supplementary is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Corresponding angles sit in the same position at each crossing of the transversal. Slide one onto the other: do they match?"]
   },
   {
     id: "g7-maths-angles-a-q19",
@@ -247,8 +247,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Always acute" }
     ],
     answerId: "c",
-    explanation: "Alternate interior angles are equal for parallel lines.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Alternate interior angles are equal for parallel lines. Complementary is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Z-shape angles match."]
   },
   {
     id: "g7-maths-angles-a-q20",
@@ -260,8 +260,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Supplementary" }
     ],
     answerId: "d",
-    explanation: "They add to 180\u00b0 (co-interior / same-side interior).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "They add to 180° (co-interior / same-side interior). Equal is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Same-side interior → 180°."]
   },
   {
     id: "g7-maths-angles-a-q21",
@@ -273,8 +273,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "150\u00b0" }
     ],
     answerId: "a",
-    explanation: "Co-interior with 75\u00b0: 180 \u2212 75 = 105.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Co-interior with 75°: 180 − 75 = 105. 75° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Co-interior angles are supplementary."]
   },
   {
     id: "g7-maths-angles-a-q22",
@@ -286,8 +286,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Between 90\u00b0 and 180\u00b0" }
     ],
     answerId: "b",
-    explanation: "Reflex angles measure more than a straight angle but less than a full turn.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Reflex angles measure more than a straight angle but less than a full turn. Less than 90° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Reflex is the larger turn."]
   },
   {
     id: "g7-maths-angles-a-q23",
@@ -299,8 +299,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "72\u00b0" }
     ],
     answerId: "c",
-    explanation: "2x + 3x = 90 \u2192 5x = 90 \u2192 x = 18; larger = 54\u00b0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2x + 3x = 90 → 5x = 90 → x = 18; larger = 54°. 36° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Parts of 90° in ratio 2:3."]
   },
   {
     id: "g7-maths-angles-a-q24",
@@ -312,8 +312,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "40\u00b0 and 50\u00b0" }
     ],
     answerId: "d",
-    explanation: "40 + 50 = 90.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "40 + 50 = 90. 40° and 140° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Complementary means sum 90°."]
   }
 ];
 
@@ -328,8 +328,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "40" }
     ],
     answerId: "a",
-    explanation: "2x + 10 = 3x \u2212 20 \u2192 30 = x.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2x + 10 = 3x − 20 → 30 = x. 20 is tempting, but it does not match what the question asks.",
+    hints: ["Set vertically opposite angles equal."]
   },
   {
     id: "g7-maths-angles-b-q02",
@@ -341,8 +341,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "110\u00b0" }
     ],
     answerId: "b",
-    explanation: "x + (x \u2212 20) = 90 \u2192 2x = 110 \u2192 x = 55.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "x + (x − 20) = 90 → 2x = 110 → x = 55. 70° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Let the angle be x; complement is x − 20."]
   },
   {
     id: "g7-maths-angles-b-q03",
@@ -354,8 +354,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "60\u00b0" }
     ],
     answerId: "c",
-    explanation: "x + x = 180 \u2192 x = 90.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "x + x = 180 → x = 90. 60° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Supplementary angles add to 180°. If an angle equals its supplement, then x + x = 180°."]
   },
   {
     id: "g7-maths-angles-b-q04",
@@ -367,8 +367,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "110\u00b0" }
     ],
     answerId: "d",
-    explanation: "Interior at C is 70\u00b0; exterior = 180 \u2212 70 = 110, also = A + B.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Interior at C is 70°; exterior = 180 − 70 = 110, also = A + B. 130° is tempting, but it does not match what the question asks.",
+    hints: ["Exterior = sum of remote interiors."]
   },
   {
     id: "g7-maths-angles-b-q05",
@@ -380,8 +380,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "90\u00b0" }
     ],
     answerId: "a",
-    explanation: "Corresponding angles are equal when lines are parallel.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Corresponding angles are equal when lines are parallel. 90° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Corresponding angles sit in matching corners where the transversal meets l and m. With l ∥ m, how do they compare?"]
   },
   {
     id: "g7-maths-angles-b-q06",
@@ -393,8 +393,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "180\u00b0" }
     ],
     answerId: "b",
-    explanation: "Alternate interior angles are equal.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Alternate interior angles are equal. 68° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Z-angles are equal."]
   },
   {
     id: "g7-maths-angles-b-q07",
@@ -406,8 +406,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "90\u00b0" }
     ],
     answerId: "c",
-    explanation: "2x+3x+4x=180 \u2192 9x=180 \u2192 x=20; largest=80\u00b0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2x+3x+4x=180 → 9x=180 → x=20; largest=80°. 90° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["The angles share 180° in the ratio 2 : 3 : 4. Find one part as 180° ÷ 9."]
   },
   {
     id: "g7-maths-angles-b-q08",
@@ -419,8 +419,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "No" }
     ],
     answerId: "d",
-    explanation: "90 + 90 = 180 leaves 0\u00b0 for the third angle \u2014 impossible.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "90 + 90 = 180 leaves 0° for the third angle — impossible. Yes is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Angle sum would exceed or leave nothing."]
   },
   {
     id: "g7-maths-angles-b-q09",
@@ -432,8 +432,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Corresponding pair" }
     ],
     answerId: "a",
-    explanation: "Adjacent angles on a straight line form a linear pair.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Adjacent angles on a straight line form a linear pair. Vertical pair is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Two adjacent angles that together make a straight line add to 180°. Which pair name means 'on a line'?"]
   },
   {
     id: "g7-maths-angles-b-q10",
@@ -445,8 +445,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "60\u00b0" }
     ],
     answerId: "b",
-    explanation: "360 \u2212 90 \u2212 120 = 150.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "360 − 90 − 120 = 150. 210° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Angles around a point sum to 360°."]
   },
   {
     id: "g7-maths-angles-b-q11",
@@ -458,8 +458,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "80\u00b0" }
     ],
     answerId: "c",
-    explanation: "(180 \u2212 40)/2 = 70.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "(180 − 40)/2 = 70. 80° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Equal base angles share the remaining sum."]
   },
   {
     id: "g7-maths-angles-b-q12",
@@ -471,8 +471,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Vertically opposite angles are equal" }
     ],
     answerId: "d",
-    explanation: "Vertical angles formed by intersecting lines are always equal.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Vertical angles formed by intersecting lines are always equal. Adjacent angles are equal is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Test each claim with examples: are adjacent angles always equal? Are two acute angles always complementary? Check every option like this."]
   },
   {
     id: "g7-maths-angles-b-q13",
@@ -484,8 +484,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "a",
-    explanation: "3x = 2x + 30 \u2192 x = 30.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3x = 2x + 30 → x = 30. 15 is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Corresponding angles equal when parallel."]
   },
   {
     id: "g7-maths-angles-b-q14",
@@ -497,8 +497,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Median" }
     ],
     answerId: "b",
-    explanation: "An angle bisector splits an angle into two congruent angles.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "An angle bisector splits an angle into two congruent angles. Perpendicular bisector is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Bisector means cut into equal halves."]
   },
   {
     id: "g7-maths-angles-b-q15",
@@ -510,8 +510,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "30\u00b0" }
     ],
     answerId: "c",
-    explanation: "90\u00b0 \u00f7 2 = 45\u00b0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "90° ÷ 2 = 45°. 30° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Bisecting means splitting into two equal parts. Halve the 90° of a right angle."]
   },
   {
     id: "g7-maths-angles-b-q16",
@@ -523,8 +523,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "38" }
     ],
     answerId: "d",
-    explanation: "(2x+10)+(3x\u221220)=180 \u2192 5x \u2212 10 = 180 \u2192 5x = 190 \u2192 x = 38.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "(2x+10)+(3x−20)=180 → 5x − 10 = 180 → 5x = 190 → x = 38. 42 is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Co-interior angles sum to 180°."]
   },
   {
     id: "g7-maths-angles-b-q17",
@@ -536,8 +536,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Reflex" }
     ],
     answerId: "a",
-    explanation: "All three angles less than 90\u00b0 \u2192 acute-angled triangle.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "All three angles less than 90° → acute-angled triangle. Obtuse-angled is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Named by its largest angle type."]
   },
   {
     id: "g7-maths-angles-b-q18",
@@ -549,8 +549,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Supplementary to each other only if both 90\u00b0" }
     ],
     answerId: "b",
-    explanation: "They sum to 90\u00b0, so each is acute and they are complementary.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "They sum to 90°, so each is acute and they are complementary. Obtuse is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["A right triangle uses 90° of its 180°. What do the other two angles add to, and how big can each be?"]
   },
   {
     id: "g7-maths-angles-b-q19",
@@ -562,8 +562,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Reflex" }
     ],
     answerId: "c",
-    explanation: "Equal corresponding angles is a parallel-line test.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Equal corresponding angles is a parallel-line test. Complementary is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Draw a transversal across parallel lines and measure the corresponding angles at both crossings. Compare them."]
   },
   {
     id: "g7-maths-angles-b-q20",
@@ -575,8 +575,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Reflex" }
     ],
     answerId: "d",
-    explanation: "270\u00b0 is between 180\u00b0 and 360\u00b0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "270° is between 180° and 360°. Obtuse is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["270° is more than a straight angle of 180° but less than a full turn of 360°. Name that angle type."]
   },
   {
     id: "g7-maths-angles-b-q21",
@@ -588,8 +588,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5\u00b0" }
     ],
     answerId: "a",
-    explanation: "Adjacent to 85\u00b0 on a straight-line style at the intersection: 180 \u2212 85 = 95.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Adjacent to 85° on a straight-line style at the intersection: 180 − 85 = 95. 85° is tempting, but it does not match what the question asks.",
+    hints: ["Adjacent angles on intersecting lines form a linear pair."]
   },
   {
     id: "g7-maths-angles-b-q22",
@@ -601,8 +601,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Depends on sides" }
     ],
     answerId: "b",
-    explanation: "Exterior angles of a convex polygon sum to 360\u00b0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Exterior angles of a convex polygon sum to 360°. 180° is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Walk round a convex polygon, turning by the exterior angle at each vertex. How much have you turned in total?"]
   },
   {
     id: "g7-maths-angles-b-q23",
@@ -614,8 +614,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "100\u00b0" }
     ],
     answerId: "c",
-    explanation: "Exterior = P + Q = 100, and P = Q, so each 50\u00b0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Exterior = P + Q = 100, and P = Q, so each 50°. 40° is tempting, but it does not match what the question asks.",
+    hints: ["Exterior equals sum of remote interiors."]
   },
   {
     id: "g7-maths-angles-b-q24",
@@ -627,8 +627,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "30\u00b0 and 60\u00b0 side by side making a right angle" }
     ],
     answerId: "d",
-    explanation: "30 + 60 = 90; they form a right angle together.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "30 + 60 = 90; they form a right angle together. 30° and 60° making a straight line is tempting if you mix up the angle relationship or the size of the turn.",
+    hints: ["Complementary → combined right angle."]
   }
 ];
 
