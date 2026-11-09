@@ -45,6 +45,7 @@ import { g4MathsWordProblems } from "./content/g4-maths-word-problems";
 import { g4MathsLrPatterns } from "./content/g4-maths-lr-patterns";
 import { g4MathsLrCodingRanking } from "./content/g4-maths-lr-coding-ranking";
 import { g4MathsLrDirectionFigures } from "./content/g4-maths-lr-direction-figures";
+import { g4MathsLrClockCalendar } from "./content/g4-maths-lr-clock-calendar";
 import { g4EnglishReading } from "./content/g4-english-reading";
 import { g4EnglishGrammar } from "./content/g4-english-grammar";
 import { g4EnglishWords } from "./content/g4-english-words";
@@ -693,6 +694,7 @@ const MATHS: Record<number, ChapterDef[]> = {
     g4MathsLrPatterns,
     g4MathsLrCodingRanking,
     g4MathsLrDirectionFigures,
+    g4MathsLrClockCalendar,
   ],
   5: [
     g5MathsLargeNumbers,
