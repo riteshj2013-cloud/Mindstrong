@@ -1,4 +1,5 @@
 import type { ChapterDef, PrepQuestion } from "../types";
+import { g8MathsLinearAchievers } from "./g8-maths-linear-achievers";
 
 /** Linear Equations - original olympiad-style content (not affiliated with SOF). */
 
@@ -707,6 +708,13 @@ export const g8MathsLinear: ChapterDef = {
       questionCount: SET_B.length,
       topic: "linear-lite",
       questions: SET_B,
+    },
+    {
+      id: "set-achievers",
+      title: "Achievers",
+      questionCount: g8MathsLinearAchievers.length,
+      topic: "linear-lite",
+      questions: g8MathsLinearAchievers,
     },
   ],
   paperTopics: ["linear-lite", "fractions"],

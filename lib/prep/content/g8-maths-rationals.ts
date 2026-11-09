@@ -1,4 +1,5 @@
 import type { ChapterDef, PrepQuestion } from "../types";
+import { g8MathsRationalsAchievers } from "./g8-maths-rationals-achievers";
 
 /** Rational Numbers - original olympiad-style content (not affiliated with SOF). */
 
@@ -707,6 +708,13 @@ export const g8MathsRationals: ChapterDef = {
       questionCount: SET_B.length,
       topic: "fractions",
       questions: SET_B,
+    },
+    {
+      id: "set-achievers",
+      title: "Achievers",
+      questionCount: g8MathsRationalsAchievers.length,
+      topic: "fractions",
+      questions: g8MathsRationalsAchievers,
     },
   ],
   paperTopics: ["fractions", "linear-lite"],

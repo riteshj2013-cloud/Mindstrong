@@ -1,4 +1,5 @@
 import type { ChapterDef, PrepQuestion } from "../types";
+import { g8MathsExponentsAchievers } from "./g8-maths-exponents-achievers";
 
 /** Exponents and Powers - original olympiad-style content (not affiliated with SOF). */
 
@@ -707,6 +708,13 @@ export const g8MathsExponents: ChapterDef = {
       questionCount: SET_B.length,
       topic: "multiply-basics",
       questions: SET_B,
+    },
+    {
+      id: "set-achievers",
+      title: "Achievers",
+      questionCount: g8MathsExponentsAchievers.length,
+      topic: "multiply-basics",
+      questions: g8MathsExponentsAchievers,
     },
   ],
   paperTopics: ["multiply-basics", "fractions"],

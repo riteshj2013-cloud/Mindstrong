@@ -1,4 +1,5 @@
 import type { ChapterDef, PrepQuestion } from "../types";
+import { g8MathsAlgebraAchievers } from "./g8-maths-algebra-achievers";
 
 /** Algebraic Expressions & Identities - original olympiad-style content (not affiliated with SOF). */
 
@@ -707,6 +708,13 @@ export const g8MathsAlgebra: ChapterDef = {
       questionCount: SET_B.length,
       topic: "linear-lite",
       questions: SET_B,
+    },
+    {
+      id: "set-achievers",
+      title: "Achievers",
+      questionCount: g8MathsAlgebraAchievers.length,
+      topic: "linear-lite",
+      questions: g8MathsAlgebraAchievers,
     },
   ],
   paperTopics: ["linear-lite", "fractions"],
