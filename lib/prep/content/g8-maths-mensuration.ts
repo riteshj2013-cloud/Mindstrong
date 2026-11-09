@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "32 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "Area = (1/2)(a + b)h = (1/2)(10 + 6)×4 = 32 cm². 24 cm² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 32 cm².",
+    explanation: "Area = (1/2)(a + b)h = (1/2)(10 + 6)×4 = 32 cm². 24 cm² is tempting if you apply a neighbouring mensuration formula to the lengths in “area / trapezium / parallel”, which evaluates to 24 cm² instead of 32 cm².",
     hints: ["Area of a trapezium = ½ × (sum of parallel sides) × height. Add 10 and 6 first."]
   },
   {
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "140 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "CSA = 2πrh = 2×(22/7)×7×10 = 440 cm². 220 cm² is tempting if you mix lateral and total surface formulas or drop a 2πr term; the correct surface measure is 440 cm².",
+    explanation: "CSA = 2πrh = 2×(22/7)×7×10 = 440 cm². 220 cm² is tempting if you apply a neighbouring mensuration formula to the lengths in “Curved / surface / area”, which evaluates to 220 cm² instead of 440 cm².",
     hints: ["Curved surface area = 2πrh. Use r = 7 cm, h = 10 cm and π = 22/7."]
   },
   {
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "54 m\u00b2" }
     ],
     answerId: "d",
-    explanation: "Lateral area = 2(l + b)h = 2(5 + 4)×3 = 54 m². 60 m² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 54 m².",
+    explanation: "Lateral area = 2(l + b)h = 2(5 + 4)×3 = 54 m². 60 m² is tempting if you multiply all three of 5, 4, 3 to get 60 m² rather than 54 m².",
     hints: ["Four walls = 2(length + breadth) × height. Use 5 m, 4 m and the 3 m height."]
   },
   {
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "36" }
     ],
     answerId: "b",
-    explanation: "Along each edge 6/2 = 3 cubes; 3³ = 27. 36 is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 27.",
+    explanation: "Along each edge 6/2 = 3 cubes; 3³ = 27. 36 is tempting if you apply a neighbouring mensuration formula to the lengths in “many / cubes / fit”, which evaluates to 36 instead of 27.",
     hints: ["Find how many 2 cm cubes fit along one 6 cm edge, then cube that number."]
   },
   {
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "269.5 m\u00b3" }
     ],
     answerId: "d",
-    explanation: "V = (22/7)×(3.5)²×7 = (22/7)×12.25×7 = 22×12.25 = 269.5 m³. 154 m³ is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 269.5 m³.",
+    explanation: "V = (22/7)×(3.5)²×7 = (22/7)×12.25×7 = 22×12.25 = 269.5 m³. 154 m³ is tempting if you apply a neighbouring mensuration formula to the lengths in “cylindrical / tank / Volume”, which evaluates to 154 m³ instead of 269.5 m³.",
     hints: ["V = πr²h. Square 3.5 m first, then multiply by 22/7 and by 7 m; the 7s cancel."]
   },
   {
@@ -274,7 +274,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "440 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "TSA = 2πr(h + r) = 2×(22/7)×7×(5 + 7) = 44×12 = 528 cm². 440 cm² is tempting if you mix lateral and total surface formulas or drop a 2πr term; the correct surface measure is 528 cm².",
+    explanation: "TSA = 2πr(h + r) = 2×(22/7)×7×(5 + 7) = 44×12 = 528 cm². 440 cm² is tempting if you apply a neighbouring mensuration formula to the lengths in “TSA / cylinder”, which evaluates to 440 cm² instead of 528 cm².",
     hints: ["TSA of a cylinder = 2πr(h + r). Use r = 7 cm and h = 5 cm."]
   },
   {
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "39 m\u00b2" }
     ],
     answerId: "b",
-    explanation: "Inner square side 18 m; path area = 400 − 324 = 76 m². 39 m² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 76 m².",
+    explanation: "Inner square side 18 m; path area = 400 − 324 = 76 m². 39 m² is tempting if you apply a neighbouring mensuration formula to the lengths in “path / wide / runs”, which evaluates to 39 m² instead of 76 m².",
     hints: ["The path takes 1 m off each side, so the inner square's side is 20 m − 2 m. Subtract inner area from outer."]
   },
   {
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1.2 m\u00b3" }
     ],
     answerId: "c",
-    explanation: "Depth = 0.8 m; V = 2 × 1.5 × 0.8 = 2.4 m³. 2.4. 2.4. 2.4 cm³ is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 2.4 m³.",
+    explanation: "Convert 80 cm to 0.8 m; volume = 2 × 1.5 × 0.8 = 2.4 m³. 2.4 cm³ is tempting if you keep the depth in centimetres while the length and width stay in metres, mixing units in the product.",
     hints: ["Change the 80 cm depth to metres first, then multiply length × breadth × depth."]
   },
   {
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "52 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "2(12 + 6 + 8) = 2×26 = 52 cm². 48 cm² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 52 cm².",
+    explanation: "2(12 + 6 + 8) = 2×26 = 52 cm². 48 cm² is tempting if you apply a neighbouring mensuration formula to the lengths in “TSA / cuboid”, which evaluates to 48 cm² instead of 52 cm².",
     hints: ["TSA = 2(lb + bh + hl). Find 4 × 3, 3 × 2 and 2 × 4 first."]
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "50 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "LSA = 2(l + b)h = 2(6 + 4)×5 = 100 cm². 120 cm² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 100 cm².",
+    explanation: "LSA = 2(l + b)h = 2(6 + 4)×5 = 100 cm². 120 cm² is tempting if you multiply all three of 6, 4, 5 to get 120 cm² rather than 100 cm².",
     hints: ["LSA of a cuboid = 2(length + breadth) × height. Use 6 cm, 4 cm and height 5 cm."]
   },
   {
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2772 m\u00b2" }
     ],
     answerId: "c",
-    explanation: "A = (22/7)×441 = 1386 m². 462 m² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 1386 m².",
+    explanation: "A = (22/7)×441 = 1386 m². 462 m² is tempting if you multiply 21 by 22 landing on 462 m² rather than continuing to 1386 m².",
     hints: ["Area = πr². Square the 21 m radius, then multiply by 22/7; 21 divides by 7 neatly."]
   },
   {
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "50 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "(1/2)(12 + 8)×5 = 50 cm². 40 cm² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 50 cm².",
+    explanation: "(1/2)(12 + 8)×5 = 50 cm². 40 cm² is tempting if you apply a neighbouring mensuration formula to the lengths in “Trapezium / parallel / sides”, which evaluates to 40 cm² instead of 50 cm².",
     hints: ["Area of a trapezium = ½ × (sum of parallel sides) × height. Add 12 and 8 first."]
   },
   {
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "700 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "2πrh = 2×(22/7)×5×14 = 440 cm². 350 cm² is tempting if you mix lateral and total surface formulas or drop a 2πr term; the correct surface measure is 440 cm².",
+    explanation: "2πrh = 2×(22/7)×5×14 = 440 cm². 350 cm² is tempting if you apply a neighbouring mensuration formula to the lengths in “CSA / cylinder”, which evaluates to 350 cm² instead of 440 cm².",
     hints: ["CSA = 2πrh. Use r = 5 cm and h = 14 cm; 14 cancels neatly with the 7 in 22/7."]
   },
   {
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2000 L" }
     ],
     answerId: "c",
-    explanation: "V = 1 m³ = 1000 litres. 100 L is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 1000 L.",
+    explanation: "V = 1 m³ = 1000 litres. 100 L is tempting if you apply a neighbouring mensuration formula to the lengths in “many / litres / cuboid”, which evaluates to 100 L instead of 1000 L.",
     hints: ["Find the volume of the tank in m³ first. Then convert, using how many litres fill one cubic metre."]
   },
   {
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b91760" }
     ],
     answerId: "d",
-    explanation: "Area = 2(6+5)×4 = 88 m²; cost = 88 × 20 = ₹1760. ₹2400 is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives ₹1760.",
+    explanation: "Area = 2(6+5)×4 = 88 m²; cost = 88 × 20 = ₹1760. ₹2400 is tempting if you apply a neighbouring mensuration formula to the lengths in “room / Cost / painting”, which evaluates to ₹2400 instead of ₹1760.",
     hints: ["Find the area of the four walls: 2(6 + 5) × 4. Then multiply by ₹20 per m²."]
   },
   {
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "18 cm" }
     ],
     answerId: "a",
-    explanation: "Rectangle area 144; side = √144 = 12 cm. 13 cm is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 12 cm.",
+    explanation: "Rectangle area 144; side = √144 = 12 cm. 13 cm is tempting if you apply a neighbouring mensuration formula to the lengths in “Side / square / whose”, which evaluates to 13 cm instead of 12 cm.",
     hints: ["First find the rectangle's area, 16 × 9. The square's side is the square root of that area."]
   },
   {
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "120" }
     ],
     answerId: "b",
-    explanation: "Volume in cm³ equals the count of 1 cm cubes: 5×4×3 = 60. 20 is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 60.",
+    explanation: "Volume in cm³ equals the count of 1 cm cubes: 5×4×3 = 60. 20 is tempting if you multiply all three of 1, 5, 4 to get 20 rather than 60.",
     hints: ["Each 1 cm cube takes up 1 cm³, so count the cubes by finding the volume 5 × 4 × 3."]
   },
   {
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "11 cm" }
     ],
     answerId: "c",
-    explanation: "2πr = 88 ⇒ r = 88 × 7/(2×22) = 14 cm. 11 cm is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 14 cm.",
+    explanation: "2πr = 88 ⇒ r = 88 × 7/(2×22) = 14 cm. 11 cm is tempting if you apply a neighbouring mensuration formula to the lengths in “wire / length / bent”, which evaluates to 11 cm instead of 14 cm.",
     hints: ["The 88 cm wire becomes the circumference 2πr. Solve for r with π = 22/7."]
   },
   {
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "37.68 cm\u00b3" }
     ],
     answerId: "d",
-    explanation: "V = (1/3)πr²h = (1/3)×3.14×9×4 = 37.68 cm³. 12 cm³ is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 37.68 cm³.",
+    explanation: "V = (1/3)πr²h = (1/3)×3.14×9×4 = 37.68 cm³. 12 cm³ is tempting if you multiply 3 by 4 landing on 12 cm³ rather than continuing to 37.68 cm³.",
     hints: ["Volume of a cone = ⅓ × π × r² × h. Use r = 3 cm, h = 4 cm and π = 3.14."]
   },
   {
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "616 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "TSA = 3πr² = 3×(22/7)×49 = 462 cm². 308 cm² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 462 cm².",
+    explanation: "TSA = 3πr² = 3×(22/7)×49 = 462 cm². 308 cm² is tempting if you apply a neighbouring mensuration formula to the lengths in “TSA / hemisphere / radius”, which evaluates to 308 cm² instead of 462 cm².",
     hints: ["A hemisphere's TSA is its curved part 2πr² plus the flat circle πr². Use r = 7 cm."]
   },
   {
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "100 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "Outer area 144 − inner 100 = 44 cm². 24 cm² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 44 cm².",
+    explanation: "Outer area 144 − inner 100 = 44 cm². 24 cm² is tempting if you double 12 to reach 24 cm² instead of the working that gives 44 cm².",
     hints: ["Area of the frame = outer square area − inner square area. Square 12 cm and 10 cm."]
   },
   {
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "440 cm\u00b3" }
     ],
     answerId: "c",
-    explanation: "Length = 2000 cm; V = (22/7)×12.25×2000 = 77000 cm³. 7700 cm³ is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 77000 cm³.",
+    explanation: "Length = 2000 cm; V = (22/7)×12.25×2000 = 77000 cm³. 7700 cm³ is tempting if you apply a neighbouring mensuration formula to the lengths in “cylindrical / pipe / inner”, which evaluates to 7700 cm³ instead of 77000 cm³.",
     hints: ["Change the 20 m length to centimetres first, then use V = πr²h with r = 3.5 cm."]
   },
   {
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "13 cm" }
     ],
     answerId: "d",
-    explanation: "l = √(r² + h²) = √(25 + 144) = √169 = 13 cm. 17 cm is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 13 cm.",
+    explanation: "l = √(r² + h²) = √(25 + 144) = √169 = 13 cm. 17 cm is tempting if you add 5 and 12 to get 17 cm when the stem needs a different operation that yields 13 cm.",
     hints: ["The radius, height and slant height form a right triangle. Use l² = r² + h² with 5 and 12."]
   }
 ];

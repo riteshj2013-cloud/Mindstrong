@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7/3" }
     ],
     answerId: "a",
-    explanation: "√2 cannot be written as p/q in lowest terms; √9 = 3 and 0.25 = 1/4 are rational. √9 is tempting if you classify a repeating decimal as irrational.",
+    explanation: "√2 cannot be written as a ratio of integers, so it is irrational. √9 is tempting if you treat every square-root symbol as irrational; √9 = 3, which is rational.",
     hints: ["An irrational number cannot be written as p/q. Is the number under each root a perfect square?"]
   },
   {
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "whole number only" }
     ],
     answerId: "b",
-    explanation: "Rationals sit inside the reals. Not every rational is a natural number or integer. natural number is tempting if you classify a terminating decimal as irrational.",
+    explanation: "Rationals sit inside the reals. Not every rational is a natural number or integer. natural number is tempting if you mis-classify or mis-simplify a surd/decimal in “Every / rational / called”, choosing natural number instead of real number.",
     hints: ["Rational numbers sit inside a bigger set that also holds numbers like √2 and π. Which set contains every rational?"]
   },
   {
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.125 (terminating)" }
     ],
     answerId: "d",
-    explanation: "1 ÷ 8 = 0.125 exactly, so the expansion terminates. 0.121212…. 0. 0. 0.121212… (non-terminating repeating) is tempting if you forget to multiply by the conjugate when rationalising.",
+    explanation: "0.121212… has repeating block 12, so it is 0.\\overline{12}. 0.121212… (non-terminating repeating) is tempting if you mis-classify or mis-simplify a surd/decimal in “decimal / expansion”, choosing 0.121212… (non-terminating repeating) instead of 0.125 (terminating).",
     hints: ["Divide 1 by 8 using long division. Does the remainder become zero, or does a block of digits repeat?"]
   },
   {
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "a whole number" }
     ],
     answerId: "a",
-    explanation: "Non-terminating non-repeating decimals define irrational numbers. rational is tempting if you place the repeating bar over the wrong digit block.",
+    explanation: "Non-terminating non-repeating decimals define irrational numbers. rational is tempting if you mis-classify or mis-simplify a surd/decimal in “whose / decimal / non”, choosing rational instead of irrational.",
     hints: ["A decimal that never ends and never repeats cannot be written as p/q. What kind of number is that?"]
   },
   {
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "exactly two rationals" }
     ],
     answerId: "b",
-    explanation: "Between any two distinct reals there are infinitely many rationals (and irrationals). no rational numbers is tempting if you include an endpoint or count the wrong way on the number line; the correct count is infinitely many rationals.",
+    explanation: "Between any two distinct reals there are infinitely many rationals (and irrationals). no rational numbers is tempting if you mis-classify or mis-simplify a surd/decimal in “Between / there”, choosing no rational numbers instead of infinitely many rationals.",
     hints: ["Find the average of 2 and 3, then the average of 2 and that number. Can you keep going?"]
   },
   {
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8/5" }
     ],
     answerId: "c",
-    explanation: "√(16/25) = √16 / √25 = 4/5. 16/25 is tempting if you stop one simplification step early on this number-system stem.",
+    explanation: "√(16/25) = √16 / √25 = 4/5. 16/25 is tempting if you mis-classify or mis-simplify a surd/decimal in “simplifies”, choosing 16/25 instead of 4/5.",
     hints: ["Take the square root of 16 and of 25 separately."]
   },
   {
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "√2" }
     ],
     answerId: "a",
-    explanation: "√3 × √3 = 3, a rational number, so √3 rationalises √3. 3 is tempting if you forget to multiply by the conjugate when rationalising.",
+    explanation: "√3 × √3 = 3, a rational number, so √3 rationalises √3. 3 is tempting if you mis-classify or mis-simplify a surd/decimal in “rationalising / factor”, choosing 3 instead of √3.",
     hints: ["The rationalising factor is what you multiply a root by to leave no root, as in √5 × √5 = 5."]
   },
   {
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1/7" }
     ],
     answerId: "b",
-    explanation: "1/5 = 0.2. A fraction in lowest terms terminates iff the denominator’s primes are only 2 and/or 5. 1/3 is tempting if you place the repeating bar over the wrong digit block.",
+    explanation: "1/5 = 0.2. A fraction in lowest terms terminates iff the denominator’s primes are only 2 and/or 5. 1/3 is tempting if you mis-classify or mis-simplify a surd/decimal in “terminating / decimal”, choosing 1/3 instead of 1/5.",
     hints: ["A fraction is a terminating decimal only if, in lowest terms, its denominator has no prime factors other than 2 and 5."]
   },
   {
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "c",
-    explanation: "√8 = √(4·2) = 2√2. 4√2 is tempting if you simplify √(a²b) as a√b without the absolute value of a.",
+    explanation: "√8 = √(4·2) = 2√2. 4√2 is tempting if you mis-classify or mis-simplify a surd/decimal in “simplified / simplest / radical”, choosing 4√2 instead of 2√2.",
     hints: ["Find the largest perfect square that divides 8, then take its square root outside the root sign."]
   },
   {
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "d",
-    explanation: "xy = (√5)² − (√3)² = 5 − 3 = 2. 8 is tempting if you take √(a²) as −a without using the principal (non-negative) root.",
+    explanation: "xy = (√5)² − (√3)² = 5 − 3 = 2. 8 is tempting if you add 5 and 3 to get 8 when the stem needs a different operation that yields 2.",
     hints: ["Multiply (√5 + √3)(√5 − √3) using (a + b)(a − b) = a² − b²."]
   },
   {
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3 and 4" }
     ],
     answerId: "a",
-    explanation: "1² = 1 and 2² = 4, so √2 ≈ 1.414 lies between 1 and 2. 0 and 1 is tempting if you include an endpoint or count the wrong way on the number line; the correct count is 1 and 2.",
+    explanation: "1² = 1 and 2² = 4, so √2 ≈ 1.414 lies between 1 and 2. 0 and 1 is tempting if you mis-classify or mis-simplify a surd/decimal in “line / lies / between”, choosing 0 and 1 instead of 1 and 2.",
     hints: ["Square nearby whole numbers: which perfect squares lie just below and just above 2?"]
   },
   {
@@ -206,10 +206,10 @@ const SET_A: PrepQuestion[] = [
       { id: "a", text: "π" },
       { id: "b", text: "√7" },
       { id: "c", text: "0.101001000100001… (pattern of growing zeros)" },
-      { id: "d", text: "0.¯27" }
+      { id: "d", text: "0.\\overline{27}" }
     ],
     answerId: "d",
-    explanation: "0.¯27 = 27/99 is a repeating decimal, hence rational. The others are irrational. π is tempting if you place the repeating bar over the wrong digit block.",
+    explanation: "0.\\overline{27} = 27/99, a ratio of integers, so it is rational. π is tempting if you treat every familiar constant as rational; π is irrational.",
     hints: ["Repeating decimals are rational; non-repeating non-terminating are not."]
   },
   {
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1/5" }
     ],
     answerId: "a",
-    explanation: "Multiply numerator and denominator by √5: √5 / 5. 5/√5 is tempting if you forget to multiply by the conjugate when rationalising.",
+    explanation: "Multiply numerator and denominator by √5: √5 / 5. 5/√5 is tempting if you multiply 1 by 5 landing on 5/√5 rather than continuing to √5 / 5.",
     hints: ["Multiply top and bottom by √5."]
   },
   {
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "sometimes zero" }
     ],
     answerId: "c",
-    explanation: "For non-zero rational r and irrational α, rα is irrational (else α would be rational). always rational is tempting if you classify a terminating decimal as irrational.",
+    explanation: "For non-zero rational r and irrational α, rα is irrational (else α would be rational). always rational is tempting if you mis-classify or mis-simplify a surd/decimal in “product / non / zero”, choosing always rational instead of always irrational.",
     hints: ["If the product were rational, you could solve for the irrational as a ratio."]
   },
   {
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.3" }
     ],
     answerId: "d",
-    explanation: "0.09 = 9/100, and √(9/100) = 3/10 = 0.3. 0. 3 is tempting if you think a surd sum is rational without checking.",
+    explanation: "0.09 = 9/100, and √(9/100) = 3/10 = 0.3 is tempting if you think a surd sum is rational without checking.",
     hints: ["Write 0.09 as 9/100, then take the square root of the top and the bottom."]
   },
   {
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5√2" }
     ],
     answerId: "c",
-    explanation: "√50=5√2, √18=3√2, √8=2√2 → 5√2 − 3√2 + 2√2 = 4√2. 3√2 is tempting if you take √(a²) as −a without using the principal (non-negative) root.",
+    explanation: "√50=5√2, √18=3√2, √8=2√2 → 5√2 − 3√2 + 2√2 = 4√2. 3√2 is tempting if you mis-classify or mis-simplify a surd/decimal in “Simplify”, choosing 3√2 instead of 4√2.",
     hints: ["Simplify each radical, then combine like terms."]
   },
   {
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "√7 / 8" }
     ],
     answerId: "a",
-    explanation: "√49/√64 = 7/8. 49/64 is tempting if you stop one simplification step early on this number-system stem.",
+    explanation: "√49/√64 = 7/8. 49/64 is tempting if you mis-classify or mis-simplify a surd/decimal in “numbers”, choosing 49/64 instead of 7/8.",
     hints: ["Take the square root of 49 and of 64 separately."]
   },
   {
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Even integers" }
     ],
     answerId: "b",
-    explanation: "Rationals (and reals) are dense; integers have gaps of size 1. Natural numbers is tempting if you include an endpoint or count the wrong way on the number line; the correct count is Rational numbers.",
+    explanation: "Rationals (and reals) are dense; integers have gaps of size 1. Natural numbers is tempting if you mis-classify or mis-simplify a surd/decimal in “set / densest / sense”, choosing Natural numbers instead of Rational numbers.",
     hints: ["Between two members, try their average. Is the average of 1 and 2 still in the same set?"]
   },
   {
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "√3" }
     ],
     answerId: "a",
-    explanation: "√12=2√3 and √27=3√3, so the sum is 5√3. √39 is tempting if you take √(a²) as −a without using the principal (non-negative) root.",
+    explanation: "√12 = 2√3 and √27 = 3√3, so the sum is 5√3. √39 is tempting if you add the radicands (12 + 27 = 39) under a single square root instead of simplifying each surd first.",
     hints: ["Find the largest perfect square inside 12 and inside 27, take its root outside, then add the like surds."]
   },
   {
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5/6" }
     ],
     answerId: "b",
-    explanation: "80 = 2⁴·5, so after simplifying, only primes 2 and 5 remain → terminating. 7/12 is tempting if you classify a terminating decimal as irrational.",
+    explanation: "80 = 2⁴·5, so after simplifying, only primes 2 and 5 remain → terminating. 7/12 is tempting if you mis-classify or mis-simplify a surd/decimal in “fraction / terminating / decimal”, choosing 7/12 instead of 13/80.",
     hints: ["Factor each denominator into primes. A terminating decimal needs only 2s and 5s in the denominator."]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "d",
-    explanation: "(√2)⁶ = (2^{1/2})⁶ = 2³ = 8. 4 is tempting if you compare surds by comparing radicands alone.",
+    explanation: "(√2)⁶ = (2^{1/2})⁶ = 2³ = 8. 4 is tempting if you compute (√2)⁴ = 4 and stop one power short of the exponent 6.",
     hints: ["Convert √2 to a power of 2, then multiply exponents."]
   },
   {
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "repeating" }
     ],
     answerId: "a",
-    explanation: "The gaps grow without a repeating block, so the decimal is non-repeating → irrational. rational is tempting if you include an endpoint or count the wrong way on the number line; the correct count is irrational.",
+    explanation: "The gaps grow without a repeating block, so the decimal is non-repeating → irrational. rational is tempting if you mis-classify or mis-simplify a surd/decimal in “zero / between / time”, choosing rational instead of irrational.",
     hints: ["In 0.101001000100001… the run of zeros keeps growing. Is there a fixed block of digits that repeats?"]
   },
   {
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "√3" }
     ],
     answerId: "b",
-    explanation: "(2+√3)(2−√3) = 4 − 3 = 1. 4 − 2√3 is tempting if you simplify √(a²b) as a√b without the absolute value of a.",
+    explanation: "(2+√3)(2−√3) = 4 − 3 = 1. 4 − 2√3 is tempting if you double 2 to reach 4 − 2√3 instead of the working that gives 1.",
     hints: ["Use (a + b)(a − b) = a² − b² with a = 2 and b = √3."]
   },
   {
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "(√a)² = −a" }
     ],
     answerId: "b",
-    explanation: "The product rule √(ab)=√a√b holds for non-negative a,b; sums do not split that way. √(a+b) = √a + √b for all positive a,b is tempting if you take √(a²) as −a without using the principal (non-negative) root.",
+    explanation: "The product rule √(ab)=√a√b holds for non-negative a,b; sums do not split that way. √(a+b) = √a + √b for all positive a,b is tempting if you mis-classify or mis-simplify a surd/decimal in “rule / about / square”, choosing √(a+b) = √a + √b for all positive a,b instead of √(a·b) = √a · √b for non-negative a,b.",
     hints: ["Only the product (and quotient) rules hold in general for square roots."]
   },
   {
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1 and 2" }
     ],
     answerId: "c",
-    explanation: "3²=9 and 4²=16, so √10 ≈ 3.16 lies between 3 and 4. 2 and 3 is tempting if you classify a terminating decimal as irrational.",
+    explanation: "3²=9 and 4²=16, so √10 ≈ 3.16 lies between 3 and 4. 2 and 3 is tempting if you mis-classify or mis-simplify a surd/decimal in “Locate / integer / pair”, choosing 2 and 3 instead of 3 and 4.",
     hints: ["Which perfect squares lie just below and just above 10? Take their square roots."]
   },
   {
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "√2" }
     ],
     answerId: "c",
-    explanation: "√18/√8 = √(18/8) = √(9/4) = 3/2. 3/2 is tempting if you stop one simplification step early on this number-system stem.",
+    explanation: "√18/√8 = √(18/8) = √(9/4) = 3/2. 3/2 is tempting if you mis-classify or mis-simplify a surd/decimal in “Simplify”, choosing 3/2 instead of both 3/2 and √(9/4).",
     hints: ["Combine under one root or simplify each surd first."]
   },
   {
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "c",
-    explanation: "Square both sides: x − 1 = 9 → x = 10. 9 is tempting if you take √(a²) as −a without using the principal (non-negative) root.",
+    explanation: "Square both sides: x − 1 = 9 → x = 10. 9 is tempting if you mis-classify or mis-simplify a surd/decimal in “numbers”, choosing 9 instead of 10.",
     hints: ["Square both sides of √(x − 1) = 3, then add 1."]
   },
   {
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "a" }
     ],
     answerId: "d",
-    explanation: "√a · √a = a for a ≥ 0. √a is tempting if you simplify √(a²b) as a√b without the absolute value of a.",
+    explanation: "√a · √a = a for a ≥ 0. √a is tempting if you mis-classify or mis-simplify a surd/decimal in “numbers”, choosing √a instead of a.",
     hints: ["Squaring undoes a square root. Try a = 9: what is √9 × √9?"]
   }
 ];
