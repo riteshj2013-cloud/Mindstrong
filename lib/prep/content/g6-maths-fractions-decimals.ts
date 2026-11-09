@@ -13,8 +13,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2/4" }
     ],
     answerId: "a",
-    explanation: "Like denominators: 3/4 + 1/4 = 4/4 = 1.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Like denominators: 3/4 + 1/4 = 4/4 = 1. 4/8 is tempting if you add or cancel the wrong numbers in the fraction.",
+    hints: ["Same denominators: add the numerators of 3/4 and the other quarter. Four quarters make what?"]
   },
   {
     id: "g6-maths-frac-a-q02",
@@ -26,8 +26,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4/12" }
     ],
     answerId: "b",
-    explanation: "5/6 − 1/6 = 4/6, and dividing top and bottom by 2 gives 2/3. 4/6 may look right because it has the same value, but 4 and 6 still share the factor 2, so it is not in its simplest form.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "5/6 − 1/6 = 4/6, and dividing top and bottom by 2 gives 2/3. 4/6 may look right because it has the same value, but 4 and 6 still share the factor 2, so it is not in its simplest form. 4/6 is tempting, but it does not fit the facts in the question.",
+    hints: ["Subtract the tops 5 − 1, keep sixths, then divide top and bottom by 2."]
   },
   {
     id: "g6-maths-frac-a-q03",
@@ -39,8 +39,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6/3" }
     ],
     answerId: "c",
-    explanation: "Multiply top and bottom by 2: 2/3 = 4/6.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Multiply top and bottom by 2: 2/3 = 4/6. 3/2 is tempting if you add or cancel the wrong numbers in the fraction.",
+    hints: ["Multiply the top and bottom of 2/3 by the same number, such as 2."]
   },
   {
     id: "g6-maths-frac-a-q04",
@@ -52,8 +52,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "16" }
     ],
     answerId: "d",
-    explanation: "2/5 × 40 = 16.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2/5 × 40 = 16. 20 is tempting, but it does not match what the question asks.",
+    hints: ["Divide by 5, then multiply by 2."]
   },
   {
     id: "g6-maths-frac-a-q05",
@@ -65,8 +65,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7/1" }
     ],
     answerId: "a",
-    explanation: "0.7 = 7/10, already simplest.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "0.7 = 7/10, already simplest. 7/100 is tempting if you add or cancel the wrong numbers in the fraction.",
+    hints: ["The 7 in 0.7 is in the tenths place. Write it over that place value, then check if it simplifies."]
   },
   {
     id: "g6-maths-frac-a-q06",
@@ -78,8 +78,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.06" }
     ],
     answerId: "b",
-    explanation: "3 ÷ 5 = 0.6.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3 ÷ 5 = 0.6. 0.35 is tempting if you misread a place-value column.",
+    hints: ["Make the bottom 10: multiply the top and bottom of 3/5 by 2. Then write the tenths as a decimal."]
   },
   {
     id: "g6-maths-frac-a-q07",
@@ -91,8 +91,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "c",
-    explanation: "0.50 > 0.45, so 0.5 is greater.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "0.50 > 0.45, so 0.5 is greater. 0.45 is tempting, but it does not match what the question asks.",
+    hints: ["Give both numbers two decimal places by adding a zero, then compare the hundredths with 0.45."]
   },
   {
     id: "g6-maths-frac-a-q08",
@@ -104,8 +104,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1.55" }
     ],
     answerId: "d",
-    explanation: "1.20 + 0.35 = 1.55.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1.20 + 0.35 = 1.55. 1.45 is tempting, but it does not match what the question asks.",
+    hints: ["Line up the decimal points: write 1.2 as 1.20, then add 0.35."]
   },
   {
     id: "g6-maths-frac-a-q09",
@@ -117,8 +117,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6.25" }
     ],
     answerId: "a",
-    explanation: "4.50 − 1.75 = 2.75.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "4.50 − 1.75 = 2.75. 3.25 is tempting, but it does not match what the question asks.",
+    hints: ["Write 4.5 as 4.50, line up the decimal points, then subtract 1.75."]
   },
   {
     id: "g6-maths-frac-a-q10",
@@ -130,8 +130,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "b",
-    explanation: "6 × 2 = 12 with two decimal places total → 0.12.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "6 × 2 = 12 with two decimal places total → 0.12. 0.012 is tempting if you misread a place-value column.",
+    hints: ["Multiply 6 × 2, then count the decimal places in 0.6 and 0.2 together."]
   },
   {
     id: "g6-maths-frac-a-q11",
@@ -143,8 +143,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "125" }
     ],
     answerId: "c",
-    explanation: "125/100 = 1.25.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "125/100 = 1.25. 0.125 is tempting if you misread a place-value column.",
+    hints: ["Denominator 100 → two digits after the decimal."]
   },
   {
     id: "g6-maths-frac-a-q12",
@@ -156,8 +156,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1 3/8 m" }
     ],
     answerId: "d",
-    explanation: "3/4 = 6/8; 6/8 + 5/8 = 11/8 = 1 3/8 m.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3/4 = 6/8; 6/8 + 5/8 = 11/8 = 1 3/8 m. 1 1/8 m is tempting, but it does not match what the question asks.",
+    hints: ["Change 3/4 m into eighths, add 5/8 m, then write the improper fraction as a mixed number."]
   },
   {
     id: "g6-maths-frac-a-q13",
@@ -169,8 +169,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3.5" }
     ],
     answerId: "a",
-    explanation: "7 ÷ 20 = 0.35.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "7 ÷ 20 = 0.35. 0.07 is tempting if you misread a place-value column.",
+    hints: ["Divide 7 by 20."]
   },
   {
     id: "g6-maths-frac-a-q14",
@@ -182,8 +182,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6/8" }
     ],
     answerId: "b",
-    explanation: "Divide top and bottom by 6: 3/4.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Divide top and bottom by 6: 3/4. 9/12 is tempting, but it does not match what the question asks.",
+    hints: ["Find the HCF of 18 and 24, then divide the top and bottom by it."]
   },
   {
     id: "g6-maths-frac-a-q15",
@@ -195,8 +195,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8.5" }
     ],
     answerId: "c",
-    explanation: "2.5 × 4 = 10.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2.5 × 4 = 10. 8.5 is tempting, but it does not match what the question asks.",
+    hints: ["Split 2.5 into 2 and 0.5, multiply each part by 4, then add."]
   },
   {
     id: "g6-maths-frac-a-q16",
@@ -208,8 +208,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4.25 km" }
     ],
     answerId: "d",
-    explanation: "2.40 + 1.85 = 4.25 km.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2.40 + 1.85 = 4.25 km. 4.125 km is tempting, but it does not match what the question asks.",
+    hints: ["Write 2.4 km as 2.40 km, line up the decimal points, then add Ravi's 1.85 km."]
   },
   {
     id: "g6-maths-frac-a-q17",
@@ -221,8 +221,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "9/5" }
     ],
     answerId: "a",
-    explanation: "A proper fraction has numerator smaller than denominator: 3/7.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A proper fraction has numerator smaller than denominator: 3/7. 5/4 is tempting if you add or cancel the wrong numbers in the fraction.",
+    hints: ["Proper means top < bottom."]
   },
   {
     id: "g6-maths-frac-a-q18",
@@ -234,8 +234,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6/4" }
     ],
     answerId: "b",
-    explanation: "2 × 4 + 1 = 9, so 9/4.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2 × 4 + 1 = 9, so 9/4. 5/4 is tempting if you add or cancel the wrong numbers in the fraction.",
+    hints: ["Each whole has 4 quarters. Find the quarters in 2 wholes, then add 1 more quarter."]
   },
   {
     id: "g6-maths-frac-a-q19",
@@ -247,8 +247,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "₹80" }
     ],
     answerId: "c",
-    explanation: "240 ÷ 8 = 30; 30 × 3 = ₹90.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "240 ÷ 8 = 30; 30 × 3 = ₹90. ₹30 is tempting, but it does not match what the question asks.",
+    hints: ["Find 1/8 of ₹240 by dividing by 8, then multiply by 3."]
   },
   {
     id: "g6-maths-frac-a-q20",
@@ -260,8 +260,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.09, 0.19, 0.9" }
     ],
     answerId: "d",
-    explanation: "0.09 < 0.19 < 0.90.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "0.09 < 0.19 < 0.90. 0.09, 0.9, 0.19 is tempting, but it does not match what the question asks.",
+    hints: ["Write 0.09, 0.9 and 0.19 with two decimal places each, then compare the hundredths."]
   },
   {
     id: "g6-maths-frac-a-q21",
@@ -273,8 +273,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.67" }
     ],
     answerId: "a",
-    explanation: "1.00 − 0.37 = 0.63.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1.00 − 0.37 = 0.63. 0.67 is tempting, but it does not match what the question asks.",
+    hints: ["Write 1 as 1.00, then subtract 0.37. Check: your answer plus 0.37 should make 1."]
   },
   {
     id: "g6-maths-frac-a-q22",
@@ -286,8 +286,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2/5" }
     ],
     answerId: "b",
-    explanation: "0.25 = 25/100 = 1/4.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "0.25 = 25/100 = 1/4. 1/2 is tempting, but it does not match what the question asks.",
+    hints: ["0.25 is 25 hundredths. Write 25/100 and simplify by dividing top and bottom by 25."]
   },
   {
     id: "g6-maths-frac-a-q23",
@@ -299,8 +299,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.5" }
     ],
     answerId: "c",
-    explanation: "7/10 = 0.7; 0.7 + 0.2 = 0.9.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "7/10 = 0.7; 0.7 + 0.2 = 0.9. 1.0 is tempting, but it does not match what the question asks.",
+    hints: ["Write 7/10 as a decimal first, then add 0.2."]
   },
   {
     id: "g6-maths-frac-a-q24",
@@ -312,8 +312,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.9 L" }
     ],
     answerId: "d",
-    explanation: "3/5 = 0.6; 1.5 − 0.6 = 0.9 L.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3/5 = 0.6; 1.5 − 0.6 = 0.9 L. 0.8 L is tempting, but it does not match what the question asks.",
+    hints: ["Change Meera's 3/5 L into a decimal by making the bottom 10. Then subtract it from 1.5 L."]
   }
 ];
 
@@ -328,8 +328,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2/6" }
     ],
     answerId: "a",
-    explanation: "1/3 = 2/6; 2/6 + 1/6 = 3/6 = 1/2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1/3 = 2/6; 2/6 + 1/6 = 3/6 = 1/2. 2/9 is tempting, but it does not match what the question asks.",
+    hints: ["Common denominator of 3 and 6."]
   },
   {
     id: "g6-maths-frac-b-q02",
@@ -341,8 +341,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4/4" }
     ],
     answerId: "b",
-    explanation: "1/4 = 2/8; 5/8 − 2/8 = 3/8.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1/4 = 2/8; 5/8 − 2/8 = 3/8. 4/8 is tempting, but it does not match what the question asks.",
+    hints: ["Write 1/4 as eighths first, then subtract it from 5/8."]
   },
   {
     id: "g6-maths-frac-b-q03",
@@ -354,8 +354,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4/6 and 2/2" }
     ],
     answerId: "c",
-    explanation: "3/5 × 2/2 = 6/10.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3/5 × 2/2 = 6/10. 1/2 and 2/3 is tempting if you add or cancel the wrong numbers in the fraction.",
+    hints: ["Simplify both fractions in every pair. An equivalent pair reduces to the same simplest form."]
   },
   {
     id: "g6-maths-frac-b-q04",
@@ -367,8 +367,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1.8" }
     ],
     answerId: "d",
-    explanation: "2.4 ÷ 4 = 0.6; 0.6 × 3 = 1.8.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2.4 ÷ 4 = 0.6; 0.6 × 3 = 1.8. 1.2 is tempting, but it does not match what the question asks.",
+    hints: ["Quarter of 2.4, then triple it."]
   },
   {
     id: "g6-maths-frac-b-q05",
@@ -380,8 +380,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4/50" }
     ],
     answerId: "a",
-    explanation: "0.08 = 8/100 = 2/25.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "0.08 = 8/100 = 2/25. 8/10 is tempting if you add or cancel the wrong numbers in the fraction.",
+    hints: ["0.08 is 8 hundredths. Write it over 100, then divide top and bottom by 4."]
   },
   {
     id: "g6-maths-frac-b-q06",
@@ -393,8 +393,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4/9" }
     ],
     answerId: "b",
-    explanation: "9 ÷ 4 = 2 remainder 1 → 2 1/4.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "9 ÷ 4 = 2 remainder 1 → 2 1/4. 2 1/9 is tempting if you add or cancel the wrong numbers in the fraction.",
+    hints: ["How many whole 4s fit in 9? That is the whole part; the remainder stays over 4."]
   },
   {
     id: "g6-maths-frac-b-q07",
@@ -406,8 +406,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "23.75" }
     ],
     answerId: "c",
-    explanation: "2.05 + 3.70 = 5.75.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2.05 + 3.70 = 5.75. 5.775 is tempting, but it does not match what the question asks.",
+    hints: ["Write 3.7 as 3.70, line up the decimal points, then add 2.05."]
   },
   {
     id: "g6-maths-frac-b-q08",
@@ -419,8 +419,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3.52" }
     ],
     answerId: "d",
-    explanation: "6.00 − 2.48 = 3.52.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "6.00 − 2.48 = 3.52. 3.62 is tempting, but it does not match what the question asks.",
+    hints: ["Write 6 as 6.00, then subtract."]
   },
   {
     id: "g6-maths-frac-b-q09",
@@ -432,8 +432,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.45" }
     ],
     answerId: "a",
-    explanation: "1.5 ÷ 0.3 = 15 ÷ 3 = 5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1.5 ÷ 0.3 = 15 ÷ 3 = 5. 4.5 is tempting, but it does not match what the question asks.",
+    hints: ["Multiply 0.3 and the other number by 10 to remove the decimals. Then divide."]
   },
   {
     id: "g6-maths-frac-b-q10",
@@ -445,8 +445,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "₹111.25" }
     ],
     answerId: "b",
-    explanation: "85.50 + 24.75 = ₹110.25.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "85.50 + 24.75 = ₹110.25. ₹100.25 is tempting, but it does not match what the question asks.",
+    hints: ["Add the rupees ₹85 + ₹24, then the paise 50 + 75, carrying 100 paise over as ₹1."]
   },
   {
     id: "g6-maths-frac-b-q11",
@@ -458,8 +458,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.1001" }
     ],
     answerId: "c",
-    explanation: "0.1000 is smaller than 0.1001, 0.1010 and 0.1100.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "0.1000 is smaller than 0.1001, 0.1010 and 0.1100. 0.1001 is tempting, but it does not match what the question asks.",
+    hints: ["To find the least, write each with four decimal places, so 0.11 becomes 0.1100. Then compare digit by digit."]
   },
   {
     id: "g6-maths-frac-b-q12",
@@ -471,8 +471,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "21/5" }
     ],
     answerId: "d",
-    explanation: "4.2 = 42/10 = 21/5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "4.2 = 42/10 = 21/5. 42/10 is tempting if you add or cancel the wrong numbers in the fraction.",
+    hints: ["Write 4.2 as 42/10, then divide the top and bottom by 2."]
   },
   {
     id: "g6-maths-frac-b-q13",
@@ -484,8 +484,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2/10" }
     ],
     answerId: "a",
-    explanation: "2/3 × 9/10 = 18/30, and dividing top and bottom by 6 gives 3/5. 18/30 may look right because it has the same value, but 18 and 30 still share the factor 6, so it is not in its simplest form.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2/3 × 9/10 = 18/30, and dividing top and bottom by 6 gives 3/5. 18/30 may look right because it has the same value, but 18 and 30 still share the factor 6, so it is not in its simplest form. 18/30 is tempting, but it does not fit the facts in the question.",
+    hints: ["Multiply tops and bottoms, or first cancel the 3 with the 9. Then simplify fully."]
   },
   {
     id: "g6-maths-frac-b-q14",
@@ -497,8 +497,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15 L" }
     ],
     answerId: "b",
-    explanation: "5/8 × 40 = 25 L.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "5/8 × 40 = 25 L. 20 L is tempting, but it does not match what the question asks.",
+    hints: ["Fraction of the whole capacity."]
   },
   {
     id: "g6-maths-frac-b-q15",
@@ -510,8 +510,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3.60" }
     ],
     answerId: "c",
-    explanation: "The third decimal is 8 ≥ 5, so 3.68.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The third decimal is 8 ≥ 5, so 3.68. 3.67 is tempting if you misread a place-value column.",
+    hints: ["Look at the third decimal digit, 8. Since it is 5 or more, round the second digit up."]
   },
   {
     id: "g6-maths-frac-b-q16",
@@ -523,8 +523,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.8" }
     ],
     answerId: "d",
-    explanation: "2/5 = 0.4; 0.4 + 0.4 = 0.8.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2/5 = 0.4; 0.4 + 0.4 = 0.8. 0.9 is tempting, but it does not match what the question asks.",
+    hints: ["Convert 2/5 to a decimal first."]
   },
   {
     id: "g6-maths-frac-b-q17",
@@ -536,8 +536,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.125" }
     ],
     answerId: "a",
-    explanation: "3 ÷ 8 = 0.375.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3 ÷ 8 = 0.375. 0.38 is tempting if you misread a place-value column.",
+    hints: ["Divide 3 by 8."]
   },
   {
     id: "g6-maths-frac-b-q18",
@@ -549,8 +549,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.42" }
     ],
     answerId: "b",
-    explanation: "12.6 ÷ 3 = 4.2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "12.6 ÷ 3 = 4.2. 3.2 is tempting, but it does not match what the question asks.",
+    hints: ["Divide 12 by 3, then 0.6 by 3, and add the two results."]
   },
   {
     id: "g6-maths-frac-b-q19",
@@ -562,8 +562,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "8/5" }
     ],
     answerId: "c",
-    explanation: "8 − 3 = 5 slices left → 5/8.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "8 − 3 = 5 slices left → 5/8. 3/8 is tempting if you add or cancel the wrong numbers in the fraction.",
+    hints: ["Slices left = 8 − 3. Write the slices left over the 8 slices of the whole pizza."]
   },
   {
     id: "g6-maths-frac-b-q20",
@@ -575,8 +575,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "d",
-    explanation: "7/2 = 3.5; 3.5 − 1.5 = 2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "7/2 = 3.5; 3.5 − 1.5 = 2. 1 is tempting, but it does not match what the question asks.",
+    hints: ["Divide 7 by the bottom number to make a decimal, then subtract 1.5."]
   },
   {
     id: "g6-maths-frac-b-q21",
@@ -588,8 +588,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5/40" }
     ],
     answerId: "a",
-    explanation: "0.125 = 125/1000 = 1/8.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "0.125 = 125/1000 = 1/8. 125/1000 is tempting if you add or cancel the wrong numbers in the fraction.",
+    hints: ["Write 0.125 as 125/1000, then keep dividing the top and bottom by 5."]
   },
   {
     id: "g6-maths-frac-b-q22",
@@ -601,8 +601,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.07 = 7/10" }
     ],
     answerId: "b",
-    explanation: "7/10 = 0.7 exactly.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "7/10 = 0.7 exactly. 0.7 > 7/10 is tempting, but it does not match what the question asks.",
+    hints: ["Change 7/10 into a decimal by dividing 7 by 10. Compare it with 0.7."]
   },
   {
     id: "g6-maths-frac-b-q23",
@@ -614,8 +614,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "6" }
     ],
     answerId: "c",
-    explanation: "6.4 ÷ 0.8 = 64 ÷ 8 = 8.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "6.4 ÷ 0.8 = 64 ÷ 8 = 8. 7 is tempting, but it does not match what the question asks.",
+    hints: ["Divide total length by piece length."]
   },
   {
     id: "g6-maths-frac-b-q24",
@@ -627,8 +627,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "d",
-    explanation: "18 ÷ 6 = 3; 3 × 5 = 15.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "18 ÷ 6 = 3; 3 × 5 = 15. 12 is tempting, but it does not match what the question asks.",
+    hints: ["One-sixth of 18, then five of those."]
   }
 ];
 

@@ -13,8 +13,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "A rope tied between two poles" }
     ],
     answerId: "a",
-    explanation: "A ray starts at one point and goes on without end in one direction, like a torch beam starting at the torch. A ruler edge, a track between two stations and a rope between poles all have two ends, so they model line segments.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A ray starts at one point and goes on without end in one direction, like a torch beam starting at the torch. A ruler edge, a track between two stations and a rope between poles all have two ends, so they model line segments. The edge of a ruler is tempting, but it does not match what the question asks.",
+    hints: ["A ray has a starting point but no finishing point. Which of these has only one end?"]
   },
   {
     id: "g6-maths-geo-a-q02",
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "The segments are PQ, QR and PR, so there are 3. 2 is tempting if you count only the short pieces and forget the whole segment PR.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Each segment needs two endpoints. List every pair of points."]
   },
   {
     id: "g6-maths-geo-a-q03",
@@ -39,8 +39,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "reflex" }
     ],
     answerId: "c",
-    explanation: "A right angle measures exactly 90°.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A right angle measures exactly 90°. acute is tempting if you mix up the property or the size of the turn.",
+    hints: ["Picture the corner of a notebook page. What special name is given to an angle measuring exactly 90°?"]
   },
   {
     id: "g6-maths-geo-a-q04",
@@ -52,8 +52,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "acute" }
     ],
     answerId: "d",
-    explanation: "Acute angles are less than 90°. 45° is acute.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Acute angles are less than 90°. 45° is acute. right is tempting if you mix up the property or the size of the turn.",
+    hints: ["Compare with 90°."]
   },
   {
     id: "g6-maths-geo-a-q05",
@@ -65,8 +65,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "straight" }
     ],
     answerId: "a",
-    explanation: "Obtuse angles are between 90° and 180°. 120° is obtuse.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Obtuse angles are between 90° and 180°. 120° is obtuse. acute is tempting if you mix up the property or the size of the turn.",
+    hints: ["120° is more than a right angle of 90° but less than 180°. Which type is that?"]
   },
   {
     id: "g6-maths-geo-a-q06",
@@ -78,8 +78,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12 o'clock" }
     ],
     answerId: "b",
-    explanation: "At 6 o'clock the hands point in opposite directions, making a straight angle of 180°. At 3 o'clock and 9 o'clock they make a right angle (90°), and at 12 o'clock they overlap (0°).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "At 6 o'clock the hands point in opposite directions, making a straight angle of 180°. At 3 o'clock and 9 o'clock they make a right angle (90°), and at 12 o'clock they overlap (0°). 3 o'clock is tempting if you mix up the property or the size of the turn.",
+    hints: ["A straight angle is a half turn, so the two hands must point in opposite directions."]
   },
   {
     id: "g6-maths-geo-a-q07",
@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "In any polygon each side joins two neighbouring vertices, so the number of sides equals the number of vertices: 5 (a pentagon). 10 is tempting if you add vertices and sides together.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Walk round the shape: after each corner comes one side. Compare the two counts."]
   },
   {
     id: "g6-maths-geo-a-q08",
@@ -104,8 +104,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "180°" }
     ],
     answerId: "d",
-    explanation: "Interior angles of a triangle always sum to 180°.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Interior angles of a triangle always sum to 180°. 90° is tempting if you mix up the property or the size of the turn.",
+    hints: ["Triangle angle sum is a half-turn."]
   },
   {
     id: "g6-maths-geo-a-q09",
@@ -117,8 +117,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6" }
     ],
     answerId: "a",
-    explanation: "Quad means four — four sides.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Quad means four — four sides. 3 is tempting if you mix up the property or the size of the turn.",
+    hints: ["Draw a quadrilateral, such as a kite or a rectangle, and count its sides."]
   },
   {
     id: "g6-maths-geo-a-q10",
@@ -130,8 +130,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Trapezium" }
     ],
     answerId: "b",
-    explanation: "A square has equal sides and four right angles.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A square has equal sides and four right angles. Rectangle that is not a square is tempting if you mix up the property or the size of the turn.",
+    hints: ["All angles 90° gives a rectangle shape. Which rectangle also has all its sides equal?"]
   },
   {
     id: "g6-maths-geo-a-q11",
@@ -143,8 +143,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "The top edge and the left edge of the page" }
     ],
     answerId: "c",
-    explanation: "The printed lines across the page stay the same distance apart and never meet, so they are parallel. The margin line meets the printed lines at right angles, so those are perpendicular, not parallel; the diagonals cross in the middle, and the top and left edges meet at a corner.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The printed lines across the page stay the same distance apart and never meet, so they are parallel. The margin line meets the printed lines at right angles, so those are perpendicular, not parallel; the diagonals cross in the middle, and the top and left edges meet at a corner. A printed line and the margin line is tempting if you mix up the property or the size of the turn.",
+    hints: ["Parallel lines keep the same gap all along and never meet. Check whether each pair crosses or meets."]
   },
   {
     id: "g6-maths-geo-a-q12",
@@ -156,8 +156,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "90°" }
     ],
     answerId: "d",
-    explanation: "Perpendicular means they form a right angle (90°).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Perpendicular means they form a right angle (90°). 60° is tempting if you mix up the property or the size of the turn.",
+    hints: ["Perpendicular lines meet like the edges at a corner of a book. What angle is that square corner?"]
   },
   {
     id: "g6-maths-geo-a-q13",
@@ -169,8 +169,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "arc" }
     ],
     answerId: "a",
-    explanation: "Radius is centre-to-rim distance.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Radius is centre-to-rim distance. diameter is tempting, but it does not match what the question asks.",
+    hints: ["The distance from the centre of a circle to any point on it is half the diameter. What is it called?"]
   },
   {
     id: "g6-maths-geo-a-q14",
@@ -182,8 +182,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "21 cm" }
     ],
     answerId: "b",
-    explanation: "Diameter = 2 × radius = 14 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Diameter = 2 × radius = 14 cm. 7 cm is tempting, but it does not match what the question asks.",
+    hints: ["Diameter is twice the radius."]
   },
   {
     id: "g6-maths-geo-a-q15",
@@ -195,8 +195,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Divider" }
     ],
     answerId: "c",
-    explanation: "A protractor measures angles in degrees.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A protractor measures angles in degrees. Ruler is tempting if you mix up the property or the size of the turn.",
+    hints: ["Angles are measured in degrees. Which geometry-box instrument is a half-circle marked from 0° to 180°?"]
   },
   {
     id: "g6-maths-geo-a-q16",
@@ -208,8 +208,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "polygon" }
     ],
     answerId: "d",
-    explanation: "Polygons are closed shapes with straight sides.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Polygons are closed shapes with straight sides. ray is tempting, but it does not match what the question asks.",
+    hints: ["A closed figure with straight line segments as sides, like a triangle or hexagon, has a general name. What is it?"]
   },
   {
     id: "g6-maths-geo-a-q17",
@@ -221,8 +221,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "110°" }
     ],
     answerId: "a",
-    explanation: "180 − 50 − 60 = 70°.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "180 − 50 − 60 = 70°. 80° is tempting, but it does not match what the question asks.",
+    hints: ["Use triangle sum 180°."]
   },
   {
     id: "g6-maths-geo-a-q18",
@@ -234,8 +234,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Angles 120°, 30°, 30°" }
     ],
     answerId: "b",
-    explanation: "All three angles of an equilateral triangle are 60° — all acute.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "All three angles of an equilateral triangle are 60° — all acute. Angles 90°, 45°, 45° is tempting if you mix up the property or the size of the turn.",
+    hints: ["An acute-angled triangle has every angle less than 90°. Check all three angles in each option."]
   },
   {
     id: "g6-maths-geo-a-q19",
@@ -247,8 +247,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "20 cm" }
     ],
     answerId: "c",
-    explanation: "Perimeter = 2(l + b) = 2(13) = 26 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Perimeter = 2(l + b) = 2(13) = 26 cm. 20 cm is tempting if you add the wrong sides or mix up perimeter with area.",
+    hints: ["Add length and breadth, then double."]
   },
   {
     id: "g6-maths-geo-a-q20",
@@ -260,8 +260,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "36 cm²" }
     ],
     answerId: "d",
-    explanation: "Area = side × side = 36 cm².",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Area = side × side = 36 cm². 24 cm² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    hints: ["Square area = side squared."]
   },
   {
     id: "g6-maths-geo-a-q21",
@@ -273,8 +273,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "A point 5.5 cm from O" }
     ],
     answerId: "a",
-    explanation: "Points at distance less than the radius lie inside. 3 < 5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Points at distance less than the radius lie inside. 3 < 5. A point 5 cm from O is tempting, but it does not match what the question asks.",
+    hints: ["Inside means distance from centre < radius."]
   },
   {
     id: "g6-maths-geo-a-q22",
@@ -286,8 +286,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "reflex" }
     ],
     answerId: "b",
-    explanation: "Complementary angles sum to 90°.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Complementary angles sum to 90°. supplementary is tempting if you mix up the property or the size of the turn.",
+    hints: ["Complement → 90°; supplement → 180°."]
   },
   {
     id: "g6-maths-geo-a-q23",
@@ -299,8 +299,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "right" }
     ],
     answerId: "c",
-    explanation: "Supplementary angles sum to 180°.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Supplementary angles sum to 180°. complementary is tempting if you mix up the property or the size of the turn.",
+    hints: ["Supplement → straight angle."]
   },
   {
     id: "g6-maths-geo-a-q24",
@@ -312,8 +312,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "diameter" }
     ],
     answerId: "d",
-    explanation: "The longest chord through the centre is the diameter.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The longest chord through the centre is the diameter. radius is tempting, but it does not match what the question asks.",
+    hints: ["A chord through the centre goes right across the circle and is twice the radius. Name it."]
   }
 ];
 
@@ -328,8 +328,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Angle" }
     ],
     answerId: "a",
-    explanation: "A line extends endlessly in both directions — no endpoints.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A line extends endlessly in both directions — no endpoints. Ray is tempting, but it does not match what the question asks.",
+    hints: ["Count endpoints: a segment has two and a ray has one. Which figure has no endpoints at all?"]
   },
   {
     id: "g6-maths-geo-b-q02",
@@ -341,8 +341,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "right" }
     ],
     answerId: "b",
-    explanation: "180° is a straight angle.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "180° is a straight angle. acute is tempting if you mix up the property or the size of the turn.",
+    hints: ["At 180° the two arms point in exactly opposite directions and form a line. Which angle type is that?"]
   },
   {
     id: "g6-maths-geo-b-q03",
@@ -354,8 +354,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "right" }
     ],
     answerId: "c",
-    explanation: "Reflex angles lie between 180° and 360°.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Reflex angles lie between 180° and 360°. acute is tempting if you mix up the property or the size of the turn.",
+    hints: ["Bigger than a straight angle."]
   },
   {
     id: "g6-maths-geo-b-q04",
@@ -367,8 +367,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "d",
-    explanation: "A quadrilateral has 2 diagonals.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A quadrilateral has 2 diagonals. 1 is tempting if you mix up the property or the size of the turn.",
+    hints: ["Join opposite corners — how many ways?"]
   },
   {
     id: "g6-maths-geo-b-q05",
@@ -380,8 +380,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "right-angled" }
     ],
     answerId: "a",
-    explanation: "Exactly two sides are equal (6 cm and 6 cm), so it is isosceles. It is not equilateral, because that needs all three sides equal, and it is not scalene, because scalene triangles have no equal sides.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Exactly two sides are equal (6 cm and 6 cm), so it is isosceles. It is not equilateral, because that needs all three sides equal, and it is not scalene, because scalene triangles have no equal sides. scalene is tempting if you mix up the property or the size of the turn.",
+    hints: ["Count how many sides have the same length."]
   },
   {
     id: "g6-maths-geo-b-q06",
@@ -393,8 +393,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "equilateral" }
     ],
     answerId: "b",
-    explanation: "One right angle → right-angled triangle.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "One right angle → right-angled triangle. acute-angled is tempting if you mix up the property or the size of the turn.",
+    hints: ["Look for the 90° corner."]
   },
   {
     id: "g6-maths-geo-b-q07",
@@ -406,8 +406,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "28 cm" }
     ],
     answerId: "c",
-    explanation: "6 × 4 = 24 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "6 × 4 = 24 cm. 20 cm is tempting if you add the wrong sides or mix up perimeter with area.",
+    hints: ["Regular hexagon: six equal sides."]
   },
   {
     id: "g6-maths-geo-b-q08",
@@ -419,8 +419,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "36 cm²" }
     ],
     answerId: "d",
-    explanation: "Area = l × b = 36 cm².",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Area = l × b = 36 cm². 26 cm² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    hints: ["Area of a rectangle = length × breadth. Multiply 9 cm by 4 cm."]
   },
   {
     id: "g6-maths-geo-b-q09",
@@ -432,8 +432,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5 cm" }
     ],
     answerId: "a",
-    explanation: "Radius = diameter ÷ 2 = 10 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Radius = diameter ÷ 2 = 10 cm. 5 cm is tempting, but it does not match what the question asks.",
+    hints: ["Half the diameter."]
   },
   {
     id: "g6-maths-geo-b-q10",
@@ -445,8 +445,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Only circle chords" }
     ],
     answerId: "b",
-    explanation: "Parallel lines never meet; perpendicular lines meet at 90° — impossible together.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Parallel lines never meet; perpendicular lines meet at 90° — impossible together. Any two lines is tempting if you mix up the property or the size of the turn.",
+    hints: ["Can never-meeting lines also meet at 90°?"]
   },
   {
     id: "g6-maths-geo-b-q11",
@@ -458,8 +458,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "95°" }
     ],
     answerId: "c",
-    explanation: "180 − 40 − 65 = 75°.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "180 − 40 − 65 = 75°. 85° is tempting if you mix up the property or the size of the turn.",
+    hints: ["Subtract the two known angles from 180°."]
   },
   {
     id: "g6-maths-geo-b-q12",
@@ -471,8 +471,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "8 cm" }
     ],
     answerId: "d",
-    explanation: "Side = perimeter ÷ 4 = 8 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Side = perimeter ÷ 4 = 8 cm. 4 cm is tempting if you add the wrong sides or mix up perimeter with area.",
+    hints: ["Four equal sides share the perimeter."]
   },
   {
     id: "g6-maths-geo-b-q13",
@@ -484,8 +484,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Set square only" }
     ],
     answerId: "a",
-    explanation: "A compass draws circles of a chosen radius.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A compass draws circles of a chosen radius. Protractor is tempting, but it does not match what the question asks.",
+    hints: ["Which tool has a sharp point to hold the centre and a pencil arm that turns to draw a circle?"]
   },
   {
     id: "g6-maths-geo-b-q14",
@@ -497,8 +497,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "b",
-    explanation: "A cube has 8 corners (vertices).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A cube has 8 corners (vertices). 6 is tempting, but it does not match what the question asks.",
+    hints: ["Picture a dice: count the corners on the top face of the cube, then on the bottom face."]
   },
   {
     id: "g6-maths-geo-b-q15",
@@ -510,8 +510,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "c",
-    explanation: "A cube has 12 edges.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A cube has 12 edges. 8 is tempting, but it does not match what the question asks.",
+    hints: ["Count the edges of a cube: the top face has 4, the bottom face has 4, then add the upright edges."]
   },
   {
     id: "g6-maths-geo-b-q16",
@@ -523,8 +523,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "at least two sides equal" }
     ],
     answerId: "d",
-    explanation: "Isosceles means at least two sides equal.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Isosceles means at least two sides equal. all sides different is tempting if you mix up the property or the size of the turn.",
+    hints: ["Iso means equal. In an isosceles triangle, how many sides must match?"]
   },
   {
     id: "g6-maths-geo-b-q17",
@@ -536,8 +536,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "never equal" }
     ],
     answerId: "a",
-    explanation: "When two lines cross, vertically opposite angles are equal.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "When two lines cross, vertically opposite angles are equal. always complementary is tempting if you mix up the property or the size of the turn.",
+    hints: ["Opposite angles at an X."]
   },
   {
     id: "g6-maths-geo-b-q18",
@@ -549,8 +549,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "heptagon" }
     ],
     answerId: "b",
-    explanation: "Penta- means five → pentagon.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Penta- means five → pentagon. hexagon is tempting, but it does not match what the question asks.",
+    hints: ["Hexa means 6, hepta means 7, octa means 8. Which polygon name is left for 5 sides?"]
   },
   {
     id: "g6-maths-geo-b-q19",
@@ -562,8 +562,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "secant" }
     ],
     answerId: "c",
-    explanation: "The interior region is the disk; circumference is the boundary length.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The interior region is the disk; circumference is the boundary length. circumference is tempting, but it does not match what the question asks.",
+    hints: ["The circumference is the boundary of the circle. What do we call the region enclosed inside it?"]
   },
   {
     id: "g6-maths-geo-b-q20",
@@ -575,8 +575,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "55°" }
     ],
     answerId: "d",
-    explanation: "90 − 35 = 55°.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "90 − 35 = 55°. 65° is tempting, but it does not match what the question asks.",
+    hints: ["Complementary sum to 90°."]
   },
   {
     id: "g6-maths-geo-b-q21",
@@ -588,8 +588,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "90°" }
     ],
     answerId: "a",
-    explanation: "180 − 110 = 70°.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "180 − 110 = 70°. 80° is tempting, but it does not match what the question asks.",
+    hints: ["Supplementary sum to 180°."]
   },
   {
     id: "g6-maths-geo-b-q22",
@@ -601,8 +601,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "two right angles" }
     ],
     answerId: "b",
-    explanation: "Scalene means all three sides different lengths.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Scalene means all three sides different lengths. all sides equal is tempting if you mix up the property or the size of the turn.",
+    hints: ["Equilateral has all sides equal; isosceles has two. What is left for a scalene triangle?"]
   },
   {
     id: "g6-maths-geo-b-q23",
@@ -614,8 +614,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "minor arc" }
     ],
     answerId: "c",
-    explanation: "The diameter is the longest chord.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The diameter is the longest chord. radius is tempting, but it does not match what the question asks.",
+    hints: ["Through the centre = longest."]
   },
   {
     id: "g6-maths-geo-b-q24",
@@ -627,8 +627,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "circle" }
     ],
     answerId: "d",
-    explanation: "A circle’s boundary is curved, so it is not a polygon.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A circle’s boundary is curved, so it is not a polygon. triangle is tempting, but it does not match what the question asks.",
+    hints: ["Polygons need straight sides only."]
   }
 ];
 
