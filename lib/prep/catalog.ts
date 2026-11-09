@@ -29,6 +29,7 @@ import { g3MathsMeasurement } from "./content/g3-maths-measurement";
 import { g3MathsMoney } from "./content/g3-maths-money";
 import { g3MathsTime } from "./content/g3-maths-time";
 import { g3MathsGeometry } from "./content/g3-maths-geometry";
+import { g3MathsDataHandling } from "./content/g3-maths-data-handling";
 import { g3EnglishSynonyms } from "./content/g3-english-synonyms";
 import { g3EnglishAntonyms } from "./content/g3-english-antonyms";
 import { g3EnglishGrammar } from "./content/g3-english-grammar";
@@ -679,6 +680,7 @@ const MATHS: Record<number, ChapterDef[]> = {
     g3MathsMoney,
     g3MathsTime,
     g3MathsGeometry,
+    g3MathsDataHandling,
   ],
   4: [
     g4MathsLargeNumbers,
