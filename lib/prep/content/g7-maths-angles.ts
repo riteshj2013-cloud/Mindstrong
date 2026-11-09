@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "45\u00b0" }
     ],
     answerId: "a",
-    explanation: "Two angles are complementary if they add to 90°. 45° is tempting if you subtract from 180° (supplement) instead of from 90°.",
+    explanation: "Two angles are complementary if they add to 90°. 45° is tempting if you subtract from 180° (supplement) when the pair is complementary (90°); using 90° gives 90° when you re-check the complementary.",
     hints: ["Complement → right angle total."]
   },
   {
@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "48\u00b0" }
     ],
     answerId: "c",
-    explanation: "90 − 38 = 52. 48° is tempting if you subtract from 180° (supplement) instead of from 90°.",
+    explanation: "90 − 38 = 52. 48° is tempting if you subtract from 90° when the pair is supplementary (180°); using 180° gives 52° when you re-check the complement.",
     hints: ["Complement = 90° minus the angle."]
   },
   {
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "45\u00b0" }
     ],
     answerId: "b",
-    explanation: "They form a linear pair — supplementary. 90° is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
+    explanation: "They form a linear pair — supplementary. 90° is tempting if you mix corresponding with alternate angles on the parallel lines; the matching relationship gives 180° when you re-check the adjacent.",
     hints: ["Adjacent angles on a straight line make a half-turn. A full turn is 360°."]
   },
   {
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "270\u00b0" }
     ],
     answerId: "a",
-    explanation: "A full turn is 360°. 270° is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
+    explanation: "A full turn is 360°. 270° is tempting if you mix co-interior (same-side) with alternate angles; same-side interiors add to 180°, giving 360° when you re-check the angles.",
     hints: ["Full circle around a point."]
   },
   {
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "270\u00b0" }
     ],
     answerId: "b",
-    explanation: "Angle sum property of a triangle. 270° is tempting if you forget that the three angles of a triangle add to 180°, or mis-subtract from 180°.",
+    explanation: "Angle sum property of a triangle. 270° is tempting if you forget that a triangle's three angles add to 180° and mis-subtract; the missing angle is 180° when you re-check the triangle.",
     hints: ["Tear off the corners of a paper triangle and line them up. They make a straight line."]
   },
   {
@@ -196,7 +196,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "120\u00b0" }
     ],
     answerId: "c",
-    explanation: "180° ÷ 3 = 60°. 45° is tempting if you forget that the three angles of a triangle add to 180°, or mis-subtract from 180°.",
+    explanation: "180° ÷ 3 = 60°. 45° is tempting if you use the wrong turn size in the figure (quarter vs half); measuring the marked turn gives 60° when you re-check the equilateral.",
     hints: ["All three angles equal."]
   },
   {
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "80\u00b0" }
     ],
     answerId: "d",
-    explanation: "180 − 40 − 60 = 80. 70° is tempting if you forget that the three angles of a triangle add to 180°, or mis-subtract from 180°.",
+    explanation: "180 − 40 − 60 = 80. 70° is tempting if you call an acute angle obtuse (or the reverse) from a rough look; the size band is 80° when you re-check the triangle.",
     hints: ["Use the angle sum."]
   },
   {
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Half the opposite angle" }
     ],
     answerId: "a",
-    explanation: "Exterior-angle theorem for triangles. The adjacent interior angle is tempting if you forget that the three angles of a triangle add to 180°, or mis-subtract from 180°.",
+    explanation: "Exterior-angle theorem for triangles. The adjacent interior angle is tempting if you treat vertically opposite angles as a linear pair; opposite equals opposite, giving Sum of the two remote interior angles when you re-check the exterior.",
     hints: ["The angles of a triangle add to 180°, and so do angles on a straight line. Write both facts and compare."]
   },
   {
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Always 90\u00b0" }
     ],
     answerId: "b",
-    explanation: "Corresponding angles are congruent when lines are parallel. Supplementary is tempting if you mix corresponding, alternate, and co-interior angles on the parallel lines.",
+    explanation: "Corresponding angles are congruent when lines are parallel. Supplementary is tempting if you add the wrong pair of angles around a point; angles around a point total 360°, giving Equal when you re-check the parallel.",
     hints: ["Corresponding angles sit in the same position at each crossing of the transversal. Slide one onto the other: do they match?"]
   },
   {
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Always acute" }
     ],
     answerId: "c",
-    explanation: "Alternate interior angles are equal for parallel lines. Complementary is tempting if you mix corresponding, alternate, and co-interior angles on the parallel lines.",
+    explanation: "Alternate interior angles are equal for parallel lines. Complementary is tempting if you mis-read which arm is shared in the adjacent pair; the correct adjacent relationship gives Equal when you re-check the parallel.",
     hints: ["Z-shape angles match."]
   },
   {
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Supplementary" }
     ],
     answerId: "d",
-    explanation: "They add to 180° (co-interior / same-side interior). Equal is tempting if you mix corresponding, alternate, and co-interior angles on the parallel lines.",
+    explanation: "They add to 180° (co-interior / same-side interior). Equal is tempting if you apply the exterior-angle rule to an interior angle; the matching rule gives Supplementary when you re-check the parallel.",
     hints: ["Same-side interior → 180°."]
   },
   {
@@ -274,7 +274,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "150\u00b0" }
     ],
     answerId: "a",
-    explanation: "Co-interior with 75°: 180 − 75 = 105. 75° is tempting if you mix corresponding, alternate, and co-interior angles on the parallel lines.",
+    explanation: "Co-interior with 75°: 180 − 75 = 105. 75° is tempting if you use alternate angles when the lines are not marked parallel; only with parallels you get 105° when you re-check the corresponding.",
     hints: ["Co-interior angles are supplementary."]
   },
   {
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Between 90\u00b0 and 180\u00b0" }
     ],
     answerId: "b",
-    explanation: "Reflex angles measure more than a straight angle but less than a full turn. Less than 90° is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
+    explanation: "Reflex angles measure more than a straight angle but less than a full turn. Less than 90° is tempting if you subtract from 180° (supplement) when the pair is complementary (90°); using 90° gives Greater than 180° and less than 360° when you re-check the reflex.",
     hints: ["Reflex is the larger turn."]
   },
   {
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "72\u00b0" }
     ],
     answerId: "c",
-    explanation: "2x + 3x = 90 → 5x = 90 → x = 18; larger = 54°. 36° is tempting if you subtract from 180° (supplement) instead of from 90°.",
+    explanation: "2x + 3x = 90 → 5x = 90 → x = 18; larger = 54°. 36° is tempting if you subtract from 90° when the pair is supplementary (180°); using 180° gives 54° when you re-check the two.",
     hints: ["Parts of 90° in ratio 2:3."]
   },
   {
@@ -313,7 +313,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "40\u00b0 and 50\u00b0" }
     ],
     answerId: "d",
-    explanation: "40 + 50 = 90. 40° and 140° is tempting if you subtract from 180° (supplement) instead of from 90°.",
+    explanation: "40 + 50 = 90. 40° and 140° is tempting if you mix corresponding with alternate angles on the parallel lines; the matching relationship gives 40 when you re-check the pair.",
     hints: ["Complementary means sum 90°."]
   }
 ];
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "110\u00b0" }
     ],
     answerId: "b",
-    explanation: "x + (x − 20) = 90 → 2x = 110 → x = 55. 70° is tempting if you subtract from 180° (supplement) instead of from 90°.",
+    explanation: "x + (x − 20) = 90 → 2x = 110 → x = 55. 70° is tempting if you mix co-interior (same-side) with alternate angles; same-side interiors add to 180°, giving 55° when you re-check the angle.",
     hints: ["Let the angle be x; complement is x − 20."]
   },
   {
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "90\u00b0" }
     ],
     answerId: "a",
-    explanation: "Corresponding angles are equal when lines are parallel. 90° is tempting if you mix corresponding, alternate, and co-interior angles on the parallel lines.",
+    explanation: "Corresponding angles are equal when lines are parallel. 90° is tempting if you forget that a triangle's three angles add to 180° and mis-subtract; the missing angle is 65° when you re-check the lines.",
     hints: ["Corresponding angles sit in matching corners where the transversal meets l and m. With l ∥ m, how do they compare?"]
   },
   {
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "180\u00b0" }
     ],
     answerId: "b",
-    explanation: "Alternate interior angles are equal. 68° is tempting if you mix corresponding, alternate, and co-interior angles on the parallel lines.",
+    explanation: "Alternate interior angles are equal. 68° is tempting if you use the wrong turn size in the figure (quarter vs half); measuring the marked turn gives 112° when you re-check the transversal.",
     hints: ["Z-angles are equal."]
   },
   {
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "90\u00b0" }
     ],
     answerId: "c",
-    explanation: "2x+3x+4x=180 → 9x=180 → x=20; largest=80°. 90° is tempting if you forget that the three angles of a triangle add to 180°, or mis-subtract from 180°.",
+    explanation: "2x+3x+4x=180 → 9x=180 → x=20; largest=80°. 90° is tempting if you call an acute angle obtuse (or the reverse) from a rough look; the size band is 80° when you re-check the angles.",
     hints: ["The angles share 180° in the ratio 2 : 3 : 4. Find one part as 180° ÷ 9."]
   },
   {
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "No" }
     ],
     answerId: "d",
-    explanation: "90 + 90 = 180 leaves 0° for the third angle — impossible. Yes is tempting if you forget that the three angles of a triangle add to 180°, or mis-subtract from 180°.",
+    explanation: "90 + 90 = 180 leaves 0° for the third angle — impossible. Yes is tempting if you treat vertically opposite angles as a linear pair; opposite equals opposite, giving No when you re-check the can.",
     hints: ["Angle sum would exceed or leave nothing."]
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Corresponding pair" }
     ],
     answerId: "a",
-    explanation: "Adjacent angles on a straight line form a linear pair. Vertical pair is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
+    explanation: "Adjacent angles on a straight line form a linear pair. Vertical pair is tempting if you add the wrong pair of angles around a point; angles around a point total 360°, giving Linear pair when you re-check the pair.",
     hints: ["Two adjacent angles that together make a straight line add to 180°. Which pair name means 'on a line'?"]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "60\u00b0" }
     ],
     answerId: "b",
-    explanation: "360 − 90 − 120 = 150. 210° is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
+    explanation: "360 − 90 − 120 = 150. 210° is tempting if you mis-read which arm is shared in the adjacent pair; the correct adjacent relationship gives 150° when you re-check the three.",
     hints: ["Angles around a point sum to 360°."]
   },
   {
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "80\u00b0" }
     ],
     answerId: "c",
-    explanation: "(180 − 40)/2 = 70. 80° is tempting if you forget that the three angles of a triangle add to 180°, or mis-subtract from 180°.",
+    explanation: "(180 − 40)/2 = 70. 80° is tempting if you apply the exterior-angle rule to an interior angle; the matching rule gives 70° when you re-check the isosceles.",
     hints: ["Equal base angles share the remaining sum."]
   },
   {
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Vertically opposite angles are equal" }
     ],
     answerId: "d",
-    explanation: "Vertical angles formed by intersecting lines are always equal. Adjacent angles are equal is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
+    explanation: "Vertical angles formed by intersecting lines are always equal. Adjacent angles are equal is tempting if you use alternate angles when the lines are not marked parallel; only with parallels you get Vertically opposite angles are equal when you re-check the statement.",
     hints: ["Test each claim with examples: are adjacent angles always equal? Are two acute angles always complementary? Check every option like this."]
   },
   {
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "a",
-    explanation: "3x = 2x + 30 → x = 30. 15 is tempting if you mix corresponding, alternate, and co-interior angles on the parallel lines.",
+    explanation: "3x = 2x + 30 → x = 30. 15 is tempting if you subtract from 180° (supplement) when the pair is complementary (90°); using 90° gives 30 when you re-check the and.",
     hints: ["Corresponding angles equal when parallel."]
   },
   {
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Median" }
     ],
     answerId: "b",
-    explanation: "An angle bisector splits an angle into two congruent angles. Perpendicular bisector is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
+    explanation: "An angle bisector splits an angle into two congruent angles. Perpendicular bisector is tempting if you subtract from 90° when the pair is supplementary (180°); using 180° gives Angle bisector when you re-check the ray.",
     hints: ["Bisector means cut into equal halves."]
   },
   {
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "30\u00b0" }
     ],
     answerId: "c",
-    explanation: "90° ÷ 2 = 45°. 30° is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
+    explanation: "90° ÷ 2 = 45°. 30° is tempting if you mix corresponding with alternate angles on the parallel lines; the matching relationship gives 45° when you re-check the measure.",
     hints: ["Bisecting means splitting into two equal parts. Halve the 90° of a right angle."]
   },
   {
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "38" }
     ],
     answerId: "d",
-    explanation: "(2x+10)+(3x−20)=180 → 5x − 10 = 180 → 5x = 190 → x = 38. 42 is tempting if you mix corresponding, alternate, and co-interior angles on the parallel lines.",
+    explanation: "(2x+10)+(3x−20)=180 → 5x − 10 = 180 → 5x = 190 → x = 38. 42 is tempting if you mix co-interior (same-side) with alternate angles; same-side interiors add to 180°, giving 38 when you re-check the interior.",
     hints: ["Co-interior angles sum to 180°."]
   },
   {
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Reflex" }
     ],
     answerId: "a",
-    explanation: "All three angles less than 90° → acute-angled triangle. Obtuse-angled is tempting if you forget that the three angles of a triangle add to 180°, or mis-subtract from 180°.",
+    explanation: "All three angles less than 90° → acute-angled triangle. Obtuse-angled is tempting if you forget that a triangle's three angles add to 180° and mis-subtract; the missing angle is Acute-angled when you re-check the triangle.",
     hints: ["Named by its largest angle type."]
   },
   {
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Supplementary to each other only if both 90\u00b0" }
     ],
     answerId: "b",
-    explanation: "They sum to 90°, so each is acute and they are complementary. Obtuse is tempting if you forget that the three angles of a triangle add to 180°, or mis-subtract from 180°.",
+    explanation: "They sum to 90°, so each is acute and they are complementary. Obtuse is tempting if you use the wrong turn size in the figure (quarter vs half); measuring the marked turn gives Acute and complementary when you re-check the right.",
     hints: ["A right triangle uses 90° of its 180°. What do the other two angles add to, and how big can each be?"]
   },
   {
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Reflex" }
     ],
     answerId: "c",
-    explanation: "Equal corresponding angles is a parallel-line test. Complementary is tempting if you mix corresponding, alternate, and co-interior angles on the parallel lines.",
+    explanation: "Equal corresponding angles is a parallel-line test. Complementary is tempting if you call an acute angle obtuse (or the reverse) from a rough look; the size band is Equal when you re-check the two.",
     hints: ["Draw a transversal across parallel lines and measure the corresponding angles at both crossings. Compare them."]
   },
   {
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Reflex" }
     ],
     answerId: "d",
-    explanation: "270° is between 180° and 360°. Obtuse is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
+    explanation: "270° is between 180° and 360°. Obtuse is tempting if you treat vertically opposite angles as a linear pair; opposite equals opposite, giving Reflex when you re-check the angle.",
     hints: ["270° is more than a straight angle of 180° but less than a full turn of 360°. Name that angle type."]
   },
   {
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "30\u00b0 and 60\u00b0 side by side making a right angle" }
     ],
     answerId: "d",
-    explanation: "30 + 60 = 90; they form a right angle together. 30° and 60° making a straight line is tempting if you subtract from 180° (supplement) instead of from 90°.",
+    explanation: "30 + 60 = 90; they form a right angle together. 30° and 60° making a straight line is tempting if you add the wrong pair of angles around a point; angles around a point total 360°, giving 30° and 60° side by side making a right angle when you re-check the drawing.",
     hints: ["Complementary → combined right angle."]
   }
 ];

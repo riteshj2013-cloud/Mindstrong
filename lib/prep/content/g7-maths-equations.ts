@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "a",
-    explanation: "Subtract 7 from both sides: x = 8. 7 is tempting if you move a term across the equals sign without flipping its sign.",
+    explanation: "Subtract 7 from both sides: x = 8. 7 is tempting if you move a term across equals without flipping its sign; balancing both sides gives 8 when you re-check the step.",
     hints: ["Take 7 away from both sides of x + 7 = 15."]
   },
   {
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "21" }
     ],
     answerId: "c",
-    explanation: "x − 1 = 5, so x = 6. 5 is tempting if you clear brackets but forget to multiply every term inside.",
+    explanation: "x − 1 = 5, so x = 6. 5 is tempting if you clear brackets but forget to multiply every term inside; distributing fully gives 6 when you re-check the step.",
     hints: ["Divide by 4, then add 1."]
   },
   {
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "9" }
     ],
     answerId: "d",
-    explanation: "x/3 = 3, so x = 9. 7 is tempting if you clear brackets but forget to multiply every term inside.",
+    explanation: "x/3 = 3, so x = 9. 7 is tempting if you divide by the coefficient before moving the constant (or the reverse); the right order gives 9 when you re-check the step.",
     hints: ["Subtract 2, then multiply by 3."]
   },
   {
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "a",
-    explanation: "2x + 7 = 25 → 2x = 18 → x = 9. 4 is tempting if you move a term across the equals sign without flipping its sign.",
+    explanation: "2x + 7 = 25 → 2x = 18 → x = 9. 4 is tempting if you operate on only one side of the equation; doing the same to both sides gives 9 when you re-check the added.",
     hints: ["Write 2n + 7 = 25. Take 7 from both sides, then halve."]
   },
   {
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "c",
-    explanation: "4x = 20, x = 5. 4 is tempting if you move a term across the equals sign without flipping its sign.",
+    explanation: "4x = 20, x = 5. 4 is tempting if you treat a coefficient as an addend and subtract it instead of dividing; dividing through gives 5 when you re-check the step.",
     hints: ["First combine 3x + x into one term. Then divide 20 by its coefficient."]
   },
   {
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "No solution" }
     ],
     answerId: "b",
-    explanation: "Expanding gives 5x + 10 = 5x + 10 — always true. x = 0 only is tempting if you clear brackets but forget to multiply every term inside.",
+    explanation: "Expanding gives 5x + 10 = 5x + 10 — always true. x = 0 only is tempting if you flip a sign once too often while collecting like terms; careful collection gives All real numbers (identity) when you re-check the step.",
     hints: ["If both sides match for every x, it is an identity."]
   },
   {
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "b",
-    explanation: "3x − 12 = 2x + 2 → x = 14. 10 is tempting if you clear brackets but forget to multiply every term inside.",
+    explanation: "3x − 12 = 2x + 2 → x = 14. 10 is tempting if you substitute back into only part of the original equation when checking; the solution is 14 when you re-check the step.",
     hints: ["Expand both brackets: 3x − 12 = 2x + 2. Then collect the x terms on one side."]
   },
   {
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "c",
-    explanation: "n + (n+1) + (n+2) = 54 → 3n + 3 = 54 → n = 17. 16 is tempting if you move a term across the equals sign without flipping its sign.",
+    explanation: "n + (n+1) + (n+2) = 54 → 3n + 3 = 54 → n = 17. 16 is tempting if you multiply both sides by the reciprocal of the wrong factor; the correct inverse gives 17 when you re-check the sum.",
     hints: ["Consecutive integers differ by 1."]
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "6 cm" }
     ],
     answerId: "a",
-    explanation: "4s = 48 → s = 12. 6 cm is tempting if you move a term across the equals sign without flipping its sign.",
+    explanation: "4s = 48 → s = 12. 6 cm is tempting if you expand a product but drop a middle cross term; full expansion gives 12 cm when you re-check the perimeter.",
     hints: ["Perimeter of square = 4 × side."]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "b",
-    explanation: "2x + 1 = 15 → 2x = 14 → x = 7. 8 is tempting if you clear brackets but forget to multiply every term inside.",
+    explanation: "2x + 1 = 15 → 2x = 14 → x = 7. 8 is tempting if you combine unlike terms when isolating the variable; keeping like with like gives 7 when you re-check the step.",
     hints: ["Multiply both sides by 3 first."]
   },
   {
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "17" }
     ],
     answerId: "c",
-    explanation: "x + (x+3) = 40 → 2x = 37 → x = 18.5. 17 is tempting if you move a term across the equals sign without flipping its sign.",
+    explanation: "x + (x+3) = 40 → 2x = 37 → x = 18.5. 17 is tempting if you move a term across equals without flipping its sign; balancing both sides gives 18.5 when you re-check the two.",
     hints: ["Let smaller = x; larger = x + 3."]
   },
   {
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "d",
-    explanation: "4 = x + 1 → x = 3. 4 is tempting if you clear brackets but forget to multiply every term inside.",
+    explanation: "4 = x + 1 → x = 3. 4 is tempting if you clear brackets but forget to multiply every term inside; distributing fully gives 3 when you re-check the step.",
     hints: ["Divide 12 by the number outside the bracket to find x + 1, then subtract 1."]
   },
   {
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x = 3\u00d790" }
     ],
     answerId: "a",
-    explanation: "Three tickets = one ticket + 90 → 3x = x + 90. 3x + 90 = x is tempting if you move a term across the equals sign without flipping its sign.",
+    explanation: "Three tickets = one ticket + 90 → 3x = x + 90. 3x + 90 = x is tempting if you divide by the coefficient before moving the constant (or the reverse); the right order gives 3x = x + 90 when you re-check the ticket.",
     hints: ["Write the cost of three tickets and of one ticket using ₹x. Which is ₹90 more?"]
   },
   {
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u221214" }
     ],
     answerId: "c",
-    explanation: "−x + 4 = 10 → −x = 6 → x = −6. −14 is tempting if you clear brackets but forget to multiply every term inside.",
+    explanation: "−x + 4 = 10 → −x = 6 → x = −6. 14 is tempting if you operate on only one side of the equation; doing the same to both sides gives −6 when you re-check the step.",
     hints: ["Distribute the minus, then isolate x."]
   },
   {
