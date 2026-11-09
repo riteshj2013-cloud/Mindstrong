@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "a",
-    explanation: "Subtract 7 from both sides: x = 8. 7 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "Subtract 7 from both sides: x = 8. 7 is tempting if you move a term across the equals sign without flipping its sign.",
     hints: ["Take 7 away from both sides of x + 7 = 15."]
   },
   {
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "36" }
     ],
     answerId: "b",
-    explanation: "Add 9: y = 13. 5 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "Add 9: y = 13. 5 is tempting if you subtract a number from only the left side.",
     hints: ["Add 9 to both sides of y − 9 = 4."]
   },
   {
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "24" }
     ],
     answerId: "c",
-    explanation: "Divide both sides by 3: m = 7. 18 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "Divide both sides by 3: m = 7. 18 is tempting if you subtract a number from only the right side.",
     hints: ["Divide both sides of 3m = 21 by 3."]
   },
   {
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "d",
-    explanation: "Multiply both sides by 5: n = 30. 11 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "Multiply both sides by 5: n = 30. 11 is tempting if you divide only the left side by the coefficient.",
     hints: ["Multiply both sides of n/5 = 6 by 5."]
   },
   {
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "14" }
     ],
     answerId: "a",
-    explanation: "2x = 8, so x = 4. 7 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "2x = 8, so x = 4. 7 is tempting if you collect like terms on one side but drop a sign.",
     hints: ["Subtract 3 first, then divide by 2."]
   },
   {
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "b",
-    explanation: "5p = 20, p = 4. 3 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "5p = 20, p = 4. 3 is tempting if you add to one side and forget the other.",
     hints: ["Undo the subtraction first, so 5p equals 16 plus the amount taken away. Then divide by 5."]
   },
   {
@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "c",
-    explanation: "12 − 2 = 10. 8 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "12 − 2 = 10. 8 is tempting if you clear a bracket but skip multiplying one term.",
     hints: ["Add 2 to both sides of x − 2 = 10. Then check your value in the equation."]
   },
   {
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "x + 6 = 19" }
     ],
     answerId: "d",
-    explanation: "Increased by means add. x − 6 = 19 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "Increased by means add. x − 6 = 19 is tempting if you combine unlike terms into a single term.",
     hints: ["“Increased by” → +."]
   },
   {
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "x \u2212 3 = 27" }
     ],
     answerId: "a",
-    explanation: "Thrice means three times. x + 3 = 27 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "Thrice means three times. x + 3 = 27 is tempting if you transpose x but leave its coefficient behind.",
     hints: ["Thrice → multiply by 3."]
   },
   {
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "b",
-    explanation: "Multiply both sides by −1: x = −8. 0 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "Multiply both sides by −1: x = −8. 0 is tempting if you solve for the wrong letter in a two-letter equation.",
     hints: ["Multiply both sides by −1 so that x is on its own."]
   },
   {
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "21" }
     ],
     answerId: "c",
-    explanation: "x − 1 = 5, so x = 6. 5 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "x − 1 = 5, so x = 6. 5 is tempting if you clear brackets but forget to multiply every term inside.",
     hints: ["Divide by 4, then add 1."]
   },
   {
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "9" }
     ],
     answerId: "d",
-    explanation: "x/3 = 3, so x = 9. 7 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "x/3 = 3, so x = 9. 7 is tempting if you clear brackets but forget to multiply every term inside.",
     hints: ["Subtract 2, then multiply by 3."]
   },
   {
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "a",
-    explanation: "2x + 7 = 25 → 2x = 18 → x = 9. 4 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "2x + 7 = 25 → 2x = 18 → x = 9. 4 is tempting if you move a term across the equals sign without flipping its sign.",
     hints: ["Write 2n + 7 = 25. Take 7 from both sides, then halve."]
   },
   {
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "b",
-    explanation: "−x = 3 − 10 = −7, so x = 7. Or: x = 10 − 3. 13 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "−x = 3 − 10 = −7, so x = 7. Or: x = 10 − 3. 13 is tempting if you cancel a factor that is not common to every term.",
     hints: ["Move x or rearrange to isolate it."]
   },
   {
@@ -196,7 +196,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "x/5 = 1" }
     ],
     answerId: "c",
-    explanation: "5 × 0 = 0. x + 5 = 0 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "5 × 0 = 0. x + 5 = 0 is tempting if you reverse the inequality thinking when signs flip (here equality still needs both sides).",
     hints: ["Plug x = 0 into each equation."]
   },
   {
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u22123" }
     ],
     answerId: "d",
-    explanation: "x = −18/6 = −3. 3 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "x = −18/6 = −3. 3 is tempting if you move a term across without flipping its sign.",
     hints: ["Divide both sides by 6."]
   },
   {
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "a",
-    explanation: "x/2 = 6, x = 12. 8 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "x/2 = 6, x = 12. 8 is tempting if you subtract a number from only the left side.",
     hints: ["Add 5, then multiply by 2."]
   },
   {
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221217" }
     ],
     answerId: "b",
-    explanation: "x − 12 = −5 → x = 7. 17 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "x − 12 = −5 → x = 7. 17 is tempting if you subtract a number from only the right side.",
     hints: ["Add 12 to both sides."]
   },
   {
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "c",
-    explanation: "4x = 20, x = 5. 4 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "4x = 20, x = 5. 4 is tempting if you move a term across the equals sign without flipping its sign.",
     hints: ["First combine 3x + x into one term. Then divide 20 by its coefficient."]
   },
   {
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "d",
-    explanation: "x + 4 = 9, x = 5. 4. 13 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "x + 4 = 9, x = 5. 13 is tempting if you divide only the right side by the coefficient.",
     hints: ["Simplify 2x − x first. Then take 4 from both sides of the equation."]
   },
   {
@@ -274,7 +274,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7" }
     ],
     answerId: "a",
-    explanation: "3k + 1 = 10 → 3k = 9 → k = 3. 1 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "3k + 1 = 10 → 3k = 9 → k = 3. 1 is tempting if you add to one side and forget the other.",
     hints: ["Substitute the known value of x."]
   },
   {
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "No solution" }
     ],
     answerId: "b",
-    explanation: "Expanding gives 5x + 10 = 5x + 10 — always true. x = 0 only is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "Expanding gives 5x + 10 = 5x + 10 — always true. x = 0 only is tempting if you clear brackets but forget to multiply every term inside.",
     hints: ["If both sides match for every x, it is an identity."]
   },
   {
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "All real numbers" }
     ],
     answerId: "c",
-    explanation: "Subtract 2x: 5 = 9, which is false. No solution. x = 0 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "Subtract 2x: 5 = 9, which is false. No solution. x = 0 is tempting if you collect like terms on one side but drop a sign.",
     hints: ["Subtract 2x from both sides of 2x + 5 = 2x + 9. Is what remains ever true?"]
   },
   {
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "b",
-    explanation: "3x − 12 = 2x + 2 → x = 14. 10 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "3x − 12 = 2x + 2 → x = 14. 10 is tempting if you clear brackets but forget to multiply every term inside.",
     hints: ["Expand both brackets: 3x − 12 = 2x + 2. Then collect the x terms on one side."]
   },
   {
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "c",
-    explanation: "n + (n+1) + (n+2) = 54 → 3n + 3 = 54 → n = 17. 16 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "n + (n+1) + (n+2) = 54 → 3n + 3 = 54 → n = 17. 16 is tempting if you move a term across the equals sign without flipping its sign.",
     hints: ["Consecutive integers differ by 1."]
   },
   {
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "d",
-    explanation: "Multiply by 12: 3x = 2x + 12 → x = 12. 6 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "Multiply by 12: 3x = 2x + 12 → x = 12. 6 is tempting if you treat a product as a sum when collecting terms.",
     hints: ["Multiply every term by the LCM of 4 and 6 to clear the fractions, then solve."]
   },
   {
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "19" }
     ],
     answerId: "a",
-    explanation: "5x − 8 = 27 → 5x = 35 → x = 7. 5 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "5x − 8 = 27 → 5x = 35 → x = 7. 5 is tempting if you cancel a factor that is not common to every term.",
     hints: ["Write 5n − 8 = 27. Add 8 to both sides, then divide by 5."]
   },
   {
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "16" }
     ],
     answerId: "b",
-    explanation: "x = 14/(−2) = −7. −16 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "x = 14/(−2) = −7. −16 is tempting if you reverse the inequality thinking when signs flip (here equality still needs both sides).",
     hints: ["Divide both sides by −2."]
   },
   {
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "c",
-    explanation: "2x = 10, x = 5; 3×5 + 2 = 17. 14 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "2x = 10, x = 5; 3×5 + 2 = 17. 14 is tempting if you move a term across without flipping its sign.",
     hints: ["Find x first, then evaluate the new expression."]
   },
   {
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "d",
-    explanation: "−3x = −6 → x = 2. 3 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "−3x = −6 → x = 2. 3 is tempting if you subtract a number from only the left side.",
     hints: ["Subtract 8, then divide by −3."]
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "6 cm" }
     ],
     answerId: "a",
-    explanation: "4s = 48 → s = 12. 6 cm is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "4s = 48 → s = 12. 6 cm is tempting if you move a term across the equals sign without flipping its sign.",
     hints: ["Perimeter of square = 4 × side."]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "b",
-    explanation: "2x + 1 = 15 → 2x = 14 → x = 7. 8 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "2x + 1 = 15 → 2x = 14 → x = 7. 8 is tempting if you clear brackets but forget to multiply every term inside.",
     hints: ["Multiply both sides by 3 first."]
   },
   {
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "c",
-    explanation: "p + (p+5) = 29 → 2p = 24 → p = 12. 17 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "p + (p+5) = 29 → 2p = 24 → p = 12. 17 is tempting if you divide only the right side by the coefficient.",
     hints: ["Let Priya = p; Ravi = p + 5."]
   },
   {
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "d",
-    explanation: "9 = 3x → x = 3. 6 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "9 = 3x → x = 3. 6 is tempting if you add to one side and forget the other.",
     hints: ["Add x to both sides, then divide."]
   },
   {
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Delete a term from one side only" }
     ],
     answerId: "a",
-    explanation: "Balance requires the same change on both sides. Add different numbers to each side is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "Balance requires the same change on both sides. Add different numbers to each side is tempting if you collect like terms on one side but drop a sign.",
     hints: ["An equation is like a balance. What must you do to keep both sides equal?"]
   },
   {
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.5" }
     ],
     answerId: "b",
-    explanation: "x = 4 / 0.5 = 8. 4. 2 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "x = 4 / 0.5 = 8. 2 is tempting if you treat the equation as an expression and evaluate too early.",
     hints: ["0.5x means half of x. If half of x is 4, what is the whole of x?"]
   },
   {
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "17" }
     ],
     answerId: "c",
-    explanation: "x + (x+3) = 40 → 2x = 37 → x = 18.5. 17 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "x + (x+3) = 40 → 2x = 37 → x = 18.5. 17 is tempting if you move a term across the equals sign without flipping its sign.",
     hints: ["Let smaller = x; larger = x + 3."]
   },
   {
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22124" }
     ],
     answerId: "d",
-    explanation: "4x = −9 − 7 = −16, so x = −16 ÷ 4 = −4. 4 may look right if the minus sign is dropped, and −1/2 comes from adding 7 to −9 instead of subtracting it. −1/2 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "4x = −9 − 7 = −16, so x = −16 ÷ 4 = −4. 4 may look right if the minus sign is dropped, and −1/2 comes from adding 7 to −9 instead of subtracting it. −1/2 is tempting if you solve for the wrong letter in a two-letter equation.",
     hints: ["Subtract 7 from both sides of 4x + 7 = −9, then divide by the coefficient of x. Keep the negative sign."]
   },
   {
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x \u2212 3/2 = 10" }
     ],
     answerId: "a",
-    explanation: "Half is x/2; decreased by 3 subtracts 3. 2x − 3 = 10 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "Half is x/2; decreased by 3 subtracts 3. 2x − 3 = 10 is tempting if you check by substituting into only one side.",
     hints: ["Let the number be x. Write half a number first, then show it decreased by 3, then set it equal to 10."]
   },
   {
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "b",
-    explanation: "3x + 6 = 24 → 3x = 18 → x = 6. 3 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "3x + 6 = 24 → 3x = 18 → x = 6. 3 is tempting if you drop the negative when a minus sits outside brackets.",
     hints: ["Combine 5x − 2x into one term, subtract the constant from 24, then divide by the coefficient of x."]
   },
   {
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "c",
-    explanation: "3(−2) + 8 = −6 + 8 = 2. Yes. No is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "3(−2) + 8 = −6 + 8 = 2. Yes. No is tempting if you treat a product as a sum when collecting terms.",
     hints: ["Put x = −2 into 3x + 8. Does it equal 2?"]
   },
   {
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "d",
-    explanation: "4 = x + 1 → x = 3. 4 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "4 = x + 1 → x = 3. 4 is tempting if you clear brackets but forget to multiply every term inside.",
     hints: ["Divide 12 by the number outside the bracket to find x + 1, then subtract 1."]
   },
   {
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x = 3\u00d790" }
     ],
     answerId: "a",
-    explanation: "Three tickets = one ticket + 90 → 3x = x + 90. 3x + 90 = x is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "Three tickets = one ticket + 90 → 3x = x + 90. 3x + 90 = x is tempting if you move a term across the equals sign without flipping its sign.",
     hints: ["Write the cost of three tickets and of one ticket using ₹x. Which is ₹90 more?"]
   },
   {
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "b",
-    explanation: "2x = 90 → x = 45. 30 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "2x = 90 → x = 45. 30 is tempting if you move a term across without flipping its sign.",
     hints: ["Subtract x from both sides."]
   },
   {
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u221214" }
     ],
     answerId: "c",
-    explanation: "−x + 4 = 10 → −x = 6 → x = −6. −14 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "−x + 4 = 10 → −x = 6 → x = −6. −14 is tempting if you clear brackets but forget to multiply every term inside.",
     hints: ["Distribute the minus, then isolate x."]
   },
   {
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "d",
-    explanation: "In a linear equation, the unknown appears to the first power only. 0 is tempting if you change only one side of the equals sign, or mistype a sign when rearranging.",
+    explanation: "In a linear equation, the unknown appears to the first power only. 0 is tempting if you add the same value to one side and forget the other.",
     hints: ["A linear equation such as 2x + 5 = 9 has no x² or x³ term. What power of the variable is left?"]
   }
 ];

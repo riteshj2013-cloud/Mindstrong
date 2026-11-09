@@ -1,0 +1,231 @@
+{
+  "note": "Temporary allow-list: recycled tempting-clause templates (>=10 within a grade). Only G8/G9 may appear here; D PRs must burn each template down below the threshold and remove it.",
+  "threshold": 10,
+  "grades": {
+    "8": [
+      {
+        "template": "if you mix up angle or shape facts, but the correct choice is n",
+        "count": 25,
+        "items": [
+          "g8-maths-linear-a-q04",
+          "g8-maths-linear-a-q05",
+          "g8-maths-linear-a-q06",
+          "g8-maths-linear-a-q08",
+          "g8-maths-linear-a-q10",
+          "g8-maths-linear-a-q11",
+          "g8-maths-linear-a-q12",
+          "g8-maths-linear-a-q14",
+          "g8-maths-linear-a-q17",
+          "g8-maths-linear-a-q18",
+          "g8-maths-linear-a-q21",
+          "g8-maths-linear-a-q23",
+          "g8-maths-linear-b-q02",
+          "g8-maths-linear-b-q04",
+          "g8-maths-linear-b-q06",
+          "g8-maths-linear-b-q08",
+          "g8-maths-linear-b-q10",
+          "g8-maths-linear-b-q12",
+          "g8-maths-linear-b-q13",
+          "g8-maths-linear-b-q14",
+          "g8-maths-linear-b-q17",
+          "g8-maths-linear-b-q18",
+          "g8-maths-linear-b-q21",
+          "g8-maths-linear-b-q23",
+          "g8-maths-linear-b-q24"
+        ]
+      },
+      {
+        "template": "if you stop one step early or reverse a step, but the correct result is n",
+        "count": 20,
+        "items": [
+          "g8-maths-exponents-a-q01",
+          "g8-maths-exponents-a-q05",
+          "g8-maths-exponents-a-q07",
+          "g8-maths-exponents-a-q08",
+          "g8-maths-exponents-a-q19",
+          "g8-maths-exponents-a-q21",
+          "g8-maths-exponents-b-q05",
+          "g8-maths-exponents-b-q07",
+          "g8-maths-exponents-b-q21",
+          "g8-maths-exponents-b-q23",
+          "g8-maths-algebra-a-q02",
+          "g8-maths-algebra-a-q03",
+          "g8-maths-algebra-a-q12",
+          "g8-maths-algebra-a-q19",
+          "g8-maths-algebra-a-q23",
+          "g8-maths-algebra-b-q02",
+          "g8-maths-algebra-b-q12",
+          "g8-maths-algebra-b-q18",
+          "g8-maths-algebra-b-q20",
+          "g8-maths-algebra-b-q24"
+        ]
+      },
+      {
+        "template": "if you compare the wrong quantities or forget to simplify",
+        "count": 16,
+        "items": [
+          "g8-maths-compare-a-q01",
+          "g8-maths-compare-a-q02",
+          "g8-maths-compare-a-q03",
+          "g8-maths-compare-a-q08",
+          "g8-maths-compare-a-q09",
+          "g8-maths-compare-a-q11",
+          "g8-maths-compare-a-q16",
+          "g8-maths-compare-a-q21",
+          "g8-maths-compare-a-q24",
+          "g8-maths-compare-b-q01",
+          "g8-maths-compare-b-q02",
+          "g8-maths-compare-b-q03",
+          "g8-maths-compare-b-q08",
+          "g8-maths-compare-b-q09",
+          "g8-maths-compare-b-q11",
+          "g8-maths-compare-b-q16"
+        ]
+      },
+      {
+        "template": "if you add denominators with numerators or misalign place values, but the correct value is -n/n",
+        "count": 15,
+        "items": [
+          "g8-maths-rational-a-q02",
+          "g8-maths-rational-a-q04",
+          "g8-maths-rational-a-q05",
+          "g8-maths-rational-a-q08",
+          "g8-maths-rational-a-q10",
+          "g8-maths-rational-a-q13",
+          "g8-maths-rational-a-q21",
+          "g8-maths-rational-a-q23",
+          "g8-maths-rational-b-q04",
+          "g8-maths-rational-b-q10",
+          "g8-maths-rational-b-q12",
+          "g8-maths-rational-b-q17",
+          "g8-maths-rational-b-q18",
+          "g8-maths-rational-b-q21",
+          "g8-maths-rational-b-q24"
+        ]
+      },
+      {
+        "template": "if you use the wrong formula or mix length with area/volume units, but the correct result is n cm²",
+        "count": 14,
+        "items": [
+          "g8-maths-mensuration-a-q01",
+          "g8-maths-mensuration-a-q03",
+          "g8-maths-mensuration-a-q05",
+          "g8-maths-mensuration-a-q08",
+          "g8-maths-mensuration-a-q09",
+          "g8-maths-mensuration-a-q10",
+          "g8-maths-mensuration-a-q12",
+          "g8-maths-mensuration-a-q14",
+          "g8-maths-mensuration-a-q15",
+          "g8-maths-mensuration-b-q03",
+          "g8-maths-mensuration-b-q05",
+          "g8-maths-mensuration-b-q10",
+          "g8-maths-mensuration-b-q12",
+          "g8-maths-mensuration-b-q22"
+        ]
+      },
+      {
+        "template": "if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹n,n",
+        "count": 12,
+        "items": [
+          "g8-maths-compare-a-q12",
+          "g8-maths-compare-a-q13",
+          "g8-maths-compare-a-q14",
+          "g8-maths-compare-a-q19",
+          "g8-maths-compare-a-q22",
+          "g8-maths-compare-b-q12",
+          "g8-maths-compare-b-q13",
+          "g8-maths-compare-b-q15",
+          "g8-maths-compare-b-q17",
+          "g8-maths-compare-b-q18",
+          "g8-maths-compare-b-q21",
+          "g8-maths-compare-b-q24"
+        ]
+      },
+      {
+        "template": "if you add denominators with numerators or misalign place values, but the correct value is n/n",
+        "count": 11,
+        "items": [
+          "g8-maths-rational-a-q01",
+          "g8-maths-rational-a-q03",
+          "g8-maths-rational-a-q12",
+          "g8-maths-rational-a-q18",
+          "g8-maths-rational-a-q19",
+          "g8-maths-rational-a-q20",
+          "g8-maths-rational-b-q02",
+          "g8-maths-rational-b-q03",
+          "g8-maths-rational-b-q08",
+          "g8-maths-rational-b-q13",
+          "g8-maths-rational-b-q23"
+        ]
+      },
+      {
+        "template": "if you apply the rate to the wrong base or for the wrong time; the correct amount is ₹n",
+        "count": 10,
+        "items": [
+          "g8-maths-compare-a-q04",
+          "g8-maths-compare-a-q07",
+          "g8-maths-compare-a-q10",
+          "g8-maths-compare-a-q15",
+          "g8-maths-compare-a-q23",
+          "g8-maths-compare-b-q04",
+          "g8-maths-compare-b-q07",
+          "g8-maths-compare-b-q10",
+          "g8-maths-compare-b-q19",
+          "g8-maths-compare-b-q22"
+        ]
+      }
+    ],
+    "9": [
+      {
+        "template": "if you stop one step early or reverse a step, but the correct result is n",
+        "count": 28,
+        "items": [
+          "g9-maths-coord-a-q02",
+          "g9-maths-coord-a-q05",
+          "g9-maths-coord-a-q07",
+          "g9-maths-coord-a-q11",
+          "g9-maths-coord-a-q16",
+          "g9-maths-coord-a-q20",
+          "g9-maths-coord-b-q04",
+          "g9-maths-coord-b-q08",
+          "g9-maths-coord-b-q16",
+          "g9-maths-poly-a-q01",
+          "g9-maths-poly-a-q02",
+          "g9-maths-poly-a-q03",
+          "g9-maths-poly-a-q05",
+          "g9-maths-poly-a-q08",
+          "g9-maths-poly-a-q10",
+          "g9-maths-poly-a-q12",
+          "g9-maths-poly-a-q14",
+          "g9-maths-poly-a-q16",
+          "g9-maths-poly-a-q17",
+          "g9-maths-poly-a-q18",
+          "g9-maths-poly-a-q21",
+          "g9-maths-poly-a-q23",
+          "g9-maths-poly-b-q02",
+          "g9-maths-poly-b-q07",
+          "g9-maths-poly-b-q08",
+          "g9-maths-poly-b-q11",
+          "g9-maths-poly-b-q13",
+          "g9-maths-poly-b-q19"
+        ]
+      },
+      {
+        "template": "if you drop a sign or swap place values, but the correct result is n",
+        "count": 10,
+        "items": [
+          "g9-maths-numbers-a-q12",
+          "g9-maths-numbers-a-q15",
+          "g9-maths-numbers-a-q18",
+          "g9-maths-numbers-a-q20",
+          "g9-maths-numbers-b-q06",
+          "g9-maths-numbers-b-q10",
+          "g9-maths-numbers-b-q12",
+          "g9-maths-numbers-b-q19",
+          "g9-maths-numbers-b-q20",
+          "g9-maths-numbers-b-q22"
+        ]
+      }
+    ]
+  }
+}

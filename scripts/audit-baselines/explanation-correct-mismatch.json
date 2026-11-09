@@ -1,0 +1,4 @@
+{
+  "note": "Temporary allow-list for explanations whose 'correct result/value/answer is X' disagrees with the keyed option. Prefer empty; D/surgical fixes should clear hits rather than grow this list. G8/G9 only if needed.",
+  "items": []
+}

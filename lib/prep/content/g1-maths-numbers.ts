@@ -315,7 +315,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "d",
-    explanation: "Aarav had 3 pencils and got 2 more, so 3 + 2 = 5. 4 is tempting if you stop one count too soon.",
+    explanation: "Aarav had 3 pencils and got 2 more, so 3 + 2 = 5. 4 is tempting if you count one object too many.",
     hints: ["Aarav had 3 pencils and got 2 more.", "Start at 3 and count on 2 more."]
   },
   {

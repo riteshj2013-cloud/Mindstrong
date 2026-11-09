@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "c",
-    explanation: "Just after the decimal point is the tenths place, so the digit is 8. 6 is tempting if you misread which place the digit sits in after the decimal point; the value is 8.",
+    explanation: "Just after the decimal point is the tenths place, so the digit is 8. 6 is tempting if you put the digit one column too far left after the decimal point.",
     hints: ["In 4.86, the first digit after the decimal point is the tenths digit."]
   },
   {
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "a",
-    explanation: "0.80 is greater than 0.75 when both have hundredths, so 0.8 is greater. 0.75 is tempting if you misread which place the digit sits in after the decimal point; the value is 0.8.",
+    explanation: "0.80 is greater than 0.75 when both have hundredths, so 0.8 is greater. 0. 0.75 is tempting if you put the digit one column too far right after the decimal point.",
     hints: ["Is 0.75 more or less than the other number once both are written with two decimal places?"]
   },
   {
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "16" }
     ],
     answerId: "b",
-    explanation: "50% means half, and half of 80 is 40. 30 is tempting if you misread which place the digit sits in after the decimal point; the value is 40.",
+    explanation: "50% means half, and half of 80 is 40. 30 is tempting if you read tenths as hundredths (or the other way round).",
     hints: ["50% means 50 out of every 100, which is one half. Use that on 80."]
   },
   {
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "c",
-    explanation: "10% means divide by 10, so 250 ÷ 10 = 25. 10 is tempting if you misread which place the digit sits in after the decimal point; the value is 25.",
+    explanation: "10% means divide by 10, so 250 ÷ 10 = 25. 10 is tempting if you line the decimals up from the left instead of from the decimal point.",
     hints: ["10% is one tenth. Divide 250 by 10."]
   },
   {
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "7" }
     ],
     answerId: "c",
-    explanation: "Tenths is 2, hundredths is 5, thousandths is 3. 3 is tempting if you misread which place the digit sits in after the decimal point; the value is 5.",
+    explanation: "Tenths is 2, hundredths is 5, thousandths is 3. 3 is tempting if you ignore a trailing zero that still marks a place value.",
     hints: ["In 7.253, count two places after the decimal point to reach the hundredths digit."]
   },
   {
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "a",
-    explanation: "0.10 is greater than 0.09, so 0.09 is smaller. 0.1 is tempting if you misread which place the digit sits in after the decimal point; the value is 0.09.",
+    explanation: "0.10 is greater than 0.09, so 0.09 is smaller. 0. 0.1 is tempting if you drop a zero placeholder between the point and the digit.",
     hints: ["Write 0.1 with two decimal places, then compare the hundredths of both numbers."]
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.01" }
     ],
     answerId: "a",
-    explanation: "10% = 10/100 = 0.1. 0.01 is tempting if you misread which place the digit sits in after the decimal point; the value is 0.1.",
+    explanation: "10% = 10/100 = 0.1. 0. 10 is tempting if you put the digit one column too far left after the decimal point.",
     hints: ["10% means 10 out of 100. Divide 10 by 100 to get a decimal."]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "b",
-    explanation: "25% is one quarter; 40 ÷ 4 = 10. 8 is tempting if you misread which place the digit sits in after the decimal point; the value is 10.",
+    explanation: "25% is one quarter; 40 ÷ 4 = 10. 8 is tempting if you put the digit one column too far right after the decimal point.",
     hints: ["25% is one quarter. Split 40 into 4 equal parts."]
   },
   {
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3.06" }
     ],
     answerId: "d",
-    explanation: "3 wholes and 6 hundredths is 3.06. 3.006 is tempting if you misread which place the digit sits in after the decimal point; the value is 3.06.",
+    explanation: "3 wholes and 6 hundredths is 3.06. 3. 3.6 is tempting if you read tenths as hundredths (or the other way round).",
     hints: ["Write the whole number three before the point. Six hundredths goes in the second place after it; what fills the tenths?"]
   },
   {
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "60" }
     ],
     answerId: "b",
-    explanation: "Face value is the digit itself, which is 6. 0.6 is tempting if you misread which place the digit sits in after the decimal point; the value is 6.",
+    explanation: "Face value is the digit itself, which is 6. 0. 0.6 is tempting if you line the decimals up from the left instead of from the decimal point.",
     hints: ["Face value is just the digit itself, whatever its place. Place value would depend on its position in 8.46."]
   },
   {
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "50" }
     ],
     answerId: "c",
-    explanation: "5% of 200 = (5/100)×200 = 10. 5 is tempting if you misread which place the digit sits in after the decimal point; the value is 10.",
+    explanation: "5% of 200 = (5/100)×200 = 10. 5 is tempting if you ignore a trailing zero that still marks a place value.",
     hints: ["5% means 5 in every 100. How many hundreds are in 200?"]
   },
   {
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.125" }
     ],
     answerId: "a",
-    explanation: "3 ÷ 8 = 0.375. 0.38 is tempting if you misread which place the digit sits in after the decimal point; the value is 0.375.",
+    explanation: "3 ÷ 8 = 0.375. 0. 0.38 is tempting if you drop a zero placeholder between the point and the digit.",
     hints: ["Divide 3 by 8 using long division, adding zeros after the decimal point."]
   },
   {

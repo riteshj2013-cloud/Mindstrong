@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "x = −2" }
     ],
     answerId: "d",
-    explanation: "A vertical line has constant x-coordinate: x = −2. y = −2 is tempting if you stop one step early or reverse a step, but the correct result is ray plane.",
+    explanation: "A vertical line has constant x-coordinate: x = −2. y = −2 is tempting if you use the y-value from the point (−2, 5) as if the line were horizontal; a vertical line keeps x fixed, so the equation is x = −2.",
     hints: ["Vertical → fixed x."]
   }
 ];

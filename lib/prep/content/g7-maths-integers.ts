@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "b",
-    explanation: "A number plus its additive inverse equals 0, so −15 + 15 = 0. 0 is tempting if you drop a minus sign when adding signed numbers.",
+    explanation: "A number plus its additive inverse equals 0, so −15 + 15 = 0. 0 is tempting if you add the absolute values and then attach the wrong sign.",
     hints: ["Additive inverse means the number that sums with it to zero."]
   },
   {
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "c",
-    explanation: "More negative numbers lie farther to the left. −12 < −3. −3 is tempting if you move the wrong way or the wrong number of steps on the number line.",
+    explanation: "More negative numbers lie farther to the left. −12 < −3. −3 is tempting if you count spaces on the number line instead of hops between integers.",
     hints: ["On a number line, left means smaller."]
   },
   {
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221213" }
     ],
     answerId: "d",
-    explanation: "Adding two negatives: add absolute values and keep the negative sign → −13. −3 is tempting if you drop a minus sign when adding signed numbers.",
+    explanation: "Adding two negatives: add absolute values and keep the negative sign → −13. −3 is tempting if you subtract smaller-from-larger without watching which number is negative.",
     hints: ["Two negatives added go further left. Find 8 + 5 and put a minus sign in front."]
   },
   {
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221213" }
     ],
     answerId: "a",
-    explanation: "9 − 4 = 5. Adding a negative is subtraction. 13 is tempting if you drop a minus sign when adding signed numbers.",
+    explanation: "9 − 4 = 5. Adding a negative is subtraction. 13 is tempting if you count spaces on the number line instead of hops between integers.",
     hints: ["Adding −4 means stepping 4 to the left. Start at 9 on the number line."]
   },
   {
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "b",
-    explanation: "Subtracting a negative is adding: −6 + 2 = −4. −8 is tempting if you move the wrong way or the wrong number of steps on the number line.",
+    explanation: "Subtracting a negative is adding: −6 + 2 = −4. −8 is tempting if you replace a − (−n) step with ordinary subtraction.",
     hints: ["Subtracting −2 is the same as adding 2. Start at −6 and move 2 steps right."]
   },
   {
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u22125 < \u22122" }
     ],
     answerId: "d",
-    explanation: "−5 is to the left of −2, so −5 is smaller. −5 = −2 is tempting if you move the wrong way or the wrong number of steps on the number line.",
+    explanation: "−5 is to the left of −2, so −5 is smaller. −5 = −2 is tempting if you count spaces on the number line instead of hops between integers.",
     hints: ["On the number line, numbers further left are smaller. Is −5 left or right of −2?"]
   },
   {
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221213 floors" }
     ],
     answerId: "a",
-    explanation: "−4 + 9 = +5 floors. +13 floors is tempting if you move the wrong way or the wrong number of steps on the number line.",
+    explanation: "−4 + 9 = +5 floors. +13 floors is tempting if you reverse a rise and a fall when combining signed changes.",
     hints: ["Down is negative; up is positive."]
   },
   {
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3 \u00b0C" }
     ],
     answerId: "b",
-    explanation: "Final − initial = −3 − 6 = −9 °C. −3 °C is tempting if you move the wrong way or the wrong number of steps on the number line.",
+    explanation: "Final − initial = −3 − 6 = −9 °C. −3 °C is tempting if you replace a − (−n) step with ordinary subtraction.",
     hints: ["Change = new value minus old value."]
   },
   {
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "d",
-    explanation: "The correct answer is 8. 0 is tempting if you move the wrong way or the wrong number of steps on the number line.",
+    explanation: "The correct answer is 8. 0 is tempting if you replace a − (−n) step with ordinary subtraction.",
     hints: ["Subtracting a negative is the same as adding its opposite. Start from 0 on the number line."]
   },
   {
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6" }
     ],
     answerId: "b",
-    explanation: "(−2)×(−2)×(−2) = 4 × (−2) = −8. Odd power keeps the negative. −6 is tempting if you move the wrong way or the wrong number of steps on the number line.",
+    explanation: "(−2)×(−2)×(−2) = 4 × (−2) = −8. Odd power keeps the negative. −6 is tempting if you subtract smaller-from-larger without watching which number is negative.",
     hints: ["Write (−2) × (−2) × (−2). Multiply two at a time and track the sign."]
   },
   {
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "c",
-    explanation: "Successor means +1: −9 + 1 = −8. −10 is tempting if you move the wrong way or the wrong number of steps on the number line.",
+    explanation: "Successor means +1: −9 + 1 = −8. −10 is tempting if you count spaces on the number line instead of hops between integers.",
     hints: ["Successor is one more on the number line."]
   },
   {
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221210" }
     ],
     answerId: "d",
-    explanation: "Predecessor means −1: −9 − 1 = −10. −8 is tempting if you move the wrong way or the wrong number of steps on the number line.",
+    explanation: "Predecessor means −1: −9 − 1 = −10. −8 is tempting if you reverse a rise and a fall when combining signed changes.",
     hints: ["Predecessor is one less."]
   },
   {
@@ -274,7 +274,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "a",
-    explanation: "A number plus its additive inverse is 0. 1 is tempting if you drop a minus sign when adding signed numbers.",
+    explanation: "A number plus its additive inverse is 0. 1 is tempting if you reverse a rise and a fall when combining signed changes.",
     hints: ["−15 and 15 are opposites, the same distance from the start on either side of the number line. What do they add to?"]
   },
   {
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u2212\u20b9540" }
     ],
     answerId: "c",
-    explanation: "−240 + 300 = 60 rupees. ₹540 is tempting if you move the wrong way or the wrong number of steps on the number line.",
+    explanation: "−240 + 300 = 60 rupees. ₹540 is tempting if you replace a − (−n) step with ordinary subtraction.",
     hints: ["Debt is negative; deposits add."]
   },
   {
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Identity" }
     ],
     answerId: "b",
-    explanation: "Order of addition does not matter — commutative property. Associative is tempting if you drop a minus sign when adding signed numbers.",
+    explanation: "Order of addition does not matter — commutative property. Associative is tempting if you replace a − (−n) step with ordinary subtraction.",
     hints: ["In a + b = b + a, only the order of a and b changes. Which property is about swapping the order?"]
   },
   {
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "None" }
     ],
     answerId: "c",
-    explanation: "a + 0 = a for every integer a. 1 is tempting if you drop a minus sign when adding signed numbers.",
+    explanation: "a + 0 = a for every integer a. 1 is tempting if you add the absolute values and then attach the wrong sign.",
     hints: ["Identity leaves the number unchanged."]
   },
   {
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "a + b" }
     ],
     answerId: "b",
-    explanation: "−(a − b) = −a + b = b − a. a − b is tempting if you move the wrong way or the wrong number of steps on the number line.",
+    explanation: "−(a − b) = −a + b = b − a. a − b is tempting if you add the absolute values and then attach the wrong sign.",
     hints: ["Open the bracket: the minus sign changes the sign of a and of −b. Rearrange what you get."]
   },
   {
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "105 m" }
     ],
     answerId: "c",
-    explanation: "−80 + 25 = −55 m (still below sea level). −105 m is tempting if you move the wrong way or the wrong number of steps on the number line.",
+    explanation: "−80 + 25 = −55 m (still below sea level). −105 m is tempting if you subtract smaller-from-larger without watching which number is negative.",
     hints: ["Rising adds a positive change to a negative depth."]
   },
   {
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "d",
-    explanation: "The correct answer is 4. 10 is tempting if you move the wrong way or the wrong number of steps on the number line.",
+    explanation: "The correct answer is 4. 10 is tempting if you count spaces on the number line instead of hops between integers.",
     hints: ["Find the distance of −7 from zero, and of 3. Then subtract the second from the first."]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "b",
-    explanation: "5 + 9 − 3 = 11. 17 is tempting if you move the wrong way or the wrong number of steps on the number line.",
+    explanation: "5 + 9 − 3 = 11. 17 is tempting if you replace a − (−n) step with ordinary subtraction.",
     hints: ["Subtracting −9 means adding 9. Work left to right: 5 + 9, then subtract 3."]
   },
   {
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22128, \u22122, 0, 5" }
     ],
     answerId: "d",
-    explanation: "From most negative to most positive: −8, −2, 0, 5. −2, −8, 0, 5 is tempting if you move the wrong way or the wrong number of steps on the number line.",
+    explanation: "From most negative to most positive: −8, −2, 0, 5. −2, −8, 0, 5 is tempting if you replace a − (−n) step with ordinary subtraction.",
     hints: ["Ascending means smallest to largest."]
   },
   {
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22128" }
     ],
     answerId: "b",
-    explanation: "−14 − 6 = −20; −20 + 20 = 0. −8 is tempting if you drop a minus sign when adding signed numbers.",
+    explanation: "−14 − 6 = −20; −20 + 20 = 0. −8 is tempting if you subtract smaller-from-larger without watching which number is negative.",
     hints: ["Add the two negatives first: −14 + (−6). Then add 20."]
   },
   {
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "c",
-    explanation: "−3 − 7 = −10. −4 is tempting if you move the wrong way or the wrong number of steps on the number line.",
+    explanation: "−3 − 7 = −10. −4 is tempting if you add the absolute values and then attach the wrong sign.",
     hints: ["Subtract means add the opposite of b."]
   },
   {
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Loss of \u20b9970" }
     ],
     answerId: "a",
-    explanation: "450 − 520 = −70 → loss of ₹70. Gain of ₹70 is tempting if you move the wrong way or the wrong number of steps on the number line.",
+    explanation: "450 − 520 = −70 → loss of ₹70. Gain of ₹70 is tempting if you subtract smaller-from-larger without watching which number is negative.",
     hints: ["Gain positive, loss negative."]
   },
   {
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Distributive" }
     ],
     answerId: "d",
-    explanation: "Multiplication distributes over addition. Commutative is tempting if you drop a minus sign when adding signed numbers.",
+    explanation: "Multiplication distributes over addition. Commutative is tempting if you multiply magnitudes correctly but pick the wrong sign for the product.",
     hints: ["In a × (b + c), a multiplies each term inside the bracket. Which property spreads × over +?"]
   },
   {
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "14" }
     ],
     answerId: "c",
-    explanation: "Multiply first: 3×(−2)=−6; then −8+(−6)=−14. −10 is tempting if you drop a minus sign when adding signed numbers.",
+    explanation: "Multiply first: 3×(−2)=−6; then −8+(−6)=−14. −10 is tempting if you multiply magnitudes correctly but pick the wrong sign for the product.",
     hints: ["Multiply before adding: work out 3 × (−2) first, then add it to −8."]
   },
   {
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22129 and 9" }
     ],
     answerId: "d",
-    explanation: "The correct answer is −9 and 9. −9 and 1/9 is tempting if you drop a minus sign when adding signed numbers.",
+    explanation: "The correct answer is −9 and 9. −9 and 1/9 is tempting if you replace a − (−n) step with ordinary subtraction.",
     hints: ["Additive inverses sum to zero."]
   }
 ];
