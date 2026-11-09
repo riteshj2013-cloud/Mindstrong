@@ -69,7 +69,7 @@
 ## Practice Set A
 
 ### Q01
-- **stem**: In a tally chart, one complete tally gate (|||| with a slash) stands for…
+- **stem**: In a tally chart, one complete tally gate (four upright strokes with a slash) stands for…
 - **options**:
   - A) 4
   - B) 5
@@ -80,7 +80,7 @@
 - **skill**: tally
 
 ### Q02
-- **stem**: Tally |||| means…
+- **stem**: Tally of four upright strokes with no slash means…
 - **options**:
   - A) 3
   - B) 4
@@ -159,9 +159,9 @@
 ### Q09
 - **stem**: Tally for 7 is…
 - **options**:
-  - A) ||||
-  - B) |||| |||
-  - C) |||| ||
+  - A) Four single strokes (no slash)
+  - B) One crossed bundle of 5 and 3 singles
+  - C) One crossed bundle of 5 and 2 singles
   - D) |||
 - **answer**: C
 - **explanation**: One gate of 5 plus 2 more strokes = 7.
@@ -223,7 +223,7 @@
 - **skill**: table
 
 ### Q15
-- **stem**: A tally shows |||| |||| || for cricket fans. How many fans?
+- **stem**: A tally shows two crossed bundles of 5 and two single strokes for cricket fans. How many fans?
 - **options**:
   - A) 10
   - B) 12
@@ -335,7 +335,7 @@
 ## Practice Set B
 
 ### Q01
-- **stem**: Tally |||| |||| |||| means…
+- **stem**: A tally of three crossed bundles of 5 means…
 - **options**:
   - A) 12
   - B) 14
@@ -425,10 +425,10 @@
 ### Q09
 - **stem**: Tally for 11 is…
 - **options**:
-  - A) |||| |||| |
-  - B) |||| |||| ||
-  - C) |||| |||
-  - D) ||| ||||
+  - A) Two crossed bundles of 5 and 1 single
+  - B) Two crossed bundles of 5 and 2 singles
+  - C) One crossed bundle of 5 and 3 singles
+  - D) Three singles then four singles
 - **answer**: A
 - **explanation**: Two gates (10) plus one stroke = 11.
 - **skill**: pictograph
@@ -544,7 +544,7 @@
 - **skill**: tally
 
 ### Q20
-- **stem**: Monday's tally of library visitors is |||| ||||. Tuesday adds ||||. Total for both days?
+- **stem**: Monday's tally shows two crossed bundles of 5. Tuesday adds one crossed bundle of 5. Total for both days?
 - **options**:
   - A) 10
   - B) 13

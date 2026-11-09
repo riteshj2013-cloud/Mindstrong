@@ -128,7 +128,7 @@ h1, h2, h3, .font-display {
 }
 .quiz-figure svg {
   display: block;
-  width: auto;
+  width: 100%;
   height: auto;
   max-width: 100%;
   max-height: min(60vh, 28rem);
