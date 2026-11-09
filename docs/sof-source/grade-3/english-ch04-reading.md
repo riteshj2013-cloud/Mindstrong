@@ -1,0 +1,1093 @@
+# Grade 3 English — Chapter 4: Reading
+
+## Meta
+- note: Writer/editor source only. Meta and notes are stripped before anything ships to kids.
+- grade: 3
+- subject: English
+- chapter_id: g3-eng-reading
+- chapter_title: Reading
+- curriculum_source: public Class 3 English olympiad topic list + NCERT Marigold/Santoor age band (original items only)
+- content_type: original_olympiad_style
+- scope: main idea, details (who/what/where/when), sequence, vocabulary in context, simple inference, picture comprehension, timetable reading, short message and invitation facts
+- item_counts: Set A = 24 MCQs, Set B = 24 MCQs
+- pictorial_items: Set A = 9, Set B = 10 (inline Diagram SVG blocks)
+- difficulty_mix: per set 10 easy / 9 medium / 5 hard
+- answer_balance: per set 6 A / 6 B / 6 C / 6 D
+
+## Interactive Lesson Outline
+
+### step_1: Find the Big Idea
+- **tts**:
+  - Every story has one big idea. It is what the whole story is mostly about.
+  - Ask yourself: who is the story about, and what happens to them from start to end?
+- **on_screen**: A short story about Leela baking a cake for her grandmother appears. Three title cards float up; the child drags the one that fits the whole story.
+- **check**: Leela mixed flour, baked a cake and gave it to Nani. What is this mostly about? — Answer: Leela making a cake for Nani
+
+### step_2: Look Back for Details
+- **tts**:
+  - Who, what, where and when questions have answers right in the text.
+  - Do not guess. Go back, find the line, and read it again.
+- **on_screen**: The sentence 'Raghav fed the cows at six in the morning.' lights up word by word as Who, What and When buttons are tapped.
+- **check**: 'Raghav fed the cows at six in the morning.' When did he feed them? — Answer: at six in the morning
+
+### step_3: Order of Events
+- **tts**:
+  - Stories happen in an order. Words like first, next, then and at last help you.
+  - Find these words and put the events in a line.
+- **on_screen**: Four jumbled cards about planting a seed slide into a line: dig a hole, drop the seed, cover it, water it.
+- **check**: First Anu washed her hands. Then she ate. What did she do first? — Answer: washed her hands
+
+### step_4: Word Detective
+- **tts**:
+  - When you meet a new word, look at the words around it.
+  - The clues nearby can tell you what the new word means.
+- **on_screen**: In 'The tired camel plodded slowly over the sand', the word 'plodded' glows, then the clue words 'tired' and 'slowly' glow too.
+- **check**: 'The tired camel plodded slowly.' Did the camel move fast or slowly? — Answer: slowly
+
+### step_5: Read Pictures and Timetables
+- **tts**:
+  - In a picture, look carefully at people, things and what they are doing.
+  - In a timetable, find the row first, then move across to the right column.
+- **on_screen**: A train timetable appears. A finger slides along the 'Agra' row and stops under the 'Train 2' column, and the time glows.
+- **check**: In a timetable, which do you find first: the row or the time? — Answer: the row, then move across to the column
+
+### step_6: Notes and Invitations
+- **tts**:
+  - Notes and invitations are short, but they hold important facts.
+  - Look for who, what, when and where.
+- **on_screen**: A small card says 'Rangoli contest, Friday, 3 p.m., school hall.' Who, What, When and Where tags fly onto the right words.
+- **check**: 'Rangoli contest, Friday, 3 p.m., school hall.' Where is the contest? — Answer: in the school hall
+
+### step_7: Join Two Clues
+- **tts**:
+  - Sometimes a story does not tell you everything.
+  - Join two clues to work out what must be true, like a detective.
+- **on_screen**: Clue cards 'Wet umbrella by the door' and 'Muddy shoes' join together to make a new card: 'It rained outside.'
+- **check**: Asif's umbrella is wet and his shoes are muddy. What can you tell? — Answer: it was raining outside
+
+## Passage bank
+
+### P1 — The Seed Balls (story)
+
+On Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. "Now the rain will do the rest," said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!
+
+### P2 — Pepper Comes to Class (story)
+
+Joseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft "woof", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. "Pepper wanted to learn English too," Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.
+
+### P3 — The Onam Flower Carpet (story)
+
+On the morning of Onam, Harini and her cousin Manu woke up early to make a pookalam, a carpet of flowers, in front of the house. First, Ammachi drew a big circle on the floor with chalk. The children filled the outer ring with yellow marigold petals. Next, they made a ring of white jasmine. In the middle, they placed bright red hibiscus petals. Just then, a crow hopped across and scattered some petals. Manu groaned, but Harini calmly pushed them back into place. At last, little Appu put one green tulsi leaf right in the centre. "Now it is complete," said Ammachi, smiling.
+
+### P4 — Evening in Lakeside Park (picture scene)
+
+A picture of an evening in Lakeside Park: an old man sits on a bench under a tree, birds sit on a nest, a clock stands on a pole, a girl in a green frock plays with a rope, a boy in a yellow shirt walks a small brown animal on a lead, birds float on the lake, and a man sells balloons.
+
+### P5 — Mela Special Bus (timetable)
+
+**Mela Special Bus — Sunday**
+
+| Stop | Bus 1 | Bus 2 |
+|---|---|---|
+| Bus Stand | 3:00 | 5:00 |
+| Post Office | 3:15 | 5:15 |
+| Lake Gate | 3:30 | 5:30 |
+| Mela Ground | 3:50 | 5:50 |
+
+Last bus back from Mela Ground: 9:00 p.m.
+
+### P6 — A Note on the Fridge (short message)
+
+> Sneha,
+> I have gone to Aunty Leela's house next door
+> to help with the Diwali sweets.
+> Your milk is in the steel flask.
+> Please feed Bubbles a pinch of food from the
+> small tin at 6 o'clock. Do not tap on the glass;
+> it scares him.
+> I will be back by 8.
+> — Mumma
+
+### P7 — Tenzin's Birthday (invitation)
+
+> You are invited!
+> Tenzin is turning 8!
+> Cake, games and a puppet show
+> Day: Sunday, 22 November
+> Time: 4 p.m. to 7 p.m.
+> Place: Hill View House, Gangtok
+> Please wear something blue!
+> Tell Tenzin's mother by Thursday
+> if you can come.
+
+## Practice Set A
+
+### A1
+- **id**: g3-eng-reading-a-q01
+- **skill**: detail-who
+- **type**: comprehension
+- **difficulty**: easy
+- **stem**: Read Passage P1 (The Seed Balls). Who showed Bhavya how to make seed balls?
+- **options**:
+  - A) Her mother
+  - B) Her teacher
+  - C) Thatha, her grandfather
+  - D) A neighbour
+- **hint**: Read the very first sentence of the seed balls story and find the person who did the showing.
+- **answer**: C
+- **explanation**: The first sentence says Thatha showed Bhavya how to make them. 'Her mother' is tempting, but she is not in this story at all.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### A2
+- **id**: g3-eng-reading-a-q02
+- **skill**: detail-number
+- **type**: comprehension
+- **difficulty**: easy
+- **stem**: Read Passage P1. How many neem seeds did they press into EACH seed ball?
+- **options**:
+  - A) Three
+  - B) Twelve
+  - C) Eight
+  - D) Two
+- **hint**: Find the sentence with the word 'pressed' and look for the number of neem seeds in one ball.
+- **answer**: A
+- **explanation**: Each small ball got three neem seeds. 'Twelve' is the number of balls Bhavya made, not the seeds inside one ball.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### A3
+- **id**: g3-eng-reading-a-q03
+- **skill**: vocabulary-in-context
+- **type**: vocabulary
+- **difficulty**: medium
+- **stem**: Read Passage P1. "Tiny green leaves were peeping out of the red soil!" Here, "peeping out" means the leaves were —
+- **options**:
+  - A) hiding deep inside
+  - B) just starting to show
+  - C) falling off the plant
+  - D) making a soft sound
+- **hint**: Think about whether Bhavya could see the tiny leaves on the ground after the heavy showers.
+- **answer**: B
+- **explanation**: Bhavya could see the tiny leaves, so they were just beginning to come up. 'Hiding deep inside' is wrong, because hidden leaves could not be seen.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### A4
+- **id**: g3-eng-reading-a-q04
+- **skill**: sequence
+- **type**: comprehension
+- **difficulty**: medium
+- **stem**: Read Passage P1. What did Bhavya and Thatha do right AFTER they made the seed balls?
+- **options**:
+  - A) They threw the balls behind the bus depot.
+  - B) They mixed clay, cow dung and water.
+  - C) They left the balls in the shade to dry.
+  - D) They saw tiny green leaves.
+- **hint**: Find the sentence that tells how many balls each of them made, then read the very next sentence.
+- **answer**: C
+- **explanation**: Next, the balls were left on a newspaper in the shade for two days. 'They threw the balls behind the bus depot' happened later, on Monday evening.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### A5
+- **id**: g3-eng-reading-a-q05
+- **skill**: detail-calculate
+- **type**: comprehension
+- **difficulty**: hard
+- **stem**: Read Passage P1. How many neem seeds went into ALL the seed balls together?
+- **options**:
+  - A) 36
+  - B) 20
+  - C) 23
+  - D) 60
+- **hint**: First add the seed balls Bhavya and Thatha made, then use the number of neem seeds in each ball.
+- **answer**: D
+- **explanation**: Bhavya made 12 and Thatha made 8, so there were 20 balls. Each had 3 seeds, and 20 × 3 = 60. '36' counts only Bhavya's 12 balls.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### A6
+- **id**: g3-eng-reading-a-q06
+- **skill**: detail-what
+- **type**: comprehension
+- **difficulty**: easy
+- **stem**: Read Passage P2 (Pepper Comes to Class). What colour is Pepper?
+- **options**:
+  - A) Brown
+  - B) Black
+  - C) White
+  - D) Grey
+- **hint**: Find the sentence where Mrs. Pinto opens the door and read the words that describe Pepper.
+- **answer**: A
+- **explanation**: The story calls Pepper 'Joseph's brown puppy'. 'Black' is tempting because of the name Pepper, but the story clearly says brown.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### A7
+- **id**: g3-eng-reading-a-q07
+- **skill**: vocabulary-in-context
+- **type**: vocabulary
+- **difficulty**: medium
+- **stem**: Read Passage P2. Pepper was "wagging his tail and panting hard." What does "panting" mean?
+- **options**:
+  - A) Barking loudly
+  - B) Breathing fast with the mouth open
+  - C) Sleeping deeply
+  - D) Eating quickly
+- **hint**: Think how a puppy breathes after running all the way to school, like Pepper did.
+- **answer**: B
+- **explanation**: Pepper had run a long way, so he was breathing fast. 'Barking loudly' is wrong; the class heard scratching at the door, not barking.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### A8
+- **id**: g3-eng-reading-a-q08
+- **skill**: inference
+- **type**: comprehension
+- **difficulty**: hard
+- **stem**: Read Passage P2. How did Pepper MOST LIKELY get out of the house?
+- **options**:
+  - A) He jumped over a high wall.
+  - B) Joseph's father took him for a walk.
+  - C) Joseph left the gate open when he rushed out.
+  - D) Mrs. Pinto called him to school.
+- **hint**: Join two clues from the morning: what happened behind Joseph as he left the house, and the sound he heard at the corner.
+- **answer**: C
+- **explanation**: The gate swung open behind Joseph, and then he heard a 'woof' following him. 'He jumped over a high wall' is never mentioned in the story.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### A9
+- **id**: g3-eng-reading-a-q09
+- **skill**: detail-who
+- **type**: comprehension
+- **difficulty**: easy
+- **stem**: Read Passage P2. Who opened the classroom door when the class heard scratching?
+- **options**:
+  - A) Joseph
+  - B) Mrs. Pinto
+  - C) Joseph's father
+  - D) The watchman
+- **hint**: Read the sentence that comes right after the scratching sound at the door.
+- **answer**: B
+- **explanation**: The story says, 'Mrs. Pinto opened it.' 'Joseph' is tempting because Pepper is his puppy, but he did not open the door.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### A10
+- **id**: g3-eng-reading-a-q10
+- **skill**: detail-where
+- **type**: comprehension
+- **difficulty**: medium
+- **stem**: Read Passage P2. Where did Pepper stay until ten o'clock?
+- **options**:
+  - A) Under Joseph's desk
+  - B) On a mat near the door
+  - C) At the school gate
+  - D) On Mrs. Pinto's chair
+- **hint**: Look for what Mrs. Pinto let Pepper do after everyone giggled.
+- **answer**: B
+- **explanation**: Mrs. Pinto let Pepper lie quietly on a mat near the door. 'Under Joseph's desk' sounds likely for a pet, but the story does not say so.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### A11
+- **id**: g3-eng-reading-a-q11
+- **skill**: detail-when
+- **type**: comprehension
+- **difficulty**: easy
+- **stem**: Read Passage P3 (The Onam Flower Carpet). On which festival did the children make the pookalam?
+- **options**:
+  - A) Diwali
+  - B) Pongal
+  - C) Onam
+  - D) Holi
+- **hint**: Read the first few words of the story about the flower carpet.
+- **answer**: C
+- **explanation**: The story begins, 'On the morning of Onam'. 'Diwali' is tempting because homes are decorated then too, but this story names a different festival.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### A12
+- **id**: g3-eng-reading-a-q12
+- **skill**: vocabulary-in-context
+- **type**: vocabulary
+- **difficulty**: medium
+- **stem**: Read Passage P3. "A crow hopped across and scattered some petals." What does "scattered" mean here?
+- **options**:
+  - A) Ate them up
+  - B) Painted them black
+  - C) Counted them
+  - D) Moved them about in different directions
+- **hint**: Look at what Harini had to do with the petals after the crow hopped across.
+- **answer**: D
+- **explanation**: Harini pushed the petals back into place, so the crow had moved them about. 'Ate them up' is wrong; eaten petals could not be pushed back.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### A13
+- **id**: g3-eng-reading-a-q13
+- **skill**: character-inference
+- **type**: comprehension
+- **difficulty**: hard
+- **stem**: Read Passage P3. What does the story show about Harini?
+- **options**:
+  - A) She stays calm when something goes wrong.
+  - B) She gets angry very quickly.
+  - C) She does not like flowers.
+  - D) She wants to make the pookalam alone.
+- **hint**: Compare what Manu did and what Harini did when the crow spoiled the petals.
+- **answer**: A
+- **explanation**: Manu groaned, but Harini calmly fixed the petals. 'She gets angry very quickly' is wrong, because she did not groan or shout at all.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### A14
+- **id**: g3-eng-reading-a-q14
+- **skill**: sequence-picture
+- **type**: picture
+- **difficulty**: medium
+- **stem**: Read Passage P3 and look at the four pictures. Which picture shows the pookalam just BEFORE Appu added his leaf?
+
+**Diagram (SVG):**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 252" width="660" height="252" role="img" aria-label="Four numbered pictures of a flower carpet being made" font-family="Arial, Helvetica, sans-serif"><title>Four numbered pictures of a flower carpet being made</title><desc>Four pictures of a round flower carpet. Picture 1: a yellow outer ring, a white ring and a red centre, with nothing on top. Picture 2: only a chalk circle on the floor. Picture 3: yellow, white and red rings with a small green leaf in the very centre. Picture 4: only a yellow outer ring.</desc><rect x="0" y="0" width="660" height="252" fill="#ffffff"/><text x="330" y="28" font-size="20" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Four pictures of the flower carpet</text><rect x="20" y="44" width="150" height="170" rx="10" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2"/><circle cx="95" cy="126" r="58" fill="#fdd835" stroke="#ffffff" stroke-width="3"/><circle cx="95" cy="126" r="40" fill="#ffffff" stroke="#bdbdbd" stroke-width="2"/><circle cx="95" cy="126" r="22" fill="#d32f2f" stroke="#b71c1c" stroke-width="2"/><text x="95" y="238" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Picture 1</text><rect x="180" y="44" width="150" height="170" rx="10" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2"/><circle cx="255" cy="126" r="58" fill="none" stroke="#ffffff" stroke-width="4"/><text x="255" y="238" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Picture 2</text><rect x="340" y="44" width="150" height="170" rx="10" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2"/><circle cx="415" cy="126" r="58" fill="#fdd835" stroke="#ffffff" stroke-width="3"/><circle cx="415" cy="126" r="40" fill="#ffffff" stroke="#bdbdbd" stroke-width="2"/><circle cx="415" cy="126" r="22" fill="#d32f2f" stroke="#b71c1c" stroke-width="2"/><ellipse cx="415" cy="126" rx="5" ry="11" fill="#2e7d32" stroke="#1b5e20" stroke-width="1.5"/><text x="415" y="238" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Picture 3</text><rect x="500" y="44" width="150" height="170" rx="10" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2"/><circle cx="575" cy="126" r="58" fill="#fdd835" stroke="#ffffff" stroke-width="3"/><circle cx="575" cy="126" r="40" fill="#d7ccc8" stroke="#a1887f" stroke-width="1"/><text x="575" y="238" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Picture 4</text></svg>
+```
+
+- **alt**: Four numbered pictures of a round flower carpet: 1 has yellow, white and red rings; 2 has only a chalk circle; 3 has yellow, white and red rings with a green leaf in the centre; 4 has only a yellow outer ring.
+- **options**:
+  - A) Picture 3
+  - B) Picture 4
+  - C) Picture 2
+  - D) Picture 1
+- **hint**: Read what little Appu did 'at last', then find the picture of the pookalam one step earlier.
+- **answer**: D
+- **explanation**: Before the leaf, all three rings were done: yellow, white and red. 'Picture 3' is wrong because it already has the green leaf in the centre.
+- **pictorial**: yes
+- **olympiad_section**: reading
+
+### A15
+- **id**: g3-eng-reading-a-q15
+- **skill**: picture-count
+- **type**: picture
+- **difficulty**: easy
+- **stem**: Look at the picture of Lakeside Park. How many balloons is the balloon seller holding?
+
+**Diagram (SVG):**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="640" height="380" role="img" aria-label="Picture of an evening in Lakeside Park" font-family="Arial, Helvetica, sans-serif"><title>Picture of an evening in Lakeside Park</title><desc>A park beside a lake, with a clock on a pole. On the left is a tree with a nest and a bench under it, where an old man holds a printed sheet. In the middle a girl in a green frock jumps with a red rope. A boy in a yellow shirt holds a lead tied to a small brown animal. White birds float on the lake, and a man on the right holds a bunch of coloured balloons.</desc><rect x="0" y="0" width="640" height="380" fill="#ffffff"/><rect x="0" y="0" width="640" height="220" rx="0" fill="#d6efff" stroke="none" stroke-width="0"/><rect x="0" y="220" width="640" height="160" rx="0" fill="#b9e3a0" stroke="none" stroke-width="0"/><text x="320" y="28" font-size="20" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Lakeside Park</text><ellipse cx="480" cy="236" rx="145" ry="38" fill="#64b5f6" stroke="#1e5f99" stroke-width="2"/><ellipse cx="420" cy="236" rx="16" ry="9" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><circle cx="432" cy="226" r="7" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><polygon points="438,225 447,227 438,229" fill="#ff9800" stroke="#333333" stroke-width="1"/><ellipse cx="482" cy="248" rx="16" ry="9" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><circle cx="494" cy="238" r="7" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><polygon points="500,237 509,239 500,241" fill="#ff9800" stroke="#333333" stroke-width="1"/><ellipse cx="545" cy="232" rx="16" ry="9" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><circle cx="557" cy="222" r="7" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><polygon points="563,221 572,223 563,225" fill="#ff9800" stroke="#333333" stroke-width="1"/><rect x="62" y="110" width="24" height="160" rx="0" fill="#8d6e63" stroke="#4e342e" stroke-width="2"/><circle cx="74" cy="96" r="58" fill="#4caf50" stroke="#2e7d32" stroke-width="2"/><line x1="86" y1="120" x2="126" y2="92" stroke="#6d4c41" stroke-width="6" stroke-linecap="round"/><ellipse cx="128" cy="88" rx="22" ry="9" fill="#a1887f" stroke="#4e342e" stroke-width="2"/><ellipse cx="118" cy="76" rx="9" ry="6" fill="#6d4c41" stroke="#333333" stroke-width="1"/><circle cx="126" cy="71" r="4.5" fill="#6d4c41" stroke="#333333" stroke-width="1"/><polygon points="130,70 135,72 130,73" fill="#ffb300" stroke="#333333" stroke-width="1"/><ellipse cx="140" cy="76" rx="9" ry="6" fill="#6d4c41" stroke="#333333" stroke-width="1"/><circle cx="148" cy="71" r="4.5" fill="#6d4c41" stroke="#333333" stroke-width="1"/><polygon points="152,70 157,72 152,73" fill="#ffb300" stroke="#333333" stroke-width="1"/><rect x="30" y="290" width="150" height="10" rx="0" fill="#a1887f" stroke="#4e342e" stroke-width="2"/><rect x="30" y="262" width="150" height="8" rx="0" fill="#a1887f" stroke="#4e342e" stroke-width="2"/><line x1="40" y1="300" x2="40" y2="330" stroke="#4e342e" stroke-width="5" stroke-linecap="round"/><line x1="170" y1="300" x2="170" y2="330" stroke="#4e342e" stroke-width="5" stroke-linecap="round"/><rect x="92" y="238" width="30" height="52" rx="6" fill="#90caf9" stroke="#333333" stroke-width="2"/><circle cx="107" cy="224" r="14" fill="#c68642" stroke="#333333" stroke-width="1.5"/><path d="M93,221 Q107,202 121,221" fill="#bdbdbd" stroke="#9e9e9e" stroke-width="2" stroke-linecap="round"/><line x1="98" y1="300" x2="92" y2="328" stroke="#5d4037" stroke-width="6" stroke-linecap="round"/><line x1="116" y1="300" x2="122" y2="328" stroke="#5d4037" stroke-width="6" stroke-linecap="round"/><rect x="80" y="246" width="56" height="40" rx="0" fill="#eeeeee" stroke="#555555" stroke-width="2"/><line x1="86" y1="256" x2="130" y2="256" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="86" y1="264" x2="130" y2="264" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="86" y1="272" x2="130" y2="272" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="86" y1="280" x2="130" y2="280" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="232" y1="330" x2="232" y2="160" stroke="#555555" stroke-width="6" stroke-linecap="round"/><circle cx="232" cy="132" r="28" fill="#ffffff" stroke="#333333" stroke-width="3"/><line x1="232.0" y1="110.0" x2="232.0" y2="106.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="243.0" y1="112.94744111674234" x2="245.0" y2="109.48333950160459" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="251.05255888325766" y1="121.0" x2="254.5166604983954" y2="119.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="254.0" y1="132.0" x2="258.0" y2="132.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="251.05255888325766" y1="143.0" x2="254.5166604983954" y2="145.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="243.0" y1="151.05255888325766" x2="245.0" y2="154.5166604983954" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="232.0" y1="154.0" x2="232.0" y2="158.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="221.0" y1="151.05255888325766" x2="219.0" y2="154.5166604983954" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="212.94744111674237" y1="143.0" x2="209.4833395016046" y2="145.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="210.0" y1="132.0" x2="206.0" y2="132.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="212.94744111674234" y1="121.0" x2="209.4833395016046" y2="119.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="221.0" y1="112.94744111674235" x2="219.0" y2="109.4833395016046" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="232" y1="132" x2="239.0" y2="144.12435565298213" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/><line x1="232" y1="132" x2="232.0" y2="109.6" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/><circle cx="232" cy="132" r="3" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M290,270 Q330,140 370,270" fill="none" stroke="#e53935" stroke-width="3" stroke-linecap="round"/><line x1="322.0" y1="295.0" x2="320.0" y2="340" stroke="#c68642" stroke-width="6.0" stroke-linecap="round"/><line x1="338.0" y1="295.0" x2="340.0" y2="340" stroke="#c68642" stroke-width="6.0" stroke-linecap="round"/><polygon points="316.0,252.0 344.0,252.0 356.0,300.0 304.0,300.0" fill="#2e7d32" stroke="#333333" stroke-width="2"/><line x1="314.0" y1="256.0" x2="290.0" y2="270.0" stroke="#c68642" stroke-width="5.0" stroke-linecap="round"/><line x1="346.0" y1="256.0" x2="370.0" y2="270.0" stroke="#c68642" stroke-width="5.0" stroke-linecap="round"/><rect x="312.0" y="225.0" width="36.0" height="24.0" rx="8.0" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="1"/><circle cx="330" cy="235.0" r="14.0" fill="#c68642" stroke="#333333" stroke-width="1.5"/><path d="M316.0,232.0 Q330,211.0 344.0,232.0" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="2" stroke-linecap="round"/><circle cx="325.0" cy="236.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="335.0" cy="236.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M324.0,241.0 Q330,246.0 336.0,241.0" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/><line x1="402.4" y1="325.25" x2="400.5" y2="368" stroke="#37474f" stroke-width="5.699999999999999" stroke-linecap="round"/><line x1="417.6" y1="325.25" x2="419.5" y2="368" stroke="#37474f" stroke-width="5.699999999999999" stroke-linecap="round"/><rect x="394.8" y="282.5" width="30.4" height="45.599999999999994" rx="5.699999999999999" fill="#fdd835" stroke="#333333" stroke-width="2"/><line x1="394.8" y1="288.2" x2="385.3" y2="318.6" stroke="#a0522d" stroke-width="4.75" stroke-linecap="round"/><line x1="425.2" y1="288.2" x2="449.9" y2="280.6" stroke="#a0522d" stroke-width="4.75" stroke-linecap="round"/><circle cx="410" cy="268.25" r="13.299999999999999" fill="#a0522d" stroke="#333333" stroke-width="1.5"/><path d="M396.7,265.4 Q410,245.45 423.3,265.4" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="2" stroke-linecap="round"/><circle cx="405.25" cy="269.2" r="1.71" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="414.75" cy="269.2" r="1.71" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M404.3,273.95 Q410,278.7 415.7,273.95" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/><line x1="450" y1="281" x2="486" y2="334" stroke="#333333" stroke-width="2" stroke-linecap="round"/><ellipse cx="468" cy="346" rx="24" ry="11" fill="#8d5524" stroke="#333333" stroke-width="1.5"/><line x1="452" y1="354" x2="452" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><line x1="460" y1="354" x2="460" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><line x1="478" y1="354" x2="478" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><line x1="486" y1="354" x2="486" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><circle cx="494" cy="334" r="10" fill="#8d5524" stroke="#333333" stroke-width="1.5"/><ellipse cx="490" cy="328" rx="4" ry="8" fill="#5d3a1a" stroke="#333333" stroke-width="1"/><circle cx="498" cy="332" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="504" cy="337" r="2" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M444,342 Q434,328 438,324" fill="none" stroke="#8d5524" stroke-width="3" stroke-linecap="round"/><line x1="572.0" y1="315.0" x2="570.0" y2="360" stroke="#37474f" stroke-width="6.0" stroke-linecap="round"/><line x1="588.0" y1="315.0" x2="590.0" y2="360" stroke="#37474f" stroke-width="6.0" stroke-linecap="round"/><rect x="564.0" y="270.0" width="32.0" height="48.0" rx="6.0" fill="#8e24aa" stroke="#333333" stroke-width="2"/><line x1="596.0" y1="276.0" x2="606.0" y2="308.0" stroke="#b5651d" stroke-width="5.0" stroke-linecap="round"/><line x1="564.0" y1="276.0" x2="538.0" y2="268.0" stroke="#b5651d" stroke-width="5.0" stroke-linecap="round"/><circle cx="580" cy="255.0" r="14.0" fill="#b5651d" stroke="#333333" stroke-width="1.5"/><path d="M566.0,252.0 Q580,231.0 594.0,252.0" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="2" stroke-linecap="round"/><circle cx="575.0" cy="256.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="585.0" cy="256.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M574.0,261.0 Q580,266.0 586.0,261.0" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/><line x1="596" y1="276" x2="602" y2="220" stroke="#b5651d" stroke-width="5" stroke-linecap="round"/><line x1="602" y1="220" x2="560" y2="110" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="560" cy="92" rx="14" ry="18" fill="#e53935" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="590" y2="96" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="590" cy="78" rx="14" ry="18" fill="#1e88e5" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="620" y2="114" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="620" cy="96" rx="14" ry="18" fill="#fdd835" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="575" y2="138" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="575" cy="120" rx="14" ry="18" fill="#ec407a" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="607" y2="144" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="607" cy="126" rx="14" ry="18" fill="#fb8c00" stroke="#333333" stroke-width="1.5"/></svg>
+```
+
+- **alt**: A park beside a lake: an old man on a bench under a tree holding a printed sheet, small birds on a nest, a clock on a pole, a girl in a green frock with a red rope, a boy in a yellow shirt with a small brown animal on a lead, white birds floating on the lake, and a man holding a bunch of coloured balloons.
+- **options**:
+  - A) 5
+  - B) 4
+  - C) 6
+  - D) 3
+- **hint**: Point to each balloon the seller holds and count them one by one.
+- **answer**: A
+- **explanation**: There are five balloons: red, blue, yellow, pink and orange. '4' is tempting if you miss the pink one hiding lower down.
+- **pictorial**: yes
+- **olympiad_section**: reading
+
+### A16
+- **id**: g3-eng-reading-a-q16
+- **skill**: picture-action
+- **type**: picture
+- **difficulty**: medium
+- **stem**: Look at the picture of Lakeside Park. What is the girl in the green frock doing?
+
+**Diagram (SVG):**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="640" height="380" role="img" aria-label="Picture of an evening in Lakeside Park" font-family="Arial, Helvetica, sans-serif"><title>Picture of an evening in Lakeside Park</title><desc>A park beside a lake, with a clock on a pole. On the left is a tree with a nest and a bench under it, where an old man holds a printed sheet. In the middle a girl in a green frock jumps with a red rope. A boy in a yellow shirt holds a lead tied to a small brown animal. White birds float on the lake, and a man on the right holds a bunch of coloured balloons.</desc><rect x="0" y="0" width="640" height="380" fill="#ffffff"/><rect x="0" y="0" width="640" height="220" rx="0" fill="#d6efff" stroke="none" stroke-width="0"/><rect x="0" y="220" width="640" height="160" rx="0" fill="#b9e3a0" stroke="none" stroke-width="0"/><text x="320" y="28" font-size="20" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Lakeside Park</text><ellipse cx="480" cy="236" rx="145" ry="38" fill="#64b5f6" stroke="#1e5f99" stroke-width="2"/><ellipse cx="420" cy="236" rx="16" ry="9" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><circle cx="432" cy="226" r="7" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><polygon points="438,225 447,227 438,229" fill="#ff9800" stroke="#333333" stroke-width="1"/><ellipse cx="482" cy="248" rx="16" ry="9" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><circle cx="494" cy="238" r="7" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><polygon points="500,237 509,239 500,241" fill="#ff9800" stroke="#333333" stroke-width="1"/><ellipse cx="545" cy="232" rx="16" ry="9" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><circle cx="557" cy="222" r="7" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><polygon points="563,221 572,223 563,225" fill="#ff9800" stroke="#333333" stroke-width="1"/><rect x="62" y="110" width="24" height="160" rx="0" fill="#8d6e63" stroke="#4e342e" stroke-width="2"/><circle cx="74" cy="96" r="58" fill="#4caf50" stroke="#2e7d32" stroke-width="2"/><line x1="86" y1="120" x2="126" y2="92" stroke="#6d4c41" stroke-width="6" stroke-linecap="round"/><ellipse cx="128" cy="88" rx="22" ry="9" fill="#a1887f" stroke="#4e342e" stroke-width="2"/><ellipse cx="118" cy="76" rx="9" ry="6" fill="#6d4c41" stroke="#333333" stroke-width="1"/><circle cx="126" cy="71" r="4.5" fill="#6d4c41" stroke="#333333" stroke-width="1"/><polygon points="130,70 135,72 130,73" fill="#ffb300" stroke="#333333" stroke-width="1"/><ellipse cx="140" cy="76" rx="9" ry="6" fill="#6d4c41" stroke="#333333" stroke-width="1"/><circle cx="148" cy="71" r="4.5" fill="#6d4c41" stroke="#333333" stroke-width="1"/><polygon points="152,70 157,72 152,73" fill="#ffb300" stroke="#333333" stroke-width="1"/><rect x="30" y="290" width="150" height="10" rx="0" fill="#a1887f" stroke="#4e342e" stroke-width="2"/><rect x="30" y="262" width="150" height="8" rx="0" fill="#a1887f" stroke="#4e342e" stroke-width="2"/><line x1="40" y1="300" x2="40" y2="330" stroke="#4e342e" stroke-width="5" stroke-linecap="round"/><line x1="170" y1="300" x2="170" y2="330" stroke="#4e342e" stroke-width="5" stroke-linecap="round"/><rect x="92" y="238" width="30" height="52" rx="6" fill="#90caf9" stroke="#333333" stroke-width="2"/><circle cx="107" cy="224" r="14" fill="#c68642" stroke="#333333" stroke-width="1.5"/><path d="M93,221 Q107,202 121,221" fill="#bdbdbd" stroke="#9e9e9e" stroke-width="2" stroke-linecap="round"/><line x1="98" y1="300" x2="92" y2="328" stroke="#5d4037" stroke-width="6" stroke-linecap="round"/><line x1="116" y1="300" x2="122" y2="328" stroke="#5d4037" stroke-width="6" stroke-linecap="round"/><rect x="80" y="246" width="56" height="40" rx="0" fill="#eeeeee" stroke="#555555" stroke-width="2"/><line x1="86" y1="256" x2="130" y2="256" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="86" y1="264" x2="130" y2="264" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="86" y1="272" x2="130" y2="272" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="86" y1="280" x2="130" y2="280" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="232" y1="330" x2="232" y2="160" stroke="#555555" stroke-width="6" stroke-linecap="round"/><circle cx="232" cy="132" r="28" fill="#ffffff" stroke="#333333" stroke-width="3"/><line x1="232.0" y1="110.0" x2="232.0" y2="106.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="243.0" y1="112.94744111674234" x2="245.0" y2="109.48333950160459" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="251.05255888325766" y1="121.0" x2="254.5166604983954" y2="119.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="254.0" y1="132.0" x2="258.0" y2="132.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="251.05255888325766" y1="143.0" x2="254.5166604983954" y2="145.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="243.0" y1="151.05255888325766" x2="245.0" y2="154.5166604983954" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="232.0" y1="154.0" x2="232.0" y2="158.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="221.0" y1="151.05255888325766" x2="219.0" y2="154.5166604983954" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="212.94744111674237" y1="143.0" x2="209.4833395016046" y2="145.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="210.0" y1="132.0" x2="206.0" y2="132.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="212.94744111674234" y1="121.0" x2="209.4833395016046" y2="119.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="221.0" y1="112.94744111674235" x2="219.0" y2="109.4833395016046" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="232" y1="132" x2="239.0" y2="144.12435565298213" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/><line x1="232" y1="132" x2="232.0" y2="109.6" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/><circle cx="232" cy="132" r="3" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M290,270 Q330,140 370,270" fill="none" stroke="#e53935" stroke-width="3" stroke-linecap="round"/><line x1="322.0" y1="295.0" x2="320.0" y2="340" stroke="#c68642" stroke-width="6.0" stroke-linecap="round"/><line x1="338.0" y1="295.0" x2="340.0" y2="340" stroke="#c68642" stroke-width="6.0" stroke-linecap="round"/><polygon points="316.0,252.0 344.0,252.0 356.0,300.0 304.0,300.0" fill="#2e7d32" stroke="#333333" stroke-width="2"/><line x1="314.0" y1="256.0" x2="290.0" y2="270.0" stroke="#c68642" stroke-width="5.0" stroke-linecap="round"/><line x1="346.0" y1="256.0" x2="370.0" y2="270.0" stroke="#c68642" stroke-width="5.0" stroke-linecap="round"/><rect x="312.0" y="225.0" width="36.0" height="24.0" rx="8.0" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="1"/><circle cx="330" cy="235.0" r="14.0" fill="#c68642" stroke="#333333" stroke-width="1.5"/><path d="M316.0,232.0 Q330,211.0 344.0,232.0" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="2" stroke-linecap="round"/><circle cx="325.0" cy="236.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="335.0" cy="236.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M324.0,241.0 Q330,246.0 336.0,241.0" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/><line x1="402.4" y1="325.25" x2="400.5" y2="368" stroke="#37474f" stroke-width="5.699999999999999" stroke-linecap="round"/><line x1="417.6" y1="325.25" x2="419.5" y2="368" stroke="#37474f" stroke-width="5.699999999999999" stroke-linecap="round"/><rect x="394.8" y="282.5" width="30.4" height="45.599999999999994" rx="5.699999999999999" fill="#fdd835" stroke="#333333" stroke-width="2"/><line x1="394.8" y1="288.2" x2="385.3" y2="318.6" stroke="#a0522d" stroke-width="4.75" stroke-linecap="round"/><line x1="425.2" y1="288.2" x2="449.9" y2="280.6" stroke="#a0522d" stroke-width="4.75" stroke-linecap="round"/><circle cx="410" cy="268.25" r="13.299999999999999" fill="#a0522d" stroke="#333333" stroke-width="1.5"/><path d="M396.7,265.4 Q410,245.45 423.3,265.4" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="2" stroke-linecap="round"/><circle cx="405.25" cy="269.2" r="1.71" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="414.75" cy="269.2" r="1.71" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M404.3,273.95 Q410,278.7 415.7,273.95" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/><line x1="450" y1="281" x2="486" y2="334" stroke="#333333" stroke-width="2" stroke-linecap="round"/><ellipse cx="468" cy="346" rx="24" ry="11" fill="#8d5524" stroke="#333333" stroke-width="1.5"/><line x1="452" y1="354" x2="452" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><line x1="460" y1="354" x2="460" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><line x1="478" y1="354" x2="478" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><line x1="486" y1="354" x2="486" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><circle cx="494" cy="334" r="10" fill="#8d5524" stroke="#333333" stroke-width="1.5"/><ellipse cx="490" cy="328" rx="4" ry="8" fill="#5d3a1a" stroke="#333333" stroke-width="1"/><circle cx="498" cy="332" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="504" cy="337" r="2" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M444,342 Q434,328 438,324" fill="none" stroke="#8d5524" stroke-width="3" stroke-linecap="round"/><line x1="572.0" y1="315.0" x2="570.0" y2="360" stroke="#37474f" stroke-width="6.0" stroke-linecap="round"/><line x1="588.0" y1="315.0" x2="590.0" y2="360" stroke="#37474f" stroke-width="6.0" stroke-linecap="round"/><rect x="564.0" y="270.0" width="32.0" height="48.0" rx="6.0" fill="#8e24aa" stroke="#333333" stroke-width="2"/><line x1="596.0" y1="276.0" x2="606.0" y2="308.0" stroke="#b5651d" stroke-width="5.0" stroke-linecap="round"/><line x1="564.0" y1="276.0" x2="538.0" y2="268.0" stroke="#b5651d" stroke-width="5.0" stroke-linecap="round"/><circle cx="580" cy="255.0" r="14.0" fill="#b5651d" stroke="#333333" stroke-width="1.5"/><path d="M566.0,252.0 Q580,231.0 594.0,252.0" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="2" stroke-linecap="round"/><circle cx="575.0" cy="256.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="585.0" cy="256.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M574.0,261.0 Q580,266.0 586.0,261.0" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/><line x1="596" y1="276" x2="602" y2="220" stroke="#b5651d" stroke-width="5" stroke-linecap="round"/><line x1="602" y1="220" x2="560" y2="110" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="560" cy="92" rx="14" ry="18" fill="#e53935" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="590" y2="96" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="590" cy="78" rx="14" ry="18" fill="#1e88e5" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="620" y2="114" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="620" cy="96" rx="14" ry="18" fill="#fdd835" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="575" y2="138" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="575" cy="120" rx="14" ry="18" fill="#ec407a" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="607" y2="144" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="607" cy="126" rx="14" ry="18" fill="#fb8c00" stroke="#333333" stroke-width="1.5"/></svg>
+```
+
+- **alt**: A park beside a lake: an old man on a bench under a tree holding a printed sheet, small birds on a nest, a clock on a pole, a girl in a green frock with a red rope, a boy in a yellow shirt with a small brown animal on a lead, white birds floating on the lake, and a man holding a bunch of coloured balloons.
+- **options**:
+  - A) Flying a kite
+  - B) Skipping with a rope
+  - C) Feeding the ducks
+  - D) Selling balloons
+- **hint**: Look at what the girl in the green frock holds in her hands and where it swings.
+- **answer**: B
+- **explanation**: A rope swings over her head as she jumps, so she is skipping. 'Flying a kite' is wrong; there is no kite in the sky.
+- **pictorial**: yes
+- **olympiad_section**: reading
+
+### A17
+- **id**: g3-eng-reading-a-q17
+- **skill**: picture-where
+- **type**: picture
+- **difficulty**: easy
+- **stem**: Look at the picture of Lakeside Park. Where is the old man sitting?
+
+**Diagram (SVG):**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="640" height="380" role="img" aria-label="Picture of an evening in Lakeside Park" font-family="Arial, Helvetica, sans-serif"><title>Picture of an evening in Lakeside Park</title><desc>A park beside a lake, with a clock on a pole. On the left is a tree with a nest and a bench under it, where an old man holds a printed sheet. In the middle a girl in a green frock jumps with a red rope. A boy in a yellow shirt holds a lead tied to a small brown animal. White birds float on the lake, and a man on the right holds a bunch of coloured balloons.</desc><rect x="0" y="0" width="640" height="380" fill="#ffffff"/><rect x="0" y="0" width="640" height="220" rx="0" fill="#d6efff" stroke="none" stroke-width="0"/><rect x="0" y="220" width="640" height="160" rx="0" fill="#b9e3a0" stroke="none" stroke-width="0"/><text x="320" y="28" font-size="20" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Lakeside Park</text><ellipse cx="480" cy="236" rx="145" ry="38" fill="#64b5f6" stroke="#1e5f99" stroke-width="2"/><ellipse cx="420" cy="236" rx="16" ry="9" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><circle cx="432" cy="226" r="7" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><polygon points="438,225 447,227 438,229" fill="#ff9800" stroke="#333333" stroke-width="1"/><ellipse cx="482" cy="248" rx="16" ry="9" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><circle cx="494" cy="238" r="7" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><polygon points="500,237 509,239 500,241" fill="#ff9800" stroke="#333333" stroke-width="1"/><ellipse cx="545" cy="232" rx="16" ry="9" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><circle cx="557" cy="222" r="7" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><polygon points="563,221 572,223 563,225" fill="#ff9800" stroke="#333333" stroke-width="1"/><rect x="62" y="110" width="24" height="160" rx="0" fill="#8d6e63" stroke="#4e342e" stroke-width="2"/><circle cx="74" cy="96" r="58" fill="#4caf50" stroke="#2e7d32" stroke-width="2"/><line x1="86" y1="120" x2="126" y2="92" stroke="#6d4c41" stroke-width="6" stroke-linecap="round"/><ellipse cx="128" cy="88" rx="22" ry="9" fill="#a1887f" stroke="#4e342e" stroke-width="2"/><ellipse cx="118" cy="76" rx="9" ry="6" fill="#6d4c41" stroke="#333333" stroke-width="1"/><circle cx="126" cy="71" r="4.5" fill="#6d4c41" stroke="#333333" stroke-width="1"/><polygon points="130,70 135,72 130,73" fill="#ffb300" stroke="#333333" stroke-width="1"/><ellipse cx="140" cy="76" rx="9" ry="6" fill="#6d4c41" stroke="#333333" stroke-width="1"/><circle cx="148" cy="71" r="4.5" fill="#6d4c41" stroke="#333333" stroke-width="1"/><polygon points="152,70 157,72 152,73" fill="#ffb300" stroke="#333333" stroke-width="1"/><rect x="30" y="290" width="150" height="10" rx="0" fill="#a1887f" stroke="#4e342e" stroke-width="2"/><rect x="30" y="262" width="150" height="8" rx="0" fill="#a1887f" stroke="#4e342e" stroke-width="2"/><line x1="40" y1="300" x2="40" y2="330" stroke="#4e342e" stroke-width="5" stroke-linecap="round"/><line x1="170" y1="300" x2="170" y2="330" stroke="#4e342e" stroke-width="5" stroke-linecap="round"/><rect x="92" y="238" width="30" height="52" rx="6" fill="#90caf9" stroke="#333333" stroke-width="2"/><circle cx="107" cy="224" r="14" fill="#c68642" stroke="#333333" stroke-width="1.5"/><path d="M93,221 Q107,202 121,221" fill="#bdbdbd" stroke="#9e9e9e" stroke-width="2" stroke-linecap="round"/><line x1="98" y1="300" x2="92" y2="328" stroke="#5d4037" stroke-width="6" stroke-linecap="round"/><line x1="116" y1="300" x2="122" y2="328" stroke="#5d4037" stroke-width="6" stroke-linecap="round"/><rect x="80" y="246" width="56" height="40" rx="0" fill="#eeeeee" stroke="#555555" stroke-width="2"/><line x1="86" y1="256" x2="130" y2="256" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="86" y1="264" x2="130" y2="264" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="86" y1="272" x2="130" y2="272" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="86" y1="280" x2="130" y2="280" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="232" y1="330" x2="232" y2="160" stroke="#555555" stroke-width="6" stroke-linecap="round"/><circle cx="232" cy="132" r="28" fill="#ffffff" stroke="#333333" stroke-width="3"/><line x1="232.0" y1="110.0" x2="232.0" y2="106.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="243.0" y1="112.94744111674234" x2="245.0" y2="109.48333950160459" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="251.05255888325766" y1="121.0" x2="254.5166604983954" y2="119.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="254.0" y1="132.0" x2="258.0" y2="132.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="251.05255888325766" y1="143.0" x2="254.5166604983954" y2="145.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="243.0" y1="151.05255888325766" x2="245.0" y2="154.5166604983954" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="232.0" y1="154.0" x2="232.0" y2="158.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="221.0" y1="151.05255888325766" x2="219.0" y2="154.5166604983954" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="212.94744111674237" y1="143.0" x2="209.4833395016046" y2="145.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="210.0" y1="132.0" x2="206.0" y2="132.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="212.94744111674234" y1="121.0" x2="209.4833395016046" y2="119.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="221.0" y1="112.94744111674235" x2="219.0" y2="109.4833395016046" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="232" y1="132" x2="239.0" y2="144.12435565298213" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/><line x1="232" y1="132" x2="232.0" y2="109.6" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/><circle cx="232" cy="132" r="3" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M290,270 Q330,140 370,270" fill="none" stroke="#e53935" stroke-width="3" stroke-linecap="round"/><line x1="322.0" y1="295.0" x2="320.0" y2="340" stroke="#c68642" stroke-width="6.0" stroke-linecap="round"/><line x1="338.0" y1="295.0" x2="340.0" y2="340" stroke="#c68642" stroke-width="6.0" stroke-linecap="round"/><polygon points="316.0,252.0 344.0,252.0 356.0,300.0 304.0,300.0" fill="#2e7d32" stroke="#333333" stroke-width="2"/><line x1="314.0" y1="256.0" x2="290.0" y2="270.0" stroke="#c68642" stroke-width="5.0" stroke-linecap="round"/><line x1="346.0" y1="256.0" x2="370.0" y2="270.0" stroke="#c68642" stroke-width="5.0" stroke-linecap="round"/><rect x="312.0" y="225.0" width="36.0" height="24.0" rx="8.0" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="1"/><circle cx="330" cy="235.0" r="14.0" fill="#c68642" stroke="#333333" stroke-width="1.5"/><path d="M316.0,232.0 Q330,211.0 344.0,232.0" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="2" stroke-linecap="round"/><circle cx="325.0" cy="236.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="335.0" cy="236.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M324.0,241.0 Q330,246.0 336.0,241.0" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/><line x1="402.4" y1="325.25" x2="400.5" y2="368" stroke="#37474f" stroke-width="5.699999999999999" stroke-linecap="round"/><line x1="417.6" y1="325.25" x2="419.5" y2="368" stroke="#37474f" stroke-width="5.699999999999999" stroke-linecap="round"/><rect x="394.8" y="282.5" width="30.4" height="45.599999999999994" rx="5.699999999999999" fill="#fdd835" stroke="#333333" stroke-width="2"/><line x1="394.8" y1="288.2" x2="385.3" y2="318.6" stroke="#a0522d" stroke-width="4.75" stroke-linecap="round"/><line x1="425.2" y1="288.2" x2="449.9" y2="280.6" stroke="#a0522d" stroke-width="4.75" stroke-linecap="round"/><circle cx="410" cy="268.25" r="13.299999999999999" fill="#a0522d" stroke="#333333" stroke-width="1.5"/><path d="M396.7,265.4 Q410,245.45 423.3,265.4" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="2" stroke-linecap="round"/><circle cx="405.25" cy="269.2" r="1.71" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="414.75" cy="269.2" r="1.71" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M404.3,273.95 Q410,278.7 415.7,273.95" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/><line x1="450" y1="281" x2="486" y2="334" stroke="#333333" stroke-width="2" stroke-linecap="round"/><ellipse cx="468" cy="346" rx="24" ry="11" fill="#8d5524" stroke="#333333" stroke-width="1.5"/><line x1="452" y1="354" x2="452" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><line x1="460" y1="354" x2="460" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><line x1="478" y1="354" x2="478" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><line x1="486" y1="354" x2="486" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><circle cx="494" cy="334" r="10" fill="#8d5524" stroke="#333333" stroke-width="1.5"/><ellipse cx="490" cy="328" rx="4" ry="8" fill="#5d3a1a" stroke="#333333" stroke-width="1"/><circle cx="498" cy="332" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="504" cy="337" r="2" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M444,342 Q434,328 438,324" fill="none" stroke="#8d5524" stroke-width="3" stroke-linecap="round"/><line x1="572.0" y1="315.0" x2="570.0" y2="360" stroke="#37474f" stroke-width="6.0" stroke-linecap="round"/><line x1="588.0" y1="315.0" x2="590.0" y2="360" stroke="#37474f" stroke-width="6.0" stroke-linecap="round"/><rect x="564.0" y="270.0" width="32.0" height="48.0" rx="6.0" fill="#8e24aa" stroke="#333333" stroke-width="2"/><line x1="596.0" y1="276.0" x2="606.0" y2="308.0" stroke="#b5651d" stroke-width="5.0" stroke-linecap="round"/><line x1="564.0" y1="276.0" x2="538.0" y2="268.0" stroke="#b5651d" stroke-width="5.0" stroke-linecap="round"/><circle cx="580" cy="255.0" r="14.0" fill="#b5651d" stroke="#333333" stroke-width="1.5"/><path d="M566.0,252.0 Q580,231.0 594.0,252.0" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="2" stroke-linecap="round"/><circle cx="575.0" cy="256.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="585.0" cy="256.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M574.0,261.0 Q580,266.0 586.0,261.0" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/><line x1="596" y1="276" x2="602" y2="220" stroke="#b5651d" stroke-width="5" stroke-linecap="round"/><line x1="602" y1="220" x2="560" y2="110" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="560" cy="92" rx="14" ry="18" fill="#e53935" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="590" y2="96" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="590" cy="78" rx="14" ry="18" fill="#1e88e5" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="620" y2="114" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="620" cy="96" rx="14" ry="18" fill="#fdd835" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="575" y2="138" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="575" cy="120" rx="14" ry="18" fill="#ec407a" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="607" y2="144" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="607" cy="126" rx="14" ry="18" fill="#fb8c00" stroke="#333333" stroke-width="1.5"/></svg>
+```
+
+- **alt**: A park beside a lake: an old man on a bench under a tree holding a printed sheet, small birds on a nest, a clock on a pole, a girl in a green frock with a red rope, a boy in a yellow shirt with a small brown animal on a lead, white birds floating on the lake, and a man holding a bunch of coloured balloons.
+- **options**:
+  - A) On the grass by the lake
+  - B) Next to the balloon seller
+  - C) On a bench under the tree
+  - D) On a swing
+- **hint**: Find the old man in the picture and look at what is below him and above him.
+- **answer**: C
+- **explanation**: He sits on a bench in the shade of the tree. 'On the grass by the lake' is wrong; the lake is on the other side of the park.
+- **pictorial**: yes
+- **olympiad_section**: reading
+
+### A18
+- **id**: g3-eng-reading-a-q18
+- **skill**: timetable
+- **type**: timetable
+- **difficulty**: easy
+- **stem**: Look at the Mela Special Bus timetable. At what time does Bus 1 leave the Bus Stand?
+
+**Diagram (SVG):**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" width="580" height="300" role="img" aria-label="Mela Special Bus timetable for Sunday" font-family="Arial, Helvetica, sans-serif"><title>Mela Special Bus timetable for Sunday</title><desc>A timetable with two buses. Bus 1: Bus Stand 3:00, Post Office 3:15, Lake Gate 3:30, Mela Ground 3:50. Bus 2: Bus Stand 5:00, Post Office 5:15, Lake Gate 5:30, Mela Ground 5:50. Last bus back from Mela Ground: 9:00 p.m.</desc><rect x="0" y="0" width="580" height="300" fill="#fffdf7"/><text x="290" y="32" font-size="22" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Mela Special Bus — Sunday</text><rect x="30" y="50" width="200" height="40" rx="0" fill="#ffe0b2" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="76" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Stop</text><rect x="230" y="50" width="160" height="40" rx="0" fill="#ffe0b2" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="76" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Bus 1</text><rect x="390" y="50" width="160" height="40" rx="0" fill="#ffe0b2" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="76" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Bus 2</text><rect x="30" y="90" width="200" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="116" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Bus Stand</text><rect x="230" y="90" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="116" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:00</text><rect x="390" y="90" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="116" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:00</text><rect x="30" y="130" width="200" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="156" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Post Office</text><rect x="230" y="130" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="156" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:15</text><rect x="390" y="130" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="156" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:15</text><rect x="30" y="170" width="200" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="196" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Lake Gate</text><rect x="230" y="170" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="196" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:30</text><rect x="390" y="170" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="196" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:30</text><rect x="30" y="210" width="200" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="236" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Mela Ground</text><rect x="230" y="210" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="236" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:50</text><rect x="390" y="210" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="236" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:50</text><text x="290" y="284" font-size="17" text-anchor="middle" font-weight="normal" fill="#4e342e">Last bus back from Mela Ground: 9:00 p.m.</text></svg>
+```
+
+- **alt**: Mela Special Bus timetable (Sunday). Bus 1: Bus Stand 3:00, Post Office 3:15, Lake Gate 3:30, Mela Ground 3:50. Bus 2: Bus Stand 5:00, Post Office 5:15, Lake Gate 5:30, Mela Ground 5:50. Last bus back from Mela Ground: 9:00 p.m.
+- **options**:
+  - A) 5:00
+  - B) 3:15
+  - C) 3:50
+  - D) 3:00
+- **hint**: Find the Bus Stand row, then move across to the Bus 1 column.
+- **answer**: D
+- **explanation**: The Bus Stand row under Bus 1 shows 3:00. '5:00' is the time for Bus 2, the second bus.
+- **pictorial**: yes
+- **olympiad_section**: reading
+
+### A19
+- **id**: g3-eng-reading-a-q19
+- **skill**: timetable
+- **type**: timetable
+- **difficulty**: medium
+- **stem**: Look at the Mela Special Bus timetable. Which stop comes just before Mela Ground?
+
+**Diagram (SVG):**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" width="580" height="300" role="img" aria-label="Mela Special Bus timetable for Sunday" font-family="Arial, Helvetica, sans-serif"><title>Mela Special Bus timetable for Sunday</title><desc>A timetable with two buses. Bus 1: Bus Stand 3:00, Post Office 3:15, Lake Gate 3:30, Mela Ground 3:50. Bus 2: Bus Stand 5:00, Post Office 5:15, Lake Gate 5:30, Mela Ground 5:50. Last bus back from Mela Ground: 9:00 p.m.</desc><rect x="0" y="0" width="580" height="300" fill="#fffdf7"/><text x="290" y="32" font-size="22" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Mela Special Bus — Sunday</text><rect x="30" y="50" width="200" height="40" rx="0" fill="#ffe0b2" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="76" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Stop</text><rect x="230" y="50" width="160" height="40" rx="0" fill="#ffe0b2" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="76" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Bus 1</text><rect x="390" y="50" width="160" height="40" rx="0" fill="#ffe0b2" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="76" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Bus 2</text><rect x="30" y="90" width="200" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="116" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Bus Stand</text><rect x="230" y="90" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="116" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:00</text><rect x="390" y="90" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="116" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:00</text><rect x="30" y="130" width="200" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="156" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Post Office</text><rect x="230" y="130" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="156" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:15</text><rect x="390" y="130" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="156" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:15</text><rect x="30" y="170" width="200" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="196" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Lake Gate</text><rect x="230" y="170" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="196" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:30</text><rect x="390" y="170" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="196" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:30</text><rect x="30" y="210" width="200" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="236" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Mela Ground</text><rect x="230" y="210" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="236" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:50</text><rect x="390" y="210" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="236" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:50</text><text x="290" y="284" font-size="17" text-anchor="middle" font-weight="normal" fill="#4e342e">Last bus back from Mela Ground: 9:00 p.m.</text></svg>
+```
+
+- **alt**: Mela Special Bus timetable (Sunday). Bus 1: Bus Stand 3:00, Post Office 3:15, Lake Gate 3:30, Mela Ground 3:50. Bus 2: Bus Stand 5:00, Post Office 5:15, Lake Gate 5:30, Mela Ground 5:50. Last bus back from Mela Ground: 9:00 p.m.
+- **options**:
+  - A) Lake Gate
+  - B) Post Office
+  - C) Bus Stand
+  - D) Railway Station
+- **hint**: Read the stops from top to bottom and find the one sitting right above Mela Ground.
+- **answer**: A
+- **explanation**: The bus goes Bus Stand, Post Office, Lake Gate and then Mela Ground. 'Post Office' comes two stops before, not just before.
+- **pictorial**: yes
+- **olympiad_section**: reading
+
+### A20
+- **id**: g3-eng-reading-a-q20
+- **skill**: timetable-reasoning
+- **type**: timetable
+- **difficulty**: hard
+- **stem**: Look at the Mela Special Bus timetable. Zoya reaches the Post Office stop at 3:20. Which bus can she catch, and when will she reach Mela Ground?
+
+**Diagram (SVG):**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" width="580" height="300" role="img" aria-label="Mela Special Bus timetable for Sunday" font-family="Arial, Helvetica, sans-serif"><title>Mela Special Bus timetable for Sunday</title><desc>A timetable with two buses. Bus 1: Bus Stand 3:00, Post Office 3:15, Lake Gate 3:30, Mela Ground 3:50. Bus 2: Bus Stand 5:00, Post Office 5:15, Lake Gate 5:30, Mela Ground 5:50. Last bus back from Mela Ground: 9:00 p.m.</desc><rect x="0" y="0" width="580" height="300" fill="#fffdf7"/><text x="290" y="32" font-size="22" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Mela Special Bus — Sunday</text><rect x="30" y="50" width="200" height="40" rx="0" fill="#ffe0b2" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="76" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Stop</text><rect x="230" y="50" width="160" height="40" rx="0" fill="#ffe0b2" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="76" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Bus 1</text><rect x="390" y="50" width="160" height="40" rx="0" fill="#ffe0b2" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="76" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Bus 2</text><rect x="30" y="90" width="200" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="116" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Bus Stand</text><rect x="230" y="90" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="116" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:00</text><rect x="390" y="90" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="116" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:00</text><rect x="30" y="130" width="200" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="156" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Post Office</text><rect x="230" y="130" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="156" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:15</text><rect x="390" y="130" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="156" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:15</text><rect x="30" y="170" width="200" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="196" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Lake Gate</text><rect x="230" y="170" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="196" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:30</text><rect x="390" y="170" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="196" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:30</text><rect x="30" y="210" width="200" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="236" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Mela Ground</text><rect x="230" y="210" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="236" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:50</text><rect x="390" y="210" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="236" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:50</text><text x="290" y="284" font-size="17" text-anchor="middle" font-weight="normal" fill="#4e342e">Last bus back from Mela Ground: 9:00 p.m.</text></svg>
+```
+
+- **alt**: Mela Special Bus timetable (Sunday). Bus 1: Bus Stand 3:00, Post Office 3:15, Lake Gate 3:30, Mela Ground 3:50. Bus 2: Bus Stand 5:00, Post Office 5:15, Lake Gate 5:30, Mela Ground 5:50. Last bus back from Mela Ground: 9:00 p.m.
+- **options**:
+  - A) Bus 1, reaching Mela Ground at 3:50
+  - B) Bus 2, reaching Mela Ground at 5:15
+  - C) Bus 2, reaching Mela Ground at 5:50
+  - D) Bus 1, reaching Mela Ground at 3:30
+- **hint**: Compare 3:20 with the time the first bus leaves the Post Office, then follow the next bus down to the last stop.
+- **answer**: C
+- **explanation**: Bus 1 left the Post Office at 3:15, so Zoya missed it. Bus 2 comes at 5:15 and reaches Mela Ground at 5:50. 'Bus 1, reaching Mela Ground at 3:50' has already gone.
+- **pictorial**: yes
+- **olympiad_section**: reading
+
+### A21
+- **id**: g3-eng-reading-a-q21
+- **skill**: message-detail
+- **type**: message
+- **difficulty**: easy
+- **stem**: Read Passage P6 (the note on the fridge). Where has Mumma gone?
+- **options**:
+  - A) To Aunty Leela's house next door
+  - B) To the sweet shop
+  - C) To Sneha's school
+  - D) To the market
+- **hint**: Read the first line of Mumma's note after Sneha's name.
+- **answer**: A
+- **explanation**: Mumma went to help Aunty Leela next door. 'To the sweet shop' is tempting because the note talks about sweets, but she is making them at Aunty Leela's.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### A22
+- **id**: g3-eng-reading-a-q22
+- **skill**: message-inference
+- **type**: message
+- **difficulty**: hard
+- **stem**: Read Passage P6. Who or what is Bubbles?
+- **options**:
+  - A) Sneha's baby brother
+  - B) A pet fish in a glass tank
+  - C) A pet dog
+  - D) A parrot in a cage
+- **hint**: Use two clues from the note: how much food Bubbles gets, and what Sneha must not tap on.
+- **answer**: B
+- **explanation**: Bubbles gets just a pinch of food, and tapping on the glass scares him, so he lives in a glass tank. 'A parrot in a cage' fails, as cages are not glass.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### A23
+- **id**: g3-eng-reading-a-q23
+- **skill**: invitation-detail
+- **type**: invitation
+- **difficulty**: easy
+- **stem**: Look at Tenzin's invitation card. How old will Tenzin be on his birthday?
+
+**Diagram (SVG):**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 400" width="580" height="400" role="img" aria-label="A birthday invitation card from Tenzin" font-family="Arial, Helvetica, sans-serif"><title>A birthday invitation card from Tenzin</title><desc>A birthday invitation card with balloons. You are invited! Tenzin is turning 8! Cake, games and a puppet show Day: Sunday, 22 November Time: 4 p.m. to 7 p.m. Place: Hill View House, Gangtok Please wear something blue! Tell Tenzin&#x27;s mother by Thursday if you can come.</desc><rect x="0" y="0" width="580" height="400" fill="#ffffff"/><rect x="14" y="14" width="552" height="372" rx="16" fill="#e3f2fd" stroke="#1565c0" stroke-width="4"/><rect x="26" y="26" width="528" height="348" rx="12" fill="none" stroke="#90caf9" stroke-width="2"/><ellipse cx="62" cy="70" rx="14" ry="18" fill="#e53935" stroke="#333333" stroke-width="1.5"/><line x1="62" y1="88" x2="66" y2="130" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="90" cy="56" rx="14" ry="18" fill="#fdd835" stroke="#333333" stroke-width="1.5"/><line x1="90" y1="74" x2="94" y2="116" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="500" cy="64" rx="14" ry="18" fill="#43a047" stroke="#333333" stroke-width="1.5"/><line x1="500" y1="82" x2="504" y2="124" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="526" cy="80" rx="14" ry="18" fill="#8e24aa" stroke="#333333" stroke-width="1.5"/><line x1="526" y1="98" x2="530" y2="140" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><text x="290" y="70" font-size="26" text-anchor="middle" font-weight="bold" fill="#0d2c54">You are invited!</text><text x="290" y="111" font-size="22" text-anchor="middle" font-weight="bold" fill="#0d2c54">Tenzin is turning 8!</text><text x="290" y="148" font-size="18" text-anchor="middle" font-weight="normal" fill="#0d2c54">Cake, games and a puppet show</text><text x="290" y="181" font-size="18" text-anchor="middle" font-weight="normal" fill="#0d2c54">Day: Sunday, 22 November</text><text x="290" y="214" font-size="18" text-anchor="middle" font-weight="normal" fill="#0d2c54">Time: 4 p.m. to 7 p.m.</text><text x="290" y="247" font-size="18" text-anchor="middle" font-weight="normal" fill="#0d2c54">Place: Hill View House, Gangtok</text><text x="290" y="280" font-size="18" text-anchor="middle" font-weight="bold" fill="#0d2c54">Please wear something blue!</text><text x="290" y="313" font-size="17" text-anchor="middle" font-weight="normal" fill="#0d2c54">Tell Tenzin&#x27;s mother by Thursday</text><text x="290" y="345" font-size="17" text-anchor="middle" font-weight="normal" fill="#0d2c54">if you can come.</text></svg>
+```
+
+- **alt**: Invitation card: You are invited! Tenzin is turning 8! Cake, games and a puppet show Day: Sunday, 22 November Time: 4 p.m. to 7 p.m. Place: Hill View House, Gangtok Please wear something blue! Tell Tenzin's mother by Thursday if you can come.
+- **options**:
+  - A) 7
+  - B) 4
+  - C) 22
+  - D) 8
+- **hint**: Read the second line of the invitation card, just under the words 'You are invited!'
+- **answer**: D
+- **explanation**: The card says, 'Tenzin is turning 8!' '22' is the date in November, not Tenzin's age.
+- **pictorial**: yes
+- **olympiad_section**: reading
+
+### A24
+- **id**: g3-eng-reading-a-q24
+- **skill**: invitation-detail
+- **type**: invitation
+- **difficulty**: medium
+- **stem**: Look at Tenzin's invitation card. What must the guests remember to wear?
+
+**Diagram (SVG):**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 400" width="580" height="400" role="img" aria-label="A birthday invitation card from Tenzin" font-family="Arial, Helvetica, sans-serif"><title>A birthday invitation card from Tenzin</title><desc>A birthday invitation card with balloons. You are invited! Tenzin is turning 8! Cake, games and a puppet show Day: Sunday, 22 November Time: 4 p.m. to 7 p.m. Place: Hill View House, Gangtok Please wear something blue! Tell Tenzin&#x27;s mother by Thursday if you can come.</desc><rect x="0" y="0" width="580" height="400" fill="#ffffff"/><rect x="14" y="14" width="552" height="372" rx="16" fill="#e3f2fd" stroke="#1565c0" stroke-width="4"/><rect x="26" y="26" width="528" height="348" rx="12" fill="none" stroke="#90caf9" stroke-width="2"/><ellipse cx="62" cy="70" rx="14" ry="18" fill="#e53935" stroke="#333333" stroke-width="1.5"/><line x1="62" y1="88" x2="66" y2="130" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="90" cy="56" rx="14" ry="18" fill="#fdd835" stroke="#333333" stroke-width="1.5"/><line x1="90" y1="74" x2="94" y2="116" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="500" cy="64" rx="14" ry="18" fill="#43a047" stroke="#333333" stroke-width="1.5"/><line x1="500" y1="82" x2="504" y2="124" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="526" cy="80" rx="14" ry="18" fill="#8e24aa" stroke="#333333" stroke-width="1.5"/><line x1="526" y1="98" x2="530" y2="140" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><text x="290" y="70" font-size="26" text-anchor="middle" font-weight="bold" fill="#0d2c54">You are invited!</text><text x="290" y="111" font-size="22" text-anchor="middle" font-weight="bold" fill="#0d2c54">Tenzin is turning 8!</text><text x="290" y="148" font-size="18" text-anchor="middle" font-weight="normal" fill="#0d2c54">Cake, games and a puppet show</text><text x="290" y="181" font-size="18" text-anchor="middle" font-weight="normal" fill="#0d2c54">Day: Sunday, 22 November</text><text x="290" y="214" font-size="18" text-anchor="middle" font-weight="normal" fill="#0d2c54">Time: 4 p.m. to 7 p.m.</text><text x="290" y="247" font-size="18" text-anchor="middle" font-weight="normal" fill="#0d2c54">Place: Hill View House, Gangtok</text><text x="290" y="280" font-size="18" text-anchor="middle" font-weight="bold" fill="#0d2c54">Please wear something blue!</text><text x="290" y="313" font-size="17" text-anchor="middle" font-weight="normal" fill="#0d2c54">Tell Tenzin&#x27;s mother by Thursday</text><text x="290" y="345" font-size="17" text-anchor="middle" font-weight="normal" fill="#0d2c54">if you can come.</text></svg>
+```
+
+- **alt**: Invitation card: You are invited! Tenzin is turning 8! Cake, games and a puppet show Day: Sunday, 22 November Time: 4 p.m. to 7 p.m. Place: Hill View House, Gangtok Please wear something blue! Tell Tenzin's mother by Thursday if you can come.
+- **options**:
+  - A) Something red
+  - B) A party hat
+  - C) Sports shoes
+  - D) Something blue
+- **hint**: Find the line on the invitation card that begins with 'Please wear'.
+- **answer**: D
+- **explanation**: The card asks guests to wear something blue. 'A party hat' may sound right for a birthday, but the card does not ask for one.
+- **pictorial**: yes
+- **olympiad_section**: reading
+
+## Practice Set B
+
+### B1
+- **id**: g3-eng-reading-b-q01
+- **skill**: detail-where
+- **type**: comprehension
+- **difficulty**: easy
+- **stem**: Read Passage P1 (The Seed Balls). Where did Bhavya and Thatha throw the seed balls?
+- **options**:
+  - A) In their own garden
+  - B) On the empty ground behind the bus depot
+  - C) Near Bhavya's school
+  - D) On the river bank
+- **hint**: Read what Bhavya and Thatha did on Monday evening.
+- **answer**: B
+- **explanation**: They walked to the empty ground behind the bus depot. 'In their own garden' is wrong, because they walked away from home to throw them.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### B2
+- **id**: g3-eng-reading-b-q02
+- **skill**: detail-why
+- **type**: comprehension
+- **difficulty**: medium
+- **stem**: Read Passage P1. Why were the seed balls left in the shade for two days?
+- **options**:
+  - A) To let them grow leaves
+  - B) To keep them hidden from crows
+  - C) To make them cold
+  - D) To let them dry
+- **hint**: Find the word 'shade' in the story and read to the end of that sentence.
+- **answer**: D
+- **explanation**: The story says they were left in the shade for two days to dry. 'To let them grow leaves' is wrong; leaves came weeks later, after rain.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### B3
+- **id**: g3-eng-reading-b-q03
+- **skill**: main-idea
+- **type**: comprehension
+- **difficulty**: medium
+- **stem**: Read Passage P1. What is the story MOSTLY about?
+- **options**:
+  - A) A girl who loves to play with mud
+  - B) A grandfather who works at a bus depot
+  - C) A girl and her grandfather making seed balls that later sprout
+  - D) A family going out in the heavy rain
+- **hint**: Think about what Bhavya and Thatha make at the start of the story and what Bhavya finds at the end.
+- **answer**: C
+- **explanation**: From start to end, the story follows the seed balls until they sprout. 'A girl who loves to play with mud' tells only one small part.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### B4
+- **id**: g3-eng-reading-b-q04
+- **skill**: inference
+- **type**: comprehension
+- **difficulty**: hard
+- **stem**: Read Passage P1. Thatha said, "Now the rain will do the rest." What did he mean?
+- **options**:
+  - A) Rain will wash all the balls away.
+  - B) Rain will make the ground too wet to walk on.
+  - C) Rain water will help the seeds sprout.
+  - D) They must come back and water the balls daily.
+- **hint**: Join Thatha's words about the rain with what happened to the ground after the first heavy showers.
+- **answer**: C
+- **explanation**: Seeds need water, and the leaves came up right after the showers. 'Rain will wash all the balls away' is wrong, because plants grew where they threw them.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### B5
+- **id**: g3-eng-reading-b-q05
+- **skill**: detail-when
+- **type**: comprehension
+- **difficulty**: easy
+- **stem**: Read Passage P1. When did Bhavya see the tiny green leaves?
+- **options**:
+  - A) After the first heavy showers
+  - B) After two days in the shade
+  - C) On the same Monday evening
+  - D) On Saturday morning
+- **hint**: Read the last two sentences of the story to find when Bhavya ran to the ground.
+- **answer**: A
+- **explanation**: Bhavya saw them three weeks later, after the first heavy showers. 'After two days in the shade' is when the balls dried, not when leaves came.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### B6
+- **id**: g3-eng-reading-b-q06
+- **skill**: detail-when
+- **type**: comprehension
+- **difficulty**: easy
+- **stem**: Read Passage P2 (Pepper Comes to Class). On which day did Joseph wake up late?
+- **options**:
+  - A) Monday
+  - B) Sunday
+  - C) Saturday
+  - D) Tuesday
+- **hint**: Look at the very first sentence of the story about Joseph.
+- **answer**: D
+- **explanation**: The story begins, 'Joseph woke up late on Tuesday.' 'Sunday' cannot be right, because Joseph was going to school that day.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### B7
+- **id**: g3-eng-reading-b-q07
+- **skill**: detail-why
+- **type**: comprehension
+- **difficulty**: medium
+- **stem**: Read Passage P2. Why did everyone in the class giggle?
+- **options**:
+  - A) Mrs. Pinto told a joke.
+  - B) Joseph fell off his chair.
+  - C) They saw a puppy had come to class.
+  - D) The door made a funny sound.
+- **hint**: Read what the class saw when the door was opened, just before the giggling.
+- **answer**: C
+- **explanation**: They giggled when they saw Pepper sitting at the door, wagging his tail. 'The door made a funny sound' is wrong; the scratching came before they saw him.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### B8
+- **id**: g3-eng-reading-b-q08
+- **skill**: detail-who
+- **type**: comprehension
+- **difficulty**: easy
+- **stem**: Read Passage P2. Who came to school at ten o'clock to take Pepper home?
+- **options**:
+  - A) Joseph's father
+  - B) Joseph's mother
+  - C) The school watchman
+  - D) Mrs. Pinto's friend
+- **hint**: Find the words 'ten o'clock' in the story and read that sentence.
+- **answer**: A
+- **explanation**: The story says Joseph's father came to take Pepper home. 'Joseph's mother' is tempting, but she is not in this story.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### B9
+- **id**: g3-eng-reading-b-q09
+- **skill**: inference
+- **type**: comprehension
+- **difficulty**: hard
+- **stem**: Read Passage P2. Why did Joseph check the gate twice that evening?
+- **options**:
+  - A) He was waiting for his father.
+  - B) He had dropped his bag near the gate.
+  - C) He did not want Pepper to get out again.
+  - D) Mrs. Pinto asked him to paint it.
+- **hint**: Think about what the open gate in the morning led to later in the class.
+- **answer**: C
+- **explanation**: Pepper got out because the gate swung open in the morning. 'He was waiting for his father' is wrong; his father had already come at ten.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### B10
+- **id**: g3-eng-reading-b-q10
+- **skill**: feeling-inference
+- **type**: comprehension
+- **difficulty**: medium
+- **stem**: Read Passage P2. Mrs. Pinto said, "Pepper wanted to learn English too." How was she feeling?
+- **options**:
+  - A) Very angry with Joseph
+  - B) Amused and kind
+  - C) Scared of the puppy
+  - D) Sad and worried
+- **hint**: Look at how Mrs. Pinto treated Pepper and at how she said her words about English.
+- **answer**: B
+- **explanation**: She smiled, made a joke and let Pepper rest on a mat. 'Very angry with Joseph' does not fit her smile or her kind actions.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### B11
+- **id**: g3-eng-reading-b-q11
+- **skill**: detail-who
+- **type**: comprehension
+- **difficulty**: easy
+- **stem**: Read Passage P3 (The Onam Flower Carpet). Who drew the big chalk circle on the floor?
+- **options**:
+  - A) Ammachi
+  - B) Harini
+  - C) Manu
+  - D) Appu
+- **hint**: Find the sentence about the chalk circle; it begins with 'First'.
+- **answer**: A
+- **explanation**: 'First, Ammachi drew a big circle.' 'Harini' is tempting because she does a lot of the work, but she did not draw the circle.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### B12
+- **id**: g3-eng-reading-b-q12
+- **skill**: detail-what
+- **type**: comprehension
+- **difficulty**: easy
+- **stem**: Read Passage P3. Which colour petals went into the OUTER ring?
+- **options**:
+  - A) Yellow
+  - B) White
+  - C) Red
+  - D) Green
+- **hint**: Find the words 'outer ring' in the story and read which flower filled it.
+- **answer**: A
+- **explanation**: Yellow marigold petals filled the outer ring. 'White' is wrong; the white jasmine ring came next, inside the outer ring.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### B13
+- **id**: g3-eng-reading-b-q13
+- **skill**: detail-why
+- **type**: comprehension
+- **difficulty**: medium
+- **stem**: Read Passage P3. Why did Manu groan?
+- **options**:
+  - A) He was tired of waking up early.
+  - B) A crow had messed up some petals.
+  - C) Appu took his tulsi leaf.
+  - D) Ammachi asked him to sweep.
+- **hint**: Read the sentence just before the one where Manu groaned.
+- **answer**: B
+- **explanation**: Manu groaned because the crow scattered the petals. 'He was tired of waking up early' is never said in the story.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### B14
+- **id**: g3-eng-reading-b-q14
+- **skill**: sequence
+- **type**: comprehension
+- **difficulty**: hard
+- **stem**: Read Passage P3. Put these in the order they happened: (1) The crow hopped across. (2) The jasmine ring was made. (3) Appu placed the tulsi leaf. (4) The chalk circle was drawn.
+- **options**:
+  - A) 4, 2, 3, 1
+  - B) 4, 1, 2, 3
+  - C) 4, 2, 1, 3
+  - D) 2, 4, 1, 3
+- **hint**: Look for order words in the story like First, Next, Just then and At last.
+- **answer**: C
+- **explanation**: Chalk came first, then the jasmine ring, then the crow, and the leaf came 'at last'. '4, 2, 3, 1' is wrong because the crow came before the leaf.
+- **pictorial**: no
+- **olympiad_section**: reading
+
+### B15
+- **id**: g3-eng-reading-b-q15
+- **skill**: picture-detail
+- **type**: picture
+- **difficulty**: easy
+- **stem**: Look at the picture of Lakeside Park. Which animal is walking with the boy in the yellow shirt?
+
+**Diagram (SVG):**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="640" height="380" role="img" aria-label="Picture of an evening in Lakeside Park" font-family="Arial, Helvetica, sans-serif"><title>Picture of an evening in Lakeside Park</title><desc>A park beside a lake, with a clock on a pole. On the left is a tree with a nest and a bench under it, where an old man holds a printed sheet. In the middle a girl in a green frock jumps with a red rope. A boy in a yellow shirt holds a lead tied to a small brown animal. White birds float on the lake, and a man on the right holds a bunch of coloured balloons.</desc><rect x="0" y="0" width="640" height="380" fill="#ffffff"/><rect x="0" y="0" width="640" height="220" rx="0" fill="#d6efff" stroke="none" stroke-width="0"/><rect x="0" y="220" width="640" height="160" rx="0" fill="#b9e3a0" stroke="none" stroke-width="0"/><text x="320" y="28" font-size="20" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Lakeside Park</text><ellipse cx="480" cy="236" rx="145" ry="38" fill="#64b5f6" stroke="#1e5f99" stroke-width="2"/><ellipse cx="420" cy="236" rx="16" ry="9" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><circle cx="432" cy="226" r="7" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><polygon points="438,225 447,227 438,229" fill="#ff9800" stroke="#333333" stroke-width="1"/><ellipse cx="482" cy="248" rx="16" ry="9" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><circle cx="494" cy="238" r="7" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><polygon points="500,237 509,239 500,241" fill="#ff9800" stroke="#333333" stroke-width="1"/><ellipse cx="545" cy="232" rx="16" ry="9" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><circle cx="557" cy="222" r="7" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><polygon points="563,221 572,223 563,225" fill="#ff9800" stroke="#333333" stroke-width="1"/><rect x="62" y="110" width="24" height="160" rx="0" fill="#8d6e63" stroke="#4e342e" stroke-width="2"/><circle cx="74" cy="96" r="58" fill="#4caf50" stroke="#2e7d32" stroke-width="2"/><line x1="86" y1="120" x2="126" y2="92" stroke="#6d4c41" stroke-width="6" stroke-linecap="round"/><ellipse cx="128" cy="88" rx="22" ry="9" fill="#a1887f" stroke="#4e342e" stroke-width="2"/><ellipse cx="118" cy="76" rx="9" ry="6" fill="#6d4c41" stroke="#333333" stroke-width="1"/><circle cx="126" cy="71" r="4.5" fill="#6d4c41" stroke="#333333" stroke-width="1"/><polygon points="130,70 135,72 130,73" fill="#ffb300" stroke="#333333" stroke-width="1"/><ellipse cx="140" cy="76" rx="9" ry="6" fill="#6d4c41" stroke="#333333" stroke-width="1"/><circle cx="148" cy="71" r="4.5" fill="#6d4c41" stroke="#333333" stroke-width="1"/><polygon points="152,70 157,72 152,73" fill="#ffb300" stroke="#333333" stroke-width="1"/><rect x="30" y="290" width="150" height="10" rx="0" fill="#a1887f" stroke="#4e342e" stroke-width="2"/><rect x="30" y="262" width="150" height="8" rx="0" fill="#a1887f" stroke="#4e342e" stroke-width="2"/><line x1="40" y1="300" x2="40" y2="330" stroke="#4e342e" stroke-width="5" stroke-linecap="round"/><line x1="170" y1="300" x2="170" y2="330" stroke="#4e342e" stroke-width="5" stroke-linecap="round"/><rect x="92" y="238" width="30" height="52" rx="6" fill="#90caf9" stroke="#333333" stroke-width="2"/><circle cx="107" cy="224" r="14" fill="#c68642" stroke="#333333" stroke-width="1.5"/><path d="M93,221 Q107,202 121,221" fill="#bdbdbd" stroke="#9e9e9e" stroke-width="2" stroke-linecap="round"/><line x1="98" y1="300" x2="92" y2="328" stroke="#5d4037" stroke-width="6" stroke-linecap="round"/><line x1="116" y1="300" x2="122" y2="328" stroke="#5d4037" stroke-width="6" stroke-linecap="round"/><rect x="80" y="246" width="56" height="40" rx="0" fill="#eeeeee" stroke="#555555" stroke-width="2"/><line x1="86" y1="256" x2="130" y2="256" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="86" y1="264" x2="130" y2="264" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="86" y1="272" x2="130" y2="272" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="86" y1="280" x2="130" y2="280" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="232" y1="330" x2="232" y2="160" stroke="#555555" stroke-width="6" stroke-linecap="round"/><circle cx="232" cy="132" r="28" fill="#ffffff" stroke="#333333" stroke-width="3"/><line x1="232.0" y1="110.0" x2="232.0" y2="106.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="243.0" y1="112.94744111674234" x2="245.0" y2="109.48333950160459" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="251.05255888325766" y1="121.0" x2="254.5166604983954" y2="119.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="254.0" y1="132.0" x2="258.0" y2="132.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="251.05255888325766" y1="143.0" x2="254.5166604983954" y2="145.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="243.0" y1="151.05255888325766" x2="245.0" y2="154.5166604983954" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="232.0" y1="154.0" x2="232.0" y2="158.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="221.0" y1="151.05255888325766" x2="219.0" y2="154.5166604983954" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="212.94744111674237" y1="143.0" x2="209.4833395016046" y2="145.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="210.0" y1="132.0" x2="206.0" y2="132.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="212.94744111674234" y1="121.0" x2="209.4833395016046" y2="119.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="221.0" y1="112.94744111674235" x2="219.0" y2="109.4833395016046" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="232" y1="132" x2="239.0" y2="144.12435565298213" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/><line x1="232" y1="132" x2="232.0" y2="109.6" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/><circle cx="232" cy="132" r="3" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M290,270 Q330,140 370,270" fill="none" stroke="#e53935" stroke-width="3" stroke-linecap="round"/><line x1="322.0" y1="295.0" x2="320.0" y2="340" stroke="#c68642" stroke-width="6.0" stroke-linecap="round"/><line x1="338.0" y1="295.0" x2="340.0" y2="340" stroke="#c68642" stroke-width="6.0" stroke-linecap="round"/><polygon points="316.0,252.0 344.0,252.0 356.0,300.0 304.0,300.0" fill="#2e7d32" stroke="#333333" stroke-width="2"/><line x1="314.0" y1="256.0" x2="290.0" y2="270.0" stroke="#c68642" stroke-width="5.0" stroke-linecap="round"/><line x1="346.0" y1="256.0" x2="370.0" y2="270.0" stroke="#c68642" stroke-width="5.0" stroke-linecap="round"/><rect x="312.0" y="225.0" width="36.0" height="24.0" rx="8.0" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="1"/><circle cx="330" cy="235.0" r="14.0" fill="#c68642" stroke="#333333" stroke-width="1.5"/><path d="M316.0,232.0 Q330,211.0 344.0,232.0" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="2" stroke-linecap="round"/><circle cx="325.0" cy="236.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="335.0" cy="236.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M324.0,241.0 Q330,246.0 336.0,241.0" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/><line x1="402.4" y1="325.25" x2="400.5" y2="368" stroke="#37474f" stroke-width="5.699999999999999" stroke-linecap="round"/><line x1="417.6" y1="325.25" x2="419.5" y2="368" stroke="#37474f" stroke-width="5.699999999999999" stroke-linecap="round"/><rect x="394.8" y="282.5" width="30.4" height="45.599999999999994" rx="5.699999999999999" fill="#fdd835" stroke="#333333" stroke-width="2"/><line x1="394.8" y1="288.2" x2="385.3" y2="318.6" stroke="#a0522d" stroke-width="4.75" stroke-linecap="round"/><line x1="425.2" y1="288.2" x2="449.9" y2="280.6" stroke="#a0522d" stroke-width="4.75" stroke-linecap="round"/><circle cx="410" cy="268.25" r="13.299999999999999" fill="#a0522d" stroke="#333333" stroke-width="1.5"/><path d="M396.7,265.4 Q410,245.45 423.3,265.4" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="2" stroke-linecap="round"/><circle cx="405.25" cy="269.2" r="1.71" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="414.75" cy="269.2" r="1.71" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M404.3,273.95 Q410,278.7 415.7,273.95" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/><line x1="450" y1="281" x2="486" y2="334" stroke="#333333" stroke-width="2" stroke-linecap="round"/><ellipse cx="468" cy="346" rx="24" ry="11" fill="#8d5524" stroke="#333333" stroke-width="1.5"/><line x1="452" y1="354" x2="452" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><line x1="460" y1="354" x2="460" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><line x1="478" y1="354" x2="478" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><line x1="486" y1="354" x2="486" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><circle cx="494" cy="334" r="10" fill="#8d5524" stroke="#333333" stroke-width="1.5"/><ellipse cx="490" cy="328" rx="4" ry="8" fill="#5d3a1a" stroke="#333333" stroke-width="1"/><circle cx="498" cy="332" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="504" cy="337" r="2" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M444,342 Q434,328 438,324" fill="none" stroke="#8d5524" stroke-width="3" stroke-linecap="round"/><line x1="572.0" y1="315.0" x2="570.0" y2="360" stroke="#37474f" stroke-width="6.0" stroke-linecap="round"/><line x1="588.0" y1="315.0" x2="590.0" y2="360" stroke="#37474f" stroke-width="6.0" stroke-linecap="round"/><rect x="564.0" y="270.0" width="32.0" height="48.0" rx="6.0" fill="#8e24aa" stroke="#333333" stroke-width="2"/><line x1="596.0" y1="276.0" x2="606.0" y2="308.0" stroke="#b5651d" stroke-width="5.0" stroke-linecap="round"/><line x1="564.0" y1="276.0" x2="538.0" y2="268.0" stroke="#b5651d" stroke-width="5.0" stroke-linecap="round"/><circle cx="580" cy="255.0" r="14.0" fill="#b5651d" stroke="#333333" stroke-width="1.5"/><path d="M566.0,252.0 Q580,231.0 594.0,252.0" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="2" stroke-linecap="round"/><circle cx="575.0" cy="256.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="585.0" cy="256.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M574.0,261.0 Q580,266.0 586.0,261.0" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/><line x1="596" y1="276" x2="602" y2="220" stroke="#b5651d" stroke-width="5" stroke-linecap="round"/><line x1="602" y1="220" x2="560" y2="110" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="560" cy="92" rx="14" ry="18" fill="#e53935" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="590" y2="96" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="590" cy="78" rx="14" ry="18" fill="#1e88e5" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="620" y2="114" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="620" cy="96" rx="14" ry="18" fill="#fdd835" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="575" y2="138" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="575" cy="120" rx="14" ry="18" fill="#ec407a" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="607" y2="144" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="607" cy="126" rx="14" ry="18" fill="#fb8c00" stroke="#333333" stroke-width="1.5"/></svg>
+```
+
+- **alt**: A park beside a lake: an old man on a bench under a tree holding a printed sheet, small birds on a nest, a clock on a pole, a girl in a green frock with a red rope, a boy in a yellow shirt with a small brown animal on a lead, white birds floating on the lake, and a man holding a bunch of coloured balloons.
+- **options**:
+  - A) A goat
+  - B) A dog
+  - C) A cat
+  - D) A calf
+- **hint**: Follow the lead from the hand of the boy in the yellow shirt to the animal at its end.
+- **answer**: B
+- **explanation**: The small brown animal with floppy ears and a wagging tail is a dog. 'A goat' is wrong; goats have horns and a beard.
+- **pictorial**: yes
+- **olympiad_section**: reading
+
+### B16
+- **id**: g3-eng-reading-b-q16
+- **skill**: picture-count
+- **type**: picture
+- **difficulty**: easy
+- **stem**: Look at the picture of Lakeside Park. How many ducks are swimming in the lake?
+
+**Diagram (SVG):**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="640" height="380" role="img" aria-label="Picture of an evening in Lakeside Park" font-family="Arial, Helvetica, sans-serif"><title>Picture of an evening in Lakeside Park</title><desc>A park beside a lake, with a clock on a pole. On the left is a tree with a nest and a bench under it, where an old man holds a printed sheet. In the middle a girl in a green frock jumps with a red rope. A boy in a yellow shirt holds a lead tied to a small brown animal. White birds float on the lake, and a man on the right holds a bunch of coloured balloons.</desc><rect x="0" y="0" width="640" height="380" fill="#ffffff"/><rect x="0" y="0" width="640" height="220" rx="0" fill="#d6efff" stroke="none" stroke-width="0"/><rect x="0" y="220" width="640" height="160" rx="0" fill="#b9e3a0" stroke="none" stroke-width="0"/><text x="320" y="28" font-size="20" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Lakeside Park</text><ellipse cx="480" cy="236" rx="145" ry="38" fill="#64b5f6" stroke="#1e5f99" stroke-width="2"/><ellipse cx="420" cy="236" rx="16" ry="9" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><circle cx="432" cy="226" r="7" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><polygon points="438,225 447,227 438,229" fill="#ff9800" stroke="#333333" stroke-width="1"/><ellipse cx="482" cy="248" rx="16" ry="9" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><circle cx="494" cy="238" r="7" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><polygon points="500,237 509,239 500,241" fill="#ff9800" stroke="#333333" stroke-width="1"/><ellipse cx="545" cy="232" rx="16" ry="9" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><circle cx="557" cy="222" r="7" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><polygon points="563,221 572,223 563,225" fill="#ff9800" stroke="#333333" stroke-width="1"/><rect x="62" y="110" width="24" height="160" rx="0" fill="#8d6e63" stroke="#4e342e" stroke-width="2"/><circle cx="74" cy="96" r="58" fill="#4caf50" stroke="#2e7d32" stroke-width="2"/><line x1="86" y1="120" x2="126" y2="92" stroke="#6d4c41" stroke-width="6" stroke-linecap="round"/><ellipse cx="128" cy="88" rx="22" ry="9" fill="#a1887f" stroke="#4e342e" stroke-width="2"/><ellipse cx="118" cy="76" rx="9" ry="6" fill="#6d4c41" stroke="#333333" stroke-width="1"/><circle cx="126" cy="71" r="4.5" fill="#6d4c41" stroke="#333333" stroke-width="1"/><polygon points="130,70 135,72 130,73" fill="#ffb300" stroke="#333333" stroke-width="1"/><ellipse cx="140" cy="76" rx="9" ry="6" fill="#6d4c41" stroke="#333333" stroke-width="1"/><circle cx="148" cy="71" r="4.5" fill="#6d4c41" stroke="#333333" stroke-width="1"/><polygon points="152,70 157,72 152,73" fill="#ffb300" stroke="#333333" stroke-width="1"/><rect x="30" y="290" width="150" height="10" rx="0" fill="#a1887f" stroke="#4e342e" stroke-width="2"/><rect x="30" y="262" width="150" height="8" rx="0" fill="#a1887f" stroke="#4e342e" stroke-width="2"/><line x1="40" y1="300" x2="40" y2="330" stroke="#4e342e" stroke-width="5" stroke-linecap="round"/><line x1="170" y1="300" x2="170" y2="330" stroke="#4e342e" stroke-width="5" stroke-linecap="round"/><rect x="92" y="238" width="30" height="52" rx="6" fill="#90caf9" stroke="#333333" stroke-width="2"/><circle cx="107" cy="224" r="14" fill="#c68642" stroke="#333333" stroke-width="1.5"/><path d="M93,221 Q107,202 121,221" fill="#bdbdbd" stroke="#9e9e9e" stroke-width="2" stroke-linecap="round"/><line x1="98" y1="300" x2="92" y2="328" stroke="#5d4037" stroke-width="6" stroke-linecap="round"/><line x1="116" y1="300" x2="122" y2="328" stroke="#5d4037" stroke-width="6" stroke-linecap="round"/><rect x="80" y="246" width="56" height="40" rx="0" fill="#eeeeee" stroke="#555555" stroke-width="2"/><line x1="86" y1="256" x2="130" y2="256" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="86" y1="264" x2="130" y2="264" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="86" y1="272" x2="130" y2="272" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="86" y1="280" x2="130" y2="280" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="232" y1="330" x2="232" y2="160" stroke="#555555" stroke-width="6" stroke-linecap="round"/><circle cx="232" cy="132" r="28" fill="#ffffff" stroke="#333333" stroke-width="3"/><line x1="232.0" y1="110.0" x2="232.0" y2="106.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="243.0" y1="112.94744111674234" x2="245.0" y2="109.48333950160459" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="251.05255888325766" y1="121.0" x2="254.5166604983954" y2="119.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="254.0" y1="132.0" x2="258.0" y2="132.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="251.05255888325766" y1="143.0" x2="254.5166604983954" y2="145.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="243.0" y1="151.05255888325766" x2="245.0" y2="154.5166604983954" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="232.0" y1="154.0" x2="232.0" y2="158.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="221.0" y1="151.05255888325766" x2="219.0" y2="154.5166604983954" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="212.94744111674237" y1="143.0" x2="209.4833395016046" y2="145.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="210.0" y1="132.0" x2="206.0" y2="132.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="212.94744111674234" y1="121.0" x2="209.4833395016046" y2="119.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="221.0" y1="112.94744111674235" x2="219.0" y2="109.4833395016046" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="232" y1="132" x2="239.0" y2="144.12435565298213" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/><line x1="232" y1="132" x2="232.0" y2="109.6" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/><circle cx="232" cy="132" r="3" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M290,270 Q330,140 370,270" fill="none" stroke="#e53935" stroke-width="3" stroke-linecap="round"/><line x1="322.0" y1="295.0" x2="320.0" y2="340" stroke="#c68642" stroke-width="6.0" stroke-linecap="round"/><line x1="338.0" y1="295.0" x2="340.0" y2="340" stroke="#c68642" stroke-width="6.0" stroke-linecap="round"/><polygon points="316.0,252.0 344.0,252.0 356.0,300.0 304.0,300.0" fill="#2e7d32" stroke="#333333" stroke-width="2"/><line x1="314.0" y1="256.0" x2="290.0" y2="270.0" stroke="#c68642" stroke-width="5.0" stroke-linecap="round"/><line x1="346.0" y1="256.0" x2="370.0" y2="270.0" stroke="#c68642" stroke-width="5.0" stroke-linecap="round"/><rect x="312.0" y="225.0" width="36.0" height="24.0" rx="8.0" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="1"/><circle cx="330" cy="235.0" r="14.0" fill="#c68642" stroke="#333333" stroke-width="1.5"/><path d="M316.0,232.0 Q330,211.0 344.0,232.0" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="2" stroke-linecap="round"/><circle cx="325.0" cy="236.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="335.0" cy="236.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M324.0,241.0 Q330,246.0 336.0,241.0" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/><line x1="402.4" y1="325.25" x2="400.5" y2="368" stroke="#37474f" stroke-width="5.699999999999999" stroke-linecap="round"/><line x1="417.6" y1="325.25" x2="419.5" y2="368" stroke="#37474f" stroke-width="5.699999999999999" stroke-linecap="round"/><rect x="394.8" y="282.5" width="30.4" height="45.599999999999994" rx="5.699999999999999" fill="#fdd835" stroke="#333333" stroke-width="2"/><line x1="394.8" y1="288.2" x2="385.3" y2="318.6" stroke="#a0522d" stroke-width="4.75" stroke-linecap="round"/><line x1="425.2" y1="288.2" x2="449.9" y2="280.6" stroke="#a0522d" stroke-width="4.75" stroke-linecap="round"/><circle cx="410" cy="268.25" r="13.299999999999999" fill="#a0522d" stroke="#333333" stroke-width="1.5"/><path d="M396.7,265.4 Q410,245.45 423.3,265.4" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="2" stroke-linecap="round"/><circle cx="405.25" cy="269.2" r="1.71" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="414.75" cy="269.2" r="1.71" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M404.3,273.95 Q410,278.7 415.7,273.95" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/><line x1="450" y1="281" x2="486" y2="334" stroke="#333333" stroke-width="2" stroke-linecap="round"/><ellipse cx="468" cy="346" rx="24" ry="11" fill="#8d5524" stroke="#333333" stroke-width="1.5"/><line x1="452" y1="354" x2="452" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><line x1="460" y1="354" x2="460" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><line x1="478" y1="354" x2="478" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><line x1="486" y1="354" x2="486" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><circle cx="494" cy="334" r="10" fill="#8d5524" stroke="#333333" stroke-width="1.5"/><ellipse cx="490" cy="328" rx="4" ry="8" fill="#5d3a1a" stroke="#333333" stroke-width="1"/><circle cx="498" cy="332" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="504" cy="337" r="2" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M444,342 Q434,328 438,324" fill="none" stroke="#8d5524" stroke-width="3" stroke-linecap="round"/><line x1="572.0" y1="315.0" x2="570.0" y2="360" stroke="#37474f" stroke-width="6.0" stroke-linecap="round"/><line x1="588.0" y1="315.0" x2="590.0" y2="360" stroke="#37474f" stroke-width="6.0" stroke-linecap="round"/><rect x="564.0" y="270.0" width="32.0" height="48.0" rx="6.0" fill="#8e24aa" stroke="#333333" stroke-width="2"/><line x1="596.0" y1="276.0" x2="606.0" y2="308.0" stroke="#b5651d" stroke-width="5.0" stroke-linecap="round"/><line x1="564.0" y1="276.0" x2="538.0" y2="268.0" stroke="#b5651d" stroke-width="5.0" stroke-linecap="round"/><circle cx="580" cy="255.0" r="14.0" fill="#b5651d" stroke="#333333" stroke-width="1.5"/><path d="M566.0,252.0 Q580,231.0 594.0,252.0" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="2" stroke-linecap="round"/><circle cx="575.0" cy="256.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="585.0" cy="256.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M574.0,261.0 Q580,266.0 586.0,261.0" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/><line x1="596" y1="276" x2="602" y2="220" stroke="#b5651d" stroke-width="5" stroke-linecap="round"/><line x1="602" y1="220" x2="560" y2="110" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="560" cy="92" rx="14" ry="18" fill="#e53935" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="590" y2="96" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="590" cy="78" rx="14" ry="18" fill="#1e88e5" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="620" y2="114" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="620" cy="96" rx="14" ry="18" fill="#fdd835" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="575" y2="138" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="575" cy="120" rx="14" ry="18" fill="#ec407a" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="607" y2="144" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="607" cy="126" rx="14" ry="18" fill="#fb8c00" stroke="#333333" stroke-width="1.5"/></svg>
+```
+
+- **alt**: A park beside a lake: an old man on a bench under a tree holding a printed sheet, small birds on a nest, a clock on a pole, a girl in a green frock with a red rope, a boy in a yellow shirt with a small brown animal on a lead, white birds floating on the lake, and a man holding a bunch of coloured balloons.
+- **options**:
+  - A) 2
+  - B) 4
+  - C) 3
+  - D) 5
+- **hint**: Look only at the lake and count each duck once.
+- **answer**: C
+- **explanation**: There are three white ducks on the lake. '2' is the number of birds on the nest in the tree, not the ducks.
+- **pictorial**: yes
+- **olympiad_section**: reading
+
+### B17
+- **id**: g3-eng-reading-b-q17
+- **skill**: picture-compare
+- **type**: picture
+- **difficulty**: hard
+- **stem**: Look at the picture of Lakeside Park. Rehan says, "There are more balloons than ducks, and more ducks than birds on the nest." Is Rehan right?
+
+**Diagram (SVG):**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="640" height="380" role="img" aria-label="Picture of an evening in Lakeside Park" font-family="Arial, Helvetica, sans-serif"><title>Picture of an evening in Lakeside Park</title><desc>A park beside a lake, with a clock on a pole. On the left is a tree with a nest and a bench under it, where an old man holds a printed sheet. In the middle a girl in a green frock jumps with a red rope. A boy in a yellow shirt holds a lead tied to a small brown animal. White birds float on the lake, and a man on the right holds a bunch of coloured balloons.</desc><rect x="0" y="0" width="640" height="380" fill="#ffffff"/><rect x="0" y="0" width="640" height="220" rx="0" fill="#d6efff" stroke="none" stroke-width="0"/><rect x="0" y="220" width="640" height="160" rx="0" fill="#b9e3a0" stroke="none" stroke-width="0"/><text x="320" y="28" font-size="20" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Lakeside Park</text><ellipse cx="480" cy="236" rx="145" ry="38" fill="#64b5f6" stroke="#1e5f99" stroke-width="2"/><ellipse cx="420" cy="236" rx="16" ry="9" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><circle cx="432" cy="226" r="7" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><polygon points="438,225 447,227 438,229" fill="#ff9800" stroke="#333333" stroke-width="1"/><ellipse cx="482" cy="248" rx="16" ry="9" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><circle cx="494" cy="238" r="7" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><polygon points="500,237 509,239 500,241" fill="#ff9800" stroke="#333333" stroke-width="1"/><ellipse cx="545" cy="232" rx="16" ry="9" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><circle cx="557" cy="222" r="7" fill="#ffffff" stroke="#333333" stroke-width="1.5"/><polygon points="563,221 572,223 563,225" fill="#ff9800" stroke="#333333" stroke-width="1"/><rect x="62" y="110" width="24" height="160" rx="0" fill="#8d6e63" stroke="#4e342e" stroke-width="2"/><circle cx="74" cy="96" r="58" fill="#4caf50" stroke="#2e7d32" stroke-width="2"/><line x1="86" y1="120" x2="126" y2="92" stroke="#6d4c41" stroke-width="6" stroke-linecap="round"/><ellipse cx="128" cy="88" rx="22" ry="9" fill="#a1887f" stroke="#4e342e" stroke-width="2"/><ellipse cx="118" cy="76" rx="9" ry="6" fill="#6d4c41" stroke="#333333" stroke-width="1"/><circle cx="126" cy="71" r="4.5" fill="#6d4c41" stroke="#333333" stroke-width="1"/><polygon points="130,70 135,72 130,73" fill="#ffb300" stroke="#333333" stroke-width="1"/><ellipse cx="140" cy="76" rx="9" ry="6" fill="#6d4c41" stroke="#333333" stroke-width="1"/><circle cx="148" cy="71" r="4.5" fill="#6d4c41" stroke="#333333" stroke-width="1"/><polygon points="152,70 157,72 152,73" fill="#ffb300" stroke="#333333" stroke-width="1"/><rect x="30" y="290" width="150" height="10" rx="0" fill="#a1887f" stroke="#4e342e" stroke-width="2"/><rect x="30" y="262" width="150" height="8" rx="0" fill="#a1887f" stroke="#4e342e" stroke-width="2"/><line x1="40" y1="300" x2="40" y2="330" stroke="#4e342e" stroke-width="5" stroke-linecap="round"/><line x1="170" y1="300" x2="170" y2="330" stroke="#4e342e" stroke-width="5" stroke-linecap="round"/><rect x="92" y="238" width="30" height="52" rx="6" fill="#90caf9" stroke="#333333" stroke-width="2"/><circle cx="107" cy="224" r="14" fill="#c68642" stroke="#333333" stroke-width="1.5"/><path d="M93,221 Q107,202 121,221" fill="#bdbdbd" stroke="#9e9e9e" stroke-width="2" stroke-linecap="round"/><line x1="98" y1="300" x2="92" y2="328" stroke="#5d4037" stroke-width="6" stroke-linecap="round"/><line x1="116" y1="300" x2="122" y2="328" stroke="#5d4037" stroke-width="6" stroke-linecap="round"/><rect x="80" y="246" width="56" height="40" rx="0" fill="#eeeeee" stroke="#555555" stroke-width="2"/><line x1="86" y1="256" x2="130" y2="256" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="86" y1="264" x2="130" y2="264" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="86" y1="272" x2="130" y2="272" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="86" y1="280" x2="130" y2="280" stroke="#888888" stroke-width="2" stroke-linecap="round"/><line x1="232" y1="330" x2="232" y2="160" stroke="#555555" stroke-width="6" stroke-linecap="round"/><circle cx="232" cy="132" r="28" fill="#ffffff" stroke="#333333" stroke-width="3"/><line x1="232.0" y1="110.0" x2="232.0" y2="106.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="243.0" y1="112.94744111674234" x2="245.0" y2="109.48333950160459" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="251.05255888325766" y1="121.0" x2="254.5166604983954" y2="119.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="254.0" y1="132.0" x2="258.0" y2="132.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="251.05255888325766" y1="143.0" x2="254.5166604983954" y2="145.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="243.0" y1="151.05255888325766" x2="245.0" y2="154.5166604983954" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="232.0" y1="154.0" x2="232.0" y2="158.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="221.0" y1="151.05255888325766" x2="219.0" y2="154.5166604983954" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="212.94744111674237" y1="143.0" x2="209.4833395016046" y2="145.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="210.0" y1="132.0" x2="206.0" y2="132.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="212.94744111674234" y1="121.0" x2="209.4833395016046" y2="119.0" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="221.0" y1="112.94744111674235" x2="219.0" y2="109.4833395016046" stroke="#333333" stroke-width="2" stroke-linecap="round"/><line x1="232" y1="132" x2="239.0" y2="144.12435565298213" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/><line x1="232" y1="132" x2="232.0" y2="109.6" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/><circle cx="232" cy="132" r="3" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M290,270 Q330,140 370,270" fill="none" stroke="#e53935" stroke-width="3" stroke-linecap="round"/><line x1="322.0" y1="295.0" x2="320.0" y2="340" stroke="#c68642" stroke-width="6.0" stroke-linecap="round"/><line x1="338.0" y1="295.0" x2="340.0" y2="340" stroke="#c68642" stroke-width="6.0" stroke-linecap="round"/><polygon points="316.0,252.0 344.0,252.0 356.0,300.0 304.0,300.0" fill="#2e7d32" stroke="#333333" stroke-width="2"/><line x1="314.0" y1="256.0" x2="290.0" y2="270.0" stroke="#c68642" stroke-width="5.0" stroke-linecap="round"/><line x1="346.0" y1="256.0" x2="370.0" y2="270.0" stroke="#c68642" stroke-width="5.0" stroke-linecap="round"/><rect x="312.0" y="225.0" width="36.0" height="24.0" rx="8.0" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="1"/><circle cx="330" cy="235.0" r="14.0" fill="#c68642" stroke="#333333" stroke-width="1.5"/><path d="M316.0,232.0 Q330,211.0 344.0,232.0" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="2" stroke-linecap="round"/><circle cx="325.0" cy="236.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="335.0" cy="236.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M324.0,241.0 Q330,246.0 336.0,241.0" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/><line x1="402.4" y1="325.25" x2="400.5" y2="368" stroke="#37474f" stroke-width="5.699999999999999" stroke-linecap="round"/><line x1="417.6" y1="325.25" x2="419.5" y2="368" stroke="#37474f" stroke-width="5.699999999999999" stroke-linecap="round"/><rect x="394.8" y="282.5" width="30.4" height="45.599999999999994" rx="5.699999999999999" fill="#fdd835" stroke="#333333" stroke-width="2"/><line x1="394.8" y1="288.2" x2="385.3" y2="318.6" stroke="#a0522d" stroke-width="4.75" stroke-linecap="round"/><line x1="425.2" y1="288.2" x2="449.9" y2="280.6" stroke="#a0522d" stroke-width="4.75" stroke-linecap="round"/><circle cx="410" cy="268.25" r="13.299999999999999" fill="#a0522d" stroke="#333333" stroke-width="1.5"/><path d="M396.7,265.4 Q410,245.45 423.3,265.4" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="2" stroke-linecap="round"/><circle cx="405.25" cy="269.2" r="1.71" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="414.75" cy="269.2" r="1.71" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M404.3,273.95 Q410,278.7 415.7,273.95" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/><line x1="450" y1="281" x2="486" y2="334" stroke="#333333" stroke-width="2" stroke-linecap="round"/><ellipse cx="468" cy="346" rx="24" ry="11" fill="#8d5524" stroke="#333333" stroke-width="1.5"/><line x1="452" y1="354" x2="452" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><line x1="460" y1="354" x2="460" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><line x1="478" y1="354" x2="478" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><line x1="486" y1="354" x2="486" y2="368" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/><circle cx="494" cy="334" r="10" fill="#8d5524" stroke="#333333" stroke-width="1.5"/><ellipse cx="490" cy="328" rx="4" ry="8" fill="#5d3a1a" stroke="#333333" stroke-width="1"/><circle cx="498" cy="332" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="504" cy="337" r="2" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M444,342 Q434,328 438,324" fill="none" stroke="#8d5524" stroke-width="3" stroke-linecap="round"/><line x1="572.0" y1="315.0" x2="570.0" y2="360" stroke="#37474f" stroke-width="6.0" stroke-linecap="round"/><line x1="588.0" y1="315.0" x2="590.0" y2="360" stroke="#37474f" stroke-width="6.0" stroke-linecap="round"/><rect x="564.0" y="270.0" width="32.0" height="48.0" rx="6.0" fill="#8e24aa" stroke="#333333" stroke-width="2"/><line x1="596.0" y1="276.0" x2="606.0" y2="308.0" stroke="#b5651d" stroke-width="5.0" stroke-linecap="round"/><line x1="564.0" y1="276.0" x2="538.0" y2="268.0" stroke="#b5651d" stroke-width="5.0" stroke-linecap="round"/><circle cx="580" cy="255.0" r="14.0" fill="#b5651d" stroke="#333333" stroke-width="1.5"/><path d="M566.0,252.0 Q580,231.0 594.0,252.0" fill="#2b1b0e" stroke="#2b1b0e" stroke-width="2" stroke-linecap="round"/><circle cx="575.0" cy="256.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><circle cx="585.0" cy="256.0" r="1.8" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/><path d="M574.0,261.0 Q580,266.0 586.0,261.0" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/><line x1="596" y1="276" x2="602" y2="220" stroke="#b5651d" stroke-width="5" stroke-linecap="round"/><line x1="602" y1="220" x2="560" y2="110" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="560" cy="92" rx="14" ry="18" fill="#e53935" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="590" y2="96" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="590" cy="78" rx="14" ry="18" fill="#1e88e5" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="620" y2="114" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="620" cy="96" rx="14" ry="18" fill="#fdd835" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="575" y2="138" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="575" cy="120" rx="14" ry="18" fill="#ec407a" stroke="#333333" stroke-width="1.5"/><line x1="602" y1="220" x2="607" y2="144" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="607" cy="126" rx="14" ry="18" fill="#fb8c00" stroke="#333333" stroke-width="1.5"/></svg>
+```
+
+- **alt**: A park beside a lake: an old man on a bench under a tree holding a printed sheet, small birds on a nest, a clock on a pole, a girl in a green frock with a red rope, a boy in a yellow shirt with a small brown animal on a lead, white birds floating on the lake, and a man holding a bunch of coloured balloons.
+- **options**:
+  - A) No, there are more ducks than balloons.
+  - B) Yes, both parts are right.
+  - C) No, there are more birds than ducks.
+  - D) No, both parts are wrong.
+- **hint**: Count the balloons, the ducks and the birds on the nest, then compare the numbers two at a time.
+- **answer**: B
+- **explanation**: There are 5 balloons, 3 ducks and 2 birds, so both parts are true. 'No, there are more ducks than balloons' is wrong because 3 is less than 5.
+- **pictorial**: yes
+- **olympiad_section**: reading
+
+### B18
+- **id**: g3-eng-reading-b-q18
+- **skill**: timetable
+- **type**: timetable
+- **difficulty**: easy
+- **stem**: Look at the Mela Special Bus timetable. At what time does Bus 2 reach Lake Gate?
+
+**Diagram (SVG):**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" width="580" height="300" role="img" aria-label="Mela Special Bus timetable for Sunday" font-family="Arial, Helvetica, sans-serif"><title>Mela Special Bus timetable for Sunday</title><desc>A timetable with two buses. Bus 1: Bus Stand 3:00, Post Office 3:15, Lake Gate 3:30, Mela Ground 3:50. Bus 2: Bus Stand 5:00, Post Office 5:15, Lake Gate 5:30, Mela Ground 5:50. Last bus back from Mela Ground: 9:00 p.m.</desc><rect x="0" y="0" width="580" height="300" fill="#fffdf7"/><text x="290" y="32" font-size="22" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Mela Special Bus — Sunday</text><rect x="30" y="50" width="200" height="40" rx="0" fill="#ffe0b2" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="76" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Stop</text><rect x="230" y="50" width="160" height="40" rx="0" fill="#ffe0b2" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="76" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Bus 1</text><rect x="390" y="50" width="160" height="40" rx="0" fill="#ffe0b2" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="76" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Bus 2</text><rect x="30" y="90" width="200" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="116" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Bus Stand</text><rect x="230" y="90" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="116" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:00</text><rect x="390" y="90" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="116" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:00</text><rect x="30" y="130" width="200" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="156" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Post Office</text><rect x="230" y="130" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="156" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:15</text><rect x="390" y="130" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="156" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:15</text><rect x="30" y="170" width="200" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="196" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Lake Gate</text><rect x="230" y="170" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="196" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:30</text><rect x="390" y="170" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="196" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:30</text><rect x="30" y="210" width="200" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="236" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Mela Ground</text><rect x="230" y="210" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="236" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:50</text><rect x="390" y="210" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="236" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:50</text><text x="290" y="284" font-size="17" text-anchor="middle" font-weight="normal" fill="#4e342e">Last bus back from Mela Ground: 9:00 p.m.</text></svg>
+```
+
+- **alt**: Mela Special Bus timetable (Sunday). Bus 1: Bus Stand 3:00, Post Office 3:15, Lake Gate 3:30, Mela Ground 3:50. Bus 2: Bus Stand 5:00, Post Office 5:15, Lake Gate 5:30, Mela Ground 5:50. Last bus back from Mela Ground: 9:00 p.m.
+- **options**:
+  - A) 3:30
+  - B) 5:30
+  - C) 5:15
+  - D) 5:50
+- **hint**: Find the Lake Gate row, then move across to the column for the second bus.
+- **answer**: B
+- **explanation**: Under Bus 2, the Lake Gate row shows 5:30. '3:30' is the time for Bus 1 at that stop.
+- **pictorial**: yes
+- **olympiad_section**: reading
+
+### B19
+- **id**: g3-eng-reading-b-q19
+- **skill**: timetable-duration
+- **type**: timetable
+- **difficulty**: medium
+- **stem**: Look at the Mela Special Bus timetable. How long does a bus take to go from the Bus Stand to Mela Ground?
+
+**Diagram (SVG):**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" width="580" height="300" role="img" aria-label="Mela Special Bus timetable for Sunday" font-family="Arial, Helvetica, sans-serif"><title>Mela Special Bus timetable for Sunday</title><desc>A timetable with two buses. Bus 1: Bus Stand 3:00, Post Office 3:15, Lake Gate 3:30, Mela Ground 3:50. Bus 2: Bus Stand 5:00, Post Office 5:15, Lake Gate 5:30, Mela Ground 5:50. Last bus back from Mela Ground: 9:00 p.m.</desc><rect x="0" y="0" width="580" height="300" fill="#fffdf7"/><text x="290" y="32" font-size="22" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Mela Special Bus — Sunday</text><rect x="30" y="50" width="200" height="40" rx="0" fill="#ffe0b2" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="76" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Stop</text><rect x="230" y="50" width="160" height="40" rx="0" fill="#ffe0b2" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="76" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Bus 1</text><rect x="390" y="50" width="160" height="40" rx="0" fill="#ffe0b2" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="76" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Bus 2</text><rect x="30" y="90" width="200" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="116" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Bus Stand</text><rect x="230" y="90" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="116" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:00</text><rect x="390" y="90" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="116" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:00</text><rect x="30" y="130" width="200" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="156" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Post Office</text><rect x="230" y="130" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="156" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:15</text><rect x="390" y="130" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="156" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:15</text><rect x="30" y="170" width="200" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="196" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Lake Gate</text><rect x="230" y="170" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="196" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:30</text><rect x="390" y="170" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="196" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:30</text><rect x="30" y="210" width="200" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="236" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Mela Ground</text><rect x="230" y="210" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="236" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:50</text><rect x="390" y="210" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="236" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:50</text><text x="290" y="284" font-size="17" text-anchor="middle" font-weight="normal" fill="#4e342e">Last bus back from Mela Ground: 9:00 p.m.</text></svg>
+```
+
+- **alt**: Mela Special Bus timetable (Sunday). Bus 1: Bus Stand 3:00, Post Office 3:15, Lake Gate 3:30, Mela Ground 3:50. Bus 2: Bus Stand 5:00, Post Office 5:15, Lake Gate 5:30, Mela Ground 5:50. Last bus back from Mela Ground: 9:00 p.m.
+- **options**:
+  - A) 50 minutes
+  - B) 15 minutes
+  - C) 30 minutes
+  - D) 1 hour
+- **hint**: Look at one bus. Find its time at the Bus Stand and its time at Mela Ground, then count the minutes between.
+- **answer**: A
+- **explanation**: Bus 1 leaves at 3:00 and reaches at 3:50, which is 50 minutes. '15 minutes' is only the gap between two stops.
+- **pictorial**: yes
+- **olympiad_section**: reading
+
+### B20
+- **id**: g3-eng-reading-b-q20
+- **skill**: timetable-reasoning
+- **type**: timetable
+- **difficulty**: medium
+- **stem**: Look at the Mela Special Bus timetable. Omkar lives near Lake Gate and must reach Mela Ground before 4 o'clock. At what time should he catch the bus at Lake Gate?
+
+**Diagram (SVG):**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" width="580" height="300" role="img" aria-label="Mela Special Bus timetable for Sunday" font-family="Arial, Helvetica, sans-serif"><title>Mela Special Bus timetable for Sunday</title><desc>A timetable with two buses. Bus 1: Bus Stand 3:00, Post Office 3:15, Lake Gate 3:30, Mela Ground 3:50. Bus 2: Bus Stand 5:00, Post Office 5:15, Lake Gate 5:30, Mela Ground 5:50. Last bus back from Mela Ground: 9:00 p.m.</desc><rect x="0" y="0" width="580" height="300" fill="#fffdf7"/><text x="290" y="32" font-size="22" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Mela Special Bus — Sunday</text><rect x="30" y="50" width="200" height="40" rx="0" fill="#ffe0b2" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="76" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Stop</text><rect x="230" y="50" width="160" height="40" rx="0" fill="#ffe0b2" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="76" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Bus 1</text><rect x="390" y="50" width="160" height="40" rx="0" fill="#ffe0b2" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="76" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Bus 2</text><rect x="30" y="90" width="200" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="116" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Bus Stand</text><rect x="230" y="90" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="116" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:00</text><rect x="390" y="90" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="116" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:00</text><rect x="30" y="130" width="200" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="156" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Post Office</text><rect x="230" y="130" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="156" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:15</text><rect x="390" y="130" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="156" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:15</text><rect x="30" y="170" width="200" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="196" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Lake Gate</text><rect x="230" y="170" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="196" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:30</text><rect x="390" y="170" width="160" height="40" rx="0" fill="#ffffff" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="196" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:30</text><rect x="30" y="210" width="200" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="130.0" y="236" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Mela Ground</text><rect x="230" y="210" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="310.0" y="236" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">3:50</text><rect x="390" y="210" width="160" height="40" rx="0" fill="#fff8e1" stroke="#5d4037" stroke-width="1.5"/><text x="470.0" y="236" font-size="18" text-anchor="middle" font-weight="normal" fill="#1a1a1a">5:50</text><text x="290" y="284" font-size="17" text-anchor="middle" font-weight="normal" fill="#4e342e">Last bus back from Mela Ground: 9:00 p.m.</text></svg>
+```
+
+- **alt**: Mela Special Bus timetable (Sunday). Bus 1: Bus Stand 3:00, Post Office 3:15, Lake Gate 3:30, Mela Ground 3:50. Bus 2: Bus Stand 5:00, Post Office 5:15, Lake Gate 5:30, Mela Ground 5:50. Last bus back from Mela Ground: 9:00 p.m.
+- **options**:
+  - A) 5:30
+  - B) 3:15
+  - C) 3:50
+  - D) 3:30
+- **hint**: Find the Lake Gate row and check which bus gets to Mela Ground before 4 o'clock.
+- **answer**: D
+- **explanation**: Bus 1 leaves Lake Gate at 3:30 and reaches Mela Ground at 3:50. '5:30' is Bus 2, which arrives at 5:50, far too late.
+- **pictorial**: yes
+- **olympiad_section**: reading
+
+### B21
+- **id**: g3-eng-reading-b-q21
+- **skill**: message-detail
+- **type**: message
+- **difficulty**: easy
+- **stem**: Look at Mumma's note to Sneha. By what time will Mumma be back?
+
+**Diagram (SVG):**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 362" width="640" height="362" role="img" aria-label="A note from Mumma to Sneha stuck on the fridge" font-family="Arial, Helvetica, sans-serif"><title>A note from Mumma to Sneha stuck on the fridge</title><desc>A yellow note stuck on a fridge with a red magnet. Sneha, I have gone to Aunty Leela&#x27;s house next door to help with the Diwali sweets. Your milk is in the steel flask. Please feed Bubbles a pinch of food from the small tin at 6 o&#x27;clock. Do not tap on the glass; it scares him. I will be back by 8. — Mumma</desc><rect x="0" y="0" width="640" height="362" fill="#eceff1"/><rect x="20" y="16" width="600" height="330" rx="4" fill="#fff59d" stroke="#f9a825" stroke-width="2"/><circle cx="320" cy="26" r="9" fill="#e53935" stroke="#8e0000" stroke-width="2"/><text x="48" y="62" font-size="19" text-anchor="start" font-weight="bold" fill="#1a1a1a">Sneha,</text><text x="48" y="95" font-size="19" text-anchor="start" font-weight="normal" fill="#1a1a1a">I have gone to Aunty Leela&#x27;s house next door</text><text x="48" y="128" font-size="19" text-anchor="start" font-weight="normal" fill="#1a1a1a">to help with the Diwali sweets.</text><text x="48" y="161" font-size="19" text-anchor="start" font-weight="normal" fill="#1a1a1a">Your milk is in the steel flask.</text><text x="48" y="194" font-size="19" text-anchor="start" font-weight="normal" fill="#1a1a1a">Please feed Bubbles a pinch of food from the</text><text x="48" y="227" font-size="19" text-anchor="start" font-weight="normal" fill="#1a1a1a">small tin at 6 o&#x27;clock. Do not tap on the glass;</text><text x="48" y="260" font-size="19" text-anchor="start" font-weight="normal" fill="#1a1a1a">it scares him.</text><text x="48" y="293" font-size="19" text-anchor="start" font-weight="normal" fill="#1a1a1a">I will be back by 8.</text><text x="48" y="326" font-size="19" text-anchor="start" font-weight="bold" fill="#1a1a1a">— Mumma</text></svg>
+```
+
+- **alt**: A yellow fridge note: Sneha, I have gone to Aunty Leela's house next door to help with the Diwali sweets. Your milk is in the steel flask. Please feed Bubbles a pinch of food from the small tin at 6 o'clock. Do not tap on the glass; it scares him. I will be back by 8. — Mumma
+- **options**:
+  - A) 6 o'clock
+  - B) 7 o'clock
+  - C) 9 o'clock
+  - D) 8 o'clock
+- **hint**: Read the line just above Mumma's name at the end of the note.
+- **answer**: D
+- **explanation**: The note says, 'I will be back by 8.' '6 o'clock' is the time to feed Bubbles, not when Mumma returns.
+- **pictorial**: yes
+- **olympiad_section**: reading
+
+### B22
+- **id**: g3-eng-reading-b-q22
+- **skill**: message-task
+- **type**: message
+- **difficulty**: medium
+- **stem**: Look at Mumma's note to Sneha. Which job does the note ask SNEHA to do?
+
+**Diagram (SVG):**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 362" width="640" height="362" role="img" aria-label="A note from Mumma to Sneha stuck on the fridge" font-family="Arial, Helvetica, sans-serif"><title>A note from Mumma to Sneha stuck on the fridge</title><desc>A yellow note stuck on a fridge with a red magnet. Sneha, I have gone to Aunty Leela&#x27;s house next door to help with the Diwali sweets. Your milk is in the steel flask. Please feed Bubbles a pinch of food from the small tin at 6 o&#x27;clock. Do not tap on the glass; it scares him. I will be back by 8. — Mumma</desc><rect x="0" y="0" width="640" height="362" fill="#eceff1"/><rect x="20" y="16" width="600" height="330" rx="4" fill="#fff59d" stroke="#f9a825" stroke-width="2"/><circle cx="320" cy="26" r="9" fill="#e53935" stroke="#8e0000" stroke-width="2"/><text x="48" y="62" font-size="19" text-anchor="start" font-weight="bold" fill="#1a1a1a">Sneha,</text><text x="48" y="95" font-size="19" text-anchor="start" font-weight="normal" fill="#1a1a1a">I have gone to Aunty Leela&#x27;s house next door</text><text x="48" y="128" font-size="19" text-anchor="start" font-weight="normal" fill="#1a1a1a">to help with the Diwali sweets.</text><text x="48" y="161" font-size="19" text-anchor="start" font-weight="normal" fill="#1a1a1a">Your milk is in the steel flask.</text><text x="48" y="194" font-size="19" text-anchor="start" font-weight="normal" fill="#1a1a1a">Please feed Bubbles a pinch of food from the</text><text x="48" y="227" font-size="19" text-anchor="start" font-weight="normal" fill="#1a1a1a">small tin at 6 o&#x27;clock. Do not tap on the glass;</text><text x="48" y="260" font-size="19" text-anchor="start" font-weight="normal" fill="#1a1a1a">it scares him.</text><text x="48" y="293" font-size="19" text-anchor="start" font-weight="normal" fill="#1a1a1a">I will be back by 8.</text><text x="48" y="326" font-size="19" text-anchor="start" font-weight="bold" fill="#1a1a1a">— Mumma</text></svg>
+```
+
+- **alt**: A yellow fridge note: Sneha, I have gone to Aunty Leela's house next door to help with the Diwali sweets. Your milk is in the steel flask. Please feed Bubbles a pinch of food from the small tin at 6 o'clock. Do not tap on the glass; it scares him. I will be back by 8. — Mumma
+- **options**:
+  - A) Feed Bubbles at 6 o'clock
+  - B) Make the Diwali sweets
+  - C) Wash the steel flask
+  - D) Go to Aunty Leela's house
+- **hint**: Find the line in the note that starts with 'Please' and see what Sneha must do.
+- **answer**: A
+- **explanation**: Sneha must feed Bubbles a pinch of food at 6 o'clock. 'Make the Diwali sweets' is Mumma's job at Aunty Leela's house.
+- **pictorial**: yes
+- **olympiad_section**: reading
+
+### B23
+- **id**: g3-eng-reading-b-q23
+- **skill**: invitation-detail
+- **type**: invitation
+- **difficulty**: medium
+- **stem**: Look at Tenzin's invitation card. By which day should guests tell Tenzin's mother if they can come?
+
+**Diagram (SVG):**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 400" width="580" height="400" role="img" aria-label="A birthday invitation card from Tenzin" font-family="Arial, Helvetica, sans-serif"><title>A birthday invitation card from Tenzin</title><desc>A birthday invitation card with balloons. You are invited! Tenzin is turning 8! Cake, games and a puppet show Day: Sunday, 22 November Time: 4 p.m. to 7 p.m. Place: Hill View House, Gangtok Please wear something blue! Tell Tenzin&#x27;s mother by Thursday if you can come.</desc><rect x="0" y="0" width="580" height="400" fill="#ffffff"/><rect x="14" y="14" width="552" height="372" rx="16" fill="#e3f2fd" stroke="#1565c0" stroke-width="4"/><rect x="26" y="26" width="528" height="348" rx="12" fill="none" stroke="#90caf9" stroke-width="2"/><ellipse cx="62" cy="70" rx="14" ry="18" fill="#e53935" stroke="#333333" stroke-width="1.5"/><line x1="62" y1="88" x2="66" y2="130" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="90" cy="56" rx="14" ry="18" fill="#fdd835" stroke="#333333" stroke-width="1.5"/><line x1="90" y1="74" x2="94" y2="116" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="500" cy="64" rx="14" ry="18" fill="#43a047" stroke="#333333" stroke-width="1.5"/><line x1="500" y1="82" x2="504" y2="124" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="526" cy="80" rx="14" ry="18" fill="#8e24aa" stroke="#333333" stroke-width="1.5"/><line x1="526" y1="98" x2="530" y2="140" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><text x="290" y="70" font-size="26" text-anchor="middle" font-weight="bold" fill="#0d2c54">You are invited!</text><text x="290" y="111" font-size="22" text-anchor="middle" font-weight="bold" fill="#0d2c54">Tenzin is turning 8!</text><text x="290" y="148" font-size="18" text-anchor="middle" font-weight="normal" fill="#0d2c54">Cake, games and a puppet show</text><text x="290" y="181" font-size="18" text-anchor="middle" font-weight="normal" fill="#0d2c54">Day: Sunday, 22 November</text><text x="290" y="214" font-size="18" text-anchor="middle" font-weight="normal" fill="#0d2c54">Time: 4 p.m. to 7 p.m.</text><text x="290" y="247" font-size="18" text-anchor="middle" font-weight="normal" fill="#0d2c54">Place: Hill View House, Gangtok</text><text x="290" y="280" font-size="18" text-anchor="middle" font-weight="bold" fill="#0d2c54">Please wear something blue!</text><text x="290" y="313" font-size="17" text-anchor="middle" font-weight="normal" fill="#0d2c54">Tell Tenzin&#x27;s mother by Thursday</text><text x="290" y="345" font-size="17" text-anchor="middle" font-weight="normal" fill="#0d2c54">if you can come.</text></svg>
+```
+
+- **alt**: Invitation card: You are invited! Tenzin is turning 8! Cake, games and a puppet show Day: Sunday, 22 November Time: 4 p.m. to 7 p.m. Place: Hill View House, Gangtok Please wear something blue! Tell Tenzin's mother by Thursday if you can come.
+- **options**:
+  - A) Sunday
+  - B) Friday
+  - C) Monday
+  - D) Thursday
+- **hint**: Read the last two lines of the invitation card about telling Tenzin's mother.
+- **answer**: D
+- **explanation**: Guests must tell her by Thursday. 'Sunday' is the day of the party itself, which is too late to reply.
+- **pictorial**: yes
+- **olympiad_section**: reading
+
+### B24
+- **id**: g3-eng-reading-b-q24
+- **skill**: invitation-time
+- **type**: invitation
+- **difficulty**: hard
+- **stem**: Look at Tenzin's invitation card. How long will the party last?
+
+**Diagram (SVG):**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 400" width="580" height="400" role="img" aria-label="A birthday invitation card from Tenzin" font-family="Arial, Helvetica, sans-serif"><title>A birthday invitation card from Tenzin</title><desc>A birthday invitation card with balloons. You are invited! Tenzin is turning 8! Cake, games and a puppet show Day: Sunday, 22 November Time: 4 p.m. to 7 p.m. Place: Hill View House, Gangtok Please wear something blue! Tell Tenzin&#x27;s mother by Thursday if you can come.</desc><rect x="0" y="0" width="580" height="400" fill="#ffffff"/><rect x="14" y="14" width="552" height="372" rx="16" fill="#e3f2fd" stroke="#1565c0" stroke-width="4"/><rect x="26" y="26" width="528" height="348" rx="12" fill="none" stroke="#90caf9" stroke-width="2"/><ellipse cx="62" cy="70" rx="14" ry="18" fill="#e53935" stroke="#333333" stroke-width="1.5"/><line x1="62" y1="88" x2="66" y2="130" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="90" cy="56" rx="14" ry="18" fill="#fdd835" stroke="#333333" stroke-width="1.5"/><line x1="90" y1="74" x2="94" y2="116" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="500" cy="64" rx="14" ry="18" fill="#43a047" stroke="#333333" stroke-width="1.5"/><line x1="500" y1="82" x2="504" y2="124" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="526" cy="80" rx="14" ry="18" fill="#8e24aa" stroke="#333333" stroke-width="1.5"/><line x1="526" y1="98" x2="530" y2="140" stroke="#555555" stroke-width="1.2" stroke-linecap="round"/><text x="290" y="70" font-size="26" text-anchor="middle" font-weight="bold" fill="#0d2c54">You are invited!</text><text x="290" y="111" font-size="22" text-anchor="middle" font-weight="bold" fill="#0d2c54">Tenzin is turning 8!</text><text x="290" y="148" font-size="18" text-anchor="middle" font-weight="normal" fill="#0d2c54">Cake, games and a puppet show</text><text x="290" y="181" font-size="18" text-anchor="middle" font-weight="normal" fill="#0d2c54">Day: Sunday, 22 November</text><text x="290" y="214" font-size="18" text-anchor="middle" font-weight="normal" fill="#0d2c54">Time: 4 p.m. to 7 p.m.</text><text x="290" y="247" font-size="18" text-anchor="middle" font-weight="normal" fill="#0d2c54">Place: Hill View House, Gangtok</text><text x="290" y="280" font-size="18" text-anchor="middle" font-weight="bold" fill="#0d2c54">Please wear something blue!</text><text x="290" y="313" font-size="17" text-anchor="middle" font-weight="normal" fill="#0d2c54">Tell Tenzin&#x27;s mother by Thursday</text><text x="290" y="345" font-size="17" text-anchor="middle" font-weight="normal" fill="#0d2c54">if you can come.</text></svg>
+```
+
+- **alt**: Invitation card: You are invited! Tenzin is turning 8! Cake, games and a puppet show Day: Sunday, 22 November Time: 4 p.m. to 7 p.m. Place: Hill View House, Gangtok Please wear something blue! Tell Tenzin's mother by Thursday if you can come.
+- **options**:
+  - A) 4 hours
+  - B) 7 hours
+  - C) 11 hours
+  - D) 3 hours
+- **hint**: Find the Time line on the invitation card and count the hours from the start to the end.
+- **answer**: D
+- **explanation**: From 4 p.m. to 7 p.m. is 3 hours: 4 to 5, 5 to 6, 6 to 7. '11 hours' comes from adding 4 and 7, which is not how we count time.
+- **pictorial**: yes
+- **olympiad_section**: reading
