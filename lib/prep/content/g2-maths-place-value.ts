@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "10 tens make 100, just as 10 ones make 1 ten. 1 is tempting, but that is how many hundreds are in 100, not tens.",
-    hints: ["Count in tens all the way up to 100.", "Count by tens to 100 and keep one finger up for each number you say."]
+    hints: ["Count in tens: 10, 20, 30, … How many tens make 50? Keep going to 100."]
   },
   {
     id: "g2-maths-place-b-q10",

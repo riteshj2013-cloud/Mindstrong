@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.125 (terminating)" }
     ],
     answerId: "d",
-    explanation: "1 ÷ 8 = 0.125 exactly, so the expansion terminates. 0.121212…. 0. 0. 0.121212… (non-terminating repeating) is tempting if you forget to multiply by the conjugate when rationalising.",
+    explanation: "1 ÷ 8 = 0.125 exactly, so the expansion terminates. 0.121212… is tempting from the first digits, but 1 ÷ 8 ends exactly.",
     hints: ["Divide 1 by 8 using long division. Does the remainder become zero, or does a block of digits repeat?"]
   },
   {
@@ -206,10 +206,10 @@ const SET_A: PrepQuestion[] = [
       { id: "a", text: "π" },
       { id: "b", text: "√7" },
       { id: "c", text: "0.101001000100001… (pattern of growing zeros)" },
-      { id: "d", text: "0.¯27" }
+      { id: "d", text: "0.272727…" }
     ],
     answerId: "d",
-    explanation: "0.¯27 = 27/99 is a repeating decimal, hence rational. The others are irrational. π is tempting if you place the repeating bar over the wrong digit block.",
+    explanation: "0.272727… = 27/99 is a repeating decimal, hence rational. The others are irrational. π is tempting because 22/7 is often used for it, but that is only an approximation; π is irrational.",
     hints: ["Repeating decimals are rational; non-repeating non-terminating are not."]
   },
   {
@@ -594,7 +594,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g9-maths-numbers-b-q22",
-    prompt: "Which equals 8^{2/3}?",
+    prompt: "Which equals 8 to the power 2/3?",
     options: [
       { id: "a", text: "2" },
       { id: "b", text: "4" },
@@ -602,8 +602,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "64" }
     ],
     answerId: "b",
-    explanation: "8^{2/3} = (8^{1/3})² = 2² = 4. 2 is tempting if you match the bases but forget to adjust after equating the exponents.",
-    hints: ["Cube root of 8 is 2, then square."]
+    explanation: "8 to the power 2/3 means the cube root of 8, squared: the cube root of 8 is 2, and 2² = 4. 2 is tempting if you take the cube root of 8 and forget to square it.",
+    hints: ["The 3 in 2/3 tells you which root to take, and the 2 tells you which power to raise it to. Do both steps before you choose."]
   },
   {
     id: "g9-maths-numbers-b-q23",

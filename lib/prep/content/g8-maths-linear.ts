@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "-18" }
     ],
     answerId: "a",
-    explanation: "The equation is n + 12 = 30, so n = 30 − 12 = 18. 2. 2.5 is tempting if you move a term across the equals sign without flipping its sign; solving carefully gives 18. 2.5 is tempting if you add a constant that should be subtracted when isolating the variable; balancing both sides gives 18.",
+    explanation: "The equation is n + 12 = 30, so n = 30 − 12 = 18. 42 is tempting if you add 12 instead of subtracting it; 2.5 comes from 30 ÷ 12.",
     hints: ["Write n + 12 = 30, then subtract 12 from both sides."]
   },
   {

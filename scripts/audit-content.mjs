@@ -650,7 +650,7 @@ for (const id of explMismatchBaseline) {
  * MERGE GATES (all grades; must be 0 before merge):
  *  - placeholder / code-word tokens in explanation or hints
  *  - quoted fragments of the prompt pasted into explanation/hints
- *  - "(qNN)" or internal item ids in explanation/hints
+ *  - "(qNN)" or "in qNN" or internal item ids in explanation/hints
  *  - stray number fragments in explanations
  *  - same distractor named twice in one explanation
  *  - tempting/quoted value that is not an option
@@ -672,7 +672,7 @@ const BROKEN_HINT_RES = [
 ];
 const STRAY_INT_ORPHAN_RE = /[.!?]\s+\d+\.\s+/;
 const STRAY_DEC_DUP_RE = /(\d+\.\d+)\.\s+\1(?:\s|\.|$)/;
-const INTERNAL_ID_RE = /\(q\d{1,3}\)|g\d+-[a-z]+-[a-z0-9-]+-q\d+/i;
+const INTERNAL_ID_RE = /\(q\d{1,3}\)|\bin q\d{1,3}\b|g\d+-[a-z]+-[a-z0-9-]+-q\d+/i;
 
 const gateStats = {
   placeholder: Object.create(null),
@@ -767,7 +767,7 @@ for (const { questions } of [...servedSets, ...servedPapers]) {
         findings.push({
           rule: "merge-gate-internal-id",
           where: `${id}.${slot}`,
-          text: `${id} ${slot} names an internal id or (qNN): ${JSON.stringify(text.slice(0, 140))}`,
+          text: `${id} ${slot} names an internal id, (qNN), or in qNN: ${JSON.stringify(text.slice(0, 140))}`,
         });
       }
       // recycled sentences (explanation + hints), threshold >3 within grade

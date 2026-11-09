@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "25y\u00b2 + 30y + 9" }
     ],
     answerId: "a",
-    explanation: "(5y − 3)² = 25y² − 2·5y·3 + 9 = 25y² − 30y + 9. 25y² + 9 is tempting if you square each part and drop the middle cross term −30y; the full square needs that middle term, giving 25y² − 30y + 9.",
+    explanation: "(5y − 3)² = 25y² − 2·5y·3 + 9 = 25y² − 30y + 9. 25y² − 9 is tempting if you mix up (5y − 3)² with (5y − 3)(5y + 3), the difference of squares, which has no middle term and ends in −9.",
     hints: ["Use (a − b)² = a² − 2ab + b² with a = 5y and b = 3."]
   },
   {
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x\u00b2 \u2212 14x + 49" }
     ],
     answerId: "d",
-    explanation: "(x − 7)² = x² − 14x + 49. x² + 49 is tempting if you forget the middle −2·x·7 term (or make it positive); the square expands to x² − 14x + 49.",
+    explanation: "(x − 7)² = x² − 14x + 49. x² − 49 is tempting if you mix up (x − 7)² with (x − 7)(x + 7), the difference of squares, which equals x² − 49.",
     hints: ["Use (a − b)² = a² − 2ab + b² with a = x and b = 7."]
   },
   {

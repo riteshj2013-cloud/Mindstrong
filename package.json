@@ -16,7 +16,8 @@
     "mobile:open:android": "npx cap open android",
     "mobile:open:ios": "npx cap open ios",
     "mobile:branding": "python3 scripts/generate_mobile_branding.py",
-    "mobile:build:android": "bash scripts/build-android.sh"
+    "mobile:build:android": "bash scripts/build-android.sh",
+    "check:pr-hold": "node scripts/check-pr-hold.mjs"
   },
   "dependencies": {
     "@capacitor/android": "^8.5.3",
