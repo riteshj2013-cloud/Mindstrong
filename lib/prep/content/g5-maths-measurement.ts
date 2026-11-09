@@ -1,4 +1,5 @@
 import type { ChapterDef, PrepQuestion } from "../types";
+import { g5MathsMeasurementAchievers } from "./g5-maths-measurement-achievers";
 
 /** Measurement & Area - original olympiad-style content (not affiliated with SOF). */
 
@@ -707,6 +708,13 @@ export const g5MathsMeasurement: ChapterDef = {
       questionCount: SET_B.length,
       topic: "decimals",
       questions: SET_B,
+    },
+    {
+      id: "set-achievers",
+      title: "Achievers",
+      questionCount: g5MathsMeasurementAchievers.length,
+      topic: "measurement",
+      questions: g5MathsMeasurementAchievers,
     },
   ],
   paperTopics: ["decimals", "add-sub", "percent"],

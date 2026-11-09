@@ -1,4 +1,5 @@
 import type { ChapterDef, PrepQuestion } from "../types";
+import { g5MathsLargeNumbersAchievers } from "./g5-maths-large-numbers-achievers";
 
 /** Large Numbers - original olympiad-style content (not affiliated with SOF). */
 
@@ -780,6 +781,13 @@ export const g5MathsLargeNumbers: ChapterDef = {
       questionCount: SET_B.length,
       topic: "place-value",
       questions: SET_B,
+    },
+    {
+      id: "set-achievers",
+      title: "Achievers",
+      questionCount: g5MathsLargeNumbersAchievers.length,
+      topic: "place-value",
+      questions: g5MathsLargeNumbersAchievers,
     },
   ],
   paperTopics: ["place-value", "add-sub"],

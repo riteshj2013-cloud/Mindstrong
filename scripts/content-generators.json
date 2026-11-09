@@ -23,7 +23,8 @@
   "scripts/patch-english-passages.mjs": "G5 English passage patcher (no-op on current files; hard-codes /workspace/Mindstrong paths)",
   "scripts/ingest_g3_english_reading.py": "G3 English ch04 Reading",
   "scripts/ingest_g3_english_expression.py": "G3 English ch05 Spoken and Written Expression",
-  "scripts/ingest_g3_english_words.py": "G3 English ch06 Words and Word Power"
+  "scripts/ingest_g3_english_words.py": "G3 English ch06 Words and Word Power",
+  "scripts/ingest_g5_maths_achievers_extras.py": "G5 Maths Achievers extras (5 per chapter \u00d7 6)"
  },
  "retired": {
   "scripts/seed_g7_full.py": "G7 pack: rewrites G7 English and Maths content and hints (undoes the #58 integer stems and the #62 near-duplicate rewrites)",

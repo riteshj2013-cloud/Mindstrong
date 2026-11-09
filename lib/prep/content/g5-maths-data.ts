@@ -1,4 +1,5 @@
 import type { ChapterDef, PrepQuestion } from "../types";
+import { g5MathsDataAchievers } from "./g5-maths-data-achievers";
 
 /** Data Handling - original olympiad-style content (not affiliated with SOF). */
 
@@ -707,6 +708,13 @@ export const g5MathsData: ChapterDef = {
       questionCount: SET_B.length,
       topic: "percent",
       questions: SET_B,
+    },
+    {
+      id: "set-achievers",
+      title: "Achievers",
+      questionCount: g5MathsDataAchievers.length,
+      topic: "data",
+      questions: g5MathsDataAchievers,
     },
   ],
   paperTopics: ["percent", "decimals", "add-sub"],
