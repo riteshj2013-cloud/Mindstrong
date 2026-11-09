@@ -69,7 +69,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Panel D" }
     ],
     answerId: "c",
-    explanation: "A half means 1 of 2 equal parts. Only Panel C shows that. Panel A may look right because one part is shaded, but its two parts are not equal; Panel B shows 1/3 and Panel D shows 1/4. Panel A is tempting, but it does not fit the facts in the question.",
+    explanation: "A half means 1 of 2 equal parts. Only Panel C shows that. Panel A may look right because one part is shaded, but its two parts are not equal; Panel B shows 1/3 and Panel D shows 1/4. Panel A is tempting if the top or bottom is taken from the wrong count in the diagram (shaded vs unshaded vs total); the fraction is Panel C.",
     hints: ["1/2 means 1 of 2 equal parts — skip unequal cuts and other counts."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 480 260\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Four diagrams which shows one half\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"480\" height=\"260\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"240\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Which shows 1/2 shaded?</text>\n  <rect class=\"part panel\" x=\"10\" y=\"34\" width=\"225\" height=\"100\" rx=\"8\" fill=\"#fff\" stroke=\"#666\" stroke-width=\"1\"/>\n  <text class=\"label option-label\" x=\"24\" y=\"56\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1565c0\">A</text>\n  <rect class=\"part piece shaded\" x=\"50\" y=\"60\" width=\"50\" height=\"55\" fill=\"#ffab91\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"100\" y=\"60\" width=\"100\" height=\"55\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part panel\" x=\"245\" y=\"34\" width=\"225\" height=\"100\" rx=\"8\" fill=\"#fff\" stroke=\"#666\" stroke-width=\"1\"/>\n  <text class=\"label option-label\" x=\"259\" y=\"56\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1565c0\">B</text>\n  <path class=\"part slice shaded\" d=\"M 357 90 L 357.0 58.0 A 32 32 0 0 1 384.7 106.0 Z\" fill=\"#ffab91\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <path class=\"part slice\" d=\"M 357 90 L 384.7 106.0 A 32 32 0 0 1 329.3 106.0 Z\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <path class=\"part slice\" d=\"M 357 90 L 329.3 106.0 A 32 32 0 0 1 357.0 58.0 Z\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part panel\" x=\"10\" y=\"144\" width=\"225\" height=\"100\" rx=\"8\" fill=\"#fff\" stroke=\"#666\" stroke-width=\"1\"/>\n  <text class=\"label option-label\" x=\"24\" y=\"166\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1565c0\">C</text>\n  <path class=\"part slice shaded\" d=\"M 122 200 L 122.0 168.0 A 32 32 0 0 1 122.0 232.0 Z\" fill=\"#ffab91\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <path class=\"part slice\" d=\"M 122 200 L 122.0 232.0 A 32 32 0 0 1 122.0 168.0 Z\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part panel\" x=\"245\" y=\"144\" width=\"225\" height=\"100\" rx=\"8\" fill=\"#fff\" stroke=\"#666\" stroke-width=\"1\"/>\n  <text class=\"label option-label\" x=\"259\" y=\"166\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1565c0\">D</text>\n  <rect class=\"part piece shaded\" x=\"280.0\" y=\"175\" width=\"40.0\" height=\"40\" rx=\"0\" fill=\"#ffab91\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"320.0\" y=\"175\" width=\"40.0\" height=\"40\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"360.0\" y=\"175\" width=\"40.0\" height=\"40\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"400.0\" y=\"175\" width=\"40.0\" height=\"40\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n</svg>", "alt": "Four panels. A has unequal parts with the small part shaded. B is a circle in 3 equal parts with 1 shaded. C is a circle in 2 equal parts with 1 shaded. D is a bar in 4 equal parts with 1 shaded."}
   },
@@ -97,7 +97,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "b",
-    explanation: "When denominators match, the larger numerator wins. 5/9 > 4/9. 4/9 is tempting if you compare the wrong parts of the fractions, but the correct comparison gives 5/9.",
+    explanation: "When denominators match, the larger numerator wins. 5/9 > 4/9. 4/9 is tempting if the top or bottom is taken from the wrong count in the diagram (shaded vs unshaded vs total); the fraction is 5/9.",
     hints: ["Same bottoms: the larger top is the greater fraction."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 460 165\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Bars comparing five ninths and four ninths\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"460\" height=\"165\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"240\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Same-size bars</text>\n  <text class=\"label\" x=\"30\" y=\"58\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">5/9</text>\n  <rect class=\"part piece shaded\" x=\"70.0\" y=\"40\" width=\"40.0\" height=\"30\" rx=\"0\" fill=\"#ffab91\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece shaded\" x=\"110.0\" y=\"40\" width=\"40.0\" height=\"30\" rx=\"0\" fill=\"#ffab91\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece shaded\" x=\"150.0\" y=\"40\" width=\"40.0\" height=\"30\" rx=\"0\" fill=\"#ffab91\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece shaded\" x=\"190.0\" y=\"40\" width=\"40.0\" height=\"30\" rx=\"0\" fill=\"#ffab91\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece shaded\" x=\"230.0\" y=\"40\" width=\"40.0\" height=\"30\" rx=\"0\" fill=\"#ffab91\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"270.0\" y=\"40\" width=\"40.0\" height=\"30\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"310.0\" y=\"40\" width=\"40.0\" height=\"30\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"350.0\" y=\"40\" width=\"40.0\" height=\"30\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"390.0\" y=\"40\" width=\"40.0\" height=\"30\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"30\" y=\"108\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">4/9</text>\n  <rect class=\"part piece shaded\" x=\"70.0\" y=\"90\" width=\"40.0\" height=\"30\" rx=\"0\" fill=\"#80cbc4\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece shaded\" x=\"110.0\" y=\"90\" width=\"40.0\" height=\"30\" rx=\"0\" fill=\"#80cbc4\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece shaded\" x=\"150.0\" y=\"90\" width=\"40.0\" height=\"30\" rx=\"0\" fill=\"#80cbc4\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece shaded\" x=\"190.0\" y=\"90\" width=\"40.0\" height=\"30\" rx=\"0\" fill=\"#80cbc4\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"230.0\" y=\"90\" width=\"40.0\" height=\"30\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"270.0\" y=\"90\" width=\"40.0\" height=\"30\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"310.0\" y=\"90\" width=\"40.0\" height=\"30\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"350.0\" y=\"90\" width=\"40.0\" height=\"30\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"390.0\" y=\"90\" width=\"40.0\" height=\"30\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label small\" x=\"240\" y=\"150\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Both bars are the same length with equal parts.</text>\n</svg>", "alt": "Two equal-length bars. The top has 5 of 9 parts shaded. The bottom has 4 of 9 parts shaded."}
   },
@@ -152,7 +152,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3/2" }
     ],
     answerId: "c",
-    explanation: "Dividing both 12 and 18 by their biggest common factor, 6, gives 2/3, while 6/9 and 4/6 are only partly simplified. 6/9 is tempting if you stop before dividing by the highest common factor; fully simplified it is 2/3.",
+    explanation: "Dividing both 12 and 18 by their biggest common factor, 6, gives 2/3, while 6/9 and 4/6 are only partly simplified. 6/9 is tempting if you cancel a factor that appears in only one of the numerator or denominator; cancelling a shared factor gives 2/3.",
     hints: ["Find the HCF of 12 and 18, then divide the top and bottom by it."]
   },
   {
@@ -165,7 +165,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "They cannot be compared" }
     ],
     answerId: "b",
-    explanation: "With the same numerator, the smaller denominator means bigger pieces, so 1/5 is greater even though 8 is bigger than 5. 1/8 is tempting if you compare the wrong parts of the fractions, but the correct comparison gives 1/5.",
+    explanation: "With the same numerator, the smaller denominator means bigger pieces, so 1/5 is greater even though 8 is bigger than 5. 1/8 is tempting if you compare numerators alone (or denominators alone) without a common denominator; the correct comparison gives 1/5.",
     hints: ["Share one roti among 5 children and another among 8. Which share is bigger?"]
   },
   {
@@ -178,7 +178,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "d",
-    explanation: "1/5 of 30 is 6, so 2/5 of 30 is 2 × 6 = 12. 6 may look right, but that is only 1/5 of 30. 15 is tempting if the top or bottom is taken from the wrong count in the diagram; the fraction is 12.",
+    explanation: "1/5 of 30 is 6, so 2/5 of 30 is 2 × 6 = 12. 6 may look right, but that is only 1/5 of 30. 15 is tempting if you divide only the numerator by the common factor and leave the denominator; dividing both gives 12.",
     hints: ["Find 1/5 of the 30 students by dividing by 5, then multiply by 2."]
   },
   {
@@ -191,7 +191,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1/5" }
     ],
     answerId: "c",
-    explanation: "9/10 − 4/10 = 5/10, which simplifies to 1/2 when we divide the top and bottom by 5. 13/20 is tempting if you stop before dividing by the highest common factor; fully simplified it is 1/2.",
+    explanation: "9/10 − 4/10 = 5/10, which simplifies to 1/2 when we divide the top and bottom by 5. 13/20 is tempting if you rewrite with a larger common factor than the numbers actually share; using the true HCF gives 1/2.",
     hints: ["Same bottoms: subtract the tops 9 − 4, keep tenths, then simplify."]
   },
   {
@@ -204,7 +204,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3/7" }
     ],
     answerId: "a",
-    explanation: "2 wholes make 6 thirds, and 1 more third gives 7/3, while 5/3 wrongly adds 2 + 3 for the top. 5/3 is tempting if the top or bottom is taken from the wrong count in the diagram; the fraction is 7/3.",
+    explanation: "2 wholes make 6 thirds, and 1 more third gives 7/3, while 5/3 wrongly adds 2 + 3 for the top. 5/3 is tempting if you multiply (or divide) only the top or only the bottom; scaling both by the same factor gives 7/3.",
     hints: ["Each whole is 3 thirds. Find the thirds in 2 wholes, then add the extra 1 third."]
   },
   {
@@ -217,7 +217,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3/6" }
     ],
     answerId: "b",
-    explanation: "The line is split into 6 equal parts. P sits on the fourth mark after 0, so P is at 4/6. 2/6 is tempting if the top or bottom is taken from the wrong count in the diagram; the fraction is 4/6.",
+    explanation: "The line is split into 6 equal parts. P sits on the fourth mark after 0, so P is at 4/6. 2/6 is tempting if you operate on numerators and denominators inconsistently; the correct fraction is 4/6.",
     hints: ["Count equal jumps from 0 to 1, then see which mark point P sits on."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 480 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Number line from 0 to 1 in sixths with point P\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"480\" height=\"160\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"240\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Fractions on a number line</text>\n  <line class=\"axis\" x1=\"40\" y1=\"90\" x2=\"440\" y2=\"90\" stroke=\"#333\" stroke-width=\"2\"/>\n  <polygon class=\"arrow\" points=\"446,90 438,85 438,95\" fill=\"#333\"/>\n  <line class=\"tick\" x1=\"40.0\" y1=\"80\" x2=\"40.0\" y2=\"100\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"40.0\" y=\"118\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">0</text>\n  <line class=\"tick\" x1=\"106.7\" y1=\"80\" x2=\"106.7\" y2=\"100\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"106.7\" y=\"118\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">1/6</text>\n  <line class=\"tick\" x1=\"173.3\" y1=\"80\" x2=\"173.3\" y2=\"100\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"173.3\" y=\"118\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">2/6</text>\n  <line class=\"tick\" x1=\"240.0\" y1=\"80\" x2=\"240.0\" y2=\"100\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"240.0\" y=\"118\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">3/6</text>\n  <line class=\"tick\" x1=\"306.7\" y1=\"80\" x2=\"306.7\" y2=\"100\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"306.7\" y=\"118\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">4/6</text>\n  <line class=\"tick\" x1=\"373.3\" y1=\"80\" x2=\"373.3\" y2=\"100\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"373.3\" y=\"118\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">5/6</text>\n  <line class=\"tick\" x1=\"440.0\" y1=\"80\" x2=\"440.0\" y2=\"100\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"440.0\" y=\"118\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">1</text>\n  <circle class=\"part point\" cx=\"306.7\" cy=\"90\" r=\"8\" fill=\"#42a5f5\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"306.7\" y=\"60\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">P</text>\n  <text class=\"label small\" x=\"240\" y=\"145\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">The line from 0 to 1 is split into 6 equal parts.</text>\n</svg>", "alt": "A number line from 0 to 1 with marks at each sixth. A blue point P sits at the 4/6 mark."}
   },
@@ -244,7 +244,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "23" }
     ],
     answerId: "b",
-    explanation: "The denominator is multiplied by 5 to go from 4 to 20, so the numerator must also be multiplied by 5, giving 15. 16 is tempting if the top or bottom is taken from the wrong count in the diagram; the fraction is 15.",
+    explanation: "The denominator is multiplied by 5 to go from 4 to 20, so the numerator must also be multiplied by 5, giving 15. 16 is tempting if you add tops and bottoms when the question asks to simplify a single fraction; simplifying gives 15.",
     hints: ["What do you multiply 4 by to get 20? Multiply 3 by the same number."]
   },
   {
@@ -257,7 +257,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3/2" }
     ],
     answerId: "c",
-    explanation: "He has bowled 4 of 6 balls, which is 4/6 = 2/3, while 1/3 is the part still left. 4/10 is tempting if you stop before dividing by the highest common factor; fully simplified it is 2/3.",
+    explanation: "He has bowled 4 of 6 balls, which is 4/6 = 2/3, while 1/3 is the part still left. 4/10 is tempting if you flip the fraction while simplifying; keeping numerator over denominator gives 2/3.",
     hints: ["Write 4 balls bowled out of 6 as a fraction, then divide top and bottom by 2."]
   },
   {
@@ -270,7 +270,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "28" }
     ],
     answerId: "a",
-    explanation: "Red is 48 ÷ 4 = 12 and blue is 48 ÷ 3 = 16, so yellow is 48 − 12 − 16 = 20. 16 is tempting if the top or bottom is taken from the wrong count in the diagram; the fraction is 20.",
+    explanation: "Red is 48 ÷ 4 = 12 and blue is 48 ÷ 3 = 16, so yellow is 48 − 12 − 16 = 20. 16 is tempting if you stop after one cancellation when another common factor remains; fully reduced it is 20.",
     hints: ["Find 1/4 of 48 and 1/3 of 48, add them, then subtract that from 48."]
   },
   {
@@ -283,7 +283,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3/4" }
     ],
     answerId: "d",
-    explanation: "Writing all of them with denominator 24 gives 18/24, 15/24, 14/24 and 16/24, so 3/4 is the greatest. 2/3 is tempting if you compare the wrong parts of the fractions, but the correct comparison gives 3/4.",
+    explanation: "Writing all of them with denominator 24 gives 18/24, 15/24, 14/24 and 16/24, so 3/4 is the greatest. 2/3 is tempting if you operate on numerators and denominators inconsistently; the correct fraction is 3/4.",
     hints: ["Write each fraction with the common denominator 24, then compare the tops."]
   },
   {
@@ -296,7 +296,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "25" }
     ],
     answerId: "a",
-    explanation: "There are 3/8 × 40 = 15 girls and 40 − 15 = 25 boys, so there are 25 − 15 = 10 more boys. 5 is tempting if the top or bottom is taken from the wrong count in the diagram; the fraction is 10.",
+    explanation: "There are 3/8 × 40 = 15 girls and 40 − 15 = 25 boys, so there are 25 − 15 = 10 more boys. 5 is tempting if you compare numerators alone (or denominators alone) without a common denominator; the correct comparison gives 10.",
     hints: ["Find the girls as 3/8 of 40. The boys are the rest; subtract girls from boys."]
   },
   {
@@ -309,7 +309,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3/18" }
     ],
     answerId: "c",
-    explanation: "Together they ate 6/9, so 9/9 − 6/9 = 3/9 is left, which simplifies to 1/3, while 2/3 is the part eaten. 2/3 is tempting because it is the part used or eaten, but the question asks for what is left, which is 1/3.",
+    explanation: "Together they ate 6/9, so 9/9 − 6/9 = 3/9 is left, which simplifies to 1/3, while 2/3 is the part eaten. 2/3 is tempting if you compare cross-products the wrong way round; the correct fraction relation gives 1/3.",
     hints: ["Add what Meera and her brother ate, take it from 9/9, then simplify."]
   },
   {
@@ -352,7 +352,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "a",
-    explanation: "The numerator is the top number, which tells how many parts we are counting, so it is 4. 5 is tempting if the top or bottom is taken from the wrong count in the diagram; the fraction is 4.",
+    explanation: "The numerator is the top number, which tells how many parts we are counting, so it is 4. 5 is tempting if you take shaded parts over unshaded parts instead of over the whole; the fraction of the whole is 4.",
     hints: ["Numerator is the top number — parts you count."]
   },
   {
@@ -418,7 +418,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "b",
-    explanation: "With the same numerator, the smaller denominator means larger pieces. 1/5 > 1/8. 1/8 is tempting if you compare the wrong parts of the fractions, but the correct comparison gives 1/5.",
+    explanation: "With the same numerator, the smaller denominator means larger pieces. 1/5 > 1/8. 1/8 is tempting if the top or bottom is taken from the wrong count in the diagram (shaded vs unshaded vs total); the fraction is 1/5.",
     hints: ["Same tops: the smaller bottom means larger pieces."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 460 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Bars comparing one fifth and one eighth\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"460\" height=\"160\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"240\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Same numerator, different pieces</text>\n  <text class=\"label\" x=\"30\" y=\"58\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">1/5</text>\n  <rect class=\"part piece shaded\" x=\"70.0\" y=\"40\" width=\"72.0\" height=\"28\" rx=\"0\" fill=\"#ffab91\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"142.0\" y=\"40\" width=\"72.0\" height=\"28\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"214.0\" y=\"40\" width=\"72.0\" height=\"28\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"286.0\" y=\"40\" width=\"72.0\" height=\"28\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"358.0\" y=\"40\" width=\"72.0\" height=\"28\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"30\" y=\"108\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#333\">1/8</text>\n  <rect class=\"part piece shaded\" x=\"70.0\" y=\"90\" width=\"45.0\" height=\"28\" rx=\"0\" fill=\"#80cbc4\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"115.0\" y=\"90\" width=\"45.0\" height=\"28\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"160.0\" y=\"90\" width=\"45.0\" height=\"28\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"205.0\" y=\"90\" width=\"45.0\" height=\"28\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"250.0\" y=\"90\" width=\"45.0\" height=\"28\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"295.0\" y=\"90\" width=\"45.0\" height=\"28\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"340.0\" y=\"90\" width=\"45.0\" height=\"28\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"385.0\" y=\"90\" width=\"45.0\" height=\"28\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label small\" x=\"240\" y=\"145\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Both bars are the same length.</text>\n</svg>", "alt": "Two equal-length bars. The top is cut into 5 with 1 shaded. The bottom is cut into 8 with 1 shaded."}
   },
@@ -474,7 +474,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2/8" }
     ],
     answerId: "c",
-    explanation: "Divide top and bottom by 2: 6 ÷ 2 = 3 and 8 ÷ 2 = 4, so 3/4. 6/4 is tempting if you stop before dividing by the highest common factor; fully simplified it is 3/4.",
+    explanation: "Divide top and bottom by 2: 6 ÷ 2 = 3 and 8 ÷ 2 = 4, so 3/4. 6/4 is tempting if you count the total parts as only the unshaded ones; using all equal parts gives 3/4.",
     hints: ["Divide the top 6 and bottom 8 by their common factor 2."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 480 155\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Bar with 6 of 8 shaded to simplify\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"480\" height=\"155\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"240\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Simplify the shaded fraction</text>\n  <rect class=\"part piece shaded\" x=\"40.0\" y=\"50\" width=\"50.0\" height=\"45\" rx=\"0\" fill=\"#ffab91\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece shaded\" x=\"90.0\" y=\"50\" width=\"50.0\" height=\"45\" rx=\"0\" fill=\"#ffab91\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece shaded\" x=\"140.0\" y=\"50\" width=\"50.0\" height=\"45\" rx=\"0\" fill=\"#ffab91\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece shaded\" x=\"190.0\" y=\"50\" width=\"50.0\" height=\"45\" rx=\"0\" fill=\"#ffab91\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece shaded\" x=\"240.0\" y=\"50\" width=\"50.0\" height=\"45\" rx=\"0\" fill=\"#ffab91\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece shaded\" x=\"290.0\" y=\"50\" width=\"50.0\" height=\"45\" rx=\"0\" fill=\"#ffab91\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"340.0\" y=\"50\" width=\"50.0\" height=\"45\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect class=\"part piece\" x=\"390.0\" y=\"50\" width=\"50.0\" height=\"45\" rx=\"0\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label small\" x=\"220\" y=\"125\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">6 pieces are shaded out of 8 equal pieces.</text>\n  <text class=\"label small\" x=\"220\" y=\"142\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Divide top and bottom by the same number.</text>\n</svg>", "alt": "A bar divided into 8 equal pieces with the first 6 shaded."}
   },
@@ -488,7 +488,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "They cannot be compared" }
     ],
     answerId: "c",
-    explanation: "With the same numerator, fifths are bigger pieces than eighths, so 3/5 is greater. 3/8 is tempting if you compare the wrong parts of the fractions, but the correct comparison gives 3/5.",
+    explanation: "With the same numerator, fifths are bigger pieces than eighths, so 3/5 is greater. 3/8 is tempting if you compare numerators alone (or denominators alone) without a common denominator; the correct comparison gives 3/5.",
     hints: ["Both have 3 parts on top. Is a fifth or an eighth of a bar the bigger piece?"]
   },
   {
@@ -501,7 +501,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "24" }
     ],
     answerId: "d",
-    explanation: "1/4 of 32 is 8, so 3/4 of 32 is 3 × 8 = 24, while 8 is the number of unripe mangoes. 8 is tempting if the top or bottom is taken from the wrong count in the diagram; the fraction is 24.",
+    explanation: "1/4 of 32 is 8, so 3/4 of 32 is 3 × 8 = 24, while 8 is the number of unripe mangoes. 8 is tempting if you keep an unsimplified form that still shares a factor; lowest terms is 24.",
     hints: ["Find 1/4 of 32 mangoes by dividing by 4, then multiply by 3."]
   },
   {
@@ -514,7 +514,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "10/8" }
     ],
     answerId: "a",
-    explanation: "7/8 − 3/8 = 4/8, which simplifies to 1/2 when we divide the top and bottom by 4. 4/16 is tempting if you stop before dividing by the highest common factor; fully simplified it is 1/2.",
+    explanation: "7/8 − 3/8 = 4/8, which simplifies to 1/2 when we divide the top and bottom by 4. 4/16 is tempting if you multiply top and bottom by different numbers when making an equivalent fraction; the same factor gives 1/2.",
     hints: ["Same bottoms: subtract the tops 7 − 3, keep eighths, then simplify."]
   },
   {
@@ -527,7 +527,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "c",
-    explanation: "The flag is above the third quarter mark after 0, which is 3/4. 1/4 is tempting if the top or bottom is taken from the wrong count in the diagram; the fraction is 3/4.",
+    explanation: "The flag is above the third quarter mark after 0, which is 3/4. 1/4 is tempting if you operate on numerators and denominators inconsistently; the correct fraction is 3/4.",
     hints: ["Read the tick labels; the dashed flag sits on one of them."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 480 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Number line in quarters with flag at three quarters\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"480\" height=\"170\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"240\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Place the flag</text>\n  <line class=\"axis\" x1=\"40\" y1=\"100\" x2=\"440\" y2=\"100\" stroke=\"#333\" stroke-width=\"2\"/>\n  <line class=\"tick\" x1=\"40\" y1=\"90\" x2=\"40\" y2=\"110\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"40\" y=\"128\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">0</text>\n  <line class=\"tick\" x1=\"140\" y1=\"90\" x2=\"140\" y2=\"110\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"140\" y=\"128\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">1/4</text>\n  <line class=\"tick\" x1=\"240\" y1=\"90\" x2=\"240\" y2=\"110\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"240\" y=\"128\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">2/4</text>\n  <line class=\"tick\" x1=\"340\" y1=\"90\" x2=\"340\" y2=\"110\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"340\" y=\"128\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">3/4</text>\n  <line class=\"tick\" x1=\"440\" y1=\"90\" x2=\"440\" y2=\"110\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"440\" y=\"128\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">1</text>\n  <rect class=\"part missing\" x=\"320\" y=\"55\" width=\"40\" height=\"28\" rx=\"4\" fill=\"#fff3e0\" stroke=\"#e65100\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/>\n  <text class=\"label\" x=\"340\" y=\"75\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">?</text>\n  <line class=\"arrow\" x1=\"340\" y1=\"85\" x2=\"340\" y2=\"95\" stroke=\"#e65100\" stroke-width=\"1.5\"/>\n  <text class=\"label small\" x=\"240\" y=\"155\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">The dashed flag marks one of the quarter points.</text>\n</svg>", "alt": "A number line from 0 to 1 marked in quarters. A dashed orange flag sits above the 3/4 mark."}
   },
@@ -541,7 +541,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1/6" }
     ],
     answerId: "c",
-    explanation: "The point is at 6/8, and 6/8 simplifies to 3/4. 2/3 is tempting if the top or bottom is taken from the wrong count in the diagram; the fraction is 3/4.",
+    explanation: "The point is at 6/8, and 6/8 simplifies to 3/4. 2/3 is tempting if you operate on numerators and denominators inconsistently; the correct fraction is 3/4.",
     hints: ["The point is 6 jumps of 1/8 each. Write that as a fraction over 8, then divide top and bottom by their common factor."]
   },
   {
@@ -567,7 +567,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "d",
-    explanation: "The numerator is multiplied by 6 to go from 4 to 24, so the denominator must also be multiplied by 6, giving 30. 29 is tempting if the top or bottom is taken from the wrong count in the diagram; the fraction is 30.",
+    explanation: "The numerator is multiplied by 6 to go from 4 to 24, so the denominator must also be multiplied by 6, giving 30. 29 is tempting if you subtract the smaller numerator from the larger without a common denominator; matching bottoms first gives 30.",
     hints: ["What do you multiply 4 by to get 24? Multiply 5 by the same number."]
   },
   {
@@ -580,7 +580,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "50" }
     ],
     answerId: "b",
-    explanation: "5/6 of 60 km is 50 km, so 60 − 50 = 10 km are left, while 50 is the distance already covered. 12 is tempting if the top or bottom is taken from the wrong count in the diagram; the fraction is 10.",
+    explanation: "5/6 of 60 km is 50 km, so 60 − 50 = 10 km are left, while 50 is the distance already covered. 12 is tempting because it is the part used or eaten, but the question asks for what is left, which is 10.",
     hints: ["The part left is 1 − 5/6 of the journey. Find that fraction of 60 km."]
   },
   {
@@ -593,7 +593,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "6/3" }
     ],
     answerId: "b",
-    explanation: "3 out of 6 balls are done, so 3/6. Dividing top and bottom by 3 gives 1/2. 3/6 is tempting if you stop before dividing by the highest common factor; fully simplified it is 1/2.",
+    explanation: "3 out of 6 balls are done, so 3/6. Dividing top and bottom by 3 gives 1/2. 3/6 is tempting if you cancel a factor that appears in only one of the numerator or denominator; cancelling a shared factor gives 1/2.",
     hints: ["Count the balls already bowled out of the six, write that as a fraction, then simplify it."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 420 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Six balls with first three shaded\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"420\" height=\"170\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"240\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Balls in an over</text>\n  <circle class=\"part marble\" cx=\"60\" cy=\"90\" r=\"24\" fill=\"#64b5f6\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"60\" y=\"96\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">1</text>\n  <circle class=\"part marble\" cx=\"120\" cy=\"90\" r=\"24\" fill=\"#64b5f6\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"120\" y=\"96\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">2</text>\n  <circle class=\"part marble\" cx=\"180\" cy=\"90\" r=\"24\" fill=\"#64b5f6\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"180\" y=\"96\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">3</text>\n  <circle class=\"part marble\" cx=\"240\" cy=\"90\" r=\"24\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"240\" y=\"96\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">4</text>\n  <circle class=\"part marble\" cx=\"300\" cy=\"90\" r=\"24\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"300\" y=\"96\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">5</text>\n  <circle class=\"part marble\" cx=\"360\" cy=\"90\" r=\"24\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"360\" y=\"96\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">6</text>\n  <text class=\"label small\" x=\"240\" y=\"140\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Blue balls have already been bowled.</text>\n  <text class=\"label small\" x=\"240\" y=\"156\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">An over has 6 balls in all.</text>\n</svg>", "alt": "Six cricket balls in a row numbered 1 to 6. The first three are shaded blue."}
   },
@@ -607,7 +607,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5/9" }
     ],
     answerId: "d",
-    explanation: "Each fraction is just over half, and the amount over half shrinks from 2/3 to 5/9, which makes 5/9 the smallest. 2/3 is tempting if the top or bottom is taken from the wrong count in the diagram; the fraction is 5/9.",
+    explanation: "Each fraction is just over half, and the amount over half shrinks from 2/3 to 5/9, which makes 5/9 the smallest. 2/3 is tempting if you compare numerators alone (or denominators alone) without a common denominator; the correct comparison gives 5/9.",
     hints: ["Change each fraction to a decimal by dividing top by bottom, then find the smallest."]
   },
   {
@@ -620,7 +620,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1/3" }
     ],
     answerId: "b",
-    explanation: "20 − 15 = 5 overs are left, which is 5/20 = 1/4 of the innings, while 3/4 is the part already played. 3/4 is tempting because it is the part used or eaten, but the question asks for what is left, which is 1/4.",
+    explanation: "20 − 15 = 5 overs are left, which is 5/20 = 1/4 of the innings, while 3/4 is the part already played. 3/4 is tempting if you divide only the numerator by the common factor and leave the denominator; dividing both gives 1/4.",
     hints: ["Overs left = 20 − 15. Write overs left over 20, then simplify."]
   },
   {
@@ -633,7 +633,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1/2" }
     ],
     answerId: "a",
-    explanation: "She gave away 8/10, so 10/10 − 8/10 = 2/10 is left, which simplifies to 1/5. 4/5 is tempting because it is the part used or eaten, but the question asks for what is left, which is 1/5.",
+    explanation: "She gave away 8/10, so 10/10 − 8/10 = 2/10 is left, which simplifies to 1/5. 4/5 is tempting if you rewrite with a larger common factor than the numbers actually share; using the true HCF gives 1/5.",
     hints: ["Add the parts given to the neighbour and sister, take them from 10/10, then simplify."]
   },
   {
@@ -646,7 +646,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "70" }
     ],
     answerId: "c",
-    explanation: "If 2/5 is 14 marbles, then 1/5 is 7 marbles, so all 5/5 is 5 × 7 = 35 marbles. 28 is tempting if the top or bottom is taken from the wrong count in the diagram; the fraction is 35.",
+    explanation: "If 2/5 is 14 marbles, then 1/5 is 7 marbles, so all 5/5 is 5 × 7 = 35 marbles. 28 is tempting if you compare numerators alone (or denominators alone) without a common denominator; the correct comparison gives 35.",
     hints: ["If 2/5 is 14 marbles, then 1/5 is half of 14. Multiply that by 5 for the whole."]
   }
 ];

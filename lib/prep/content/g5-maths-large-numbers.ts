@@ -97,7 +97,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "50,000" }
     ],
     answerId: "a",
-    explanation: "The hundreds digit is 3, which is less than 5, so we round down to 46,000. 46,400 is tempting if you look at the wrong digit when rounding.",
+    explanation: "The hundreds digit is 3, which is less than 5, so we round down to 46,000. 46,400 is tempting if you look at the wrong digit when rounding; checking the digit just right of the place gives 46,000.",
     hints: ["Look at the hundreds digit of 46,382. Is it 5 or more, or less than 5?"]
   },
   {
@@ -110,7 +110,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "9,61,340" }
     ],
     answerId: "b",
-    explanation: "With 1 fixed in Th, put the rest from biggest to smallest in the other slots: 9 (L), 6 (TTh), 1 (Th), 4, 3, 0, which gives 9,61,430. 9,61,340 is tempting if you regroup the digits into the wrong Indian place-value slots; the number is 9,61,430.",
+    explanation: "With 1 fixed in Th, put the rest from biggest to smallest in the other slots: 9 (L), 6 (TTh), 1 (Th), 4, 3, 0, which gives 9,61,430. 9,61,340 is tempting if you swap the lakh and thousand groups when reading Indian commas; placing digits correctly gives 9,61,430.",
     hints: ["Put the biggest remaining tiles in the highest slots first, L then TTh. The Thousands slot must stay 1."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 480 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Build the Number\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"480\" height=\"200\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"240.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Build the Number</text>\n  <rect class=\"part tile\" x=\"76.0\" y=\"36\" width=\"48\" height=\"50\" rx=\"8\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"digit\" x=\"100.0\" y=\"70\" font-size=\"26\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">9</text>\n  <rect class=\"part tile\" x=\"132.0\" y=\"36\" width=\"48\" height=\"50\" rx=\"8\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"digit\" x=\"156.0\" y=\"70\" font-size=\"26\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">6</text>\n  <rect class=\"part tile\" x=\"188.0\" y=\"36\" width=\"48\" height=\"50\" rx=\"8\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"digit\" x=\"212.0\" y=\"70\" font-size=\"26\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">4</text>\n  <rect class=\"part tile\" x=\"244.0\" y=\"36\" width=\"48\" height=\"50\" rx=\"8\" fill=\"#fce4ec\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"digit\" x=\"268.0\" y=\"70\" font-size=\"26\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">1</text>\n  <rect class=\"part tile\" x=\"300.0\" y=\"36\" width=\"48\" height=\"50\" rx=\"8\" fill=\"#ede7f6\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"digit\" x=\"324.0\" y=\"70\" font-size=\"26\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">3</text>\n  <rect class=\"part tile\" x=\"356.0\" y=\"36\" width=\"48\" height=\"50\" rx=\"8\" fill=\"#e0f7fa\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"digit\" x=\"380.0\" y=\"70\" font-size=\"26\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">0</text>\n  <text class=\"label\" x=\"72.0\" y=\"118\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">L</text>\n  <rect class=\"part slot\" x=\"42.0\" y=\"126\" width=\"60\" height=\"46\" rx=\"6\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\" stroke-dasharray=\"5 3\"/>\n  <text class=\"label\" x=\"138.0\" y=\"118\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">TTh</text>\n  <rect class=\"part slot\" x=\"108.0\" y=\"126\" width=\"60\" height=\"46\" rx=\"6\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\" stroke-dasharray=\"5 3\"/>\n  <text class=\"label\" x=\"204.0\" y=\"118\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Th</text>\n  <rect class=\"part slot fixed\" x=\"174.0\" y=\"126\" width=\"60\" height=\"46\" rx=\"6\" fill=\"#fff3e0\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"digit\" x=\"204.0\" y=\"157\" font-size=\"24\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">1</text>\n  <text class=\"label\" x=\"270.0\" y=\"118\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">H</text>\n  <rect class=\"part slot\" x=\"240.0\" y=\"126\" width=\"60\" height=\"46\" rx=\"6\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\" stroke-dasharray=\"5 3\"/>\n  <text class=\"label\" x=\"336.0\" y=\"118\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">T</text>\n  <rect class=\"part slot\" x=\"306.0\" y=\"126\" width=\"60\" height=\"46\" rx=\"6\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\" stroke-dasharray=\"5 3\"/>\n  <text class=\"label\" x=\"402.0\" y=\"118\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">O</text>\n  <rect class=\"part slot\" x=\"372.0\" y=\"126\" width=\"60\" height=\"46\" rx=\"6\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\" stroke-dasharray=\"5 3\"/>\n  <text class=\"label small\" x=\"240.0\" y=\"192\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Use every tile once. The 1 must stay in the Thousands slot.</text>\n</svg>", "alt": "Six digit tiles: 9, 6, 4, 1, 3, 0. Below are six slots labelled L, TTh, Th, H, T, O. The Thousands slot already holds 1 and the other slots are empty and dashed."}
   },
@@ -137,7 +137,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2,05,000" }
     ],
     answerId: "d",
-    explanation: "The jumps are +10,000, +20,000, +30,000, so the next is +40,000: 1,65,000 + 40,000 = 2,05,000. 1,95,000 is tempting if you regroup the digits into the wrong Indian place-value slots; the number is 2,05,000.",
+    explanation: "The jumps are +10,000, +20,000, +30,000, so the next is +40,000: 1,65,000 + 40,000 = 2,05,000. 1,95,000 is tempting if you insert an extra zero in the thousands period; the place-value reading is 2,05,000.",
     hints: ["The jumps are +10,000, +20,000, … Find the next jump and add it to 1,65,000."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 478 130\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Growing Jumps\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"478\" height=\"130\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"239.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Growing Jumps</text>\n  <rect class=\"part card\" x=\"10\" y=\"74\" width=\"82\" height=\"40\" rx=\"6\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"51.0\" y=\"100\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">1,05,000</text>\n  <rect class=\"part card\" x=\"104\" y=\"74\" width=\"82\" height=\"40\" rx=\"6\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"145.0\" y=\"100\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">1,15,000</text>\n  <rect class=\"part card\" x=\"198\" y=\"74\" width=\"82\" height=\"40\" rx=\"6\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"239.0\" y=\"100\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">1,35,000</text>\n  <rect class=\"part card\" x=\"292\" y=\"74\" width=\"82\" height=\"40\" rx=\"6\" fill=\"#fce4ec\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"333.0\" y=\"100\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">1,65,000</text>\n  <rect class=\"part card missing\" x=\"386\" y=\"74\" width=\"82\" height=\"40\" rx=\"6\" fill=\"#fff3e0\" stroke=\"#333\" stroke-width=\"2\" stroke-dasharray=\"5 3\"/>\n  <text class=\"label value\" x=\"427.0\" y=\"100\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">?</text>\n  <path class=\"arrow jump\" d=\"M 51.0 72 Q 98.0 36 141.0 70\" fill=\"none\" stroke=\"#e65100\" stroke-width=\"1.8\"/>\n  <polygon class=\"arrow\" points=\"143.0,73 135.0,66 142.0,62\" fill=\"#e65100\"/>\n  <text class=\"label jump-label\" x=\"98.0\" y=\"48\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">+10,000</text>\n  <path class=\"arrow jump\" d=\"M 145.0 72 Q 192.0 36 235.0 70\" fill=\"none\" stroke=\"#e65100\" stroke-width=\"1.8\"/>\n  <polygon class=\"arrow\" points=\"237.0,73 229.0,66 236.0,62\" fill=\"#e65100\"/>\n  <text class=\"label jump-label\" x=\"192.0\" y=\"48\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">+20,000</text>\n  <path class=\"arrow jump\" d=\"M 239.0 72 Q 286.0 36 329.0 70\" fill=\"none\" stroke=\"#e65100\" stroke-width=\"1.8\"/>\n  <polygon class=\"arrow\" points=\"331.0,73 323.0,66 330.0,62\" fill=\"#e65100\"/>\n  <text class=\"label jump-label\" x=\"286.0\" y=\"48\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">?</text>\n  <path class=\"arrow jump\" d=\"M 333.0 72 Q 380.0 36 423.0 70\" fill=\"none\" stroke=\"#e65100\" stroke-width=\"1.8\"/>\n  <polygon class=\"arrow\" points=\"425.0,73 417.0,66 424.0,62\" fill=\"#e65100\"/>\n  <text class=\"label jump-label\" x=\"380.0\" y=\"48\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">?</text>\n</svg>", "alt": "Five cards: 1,05,000, 1,15,000, 1,35,000, 1,65,000 and a question mark. Curved arrows join them. The first two arrows are labelled +10,000 and +20,000, and the last two are labelled with question marks."}
   },
@@ -178,7 +178,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7,349" }
     ],
     answerId: "d",
-    explanation: "7,349 has 49 in its last two places so it rounds down to 7,300, while 7,350 rounds up to 7,400. 7,350 is tempting if you look at the wrong digit when rounding.",
+    explanation: "7,349 has 49 in its last two places so it rounds down to 7,300, while 7,350 rounds up to 7,400. 7,350 is tempting if you look at the wrong digit when rounding; checking the digit just right of the place gives 7,349.",
     hints: ["To round to 7,300, a number starting 7,3__ needs a tens digit below 5; one starting 7,2__ needs 5 or more."]
   },
   {
@@ -204,7 +204,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3,80,000" }
     ],
     answerId: "d",
-    explanation: "3,76,400 is past the halfway mark 3,75,000, so it rounds up to 3,80,000. 3,76,000 is tempting if you look at the wrong digit when rounding.",
+    explanation: "3,76,400 is past the halfway mark 3,75,000, so it rounds up to 3,80,000. 3,76,000 is tempting if you look at the wrong digit when rounding; checking the digit just right of the place gives 3,80,000.",
     hints: ["On the number line, is 3,76,400 before or after the halfway mark 3,75,000? That decides which end it rounds to."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 440 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Round to the nearest ten thousand\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"440\" height=\"150\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"220.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Round to the nearest ten thousand</text>\n  <line class=\"axis\" x1=\"18\" y1=\"92\" x2=\"422\" y2=\"92\" stroke=\"#333\" stroke-width=\"2\"/>\n  <polygon class=\"arrow\" points=\"428,92 420,87 420,97\" fill=\"#333\"/>\n  <polygon class=\"arrow\" points=\"12,92 20,87 20,97\" fill=\"#333\"/>\n  <line class=\"tick\" x1=\"30.0\" y1=\"82\" x2=\"30.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"30.0\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">3,70,000</text>\n  <line class=\"tick\" x1=\"68.0\" y1=\"82\" x2=\"68.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"106.0\" y1=\"82\" x2=\"106.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"144.0\" y1=\"82\" x2=\"144.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"182.0\" y1=\"82\" x2=\"182.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"220.0\" y1=\"82\" x2=\"220.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"258.0\" y1=\"82\" x2=\"258.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"296.0\" y1=\"82\" x2=\"296.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"334.0\" y1=\"82\" x2=\"334.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"372.0\" y1=\"82\" x2=\"372.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"410.0\" y1=\"82\" x2=\"410.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"410.0\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">3,80,000</text>\n  <line class=\"part midpoint\" x1=\"220.0\" y1=\"70\" x2=\"220.0\" y2=\"106\" stroke=\"#e65100\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/>\n  <text class=\"label midpoint-label\" x=\"220.0\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">3,75,000</text>\n  <text class=\"label small\" x=\"220.0\" y=\"134\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#e65100\">(halfway)</text>\n  <circle class=\"part point\" cx=\"273.2\" cy=\"92\" r=\"7\" fill=\"#42a5f5\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"arrow\" x1=\"273.2\" y1=\"52\" x2=\"273.2\" y2=\"80\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon class=\"arrow\" points=\"273.2,83 268.2,75 278.2,75\" fill=\"#333\"/>\n  <text class=\"label point-label\" x=\"273.2\" y=\"48\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">3,76,400</text>\n</svg>", "alt": "A number line from 3,70,000 to 3,80,000 with ticks every 1,000. The halfway mark 3,75,000 is dashed in orange. A ball marked 3,76,400 sits just past the halfway mark."}
   },
@@ -218,7 +218,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "9,57,312" }
     ],
     answerId: "a",
-    explanation: "The only even digit, 2, must go in the ones place, and the rest go in decreasing order to give 9,75,312 (9,75,321 is odd). 9,75,321 is tempting if you regroup the digits into the wrong Indian place-value slots; the number is 9,75,312.",
+    explanation: "The only even digit, 2, must go in the ones place, and the rest go in decreasing order to give 9,75,312 (9,75,321 is odd). 9,75,321 is tempting if you round at the crore/lakh boundary one place too early; the correctly rounded number is 9,75,312.",
     hints: ["An even number must end in 2, the only even digit here. Arrange the other five digits from largest to smallest."]
   },
   {
@@ -257,7 +257,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "19,99,999" }
     ],
     answerId: "b",
-    explanation: "The numbers are 9,99,999 and 1,00,000, and their sum is 10,99,999. 11,00,000 is tempting if you regroup the digits into the wrong Indian place-value slots; the number is 10,99,999.",
+    explanation: "The numbers are 9,99,999 and 1,00,000, and their sum is 10,99,999. 11,00,000 is tempting if you misalign place columns when adding; aligning places gives 10,99,999.",
     hints: ["The number just before 10,00,000 is one less; the number just after 99,999 is one more. Add them."]
   },
   {
@@ -270,7 +270,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7,61,742" }
     ],
     answerId: "d",
-    explanation: "The greatest is 8,65,310 and the smallest is 1,03,568, so the difference is 7,61,742. 9,68,878 may look right, but that is their sum, not their difference. 9,68,878 is tempting, but it does not fit the facts in the question.",
+    explanation: "The greatest is 8,65,310 and the smallest is 1,03,568, so the difference is 7,61,742. 9,68,878 may look right, but that is their sum, not their difference. 9,68,878 is tempting if you subtract digit-by-digit without borrowing, or reverse the order; the correct difference is 7,61,742.",
     hints: ["Greatest: digits from largest to smallest. Smallest: start with the smallest non-zero digit, then 0. Subtract."]
   },
   {
@@ -296,7 +296,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5,59,999" }
     ],
     answerId: "c",
-    explanation: "5,55,000 has 5 in the thousands place so it rounds up to 5,60,000, while 5,54,999 rounds down to 5,50,000. 5,54,999 is tempting if you look at the wrong digit when rounding.",
+    explanation: "5,55,000 has 5 in the thousands place so it rounds up to 5,60,000, while 5,54,999 rounds down to 5,50,000. 5,54,999 is tempting if you look at the wrong digit when rounding; checking the digit just right of the place gives 5,55,000.",
     hints: ["Numbers that round up to 5,60,000 start at the halfway point between 5,50,000 and 5,60,000."]
   },
   {
@@ -309,7 +309,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3,64,865" }
     ],
     answerId: "b",
-    explanation: "3,46,250 + 12,875 − 4,560 + 9,300 = 3,63,865. 3,72,985 may look right, but it comes from adding the 4,560 instead of subtracting it. 3,64,865 is tempting if you regroup the digits into the wrong Indian place-value slots; the number is 3,63,865.",
+    explanation: "3,46,250 + 12,875 − 4,560 + 9,300 = 3,63,865. 3,72,985 may look right, but it comes from adding the 4,560 instead of subtracting it. 3,64,865 is tempting if you subtract without borrowing across a zero digit; borrowing carefully gives 3,63,865.",
     hints: ["Start with 3,46,250. Add the babies born and the people who moved in, then subtract those who moved out."]
   },
   {
@@ -392,7 +392,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2,90,000" }
     ],
     answerId: "a",
-    explanation: "From 2,40,000 to 2,70,000 is 3 gaps, so each gap is 10,000. P is 4 gaps after 2,70,000: 2,70,000 + 40,000 = 3,10,000. 3,00,000 is tempting if you regroup the digits into the wrong Indian place-value slots; the number is 3,10,000.",
+    explanation: "From 2,40,000 to 2,70,000 is 3 gaps, so each gap is 10,000. P is 4 gaps after 2,70,000: 2,70,000 + 40,000 = 3,10,000. 3,00,000 is tempting if you add from the left and misalign the smaller number; right-aligning places gives 3,10,000.",
     hints: ["Find the jump size on the line, then count jumps to the point."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 460 140\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Read the Scale\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"460\" height=\"140\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"230.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Read the Scale</text>\n  <line class=\"axis\" x1=\"20\" y1=\"80\" x2=\"440\" y2=\"80\" stroke=\"#333\" stroke-width=\"2\"/>\n  <line class=\"tick\" x1=\"30.0\" y1=\"71\" x2=\"30.0\" y2=\"89\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"70.0\" y1=\"71\" x2=\"70.0\" y2=\"89\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"110.0\" y1=\"71\" x2=\"110.0\" y2=\"89\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"110.0\" y=\"110\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">2,40,000</text>\n  <line class=\"tick\" x1=\"150.0\" y1=\"71\" x2=\"150.0\" y2=\"89\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"190.0\" y1=\"71\" x2=\"190.0\" y2=\"89\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"230.0\" y1=\"71\" x2=\"230.0\" y2=\"89\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"230.0\" y=\"110\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">2,70,000</text>\n  <line class=\"tick\" x1=\"270.0\" y1=\"71\" x2=\"270.0\" y2=\"89\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"310.0\" y1=\"71\" x2=\"310.0\" y2=\"89\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"350.0\" y1=\"71\" x2=\"350.0\" y2=\"89\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"390.0\" y1=\"71\" x2=\"390.0\" y2=\"89\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"430.0\" y1=\"71\" x2=\"430.0\" y2=\"89\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle class=\"part point\" cx=\"390.0\" cy=\"80\" r=\"7\" fill=\"#42a5f5\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"arrow\" x1=\"390.0\" y1=\"40\" x2=\"390.0\" y2=\"65\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon class=\"arrow\" points=\"390.0,71 385.0,63 395.0,63\" fill=\"#333\"/>\n  <text class=\"label point-label\" x=\"390.0\" y=\"36\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">P</text>\n  <text class=\"label small\" x=\"230.0\" y=\"134\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">All the ticks are equally spaced.</text>\n</svg>", "alt": "A number line with 11 equally spaced ticks. The third tick is labelled 2,40,000 and the sixth tick is labelled 2,70,000. Point P is on the tenth tick. No other ticks are labelled."}
   },
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2,400" }
     ],
     answerId: "d",
-    explanation: "The tens digit is 8, which is 5 or more, so 2,384 rounds up to 2,400. 2,380 is tempting if you look at the wrong digit when rounding.",
+    explanation: "The tens digit is 8, which is 5 or more, so 2,384 rounds up to 2,400. 2,380 is tempting if you look at the wrong digit when rounding; checking the digit just right of the place gives 2,400.",
     hints: ["Look at the tens digit of 2,384. Is it 5 or more, or less than 5?"]
   },
   {
@@ -458,7 +458,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4,350" }
     ],
     answerId: "a",
-    explanation: "52,400 − 48,750 = 3,650, which checks out because 48,750 + 3,650 = 52,400. 3,750 is tempting if you look at the wrong digit when rounding.",
+    explanation: "52,400 − 48,750 = 3,650, which checks out because 48,750 + 3,650 = 52,400. 3,750 is tempting if you look at the wrong digit when rounding; checking the digit just right of the place gives 3,650.",
     hints: ["Empty seats = total seats − tickets sold. Subtract 48,750 from 52,400."]
   },
   {
@@ -538,7 +538,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2,04,863" }
     ],
     answerId: "c",
-    explanation: "The only odd digit, 3, must be in the ones place, and the rest are arranged smallest first without a leading zero to give 2,04,683. 2,04,863 is tempting if you regroup the digits into the wrong Indian place-value slots; the number is 2,04,683.",
+    explanation: "The only odd digit, 3, must be in the ones place, and the rest are arranged smallest first without a leading zero to give 2,04,683. 2,04,863 is tempting if you read an international-system grouping on an Indian-comma numeral; Indian periods give 2,04,683.",
     hints: ["An odd number must end in 3, the only odd digit here. Then make the smallest number from the rest, not starting with 0."]
   },
   {
@@ -646,7 +646,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4,75,000" }
     ],
     answerId: "c",
-    explanation: "The 10th number comes after 9 steps of 25,000 each, so 7,50,000 − 2,25,000 = 5,25,000. 5,00,000 is tempting if you regroup the digits into the wrong Indian place-value slots; the number is 5,25,000.",
+    explanation: "The 10th number comes after 9 steps of 25,000 each, so 7,50,000 − 2,25,000 = 5,25,000. 5,00,000 is tempting if you drop a digit when expanding the number into place values; keeping every place gives 5,25,000.",
     hints: ["Each step takes away 25,000. The 10th number is 9 steps after 7,50,000."]
   }
 ];

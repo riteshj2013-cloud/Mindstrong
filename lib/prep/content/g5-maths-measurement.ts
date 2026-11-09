@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "Area of a square is side × side = 5 × 5 = 25 cm². 20 cm² is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area.",
+    explanation: "Area of a square is side × side = 5 × 5 = 25 cm². 20 cm² is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area; area is 25 cm².",
     hints: ["Area of a square = side × side. Multiply 5 cm by 5 cm."]
   },
   {
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "120 m\u00b2" }
     ],
     answerId: "b",
-    explanation: "Area = 12 × 12 = 144 m². 120 m² is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area.",
+    explanation: "Area = 12 × 12 = 144 m². 120 m² is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area; area is 144 m².",
     hints: ["Area of a square = side × side. Multiply 12 m by 12 m."]
   },
   {
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "48 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "8 × 8 = 64 cm². 48 cm² is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area.",
+    explanation: "8 × 8 = 64 cm². 48 cm² is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area; area is 64 cm².",
     hints: ["Area of a square = side × side. Multiply 8 cm by 8 cm."]
   },
   {
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "200 m\u00b2" }
     ],
     answerId: "b",
-    explanation: "20 × 20 = 400 m². 200 m² is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area.",
+    explanation: "20 × 20 = 400 m². 200 m² is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area; area is 400 m².",
     hints: ["Area of a square = side × side. Multiply 20 m by 20 m."]
   },
   {
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "40.5 cm" }
     ],
     answerId: "c",
-    explanation: "Side × side = 81, so side = 9 cm. 8 cm is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area.",
+    explanation: "Side × side = 81, so side = 9 cm. 8 cm is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area; area is 9 cm.",
     hints: ["Find the number that, multiplied by itself, gives 81."]
   },
   {
