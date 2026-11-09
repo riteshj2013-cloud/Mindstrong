@@ -1,4 +1,5 @@
 import type { ChapterDef, PrepQuestion } from "../types";
+import { g9MathsNumberSystemsAchievers } from "./g9-maths-number-systems-achievers";
 
 /** Number Systems - original olympiad-style content (not affiliated with SOF). */
 
@@ -713,6 +714,13 @@ export const g9MathsNumberSystems: ChapterDef = {
       questionCount: SET_B.length,
       topic: "fractions",
       questions: SET_B,
+    },
+    {
+      id: "set-achievers",
+      title: "Achievers",
+      questionCount: g9MathsNumberSystemsAchievers.length,
+      topic: "fractions",
+      questions: g9MathsNumberSystemsAchievers,
     },
   ],
   paperTopics: ["fractions", "linear-lite"],
