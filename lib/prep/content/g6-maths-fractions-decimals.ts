@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2/4" }
     ],
     answerId: "a",
-    explanation: "Like denominators: 3/4 + 1/4 = 4/4 = 1. 4/8 is tempting if you add denominators with numerators or misalign place values, but the correct value is 1.",
+    explanation: "Like denominators: 3/4 + 1/4 = 4/4 = 1. 4/8 is tempting if you add the numerators and the denominators, instead of using a common denominator.",
     hints: ["Same denominators: add the numerators of 3/4 and the other quarter. Four quarters make what?"]
   },
   {
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6/3" }
     ],
     answerId: "c",
-    explanation: "Multiply top and bottom by 2: 2/3 = 4/6. 3/2 is tempting if you add denominators with numerators or misalign place values, but the correct value is 4/6.",
+    explanation: "Multiply top and bottom by 2: 2/3 = 4/6. 3/2 is tempting if you multiply or divide only the numerator (or only the denominator) instead of both by the same number.",
     hints: ["Multiply the top and bottom of 2/3 by the same number, such as 2."]
   },
   {
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "16" }
     ],
     answerId: "d",
-    explanation: "2/5 × 40 = 16. 20 is tempting if you add denominators with numerators or misalign place values, but the correct value is 16.",
+    explanation: "2/5 × 40 = 16. 20 is tempting if you multiply only the numerators (or only the denominators), or cancel unmatched factors.",
     hints: ["Divide by 5, then multiply by 2."]
   },
   {
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7/1" }
     ],
     answerId: "a",
-    explanation: "0.7 = 7/10, already simplest. 7/100 is tempting if you use the wrong place-value jump between units, but the correct conversion gives 7/10.",
+    explanation: "0.7 = 7/10, already simplest. 7/100 is tempting if you stop before dividing numerator and denominator by their greatest common factor.",
     hints: ["The 7 in 0.7 is in the tenths place. Write it over that place value, then check if it simplifies."]
   },
   {
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.06" }
     ],
     answerId: "b",
-    explanation: "3 ÷ 5 = 0.6. 0.35 is tempting if you misread a place-value column.",
+    explanation: "3 ÷ 5 = 0.6. 0. 0.35 is tempting if you miscount the decimal places when writing the fraction as a decimal (or the other way round).",
     hints: ["Make the bottom 10: multiply the top and bottom of 3/5 by 2. Then write the tenths as a decimal."]
   },
   {
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1.55" }
     ],
     answerId: "d",
-    explanation: "1.20 + 0.35 = 1.55. 1.45 is tempting if you add denominators with numerators or misalign place values, but the correct value is 1.55.",
+    explanation: "1.20 + 0.35 = 1.55. 1. 1.45 is tempting if you add the numerators and the denominators, instead of using a common denominator.",
     hints: ["Line up the decimal points: write 1.2 as 1.20, then add 0.35."]
   },
   {
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6.25" }
     ],
     answerId: "a",
-    explanation: "4.50 − 1.75 = 2.75. 2.25 is tempting if you add denominators with numerators or misalign place values, but the correct value is 2.75.",
+    explanation: "4.50 − 1.75 = 2.75. 2. 2. 3.25 is tempting if you change the numerator and denominator in a way this fraction step does not allow.",
     hints: ["Write 4.5 as 4.50, line up the decimal points, then subtract 1.75."]
   },
   {
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "b",
-    explanation: "6 × 2 = 12 with two decimal places total → 0.12. 0.012 is tempting if you misread a place-value column.",
+    explanation: "6 × 2 = 12 with two decimal places total → 0.12. 0. 12 is tempting if you multiply only the numerators (or only the denominators), or cancel unmatched factors.",
     hints: ["Multiply 6 × 2, then count the decimal places in 0.6 and 0.2 together."]
   },
   {
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "125" }
     ],
     answerId: "c",
-    explanation: "125/100 = 1.25. 0.125 is tempting if you misread a place-value column.",
+    explanation: "125/100 = 1.25. 0. 125 is tempting if you miscount the decimal places when writing the fraction as a decimal (or the other way round).",
     hints: ["Denominator 100 → two digits after the decimal."]
   },
   {
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1 3/8 m" }
     ],
     answerId: "d",
-    explanation: "3/4 = 6/8; 6/8 + 5/8 = 11/8 = 1 3/8 m. 1 1/8 m is tempting if you add denominators with numerators or misalign place values, but the correct value is 1 3/8 m.",
+    explanation: "3/4 = 6/8; 6/8 + 5/8 = 11/8 = 1 3/8 m. 1 1/8 m is tempting if you change the numerator and denominator in a way this fraction step does not allow.",
     hints: ["Change 3/4 m into eighths, add 5/8 m, then write the improper fraction as a mixed number."]
   },
   {
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3.5" }
     ],
     answerId: "a",
-    explanation: "7 ÷ 20 = 0.35. 0.07 is tempting if you misread a place-value column.",
+    explanation: "7 ÷ 20 = 0.35. 0. 0.07 is tempting if you miscount the decimal places when writing the fraction as a decimal (or the other way round).",
     hints: ["Divide 7 by 20."]
   },
   {
@@ -196,7 +196,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8.5" }
     ],
     answerId: "c",
-    explanation: "2.5 × 4 = 10. 8.5 is tempting if you add denominators with numerators or misalign place values, but the correct value is 10.",
+    explanation: "2.5 × 4 = 10. 8. 8.5 is tempting if you multiply only the numerators (or only the denominators), or cancel unmatched factors.",
     hints: ["Split 2.5 into 2 and 0.5, multiply each part by 4, then add."]
   },
   {
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4.25 km" }
     ],
     answerId: "d",
-    explanation: "2.40 + 1.85 = 4.25 km. 3.25 km is tempting if you add denominators with numerators or misalign place values, but the correct value is 4.25 km.",
+    explanation: "2.40 + 1.85 = 4.25 km. 3. 4. 3.25 km is tempting if you change the numerator and denominator in a way this fraction step does not allow.",
     hints: ["Write 2.4 km as 2.40 km, line up the decimal points, then add Ravi's 1.85 km."]
   },
   {
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "9/5" }
     ],
     answerId: "a",
-    explanation: "A proper fraction has numerator smaller than denominator: 3/7. 5/4 is tempting if you add denominators with numerators or misalign place values, but the correct value is 3/7.",
+    explanation: "A proper fraction has numerator smaller than denominator: 3/7. 5/4 is tempting if you change the numerator and denominator in a way this fraction step does not allow.",
     hints: ["Proper means top < bottom."]
   },
   {
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6/4" }
     ],
     answerId: "b",
-    explanation: "2 × 4 + 1 = 9, so 9/4. 5/4 is tempting if you use the wrong place-value jump between units, but the correct conversion gives 9/4.",
+    explanation: "2 × 4 + 1 = 9, so 9/4. 5/4 is tempting if you mishandle the whole-number part when converting between mixed and improper form.",
     hints: ["Each whole has 4 quarters. Find the quarters in 2 wholes, then add 1 more quarter."]
   },
   {
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "₹80" }
     ],
     answerId: "c",
-    explanation: "240 ÷ 8 = 30; 30 × 3 = ₹90. ₹30 is tempting if you add denominators with numerators or misalign place values, but the correct value is ₹90.",
+    explanation: "240 ÷ 8 = 30; 30 × 3 = ₹90. ₹30 is tempting if you multiply only the numerators (or only the denominators), or cancel unmatched factors.",
     hints: ["Find 1/8 of ₹240 by dividing by 8, then multiply by 3."]
   },
   {
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.09, 0.19, 0.9" }
     ],
     answerId: "d",
-    explanation: "0.09 < 0.19 < 0.90. 0.09, 0.9, 0.19 is tempting if you add denominators with numerators or misalign place values, but the correct value is 0.09, 0.19, 0.9.",
+    explanation: "0.09 < 0.19 < 0.90. 0.09, 0.9, 0. 0.09, 0.9, 0. 0.9, 0.19, 0.09 is tempting if you change the numerator and denominator in a way this fraction step does not allow.",
     hints: ["Write 0.09, 0.9 and 0.19 with two decimal places each, then compare the hundredths."]
   },
   {
@@ -274,7 +274,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.67" }
     ],
     answerId: "a",
-    explanation: "1.00 − 0.37 = 0.63. 0.67 is tempting if you add denominators with numerators or misalign place values, but the correct value is 0.63.",
+    explanation: "1.00 − 0.37 = 0.63. 0. 0. 0.73 is tempting if you change the numerator and denominator in a way this fraction step does not allow.",
     hints: ["Write 1 as 1.00, then subtract 0.37. Check: your answer plus 0.37 should make 1."]
   },
   {
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2/5" }
     ],
     answerId: "b",
-    explanation: "0.25 = 25/100 = 1/4. 1/2 is tempting if you add denominators with numerators or misalign place values, but the correct value is 1/4.",
+    explanation: "0.25 = 25/100 = 1/4. 1/2 is tempting if you change the numerator and denominator in a way this fraction step does not allow.",
     hints: ["0.25 is 25 hundredths. Write 25/100 and simplify by dividing top and bottom by 25."]
   },
   {
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.5" }
     ],
     answerId: "c",
-    explanation: "7/10 = 0.7; 0.7 + 0.2 = 0.9. 1.0 is tempting if you add denominators with numerators or misalign place values, but the correct value is 0.9.",
+    explanation: "7/10 = 0.7; 0.7 + 0.2 = 0.9. 1. 1.0 is tempting if you add the numerators and the denominators, instead of using a common denominator.",
     hints: ["Write 7/10 as a decimal first, then add 0.2."]
   },
   {
@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2/6" }
     ],
     answerId: "a",
-    explanation: "1/3 = 2/6; 2/6 + 1/6 = 3/6 = 1/2. 2/9 is tempting if you add denominators with numerators or misalign place values, but the correct value is 1/2.",
+    explanation: "1/3 = 2/6; 2/6 + 1/6 = 3/6 = 1/2. 2/9 is tempting if you add the numerators and the denominators, instead of using a common denominator.",
     hints: ["Common denominator of 3 and 6."]
   },
   {
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4/4" }
     ],
     answerId: "b",
-    explanation: "1/4 = 2/8; 5/8 − 2/8 = 3/8. 4/8 is tempting if you add denominators with numerators or misalign place values, but the correct value is 3/8.",
+    explanation: "1/4 = 2/8; 5/8 − 2/8 = 3/8. 4/8 is tempting if you change the numerator and denominator in a way this fraction step does not allow.",
     hints: ["Write 1/4 as eighths first, then subtract it from 5/8."]
   },
   {
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4/6 and 2/2" }
     ],
     answerId: "c",
-    explanation: "3/5 × 2/2 = 6/10. 1/2 and 2/3 is tempting if you add denominators with numerators or misalign place values, but the correct value is 3/5 and 6/10.",
+    explanation: "3/5 × 2/2 = 6/10. 1/2 and 2/3 is tempting if you multiply or divide only the numerator (or only the denominator) instead of both by the same number.",
     hints: ["Simplify both fractions in every pair. An equivalent pair reduces to the same simplest form."]
   },
   {
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1.8" }
     ],
     answerId: "d",
-    explanation: "2.4 ÷ 4 = 0.6; 0.6 × 3 = 1.8. 1.2 is tempting if you add denominators with numerators or misalign place values, but the correct value is 1.8.",
+    explanation: "2.4 ÷ 4 = 0.6; 0.6 × 3 = 1.8. 1. 1.2 is tempting if you multiply only the numerators (or only the denominators), or cancel unmatched factors.",
     hints: ["Quarter of 2.4, then triple it."]
   },
   {
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4/50" }
     ],
     answerId: "a",
-    explanation: "0.08 = 8/100 = 2/25. 8/10 is tempting if you use the wrong place-value jump between units, but the correct conversion gives 2/25.",
+    explanation: "0.08 = 8/100 = 2/25. 8/10 is tempting if you stop before dividing numerator and denominator by their greatest common factor.",
     hints: ["0.08 is 8 hundredths. Write it over 100, then divide top and bottom by 4."]
   },
   {
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4/9" }
     ],
     answerId: "b",
-    explanation: "9 ÷ 4 = 2 remainder 1 → 2 1/4. 2 1/9 is tempting if you use the wrong place-value jump between units, but the correct conversion gives 2 1/4.",
+    explanation: "9 ÷ 4 = 2 remainder 1 → 2 1/4. 2 1/9 is tempting if you mishandle the whole-number part when converting between mixed and improper form.",
     hints: ["How many whole 4s fit in 9? That is the whole part; the remainder stays over 4."]
   },
   {
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "23.75" }
     ],
     answerId: "c",
-    explanation: "2.05 + 3.70 = 5.75. 5.775 is tempting if you add denominators with numerators or misalign place values, but the correct value is 5.75.",
+    explanation: "2.05 + 3.70 = 5.75. 5. 5.775 is tempting if you add the numerators and the denominators, instead of using a common denominator.",
     hints: ["Write 3.7 as 3.70, line up the decimal points, then add 2.05."]
   },
   {
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3.52" }
     ],
     answerId: "d",
-    explanation: "6.00 − 2.48 = 3.52. 3.62 is tempting if you add denominators with numerators or misalign place values, but the correct value is 3.52.",
+    explanation: "6.00 − 2.48 = 3.52. 3. 3. 4.52 is tempting if you change the numerator and denominator in a way this fraction step does not allow.",
     hints: ["Write 6 as 6.00, then subtract."]
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.45" }
     ],
     answerId: "a",
-    explanation: "1.5 ÷ 0.3 = 15 ÷ 3 = 5. 4.5 is tempting if you add denominators with numerators or misalign place values, but the correct value is 5.",
+    explanation: "1.5 ÷ 0.3 = 15 ÷ 3 = 5. 4. 4.5 is tempting if you flip the wrong fraction, or multiply without taking the reciprocal.",
     hints: ["Multiply 0.3 and the other number by 10 to remove the decimals. Then divide."]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "₹111.25" }
     ],
     answerId: "b",
-    explanation: "85.50 + 24.75 = ₹110.25. ₹100. ₹109.25 is tempting if you add denominators with numerators or misalign place values, but the correct value is ₹110.25.",
+    explanation: "85.50 + 24.75 = ₹110.25. ₹100. ₹109. ₹109. ₹100.25 is tempting if you change the numerator and denominator in a way this fraction step does not allow.",
     hints: ["Add the rupees ₹85 + ₹24, then the paise 50 + 75, carrying 100 paise over as ₹1."]
   },
   {
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15 L" }
     ],
     answerId: "b",
-    explanation: "5/8 × 40 = 25 L. 20 L is tempting if you add denominators with numerators or misalign place values, but the correct value is 25 L.",
+    explanation: "5/8 × 40 = 25 L. 20 L is tempting if you change the numerator and denominator in a way this fraction step does not allow.",
     hints: ["Fraction of the whole capacity."]
   },
   {
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3.60" }
     ],
     answerId: "c",
-    explanation: "The third decimal is 8 ≥ 5, so 3.68. 3.67 is tempting if you misread a place-value column.",
+    explanation: "The third decimal is 8 ≥ 5, so 3.68. 3. 3. 3.67 is tempting if you change the numerator and denominator in a way this fraction step does not allow.",
     hints: ["Look at the third decimal digit, 8. Since it is 5 or more, round the second digit up."]
   },
   {
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.8" }
     ],
     answerId: "d",
-    explanation: "2/5 = 0.4; 0.4 + 0.4 = 0.8. 0.9 is tempting if you add denominators with numerators or misalign place values, but the correct value is 0.8.",
+    explanation: "2/5 = 0.4; 0.4 + 0.4 = 0.8. 0. 0.9 is tempting if you add the numerators and the denominators, instead of using a common denominator.",
     hints: ["Convert 2/5 to a decimal first."]
   },
   {
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.125" }
     ],
     answerId: "a",
-    explanation: "3 ÷ 8 = 0.375. 0.38 is tempting if you misread a place-value column.",
+    explanation: "3 ÷ 8 = 0.375. 0. 0.38 is tempting if you miscount the decimal places when writing the fraction as a decimal (or the other way round).",
     hints: ["Divide 3 by 8."]
   },
   {
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.42" }
     ],
     answerId: "b",
-    explanation: "12.6 ÷ 3 = 4.2. 3.2 is tempting if you add denominators with numerators or misalign place values, but the correct value is 4.2.",
+    explanation: "12.6 ÷ 3 = 4.2. 3. 3.2 is tempting if you flip the wrong fraction, or multiply without taking the reciprocal.",
     hints: ["Divide 12 by 3, then 0.6 by 3, and add the two results."]
   },
   {
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "d",
-    explanation: "7/2 = 3.5; 3.5 − 1.5 = 2. 1 is tempting if you add denominators with numerators or misalign place values, but the correct value is 2.",
+    explanation: "7/2 = 3.5; 3.5 − 1.5 = 2. 1 is tempting if you change the numerator and denominator in a way this fraction step does not allow.",
     hints: ["Divide 7 by the bottom number to make a decimal, then subtract 1.5."]
   },
   {
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5/40" }
     ],
     answerId: "a",
-    explanation: "0.125 = 125/1000 = 1/8. 125/1000 is tempting if you use the wrong place-value jump between units, but the correct conversion gives 1/8.",
+    explanation: "0.125 = 125/1000 = 1/8. 125/1000 is tempting if you stop before dividing numerator and denominator by their greatest common factor.",
     hints: ["Write 0.125 as 125/1000, then keep dividing the top and bottom by 5."]
   },
   {
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.07 = 7/10" }
     ],
     answerId: "b",
-    explanation: "7/10 = 0.7 exactly. 0.7 > 7/10 is tempting if you add denominators with numerators or misalign place values, but the correct value is 0.7 = 7/10.",
+    explanation: "7/10 = 0.7 exactly. 0. 0. 0.7 > 7/10 is tempting if you change the numerator and denominator in a way this fraction step does not allow.",
     hints: ["Change 7/10 into a decimal by dividing 7 by 10. Compare it with 0.7."]
   },
   {
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "6" }
     ],
     answerId: "c",
-    explanation: "6.4 ÷ 0.8 = 64 ÷ 8 = 8. 7 is tempting if you add denominators with numerators or misalign place values, but the correct value is 8.",
+    explanation: "6.4 ÷ 0.8 = 64 ÷ 8 = 8. 7 is tempting if you multiply only the numerators (or only the denominators), or cancel unmatched factors.",
     hints: ["Divide total length by piece length."]
   },
   {
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "d",
-    explanation: "18 ÷ 6 = 3; 3 × 5 = 15. 12 is tempting if you add denominators with numerators or misalign place values, but the correct value is 15.",
+    explanation: "18 ÷ 6 = 3; 3 × 5 = 15. 12 is tempting if you multiply only the numerators (or only the denominators), or cancel unmatched factors.",
     hints: ["One-sixth of 18, then five of those."]
   }
 ];
