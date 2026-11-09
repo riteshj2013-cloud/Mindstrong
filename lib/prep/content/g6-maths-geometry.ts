@@ -616,7 +616,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "The diameter is the longest chord of a circle. A radius also touches the centre but isn't a chord; it doesn't join two points on the circle.",
-    hints: ["A chord joins two points on the circle. Which of those chords also goes through the centre?"]
+    hints: ["Draw a few chords in a circle, some near the edge and some near the middle. Where does the longest one sit?"]
   },
   {
     id: "g6-maths-geo-b-q24",

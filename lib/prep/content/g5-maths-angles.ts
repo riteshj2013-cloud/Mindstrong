@@ -151,7 +151,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "200° is greater than 180° and less than 360°, so it is a reflex angle. Straight is tempting if you round 200° down to the nearest named angle of 180°.",
-    hints: ["Is 200° more than a straight angle, or less than a full turn? What name fits that range?"]
+    hints: ["Is 200° more than a straight angle but less than a full turn? What name fits that range?"]
   },
   {
     id: "g5-maths-angles-a-q12",
@@ -164,7 +164,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "From North, a quarter turn clockwise is one step on the compass: North → East. West is tempting if you turn anticlockwise instead of clockwise.",
-    hints: ["Facing North, turn a quarter-turn the same way clock hands move. Which way are you facing?"],
+    hints: ["Picture a clock with North at 12. After a quarter of the way round, which number does the hand point to?"],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 440 235\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Compass facing North with quarter turn clockwise\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"440\" height=\"235\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"220\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Quarter turn clockwise</text>\n  <circle class=\"part compass\" cx=\"140\" cy=\"120\" r=\"55\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"label\" x=\"140.0\" y=\"49.0\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">N</text>\n  <text class=\"label\" x=\"211.0\" y=\"120.0\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">E</text>\n  <text class=\"label\" x=\"140.0\" y=\"191.0\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">S</text>\n  <text class=\"label\" x=\"69.0\" y=\"120.0\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">W</text>\n  <polygon class=\"part arrow\" points=\"140.0,75.0 130.4,136.7 149.6,136.7\" fill=\"#e65100\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle class=\"part hub\" cx=\"140\" cy=\"120\" r=\"5\" fill=\"#333\"/>\n  <text class=\"label\" x=\"140\" y=\"200\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Start: facing North</text>\n  <path class=\"arrow jump\" d=\"M 220 90 A 40 40 0 0 1 260 130\" fill=\"none\" stroke=\"#e65100\" stroke-width=\"2.5\"/>\n  <polygon class=\"arrow\" points=\"262,132 252,128 258,120\" fill=\"#e65100\"/>\n  <text class=\"label\" x=\"300\" y=\"100\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">\u00bc turn</text>\n  <text class=\"label\" x=\"300\" y=\"120\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">clockwise</text>\n  <text class=\"label small\" x=\"220\" y=\"220\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Clockwise means the same way clock hands turn.</text>\n</svg>", "alt": "A compass rose with an orange arrow pointing North. A curved orange arrow shows a quarter turn clockwise."}
   },
   {
@@ -445,7 +445,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "A full turn is 360°, so a quarter turn is 360° ÷ 4 = 90°. 45° is tempting if you take an eighth of a turn instead of a quarter.",
-    hints: ["A full turn is 360°. What is one of its four equal parts?"]
+    hints: ["A full turn is 360°. How many quarter turns make a full turn?"]
   },
   {
     id: "g5-maths-angles-b-q10",
@@ -633,7 +633,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "A straight angle is 180°. Each turn is 30°, so 180° ÷ 30° = 6 turns. 12 is tempting if you divide a full turn (360°) by 30° instead of a straight angle.",
-    hints: ["A straight angle is 180°. How many 30° turns fit into that?"]
+    hints: ["What size is a straight angle, in degrees? Count up to it in 30° jumps."]
   },
   {
     id: "g5-maths-angles-b-q24",

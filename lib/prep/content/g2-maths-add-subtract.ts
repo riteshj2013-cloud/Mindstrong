@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "17" }
     ],
     answerId: "c",
-    explanation: "13 + 6 = 19: start at 13 and count on six hops. 18 is tempting if you count one too few.",
+    explanation: "13 + 6 = 19: start at 13 and count on six hops (14, 15, 16, 17, 18, 19). 18 is tempting if you count 13 itself as the first hop: 13, 14, 15, 16, 17, 18.",
     hints: ["Count on from 13."]
   },
   {
@@ -250,7 +250,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "c",
-    explanation: "8 + 9 = 17. 16 is tempting if you count one too few.",
+    explanation: "8 + 9 = 17: start at 9 and count on eight hops (10, 11, …, 17). 16 is tempting if you count 9 itself as the first hop: 9, 10, 11, 12, 13, 14, 15, 16.",
     hints: ["Make a ten: give 2 from the 9 to the 8. How many are left over from the 9?"]
   },
   {

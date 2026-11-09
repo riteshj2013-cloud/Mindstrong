@@ -249,7 +249,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "A square’s four equal sides add to the perimeter, so one side is 36 ÷ 4 = 9 cm. 12 cm is tempting if you divide 36 by 3 (as if a triangle) instead of by 4.",
-    hints: ["Four equal sides add up to 36 cm. What is one of those sides?"]
+    hints: ["How many equal sides does a square have, and how do they make up the perimeter?"]
   },
   {
     id: "g5-maths-meas-a-q20",
@@ -564,7 +564,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Side × side = 81, so side = 9 because 9 × 9 = 81. 40.5 cm is tempting if you think area means side × 2 and halve 81 instead of finding the number that times itself makes 81.",
-    hints: ["Which number, times itself, makes 81?"]
+    hints: ["Area of a square is side × side, not side × 2. So you need a number that, multiplied by itself, makes the area."]
   },
   {
     id: "g5-maths-meas-b-q20",

@@ -93,6 +93,6 @@ export const G2_MATHS_HINTS: Record<string, HintOverlay> = {
   "g2-maths-timemoney-b-q16": ["Subtract."],
   "g2-maths-addsub-a-q01": ["12 is 1 ten and 2 ones. When you add 5, which part of 12 changes: the tens or the ones?"],
   "g2-maths-addsub-b-q03": ["Make a ten: give 2 from the 9 to the 8. How many are left over from the 9?"],
-  "g2-maths-place-b-q09": ["Count in tens to 100, one finger per ten."],
+  "g2-maths-place-b-q09": ["How many tens make 50? Use that to work out 100."],
   "g2-maths-timemoney-a-q12": ["× 2 means two lots of ₹5. Picture two ₹5 coins side by side."],
 };

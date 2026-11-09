@@ -147,6 +147,6 @@ export const G6_MATHS_HINTS: Record<string, HintOverlay> = {
   "g6-maths-geo-b-q20": ["Complementary angles together make a right angle. What must ∠Q be so that ∠P and ∠Q fill that corner exactly?"],
   "g6-maths-geo-b-q21": ["Supplementary angles together make a straight line. What must ∠Y be so that ∠X and ∠Y lie flat along that line?"],
   "g6-maths-geo-b-q22": ["No equal sides."],
-  "g6-maths-geo-b-q23": ["A chord joins two points on the circle. Which of those chords also goes through the centre?"],
+  "g6-maths-geo-b-q23": ["Draw a few chords in a circle, some near the edge and some near the middle. Where does the longest one sit?"],
   "g6-maths-geo-b-q24": ["Run your finger round the edge of each shape in your head. Does the edge go in straight pieces with corners, or bend smoothly all the way round?"],
 };

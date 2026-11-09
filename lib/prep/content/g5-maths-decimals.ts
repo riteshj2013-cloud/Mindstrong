@@ -145,7 +145,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "3/10 means three tenths, written 0.3 with the 3 in the first place after the point. 0.03 is tempting if you put the 3 in the hundredths place instead of the tenths.",
-    hints: ["Tenths sit in the first place after the point. Where does the 3 in 3/10 go?"]
+    hints: ["What does the 10 in 3/10 tell you about which place the 3 goes in?"]
   },
   {
     id: "g5-maths-dec-a-q12",
@@ -210,7 +210,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Write 4.2 as 4.20 and subtract: 4.20 − 0.85 = 3.35. 3.45 is tempting if you subtract only 0.75 (misreading the 8 tenths as 7) from 4.20.",
-    hints: ["Write 4.2 as 4.20 so the places line up with 0.85, then subtract."]
+    hints: ["Line up the decimal points. What digit does 4.2 have in the hundredths place? Watch every borrow."]
   },
   {
     id: "g5-maths-dec-a-q17",
@@ -460,7 +460,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "7/100 is seven hundredths, so the 7 sits two places after the point: 0.07. 0.7 is tempting if you treat 7/100 as seven tenths.",
-    hints: ["Hundredths need two places after the point. Where does the 7 in 7/100 go?"]
+    hints: ["What does the 100 in 7/100 tell you about which place the 7 goes in?"]
   },
   {
     id: "g5-maths-dec-b-q12",
@@ -525,7 +525,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Write 6.5 as 6.50. Then 6.50 − 2.75 = 3.75. 3.25 is tempting if you subtract 2.75 from 6.00 (dropping the 5 tenths) instead of from 6.50.",
-    hints: ["Write 6.5 as 6.50 so the places line up with 2.75, then subtract."]
+    hints: ["Line up the decimal points. What digit does 6.5 have in the hundredths place? Watch every borrow."]
   },
   {
     id: "g5-maths-dec-b-q17",
