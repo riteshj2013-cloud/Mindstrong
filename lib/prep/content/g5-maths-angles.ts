@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "A base" }
     ],
     answerId: "c",
-    explanation: "The common meeting point of the two arms is the vertex, shown here as the orange point V. An arm is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "The common meeting point of the two arms is the vertex, shown here as the orange point V. An arm is tempting if you name one of the rays instead of the point where the rays meet.",
     hints: ["Point V is where the two arms of the angle meet. What is that corner point called?"],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 440 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Angle with vertex V and arms VA and VB\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"440\" height=\"160\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"220\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Name the parts</text>\n  <line class=\"part arm\" x1=\"220\" y1=\"110\" x2=\"304.6\" y2=\"79.2\" stroke=\"#333\" stroke-width=\"2.5\"/>\n  <line class=\"part arm\" x1=\"220\" y1=\"110\" x2=\"250.8\" y2=\"25.4\" stroke=\"#333\" stroke-width=\"2.5\"/>\n  <circle class=\"part vertex\" cx=\"220\" cy=\"110\" r=\"5\" fill=\"#e65100\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <path class=\"part arc\" d=\"M 249.6 99.2 A 31.5 31.5 0 0 0 230.8 80.4\" fill=\"none\" stroke=\"#42a5f5\" stroke-width=\"2\"/>\n  <text class=\"label\" x=\"220\" y=\"128\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">V</text>\n  <text class=\"label\" x=\"318.7\" y=\"74.1\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">A</text>\n  <text class=\"label\" x=\"255.9\" y=\"11.3\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">B</text>\n  <text class=\"label small\" x=\"220\" y=\"148\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">The orange dot is where the arms meet.</text>\n</svg>", "alt": "Two rays meet at an orange point labelled V. One arm ends at A and the other at B. A blue arc sits between the arms."}
   },
@@ -242,7 +242,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "c",
-    explanation: "A pentagon has 5 sides and a quadrilateral has 4, so together they have 5 + 4 = 9 sides. 8 is tempting, but it does not match what the question asks.",
+    explanation: "A pentagon has 5 sides and a quadrilateral has 4, so together they have 5 + 4 = 9 sides. 8 is tempting if you mix up the side counts of the shapes; adding them correctly gives 9.",
     hints: ["A pentagon has 5 sides and a quadrilateral has 4. Add them."]
   },
   {
@@ -337,7 +337,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "90\u00b0" }
     ],
     answerId: "a",
-    explanation: "The tips make a full turn of 360\u00b0 at the centre, so each is 360\u00b0 \u00f7 8 = 45\u00b0. 22.5\u00b0 is tempting, but it shares only a straight angle (180\u00b0), which is half a turn.",
+    explanation: "The tips make a full turn of 360° at the centre, so each is 360° ÷ 8 = 45°. 22.5° is tempting, but it shares only a straight angle (180°), which is half a turn.",
     hints: ["All the slice tips meet at the centre and make one full turn together. Share that turn equally."]
   },
   {
@@ -376,7 +376,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Shape D" }
     ],
     answerId: "c",
-    explanation: "A pentagon has 5 sides. Shape C is the only one with 5 sides. Shape A is tempting, but it does not match what the question asks.",
+    explanation: "A pentagon has 5 sides. Shape C is the only one with 5 sides. Shape A is tempting if you mix up angle or shape names, but the correct choice is Shape C.",
     hints: ["Count the straight sides; a pentagon has 5."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 470 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Four polygons find the pentagon\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"470\" height=\"190\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"240\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Which shape is a pentagon?</text>\n  <polygon class=\"part poly\" points=\"70.0,60.0 110.0,100.0 70.0,140.0 30.0,100.0\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"label option-label\" x=\"70\" y=\"158\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">A</text>\n  <polygon class=\"part poly\" points=\"180.0,60.0 214.6,80.0 214.6,120.0 180.0,140.0 145.4,120.0 145.4,80.0\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"label option-label\" x=\"180\" y=\"158\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">B</text>\n  <polygon class=\"part poly\" points=\"290.0,60.0 328.0,87.6 313.5,132.4 266.5,132.4 252.0,87.6\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"label option-label\" x=\"290\" y=\"158\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">C</text>\n  <polygon class=\"part poly\" points=\"400.0,60.0 428.3,71.7 440.0,100.0 428.3,128.3 400.0,140.0 371.7,128.3 360.0,100.0 371.7,71.7\" fill=\"#fce4ec\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"label option-label\" x=\"400\" y=\"158\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">D</text>\n  <text class=\"label small\" x=\"240\" y=\"178\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Count the straight sides of each shape.</text>\n</svg>", "alt": "Four shapes. A has 4 sides, B has 6, C has 5 and D has 8."}
   },
@@ -417,7 +417,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "The letter M" }
     ],
     answerId: "d",
-    explanation: "The letter M has two loose ends that do not meet, so it is open, while the polygons are all closed. A triangle is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "The letter M has two loose ends that do not meet, so it is open, while the polygons are all closed. A triangle is tempting if you mix up angle or shape names, but the correct choice is The letter M.",
     hints: ["An open shape does not end where it starts. Trace each one: which leaves a gap?"]
   },
   {
@@ -456,7 +456,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Octagon" }
     ],
     answerId: "a",
-    explanation: "A closed shape with 5 straight sides is a pentagon, while a hexagon has 6. Hexagon is tempting, but it does not match what the question asks.",
+    explanation: "A closed shape with 5 straight sides is a pentagon, while a hexagon has 6. Hexagon is tempting if you mix up the side counts of the shapes; adding them correctly gives Pentagon.",
     hints: ["Shape names count sides: tri for 3, quad for 4, hexa for 6. Which name means 5 sides?"]
   },
   {

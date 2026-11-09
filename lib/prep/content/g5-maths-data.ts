@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Only tallies" }
     ],
     answerId: "a",
-    explanation: "Data are facts and numbers collected for a purpose. Only drawings is tempting, but it does not match what the question asks.",
+    explanation: "Data are facts and numbers collected for a purpose. Only drawings is tempting if you read the wrong row or column of the table or chart; the correct reading is Facts and numbers we collect.",
     hints: ["Think of a class survey of favourite fruits: the information you write down is the data."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Perimeter" }
     ],
     answerId: "b",
-    explanation: "Frequency is how often a value appears. Average is tempting, but it does not match what the question asks.",
+    explanation: "Frequency is how often a value appears. Average is tempting if you read the wrong row or column of the table or chart; the correct reading is Frequency.",
     hints: ["Think of tally marks counting how many times each value appears. What is that count called?"]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Draw a pictograph first" }
     ],
     answerId: "c",
-    explanation: "Use the row for Meera and the Marks column. Ignore headings is tempting, but it does not match what the question asks.",
+    explanation: "Use the row for Meera and the Marks column. Ignore headings is tempting if you read the wrong row or column of the table or chart; the correct reading is Find Meera's row and read the Marks cell.",
     hints: ["A table has a row for each name and a column for each heading. Where do Meera's row and the Marks column meet?"]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "d",
-    explanation: "3 × 5 = 15 books. 8 is tempting, but it does not match what the question asks.",
+    explanation: "3 × 5 = 15 books. 8 is tempting if you count symbols without using the key; with the key the total is 15.",
     hints: ["Each icon stands for 5 books. Add 5 for each of the 3 icons."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "a",
-    explanation: "12 + 8 + 5 = 25 children. 20 is tempting, but it does not match what the question asks.",
+    explanation: "12 + 8 + 5 = 25 children. 20 is tempting if you read the wrong row or column of the table or chart; the correct reading is 25.",
     hints: ["Every child chose one way, so add the Bus, Walk and Cycle numbers."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "b",
-    explanation: "12 − 5 = 7. 8 is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "The correct answer is 7. 8 is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 7.",
     hints: ["How many more means subtract: take the Cycle number from the Bus number."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "35" }
     ],
     answerId: "d",
-    explanation: "35 is the greatest value. 30 is tempting, but it does not match what the question asks.",
+    explanation: "35 is the greatest value. 30 is tempting if you read the wrong row or column of the table or chart; the correct reading is 35.",
     hints: ["Compare the bar scores one by one and keep the biggest; the tallest bar shows it."]
   },
   {
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "To erase tallies" }
     ],
     answerId: "a",
-    explanation: "Tables organise data so patterns are easier to see. To hide numbers is tempting, but it does not match what the question asks.",
+    explanation: "Tables organise data so patterns are easier to see. \"To hide numbers\" is tempting if you reverse that purpose, but tables are meant to make data neat and easy to read.",
     hints: ["Imagine 30 survey answers in one long sentence versus in a table's rows and columns. Which is quicker to read?"]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Percent" }
     ],
     answerId: "b",
-    explanation: "Unsorted collected facts are raw data. Mode is tempting, but it does not match what the question asks.",
+    explanation: "Unsorted collected facts are raw data. Mode is tempting if you read the wrong row or column of the table or chart; the correct reading is Raw data.",
     hints: ["Scores written down just as they come, before any sorting, are not organised yet. What are such data called?"]
   },
   {
@@ -458,7 +458,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Guessing" }
     ],
     answerId: "c",
-    explanation: "Find the Tuesday row and read the temperature. Ignoring the table is tempting, but it does not match what the question asks.",
+    explanation: "Find the Tuesday row and read the temperature. Ignoring the table is tempting if you read the wrong row or column of the table or chart; the correct reading is Reading Tuesday's row.",
     hints: ["Find Tuesday in the Day column, then move across to the Temperature column."]
   },
   {
@@ -471,7 +471,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "d",
-    explanation: "5 × 3 = 15 balls. 8 is tempting, but it does not match what the question asks.",
+    explanation: "5 × 3 = 15 balls. 8 is tempting if you count symbols without using the key; with the key the total is 15.",
     hints: ["Each icon stands for 3 balls. Multiply the 5 icons by 3."]
   },
   {
@@ -484,7 +484,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "a",
-    explanation: "14 + 9 = 23. 16 is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "14 + 9 = 23. 16 is tempting if you read the wrong row or column of the table or chart; the correct reading is 23.",
     hints: ["'Or' means add: add the Chocolate and Vanilla numbers."]
   },
   {
@@ -497,7 +497,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "14" }
     ],
     answerId: "b",
-    explanation: "14 − 7 = 7. 5 is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "The correct answer is 7. 5 is tempting if you read the wrong row or column of the table or chart; the correct reading is 7.",
     hints: ["How many fewer means subtract: take the Strawberry number from the Chocolate number."]
   },
   {
@@ -523,7 +523,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "35" }
     ],
     answerId: "d",
-    explanation: "35 is the smallest value. 40 is tempting, but it does not match what the question asks.",
+    explanation: "35 is the smallest value. 40 is tempting if you read the wrong row or column of the table or chart; the correct reading is 35.",
     hints: ["Compare the visitor numbers one by one and keep the smallest; the shortest bar shows it."]
   },
   {
