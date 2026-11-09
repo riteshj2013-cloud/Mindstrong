@@ -25,7 +25,8 @@
     "scripts/ingest_g3_english_expression.py": "G3 English ch05 Spoken and Written Expression",
     "scripts/ingest_g3_english_words.py": "G3 English ch06 Words and Word Power",
     "scripts/ingest_g5_maths_achievers_extras.py": "G5 Maths Achievers extras (5 per chapter × 6)",
-    "scripts/ingest_g6_maths_achievers_extras.py": "G6 Maths Achievers extras (5 per chapter × 3)"
+    "scripts/ingest_g6_maths_achievers_extras.py": "G6 Maths Achievers extras (5 per chapter × 3)",
+    "scripts/ingest_g7_maths_achievers_extras.py": "G7 Maths Achievers extras (5 per chapter × 3)"
   },
   "retired": {
     "scripts/seed_g7_full.py": "G7 pack: rewrites G7 English and Maths content and hints (undoes the #58 integer stems and the #62 near-duplicate rewrites)",

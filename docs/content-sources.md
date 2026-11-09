@@ -23,6 +23,7 @@ Each retired script starts with a guard that exits with `DEPRECATED: …` unless
 | `ingest_g3_english_words.py` | G3 English ch06 Words and Word Power |
 | `ingest_g5_maths_achievers_extras.py` | G5 Maths Achievers extras (6×5) |
 | `ingest_g6_maths_achievers_extras.py` | G6 Maths Achievers extras (3×5) |
+| `ingest_g7_maths_achievers_extras.py` | G7 Maths Achievers extras (3×5) |
 | `ingest_g4_maths_ch08.py` | G4 Maths M8 Everyday Word Problems |
 | `ingest_g4_maths_ch09.py` | G4 Maths M9 Logical Reasoning: patterns, analogies, classification |
 | `ingest_g4_maths_ch10.py` | G4 Maths M10 Logical Reasoning: coding, ranking, alphabet |
