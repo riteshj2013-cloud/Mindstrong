@@ -1,4 +1,5 @@
 import type { ChapterDef, PrepQuestion } from "../types";
+import { g6MathsFractionsDecimalsAchievers } from "./g6-maths-fractions-decimals-achievers";
 
 /** Fractions & Decimals - original olympiad-style content (not affiliated with SOF). */
 
@@ -707,6 +708,13 @@ export const g6MathsFractionsDecimals: ChapterDef = {
       questionCount: SET_B.length,
       topic: "fractions",
       questions: SET_B,
+    },
+    {
+      id: "set-achievers",
+      title: "Achievers",
+      questionCount: g6MathsFractionsDecimalsAchievers.length,
+      topic: "fractions",
+      questions: g6MathsFractionsDecimalsAchievers,
     },
   ],
   paperTopics: ["fractions", "decimals"],

@@ -1,4 +1,5 @@
 import type { ChapterDef, PrepQuestion } from "../types";
+import { g6MathsIntegersAchievers } from "./g6-maths-integers-achievers";
 
 /** Integers - original olympiad-style content (not affiliated with SOF). */
 
@@ -707,6 +708,13 @@ export const g6MathsIntegers: ChapterDef = {
       questionCount: SET_B.length,
       topic: "add-sub",
       questions: SET_B,
+    },
+    {
+      id: "set-achievers",
+      title: "Achievers",
+      questionCount: g6MathsIntegersAchievers.length,
+      topic: "integers",
+      questions: g6MathsIntegersAchievers,
     },
   ],
   paperTopics: ["add-sub", "place-value"],
