@@ -223,7 +223,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "∠C = 180° − 50° − 60° = 70°. 110° is tempting if you add 50° + 60° and forget to subtract from 180°.",
-    hints: ["The three angles of △ABC together make a straight angle. How much of that do ∠A and ∠B already use up?"]
+    hints: ["The three angles of △ABC together make a straight angle. Once ∠A and ∠B are in place, how much of that straight angle is still left for ∠C?"]
   },
   {
     id: "g6-maths-geo-a-q18",

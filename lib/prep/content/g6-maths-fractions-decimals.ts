@@ -54,7 +54,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "2/5 of 40 = 2 × (40 ÷ 5) = 16. 20 is tempting if you take half of 40 instead of two-fifths.",
-    hints: ["2/5 means 2 out of every 5 equal parts. If 40 is shared into 5 equal groups, how many are in each group?"]
+    hints: ["2/5 means 2 out of every 5 equal parts. Share 40 into 5 equal groups. How many of those groups does 2/5 ask you to take?"]
   },
   {
     id: "g6-maths-frac-a-q05",

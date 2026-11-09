@@ -460,7 +460,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Guessing" }
     ],
     answerId: "c",
-    explanation: "Find Tuesday in the Day column and read across to Temperature. Ignoring the table is tempting if you think you can just remember or guess how warm Tuesday was, but the exact temperature is written only in Tuesday's row.",
+    explanation: "Find Tuesday in the Day column and read across to Temperature. Ignoring the table is tempting if you think you already know Tuesday's temperature from memory, so you never look at the table, but the exact temperature is written only in Tuesday's row.",
     hints: ["Find Tuesday in the Day column, then move across to the Temperature column."]
   },
   {
