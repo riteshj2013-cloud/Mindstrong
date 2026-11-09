@@ -33,6 +33,7 @@ import { g3MathsDataHandling } from "./content/g3-maths-data-handling";
 import { g3EnglishSynonyms } from "./content/g3-english-synonyms";
 import { g3EnglishAntonyms } from "./content/g3-english-antonyms";
 import { g3EnglishGrammar } from "./content/g3-english-grammar";
+import { g3EnglishReading } from "./content/g3-english-reading";
 import { g4MathsLargeNumbers } from "./content/g4-maths-large-numbers";
 import { g4MathsMultiplyDivide } from "./content/g4-maths-multiply-divide";
 import { g4MathsFractions } from "./content/g4-maths-fractions";
@@ -745,6 +746,7 @@ const ENGLISH: Record<number, ChapterDef[]> = {
     g3EnglishSynonyms,
     g3EnglishAntonyms,
     g3EnglishGrammar,
+    g3EnglishReading,
   ],
   4: [
     g4EnglishReading,
