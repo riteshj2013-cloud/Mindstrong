@@ -64,7 +64,7 @@ export const G6_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g6-eng-vocab-b-q08": ["\"careless\" is care + the suffix -less.", "Compare careful and careless — -ful means full of, so -less means the opposite."],
   "g6-eng-vocab-b-q09": ["\"purchase\" is what Amma does at the vegetable stall when she pays.", "\"sell\" is the shopkeeper's side; borrowing and losing involve no payment."],
   "g6-eng-vocab-b-q11": ["Fertile soil is what farmers hope for.", "\"barren\" soil grows nothing — fertile soil does the opposite."],
-  "g6-eng-vocab-b-q12": ["The k in \"knight\" is silent; say it aloud.", "Which word sounds exactly like knight and names the time after evening?"],
+  "g6-eng-vocab-b-q12": ["Say the word without the silent letter at the start. Which choice matches that sound exactly?"],
   "g6-eng-vocab-b-q17": ["A \"flexible\" ruler or straw can be curved without breaking.", "\"unable to bend\" is the opposite of flexible."],
   "g6-eng-vocab-b-q20": ["\"hit the books\" is an idiom; nobody really hits anything.", "Before exams, Kabir decided to \"hit the books\". What did he do?"],
   "g6-eng-vocab-b-q24": ["Dusk is the dim light after sunset; dawn is at the other end of the day."],

@@ -77,7 +77,7 @@ export const G2_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g2-maths-timemoney-a-q15": ["Quarter past 4: the minute hand goes a quarter of the way round. Split 60 minutes into 4 equal parts."],
   "g2-maths-timemoney-a-q16": ["Count up from the pencil's ₹7 to the ₹10 note. How many rupees did you count?"],
   "g2-maths-timemoney-b-q03": ["Count back 5 from ₹20, one rupee at a time."],
-  "g2-maths-timemoney-b-q05": ["Lunch is in the afternoon, then the sky gets darker in the evening. Which comes first?"],
+  "g2-maths-timemoney-b-q05": ["Evening is when lamps go on and the sky is darker. Does that time come earlier than midday, or later?"],
   "g2-maths-timemoney-b-q07": ["Half past 5: the minute hand points straight down. Each clock number is 5 minutes."],
   "g2-maths-timemoney-b-q08": ["₹19 is ₹10 more than the other amount. So which is less?"],
   "g2-maths-timemoney-b-q09": ["Lunch is when the clock shows 12 in the daytime. What is that time called?"],

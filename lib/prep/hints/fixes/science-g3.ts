@@ -13,7 +13,7 @@ import type { HintOverlay } from "../types";
 
 export const G3_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   // g3-science-plants-parts
-  "g3-sci-plants-a-q01": ["Find the soil line in the picture. Which label points to the part below it?"],
+  "g3-sci-plants-a-q01": ["Find the soil line in the picture. Which label sits under that line?"],
   "g3-sci-plants-a-q02": ["Which part of the tree is green, flat and spread out wide to catch as much sunlight as it can?"],
   "g3-sci-plants-a-q03": ["Roots work like a drinking straw for the plant. What would a straw pull up from wet soil?"],
   "g3-sci-plants-a-q04": ["Think of the tall middle part that stands up like a pole and works like a pipe up to the leaves."],
@@ -29,7 +29,7 @@ export const G3_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g3-sci-plants-a-q14": ["A fruit grows from a flower and has seeds inside. Which choice has seeds when you cut it open?"],
   "g3-sci-plants-a-q15": ["Riya pulls hard but the weed will not come out. What is gripping the soil underground?"],
   "g3-sci-plants-a-q16": ["Sugarcane is a tall, thick stick that stores sweet juice. Which plant part stands tall like that?"],
-  "g3-sci-plants-a-q17": ["Look closely at the cauliflower: the white head is made of tiny buds. What do buds open into?"],
+  "g3-sci-plants-a-q17": ["The white head is packed with tiny buds. Buds open into which plant part?"],
   "g3-sci-plants-a-q18": ["Each pea sits inside the pod. If you planted one pea, a new pea plant would grow from it."],
   "g3-sci-plants-a-q19": ["Aman's plant gets no water for days. What happens to leaves when a plant is thirsty?"],
   "g3-sci-plants-a-q20": ["Potato is a stem, spinach a leaf and apple a fruit. Which pair grows down into the soil only?"],

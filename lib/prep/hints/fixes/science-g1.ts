@@ -29,7 +29,7 @@ export const G1_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g1-sci-plants-a-q01": ["Pull a small weed out of the soil. Which plant part was hiding under the soil, holding on tight?"],
   "g1-sci-plants-a-q02": ["Look at the leaves on a mango tree or a tulsi plant. What colour are most of them?"],
   "g1-sci-plants-a-q04": ["The plant cooks its own food using sunlight. Which flat part catches the sunlight?"],
-  "g1-sci-plants-a-q05": ["When you are thirsty you drink something. What do we pour on plants from a watering can?"],
+  "g1-sci-plants-a-q05": ["When a plant looks droopy on a hot day, what do we tip onto the soil from a can?"],
   "g1-sci-plants-a-q07": ["Plants kept near a sunny window grow well. What shines in through the window to help plants grow?"],
   "g1-sci-plants-a-q10": ["A plant grows in soil and has leaves and petals. Which one grows in a garden?"],
   "g1-sci-plants-a-q11": ["Cut an apple or a mango in half. What small things do you find inside the fruit?"],
