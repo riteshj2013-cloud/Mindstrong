@@ -223,7 +223,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "(5y − 3)² = 25y² − 2·5y·3 + 9 = 25y² − 30y + 9. 25y² − 9 is tempting if you mix up (5y − 3)² with (5y − 3)(5y + 3), the difference of squares, which has no middle term and ends in −9.",
-    hints: ["Use (a − b)² = a² − 2ab + b² with a = 5y and b = 3."]
+    hints: ["Squaring a binomial needs three terms. Which identity has a middle term of −2ab?"]
   },
   {
     id: "g8-maths-algebra-a-q18",
@@ -460,7 +460,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "(x − 7)² = x² − 14x + 49. x² − 49 is tempting if you mix up (x − 7)² with (x − 7)(x + 7), the difference of squares, which equals x² − 49.",
-    hints: ["Use (a − b)² = a² − 2ab + b² with a = x and b = 7."]
+    hints: ["Squaring a binomial needs three terms. Which identity has a middle term of −2ab?"]
   },
   {
     id: "g8-maths-algebra-b-q12",

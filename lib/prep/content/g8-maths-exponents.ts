@@ -28,7 +28,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Same base: multiply by adding exponents — 5² × 5³ = 5^(2+3) = 5⁵. 5⁶ is tempting if you multiply the exponents 2 × 3 = 6 instead of adding them.",
-    hints: ["Same base 5: when multiplying, add the exponents 2 and 3."]
+    hints: ["Same base when multiplying — do you add or multiply the exponents?"]
   },
   {
     id: "g8-maths-exponents-a-q03",
@@ -131,8 +131,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Both 3\u207b\u2074 and 9\u207b\u00b2" }
     ],
     answerId: "d",
-    explanation: "81 = 3⁴ = 9², so 1/81 = 3⁻⁴ = 9⁻², and option d names both of these. 3⁴ is tempting if you forget the reciprocal and leave a positive exponent; 3⁻³ is tempting if you think 81 = 3³ (but 3³ = 27).",
-    hints: ["81 is 3⁴. Can 81 also be written as the square of a whole number? A reciprocal flips the sign of the exponent."]
+    explanation: "81 = 3⁴ = 9², so 1/81 = 3⁻⁴ = 9⁻², and both of these appear together in the answer that names them. 3⁴ is tempting if you forget the reciprocal and leave a positive exponent; 3⁻³ is tempting if you think 81 = 3³ (but 3³ = 27).",
+    hints: ["Write 81 as a power with base 3, and also as a square. What happens to each exponent when you take the reciprocal?"]
   },
   {
     id: "g8-maths-exponents-a-q11",
@@ -368,8 +368,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4⁸" }
     ],
     answerId: "a",
-    explanation: "Multiply exponents: (4²)² = 4^(2 × 2) = 4⁴. 4⁸ is tempting if you multiply the two 2s and then multiply by 2 again (2 × 2 × 2 = 8), as if the outer square were an extra factor on the exponent.",
-    hints: ["For a power of a power, multiply the exponents. Keep the base 4."]
+    explanation: "For a power of a power, multiply the exponents: (4²)² = 4^(2 × 2) = 4⁴. 4² is tempting if you square only once and think the outer ² is already used up. 4⁸ is tempting if you write 4^(2² × 2) by treating the stacked 2s as 2² and then still multiplying by the outer 2.",
+    hints: ["A power raised to a power: what do you do with the two small numbers, and what stays the same?"]
   },
   {
     id: "g8-maths-exponents-b-q05",

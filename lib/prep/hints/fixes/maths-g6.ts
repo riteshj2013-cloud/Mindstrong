@@ -77,7 +77,7 @@ export const G6_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g6-maths-frac-b-q19": ["Slices left = 8 − 3. Write the slices left over the 8 slices of the whole pizza."],
   "g6-maths-frac-b-q20": ["Divide 7 by the bottom number to make a decimal, then subtract 1.5."],
   "g6-maths-frac-b-q21": ["Mrinalini's grandmother's fraction is a division; divide the numerator by the denominator, adding zeros after the decimal point."],
-  "g6-maths-frac-b-q22": ["Change 7/10 into a decimal by dividing 7 by 10. Compare it with 0.7."],
+  "g6-maths-frac-b-q22": ["Write both amounts with the same kind of number — both decimals, or both fractions — before you compare."],
   // g6-maths basic-geometry — Basic Geometry
   "g6-maths-geo-a-q03": ["Picture the corner of a notebook page. What special name is given to an angle measuring exactly 90°?"],
   "g6-maths-geo-a-q05": ["120° is more than a right angle of 90° but less than 180°. Which type is that?"],
@@ -135,6 +135,6 @@ export const G6_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g6-maths-geo-b-q17": ["Angles opposite each other at a crossing are equal. Match the given angle to its opposite."],
   "g6-maths-geo-b-q20": ["Complementary angles together make a right angle. What must ∠Q be so that ∠P and ∠Q fill that corner exactly?"],
   "g6-maths-geo-b-q21": ["Supplementary angles together make a straight line. What must ∠Y be so that ∠X and ∠Y lie flat along that line?"],
-  "g6-maths-geo-b-q23": ["Which chord passes through the centre and is longest?"],
+  "g6-maths-geo-b-q23": ["A chord joins two points on the circle. Which of those chords also goes through the centre?"],
   "g6-maths-geo-b-q24": ["Run your finger round the edge of each shape in your head. Does the edge go in straight pieces with corners, or bend smoothly all the way round?"],
 };

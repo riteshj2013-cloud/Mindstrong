@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "16" }
     ],
     answerId: "b",
-    explanation: "32 = 2⁵, so x = 5. 4 is tempting if you add the exponents when you should multiply them for a power of a power.",
+    explanation: "2¹=2, 2²=4, 2³=8, 2⁴=16, 2⁵=32, so x = 5. 4 is tempting if you stop at 2⁴ = 16; one more ×2 gives 32.",
     hints: ["Write 32 as a power of 2."]
   },
   {

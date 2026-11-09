@@ -145,7 +145,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "3/10 means three tenths, written 0.3 with the 3 in the first place after the point. 0.03 is tempting if you put the 3 in the hundredths place instead of the tenths.",
-    hints: ["Tenths go in the first place after the decimal point. Where does the 3 of 3/10 go?"]
+    hints: ["Tenths sit in the first place after the point. Where does the 3 in 3/10 go?"]
   },
   {
     id: "g5-maths-dec-a-q12",
@@ -210,7 +210,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Write 4.2 as 4.20 and subtract: 4.20 − 0.85 = 3.35. 3.45 is tempting if you subtract only 0.75 (misreading the 8 tenths as 7) from 4.20.",
-    hints: ["Write 4.2 as 4.20, line up the points with 0.85, then subtract, borrowing where needed."]
+    hints: ["Write 4.2 as 4.20 so the places line up with 0.85, then subtract."]
   },
   {
     id: "g5-maths-dec-a-q17",
@@ -407,8 +407,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2.3" }
     ],
     answerId: "c",
-    explanation: "5.0 − 2.3 = 2.7. 3.7 is tempting if you subtract the wrong way round in the ones place (5 − 2 = 3) while still doing 10 − 3 = 7 in the tenths after a needless borrow.",
-    hints: ["Line up the decimal points of 5.0 and 2.3. Borrow from the ones to subtract the tenths."]
+    explanation: "5.0 − 2.3 = 2.7. 3.7 is tempting if you borrow to do 10 − 3 = 7 in the tenths but forget to take that 1 from the ones, so you do 5 − 2 = 3 instead of 4 − 2 = 2.",
+    hints: ["Line up 5.0 and 2.3. After you borrow for the tenths, what happens to the ones digit?"]
   },
   {
     id: "g5-maths-dec-b-q08",
@@ -460,7 +460,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "7/100 is seven hundredths, so the 7 sits two places after the point: 0.07. 0.7 is tempting if you treat 7/100 as seven tenths.",
-    hints: ["Hundredths take two places after the decimal point. Put the 7 of 7/100 in the second place."]
+    hints: ["Hundredths need two places after the point. Where does the 7 in 7/100 go?"]
   },
   {
     id: "g5-maths-dec-b-q12",
@@ -525,7 +525,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Write 6.5 as 6.50. Then 6.50 − 2.75 = 3.75. 3.25 is tempting if you subtract 2.75 from 6.00 (dropping the 5 tenths) instead of from 6.50.",
-    hints: ["Write 6.5 as 6.50, line up the points with 2.75, then subtract, borrowing where needed."]
+    hints: ["Write 6.5 as 6.50 so the places line up with 2.75, then subtract."]
   },
   {
     id: "g5-maths-dec-b-q17",
@@ -538,7 +538,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Dividing by 100 moves the decimal point two places left: 3.2 → 0.32 → 0.032. 0.32 is tempting if you move the point only one place (as if dividing by 10).",
-    hints: ["Dividing by 100 moves every digit of 3.2 two places to the right. Fill the gaps with zeros."]
+    hints: ["Dividing by 100 moves the point — how many places, and which way?"]
   },
   {
     id: "g5-maths-dec-b-q18",

@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "72\u00b0" }
     ],
     answerId: "c",
-    explanation: "2x + 3x = 90 → 5x = 90 → x = 18; larger = 54°. 36° is tempting if you subtract from 90° when the pair is supplementary (180°); using 180° gives 54° when you re-check the two.",
+    explanation: "Complementary angles share 90°. With ratio 2 : 3, one part is 90° ÷ 5 = 18°, so the angles are 36° and 54°. 36° is the smaller angle (2 × 18°); the question asks for the larger.",
     hints: ["Parts of 90° in ratio 2:3."]
   },
   {

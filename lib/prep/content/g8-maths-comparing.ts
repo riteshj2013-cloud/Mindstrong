@@ -106,7 +106,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "18 out of 24 = 18/24 = 3/4 = 75%. 25% is tempting if you find the percentage who failed (6/24 = 25%) instead of who passed.",
-    hints: ["Write 18 out of 24 as a fraction, simplify it, then multiply by 100%."]
+    hints: ["Write “18 out of 24” as a fraction first. How do you turn that into a percentage?"]
   },
   {
     id: "g8-maths-compare-a-q09",

@@ -145,7 +145,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Expand: 3(x − 2) = 3x − 6. So 3x − 6 = 2x + 5 → 3x − 2x = 5 + 6 → x = 11. 7 is tempting if you expand 3(x − 2) as 3x − 2 (forgetting to multiply the 2) and then solve 3x − 2 = 2x + 5 → x = 7.",
-    hints: ["Open the bracket: 3 multiplies both x and −2. Then collect the x terms on the left."]
+    hints: ["Open the bracket carefully: 3 multiplies every term inside. Then gather the x terms."]
   },
   {
     id: "g8-maths-linear-a-q12",
