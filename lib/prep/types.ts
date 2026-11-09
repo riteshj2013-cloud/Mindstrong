@@ -114,7 +114,7 @@ export type LessonStep =
 export interface ChapterSet {
   id: string;
   title: string;
-  /** Target 20–25 olympiad-style MCQs. */
+  /** Typical 20–25 olympiad-style MCQs; Achievers extras may be 5. */
   questionCount: number;
   /** Generator topic key used at runtime (fallback when questions absent). */
   topic: string;

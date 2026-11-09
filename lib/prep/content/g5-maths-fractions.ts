@@ -1,4 +1,5 @@
 import type { ChapterDef, PrepQuestion } from "../types";
+import { g5MathsFractionsAchievers } from "./g5-maths-fractions-achievers";
 
 /** Fractions - original olympiad-style content (not affiliated with SOF). */
 
@@ -725,6 +726,13 @@ export const g5MathsFractions: ChapterDef = {
       questionCount: SET_B.length,
       topic: "fractions",
       questions: SET_B,
+    },
+    {
+      id: "set-achievers",
+      title: "Achievers",
+      questionCount: g5MathsFractionsAchievers.length,
+      topic: "fractions",
+      questions: g5MathsFractionsAchievers,
     },
   ],
   paperTopics: ["fractions", "decimals"],

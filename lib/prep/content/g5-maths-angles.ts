@@ -1,4 +1,5 @@
 import type { ChapterDef, PrepQuestion } from "../types";
+import { g5MathsAnglesAchievers } from "./g5-maths-angles-achievers";
 
 /** Shapes and Angles - original olympiad-style content (not affiliated with SOF). */
 
@@ -724,6 +725,13 @@ export const g5MathsAngles: ChapterDef = {
       questionCount: SET_B.length,
       topic: "add-sub",
       questions: SET_B,
+    },
+    {
+      id: "set-achievers",
+      title: "Achievers",
+      questionCount: g5MathsAnglesAchievers.length,
+      topic: "angles",
+      questions: g5MathsAnglesAchievers,
     },
   ],
   paperTopics: ["add-sub", "place-value"],
