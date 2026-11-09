@@ -13,8 +13,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "ordinate" }
     ],
     answerId: "b",
-    explanation: "Their intersection is the origin (0, 0).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Their intersection is the origin (0, 0). quadrant is tempting, but it does not match what the question asks.",
+    hints: ["The x-axis and y-axis cross at the point (0, 0). What is that point called?"]
   },
   {
     id: "g9-maths-coord-a-q02",
@@ -26,8 +26,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "c",
-    explanation: "Abscissa means the x-coordinate, which is 3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Abscissa means the x-coordinate, which is 3. 5 is tempting, but it does not match what the question asks.",
+    hints: ["Abscissa = x; ordinate = y."]
   },
   {
     id: "g9-maths-coord-a-q03",
@@ -39,8 +39,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "II" }
     ],
     answerId: "d",
-    explanation: "x negative, y positive → quadrant II.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "x negative, y positive → quadrant II. I is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Sign of x and y decides the quadrant."]
   },
   {
     id: "g9-maths-coord-a-q04",
@@ -52,8 +52,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "x = −y" }
     ],
     answerId: "a",
-    explanation: "On the x-axis the y-coordinate is 0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "On the x-axis the y-coordinate is 0. x = 0 is tempting, but it does not match what the question asks.",
+    hints: ["Which coordinate vanishes on the x-axis?"]
   },
   {
     id: "g9-maths-coord-a-q05",
@@ -65,8 +65,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "√6" }
     ],
     answerId: "b",
-    explanation: "It lies on the y-axis 6 units from (0,0).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "It lies on the y-axis 6 units from (0,0). 0 is tempting, but it does not match what the question asks.",
+    hints: ["Use the distance formula or axis distance."]
   },
   {
     id: "g9-maths-coord-a-q06",
@@ -78,8 +78,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(2, −3)" }
     ],
     answerId: "c",
-    explanation: "Both coordinates negative → quadrant III.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Both coordinates negative → quadrant III. (2, 3) is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["III is (−, −)."]
   },
   {
     id: "g9-maths-coord-a-q07",
@@ -91,8 +91,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "d",
-    explanation: "Ordinate is the y-coordinate: 0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Ordinate is the y-coordinate: 0. 7 is tempting, but it does not match what the question asks.",
+    hints: ["The ordinate is the y-coordinate, the second number in (x, y)."]
   },
   {
     id: "g9-maths-coord-a-q08",
@@ -104,8 +104,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "at the origin" }
     ],
     answerId: "a",
-    explanation: "Each has y = 0, so all lie on the x-axis.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Each has y = 0, so all lie on the x-axis. on the y-axis is tempting, but it does not match what the question asks.",
+    hints: ["Each point has y-coordinate 0, so none moves up or down from the origin. Along which line do they lie?"]
   },
   {
     id: "g9-maths-coord-a-q09",
@@ -117,8 +117,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(4, 3)" }
     ],
     answerId: "b",
-    explanation: "Reflection in the x-axis flips the sign of y.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Reflection in the x-axis flips the sign of y. (−3, 4) is tempting, but it does not match what the question asks.",
+    hints: ["x-axis reflection: (x, y) → (x, −y)."]
   },
   {
     id: "g9-maths-coord-a-q10",
@@ -130,8 +130,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(−2, 2)" }
     ],
     answerId: "c",
-    explanation: "Equal positive coordinates sit in quadrant I.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Equal positive coordinates sit in quadrant I. (−2, −2) is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["In quadrant I both coordinates are positive, and here the abscissa must equal the ordinate."]
   },
   {
     id: "g9-maths-coord-a-q11",
@@ -143,8 +143,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "d",
-    explanation: "√(3² + 4²) = √(9+16) = 5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "√(3² + 4²) = √(9+16) = 5. 7 is tempting, but it does not match what the question asks.",
+    hints: ["Use distance = √(x² + y²) with x = 3 and y = 4."]
   },
   {
     id: "g9-maths-coord-a-q12",
@@ -156,8 +156,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(0, −3)" }
     ],
     answerId: "a",
-    explanation: "Left on the x-axis means negative x: (−3, 0).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Left on the x-axis means negative x: (−3, 0). (3, 0) is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Left → negative x; on axis → y = 0."]
   },
   {
     id: "g9-maths-coord-a-q13",
@@ -169,8 +169,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(−, −)" }
     ],
     answerId: "b",
-    explanation: "Quadrant IV: x positive, y negative.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Quadrant IV: x positive, y negative. (+, +) is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Quadrant IV is the bottom-right part of the plane. Is x right or left there, and is y up or down?"]
   },
   {
     id: "g9-maths-coord-a-q14",
@@ -182,8 +182,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "x + y = 0" }
     ],
     answerId: "c",
-    explanation: "On the y-axis, x = 0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "On the y-axis, x = 0. y = 0 is tempting, but it does not match what the question asks.",
+    hints: ["Every point on the y-axis sits straight above or below the origin. Which coordinate is the same for all of them?"]
   },
   {
     id: "g9-maths-coord-a-q15",
@@ -195,8 +195,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "on the negative y-axis" }
     ],
     answerId: "d",
-    explanation: "x = 0 and y < 0 means on the negative y-axis (not inside a quadrant).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "x = 0 and y < 0 means on the negative y-axis (not inside a quadrant). in quadrant III is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Axis points are not in any quadrant."]
   },
   {
     id: "g9-maths-coord-a-q16",
@@ -208,8 +208,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "√13" }
     ],
     answerId: "a",
-    explanation: "√((4−1)² + (6−2)²) = √(9+16) = 5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "√((4−1)² + (6−2)²) = √(9+16) = 5. 7 is tempting, but it does not match what the question asks.",
+    hints: ["Use the distance formula: root of delta-x squared plus delta-y squared."]
   },
   {
     id: "g9-maths-coord-a-q17",
@@ -221,8 +221,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(2, −5)" }
     ],
     answerId: "b",
-    explanation: "y-axis reflection flips the sign of x.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "y-axis reflection flips the sign of x. (5, 2) is tempting, but it does not match what the question asks.",
+    hints: ["(x, y) → (−x, y) across the y-axis."]
   },
   {
     id: "g9-maths-coord-a-q18",
@@ -234,8 +234,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(1, 0)" }
     ],
     answerId: "c",
-    explanation: "The origin is (0, 0).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The origin is (0, 0). (1, 1) is tempting, but it does not match what the question asks.",
+    hints: ["The origin is where the x-axis and y-axis cross, so it has moved neither right nor up."]
   },
   {
     id: "g9-maths-coord-a-q19",
@@ -247,8 +247,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(−3, 7)" }
     ],
     answerId: "d",
-    explanation: "Ordered pairs are (abscissa, ordinate) = (−3, 7).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Ordered pairs are (abscissa, ordinate) = (−3, 7). (7, −3) is tempting, but it does not match what the question asks.",
+    hints: ["The abscissa is x and the ordinate is y. Write the pair in the order (x, y)."]
   },
   {
     id: "g9-maths-coord-a-q20",
@@ -260,8 +260,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "a",
-    explanation: "The two axes divide the plane into four quadrants.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The two axes divide the plane into four quadrants. 3 is tempting, but it does not match what the question asks.",
+    hints: ["The x-axis and y-axis cross and cut the Cartesian plane into regions. Count the quadrants they make."]
   },
   {
     id: "g9-maths-coord-a-q21",
@@ -273,8 +273,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(2, 0)" }
     ],
     answerId: "b",
-    explanation: "Any point (0, y) is equidistant from (2,0) and (−2,0); among the options, (0,0) works.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Any point (0, y) is equidistant from (2,0) and (−2,0); among the options, (0,0) works. (2, 2) is tempting, but it does not match what the question asks.",
+    hints: ["The perpendicular bisector of (−2,0) and (2,0) is the y-axis."]
   },
   {
     id: "g9-maths-coord-a-q22",
@@ -286,8 +286,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "does not exist" }
     ],
     answerId: "c",
-    explanation: "(0,0) is the origin, belonging to both axes.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "(0,0) is the origin, belonging to both axes. lies in quadrant I is tempting, but it does not match what the question asks.",
+    hints: ["Write the point with both coordinates zero as an ordered pair. How far is it from each axis?", "Is that point on the x-axis, on the y-axis, on both or on neither? Which description fits?"]
   },
   {
     id: "g9-maths-coord-a-q23",
@@ -299,8 +299,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "cannot tell" }
     ],
     answerId: "a",
-    explanation: "OA = 5 and OB = 6, so A is closer.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "OA = 5 and OB = 6, so A is closer. B is tempting, but it does not match what the question asks.",
+    hints: ["Find each point's distance from the origin with √(x² + y²), then compare."]
   },
   {
     id: "g9-maths-coord-a-q24",
@@ -312,8 +312,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "x = −2" }
     ],
     answerId: "d",
-    explanation: "A vertical line has constant x-coordinate: x = −2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A vertical line has constant x-coordinate: x = −2. y = −2 is tempting if you move a term the wrong way or combine unlike terms.",
+    hints: ["Vertical → fixed x."]
   }
 ];
 
@@ -328,8 +328,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "ray plane" }
     ],
     answerId: "a",
-    explanation: "It is the coordinate (or Cartesian) plane.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "It is the coordinate (or Cartesian) plane. number line only is tempting, but it does not match what the question asks.",
+    hints: ["Another name for the xy-plane."]
   },
   {
     id: "g9-maths-coord-b-q02",
@@ -341,8 +341,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "in quadrant II" }
     ],
     answerId: "c",
-    explanation: "x = 0, y > 0 → positive y-axis.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "x = 0, y > 0 → positive y-axis. in quadrant I is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Axis points are not inside quadrants."]
   },
   {
     id: "g9-maths-coord-b-q03",
@@ -354,8 +354,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "negative, positive" }
     ],
     answerId: "d",
-    explanation: "Quadrant II: x < 0, y > 0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Quadrant II: x < 0, y > 0. positive, positive is tempting, but it does not match what the question asks.",
+    hints: ["Quadrant II is the upper-left part of the plane. Is x left or right there, and is y up or down?"]
   },
   {
     id: "g9-maths-coord-b-q04",
@@ -367,8 +367,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "25" }
     ],
     answerId: "a",
-    explanation: "Distance is absolute: 5 units along the x-axis.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Distance is absolute: 5 units along the x-axis. 0 is tempting, but it does not match what the question asks.",
+    hints: ["Distance is never negative."]
   },
   {
     id: "g9-maths-coord-b-q05",
@@ -380,8 +380,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "(6, −1)" }
     ],
     answerId: "b",
-    explanation: "Point reflection through origin: (x, y) → (−x, −y).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Point reflection through origin: (x, y) → (−x, −y). (−1, −6) is tempting, but it does not match what the question asks.",
+    hints: ["Reflecting across the origin changes the sign of both coordinates of (−1, 6)."]
   },
   {
     id: "g9-maths-coord-b-q06",
@@ -393,8 +393,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "(4, 7)" }
     ],
     answerId: "c",
-    explanation: "(0, 4) has x = 0, not 4.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "(0, 4) has x = 0, not 4. (4, 0) is tempting, but it does not match what the question asks.",
+    hints: ["Check the x-coordinate of each option."]
   },
   {
     id: "g9-maths-coord-b-q07",
@@ -406,8 +406,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "IV" }
     ],
     answerId: "d",
-    explanation: "(+, −) is quadrant IV.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "(+, −) is quadrant IV. I is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["A positive abscissa is right of the y-axis; a negative ordinate is below the x-axis. Which quadrant is that?"]
   },
   {
     id: "g9-maths-coord-b-q08",
@@ -419,8 +419,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "a",
-    explanation: "Same x-coordinate: |4 − (−1)| = 5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Same x-coordinate: |4 − (−1)| = 5. 3 is tempting, but it does not match what the question asks.",
+    hints: ["Both points have x = 2, so the segment is vertical. Find the change in y from −1 to 4."]
   },
   {
     id: "g9-maths-coord-b-q09",
@@ -432,8 +432,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "at the origin" }
     ],
     answerId: "b",
-    explanation: "Equal positive coordinates → on y = x in quadrant I.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Equal positive coordinates → on y = x in quadrant I. on the x-axis is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Compare the two coordinates of (7, 7), and note their signs."]
   },
   {
     id: "g9-maths-coord-b-q10",
@@ -445,8 +445,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "(a, −b)" }
     ],
     answerId: "b",
-    explanation: "x-axis: (a,−b); then y-axis: (−a,−b). Same as central inversion.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "x-axis: (a,−b); then y-axis: (−a,−b). Same as central inversion. (a, b) is tempting, but it does not match what the question asks.",
+    hints: ["Reflecting in the x-axis changes the sign of b; reflecting in the y-axis changes the sign of a."]
   },
   {
     id: "g9-maths-coord-b-q11",
@@ -458,8 +458,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "(−4, 3)" }
     ],
     answerId: "c",
-    explanation: "Left of y-axis → x = −3; above x-axis → y = 4.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Left of y-axis → x = −3; above x-axis → y = 4. (4, −3) is tempting, but it does not match what the question asks.",
+    hints: ["Left of the y-axis makes x negative; above the x-axis makes y positive. Then write (x, y)."]
   },
   {
     id: "g9-maths-coord-b-q12",
@@ -471,8 +471,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "ordinate is zero" }
     ],
     answerId: "d",
-    explanation: "y = 0 for every point on the x-axis.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "y = 0 for every point on the x-axis. abscissa is zero is tempting, but it does not match what the question asks.",
+    hints: ["Points on the x-axis have no height above or below it. Which coordinate measures that height?"]
   },
   {
     id: "g9-maths-coord-b-q13",
@@ -484,8 +484,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "24" }
     ],
     answerId: "a",
-    explanation: "Right triangle with legs 4 and 3: area = (1/2)·4·3 = 6.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Right triangle with legs 4 and 3: area = (1/2)·4·3 = 6. 7 is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["The base on the x-axis is 4 and the height on the y-axis is 3. Area = ½ × base × height."]
   },
   {
     id: "g9-maths-coord-b-q14",
@@ -497,8 +497,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "IV" }
     ],
     answerId: "b",
-    explanation: "Both negative → quadrant III.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Both negative → quadrant III. I is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Both coordinates of (−3, −3) are negative: left of the y-axis and below the x-axis."]
   },
   {
     id: "g9-maths-coord-b-q15",
@@ -510,8 +510,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "y = 5" }
     ],
     answerId: "c",
-    explanation: "Horizontal lines have constant y.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Horizontal lines have constant y. x = 5 is tempting if you move a term the wrong way or combine unlike terms.",
+    hints: ["Horizontal → fixed y."]
   },
   {
     id: "g9-maths-coord-b-q16",
@@ -523,8 +523,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "d",
-    explanation: "√[(2−(−1))² + (3−(−1))²] = √(9+16) = 5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "√[(2−(−1))² + (3−(−1))²] = √(9+16) = 5. 7 is tempting, but it does not match what the question asks.",
+    hints: ["Apply the distance formula."]
   },
   {
     id: "g9-maths-coord-b-q17",
@@ -536,8 +536,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "(0, 4)" }
     ],
     answerId: "a",
-    explanation: "Flip y: (0, −4).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Flip y: (0, −4). (4, 0) is tempting, but it does not match what the question asks.",
+    hints: ["x-axis reflection changes y’s sign."]
   },
   {
     id: "g9-maths-coord-b-q18",
@@ -549,8 +549,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x < 0 and y < 0" }
     ],
     answerId: "b",
-    explanation: "Quadrant I is the (+, +) region.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Quadrant I is the (+, +) region. x < 0 and y > 0 is tempting, but it does not match what the question asks.",
+    hints: ["Quadrant I is the upper-right part of the plane. Is x right or left of the y-axis, and is y above or below?"]
   },
   {
     id: "g9-maths-coord-b-q19",
@@ -562,8 +562,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "are the same point" }
     ],
     answerId: "c",
-    explanation: "Same x-coordinate ⇒ vertical line x = 1.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Same x-coordinate ⇒ vertical line x = 1. have the same ordinate is tempting, but it does not match what the question asks.",
+    hints: ["Both points have the same x-coordinate, 1. What kind of line joins points with equal x?"]
   },
   {
     id: "g9-maths-coord-b-q20",
@@ -575,8 +575,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "6 units left of origin on the x-axis" }
     ],
     answerId: "d",
-    explanation: "y = 0 and x = −6 → on the negative x-axis.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "y = 0 and x = −6 → on the negative x-axis. 6 units up on the y-axis is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["y = 0 puts (−6, 0) on an axis. The x-value −6 says which way and how far from the origin."]
   },
   {
     id: "g9-maths-coord-b-q21",
@@ -588,8 +588,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "(5, 2) and (2, 1)" }
     ],
     answerId: "a",
-    explanation: "The expression matches Δx=4, Δy=0 between (5,2) and (1,2).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The expression matches Δx=4, Δy=0 between (5,2) and (1,2). (5, 1) and (2, 2) is tempting, but it does not match what the question asks.",
+    hints: ["In the distance formula, the first bracket subtracts the two x-coordinates and the second subtracts the two y-coordinates. Check each pair."]
   },
   {
     id: "g9-maths-coord-b-q22",
@@ -601,8 +601,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "in quadrant II" }
     ],
     answerId: "b",
-    explanation: "x = 0, y > 0 → positive y-axis.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "x = 0, y > 0 → positive y-axis. on the positive x-axis is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Zero abscissa means on the y-axis."]
   },
   {
     id: "g9-maths-coord-b-q23",
@@ -614,8 +614,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "(2, 3) and (3, 2)" }
     ],
     answerId: "c",
-    explanation: "y-axis symmetry flips x only: (2,3) ↔ (−2,3).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "y-axis symmetry flips x only: (2,3) ↔ (−2,3). (2, 3) and (2, −3) is tempting, but it does not match what the question asks.",
+    hints: ["Same y, opposite x."]
   },
   {
     id: "g9-maths-coord-b-q24",
@@ -627,8 +627,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "the intersection of the axes" }
     ],
     answerId: "d",
-    explanation: "Origin is where both axes meet and belongs to both.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Origin is where both axes meet and belongs to both. in quadrant I only is tempting, but it does not match what the question asks.",
+    hints: ["Definition of the origin."]
   }
 ];
 
