@@ -7,6 +7,7 @@
 - chapter_title: Logical Reasoning 1: Patterns, Analogy and Classification
 - curriculum_source: NCERT Class 4 patterns themes and general reasoning topics (public topic list only)
 - content_type: original_olympiad_style
+- affiliation: not affiliated with SOF or any exam board; original Mindstrong content (kids never see this docs file)
 - scope: number series (constant gaps, growing gaps, doubling gaps, two interleaved rules, growing multipliers, wrong term); letter and letter-number series; repeating shape patterns with two cycles; growing and shrinking figure patterns; rotation patterns (eighth, quarter and half turns); moving cells and dots; 2 × 2 and 3 × 3 matrix completion; number, word and figure analogies (A : B :: C : ?); classification and two-group membership; odd one out on hidden rules; number pyramids, magic squares and pair rules; choosing the rule behind a pattern
 - item_counts: Set A = 24 MCQs, Set B = 24 MCQs
 - pictorial_items: Set A = 12, Set B = 12 (inline `**Diagram (SVG):**` blocks)
@@ -2212,4 +2213,4 @@
 - Every SVG is self-contained (no external fonts, CSS, scripts or images), carries `role="img"` + `aria-label`, and each item also has an `alt` line that names every printed number. Label text is 12–34 px in the viewBox; scale with `max-width: 100%; height: auto;`.
 - olympiad_section values use the house tokens: `logical` = Logical Reasoning, `achievers` = Achievers. This chapter maps to Logical Reasoning, so the easy and medium items are `logical` and the 5 hard items in each set are `achievers`.
 - All keys were computed and asserted by `/workspace/scratch/gen_g4ch9.py` (figures in `/workspace/scratch/g4ch9_figs.py`, uniqueness library in `/workspace/scratch/g4ch9_logic.py`); `/workspace/scratch/verify_g4ch9.py` re-checks the saved file, re-derives each pictorial key from the SVG geometry, re-runs the uniqueness checks and runs the review rules R1–R6.
-- Original content only: written from public topic headings; no past or sample paper items were used, and stems were checked for near-duplicates against the repo's Maths items.
+- Original content only: written from public topic headings; not affiliated with SOF or any exam board; no past or sample paper items were used or copied, and stems were checked for near-duplicates against the repo's Maths items.

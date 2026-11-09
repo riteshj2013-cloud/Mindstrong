@@ -7,6 +7,7 @@
 - chapter_title: Money
 - curriculum_source: NCERT Class 3 themes (public topic list only)
 - content_type: original_olympiad_style
+- affiliation: not affiliated with SOF or any exam board; original Mindstrong content (kids never see this docs file)
 - scope: recognising coins and notes; rupees and paise (100 paise = ₹1) inside whole-number problems; making an amount in different ways; fewest notes and coins; adding and subtracting money with and without regrouping; price tags, bills and change; comparing prices and which is cheaper; saving and spending, how much more to buy; multiplying and sharing money; offers and best buys; logical reasoning with coin-count puzzles, price patterns, odd-one-out and analogy
 - item_counts: Set A = 24 MCQs, Set B = 24 MCQs
 - pictorial_items: Set A = 9, Set B = 9 (inline `**Diagram (SVG):**` blocks)
@@ -1909,4 +1910,4 @@
 - Every SVG is self-contained (no external fonts, CSS, scripts or images), carries `role="img"` + `aria-label`, and each item also has an `alt` line. Label text is 8–16 px in the viewBox (8 px only for the small corner number on a note); scale with `max-width: 100%; height: auto;`.
 - olympiad_section values use the house tokens: `logical` = Logical Reasoning, `mathematical` = Mathematical Reasoning, `everyday` = Everyday Maths, `achievers` = Achievers. Difficulty `hard` = Achievers-level.
 - All keys were computed and asserted by `/workspace/scratch/gen_g3ch06.py` (figure helpers in `/workspace/scratch/g3ch06_money.py`); `/workspace/scratch/verify_g3ch06.py` re-checks the saved file and re-reads every figure from the SVG markup.
-- Original content only: written from public NCERT Class 3 themes (money, rupees and paise, bills and shopping) and generic olympiad topic headings; no past or sample paper items were used.
+- Original content only: written from public NCERT Class 3 themes (money, rupees and paise, bills and shopping) and generic olympiad-style topic headings only; not affiliated with SOF or any exam board; no past or sample paper items were used or copied.

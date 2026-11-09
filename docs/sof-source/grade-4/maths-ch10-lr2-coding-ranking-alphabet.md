@@ -7,6 +7,7 @@
 - chapter_title: Logical Reasoning 2: Coding, Ranking and Alphabet
 - curriculum_source: general reasoning topics: coding-decoding, ranking and alphabet (public topic list only)
 - content_type: original_olympiad_style
+- affiliation: not affiliated with SOF or any exam board; original Mindstrong content (kids never see this docs file)
 - scope: letter-shift codes (forward, backward, with wrap-round), number-to-letter and letter-to-number codes, symbol codes, substitution codes from coded sentences, decoding, codes with two or three steps (shift and reverse, growing shift, vowel/consonant rules, sort and shift, grid codes); ranking from the left/right, front/back and top/bottom, totals in a row, children between, swaps; ordering by height, age, marks and weight from clues (with brute-force-checked 5-person puzzles); alphabet positions from either end, letters between, midway letters, skip-letter lists, letter series and dictionary order
 - item_counts: Set A = 24 MCQs, Set B = 24 MCQs
 - pictorial_items: Set A = 9, Set B = 9 (inline `**Diagram (SVG):**` blocks)
@@ -1605,4 +1606,4 @@
 - Every SVG is self-contained (no external fonts, CSS, scripts or images), carries `role="img"` + `aria-label`, and each item also has an `alt` line that names every printed number. Code symbols are plain keyboard characters (@ # $ % & *) so they render in every font. Label text is 11–18 px in the viewBox; scale with `max-width: 100%; height: auto;`.
 - olympiad_section values use the house tokens: `logical` = Logical Reasoning, `achievers` = Achievers. The easy and medium items are `logical` and the 5 hard items in each set are `achievers`.
 - All keys were computed and asserted by `/workspace/scratch/gen_g4ch10.py` (figures in `/workspace/scratch/g4ch10_figs.py`, rules and solvers in `/workspace/scratch/g4ch10_logic.py`); `/workspace/scratch/verify_g4ch10.py` re-checks the saved file, reads every figure back from the SVG, recomputes each key, re-runs the uniqueness checks and runs the review rules R1–R6.
-- Original content only: written from public topic headings; no past or sample paper items were used, and stems were checked for near-duplicates against the repo's Maths items and Chapters 5–9.
+- Original content only: written from public topic headings; not affiliated with SOF or any exam board; no past or sample paper items were used or copied, and stems were checked for near-duplicates against the repo's Maths items and Chapters 5–9.

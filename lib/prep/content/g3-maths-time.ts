@@ -674,18 +674,18 @@ export const g3MathsTime: ChapterDef = {
       id: "set-a",
       title: "Set A",
       questionCount: SET_A.length,
-      topic: "add-sub",
+      topic: "time",
       questions: SET_A,
     },
     {
       id: "set-b",
       title: "Set B",
       questionCount: SET_B.length,
-      topic: "add-sub",
+      topic: "time",
       questions: SET_B,
     },
   ],
-  paperTopics: ["add-sub", "patterns"],
+  paperTopics: ["time", "patterns"],
 };
 
 export const g3MathsTimeQuestions: PrepQuestion[] = [...SET_A, ...SET_B];
