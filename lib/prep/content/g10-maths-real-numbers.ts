@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "√8 = √(4 × 2) = 2√2 ≈ 2 × 1.414 = 2.828. 4.242 is tempting, but that is 3√2 = √18; 1.414 is √2 itself.",
-    hints: ["√8 = √(4×2) = 2√2."]
+    hints: ["Use 1.414 for the square root of 2, then rewrite the square root of 8 as 2 times that value."]
   },
   {
     id: "g10-maths-real-a-q24",
