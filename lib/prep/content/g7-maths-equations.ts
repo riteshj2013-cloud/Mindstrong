@@ -13,8 +13,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "a",
-    explanation: "Subtract 7 from both sides: x = 8.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Subtract 7 from both sides: x = 8. 7 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Take 7 away from both sides of x + 7 = 15."]
   },
   {
     id: "g7-maths-equations-a-q02",
@@ -26,8 +26,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "36" }
     ],
     answerId: "b",
-    explanation: "Add 9: y = 13.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Add 9: y = 13. 5 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Add 9 to both sides of y − 9 = 4."]
   },
   {
     id: "g7-maths-equations-a-q03",
@@ -39,8 +39,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "24" }
     ],
     answerId: "c",
-    explanation: "Divide both sides by 3: m = 7.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Divide both sides by 3: m = 7. 18 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Divide both sides of 3m = 21 by 3."]
   },
   {
     id: "g7-maths-equations-a-q04",
@@ -52,8 +52,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "d",
-    explanation: "Multiply both sides by 5: n = 30.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Multiply both sides by 5: n = 30. 11 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Multiply both sides of n/5 = 6 by 5."]
   },
   {
     id: "g7-maths-equations-a-q05",
@@ -65,8 +65,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "14" }
     ],
     answerId: "a",
-    explanation: "2x = 8, so x = 4.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2x = 8, so x = 4. 7 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Subtract 3 first, then divide by 2."]
   },
   {
     id: "g7-maths-equations-a-q06",
@@ -78,8 +78,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "b",
-    explanation: "5p = 20, p = 4.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "5p = 20, p = 4. 3 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Undo the subtraction first, so 5p equals 16 plus the amount taken away. Then divide by 5."]
   },
   {
     id: "g7-maths-equations-a-q07",
@@ -91,8 +91,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "c",
-    explanation: "12 \u2212 2 = 10.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "12 − 2 = 10. 8 is tempting, but it does not match what the question asks.",
+    hints: ["Add 2 to both sides of x − 2 = 10. Then check your value in the equation."]
   },
   {
     id: "g7-maths-equations-a-q08",
@@ -104,8 +104,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "x + 6 = 19" }
     ],
     answerId: "d",
-    explanation: "Increased by means add.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Increased by means add. x − 6 = 19 is tempting, but it does not match what the question asks.",
+    hints: ["“Increased by” → +."]
   },
   {
     id: "g7-maths-equations-a-q09",
@@ -117,8 +117,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "x \u2212 3 = 27" }
     ],
     answerId: "a",
-    explanation: "Thrice means three times.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Thrice means three times. x + 3 = 27 is tempting, but it does not match what the question asks.",
+    hints: ["Thrice → multiply by 3."]
   },
   {
     id: "g7-maths-equations-a-q10",
@@ -130,8 +130,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "b",
-    explanation: "Multiply both sides by \u22121: x = \u22128.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Multiply both sides by −1: x = −8. 0 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Multiply both sides by −1 so that x is on its own."]
   },
   {
     id: "g7-maths-equations-a-q11",
@@ -143,8 +143,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "21" }
     ],
     answerId: "c",
-    explanation: "x \u2212 1 = 5, so x = 6.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "x − 1 = 5, so x = 6. 5 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Divide by 4, then add 1."]
   },
   {
     id: "g7-maths-equations-a-q12",
@@ -156,8 +156,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "9" }
     ],
     answerId: "d",
-    explanation: "x/3 = 3, so x = 9.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "x/3 = 3, so x = 9. 7 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Subtract 2, then multiply by 3."]
   },
   {
     id: "g7-maths-equations-a-q13",
@@ -169,8 +169,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "a",
-    explanation: "2x + 7 = 25 \u2192 2x = 18 \u2192 x = 9.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2x + 7 = 25 → 2x = 18 → x = 9. 4 is tempting, but it does not match what the question asks.",
+    hints: ["Write 2n + 7 = 25. Take 7 from both sides, then halve."]
   },
   {
     id: "g7-maths-equations-a-q14",
@@ -182,8 +182,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "b",
-    explanation: "\u2212x = 3 \u2212 10 = \u22127, so x = 7. Or: x = 10 \u2212 3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "−x = 3 − 10 = −7, so x = 7. Or: x = 10 − 3. 13 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Move x or rearrange to isolate it."]
   },
   {
     id: "g7-maths-equations-a-q15",
@@ -195,8 +195,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "x/5 = 1" }
     ],
     answerId: "c",
-    explanation: "5 \u00d7 0 = 0.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "5 × 0 = 0. x + 5 = 0 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Plug x = 0 into each equation."]
   },
   {
     id: "g7-maths-equations-a-q16",
@@ -208,8 +208,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u22123" }
     ],
     answerId: "d",
-    explanation: "x = \u221218/6 = \u22123.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "x = −18/6 = −3. 3 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Divide both sides by 6."]
   },
   {
     id: "g7-maths-equations-a-q17",
@@ -221,8 +221,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "a",
-    explanation: "x/2 = 6, x = 12.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "x/2 = 6, x = 12. 8 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Add 5, then multiply by 2."]
   },
   {
     id: "g7-maths-equations-a-q18",
@@ -234,8 +234,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221217" }
     ],
     answerId: "b",
-    explanation: "x \u2212 12 = \u22125 \u2192 x = 7.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "x − 12 = −5 → x = 7. 17 is tempting, but it does not match what the question asks.",
+    hints: ["Add 12 to both sides."]
   },
   {
     id: "g7-maths-equations-a-q19",
@@ -247,8 +247,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "c",
-    explanation: "4x = 20, x = 5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "4x = 20, x = 5. 4 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["First combine 3x + x into one term. Then divide 20 by its coefficient."]
   },
   {
     id: "g7-maths-equations-a-q20",
@@ -260,8 +260,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "d",
-    explanation: "x + 4 = 9, x = 5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "x + 4 = 9, x = 5. 4.5 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Simplify 2x − x first. Then take 4 from both sides of the equation."]
   },
   {
     id: "g7-maths-equations-a-q21",
@@ -273,8 +273,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7" }
     ],
     answerId: "a",
-    explanation: "3k + 1 = 10 \u2192 3k = 9 \u2192 k = 3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3k + 1 = 10 → 3k = 9 → k = 3. 1 is tempting, but it does not match what the question asks.",
+    hints: ["Substitute the known value of x."]
   },
   {
     id: "g7-maths-equations-a-q22",
@@ -286,8 +286,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "No solution" }
     ],
     answerId: "b",
-    explanation: "Expanding gives 5x + 10 = 5x + 10 \u2014 always true.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Expanding gives 5x + 10 = 5x + 10 — always true. x = 0 only is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["If both sides match for every x, it is an identity."]
   },
   {
     id: "g7-maths-equations-a-q23",
@@ -299,8 +299,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "All real numbers" }
     ],
     answerId: "c",
-    explanation: "Subtract 2x: 5 = 9, which is false. No solution.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Subtract 2x: 5 = 9, which is false. No solution. x = 0 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Subtract 2x from both sides of 2x + 5 = 2x + 9. Is what remains ever true?"]
   },
   {
     id: "g7-maths-equations-a-q24",
@@ -312,8 +312,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "150" }
     ],
     answerId: "d",
-    explanation: "x \u2212 40 = 110 \u2192 x = 150.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "x − 40 = 110 → x = 150. 110 is tempting, but it does not match what the question asks.",
+    hints: ["Spending subtracts from the total."]
   }
 ];
 
@@ -328,8 +328,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "a",
-    explanation: "7x \u2212 4x = 12 + 3 \u2192 3x = 15 \u2192 x = 5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "7x − 4x = 12 + 3 → 3x = 15 → x = 5. 3 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Take 4x from both sides and add 3 to both sides. Then divide by the coefficient of x."]
   },
   {
     id: "g7-maths-equations-b-q02",
@@ -341,8 +341,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "b",
-    explanation: "3x \u2212 12 = 2x + 2 \u2192 x = 14.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3x − 12 = 2x + 2 → x = 14. 10 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Expand both brackets: 3x − 12 = 2x + 2. Then collect the x terms on one side."]
   },
   {
     id: "g7-maths-equations-b-q03",
@@ -354,8 +354,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "c",
-    explanation: "n + (n+1) + (n+2) = 54 \u2192 3n + 3 = 54 \u2192 n = 17.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "n + (n+1) + (n+2) = 54 → 3n + 3 = 54 → n = 17. 16 is tempting if you drop a sign or count the wrong way on the number line.",
+    hints: ["Consecutive integers differ by 1."]
   },
   {
     id: "g7-maths-equations-b-q04",
@@ -367,8 +367,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "d",
-    explanation: "Multiply by 12: 3x = 2x + 12 \u2192 x = 12.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Multiply by 12: 3x = 2x + 12 → x = 12. 6 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Multiply every term by the LCM of 4 and 6 to clear the fractions, then solve."]
   },
   {
     id: "g7-maths-equations-b-q05",
@@ -380,8 +380,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "19" }
     ],
     answerId: "a",
-    explanation: "5x \u2212 8 = 27 \u2192 5x = 35 \u2192 x = 7.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "5x − 8 = 27 → 5x = 35 → x = 7. 5 is tempting, but it does not match what the question asks.",
+    hints: ["Write 5n − 8 = 27. Add 8 to both sides, then divide by 5."]
   },
   {
     id: "g7-maths-equations-b-q06",
@@ -393,8 +393,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "16" }
     ],
     answerId: "b",
-    explanation: "x = 14/(\u22122) = \u22127.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "x = 14/(−2) = −7. −16 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Divide both sides by −2."]
   },
   {
     id: "g7-maths-equations-b-q07",
@@ -406,8 +406,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "c",
-    explanation: "2x = 10, x = 5; 3\u00d75 + 2 = 17.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2x = 10, x = 5; 3×5 + 2 = 17. 14 is tempting, but it does not match what the question asks.",
+    hints: ["Find x first, then evaluate the new expression."]
   },
   {
     id: "g7-maths-equations-b-q08",
@@ -419,8 +419,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "d",
-    explanation: "\u22123x = \u22126 \u2192 x = 2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "−3x = −6 → x = 2. 3 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Subtract 8, then divide by −3."]
   },
   {
     id: "g7-maths-equations-b-q09",
@@ -432,8 +432,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "6 cm" }
     ],
     answerId: "a",
-    explanation: "4s = 48 \u2192 s = 12.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "4s = 48 → s = 12. 6 cm is tempting, but it does not match what the question asks.",
+    hints: ["Perimeter of square = 4 × side."]
   },
   {
     id: "g7-maths-equations-b-q10",
@@ -445,8 +445,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "b",
-    explanation: "2x + 1 = 15 \u2192 2x = 14 \u2192 x = 7.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2x + 1 = 15 → 2x = 14 → x = 7. 8 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Multiply both sides by 3 first."]
   },
   {
     id: "g7-maths-equations-b-q11",
@@ -458,8 +458,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "c",
-    explanation: "p + (p+5) = 29 \u2192 2p = 24 \u2192 p = 12.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "p + (p+5) = 29 → 2p = 24 → p = 12. 17 is tempting, but it does not match what the question asks.",
+    hints: ["Let Priya = p; Ravi = p + 5."]
   },
   {
     id: "g7-maths-equations-b-q12",
@@ -471,8 +471,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "d",
-    explanation: "9 = 3x \u2192 x = 3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "9 = 3x → x = 3. 6 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Add x to both sides, then divide."]
   },
   {
     id: "g7-maths-equations-b-q13",
@@ -484,8 +484,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Delete a term from one side only" }
     ],
     answerId: "a",
-    explanation: "Balance requires the same change on both sides.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Balance requires the same change on both sides. Add different numbers to each side is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["An equation is like a balance. What must you do to keep both sides equal?"]
   },
   {
     id: "g7-maths-equations-b-q14",
@@ -497,8 +497,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.5" }
     ],
     answerId: "b",
-    explanation: "x = 4 / 0.5 = 8.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "x = 4 / 0.5 = 8. 4.5 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["0.5x means half of x. If half of x is 4, what is the whole of x?"]
   },
   {
     id: "g7-maths-equations-b-q15",
@@ -510,8 +510,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "17" }
     ],
     answerId: "c",
-    explanation: "x + (x+3) = 40 \u2192 2x = 37 \u2192 x = 18.5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "x + (x+3) = 40 → 2x = 37 → x = 18.5. 17 is tempting, but it does not match what the question asks.",
+    hints: ["Let smaller = x; larger = x + 3."]
   },
   {
     id: "g7-maths-equations-b-q16",
@@ -523,8 +523,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22124" }
     ],
     answerId: "d",
-    explanation: "4x = \u22129 \u2212 7 = \u221216, so x = \u221216 \u00f7 4 = \u22124. 4 may look right if the minus sign is dropped, and \u22121/2 comes from adding 7 to \u22129 instead of subtracting it.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "4x = −9 − 7 = −16, so x = −16 ÷ 4 = −4. 4 may look right if the minus sign is dropped, and −1/2 comes from adding 7 to −9 instead of subtracting it.",
+    hints: ["Subtract 7 from both sides of 4x + 7 = −9, then divide by the coefficient of x. Keep the negative sign."]
   },
   {
     id: "g7-maths-equations-b-q17",
@@ -536,8 +536,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x \u2212 3/2 = 10" }
     ],
     answerId: "a",
-    explanation: "Half is x/2; decreased by 3 subtracts 3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Half is x/2; decreased by 3 subtracts 3. 2x − 3 = 10 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Let the number be x. Write half a number first, then show it decreased by 3, then set it equal to 10."]
   },
   {
     id: "g7-maths-equations-b-q18",
@@ -549,8 +549,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "b",
-    explanation: "3x + 6 = 24 \u2192 3x = 18 \u2192 x = 6.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3x + 6 = 24 → 3x = 18 → x = 6. 3 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Combine 5x − 2x into one term, subtract the constant from 24, then divide by the coefficient of x."]
   },
   {
     id: "g7-maths-equations-b-q19",
@@ -562,8 +562,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "c",
-    explanation: "3(\u22122) + 8 = \u22126 + 8 = 2. Yes.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3(−2) + 8 = −6 + 8 = 2. Yes. No is tempting, but it does not match what the question asks.",
+    hints: ["Put x = −2 into 3x + 8. Does it equal 2?"]
   },
   {
     id: "g7-maths-equations-b-q20",
@@ -575,8 +575,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "d",
-    explanation: "4 = x + 1 \u2192 x = 3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "4 = x + 1 → x = 3. 4 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Divide 12 by the number outside the bracket to find x + 1, then subtract 1."]
   },
   {
     id: "g7-maths-equations-b-q21",
@@ -588,8 +588,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x = 3\u00d790" }
     ],
     answerId: "a",
-    explanation: "Three tickets = one ticket + 90 \u2192 3x = x + 90.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Three tickets = one ticket + 90 → 3x = x + 90. 3x + 90 = x is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Write the cost of three tickets and of one ticket using ₹x. Which is ₹90 more?"]
   },
   {
     id: "g7-maths-equations-b-q22",
@@ -601,8 +601,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "b",
-    explanation: "2x = 90 \u2192 x = 45.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2x = 90 → x = 45. 30 is tempting, but it does not match what the question asks.",
+    hints: ["Subtract x from both sides."]
   },
   {
     id: "g7-maths-equations-b-q23",
@@ -614,8 +614,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u221214" }
     ],
     answerId: "c",
-    explanation: "\u2212x + 4 = 10 \u2192 \u2212x = 6 \u2192 x = \u22126.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "−x + 4 = 10 → −x = 6 → x = −6. −14 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["Distribute the minus, then isolate x."]
   },
   {
     id: "g7-maths-equations-b-q24",
@@ -627,8 +627,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "d",
-    explanation: "In a linear equation, the unknown appears to the first power only.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "In a linear equation, the unknown appears to the first power only. 0 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    hints: ["A linear equation such as 2x + 5 = 9 has no x² or x³ term. What power of the variable is left?"]
   }
 ];
 
