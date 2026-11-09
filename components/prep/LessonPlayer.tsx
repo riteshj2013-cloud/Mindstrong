@@ -7,6 +7,7 @@ import type { LessonStep } from "@/lib/prep/types";
 import { LessonVisual } from "./LessonVisual";
 import { SpeakButton } from "./SpeakButton";
 import { RichText } from "@/components/ui/RichText";
+import { FigureRenderer } from "./FigureRenderer";
 
 function speakText(step: LessonStep): string {
   if (step.speak) return step.speak;
@@ -180,7 +181,18 @@ export function LessonPlayer({
               className="text-center text-lg font-bold"
               text={step.type === "try" ? step.prompt : step.question.prompt}
             />
-            <div className="grid gap-2">
+            {step.type === "check" && step.question.figure ? (
+              <div className="rounded-2xl border border-ink/5 bg-cream/80 p-3">
+                <FigureRenderer spec={step.question.figure} />
+              </div>
+            ) : null}
+            <div
+              className={
+                step.type === "check" && step.question.options.some((o) => !!o.figure)
+                  ? "grid grid-cols-2 gap-2"
+                  : "grid gap-2"
+              }
+            >
               {(step.type === "try" ? step.options : step.question.options).map((o) => {
                 const correctId = step.type === "try" ? step.answerId : step.question.answerId;
                 const selected = picked === o.id;
@@ -203,7 +215,12 @@ export function LessonPlayer({
                           : "border-ink/10 bg-white shadow-soft"
                     }`}
                   >
-                    <RichText text={o.text} />
+                    {o.figure ? (
+                      <div className="my-2">
+                        <FigureRenderer spec={o.figure} compact />
+                      </div>
+                    ) : null}
+                    {o.text ? <RichText text={o.text} /> : null}
                   </button>
                 );
               })}

@@ -285,7 +285,7 @@
 - **difficulty**: medium
 
 ### Q19
-- **stem**: A tally shows |||| |||| || for red votes. How many votes for red?
+- **stem**: A tally shows two crossed bundles of 5 and two single strokes for red votes. How many votes for red?
 - **options**:
   - A) 10
   - B) 12
@@ -575,7 +575,7 @@
 - **difficulty**: medium
 
 ### Q19
-- **stem**: A tally shows |||| |||| |||| | for blue cars. How many blue cars?
+- **stem**: A tally shows three crossed bundles of 5 and one single stroke for blue cars. How many blue cars?
 - **options**:
   - A) 14
   - B) 15

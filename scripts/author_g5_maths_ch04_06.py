@@ -1,6 +1,24 @@
 #!/usr/bin/env python3
-"""Author G5 Maths Ch4–6: markdown sources + TS modules + hint stubs."""
+"""Author G5 Maths Ch4–6 (HISTORICAL). DO NOT RERUN.
+
+Committed g5-maths-data content has diverged from this generator (#136
+slashed-bundle SVGs on a-q19/b-q19, lesson card text). Re-running would
+overwrite those figures and cards. Update this script to match first, or
+maintain those items by hand.
+"""
 from __future__ import annotations
+
+import sys
+
+sys.exit(
+    "DO NOT RERUN scripts/author_g5_maths_ch04_06.py: committed content has diverged "
+    "(#136 slashed-bundle SVGs and lesson card text). Update the script to match, or "
+    "maintain those items by hand."
+)
+
+# --- original script retained below for reference (unreachable at runtime) ---
+"""Author G5 Maths Ch4–6: markdown sources + TS modules + hint stubs."""
+# from __future__ import annotations
 
 import json
 import sys
@@ -567,9 +585,9 @@ CH6_A = [
       "Sum 100 ÷ 4 = 25.", "average", "medium"),
     q("In 2, 2, 3, 4, 4, 4, 5, the mode is…", ["2", "3", "4", "5"], "C",
       "4 appears three times, more than any other value.", "mode", "medium"),
-    q("A tally shows |||| |||| || for red votes. How many votes for red?",
+    q("A tally shows two crossed bundles of 5 and two single strokes for red votes. How many votes for red?",
       ["10", "12", "8", "2"], "B",
-      "Two bundles of 5 and two more make 12.", "tally", "medium"),
+      "Two crossed bundles of 5 and two singles make 12.", "tally", "medium"),
     q("Which is needed on a clear bar graph?",
       ["A title and labelled axes", "Only colours", "No scale", "Random bar widths"], "A",
       "Title, labels and scale make the graph readable.", "bar_graph", "medium"),
@@ -637,9 +655,9 @@ CH6_B = [
       "Sum 36 ÷ 3 = 12.", "average", "medium"),
     q("In 6, 7, 7, 8, 9, 7, the mode is…", ["6", "7", "8", "9"], "B",
       "7 appears three times.", "mode", "medium"),
-    q("A tally shows |||| |||| |||| | for blue cars. How many blue cars?",
+    q("A tally shows three crossed bundles of 5 and one single stroke for blue cars. How many blue cars?",
       ["14", "15", "16", "20"], "C",
-      "Three bundles of 5 and one more = 16.", "tally", "medium"),
+      "Three crossed bundles of 5 and one single make 16.", "tally", "medium"),
     q("Scale on a bar graph is 1 unit = 2 goals. A bar is 9 units tall. Goals scored?",
       ["9", "11", "18", "2"], "C",
       "9 × 2 = 18 goals.", "bar_graph", "medium"),
@@ -804,7 +822,7 @@ def main():
                 visual="number-line",
                 speak="Organise data with tallies, pictographs and bar graphs. Find average and mode.",
                 cards=[
-                    ("Tally", "Bundles of five make counting fast", "||||"),
+                    ("Tally", "Four upright strokes with a slash = 5", "5️⃣"),
                     ("Pictograph", "Read the key — each icon has a value", "🖼️"),
                     ("Bar graph", "Equal bars; height shows the number", "📊"),
                     ("Average & mode", "Mean divides the total; mode appears most", "⭐"),

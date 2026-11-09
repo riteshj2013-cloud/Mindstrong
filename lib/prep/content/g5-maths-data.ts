@@ -657,7 +657,7 @@ const lesson: ChapterDef["lesson"] = [
     visual: "number-line",
     speak: "Tap each card to reveal a key idea.",
     cards: [
-      { label: "Tally", reveal: "Bundles of five make counting fast", emoji: "||||" },
+      { label: "Tally", reveal: "Bundles of five make counting fast", emoji: "✍️" },
       { label: "Pictograph", reveal: "Read the key \u2014 each icon has a value", emoji: "\ud83d\uddbc\ufe0f" },
       { label: "Bar graph", reveal: "Equal bars; height shows the number", emoji: "\ud83d\udcca" },
       { label: "Average & mode", reveal: "Mean divides the total; mode appears most", emoji: "\u2b50" }
