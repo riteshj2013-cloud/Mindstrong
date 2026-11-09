@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "50 cm" }
     ],
     answerId: "a",
-    explanation: "1 m = 100 cm. 50 cm is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 100 cm.",
+    explanation: "1 m = 100 cm. 50 cm is tempting if you take half of 100, or think a metre has only 10 cm.",
     hints: ["A metre ruler is marked in centimetres. How many centimetre marks run along the whole metre?"]
   },
   {
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10000 m" }
     ],
     answerId: "b",
-    explanation: "1 km = 1000 m. 100 m is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 1000 m.",
+    explanation: "1 km = 1000 m. 100 m is tempting if you use 100 (as in m to cm) instead of 1000 for km to m.",
     hints: ["Think of the prefix 'kilo': how many grams are in a kilogram? A kilometre uses the same prefix with metres."]
   },
   {
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "500 g" }
     ],
     answerId: "c",
-    explanation: "1 kg = 1000 g. 500 g is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 1000 g.",
+    explanation: "1 kg = 1000 g. 500 g is tempting if you pick half a kilo (500 g) instead of the full 1000 g.",
     hints: ["Think of the prefix 'kilo': how many metres are in a kilometre? A kilogram uses the same prefix with grams."]
   },
   {
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1000 ml" }
     ],
     answerId: "d",
-    explanation: "1 L = 1000 ml. 500 ml is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 1000 ml.",
+    explanation: "1 L = 1000 ml. 500 ml is tempting if you pick half a litre (500 ml) instead of the full 1000 ml.",
     hints: ["A millilitre is a tiny part of a litre, just as a millimetre is of a metre. How many millimetres make a metre?"]
   },
   {
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "20 cm" }
     ],
     answerId: "a",
-    explanation: "Perimeter of a square is 4 × side = 4 × 4 = 16 cm. 12 cm is tempting if you add the wrong sides or mix up perimeter with area.",
+    explanation: "Perimeter of a square is 4 × side = 4 × 4 = 16 cm. 12 cm is tempting if you add only three sides (3 × side) instead of all four.",
     hints: ["A square has 4 equal sides. Multiply the side 4 cm by the number of sides."]
   },
   {
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "Area of a square is side × side = 5 × 5 = 25 cm². 20 cm² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    explanation: "Area of a square is side × side = 5 × 5 = 25 cm². 20 cm² is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area.",
     hints: ["Area of a square = side × side. Multiply 5 cm by 5 cm."]
   },
   {
@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "14 cm" }
     ],
     answerId: "c",
-    explanation: "Perimeter = 2 × (6 + 2) = 2 × 8 = 16 cm. 14 cm is tempting if you add the wrong sides or mix up perimeter with area.",
+    explanation: "Perimeter = 2 × (6 + 2) = 2 × 8 = 16 cm. 14 cm is tempting if you add length and breadth once, or double only one side, instead of 2(l + b).",
     hints: ["Perimeter of a rectangle = 2 × (length + breadth). Add 6 cm and 2 cm first."]
   },
   {
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "21 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "Area = length × breadth = 7 × 3 = 21 cm². 20 cm² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    explanation: "Area = length × breadth = 7 × 3 = 21 cm². 20 cm² is tempting if you add length and breadth (or find perimeter) instead of multiplying for area.",
     hints: ["Area of a rectangle = length × breadth. Multiply 7 cm by 3 cm."]
   },
   {
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "kilometre" }
     ],
     answerId: "a",
-    explanation: "A classroom is a few metres long, so metre is the sensible unit. millimetre is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives metre.",
+    explanation: "A classroom is a few metres long, so metre is the sensible unit. millimetre is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
     hints: ["A classroom is longer than a ruler but much shorter than a road between towns. Pick a unit to match."]
   },
   {
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "litre" }
     ],
     answerId: "b",
-    explanation: "Sugar is sold by mass, usually in kilograms (or grams). millilitre is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives kilogram.",
+    explanation: "Sugar is sold by mass, usually in kilograms (or grams). millilitre is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
     hints: ["A packet of sugar is weighed, not poured or measured with a ruler. Which unit fits a mass that size?"]
   },
   {
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3 cm" }
     ],
     answerId: "c",
-    explanation: "3 × 100 = 300 cm. 30 cm is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 300 cm.",
+    explanation: "3 × 100 = 300 cm. 30 cm is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
     hints: ["1 m = 100 cm, so multiply 3 by 100."]
   },
   {
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2000 g" }
     ],
     answerId: "d",
-    explanation: "2 × 1000 = 2000 g. 2500 g is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 2000 g.",
+    explanation: "2 × 1000 = 2000 g. 2500 g is tempting if you use 100 or 500 instead of 1000 g in a kilogram.",
     hints: ["1 kg = 1000 g, so multiply 2 by 1000."]
   },
   {
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "90 m" }
     ],
     answerId: "a",
-    explanation: "Perimeter = 2 × (40 + 25) = 2 × 65 = 130 m. 90 m is tempting if you add the wrong sides or mix up perimeter with area.",
+    explanation: "Perimeter = 2 × (40 + 25) = 2 × 65 = 130 m. 90 m is tempting if you add only some of the sides instead of the full distance around.",
     hints: ["Perimeter = 2 × (length + breadth). Add 40 m and 25 m first, then double."]
   },
   {
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "120 m\u00b2" }
     ],
     answerId: "b",
-    explanation: "Area = 12 × 12 = 144 m². 120 m² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    explanation: "Area = 12 × 12 = 144 m². 120 m² is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area.",
     hints: ["Area of a square = side × side. Multiply 12 m by 12 m."]
   },
   {
@@ -196,7 +196,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4500 m" }
     ],
     answerId: "c",
-    explanation: "450 ÷ 100 = 4.5 m. 0.45. 45 m is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 4.5 m.",
+    explanation: "450 ÷ 100 = 4.5 m. 0.45 m is tempting if you divide by 1000 (as if cm were mm to m) instead of by 100; 45 m is tempting if you divide by only 10.",
     hints: ["100 cm = 1 m, so divide 450 by 100."]
   },
   {
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3.5 L" }
     ],
     answerId: "d",
-    explanation: "3500 ÷ 1000 = 3.5 L. 0.35. 35 L is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 3.5 L.",
+    explanation: "3500 ÷ 1000 = 3.5 L. 0.35 L is tempting if you divide by 10,000 instead of 1000; 35 L is tempting if you divide by only 100.",
     hints: ["1000 ml = 1 L, so divide 3500 by 1000."]
   },
   {
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "Area = 3 × 2 = 6 cm². 5 cm² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    explanation: "Area = 3 × 2 = 6 cm². 5 cm² is tempting if you find the perimeter instead of the area.",
     hints: ["Area of a rectangle = length × breadth. Multiply 3 cm by 2 cm."]
   },
   {
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.5 mm" }
     ],
     answerId: "b",
-    explanation: "1 cm = 10 mm, so 5 cm = 50 mm. 5 mm is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 50 mm.",
+    explanation: "1 cm = 10 mm, so 5 cm = 50 mm. 5 mm is tempting if you multiply or divide by 10 instead of by 100 when moving between m and cm.",
     hints: ["1 cm = 10 mm, so multiply 5 by 10."]
   },
   {
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "18 cm" }
     ],
     answerId: "c",
-    explanation: "Side = perimeter ÷ 4 = 36 ÷ 4 = 9 cm. 6 cm is tempting if you add the wrong sides or mix up perimeter with area.",
+    explanation: "Side = perimeter ÷ 4 = 36 ÷ 4 = 9 cm. 12 cm is tempting if you add only three sides (3 × side) instead of all four.",
     hints: ["A square has 4 equal sides that add up to 36 cm. Share 36 into 4 equal parts."]
   },
   {
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "40 m\u00b2" }
     ],
     answerId: "d",
-    explanation: "Area = 8 × 5 = 40 m². 45 m² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    explanation: "Area = 8 × 5 = 40 m². 45 m² is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
     hints: ["Carpet covers the area: multiply the length 8 m by the breadth 5 m."]
   },
   {
@@ -274,7 +274,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "a",
-    explanation: "1.2 km = 1200 m, so they are equal. 1.2. 1.2 km is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives They are equal.",
+    explanation: "1.2 km = 1.2 × 1000 = 1200 m, so the two lengths are equal. 1.2 km is tempting if you think kilometres are always longer without converting both to the same unit.",
     hints: ["Change 1.2 km to metres by multiplying by 1000, then compare with 1200 m."]
   },
   {
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "30 m" }
     ],
     answerId: "b",
-    explanation: "Fence length = perimeter = 2 × (15 + 10) = 50 m. 30 m is tempting if you add the wrong sides or mix up perimeter with area.",
+    explanation: "Fence length = perimeter = 2 × (15 + 10) = 50 m. 30 m is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
     hints: ["The fence goes around the garden, so find the perimeter: 2 × (15 m + 10 m)."]
   },
   {
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "48" }
     ],
     answerId: "c",
-    explanation: "Room area = 24 m², so 24 tiles of 1 m² are needed. 20 is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    explanation: "Room area = 24 m², so 24 tiles of 1 m² are needed. 20 is tempting if you use the perimeter of the room, or under-count the tiles needed to cover the area.",
     hints: ["Each tile covers 1 m², so the number of tiles equals the room's area, 6 m × 4 m."]
   },
   {
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "10,000 cm" }
     ],
     answerId: "b",
-    explanation: "1 km = 1000 m = 1000 × 100 cm = 100,000 cm. 10,000 cm is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 100,000 cm.",
+    explanation: "1 km = 1000 m = 1000 × 100 cm = 100,000 cm. 10,000 cm is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
     hints: ["1 kilometre = 1000 m and 1 m = 100 cm. Multiply 1000 by 100."]
   },
   {
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "500 kg" }
     ],
     answerId: "c",
-    explanation: "5000 ÷ 1000 = 5 kg. 0.5. 50 kg is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 5 kg.",
+    explanation: "5000 ÷ 1000 = 5 kg. 0.5 kg is tempting if you divide by 10,000 instead of 1000; 50 kg is tempting if you divide by only 100.",
     hints: ["1000 g = 1 kg — multiply or divide by 1000 to convert."]
   },
   {
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2 L" }
     ],
     answerId: "d",
-    explanation: "2000 ÷ 1000 = 2 L. 0.2. 20 L is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 2 L.",
+    explanation: "2000 ÷ 1000 = 2 L. 0.2 L is tempting if you divide by 10,000 instead of 1000; 20 L is tempting if you divide by only 100.",
     hints: ["1000 ml = 1 L, so divide 2000 by 1000."]
   },
   {
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "49 cm" }
     ],
     answerId: "a",
-    explanation: "4 × 7 = 28 cm. 21 cm is tempting if you add the wrong sides or mix up perimeter with area.",
+    explanation: "4 × 7 = 28 cm. 21 cm is tempting if you add only three sides (3 × side) instead of all four.",
     hints: ["A square has 4 equal sides. Multiply the side 7 cm by 4."]
   },
   {
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "48 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "8 × 8 = 64 cm². 48 cm² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    explanation: "8 × 8 = 64 cm². 48 cm² is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area.",
     hints: ["Area of a square = side × side. Multiply 8 cm by 8 cm."]
   },
   {
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "22 cm" }
     ],
     answerId: "c",
-    explanation: "2 × (9 + 4) = 26 cm. 22 cm is tempting if you add the wrong sides or mix up perimeter with area.",
+    explanation: "2 × (9 + 4) = 26 cm. 22 cm is tempting if you add length and breadth once, or double only one side, instead of 2(l + b).",
     hints: ["Perimeter of a rectangle = 2 × (length + breadth). Add 9 cm and 4 cm first."]
   },
   {
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "60 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "10 × 6 = 60 cm². 32 cm² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    explanation: "10 × 6 = 60 cm². 32 cm² is tempting if you add length and breadth (or find perimeter) instead of multiplying for area.",
     hints: ["Area of a rectangle = length × breadth. Multiply 10 cm by 6 cm."]
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "ml" }
     ],
     answerId: "a",
-    explanation: "City distances are measured in kilometres. cm is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives km.",
+    explanation: "City distances are measured in kilometres. cm is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
     hints: ["Cities are many thousands of metres apart. Which unit is made for long distances?"]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "metre" }
     ],
     answerId: "b",
-    explanation: "Small liquid amounts use millilitres. kilometre is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives millilitre.",
+    explanation: "Small liquid amounts use millilitres. kilometre is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
     hints: ["Cough syrup is a liquid, and a spoonful is a tiny amount. Which unit measures small volumes?"]
   },
   {
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "40,000 m" }
     ],
     answerId: "c",
-    explanation: "4 × 1000 = 4000 m. 400 m is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 4000 m.",
+    explanation: "4 × 1000 = 4000 m. 400 m is tempting if you use 100 instead of 1000 when moving between km and m.",
     hints: ["1 km = 1000 m, so multiply 4 by 1000."]
   },
   {
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3000 ml" }
     ],
     answerId: "d",
-    explanation: "3 × 1000 = 3000 ml. 300 ml is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 3000 ml.",
+    explanation: "3 × 1000 = 3000 ml. 300 ml is tempting if you use 100 or 500 instead of 1000 ml in a litre.",
     hints: ["1 L = 1000 ml, so multiply 3 by 1000."]
   },
   {
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "48 cm" }
     ],
     answerId: "a",
-    explanation: "2 × (18 + 12) = 60 cm. 48 cm is tempting if you add the wrong sides or mix up perimeter with area.",
+    explanation: "2 × (18 + 12) = 60 cm. 48 cm is tempting if you add only some of the sides instead of the full distance around.",
     hints: ["Perimeter = 2 × (length + breadth). Add 18 cm and 12 cm first, then double."]
   },
   {
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "200 m\u00b2" }
     ],
     answerId: "b",
-    explanation: "20 × 20 = 400 m². 200 m² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    explanation: "20 × 20 = 400 m². 200 m² is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area.",
     hints: ["Area of a square = side × side. Multiply 20 m by 20 m."]
   },
   {
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2.5 cm" }
     ],
     answerId: "c",
-    explanation: "2.5 × 100 = 250 cm. 25 cm is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 250 cm.",
+    explanation: "2.5 × 100 = 250 cm. 25 cm is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
     hints: ["1 m = 100 cm, so multiply 2.5 by 100."]
   },
   {
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1250 g" }
     ],
     answerId: "d",
-    explanation: "1.25 × 1000 = 1250 g. 125 g is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 1250 g.",
+    explanation: "1.25 × 1000 = 1250 g. 125 g is tempting if you use 100 or 500 instead of 1000 g in a kilogram.",
     hints: ["1 kg = 1000 g, so multiply 1.25 by 1000."]
   },
   {
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "200 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "20 × 15 = 300 cm². 200 cm² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    explanation: "20 × 15 = 300 cm². 200 cm² is tempting if you find the perimeter instead of the area.",
     hints: ["Area of a rectangle = length × breadth. Multiply 20 cm by 15 cm."]
   },
   {
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "800 cm" }
     ],
     answerId: "b",
-    explanation: "80 ÷ 10 = 8 cm. 0.8. 0.8 cm is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 8 cm.",
+    explanation: "1 cm = 10 mm, so 80 ÷ 10 = 8 cm. 0.8 cm is tempting if you divide by 100 instead of by 10; 80 cm is tempting if you forget to convert and keep the same digits.",
     hints: ["10 mm = 1 cm, so divide 80 by 10."]
   },
   {
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "40.5 cm" }
     ],
     answerId: "c",
-    explanation: "Side × side = 81, so side = 9 cm. 8 cm is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    explanation: "Side × side = 81, so side = 9 cm. 8 cm is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area.",
     hints: ["Find the number that, multiplied by itself, gives 81."]
   },
   {
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1500 m\u00b2" }
     ],
     answerId: "d",
-    explanation: "50 × 30 = 1500 m². 800 m² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    explanation: "50 × 30 = 1500 m². 800 m² is tempting if you find the perimeter instead of the area.",
     hints: ["Area of a rectangle = length × breadth. Multiply 50 m by 30 m: do 5 × 3, then add the zeros."]
   },
   {
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "a",
-    explanation: "2.5 kg = 2500 g, which is more than 2400 g. 2400 g is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 2.5 kg.",
+    explanation: "2.5 kg = 2500 g, which is more than 2400 g. 2400 g is tempting if you use 100 or 500 instead of 1000 g in a kilogram.",
     hints: ["Change the kilograms to grams by multiplying by 1000, then compare with 2400 g."]
   },
   {
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b93600" }
     ],
     answerId: "b",
-    explanation: "Perimeter = 2 × (60 + 40) = 200 m; cost = 200 × 15 = ₹3000. ₹1500 is tempting if you add the wrong sides or mix up perimeter with area.",
+    explanation: "Perimeter = 2 × (60 + 40) = 200 m; cost = 200 × 15 = ₹3000. ₹2400 is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
     hints: ["Find the perimeter first: 2 × (60 m + 40 m). Then multiply by ₹15 for each metre."]
   },
   {
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "108" }
     ],
     answerId: "c",
-    explanation: "Area = 9 × 6 = 54 m²; each tile is 1 m², so 54 tiles. 30 is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    explanation: "Area = 9 × 6 = 54 m²; each tile is 1 m², so 54 tiles. 30 is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
     hints: ["Each tile covers 1 m², so the number of tiles equals the floor area, 9 m × 6 m."]
   },
   {
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "24" }
     ],
     answerId: "d",
-    explanation: "12 L = 12,000 ml; 12,000 ÷ 500 = 24 bottles. 20 is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 24.",
+    explanation: "12 L = 12,000 ml; 12,000 ÷ 500 = 24 bottles. 20 is tempting if you use 100 or 500 instead of 1000 ml in a litre.",
     hints: ["Change 12 L to millilitres first, then divide by the 500 ml in each bottle."]
   }
 ];
