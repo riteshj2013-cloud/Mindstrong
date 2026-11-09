@@ -175,57 +175,6 @@
         ]
       }
     ],
-    "9": [
-      {
-        "template": "if you stop one step early or reverse a step, but the correct result is n",
-        "count": 28,
-        "items": [
-          "g9-maths-coord-a-q02",
-          "g9-maths-coord-a-q05",
-          "g9-maths-coord-a-q07",
-          "g9-maths-coord-a-q11",
-          "g9-maths-coord-a-q16",
-          "g9-maths-coord-a-q20",
-          "g9-maths-coord-b-q04",
-          "g9-maths-coord-b-q08",
-          "g9-maths-coord-b-q16",
-          "g9-maths-poly-a-q01",
-          "g9-maths-poly-a-q02",
-          "g9-maths-poly-a-q03",
-          "g9-maths-poly-a-q05",
-          "g9-maths-poly-a-q08",
-          "g9-maths-poly-a-q10",
-          "g9-maths-poly-a-q12",
-          "g9-maths-poly-a-q14",
-          "g9-maths-poly-a-q16",
-          "g9-maths-poly-a-q17",
-          "g9-maths-poly-a-q18",
-          "g9-maths-poly-a-q21",
-          "g9-maths-poly-a-q23",
-          "g9-maths-poly-b-q02",
-          "g9-maths-poly-b-q07",
-          "g9-maths-poly-b-q08",
-          "g9-maths-poly-b-q11",
-          "g9-maths-poly-b-q13",
-          "g9-maths-poly-b-q19"
-        ]
-      },
-      {
-        "template": "if you drop a sign or swap place values, but the correct result is n",
-        "count": 10,
-        "items": [
-          "g9-maths-numbers-a-q12",
-          "g9-maths-numbers-a-q15",
-          "g9-maths-numbers-a-q18",
-          "g9-maths-numbers-a-q20",
-          "g9-maths-numbers-b-q06",
-          "g9-maths-numbers-b-q10",
-          "g9-maths-numbers-b-q12",
-          "g9-maths-numbers-b-q19",
-          "g9-maths-numbers-b-q20",
-          "g9-maths-numbers-b-q22"
-        ]
-      }
-    ]
+    "9": []
   }
 }
