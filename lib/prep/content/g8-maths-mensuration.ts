@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "32 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "Area = (1/2)(a + b)h = (1/2)(10 + 6)×4 = 32 cm². 24 cm² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 32 cm².",
+    explanation: "Trapezium area = ½ × (sum of parallel sides) × height = ½ × (10 + 6) × 4 = ½ × 16 × 4 = 32 cm². 40 cm² is tempting if you forget the ½ and just do (10 + 6) × 4 ÷ 2 wrongly as 10×4, or compute 10 × 4 = 40 using only one parallel side.",
     hints: ["Area of a trapezium = ½ × (sum of parallel sides) × height. Add 10 and 6 first."]
   },
   {

@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "20 cm" }
     ],
     answerId: "a",
-    explanation: "Perimeter of a square is 4 × side = 4 × 4 = 16 cm. 12 cm is tempting if you add only three sides (3 × side) instead of all four.",
+    explanation: "Perimeter of a square is 4 × side = 4 × 4 = 16 cm. 12 cm is tempting if you add only three sides (3 × 4) and forget the fourth.",
     hints: ["A square has 4 equal sides. Multiply the side 4 cm by the number of sides."]
   },
   {
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2000 g" }
     ],
     answerId: "d",
-    explanation: "2 × 1000 = 2000 g. 2500 g is tempting if you use 100 or 500 instead of 1000 g in a kilogram.",
+    explanation: "1 kg = 1000 g, so 2 kg = 2 × 1000 = 2000 g. 2500 g is tempting if you use 1250 g per kilogram (half of 2500) or mix 2 kg with a 500 g bonus.",
     hints: ["1 kg = 1000 g, so multiply 2 by 1000."]
   },
   {
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3.5 L" }
     ],
     answerId: "d",
-    explanation: "3500 ÷ 1000 = 3.5 L. 0.35 L is tempting if you divide by 10,000 instead of 1000; 35 L is tempting if you divide by only 100.",
+    explanation: "1000 ml = 1 L, so 3500 ÷ 1000 = 3.5 L. 0.35 L is tempting if you divide by 10,000 (four zeros) instead of 1000.",
     hints: ["1000 ml = 1 L, so divide 3500 by 1000."]
   },
   {
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "18 cm" }
     ],
     answerId: "c",
-    explanation: "Side = perimeter ÷ 4 = 36 ÷ 4 = 9 cm. 12 cm is tempting if you add only three sides (3 × side) instead of all four.",
+    explanation: "A square’s four equal sides add to the perimeter, so one side is 36 ÷ 4 = 9 cm. 12 cm is tempting if you divide 36 by 3 (as if a triangle) instead of by 4.",
     hints: ["A square has 4 equal sides that add up to 36 cm. Share 36 into 4 equal parts."]
   },
   {
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "500 kg" }
     ],
     answerId: "c",
-    explanation: "5000 ÷ 1000 = 5 kg. 0.5 kg is tempting if you divide by 10,000 instead of 1000; 50 kg is tempting if you divide by only 100.",
+    explanation: "1000 g = 1 kg, so 5000 ÷ 1000 = 5 kg. 0.5 kg is tempting if you divide by 10,000 instead of 1000.",
     hints: ["1000 g = 1 kg — multiply or divide by 1000 to convert."]
   },
   {
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2 L" }
     ],
     answerId: "d",
-    explanation: "2000 ÷ 1000 = 2 L. 0.2 L is tempting if you divide by 10,000 instead of 1000; 20 L is tempting if you divide by only 100.",
+    explanation: "1000 ml = 1 L, so 2000 ÷ 1000 = 2 L. 0.2 L is tempting if you divide by 10,000 instead of 1000.",
     hints: ["1000 ml = 1 L, so divide 2000 by 1000."]
   },
   {
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "200 m\u00b2" }
     ],
     answerId: "b",
-    explanation: "20 × 20 = 400 m². 200 m² is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area; area is 400 m².",
+    explanation: "Area of a square is side × side = 20 × 20 = 400 m². 80 m² is tempting if you find the perimeter 4 × 20 = 80 and report it as area.",
     hints: ["Area of a square = side × side. Multiply 20 m by 20 m."]
   },
   {
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1250 g" }
     ],
     answerId: "d",
-    explanation: "1.25 × 1000 = 1250 g. 125 g is tempting if you use 100 or 500 instead of 1000 g in a kilogram.",
+    explanation: "1 kg = 1000 g, so 1.25 × 1000 = 1250 g. 125 g is tempting if you multiply by 100 instead of 1000.",
     hints: ["1 kg = 1000 g, so multiply 1.25 by 1000."]
   },
   {
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "40.5 cm" }
     ],
     answerId: "c",
-    explanation: "Side × side = 81, so side = 9 cm. 8 cm is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area; area is 9 cm.",
+    explanation: "Side × side = 81, so side = 9 because 9 × 9 = 81. 8 cm is tempting if you try 8 × 8 = 64 and round toward 81 without checking 9 × 9.",
     hints: ["Find the number that, multiplied by itself, gives 81."]
   },
   {
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "a",
-    explanation: "2.5 kg = 2500 g, which is more than 2400 g. 2400 g is tempting if you use 100 or 500 instead of 1000 g in a kilogram.",
+    explanation: "2.5 kg = 2500 g, and 2500 > 2400, so 2.5 kg is heavier. 2400 g is tempting if you compare the digits 2.5 and 2400 without converting to the same unit and think the larger-looking whole number wins.",
     hints: ["Change the kilograms to grams by multiplying by 1000, then compare with 2400 g."]
   },
   {

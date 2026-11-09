@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "b",
-    explanation: "Same base: add exponents, 2 + 3 = 5. 5⁶ is tempting if you multiply the exponents instead of adding them (same-base product rule); adding the exponents gives 5⁵.",
+    explanation: "Same base: multiply by adding exponents — 5² × 5³ = 5^(2+3) = 5⁵. 5⁶ is tempting if you multiply the exponents 2 × 3 = 6 instead of adding them.",
     hints: ["Same base 5: when multiplying, add the exponents 2 and 3."]
   },
   {

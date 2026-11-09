@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.003" }
     ],
     answerId: "c",
-    explanation: "3/10 is three tenths, written as 0.3. 0.03 is tempting if you move the decimal point the wrong number of places; dividing gives 0.3.",
+    explanation: "3/10 means three tenths, written 0.3 with the 3 in the first place after the point. 0.03 is tempting if you put the 3 in the hundredths place instead of the tenths.",
     hints: ["Tenths go in the first place after the decimal point. Where does the 3 of 3/10 go?"]
   },
   {
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3.35" }
     ],
     answerId: "d",
-    explanation: "4.20 − 0.85 = 3.35. 3.45 is tempting if you line the decimals up wrongly; the difference is 3.35.",
+    explanation: "Write 4.2 as 4.20 and subtract: 4.20 − 0.85 = 3.35. 3.45 is tempting if you subtract only 0.75 (misreading the 8 tenths as 7) from 4.20.",
     hints: ["Write 4.2 as 4.20, line up the points with 0.85, then subtract, borrowing where needed."]
   },
   {
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2.3" }
     ],
     answerId: "c",
-    explanation: "5.0 − 2.3 = 2.7. 2.3 is tempting if you line the decimals up wrongly; the difference is 2.7.",
+    explanation: "5.0 − 2.3 = 2.7. 3.7 is tempting if you subtract the wrong way round in the ones place (5 − 2 = 3) while still doing 10 − 3 = 7 in the tenths after a needless borrow.",
     hints: ["Line up the decimal points of 5.0 and 2.3. Borrow from the ones to subtract the tenths."]
   },
   {
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.007" }
     ],
     answerId: "c",
-    explanation: "7/100 is seven hundredths = 0.07. 0.007 is tempting if you move the decimal point the wrong number of places; dividing gives 0.07.",
+    explanation: "7/100 is seven hundredths, so the 7 sits two places after the point: 0.07. 0.7 is tempting if you treat 7/100 as seven tenths.",
     hints: ["Hundredths take two places after the decimal point. Put the 7 of 7/100 in the second place."]
   },
   {
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3.75" }
     ],
     answerId: "d",
-    explanation: "6.50 − 2.75 = 3.75. 3.25 is tempting if you line the decimals up wrongly; the difference is 3.75.",
+    explanation: "Write 6.5 as 6.50. Then 6.50 − 2.75 = 3.75. 3.25 is tempting if you subtract 2.75 from 6.00 (dropping the 5 tenths) instead of from 6.50.",
     hints: ["Write 6.5 as 6.50, line up the points with 2.75, then subtract, borrowing where needed."]
   },
   {
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "320" }
     ],
     answerId: "a",
-    explanation: "÷100 moves the point two places left: 3.2 → 0.032. 0.32 is tempting if you move the decimal point the wrong number of places; dividing gives 0.032.",
+    explanation: "Dividing by 100 moves the decimal point two places left: 3.2 → 0.32 → 0.032. 0.32 is tempting if you move the point only one place (as if dividing by 10).",
     hints: ["Dividing by 100 moves every digit of 3.2 two places to the right. Fill the gaps with zeros."]
   },
   {
