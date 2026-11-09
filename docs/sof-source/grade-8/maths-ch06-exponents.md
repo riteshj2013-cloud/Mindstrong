@@ -110,7 +110,7 @@
 - **options**:
   - A) 3⁵
   - B) 3⁶
-  - C) 9³
+  - C) 3⁸
   - D) 3⁹
 - **answer**: B
 - **explanation**: Power of a power: multiply exponents, 2 × 3 = 6.

@@ -373,16 +373,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-maths-frac-b-q05",
-    prompt: "Convert 0.08 to a fraction in simplest form.",
+    prompt: "Nishtha marks 0.3 and 0.4 on a number line in her notebook in Nashik. Which fraction lies between these two marks?",
     options: [
-      { id: "a", text: "2/25" },
-      { id: "b", text: "8/10" },
-      { id: "c", text: "8/100" },
-      { id: "d", text: "4/50" }
+      { id: "a", text: "1/3" },
+      { id: "b", text: "3/4" },
+      { id: "c", text: "2/5" },
+      { id: "d", text: "3/10" }
     ],
     answerId: "a",
-    explanation: "0.08 = 8/100 = 2/25. 8/10 is tempting if you stop before dividing numerator and denominator by their greatest common factor.",
-    hints: ["0.08 is 8 hundredths. Write it over 100, then divide top and bottom by 4."]
+    explanation: "Write each fraction as a decimal: 1/3 = 0.333…, which is more than 0.3 and less than 0.4. 2/5 = 0.4 and 3/10 = 0.3 sit exactly on the marks, not between them, and 3/4 = 0.75 is far past 0.4. 3/4 is tempting because it is made of the digits 3 and 4, but it means three quarters, not a number between 0.3 and 0.4.",
+    hints: ["Turn each fraction into a decimal and test it against the two marks on Nishtha's number line."]
   },
   {
     id: "g6-maths-frac-b-q06",

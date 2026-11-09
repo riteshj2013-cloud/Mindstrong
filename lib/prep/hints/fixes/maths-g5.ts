@@ -66,7 +66,7 @@ export const G5_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g5-maths-angles-a-q16": ["In a three-letter angle name, the middle letter is the vertex."],
   "g5-maths-angles-a-q18": ["A pentagon has 5 sides and a quadrilateral has 4. Add them."],
   "g5-maths-angles-a-q19": ["A straight angle is 180°. Subtract 70° from 180°."],
-  "g5-maths-angles-a-q20": ["Each hour mark is 30°. Count the marks from 12 to the hour hand at 2."],
+  "g5-maths-angles-a-q20": ["On Gurleen's dial each step from one number to the next is 30°; count the steps along the dashed arc."],
   "g5-maths-angles-a-q21": ["Turning 90° anticlockwise from East makes Sita face North. Now turn 180° clockwise from there."],
   "g5-maths-angles-a-q22": ["A full turn is 360°. Subtract 90° and 150° from it."],
   "g5-maths-angles-a-q23": ["A three-quarter turn is 3/4 of 360°. Divide that by 45°."],

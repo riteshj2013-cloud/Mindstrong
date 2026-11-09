@@ -64,7 +64,7 @@ export const G6_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g6-maths-frac-a-q24": ["Change Meera's 3/5 L into a decimal by making the bottom 10. Then subtract it from 1.5 L."],
   "g6-maths-frac-b-q02": ["Write 1/4 as eighths first, then subtract it from 5/8."],
   "g6-maths-frac-b-q03": ["Simplify both fractions in every pair. An equivalent pair reduces to the same simplest form."],
-  "g6-maths-frac-b-q05": ["0.08 is 8 hundredths. Write it over 100, then divide top and bottom by 4."],
+  "g6-maths-frac-b-q05": ["Turn each fraction into a decimal and test it against the two marks on Nishtha's number line."],
   "g6-maths-frac-b-q06": ["How many whole 4s fit in 9? That is the whole part; the remainder stays over 4."],
   "g6-maths-frac-b-q07": ["Write 3.7 as 3.70, line up the decimal points, then add 2.05."],
   "g6-maths-frac-b-q09": ["Multiply 0.3 and the other number by 10 to remove the decimals. Then divide."],
