@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "kilometre" }
     ],
     answerId: "a",
-    explanation: "A classroom is a few metres long, so metre is the sensible unit. millimetre is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
+    explanation: "A classroom is a few metres long, so metre is the sensible unit. millimetre is tempting if you pick a unit meant for a much smaller or larger kind of measure than the one in the question.",
     hints: ["A classroom is longer than a ruler but much shorter than a road between towns. Pick a unit to match."]
   },
   {
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "litre" }
     ],
     answerId: "b",
-    explanation: "Sugar is sold by mass, usually in kilograms (or grams). millilitre is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
+    explanation: "Sugar is sold by mass, usually in kilograms (or grams). millilitre is tempting if you pick a unit meant for a much smaller or larger kind of measure than the one in the question.",
     hints: ["A packet of sugar is weighed, not poured or measured with a ruler. Which unit fits a mass that size?"]
   },
   {
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3 cm" }
     ],
     answerId: "c",
-    explanation: "3 × 100 = 300 cm. 30 cm is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
+    explanation: "3 m = 3 × 100 = 300 cm. 30 cm is tempting if you multiply by 10 instead of by 100 when changing metres to centimetres.",
     hints: ["1 m = 100 cm, so multiply 3 by 100."]
   },
   {
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "40 m\u00b2" }
     ],
     answerId: "d",
-    explanation: "Area = 8 × 5 = 40 m². 45 m² is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
+    explanation: "Area = 8 × 5 = 40 m². 45 m² is tempting if you find the perimeter (or under-count the covering) instead of using length × breadth for area.",
     hints: ["Carpet covers the area: multiply the length 8 m by the breadth 5 m."]
   },
   {
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "30 m" }
     ],
     answerId: "b",
-    explanation: "Fence length = perimeter = 2 × (15 + 10) = 50 m. 30 m is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
+    explanation: "Fence length = perimeter = 2 × (15 + 10) = 50 m. 30 m is tempting if you add length and breadth only once, or use area, instead of the full perimeter.",
     hints: ["The fence goes around the garden, so find the perimeter: 2 × (15 m + 10 m)."]
   },
   {
@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1000 mm" }
     ],
     answerId: "a",
-    explanation: "1 cm = 10 mm. 1 mm is tempting if you use the wrong place-value jump between units, but the correct conversion gives 10 mm.",
+    explanation: "1 cm = 10 mm. 1 mm is tempting if you think centimetres and millimetres are the same size; 100 mm is tempting if you use the m↔cm factor of 100.",
     hints: ["Look at a ruler: count the small millimetre marks between 0 and 1 centimetre."]
   },
   {
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "10,000 cm" }
     ],
     answerId: "b",
-    explanation: "1 km = 1000 m = 1000 × 100 cm = 100,000 cm. 10,000 cm is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
+    explanation: "1 km = 1000 m and 1 m = 100 cm, so 1 km = 1000 × 100 = 100,000 cm. 10,000 cm is tempting if you multiply by only one of those factors (1000 or 100) and miss the other.",
     hints: ["1 kilometre = 1000 m and 1 m = 100 cm. Multiply 1000 by 100."]
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "ml" }
     ],
     answerId: "a",
-    explanation: "City distances are measured in kilometres. cm is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
+    explanation: "City distances are measured in kilometres. cm is tempting if you pick a unit meant for a much smaller or larger kind of measure than the one in the question.",
     hints: ["Cities are many thousands of metres apart. Which unit is made for long distances?"]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "metre" }
     ],
     answerId: "b",
-    explanation: "Small liquid amounts use millilitres. kilometre is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
+    explanation: "Small liquid amounts use millilitres. kilometre is tempting if you pick a unit meant for a much smaller or larger kind of measure than the one in the question.",
     hints: ["Cough syrup is a liquid, and a spoonful is a tiny amount. Which unit measures small volumes?"]
   },
   {
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2.5 cm" }
     ],
     answerId: "c",
-    explanation: "2.5 × 100 = 250 cm. 25 cm is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
+    explanation: "2.5 m = 2.5 × 100 = 250 cm. 25 cm is tempting if you multiply by 10 instead of by 100 when changing metres to centimetres.",
     hints: ["1 m = 100 cm, so multiply 2.5 by 100."]
   },
   {
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b93600" }
     ],
     answerId: "b",
-    explanation: "Perimeter = 2 × (60 + 40) = 200 m; cost = 200 × 15 = ₹3000. ₹2400 is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
+    explanation: "Perimeter = 2 × (60 + 40) = 200 m; cost = 200 × 15 = ₹3000. ₹2400 is tempting if you add length and breadth only once, or use area, instead of the full perimeter.",
     hints: ["Find the perimeter first: 2 × (60 m + 40 m). Then multiply by ₹15 for each metre."]
   },
   {
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "108" }
     ],
     answerId: "c",
-    explanation: "Area = 9 × 6 = 54 m²; each tile is 1 m², so 54 tiles. 30 is tempting if you use a neighbouring conversion factor or mix perimeter with area.",
+    explanation: "Area = 9 × 6 = 54 m²; each tile is 1 m², so 54 tiles. 30 is tempting if you find the perimeter (or under-count the covering) instead of using length × breadth for area.",
     hints: ["Each tile covers 1 m², so the number of tiles equals the floor area, 9 m × 6 m."]
   },
   {

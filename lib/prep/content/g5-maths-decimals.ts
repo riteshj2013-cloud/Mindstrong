@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.009" }
     ],
     answerId: "a",
-    explanation: "9 tenths is 9/10 = 0.9. 0.09 is tempting if you misread a place-value column.",
+    explanation: "9 tenths is 9/10 = 0.9. 0.09 is tempting if you put the 9 in the hundredths place instead of the tenths place.",
     hints: ["Tenths is the first place after the decimal point. Which decimal has 9 in that place and nothing else?"]
   },
   {
