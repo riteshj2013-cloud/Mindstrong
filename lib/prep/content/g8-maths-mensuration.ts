@@ -157,8 +157,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "32 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "Area = (1/2)(a + b)h = (1/2)(10 + 6)×4 = 32 cm². 24 cm² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 32 cm².",
-    hints: ["Area of a trapezium = ½ × (sum of parallel sides) × height. Add 10 and 6 first."]
+    explanation: "Trapezium area = ½ × (sum of parallel sides) × height = ½ × (10 + 6) × 4 = ½ × 16 × 4 = 32 cm². 40 cm² is tempting if you use only the longer parallel side and do 10 × 4 = 40.",
+    hints: ["Trapezium area needs both parallel sides and the height. What happens to their sum before you multiply by the height?"]
   },
   {
     id: "g8-maths-mensuration-a-q13",
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1.2 m\u00b3" }
     ],
     answerId: "c",
-    explanation: "Depth = 0.8 m; V = 2 × 1.5 × 0.8 = 2.4 m³. 2.4 cm³ is right in digits but the unit is wrong; all lengths are in metres, so the volume is in m³.",
+    explanation: "Once 80 cm is changed to 0.8 m, V = 2 × 1.5 × 0.8 = 2.4 m³. 2.4 cm³ is right in digits but the unit is wrong; all lengths are in metres, so the volume is in m³.",
     hints: ["Change the 80 cm depth to metres first, then multiply length × breadth × depth."]
   },
   {

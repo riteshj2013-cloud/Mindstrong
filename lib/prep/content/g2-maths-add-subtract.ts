@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "18" }
     ],
     answerId: "a",
-    explanation: "12 + 5 = 17: start at 12 and count on 5. 16 is tempting if you count one object too many.",
+    explanation: "12 + 5 = 17: start at 12 and count on five hops (13, 14, 15, 16, 17). 16 is tempting if you count one too few, counting 12 itself as the first hop.",
     hints: ["12 is 1 ten and 2 ones. When you add 5, which part of 12 changes: the tens or the ones?"]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "17" }
     ],
     answerId: "c",
-    explanation: "13 + 6 = 19: start at 13 and count on 6. 18 is tempting if you take away when the question asks you to add.",
+    explanation: "13 + 6 = 19: start at 13 and count on six hops (14, 15, 16, 17, 18, 19). 18 is tempting if you count 13 itself as the first hop: 13, 14, 15, 16, 17, 18.",
     hints: ["Count on from 13."]
   },
   {
@@ -250,7 +250,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "c",
-    explanation: "8 + 9 = 17: start at 9 and count on 8. 16 is tempting if you double-count one of the groups.",
+    explanation: "8 + 9 = 17: start at 9 and count on eight hops (10, 11, …, 17). 16 is tempting if you count 9 itself as the first hop: 9, 10, 11, 12, 13, 14, 15, 16.",
     hints: ["Make a ten: give 2 from the 9 to the 8. How many are left over from the 9?"]
   },
   {

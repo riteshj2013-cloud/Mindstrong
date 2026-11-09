@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "110°" }
     ],
     answerId: "a",
-    explanation: "∠C = 180° − 50° − 60° = 70°. 110° is tempting if you add 50° + 60° and forget to subtract from 180°.",
+    explanation: "∠C = 180° − 50° − 60° = 70°. 110° is tempting if you add the two given angles and forget to subtract from 180°.",
     hints: ["The three angles of △ABC together make a straight angle. Once ∠A and ∠B are in place, how much of that straight angle is still left for ∠C?"]
   },
   {
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "reflex" }
     ],
     answerId: "b",
-    explanation: "Complementary angles sum to 90°. supplementary is tempting if you mix faces with edges on the solid.",
+    explanation: "Complementary angles sum to 90°. Supplementary is tempting if you mix up the 90° and 180° pairs.",
     hints: ["Complement → 90°; supplement → 180°."]
   },
   {
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "right" }
     ],
     answerId: "c",
-    explanation: "Supplementary angles sum to 180°. complementary is tempting if you read a neighbouring label from the same diagram.",
+    explanation: "Supplementary angles sum to 180°. Complementary is tempting if you mix up the 90° and 180° pairs.",
     hints: ["Supplement → straight angle."]
   },
   {
@@ -615,8 +615,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "minor arc" }
     ],
     answerId: "c",
-    explanation: "The diameter is the longest chord of a circle. radius is tempting if you name the half-chord from centre to rim instead of the full longest chord.",
-    hints: ["Through the centre = longest."]
+    explanation: "The diameter is the longest chord of a circle. A radius also touches the centre but isn't a chord; it doesn't join two points on the circle.",
+    hints: ["Draw a few chords in a circle, some near the edge and some near the middle. Where does the longest one sit?"]
   },
   {
     id: "g6-maths-geo-b-q24",
