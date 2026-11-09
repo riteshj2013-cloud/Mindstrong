@@ -21,7 +21,8 @@
   "scripts/rebalance_g8_g9_answer_skew.py": "G8/G9 answer-letter rebalancer (no-op on current files)",
   "scripts/rebalance_ts_sets.py": "answer-letter rebalancer for .ts sets (no-op on current files)",
   "scripts/patch-english-passages.mjs": "G5 English passage patcher (no-op on current files; hard-codes /workspace/Mindstrong paths)",
-  "scripts/ingest_g3_english_reading.py": "G3 English ch04 Reading"
+  "scripts/ingest_g3_english_reading.py": "G3 English ch04 Reading",
+  "scripts/ingest_g3_english_expression.py": "G3 English ch05 Spoken and Written Expression"
  },
  "retired": {
   "scripts/seed_g7_full.py": "G7 pack: rewrites G7 English and Maths content and hints (undoes the #58 integer stems and the #62 near-duplicate rewrites)",

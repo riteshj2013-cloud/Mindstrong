@@ -25,6 +25,7 @@ export { g3EnglishSynonyms } from "./g3-english-synonyms";
 export { g3EnglishAntonyms } from "./g3-english-antonyms";
 export { g3EnglishGrammar } from "./g3-english-grammar";
 export { g3EnglishReading } from "./g3-english-reading";
+export { g3EnglishExpression } from "./g3-english-expression";
 export { g5EnglishDetective } from "./g5-english-detective";
 export { g5EnglishGrammar } from "./g5-english-grammar";
 export { g5EnglishWords } from "./g5-english-words";
