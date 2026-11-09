@@ -1,4 +1,5 @@
 import type { ChapterDef, PrepQuestion } from "../types";
+import { g7MathsEquationsAchievers } from "./g7-maths-equations-achievers";
 
 /** Simple Equations - original olympiad-style content (not affiliated with SOF). */
 
@@ -707,6 +708,13 @@ export const g7MathsEquations: ChapterDef = {
       questionCount: SET_B.length,
       topic: "linear-lite",
       questions: SET_B,
+    },
+    {
+      id: "set-achievers",
+      title: "Achievers",
+      questionCount: g7MathsEquationsAchievers.length,
+      topic: "equations",
+      questions: g7MathsEquationsAchievers,
     },
   ],
   paperTopics: ["linear-lite", "add-sub"],

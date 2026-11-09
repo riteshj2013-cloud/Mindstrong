@@ -1,4 +1,5 @@
 import type { ChapterDef, PrepQuestion } from "../types";
+import { g7MathsAnglesAchievers } from "./g7-maths-angles-achievers";
 
 /** Lines and Angles - original olympiad-style content (not affiliated with SOF). */
 
@@ -707,6 +708,13 @@ export const g7MathsAngles: ChapterDef = {
       questionCount: SET_B.length,
       topic: "add-sub",
       questions: SET_B,
+    },
+    {
+      id: "set-achievers",
+      title: "Achievers",
+      questionCount: g7MathsAnglesAchievers.length,
+      topic: "angles",
+      questions: g7MathsAnglesAchievers,
     },
   ],
   paperTopics: ["add-sub", "fractions"],
