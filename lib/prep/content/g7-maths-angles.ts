@@ -132,7 +132,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Adjacent angles on a straight line form a linear pair, so they add to 180°. 90° is tempting if you confuse them with complementary angles; 360° if you think of a full turn instead of a straight line.",
-    hints: ["Picture two angles that share a ray and sit on a flat line. What familiar angle shape do they make together?"]
+    hints: ["How many right angles fit side by side along a straight line?"]
   },
   {
     id: "g7-maths-angles-a-q11",
@@ -223,7 +223,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "An exterior angle of a triangle equals the sum of the two remote (non-adjacent) interior angles. The adjacent interior angle is tempting if you think the exterior and the interior next to it are equal rather than supplementary on a straight line.",
-    hints: ["An exterior angle sits next to one interior angle on a straight line. Which interior angles are left to compare it with?"]
+    hints: ["Try a triangle with angles 50°, 60° and 70°. How big is the exterior angle next to the 70° corner?"]
   },
   {
     id: "g7-maths-angles-a-q18",
@@ -236,7 +236,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "When parallel lines are cut by a transversal, corresponding angles (same position at each crossing) are equal. Supplementary is tempting if you mix them up with consecutive (co-interior) angles, which do add to 180°.",
-    hints: ["Corresponding angles sit in matching corners where the transversal meets each parallel. Slide one onto the other — do they match or add to a straight line?"]
+    hints: ["Sketch it: if one corresponding angle is 70°, what does a protractor show at the matching corner on the other parallel line?"]
   },
   {
     id: "g7-maths-angles-a-q19",
@@ -249,7 +249,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Alternate interior angles (the Z-shape pair between the parallels) are equal when the lines are parallel. Complementary is tempting if you confuse them with angles that make a right angle.",
-    hints: ["Trace the Z made by the transversal between the two parallels. How do the angles in the bends of that Z compare?"]
+    hints: ["Picture the Z between the parallels. If you turn the top bend of the Z half a turn about the middle of the Z, where does it land?"]
   },
   {
     id: "g7-maths-angles-a-q20",
@@ -262,7 +262,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Consecutive (co-interior / same-side) interior angles are supplementary — they add to 180°. Equal is tempting if you apply the alternate-interior rule instead of the same-side rule.",
-    hints: ["Same-side interior angles sit between the parallels on one side of the transversal. Do they match, or do they make a straight line together?"]
+    hints: ["Sketch it: if one same-side interior angle is 70°, what does a protractor show for the other one?"]
   },
   {
     id: "g7-maths-angles-a-q21",
@@ -275,7 +275,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A co-interior angle with 75° is supplementary to it: 180 − 75 = 105°. 75° is tempting if you quote the corresponding angle again instead of moving to the co-interior pair; 15° if you subtract from 90°.",
-    hints: ["Co-interior angles on parallel lines add to a straight angle. Start from the 75° you know — what is left of that straight angle?"]
+    hints: ["What do co-interior angles on parallel lines add up to?"]
   },
   {
     id: "g7-maths-angles-a-q22",
@@ -288,7 +288,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "A reflex angle measures more than 180° and less than 360°. 'Between 90° and 180°' is tempting if you describe an obtuse angle instead; 'less than 90°' if you describe an acute angle.",
-    hints: ["Is a reflex angle bigger than a straight angle, smaller than a straight angle, or exactly a straight angle?"]
+    hints: ["Think of the outside angle between the hands of a clock at 3:00. Roughly how big is that turn?"]
   },
   {
     id: "g7-maths-angles-a-q23",
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "110\u00b0" }
     ],
     answerId: "b",
-    explanation: "Let the angle be x. Its complement is x − 20, and together they make 90: x + (x − 20) = 90 → 2x = 110 → x = 55°. 70° is tempting if you set x + (x − 20) = 180 (supplement) instead of 90; 35° if you take the smaller of the two as the answer.",
+    explanation: "Let the angle be x. Its complement is x − 20, and together they make 90: x + (x − 20) = 90 → 2x = 110 → x = 55°. 110° is tempting if you stop at 2x = 110 and forget to halve; 35° if you give the complement instead of the angle.",
     hints: ["Call the angle x. Its complement is 20° smaller. What should x and that complement add to?"]
   },
   {
@@ -434,7 +434,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Adjacent angles that form a straight line are called a linear pair. 'Vertical pair' is tempting if you picture opposite angles at a crossing instead of neighbours on a line; 'complementary pair' if you think they make 90°.",
-    hints: ["Two neighbours that together make a straight line — which pair name points at a line?"]
+    hints: ["Two adjacent angles fill a straight line. What do they add up to?"]
   },
   {
     id: "g7-maths-angles-b-q10",
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "80\u00b0" }
     ],
     answerId: "c",
-    explanation: "Base angles are equal, so each is (180 − 40) ÷ 2 = 70°. 80° is tempting if you do (180 − 40) ÷  something wrong or take 180 − 2×40 = 100 then halve poorly; 40° if you copy the vertex; 140° if you only subtract once from 180 without halving.",
+    explanation: "Base angles are equal, so each is (180 − 40) ÷ 2 = 70°. 140° is tempting if you subtract 40 from 180 and forget to halve; 40° if you copy the vertex angle onto each base.",
     hints: ["After you remove the 40° vertex from the triangle's total, what do you still need to do because the two base angles are equal?"]
   },
   {
@@ -473,7 +473,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Vertically opposite angles made by two intersecting lines are always equal. 'Adjacent angles are equal' is tempting if you mix vertical angles with a linear pair — neighbours on a straight line add to 180°, they are not equal.",
-    hints: ["Test each claim with a quick sketch: can you draw a counter-example for 'adjacent angles are equal'? Which claim survives every sketch?"]
+    hints: ["Draw two lines crossing at a slant and measure all four angles they make."]
   },
   {
     id: "g7-maths-angles-b-q13",
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "a",
-    explanation: "Corresponding angles are equal when lines are parallel, so 3x = 2x + 30 → x = 30. 15 is tempting if you solve 3x = 2x + 30 as if it were 2× something; 60 if you set 3x + (2x + 30) = 180 (co-interior) instead of equal.",
+    explanation: "Corresponding angles are equal when lines are parallel, so 3x = 2x + 30 → x = 30. 15 is tempting if you divide 30 by the 2 from 2x instead of collecting the x terms; 10 if you divide 30 by the 3 from 3x.",
     hints: ["Corresponding angles on parallel lines are equal — set the two expressions equal. What happens to the x terms when you collect them?"]
   },
   {
@@ -499,7 +499,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "A ray that cuts an angle into two equal parts is an angle bisector. 'Perpendicular bisector' is tempting if you picture cutting a side at right angles through its midpoint instead of splitting an angle.",
-    hints: ["The word 'bisect' means cut into two equal parts. What is being cut here — a length or an angle?"]
+    hints: ["A transversal just crosses lines. Which of the other names are about cutting something into two equal parts?"]
   },
   {
     id: "g7-maths-angles-b-q15",
@@ -511,8 +511,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "30\u00b0" }
     ],
     answerId: "c",
-    explanation: "A right angle is 90°. Bisecting it splits it into two equal angles of 45° each. 30° is tempting if you think of an equilateral triangle's angle; 90° if you forget to halve.",
-    hints: ["Bisecting means splitting into two equal parts. What size is the right angle you are about to split?"]
+    explanation: "A right angle is 90°. Bisecting it splits it into two equal angles of 45° each. 30° is tempting if you split the right angle into three equal parts instead of two (90 ÷ 3 = 30); 90° if you forget to halve.",
+    hints: ["What does 'bisect' mean — split into how many equal parts?"]
   },
   {
     id: "g7-maths-angles-b-q16",
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "38" }
     ],
     answerId: "d",
-    explanation: "Co-interior angles on parallel lines add to 180°: (2x + 10) + (3x − 20) = 180 → 5x − 10 = 180 → 5x = 190 → x = 38. 42 is tempting if you drop the −10 and do 5x = 180 → x = 36 then adjust; 30 if you set the expressions equal (alternate) instead of summing.",
+    explanation: "Co-interior angles on parallel lines add to 180°: (2x + 10) + (3x − 20) = 180 → 5x − 10 = 180 → 5x = 190 → x = 38. 30 is tempting if you set the two angles equal (2x + 10 = 3x − 20 → x = 30), as for alternate angles, instead of adding them to 180°.",
     hints: ["Co-interior angles on parallel lines add to a straight angle. Write that sum with the two expressions, then collect the x terms."]
   },
   {
@@ -551,7 +551,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "A right triangle already uses 90° of its 180°, so the other two add to 90° — each is acute and they are complementary. 'Obtuse' is tempting if you forget that those two must share only 90° between them, so neither can be bigger than 90°.",
-    hints: ["A right triangle has already used 90° of the angle sum. What do the other two angles add to, and can either of them be obtuse?"]
+    hints: ["Try a right triangle with one angle of 30°. What is the third angle?"]
   },
   {
     id: "g7-maths-angles-b-q19",
@@ -564,7 +564,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Equal corresponding angles is a test for parallel lines. 'Complementary' is tempting if you confuse corresponding angles with a pair that makes a right angle; equal matching corners, not a 90° sum, is the parallel test.",
-    hints: ["Draw a transversal across two lines and look at a pair of corresponding angles. What relationship between them tells you the lines are parallel?"]
+    hints: ["Picture sliding one line along the transversal until it lies on the other. When could the two crossings line up exactly?"]
   },
   {
     id: "g7-maths-angles-b-q20",
@@ -577,7 +577,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "270° is greater than 180° and less than 360°, so it is reflex. 'Obtuse' is tempting if you stop after 'bigger than 90°' and forget obtuse only goes up to 180°.",
-    hints: ["Compare 270° with a straight angle and with a full turn. Which named type sits between those two?"]
+    hints: ["How many right angles make 270°?"]
   },
   {
     id: "g7-maths-angles-b-q21",
@@ -629,7 +629,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Complementary angles add to 90°, so 30° and 60° side by side making a right angle fit. '30° and 60° making a straight line' is tempting if you use the supplement (180°) instead of the complement.",
-    hints: ["Complementary angles must add to a right angle. Which drawing both adds to 90° and actually shows a right angle?"]
+    hints: ["What do complementary angles add up to?"]
   }
 ];
 

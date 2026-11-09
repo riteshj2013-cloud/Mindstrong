@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "c",
-    explanation: "On a number line, more negative means farther left, so −12 is left of −3, 0 and 5. −3 is tempting if you compare absolute values and pick the smaller magnitude.",
+    explanation: "On a number line, more negative means farther left, so −12 is left of −3, 0 and 5. −3 is tempting if you read the negatives like ordinary numbers, so 3 looks smaller than 12 and −3 seems farther left than −12.",
     hints: ["On a number line, which direction means smaller? Then compare −12 with the other three."]
   },
   {
@@ -67,7 +67,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Adding a negative is subtracting: 9 + (−4) = 9 − 4 = 5. 13 is tempting if you add the absolute values and ignore the minus on 4; −5 if you subtract the wrong way and attach a minus.",
-    hints: ["Adding −4 means stepping left. Start at 9 — which way do you move, and how many steps?"]
+    hints: ["On a number line, does adding a negative number move you left or right?"]
   },
   {
     id: "g7-maths-integers-a-q06",
@@ -80,7 +80,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Subtracting a negative is adding: (−6) − (−2) = (−6) + 2 = −4. −8 is tempting if you treat both signs as 'keep going left' (6 + 2 with a minus); 4 if you get the magnitude right but drop the minus from −6.",
-    hints: ["Minus a minus becomes plus. Rewrite (−6) − (−2) as an addition, then place it on the number line."]
+    hints: ["What does subtracting a negative number turn into?"]
   },
   {
     id: "g7-maths-integers-a-q07",
@@ -93,7 +93,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Negative × positive = negative, and 7 × 3 = 21, so (−7) × 3 = −21. 21 is tempting if you drop the sign; −10 if you add 7 and 3 and keep a minus.",
-    hints: ["First find 7 × 3. Then decide the sign: what is a negative times a positive?"]
+    hints: ["What sign does a negative number times a positive number give?"]
   },
   {
     id: "g7-maths-integers-a-q08",
@@ -106,7 +106,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Negative × negative = positive, and 5 × 4 = 20, so (−5) × (−4) = 20. −20 is tempting if you keep a minus after multiplying the absolute values.",
-    hints: ["Two negative factors: is the product positive or negative? Then multiply 5 × 4."]
+    hints: ["What sign does a negative number times a negative number give?"]
   },
   {
     id: "g7-maths-integers-a-q09",
@@ -158,7 +158,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "−5 lies to the left of −2 on the number line, so −5 < −2. −5 > −2 is tempting if you compare absolute values (5 > 2) and forget that more negative is smaller.",
-    hints: ["Mark −5 and −2 on a number line. Which one is further left, and what does that say about 'less than'?"]
+    hints: ["On a number line, are numbers further to the left bigger or smaller?"]
   },
   {
     id: "g7-maths-integers-a-q13",
@@ -175,7 +175,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-maths-integers-a-q14",
-    prompt: "Temperature falls from 6 \u00b0C to \u22123 \u00b0C. Change?",
+    prompt: "Temperature falls from 6 °C to −3 °C. What is the change in temperature (final − initial)?",
     options: [
       { id: "a", text: "9 \u00b0C" },
       { id: "b", text: "\u22129 \u00b0C" },
@@ -184,7 +184,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Change = final − initial = (−3) − 6 = −9 °C. 9 °C is tempting if you find the distance but drop the sign that shows a fall; −3 °C if you only report the final temperature.",
-    hints: ["Change is new temperature minus old temperature. Write (−3) − 6 and watch the sign of the result."]
+    hints: ["Is a change worked out as new − old or old − new, and should a fall come out positive or negative?"]
   },
   {
     id: "g7-maths-integers-a-q15",
@@ -210,7 +210,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Subtracting a negative is adding: 0 − (−8) = 0 + 8 = 8. −8 is tempting if you keep the minus; 0 if you think subtracting anything from 0 leaves 0.",
-    hints: ["Rewrite 0 − (−8) by changing minus-a-minus into plus. Where do you land from 0?"]
+    hints: ["What does subtracting a negative number turn into?"]
   },
   {
     id: "g7-maths-integers-a-q17",
@@ -222,8 +222,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(\u22121) \u00d7 12" }
     ],
     answerId: "a",
-    explanation: "A product is positive when the count of negative factors is even. (−3) × (−7) has two negatives, so it is positive. '(−3) × 7' is tempting if you only look at the first factor and forget you need an even count of minuses.",
-    hints: ["Count the negative factors in each option. Even count → positive; odd count → negative."]
+    explanation: "A product is positive when the count of negative factors is even. (−3) × (−7) has two negatives, so it is positive. '(−1) × 12' is tempting if you think multiplying by −1 changes nothing, like multiplying by 1, so it looks like +12.",
+    hints: ["What sign does a negative times a negative give? And a negative times a positive?"]
   },
   {
     id: "g7-maths-integers-a-q18",
@@ -236,7 +236,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "(−2)³ = (−2)×(−2)×(−2). First two give +4, times (−2) gives −8. An odd power keeps the negative. 8 is tempting if you ignore the odd exponent; −6 if you do −2 × 3.",
-    hints: ["Write (−2) × (−2) × (−2). Multiply two at a time and track whether the running product is positive or negative."]
+    hints: ["What sign does a negative times a negative give, and what happens when you multiply by one more negative?"]
   },
   {
     id: "g7-maths-integers-a-q19",
@@ -249,7 +249,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "The successor of an integer is one more: −9 + 1 = −8. −10 is tempting if you step left (predecessor) instead of right.",
-    hints: ["Successor means the next integer to the right on the number line. From −9, which way is that?"]
+    hints: ["Does 'successor' mean the integer just before or just after?"]
   },
   {
     id: "g7-maths-integers-a-q20",
@@ -301,7 +301,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Overdrawn −240 plus a deposit of 300: −240 + 300 = 60, so ₹60. ₹540 is tempting if you add 240 + 300 and drop the overdrawn minus; −₹60 if you do 300 − 240 but keep a minus.",
-    hints: ["Debt is negative and a deposit adds. Start at −240 and move 300 the positive way — which side of zero do you end on?"]
+    hints: ["Is an overdrawn balance written as a positive or a negative number?"]
   },
   {
     id: "g7-maths-integers-a-q24",
@@ -343,7 +343,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "a + b = b + a says order does not matter — the commutative property. 'Associative' is tempting if you confuse swapping order with regrouping (a + b) + c = a + (b + c).",
-    hints: ["In a + b = b + a, only the order of a and b changes. Which property name is about swapping order?"]
+    hints: ["What changes between the two sides of a + b = b + a — the grouping, the order, or the numbers themselves?"]
   },
   {
     id: "g7-maths-integers-b-q03",
@@ -369,7 +369,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Three negative factors: the product is negative. 3 × 4 × 1 = 12, so (−3)×(−4)×(−1) = −12. 12 is tempting if you treat an odd count of negatives as positive; −7 if you add 3 + 4 and keep a minus.",
-    hints: ["Count the minus signs first — odd or even? Then multiply 3 × 4 × 1 and attach that sign."]
+    hints: ["What sign does a negative times a negative give, and what happens when you multiply by one more negative?"]
   },
   {
     id: "g7-maths-integers-b-q05",
