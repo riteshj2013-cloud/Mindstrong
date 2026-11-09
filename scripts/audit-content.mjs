@@ -537,7 +537,7 @@ for (const g of grades.READY_GRADES) {
 
 
 /** Explanation quality: recycled tempting templates + correct-is mismatches. */
-const EXPL_TMPL_THRESHOLD = 10;
+const EXPL_TMPL_THRESHOLD = 3;
 const explTmplBaselinePath = path.join(ROOT, "scripts/audit-baselines/explanation-recycled-templates.json");
 const explTmplBaseline = JSON.parse(fs.readFileSync(explTmplBaselinePath, "utf8"));
 const allowedTmplByGrade = new Map(); // grade -> Set(template)
@@ -553,8 +553,10 @@ const normTemptingTemplate = (expl) => {
   const parts = String(expl ?? "").split(/\bis tempting\b/i);
   if (parts.length < 2) return null;
   let t = parts[1].replace(/[−–—]/g, "-");
+  const cut = t.search(/[.;]/);
+  if (cut >= 0) t = t.slice(0, cut);
   t = t.replace(/\d+\.?\d*/g, "N");
-  t = t.replace(/\s+/g, " ").trim().toLowerCase().split(".")[0].trim();
+  t = t.replace(/\s+/g, " ").trim().toLowerCase();
   return t || null;
 };
 const normClaim = (x) =>
@@ -600,7 +602,7 @@ for (const { questions } of servedSets) {
 const explTmplStats = [];
 for (const [grade, map] of [...tmplHitsByGrade.entries()].sort((a, b) => a[0] - b[0])) {
   const allowed = allowedTmplByGrade.get(grade) || new Set();
-  const hot = [...map.entries()].filter(([, ids]) => ids.length >= EXPL_TMPL_THRESHOLD);
+  const hot = [...map.entries()].filter(([, ids]) => ids.length > EXPL_TMPL_THRESHOLD);
   let allowedN = 0;
   for (const [tmpl, ids] of hot) {
     if (allowed.has(tmpl)) {
@@ -614,14 +616,13 @@ for (const [grade, map] of [...tmplHitsByGrade.entries()].sort((a, b) => a[0] - 
       text: `${ids.length}× within G${grade}: "${tmpl.slice(0, 120)}" (e.g. ${ids.slice(0, 3).join(", ")})`,
     });
   }
-  // Stale allow-list entries (burned down below threshold) → finding so writers remove them
   for (const tmpl of allowed) {
     const n = (map.get(tmpl) || []).length;
-    if (n < EXPL_TMPL_THRESHOLD) {
+    if (n <= EXPL_TMPL_THRESHOLD) {
       findings.push({
         rule: "explanation-recycled-template-stale",
         where: `maths-g${grade}`,
-        text: `baseline template now only ${n}× (<${EXPL_TMPL_THRESHOLD}); remove from explanation-recycled-templates.json: "${tmpl.slice(0, 100)}"`,
+        text: `baseline template now only ${n}× (≤${EXPL_TMPL_THRESHOLD}); remove from explanation-recycled-templates.json: "${tmpl.slice(0, 100)}"`,
       });
     }
   }
@@ -644,6 +645,228 @@ for (const id of explMismatchBaseline) {
     });
   }
 }
+
+/**
+ * MERGE GATES (all grades; must be 0 before merge):
+ *  - placeholder / code-word tokens in explanation or hints
+ *  - quoted fragments of the prompt pasted into explanation/hints
+ *  - "(qNN)" or internal item ids in explanation/hints
+ *  - stray number fragments in explanations
+ *  - same distractor named twice in one explanation
+ *  - tempting/quoted value that is not an option
+ *  - any explanation or hint sentence reused >3 times within a grade
+ *  - broken hint templates
+ */
+const PLACEHOLDER_TOKENS = new Set(
+  ("maple xenon cedar ivory alpha bravo flint grove harbor umbra willow ember jade opal ridge sage tide amber birch coral eagle fern glade hazel iris jasper kelp linen moss nova olive pine").split(" "),
+);
+const MATH_VOCAB = new Set(
+  ("the a an of to in on at by for from with without into onto over under and or not is are was were be been being this that these those it its if then than so as such each every both either neither which what when where who how why all any some more most less least many much few other another same different only just also too very number numbers digit digits place value values sum difference product quotient remainder factor factors multiple multiples fraction fractions decimal decimals percent percentage ratio ratios rate rates interest principal amount average mean median mode range data tally chart graph bar pie table row column angle angles degree degrees right acute obtuse reflex straight triangle square rectangle circle radius diameter circumference area perimeter volume surface length breadth height width depth side sides base parallel perpendicular vertical horizontal line lines ray segment point points axis axes origin quadrant coordinate coordinates equation equations expression expressions variable variables coefficient constant power powers exponent exponents base root roots square cube sqrt simplify expand factorise factorize solve check verify option options answer answers correct incorrect tempting mistake error slip drop forget flip sign signs negative positive plus minus times divide divided multiply multiplied add added subtract subtracted common denominator numerator denominators integers integer whole natural rational irrational real surd surds repeating terminating prime composite odd even consecutive equal equals unequal greater smaller larger half double triple quarter metre meter cm km mm kg g l ml rupee rupees hour hours minute minutes second seconds clock hand face turn turns anticlockwise clockwise north south east west left right up down between among after before during until while").split(" "),
+);
+const BROKEN_HINT_RES = [
+  /Read the words around/i,
+  /Match each option to the key idea/i,
+  /Do the next algebra step for/i,
+  /Re-check .+ against every clue/i,
+  /Sketch the figure, mark/i,
+];
+const STRAY_INT_ORPHAN_RE = /[.!?]\s+\d+\.\s+/;
+const STRAY_DEC_DUP_RE = /(\d+\.\d+)\.\s+\1(?:\s|\.|$)/;
+const INTERNAL_ID_RE = /\(q\d{1,3}\)|g\d+-[a-z]+-[a-z0-9-]+-q\d+/i;
+
+const gateStats = {
+  placeholder: Object.create(null),
+  quotedPrompt: Object.create(null),
+  internalId: Object.create(null),
+  strayFragment: Object.create(null),
+  doubleDistractor: Object.create(null),
+  temptingNotOption: Object.create(null),
+  recycledSentence: Object.create(null),
+  brokenHint: Object.create(null),
+};
+const bump = (bag, grade) => {
+  bag[grade] = (bag[grade] || 0) + 1;
+};
+const gradeOf = (id) => {
+  const m = /^g(\d+)/.exec(id);
+  return m ? `G${m[1]}` : "G?";
+};
+const tokenizeWords = (s) =>
+  String(s ?? "")
+    .toLowerCase()
+    .replace(/[−–—]/g, "-")
+    .match(/[a-z]+/g) || [];
+const sentencePieces = (s) =>
+  String(s ?? "")
+    .split(/(?<=[.!?])\s+/)
+    .map((x) => x.replace(/\d+\.?\d*/g, "N").replace(/\s+/g, " ").trim().toLowerCase())
+    .filter((x) => x.length >= 24);
+
+const sentHitsByGrade = new Map(); // grade -> Map(sentence -> [{id,kind}])
+const stripClaimGate = (x) =>
+  normClaim(String(x ?? "").replace(/^['"“”]+|['"“”]+$/g, "").replace(/^the\s+/i, ""));
+
+for (const { questions } of [...servedSets, ...servedPapers]) {
+  for (const q of questions) {
+    const id = String(q.id ?? "");
+    if (!/^g\d+-/.test(id)) continue;
+    const grade = gradeOf(id);
+    const expl = String(q.explanation ?? "");
+    const hints = (q.hints ?? []).map((h) => String(h ?? ""));
+    const prompt = String(q.prompt ?? "");
+    const optTexts = (q.options || []).map((o) => String(o.text ?? ""));
+    const allowedWords = new Set([
+      ...tokenizeWords(prompt),
+      ...optTexts.flatMap(tokenizeWords),
+      ...MATH_VOCAB,
+    ]);
+
+    const fields = [["explanation", expl], ...hints.map((h, i) => [`hints[${i}]`, h])];
+    for (const [slot, text] of fields) {
+      if (!text) continue;
+      // placeholder / code words
+      const words = tokenizeWords(text);
+      const bad = [...new Set(words.filter((w) => PLACEHOLDER_TOKENS.has(w) && !allowedWords.has(w)))];
+      // also catch maple/xenon pairs even if somehow in vocab
+      if (/\b(maple|cedar|xenon|ivory|alpha|bravo|flint|grove)\s*\/\s*(maple|cedar|xenon|ivory|alpha|bravo|flint|grove)\b/i.test(text)) {
+        bad.push("codeword-slash-pair");
+      }
+      if (bad.length) {
+        bump(gateStats.placeholder, grade);
+        findings.push({
+          rule: "merge-gate-placeholder",
+          where: `${id}.${slot}`,
+          text: `${id} ${slot} has placeholder/code word(s) ${JSON.stringify(bad)}: ${JSON.stringify(text.slice(0, 140))}`,
+        });
+      }
+      // Quoted slash-joined prompt crumbs from scripted fills (e.g. "TSA / hemisphere / radius").
+      for (const qm of text.matchAll(/[“"]([^”"]{3,80})[”"]/g)) {
+        const frag = qm[1].trim();
+        if (!/\S+\s*\/\s*\S+\s*\/\s*\S+/.test(frag)) continue;
+        bump(gateStats.quotedPrompt, grade);
+        findings.push({
+          rule: "merge-gate-quoted-prompt",
+          where: `${id}.${slot}`,
+          text: `${id} ${slot} quotes prompt fragment ${JSON.stringify(frag)}`,
+        });
+        break;
+      }
+      // Also catch unquoted slash-triples used as focus crumbs: in "A / B / C" or on this A / B
+      if (/\b(?:in|on this|while (?:handling|reading))\s+[“"]?\w[\w\s-]*\s\/\s[\w\s-]+\s\/\s[\w\s-]+/.test(text) ||
+          /\b(?:in|on this|while (?:handling|reading))\s+[“"][^”"]*\/[^”"]*\/[^”"]*[”"]/.test(text)) {
+        bump(gateStats.quotedPrompt, grade);
+        findings.push({
+          rule: "merge-gate-quoted-prompt",
+          where: `${id}.${slot}`,
+          text: `${id} ${slot} has slash-joined prompt crumbs: ${JSON.stringify(text.slice(0, 140))}`,
+        });
+      }
+      // internal ids / (qNN)
+      if (INTERNAL_ID_RE.test(text)) {
+        bump(gateStats.internalId, grade);
+        findings.push({
+          rule: "merge-gate-internal-id",
+          where: `${id}.${slot}`,
+          text: `${id} ${slot} names an internal id or (qNN): ${JSON.stringify(text.slice(0, 140))}`,
+        });
+      }
+      // recycled sentences (explanation + hints), threshold >3 within grade
+      for (const sent of sentencePieces(text)) {
+        if (!sentHitsByGrade.has(grade)) sentHitsByGrade.set(grade, new Map());
+        const sm = sentHitsByGrade.get(grade);
+        if (!sm.has(sent)) sm.set(sent, []);
+        sm.get(sent).push({ id, slot });
+      }
+    }
+
+    // stray fragments (explanations only)
+    if (expl && (STRAY_INT_ORPHAN_RE.test(expl) || STRAY_DEC_DUP_RE.test(expl))) {
+      bump(gateStats.strayFragment, grade);
+      findings.push({
+        rule: "merge-gate-stray-fragment",
+        where: id,
+        text: `explanation has a stray number fragment: ${JSON.stringify(expl.slice(0, 160))}`,
+      });
+    }
+
+    // same distractor named twice before "is tempting"
+    if (expl) {
+      const named = [...expl.matchAll(/([^.!?]+?)\s+is tempting\b/gi)].map((m) => stripClaimGate(m[1].split(/[.!?]/).pop()));
+      const counts = new Map();
+      for (const n of named) {
+        if (!n) continue;
+        counts.set(n, (counts.get(n) || 0) + 1);
+      }
+      const doubles = [...counts.entries()].filter(([, c]) => c >= 2).map(([n]) => n);
+      if (doubles.length) {
+        bump(gateStats.doubleDistractor, grade);
+        findings.push({
+          rule: "merge-gate-double-distractor",
+          where: id,
+          text: `${id} names the same distractor twice: ${JSON.stringify(doubles)}`,
+        });
+      }
+    }
+
+    // tempting value not an option
+    if (expl) {
+      const m = expl.match(/([^.]+?)\s+is tempting\b/i);
+      if (m) {
+        let named = (m[1].split(/(?<=[.!?])\s+/).pop() ?? m[1]).trim().replace(/^['"“”]+|['"“”]+$/g, "");
+        const opts = optTexts.map(stripClaimGate);
+        const nn = stripClaimGate(named);
+        if (nn && nn.length >= 1) {
+          const ok = opts.some((o) => o === nn || o.includes(nn) || nn.includes(o) || o.split(/\s+/).includes(nn));
+          if (!ok) {
+            bump(gateStats.temptingNotOption, grade);
+            findings.push({
+              rule: "merge-gate-tempting-not-option",
+              where: id,
+              text: `tempting value ${JSON.stringify(named)} is not among options ${JSON.stringify(optTexts)}`,
+            });
+          }
+        }
+      }
+    }
+
+    // broken hint templates
+    for (const [i, h] of hints.entries()) {
+      if (!BROKEN_HINT_RES.some((re) => re.test(h))) continue;
+      bump(gateStats.brokenHint, grade);
+      findings.push({
+        rule: "merge-gate-broken-hint",
+        where: `${id}.hints[${i}]`,
+        text: `${id}: ${JSON.stringify(h)}`,
+      });
+      break;
+    }
+  }
+}
+
+for (const [grade, map] of [...sentHitsByGrade.entries()].sort((a, b) => a[0].localeCompare(b[0]))) {
+  for (const [sent, hits] of map.entries()) {
+    if (hits.length <= 3) continue;
+    bump(gateStats.recycledSentence, grade);
+    findings.push({
+      rule: "merge-gate-recycled-sentence",
+      where: grade,
+      text: `${hits.length}× in ${grade}: "${sent.slice(0, 120)}" (e.g. ${hits
+        .slice(0, 3)
+        .map((h) => h.id)
+        .join(", ")})`,
+    });
+  }
+}
+
+const gateSummary = Object.entries(gateStats)
+  .map(([rule, byG]) => {
+    const parts = Object.keys(byG)
+      .sort()
+      .map((g) => `${g}:${byG[g]}`);
+    const total = Object.values(byG).reduce((a, b) => a + b, 0);
+    return `${rule}=${total}${parts.length ? `{${parts.join(",")}}` : ""}`;
+  })
+  .join("; ");
 
 /** Near-duplicate stem scanners (Science, English) → warnings; --strict turns them into a failure. */
 for (const [subject, script] of [["Science", "near-duplicate-science-stems.mjs"], ["English", "near-duplicate-english-stems.mjs"]]) {
@@ -675,5 +898,6 @@ if (staleLeaks.length) console.log(`note: ${staleLeaks.length} id(s) in the hint
 console.log(`near-duplicate stems (not allow-listed): ${nearDupStats.join(", ")}`);
 console.log(`content generators: ${generatorStats}`);
 console.log(`explanation templates: threshold ${EXPL_TMPL_THRESHOLD}; ${explTmplStats.join(", ")}; mismatch hits ${explMismatchHits.length} (${[...explMismatchBaseline].filter((id) => explMismatchHits.some((h) => h.id === id)).length} allowed)`);
+console.log(`merge gates: ${gateSummary}`);
 console.log(`${uniq.length} finding(s), ${warnings.length} warning(s)${STRICT && warnings.length ? " (--strict: warnings fail)" : ""}`);
 process.exit(uniq.length || (STRICT && warnings.length) ? 1 : 0);
