@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6.2" }
     ],
     answerId: "b",
-    explanation: "Line up the points: 1.2 + 0.5 = 1.7. 1.25 is tempting if you add without lining up the decimal points; the sum is 1.7.",
+    explanation: "Line up tenths: 1.2 + 0.5 = 1.7. 1.25 is tempting if you treat 0.5 as five hundredths (0.05) and add 1.20 + 0.05 = 1.25.",
     hints: ["Line up the decimal points of 1.2 and 0.5, then add the tenths first, then the ones."]
   },
   {
@@ -196,7 +196,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4.35" }
     ],
     answerId: "c",
-    explanation: "Write 1.3 as 1.30; 2.05 + 1.30 = 3.35. 3.08 is tempting if you add without lining up the decimal points; the sum is 3.35.",
+    explanation: "Write 1.3 as 1.30; 2.05 + 1.30 = 3.35. 3.08 is tempting if you add the 3 of 1.3 into the hundredths place of 2.05 (5 + 3 = 8) instead of into the tenths place (0 + 3).",
     hints: ["Write 1.3 as 1.30 so both have two decimal places, then add 2.05 column by column."]
   },
   {
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1.95" }
     ],
     answerId: "b",
-    explanation: "0.80 + 0.15 = 0.95. 0.815 is tempting if you add without lining up the decimal points; the sum is 0.95.",
+    explanation: "Write 0.8 as 0.80; 0.80 + 0.15 = 0.95. 0.815 is tempting if you join the digits of 0.8 and 0.15 into one number 0.815 instead of lining up the decimal points.",
     hints: ["Write 0.8 as 0.80, line up the decimal points with 0.15, then add."]
   },
   {
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "12.45" }
     ],
     answerId: "c",
-    explanation: "0.90 + 2.45 = 3.35. 3.25 is tempting if you add without lining up the decimal points; the sum is 3.35.",
+    explanation: "Write 0.9 as 0.90; 0.90 + 2.45 = 3.35. 2.54 is tempting if you treat 0.9 as nine hundredths (0.09) and add 2.45 + 0.09 = 2.54.",
     hints: ["Write 0.9 as 0.90, line up the decimal points with 2.45, then add column by column."]
   },
   {

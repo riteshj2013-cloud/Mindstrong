@@ -41,7 +41,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "180\u00b0" }
     ],
     answerId: "d",
-    explanation: "A straight angle looks like a straight line and measures 180°, which is two right angles. 270° is tempting if you use 90° (a right angle) where angles on a straight line need 180°; subtracting from 180° gives 180°.",
+    explanation: "A straight angle is a straight line and measures 180°. 90° is tempting if you give the measure of a right angle instead of a straight angle.",
     hints: ["A straight angle is a half-turn. A full turn is 360°; halve it."]
   },
   {
@@ -190,7 +190,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "110\u00b0" }
     ],
     answerId: "d",
-    explanation: "Angles on a straight line add to 180°, so the missing angle is 180° − 70° = 110°. 90° is tempting if you use 90° (a right angle) where angles on a straight line need 180°; subtracting from 180° gives 110°.",
+    explanation: "Angles on a straight line add to 180°, so the missing angle is 180° − 70° = 110°. 90° is tempting if you answer with a right angle instead of subtracting 70° from 180°.",
     hints: ["Angles on a straight line add to 180°. Subtract the given part."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 480 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Straight line with 70 degree angle and missing angle\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"480\" height=\"190\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"240\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Angles on a straight line</text>\n  <line class=\"part arm\" x1=\"30\" y1=\"140\" x2=\"450\" y2=\"140\" stroke=\"#333\" stroke-width=\"2.5\"/>\n  <line class=\"part arm\" x1=\"240\" y1=\"140\" x2=\"199.0\" y2=\"27.2\" stroke=\"#333\" stroke-width=\"2.5\"/>\n  <circle class=\"part vertex\" cx=\"240\" cy=\"140\" r=\"5\" fill=\"#e65100\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <path class=\"part arc\" d=\"M 180.0 140.0 A 60 60 0 0 1 219.5 83.6\" fill=\"none\" stroke=\"#42a5f5\" stroke-width=\"2\"/>\n  <text class=\"label\" x=\"176.1\" y=\"95.3\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">70\u00b0</text>\n  <path class=\"part arc\" d=\"M 221.2 88.3 A 55 55 0 0 1 295.0 140.0\" fill=\"none\" stroke=\"#e65100\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/>\n  <text class=\"label\" x=\"284.7\" y=\"76.1\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">?</text>\n  <text class=\"label small\" x=\"240\" y=\"175\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">A straight line measures 180\u00b0.</text>\n</svg>", "alt": "A straight line with a ray from the middle. The left opening is labelled 70\u00b0. The right opening is labelled with a question mark."}
   },
@@ -256,7 +256,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "290\u00b0" }
     ],
     answerId: "b",
-    explanation: "The two parts must add up to 180°, so the other angle is 180° − 70° = 110°. 100° is tempting if you use 90° (a right angle) where angles on a straight line need 180°; subtracting from 180° gives 110°.",
+    explanation: "The two parts of a straight angle add to 180°, so the other is 180° − 70° = 110°. 20° is tempting if you subtract 70° from 90° (a right angle) instead of from 180°.",
     hints: ["A straight angle is 180°. Subtract 70° from 180°."]
   },
   {
@@ -364,7 +364,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Edges" }
     ],
     answerId: "a",
-    explanation: "An angle is made of two arms that start from a common point called the vertex. Vertices is tempting if you use 90° (a right angle) where angles on a straight line need 180°; subtracting from 180° gives Arms.",
+    explanation: "The two straight lines (rays) that form an angle are called its arms. Vertices is tempting if you name the common endpoint (the vertex) instead of the two arms.",
     hints: ["An angle is made by two rays meeting at a vertex. What are those two straight lines called?"]
   },
   {
