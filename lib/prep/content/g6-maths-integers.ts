@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "60" }
     ],
     answerId: "c",
-    explanation: "−15 − 15 + 30 = 0. 30 is tempting if you drop a minus when moving left on the number line; keeping the direction gives 0.",
+    explanation: "(−15) + (−15) + 30 = −30 + 30 = 0. 30 is tempting if you keep only the +30 and drop both minus hops.",
     hints: ["Two −15s cancel the +30."]
   },
   {

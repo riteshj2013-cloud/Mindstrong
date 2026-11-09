@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "acute" }
     ],
     answerId: "d",
-    explanation: "Acute angles are less than 90°. 45° is acute. right is tempting if you name a ray when the figure is a line segment (or the other way round).",
+    explanation: "Acute angles are less than 90°, so 45° is acute. right is tempting if you confuse 45° with a right angle (90°).",
     hints: ["Compare with 90°."]
   },
   {
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "180°" }
     ],
     answerId: "d",
-    explanation: "Interior angles of a triangle always sum to 180°. 90° is tempting if you count an extra side that is not part of the polygon.",
+    explanation: "The interior angles of any triangle sum to 180°. 90° is tempting if you give the measure of a right angle instead of the angle sum of a triangle.",
     hints: ["Triangle angle sum is a half-turn."]
   },
   {
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "21 cm" }
     ],
     answerId: "b",
-    explanation: "Diameter = 2 × radius = 14 cm. 7 cm is tempting if you use the diameter where the radius (half the diameter) is needed, or the other way round.",
+    explanation: "Diameter = 2 × radius = 2 × 7 = 14 cm. 7 cm is tempting if you report the radius again instead of doubling it for the diameter.",
     hints: ["Diameter is twice the radius."]
   },
   {
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "110°" }
     ],
     answerId: "a",
-    explanation: "180 − 50 − 60 = 70°. 80° is tempting if you take perimeter when the question asks for area.",
+    explanation: "∠C = 180° − 50° − 60° = 70°. 110° is tempting if you add 50° + 60° and forget to subtract from 180°.",
     hints: ["Use triangle sum 180°."]
   },
   {
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "20 cm" }
     ],
     answerId: "c",
-    explanation: "Perimeter = 2(l + b) = 2(13) = 26 cm. 20 cm is tempting if you add only some sides, or find the area, instead of the full distance around.",
+    explanation: "Perimeter = 2 × (8 + 5) = 2 × 13 = 26 cm. 40 cm is tempting if you multiply length × breadth (area) instead of doubling the sum of the sides.",
     hints: ["Add length and breadth, then double."]
   },
   {
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "36 cm²" }
     ],
     answerId: "d",
-    explanation: "Area = side × side = 36 cm². 24 cm² is tempting if you add the sides (perimeter) instead of multiplying the two lengths for area.",
+    explanation: "Area of a square = 6 × 6 = 36 cm². 24 cm² is tempting if you find the perimeter 4 × 6 = 24 instead of the area.",
     hints: ["Square area = side squared."]
   },
   {
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "right" }
     ],
     answerId: "c",
-    explanation: "Reflex angles lie between 180° and 360°. acute is tempting if you name a ray when the figure is a line segment (or the other way round).",
+    explanation: "A reflex angle is greater than 180° and less than 360°. obtuse is tempting if you stop at the obtuse range (between 90° and 180°) and miss that reflex goes past a straight angle.",
     hints: ["Bigger than a straight angle."]
   },
   {
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "equilateral" }
     ],
     answerId: "b",
-    explanation: "One right angle → right-angled triangle. acute-angled is tempting if you take perimeter when the question asks for area.",
+    explanation: "A triangle with one 90° angle is right-angled. acute-angled is tempting if you name the triangle by its other angles being acute and ignore the right angle.",
     hints: ["Look for the 90° corner."]
   },
   {
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "28 cm" }
     ],
     answerId: "c",
-    explanation: "6 × 4 = 24 cm. 20 cm is tempting if you mix faces with edges on the solid.",
+    explanation: "A regular hexagon has 6 equal sides, so perimeter = 6 × 4 = 24 cm. 16 cm is tempting if you multiply by 4 sides (as for a square) instead of 6.",
     hints: ["Regular hexagon: six equal sides."]
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5 cm" }
     ],
     answerId: "a",
-    explanation: "Radius = diameter ÷ 2 = 10 cm. 5 cm is tempting if you use the diameter where the radius (half the diameter) is needed, or the other way round.",
+    explanation: "Radius = diameter ÷ 2 = 20 ÷ 2 = 10 cm. 40 cm is tempting if you double the diameter instead of halving it.",
     hints: ["Half the diameter."]
   },
   {
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "55°" }
     ],
     answerId: "d",
-    explanation: "90 − 35 = 55°. 65° is tempting if you use the wrong angle relationship (for example complementary instead of supplementary); the correct measure is 55°.",
+    explanation: "Complementary angles sum to 90°, so ∠Q = 90° − 35° = 55°. 145° is tempting if you subtract from 180° (supplementary) instead of from 90°.",
     hints: ["Complementary sum to 90°."]
   },
   {
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "90°" }
     ],
     answerId: "a",
-    explanation: "180 − 110 = 70°. 80° is tempting if you use the wrong angle relationship (for example complementary instead of supplementary); the correct measure is 70°.",
+    explanation: "Supplementary angles sum to 180°, so ∠Y = 180° − 110° = 70°. 20° is tempting if you subtract 110° from 90° (complementary) instead of from 180°.",
     hints: ["Supplementary sum to 180°."]
   },
   {
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "minor arc" }
     ],
     answerId: "c",
-    explanation: "The diameter is the longest chord. radius is tempting if you confuse a chord with a radius or diameter.",
+    explanation: "The diameter is the longest chord of a circle. radius is tempting if you name the half-chord from centre to rim instead of the full longest chord.",
     hints: ["Through the centre = longest."]
   },
   {
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "circle" }
     ],
     answerId: "d",
-    explanation: "A circle’s boundary is curved, so it is not a polygon. triangle is tempting if you add angle sizes that do not meet at the vertex asked for.",
+    explanation: "A circle has a curved boundary, so it is not a polygon. triangle is tempting if you pick any familiar straight-sided shape and ignore the curved-boundary clue.",
     hints: ["Polygons need straight sides only."]
   }
 ];

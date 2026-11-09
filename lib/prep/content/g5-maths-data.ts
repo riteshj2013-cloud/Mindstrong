@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Perimeter" }
     ],
     answerId: "b",
-    explanation: "Frequency is how often a value appears. Average is tempting if you read the wrong row or column of the table or chart; the correct reading is Frequency.",
+    explanation: "Frequency means how often a value appears. Average is tempting if you confuse the count of appearances with a typical middle value of the set.",
     hints: ["Think of tally marks counting how many times each value appears. What is that count called?"]
   },
   {
@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "One stroke" }
     ],
     answerId: "c",
-    explanation: "7 = 5 + 2, so one bundle and two strokes. Seven single strokes only with no bundles is tempting if you misread how many strokes sit in one tally bundle (each crossed bundle is 5); counting carefully gives One bundle of 5 and two more.",
+    explanation: "7 = 5 + 2, so write one crossed bundle and two single strokes. Seven single strokes only with no bundles is tempting if you draw one stroke for each count and never group them into bundles of 5.",
     hints: ["A tally bundle is a group of upright strokes with a slash. Take one bundle away from 7 and count what is left."]
   },
   {
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Draw a pictograph first" }
     ],
     answerId: "c",
-    explanation: "Use the row for Meera and the Marks column. Ignore headings is tempting if you read the wrong row or column of the table or chart; the correct reading is Find Meera's row and read the Marks cell.",
+    explanation: "Find Meera's row, then read the Marks cell in that row. Ignore headings is tempting if you think the Marks column alone is enough without matching Meera's name.",
     hints: ["A table has a row for each name and a column for each heading. Where do Meera's row and the Marks column meet?"]
   },
   {
@@ -343,7 +343,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "9" }
     ],
     answerId: "b",
-    explanation: "4 × 5 = 20. 9 is tempting if you misread how many strokes sit in one tally bundle (each crossed bundle is 5); counting carefully gives 20.",
+    explanation: "Four bundles of five strokes each make 4 × 5 = 20. 4 is tempting if you count the number of bundles instead of the strokes inside them.",
     hints: ["Each tally bundle is five strokes. Count in fives, once for each bundle."]
   },
   {
@@ -395,7 +395,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Percent" }
     ],
     answerId: "b",
-    explanation: "Unsorted collected facts are raw data. Mode is tempting if you read the wrong row or column of the table or chart; the correct reading is Raw data.",
+    explanation: "Scores written as collected, before sorting, are raw data. Mode is tempting if you name a summary of the data (the most common value) instead of the unsorted list itself.",
     hints: ["Scores written down just as they come, before any sorting, are not organised yet. What are such data called?"]
   },
   {
@@ -408,7 +408,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Ten strokes" }
     ],
     answerId: "c",
-    explanation: "Three is fewer than five, so three single strokes. One bundle of 5 is tempting if you misread how many strokes sit in one tally bundle (each crossed bundle is 5); counting carefully gives Three single strokes.",
+    explanation: "3 is less than 5, so tally marks for 3 are three single strokes. One bundle of 5 is tempting if you always draw a crossed bundle even when the count is fewer than 5.",
     hints: ["A bundle needs 5 tally strokes. With only 3 to show, do you draw a bundle?"]
   },
   {
@@ -460,7 +460,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Guessing" }
     ],
     answerId: "c",
-    explanation: "Find the Tuesday row and read the temperature. Ignoring the table is tempting if you read the wrong row or column of the table or chart; the correct reading is Reading Tuesday's row.",
+    explanation: "Find Tuesday in the Day column and read across to Temperature. Ignoring the table is tempting if you try to answer without using the Day and Temperature columns.",
     hints: ["Find Tuesday in the Day column, then move across to the Temperature column."]
   },
   {

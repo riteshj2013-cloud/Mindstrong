@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "d",
-    explanation: "Multiplying by 10 moves the decimal point one place right: 0.4 becomes 4. 0.4 is tempting if you misplace the decimal point when multiplying; the product is 4.",
+    explanation: "×10 moves the point one place right: 0.4 → 4. 0.4 is tempting if you leave the decimal point unmoved instead of shifting it for ×10.",
     hints: ["Multiplying by 10 moves every digit one place to the left, so tenths become ones. What does the decimal become?"]
   },
   {
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.0056" }
     ],
     answerId: "a",
-    explanation: "×100 moves the point two places right: 0.56 → 56. 5.6 is tempting if you misplace the decimal point when multiplying; the product is 56.",
+    explanation: "×100 moves the point two places right: 0.56 → 56. 5.6 is tempting if you move the point only one place (as for ×10) instead of two places.",
     hints: ["Multiplying by 100 moves every digit two places to the left, so hundredths become ones. What does the decimal become?"]
   },
   {
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "d",
-    explanation: "×10 moves the point one place right: 1.5 → 15. 1.05 is tempting if you misplace the decimal point when multiplying; the product is 15.",
+    explanation: "×10 moves the point one place right: 1.5 → 15. 0.15 is tempting if you move the point one place left (÷10) instead of one place right.",
     hints: ["Multiplying by 10 moves every digit of 1.5 one place to the left."]
   },
   {
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "7.5" }
     ],
     answerId: "d",
-    explanation: "0.6 + 0.15 = 0.75; 0.75 × 10 = 7.5. 6.15 is tempting if you misplace the decimal point when multiplying; the product is 7.5.",
+    explanation: "0.6 + 0.15 = 0.75, then 0.75 × 10 = 7.5. 0.75 is tempting if you add correctly but forget to multiply by 10.",
     hints: ["Do the operation in brackets (or the sum) first, then scale by 10 or 100."]
   }
 ];

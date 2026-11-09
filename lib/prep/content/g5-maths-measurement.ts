@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "kilometre" }
     ],
     answerId: "a",
-    explanation: "A classroom is a few metres long, so metre is the sensible unit. millimetre is tempting if you pick a unit meant for a much smaller or larger kind of measure than the one in the question.",
+    explanation: "A classroom is a few metres long, so metre fits. millimetre is tempting if you pick a unit meant for tiny lengths (like a coin's thickness) instead of a room.",
     hints: ["A classroom is longer than a ruler but much shorter than a road between towns. Pick a unit to match."]
   },
   {
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "litre" }
     ],
     answerId: "b",
-    explanation: "Sugar is sold by mass, usually in kilograms (or grams). millilitre is tempting if you pick a unit meant for a much smaller or larger kind of measure than the one in the question.",
+    explanation: "Sugar is sold by mass, so kilogram fits. millilitre is tempting if you pick a liquid-volume unit instead of a mass unit for the packet.",
     hints: ["A packet of sugar is weighed, not poured or measured with a ruler. Which unit fits a mass that size?"]
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "ml" }
     ],
     answerId: "a",
-    explanation: "City distances are measured in kilometres. cm is tempting if you pick a unit meant for a much smaller or larger kind of measure than the one in the question.",
+    explanation: "Distances between cities are measured in kilometres. cm is tempting if you pick a unit meant for short classroom lengths instead of city-to-city distance.",
     hints: ["Cities are many thousands of metres apart. Which unit is made for long distances?"]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "metre" }
     ],
     answerId: "b",
-    explanation: "Small liquid amounts use millilitres. kilometre is tempting if you pick a unit meant for a much smaller or larger kind of measure than the one in the question.",
+    explanation: "A spoon of syrup is a small liquid amount, so millilitre fits. kilometre is tempting if you pick a long-distance unit instead of a small volume unit.",
     hints: ["Cough syrup is a liquid, and a spoonful is a tiny amount. Which unit measures small volumes?"]
   },
   {
