@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "b",
-    explanation: "A number plus its additive inverse equals 0, so −15 + 15 = 0. 0 is tempting, but it does not match what the question asks.",
+    explanation: "A number plus its additive inverse equals 0, so −15 + 15 = 0. 0 is tempting if you drop a sign or swap place values, but the correct result is 15.",
     hints: ["Additive inverse means the number that sums with it to zero."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "c",
-    explanation: "More negative numbers lie farther to the left. −12 < −3. −3 is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "More negative numbers lie farther to the left. −12 < −3. −3 is tempting if you drop a sign or swap place values, but the correct result is −12.",
     hints: ["On a number line, left means smaller."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221213" }
     ],
     answerId: "d",
-    explanation: "Adding two negatives: add absolute values and keep the negative sign → −13. −3 is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "Adding two negatives: add absolute values and keep the negative sign → −13. −3 is tempting if you drop a sign or swap place values, but the correct result is −13.",
     hints: ["Two negatives added go further left. Find 8 + 5 and put a minus sign in front."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221213" }
     ],
     answerId: "a",
-    explanation: "9 − 4 = 5. Adding a negative is subtraction. 13 is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "9 − 4 = 5. Adding a negative is subtraction. 13 is tempting if you drop a sign or swap place values, but the correct result is 5.",
     hints: ["Adding −4 means stepping 4 to the left. Start at 9 on the number line."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "b",
-    explanation: "Subtracting a negative is adding: −6 + 2 = −4. −8 is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "Subtracting a negative is adding: −6 + 2 = −4. −8 is tempting if you drop a sign or swap place values, but the correct result is −4.",
     hints: ["Subtracting −2 is the same as adding 2. Start at −6 and move 2 steps right."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "c",
-    explanation: "Negative × positive = negative. 7 × 3 = 21, so answer is −21. −10 is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "Negative × positive = negative. 7 × 3 = 21, so answer is −21. −10 is tempting if you drop a sign or swap place values, but the correct result is −21.",
     hints: ["A negative times a positive is negative. Work out 7 × 3, then add the sign."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "d",
-    explanation: "Negative × negative = positive. 5 × 4 = 20. 9 is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "Negative × negative = positive. 5 × 4 = 20. 9 is tempting if you drop a sign or swap place values, but the correct result is 20.",
     hints: ["A negative times a negative is positive. Work out 5 × 4."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "45" }
     ],
     answerId: "a",
-    explanation: "Negative ÷ positive = negative. 36 ÷ 9 = 4, so −4. 4 is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "Negative ÷ positive = negative. 36 ÷ 9 = 4, so −4. 4 is tempting if you drop a sign or swap place values, but the correct result is −4.",
     hints: ["Signs differ, so the quotient is negative. Which number times 9 gives 36?"]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221242" }
     ],
     answerId: "b",
-    explanation: "Negative ÷ negative = positive. 48 ÷ 6 = 8. −8 is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "Negative ÷ negative = positive. 48 ÷ 6 = 8. −8 is tempting if you drop a sign or swap place values, but the correct result is 8.",
     hints: ["Same signs give a positive quotient. Which number times 6 gives 48?"]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u22125 < \u22122" }
     ],
     answerId: "d",
-    explanation: "−5 is to the left of −2, so −5 is smaller. −5 = −2 is tempting, but it does not match what the question asks.",
+    explanation: "−5 is to the left of −2, so −5 is smaller. −5 = −2 is tempting if you drop a sign or swap place values, but the correct result is −5 < −2.",
     hints: ["On the number line, numbers further left are smaller. Is −5 left or right of −2?"]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221213 floors" }
     ],
     answerId: "a",
-    explanation: "−4 + 9 = +5 floors. +13 floors is tempting, but it does not match what the question asks.",
+    explanation: "−4 + 9 = +5 floors. +13 floors is tempting if you drop a sign or swap place values, but the correct result is +5 floors.",
     hints: ["Down is negative; up is positive."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3 \u00b0C" }
     ],
     answerId: "b",
-    explanation: "Final − initial = −3 − 6 = −9 °C. −3 °C is tempting, but it does not match what the question asks.",
+    explanation: "Final − initial = −3 − 6 = −9 °C. −3 °C is tempting if you drop a sign or swap place values, but the correct result is −9 °C.",
     hints: ["Change = new value minus old value."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "d",
-    explanation: "0 + 8 = 8. 0 is tempting, but it does not match what the question asks.",
+    explanation: "The correct answer is 8. 0 is tempting if you drop a sign or swap place values, but the correct result is 8.",
     hints: ["Subtracting a negative is the same as adding its opposite. Start from 0 on the number line."]
   },
   {
@@ -221,7 +221,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(\u22121) \u00d7 12" }
     ],
     answerId: "a",
-    explanation: "Both factors negative → product positive. (−3) × 7 is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "Both factors negative → product positive. (−3) × 7 is tempting if you drop a sign or swap place values, but the correct result is (−3) × (−7).",
     hints: ["Count negative factors: even count → positive."]
   },
   {
@@ -234,7 +234,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6" }
     ],
     answerId: "b",
-    explanation: "(−2)×(−2)×(−2) = 4 × (−2) = −8. Odd power keeps the negative. −6 is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "(−2)×(−2)×(−2) = 4 × (−2) = −8. Odd power keeps the negative. −6 is tempting if you drop a sign or swap place values, but the correct result is −8.",
     hints: ["Write (−2) × (−2) × (−2). Multiply two at a time and track the sign."]
   },
   {
@@ -247,7 +247,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "c",
-    explanation: "Successor means +1: −9 + 1 = −8. −10 is tempting, but it does not match what the question asks.",
+    explanation: "Successor means +1: −9 + 1 = −8. −10 is tempting if you drop a sign or swap place values, but the correct result is −8.",
     hints: ["Successor is one more on the number line."]
   },
   {
@@ -260,7 +260,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221210" }
     ],
     answerId: "d",
-    explanation: "Predecessor means −1: −9 − 1 = −10. −8 is tempting, but it does not match what the question asks.",
+    explanation: "Predecessor means −1: −9 − 1 = −10. −8 is tempting if you drop a sign or swap place values, but the correct result is −10.",
     hints: ["Predecessor is one less."]
   },
   {
@@ -273,7 +273,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "a",
-    explanation: "A number plus its additive inverse is 0. 1 is tempting, but it does not match what the question asks.",
+    explanation: "A number plus its additive inverse is 0. 1 is tempting if you drop a sign or swap place values, but the correct result is 0.",
     hints: ["−15 and 15 are opposites, the same distance from the start on either side of the number line. What do they add to?"]
   },
   {
@@ -299,7 +299,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u2212\u20b9540" }
     ],
     answerId: "c",
-    explanation: "−240 + 300 = 60 rupees. ₹540 is tempting, but it does not match what the question asks.",
+    explanation: "−240 + 300 = 60 rupees. ₹540 is tempting if you drop a sign or swap place values, but the correct result is ₹60.",
     hints: ["Debt is negative; deposits add."]
   },
   {
@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221211" }
     ],
     answerId: "d",
-    explanation: "−9 − 4 = −13; −13 + 2 = −11. −15 is tempting, but it does not match what the question asks.",
+    explanation: "−9 − 4 = −13; −13 + 2 = −11. −15 is tempting if you drop a sign or swap place values, but the correct result is Forming halves.",
     hints: ["Work left to right: first −9 − 4, then add 2."]
   }
 ];
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Forming halves" }
     ],
     answerId: "a",
-    explanation: "Sum of two integers is always an integer. Division may give a non-integer. Division is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "Sum of two integers is always an integer. Division may give a non-integer. Division is tempting if you drop a sign or miscount on the number line; the correct result is Addition.",
     hints: ["Closed means the answer is always an integer too. Try 3 and −5 with each operation."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Identity" }
     ],
     answerId: "b",
-    explanation: "Order of addition does not matter — commutative property. Associative is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "Order of addition does not matter — commutative property. Associative is tempting if you drop a sign or swap place values, but the correct result is Commutative.",
     hints: ["In a + b = b + a, only the order of a and b changes. Which property is about swapping the order?"]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "None" }
     ],
     answerId: "c",
-    explanation: "a + 0 = a for every integer a. 1 is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "a + 0 = a for every integer a. 1 is tempting if you drop a sign or swap place values, but the correct result is 0.",
     hints: ["Identity leaves the number unchanged."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u221212" }
     ],
     answerId: "d",
-    explanation: "Three negatives: product is negative. 3×4×1 = 12 → −12. −7 is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "Three negatives: product is negative. 3×4×1 = 12 → −12. −7 is tempting if you drop a sign or swap place values, but the correct result is −12.",
     hints: ["Count the negative signs. An odd count gives a negative product. Then multiply 3 × 4 × 1."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22125" }
     ],
     answerId: "a",
-    explanation: "−20 ÷ 4 = −5. 5 is tempting if you move a term the wrong way or forget to do the same to both sides.",
+    explanation: "−20 ÷ 4 = −5. 5 is tempting if you drop a sign or swap place values, but the correct result is 4.",
     hints: ["What times −5 gives −20?"]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "a + b" }
     ],
     answerId: "b",
-    explanation: "−(a − b) = −a + b = b − a. a − b is tempting, but it does not match what the question asks.",
+    explanation: "−(a − b) = −a + b = b − a. a − b is tempting if you drop a sign or swap place values, but the correct result is b − a.",
     hints: ["Open the bracket: the minus sign changes the sign of a and of −b. Rearrange what you get."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "105 m" }
     ],
     answerId: "c",
-    explanation: "−80 + 25 = −55 m (still below sea level). −105 m is tempting, but it does not match what the question asks.",
+    explanation: "−80 + 25 = −55 m (still below sea level). −105 m is tempting if you drop a sign or swap place values, but the correct result is −55 m.",
     hints: ["Rising adds a positive change to a negative depth."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "d",
-    explanation: "7 − 3 = 4. 10 is tempting, but it does not match what the question asks.",
+    explanation: "The correct answer is 4. 10 is tempting if you drop a sign or swap place values, but the correct result is 4.",
     hints: ["Find the distance of −7 from zero, and of 3. Then subtract the second from the first."]
   },
   {
@@ -445,7 +445,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "b",
-    explanation: "5 + 9 − 3 = 11. 17 is tempting, but it does not match what the question asks.",
+    explanation: "5 + 9 − 3 = 11. 17 is tempting if you drop a sign or swap place values, but the correct result is 11.",
     hints: ["Subtracting −9 means adding 9. Work left to right: 5 + 9, then subtract 3."]
   },
   {
@@ -458,7 +458,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "42" }
     ],
     answerId: "c",
-    explanation: "(−6) × 6 = −36. −6 is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "(−6) × 6 = −36. −6 is tempting if you drop a sign or swap place values, but the correct result is 6.",
     hints: ["Divide −36 by the given negative factor. Negative divided by negative is positive."]
   },
   {
@@ -471,7 +471,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22128, \u22122, 0, 5" }
     ],
     answerId: "d",
-    explanation: "From most negative to most positive: −8, −2, 0, 5. −2, −8, 0, 5 is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "From most negative to most positive: −8, −2, 0, 5. −2, −8, 0, 5 is tempting if you drop a sign or swap place values, but the correct result is −8, −2, 0, 5.",
     hints: ["Ascending means smallest to largest."]
   },
   {
@@ -497,7 +497,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22128" }
     ],
     answerId: "b",
-    explanation: "−14 − 6 = −20; −20 + 20 = 0. −8 is tempting, but it does not match what the question asks.",
+    explanation: "−14 − 6 = −20; −20 + 20 = 0. −8 is tempting if you drop a sign or swap place values, but the correct result is 0.",
     hints: ["Add the two negatives first: −14 + (−6). Then add 20."]
   },
   {
@@ -510,7 +510,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "c",
-    explanation: "−3 − 7 = −10. −4 is tempting, but it does not match what the question asks.",
+    explanation: "−3 − 7 = −10. −4 is tempting if you drop a sign or swap place values, but the correct result is −10.",
     hints: ["Subtract means add the opposite of b."]
   },
   {
@@ -523,7 +523,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "7 \u00f7 0" }
     ],
     answerId: "d",
-    explanation: "Division by zero is never defined. 7 ÷ (−1) is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "Division by zero is never defined. 7 ÷ (−1) is tempting if you drop a sign or swap place values, but the correct result is 7 ÷ 0.",
     hints: ["Undefined means it has no answer. Can any number times zero ever give 7?"]
   },
   {
@@ -536,7 +536,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Loss of \u20b9970" }
     ],
     answerId: "a",
-    explanation: "450 − 520 = −70 → loss of ₹70. Gain of ₹70 is tempting, but it does not match what the question asks.",
+    explanation: "450 − 520 = −70 → loss of ₹70. Gain of ₹70 is tempting if you drop a sign or swap place values, but the correct result is Loss of ₹70.",
     hints: ["Gain positive, loss negative."]
   },
   {
@@ -549,7 +549,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "b",
-    explanation: "−25 ÷ 5 = −5; (−5)×(−2) = 10. Left to right. 2 is tempting, but it does not match what the question asks.",
+    explanation: "−25 ÷ 5 = −5; (−5)×(−2) = 10. Left to right. −2 is tempting if you drop a sign or swap place values, but the correct result is 10.",
     hints: ["Work left to right: first (−25) ÷ 5, then multiply by (−2)."]
   },
   {
@@ -562,7 +562,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Never zero" }
     ],
     answerId: "c",
-    explanation: "Examples: 5−2=3, 2−5=−3, 5−5=0. Only positive is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "Examples: 5−2=3, 2−5=−3, 5−5=0. Only positive is tempting if you drop a sign or swap place values, but the correct result is Positive, negative, or zero.",
     hints: ["Difference depends on which is larger."]
   },
   {
@@ -575,7 +575,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Distributive" }
     ],
     answerId: "d",
-    explanation: "Multiplication distributes over addition. Commutative is tempting, but it does not match what the question asks.",
+    explanation: "Multiplication distributes over addition. Commutative is tempting if you drop a sign or swap place values, but the correct result is Distributive.",
     hints: ["In a × (b + c), a multiplies each term inside the bracket. Which property spreads × over +?"]
   },
   {
@@ -601,7 +601,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "b",
-    explanation: "−2, −1, 0, 1, 2, 3 — six integers. 5 is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "−2, −1, 0, 1, 2, 3 — six integers. 5 is tempting if you include an endpoint or count the wrong way on the number line; the correct count is 6.",
     hints: ["List them: start just after −3 and stop just before 4. Do not include −3 or 4."]
   },
   {
@@ -614,7 +614,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "14" }
     ],
     answerId: "c",
-    explanation: "Multiply first: 3×(−2)=−6; then −8+(−6)=−14. −10 is tempting, but it does not match what the question asks.",
+    explanation: "Multiply first: 3×(−2)=−6; then −8+(−6)=−14. −10 is tempting if you drop a sign or swap place values, but the correct result is −14.",
     hints: ["Multiply before adding: work out 3 × (−2) first, then add it to −8."]
   },
   {
@@ -627,7 +627,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22129 and 9" }
     ],
     answerId: "d",
-    explanation: "−9 + 9 = 0. −9 and 1/9 is tempting, but it does not match what the question asks.",
+    explanation: "The correct answer is −9 and 9. −9 and 1/9 is tempting if you drop a sign or swap place values, but the correct result is −9 and 9.",
     hints: ["Additive inverses sum to zero."]
   }
 ];

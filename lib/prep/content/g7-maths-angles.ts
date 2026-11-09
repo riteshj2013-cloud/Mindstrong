@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "40" }
     ],
     answerId: "a",
-    explanation: "2x + 10 = 3x − 20 → 30 = x. 20 is tempting, but it does not match what the question asks.",
+    explanation: "2x + 10 = 3x − 20 → 30 = x. 20 is tempting if you use the wrong angle relationship; the correct measure is 30.",
     hints: ["Set vertically opposite angles equal."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "110\u00b0" }
     ],
     answerId: "d",
-    explanation: "Interior at C is 70°; exterior = 180 − 70 = 110, also = A + B. 130° is tempting, but it does not match what the question asks.",
+    explanation: "Interior at C is 70°; exterior = 180 − 70 = 110, also = A + B. 130° is tempting if you mix up angle or shape facts, but the correct choice is 110°.",
     hints: ["Exterior = sum of remote interiors."]
   },
   {
@@ -588,7 +588,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5\u00b0" }
     ],
     answerId: "a",
-    explanation: "Adjacent to 85° on a straight-line style at the intersection: 180 − 85 = 95. 85° is tempting, but it does not match what the question asks.",
+    explanation: "Adjacent to 85° on a straight-line style at the intersection: 180 − 85 = 95. 85° is tempting if you use the wrong angle relationship (for example complementary instead of supplementary); the correct measure is 95°.",
     hints: ["Adjacent angles on intersecting lines form a linear pair."]
   },
   {
@@ -614,7 +614,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "100\u00b0" }
     ],
     answerId: "c",
-    explanation: "Exterior = P + Q = 100, and P = Q, so each 50°. 40° is tempting, but it does not match what the question asks.",
+    explanation: "Exterior = P + Q = 100, and P = Q, so each 50°. 40° is tempting if you mix up angle or shape facts, but the correct choice is 50°.",
     hints: ["Exterior equals sum of remote interiors."]
   },
   {
