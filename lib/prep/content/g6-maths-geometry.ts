@@ -1,4 +1,5 @@
 import type { ChapterDef, PrepQuestion } from "../types";
+import { g6MathsGeometryAchievers } from "./g6-maths-geometry-achievers";
 
 /** Basic Geometry - original olympiad-style content (not affiliated with SOF). */
 
@@ -707,6 +708,13 @@ export const g6MathsGeometry: ChapterDef = {
       questionCount: SET_B.length,
       topic: "add-sub",
       questions: SET_B,
+    },
+    {
+      id: "set-achievers",
+      title: "Achievers",
+      questionCount: g6MathsGeometryAchievers.length,
+      topic: "geometry",
+      questions: g6MathsGeometryAchievers,
     },
   ],
   paperTopics: ["add-sub", "place-value"],
