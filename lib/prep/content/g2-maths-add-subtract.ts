@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "12 + 5 = 17: start at 12 and count on 5. 16 is tempting if you count one object too many.",
-    hints: ["Count on five from 12."]
+    hints: ["12 is 1 ten and 2 ones. When you add 5, which part of 12 changes: the tens or the ones?"]
   },
   {
     id: "g2-maths-addsub-a-q02",
@@ -251,7 +251,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "8 + 9 = 17: start at 9 and count on 8. 16 is tempting if you double-count one of the groups.",
-    hints: ["Make 10 from 8 + 2, then +7."]
+    hints: ["Make a ten: give 2 from the 9 to the 8. How many are left over from the 9?"]
   },
   {
     id: "g2-maths-addsub-b-q04",

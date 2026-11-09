@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "₹5 × 2 means two lots of ₹5: 5 + 5 = ₹10. ₹7 is tempting, but that adds 5 + 2 instead of taking two fives.",
-    hints: ["5 + 5."]
+    hints: ["× 2 means two lots of ₹5. Picture two ₹5 coins side by side."]
   },
   {
     id: "g2-maths-timemoney-a-q13",
