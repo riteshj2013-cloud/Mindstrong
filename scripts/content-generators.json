@@ -8,6 +8,7 @@
   "scripts/ingest_g3_maths_money.py": "G3 Maths ch06 Money",
   "scripts/ingest_g3_maths_time.py": "G3 Maths ch07 Time",
   "scripts/ingest_g3_maths_geometry.py": "G3 Maths ch08 Geometry",
+  "scripts/ingest_g3_maths_data_handling.py": "G3 Maths ch09 Data Handling",
   "scripts/ingest_g4_maths_ch08.py": "G4 Maths M8 Everyday Word Problems",
   "scripts/ingest_g4_maths_ch09.py": "G4 Maths M9 Logical Reasoning: patterns, analogies, classification",
   "scripts/ingest_g4_maths_ch10.py": "G4 Maths M10 Logical Reasoning: coding, ranking, alphabet",
