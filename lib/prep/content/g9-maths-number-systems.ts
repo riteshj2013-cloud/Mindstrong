@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7/3" }
     ],
     answerId: "a",
-    explanation: "√2 cannot be written as p/q in lowest terms; √9 = 3 and 0.25 = 1/4 are rational. √9 is tempting if you add or cancel the wrong numbers in the fraction.",
+    explanation: "√2 cannot be written as p/q in lowest terms; √9 = 3 and 0.25 = 1/4 are rational. √9 is tempting if you drop a sign or swap place values, but the correct result is √2.",
     hints: ["An irrational number cannot be written as p/q. Is the number under each root a perfect square?"]
   },
   {
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "whole number only" }
     ],
     answerId: "b",
-    explanation: "Rationals sit inside the reals. Not every rational is a natural number or integer. natural number is tempting if you add or cancel the wrong numbers in the fraction.",
+    explanation: "Rationals sit inside the reals. Not every rational is a natural number or integer. natural number is tempting if you drop a sign or swap place values, but the correct result is real number.",
     hints: ["Rational numbers sit inside a bigger set that also holds numbers like √2 and π. Which set contains every rational?"]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.125 (terminating)" }
     ],
     answerId: "d",
-    explanation: "1 ÷ 8 = 0.125 exactly, so the expansion terminates. 0.121212… (non-terminating repeating) is tempting, but it does not match what the question asks.",
+    explanation: "1 ÷ 8 = 0.125 exactly, so the expansion terminates. 0.121212…. 0.121212… (non-terminating repeating) is tempting if you drop a sign or swap place values, but the correct result is 0.125 (terminating).",
     hints: ["Divide 1 by 8 using long division. Does the remainder become zero, or does a block of digits repeat?"]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "a whole number" }
     ],
     answerId: "a",
-    explanation: "Non-terminating non-repeating decimals define irrational numbers. rational is tempting if you add or cancel the wrong numbers in the fraction.",
+    explanation: "Non-terminating non-repeating decimals define irrational numbers. rational is tempting if you drop a sign or swap place values, but the correct result is irrational.",
     hints: ["A decimal that never ends and never repeats cannot be written as p/q. What kind of number is that?"]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "exactly two rationals" }
     ],
     answerId: "b",
-    explanation: "Between any two distinct reals there are infinitely many rationals (and irrationals). no rational numbers is tempting if you add or cancel the wrong numbers in the fraction.",
+    explanation: "Between any two distinct reals there are infinitely many rationals (and irrationals). no rational numbers is tempting if you include an endpoint or count the wrong way on the number line; the correct count is infinitely many rationals.",
     hints: ["Find the average of 2 and 3, then the average of 2 and that number. Can you keep going?"]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8/5" }
     ],
     answerId: "c",
-    explanation: "√(16/25) = √16 / √25 = 4/5. 16/25 is tempting, but it does not match what the question asks.",
+    explanation: "√(16/25) = √16 / √25 = 4/5. 16/25 is tempting if you drop a sign or swap place values, but the correct result is 4/5.",
     hints: ["Take the square root of 16 and of 25 separately."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Every natural number is a whole number" }
     ],
     answerId: "d",
-    explanation: "Natural numbers are 1,2,3,… and wholes add 0, so every natural is whole. Every integer is irrational is tempting, but it does not match what the question asks.",
+    explanation: "Natural numbers are 1,2,3,… and wholes add 0, so every natural is whole. Every integer is irrational is tempting if you drop a sign or swap place values, but the correct result is Every natural number is a whole number.",
     hints: ["Test each statement with an example from the number sets: is 5 whole? Is 0 real? Is √2 rational?"]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "√2" }
     ],
     answerId: "a",
-    explanation: "√3 × √3 = 3, a rational number, so √3 rationalises √3. 3 is tempting if you add or cancel the wrong numbers in the fraction.",
+    explanation: "√3 × √3 = 3, a rational number, so √3 rationalises √3. 3 is tempting if you drop a sign or swap place values, but the correct result is √3.",
     hints: ["The rationalising factor is what you multiply a root by to leave no root, as in √5 × √5 = 5."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6/10" }
     ],
     answerId: "c",
-    explanation: "0.¯6 = 6/9 = 2/3, so both equivalent fraction forms are correct. 6/9 is tempting if you add or cancel the wrong numbers in the fraction.",
+    explanation: "0.¯6 = 6/9 = 2/3, so both equivalent fraction forms are correct. 6/9 is tempting if you drop a sign or swap place values, but the correct result is both 6/9 and 2/3.",
     hints: ["Let x = 0.666…, so 10x − x = 6. Then simplify the fraction you get."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1/7" }
     ],
     answerId: "b",
-    explanation: "1/5 = 0.2. A fraction in lowest terms terminates iff the denominator’s primes are only 2 and/or 5. 1/3 is tempting if you add or cancel the wrong numbers in the fraction.",
+    explanation: "1/5 = 0.2. A fraction in lowest terms terminates iff the denominator’s primes are only 2 and/or 5. 1/3 is tempting if you drop a sign or swap place values, but the correct result is 1/5.",
     hints: ["A fraction is a terminating decimal only if, in lowest terms, its denominator has no prime factors other than 2 and 5."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "c",
-    explanation: "√8 = √(4·2) = 2√2. 4√2 is tempting, but it does not match what the question asks.",
+    explanation: "√8 = √(4·2) = 2√2. 4√2 is tempting if you drop a sign or swap place values, but the correct result is 2√2.",
     hints: ["Find the largest perfect square that divides 8, then take its square root outside the root sign."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "d",
-    explanation: "xy = (√5)² − (√3)² = 5 − 3 = 2. 8 is tempting, but it does not match what the question asks.",
+    explanation: "xy = (√5)² − (√3)² = 5 − 3 = 2. 8 is tempting if you drop a sign or swap place values, but the correct result is 2.",
     hints: ["Multiply (√5 + √3)(√5 − √3) using (a + b)(a − b) = a² − b²."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3 and 4" }
     ],
     answerId: "a",
-    explanation: "1² = 1 and 2² = 4, so √2 ≈ 1.414 lies between 1 and 2. 0 and 1 is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "1² = 1 and 2² = 4, so √2 ≈ 1.414 lies between 1 and 2. 0 and 1 is tempting if you include an endpoint or count the wrong way on the number line; the correct count is 1 and 2.",
     hints: ["Square nearby whole numbers: which perfect squares lie just below and just above 2?"]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(a^m)^n = a^(m+n)" }
     ],
     answerId: "b",
-    explanation: "When multiplying same bases, add exponents: a^m * a^n = a^(m+n). a^m * a^n = a^(m*n) is tempting if you add the exponents when you should multiply, or the other way round.",
+    explanation: "When multiplying same bases, add exponents: a^m * a^n = a^(m+n). a^m * a^n = a^(m*n) is tempting if you drop a sign or swap place values, but the correct result is a^m * a^n = a^(m+n).",
     hints: ["Test each law with numbers: work out 2² × 2³ and compare it with each rule for a^m * a^n."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "−2" }
     ],
     answerId: "c",
-    explanation: "Difference of squares: 7 − 5 = 2. −2 is tempting, but it does not match what the question asks.",
+    explanation: "Difference of squares: 7 − 5 = 2. −2 is tempting if you drop a sign or swap place values, but the correct result is 2.",
     hints: ["Use (a − b)(a + b) = a² − b² with a = √7 and b = √5."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.¯27" }
     ],
     answerId: "d",
-    explanation: "0.¯27 = 27/99 is a repeating decimal, hence rational. The others are irrational. π is tempting if you add or cancel the wrong numbers in the fraction.",
+    explanation: "0.¯27 = 27/99 is a repeating decimal, hence rational. The others are irrational. π is tempting if you drop a sign or swap place values, but the correct result is 0.¯27.",
     hints: ["Repeating decimals are rational; non-repeating non-terminating are not."]
   },
   {
@@ -221,7 +221,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1/5" }
     ],
     answerId: "a",
-    explanation: "Multiply numerator and denominator by √5: √5 / 5. 5/√5 is tempting if you add or cancel the wrong numbers in the fraction.",
+    explanation: "Multiply numerator and denominator by √5: √5 / 5. 5/√5 is tempting if you drop a sign or swap place values, but the correct result is √5 / 5.",
     hints: ["Multiply top and bottom by √5."]
   },
   {
@@ -234,7 +234,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "16" }
     ],
     answerId: "b",
-    explanation: "32 = 2⁵, so x = 5. 4 is tempting, but it does not match what the question asks.",
+    explanation: "32 = 2⁵, so x = 5. 4 is tempting if you drop a sign or swap place values, but the correct result is 5.",
     hints: ["Write 32 as a power of 2."]
   },
   {
@@ -247,7 +247,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "sometimes zero" }
     ],
     answerId: "c",
-    explanation: "For non-zero rational r and irrational α, rα is irrational (else α would be rational). always rational is tempting if you add or cancel the wrong numbers in the fraction.",
+    explanation: "For non-zero rational r and irrational α, rα is irrational (else α would be rational). always rational is tempting if you drop a sign or swap place values, but the correct result is always irrational.",
     hints: ["If the product were rational, you could solve for the irrational as a ratio."]
   },
   {
@@ -260,7 +260,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.3" }
     ],
     answerId: "d",
-    explanation: "0.09 = 9/100, and √(9/100) = 3/10 = 0.3. 0.03 is tempting, but it does not match what the question asks.",
+    explanation: "0.09 = 9/100, and √(9/100) = 3/10 = 0.3. 0. 0.03 is tempting if you drop a sign or swap place values, but the correct result is 0.3.",
     hints: ["Write 0.09 as 9/100, then take the square root of the top and the bottom."]
   },
   {
@@ -273,7 +273,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "9³" }
     ],
     answerId: "a",
-    explanation: "(3²)³ = 3⁶ because the powers multiply (2 × 3 = 6), and 9³ = (3²)³ = 3⁶ too, so both 3⁶ and 9³ are equal to it. 3⁵ may look right if you add the powers (2 + 3) instead of multiplying them.",
+    explanation: "(3²)³ = 3⁶ because the powers multiply (2 × 3 = 6), and 9³ = (3²)³ = 3⁶ too, so both 3⁶ and 9³ are equal to it. 3⁵ may look right if you add the powers (2 + 3) instead of multiplying them. 3⁵ is tempting if you drop a sign or swap place values, but the correct result is both 3⁶ and 9³.",
     hints: ["Use the rule (aᵐ)ⁿ = aᵐⁿ on (3²)³. Then check whether 3² can be written as a single number."]
   },
   {
@@ -286,7 +286,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "b",
-    explanation: "√11 is irrational (hence real but not rational). −4, 22/7 and 0 are rational. −4 is tempting if you add or cancel the wrong numbers in the fraction.",
+    explanation: "√11 is irrational (hence real but not rational). −4, 22/7 and 0 are rational. −4 is tempting if you drop a sign or swap place values, but the correct result is √11.",
     hints: ["A real number that is not rational cannot be written as p/q. Which root is of a number that is not a perfect square?"]
   },
   {
@@ -299,7 +299,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5√2" }
     ],
     answerId: "c",
-    explanation: "√50=5√2, √18=3√2, √8=2√2 → 5√2 − 3√2 + 2√2 = 4√2. 3√2 is tempting, but it does not match what the question asks.",
+    explanation: "√50=5√2, √18=3√2, √8=2√2 → 5√2 − 3√2 + 2√2 = 4√2. 3√2 is tempting if you drop a sign or swap place values, but the correct result is 4√2.",
     hints: ["Simplify each radical, then combine like terms."]
   },
   {
@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2 − √3" }
     ],
     answerId: "d",
-    explanation: "Rationalise: 1/(2+√3) · (2−√3)/(2−√3) = 2−√3, since (2)²−(√3)²=1. 2 + √3 is tempting if you add or cancel the wrong numbers in the fraction.",
+    explanation: "Rationalise: 1/(2+√3) · (2−√3)/(2−√3) = 2−√3, since (2)²−(√3)²=1. 2 + √3 is tempting if you drop a sign or swap place values, but the correct result is 0.¯3.",
     hints: ["Multiply the top and bottom of 1/(2 + √3) by its conjugate, the same terms with the sign before √3 flipped."]
   }
 ];
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.¯3" }
     ],
     answerId: "a",
-    explanation: "The square root of a negative is not real; √4=2 and −√9=−3 are real. √4 is tempting if you add the exponents when you should multiply, or the other way round.",
+    explanation: "The square root of a negative is not real; √4=2 and −√9=−3 are real. √4 is tempting if you mishandle roots or rationalisation; the correct value is √(−4) interpreted as a real square root.",
     hints: ["Square roots of negatives leave the reals."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "rational" }
     ],
     answerId: "d",
-    explanation: "A repeating block means a rational number (equal to 125/999). irrational is tempting if you add or cancel the wrong numbers in the fraction.",
+    explanation: "A repeating block means a rational number (equal to 125/999). irrational is tempting if you drop a sign or swap place values, but the correct result is rational.",
     hints: ["A repeating decimal like 0.125125… can be written as p/q: compare x and 1000x. What kind of number is p/q?"]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "√7 / 8" }
     ],
     answerId: "a",
-    explanation: "√49/√64 = 7/8. 49/64 is tempting, but it does not match what the question asks.",
+    explanation: "√49/√64 = 7/8. 49/64 is tempting if you drop a sign or swap place values, but the correct result is 7/8.",
     hints: ["Take the square root of 49 and of 64 separately."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Even integers" }
     ],
     answerId: "b",
-    explanation: "Rationals (and reals) are dense; integers have gaps of size 1. Natural numbers is tempting if you add or cancel the wrong numbers in the fraction.",
+    explanation: "Rationals (and reals) are dense; integers have gaps of size 1. Natural numbers is tempting if you include an endpoint or count the wrong way on the number line; the correct count is Rational numbers.",
     hints: ["Between two members, try their average. Is the average of 1 and 2 still in the same set?"]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "√7 + √5" }
     ],
     answerId: "c",
-    explanation: "Multiply by √7+√5: numerator 3(√7+√5), denominator 7−5=2. (3/2)(√7 − √5) is tempting if you add or cancel the wrong numbers in the fraction.",
+    explanation: "Multiply by √7+√5: numerator 3(√7+√5), denominator 7−5=2. (3/2)(√7 − √5) is tempting if you drop a sign or swap place values, but the correct result is (3/2)(√7 + √5).",
     hints: ["Multiply the top and bottom of 3/(√7 − √5) by the conjugate. The bottom becomes 7 − 5."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "d",
-    explanation: "125 = 5³, so x+1 = 3 and x = 2. 1 is tempting, but it does not match what the question asks.",
+    explanation: "125 = 5³, so x+1 = 3 and x = 2. 1 is tempting if you drop a sign or swap place values, but the correct result is 2.",
     hints: ["Write both sides with base 5."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "√3" }
     ],
     answerId: "a",
-    explanation: "√12=2√3 and √27=3√3, so the sum is 5√3. √39 is tempting, but it does not match what the question asks.",
+    explanation: "√12=2√3 and √27=3√3, so the sum is 5√3. √39 is tempting if you drop a sign or swap place values, but the correct result is 5√3.",
     hints: ["Find the largest perfect square inside 12 and inside 27, take its root outside, then add the like surds."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5/6" }
     ],
     answerId: "b",
-    explanation: "80 = 2⁴·5, so after simplifying, only primes 2 and 5 remain → terminating. 7/12 is tempting if you add or cancel the wrong numbers in the fraction.",
+    explanation: "80 = 2⁴·5, so after simplifying, only primes 2 and 5 remain → terminating. 7/12 is tempting if you drop a sign or swap place values, but the correct result is 13/80.",
     hints: ["Factor each denominator into primes. A terminating decimal needs only 2s and 5s in the denominator."]
   },
   {
@@ -432,7 +432,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "an integer" }
     ],
     answerId: "c",
-    explanation: "π is irrational and 22/7 is rational; their difference is irrational (and not zero). rational is tempting if you add or cancel the wrong numbers in the fraction.",
+    explanation: "π is irrational and 22/7 is rational; their difference is irrational (and not zero). rational is tempting if you drop a sign or swap place values, but the correct result is irrational.",
     hints: ["π never ends or repeats, but 22/7 is a fraction. Can subtracting a fraction make π's decimal stop or repeat?"]
   },
   {
@@ -445,7 +445,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "d",
-    explanation: "(√2)⁶ = (2^{1/2})⁶ = 2³ = 8. 4 is tempting, but it does not match what the question asks.",
+    explanation: "(√2)⁶ = (2^{1/2})⁶ = 2³ = 8. 4 is tempting if you drop a sign or swap place values, but the correct result is 8.",
     hints: ["Convert √2 to a power of 2, then multiply exponents."]
   },
   {
@@ -458,7 +458,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "repeating" }
     ],
     answerId: "a",
-    explanation: "The gaps grow without a repeating block, so the decimal is non-repeating → irrational. rational is tempting if you add or cancel the wrong numbers in the fraction.",
+    explanation: "The gaps grow without a repeating block, so the decimal is non-repeating → irrational. rational is tempting if you include an endpoint or count the wrong way on the number line; the correct count is irrational.",
     hints: ["In 0.101001000100001… the run of zeros keeps growing. Is there a fixed block of digits that repeats?"]
   },
   {
@@ -471,7 +471,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "√3" }
     ],
     answerId: "b",
-    explanation: "(2+√3)(2−√3) = 4 − 3 = 1. 4 − 2√3 is tempting, but it does not match what the question asks.",
+    explanation: "(2+√3)(2−√3) = 4 − 3 = 1. 4 − 2√3 is tempting if you drop a sign or swap place values, but the correct result is 1.",
     hints: ["Use (a + b)(a − b) = a² − b² with a = 2 and b = √3."]
   },
   {
@@ -484,7 +484,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "(√a)² = −a" }
     ],
     answerId: "b",
-    explanation: "The product rule √(ab)=√a√b holds for non-negative a,b; sums do not split that way. √(a+b) = √a + √b for all positive a,b is tempting if you add the exponents when you should multiply, or the other way round.",
+    explanation: "The product rule √(ab)=√a√b holds for non-negative a,b; sums do not split that way. √(a+b) = √a + √b for all positive a,b is tempting if you drop a sign or swap place values, but the correct result is √(a·b) = √a · √b for non-negative a,b.",
     hints: ["Only the product (and quotient) rules hold in general for square roots."]
   },
   {
@@ -497,7 +497,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1 and 2" }
     ],
     answerId: "c",
-    explanation: "3²=9 and 4²=16, so √10 ≈ 3.16 lies between 3 and 4. 2 and 3 is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "3²=9 and 4²=16, so √10 ≈ 3.16 lies between 3 and 4. 2 and 3 is tempting if you drop a sign or swap place values, but the correct result is 3 and 4.",
     hints: ["Which perfect squares lie just below and just above 10? Take their square roots."]
   },
   {
@@ -523,7 +523,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1/(√5 − 2)" }
     ],
     answerId: "a",
-    explanation: "Adding 2 − √5 cancels: (√5 − 2) + (2 − √5) = 0. √5 + 2 is tempting, but it does not match what the question asks.",
+    explanation: "Adding 2 − √5 cancels: (√5 − 2) + (2 − √5) = 0. √5 + 2 is tempting if you drop a sign or swap place values, but the correct result is 2 − √5.",
     hints: ["The additive inverse is −(√5 − 2). Multiply each term inside the bracket by −1."]
   },
   {
@@ -536,7 +536,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "√2" }
     ],
     answerId: "c",
-    explanation: "√18/√8 = √(18/8) = √(9/4) = 3/2. 3/2 is tempting, but it does not match what the question asks.",
+    explanation: "√18/√8 = √(18/8) = √(9/4) = 3/2. 3/2 is tempting if you drop a sign or swap place values, but the correct result is both 3/2 and √(9/4).",
     hints: ["Combine under one root or simplify each surd first."]
   },
   {
@@ -549,7 +549,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "b",
-    explanation: "Whole numbers are 0,1,2,…; −3 is an integer but not whole. 0 is tempting if you drop a sign or count the wrong way on the number line.",
+    explanation: "Whole numbers are 0,1,2,…; −3 is an integer but not whole. 0 is tempting if you drop a sign or swap place values, but the correct result is −3.",
     hints: ["Wholes start at 0; integers include negatives."]
   },
   {
@@ -562,7 +562,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "c",
-    explanation: "Square both sides: x − 1 = 9 → x = 10. 9 is tempting, but it does not match what the question asks.",
+    explanation: "Square both sides: x − 1 = 9 → x = 10. 9 is tempting if you drop a sign or swap place values, but the correct result is 10.",
     hints: ["Square both sides of √(x − 1) = 3, then add 1."]
   },
   {
@@ -575,7 +575,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "50" }
     ],
     answerId: "d",
-    explanation: "(5√2)² = 25 · 2 = 50. 10 is tempting, but it does not match what the question asks.",
+    explanation: "(5√2)² = 25 · 2 = 50. 10 is tempting if you drop a sign or swap place values, but the correct result is 50.",
     hints: ["Square each part of 5√2 separately: 5² times (√2)²."]
   },
   {
@@ -601,7 +601,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "64" }
     ],
     answerId: "b",
-    explanation: "8^{2/3} = (8^{1/3})² = 2² = 4. 2 is tempting, but it does not match what the question asks.",
+    explanation: "8^{2/3} = (8^{1/3})² = 2² = 4. 2 is tempting if you drop a sign or swap place values, but the correct result is 4.",
     hints: ["Cube root of 8 is 2, then square."]
   },
   {
@@ -614,7 +614,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "12√3" }
     ],
     answerId: "c",
-    explanation: "√72 = √(36·2) = 6√2. 8√2 is tempting, but it does not match what the question asks.",
+    explanation: "√72 = √(36·2) = 6√2. 8√2 is tempting if you drop a sign or swap place values, but the correct result is 6√2.",
     hints: ["Find the largest perfect square that divides 72, then take its square root outside the root sign."]
   },
   {
@@ -627,7 +627,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "a" }
     ],
     answerId: "d",
-    explanation: "√a · √a = a for a ≥ 0. √a is tempting, but it does not match what the question asks.",
+    explanation: "√a · √a = a for a ≥ 0. √a is tempting if you drop a sign or swap place values, but the correct result is a.",
     hints: ["Squaring undoes a square root. Try a = 9: what is √9 × √9?"]
   }
 ];
