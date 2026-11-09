@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "In a = bq + r the remainder r is at least 0 and less than b: if r were b or more, one more b could be taken out. '0 < r ≤ b' is tempting, but r is 0 when b divides a, and r can never equal b.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Apply Euclid: remainder is non-negative and strictly less than the divisor."]
   },
   {
     id: "g10-maths-real-a-q02",
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "225 = 135 × 1 + 90; 135 = 90 × 1 + 45; 90 = 45 × 2 + 0, so HCF = 45. 15 is tempting because it divides both numbers, but it is only a common factor; 45 also divides both and is larger.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Divide 225 by 135 and note the remainder. Then divide 135 by that remainder; repeat until it is zero."]
   },
   {
     id: "g10-maths-real-a-q03",
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "HCF × LCM = a × b, so LCM = 2250 ÷ 15 = 150 (for example, a = 30 and b = 75). 120 is tempting, but 15 × 120 = 1800, not 2250, and 120 is not a multiple of 75.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Use HCF × LCM = a × b."]
   },
   {
     id: "g10-maths-real-a-q04",
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "8 = 2³ has only the prime 2, so 7/8 terminates: 7/8 = 875/1000 = 0.875. '0.875 with bar' is tempting, but a fraction whose denominator has only 2s and 5s never repeats; 7.8 just writes the digits side by side.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["A rational has a terminating decimal iff denominator (in lowest terms) is of form 2ᵐ5ⁿ."]
   },
   {
     id: "g10-maths-real-a-q05",
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "√2 cannot be written as p/q, so it is irrational. √9 is tempting because of the root sign, but √9 = 3 is rational, and 22/7 is a fraction, so it is rational too (it is only close to π).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Perfect-square roots are rational; non-perfect-square roots are irrational."]
   },
   {
     id: "g10-maths-real-a-q06",
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "√(4 × 9) = √36 = 6, or √4 × √9 = 2 × 3 = 6. 36 is tempting, but that is 4 × 9 before taking the square root; 5 comes from adding √4 + √9 instead of multiplying.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Use √(ab) = √a × √b for non-negative a, b."]
   },
   {
     id: "g10-maths-real-a-q07",
@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Like surds add like like terms: 2√3 + 3√3 = (2 + 3)√3 = 5√3. 5√6 is tempting, but the surd part stays √3 (√3 + √3 = 2√3, not √6); 6√3 multiplies 2 × 3 instead of adding.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["2√3 and 3√3 are like terms, just as 2a + 3a are. Add the numbers in front and keep √3."]
   },
   {
     id: "g10-maths-real-a-q08",
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "140 = 2 × 70 = 2 × 2 × 35 = 2² × 5 × 7, with every factor prime. 2² × 35 is tempting because it equals 140, but 35 = 5 × 7 is not prime, so the factorisation is not finished. 2³ × 5 × 7 = 280.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Factor completely into primes."]
   },
   {
     id: "g10-maths-real-a-q11",
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "The LCM takes the highest power of each prime: a³ (from q) and b² (from p), giving a³b². ab is tempting, but taking the lowest powers gives the HCF, not the LCM.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["LCM uses the highest power of each prime."]
   },
   {
     id: "g10-maths-real-a-q12",
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "404 = 96 × 4 + 20; 96 = 20 × 4 + 16; 20 = 16 × 1 + 4; 16 = 4 × 4 + 0, so HCF = 4. 16 is tempting because it appears as a remainder and divides 96, but 404 ÷ 16 = 25.25, so it does not divide 404.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Divide 404 by 96 and find the remainder. Then divide 96 by that remainder, and keep going."]
   },
   {
     id: "g10-maths-real-a-q13",
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "√8 ÷ √2 = √(8 ÷ 2) = √4 = 2. 2√2 is tempting, but that is √8 on its own before dividing by √2; √6 wrongly uses 8 − 2 under the root.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Put both under one root: √(8 divided by the other number). Which perfect square is that?"]
   },
   {
     id: "g10-maths-real-a-q14",
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "√5 ≈ 2.236 lies between 2 and 3, and 5 is not a perfect square, so √5 is irrational. 2.5 is tempting because it lies between 2 and 3, but 2.5 = 5/2 is rational; √4 = 2 is rational and not between them.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["2 = √4 and 3 = √9. Pick the option that is the root of a non-perfect square between 4 and 9."]
   },
   {
     id: "g10-maths-real-a-q15",
@@ -196,7 +196,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Let x = 0.123123…; then 1000x = 123.123…, so 1000x − x = 123 and x = 123/999. 123/1000 is tempting, but that is 0.123 exactly, which stops instead of repeating.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Let x be the repeating decimal. Multiply by 1000 so the 123 blocks line up, subtract x, and solve as a fraction."]
   },
   {
     id: "g10-maths-real-a-q16",
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "If r + x were rational for rational r and irrational x, then x = (r + x) \u2212 r would be rational, which is impossible. So the sum is irrational, e.g. 2 + \u221a3. \u201cRational\u201d is tempting by thinking of \u221a2 + (\u2212\u221a2) = 0, but \u2212\u221a2 is irrational, not rational.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Suppose the sum were a rational number t. Then the other number would be t minus a rational. Can that happen?"]
   },
   {
     id: "g10-maths-real-a-q17",
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "√50 = √(25 × 2) = √25 × √2 = 5√2. 25√2 is tempting, but 25 comes out of the root as √25 = 5; 2√5 is √20.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Find the largest perfect square that divides 50. Take its root outside the √ and leave the rest inside."]
   },
   {
     id: "g10-maths-real-a-q18",
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "If n is a perfect square, √n is an integer, such as √9 = 3; otherwise √n is irrational, such as √2. 'Always irrational' is tempting, but it fails for perfect squares like 4, 9 and 16.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Try n = 4 and n = 5. What kind of number is √4? What about √5?"]
   },
   {
     id: "g10-maths-real-a-q19",
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "12 = 2² × 3, 15 = 3 × 5 and 21 = 3 × 7, so LCM = 2² × 3 × 5 × 7 = 420. 210 is tempting, but it uses only one 2, and 210 is not divisible by 12.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Write 12, 15 and 21 as products of primes, then multiply the highest power of each prime."]
   },
   {
     id: "g10-maths-real-a-q20",
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "1/6 = 0.1666…, which repeats because 6 = 2 × 3 has the prime 3. 3/8 is tempting, but 8 = 2³ has only 2s, so 3/8 = 0.375 terminates; 1/5 and 7/25 also terminate.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["A decimal terminates only if the simplest denominator has just primes 2 and 5; otherwise it is repeating. Factor each denominator."]
   },
   {
     id: "g10-maths-real-a-q21",
@@ -274,7 +274,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "√3 × √12 = √(3 × 12) = √36 = 6. √15 is tempting, but it adds 3 + 12 instead of multiplying them; √36 / 2 is only 3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Multiply under one root: √(3 × 12). Is that number a perfect square?"]
   },
   {
     id: "g10-maths-real-a-q22",
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Co-prime numbers share no common factor except 1, so their HCF is 1. 'Their product' is tempting, but that is their LCM: for 4 and 9, HCF = 1 while LCM = 36.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Co-prime numbers such as 8 and 15 share no prime factor. List their factors and find the highest shared factor."]
   },
   {
     id: "g10-maths-real-a-q23",
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "√8 = √(4 × 2) = 2√2 ≈ 2 × 1.414 = 2.828. 4.242 is tempting, but that is 3√2 = √18; 1.414 is √2 itself.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["√8 = √(4×2) = 2√2."]
   },
   {
     id: "g10-maths-real-a-q24",
@@ -313,7 +313,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "For two positive integers, HCF × LCM = a × b. For 4 and 6, HCF = 2 and LCM = 12, and 2 × 12 = 24 = 4 × 6. 'a + b' is tempting, but for 4 and 6 it gives 10, not 24.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Remember: product of numbers = HCF × LCM."]
   }
 ];
 
@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "867 = 255 × 3 + 102; 255 = 102 × 2 + 51; 102 = 51 × 2 + 0, so HCF = 51. 17 is tempting because it divides both numbers, but 51 = 3 × 17 also divides both and is larger.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Divide 867 by 255 and keep the remainder. Then divide 255 by that remainder.", "867 = 3 × 255 + 102. Next divide 255 by 102, and keep going until the remainder is 0."]
   },
   {
     id: "g10-maths-real-b-q02",
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The least number divisible by all three is their LCM: 12 = 2² × 3, 16 = 2⁴ and 20 = 2² × 5, so LCM = 2⁴ × 3 × 5 = 240. 120 is tempting, but 120 ÷ 16 = 7.5, so it is not divisible by 16.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Least common multiple of the three."]
   },
   {
     id: "g10-maths-real-b-q03",
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "18/50 = 9/25, so √(18/50) = √9 ÷ √25 = 3/5. 9/25 is tempting, but that is the fraction before taking the square root; 3√2 / 5 forgets that the 2 in 18 cancels with 50.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Simplify 18/50 first by dividing top and bottom by 2. Then take the root of the top and of the bottom."]
   },
   {
     id: "g10-maths-real-b-q04",
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Back-substitution gives 13 = 2 × 65 + (−1) × 117 = 130 − 117, so x = 2. −1 is tempting, but −1 is the value of y, the multiplier of 117.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Work backwards from Euclid steps to write HCF as 65x+117y."]
   },
   {
     id: "g10-maths-real-b-q06",
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Let x = 0.666…; then 10x − x = 6.666… − 0.666… = 6, so 9x = 6 and x = 6/9 = 2/3. 6/10 is tempting, but that is 0.6 exactly, which stops instead of repeating.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Let x = 0.666…. Then 10x = 6.666…. Subtract, solve for x, then simplify."]
   },
   {
     id: "g10-maths-real-b-q07",
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "√75 = √(25 × 3) = 5√3 and √12 = √(4 × 3) = 2√3, so √75 − √12 = 3√3. √63 is tempting, but you cannot subtract under the roots: √75 − √12 is not √(75 − 12). 7√3 adds instead of subtracting.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Write 75 as 25 × a number and 12 as 4 × the same number. Simplify both roots, then subtract."]
   },
   {
     id: "g10-maths-real-b-q08",
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "The number is n = 61q + 37. Adding 24 gives 61q + 61 = 61(q + 1), so the remainder is 0. 61 is tempting, but a remainder on dividing by 61 must be less than 61; 37 ignores the added 24.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Adding enough to reach the next multiple of the divisor clears the remainder."]
   },
   {
     id: "g10-maths-real-b-q09",
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "A prime p is never a perfect square, since its only factors are 1 and p, so √p is irrational. 'p is even' is tempting because 2 is prime, but 3, 5 and 7 are odd primes.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Primes greater than 1 aren't perfect squares."]
   },
   {
     id: "g10-maths-real-b-q10",
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "(√5 − √2)(√5 + √2) = (√5)² − (√2)² = 5 − 2 = 3. 7 is tempting, but it adds the squares instead of subtracting them; √3 keeps a root, but squaring removes the roots.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Use (a−b)(a+b) = a² − b²."]
   },
   {
     id: "g10-maths-real-b-q11",
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "n = 2³ × 3² × 5 = 360. Each trailing zero needs one 2 and one 5, and n has only one 5, so it has one trailing zero. 3 is tempting from the three 2s, but each zero also needs a 5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Count min(powers of 2, powers of 5) in the factorisation."]
   },
   {
     id: "g10-maths-real-b-q12",
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Multiply top and bottom by √7 + √2: the bottom becomes 7 − 2 = 5, so the answer is 3(√7 + √2)/5. (√7 + √2)/5 is tempting, but it loses the 3 in the numerator; 3(√7 + √2)/9 uses 7 + 2 instead of 7 − 2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Multiply top and bottom by √7 + √2. The bottom becomes 7 − 2."]
   },
   {
     id: "g10-maths-real-b-q13",
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "HCF × LCM = a × b, so 108b = 18 × 756 = 13,608 and b = 126. Check: HCF(108, 126) = 18. 162 is tempting, but HCF(108, 162) = 54, not 18.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Use a×b = HCF×LCM and solve for b."]
   },
   {
     id: "g10-maths-real-b-q15",
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "243 = 3⁵. A perfect cube needs every power to be a multiple of 3, so one more 3 makes 3⁶ = 729 = 9³. 9 is tempting, but 243 × 9 = 3⁷, which is not a cube.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Factorise 243 into primes and group equal factors in triples. What is missing to complete the last group?"]
   },
   {
     id: "g10-maths-real-b-q17",
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "3125 = 5⁵ has only the prime 5, so 13/3125 terminates (it is 0.00416). 11/14 is tempting because 14 contains a 2, but its other factor 7 makes it repeat; 17/6 and 19/3 have a 3 in the denominator.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["An expansion terminates only if the denominator's primes are 2 and 5 alone. Factor 3125, 6, 3 and 14."]
   },
   {
     id: "g10-maths-real-b-q18",
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "5/√2 = 5√2/2 ≈ 5 × 1.41 ÷ 2 ≈ 3.53, so 3.55 is the closest option. 7.05 is tempting, but that is 5 × 1.41: you must divide by √2, not multiply.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Rationalise or compute 5×1.41/2."]
   },
   {
     id: "g10-maths-real-b-q19",
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "√(p²) = p, because p is positive and p × p = p². √p is tempting, but √p × √p = p, not p².",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["For a positive number, the square root of its square gives back the number itself. Is a prime positive?"]
   },
   {
     id: "g10-maths-real-b-q20",
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "With ratio 3 : 5 and HCF 8, the numbers are 3 × 8 = 24 and 5 × 8 = 40, so LCM = 8 × 3 × 5 = 120. 40 is tempting, but it is only the larger number, and 40 is not a multiple of 24.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Write the two numbers as 3 × HCF and 5 × HCF. What are they?", "Now find the LCM of those two numbers, for example by listing multiples of the larger one."]
   },
   {
     id: "g10-maths-real-b-q21",
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "√(9 + 16) = √25 = 5. 7 is tempting, but √9 + √16 = 3 + 4 adds the roots; the square root of a sum is not the sum of the square roots.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Add 9 + 16 first. Then find the square root of that total."]
   },
   {
     id: "g10-maths-real-b-q22",
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "The fundamental theorem of arithmetic says every composite number can be written as a product of primes in exactly one way, apart from order: for example, 60 = 2² × 3 × 5. 'Is even' is tempting, but 9 and 15 are odd composite numbers.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Write 12 as 2 × 2 × 3 and 30 as 2 × 3 × 5. Can a composite number split into primes another way?"]
   },
   {
     id: "g10-maths-real-b-q23",
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "√(x/y) = 4/5 gives x/y = 16/25, so x = 16k and y = 25k. Then 41k = 82, so k = 2, x = 32, y = 50 and x − y = −18. 18 is tempting, but y is larger than x, so x − y is negative.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Squaring gives x/y = 16/25. Split 82 in the ratio 16 : 25, then subtract y from x."]
   },
   {
     id: "g10-maths-real-b-q24",
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Multiply by (√2 + 1)/(√2 + 1): 1/(√2 − 1) = (√2 + 1)/(2 − 1) = √2 + 1 ≈ 2.414. 0.414 is tempting, but that is √2 − 1, the denominator itself, not its reciprocal.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Multiply top and bottom by √2 + 1; the bottom becomes 2 − 1. Then use √2 ≈ 1.414."]
   }
 ];
 
