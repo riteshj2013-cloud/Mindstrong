@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Angles 120°, 30°, 30°" }
     ],
     answerId: "b",
-    explanation: "All three angles of an equilateral triangle are 60° — all acute. Angles 90°, 45°, 45° is tempting if you use radius where diameter is needed.",
+    explanation: "All three angles of an equilateral triangle are 60° — all acute. Angles 90°, 45°, 45° is tempting if you count 90° as acute.",
     hints: ["An acute-angled triangle has every angle less than 90°. Check all three angles in each option."]
   },
   {

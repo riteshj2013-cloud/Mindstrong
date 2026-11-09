@@ -175,7 +175,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-maths-frac-a-q14",
-    prompt: "Simplify 18/24.",
+    prompt: "Write 18/24 in its simplest form.",
     options: [
       { id: "a", text: "9/12" },
       { id: "b", text: "3/4" },
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4.25 km" }
     ],
     answerId: "d",
-    explanation: "2.40 + 1.85 = 4.25 km. 3.25. 3.25 km is tempting if you compare numerators alone without a common denominator; matching bottoms first gives 4.25 km.",
+    explanation: "2.40 + 1.85 = 4.25 km. 3.25 km is tempting if you forget to carry the 1 from 4 + 8 tenths.",
     hints: ["Write 2.4 km as 2.40 km, line up the decimal points, then add Ravi's 1.85 km."]
   },
   {
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.07 = 7/10" }
     ],
     answerId: "b",
-    explanation: "7/10 = 0.7 exactly. 0.7. 0.7 > 7/10 is tempting if you compare numerators alone without a common denominator; matching bottoms first gives 0.7 = 7/10.",
+    explanation: "7/10 = 0.7 exactly. 0.7 > 7/10 is tempting if you think a decimal looks smaller than a fraction with the same digits; they are equal.",
     hints: ["Change 7/10 into a decimal by dividing 7 by 10. Compare it with 0.7."]
   },
   {

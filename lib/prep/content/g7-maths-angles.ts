@@ -313,8 +313,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "40\u00b0 and 50\u00b0" }
     ],
     answerId: "d",
-    explanation: "40 + 50 = 90. 40° and 140° is tempting if you mix corresponding with alternate angles on the parallel lines; the matching relationship gives 40 when you re-check the pair.",
-    hints: ["Complementary means sum 90°."]
+    explanation: "40 + 50 = 90, so they are complementary. 40° and 140° is tempting if you think of supplementary pairs: 40° and 140° adds to 180° (supplementary), not 90°.",
+    hints: ["Complementary angles add up to 90°. Add each pair."]
   }
 ];
 

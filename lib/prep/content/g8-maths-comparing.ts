@@ -313,7 +313,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "35% profit" }
     ],
     answerId: "a",
-    explanation: "The SPs are ₹4,800 and ₹3,400, which total ₹8,200 against a CP of ₹8,000, so the profit is ₹200 = 2.5%. 2.5%. 2.5%. 2.5% loss is tempting if you treat the percentage as a fraction out of 10 instead of 100; out of 100 gives 25%.",
+    explanation: "The SPs are ₹4,800 and ₹3,400, which total ₹8,200 against a CP of ₹8,000, so the profit is ₹200 = 2.5%. 5% profit is tempting if you just do 20% − 15%, but the profit is ₹800 − ₹600 = ₹200 on a total cost of ₹8,000, which is 2.5%.",
     hints: ["Find each selling price: ₹4,000 plus 20%, and ₹4,000 minus 15%. Compare their total with ₹8,000."]
   }
 ];
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.375%" }
     ],
     answerId: "c",
-    explanation: "Multiplying by 100 gives 0.375 × 100 = 37.5%. 3. 3.75% is tempting if you rearrange the digits or multiply by 10 instead of by 100; multiplying by 100 gives 37.5%.",
+    explanation: "Multiplying by 100 gives 0.375 × 100 = 37.5%. 3.75% is tempting if you rearrange the digits or multiply by 10 instead of by 100; multiplying by 100 gives 37.5%.",
     hints: ["Multiply 0.375 by 100: move the decimal point two places to the right."]
   },
   {
