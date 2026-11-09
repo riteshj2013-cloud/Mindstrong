@@ -343,7 +343,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-expression-b-q02",
-    prompt: "Kunal's mother says, \"Mehul, this is my friend, Dr. Anita.\" What should Mehul say?",
+    prompt: "Mehul's mother says, \"Mehul, this is my friend, Dr. Anita.\" What should Mehul say?",
     options: [
       { id: "a", text: "Bye, Dr. Anita!" },
       { id: "b", text: "Who called you here?" },

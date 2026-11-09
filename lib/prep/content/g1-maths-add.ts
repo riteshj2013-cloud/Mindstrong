@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "a",
-    explanation: "2 + 3 = 5: start at 2 and count on 3. 4 is tempting if you stop one count too soon.",
+    explanation: "2 + 3 = 5: start at 2 and count on 3. 4 is tempting if you count one object too few.",
     hints: ["Count on from 2.", "Start at 2 and say three more numbers."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "c",
-    explanation: "4 + 2 = 6: start at 4 and count on 2. 5 is tempting if you stop one count too soon.",
+    explanation: "4 + 2 = 6: start at 4 and count on 2. 5 is tempting if you add when the question asks you to take away.",
     hints: ["Count on 2 from 4.", "Start at 4 and say two more numbers."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "9" }
     ],
     answerId: "a",
-    explanation: "3 + 3 = 6: start at 3 and count on 3. 5 is tempting if you stop one count too soon.",
+    explanation: "3 + 3 = 6: start at 3 and count on 3. 5 is tempting if you take away when the question asks you to add.",
     hints: ["3 + 3 is a double.", "Hold up 3 fingers on each hand and count them all."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "c",
-    explanation: "Riya had 2 sweets and got 4 more, so 2 + 4 = 6 sweets. 5 is tempting if you stop one count too soon.",
+    explanation: "Riya had 2 sweets and got 4 more, so 2 + 4 = 6 sweets. 5 is tempting if you start the count from the wrong end of the row.",
     hints: ["Riya has 2 sweets and gets 4 more.", "Start at 4 and count on 2 more."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7" }
     ],
     answerId: "a",
-    explanation: "7 + 2 = 9: start at 7 and count on 2. 8 is tempting if you stop one count too soon.",
+    explanation: "7 + 2 = 9: start at 7 and count on 2. 8 is tempting if you double-count one of the groups.",
     hints: ["Count on 2 from 7.", "Start at 7 and say two more numbers."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "9" }
     ],
     answerId: "b",
-    explanation: "4 + 4 = 8: start at 4 and count on 4. 7 is tempting if you stop one count too soon.",
+    explanation: "4 + 4 = 8: start at 4 and count on 4. 7 is tempting if you count one object too many.",
     hints: ["4 + 4 is a double.", "Hold up 4 fingers on each hand and count them all."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6" }
     ],
     answerId: "a",
-    explanation: "5 + 3 = 8: start at 5 and count on 3. 7 is tempting if you stop one count too soon.",
+    explanation: "5 + 3 = 8: start at 5 and count on 3. 7 is tempting if you count one object too few.",
     hints: ["Count on 3 from 5.", "Start at 5 and say three more numbers."]
   },
   {
@@ -224,7 +224,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "a",
-    explanation: "3 + 4 = 7: start at 4 and count on 3. 6 is tempting if you stop one count too soon.",
+    explanation: "3 + 4 = 7: start at 4 and count on 3. 6 is tempting if you add when the question asks you to take away.",
     hints: ["Count on from 4, the bigger number.", "Start at 4 and say three more numbers."]
   },
   {
@@ -237,7 +237,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "b",
-    explanation: "5 + 5 = 10: start at 5 and count on 5. 9 is tempting if you stop one count too soon.",
+    explanation: "5 + 5 = 10: start at 5 and count on 5. 9 is tempting if you take away when the question asks you to add.",
     hints: ["5 + 5 is a double.", "Hold up all fingers on both hands. 5 on each. Count them."]
   },
   {
@@ -250,7 +250,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "c",
-    explanation: "2 + 5 = 7: start at 5 and count on 2. 6 is tempting if you stop one count too soon.",
+    explanation: "2 + 5 = 7: start at 5 and count on 2. 6 is tempting if you start the count from the wrong end of the row.",
     hints: ["Start at 5, the bigger number, and add 2.", "Say 5, then count on 2 more."]
   },
   {
@@ -289,7 +289,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "7" }
     ],
     answerId: "b",
-    explanation: "6 + 3 = 9: start at 6 and count on 3. 8 is tempting if you stop one count too soon.",
+    explanation: "6 + 3 = 9: start at 6 and count on 3. 8 is tempting if you double-count one of the groups.",
     hints: ["Count on 3 from 6.", "Start at 6 and say three more numbers."]
   },
   {
@@ -302,7 +302,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "c",
-    explanation: "Neha had 4 crayons and found 3 more, so 4 + 3 = 7 crayons. 6 is tempting if you stop one count too soon.",
+    explanation: "Neha had 4 crayons and found 3 more, so 4 + 3 = 7 crayons. 6 is tempting if you count one object too many.",
     hints: ["Neha has 4 crayons and finds 3 more.", "Start at 4 and count on 3 more."]
   },
   {
@@ -315,7 +315,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "d",
-    explanation: "7 + 3 = 10: start at 7 and count on 3. 9 is tempting if you stop one count too soon.",
+    explanation: "7 + 3 = 10: start at 7 and count on 3. 9 is tempting if you count one object too few.",
     hints: ["Count on 3 from 7.", "Start at 7 and say three more numbers."]
   },
   {
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "7" }
     ],
     answerId: "a",
-    explanation: "2 + 7 = 9: start at 7 and count on 2. 8 is tempting if you stop one count too soon.",
+    explanation: "2 + 7 = 9: start at 7 and count on 2. 8 is tempting if you add when the question asks you to take away.",
     hints: ["Start at 7, the bigger number.", "Say 7, then count on 2 more."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "6" }
     ],
     answerId: "a",
-    explanation: "3 + 5 = 8: start at 5 and count on 3. 7 is tempting if you stop one count too soon.",
+    explanation: "3 + 5 = 8: start at 5 and count on 3. 7 is tempting if you take away when the question asks you to add.",
     hints: ["Start at 5, the bigger number, and add 3.", "Say 5, then count on 3 more."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "c",
-    explanation: "6 + 4 = 10: start at 6 and count on 4. 9 is tempting if you stop one count too soon.",
+    explanation: "6 + 4 = 10: start at 6 and count on 4. 9 is tempting if you start the count from the wrong end of the row.",
     hints: ["Count on 4 from 6.", "Start at 6 and say four more numbers."]
   },
   {

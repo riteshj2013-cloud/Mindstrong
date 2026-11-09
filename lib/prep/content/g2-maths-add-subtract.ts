@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "18" }
     ],
     answerId: "a",
-    explanation: "12 + 5 = 17: start at 12 and count on 5. 16 is tempting if you stop one count too soon.",
+    explanation: "12 + 5 = 17: start at 12 and count on 5. 16 is tempting if you count one object too many.",
     hints: ["Count on five from 12."]
   },
   {
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "b",
-    explanation: "20 − 4 = 16: start at 20 and count back 4. 24 is tempting, but that adds 4 instead of taking it away.",
+    explanation: "20 − 4 = 16: start at 20 and count back 4. 24 is tempting if you count one object too many.",
     hints: ["Count back 4 from 20, one step at a time."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "d",
-    explanation: "18 − 8 = 10: start at 18 and count back 8. 26 is tempting, but that adds 8 instead of taking it away.",
+    explanation: "18 − 8 = 10: start at 18 and count back 8. 26 is tempting if you count one object too few.",
     hints: ["Taking 8 away from 18 removes all the ones. What is left in the tens?"]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "13" }
     ],
     answerId: "a",
-    explanation: "9 + 6 = 15: start at 9 and count on 6. 14 is tempting if you stop one count too soon.",
+    explanation: "9 + 6 = 15: start at 9 and count on 6. 14 is tempting if you count one object too few.",
     hints: ["Count on from 9."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "19" }
     ],
     answerId: "b",
-    explanation: "14 − 5 = 9: start at 14 and count back 5. 19 is tempting, but that adds 5 instead of taking it away.",
+    explanation: "14 − 5 = 9: start at 14 and count back 5. 19 is tempting if you add when the question asks you to take away.",
     hints: ["Take 4 from 14 to reach 10, then take 1 more."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "d",
-    explanation: "7 + 8 = 15: start at 8 and count on 7. 14 is tempting if you stop one count too soon.",
+    explanation: "7 + 8 = 15: start at 8 and count on 7. 14 is tempting if you add when the question asks you to take away.",
     hints: ["Use doubles: 7 + 7 = 14, so 7 + 8 is one more."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "25" }
     ],
     answerId: "a",
-    explanation: "30 − 10 = 20: 3 tens take away 1 ten leaves 2 tens. 40 is tempting, but that adds 10 instead of taking it away.",
+    explanation: "30 − 10 = 20: 3 tens take away 1 ten leaves 2 tens. 40 is tempting if you take away when the question asks you to add.",
     hints: ["30 is 3 tens. Take away 1 ten. How many tens are left?"]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "d",
-    explanation: "25 − 5 = 20: start at 25 and count back 5. 30 is tempting, but that adds 5 instead of taking it away.",
+    explanation: "25 − 5 = 20: start at 25 and count back 5. 30 is tempting if you start the count from the wrong end of the row.",
     hints: ["Taking 5 from 25 removes the 5 ones. How many tens are left?"]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "11" }
     ],
     answerId: "b",
-    explanation: "19 − 9 = 10: start at 19 and count back 9. 28 is tempting, but that adds 9 instead of taking it away.",
+    explanation: "19 − 9 = 10: start at 19 and count back 9. 28 is tempting if you double-count one of the groups.",
     hints: ["Taking 9 from 19 removes all the ones. What number is left?"]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "17" }
     ],
     answerId: "c",
-    explanation: "13 + 6 = 19: start at 13 and count on 6. 18 is tempting if you stop one count too soon.",
+    explanation: "13 + 6 = 19: start at 13 and count on 6. 18 is tempting if you take away when the question asks you to add.",
     hints: ["Count on from 13."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10 \u2212 3 = 7" }
     ],
     answerId: "d",
-    explanation: "Count back 3 from 10: 9, 8, 7, so 10 − 3 = 7. 10 − 3 = 13 is tempting, but that adds 3 instead of taking it away.",
+    explanation: "Count back 3 from 10: 9, 8, 7, so 10 − 3 = 7. 10 − 3 = 13 is tempting if you count one object too many.",
     hints: ["Work out 10 − 3 by counting back from 10.", "Start at 10 and say three numbers going down. Where do you stop?"]
   }
 ];
@@ -224,7 +224,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "a",
-    explanation: "14 + 5 = 19: start at 14 and count on 5. 18 is tempting if you stop one count too soon.",
+    explanation: "14 + 5 = 19: start at 14 and count on 5. 18 is tempting if you start the count from the wrong end of the row.",
     hints: ["Add the ones: 4 + 5. Keep the 1 ten of 14."]
   },
   {
@@ -237,7 +237,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "b",
-    explanation: "22 − 2 = 20: start at 22 and count back 2. 24 is tempting, but that adds 2 instead of taking it away.",
+    explanation: "22 − 2 = 20: start at 22 and count back 2. 24 is tempting if you count one object too few.",
     hints: ["Taking 2 from 22 removes the 2 ones. How many tens are left?"]
   },
   {
@@ -250,7 +250,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "c",
-    explanation: "8 + 9 = 17: start at 9 and count on 8. 16 is tempting if you stop one count too soon.",
+    explanation: "8 + 9 = 17: start at 9 and count on 8. 16 is tempting if you double-count one of the groups.",
     hints: ["Make 10 from 8 + 2, then +7."]
   },
   {
@@ -263,7 +263,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "d",
-    explanation: "17 − 7 = 10: start at 17 and count back 7. 24 is tempting, but that adds 7 instead of taking it away.",
+    explanation: "17 − 7 = 10: start at 17 and count back 7. 24 is tempting if you add when the question asks you to take away.",
     hints: ["17 has 7 ones. Taking 7 away removes them all; what is left?"]
   },
   {
@@ -276,7 +276,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "a",
-    explanation: "21 + 4 = 25: start at 21 and count on 4. 24 is tempting if you stop one count too soon.",
+    explanation: "21 + 4 = 25: start at 21 and count on 4. 24 is tempting if you count one object too many.",
     hints: ["Add the ones: 1 + 4. Keep the 2 tens of 21."]
   },
   {
@@ -289,7 +289,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "21" }
     ],
     answerId: "b",
-    explanation: "15 − 6 = 9: start at 15 and count back 6. 21 is tempting, but that adds 6 instead of taking it away.",
+    explanation: "15 − 6 = 9: start at 15 and count back 6. 21 is tempting if you take away when the question asks you to add.",
     hints: ["Take 5 from 15 to reach 10, then take 1 more."]
   },
   {
@@ -315,7 +315,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "13" }
     ],
     answerId: "d",
-    explanation: "6 + 7 = 13: start at 7 and count on 6. 12 is tempting if you stop one count too soon.",
+    explanation: "6 + 7 = 13: start at 7 and count on 6. 12 is tempting if you count one object too few.",
     hints: ["Count on from 6."]
   },
   {
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "a",
-    explanation: "40 − 20 = 20: 4 tens take away 2 tens leaves 2 tens. 60 is tempting, but that adds 20 instead of taking it away.",
+    explanation: "40 − 20 = 20: 4 tens take away 2 tens leaves 2 tens. 60 is tempting if you start the count from the wrong end of the row.",
     hints: ["40 is 4 tens. Take away 2 tens. How many tens are left?"]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "d",
-    explanation: "28 − 8 = 20: start at 28 and count back 8. 36 is tempting, but that adds 8 instead of taking it away.",
+    explanation: "28 − 8 = 20: start at 28 and count back 8. 36 is tempting if you double-count one of the groups.",
     hints: ["Taking 8 from 28 removes the 8 ones. How many tens are left?"]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "17" }
     ],
     answerId: "a",
-    explanation: "9 + 9 = 18: start at 9 and count on 9. 17 is tempting if you stop one count too soon.",
+    explanation: "9 + 9 = 18: start at 9 and count on 9. 17 is tempting if you add when the question asks you to take away.",
     hints: ["9 + 10 is 19. So 9 + 9 is one less than that."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "b",
-    explanation: "16 − 6 = 10: start at 16 and count back 6. 22 is tempting, but that adds 6 instead of taking it away.",
+    explanation: "16 − 6 = 10: start at 16 and count back 6. 22 is tempting if you count one object too many.",
     hints: ["16 has 6 ones. Taking all 6 away leaves only the tens; what number is that?"]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "12 + 3 = 15" }
     ],
     answerId: "d",
-    explanation: "Count on 3 from 12: 13, 14, 15, so 12 + 3 = 15. 12 + 3 = 14 is tempting if you stop one count too soon.",
+    explanation: "Count on 3 from 12: 13, 14, 15, so 12 + 3 = 15. 12 + 3 = 14 is tempting if you add when the question asks you to take away.",
     hints: ["Work out the addition 12 + 3 by counting on from 12.", "Say 12, then three more numbers. Which fact ends with the number you stopped on?"]
   }
 ];

@@ -260,7 +260,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.3" }
     ],
     answerId: "d",
-    explanation: "0.09 = 9/100, and √(9/100) = 3/10 = 0.3. 0. 0.03 is tempting if you drop a sign or swap place values, but the correct result is 0.3.",
+    explanation: "0.09 = 9/100, and √(9/100) = 3/10 = 0.3. 0.03 is tempting if you drop a sign or swap place values, but the correct result is 0.3.",
     hints: ["Write 0.09 as 9/100, then take the square root of the top and the bottom."]
   },
   {
@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2 − √3" }
     ],
     answerId: "d",
-    explanation: "Rationalise: 1/(2+√3) · (2−√3)/(2−√3) = 2−√3, since (2)²−(√3)²=1. 2 + √3 is tempting if you drop a sign or swap place values, but the correct result is 0.¯3.",
+    explanation: "Rationalise: 1/(2+√3) · (2−√3)/(2−√3) = 2−√3, since (2)²−(√3)² = 1. 2 + √3 is tempting if you forget to rationalise and just leave a as its own reciprocal partner; after rationalising, 1/a = 2 − √3.",
     hints: ["Multiply the top and bottom of 1/(2 + √3) by its conjugate, the same terms with the sign before √3 flipped."]
   }
 ];

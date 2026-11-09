@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2 and −2" }
     ],
     answerId: "d",
-    explanation: "x² − 4 = (x − 2)(x + 2) = 0 → x = ±2. 2 only is tempting if you stop one step early or reverse a step, but the correct result is 4.",
+    explanation: "x² − 4 = (x − 2)(x + 2) = 0 → x = ±2. 2 only is tempting if you take the positive square root and skip the negative one; both 2 and −2 satisfy the equation.",
     hints: ["Set x² − 4 = 0, so x² = 4. Which numbers square to give 4?"]
   }
 ];

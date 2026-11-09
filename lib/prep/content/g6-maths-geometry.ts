@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "reflex" }
     ],
     answerId: "c",
-    explanation: "A right angle measures exactly 90°. acute is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
+    explanation: "A right angle measures exactly 90°. acute is tempting if you count an extra side that is not part of the polygon.",
     hints: ["Picture the corner of a notebook page. What special name is given to an angle measuring exactly 90°?"]
   },
   {
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "acute" }
     ],
     answerId: "d",
-    explanation: "Acute angles are less than 90°. 45° is acute. right is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
+    explanation: "Acute angles are less than 90°. 45° is acute. right is tempting if you name a ray when the figure is a line segment (or the other way round).",
     hints: ["Compare with 90°."]
   },
   {
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "straight" }
     ],
     answerId: "a",
-    explanation: "Obtuse angles are between 90° and 180°. 120° is obtuse. acute is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
+    explanation: "Obtuse angles are between 90° and 180°. 120° is obtuse. acute is tempting if you use radius where diameter is needed.",
     hints: ["120° is more than a right angle of 90° but less than 180°. Which type is that?"]
   },
   {
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "180°" }
     ],
     answerId: "d",
-    explanation: "Interior angles of a triangle always sum to 180°. 90° is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
+    explanation: "Interior angles of a triangle always sum to 180°. 90° is tempting if you count an extra side that is not part of the polygon.",
     hints: ["Triangle angle sum is a half-turn."]
   },
   {
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6" }
     ],
     answerId: "a",
-    explanation: "Quad means four — four sides. 3 is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
+    explanation: "Quad means four — four sides. 3 is tempting if you name a ray when the figure is a line segment (or the other way round).",
     hints: ["Draw a quadrilateral, such as a kite or a rectangle, and count its sides."]
   },
   {
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Trapezium" }
     ],
     answerId: "b",
-    explanation: "A square has equal sides and four right angles. Rectangle that is not a square is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
+    explanation: "A square has equal sides and four right angles. Rectangle that is not a square is tempting if you add angle sizes that do not meet at the vertex asked for.",
     hints: ["All angles 90° gives a rectangle shape. Which rectangle also has all its sides equal?"]
   },
   {
@@ -196,7 +196,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Divider" }
     ],
     answerId: "c",
-    explanation: "A protractor measures angles in degrees. Ruler is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
+    explanation: "A protractor measures angles in degrees. Ruler is tempting if you confuse complementary with supplementary.",
     hints: ["Angles are measured in degrees. Which geometry-box instrument is a half-circle marked from 0° to 180°?"]
   },
   {
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "110°" }
     ],
     answerId: "a",
-    explanation: "180 − 50 − 60 = 70°. 80° is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
+    explanation: "180 − 50 − 60 = 70°. 80° is tempting if you take perimeter when the question asks for area.",
     hints: ["Use triangle sum 180°."]
   },
   {
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Angles 120°, 30°, 30°" }
     ],
     answerId: "b",
-    explanation: "All three angles of an equilateral triangle are 60° — all acute. Angles 90°, 45°, 45° is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
+    explanation: "All three angles of an equilateral triangle are 60° — all acute. Angles 90°, 45°, 45° is tempting if you use radius where diameter is needed.",
     hints: ["An acute-angled triangle has every angle less than 90°. Check all three angles in each option."]
   },
   {
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "reflex" }
     ],
     answerId: "b",
-    explanation: "Complementary angles sum to 90°. supplementary is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
+    explanation: "Complementary angles sum to 90°. supplementary is tempting if you mix faces with edges on the solid.",
     hints: ["Complement → 90°; supplement → 180°."]
   },
   {
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "right" }
     ],
     answerId: "c",
-    explanation: "Supplementary angles sum to 180°. complementary is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
+    explanation: "Supplementary angles sum to 180°. complementary is tempting if you read a neighbouring label from the same diagram.",
     hints: ["Supplement → straight angle."]
   },
   {
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "right" }
     ],
     answerId: "b",
-    explanation: "180° is a straight angle. acute is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
+    explanation: "180° is a straight angle. acute is tempting if you count an extra side that is not part of the polygon.",
     hints: ["At 180° the two arms point in exactly opposite directions and form a line. Which angle type is that?"]
   },
   {
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "right" }
     ],
     answerId: "c",
-    explanation: "Reflex angles lie between 180° and 360°. acute is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
+    explanation: "Reflex angles lie between 180° and 360°. acute is tempting if you name a ray when the figure is a line segment (or the other way round).",
     hints: ["Bigger than a straight angle."]
   },
   {
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "d",
-    explanation: "A quadrilateral has 2 diagonals. 1 is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
+    explanation: "A quadrilateral has 2 diagonals. 1 is tempting if you add angle sizes that do not meet at the vertex asked for.",
     hints: ["Join opposite corners — how many ways?"]
   },
   {
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "right-angled" }
     ],
     answerId: "a",
-    explanation: "Exactly two sides are equal (6 cm and 6 cm), so it is isosceles. It is not equilateral, because that needs all three sides equal, and it is not scalene, because scalene triangles have no equal sides. scalene is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
+    explanation: "Exactly two sides are equal (6 cm and 6 cm), so it is isosceles. It is not equilateral, because that needs all three sides equal, and it is not scalene, because scalene triangles have no equal sides. scalene is tempting if you confuse complementary with supplementary.",
     hints: ["Count how many sides have the same length."]
   },
   {
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "equilateral" }
     ],
     answerId: "b",
-    explanation: "One right angle → right-angled triangle. acute-angled is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
+    explanation: "One right angle → right-angled triangle. acute-angled is tempting if you take perimeter when the question asks for area.",
     hints: ["Look for the 90° corner."]
   },
   {
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "28 cm" }
     ],
     answerId: "c",
-    explanation: "6 × 4 = 24 cm. 20 cm is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
+    explanation: "6 × 4 = 24 cm. 20 cm is tempting if you mix faces with edges on the solid.",
     hints: ["Regular hexagon: six equal sides."]
   },
   {
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "95°" }
     ],
     answerId: "c",
-    explanation: "180 − 40 − 65 = 75°. 85° is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
+    explanation: "180 − 40 − 65 = 75°. 85° is tempting if you read a neighbouring label from the same diagram.",
     hints: ["Subtract the two known angles from 180°."]
   },
   {
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "at least two sides equal" }
     ],
     answerId: "d",
-    explanation: "Isosceles means at least two sides equal. all sides different is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
+    explanation: "Isosceles means at least two sides equal. all sides different is tempting if you count an extra side that is not part of the polygon.",
     hints: ["Iso means equal. In an isosceles triangle, how many sides must match?"]
   },
   {
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "heptagon" }
     ],
     answerId: "b",
-    explanation: "Penta- means five → pentagon. hexagon is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
+    explanation: "Penta- means five → pentagon. hexagon is tempting if you name a ray when the figure is a line segment (or the other way round).",
     hints: ["Hexa means 6, hepta means 7, octa means 8. Which polygon name is left for 5 sides?"]
   },
   {
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "two right angles" }
     ],
     answerId: "b",
-    explanation: "Scalene means all three sides different lengths. all sides equal is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
+    explanation: "Scalene means all three sides different lengths. all sides equal is tempting if you use radius where diameter is needed.",
     hints: ["Equilateral has all sides equal; isosceles has two. What is left for a scalene triangle?"]
   },
   {
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "circle" }
     ],
     answerId: "d",
-    explanation: "A circle’s boundary is curved, so it is not a polygon. triangle is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
+    explanation: "A circle’s boundary is curved, so it is not a polygon. triangle is tempting if you add angle sizes that do not meet at the vertex asked for.",
     hints: ["Polygons need straight sides only."]
   }
 ];

@@ -7,6 +7,9 @@
  * scripts/audit-baselines/option-editorial-allow.json),
  * and inline SVG figures missing an aria-label / alt text.
  * Hint checks: bare-letter hints, option-letter references, hints that equal / contain the answer.
+ * Explanation checks: recycled tempting-clause templates (>=10 within a grade; G8/G9 temporary allow-list in
+ *   scripts/audit-baselines/explanation-recycled-templates.json) and "correct result/value/answer is X" mismatches
+ *   vs the keyed option (allow-list scripts/audit-baselines/explanation-correct-mismatch.json).
  * Content generators: every script that writes served content is registered in scripts/content-generators.json; retired
  *   ones must start with the --force guard and refuse to run without it (each is executed once to prove it).
  * Warnings (non-fatal): chapters that never use one of A/B/C/D as the answer, and near-duplicate
@@ -532,6 +535,116 @@ for (const g of grades.READY_GRADES) {
   generatorStats = `${Object.keys(reg.live).length} live, ${Object.keys(reg.retired).length} retired (${ran} refused without --force)`;
 }
 
+
+/** Explanation quality: recycled tempting templates + correct-is mismatches. */
+const EXPL_TMPL_THRESHOLD = 10;
+const explTmplBaselinePath = path.join(ROOT, "scripts/audit-baselines/explanation-recycled-templates.json");
+const explTmplBaseline = JSON.parse(fs.readFileSync(explTmplBaselinePath, "utf8"));
+const allowedTmplByGrade = new Map(); // grade -> Set(template)
+for (const [g, entries] of Object.entries(explTmplBaseline.grades || {})) {
+  allowedTmplByGrade.set(Number(g), new Set((entries || []).map((e) => e.template)));
+}
+const explMismatchBaselinePath = path.join(ROOT, "scripts/audit-baselines/explanation-correct-mismatch.json");
+const explMismatchBaseline = new Set(
+  (JSON.parse(fs.readFileSync(explMismatchBaselinePath, "utf8")).items || []),
+);
+
+const normTemptingTemplate = (expl) => {
+  const parts = String(expl ?? "").split(/\bis tempting\b/i);
+  if (parts.length < 2) return null;
+  let t = parts[1].replace(/[−–—]/g, "-");
+  t = t.replace(/\d+\.?\d*/g, "N");
+  t = t.replace(/\s+/g, " ").trim().toLowerCase().split(".")[0].trim();
+  return t || null;
+};
+const normClaim = (x) =>
+  String(x ?? "")
+    .toLowerCase()
+    .replace(/[−–—]/g, "-")
+    .replace(/,/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+
+const tmplHitsByGrade = new Map(); // grade -> Map(template -> ids[])
+const explMismatchHits = [];
+let explTmplAllowedHits = 0;
+for (const { questions } of servedSets) {
+  for (const q of questions) {
+    const id = String(q.id ?? "");
+    const gm = /^g(\d+)-maths-/.exec(id);
+    if (!gm) continue;
+    const grade = Number(gm[1]);
+    const expl = q.explanation;
+    if (!expl) continue;
+    const tmpl = normTemptingTemplate(expl);
+    if (tmpl) {
+      if (!tmplHitsByGrade.has(grade)) tmplHitsByGrade.set(grade, new Map());
+      const m = tmplHitsByGrade.get(grade);
+      if (!m.has(tmpl)) m.set(tmpl, []);
+      m.get(tmpl).push(id);
+    }
+    const keyOpt = (q.options || []).find((o) => o.id === q.answerId);
+    const keyText = keyOpt ? keyOpt.text : null;
+    if (keyText == null) continue;
+    const re = /(?:the )?correct (?:result|value|answer|choice|conversion|reading|arrangement|amount|measure) is ([^.]+)\./gi;
+    let cm;
+    while ((cm = re.exec(String(expl)))) {
+      const claimed = cm[1].trim();
+      const nk = normClaim(keyText);
+      const nc = normClaim(claimed);
+      if (nk === nc || nk.includes(nc) || nc.includes(nk)) continue;
+      explMismatchHits.push({ id, key: keyText, claimed });
+    }
+  }
+}
+const explTmplStats = [];
+for (const [grade, map] of [...tmplHitsByGrade.entries()].sort((a, b) => a[0] - b[0])) {
+  const allowed = allowedTmplByGrade.get(grade) || new Set();
+  const hot = [...map.entries()].filter(([, ids]) => ids.length >= EXPL_TMPL_THRESHOLD);
+  let allowedN = 0;
+  for (const [tmpl, ids] of hot) {
+    if (allowed.has(tmpl)) {
+      allowedN++;
+      explTmplAllowedHits += ids.length;
+      continue;
+    }
+    findings.push({
+      rule: "explanation-recycled-template",
+      where: `maths-g${grade}`,
+      text: `${ids.length}× within G${grade}: "${tmpl.slice(0, 120)}" (e.g. ${ids.slice(0, 3).join(", ")})`,
+    });
+  }
+  // Stale allow-list entries (burned down below threshold) → finding so writers remove them
+  for (const tmpl of allowed) {
+    const n = (map.get(tmpl) || []).length;
+    if (n < EXPL_TMPL_THRESHOLD) {
+      findings.push({
+        rule: "explanation-recycled-template-stale",
+        where: `maths-g${grade}`,
+        text: `baseline template now only ${n}× (<${EXPL_TMPL_THRESHOLD}); remove from explanation-recycled-templates.json: "${tmpl.slice(0, 100)}"`,
+      });
+    }
+  }
+  explTmplStats.push(`G${grade}:${hot.length} hot (${allowedN} allowed)`);
+}
+for (const hit of explMismatchHits) {
+  if (explMismatchBaseline.has(hit.id)) continue;
+  findings.push({
+    rule: "explanation-correct-mismatch",
+    where: hit.id,
+    text: `expl claims correct is ${JSON.stringify(hit.claimed)} but key is ${JSON.stringify(hit.key)}`,
+  });
+}
+for (const id of explMismatchBaseline) {
+  if (!explMismatchHits.some((h) => h.id === id)) {
+    findings.push({
+      rule: "explanation-correct-mismatch-stale",
+      where: id,
+      text: "listed in explanation-correct-mismatch.json but no longer mismatches; remove it",
+    });
+  }
+}
+
 /** Near-duplicate stem scanners (Science, English) → warnings; --strict turns them into a failure. */
 for (const [subject, script] of [["Science", "near-duplicate-science-stems.mjs"], ["English", "near-duplicate-english-stems.mjs"]]) {
   const out = path.join(fs.mkdtempSync(path.join(os.tmpdir(), "nd-")), "pairs.json");
@@ -561,5 +674,6 @@ for (const c of softChecks) {
 if (staleLeaks.length) console.log(`note: ${staleLeaks.length} id(s) in the hint-leak baseline no longer leak; remove them: ${staleLeaks.join(", ")}`);
 console.log(`near-duplicate stems (not allow-listed): ${nearDupStats.join(", ")}`);
 console.log(`content generators: ${generatorStats}`);
+console.log(`explanation templates: threshold ${EXPL_TMPL_THRESHOLD}; ${explTmplStats.join(", ")}; mismatch hits ${explMismatchHits.length} (${[...explMismatchBaseline].filter((id) => explMismatchHits.some((h) => h.id === id)).length} allowed)`);
 console.log(`${uniq.length} finding(s), ${warnings.length} warning(s)${STRICT && warnings.length ? " (--strict: warnings fail)" : ""}`);
 process.exit(uniq.length || (STRICT && warnings.length) ? 1 : 0);

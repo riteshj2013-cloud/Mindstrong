@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10\u00b2" }
     ],
     answerId: "d",
-    explanation: "10⁻² ÷ 10⁻⁴ = 10⁻²−(−⁴) = 10². 10⁻⁶ is tempting if you add −4 instead of subtracting it; 10⁻²⁺⁴ = 10².",
+    explanation: "First (10³ × 10⁻⁵) = 10³⁺(⁻⁵) = 10⁻². Then divide: 10⁻² ÷ 10⁻⁴ = 10^{(−2)−(−4)} = 10^{−2+4} = 10². 10⁻⁶ is tempting if you add −4 instead of subtracting it; 10⁻²⁺⁴ = 10².",
     hints: ["Add the exponents 3 and −5, then subtract −4. Subtracting a negative exponent adds."]
   }
 ];
