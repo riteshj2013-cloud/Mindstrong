@@ -136,7 +136,7 @@ export const G6_ENGLISH_HINTS: Record<string, HintOverlay> = {
   "g6-eng-vocab-b-q09": ["Buy word."],
   "g6-eng-vocab-b-q10": ["Opposite of include."],
   "g6-eng-vocab-b-q11": ["Farming context."],
-  "g6-eng-vocab-b-q12": ["The k in \"knight\" is silent; say it aloud.", "Which word sounds exactly like knight and names the time after evening?"],
+  "g6-eng-vocab-b-q12": ["Say the word without the silent letter at the start. Which choice matches that sound exactly?"],
   "g6-eng-vocab-b-q13": ["Near meaning of vanish."],
   "g6-eng-vocab-b-q14": ["The coach praised the team for its hard work.", "Find the word for pointing out faults, the opposite of praise."],
   "g6-eng-vocab-b-q15": ["Yearly word."],

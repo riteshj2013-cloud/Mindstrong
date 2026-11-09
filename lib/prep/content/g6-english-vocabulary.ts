@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Knight (the k is silent) sounds exactly like night. 'knit' also has a silent k, but its vowel sound is different.",
-    hints: ["The k in \"knight\" is silent; say it aloud.", "Which word sounds exactly like knight and names the time after evening?"]
+    hints: ["Say the word without the silent letter at the start. Which choice matches that sound exactly?"]
   },
   {
     id: "g6-eng-vocab-b-q13",

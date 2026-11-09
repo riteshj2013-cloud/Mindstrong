@@ -121,7 +121,7 @@ export const G6_SCIENCE_HINTS: Record<string, HintOverlay> = {
   "g6-sci-sep-a-q18": ["Pure vs mixture."],
   "g6-sci-sep-a-q19": ["Air composition type."],
   "g6-sci-sep-a-q20": ["Kitchen sieving."],
-  "g6-sci-sep-a-q21": ["Magnetic junk separation."],
+  "g6-sci-sep-a-q21": ["Iron is attracted by one everyday tool in the science kit. Which method uses that pull?"],
   "g6-sci-sep-a-q22": ["Opposite of evaporation."],
   "g6-sci-sep-a-q23": ["Purpose of separation."],
   "g6-sci-sep-a-q24": ["Spot the mixture."],

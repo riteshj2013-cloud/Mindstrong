@@ -93,7 +93,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "an octagon" }
     ],
     answerId: "c",
-    explanation: "A hand has 5 fingers, so the shape has 5 corners, and a closed shape with straight sides has as many sides as corners. A shape with 5 sides and 5 corners is a pentagon. A hexagon is tempting because its name also sounds like a number shape, but a hexagon has 6 corners, one more than the fingers on a hand.",
+    explanation: "A hand has 5 fingers, so the shape has 5 corners, and a closed shape with straight sides has as many sides as corners. A shape with 5 sides and 5 corners is a pentagon. A hexagon is tempting because its name also sounds like a number shape, but a hexagon has 6 corners, one more than 5.",
     hints: ["Count the fingers on a single hand, then match that number of corners to a shape name for Mansi's stamp."]
   },
   {
@@ -162,7 +162,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "a",
-    explanation: "The distance round the bed is 4 + 3 + 5 + 3 + 4 = 19 m. On a closed path the last metre mark is the starting corner, which already has a stone, so Zeenat plants 19 marigolds. 20 is tempting because on a straight line you need one more plant than metres, but going round brings you back to the first plant.",
+    explanation: "The distance round the bed is 4 + 3 + 5 + 3 + 4 = 19 m. On a closed path the last metre mark is the starting corner, which already has a marigold, so Zeenat plants 19 marigolds. 20 is tempting because on a straight line you need one more plant than metres, but going round brings you back to the first plant.",
     hints: ["Find the full distance round Zeenat's bed; on a closed path the last mark lands back on the starting plant."]
   },
   {
@@ -256,7 +256,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "regular pentagons" }
     ],
     answerId: "d",
-    explanation: "Squares (4 at a point), equilateral triangles (6 at a point) and regular hexagons (3 at a point, like a honeycomb) fit together with no gaps. Regular pentagons always leave a gap where they meet. Regular hexagons are tempting because they look nearly round, but a honeycomb shows they fit perfectly.",
+    explanation: "Squares (4 at a point), equilateral triangles (6 at a point) and regular hexagons (3 at a point, like a honeycomb) fit together with no gaps. Regular pentagons always leave a gap where they meet. Regular hexagons are tempting because they also have many sides, but three 120° corners meet in a full turn so hexagons tile; a pentagon's 108° corners cannot.",
     hints: ["Picture copies of each tile meeting at a point on Madhuri's floor; for some shapes a gap is left there."]
   },
   {
