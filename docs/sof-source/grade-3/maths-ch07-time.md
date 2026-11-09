@@ -7,6 +7,7 @@
 - chapter_title: Time
 - curriculum_source: NCERT Class 3 themes (public topic list only)
 - content_type: original_olympiad_style
+- affiliation: not affiliated with SOF or any exam board; original Mindstrong content (kids never see this docs file)
 - scope: reading an analogue clock to 5 minutes and to the minute; digital clock readings; a.m. and p.m.; quarter past, half past and quarter to; minutes past and minutes to; elapsed time in hours and minutes within a day and overnight; start and end times; days of the week; months and the number of days in each month; reading a calendar page (day of a date, counting weekdays, dates some days or weeks later); light leap-year awareness; seconds, minutes, hours, days and weeks; school, train, bus and show timetables; logical clock reasoning (hands opposite or overlapping at known times, time patterns, ordering times, striking clocks, digit puzzles)
 - item_counts: Set A = 24 MCQs, Set B = 24 MCQs
 - pictorial_items: Set A = 9, Set B = 9 (inline `**Diagram (SVG):**` blocks)
@@ -2572,4 +2573,4 @@
 - Every SVG is self-contained (no external fonts, CSS, scripts or images), carries `role="img"` + `aria-label`, and each item also has an `alt` line. Label text is 12–26 px in the viewBox; scale with `max-width: 100%; height: auto;`.
 - olympiad_section values use the house tokens: `logical` = Logical Reasoning, `mathematical` = Mathematical Reasoning, `everyday` = Everyday Maths, `achievers` = Achievers. Difficulty `hard` = Achievers-level.
 - All keys were computed and asserted by `/workspace/scratch/gen_g3ch07.py` (figure helpers in `/workspace/scratch/g3ch07_time.py`); `/workspace/scratch/verify_g3ch07.py` re-checks the saved file and re-reads every figure from the SVG markup.
-- Original content only: written from public NCERT Class 3 themes (time, the clock, the calendar) and generic olympiad topic headings; no past or sample paper items were used.
+- Original content only: written from public NCERT Class 3 themes (time, the clock, the calendar) and generic olympiad-style topic headings only; not affiliated with SOF or any exam board; no past or sample paper items were used or copied.

@@ -7,6 +7,7 @@
 - chapter_title: Logical Reasoning 3: Direction, Images and Figures
 - curriculum_source: general reasoning topics: direction sense, mirror and water images, embedded figures and counting figures (public topic list only)
 - content_type: original_olympiad_style
+- affiliation: not affiliated with SOF or any exam board; original Mindstrong content (kids never see this docs file)
 - scope: the four main and four in-between directions; facing and turning (left/right, quarter, half and full turns, clockwise and anticlockwise); maps, shadows and sides of a road; walks on a grid and on roads (final place, distance and direction from the start, shortest way back); robot routes and instruction cards; mazes; mirror images of letters, digits, words, light-bar numbers and drawings in an upright mirror, and water images (mirror lying flat) as achievers items; hidden shapes and copies of a shape; counting triangles, squares and rectangles in overlapping figures
 - item_counts: Set A = 24 MCQs, Set B = 24 MCQs
 - pictorial_items: Set A = 12, Set B = 12 (inline `**Diagram (SVG):**` blocks)
@@ -3956,4 +3957,4 @@
 - Every SVG is self-contained (no external fonts, CSS, scripts or images), carries `role="img"` + `aria-label`, and each item also has an `alt` line that describes the drawing without giving the answer and names every printed number. Label text is 10–18 px in the viewBox; scale with `max-width: 100%; height: auto;`.
 - olympiad_section values use the house tokens: `logical` = Logical Reasoning, `achievers` = Achievers. The easy and medium items are `logical` and the 5 hard items in each set are `achievers`.
 - All keys were computed and asserted by `/workspace/scratch/gen_g4ch11.py` (figures in `/workspace/scratch/g4ch11_figs.py`, geometry and solvers in `/workspace/scratch/g4ch11_logic.py`); `/workspace/scratch/verify_g4ch11.py` re-checks the saved file, reads every figure back from the SVG, recomputes each key, re-runs the uniqueness checks and runs the review rules R1–R6.
-- Original content only: written from public topic headings; no past or sample paper items were used, and stems were checked for near-duplicates against the repo's Maths items and Chapters 5–10.
+- Original content only: written from public topic headings; not affiliated with SOF or any exam board; no past or sample paper items were used or copied, and stems were checked for near-duplicates against the repo's Maths items and Chapters 5–10.

@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Endothermic reactions take in heat from the surroundings. 'Exothermic' is tempting because the word also deals with heat, but exothermic reactions give heat out.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Endo = heat in; exo = heat out."]
   },
   {
     id: "g10-sci-chem-a-q02",
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Iron reacts with oxygen and moisture to form hydrated iron oxide (rust).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Rust forms when iron reacts with oxygen and moisture over time. Which processes name that kind of reaction?"]
   },
   {
     id: "g10-sci-chem-a-q03",
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Zinc is more reactive than copper, so it pushes copper out of CuSO₄. 'Is reduced' is tempting because a change happens to zinc, but zinc loses electrons and is oxidised; copper ions are reduced.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Compare reactivity: Zn above Cu in the series."]
   },
   {
     id: "g10-sci-chem-a-q04",
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Two H₂ molecules react with one O₂ to give two H₂O, so H and O both balance (4 H, 2 O). H₂ + O₂ → H₂O is tempting because it has the right substances, but it has 2 O atoms on the left and only 1 on the right.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Count H and O atoms on both sides. Hydrogen and oxygen are diatomic, so the product must balance both."]
   },
   {
     id: "g10-sci-chem-a-q05",
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "CaO + H₂O → Ca(OH)₂, slaked lime, with a lot of heat given out. 'Limestone' is tempting because quicklime is made from limestone, but adding water gives slaked lime, not CaCO₃.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Quicklime is CaO; adding water slakes it."]
   },
   {
     id: "g10-sci-chem-a-q06",
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Heating lead nitrate breaks one compound into PbO, NO₂ and O₂, which is decomposition. Fe + S → FeS is tempting because it is also a simple reaction, but two substances join, so it is combination.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Decomposition: one reactant → multiple products."]
   },
   {
     id: "g10-sci-chem-a-q07",
@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Oxidation is gain of oxygen, loss of hydrogen, or loss of electrons. 'Only gain of hydrogen' is tempting because hydrogen is involved, but gaining hydrogen is reduction.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Watch for the word 'only'. Oxidation has more than one textbook definition. Which choice does not limit it to one idea?"]
   },
   {
     id: "g10-sci-chem-a-q08",
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Fats and oils react with oxygen in air and go rancid, with a bad smell and taste. 'Reduction by sugars' is tempting because food chemistry is involved, but rancidity is an oxidation, not a reduction.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Air and light speed up rancidity."]
   },
   {
     id: "g10-sci-chem-a-q09",
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "In a redox reaction one substance is oxidised while another is reduced; the two always happen together. 'Only oxidation' is tempting because oxidation is easier to spot, but the electrons lost must be gained by something.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["In a redox reaction, electrons lost by one substance are gained by another. Which two processes happen together?"]
   },
   {
     id: "g10-sci-chem-a-q10",
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "New substances (and often gas/heat/colour change) mark chemical change.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Physical changes don't make new substances."]
   },
   {
     id: "g10-sci-chem-a-q11",
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Aluminium displaces iron from Fe₂O₃ with so much heat that the iron melts, which is used to weld rails (thermit welding). 'Electroplating only' is tempting because metals are involved, but electroplating uses electricity, not this displacement.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Aluminium reduces iron oxide and gives molten iron with intense heat. Which use joins railway tracks with that iron?"]
   },
   {
     id: "g10-sci-chem-a-q12",
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "An acid reacting with a base to give salt and water is neutralisation. Displacement is tempting because ions swap partners, but no single more reactive element pushes another out of a compound. It is not combination, which makes one product, or decomposition, where one substance breaks down.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["H⁺ from acid and OH⁻ from base form water."]
   },
   {
     id: "g10-sci-chem-a-q13",
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Sodium sits high in the reactivity series; gold is least reactive of these.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Recall the reactivity series: which of the three reacts violently with water and must be stored under kerosene?"]
   },
   {
     id: "g10-sci-chem-a-q14",
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "In precipitation, ions of two salts swap partners (double displacement) and one product is insoluble. 'Only combustion' is tempting, but combustion is burning in oxygen; no ions swap.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Look for a cloudy solid forming in solution."]
   },
   {
     id: "g10-sci-chem-a-q15",
@@ -196,7 +196,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "2Mg + O₂ → 2MgO: magnesium burns with a dazzling white light and leaves white MgO ash. 'Only soot' is tempting because burning often gives soot, but soot is carbon, and magnesium has no carbon.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Magnesium oxidises to magnesium oxide."]
   },
   {
     id: "g10-sci-chem-a-q16",
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "At the cathode, H⁺ ions gain electrons and hydrogen gas forms (twice the volume of oxygen). Oxygen is tempting, but oxygen collects at the anode.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["At the cathode, positive ions gain electrons. In water electrolysis, which gas collects there with twice the volume?"]
   },
   {
     id: "g10-sci-chem-a-q17",
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Antioxidants and airtight packing keep oxygen from reacting with the fats. 'Adding more oxygen' is tempting only if you forget the cause: oxygen is what makes fats rancid.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Rancidity is oxidation of fats and oils. Which choice keeps oxygen away or slows its attack?"]
   },
   {
     id: "g10-sci-chem-a-q18",
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "H\u2082 removes oxygen from CuO, so H\u2082 is oxidised and CuO reduced.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Hydrogen takes oxygen away from copper oxide. What do we call a substance that removes oxygen from another and is itself oxidised?"]
   },
   {
     id: "g10-sci-chem-a-q19",
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Lead nitrate gives off brown NO₂ fumes on heating, along with O₂. 'O₂ only' is tempting because oxygen is released too, but oxygen is colourless.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Heating lead nitrate gives lead oxide, oxygen and a reddish-brown gas. Which oxide of nitrogen has that colour?"]
   },
   {
     id: "g10-sci-chem-a-q20",
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "In C + O₂ → CO₂ two substances combine into one product. CaCO₃ → CaO + CO₂ is tempting because it also involves CO₂, but one substance breaks apart, so it is decomposition.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Combination: many reactants → one product."]
   },
   {
     id: "g10-sci-chem-a-q21",
@@ -274,7 +274,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "After whitewashing, Ca(OH)₂ slowly reacts with CO₂ in air to form a hard, shiny layer of CaCO₃. CaCO₃ → CaO + CO₂ is tempting because it has the same substances, but it is the reverse: it needs strong heating.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Walls harden as carbonate forms."]
   },
   {
     id: "g10-sci-chem-a-q22",
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Galvanising coats iron with zinc, which corrodes first and protects the iron. Copper is tempting because it is also used for coatings, but it is less reactive than iron and does not protect it sacrificially.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Galvanised iron has a coating of a more reactive metal that corrodes first. Which listed metal is above iron?"]
   },
   {
     id: "g10-sci-chem-a-q23",
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Sodium loses an electron to become Na⁺ in NaOH, so it is oxidised. 'Reduced' is tempting because hydrogen is involved, but it is the water's hydrogen that is reduced to H₂.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Sodium goes from Na atoms to Na⁺ ions in NaOH. Losing electrons is which process?"]
   },
   {
     id: "g10-sci-chem-a-q24",
@@ -313,7 +313,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "3Fe + 4H₂O → Fe₃O₄ + 4H₂: 3 Fe, 8 H and 4 O on each side. 3, 2, 1, 2 is tempting because 3 Fe is right, but then there are only 2 O atoms on the left and 4 in Fe₃O₄.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Balance Fe, then O, then H."]
   }
 ];
 
@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Exothermic reactions give energy out as heat (and sometimes light). 'Always absorb heat' is tempting because both describe heat, but that describes endothermic reactions.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Exo = heat exits the system."]
   },
   {
     id: "g10-sci-chem-b-q02",
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Melting wax only changes its state; it is still the same wax, so this is a physical change. 'Burning of wax' is tempting because it is the same substance, but burning makes new substances (CO₂ and water).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Ask of each change: was a new substance formed? Burning, digestion and rusting make new substances."]
   },
   {
     id: "g10-sci-chem-b-q03",
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Ba²⁺ and Na⁺ swap partners: BaSO₄ forms as a white precipitate and 2NaCl stays dissolved. 'BaSO₄ + NaCl only unbalanced' is tempting because it has the right products, but it needs 2NaCl to balance the sodium.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["In double displacement, the ions swap partners. Barium sulphate is insoluble; check the product equation is balanced."]
   },
   {
     id: "g10-sci-chem-b-q04",
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Moist air with CO₂ turns copper's surface into green basic copper carbonate. 'Black copper oxide' is tempting because copper also forms an oxide, but copper oxide is black, not green.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Think Statue of Liberty green layer."]
   },
   {
     id: "g10-sci-chem-b-q05",
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Zn is above hydrogen in the reactivity series, so it displaces H\u2082 from dilute acids and bubbles appear. Cu is tempting because it is a familiar metal, but Cu and Ag both lie below hydrogen, so neither releases H\u2082 from a dilute acid. 'none' is wrong because zinc does react.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Metals above H₂ liberate hydrogen from dilute acids."]
   },
   {
     id: "g10-sci-chem-b-q06",
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Photosynthesis takes in light energy and stores it in glucose, so overall it is endothermic. 'Exothermic like burning' is tempting because it involves CO₂ and O₂ like burning, but it runs the other way and absorbs energy.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["During photosynthesis, plants absorb light energy and store it in glucose. Does the reaction take in energy or give it out?"]
   },
   {
     id: "g10-sci-chem-b-q07",
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "CO₂ reacts with limewater to form insoluble CaCO₃, which makes it milky. O₂ is tempting because it is a common test gas, but oxygen relights a glowing splint; it does not turn limewater milky.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Limewater test for carbon dioxide."]
   },
   {
     id: "g10-sci-chem-b-q08",
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Hydrogen burns with a 'pop' when a lit splint is brought near. 'Green flame only' is tempting because flame colours are used in tests, but those tests are for metal ions, not hydrogen.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Collect and ignite carefully — pop confirms H₂."]
   },
   {
     id: "g10-sci-chem-b-q09",
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Oxygen supports combustion, so a glowing splint bursts back into flame. 'Is inert' is tempting because oxygen is a colourless gas, but inert gases would put the splint out.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Glowing splint test for oxygen."]
   },
   {
     id: "g10-sci-chem-b-q10",
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Acid + base gives salt + water: HCl + NaOH → NaCl + H₂O. 'Cl₂ gas' is tempting because HCl contains chlorine, but the chloride ends up in the salt NaCl, not as a gas.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Neutralisation of an acid by a base gives a salt plus water. Which salt comes from sodium and chloride?"]
   },
   {
     id: "g10-sci-chem-b-q11",
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "CH₄ + 2O₂ → CO₂ + 2H₂O has 1 C, 4 H and 4 O on each side. CH₄ + 2O₂ → CO₂ + H₂O is tempting because the left side is right, but the right side has only 2 H and 3 O.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Count each element after balancing."]
   },
   {
     id: "g10-sci-chem-b-q12",
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Impure copper is the anode, pure copper the cathode and CuSO₄ the electrolyte; copper dissolves at the anode and deposits pure at the cathode. 'Iron electrodes' is tempting, but iron would not let pure copper move from one electrode to the other.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Anode oxidises; cathode reduces Cu²⁺."]
   },
   {
     id: "g10-sci-chem-b-q13",
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "The green layer is a new substance formed on the surface (corrosion), so the change is chemical. 'Only physical polishing loss' is tempting because the shine is lost, but a new green compound has formed.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["A green coating on a copper coin is a new substance. Does forming a new substance mean a physical change?"]
   },
   {
     id: "g10-sci-chem-b-q14",
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "MnO₂ takes electrons from Cl⁻, turning it into Cl₂, and is itself reduced to MnCl₂, so it is the oxidising agent. 'A reducing agent' is tempting, but MnO₂ loses oxygen, so it is the one being reduced.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["MnO₂ loses oxygen and ends up as MnCl₂, while HCl becomes Cl₂. What role does a substance that gets reduced play?"]
   },
   {
     id: "g10-sci-chem-b-q15",
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Tin is less reactive than iron and safe with food, so it lines cans without spoiling the food. 'More reactive than iron always for food' is tempting, but tin is less reactive than iron; that is why it does not react with the food.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Tin is less reactive in this use context."]
   },
   {
     id: "g10-sci-chem-b-q16",
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Respiration oxidises glucose and releases energy for cells, so it is exothermic. 'Endothermic' is tempting because it is the reverse of photosynthesis, but the reverse of an energy-absorbing reaction releases energy.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Respiration breaks down glucose and releases energy that keeps us warm. Is energy taken in or given out?"]
   },
   {
     id: "g10-sci-chem-b-q17",
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Carbon gains oxygen to form CO (oxidised) while ZnO loses oxygen to form Zn (reduced). 'Both reduced' is tempting, but oxygen leaving ZnO must go somewhere, so one substance is oxidised.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Follow the oxygen in this redox change: it leaves zinc oxide and joins carbon. Which substance gains oxygen and which loses it?"]
   },
   {
     id: "g10-sci-chem-b-q18",
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Zn + H₂SO₄ → ZnSO₄ + H₂, and hydrogen burns with a pop. 'Turns limewater milky' is tempting because acids on marble do that, but that test is for CO₂, and zinc has no carbonate.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Hydrogen gives the pop test."]
   },
   {
     id: "g10-sci-chem-b-q19",
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Marble is CaCO₃: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂. H₂ is tempting because acids with metals give hydrogen, but marble is a carbonate, not a metal.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Marble is calcium carbonate. A carbonate reacts with acid to give a salt, water and which gas that turns lime water milky?"]
   },
   {
     id: "g10-sci-chem-b-q20",
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "CuO loses its oxygen to hydrogen and becomes copper, so CuO is reduced. 'Oxidation of CuO' is tempting because oxygen is involved, but the oxygen leaves CuO; it is hydrogen that is oxidised.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Black CuO turns to brown Cu as hydrogen takes away its oxygen. What is losing oxygen called?"]
   },
   {
     id: "g10-sci-chem-b-q21",
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Antacids are mild bases such as Mg(OH)₂ that neutralise excess HCl in the stomach. 'Oxidising food' is tempting because digestion breaks food down, but antacids only cancel acid.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Think acid–base neutralisation."]
   },
   {
     id: "g10-sci-chem-b-q22",
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Silver bromide breaks down into silver and bromine when light falls on it, a reaction used in black-and-white photography. 'Rusting in a closed box' is tempting because it is a chemical change, but it needs moisture and air, not light.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["'Photo' means light. Which reaction happens only when light falls on the substance, as in old camera film?"]
   },
   {
     id: "g10-sci-chem-b-q23",
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "2Al + Fe₂O₃ → Al₂O₃ + 2Fe has 2 Al, 2 Fe and 3 O on each side. Al + Fe₂O₃ → Al₂O₃ + Fe is tempting because the formulas are right, but it has 1 Al on the left and 2 on the right. 3Al + Fe₂O₃ → Al₂O₃ + 2Fe fixes the Fe but leaves 3 Al on the left and only 2 on the right.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Balance Al and Fe together."]
   },
   {
     id: "g10-sci-chem-b-q24",
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Nitrogen is unreactive, so flushing it in pushes out the oxygen that would make the oil in chips go rancid. 'Add nutrients' is tempting because nitrogen is a plant nutrient, but here it only keeps oxygen away.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Oils in chips turn rancid when oxygen attacks them. Why would packers push air out with an unreactive gas?"]
   }
 ];
 

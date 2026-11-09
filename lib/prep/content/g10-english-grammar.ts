@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "'Have finished' is have/has + past participle, which is the present perfect. 'Simple past' is tempting because the action is complete, but the simple past would be 'They finished'.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["\"have finished\" uses have + past participle — a tense linking a past action to now.", "\"had\" + V3 marks an earlier past; which tense uses has/have + V3 to link the past to now?"]
   },
   {
     id: "g10-eng-ch02-a-q03",
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "In the passive, the object 'the meal' becomes the subject: is + cooked + by the chef. 'The chef is cooked by the meal' is tempting because it uses the passive pattern, but it swaps the doer and the thing done.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Active object → passive subject."]
   },
   {
     id: "g10-eng-ch02-a-q04",
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Most fits: 'most of the students' means the greater part of a countable group, and it agrees with the plural verb 'were'. Much is tempting because it also means a large amount, but much goes only with uncountable nouns (much water), never with students. Little is also for uncountables, and 'each one of much' is not English.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["\"students\" is countable and the verb \"were\" is plural.", "Which determiner means the greater part of a group of students?"]
   },
   {
     id: "g10-eng-ch02-a-q06",
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "With he/she/it we use doesn't + base verb: 'He doesn't like tea'. 'He doesn't likes tea' is tempting because 'he' usually takes -s, but after doesn't the verb stays in its base form.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["He/she/it → doesn't."]
   },
   {
     id: "g10-eng-ch02-a-q10",
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "'No sooner did he arrive than the meeting began' keeps the meaning and uses the correct pattern (no sooner + did + subject… than). 'Hardly he arrive' is tempting because hardly also shows quick timing, but it needs 'had he arrived… when' to be correct.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Inversion after No sooner."]
   },
   {
     id: "g10-eng-ch02-a-q14",
@@ -196,7 +196,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The past simple passive is was/were + past participle: 'My bicycle was stolen'. 'My bicycle is stealing' is tempting because it starts with the bicycle, but it is active and present, as if the bicycle were the thief.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Change to passive: the bicycle becomes the subject, with be + past participle.", "Use a past form of be + the past participle of steal; the unknown doer can be dropped."]
   },
   {
     id: "g10-eng-ch02-a-q16",
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "'Enjoy' is followed by a gerund: 'She enjoys reading novels'. 'Read' is tempting because it is the base verb, but 'enjoys read' is ungrammatical.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Enjoy + V-ing."]
   },
   {
     id: "g10-eng-ch02-a-q18",
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "The usual order is opinion → colour → material, so 'beautiful red silk scarf'. 'red beautiful silk' is tempting because silk is still next to the noun, but the opinion word beautiful must come before the colour red.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Adjective order is opinion, size, age, shape, colour, origin, material, then noun.", "Opinion words come before colour, and material words sit right next to the noun \"scarf\"."]
   },
   {
     id: "g10-eng-ch02-a-q21",
@@ -274,7 +274,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Wh-question: ask + clause, no auxiliary inversion, tense backshift.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["In a reported question, use statement word order and drop \"do\".", "\"asked\" is past, so shift \"live\" back one tense and change \"you\" to \"I\"."]
   },
   {
     id: "g10-eng-ch02-a-q22",
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "'However' shows a contrast: she was tired, but she still finished. 'Therefore' is tempting because it is also a linker, but it shows a result, and finishing the race is not a result of being tired.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Contrast linker."]
   },
   {
     id: "g10-eng-ch02-a-q23",
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "The to-infinitive shows purpose: 'He went to the shop to buy milk'. 'For buying' is tempting because 'for' can show purpose, but with a verb of purpose standard English uses 'to buy'.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["The blank tells why he went to the shop: his purpose.", "Purpose is shown by an infinitive — to + base verb, with no -ing and no \"for\"."]
   },
   {
     id: "g10-eng-ch02-a-q24",
@@ -313,7 +313,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "With neither\u2026nor, verb often agrees with the nearer subject (friends \u2192 were).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["With neither ... nor, the verb agrees with the nearer subject.", "\"his friends\" is closest to the blank and is plural."]
   }
 ];
 
@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "'Had left' is past perfect (the earlier action) and 'arrived' is simple past (the later one). 'Present perfect' is tempting because both use have/had + past participle, but present perfect uses have/has, not had.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Had + V3 before another past."]
   },
   {
     id: "g10-eng-ch02-b-q02",
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Present continuous passive is is/are + being + past participle: 'A flyover is being built'. 'A flyover builds' is tempting because the flyover is the subject, but it is active, as if the flyover built something.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["'are building' is present continuous. Which passive form keeps that ongoing sense?", "The passive of a continuous tense needs is/are + being + past participle."]
   },
   {
     id: "g10-eng-ch02-b-q03",
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "'Must be' expresses a confident deduction about the present, and the lights being on are the evidence. 'Can't be' is tempting because it is also a present deduction, but it means she is surely not at home, which goes against the evidence. 'Must been' and 'should to be' are not correct forms.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["\"The lights are on\" is evidence for a confident guess about now.", "For a strong present deduction, use a modal + base form \"be\", not \"been\"."]
   },
   {
     id: "g10-eng-ch02-b-q04",
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "For a thing, the relative pronoun is that or which: 'the book that I told you about'. 'Whom' is tempting because it is used for objects, but whom refers only to people.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["The blank refers to \"the book\", a thing.", "Pick a relative word used for things, not for people."]
   },
   {
     id: "g10-eng-ch02-b-q05",
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A third conditional uses If + past perfect, then would have + past participle: 'she would have passed'. 'Will pass' is tempting because it is a common future form, but it belongs to the first conditional about real future events.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Unreal past."]
   },
   {
     id: "g10-eng-ch02-b-q06",
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "'Suggest' takes a gerund, so 'She suggested going home' is correct. 'She suggested to going' is tempting because it keeps the -ing, but 'to' should not be there.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Suggest doing."]
   },
   {
     id: "g10-eng-ch02-b-q08",
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "The passive question is 'By whom was this letter written?' (by whom + was + subject + past participle). 'Who was this letter wrote?' is tempting because it is close, but 'wrote' must be the past participle 'written', and 'by' is missing.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["A question in active voice stays a question in the passive.", "In the passive question, \"Who\" becomes a phrase with \"by\", and the verb needs a past participle."]
   },
   {
     id: "g10-eng-ch02-b-q09",
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "'Called off' means cancelled, which fits a meeting stopped by rain. 'Called on' is tempting because it uses the same verb, but call on means to visit someone.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Call off the meeting."]
   },
   {
     id: "g10-eng-ch02-b-q10",
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "With either… or, the verb agrees with the nearer subject: 'the students' is plural, so 'have'. 'Has' is tempting because 'the teacher' is singular, but the teacher is the farther subject.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Either…or proximity."]
   },
   {
     id: "g10-eng-ch02-b-q11",
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "A reported command uses tell + object + to-infinitive: 'told us to sit down'. 'That sit down' is tempting because reported statements often use 'that', but commands take 'to' + verb.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["When a command is reported after \"told us\", what verb form follows?"]
   },
   {
     id: "g10-eng-ch02-b-q12",
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "An adverb describes the verb sang, so 'beautifully'. 'Beautiful' is tempting, but it is an adjective and can only describe a noun.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Verb ← adverb."]
   },
   {
     id: "g10-eng-ch02-b-q13",
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "We congratulate someone 'on' something: 'congratulated me on my success'. 'About' is tempting because it often introduces a topic, but congratulate is followed by 'on'.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["\"congratulated\" takes a fixed preposition before the reason, \"my success\".", "The same little word follows \"compliment someone ___ their work\" and \"Congratulations ___ your new job\"."]
   },
   {
     id: "g10-eng-ch02-b-q14",
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "In a cleft sentence about a person we use 'who': 'It was Riya who solved the puzzle'. 'Whom' is tempting because it also refers to people, but here the relative pronoun is the subject of 'solved', so it must be 'who'.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["A cleft sentence \"It was Riya ___ solved\" focuses on a person.", "Riya is a person and the subject of \"solved\"; \"which\" is for things."]
   },
   {
     id: "g10-eng-ch02-b-q15",
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Stop + gerund means quitting that activity, so 'stopped listening'. 'To listen' is tempting, but stop + to-infinitive means stopping something else in order to listen, which is not what the brackets say.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["\"ceased the activity\" means he quit the radio, not paused to begin it.", "After \"stopped\", the -ing form means quitting; \"to + verb\" means pausing in order to do it."]
   },
   {
     id: "g10-eng-ch02-b-q17",
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Little fits: hope is uncountable here, so a small amount of it is 'little hope'. Few is tempting because it also means 'only a small number', but few goes only with countable plurals (few friends). Many and several also need countable plurals, so they cannot go with hope.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["\"hope\" is uncountable — you cannot count hopes here.", "Hope is uncountable; pick the determiner for a small amount of it."]
   },
   {
     id: "g10-eng-ch02-b-q18",
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A passive with a modal is modal + be + past participle: 'This must be finished'. 'This must finished' is tempting because it has the past participle, but it leaves out 'be'.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["After a modal verb, the passive uses the plain form of 'be'.", "Pattern: object + modal + be + past participle. Which choice has no extra 'to' or '-ing'?"]
   },
   {
     id: "g10-eng-ch02-b-q19",
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Past reporting + earlier past \u2192 past perfect; yesterday \u2192 the day before.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["\"said\" and \"the day before\" signal backshift to an earlier past.", "Losing the keys happened before she said it, so use the past perfect form of lose."]
   },
   {
     id: "g10-eng-ch02-b-q20",
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Past participle for the experiencer who receives the action.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["The baby was affected by the noise — a passive meaning.", "Use the past participle (-ed form) for a participle phrase with \"by the noise\"."]
   },
   {
     id: "g10-eng-ch02-b-q21",
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "'Mathematics' names one subject, so it takes a singular verb: 'is'. 'Are' is tempting because the word ends in -s, but it is not a plural here.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["\"Mathematics\" ends in -s but names one school subject.", "Subjects like physics and economics take a singular verb."]
   },
   {
     id: "g10-eng-ch02-b-q22",
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Being rich and not being happy contrast, so a contrast word like 'yet' fits. 'Therefore' is tempting because it joins two clauses, but it shows a result, and unhappiness does not follow from being rich.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Yet/however for contrast."]
   },
   {
     id: "g10-eng-ch02-b-q23",
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "'Too + adjective + to-infinitive' shows she cannot do something: 'too tired to work'. 'For working' is tempting because it also refers to work, but after 'too + adjective' we use 'to' + verb.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["\"too tired\" is followed by an infinitive showing what she cannot do.", "The pattern is too + adjective + to + base verb, like \"too weak to walk\"."]
   },
   {
     id: "g10-eng-ch02-b-q24",
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "'Swimming' is the -ing form used as a noun (the subject), so it is a gerund. 'Finite past verb' is tempting because it comes from a verb, but it has no tense and the main verb is 'is'.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Swimming = thing that is good."]
   }
 ];
 
