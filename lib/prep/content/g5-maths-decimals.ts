@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.405, 0.4, 0.35" }
     ],
     answerId: "a",
-    explanation: "Align to thousandths: 0.350, 0.400, 0.405. Ascending order is 0.35, 0.4, 0.405. 0.35, 0.405, 0.4 is tempting if you compare digit length and place 0.405 before 0.4 because it has more digits.",
+    explanation: `Align to thousandths: 0.350, 0.400, 0.405. Ascending order is 0.35, 0.4, 0.405. 0.4, 0.35, 0.405 is tempting if you read the digits after the point as whole numbers (4 < 35 < 405) instead of comparing place values.`,
     hints: ["Give each number three decimal places: 0.400, 0.350, 0.405. Then put them in ascending order."]
   },
   {
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "9 thousandths" }
     ],
     answerId: "b",
-    explanation: "After the point the places are tenths, hundredths, thousandths; in 5.391 the 9 is in the hundredths place. 9 ones is tempting if you ignore the decimal point and read 9 as a whole-number digit.",
+    explanation: `After the point the places are tenths, hundredths, thousandths; in 5.391 the 9 is in the hundredths place. 9 ones is tempting if you give only the face value of the digit (9) and forget that its place after the point changes what it is worth.`,
     hints: ["Name the places after the decimal point in 5.391 one by one. Which place does the 9 sit in?"]
   },
   {
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "a",
-    explanation: "Write both with hundredths: 0.09 and 0.10. Since 9 < 10, 0.09 is smaller. 0.1 is tempting if you compare digit strings left-to-right and treat “0.1” as smaller than “0.09” because it looks shorter.",
+    explanation: `Write both with hundredths: 0.09 and 0.10. Since 9 < 10, 0.09 is smaller. 0.1 is tempting if you ignore the zeros and compare 9 with 1, thinking 0.09 is bigger because 9 > 1.`,
     hints: ["Write 0.1 with two decimal places, then compare the hundredths of both numbers."]
   },
   {
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1.5, 1.005, 1.05" }
     ],
     answerId: "a",
-    explanation: "Align to thousandths: 1.500, 1.050, 1.005. Descending order is 1.5, 1.05, 1.005. 1.5, 1.005, 1.05 is tempting if you sort by the number of zeros after the point instead of by place value.",
+    explanation: `Align to thousandths: 1.500, 1.050, 1.005. Descending order is 1.5, 1.05, 1.005. 1.005, 1.05, 1.5 is tempting if you think the number with more digits after the point is larger.`,
     hints: ["Give each number three decimal places: 1.050, 1.500, 1.005. Then put them in descending order."]
   },
   {
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "60" }
     ],
     answerId: "b",
-    explanation: "Face value is the digit itself, which is 6. 0.6 is tempting if you give the place value of the tenths digit (6 tenths) instead of its face value.",
+    explanation: `Face value is the digit itself, which is 6. 0.06 is tempting if you give the place value of the 6 (it is in the hundredths place, so 6 hundredths = 0.06) instead of its face value.`,
     hints: ["Face value is just the digit itself, whatever its place. Place value would depend on its position in 8.46."]
   },
   {
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "50%" }
     ],
     answerId: "b",
-    explanation: "2/5 = 40/100 = 40%. 20% is tempting if you treat the numerator 2 as already being a percent of 100, or only multiply the denominator path halfway (×10 instead of ×20).",
+    explanation: `2/5 = 40/100 = 40%. 20% is tempting if you multiply top and bottom by 10 to get 20/50 and then read the 20 as a percent, forgetting that a percent needs a denominator of 100.`,
     hints: ["Make the denominator of 2/5 equal to 100 by multiplying the top and bottom by 20."]
   },
   {
