@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "A rope tied between two poles" }
     ],
     answerId: "a",
-    explanation: "A ray starts at one point and goes on without end in one direction, like a torch beam starting at the torch. A ruler edge, a track between two stations and a rope between poles all have two ends, so they model line segments. The edge of a ruler is tempting, but it does not match what the question asks.",
+    explanation: "A ray starts at one point and goes on without end in one direction, like a torch beam starting at the torch. A ruler edge, a track between two stations and a rope between poles all have two ends, so they model line segments. The edge of a ruler is tempting if you mix up angle or shape facts, but the correct choice is A torch beam shining into the night sky.",
     hints: ["A ray has a starting point but no finishing point. Which of these has only one end?"]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "arc" }
     ],
     answerId: "a",
-    explanation: "Radius is centre-to-rim distance. diameter is tempting, but it does not match what the question asks.",
+    explanation: "Radius is centre-to-rim distance. diameter is tempting if you mix up angle or shape facts, but the correct choice is radius.",
     hints: ["The distance from the centre of a circle to any point on it is half the diameter. What is it called?"]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "21 cm" }
     ],
     answerId: "b",
-    explanation: "Diameter = 2 × radius = 14 cm. 7 cm is tempting, but it does not match what the question asks.",
+    explanation: "Diameter = 2 × radius = 14 cm. 7 cm is tempting if you mix up angle or shape facts, but the correct choice is 14 cm.",
     hints: ["Diameter is twice the radius."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "polygon" }
     ],
     answerId: "d",
-    explanation: "Polygons are closed shapes with straight sides. ray is tempting, but it does not match what the question asks.",
+    explanation: "Polygons are closed shapes with straight sides. ray is tempting if you mix up angle or shape facts, but the correct choice is polygon.",
     hints: ["A closed figure with straight line segments as sides, like a triangle or hexagon, has a general name. What is it?"]
   },
   {
@@ -221,7 +221,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "110°" }
     ],
     answerId: "a",
-    explanation: "180 − 50 − 60 = 70°. 80° is tempting, but it does not match what the question asks.",
+    explanation: "180 − 50 − 60 = 70°. 80° is tempting if you mix up angle or shape facts, but the correct choice is 70°.",
     hints: ["Use triangle sum 180°."]
   },
   {
@@ -273,7 +273,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "A point 5.5 cm from O" }
     ],
     answerId: "a",
-    explanation: "Points at distance less than the radius lie inside. 3 < 5. A point 5 cm from O is tempting, but it does not match what the question asks.",
+    explanation: "Points at distance less than the radius lie inside. 3 < 5. A point 5 cm from O is tempting if you mix up angle or shape facts, but the correct choice is A point 3 cm from O.",
     hints: ["Inside means distance from centre < radius."]
   },
   {
@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "diameter" }
     ],
     answerId: "d",
-    explanation: "The longest chord through the centre is the diameter. radius is tempting, but it does not match what the question asks.",
+    explanation: "The longest chord through the centre is the diameter. radius is tempting if you mix up angle or shape facts, but the correct choice is Angle.",
     hints: ["A chord through the centre goes right across the circle and is twice the radius. Name it."]
   }
 ];
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Angle" }
     ],
     answerId: "a",
-    explanation: "A line extends endlessly in both directions — no endpoints. Ray is tempting, but it does not match what the question asks.",
+    explanation: "A line extends endlessly in both directions — no endpoints. Ray is tempting if you forget that a ray has only one endpoint, while a line has none.",
     hints: ["Count endpoints: a segment has two and a ray has one. Which figure has no endpoints at all?"]
   },
   {
@@ -432,7 +432,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5 cm" }
     ],
     answerId: "a",
-    explanation: "Radius = diameter ÷ 2 = 10 cm. 5 cm is tempting, but it does not match what the question asks.",
+    explanation: "Radius = diameter ÷ 2 = 10 cm. 5 cm is tempting if you mix up angle or shape facts, but the correct choice is 10 cm.",
     hints: ["Half the diameter."]
   },
   {
@@ -484,7 +484,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Set square only" }
     ],
     answerId: "a",
-    explanation: "A compass draws circles of a chosen radius. Protractor is tempting, but it does not match what the question asks.",
+    explanation: "A compass draws circles of a chosen radius. Protractor is tempting if you mix up angle or shape facts, but the correct choice is Compass.",
     hints: ["Which tool has a sharp point to hold the centre and a pencil arm that turns to draw a circle?"]
   },
   {
@@ -497,7 +497,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "b",
-    explanation: "A cube has 8 corners (vertices). 6 is tempting, but it does not match what the question asks.",
+    explanation: "A cube has 8 corners (vertices). 6 is tempting if you mix up angle or shape facts, but the correct choice is 8.",
     hints: ["Picture a dice: count the corners on the top face of the cube, then on the bottom face."]
   },
   {
@@ -510,7 +510,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "c",
-    explanation: "A cube has 12 edges. 8 is tempting, but it does not match what the question asks.",
+    explanation: "A cube has 12 edges. 8 is tempting if you mix up angle or shape facts, but the correct choice is 12.",
     hints: ["Count the edges of a cube: the top face has 4, the bottom face has 4, then add the upright edges."]
   },
   {
@@ -549,7 +549,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "heptagon" }
     ],
     answerId: "b",
-    explanation: "Penta- means five → pentagon. hexagon is tempting, but it does not match what the question asks.",
+    explanation: "Penta- means five → pentagon. hexagon is tempting if you mix up angle or shape facts, but the correct choice is pentagon.",
     hints: ["Hexa means 6, hepta means 7, octa means 8. Which polygon name is left for 5 sides?"]
   },
   {
@@ -562,7 +562,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "secant" }
     ],
     answerId: "c",
-    explanation: "The interior region is the disk; circumference is the boundary length. circumference is tempting, but it does not match what the question asks.",
+    explanation: "The interior region is the disk; circumference is the boundary length. circumference is tempting if you mix up angle or shape facts, but the correct choice is interior (disk).",
     hints: ["The circumference is the boundary of the circle. What do we call the region enclosed inside it?"]
   },
   {
@@ -575,7 +575,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "55°" }
     ],
     answerId: "d",
-    explanation: "90 − 35 = 55°. 65° is tempting, but it does not match what the question asks.",
+    explanation: "90 − 35 = 55°. 65° is tempting if you use the wrong angle relationship (for example complementary instead of supplementary); the correct measure is 55°.",
     hints: ["Complementary sum to 90°."]
   },
   {
@@ -588,7 +588,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "90°" }
     ],
     answerId: "a",
-    explanation: "180 − 110 = 70°. 80° is tempting, but it does not match what the question asks.",
+    explanation: "180 − 110 = 70°. 80° is tempting if you use the wrong angle relationship (for example complementary instead of supplementary); the correct measure is 70°.",
     hints: ["Supplementary sum to 180°."]
   },
   {
@@ -614,7 +614,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "minor arc" }
     ],
     answerId: "c",
-    explanation: "The diameter is the longest chord. radius is tempting, but it does not match what the question asks.",
+    explanation: "The diameter is the longest chord. radius is tempting if you mix up angle or shape facts, but the correct choice is diameter.",
     hints: ["Through the centre = longest."]
   },
   {
@@ -627,7 +627,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "circle" }
     ],
     answerId: "d",
-    explanation: "A circle’s boundary is curved, so it is not a polygon. triangle is tempting, but it does not match what the question asks.",
+    explanation: "A circle’s boundary is curved, so it is not a polygon. triangle is tempting if you mix up angle or shape facts, but the correct choice is circle.",
     hints: ["Polygons need straight sides only."]
   }
 ];
