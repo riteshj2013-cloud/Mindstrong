@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "c",
-    explanation: "0.50 > 0.45, so 0.5 is greater. 0. 0.45 is tempting if you compare the wrong parts of the numbers, but the correct comparison gives 0.5.",
+    explanation: "0.50 > 0.45, so 0.5 is greater. 0.45 is tempting if you compare the wrong parts of the numbers, but the correct comparison gives 0.5.",
     hints: ["Give both numbers two decimal places by adding a zero, then compare the hundredths with 0.45."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1.55" }
     ],
     answerId: "d",
-    explanation: "1.20 + 0.35 = 1.55. 1. 1.45 is tempting if you add denominators with numerators or misalign place values, but the correct value is 1.55.",
+    explanation: "1.20 + 0.35 = 1.55. 1.45 is tempting if you add denominators with numerators or misalign place values, but the correct value is 1.55.",
     hints: ["Line up the decimal points: write 1.2 as 1.20, then add 0.35."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6.25" }
     ],
     answerId: "a",
-    explanation: "4.50 − 1.75 = 2.75. 3. 2.25 is tempting if you add denominators with numerators or misalign place values, but the correct value is 2.75.",
+    explanation: "4.50 − 1.75 = 2.75. 2.25 is tempting if you add denominators with numerators or misalign place values, but the correct value is 2.75.",
     hints: ["Write 4.5 as 4.50, line up the decimal points, then subtract 1.75."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8.5" }
     ],
     answerId: "c",
-    explanation: "2.5 × 4 = 10. 8. 8.5 is tempting if you add denominators with numerators or misalign place values, but the correct value is 10.",
+    explanation: "2.5 × 4 = 10. 8.5 is tempting if you add denominators with numerators or misalign place values, but the correct value is 10.",
     hints: ["Split 2.5 into 2 and 0.5, multiply each part by 4, then add."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4.25 km" }
     ],
     answerId: "d",
-    explanation: "2.40 + 1.85 = 4.25 km. 4.125. 3.25 km is tempting if you add denominators with numerators or misalign place values, but the correct value is 4.25 km.",
+    explanation: "2.40 + 1.85 = 4.25 km. 3.25 km is tempting if you add denominators with numerators or misalign place values, but the correct value is 4.25 km.",
     hints: ["Write 2.4 km as 2.40 km, line up the decimal points, then add Ravi's 1.85 km."]
   },
   {
@@ -260,7 +260,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.09, 0.19, 0.9" }
     ],
     answerId: "d",
-    explanation: "0.09 < 0.19 < 0.90. 0.09, 0.9, 0. 0.09, 0.9, 0.19 is tempting if you add denominators with numerators or misalign place values, but the correct value is 0.09, 0.19, 0.9.",
+    explanation: "0.09 < 0.19 < 0.90. 0.09, 0.9, 0.19 is tempting if you add denominators with numerators or misalign place values, but the correct value is 0.09, 0.19, 0.9.",
     hints: ["Write 0.09, 0.9 and 0.19 with two decimal places each, then compare the hundredths."]
   },
   {
@@ -273,7 +273,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.67" }
     ],
     answerId: "a",
-    explanation: "1.00 − 0.37 = 0.63. 0. 0.67 is tempting if you add denominators with numerators or misalign place values, but the correct value is 0.63.",
+    explanation: "1.00 − 0.37 = 0.63. 0.67 is tempting if you add denominators with numerators or misalign place values, but the correct value is 0.63.",
     hints: ["Write 1 as 1.00, then subtract 0.37. Check: your answer plus 0.37 should make 1."]
   },
   {
@@ -299,7 +299,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.5" }
     ],
     answerId: "c",
-    explanation: "7/10 = 0.7; 0.7 + 0.2 = 0.9. 1. 1.0 is tempting if you add denominators with numerators or misalign place values, but the correct value is 0.9.",
+    explanation: "7/10 = 0.7; 0.7 + 0.2 = 0.9. 1.0 is tempting if you add denominators with numerators or misalign place values, but the correct value is 0.9.",
     hints: ["Write 7/10 as a decimal first, then add 0.2."]
   },
   {
@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.9 L" }
     ],
     answerId: "d",
-    explanation: "3/5 = 0.6; 1.5 − 0.6 = 0.9 L. 0.8. 1.1 L is tempting because it is the part used up, but the question asks for what is left, which is 2/6.",
+    explanation: "3/5 = 0.6; 1.5 − 0.6 = 0.9 L. 1.1 L is tempting if you read 3/5 as 0.4 L, but 3/5 = 0.6, so 0.9 L is left.",
     hints: ["Change Meera's 3/5 L into a decimal by making the bottom 10. Then subtract it from 1.5 L."]
   }
 ];
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1.8" }
     ],
     answerId: "d",
-    explanation: "2.4 ÷ 4 = 0.6; 0.6 × 3 = 1.8. 1. 1.2 is tempting if you add denominators with numerators or misalign place values, but the correct value is 1.8.",
+    explanation: "2.4 ÷ 4 = 0.6; 0.6 × 3 = 1.8. 1.2 is tempting if you add denominators with numerators or misalign place values, but the correct value is 1.8.",
     hints: ["Quarter of 2.4, then triple it."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "23.75" }
     ],
     answerId: "c",
-    explanation: "2.05 + 3.70 = 5.75. 5. 5.775 is tempting if you add denominators with numerators or misalign place values, but the correct value is 5.75.",
+    explanation: "2.05 + 3.70 = 5.75. 5.775 is tempting if you add denominators with numerators or misalign place values, but the correct value is 5.75.",
     hints: ["Write 3.7 as 3.70, line up the decimal points, then add 2.05."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3.52" }
     ],
     answerId: "d",
-    explanation: "6.00 − 2.48 = 3.52. 3. 3.62 is tempting if you add denominators with numerators or misalign place values, but the correct value is 3.52.",
+    explanation: "6.00 − 2.48 = 3.52. 3.62 is tempting if you add denominators with numerators or misalign place values, but the correct value is 3.52.",
     hints: ["Write 6 as 6.00, then subtract."]
   },
   {
@@ -432,7 +432,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.45" }
     ],
     answerId: "a",
-    explanation: "1.5 ÷ 0.3 = 15 ÷ 3 = 5. 4. 4.5 is tempting if you add denominators with numerators or misalign place values, but the correct value is 5.",
+    explanation: "1.5 ÷ 0.3 = 15 ÷ 3 = 5. 4.5 is tempting if you add denominators with numerators or misalign place values, but the correct value is 5.",
     hints: ["Multiply 0.3 and the other number by 10 to remove the decimals. Then divide."]
   },
   {
@@ -458,7 +458,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.1001" }
     ],
     answerId: "c",
-    explanation: "0.1000 is smaller than 0.1001, 0.1010 and 0.1100. 0. 0.1001 is tempting if you compare the wrong parts of the numbers, but the correct comparison gives 0.1.",
+    explanation: "0.1000 is smaller than 0.1001, 0.1010 and 0.1100. 0.1001 is tempting if you compare the wrong parts of the numbers, but the correct comparison gives 0.1.",
     hints: ["To find the least, write each with four decimal places, so 0.11 becomes 0.1100. Then compare digit by digit."]
   },
   {
@@ -523,7 +523,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.8" }
     ],
     answerId: "d",
-    explanation: "2/5 = 0.4; 0.4 + 0.4 = 0.8. 0. 0.9 is tempting if you add denominators with numerators or misalign place values, but the correct value is 0.8.",
+    explanation: "2/5 = 0.4; 0.4 + 0.4 = 0.8. 0.9 is tempting if you add denominators with numerators or misalign place values, but the correct value is 0.8.",
     hints: ["Convert 2/5 to a decimal first."]
   },
   {
@@ -549,7 +549,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.42" }
     ],
     answerId: "b",
-    explanation: "12.6 ÷ 3 = 4.2. 3. 3.2 is tempting if you add denominators with numerators or misalign place values, but the correct value is 4.2.",
+    explanation: "12.6 ÷ 3 = 4.2. 3.2 is tempting if you add denominators with numerators or misalign place values, but the correct value is 4.2.",
     hints: ["Divide 12 by 3, then 0.6 by 3, and add the two results."]
   },
   {
@@ -601,7 +601,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.07 = 7/10" }
     ],
     answerId: "b",
-    explanation: "7/10 = 0.7 exactly. 0.7. 0.7 > 7/10 is tempting if you add denominators with numerators or misalign place values, but the correct value is 0.7 = 7/10.",
+    explanation: "7/10 = 0.7 exactly. 0.7 > 7/10 is tempting if you add denominators with numerators or misalign place values, but the correct value is 0.7 = 7/10.",
     hints: ["Change 7/10 into a decimal by dividing 7 by 10. Compare it with 0.7."]
   },
   {

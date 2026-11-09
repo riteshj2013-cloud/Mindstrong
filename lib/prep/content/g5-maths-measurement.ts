@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "d",
-    explanation: "2 L = 2000 ml; 2000 ÷ 250 = 8 cans. 6 is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 1000 mm.",
+    explanation: "2 L = 2000 ml; 2000 ÷ 250 = 8 cans. 4 is tempting if you use 1000 mL instead of 2000 mL; 2000 ÷ 250 = 8.",
     hints: ["Change 2 L to millilitres first, then divide by the 250 ml in each can."]
   }
 ];

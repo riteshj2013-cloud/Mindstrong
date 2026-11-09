@@ -277,7 +277,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The day goes morning, afternoon, then evening, so evening comes after afternoon. 'Before' is tempting, but afternoon comes first.",
-    hints: ["Evening is when lamps go on and the sky is darker. Does that time come earlier than midday, or later?"]
+    hints: ["Evening is when lamps go on and the sky grows darker. Does that come earlier than afternoon, or later?"]
   },
   {
     id: "g2-maths-timemoney-b-q06",

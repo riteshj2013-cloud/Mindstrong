@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "120 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "Area = length × breadth = 12 × 5 = 60 cm². 34 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 60 cm². 34 cm² is tempting if you use the wrong formula or mix length with area/volume; the correct result is 60 cm².",
+    explanation: "Area = length × breadth = 12 × 5 = 60 cm². 34 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 60 cm².",
     hints: ["Area of a rectangle = length × breadth. Multiply 12 cm by 5 cm."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "32 cm\u00b2" }
     ],
     answerId: "c",
-    explanation: "Area = (1/2) × base × height = (1/2) × 10 × 6 = 30 cm². 32 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 30 cm². 32 cm² is tempting if you use the wrong formula or mix length with area/volume; the correct result is 30 cm².",
+    explanation: "Area = (1/2) × base × height = (1/2) × 10 × 6 = 30 cm². 32 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 30 cm².",
     hints: ["Area of a triangle = ½ × base × height. Use base 10 cm and height 6 cm."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "22 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "A = πr² = (22/7) × 49 = 154 cm². 49 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 154 cm². 49 cm² is tempting if you use the wrong formula or mix length with area/volume; the correct result is 154 cm².",
+    explanation: "A = πr² = (22/7) × 49 = 154 cm². 49 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 154 cm².",
     hints: ["Area = πr². Square the radius 7 cm, then multiply by 22/7."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12 cm\u00b3" }
     ],
     answerId: "b",
-    explanation: "Volume = a³ = 4³ = 64 cm³. 48 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 64 cm³. 48 cm³ is tempting if you use the wrong formula or mix length with area/volume; the correct result is 64 cm³.",
+    explanation: "Volume = a³ = 4³ = 64 cm³. 48 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 64 cm³.",
     hints: ["Volume of a cube = edge × edge × edge. Multiply 4 cm by itself three times."]
   },
   {
@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "60 cm\u00b3" }
     ],
     answerId: "c",
-    explanation: "V = l × b × h = 5 × 3 × 2 = 30 cm³. 15 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 30 cm³. 15 cm³ is tempting if you use the wrong formula or mix length with area/volume; the correct result is 30 cm³.",
+    explanation: "V = l × b × h = 5 × 3 × 2 = 30 cm³. 15 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 30 cm³.",
     hints: ["Volume of a cuboid = length × breadth × height. Multiply 5, 3 and 2."]
   },
   {
@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "100 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "LSA = 4a² = 4 × 25 = 100 cm². 125 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 100 cm². 125 cm² is tempting if you use the wrong formula or mix length with area/volume; the correct result is 100 cm².",
+    explanation: "LSA = 4a² = 4 × 25 = 100 cm². 125 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 100 cm².",
     hints: ["The lateral surface of a cube is its 4 side faces. Each face is 5 cm × 5 cm."]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "18 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "TSA = 6a² = 6 × 9 = 54 cm². 36 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 54 cm². 36 cm² is tempting if you use the wrong formula or mix length with area/volume; the correct result is 54 cm².",
+    explanation: "TSA = 6a² = 6 × 9 = 54 cm². 36 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 54 cm².",
     hints: ["A cube has 6 equal square faces. Find the area of one face with edge 3 cm, then multiply."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "80 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "Area = base × height = 8 × 5 = 40 cm². 20 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 40 cm². 20 cm² is tempting if you use the wrong formula or mix length with area/volume; the correct result is 40 cm².",
+    explanation: "Area = base × height = 8 × 5 = 40 cm². 20 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 40 cm².",
     hints: ["Area of a parallelogram = base × height. Use base 8 cm and height 5 cm."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "32 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "Area = (1/2)(a + b)h = (1/2)(10 + 6)×4 = 32 cm². 24 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 32 cm². 24 cm² is tempting if you use the wrong formula or mix length with area/volume; the correct result is 32 cm².",
+    explanation: "Area = (1/2)(a + b)h = (1/2)(10 + 6)×4 = 32 cm². 24 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 32 cm².",
     hints: ["Area of a trapezium = ½ × (sum of parallel sides) × height. Add 10 and 6 first."]
   },
   {
@@ -169,7 +169,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "770 cm\u00b3" }
     ],
     answerId: "a",
-    explanation: "V = πr²h = (22/7)×49×10 = 1540 cm³. 770 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 1540 cm³. 770 cm³ is tempting if you use the wrong formula or mix length with area/volume; the correct result is 1540 cm³.",
+    explanation: "V = πr²h = (22/7)×49×10 = 1540 cm³. 770 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 1540 cm³.",
     hints: ["Volume of a cylinder = πr²h. Find the base area with r = 7 cm, then multiply by h = 10 cm."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "140 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "CSA = 2πrh = 2×(22/7)×7×10 = 440 cm². 220 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 440 cm². 220 cm² is tempting if you use the wrong formula or mix length with area/volume; the correct result is 440 cm².",
+    explanation: "CSA = 2πrh = 2×(22/7)×7×10 = 440 cm². 220 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 440 cm².",
     hints: ["Curved surface area = 2πrh. Use r = 7 cm, h = 10 cm and π = 22/7."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "480 cm\u00b2" }
     ],
     answerId: "c",
-    explanation: "TSA = 2(lb + bh + hl) = 2(48 + 30 + 40) = 2×118 = 236 cm². 240 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 236 cm². 240 cm² is tempting if you use the wrong formula or mix length with area/volume; the correct result is 236 cm².",
+    explanation: "TSA = 2(lb + bh + hl) = 2(48 + 30 + 40) = 2×118 = 236 cm². 240 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 236 cm².",
     hints: ["TSA = 2(lb + bh + hl). Find 8 × 6, 6 × 5 and 5 × 8 first."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "54 m\u00b2" }
     ],
     answerId: "d",
-    explanation: "Lateral area = 2(l + b)h = 2(5 + 4)×3 = 54 m². 60 m² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 54 m². 60 m² is tempting if you use the wrong formula or mix length with area/volume; the correct result is 54 m².",
+    explanation: "Lateral area = 2(l + b)h = 2(5 + 4)×3 = 54 m². 60 m² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 54 m².",
     hints: ["Four walls = 2(length + breadth) × height. Use 5 m, 4 m and the 3 m height."]
   },
   {
@@ -221,7 +221,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6400 m\u00b2" }
     ],
     answerId: "a",
-    explanation: "Side = 80/4 = 20 m; area = 20² = 400 m². 200 m² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 400 m². 200 m² is tempting if you use the wrong formula or mix length with area/volume; the correct result is 400 m².",
+    explanation: "Side = 80/4 = 20 m; area = 20² = 400 m². 200 m² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 400 m².",
     hints: ["Divide the 80 m perimeter by 4 to get one side of the square park, then square that side."]
   },
   {
@@ -260,7 +260,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "269.5 m\u00b3" }
     ],
     answerId: "d",
-    explanation: "V = (22/7)×(3.5)²×7 = (22/7)×12.25×7 = 22×12.25 = 269.5 m³. 154 m³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 269.5 m³. 154 m³ is tempting if you use the wrong formula or mix length with area/volume; the correct result is 269.5 m³.",
+    explanation: "V = (22/7)×(3.5)²×7 = (22/7)×12.25×7 = 22×12.25 = 269.5 m³. 154 m³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 269.5 m³.",
     hints: ["V = πr²h. Square 3.5 m first, then multiply by 22/7 and by 7 m; the 7s cancel."]
   },
   {
@@ -286,7 +286,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "39 m\u00b2" }
     ],
     answerId: "b",
-    explanation: "Inner square side 18 m; path area = 400 − 324 = 76 m². 39 m² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 76 m². 39 m² is tempting if you use the wrong formula or mix length with area/volume; the correct result is 76 m².",
+    explanation: "Inner square side 18 m; path area = 400 − 324 = 76 m². 39 m² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 76 m².",
     hints: ["The path takes 1 m off each side, so the inner square's side is 20 m − 2 m. Subtract inner area from outer."]
   },
   {
@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "550 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "CSA = πrl = (22/7)×7×25 = 550 cm². 175 cm² is tempting if you use the wrong place-value jump between units, but the correct conversion gives 110 cm².",
+    explanation: "CSA = πrl = (22/7)×7×25 = 550 cm². 154 cm² is tempting because it is πr², the base area; CSA = πrl = 550 cm².",
     hints: ["CSA of a cone = πrl. Use r = 7 cm, slant height 25 cm and π = 22/7."]
   }
 ];
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "38 cm" }
     ],
     answerId: "b",
-    explanation: "P = 2(l + b) = 2(15 + 8) = 46 cm. 38 cm is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 46 cm. 38 cm is tempting if you use the wrong formula or mix length with area/volume; the correct result is 46 cm.",
+    explanation: "P = 2(l + b) = 2(15 + 8) = 46 cm. 38 cm is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 46 cm.",
     hints: ["Perimeter of a rectangle = 2 × (length + breadth). Add 15 cm and 8 cm first."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "28 cm\u00b2" }
     ],
     answerId: "c",
-    explanation: "Area = (1/2)×6×8 = 24 cm². 28 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 24 cm². 28 cm² is tempting if you use the wrong formula or mix length with area/volume; the correct result is 24 cm².",
+    explanation: "Area = (1/2)×6×8 = 24 cm². 28 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 24 cm².",
     hints: ["In a right triangle the two legs are the base and height. Area = ½ × 6 × 8."]
   },
   {
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "308 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "r = 7; A = (22/7)×49 = 154 cm². 44 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 154 cm². 44 cm² is tempting if you use the wrong formula or mix length with area/volume; the correct result is 154 cm².",
+    explanation: "r = 7; A = (22/7)×49 = 154 cm². 44 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 154 cm².",
     hints: ["Halve the 14 cm diameter to get the radius, then use area = πr²."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "10 cm" }
     ],
     answerId: "b",
-    explanation: "a³ = 125 ⇒ a = 5 cm. 10 cm is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 5 cm. 10 cm is tempting if you use the wrong formula or mix length with area/volume; the correct result is 5 cm.",
+    explanation: "a³ = 125 ⇒ a = 5 cm. 10 cm is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 5 cm.",
     hints: ["Find the number that, multiplied by itself three times, gives 125."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "240 cm\u00b3" }
     ],
     answerId: "c",
-    explanation: "V = 10 × 4 × 3 = 120 cm³. 40 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 120 cm³. 40 cm³ is tempting if you use the wrong formula or mix length with area/volume; the correct result is 120 cm³.",
+    explanation: "V = 10 × 4 × 3 = 120 cm³. 40 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 120 cm³.",
     hints: ["Volume of a cuboid = length × breadth × height. Multiply 10, 4 and 3."]
   },
   {
@@ -445,7 +445,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "36 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "Area = (1/2)×d₁×d₂ = (1/2)×10×8 = 40 cm². 36 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 40 cm². 36 cm² is tempting if you use the wrong formula or mix length with area/volume; the correct result is 40 cm².",
+    explanation: "Area = (1/2)×d₁×d₂ = (1/2)×10×8 = 40 cm². 36 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 40 cm².",
     hints: ["Area of a rhombus = ½ × product of the diagonals. Use 10 cm and 8 cm."]
   },
   {
@@ -458,7 +458,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2772 m\u00b2" }
     ],
     answerId: "c",
-    explanation: "A = (22/7)×441 = 1386 m². 462 m² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 1386 m². 462 m² is tempting if you use the wrong formula or mix length with area/volume; the correct result is 1386 m².",
+    explanation: "A = (22/7)×441 = 1386 m². 462 m² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 1386 m².",
     hints: ["Area = πr². Square the 21 m radius, then multiply by 22/7; 21 divides by 7 neatly."]
   },
   {
@@ -471,7 +471,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "50 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "(1/2)(12 + 8)×5 = 50 cm². 40 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 50 cm². 40 cm² is tempting if you use the wrong formula or mix length with area/volume; the correct result is 50 cm².",
+    explanation: "(1/2)(12 + 8)×5 = 50 cm². 40 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 50 cm².",
     hints: ["Area of a trapezium = ½ × (sum of parallel sides) × height. Add 12 and 8 first."]
   },
   {
@@ -484,7 +484,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "616 cm\u00b3" }
     ],
     answerId: "a",
-    explanation: "V = (22/7)×(3.5)²×8 = 22×12.25×8/7… (22/7)×12.25×8 = 22×1.75×8 = 308 cm³. 154 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 308 cm³. 154 cm³ is tempting if you use the wrong formula or mix length with area/volume; the correct result is 308 cm³.",
+    explanation: "V = (22/7)×(3.5)²×8 = 22×12.25×8/7… (22/7)×12.25×8 = 22×1.75×8 = 308 cm³. 154 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 308 cm³.",
     hints: ["V = πr²h. Square 3.5 cm, multiply by 22/7, then by the height 8 cm."]
   },
   {
@@ -536,7 +536,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "18 cm" }
     ],
     answerId: "a",
-    explanation: "Rectangle area 144; side = √144 = 12 cm. 13 cm is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 12 cm. 13 cm is tempting if you use the wrong formula or mix length with area/volume; the correct result is 12 cm.",
+    explanation: "Rectangle area 144; side = √144 = 12 cm. 13 cm is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 12 cm.",
     hints: ["First find the rectangle's area, 16 × 9. The square's side is the square root of that area."]
   },
   {
@@ -575,7 +575,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "37.68 cm\u00b3" }
     ],
     answerId: "d",
-    explanation: "V = (1/3)πr²h = (1/3)×3.14×9×4 = 37.68 cm³. 12 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 37.68 cm³. 12 cm³ is tempting if you use the wrong formula or mix length with area/volume; the correct result is 37.68 cm³.",
+    explanation: "V = (1/3)πr²h = (1/3)×3.14×9×4 = 37.68 cm³. 12 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 37.68 cm³.",
     hints: ["Volume of a cone = ⅓ × π × r² × h. Use r = 3 cm, h = 4 cm and π = 3.14."]
   },
   {
@@ -601,7 +601,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "100 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "Outer area 144 − inner 100 = 44 cm². 24 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 44 cm². 24 cm² is tempting if you use the wrong formula or mix length with area/volume; the correct result is 44 cm².",
+    explanation: "Outer area 144 − inner 100 = 44 cm². 24 cm² is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 44 cm².",
     hints: ["Area of the frame = outer square area − inner square area. Square 12 cm and 10 cm."]
   },
   {
@@ -614,7 +614,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "440 cm\u00b3" }
     ],
     answerId: "c",
-    explanation: "Length = 2000 cm; V = (22/7)×12.25×2000 = 77000 cm³. 7700 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 77000 cm³. 7700 cm³ is tempting if you use the wrong formula or mix length with area/volume; the correct result is 77000 cm³.",
+    explanation: "Length = 2000 cm; V = (22/7)×12.25×2000 = 77000 cm³. 7700 cm³ is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 77000 cm³.",
     hints: ["Change the 20 m length to centimetres first, then use V = πr²h with r = 3.5 cm."]
   },
   {

@@ -321,7 +321,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3/5" }
     ],
     answerId: "b",
-    explanation: "In twelfths, 1/3 = 4/12 and 1/2 = 6/12, so 5/12 lies between them. 1/4 is tempting if you add denominators as well as numerators or cancel unmatched factors, but the correct value is 5/8.",
+    explanation: "In twelfths, 1/3 = 4/12 and 1/2 = 6/12, so 5/12 lies between them. 1/4 is tempting because it is close to 1/3, but 1/4 = 3/12 is less than 4/12.",
     hints: ["Write 1/3 and 1/2 as twelfths. Which fraction sits between those two?"]
   }
 ];

@@ -104,7 +104,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "-18" }
     ],
     answerId: "a",
-    explanation: "The equation is n + 12 = 30, so n = 30 − 12 = 18. 2. 2.5 is tempting if you mix up angle or shape facts, but the correct choice is 18.",
+    explanation: "The equation is n + 12 = 30, so n = 30 − 12 = 18. 2.5 is tempting if you mix up angle or shape facts, but the correct choice is 18.",
     hints: ["Write n + 12 = 30, then subtract 12 from both sides."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "29 cm" }
     ],
     answerId: "a",
-    explanation: "2(b + 6 + b) = 64 gives 4b + 12 = 64, so b = 13 cm, while 19 cm is the length. 10 cm is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 13 cm. 10 cm is tempting if you move a term across the equals sign without changing its sign; solving carefully gives 13 cm.",
+    explanation: "2(b + 6 + b) = 64 gives 4b + 12 = 64, so b = 13 cm, while 19 cm is the length. 10 cm is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 13 cm.",
     hints: ["Let the breadth be b, so the length is b + 6. Use perimeter = 2(length + breadth) = 64."]
   },
   {
@@ -286,7 +286,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3 hours" }
     ],
     answerId: "d",
-    explanation: "Moving towards each other, they close the gap at 50 + 60 = 110 km/h, so 110t = 330 gives t = 3 hours. 5.5. 33 hours is tempting if you mix up angle or shape facts, but the correct choice is 3 hours.",
+    explanation: "Moving towards each other, they close the gap at 50 + 60 = 110 km/h, so 110t = 330 gives t = 3 hours. 33 hours is tempting if you mix up angle or shape facts, but the correct choice is 3 hours.",
     hints: ["Moving towards each other, the buses close the 330 km gap by 50 + 60 km every hour."]
   },
   {
@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "a",
-    explanation: "Opening the brackets gives 11 − 2x = 7 − 3x, so x = −4, while 8 comes from writing −2(x − 3) as −2x − 6. 2 is tempting if you mix up angle or shape facts, but the correct choice is 2a + 3.",
+    explanation: "Opening the brackets gives 11 − 2x = 7 − 3x, so x = −4, while 8 comes from writing −2(x − 3) as −2x − 6. 2 is tempting after a sign slip moving −3x; the solution is x = −4.",
     hints: ["Open both brackets, watching the minus sign before 2(x − 3). Then collect the x terms on the left."]
   }
 ];
@@ -523,7 +523,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "36 cm" }
     ],
     answerId: "c",
-    explanation: "2s + 14 = 50 gives 2s = 36, so each equal side is 18 cm, while 36 cm is the two sides together. 25 cm is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 18 cm. 25 cm is tempting if you move a term across the equals sign without changing its sign; solving carefully gives 18 cm.",
+    explanation: "2s + 14 = 50 gives 2s = 36, so each equal side is 18 cm, while 36 cm is the two sides together. 25 cm is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 18 cm.",
     hints: ["The two equal sides plus the base of 14 cm make 50 cm. Write 2s + 14 = 50."]
   },
   {
@@ -549,7 +549,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "-8" }
     ],
     answerId: "c",
-    explanation: "Collecting terms gives 0.2y = 1.6, so y = 1.6 ÷ 0.2 = 8. 0. 0.8 is tempting if you mix up angle or shape facts, but the correct choice is 8.",
+    explanation: "Collecting terms gives 0.2y = 1.6, so y = 1.6 ÷ 0.2 = 8. 0.8 is tempting if you mix up angle or shape facts, but the correct choice is 8.",
     hints: ["Multiply every term by 10 to clear the decimals, then collect the y terms on the left."]
   },
   {

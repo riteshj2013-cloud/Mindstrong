@@ -91,7 +91,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.01" }
     ],
     answerId: "d",
-    explanation: "10⁻² = 1/100 = 0.01. 0. 0.1 is tempting if you stop one step early or reverse a step, but the correct result is 0.01.",
+    explanation: "10⁻² = 1/100 = 0.01. 0.1 is tempting if you stop one step early or reverse a step, but the correct result is 0.01.",
     hints: ["10⁻² = 1 ÷ 10². Work out 10², then divide 1 by it."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5.6 \u00d7 10\u2074" }
     ],
     answerId: "c",
-    explanation: "Move the point 4 places: 5.6 × 10⁻⁴. 5.6. 5.6 × 10⁴ is tempting if you stop one step early or reverse a step, but the correct result is 5.6 × 10⁻⁴.",
+    explanation: "Move the point 4 places: 5.6 × 10⁻⁴. 5.6 × 10⁴ is tempting if you stop one step early or reverse a step, but the correct result is 5.6 × 10⁻⁴.",
     hints: ["Move the decimal point of 0.00056 right until one non-zero digit is before it. Count the moves; the power of 10 is negative."]
   },
   {
@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10\u00b2" }
     ],
     answerId: "d",
-    explanation: "10⁻² ÷ 10⁻⁴ = 10⁻²−(−⁴) = 10². 10⁰ is tempting if you add exponents when you should multiply (or the other way round); the correct value is 27.",
+    explanation: "10⁻² ÷ 10⁻⁴ = 10⁻²−(−⁴) = 10². 10⁻⁶ is tempting if you add −4 instead of subtracting it; 10⁻²⁺⁴ = 10².",
     hints: ["Add the exponents 3 and −5, then subtract −4. Subtracting a negative exponent adds."]
   }
 ];
@@ -510,7 +510,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "7.2 \u00d7 10\u2074" }
     ],
     answerId: "c",
-    explanation: "7.2 × 10⁵ is standard form. 7.2. 72 × 10⁴ is tempting if you stop one step early or reverse a step, but the correct result is 7.2 × 10⁵.",
+    explanation: "7.2 × 10⁵ is standard form. 72 × 10⁴ is tempting if you stop one step early or reverse a step, but the correct result is 7.2 × 10⁵.",
     hints: ["Put the decimal point of 720000 after the first digit. Count how many places it moved; that is the power of 10."]
   },
   {
@@ -523,7 +523,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.0045" }
     ],
     answerId: "d",
-    explanation: "Move the point 3 places left: 0.0045. 0. 0.00045 is tempting if you add exponents when you should multiply (or the other way round); the correct value is 0.0045.",
+    explanation: "Move the point 3 places left: 0.0045. 0.00045 is tempting if you add exponents when you should multiply (or the other way round); the correct value is 0.0045.",
     hints: ["×10⁻³ moves the decimal point of 4.5 three places to the left. Fill the gaps with zeros."]
   },
   {

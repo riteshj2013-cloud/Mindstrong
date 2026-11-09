@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "x \u2212 12" }
     ],
     answerId: "d",
-    explanation: "3x − 6 − 2x − 10 + 4 = x − 12. x + 2 is tempting if you add exponents when you should multiply (or the other way round); the correct value is x² + 2x + 1.",
+    explanation: "3x − 6 − 2x − 10 + 4 = x − 12. 5x − 12 is tempting if −2(x + 5) becomes +2x − 10, but it is −2x − 10, giving x − 12.",
     hints: ["Open both brackets: 3 multiplies (x − 2) and −2 multiplies (x + 5). Then collect like terms."]
   }
 ];

@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "-4/3" }
     ],
     answerId: "a",
-    explanation: "The other number is (-15/28) ÷ (-5/7) = (15/28) × (7/5) = 3/4, which is positive because negative ÷ negative is positive. -3/4 is tempting if you add denominators with numerators or misalign place values, but the correct value is -7.",
+    explanation: "The other number is (-15/28) ÷ (-5/7) = (15/28) × (7/5) = 3/4, which is positive because negative ÷ negative is positive. −3/4 is tempting if you forget negative ÷ negative is positive.",
     hints: ["Divide −15/28 by 5/−7: multiply by the reciprocal and watch the two negative signs."]
   }
 ];

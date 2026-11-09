@@ -108,7 +108,7 @@ const SET_A: PrepQuestion[] = [{
     ],
     answerId: "a",
     explanation: "A mirror reverses the order of the letters and also flips each letter left to right. MOM reads the same backwards, and M and O look the same when flipped, so MOM is unchanged. NOON is tempting because it reads the same backwards, but each N flips into a back-to-front N in the mirror.",
-    hints: ["Which of Ritika's words still looks like a real word if you reverse the letter order and flip each letter?"]
+    hints: ["Hold each of Ritika's cards up to a mirror. Which word still looks exactly the same in the mirror?"]
   },
 {
     id: "g4-maths-lrdir-a-q08",
