@@ -1,4 +1,5 @@
 import type { ChapterDef, PrepQuestion } from "../types";
+import { g8MathsComparingAchievers } from "./g8-maths-comparing-achievers";
 
 /** Comparing Quantities - original olympiad-style content (not affiliated with SOF). */
 
@@ -707,6 +708,13 @@ export const g8MathsComparing: ChapterDef = {
       questionCount: SET_B.length,
       topic: "percent",
       questions: SET_B,
+    },
+    {
+      id: "set-achievers",
+      title: "Achievers",
+      questionCount: g8MathsComparingAchievers.length,
+      topic: "percent",
+      questions: g8MathsComparingAchievers,
     },
   ],
   paperTopics: ["percent", "ratios", "fractions"],

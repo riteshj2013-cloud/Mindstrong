@@ -1,4 +1,5 @@
 import type { ChapterDef, PrepQuestion } from "../types";
+import { g8MathsMensurationAchievers } from "./g8-maths-mensuration-achievers";
 
 /** Mensuration - original olympiad-style content (not affiliated with SOF). */
 
@@ -707,6 +708,13 @@ export const g8MathsMensuration: ChapterDef = {
       questionCount: SET_B.length,
       topic: "multiply-basics",
       questions: SET_B,
+    },
+    {
+      id: "set-achievers",
+      title: "Achievers",
+      questionCount: g8MathsMensurationAchievers.length,
+      topic: "multiply-basics",
+      questions: g8MathsMensurationAchievers,
     },
   ],
   paperTopics: ["multiply-basics", "fractions"],
