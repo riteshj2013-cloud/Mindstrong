@@ -602,8 +602,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "64" }
     ],
     answerId: "b",
-    explanation: "8^{2/3} = (8^{1/3})² = 2² = 4. 2 is tempting if you match the bases but forget to adjust after equating the exponents.",
-    hints: ["Cube root of 8 is 2, then square."]
+    explanation: "8 to the power 2/3 means the cube root of 8, squared: the cube root of 8 is 2, and 2² = 4. 2 is tempting if you take the cube root of 8 and forget to square it.",
+    hints: ["The 3 in 2/3 tells you which root to take, and the 2 tells you which power to raise it to. Do both steps before you choose."]
   },
   {
     id: "g9-maths-numbers-b-q23",

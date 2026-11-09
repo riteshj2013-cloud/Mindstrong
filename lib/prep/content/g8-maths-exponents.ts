@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Both 3\u207b\u2074 and 9\u207b\u00b2" }
     ],
     answerId: "d",
-    explanation: "81 = 3⁴ = 9², so 1/81 = 3⁻⁴ = 9⁻². Only the option that names both is fully correct. 3⁴ is tempting if you forget the reciprocal and leave a positive exponent.",
+    explanation: "81 = 3⁴ = 9², so 1/81 = 3⁻⁴ = 9⁻², and option d names both of these. 3⁴ is tempting if you forget the reciprocal and leave a positive exponent; 3⁻³ is tempting if you think 81 = 3³ (but 3³ = 27).",
     hints: ["81 is 3⁴. Can 81 also be written as the square of a whole number? A reciprocal flips the sign of the exponent."]
   },
   {
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4⁸" }
     ],
     answerId: "a",
-    explanation: "Multiply exponents: 2 × 2 = 4. 4² is tempting if you add the exponents instead of multiplying them for a power of a power; multiplying the exponents gives 4⁴.",
+    explanation: "Multiply exponents: (4²)² = 4^(2 × 2) = 4⁴. 4⁸ is tempting if you multiply the two 2s and then multiply by 2 again (2 × 2 × 2 = 8), as if the outer square were an extra factor on the exponent.",
     hints: ["For a power of a power, multiply the exponents. Keep the base 4."]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Both 5\u207b\u00b2 and 25\u207b\u00b9" }
     ],
     answerId: "d",
-    explanation: "25 = 5², so 1/25 = 5⁻² = 25⁻¹. Only the option that names both is fully correct. 5² is tempting if you forget the reciprocal and leave a positive exponent.",
+    explanation: "25 = 5², so 1/25 = 5⁻² = 25⁻¹, and option d names both of these. 5² is tempting if you forget the reciprocal and leave a positive exponent; 25⁻² is tempting if you copy the 2 from 5² onto the 25 instead of using 25 = 25¹.",
     hints: ["Write the denominator as a power of 5. A reciprocal flips the sign of the exponent, and any number on its own has exponent 1."]
   },
   {

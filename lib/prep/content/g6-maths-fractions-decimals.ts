@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.07 = 7/10" }
     ],
     answerId: "b",
-    explanation: "7/10 = 0.7 exactly. 0.7 > 7/10 is tempting if you think a decimal looks smaller than a fraction with the same digits; they are equal.",
+    explanation: "7/10 = 0.7 exactly. 0.7 < 7/10 is tempting if you think a decimal looks smaller than a fraction with the same digits; they are equal.",
     hints: ["Change 7/10 into a decimal by dividing 7 by 10. Compare it with 0.7."]
   },
   {
