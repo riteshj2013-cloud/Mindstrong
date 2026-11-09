@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2x + 5" }
     ],
     answerId: "c",
-    explanation: "FOIL: x² + 3x + 2x + 6 = x² + 5x + 6. x² + 6 is tempting if you multiply 2 by 3 landing on x² + 6 rather than continuing to x² + 5x + 6.",
+    explanation: "FOIL: x² + 3x + 2x + 6 = x² + 5x + 6. x² + 6 is tempting if a cross-term sign slip changes the middle coefficient; careful FOIL gives x² + 5x + 6.",
     hints: ["Multiply each term of (x + 2) by each term of (x + 3), then add the two x terms."]
   },
   {
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "a(a \u2212 b)" }
     ],
     answerId: "c",
-    explanation: "Difference of squares: a² − b² = (a + b)(a − b). (a − b)² is tempting if you drop or flip a cross term while expanding “factors”, which yields (a − b)² instead of (a + b)(a − b).",
+    explanation: "Difference of squares: a² − b² = (a + b)(a − b). (a − b)² is tempting if you pull out only part of the common factor or factor incompletely; full factorisation gives (a + b)(a − b).",
     hints: ["Multiply out each possible factorisation and see which gives back a² − b² with no ab term."]
   },
   {
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2x\u00b2 + 5x \u2212 3" }
     ],
     answerId: "b",
-    explanation: "2x·x + 2x·(−3) + 1·x + 1·(−3) = 2x² − 6x + x − 3 = 2x² − 5x − 3. 2x² − 6x − 3 is tempting if you multiply 2 by 1 landing on 2x² − 6x − 3 rather than continuing to 2x² − 5x − 3.",
+    explanation: "2x·x + 2x·(−3) + 1·x + 1·(−3) = 2x² − 6x + x − 3 = 2x² − 5x − 3. 2x² − 6x − 3 is tempting if a cross-term sign slip changes the middle coefficient; careful FOIL gives 2x² − 5x − 3.",
     hints: ["Multiply each term of (2x + 1) by each term of (x − 3), then combine the two x terms."]
   },
   {
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "25y\u00b2 + 30y + 9" }
     ],
     answerId: "a",
-    explanation: "(5y − 3)² = 25y² − 2·5y·3 + 9 = 25y² − 30y + 9. 25y² − 9 is tempting if you treat (5y − 3)² as a difference of squares (5y)² − 3² and drop the middle −30y term.",
+    explanation: "(5y − 3)² = 25y² − 2·5y·3 + 9 = 25y² − 30y + 9. 25y² + 9 is tempting if you square each part and drop the middle cross term −30y; the full square needs that middle term, giving 25y² − 30y + 9.",
     hints: ["Use (a − b)² = a² − 2ab + b² with a = 5y and b = 3."]
   },
   {
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "x(x \u2212 16)" }
     ],
     answerId: "b",
-    explanation: "x² − 16 = x² − 4² = (x + 4)(x − 4). (x − 4)² is tempting if you drop or flip a cross term while expanding “Factor”, which yields (x − 4)² instead of (x + 4)(x − 4).",
+    explanation: "x² − 16 = x² − 4² = (x + 4)(x − 4). (x − 4)² is tempting if you pull out only part of the common factor or factor incompletely; full factorisation gives (x + 4)(x − 4).",
     hints: ["16 is a perfect square. Use a² − b² = (a + b)(a − b)."]
   },
   {
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4a\u00b2 \u2212 12ab + 9b\u00b2" }
     ],
     answerId: "b",
-    explanation: "Difference of squares: (2a)² − (3b)² = 4a² − 9b². 4a² + 9b² is tempting if you double 2 to reach 4a² + 9b² instead of the working that gives 4a² − 9b².",
+    explanation: "Difference of squares: (2a)² − (3b)² = 4a² − 9b². 4a² + 9b² is tempting if a cross-term sign slip changes the middle coefficient; careful FOIL gives 4a² − 9b².",
     hints: ["This matches (x − y)(x + y) = x² − y² with x = 2a and y = 3b."]
   },
   {
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "c",
-    explanation: "The highest power of x is 3, so the degree is 3. 2 is tempting if you subtract 4 and 2 in the order that yields 2 instead of the path to 3.",
+    explanation: "The highest power of x is 3, so the degree is 3. 2 is tempting if you count the number of terms instead of the highest power; the degree is 3.",
     hints: ["The degree is the highest power of x in the polynomial. Look at the power in each term."]
   },
   {
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5x\u00b2" }
     ],
     answerId: "c",
-    explanation: "Negative times negative is positive; 3 × 2 = 6 and x × x = x². 6x is tempting if you multiply -3 by -2 landing on 6x rather than continuing to 6x².",
+    explanation: "Negative times negative is positive; 3 × 2 = 6 and x × x = x². 6x is tempting if a cross-term sign slip changes the middle coefficient; careful FOIL gives 6x².",
     hints: ["Negative times negative is positive. Then multiply 3 × 2 and x × x."]
   },
   {
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "y\u00b2 + 3y \u2212 4" }
     ],
     answerId: "d",
-    explanation: "y² + 4y − y − 4 = y² + 3y − 4. y² + 5y − 4 is tempting if you add 1 and 4 to get y² + 5y − 4 when the stem needs a different operation that yields y² + 3y − 4.",
+    explanation: "y² + 4y − y − 4 = y² + 3y − 4. y² + 5y − 4 is tempting if a cross-term sign slip changes the middle coefficient; careful FOIL gives y² + 3y − 4.",
     hints: ["Multiply each term of (y − 1) by each term of (y + 4), then add the two y terms."]
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2ab" }
     ],
     answerId: "b",
-    explanation: "This is the difference-of-squares identity. a² + b² is tempting if you drop or flip a cross term while expanding “algebra”, which yields a² + b² instead of a² − b².",
+    explanation: "This is the difference-of-squares identity. a² + b² is tempting if a cross-term sign slip changes the middle coefficient; careful FOIL gives a² − b².",
     hints: ["Multiply out (a + b)(a − b) term by term. What happens to the ab and −ab terms?"]
   },
   {
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x\u00b2 \u2212 14x + 49" }
     ],
     answerId: "d",
-    explanation: "(x − 7)² = x² − 2·x·7 + 49 = x² − 14x + 49. x² − 49 is tempting if you treat (x − 7)² as a difference of squares x² − 7² and drop the middle −14x term.",
+    explanation: "(x − 7)² = x² − 14x + 49. x² + 49 is tempting if you forget the middle −2·x·7 term (or make it positive); the square expands to x² − 14x + 49.",
     hints: ["Use (a − b)² = a² − 2ab + b² with a = x and b = 7."]
   },
   {
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "45" }
     ],
     answerId: "a",
-    explanation: "a² − b² = (a − b)(a + b), so (9 − 4)(9 + 4) = 5 × 13 = 65. 13 is tempting if you stop after computing (9 + 4) and forget to multiply by (9 − 4).",
+    explanation: "a² − b² = (a − b)(a + b), so 9² − 4² = (9 − 4)(9 + 4) = 5 × 13 = 65. 81 − 16 computed digit-wise as 65 is fine, but 13 is tempting if you stop after (9 − 4) and forget to multiply by (9 + 4); the product is 65.",
     hints: ["Use a² − b² = (a + b)(a − b) with a = 9 and b = 4."]
   },
   {
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "7(7 \u2212 p)" }
     ],
     answerId: "a",
-    explanation: "49 − p² = 7² − p² = (7 + p)(7 − p). (7 − p)² is tempting if you drop or flip a cross term while expanding “Factor”, which yields (7 − p)² instead of (7 + p)(7 − p).",
+    explanation: "49 − p² = 7² − p² = (7 + p)(7 − p). (7 − p)² is tempting if you pull out only part of the common factor or factor incompletely; full factorisation gives (7 + p)(7 − p).",
     hints: ["49 is a perfect square. Use a² − b² = (a + b)(a − b)."]
   },
   {
