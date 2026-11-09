@@ -13,8 +13,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "120 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "Area = length \u00d7 breadth = 12 \u00d7 5 = 60 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Area = length × breadth = 12 × 5 = 60 cm². 34 cm² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Area of a rectangle = length × breadth. Multiply 12 cm by 5 cm."]
   },
   {
     id: "g8-maths-mensuration-a-q02",
@@ -26,8 +26,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "192 m\u00b2" }
     ],
     answerId: "b",
-    explanation: "Side = 48 \u00f7 4 = 12 m, so area = 12 \u00d7 12 = 144 m\u00b2. 96 m\u00b2 is tempting if you double the perimeter instead of finding the side first.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Side = 48 ÷ 4 = 12 m, so area = 12 × 12 = 144 m². 96 m² is tempting if you double the perimeter instead of finding the side first.",
+    hints: ["A square has 4 equal sides. Find one side from the 48 m perimeter, then square it."]
   },
   {
     id: "g8-maths-mensuration-a-q03",
@@ -39,8 +39,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "32 cm\u00b2" }
     ],
     answerId: "c",
-    explanation: "Area = (1/2) \u00d7 base \u00d7 height = (1/2) \u00d7 10 \u00d7 6 = 30 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Area = (1/2) × base × height = (1/2) × 10 × 6 = 30 cm². 32 cm² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Area of a triangle = ½ × base × height. Use base 10 cm and height 6 cm."]
   },
   {
     id: "g8-maths-mensuration-a-q04",
@@ -52,8 +52,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "44 cm" }
     ],
     answerId: "d",
-    explanation: "C = 2\u03c0r = 2 \u00d7 (22/7) \u00d7 7 = 44 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "C = 2πr = 2 × (22/7) × 7 = 44 cm. 22 cm is tempting, but it does not match what the question asks.",
+    hints: ["Circumference = 2πr. Put r = 7 cm and π = 22/7; the 7s cancel."]
   },
   {
     id: "g8-maths-mensuration-a-q05",
@@ -65,8 +65,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "22 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "A = \u03c0r\u00b2 = (22/7) \u00d7 49 = 154 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A = πr² = (22/7) × 49 = 154 cm². 49 cm² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Area = πr². Square the radius 7 cm, then multiply by 22/7."]
   },
   {
     id: "g8-maths-mensuration-a-q06",
@@ -78,8 +78,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12 cm\u00b3" }
     ],
     answerId: "b",
-    explanation: "Volume = a\u00b3 = 4\u00b3 = 64 cm\u00b3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Volume = a³ = 4³ = 64 cm³. 48 cm³ is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Volume of a cube = edge × edge × edge. Multiply 4 cm by itself three times."]
   },
   {
     id: "g8-maths-mensuration-a-q07",
@@ -91,8 +91,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "60 cm\u00b3" }
     ],
     answerId: "c",
-    explanation: "V = l \u00d7 b \u00d7 h = 5 \u00d7 3 \u00d7 2 = 30 cm\u00b3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "V = l × b × h = 5 × 3 × 2 = 30 cm³. 15 cm³ is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Volume of a cuboid = length × breadth × height. Multiply 5, 3 and 2."]
   },
   {
     id: "g8-maths-mensuration-a-q08",
@@ -104,8 +104,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "100 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "LSA = 4a\u00b2 = 4 \u00d7 25 = 100 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "LSA = 4a² = 4 × 25 = 100 cm². 125 cm² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["The lateral surface of a cube is its 4 side faces. Each face is 5 cm × 5 cm."]
   },
   {
     id: "g8-maths-mensuration-a-q09",
@@ -117,8 +117,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "18 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "TSA = 6a\u00b2 = 6 \u00d7 9 = 54 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "TSA = 6a² = 6 × 9 = 54 cm². 36 cm² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["A cube has 6 equal square faces. Find the area of one face with edge 3 cm, then multiply."]
   },
   {
     id: "g8-maths-mensuration-a-q10",
@@ -130,8 +130,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "80 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "Area = base \u00d7 height = 8 \u00d7 5 = 40 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Area = base × height = 8 × 5 = 40 cm². 20 cm² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Area of a parallelogram = base × height. Use base 8 cm and height 5 cm."]
   },
   {
     id: "g8-maths-mensuration-a-q11",
@@ -143,8 +143,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "44 cm" }
     ],
     answerId: "c",
-    explanation: "Radius is half the diameter: 14/2 = 7 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Radius is half the diameter: 14/2 = 7 cm. 14 cm is tempting, but it does not match what the question asks.",
+    hints: ["The radius goes from the centre to the edge: half of the 14 cm diameter."]
   },
   {
     id: "g8-maths-mensuration-a-q12",
@@ -156,8 +156,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "32 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "Area = (1/2)(a + b)h = (1/2)(10 + 6)\u00d74 = 32 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Area = (1/2)(a + b)h = (1/2)(10 + 6)×4 = 32 cm². 24 cm² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Area of a trapezium = ½ × (sum of parallel sides) × height. Add 10 and 6 first."]
   },
   {
     id: "g8-maths-mensuration-a-q13",
@@ -169,8 +169,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "770 cm\u00b3" }
     ],
     answerId: "a",
-    explanation: "V = \u03c0r\u00b2h = (22/7)\u00d749\u00d710 = 1540 cm\u00b3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "V = πr²h = (22/7)×49×10 = 1540 cm³. 770 cm³ is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Volume of a cylinder = πr²h. Find the base area with r = 7 cm, then multiply by h = 10 cm."]
   },
   {
     id: "g8-maths-mensuration-a-q14",
@@ -182,8 +182,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "140 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "CSA = 2\u03c0rh = 2\u00d7(22/7)\u00d77\u00d710 = 440 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "CSA = 2πrh = 2×(22/7)×7×10 = 440 cm². 220 cm² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Curved surface area = 2πrh. Use r = 7 cm, h = 10 cm and π = 22/7."]
   },
   {
     id: "g8-maths-mensuration-a-q15",
@@ -195,8 +195,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "480 cm\u00b2" }
     ],
     answerId: "c",
-    explanation: "TSA = 2(lb + bh + hl) = 2(48 + 30 + 40) = 2\u00d7118 = 236 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "TSA = 2(lb + bh + hl) = 2(48 + 30 + 40) = 2×118 = 236 cm². 240 cm² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["TSA = 2(lb + bh + hl). Find 8 × 6, 6 × 5 and 5 × 8 first."]
   },
   {
     id: "g8-maths-mensuration-a-q16",
@@ -208,8 +208,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "54 m\u00b2" }
     ],
     answerId: "d",
-    explanation: "Lateral area = 2(l + b)h = 2(5 + 4)\u00d73 = 54 m\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Lateral area = 2(l + b)h = 2(5 + 4)×3 = 54 m². 60 m² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Four walls = 2(length + breadth) × height. Use 5 m, 4 m and the 3 m height."]
   },
   {
     id: "g8-maths-mensuration-a-q17",
@@ -221,8 +221,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6400 m\u00b2" }
     ],
     answerId: "a",
-    explanation: "Side = 80/4 = 20 m; area = 20\u00b2 = 400 m\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Side = 80/4 = 20 m; area = 20² = 400 m². 200 m² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Divide the 80 m perimeter by 4 to get one side of the square park, then square that side."]
   },
   {
     id: "g8-maths-mensuration-a-q18",
@@ -234,8 +234,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "36" }
     ],
     answerId: "b",
-    explanation: "Along each edge 6/2 = 3 cubes; 3\u00b3 = 27.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Along each edge 6/2 = 3 cubes; 3³ = 27. 36 is tempting, but it does not match what the question asks.",
+    hints: ["Find how many 2 cm cubes fit along one 6 cm edge, then cube that number."]
   },
   {
     id: "g8-maths-mensuration-a-q19",
@@ -247,8 +247,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7 cm" }
     ],
     answerId: "c",
-    explanation: "By Pythagoras: \u221a(36 + 64) = \u221a100 = 10 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "By Pythagoras: √(36 + 64) = √100 = 10 cm. 7 cm is tempting, but it does not match what the question asks.",
+    hints: ["The diagonal makes a right triangle with the 6 cm and 8 cm sides. Use Pythagoras."]
   },
   {
     id: "g8-maths-mensuration-a-q20",
@@ -260,8 +260,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "269.5 m\u00b3" }
     ],
     answerId: "d",
-    explanation: "V = (22/7)\u00d7(3.5)\u00b2\u00d77 = (22/7)\u00d712.25\u00d77 = 22\u00d712.25 = 269.5 m\u00b3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "V = (22/7)×(3.5)²×7 = (22/7)×12.25×7 = 22×12.25 = 269.5 m³. 154 m³ is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["V = πr²h. Square 3.5 m first, then multiply by 22/7 and by 7 m; the 7s cancel."]
   },
   {
     id: "g8-maths-mensuration-a-q21",
@@ -273,8 +273,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "440 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "TSA = 2\u03c0r(h + r) = 2\u00d7(22/7)\u00d77\u00d7(5 + 7) = 44\u00d712 = 528 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "TSA = 2πr(h + r) = 2×(22/7)×7×(5 + 7) = 44×12 = 528 cm². 440 cm² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["TSA of a cylinder = 2πr(h + r). Use r = 7 cm and h = 5 cm."]
   },
   {
     id: "g8-maths-mensuration-a-q22",
@@ -286,8 +286,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "39 m\u00b2" }
     ],
     answerId: "b",
-    explanation: "Inner square side 18 m; path area = 400 \u2212 324 = 76 m\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Inner square side 18 m; path area = 400 − 324 = 76 m². 39 m² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["The path takes 1 m off each side, so the inner square's side is 20 m − 2 m. Subtract inner area from outer."]
   },
   {
     id: "g8-maths-mensuration-a-q23",
@@ -299,8 +299,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1.2 m\u00b3" }
     ],
     answerId: "c",
-    explanation: "Depth = 0.8 m; V = 2 \u00d7 1.5 \u00d7 0.8 = 2.4 m\u00b3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Depth = 0.8 m; V = 2 × 1.5 × 0.8 = 2.4 m³. 2.4 cm³ is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Change the 80 cm depth to metres first, then multiply length × breadth × depth."]
   },
   {
     id: "g8-maths-mensuration-a-q24",
@@ -312,8 +312,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "550 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "CSA = \u03c0rl = (22/7)\u00d77\u00d725 = 550 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "CSA = πrl = (22/7)×7×25 = 550 cm². 175 cm² is tempting, but it does not match what the question asks.",
+    hints: ["CSA of a cone = πrl. Use r = 7 cm, slant height 25 cm and π = 22/7."]
   }
 ];
 
@@ -328,8 +328,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "110 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "Area = side\u00b2 = 11\u00b2 = 121 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Area = side² = 11² = 121 cm². 110 cm² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Area of a square = side × side. Multiply 11 cm by 11 cm."]
   },
   {
     id: "g8-maths-mensuration-b-q02",
@@ -341,8 +341,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "38 cm" }
     ],
     answerId: "b",
-    explanation: "P = 2(l + b) = 2(15 + 8) = 46 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "P = 2(l + b) = 2(15 + 8) = 46 cm. 38 cm is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Perimeter of a rectangle = 2 × (length + breadth). Add 15 cm and 8 cm first."]
   },
   {
     id: "g8-maths-mensuration-b-q03",
@@ -354,8 +354,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "28 cm\u00b2" }
     ],
     answerId: "c",
-    explanation: "Area = (1/2)\u00d76\u00d78 = 24 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Area = (1/2)×6×8 = 24 cm². 28 cm² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["In a right triangle the two legs are the base and height. Area = ½ × 6 × 8."]
   },
   {
     id: "g8-maths-mensuration-b-q04",
@@ -367,8 +367,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "14 cm" }
     ],
     answerId: "d",
-    explanation: "C = \u03c0d \u21d2 d = 44 \u00d7 7/22 = 14 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "C = πd ⇒ d = 44 × 7/22 = 14 cm. 7 cm is tempting, but it does not match what the question asks.",
+    hints: ["Circumference = πd. Divide 44 cm by 22/7, which means multiplying by 7/22."]
   },
   {
     id: "g8-maths-mensuration-b-q05",
@@ -380,8 +380,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "308 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "r = 7; A = (22/7)\u00d749 = 154 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "r = 7; A = (22/7)×49 = 154 cm². 44 cm² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Halve the 14 cm diameter to get the radius, then use area = πr²."]
   },
   {
     id: "g8-maths-mensuration-b-q06",
@@ -393,8 +393,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "10 cm" }
     ],
     answerId: "b",
-    explanation: "a\u00b3 = 125 \u21d2 a = 5 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "a³ = 125 ⇒ a = 5 cm. 10 cm is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Find the number that, multiplied by itself three times, gives 125."]
   },
   {
     id: "g8-maths-mensuration-b-q07",
@@ -406,8 +406,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "240 cm\u00b3" }
     ],
     answerId: "c",
-    explanation: "V = 10 \u00d7 4 \u00d7 3 = 120 cm\u00b3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "V = 10 × 4 × 3 = 120 cm³. 40 cm³ is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Volume of a cuboid = length × breadth × height. Multiply 10, 4 and 3."]
   },
   {
     id: "g8-maths-mensuration-b-q08",
@@ -419,8 +419,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "52 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "2(12 + 6 + 8) = 2\u00d726 = 52 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2(12 + 6 + 8) = 2×26 = 52 cm². 48 cm² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["TSA = 2(lb + bh + hl). Find 4 × 3, 3 × 2 and 2 × 4 first."]
   },
   {
     id: "g8-maths-mensuration-b-q09",
@@ -432,8 +432,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "50 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "LSA = 2(l + b)h = 2(6 + 4)\u00d75 = 100 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "LSA = 2(l + b)h = 2(6 + 4)×5 = 100 cm². 120 cm² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["LSA of a cuboid = 2(length + breadth) × height. Use 6 cm, 4 cm and height 5 cm."]
   },
   {
     id: "g8-maths-mensuration-b-q10",
@@ -445,8 +445,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "36 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "Area = (1/2)\u00d7d\u2081\u00d7d\u2082 = (1/2)\u00d710\u00d78 = 40 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Area = (1/2)×d₁×d₂ = (1/2)×10×8 = 40 cm². 36 cm² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Area of a rhombus = ½ × product of the diagonals. Use 10 cm and 8 cm."]
   },
   {
     id: "g8-maths-mensuration-b-q11",
@@ -458,8 +458,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2772 m\u00b2" }
     ],
     answerId: "c",
-    explanation: "A = (22/7)\u00d7441 = 1386 m\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A = (22/7)×441 = 1386 m². 462 m² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Area = πr². Square the 21 m radius, then multiply by 22/7; 21 divides by 7 neatly."]
   },
   {
     id: "g8-maths-mensuration-b-q12",
@@ -471,8 +471,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "50 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "(1/2)(12 + 8)\u00d75 = 50 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "(1/2)(12 + 8)×5 = 50 cm². 40 cm² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Area of a trapezium = ½ × (sum of parallel sides) × height. Add 12 and 8 first."]
   },
   {
     id: "g8-maths-mensuration-b-q13",
@@ -484,8 +484,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "616 cm\u00b3" }
     ],
     answerId: "a",
-    explanation: "V = (22/7)\u00d7(3.5)\u00b2\u00d78 = 22\u00d712.25\u00d78/7\u2026 (22/7)\u00d712.25\u00d78 = 22\u00d71.75\u00d78 = 308 cm\u00b3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "V = (22/7)×(3.5)²×8 = 22×12.25×8/7… (22/7)×12.25×8 = 22×1.75×8 = 308 cm³. 154 cm³ is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["V = πr²h. Square 3.5 cm, multiply by 22/7, then by the height 8 cm."]
   },
   {
     id: "g8-maths-mensuration-b-q14",
@@ -497,8 +497,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "700 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "2\u03c0rh = 2\u00d7(22/7)\u00d75\u00d714 = 440 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2πrh = 2×(22/7)×5×14 = 440 cm². 350 cm² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["CSA = 2πrh. Use r = 5 cm and h = 14 cm; 14 cancels neatly with the 7 in 22/7."]
   },
   {
     id: "g8-maths-mensuration-b-q15",
@@ -510,8 +510,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2000 L" }
     ],
     answerId: "c",
-    explanation: "V = 1 m\u00b3 = 1000 litres.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "V = 1 m³ = 1000 litres. 100 L is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Find the volume of the tank in m³ first. Then convert, using how many litres fill one cubic metre."]
   },
   {
     id: "g8-maths-mensuration-b-q16",
@@ -523,8 +523,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b91760" }
     ],
     answerId: "d",
-    explanation: "Area = 2(6+5)\u00d74 = 88 m\u00b2; cost = 88 \u00d7 20 = \u20b91760.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Area = 2(6+5)×4 = 88 m²; cost = 88 × 20 = ₹1760. ₹2400 is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Find the area of the four walls: 2(6 + 5) × 4. Then multiply by ₹20 per m²."]
   },
   {
     id: "g8-maths-mensuration-b-q17",
@@ -536,8 +536,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "18 cm" }
     ],
     answerId: "a",
-    explanation: "Rectangle area 144; side = \u221a144 = 12 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Rectangle area 144; side = √144 = 12 cm. 13 cm is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["First find the rectangle's area, 16 × 9. The square's side is the square root of that area."]
   },
   {
     id: "g8-maths-mensuration-b-q18",
@@ -549,8 +549,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "120" }
     ],
     answerId: "b",
-    explanation: "Volume in cm\u00b3 equals the count of 1 cm cubes: 5\u00d74\u00d73 = 60.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Volume in cm³ equals the count of 1 cm cubes: 5×4×3 = 60. 20 is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Each 1 cm cube takes up 1 cm³, so count the cubes by finding the volume 5 × 4 × 3."]
   },
   {
     id: "g8-maths-mensuration-b-q19",
@@ -562,8 +562,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "11 cm" }
     ],
     answerId: "c",
-    explanation: "2\u03c0r = 88 \u21d2 r = 88 \u00d7 7/(2\u00d722) = 14 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2πr = 88 ⇒ r = 88 × 7/(2×22) = 14 cm. 11 cm is tempting, but it does not match what the question asks.",
+    hints: ["The 88 cm wire becomes the circumference 2πr. Solve for r with π = 22/7."]
   },
   {
     id: "g8-maths-mensuration-b-q20",
@@ -575,8 +575,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "37.68 cm\u00b3" }
     ],
     answerId: "d",
-    explanation: "V = (1/3)\u03c0r\u00b2h = (1/3)\u00d73.14\u00d79\u00d74 = 37.68 cm\u00b3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "V = (1/3)πr²h = (1/3)×3.14×9×4 = 37.68 cm³. 12 cm³ is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Volume of a cone = ⅓ × π × r² × h. Use r = 3 cm, h = 4 cm and π = 3.14."]
   },
   {
     id: "g8-maths-mensuration-b-q21",
@@ -588,8 +588,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "616 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "TSA = 3\u03c0r\u00b2 = 3\u00d7(22/7)\u00d749 = 462 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "TSA = 3πr² = 3×(22/7)×49 = 462 cm². 308 cm² is tempting, but it does not match what the question asks.",
+    hints: ["A hemisphere's TSA is its curved part 2πr² plus the flat circle πr². Use r = 7 cm."]
   },
   {
     id: "g8-maths-mensuration-b-q22",
@@ -601,8 +601,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "100 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "Outer area 144 \u2212 inner 100 = 44 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Outer area 144 − inner 100 = 44 cm². 24 cm² is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Area of the frame = outer square area − inner square area. Square 12 cm and 10 cm."]
   },
   {
     id: "g8-maths-mensuration-b-q23",
@@ -614,8 +614,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "440 cm\u00b3" }
     ],
     answerId: "c",
-    explanation: "Length = 2000 cm; V = (22/7)\u00d712.25\u00d72000 = 77000 cm\u00b3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Length = 2000 cm; V = (22/7)×12.25×2000 = 77000 cm³. 7700 cm³ is tempting if you use the wrong formula or mix up the dimensions.",
+    hints: ["Change the 20 m length to centimetres first, then use V = πr²h with r = 3.5 cm."]
   },
   {
     id: "g8-maths-mensuration-b-q24",
@@ -627,8 +627,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "13 cm" }
     ],
     answerId: "d",
-    explanation: "l = \u221a(r\u00b2 + h\u00b2) = \u221a(25 + 144) = \u221a169 = 13 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "l = √(r² + h²) = √(25 + 144) = √169 = 13 cm. 17 cm is tempting, but it does not match what the question asks.",
+    hints: ["The radius, height and slant height form a right triangle. Use l² = r² + h² with 5 and 12."]
   }
 ];
 

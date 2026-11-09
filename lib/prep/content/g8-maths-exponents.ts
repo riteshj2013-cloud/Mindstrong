@@ -13,8 +13,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "a",
-    explanation: "2\u00b3 = 2 \u00d7 2 \u00d7 2 = 8.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2³ = 2 × 2 × 2 = 8. 9 is tempting, but it does not match what the question asks.",
+    hints: ["2³ means 2 multiplied by itself three times. Work out 2 × 2 first."]
   },
   {
     id: "g8-maths-exponents-a-q02",
@@ -26,8 +26,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "b",
-    explanation: "Same base: add exponents, 2 + 3 = 5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Same base: add exponents, 2 + 3 = 5. 5⁶ is tempting if you add the exponents when you should multiply, or the other way round.",
+    hints: ["Same base 5: when multiplying, add the exponents 2 and 3."]
   },
   {
     id: "g8-maths-exponents-a-q03",
@@ -39,8 +39,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "a\u00b9\u00b2" }
     ],
     answerId: "c",
-    explanation: "Same base: subtract exponents, 6 \u2212 2 = 4.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Same base: subtract exponents, 6 − 2 = 4. a³ is tempting if you add the exponents when you should multiply, or the other way round.",
+    hints: ["Same base a: when dividing a⁶ by a², subtract the exponents."]
   },
   {
     id: "g8-maths-exponents-a-q04",
@@ -52,8 +52,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3\u2079" }
     ],
     answerId: "a",
-    explanation: "Power of a power: multiply exponents, 2 \u00d7 3 = 6.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Power of a power: multiply exponents, 2 × 3 = 6. 3⁵ is tempting if you add the exponents when you should multiply, or the other way round.",
+    hints: ["For a power of a power, multiply the exponents 2 and 3. Keep the base 3."]
   },
   {
     id: "g8-maths-exponents-a-q05",
@@ -65,8 +65,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Undefined" }
     ],
     answerId: "b",
-    explanation: "Any non-zero number to the power 0 equals 1.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Any non-zero number to the power 0 equals 1. 0 is tempting if you add the exponents when you should multiply, or the other way round.",
+    hints: ["Think of a² ÷ a² = a⁰. What is any non-zero number divided by itself?"]
   },
   {
     id: "g8-maths-exponents-a-q06",
@@ -78,8 +78,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "c",
-    explanation: "2\u207b\u00b3 = 1/2\u00b3 = 1/8.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2⁻³ = 1/2³ = 1/8. −8 is tempting, but it does not match what the question asks.",
+    hints: ["A negative exponent means a reciprocal: 2⁻³ = 1 ÷ 2³."]
   },
   {
     id: "g8-maths-exponents-a-q07",
@@ -91,8 +91,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.01" }
     ],
     answerId: "d",
-    explanation: "10\u207b\u00b2 = 1/100 = 0.01.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "10⁻² = 1/100 = 0.01. 0.1 is tempting, but it does not match what the question asks.",
+    hints: ["10⁻² = 1 ÷ 10². Work out 10², then divide 1 by it."]
   },
   {
     id: "g8-maths-exponents-a-q08",
@@ -104,8 +104,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "a",
-    explanation: "Even power of a negative is positive: 16.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Even power of a negative is positive: 16. 8 is tempting if you add the exponents when you should multiply, or the other way round.",
+    hints: ["Multiply −2 by itself four times. An even number of negative factors gives a positive."]
   },
   {
     id: "g8-maths-exponents-a-q09",
@@ -117,8 +117,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "b",
-    explanation: "Add exponents: 4 + (\u22122) = 2, so 3\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Add exponents: 4 + (−2) = 2, so 3². 3⁶ is tempting if you add the exponents when you should multiply, or the other way round.",
+    hints: ["Same base 3: add the exponents 4 and −2."]
   },
   {
     id: "g8-maths-exponents-a-q10",
@@ -130,8 +130,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Both 3\u207b\u2074 and 9\u207b\u00b2" }
     ],
     answerId: "d",
-    explanation: "81 = 3\u2074 = 9\u00b2, so 1/81 = 3\u207b\u2074 = 9\u207b\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "81 = 3⁴ = 9², so 1/81 = 3⁻⁴ = 9⁻². 3⁴ is tempting if you add the exponents when you should multiply, or the other way round.",
+    hints: ["81 is 3⁴. Can 81 also be written as the square of a whole number? A reciprocal flips the sign of the exponent."]
   },
   {
     id: "g8-maths-exponents-a-q11",
@@ -143,8 +143,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2\u2078" }
     ],
     answerId: "c",
-    explanation: "2\u2078 \u00f7 2\u2074 = 2\u2074.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2⁸ ÷ 2⁴ = 2⁴. 2¹² is tempting, but it does not match what the question asks.",
+    hints: ["Add the exponents 3 and 5 inside the bracket first, then subtract the divisor's exponent."]
   },
   {
     id: "g8-maths-exponents-a-q12",
@@ -156,8 +156,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5\u00b2" }
     ],
     answerId: "d",
-    explanation: "5\u2076 \u00d7 5\u207b\u2074 = 5\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "5⁶ × 5⁻⁴ = 5². 5⁵ is tempting, but it does not match what the question asks.",
+    hints: ["Multiply the exponents in the power of a power first, then add −4 for the multiplication by 5⁻⁴."]
   },
   {
     id: "g8-maths-exponents-a-q13",
@@ -169,8 +169,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "a",
-    explanation: "2\u2075 = 32 and 5\u00b2 = 25, so 2\u2075 is larger.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2⁵ = 32 and 5² = 25, so 2⁵ is larger. 5² is tempting, but it does not match what the question asks.",
+    hints: ["Work out both powers as ordinary numbers: multiply 2 five times, and 5 two times."]
   },
   {
     id: "g8-maths-exponents-a-q14",
@@ -182,8 +182,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "x" }
     ],
     answerId: "b",
-    explanation: "x\u2076 \u00f7 x\u2074 = x\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "x⁶ ÷ x⁴ = x². x⁵ is tempting, but it does not match what the question asks.",
+    hints: ["Multiply the exponents for the power of a power first, then subtract the exponent of x⁴."]
   },
   {
     id: "g8-maths-exponents-a-q15",
@@ -195,8 +195,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5.6 \u00d7 10\u2074" }
     ],
     answerId: "c",
-    explanation: "Move the point 4 places: 5.6 \u00d7 10\u207b\u2074.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Move the point 4 places: 5.6 × 10⁻⁴. 5.6 × 10⁴ is tempting, but it does not match what the question asks.",
+    hints: ["Move the decimal point of 0.00056 right until one non-zero digit is before it. Count the moves; the power of 10 is negative."]
   },
   {
     id: "g8-maths-exponents-a-q16",
@@ -208,8 +208,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "320000" }
     ],
     answerId: "d",
-    explanation: "Move the point 5 places right: 320000.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Move the point 5 places right: 320000. 32000 is tempting, but it does not match what the question asks.",
+    hints: ["×10⁵ moves the decimal point of 3.2 five places to the right. Fill the gaps with zeros."]
   },
   {
     id: "g8-maths-exponents-a-q17",
@@ -221,8 +221,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "9" }
     ],
     answerId: "a",
-    explanation: "(\u22123)\u207b\u00b2 = 1/(\u22123)\u00b2 = 1/9.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "(−3)⁻² = 1/(−3)² = 1/9. −9 is tempting, but it does not match what the question asks.",
+    hints: ["A negative exponent means a reciprocal: (−3)⁻² = 1 ÷ (−3)². Square −3 first."]
   },
   {
     id: "g8-maths-exponents-a-q18",
@@ -234,8 +234,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2/3" }
     ],
     answerId: "b",
-    explanation: "(2/3)\u207b\u00b2 = (3/2)\u00b2 = 9/4.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "(2/3)⁻² = (3/2)² = 9/4. 4/9 is tempting, but it does not match what the question asks.",
+    hints: ["A negative exponent flips the fraction 2/3, then the power 2 squares top and bottom."]
   },
   {
     id: "g8-maths-exponents-a-q19",
@@ -247,8 +247,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "16" }
     ],
     answerId: "c",
-    explanation: "32 = 2\u2075, so x = 5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "32 = 2⁵, so x = 5. 4 is tempting, but it does not match what the question asks.",
+    hints: ["Keep doubling: 2, 4, 8, 16, … Count how many 2s multiply together to make 32."]
   },
   {
     id: "g8-maths-exponents-a-q20",
@@ -260,8 +260,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "d",
-    explanation: "3\u00b3 \u00f7 3\u00b3 = 3\u2070 = 1.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3³ ÷ 3³ = 3⁰ = 1. 3 is tempting, but it does not match what the question asks.",
+    hints: ["Add the exponents 5 and −2, then subtract 3. What is any non-zero number to the power 0?"]
   },
   {
     id: "g8-maths-exponents-a-q21",
@@ -273,8 +273,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "48" }
     ],
     answerId: "a",
-    explanation: "\u221a16 = 4; 4\u00b3 = 64.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "√16 = 4; 4³ = 64. 48 is tempting, but it does not match what the question asks.",
+    hints: ["First find √16, then cube it by multiplying it by itself three times."]
   },
   {
     id: "g8-maths-exponents-a-q22",
@@ -286,8 +286,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5\u2074" }
     ],
     answerId: "b",
-    explanation: "5\u207b\u00b2 \u00d7 5\u00b2 = 5\u2070 = 1, which is also 5\u2070.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "5⁻² × 5² = 5⁰ = 1, which is also 5⁰. 5² is tempting if you add the exponents when you should multiply, or the other way round.",
+    hints: ["Subtract exponents for the division, 3 − 5, then add the exponent 2 for the multiplication."]
   },
   {
     id: "g8-maths-exponents-a-q23",
@@ -299,8 +299,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1/64" }
     ],
     answerId: "c",
-    explanation: "8\u00b9/\u00b3 = 2, so 8\u00b2/\u00b3 = 4 and 8\u207b\u00b2/\u00b3 = 1/4.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "8¹/³ = 2, so 8²/³ = 4 and 8⁻²/³ = 1/4. 4 is tempting, but it does not match what the question asks.",
+    hints: ["Find the cube root of 8 first, then square it. The negative sign means take the reciprocal."]
   },
   {
     id: "g8-maths-exponents-a-q24",
@@ -312,8 +312,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10\u00b2" }
     ],
     answerId: "d",
-    explanation: "10\u207b\u00b2 \u00f7 10\u207b\u2074 = 10\u207b\u00b2\u2212(\u2212\u2074) = 10\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "10⁻² ÷ 10⁻⁴ = 10⁻²−(−⁴) = 10². 10⁰ is tempting, but it does not match what the question asks.",
+    hints: ["Add the exponents 3 and −5, then subtract −4. Subtracting a negative exponent adds."]
   }
 ];
 
@@ -328,8 +328,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "27" }
     ],
     answerId: "a",
-    explanation: "3\u2074 = 3 \u00d7 3 \u00d7 3 \u00d7 3 = 81.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3⁴ = 3 × 3 × 3 × 3 = 81. 64 is tempting, but it does not match what the question asks.",
+    hints: ["3⁴ means 3 × 3 × 3 × 3. Work it out in steps: 3 × 3 first."]
   },
   {
     id: "g8-maths-exponents-b-q02",
@@ -341,8 +341,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "7" }
     ],
     answerId: "b",
-    explanation: "Add exponents: 1 + 4 = 5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Add exponents: 1 + 4 = 5. 7⁴ is tempting if you add the exponents when you should multiply, or the other way round.",
+    hints: ["Same base 7: when multiplying, add the exponents 1 and 4."]
   },
   {
     id: "g8-maths-exponents-b-q03",
@@ -354,8 +354,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "b\u00b2\u2077" }
     ],
     answerId: "c",
-    explanation: "Subtract exponents: 9 \u2212 3 = 6.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Subtract exponents: 9 − 3 = 6. b³ is tempting if you add the exponents when you should multiply, or the other way round.",
+    hints: ["Same base b: when dividing, subtract the exponents 9 and 3."]
   },
   {
     id: "g8-maths-exponents-b-q04",
@@ -367,8 +367,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "16\u00b2" }
     ],
     answerId: "a",
-    explanation: "Multiply exponents: 2 \u00d7 2 = 4.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Multiply exponents: 2 × 2 = 4. 4² is tempting if you add the exponents when you should multiply, or the other way round.",
+    hints: ["For a power of a power, multiply the exponents. Keep the base 4."]
   },
   {
     id: "g8-maths-exponents-b-q05",
@@ -380,8 +380,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22121" }
     ],
     answerId: "b",
-    explanation: "Any non-zero number to the power 0 is 1.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Any non-zero number to the power 0 is 1. 0 is tempting if you add the exponents when you should multiply, or the other way round.",
+    hints: ["Any non-zero base to the power 0 follows a single rule, even −5. Think of (−5)² ÷ (−5)²."]
   },
   {
     id: "g8-maths-exponents-b-q06",
@@ -393,8 +393,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "16" }
     ],
     answerId: "c",
-    explanation: "4\u207b\u00b2 = 1/4\u00b2 = 1/16.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "4⁻² = 1/4² = 1/16. −16 is tempting, but it does not match what the question asks.",
+    hints: ["A negative exponent means a reciprocal: 4⁻² = 1 ÷ 4²."]
   },
   {
     id: "g8-maths-exponents-b-q07",
@@ -406,8 +406,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1000" }
     ],
     answerId: "d",
-    explanation: "10\u00b3 = 10 \u00d7 10 \u00d7 10 = 1000.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "10³ = 10 × 10 × 10 = 1000. 100 is tempting, but it does not match what the question asks.",
+    hints: ["10³ means 10 × 10 × 10. Each extra 10 adds a zero."]
   },
   {
     id: "g8-maths-exponents-b-q08",
@@ -419,8 +419,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "97" }
     ],
     answerId: "a",
-    explanation: "Odd power of \u22121 is \u22121.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Odd power of −1 is −1. 0 is tempting if you add the exponents when you should multiply, or the other way round.",
+    hints: ["Is 97 odd or even? An odd number of negative factors gives a negative product."]
   },
   {
     id: "g8-maths-exponents-b-q09",
@@ -432,8 +432,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "b",
-    explanation: "2\u2070 = 1.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2⁰ = 1. 0 is tempting, but it does not match what the question asks.",
+    hints: ["Add the exponents 5 and −5. What is any non-zero number to that power?"]
   },
   {
     id: "g8-maths-exponents-b-q10",
@@ -445,8 +445,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Both 5\u207b\u00b2 and 25\u207b\u00b9" }
     ],
     answerId: "d",
-    explanation: "25 = 5\u00b2, so 1/25 = 5\u207b\u00b2 = 25\u207b\u00b9.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "25 = 5², so 1/25 = 5⁻² = 25⁻¹. 5² is tempting if you add the exponents when you should multiply, or the other way round.",
+    hints: ["Write the denominator as a power of 5. A reciprocal flips the sign of the exponent, and any number on its own has exponent 1."]
   },
   {
     id: "g8-maths-exponents-b-q11",
@@ -458,8 +458,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "c",
-    explanation: "3\u2076 \u00f7 3\u00b3 = 3\u00b3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3⁶ ÷ 3³ = 3³. 3⁵ is tempting, but it does not match what the question asks.",
+    hints: ["Add the exponents 4 and 2 inside the bracket, then subtract the divisor's exponent."]
   },
   {
     id: "g8-maths-exponents-b-q12",
@@ -471,8 +471,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2\u2076" }
     ],
     answerId: "d",
-    explanation: "2\u00b9\u00b2 \u00d7 2\u207b\u2076 = 2\u2076.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2¹² × 2⁻⁶ = 2⁶. 2¹² is tempting, but it does not match what the question asks.",
+    hints: ["First (2³)⁴: multiply the exponents. Then add −6 for the multiplication by 2⁻⁶."]
   },
   {
     id: "g8-maths-exponents-b-q13",
@@ -484,8 +484,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "a",
-    explanation: "3\u2074 = 81 and 4\u00b3 = 64, so 4\u00b3 is smaller.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3⁴ = 81 and 4³ = 64, so 4³ is smaller. 3⁴ is tempting, but it does not match what the question asks.",
+    hints: ["Work out both powers as ordinary numbers: multiply 3 four times, and 4 three times."]
   },
   {
     id: "g8-maths-exponents-b-q14",
@@ -497,8 +497,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "y" }
     ],
     answerId: "b",
-    explanation: "y\u00b9\u00b2 \u00f7 y\u2078 = y\u2074.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "y¹² ÷ y⁸ = y⁴. y¹² is tempting, but it does not match what the question asks.",
+    hints: ["Multiply the exponents for the power of a power, then subtract 8 for the division by y⁸."]
   },
   {
     id: "g8-maths-exponents-b-q15",
@@ -510,8 +510,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "7.2 \u00d7 10\u2074" }
     ],
     answerId: "c",
-    explanation: "7.2 \u00d7 10\u2075 is standard form.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "7.2 × 10⁵ is standard form. 7.2 × 10⁴ is tempting, but it does not match what the question asks.",
+    hints: ["Put the decimal point of 720000 after the first digit. Count how many places it moved; that is the power of 10."]
   },
   {
     id: "g8-maths-exponents-b-q16",
@@ -523,8 +523,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.0045" }
     ],
     answerId: "d",
-    explanation: "Move the point 3 places left: 0.0045.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Move the point 3 places left: 0.0045. 0.00045 is tempting, but it does not match what the question asks.",
+    hints: ["×10⁻³ moves the decimal point of 4.5 three places to the left. Fill the gaps with zeros."]
   },
   {
     id: "g8-maths-exponents-b-q17",
@@ -536,8 +536,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "a",
-    explanation: "1/(\u22122)\u00b3 = 1/(\u22128) = \u22121/8.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1/(−2)³ = 1/(−8) = −1/8. 1/8 is tempting, but it does not match what the question asks.",
+    hints: ["A negative exponent means a reciprocal: 1 ÷ (−2)³. An odd power of −2 stays negative."]
   },
   {
     id: "g8-maths-exponents-b-q18",
@@ -549,8 +549,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "9/25" }
     ],
     answerId: "b",
-    explanation: "Reciprocal: (3/5)\u207b\u00b9 = 5/3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Reciprocal: (3/5)⁻¹ = 5/3. 3/5 is tempting, but it does not match what the question asks.",
+    hints: ["A power of −1 gives the reciprocal: the number you multiply 3/5 by to get 1."]
   },
   {
     id: "g8-maths-exponents-b-q19",
@@ -562,8 +562,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22125" }
     ],
     answerId: "c",
-    explanation: "1/125 = 5\u207b\u00b3, so x = \u22123.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1/125 = 5⁻³, so x = −3. −5 is tempting, but it does not match what the question asks.",
+    hints: ["Write 125 as a power of 5, then use a negative exponent for the reciprocal 1/125."]
   },
   {
     id: "g8-maths-exponents-b-q20",
@@ -575,8 +575,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "d",
-    explanation: "2\u207b\u00b3 \u00d7 2\u00b3 = 2\u2070 = 1.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2⁻³ × 2³ = 2⁰ = 1. 2 is tempting, but it does not match what the question asks.",
+    hints: ["Subtract the exponents 4 − 7, then add 3. What is any non-zero number to that power?"]
   },
   {
     id: "g8-maths-exponents-b-q21",
@@ -588,8 +588,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "6" }
     ],
     answerId: "a",
-    explanation: "\u221b27 = 3; 3\u00b2 = 9.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "∛27 = 3; 3² = 9. 6 is tempting, but it does not match what the question asks.",
+    hints: ["First find ∛27, the number multiplied by itself three times to make 27. Then square it."]
   },
   {
     id: "g8-maths-exponents-b-q22",
@@ -601,8 +601,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "7\u00b2" }
     ],
     answerId: "b",
-    explanation: "7\u00b2 \u00f7 7\u00b2 = 7\u2070.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "7² ÷ 7² = 7⁰. 7⁴ is tempting if you add the exponents when you should multiply, or the other way round.",
+    hints: ["Add the exponents −3 and 5, then subtract the exponent 2 for the division."]
   },
   {
     id: "g8-maths-exponents-b-q23",
@@ -614,8 +614,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "81" }
     ],
     answerId: "c",
-    explanation: "27\u00b9/\u00b3 = 3; 27\u00b2/\u00b3 = 3\u00b2 = 9.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "27¹/³ = 3; 27²/³ = 3² = 9. 3 is tempting, but it does not match what the question asks.",
+    hints: ["Find the cube root of 27 first, then square it."]
   },
   {
     id: "g8-maths-exponents-b-q24",
@@ -627,8 +627,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "10\u00b3" }
     ],
     answerId: "d",
-    explanation: "10\u00b2 \u00f7 10\u207b\u00b9 = 10\u00b3.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "10² ÷ 10⁻¹ = 10³. 10¹ is tempting, but it does not match what the question asks.",
+    hints: ["Add the exponents −2 and 4, then subtract −1. Subtracting a negative exponent adds."]
   }
 ];
 
