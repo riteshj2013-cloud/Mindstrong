@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "i = r, and incident ray, reflected ray, normal are coplanar.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Measure both angles from the normal at the point of incidence. Which rule states that they are equal?"]
   },
   {
     id: "g10-sci-light-a-q02",
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "A ray along the normal has i = 0, so r = 0 and it goes straight back along its path. 'At 90° to the normal' is tempting because 90° appears in the diagram, but that would send the ray along the mirror surface.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Head-on to the normal means bounce straight back."]
   },
   {
     id: "g10-sci-light-a-q03",
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Plane mirrors make virtual, same-size, left-right flipped images.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Stand in front of a bathroom mirror."]
   },
   {
     id: "g10-sci-light-a-q04",
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "For a spherical mirror the focus lies halfway between the pole and the centre of curvature, so f = R/2. f = 2R is tempting because the factor 2 is right, but it puts the focus beyond C instead of between P and C.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Centre of curvature is twice the focal length away."]
   },
   {
     id: "g10-sci-light-a-q05",
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "A concave mirror forms a real, inverted image when the object is beyond the focus. 'Between pole and focus only' is tempting because the mirror magnifies there, but that image is virtual and cannot be caught on a screen.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["A concave mirror forms real images only for objects on one side of F. Which side: nearer the pole or farther?"]
   },
   {
     id: "g10-sci-light-a-q06",
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "m = h\u2032/h = \u2212v/u in the New Cartesian convention for mirrors.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Magnification compares image height with object height. For mirrors, write it using image and object distances with signs."]
   },
   {
     id: "g10-sci-light-a-q07",
@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A ray through C meets the mirror along a radius, which is the normal, so i = 0 and it reflects back on itself. 'Passes through focus only after' is tempting, but that is what happens to rays parallel to the axis.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["A ray through the centre of curvature meets the mirror along its normal, at 0° incidence. Where does it go?"]
   },
   {
     id: "g10-sci-light-a-q08",
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Refraction is the bending of light when it crosses into a medium where its speed changes. 'Bouncing from a mirror' is tempting because it also changes the ray's direction, but that is reflection.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Air → glass bends toward the normal (usually)."]
   },
   {
     id: "g10-sci-light-a-q09",
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "n = c/v: speed in vacuum divided by speed in the medium, so n > 1 for glass. v/c is tempting because it uses the same speeds, but it is the reciprocal and would be less than 1.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Refractive index compares the speed of light in vacuum with its speed in the medium. Which ratio is that?"]
   },
   {
     id: "g10-sci-light-a-q10",
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Snell's law: n₁ sin i = n₂ sin r. n₂ / sin r is tempting because it has the same symbols, but the refractive index and the sine are multiplied, not divided.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Product n sinθ is conserved across the interface."]
   },
   {
     id: "g10-sci-light-a-q11",
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "A convex lens is thicker in the middle and brings parallel rays together at a focus, so it is converging. 'Diverging lens' is tempting, but that is the concave lens, which is thinner in the middle.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Convex lenses converge."]
   },
   {
     id: "g10-sci-light-a-q12",
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "A concave lens is thinner in the middle and spreads parallel rays apart, so it is diverging. 'Spherical mirror' is tempting because concave mirrors exist too, but a lens lets light pass through rather than reflecting it.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Concave lenses diverge."]
   },
   {
     id: "g10-sci-light-a-q13",
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "P = 1/f with f in metres; the unit is the dioptre. 'R/2' is tempting because it is a familiar lens-and-mirror formula, but it gives the focal length of a mirror, not power.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Converging lenses have positive power."]
   },
   {
     id: "g10-sci-light-a-q14",
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "From denser to rarer, beyond critical angle, light reflects fully.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Optical fibres trap rays by total internal reflection. Think about which side of the boundary the ray starts on, and how steeply it strikes."]
   },
   {
     id: "g10-sci-light-a-q15",
@@ -196,7 +196,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "At the critical angle the refracted ray just grazes the surface, so the angle of refraction is 90°. 'Reflection is zero' is tempting, but beyond the critical angle all the light reflects (total internal reflection).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["At the critical angle the refracted ray just grazes the boundary. What is the angle of refraction then?"]
   },
   {
     id: "g10-sci-light-a-q16",
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Raindrops refract, disperse and internally reflect sunlight, splitting it into colours. 'Only mirrors' is tempting because reflection is part of it, but without dispersion the colours would not separate.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["For rainbows, sunlight entering each raindrop bends, splits into colours and bounces off the back. Which two processes matter?"]
   },
   {
     id: "g10-sci-light-a-q17",
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Object between pole and F of concave \u2192 virtual enlarged erect.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Think of the inside of a steel spoon held close to your face. Which mirror type acts like that?"]
   },
   {
     id: "g10-sci-light-a-q18",
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Convex mirrors always give an erect, smaller image and show a wider area behind the vehicle. 'Concave only' is tempting because concave mirrors magnify, but their image flips and the view is narrow.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Rear-view mirrors show a wide area with smaller, upright images. Which mirror type bulges outward?"]
   },
   {
     id: "g10-sci-light-a-q19",
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "For a thin lens, with the new Cartesian sign convention, 1/v − 1/u = 1/f. 1/v + 1/u = 1/f is tempting, but that is the mirror formula; for a lens the sign between 1/v and 1/u is minus. v − u = f has no reciprocals, and magnification for a lens is m = v/u, not f/u.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["The lens formula links object distance u, image distance v and focal length f. Mind the sign convention."]
   },
   {
     id: "g10-sci-light-a-q20",
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Lens power is measured in dioptres: 1 D = 1 m⁻¹. Watt is tempting because it is the SI unit of power in physics, but lens 'power' means how strongly it bends light, not energy per second.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Lens power is 1/f with f in metres. What special name is given to the unit 1/m for lenses?"]
   },
   {
     id: "g10-sci-light-a-q21",
@@ -274,7 +274,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "In a real image the rays actually meet, so the image can be caught on a screen. 'Cannot exist for lenses' is tempting, but a convex lens forms real images, as in a projector.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Virtual images cannot be screened."]
   },
   {
     id: "g10-sci-light-a-q22",
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "In a plane mirror, left and right appear swapped: your raised right hand looks like the image's left. 'Upside-down always' is tempting, but a plane mirror image stays upright.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Wave at a mirror with one hand."]
   },
   {
     id: "g10-sci-light-a-q23",
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "1/v = 1/f − 1/u = −1/20 + 1/30 = −1/60, so v = −60 cm (a real image in front). −12 cm is tempting, but it comes from adding 1/f and 1/u instead of subtracting.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Use mirror formula 1/v+1/u=1/f."]
   },
   {
     id: "g10-sci-light-a-q24",
@@ -313,7 +313,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Glass bends each colour by a different amount because its refractive index depends on wavelength, so white light spreads into a spectrum. 'Only reflection' is tempting because a prism's faces can reflect, but reflection does not separate colours.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["In a prism violet bends more than red, because the glass slows each colour differently. What is that splitting called?"]
   }
 ];
 
@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "The normal is the line perpendicular to the surface at the point of incidence; angles i and r are measured from it. 'Parallel to the mirror' is tempting, but that line lies along the surface, not at 90° to it.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["The normal is drawn where the ray hits the mirror. What angle does it make with the mirror surface?"]
   },
   {
     id: "g10-sci-light-b-q02",
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "A plane mirror image is erect and the same size, so m = +1. −1 is tempting because the size is the same, but the minus sign means an inverted image.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Plane mirror: |v|=|u|, erect."]
   },
   {
     id: "g10-sci-light-b-q03",
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Rays parallel to the axis reflect through the principal focus of a concave mirror. 'The centre of curvature' is tempting, but rays pass through C only when they arrive along a radius.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Parallel in → through F out."]
   },
   {
     id: "g10-sci-light-b-q04",
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "An object at C forms an image at C that is real, inverted and the same size (m = −1). 'At F, magnified' is tempting, but the image is at F only when the object is very far away, and then it is tiny.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["For a concave mirror, rays from an object at the centre of curvature return along themselves. Where is the image, and how big?"]
   },
   {
     id: "g10-sci-light-b-q05",
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "The refractive index of medium 2 with respect to medium 1 is n₂/n₁ (= v₁/v₂). n₁/n₂ is tempting because it uses the same two values, but it is medium 1 with respect to medium 2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Relative refractive index of medium 2 with respect to medium 1 is a ratio of the two absolute indices."]
   },
   {
     id: "g10-sci-light-b-q06",
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Light bends in at the first face and back out at the second by the same amount, so the emergent ray is parallel to the incident ray but shifted sideways. 'By dispersing into a rainbow always' is tempting, but a parallel-sided slab does not spread colours noticeably.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Lateral shift increases with thickness."]
   },
   {
     id: "g10-sci-light-b-q07",
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Moving air layers of different density keep bending starlight by changing amounts, so stars seem to flicker. 'Dispersion in space vacuum only' is tempting, but a vacuum does not bend light; the effect comes from our atmosphere.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Planets twinkle less (extended disks)."]
   },
   {
     id: "g10-sci-light-b-q08",
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Light inside the fibre's core keeps hitting the boundary beyond the critical angle and reflects totally, so it travels far with little loss. 'Diffuse reflection only' is tempting because reflection is involved, but diffuse reflection scatters light and would lose it.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Light inside an optical fibre core keeps hitting the wall above the critical angle. Which effect keeps it trapped?"]
   },
   {
     id: "g10-sci-light-b-q09",
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "For a convex lens, an object at 2F gives an image at 2F on the other side that is real, inverted and the same size. 'At F' is tempting, but the image forms at F only for an object very far away.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Same-size real image at 2F."]
   },
   {
     id: "g10-sci-light-b-q10",
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Short-sight: focus in front of retina; diverge with concave.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Myopia → diverging lens."]
   },
   {
     id: "g10-sci-light-b-q11",
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "A long-sighted eye focuses near objects behind the retina, so a converging convex lens is used. 'Concave lens' is tempting because it is the other common spectacle lens, but it corrects short sight.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Hypermetropia → converging lens."]
   },
   {
     id: "g10-sci-light-b-q12",
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Focal length is a distance, so its SI unit is the metre. Dioptre is tempting because it is used with lenses, but it is the unit of power (1/f), not of f.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Focal length is a distance, measured from the optical centre to the focus. What is the SI unit of length?"]
   },
   {
     id: "g10-sci-light-b-q13",
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Glass has n > 1, so light slows down: v = c/n. 'Increases' is tempting because the ray bends, but bending towards the normal shows that light has slowed.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Glass is optically denser than air. Use n = c/v: if n rises above 1, what happens to v?"]
   },
   {
     id: "g10-sci-light-b-q14",
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The colour we see depends on the light's wavelength (or frequency). 'Only amplitude of sound' is tempting because amplitude matters for loudness, but that is sound, not light colour.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Colour stays the same when light passes from air into water. Which property of the wave stays fixed then?"]
   },
   {
     id: "g10-sci-light-b-q15",
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Real images made by a single convex lens are inverted, as seen on a projector screen. 'Erect always' is tempting because a magnifying glass shows an erect image, but that image is virtual.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Upside-down on the screen."]
   },
   {
     id: "g10-sci-light-b-q16",
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The pole is the centre of the mirror's reflecting surface, where the principal axis meets it. 'Centre of curvature' is tempting because of the word 'centre', but C is the centre of the sphere, away from the mirror.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Vertex of the mirror."]
   },
   {
     id: "g10-sci-light-b-q17",
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "v = c/n = (3 × 10⁸)/(4/3) = 2.25 × 10⁸ m/s. 4 × 10⁸ m/s is tempting, but that multiplies by 4/3 and would make light faster than in vacuum.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Speed in water = c ÷ n. Divide 3 × 10⁸ m/s by 4/3."]
   },
   {
     id: "g10-sci-light-b-q18",
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "In astigmatism the eye focuses differently in different directions, so a cylindrical lens that bends one direction more is used. 'Only concave spherical' is tempting because it corrects short sight, but a spherical lens bends all directions equally.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Cylinder lenses fix uneven cornea focus."]
   },
   {
     id: "g10-sci-light-b-q19",
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The aperture is the width (effective diameter) of the mirror's reflecting surface. 'Always equal to f' is tempting because both are mirror lengths, but f is measured along the axis and has no fixed link to the width.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Think of the mirror's opening size."]
   },
   {
     id: "g10-sci-light-b-q20",
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "In the New Cartesian convention distances are measured from the pole, positive in the direction of incident light, so a real object in front has negative u. 'u always positive' is tempting because distances feel positive, but the object lies against the direction of the light.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Be consistent with one convention."]
   },
   {
     id: "g10-sci-light-b-q21",
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Light from the part under water bends as it leaves the water, so that part looks raised and the pencil seems bent. 'Reflection only in the pencil' is tempting, but the bend appears exactly at the water surface, where light refracts.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Apparent depth / bent stick effect."]
   },
   {
     id: "g10-sci-light-b-q22",
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "For thin lenses in contact the powers add: P = P₁ + P₂. P = P₁P₂ is tempting, but multiplying powers would give the wrong unit (D²).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Lens power is measured in dioptres. For two thin lenses in contact, how do the separate powers combine?"]
   },
   {
     id: "g10-sci-light-b-q23",
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Reflection at a mirror happens without light leaving its medium. 'TIR requiring denser start' is tempting because TIR is reflection, but it only happens at a boundary with a rarer medium.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Refraction needs two media."]
   },
   {
     id: "g10-sci-light-b-q24",
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "f = +20 cm = 0.20 m, so P = 1/0.20 = +5 D. +0.2 D is tempting, but that is the focal length in metres, not its reciprocal.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Power P = 1/f with f in metres. Convert 20 cm to metres before taking the reciprocal."]
   }
 ];
 

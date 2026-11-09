@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Nutrition is taking in food and using it for energy and growth. 'Transpiration only' is tempting because it is also a life process, but transpiration is water loss from leaves.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["The life process here covers taking in food and using it for energy and growth. Name the overall process."]
   },
   {
     id: "g10-sci-life-a-q02",
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Autotrophs make their own food from simple substances, as green plants do by photosynthesis. 'Lack chlorophyll always' is tempting, but green plants are autotrophs because they have chlorophyll.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["'Auto' means self and 'troph' means nourishment. How does an autotroph get its food?"]
   },
   {
     id: "g10-sci-life-a-q03",
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Chloroplasts hold chlorophyll, which traps light for photosynthesis. The mitochondrion is tempting because it also handles energy, but it releases energy from food by respiration.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Green plastids do photosynthesis."]
   },
   {
     id: "g10-sci-life-a-q04",
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Stomata are leaf pores that exchange CO₂ and O₂ and let water vapour out (transpiration). 'Absorbing minerals from soil' is tempting, but roots do that; stomata are on leaves.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Guard cells open and close stomata."]
   },
   {
     id: "g10-sci-life-a-q05",
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Pepsin in the stomach and trypsin from the pancreas break down proteins. 'Amylase only' is tempting because it is a well-known enzyme, but amylase digests starch.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Proteases digest proteins."]
   },
   {
     id: "g10-sci-life-a-q06",
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "The liver makes bile and the gall bladder stores it. The pancreas is tempting because its juice also enters the small intestine, but it makes enzymes, not bile.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Bile emulsifies fats."]
   },
   {
     id: "g10-sci-life-a-q07",
@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Haemoglobin in red blood cells carries oxygen. Chlorophyll is tempting because it is also a coloured pigment, but it traps light in plants.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Iron-containing pigment binds O₂."]
   },
   {
     id: "g10-sci-life-a-q08",
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "With oxygen, glucose is broken down fully to CO₂ and water, releasing far more energy (ATP). 'No oxygen is used' is tempting, but that describes anaerobic respiration, which releases less.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Aerobic = with oxygen."]
   },
   {
     id: "g10-sci-life-a-q09",
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "When muscles run short of oxygen, glucose is turned into lactic acid. 'Alcohol and CO₂' is tempting because that is also anaerobic, but it happens in yeast, not in muscle.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Yeast makes alcohol; muscles make lactate."]
   },
   {
     id: "g10-sci-life-a-q10",
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Root cells actively take in ions from the soil, and water follows by osmosis. This builds root pressure that pushes water up the xylem, which matters most at night. Translocation is tempting, but it moves food through the phloem, not water through the xylem.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Root cells take in ions from the soil and water follows by osmosis. What builds up at the base of the xylem?"]
   },
   {
     id: "g10-sci-life-a-q11",
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Phloem carries food (sugars) from the leaves to other parts of the plant, including the roots; this is translocation. Xylem is tempting because it also connects roots and leaves, but it carries water and minerals upward.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Plants have two transport tissues: one carries water up from roots, the other carries food from leaves. Which carries sugars?"]
   },
   {
     id: "g10-sci-life-a-q12",
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Each kidney has about a million nephrons that filter blood and form urine. The alveolus is tempting because it is also a tiny unit, but it belongs to the lungs.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Each kidney has about a million tiny filtering units, each with a glomerulus and a tubule. What is one such unit called?"]
   },
   {
     id: "g10-sci-life-a-q13",
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The aorta carries oxygen-rich blood from the left ventricle to the body. The pulmonary artery is tempting because it also leaves the heart, but it starts at the right ventricle and goes to the lungs.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["The left ventricle pumps oxygenated blood to the whole body. Which is the largest artery leaving the heart?"]
   },
   {
     id: "g10-sci-life-a-q14",
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "The pulmonary artery takes deoxygenated blood from the right ventricle to the lungs. 'Oxygenated blood to lungs' is tempting because most arteries carry oxygenated blood, but this one carries blood that still needs oxygen.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Most arteries carry oxygen-rich blood, but the pulmonary artery leaves the right ventricle. Where does it go, and carrying what?"]
   },
   {
     id: "g10-sci-life-a-q15",
@@ -196,7 +196,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Villi are finger-like projections that give a huge surface for absorbing digested food. 'Produce bile' is tempting because bile also acts in the small intestine, but the liver makes it.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["More area → faster absorption."]
   },
   {
     id: "g10-sci-life-a-q16",
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Water evaporating from leaves pulls water up the xylem (ascent of sap) and cools the leaf. 'Photosynthesis dark reaction only' is tempting because it happens in leaves too, but it does not move water up the plant.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["In transpiration, water evaporating from leaves pulls more water up the xylem and takes heat away. Which two benefits follow?"]
   },
   {
     id: "g10-sci-life-a-q17",
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Urea is the main nitrogen-containing waste, removed in urine. 'Glucose as main waste' is tempting because it appears in tests, but glucose is useful fuel and is normally taken back into the blood.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["The liver turns extra amino acids into a nitrogen waste that kidneys filter into urine. Which waste is it?"]
   },
   {
     id: "g10-sci-life-a-q18",
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Platelets gather at a cut and help the blood clot. 'Carrying oxygen' is tempting because platelets are in blood, but red blood cells carry oxygen.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Platelets gather at a cut and help seal it. Which process stops the bleeding?"]
   },
   {
     id: "g10-sci-life-a-q19",
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "With oxygen, pyruvate is broken down in mitochondria to CO₂, H₂O and a lot of ATP. 'Only lactic acid' is tempting, but that is the anaerobic route in muscles, without oxygen.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Mitochondria = aerobic ATP factories."]
   },
   {
     id: "g10-sci-life-a-q20",
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Heterotrophs, like animals and fungi, cannot make their own food and depend on other organisms. 'Make food from CO₂ only' is tempting, but making food from CO₂ is what autotrophs do.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Hetero = other-feeding."]
   },
   {
     id: "g10-sci-life-a-q21",
@@ -274,7 +274,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Salivary amylase starts breaking starch into sugar in the mouth. Protein is tempting, but protein digestion starts in the stomach with pepsin.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Salivary amylase works in the mouth on a carbohydrate in rice and chapati, turning it sweet as you chew."]
   },
   {
     id: "g10-sci-life-a-q22",
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Pulmonary and systemic circulations are separate; blood returns to the heart between them.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Think two loops: heart→lungs→heart→body→heart."]
   },
   {
     id: "g10-sci-life-a-q23",
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Guard cells swell to open the stomatal pore and shrink to close it. 'Urine volume only' is tempting because it is also about controlling water, but that is the kidney's job.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Kidney-bean shaped cells around the pore."]
   },
   {
     id: "g10-sci-life-a-q24",
@@ -313,7 +313,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Dialysis filters the blood with a machine when the kidneys fail. 'Liver makes too much bile' is tempting because the liver is also an organ that cleans the blood, but dialysis does the kidneys' job.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Dialysis cleans blood externally."]
   }
 ];
 
@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "In the dark the plant cannot photosynthesise, so it uses up the starch already in its leaves (destarching). Any starch found after exposure to light must then be newly made. Opening stomata is tempting, but stomata usually close in the dark and that has nothing to do with stored starch.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["The test should show only starch made during the experiment. What must happen to starch the leaf had beforehand?"]
   },
   {
     id: "g10-sci-life-b-q02",
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "The O₂ given out in photosynthesis comes from splitting water molecules. Carbon dioxide is tempting because it contains oxygen, but its oxygen ends up in glucose.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Experiments with labelled oxygen show the O₂ released comes from splitting a raw material taken in by roots."]
   },
   {
     id: "g10-sci-life-b-q03",
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Peristalsis is a wave of muscle contractions that pushes food along the gut. 'Blood clotting' is tempting because it is also a body process, but it has nothing to do with moving food.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["The oesophagus and intestine walls contract in rhythmic waves. What does that rhythmic squeezing do to food?"]
   },
   {
     id: "g10-sci-life-b-q04",
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Bile salts break large fat drops into tiny droplets so lipase can work faster. 'Pepsin' is tempting because it is a digestive enzyme, but it digests protein, not fat.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Emulsify = break into droplets."]
   },
   {
     id: "g10-sci-life-b-q05",
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Millions of thin-walled alveoli give a huge surface next to capillaries for quick gas exchange. 'Thick cartilage only' is tempting because cartilage supports the airways, but thick walls would slow gas exchange.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Thin + moist + huge area = fast diffusion."]
   },
   {
     id: "g10-sci-life-b-q06",
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Lymph carries extra tissue fluid back to the blood and its white cells help fight infection. 'Carries oxygen mainly via haemoglobin' is tempting because lymph comes from blood, but it has no red blood cells.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Lymph nodes filter lymph."]
   },
   {
     id: "g10-sci-life-b-q07",
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "A sphygmomanometer measures blood pressure. 'Body temperature only' is tempting because it is also a doctor's instrument, but temperature is measured with a thermometer.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["A sphygmomanometer has an arm cuff and a pressure gauge. What does a doctor read with it?"]
   },
   {
     id: "g10-sci-life-b-q08",
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Evaporation from leaves creates a pull that draws water up the xylem. 'Blood pressure' is tempting because it moves fluid in animals, but plants have no heart or blood.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Water evaporating from leaves pulls a column of water up the xylem. What is this pulling force called?"]
   },
   {
     id: "g10-sci-life-b-q09",
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "The liver turns toxic ammonia into less harmful urea, which the kidneys remove. 'Glucose in muscle' is tempting, but glucose has no nitrogen and cannot hold the ammonia's nitrogen.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Ammonia is changed into a less toxic substance before the kidneys remove it. Which organ does it, and into what?"]
   },
   {
     id: "g10-sci-life-b-q10",
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Capillaries have walls one cell thick, so substances pass between blood and tissues. 'The largest arteries' is tempting because they are also blood vessels, but capillaries are the smallest.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Exchange happens at capillary beds."]
   },
   {
     id: "g10-sci-life-b-q11",
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Stomach HCl kills germs and gives the acid conditions pepsin needs to work. 'Makes bile' is tempting because both act on food, but the liver makes bile.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Stomach acid is a chemical defence too."]
   },
   {
     id: "g10-sci-life-b-q12",
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Aerobic respiration: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy. 'C₆H₁₂O₆ → lactic acid only' is tempting because it also starts with glucose, but that is anaerobic respiration in muscles.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Aerobic respiration uses glucose and oxygen. Balance the products: how many CO₂ and H₂O per glucose?"]
   },
   {
     id: "g10-sci-life-b-q13",
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Vein valves let blood flow only towards the heart and stop it flowing back. 'Produce RBCs' is tempting because both concern blood, but red blood cells are made in bone marrow.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Especially important in leg veins."]
   },
   {
     id: "g10-sci-life-b-q14",
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Bowman's capsule is the cup of the nephron that surrounds the glomerulus and filters the blood. The alveolus is tempting because it is also a cup-shaped sac, but it is in the lungs.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Bowman's capsule is the cup around the glomerulus where blood is first filtered. Which kidney unit is it part of?"]
   },
   {
     id: "g10-sci-life-b-q15",
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Paramecium's cilia beat to sweep food into its oral groove. 'Photosynthesis' is tempting because it is a single-celled organism like some algae, but Paramecium has no chloroplasts.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Paramecium is covered in tiny hair-like structures that beat to move water. Where do they sweep food?"]
   },
   {
     id: "g10-sci-life-b-q16",
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "ATP stores energy that cells can use at once, so it is called the cell's energy currency. 'A respiratory pigment' is tempting because ATP is linked to respiration, but pigments like haemoglobin carry oxygen.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Respiration charges ATP batteries."]
   },
   {
     id: "g10-sci-life-b-q17",
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Sunken stomata and a thick waxy cuticle cut down water loss in dry places. 'No roots' is tempting because water is scarce, but desert plants usually have long roots to reach water.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Desert plants must lose as little water as possible. Which features reduce water loss from leaves?"]
   },
   {
     id: "g10-sci-life-b-q18",
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Blood-group antibodies float in the plasma. 'Only inside RBCs haemoglobin' is tempting because blood groups depend on red cells, but red cells carry the antigens; the antibodies are in plasma.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Blood has cells and a straw-coloured liquid part. In ABO groups, antigens sit on red cells; where are antibodies?"]
   },
   {
     id: "g10-sci-life-b-q19",
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "The pancreas releases digestive enzymes into the intestine and the hormones insulin and glucagon into the blood. 'Only bile' is tempting because bile also enters the intestine, but bile comes from the liver.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Dual gland: gut enzymes and blood sugar control."]
   },
   {
     id: "g10-sci-life-b-q20",
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Working muscles need more oxygen and make more CO₂, so we breathe faster. 'Stop respiration' is tempting only if you mix up breathing and respiration, but cells respire faster, not slower.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["During heavy exercise muscles respire faster. What must the lungs bring in faster, and what must they remove?"]
   },
   {
     id: "g10-sci-life-b-q21",
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Saprophytes like mushrooms feed on dead and decaying matter. 'Green leaves only' is tempting because leaves also make or use food, but green leaves make their own food by photosynthesis.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Saprophytes feed on dead and decaying matter and break it down. Which organisms grow on rotting logs?"]
   },
   {
     id: "g10-sci-life-b-q22",
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Urine is made in the kidney, flows down the ureter, is stored in the bladder and leaves through the urethra. Kidney → urethra → bladder is tempting because the parts are right, but the order is wrong: the bladder comes before the urethra.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Ureter from kidney; urethra exits body."]
   },
   {
     id: "g10-sci-life-b-q23",
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Chlorophyll absorbs mainly red and blue light and reflects green, so leaves look green. 'Absorbs only green' is tempting, but a colour that is absorbed cannot reach our eyes.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["What you see is what isn't strongly absorbed."]
   },
   {
     id: "g10-sci-life-b-q24",
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "The left ventricle pumps blood to the whole body, so it needs a thicker, stronger wall. 'It only pumps to lungs' is tempting, but that is the right ventricle's job, which needs less pressure.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Thicker muscle → higher pressure."]
   }
 ];
 
