@@ -21,6 +21,7 @@ Each retired script starts with a guard that exits with `DEPRECATED: …` unless
 | `ingest_g4_maths_ch09.py` | G4 Maths M9 Logical Reasoning: patterns, analogies, classification |
 | `ingest_g4_maths_ch10.py` | G4 Maths M10 Logical Reasoning: coding, ranking, alphabet |
 | `ingest_g4_maths_ch11.py` | G4 Maths M11 LR3 Direction, Images, Figures |
+| `ingest_g4_maths_ch12.py` | G4 Maths M12 Clock, Calendar, Combinations |
 | `author_g5_maths_ch04_06.py` | G5 Maths ch04-06 |
 | `author_g8_science_ch04_06.py` | G8 Science ch04-06 |
 | `fix_quality_major_skew.py` | answer-letter skew fixer (no-op on current files) |
