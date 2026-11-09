@@ -223,7 +223,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "An exterior angle of a triangle equals the sum of the two remote (non-adjacent) interior angles. The adjacent interior angle is tempting if you think the exterior and the interior next to it are equal rather than supplementary on a straight line.",
-    hints: ["Try a triangle with angles 50°, 60° and 70°. How big is the exterior angle next to the 70° corner?"]
+    hints: ["Extend one side of a triangle past a corner, then mark the exterior angle and the interior angle beside it on that straight line."]
   },
   {
     id: "g7-maths-angles-a-q18",
@@ -236,7 +236,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "When parallel lines are cut by a transversal, corresponding angles (same position at each crossing) are equal. Supplementary is tempting if you mix them up with consecutive (co-interior) angles, which do add to 180°.",
-    hints: ["Sketch it: if one corresponding angle is 70°, what does a protractor show at the matching corner on the other parallel line?"]
+    hints: ["Corresponding angles take one corner position at each crossing, for example above the parallel line and right of the transversal, at both crossings."]
   },
   {
     id: "g7-maths-angles-a-q19",
@@ -249,7 +249,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Alternate interior angles (the Z-shape pair between the parallels) are equal when the lines are parallel. Complementary is tempting if you confuse them with angles that make a right angle.",
-    hints: ["Picture the Z between the parallels. If you turn the top bend of the Z half a turn about the middle of the Z, where does it land?"]
+    hints: ["Alternate interior angles lie between the parallel lines on opposite sides of the transversal; trace the Z shape and find its two inside bends."]
   },
   {
     id: "g7-maths-angles-a-q20",
@@ -262,7 +262,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Consecutive (co-interior / same-side) interior angles are supplementary — they add to 180°. Equal is tempting if you apply the alternate-interior rule instead of the same-side rule.",
-    hints: ["Sketch it: if one same-side interior angle is 70°, what does a protractor show for the other one?"]
+    hints: ["Consecutive interior angles both sit inside the parallel lines and on one side of the transversal, like the two inner corners of a letter C."]
   },
   {
     id: "g7-maths-angles-a-q21",
@@ -288,7 +288,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "A reflex angle measures more than 180° and less than 360°. 'Between 90° and 180°' is tempting if you describe an obtuse angle instead; 'less than 90°' if you describe an acute angle.",
-    hints: ["Think of the outside angle between the hands of a clock at 3:00. Roughly how big is that turn?"]
+    hints: ["Reflex is not another name for a straight angle. Picture clock hands: there is a turn between them on each side."]
   },
   {
     id: "g7-maths-angles-a-q23",
@@ -473,7 +473,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Vertically opposite angles made by two intersecting lines are always equal. 'Adjacent angles are equal' is tempting if you mix vertical angles with a linear pair — neighbours on a straight line add to 180°, they are not equal.",
-    hints: ["Draw two lines crossing at a slant and measure all four angles they make."]
+    hints: ["An always-true statement survives every example. Test one claim with two obtuse angles, 100° and 120°, then test the remaining statements yourself."]
   },
   {
     id: "g7-maths-angles-b-q13",
@@ -551,7 +551,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "A right triangle already uses 90° of its 180°, so the other two add to 90° — each is acute and they are complementary. 'Obtuse' is tempting if you forget that those two must share only 90° between them, so neither can be bigger than 90°.",
-    hints: ["Try a right triangle with one angle of 30°. What is the third angle?"]
+    hints: ["Could a right triangle also hold a 100° angle? Add the angles to check, then decide what kind the other two must be."]
   },
   {
     id: "g7-maths-angles-b-q19",
@@ -564,7 +564,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Equal corresponding angles is a test for parallel lines. 'Complementary' is tempting if you confuse corresponding angles with a pair that makes a right angle; equal matching corners, not a 90° sum, is the parallel test.",
-    hints: ["Picture sliding one line along the transversal until it lies on the other. When could the two crossings line up exactly?"]
+    hints: ["Find where the transversal crosses each of the two lines, and mark the top-left corner at both crossings as your corresponding pair."]
   },
   {
     id: "g7-maths-angles-b-q20",

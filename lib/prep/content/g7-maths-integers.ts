@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "c",
-    explanation: "On a number line, more negative means farther left, so −12 is left of −3, 0 and 5. −3 is tempting if you read the negatives like ordinary numbers, so 3 looks smaller than 12 and −3 seems farther left than −12.",
+    explanation: "On a number line, the more negative a number is, the farther left it sits, so −12 is left of −3, 0 and 5. −3 is tempting if you place both negatives left of zero but then compare them by their digits, treating 3 as smaller than 12, so −3 looks farther left than −12.",
     hints: ["On a number line, which direction means smaller? Then compare −12 with the other three."]
   },
   {
@@ -184,7 +184,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Change = final − initial = (−3) − 6 = −9 °C. 9 °C is tempting if you find the distance but drop the sign that shows a fall; −3 °C if you only report the final temperature.",
-    hints: ["Is a change worked out as new − old or old − new, and should a fall come out positive or negative?"]
+    hints: ["The bracket in the stem puts the final temperature first. Write that reading, subtract the initial one, and keep brackets round any negative reading."]
   },
   {
     id: "g7-maths-integers-a-q15",
