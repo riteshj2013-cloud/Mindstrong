@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Only tallies" }
     ],
     answerId: "a",
-    explanation: "Data are facts and numbers collected for a purpose. Only drawings is tempting if you read the wrong row or column of the table or chart; the correct reading is Facts and numbers we collect.",
+    explanation: "Data are facts and numbers collected for a purpose. Only drawings is tempting if you confuse a display of data with the data itself; drawings, graphs, and tallies are ways to show data, not the whole definition.",
     hints: ["Think of a class survey of favourite fruits: the information you write down is the data."]
   },
   {
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "b",
-    explanation: "Four upright strokes plus one across make a bundle of 5. 4 is tempting if you mix up the angle type or the size of the turn.",
+    explanation: "Four upright strokes plus one across make a bundle of 5. 4 is tempting if you count only the upright strokes and forget the diagonal that completes the bundle of 5.",
     hints: ["Count the strokes in one tally bundle: the four upright lines plus the diagonal stroke."]
   },
   {
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "c",
-    explanation: "4 × 2 = 8 children. 6 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "4 × 2 = 8 children. 6 is tempting if you count symbols without using the key, or forget a half-symbol; the total is 8.",
     hints: ["Each star stands for 2 children. Add 2 for every one of the 4 stars."]
   },
   {
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Equal widths" }
     ],
     answerId: "d",
-    explanation: "Bars are drawn with equal width so heights can be compared fairly. Different widths is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "Bars are drawn with equal width so heights can be compared fairly. Different widths is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is Equal widths.",
     hints: ["If one bar were fatter, it would look bigger than it really is. Bars should differ only in height."]
   },
   {
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Place-value chart" }
     ],
     answerId: "a",
-    explanation: "A pictograph uses pictures (icons) for quantities. Bar graph is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "A pictograph uses pictures (icons) for quantities. Bar graph is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is Pictograph.",
     hints: ["Look for the display whose key says what one picture stands for, like ⭐ = 2 children."]
   },
   {
@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "One stroke" }
     ],
     answerId: "c",
-    explanation: "7 = 5 + 2, so one bundle and two strokes. Seven single strokes only with no bundles is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "7 = 5 + 2, so one bundle and two strokes. Seven single strokes only with no bundles is tempting if you misread how many strokes sit in one tally bundle; each crossed bundle is 5.",
     hints: ["A tally bundle is a group of upright strokes with a slash. Take one bundle away from 7 and count what is left."]
   },
   {
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "The most popular colour" }
     ],
     answerId: "d",
-    explanation: "The tallest bar has the greatest frequency. The least popular colour is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "The tallest bar has the greatest frequency. The least popular colour is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is The most popular colour.",
     hints: ["A taller bar means more votes for that colour. What do the most votes tell you?"]
   },
   {
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "a",
-    explanation: "Total 12 divided by 3 numbers gives 4. 3 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "Total 12 divided by 3 numbers gives 4. 3 is tempting if you total the scores but divide by the wrong count; the average is 4.",
     hints: ["For the average, add the three numbers and divide the total by how many there are."]
   },
   {
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "b",
-    explanation: "5 appears most often, so the mode is 5. 4 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "5 appears most often, so the mode is 5. 4 is tempting if you total the wrong rows or skip a category; the reading is 5.",
     hints: ["Count how many times each value in the list appears. The mode is the value seen most often."]
   },
   {
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "b",
-    explanation: "The correct answer is 7. 8 is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 7.",
+    explanation: "The correct answer is 7. 8 is tempting if you total the wrong rows or skip a category; the reading is 7.",
     hints: ["How many more means subtract: take the Cycle number from the Bus number."]
   },
   {
@@ -196,7 +196,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "c",
-    explanation: "2 × 10 = 20 and half an icon = 5, total 25. 20 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "2 × 10 = 20 and half an icon = 5, total 25. 20 is tempting if you count symbols without using the key, or forget a half-symbol; the total is 25.",
     hints: ["Two whole icons are 2 × 10 cars. Half an icon is half of 10 cars."]
   },
   {
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "100" }
     ],
     answerId: "a",
-    explanation: "Sum 100 ÷ 4 = 25. 20 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "Sum 100 ÷ 4 = 25. 20 is tempting if you total the scores but divide by the wrong count; the average is 25.",
     hints: ["Add 10, 20, 30 and 40, then divide the total by 4."]
   },
   {
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "b",
-    explanation: "4 appears three times, more than any other value. 3 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "4 appears three times, more than any other value. 3 is tempting if you total the wrong rows or skip a category; the reading is 4.",
     hints: ["Tally how many times each value appears in the list. The mode is the most frequent value."]
   },
   {
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "c",
-    explanation: "Two bundles of 5 and two more make 12. 10 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "Two bundles of 5 and two more make 12. 10 is tempting if you misread how many strokes sit in one tally bundle; each crossed bundle is 5.",
     hints: ["Each |||| group in a tally has a slash across it, making a bundle of 5. Count the bundles, then the single strokes."]
   },
   {
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "A title and labelled axes" }
     ],
     answerId: "d",
-    explanation: "Title, labels and scale make the graph readable. Only colours is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "Title, labels and scale make the graph readable. Only colours is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is A title and labelled axes.",
     hints: ["A reader must know what the bar graph is about and what each line measures. What tells them that?"]
   },
   {
@@ -274,7 +274,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15 mm" }
     ],
     answerId: "a",
-    explanation: "Sum 15 ÷ 5 = 3 mm. 2 mm is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "Sum 15 ÷ 5 = 3 mm. 2 mm is tempting if you total the scores but divide by the wrong count; the average is 3 mm.",
     hints: ["Add the five daily rainfall amounts, then divide the total by the number of days."]
   },
   {
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "b",
-    explanation: "1 icon = 4 and ¾ icon = 3, total 7. 6 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "1 icon = 4 and ¾ icon = 3, total 7. 6 is tempting if you count symbols without using the key, or forget a half-symbol; the total is 7.",
     hints: ["One whole icon is 4 children. Three quarters of an icon is ¾ of 4 children."]
   },
   {
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "c",
-    explanation: "15 appears twice; every other mark appears once. 12 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "15 appears twice; every other mark appears once. 12 is tempting if you total the wrong rows or skip a category; the reading is 15.",
     hints: ["Count how often each mark appears. The mode is the mark that appears the most times."]
   },
   {
@@ -313,7 +313,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "d",
-    explanation: "6 × 5 = 30 students. 11 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "6 × 5 = 30 students. 11 is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is 30.",
     hints: ["Each unit stands for 5 students. Multiply the 6 units by 5."]
   }
 ];
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "9" }
     ],
     answerId: "b",
-    explanation: "4 × 5 = 20. 9 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "4 × 5 = 20. 9 is tempting if you misread how many strokes sit in one tally bundle; each crossed bundle is 5.",
     hints: ["Each tally bundle is five strokes. Count in fives, once for each bundle."]
   },
   {
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "c",
-    explanation: "2 × 10 = 20 books. 12 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "2 × 10 = 20 books. 12 is tempting if you count symbols without using the key, or forget a half-symbol; the total is 20.",
     hints: ["Each icon stands for 10 books. Add 10 for each of the 2 icons."]
   },
   {
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Horizontal axis (or x-axis)" }
     ],
     answerId: "d",
-    explanation: "The bottom axis is the horizontal axis. Title is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "The bottom axis is the horizontal axis. Title is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is Horizontal axis (or x-axis).",
     hints: ["The two lines that frame a bar graph are its axes. Which one runs along the bottom, left to right?"]
   },
   {
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Place-value chart" }
     ],
     answerId: "a",
-    explanation: "Bar graphs use equal-width bars. Pictograph is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "Bar graphs use equal-width bars. Pictograph is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is Bar graph.",
     hints: ["Which display draws a rectangle of the same width for each item, with heights that differ?"]
   },
   {
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Ten strokes" }
     ],
     answerId: "c",
-    explanation: "Three is fewer than five, so three single strokes. One bundle of 5 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "Three is fewer than five, so three single strokes. One bundle of 5 is tempting if you misread how many strokes sit in one tally bundle; each crossed bundle is 5.",
     hints: ["A bundle needs 5 tally strokes. With only 3 to show, do you draw a bundle?"]
   },
   {
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "The least frequency" }
     ],
     answerId: "d",
-    explanation: "Shortest bar means the smallest count. The greatest frequency is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "Shortest bar means the smallest count. The greatest frequency is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is The least frequency.",
     hints: ["A shorter bar means fewer counts. What do the fewest counts tell you?"]
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "18" }
     ],
     answerId: "a",
-    explanation: "Sum 18 ÷ 3 = 6. 5 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "Sum 18 ÷ 3 = 6. 5 is tempting if you total the scores but divide by the wrong count; the average is 6.",
     hints: ["Add 5, 5 and 8, then divide the total by 3."]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "There is no mode" }
     ],
     answerId: "b",
-    explanation: "9 appears twice; others appear once. 2 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "9 appears twice; others appear once. 2 is tempting if you total the wrong rows or skip a category; the reading is 9.",
     hints: ["Count how many times each number in the list appears; the mode appears most often."]
   },
   {
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "16" }
     ],
     answerId: "c",
-    explanation: "3 × 4 = 12 and ¼ icon = 1, total 13. 12 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "3 × 4 = 12 and ¼ icon = 1, total 13. 12 is tempting if you count symbols without using the key, or forget a half-symbol; the total is 13.",
     hints: ["Three whole icons are 3 × 4 trees. A quarter of an icon is ¼ of 4 trees."]
   },
   {
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "36" }
     ],
     answerId: "a",
-    explanation: "Sum 36 ÷ 3 = 12. 11 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "Sum 36 ÷ 3 = 12. 11 is tempting if you total the scores but divide by the wrong count; the average is 12.",
     hints: ["The average is the total shared equally. Add the three numbers, then divide by 3."]
   },
   {
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "9" }
     ],
     answerId: "b",
-    explanation: "7 appears three times. 6 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "7 appears three times. 6 is tempting if you total the wrong rows or skip a category; the reading is 7.",
     hints: ["Make a tally of how many times each value appears. The mode is the value with the biggest tally."]
   },
   {
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "c",
-    explanation: "Three bundles of 5 and one more = 16. 15 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "Three bundles of 5 and one more = 16. 15 is tempting if you misread how many strokes sit in one tally bundle; each crossed bundle is 5.",
     hints: ["In a tally, each |||| group with a slash is a bundle of 5. Count the bundles in fives, then add the single stroke."]
   },
   {
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "18" }
     ],
     answerId: "d",
-    explanation: "9 × 2 = 18 goals. 11 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "9 × 2 = 18 goals. 11 is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is 18.",
     hints: ["Each unit stands for 2 goals. Multiply the 9 units by 2."]
   },
   {
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "25" }
     ],
     answerId: "a",
-    explanation: "Sum 25 ÷ 5 = 5. 6 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "Sum 25 ÷ 5 = 5. 6 is tempting if you total the scores but divide by the wrong count; the average is 5.",
     hints: ["Add all the step counts, then divide the total by the number of weeks listed."]
   },
   {
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "24" }
     ],
     answerId: "b",
-    explanation: "2 × 8 = 16 and ¾ × 8 = 6, total 22. 20 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "2 × 8 = 16 and ¾ × 8 = 6, total 22. 20 is tempting if you count symbols without using the key, or forget a half-symbol; the total is 22.",
     hints: ["Two whole icons are 2 × 8 fish. Three quarters of an icon is ¾ of 8 fish."]
   },
   {
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "13" }
     ],
     answerId: "c",
-    explanation: "14 appears three times; 11 appears twice. 13 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "14 appears three times; 11 appears twice. 13 is tempting if you total the wrong rows or skip a category; the reading is 14.",
     hints: ["Count how often each score appears. The mode is the score that comes up most."]
   },
   {
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "d",
-    explanation: "7.5 × 4 = 30 pupils. 32 is tempting if you read the wrong bar or forget to total before dividing.",
+    explanation: "7.5 × 4 = 30 pupils. 32 is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is 30.",
     hints: ["Each unit is 4 pupils. Multiply 7.5 by 4: do 7 × 4, then add half of 4."]
   }
 ];
