@@ -594,16 +594,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-maths-integers-b-q22",
-    prompt: "How many integers lie strictly between \u22123 and 4?",
+    prompt: "In a board game, Pratyush's token may stop only on the whole-number squares of a number track that lie to the right of −5 and to the left of 3. How many squares can the token stop on?",
     options: [
-      { id: "a", text: "7" },
-      { id: "b", text: "6" },
-      { id: "c", text: "5" },
-      { id: "d", text: "8" }
+      { id: "a", text: "8" },
+      { id: "b", text: "7" },
+      { id: "c", text: "9" },
+      { id: "d", text: "6" }
     ],
     answerId: "b",
-    explanation: "−2, −1, 0, 1, 2, 3 — six integers. 5 is tempting if you drop a sign or miscount hops for “many / integers / lie”, landing on 5 instead of 6.",
-    hints: ["List them: start just after −3 and stop just before 4. Do not include −3 or 4."]
+    explanation: "The squares to the right of −5 and to the left of 3 are −4, −3, −2, −1, 0, 1 and 2, which is 7 squares. 9 is tempting if you also count −5 and 3, but the token must stop strictly to the right of −5 and to the left of 3.",
+    hints: ["List the squares on Pratyush's track from just after −5 up to just before 3, and do not forget the square for zero."]
   },
   {
     id: "g7-maths-integers-b-q23",

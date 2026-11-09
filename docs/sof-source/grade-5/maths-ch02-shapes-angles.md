@@ -496,16 +496,21 @@
 - **difficulty**: medium
 
 ### Q13
-- **stem**: What is the smaller angle between the hands of a clock at exactly 2 o'clock?
+- **id**: g5-maths-angles-b-q13
+- **stem**: Indrajit's art class in Mysuru starts at 1 o'clock and ends at 5 o'clock the same afternoon. The clock shows the hour hand at the start (dashed) and at the end (solid). Through what angle does the hour hand turn during the class?
+- **alt**: A clock face numbered 1 to 12. The minute hand points to 12. A dashed grey hour hand points to 1 and a solid blue hour hand points to 5, with a dashed green arc running clockwise from 1 to 5.
 - **options**:
-  - A) 30°
-  - B) 90°
-  - C) 60°
-  - D) 120°
+  - A) 90°
+  - B) 150°
+  - C) 120°
+  - D) 60°
 - **answer**: C
-- **explanation**: From 12 to 2 there are 2 gaps of 30° each, so the angle is 60°.
+- **explanation**: In one hour the hour hand moves from one number to the next, which is 360° ÷ 12 = 30°. From 1 o'clock to 5 o'clock is 4 hours (1 → 2 → 3 → 4 → 5), so it turns 4 × 30° = 120°. 150° is tempting if you count the five numbers 1, 2, 3, 4 and 5 instead of the gaps between them.
+- **hint**: In Indrajit's class, count the hours the hour hand travels; each hour moves it one twelfth of a full turn.
 - **skill**: clock_angle
 - **difficulty**: medium
+- **type**: pictorial
+- **pictorial**: yes
 
 ### Q14
 - **stem**: A full turn is split into two angles. One of them is 250°. What is the other?

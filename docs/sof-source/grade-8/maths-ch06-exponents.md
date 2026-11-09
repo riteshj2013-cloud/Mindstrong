@@ -480,16 +480,20 @@
 - **difficulty**: easy
 
 ### Q11
-- **stem**: Simplify: (3⁴ × 3²) ÷ 3³
+- **id**: g8-maths-exponents-b-q11
+- **stem**: For a Diwali mela in Pune, Bhavik fills 2⁵ gift boxes, putting 2⁴ diyas into every box. All these diyas are then given out equally to 2⁶ families. Written as a power of 2, how many diyas does each family receive?
 - **options**:
-  - A) 3³
-  - B) 3⁵
-  - C) 3⁸
-  - D) 3
+  - A) 2³
+  - B) 2¹⁴
+  - C) 2¹⁵
+  - D) 2⁹
 - **answer**: A
-- **explanation**: 3⁶ ÷ 3³ = 3³.
+- **explanation**: The stall has 2⁵ × 2⁴ = 2⁵⁺⁴ = 2⁹ diyas. Sharing them equally among 2⁶ families divides: 2⁹ ÷ 2⁶ = 2⁹⁻⁶ = 2³, so each family gets 2³ = 8 diyas. 2¹⁴ is tempting if you multiply the exponents 5 and 4 to get 2²⁰ before dividing, but multiplying powers of the same base adds their exponents.
+- **hint**: Bhavik's total is a product of powers with the same base; add those exponents, then subtract the exponent for the families.
 - **skill**: laws
 - **difficulty**: medium
+- **type**: mcq
+- **pictorial**: no
 
 ### Q12
 - **stem**: (2³)⁴ × 2⁻⁶ = ?

@@ -76,7 +76,7 @@ export const G6_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g6-maths-frac-b-q18": ["Divide 12 by 3, then 0.6 by 3, and add the two results."],
   "g6-maths-frac-b-q19": ["Slices left = 8 − 3. Write the slices left over the 8 slices of the whole pizza."],
   "g6-maths-frac-b-q20": ["Divide 7 by the bottom number to make a decimal, then subtract 1.5."],
-  "g6-maths-frac-b-q21": ["Write 0.125 as 125/1000, then keep dividing the top and bottom by 5."],
+  "g6-maths-frac-b-q21": ["Mrinalini's grandmother's fraction is a division; divide the numerator by the denominator, adding zeros after the decimal point."],
   "g6-maths-frac-b-q22": ["Change 7/10 into a decimal by dividing 7 by 10. Compare it with 0.7."],
   // g6-maths basic-geometry — Basic Geometry
   "g6-maths-geo-a-q03": ["Picture the corner of a notebook page. What special name is given to an angle measuring exactly 90°?"],

@@ -96,7 +96,7 @@ export const G6_MATHS_HINTS: Record<string, HintOverlay> = {
   "g6-maths-frac-b-q18": ["Divide as usual; keep the decimal place."],
   "g6-maths-frac-b-q19": ["Remaining parts over total parts."],
   "g6-maths-frac-b-q20": ["Match forms, then subtract."],
-  "g6-maths-frac-b-q21": ["Three decimal places → /1000, then simplify."],
+  "g6-maths-frac-b-q21": ["Mrinalini's grandmother's fraction is a division; divide the numerator by the denominator, adding zeros after the decimal point."],
   "g6-maths-frac-b-q22": ["Convert and compare."],
   "g6-maths-frac-b-q23": ["Line up the places or find a common denominator for pieces, rope before you choose."],
   "g6-maths-frac-b-q24": ["With 5, 6, 18 (q24), match denominators or place values before you compare or compute."],

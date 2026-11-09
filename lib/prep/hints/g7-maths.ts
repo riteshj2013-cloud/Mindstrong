@@ -47,7 +47,7 @@ export const G7_MATHS_HINTS: Record<string, HintOverlay> = {
   "g7-maths-integers-b-q19": ["Difference depends on which is larger."],
   "g7-maths-integers-b-q20": ["Distributive links × and +."],
   "g7-maths-integers-b-q21": ["Absolute value first, then apply the outer sign."],
-  "g7-maths-integers-b-q22": ["List them carefully; exclude the endpoints."],
+  "g7-maths-integers-b-q22": ["List the squares on Pratyush's track from just after −5 up to just before 3, and do not forget the square for zero."],
   "g7-maths-integers-b-q23": ["Multiplication before addition."],
   "g7-maths-integers-b-q24": ["Use a number line for additive, inverses and watch every sign as you count the hops."],
   "g7-maths-equations-a-q01": ["Undo addition with subtraction on both sides."],

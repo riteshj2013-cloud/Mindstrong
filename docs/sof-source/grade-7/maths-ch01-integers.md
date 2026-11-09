@@ -522,15 +522,20 @@
 - **difficulty**: mixed
 
 ### Q22
-- **stem**: How many integers lie strictly between −3 and 4?
+- **id**: g7-maths-integers-b-q22
+- **stem**: In a board game, Pratyush's token may stop only on the whole-number squares of a number track that lie to the right of −5 and to the left of 3. How many squares can the token stop on?
 - **options**:
-  - A) 7
-  - B) 6
-  - C) 5
-  - D) 8
+  - A) 8
+  - B) 7
+  - C) 9
+  - D) 6
 - **answer**: B
-- **explanation**: −2, −1, 0, 1, 2, 3 — six integers.
+- **explanation**: The squares to the right of −5 and to the left of 3 are −4, −3, −2, −1, 0, 1 and 2, which is 7 squares. 9 is tempting if you also count −5 and 3, but the token must stop strictly to the right of −5 and to the left of 3.
+- **hint**: List the squares on Pratyush's track from just after −5 up to just before 3, and do not forget the square for zero.
+- **skill**: counting_integers_in_a_range
 - **difficulty**: mixed
+- **type**: mcq
+- **pictorial**: no
 
 ### Q23
 - **stem**: Evaluate: (−8) + 3 × (−2).

@@ -480,16 +480,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-frac-b-q12",
-    prompt: "Which is greater: 3/5 or 3/8?",
+    prompt: "On a train to Shimla, Harshita and her cousin Sukanya each open an identical chikki bar. By the time the train arrives, Harshita has eaten 2/3 of her bar and Sukanya has eaten 3/4 of hers. Which cousin has eaten more chikki?",
     options: [
-      { id: "a", text: "3/8" },
-      { id: "b", text: "Both are equal" },
-      { id: "c", text: "3/5" },
-      { id: "d", text: "They cannot be compared" }
+      { id: "a", text: "Harshita" },
+      { id: "b", text: "Both have eaten the same amount" },
+      { id: "c", text: "Sukanya" },
+      { id: "d", text: "It cannot be told" }
     ],
     answerId: "c",
-    explanation: "With the same numerator, fifths are bigger pieces than eighths, so 3/5 is greater. 3/8 is tempting if you skip a common denominator or mis-place a decimal in “greater”, reaching 3/8 instead of 3/5.",
-    hints: ["Both have 3 parts on top. Is a fifth or an eighth of a bar the bigger piece?"]
+    explanation: "Compare 2/3 and 3/4 using twelfths: 2/3 = 8/12 and 3/4 = 9/12, so Sukanya has eaten more. Both have eaten the same amount is tempting because each girl has one piece of her bar left, but a quarter of a bar is a smaller piece than a third, so Sukanya has less left and has eaten more.",
+    hints: ["Write Harshita's fraction and her cousin's fraction as twelfths, or compare the size of the piece each girl still has left."]
   },
   {
     id: "g5-maths-frac-b-q13",

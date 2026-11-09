@@ -39,7 +39,7 @@ export const G7_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g7-maths-integers-b-q18": ["Work left to right: first (−25) ÷ 5, then multiply by (−2)."],
   "g7-maths-integers-b-q20": ["In a × (b + c), a multiplies each term inside the bracket. Which property spreads × over +?"],
   "g7-maths-integers-b-q21": ["Which two numbers are 12 steps from zero? Pick the negative one, then subtract 5."],
-  "g7-maths-integers-b-q22": ["List them: start just after −3 and stop just before 4. Do not include −3 or 4."],
+  "g7-maths-integers-b-q22": ["List the squares on Pratyush's track from just after −5 up to just before 3, and do not forget the square for zero."],
   "g7-maths-integers-b-q23": ["Multiply before adding: work out 3 × (−2) first, then add it to −8."],
   // g7-maths simple-equations — Simple Equations
   "g7-maths-equations-a-q01": ["Take 7 away from both sides of x + 7 = 15."],

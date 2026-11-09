@@ -491,16 +491,20 @@
 - **difficulty**: medium
 
 ### Q12
-- **stem**: Which is greater: 3/5 or 3/8?
+- **id**: g5-maths-frac-b-q12
+- **stem**: On a train to Shimla, Harshita and her cousin Sukanya each open an identical chikki bar. By the time the train arrives, Harshita has eaten 2/3 of her bar and Sukanya has eaten 3/4 of hers. Which cousin has eaten more chikki?
 - **options**:
-  - A) 3/8
-  - B) Both are equal
-  - C) 3/5
-  - D) They cannot be compared
+  - A) Harshita
+  - B) Both have eaten the same amount
+  - C) Sukanya
+  - D) It cannot be told
 - **answer**: C
-- **explanation**: With the same numerator, fifths are bigger pieces than eighths, so 3/5 is greater.
+- **explanation**: Compare 2/3 and 3/4 using twelfths: 2/3 = 8/12 and 3/4 = 9/12, so Sukanya has eaten more. Both have eaten the same amount is tempting because each girl has one piece of her bar left, but a quarter of a bar is a smaller piece than a third, so Sukanya has less left and has eaten more.
+- **hint**: Write Harshita's fraction and her cousin's fraction as twelfths, or compare the size of the piece each girl still has left.
 - **skill**: compare
 - **difficulty**: medium
+- **type**: mcq
+- **pictorial**: no
 
 ### Q13
 - **stem**: A basket has 32 mangoes and 3/4 of them are ripe. How many mangoes are ripe?

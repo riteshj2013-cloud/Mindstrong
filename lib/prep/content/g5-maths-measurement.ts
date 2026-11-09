@@ -373,29 +373,29 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-maths-meas-b-q05",
-    prompt: "What is the perimeter of a square with side 7 cm?",
+    prompt: "Baldev, a farmer near Nagpur, puts exactly one round of wire 36 m long around his square vegetable patch. How long is each side of the patch?",
     options: [
-      { id: "a", text: "28 cm" },
-      { id: "b", text: "14 cm" },
-      { id: "c", text: "21 cm" },
-      { id: "d", text: "49 cm" }
+      { id: "a", text: "9 m" },
+      { id: "b", text: "6 m" },
+      { id: "c", text: "12 m" },
+      { id: "d", text: "18 m" }
     ],
     answerId: "a",
-    explanation: "4 × 7 = 28 cm. 21 cm is tempting if you reverse one arithmetic step while handling “perimeter / square / side”, which produces 21 cm instead of 28 cm.",
-    hints: ["A square has 4 equal sides. Multiply the side 7 cm by 4."]
+    explanation: "A square has 4 equal sides, and one round of wire is its perimeter. So each side is 36 ÷ 4 = 9 m (check: 4 × 9 = 36 m). 6 m is tempting because 6 × 6 = 36, but that would make 36 the area of the patch, not the length of wire round it.",
+    hints: ["The wire goes once round all the equal sides of Baldev's square patch, so share its length equally among those sides."]
   },
   {
     id: "g5-maths-meas-b-q06",
-    prompt: "What is the area of a square with side 8 cm?",
+    prompt: "Hemlata's square verandah in Kochi measures 6 m along each edge. She covers the floor completely with square tiles that are 1 m along each edge, with no gaps or overlaps. How many tiles does she use?",
     options: [
-      { id: "a", text: "32 cm\u00b2" },
-      { id: "b", text: "64 cm\u00b2" },
-      { id: "c", text: "16 cm\u00b2" },
-      { id: "d", text: "48 cm\u00b2" }
+      { id: "a", text: "24" },
+      { id: "b", text: "36" },
+      { id: "c", text: "12" },
+      { id: "d", text: "18" }
     ],
     answerId: "b",
-    explanation: "8 × 8 = 64 cm². 48 cm² is tempting if you reverse one arithmetic step while handling “area / square / side”, which produces 48 cm² instead of 64 cm².",
-    hints: ["Area of a square = side × side. Multiply 8 cm by 8 cm."]
+    explanation: "Each tile covers 1 square metre, so the number of tiles equals the area of the floor: 6 m × 6 m = 36 m², which needs 36 tiles. 24 is tempting because 4 × 6 = 24 is the distance round the edge (the perimeter), not the space covered.",
+    hints: ["Each tile covers exactly one square metre of Hemlata's verandah, so find how many square metres the floor covers."]
   },
   {
     id: "g5-maths-meas-b-q07",
