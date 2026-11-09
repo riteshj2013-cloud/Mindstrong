@@ -137,7 +137,7 @@ export const G5_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g5-maths-dec-a-q16": ["Write 4.2 as 4.20, line up the points with 0.85, then subtract, borrowing where needed."],
   "g5-maths-dec-a-q17": ["Multiplying by 100 moves every digit two places to the left, so hundredths become ones. What does the decimal become?"],
   "g5-maths-dec-a-q18": ["To change a decimal to a percent, multiply 0.75 by 100."],
-  "g5-maths-dec-a-q19": ["10% means one tenth of the whole; apply that idea to 250 without writing the final quotient yet."],
+  "g5-maths-dec-a-q19": ["10% is one tenth. Divide 250 by 10."],
   "g5-maths-dec-a-q20": ["1 L = 1000 ml, so multiply 0.75 by 1000."],
   "g5-maths-dec-a-q21": ["0.2 means 2 tenths, or 2/10. Simplify 2/10."],
   "g5-maths-dec-a-q22": ["Write 18 marks out of 20 as a fraction, then multiply top and bottom by 5 to get a denominator of 100."],
@@ -238,7 +238,7 @@ export const G5_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g5-maths-data-a-q21": ["Add the five daily rainfall amounts, then divide the total by the number of days."],
   "g5-maths-data-a-q22": ["One whole icon is 4 children. Three quarters of an icon is ¾ of 4 children."],
   "g5-maths-data-a-q23": ["Count how often each mark appears. The mode is the mark that appears the most times."],
-  "g5-maths-data-a-q24": ["Read the scale key first: each unit stands for several students, then use the unit count."],
+  "g5-maths-data-a-q24": ["Each unit stands for 5 students. Multiply the 6 units by 5."],
   "g5-maths-data-b-q01": ["Imagine 30 survey answers in one long sentence versus in a table's rows and columns. Which is quicker to read?"],
   "g5-maths-data-b-q02": ["Each tally bundle is five strokes. Count in fives, once for each bundle."],
   "g5-maths-data-b-q03": ["Each icon stands for 10 books. Add 10 for each of the 2 icons."],
@@ -269,5 +269,4 @@ export const G5_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g5-maths-frac-a-q02": ["In a fraction, which number tells how many equal parts the whole has?"],
   "g5-maths-frac-a-q09": ["Count all the laddoos on the plate first.", "Now count only the laddoos with orange rings. Which count goes on top of the fraction?"],
   "g5-maths-angles-b-q11": ["An acute angle is less than 90°. Read the measure on each panel.", "Which panel shows an angle that is not less than a right angle?"],
-  "g5-maths-large-b-q20": ["Find which option is closest to 50,000 by checking how far each number sits above or below it."],
 };

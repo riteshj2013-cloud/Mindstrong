@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "a",
-    explanation: "Subtract 7 from both sides: x = 8. 7 is tempting if you move a term across equals without flipping its sign in “Solve”, which solves as 7 instead of 8.",
+    explanation: "Subtract 7 from both sides: x = 8. 7 is tempting if you move a term across equals without flipping its sign; balancing both sides gives 8 when you re-check the step.",
     hints: ["Take 7 away from both sides of x + 7 = 15."]
   },
   {
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "36" }
     ],
     answerId: "b",
-    explanation: "Add 9: y = 13. 5 is tempting if you subtract 9 and 4.0 in the order that yields 5 instead of the path to 13.",
+    explanation: "Add 9: y = 13. 5 is tempting if you subtract a number from only the left side.",
     hints: ["Add 9 to both sides of y − 9 = 4."]
   },
   {
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "14" }
     ],
     answerId: "a",
-    explanation: "2x = 8, so x = 4. 7 is tempting if you move a term across equals without flipping its sign in “Solve”, which solves as 7 instead of 4.",
+    explanation: "2x = 8, so x = 4. 7 is tempting if you collect like terms on one side but drop a sign.",
     hints: ["Subtract 3 first, then divide by 2."]
   },
   {
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "b",
-    explanation: "5p = 20, p = 4. 3 is tempting if you move a term across equals without flipping its sign in “Solve”, which solves as 3 instead of 4, noticing variant.",
+    explanation: "5p = 20, p = 4. 3 is tempting if you add to one side and forget the other.",
     hints: ["Undo the subtraction first, so 5p equals 16 plus the amount taken away. Then divide by 5."]
   },
   {
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "21" }
     ],
     answerId: "c",
-    explanation: "x − 1 = 5, so x = 6. 5 is tempting if you add 4 and 1 to get 5 when the stem needs a different operation that yields 6.",
+    explanation: "x − 1 = 5, so x = 6. 5 is tempting if you clear brackets but forget to multiply every term inside; distributing fully gives 6 when you re-check the step.",
     hints: ["Divide by 4, then add 1."]
   },
   {
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "9" }
     ],
     answerId: "d",
-    explanation: "x/3 = 3, so x = 9. 7 is tempting if you move a term across equals without flipping its sign in “Solve”, which solves as 7 instead of 9, noticing variant.",
+    explanation: "x/3 = 3, so x = 9. 7 is tempting if you divide by the coefficient before moving the constant (or the reverse); the right order gives 9 when you re-check the step.",
     hints: ["Subtract 2, then multiply by 3."]
   },
   {
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "a",
-    explanation: "2x + 7 = 25 → 2x = 18 → x = 9. 4 is tempting if you move a term across equals without flipping its sign in “added / twice / result”, which solves as 4 instead of 9.",
+    explanation: "2x + 7 = 25 → 2x = 18 → x = 9. 4 is tempting if you operate on only one side of the equation; doing the same to both sides gives 9 when you re-check the added.",
     hints: ["Write 2n + 7 = 25. Take 7 from both sides, then halve."]
   },
   {
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u22123" }
     ],
     answerId: "d",
-    explanation: "x = −18/6 = −3. 3 is tempting if you halve 6 to reach 3 instead of the working that gives −3.",
+    explanation: "x = −18/6 = −3. 3 is tempting if you move a term across without flipping its sign.",
     hints: ["Divide both sides by 6."]
   },
   {
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "a",
-    explanation: "x/2 = 6, x = 12. 8 is tempting if you make the eagle/ridge slip on “Solve” that evaluates exactly to 8; the method above reaches 12.",
+    explanation: "x/2 = 6, x = 12. 8 is tempting if you subtract a number from only the left side.",
     hints: ["Add 5, then multiply by 2."]
   },
   {
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "c",
-    explanation: "3x + x = 4x, so 4x = 20 and x = 5. 4 is tempting if you stop after combining like terms and report the coefficient 4 instead of dividing 20 by 4.",
+    explanation: "4x = 20, x = 5. 4 is tempting if you treat a coefficient as an addend and subtract it instead of dividing; dividing through gives 5 when you re-check the step.",
     hints: ["First combine 3x + x into one term. Then divide 20 by its coefficient."]
   },
   {
@@ -274,7 +274,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7" }
     ],
     answerId: "a",
-    explanation: "3k + 1 = 10 → 3k = 9 → k = 3. 1 is tempting if you move a term across equals without flipping its sign in “satisfies”, which solves as 1 instead of 3.",
+    explanation: "3k + 1 = 10 → 3k = 9 → k = 3. 1 is tempting if you add to one side and forget the other.",
     hints: ["Substitute the known value of x."]
   },
   {
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "No solution" }
     ],
     answerId: "b",
-    explanation: "Expanding gives 5x + 10 = 5x + 10 — always true. x = 0 only is tempting if you move a term across equals without flipping its sign in “Solve”, which solves as x = 0 only instead of All real numbers (identity).",
+    explanation: "Expanding gives 5x + 10 = 5x + 10 — always true. x = 0 only is tempting if you flip a sign once too often while collecting like terms; careful collection gives All real numbers (identity) when you re-check the step.",
     hints: ["If both sides match for every x, it is an identity."]
   },
   {
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "All real numbers" }
     ],
     answerId: "c",
-    explanation: "Subtract 2x: 5 = 9, which is false. No solution. x = 0 is tempting if you move a term across equals without flipping its sign in “Solve”, which solves as x = 0 instead of No solution.",
+    explanation: "Subtract 2x: 5 = 9, which is false. No solution. x = 0 is tempting if you collect like terms on one side but drop a sign.",
     hints: ["Subtract 2x from both sides of 2x + 5 = 2x + 9. Is what remains ever true?"]
   },
   {
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "b",
-    explanation: "3x − 12 = 2x + 2 → x = 14. 10 is tempting if you make the alpha/umbra slip on “Solve” that evaluates exactly to 10; the method above reaches 14.",
+    explanation: "3x − 12 = 2x + 2 → x = 14. 10 is tempting if you substitute back into only part of the original equation when checking; the solution is 14 when you re-check the step.",
     hints: ["Expand both brackets: 3x − 12 = 2x + 2. Then collect the x terms on one side."]
   },
   {
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "c",
-    explanation: "n + (n+1) + (n+2) = 3n + 3 = 54 → 3n = 51 → n = 17. 16 is tempting if you divide 54 by 3 and forget to subtract the +3 first, then slip one off that quotient.",
+    explanation: "n + (n+1) + (n+2) = 54 → 3n + 3 = 54 → n = 17. 16 is tempting if you multiply both sides by the reciprocal of the wrong factor; the correct inverse gives 17 when you re-check the sum.",
     hints: ["Consecutive integers differ by 1."]
   },
   {
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "c",
-    explanation: "2x = 10, x = 5; 3×5 + 2 = 17. 14 is tempting if you move a term across equals without flipping its sign in “equations”, which solves as 14 instead of 17.",
+    explanation: "2x = 10, x = 5; 3×5 + 2 = 17. 14 is tempting if you move a term across without flipping its sign.",
     hints: ["Find x first, then evaluate the new expression."]
   },
   {
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "d",
-    explanation: "−3x = −6 → x = 2. 10/3 is tempting if you move a term across equals without flipping its sign in “Solve”, which solves as 10/3 instead of 2.",
+    explanation: "−3x = −6 → x = 2. 3 is tempting if you subtract a number from only the left side.",
     hints: ["Subtract 8, then divide by −3."]
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "6 cm" }
     ],
     answerId: "a",
-    explanation: "4s = 48 → s = 12. 6 cm is tempting if you move a term across equals without flipping its sign in “Perimeter / square / Side”, which solves as 6 cm instead of 12 cm.",
+    explanation: "4s = 48 → s = 12. 6 cm is tempting if you expand a product but drop a middle cross term; full expansion gives 12 cm when you re-check the perimeter.",
     hints: ["Perimeter of square = 4 × side."]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "b",
-    explanation: "2x + 1 = 15 → 2x = 14 → x = 7. 8 is tempting if you make the cedar/xenon slip on “Solve” that evaluates exactly to 8; the method above reaches 7.",
+    explanation: "2x + 1 = 15 → 2x = 14 → x = 7. 8 is tempting if you combine unlike terms when isolating the variable; keeping like with like gives 7 when you re-check the step.",
     hints: ["Multiply both sides by 3 first."]
   },
   {
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "d",
-    explanation: "9 = 3x → x = 3. 6 is tempting if you make the ember/coral slip on “Solve” that evaluates exactly to 6; the method above reaches 3.",
+    explanation: "9 = 3x → x = 3. 6 is tempting if you add to one side and forget the other.",
     hints: ["Add x to both sides, then divide."]
   },
   {
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Delete a term from one side only" }
     ],
     answerId: "a",
-    explanation: "Balance requires the same change on both sides. Add different numbers to each side is tempting if you move a term across equals without flipping its sign in “step / valid / solving”, which solves as Add different numbers to each side instead of Add the same number to both sides.",
+    explanation: "Balance requires the same change on both sides. Add different numbers to each side is tempting if you collect like terms on one side but drop a sign.",
     hints: ["An equation is like a balance. What must you do to keep both sides equal?"]
   },
   {
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "17" }
     ],
     answerId: "c",
-    explanation: "x + (x+3) = 40 → 2x = 37 → x = 18.5. 17 is tempting if you move a term across equals without flipping its sign in “Two / numbers / sum”, which solves as 17 instead of 18.5.",
+    explanation: "x + (x+3) = 40 → 2x = 37 → x = 18.5. 17 is tempting if you move a term across equals without flipping its sign; balancing both sides gives 18.5 when you re-check the two.",
     hints: ["Let smaller = x; larger = x + 3."]
   },
   {
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "c",
-    explanation: "Substitute: 3(−2) + 8 = −6 + 8 = 2, so x = −2 works. No is tempting if you compute 3(−2) as +6 (dropping the minus) and then decide −2 is not a solution.",
+    explanation: "3(−2) + 8 = −6 + 8 = 2. Yes. No is tempting if you treat a product as a sum when collecting terms.",
     hints: ["Put x = −2 into 3x + 8. Does it equal 2?"]
   },
   {
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "d",
-    explanation: "4 = x + 1 → x = 3. 4 is tempting if you divide 12 by 3 to reach 4 when the correct arrangement gives 3.",
+    explanation: "4 = x + 1 → x = 3. 4 is tempting if you clear brackets but forget to multiply every term inside; distributing fully gives 3 when you re-check the step.",
     hints: ["Divide 12 by the number outside the bracket to find x + 1, then subtract 1."]
   },
   {
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x = 3\u00d790" }
     ],
     answerId: "a",
-    explanation: "Three tickets = one ticket + 90 → 3x = x + 90. 3x + 90 = x is tempting if you move a term across equals without flipping its sign in “ticket / costs / Three”, which solves as 3x + 90 = x instead of 3x = x + 90.",
+    explanation: "Three tickets = one ticket + 90 → 3x = x + 90. 3x + 90 = x is tempting if you divide by the coefficient before moving the constant (or the reverse); the right order gives 3x = x + 90 when you re-check the ticket.",
     hints: ["Write the cost of three tickets and of one ticket using ₹x. Which is ₹90 more?"]
   },
   {
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "b",
-    explanation: "2x = 90 → x = 45. 30 is tempting if you move a term across equals without flipping its sign in “equations”, which solves as 30 instead of 45.",
+    explanation: "2x = 90 → x = 45. 30 is tempting if you move a term across without flipping its sign.",
     hints: ["Subtract x from both sides."]
   },
   {
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u221214" }
     ],
     answerId: "c",
-    explanation: "−x + 4 = 10 → −x = 6 → x = −6. 14 is tempting if you add 4 and 10.0 to get 14 when the stem needs a different operation that yields −6.",
+    explanation: "−x + 4 = 10 → −x = 6 → x = −6. 14 is tempting if you operate on only one side of the equation; doing the same to both sides gives −6 when you re-check the step.",
     hints: ["Distribute the minus, then isolate x."]
   },
   {

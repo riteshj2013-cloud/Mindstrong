@@ -7,7 +7,7 @@ export const G8_MATHS_HINTS: Record<string, HintOverlay> = {
   "g8-maths-compare-a-q03": ["Keep units the same; simplify both parts by the same factor."],
   "g8-maths-compare-a-q04": ["Percent means out of 100; convert via fraction or decimal."],
   "g8-maths-compare-a-q05": ["Set up the comparison carefully; keep units consistent."],
-  "g8-maths-compare-a-q06": ["Discount reduces the marked price; think selling price = marked price minus discount."],
+  "g8-maths-compare-a-q06": ["Discount comes off the marked price."],
   "g8-maths-compare-a-q07": ["Percent means out of 100; convert via fraction or decimal."],
   "g8-maths-compare-a-q08": ["Percent means out of 100; convert via fraction or decimal."],
   "g8-maths-compare-a-q09": ["Percent means out of 100; convert via fraction or decimal."],

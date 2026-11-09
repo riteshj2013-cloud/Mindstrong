@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "20 cm" }
     ],
     answerId: "a",
-    explanation: "Perimeter of a square is 4 × side = 4 × 4 = 16 cm. 12 cm is tempting if you reverse one arithmetic step while handling “perimeter / square / side”, which produces 12 cm instead of 16 cm.",
+    explanation: "Perimeter of a square is 4 × side = 4 × 4 = 16 cm. 12 cm is tempting if you add only three sides (3 × side) instead of all four.",
     hints: ["A square has 4 equal sides. Multiply the side 4 cm by the number of sides."]
   },
   {
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "Area of a square is side × side = 5 × 5 = 25 cm². 20 cm² is tempting if you reverse one arithmetic step while handling “area / square / side”, which produces 20 cm² instead of 25 cm².",
+    explanation: "Area of a square is side × side = 5 × 5 = 25 cm². 20 cm² is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area; area is 25 cm².",
     hints: ["Area of a square = side × side. Multiply 5 cm by 5 cm."]
   },
   {
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "kilometre" }
     ],
     answerId: "a",
-    explanation: "A classroom is a few metres long, so metre is the sensible unit. millimetre is tempting if you reverse one arithmetic step while handling “unit / best / length”, which produces millimetre instead of metre.",
+    explanation: "A classroom is a few metres long, so metre is the sensible unit. millimetre is tempting if you pick a unit meant for a much smaller or larger kind of measure than the one in the question.",
     hints: ["A classroom is longer than a ruler but much shorter than a road between towns. Pick a unit to match."]
   },
   {
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "litre" }
     ],
     answerId: "b",
-    explanation: "Sugar is sold by mass, usually in kilograms (or grams). millilitre is tempting if you reverse one arithmetic step while handling “unit / best / mass”, which produces millilitre instead of kilogram.",
+    explanation: "Sugar is sold by mass, usually in kilograms (or grams). millilitre is tempting if you pick a unit meant for a much smaller or larger kind of measure than the one in the question.",
     hints: ["A packet of sugar is weighed, not poured or measured with a ruler. Which unit fits a mass that size?"]
   },
   {
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2000 g" }
     ],
     answerId: "d",
-    explanation: "2 × 1000 = 2000 g. 2500 g is tempting if you reverse one arithmetic step while handling “Convert / grams”, which produces 2500 g instead of 2000 g.",
+    explanation: "2 × 1000 = 2000 g. 2500 g is tempting if you use 100 or 500 instead of 1000 g in a kilogram.",
     hints: ["1 kg = 1000 g, so multiply 2 by 1000."]
   },
   {
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "120 m\u00b2" }
     ],
     answerId: "b",
-    explanation: "Area = 12 × 12 = 144 m². 120 m² is tempting if you reverse one arithmetic step while handling “square / field / side”, which produces 120 m² instead of 144 m².",
+    explanation: "Area = 12 × 12 = 144 m². 120 m² is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area; area is 144 m².",
     hints: ["Area of a square = side × side. Multiply 12 m by 12 m."]
   },
   {
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3.5 L" }
     ],
     answerId: "d",
-    explanation: "3500 ÷ 1000 = 3.5 L. 35 L is tempting if you reverse one arithmetic step while handling “Convert / litres”, which produces 35 L instead of 3.5 L.",
+    explanation: "3500 ÷ 1000 = 3.5 L. 0.35 L is tempting if you divide by 10,000 instead of 1000; 35 L is tempting if you divide by only 100.",
     hints: ["1000 ml = 1 L, so divide 3500 by 1000."]
   },
   {
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "Area = 3 × 2 = 6 cm². 5 cm² is tempting if you add 3 and 2 to get 5 cm² when the stem needs a different operation that yields 6 cm².",
+    explanation: "Area = 3 × 2 = 6 cm². 5 cm² is tempting if you find the perimeter instead of the area.",
     hints: ["Area of a rectangle = length × breadth. Multiply 3 cm by 2 cm."]
   },
   {
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "18 cm" }
     ],
     answerId: "c",
-    explanation: "Side = perimeter ÷ 4 = 36 ÷ 4 = 9 cm. 12 cm is tempting if you reverse one arithmetic step while handling “square / perimeter / length”, which produces 12 cm instead of 9 cm.",
+    explanation: "Side = perimeter ÷ 4 = 36 ÷ 4 = 9 cm. 12 cm is tempting if you add only three sides (3 × side) instead of all four.",
     hints: ["A square has 4 equal sides that add up to 36 cm. Share 36 into 4 equal parts."]
   },
   {
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "500 kg" }
     ],
     answerId: "c",
-    explanation: "5000 ÷ 1000 = 5 kg. 0.5 kg is tempting if you reverse one arithmetic step while handling “many / kilograms”, which produces 0.5 kg instead of 5 kg.",
+    explanation: "5000 ÷ 1000 = 5 kg. 0.5 kg is tempting if you divide by 10,000 instead of 1000; 50 kg is tempting if you divide by only 100.",
     hints: ["1000 g = 1 kg — multiply or divide by 1000 to convert."]
   },
   {
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2 L" }
     ],
     answerId: "d",
-    explanation: "2000 ÷ 1000 = 2 L. 0.2 L is tempting if you reverse one arithmetic step while handling “many / litres”, which produces 0.2 L instead of 2 L.",
+    explanation: "2000 ÷ 1000 = 2 L. 0.2 L is tempting if you divide by 10,000 instead of 1000; 20 L is tempting if you divide by only 100.",
     hints: ["1000 ml = 1 L, so divide 2000 by 1000."]
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "ml" }
     ],
     answerId: "a",
-    explanation: "City distances are measured in kilometres. cm is tempting if you reverse one arithmetic step while handling “unit / best / distance”, which produces cm instead of km.",
+    explanation: "City distances are measured in kilometres. cm is tempting if you pick a unit meant for a much smaller or larger kind of measure than the one in the question.",
     hints: ["Cities are many thousands of metres apart. Which unit is made for long distances?"]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "metre" }
     ],
     answerId: "b",
-    explanation: "Small liquid amounts use millilitres. kilometre is tempting if you reverse one arithmetic step while handling “unit / best / spoon”, which produces kilometre instead of millilitre.",
+    explanation: "Small liquid amounts use millilitres. kilometre is tempting if you pick a unit meant for a much smaller or larger kind of measure than the one in the question.",
     hints: ["Cough syrup is a liquid, and a spoonful is a tiny amount. Which unit measures small volumes?"]
   },
   {
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "200 m\u00b2" }
     ],
     answerId: "b",
-    explanation: "20 × 20 = 400 m². 200 m² is tempting if you reverse one arithmetic step while handling “square / courtyard / side”, which produces 200 m² instead of 400 m².",
+    explanation: "20 × 20 = 400 m². 200 m² is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area; area is 400 m².",
     hints: ["Area of a square = side × side. Multiply 20 m by 20 m."]
   },
   {
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1250 g" }
     ],
     answerId: "d",
-    explanation: "1.25 × 1000 = 1250 g. 125 g is tempting if you reverse one arithmetic step while handling “Convert / grams”, which produces 125 g instead of 1250 g.",
+    explanation: "1.25 × 1000 = 1250 g. 125 g is tempting if you use 100 or 500 instead of 1000 g in a kilogram.",
     hints: ["1 kg = 1000 g, so multiply 1.25 by 1000."]
   },
   {
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "200 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "20 × 15 = 300 cm². 200 cm² is tempting if you reverse one arithmetic step while handling “notebook / page / area”, which produces 200 cm² instead of 300 cm².",
+    explanation: "20 × 15 = 300 cm². 200 cm² is tempting if you find the perimeter instead of the area.",
     hints: ["Area of a rectangle = length × breadth. Multiply 20 cm by 15 cm."]
   },
   {
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "40.5 cm" }
     ],
     answerId: "c",
-    explanation: "Side × side = 81, so side = 9 cm. 8 cm is tempting if you reverse one arithmetic step while handling “square / area / length”, which produces 8 cm instead of 9 cm.",
+    explanation: "Side × side = 81, so side = 9 cm. 8 cm is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area; area is 9 cm.",
     hints: ["Find the number that, multiplied by itself, gives 81."]
   },
   {
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1500 m\u00b2" }
     ],
     answerId: "d",
-    explanation: "50 × 30 = 1500 m². 800 m² is tempting if you reverse one arithmetic step while handling “rectangular / playground / area”, which produces 800 m² instead of 1500 m².",
+    explanation: "50 × 30 = 1500 m². 800 m² is tempting if you find the perimeter instead of the area.",
     hints: ["Area of a rectangle = length × breadth. Multiply 50 m by 30 m: do 5 × 3, then add the zeros."]
   },
   {
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "a",
-    explanation: "2.5 kg = 2500 g, which is more than 2400 g. 2400 g is tempting if you reverse one arithmetic step while handling “heavier”, which produces 2400 g instead of 2.5 kg.",
+    explanation: "2.5 kg = 2500 g, which is more than 2400 g. 2400 g is tempting if you use 100 or 500 instead of 1000 g in a kilogram.",
     hints: ["Change the kilograms to grams by multiplying by 1000, then compare with 2400 g."]
   },
   {

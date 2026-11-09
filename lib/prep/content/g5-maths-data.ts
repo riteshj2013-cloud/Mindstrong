@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Equal widths" }
     ],
     answerId: "d",
-    explanation: "Bars are drawn with equal width so heights can be compared fairly. Different widths is tempting if you read a neighbouring category or misuse the scale in “bar / graph / bars”, getting Different widths instead of Equal widths.",
+    explanation: "Bars are drawn with equal width so heights can be compared fairly. Different widths is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is Equal widths.",
     hints: ["If one bar were fatter, it would look bigger than it really is. Bars should differ only in height."]
   },
   {
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Place-value chart" }
     ],
     answerId: "a",
-    explanation: "A pictograph uses pictures (icons) for quantities. Bar graph is tempting if you read a neighbouring category or misuse the scale in “graph / uses / pictures”, getting Bar graph instead of Pictograph.",
+    explanation: "A pictograph uses pictures (icons) for quantities. Bar graph is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is Pictograph.",
     hints: ["Look for the display whose key says what one picture stands for, like ⭐ = 2 children."]
   },
   {
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Perimeter" }
     ],
     answerId: "b",
-    explanation: "Frequency is how often a value appears. Average is tempting if you read a neighbouring category or misuse the scale in “times / appears / called”, getting Average instead of Frequency.",
+    explanation: "Frequency is how often a value appears. Average is tempting if you read the wrong row or column of the table or chart; the correct reading is Frequency.",
     hints: ["Think of tally marks counting how many times each value appears. What is that count called?"]
   },
   {
@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "One stroke" }
     ],
     answerId: "c",
-    explanation: "7 = 5 + 2, so one bundle and two strokes. Seven single strokes only with no bundles is tempting if you read a neighbouring category or misuse the scale in “Tally / marks / best”, getting Seven single strokes only with no bundles instead of One bundle of 5 and two more.",
+    explanation: "7 = 5 + 2, so one bundle and two strokes. Seven single strokes only with no bundles is tempting if you misread how many strokes sit in one tally bundle (each crossed bundle is 5); counting carefully gives One bundle of 5 and two more.",
     hints: ["A tally bundle is a group of upright strokes with a slash. Take one bundle away from 7 and count what is left."]
   },
   {
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "The most popular colour" }
     ],
     answerId: "d",
-    explanation: "The tallest bar has the greatest frequency. The least popular colour is tempting if you read a neighbouring category or misuse the scale in “bar / graph / shows”, getting The least popular colour instead of The most popular colour.",
+    explanation: "The tallest bar has the greatest frequency. The least popular colour is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is The most popular colour.",
     hints: ["A taller bar means more votes for that colour. What do the most votes tell you?"]
   },
   {
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Draw a pictograph first" }
     ],
     answerId: "c",
-    explanation: "Use the row for Meera and the Marks column. Ignore headings is tempting if you read a neighbouring category or misuse the scale in “table / columns / Name”, getting Ignore headings instead of Find Meera's row and read the Marks cell.",
+    explanation: "Use the row for Meera and the Marks column. Ignore headings is tempting if you read the wrong row or column of the table or chart; the correct reading is Find Meera's row and read the Marks cell.",
     hints: ["A table has a row for each name and a column for each heading. Where do Meera's row and the Marks column meet?"]
   },
   {
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "c",
-    explanation: "Two bundles of 5 and two more make 12. 10 is tempting if you read a neighbouring category or misuse the scale in “tally / shows / red”, getting 10 instead of 12.",
+    explanation: "Two bundles of 5 and two more make 12. 10 is tempting if you misread how many strokes sit in one tally bundle (each crossed bundle is 5); counting carefully gives 12.",
     hints: ["Each |||| group in a tally has a slash across it, making a bundle of 5. Count the bundles, then the single strokes."]
   },
   {
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "A title and labelled axes" }
     ],
     answerId: "d",
-    explanation: "Title, labels and scale make the graph readable. Only colours is tempting if you read a neighbouring category or misuse the scale in “needed / clear / bar”, getting Only colours instead of A title and labelled axes.",
+    explanation: "Title, labels and scale make the graph readable. Only colours is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is A title and labelled axes.",
     hints: ["A reader must know what the bar graph is about and what each line measures. What tells them that?"]
   },
   {
@@ -313,7 +313,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "d",
-    explanation: "Each unit stands for 5 students, so 6 × 5 = 30. 11 is tempting if you add the 6 units to the scale factor 5 instead of multiplying.",
+    explanation: "6 × 5 = 30 students. 11 is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is 30.",
     hints: ["Each unit stands for 5 students. Multiply the 6 units by 5."]
   }
 ];
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "9" }
     ],
     answerId: "b",
-    explanation: "4 × 5 = 20. 9 is tempting if you read a neighbouring category or misuse the scale in “Four / tally / bundles”, getting 9 instead of 20.",
+    explanation: "4 × 5 = 20. 9 is tempting if you misread how many strokes sit in one tally bundle (each crossed bundle is 5); counting carefully gives 20.",
     hints: ["Each tally bundle is five strokes. Count in fives, once for each bundle."]
   },
   {
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Horizontal axis (or x-axis)" }
     ],
     answerId: "d",
-    explanation: "The bottom axis is the horizontal axis. Title is tempting if you read a neighbouring category or misuse the scale in “horizontal / line / bottom”, getting Title instead of Horizontal axis (or x-axis).",
+    explanation: "The bottom axis is the horizontal axis. Title is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is Horizontal axis (or x-axis).",
     hints: ["The two lines that frame a bar graph are its axes. Which one runs along the bottom, left to right?"]
   },
   {
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Place-value chart" }
     ],
     answerId: "a",
-    explanation: "Bar graphs use equal-width bars. Pictograph is tempting if you read a neighbouring category or misuse the scale in “display / uses / bars”, getting Pictograph instead of Bar graph.",
+    explanation: "Bar graphs use equal-width bars. Pictograph is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is Bar graph.",
     hints: ["Which display draws a rectangle of the same width for each item, with heights that differ?"]
   },
   {
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Percent" }
     ],
     answerId: "b",
-    explanation: "Unsorted collected facts are raw data. Mode is tempting if you read a neighbouring category or misuse the scale in “Raw / scores / written”, getting Mode instead of Raw data.",
+    explanation: "Unsorted collected facts are raw data. Mode is tempting if you read the wrong row or column of the table or chart; the correct reading is Raw data.",
     hints: ["Scores written down just as they come, before any sorting, are not organised yet. What are such data called?"]
   },
   {
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Ten strokes" }
     ],
     answerId: "c",
-    explanation: "Three is fewer than five, so three single strokes. One bundle of 5 is tempting if you read a neighbouring category or misuse the scale in “Tally / marks / look”, getting One bundle of 5 instead of Three single strokes.",
+    explanation: "Three is fewer than five, so three single strokes. One bundle of 5 is tempting if you misread how many strokes sit in one tally bundle (each crossed bundle is 5); counting carefully gives Three single strokes.",
     hints: ["A bundle needs 5 tally strokes. With only 3 to show, do you draw a bundle?"]
   },
   {
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "The least frequency" }
     ],
     answerId: "d",
-    explanation: "Shortest bar means the smallest count. The greatest frequency is tempting if you read a neighbouring category or misuse the scale in “shortest / bar / graph”, getting The greatest frequency instead of The least frequency.",
+    explanation: "Shortest bar means the smallest count. The greatest frequency is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is The least frequency.",
     hints: ["A shorter bar means fewer counts. What do the fewest counts tell you?"]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "There is no mode" }
     ],
     answerId: "b",
-    explanation: "9 appears twice and every other number appears once, so the mode is 9. 2 is tempting if you report how many times the mode appears rather than the mode value itself.",
+    explanation: "9 appears twice; others appear once. 2 is tempting if you add every row except the one named in the question; reading the named category gives 9.",
     hints: ["Count how many times each number in the list appears; the mode appears most often."]
   },
   {
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Guessing" }
     ],
     answerId: "c",
-    explanation: "Find the Tuesday row and read the temperature. Ignoring the table is tempting if you read a neighbouring category or misuse the scale in “table / shows / Day”, getting Ignoring the table instead of Reading Tuesday's row.",
+    explanation: "Find the Tuesday row and read the temperature. Ignoring the table is tempting if you read the wrong row or column of the table or chart; the correct reading is Reading Tuesday's row.",
     hints: ["Find Tuesday in the Day column, then move across to the Temperature column."]
   },
   {
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "c",
-    explanation: "Three bundles of 5 and one more = 16. 15 is tempting if you read a neighbouring category or misuse the scale in “tally / shows / blue”, getting 15 instead of 16.",
+    explanation: "Three bundles of 5 and one more = 16. 15 is tempting if you misread how many strokes sit in one tally bundle (each crossed bundle is 5); counting carefully gives 16.",
     hints: ["In a tally, each |||| group with a slash is a bundle of 5. Count the bundles in fives, then add the single stroke."]
   },
   {
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "18" }
     ],
     answerId: "d",
-    explanation: "9 × 2 = 18 goals. 11 is tempting if you compute 1×2+9 = 11 instead of the arrangement for 18.",
+    explanation: "9 × 2 = 18 goals. 11 is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is 18.",
     hints: ["Each unit stands for 2 goals. Multiply the 9 units by 2."]
   },
   {
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "d",
-    explanation: "7.5 × 4 = 30 pupils. 32 is tempting if you read a neighbouring category or misuse the scale in “class / bar / scale”, getting 32 instead of 30.",
+    explanation: "7.5 × 4 = 30 pupils. 32 is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is 30.",
     hints: ["Each unit is 4 pupils. Multiply 7.5 by 4: do 7 × 4, then add half of 4."]
   }
 ];

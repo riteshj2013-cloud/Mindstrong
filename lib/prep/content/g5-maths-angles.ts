@@ -41,7 +41,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "180\u00b0" }
     ],
     answerId: "d",
-    explanation: "A straight angle looks like a straight line and measures 180°, which is two right angles. 270° is tempting if you apply the wrong angle/figure rule to “many / degrees / there”, naming 270° instead of 180°.",
+    explanation: "A straight angle looks like a straight line and measures 180°, which is two right angles. 270° is tempting if you use 90° (a right angle) where angles on a straight line need 180°; subtracting from 180° gives 180°.",
     hints: ["A straight angle is a half-turn. A full turn is 360°; halve it."]
   },
   {
@@ -110,7 +110,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "180\u00b0" }
     ],
     answerId: "c",
-    explanation: "From 12 to 3 is a quarter of the clock face, and a quarter of 360° is 90°. 60° is tempting if you apply the wrong angle/figure rule to “Look / clock / angle”, naming 60° instead of 90°.",
+    explanation: "From 12 to 3 is a quarter of the clock face, and a quarter of 360° is 90°. 60° is tempting if you treat each hour mark as 20° instead of 30°, or count the marks rather than the gaps between them; the correct angle is 90°.",
     hints: ["From 12 to 3 is a quarter of the clock — a quarter of 360°."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 400 245\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Clock with hands at 3 o clock\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"400\" height=\"245\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"200\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Clock hands at 3:00</text>\n  <circle class=\"part clock\" cx=\"200\" cy=\"130\" r=\"85\" fill=\"#fffde7\" stroke=\"#333\" stroke-width=\"2\"/>\n  <circle class=\"part hub\" cx=\"200\" cy=\"130\" r=\"4\" fill=\"#333\"/>\n  <line class=\"tick\" x1=\"200.0\" y1=\"49.0\" x2=\"200.0\" y2=\"57.0\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"200.0\" y=\"67.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">12</text>\n  <line class=\"tick\" x1=\"240.5\" y1=\"59.9\" x2=\"236.5\" y2=\"66.8\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"231.5\" y=\"75.4\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">1</text>\n  <line class=\"tick\" x1=\"270.1\" y1=\"89.5\" x2=\"263.2\" y2=\"93.5\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"254.6\" y=\"98.5\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">2</text>\n  <line class=\"tick\" x1=\"281.0\" y1=\"130.0\" x2=\"273.0\" y2=\"130.0\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"263.0\" y=\"130.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">3</text>\n  <line class=\"tick\" x1=\"270.1\" y1=\"170.5\" x2=\"263.2\" y2=\"166.5\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"254.6\" y=\"161.5\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">4</text>\n  <line class=\"tick\" x1=\"240.5\" y1=\"200.1\" x2=\"236.5\" y2=\"193.2\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"231.5\" y=\"184.6\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">5</text>\n  <line class=\"tick\" x1=\"200.0\" y1=\"211.0\" x2=\"200.0\" y2=\"203.0\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"200.0\" y=\"193.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">6</text>\n  <line class=\"tick\" x1=\"159.5\" y1=\"200.1\" x2=\"163.5\" y2=\"193.2\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"168.5\" y=\"184.6\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">7</text>\n  <line class=\"tick\" x1=\"129.9\" y1=\"170.5\" x2=\"136.8\" y2=\"166.5\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"145.4\" y=\"161.5\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">8</text>\n  <line class=\"tick\" x1=\"119.0\" y1=\"130.0\" x2=\"127.0\" y2=\"130.0\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"137.0\" y=\"130.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">9</text>\n  <line class=\"tick\" x1=\"129.9\" y1=\"89.5\" x2=\"136.8\" y2=\"93.5\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"145.4\" y=\"98.5\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">10</text>\n  <line class=\"tick\" x1=\"159.5\" y1=\"59.9\" x2=\"163.5\" y2=\"66.8\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"168.5\" y=\"75.4\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">11</text>\n  <line class=\"part hour-hand\" x1=\"200\" y1=\"130\" x2=\"242.5\" y2=\"130.0\" stroke=\"#1565c0\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n  <line class=\"part minute-hand\" x1=\"200\" y1=\"130\" x2=\"200.0\" y2=\"68.8\" stroke=\"#e65100\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n  <text class=\"label small\" x=\"200\" y=\"230\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Blue = hour hand \u00b7 Orange = minute hand</text>\n</svg>", "alt": "A clock face. The minute hand points to 12 and the hour hand points to 3."}
   },
@@ -137,7 +137,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "360°" }
     ],
     answerId: "d",
-    explanation: "One complete turn is four quarter turns, and each quarter turn is 90°, so 4 × 90° = 360°. 180° may look right, but that is only a half turn. 90° is tempting if you apply the wrong angle/figure rule to “wheel / makes / complete”, naming 90° instead of 360°.",
+    explanation: "One complete turn is four quarter turns, and each quarter turn is 90°, so 4 × 90° = 360°. 180° may look right, but that is only a half turn. 90° is tempting if you turn anticlockwise when the question says clockwise (or the reverse); following the stated direction lands on 360°.",
     hints: ["A quarter turn is 90°. How many quarter turns make the wheel come all the way round?"]
   },
   {
@@ -150,7 +150,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Acute" }
     ],
     answerId: "a",
-    explanation: "An angle greater than 180° but less than 360° is a reflex angle, so 200° is not obtuse. Straight is tempting if you apply the wrong angle/figure rule to “angle / measures / type”, naming Straight instead of Reflex.",
+    explanation: "An angle greater than 180° but less than 360° is a reflex angle, so 200° is not obtuse. Straight is tempting if you mis-count the turn size (using 45°, 60°, or 90° gaps where 30° gaps apply, or the other way round).",
     hints: ["200° is more than a straight angle of 180° but less than 360°. Name that type of angle."]
   },
   {
@@ -163,7 +163,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "North" }
     ],
     answerId: "b",
-    explanation: "A quarter turn clockwise from North lands on East (N → E → S → W). West is tempting if you apply the wrong angle/figure rule to “Look / compass / child”, naming West instead of East.",
+    explanation: "A quarter turn clockwise from North lands on East (N → E → S → W). West is tempting if you treat each hour mark as 20° instead of 30°, or count the marks rather than the gaps between them; the correct angle is East.",
     hints: ["Clockwise from North: N → E → S → W. A quarter turn is one step."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 440 235\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Compass facing North with quarter turn clockwise\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"440\" height=\"235\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"220\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Quarter turn clockwise</text>\n  <circle class=\"part compass\" cx=\"140\" cy=\"120\" r=\"55\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text class=\"label\" x=\"140.0\" y=\"49.0\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">N</text>\n  <text class=\"label\" x=\"211.0\" y=\"120.0\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">E</text>\n  <text class=\"label\" x=\"140.0\" y=\"191.0\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">S</text>\n  <text class=\"label\" x=\"69.0\" y=\"120.0\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">W</text>\n  <polygon class=\"part arrow\" points=\"140.0,75.0 130.4,136.7 149.6,136.7\" fill=\"#e65100\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle class=\"part hub\" cx=\"140\" cy=\"120\" r=\"5\" fill=\"#333\"/>\n  <text class=\"label\" x=\"140\" y=\"200\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Start: facing North</text>\n  <path class=\"arrow jump\" d=\"M 220 90 A 40 40 0 0 1 260 130\" fill=\"none\" stroke=\"#e65100\" stroke-width=\"2.5\"/>\n  <polygon class=\"arrow\" points=\"262,132 252,128 258,120\" fill=\"#e65100\"/>\n  <text class=\"label\" x=\"300\" y=\"100\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">\u00bc turn</text>\n  <text class=\"label\" x=\"300\" y=\"120\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">clockwise</text>\n  <text class=\"label small\" x=\"220\" y=\"220\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Clockwise means the same way clock hands turn.</text>\n</svg>", "alt": "A compass rose with an orange arrow pointing North. A curved orange arrow shows a quarter turn clockwise."}
   },
@@ -177,7 +177,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "West" }
     ],
     answerId: "c",
-    explanation: "Clockwise goes N → E → S → W and round again, so one quarter turn clockwise from West brings Meena to North. South may look right, but that is where a 90° anticlockwise turn from West ends. South is tempting if you apply the wrong angle/figure rule to “Meena / facing / West”, naming South instead of North.",
+    explanation: "Clockwise goes N → E → S → W and round again, so one quarter turn clockwise from West brings Meena to North. South may look right, but that is where a 90° anticlockwise turn from West ends. South is tempting if you count hour numbers inclusive (fencepost error) instead of the gaps of 30° each; multiplying the gaps by 30° gives North.",
     hints: ["Clockwise follows the clock hands: N → E → S → W, then back to the start. Begin at West and move one step."]
   },
   {
@@ -190,7 +190,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "110\u00b0" }
     ],
     answerId: "d",
-    explanation: "Angles on a straight line add to 180°, so the missing angle is 180° − 70° = 110°. 90° is tempting if you apply the wrong angle/figure rule to “Look / two / angles”, naming 90° instead of 110°.",
+    explanation: "Angles on a straight line add to 180°, so the missing angle is 180° − 70° = 110°. 90° is tempting if you use 90° (a right angle) where angles on a straight line need 180°; subtracting from 180° gives 110°.",
     hints: ["Angles on a straight line add to 180°. Subtract the given part."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 480 190\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Straight line with 70 degree angle and missing angle\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"480\" height=\"190\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"240\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Angles on a straight line</text>\n  <line class=\"part arm\" x1=\"30\" y1=\"140\" x2=\"450\" y2=\"140\" stroke=\"#333\" stroke-width=\"2.5\"/>\n  <line class=\"part arm\" x1=\"240\" y1=\"140\" x2=\"240\" y2=\"40\" stroke=\"#333\" stroke-width=\"2.5\"/>\n  <line class=\"part arm\" x1=\"240\" y1=\"140\" x2=\"281.0\" y2=\"27.2\" stroke=\"#333\" stroke-width=\"2.5\"/>\n  <circle class=\"part vertex\" cx=\"240\" cy=\"140\" r=\"5\" fill=\"#e65100\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <path class=\"part arc\" d=\"M 180 140 A 60 60 0 0 0 260.5 83.6\" fill=\"none\" stroke=\"#42a5f5\" stroke-width=\"2\"/>\n  <text class=\"label\" x=\"175\" y=\"115\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1565c0\">70\u00b0</text>\n  <path class=\"part arc\" d=\"M 258.8 88.3 A 55 55 0 0 0 300 140\" fill=\"none\" stroke=\"#e65100\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/>\n  <text class=\"label\" x=\"290\" y=\"105\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">?</text>\n  <text class=\"label small\" x=\"240\" y=\"175\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">A straight line measures 180\u00b0.</text>\n</svg>", "alt": "A straight line with a ray from the middle. The left opening is labelled 70\u00b0. The right opening is labelled with a question mark."}
   },
@@ -204,7 +204,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "150\u00b0" }
     ],
     answerId: "c",
-    explanation: "Each gap between two numbers on a clock is 30°, and from 12 to 4 there are 4 gaps, so the angle is 4 × 30° = 120°. 100° is tempting if you apply the wrong angle/figure rule to “smaller / angle / between”, naming 100° instead of 120°.",
+    explanation: "Each gap between two numbers on a clock is 30°, and from 12 to 4 there are 4 gaps, so the angle is 4 × 30° = 120°. 100° is tempting if you count hour numbers inclusive (fencepost error) instead of the gaps of 30° each; multiplying the gaps by 30° gives 120°.",
     hints: ["Each hour mark on a clock is 30° apart. Count the hour marks from 12 to 4."]
   },
   {
@@ -256,7 +256,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "290\u00b0" }
     ],
     answerId: "b",
-    explanation: "The two parts must add up to 180°, so the other angle is 180° − 70° = 110°. 100° is tempting if you apply the wrong angle/figure rule to “straight / angle / split”, naming 100° instead of 110°.",
+    explanation: "The two parts must add up to 180°, so the other angle is 180° − 70° = 110°. 100° is tempting if you use 90° (a right angle) where angles on a straight line need 180°; subtracting from 180° gives 110°.",
     hints: ["A straight angle is 180°. Subtract 70° from 180°."]
   },
   {
@@ -283,7 +283,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "East" }
     ],
     answerId: "a",
-    explanation: "Turning anticlockwise from East brings her to North, and a half turn from North brings her to South. North is tempting if you stop after the first quarter-turn and forget the half-turn that follows.",
+    explanation: "Turning anticlockwise from East brings her to North, and a half turn from North brings her to South. North is tempting if you count hour numbers inclusive (fencepost error) instead of the gaps of 30° each; multiplying the gaps by 30° gives South.",
     hints: ["Turning 90° anticlockwise from East makes Sita face North. Now turn 180° clockwise from there."]
   },
   {
@@ -351,7 +351,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Reflex" }
     ],
     answerId: "c",
-    explanation: "170° is more than 90° but still less than 180°, so it is obtuse and not yet a straight angle. Acute is tempting if you apply the wrong angle/figure rule to “angle / measures / type”, naming Acute instead of Obtuse.",
+    explanation: "170° is more than 90° but still less than 180°, so it is obtuse and not yet a straight angle. Acute is tempting if you mis-count the turn size (using 45°, 60°, or 90° gaps where 30° gaps apply, or the other way round).",
     hints: ["Is 170° more than a right angle of 90° but less than a straight angle of 180°? Name that type."]
   },
   {
@@ -364,7 +364,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Edges" }
     ],
     answerId: "a",
-    explanation: "An angle is made of two arms that start from a common point called the vertex. Vertices is tempting if you apply the wrong angle/figure rule to “two / straight / lines”, naming Vertices instead of Arms.",
+    explanation: "An angle is made of two arms that start from a common point called the vertex. Vertices is tempting if you use 90° (a right angle) where angles on a straight line need 180°; subtracting from 180° gives Arms.",
     hints: ["An angle is made by two rays meeting at a vertex. What are those two straight lines called?"]
   },
   {
@@ -444,7 +444,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "270\u00b0" }
     ],
     answerId: "c",
-    explanation: "A quarter of a full turn is 360° ÷ 4 = 90°. 45° is tempting if you apply the wrong angle/figure rule to “many / degrees / there”, naming 45° instead of 90°.",
+    explanation: "A quarter of a full turn is 360° ÷ 4 = 90°. 45° is tempting if you turn anticlockwise when the question says clockwise (or the reverse); following the stated direction lands on 90°.",
     hints: ["A full turn is 360°. A quarter turn is one of 4 equal parts of it."]
   },
   {
@@ -484,7 +484,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "South" }
     ],
     answerId: "b",
-    explanation: "Going anticlockwise the order is North, West, South, East, so a quarter turn anticlockwise from South points East. West is tempting if you apply the wrong angle/figure rule to “Arjun / facing / South”, naming West instead of East.",
+    explanation: "Going anticlockwise the order is North, West, South, East, so a quarter turn anticlockwise from South points East. West is tempting if you count hour numbers inclusive (fencepost error) instead of the gaps of 30° each; multiplying the gaps by 30° gives East.",
     hints: ["Draw a compass. From South, make a quarter turn the opposite way to the clock hands."]
   },
   {
@@ -525,7 +525,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Right angle" }
     ],
     answerId: "d",
-    explanation: "35° + 55° = 90°, which is exactly a right angle. Acute angle is tempting if you apply the wrong angle/figure rule to “Two / angles / placed”, naming Acute angle instead of Right angle.",
+    explanation: "35° + 55° = 90°, which is exactly a right angle. Acute angle is tempting if you mis-count the turn size (using 45°, 60°, or 90° gaps where 30° gaps apply, or the other way round).",
     hints: ["Add 35° and 55°. Which type of angle has exactly that size?"]
   },
   {
@@ -632,7 +632,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "6" }
     ],
     answerId: "d",
-    explanation: "A straight angle is 180°, and 180° ÷ 30° = 6 turns, while 12 turns would make a full turn. 3 is tempting if you apply the wrong angle/figure rule to “fan / blade / turns”, naming 3 instead of 6.",
+    explanation: "A straight angle is 180°, and 180° ÷ 30° = 6 turns, while 12 turns would make a full turn. 3 is tempting if you turn anticlockwise when the question says clockwise (or the reverse); following the stated direction lands on 6.",
     hints: ["A straight angle is 180°. Divide it by the 30° of each turn."]
   },
   {
@@ -645,7 +645,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "120\u00b0" }
     ],
     answerId: "b",
-    explanation: "At 9:30 the minute hand is on 6 and the hour hand is halfway between 9 and 10, so the gap is 3½ × 30° = 105°. 120° is tempting if you apply the wrong angle/figure rule to “smaller / angle / between”, naming 120° instead of 105°.",
+    explanation: "At 9:30 the minute hand is on 6 and the hour hand is halfway between 9 and 10, so the gap is 3½ × 30° = 105°. 120° is tempting if you count hour numbers inclusive (fencepost error) instead of the gaps of 30° each; multiplying the gaps by 30° gives 105°.",
     hints: ["At 9:30 the minute hand is on 6 and the hour hand is halfway between 9 and 10. Each hour mark is 30°."]
   }
 ];

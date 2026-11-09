@@ -114,7 +114,7 @@ export const G8_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g8-maths-compare-a-q03": ["Change 2 m to centimetres first, then divide both parts of the ratio by their HCF."],
   "g8-maths-compare-a-q04": ["Find 1% of ₹600 by dividing by 100, then multiply by 15."],
   "g8-maths-compare-a-q05": ["Compare the selling price ₹300 with the cost price ₹250. Which is bigger, and by how much?"],
-  "g8-maths-compare-a-q06": ["Discount reduces the marked price; think selling price = marked price minus discount."],
+  "g8-maths-compare-a-q06": ["Selling price = marked price − discount. Subtract ₹120 from ₹800."],
   "g8-maths-compare-a-q07": ["Use SI = P × R × T ÷ 100 with P = ₹2,000, R = 5 and T = 3."],
   "g8-maths-compare-a-q08": ["Write 18 out of 24 as a fraction, simplify it, then multiply by 100%."],
   "g8-maths-compare-a-q09": ["Find the rise in rupees, then divide it by the original price ₹50 and multiply by 100."],

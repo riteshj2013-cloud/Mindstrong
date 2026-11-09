@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7" }
     ],
     answerId: "a",
-    explanation: "The highest power of x with a non-zero coefficient is 3. 2 is tempting if you drop or flip a cross term while expanding “degree / polynomial”, which yields 2 instead of 3.",
+    explanation: "The highest power of x with a non-zero coefficient is 3. 2 is tempting if you count the number of terms instead of the highest power.",
     hints: ["Degree = highest power with non-zero coefficient."]
   },
   {
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "c",
-    explanation: "By definition, linear polynomials are degree 1. 0 is tempting if you drop or flip a cross term while expanding “linear / polynomial / degree”, which yields 0 instead of 1.",
+    explanation: "By definition, linear polynomials are degree 1. 0 is tempting if you count the number of terms instead of the highest power.",
     hints: ["A linear polynomial looks like ax + b. What is the highest power of x in it?"]
   },
   {
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "d",
-    explanation: "2x − 6 = 0 → x = 3. 2 is tempting if you drop or flip a cross term while expanding “zero / polynomial”, which yields 2 instead of 3.",
+    explanation: "2x − 6 = 0 → x = 3. 2 is tempting if you list only the positive root and skip the negative one.",
     hints: ["Solve p(x) = 0."]
   },
   {
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7" }
     ],
     answerId: "a",
-    explanation: "Degree 2 makes it quadratic. x³ + 1 is tempting if you drop or flip a cross term while expanding “quadratic / polynomial”, which yields x³ + 1 instead of x² − 4x + 3.",
+    explanation: "Degree 2 makes it quadratic. x³ + 1 is tempting if you treat a non-zero constant polynomial as having no degree.",
     hints: ["A quadratic polynomial has highest power of x equal to 2. Check the highest power in each."]
   },
   {
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "−4" }
     ],
     answerId: "b",
-    explanation: "4 − 10 + 6 = 0, so x = 2 is a zero. 2 is tempting if you drop or flip a cross term while expanding “poly”, which yields 2 instead of 0.",
+    explanation: "4 − 10 + 6 = 0, so x = 2 is a zero. 2 is tempting if you solve by setting only one factor equal to zero.",
     hints: ["Substitute x = 2 carefully."]
   },
   {
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "a" }
     ],
     answerId: "b",
-    explanation: "Remainder theorem: remainder is p(a). p(0) is tempting if you drop or flip a cross term while expanding “remainder / theorem / divided”, which yields p(0) instead of p(a).",
+    explanation: "Remainder theorem: remainder is p(a). p(0) is tempting if you substitute the wrong value into the remainder theorem.",
     hints: ["Recall remainder theorem wording."]
   },
   {
@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "p(1) = 1" }
     ],
     answerId: "c",
-    explanation: "Factor theorem: (x − a) is a factor iff p(a) = 0. Here a = 1. p(0) = 1 is tempting if you drop or flip a cross term while expanding “factor”, which yields p(0) = 1 instead of p(1) = 0.",
+    explanation: "Factor theorem: (x − a) is a factor iff p(a) = 0. Here a = 1. p(0) = 1 is tempting if you test (x−a) with p(a) when the factor is actually (x+a), so you needed p(−a).",
     hints: ["Factor theorem links factors to zeros."]
   },
   {
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "d",
-    explanation: "Non-zero constants are degree 0. (The zero polynomial’s degree is left undefined.). 1 is tempting if you drop or flip a cross term while expanding “constant / polynomial / degree”, which yields 1 instead of 0.",
+    explanation: "Non-zero constants are degree 0. (The zero polynomial’s degree is left undefined.). 1 is tempting if you count the number of terms instead of the highest power.",
     hints: ["Write the constant 9 as 9 × x raised to some power. Which power of x equals 1?"]
   },
   {
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "x(x − 9)" }
     ],
     answerId: "a",
-    explanation: "Difference of squares: x² − 3² = (x − 3)(x + 3). (x − 9)(x + 1) is tempting if you drop or flip a cross term while expanding “Factorise”, which yields (x − 9)(x + 1) instead of (x − 3)(x + 3).",
+    explanation: "Difference of squares: x² − 3² = (x − 3)(x + 3). (x − 9)(x + 1) is tempting if you test (x−a) with p(a) when the factor is actually (x+a), so you needed p(−a).",
     hints: ["Use a² − b² = (a − b)(a + b)."]
   },
   {
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2n" }
     ],
     answerId: "b",
-    explanation: "A degree-n polynomial has at most n zeros (unless identically zero). n − 1 is tempting if you drop or flip a cross term while expanding “zeros / non / zero”, which yields n − 1 instead of n.",
+    explanation: "A degree-n polynomial has at most n zeros (unless identically zero). n − 1 is tempting if you list only one factor’s root and skip the other.",
     hints: ["Fundamental bound: degree limits zeros."]
   },
   {
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "x² + 7x + 7" }
     ],
     answerId: "c",
-    explanation: "x² + 5x + 2x + 10 = x² + 7x + 10. x² + 10x + 7 is tempting if you multiply 2 by 5 landing on x² + 10x + 7 rather than continuing to x² + 7x + 10.",
+    explanation: "x² + 5x + 2x + 10 = x² + 7x + 10. x² + 10x + 7 is tempting if you expand and drop the middle cross term.",
     hints: ["Multiply x by x and by 5, then 2 by x and by 5. Add the two x terms."]
   },
   {
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "d",
-    explanation: "1 − 1 = 0, so (x − 1) is a factor of x³ − 1. 1 is tempting if you multiply 1 by 1 landing on 1 rather than continuing to 0.",
+    explanation: "1 − 1 = 0, so (x − 1) is a factor of x³ − 1. 1 is tempting if you use x² − (a+b)x + ab with the wrong sign on the linear term.",
     hints: ["Substitute x = 1 into x³ − 1: what is 1 cubed?"]
   },
   {
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(a + b)(a − b) = a² + b²" }
     ],
     answerId: "a",
-    explanation: "(a + b)² expands to a² + 2ab + b². (a + b)² = a² + b² is tempting if you drop or flip a cross term while expanding “identity”, which yields (a + b)² = a² + b² instead of (a + b)² = a² + 2ab + b².",
+    explanation: "(a + b)² expands to a² + 2ab + b². (a + b)² = a² + b² is tempting if you misread the leading coefficient as the degree.",
     hints: ["Recall the standard square identity."]
   },
   {
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "d",
-    explanation: "Cubic means degree 3. 2 is tempting if you drop or flip a cross term while expanding “cubic / polynomial / degree”, which yields 2 instead of 3.",
+    explanation: "Cubic means degree 3. 2 is tempting if you count the number of terms instead of the highest power.",
     hints: ["Cubic comes from 'cube', like the volume of a cube with edge x. What power of x is that?"]
   },
   {
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "a",
-    explanation: "For x² − (sum)x + product, sum of zeros = 5. 6 is tempting if you drop or flip a cross term while expanding “zeros”, which yields 6 instead of 5.",
+    explanation: "For x² − (sum)x + product, sum of zeros = 5. 6 is tempting if you list only the positive root and skip the negative one.",
     hints: ["Sum of zeros = −(coefficient of x)/leading coefficient."]
   },
   {
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "−1" }
     ],
     answerId: "b",
-    explanation: "2 − 3 + 1 = 0. 1 is tempting if you subtract 2 and 3 in the order that yields 1 instead of the path to 0.",
+    explanation: "2 − 3 + 1 = 0. 1 is tempting if you use x² − (a+b)x + ab with the wrong sign on the linear term.",
     hints: ["Substitute x = 1: work out 2(1)² − 3(1) + 1."]
   },
   {
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2x + 3y + 1" }
     ],
     answerId: "c",
-    explanation: "A monomial is a single term; 3x²y is one term. x + 1 is tempting if you drop or flip a cross term while expanding “monomial”, which yields x + 1 instead of 3x²y.",
+    explanation: "A monomial is a single term; 3x²y is one term. x + 1 is tempting if you misread the leading coefficient as the degree.",
     hints: ["A monomial has exactly one term. Count the terms separated by + and − in each expression."]
   },
   {
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(x + 2)(x + 3)" }
     ],
     answerId: "d",
-    explanation: "Need two numbers that multiply to 6 and add to 5: 2 and 3. (x + 1)(x + 6) is tempting if you subtract 5 and 6 in the order that yields (x + 1)(x + 6) instead of the path to (x + 2)(x + 3).",
+    explanation: "Need two numbers that multiply to 6 and add to 5: 2 and 3. (x + 1)(x + 6) is tempting if you claim a factor without checking that p(a) = 0.",
     hints: ["Find two numbers that multiply to 6 and add to 5."]
   },
   {
@@ -274,7 +274,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "a",
-    explanation: "p(1) = 1 + 3 + 1 = 5. 3 is tempting if you multiply 3 by 1 landing on 3 rather than continuing to 5, noticing remainder.",
+    explanation: "p(1) = 1 + 3 + 1 = 5. 3 is tempting if you substitute the wrong value into the remainder theorem.",
     hints: ["Use the remainder theorem: evaluate at x = 1."]
   },
   {
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "b",
-    explanation: "Expand: (x²+2xy+y²) − (x²−2xy+y²) = 4xy. 2xy is tempting if you drop or flip a cross term while expanding “poly”, which yields 2xy instead of 4xy.",
+    explanation: "Expand: (x²+2xy+y²) − (x²−2xy+y²) = 4xy. 2xy is tempting if you treat a non-zero constant polynomial as having no degree.",
     hints: ["Expand (x + y)² and (x − y)², then subtract term by term."]
   },
   {
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "c",
-    explanation: "p(2)=0 → 4 − 2k + 8 = 0 → 12 = 2k → k = 6. 4 is tempting if you double 2 to reach 4 instead of the working that gives 6.",
+    explanation: "p(2)=0 → 4 − 2k + 8 = 0 → 12 = 2k → k = 6. 4 is tempting if you test (x−a) with p(a) when the factor is actually (x+a), so you needed p(−a).",
     hints: ["Apply factor theorem: p(2) = 0."]
   },
   {
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "b",
-    explanation: "Degree 2 ⇒ at most 2 zeros. 1 is tempting if you drop or flip a cross term while expanding “quadratic / polynomial / many”, which yields 1 instead of 2.",
+    explanation: "Degree 2 ⇒ at most 2 zeros. 1 is tempting if you list only one factor’s root and skip the other.",
     hints: ["Zeros ≤ degree."]
   },
   {
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "c",
-    explanation: "(x − 4)(x + 1) = x² − 3x − 4, so zeros are 4 and −1. 4 is tempting if you drop or flip a cross term while expanding “zero”, which yields 4 instead of both 4 and −1.",
+    explanation: "(x − 4)(x + 1) = x² − 3x − 4, so zeros are 4 and −1. 4 is tempting if you list only the positive root and skip the negative one.",
     hints: ["Factorise x² − 3x − 4 by finding two numbers that multiply to −4 and add to −3."]
   },
   {
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x + 6" }
     ],
     answerId: "a",
-    explanation: "p(1)=0 ⇒ (x − 1) is a factor by the factor theorem. x + 1 is tempting if you drop or flip a cross term while expanding “factor”, which yields x + 1 instead of x − 1.",
+    explanation: "p(1)=0 ⇒ (x − 1) is a factor by the factor theorem. x + 1 is tempting if you test (x−a) with p(a) when the factor is actually (x+a), so you needed p(−a).",
     hints: ["Factor theorem: zero → factor."]
   },
   {
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4x² − 6x + 9" }
     ],
     answerId: "b",
-    explanation: "(2x)² − 2·2x·3 + 3² = 4x² − 12x + 9. 4x² − 9 is tempting if you double 2 to reach 4x² − 9 instead of the working that gives 4x² − 12x + 9.",
+    explanation: "(2x)² − 2·2x·3 + 3² = 4x² − 12x + 9. 4x² − 9 is tempting if you expand and drop the middle cross term.",
     hints: ["Use (a − b)² = a² − 2ab + b²."]
   },
   {
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "9" }
     ],
     answerId: "c",
-    explanation: "First (x+1)(x+2)=x²+3x+2; times (x+3): x³+3x² + 3x²+9x + 2x+6 = x³+6x²+11x+6. Coefficient of x² is 6. 5 is tempting if you compute 1×2+3 = 5 instead of the arrangement for 6.",
+    explanation: "First (x+1)(x+2)=x²+3x+2; times (x+3): x³+3x² + 3x²+9x + 2x+6 = x³+6x²+11x+6. Coefficient of x² is 6. 5 is tempting if you solve by setting only one factor equal to zero.",
     hints: ["Expand step by step and collect x² terms."]
   },
   {
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "d",
-    explanation: "p(2) = 2·8 − 3·4 + 2 − 1 = 16 − 12 + 2 − 1 = 5. 1 is tempting if you subtract 2 and 3 in the order that yields 1 instead of the path to 5.",
+    explanation: "p(2) = 2·8 − 3·4 + 2 − 1 = 16 − 12 + 2 − 1 = 5. 1 is tempting if you substitute the wrong value into the remainder theorem.",
     hints: ["Evaluate p(2) by the remainder theorem."]
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "a",
-    explanation: "A binomial has exactly two terms. 5x is tempting if you drop or flip a cross term while expanding “binomial”, which yields 5x instead of x² + 3x.",
+    explanation: "A binomial has exactly two terms. 5x is tempting if you misread the leading coefficient as the degree.",
     hints: ["A binomial has exactly two terms. Count the terms in each polynomial."]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "(2x − 9)(2x − 1)" }
     ],
     answerId: "b",
-    explanation: "It is a perfect square: (2x − 3)². (2x + 3)² is tempting if you halve 4 to reach (2x + 3)² instead of the working that gives (2x − 3)².",
+    explanation: "It is a perfect square: (2x − 3)². (2x + 3)² is tempting if you claim a factor without checking that p(a) = 0.",
     hints: ["Check if it matches (a − b)²."]
   },
   {
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "−7" }
     ],
     answerId: "c",
-    explanation: "Product of zeros = constant/leading = 10. 7 is tempting if you drop or flip a cross term while expanding “zeros”, which yields 7 instead of 10.",
+    explanation: "Product of zeros = constant/leading = 10. 7 is tempting if you list only the positive root and skip the negative one.",
     hints: ["Product = c/a for ax² + bx + c."]
   },
   {
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x² − 16" }
     ],
     answerId: "d",
-    explanation: "Difference of squares: x² − 16. x² + 16 is tempting if you multiply 4 by 4 landing on x² + 16 rather than continuing to x² − 16.",
+    explanation: "Difference of squares: x² − 16. x² + 16 is tempting if you treat a non-zero constant polynomial as having no degree.",
     hints: ["Use (a + b)(a − b) = a² − b² with a = x and b = 4."]
   },
   {
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "infinitely many" }
     ],
     answerId: "a",
-    explanation: "x² + 1 = 0 ⇒ x² = −1, no real solution. 1 is tempting if you drop or flip a cross term while expanding “many / real / zeros”, which yields 1 instead of 0.",
+    explanation: "x² + 1 = 0 ⇒ x² = −1, no real solution. 1 is tempting if you list only the positive root and skip the negative one.",
     hints: ["Ask if the graph crosses the x-axis."]
   },
   {
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "−a/b" }
     ],
     answerId: "b",
-    explanation: "ax + b = 0 ⇒ x = −b/a. b/a is tempting if you drop or flip a cross term while expanding “zero”, which yields b/a instead of −b/a.",
+    explanation: "ax + b = 0 ⇒ x = −b/a. b/a is tempting if you list only one factor’s root and skip the other.",
     hints: ["Set ax + b = 0 and solve for x."]
   },
   {
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "c",
-    explanation: "1/x = x⁻¹ is not a non-negative integer power, so not a polynomial. x² + √2 x + 1 is tempting if you drop or flip a cross term while expanding “polynomial”, which yields x² + √2 x + 1 instead of x + 1/x.",
+    explanation: "1/x = x⁻¹ is not a non-negative integer power, so not a polynomial. x² + √2 x + 1 is tempting if you misread the leading coefficient as the degree.",
     hints: ["Polynomials only allow whole-number powers ≥ 0."]
   },
   {
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x²" }
     ],
     answerId: "d",
-    explanation: "Dividing a cubic by a linear factor leaves a quadratic (leading x²). x³ is tempting if you drop or flip a cross term while expanding “factor / quadratic / starts”, which yields x³ instead of x².",
+    explanation: "Dividing a cubic by a linear factor leaves a quadratic (leading x²). x³ is tempting if you claim a factor without checking that p(a) = 0.",
     hints: ["Degree drops by 1 on exact division by a linear factor."]
   },
   {
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x³ + x² + x − 1" }
     ],
     answerId: "a",
-    explanation: "(x − 1)(x² + x + 1) = x³ + x² + x − x² − x − 1 = x³ − 1. x³ + 1 is tempting if you flip the constant sign when multiplying by (x − 1), as in expanding (x + 1)(x² − x + 1).",
+    explanation: "This is the standard factorisation of x³ − 1. x³ + 1 is tempting if you expand and drop the middle cross term.",
     hints: ["Multiply x by each term of x² + x + 1, then multiply −1 by each term, and collect like terms."]
   },
   {
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "nowhere" }
     ],
     answerId: "b",
-    explanation: "Zeros are x = ±1, so intercepts (1,0) and (−1,0). (0, −1) only is tempting if you drop or flip a cross term while expanding “graph / crosses / axis”, which yields (0, −1) only instead of (1, 0) and (−1, 0).",
+    explanation: "Zeros are x = ±1, so intercepts (1,0) and (−1,0). (0, −1) only is tempting if you treat a non-zero constant polynomial as having no degree.",
     hints: ["Every point on the x-axis has the same y-value. Substitute it into y = x² − 1 and solve for x."]
   },
   {
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "18" }
     ],
     answerId: "c",
-    explanation: "2·9 + 5·(−3) − 3 = 18 − 15 − 3 = 0. 6 is tempting if you drop or flip a cross term while expanding “poly”, which yields 6 instead of 0.",
+    explanation: "2·9 + 5·(−3) − 3 = 18 − 15 − 3 = 0. 6 is tempting if you solve by setting only one factor equal to zero.",
     hints: ["Substitute x = −3: 2(−3)² + 5(−3) − 3. Square −3 first."]
   },
   {
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3x² − x − 2" }
     ],
     answerId: "d",
-    explanation: "3x·x + 3x·(−1) + 2·x + 2·(−1) = 3x² − 3x + 2x − 2 = 3x² − x − 2. 3x² + 2x − 2 is tempting if you drop or flip a cross term while expanding “poly”, which yields 3x² + 2x − 2 instead of 3x² − x − 2.",
+    explanation: "3x·x + 3x·(−1) + 2·x + 2·(−1) = 3x² − 3x + 2x − 2 = 3x² − x − 2. 3x² + 2x − 2 is tempting if you use x² − (a+b)x + ab with the wrong sign on the linear term.",
     hints: ["Multiply 3x by x and by −1, then 2 by x and by −1. Combine the x terms."]
   },
   {
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "p(3)=−3" }
     ],
     answerId: "a",
-    explanation: "x + 3 = x − (−3), so evaluate at −3. p(3)=0 is tempting if you add 0 and 3 to get p(3)=0 when the stem needs a different operation that yields p(−3)=0.",
+    explanation: "x + 3 = x − (−3), so evaluate at −3. p(3)=0 is tempting if you substitute the wrong value into the remainder theorem.",
     hints: ["Write divisor as (x − a) to read a."]
   },
   {
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "(x + 5)(x + 3)" }
     ],
     answerId: "b",
-    explanation: "Numbers that multiply to −15 and add to −2: −5 and 3. (x − 3)(x + 5) is tempting if you drop or flip a cross term while expanding “Factorise”, which yields (x − 3)(x + 5) instead of (x − 5)(x + 3).",
+    explanation: "Numbers that multiply to −15 and add to −2: −5 and 3. (x − 3)(x + 5) is tempting if you claim a factor without checking that p(a) = 0.",
     hints: ["Find the factor pair of −15 that sums to −2."]
   },
   {
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "(a+b)³ = a³ + 3a²b + 3ab² + b³" }
     ],
     answerId: "d",
-    explanation: "The cube identity expands (a+b)³ fully. (a+b)² = a² + b² is tempting if you drop or flip a cross term while expanding “identity / helps / expand”, which yields (a+b)² = a² + b² instead of (a+b)³ = a³ + 3a²b + 3ab² + b³.",
+    explanation: "The cube identity expands (a+b)³ fully. (a+b)² = a² + b² is tempting if you expand and drop the middle cross term.",
     hints: ["(x + 2)³ cubes a sum of two terms. Which identity expands (a + b) raised to the power three?"]
   }
 ];
