@@ -187,16 +187,15 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-maths-data-a-q15",
-    prompt: "A tally shows |||| |||| || for cricket fans. How many fans?",
-    options: [
-      { id: "a", text: "10" },
+    prompt: "Look at the tally chart. How many cricket fans?",
+    options: [{ id: "a", text: "10" },
       { id: "b", text: "7" },
       { id: "c", text: "12" },
-      { id: "d", text: "15" },
-    ],
+      { id: "d", text: "15" },],
     answerId: "c",
-    explanation: "5 + 5 + 2 = 12.",
-    hints: ["Each gate is 5; count leftovers.", "5 + 5 + 2."],
+    explanation: "Two crossed bundles of 5 and two single strokes make 5 + 5 + 2 = 12. 10 is tempting if you count each group of four upright sticks as 4 and ignore the crossing slash.",
+    hints: ["Each crossed group is a bundle of 5. Count the bundles, then the single strokes."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 320 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Tally of two crossed bundles of five and two single strokes\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"320\" height=\"160\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"160.0\" y=\"28\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Cricket fans tally</text>\n  <line class=\"part tally\" x1=\"40\" y1=\"70\" x2=\"40\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"50\" y1=\"70\" x2=\"50\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"60\" y1=\"70\" x2=\"60\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"70\" y1=\"70\" x2=\"70\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"36\" y1=\"114\" x2=\"74\" y2=\"76\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"102\" y1=\"70\" x2=\"102\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"112\" y1=\"70\" x2=\"112\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"122\" y1=\"70\" x2=\"122\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"132\" y1=\"70\" x2=\"132\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"98\" y1=\"114\" x2=\"136\" y2=\"76\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"164\" y1=\"70\" x2=\"164\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"174\" y1=\"70\" x2=\"174\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <text class=\"label small\" x=\"160.0\" y=\"145\" font-size=\"11\" text-anchor=\"middle\" fill=\"#666\">Each crossed group is a bundle of 5.</text>\n</svg>", "alt": "Two crossed tally bundles of five and two single strokes for cricket fans."}
   },
   {
     id: "g4-maths-data-a-q16",
@@ -320,16 +319,15 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g4-maths-data-b-q01",
-    prompt: "Tally |||| |||| |||| means…",
-    options: [
-      { id: "a", text: "15" },
+    prompt: "Look at the tally chart. How many does it show?",
+    options: [{ id: "a", text: "15" },
       { id: "b", text: "12" },
       { id: "c", text: "14" },
-      { id: "d", text: "10" },
-    ],
+      { id: "d", text: "10" },],
     answerId: "a",
-    explanation: "Three gates of 5 = 15.",
-    hints: ["Each completed gate is 5.", "3 × 5."],
+    explanation: "Three crossed bundles of 5 make 3 × 5 = 15. 12 is tempting if you count each group of four upright sticks as 4 and ignore the crossing slash.",
+    hints: ["Each crossed group is a bundle of 5. How many crossed groups are there?"],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 320 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Tally of three crossed bundles of five\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"320\" height=\"160\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"160.0\" y=\"28\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Tally marks</text>\n  <line class=\"part tally\" x1=\"40\" y1=\"70\" x2=\"40\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"50\" y1=\"70\" x2=\"50\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"60\" y1=\"70\" x2=\"60\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"70\" y1=\"70\" x2=\"70\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"36\" y1=\"114\" x2=\"74\" y2=\"76\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"102\" y1=\"70\" x2=\"102\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"112\" y1=\"70\" x2=\"112\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"122\" y1=\"70\" x2=\"122\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"132\" y1=\"70\" x2=\"132\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"98\" y1=\"114\" x2=\"136\" y2=\"76\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"164\" y1=\"70\" x2=\"164\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"174\" y1=\"70\" x2=\"174\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"184\" y1=\"70\" x2=\"184\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"194\" y1=\"70\" x2=\"194\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"160\" y1=\"114\" x2=\"198\" y2=\"76\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <text class=\"label small\" x=\"160.0\" y=\"145\" font-size=\"11\" text-anchor=\"middle\" fill=\"#666\">Each crossed group is a bundle of 5.</text>\n</svg>", "alt": "Three crossed tally bundles of five."}
   },
   {
     id: "g4-maths-data-b-q02",
@@ -567,16 +565,15 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-maths-data-b-q20",
-    prompt: "Monday's tally of library visitors is |||| ||||. Tuesday adds ||||. Total for both days?",
-    options: [
-      { id: "a", text: "10" },
+    prompt: "Look at the tally chart. What is the total number of library visitors for Monday and Tuesday?",
+    options: [{ id: "a", text: "10" },
       { id: "b", text: "13" },
       { id: "c", text: "8" },
-      { id: "d", text: "15" },
-    ],
+      { id: "d", text: "15" },],
     answerId: "d",
-    explanation: "Monday 10 + Tuesday 5 = 15.",
-    hints: ["Convert tallies to numbers, then add.", "10 + 5."],
+    explanation: "Monday has two crossed bundles (10) and Tuesday has one (5), so 10 + 5 = 15. 12 is tempting if you count each upright stick as 1 and ignore the crossing slashes (4+4+4).",
+    hints: ["Each crossed group is a bundle of 5. Find Monday's total, then Tuesday's, then add."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 320 175\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Tally chart: Monday two crossed bundles of five; Tuesday one crossed bundle of five\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"320\" height=\"175\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"160.0\" y=\"28\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Library visitors</text>\n  <text class=\"label\" x=\"24\" y=\"58\" font-size=\"13\" fill=\"#333\">Monday</text>\n  <line class=\"part tally\" x1=\"90\" y1=\"40\" x2=\"90\" y2=\"80\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"100\" y1=\"40\" x2=\"100\" y2=\"80\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"110\" y1=\"40\" x2=\"110\" y2=\"80\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"120\" y1=\"40\" x2=\"120\" y2=\"80\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"86\" y1=\"74\" x2=\"124\" y2=\"46\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"152\" y1=\"40\" x2=\"152\" y2=\"80\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"162\" y1=\"40\" x2=\"162\" y2=\"80\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"172\" y1=\"40\" x2=\"172\" y2=\"80\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"182\" y1=\"40\" x2=\"182\" y2=\"80\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"148\" y1=\"74\" x2=\"186\" y2=\"46\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <text class=\"label\" x=\"24\" y=\"118\" font-size=\"13\" fill=\"#333\">Tuesday</text>\n  <line class=\"part tally\" x1=\"90\" y1=\"100\" x2=\"90\" y2=\"140\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"100\" y1=\"100\" x2=\"100\" y2=\"140\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"110\" y1=\"100\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"120\" y1=\"100\" x2=\"120\" y2=\"140\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"86\" y1=\"134\" x2=\"124\" y2=\"106\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <text class=\"label small\" x=\"160.0\" y=\"160\" font-size=\"11\" text-anchor=\"middle\" fill=\"#666\">Each crossed group is a bundle of 5. Total both days.</text>\n</svg>", "alt": "Monday two crossed bundles of five; Tuesday one crossed bundle of five."}
   },
   {
     id: "g4-maths-data-b-q21",
