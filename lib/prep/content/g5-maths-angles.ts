@@ -177,7 +177,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "West" }
     ],
     answerId: "c",
-    explanation: "Clockwise goes N → E → S → W and round again, so one quarter turn clockwise from West brings Meena to North. South may look right, but that is where a 90° anticlockwise turn from West ends. South is tempting if you count hour numbers inclusive (fencepost error) instead of the gaps of 30° each; multiplying the gaps by 30° gives North.",
+    explanation: "Clockwise order is N → E → S → W → N. One quarter turn clockwise from West lands on North. South is tempting if you turn 90° anticlockwise from West instead of clockwise.",
     hints: ["Clockwise follows the clock hands: N → E → S → W, then back to the start. Begin at West and move one step."]
   },
   {
@@ -283,7 +283,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "East" }
     ],
     answerId: "a",
-    explanation: "Turning anticlockwise from East brings her to North, and a half turn from North brings her to South. North is tempting if you count hour numbers inclusive (fencepost error) instead of the gaps of 30° each; multiplying the gaps by 30° gives South.",
+    explanation: "From East, 90° anticlockwise lands on North; then 180° clockwise from North lands on South. North is tempting if you stop after the first quarter-turn and forget the half-turn that follows.",
     hints: ["Turning 90° anticlockwise from East makes Sita face North. Now turn 180° clockwise from there."]
   },
   {
