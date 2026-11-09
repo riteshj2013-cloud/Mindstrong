@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7 cm" }
     ],
     answerId: "c",
-    explanation: "By Pythagoras: √(36 + 64) = √100 = 10 cm. 7 cm is tempting if you add the sides instead of using the Pythagoras/space-diagonal formula; the correct diagonal is 10 cm.",
+    explanation: "By Pythagoras: √(36 + 64) = √100 = 10 cm. 7 cm is tempting if you average the sides, (6 + 8) ÷ 2.",
     hints: ["The diagonal makes a right triangle with the 6 cm and 8 cm sides. Use Pythagoras."]
   },
   {

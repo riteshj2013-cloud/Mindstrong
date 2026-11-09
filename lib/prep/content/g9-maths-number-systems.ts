@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.3" }
     ],
     answerId: "d",
-    explanation: "0.09 = 9/100, and √(9/100) = 3/10 = 0.3. 0. 3 is tempting if you think a surd sum is rational without checking.",
+    explanation: "0.09 = 9/100, and √(9/100) = 3/10 = 0.3. 0.03 is tempting, but 0.03² = 0.0009, not 0.09.",
     hints: ["Write 0.09 as 9/100, then take the square root of the top and the bottom."]
   },
   {

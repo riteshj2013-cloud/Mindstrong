@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b930" }
     ],
     answerId: "b",
-    explanation: "I = (2000 × 5 × 3)/100 = ₹300, while ₹2,300 is the amount, not the interest. ₹100 is tempting if you compute rate × base and then divide by 10 rather than by 100; the correct percentage amount is ₹300.",
+    explanation: "I = (2000 × 5 × 3)/100 = ₹300. ₹100 is tempting because it is the interest for 1 year only; 3 years give 3 × ₹100 = ₹300.",
     hints: ["Use SI = P × R × T ÷ 100 with P = ₹2,000, R = 5 and T = 3."]
   },
   {
