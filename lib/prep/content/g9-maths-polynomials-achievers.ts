@@ -54,7 +54,7 @@ export const g9MathsPolynomialsAchievers: PrepQuestion[] = [
       { id: "d", text: "2,196" }
     ],
     answerId: "c",
-    explanation: "The bases add up to \u221212 + 7 + 5 = 0. The identity a\u00b3 + b\u00b3 + c\u00b3 \u2212 3abc = (a + b + c)(a\u00b2 + b\u00b2 + c\u00b2 \u2212 ab \u2212 bc \u2212 ca) then gives a\u00b3 + b\u00b3 + c\u00b3 = 3abc = 3 \u00d7 (\u221212) \u00d7 7 \u00d7 5 = \u22121260 (check: \u22121728 + 343 + 125 = \u22121260). 0 is tempting because the bases add up to 0, but that makes a\u00b3 + b\u00b3 + c\u00b3 \u2212 3abc zero, not the sum of the cubes itself.",
+    explanation: "The bases add up to \u221212 + 7 + 5 = 0. The identity a\u00b3 + b\u00b3 + c\u00b3 \u2212 3abc = (a + b + c)(a\u00b2 + b\u00b2 + c\u00b2 \u2212 ab \u2212 bc \u2212 ca) then gives a\u00b3 + b\u00b3 + c\u00b3 = 3abc = 3 \u00d7 (\u221212) \u00d7 7 \u00d7 5 = \u22121,260 (check: \u22121728 + 343 + 125 = \u22121,260). 0 is tempting because the bases add up to 0, but that makes a\u00b3 + b\u00b3 + c\u00b3 \u2212 3abc zero, not the sum of the cubes itself.",
     hints: ["Add Hiten's three bases first; when that sum is special, an identity links the sum of the cubes to the product of the bases."]
   },
   {

@@ -323,13 +323,13 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-rational-b-q01",
     prompt: "Which of these is a rational number but NOT an integer?",
     options: [
-      { id: "a", text: "-7" },
+      { id: "a", text: "\u22127" },
       { id: "b", text: "0" },
       { id: "c", text: "12/4" },
-      { id: "d", text: "-7/3" }
+      { id: "d", text: "\u22127/3" }
     ],
     answerId: "d",
-    explanation: "12/4 simplifies to the integer 3, but −7/3 cannot be simplified to a whole number, so it is rational but not an integer. −7 is tempting because it looks like the numerator alone, but −7 is an integer; the non-integer rational is −7/3.",
+    explanation: "12/4 simplifies to the integer 3, but \u22127/3 cannot be simplified to a whole number, so it is rational but not an integer. \u22127 is tempting because it looks like the numerator alone, but \u22127 is an integer; the non-integer rational is \u22127/3.",
     hints: ["Simplify each number. Which rational number cannot become a whole number, the way 12/4 can?"]
   },
   {

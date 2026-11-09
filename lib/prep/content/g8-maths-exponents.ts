@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "d",
-    explanation: "3³ ÷ 3³ = 3⁰ = 1. 3 is tempting if you multiply the exponents instead of adding them (same-base product rule); adding the exponents gives 1.",
+    explanation: "(3⁵ × 3⁻²) ÷ 3³ = 3^{5+(−2)−3} = 3⁰ = 1. 3 is tempting if you treat 3⁰ as 3; any non-zero number to the power 0 is 1.",
     hints: ["Add the exponents 5 and −2, then subtract 3. What is any non-zero number to the power 0?"]
   },
   {

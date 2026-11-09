@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "₹111.25" }
     ],
     answerId: "b",
-    explanation: "85.50 + 24.75 = ₹110.25. ₹100. ₹109. ₹109. ₹100. ₹100.25 is tempting if you rename 1.20 as 120 hundredths and then slip a place when adding; aligning the points gives ₹110.25 when you revisit the book.",
+    explanation: "85.50 + 24.75 = ₹110.25. ₹100.25 is tempting if you drop the carry into the tens (8 + 2 + 1 = 11).",
     hints: ["Add the rupees ₹85 + ₹24, then the paise 50 + 75, carrying 100 paise over as ₹1."]
   },
   {
