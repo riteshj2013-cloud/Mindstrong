@@ -407,8 +407,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "105 m" }
     ],
     answerId: "c",
-    explanation: "−80 + 25 = −55 m (still below sea level). −105 m is tempting if you reverse a rise and a fall when combining signed changes; the net change is −55 m when you re-check the submarine.",
-    hints: ["Rising adds a positive change to a negative depth."]
+    explanation: "Rising means moving up towards the surface, so add the 25 m: −80 + 25 = −55. The submarine is now at −55 m, still below sea level. −105 m is tempting if you take the rise away instead of adding it: −80 − 25 = −105.",
+    hints: ["Mark the submarine's depth on an up-and-down number line with sea level at zero. Draw the rise as an arrow, then read where it ends."]
   },
   {
     id: "g7-maths-integers-b-q08",
@@ -420,8 +420,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "d",
-    explanation: "The correct answer is 4. 10 is tempting if you drop a minus when stepping left on the line; keeping direction gives 4 when you re-check the step.",
-    hints: ["Find the distance of −7 from zero, and of 3. Then subtract the second from the first."]
+    explanation: "The bars mean distance from zero. −7 is 7 steps from zero and 3 is 3 steps from zero, so 7 − 3 = 4. −10 is tempting if you ignore the bars and work out −7 − 3 = −10.",
+    hints: ["Each pair of bars asks how far a number is from zero. Find both distances before you evaluate the subtraction."]
   },
   {
     id: "g7-maths-integers-b-q09",
@@ -446,8 +446,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "b",
-    explanation: "5 + 9 − 3 = 11. 17 is tempting if you multiply magnitudes correctly but pick the sign as for unlike factors; the product is 11 when you re-check the step.",
-    hints: ["Subtracting −9 means adding 9. Work left to right: 5 + 9, then subtract 3."]
+    explanation: "Taking away −9 is the same as adding 9. So 5 − (−9) − 3 = 5 + 9 − 3 = 14 − 3 = 11. −7 is tempting if you treat taking away −9 as taking away 9: 5 − 9 − 3 = −7.",
+    hints: ["Look closely at the middle part, where a negative number is taken away. Decide what that does, then evaluate from left to right."]
   },
   {
     id: "g7-maths-integers-b-q11",
@@ -459,8 +459,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "42" }
     ],
     answerId: "c",
-    explanation: "(−6) × 6 = −36. −6 is tempting if you find |a| − |b| but forget which was more negative; the signed answer is 6 when you re-check the product.",
-    hints: ["Divide −36 by the given negative factor. Negative divided by negative is positive."]
+    explanation: "The missing factor is −36 ÷ (−6). A negative divided by a negative is positive, so the other factor is 6. Check: (−6) × 6 = −36. −6 is tempting if you get the size right but keep the minus sign, thinking a negative divided by a negative stays negative.",
+    hints: ["Divide the product by the factor you already know. Work out the size first, then decide the sign of the other factor on its own."]
   },
   {
     id: "g7-maths-integers-b-q12",
@@ -472,8 +472,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22128, \u22122, 0, 5" }
     ],
     answerId: "d",
-    explanation: "From most negative to most positive: −8, −2, 0, 5. −2, −8, 0, 5 is tempting if you start counting from the wrong end of the line; starting at the given point gives −8, −2, 0, 5 when you re-check the arrange.",
-    hints: ["Ascending means smallest to largest."]
+    explanation: "Ascending means from smallest to largest. On a number line −8 is farthest left, then −2, then 0, then 5, so the order is −8, −2, 0, 5. −2, −8, 0, 5 is tempting if you order the negative numbers by their digits, putting 2 before 8, and forget that −8 is smaller than −2.",
+    hints: ["Ascending means smallest first. Place all the numbers on a number line, then read them in order starting from the far left end."]
   },
   {
     id: "g7-maths-integers-b-q13",
@@ -498,8 +498,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22128" }
     ],
     answerId: "b",
-    explanation: "−14 − 6 = −20; −20 + 20 = 0. −8 is tempting if you replace a − (−n) step with ordinary subtraction; minus a minus adds, giving 0 when you re-check the step.",
-    hints: ["Add the two negatives first: −14 + (−6). Then add 20."]
+    explanation: "Add the two negatives first: (−14) + (−6) = −20. Then −20 + 20 = 0. 40 is tempting if you ignore the minus signs and just add the sizes: 14 + 6 + 20 = 40.",
+    hints: ["Work out what the two negative numbers make together, then bring in the positive one. Picture each step as a move along a number line."]
   },
   {
     id: "g7-maths-integers-b-q15",
@@ -537,8 +537,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Loss of \u20b9970" }
     ],
     answerId: "a",
-    explanation: "450 − 520 = −70 → loss of ₹70. Gain of ₹70 is tempting if you count spaces on the number line instead of hops between integers; hop-counting gives Loss of ₹70 when you re-check the gain.",
-    hints: ["Gain positive, loss negative."]
+    explanation: "Write the gain as +450 and the loss as −520. Then 450 + (−520) = −70, and the minus sign means a loss, so the net result is a Loss of ₹70. Gain of ₹70 is tempting if you work out 520 − 450 = 70 but forget that the loss was the bigger amount, so you call it a gain.",
+    hints: ["Write the gain as a positive number and the loss as a negative one. Add them; the sign of the result shows the net."]
   },
   {
     id: "g7-maths-integers-b-q18",
@@ -550,8 +550,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "b",
-    explanation: "−25 ÷ 5 = −5; (−5)×(−2) = 10. Left to right. −2 is tempting if you subtract smaller-from-larger without watching which is negative; keeping signs gives 10 when you re-check the step.",
-    hints: ["Work left to right: first (−25) ÷ 5, then multiply by (−2)."]
+    explanation: "Work from left to right. First (−25) ÷ 5 = −5. Then (−5) × (−2) = 10, because a negative times a negative is positive. −10 is tempting if you forget that the second minus sign makes the answer positive, so you keep the minus from the first step and give −10.",
+    hints: ["Work from left to right: evaluate the dividing first, then the multiplying. Decide the sign again at each step."]
   },
   {
     id: "g7-maths-integers-b-q19",
@@ -628,8 +628,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22129 and 9" }
     ],
     answerId: "d",
-    explanation: "The correct answer is −9 and 9. −9 and 1/9 is tempting if you get the sign of the product wrong (two negatives make a positive); the product is −9 and 9 when you re-check the pair.",
-    hints: ["Additive inverses sum to zero."]
+    explanation: "Additive inverses are two numbers that add to 0. Only −9 and 9 do this: −9 + 9 = 0. −9 and 1/9 is tempting if you mix up additive inverses with flipping a number into a fraction, turning 9 into 1/9. But −9 + 1/9 is not 0.",
+    hints: ["The word additive tells you what to do with each pair. Test every pair that way and look for the result that leaves nothing."]
   }
 ];
 
