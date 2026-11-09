@@ -1,4 +1,5 @@
 import type { ChapterDef, PrepQuestion } from "../types";
+import { g9MathsPolynomialsAchievers } from "./g9-maths-polynomials-achievers";
 
 /** Polynomials - original olympiad-style content (not affiliated with SOF). */
 
@@ -713,6 +714,13 @@ export const g9MathsPolynomials: ChapterDef = {
       questionCount: SET_B.length,
       topic: "linear-lite",
       questions: SET_B,
+    },
+    {
+      id: "set-achievers",
+      title: "Achievers",
+      questionCount: g9MathsPolynomialsAchievers.length,
+      topic: "linear-lite",
+      questions: g9MathsPolynomialsAchievers,
     },
   ],
   paperTopics: ["linear-lite", "fractions"],
