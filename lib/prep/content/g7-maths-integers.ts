@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221211" }
     ],
     answerId: "d",
-    explanation: "−9 − 4 = −13; −13 + 2 = −11. −15 is tempting if you drop a sign or swap place values, but the correct result is Forming halves.",
+    explanation: "−9 − 4 = −13; −13 + 2 = −11. −15 is tempting if you subtract the 2, but +2 gives −11.",
     hints: ["Work left to right: first −9 − 4, then add 2."]
   }
 ];

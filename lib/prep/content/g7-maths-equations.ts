@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "a",
-    explanation: "Subtract 7 from both sides: x = 8. 7 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 8. 7 is tempting if you stop one step early or reverse a step, but the correct result is 8.",
+    explanation: "Subtract 7 from both sides: x = 8. 7 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 8.",
     hints: ["Take 7 away from both sides of x + 7 = 15."]
   },
   {
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "36" }
     ],
     answerId: "b",
-    explanation: "Add 9: y = 13. 5 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 13. 5 is tempting if you stop one step early or reverse a step, but the correct result is 13.",
+    explanation: "Add 9: y = 13. 5 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 13.",
     hints: ["Add 9 to both sides of y − 9 = 4."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "24" }
     ],
     answerId: "c",
-    explanation: "Divide both sides by 3: m = 7. 18 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 7. 18 is tempting if you stop one step early or reverse a step, but the correct result is 7.",
+    explanation: "Divide both sides by 3: m = 7. 18 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 7.",
     hints: ["Divide both sides of 3m = 21 by 3."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "d",
-    explanation: "Multiply both sides by 5: n = 30. 11 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 30. 11 is tempting if you stop one step early or reverse a step, but the correct result is 30.",
+    explanation: "Multiply both sides by 5: n = 30. 11 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 30.",
     hints: ["Multiply both sides of n/5 = 6 by 5."]
   },
   {
@@ -65,7 +65,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "14" }
     ],
     answerId: "a",
-    explanation: "2x = 8, so x = 4. 7 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 4. 7 is tempting if you stop one step early or reverse a step, but the correct result is 4.",
+    explanation: "2x = 8, so x = 4. 7 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 4.",
     hints: ["Subtract 3 first, then divide by 2."]
   },
   {
@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "b",
-    explanation: "5p = 20, p = 4. 3 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 4. 3 is tempting if you stop one step early or reverse a step, but the correct result is 4.",
+    explanation: "5p = 20, p = 4. 3 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 4.",
     hints: ["Undo the subtraction first, so 5p equals 16 plus the amount taken away. Then divide by 5."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "b",
-    explanation: "Multiply both sides by −1: x = −8. 0 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives −8. 0 is tempting if you stop one step early or reverse a step, but the correct result is −8.",
+    explanation: "Multiply both sides by −1: x = −8. 0 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives −8.",
     hints: ["Multiply both sides by −1 so that x is on its own."]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "21" }
     ],
     answerId: "c",
-    explanation: "x − 1 = 5, so x = 6. 5 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 6. 5 is tempting if you stop one step early or reverse a step, but the correct result is 6.",
+    explanation: "x − 1 = 5, so x = 6. 5 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 6.",
     hints: ["Divide by 4, then add 1."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "9" }
     ],
     answerId: "d",
-    explanation: "x/3 = 3, so x = 9. 7 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 9. 7 is tempting if you stop one step early or reverse a step, but the correct result is 9.",
+    explanation: "x/3 = 3, so x = 9. 7 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 9.",
     hints: ["Subtract 2, then multiply by 3."]
   },
   {
@@ -182,7 +182,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "b",
-    explanation: "−x = 3 − 10 = −7, so x = 7. Or: x = 10 − 3. 13 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 7. 13 is tempting if you stop one step early or reverse a step, but the correct result is 7.",
+    explanation: "−x = 3 − 10 = −7, so x = 7. Or: x = 10 − 3. 13 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 7.",
     hints: ["Move x or rearrange to isolate it."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "x/5 = 1" }
     ],
     answerId: "c",
-    explanation: "5 × 0 = 0. x + 5 = 0 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 5x = 0. x + 5 = 0 is tempting if you stop one step early or reverse a step, but the correct result is 5x = 0.",
+    explanation: "5 × 0 = 0. x + 5 = 0 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 5x = 0.",
     hints: ["Plug x = 0 into each equation."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u22123" }
     ],
     answerId: "d",
-    explanation: "x = −18/6 = −3. 3 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives −3. 3 is tempting if you stop one step early or reverse a step, but the correct result is −3.",
+    explanation: "x = −18/6 = −3. 3 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives −3.",
     hints: ["Divide both sides by 6."]
   },
   {
@@ -221,7 +221,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "a",
-    explanation: "x/2 = 6, x = 12. 8 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 12. 8 is tempting if you stop one step early or reverse a step, but the correct result is 12.",
+    explanation: "x/2 = 6, x = 12. 8 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 12.",
     hints: ["Add 5, then multiply by 2."]
   },
   {
@@ -247,7 +247,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "c",
-    explanation: "4x = 20, x = 5. 4 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 5. 4 is tempting if you stop one step early or reverse a step, but the correct result is 5.",
+    explanation: "4x = 20, x = 5. 4 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 5.",
     hints: ["First combine 3x + x into one term. Then divide 20 by its coefficient."]
   },
   {
@@ -260,7 +260,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "d",
-    explanation: "x + 4 = 9, x = 5. 4. 4.5 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 5. 4.5 is tempting if you stop one step early or reverse a step, but the correct result is 5.",
+    explanation: "x + 4 = 9, x = 5. 4.5 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 5.",
     hints: ["Simplify 2x − x first. Then take 4 from both sides of the equation."]
   },
   {
@@ -286,7 +286,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "No solution" }
     ],
     answerId: "b",
-    explanation: "Expanding gives 5x + 10 = 5x + 10 — always true. x = 0 only is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives All real numbers (identity). x = 0 only is tempting if you stop one step early or reverse a step, but the correct result is All real numbers (identity).",
+    explanation: "Expanding gives 5x + 10 = 5x + 10 — always true. x = 0 only is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives All real numbers (identity).",
     hints: ["If both sides match for every x, it is an identity."]
   },
   {
@@ -299,7 +299,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "All real numbers" }
     ],
     answerId: "c",
-    explanation: "Subtract 2x: 5 = 9, which is false. No solution. x = 0 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives No solution. x = 0 is tempting if you stop one step early or reverse a step, but the correct result is No solution.",
+    explanation: "Subtract 2x: 5 = 9, which is false. No solution. x = 0 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives No solution.",
     hints: ["Subtract 2x from both sides of 2x + 5 = 2x + 9. Is what remains ever true?"]
   },
   {
@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "150" }
     ],
     answerId: "d",
-    explanation: "x − 40 = 110 → x = 150. 110 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 15. 110 is tempting if you stop one step early or reverse a step, but the correct result is 15.",
+    explanation: "x − 40 = 110 → x = 150. 110 is tempting because it is the money left; x = 110 + 40 = 150.",
     hints: ["Spending subtracts from the total."]
   }
 ];
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "a",
-    explanation: "7x − 4x = 12 + 3 → 3x = 15 → x = 5. 3 is tempting if you move a term the wrong way or forget to do the same to both sides. 3 is tempting if you stop one step early or reverse a step, but the correct result is 5.",
+    explanation: "7x − 4x = 12 + 3 → 3x = 15 → x = 5. 3 is tempting if you move a term the wrong way or forget to do the same to both sides.",
     hints: ["Take 4x from both sides and add 3 to both sides. Then divide by the coefficient of x."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "b",
-    explanation: "3x − 12 = 2x + 2 → x = 14. 10 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 14. 10 is tempting if you stop one step early or reverse a step, but the correct result is 14.",
+    explanation: "3x − 12 = 2x + 2 → x = 14. 10 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 14.",
     hints: ["Expand both brackets: 3x − 12 = 2x + 2. Then collect the x terms on one side."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "d",
-    explanation: "Multiply by 12: 3x = 2x + 12 → x = 12. 6 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 12. 6 is tempting if you stop one step early or reverse a step, but the correct result is 12.",
+    explanation: "Multiply by 12: 3x = 2x + 12 → x = 12. 6 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 12.",
     hints: ["Multiply every term by the LCM of 4 and 6 to clear the fractions, then solve."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "16" }
     ],
     answerId: "b",
-    explanation: "x = 14/(−2) = −7. −16 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives −7. −16 is tempting if you stop one step early or reverse a step, but the correct result is −7.",
+    explanation: "x = 14/(−2) = −7. −16 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives −7.",
     hints: ["Divide both sides by −2."]
   },
   {
@@ -432,7 +432,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "6 cm" }
     ],
     answerId: "a",
-    explanation: "4s = 48 → s = 12. 6 cm is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 12 cm. 6 cm is tempting if you stop one step early or reverse a step, but the correct result is 12 cm.",
+    explanation: "4s = 48 → s = 12. 6 cm is tempting if you use the wrong formula or mix length with area/volume units, but the correct result is 12 cm.",
     hints: ["Perimeter of square = 4 × side."]
   },
   {
@@ -445,7 +445,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "b",
-    explanation: "2x + 1 = 15 → 2x = 14 → x = 7. 8 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 7. 8 is tempting if you stop one step early or reverse a step, but the correct result is 7.",
+    explanation: "2x + 1 = 15 → 2x = 14 → x = 7. 8 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 7.",
     hints: ["Multiply both sides by 3 first."]
   },
   {
@@ -471,7 +471,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "d",
-    explanation: "9 = 3x → x = 3. 6 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 3. 6 is tempting if you stop one step early or reverse a step, but the correct result is 3.",
+    explanation: "9 = 3x → x = 3. 6 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 3.",
     hints: ["Add x to both sides, then divide."]
   },
   {
@@ -484,7 +484,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Delete a term from one side only" }
     ],
     answerId: "a",
-    explanation: "Balance requires the same change on both sides. Add different numbers to each side is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives Add the same number to both sides. Add different numbers to each side is tempting if you stop one step early or reverse a step, but the correct result is Add the same number to both sides.",
+    explanation: "Balance requires the same change on both sides. Add different numbers to each side is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives Add the same number to both sides.",
     hints: ["An equation is like a balance. What must you do to keep both sides equal?"]
   },
   {
@@ -497,7 +497,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.5" }
     ],
     answerId: "b",
-    explanation: "x = 4 / 0.5 = 8. 4. 4.5 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 8. 4.5 is tempting if you stop one step early or reverse a step, but the correct result is 8.",
+    explanation: "x = 4 / 0.5 = 8. 4.5 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 8.",
     hints: ["0.5x means half of x. If half of x is 4, what is the whole of x?"]
   },
   {
@@ -523,7 +523,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22124" }
     ],
     answerId: "d",
-    explanation: "4x = −9 − 7 = −16, so x = −16 ÷ 4 = −4. 4 may look right if the minus sign is dropped, and −1/2 comes from adding 7 to −9 instead of subtracting it. −1/2 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives −4. −1/2 is tempting if you stop one step early or reverse a step, but the correct result is −4.",
+    explanation: "4x = −9 − 7 = −16, so x = −16 ÷ 4 = −4. 4 may look right if the minus sign is dropped, and −1/2 comes from adding 7 to −9 instead of subtracting it. −1/2 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives −4.",
     hints: ["Subtract 7 from both sides of 4x + 7 = −9, then divide by the coefficient of x. Keep the negative sign."]
   },
   {
@@ -536,7 +536,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x \u2212 3/2 = 10" }
     ],
     answerId: "a",
-    explanation: "Half is x/2; decreased by 3 subtracts 3. 2x − 3 = 10 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives x/2 − 3 = 10. 2x − 3 = 10 is tempting if you stop one step early or reverse a step, but the correct result is x/2 − 3 = 10.",
+    explanation: "Half is x/2; decreased by 3 subtracts 3. 2x − 3 = 10 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives x/2 − 3 = 10.",
     hints: ["Let the number be x. Write half a number first, then show it decreased by 3, then set it equal to 10."]
   },
   {
@@ -549,7 +549,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "b",
-    explanation: "3x + 6 = 24 → 3x = 18 → x = 6. 3 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 6. 3 is tempting if you stop one step early or reverse a step, but the correct result is 6.",
+    explanation: "3x + 6 = 24 → 3x = 18 → x = 6. 3 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 6.",
     hints: ["Combine 5x − 2x into one term, subtract the constant from 24, then divide by the coefficient of x."]
   },
   {
@@ -575,7 +575,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "d",
-    explanation: "4 = x + 1 → x = 3. 4 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 3. 4 is tempting if you stop one step early or reverse a step, but the correct result is 3.",
+    explanation: "4 = x + 1 → x = 3. 4 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 3.",
     hints: ["Divide 12 by the number outside the bracket to find x + 1, then subtract 1."]
   },
   {
@@ -588,7 +588,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x = 3\u00d790" }
     ],
     answerId: "a",
-    explanation: "Three tickets = one ticket + 90 → 3x = x + 90. 3x + 90 = x is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 3x = x + 90. 3x + 90 = x is tempting if you stop one step early or reverse a step, but the correct result is 3x = x + 90.",
+    explanation: "Three tickets = one ticket + 90 → 3x = x + 90. 3x + 90 = x is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 3x = x + 90.",
     hints: ["Write the cost of three tickets and of one ticket using ₹x. Which is ₹90 more?"]
   },
   {
@@ -627,7 +627,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "d",
-    explanation: "In a linear equation, the unknown appears to the first power only. 0 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 1. 0 is tempting if you stop one step early or reverse a step, but the correct result is 1.",
+    explanation: "In a linear equation, the unknown appears to the first power only. 0 is tempting if you move a term the wrong way or combine unlike terms; solving carefully gives 1.",
     hints: ["A linear equation such as 2x + 5 = 9 has no x² or x³ term. What power of the variable is left?"]
   }
 ];

@@ -321,7 +321,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2,04,000" }
     ],
     answerId: "d",
-    explanation: "Adding 12,000 each time gives 1,92,000 and then 2,04,000, so 2,00,000 never appears in the pattern. 2,00,000 is tempting if you swap neighbouring place values (lakhs/thousands/tens), but the correct reading or arrangement is 3,40,500.",
+    explanation: "Adding 12,000 each time gives 1,92,000 and then 2,04,000, so 2,00,000 never appears in the pattern. 2,00,000 is tempting because it is a round number, but the pattern jumps from 1,92,000 by 12,000 to 2,04,000.",
     hints: ["Each step adds 12,000. Keep adding 12,000 from 1,32,000 until you pass 2,00,000."]
   }
 ];

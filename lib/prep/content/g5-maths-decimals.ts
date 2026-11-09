@@ -78,7 +78,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6.2" }
     ],
     answerId: "b",
-    explanation: "Line up the points: 1.2 + 0.5 = 1.7. 1. 1.25 is tempting if you add without lining up the decimal points; the sum is 1.7.",
+    explanation: "Line up the points: 1.2 + 0.5 = 1.7. 1.25 is tempting if you add without lining up the decimal points; the sum is 1.7.",
     hints: ["Line up the decimal points of 1.2 and 0.5, then add the tenths first, then the ones."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4.35" }
     ],
     answerId: "c",
-    explanation: "Write 1.3 as 1.30; 2.05 + 1.30 = 3.35. 3. 3.08 is tempting if you add without lining up the decimal points; the sum is 3.35.",
+    explanation: "Write 1.3 as 1.30; 2.05 + 1.30 = 3.35. 3.08 is tempting if you add without lining up the decimal points; the sum is 3.35.",
     hints: ["Write 1.3 as 1.30 so both have two decimal places, then add 2.05 column by column."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3.35" }
     ],
     answerId: "d",
-    explanation: "4.20 − 0.85 = 3.35. 3. 3.45 is tempting if you line the decimals up wrongly; the difference is 3.35.",
+    explanation: "4.20 − 0.85 = 3.35. 3.45 is tempting if you line the decimals up wrongly; the difference is 3.35.",
     hints: ["Write 4.2 as 4.20, line up the points with 0.85, then subtract, borrowing where needed."]
   },
   {
@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.604" }
     ],
     answerId: "d",
-    explanation: "÷10 moves the point one place left: 6.04 → 0.604. 0. 0.064 is tempting if you misread a place after the decimal point, but the correct value is 0.009.",
+    explanation: "÷10 moves the point one place left: 6.04 → 0.604. 0.064 is tempting if you drop the 0 in 6.04, but ÷ 10 keeps the digits 6, 0, 4: 0.604.",
     hints: ["Dividing by 10 moves every digit of 6.04 one place to the right."]
   }
 ];
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "a",
-    explanation: "0.10 is greater than 0.09, so 0.09 is smaller. 0. 0.1 is tempting if you misread a place after the decimal point, but the correct value is 0.09.",
+    explanation: "0.10 is greater than 0.09, so 0.09 is smaller. 0.1 is tempting if you misread a place after the decimal point, but the correct value is 0.09.",
     hints: ["Write 0.1 with two decimal places, then compare the hundredths of both numbers."]
   },
   {
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1.95" }
     ],
     answerId: "b",
-    explanation: "0.80 + 0.15 = 0.95. 0. 0.815 is tempting if you add without lining up the decimal points; the sum is 0.95.",
+    explanation: "0.80 + 0.15 = 0.95. 0.815 is tempting if you add without lining up the decimal points; the sum is 0.95.",
     hints: ["Write 0.8 as 0.80, line up the decimal points with 0.15, then add."]
   },
   {
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2.3" }
     ],
     answerId: "c",
-    explanation: "5.0 − 2.3 = 2.7. 2. 2.3 is tempting if you line the decimals up wrongly; the difference is 2.7.",
+    explanation: "5.0 − 2.3 = 2.7. 2.3 is tempting if you line the decimals up wrongly; the difference is 2.7.",
     hints: ["Line up the decimal points of 5.0 and 2.3. Borrow from the ones to subtract the tenths."]
   },
   {
@@ -484,7 +484,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1.5, 1.005, 1.05" }
     ],
     answerId: "a",
-    explanation: "1.500 > 1.050 > 1.005. 1.5, 1.005, 1. 1.5, 1.005, 1.05 is tempting if you misread a place after the decimal point, but the correct value is 1.5, 1.05, 1.005.",
+    explanation: "1.500 > 1.050 > 1.005. 1.5, 1.005, 1.05 is tempting if you misread a place after the decimal point, but the correct value is 1.5, 1.05, 1.005.",
     hints: ["Give each number three decimal places: 1.050, 1.500, 1.005. Then put them in descending order."]
   },
   {
@@ -497,7 +497,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "60" }
     ],
     answerId: "b",
-    explanation: "Face value is the digit itself, which is 6. 0. 0.6 is tempting if you misread a place after the decimal point, but the correct value is 6.",
+    explanation: "Face value is the digit itself, which is 6. 0.6 is tempting if you misread a place after the decimal point, but the correct value is 6.",
     hints: ["Face value is just the digit itself, whatever its place. Place value would depend on its position in 8.46."]
   },
   {
@@ -510,7 +510,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "12.45" }
     ],
     answerId: "c",
-    explanation: "0.90 + 2.45 = 3.35. 3. 3.25 is tempting if you add without lining up the decimal points; the sum is 3.35.",
+    explanation: "0.90 + 2.45 = 3.35. 3.25 is tempting if you add without lining up the decimal points; the sum is 3.35.",
     hints: ["Write 0.9 as 0.90, line up the decimal points with 2.45, then add column by column."]
   },
   {
@@ -523,7 +523,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3.75" }
     ],
     answerId: "d",
-    explanation: "6.50 − 2.75 = 3.75. 4. 3.25 is tempting if you line the decimals up wrongly; the difference is 3.75.",
+    explanation: "6.50 − 2.75 = 3.75. 3.25 is tempting if you line the decimals up wrongly; the difference is 3.75.",
     hints: ["Write 6.5 as 6.50, line up the points with 2.75, then subtract, borrowing where needed."]
   },
   {
@@ -536,7 +536,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "320" }
     ],
     answerId: "a",
-    explanation: "÷100 moves the point two places left: 3.2 → 0.032. 0. 0.32 is tempting if you misread a place after the decimal point, but the correct value is 0.032.",
+    explanation: "÷100 moves the point two places left: 3.2 → 0.032. 0.32 is tempting if you misread a place after the decimal point, but the correct value is 0.032.",
     hints: ["Dividing by 100 moves every digit of 3.2 two places to the right. Fill the gaps with zeros."]
   },
   {
@@ -575,7 +575,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "125 cm" }
     ],
     answerId: "d",
-    explanation: "1 m = 100 cm, so 1.25 × 100 = 125 cm. 12.5. 12.5 cm is tempting if you misread a place after the decimal point, but the correct value is 125 cm.",
+    explanation: "1 m = 100 cm, so 1.25 × 100 = 125 cm. 12.5 cm is tempting if you misread a place after the decimal point, but the correct value is 125 cm.",
     hints: ["1 m = 100 cm, so multiply 1.25 by 100."]
   },
   {
@@ -627,7 +627,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "7.5" }
     ],
     answerId: "d",
-    explanation: "0.6 + 0.15 = 0.75; 0.75 × 10 = 7.5. 6. 6.15 is tempting if you misplace the decimal point when multiplying; the product is 7.5.",
+    explanation: "0.6 + 0.15 = 0.75; 0.75 × 10 = 7.5. 6.15 is tempting if you misplace the decimal point when multiplying; the product is 7.5.",
     hints: ["Do the operation in brackets (or the sum) first, then scale by 10 or 100."]
   }
 ];

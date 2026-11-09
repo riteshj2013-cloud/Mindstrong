@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "√2" }
     ],
     answerId: "a",
-    explanation: "Integers are whole numbers and their negatives. −7 is an integer; 3.5, 2/3 and √2 are not. 3. 2/3 is tempting if you stop one step early or reverse a step, but the correct result is -7.",
+    explanation: "Integers are whole numbers and their negatives. −7 is an integer; 3.5, 2/3 and √2 are not. 2/3 is tempting if you stop one step early or reverse a step, but the correct result is -7.",
     hints: ["Integers are …, −2, −1, 0, 1, 2, … — no fractions or decimals."]
   },
   {
@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(−4) + (−6)" }
     ],
     answerId: "d",
-    explanation: "(−4) + (−6) = −10. The others give 2, 10 and 24. (−4) − (−6) is tempting if you stop one step early or reverse a step, but the correct result is {√4, 1.5, 0}.",
+    explanation: "(−4) + (−6) = −10. The others give 2, 10 and 24. (−4) − (−6) is tempting, but subtracting −6 adds 6, giving 2.",
     hints: ["Which option really lands on −10?"]
   }
 ];

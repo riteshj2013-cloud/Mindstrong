@@ -202,7 +202,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "T" }
     ],
     answerId: "c",
-    explanation: "H matches when folded down its middle from top to bottom, and also when folded across its middle from side to side, so it has 2 lines of symmetry. A, M and T match only with a fold from top to bottom. T is tempting because its top bar is the same on both sides, but a side-to-side fold would put the bar on top of the stem.",
+    explanation: "A, M and T match only when folded down the middle (a left-right flip); turned upside down they look different.",
     hints: ["Imagine flipping each of Tilak's card letters both ways, and check whether the bars still land in the same places."]
   },
   {

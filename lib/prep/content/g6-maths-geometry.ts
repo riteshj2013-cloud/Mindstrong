@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "diameter" }
     ],
     answerId: "d",
-    explanation: "The longest chord through the centre is the diameter. radius is tempting if you mix up angle or shape facts, but the correct choice is Angle.",
+    explanation: "The longest chord through the centre is the diameter. radius is tempting because it starts at the centre, but a radius goes only from the centre to the circle.",
     hints: ["A chord through the centre goes right across the circle and is twice the radius. Name it."]
   }
 ];
