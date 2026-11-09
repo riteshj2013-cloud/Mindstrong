@@ -13,8 +13,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "50 cm" }
     ],
     answerId: "a",
-    explanation: "1 m = 100 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1 m = 100 cm. 50 cm is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["A metre ruler is marked in centimetres. How many centimetre marks run along the whole metre?"]
   },
   {
     id: "g5-maths-meas-a-q02",
@@ -26,8 +26,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10000 m" }
     ],
     answerId: "b",
-    explanation: "1 km = 1000 m.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1 km = 1000 m. 100 m is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["Think of the prefix 'kilo': how many grams are in a kilogram? A kilometre uses the same prefix with metres."]
   },
   {
     id: "g5-maths-meas-a-q03",
@@ -39,8 +39,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "500 g" }
     ],
     answerId: "c",
-    explanation: "1 kg = 1000 g.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1 kg = 1000 g. 500 g is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["Think of the prefix 'kilo': how many metres are in a kilometre? A kilogram uses the same prefix with grams."]
   },
   {
     id: "g5-maths-meas-a-q04",
@@ -52,8 +52,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1000 ml" }
     ],
     answerId: "d",
-    explanation: "1 L = 1000 ml.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1 L = 1000 ml. 500 ml is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["A millilitre is a tiny part of a litre, just as a millimetre is of a metre. How many millimetres make a metre?"]
   },
   {
     id: "g5-maths-meas-a-q05",
@@ -65,8 +65,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "20 cm" }
     ],
     answerId: "a",
-    explanation: "Perimeter of a square is 4 \u00d7 side = 4 \u00d7 4 = 16 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Perimeter of a square is 4 × side = 4 × 4 = 16 cm. 12 cm is tempting if you add the wrong sides or mix up perimeter with area.",
+    hints: ["A square has 4 equal sides. Multiply the side 4 cm by the number of sides."]
   },
   {
     id: "g5-maths-meas-a-q06",
@@ -78,8 +78,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "Area of a square is side \u00d7 side = 5 \u00d7 5 = 25 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Area of a square is side × side = 5 × 5 = 25 cm². 20 cm² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    hints: ["Area of a square = side × side. Multiply 5 cm by 5 cm."]
   },
   {
     id: "g5-maths-meas-a-q07",
@@ -91,8 +91,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "14 cm" }
     ],
     answerId: "c",
-    explanation: "Perimeter = 2 \u00d7 (6 + 2) = 2 \u00d7 8 = 16 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Perimeter = 2 × (6 + 2) = 2 × 8 = 16 cm. 14 cm is tempting if you add the wrong sides or mix up perimeter with area.",
+    hints: ["Perimeter of a rectangle = 2 × (length + breadth). Add 6 cm and 2 cm first."]
   },
   {
     id: "g5-maths-meas-a-q08",
@@ -104,8 +104,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "21 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "Area = length \u00d7 breadth = 7 \u00d7 3 = 21 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Area = length × breadth = 7 × 3 = 21 cm². 20 cm² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    hints: ["Area of a rectangle = length × breadth. Multiply 7 cm by 3 cm."]
   },
   {
     id: "g5-maths-meas-a-q09",
@@ -117,8 +117,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "kilometre" }
     ],
     answerId: "a",
-    explanation: "A classroom is a few metres long, so metre is the sensible unit.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A classroom is a few metres long, so metre is the sensible unit. millimetre is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["A classroom is longer than a ruler but much shorter than a road between towns. Pick a unit to match."]
   },
   {
     id: "g5-maths-meas-a-q10",
@@ -130,8 +130,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "litre" }
     ],
     answerId: "b",
-    explanation: "Sugar is sold by mass, usually in kilograms (or grams).",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Sugar is sold by mass, usually in kilograms (or grams). millilitre is tempting, but it does not match what the question asks.",
+    hints: ["A packet of sugar is weighed, not poured or measured with a ruler. Which unit fits a mass that size?"]
   },
   {
     id: "g5-maths-meas-a-q11",
@@ -143,8 +143,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3 cm" }
     ],
     answerId: "c",
-    explanation: "3 \u00d7 100 = 300 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3 × 100 = 300 cm. 30 cm is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["1 m = 100 cm, so multiply 3 by 100."]
   },
   {
     id: "g5-maths-meas-a-q12",
@@ -156,8 +156,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2000 g" }
     ],
     answerId: "d",
-    explanation: "2 \u00d7 1000 = 2000 g.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2 × 1000 = 2000 g. 2500 g is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["1 kg = 1000 g, so multiply 2 by 1000."]
   },
   {
     id: "g5-maths-meas-a-q13",
@@ -169,8 +169,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "90 m" }
     ],
     answerId: "a",
-    explanation: "Perimeter = 2 \u00d7 (40 + 25) = 2 \u00d7 65 = 130 m.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Perimeter = 2 × (40 + 25) = 2 × 65 = 130 m. 90 m is tempting if you add the wrong sides or mix up perimeter with area.",
+    hints: ["Perimeter = 2 × (length + breadth). Add 40 m and 25 m first, then double."]
   },
   {
     id: "g5-maths-meas-a-q14",
@@ -182,8 +182,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "120 m\u00b2" }
     ],
     answerId: "b",
-    explanation: "Area = 12 \u00d7 12 = 144 m\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Area = 12 × 12 = 144 m². 120 m² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    hints: ["Area of a square = side × side. Multiply 12 m by 12 m."]
   },
   {
     id: "g5-maths-meas-a-q15",
@@ -195,8 +195,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4500 m" }
     ],
     answerId: "c",
-    explanation: "450 \u00f7 100 = 4.5 m.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "450 ÷ 100 = 4.5 m. 0.45 m is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["100 cm = 1 m, so divide 450 by 100."]
   },
   {
     id: "g5-maths-meas-a-q16",
@@ -208,8 +208,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3.5 L" }
     ],
     answerId: "d",
-    explanation: "3500 \u00f7 1000 = 3.5 L.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3500 ÷ 1000 = 3.5 L. 0.35 L is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["1000 ml = 1 L, so divide 3500 by 1000."]
   },
   {
     id: "g5-maths-meas-a-q17",
@@ -221,8 +221,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "Area = 3 \u00d7 2 = 6 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Area = 3 × 2 = 6 cm². 5 cm² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    hints: ["Area of a rectangle = length × breadth. Multiply 3 cm by 2 cm."]
   },
   {
     id: "g5-maths-meas-a-q18",
@@ -234,8 +234,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.5 mm" }
     ],
     answerId: "b",
-    explanation: "1 cm = 10 mm, so 5 cm = 50 mm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1 cm = 10 mm, so 5 cm = 50 mm. 5 mm is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["1 cm = 10 mm, so multiply 5 by 10."]
   },
   {
     id: "g5-maths-meas-a-q19",
@@ -247,8 +247,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "18 cm" }
     ],
     answerId: "c",
-    explanation: "Side = perimeter \u00f7 4 = 36 \u00f7 4 = 9 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Side = perimeter ÷ 4 = 36 ÷ 4 = 9 cm. 6 cm is tempting if you add the wrong sides or mix up perimeter with area.",
+    hints: ["A square has 4 equal sides that add up to 36 cm. Share 36 into 4 equal parts."]
   },
   {
     id: "g5-maths-meas-a-q20",
@@ -260,8 +260,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "40 m\u00b2" }
     ],
     answerId: "d",
-    explanation: "Area = 8 \u00d7 5 = 40 m\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Area = 8 × 5 = 40 m². 45 m² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    hints: ["Carpet covers the area: multiply the length 8 m by the breadth 5 m."]
   },
   {
     id: "g5-maths-meas-a-q21",
@@ -273,8 +273,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "a",
-    explanation: "1.2 km = 1200 m, so they are equal.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1.2 km = 1200 m, so they are equal. 1.2 km is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["Change 1.2 km to metres by multiplying by 1000, then compare with 1200 m."]
   },
   {
     id: "g5-maths-meas-a-q22",
@@ -286,8 +286,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "30 m" }
     ],
     answerId: "b",
-    explanation: "Fence length = perimeter = 2 \u00d7 (15 + 10) = 50 m.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Fence length = perimeter = 2 × (15 + 10) = 50 m. 30 m is tempting if you add the wrong sides or mix up perimeter with area.",
+    hints: ["The fence goes around the garden, so find the perimeter: 2 × (15 m + 10 m)."]
   },
   {
     id: "g5-maths-meas-a-q23",
@@ -299,8 +299,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "48" }
     ],
     answerId: "c",
-    explanation: "Room area = 24 m\u00b2, so 24 tiles of 1 m\u00b2 are needed.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Room area = 24 m², so 24 tiles of 1 m² are needed. 20 is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    hints: ["Each tile covers 1 m², so the number of tiles equals the room's area, 6 m × 4 m."]
   },
   {
     id: "g5-maths-meas-a-q24",
@@ -312,8 +312,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "d",
-    explanation: "2 L = 2000 ml; 2000 \u00f7 250 = 8 cans.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2 L = 2000 ml; 2000 ÷ 250 = 8 cans. 6 is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["Change 2 L to millilitres first, then divide by the 250 ml in each can."]
   }
 ];
 
@@ -328,8 +328,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1000 mm" }
     ],
     answerId: "a",
-    explanation: "1 cm = 10 mm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1 cm = 10 mm. 1 mm is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["Look at a ruler: count the small millimetre marks between 0 and 1 centimetre."]
   },
   {
     id: "g5-maths-meas-b-q02",
@@ -341,8 +341,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "10,000 cm" }
     ],
     answerId: "b",
-    explanation: "1 km = 1000 m = 1000 \u00d7 100 cm = 100,000 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1 km = 1000 m = 1000 × 100 cm = 100,000 cm. 10,000 cm is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["1 kilometre = 1000 m and 1 m = 100 cm. Multiply 1000 by 100."]
   },
   {
     id: "g5-maths-meas-b-q03",
@@ -354,8 +354,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "500 kg" }
     ],
     answerId: "c",
-    explanation: "5000 \u00f7 1000 = 5 kg.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "5000 ÷ 1000 = 5 kg. 0.5 kg is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["1000 g = 1 kg — multiply or divide by 1000 to convert."]
   },
   {
     id: "g5-maths-meas-b-q04",
@@ -367,8 +367,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2 L" }
     ],
     answerId: "d",
-    explanation: "2000 \u00f7 1000 = 2 L.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2000 ÷ 1000 = 2 L. 0.2 L is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["1000 ml = 1 L, so divide 2000 by 1000."]
   },
   {
     id: "g5-maths-meas-b-q05",
@@ -380,8 +380,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "49 cm" }
     ],
     answerId: "a",
-    explanation: "4 \u00d7 7 = 28 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "4 × 7 = 28 cm. 21 cm is tempting if you add the wrong sides or mix up perimeter with area.",
+    hints: ["A square has 4 equal sides. Multiply the side 7 cm by 4."]
   },
   {
     id: "g5-maths-meas-b-q06",
@@ -393,8 +393,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "48 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "8 \u00d7 8 = 64 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "8 × 8 = 64 cm². 48 cm² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    hints: ["Area of a square = side × side. Multiply 8 cm by 8 cm."]
   },
   {
     id: "g5-maths-meas-b-q07",
@@ -406,8 +406,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "22 cm" }
     ],
     answerId: "c",
-    explanation: "2 \u00d7 (9 + 4) = 26 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2 × (9 + 4) = 26 cm. 22 cm is tempting if you add the wrong sides or mix up perimeter with area.",
+    hints: ["Perimeter of a rectangle = 2 × (length + breadth). Add 9 cm and 4 cm first."]
   },
   {
     id: "g5-maths-meas-b-q08",
@@ -419,8 +419,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "60 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "10 \u00d7 6 = 60 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "10 × 6 = 60 cm². 32 cm² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    hints: ["Area of a rectangle = length × breadth. Multiply 10 cm by 6 cm."]
   },
   {
     id: "g5-maths-meas-b-q09",
@@ -432,8 +432,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "ml" }
     ],
     answerId: "a",
-    explanation: "City distances are measured in kilometres.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "City distances are measured in kilometres. cm is tempting, but it does not match what the question asks.",
+    hints: ["Cities are many thousands of metres apart. Which unit is made for long distances?"]
   },
   {
     id: "g5-maths-meas-b-q10",
@@ -445,8 +445,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "metre" }
     ],
     answerId: "b",
-    explanation: "Small liquid amounts use millilitres.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Small liquid amounts use millilitres. kilometre is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["Cough syrup is a liquid, and a spoonful is a tiny amount. Which unit measures small volumes?"]
   },
   {
     id: "g5-maths-meas-b-q11",
@@ -458,8 +458,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "40,000 m" }
     ],
     answerId: "c",
-    explanation: "4 \u00d7 1000 = 4000 m.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "4 × 1000 = 4000 m. 400 m is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["1 km = 1000 m, so multiply 4 by 1000."]
   },
   {
     id: "g5-maths-meas-b-q12",
@@ -471,8 +471,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3000 ml" }
     ],
     answerId: "d",
-    explanation: "3 \u00d7 1000 = 3000 ml.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3 × 1000 = 3000 ml. 300 ml is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["1 L = 1000 ml, so multiply 3 by 1000."]
   },
   {
     id: "g5-maths-meas-b-q13",
@@ -484,8 +484,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "48 cm" }
     ],
     answerId: "a",
-    explanation: "2 \u00d7 (18 + 12) = 60 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2 × (18 + 12) = 60 cm. 48 cm is tempting if you add the wrong sides or mix up perimeter with area.",
+    hints: ["Perimeter = 2 × (length + breadth). Add 18 cm and 12 cm first, then double."]
   },
   {
     id: "g5-maths-meas-b-q14",
@@ -497,8 +497,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "200 m\u00b2" }
     ],
     answerId: "b",
-    explanation: "20 \u00d7 20 = 400 m\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "20 × 20 = 400 m². 200 m² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    hints: ["Area of a square = side × side. Multiply 20 m by 20 m."]
   },
   {
     id: "g5-maths-meas-b-q15",
@@ -510,8 +510,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2.5 cm" }
     ],
     answerId: "c",
-    explanation: "2.5 \u00d7 100 = 250 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2.5 × 100 = 250 cm. 25 cm is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["1 m = 100 cm, so multiply 2.5 by 100."]
   },
   {
     id: "g5-maths-meas-b-q16",
@@ -523,8 +523,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1250 g" }
     ],
     answerId: "d",
-    explanation: "1.25 \u00d7 1000 = 1250 g.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1.25 × 1000 = 1250 g. 125 g is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["1 kg = 1000 g, so multiply 1.25 by 1000."]
   },
   {
     id: "g5-maths-meas-b-q17",
@@ -536,8 +536,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "200 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "20 \u00d7 15 = 300 cm\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "20 × 15 = 300 cm². 200 cm² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    hints: ["Area of a rectangle = length × breadth. Multiply 20 cm by 15 cm."]
   },
   {
     id: "g5-maths-meas-b-q18",
@@ -549,8 +549,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "800 cm" }
     ],
     answerId: "b",
-    explanation: "80 \u00f7 10 = 8 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "80 ÷ 10 = 8 cm. 0.8 cm is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["10 mm = 1 cm, so divide 80 by 10."]
   },
   {
     id: "g5-maths-meas-b-q19",
@@ -562,8 +562,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "40.5 cm" }
     ],
     answerId: "c",
-    explanation: "Side \u00d7 side = 81, so side = 9 cm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Side × side = 81, so side = 9 cm. 8 cm is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    hints: ["Find the number that, multiplied by itself, gives 81."]
   },
   {
     id: "g5-maths-meas-b-q20",
@@ -575,8 +575,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1500 m\u00b2" }
     ],
     answerId: "d",
-    explanation: "50 \u00d7 30 = 1500 m\u00b2.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "50 × 30 = 1500 m². 800 m² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    hints: ["Area of a rectangle = length × breadth. Multiply 50 m by 30 m: do 5 × 3, then add the zeros."]
   },
   {
     id: "g5-maths-meas-b-q21",
@@ -588,8 +588,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "a",
-    explanation: "2.5 kg = 2500 g, which is more than 2400 g.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2.5 kg = 2500 g, which is more than 2400 g. 2400 g is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["Change the kilograms to grams by multiplying by 1000, then compare with 2400 g."]
   },
   {
     id: "g5-maths-meas-b-q22",
@@ -601,8 +601,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b93600" }
     ],
     answerId: "b",
-    explanation: "Perimeter = 2 \u00d7 (60 + 40) = 200 m; cost = 200 \u00d7 15 = \u20b93000.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Perimeter = 2 × (60 + 40) = 200 m; cost = 200 × 15 = ₹3000. ₹1500 is tempting if you add the wrong sides or mix up perimeter with area.",
+    hints: ["Find the perimeter first: 2 × (60 m + 40 m). Then multiply by ₹15 for each metre."]
   },
   {
     id: "g5-maths-meas-b-q23",
@@ -614,8 +614,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "108" }
     ],
     answerId: "c",
-    explanation: "Area = 9 \u00d7 6 = 54 m\u00b2; each tile is 1 m\u00b2, so 54 tiles.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Area = 9 × 6 = 54 m²; each tile is 1 m², so 54 tiles. 30 is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    hints: ["Each tile covers 1 m², so the number of tiles equals the floor area, 9 m × 6 m."]
   },
   {
     id: "g5-maths-meas-b-q24",
@@ -627,8 +627,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "24" }
     ],
     answerId: "d",
-    explanation: "12 L = 12,000 ml; 12,000 \u00f7 500 = 24 bottles.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "12 L = 12,000 ml; 12,000 ÷ 500 = 24 bottles. 20 is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["Change 12 L to millilitres first, then divide by the 500 ml in each bottle."]
   }
 ];
 

@@ -13,8 +13,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Only tallies" }
     ],
     answerId: "a",
-    explanation: "Data are facts and numbers collected for a purpose.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Data are facts and numbers collected for a purpose. Only drawings is tempting, but it does not match what the question asks.",
+    hints: ["Think of a class survey of favourite fruits: the information you write down is the data."]
   },
   {
     id: "g5-maths-data-a-q02",
@@ -26,8 +26,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "b",
-    explanation: "Four upright strokes plus one across make a bundle of 5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Four upright strokes plus one across make a bundle of 5. 4 is tempting if you mix up the angle type or the size of the turn.",
+    hints: ["Count the strokes in one tally bundle: the four upright lines plus the diagonal stroke."]
   },
   {
     id: "g5-maths-data-a-q03",
@@ -39,8 +39,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "c",
-    explanation: "4 \u00d7 2 = 8 children.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "4 × 2 = 8 children. 6 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Each star stands for 2 children. Add 2 for every one of the 4 stars."]
   },
   {
     id: "g5-maths-data-a-q04",
@@ -52,8 +52,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Equal widths" }
     ],
     answerId: "d",
-    explanation: "Bars are drawn with equal width so heights can be compared fairly.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Bars are drawn with equal width so heights can be compared fairly. Different widths is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["If one bar were fatter, it would look bigger than it really is. Bars should differ only in height."]
   },
   {
     id: "g5-maths-data-a-q05",
@@ -65,8 +65,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Place-value chart" }
     ],
     answerId: "a",
-    explanation: "A pictograph uses pictures (icons) for quantities.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A pictograph uses pictures (icons) for quantities. Bar graph is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Look for the display whose key says what one picture stands for, like ⭐ = 2 children."]
   },
   {
     id: "g5-maths-data-a-q06",
@@ -78,8 +78,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Perimeter" }
     ],
     answerId: "b",
-    explanation: "Frequency is how often a value appears.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Frequency is how often a value appears. Average is tempting, but it does not match what the question asks.",
+    hints: ["Think of tally marks counting how many times each value appears. What is that count called?"]
   },
   {
     id: "g5-maths-data-a-q07",
@@ -91,8 +91,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "One stroke" }
     ],
     answerId: "c",
-    explanation: "7 = 5 + 2, so one bundle and two strokes.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "7 = 5 + 2, so one bundle and two strokes. Seven single strokes only with no bundles is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["A tally bundle is a group of upright strokes with a slash. Take one bundle away from 7 and count what is left."]
   },
   {
     id: "g5-maths-data-a-q08",
@@ -104,8 +104,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "The most popular colour" }
     ],
     answerId: "d",
-    explanation: "The tallest bar has the greatest frequency.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The tallest bar has the greatest frequency. The least popular colour is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["A taller bar means more votes for that colour. What do the most votes tell you?"]
   },
   {
     id: "g5-maths-data-a-q09",
@@ -117,8 +117,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "a",
-    explanation: "Total 12 divided by 3 numbers gives 4.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Total 12 divided by 3 numbers gives 4. 3 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["For the average, add the three numbers and divide the total by how many there are."]
   },
   {
     id: "g5-maths-data-a-q10",
@@ -130,8 +130,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "b",
-    explanation: "5 appears most often, so the mode is 5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "5 appears most often, so the mode is 5. 4 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Count how many times each value in the list appears. The mode is the value seen most often."]
   },
   {
     id: "g5-maths-data-a-q11",
@@ -143,8 +143,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Draw a pictograph first" }
     ],
     answerId: "c",
-    explanation: "Use the row for Meera and the Marks column.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Use the row for Meera and the Marks column. Ignore headings is tempting, but it does not match what the question asks.",
+    hints: ["A table has a row for each name and a column for each heading. Where do Meera's row and the Marks column meet?"]
   },
   {
     id: "g5-maths-data-a-q12",
@@ -156,8 +156,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "d",
-    explanation: "3 \u00d7 5 = 15 books.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3 × 5 = 15 books. 8 is tempting, but it does not match what the question asks.",
+    hints: ["Each icon stands for 5 books. Add 5 for each of the 3 icons."]
   },
   {
     id: "g5-maths-data-a-q13",
@@ -169,8 +169,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "a",
-    explanation: "12 + 8 + 5 = 25 children.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "12 + 8 + 5 = 25 children. 20 is tempting, but it does not match what the question asks.",
+    hints: ["Every child chose one way, so add the Bus, Walk and Cycle numbers."]
   },
   {
     id: "g5-maths-data-a-q14",
@@ -182,8 +182,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "b",
-    explanation: "12 \u2212 5 = 7.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "12 − 5 = 7. 8 is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["How many more means subtract: take the Cycle number from the Bus number."]
   },
   {
     id: "g5-maths-data-a-q15",
@@ -195,8 +195,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "c",
-    explanation: "2 \u00d7 10 = 20 and half an icon = 5, total 25.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2 × 10 = 20 and half an icon = 5, total 25. 20 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Two whole icons are 2 × 10 cars. Half an icon is half of 10 cars."]
   },
   {
     id: "g5-maths-data-a-q16",
@@ -208,8 +208,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "35" }
     ],
     answerId: "d",
-    explanation: "35 is the greatest value.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "35 is the greatest value. 30 is tempting, but it does not match what the question asks.",
+    hints: ["Compare the bar scores one by one and keep the biggest; the tallest bar shows it."]
   },
   {
     id: "g5-maths-data-a-q17",
@@ -221,8 +221,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "100" }
     ],
     answerId: "a",
-    explanation: "Sum 100 \u00f7 4 = 25.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Sum 100 ÷ 4 = 25. 20 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Add 10, 20, 30 and 40, then divide the total by 4."]
   },
   {
     id: "g5-maths-data-a-q18",
@@ -234,8 +234,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "b",
-    explanation: "4 appears three times, more than any other value.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "4 appears three times, more than any other value. 3 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Tally how many times each value appears in the list. The mode is the most frequent value."]
   },
   {
     id: "g5-maths-data-a-q19",
@@ -247,8 +247,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "c",
-    explanation: "Two bundles of 5 and two more make 12.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Two bundles of 5 and two more make 12. 10 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Each |||| group in a tally has a slash across it, making a bundle of 5. Count the bundles, then the single strokes."]
   },
   {
     id: "g5-maths-data-a-q20",
@@ -260,8 +260,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "A title and labelled axes" }
     ],
     answerId: "d",
-    explanation: "Title, labels and scale make the graph readable.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Title, labels and scale make the graph readable. Only colours is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["A reader must know what the bar graph is about and what each line measures. What tells them that?"]
   },
   {
     id: "g5-maths-data-a-q21",
@@ -273,8 +273,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15 mm" }
     ],
     answerId: "a",
-    explanation: "Sum 15 \u00f7 5 = 3 mm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Sum 15 ÷ 5 = 3 mm. 2 mm is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Add the five daily rainfall amounts, then divide the total by the number of days."]
   },
   {
     id: "g5-maths-data-a-q22",
@@ -286,8 +286,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "b",
-    explanation: "1 icon = 4 and \u00be icon = 3, total 7.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1 icon = 4 and ¾ icon = 3, total 7. 6 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["One whole icon is 4 children. Three quarters of an icon is ¾ of 4 children."]
   },
   {
     id: "g5-maths-data-a-q23",
@@ -299,8 +299,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "c",
-    explanation: "15 appears twice; every other mark appears once.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "15 appears twice; every other mark appears once. 12 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Count how often each mark appears. The mode is the mark that appears the most times."]
   },
   {
     id: "g5-maths-data-a-q24",
@@ -312,8 +312,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "d",
-    explanation: "6 \u00d7 5 = 30 students.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "6 × 5 = 30 students. 11 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Each unit stands for 5 students. Multiply the 6 units by 5."]
   }
 ];
 
@@ -328,8 +328,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "To erase tallies" }
     ],
     answerId: "a",
-    explanation: "Tables organise data so patterns are easier to see.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Tables organise data so patterns are easier to see. To hide numbers is tempting, but it does not match what the question asks.",
+    hints: ["Imagine 30 survey answers in one long sentence versus in a table's rows and columns. Which is quicker to read?"]
   },
   {
     id: "g5-maths-data-b-q02",
@@ -341,8 +341,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "9" }
     ],
     answerId: "b",
-    explanation: "4 \u00d7 5 = 20.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "4 × 5 = 20. 9 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Each tally bundle is five strokes. Count in fives, once for each bundle."]
   },
   {
     id: "g5-maths-data-b-q03",
@@ -354,8 +354,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "c",
-    explanation: "2 \u00d7 10 = 20 books.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2 × 10 = 20 books. 12 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Each icon stands for 10 books. Add 10 for each of the 2 icons."]
   },
   {
     id: "g5-maths-data-b-q04",
@@ -367,8 +367,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Horizontal axis (or x-axis)" }
     ],
     answerId: "d",
-    explanation: "The bottom axis is the horizontal axis.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The bottom axis is the horizontal axis. Title is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["The two lines that frame a bar graph are its axes. Which one runs along the bottom, left to right?"]
   },
   {
     id: "g5-maths-data-b-q05",
@@ -380,8 +380,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Place-value chart" }
     ],
     answerId: "a",
-    explanation: "Bar graphs use equal-width bars.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Bar graphs use equal-width bars. Pictograph is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Which display draws a rectangle of the same width for each item, with heights that differ?"]
   },
   {
     id: "g5-maths-data-b-q06",
@@ -393,8 +393,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Percent" }
     ],
     answerId: "b",
-    explanation: "Unsorted collected facts are raw data.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Unsorted collected facts are raw data. Mode is tempting, but it does not match what the question asks.",
+    hints: ["Scores written down just as they come, before any sorting, are not organised yet. What are such data called?"]
   },
   {
     id: "g5-maths-data-b-q07",
@@ -406,8 +406,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Ten strokes" }
     ],
     answerId: "c",
-    explanation: "Three is fewer than five, so three single strokes.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Three is fewer than five, so three single strokes. One bundle of 5 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["A bundle needs 5 tally strokes. With only 3 to show, do you draw a bundle?"]
   },
   {
     id: "g5-maths-data-b-q08",
@@ -419,8 +419,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "The least frequency" }
     ],
     answerId: "d",
-    explanation: "Shortest bar means the smallest count.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Shortest bar means the smallest count. The greatest frequency is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["A shorter bar means fewer counts. What do the fewest counts tell you?"]
   },
   {
     id: "g5-maths-data-b-q09",
@@ -432,8 +432,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "18" }
     ],
     answerId: "a",
-    explanation: "Sum 18 \u00f7 3 = 6.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Sum 18 ÷ 3 = 6. 5 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Add 5, 5 and 8, then divide the total by 3."]
   },
   {
     id: "g5-maths-data-b-q10",
@@ -445,8 +445,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "There is no mode" }
     ],
     answerId: "b",
-    explanation: "9 appears twice; others appear once.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "9 appears twice; others appear once. 2 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Count how many times each number in the list appears; the mode appears most often."]
   },
   {
     id: "g5-maths-data-b-q11",
@@ -458,8 +458,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Guessing" }
     ],
     answerId: "c",
-    explanation: "Find the Tuesday row and read the temperature.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Find the Tuesday row and read the temperature. Ignoring the table is tempting, but it does not match what the question asks.",
+    hints: ["Find Tuesday in the Day column, then move across to the Temperature column."]
   },
   {
     id: "g5-maths-data-b-q12",
@@ -471,8 +471,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15" }
     ],
     answerId: "d",
-    explanation: "5 \u00d7 3 = 15 balls.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "5 × 3 = 15 balls. 8 is tempting, but it does not match what the question asks.",
+    hints: ["Each icon stands for 3 balls. Multiply the 5 icons by 3."]
   },
   {
     id: "g5-maths-data-b-q13",
@@ -484,8 +484,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "a",
-    explanation: "14 + 9 = 23.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "14 + 9 = 23. 16 is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["'Or' means add: add the Chocolate and Vanilla numbers."]
   },
   {
     id: "g5-maths-data-b-q14",
@@ -497,8 +497,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "14" }
     ],
     answerId: "b",
-    explanation: "14 \u2212 7 = 7.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "14 − 7 = 7. 5 is tempting if you multiply or divide by the wrong conversion factor.",
+    hints: ["How many fewer means subtract: take the Strawberry number from the Chocolate number."]
   },
   {
     id: "g5-maths-data-b-q15",
@@ -510,8 +510,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "16" }
     ],
     answerId: "c",
-    explanation: "3 \u00d7 4 = 12 and \u00bc icon = 1, total 13.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3 × 4 = 12 and ¼ icon = 1, total 13. 12 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Three whole icons are 3 × 4 trees. A quarter of an icon is ¼ of 4 trees."]
   },
   {
     id: "g5-maths-data-b-q16",
@@ -523,8 +523,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "35" }
     ],
     answerId: "d",
-    explanation: "35 is the smallest value.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "35 is the smallest value. 40 is tempting, but it does not match what the question asks.",
+    hints: ["Compare the visitor numbers one by one and keep the smallest; the shortest bar shows it."]
   },
   {
     id: "g5-maths-data-b-q17",
@@ -536,8 +536,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "36" }
     ],
     answerId: "a",
-    explanation: "Sum 36 \u00f7 3 = 12.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Sum 36 ÷ 3 = 12. 11 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["The average is the total shared equally. Add the three numbers, then divide by 3."]
   },
   {
     id: "g5-maths-data-b-q18",
@@ -549,8 +549,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "9" }
     ],
     answerId: "b",
-    explanation: "7 appears three times.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "7 appears three times. 6 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Make a tally of how many times each value appears. The mode is the value with the biggest tally."]
   },
   {
     id: "g5-maths-data-b-q19",
@@ -562,8 +562,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "20" }
     ],
     answerId: "c",
-    explanation: "Three bundles of 5 and one more = 16.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Three bundles of 5 and one more = 16. 15 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["In a tally, each |||| group with a slash is a bundle of 5. Count the bundles in fives, then add the single stroke."]
   },
   {
     id: "g5-maths-data-b-q20",
@@ -575,8 +575,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "18" }
     ],
     answerId: "d",
-    explanation: "9 \u00d7 2 = 18 goals.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "9 × 2 = 18 goals. 11 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Each unit stands for 2 goals. Multiply the 9 units by 2."]
   },
   {
     id: "g5-maths-data-b-q21",
@@ -588,8 +588,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "25" }
     ],
     answerId: "a",
-    explanation: "Sum 25 \u00f7 5 = 5.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Sum 25 ÷ 5 = 5. 6 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Add all the step counts, then divide the total by the number of weeks listed."]
   },
   {
     id: "g5-maths-data-b-q22",
@@ -601,8 +601,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "24" }
     ],
     answerId: "b",
-    explanation: "2 \u00d7 8 = 16 and \u00be \u00d7 8 = 6, total 22.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2 × 8 = 16 and ¾ × 8 = 6, total 22. 20 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Two whole icons are 2 × 8 fish. Three quarters of an icon is ¾ of 8 fish."]
   },
   {
     id: "g5-maths-data-b-q23",
@@ -614,8 +614,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "13" }
     ],
     answerId: "c",
-    explanation: "14 appears three times; 11 appears twice.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "14 appears three times; 11 appears twice. 13 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Count how often each score appears. The mode is the score that comes up most."]
   },
   {
     id: "g5-maths-data-b-q24",
@@ -627,8 +627,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "d",
-    explanation: "7.5 \u00d7 4 = 30 pupils.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "7.5 × 4 = 30 pupils. 32 is tempting if you read the wrong bar or forget to total before dividing.",
+    hints: ["Each unit is 4 pupils. Multiply 7.5 by 4: do 7 × 4, then add half of 4."]
   }
 ];
 
