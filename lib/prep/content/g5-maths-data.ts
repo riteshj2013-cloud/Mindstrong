@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Draw a pictograph first" }
     ],
     answerId: "c",
-    explanation: "Find Meera's row, then read the Marks cell in that row. Ignore headings is tempting if you think the Marks column alone is enough without matching Meera's name.",
+    explanation: "Find Meera's row, then read the Marks cell in that row. Add all marks is tempting if you think “Meera's marks” means a total, so you add up the whole Marks column instead of reading just Meera's row.",
     hints: ["A table has a row for each name and a column for each heading. Where do Meera's row and the Marks column meet?"]
   },
   {
@@ -460,7 +460,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Guessing" }
     ],
     answerId: "c",
-    explanation: "Find Tuesday in the Day column and read across to Temperature. Ignoring the table is tempting if you try to answer without using the Day and Temperature columns.",
+    explanation: "Find Tuesday in the Day column and read across to Temperature. Ignoring the table is tempting if you think you can just remember or guess how warm Tuesday was, but the exact temperature is written only in Tuesday's row.",
     hints: ["Find Tuesday in the Day column, then move across to the Temperature column."]
   },
   {

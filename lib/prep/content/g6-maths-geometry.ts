@@ -223,7 +223,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "∠C = 180° − 50° − 60° = 70°. 110° is tempting if you add 50° + 60° and forget to subtract from 180°.",
-    hints: ["Use triangle sum 180°."]
+    hints: ["The three angles of △ABC together make a straight angle. How much of that do ∠A and ∠B already use up?"]
   },
   {
     id: "g6-maths-geo-a-q18",
@@ -249,7 +249,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Perimeter = 2 × (8 + 5) = 2 × 13 = 26 cm. 40 cm is tempting if you multiply length × breadth (area) instead of doubling the sum of the sides.",
-    hints: ["Add length and breadth, then double."]
+    hints: ["Perimeter means walking all the way round the 8 cm by 5 cm rectangle. How many sides do you walk along, and how long is each one?"]
   },
   {
     id: "g6-maths-geo-a-q20",
@@ -262,7 +262,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Area of a square = 6 × 6 = 36 cm². 24 cm² is tempting if you find the perimeter 4 × 6 = 24 instead of the area.",
-    hints: ["Square area = side squared."]
+    hints: ["Picture the 6 cm square filled with 1 cm by 1 cm tiles. How many rows of tiles are there, and how many tiles are in each row?"]
   },
   {
     id: "g6-maths-geo-a-q21",
@@ -356,7 +356,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "A reflex angle is greater than 180° and less than 360°. obtuse is tempting if you stop at the obtuse range (between 90° and 180°) and miss that reflex goes past a straight angle.",
-    hints: ["Bigger than a straight angle."]
+    hints: ["Think of turning more than half-way round but not all the way round. Which angle name is used once an angle has opened wider than a straight line?"]
   },
   {
     id: "g6-maths-geo-b-q04",
@@ -408,7 +408,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "A regular hexagon has 6 equal sides, so perimeter = 6 × 4 = 24 cm. 16 cm is tempting if you multiply by 4 sides (as for a square) instead of 6.",
-    hints: ["Regular hexagon: six equal sides."]
+    hints: ["How many sides does a hexagon have? In a regular hexagon, are they all the same 4 cm?"]
   },
   {
     id: "g6-maths-geo-b-q08",
@@ -434,7 +434,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Radius = diameter ÷ 2 = 20 ÷ 2 = 10 cm. 40 cm is tempting if you double the diameter instead of halving it.",
-    hints: ["Half the diameter."]
+    hints: ["The radius goes from the centre to the edge, and the diameter goes right across through the centre. How many radii fit along one diameter?"]
   },
   {
     id: "g6-maths-geo-b-q10",
@@ -577,7 +577,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Complementary angles sum to 90°, so ∠Q = 90° − 35° = 55°. 145° is tempting if you subtract from 180° (supplementary) instead of from 90°.",
-    hints: ["Complementary sum to 90°."]
+    hints: ["Complementary angles together make a right angle. What must ∠Q be so that ∠P and ∠Q fill that corner exactly?"]
   },
   {
     id: "g6-maths-geo-b-q21",
@@ -589,8 +589,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "90°" }
     ],
     answerId: "a",
-    explanation: "Supplementary angles sum to 180°, so ∠Y = 180° − 110° = 70°. 20° is tempting if you subtract 110° from 90° (complementary) instead of from 180°.",
-    hints: ["Supplementary sum to 180°."]
+    explanation: "Supplementary angles sum to 180°, so ∠Y = 180° − 110° = 70°. 20° is tempting if you use 90° (complementary) instead of 180° and take the difference the other way round: 110° − 90° = 20°.",
+    hints: ["Supplementary angles together make a straight line. What must ∠Y be so that ∠X and ∠Y lie flat along that line?"]
   },
   {
     id: "g6-maths-geo-b-q22",
@@ -628,8 +628,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "circle" }
     ],
     answerId: "d",
-    explanation: "A circle has a curved boundary, so it is not a polygon. triangle is tempting if you pick any familiar straight-sided shape and ignore the curved-boundary clue.",
-    hints: ["Polygons need straight sides only."]
+    explanation: "A circle has a curved boundary, so it is not a polygon. Triangle is tempting if you read only 'closed shape' and pick the simplest closed shape you know, the 3-sided triangle, missing the words 'curved boundary'.",
+    hints: ["Run your finger round the edge of each shape in your head. Does the edge go in straight pieces with corners, or bend smoothly all the way round?"]
   }
 ];
 

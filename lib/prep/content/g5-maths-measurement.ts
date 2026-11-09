@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "kilometre" }
     ],
     answerId: "a",
-    explanation: "A classroom is a few metres long, so metre fits. millimetre is tempting if you pick a unit meant for tiny lengths (like a coin's thickness) instead of a room.",
+    explanation: "A classroom is a few metres long, so metre fits. Centimetre is tempting if you think of measuring with your school ruler, which is marked in centimetres, but a classroom would then be hundreds of centimetres long.",
     hints: ["A classroom is longer than a ruler but much shorter than a road between towns. Pick a unit to match."]
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "ml" }
     ],
     answerId: "a",
-    explanation: "Distances between cities are measured in kilometres. cm is tempting if you pick a unit meant for short classroom lengths instead of city-to-city distance.",
+    explanation: "Distances between cities are measured in kilometres. cm is tempting if you think of measuring the distance on a map with a ruler, where it is only a few centimetres, but the real distance between the cities is many kilometres.",
     hints: ["Cities are many thousands of metres apart. Which unit is made for long distances?"]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "metre" }
     ],
     answerId: "b",
-    explanation: "A spoon of syrup is a small liquid amount, so millilitre fits. kilometre is tempting if you pick a long-distance unit instead of a small volume unit.",
+    explanation: "A spoon of syrup is a small liquid amount, so millilitre fits. Kilogram is tempting if you think medicine is weighed, but a liquid dose is measured by volume, in millilitres.",
     hints: ["Cough syrup is a liquid, and a spoonful is a tiny amount. Which unit measures small volumes?"]
   },
   {

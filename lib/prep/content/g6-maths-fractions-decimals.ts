@@ -54,7 +54,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "2/5 of 40 = 2 × (40 ÷ 5) = 16. 20 is tempting if you take half of 40 instead of two-fifths.",
-    hints: ["Divide by 5, then multiply by 2."]
+    hints: ["2/5 means 2 out of every 5 equal parts. If 40 is shared into 5 equal groups, how many are in each group?"]
   },
   {
     id: "g6-maths-frac-a-q05",
@@ -369,7 +369,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "2.4 ÷ 4 = 0.6 and 0.6 × 3 = 1.8. 1.2 is tempting if you take only half of 2.4 (2 of the 4 parts) instead of 3 of the 4 parts.",
-    hints: ["Quarter of 2.4, then triple it."]
+    hints: ["3/4 of a number means 3 of its 4 equal parts. What is one of the 4 equal parts of 2.4?"]
   },
   {
     id: "g6-maths-frac-b-q05",
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3.52" }
     ],
     answerId: "d",
-    explanation: "6.00 − 2.48 = 3.52. 4.52 is tempting if you subtract the ones as 6 − 2 = 4 and write 4.52 without borrowing for the hundredths.",
+    explanation: "6.00 − 2.48 = 3.52. 4.52 is tempting if you borrow to work out .00 − .48 = .52 but forget that the borrow turns the 6 into 5, so you still write 6 − 2 = 4 in the ones place.",
     hints: ["Write 6 as 6.00, then subtract."]
   },
   {
@@ -629,7 +629,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "18 ÷ 6 = 3 and 3 × 5 = 15. 12 is tempting if you take 4/6 of 18 (two-thirds) instead of 5/6.",
-    hints: ["One-sixth of 18, then five of those."]
+    hints: ["5/6 of 18 means 5 of its 6 equal parts. How big is one of those 6 parts?"]
   }
 ];
 
