@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "12 + 5 = 17: start at 12 and count on 5. 16 is tempting if you stop one count too soon.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Count on five from 12."]
   },
   {
     id: "g2-maths-addsub-a-q02",
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "20 − 4 = 16: start at 20 and count back 4. 24 is tempting, but that adds 4 instead of taking it away.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Count back 4 from 20, one step at a time."]
   },
   {
     id: "g2-maths-addsub-a-q03",
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "15 + 10 = 25: adding 1 ten turns 1 ten into 2 tens, and the 5 ones stay. 5 is tempting, but that takes away instead of adding.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Adding 10 adds 1 ten. 15 has 1 ten; how many tens after adding?"]
   },
   {
     id: "g2-maths-addsub-a-q04",
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "18 − 8 = 10: start at 18 and count back 8. 26 is tempting, but that adds 8 instead of taking it away.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Taking 8 away from 18 removes all the ones. What is left in the tens?"]
   },
   {
     id: "g2-maths-addsub-a-q05",
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "9 + 6 = 15: start at 9 and count on 6. 14 is tempting if you stop one count too soon.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Count on from 9."]
   },
   {
     id: "g2-maths-addsub-a-q06",
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "14 − 5 = 9: start at 14 and count back 5. 19 is tempting, but that adds 5 instead of taking it away.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Take 4 from 14 to reach 10, then take 1 more."]
   },
   {
     id: "g2-maths-addsub-a-q07",
@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Riya gives some pencils away, so take away: 20 − 3 = 17. 23 is tempting, but that adds 3 instead of taking them away.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Riya starts with 20 pencils. Count back 3: 19, 18, and one more."]
   },
   {
     id: "g2-maths-addsub-a-q08",
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "7 + 8 = 15: start at 8 and count on 7. 14 is tempting if you stop one count too soon.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Use doubles: 7 + 7 = 14, so 7 + 8 is one more."]
   },
   {
     id: "g2-maths-addsub-a-q09",
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "30 − 10 = 20: 3 tens take away 1 ten leaves 2 tens. 40 is tempting, but that adds 10 instead of taking it away.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["30 is 3 tens. Take away 1 ten. How many tens are left?"]
   },
   {
     id: "g2-maths-addsub-a-q10",
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "11 + 11 = 22: 1 ten + 1 ten = 2 tens, and 1 one + 1 one = 2 ones. 12 is tempting, but that adds only 1 to 11 instead of all of 11.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Add the tens of 11 and 11, then add the ones."]
   },
   {
     id: "g2-maths-addsub-a-q11",
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Buying both means adding: ₹8 + ₹5 = ₹13. ₹3 is tempting, but that is the difference in price, not the total.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Add the pencil's ₹8 and the eraser's ₹5. Make 10 first with 8 + 2, then add 3 more."]
   },
   {
     id: "g2-maths-addsub-a-q12",
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "25 − 5 = 20: start at 25 and count back 5. 30 is tempting, but that adds 5 instead of taking it away.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Taking 5 from 25 removes the 5 ones. How many tens are left?"]
   },
   {
     id: "g2-maths-addsub-a-q13",
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "16 + 4 = 20: start at 16 and count on 4. 12 is tempting, but that takes away instead of adding.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["6 ones and 4 ones make a full ten. Add it to the 1 ten in 16."]
   },
   {
     id: "g2-maths-addsub-a-q14",
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "19 − 9 = 10: start at 19 and count back 9. 28 is tempting, but that adds 9 instead of taking it away.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Taking 9 from 19 removes all the ones. What number is left?"]
   },
   {
     id: "g2-maths-addsub-a-q15",
@@ -196,7 +196,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "13 + 6 = 19: start at 13 and count on 6. 18 is tempting if you stop one count too soon.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Count on from 13."]
   },
   {
     id: "g2-maths-addsub-a-q16",
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Count back 3 from 10: 9, 8, 7, so 10 − 3 = 7. 10 − 3 = 13 is tempting, but that adds 3 instead of taking it away.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Work out 10 − 3 by counting back from 10.", "Start at 10 and say three numbers going down. Where do you stop?"]
   }
 ];
 
@@ -225,7 +225,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "14 + 5 = 19: start at 14 and count on 5. 18 is tempting if you stop one count too soon.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Add the ones: 4 + 5. Keep the 1 ten of 14."]
   },
   {
     id: "g2-maths-addsub-b-q02",
@@ -238,7 +238,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "22 − 2 = 20: start at 22 and count back 2. 24 is tempting, but that adds 2 instead of taking it away.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Taking 2 from 22 removes the 2 ones. How many tens are left?"]
   },
   {
     id: "g2-maths-addsub-b-q03",
@@ -251,7 +251,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "8 + 9 = 17: start at 9 and count on 8. 16 is tempting if you stop one count too soon.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Make 10 from 8 + 2, then +7."]
   },
   {
     id: "g2-maths-addsub-b-q04",
@@ -264,7 +264,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "17 − 7 = 10: start at 17 and count back 7. 24 is tempting, but that adds 7 instead of taking it away.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["17 has 7 ones. Taking 7 away removes them all; what is left?"]
   },
   {
     id: "g2-maths-addsub-b-q05",
@@ -277,7 +277,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "21 + 4 = 25: start at 21 and count on 4. 24 is tempting if you stop one count too soon.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Add the ones: 1 + 4. Keep the 2 tens of 21."]
   },
   {
     id: "g2-maths-addsub-b-q06",
@@ -290,7 +290,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "15 − 6 = 9: start at 15 and count back 6. 21 is tempting, but that adds 6 instead of taking it away.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Take 5 from 15 to reach 10, then take 1 more."]
   },
   {
     id: "g2-maths-addsub-b-q07",
@@ -303,7 +303,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Kabir spends money, so take away: ₹30 − ₹10 = ₹20. ₹40 is tempting, but that adds the ₹10 instead of taking it away.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Subtract spend."]
   },
   {
     id: "g2-maths-addsub-b-q08",
@@ -316,7 +316,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "6 + 7 = 13: start at 7 and count on 6. 12 is tempting if you stop one count too soon.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Count on from 6."]
   },
   {
     id: "g2-maths-addsub-b-q09",
@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "40 − 20 = 20: 4 tens take away 2 tens leaves 2 tens. 60 is tempting, but that adds 20 instead of taking it away.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["40 is 4 tens. Take away 2 tens. How many tens are left?"]
   },
   {
     id: "g2-maths-addsub-b-q10",
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "12 + 12 = 24: 1 ten + 1 ten = 2 tens, and 2 ones + 2 ones = 4 ones. 22 is tempting, but that adds only the ten of the second 12 and forgets its 2 ones.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Add the tens of 12 and 12, then add the ones."]
   },
   {
     id: "g2-maths-addsub-b-q11",
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Buying both means adding: ₹15 + ₹10 = ₹25. ₹5 is tempting, but that is the difference in price, not the total.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Adding the ball's ₹10 adds 1 ten to the toy's ₹15."]
   },
   {
     id: "g2-maths-addsub-b-q12",
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "28 − 8 = 20: start at 28 and count back 8. 36 is tempting, but that adds 8 instead of taking it away.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Taking 8 from 28 removes the 8 ones. How many tens are left?"]
   },
   {
     id: "g2-maths-addsub-b-q13",
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "9 + 9 = 18: start at 9 and count on 9. 17 is tempting if you stop one count too soon.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["9 + 10 is 19. So 9 + 9 is one less than that."]
   },
   {
     id: "g2-maths-addsub-b-q14",
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "16 − 6 = 10: start at 16 and count back 6. 22 is tempting, but that adds 6 instead of taking it away.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["16 has 6 ones. Taking all 6 away leaves only the tens; what number is that?"]
   },
   {
     id: "g2-maths-addsub-b-q15",
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "23 + 5 = 28: start at 23 and count on 5. 18 is tempting, but that takes away instead of adding.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Add the ones: 3 + 5. Keep the 2 tens of 23."]
   },
   {
     id: "g2-maths-addsub-b-q16",
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Count on 3 from 12: 13, 14, 15, so 12 + 3 = 15. 12 + 3 = 14 is tempting if you stop one count too soon.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Work out the addition 12 + 3 by counting on from 12.", "Say 12, then three more numbers. Which fact ends with the number you stopped on?"]
   }
 ];
 

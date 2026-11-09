@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "1 hour has 60 minutes; the minute hand goes all the way round once. 100 is tempting because we count many things in hundreds, but time uses 60.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["The minute hand goes all the way round once in 1 hour. Count the minutes by 5s around the clock."]
   },
   {
     id: "g2-maths-timemoney-a-q02",
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "At 3:00 the hour hand is on 3.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Hour hand shorter."]
   },
   {
     id: "g2-maths-timemoney-a-q03",
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "₹10 and ₹5 more make 10 + 5 = ₹15. ₹5 is tempting, but that takes away instead of adding.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Start at ₹10 and count on 5 more rupees."]
   },
   {
     id: "g2-maths-timemoney-a-q04",
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "A week has 7 days, from Monday to Sunday. 5 is tempting if you count only Monday to Friday, but Saturday and Sunday make 7.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Say the days of the week from Monday to Sunday, counting on your fingers."]
   },
   {
     id: "g2-maths-timemoney-a-q05",
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Night ends, the sun rises, and then it is morning, so morning comes after night. 'Before' is tempting because morning comes before night on the same day, but here night ends first and then morning begins.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["You go to bed at night and wake up in the morning. Which comes first?"]
   },
   {
     id: "g2-maths-timemoney-a-q06",
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "A ₹1 coin and a ₹2 coin make 1 + 2 = ₹3. ₹2 is tempting, but that counts only the bigger coin.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Add coins."]
   },
   {
     id: "g2-maths-timemoney-a-q07",
@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Half past 2 is 30 minutes after 2 o'clock, written 2:30. 3:00 is tempting, but that is a full hour after 2.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Half past 2: the minute hand is halfway round. Half of 60 minutes is how many?"]
   },
   {
     id: "g2-maths-timemoney-a-q08",
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "₹20 is 2 tens and ₹12 is 1 ten and 2 ones, so ₹20 is more. ₹12 is tempting because 2 is in both, but it has fewer tens.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Look at the tens digit of each amount. More tens means more money."]
   },
   {
     id: "g2-maths-timemoney-a-q09",
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A whole day and night has 24 hours: the hour hand goes round the clock twice. 12 is tempting, but that is only one trip round the clock.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Day and night."]
   },
   {
     id: "g2-maths-timemoney-a-q10",
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "You give ₹20 for a ₹10 notebook, so the change is 20 − 10 = ₹10. ₹20 is tempting, but that is the money you gave, not what comes back.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Change is what you gave minus what the notebook costs. Take the cost away from the note."]
   },
   {
     id: "g2-maths-timemoney-a-q11",
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "The short hand points to the hour, so it is the hour hand. 'Minute hand' is tempting, but the minute hand is the long one.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["A clock has a short hand and a long hand. The long one counts minutes. What does the short one count?"]
   },
   {
     id: "g2-maths-timemoney-a-q12",
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "₹5 × 2 means two lots of ₹5: 5 + 5 = ₹10. ₹7 is tempting, but that adds 5 + 2 instead of taking two fives.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["5 + 5."]
   },
   {
     id: "g2-maths-timemoney-a-q13",
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Most schools start in the morning, after breakfast. Evening is tempting, but by evening school is over for the day; night and midnight are when we sleep.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Think about when you wake up, eat breakfast and pack your school bag. What time of day is that?"]
   },
   {
     id: "g2-maths-timemoney-a-q14",
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "₹5 is worth more than ₹1: one ₹5 coin buys as much as five ₹1 coins. 'Same' is tempting because coins can look alike, but their values differ.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Which coin buys more toffees? Compare the numbers on the two coins."]
   },
   {
     id: "g2-maths-timemoney-a-q15",
@@ -196,7 +196,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Quarter past = 15 minutes past \u2192 4:15.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Quarter past 4: the minute hand goes a quarter of the way round. Split 60 minutes into 4 equal parts."]
   },
   {
     id: "g2-maths-timemoney-a-q16",
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "You give ₹10 for a ₹7 pencil, so the change is 10 − 7 = ₹3. ₹7 is tempting, but that is the price of the pencil, not the change.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Count up from the pencil's ₹7 to the ₹10 note. How many rupees did you count?"]
   }
 ];
 
@@ -225,7 +225,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "1 minute has 60 seconds, just as 1 hour has 60 minutes. 100 is tempting because we count many things in hundreds, but time uses 60.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Same as minutes in an hour."]
   },
   {
     id: "g2-maths-timemoney-b-q02",
@@ -238,7 +238,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "At 6:00 the short hour hand points to 6. 12 is tempting, but at 6:00 it is the long minute hand that points to 12.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Bottom of clock."]
   },
   {
     id: "g2-maths-timemoney-b-q03",
@@ -251,7 +251,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "₹20 take away ₹5 is 20 − 5 = ₹15. ₹25 is tempting, but that adds ₹5 instead of taking it away.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Count back 5 from ₹20, one rupee at a time."]
   },
   {
     id: "g2-maths-timemoney-b-q04",
@@ -264,7 +264,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Sunday is one of the 7 days of the week. Hour is tempting because it is also a unit of time, but an hour is much shorter than a day.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Seven days."]
   },
   {
     id: "g2-maths-timemoney-b-q05",
@@ -277,7 +277,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The day goes morning, afternoon, then evening, so evening comes after afternoon. 'Before' is tempting, but afternoon comes first.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Lunch is in the afternoon, then the sky gets darker in the evening. Which comes first?"]
   },
   {
     id: "g2-maths-timemoney-b-q06",
@@ -290,7 +290,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Three ₹2 coins make 2 + 2 + 2 = ₹6. ₹4 is tempting, but that counts only two of the three coins.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Three twos."]
   },
   {
     id: "g2-maths-timemoney-b-q07",
@@ -303,7 +303,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Half past 5 is 30 minutes after 5 o'clock, written 5:30. 6:00 is tempting, but that is a full hour after 5.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Half past 5: the minute hand points straight down. Each clock number is 5 minutes."]
   },
   {
     id: "g2-maths-timemoney-b-q08",
@@ -316,7 +316,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "₹9 has no tens and ₹19 has 1 ten, so ₹9 is less. ₹19 is tempting because it ends in 9 too, but it is the bigger amount.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["₹19 is ₹10 more than the other amount. So which is less?"]
   },
   {
     id: "g2-maths-timemoney-b-q09",
@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Lunch is often around noon, 12 o'clock in the daytime (also called midday). 7 p.m. is tempting because it is a mealtime too, but that is nearer dinner; 7 a.m. is breakfast time, and midnight is in the night.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Lunch is when the clock shows 12 in the daytime. What is that time called?"]
   },
   {
     id: "g2-maths-timemoney-b-q10",
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "You have ₹30 and the toy costs ₹25; 30 is more than 25, so yes, with ₹5 left over. 'No' is tempting if you compare only the ones digits, 0 and 5.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Compare the toy's ₹25 with your ₹30. Do you have at least as much as it costs?"]
   },
   {
     id: "g2-maths-timemoney-b-q11",
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "The long hand points to the minutes, so it is the minute hand. 'Hour hand' is tempting, but the hour hand is the short one.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["The short hand shows the hour. What does the long hand show as it moves round faster?"]
   },
   {
     id: "g2-maths-timemoney-b-q12",
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "₹10 + ₹10 is 1 ten + 1 ten = 2 tens = ₹20. ₹100 is tempting, but that is 10 tens, not 2 tens.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["₹10 + ₹10 is double ₹10. Count on 10 from 10."]
   },
   {
     id: "g2-maths-timemoney-b-q13",
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The day goes afternoon, evening and then night, so night comes after evening. Morning is tempting because it is also a time of day, but morning comes after night, not before it. Sunrise and noon come early in the day.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Think of your day in order: morning, afternoon, then what comes just before night?"]
   },
   {
     id: "g2-maths-timemoney-b-q14",
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "A ₹5 note is worth the same as five ₹1 coins: 1 + 1 + 1 + 1 + 1 = 5. 1 is tempting, but one ₹1 coin is only ₹1.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["How many ₹1 coins would you need to pay the same as the note? Count one rupee at a time."]
   },
   {
     id: "g2-maths-timemoney-b-q15",
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Quarter to 3 = 15 minutes before 3 \u2192 2:45.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Quarter to 3 means 15 minutes before 3:00. Go back 15 minutes from 3:00."]
   },
   {
     id: "g2-maths-timemoney-b-q16",
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "You pay ₹50 for books costing ₹40, so the change is 50 − 40 = ₹10. ₹40 is tempting, but that is the price of the books, not the change.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Change is what you pay minus the cost of the books: ₹50 − ₹40."]
   }
 ];
 

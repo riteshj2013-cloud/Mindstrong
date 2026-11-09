@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "4 is in the tens place \u2192 4 tens.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Tens on the left in two-digit numbers."]
   },
   {
     id: "g2-maths-place-a-q02",
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "7 is in the ones place \u2192 7 ones.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["In 47, the first digit counts tens and the last digit counts ones. Where is the 7?"]
   },
   {
     id: "g2-maths-place-a-q03",
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "30 is 3 tens and 0 ones, so it has 3 tens. 30 is tempting, but that is the whole number, not how many tens.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Tens are bundles of 10. How many bundles make 30?", "Count in tens up to 30 and keep a finger up for each ten."]
   },
   {
     id: "g2-maths-place-a-q04",
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "10 ones bundled together make 1 ten. '10 tens' is tempting, but 10 tens make 100.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Trade ten ones."]
   },
   {
     id: "g2-maths-place-a-q05",
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "2 tens is 20 and 5 ones is 5, so the number is 25. 52 is tempting, but that puts the 5 in the tens place.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Write the tens digit first, then the ones digit: 2 tens and 5 ones."]
   },
   {
     id: "g2-maths-place-a-q06",
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "38 has 3 tens and 8 ones, so 38 = 30 + 8. 3 + 8 is tempting, but the 3 stands for 3 tens, which is 30, not 3.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["To expand 38, split it into its tens part and its ones part. How much are 3 tens worth?"]
   },
   {
     id: "g2-maths-place-a-q07",
@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "92 has more tens, so it is greater.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Look at the tens digit of each number. The number with more tens is greater."]
   },
   {
     id: "g2-maths-place-a-q08",
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "In 61, 6 is in the tens place.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["In 61, the 1 is on the right in the ones place. Which place is the 6 in?"]
   },
   {
     id: "g2-maths-place-a-q09",
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "In 45, the 4 is in the tens place and the 5 is in the ones place: 4 tens and 5 ones. 5 and 4 is tempting, but that swaps the places and makes 54.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["In 45, the left digit tells the tens and the right digit tells the ones.", "Count in tens up to 40, then count the extra ones to reach 45."]
   },
   {
     id: "g2-maths-place-a-q10",
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "10 is the first number with two digits, so it is the smallest two-digit number. 9 is tempting because it is smaller, but 9 has only one digit.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["A two-digit number needs a tens digit that is not zero. Count up past 9."]
   },
   {
     id: "g2-maths-place-a-q11",
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "99 has the biggest digit, 9, in both places, so it is the biggest two-digit number. 100 is tempting because it comes next, but 100 has three digits.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["The biggest two-digit number uses the biggest digit in both places. What is the biggest digit?"]
   },
   {
     id: "g2-maths-place-a-q12",
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "20 + 7 = 27: start at 20 and count on 7. 207 is tempting, but that just writes the numbers side by side; it is not adding.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["20 is 2 tens and 7 is 7 ones. Write 2 tens and 7 ones as one number."]
   },
   {
     id: "g2-maths-place-a-q13",
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "3 packs of 10 is 3 tens = 30, and 4 loose stickers make 34. 43 is tempting, but that swaps the tens and the ones.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Packs are tens."]
   },
   {
     id: "g2-maths-place-a-q14",
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "5 tens is 10 + 10 + 10 + 10 + 10 = 50. 5 is tempting, but that is 5 ones, not 5 tens.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["5 × 10."]
   },
   {
     id: "g2-maths-place-a-q15",
@@ -196,7 +196,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "80 is 8 tens and 0 ones, so it has 0 ones. 8 is tempting, but 8 is the number of tens.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["The ones digit is the right-hand digit of 80.", "80 is made of 8 tens. Are any extra ones left over after the tens?"]
   },
   {
     id: "g2-maths-place-a-q16",
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "In order from small to big: 15, 25, 51, so 25 is in the middle. 51 is tempting because it is in the middle of the question, but it is the biggest.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Compare tens digits: 15 has 1 ten and 51 has 5 tens. Where does the other number fit?"]
   }
 ];
 
@@ -225,7 +225,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "6 is in tens \u2192 6 tens (60).",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["In 63, the 6 is on the left, in the tens place. What is it worth?"]
   },
   {
     id: "g2-maths-place-b-q02",
@@ -238,7 +238,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "In 63, the 3 is in the ones place, so it stands for 3 ones. '3 tens' is tempting, but the tens digit of 63 is 6.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["In 63, the 3 is the last digit, on the right. Which place is the right-hand digit?"]
   },
   {
     id: "g2-maths-place-b-q03",
@@ -251,7 +251,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "70 is 7 tens and 0 ones, so it has 7 tens. 70 is tempting, but that is the whole number, not how many tens.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Count in tens up to 70 and keep a finger up for each ten."]
   },
   {
     id: "g2-maths-place-b-q04",
@@ -264,7 +264,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "4 tens is 40, and 0 ones adds nothing, so the number is 40. 4 is tempting, but that is 4 ones, not 4 tens.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Write 4 then 0."]
   },
   {
     id: "g2-maths-place-b-q05",
@@ -277,7 +277,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "56 has 5 tens and 6 ones, so 56 = 50 + 6. 5 + 6 is tempting, but the 5 stands for 5 tens, which is 50, not 5.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["To expand 56, split it into its tens part and its ones part. How much are 5 tens worth?"]
   },
   {
     id: "g2-maths-place-b-q06",
@@ -290,7 +290,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "48 has 4 tens and 84 has 8 tens, so 48 is smaller. 84 is tempting because it has the same digits, but its tens digit is bigger.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Look at the tens digit of each number. The number with fewer tens is smaller."]
   },
   {
     id: "g2-maths-place-b-q07",
@@ -303,7 +303,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "In 19, the 1 is in the tens place and the 9 is in the ones place. Tens is tempting because 9 is the bigger digit, but its place is ones.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["In 19, the 1 is in the tens place. Which place is the digit on the right in?"]
   },
   {
     id: "g2-maths-place-b-q08",
@@ -316,7 +316,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "9 tens is 90, and 2 more ones make 92. 29 is tempting, but that swaps the tens and the ones.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["9 tens is 90. Add 2 ones to 90."]
   },
   {
     id: "g2-maths-place-b-q09",
@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "10 tens make 100, just as 10 ones make 1 ten. 1 is tempting, but that is how many hundreds are in 100, not tens.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Count in tens all the way up to 100.", "Count by tens to 100 and keep one finger up for each number you say."]
   },
   {
     id: "g2-maths-place-b-q10",
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "2 notes of ₹10 make ₹20, and 3 coins of ₹1 make ₹3, so the total is ₹23. ₹32 is tempting, but that swaps the tens and the ones.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Notes are tens."]
   },
   {
     id: "g2-maths-place-b-q11",
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "1 ten is a bundle of 10 ones. 100 ones is tempting, but 100 ones make 10 tens.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["1 ten is a bundle of sticks. How many single sticks make one bundle?"]
   },
   {
     id: "g2-maths-place-b-q12",
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "35 is 3 tens and 5 ones, so 35 = 30 + 5. 3 is tempting, but the 3 is already used in the 30.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["35 has 3 tens and some ones. 30 is the tens part; what is the ones digit of 35?"]
   },
   {
     id: "g2-maths-place-b-q13",
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "To make the greatest number, put the bigger digit, 8, in the tens place: 82. 28 is tempting, but that puts the smaller digit in the tens place and gives the least number.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["For the greatest number, put the bigger of 2 and 8 in the tens place."]
   },
   {
     id: "g2-maths-place-b-q14",
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "To make the least number, put the smaller digit, 2, in the tens place: 28. 82 is tempting, but that is the greatest number you can make.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["For the least number, put the smaller of 2 and 8 in the tens place."]
   },
   {
     id: "g2-maths-place-b-q15",
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "44 is 4 tens and 4 ones, so it has 4 ones. 40 is tempting, but 40 is the value of the 4 tens.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["The ones digit is the right-hand digit of 44.", "Take the tens out of 44. How many single ones are left?"]
   },
   {
     id: "g2-maths-place-b-q16",
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "2 tens is 20, and 15 + 20 = 35. 17 is tempting, but that adds 2 ones instead of 2 tens.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    hints: ["Add two tens."]
   }
 ];
 
