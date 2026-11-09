@@ -13,8 +13,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "75%" }
     ],
     answerId: "d",
-    explanation: "3/4 \u00d7 100% = 75%, while 34% just joins the digits together.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3/4 × 100% = 75%, while 34% just joins the digits together. 43% is tempting if you compare the wrong quantities or forget to simplify.",
+    hints: ["Multiply 3/4 by 100%, or first change 3/4 to a fraction out of 100."]
   },
   {
     id: "g8-maths-compare-a-q02",
@@ -26,8 +26,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.08%" }
     ],
     answerId: "b",
-    explanation: "Multiplying by 100 gives 0.08 \u00d7 100 = 8%.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Multiplying by 100 gives 0.08 × 100 = 8%. 0.8% is tempting if you compare the wrong quantities or forget to simplify.",
+    hints: ["Multiply 0.08 by 100: move the decimal point two places to the right."]
   },
   {
     id: "g8-maths-compare-a-q03",
@@ -39,8 +39,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5 : 1" }
     ],
     answerId: "a",
-    explanation: "2 m is 200 cm, so 40 : 200 = 1 : 5, while 20 : 1 forgets to convert the units.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2 m is 200 cm, so 40 : 200 = 1 : 5, while 20 : 1 forgets to convert the units. 1 : 20 is tempting if you compare the wrong quantities or forget to simplify.",
+    hints: ["Change 2 m to centimetres first, then divide both parts of the ratio by their HCF."]
   },
   {
     id: "g8-maths-compare-a-q04",
@@ -52,8 +52,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b960" }
     ],
     answerId: "c",
-    explanation: "15/100 \u00d7 600 = \u20b990.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "15/100 × 600 = ₹90. ₹900 is tempting, but it does not match what the question asks.",
+    hints: ["Find 1% of ₹600 by dividing by 100, then multiply by 15."]
   },
   {
     id: "g8-maths-compare-a-q05",
@@ -65,8 +65,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Loss of \u20b920" }
     ],
     answerId: "a",
-    explanation: "SP is more than CP, so there is a profit of \u20b9300 \u2212 \u20b9250 = \u20b950.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "SP is more than CP, so there is a profit of ₹300 − ₹250 = ₹50. Loss of ₹50 is tempting, but it does not match what the question asks.",
+    hints: ["Compare the selling price ₹300 with the cost price ₹250. Which is bigger, and by how much?"]
   },
   {
     id: "g8-maths-compare-a-q06",
@@ -78,8 +78,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b9680" }
     ],
     answerId: "d",
-    explanation: "SP = MP \u2212 discount = \u20b9800 \u2212 \u20b9120 = \u20b9680.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "SP = MP − discount = ₹800 − ₹120 = ₹680. ₹800 is tempting, but it does not match what the question asks.",
+    hints: ["Selling price = marked price − discount. Subtract ₹120 from ₹800."]
   },
   {
     id: "g8-maths-compare-a-q07",
@@ -91,8 +91,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b930" }
     ],
     answerId: "b",
-    explanation: "I = (2000 \u00d7 5 \u00d7 3)/100 = \u20b9300, while \u20b92,300 is the amount, not the interest.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "I = (2000 × 5 × 3)/100 = ₹300, while ₹2,300 is the amount, not the interest. ₹100 is tempting, but it does not match what the question asks.",
+    hints: ["Use SI = P × R × T ÷ 100 with P = ₹2,000, R = 5 and T = 3."]
   },
   {
     id: "g8-maths-compare-a-q08",
@@ -104,8 +104,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "80%" }
     ],
     answerId: "c",
-    explanation: "18/24 = 3/4, which is 75%, while 25% is the percentage who failed.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "18/24 = 3/4, which is 75%, while 25% is the percentage who failed. 80% is tempting if you compare the wrong quantities or forget to simplify.",
+    hints: ["Write 18 out of 24 as a fraction, simplify it, then multiply by 100%."]
   },
   {
     id: "g8-maths-compare-a-q09",
@@ -117,8 +117,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "60%" }
     ],
     answerId: "a",
-    explanation: "The increase of \u20b910 on the original \u20b950 is 20%, while 16 2/3% wrongly divides by the new price.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The increase of ₹10 on the original ₹50 is 20%, while 16 2/3% wrongly divides by the new price. 16 2/3% is tempting if you compare the wrong quantities or forget to simplify.",
+    hints: ["Find the rise in rupees, then divide it by the original price ₹50 and multiply by 100."]
   },
   {
     id: "g8-maths-compare-a-q10",
@@ -130,8 +130,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b920" }
     ],
     answerId: "b",
-    explanation: "5% of \u20b9400 is \u20b920, so the bill is \u20b9400 + \u20b920 = \u20b9420.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "5% of ₹400 is ₹20, so the bill is ₹400 + ₹20 = ₹420. ₹405 is tempting, but it does not match what the question asks.",
+    hints: ["Find 5% of ₹400, then add it to ₹400 for the total bill."]
   },
   {
     id: "g8-maths-compare-a-q11",
@@ -143,8 +143,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "250%" }
     ],
     answerId: "c",
-    explanation: "The loss is \u20b9250, and 250/1250 \u00d7 100 = 20%, while 25% wrongly divides by SP.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The loss is ₹250, and 250/1250 × 100 = 20%, while 25% wrongly divides by SP. 25% is tempting if you compare the wrong quantities or forget to simplify.",
+    hints: ["Find the loss in rupees, then divide it by the cost price ₹1,250 and multiply by 100."]
   },
   {
     id: "g8-maths-compare-a-q12",
@@ -156,8 +156,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b91,360" }
     ],
     answerId: "d",
-    explanation: "15% of \u20b91,600 is \u20b9240, so SP = \u20b91,600 \u2212 \u20b9240 = \u20b91,360, while \u20b9240 is only the discount.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "15% of ₹1,600 is ₹240, so SP = ₹1,600 − ₹240 = ₹1,360, while ₹240 is only the discount. ₹1,585 is tempting, but it does not match what the question asks.",
+    hints: ["Find 15% of ₹1,600, then subtract that discount from the marked price."]
   },
   {
     id: "g8-maths-compare-a-q13",
@@ -169,8 +169,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b921,600" }
     ],
     answerId: "b",
-    explanation: "The new salary is 1.2 times the old one, so the old salary is 18,000 \u00f7 1.2 = \u20b915,000, while \u20b914,400 wrongly takes 20% off the new salary.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The new salary is 1.2 times the old one, so the old salary is 18,000 ÷ 1.2 = ₹15,000, while ₹14,400 wrongly takes 20% off the new salary. ₹14,000 is tempting, but it does not match what the question asks.",
+    hints: ["After a 20% raise the new salary is 120% of the old one. Divide ₹18,000 by 1.2."]
   },
   {
     id: "g8-maths-compare-a-q14",
@@ -182,8 +182,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b99,720" }
     ],
     answerId: "a",
-    explanation: "P = (540 \u00d7 100)/(6 \u00d7 3) = 54,000/18 = \u20b93,000.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "P = (540 × 100)/(6 × 3) = 54,000/18 = ₹3,000. ₹1,800 is tempting, but it does not match what the question asks.",
+    hints: ["Use P = (SI × 100) ÷ (R × T) with SI = ₹540, R = 6 and T = 3."]
   },
   {
     id: "g8-maths-compare-a-q15",
@@ -195,8 +195,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b9600" }
     ],
     answerId: "d",
-    explanation: "25% of \u20b9480 is \u20b9120, so SP = \u20b9480 + \u20b9120 = \u20b9600, while \u20b9384 is a 20% loss.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "25% of ₹480 is ₹120, so SP = ₹480 + ₹120 = ₹600, while ₹384 is a 20% loss. ₹505 is tempting, but it does not match what the question asks.",
+    hints: ["Find 25% of ₹480 (a quarter of it), then add it to the cost price."]
   },
   {
     id: "g8-maths-compare-a-q16",
@@ -208,8 +208,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "60" }
     ],
     answerId: "c",
-    explanation: "There are 5 + 3 = 8 parts, so each part is 96 \u00f7 8 = 12, and the girls are 3 \u00d7 12 = 36.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "There are 5 + 3 = 8 parts, so each part is 96 ÷ 8 = 12, and the girls are 3 × 12 = 36. 32 is tempting if you compare the wrong quantities or forget to simplify.",
+    hints: ["The ratio 5 : 3 has 5 + 3 equal parts. Find one part of 96, then take the girls' share."]
   },
   {
     id: "g8-maths-compare-a-q17",
@@ -221,8 +221,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "27,000" }
     ],
     answerId: "a",
-    explanation: "8% of 25,000 is 2,000, so the new population is 25,000 \u2212 2,000 = 23,000.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "8% of 25,000 is 2,000, so the new population is 25,000 − 2,000 = 23,000. 24,800 is tempting, but it does not match what the question asks.",
+    hints: ["Find 8% of 25,000, then subtract it from the population."]
   },
   {
     id: "g8-maths-compare-a-q18",
@@ -234,8 +234,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "24%" }
     ],
     answerId: "b",
-    explanation: "The interest is \u20b91,200, so R = (1200 \u00d7 100)/(5000 \u00d7 3) = 8%, while 24% forgets to divide by the 3 years.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The interest is ₹1,200, so R = (1200 × 100)/(5000 × 3) = 8%, while 24% forgets to divide by the 3 years. 12% is tempting, but it does not match what the question asks.",
+    hints: ["First find the interest: ₹6,200 − ₹5,000. Then use R = SI × 100 ÷ (P × T)."]
   },
   {
     id: "g8-maths-compare-a-q19",
@@ -247,8 +247,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b912,100" }
     ],
     answerId: "c",
-    explanation: "The amount is 10,000 \u00d7 1.1 \u00d7 1.1 = \u20b912,100, so the CI is \u20b92,100, while \u20b92,000 is the simple interest.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The amount is 10,000 × 1.1 × 1.1 = ₹12,100, so the CI is ₹2,100, while ₹2,000 is the simple interest. ₹1,100 is tempting, but it does not match what the question asks.",
+    hints: ["Grow ₹10,000 by 10% for one year, then grow that new amount by 10% again. Subtract ₹10,000."]
   },
   {
     id: "g8-maths-compare-a-q20",
@@ -260,8 +260,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2% decrease" }
     ],
     answerId: "a",
-    explanation: "1.2 \u00d7 0.8 = 0.96, so the final price is 4% less than the original, because the second 20% is taken on a bigger amount.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1.2 × 0.8 = 0.96, so the final price is 4% less than the original, because the second 20% is taken on a bigger amount. 4% increase is tempting, but it does not match what the question asks.",
+    hints: ["Start with a price of ₹100. Increase it by 20%, then decrease the new price by 20%."]
   },
   {
     id: "g8-maths-compare-a-q21",
@@ -273,8 +273,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5% profit" }
     ],
     answerId: "d",
-    explanation: "For CP = \u20b9100, MP = \u20b9140 and SP = 140 \u00d7 0.75 = \u20b9105, so the profit is 5%, not 40% \u2212 25% = 15%.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "For CP = ₹100, MP = ₹140 and SP = 140 × 0.75 = ₹105, so the profit is 5%, not 40% − 25% = 15%. 5% loss is tempting if you compare the wrong quantities or forget to simplify.",
+    hints: ["Take the cost price as ₹100. Mark it up by 40%, then take 25% off the marked price."]
   },
   {
     id: "g8-maths-compare-a-q22",
@@ -286,8 +286,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b92,508.80" }
     ],
     answerId: "b",
-    explanation: "The price including GST is 1.12 times the original, so the original is 2,240 \u00f7 1.12 = \u20b92,000, while \u20b91,971.20 wrongly takes 12% off \u20b92,240.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The price including GST is 1.12 times the original, so the original is 2,240 ÷ 1.12 = ₹2,000, while ₹1,971.20 wrongly takes 12% off ₹2,240. ₹1,880 is tempting, but it does not match what the question asks.",
+    hints: ["The bill is 112% of the price before GST. Divide ₹2,240 by 1.12."]
   },
   {
     id: "g8-maths-compare-a-q23",
@@ -299,8 +299,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b9820" }
     ],
     answerId: "c",
-    explanation: "SI = \u20b9800 and CI = 8,000 \u00d7 1.05\u00b2 \u2212 8,000 = \u20b9820, so the difference is \u20b920.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "SI = ₹800 and CI = 8,000 × 1.05² − 8,000 = ₹820, so the difference is ₹20. ₹0 is tempting, but it does not match what the question asks.",
+    hints: ["Find the simple interest for 2 years, then the compound interest by growing ₹8,000 by 5% twice. Subtract."]
   },
   {
     id: "g8-maths-compare-a-q24",
@@ -312,8 +312,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "35% profit" }
     ],
     answerId: "a",
-    explanation: "The SPs are \u20b94,800 and \u20b93,400, which total \u20b98,200 against a CP of \u20b98,000, so the profit is \u20b9200 = 2.5%.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The SPs are ₹4,800 and ₹3,400, which total ₹8,200 against a CP of ₹8,000, so the profit is ₹200 = 2.5%. 2.5% loss is tempting if you compare the wrong quantities or forget to simplify.",
+    hints: ["Find each selling price: ₹4,000 plus 20%, and ₹4,000 minus 15%. Compare their total with ₹8,000."]
   }
 ];
 
@@ -328,8 +328,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "20%" }
     ],
     answerId: "b",
-    explanation: "2/5 \u00d7 100% = 40%.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "2/5 × 100% = 40%. 25% is tempting if you compare the wrong quantities or forget to simplify.",
+    hints: ["Multiply 2/5 by 100%, or make the denominator 100 first."]
   },
   {
     id: "g8-maths-compare-b-q02",
@@ -341,8 +341,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.375%" }
     ],
     answerId: "c",
-    explanation: "Multiplying by 100 gives 0.375 \u00d7 100 = 37.5%.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Multiplying by 100 gives 0.375 × 100 = 37.5%. 3.75% is tempting if you compare the wrong quantities or forget to simplify.",
+    hints: ["Multiply 0.375 by 100: move the decimal point two places to the right."]
   },
   {
     id: "g8-maths-compare-b-q03",
@@ -354,8 +354,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1 : 4" }
     ],
     answerId: "d",
-    explanation: "3 kg is 3,000 g, so 750 : 3000 = 1 : 4, while 250 : 1 forgets to convert the units.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "3 kg is 3,000 g, so 750 : 3000 = 1 : 4, while 250 : 1 forgets to convert the units. 1 : 40 is tempting if you compare the wrong quantities or forget to simplify.",
+    hints: ["Change 3 kg to grams first, then divide both parts of the ratio by 750."]
   },
   {
     id: "g8-maths-compare-b-q04",
@@ -367,8 +367,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b9540" }
     ],
     answerId: "a",
-    explanation: "12/100 \u00d7 450 = \u20b954.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "12/100 × 450 = ₹54. ₹45 is tempting, but it does not match what the question asks.",
+    hints: ["Find 10% of ₹450 and 2% of ₹450, then add them."]
   },
   {
     id: "g8-maths-compare-b-q05",
@@ -380,8 +380,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Profit of \u20b9600" }
     ],
     answerId: "c",
-    explanation: "SP is less than CP, so there is a loss of \u20b9640 \u2212 \u20b9600 = \u20b940.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "SP is less than CP, so there is a loss of ₹640 − ₹600 = ₹40. Profit of ₹40 is tempting, but it does not match what the question asks.",
+    hints: ["Compare the selling price ₹600 with the cost price ₹640. Which is bigger, and by how much?"]
   },
   {
     id: "g8-maths-compare-b-q06",
@@ -393,8 +393,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b9150" }
     ],
     answerId: "d",
-    explanation: "Discount = MP \u2212 SP = \u20b91,250 \u2212 \u20b91,100 = \u20b9150.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Discount = MP − SP = ₹1,250 − ₹1,100 = ₹150. ₹50 is tempting, but it does not match what the question asks.",
+    hints: ["Discount = marked price − selling price. Subtract ₹1,100 from ₹1,250."]
   },
   {
     id: "g8-maths-compare-b-q07",
@@ -406,8 +406,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b92,400" }
     ],
     answerId: "a",
-    explanation: "I = (1500 \u00d7 8 \u00d7 2)/100 = \u20b9240, while \u20b9120 is the interest for just 1 year.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "I = (1500 × 8 × 2)/100 = ₹240, while ₹120 is the interest for just 1 year. ₹120 is tempting, but it does not match what the question asks.",
+    hints: ["Use SI = P × R × T ÷ 100 with P = ₹1,500, R = 8 and T = 2."]
   },
   {
     id: "g8-maths-compare-b-q08",
@@ -419,8 +419,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "30%" }
     ],
     answerId: "b",
-    explanation: "42/60 = 0.7, which is 70%.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "42/60 = 0.7, which is 70%. 60% is tempting if you compare the wrong quantities or forget to simplify.",
+    hints: ["Write 42 out of 60 as a fraction, simplify it, then multiply by 100%."]
   },
   {
     id: "g8-maths-compare-b-q09",
@@ -432,8 +432,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "15%" }
     ],
     answerId: "d",
-    explanation: "The fall of \u20b912 on the original \u20b980 is 15%, while 12% treats the rupee drop as a percent.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The fall of ₹12 on the original ₹80 is 15%, while 12% treats the rupee drop as a percent. 12% is tempting if you compare the wrong quantities or forget to simplify.",
+    hints: ["Find the fall in rupees, then divide it by the original price ₹80 and multiply by 100."]
   },
   {
     id: "g8-maths-compare-b-q10",
@@ -445,8 +445,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b9410" }
     ],
     answerId: "b",
-    explanation: "18% of \u20b9500 is \u20b990, while \u20b9590 is the total bill.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "18% of ₹500 is ₹90, while ₹590 is the total bill. ₹590 is tempting, but it does not match what the question asks.",
+    hints: ["The question asks for the GST alone. Find 18% of ₹500 as 10% plus 8%."]
   },
   {
     id: "g8-maths-compare-b-q11",
@@ -458,8 +458,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "120%" }
     ],
     answerId: "c",
-    explanation: "The profit is \u20b9120, and 120/800 \u00d7 100 = 15%, while about 13% wrongly divides by SP.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The profit is ₹120, and 120/800 × 100 = 15%, while about 13% wrongly divides by SP. 13% is tempting if you compare the wrong quantities or forget to simplify.",
+    hints: ["Find the profit in rupees, then divide it by the cost price ₹800 and multiply by 100."]
   },
   {
     id: "g8-maths-compare-b-q12",
@@ -471,8 +471,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b92,488" }
     ],
     answerId: "a",
-    explanation: "12% of \u20b92,500 is \u20b9300, so SP = \u20b92,500 \u2212 \u20b9300 = \u20b92,200.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "12% of ₹2,500 is ₹300, so SP = ₹2,500 − ₹300 = ₹2,200. ₹2,800 is tempting, but it does not match what the question asks.",
+    hints: ["Find 12% of ₹2,500, then subtract that discount from the marked price."]
   },
   {
     id: "g8-maths-compare-b-q13",
@@ -484,8 +484,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b91,200" }
     ],
     answerId: "d",
-    explanation: "The new price is 0.9 times the old one, so the old price is 1,080 \u00f7 0.9 = \u20b91,200, while \u20b91,188 wrongly adds 10% of the new price.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The new price is 0.9 times the old one, so the old price is 1,080 ÷ 0.9 = ₹1,200, while ₹1,188 wrongly adds 10% of the new price. ₹1,180 is tempting, but it does not match what the question asks.",
+    hints: ["After a 10% cut the price is 90% of the original. Divide ₹1,080 by 0.9."]
   },
   {
     id: "g8-maths-compare-b-q14",
@@ -497,8 +497,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "30 years" }
     ],
     answerId: "c",
-    explanation: "T = (900 \u00d7 100)/(4000 \u00d7 7.5) = 90,000/30,000 = 3 years.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "T = (900 × 100)/(4000 × 7.5) = 90,000/30,000 = 3 years. 2 years is tempting, but it does not match what the question asks.",
+    hints: ["Use T = (SI × 100) ÷ (P × R) with SI = ₹900, P = ₹4,000 and R = 7.5."]
   },
   {
     id: "g8-maths-compare-b-q15",
@@ -510,8 +510,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b91,340" }
     ],
     answerId: "b",
-    explanation: "10% of \u20b91,350 is \u20b9135, so SP = \u20b91,350 \u2212 \u20b9135 = \u20b91,215, while \u20b91,485 adds the loss instead.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "10% of ₹1,350 is ₹135, so SP = ₹1,350 − ₹135 = ₹1,215, while ₹1,485 adds the loss instead. ₹1,485 is tempting, but it does not match what the question asks.",
+    hints: ["Find 10% of ₹1,350, then subtract it from the cost price because it is a loss."]
   },
   {
     id: "g8-maths-compare-b-q16",
@@ -523,8 +523,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "60" }
     ],
     answerId: "d",
-    explanation: "7 parts are 84 mangoes, so 1 part is 12 and 5 parts are 60 apples.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "7 parts are 84 mangoes, so 1 part is 12 and 5 parts are 60 apples. 49 is tempting if you compare the wrong quantities or forget to simplify.",
+    hints: ["7 parts of the ratio are the 84 mangoes. Find one part, then the apples are 5 parts."]
   },
   {
     id: "g8-maths-compare-b-q17",
@@ -536,8 +536,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b910,200" }
     ],
     answerId: "a",
-    explanation: "15% of \u20b912,000 is \u20b91,800, so the new fee is \u20b912,000 + \u20b91,800 = \u20b913,800.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "15% of ₹12,000 is ₹1,800, so the new fee is ₹12,000 + ₹1,800 = ₹13,800. ₹13,200 is tempting, but it does not match what the question asks.",
+    hints: ["Find 15% of ₹12,000 as 10% plus 5%, then add it to the old fee."]
   },
   {
     id: "g8-maths-compare-b-q18",
@@ -549,8 +549,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b97,950" }
     ],
     answerId: "b",
-    explanation: "I = (7500 \u00d7 6 \u00d7 4)/100 = \u20b91,800, so the amount is \u20b97,500 + \u20b91,800 = \u20b99,300.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "I = (7500 × 6 × 4)/100 = ₹1,800, so the amount is ₹7,500 + ₹1,800 = ₹9,300. ₹1,800 is tempting, but it does not match what the question asks.",
+    hints: ["Find the simple interest with P = ₹7,500, R = 6, T = 4. The amount is principal plus interest."]
   },
   {
     id: "g8-maths-compare-b-q19",
@@ -562,8 +562,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b95,832" }
     ],
     answerId: "a",
-    explanation: "The amount is 5,000 \u00d7 1.08 \u00d7 1.08 = \u20b95,832, so the CI is \u20b9832, while \u20b9800 is the simple interest.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The amount is 5,000 × 1.08 × 1.08 = ₹5,832, so the CI is ₹832, while ₹800 is the simple interest. ₹800 is tempting, but it does not match what the question asks.",
+    hints: ["Grow ₹5,000 by 8% for one year, then grow that amount by 8% again. Subtract ₹5,000."]
   },
   {
     id: "g8-maths-compare-b-q20",
@@ -575,8 +575,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "No change" }
     ],
     answerId: "d",
-    explanation: "1.25 \u00d7 0.8 = 1, so the final price equals the original price.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "1.25 × 0.8 = 1, so the final price equals the original price. 5% increase is tempting, but it does not match what the question asks.",
+    hints: ["Start with a price of ₹100. Increase it by 25%, then decrease the new price by 20%."]
   },
   {
     id: "g8-maths-compare-b-q21",
@@ -588,8 +588,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b91,050" }
     ],
     answerId: "c",
-    explanation: "The required SP is 750 \u00d7 1.2 = \u20b9900, and SP = 0.9 \u00d7 MP, so MP = 900 \u00f7 0.9 = \u20b91,000.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The required SP is 750 × 1.2 = ₹900, and SP = 0.9 × MP, so MP = 900 ÷ 0.9 = ₹1,000. ₹975 is tempting, but it does not match what the question asks.",
+    hints: ["First find the selling price for a 20% profit on ₹750. That selling price is 90% of the marked price."]
   },
   {
     id: "g8-maths-compare-b-q22",
@@ -601,8 +601,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b990" }
     ],
     answerId: "d",
-    explanation: "The price before tax is 1,890 \u00f7 1.05 = \u20b91,800, so the GST is \u20b990, while \u20b994.50 wrongly takes 5% of the whole bill.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The price before tax is 1,890 ÷ 1.05 = ₹1,800, so the GST is ₹90, while ₹94.50 wrongly takes 5% of the whole bill. ₹1,800 is tempting, but it does not match what the question asks.",
+    hints: ["The bill is 105% of the price before GST. Find that price from ₹1,890, then subtract."]
   },
   {
     id: "g8-maths-compare-b-q23",
@@ -614,8 +614,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "22,100" }
     ],
     answerId: "b",
-    explanation: "Growth compounds each year, so 20,000 \u00d7 1.05 \u00d7 1.05 = 22,050, while 22,000 treats it as simple growth.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Growth compounds each year, so 20,000 × 1.05 × 1.05 = 22,050, while 22,000 treats it as simple growth. 22,000 is tempting, but it does not match what the question asks.",
+    hints: ["Growth compounds: increase 20,000 by 5%, then increase that new number by 5% again."]
   },
   {
     id: "g8-maths-compare-b-q24",
@@ -627,8 +627,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b97,020" }
     ],
     answerId: "c",
-    explanation: "CP = 5,850 \u00f7 0.9 = \u20b96,500, so the SP for a 10% gain is 6,500 \u00d7 1.1 = \u20b97,150, while \u20b96,435 wrongly adds 10% to \u20b95,850.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "CP = 5,850 ÷ 0.9 = ₹6,500, so the SP for a 10% gain is 6,500 × 1.1 = ₹7,150, while ₹6,435 wrongly adds 10% to ₹5,850. ₹6,435 is tempting, but it does not match what the question asks.",
+    hints: ["₹5,850 is 90% of the cost price. Find the cost price, then add 10% of it."]
   }
 ];
 
