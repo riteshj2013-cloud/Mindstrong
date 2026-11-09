@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "A rope tied between two poles" }
     ],
     answerId: "a",
-    explanation: "A ray starts at one point and goes on without end in one direction, like a torch beam starting at the torch. A ruler edge, a track between two stations and a rope between poles all have two ends, so they model line segments. The edge of a ruler is tempting if you mix up angle or shape facts, but the correct choice is A torch beam shining into the night sky.",
+    explanation: "A ray starts at one point and goes on without end in one direction, like a torch beam starting at the torch. A ruler edge, a track between two stations and a rope between poles all have two ends, so they model line segments. The edge of a ruler is tempting if you confuse a line, a ray, and a line segment (how many endpoints each has).",
     hints: ["A ray has a starting point but no finishing point. Which of these has only one end?"]
   },
   {
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "reflex" }
     ],
     answerId: "c",
-    explanation: "A right angle measures exactly 90°. acute is tempting if you mix up the property or the size of the turn.",
+    explanation: "A right angle measures exactly 90°. acute is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
     hints: ["Picture the corner of a notebook page. What special name is given to an angle measuring exactly 90°?"]
   },
   {
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "acute" }
     ],
     answerId: "d",
-    explanation: "Acute angles are less than 90°. 45° is acute. right is tempting if you mix up the property or the size of the turn.",
+    explanation: "Acute angles are less than 90°. 45° is acute. right is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
     hints: ["Compare with 90°."]
   },
   {
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "straight" }
     ],
     answerId: "a",
-    explanation: "Obtuse angles are between 90° and 180°. 120° is obtuse. acute is tempting if you mix up the property or the size of the turn.",
+    explanation: "Obtuse angles are between 90° and 180°. 120° is obtuse. acute is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
     hints: ["120° is more than a right angle of 90° but less than 180°. Which type is that?"]
   },
   {
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12 o'clock" }
     ],
     answerId: "b",
-    explanation: "At 6 o'clock the hands point in opposite directions, making a straight angle of 180°. At 3 o'clock and 9 o'clock they make a right angle (90°), and at 12 o'clock they overlap (0°). 3 o'clock is tempting if you mix up the property or the size of the turn.",
+    explanation: "At 6 o'clock the hands point in opposite directions, making a straight angle of 180°. At 3 o'clock and 9 o'clock they make a right angle (90°), and at 12 o'clock they overlap (0°). 3 o'clock is tempting if you subtract from 90° (complement) instead of from 180° (straight/supplement).",
     hints: ["A straight angle is a half turn, so the two hands must point in opposite directions."]
   },
   {
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "180°" }
     ],
     answerId: "d",
-    explanation: "Interior angles of a triangle always sum to 180°. 90° is tempting if you mix up the property or the size of the turn.",
+    explanation: "Interior angles of a triangle always sum to 180°. 90° is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
     hints: ["Triangle angle sum is a half-turn."]
   },
   {
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6" }
     ],
     answerId: "a",
-    explanation: "Quad means four — four sides. 3 is tempting if you mix up the property or the size of the turn.",
+    explanation: "Quad means four — four sides. 3 is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
     hints: ["Draw a quadrilateral, such as a kite or a rectangle, and count its sides."]
   },
   {
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Trapezium" }
     ],
     answerId: "b",
-    explanation: "A square has equal sides and four right angles. Rectangle that is not a square is tempting if you mix up the property or the size of the turn.",
+    explanation: "A square has equal sides and four right angles. Rectangle that is not a square is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
     hints: ["All angles 90° gives a rectangle shape. Which rectangle also has all its sides equal?"]
   },
   {
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "The top edge and the left edge of the page" }
     ],
     answerId: "c",
-    explanation: "The printed lines across the page stay the same distance apart and never meet, so they are parallel. The margin line meets the printed lines at right angles, so those are perpendicular, not parallel; the diagonals cross in the middle, and the top and left edges meet at a corner. A printed line and the margin line is tempting if you mix up the property or the size of the turn.",
+    explanation: "The printed lines across the page stay the same distance apart and never meet, so they are parallel. The margin line meets the printed lines at right angles, so those are perpendicular, not parallel; the diagonals cross in the middle, and the top and left edges meet at a corner. A printed line and the margin line is tempting if you confuse this term with a closely related geometry word.",
     hints: ["Parallel lines keep the same gap all along and never meet. Check whether each pair crosses or meets."]
   },
   {
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "90°" }
     ],
     answerId: "d",
-    explanation: "Perpendicular means they form a right angle (90°). 60° is tempting if you mix up the property or the size of the turn.",
+    explanation: "Perpendicular means they form a right angle (90°). 60° is tempting if you confuse this term with a closely related geometry word.",
     hints: ["Perpendicular lines meet like the edges at a corner of a book. What angle is that square corner?"]
   },
   {
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "arc" }
     ],
     answerId: "a",
-    explanation: "Radius is centre-to-rim distance. diameter is tempting if you mix up angle or shape facts, but the correct choice is radius.",
+    explanation: "Radius is centre-to-rim distance. diameter is tempting if you confuse the circumference with the radius, diameter, or the disk inside.",
     hints: ["The distance from the centre of a circle to any point on it is half the diameter. What is it called?"]
   },
   {
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "21 cm" }
     ],
     answerId: "b",
-    explanation: "Diameter = 2 × radius = 14 cm. 7 cm is tempting if you mix up angle or shape facts, but the correct choice is 14 cm.",
+    explanation: "Diameter = 2 × radius = 14 cm. 7 cm is tempting if you use the diameter where the radius (half the diameter) is needed, or the other way round.",
     hints: ["Diameter is twice the radius."]
   },
   {
@@ -196,7 +196,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Divider" }
     ],
     answerId: "c",
-    explanation: "A protractor measures angles in degrees. Ruler is tempting if you mix up the property or the size of the turn.",
+    explanation: "A protractor measures angles in degrees. Ruler is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
     hints: ["Angles are measured in degrees. Which geometry-box instrument is a half-circle marked from 0° to 180°?"]
   },
   {
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "polygon" }
     ],
     answerId: "d",
-    explanation: "Polygons are closed shapes with straight sides. ray is tempting if you mix up angle or shape facts, but the correct choice is polygon.",
+    explanation: "Polygons are closed shapes with straight sides. ray is tempting if you confuse a line, a ray, and a line segment (how many endpoints each has).",
     hints: ["A closed figure with straight line segments as sides, like a triangle or hexagon, has a general name. What is it?"]
   },
   {
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "110°" }
     ],
     answerId: "a",
-    explanation: "180 − 50 − 60 = 70°. 80° is tempting if you mix up angle or shape facts, but the correct choice is 70°.",
+    explanation: "180 − 50 − 60 = 70°. 80° is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
     hints: ["Use triangle sum 180°."]
   },
   {
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Angles 120°, 30°, 30°" }
     ],
     answerId: "b",
-    explanation: "All three angles of an equilateral triangle are 60° — all acute. Angles 90°, 45°, 45° is tempting if you mix up the property or the size of the turn.",
+    explanation: "All three angles of an equilateral triangle are 60° — all acute. Angles 90°, 45°, 45° is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
     hints: ["An acute-angled triangle has every angle less than 90°. Check all three angles in each option."]
   },
   {
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "20 cm" }
     ],
     answerId: "c",
-    explanation: "Perimeter = 2(l + b) = 2(13) = 26 cm. 20 cm is tempting if you add the wrong sides or mix up perimeter with area.",
+    explanation: "Perimeter = 2(l + b) = 2(13) = 26 cm. 20 cm is tempting if you add only some sides, or find the area, instead of the full distance around.",
     hints: ["Add length and breadth, then double."]
   },
   {
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "36 cm²" }
     ],
     answerId: "d",
-    explanation: "Area = side × side = 36 cm². 24 cm² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    explanation: "Area = side × side = 36 cm². 24 cm² is tempting if you add the sides (perimeter) instead of multiplying the two lengths for area.",
     hints: ["Square area = side squared."]
   },
   {
@@ -274,7 +274,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "A point 5.5 cm from O" }
     ],
     answerId: "a",
-    explanation: "Points at distance less than the radius lie inside. 3 < 5. A point 5 cm from O is tempting if you mix up angle or shape facts, but the correct choice is A point 3 cm from O.",
+    explanation: "Points at distance less than the radius lie inside. 3 < 5. A point 5 cm from O is tempting if you confuse radius with diameter or with the circumference.",
     hints: ["Inside means distance from centre < radius."]
   },
   {
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "reflex" }
     ],
     answerId: "b",
-    explanation: "Complementary angles sum to 90°. supplementary is tempting if you mix up the property or the size of the turn.",
+    explanation: "Complementary angles sum to 90°. supplementary is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
     hints: ["Complement → 90°; supplement → 180°."]
   },
   {
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "right" }
     ],
     answerId: "c",
-    explanation: "Supplementary angles sum to 180°. complementary is tempting if you mix up the property or the size of the turn.",
+    explanation: "Supplementary angles sum to 180°. complementary is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
     hints: ["Supplement → straight angle."]
   },
   {
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "right" }
     ],
     answerId: "b",
-    explanation: "180° is a straight angle. acute is tempting if you mix up the property or the size of the turn.",
+    explanation: "180° is a straight angle. acute is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
     hints: ["At 180° the two arms point in exactly opposite directions and form a line. Which angle type is that?"]
   },
   {
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "right" }
     ],
     answerId: "c",
-    explanation: "Reflex angles lie between 180° and 360°. acute is tempting if you mix up the property or the size of the turn.",
+    explanation: "Reflex angles lie between 180° and 360°. acute is tempting if you use the wrong angle relationship or mis-add the turn sizes in the figure.",
     hints: ["Bigger than a straight angle."]
   },
   {
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2" }
     ],
     answerId: "d",
-    explanation: "A quadrilateral has 2 diagonals. 1 is tempting if you mix up the property or the size of the turn.",
+    explanation: "A quadrilateral has 2 diagonals. 1 is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
     hints: ["Join opposite corners — how many ways?"]
   },
   {
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "right-angled" }
     ],
     answerId: "a",
-    explanation: "Exactly two sides are equal (6 cm and 6 cm), so it is isosceles. It is not equilateral, because that needs all three sides equal, and it is not scalene, because scalene triangles have no equal sides. scalene is tempting if you mix up the property or the size of the turn.",
+    explanation: "Exactly two sides are equal (6 cm and 6 cm), so it is isosceles. It is not equilateral, because that needs all three sides equal, and it is not scalene, because scalene triangles have no equal sides. scalene is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
     hints: ["Count how many sides have the same length."]
   },
   {
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "equilateral" }
     ],
     answerId: "b",
-    explanation: "One right angle → right-angled triangle. acute-angled is tempting if you mix up the property or the size of the turn.",
+    explanation: "One right angle → right-angled triangle. acute-angled is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
     hints: ["Look for the 90° corner."]
   },
   {
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "28 cm" }
     ],
     answerId: "c",
-    explanation: "6 × 4 = 24 cm. 20 cm is tempting if you add the wrong sides or mix up perimeter with area.",
+    explanation: "6 × 4 = 24 cm. 20 cm is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
     hints: ["Regular hexagon: six equal sides."]
   },
   {
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "36 cm²" }
     ],
     answerId: "d",
-    explanation: "Area = l × b = 36 cm². 26 cm² is tempting if you find the perimeter instead of the area, or multiply the wrong pair.",
+    explanation: "Area = l × b = 36 cm². 26 cm² is tempting if you add the sides (perimeter) instead of multiplying the two lengths for area.",
     hints: ["Area of a rectangle = length × breadth. Multiply 9 cm by 4 cm."]
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5 cm" }
     ],
     answerId: "a",
-    explanation: "Radius = diameter ÷ 2 = 10 cm. 5 cm is tempting if you mix up angle or shape facts, but the correct choice is 10 cm.",
+    explanation: "Radius = diameter ÷ 2 = 10 cm. 5 cm is tempting if you use the diameter where the radius (half the diameter) is needed, or the other way round.",
     hints: ["Half the diameter."]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Only circle chords" }
     ],
     answerId: "b",
-    explanation: "Parallel lines never meet; perpendicular lines meet at 90° — impossible together. Any two lines is tempting if you mix up the property or the size of the turn.",
+    explanation: "Parallel lines never meet; perpendicular lines meet at 90° — impossible together. Any two lines is tempting if you confuse this term with a closely related geometry word.",
     hints: ["Can never-meeting lines also meet at 90°?"]
   },
   {
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "95°" }
     ],
     answerId: "c",
-    explanation: "180 − 40 − 65 = 75°. 85° is tempting if you mix up the property or the size of the turn.",
+    explanation: "180 − 40 − 65 = 75°. 85° is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
     hints: ["Subtract the two known angles from 180°."]
   },
   {
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "8 cm" }
     ],
     answerId: "d",
-    explanation: "Side = perimeter ÷ 4 = 8 cm. 4 cm is tempting if you add the wrong sides or mix up perimeter with area.",
+    explanation: "Side = perimeter ÷ 4 = 8 cm. 4 cm is tempting if you add only some sides, or find the area, instead of the full distance around.",
     hints: ["Four equal sides share the perimeter."]
   },
   {
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Set square only" }
     ],
     answerId: "a",
-    explanation: "A compass draws circles of a chosen radius. Protractor is tempting if you mix up angle or shape facts, but the correct choice is Compass.",
+    explanation: "A compass draws circles of a chosen radius. Protractor is tempting if you confuse the circumference with the radius, diameter, or the disk inside.",
     hints: ["Which tool has a sharp point to hold the centre and a pencil arm that turns to draw a circle?"]
   },
   {
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "b",
-    explanation: "A cube has 8 corners (vertices). 6 is tempting if you mix up angle or shape facts, but the correct choice is 8.",
+    explanation: "A cube has 8 corners (vertices). 6 is tempting if you mix up faces, edges, and vertices of the solid (for example counting faces when asked for edges).",
     hints: ["Picture a dice: count the corners on the top face of the cube, then on the bottom face."]
   },
   {
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "c",
-    explanation: "A cube has 12 edges. 8 is tempting if you mix up angle or shape facts, but the correct choice is 12.",
+    explanation: "A cube has 12 edges. 8 is tempting if you mix up faces, edges, and vertices of the solid (for example counting faces when asked for edges).",
     hints: ["Count the edges of a cube: the top face has 4, the bottom face has 4, then add the upright edges."]
   },
   {
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "at least two sides equal" }
     ],
     answerId: "d",
-    explanation: "Isosceles means at least two sides equal. all sides different is tempting if you mix up the property or the size of the turn.",
+    explanation: "Isosceles means at least two sides equal. all sides different is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
     hints: ["Iso means equal. In an isosceles triangle, how many sides must match?"]
   },
   {
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "never equal" }
     ],
     answerId: "a",
-    explanation: "When two lines cross, vertically opposite angles are equal. always complementary is tempting if you mix up the property or the size of the turn.",
+    explanation: "When two lines cross, vertically opposite angles are equal. always complementary is tempting if you use adjacent angles on a straight line instead of the vertically opposite equal pair.",
     hints: ["Opposite angles at an X."]
   },
   {
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "heptagon" }
     ],
     answerId: "b",
-    explanation: "Penta- means five → pentagon. hexagon is tempting if you mix up angle or shape facts, but the correct choice is pentagon.",
+    explanation: "Penta- means five → pentagon. hexagon is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
     hints: ["Hexa means 6, hepta means 7, octa means 8. Which polygon name is left for 5 sides?"]
   },
   {
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "secant" }
     ],
     answerId: "c",
-    explanation: "The interior region is the disk; circumference is the boundary length. circumference is tempting if you mix up angle or shape facts, but the correct choice is interior (disk).",
+    explanation: "The interior region is the disk; circumference is the boundary length. circumference is tempting if you confuse the circumference with the radius, diameter, or the disk inside.",
     hints: ["The circumference is the boundary of the circle. What do we call the region enclosed inside it?"]
   },
   {
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "two right angles" }
     ],
     answerId: "b",
-    explanation: "Scalene means all three sides different lengths. all sides equal is tempting if you mix up the property or the size of the turn.",
+    explanation: "Scalene means all three sides different lengths. all sides equal is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
     hints: ["Equilateral has all sides equal; isosceles has two. What is left for a scalene triangle?"]
   },
   {
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "minor arc" }
     ],
     answerId: "c",
-    explanation: "The diameter is the longest chord. radius is tempting if you mix up angle or shape facts, but the correct choice is diameter.",
+    explanation: "The diameter is the longest chord. radius is tempting if you confuse a chord with a radius or diameter.",
     hints: ["Through the centre = longest."]
   },
   {
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "circle" }
     ],
     answerId: "d",
-    explanation: "A circle’s boundary is curved, so it is not a polygon. triangle is tempting if you mix up angle or shape facts, but the correct choice is circle.",
+    explanation: "A circle’s boundary is curved, so it is not a polygon. triangle is tempting if you count the sides or corners of a neighbouring polygon instead of this one.",
     hints: ["Polygons need straight sides only."]
   }
 ];
