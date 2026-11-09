@@ -162,7 +162,7 @@
   - A) Four single strokes (no slash)
   - B) One crossed bundle of 5 and 3 singles
   - C) One crossed bundle of 5 and 2 singles
-  - D) |||
+  - D) Three single strokes only
 - **answer**: C
 - **explanation**: One gate of 5 plus 2 more strokes = 7.
 - **skill**: pictograph
@@ -428,7 +428,7 @@
   - A) Two crossed bundles of 5 and 1 single
   - B) Two crossed bundles of 5 and 2 singles
   - C) One crossed bundle of 5 and 3 singles
-  - D) Three singles then four singles
+  - D) Two crossed bundles of 5 only
 - **answer**: A
 - **explanation**: Two gates (10) plus one stroke = 11.
 - **skill**: pictograph

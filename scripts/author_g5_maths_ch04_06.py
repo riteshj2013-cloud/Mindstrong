@@ -1,6 +1,24 @@
 #!/usr/bin/env python3
-"""Author G5 Maths Ch4–6: markdown sources + TS modules + hint stubs."""
+"""Author G5 Maths Ch4–6 (HISTORICAL). DO NOT RERUN.
+
+Committed g5-maths-data content has diverged from this generator (#136
+slashed-bundle SVGs on a-q19/b-q19, lesson card text). Re-running would
+overwrite those figures and cards. Update this script to match first, or
+maintain those items by hand.
+"""
 from __future__ import annotations
+
+import sys
+
+sys.exit(
+    "DO NOT RERUN scripts/author_g5_maths_ch04_06.py: committed content has diverged "
+    "(#136 slashed-bundle SVGs and lesson card text). Update the script to match, or "
+    "maintain those items by hand."
+)
+
+# --- original script retained below for reference (unreachable at runtime) ---
+"""Author G5 Maths Ch4–6: markdown sources + TS modules + hint stubs."""
+# from __future__ import annotations
 
 import json
 import sys

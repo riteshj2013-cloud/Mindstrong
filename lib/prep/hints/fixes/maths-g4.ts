@@ -221,7 +221,7 @@ export const G4_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-maths-geometry-b-q22": ["A square park has 4 equal sides, so its perimeter is 4 × one side.", "Share the 48 m equally among the 4 sides: work out 40 ÷ 4 and 8 ÷ 4, then add."],
   "g4-maths-geometry-b-q24": ["Poly means many. Which name means a closed shape made of many straight sides?"],
   // g4-maths g4-data-handling — Data Handling
-  "g4-maths-data-a-q01": ["The slash across the uprights is a mark too. Does it count?"],
+  "g4-maths-data-a-q01": ["The slash across the uprights is a mark too."],
   "g4-maths-data-a-q02": ["Is there a slash across the strokes? Plain strokes without a slash count as 1 each."],
   "g4-maths-data-a-q03": ["Read the key: one ⚽ is worth 2 goals.", "Count 2 goals for each ⚽ in the row: 2, 4, and then one more ⚽."],
   "g4-maths-data-a-q06": ["Add only the counts for banana and apple, 8 and 5."],

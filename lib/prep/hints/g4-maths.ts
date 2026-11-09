@@ -242,7 +242,7 @@ export const G4_MATHS_HINTS: Record<string, HintOverlay> = {
   "g4-maths-geometry-b-q22": ["Perimeter \u00f7 4 for a square.", "48 \u00f7 4."],
   "g4-maths-geometry-b-q23": ["Obtuse sits between right and straight.", "Check 90\u00b0 < angle < 180\u00b0."],
   "g4-maths-geometry-b-q24": ["Straight sides, closed path.", "Triangle, square, pentagon are polygons."],
-  "g4-maths-data-a-q01": ["The slash across the uprights is a mark too. Does it count?"],
+  "g4-maths-data-a-q01": ["The slash across the uprights is a mark too."],
   "g4-maths-data-a-q02": ["Is there a slash across the strokes? Plain strokes without a slash count as 1 each."],
   "g4-maths-data-a-q03": ["Read the key: what one picture is worth.", "3 \u00d7 2."],
   "g4-maths-data-a-q04": ["Compare bar heights.", "Higher bar \u2192 bigger count."],
