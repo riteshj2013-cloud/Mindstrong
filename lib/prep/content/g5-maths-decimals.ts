@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1/2" }
     ],
     answerId: "d",
-    explanation: "0.5 means 5/10, which simplifies to 1/2. 1/5 is tempting if you misread which place the digit sits in after the decimal point; the value is 1/2.",
+    explanation: "0.5 = 5/10 = 1/2. 1/5 is tempting if you read the 5 as the denominator (as in “one over five”) instead of five tenths.",
     hints: ["0.5 means 5 tenths, or 5/10. Simplify 5/10."]
   },
   {
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "a",
-    explanation: "0.80 is greater than 0.75 when both have hundredths, so 0.8 is greater. 0. 0.75 is tempting if you put the digit one column too far right after the decimal point.",
+    explanation: "Write both with hundredths: 0.80 and 0.75. Since 80 > 75, 0.8 is greater. 0.75 is tempting if you decide the number with more digits after the point must be larger.",
     hints: ["Is 0.75 more or less than the other number once both are written with two decimal places?"]
   },
   {
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.405, 0.4, 0.35" }
     ],
     answerId: "a",
-    explanation: "As hundredths: 0.35, 0.40, 0.405 → ascending is 0.35, 0.4, 0.405. 0.35, 0.405, 0.4 is tempting if you misread which place the digit sits in after the decimal point; the value is 0.35, 0.4, 0.405.",
+    explanation: `Align to thousandths: 0.350, 0.400, 0.405. Ascending order is 0.35, 0.4, 0.405. 0.4, 0.35, 0.405 is tempting if you read the digits after the point as whole numbers (4 < 35 < 405) instead of comparing place values.`,
     hints: ["Give each number three decimal places: 0.400, 0.350, 0.405. Then put them in ascending order."]
   },
   {
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "9 thousandths" }
     ],
     answerId: "b",
-    explanation: "Places after the point are tenths, hundredths, thousandths — so 9 is hundredths. 9 ones is tempting if you misread which place the digit sits in after the decimal point; the value is 9 hundredths.",
+    explanation: `After the point the places are tenths, hundredths, thousandths; in 5.391 the 9 is in the hundredths place. 9 ones is tempting if you give only the face value of the digit (9) and forget that its place after the point changes what it is worth.`,
     hints: ["Name the places after the decimal point in 5.391 one by one. Which place does the 9 sit in?"]
   },
   {
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.75%" }
     ],
     answerId: "b",
-    explanation: "0.75 = 75/100 = 75%. 7.5% is tempting if you misread which place the digit sits in after the decimal point; the value is 75%.",
+    explanation: "0.75 × 100 = 75%, so 0.75 = 75%. 7.5% is tempting if you multiply by 10 instead of by 100 when converting decimal to percent.",
     hints: ["To change a decimal to a percent, multiply 0.75 by 100."]
   },
   {
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "c",
-    explanation: "10% means divide by 10, so 250 ÷ 10 = 25. 10 is tempting if you line the decimals up from the left instead of from the decimal point.",
+    explanation: "10% means one tenth, so 250 ÷ 10 = 25. 10 is tempting if you report the percentage figure itself instead of taking 10% of 250.",
     hints: ["10% is one tenth. Divide 250 by 10."]
   },
   {
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "750 ml" }
     ],
     answerId: "d",
-    explanation: "1 L = 1000 ml, so 0.75 × 1000 = 750 ml. 75 ml is tempting if you misread which place the digit sits in after the decimal point; the value is 750 ml.",
+    explanation: "1 L = 1000 ml, so 0.75 × 1000 = 750 ml. 75 ml is tempting if you multiply by 100 instead of by 1000.",
     hints: ["1 L = 1000 ml, so multiply 0.75 by 1000."]
   },
   {
@@ -274,7 +274,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1/20" }
     ],
     answerId: "a",
-    explanation: "0.2 = 2/10 = 1/5. 1/2 is tempting if you misread which place the digit sits in after the decimal point; the value is 1/5.",
+    explanation: "0.2 = 2/10 = 1/5. 1/2 is tempting if you read 0.2 as “a half” by confusing it with 0.5.",
     hints: ["0.2 means 2 tenths, or 2/10. Simplify 2/10."]
   },
   {
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "95%" }
     ],
     answerId: "b",
-    explanation: "18/20 = 90/100 = 90%. 95% is tempting if you misread which place the digit sits in after the decimal point; the value is 90%.",
+    explanation: "18/20 = 90/100 = 90%. 18% is tempting if you report the raw score 18 as a percent without scaling out of 100.",
     hints: ["Write 18 marks out of 20 as a fraction, then multiply top and bottom by 5 to get a denominator of 100."]
   },
   {
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u20b9375" }
     ],
     answerId: "c",
-    explanation: "25% of 400 is 100, so the sale price is 400 − 100 = ₹300. ₹100 is tempting if you misread which place the digit sits in after the decimal point; the value is ₹300.",
+    explanation: "25% of ₹400 is ₹100, so the sale price is 400 − 100 = ₹300. ₹100 is tempting if you stop after finding the discount and report the discount instead of the sale price.",
     hints: ["Find 25% of ₹400 (one quarter), then subtract it from ₹400."]
   },
   {
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1/4" }
     ],
     answerId: "d",
-    explanation: "0.25 = 25/100 = 1/4. 1/2 is tempting if you misread which place the digit sits in after the decimal point; the value is 1/4.",
+    explanation: "0.25 = 25/100 = 1/4. 1/2 is tempting if you confuse 0.25 with 0.5 (a half).",
     hints: ["0.25 means 25 hundredths, or 25/100. Simplify by dividing top and bottom by 25."]
   },
   {
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "a",
-    explanation: "0.10 is greater than 0.09, so 0.09 is smaller. 0. 0.1 is tempting if you drop a zero placeholder between the point and the digit.",
+    explanation: `Write both with hundredths: 0.09 and 0.10. Since 9 < 10, 0.09 is smaller. 0.1 is tempting if you ignore the zeros and compare 9 with 1, thinking 0.09 is bigger because 9 > 1.`,
     hints: ["Write 0.1 with two decimal places, then compare the hundredths of both numbers."]
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.01" }
     ],
     answerId: "a",
-    explanation: "10% = 10/100 = 0.1. 0. 10 is tempting if you put the digit one column too far left after the decimal point.",
+    explanation: "10% = 10/100 = 0.1. 10 is tempting if you leave the percent as a whole number and skip dividing by 100.",
     hints: ["10% means 10 out of 100. Divide 10 by 100 to get a decimal."]
   },
   {
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3.06" }
     ],
     answerId: "d",
-    explanation: "3 wholes and 6 hundredths is 3.06. 3. 3.6 is tempting if you read tenths as hundredths (or the other way round).",
+    explanation: "Three wholes and six hundredths is 3.06 (0 in the tenths place). 3.6 is tempting if you put the 6 in the tenths place, reading “six tenths” instead of “six hundredths”.",
     hints: ["Write the whole number three before the point. Six hundredths goes in the second place after it; what fills the tenths?"]
   },
   {
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1.5, 1.005, 1.05" }
     ],
     answerId: "a",
-    explanation: "1.500 > 1.050 > 1.005. 1.5, 1.005, 1.05 is tempting if you misread which place the digit sits in after the decimal point; the value is 1.5, 1.05, 1.005.",
+    explanation: `Align to thousandths: 1.500, 1.050, 1.005. Descending order is 1.5, 1.05, 1.005. 1.005, 1.05, 1.5 is tempting if you think the number with more digits after the point is larger.`,
     hints: ["Give each number three decimal places: 1.050, 1.500, 1.005. Then put them in descending order."]
   },
   {
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "60" }
     ],
     answerId: "b",
-    explanation: "Face value is the digit itself, which is 6. 0. 0.6 is tempting if you line the decimals up from the left instead of from the decimal point.",
+    explanation: `Face value is the digit itself, which is 6. 0.06 is tempting if you give the place value of the 6 (it is in the hundredths place, so 6 hundredths = 0.06) instead of its face value.`,
     hints: ["Face value is just the digit itself, whatever its place. Place value would depend on its position in 8.46."]
   },
   {
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "50%" }
     ],
     answerId: "b",
-    explanation: "2/5 = 0.4 = 40%. 50% is tempting if you misread which place the digit sits in after the decimal point; the value is 40%.",
+    explanation: `2/5 = 40/100 = 40%. 20% is tempting if you multiply top and bottom by 10 to get 20/50 and then read the 20 as a percent, forgetting that a percent needs a denominator of 100.`,
     hints: ["Make the denominator of 2/5 equal to 100 by multiplying the top and bottom by 20."]
   },
   {
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "125 cm" }
     ],
     answerId: "d",
-    explanation: "1 m = 100 cm, so 1.25 × 100 = 125 cm. 12.5 cm is tempting if you misread which place the digit sits in after the decimal point; the value is 125 cm.",
+    explanation: "1 m = 100 cm, so 1.25 × 100 = 125 cm. 12.5 cm is tempting if you multiply by 10 instead of by 100.",
     hints: ["1 m = 100 cm, so multiply 1.25 by 100."]
   },
   {
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0.125" }
     ],
     answerId: "a",
-    explanation: "3 ÷ 8 = 0.375. 0. 0.38 is tempting if you drop a zero placeholder between the point and the digit.",
+    explanation: "3 ÷ 8 = 0.375 exactly. 0.38 is tempting if you round 0.375 to two decimal places instead of keeping the exact three-place value.",
     hints: ["Divide 3 by 8 using long division, adding zeros after the decimal point."]
   },
   {
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "50%" }
     ],
     answerId: "b",
-    explanation: "35/50 = 70/100 = 70%. 65% is tempting if you misread which place the digit sits in after the decimal point; the value is 70%.",
+    explanation: "35/50 = 70/100 = 70%. 35% is tempting if you report the raw count 35 as a percent without scaling to 100.",
     hints: ["Write 35 children out of 50 as a fraction, then double the top and bottom to make the denominator 100."]
   },
   {
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u20b9180" }
     ],
     answerId: "c",
-    explanation: "20% of 250 is 50; sale price is 250 − 50 = ₹200. ₹50 is tempting if you misread which place the digit sits in after the decimal point; the value is ₹200.",
+    explanation: "20% of ₹250 is ₹50; sale price is 250 − 50 = ₹200. ₹50 is tempting if you stop after finding the discount and report that instead of the sale price.",
     hints: ["Find 20% of ₹250 (one fifth), then subtract it from ₹250."]
   },
   {

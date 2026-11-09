@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Equal widths" }
     ],
     answerId: "d",
-    explanation: "Bars are drawn with equal width so heights can be compared fairly. Different widths is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is Equal widths.",
+    explanation: "Bars must have equal widths so only their heights carry the quantities. Different widths is tempting if you think wider bars somehow show larger amounts; unequal width would make fair height comparison impossible.",
     hints: ["If one bar were fatter, it would look bigger than it really is. Bars should differ only in height."]
   },
   {
@@ -313,7 +313,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "d",
-    explanation: "6 × 5 = 30 students. 11 is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is 30.",
+    explanation: "Each unit stands for 5 students, so 6 × 5 = 30. 11 is tempting if you add the 6 units to the scale factor 5 instead of multiplying.",
     hints: ["Each unit stands for 5 students. Multiply the 6 units by 5."]
   }
 ];
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "There is no mode" }
     ],
     answerId: "b",
-    explanation: "9 appears twice; others appear once. 2 is tempting if you add every row except the one named in the question; reading the named category gives 9.",
+    explanation: "9 appears twice and every other value appears once, so the mode is 9. 2 is tempting if you report how many times the mode appears rather than the mode value itself.",
     hints: ["Count how many times each number in the list appears; the mode appears most often."]
   },
   {
