@@ -55,7 +55,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3,04,906" }
     ],
     answerId: "a",
-    explanation: "3,00,000 + 40,000 + 900 + 6 = 3,40,906. There are no thousands and no tens, so both places get a 0. 3,49,006 is tempting if you give the digit the wrong place (ones/tens/hundreds/thousands); its place value is 3,40,906.",
+    explanation: "Blocks show 3,00,000 + 40,000 + 900 + 6 = 3,40,906 (zeros in the thousands and tens places). 3,49,006 is tempting if you write the 900 block as 9 thousands and merge it with 40,000 to make 49,000, giving 3,49,006.",
     hints: ["Add the value of each block, and write 0 for any place that has no block."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 440 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Join the blocks\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"440\" height=\"150\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"220.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Join the blocks</text>\n  <rect class=\"part block\" x=\"6.0\" y=\"34.5\" width=\"130\" height=\"85.5\" rx=\"4\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"71.0\" y=\"82.25\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">3,00,000</text>\n  <text class=\"label small\" x=\"71.0\" y=\"138\" font-size=\"10.5\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Lakhs</text>\n  <text class=\"label op\" x=\"149.0\" y=\"95\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">+</text>\n  <rect class=\"part block\" x=\"162.0\" y=\"45.0\" width=\"100\" height=\"75.0\" rx=\"4\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"212.0\" y=\"87.5\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">40,000</text>\n  <text class=\"label small\" x=\"212.0\" y=\"138\" font-size=\"10.5\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Ten Thousands</text>\n  <text class=\"label op\" x=\"275.0\" y=\"95\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">+</text>\n  <rect class=\"part block\" x=\"288.0\" y=\"55.5\" width=\"70\" height=\"64.5\" rx=\"4\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"323.0\" y=\"92.75\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">900</text>\n  <text class=\"label small\" x=\"323.0\" y=\"138\" font-size=\"10.5\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Hundreds</text>\n  <text class=\"label op\" x=\"371.0\" y=\"95\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">+</text>\n  <rect class=\"part block\" x=\"384.0\" y=\"62.5\" width=\"50\" height=\"57.5\" rx=\"4\" fill=\"#fce4ec\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"409.0\" y=\"96.25\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">6</text>\n  <text class=\"label small\" x=\"409.0\" y=\"138\" font-size=\"10.5\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Ones</text>\n</svg>", "alt": "Four blocks joined with plus signs: 3,00,000 (Lakhs), 40,000 (Ten Thousands), 900 (Hundreds) and 6 (Ones). There is no Thousands block and no Tens block."}
   },
@@ -97,7 +97,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "50,000" }
     ],
     answerId: "a",
-    explanation: "The hundreds digit is 3, which is less than 5, so we round down to 46,000. 46,400 is tempting if you look at the wrong digit when rounding; checking the digit just right of the place gives 46,000.",
+    explanation: "To the nearest thousand, look at the hundreds digit of 46,382: it is 3, which is less than 5, so round down to 46,000. 46,400 is tempting if you round to the nearest hundred instead (tens digit 8 ≥ 5, so 46,382 → 46,400).",
     hints: ["Look at the hundreds digit of 46,382. Is it 5 or more, or less than 5?"]
   },
   {
@@ -178,7 +178,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7,349" }
     ],
     answerId: "d",
-    explanation: "7,349 has 49 in its last two places so it rounds down to 7,300, while 7,350 rounds up to 7,400. 7,350 is tempting if you look at the wrong digit when rounding; checking the digit just right of the place gives 7,349.",
+    explanation: "Numbers from 7,250 up to 7,349 round to 7,300. 7,349 is in that range, so it works. 7,350 is tempting if you include the halfway value in the 7,300 bucket; at 50 in the last two places the rule rounds up, so 7,350 → 7,400.",
     hints: ["To round to 7,300, a number starting 7,3__ needs a tens digit below 5; one starting 7,2__ needs 5 or more."]
   },
   {
@@ -204,7 +204,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3,80,000" }
     ],
     answerId: "d",
-    explanation: "3,76,400 is past the halfway mark 3,75,000, so it rounds up to 3,80,000. 3,76,000 is tempting if you look at the wrong digit when rounding; checking the digit just right of the place gives 3,80,000.",
+    explanation: "To the nearest ten thousand, look at the thousands digit of 3,76,400: it is 6 ≥ 5, so round up to 3,80,000. 3,76,000 is tempting if you round to the nearest thousand instead (hundreds digit 4 < 5, so 3,76,400 → 3,76,000).",
     hints: ["On the number line, is 3,76,400 before or after the halfway mark 3,75,000? That decides which end it rounds to."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 440 150\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Round to the nearest ten thousand\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"440\" height=\"150\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"220.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Round to the nearest ten thousand</text>\n  <line class=\"axis\" x1=\"18\" y1=\"92\" x2=\"422\" y2=\"92\" stroke=\"#333\" stroke-width=\"2\"/>\n  <polygon class=\"arrow\" points=\"428,92 420,87 420,97\" fill=\"#333\"/>\n  <polygon class=\"arrow\" points=\"12,92 20,87 20,97\" fill=\"#333\"/>\n  <line class=\"tick\" x1=\"30.0\" y1=\"82\" x2=\"30.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"30.0\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">3,70,000</text>\n  <line class=\"tick\" x1=\"68.0\" y1=\"82\" x2=\"68.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"106.0\" y1=\"82\" x2=\"106.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"144.0\" y1=\"82\" x2=\"144.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"182.0\" y1=\"82\" x2=\"182.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"220.0\" y1=\"82\" x2=\"220.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"258.0\" y1=\"82\" x2=\"258.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"296.0\" y1=\"82\" x2=\"296.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"334.0\" y1=\"82\" x2=\"334.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"372.0\" y1=\"82\" x2=\"372.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"tick\" x1=\"410.0\" y1=\"82\" x2=\"410.0\" y2=\"102\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"410.0\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">3,80,000</text>\n  <line class=\"part midpoint\" x1=\"220.0\" y1=\"70\" x2=\"220.0\" y2=\"106\" stroke=\"#e65100\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/>\n  <text class=\"label midpoint-label\" x=\"220.0\" y=\"120\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#e65100\">3,75,000</text>\n  <text class=\"label small\" x=\"220.0\" y=\"134\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#e65100\">(halfway)</text>\n  <circle class=\"part point\" cx=\"273.2\" cy=\"92\" r=\"7\" fill=\"#42a5f5\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line class=\"arrow\" x1=\"273.2\" y1=\"52\" x2=\"273.2\" y2=\"80\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon class=\"arrow\" points=\"273.2,83 268.2,75 278.2,75\" fill=\"#333\"/>\n  <text class=\"label point-label\" x=\"273.2\" y=\"48\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">3,76,400</text>\n</svg>", "alt": "A number line from 3,70,000 to 3,80,000 with ticks every 1,000. The halfway mark 3,75,000 is dashed in orange. A ball marked 3,76,400 sits just past the halfway mark."}
   },
@@ -231,7 +231,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "7,05,250" }
     ],
     answerId: "d",
-    explanation: "12 hundreds is 1,200, so 7,00,000 + 4,000 + 1,200 + 50 = 7,05,250. 7,04,125 is tempting if you give the digit the wrong place (ones/tens/hundreds/thousands); its place value is 7,05,250.",
+    explanation: "12 hundreds = 1,200, so 7,00,000 + 4,000 + 1,200 + 50 = 7,05,250. 7,16,050 is tempting if you treat 12 hundreds as 12 thousands (12 × 1,000 = 12,000) instead of 12 × 100 = 1,200.",
     hints: ["12 hundreds is 1,200, so it adds 1 thousand and 2 hundreds. Now combine it with 7 lakhs, 4 thousands and 5 tens."]
   },
   {
@@ -283,7 +283,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8,40,355" }
     ],
     answerId: "a",
-    explanation: "Filling the places in order gives 4, 8, 0, 3, 5, 5, which is 4,80,355. 4,80,535 is tempting if you give the digit the wrong place (ones/tens/hundreds/thousands); its place value is 4,80,355.",
+    explanation: "Lakhs 4, ten-thousands 8, thousands 0, hundreds 3, tens 5, ones 5 → 4,80,355. 4,80,535 is tempting if you swap the hundreds and tens digits and write 5 in the hundreds place and 3 in the tens place.",
     hints: ["Fill the slots one by one: lakhs digit 4, ten-thousands double that, thousands 0, hundreds one less than 4, then the last clue."]
   },
   {
@@ -296,7 +296,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5,59,999" }
     ],
     answerId: "c",
-    explanation: "5,55,000 has 5 in the thousands place so it rounds up to 5,60,000, while 5,54,999 rounds down to 5,50,000. 5,54,999 is tempting if you look at the wrong digit when rounding; checking the digit just right of the place gives 5,55,000.",
+    explanation: "Rounded to the nearest ten thousand, every whole number from 5,55,000 to 5,64,999 becomes 5,60,000, so the smallest is 5,55,000. 5,54,999 is tempting if you start the band at 5,50,000; 5,54,999 still has thousands digit 4 < 5, so it rounds down to 5,50,000.",
     hints: ["Numbers that round up to 5,60,000 start at the halfway point between 5,50,000 and 5,60,000."]
   },
   {
@@ -352,7 +352,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "24,09,000" }
     ],
     answerId: "c",
-    explanation: "Two crore, then 40 lakh, then 09 thousand and 000 gives 2,40,09,000. 2,40,90,000 is tempting if you give the digit the wrong place (ones/tens/hundreds/thousands); its place value is 2,40,09,000.",
+    explanation: "Two crore + 40 lakh + 9 thousand = 2,40,09,000. 2,40,90,000 is tempting if you write nine thousand as 90,000 (ninety thousand) instead of 09,000.",
     hints: ["Write two crore, then forty lakh as two digits, then nine thousand as two digits, then three digits. Use 0s in gaps."]
   },
   {
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2,400" }
     ],
     answerId: "d",
-    explanation: "The tens digit is 8, which is 5 or more, so 2,384 rounds up to 2,400. 2,380 is tempting if you look at the wrong digit when rounding; checking the digit just right of the place gives 2,400.",
+    explanation: "To the nearest hundred, look at the tens digit of 2,384: it is 8 ≥ 5, so round up to 2,400. 2,380 is tempting if you round to the nearest ten instead (ones digit 4 < 5, so 2,384 → 2,380).",
     hints: ["Look at the tens digit of 2,384. Is it 5 or more, or less than 5?"]
   },
   {
@@ -458,7 +458,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4,350" }
     ],
     answerId: "a",
-    explanation: "52,400 − 48,750 = 3,650, which checks out because 48,750 + 3,650 = 52,400. 3,750 is tempting if you look at the wrong digit when rounding; checking the digit just right of the place gives 3,650.",
+    explanation: "52,400 − 48,750 = 3,650 (check: 48,750 + 3,650 = 52,400). 3,750 is tempting if you first round the ground up to 52,500 and then subtract: 52,500 − 48,750 = 3,750.",
     hints: ["Empty seats = total seats − tickets sold. Subtract 48,750 from 52,400."]
   },
   {
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Town D" }
     ],
     answerId: "c",
-    explanation: "Only Sitapur (C), with 5,47,900, is between 5,00,000 and 6,00,000. A is below 5 lakh, and B and D are above 6 lakh. Town A is tempting if you give the digit the wrong place (ones/tens/hundreds/thousands); its place value is Town C.",
+    explanation: "Sitapur (C) has 5,47,900, which is more than 5 lakh and less than 6 lakh. Town B is tempting if you check only 'more than 5 lakh' and skip 'less than 6 lakh' — Motinagar has 6,12,000.",
     hints: ["Check each town's population: is it above 5,00,000 and below 6,00,000? Use the dashed lines."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 480 256\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Town Populations\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"480\" height=\"256\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"240.0\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Town Populations</text>\n  <line class=\"part guide\" x1=\"354.29\" y1=\"36\" x2=\"354.29\" y2=\"220\" stroke=\"#e65100\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/>\n  <text class=\"label small\" x=\"351.29\" y=\"234\" font-size=\"10.5\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#e65100\">5,00,000</text>\n  <line class=\"part guide\" x1=\"397.14\" y1=\"36\" x2=\"397.14\" y2=\"220\" stroke=\"#e65100\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/>\n  <text class=\"label small\" x=\"400.14\" y=\"234\" font-size=\"10.5\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#e65100\">6,00,000</text>\n  <line class=\"axis\" x1=\"140\" y1=\"36\" x2=\"140\" y2=\"220\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label option-label\" x=\"14\" y=\"60\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1565c0\">A</text>\n  <text class=\"label\" x=\"134\" y=\"60\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#333\">Kesarpur</text>\n  <rect class=\"part bar\" x=\"140\" y=\"44\" width=\"208.41000000000003\" height=\"24\" rx=\"2\" fill=\"#e3f2fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"342.41\" y=\"61\" font-size=\"11.5\" text-anchor=\"end\" font-weight=\"bold\" fill=\"#333\">4,86,300</text>\n  <text class=\"label option-label\" x=\"14\" y=\"104\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1565c0\">B</text>\n  <text class=\"label\" x=\"134\" y=\"104\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#333\">Motinagar</text>\n  <rect class=\"part bar\" x=\"140\" y=\"88\" width=\"262.29\" height=\"24\" rx=\"2\" fill=\"#e8f5e9\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"396.29\" y=\"105\" font-size=\"11.5\" text-anchor=\"end\" font-weight=\"bold\" fill=\"#333\">6,12,000</text>\n  <text class=\"label option-label\" x=\"14\" y=\"148\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1565c0\">C</text>\n  <text class=\"label\" x=\"134\" y=\"148\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#333\">Sitapur</text>\n  <rect class=\"part bar\" x=\"140\" y=\"132\" width=\"234.81\" height=\"24\" rx=\"2\" fill=\"#fff8e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"368.81\" y=\"149\" font-size=\"11.5\" text-anchor=\"end\" font-weight=\"bold\" fill=\"#333\">5,47,900</text>\n  <text class=\"label option-label\" x=\"14\" y=\"192\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1565c0\">D</text>\n  <text class=\"label\" x=\"134\" y=\"192\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#333\">Hiranpur</text>\n  <rect class=\"part bar\" x=\"140\" y=\"176\" width=\"259.48\" height=\"24\" rx=\"2\" fill=\"#fce4ec\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label value\" x=\"393.48\" y=\"193\" font-size=\"11.5\" text-anchor=\"end\" font-weight=\"bold\" fill=\"#333\">6,05,450</text>\n  <text class=\"label small\" x=\"240.0\" y=\"250\" font-size=\"10.5\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Population (dashed lines mark 5 lakh and 6 lakh)</text>\n</svg>", "alt": "Horizontal bar chart of four towns. A Kesarpur 4,86,300; B Motinagar 6,12,000; C Sitapur 5,47,900; D Hiranpur 6,05,450. Dashed orange lines mark 5,00,000 and 6,00,000."}
   },
@@ -551,7 +551,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "95,30,007" }
     ],
     answerId: "b",
-    explanation: "Writing 9 crore, then 05 lakh, then 30 thousand and 007 gives 9,05,30,007. 9,05,03,007 is tempting if you give the digit the wrong place (ones/tens/hundreds/thousands); its place value is 9,05,30,007.",
+    explanation: "9 crore + 5 lakh + 30 thousand + 7 = 9,05,30,007. 9,05,03,007 is tempting if you reverse the digits of 30 thousand and write 03,000 (three thousand) instead of 30,000.",
     hints: ["After 9 crore, lakhs and thousands take two digits each and the rest three. Fill 5 lakh, 30 thousand and 7 in place."]
   },
   {
@@ -605,7 +605,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1,00,000" }
     ],
     answerId: "b",
-    explanation: "The place values are 4,00,000 and 40, and 4,00,000 ÷ 40 = 10,000. 1,000 is tempting if you give the digit the wrong place (ones/tens/hundreds/thousands); its place value is 10,000.",
+    explanation: "Place value of the lakhs 4 is 4,00,000; of the tens 4 is 40; and 4,00,000 ÷ 40 = 10,000. 1,000 is tempting if you compare 4,00,000 with 400 (a hundreds-place 4) instead of with 40: 4,00,000 ÷ 400 = 1,000.",
     hints: ["In 4,25,340 one 4 is worth 4 lakhs and the other 4 tens. Divide the bigger place value by the smaller."]
   },
   {

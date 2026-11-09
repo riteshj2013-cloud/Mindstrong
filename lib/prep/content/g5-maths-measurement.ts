@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15 cm\u00b2" }
     ],
     answerId: "b",
-    explanation: "Area of a square is side × side = 5 × 5 = 25 cm². 20 cm² is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area; area is 25 cm².",
+    explanation: "Area of a square = side × side = 5 × 5 = 25 cm². 20 cm² is tempting if you multiply the side by 4 for the perimeter (5 × 4 = 20) instead of side × side.",
     hints: ["Area of a square = side × side. Multiply 5 cm by 5 cm."]
   },
   {
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "21 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "Area = length × breadth = 7 × 3 = 21 cm². 20 cm² is tempting if you add length and breadth (or find perimeter) instead of multiplying for area.",
+    explanation: "Area of a rectangle = length × breadth = 7 × 3 = 21 cm². 20 cm² is tempting if you find the perimeter 2 × (7 + 3) = 20 instead of multiplying for area.",
     hints: ["Area of a rectangle = length × breadth. Multiply 7 cm by 3 cm."]
   },
   {
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "120 m\u00b2" }
     ],
     answerId: "b",
-    explanation: "Area = 12 × 12 = 144 m². 120 m² is tempting if you multiply the side by 4 (that gives perimeter) instead of side × side for area; area is 144 m².",
+    explanation: "Area = 12 × 12 = 144 m². 48 m² is tempting if you multiply the side by 4 for the perimeter (12 × 4 = 48) instead of 12 × 12 for area.",
     hints: ["Area of a square = side × side. Multiply 12 m by 12 m."]
   },
   {
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "12 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "Area = 3 × 2 = 6 cm². 5 cm² is tempting if you find the perimeter instead of the area.",
+    explanation: "Area = 3 × 2 = 6 cm². 10 cm² is tempting if you find the perimeter 2 × (3 + 2) = 10 instead of the area.",
     hints: ["Area of a rectangle = length × breadth. Multiply 3 cm by 2 cm."]
   },
   {
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "60 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "10 × 6 = 60 cm². 32 cm² is tempting if you add length and breadth (or find perimeter) instead of multiplying for area.",
+    explanation: "Area = 10 × 6 = 60 cm². 32 cm² is tempting if you find the perimeter 2 × (10 + 6) = 32 instead of multiplying for area.",
     hints: ["Area of a rectangle = length × breadth. Multiply 10 cm by 6 cm."]
   },
   {
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "200 cm\u00b2" }
     ],
     answerId: "a",
-    explanation: "20 × 15 = 300 cm². 200 cm² is tempting if you find the perimeter instead of the area.",
+    explanation: "Area = 20 × 15 = 300 cm². 70 cm² is tempting if you find the perimeter 2 × (20 + 15) = 70 instead of the area.",
     hints: ["Area of a rectangle = length × breadth. Multiply 20 cm by 15 cm."]
   },
   {
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1500 m\u00b2" }
     ],
     answerId: "d",
-    explanation: "50 × 30 = 1500 m². 800 m² is tempting if you find the perimeter instead of the area.",
+    explanation: "Area = 50 × 30 = 1500 m². 160 m² is tempting if you find the perimeter 2 × (50 + 30) = 160 instead of the area.",
     hints: ["Area of a rectangle = length × breadth. Multiply 50 m by 30 m: do 5 × 3, then add the zeros."]
   },
   {

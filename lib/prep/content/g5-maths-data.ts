@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Place-value chart" }
     ],
     answerId: "a",
-    explanation: "A pictograph uses pictures (icons) for quantities. Bar graph is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is Pictograph.",
+    explanation: "A pictograph uses pictures (icons) for quantities. Bar graph is tempting if you assume every display of amounts must use bars, forgetting that pictographs use pictures instead.",
     hints: ["Look for the display whose key says what one picture stands for, like ⭐ = 2 children."]
   },
   {
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "The most popular colour" }
     ],
     answerId: "d",
-    explanation: "The tallest bar has the greatest frequency. The least popular colour is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is The most popular colour.",
+    explanation: "The tallest bar has the greatest frequency, so it shows the most popular colour. The least popular colour is tempting if you mix up tallest with shortest and treat the tallest bar as the least popular.",
     hints: ["A taller bar means more votes for that colour. What do the most votes tell you?"]
   },
   {
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "A title and labelled axes" }
     ],
     answerId: "d",
-    explanation: "Title, labels and scale make the graph readable. Only colours is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is A title and labelled axes.",
+    explanation: "A clear bar graph needs a title and labelled axes (and a scale). Only colours is tempting if you think colouring the bars is enough and skip the title, labels and scale that make the graph readable.",
     hints: ["A reader must know what the bar graph is about and what each line measures. What tells them that?"]
   },
   {
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Horizontal axis (or x-axis)" }
     ],
     answerId: "d",
-    explanation: "The bottom axis is the horizontal axis. Title is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is Horizontal axis (or x-axis).",
+    explanation: "The line along the bottom of a bar graph is the horizontal axis (x-axis). Title is tempting if you name the heading written above the graph instead of that bottom axis.",
     hints: ["The two lines that frame a bar graph are its axes. Which one runs along the bottom, left to right?"]
   },
   {
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Place-value chart" }
     ],
     answerId: "a",
-    explanation: "Bar graphs use equal-width bars. Pictograph is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is Bar graph.",
+    explanation: "A bar graph draws bars of equal width. Pictograph is tempting if you remember that pictographs also compare amounts, but they use pictures, not equal-width bars.",
     hints: ["Which display draws a rectangle of the same width for each item, with heights that differ?"]
   },
   {
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "The least frequency" }
     ],
     answerId: "d",
-    explanation: "Shortest bar means the smallest count. The greatest frequency is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is The least frequency.",
+    explanation: "The shortest bar has the smallest count, so it shows the least frequency. The greatest frequency is tempting if you read the shortest bar as if it were the tallest.",
     hints: ["A shorter bar means fewer counts. What do the fewest counts tell you?"]
   },
   {
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "18" }
     ],
     answerId: "d",
-    explanation: "9 × 2 = 18 goals. 11 is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is 18.",
+    explanation: "Scale 1 unit = 2 goals and height 9 units give 9 × 2 = 18 goals. 9 is tempting if you report the bar height in units and forget to multiply by the scale factor 2.",
     hints: ["Each unit stands for 2 goals. Multiply the 9 units by 2."]
   },
   {
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "30" }
     ],
     answerId: "d",
-    explanation: "7.5 × 4 = 30 pupils. 32 is tempting if you read the tallest or a neighbouring bar instead of the one the question asks for; the answer is 30.",
+    explanation: "Scale 1 unit = 4 pupils and height 7.5 units give 7.5 × 4 = 30 pupils. 32 is tempting if you round 7.5 units up to 8 before multiplying by 4 (8 × 4 = 32).",
     hints: ["Each unit is 4 pupils. Multiply 7.5 by 4: do 7 × 4, then add half of 4."]
   }
 ];
