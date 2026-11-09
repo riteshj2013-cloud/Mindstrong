@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "50 cm" }
     ],
     answerId: "a",
-    explanation: "1 m = 100 cm. 50 cm is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "1 m = 100 cm. 50 cm is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 100 cm.",
     hints: ["A metre ruler is marked in centimetres. How many centimetre marks run along the whole metre?"]
   },
   {
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10000 m" }
     ],
     answerId: "b",
-    explanation: "1 km = 1000 m. 100 m is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "1 km = 1000 m. 100 m is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 1000 m.",
     hints: ["Think of the prefix 'kilo': how many grams are in a kilogram? A kilometre uses the same prefix with metres."]
   },
   {
@@ -39,7 +39,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "500 g" }
     ],
     answerId: "c",
-    explanation: "1 kg = 1000 g. 500 g is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "1 kg = 1000 g. 500 g is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 1000 g.",
     hints: ["Think of the prefix 'kilo': how many metres are in a kilometre? A kilogram uses the same prefix with grams."]
   },
   {
@@ -52,7 +52,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1000 ml" }
     ],
     answerId: "d",
-    explanation: "1 L = 1000 ml. 500 ml is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "1 L = 1000 ml. 500 ml is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 1000 ml.",
     hints: ["A millilitre is a tiny part of a litre, just as a millimetre is of a metre. How many millimetres make a metre?"]
   },
   {
@@ -117,7 +117,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "kilometre" }
     ],
     answerId: "a",
-    explanation: "A classroom is a few metres long, so metre is the sensible unit. millimetre is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "A classroom is a few metres long, so metre is the sensible unit. millimetre is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives metre.",
     hints: ["A classroom is longer than a ruler but much shorter than a road between towns. Pick a unit to match."]
   },
   {
@@ -130,7 +130,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "litre" }
     ],
     answerId: "b",
-    explanation: "Sugar is sold by mass, usually in kilograms (or grams). millilitre is tempting, but it does not match what the question asks.",
+    explanation: "Sugar is sold by mass, usually in kilograms (or grams). millilitre is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives kilogram.",
     hints: ["A packet of sugar is weighed, not poured or measured with a ruler. Which unit fits a mass that size?"]
   },
   {
@@ -143,7 +143,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3 cm" }
     ],
     answerId: "c",
-    explanation: "3 × 100 = 300 cm. 30 cm is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "3 × 100 = 300 cm. 30 cm is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 300 cm.",
     hints: ["1 m = 100 cm, so multiply 3 by 100."]
   },
   {
@@ -156,7 +156,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2000 g" }
     ],
     answerId: "d",
-    explanation: "2 × 1000 = 2000 g. 2500 g is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "2 × 1000 = 2000 g. 2500 g is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 2000 g.",
     hints: ["1 kg = 1000 g, so multiply 2 by 1000."]
   },
   {
@@ -195,7 +195,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "4500 m" }
     ],
     answerId: "c",
-    explanation: "450 ÷ 100 = 4.5 m. 0.45 m is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "450 ÷ 100 = 4.5 m. 0.45. 45 m is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 4.5 m.",
     hints: ["100 cm = 1 m, so divide 450 by 100."]
   },
   {
@@ -208,7 +208,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3.5 L" }
     ],
     answerId: "d",
-    explanation: "3500 ÷ 1000 = 3.5 L. 0.35 L is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "3500 ÷ 1000 = 3.5 L. 0.35. 35 L is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 3.5 L.",
     hints: ["1000 ml = 1 L, so divide 3500 by 1000."]
   },
   {
@@ -234,7 +234,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0.5 mm" }
     ],
     answerId: "b",
-    explanation: "1 cm = 10 mm, so 5 cm = 50 mm. 5 mm is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "1 cm = 10 mm, so 5 cm = 50 mm. 5 mm is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 50 mm.",
     hints: ["1 cm = 10 mm, so multiply 5 by 10."]
   },
   {
@@ -273,7 +273,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "a",
-    explanation: "1.2 km = 1200 m, so they are equal. 1.2 km is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "1.2 km = 1200 m, so they are equal. 1.2. 1.2 km is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives They are equal.",
     hints: ["Change 1.2 km to metres by multiplying by 1000, then compare with 1200 m."]
   },
   {
@@ -312,7 +312,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "d",
-    explanation: "2 L = 2000 ml; 2000 ÷ 250 = 8 cans. 6 is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "2 L = 2000 ml; 2000 ÷ 250 = 8 cans. 6 is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 1000 mm.",
     hints: ["Change 2 L to millilitres first, then divide by the 250 ml in each can."]
   }
 ];
@@ -328,7 +328,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1000 mm" }
     ],
     answerId: "a",
-    explanation: "1 cm = 10 mm. 1 mm is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "1 cm = 10 mm. 1 mm is tempting if you use the wrong place-value jump between units, but the correct conversion gives 10 mm.",
     hints: ["Look at a ruler: count the small millimetre marks between 0 and 1 centimetre."]
   },
   {
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "10,000 cm" }
     ],
     answerId: "b",
-    explanation: "1 km = 1000 m = 1000 × 100 cm = 100,000 cm. 10,000 cm is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "1 km = 1000 m = 1000 × 100 cm = 100,000 cm. 10,000 cm is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 100,000 cm.",
     hints: ["1 kilometre = 1000 m and 1 m = 100 cm. Multiply 1000 by 100."]
   },
   {
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "500 kg" }
     ],
     answerId: "c",
-    explanation: "5000 ÷ 1000 = 5 kg. 0.5 kg is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "5000 ÷ 1000 = 5 kg. 0.5. 50 kg is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 5 kg.",
     hints: ["1000 g = 1 kg — multiply or divide by 1000 to convert."]
   },
   {
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2 L" }
     ],
     answerId: "d",
-    explanation: "2000 ÷ 1000 = 2 L. 0.2 L is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "2000 ÷ 1000 = 2 L. 0.2. 20 L is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 2 L.",
     hints: ["1000 ml = 1 L, so divide 2000 by 1000."]
   },
   {
@@ -432,7 +432,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "ml" }
     ],
     answerId: "a",
-    explanation: "City distances are measured in kilometres. cm is tempting, but it does not match what the question asks.",
+    explanation: "City distances are measured in kilometres. cm is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives km.",
     hints: ["Cities are many thousands of metres apart. Which unit is made for long distances?"]
   },
   {
@@ -445,7 +445,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "metre" }
     ],
     answerId: "b",
-    explanation: "Small liquid amounts use millilitres. kilometre is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "Small liquid amounts use millilitres. kilometre is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives millilitre.",
     hints: ["Cough syrup is a liquid, and a spoonful is a tiny amount. Which unit measures small volumes?"]
   },
   {
@@ -458,7 +458,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "40,000 m" }
     ],
     answerId: "c",
-    explanation: "4 × 1000 = 4000 m. 400 m is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "4 × 1000 = 4000 m. 400 m is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 4000 m.",
     hints: ["1 km = 1000 m, so multiply 4 by 1000."]
   },
   {
@@ -471,7 +471,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "3000 ml" }
     ],
     answerId: "d",
-    explanation: "3 × 1000 = 3000 ml. 300 ml is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "3 × 1000 = 3000 ml. 300 ml is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 3000 ml.",
     hints: ["1 L = 1000 ml, so multiply 3 by 1000."]
   },
   {
@@ -510,7 +510,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "2.5 cm" }
     ],
     answerId: "c",
-    explanation: "2.5 × 100 = 250 cm. 25 cm is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "2.5 × 100 = 250 cm. 25 cm is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 250 cm.",
     hints: ["1 m = 100 cm, so multiply 2.5 by 100."]
   },
   {
@@ -523,7 +523,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1250 g" }
     ],
     answerId: "d",
-    explanation: "1.25 × 1000 = 1250 g. 125 g is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "1.25 × 1000 = 1250 g. 125 g is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 1250 g.",
     hints: ["1 kg = 1000 g, so multiply 1.25 by 1000."]
   },
   {
@@ -549,7 +549,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "800 cm" }
     ],
     answerId: "b",
-    explanation: "80 ÷ 10 = 8 cm. 0.8 cm is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "80 ÷ 10 = 8 cm. 0.8. 0.8 cm is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 8 cm.",
     hints: ["10 mm = 1 cm, so divide 80 by 10."]
   },
   {
@@ -588,7 +588,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Cannot tell" }
     ],
     answerId: "a",
-    explanation: "2.5 kg = 2500 g, which is more than 2400 g. 2400 g is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "2.5 kg = 2500 g, which is more than 2400 g. 2400 g is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 2.5 kg.",
     hints: ["Change the kilograms to grams by multiplying by 1000, then compare with 2400 g."]
   },
   {
@@ -627,7 +627,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "24" }
     ],
     answerId: "d",
-    explanation: "12 L = 12,000 ml; 12,000 ÷ 500 = 24 bottles. 20 is tempting if you multiply or divide by the wrong conversion factor.",
+    explanation: "12 L = 12,000 ml; 12,000 ÷ 500 = 24 bottles. 20 is tempting if you use the wrong place-value jump between units (for example treating 100 as 10 or 1000 as 100), but the correct conversion gives 24.",
     hints: ["Change 12 L to millilitres first, then divide by the 500 ml in each bottle."]
   }
 ];
