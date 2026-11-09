@@ -5,7 +5,7 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g4-maths-data-a-q01",
-    prompt: "In a tally chart, one complete tally gate (|||| with a slash) stands for…",
+    prompt: "In a tally chart, one complete tally gate (four upright strokes with a slash across them) stands for…",
     options: [
       { id: "a", text: "5" },
       { id: "b", text: "4" },
@@ -13,12 +13,12 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1" },
     ],
     answerId: "a",
-    explanation: "A tally gate of five strokes (four upright + one diagonal) means 5.",
-    hints: ["Tally marks group by fives.", "Four lines + cross = 5."],
+    explanation: "A tally gate of five strokes (four upright + one diagonal slash) means 5. Plain upright strokes with no slash count as 1 each.",
+    hints: ["A complete gate has four upright strokes and one slash across them. Count every stroke."],
   },
   {
     id: "g4-maths-data-a-q02",
-    prompt: "Tally |||| means…",
+    prompt: "Look at the tally. How many does it show?",
     options: [
       { id: "a", text: "3" },
       { id: "b", text: "4" },
@@ -26,8 +26,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "6" },
     ],
     answerId: "b",
-    explanation: "Four upright strokes without a cross mean 4.",
-    hints: ["Count the strokes.", "No diagonal yet → still under 5."],
+    explanation: "Four upright strokes with no slash mean 4. 5 is tempting if you treat any group of four upright strokes as a completed gate of 5 even when there is no slash.",
+    hints: ["Is there a slash across the strokes? Plain strokes without a slash count as 1 each."],
+    figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 320 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Four upright tally strokes with no slash\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"320\" height=\"160\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"160.0\" y=\"28\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Tally marks</text>\n  <line class=\"part tally\" x1=\"100\" y1=\"70\" x2=\"100\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"110\" y1=\"70\" x2=\"110\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"120\" y1=\"70\" x2=\"120\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"130\" y1=\"70\" x2=\"130\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <text class=\"label small\" x=\"160.0\" y=\"148\" font-size=\"10\" text-anchor=\"middle\" fill=\"#666\">Plain strokes with no slash count as 1 each.</text>\n</svg>", "alt": "Four upright tally strokes with no crossing slash."}
   },
   {
     id: "g4-maths-data-a-q03",
@@ -109,16 +110,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-maths-data-a-q09",
-    prompt: "Tally for 7 is…",
+    prompt: "Which tally shows 7?",
     options: [
-      { id: "a", text: "|||| ||" },
-      { id: "b", text: "||||" },
-      { id: "c", text: "|||| |||" },
-      { id: "d", text: "|||" },
+      { id: "a", text: "One crossed bundle of 5 and 2 single strokes" },
+      { id: "b", text: "Four single strokes only" },
+      { id: "c", text: "One crossed bundle of 5 and 3 single strokes" },
+      { id: "d", text: "Three single strokes only" },
     ],
     answerId: "a",
-    explanation: "One gate of 5 plus 2 more strokes = 7.",
-    hints: ["Make groups of 5, then leftovers.", "5 + 2."],
+    explanation: "A crossed bundle is 5 and two singles make 7. Four single strokes only is 4. One crossed bundle and 3 singles is 8.",
+    hints: ["A crossed bundle counts as 5. How many singles do you still need to make 7?"],
   },
   {
     id: "g4-maths-data-a-q10",
@@ -422,16 +423,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-maths-data-b-q09",
-    prompt: "Tally for 11 is…",
+    prompt: "Which is the usual bundled tally for 11?",
     options: [
-      { id: "a", text: "|||| |||| |" },
-      { id: "b", text: "|||| |||| ||" },
-      { id: "c", text: "|||| |||" },
-      { id: "d", text: "||| ||||" },
+      { id: "a", text: "Two crossed bundles of 5 and 1 single stroke" },
+      { id: "b", text: "Two crossed bundles of 5 and 2 single strokes" },
+      { id: "c", text: "One crossed bundle of 5 and 3 single strokes" },
+      { id: "d", text: "Two crossed bundles of 5 only" },
     ],
     answerId: "a",
-    explanation: "Two gates (10) plus one stroke = 11.",
-    hints: ["10 + 1.", "Two fives and a single."],
+    explanation: "Two crossed bundles make 10 and one single stroke makes 11. Two bundles and 2 singles make 12. One bundle and 3 singles make 8. Two bundles only make 10.",
+    hints: ["Two crossed bundles make 10. How many singles make the total 11?"],
   },
   {
     id: "g4-maths-data-b-q10",
@@ -571,7 +572,7 @@ const SET_B: PrepQuestion[] = [
       { id: "c", text: "8" },
       { id: "d", text: "15" },],
     answerId: "d",
-    explanation: "Monday has two crossed bundles (10) and Tuesday has one (5), so 10 + 5 = 15. 12 is tempting if you count each upright stick as 1 and ignore the crossing slashes (4+4+4).",
+    explanation: "Monday has two crossed bundles (10) and Tuesday has one (5), so 10 + 5 = 15. 10 is tempting if you count only Monday's two bundles and forget to add Tuesday's.",
     hints: ["Each crossed group is a bundle of 5. Find Monday's total, then Tuesday's, then add."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 320 175\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Tally chart: Monday two crossed bundles of five; Tuesday one crossed bundle of five\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"320\" height=\"175\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"160.0\" y=\"28\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Library visitors</text>\n  <text class=\"label\" x=\"24\" y=\"58\" font-size=\"13\" fill=\"#333\">Monday</text>\n  <line class=\"part tally\" x1=\"90\" y1=\"40\" x2=\"90\" y2=\"80\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"100\" y1=\"40\" x2=\"100\" y2=\"80\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"110\" y1=\"40\" x2=\"110\" y2=\"80\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"120\" y1=\"40\" x2=\"120\" y2=\"80\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"86\" y1=\"74\" x2=\"124\" y2=\"46\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"152\" y1=\"40\" x2=\"152\" y2=\"80\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"162\" y1=\"40\" x2=\"162\" y2=\"80\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"172\" y1=\"40\" x2=\"172\" y2=\"80\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"182\" y1=\"40\" x2=\"182\" y2=\"80\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"148\" y1=\"74\" x2=\"186\" y2=\"46\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <text class=\"label\" x=\"24\" y=\"118\" font-size=\"13\" fill=\"#333\">Tuesday</text>\n  <line class=\"part tally\" x1=\"90\" y1=\"100\" x2=\"90\" y2=\"140\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"100\" y1=\"100\" x2=\"100\" y2=\"140\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"110\" y1=\"100\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"120\" y1=\"100\" x2=\"120\" y2=\"140\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"86\" y1=\"134\" x2=\"124\" y2=\"106\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <text class=\"label small\" x=\"160.0\" y=\"160\" font-size=\"11\" text-anchor=\"middle\" fill=\"#666\">Each crossed group is a bundle of 5. Total both days.</text>\n</svg>", "alt": "Monday two crossed bundles of five; Tuesday one crossed bundle of five."}
   },
@@ -652,7 +653,7 @@ const lesson: ChapterDef["lesson"] = [
     visual: "number-line",
     speak: "Tally marks group by fives. Tables use rows and columns. Pictographs use pictures with a key. Bar graphs use bar heights.",
     cards: [
-      { label: "Tally", reveal: "|||| with a slash = 5", emoji: "✍️" },
+      { label: "Tally", reveal: "Four upright + slash = 5; plain strokes = 1 each", emoji: "✍️" },
       { label: "Table", reveal: "Rows & columns of facts", emoji: "🗓️" },
       { label: "Pictograph", reveal: "Pictures + a key (1 icon = ?)", emoji: "🖼️" },
       { label: "Bar graph", reveal: "Bar height shows the number", emoji: "📊" },
@@ -710,7 +711,7 @@ const lesson: ChapterDef["lesson"] = [
     speak: "A tally shows two gates and three extra strokes. How many is that?",
     question: {
       id: "g4-data-check",
-      prompt: "A tally shows |||| |||| |||. How many does it show?",
+      prompt: "Look at the tally chart. How many does it show?",
       options: [
         { id: "a", text: "10" },
         { id: "b", text: "11" },
@@ -718,8 +719,9 @@ const lesson: ChapterDef["lesson"] = [
         { id: "d", text: "8" },
       ],
       answerId: "c",
-      explanation: "5 + 5 + 3 = 13.",
-      hints: ["Each gate counts as 5.", "Then add the three strokes."],
+      explanation: "Two crossed bundles of 5 and three single strokes make 5 + 5 + 3 = 13. 11 is tempting if you read each upright group of four as 4 (4+4+3) and ignore the slashes.",
+      hints: ["Each crossed group is a bundle of 5. Count the bundles, then the single strokes."],
+      figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 320 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Tally of two crossed bundles of five and three single strokes\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"320\" height=\"160\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"160.0\" y=\"28\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Tally chart</text>\n  <line class=\"part tally\" x1=\"40\" y1=\"70\" x2=\"40\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"50\" y1=\"70\" x2=\"50\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"60\" y1=\"70\" x2=\"60\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"70\" y1=\"70\" x2=\"70\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"36\" y1=\"114\" x2=\"74\" y2=\"76\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"102\" y1=\"70\" x2=\"102\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"112\" y1=\"70\" x2=\"112\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"122\" y1=\"70\" x2=\"122\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"132\" y1=\"70\" x2=\"132\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"98\" y1=\"114\" x2=\"136\" y2=\"76\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"164\" y1=\"70\" x2=\"164\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"174\" y1=\"70\" x2=\"174\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"184\" y1=\"70\" x2=\"184\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <text class=\"label small\" x=\"160.0\" y=\"148\" font-size=\"10\" text-anchor=\"middle\" fill=\"#666\">Each crossed group is a bundle of 5. Plain strokes without a slash count as 1 each.</text>\n</svg>", "alt": "Two crossed bundles of five and three single strokes."}
     },
   },
   {
