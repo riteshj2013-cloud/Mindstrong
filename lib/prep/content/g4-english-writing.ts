@@ -593,7 +593,7 @@ const SET_B: PrepQuestion[] = [
   },
 {
     id: "g4-eng-ch05-b-q22",
-    prompt: "In the letter style, \"Yours lovingly\" should appear —",
+    prompt: "In a letter, \"Yours lovingly\" should appear —",
     options: [
       { id: "a", text: "Before the address at the very top" },
       { id: "b", text: "Just before the writer's name at the end" },
