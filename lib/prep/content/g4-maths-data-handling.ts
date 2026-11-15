@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1" },
     ],
     answerId: "a",
-    explanation: "A tally gate of five strokes (four upright + one diagonal slash) means 5. Plain upright strokes with no slash count as 1 each.",
+    explanation: "Count every stroke in the gate: 4 upright strokes and 1 slash across them. 4 + 1 = 5, so one complete gate stands for 5. 4 is tempting if you count only the upright strokes and skip the slash.",
     hints: ["The slash across the uprights is a mark too."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 320 160\" width=\"320\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"One complete tally gate: four upright strokes with a slash across them\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"320\" height=\"160\" fill=\"#fff\"/>\n  <line class=\"part tally\" x1=\"140\" y1=\"40\" x2=\"140\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"150\" y1=\"40\" x2=\"150\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"160\" y1=\"40\" x2=\"160\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"170\" y1=\"40\" x2=\"170\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"136\" y1=\"114\" x2=\"174\" y2=\"46\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n</svg>", "alt": "One complete tally gate with four upright strokes and a slash."},
   },
@@ -120,7 +120,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A crossed bundle is 5, and 5 + 2 singles = 7. Four single strokes only is 4. One crossed bundle and 3 singles is 8. Three single strokes only is 3.",
-    hints: ["Each crossed bundle stands for 5 and each single stroke adds 1. Work out the value of each choice before you pick."],
+    hints: ["Find the tally worth exactly 7. Start from the crossed bundle, then count on with the single strokes in each choice."],
   },
   {
     id: "g4-maths-data-a-q10",
@@ -196,7 +196,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "15" },],
     answerId: "c",
     explanation: "Two crossed bundles of 5 and two single strokes make 5 + 5 + 2 = 12. 10 is tempting if you count each group of four upright sticks as 4 and ignore the crossing slash.",
-    hints: ["Each crossed group is a bundle of 5. Count the bundles, then the single strokes."],
+    hints: ["Count the cricket fans bundle by bundle: each crossed group is worth more than its upright sticks alone. Then add on the loose strokes."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 320 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Tally of two crossed bundles of five and two single strokes\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"320\" height=\"160\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"160.0\" y=\"28\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Cricket fans tally</text>\n  <line class=\"part tally\" x1=\"40\" y1=\"70\" x2=\"40\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"50\" y1=\"70\" x2=\"50\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"60\" y1=\"70\" x2=\"60\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"70\" y1=\"70\" x2=\"70\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"36\" y1=\"114\" x2=\"74\" y2=\"76\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"102\" y1=\"70\" x2=\"102\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"112\" y1=\"70\" x2=\"112\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"122\" y1=\"70\" x2=\"122\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"132\" y1=\"70\" x2=\"132\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally-slash\" x1=\"98\" y1=\"114\" x2=\"136\" y2=\"76\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"164\" y1=\"70\" x2=\"164\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <line class=\"part tally\" x1=\"174\" y1=\"70\" x2=\"174\" y2=\"120\" stroke=\"#333\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n  <text class=\"label small\" x=\"160.0\" y=\"145\" font-size=\"11\" text-anchor=\"middle\" fill=\"#666\">Each crossed group is a bundle of 5.</text>\n</svg>", "alt": "Two crossed tally bundles of five and two single strokes for cricket fans."}
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Two crossed bundles make 10 and one single stroke makes 11. Two bundles and 2 singles make 12. One bundle and 3 singles make 8. Two bundles only make 10.",
-    hints: ["Each crossed bundle stands for 5 and each single stroke adds 1. Work out the value of each choice before you pick."],
+    hints: ["Think how many full bundles fit into 11 before any strokes are left over. The usual tally never leaves enough singles to make another bundle."],
   },
   {
     id: "g4-maths-data-b-q10",

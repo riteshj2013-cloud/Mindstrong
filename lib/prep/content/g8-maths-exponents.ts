@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4⁸" }
     ],
     answerId: "a",
-    explanation: "For a power of a power, multiply the exponents: (4²)² = 4^(2 × 2) = 4⁴. 4² is tempting if you square only once and think the outer ² is already used up. 4⁸ is tempting if you write 4^(2² × 2) by treating the stacked 2s as 2² and then still multiplying by the outer 2.",
+    explanation: "A power of a power means you multiply the exponents: (4²)² = 4^(2 × 2) = 4⁴. Check: 4² = 16 and 16² = 256 = 4⁴. 8² is tempting if you work out 4² as 4 × 2 = 8 instead of 4 × 4, and then square that 8.",
     hints: ["A power raised to a power: what do you do with the two small numbers, and what stays the same?"]
   },
   {
