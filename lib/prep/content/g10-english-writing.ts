@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "An article body moves from introduction to the problem or discussion, then suggestions and a conclusion. 'Only data table with no words' is tempting because articles may use facts, but an article explains them in paragraphs.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Picture a school magazine article on plastic waste near your colony, and trace how its body moves from the opening paragraph to the last."]
   },
   {
     id: "g10-eng-ch03-a-q08",
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Notices use the third person and short, clear sentences because they address a whole group. 'Chat slang' is tempting because it is quick to read, but a notice is formal and must be clear to everyone.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Picture the school notice board: each notice is written by an office for a whole crowd of students hurrying past between classes."]
   },
   {
     id: "g10-eng-ch03-a-q10",
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "A complaint should be polite but firm, stating the problem clearly and asking for action. 'Sarcastic slang' is tempting because the writer is annoyed, but sarcasm and slang make a formal letter less effective.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Imagine writing a complaint to the electricity board about daily power cuts: you want action, and you want the officer to keep reading."]
   },
   {
     id: "g10-eng-ch03-a-q13",
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "A letter to the editor raises a public issue, explains its effects and appeals for action. 'Class timetable only' is tempting because it is school-related, but it is not a public issue for newspaper readers.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["A newspaper editor prints letters that matter to many readers, such as waterlogged roads after rain. Think about what such a letter must cover."]
   },
   {
     id: "g10-eng-ch03-a-q14",
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A subject line like 'Hello' tells the reader nothing about the email's topic, so it should be avoided. 'Dates when relevant' is tempting because extra detail can seem cluttered, but a relevant date makes a subject clearer.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Imagine your teacher's inbox holding fifty unread emails. Think about which subject line would leave her unable to guess what yours is about."]
   },
   {
     id: "g10-eng-ch03-a-q18",
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Formal invitations use the third person ('The Principal requests the pleasure…') and a fixed layout. 'Omit time and place' is tempting because formal cards look short, but every invitation must give the time and place.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Recall a formal printed wedding invitation from your family: notice who speaks on the card and how its lines are arranged."]
   },
   {
     id: "g10-eng-ch03-a-q19",
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A line that rises and then falls is described as having 'increased and then declined'. 'Stayed perfectly flat with no change' is tempting if you only compare the start and end, but the graph clearly rose and fell in between.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Trace the graph with your finger from left to right, like Mumbai's monthly rainfall, and find words for each half of its movement."]
   },
   {
     id: "g10-eng-ch03-a-q20",
@@ -286,8 +286,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "at the top, before the date" }
     ],
     answerId: "d",
-    explanation: "Standard school format: sender address \u2192 date \u2192 receiver \u2192 subject \u2192 salutation.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The sender's address goes at the top, followed by the date, then the receiver's details and the subject. 'After the signature' is tempting because the sender's name appears there, but the address belongs at the top.",
+    hints: ["Picture a formal letter from your school office: the reader should learn where it came from before anything else on the page."]
   },
   {
     id: "g10-eng-ch03-a-q23",
@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "'I request you to look into the irregular water supply in our area' is polite, formal and names the problem. 'Fix it now, dude' is tempting because it is direct, but it is rude and informal.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Read each sentence as if a municipal officer were opening your complaint. Look for the one that is courteous and names the actual problem."]
   },
   {
     id: "g10-eng-ch03-b-q02",
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "'Compulsory' tells readers that attending or acting is required. 'Mean optional' is tempting because both words describe whether you must attend, but optional is the opposite of compulsory.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Picture 'Compulsory' printed in bold on a notice about the Annual Day rehearsal. Think about what a student reading it must now do."]
   },
   {
     id: "g10-eng-ch03-b-q04",
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "A report title should be clear and factual so readers know the event at a glance. 'A riddle' is tempting because it might grab attention, but a report must inform, not puzzle.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Someone flipping through the school magazine should know from the report title alone which event it covers, such as the science fair."]
   },
   {
     id: "g10-eng-ch03-b-q08",
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "From 45% to 60% is a rise of 60 − 45 = 15 percentage points. 'Doubled' is tempting because it is a big rise, but doubling 45% would give 90%.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Work out the gap between the two data figures first, then think about which unit honestly describes a change between two percentages."]
   },
   {
     id: "g10-eng-ch03-b-q09",
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "A formal email has a clear subject, salutation, body, closing and the sender's name. 'Only attachments with no text' is tempting because attachments carry the content, but the email still needs a short message.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Picture a formal email to your class teacher asking for leave, and trace it from its line in the inbox to the last word."]
   },
   {
     id: "g10-eng-ch03-b-q10",
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "A diary entry has a date and records your own feelings about events in the first person. 'A formal subject line' is tempting because letters and emails have one, but a diary is private and informal.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["A diary entry is written for yourself, perhaps after a Diwali evening. Think about what goes at the top and whose voice fills it."]
   },
   {
     id: "g10-eng-ch03-b-q17",
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "The receiver is the person the task names: the Principal, with the school's name and place. 'The Municipal Commissioner always' is tempting because many formal letters go to officials, but this letter is addressed to the Principal.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Read the task line again: it already tells you exactly who will open this letter, so the address block should follow from that."]
   },
   {
     id: "g10-eng-ch03-b-q18",
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Linkers like while, whereas and however show contrast between the two series. 'Because only' is tempting because it is also a linker, but 'because' gives a reason; it does not contrast.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Imagine comparing Delhi and Chennai rainfall where one series rises as the other falls. Choose words that set the two against each other."]
   },
   {
     id: "g10-eng-ch03-b-q19",
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Good writing moves from plan to draft to revise to proofread. 'Proofread → plan → ignore task' is tempting because proofreading matters, but you cannot proofread before you have written anything.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Think about writing a speech for morning assembly, from the first idea on scrap paper to the final hunt for spelling slips."]
   },
   {
     id: "g10-eng-ch03-b-q21",
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "A feature on a teacher should be respectful and readable and use specific stories about them. 'A formal FIR' is tempting because it is a factual document, but an FIR is a police complaint, not a magazine feature.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Imagine your favourite teacher reading the school magazine on Teachers' Day. Think about what tone and what kind of stories would do them justice."]
   },
   {
     id: "g10-eng-ch03-b-q24",
