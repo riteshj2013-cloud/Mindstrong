@@ -157,8 +157,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5°C" }
     ],
     answerId: "d",
-    explanation: "−2 + 7 = 5, so the new temperature is 5°C. 9°C is tempting if you find the difference of the absolute values and then forget which number was more negative; the result is 5°C.",
-    hints: ["Start at −2, then add the rise."]
+    explanation: "Start at −2°C and move up 7 degrees: 2 degrees take you to 0°C and 5 more take you to 5°C. So −2 + 7 = 5, and the new temperature is 5°C. 9°C is tempting if you ignore the minus sign on −2 and add 2 + 7 = 9.",
+    hints: ["Begin at the morning reading. Climbing to 0°C uses up part of the rise; carry on upward with whatever is left."]
   },
   {
     id: "g6-maths-int-a-q13",
@@ -170,8 +170,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "−5" }
     ],
     answerId: "a",
-    explanation: "The correct answer is 5. 11 is tempting if you replace (−) − (−) with a single minus instead of adding; simplifying the signs gives 5.",
-    hints: ["Negative floor plus upward moves."]
+    explanation: "Floor −3 is 3 floors below the ground floor. Going up 3 floors reaches the ground floor, and the other 5 floors take the lift to floor 5. So −3 + 8 = 5. 11 is tempting if you ignore the minus sign on −3 and add 3 + 8 = 11.",
+    hints: ["How many of the 8 floors does the lift use just to climb back to ground level? Spend the rest above it."]
   },
   {
     id: "g6-maths-int-a-q14",
@@ -274,8 +274,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "10" }
     ],
     answerId: "a",
-    explanation: "Successor means +1: −11 + 1 = −10. −12 is tempting if you subtract smaller-from-larger without watching which number is negative.",
-    hints: ["Successor = add 1."]
+    explanation: "The successor of an integer is the one just after it, which is 1 more. On a number line it is one step to the right: −11 + 1 = −10. −12 is tempting if you step to the left instead and work out −11 − 1 = −12. That gives the predecessor, not the successor.",
+    hints: ["Decide whether a successor comes before or after a number. Then find which way that is from −11 on the number line."]
   },
   {
     id: "g6-maths-int-a-q22",
@@ -287,8 +287,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "b",
-    explanation: "Predecessor means −1: −4 − 1 = −5. −3 is tempting if you multiply the sizes correctly but choose the sign as if the factors had different signs; the product is −5.",
-    hints: ["Predecessor = subtract 1."]
+    explanation: "The predecessor of an integer is the one just before it, which is 1 less. On a number line it is one step to the left: −4 − 1 = −5. −3 is tempting if you step to the right instead and work out −4 + 1 = −3. That gives the successor, not the predecessor.",
+    hints: ["Write −4 with a few neighbouring integers in increasing order. Decide what predecessor means, then locate it."]
   },
   {
     id: "g6-maths-int-a-q23",
@@ -342,8 +342,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "12" }
     ],
     answerId: "b",
-    explanation: "Distance = |3 − (−4)| = |7| = 7. 1 is tempting if you include an endpoint that should be left out, or count a step the wrong way.",
-    hints: ["Distance is the absolute difference."]
+    explanation: "From −4 to 0 is 4 steps and from 0 to 3 is 3 more steps, so the distance is 4 + 3 = 7. You can also work out 3 − (−4) = 7. 1 is tempting if you take the smaller size from the larger, 4 − 3 = 1, as if both numbers were on the same side of zero.",
+    hints: ["Split the trip at zero: steps from −4 up to zero, then on to 3. A distance can't be negative."]
   },
   {
     id: "g6-maths-int-b-q03",
@@ -472,8 +472,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "−19" }
     ],
     answerId: "d",
-    explanation: "−19 is farthest left on the number line. −1 is tempting if you move the wrong way or the wrong number of steps on the number line.",
-    hints: ["Most negative = smallest."]
+    explanation: "On a number line, numbers get smaller as you go left. Of −1, 0, 2 and −19, the number farthest left is −19, so −19 is the smallest. −1 is tempting if you compare only the digits and think 1 is smaller than 19. For negative numbers, the bigger size means the smaller number.",
+    hints: ["Mark all four options on a number line, then recall the direction in which values fall. The smallest sits at that far end."]
   },
   {
     id: "g6-maths-int-b-q13",
@@ -498,8 +498,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "−32" }
     ],
     answerId: "b",
-    explanation: "(−4) × 9 = −36, so the other integer is 9. −9 is tempting if you multiply the sizes correctly but choose the sign as if the factors had different signs; the product is 9.",
-    hints: ["What times −4 gives −36?"]
+    explanation: "We need the integer that gives −36 when multiplied by −4. −36 ÷ (−4) = 9, because a negative divided by a negative is positive. Check: (−4) × 9 = −36. −9 is tempting if you think a negative divided by a negative is negative. But (−4) × (−9) = 36, not −36.",
+    hints: ["Treat sizes and signs as separate jobs. Share the product's size by the known size, then make the signs agree with the product."]
   },
   {
     id: "g6-maths-int-b-q15",
@@ -550,8 +550,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "−₹130" }
     ],
     answerId: "b",
-    explanation: "+80 + (−50) = 30, so a net profit of ₹30. ₹130 is tempting if you reverse which change is a rise and which is a fall; combining the signed changes gives ₹30.",
-    hints: ["Combine the signed amounts with ₹."]
+    explanation: "The profit is +80 and the loss is −50, so the net result is +80 + (−50) = 30. It is positive, so the shop makes a net profit of ₹30. ₹130 is tempting if you ignore the minus sign on the loss and add 80 + 50 = 130.",
+    hints: ["Treat the profit and loss as moves in opposite directions from zero. Where you end up gives the net result's sign."]
   },
   {
     id: "g6-maths-int-b-q19",

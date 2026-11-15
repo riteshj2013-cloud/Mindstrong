@@ -40,8 +40,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3" }
     ],
     answerId: "d",
-    explanation: "2x − 6 = 0 → x = 3. 2 is tempting if you list only the positive root and skip the negative one.",
-    hints: ["Solve p(x) = 0."]
+    explanation: "A zero of p(x) is the value of x that makes p(x) equal 0. So 2x − 6 = 0. Add 6 to both sides: 2x = 6. Divide by 2: x = 3. Check: 2 × 3 − 6 = 0. −3 is tempting if you move the 6 across without changing its sign, which gives 2x = −6 and x = −3.",
+    hints: ["Make the polynomial come to zero. Shift its number term over, then divide by how many x's there are."]
   },
   {
     id: "g9-maths-poly-a-q04",
@@ -66,8 +66,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "−4" }
     ],
     answerId: "b",
-    explanation: "4 − 10 + 6 = 0, so x = 2 is a zero. 2 is tempting if you solve by setting only one factor equal to zero.",
-    hints: ["Substitute x = 2 carefully."]
+    explanation: "Put x = 2 into each term: 2² is 4 and 5 × 2 = 10. So p(2) = 4 − 10 + 6 = 0. 2 is tempting if you give the number you put in, 2, instead of the value of p(2) that comes out.",
+    hints: ["Replace x by the bracketed number throughout. Work it out term by term, signs included, and find what the total equals."]
   },
   {
     id: "g9-maths-poly-a-q06",
@@ -118,8 +118,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "x(x − 9)" }
     ],
     answerId: "a",
-    explanation: "Difference of squares: x² − 3² = (x − 3)(x + 3). (x − 9)(x + 1) is tempting if you test (x−a) with p(a) when the factor is actually (x+a), so you needed p(−a).",
-    hints: ["Use a² − b² = (a − b)(a + b)."]
+    explanation: "x² − 9 is x² − 3², a difference of two squares, so it factors as (x − 3)(x + 3). Check: (x − 3)(x + 3) = x² + 3x − 3x − 9 = x² − 9. (x − 3)² is tempting if you think (x − 3)² is x² − 9. In fact (x − 3)² = x² − 6x + 9, which has a middle term.",
+    hints: ["Both terms are perfect squares with a minus between them. Factorise into brackets whose cross terms vanish."]
   },
   {
     id: "g9-maths-poly-a-q10",
@@ -131,8 +131,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2n" }
     ],
     answerId: "b",
-    explanation: "A degree-n polynomial has at most n zeros (unless identically zero). n − 1 is tempting if you list only one factor’s root and skip the other.",
-    hints: ["Fundamental bound: degree limits zeros."]
+    explanation: "Each zero a of a polynomial gives a factor (x − a), and a polynomial of degree n cannot have more than n such factors. So it has at most n zeros. For example, x² − 1 has degree 2 and two zeros, 1 and −1. The option n + 1 is tempting if you count the terms a degree-n polynomial can have, from x⁰ up to xⁿ, which is n + 1.",
+    hints: ["Each zero of a polynomial matches a bracket factor. Ask how the degree rises with every bracket multiplied in."]
   },
   {
     id: "g9-maths-poly-a-q11",
@@ -170,8 +170,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(a + b)(a − b) = a² + b²" }
     ],
     answerId: "a",
-    explanation: "(a + b)² expands to a² + 2ab + b². (a + b)² = a² + b² is tempting if you misread the leading coefficient as the degree.",
-    hints: ["Recall the standard square identity."]
+    explanation: "Multiply out (a + b)(a + b): a² + ab + ab + b² = a² + 2ab + b². So (a + b)² = a² + 2ab + b² is correct. (a + b)² = a² + b² is tempting if you square each term on its own and forget the two middle terms, ab + ab = 2ab.",
+    hints: ["Put two small whole numbers in for a and b in every identity. A correct one gives equal sides whatever numbers you choose."]
   },
   {
     id: "g9-maths-poly-a-q14",
@@ -300,8 +300,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "c",
-    explanation: "p(2)=0 → 4 − 2k + 8 = 0 → 12 = 2k → k = 6. 4 is tempting if you test (x−a) with p(a) when the factor is actually (x+a), so you needed p(−a).",
-    hints: ["Apply factor theorem: p(2) = 0."]
+    explanation: "If (x − 2) is a factor, then p(2) = 0. So 4 − 2k + 8 = 0, which gives 12 = 2k and k = 6. Check: x² − 6x + 8 = (x − 2)(x − 4). 4 is tempting if you leave out the x² term when you put in x = 2, which gives −2k + 8 = 0 and k = 4.",
+    hints: ["Every factor has an x that kills it. Use that x in the expression to get an equation in the constant k, then solve."]
   },
   {
     id: "g9-maths-poly-a-q24",
@@ -343,7 +343,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Degree 2 ⇒ at most 2 zeros. 1 is tempting if you list only one factor’s root and skip the other.",
-    hints: ["Zeros ≤ degree."]
+    hints: ["A quadratic tops out at x². Ask how many factors shaped like x minus a number can fit inside that, each giving a zero."]
   },
   {
     id: "g9-maths-poly-b-q03",
@@ -381,8 +381,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x + 6" }
     ],
     answerId: "a",
-    explanation: "p(1)=0 ⇒ (x − 1) is a factor by the factor theorem. x + 1 is tempting if you test (x−a) with p(a) when the factor is actually (x+a), so you needed p(−a).",
-    hints: ["Factor theorem: zero → factor."]
+    explanation: "By the factor theorem, if p(1) = 0 then (x − 1) is a factor, because x − 1 is 0 when x is 1. Check: p(1) = 1 − 6 + 11 − 6 = 0. x + 1 is tempting if you copy the 1 from p(1) with a plus sign. But x + 1 is a factor only if p(−1) = 0, and p(−1) = −1 − 6 − 11 − 6 = −24.",
+    hints: ["Each factor option is zero for one value of x only. Match those values with what p(1)=0 tells you."]
   },
   {
     id: "g9-maths-poly-b-q06",
@@ -394,8 +394,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4x² − 6x + 9" }
     ],
     answerId: "b",
-    explanation: "(2x)² − 2·2x·3 + 3² = 4x² − 12x + 9. 4x² − 9 is tempting if you expand and drop the middle cross term.",
-    hints: ["Use (a − b)² = a² − 2ab + b²."]
+    explanation: "(2x − 3)² = (2x − 3)(2x − 3) = 4x² − 6x − 6x + 9 = 4x² − 12x + 9. 4x² − 9 is tempting if you square each term and keep the minus, (2x)² − 3². That forgets the two middle terms.",
+    hints: ["Expand the square as one bracket times another copy of it. Four products appear; two of them combine."]
   },
   {
     id: "g9-maths-poly-b-q07",
@@ -446,8 +446,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "(2x − 9)(2x − 1)" }
     ],
     answerId: "b",
-    explanation: "It is a perfect square: (2x − 3)². (2x + 3)² is tempting if you claim a factor without checking that p(a) = 0.",
-    hints: ["Check if it matches (a − b)²."]
+    explanation: "The first term 4x² is (2x)² and the last term 9 is 3². The middle term is −12x, and 2 × 2x × 3 = 12x with a minus, so 4x² − 12x + 9 = (2x − 3)². (2x + 3)² is tempting if you ignore the minus on −12x. But (2x + 3)² = 4x² + 12x + 9.",
+    hints: ["Factorise: are 4x² and 9 both squares? If so, check that the middle term fits a squared bracket, sign included."]
   },
   {
     id: "g9-maths-poly-b-q11",
@@ -459,8 +459,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "−7" }
     ],
     answerId: "c",
-    explanation: "Product of zeros = constant/leading = 10. 7 is tempting if you list only the positive root and skip the negative one.",
-    hints: ["Product = c/a for ax² + bx + c."]
+    explanation: "x² − 7x + 10 = (x − 2)(x − 5), so the zeros are 2 and 5, and αβ = 2 × 5 = 10. This matches the constant term 10 divided by the 1 in front of x². 7 is tempting if you mix up the product of the zeros with their sum, 2 + 5 = 7.",
+    hints: ["Find two numbers that multiply and add to fit the quadratic, giving both zeros. Then multiply the zeros, minding their signs."]
   },
   {
     id: "g9-maths-poly-b-q12",
@@ -485,8 +485,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "infinitely many" }
     ],
     answerId: "a",
-    explanation: "x² + 1 = 0 ⇒ x² = −1, no real solution. 1 is tempting if you list only the positive root and skip the negative one.",
-    hints: ["Ask if the graph crosses the x-axis."]
+    explanation: "For any real x, x² is 0 or more, so x² + 1 is always at least 1. It can never equal 0, so p(x) has 0 real zeros. 2 is tempting if you think every quadratic has 2 zeros. A quadratic has at most 2, and this one has none that are real.",
+    hints: ["Squares of real numbers never dip below a certain value. Add 1 to that lowest value and see whether p can ever vanish."]
   },
   {
     id: "g9-maths-poly-b-q14",
@@ -498,8 +498,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "−a/b" }
     ],
     answerId: "b",
-    explanation: "ax + b = 0 ⇒ x = −b/a. b/a is tempting if you list only one factor’s root and skip the other.",
-    hints: ["Set ax + b = 0 and solve for x."]
+    explanation: "Set ax + b = 0. Take b from both sides: ax = −b. Divide both sides by a: x = −b/a. The option b/a is tempting if you move b across without changing its sign, which gives ax = b and x = b/a.",
+    hints: ["The zero is the x that leaves ax + b at nothing. Peel off the + b, then the a, keeping both sides level."]
   },
   {
     id: "g9-maths-poly-b-q15",
