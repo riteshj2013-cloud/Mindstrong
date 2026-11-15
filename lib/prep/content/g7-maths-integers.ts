@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221210" }
     ],
     answerId: "d",
-    explanation: "Predecessor means −1: −9 − 1 = −10. −8 is tempting if you reverse a rise and a fall when combining signed changes.",
+    explanation: "The predecessor of an integer is the one just before it, which is 1 less. On a number line it is one step to the left: −9 − 1 = −10. −8 is tempting if you step to the right instead, working out −9 + 1 = −8. That gives the successor, the integer just after −9.",
     hints: ["On a number line, the predecessor of −9 sits right next to it. Decide which side counts as coming before."]
   },
   {
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "None" }
     ],
     answerId: "c",
-    explanation: "a + 0 = a for every integer a. 1 is tempting if you add the absolute values and then attach the wrong sign.",
+    explanation: "The additive identity is the number you can add to any integer without changing it. Only 0 does this: 5 + 0 = 5 and −3 + 0 = −3. 1 is tempting if you mix up adding with multiplying. 1 is the number that leaves an integer unchanged when you multiply, as in 5 × 1 = 5, but 5 + 1 = 6.",
     hints: ["Additive is about adding. Test each choice by adding it to a few integers, and look at what happens to them."]
   },
   {
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "\u22125" }
     ],
     answerId: "a",
-    explanation: "−20 ÷ 4 = −5. 5 is tempting if you get the sign of the quotient wrong.",
+    explanation: "We need the number that −20 is divided by to give −5. The sizes give 20 ÷ 5 = 4. A negative divided by a positive is negative, so the blank is 4. Check: (−20) ÷ 4 = −5. −4 is tempting if you think a negative divided by a negative stays negative. In fact (−20) ÷ (−4) = 5, not −5.",
     hints: ["Solve for the blank in two parts. Find its size from the sizes in the division, then test both signs in the division."]
   },
   {

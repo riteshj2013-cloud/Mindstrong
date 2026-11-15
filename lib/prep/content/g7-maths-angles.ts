@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "270\u00b0" }
     ],
     answerId: "b",
-    explanation: "Two angles are supplementary if they add to 180°. 270° is tempting if you subtract from 90° (complement) instead of from 180°.",
+    explanation: "Supplementary angles add up to 180°. Placed side by side, two supplementary angles make a straight line, and a straight line is 180°. 90° is tempting if you mix up supplementary with complementary, because complementary angles add up to 90°.",
     hints: ["Supplementary and complementary angles are easy to mix up. Picture two supplementary angles side by side and look at the shape their outer arms make."]
   },
   {
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "70\u00b0" }
     ],
     answerId: "d",
-    explanation: "180 − 110 = 70. 80° is tempting if you subtract from 90° (complement) instead of from 180°.",
+    explanation: "The supplement of an angle is what you add to it to make 180°. So the supplement of 110° is 180° − 110° = 70°. Check: 110° + 70° = 180°. 250° is tempting if you take 110° away from a full turn instead of a straight line: 360° − 110° = 250°.",
     hints: ["Supplement and complement use different totals. Pick the total that goes with supplement, then find what you add to 110° to reach it."]
   },
   {
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "110\u00b0" }
     ],
     answerId: "d",
-    explanation: "Interior at C is 70°; exterior = 180 − 70 = 110, also = A + B. 130° is tempting if you use an interior angle where the exterior equals the sum of the two remote interiors.",
+    explanation: "The angles of △ABC add up to 180°, so the inside angle at C is 180° − 50° − 60° = 70°. The exterior angle at C sits next to it on a straight line, so it is 180° − 70° = 110°. Check: it also equals the two far angles added, 50° + 60° = 110°. 70° is tempting if you stop at the inside angle at C and forget to find the exterior angle next to it.",
     hints: ["Find the inside angle at C first, using the angles of △ABC. The exterior at C sits next to it on a straight line."]
   },
   {
