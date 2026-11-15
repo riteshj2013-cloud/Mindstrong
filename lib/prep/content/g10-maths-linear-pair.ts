@@ -570,12 +570,12 @@ const SET_B: PrepQuestion[] = [
     prompt: "A chemist has two solutions: 20% and 50% acid. How much of each to make 10 L of 35%? Let x = litres of 20%. Then \u2014",
     options: [
       { id: "a", text: "x=3.5, (10−x)=6.5" },
-      { id: "b", text: "x=7, (10−x)=3" },
+      { id: "b", text: "x=3, (10−x)=7" },
       { id: "c", text: "x=1.5, (10−x)=8.5" },
       { id: "d", text: "x=5, (10−x)=5" }
     ],
     answerId: "d",
-    explanation: "The 20% solution holds 0.2x litres of acid and the 50% solution holds 0.5(10 − x) litres. Together they must give 35% of 10 L, which is 3.5 litres. So 0.2x + 5 − 0.5x = 3.5, which gives 0.3x = 1.5 and x = 5. So the chemist uses 5 L of each: x=5, (10−x)=5. x=3.5, (10−x)=6.5 is tempting if you take the 3.5 litres of acid as x, the litres of the 20% solution. x=1.5, (10−x)=8.5 comes from stopping at 0.3x = 1.5 and reading 1.5 as x. x=7, (10−x)=3 comes from dividing the 3.5 litres of acid by 50% alone, as if there were no 20% solution.",
+    explanation: "The 20% solution holds 0.2x litres of acid and the 50% solution holds 0.5(10 − x) litres. Together they must give 35% of 10 L, which is 3.5 litres. So 0.2x + 5 − 0.5x = 3.5, which gives −0.3x = −1.5, so 0.3x = 1.5 and x = 5. The chemist uses 5 L of each: x=5, (10−x)=5. x=3.5, (10−x)=6.5 is tempting if you take the 3.5 litres of acid as x, the litres of the 20% solution. x=1.5, (10−x)=8.5 comes from stopping at 0.3x = 1.5 and reading 1.5 as x. x=3, (10−x)=7 comes from assuming all 3.5 litres of acid come from the 50% solution, so 3.5 ÷ 0.5 = 7 L of it and 3 L of the 20% solution.",
     hints: ["Turn each percentage into litres of acid, using x for the 20% part. Those amounts must add to the acid in the final mix."]
   },
   {

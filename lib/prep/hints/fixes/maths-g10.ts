@@ -95,7 +95,7 @@ export const G10_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-maths-real-b-q18": ["Re-check approximately against every clue, then drop options that fail one of them."],
   "g10-maths-poly-a-q05": ["One choice vanishes at the given zeros with their signs flipped. That quadratic can go first."],
   "g10-maths-poly-a-q11": ["As a ≠ 0, the ax² term is always present, which means the linear shape does not fit. Remove that choice."],
-  "g10-maths-poly-a-q12": ["Work out the partner zero first, which the constant term links to the given zero. With both zeros known, k follows; mind its sign."],
+  "g10-maths-poly-a-q12": ["k is the number in front of x, not a zero. So the choice that equals the other zero cannot be k."],
   "g10-maths-poly-a-q19": ["The sum of zeros would stay put even if the final term changed. Any fraction built on the final number falls away."],
   "g10-maths-poly-a-q22": ["Expanding shows one choice finishing with a positive constant, unlike x³ − 1. Strike it."],
   "g10-maths-poly-a-q23": ["An x term with no power appears in this polynomial. The option giving it no coefficient fails."],

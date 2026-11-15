@@ -61,7 +61,7 @@ export const G10_MATHS_HINTS: Record<string, HintOverlay> = {
   "g10-maths-poly-a-q09": ["Constant non-zero \u2192 degree 0."],
   "g10-maths-poly-a-q10": ["Factor the quadratic to find zeros."],
   "g10-maths-poly-a-q11": ["As a ≠ 0, the ax² term is always present, which means the linear shape does not fit. Remove that choice."],
-  "g10-maths-poly-a-q12": ["Work out the partner zero first, which the constant term links to the given zero. With both zeros known, k follows; mind its sign."],
+  "g10-maths-poly-a-q12": ["k is the number in front of x, not a zero. So the choice that equals the other zero cannot be k."],
   "g10-maths-poly-a-q13": ["Same idea as integer division: remainder smaller than divisor."],
   "g10-maths-poly-a-q14": ["Degree 1 \u2192 exactly one root."],
   "g10-maths-poly-a-q15": ["Solve ax+b=0."],
