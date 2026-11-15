@@ -26,8 +26,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "invisible" }
     ],
     answerId: "b",
-    explanation: "\"Bruise-coloured\" evokes dark purples/blues of an approaching storm.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "A bruise is dark purple and blue, so a 'bruise-coloured' cloud is dark and threatens a storm. 'Bright yellow' is tempting because old bruises turn yellowish, but this cloud darkens the playground before heavy rain.",
+    hints: ["Picture a fresh bruise after a cricket fall, then a cloud of that shade over the western hills just before the monsoon breaks."]
   },
   {
     id: "g10-eng-ch01-a-q03",
@@ -91,8 +91,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "felt it was suddenly true and solid" }
     ],
     answerId: "d",
-    explanation: "Decoration = empty ornament; now it feels like a fact in the mud.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Decoration is pretty but empty; now the proverb feels like 'a fact standing in the mud', so it seems suddenly true and solid. 'Disliked her grandmother' is tempting because of 'did not', but Meera now takes the saying more seriously.",
+    hints: ["Decoration is something added only for looks. Read the final sentence to see what the proverb has turned into, and where it is standing."]
   },
   {
     id: "g10-eng-ch01-a-q08",
@@ -104,8 +104,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "comic slapstick" }
     ],
     answerId: "c",
-    explanation: "Sensory detail and the proverb shift show attentive wonder, not rage or jokes.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "The writer records smells, colours and sounds closely, and Meera quietly marvels as the proverb comes true. 'Coldly scientific only' is tempting because of the careful detail, but images like the laughing peepal tree show feeling, not cold facts.",
+    hints: ["Notice how closely the writer records the smell of wet dust and the darkening playground, and how Meera's feeling shifts at the proverb."]
   },
   {
     id: "g10-eng-ch01-a-q09",
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The pitch is not really a lake; calling it one is a metaphor for how badly it flooded. 'Literal construction of a lake overnight by workers' is tempting if you read the words literally, but the change happened 'within minutes' because of the rain.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["The pitch was dry before the storm. Notice 'within minutes' and ask what the writer wants you to see happening to that ground."]
   },
   {
     id: "g10-eng-ch01-a-q11",
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "'Do not finish this journey alone' urges having company on the journey. 'Finishing homework alone' is tempting because Arun is there for a school project, but the note is about a journey, and it warns against going alone.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Someone wrote this in the margin long ago for a future reader. Think about what they wish that reader would not lack on the way."]
   },
   {
     id: "g10-eng-ch01-a-q15",
@@ -208,8 +208,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "different paces of time: calm vs noisy rush" }
     ],
     answerId: "d",
-    explanation: "Scooter horns outside vs \"time had a different speed\" inside.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Outside, scooters argue with horns; inside, time moves at 'the speed of pages turning', so the contrast shows calm against rush. 'That dust is snow' is tempting because dust floats 'like slow snow', but that simile is not the contrast.",
+    hints: ["Set the horns in the street beside the quiet pages turning indoors, and notice how each place seems to move."]
   },
   {
     id: "g10-eng-ch01-a-q17",
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "A cup can be carried with care or spilled, so the image treats quiet as something precious we can keep or waste. 'Made of ceramic only' is tempting if you read the cup literally, but the comparison is about how we handle quiet, not what it is made of.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Think about carrying a full cup of chai across a crowded room, and what the second line warns you not to do with it."]
   },
   {
     id: "g10-eng-ch01-a-q19",
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "The poem calmly advises care with silence and with words, so its mood is reflective and cautionary. 'Indifferent to language' is tempting because the poem praises quiet, but it cares deeply about how we use words.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["The poem gives gentle instructions about quiet and speech, then pictures the air listening. Ask what feeling such advice leaves in a reader."]
   },
   {
     id: "g10-eng-ch01-a-q23",
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "The storm makes Meera feel her grandmother's old proverb is a real fact, so nature's force makes old wisdom feel newly true. 'Towns invent rain' is tempting because the proverb mentions towns, but it says rain is older than towns, not made by them.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Follow Meera from the first darkening sky to the moment her grandmother's saying stops seeming like decoration; the best theme joins those two ends."]
   },
   {
     id: "g10-eng-ch01-a-q24",
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "'Leaning' makes the cloud seem heavy, as if it had a body resting on the hills. 'Tiny as a speck' is tempting because clouds look small far away, but something leaning on hills must be large and weighty.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Picture a tired porter at a railway station leaning on a wall. Ask what that action, given to a cloud, says about its size."]
   },
   {
     id: "g10-eng-ch01-b-q03",
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "The narrator says 'Meera stood…', using her name and 'she', so it is third person following Meera. 'First-person Meera saying \"I\"' is tempting because we share her thoughts, but she never says 'I'.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Look closely at 'Meera stood with her class': notice how the storyteller refers to her, and whether the narrator ever joins the scene."]
   },
   {
     id: "g10-eng-ch01-b-q04",
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Standing in the flooded mud, Meera feels the saying come true, so it becomes concrete and undeniable. 'Meera wrote the proverb that day' is tempting because she thinks about it then, but the saying is her grandmother's.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["She has heard her grandmother's saying for years, but today she stands in the flood herself. Think about what living through it changes."]
   },
   {
     id: "g10-eng-ch01-b-q06",
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A diary from 1924 is a century old, yet Arun can hold it, so the date shows both how far away the past is and how near it feels through objects. 'Arun's birth year' is tempting because it is a year, but a boy doing a school project could not have been born in 1924.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Work out how long ago 1924 was, then notice that the diary and its marigold are resting in a boy's hands today."]
   },
   {
     id: "g10-eng-ch01-b-q07",
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Books that 'did not shout' and 'waited' contrast with the noisy, impatient world outside, like the scooters arguing with horns. 'Other silent books' is tempting because books appear on both sides, but the contrast needs something noisy.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Shouting and waiting are human habits. Scan the passage for what lies outside the library walls and how it behaves."]
   },
   {
     id: "g10-eng-ch01-b-q08",
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "A pressed flower keeps a moment from the past alive inside a book, so it symbolises preserved memory. 'Future traffic' is tempting because the passage ends with scooters outside, but the flower belongs to the old diary, not to the street.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["This marigold, pressed inside a 1924 diary, has outlived the hand that placed it there. Think about what it keeps safe for Arun."]
   },
   {
     id: "g10-eng-ch01-b-q10",
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "'Hold' and 'Speak' are commands addressed to the reader, so the poem gives advice. 'A weather report' is tempting because the poem mentions air, but it gives instructions about speaking, not information about weather.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Notice that 'Hold' and 'Speak' open their lines with no subject in front, like instructions on a notice board at a railway station."]
   },
   {
     id: "g10-eng-ch01-b-q12",
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Spilling quiet on the street means wasting the silence you carried by letting it pour into public noise. 'Painting roads' is tempting if you read 'spill on the street' literally, but the poem is talking about quiet, not paint.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Recall what the opening line asks you to carry with care, then picture a busy Indian street full of horns and voices."]
   },
   {
     id: "g10-eng-ch01-b-q13",
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Birds that won't come back show that spoken words cannot be taken back. 'Never heard' is tempting because the words fly away, but the poem says they don't return, not that no one hears them.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Think of a pigeon released from your palm at India Gate. Once it flies off, can you call it back?"]
   },
   {
     id: "g10-eng-ch01-b-q14",
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "'As if the air were listening' imagines an ideal, attentive listener for our words. 'State a scientific fact about nitrogen' is tempting because air is mentioned, but 'as if… were' signals an imagined situation, not a fact.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Air cannot really hear anything. Notice how 'as if' and 'were' build a pretend scene, and think about why a speaker would want one."]
   },
   {
     id: "g10-eng-ch01-b-q15",
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "'Stayed for a feeling he could not name' shows that his reason for staying changed from the project to a feeling. '\"Pressed marigold\"' is tempting because it is a moving detail, but it does not tell us why he stayed.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Arun first came to the library for a school project. Look for words showing that his reason for staying became something less practical."]
   },
   {
     id: "g10-eng-ch01-b-q18",
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Rain with a memory 'older than towns' suggests nature is far older and deeper than human settlements. 'Smaller than a verandah' is tempting because the verandah is mentioned, but 'older than' makes nature greater, not smaller.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Some Indian towns, like Varanasi, are many centuries old. Think about what it means for rain's memory to reach back even further."]
   },
   {
     id: "g10-eng-ch01-b-q19",
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Breaking the line after 'released' makes us pause, separating the act of speaking from its result on the next line. 'Rhyme scheme AABB' is tempting because poems often rhyme, but these lines do not rhyme in pairs.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Read the poem aloud and pause where the line ends after 'released'. Notice what has already happened before your eye drops down."]
   },
   {
     id: "g10-eng-ch01-b-q21",
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Meera watches the cloud, smell and rain closely and links them to her grandmother's saying. 'Hates proverbs always' is tempting because the proverb once felt like decoration to her, but now it feels like a fact to her, which shows respect, not hatred.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["Track what Meera sees, smells and feels as the storm builds, then notice whose words return to her at the end."]
   },
   {
     id: "g10-eng-ch01-b-q22",
@@ -601,8 +601,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "a closed empty void with no books" }
     ],
     answerId: "c",
-    explanation: "Dust, shafts of light, waiting books = contemplative refuge.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Light through dust, waiting books and slower time make the library a refuge where attention deepens. 'A closed empty void with no books' is tempting because the room is quiet, but it is full of books, including Arun's diary.",
+    hints: ["Notice how the library feels compared with the street outside, and what happens to Arun's sense of hurry while he is there."]
   },
   {
     id: "g10-eng-ch01-b-q23",
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "The cup teaches us to guard silence and the birds teach us to release words carefully. 'Never use metaphors' is tempting because both lines are metaphors, but the poem uses them to teach care with speech, not to reject them.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["The cup image is about quiet and the bird image is about speech. Put the two warnings side by side as one lesson."]
   },
   {
     id: "g10-eng-ch01-b-q24",
