@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Distance = |c1 − c2|/√(a² + b²) = |−5 + 15|/√(9 + 16) = 10/5 = 2. 10 is tempting, but it forgets to divide by √(3² + 4²) = 5.",
-    hints: ["These parallel lines differ only in their constants. Divide the gap in their constants by a square root made from the x and y numbers."]
+    hints: ["Subtracting the constant terms does not give the gap between the lines, because 3x + 4y grows faster than distance. Drop that difference."]
   },
   {
     id: "g10-maths-linear-b-q20",

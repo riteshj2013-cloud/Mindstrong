@@ -104,7 +104,7 @@ export const G6_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g6-maths-int-a-q21": ["Decide whether a successor comes before or after a number. Then find which way that is from −11 on the number line."],
   "g6-maths-int-a-q22": ["Write −4 with a few neighbouring integers in increasing order. Decide what predecessor means, then locate it."],
   "g6-maths-int-a-q24": ["Start from a number on the line and apply each +/− step in order; which path finishes at −10?"],
-  "g6-maths-int-b-q02": ["Split the trip at zero: steps from −4 up to zero, then on to 3. A distance can't be negative."],
+  "g6-maths-int-b-q02": ["A distance on a number line is how far apart two points are, so it can never be below zero."],
   "g6-maths-int-b-q12": ["Mark all four options on a number line, then recall the direction in which values fall. The smallest sits at that far end."],
   "g6-maths-int-b-q14": ["Treat sizes and signs as separate jobs. Share the product's size by the known size, then make the signs agree with the product."],
   "g6-maths-int-b-q18": ["Treat the profit and loss as moves in opposite directions from zero. Where you end up gives the net result's sign."],

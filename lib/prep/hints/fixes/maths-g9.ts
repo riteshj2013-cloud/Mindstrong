@@ -111,7 +111,7 @@ export const G9_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g9-maths-poly-a-q10": ["Each zero of a polynomial matches a bracket factor. Ask how the degree rises with every bracket multiplied in."],
   "g9-maths-poly-a-q13": ["Put two small whole numbers in for a and b in every identity. A correct one gives equal sides whatever numbers you choose."],
   "g9-maths-poly-a-q23": ["Every factor has an x that kills it. Use that x in the expression to get an equation in the constant k, then solve."],
-  "g9-maths-poly-b-q02": ["A quadratic tops out at x². Ask how many factors shaped like x minus a number can fit inside that, each giving a zero."],
+  "g9-maths-poly-b-q02": ["Some quadratics cut the x-axis at a negative number and also at a positive one. So the smallest choice is too few."],
   "g9-maths-poly-b-q05": ["Each factor option is zero for one value of x only. Match those values with what p(1)=0 tells you."],
   "g9-maths-poly-b-q06": ["Expand the square as one bracket times another copy of it. Four products appear; two of them combine."],
   "g9-maths-poly-b-q10": ["Factorise: are 4x² and 9 both squares? If so, check that the middle term fits a squared bracket, sign included."],

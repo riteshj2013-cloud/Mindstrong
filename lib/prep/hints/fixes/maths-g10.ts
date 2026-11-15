@@ -121,6 +121,6 @@ export const G10_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-maths-linear-b-q10": ["Stack the equations and try adding them column by column. Whatever survives gives one letter; feed it back for the second."],
   "g10-maths-linear-b-q11": ["Check every ordered pair against both equations. Several may pass the first test, so the second decides it."],
   "g10-maths-linear-b-q15": ["Remove y by subtracting the equations. Solve for x, then double-check you report x and not y."],
-  "g10-maths-linear-b-q19": ["These parallel lines differ only in their constants. Divide the gap in their constants by a square root made from the x and y numbers."],
+  "g10-maths-linear-b-q19": ["Subtracting the constant terms does not give the gap between the lines, because 3x + 4y grows faster than distance. Drop that difference."],
   "g10-maths-linear-b-q20": ["Turn each percentage into litres of acid, using x for the 20% part. Those amounts must add to the acid in the final mix."],
 };

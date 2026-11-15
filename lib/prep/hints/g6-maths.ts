@@ -28,7 +28,7 @@ export const G6_MATHS_HINTS: Record<string, HintOverlay> = {
   "g6-maths-int-a-q23": ["Same signs when dividing → positive."],
   "g6-maths-int-a-q24": ["Start from a number on the line and apply each +/− step in order; which path finishes at −10?"],
   "g6-maths-int-b-q01": ["Scan for any non-whole number."],
-  "g6-maths-int-b-q02": ["Split the trip at zero: steps from −4 up to zero, then on to 3. A distance can't be negative."],
+  "g6-maths-int-b-q02": ["A distance on a number line is how far apart two points are, so it can never be below zero."],
   "g6-maths-int-b-q03": ["Two minuses cancel."],
   "g6-maths-int-b-q04": ["Different signs: subtract sizes, keep the sign of the larger."],
   "g6-maths-int-b-q05": ["Subtracting a larger number from a smaller gives a negative."],

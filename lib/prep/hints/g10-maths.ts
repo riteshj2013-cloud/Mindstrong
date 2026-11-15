@@ -44,7 +44,7 @@ export const G10_MATHS_HINTS: Record<string, HintOverlay> = {
   "g10-maths-linear-b-q16": ["Homogeneous with non-zero determinant \u21d2 only (0,0)."],
   "g10-maths-linear-b-q17": ["Set two equations from the two time frames."],
   "g10-maths-linear-b-q18": ["Set all three coefficient ratios equal."],
-  "g10-maths-linear-b-q19": ["These parallel lines differ only in their constants. Divide the gap in their constants by a square root made from the x and y numbers."],
+  "g10-maths-linear-b-q19": ["Subtracting the constant terms does not give the gap between the lines, because 3x + 4y grows faster than distance. Drop that difference."],
   "g10-maths-linear-b-q20": ["Turn each percentage into litres of acid, using x for the 20% part. Those amounts must add to the acid in the final mix."],
   "g10-maths-linear-b-q21": ["Same a,b ratios, different c."],
   "g10-maths-linear-b-q22": ["Infinite solutions when all three ratios are equal."],

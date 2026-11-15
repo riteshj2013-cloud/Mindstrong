@@ -75,7 +75,7 @@ export const G9_MATHS_HINTS: Record<string, HintOverlay> = {
   "g9-maths-poly-a-q23": ["Every factor has an x that kills it. Use that x in the expression to get an equation in the constant k, then solve."],
   "g9-maths-poly-a-q24": ["Factor as a difference of squares."],
   "g9-maths-poly-b-q01": ["Find the highest power present."],
-  "g9-maths-poly-b-q02": ["A quadratic tops out at x². Ask how many factors shaped like x minus a number can fit inside that, each giving a zero."],
+  "g9-maths-poly-b-q02": ["Some quadratics cut the x-axis at a negative number and also at a positive one. So the smallest choice is too few."],
   "g9-maths-poly-b-q03": ["Factor or try integer candidates."],
   "g9-maths-poly-b-q04": ["Expand the square identity for three terms."],
   "g9-maths-poly-b-q05": ["Each factor option is zero for one value of x only. Match those values with what p(1)=0 tells you."],

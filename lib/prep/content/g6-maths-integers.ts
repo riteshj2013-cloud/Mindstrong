@@ -343,7 +343,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "From −4 to 0 is 4 steps and from 0 to 3 is 3 more steps, so the distance is 4 + 3 = 7. You can also work out 3 − (−4) = 7. 1 is tempting if you take the smaller size from the larger, 4 − 3 = 1, as if both numbers were on the same side of zero.",
-    hints: ["Split the trip at zero: steps from −4 up to zero, then on to 3. A distance can't be negative."]
+    hints: ["A distance on a number line is how far apart two points are, so it can never be below zero."]
   },
   {
     id: "g6-maths-int-b-q03",

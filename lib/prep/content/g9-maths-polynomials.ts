@@ -343,7 +343,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Degree 2 ⇒ at most 2 zeros. 1 is tempting if you list only one factor’s root and skip the other.",
-    hints: ["A quadratic tops out at x². Ask how many factors shaped like x minus a number can fit inside that, each giving a zero."]
+    hints: ["Some quadratics cut the x-axis at a negative number and also at a positive one. So the smallest choice is too few."]
   },
   {
     id: "g9-maths-poly-b-q03",
