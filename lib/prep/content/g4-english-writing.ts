@@ -601,7 +601,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Instead of the date" }
     ],
     answerId: "b",
-    explanation: "'Yours lovingly' is the closing, just above your name at the end. 'Before the address at the very top' tempts students who confuse the closing with the greeting, 'Dear Nani'.",
+    explanation: "'Yours lovingly' is the closing, just above your name at the end. 'Before the address at the very top' tempts students who think it is a heading opening the letter.",
     hints: ["List the parts of a letter to Nani, from the date to the very last line. Then place 'Yours lovingly'.", "In a letter to Nani, the address sits at the top, so 'Yours lovingly' does not belong there."],
   },
 {
