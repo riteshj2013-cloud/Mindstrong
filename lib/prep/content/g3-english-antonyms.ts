@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The top is the highest part; the bottom is the lowest part. 'high' is close to top, not its opposite.",
-    hints: ["The top of a ladder is the highest step.", "High and up point the same way; think of the lowest step."],
+    hints: ["The top of a ladder is the highest step.", "High points the same way as top, so it cannot be the opposite."],
   },
   {
     id: "g3-eng-antonyms-a-q02",
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Heavy means hard to lift; light means easy to lift. 'strong' is about power, not weight.",
-    hints: ["A heavy school bag is hard to lift.", "The opposite of heavy is something as easy to lift as a feather."],
+    hints: ["A heavy school bag is hard to lift.", "A large bag can still be heavy, so large is not the opposite of heavy."],
   },
   {
     id: "g3-eng-antonyms-a-q03",
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Asleep means sleeping; awake means not sleeping, with eyes open. 'tired' is how you feel before sleep, not the opposite.",
-    hints: ["An asleep baby has closed eyes.", "Think of the baby in the morning with eyes wide open."],
+    hints: ["An asleep baby has closed eyes.", "A baby can be asleep and quiet at the same time, so quiet is not the opposite."],
   },
   {
     id: "g3-eng-antonyms-a-q04",
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Down\" is the opposite direction of \"up.\" Above, high and over are closer to up.",
-    hints: ["Up points toward the sky.", "Above is not the opposite of up."],
+    hints: ["\"up\" points toward the sky.", "Above is not the opposite: a kite above us is also up in the sky."],
   },
   {
     id: "g3-eng-antonyms-a-q05",
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Messy means things are all over the place; tidy means everything is in its place. 'dirty' is close to messy, not its opposite.",
-    hints: ["Messy means toys and books are everywhere.", "The opposite of messy is a room after everything is put away."],
+    hints: ["Messy means toys and books are everywhere.", "A room can be messy and dirty at once, so dirty is not the opposite."],
   },
   {
     id: "g3-eng-antonyms-a-q06",
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Loud means making a big sound; quiet means making very little sound. 'noisy' means nearly the same as loud.",
-    hints: ["A drum makes a loud sound.", "Noisy is close to loud; think of a library."],
+    hints: ["A drum makes a loud sound.", "A noisy crowd at a cricket match is loud too, so noisy is not its opposite."],
   },
   {
     id: "g3-eng-antonyms-a-q07",
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "To sell is to give something for money; to buy is to get something by paying. 'keep' means not giving it away, but no money changes hands.",
-    hints: ["A shopkeeper sells toys to children.", "If you sell your old bike, what does the new owner do?"],
+    hints: ["A shopkeeper sells toys to children.", "A shopkeeper can make sweets and sell them, so make is not the opposite of sell."],
   },
   {
     id: "g3-eng-antonyms-a-q09",
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Dirty\" means not clean. Neat, fresh and shiny are closer to clean.",
-    hints: ["Clean clothes look washed.", "Neat is closer to clean, not dirty."],
+    hints: ["Clean clothes look washed.", "Fresh clothes are clean clothes, so fresh is not the opposite of clean."],
   },
   {
     id: "g3-eng-antonyms-a-q11",
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Rude\" means not kind or polite. Caring, gentle and helpful are closer to kind.",
-    hints: ["Kind people help and share.", "Caring is a twin of kind, not an opposite."],
+    hints: ["Amma was kind: she helped the lost puppy.", "Caring and kind go together, like Amma with the puppy, so caring is not the opposite."],
   },
   {
     id: "g3-eng-antonyms-a-q14",
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Lost means you cannot find it; found means you got it back, so found is the opposite. Gone is wrong because it means nearly the same as lost: the thing is no longer there. Missing also means nearly the same as lost.",
-    hints: ["You cannot see your lost ball anywhere.", "The opposite of lost is when your ball turns up again."],
+    hints: ["You cannot see your lost ball anywhere.", "A lost ball is also missing, so missing cannot be its opposite."],
   },
   {
     id: "g3-eng-antonyms-a-q17",
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Dry\" means without water — the opposite of \"wet.\" Damp and soaked are still wet ideas.",
-    hints: ["Some of these words still fit a wet towel. Pick out the word that never could.", "The opposite of wet has no water on it at all."],
+    hints: ["Some of these words still fit a wet towel. Pick out the word that never could.", "Soaked clothes are very wet, so soaked is not the opposite."],
   },
   {
     id: "g3-eng-antonyms-a-q19",
@@ -274,7 +274,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Wrong\" means not correct. Right, true and exact are closer to correct.",
-    hints: ["Correct answers match the truth.", "Right is a twin of correct, not an opposite."],
+    hints: ["Meera's correct sum has no mistakes.", "A correct sum is also a right sum, so right is not the opposite."],
   },
   {
     id: "g3-eng-antonyms-a-q22",
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Sell\" means give something for money — the opposite of \"buy.\" Keep, find and share are different actions.",
-    hints: ["Buy means you pay and take something home.", "Think of what the shopkeeper does."],
+    hints: ["Aarav pays ₹5 and takes the pencil home.", "Aarav can keep the pencil after buying it, so keep is not the opposite."],
   },
   {
     id: "g3-eng-antonyms-a-q24",
@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"New\" is the opposite of \"old.\" Ancient, used and worn are closer to old.",
-    hints: ["Old things have been around a long time.", "Ancient means very old, not new."],
+    hints: ["An old school bag has been used a long time.", "A used school bag is still an old bag, so used is not the opposite."],
   },
   {
     id: "g3-eng-antonyms-b-q02",
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Below\" means under — the opposite of \"above.\" Over, up and high are closer to above.",
-    hints: ["Above means higher than something.", "Over is closer to above, not below."],
+    hints: ["\"above\" means higher than something.", "A fan hangs over your head and above it too. Over points the same way as above."],
   },
   {
     id: "g3-eng-antonyms-b-q04",
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Blunt\" means not sharp. Pointed, fine and keen are closer to sharp.",
-    hints: ["A sharp pencil writes a thin line.", "Pointed is closer to sharp, not blunt."],
+    hints: ["A sharp pencil tip writes a thin line.", "A pointed pencil tip is a sharp tip, so pointed is not the opposite."],
   },
   {
     id: "g3-eng-antonyms-b-q08",
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Here \"hard\" means not easy, so \"easy\" is the opposite. Tough and difficult are twins of hard.",
-    hints: ["In class, hard means not easy to solve.", "Difficult means nearly the same as hard."],
+    hints: ["A hard maths sum takes a long time to solve.", "A tricky sum is also a hard sum, so tricky is not the opposite."],
   },
   {
     id: "g3-eng-antonyms-b-q10",
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Take\" means receive or grab — often the opposite action of \"give.\" Share and offer are closer to give.",
-    hints: ["Give means you hand something to someone.", "Offer is closer to give, not take."],
+    hints: ["\"give\" means you hand the eraser to Diya.", "When you pass Diya the eraser, you give it, so pass is not the opposite."],
   },
   {
     id: "g3-eng-antonyms-b-q11",
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Pull\" is the opposite action of \"push.\" Shove, press and nudge are closer to pushing.",
-    hints: ["Push moves something away from you.", "Shove is a strong push, not a pull."],
+    hints: ["\"push\" moves something away from you.", "You press a doorbell by pushing it, so press is not the opposite of push."],
   },
   {
     id: "g3-eng-antonyms-b-q12",
@@ -485,11 +485,11 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Leave\" (go away) is the opposite of \"arrive.\" Reach and come are closer to arrive.",
-    hints: ["Arrive means you get to a place.", "Reach is closer to arrive, not leave."],
+    hints: ["\"arrive\" means you get to a place.", "When you reach school, you arrive there, so reach is not the opposite."],
   },
   {
     id: "g3-eng-antonyms-b-q14",
-    prompt: "The shopkeeper was **polite** for ₹10 change. Which word means the opposite of \"polite\"?",
+    prompt: "The shopkeeper was **polite** when he gave Amma her ₹10 change. Which word means the opposite of \"polite\"?",
     options: [
       { id: "a", text: "courteous" },
       { id: "b", text: "rude" },
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Dark\" means little light — the opposite of \"bright.\" Shiny, clear and glowing are closer to bright.",
-    hints: ["Bright places have lots of light.", "Shiny is closer to bright, not dark."],
+    hints: ["The bright classroom has lots of light.", "After Diwali cleaning, shiny floors make a classroom bright, so shiny is not the opposite."],
   },
   {
     id: "g3-eng-antonyms-b-q19",
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Last\" is the opposite of \"first\" in a line or list. Next and early are not clear opposites.",
-    hints: ["First means at the beginning.", "Next means the one after, not the opposite of first."],
+    hints: ["\"first\" means at the very beginning of a line.", "Next comes right after first in a line, so next is not the opposite."],
   },
   {
     id: "g3-eng-antonyms-b-q20",
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Old\" is the opposite of \"young\" for age. Small and tiny are about size, not age.",
-    hints: ["Young means not many years old.", "Small is about size, not age."],
+    hints: ["\"young\" is about age, like a baby.", "A new bag is not a young bag; new is used for things, not people."],
   },
   {
     id: "g3-eng-antonyms-b-q22",
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Ashamed\" is a bad feeling about yourself — closer to the opposite of \"proud.\" Pleased and glad are positive.",
-    hints: ["Proud is a good feeling after doing well.", "Pleased is closer to proud, not ashamed."],
+    hints: ["Sana felt proud: a good feeling after her neat notebook.", "Sana can feel proud and glad at the same time, so glad is not the opposite."],
   },
 ];
 
