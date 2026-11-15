@@ -35,7 +35,7 @@ export const G4_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-eng-ch02-b-q02": ["Look at the ending of \"laughed\".", "Verbs ending in -ed usually tell about something already done."],
   "g4-eng-ch02-b-q03": ["Read the sentence before: who has a new notebook today?", "\"He\" stands for a boy in the story who is drawing the zoo animals."],
   "g4-eng-ch02-b-q04": ["Picture sitting in the shade of a tree at noon.", "The preposition should show a place below the tree's branches."],
-  "g4-eng-ch02-b-q05": ["Say \"apple\" aloud and listen to its first sound.", "Compare \"a mango\" with \"an apple\" — listen to how each fruit word begins."],
+  "g4-eng-ch02-b-q05": ["Say 'a apple' and 'an apple', then 'a banana' and 'an banana'. Notice which ones feel easy to say."],
   "g4-eng-ch02-b-q06": ["Who does \"We\" stand for — one person or more?", "Swap \"We\" for \"Mother\" in the sentence: would \"have\" still sound right?"],
   "g4-eng-ch02-b-q09": ["Look at the picture: one tooth, then a whole row.", "Tooth changes its middle vowels for the plural instead of adding -s."],
   "g4-eng-ch02-b-q10": ["\"baby\" ends in a consonant + y.", "For consonant + y, change y to i and add -es."],
@@ -207,7 +207,7 @@ export const G4_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-eng-ch05-b-q13": ["Find the subject: what was put up on the board?", "Start with \"The\" + the thing, then the helper verb, then the action, then the place."],
   "g4-eng-ch05-b-q17": ["\"after 11:00 a.m.\" is a time word in the notice.", "The line tells parents something about the clock — what does it allow them to do?"],
   "g4-eng-ch05-b-q19": ["Papa needs to know who called, when, and what to do next.", "Pick the message that names the uncle, gives the time, and asks Papa to act."],
-  "g4-eng-ch05-b-q20": ["Match each kind of writing — notice, email, phone message — with its job.", "Think of the notice: who reads a notice, and how long is it?"],
+  "g4-eng-ch05-b-q20": ["For each pair, picture who reads that writing and for how long. Keep the pair whose two sides agree."],
   "g4-eng-ch05-b-q23": ["A notice on the board starts at the top with the school's details.", "The heading comes next, then the details, and the signature goes at the very end."],
   "g4-eng-ch05-b-q24": ["The reminder email goes from one classmate to the rest of the class.", "A friendly email ends with thanks, a short friendly line and the writer's name."],
   // Pass 4 (2026-10-19): hint-rules-out / hint-partial-quote rewrites for items not already in this file
@@ -217,5 +217,6 @@ export const G4_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-eng-ch02-a-q05": ["Find the naming word for the animal in the sentence first.", "Now look for the word that tells you what that animal was like."],
   "g4-eng-ch02-a-q14": ["Read the first line of Anu's speech bubble. Who is she talking about?", "Is Anu talking about herself too, or only about other people?"],
   "g4-eng-ch04-a-q16": ["You arrive after sunset. What part of the day is it?", "How do you show respect when you greet an older person?"],
-  "g4-eng-ch04-b-q02": ["2 p.m. comes after midday. Which part of the day is that?", "Pick a greeting that fits the time and is polite to a teacher."],
+  "g4-eng-ch04-b-q02": ["2 p.m. comes after midday. Which part of the day is that?", "Pick a greeting that fits the time and is polite to a teacher."],  "g4-eng-ch05-b-q22": ["List the parts of a letter to Nani, from the date to the very last line. Then place 'Yours lovingly'."],
+
 };

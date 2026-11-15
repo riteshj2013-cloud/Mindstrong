@@ -247,8 +247,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "must be a poem" }
     ],
     answerId: "a",
-    explanation: "A line that rises and then falls is described as having 'increased and then declined'. 'Cannot be described in words' may tempt a student unsure of graph vocabulary, but report writing exists to put such trends into words.",
-    hints: ["Trace the graph with your finger from left to right, like Mumbai's monthly rainfall, and find words for each half of its movement."]
+    explanation: "We say a rising-then-falling line 'increased and then declined'. 'Stayed perfectly flat with no change' tempts a student who sees the line end where it began, but equal start and end mean no net change; the line still moved.",
+    hints: ["A line can end near where it began and still have moved a lot; test each option against the whole path described in the stem."]
   },
   {
     id: "g10-eng-ch03-a-q20",

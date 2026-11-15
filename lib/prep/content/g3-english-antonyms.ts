@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Dry\" means without water — the opposite of \"wet.\" Damp and soaked are still wet ideas.",
-    hints: ["Wet things have water on them.", "Damp means a little wet, not dry."],
+    hints: ["Some of these words still fit a wet towel. Pick out the word that never could."],
   },
   {
     id: "g3-eng-antonyms-a-q19",
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Poor\" means having little money — the opposite of \"rich.\" Wealthy means nearly the same as rich.",
-    hints: ["Rich can mean having much money.", "Wealthy is a twin of rich, not an opposite."],
+    hints: ["Fill 'The raja was rich, but Ramu was ___' with each word. Keep the one that flips rich."],
   },
   {
     id: "g3-eng-antonyms-a-q21",
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Rude\" means not polite. Courteous, kind and gentle are closer to polite.",
-    hints: ["Polite people say please and thank you.", "Courteous is a twin of polite, not an opposite."],
+    hints: ["Three of these words could describe the same helpful shopkeeper. Find the one that could not."],
   },
   {
     id: "g3-eng-antonyms-b-q15",
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "An \"enemy\" is the opposite idea of a \"friend.\" Buddy, pal and mate are twins of friend.",
-    hints: ["A friend is someone you like to be with.", "Buddy means nearly the same as friend."],
+    hints: ["For each word, ask: would Amina happily share her tiffin with this person? Three get a yes."],
   },
   {
     id: "g3-eng-antonyms-b-q17",
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Cry\" is the opposite action of \"laugh.\" Giggle, smile and cheer are happier actions.",
-    hints: ["Laugh is a happy sound.", "Giggle is a light laugh, not an opposite."],
+    hints: ["Sort the words into ones that go with laughing at a joke, and the odd one out."],
   },
   {
     id: "g3-eng-antonyms-b-q18",
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Tiny\" means very small — the opposite of \"huge.\" Enormous, giant and vast mean very big.",
-    hints: ["Huge means very big.", "Enormous is a twin of huge, not an opposite."],
+    hints: ["Put each word in 'The lane had ___ puddles.' Three keep the puddles the same; one flips them."],
   },
   {
     id: "g3-eng-antonyms-b-q23",

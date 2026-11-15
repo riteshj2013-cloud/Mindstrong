@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Courteous\" means well-mannered, like \"polite.\" \"Rude\" is the opposite.",
-    hints: ["Polite people say please and thank you.", "Rude is not a synonym of polite."]
+    hints: ["Picture the shopkeeper smiling as he hands Aarav the toffee. Test each word on that smiling shopkeeper."]
   },
   {
     id: "g3-eng-synonyms-a-q24",
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Giggle\" is a light laugh. Cry, weep and frown are not laughing.",
-    hints: ["Laugh is a happy sound.", "Cry is not a twin of laugh."]
+    hints: ["Imagine Rohan hearing a funny joke at lunch. Test each word: could he do that while laughing?"]
   },
   {
     id: "g3-eng-synonyms-b-q04",
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Wealthy\" means having a lot of money, like \"rich.\" Poor and needy are opposites.",
-    hints: ["Rich can mean having much money.", "Poor is the opposite idea."]
+    hints: ["Swap each word for rich in 'The rich merchant owned ten shops.' Keep whichever tells the same story."]
   },
   {
     id: "g3-eng-synonyms-b-q08",
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A \"buddy\" is a friend — someone you like and trust. Enemy and rival are opposites.",
-    hints: ["A friend is someone you like to be with.", "Enemy is the opposite idea."]
+    hints: ["Some of these words are people Amina would not share her tiffin with. Cross those out first."]
   },
   {
     id: "g3-eng-synonyms-b-q17",
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Damp\" means a little wet. Dry and parched are opposites of wet.",
-    hints: ["Wet things have water on them.", "Dry is the opposite of wet."]
+    hints: ["Try each word in 'My socks got ___ in the rain.' Keep the one that still feels wet."]
   },
   {
     id: "g3-eng-synonyms-b-q22",
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Enormous\" means very big, like \"huge.\" Tiny is the opposite.",
-    hints: ["Huge means very big.", "Tiny is the opposite size."]
+    hints: ["Swap each word for huge in the monsoon sentence. Keep the one that does not shrink the puddles."]
   },
   {
     id: "g3-eng-synonyms-b-q23",

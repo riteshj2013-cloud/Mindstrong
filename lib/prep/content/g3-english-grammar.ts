@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Sister names a person, so it is a noun. 'paints' is an action word (a verb), not a naming word.",
-    hints: ["A noun names a person, place or thing.", "Paints is an action and beautiful describes. Which word names a person?"]
+    hints: ["Put 'a' before each choice, like 'a paints'. Only some words sound right that way."]
   },
   {
     id: "g3-eng-grammar-a-q02",
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Bag\" names a thing. Packed is a verb (action).",
-    hints: ["Find the word that names a thing.", "Packed tells what Riya did."]
+    hints: ["Point to each choice and check whether Riya could hold it in her hands."]
   },
   {
     id: "g3-eng-grammar-a-q03",
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Tall\" describes the tree. Tree is the noun being described.",
-    hints: ["Find the word that describes the tree.", "Tree names the thing; tall tells what kind."]
+    hints: ["Hide each choice, one at a time. Only one leaves Meena's sentence still making sense."]
   },
   {
     id: "g3-eng-grammar-a-q11",
@@ -169,8 +169,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u2014 (none)" }
     ],
     answerId: "a",
-    explanation: "Use \"an\" before words that begin with a vowel sound. Apple begins with \"a\".",
-    hints: ["Listen for the first sound of the next word.", "Apple begins with a vowel sound, so use an."]
+    explanation: "Apple begins with a vowel sound, so we say 'an apple'. 'A' is tempting because it is the usual article, but before a vowel sound we use 'an'.",
+    hints: ["Fill the gap with each choice and read the whole sentence about the tree out loud, slowly."]
   },
   {
     id: "g3-eng-grammar-a-q14",
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Sweet\" describes the ladoo. Ladoo is the noun.",
-    hints: ["Find the describing word.", "Sweet tells what the ladoo tastes like."]
+    hints: ["Change each choice to 'hot' and read again. Only one swap keeps the ladoo sentence sounding right."]
   },
   {
     id: "g3-eng-grammar-b-q11",
