@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "A notice gives short facts to many readers. 'Phone message → no caller name needed' tempts since messages are short, but without a name nobody knows who called.",
-    hints: ["Match each kind of writing — notice, email, phone message — with its job.", "Check the phone message pair: without a caller's name, nobody knows whom to call back."],
+    hints: ["An email subject is a few words, so it cannot match the longest chapter of a novel.", "Check the phone message pair: without a caller's name, nobody knows whom to call back."],
   },
 {
     id: "g4-eng-ch05-b-q21",
