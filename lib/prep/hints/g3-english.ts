@@ -41,7 +41,7 @@ export const G3_ENGLISH_HINTS: Record<string, HintOverlay> = {
   "g3-eng-synonyms-b-q13": ["Empty means nothing is inside.", "Full is the opposite of empty."],
   "g3-eng-synonyms-b-q14": ["Cry often comes with tears.", "Laugh is not a twin of cry."],
   "g3-eng-synonyms-b-q15": ["Careful people think before they act.", "Careless is the opposite of careful."],
-  "g3-eng-synonyms-b-q16": ["A stranger is someone Amina has never met, so stranger is not a twin of friend.", "Enemy is the opposite of friend, so enemy is out."],
+  "g3-eng-synonyms-b-q16": ["Read the tiffin sentence aloud with each choice in place of friend.", "Enemy is the opposite of friend, so enemy is out."],
   "g3-eng-synonyms-b-q17": ["Hot things have heat.", "Icy is the opposite kind of feeling."],
   "g3-eng-synonyms-b-q18": ["Slowly means not fast.", "Quickly is the opposite of slowly."],
   "g3-eng-synonyms-b-q19": ["Look uses your eyes.", "Ignore means you turn away."],

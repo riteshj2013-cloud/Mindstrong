@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A \"buddy\" is a friend — someone you like and trust. Enemy and rival are opposites.",
-    hints: ["A stranger is someone Amina has never met, so stranger is not a twin of friend.", "Enemy is the opposite of friend, so enemy is out."]
+    hints: ["Read the tiffin sentence aloud with each choice in place of friend.", "Enemy is the opposite of friend, so enemy is out."]
   },
   {
     id: "g3-eng-synonyms-b-q17",

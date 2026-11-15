@@ -90,7 +90,7 @@ export const G3_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g3-eng-antonyms-b-q14": ["Three of these words could describe the same helpful shopkeeper. Find the one that could not.", "Courteous is a twin of polite, not an opposite."],
   "g3-eng-synonyms-a-q23": ["Picture the shopkeeper smiling as he hands Aarav the toffee. Test each word on that smiling shopkeeper.", "Rude is not a synonym of polite."],
   "g3-eng-antonyms-b-q16": ["For each word, ask: would Amina happily share her tiffin with this person? Three get a yes.", "Buddy means nearly the same as friend."],
-  "g3-eng-synonyms-b-q16": ["A stranger is someone Amina has never met, so stranger is not a twin of friend.", "Enemy is the opposite of friend, so enemy is out."],
+  "g3-eng-synonyms-b-q16": ["Read the tiffin sentence aloud with each choice in place of friend.", "Enemy is the opposite of friend, so enemy is out."],
   "g3-eng-antonyms-b-q17": ["Sort the words into ones that go with laughing at a joke, and the odd one out.", "Giggle is a light laugh, not an opposite."],
   "g3-eng-synonyms-b-q03": ["Imagine Rohan hearing a funny joke at lunch. Test each word: could he do that while laughing?", "Cry is not a twin of laugh."],
   "g3-eng-antonyms-b-q22": ["Put each word in 'The lane had ___ puddles.' Three keep the puddles the same; one flips them.", "Enormous is a twin of huge, not an opposite."],
