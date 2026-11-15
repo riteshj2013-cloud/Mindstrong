@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Sum of zeros = 2 + (−3) = −1 and product = −6, so the polynomial is x² − (sum)x + product = x² + x − 6. x² − x − 6 is tempting if you forget the minus sign in −(sum)x; its zeros are 3 and −2.",
-    hints: ["Use x² − (sum)x + (product)."]
+    hints: ["One choice vanishes at the given zeros with their signs flipped. That quadratic can go first."]
   },
   {
     id: "g10-maths-poly-a-q06",
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "With a ≠ 0, y = ax² + bx + c is a quadratic, and the graph of every quadratic is a parabola, opening up when a > 0 and down when a < 0. A straight line is tempting, but that is the graph of a linear polynomial, which has no x² term.",
-    hints: ["Degree 2 → parabolic graph."]
+    hints: ["As a ≠ 0, the ax² term is always present, which means the linear shape does not fit. Remove that choice."]
   },
   {
     id: "g10-maths-poly-a-q12",
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "p(2) = 0 gives 4 + 2k + 6 = 0, so 2k = −10 and k = −5; the other zero is 3, since 2 × 3 = 6. 5 is tempting if you drop the sign, but x² + 5x + 6 has zeros −2 and −3, not 2.",
-    hints: ["Substitute the known zero into p(x)."]
+    hints: ["Since the given zero makes the polynomial vanish, swapping it in for x leaves an equation in k. Finish by solving for k."]
   },
   {
     id: "g10-maths-poly-a-q13",
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Sum of zeros = −b/a = −(−5)/3 = 5/3. −5/3 is tempting if you forget the minus sign in −b/a, and 2/3 is the product c/a, not the sum.",
-    hints: ["Sum = −b/a."]
+    hints: ["The sum of zeros would stay put even if the final term changed. Any fraction built on the final number falls away."]
   },
   {
     id: "g10-maths-poly-a-q20",
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "x³ − 1 is a difference of cubes: x³ − 1 = (x − 1)(x² + x + 1). (x − 1)³ is tempting, but it expands to x³ − 3x² + 3x − 1, which has extra terms; (x + 1)(x² − x + 1) gives x³ + 1.",
-    hints: ["Difference of cubes: a³−b³=(a−b)(a²+ab+b²)."]
+    hints: ["Expanding shows one choice finishing with a positive constant, unlike x³ − 1. Strike it."]
   },
   {
     id: "g10-maths-poly-a-q23",
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The term in x is −3x, so the coefficient of x is −3, sign included. 4 is tempting because it comes first, but 4 is the coefficient of x³; 7 is the constant term.",
-    hints: ["Read the coefficient of the x¹ term."]
+    hints: ["An x term with no power appears in this polynomial. The option giving it no coefficient fails."]
   },
   {
     id: "g10-maths-poly-a-q24",
@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "(x + 1)(x − 1)(x − 2) is zero at x = −1, 1 and 2, and multiplying three linear factors gives a cubic. (x − 1)³ is tempting because it is a cubic with the zero 1, but 1 is its only zero; at −1 and 2 it is not zero.",
-    hints: ["Build from (x − each zero)."]
+    hints: ["Distinct zeros of a cubic come from distinct brackets. The choice that repeats a single bracket has just a single zero, so it fails."]
   },
   {
     id: "g10-maths-poly-b-q02",
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "y = (x − 2)(x − 3) is zero when x − 2 = 0 or x − 3 = 0, so the graph cuts the x-axis at 2 and 3. −2 and −3 is tempting from the signs in the brackets, but x = −2 gives (−4)(−5) = 20, not 0.",
-    hints: ["x-intercepts are the zeros."]
+    hints: ["Both brackets can be emptied, each at its own x. That means more than a lone x-axis crossing; drop the single-point answer."]
   },
   {
     id: "g10-maths-poly-b-q05",
@@ -406,8 +406,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "a",
-    explanation: "If one zero is the reciprocal of the other, their product is 1. Product = c/a = 4k/(k² + 4) = 1, so k² − 4k + 4 = 0, (k − 2)² = 0 and k = 2. −2 is tempting, but it gives 4k/(k² + 4) = −8/8 = −1, not 1.",
-    hints: ["Reciprocal zeros ⇒ product = 1."]
+    explanation: "If one zero is the reciprocal of the other, their product is 1. Product = c/a = 4k/(k² + 4) = 1, so k² − 4k + 4 = 0, (k − 2)² = 0 and k = 2. −2 is tempting if you solve k − 2 = 0 as k = −2, but −2 gives 4k/(k² + 4) = −8/8 = −1, not 1.",
+    hints: ["Any number and its reciprocal are both positive or both negative, so multiplying them gives a positive result. A negative k cannot work."]
   },
   {
     id: "g10-maths-poly-b-q08",
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "When two polynomials are multiplied, their leading terms multiply, so the degrees add: 3 + 2 = 5 (x³ × x² = x⁵). 6 is tempting, but degrees are added, not multiplied.",
-    hints: ["deg(pq)=deg p + deg q."]
+    hints: ["Multiplying by q never lowers the degree under that of p. So discard a value smaller than the degree of p."]
   },
   {
     id: "g10-maths-poly-b-q11",
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "A polynomial of degree n has at most n zeros, so degree 4 gives at most 4 zeros. 5 is tempting, but a degree-4 graph can cross the x-axis at most 4 times; 5 zeros would need degree 5.",
-    hints: ["Degree n ⇒ at most n zeros."]
+    hints: ["A polynomial like this can be a product of several unlike linear factors, each adding its own zero. So the lowest option fails."]
   },
   {
     id: "g10-maths-poly-b-q13",
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "p(1) = 1 − 4 + 3 = 0, so x = 1 is a zero of p(x). 3 is tempting because it is the constant term, but 3 is p(0), not p(1).",
-    hints: ["Substitute x=1 into the polynomial."]
+    hints: ["Reading p(1) as the end number alone is a slip, because it is the value at a different input. Scrap that choice."]
   },
   {
     id: "g10-maths-poly-b-q15",
@@ -510,8 +510,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x\u00b2 + 1" }
     ],
     answerId: "c",
-    explanation: "x − 1 is a factor exactly when p(1) = 0, and for x³ − 1, p(1) = 1 − 1 = 0. x² − x + 1 is tempting, but p(1) = 1 − 1 + 1 = 1, not 0; the other two give 3 and 2.",
-    hints: ["Test p(1)=0."]
+    explanation: "x − 1 is a factor exactly when p(1) = 0. For x³ − 1, p(1) = 1 − 1 = 0. x² − x + 1 is tempting if you match the −1 in x − 1 to its −x term. But for it p(1) = 1 − 1 + 1 = 1, not 0, and the other two give 3 and 2.",
+    hints: ["The choice that is only a square plus a positive number can never vanish, meaning (x−1) is not a factor there. Reject that option."]
   },
   {
     id: "g10-maths-poly-b-q16",
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "(x − 1)(x − 2) + (x − 1)(x − 3) = (x − 1)[(x − 2) + (x − 3)] = (x − 1)(2x − 5), so the zeros are 1 and 5/2 = 2.5. 2 and 3 is tempting from the brackets, but at x = 2 the expression is 1 × 0 + 1 × (−1) = −1, not 0.",
-    hints: ["Factor out the common (x−1)."]
+    hints: ["No matter what the second bracket becomes, the common (x−1) still wipes out the whole expression at its root. Reject the pair lacking that root."]
   },
   {
     id: "g10-maths-poly-b-q17",
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "By the remainder theorem, the remainder on dividing by x + 1 is p(−1) = (−1)² + 1 = 2; indeed x² + 1 = (x + 1)(x − 1) + 2. 0 is tempting, but x + 1 is not a factor of x² + 1, because p(−1) is not 0.",
-    hints: ["Remainder theorem with a=−1."]
+    hints: ["x + 1 cannot divide x² + 1 exactly, since x² + 1 is positive whatever x is. So a remainder of nothing is wrong."]
   },
   {
     id: "g10-maths-poly-b-q21",
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Equal zeros need discriminant 0: k² − 4 × 1 × 9 = 0, so k² = 36 and k = ±6, giving x² ± 6x + 9 = (x ± 3)². ±3 is tempting because 9 = 3², but k is the middle coefficient, which is 2 × 3 = 6.",
-    hints: ["Set discriminant to zero."]
+    hints: ["To get equal zeros, k is not found by lifting the last number into the middle slot. The option made by that shortcut is wrong."]
   },
   {
     id: "g10-maths-poly-b-q24",
