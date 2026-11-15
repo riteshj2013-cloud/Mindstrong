@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Any equation ax + by + c = 0 graphs as a straight line. 'A parabola' is tempting because it is a familiar curve, but a parabola needs an x² term; a linear equation has none.",
-    hints: ["Two-variable linear ⇒ line."]
+    hints: ["Pick a linear equation in two variables and get y alone. Each step of 1 in x shifts y by what amount?"]
   },
   {
     id: "g10-maths-linear-a-q02",
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "2x + 2y = 10 is just 2 × (x + y = 5), so both equations draw the same line and every point on it is a solution. 'Unique solution' is tempting because most pairs meet once, but these lines coincide rather than cross.",
-    hints: ["Compare a1/a2, b1/b2, c1/c2."]
+    hints: ["Halve every term of the second equation in the pair and compare it with the first. What does that say about the graphs?"]
   },
   {
     id: "g10-maths-linear-a-q03",
@@ -65,8 +65,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "a1/a2 = b1/b2 \u2260 c1/c2" }
     ],
     answerId: "b",
-    explanation: "Lines intersect at one point iff slopes differ: a1/a2 \u2260 b1/b2.",
-    hints: ["Unique ⇔ ratios of a and b differ."]
+    explanation: "Two lines meet at exactly one point when their slopes are different, and that happens when a1/a2 ≠ b1/b2. The condition a1/a2 = b1/b2 ≠ c1/c2 is tempting if you mix up the conditions. That one says the slopes are equal but the lines are different, so they are parallel and never meet.",
+    hints: ["A unique solution means the lines meet at just one point. Think what that needs from their slopes, then write each slope with the coefficients."]
   },
   {
     id: "g10-maths-linear-a-q06",
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Every point on x = 3 has x-coordinate 3, so the line is vertical, parallel to the y-axis. 'Parallel to the x-axis' is tempting because the equation mentions x, but fixing x makes the line vertical, not horizontal.",
-    hints: ["Constant x ⇒ vertical line."]
+    hints: ["Only one coordinate changes as you slide along this line. Ask whether that slide is sideways or up the page."]
   },
   {
     id: "g10-maths-linear-a-q09",
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "All points with y-coordinate 0 lie on the x-axis. 'The y-axis' is tempting because the equation is in y, but the y-axis is x = 0.",
-    hints: ["y=0 is the horizontal axis."]
+    hints: ["Ask which coordinate the equation sets, and which is free to roam. Those points gather somewhere you know well."]
   },
   {
     id: "g10-maths-linear-a-q10",
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Multiply by 3 and 2: 9x + 6y = 18 and 4x + 6y = 12; subtract to get 5x = 6, so x = 6/5. 1 is tempting by symmetry (x = y = 1), but 3 + 2 = 5, not 6.",
-    hints: ["Eliminate y, solve for x."]
+    hints: ["Solving by elimination: give both equations an equal y part by scaling. Subtracting then leaves only x."]
   },
   {
     id: "g10-maths-linear-a-q23",
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The first km costs ₹15 and the other (d − 1) km cost ₹8 each: F = 15 + 8(d − 1) = 8d + 7. F = 8d + 15 is tempting, but it charges ₹8 for the first km on top of the ₹15.",
-    hints: ["First kilometre at 15, rest at 8."]
+    hints: ["The first km has its own price; every later km costs the other rate. Count those later km using d and simplify."]
   },
   {
     id: "g10-maths-linear-b-q08",
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Slopes are −a1/b1 and −a2/b2; perpendicular means their product is −1, which gives a1a2 + b1b2 = 0. a1/a2 = b1/b2 is tempting, but that is the condition for parallel lines.",
-    hints: ["Product of slopes = −1."]
+    hints: ["Each line's slope is minus its x number over its y number. Perpendicular slopes have a fixed product; set that up and tidy it."]
   },
   {
     id: "g10-maths-linear-b-q09",
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "The two equations are identical, so every point on 3x + 2y − 1 = 0 satisfies both. 'Only (1/3, 0)' is tempting because that point does lie on the line, but so do infinitely many others.",
-    hints: ["Same line twice ⇒ dependent system."]
+    hints: ["Repeating an equation adds no new condition. So count the solutions of that single equation on its own."]
   },
   {
     id: "g10-maths-linear-b-q10",
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Adding cancels y: 3x = 9, so x = 3, and then y = 5 − 3 = 2. x = 5 is tempting because 5 is on the right of the first equation, but then y = 0 and 2(5) − 0 = 10, not 4.",
-    hints: ["Elimination by adding."]
+    hints: ["Stack the equations and try adding them column by column. Whatever survives gives one letter; feed it back for the second."]
   },
   {
     id: "g10-maths-linear-b-q11",
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "(3, 1) works in both: 3 − 1 = 2 and 6 + 1 = 7. (2, 0) is tempting because 2 − 0 = 2, but 2(2) + 0 = 4, not 7.",
-    hints: ["Test each pair in both equations."]
+    hints: ["Check every ordered pair against both equations. Several may pass the first test, so the second decides it."]
   },
   {
     id: "g10-maths-linear-b-q12",
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Subtracting the first from the second gives 2x = 6, so x = 3 and then y = 1. 1 is tempting, but that is the value of y, not x.",
-    hints: ["Subtract to eliminate y."]
+    hints: ["Remove y by subtracting the equations. Solve for x, then double-check you report x and not y."]
   },
   {
     id: "g10-maths-linear-b-q16",
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Distance = |c1 − c2|/√(a² + b²) = |−5 + 15|/√(9 + 16) = 10/5 = 2. 10 is tempting, but it forgets to divide by √(3² + 4²) = 5.",
-    hints: ["Distance |c1−c2|/√(a²+b²) for same a,b."]
+    hints: ["Subtracting the constant terms does not give the gap between the lines, because 3x + 4y grows faster than distance. Drop that difference."]
   },
   {
     id: "g10-maths-linear-b-q20",
@@ -575,8 +575,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x=5, (10\u2212x)=5" }
     ],
     answerId: "d",
-    explanation: "0.2x+0.5(10\u2212x)=3.5 \u2192 2\u22120.3x=3.5? 0.2x+5\u22120.5x=3.5 \u2192 5\u22120.3x=3.5 \u2192 0.3x=1.5 \u2192 x=5.",
-    hints: ["Acid balance: percent × volume."]
+    explanation: "The 20% solution holds 0.2x litres of acid and the 50% solution holds 0.5(10 − x) litres. Together they must give 35% of 10 L, which is 3.5 litres. So 0.2x + 5 − 0.5x = 3.5, which gives 0.3x = 1.5 and x = 5. So the chemist uses 5 L of each: x=5, (10−x)=5. x=3.5 is tempting if you take the 3.5 litres of pure acid as x, the litres of the 20% solution.",
+    hints: ["Turn each percentage into litres of acid, using x for the 20% part. Those amounts must add to the acid in the final mix."]
   },
   {
     id: "g10-maths-linear-b-q21",

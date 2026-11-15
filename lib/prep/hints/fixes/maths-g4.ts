@@ -226,7 +226,7 @@ export const G4_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-maths-data-a-q03": ["Read the key: one ⚽ is worth 2 goals.", "Count 2 goals for each ⚽ in the row: 2, 4, and then one more ⚽."],
   "g4-maths-data-a-q06": ["Add only the counts for banana and apple, 8 and 5."],
   "g4-maths-data-a-q07": ["Count the 🌸 pictures, then multiply by the key value of 5 flowers."],
-  "g4-maths-data-a-q09": ["Find the tally worth exactly 7. Start from the crossed bundle, then count on with the single strokes in each choice."],
+  "g4-maths-data-a-q09": ["Find the tally worth exactly 7. Give each crossed group its value first, then count on with the single strokes in each choice."],
   "g4-maths-data-a-q10": ["Compare the four numbers of books: 6, 4, 6 and 2. The fewest means the smallest."],
   "g4-maths-data-a-q11": ["Add Riya's 6 books and Meera's 6 books."],
   "g4-maths-data-a-q12": ["If one picture means the key value, what would half a picture mean?"],

@@ -398,7 +398,7 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-frac-b-q06",
     prompt: "Take away the shaded strip. What is **7/10 \u2212 2/10**?",
     options: [
-      { id: "a", text: "5/0" },
+      { id: "a", text: "2/10" },
       { id: "b", text: "5/20" },
       { id: "c", text: "9/10" },
       { id: "d", text: "5/10" }
