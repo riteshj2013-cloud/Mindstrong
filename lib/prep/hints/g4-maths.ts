@@ -250,7 +250,7 @@ export const G4_MATHS_HINTS: Record<string, HintOverlay> = {
   "g4-maths-data-a-q06": ["Add the two counts.", "8 + 5."],
   "g4-maths-data-a-q07": ["Multiply number of pictures by the key value.", "4 \u00d7 5."],
   "g4-maths-data-a-q08": ["Titles describe the data topic.", "Match graph to wording."],
-  "g4-maths-data-a-q09": ["Find the tally worth exactly 7. Start from the crossed bundle, then count on with the single strokes in each choice."],
+  "g4-maths-data-a-q09": ["Find the tally worth exactly 7. Give each crossed group its value first, then count on with the single strokes in each choice."],
   "g4-maths-data-a-q10": ["Find the smallest number.", "Compare 6, 4, 6, 2."],
   "g4-maths-data-a-q11": ["Add the two equal amounts.", "6 + 6."],
   "g4-maths-data-a-q12": ["Halves scale the key.", "Half picture \u2192 half the value."],
