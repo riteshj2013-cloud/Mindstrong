@@ -233,7 +233,7 @@ export const G5_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g5-maths-data-a-q16": ["Compare the bar scores one by one and keep the biggest; the tallest bar shows it."],
   "g5-maths-data-a-q17": ["Add 10, 20, 30 and 40, then divide the total by 4."],
   "g5-maths-data-a-q18": ["Tally how many times each value appears in the list. The mode is the most frequent value."],
-  "g5-maths-data-a-q19": ["Count the red votes in two parts: the crossed groups, then the single strokes standing on their own at the end. Do not stop after the groups."],
+  "g5-maths-data-a-q19": ["Every crossed tally is a set number of votes. Skip-count through those groups by that number, and then add any loose marks."],
   "g5-maths-data-a-q20": ["A reader must know what the bar graph is about and what each line measures. What tells them that?"],
   "g5-maths-data-a-q21": ["Add the five daily rainfall amounts, then divide the total by the number of days."],
   "g5-maths-data-a-q22": ["One whole icon is 4 children. Three quarters of an icon is ¾ of 4 children."],

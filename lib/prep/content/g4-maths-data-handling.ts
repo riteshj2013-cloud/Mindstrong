@@ -120,7 +120,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A crossed bundle is 5, and 5 + 2 singles = 7. Four single strokes only is 4. One crossed bundle and 3 singles is 8. Three single strokes only is 3.",
-    hints: ["Find the tally worth exactly 7. Start from the crossed bundle, then count on with the single strokes in each choice."],
+    hints: ["Find the tally worth exactly 7. Give each crossed group its value first, then count on with the single strokes in each choice."],
   },
   {
     id: "g4-maths-data-a-q10",
