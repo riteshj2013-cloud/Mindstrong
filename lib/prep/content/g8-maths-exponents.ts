@@ -118,8 +118,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "1" }
     ],
     answerId: "b",
-    explanation: "Add exponents: 4 + (−2) = 2, so 3². 3⁶ is tempting if you multiply the exponents instead of adding them (same-base product rule); adding the exponents gives 3².",
-    hints: ["Same base 3: add the exponents 4 and −2."]
+    explanation: "When you multiply powers of the same base, you add the powers. 4 + (−2) = 2, so 3⁴ × 3⁻² = 3². Check: 81 × 1/9 = 9, and 3² = 9. 3⁶ is tempting if you drop the minus sign on −2 and add 4 + 2 = 6.",
+    hints: ["Simplify by noticing both powers have the same base, 3. Think what multiplying does to the powers, and watch the sign of the second."]
   },
   {
     id: "g8-maths-exponents-a-q10",

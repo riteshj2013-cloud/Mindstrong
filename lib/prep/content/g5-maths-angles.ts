@@ -41,8 +41,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "180\u00b0" }
     ],
     answerId: "d",
-    explanation: "A straight angle is a straight line and measures 180°. 90° is tempting if you give the measure of a right angle instead of a straight angle.",
-    hints: ["A straight angle is a half-turn. A full turn is 360°; halve it."]
+    explanation: "A straight angle is half of a full turn. A full turn is 360°, so a straight angle is 360° ÷ 2 = 180°, like the edge of a ruler. 90° is tempting if you mix up a straight angle with a right angle, which is only a quarter turn.",
+    hints: ["Lay a ruler down and draw an angle whose two arms follow its edge in opposite directions. Measure that angle with your protractor."]
   },
   {
     id: "g5-maths-angles-a-q04",
@@ -177,8 +177,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "West" }
     ],
     answerId: "c",
-    explanation: "Clockwise order is N → E → S → W → N. One quarter turn clockwise from West lands on North. South is tempting if you turn 90° anticlockwise from West instead of clockwise.",
-    hints: ["Clockwise follows the clock hands: N → E → S → W, then back to the start. Begin at West and move one step."]
+    explanation: "Clockwise means the way a clock's hands move: North → East → South → West → North. A 90° turn is one step along this order. From West, one step clockwise brings Meena to North. South is tempting if you turn the other way, anticlockwise, which goes from West to South.",
+    hints: ["Draw a compass with the four directions. Mark where Meena is facing, then follow the clock hands and see where 90° takes her."]
   },
   {
     id: "g5-maths-angles-a-q14",

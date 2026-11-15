@@ -53,8 +53,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Equal widths" }
     ],
     answerId: "d",
-    explanation: "Bars must have equal widths so only their heights carry the quantities. Different widths is tempting if you think wider bars somehow show larger amounts; unequal width would make fair height comparison impossible.",
-    hints: ["If one bar were fatter, it would look bigger than it really is. Bars should differ only in height."]
+    explanation: "In a bar graph, only the height of a bar shows the amount. Bars should have equal widths, so no bar looks bigger just because it is fatter. Different widths is tempting if you think a wider bar can show a bigger amount. Then a wide bar for 10 kg of rice would look larger than a thin bar for 12 kg.",
+    hints: ["Imagine two bars in a bar graph for the same number of mangoes. Think about what could make one bar look bigger than the other."]
   },
   {
     id: "g5-maths-data-a-q05",
@@ -79,8 +79,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Perimeter" }
     ],
     answerId: "b",
-    explanation: "Frequency means how often a value appears. Average is tempting if you confuse the count of appearances with a typical middle value of the set.",
-    hints: ["Think of tally marks counting how many times each value appears. What is that count called?"]
+    explanation: "The frequency of a value is the number of times it appears. For example, in the marks 7, 8, 7, 9, 7 the frequency of 7 is 3. Mode only is tempting if you mix up how often a value appears with the value that appears most often. The mode is the value with the highest frequency, not the count itself.",
+    hints: ["Picture a tally table of favourite fruits in your class. The tallies show how many times each fruit appears; test each option against that."]
   },
   {
     id: "g5-maths-data-a-q07",
@@ -92,8 +92,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "One stroke" }
     ],
     answerId: "c",
-    explanation: "7 = 5 + 2, so write one crossed bundle and two single strokes. Seven single strokes only with no bundles is tempting if you draw one stroke for each count and never group them into bundles of 5.",
-    hints: ["A tally bundle is a group of upright strokes with a slash. Take one bundle away from 7 and count what is left."]
+    explanation: "7 = 5 + 2. So draw one bundle of 5, which is four strokes with a slash across them, and then two more single strokes. One bundle of 5 and two more is the best way. Two bundles of 5 is tempting if you make a second bundle for the 2 leftover strokes. But two bundles of 5 show 5 + 5 = 10, not 7.",
+    hints: ["In tally marks each bundle stands for a fixed count. Work out how many full bundles fit into 7, then what is left over."]
   },
   {
     id: "g5-maths-data-a-q08",

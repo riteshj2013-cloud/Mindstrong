@@ -209,8 +209,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "54 m\u00b2" }
     ],
     answerId: "d",
-    explanation: "Lateral area = 2(l + b)h = 2(5 + 4)×3 = 54 m². 60 m² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 54 m².",
-    hints: ["Four walls = 2(length + breadth) × height. Use 5 m, 4 m and the 3 m height."]
+    explanation: "The four walls are two walls of 5 m × 3 m and two walls of 4 m × 3 m. Think of the walls a painter covers, leaving out the floor and ceiling. Area = 2 × (5 + 4) × 3 = 2 × 9 × 3 = 54 m². 60 m² is tempting if you multiply all three lengths, 5 × 4 × 3 = 60. That is the volume of the room in m³, not the wall area.",
+    hints: ["Picture painting the four walls of the room, but not the floor or ceiling. Each wall is a rectangle; find each wall's area, then add."]
   },
   {
     id: "g8-maths-mensuration-a-q17",
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "36" }
     ],
     answerId: "b",
-    explanation: "Along each edge 6/2 = 3 cubes; 3³ = 27. 36 is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 27.",
+    explanation: "Along each 6 cm edge, 6 ÷ 2 = 3 small cubes fit. The big cube holds 3 layers of 3 × 3 = 9 cubes, so 3 × 3 × 3 = 27. 9 is tempting if you count only one layer, 3 × 3 = 9, and forget there are 3 layers.",
     hints: ["Find how many 2 cm cubes fit along one 6 cm edge, then cube that number."]
   },
   {
@@ -420,8 +420,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "52 cm\u00b2" }
     ],
     answerId: "d",
-    explanation: "2(12 + 6 + 8) = 2×26 = 52 cm². 48 cm² is tempting if you use a neighbouring mensuration formula (perimeter for area, or surface for volume); the right formula gives 52 cm².",
-    hints: ["TSA = 2(lb + bh + hl). Find 4 × 3, 3 × 2 and 2 × 4 first."]
+    explanation: "TSA = 2 × (lb + bh + hl). Here lb = 4 × 3 = 12, bh = 3 × 2 = 6 and hl = 2 × 4 = 8. So TSA = 2 × (12 + 6 + 8) = 2 × 26 = 52 cm². 26 cm² is tempting if you add the three face areas, 12 + 6 + 8 = 26, and forget to double. Each face has a matching opposite face, so every area counts twice.",
+    hints: ["A cuboid has six faces in matching pairs. Find one face's area from each pair, then think how many of each there are."]
   },
   {
     id: "g8-maths-mensuration-b-q09",
