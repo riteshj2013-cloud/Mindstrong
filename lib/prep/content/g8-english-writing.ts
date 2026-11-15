@@ -489,7 +489,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-b-q14",
-    prompt: "**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead Article P2. Compared with Notice N1, this article is more likely to \u2014",
+    prompt: "The school notice\n\n**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1–2 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nThe school magazine article\n\n**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead the article. Compared with the school notice, the article is more likely to —",
     options: [
       { id: "a", text: "list only a deadline and venue with no opinion" },
       { id: "b", text: "develop a viewpoint with description and a proposed compromise" },
@@ -497,8 +497,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "hide the writer's name forever" }
     ],
     answerId: "b",
-    explanation: "Articles develop ideas and voice; notices prioritise brief facts for action.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "The article describes the lost pitch, shares Meera's view and proposes a games zone. \"list only a deadline and venue with no opinion\" describes the notice instead; it tempts if you mix up which text is meant.",
+    hints: ["Meera's article reports no audition date or hall; think about what she adds that Kabir Sen's notice never tries to do."]
   },
   {
     id: "g8-eng-ch05-b-q15",
@@ -520,11 +520,11 @@ const SET_B: PrepQuestion[] = [
       { id: "a", text: "Only a private joke shared in class" },
       { id: "b", text: "A notice about street-play auditions" },
       { id: "c", text: "A byline without any body text" },
-      { id: "d", text: "A formal letter to the editor (as in P1) plus possible follow-up emails to officials" }
+      { id: "d", text: "A formal letter to the editor plus follow-up emails to officials" }
     ],
     answerId: "d",
-    explanation: "Letters to editors raise public concern; emails can address officials directly.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "A letter to the editor raises public concern, and emails reach officials directly. 'A notice about street-play auditions' is tempting because notices are public, but it is about auditions and asks nothing of the traffic police.",
+    hints: ["A byline with no body text tells the traffic police nothing, so set it aside; weigh how each remaining format would reach both groups."]
   },
   {
     id: "g8-eng-ch05-b-q17",
@@ -593,16 +593,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-b-q22",
-    prompt: "**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1\u20132 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nRead Notice N1 and Article P2. Which statement is true?",
+    prompt: "The school notice\n\n**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1–2 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nThe school magazine article\n\n**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead the school notice and the article. Which statement is true?",
     options: [
       { id: "a", text: "Both are mainly meant to entertain with fiction" },
-      { id: "b", text: "N1 mainly informs and instructs; P2 mainly reflects and persuades" },
-      { id: "c", text: "P2 is a formal letter to an editor" },
-      { id: "d", text: "N1 needs a byline like a magazine feature" }
+      { id: "b", text: "The notice mainly informs and instructs; the article mainly reflects and persuades" },
+      { id: "c", text: "The article is a formal letter to an editor" },
+      { id: "d", text: "The notice needs a byline like a magazine feature" }
     ],
     answerId: "b",
-    explanation: "Notices push action with facts; articles develop reflection and opinion.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "The notice gives a date, venue and steps; the article reflects on the lost playground and argues for a games zone. \"The article is a formal letter to an editor\" tempts because it voices opinion, yet it lacks a salutation.",
+    hints: ["The playground article opens with a heading and a byline, not \"Dear Sir\", so it is not written as a letter."]
   },
   {
     id: "g8-eng-ch05-b-q23",

@@ -411,16 +411,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-b-q08",
-    prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest \u2014 none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead Opening speech P1 and Opposition rebuttal P2. Which statement is accurate?",
+    prompt: "Speech 1: Opening speech by the proposition\n\nHonourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest — none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nSpeech 2: Rebuttal by the opposition\n\nThank you. The proposition painted a neat picture, but it skips an important fact. Many subjects — mathematics and languages especially — need spaced practice beyond a single hour. If we cap homework rigidly, weaker students lose the extra support they need at home. Moreover, \"one hour\" is not equal for everyone: a quiet desk at home is not the same as a crowded shared room. We on the opposition therefore reject a blanket limit. Instead, we propose clearer guidelines and better-designed tasks, not a one-size-fits-all clock. I ask the house to oppose the motion.\n\nRead Speech 1 and Speech 2. Which statement is accurate?",
     options: [
       { id: "a", text: "Neither speaker mentions homework" },
-      { id: "b", text: "P2 agrees completely with P1" },
+      { id: "b", text: "The rebuttal agrees completely with the opening speech" },
       { id: "c", text: "Both speakers support a rigid one-hour homework cap" },
-      { id: "d", text: "P1 supports the cap; P2 rejects a blanket one-hour limit" }
+      { id: "d", text: "The opening speech supports the cap; the rebuttal rejects a blanket one-hour limit" }
     ],
     answerId: "d",
-    explanation: "P1 argues for the limit; P2 opposes a blanket cap and proposes guidelines instead.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "The opening speech urges a vote for the one-hour limit; the rebuttal rejects \"a blanket limit\" and proposes guidelines. \"Both speakers support a rigid one-hour homework cap\" tempts readers who spot \"one hour\" in both speeches.",
+    hints: ["The word \"homework\" sits in the motion itself, so ask how each speaker feels about the limit, not whether they bring it up."]
   },
   {
     id: "g8-eng-ch04-b-q09",
