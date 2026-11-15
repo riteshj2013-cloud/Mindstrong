@@ -330,7 +330,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Vertically opposite angles are equal, so 2x + 10 = 3x − 20. Take 2x from both sides: 10 = x − 20. Add 20 to both sides: x = 30. Check: 2 × 30 + 10 = 70 and 3 × 30 − 20 = 70. 10 is tempting if you take 10 away from 20 instead of adding them: 20 − 10 = 10.",
-    hints: ["Set vertically opposite angles equal."]
+    hints: ["First decide how the sizes of ∠A and ∠B compare. Then turn that fact into an equation in x and solve it, checking both angles."]
   },
   {
     id: "g7-maths-angles-b-q02",
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "30° and 60° side by side making a right angle" }
     ],
     answerId: "d",
-    explanation: "Complementary angles add up to 90°. 30° + 60° = 90°, and side by side they make a right angle, so that pair is complementary. 120° and 60° side by side on a straight line is tempting if you mix up complementary with supplementary: 120° + 60° = 180°, a straight line, not a right angle. The other pairs do not work either: 90° + 90° = 180° and 45° + 50° = 95°.",
+    explanation: "Complementary angles add up to 90°. Here 30° + 60° = 90°, so the answer is 30° and 60° side by side making a right angle. 120° and 60° side by side on a straight line is tempting if you mix up complementary with supplementary: 120° + 60° = 180°, which makes a straight line, not a right angle.",
     hints: ["Add the two angles in each pair. Complementary and supplementary pairs have different totals, so be sure which total goes with complementary."]
   }
 ];

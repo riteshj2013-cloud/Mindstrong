@@ -269,7 +269,7 @@ export const G5_MATHS_HINTS: Record<string, HintOverlay> = {
   "g5-maths-data-a-q16": ["Equal-width bars; read the scale, then multiply height by the scale unit."],
   "g5-maths-data-a-q17": ["Add the numbers, then divide by how many numbers there are."],
   "g5-maths-data-a-q18": ["The mode is the value that appears most often."],
-  "g5-maths-data-a-q19": ["Count the red votes in two parts: the crossed groups, then the single strokes standing on their own at the end. Do not stop after the groups."],
+  "g5-maths-data-a-q19": ["Every crossed tally is a set number of votes. Skip-count through those groups by that number, and then add any loose marks."],
   "g5-maths-data-a-q20": ["Equal-width bars; read the scale, then multiply height by the scale unit."],
   "g5-maths-data-a-q21": ["Add the numbers, then divide by how many numbers there are."],
   "g5-maths-data-a-q22": ["Read the key: each icon stands for a fixed number of items."],
