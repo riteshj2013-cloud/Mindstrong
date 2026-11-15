@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "3.35" }
     ],
     answerId: "d",
-    explanation: "Write 4.2 as 4.20 and subtract: 4.20 − 0.85 = 3.35. 3.45 is tempting if you subtract only 0.75 (misreading the 8 tenths as 7) from 4.20.",
+    explanation: "Write 4.2 as 4.20 so both numbers have hundredths. Hundredths: borrow from the tenths, so 10 − 5 = 5 and the 2 tenths become 1. Tenths: borrow from the ones, so 11 − 8 = 3 and the 4 ones become 3. So 4.20 − 0.85 = 3.35. 3.45 is tempting if you borrow for the hundredths but forget to lower the tenths from 2 to 1, so you work out 12 − 8 = 4 in the tenths.",
     hints: ["Line up the decimal points. What digit does 4.2 have in the hundredths place? Watch every borrow."]
   },
   {

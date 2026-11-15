@@ -15,7 +15,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Less than 90° means acute. Right is tempting if you call every corner-looking angle a right angle; acute is strictly between 0° and 90°.",
-    hints: ["Compare with 90°."]
+    hints: ["Picture an angle of 35° next to the square corner of a book. Decide whether it is smaller, the same, or bigger."]
   },
   {
     id: "g7-maths-angles-a-q02",
@@ -80,7 +80,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Two angles are supplementary if they add to 180°. 270° is tempting if you subtract from 90° (complement) instead of from 180°.",
-    hints: ["Supplement → straight angle total."]
+    hints: ["Supplementary and complementary angles are easy to mix up. Picture two supplementary angles side by side and look at the shape their outer arms make."]
   },
   {
     id: "g7-maths-angles-a-q07",
@@ -106,7 +106,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "180 − 110 = 70. 80° is tempting if you subtract from 90° (complement) instead of from 180°.",
-    hints: ["Supplement = 180° minus the angle."]
+    hints: ["Supplement and complement use different totals. Pick the total that goes with supplement, then find what you add to 110° to reach it."]
   },
   {
     id: "g7-maths-angles-a-q09",
@@ -369,7 +369,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Interior at C is 70°; exterior = 180 − 70 = 110, also = A + B. 130° is tempting if you use an interior angle where the exterior equals the sum of the two remote interiors.",
-    hints: ["Exterior = sum of remote interiors."]
+    hints: ["Find the inside angle at C first, using the angles of △ABC. The exterior at C sits next to it on a straight line."]
   },
   {
     id: "g7-maths-angles-b-q05",
@@ -620,16 +620,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-maths-angles-b-q24",
-    prompt: "Which drawing represents a pair of complementary angles?",
-    options: [
-      { id: "a", text: "30\u00b0 and 60\u00b0 making a straight line" },
-      { id: "b", text: "90\u00b0 and 90\u00b0" },
-      { id: "c", text: "120\u00b0 and 60\u00b0 making a right angle" },
-      { id: "d", text: "30\u00b0 and 60\u00b0 side by side making a right angle" }
+    prompt: "Which pair of angles is complementary?",
+        options: [
+      { id: "a", text: "120° and 60° side by side on a straight line" },
+      { id: "b", text: "90° and 90°" },
+      { id: "c", text: "45° and 50°" },
+      { id: "d", text: "30° and 60° side by side making a right angle" }
     ],
     answerId: "d",
-    explanation: "Complementary angles add to 90°, so 30° and 60° side by side making a right angle fit. '30° and 60° making a straight line' is tempting if you use the supplement (180°) instead of the complement.",
-    hints: ["What do complementary angles add up to?"]
+    explanation: "Complementary angles add up to 90°. 30° + 60° = 90°, and side by side they make a right angle, so that pair is complementary. 120° and 60° side by side on a straight line is tempting if you mix up complementary with supplementary: 120° + 60° = 180°, a straight line, not a right angle. The other pairs do not work either: 90° + 90° = 180° and 45° + 50° = 95°.",
+    hints: ["Add the two angles in each pair. Complementary and supplementary pairs have different totals, so be sure which total goes with complementary."]
   }
 ];
 

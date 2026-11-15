@@ -80,7 +80,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Subtracting a negative is adding: (−6) − (−2) = (−6) + 2 = −4. −8 is tempting if you treat both signs as 'keep going left' (6 + 2 with a minus); 4 if you get the magnitude right but drop the minus from −6.",
-    hints: ["What does subtracting a negative number turn into?"]
+    hints: ["Evaluate on a number line, starting at −6. Before you move, decide whether taking away a negative sends you left or right."]
   },
   {
     id: "g7-maths-integers-a-q07",
@@ -171,7 +171,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "−4 + 9 = +5 floors. +13 floors is tempting if you reverse a rise and a fall when combining signed changes.",
-    hints: ["Down is negative; up is positive."]
+    hints: ["Treat the lift going down as negative and going up as positive. Combine the two changes; the sign shows the direction."]
   },
   {
     id: "g7-maths-integers-a-q14",
@@ -210,7 +210,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Subtracting a negative is adding: 0 − (−8) = 0 + 8 = 8. −8 is tempting if you keep the minus; 0 if you think subtracting anything from 0 leaves 0.",
-    hints: ["What does subtracting a negative number turn into?"]
+    hints: ["Evaluate it as money: you have nothing, then someone cancels a debt you owed. Decide whether you end up with more or less."]
   },
   {
     id: "g7-maths-integers-a-q17",
@@ -236,7 +236,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "(−2)³ = (−2)×(−2)×(−2). First two give +4, times (−2) gives −8. An odd power keeps the negative. 8 is tempting if you ignore the odd exponent; −6 if you do −2 × 3.",
-    hints: ["What sign does a negative times a negative give, and what happens when you multiply by one more negative?"]
+    hints: ["The small 3 tells you how many copies of −2 to multiply. Multiply them one pair at a time and track the sign each time."]
   },
   {
     id: "g7-maths-integers-a-q19",
@@ -262,7 +262,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Predecessor means −1: −9 − 1 = −10. −8 is tempting if you reverse a rise and a fall when combining signed changes.",
-    hints: ["Predecessor is one less."]
+    hints: ["On a number line, the predecessor of −9 sits right next to it. Decide which side counts as coming before."]
   },
   {
     id: "g7-maths-integers-a-q21",
@@ -356,7 +356,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "a + 0 = a for every integer a. 1 is tempting if you add the absolute values and then attach the wrong sign.",
-    hints: ["Identity leaves the number unchanged."]
+    hints: ["Additive is about adding. Test each choice by adding it to a few integers, and look at what happens to them."]
   },
   {
     id: "g7-maths-integers-b-q04",
@@ -369,7 +369,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Three negative factors: the product is negative. 3 × 4 × 1 = 12, so (−3)×(−4)×(−1) = −12. 12 is tempting if you treat an odd count of negatives as positive; −7 if you add 3 + 4 and keep a minus.",
-    hints: ["What sign does a negative times a negative give, and what happens when you multiply by one more negative?"]
+    hints: ["Work left to right: first find the sign and size of (−3) × (−4), then bring in the last factor and decide the sign again."]
   },
   {
     id: "g7-maths-integers-b-q05",
@@ -382,7 +382,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "−20 ÷ 4 = −5. 5 is tempting if you get the sign of the quotient wrong.",
-    hints: ["What times −5 gives −20?"]
+    hints: ["Solve for the blank in two parts. Find its size from the sizes in the division, then test both signs in the division."]
   },
   {
     id: "g7-maths-integers-b-q06",
