@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Sister names a person, so it is a noun. 'paints' is an action word (a verb), not a naming word.",
-    hints: ["To test for a noun, swap each choice for 'brother' and read the whole sentence again.", "Paints is an action and beautiful describes. Which word names a person?"]
+    hints: ["To test for a noun, swap each choice for 'brother' and read the whole sentence again.", "Beautiful tells what the pictures are like, so it is not the noun here."]
   },
   {
     id: "g3-eng-grammar-a-q02",
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Bag\" names a thing. Packed is a verb (action).",
-    hints: ["Point to each choice and check whether Riya could hold it in her hands.", "Ask yourself: what did Riya get ready for school?"]
+    hints: ["Point to each choice and check whether Riya could hold it in her hands.", "Packed tells what Riya did, so packed is an action word, not a noun."]
   },
   {
     id: "g3-eng-grammar-a-q03",
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Tall\" describes the tree. Tree is the noun being described.",
-    hints: ["Hide each choice, one at a time. Only one leaves Meena's sentence still making sense.", "Ask yourself: what kind of tree did Meena see?"]
+    hints: ["Hide each choice, one at a time. Only one leaves Meena's sentence still making sense.", "Saw tells an action, and action words are not adjectives."]
   },
   {
     id: "g3-eng-grammar-a-q11",
@@ -165,12 +165,12 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "An" },
       { id: "b", text: "A" },
-      { id: "c", text: "The" },
+      { id: "c", text: "Many" },
       { id: "d", text: "\u2014 (none)" }
     ],
     answerId: "a",
     explanation: "Apple begins with a vowel sound, so we say 'an apple'. 'A' is tempting because it is the usual article, but before a vowel sound we use 'an'.",
-    hints: ["Fill the gap with each choice and read the whole sentence about the tree out loud, slowly.", "Before a vowel sound, use the article that ends in n."]
+    hints: ["Fill the gap with each choice and read the whole sentence about the tree out loud, slowly.", "Read it with the gap left empty: 'Apple fell from the tree.' Something is missing."]
   },
   {
     id: "g3-eng-grammar-a-q14",
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Sweet\" describes the ladoo. Ladoo is the noun.",
-    hints: ["Change each choice to 'hot' and read again. Only one swap keeps the ladoo sentence sounding right.", "Ask yourself: what was the ladoo like?"]
+    hints: ["Change each choice to 'hot' and read again. Only one swap keeps the ladoo sentence sounding right.", "Ladoo names the food, so it is not the adjective here."]
   },
   {
     id: "g3-eng-grammar-b-q11",

@@ -575,7 +575,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Notice → short facts for many readers" }
     ],
     answerId: "d",
-    explanation: "Notices share brief facts with a group. Diaries are private; subjects stay short.",
+    explanation: "A notice gives short facts to many readers. 'Phone message → no caller name needed' tempts since messages are short, but without a name nobody knows who called.",
     hints: ["Match each kind of writing — notice, email, phone message — with its job.", "Check the phone message pair: without a caller's name, nobody knows whom to call back."],
   },
 {
@@ -601,7 +601,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Instead of the date" }
     ],
     answerId: "b",
-    explanation: "The complimentary close sits above the signature name.",
+    explanation: "'Yours lovingly' is the closing, just above your name at the end. 'Before the address at the very top' tempts students who think it is a heading opening the letter.",
     hints: ["List the parts of a letter to Nani, from the date to the very last line. Then place 'Yours lovingly'.", "In a letter to Nani, the address sits at the top, so 'Yours lovingly' does not belong there."],
   },
 {
