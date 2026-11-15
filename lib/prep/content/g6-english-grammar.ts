@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Apple begins with a vowel sound, so the proverb needs 'an'. 'No article possible' is tempting because proverbs often drop words, but one countable apple needs an article here.",
-    hints: ["Swap apple for banana in this proverb, then check whether the same article sits comfortably before both fruit names."]
+    hints: ["Swap apple for banana in this proverb, then check whether the same article sits comfortably before both fruit names.", "The article depends on the sound that follows; a vowel sound needs the form ending in n."]
   },
   {
     id: "g6-eng-gram-a-q06",

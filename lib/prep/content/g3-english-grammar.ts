@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Sister names a person, so it is a noun. 'paints' is an action word (a verb), not a naming word.",
-    hints: ["Put 'a' before each choice, like 'a paints'. Only some words sound right that way."]
+    hints: ["Put 'a' before each choice, like 'a paints'. Only some words sound right that way.", "Paints is an action and beautiful describes. Which word names a person?"]
   },
   {
     id: "g3-eng-grammar-a-q02",
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Bag\" names a thing. Packed is a verb (action).",
-    hints: ["Point to each choice and check whether Riya could hold it in her hands."]
+    hints: ["Point to each choice and check whether Riya could hold it in her hands.", "Ask yourself: what did Riya get ready for school?"]
   },
   {
     id: "g3-eng-grammar-a-q03",
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Tall\" describes the tree. Tree is the noun being described.",
-    hints: ["Hide each choice, one at a time. Only one leaves Meena's sentence still making sense."]
+    hints: ["Hide each choice, one at a time. Only one leaves Meena's sentence still making sense.", "Ask yourself: what kind of tree did Meena see?"]
   },
   {
     id: "g3-eng-grammar-a-q11",
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Apple begins with a vowel sound, so we say 'an apple'. 'A' is tempting because it is the usual article, but before a vowel sound we use 'an'.",
-    hints: ["Fill the gap with each choice and read the whole sentence about the tree out loud, slowly."]
+    hints: ["Fill the gap with each choice and read the whole sentence about the tree out loud, slowly.", "Before a vowel sound, use the article that ends in n."]
   },
   {
     id: "g3-eng-grammar-a-q14",
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Sweet\" describes the ladoo. Ladoo is the noun.",
-    hints: ["Change each choice to 'hot' and read again. Only one swap keeps the ladoo sentence sounding right."]
+    hints: ["Change each choice to 'hot' and read again. Only one swap keeps the ladoo sentence sounding right.", "Ask yourself: what was the ladoo like?"]
   },
   {
     id: "g3-eng-grammar-b-q11",

@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Courteous\" means well-mannered, like \"polite.\" \"Rude\" is the opposite.",
-    hints: ["Picture the shopkeeper smiling as he hands Aarav the toffee. Test each word on that smiling shopkeeper."]
+    hints: ["Picture the shopkeeper smiling as he hands Aarav the toffee. Test each word on that smiling shopkeeper.", "Rude is not a synonym of polite."]
   },
   {
     id: "g3-eng-synonyms-a-q24",
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Giggle\" is a light laugh. Cry, weep and frown are not laughing.",
-    hints: ["Imagine Rohan hearing a funny joke at lunch. Test each word: could he do that while laughing?"]
+    hints: ["Imagine Rohan hearing a funny joke at lunch. Test each word: could he do that while laughing?", "Cry is not a twin of laugh."]
   },
   {
     id: "g3-eng-synonyms-b-q04",
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Wealthy\" means having a lot of money, like \"rich.\" Poor and needy are opposites.",
-    hints: ["Swap each word for rich in 'The rich merchant owned ten shops.' Keep whichever tells the same story."]
+    hints: ["Swap each word for rich in 'The rich merchant owned ten shops.' Keep whichever tells the same story.", "Poor is the opposite idea."]
   },
   {
     id: "g3-eng-synonyms-b-q08",
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A \"buddy\" is a friend — someone you like and trust. Enemy and rival are opposites.",
-    hints: ["Some of these words are people Amina would not share her tiffin with. Cross those out first."]
+    hints: ["Some of these words are people Amina would not share her tiffin with. Cross those out first.", "Enemy is the opposite idea."]
   },
   {
     id: "g3-eng-synonyms-b-q17",
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Damp\" means a little wet. Dry and parched are opposites of wet.",
-    hints: ["Try each word in 'My socks got ___ in the rain.' Keep the one that still feels wet."]
+    hints: ["Try each word in 'My socks got ___ in the rain.' Keep the one that still feels wet.", "Dry is the opposite of wet."]
   },
   {
     id: "g3-eng-synonyms-b-q22",
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Enormous\" means very big, like \"huge.\" Tiny is the opposite.",
-    hints: ["Swap each word for huge in the monsoon sentence. Keep the one that does not shrink the puddles."]
+    hints: ["Swap each word for huge in the monsoon sentence. Keep the one that does not shrink the puddles.", "Tiny is the opposite size."]
   },
   {
     id: "g3-eng-synonyms-b-q23",

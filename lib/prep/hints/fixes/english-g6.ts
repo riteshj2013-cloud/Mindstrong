@@ -29,7 +29,7 @@ export const G6_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   // g6-english-grammar — Grammar
   "g6-eng-gram-a-q03": ["A noun names a person, place or thing in the sentence about the shelf.", "\"opened\" is the action and \"new\" describes; which word names the person who opened it?"],
   "g6-eng-gram-a-q04": ["An adjective tells you more about a noun.", "Ask yourself: what kind of story did Meera read?"],
-  "g6-eng-gram-a-q05": ["Swap apple for banana in this proverb, then check whether the same article sits comfortably before both fruit names."],
+  "g6-eng-gram-a-q05": ["Swap apple for banana in this proverb, then check whether the same article sits comfortably before both fruit names.", "The article depends on the sound that follows; a vowel sound needs the form ending in n."],
   "g6-eng-gram-a-q06": ["\"Himalayas\" names one particular mountain range, written as a plural.", "Think of how we name rivers and oceans, such as ____ Ganga. Use that same little word here."],
   "g6-eng-gram-a-q08": ["The pronoun is part of the subject, with Ravi, before \"are partners\".", "Drop \"Ravi and\": which form would start the sentence on its own — subject or object?"],
   "g6-eng-gram-a-q11": ["An adverb tells how, when or where an action happens.", "Ask how he spoke to the vendor — which word answers that?"],
