@@ -126,7 +126,7 @@ export const G6_MATHS_HINTS: Record<string, HintOverlay> = {
   "g6-maths-geo-a-q23": ["Think of two angles sitting side by side along a straight line. Which word names a pair like that?"],
   "g6-maths-geo-a-q24": ["Centre-cutting chord = diameter."],
   "g6-maths-geo-b-q01": ["Line vs ray vs segment."],
-  "g6-maths-geo-b-q02": ["Each angle name matches a size in degrees. Recall the name you learned for exactly this size, then check it against the other three."],
+  "g6-maths-geo-b-q02": ["Flat half-turn."],
   "g6-maths-geo-b-q03": ["Think of turning more than half-way round but not all the way round. Which angle name is used once an angle has opened wider than a straight line?"],
   "g6-maths-geo-b-q04": ["Join opposite corners — how many ways?"],
   "g6-maths-geo-b-q05": ["Count how many sides have the same length."],
