@@ -105,7 +105,7 @@ export const G5_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g5-maths-frac-a-q24": ["Write 1/3 and 1/2 as twelfths. Which fraction sits between those two?"],
   "g5-maths-frac-b-q03": ["The slices left go on top; the total equal slices in the pizza go on the bottom."],
   "g5-maths-frac-b-q04": ["Think of one roti shared among 12, 9, 20 or 4 children. Which unit fraction gives the biggest share?"],
-  "g5-maths-frac-b-q06": ["Take away by crossing out one green piece for each red piece in the strip. Then count what is left and check what each piece is worth."],
+  "g5-maths-frac-b-q06": ["Cross out one green piece for each red piece in the strip. Then count the pieces left and decide what each piece is worth."],
   "g5-maths-frac-b-q11": ["Divide the top 6 and bottom 8 by their common factor 2."],
   "g5-maths-frac-b-q12": ["Write Harshita's fraction and her cousin's fraction as twelfths, or compare the size of the piece each girl still has left."],
   "g5-maths-frac-b-q13": ["Find 1/4 of 32 mangoes by dividing by 4, then multiply by 3."],

@@ -83,7 +83,7 @@ export const G5_MATHS_HINTS: Record<string, HintOverlay> = {
   "g5-maths-frac-b-q03": ["Fraction left = whole minus the fraction taken."],
   "g5-maths-frac-b-q04": ["Think of one roti shared by 4 children and another shared by 20. Who gets more?"],
   "g5-maths-frac-b-q05": ["Count the shaded parts in the figure first, then all equal parts."],
-  "g5-maths-frac-b-q06": ["Take away by crossing out one green piece for each red piece in the strip. Then count what is left and check what each piece is worth."],
+  "g5-maths-frac-b-q06": ["Cross out one green piece for each red piece in the strip. Then count the pieces left and decide what each piece is worth."],
   "g5-maths-frac-b-q07": ["If a bar is cut into more equal pieces, does each piece get bigger or smaller?"],
   "g5-maths-frac-b-q08": ["Find which bar shows the same shaded amount as Bar 1."],
   "g5-maths-frac-b-q09": ["Split into equal groups (denominator), then take numerator groups."],
