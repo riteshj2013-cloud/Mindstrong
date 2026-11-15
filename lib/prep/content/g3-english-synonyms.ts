@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Rush and hurry both mean to move fast because time is short. 'wait' is the opposite: staying where you are.",
-    hints: ["When you rush, you move fast because time is short.", "When you rush to school, you do not wait, so wait is not a twin of rush."]
+    hints: ["Put each word in 'We ___ to catch the school bus.' Keep the one that matches rush.", "When you rush to school, you do not wait, so wait is not a twin of rush."]
   },
   {
     id: "g3-eng-synonyms-a-q02",
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Fast\" and \"quick\" both mean done in a short time. \"Slow\" is the opposite.",
-    hints: ["Riya's quick homework did not take long.", "Heavy is about weight, not about how long Riya's homework took."]
+    hints: ["Sleepy is about bedtime, so it cannot be a twin of quick.", "Heavy is about weight, not about how long Riya's homework took."]
   },
   {
     id: "g3-eng-synonyms-a-q04",
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Shut and close both mean to stop something being open. 'open' is the opposite.",
-    hints: ["You shut the door when you leave a room.", "You can lift a lid, but that does not shut it, so lift is not a twin."]
+    hints: ["Fill 'Please ___ the window before the rain' with each word. Keep the one that matches shut.", "You can lift a lid, but that does not shut it, so lift is not a twin."]
   },
   {
     id: "g3-eng-synonyms-a-q05",
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Courageous\" means nearly the same as \"brave.\" \"Scared\" and \"shy\" are closer to the opposite.",
-    hints: ["Brave people face hard things without running away.", "Scared is not a synonym of brave."]
+    hints: ["A shy child hides from the stage, so shy is not a twin of brave.", "Scared is not a synonym of brave."]
   },
   {
     id: "g3-eng-synonyms-a-q06",
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Tiny\" means very small. \"Huge\" means very big — the opposite idea.",
-    hints: ["Small things take little space.", "Huge is the opposite size."]
+    hints: ["Tall is about height, so tall cannot be a twin of small.", "Huge is the opposite size."]
   },
   {
     id: "g3-eng-synonyms-a-q07",
@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Silent\" means almost no sound, like \"quiet.\" \"Noisy\" is the opposite.",
-    hints: ["Quiet places have little sound.", "Noisy means lots of sound."]
+    hints: ["Sticky is about how things feel to touch, so it is not a twin of quiet.", "Noisy means lots of sound."]
   },
   {
     id: "g3-eng-synonyms-a-q08",
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Clever\" and \"smart\" both mean quick to learn or think. The other words do not mean that.",
-    hints: ["Smart can mean good at thinking.", "Sleepy is not about thinking well."]
+    hints: ["Rough is about how a road feels, so rough is not a twin of smart.", "Sleepy is not about thinking well."]
   },
   {
     id: "g3-eng-synonyms-a-q09",
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A \"present\" is another word for a \"gift\" — something you give to someone.",
-    hints: ["Think of something wrapped for a birthday.", "A problem is not a gift."]
+    hints: ["Read 'Amma packed a ___ for Ananya' with each word. Keep the one that matches gift.", "A problem is not a gift."]
   },
   {
     id: "g3-eng-synonyms-a-q10",
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "To enjoy something is to like doing it. 'hate' is the opposite feeling.",
-    hints: ["You enjoy a game when it makes you happy.", "Forget is about your memory, not your feelings, so forget is not a twin of enjoy."]
+    hints: ["Hate is the other way round from enjoy, so cross it out first.", "Forget is about your memory, not your feelings, so forget is not a twin of enjoy."]
   },
   {
     id: "g3-eng-synonyms-a-q11",
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Delicious\" means very good to eat, like \"tasty.\" Bitter and sour describe different tastes.",
-    hints: ["Tasty food makes you smile while eating.", "Bitter is a different kind of taste."]
+    hints: ["Plain food has no special flavour, so plain is not a twin of tasty.", "Bitter is a different kind of taste."]
   },
   {
     id: "g3-eng-synonyms-a-q12",
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Unhappy\" means nearly the same as \"sad.\" \"Joyful\" and \"excited\" are happier feelings.",
-    hints: ["Sad is not a cheerful feeling.", "Joyful is closer to happy, not sad."]
+    hints: ["Before a birthday party you feel excited, so excited is not a twin of sad.", "Joyful is closer to happy, not sad."]
   },
   {
     id: "g3-eng-synonyms-a-q13",
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Here \"hard\" means not easy to do, so \"difficult\" is the synonym. \"Easy\" and \"simple\" are opposites.",
-    hints: ["In maths, hard means not easy.", "Soft is about touch, not about a sum."]
+    hints: ["Say 'Meera found the sum ___' with each word. Keep the one that matches hard here.", "Soft is about touch, not about a sum."]
   },
   {
     id: "g3-eng-synonyms-a-q14",
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Caring\" people are kind — they think of others. Rude and mean are closer to the opposite.",
-    hints: ["A \"kind\" person helps and shares.", "A rude child never says sorry, so rude is not a twin of kind."]
+    hints: ["Angry is how you feel when upset, so angry is not a twin of kind.", "A rude child never says sorry, so rude is not a twin of kind."]
   },
   {
     id: "g3-eng-synonyms-a-q15",
@@ -196,7 +196,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Afraid\" means nearly the same as \"scared.\" Brave and calm are different feelings.",
-    hints: ["Scared means feeling fear.", "Brave is closer to the opposite."]
+    hints: ["Try each word in 'The puppy looked ___ in the storm.' Keep the one that matches scared.", "Brave is closer to the opposite."]
   },
   {
     id: "g3-eng-synonyms-a-q16",
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Beautiful\" means very nice to look at, like \"pretty.\" \"Ugly\" is the opposite.",
-    hints: ["Pretty describes something lovely to see.", "Ugly is the opposite idea."]
+    hints: ["Dark is about light and colour, so dark is not a twin of pretty.", "Ugly is the opposite idea."]
   },
   {
     id: "g3-eng-synonyms-a-q17",
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Messy\" can mean not clean, like \"dirty\" after colour play. Clean and neat are opposites.",
-    hints: ["Dirty clothes need washing.", "Clean is the opposite of dirty."]
+    hints: ["Fresh shirts smell nice after washing, so fresh is not a twin of dirty.", "Clean is the opposite of dirty."]
   },
   {
     id: "g3-eng-synonyms-a-q18",
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Simple\" means not hard, like \"easy.\" Tough and tricky are closer to difficult.",
-    hints: ["Easy tasks do not take much struggle.", "Tough is closer to hard."]
+    hints: ["Heavy is about weight, so heavy cannot be a twin of easy.", "Tough is closer to hard."]
   },
   {
     id: "g3-eng-synonyms-a-q19",
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Assist\" means to help someone. Ignore and tease do not mean help.",
-    hints: ["Help means make someone's job lighter.", "Ignore means you do not help."]
+    hints: ["Put each word in 'Please ___ your little brother with his bag.' Keep the one that matches help.", "Ignore means you do not help."]
   },
   {
     id: "g3-eng-synonyms-a-q20",
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Yell\" means to call out loudly, like \"shout.\" \"Whisper\" is the opposite — very soft.",
-    hints: ["Shout is a loud voice.", "Whisper is soft, not loud."]
+    hints: ["Smile uses your face, not sound, so smile cannot be a twin of shout.", "Whisper is soft, not loud."]
   },
   {
     id: "g3-eng-synonyms-a-q21",
@@ -274,7 +274,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Leap\" means to spring up, like \"jump.\" Crawl is a different way of moving.",
-    hints: ["Jump means leave the ground for a moment.", "Crawl stays close to the ground."]
+    hints: ["Read 'The frog can ___ high' with each word. Keep the word that matches jump.", "Crawl stays close to the ground."]
   },
   {
     id: "g3-eng-synonyms-a-q22",
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Chilly\" means cool or cold. Hot, warm and boiling are warmer — not the same.",
-    hints: ["Cold makes you want a sweater.", "Hot is the opposite feeling."]
+    hints: ["Boiling water bubbles on the stove, so boiling is not a twin of cold.", "Hot is the opposite feeling."]
   },
   {
     id: "g3-eng-synonyms-a-q23",
@@ -313,7 +313,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Close\" means not far away, like \"near.\" Far, distant and away are opposites.",
-    hints: ["Near means a short distance.", "Far is the opposite of near."]
+    hints: ["If Dadi is away, she is not at home, so away is not a twin of near.", "Far is the opposite of near."]
   }
 ];
 
@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Cross\" can mean annoyed or angry. Calm, merry and gentle are softer, happier feelings.",
-    hints: ["Angry is a strong upset feeling.", "Calm is closer to the opposite."]
+    hints: ["Merry is a happy festival feeling, so merry is not a twin of angry.", "Calm is closer to the opposite."]
   },
   {
     id: "g3-eng-synonyms-b-q02",
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Weighty\" means having a lot of weight, like \"heavy.\" \"Light\" is the opposite.",
-    hints: ["Heavy things are hard to lift.", "An empty school bag is easy to carry, so empty is not the same as heavy."]
+    hints: ["Fill 'The school bag felt ___' with each word. Keep the one that matches heavy.", "An empty school bag is easy to carry, so empty is not the same as heavy."]
   },
   {
     id: "g3-eng-synonyms-b-q03",
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Tidy\" means clean and in order, like \"neat.\" Messy and dirty are opposites.",
-    hints: ["Neat rooms have things in place.", "Messy is the opposite of neat."]
+    hints: ["Scattered toys lie all over the floor, so scattered is not a twin of neat.", "Messy is the opposite of neat."]
   },
   {
     id: "g3-eng-synonyms-b-q05",
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Powerful\" means having strength, like \"strong.\" \"Weak\" is the opposite.",
-    hints: ["Strong can mean full of power.", "Weak is the opposite of strong."]
+    hints: ["Tiny is about size, so tiny cannot be a twin of strong.", "Weak is the opposite of strong."]
   },
   {
     id: "g3-eng-synonyms-b-q06",
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Speak\" means to use words, like \"talk.\" Run, draw and jump are different actions.",
-    hints: ["Talk uses your voice and words.", "Run is a different action."]
+    hints: ["Say 'Please ___ softly in the class' with each word in the gap. Keep the one matching talk.", "Run is a different action."]
   },
   {
     id: "g3-eng-synonyms-b-q07",
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Shiny\" means giving off light, like \"bright.\" Dim, dark and dull are duller.",
-    hints: ["Bright things give light or look clear.", "Dark is closer to the opposite."]
+    hints: ["Try each word in 'The moon looked ___ in the night sky.' Keep the one that matches bright.", "Dark is closer to the opposite."]
   },
   {
     id: "g3-eng-synonyms-b-q09",
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Right\" can mean correct — free from mistakes. Wrong and false are opposites.",
-    hints: ["A correct sum has no mistakes; it is not false.", "Broken is for toys and things, not for answers, so broken is not a twin of correct."]
+    hints: ["Put each word in 'Riya gave the ___ answer.' Keep the one that matches correct.", "Broken is for toys and things, not for answers, so broken is not a twin of correct."]
   },
   {
     id: "g3-eng-synonyms-b-q10",
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Purchase\" means to buy something by paying money. \"Sell\" is the opposite action.",
-    hints: ["Buy means you pay and take something home.", "Sell means you give it away for money."]
+    hints: ["Read 'Diya will ___ a pencil box for ₹50' with each word. Keep the one matching buy.", "Sell means you give it away for money."]
   },
   {
     id: "g3-eng-synonyms-b-q11",
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Ancient\" means very old. New, fresh and modern are closer to the opposite.",
-    hints: ["Old things have been around a long time.", "New is the opposite of old."]
+    hints: ["Modern buildings have glass walls and lifts, so modern is not a twin of old.", "New is the opposite of old."]
   },
   {
     id: "g3-eng-synonyms-b-q12",
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Weary\" means needing rest, like \"tired.\" Energetic and lively are opposite feelings.",
-    hints: ["Tired means you need rest.", "Energetic is the opposite feeling."]
+    hints: ["Fill 'Rohan felt ___ after cricket in the gali' with each word. Keep the one that matches tired.", "Energetic is the opposite feeling."]
   },
   {
     id: "g3-eng-synonyms-b-q13",
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Vacant\" means having nothing inside, like \"empty.\" Full, packed and crowded are opposites.",
-    hints: ["Empty means nothing is inside.", "Full is the opposite of empty."]
+    hints: ["A packed bus has no room left, so packed is not a twin of empty.", "Full is the opposite of empty."]
   },
   {
     id: "g3-eng-synonyms-b-q14",
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Weep\" means to cry with tears. Laugh, smile and cheer are happier actions.",
-    hints: ["Cry often comes with tears.", "Laugh is not a twin of cry."]
+    hints: ["Try each word in 'The baby began to ___.' Keep the word that matches cry.", "Laugh is not a twin of cry."]
   },
   {
     id: "g3-eng-synonyms-b-q15",
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Cautious\" means taking care to avoid mistakes, like \"careful.\" Careless is the opposite.",
-    hints: ["A \"careful\" person thinks before acting.", "Careless looks like careful, but it means the other way, so do not pick it."]
+    hints: ["Hasty people rush and do not stop to check, so hasty is not a twin of careful.", "Careless looks like careful, but it means the other way, so do not pick it."]
   },
   {
     id: "g3-eng-synonyms-b-q16",
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Warm\" is close in meaning to \"hot\" (both are heated). Freezing, icy and chilly are cold.",
-    hints: ["Hot things have heat.", "Icy is the opposite kind of feeling."]
+    hints: ["Chilly is how a winter morning in Shimla feels, so chilly is not a twin of hot.", "Icy is the opposite kind of feeling."]
   },
   {
     id: "g3-eng-synonyms-b-q18",
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Gradually\" can mean little by little, not fast — like \"slowly.\" Quickly and rapidly are opposites.",
-    hints: ["Slowly means not fast.", "Quickly is the opposite of slowly."]
+    hints: ["Put each word in 'The auto moved ___ in the traffic.' Keep the one that matches slowly.", "Quickly is the opposite of slowly."]
   },
   {
     id: "g3-eng-synonyms-b-q19",
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"See\" means to notice with your eyes, like \"look.\" Ignore means you do not look.",
-    hints: ["\"look\" is something you do with your eyes.", "If you cover your eyes, you cannot look, so cover does not mean the same."]
+    hints: ["Ignore means you pay no attention, so ignore cannot be a twin of look.", "If you cover your eyes, you cannot look, so cover does not mean the same."]
   },
   {
     id: "g3-eng-synonyms-b-q20",
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Amusing\" means it makes you smile or laugh, like \"funny.\" Boring and sad are different.",
-    hints: ["Funny things make you laugh.", "Boring is not a twin of funny."]
+    hints: ["Read 'The story was ___' with each word. Keep the word that matches funny.", "Boring is not a twin of funny."]
   },
   {
     id: "g3-eng-synonyms-b-q21",
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Slim\" means not thick or wide, like \"thin.\" Fat, thick and wide are opposite ideas.",
-    hints: ["Thin means not wide or thick.", "Thick is closer to the opposite."]
+    hints: ["Fat is the other way round from thin, so cross fat out first.", "Thick is closer to the opposite."]
   },
   {
     id: "g3-eng-synonyms-b-q24",
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Pleased\" means happy with yourself or something, close to feeling \"proud.\" Ashamed is the opposite.",
-    hints: ["Proud is a good feeling after doing well.", "Ashamed is closer to the opposite."]
+    hints: ["Worried is how you feel before a test, so worried is not a twin of proud.", "Ashamed is closer to the opposite."]
   }
 ];
 
