@@ -132,7 +132,7 @@ export const G6_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g6-maths-geo-b-q06": ["Name the triangle by its special angle: what do we call one that has a 90° angle?"],
   "g6-maths-geo-b-q07": ["How many sides does a hexagon have? In a regular hexagon, are they all the same 4 cm?"],
   "g6-maths-geo-b-q09": ["The radius goes from the centre to the edge, and the diameter goes right across through the centre. How many radii fit along one diameter?"],
-  "g6-maths-geo-b-q17": ["With vertically opposite angles, any angle plus its neighbour fills a straight line. Apply this to both sides of one neighbouring angle."],
+  "g6-maths-geo-b-q17": ["Two lines can cross at a slant, not only square on. So the angles at a crossing cannot all be fixed at one size."],
   "g6-maths-geo-b-q20": ["Complementary angles together make a right angle. What must ∠Q be so that ∠P and ∠Q fill that corner exactly?"],
   "g6-maths-geo-b-q21": ["Supplementary angles together make a straight line. What must ∠Y be so that ∠X and ∠Y lie flat along that line?"],
   "g6-maths-geo-b-q23": ["Draw a few chords in a circle, some near the edge and some near the middle. Where does the longest one sit?"],

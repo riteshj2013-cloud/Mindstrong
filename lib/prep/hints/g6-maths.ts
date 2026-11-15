@@ -141,7 +141,7 @@ export const G6_MATHS_HINTS: Record<string, HintOverlay> = {
   "g6-maths-geo-b-q14": ["Count the corners of a die."],
   "g6-maths-geo-b-q15": ["12 edges, 8 vertices, 6 faces."],
   "g6-maths-geo-b-q16": ["Sketch an isosceles triangle, like the front of a tent. Measure its sides with a ruler and test each option against your sketch."],
-  "g6-maths-geo-b-q17": ["With vertically opposite angles, any angle plus its neighbour fills a straight line. Apply this to both sides of one neighbouring angle."],
+  "g6-maths-geo-b-q17": ["Two lines can cross at a slant, not only square on. So the angles at a crossing cannot all be fixed at one size."],
   "g6-maths-geo-b-q18": ["Greek number prefixes."],
   "g6-maths-geo-b-q19": ["Inside vs boundary."],
   "g6-maths-geo-b-q20": ["Complementary angles together make a right angle. What must ∠Q be so that ∠P and ∠Q fill that corner exactly?"],

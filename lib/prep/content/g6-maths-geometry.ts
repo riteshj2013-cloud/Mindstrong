@@ -537,8 +537,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "never equal" }
     ],
     answerId: "a",
-    explanation: "When two lines cross, vertically opposite angles are equal. always complementary is tempting if you use adjacent angles on a straight line instead of the vertically opposite equal pair.",
-    hints: ["With vertically opposite angles, any angle plus its neighbour fills a straight line. Apply this to both sides of one neighbouring angle."]
+    explanation: "When two lines cross, vertically opposite angles are always equal. The option 'always complementary' is tempting if you mix up complementary and supplementary: neighbouring angles at a crossing add to 180°, which is supplementary, not complementary.",
+    hints: ["Two lines can cross at a slant, not only square on. So the angles at a crossing cannot all be fixed at one size."]
   },
   {
     id: "g6-maths-geo-b-q18",
