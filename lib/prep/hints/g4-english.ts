@@ -237,7 +237,7 @@ export const G4_ENGLISH_HINTS: Record<string, HintOverlay> = {
   "g4-eng-ch05-b-q17": ["After 11:00 a.m. is a time rule.", "Welcome = they may attend then."],
   "g4-eng-ch05-b-q18": ["First pairs with Next / Finally.", "Prepare the desk before painting."],
   "g4-eng-ch05-b-q19": ["Include who + when + why.", "Ask/action (call back) helps."],
-  "g4-eng-ch05-b-q20": ["Match each kind of writing — notice, email, phone message — with its job.", "Check the phone message pair: without a caller's name, nobody knows whom to call back."],
+  "g4-eng-ch05-b-q20": ["An email subject is a few words, so it cannot match the longest chapter of a novel.", "Check the phone message pair: without a caller's name, nobody knows whom to call back."],
   "g4-eng-ch05-b-q21": ["Please often starts a polite instruction.", "Bring is the action."],
   "g4-eng-ch05-b-q22": ["List the parts of a letter to Nani, from the date to the very last line. Then place 'Yours lovingly'.", "In a letter to Nani, the address sits at the top, so 'Yours lovingly' does not belong there."],
   "g4-eng-ch05-b-q23": ["Header first, signature last.", "Details sit in the middle."],
