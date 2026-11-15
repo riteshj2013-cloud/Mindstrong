@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "She said honest traders make shopping a pleasure.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    hints: ["Read the closing sentence of the passage, on the walk home.", "Find what Amma says about honest traders."]
   },
   {
     id: "g6-eng-comp-a-q13",
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "He said both ideas could share one corner of the hall.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    hints: ["Read the last sentence of the passage, about the annual fair.", "Everyone clapped when Mr Das decided about the two stalls — what did he say?"]
   },
   {
     id: "g6-eng-comp-a-q19",
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "She buys from the same stall each week.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    hints: ["Read the first sentence of the passage for how often Amma visits.", "Look at the time phrase right after \"from the same stall\"."]
   },
   {
     id: "g6-eng-comp-b-q08",
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Ananya explained that point.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    hints: ["Find the sentence about recycling paper in the passage.", "Two students speak in that sentence; check who spoke first, before \"Rohan added\"."]
   },
   {
     id: "g6-eng-comp-b-q14",
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "The passage calls him their teacher.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    hints: ["Find how Mr Das is introduced in the passage.", "Look at the words just before \"Mr Das\": \"Their ___\"."]
   },
   {
     id: "g6-eng-comp-b-q16",

@@ -313,7 +313,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Library calm vs street noise + the note about not journeying alone.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    hints: ["The passage is the old library, where time feels slower and a note says \"Do not finish this journey alone\".", "Link the quiet setting to Arun's feeling of connection with the past."]
   }
 ];
 

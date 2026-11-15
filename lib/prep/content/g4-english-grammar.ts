@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"The books are in the cupboard behind the door.\" \"In\" tells us they are inside the cupboard.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    hints: ["Find the line in the passage that mentions the books.", "Check the sentence \"The books are in the ___ behind the door.\""]
   },
   {
     id: "g4-eng-ch02-a-q08",

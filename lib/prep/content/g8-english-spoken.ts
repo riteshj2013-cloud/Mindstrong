@@ -226,7 +226,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q18",
-    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead Assembly announcement O1. The speaker begins with \"May I have your attention, please?\" This is mainly \u2014",
+    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead the assembly announcement. The speaker begins with \"May I have your attention, please?\" This is mainly —",
     options: [
       { id: "a", text: "a rude command" },
       { id: "b", text: "a polite way to open a public spoken message" },
@@ -239,7 +239,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q19",
-    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead Assembly announcement O1. Who is invited?",
+    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead the assembly announcement. Who is invited?",
     options: [
       { id: "a", text: "Parents only" },
       { id: "b", text: "Only teachers" },
@@ -252,7 +252,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q20",
-    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead Assembly announcement O1. By when must interested students give their names?",
+    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead the assembly announcement. By when must interested students give their names?",
     options: [
       { id: "a", text: "Monday morning" },
       { id: "b", text: "After the workshop" },
@@ -450,7 +450,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-b-q11",
-    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead Assembly announcement O1. What should students bring?",
+    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead the assembly announcement. What should students bring?",
     options: [
       { id: "a", text: "Nothing at all" },
       { id: "b", text: "A cricket bat" },
@@ -463,7 +463,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-b-q12",
-    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead Assembly announcement O1. Where will the workshop be held?",
+    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead the assembly announcement. Where will the workshop be held?",
     options: [
       { id: "a", text: "The city library" },
       { id: "b", text: "The principal's office" },
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "The rebuttal names mathematics and languages as needing spaced practice.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    hints: ["Which two subject areas does the opposition rebuttal name for extra practice?"]
   },
   {
     id: "g8-eng-ch04-b-q20",
@@ -619,7 +619,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-b-q24",
-    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead Assembly announcement O1. After giving details, the speaker ends with \"Thank you.\" This mainly \u2014",
+    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead the assembly announcement. After giving details, the speaker ends with \"Thank you.\" This mainly —",
     options: [
       { id: "a", text: "cancels the workshop" },
       { id: "b", text: "replaces the need for a date" },

@@ -25,7 +25,7 @@ export const G10_ENGLISH_HINTS: Record<string, HintOverlay> = {
   "g10-eng-ch01-a-q21": ["Finish the poem's last sentence."],
   "g10-eng-ch01-a-q22": ["Read the words around listening; try each option in the sentence and keep the natural fit."],
   "g10-eng-ch01-a-q23": ["Read the words around grandmother's; try each option in the sentence and keep the natural fit."],
-  "g10-eng-ch01-a-q24": ["Unite setting and the marginal note."],
+  "g10-eng-ch01-a-q24": ["The passage is the old library, where time feels slower and a note says \"Do not finish this journey alone\".", "Link the quiet setting to Arun's feeling of connection with the past."],
   "g10-eng-ch01-b-q01": ["Setting work = place the reader."],
   "g10-eng-ch01-b-q02": ["Read the words around grandmother's; try each option in the sentence and keep the natural fit."],
   "g10-eng-ch01-b-q03": ["Read the words around grandmother's; try each option in the sentence and keep the natural fit."],

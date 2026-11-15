@@ -192,7 +192,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-expression-a-q15",
-    prompt: "**Fancy Dress Show**\n\n**NOTICE — Fancy Dress Show**\nFor: Class 3\nDay: Monday, 7 December\nTime: 10 a.m.\nPlace: School Hall\nTheme: Animals of India\n— Ms. Kaur, Class Teacher\n\nRead the notice (Fancy Dress Show). Which costume fits the theme on the notice?",
+    prompt: "**NOTICE — Fancy Dress Show**\nFor: Class 3\nDay: Monday, 7 December\nTime: 10 a.m.\nPlace: School Hall\nTheme: Animals of India\n— Ms. Kaur, Class Teacher\n\nRead the notice (Fancy Dress Show). Which costume fits the theme on the notice?",
     options: [
       { id: "a", text: "A tiger" },
       { id: "b", text: "A kangaroo" },
@@ -543,7 +543,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-expression-b-q17",
-    prompt: "**Eye Check-up**\n\n**NOTICE — Eye Check-up**\nFor: Class 3\nDay: Tuesday, 8 December\nTime: 11 a.m.\nPlace: Medical Room\nIf you wear glasses, please bring them.\n— Mr. Bhatt, Class Teacher\n\nRead the notice (Eye Check-up). Ravi in Class 3 wears glasses. What must he remember to do?",
+    prompt: "**NOTICE — Eye Check-up**\nFor: Class 3\nDay: Tuesday, 8 December\nTime: 11 a.m.\nPlace: Medical Room\nIf you wear glasses, please bring them.\n— Mr. Bhatt, Class Teacher\n\nRead the notice (Eye Check-up). Ravi in Class 3 wears glasses. What must he remember to do?",
     options: [
       { id: "a", text: "Go to the School Hall at 11 a.m. on Tuesday with his glasses" },
       { id: "b", text: "Go to the Medical Room at 11 a.m. on Tuesday with his glasses" },
@@ -570,7 +570,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-expression-b-q19",
-    prompt: "[M1] Varun's Message (short message)\n\n> Didi,\n> Anjali came at 4 o'clock.\n> She returned your storybook.\n> I kept it on your table.\n> She will call you after dinner.\n> \u2014 Varun\n\nRead Message M1. Who wrote this message?",
+    prompt: "**Varun's Message**\n\nDidi,\nAnjali came at 4 o'clock.\nShe returned your storybook.\nI kept it on your table.\nShe will call you after dinner.\n— Varun\n\nRead the message. Who wrote this message?",
     options: [
       { id: "a", text: "Varun" },
       { id: "b", text: "Didi" },

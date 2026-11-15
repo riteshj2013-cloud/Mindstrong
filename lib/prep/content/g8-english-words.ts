@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "In a notice, the issuer's name and designation appear at the bottom. Students reply to House Captains, but the Secretary issues the notice.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    hints: ["The issuer of a notice signs at the bottom with a name and designation.", "Look below \"Exciting prizes await the winners\" in the notice."]
   },
   {
     id: "g8-eng-ch03-a-q02",
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "A notice often carries several dates. 14 October is when it was issued, 28 October is the quiz, and 21 October is the deadline.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    hints: ["The notice has three dates: issue date, deadline and quiz day.", "Find the sentence about House Captains — the date after \"by\" is the deadline."]
   },
   {
     id: "g8-eng-ch03-a-q04",
@@ -57,7 +57,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch03-a-q05",
-    prompt: "**From:** arjun.mehta@example.com\n**To:** ward12.office@example.gov.in\n**Date:** 3 October 2026\n**Subject:** Request to repair broken streetlights on Lake View Road, Sector 12\nDear Sir/Madam,\nI am writing to draw your attention to the streetlights on Lake View Road, Sector 12, which have not been working for the past three weeks. As a result, the road becomes completely dark after 7 p.m. Elderly residents and students returning from tuition classes find it unsafe to walk, and two minor accidents have already been reported.\nI request you to look into the matter and arrange for the lights to be repaired at the earliest. The residents of our sector would be grateful for prompt action.\nYours faithfully,\nArjun Mehta\nResident, Sector 12\n\nRead Email E1. Why is the subject line effective?",
+    prompt: "**From:** arjun.mehta@example.com\n**To:** ward12.office@example.gov.in\n**Date:** 3 October 2026\n**Subject:** Request to repair broken streetlights on Lake View Road, Sector 12\nDear Sir/Madam,\nI am writing to draw your attention to the streetlights on Lake View Road, Sector 12, which have not been working for the past three weeks. As a result, the road becomes completely dark after 7 p.m. Elderly residents and students returning from tuition classes find it unsafe to walk, and two minor accidents have already been reported.\nI request you to look into the matter and arrange for the lights to be repaired at the earliest. The residents of our sector would be grateful for prompt action.\nYours faithfully,\nArjun Mehta\nResident, Sector 12\n\nRead the email. Why is the subject line effective?",
     options: [
       { id: "a", text: "It uses humour to catch the reader's attention." },
       { id: "b", text: "It tells the whole story in detail." },
@@ -70,7 +70,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch03-a-q06",
-    prompt: "**From:** arjun.mehta@example.com\n**To:** ward12.office@example.gov.in\n**Date:** 3 October 2026\n**Subject:** Request to repair broken streetlights on Lake View Road, Sector 12\nDear Sir/Madam,\nI am writing to draw your attention to the streetlights on Lake View Road, Sector 12, which have not been working for the past three weeks. As a result, the road becomes completely dark after 7 p.m. Elderly residents and students returning from tuition classes find it unsafe to walk, and two minor accidents have already been reported.\nI request you to look into the matter and arrange for the lights to be repaired at the earliest. The residents of our sector would be grateful for prompt action.\nYours faithfully,\nArjun Mehta\nResident, Sector 12\n\nRead Email E1. Why does Arjun close with \"Yours faithfully\" rather than \"Yours sincerely\"?",
+    prompt: "**From:** arjun.mehta@example.com\n**To:** ward12.office@example.gov.in\n**Date:** 3 October 2026\n**Subject:** Request to repair broken streetlights on Lake View Road, Sector 12\nDear Sir/Madam,\nI am writing to draw your attention to the streetlights on Lake View Road, Sector 12, which have not been working for the past three weeks. As a result, the road becomes completely dark after 7 p.m. Elderly residents and students returning from tuition classes find it unsafe to walk, and two minor accidents have already been reported.\nI request you to look into the matter and arrange for the lights to be repaired at the earliest. The residents of our sector would be grateful for prompt action.\nYours faithfully,\nArjun Mehta\nResident, Sector 12\n\nRead the email. Why does Arjun close with \"Yours faithfully\" rather than \"Yours sincerely\"?",
     options: [
       { id: "a", text: "He has addressed the reader as \"Sir/Madam,\" not by name." },
       { id: "b", text: "\"Yours faithfully\" is used only in informal letters." },
@@ -83,7 +83,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch03-a-q07",
-    prompt: "**From:** arjun.mehta@example.com\n**To:** ward12.office@example.gov.in\n**Date:** 3 October 2026\n**Subject:** Request to repair broken streetlights on Lake View Road, Sector 12\nDear Sir/Madam,\nI am writing to draw your attention to the streetlights on Lake View Road, Sector 12, which have not been working for the past three weeks. As a result, the road becomes completely dark after 7 p.m. Elderly residents and students returning from tuition classes find it unsafe to walk, and two minor accidents have already been reported.\nI request you to look into the matter and arrange for the lights to be repaired at the earliest. The residents of our sector would be grateful for prompt action.\nYours faithfully,\nArjun Mehta\nResident, Sector 12\n\nRead Email E1. \"...arrange for the lights to be repaired at the earliest.\" \"At the earliest\" means \u2014",
+    prompt: "**From:** arjun.mehta@example.com\n**To:** ward12.office@example.gov.in\n**Date:** 3 October 2026\n**Subject:** Request to repair broken streetlights on Lake View Road, Sector 12\nDear Sir/Madam,\nI am writing to draw your attention to the streetlights on Lake View Road, Sector 12, which have not been working for the past three weeks. As a result, the road becomes completely dark after 7 p.m. Elderly residents and students returning from tuition classes find it unsafe to walk, and two minor accidents have already been reported.\nI request you to look into the matter and arrange for the lights to be repaired at the earliest. The residents of our sector would be grateful for prompt action.\nYours faithfully,\nArjun Mehta\nResident, Sector 12\n\nRead the email. \"...arrange for the lights to be repaired at the earliest.\" \"At the earliest\" means —",
     options: [
       { id: "a", text: "early in the morning" },
       { id: "b", text: "before anyone else's complaint" },
@@ -96,7 +96,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch03-a-q08",
-    prompt: "**From:** arjun.mehta@example.com\n**To:** ward12.office@example.gov.in\n**Date:** 3 October 2026\n**Subject:** Request to repair broken streetlights on Lake View Road, Sector 12\nDear Sir/Madam,\nI am writing to draw your attention to the streetlights on Lake View Road, Sector 12, which have not been working for the past three weeks. As a result, the road becomes completely dark after 7 p.m. Elderly residents and students returning from tuition classes find it unsafe to walk, and two minor accidents have already been reported.\nI request you to look into the matter and arrange for the lights to be repaired at the earliest. The residents of our sector would be grateful for prompt action.\nYours faithfully,\nArjun Mehta\nResident, Sector 12\n\nRead Email E1. Which best describes the tone of the email?",
+    prompt: "**From:** arjun.mehta@example.com\n**To:** ward12.office@example.gov.in\n**Date:** 3 October 2026\n**Subject:** Request to repair broken streetlights on Lake View Road, Sector 12\nDear Sir/Madam,\nI am writing to draw your attention to the streetlights on Lake View Road, Sector 12, which have not been working for the past three weeks. As a result, the road becomes completely dark after 7 p.m. Elderly residents and students returning from tuition classes find it unsafe to walk, and two minor accidents have already been reported.\nI request you to look into the matter and arrange for the lights to be repaired at the earliest. The residents of our sector would be grateful for prompt action.\nYours faithfully,\nArjun Mehta\nResident, Sector 12\n\nRead the email. Which best describes the tone of the email?",
     options: [
       { id: "a", text: "Angry and threatening" },
       { id: "b", text: "Polite, firm and factual" },
@@ -372,7 +372,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch03-b-q05",
-    prompt: "**From:** arjun.mehta@example.com\n**To:** ward12.office@example.gov.in\n**Date:** 3 October 2026\n**Subject:** Request to repair broken streetlights on Lake View Road, Sector 12\nDear Sir/Madam,\nI am writing to draw your attention to the streetlights on Lake View Road, Sector 12, which have not been working for the past three weeks. As a result, the road becomes completely dark after 7 p.m. Elderly residents and students returning from tuition classes find it unsafe to walk, and two minor accidents have already been reported.\nI request you to look into the matter and arrange for the lights to be repaired at the earliest. The residents of our sector would be grateful for prompt action.\nYours faithfully,\nArjun Mehta\nResident, Sector 12\n\nRead Email E1. For how long have the streetlights not been working?",
+    prompt: "**From:** arjun.mehta@example.com\n**To:** ward12.office@example.gov.in\n**Date:** 3 October 2026\n**Subject:** Request to repair broken streetlights on Lake View Road, Sector 12\nDear Sir/Madam,\nI am writing to draw your attention to the streetlights on Lake View Road, Sector 12, which have not been working for the past three weeks. As a result, the road becomes completely dark after 7 p.m. Elderly residents and students returning from tuition classes find it unsafe to walk, and two minor accidents have already been reported.\nI request you to look into the matter and arrange for the lights to be repaired at the earliest. The residents of our sector would be grateful for prompt action.\nYours faithfully,\nArjun Mehta\nResident, Sector 12\n\nRead the email. For how long have the streetlights not been working?",
     options: [
       { id: "a", text: "Three weeks" },
       { id: "b", text: "Seven days" },
@@ -385,7 +385,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch03-b-q06",
-    prompt: "**From:** arjun.mehta@example.com\n**To:** ward12.office@example.gov.in\n**Date:** 3 October 2026\n**Subject:** Request to repair broken streetlights on Lake View Road, Sector 12\nDear Sir/Madam,\nI am writing to draw your attention to the streetlights on Lake View Road, Sector 12, which have not been working for the past three weeks. As a result, the road becomes completely dark after 7 p.m. Elderly residents and students returning from tuition classes find it unsafe to walk, and two minor accidents have already been reported.\nI request you to look into the matter and arrange for the lights to be repaired at the earliest. The residents of our sector would be grateful for prompt action.\nYours faithfully,\nArjun Mehta\nResident, Sector 12\n\nRead Email E1. Which best describes how the body of the email is organised?",
+    prompt: "**From:** arjun.mehta@example.com\n**To:** ward12.office@example.gov.in\n**Date:** 3 October 2026\n**Subject:** Request to repair broken streetlights on Lake View Road, Sector 12\nDear Sir/Madam,\nI am writing to draw your attention to the streetlights on Lake View Road, Sector 12, which have not been working for the past three weeks. As a result, the road becomes completely dark after 7 p.m. Elderly residents and students returning from tuition classes find it unsafe to walk, and two minor accidents have already been reported.\nI request you to look into the matter and arrange for the lights to be repaired at the earliest. The residents of our sector would be grateful for prompt action.\nYours faithfully,\nArjun Mehta\nResident, Sector 12\n\nRead the email. Which best describes how the body of the email is organised?",
     options: [
       { id: "a", text: "A request, then the problem, then a warning" },
       { id: "b", text: "A greeting, a personal story, then a joke" },
@@ -394,11 +394,11 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Paragraph 1 states the problem and its consequences (darkness, safety, accidents). Paragraph 2 makes the request. This is the classic structure of a formal complaint.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    hints: ["Find where Arjun first mentions the dark road and where he first says \"I request\".", "Is the request in the email made before or after the reasons are explained?"]
   },
   {
     id: "g8-eng-ch03-b-q07",
-    prompt: "**From:** arjun.mehta@example.com\n**To:** ward12.office@example.gov.in\n**Date:** 3 October 2026\n**Subject:** Request to repair broken streetlights on Lake View Road, Sector 12\nDear Sir/Madam,\nI am writing to draw your attention to the streetlights on Lake View Road, Sector 12, which have not been working for the past three weeks. As a result, the road becomes completely dark after 7 p.m. Elderly residents and students returning from tuition classes find it unsafe to walk, and two minor accidents have already been reported.\nI request you to look into the matter and arrange for the lights to be repaired at the earliest. The residents of our sector would be grateful for prompt action.\nYours faithfully,\nArjun Mehta\nResident, Sector 12\n\nRead Email E1. Which sentence would be INAPPROPRIATE to add to this email?",
+    prompt: "**From:** arjun.mehta@example.com\n**To:** ward12.office@example.gov.in\n**Date:** 3 October 2026\n**Subject:** Request to repair broken streetlights on Lake View Road, Sector 12\nDear Sir/Madam,\nI am writing to draw your attention to the streetlights on Lake View Road, Sector 12, which have not been working for the past three weeks. As a result, the road becomes completely dark after 7 p.m. Elderly residents and students returning from tuition classes find it unsafe to walk, and two minor accidents have already been reported.\nI request you to look into the matter and arrange for the lights to be repaired at the earliest. The residents of our sector would be grateful for prompt action.\nYours faithfully,\nArjun Mehta\nResident, Sector 12\n\nRead the email. Which sentence would be INAPPROPRIATE to add to this email?",
     options: [
       { id: "a", text: "\"I would be grateful for your prompt action.\"" },
       { id: "b", text: "\"Fix these lights ASAP, or else!\"" },
@@ -411,7 +411,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch03-b-q08",
-    prompt: "**From:** arjun.mehta@example.com\n**To:** ward12.office@example.gov.in\n**Date:** 3 October 2026\n**Subject:** Request to repair broken streetlights on Lake View Road, Sector 12\nDear Sir/Madam,\nI am writing to draw your attention to the streetlights on Lake View Road, Sector 12, which have not been working for the past three weeks. As a result, the road becomes completely dark after 7 p.m. Elderly residents and students returning from tuition classes find it unsafe to walk, and two minor accidents have already been reported.\nI request you to look into the matter and arrange for the lights to be repaired at the earliest. The residents of our sector would be grateful for prompt action.\nYours faithfully,\nArjun Mehta\nResident, Sector 12\n\nRead Email E1. \"I am writing to draw your attention to the streetlights...\" \"Draw your attention to\" means \u2014",
+    prompt: "**From:** arjun.mehta@example.com\n**To:** ward12.office@example.gov.in\n**Date:** 3 October 2026\n**Subject:** Request to repair broken streetlights on Lake View Road, Sector 12\nDear Sir/Madam,\nI am writing to draw your attention to the streetlights on Lake View Road, Sector 12, which have not been working for the past three weeks. As a result, the road becomes completely dark after 7 p.m. Elderly residents and students returning from tuition classes find it unsafe to walk, and two minor accidents have already been reported.\nI request you to look into the matter and arrange for the lights to be repaired at the earliest. The residents of our sector would be grateful for prompt action.\nYours faithfully,\nArjun Mehta\nResident, Sector 12\n\nRead the email. \"I am writing to draw your attention to the streetlights...\" \"Draw your attention to\" means —",
     options: [
       { id: "a", text: "sketch something for you" },
       { id: "b", text: "distract you" },

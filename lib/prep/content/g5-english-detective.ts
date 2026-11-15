@@ -13,7 +13,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "What Kavya eats for breakfast on Pongal." }
     ],
     answerId: "a",
-    explanation: "The main idea covers the whole passage. Every part of P1 is about the smudged rangoli, the clues, and how Kavya reacts.",
+    explanation: "The main idea covers the whole passage. Every part of the passage is about the smudged rangoli, the clues, and how Kavya reacts.",
     hints: ["Look, Link, Decide — find clues in the passage.","Eliminate answers the text does not support."]
   },
   {
@@ -26,7 +26,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Beside the milk bowl" }
     ],
     answerId: "b",
-    explanation: "For detail questions, find the exact line. P1 says the prints \"disappeared under the neem tree.\"",
+    explanation: "For detail questions, find the exact line. The passage says the prints \"disappeared under the neem tree.\"",
     hints: ["Look, Link, Decide — find clues in the passage.","Eliminate answers the text does not support."]
   },
   {

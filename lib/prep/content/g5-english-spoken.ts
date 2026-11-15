@@ -187,7 +187,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-a-q15",
-    prompt: "**ANNOUNCEMENT \u2014 Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead Announcement N1. Who is speaking?",
+    prompt: "**ANNOUNCEMENT — Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead the announcement. Who is speaking?",
     options: [
       { id: "a", text: "The school cook" },
       { id: "b", text: "A Class 3 student with no name" },
@@ -200,7 +200,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-a-q16",
-    prompt: "**ANNOUNCEMENT \u2014 Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead Announcement N1. When should Classes 4 and 5 assemble?",
+    prompt: "**ANNOUNCEMENT — Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead the announcement. When should Classes 4 and 5 assemble?",
     options: [
       { id: "a", text: "At midnight in the library" },
       { id: "b", text: "After lunch in the canteen only" },
@@ -213,7 +213,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-a-q17",
-    prompt: "**ANNOUNCEMENT \u2014 Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead Announcement N1. Students must NOT \u2014",
+    prompt: "**ANNOUNCEMENT — Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead the announcement. Students must NOT —",
     options: [
       { id: "a", text: "bring bags to the ground" },
       { id: "b", text: "wear white sports kit" },
@@ -476,7 +476,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-b-q13",
-    prompt: "**ANNOUNCEMENT \u2014 Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead Announcement N1. What event is tomorrow?",
+    prompt: "**ANNOUNCEMENT — Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead the announcement. What event is tomorrow?",
     options: [
       { id: "a", text: "Sports Day practice" },
       { id: "b", text: "A silent library exam only" },
@@ -489,7 +489,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-b-q14",
-    prompt: "**ANNOUNCEMENT \u2014 Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead Announcement N1. After practice, students should \u2014",
+    prompt: "**ANNOUNCEMENT — Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead the announcement. After practice, students should —",
     options: [
       { id: "a", text: "run home without permission" },
       { id: "b", text: "return quietly to their classrooms" },
@@ -502,7 +502,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-b-q15",
-    prompt: "**ANNOUNCEMENT \u2014 Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead Announcement N1. Why does Ananya end with \"Thank you, and have a wonderful day\"?",
+    prompt: "**ANNOUNCEMENT — Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead the announcement. Why does Ananya end with \"Thank you, and have a wonderful day\"?",
     options: [
       { id: "a", text: "To cancel Sports Day" },
       { id: "b", text: "To scold Class 5" },

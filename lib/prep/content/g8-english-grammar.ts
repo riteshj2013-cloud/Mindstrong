@@ -57,7 +57,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch02-a-q05",
-    prompt: "(1) Last winter, our class have visited the Sundarbans as part of a nature camp.\n(2) We travelled by boat for six hour before reaching the forest office.\n(3) The guide, who has been working there since ten years, told us about the tigers.\n(4) He said that the tigers of the Sundarbans can swimming across wide rivers.\n(5) Most of us had never saw a mangrove forest before that trip.\n(6) The roots, which rises out of the mud like fingers, help the trees to breathe.\n\nRead Editing Passage E1, line (1): \"Last winter, our class have visited the Sundarbans...\" Choose the correct replacement for \"have visited.\"",
+    prompt: "(1) Last winter, our class have visited the Sundarbans as part of a nature camp.\n(2) We travelled by boat for six hour before reaching the forest office.\n(3) The guide, who has been working there since ten years, told us about the tigers.\n(4) He said that the tigers of the Sundarbans can swimming across wide rivers.\n(5) Most of us had never saw a mangrove forest before that trip.\n(6) The roots, which rises out of the mud like fingers, help the trees to breathe.\n\nRead the editing passage, line (1): \"Last winter, our class have visited the Sundarbans...\" Choose the correct replacement for \"have visited.\"",
     options: [
       { id: "a", text: "visited" },
       { id: "b", text: "has visit" },
@@ -83,7 +83,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch02-a-q07",
-    prompt: "(1) Last winter, our class have visited the Sundarbans as part of a nature camp.\n(2) We travelled by boat for six hour before reaching the forest office.\n(3) The guide, who has been working there since ten years, told us about the tigers.\n(4) He said that the tigers of the Sundarbans can swimming across wide rivers.\n(5) Most of us had never saw a mangrove forest before that trip.\n(6) The roots, which rises out of the mud like fingers, help the trees to breathe.\n\nRead Editing Passage E1, line (3): \"...who has been working there since ten years...\" Choose the correct replacement for \"since.\"",
+    prompt: "(1) Last winter, our class have visited the Sundarbans as part of a nature camp.\n(2) We travelled by boat for six hour before reaching the forest office.\n(3) The guide, who has been working there since ten years, told us about the tigers.\n(4) He said that the tigers of the Sundarbans can swimming across wide rivers.\n(5) Most of us had never saw a mangrove forest before that trip.\n(6) The roots, which rises out of the mud like fingers, help the trees to breathe.\n\nRead the editing passage, line (3): \"...who has been working there since ten years...\" Choose the correct replacement for \"since.\"",
     options: [
       { id: "a", text: "from" },
       { id: "b", text: "for" },
@@ -96,7 +96,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch02-a-q08",
-    prompt: "(1) Last winter, our class have visited the Sundarbans as part of a nature camp.\n(2) We travelled by boat for six hour before reaching the forest office.\n(3) The guide, who has been working there since ten years, told us about the tigers.\n(4) He said that the tigers of the Sundarbans can swimming across wide rivers.\n(5) Most of us had never saw a mangrove forest before that trip.\n(6) The roots, which rises out of the mud like fingers, help the trees to breathe.\n\nRead Editing Passage E1, line (4): \"...the tigers of the Sundarbans can swimming across wide rivers.\" Choose the correct replacement for \"can swimming.\"",
+    prompt: "(1) Last winter, our class have visited the Sundarbans as part of a nature camp.\n(2) We travelled by boat for six hour before reaching the forest office.\n(3) The guide, who has been working there since ten years, told us about the tigers.\n(4) He said that the tigers of the Sundarbans can swimming across wide rivers.\n(5) Most of us had never saw a mangrove forest before that trip.\n(6) The roots, which rises out of the mud like fingers, help the trees to breathe.\n\nRead the editing passage, line (4): \"...the tigers of the Sundarbans can swimming across wide rivers.\" Choose the correct replacement for \"can swimming.\"",
     options: [
       { id: "a", text: "can swam" },
       { id: "b", text: "could swimming" },
@@ -122,7 +122,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch02-a-q10",
-    prompt: "(1) Last winter, our class have visited the Sundarbans as part of a nature camp.\n(2) We travelled by boat for six hour before reaching the forest office.\n(3) The guide, who has been working there since ten years, told us about the tigers.\n(4) He said that the tigers of the Sundarbans can swimming across wide rivers.\n(5) Most of us had never saw a mangrove forest before that trip.\n(6) The roots, which rises out of the mud like fingers, help the trees to breathe.\n\nRead Editing Passage E1, line (6): \"The roots, which rises out of the mud like fingers...\" Choose the correct replacement for \"rises.\"",
+    prompt: "(1) Last winter, our class have visited the Sundarbans as part of a nature camp.\n(2) We travelled by boat for six hour before reaching the forest office.\n(3) The guide, who has been working there since ten years, told us about the tigers.\n(4) He said that the tigers of the Sundarbans can swimming across wide rivers.\n(5) Most of us had never saw a mangrove forest before that trip.\n(6) The roots, which rises out of the mud like fingers, help the trees to breathe.\n\nRead the editing passage, line (6): \"The roots, which rises out of the mud like fingers...\" Choose the correct replacement for \"rises.\"",
     options: [
       { id: "a", text: "rise" },
       { id: "b", text: "rising" },
@@ -320,7 +320,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g8-eng-ch02-b-q01",
-    prompt: "Cricket (1) ___ played in India for more than two centuries. The first recorded match in the country (2) ___ said to have taken place in 1721, when English sailors played on the coast of Gujarat. Since then, the sport (3) ___ grown into a national passion. Today, children play it in narrow lanes, (4) ___ a brick often serves as the wicket, and in vast stadiums (5) ___ can hold over a hundred thousand fans. Many believe that cricket (6) ___ never lose its place in Indian hearts.\n\nRead Omission Passage O1. Choose the correct option for blank (1): \"Cricket (1) ___ played in India for more than two centuries.\"",
+    prompt: "Cricket (1) ___ played in India for more than two centuries. The first recorded match in the country (2) ___ said to have taken place in 1721, when English sailors played on the coast of Gujarat. Since then, the sport (3) ___ grown into a national passion. Today, children play it in narrow lanes, (4) ___ a brick often serves as the wicket, and in vast stadiums (5) ___ can hold over a hundred thousand fans. Many believe that cricket (6) ___ never lose its place in Indian hearts.\n\nRead the omission passage. Choose the correct option for blank (1): \"Cricket (1) ___ played in India for more than two centuries.\"",
     options: [
       { id: "a", text: "has been" },
       { id: "b", text: "is being" },
@@ -333,7 +333,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch02-b-q02",
-    prompt: "Cricket (1) ___ played in India for more than two centuries. The first recorded match in the country (2) ___ said to have taken place in 1721, when English sailors played on the coast of Gujarat. Since then, the sport (3) ___ grown into a national passion. Today, children play it in narrow lanes, (4) ___ a brick often serves as the wicket, and in vast stadiums (5) ___ can hold over a hundred thousand fans. Many believe that cricket (6) ___ never lose its place in Indian hearts.\n\nRead Omission Passage O1. Choose the correct option for blank (2): \"The first recorded match in the country (2) ___ said to have taken place in 1721...\"",
+    prompt: "Cricket (1) ___ played in India for more than two centuries. The first recorded match in the country (2) ___ said to have taken place in 1721, when English sailors played on the coast of Gujarat. Since then, the sport (3) ___ grown into a national passion. Today, children play it in narrow lanes, (4) ___ a brick often serves as the wicket, and in vast stadiums (5) ___ can hold over a hundred thousand fans. Many believe that cricket (6) ___ never lose its place in Indian hearts.\n\nRead the omission passage. Choose the correct option for blank (2): \"The first recorded match in the country (2) ___ said to have taken place in 1721...\"",
     options: [
       { id: "a", text: "are" },
       { id: "b", text: "has" },
@@ -346,7 +346,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch02-b-q03",
-    prompt: "Cricket (1) ___ played in India for more than two centuries. The first recorded match in the country (2) ___ said to have taken place in 1721, when English sailors played on the coast of Gujarat. Since then, the sport (3) ___ grown into a national passion. Today, children play it in narrow lanes, (4) ___ a brick often serves as the wicket, and in vast stadiums (5) ___ can hold over a hundred thousand fans. Many believe that cricket (6) ___ never lose its place in Indian hearts.\n\nRead Omission Passage O1. Choose the correct option for blank (3): \"Since then, the sport (3) ___ grown into a national passion.\"",
+    prompt: "Cricket (1) ___ played in India for more than two centuries. The first recorded match in the country (2) ___ said to have taken place in 1721, when English sailors played on the coast of Gujarat. Since then, the sport (3) ___ grown into a national passion. Today, children play it in narrow lanes, (4) ___ a brick often serves as the wicket, and in vast stadiums (5) ___ can hold over a hundred thousand fans. Many believe that cricket (6) ___ never lose its place in Indian hearts.\n\nRead the omission passage. Choose the correct option for blank (3): \"Since then, the sport (3) ___ grown into a national passion.\"",
     options: [
       { id: "a", text: "had" },
       { id: "b", text: "has" },
@@ -359,7 +359,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch02-b-q04",
-    prompt: "Cricket (1) ___ played in India for more than two centuries. The first recorded match in the country (2) ___ said to have taken place in 1721, when English sailors played on the coast of Gujarat. Since then, the sport (3) ___ grown into a national passion. Today, children play it in narrow lanes, (4) ___ a brick often serves as the wicket, and in vast stadiums (5) ___ can hold over a hundred thousand fans. Many believe that cricket (6) ___ never lose its place in Indian hearts.\n\nRead Omission Passage O1. Choose the correct option for blank (4): \"...children play it in narrow lanes, (4) ___ a brick often serves as the wicket...\"",
+    prompt: "Cricket (1) ___ played in India for more than two centuries. The first recorded match in the country (2) ___ said to have taken place in 1721, when English sailors played on the coast of Gujarat. Since then, the sport (3) ___ grown into a national passion. Today, children play it in narrow lanes, (4) ___ a brick often serves as the wicket, and in vast stadiums (5) ___ can hold over a hundred thousand fans. Many believe that cricket (6) ___ never lose its place in Indian hearts.\n\nRead the omission passage. Choose the correct option for blank (4): \"...children play it in narrow lanes, (4) ___ a brick often serves as the wicket...\"",
     options: [
       { id: "a", text: "which" },
       { id: "b", text: "when" },
@@ -372,7 +372,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch02-b-q05",
-    prompt: "Cricket (1) ___ played in India for more than two centuries. The first recorded match in the country (2) ___ said to have taken place in 1721, when English sailors played on the coast of Gujarat. Since then, the sport (3) ___ grown into a national passion. Today, children play it in narrow lanes, (4) ___ a brick often serves as the wicket, and in vast stadiums (5) ___ can hold over a hundred thousand fans. Many believe that cricket (6) ___ never lose its place in Indian hearts.\n\nRead Omission Passage O1. Choose the correct option for blank (5): \"...and in vast stadiums (5) ___ can hold over a hundred thousand fans.\"",
+    prompt: "Cricket (1) ___ played in India for more than two centuries. The first recorded match in the country (2) ___ said to have taken place in 1721, when English sailors played on the coast of Gujarat. Since then, the sport (3) ___ grown into a national passion. Today, children play it in narrow lanes, (4) ___ a brick often serves as the wicket, and in vast stadiums (5) ___ can hold over a hundred thousand fans. Many believe that cricket (6) ___ never lose its place in Indian hearts.\n\nRead the omission passage. Choose the correct option for blank (5): \"...and in vast stadiums (5) ___ can hold over a hundred thousand fans.\"",
     options: [
       { id: "a", text: "where" },
       { id: "b", text: "who" },
@@ -385,7 +385,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch02-b-q06",
-    prompt: "Cricket (1) ___ played in India for more than two centuries. The first recorded match in the country (2) ___ said to have taken place in 1721, when English sailors played on the coast of Gujarat. Since then, the sport (3) ___ grown into a national passion. Today, children play it in narrow lanes, (4) ___ a brick often serves as the wicket, and in vast stadiums (5) ___ can hold over a hundred thousand fans. Many believe that cricket (6) ___ never lose its place in Indian hearts.\n\nRead Omission Passage O1. Choose the correct option for blank (6): \"Many believe that cricket (6) ___ never lose its place in Indian hearts.\"",
+    prompt: "Cricket (1) ___ played in India for more than two centuries. The first recorded match in the country (2) ___ said to have taken place in 1721, when English sailors played on the coast of Gujarat. Since then, the sport (3) ___ grown into a national passion. Today, children play it in narrow lanes, (4) ___ a brick often serves as the wicket, and in vast stadiums (5) ___ can hold over a hundred thousand fans. Many believe that cricket (6) ___ never lose its place in Indian hearts.\n\nRead the omission passage. Choose the correct option for blank (6): \"Many believe that cricket (6) ___ never lose its place in Indian hearts.\"",
     options: [
       { id: "a", text: "will" },
       { id: "b", text: "is" },
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "The story's \"now\" is the judging, which is already in the past. Earlier events, like building and flooding, step further back into the past perfect.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    hints: ["Find the later past event in the passage that the drip-rate work came before.", "Past perfect shows which past action finished before another past action."]
   },
   {
     id: "g8-eng-ch02-b-q08",

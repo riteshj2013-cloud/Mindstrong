@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Paragraph 1 introduces the problem, paragraph 2 gives its cause (our light) and effects (birds, turtles, sleep), and paragraph 3 offers solutions.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    hints: ["Paragraph two names \"the culprit\" and then lists birds, turtles and sleep.", "Compare paragraphs two and three of the passage: which lists harms, and which lists fixes?"]
   },
   {
     id: "g8-eng-ch01-b-q15",

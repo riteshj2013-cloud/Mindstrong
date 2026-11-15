@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Notices end with the issuer's name and role. Here it is Ananya Deshmukh.",
-    hints: ["Check the name at the bottom.", "Role/designation sits under the name."],
+    hints: ["The person who issues a notice signs at the bottom.", "Look at the name and the role written under it at the end of the notice."],
   },
 {
     id: "g4-eng-ch05-a-q03",
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "10 October is the notice date. The fair itself is on 18 October.",
-    hints: ["Separate notice date from event date.", "Look for the fair day in the body."],
+    hints: ["The notice has two dates: the day it was written and the day of the event.", "The date at the top is when the notice was written; find the date in the body."],
   },
 {
     id: "g4-eng-ch05-a-q04",
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "The notice asks students to bring a cloth bag — a clear action point.",
-    hints: ["Action points tell readers what to do.", "Cloth bag is listed in the body."],
+    hints: ["Find the line in the notice that tells students to do something.", "Look for the sentence that begins with \"Please\" in the notice."],
   },
 {
     id: "g4-eng-ch05-a-q05",
@@ -66,11 +66,11 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A clear notice needs school name, heading, date, facts, and who wrote it.",
-    hints: ["Think of the notice checklist.", "Facts help readers act."],
+    hints: ["The notice above is a good model — what parts does it have?", "A notice must tell readers who, what, when and where, and who wrote it."],
   },
 {
     id: "g4-eng-ch05-a-q06",
-    prompt: "12, Lake Road\nBengaluru\n8 October 2026\n\nDear Sana,\n\nHow are you? Last Sunday our class visited Cubbon Park. We saw huge trees and fed the squirrels. I missed you a lot. Please come during the holidays. Give my love to your parents.\n\nYours lovingly,\nAisha\n\nRead Letter L1. What kind of letter is this?",
+    prompt: "12, Lake Road\nBengaluru\n8 October 2026\n\nDear Sana,\n\nHow are you? Last Sunday our class visited Cubbon Park. We saw huge trees and fed the squirrels. I missed you a lot. Please come during the holidays. Give my love to your parents.\n\nYours lovingly,\nAisha\n\nRead the letter. What kind of letter is this?",
     options: [
       { id: "a", text: "A formal complaint to the mayor" },
       { id: "b", text: "An informal letter to a friend" },
@@ -83,7 +83,7 @@ const SET_A: PrepQuestion[] = [
   },
 {
     id: "g4-eng-ch05-a-q07",
-    prompt: "12, Lake Road\nBengaluru\n8 October 2026\n\nDear Sana,\n\nHow are you? Last Sunday our class visited Cubbon Park. We saw huge trees and fed the squirrels. I missed you a lot. Please come during the holidays. Give my love to your parents.\n\nYours lovingly,\nAisha\n\nRead Letter L1. Where should the writer's address appear in this format?",
+    prompt: "12, Lake Road\nBengaluru\n8 October 2026\n\nDear Sana,\n\nHow are you? Last Sunday our class visited Cubbon Park. We saw huge trees and fed the squirrels. I missed you a lot. Please come during the holidays. Give my love to your parents.\n\nYours lovingly,\nAisha\n\nRead the letter. Where should the writer's address appear in this format?",
     options: [
       { id: "a", text: "Only after the signature" },
       { id: "b", text: "In the middle of the story" },
@@ -96,7 +96,7 @@ const SET_A: PrepQuestion[] = [
   },
 {
     id: "g4-eng-ch05-a-q08",
-    prompt: "12, Lake Road\nBengaluru\n8 October 2026\n\nDear Sana,\n\nHow are you? Last Sunday our class visited Cubbon Park. We saw huge trees and fed the squirrels. I missed you a lot. Please come during the holidays. Give my love to your parents.\n\nYours lovingly,\nAisha\n\nRead Letter L1. Which closing fits this friendly letter?",
+    prompt: "12, Lake Road\nBengaluru\n8 October 2026\n\nDear Sana,\n\nHow are you? Last Sunday our class visited Cubbon Park. We saw huge trees and fed the squirrels. I missed you a lot. Please come during the holidays. Give my love to your parents.\n\nYours lovingly,\nAisha\n\nRead the letter. Which closing fits this friendly letter?",
     options: [
       { id: "a", text: "Yours faithfully," },
       { id: "b", text: "Regards to the Principal only," },
@@ -109,7 +109,7 @@ const SET_A: PrepQuestion[] = [
   },
 {
     id: "g4-eng-ch05-a-q09",
-    prompt: "**From:** kabir.rao@schoolmail.example\n**To:** class4a@schoolmail.example\n**Date:** 9 October 2026\n**Subject:** Reminder — bring crayons for art class tomorrow\n\nDear Classmates,\n\nThis is a reminder that tomorrow we have art class in Period 3. Please bring your crayon box and an old newspaper to cover the desk. Thank you!\n\nKabir\nClass Monitor\n\nRead Email E1. Why is the subject line useful?",
+    prompt: "**From:** kabir.rao@schoolmail.example\n**To:** class4a@schoolmail.example\n**Date:** 9 October 2026\n**Subject:** Reminder — bring crayons for art class tomorrow\n\nDear Classmates,\n\nThis is a reminder that tomorrow we have art class in Period 3. Please bring your crayon box and an old newspaper to cover the desk. Thank you!\n\nKabir\nClass Monitor\n\nRead the email. Why is the subject line useful?",
     options: [
       { id: "a", text: "It states the purpose clearly in a few words." },
       { id: "b", text: "It tells a joke." },
@@ -122,7 +122,7 @@ const SET_A: PrepQuestion[] = [
   },
 {
     id: "g4-eng-ch05-a-q10",
-    prompt: "**From:** kabir.rao@schoolmail.example\n**To:** class4a@schoolmail.example\n**Date:** 9 October 2026\n**Subject:** Reminder — bring crayons for art class tomorrow\n\nDear Classmates,\n\nThis is a reminder that tomorrow we have art class in Period 3. Please bring your crayon box and an old newspaper to cover the desk. Thank you!\n\nKabir\nClass Monitor\n\nRead Email E1. What should classmates bring?",
+    prompt: "**From:** kabir.rao@schoolmail.example\n**To:** class4a@schoolmail.example\n**Date:** 9 October 2026\n**Subject:** Reminder — bring crayons for art class tomorrow\n\nDear Classmates,\n\nThis is a reminder that tomorrow we have art class in Period 3. Please bring your crayon box and an old newspaper to cover the desk. Thank you!\n\nKabir\nClass Monitor\n\nRead the email. What should classmates bring?",
     options: [
       { id: "a", text: "Only a cricket bat" },
       { id: "b", text: "Crayon box and an old newspaper" },
@@ -135,7 +135,7 @@ const SET_A: PrepQuestion[] = [
   },
 {
     id: "g4-eng-ch05-a-q11",
-    prompt: "**From:** kabir.rao@schoolmail.example\n**To:** class4a@schoolmail.example\n**Date:** 9 October 2026\n**Subject:** Reminder — bring crayons for art class tomorrow\n\nDear Classmates,\n\nThis is a reminder that tomorrow we have art class in Period 3. Please bring your crayon box and an old newspaper to cover the desk. Thank you!\n\nKabir\nClass Monitor\n\nRead Email E1. Who wrote the email?",
+    prompt: "**From:** kabir.rao@schoolmail.example\n**To:** class4a@schoolmail.example\n**Date:** 9 October 2026\n**Subject:** Reminder — bring crayons for art class tomorrow\n\nDear Classmates,\n\nThis is a reminder that tomorrow we have art class in Period 3. Please bring your crayon box and an old newspaper to cover the desk. Thank you!\n\nKabir\nClass Monitor\n\nRead the email. Who wrote the email?",
     options: [
       { id: "a", text: "The Principal only" },
       { id: "b", text: "Mrs. Iyer" },
@@ -144,11 +144,11 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "The email ends with Kabir, Class Monitor — the sender's name and role.",
-    hints: ["Check the signature block.", "Class Monitor is Kabir's role."],
+    hints: ["The writer of an email signs at the end, after \"Thank you!\"", "Look at the name and the role under it at the bottom of the email."],
   },
 {
     id: "g4-eng-ch05-a-q12",
-    prompt: "**Phone Message**\n\nDate: 7 October 2026\nTime: 5:15 p.m.\nFor: Amma\nFrom: Mrs. Iyer\n\nMessage: PTA meeting moved to Friday at 4 p.m. in the school hall. Please confirm.\n\nTaken by: Arjun\n\nRead Message M1. Who is the message for?",
+    prompt: "**Phone Message**\n\nDate: 7 October 2026\nTime: 5:15 p.m.\nFor: Amma\nFrom: Mrs. Iyer\n\nMessage: PTA meeting moved to Friday at 4 p.m. in the school hall. Please confirm.\n\nTaken by: Arjun\n\nRead the message. Who is the message for?",
     options: [
       { id: "a", text: "Arjun" },
       { id: "b", text: "Mrs. Iyer" },
@@ -161,7 +161,7 @@ const SET_A: PrepQuestion[] = [
   },
 {
     id: "g4-eng-ch05-a-q13",
-    prompt: "**Phone Message**\n\nDate: 7 October 2026\nTime: 5:15 p.m.\nFor: Amma\nFrom: Mrs. Iyer\n\nMessage: PTA meeting moved to Friday at 4 p.m. in the school hall. Please confirm.\n\nTaken by: Arjun\n\nRead Message M1. What is the key information Amma needs?",
+    prompt: "**Phone Message**\n\nDate: 7 October 2026\nTime: 5:15 p.m.\nFor: Amma\nFrom: Mrs. Iyer\n\nMessage: PTA meeting moved to Friday at 4 p.m. in the school hall. Please confirm.\n\nTaken by: Arjun\n\nRead the message. What is the key information Amma needs?",
     options: [
       { id: "a", text: "PTA meeting moved to Friday at 4 p.m. in the school hall; please confirm." },
       { id: "b", text: "Buy apples at the market." },
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A phone message must keep the caller's main facts: what, when, where, and any ask.",
-    hints: ["Keep what / when / where.", "Confirm is part of the ask."],
+    hints: ["Find the \"Message:\" line in the message.", "The key information tells what changed, the new day and time, the place, and what Amma must do."],
   },
 {
     id: "g4-eng-ch05-a-q14",
@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The heading and body announce Sports Day practice for Class 4.",
-    hints: ["Heading names the event.", "Playground is the place."],
+    hints: ["Read the bold heading under NOTICE in the notice.", "The body says what Class 4 must attend and where."],
   },
 {
     id: "g4-eng-ch05-b-q02",
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "The notice says every Tuesday and Thursday at 7:30 a.m.",
-    hints: ["Find the weekdays in the body.", "Morning time is also listed."],
+    hints: ["Find the weekday names in the body of the notice.", "The days come right after the words \"every\"."],
   },
 {
     id: "g4-eng-ch05-b-q03",
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The issuer's name and designation at the end are Rohit Sharma, Sports Teacher.",
-    hints: ["Bottom lines name the issuer.", "Sports Teacher matches the topic."],
+    hints: ["Look at the last two lines of the notice.", "The name and role at the bottom tell who signed it."],
   },
 {
     id: "g4-eng-ch05-b-q06",
@@ -398,7 +398,7 @@ const SET_B: PrepQuestion[] = [
   },
 {
     id: "g4-eng-ch05-b-q07",
-    prompt: "12, Lake Road\nBengaluru\n8 October 2026\n\nDear Sana,\n\nHow are you? Last Sunday our class visited Cubbon Park. We saw huge trees and fed the squirrels. I missed you a lot. Please come during the holidays. Give my love to your parents.\n\nYours lovingly,\nAisha\n\nRead Letter L1. Why did Aisha write to Sana?",
+    prompt: "12, Lake Road\nBengaluru\n8 October 2026\n\nDear Sana,\n\nHow are you? Last Sunday our class visited Cubbon Park. We saw huge trees and fed the squirrels. I missed you a lot. Please come during the holidays. Give my love to your parents.\n\nYours lovingly,\nAisha\n\nRead the letter. Why did Aisha write to Sana?",
     options: [
       { id: "a", text: "To complain about Cubbon Park" },
       { id: "b", text: "To cancel friendship forever" },
@@ -424,7 +424,7 @@ const SET_B: PrepQuestion[] = [
   },
 {
     id: "g4-eng-ch05-b-q09",
-    prompt: "**From:** kabir.rao@schoolmail.example\n**To:** class4a@schoolmail.example\n**Date:** 9 October 2026\n**Subject:** Reminder — bring crayons for art class tomorrow\n\nDear Classmates,\n\nThis is a reminder that tomorrow we have art class in Period 3. Please bring your crayon box and an old newspaper to cover the desk. Thank you!\n\nKabir\nClass Monitor\n\nRead Email E1. The tone of this email is —",
+    prompt: "**From:** kabir.rao@schoolmail.example\n**To:** class4a@schoolmail.example\n**Date:** 9 October 2026\n**Subject:** Reminder — bring crayons for art class tomorrow\n\nDear Classmates,\n\nThis is a reminder that tomorrow we have art class in Period 3. Please bring your crayon box and an old newspaper to cover the desk. Thank you!\n\nKabir\nClass Monitor\n\nRead the email. The tone of this email is —",
     options: [
       { id: "a", text: "Clear, polite and helpful" },
       { id: "b", text: "Angry and threatening" },
@@ -450,7 +450,7 @@ const SET_B: PrepQuestion[] = [
   },
 {
     id: "g4-eng-ch05-b-q11",
-    prompt: "**Phone Message**\n\nDate: 7 October 2026\nTime: 5:15 p.m.\nFor: Amma\nFrom: Mrs. Iyer\n\nMessage: PTA meeting moved to Friday at 4 p.m. in the school hall. Please confirm.\n\nTaken by: Arjun\n\nRead Message M1. Who took the message?",
+    prompt: "**Phone Message**\n\nDate: 7 October 2026\nTime: 5:15 p.m.\nFor: Amma\nFrom: Mrs. Iyer\n\nMessage: PTA meeting moved to Friday at 4 p.m. in the school hall. Please confirm.\n\nTaken by: Arjun\n\nRead the message. Who took the message?",
     options: [
       { id: "a", text: "Amma" },
       { id: "b", text: "Mrs. Iyer" },
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Taken by: Arjun\" names the person who wrote the slip.",
-    hints: ["Taken by = message writer.", "From = caller."],
+    hints: ["The message has \"From:\", \"For:\" and \"Taken by:\" lines.", "\"Taken by:\" names the person who wrote the message down."],
   },
 {
     id: "g4-eng-ch05-b-q12",
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Notices share brief facts with a group. Diaries are private; subjects stay short.",
-    hints: ["Match format to purpose.", "Notices are public and brief."],
+    hints: ["Match each kind of writing — notice, email, phone message — with its job.", "Think of the notice: who reads a notice, and how long is it?"],
   },
 {
     id: "g4-eng-ch05-b-q21",
@@ -593,7 +593,7 @@ const SET_B: PrepQuestion[] = [
   },
 {
     id: "g4-eng-ch05-b-q22",
-    prompt: "In Letter L1 style, \"Yours lovingly\" should appear —",
+    prompt: "In the letter style, \"Yours lovingly\" should appear —",
     options: [
       { id: "a", text: "Before the address at the very top" },
       { id: "b", text: "Just before the writer's name at the end" },

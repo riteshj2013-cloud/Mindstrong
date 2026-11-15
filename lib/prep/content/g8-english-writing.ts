@@ -57,7 +57,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-a-q05",
-    prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nRead Email E1. Why is the subject line effective?",
+    prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nRead the email. Why is the subject line effective?",
     options: [
       { id: "a", text: "It states the request and the topic briefly" },
       { id: "b", text: "It contains only the word \"Hi\"" },
@@ -70,7 +70,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-a-q06",
-    prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nRead Email E1. Why does Nisha close with \"Yours sincerely\"?",
+    prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nRead the email. Why does Nisha close with \"Yours sincerely\"?",
     options: [
       { id: "a", text: "Emails never use a closing" },
       { id: "b", text: "She addressed a named person, Ms. Iyer" },
@@ -83,7 +83,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-a-q07",
-    prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nRead Email E1. What clear request does Nisha make?",
+    prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nRead the email. What clear request does Nisha make?",
     options: [
       { id: "a", text: "To change her class section" },
       { id: "b", text: "To ban the Science Fair" },
@@ -96,7 +96,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-a-q08",
-    prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nRead Email E1. Which best describes the tone?",
+    prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nRead the email. Which best describes the tone?",
     options: [
       { id: "a", text: "Joking and slangy" },
       { id: "b", text: "Angry and threatening" },
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "The receiver's address and salutation target the newspaper editor.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    hints: ["A formal letter has the receiver's address block below the sender's address and date.", "Read the three lines after \"10 November 2026\" in the formal letter."]
   },
   {
     id: "g8-eng-ch05-a-q21",
@@ -372,7 +372,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-b-q05",
-    prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nRead Email E1. Who is the email written to?",
+    prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nRead the email. Who is the email written to?",
     options: [
       { id: "a", text: "Ms. Iyer, the librarian" },
       { id: "b", text: "The sports coach" },
@@ -385,7 +385,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-b-q06",
-    prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nRead Email E1. By which date does Nisha promise to return the books?",
+    prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nRead the email. By which date does Nisha promise to return the books?",
     options: [
       { id: "a", text: "Last Monday" },
       { id: "b", text: "22 November" },
@@ -398,7 +398,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-b-q07",
-    prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nRead Email E1. Which sentence best shows supporting detail for the request?",
+    prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nRead the email. Which sentence best shows supporting detail for the request?",
     options: [
       { id: "a", text: "\"Yours sincerely,\"" },
       { id: "b", text: "\"Class 8B\"" },
@@ -528,7 +528,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-b-q17",
-    prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nRead Email E1. The primary purpose is to \u2014",
+    prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nRead the email. The primary purpose is to —",
     options: [
       { id: "a", text: "request a practical favour with reasons and a clear deadline" },
       { id: "b", text: "entertain with a funny story" },
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The email asks for an extension, explains why, and proposes a return date.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    hints: ["Is the email mainly entertaining, announcing, editorialising, or requesting?"]
   },
   {
     id: "g8-eng-ch05-b-q18",
@@ -567,7 +567,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-b-q20",
-    prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nWhich closing pair is correct for Email E1's salutation \"Dear Ms. Iyer\"?",
+    prompt: "**From:** nisha.k@example.com\n**To:** librarian@peakview.edu.in\n**Date:** 8 November 2026\n**Subject:** Request to extend library return date for Class 8 project books\nDear Ms. Iyer,\nI am writing to request a one-week extension for returning the Class 8 project reference books issued last Monday. Our group is completing a display on water conservation for the Science Fair on 20 November, and we still need the books for captions and diagrams.\nWe will ensure that all titles are returned by 22 November and kept in good condition. I would be grateful if you could approve this extension.\nYours sincerely,\nNisha Kapoor\nClass 8B\n\nWhich closing pair is correct for the email's salutation \"Dear Ms. Iyer\"?",
     options: [
       { id: "a", text: "Yours faithfully" },
       { id: "b", text: "Love," },
