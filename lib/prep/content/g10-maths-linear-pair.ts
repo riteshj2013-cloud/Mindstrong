@@ -437,7 +437,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-maths-linear-b-q10",
-    prompt: "Using matrices idea: for  x + y = 5, 2x \u2212 y = 4, adding gives \u2014",
+    prompt: "Solve x + y = 5 and 2x − y = 4 by elimination. Adding the two equations gives —",
     options: [
       { id: "a", text: "y=4" },
       { id: "b", text: "3x = 9 so x=3, then y=2" },
@@ -563,19 +563,19 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Distance = |c1 − c2|/√(a² + b²) = |−5 + 15|/√(9 + 16) = 10/5 = 2. 10 is tempting, but it forgets to divide by √(3² + 4²) = 5.",
-    hints: ["Subtracting the constant terms does not give the gap between the lines, because 3x + 4y grows faster than distance. Drop that difference."]
+    hints: ["Choose any handy point on the first line. The perpendicular distance from it to the other line is the gap, whichever point you take."]
   },
   {
     id: "g10-maths-linear-b-q20",
     prompt: "A chemist has two solutions: 20% and 50% acid. How much of each to make 10 L of 35%? Let x = litres of 20%. Then \u2014",
     options: [
-      { id: "a", text: "x=3.5" },
-      { id: "b", text: "x=7" },
-      { id: "c", text: "x=2" },
-      { id: "d", text: "x=5, (10\u2212x)=5" }
+      { id: "a", text: "x=3.5, (10−x)=6.5" },
+      { id: "b", text: "x=7, (10−x)=3" },
+      { id: "c", text: "x=1.5, (10−x)=8.5" },
+      { id: "d", text: "x=5, (10−x)=5" }
     ],
     answerId: "d",
-    explanation: "The 20% solution holds 0.2x litres of acid and the 50% solution holds 0.5(10 − x) litres. Together they must give 35% of 10 L, which is 3.5 litres. So 0.2x + 5 − 0.5x = 3.5, which gives 0.3x = 1.5 and x = 5. So the chemist uses 5 L of each: x=5, (10−x)=5. x=3.5 is tempting if you take the 3.5 litres of pure acid as x, the litres of the 20% solution.",
+    explanation: "The 20% solution holds 0.2x litres of acid and the 50% solution holds 0.5(10 − x) litres. Together they must give 35% of 10 L, which is 3.5 litres. So 0.2x + 5 − 0.5x = 3.5, which gives 0.3x = 1.5 and x = 5. So the chemist uses 5 L of each: x=5, (10−x)=5. x=3.5, (10−x)=6.5 is tempting if you take the 3.5 litres of acid as x, the litres of the 20% solution. x=1.5, (10−x)=8.5 comes from stopping at 0.3x = 1.5 and reading 1.5 as x. x=7, (10−x)=3 comes from dividing the 3.5 litres of acid by 50% alone, as if there were no 20% solution.",
     hints: ["Turn each percentage into litres of acid, using x for the 20% part. Those amounts must add to the acid in the final mix."]
   },
   {

@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "p(2) = 0 gives 4 + 2k + 6 = 0, so 2k = −10 and k = −5; the other zero is 3, since 2 × 3 = 6. 5 is tempting if you drop the sign, but x² + 5x + 6 has zeros −2 and −3, not 2.",
-    hints: ["Do the next algebra step for equals, zero carefully; flip the sign when a term crosses equals."]
+    hints: ["Work out the partner zero first, which the constant term links to the given zero. With both zeros known, k follows; mind its sign."]
   },
   {
     id: "g10-maths-poly-a-q13",

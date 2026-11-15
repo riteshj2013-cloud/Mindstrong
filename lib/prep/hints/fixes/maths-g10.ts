@@ -95,7 +95,7 @@ export const G10_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-maths-real-b-q18": ["Re-check approximately against every clue, then drop options that fail one of them."],
   "g10-maths-poly-a-q05": ["One choice vanishes at the given zeros with their signs flipped. That quadratic can go first."],
   "g10-maths-poly-a-q11": ["As a ≠ 0, the ax² term is always present, which means the linear shape does not fit. Remove that choice."],
-  "g10-maths-poly-a-q12": ["Do the next algebra step for equals, zero carefully; flip the sign when a term crosses equals."],
+  "g10-maths-poly-a-q12": ["Work out the partner zero first, which the constant term links to the given zero. With both zeros known, k follows; mind its sign."],
   "g10-maths-poly-a-q19": ["The sum of zeros would stay put even if the final term changed. Any fraction built on the final number falls away."],
   "g10-maths-poly-a-q22": ["Expanding shows one choice finishing with a positive constant, unlike x³ − 1. Strike it."],
   "g10-maths-poly-a-q23": ["An x term with no power appears in this polynomial. The option giving it no coefficient fails."],
@@ -121,6 +121,6 @@ export const G10_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-maths-linear-b-q10": ["Stack the equations and try adding them column by column. Whatever survives gives one letter; feed it back for the second."],
   "g10-maths-linear-b-q11": ["Check every ordered pair against both equations. Several may pass the first test, so the second decides it."],
   "g10-maths-linear-b-q15": ["Remove y by subtracting the equations. Solve for x, then double-check you report x and not y."],
-  "g10-maths-linear-b-q19": ["Subtracting the constant terms does not give the gap between the lines, because 3x + 4y grows faster than distance. Drop that difference."],
+  "g10-maths-linear-b-q19": ["Choose any handy point on the first line. The perpendicular distance from it to the other line is the gap, whichever point you take."],
   "g10-maths-linear-b-q20": ["Turn each percentage into litres of acid, using x for the 20% part. Those amounts must add to the acid in the final mix."],
 };
