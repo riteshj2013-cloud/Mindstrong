@@ -224,7 +224,7 @@ export const G8_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g8-maths-mensuration-a-q15": ["TSA = 2(lb + bh + hl). Find 8 × 6, 6 × 5 and 5 × 8 first."],
   "g8-maths-mensuration-a-q16": ["Picture painting the four walls of the room, but not the floor or ceiling. Each wall is a rectangle; find each wall's area, then add."],
   "g8-maths-mensuration-a-q17": ["Divide the 80 m perimeter by 4 to get one side of the square park, then square that side."],
-  "g8-maths-mensuration-a-q18": ["Find how many 2 cm cubes fit along one 6 cm edge, then cube that number."],
+  "g8-maths-mensuration-a-q18": ["Split the big cube into layers of small cubes. Find the count in a single layer, and the number of layers stacked up."],
   "g8-maths-mensuration-a-q19": ["The diagonal makes a right triangle with the 6 cm and 8 cm sides. Use Pythagoras."],
   "g8-maths-mensuration-a-q20": ["V = πr²h. Square 3.5 m first, then multiply by 22/7 and by 7 m; the 7s cancel."],
   "g8-maths-mensuration-a-q21": ["TSA of a cylinder = 2πr(h + r). Use r = 7 cm and h = 5 cm."],

@@ -211,7 +211,7 @@ export const G8_MATHS_HINTS: Record<string, HintOverlay> = {
   "g8-maths-mensuration-a-q15": ["LSA covers sides; TSA adds the bases. List faces before multiplying."],
   "g8-maths-mensuration-a-q16": ["Picture painting the four walls of the room, but not the floor or ceiling. Each wall is a rectangle; find each wall's area, then add."],
   "g8-maths-mensuration-a-q17": ["Pick the right area formula; keep length units the same."],
-  "g8-maths-mensuration-a-q18": ["Cube a\u00b3, cuboid lbh, cylinder \u03c0r\u00b2h \u2014 answer in cubic units."],
+  "g8-maths-mensuration-a-q18": ["Split the big cube into layers of small cubes. Find the count in a single layer, and the number of layers stacked up."],
   "g8-maths-mensuration-a-q19": ["Pick the right area formula; keep length units the same."],
   "g8-maths-mensuration-a-q20": ["Cube a\u00b3, cuboid lbh, cylinder \u03c0r\u00b2h \u2014 answer in cubic units."],
   "g8-maths-mensuration-a-q21": ["LSA covers sides; TSA adds the bases. List faces before multiplying."],

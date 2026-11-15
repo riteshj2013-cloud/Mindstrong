@@ -343,7 +343,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "An angle of 180° has its two arms pointing in opposite directions, making one straight line, so it is a straight angle. Obtuse is tempting if you think obtuse covers every angle above 90° up to and including 180°. Obtuse angles stop just below 180°.",
-    hints: ["Draw a 180° angle with a protractor, starting from one arm. Look at the shape the arms make, then compare it with each angle type."]
+    hints: ["Write the angle types in order of size, smallest first, with the degrees where each begins and ends. Then find where 180° belongs."]
   },
   {
     id: "g6-maths-geo-b-q03",

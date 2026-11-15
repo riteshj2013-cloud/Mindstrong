@@ -236,7 +236,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Along each 6 cm edge, 6 ÷ 2 = 3 small cubes fit. The big cube holds 3 layers of 3 × 3 = 9 cubes, so 3 × 3 × 3 = 27. 9 is tempting if you count only one layer, 3 × 3 = 9, and forget there are 3 layers.",
-    hints: ["Find how many 2 cm cubes fit along one 6 cm edge, then cube that number."]
+    hints: ["Split the big cube into layers of small cubes. Find the count in a single layer, and the number of layers stacked up."]
   },
   {
     id: "g8-maths-mensuration-a-q19",

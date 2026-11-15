@@ -90,7 +90,7 @@ export const G6_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g6-maths-geo-a-q18": ["An acute-angled triangle has every angle less than 90°. Check all three angles in each option."],
   "g6-maths-geo-a-q24": ["A chord through the centre goes right across the circle and is twice the radius. Name it."],
   "g6-maths-geo-b-q01": ["Count endpoints: a segment has two and a ray has one. Which figure has no endpoints at all?"],
-  "g6-maths-geo-b-q02": ["Draw a 180° angle with a protractor, starting from one arm. Look at the shape the arms make, then compare it with each angle type."],
+  "g6-maths-geo-b-q02": ["Write the angle types in order of size, smallest first, with the degrees where each begins and ends. Then find where 180° belongs."],
   "g6-maths-geo-b-q08": ["Area of a rectangle = length × breadth. Multiply 9 cm by 4 cm."],
   "g6-maths-geo-b-q13": ["Which tool has a sharp point to hold the centre and a pencil arm that turns to draw a circle?"],
   "g6-maths-geo-b-q14": ["Picture a dice: count the corners on the top face of the cube, then on the bottom face."],

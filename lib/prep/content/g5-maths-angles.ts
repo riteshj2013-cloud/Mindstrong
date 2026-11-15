@@ -42,7 +42,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "A straight angle is half of a full turn. A full turn is 360°, so a straight angle is 360° ÷ 2 = 180°, like the edge of a ruler. 90° is tempting if you mix up a straight angle with a right angle, which is only a quarter turn.",
-    hints: ["Lay a ruler down and draw an angle whose two arms follow its edge in opposite directions. Measure that angle with your protractor."]
+    hints: ["Think of a straight angle as right angles placed side by side. Count how many fit, then use the degrees in one right angle."]
   },
   {
     id: "g5-maths-angles-a-q04",

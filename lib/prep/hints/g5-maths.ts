@@ -5,7 +5,7 @@ export const G5_MATHS_HINTS: Record<string, HintOverlay> = {
   // Pictorial Set A slots (diagram-aware)
   "g5-maths-angles-a-q01": ["Look for the square-corner mark — that panel is the right angle."],
   "g5-maths-angles-a-q02": ["Classify by size: acute < right < obtuse < straight."],
-  "g5-maths-angles-a-q03": ["Lay a ruler down and draw an angle whose two arms follow its edge in opposite directions. Measure that angle with your protractor."],
+  "g5-maths-angles-a-q03": ["Think of a straight angle as right angles placed side by side. Count how many fit, then use the degrees in one right angle."],
   "g5-maths-angles-a-q04": ["The orange meeting point of the two arms is the vertex."],
   "g5-maths-angles-a-q05": ["Count the straight sides on each shape; a triangle has 3."],
   "g5-maths-angles-a-q06": ["A closed shape has no gap — the pencil ends where it began."],

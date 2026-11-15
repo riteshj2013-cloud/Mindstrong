@@ -57,7 +57,7 @@ export const G5_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g5-maths-large-b-q24": ["Each step takes away 25,000. The 10th number is 9 steps after 7,50,000."],
   // g5-maths shapes-angles — Shapes and Angles
   "g5-maths-angles-a-q02": ["The corner of a notebook page is a square corner of 90°. Which angle name means exactly 90°?"],
-  "g5-maths-angles-a-q03": ["Lay a ruler down and draw an angle whose two arms follow its edge in opposite directions. Measure that angle with your protractor."],
+  "g5-maths-angles-a-q03": ["Think of a straight angle as right angles placed side by side. Count how many fit, then use the degrees in one right angle."],
   "g5-maths-angles-a-q04": ["Point V is where the two arms of the angle meet. What is that corner point called?"],
   "g5-maths-angles-a-q07": ["Compare the labelled 55° with a right angle of 90°. Which type of angle is smaller than a right angle?"],
   "g5-maths-angles-a-q09": ["Try to close a shape with 2 straight sides. Can you? Add one more side and try again."],
