@@ -5,7 +5,7 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g4-eng-ch03-a-q01",
-    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead Poem P1. Which word rhymes with \"roof\"?",
+    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. Which word rhymes with \"roof\"?",
     options: [
       { id: "a", text: "proof" },
       { id: "b", text: "rain" },
@@ -19,7 +19,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-a-q02",
-    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead Poem P1. Which pair of words RHYMES in the poem?",
+    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. Which pair of words RHYMES in the poem?",
     options: [
       { id: "a", text: "frogs, clouds" },
       { id: "b", text: "boat, paper" },
@@ -33,7 +33,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-a-q03",
-    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead Poem P1. Amma says, \"Come in, it's late!\" What does \"it's\" mean?",
+    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. Amma says, \"Come in, it's late!\" What does \"it's\" mean?",
     options: [
       { id: "a", text: "its" },
       { id: "b", text: "it is" },
@@ -47,7 +47,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-a-q04",
-    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead Poem P1. What is the OPPOSITE of \"late\"?",
+    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. What is the OPPOSITE of \"late\"?",
     options: [
       { id: "a", text: "dark" },
       { id: "b", text: "tired" },
@@ -61,7 +61,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-a-q05",
-    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead Poem P1. \"But puddles, puddles cannot wait!\" What does the child mean?",
+    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. \"But puddles, puddles cannot wait!\" What does the child mean?",
     options: [
       { id: "a", text: "The child is scared of puddles." },
       { id: "b", text: "The puddles will dry up soon." },
@@ -75,7 +75,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-a-q06",
-    prompt: "**Librarian:** Good morning, Tara. How can I help you?\n**Tara:** Good morning, ma'am. May I borrow a book about stars, please?\n**Librarian:** Of course. Here is one with lots of pictures.\n**Tara:** Thank you! When should I return it?\n**Librarian:** Please bring it back next Monday.\n**Tara:** I will. Sorry, ma'am, I returned my last book late.\n**Librarian:** That's all right. Thank you for telling me.\n**Tara:** Thank you, ma'am. Have a nice day!\n\nRead Dialogue P2. Which line shows that Tara asks politely?",
+    prompt: "**Librarian:** Good morning, Tara. How can I help you?\n**Tara:** Good morning, ma'am. May I borrow a book about stars, please?\n**Librarian:** Of course. Here is one with lots of pictures.\n**Tara:** Thank you! When should I return it?\n**Librarian:** Please bring it back next Monday.\n**Tara:** I will. Sorry, ma'am, I returned my last book late.\n**Librarian:** That's all right. Thank you for telling me.\n**Tara:** Thank you, ma'am. Have a nice day!\n\nRead the dialogue. Which line shows that Tara asks politely?",
     options: [
       { id: "a", text: "\"May I borrow a book about stars, please?\"" },
       { id: "b", text: "\"When should I return it?\"" },
@@ -88,7 +88,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-a-q07",
-    prompt: "**Librarian:** Good morning, Tara. How can I help you?\n**Tara:** Good morning, ma'am. May I borrow a book about stars, please?\n**Librarian:** Of course. Here is one with lots of pictures.\n**Tara:** Thank you! When should I return it?\n**Librarian:** Please bring it back next Monday.\n**Tara:** I will. Sorry, ma'am, I returned my last book late.\n**Librarian:** That's all right. Thank you for telling me.\n**Tara:** Thank you, ma'am. Have a nice day!\n\nRead Dialogue P2. Why does Tara say, \"Sorry, ma'am, I returned my last book late\"?",
+    prompt: "**Librarian:** Good morning, Tara. How can I help you?\n**Tara:** Good morning, ma'am. May I borrow a book about stars, please?\n**Librarian:** Of course. Here is one with lots of pictures.\n**Tara:** Thank you! When should I return it?\n**Librarian:** Please bring it back next Monday.\n**Tara:** I will. Sorry, ma'am, I returned my last book late.\n**Librarian:** That's all right. Thank you for telling me.\n**Tara:** Thank you, ma'am. Have a nice day!\n\nRead the dialogue. Why does Tara say, \"Sorry, ma'am, I returned my last book late\"?",
     options: [
       { id: "a", text: "She lost the book." },
       { id: "b", text: "She wants a new book." },
@@ -101,7 +101,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-a-q08",
-    prompt: "**Librarian:** Good morning, Tara. How can I help you?\n**Tara:** Good morning, ma'am. May I borrow a book about stars, please?\n**Librarian:** Of course. Here is one with lots of pictures.\n**Tara:** Thank you! When should I return it?\n**Librarian:** Please bring it back next Monday.\n**Tara:** I will. Sorry, ma'am, I returned my last book late.\n**Librarian:** That's all right. Thank you for telling me.\n**Tara:** Thank you, ma'am. Have a nice day!\n\nRead Dialogue P2. \"When should I return it?\" Why does this sentence end with a question mark (?)?",
+    prompt: "**Librarian:** Good morning, Tara. How can I help you?\n**Tara:** Good morning, ma'am. May I borrow a book about stars, please?\n**Librarian:** Of course. Here is one with lots of pictures.\n**Tara:** Thank you! When should I return it?\n**Librarian:** Please bring it back next Monday.\n**Tara:** I will. Sorry, ma'am, I returned my last book late.\n**Librarian:** That's all right. Thank you for telling me.\n**Tara:** Thank you, ma'am. Have a nice day!\n\nRead the dialogue. \"When should I return it?\" Why does this sentence end with a question mark (?)?",
     options: [
       { id: "a", text: "It is a happy sentence." },
       { id: "b", text: "It asks a question." },
@@ -114,7 +114,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-a-q09",
-    prompt: "It was Bunty's birthday. In the morning, he saw a big box on the table. Inside was a red football! Bunty was very thankful. He ran to the playground with his friends. They played until sunset. On the way home, Bunty saw a little puppy sitting alone. It looked hungry and helpless. Bunty gave it some of his birthday cake. The puppy wagged its tail happily. \"This is the best birthday ever,\" said Bunty.\n\nRead Passage P3. Which word from the story is a COMPOUND word (two words joined)?",
+    prompt: "It was Bunty's birthday. In the morning, he saw a big box on the table. Inside was a red football! Bunty was very thankful. He ran to the playground with his friends. They played until sunset. On the way home, Bunty saw a little puppy sitting alone. It looked hungry and helpless. Bunty gave it some of his birthday cake. The puppy wagged its tail happily. \"This is the best birthday ever,\" said Bunty.\n\nRead the passage. Which word from the story is a COMPOUND word (two words joined)?",
     options: [
       { id: "a", text: "happily" },
       { id: "b", text: "football" },
@@ -127,7 +127,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-a-q10",
-    prompt: "It was Bunty's birthday. In the morning, he saw a big box on the table. Inside was a red football! Bunty was very thankful. He ran to the playground with his friends. They played until sunset. On the way home, Bunty saw a little puppy sitting alone. It looked hungry and helpless. Bunty gave it some of his birthday cake. The puppy wagged its tail happily. \"This is the best birthday ever,\" said Bunty.\n\nRead Passage P3. The puppy \"looked hungry and helpless.\" What does \"helpless\" mean?",
+    prompt: "It was Bunty's birthday. In the morning, he saw a big box on the table. Inside was a red football! Bunty was very thankful. He ran to the playground with his friends. They played until sunset. On the way home, Bunty saw a little puppy sitting alone. It looked hungry and helpless. Bunty gave it some of his birthday cake. The puppy wagged its tail happily. \"This is the best birthday ever,\" said Bunty.\n\nRead the passage. The puppy \"looked hungry and helpless.\" What does \"helpless\" mean?",
     options: [
       { id: "a", text: "Full of help" },
       { id: "b", text: "Helping again" },
@@ -140,7 +140,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-a-q11",
-    prompt: "It was Bunty's birthday. In the morning, he saw a big box on the table. Inside was a red football! Bunty was very thankful. He ran to the playground with his friends. They played until sunset. On the way home, Bunty saw a little puppy sitting alone. It looked hungry and helpless. Bunty gave it some of his birthday cake. The puppy wagged its tail happily. \"This is the best birthday ever,\" said Bunty.\n\nRead Passage P3. \"Bunty was very thankful.\" What does \"thankful\" mean?",
+    prompt: "It was Bunty's birthday. In the morning, he saw a big box on the table. Inside was a red football! Bunty was very thankful. He ran to the playground with his friends. They played until sunset. On the way home, Bunty saw a little puppy sitting alone. It looked hungry and helpless. Bunty gave it some of his birthday cake. The puppy wagged its tail happily. \"This is the best birthday ever,\" said Bunty.\n\nRead the passage. \"Bunty was very thankful.\" What does \"thankful\" mean?",
     options: [
       { id: "a", text: "Full of thanks" },
       { id: "b", text: "Without thanks" },
@@ -153,7 +153,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-a-q12",
-    prompt: "It was Bunty's birthday. In the morning, he saw a big box on the table. Inside was a red football! Bunty was very thankful. He ran to the playground with his friends. They played until sunset. On the way home, Bunty saw a little puppy sitting alone. It looked hungry and helpless. Bunty gave it some of his birthday cake. The puppy wagged its tail happily. \"This is the best birthday ever,\" said Bunty.\n\nRead Passage P3 and look at the pictures. The first picture shows \"sunset\". Which word names the OPPOSITE shown in the second picture?",
+    prompt: "It was Bunty's birthday. In the morning, he saw a big box on the table. Inside was a red football! Bunty was very thankful. He ran to the playground with his friends. They played until sunset. On the way home, Bunty saw a little puppy sitting alone. It looked hungry and helpless. Bunty gave it some of his birthday cake. The puppy wagged its tail happily. \"This is the best birthday ever,\" said Bunty.\n\nRead the passage and look at the pictures. The first picture shows \"sunset\". Which word names the OPPOSITE shown in the second picture?",
     options: [
       { id: "a", text: "sunshine" },
       { id: "b", text: "sunlight" },
@@ -167,7 +167,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-a-q13",
-    prompt: "It was Bunty's birthday. In the morning, he saw a big box on the table. Inside was a red football! Bunty was very thankful. He ran to the playground with his friends. They played until sunset. On the way home, Bunty saw a little puppy sitting alone. It looked hungry and helpless. Bunty gave it some of his birthday cake. The puppy wagged its tail happily. \"This is the best birthday ever,\" said Bunty.\n\nRead Passage P3. \"It was Bunty's birthday.\" What does the apostrophe (') in \"Bunty's\" show?",
+    prompt: "It was Bunty's birthday. In the morning, he saw a big box on the table. Inside was a red football! Bunty was very thankful. He ran to the playground with his friends. They played until sunset. On the way home, Bunty saw a little puppy sitting alone. It looked hungry and helpless. Bunty gave it some of his birthday cake. The puppy wagged its tail happily. \"This is the best birthday ever,\" said Bunty.\n\nRead the passage. \"It was Bunty's birthday.\" What does the apostrophe (') in \"Bunty's\" show?",
     options: [
       { id: "a", text: "There is more than one Bunty." },
       { id: "b", text: "A letter is missing." },
@@ -329,7 +329,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g4-eng-ch03-b-q01",
-    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead Poem P1. Which word rhymes with \"cry\"?",
+    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. Which word rhymes with \"cry\"?",
     options: [
       { id: "a", text: "croak" },
       { id: "b", text: "sky" },
@@ -343,7 +343,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-b-q02",
-    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead Poem P1. \"It wobbles left, it wobbles right.\" This shows that the paper boat is \u2014",
+    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. \"It wobbles left, it wobbles right.\" This shows that the paper boat is —",
     options: [
       { id: "a", text: "sinking fast" },
       { id: "b", text: "flying in the air" },
@@ -357,7 +357,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-b-q03",
-    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead Poem P1. \"I float my boat of paper white.\" What is the OPPOSITE of \"white\"?",
+    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. \"I float my boat of paper white.\" What is the OPPOSITE of \"white\"?",
     options: [
       { id: "a", text: "black" },
       { id: "b", text: "grey" },
@@ -371,7 +371,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-b-q04",
-    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead Poem P1. In which season is the poem set?",
+    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. In which season is the poem set?",
     options: [
       { id: "a", text: "Winter" },
       { id: "b", text: "A dry, hot summer" },
@@ -385,7 +385,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-b-q05",
-    prompt: "**Librarian:** Good morning, Tara. How can I help you?\n**Tara:** Good morning, ma'am. May I borrow a book about stars, please?\n**Librarian:** Of course. Here is one with lots of pictures.\n**Tara:** Thank you! When should I return it?\n**Librarian:** Please bring it back next Monday.\n**Tara:** I will. Sorry, ma'am, I returned my last book late.\n**Librarian:** That's all right. Thank you for telling me.\n**Tara:** Thank you, ma'am. Have a nice day!\n\nRead Dialogue P2. The librarian says, \"Here is one with lots of pictures.\" Which is another POLITE reply Tara could give?",
+    prompt: "**Librarian:** Good morning, Tara. How can I help you?\n**Tara:** Good morning, ma'am. May I borrow a book about stars, please?\n**Librarian:** Of course. Here is one with lots of pictures.\n**Tara:** Thank you! When should I return it?\n**Librarian:** Please bring it back next Monday.\n**Tara:** I will. Sorry, ma'am, I returned my last book late.\n**Librarian:** That's all right. Thank you for telling me.\n**Tara:** Thank you, ma'am. Have a nice day!\n\nRead the dialogue. The librarian says, \"Here is one with lots of pictures.\" Which is another POLITE reply Tara could give?",
     options: [
       { id: "a", text: "\"Thank you, ma'am. It looks lovely!\"" },
       { id: "b", text: "\"Give me another one.\"" },
@@ -398,7 +398,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-b-q06",
-    prompt: "**Librarian:** Good morning, Tara. How can I help you?\n**Tara:** Good morning, ma'am. May I borrow a book about stars, please?\n**Librarian:** Of course. Here is one with lots of pictures.\n**Tara:** Thank you! When should I return it?\n**Librarian:** Please bring it back next Monday.\n**Tara:** I will. Sorry, ma'am, I returned my last book late.\n**Librarian:** That's all right. Thank you for telling me.\n**Tara:** Thank you, ma'am. Have a nice day!\n\nRead Dialogue P2. When should Tara return the book?",
+    prompt: "**Librarian:** Good morning, Tara. How can I help you?\n**Tara:** Good morning, ma'am. May I borrow a book about stars, please?\n**Librarian:** Of course. Here is one with lots of pictures.\n**Tara:** Thank you! When should I return it?\n**Librarian:** Please bring it back next Monday.\n**Tara:** I will. Sorry, ma'am, I returned my last book late.\n**Librarian:** That's all right. Thank you for telling me.\n**Tara:** Thank you, ma'am. Have a nice day!\n\nRead the dialogue. When should Tara return the book?",
     options: [
       { id: "a", text: "Today" },
       { id: "b", text: "On Sunday" },
@@ -411,7 +411,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-b-q07",
-    prompt: "**Librarian:** Good morning, Tara. How can I help you?\n**Tara:** Good morning, ma'am. May I borrow a book about stars, please?\n**Librarian:** Of course. Here is one with lots of pictures.\n**Tara:** Thank you! When should I return it?\n**Librarian:** Please bring it back next Monday.\n**Tara:** I will. Sorry, ma'am, I returned my last book late.\n**Librarian:** That's all right. Thank you for telling me.\n**Tara:** Thank you, ma'am. Have a nice day!\n\nRead Dialogue P2. The librarian says, \"That's all right. Thank you for telling me.\" This shows the librarian is \u2014",
+    prompt: "**Librarian:** Good morning, Tara. How can I help you?\n**Tara:** Good morning, ma'am. May I borrow a book about stars, please?\n**Librarian:** Of course. Here is one with lots of pictures.\n**Tara:** Thank you! When should I return it?\n**Librarian:** Please bring it back next Monday.\n**Tara:** I will. Sorry, ma'am, I returned my last book late.\n**Librarian:** That's all right. Thank you for telling me.\n**Tara:** Thank you, ma'am. Have a nice day!\n\nRead the dialogue. The librarian says, \"That's all right. Thank you for telling me.\" This shows the librarian is —",
     options: [
       { id: "a", text: "angry" },
       { id: "b", text: "kind and understanding" },
@@ -424,7 +424,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-b-q08",
-    prompt: "**Librarian:** Good morning, Tara. How can I help you?\n**Tara:** Good morning, ma'am. May I borrow a book about stars, please?\n**Librarian:** Of course. Here is one with lots of pictures.\n**Tara:** Thank you! When should I return it?\n**Librarian:** Please bring it back next Monday.\n**Tara:** I will. Sorry, ma'am, I returned my last book late.\n**Librarian:** That's all right. Thank you for telling me.\n**Tara:** Thank you, ma'am. Have a nice day!\n\nRead Dialogue P2. What is the short form \"That's\" made of?",
+    prompt: "**Librarian:** Good morning, Tara. How can I help you?\n**Tara:** Good morning, ma'am. May I borrow a book about stars, please?\n**Librarian:** Of course. Here is one with lots of pictures.\n**Tara:** Thank you! When should I return it?\n**Librarian:** Please bring it back next Monday.\n**Tara:** I will. Sorry, ma'am, I returned my last book late.\n**Librarian:** That's all right. Thank you for telling me.\n**Tara:** Thank you, ma'am. Have a nice day!\n\nRead the dialogue. What is the short form \"That's\" made of?",
     options: [
       { id: "a", text: "That has" },
       { id: "b", text: "That was" },
@@ -437,7 +437,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-b-q09",
-    prompt: "It was Bunty's birthday. In the morning, he saw a big box on the table. Inside was a red football! Bunty was very thankful. He ran to the playground with his friends. They played until sunset. On the way home, Bunty saw a little puppy sitting alone. It looked hungry and helpless. Bunty gave it some of his birthday cake. The puppy wagged its tail happily. \"This is the best birthday ever,\" said Bunty.\n\nRead Passage P3. The puppy \"looked hungry.\" What is the OPPOSITE of \"hungry\"?",
+    prompt: "It was Bunty's birthday. In the morning, he saw a big box on the table. Inside was a red football! Bunty was very thankful. He ran to the playground with his friends. They played until sunset. On the way home, Bunty saw a little puppy sitting alone. It looked hungry and helpless. Bunty gave it some of his birthday cake. The puppy wagged its tail happily. \"This is the best birthday ever,\" said Bunty.\n\nRead the passage. The puppy \"looked hungry.\" What is the OPPOSITE of \"hungry\"?",
     options: [
       { id: "a", text: "thirsty" },
       { id: "b", text: "sad" },
@@ -450,7 +450,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-b-q10",
-    prompt: "It was Bunty's birthday. In the morning, he saw a big box on the table. Inside was a red football! Bunty was very thankful. He ran to the playground with his friends. They played until sunset. On the way home, Bunty saw a little puppy sitting alone. It looked hungry and helpless. Bunty gave it some of his birthday cake. The puppy wagged its tail happily. \"This is the best birthday ever,\" said Bunty.\n\nRead Passage P3. Bunty ran to the \"playground.\" Which two words make \"playground\"?",
+    prompt: "It was Bunty's birthday. In the morning, he saw a big box on the table. Inside was a red football! Bunty was very thankful. He ran to the playground with his friends. They played until sunset. On the way home, Bunty saw a little puppy sitting alone. It looked hungry and helpless. Bunty gave it some of his birthday cake. The puppy wagged its tail happily. \"This is the best birthday ever,\" said Bunty.\n\nRead the passage. Bunty ran to the \"playground.\" Which two words make \"playground\"?",
     options: [
       { id: "a", text: "play + ground" },
       { id: "b", text: "plays + round" },
@@ -463,7 +463,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-b-q11",
-    prompt: "It was Bunty's birthday. In the morning, he saw a big box on the table. Inside was a red football! Bunty was very thankful. He ran to the playground with his friends. They played until sunset. On the way home, Bunty saw a little puppy sitting alone. It looked hungry and helpless. Bunty gave it some of his birthday cake. The puppy wagged its tail happily. \"This is the best birthday ever,\" said Bunty.\n\nRead Passage P3. \"The puppy wagged its tail happily.\" How did the puppy feel?",
+    prompt: "It was Bunty's birthday. In the morning, he saw a big box on the table. Inside was a red football! Bunty was very thankful. He ran to the playground with his friends. They played until sunset. On the way home, Bunty saw a little puppy sitting alone. It looked hungry and helpless. Bunty gave it some of his birthday cake. The puppy wagged its tail happily. \"This is the best birthday ever,\" said Bunty.\n\nRead the passage. \"The puppy wagged its tail happily.\" How did the puppy feel?",
     options: [
       { id: "a", text: "Scared" },
       { id: "b", text: "Angry" },
@@ -476,7 +476,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-b-q12",
-    prompt: "It was Bunty's birthday. In the morning, he saw a big box on the table. Inside was a red football! Bunty was very thankful. He ran to the playground with his friends. They played until sunset. On the way home, Bunty saw a little puppy sitting alone. It looked hungry and helpless. Bunty gave it some of his birthday cake. The puppy wagged its tail happily. \"This is the best birthday ever,\" said Bunty.\n\nRead Passage P3. Which word from the story has an ending that means \"full of\"?",
+    prompt: "It was Bunty's birthday. In the morning, he saw a big box on the table. Inside was a red football! Bunty was very thankful. He ran to the playground with his friends. They played until sunset. On the way home, Bunty saw a little puppy sitting alone. It looked hungry and helpless. Bunty gave it some of his birthday cake. The puppy wagged its tail happily. \"This is the best birthday ever,\" said Bunty.\n\nRead the passage. Which word from the story has an ending that means \"full of\"?",
     options: [
       { id: "a", text: "helpless" },
       { id: "b", text: "thankful" },

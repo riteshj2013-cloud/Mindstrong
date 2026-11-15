@@ -5,7 +5,7 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g5-eng-ch05-a-q01",
-    prompt: "**NOTICE**\nSunrise Public School\nDate: 3 October\n**Library Week Celebration**\nThis is to inform all students of Classes 4 and 5 that Library Week will be held from 10 to 14 October in the school library. There will be story hours, a bookmark-making corner and a book-exchange table.\nInterested students must give their names to the class monitor by 7 October. Please bring one old storybook in good condition if you wish to exchange.\n\u2014 Meera Iyer\nLibrarian\n\nRead Notice N1. What is the notice mainly about?",
+    prompt: "**NOTICE**\nSunrise Public School\nDate: 3 October\n**Library Week Celebration**\nThis is to inform all students of Classes 4 and 5 that Library Week will be held from 10 to 14 October in the school library. There will be story hours, a bookmark-making corner and a book-exchange table.\nInterested students must give their names to the class monitor by 7 October. Please bring one old storybook in good condition if you wish to exchange.\n— Meera Iyer\nLibrarian\n\nRead the notice. What is the notice mainly about?",
     options: [
       { id: "a", text: "Library Week celebration details" },
       { id: "b", text: "A football match on the ground" },
@@ -18,7 +18,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-a-q02",
-    prompt: "**NOTICE**\nSunrise Public School\nDate: 3 October\n**Library Week Celebration**\nThis is to inform all students of Classes 4 and 5 that Library Week will be held from 10 to 14 October in the school library. There will be story hours, a bookmark-making corner and a book-exchange table.\nInterested students must give their names to the class monitor by 7 October. Please bring one old storybook in good condition if you wish to exchange.\n\u2014 Meera Iyer\nLibrarian\n\nRead Notice N1. Who wrote the notice?",
+    prompt: "**NOTICE**\nSunrise Public School\nDate: 3 October\n**Library Week Celebration**\nThis is to inform all students of Classes 4 and 5 that Library Week will be held from 10 to 14 October in the school library. There will be story hours, a bookmark-making corner and a book-exchange table.\nInterested students must give their names to the class monitor by 7 October. Please bring one old storybook in good condition if you wish to exchange.\n— Meera Iyer\nLibrarian\n\nRead the notice. Who wrote the notice?",
     options: [
       { id: "a", text: "The class monitor" },
       { id: "b", text: "Meera Iyer, the Librarian" },
@@ -31,7 +31,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-a-q03",
-    prompt: "**NOTICE**\nSunrise Public School\nDate: 3 October\n**Library Week Celebration**\nThis is to inform all students of Classes 4 and 5 that Library Week will be held from 10 to 14 October in the school library. There will be story hours, a bookmark-making corner and a book-exchange table.\nInterested students must give their names to the class monitor by 7 October. Please bring one old storybook in good condition if you wish to exchange.\n\u2014 Meera Iyer\nLibrarian\n\nRead Notice N1. By which date must students give their names?",
+    prompt: "**NOTICE**\nSunrise Public School\nDate: 3 October\n**Library Week Celebration**\nThis is to inform all students of Classes 4 and 5 that Library Week will be held from 10 to 14 October in the school library. There will be story hours, a bookmark-making corner and a book-exchange table.\nInterested students must give their names to the class monitor by 7 October. Please bring one old storybook in good condition if you wish to exchange.\n— Meera Iyer\nLibrarian\n\nRead the notice. By which date must students give their names?",
     options: [
       { id: "a", text: "3 October" },
       { id: "b", text: "10 October" },
@@ -44,7 +44,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-a-q04",
-    prompt: "**NOTICE**\nSunrise Public School\nDate: 3 October\n**Library Week Celebration**\nThis is to inform all students of Classes 4 and 5 that Library Week will be held from 10 to 14 October in the school library. There will be story hours, a bookmark-making corner and a book-exchange table.\nInterested students must give their names to the class monitor by 7 October. Please bring one old storybook in good condition if you wish to exchange.\n\u2014 Meera Iyer\nLibrarian\n\nRead Notice N1. What should students bring for the book exchange?",
+    prompt: "**NOTICE**\nSunrise Public School\nDate: 3 October\n**Library Week Celebration**\nThis is to inform all students of Classes 4 and 5 that Library Week will be held from 10 to 14 October in the school library. There will be story hours, a bookmark-making corner and a book-exchange table.\nInterested students must give their names to the class monitor by 7 October. Please bring one old storybook in good condition if you wish to exchange.\n— Meera Iyer\nLibrarian\n\nRead the notice. What should students bring for the book exchange?",
     options: [
       { id: "a", text: "A cricket bat" },
       { id: "b", text: "Cash for the librarian" },
@@ -57,7 +57,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-a-q05",
-    prompt: "**NOTICE**\nSunrise Public School\nDate: 3 October\n**Library Week Celebration**\nThis is to inform all students of Classes 4 and 5 that Library Week will be held from 10 to 14 October in the school library. There will be story hours, a bookmark-making corner and a book-exchange table.\nInterested students must give their names to the class monitor by 7 October. Please bring one old storybook in good condition if you wish to exchange.\n\u2014 Meera Iyer\nLibrarian\n\nRead Notice N1. Which detail is NOT given in the notice?",
+    prompt: "**NOTICE**\nSunrise Public School\nDate: 3 October\n**Library Week Celebration**\nThis is to inform all students of Classes 4 and 5 that Library Week will be held from 10 to 14 October in the school library. There will be story hours, a bookmark-making corner and a book-exchange table.\nInterested students must give their names to the class monitor by 7 October. Please bring one old storybook in good condition if you wish to exchange.\n— Meera Iyer\nLibrarian\n\nRead the notice. Which detail is NOT given in the notice?",
     options: [
       { id: "a", text: "The price of each bookmark" },
       { id: "b", text: "The dates of Library Week" },
@@ -70,7 +70,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-a-q06",
-    prompt: "42 Lotus Lane\nPune\n5 October\nDear Anvi,\nI hope you are well. Last Saturday our class visited the city science museum. My favourite part was the planetarium \u2014 the stars felt so close! We also built a tiny paper bridge in the workshop.\nPlease write and tell me about your school picnic. Have you chosen a costume for Fancy Dress Day yet?\nGive my regards to Uncle and Aunty.\nYour friend,\nDev\n\nRead Letter P1. Where does Dev live?",
+    prompt: "42 Lotus Lane\nPune\n5 October\nDear Anvi,\nI hope you are well. Last Saturday our class visited the city science museum. My favourite part was the planetarium — the stars felt so close! We also built a tiny paper bridge in the workshop.\nPlease write and tell me about your school picnic. Have you chosen a costume for Fancy Dress Day yet?\nGive my regards to Uncle and Aunty.\nYour friend,\nDev\n\nRead the letter. Where does Dev live?",
     options: [
       { id: "a", text: "The school library" },
       { id: "b", text: "42 Lotus Lane, Pune" },
@@ -83,7 +83,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-a-q07",
-    prompt: "42 Lotus Lane\nPune\n5 October\nDear Anvi,\nI hope you are well. Last Saturday our class visited the city science museum. My favourite part was the planetarium \u2014 the stars felt so close! We also built a tiny paper bridge in the workshop.\nPlease write and tell me about your school picnic. Have you chosen a costume for Fancy Dress Day yet?\nGive my regards to Uncle and Aunty.\nYour friend,\nDev\n\nRead Letter P1. Who is the letter for?",
+    prompt: "42 Lotus Lane\nPune\n5 October\nDear Anvi,\nI hope you are well. Last Saturday our class visited the city science museum. My favourite part was the planetarium — the stars felt so close! We also built a tiny paper bridge in the workshop.\nPlease write and tell me about your school picnic. Have you chosen a costume for Fancy Dress Day yet?\nGive my regards to Uncle and Aunty.\nYour friend,\nDev\n\nRead the letter. Who is the letter for?",
     options: [
       { id: "a", text: "Ms. D'Souza" },
       { id: "b", text: "Mrs. Rao" },
@@ -96,7 +96,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-a-q08",
-    prompt: "42 Lotus Lane\nPune\n5 October\nDear Anvi,\nI hope you are well. Last Saturday our class visited the city science museum. My favourite part was the planetarium \u2014 the stars felt so close! We also built a tiny paper bridge in the workshop.\nPlease write and tell me about your school picnic. Have you chosen a costume for Fancy Dress Day yet?\nGive my regards to Uncle and Aunty.\nYour friend,\nDev\n\nRead Letter P1. What was Dev's favourite part of the museum visit?",
+    prompt: "42 Lotus Lane\nPune\n5 October\nDear Anvi,\nI hope you are well. Last Saturday our class visited the city science museum. My favourite part was the planetarium — the stars felt so close! We also built a tiny paper bridge in the workshop.\nPlease write and tell me about your school picnic. Have you chosen a costume for Fancy Dress Day yet?\nGive my regards to Uncle and Aunty.\nYour friend,\nDev\n\nRead the letter. What was Dev's favourite part of the museum visit?",
     options: [
       { id: "a", text: "The canteen menu" },
       { id: "b", text: "Fancy Dress Day" },
@@ -109,7 +109,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-a-q09",
-    prompt: "42 Lotus Lane\nPune\n5 October\nDear Anvi,\nI hope you are well. Last Saturday our class visited the city science museum. My favourite part was the planetarium \u2014 the stars felt so close! We also built a tiny paper bridge in the workshop.\nPlease write and tell me about your school picnic. Have you chosen a costume for Fancy Dress Day yet?\nGive my regards to Uncle and Aunty.\nYour friend,\nDev\n\nRead Letter P1. Which closing is correct for this friendly letter?",
+    prompt: "42 Lotus Lane\nPune\n5 October\nDear Anvi,\nI hope you are well. Last Saturday our class visited the city science museum. My favourite part was the planetarium — the stars felt so close! We also built a tiny paper bridge in the workshop.\nPlease write and tell me about your school picnic. Have you chosen a costume for Fancy Dress Day yet?\nGive my regards to Uncle and Aunty.\nYour friend,\nDev\n\nRead the letter. Which closing is correct for this friendly letter?",
     options: [
       { id: "a", text: "Your friend, Dev" },
       { id: "b", text: "Yours faithfully, Dev" },
@@ -122,7 +122,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-a-q10",
-    prompt: "42 Lotus Lane\nPune\n5 October\nDear Anvi,\nI hope you are well. Last Saturday our class visited the city science museum. My favourite part was the planetarium \u2014 the stars felt so close! We also built a tiny paper bridge in the workshop.\nPlease write and tell me about your school picnic. Have you chosen a costume for Fancy Dress Day yet?\nGive my regards to Uncle and Aunty.\nYour friend,\nDev\n\nRead Letter P1. Why does Dev ask about Fancy Dress Day?",
+    prompt: "42 Lotus Lane\nPune\n5 October\nDear Anvi,\nI hope you are well. Last Saturday our class visited the city science museum. My favourite part was the planetarium — the stars felt so close! We also built a tiny paper bridge in the workshop.\nPlease write and tell me about your school picnic. Have you chosen a costume for Fancy Dress Day yet?\nGive my regards to Uncle and Aunty.\nYour friend,\nDev\n\nRead the letter. Why does Dev ask about Fancy Dress Day?",
     options: [
       { id: "a", text: "To cancel Library Week" },
       { id: "b", text: "To keep the friendly chat going and show interest in Anvi's news" },
@@ -135,7 +135,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-a-q11",
-    prompt: "**MESSAGE**\n6 October, 5:40 p.m.\nDear Amma,\nMs. D'Souza called. Tomorrow's PTM has been shifted from 9:00 a.m. to 11:30 a.m. She asked you to bring my Maths notebook. I have gone to football practice and will be home by 7:00 p.m.\nKabir\n\nRead Message P2. Who wrote the message?",
+    prompt: "**MESSAGE**\n6 October, 5:40 p.m.\nDear Amma,\nMs. D'Souza called. Tomorrow's PTM has been shifted from 9:00 a.m. to 11:30 a.m. She asked you to bring my Maths notebook. I have gone to football practice and will be home by 7:00 p.m.\nKabir\n\nRead the message. Who wrote the message?",
     options: [
       { id: "a", text: "Amma" },
       { id: "b", text: "Ms. D'Souza" },
@@ -148,7 +148,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-a-q12",
-    prompt: "**MESSAGE**\n6 October, 5:40 p.m.\nDear Amma,\nMs. D'Souza called. Tomorrow's PTM has been shifted from 9:00 a.m. to 11:30 a.m. She asked you to bring my Maths notebook. I have gone to football practice and will be home by 7:00 p.m.\nKabir\n\nRead Message P2. What changed about the PTM?",
+    prompt: "**MESSAGE**\n6 October, 5:40 p.m.\nDear Amma,\nMs. D'Souza called. Tomorrow's PTM has been shifted from 9:00 a.m. to 11:30 a.m. She asked you to bring my Maths notebook. I have gone to football practice and will be home by 7:00 p.m.\nKabir\n\nRead the message. What changed about the PTM?",
     options: [
       { id: "a", text: "It was cancelled forever" },
       { id: "b", text: "It moved to another city" },
@@ -161,7 +161,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-a-q13",
-    prompt: "**MESSAGE**\n6 October, 5:40 p.m.\nDear Amma,\nMs. D'Souza called. Tomorrow's PTM has been shifted from 9:00 a.m. to 11:30 a.m. She asked you to bring my Maths notebook. I have gone to football practice and will be home by 7:00 p.m.\nKabir\n\nRead Message P2. What should Amma bring?",
+    prompt: "**MESSAGE**\n6 October, 5:40 p.m.\nDear Amma,\nMs. D'Souza called. Tomorrow's PTM has been shifted from 9:00 a.m. to 11:30 a.m. She asked you to bring my Maths notebook. I have gone to football practice and will be home by 7:00 p.m.\nKabir\n\nRead the message. What should Amma bring?",
     options: [
       { id: "a", text: "Kabir's Maths notebook" },
       { id: "b", text: "Two bags of dry leaves" },
@@ -174,7 +174,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-a-q14",
-    prompt: "**MESSAGE**\n6 October, 5:40 p.m.\nDear Amma,\nMs. D'Souza called. Tomorrow's PTM has been shifted from 9:00 a.m. to 11:30 a.m. She asked you to bring my Maths notebook. I have gone to football practice and will be home by 7:00 p.m.\nKabir\n\nRead Message P2. Why are messages usually short?",
+    prompt: "**MESSAGE**\n6 October, 5:40 p.m.\nDear Amma,\nMs. D'Souza called. Tomorrow's PTM has been shifted from 9:00 a.m. to 11:30 a.m. She asked you to bring my Maths notebook. I have gone to football practice and will be home by 7:00 p.m.\nKabir\n\nRead the message. Why are messages usually short?",
     options: [
       { id: "a", text: "Writers are not allowed to use full stops" },
       { id: "b", text: "They only need key facts for someone who is away" },
@@ -187,7 +187,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-a-q15",
-    prompt: "Sunday, 8 October\nDear Diary,\nToday felt long but happy. In the morning I helped Appa water the terrace plants. In the afternoon, our building held a clean-up drive. I filled two bags with dry leaves and plastic wrappers near the gate. Mrs. Rao brought lemonade for everyone.\nI was tired by evening, yet proud. Tomorrow I will finish my English paragraph before cricket. Good night!\n\u2014 Zara\n\nRead Diary P3. On which day did Zara write?",
+    prompt: "Sunday, 8 October\nDear Diary,\nToday felt long but happy. In the morning I helped Appa water the terrace plants. In the afternoon, our building held a clean-up drive. I filled two bags with dry leaves and plastic wrappers near the gate. Mrs. Rao brought lemonade for everyone.\nI was tired by evening, yet proud. Tomorrow I will finish my English paragraph before cricket. Good night!\n— Zara\n\nRead the diary. On which day did Zara write?",
     options: [
       { id: "a", text: "Monday, 3 October" },
       { id: "b", text: "Friday, 14 October" },
@@ -200,7 +200,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-a-q16",
-    prompt: "Sunday, 8 October\nDear Diary,\nToday felt long but happy. In the morning I helped Appa water the terrace plants. In the afternoon, our building held a clean-up drive. I filled two bags with dry leaves and plastic wrappers near the gate. Mrs. Rao brought lemonade for everyone.\nI was tired by evening, yet proud. Tomorrow I will finish my English paragraph before cricket. Good night!\n\u2014 Zara\n\nRead Diary P3. What did Zara do in the afternoon?",
+    prompt: "Sunday, 8 October\nDear Diary,\nToday felt long but happy. In the morning I helped Appa water the terrace plants. In the afternoon, our building held a clean-up drive. I filled two bags with dry leaves and plastic wrappers near the gate. Mrs. Rao brought lemonade for everyone.\nI was tired by evening, yet proud. Tomorrow I will finish my English paragraph before cricket. Good night!\n— Zara\n\nRead the diary. What did Zara do in the afternoon?",
     options: [
       { id: "a", text: "Visited the planetarium alone" },
       { id: "b", text: "Wrote a notice for Library Week" },
@@ -213,7 +213,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-a-q17",
-    prompt: "Sunday, 8 October\nDear Diary,\nToday felt long but happy. In the morning I helped Appa water the terrace plants. In the afternoon, our building held a clean-up drive. I filled two bags with dry leaves and plastic wrappers near the gate. Mrs. Rao brought lemonade for everyone.\nI was tired by evening, yet proud. Tomorrow I will finish my English paragraph before cricket. Good night!\n\u2014 Zara\n\nRead Diary P3. How did Zara feel by evening?",
+    prompt: "Sunday, 8 October\nDear Diary,\nToday felt long but happy. In the morning I helped Appa water the terrace plants. In the afternoon, our building held a clean-up drive. I filled two bags with dry leaves and plastic wrappers near the gate. Mrs. Rao brought lemonade for everyone.\nI was tired by evening, yet proud. Tomorrow I will finish my English paragraph before cricket. Good night!\n— Zara\n\nRead the diary. How did Zara feel by evening?",
     options: [
       { id: "a", text: "Tired yet proud" },
       { id: "b", text: "Angry at Mrs. Rao" },
@@ -226,7 +226,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-a-q18",
-    prompt: "Sunday, 8 October\nDear Diary,\nToday felt long but happy. In the morning I helped Appa water the terrace plants. In the afternoon, our building held a clean-up drive. I filled two bags with dry leaves and plastic wrappers near the gate. Mrs. Rao brought lemonade for everyone.\nI was tired by evening, yet proud. Tomorrow I will finish my English paragraph before cricket. Good night!\n\u2014 Zara\n\nRead Diary P3. A diary is mainly written for \u2014",
+    prompt: "Sunday, 8 October\nDear Diary,\nToday felt long but happy. In the morning I helped Appa water the terrace plants. In the afternoon, our building held a clean-up drive. I filled two bags with dry leaves and plastic wrappers near the gate. Mrs. Rao brought lemonade for everyone.\nI was tired by evening, yet proud. Tomorrow I will finish my English paragraph before cricket. Good night!\n— Zara\n\nRead the diary. A diary is mainly written for —",
     options: [
       { id: "a", text: "the whole school notice board" },
       { id: "b", text: "the writer's own thoughts and day" },
@@ -320,7 +320,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g5-eng-ch05-b-q01",
-    prompt: "**NOTICE**\nSunrise Public School\nDate: 3 October\n**Library Week Celebration**\nThis is to inform all students of Classes 4 and 5 that Library Week will be held from 10 to 14 October in the school library. There will be story hours, a bookmark-making corner and a book-exchange table.\nInterested students must give their names to the class monitor by 7 October. Please bring one old storybook in good condition if you wish to exchange.\n\u2014 Meera Iyer\nLibrarian\n\nRead Notice N1. Where will Library Week be held?",
+    prompt: "**NOTICE**\nSunrise Public School\nDate: 3 October\n**Library Week Celebration**\nThis is to inform all students of Classes 4 and 5 that Library Week will be held from 10 to 14 October in the school library. There will be story hours, a bookmark-making corner and a book-exchange table.\nInterested students must give their names to the class monitor by 7 October. Please bring one old storybook in good condition if you wish to exchange.\n— Meera Iyer\nLibrarian\n\nRead the notice. Where will Library Week be held?",
     options: [
       { id: "a", text: "In the school library" },
       { id: "b", text: "On the football ground only" },
@@ -333,7 +333,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-b-q02",
-    prompt: "**NOTICE**\nSunrise Public School\nDate: 3 October\n**Library Week Celebration**\nThis is to inform all students of Classes 4 and 5 that Library Week will be held from 10 to 14 October in the school library. There will be story hours, a bookmark-making corner and a book-exchange table.\nInterested students must give their names to the class monitor by 7 October. Please bring one old storybook in good condition if you wish to exchange.\n\u2014 Meera Iyer\nLibrarian\n\nRead Notice N1. Which classes are invited?",
+    prompt: "**NOTICE**\nSunrise Public School\nDate: 3 October\n**Library Week Celebration**\nThis is to inform all students of Classes 4 and 5 that Library Week will be held from 10 to 14 October in the school library. There will be story hours, a bookmark-making corner and a book-exchange table.\nInterested students must give their names to the class monitor by 7 October. Please bring one old storybook in good condition if you wish to exchange.\n— Meera Iyer\nLibrarian\n\nRead the notice. Which classes are invited?",
     options: [
       { id: "a", text: "Only Class 8" },
       { id: "b", text: "Classes 4 and 5" },
@@ -346,7 +346,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-b-q03",
-    prompt: "**NOTICE**\nSunrise Public School\nDate: 3 October\n**Library Week Celebration**\nThis is to inform all students of Classes 4 and 5 that Library Week will be held from 10 to 14 October in the school library. There will be story hours, a bookmark-making corner and a book-exchange table.\nInterested students must give their names to the class monitor by 7 October. Please bring one old storybook in good condition if you wish to exchange.\n\u2014 Meera Iyer\nLibrarian\n\nRead Notice N1. Which activity is part of Library Week?",
+    prompt: "**NOTICE**\nSunrise Public School\nDate: 3 October\n**Library Week Celebration**\nThis is to inform all students of Classes 4 and 5 that Library Week will be held from 10 to 14 October in the school library. There will be story hours, a bookmark-making corner and a book-exchange table.\nInterested students must give their names to the class monitor by 7 October. Please bring one old storybook in good condition if you wish to exchange.\n— Meera Iyer\nLibrarian\n\nRead the notice. Which activity is part of Library Week?",
     options: [
       { id: "a", text: "Night camping on the terrace" },
       { id: "b", text: "PTM at 11:30 a.m." },
@@ -359,7 +359,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-b-q04",
-    prompt: "**NOTICE**\nSunrise Public School\nDate: 3 October\n**Library Week Celebration**\nThis is to inform all students of Classes 4 and 5 that Library Week will be held from 10 to 14 October in the school library. There will be story hours, a bookmark-making corner and a book-exchange table.\nInterested students must give their names to the class monitor by 7 October. Please bring one old storybook in good condition if you wish to exchange.\n\u2014 Meera Iyer\nLibrarian\n\nRead Notice N1. Why is the date at the top important?",
+    prompt: "**NOTICE**\nSunrise Public School\nDate: 3 October\n**Library Week Celebration**\nThis is to inform all students of Classes 4 and 5 that Library Week will be held from 10 to 14 October in the school library. There will be story hours, a bookmark-making corner and a book-exchange table.\nInterested students must give their names to the class monitor by 7 October. Please bring one old storybook in good condition if you wish to exchange.\n— Meera Iyer\nLibrarian\n\nRead the notice. Why is the date at the top important?",
     options: [
       { id: "a", text: "It replaces the writer's name" },
       { id: "b", text: "It is only decoration" },
@@ -372,7 +372,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-b-q05",
-    prompt: "42 Lotus Lane\nPune\n5 October\nDear Anvi,\nI hope you are well. Last Saturday our class visited the city science museum. My favourite part was the planetarium \u2014 the stars felt so close! We also built a tiny paper bridge in the workshop.\nPlease write and tell me about your school picnic. Have you chosen a costume for Fancy Dress Day yet?\nGive my regards to Uncle and Aunty.\nYour friend,\nDev\n\nRead Letter P1. What date did Dev write the letter?",
+    prompt: "42 Lotus Lane\nPune\n5 October\nDear Anvi,\nI hope you are well. Last Saturday our class visited the city science museum. My favourite part was the planetarium — the stars felt so close! We also built a tiny paper bridge in the workshop.\nPlease write and tell me about your school picnic. Have you chosen a costume for Fancy Dress Day yet?\nGive my regards to Uncle and Aunty.\nYour friend,\nDev\n\nRead the letter. What date did Dev write the letter?",
     options: [
       { id: "a", text: "5 October" },
       { id: "b", text: "3 October" },
@@ -385,7 +385,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-b-q06",
-    prompt: "42 Lotus Lane\nPune\n5 October\nDear Anvi,\nI hope you are well. Last Saturday our class visited the city science museum. My favourite part was the planetarium \u2014 the stars felt so close! We also built a tiny paper bridge in the workshop.\nPlease write and tell me about your school picnic. Have you chosen a costume for Fancy Dress Day yet?\nGive my regards to Uncle and Aunty.\nYour friend,\nDev\n\nRead Letter P1. Which question does Dev ask Anvi?",
+    prompt: "42 Lotus Lane\nPune\n5 October\nDear Anvi,\nI hope you are well. Last Saturday our class visited the city science museum. My favourite part was the planetarium — the stars felt so close! We also built a tiny paper bridge in the workshop.\nPlease write and tell me about your school picnic. Have you chosen a costume for Fancy Dress Day yet?\nGive my regards to Uncle and Aunty.\nYour friend,\nDev\n\nRead the letter. Which question does Dev ask Anvi?",
     options: [
       { id: "a", text: "About Library Week bookmark prices" },
       { id: "b", text: "About her school picnic and Fancy Dress costume" },
@@ -398,7 +398,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-b-q07",
-    prompt: "42 Lotus Lane\nPune\n5 October\nDear Anvi,\nI hope you are well. Last Saturday our class visited the city science museum. My favourite part was the planetarium \u2014 the stars felt so close! We also built a tiny paper bridge in the workshop.\nPlease write and tell me about your school picnic. Have you chosen a costume for Fancy Dress Day yet?\nGive my regards to Uncle and Aunty.\nYour friend,\nDev\n\nRead Letter P1. \"Give my regards to Uncle and Aunty\" is an example of \u2014",
+    prompt: "42 Lotus Lane\nPune\n5 October\nDear Anvi,\nI hope you are well. Last Saturday our class visited the city science museum. My favourite part was the planetarium — the stars felt so close! We also built a tiny paper bridge in the workshop.\nPlease write and tell me about your school picnic. Have you chosen a costume for Fancy Dress Day yet?\nGive my regards to Uncle and Aunty.\nYour friend,\nDev\n\nRead the letter. \"Give my regards to Uncle and Aunty\" is an example of —",
     options: [
       { id: "a", text: "a formal notice heading" },
       { id: "b", text: "a diary date line" },
@@ -411,7 +411,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-b-q08",
-    prompt: "42 Lotus Lane\nPune\n5 October\nDear Anvi,\nI hope you are well. Last Saturday our class visited the city science museum. My favourite part was the planetarium \u2014 the stars felt so close! We also built a tiny paper bridge in the workshop.\nPlease write and tell me about your school picnic. Have you chosen a costume for Fancy Dress Day yet?\nGive my regards to Uncle and Aunty.\nYour friend,\nDev\n\nRead Letter P1. Which feature shows this is informal, not a school notice?",
+    prompt: "42 Lotus Lane\nPune\n5 October\nDear Anvi,\nI hope you are well. Last Saturday our class visited the city science museum. My favourite part was the planetarium — the stars felt so close! We also built a tiny paper bridge in the workshop.\nPlease write and tell me about your school picnic. Have you chosen a costume for Fancy Dress Day yet?\nGive my regards to Uncle and Aunty.\nYour friend,\nDev\n\nRead the letter. Which feature shows this is informal, not a school notice?",
     options: [
       { id: "a", text: "It has a librarian's designation only" },
       { id: "b", text: "It orders all Classes 4 and 5 to assemble" },
@@ -424,7 +424,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-b-q09",
-    prompt: "**MESSAGE**\n6 October, 5:40 p.m.\nDear Amma,\nMs. D'Souza called. Tomorrow's PTM has been shifted from 9:00 a.m. to 11:30 a.m. She asked you to bring my Maths notebook. I have gone to football practice and will be home by 7:00 p.m.\nKabir\n\nRead Message P2. Who is the message for?",
+    prompt: "**MESSAGE**\n6 October, 5:40 p.m.\nDear Amma,\nMs. D'Souza called. Tomorrow's PTM has been shifted from 9:00 a.m. to 11:30 a.m. She asked you to bring my Maths notebook. I have gone to football practice and will be home by 7:00 p.m.\nKabir\n\nRead the message. Who is the message for?",
     options: [
       { id: "a", text: "Amma" },
       { id: "b", text: "Ms. D'Souza" },
@@ -437,7 +437,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-b-q10",
-    prompt: "**MESSAGE**\n6 October, 5:40 p.m.\nDear Amma,\nMs. D'Souza called. Tomorrow's PTM has been shifted from 9:00 a.m. to 11:30 a.m. She asked you to bring my Maths notebook. I have gone to football practice and will be home by 7:00 p.m.\nKabir\n\nRead Message P2. When was the message written?",
+    prompt: "**MESSAGE**\n6 October, 5:40 p.m.\nDear Amma,\nMs. D'Souza called. Tomorrow's PTM has been shifted from 9:00 a.m. to 11:30 a.m. She asked you to bring my Maths notebook. I have gone to football practice and will be home by 7:00 p.m.\nKabir\n\nRead the message. When was the message written?",
     options: [
       { id: "a", text: "8 October, morning" },
       { id: "b", text: "6 October, 5:40 p.m." },
@@ -450,7 +450,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-b-q11",
-    prompt: "**MESSAGE**\n6 October, 5:40 p.m.\nDear Amma,\nMs. D'Souza called. Tomorrow's PTM has been shifted from 9:00 a.m. to 11:30 a.m. She asked you to bring my Maths notebook. I have gone to football practice and will be home by 7:00 p.m.\nKabir\n\nRead Message P2. Where has Kabir gone?",
+    prompt: "**MESSAGE**\n6 October, 5:40 p.m.\nDear Amma,\nMs. D'Souza called. Tomorrow's PTM has been shifted from 9:00 a.m. to 11:30 a.m. She asked you to bring my Maths notebook. I have gone to football practice and will be home by 7:00 p.m.\nKabir\n\nRead the message. Where has Kabir gone?",
     options: [
       { id: "a", text: "To the planetarium" },
       { id: "b", text: "To Library Week" },
@@ -463,7 +463,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-b-q12",
-    prompt: "**MESSAGE**\n6 October, 5:40 p.m.\nDear Amma,\nMs. D'Souza called. Tomorrow's PTM has been shifted from 9:00 a.m. to 11:30 a.m. She asked you to bring my Maths notebook. I have gone to football practice and will be home by 7:00 p.m.\nKabir\n\nRead Message P2. Which fact would be weakest to leave out of this message?",
+    prompt: "**MESSAGE**\n6 October, 5:40 p.m.\nDear Amma,\nMs. D'Souza called. Tomorrow's PTM has been shifted from 9:00 a.m. to 11:30 a.m. She asked you to bring my Maths notebook. I have gone to football practice and will be home by 7:00 p.m.\nKabir\n\nRead the message. Which fact would be weakest to leave out of this message?",
     options: [
       { id: "a", text: "The new PTM time" },
       { id: "b", text: "That Amma should bring the Maths notebook" },
@@ -476,7 +476,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-b-q13",
-    prompt: "Sunday, 8 October\nDear Diary,\nToday felt long but happy. In the morning I helped Appa water the terrace plants. In the afternoon, our building held a clean-up drive. I filled two bags with dry leaves and plastic wrappers near the gate. Mrs. Rao brought lemonade for everyone.\nI was tired by evening, yet proud. Tomorrow I will finish my English paragraph before cricket. Good night!\n\u2014 Zara\n\nRead Diary P3. Who brought lemonade?",
+    prompt: "Sunday, 8 October\nDear Diary,\nToday felt long but happy. In the morning I helped Appa water the terrace plants. In the afternoon, our building held a clean-up drive. I filled two bags with dry leaves and plastic wrappers near the gate. Mrs. Rao brought lemonade for everyone.\nI was tired by evening, yet proud. Tomorrow I will finish my English paragraph before cricket. Good night!\n— Zara\n\nRead the diary. Who brought lemonade?",
     options: [
       { id: "a", text: "Mrs. Rao" },
       { id: "b", text: "Appa" },
@@ -489,7 +489,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-b-q14",
-    prompt: "Sunday, 8 October\nDear Diary,\nToday felt long but happy. In the morning I helped Appa water the terrace plants. In the afternoon, our building held a clean-up drive. I filled two bags with dry leaves and plastic wrappers near the gate. Mrs. Rao brought lemonade for everyone.\nI was tired by evening, yet proud. Tomorrow I will finish my English paragraph before cricket. Good night!\n\u2014 Zara\n\nRead Diary P3. What does Zara plan for tomorrow?",
+    prompt: "Sunday, 8 October\nDear Diary,\nToday felt long but happy. In the morning I helped Appa water the terrace plants. In the afternoon, our building held a clean-up drive. I filled two bags with dry leaves and plastic wrappers near the gate. Mrs. Rao brought lemonade for everyone.\nI was tired by evening, yet proud. Tomorrow I will finish my English paragraph before cricket. Good night!\n— Zara\n\nRead the diary. What does Zara plan for tomorrow?",
     options: [
       { id: "a", text: "Issue a school notice" },
       { id: "b", text: "Finish her English paragraph before cricket" },
@@ -502,7 +502,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch05-b-q15",
-    prompt: "Sunday, 8 October\nDear Diary,\nToday felt long but happy. In the morning I helped Appa water the terrace plants. In the afternoon, our building held a clean-up drive. I filled two bags with dry leaves and plastic wrappers near the gate. Mrs. Rao brought lemonade for everyone.\nI was tired by evening, yet proud. Tomorrow I will finish my English paragraph before cricket. Good night!\n\u2014 Zara\n\nRead Diary P3. Why might someone write \"Dear Diary\"?",
+    prompt: "Sunday, 8 October\nDear Diary,\nToday felt long but happy. In the morning I helped Appa water the terrace plants. In the afternoon, our building held a clean-up drive. I filled two bags with dry leaves and plastic wrappers near the gate. Mrs. Rao brought lemonade for everyone.\nI was tired by evening, yet proud. Tomorrow I will finish my English paragraph before cricket. Good night!\n— Zara\n\nRead the diary. Why might someone write \"Dear Diary\"?",
     options: [
       { id: "a", text: "To order Classes 4 and 5 to assemble" },
       { id: "b", text: "To replace a librarian's signature" },

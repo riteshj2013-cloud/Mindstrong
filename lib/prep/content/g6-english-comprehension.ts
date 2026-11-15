@@ -5,7 +5,7 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g6-eng-comp-a-q01",
-    prompt: "Passage P1: Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nWhere do Kabir and Meera go every Sunday?",
+    prompt: "Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nWhere do Kabir and Meera go every Sunday?",
     options: [
       { id: "a", text: "The neighbourhood library" },
       { id: "b", text: "The market" },
@@ -18,7 +18,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q02",
-    prompt: "Passage P1: Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nWhat kind of reading does Kabir prefer?",
+    prompt: "Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nWhat kind of reading does Kabir prefer?",
     options: [
       { id: "a", text: "Folk tales" },
       { id: "b", text: "Science magazines" },
@@ -31,7 +31,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q03",
-    prompt: "Passage P1: Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nWho showed them the new shelf?",
+    prompt: "Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nWho showed them the new shelf?",
     options: [
       { id: "a", text: "Meera" },
       { id: "b", text: "Kabir" },
@@ -44,7 +44,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q04",
-    prompt: "Passage P1: Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nWhat was Meera’s borrowed story about?",
+    prompt: "Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nWhat was Meera’s borrowed story about?",
     options: [
       { id: "a", text: "Mangroves in storms" },
       { id: "b", text: "How to run a library" },
@@ -57,7 +57,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q05",
-    prompt: "Passage P1: Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nAccording to Kabir’s article, mangroves —",
+    prompt: "Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nAccording to Kabir’s article, mangroves —",
     options: [
       { id: "a", text: "protect the coast during storms" },
       { id: "b", text: "harm the coast" },
@@ -70,7 +70,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q06",
-    prompt: "Passage P1: Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nHow soon must they return the books?",
+    prompt: "Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nHow soon must they return the books?",
     options: [
       { id: "a", text: "In two days" },
       { id: "b", text: "In ten days" },
@@ -83,7 +83,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q07",
-    prompt: "Passage P2: On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nFrom whom does Amma buy vegetables?",
+    prompt: "On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nFrom whom does Amma buy vegetables?",
     options: [
       { id: "a", text: "Mrs Rao" },
       { id: "b", text: "Kabir" },
@@ -96,7 +96,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q08",
-    prompt: "Passage P2: On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nWhat quality of Uncle Raju is highlighted?",
+    prompt: "On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nWhat quality of Uncle Raju is highlighted?",
     options: [
       { id: "a", text: "He rushes customers" },
       { id: "b", text: "He sells only fruit" },
@@ -109,7 +109,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q09",
-    prompt: "Passage P2: On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nHow much coriander did Amma ask for?",
+    prompt: "On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nHow much coriander did Amma ask for?",
     options: [
       { id: "a", text: "A bunch" },
       { id: "b", text: "Two kilos" },
@@ -122,7 +122,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q10",
-    prompt: "Passage P2: On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nWhere was the coriander from?",
+    prompt: "On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nWhere was the coriander from?",
     options: [
       { id: "a", text: "A factory" },
       { id: "b", text: "Uncle Raju’s brother’s farm" },
@@ -135,7 +135,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q11",
-    prompt: "Passage P2: On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nHow much did Amma pay?",
+    prompt: "On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nHow much did Amma pay?",
     options: [
       { id: "a", text: "₹19" },
       { id: "b", text: "₹900" },
@@ -148,7 +148,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q12",
-    prompt: "Passage P2: On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nWhat did Amma tell her son on the walk home?",
+    prompt: "On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nWhat did Amma tell her son on the walk home?",
     options: [
       { id: "a", text: "Markets are boring" },
       { id: "b", text: "Never buy tomatoes" },
@@ -161,7 +161,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q13",
-    prompt: "Passage P3: The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nWhen did the science club meet?",
+    prompt: "The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nWhen did the science club meet?",
     options: [
       { id: "a", text: "After lunch" },
       { id: "b", text: "Before breakfast" },
@@ -174,7 +174,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q14",
-    prompt: "Passage P3: The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nWhat did Ananya say recycling paper does?",
+    prompt: "The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nWhat did Ananya say recycling paper does?",
     options: [
       { id: "a", text: "Wastes water" },
       { id: "b", text: "Saves trees" },
@@ -187,7 +187,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q15",
-    prompt: "Passage P3: The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nAccording to Rohan, sorting plastic from kitchen waste —",
+    prompt: "The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nAccording to Rohan, sorting plastic from kitchen waste —",
     options: [
       { id: "a", text: "grows mangroves" },
       { id: "b", text: "mends bat grips" },
@@ -200,7 +200,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q16",
-    prompt: "Passage P3: The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nWhat did Mr Das ask members to bring?",
+    prompt: "The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nWhat did Mr Das ask members to bring?",
     options: [
       { id: "a", text: "Lunch boxes" },
       { id: "b", text: "Mangrove plants" },
@@ -213,7 +213,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q17",
-    prompt: "Passage P3: The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nAnanya’s fair idea was a stall about —",
+    prompt: "The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nAnanya’s fair idea was a stall about —",
     options: [
       { id: "a", text: "Making seed balls" },
       { id: "b", text: "Composting only" },
@@ -226,7 +226,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q18",
-    prompt: "Passage P3: The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nHow did Mr Das respond to both ideas?",
+    prompt: "The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nHow did Mr Das respond to both ideas?",
     options: [
       { id: "a", text: "He rejected both" },
       { id: "b", text: "He said both could share one corner" },
@@ -239,7 +239,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q19",
-    prompt: "Passage P4: During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nWhy does the cricket ground become hard to use in the monsoon?",
+    prompt: "During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nWhy does the cricket ground become hard to use in the monsoon?",
     options: [
       { id: "a", text: "It becomes too dry" },
       { id: "b", text: "It is locked forever" },
@@ -252,7 +252,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q20",
-    prompt: "Passage P4: During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nWhere does the coach move practice on rainy evenings?",
+    prompt: "During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nWhere does the coach move practice on rainy evenings?",
     options: [
       { id: "a", text: "To the beach" },
       { id: "b", text: "To the library" },
@@ -265,7 +265,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q21",
-    prompt: "Passage P4: During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nWhat happened last Tuesday?",
+    prompt: "During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nWhat happened last Tuesday?",
     options: [
       { id: "a", text: "Lightning flashed and practice was cut short" },
       { id: "b", text: "They played until dusk outdoors" },
@@ -278,7 +278,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q22",
-    prompt: "Passage P4: During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nHow did Priya use the extra time?",
+    prompt: "During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nHow did Priya use the extra time?",
     options: [
       { id: "a", text: "She slept" },
       { id: "b", text: "She mended her bat grip" },
@@ -291,7 +291,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q23",
-    prompt: "Passage P4: During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nWhat lesson did Priya share with her friend?",
+    prompt: "During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nWhat lesson did Priya share with her friend?",
     options: [
       { id: "a", text: "Speed matters most" },
       { id: "b", text: "Never practise indoors" },
@@ -304,7 +304,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-a-q24",
-    prompt: "Passage P4: During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nWhat did the team do on Wednesday?",
+    prompt: "During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nWhat did the team do on Wednesday?",
     options: [
       { id: "a", text: "Stayed home" },
       { id: "b", text: "Visited the library" },
@@ -320,7 +320,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g6-eng-comp-b-q01",
-    prompt: "Passage P1: Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nMeera is Kabir’s —",
+    prompt: "Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nMeera is Kabir’s —",
     options: [
       { id: "a", text: "sister" },
       { id: "b", text: "librarian" },
@@ -333,7 +333,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q02",
-    prompt: "Passage P1: Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nThe new shelf held books by —",
+    prompt: "Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nThe new shelf held books by —",
     options: [
       { id: "a", text: "only foreign authors" },
       { id: "b", text: "Indian authors" },
@@ -346,7 +346,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q03",
-    prompt: "Passage P1: Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nWhich word best describes Mrs Rao in this passage?",
+    prompt: "Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nWhich word best describes Mrs Rao in this passage?",
     options: [
       { id: "a", text: "Unhelpful" },
       { id: "b", text: "Angry" },
@@ -359,7 +359,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q04",
-    prompt: "Passage P1: Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nKabir’s article topic is closest to —",
+    prompt: "Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nKabir’s article topic is closest to —",
     options: [
       { id: "a", text: "indoor cricket" },
       { id: "b", text: "market prices" },
@@ -372,7 +372,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q05",
-    prompt: "Passage P1: Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nThe main purpose of the visit was —",
+    prompt: "Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nThe main purpose of the visit was —",
     options: [
       { id: "a", text: "to borrow or explore books" },
       { id: "b", text: "to buy tomatoes" },
@@ -385,7 +385,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q06",
-    prompt: "Passage P1: Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nWhich detail is NOT in the passage?",
+    prompt: "Every Sunday, Kabir and his sister Meera visit the neighbourhood library. Kabir chooses science magazines, while Meera looks for folk tales. Last week, the librarian, Mrs Rao, showed them a new shelf of books written by Indian authors. Meera borrowed a story about a girl who plants trees along a dry river. Kabir found an article on how mangroves protect the coast during storms. Before leaving, they promised to return the books in ten days.\n\nWhich detail is NOT in the passage?",
     options: [
       { id: "a", text: "They visit every Sunday" },
       { id: "b", text: "Kabir bought a cricket bat" },
@@ -398,7 +398,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q07",
-    prompt: "Passage P2: On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nAmma buys from the same stall —",
+    prompt: "On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nAmma buys from the same stall —",
     options: [
       { id: "a", text: "once a year" },
       { id: "b", text: "never" },
@@ -411,7 +411,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q08",
-    prompt: "Passage P2: On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nWhat did Amma buy besides coriander?",
+    prompt: "On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nWhat did Amma buy besides coriander?",
     options: [
       { id: "a", text: "Science magazines" },
       { id: "b", text: "Seed balls" },
@@ -424,7 +424,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q09",
-    prompt: "Passage P2: On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nUncle Raju’s smile suggests he is —",
+    prompt: "On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nUncle Raju’s smile suggests he is —",
     options: [
       { id: "a", text: "friendly" },
       { id: "b", text: "rude" },
@@ -437,7 +437,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q10",
-    prompt: "Passage P2: On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nThe money amount uses which currency symbol in the passage?",
+    prompt: "On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nThe money amount uses which currency symbol in the passage?",
     options: [
       { id: "a", text: "$" },
       { id: "b", text: "₹" },
@@ -450,7 +450,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q11",
-    prompt: "Passage P2: On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nWho walked home with Amma?",
+    prompt: "On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nWho walked home with Amma?",
     options: [
       { id: "a", text: "Uncle Raju" },
       { id: "b", text: "Mrs Rao" },
@@ -463,7 +463,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q12",
-    prompt: "Passage P2: On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nThe passage’s closing message praises —",
+    prompt: "On market day, Amma buys vegetables from the same stall each week. The vendor, Uncle Raju, always weighs the tomatoes carefully and never rushes. Yesterday Amma asked for two kilos of tomatoes and a bunch of coriander. Uncle Raju smiled and said the coriander was fresh from his brother’s farm. Amma paid ₹90 and thanked him. On the walk home, she told her son that honest traders make shopping a pleasure.\n\nThe passage’s closing message praises —",
     options: [
       { id: "a", text: "rushing" },
       { id: "b", text: "ignoring vendors" },
@@ -476,7 +476,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q13",
-    prompt: "Passage P3: The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nWho explained that recycling paper saves trees?",
+    prompt: "The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nWho explained that recycling paper saves trees?",
     options: [
       { id: "a", text: "Ananya" },
       { id: "b", text: "Rohan" },
@@ -489,7 +489,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q14",
-    prompt: "Passage P3: The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nRohan’s fair idea was about —",
+    prompt: "The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nRohan’s fair idea was about —",
     options: [
       { id: "a", text: "seed balls" },
       { id: "b", text: "composting" },
@@ -502,7 +502,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q15",
-    prompt: "Passage P3: The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nMr Das is the students’ —",
+    prompt: "The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nMr Das is the students’ —",
     options: [
       { id: "a", text: "vendor" },
       { id: "b", text: "coach" },
@@ -515,7 +515,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q16",
-    prompt: "Passage P3: The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nHow did the group react when Mr Das approved sharing a corner?",
+    prompt: "The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nHow did the group react when Mr Das approved sharing a corner?",
     options: [
       { id: "a", text: "They cried" },
       { id: "b", text: "They left silently" },
@@ -528,7 +528,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q17",
-    prompt: "Passage P3: The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nThe annual fair ideas are mainly about —",
+    prompt: "The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nThe annual fair ideas are mainly about —",
     options: [
       { id: "a", text: "caring for the environment" },
       { id: "b", text: "sports scores" },
@@ -541,7 +541,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q18",
-    prompt: "Passage P3: The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nWhich statement is true?",
+    prompt: "The school science club met after lunch. Ananya explained that recycling paper saves trees, and Rohan added that sorting plastic from kitchen waste keeps drains cleaner. Their teacher, Mr Das, asked each member to bring one idea for the annual fair. Ananya suggested a stall that shows how to make seed balls. Rohan wanted a demo on composting. Everyone clapped when Mr Das said both ideas could share one corner of the hall.\n\nWhich statement is true?",
     options: [
       { id: "a", text: "Only Ananya may present" },
       { id: "b", text: "Both ideas can share one corner" },
@@ -554,7 +554,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q19",
-    prompt: "Passage P4: During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nPriya’s coach changes the venue when —",
+    prompt: "During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nPriya’s coach changes the venue when —",
     options: [
       { id: "a", text: "it is sunny" },
       { id: "b", text: "the library opens" },
@@ -567,7 +567,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q20",
-    prompt: "Passage P4: During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nWhy was Tuesday’s practice cut short?",
+    prompt: "During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nWhy was Tuesday’s practice cut short?",
     options: [
       { id: "a", text: "Priya was late" },
       { id: "b", text: "The bat was perfect" },
@@ -580,7 +580,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q21",
-    prompt: "Passage P4: During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\n“Patience is part of becoming a better player” is —",
+    prompt: "During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\n“Patience is part of becoming a better player” is —",
     options: [
       { id: "a", text: "Priya’s belief" },
       { id: "b", text: "Uncle Raju’s price list" },
@@ -593,7 +593,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q22",
-    prompt: "Passage P4: During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nOn Wednesday the team practised —",
+    prompt: "During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nOn Wednesday the team practised —",
     options: [
       { id: "a", text: "batting only for one minute" },
       { id: "b", text: "fielding until dusk" },
@@ -606,7 +606,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q23",
-    prompt: "Passage P4: During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nThe passage suggests Priya is —",
+    prompt: "During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nThe passage suggests Priya is —",
     options: [
       { id: "a", text: "giving up cricket" },
       { id: "b", text: "afraid of the sun" },
@@ -619,7 +619,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g6-eng-comp-b-q24",
-    prompt: "Passage P4: During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nWhich title best fits Passage P4?",
+    prompt: "During the monsoon, the cricket ground near Priya’s house turns muddy. Priya’s coach moves practice to the indoor hall on rainy evenings. Last Tuesday, lightning flashed and practice was cut short. Priya used the extra time to mend her bat grip. She told her friend that patience is part of becoming a better player. On Wednesday the sun returned, and the team practised fielding until dusk.\n\nWhich title best fits the passage?",
     options: [
       { id: "a", text: "Market Day Bargains" },
       { id: "b", text: "Mangroves at War" },

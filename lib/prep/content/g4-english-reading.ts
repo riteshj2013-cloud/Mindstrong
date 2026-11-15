@@ -5,7 +5,7 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g4-eng-ch01-a-q01",
-    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead Passage P1. What is the story mostly about?",
+    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead the passage. What is the story mostly about?",
     options: [
       { id: "a", text: "Chintu takes Raju's slipper, and Raju gets it back." },
       { id: "b", text: "Raju buys new slippers at the market." },
@@ -18,7 +18,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q02",
-    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead Passage P1. Where did Raju look FIRST for his slipper?",
+    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead the passage. Where did Raju look FIRST for his slipper?",
     options: [
       { id: "a", text: "Behind the door" },
       { id: "b", text: "In the shed" },
@@ -31,7 +31,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q03",
-    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead Passage P1. Who laughed and pointed outside?",
+    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead the passage. Who laughed and pointed outside?",
     options: [
       { id: "a", text: "Raju" },
       { id: "b", text: "Gauri" },
@@ -44,7 +44,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q04",
-    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead Passage P1. Chintu ran in three places. Where did he run LAST?",
+    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead the passage. Chintu ran in three places. Where did he run LAST?",
     options: [
       { id: "a", text: "Around the well" },
       { id: "b", text: "Past the hens" },
@@ -57,7 +57,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q05",
-    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead Passage P1. \"He dropped the slipper and bleated.\" What does \"bleated\" mean?",
+    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead the passage. \"He dropped the slipper and bleated.\" What does \"bleated\" mean?",
     options: [
       { id: "a", text: "Ran very fast" },
       { id: "b", text: "Ate some grass" },
@@ -70,7 +70,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q06",
-    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead Passage P1. Why will Raju keep his slippers on the shelf next time?",
+    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead the passage. Why will Raju keep his slippers on the shelf next time?",
     options: [
       { id: "a", text: "So Chintu cannot reach them and chew them" },
       { id: "b", text: "Because the shelf looks pretty" },
@@ -83,7 +83,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q07",
-    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead Passage P1. \"Raju sighed, but he could not stop smiling.\" How did Raju feel?",
+    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead the passage. \"Raju sighed, but he could not stop smiling.\" How did Raju feel?",
     options: [
       { id: "a", text: "Very angry" },
       { id: "b", text: "Scared" },
@@ -96,7 +96,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q08",
-    prompt: "Asha's mother packed upma in her tiffin every Monday. Asha liked upma, but she was tired of it. Her friend Neel always brought aloo paratha. \"Let's swap today,\" said Neel. Asha agreed happily. At lunch, she took a big bite of the paratha. It was very spicy! Her eyes watered, and she quickly drank some water. Neel was enjoying the upma. \"This is so soft and tasty,\" he said. Asha laughed. \"Maybe my mother's upma is not so bad after all.\" From then on, they shared their tiffins every Monday.\n\nRead Passage P2. What did Asha's mother pack in her tiffin every Monday?",
+    prompt: "Asha's mother packed upma in her tiffin every Monday. Asha liked upma, but she was tired of it. Her friend Neel always brought aloo paratha. \"Let's swap today,\" said Neel. Asha agreed happily. At lunch, she took a big bite of the paratha. It was very spicy! Her eyes watered, and she quickly drank some water. Neel was enjoying the upma. \"This is so soft and tasty,\" he said. Asha laughed. \"Maybe my mother's upma is not so bad after all.\" From then on, they shared their tiffins every Monday.\n\nRead the passage. What did Asha's mother pack in her tiffin every Monday?",
     options: [
       { id: "a", text: "Aloo paratha" },
       { id: "b", text: "Upma" },
@@ -109,7 +109,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q09",
-    prompt: "Asha's mother packed upma in her tiffin every Monday. Asha liked upma, but she was tired of it. Her friend Neel always brought aloo paratha. \"Let's swap today,\" said Neel. Asha agreed happily. At lunch, she took a big bite of the paratha. It was very spicy! Her eyes watered, and she quickly drank some water. Neel was enjoying the upma. \"This is so soft and tasty,\" he said. Asha laughed. \"Maybe my mother's upma is not so bad after all.\" From then on, they shared their tiffins every Monday.\n\nRead Passage P2. Why did Asha agree to swap tiffins?",
+    prompt: "Asha's mother packed upma in her tiffin every Monday. Asha liked upma, but she was tired of it. Her friend Neel always brought aloo paratha. \"Let's swap today,\" said Neel. Asha agreed happily. At lunch, she took a big bite of the paratha. It was very spicy! Her eyes watered, and she quickly drank some water. Neel was enjoying the upma. \"This is so soft and tasty,\" he said. Asha laughed. \"Maybe my mother's upma is not so bad after all.\" From then on, they shared their tiffins every Monday.\n\nRead the passage. Why did Asha agree to swap tiffins?",
     options: [
       { id: "a", text: "Neel was very hungry." },
       { id: "b", text: "She was tired of eating upma." },
@@ -122,7 +122,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q10",
-    prompt: "Asha's mother packed upma in her tiffin every Monday. Asha liked upma, but she was tired of it. Her friend Neel always brought aloo paratha. \"Let's swap today,\" said Neel. Asha agreed happily. At lunch, she took a big bite of the paratha. It was very spicy! Her eyes watered, and she quickly drank some water. Neel was enjoying the upma. \"This is so soft and tasty,\" he said. Asha laughed. \"Maybe my mother's upma is not so bad after all.\" From then on, they shared their tiffins every Monday.\n\nRead Passage P2. Why did Asha's eyes water?",
+    prompt: "Asha's mother packed upma in her tiffin every Monday. Asha liked upma, but she was tired of it. Her friend Neel always brought aloo paratha. \"Let's swap today,\" said Neel. Asha agreed happily. At lunch, she took a big bite of the paratha. It was very spicy! Her eyes watered, and she quickly drank some water. Neel was enjoying the upma. \"This is so soft and tasty,\" he said. Asha laughed. \"Maybe my mother's upma is not so bad after all.\" From then on, they shared their tiffins every Monday.\n\nRead the passage. Why did Asha's eyes water?",
     options: [
       { id: "a", text: "She was sad." },
       { id: "b", text: "Dust went into her eyes." },
@@ -135,7 +135,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q11",
-    prompt: "Asha's mother packed upma in her tiffin every Monday. Asha liked upma, but she was tired of it. Her friend Neel always brought aloo paratha. \"Let's swap today,\" said Neel. Asha agreed happily. At lunch, she took a big bite of the paratha. It was very spicy! Her eyes watered, and she quickly drank some water. Neel was enjoying the upma. \"This is so soft and tasty,\" he said. Asha laughed. \"Maybe my mother's upma is not so bad after all.\" From then on, they shared their tiffins every Monday.\n\nRead Passage P2. What does Asha learn in the story?",
+    prompt: "Asha's mother packed upma in her tiffin every Monday. Asha liked upma, but she was tired of it. Her friend Neel always brought aloo paratha. \"Let's swap today,\" said Neel. Asha agreed happily. At lunch, she took a big bite of the paratha. It was very spicy! Her eyes watered, and she quickly drank some water. Neel was enjoying the upma. \"This is so soft and tasty,\" he said. Asha laughed. \"Maybe my mother's upma is not so bad after all.\" From then on, they shared their tiffins every Monday.\n\nRead the passage. What does Asha learn in the story?",
     options: [
       { id: "a", text: "Sometimes we like our own things more after trying something new." },
       { id: "b", text: "We should never share food." },
@@ -148,7 +148,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q12",
-    prompt: "Asha's mother packed upma in her tiffin every Monday. Asha liked upma, but she was tired of it. Her friend Neel always brought aloo paratha. \"Let's swap today,\" said Neel. Asha agreed happily. At lunch, she took a big bite of the paratha. It was very spicy! Her eyes watered, and she quickly drank some water. Neel was enjoying the upma. \"This is so soft and tasty,\" he said. Asha laughed. \"Maybe my mother's upma is not so bad after all.\" From then on, they shared their tiffins every Monday.\n\nRead Passage P2. What did Neel say about the upma?",
+    prompt: "Asha's mother packed upma in her tiffin every Monday. Asha liked upma, but she was tired of it. Her friend Neel always brought aloo paratha. \"Let's swap today,\" said Neel. Asha agreed happily. At lunch, she took a big bite of the paratha. It was very spicy! Her eyes watered, and she quickly drank some water. Neel was enjoying the upma. \"This is so soft and tasty,\" he said. Asha laughed. \"Maybe my mother's upma is not so bad after all.\" From then on, they shared their tiffins every Monday.\n\nRead the passage. What did Neel say about the upma?",
     options: [
       { id: "a", text: "It was too salty." },
       { id: "b", text: "It was too hot." },
@@ -161,7 +161,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q13",
-    prompt: "On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.\n\nRead Passage P3 and look at the picture strip. Which panel shows what Diya and Grandfather did FIRST?",
+    prompt: "On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.\n\nRead the passage and look at the picture strip. Which panel shows what Diya and Grandfather did FIRST?",
     options: [
       { id: "a", text: "Panel A" },
       { id: "b", text: "Panel B" },
@@ -175,7 +175,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q14",
-    prompt: "On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.\n\nRead Passage P3. \"It danced above the rooftops.\" This means the kite \u2014",
+    prompt: "On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.\n\nRead the passage. \"It danced above the rooftops.\" This means the kite —",
     options: [
       { id: "a", text: "fell down on the roof" },
       { id: "b", text: "moved up and down freely in the wind" },
@@ -188,7 +188,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q15",
-    prompt: "On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.\n\nRead Passage P3. Why did Diya pull her string gently?",
+    prompt: "On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.\n\nRead the passage. Why did Diya pull her string gently?",
     options: [
       { id: "a", text: "To bring her kite down" },
       { id: "b", text: "To catch the other kite" },
@@ -201,7 +201,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q16",
-    prompt: "On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.\n\nRead Passage P3. When did Diya and Grandfather go downstairs?",
+    prompt: "On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.\n\nRead the passage. When did Diya and Grandfather go downstairs?",
     options: [
       { id: "a", text: "When the sun went down" },
       { id: "b", text: "At noon" },
@@ -214,7 +214,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q17",
-    prompt: "A school notice pinned on a cork notice board.\n\n**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n\u2014 Head Teacher\n\nRead Notice N1. What is the notice about?",
+    prompt: "A school notice pinned on a cork notice board.\n\n**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n— Head Teacher\n\nRead the notice. What is the notice about?",
     options: [
       { id: "a", text: "A book fair" },
       { id: "b", text: "A sports day" },
@@ -228,7 +228,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q18",
-    prompt: "A school notice pinned on a cork notice board.\n\n**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n\u2014 Head Teacher\n\nRead Notice N1. What should students bring?",
+    prompt: "A school notice pinned on a cork notice board.\n\n**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n— Head Teacher\n\nRead the notice. What should students bring?",
     options: [
       { id: "a", text: "Their lunch" },
       { id: "b", text: "A pencil box" },
@@ -242,7 +242,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q19",
-    prompt: "A school notice pinned on a cork notice board.\n\n**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n\u2014 Head Teacher\n\nRead Notice N1. Mr. Sen wants to visit the Book Fair at 2 p.m. on Friday. Will it be open?",
+    prompt: "A school notice pinned on a cork notice board.\n\n**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n— Head Teacher\n\nRead the notice. Mr. Sen wants to visit the Book Fair at 2 p.m. on Friday. Will it be open?",
     options: [
       { id: "a", text: "Yes, it is open all day." },
       { id: "b", text: "No, it ends at 1 p.m." },
@@ -329,7 +329,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g4-eng-ch01-b-q01",
-    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead Passage P1. Who is Chintu?",
+    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead the passage. Who is Chintu?",
     options: [
       { id: "a", text: "A dog" },
       { id: "b", text: "A goat" },
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q02",
-    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead Passage P1. What colour was Raju's missing slipper?",
+    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead the passage. What colour was Raju's missing slipper?",
     options: [
       { id: "a", text: "Blue" },
       { id: "b", text: "Green" },
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q03",
-    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead Passage P1. \"The slipper was wet and chewed.\" What does \"chewed\" mean?",
+    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead the passage. \"The slipper was wet and chewed.\" What does \"chewed\" mean?",
     options: [
       { id: "a", text: "Bitten again and again" },
       { id: "b", text: "Washed with soap" },
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q04",
-    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead Passage P1. What happened just BEFORE Raju ran after Chintu?",
+    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead the passage. What happened just BEFORE Raju ran after Chintu?",
     options: [
       { id: "a", text: "Chintu dropped the slipper." },
       { id: "b", text: "Raju said he would use the shelf." },
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q05",
-    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead Passage P1. Which is the best title for this story?",
+    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead the passage. Which is the best title for this story?",
     options: [
       { id: "a", text: "The Slipper Thief" },
       { id: "b", text: "Gauri's Birthday" },
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q06",
-    prompt: "Asha's mother packed upma in her tiffin every Monday. Asha liked upma, but she was tired of it. Her friend Neel always brought aloo paratha. \"Let's swap today,\" said Neel. Asha agreed happily. At lunch, she took a big bite of the paratha. It was very spicy! Her eyes watered, and she quickly drank some water. Neel was enjoying the upma. \"This is so soft and tasty,\" he said. Asha laughed. \"Maybe my mother's upma is not so bad after all.\" From then on, they shared their tiffins every Monday.\n\nRead Passage P2. How did Asha feel when Neel said, \"Let's swap today\"?",
+    prompt: "Asha's mother packed upma in her tiffin every Monday. Asha liked upma, but she was tired of it. Her friend Neel always brought aloo paratha. \"Let's swap today,\" said Neel. Asha agreed happily. At lunch, she took a big bite of the paratha. It was very spicy! Her eyes watered, and she quickly drank some water. Neel was enjoying the upma. \"This is so soft and tasty,\" he said. Asha laughed. \"Maybe my mother's upma is not so bad after all.\" From then on, they shared their tiffins every Monday.\n\nRead the passage. How did Asha feel when Neel said, \"Let's swap today\"?",
     options: [
       { id: "a", text: "Angry" },
       { id: "b", text: "Scared" },
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q07",
-    prompt: "Asha's mother packed upma in her tiffin every Monday. Asha liked upma, but she was tired of it. Her friend Neel always brought aloo paratha. \"Let's swap today,\" said Neel. Asha agreed happily. At lunch, she took a big bite of the paratha. It was very spicy! Her eyes watered, and she quickly drank some water. Neel was enjoying the upma. \"This is so soft and tasty,\" he said. Asha laughed. \"Maybe my mother's upma is not so bad after all.\" From then on, they shared their tiffins every Monday.\n\nRead Passage P2. Why did Asha quickly drink some water?",
+    prompt: "Asha's mother packed upma in her tiffin every Monday. Asha liked upma, but she was tired of it. Her friend Neel always brought aloo paratha. \"Let's swap today,\" said Neel. Asha agreed happily. At lunch, she took a big bite of the paratha. It was very spicy! Her eyes watered, and she quickly drank some water. Neel was enjoying the upma. \"This is so soft and tasty,\" he said. Asha laughed. \"Maybe my mother's upma is not so bad after all.\" From then on, they shared their tiffins every Monday.\n\nRead the passage. Why did Asha quickly drink some water?",
     options: [
       { id: "a", text: "She was thirsty after playing." },
       { id: "b", text: "The paratha was too spicy for her." },
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q08",
-    prompt: "Asha's mother packed upma in her tiffin every Monday. Asha liked upma, but she was tired of it. Her friend Neel always brought aloo paratha. \"Let's swap today,\" said Neel. Asha agreed happily. At lunch, she took a big bite of the paratha. It was very spicy! Her eyes watered, and she quickly drank some water. Neel was enjoying the upma. \"This is so soft and tasty,\" he said. Asha laughed. \"Maybe my mother's upma is not so bad after all.\" From then on, they shared their tiffins every Monday.\n\nRead Passage P2. Asha says, \"Maybe my mother's upma is not so bad after all.\" What does this show?",
+    prompt: "Asha's mother packed upma in her tiffin every Monday. Asha liked upma, but she was tired of it. Her friend Neel always brought aloo paratha. \"Let's swap today,\" said Neel. Asha agreed happily. At lunch, she took a big bite of the paratha. It was very spicy! Her eyes watered, and she quickly drank some water. Neel was enjoying the upma. \"This is so soft and tasty,\" he said. Asha laughed. \"Maybe my mother's upma is not so bad after all.\" From then on, they shared their tiffins every Monday.\n\nRead the passage. Asha says, \"Maybe my mother's upma is not so bad after all.\" What does this show?",
     options: [
       { id: "a", text: "She hates upma now." },
       { id: "b", text: "She wants to eat only paratha." },
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q09",
-    prompt: "Asha's mother packed upma in her tiffin every Monday. Asha liked upma, but she was tired of it. Her friend Neel always brought aloo paratha. \"Let's swap today,\" said Neel. Asha agreed happily. At lunch, she took a big bite of the paratha. It was very spicy! Her eyes watered, and she quickly drank some water. Neel was enjoying the upma. \"This is so soft and tasty,\" he said. Asha laughed. \"Maybe my mother's upma is not so bad after all.\" From then on, they shared their tiffins every Monday.\n\nRead Passage P2. What happened at the END of the story?",
+    prompt: "Asha's mother packed upma in her tiffin every Monday. Asha liked upma, but she was tired of it. Her friend Neel always brought aloo paratha. \"Let's swap today,\" said Neel. Asha agreed happily. At lunch, she took a big bite of the paratha. It was very spicy! Her eyes watered, and she quickly drank some water. Neel was enjoying the upma. \"This is so soft and tasty,\" he said. Asha laughed. \"Maybe my mother's upma is not so bad after all.\" From then on, they shared their tiffins every Monday.\n\nRead the passage. What happened at the END of the story?",
     options: [
       { id: "a", text: "Asha and Neel stopped being friends." },
       { id: "b", text: "They never swapped again." },
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q10",
-    prompt: "On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.\n\nRead Passage P3. On which festival did Diya fly her kite?",
+    prompt: "On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.\n\nRead the passage. On which festival did Diya fly her kite?",
     options: [
       { id: "a", text: "Makar Sankranti" },
       { id: "b", text: "Diwali" },
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q11",
-    prompt: "On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.\n\nRead Passage P3. Who held the reel?",
+    prompt: "On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.\n\nRead the passage. Who held the reel?",
     options: [
       { id: "a", text: "Grandfather" },
       { id: "b", text: "Diya's mother" },
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q12",
-    prompt: "On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.\n\nRead Passage P3 and look at the picture strip. Which panel shows what happened right AFTER the strong breeze came?",
+    prompt: "On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.\n\nRead the passage and look at the picture strip. Which panel shows what happened right AFTER the strong breeze came?",
     options: [
       { id: "a", text: "Panel A" },
       { id: "b", text: "Panel B" },
@@ -486,7 +486,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q13",
-    prompt: "On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.\n\nRead Passage P3. Diya and Grandfather were \"tired but happy.\" Why were they tired?",
+    prompt: "On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.\n\nRead the passage. Diya and Grandfather were \"tired but happy.\" Why were they tired?",
     options: [
       { id: "a", text: "They had flown kites from morning till sunset." },
       { id: "b", text: "They were both ill." },
@@ -499,7 +499,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q14",
-    prompt: "On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.\n\nRead Passage P3. \"They wound up the string.\" What does \"wound up\" mean here?",
+    prompt: "On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.\n\nRead the passage. \"They wound up the string.\" What does \"wound up\" mean here?",
     options: [
       { id: "a", text: "Cut it into pieces" },
       { id: "b", text: "Threw it away" },
@@ -512,7 +512,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q15",
-    prompt: "A school notice pinned on a cork notice board.\n\n**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n\u2014 Head Teacher\n\nRead Notice N1. Who wrote the notice?",
+    prompt: "A school notice pinned on a cork notice board.\n\n**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n— Head Teacher\n\nRead the notice. Who wrote the notice?",
     options: [
       { id: "a", text: "The parents" },
       { id: "b", text: "The students" },
@@ -526,7 +526,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q16",
-    prompt: "A school notice pinned on a cork notice board.\n\n**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n\u2014 Head Teacher\n\nRead Notice N1. Where will the Book Fair be held?",
+    prompt: "A school notice pinned on a cork notice board.\n\n**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n— Head Teacher\n\nRead the notice. Where will the Book Fair be held?",
     options: [
       { id: "a", text: "In the playground" },
       { id: "b", text: "In the school hall" },
@@ -540,7 +540,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q17",
-    prompt: "A school notice pinned on a cork notice board.\n\n**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n\u2014 Head Teacher\n\nRead Notice N1. Which of these is NOT mentioned as something students can buy?",
+    prompt: "A school notice pinned on a cork notice board.\n\n**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n— Head Teacher\n\nRead the notice. Which of these is NOT mentioned as something students can buy?",
     options: [
       { id: "a", text: "Story books" },
       { id: "b", text: "Comics" },
@@ -610,7 +610,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q22",
-    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead Passage P1. Why did Gauri laugh?",
+    prompt: "Chintu the goat lived on Raju's farm. One morning, Raju's red slipper was missing. He looked under the bed. He looked behind the door. It was not there. Then his little sister Gauri laughed and pointed outside. Chintu was standing near the haystack. Something red was hanging from his mouth! Raju ran after him. Chintu ran around the well, past the hens and into the shed. At last, he dropped the slipper and bleated. The slipper was wet and chewed. Raju sighed, but he could not stop smiling. \"Next time, I will keep my slippers on the shelf,\" he said.\n\nRead the passage. Why did Gauri laugh?",
     options: [
       { id: "a", text: "She remembered a joke." },
       { id: "b", text: "Raju fell down." },
@@ -637,7 +637,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q24",
-    prompt: "On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.\n\nRead Passage P3. What can we tell about Diya and her grandfather?",
+    prompt: "On Makar Sankranti, Diya and her grandfather went up to the terrace. First, they tied the string to the kite. Next, Grandfather held the kite high while Diya held the reel. Then a strong breeze came, and the kite rose into the blue sky. It danced above the rooftops with many other kites. Suddenly, another kite came close. Diya pulled her string gently, and her kite moved away safely. When the sun went down, they wound up the string and went downstairs, tired but happy.\n\nRead the passage. What can we tell about Diya and her grandfather?",
     options: [
       { id: "a", text: "They enjoy spending time together." },
       { id: "b", text: "They do not like kites." },

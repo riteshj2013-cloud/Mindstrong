@@ -5,7 +5,7 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
 {
     id: "g4-eng-ch05-a-q01",
-    prompt: "**GREEN VALLEY SCHOOL, PUNE**\n**NOTICE**\n10 October 2026\n\n**BOOK FAIR**\n\nStudents of Classes 3 to 5 are informed that a Book Fair will be held in the school hall on 18 October 2026 from 9:00 a.m. to 1:00 p.m. Please bring a cloth bag. Parents are welcome after 11:00 a.m.\n\nAnanya Deshmukh\nTeacher In-charge, Library Club\n\nRead Notice N1. What is the notice mainly about?",
+    prompt: "**GREEN VALLEY SCHOOL, PUNE**\n**NOTICE**\n10 October 2026\n\n**BOOK FAIR**\n\nStudents of Classes 3 to 5 are informed that a Book Fair will be held in the school hall on 18 October 2026 from 9:00 a.m. to 1:00 p.m. Please bring a cloth bag. Parents are welcome after 11:00 a.m.\n\nAnanya Deshmukh\nTeacher In-charge, Library Club\n\nRead the notice. What is the notice mainly about?",
     options: [
       { id: "a", text: "A Book Fair at school" },
       { id: "b", text: "A cricket match" },
@@ -18,7 +18,7 @@ const SET_A: PrepQuestion[] = [
   },
 {
     id: "g4-eng-ch05-a-q02",
-    prompt: "**GREEN VALLEY SCHOOL, PUNE**\n**NOTICE**\n10 October 2026\n\n**BOOK FAIR**\n\nStudents of Classes 3 to 5 are informed that a Book Fair will be held in the school hall on 18 October 2026 from 9:00 a.m. to 1:00 p.m. Please bring a cloth bag. Parents are welcome after 11:00 a.m.\n\nAnanya Deshmukh\nTeacher In-charge, Library Club\n\nRead Notice N1. Who issued the notice?",
+    prompt: "**GREEN VALLEY SCHOOL, PUNE**\n**NOTICE**\n10 October 2026\n\n**BOOK FAIR**\n\nStudents of Classes 3 to 5 are informed that a Book Fair will be held in the school hall on 18 October 2026 from 9:00 a.m. to 1:00 p.m. Please bring a cloth bag. Parents are welcome after 11:00 a.m.\n\nAnanya Deshmukh\nTeacher In-charge, Library Club\n\nRead the notice. Who issued the notice?",
     options: [
       { id: "a", text: "The Head Boy" },
       { id: "b", text: "Ananya Deshmukh, Teacher In-charge, Library Club" },
@@ -31,7 +31,7 @@ const SET_A: PrepQuestion[] = [
   },
 {
     id: "g4-eng-ch05-a-q03",
-    prompt: "**GREEN VALLEY SCHOOL, PUNE**\n**NOTICE**\n10 October 2026\n\n**BOOK FAIR**\n\nStudents of Classes 3 to 5 are informed that a Book Fair will be held in the school hall on 18 October 2026 from 9:00 a.m. to 1:00 p.m. Please bring a cloth bag. Parents are welcome after 11:00 a.m.\n\nAnanya Deshmukh\nTeacher In-charge, Library Club\n\nRead Notice N1. When is the Book Fair?",
+    prompt: "**GREEN VALLEY SCHOOL, PUNE**\n**NOTICE**\n10 October 2026\n\n**BOOK FAIR**\n\nStudents of Classes 3 to 5 are informed that a Book Fair will be held in the school hall on 18 October 2026 from 9:00 a.m. to 1:00 p.m. Please bring a cloth bag. Parents are welcome after 11:00 a.m.\n\nAnanya Deshmukh\nTeacher In-charge, Library Club\n\nRead the notice. When is the Book Fair?",
     options: [
       { id: "a", text: "10 October 2026" },
       { id: "b", text: "11 October 2026" },
@@ -44,7 +44,7 @@ const SET_A: PrepQuestion[] = [
   },
 {
     id: "g4-eng-ch05-a-q04",
-    prompt: "**GREEN VALLEY SCHOOL, PUNE**\n**NOTICE**\n10 October 2026\n\n**BOOK FAIR**\n\nStudents of Classes 3 to 5 are informed that a Book Fair will be held in the school hall on 18 October 2026 from 9:00 a.m. to 1:00 p.m. Please bring a cloth bag. Parents are welcome after 11:00 a.m.\n\nAnanya Deshmukh\nTeacher In-charge, Library Club\n\nRead Notice N1. Which detail is important for students to act on?",
+    prompt: "**GREEN VALLEY SCHOOL, PUNE**\n**NOTICE**\n10 October 2026\n\n**BOOK FAIR**\n\nStudents of Classes 3 to 5 are informed that a Book Fair will be held in the school hall on 18 October 2026 from 9:00 a.m. to 1:00 p.m. Please bring a cloth bag. Parents are welcome after 11:00 a.m.\n\nAnanya Deshmukh\nTeacher In-charge, Library Club\n\nRead the notice. Which detail is important for students to act on?",
     options: [
       { id: "a", text: "Paint the hall walls." },
       { id: "b", text: "Cancel classes forever." },
@@ -320,7 +320,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
 {
     id: "g4-eng-ch05-b-q01",
-    prompt: "**SUNRISE PUBLIC SCHOOL, JAIPUR**\n**NOTICE**\n5 November 2026\n\n**SPORTS DAY PRACTICE**\n\nAll students of Class 4 must attend Sports Day practice on the playground every Tuesday and Thursday at 7:30 a.m. until 20 November. Wear PT shoes. Those who are unwell should bring a note from home.\n\nRohit Sharma\nSports Teacher\n\nRead Notice N2. What must Class 4 students attend?",
+    prompt: "**SUNRISE PUBLIC SCHOOL, JAIPUR**\n**NOTICE**\n5 November 2026\n\n**SPORTS DAY PRACTICE**\n\nAll students of Class 4 must attend Sports Day practice on the playground every Tuesday and Thursday at 7:30 a.m. until 20 November. Wear PT shoes. Those who are unwell should bring a note from home.\n\nRohit Sharma\nSports Teacher\n\nRead the notice. What must Class 4 students attend?",
     options: [
       { id: "a", text: "Sports Day practice on the playground" },
       { id: "b", text: "A music concert only" },
@@ -333,7 +333,7 @@ const SET_B: PrepQuestion[] = [
   },
 {
     id: "g4-eng-ch05-b-q02",
-    prompt: "**SUNRISE PUBLIC SCHOOL, JAIPUR**\n**NOTICE**\n5 November 2026\n\n**SPORTS DAY PRACTICE**\n\nAll students of Class 4 must attend Sports Day practice on the playground every Tuesday and Thursday at 7:30 a.m. until 20 November. Wear PT shoes. Those who are unwell should bring a note from home.\n\nRohit Sharma\nSports Teacher\n\nRead Notice N2. On which days is practice held?",
+    prompt: "**SUNRISE PUBLIC SCHOOL, JAIPUR**\n**NOTICE**\n5 November 2026\n\n**SPORTS DAY PRACTICE**\n\nAll students of Class 4 must attend Sports Day practice on the playground every Tuesday and Thursday at 7:30 a.m. until 20 November. Wear PT shoes. Those who are unwell should bring a note from home.\n\nRohit Sharma\nSports Teacher\n\nRead the notice. On which days is practice held?",
     options: [
       { id: "a", text: "Only Sunday" },
       { id: "b", text: "Tuesday and Thursday" },
@@ -346,7 +346,7 @@ const SET_B: PrepQuestion[] = [
   },
 {
     id: "g4-eng-ch05-b-q03",
-    prompt: "**SUNRISE PUBLIC SCHOOL, JAIPUR**\n**NOTICE**\n5 November 2026\n\n**SPORTS DAY PRACTICE**\n\nAll students of Class 4 must attend Sports Day practice on the playground every Tuesday and Thursday at 7:30 a.m. until 20 November. Wear PT shoes. Those who are unwell should bring a note from home.\n\nRohit Sharma\nSports Teacher\n\nRead Notice N2. What should students wear?",
+    prompt: "**SUNRISE PUBLIC SCHOOL, JAIPUR**\n**NOTICE**\n5 November 2026\n\n**SPORTS DAY PRACTICE**\n\nAll students of Class 4 must attend Sports Day practice on the playground every Tuesday and Thursday at 7:30 a.m. until 20 November. Wear PT shoes. Those who are unwell should bring a note from home.\n\nRohit Sharma\nSports Teacher\n\nRead the notice. What should students wear?",
     options: [
       { id: "a", text: "Party crowns" },
       { id: "b", text: "Raincoats only" },
@@ -359,7 +359,7 @@ const SET_B: PrepQuestion[] = [
   },
 {
     id: "g4-eng-ch05-b-q04",
-    prompt: "**SUNRISE PUBLIC SCHOOL, JAIPUR**\n**NOTICE**\n5 November 2026\n\n**SPORTS DAY PRACTICE**\n\nAll students of Class 4 must attend Sports Day practice on the playground every Tuesday and Thursday at 7:30 a.m. until 20 November. Wear PT shoes. Those who are unwell should bring a note from home.\n\nRohit Sharma\nSports Teacher\n\nRead Notice N2. If Rina is unwell, what should she do?",
+    prompt: "**SUNRISE PUBLIC SCHOOL, JAIPUR**\n**NOTICE**\n5 November 2026\n\n**SPORTS DAY PRACTICE**\n\nAll students of Class 4 must attend Sports Day practice on the playground every Tuesday and Thursday at 7:30 a.m. until 20 November. Wear PT shoes. Those who are unwell should bring a note from home.\n\nRohit Sharma\nSports Teacher\n\nRead the notice. If Rina is unwell, what should she do?",
     options: [
       { id: "a", text: "Hide and skip forever with no word" },
       { id: "b", text: "Write a poem about rain" },
@@ -372,7 +372,7 @@ const SET_B: PrepQuestion[] = [
   },
 {
     id: "g4-eng-ch05-b-q05",
-    prompt: "**SUNRISE PUBLIC SCHOOL, JAIPUR**\n**NOTICE**\n5 November 2026\n\n**SPORTS DAY PRACTICE**\n\nAll students of Class 4 must attend Sports Day practice on the playground every Tuesday and Thursday at 7:30 a.m. until 20 November. Wear PT shoes. Those who are unwell should bring a note from home.\n\nRohit Sharma\nSports Teacher\n\nWho signed Notice N2?",
+    prompt: "**SUNRISE PUBLIC SCHOOL, JAIPUR**\n**NOTICE**\n5 November 2026\n\n**SPORTS DAY PRACTICE**\n\nAll students of Class 4 must attend Sports Day practice on the playground every Tuesday and Thursday at 7:30 a.m. until 20 November. Wear PT shoes. Those who are unwell should bring a note from home.\n\nRohit Sharma\nSports Teacher\n\nWho signed the notice?",
     options: [
       { id: "a", text: "Rohit Sharma, Sports Teacher" },
       { id: "b", text: "The Class Monitor only" },

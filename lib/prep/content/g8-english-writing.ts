@@ -5,7 +5,7 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g8-eng-ch05-a-q01",
-    prompt: "**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1\u20132 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nRead Notice N1. Who has issued the notice?",
+    prompt: "**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1–2 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nRead the notice. Who has issued the notice?",
     options: [
       { id: "a", text: "Kabir Sen, Cultural Secretary" },
       { id: "b", text: "The Principal alone, with no name shown" },
@@ -18,7 +18,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-a-q02",
-    prompt: "**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1\u20132 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nRead Notice N1. What is the last date to submit names?",
+    prompt: "**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1–2 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nRead the notice. What is the last date to submit names?",
     options: [
       { id: "a", text: "5 November" },
       { id: "b", text: "12 November" },
@@ -31,7 +31,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-a-q03",
-    prompt: "**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1\u20132 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nRead Notice N1. Which detail is essential for a student who wants to take part?",
+    prompt: "**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1–2 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nRead the notice. Which detail is essential for a student who wants to take part?",
     options: [
       { id: "a", text: "The school's founding year" },
       { id: "b", text: "The colour of the Activity Hall curtains" },
@@ -44,7 +44,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-a-q04",
-    prompt: "**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1\u20132 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nRead Notice N1. Which sentence could be cut without removing an essential instruction?",
+    prompt: "**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1–2 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nRead the notice. Which sentence could be cut without removing an essential instruction?",
     options: [
       { id: "a", text: "\"Auditions\u2026 will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m.\"" },
       { id: "b", text: "\"Interested students must submit their names to their House Captains by 12 November.\"" },
@@ -109,7 +109,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-a-q09",
-    prompt: "14 Lake Road\nIndore \u2013 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead Formal letter P1. Where does the sender's address appear?",
+    prompt: "14 Lake Road\nIndore – 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead the formal letter. Where does the sender's address appear?",
     options: [
       { id: "a", text: "At the top, before the date" },
       { id: "b", text: "In the subject line" },
@@ -122,7 +122,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-a-q10",
-    prompt: "14 Lake Road\nIndore \u2013 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead Formal letter P1. Why is \"Yours faithfully\" the correct closing?",
+    prompt: "14 Lake Road\nIndore – 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead the formal letter. Why is \"Yours faithfully\" the correct closing?",
     options: [
       { id: "a", text: "The letter is informal" },
       { id: "b", text: "The reader is addressed as Sir/Madam, not by name" },
@@ -135,7 +135,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-a-q11",
-    prompt: "14 Lake Road\nIndore \u2013 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead Formal letter P1. What is the writer's main purpose?",
+    prompt: "14 Lake Road\nIndore – 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead the formal letter. What is the writer's main purpose?",
     options: [
       { id: "a", text: "To resign from school" },
       { id: "b", text: "To complain about canteen food" },
@@ -148,7 +148,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-a-q12",
-    prompt: "14 Lake Road\nIndore \u2013 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead Formal letter P1. Which element is correctly placed for a formal letter to an editor?",
+    prompt: "14 Lake Road\nIndore – 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead the formal letter. Which element is correctly placed for a formal letter to an editor?",
     options: [
       { id: "a", text: "Subject line after \"Yours faithfully\"" },
       { id: "b", text: "No subject line at all" },
@@ -161,7 +161,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-a-q13",
-    prompt: "**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead Article P2. What is the heading?",
+    prompt: "**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead the article. What is the heading?",
     options: [
       { id: "a", text: "When the Playground Went Quiet" },
       { id: "b", text: "Student Council Minutes" },
@@ -174,7 +174,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-a-q14",
-    prompt: "**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead Article P2. The line \"By Meera Joseph, Class 8\" is called the \u2014",
+    prompt: "**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead the article. The line \"By Meera Joseph, Class 8\" is called the —",
     options: [
       { id: "a", text: "salutation" },
       { id: "b", text: "byline" },
@@ -187,7 +187,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-a-q15",
-    prompt: "**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead Article P2. What problem does the writer describe?",
+    prompt: "**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead the article. What problem does the writer describe?",
     options: [
       { id: "a", text: "Corridors were widened too much" },
       { id: "b", text: "The canteen closed forever" },
@@ -200,7 +200,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-a-q16",
-    prompt: "**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead Article P2. What solution does the Student Council propose?",
+    prompt: "**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead the article. What solution does the Student Council propose?",
     options: [
       { id: "a", text: "Longer exams" },
       { id: "b", text: "Closing the canteen" },
@@ -213,7 +213,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-a-q17",
-    prompt: "**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead Article P2. Which sentence best states the writer's viewpoint?",
+    prompt: "**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead the article. Which sentence best states the writer's viewpoint?",
     options: [
       { id: "a", text: "\"Progress need not silence play.\"" },
       { id: "b", text: "\"In three days the pitch became a trench\u2026\"" },
@@ -252,7 +252,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-a-q20",
-    prompt: "14 Lake Road\nIndore \u2013 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead Formal letter P1. Who is the intended primary reader?",
+    prompt: "14 Lake Road\nIndore – 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead the formal letter. Who is the intended primary reader?",
     options: [
       { id: "a", text: "The canteen staff" },
       { id: "b", text: "A pen friend abroad" },
@@ -320,7 +320,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g8-eng-ch05-b-q01",
-    prompt: "**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1\u20132 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nRead Notice N1. Where will the auditions be held?",
+    prompt: "**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1–2 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nRead the notice. Where will the auditions be held?",
     options: [
       { id: "a", text: "The Activity Hall" },
       { id: "b", text: "The cricket pitch" },
@@ -333,7 +333,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-b-q02",
-    prompt: "**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1\u20132 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nRead Notice N1. How many participants may each House send?",
+    prompt: "**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1–2 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nRead the notice. How many participants may each House send?",
     options: [
       { id: "a", text: "Two" },
       { id: "b", text: "Up to eight" },
@@ -346,7 +346,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-b-q03",
-    prompt: "**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1\u20132 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nRead Notice N1. What should interested students bring?",
+    prompt: "**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1–2 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nRead the notice. What should interested students bring?",
     options: [
       { id: "a", text: "Expensive stage lights" },
       { id: "b", text: "Nothing" },
@@ -359,7 +359,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-b-q04",
-    prompt: "**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1\u20132 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nRead Notice N1. The phrase \"are hereby informed\" mainly creates \u2014",
+    prompt: "**PEAKVIEW PUBLIC SCHOOL, PUNE**\n**NOTICE**\n5 November 2026\n**AUDITIONS: INTER-HOUSE STREET PLAY**\nStudents of Classes 7 to 9 are hereby informed that auditions for the Inter-House Street Play will be held on 18 November 2026 in the Activity Hall from 3:00 p.m. to 5:00 p.m. Each House may send up to eight participants. Interested students must submit their names to their House Captains by 12 November. Please bring a short prepared piece (1–2 minutes). Props, if any, should be simple and safe.\nKabir Sen\nCultural Secretary\n\nRead the notice. The phrase \"are hereby informed\" mainly creates —",
     options: [
       { id: "a", text: "a joking tone" },
       { id: "b", text: "a poetic rhythm" },
@@ -411,7 +411,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-b-q08",
-    prompt: "14 Lake Road\nIndore \u2013 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead Formal letter P1. What is the subject of the letter?",
+    prompt: "14 Lake Road\nIndore – 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead the formal letter. What is the subject of the letter?",
     options: [
       { id: "a", text: "Library book fines" },
       { id: "b", text: "Street play auditions" },
@@ -424,7 +424,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-b-q09",
-    prompt: "14 Lake Road\nIndore \u2013 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead Formal letter P1. Which action does Aarav request from the newspaper?",
+    prompt: "14 Lake Road\nIndore – 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead the formal letter. Which action does Aarav request from the newspaper?",
     options: [
       { id: "a", text: "Publish a report and urge authorities to improve safety" },
       { id: "b", text: "Give him a free subscription only" },
@@ -437,7 +437,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-b-q10",
-    prompt: "14 Lake Road\nIndore \u2013 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead Formal letter P1. Which detail makes the complaint more persuasive?",
+    prompt: "14 Lake Road\nIndore – 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead the formal letter. Which detail makes the complaint more persuasive?",
     options: [
       { id: "a", text: "Vague anger without examples" },
       { id: "b", text: "A specific recent incident of students leaping back from a scooter" },
@@ -463,7 +463,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-b-q12",
-    prompt: "**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead Article P2. Where did students used to play cricket?",
+    prompt: "**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead the article. Where did students used to play cricket?",
     options: [
       { id: "a", text: "On the roof" },
       { id: "b", text: "In the library" },
@@ -476,7 +476,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-b-q13",
-    prompt: "**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead Article P2. Why do teachers spend minutes at break asking students to keep the way clear?",
+    prompt: "**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead the article. Why do teachers spend minutes at break asking students to keep the way clear?",
     options: [
       { id: "a", text: "Students now crowd the corridors because the play space is gone" },
       { id: "b", text: "The lawn is too large" },
@@ -502,7 +502,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-b-q15",
-    prompt: "**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead Article P2. \"Progress need not silence play\" is best described as \u2014",
+    prompt: "**When the Playground Went Quiet**\nBy Meera Joseph, Class 8\nFor years, the scrap of ground behind our canteen rang with cricket scores and laughter. Then the diggers came. In three days the pitch became a trench, and the trench became the skeleton of a new block.\nNobody argues that classrooms matter. What students miss is a place to breathe between bells. During break we now crowd the corridors, and teachers spend precious minutes asking us to keep the way clear.\nThe Student Council has proposed a simple fix: mark a temporary games zone on the front lawn until the block opens, with soft balls only. Small compromises keep school life human while buildings rise. Progress need not silence play.\n\nRead the article. \"Progress need not silence play\" is best described as —",
     options: [
       { id: "a", text: "a complimentary close like \"Yours sincerely\"" },
       { id: "b", text: "a receiver's address" },
@@ -541,7 +541,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-b-q18",
-    prompt: "14 Lake Road\nIndore \u2013 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nWhich opening is most suitable for Formal letter P1's purpose?",
+    prompt: "14 Lake Road\nIndore – 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nWhich opening is most suitable for the formal letter's purpose?",
     options: [
       { id: "a", text: "\"Yo, listen up!\"" },
       { id: "b", text: "\"I wish to draw your attention to…\"" },
@@ -606,7 +606,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch05-b-q23",
-    prompt: "14 Lake Road\nIndore \u2013 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead Formal letter P1. After the body, the correct sequence is \u2014",
+    prompt: "14 Lake Road\nIndore – 452001\n10 November 2026\nThe Editor\nThe City Herald\nIndore\nSubject: Concern over unsafe crossing near Green Park School\nDear Sir/Madam,\nI wish to draw your attention to the zebra crossing outside Green Park School, which has faded badly and is ignored by many drivers during morning drop-off. Last week two students had to leap back onto the pavement when a scooter did not slow down.\nI request you to publish a report on this hazard and urge the traffic authorities to repaint the crossing and place a temporary marshal during school hours. Prompt action could prevent a serious accident.\nYours faithfully,\nAarav Malhotra\nResident, Lake Road\n\nRead the formal letter. After the body, the correct sequence is —",
     options: [
       { id: "a", text: "Signature, then \"Yours faithfully,\" then subject" },
       { id: "b", text: "Subject line repeated twice" },

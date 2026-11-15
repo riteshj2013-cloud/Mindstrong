@@ -291,7 +291,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-eng-ch01-a-q23",
-    prompt: "The monsoon arrived not as rain at first but as a rumour: a bruise-coloured cloud leaning on the western hills, a sudden coolness in the school verandah, the smell of wet dust rising before a single drop fell. Meera stood with her class under the corrugated roof and watched the playground darken. \"It will pass,\" someone said. It did not pass. When the sky finally opened, it opened all at once, as if a seam had been ripped. Within minutes the cricket pitch was a shallow lake, and the peepal tree shook as though laughing. Meera thought of her grandmother's saying \u2014 that rain has a memory older than towns \u2014 and for once the proverb did not feel like decoration. It felt like a fact standing in the mud beside her.\n\nWhich theme fits Passage P1 best?",
+    prompt: "The monsoon arrived not as rain at first but as a rumour: a bruise-coloured cloud leaning on the western hills, a sudden coolness in the school verandah, the smell of wet dust rising before a single drop fell. Meera stood with her class under the corrugated roof and watched the playground darken. \"It will pass,\" someone said. It did not pass. When the sky finally opened, it opened all at once, as if a seam had been ripped. Within minutes the cricket pitch was a shallow lake, and the peepal tree shook as though laughing. Meera thought of her grandmother's saying — that rain has a memory older than towns — and for once the proverb did not feel like decoration. It felt like a fact standing in the mud beside her.\n\nWhich theme fits the passage best?",
     options: [
       { id: "a", text: "Clouds fear verandahs" },
       { id: "b", text: "Towns invent rain" },
@@ -304,7 +304,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-eng-ch01-a-q24",
-    prompt: "In the old library, dust floated in the afternoon shafts like slow snow. Arun had come for a project and stayed for a feeling he could not name. The books did not shout; they waited. He opened a travel diary from 1924 and found a pressed marigold, brittle as a whisper. On the margin someone had written, in ink now brown, \"Do not finish this journey alone.\" Arun closed the book gently, as if loudness might wake the past. Outside, scooters argued with horns. Inside, time had a different speed \u2014 the speed of pages turning when no one is late.\n\nWhich theme fits Passage P2 best?",
+    prompt: "In the old library, dust floated in the afternoon shafts like slow snow. Arun had come for a project and stayed for a feeling he could not name. The books did not shout; they waited. He opened a travel diary from 1924 and found a pressed marigold, brittle as a whisper. On the margin someone had written, in ink now brown, \"Do not finish this journey alone.\" Arun closed the book gently, as if loudness might wake the past. Outside, scooters argued with horns. Inside, time had a different speed — the speed of pages turning when no one is late.\n\nWhich theme fits the passage best?",
     options: [
       { id: "a", text: "Projects should be abandoned" },
       { id: "b", text: "Dust is dangerous snow" },

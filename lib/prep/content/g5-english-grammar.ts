@@ -5,7 +5,7 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g5-eng-ch02-a-q01",
-    prompt: "Every year, our colony holds a small mela in the park behind the post office. This year, my brother Kabir and I are running a lemonade stall. Last Sunday, we painted a bright yellow sign and borrowed six glass jars from Mrs. Iyer. Right now, Kabir is squeezing lemons, and I am counting paper cups. Our cousin Zoya will bring mint leaves tomorrow morning. She grows them in pots on her balcony. Kabir thinks our lemonade is the tastiest in the whole colony. I am not so sure, because Uncle Joseph's kulfi stall is always the busiest one! Still, we are going to try our best. The mela begins at four o'clock sharp.\n\nRead Passage P1. \"Right now, Kabir is squeezing lemons.\" Which tense is this sentence in?",
+    prompt: "Every year, our colony holds a small mela in the park behind the post office. This year, my brother Kabir and I are running a lemonade stall. Last Sunday, we painted a bright yellow sign and borrowed six glass jars from Mrs. Iyer. Right now, Kabir is squeezing lemons, and I am counting paper cups. Our cousin Zoya will bring mint leaves tomorrow morning. She grows them in pots on her balcony. Kabir thinks our lemonade is the tastiest in the whole colony. I am not so sure, because Uncle Joseph's kulfi stall is always the busiest one! Still, we are going to try our best. The mela begins at four o'clock sharp.\n\nRead the passage. \"Right now, Kabir is squeezing lemons.\" Which tense is this sentence in?",
     options: [
       { id: "a", text: "Present continuous" },
       { id: "b", text: "Simple present" },
@@ -18,7 +18,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-a-q02",
-    prompt: "Every year, our colony holds a small mela in the park behind the post office. This year, my brother Kabir and I are running a lemonade stall. Last Sunday, we painted a bright yellow sign and borrowed six glass jars from Mrs. Iyer. Right now, Kabir is squeezing lemons, and I am counting paper cups. Our cousin Zoya will bring mint leaves tomorrow morning. She grows them in pots on her balcony. Kabir thinks our lemonade is the tastiest in the whole colony. I am not so sure, because Uncle Joseph's kulfi stall is always the busiest one! Still, we are going to try our best. The mela begins at four o'clock sharp.\n\nRead Passage P1. Which sentence from the passage talks about the FUTURE?",
+    prompt: "Every year, our colony holds a small mela in the park behind the post office. This year, my brother Kabir and I are running a lemonade stall. Last Sunday, we painted a bright yellow sign and borrowed six glass jars from Mrs. Iyer. Right now, Kabir is squeezing lemons, and I am counting paper cups. Our cousin Zoya will bring mint leaves tomorrow morning. She grows them in pots on her balcony. Kabir thinks our lemonade is the tastiest in the whole colony. I am not so sure, because Uncle Joseph's kulfi stall is always the busiest one! Still, we are going to try our best. The mela begins at four o'clock sharp.\n\nRead the passage. Which sentence from the passage talks about the FUTURE?",
     options: [
       { id: "a", text: "\"We painted a bright yellow sign.\"" },
       { id: "b", text: "\"She grows them in pots on her balcony.\"" },
@@ -31,7 +31,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-a-q03",
-    prompt: "Every year, our colony holds a small mela in the park behind the post office. This year, my brother Kabir and I are running a lemonade stall. Last Sunday, we painted a bright yellow sign and borrowed six glass jars from Mrs. Iyer. Right now, Kabir is squeezing lemons, and I am counting paper cups. Our cousin Zoya will bring mint leaves tomorrow morning. She grows them in pots on her balcony. Kabir thinks our lemonade is the tastiest in the whole colony. I am not so sure, because Uncle Joseph's kulfi stall is always the busiest one! Still, we are going to try our best. The mela begins at four o'clock sharp.\n\nRead Passage P1. \"Uncle Joseph's kulfi stall is always the busiest one.\" The word \"busiest\" is in which degree of comparison?",
+    prompt: "Every year, our colony holds a small mela in the park behind the post office. This year, my brother Kabir and I are running a lemonade stall. Last Sunday, we painted a bright yellow sign and borrowed six glass jars from Mrs. Iyer. Right now, Kabir is squeezing lemons, and I am counting paper cups. Our cousin Zoya will bring mint leaves tomorrow morning. She grows them in pots on her balcony. Kabir thinks our lemonade is the tastiest in the whole colony. I am not so sure, because Uncle Joseph's kulfi stall is always the busiest one! Still, we are going to try our best. The mela begins at four o'clock sharp.\n\nRead the passage. \"Uncle Joseph's kulfi stall is always the busiest one.\" The word \"busiest\" is in which degree of comparison?",
     options: [
       { id: "a", text: "Positive" },
       { id: "b", text: "Superlative" },
@@ -44,7 +44,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-a-q04",
-    prompt: "Every year, our colony holds a small mela in the park behind the post office. This year, my brother Kabir and I are running a lemonade stall. Last Sunday, we painted a bright yellow sign and borrowed six glass jars from Mrs. Iyer. Right now, Kabir is squeezing lemons, and I am counting paper cups. Our cousin Zoya will bring mint leaves tomorrow morning. She grows them in pots on her balcony. Kabir thinks our lemonade is the tastiest in the whole colony. I am not so sure, because Uncle Joseph's kulfi stall is always the busiest one! Still, we are going to try our best. The mela begins at four o'clock sharp.\n\nRead Passage P1. Which word from the passage is a proper noun?",
+    prompt: "Every year, our colony holds a small mela in the park behind the post office. This year, my brother Kabir and I are running a lemonade stall. Last Sunday, we painted a bright yellow sign and borrowed six glass jars from Mrs. Iyer. Right now, Kabir is squeezing lemons, and I am counting paper cups. Our cousin Zoya will bring mint leaves tomorrow morning. She grows them in pots on her balcony. Kabir thinks our lemonade is the tastiest in the whole colony. I am not so sure, because Uncle Joseph's kulfi stall is always the busiest one! Still, we are going to try our best. The mela begins at four o'clock sharp.\n\nRead the passage. Which word from the passage is a proper noun?",
     options: [
       { id: "a", text: "park" },
       { id: "b", text: "lemons" },
@@ -57,7 +57,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-a-q05",
-    prompt: "**Guide:** Look carefully, children. That heron is standing very still.\n**Neha:** Why is it so quiet?\n**Guide:** It is waiting for a fish. Herons hunt patiently.\n**Sam:** Those ducks are much noisier than the heron!\n**Guide:** Yes, and the geese are the noisiest birds here. Each goose honks loudly when someone comes near.\n**Neha:** Who feeds them?\n**Guide:** Nobody feeds them. They find their own food in the lake.\n**Sam:** I will draw the heron in my notebook tonight.\n**Neha:** And I am going to write a poem about the geese!\n\nRead Passage P2. The guide says, \"Each goose honks loudly.\" What is the plural of \"goose\"?",
+    prompt: "**Guide:** Look carefully, children. That heron is standing very still.\n**Neha:** Why is it so quiet?\n**Guide:** It is waiting for a fish. Herons hunt patiently.\n**Sam:** Those ducks are much noisier than the heron!\n**Guide:** Yes, and the geese are the noisiest birds here. Each goose honks loudly when someone comes near.\n**Neha:** Who feeds them?\n**Guide:** Nobody feeds them. They find their own food in the lake.\n**Sam:** I will draw the heron in my notebook tonight.\n**Neha:** And I am going to write a poem about the geese!\n\nRead the passage. The guide says, \"Each goose honks loudly.\" What is the plural of \"goose\"?",
     options: [
       { id: "a", text: "gooses" },
       { id: "b", text: "goose" },
@@ -70,7 +70,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-a-q06",
-    prompt: "**Guide:** Look carefully, children. That heron is standing very still.\n**Neha:** Why is it so quiet?\n**Guide:** It is waiting for a fish. Herons hunt patiently.\n**Sam:** Those ducks are much noisier than the heron!\n**Guide:** Yes, and the geese are the noisiest birds here. Each goose honks loudly when someone comes near.\n**Neha:** Who feeds them?\n**Guide:** Nobody feeds them. They find their own food in the lake.\n**Sam:** I will draw the heron in my notebook tonight.\n**Neha:** And I am going to write a poem about the geese!\n\nRead Passage P2. \"Herons hunt patiently.\" What does the adverb \"patiently\" tell us?",
+    prompt: "**Guide:** Look carefully, children. That heron is standing very still.\n**Neha:** Why is it so quiet?\n**Guide:** It is waiting for a fish. Herons hunt patiently.\n**Sam:** Those ducks are much noisier than the heron!\n**Guide:** Yes, and the geese are the noisiest birds here. Each goose honks loudly when someone comes near.\n**Neha:** Who feeds them?\n**Guide:** Nobody feeds them. They find their own food in the lake.\n**Sam:** I will draw the heron in my notebook tonight.\n**Neha:** And I am going to write a poem about the geese!\n\nRead the passage. \"Herons hunt patiently.\" What does the adverb \"patiently\" tell us?",
     options: [
       { id: "a", text: "How herons hunt" },
       { id: "b", text: "When herons hunt" },
@@ -83,7 +83,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-a-q07",
-    prompt: "Grandpa's bicycle is older than my father. It has a rusty bell, a wide leather seat and a basket that once carried vegetables from the market every day. Yesterday, Grandpa and I cleaned it together. He oiled the chain carefully while I polished the handlebars. \"This bicycle took me to my first job,\" he said proudly. \"It carried your grandmother to her school, where she taught for thirty years.\" I tried to ride it, but my feet barely touched the pedals. Grandpa laughed gently. \"You will grow into it,\" he promised. Today, the bicycle stands in the courtyard, shining like new. It is the most beautiful thing in our house.\n\nRead Passage P3. \"It carried your grandmother to her school,\" he said. What does the pronoun \"It\" refer to?",
+    prompt: "Grandpa's bicycle is older than my father. It has a rusty bell, a wide leather seat and a basket that once carried vegetables from the market every day. Yesterday, Grandpa and I cleaned it together. He oiled the chain carefully while I polished the handlebars. \"This bicycle took me to my first job,\" he said proudly. \"It carried your grandmother to her school, where she taught for thirty years.\" I tried to ride it, but my feet barely touched the pedals. Grandpa laughed gently. \"You will grow into it,\" he promised. Today, the bicycle stands in the courtyard, shining like new. It is the most beautiful thing in our house.\n\nRead the passage. \"It carried your grandmother to her school,\" he said. What does the pronoun \"It\" refer to?",
     options: [
       { id: "a", text: "The first job" },
       { id: "b", text: "The market" },
@@ -320,7 +320,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g5-eng-ch02-b-q01",
-    prompt: "Every year, our colony holds a small mela in the park behind the post office. This year, my brother Kabir and I are running a lemonade stall. Last Sunday, we painted a bright yellow sign and borrowed six glass jars from Mrs. Iyer. Right now, Kabir is squeezing lemons, and I am counting paper cups. Our cousin Zoya will bring mint leaves tomorrow morning. She grows them in pots on her balcony. Kabir thinks our lemonade is the tastiest in the whole colony. I am not so sure, because Uncle Joseph's kulfi stall is always the busiest one! Still, we are going to try our best. The mela begins at four o'clock sharp.\n\nRead Passage P1. \"We borrowed six glass jars from Mrs. Iyer.\" Which word in this sentence is a plural noun?",
+    prompt: "Every year, our colony holds a small mela in the park behind the post office. This year, my brother Kabir and I are running a lemonade stall. Last Sunday, we painted a bright yellow sign and borrowed six glass jars from Mrs. Iyer. Right now, Kabir is squeezing lemons, and I am counting paper cups. Our cousin Zoya will bring mint leaves tomorrow morning. She grows them in pots on her balcony. Kabir thinks our lemonade is the tastiest in the whole colony. I am not so sure, because Uncle Joseph's kulfi stall is always the busiest one! Still, we are going to try our best. The mela begins at four o'clock sharp.\n\nRead the passage. \"We borrowed six glass jars from Mrs. Iyer.\" Which word in this sentence is a plural noun?",
     options: [
       { id: "a", text: "Mrs. Iyer" },
       { id: "b", text: "jars" },
@@ -333,7 +333,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-b-q02",
-    prompt: "Every year, our colony holds a small mela in the park behind the post office. This year, my brother Kabir and I are running a lemonade stall. Last Sunday, we painted a bright yellow sign and borrowed six glass jars from Mrs. Iyer. Right now, Kabir is squeezing lemons, and I am counting paper cups. Our cousin Zoya will bring mint leaves tomorrow morning. She grows them in pots on her balcony. Kabir thinks our lemonade is the tastiest in the whole colony. I am not so sure, because Uncle Joseph's kulfi stall is always the busiest one! Still, we are going to try our best. The mela begins at four o'clock sharp.\n\nRead Passage P1. \"She grows them in pots on her balcony.\" What does \"them\" refer to?",
+    prompt: "Every year, our colony holds a small mela in the park behind the post office. This year, my brother Kabir and I are running a lemonade stall. Last Sunday, we painted a bright yellow sign and borrowed six glass jars from Mrs. Iyer. Right now, Kabir is squeezing lemons, and I am counting paper cups. Our cousin Zoya will bring mint leaves tomorrow morning. She grows them in pots on her balcony. Kabir thinks our lemonade is the tastiest in the whole colony. I am not so sure, because Uncle Joseph's kulfi stall is always the busiest one! Still, we are going to try our best. The mela begins at four o'clock sharp.\n\nRead the passage. \"She grows them in pots on her balcony.\" What does \"them\" refer to?",
     options: [
       { id: "a", text: "The pots" },
       { id: "b", text: "The paper cups" },
@@ -346,7 +346,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-b-q03",
-    prompt: "Every year, our colony holds a small mela in the park behind the post office. This year, my brother Kabir and I are running a lemonade stall. Last Sunday, we painted a bright yellow sign and borrowed six glass jars from Mrs. Iyer. Right now, Kabir is squeezing lemons, and I am counting paper cups. Our cousin Zoya will bring mint leaves tomorrow morning. She grows them in pots on her balcony. Kabir thinks our lemonade is the tastiest in the whole colony. I am not so sure, because Uncle Joseph's kulfi stall is always the busiest one! Still, we are going to try our best. The mela begins at four o'clock sharp.\n\nRead Passage P1. \"Still, we are going to try our best.\" What does this sentence show?",
+    prompt: "Every year, our colony holds a small mela in the park behind the post office. This year, my brother Kabir and I are running a lemonade stall. Last Sunday, we painted a bright yellow sign and borrowed six glass jars from Mrs. Iyer. Right now, Kabir is squeezing lemons, and I am counting paper cups. Our cousin Zoya will bring mint leaves tomorrow morning. She grows them in pots on her balcony. Kabir thinks our lemonade is the tastiest in the whole colony. I am not so sure, because Uncle Joseph's kulfi stall is always the busiest one! Still, we are going to try our best. The mela begins at four o'clock sharp.\n\nRead the passage. \"Still, we are going to try our best.\" What does this sentence show?",
     options: [
       { id: "a", text: "A plan for the future" },
       { id: "b", text: "A daily habit" },
@@ -359,7 +359,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-b-q04",
-    prompt: "Every year, our colony holds a small mela in the park behind the post office. This year, my brother Kabir and I are running a lemonade stall. Last Sunday, we painted a bright yellow sign and borrowed six glass jars from Mrs. Iyer. Right now, Kabir is squeezing lemons, and I am counting paper cups. Our cousin Zoya will bring mint leaves tomorrow morning. She grows them in pots on her balcony. Kabir thinks our lemonade is the tastiest in the whole colony. I am not so sure, because Uncle Joseph's kulfi stall is always the busiest one! Still, we are going to try our best. The mela begins at four o'clock sharp.\n\nRead Passage P1. Fill in the blank with the correct form of the verb.\n\"The mela ___ at four o'clock sharp.\"",
+    prompt: "Every year, our colony holds a small mela in the park behind the post office. This year, my brother Kabir and I are running a lemonade stall. Last Sunday, we painted a bright yellow sign and borrowed six glass jars from Mrs. Iyer. Right now, Kabir is squeezing lemons, and I am counting paper cups. Our cousin Zoya will bring mint leaves tomorrow morning. She grows them in pots on her balcony. Kabir thinks our lemonade is the tastiest in the whole colony. I am not so sure, because Uncle Joseph's kulfi stall is always the busiest one! Still, we are going to try our best. The mela begins at four o'clock sharp.\n\nRead the passage. Fill in the blank with the correct form of the verb.\n\"The mela ___ at four o'clock sharp.\"",
     options: [
       { id: "a", text: "begin" },
       { id: "b", text: "beginning" },
@@ -372,7 +372,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-b-q05",
-    prompt: "**Guide:** Look carefully, children. That heron is standing very still.\n**Neha:** Why is it so quiet?\n**Guide:** It is waiting for a fish. Herons hunt patiently.\n**Sam:** Those ducks are much noisier than the heron!\n**Guide:** Yes, and the geese are the noisiest birds here. Each goose honks loudly when someone comes near.\n**Neha:** Who feeds them?\n**Guide:** Nobody feeds them. They find their own food in the lake.\n**Sam:** I will draw the heron in my notebook tonight.\n**Neha:** And I am going to write a poem about the geese!\n\nRead Passage P2. Which form of \"noisy\" from the passage is in the COMPARATIVE degree?",
+    prompt: "**Guide:** Look carefully, children. That heron is standing very still.\n**Neha:** Why is it so quiet?\n**Guide:** It is waiting for a fish. Herons hunt patiently.\n**Sam:** Those ducks are much noisier than the heron!\n**Guide:** Yes, and the geese are the noisiest birds here. Each goose honks loudly when someone comes near.\n**Neha:** Who feeds them?\n**Guide:** Nobody feeds them. They find their own food in the lake.\n**Sam:** I will draw the heron in my notebook tonight.\n**Neha:** And I am going to write a poem about the geese!\n\nRead the passage. Which form of \"noisy\" from the passage is in the COMPARATIVE degree?",
     options: [
       { id: "a", text: "noisier" },
       { id: "b", text: "noisy" },
@@ -385,7 +385,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-b-q06",
-    prompt: "**Guide:** Look carefully, children. That heron is standing very still.\n**Neha:** Why is it so quiet?\n**Guide:** It is waiting for a fish. Herons hunt patiently.\n**Sam:** Those ducks are much noisier than the heron!\n**Guide:** Yes, and the geese are the noisiest birds here. Each goose honks loudly when someone comes near.\n**Neha:** Who feeds them?\n**Guide:** Nobody feeds them. They find their own food in the lake.\n**Sam:** I will draw the heron in my notebook tonight.\n**Neha:** And I am going to write a poem about the geese!\n\nRead Passage P2. Neha asks, \"Who feeds them?\" Who does \"them\" refer to?",
+    prompt: "**Guide:** Look carefully, children. That heron is standing very still.\n**Neha:** Why is it so quiet?\n**Guide:** It is waiting for a fish. Herons hunt patiently.\n**Sam:** Those ducks are much noisier than the heron!\n**Guide:** Yes, and the geese are the noisiest birds here. Each goose honks loudly when someone comes near.\n**Neha:** Who feeds them?\n**Guide:** Nobody feeds them. They find their own food in the lake.\n**Sam:** I will draw the heron in my notebook tonight.\n**Neha:** And I am going to write a poem about the geese!\n\nRead the passage. Neha asks, \"Who feeds them?\" Who does \"them\" refer to?",
     options: [
       { id: "a", text: "The children" },
       { id: "b", text: "The fish" },
@@ -398,7 +398,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-b-q07",
-    prompt: "**Guide:** Look carefully, children. That heron is standing very still.\n**Neha:** Why is it so quiet?\n**Guide:** It is waiting for a fish. Herons hunt patiently.\n**Sam:** Those ducks are much noisier than the heron!\n**Guide:** Yes, and the geese are the noisiest birds here. Each goose honks loudly when someone comes near.\n**Neha:** Who feeds them?\n**Guide:** Nobody feeds them. They find their own food in the lake.\n**Sam:** I will draw the heron in my notebook tonight.\n**Neha:** And I am going to write a poem about the geese!\n\nRead Passage P2. \"I will draw the heron in my notebook tonight.\" Which tense is used?",
+    prompt: "**Guide:** Look carefully, children. That heron is standing very still.\n**Neha:** Why is it so quiet?\n**Guide:** It is waiting for a fish. Herons hunt patiently.\n**Sam:** Those ducks are much noisier than the heron!\n**Guide:** Yes, and the geese are the noisiest birds here. Each goose honks loudly when someone comes near.\n**Neha:** Who feeds them?\n**Guide:** Nobody feeds them. They find their own food in the lake.\n**Sam:** I will draw the heron in my notebook tonight.\n**Neha:** And I am going to write a poem about the geese!\n\nRead the passage. \"I will draw the heron in my notebook tonight.\" Which tense is used?",
     options: [
       { id: "a", text: "Simple past" },
       { id: "b", text: "Simple future" },
@@ -411,7 +411,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-b-q08",
-    prompt: "Grandpa's bicycle is older than my father. It has a rusty bell, a wide leather seat and a basket that once carried vegetables from the market every day. Yesterday, Grandpa and I cleaned it together. He oiled the chain carefully while I polished the handlebars. \"This bicycle took me to my first job,\" he said proudly. \"It carried your grandmother to her school, where she taught for thirty years.\" I tried to ride it, but my feet barely touched the pedals. Grandpa laughed gently. \"You will grow into it,\" he promised. Today, the bicycle stands in the courtyard, shining like new. It is the most beautiful thing in our house.\n\nRead Passage P3. Which verb from the passage is in the simple past tense?",
+    prompt: "Grandpa's bicycle is older than my father. It has a rusty bell, a wide leather seat and a basket that once carried vegetables from the market every day. Yesterday, Grandpa and I cleaned it together. He oiled the chain carefully while I polished the handlebars. \"This bicycle took me to my first job,\" he said proudly. \"It carried your grandmother to her school, where she taught for thirty years.\" I tried to ride it, but my feet barely touched the pedals. Grandpa laughed gently. \"You will grow into it,\" he promised. Today, the bicycle stands in the courtyard, shining like new. It is the most beautiful thing in our house.\n\nRead the passage. Which verb from the passage is in the simple past tense?",
     options: [
       { id: "a", text: "stands" },
       { id: "b", text: "will grow" },

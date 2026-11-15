@@ -5,7 +5,7 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g4-eng-ch02-a-q01",
-    prompt: "Last Sunday, Ravi and his aunt went to the zoo in Mysuru. They saw two elephants, three monkeys and a big tiger. The monkeys were jumping from branch to branch. A baby elephant was spraying water on its mother. Ravi laughed loudly. His aunt bought him an ice cream. At noon, they sat under a tree and ate their lunch. Today, Ravi has a new notebook. He is drawing the animals in it. He is very happy.\n\nRead Passage P1. Which word from the passage is a PROPER noun?",
+    prompt: "Last Sunday, Ravi and his aunt went to the zoo in Mysuru. They saw two elephants, three monkeys and a big tiger. The monkeys were jumping from branch to branch. A baby elephant was spraying water on its mother. Ravi laughed loudly. His aunt bought him an ice cream. At noon, they sat under a tree and ate their lunch. Today, Ravi has a new notebook. He is drawing the animals in it. He is very happy.\n\nRead the passage. Which word from the passage is a PROPER noun?",
     options: [
       { id: "a", text: "zoo" },
       { id: "b", text: "Mysuru" },
@@ -18,7 +18,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch02-a-q02",
-    prompt: "Last Sunday, Ravi and his aunt went to the zoo in Mysuru. They saw two elephants, three monkeys and a big tiger. The monkeys were jumping from branch to branch. A baby elephant was spraying water on its mother. Ravi laughed loudly. His aunt bought him an ice cream. At noon, they sat under a tree and ate their lunch. Today, Ravi has a new notebook. He is drawing the animals in it. He is very happy.\n\nRead Passage P1. \"The monkeys were jumping from branch to branch.\" When was this happening?",
+    prompt: "Last Sunday, Ravi and his aunt went to the zoo in Mysuru. They saw two elephants, three monkeys and a big tiger. The monkeys were jumping from branch to branch. A baby elephant was spraying water on its mother. Ravi laughed loudly. His aunt bought him an ice cream. At noon, they sat under a tree and ate their lunch. Today, Ravi has a new notebook. He is drawing the animals in it. He is very happy.\n\nRead the passage. \"The monkeys were jumping from branch to branch.\" When was this happening?",
     options: [
       { id: "a", text: "Every day" },
       { id: "b", text: "Tomorrow" },
@@ -31,7 +31,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch02-a-q03",
-    prompt: "Last Sunday, Ravi and his aunt went to the zoo in Mysuru. They saw two elephants, three monkeys and a big tiger. The monkeys were jumping from branch to branch. A baby elephant was spraying water on its mother. Ravi laughed loudly. His aunt bought him an ice cream. At noon, they sat under a tree and ate their lunch. Today, Ravi has a new notebook. He is drawing the animals in it. He is very happy.\n\nRead Passage P1. \"His aunt bought him an ice cream.\" Why do we use \"an\" before \"ice cream\"?",
+    prompt: "Last Sunday, Ravi and his aunt went to the zoo in Mysuru. They saw two elephants, three monkeys and a big tiger. The monkeys were jumping from branch to branch. A baby elephant was spraying water on its mother. Ravi laughed loudly. His aunt bought him an ice cream. At noon, they sat under a tree and ate their lunch. Today, Ravi has a new notebook. He is drawing the animals in it. He is very happy.\n\nRead the passage. \"His aunt bought him an ice cream.\" Why do we use \"an\" before \"ice cream\"?",
     options: [
       { id: "a", text: "\"Ice\" begins with a vowel sound." },
       { id: "b", text: "The ice cream was very big." },
@@ -44,7 +44,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch02-a-q04",
-    prompt: "Last Sunday, Ravi and his aunt went to the zoo in Mysuru. They saw two elephants, three monkeys and a big tiger. The monkeys were jumping from branch to branch. A baby elephant was spraying water on its mother. Ravi laughed loudly. His aunt bought him an ice cream. At noon, they sat under a tree and ate their lunch. Today, Ravi has a new notebook. He is drawing the animals in it. He is very happy.\n\nRead Passage P1. \"Ravi has a new notebook.\" Why does the passage use \"has\" and not \"have\"?",
+    prompt: "Last Sunday, Ravi and his aunt went to the zoo in Mysuru. They saw two elephants, three monkeys and a big tiger. The monkeys were jumping from branch to branch. A baby elephant was spraying water on its mother. Ravi laughed loudly. His aunt bought him an ice cream. At noon, they sat under a tree and ate their lunch. Today, Ravi has a new notebook. He is drawing the animals in it. He is very happy.\n\nRead the passage. \"Ravi has a new notebook.\" Why does the passage use \"has\" and not \"have\"?",
     options: [
       { id: "a", text: "Ravi has many notebooks." },
       { id: "b", text: "It happened yesterday." },
@@ -57,7 +57,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch02-a-q05",
-    prompt: "Last Sunday, Ravi and his aunt went to the zoo in Mysuru. They saw two elephants, three monkeys and a big tiger. The monkeys were jumping from branch to branch. A baby elephant was spraying water on its mother. Ravi laughed loudly. His aunt bought him an ice cream. At noon, they sat under a tree and ate their lunch. Today, Ravi has a new notebook. He is drawing the animals in it. He is very happy.\n\nRead Passage P1. \"They saw a big tiger.\" Which word is the ADJECTIVE?",
+    prompt: "Last Sunday, Ravi and his aunt went to the zoo in Mysuru. They saw two elephants, three monkeys and a big tiger. The monkeys were jumping from branch to branch. A baby elephant was spraying water on its mother. Ravi laughed loudly. His aunt bought him an ice cream. At noon, they sat under a tree and ate their lunch. Today, Ravi has a new notebook. He is drawing the animals in it. He is very happy.\n\nRead the passage. \"They saw a big tiger.\" Which word is the ADJECTIVE?",
     options: [
       { id: "a", text: "big" },
       { id: "b", text: "a" },
@@ -70,7 +70,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch02-a-q06",
-    prompt: "**Meena:** Mummy, are these mangoes sweet?\n**Mother:** Yes, they are. The shopkeeper says they are from Ratnagiri.\n**Meena:** I want an apple too.\n**Mother:** We have apples at home. Let's buy bananas instead.\n**Meena:** Okay! I am carrying the bag.\n**Mother:** Thank you, beta. It is heavy, so hold it with both hands.\n**Shopkeeper:** Here are six bananas. They are fresh and yellow.\n**Mother:** Thank you. How much are they?\n**Shopkeeper:** Forty rupees, please.\n\nRead Passage P2. Mother says, \"Yes, they are.\" Who or what does \"they\" mean here?",
+    prompt: "**Meena:** Mummy, are these mangoes sweet?\n**Mother:** Yes, they are. The shopkeeper says they are from Ratnagiri.\n**Meena:** I want an apple too.\n**Mother:** We have apples at home. Let's buy bananas instead.\n**Meena:** Okay! I am carrying the bag.\n**Mother:** Thank you, beta. It is heavy, so hold it with both hands.\n**Shopkeeper:** Here are six bananas. They are fresh and yellow.\n**Mother:** Thank you. How much are they?\n**Shopkeeper:** Forty rupees, please.\n\nRead the passage. Mother says, \"Yes, they are.\" Who or what does \"they\" mean here?",
     options: [
       { id: "a", text: "The bananas" },
       { id: "b", text: "The apples" },
@@ -83,7 +83,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch02-a-q07",
-    prompt: "Our new classroom is on the first floor. There is a big window next to my desk. A neem tree stands outside the window. Every morning, a bird sits on its branch and sings. Our teacher, Ms. Lata, keeps a globe on her table. The books are in the cupboard behind the door. We have a small garden in front of the classroom. The guard locks the room at five o'clock every evening.\n\nRead Passage P3. Where are the books kept?",
+    prompt: "Our new classroom is on the first floor. There is a big window next to my desk. A neem tree stands outside the window. Every morning, a bird sits on its branch and sings. Our teacher, Ms. Lata, keeps a globe on her table. The books are in the cupboard behind the door. We have a small garden in front of the classroom. The guard locks the room at five o'clock every evening.\n\nRead the passage. Where are the books kept?",
     options: [
       { id: "a", text: "On the table" },
       { id: "b", text: "In the cupboard" },
@@ -96,7 +96,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch02-a-q08",
-    prompt: "Our new classroom is on the first floor. There is a big window next to my desk. A neem tree stands outside the window. Every morning, a bird sits on its branch and sings. Our teacher, Ms. Lata, keeps a globe on her table. The books are in the cupboard behind the door. We have a small garden in front of the classroom. The guard locks the room at five o'clock every evening.\n\nRead Passage P3. \"Every morning, a bird sits on its branch and sings.\" What does \"its\" refer to?",
+    prompt: "Our new classroom is on the first floor. There is a big window next to my desk. A neem tree stands outside the window. Every morning, a bird sits on its branch and sings. Our teacher, Ms. Lata, keeps a globe on her table. The books are in the cupboard behind the door. We have a small garden in front of the classroom. The guard locks the room at five o'clock every evening.\n\nRead the passage. \"Every morning, a bird sits on its branch and sings.\" What does \"its\" refer to?",
     options: [
       { id: "a", text: "The bird" },
       { id: "b", text: "The window" },
@@ -328,7 +328,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g4-eng-ch02-b-q01",
-    prompt: "Last Sunday, Ravi and his aunt went to the zoo in Mysuru. They saw two elephants, three monkeys and a big tiger. The monkeys were jumping from branch to branch. A baby elephant was spraying water on its mother. Ravi laughed loudly. His aunt bought him an ice cream. At noon, they sat under a tree and ate their lunch. Today, Ravi has a new notebook. He is drawing the animals in it. He is very happy.\n\nRead Passage P1. Which word from the passage is PLURAL (more than one)?",
+    prompt: "Last Sunday, Ravi and his aunt went to the zoo in Mysuru. They saw two elephants, three monkeys and a big tiger. The monkeys were jumping from branch to branch. A baby elephant was spraying water on its mother. Ravi laughed loudly. His aunt bought him an ice cream. At noon, they sat under a tree and ate their lunch. Today, Ravi has a new notebook. He is drawing the animals in it. He is very happy.\n\nRead the passage. Which word from the passage is PLURAL (more than one)?",
     options: [
       { id: "a", text: "monkeys" },
       { id: "b", text: "tiger" },
@@ -341,7 +341,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch02-b-q02",
-    prompt: "Last Sunday, Ravi and his aunt went to the zoo in Mysuru. They saw two elephants, three monkeys and a big tiger. The monkeys were jumping from branch to branch. A baby elephant was spraying water on its mother. Ravi laughed loudly. His aunt bought him an ice cream. At noon, they sat under a tree and ate their lunch. Today, Ravi has a new notebook. He is drawing the animals in it. He is very happy.\n\nRead Passage P1. \"Ravi laughed loudly.\" The verb \"laughed\" tells us the action happened \u2014",
+    prompt: "Last Sunday, Ravi and his aunt went to the zoo in Mysuru. They saw two elephants, three monkeys and a big tiger. The monkeys were jumping from branch to branch. A baby elephant was spraying water on its mother. Ravi laughed loudly. His aunt bought him an ice cream. At noon, they sat under a tree and ate their lunch. Today, Ravi has a new notebook. He is drawing the animals in it. He is very happy.\n\nRead the passage. \"Ravi laughed loudly.\" The verb \"laughed\" tells us the action happened —",
     options: [
       { id: "a", text: "every day" },
       { id: "b", text: "tomorrow" },
@@ -354,7 +354,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch02-b-q03",
-    prompt: "Last Sunday, Ravi and his aunt went to the zoo in Mysuru. They saw two elephants, three monkeys and a big tiger. The monkeys were jumping from branch to branch. A baby elephant was spraying water on its mother. Ravi laughed loudly. His aunt bought him an ice cream. At noon, they sat under a tree and ate their lunch. Today, Ravi has a new notebook. He is drawing the animals in it. He is very happy.\n\nRead Passage P1. \"He is drawing the animals in it.\" Who does \"He\" refer to?",
+    prompt: "Last Sunday, Ravi and his aunt went to the zoo in Mysuru. They saw two elephants, three monkeys and a big tiger. The monkeys were jumping from branch to branch. A baby elephant was spraying water on its mother. Ravi laughed loudly. His aunt bought him an ice cream. At noon, they sat under a tree and ate their lunch. Today, Ravi has a new notebook. He is drawing the animals in it. He is very happy.\n\nRead the passage. \"He is drawing the animals in it.\" Who does \"He\" refer to?",
     options: [
       { id: "a", text: "The aunt" },
       { id: "b", text: "Ravi" },
@@ -367,7 +367,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch02-b-q04",
-    prompt: "Last Sunday, Ravi and his aunt went to the zoo in Mysuru. They saw two elephants, three monkeys and a big tiger. The monkeys were jumping from branch to branch. A baby elephant was spraying water on its mother. Ravi laughed loudly. His aunt bought him an ice cream. At noon, they sat under a tree and ate their lunch. Today, Ravi has a new notebook. He is drawing the animals in it. He is very happy.\n\nRead Passage P1. Fill in the missing word: \"At noon, they sat ___ a tree and ate their lunch.\"",
+    prompt: "Last Sunday, Ravi and his aunt went to the zoo in Mysuru. They saw two elephants, three monkeys and a big tiger. The monkeys were jumping from branch to branch. A baby elephant was spraying water on its mother. Ravi laughed loudly. His aunt bought him an ice cream. At noon, they sat under a tree and ate their lunch. Today, Ravi has a new notebook. He is drawing the animals in it. He is very happy.\n\nRead the passage. Fill in the missing word: \"At noon, they sat ___ a tree and ate their lunch.\"",
     options: [
       { id: "a", text: "on" },
       { id: "b", text: "over" },
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch02-b-q05",
-    prompt: "**Meena:** Mummy, are these mangoes sweet?\n**Mother:** Yes, they are. The shopkeeper says they are from Ratnagiri.\n**Meena:** I want an apple too.\n**Mother:** We have apples at home. Let's buy bananas instead.\n**Meena:** Okay! I am carrying the bag.\n**Mother:** Thank you, beta. It is heavy, so hold it with both hands.\n**Shopkeeper:** Here are six bananas. They are fresh and yellow.\n**Mother:** Thank you. How much are they?\n**Shopkeeper:** Forty rupees, please.\n\nRead Passage P2. Meena says, \"I want an apple too.\" Why does she use \"an\"?",
+    prompt: "**Meena:** Mummy, are these mangoes sweet?\n**Mother:** Yes, they are. The shopkeeper says they are from Ratnagiri.\n**Meena:** I want an apple too.\n**Mother:** We have apples at home. Let's buy bananas instead.\n**Meena:** Okay! I am carrying the bag.\n**Mother:** Thank you, beta. It is heavy, so hold it with both hands.\n**Shopkeeper:** Here are six bananas. They are fresh and yellow.\n**Mother:** Thank you. How much are they?\n**Shopkeeper:** Forty rupees, please.\n\nRead the passage. Meena says, \"I want an apple too.\" Why does she use \"an\"?",
     options: [
       { id: "a", text: "The apple is small." },
       { id: "b", text: "The apple is red." },
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch02-b-q06",
-    prompt: "**Meena:** Mummy, are these mangoes sweet?\n**Mother:** Yes, they are. The shopkeeper says they are from Ratnagiri.\n**Meena:** I want an apple too.\n**Mother:** We have apples at home. Let's buy bananas instead.\n**Meena:** Okay! I am carrying the bag.\n**Mother:** Thank you, beta. It is heavy, so hold it with both hands.\n**Shopkeeper:** Here are six bananas. They are fresh and yellow.\n**Mother:** Thank you. How much are they?\n**Shopkeeper:** Forty rupees, please.\n\nRead Passage P2. \"We have apples at home.\" Why does Mother say \"have\" and not \"has\"?",
+    prompt: "**Meena:** Mummy, are these mangoes sweet?\n**Mother:** Yes, they are. The shopkeeper says they are from Ratnagiri.\n**Meena:** I want an apple too.\n**Mother:** We have apples at home. Let's buy bananas instead.\n**Meena:** Okay! I am carrying the bag.\n**Mother:** Thank you, beta. It is heavy, so hold it with both hands.\n**Shopkeeper:** Here are six bananas. They are fresh and yellow.\n**Mother:** Thank you. How much are they?\n**Shopkeeper:** Forty rupees, please.\n\nRead the passage. \"We have apples at home.\" Why does Mother say \"have\" and not \"has\"?",
     options: [
       { id: "a", text: "\"We\" means more than one person." },
       { id: "b", text: "The apples are red." },
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch02-b-q07",
-    prompt: "**Meena:** Mummy, are these mangoes sweet?\n**Mother:** Yes, they are. The shopkeeper says they are from Ratnagiri.\n**Meena:** I want an apple too.\n**Mother:** We have apples at home. Let's buy bananas instead.\n**Meena:** Okay! I am carrying the bag.\n**Mother:** Thank you, beta. It is heavy, so hold it with both hands.\n**Shopkeeper:** Here are six bananas. They are fresh and yellow.\n**Mother:** Thank you. How much are they?\n**Shopkeeper:** Forty rupees, please.\n\nRead Passage P2. \"It is heavy, so hold it with both hands.\" Which word is an ADJECTIVE?",
+    prompt: "**Meena:** Mummy, are these mangoes sweet?\n**Mother:** Yes, they are. The shopkeeper says they are from Ratnagiri.\n**Meena:** I want an apple too.\n**Mother:** We have apples at home. Let's buy bananas instead.\n**Meena:** Okay! I am carrying the bag.\n**Mother:** Thank you, beta. It is heavy, so hold it with both hands.\n**Shopkeeper:** Here are six bananas. They are fresh and yellow.\n**Mother:** Thank you. How much are they?\n**Shopkeeper:** Forty rupees, please.\n\nRead the passage. \"It is heavy, so hold it with both hands.\" Which word is an ADJECTIVE?",
     options: [
       { id: "a", text: "It" },
       { id: "b", text: "hold" },
@@ -419,7 +419,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch02-b-q08",
-    prompt: "Our new classroom is on the first floor. There is a big window next to my desk. A neem tree stands outside the window. Every morning, a bird sits on its branch and sings. Our teacher, Ms. Lata, keeps a globe on her table. The books are in the cupboard behind the door. We have a small garden in front of the classroom. The guard locks the room at five o'clock every evening.\n\nRead Passage P3. \"There is a big window next to my desk.\" Which words tell us WHERE the window is?",
+    prompt: "Our new classroom is on the first floor. There is a big window next to my desk. A neem tree stands outside the window. Every morning, a bird sits on its branch and sings. Our teacher, Ms. Lata, keeps a globe on her table. The books are in the cupboard behind the door. We have a small garden in front of the classroom. The guard locks the room at five o'clock every evening.\n\nRead the passage. \"There is a big window next to my desk.\" Which words tell us WHERE the window is?",
     options: [
       { id: "a", text: "There is" },
       { id: "b", text: "next to" },
