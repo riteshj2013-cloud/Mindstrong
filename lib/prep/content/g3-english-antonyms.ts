@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The top is the highest part; the bottom is the lowest part. 'high' is close to top, not its opposite.",
-    hints: ["The top of a ladder is the highest step.", "High points the same way as top, so it cannot be the opposite."],
+    hints: ["Put each word in 'Riya sat on the ___ step.' Keep the one that flips top.", "High points the same way as top, so it cannot be the opposite."],
   },
   {
     id: "g3-eng-antonyms-a-q02",
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Short\" is the opposite of \"tall\" for height. High and long are not clear opposites here.",
-    hints: ["Tall people reach high shelves.", "High is not the opposite of tall."],
+    hints: ["Long is for ropes and roads, so long is not the opposite of tall.", "High is not the opposite of tall."],
   },
   {
     id: "g3-eng-antonyms-a-q13",
@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"New\" is the opposite of \"old.\" Ancient, used and worn are closer to old.",
-    hints: ["An old school bag has been used a long time.", "A used school bag is still an old bag, so used is not the opposite."],
+    hints: ["Ancient means very, very old, so ancient is not the opposite.", "A used school bag is still an old bag, so used is not the opposite."],
   },
   {
     id: "g3-eng-antonyms-b-q02",
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"After\" means later in time — the opposite of \"before.\" Earlier and first are closer to before.",
-    hints: ["Before means earlier than something.", "Earlier is not the opposite of before."],
+    hints: ["First is about order in a line, so first is not the opposite of before.", "Earlier is not the opposite of before."],
   },
   {
     id: "g3-eng-antonyms-b-q03",
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Hate\" is a strong opposite of \"love.\" Like, enjoy and prefer are softer positive words.",
-    hints: ["Love means you like something a lot.", "Like is not the opposite of love."],
+    hints: ["Nisha can enjoy mango pickle too, so enjoy is not the opposite of love.", "Like is not the opposite of love."],
   },
   {
     id: "g3-eng-antonyms-b-q07",
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Bitter\" is a taste opposite of \"sweet.\" Sugary, tasty and yummy are not opposites.",
-    hints: ["Sweet foods like ladoos taste sugary.", "Sugary is a twin of sweet, not an opposite."],
+    hints: ["A tasty laddu can be sweet too, so tasty is not the opposite of sweet.", "Sugary is a twin of sweet, not an opposite."],
   },
   {
     id: "g3-eng-antonyms-b-q09",
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Leave\" (go away) is the opposite of \"arrive.\" Reach and come are closer to arrive.",
-    hints: ["\"arrive\" means you get to a place.", "When you reach school, you arrive there, so reach is not the opposite."],
+    hints: ["When you arrive home, you enter it, so enter is not the opposite of arrive.", "When you reach school, you arrive there, so reach is not the opposite."],
   },
   {
     id: "g3-eng-antonyms-b-q14",
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Low\" is the opposite of \"high.\" Tall, up and above are closer to high ideas.",
-    hints: ["High means far up from the ground.", "Up is not the opposite of high."],
+    hints: ["The gali's tall neem tree reaches high too, so tall is not the opposite.", "Up is not the opposite of high."],
   },
   {
     id: "g3-eng-antonyms-b-q21",
