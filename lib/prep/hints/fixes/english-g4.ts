@@ -207,7 +207,7 @@ export const G4_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g4-eng-ch05-b-q13": ["Find the subject: what was put up on the board?", "Start with \"The\" + the thing, then the helper verb, then the action, then the place."],
   "g4-eng-ch05-b-q17": ["\"after 11:00 a.m.\" is a time word in the notice.", "The line tells parents something about the clock — what does it allow them to do?"],
   "g4-eng-ch05-b-q19": ["Papa needs to know who called, when, and what to do next.", "Pick the message that names the uncle, gives the time, and asks Papa to act."],
-  "g4-eng-ch05-b-q20": ["An email subject is a few words, so it cannot match the longest chapter of a novel.", "Check the phone message pair: without a caller's name, nobody knows whom to call back."],
+  "g4-eng-ch05-b-q20": ["Read both sides of each pair aloud and check the left kind of writing really does the right-hand job.", "Check the phone message pair: without a caller's name, nobody knows whom to call back."],
   "g4-eng-ch05-b-q23": ["A notice on the board starts at the top with the school's details.", "The heading comes next, then the details, and the signature goes at the very end."],
   "g4-eng-ch05-b-q24": ["The reminder email goes from one classmate to the rest of the class.", "A friendly email ends with thanks, a short friendly line and the writer's name."],
   // Pass 4 (2026-10-19): hint-rules-out / hint-partial-quote rewrites for items not already in this file
