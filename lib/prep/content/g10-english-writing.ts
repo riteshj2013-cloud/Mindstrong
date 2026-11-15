@@ -247,8 +247,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "must be a poem" }
     ],
     answerId: "a",
-    explanation: "We say a rising-then-falling line 'increased and then declined'. 'Stayed perfectly flat with no change' tempts a student who sees the line end where it began, but equal start and end mean no net change; the line still moved.",
-    hints: ["A line can end near where it began and still have moved a lot; test each option against the whole path described in the stem."]
+    explanation: "A rise followed by a fall is described as 'increased and then declined'. 'Stayed perfectly flat with no change' tempts a student who thinks the rise and fall cancel out, but the line clearly moved both ways.",
+    hints: ["Rising and falling do not cancel out into stillness; check each option against the whole path the stem describes."]
   },
   {
     id: "g10-eng-ch03-a-q20",

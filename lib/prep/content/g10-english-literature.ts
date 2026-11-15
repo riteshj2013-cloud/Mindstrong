@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "The poem calmly advises care with silence and with words, so its mood is reflective and cautionary. 'Indifferent to language' is tempting because the poem praises quiet, but it cares deeply about how we use words.",
-    hints: ["Underline the first verb of each sentence and name what kind of sentence it makes. Then weigh how the birds image shapes that speaker's tone."]
+    hints: ["Underline the first verb of each sentence and name what kind of sentence it makes. Then weigh how the birds image shapes the poem's tone."]
   },
   {
     id: "g10-eng-ch01-a-q23",

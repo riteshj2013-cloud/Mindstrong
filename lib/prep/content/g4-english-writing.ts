@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Notices share brief facts with a group. Diaries are private; subjects stay short.",
-    hints: ["Match each kind of writing — notice, email, phone message — with its job.", "For each pair, picture who reads that writing and for how long. Keep the pair whose two sides agree."],
+    hints: ["Match each kind of writing — notice, email, phone message — with its job.", "Check the phone message pair: without a caller's name, nobody knows whom to call back."],
   },
 {
     id: "g4-eng-ch05-b-q21",
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "The complimentary close sits above the signature name.",
-    hints: ["List the parts of a letter to Nani, from the date to the very last line. Then place 'Yours lovingly'.", "Address stays at the top."],
+    hints: ["List the parts of a letter to Nani, from the date to the very last line. Then place 'Yours lovingly'.", "In a letter to Nani, the address sits at the top, so 'Yours lovingly' does not belong there."],
   },
 {
     id: "g4-eng-ch05-b-q23",

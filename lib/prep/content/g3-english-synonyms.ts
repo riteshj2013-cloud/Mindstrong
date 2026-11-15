@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Wealthy\" means having a lot of money, like \"rich.\" Poor and needy are opposites.",
-    hints: ["Swap each word for rich in 'The rich merchant owned ten shops.' Keep whichever tells the same story.", "Poor is the opposite idea."]
+    hints: ["Swap each word for rich in 'The rich merchant owned ten shops.' Keep whichever tells the same story.", "Poor is the opposite of rich, so poor is out."]
   },
   {
     id: "g3-eng-synonyms-b-q08",
@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A \"buddy\" is a friend — someone you like and trust. Enemy and rival are opposites.",
-    hints: ["Some of these words are people Amina would not share her tiffin with. Cross those out first.", "Enemy is the opposite idea."]
+    hints: ["A stranger is someone Amina has never met, so stranger is not a twin of friend.", "Enemy is the opposite of friend, so enemy is out."]
   },
   {
     id: "g3-eng-synonyms-b-q17",
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Enormous\" means very big, like \"huge.\" Tiny is the opposite.",
-    hints: ["Swap each word for huge in the monsoon sentence. Keep the one that does not shrink the puddles.", "Tiny is the opposite size."]
+    hints: ["Swap each word for huge in the monsoon sentence. Keep the one that does not shrink the puddles.", "Tiny puddles are the opposite of huge ones, so tiny is out."]
   },
   {
     id: "g3-eng-synonyms-b-q23",

@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Sister names a person, so it is a noun. 'paints' is an action word (a verb), not a naming word.",
-    hints: ["Put 'a' before each choice, like 'a paints'. Only some words sound right that way.", "Paints is an action and beautiful describes. Which word names a person?"]
+    hints: ["To test for a noun, swap each choice for 'brother' and read the whole sentence again.", "Paints is an action and beautiful describes. Which word names a person?"]
   },
   {
     id: "g3-eng-grammar-a-q02",

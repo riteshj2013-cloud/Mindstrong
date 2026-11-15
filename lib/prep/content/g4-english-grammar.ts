@@ -389,7 +389,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "'Apple' begins with a vowel sound, so Meena says 'an'. 'The apple is small.' is tempting, but size never changes the article: a big apple is still 'an apple'.",
-    hints: ["Say 'a apple' and 'an apple', then 'a banana' and 'an banana'. Notice which ones feel easy to say.", "Compare \"a mango\" with \"an apple\" — listen to how each fruit word begins."]
+    hints: ["Say 'a apple' and 'an apple', then 'a banana' and 'an banana'. Notice which ones feel easy to say.", "Mother never says how big the apple is, so size cannot be Meena's reason."]
   },
   {
     id: "g4-eng-ch02-b-q06",
