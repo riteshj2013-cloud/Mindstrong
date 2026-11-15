@@ -291,7 +291,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch01-a-q23",
-    prompt: "For forty-one years, the sign above Hamid Chacha's shop had promised the same thing: WE FIX WHAT OTHERS THROW AWAY. The paint had faded to the colour of weak tea, but the promise had not. Inside, among coils of copper wire and the sweet, burnt smell of solder, transistor radios sat in patient rows like old patients in a waiting room.\n\nTanvi first came in with a phone whose screen had shattered into a spider's web. The showroom in the mall had told her it was \"not worth repairing\" and suggested a newer model. Hamid Chacha turned the phone over in his rough hands, peering at it through glasses as thick as bottle bottoms. \"Not worth repairing,\" he repeated softly, as if tasting a strange fruit. \"Everything is worth repairing. The question is whether we are worth the patience.\"\n\nHe needed three days. Tanvi visited every afternoon, at first to check on her phone and then, without quite admitting it, to watch him work. She learned that a resistor has coloured stripes that tell its story, and that most broken things are only one small fault away from working again.\n\nWhen she finally collected the phone, it was not new. There was a hairline scratch near the camera. But it was hers, and it worked, and Tanvi found she liked it better that way.\n\nConsider Passages P1 and P3 together. Which idea do BOTH texts suggest?",
+    prompt: "Passage 1: The Repair Shop\n\nFor forty-one years, the sign above Hamid Chacha's shop had promised the same thing: WE FIX WHAT OTHERS THROW AWAY. The paint had faded, but the promise had not.\n\nTanvi came in with a phone whose screen had shattered into a spider's web. The showroom in the mall had told her it was \"not worth repairing\" and suggested a newer model. \"Not worth repairing,\" Hamid Chacha repeated softly. \"Everything is worth repairing. The question is whether we are worth the patience.\"\n\nHe needed three days. When Tanvi finally collected the phone, it was not new. There was a hairline scratch near the camera. But it was hers, and it worked, and she liked it better that way.\n\nPassage 2: The Old Tree (a poem)\n\nI was here before the tarmac, before the signal's blinking eye,\nwhen bullock carts were traffic and the kites owned all the sky.\nI have sheltered tired vendors, I have heard the elders' words,\nI have been a home to monkeys and a parliament of birds.\n\nThey say I am an obstacle; they measure me in feet.\nThey have drawn a dotted line through me upon a planning sheet.\nBut my roots run under every house, beneath each hurried stride —\ncut me down, and you will find the town was standing on my side.\n\nRead Passage 1 and Passage 2 together. Which idea do BOTH texts suggest?",
     options: [
       { id: "a", text: "Newer things are always more valuable than older ones." },
       { id: "b", text: "Cities are cruel places to live." },
@@ -299,8 +299,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Things with long histories hold value that is easily overlooked." }
     ],
     answerId: "d",
-    explanation: "The showroom calls the phone \"not worth repairing,\" and planners call the tree \"an obstacle.\" Both texts reveal value that others dismiss.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "The showroom dismisses the phone as \"not worth repairing\"; planners call the old tree \"an obstacle\". Both show overlooked value. \"Older people refuse to accept change.\" tempts because Hamid is old, but he happily fixes a modern phone.",
+    hints: ["Hamid Chacha is old, yet he gladly fixes Tanvi's modern phone, so neither text is about older people refusing change."]
   },
   {
     id: "g8-eng-ch01-a-q24",
@@ -606,7 +606,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch01-b-q23",
-    prompt: "Ask your grandparents what the night sky looked like when they were children, and many will describe something you may never have seen: a sky so crowded with stars that the Milky Way stretched across it like a spilled river of salt. Today, in most Indian cities, a child can count the visible stars on two hands.\n\nThe culprit is not cloud or dust alone. It is light, our own light, pouring upward from streetlamps, hoardings and buildings that glow all night whether anyone needs them or not. Scientists call this light pollution, and its effects reach far beyond astronomy. Migrating birds, which navigate partly by the stars, become confused and circle lit towers until they are exhausted. Sea turtle hatchlings on the beaches of Odisha crawl towards bright roads instead of the moonlit sea. Even our own sleep suffers when our bodies cannot tell night from day.\n\nThe encouraging news is that, unlike many forms of pollution, this one can be reversed almost instantly. Shielded lamps that point downward, timers on advertising boards, and simply switching off what we are not using could return the stars to our cities. The darkness, it turns out, is worth protecting.\n\nConsider Passages P2 and P3 together. What do they have in common?",
+    prompt: "Passage 1: Where Have the Stars Gone?\n\nAsk your grandparents what the night sky looked like when they were children, and many will describe a sky so crowded with stars that the Milky Way stretched across it like a spilled river of salt. In most Indian cities, a child can count the visible stars on two hands.\n\nThe culprit is light pouring upward from streetlamps, hoardings and buildings that glow all night. Migrating birds become confused and circle lit towers until they are exhausted. Sea turtle hatchlings on the beaches of Odisha crawl towards bright roads instead of the moonlit sea. Even our own sleep suffers.\n\nThe good news is that shielded lamps, and simply switching off what we are not using, could return the stars to our cities.\n\nPassage 2: The Old Tree (a poem)\n\nI was here before the tarmac, before the signal's blinking eye,\nwhen bullock carts were traffic and the kites owned all the sky.\nI have sheltered tired vendors, I have heard the elders' words,\nI have been a home to monkeys and a parliament of birds.\n\nThey say I am an obstacle; they measure me in feet.\nThey have drawn a dotted line through me upon a planning sheet.\nBut my roots run under every house, beneath each hurried stride —\ncut me down, and you will find the town was standing on my side.\n\nRead Passage 1 and Passage 2 together. What do they have in common?",
     options: [
       { id: "a", text: "Both are written as poems." },
       { id: "b", text: "Both show how human development can harm the natural world." },
@@ -614,8 +614,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Both are set on the coast of Odisha." }
     ],
     answerId: "b",
-    explanation: "P2 shows city lights harming wildlife and sleep, and P3 shows a road threatening an old tree. Both explore the cost of growth to nature.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    explanation: "City lights confuse birds and turtles; a growing town threatens the old tree. Both show development harming nature. \"Both are set on the coast of Odisha.\" tempts because one passage mentions Odisha's beaches, but the poem never does.",
+    hints: ["Only the tree text has rhyming lines; the starlight passage is written in plain paragraphs, so the shared idea lies beyond form."]
   },
   {
     id: "g8-eng-ch01-b-q24",
