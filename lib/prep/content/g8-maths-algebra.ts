@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "2x + 5" }
     ],
     answerId: "c",
-    explanation: "FOIL: x² + 3x + 2x + 6 = x² + 5x + 6. x² + 6 is tempting if a cross-term sign slip changes the middle coefficient; careful FOIL gives x² + 5x + 6.",
+    explanation: "Multiply each term in the first bracket by each term in the second. x × x = x², x × 3 = 3x, 2 × x = 2x and 2 × 3 = 6. Add them: x² + 3x + 2x + 6 = x² + 5x + 6. x² + 6 is tempting if you multiply only the first terms and the last terms. That is x × x and 2 × 3, which leaves out the two x terms in the middle.",
     hints: ["Multiply each term of (x + 2) by each term of (x + 3), then add the two x terms."]
   },
   {
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "a(a \u2212 b)" }
     ],
     answerId: "c",
-    explanation: "Difference of squares: a² − b² = (a + b)(a − b). (a − b)² is tempting if you pull out only part of the common factor or factor incompletely; full factorisation gives (a + b)(a − b).",
+    explanation: "a² − b² is a difference of two squares, and it factors as (a + b)(a − b). Check: (a + b)(a − b) = a² − ab + ab − b² = a² − b². (a − b)² is tempting if you think (a − b)² is a² − b². In fact (a − b)² = a² − 2ab + b², which has a middle term.",
     hints: ["Multiply out each possible factorisation and see which gives back a² − b² with no ab term."]
   },
   {

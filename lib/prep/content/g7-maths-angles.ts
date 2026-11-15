@@ -66,8 +66,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "45\u00b0" }
     ],
     answerId: "a",
-    explanation: "Two angles are complementary if they add to 90°. 45° is tempting if you subtract from 180° (supplement) when the pair is complementary (90°); using 90° gives 90° when you re-check the complementary.",
-    hints: ["Complement → right angle total."]
+    explanation: "Complementary angles add up to 90°, like the two parts of a square corner split by a line. So the sum is 90°. 180° is tempting if you mix up complementary with supplementary: supplementary angles add up to 180°, a straight line.",
+    hints: ["In the alphabet, complementary comes before supplementary. Their special totals follow the same order, from smaller to larger, so complementary angles take the smaller one."]
   },
   {
     id: "g7-maths-angles-a-q06",
@@ -170,8 +170,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "270\u00b0" }
     ],
     answerId: "a",
-    explanation: "A full turn is 360°. 270° is tempting if you mix co-interior (same-side) with alternate angles; same-side interiors add to 180°, giving 360° when you re-check the angles.",
-    hints: ["Full circle around a point."]
+    explanation: "Angles around a point make one full turn, and a full turn is 360°. For example, four right angles around a point give 90° + 90° + 90° + 90° = 360°. 180° is tempting if you mix up angles around a point with angles on a straight line, which only make a half turn.",
+    hints: ["Draw two lines crossing at a point. Add the angles on one side of one line, then those on the other side."]
   },
   {
     id: "g7-maths-angles-a-q14",
@@ -209,8 +209,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "80\u00b0" }
     ],
     answerId: "d",
-    explanation: "180 − 40 − 60 = 80. 70° is tempting if you call an acute angle obtuse (or the reverse) from a rough look; the size band is 80° when you re-check the triangle.",
-    hints: ["Use the angle sum."]
+    explanation: "The three angles of a triangle add up to 180°. 40° + 60° = 100°, so the third angle is 180° − 100° = 80°. Check: 40° + 60° + 80° = 180°. 100° is tempting if you add the two angles you know and stop there, giving 40° + 60° = 100° as the third angle.",
+    hints: ["The three angles of any triangle share one fixed total. Work out what the two given angles use up, then find the rest."]
   },
   {
     id: "g7-maths-angles-a-q17",
@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "40" }
     ],
     answerId: "a",
-    explanation: "2x + 10 = 3x − 20 → 30 = x. 20 is tempting if you use the wrong angle relationship; the correct measure is 30.",
+    explanation: "Vertically opposite angles are equal, so 2x + 10 = 3x − 20. Take 2x from both sides: 10 = x − 20. Add 20 to both sides: x = 30. Check: 2 × 30 + 10 = 70 and 3 × 30 − 20 = 70. 10 is tempting if you take 10 away from 20 instead of adding them: 20 − 10 = 10.",
     hints: ["Set vertically opposite angles equal."]
   },
   {
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "No" }
     ],
     answerId: "d",
-    explanation: "90 + 90 = 180 leaves 0° for the third angle — impossible. Yes is tempting if you treat vertically opposite angles as a linear pair; opposite equals opposite, giving No when you re-check the can.",
+    explanation: "The three angles of a triangle add up to 180°. Two right angles already use 90° + 90° = 180°, so the third angle would be 180° − 180° = 0°. An angle of 0° cannot make a corner, so the answer is No. Yes is tempting if you only check that the total is 180° and forget that the third angle must be more than 0°.",
     hints: ["Angle sum would exceed or leave nothing."]
   },
   {
@@ -446,8 +446,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "60\u00b0" }
     ],
     answerId: "b",
-    explanation: "360 − 90 − 120 = 150. 210° is tempting if you mis-read which arm is shared in the adjacent pair; the correct adjacent relationship gives 150° when you re-check the three.",
-    hints: ["Angles around a point sum to 360°."]
+    explanation: "Angles around a point add up to 360°. 90° + 120° = 210°, so x = 360° − 210° = 150°. Check: 90° + 120° + 150° = 360°. 210° is tempting if you add the two given angles and give their total, 90° + 120° = 210°, as x.",
+    hints: ["Angles around a point fill one whole turn. Find how much of the turn the known angles use, then what is left for x."]
   },
   {
     id: "g7-maths-angles-b-q11",
@@ -537,8 +537,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Reflex" }
     ],
     answerId: "a",
-    explanation: "All three angles less than 90° → acute-angled triangle. Obtuse-angled is tempting if you forget that a triangle's three angles add to 180° and mis-subtract; the missing angle is Acute-angled when you re-check the triangle.",
-    hints: ["Named by its largest angle type."]
+    explanation: "A triangle is named by its angles. If all three angles are less than 90°, every angle is acute, so the triangle is Acute-angled. For example, 50°, 60° and 70° add up to 180° and are all acute. Obtuse-angled is tempting if you mix up the words acute and obtuse. Obtuse means more than 90°, and an Obtuse-angled triangle has one angle like that.",
+    hints: ["Sketch a triangle whose angles all match the stem. Test each option against your sketch: could your triangle have that kind of angle?"]
   },
   {
     id: "g7-maths-angles-b-q18",
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "5\u00b0" }
     ],
     answerId: "a",
-    explanation: "Adjacent to 85° on a straight-line style at the intersection: 180 − 85 = 95. 85° is tempting if you use the wrong angle relationship (for example complementary instead of supplementary); the correct measure is 95°.",
+    explanation: "∠AOD sits next to an 85° angle along a straight line, so together they make 180°. So ∠AOD = 180° − 85° = 95°. Check: 85° + 95° = 180°. 85° is tempting if you think angles next to each other are equal. It is the vertically opposite angles that are equal, not the ones side by side.",
     hints: ["Adjacent angles on intersecting lines form a linear pair."]
   },
   {

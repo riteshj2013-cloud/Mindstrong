@@ -40,8 +40,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "reflex" }
     ],
     answerId: "c",
-    explanation: "A right angle measures exactly 90°. acute is tempting if you count an extra side that is not part of the polygon.",
-    hints: ["Picture the corner of a notebook page. What special name is given to an angle measuring exactly 90°?"]
+    explanation: "An angle of exactly 90° is a right angle, like the corner of a notebook page. Acute angles are less than 90° and obtuse angles are more than 90°, so 90° itself is neither. Acute is tempting if you think acute means up to and including 90°, but an acute angle must be less than 90°.",
+    hints: ["List where each angle type starts and stops. Then check whether 90° sits inside one of those ranges or exactly on its edge."]
   },
   {
     id: "g6-maths-geo-a-q04",
@@ -66,8 +66,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "straight" }
     ],
     answerId: "a",
-    explanation: "Obtuse angles are between 90° and 180°. 120° is obtuse. acute is tempting if you use radius where diameter is needed.",
-    hints: ["120° is more than a right angle of 90° but less than 180°. Which type is that?"]
+    explanation: "An obtuse angle is more than 90° but less than 180°. 120° is 30° more than a right angle and 60° less than a straight angle, so 120° is obtuse. Acute is tempting if you mix up the two words: acute angles are the small ones, less than 90°.",
+    hints: ["Compare this 120° angle with the sizes where each angle type starts and stops. Then match the range it falls in to its name."]
   },
   {
     id: "g6-maths-geo-a-q06",
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "right" }
     ],
     answerId: "b",
-    explanation: "180° is a straight angle. acute is tempting if you count an extra side that is not part of the polygon.",
+    explanation: "An angle of 180° has its two arms pointing in opposite directions, making one straight line, so it is a straight angle. Obtuse is tempting if you think obtuse covers every angle above 90° up to and including 180°. Obtuse angles stop just below 180°.",
     hints: ["At 180° the two arms point in exactly opposite directions and form a line. Which angle type is that?"]
   },
   {
@@ -524,8 +524,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "at least two sides equal" }
     ],
     answerId: "d",
-    explanation: "Isosceles means at least two sides equal. all sides different is tempting if you count an extra side that is not part of the polygon.",
-    hints: ["Iso means equal. In an isosceles triangle, how many sides must match?"]
+    explanation: "Isosceles means the triangle has at least two sides equal, like the two sloping sides of a tent. A triangle with all three sides equal counts too. All sides different is tempting if you mix up isosceles with scalene. A scalene triangle is the one with all sides different.",
+    hints: ["Sketch an isosceles triangle, like the front of a tent. Measure its sides with a ruler and test each option against your sketch."]
   },
   {
     id: "g6-maths-geo-b-q17",
