@@ -247,7 +247,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "must be a poem" }
     ],
     answerId: "a",
-    explanation: "A line that rises and then falls is described as having 'increased and then declined'. 'Stayed perfectly flat with no change' is tempting if you only compare the start and end, but the graph clearly rose and fell in between.",
+    explanation: "A line that rises and then falls is described as having 'increased and then declined'. 'Cannot be described in words' may tempt a student unsure of graph vocabulary, but report writing exists to put such trends into words.",
     hints: ["Trace the graph with your finger from left to right, like Mumbai's monthly rainfall, and find words for each half of its movement."]
   },
   {
