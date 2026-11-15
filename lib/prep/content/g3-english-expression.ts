@@ -125,7 +125,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-expression-a-q10",
-    prompt: "[D1] A Phone Call for Rhea (dialogue)\n\n**Ishaan:** Hello, this is Ishaan.\n**Mr. Bose:** Hello, Ishaan. I am Mr. Bose, Rhea's cricket coach. Is Rhea at home?\n**Ishaan:** Sorry, sir, she has gone to the library. May I take a message?\n**Mr. Bose:** Yes, please. Tell her that practice on Saturday will start at 8 a.m., not 7 a.m. She must bring her own water bottle.\n**Ishaan:** Practice at 8 a.m. on Saturday, and a water bottle. I will tell her, sir.\n**Mr. Bose:** Thank you, Ishaan. Bye!\n\nRead Dialogue D1 (the phone call). Which note should Ishaan write for Rhea?",
+    prompt: "**A Phone Call for Rhea**\n\n**Ishaan:** Hello, this is Ishaan.\n**Mr. Bose:** Hello, Ishaan. I am Mr. Bose, Rhea's cricket coach. Is Rhea at home?\n**Ishaan:** Sorry, sir, she has gone to the library. May I take a message?\n**Mr. Bose:** Yes, please. Tell her that practice on Saturday will start at 8 a.m., not 7 a.m. She must bring her own water bottle.\n**Ishaan:** Practice at 8 a.m. on Saturday, and a water bottle. I will tell her, sir.\n**Mr. Bose:** Thank you, Ishaan. Bye!\n\nRead the dialogue (the phone call). Which note should Ishaan write for Rhea?",
     options: [
       { id: "a", text: "Mr. Bose called. Saturday practice starts at 7 a.m. Bring a water bottle." },
       { id: "b", text: "Mr. Bose called. Saturday practice starts at 8 a.m. Bring a water bottle." },
@@ -138,7 +138,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-expression-a-q11",
-    prompt: "[D1] A Phone Call for Rhea (dialogue)\n\n**Ishaan:** Hello, this is Ishaan.\n**Mr. Bose:** Hello, Ishaan. I am Mr. Bose, Rhea's cricket coach. Is Rhea at home?\n**Ishaan:** Sorry, sir, she has gone to the library. May I take a message?\n**Mr. Bose:** Yes, please. Tell her that practice on Saturday will start at 8 a.m., not 7 a.m. She must bring her own water bottle.\n**Ishaan:** Practice at 8 a.m. on Saturday, and a water bottle. I will tell her, sir.\n**Mr. Bose:** Thank you, Ishaan. Bye!\n\nRead Dialogue D1. Why does Ishaan say, \"Practice at 8 a.m. on Saturday, and a water bottle\"?",
+    prompt: "**A Phone Call for Rhea**\n\n**Ishaan:** Hello, this is Ishaan.\n**Mr. Bose:** Hello, Ishaan. I am Mr. Bose, Rhea's cricket coach. Is Rhea at home?\n**Ishaan:** Sorry, sir, she has gone to the library. May I take a message?\n**Mr. Bose:** Yes, please. Tell her that practice on Saturday will start at 8 a.m., not 7 a.m. She must bring her own water bottle.\n**Ishaan:** Practice at 8 a.m. on Saturday, and a water bottle. I will tell her, sir.\n**Mr. Bose:** Thank you, Ishaan. Bye!\n\nRead the dialogue. Why does Ishaan say, \"Practice at 8 a.m. on Saturday, and a water bottle\"?",
     options: [
       { id: "a", text: "Because he did not hear Mr. Bose at all" },
       { id: "b", text: "To end the call quickly" },
@@ -192,7 +192,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-expression-a-q15",
-    prompt: "[N1] Fancy Dress Show (school notice)\n\n> **NOTICE \u2014 Fancy Dress Show**\n> For: Class 3\n> Day: Monday, 7 December\n> Time: 10 a.m.\n> Place: School Hall\n> Theme: Animals of India\n> \u2014 Ms. Kaur, Class Teacher\n\nRead Notice N1 (Fancy Dress Show). Which costume fits the theme on the notice?",
+    prompt: "**NOTICE — Fancy Dress Show**\nFor: Class 3\nDay: Monday, 7 December\nTime: 10 a.m.\nPlace: School Hall\nTheme: Animals of India\n— Ms. Kaur, Class Teacher\n\nRead the notice (Fancy Dress Show). Which costume fits the theme on the notice?",
     options: [
       { id: "a", text: "A tiger" },
       { id: "b", text: "A kangaroo" },
@@ -450,7 +450,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-expression-b-q10",
-    prompt: "[D2] At the Clinic (dialogue)\n\n**Receptionist:** Good morning! How can I help you?\n**Nisha:** Good morning. My grandmother has an appointment with Dr. Fernandes at 11 o'clock.\n**Receptionist:** May I know her name, please?\n**Nisha:** Her name is Kamala Pillai.\n**Receptionist:** Thank you. Please take a seat. The doctor will call her in ten minutes.\n**Nisha:** Thank you very much.\n\nRead Dialogue D2 (at the clinic). Who has an appointment with Dr. Fernandes?",
+    prompt: "**At the Clinic**\n\n**Receptionist:** Good morning! How can I help you?\n**Nisha:** Good morning. My grandmother has an appointment with Dr. Fernandes at 11 o'clock.\n**Receptionist:** May I know her name, please?\n**Nisha:** Her name is Kamala Pillai.\n**Receptionist:** Thank you. Please take a seat. The doctor will call her in ten minutes.\n**Nisha:** Thank you very much.\n\nRead the dialogue (at the clinic). Who has an appointment with Dr. Fernandes?",
     options: [
       { id: "a", text: "Nisha's grandmother" },
       { id: "b", text: "Nisha" },
@@ -463,7 +463,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-expression-b-q11",
-    prompt: "[D2] At the Clinic (dialogue)\n\n**Receptionist:** Good morning! How can I help you?\n**Nisha:** Good morning. My grandmother has an appointment with Dr. Fernandes at 11 o'clock.\n**Receptionist:** May I know her name, please?\n**Nisha:** Her name is Kamala Pillai.\n**Receptionist:** Thank you. Please take a seat. The doctor will call her in ten minutes.\n**Nisha:** Thank you very much.\n\nRead Dialogue D2. Which question does the receptionist ask to find out who the patient is?",
+    prompt: "**At the Clinic**\n\n**Receptionist:** Good morning! How can I help you?\n**Nisha:** Good morning. My grandmother has an appointment with Dr. Fernandes at 11 o'clock.\n**Receptionist:** May I know her name, please?\n**Nisha:** Her name is Kamala Pillai.\n**Receptionist:** Thank you. Please take a seat. The doctor will call her in ten minutes.\n**Nisha:** Thank you very much.\n\nRead the dialogue. Which question does the receptionist ask to find out who the patient is?",
     options: [
       { id: "a", text: "How can I help you?" },
       { id: "b", text: "May I know her name, please?" },
@@ -476,7 +476,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-expression-b-q12",
-    prompt: "[D2] At the Clinic (dialogue)\n\n**Receptionist:** Good morning! How can I help you?\n**Nisha:** Good morning. My grandmother has an appointment with Dr. Fernandes at 11 o'clock.\n**Receptionist:** May I know her name, please?\n**Nisha:** Her name is Kamala Pillai.\n**Receptionist:** Thank you. Please take a seat. The doctor will call her in ten minutes.\n**Nisha:** Thank you very much.\n\nRead Dialogue D2. What will Nisha and her grandmother do next?",
+    prompt: "**At the Clinic**\n\n**Receptionist:** Good morning! How can I help you?\n**Nisha:** Good morning. My grandmother has an appointment with Dr. Fernandes at 11 o'clock.\n**Receptionist:** May I know her name, please?\n**Nisha:** Her name is Kamala Pillai.\n**Receptionist:** Thank you. Please take a seat. The doctor will call her in ten minutes.\n**Nisha:** Thank you very much.\n\nRead the dialogue. What will Nisha and her grandmother do next?",
     options: [
       { id: "a", text: "Sit down and wait for the doctor to call" },
       { id: "b", text: "Walk into the doctor's room at once" },
@@ -543,7 +543,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-expression-b-q17",
-    prompt: "[N2] Eye Check-up (school notice)\n\n> **NOTICE \u2014 Eye Check-up**\n> For: Class 3\n> Day: Tuesday, 8 December\n> Time: 11 a.m.\n> Place: Medical Room\n> If you wear glasses, please bring them.\n> \u2014 Mr. Bhatt, Class Teacher\n\nRead Notice N2 (Eye Check-up). Ravi in Class 3 wears glasses. What must he remember to do?",
+    prompt: "**NOTICE — Eye Check-up**\nFor: Class 3\nDay: Tuesday, 8 December\nTime: 11 a.m.\nPlace: Medical Room\nIf you wear glasses, please bring them.\n— Mr. Bhatt, Class Teacher\n\nRead the notice (Eye Check-up). Ravi in Class 3 wears glasses. What must he remember to do?",
     options: [
       { id: "a", text: "Go to the School Hall at 11 a.m. on Tuesday with his glasses" },
       { id: "b", text: "Go to the Medical Room at 11 a.m. on Tuesday with his glasses" },
@@ -570,7 +570,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-expression-b-q19",
-    prompt: "[M1] Varun's Message (short message)\n\n> Didi,\n> Anjali came at 4 o'clock.\n> She returned your storybook.\n> I kept it on your table.\n> She will call you after dinner.\n> \u2014 Varun\n\nRead Message M1. Who wrote this message?",
+    prompt: "**Varun's Message**\n\nDidi,\nAnjali came at 4 o'clock.\nShe returned your storybook.\nI kept it on your table.\nShe will call you after dinner.\n— Varun\n\nRead the message. Who wrote this message?",
     options: [
       { id: "a", text: "Varun" },
       { id: "b", text: "Didi" },

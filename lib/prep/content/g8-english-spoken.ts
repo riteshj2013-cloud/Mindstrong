@@ -5,7 +5,7 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g8-eng-ch04-a-q01",
-    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. Which side of the debate is Rohan on?",
+    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking — and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead the dialogue. Which side of the debate is Rohan on?",
     options: [
       { id: "a", text: "Proposition" },
       { id: "b", text: "Judge" },
@@ -18,7 +18,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q02",
-    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. Rohan's words \"Firstly\u2026 Secondly\u2026 Finally\u2026\" mainly help him \u2014",
+    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking — and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead the dialogue. Rohan's words \"Firstly… Secondly… Finally…\" mainly help him —",
     options: [
       { id: "a", text: "apologise for being late" },
       { id: "b", text: "organise his arguments in clear order" },
@@ -31,7 +31,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q03",
-    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. Anya begins, \"On the other hand\u2026\" This phrase signals that she will \u2014",
+    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking — and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead the dialogue. Anya begins, \"On the other hand…\" This phrase signals that she will —",
     options: [
       { id: "a", text: "repeat Rohan's exact words" },
       { id: "b", text: "end the conversation" },
@@ -44,7 +44,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q04",
-    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. Which line is the most polite request?",
+    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking — and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead the dialogue. Which line is the most polite request?",
     options: [
       { id: "a", text: "\"Please don't use 'like' every second word in the hall.\"" },
       { id: "b", text: "\"Point taken. Formal register it is.\"" },
@@ -57,7 +57,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q05",
-    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. Why does Rohan want Anya to prepare a rebuttal for his \"study time\" point?",
+    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking — and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead the dialogue. Why does Rohan want Anya to prepare a rebuttal for his \"study time\" point?",
     options: [
       { id: "a", text: "Judges notice when speakers answer the other side's arguments" },
       { id: "b", text: "Rebuttals replace the need for an opening speech" },
@@ -70,7 +70,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q06",
-    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. Rohan warns Anya not to use \"like\" every second word in the hall because \u2014",
+    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking — and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead the dialogue. Rohan warns Anya not to use \"like\" every second word in the hall because —",
     options: [
       { id: "a", text: "the word \"like\" is grammatically illegal" },
       { id: "b", text: "debate English needs a more formal spoken register" },
@@ -83,7 +83,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q07",
-    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. \"Let's get cracking\" means \u2014",
+    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking — and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead the dialogue. \"Let's get cracking\" means —",
     options: [
       { id: "a", text: "let's cancel the debate" },
       { id: "b", text: "let's whisper" },
@@ -96,7 +96,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q08",
-    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. \"Point taken\" shows that Anya \u2014",
+    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking — and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead the dialogue. \"Point taken\" shows that Anya —",
     options: [
       { id: "a", text: "changes the debate motion" },
       { id: "b", text: "asks for more time" },
@@ -109,7 +109,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q09",
-    prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest \u2014 none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead Opening speech P1. What is the motion being debated?",
+    prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest — none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead the opening speech. What is the motion being debated?",
     options: [
       { id: "a", text: "Homework should be limited to one hour on school nights" },
       { id: "b", text: "Sport should replace all homework" },
@@ -122,7 +122,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q10",
-    prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest \u2014 none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead Opening speech P1. Which side is the speaker on?",
+    prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest — none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead the opening speech. Which side is the speaker on?",
     options: [
       { id: "a", text: "Opposition" },
       { id: "b", text: "Proposition" },
@@ -135,7 +135,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q11",
-    prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest \u2014 none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead Opening speech P1. The phrase \"To sum up\" signals that the speaker is about to \u2014",
+    prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest — none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead the opening speech. The phrase \"To sum up\" signals that the speaker is about to —",
     options: [
       { id: "a", text: "introduce a brand-new unrelated topic" },
       { id: "b", text: "ask the opposition to speak first" },
@@ -148,7 +148,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q12",
-    prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest \u2014 none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead Opening speech P1. How does the speaker handle a possible counter-argument?",
+    prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest — none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead the opening speech. How does the speaker handle a possible counter-argument?",
     options: [
       { id: "a", text: "By asking the judges to invent evidence" },
       { id: "b", text: "By changing the motion mid-speech" },
@@ -161,7 +161,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q13",
-    prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest \u2014 none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead Opening speech P1. Which claim is supported with a reason about concentration?",
+    prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest — none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead the opening speech. Which claim is supported with a reason about concentration?",
     options: [
       { id: "a", text: "After about sixty minutes, concentration falls for most adolescents" },
       { id: "b", text: "Homework should last four hours" },
@@ -174,7 +174,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q14",
-    prompt: "Thank you. The proposition painted a neat picture, but it skips an important fact. Many subjects \u2014 mathematics and languages especially \u2014 need spaced practice beyond a single hour. If we cap homework rigidly, weaker students lose the extra support they need at home. Moreover, \"one hour\" is not equal for everyone: a quiet desk at home is not the same as a crowded shared room. We on the opposition therefore reject a blanket limit. Instead, we propose clearer guidelines and better-designed tasks, not a one-size-fits-all clock. I ask the house to oppose the motion.\n\nRead Opposition rebuttal P2. The speaker's main purpose is to \u2014",
+    prompt: "Thank you. The proposition painted a neat picture, but it skips an important fact. Many subjects — mathematics and languages especially — need spaced practice beyond a single hour. If we cap homework rigidly, weaker students lose the extra support they need at home. Moreover, \"one hour\" is not equal for everyone: a quiet desk at home is not the same as a crowded shared room. We on the opposition therefore reject a blanket limit. Instead, we propose clearer guidelines and better-designed tasks, not a one-size-fits-all clock. I ask the house to oppose the motion.\n\nRead the opposition rebuttal. The speaker's main purpose is to —",
     options: [
       { id: "a", text: "support the one-hour homework limit" },
       { id: "b", text: "argue against a blanket one-hour limit" },
@@ -187,7 +187,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q15",
-    prompt: "Thank you. The proposition painted a neat picture, but it skips an important fact. Many subjects \u2014 mathematics and languages especially \u2014 need spaced practice beyond a single hour. If we cap homework rigidly, weaker students lose the extra support they need at home. Moreover, \"one hour\" is not equal for everyone: a quiet desk at home is not the same as a crowded shared room. We on the opposition therefore reject a blanket limit. Instead, we propose clearer guidelines and better-designed tasks, not a one-size-fits-all clock. I ask the house to oppose the motion.\n\nRead Opposition rebuttal P2. Which line best shows a rebuttal (answering the other side)?",
+    prompt: "Thank you. The proposition painted a neat picture, but it skips an important fact. Many subjects — mathematics and languages especially — need spaced practice beyond a single hour. If we cap homework rigidly, weaker students lose the extra support they need at home. Moreover, \"one hour\" is not equal for everyone: a quiet desk at home is not the same as a crowded shared room. We on the opposition therefore reject a blanket limit. Instead, we propose clearer guidelines and better-designed tasks, not a one-size-fits-all clock. I ask the house to oppose the motion.\n\nRead the opposition rebuttal. Which line best shows a rebuttal (answering the other side)?",
     options: [
       { id: "a", text: "\"Moreover, 'one hour' is not equal for everyone\u2026\"" },
       { id: "b", text: "\"Thank you.\"" },
@@ -200,7 +200,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q16",
-    prompt: "Thank you. The proposition painted a neat picture, but it skips an important fact. Many subjects \u2014 mathematics and languages especially \u2014 need spaced practice beyond a single hour. If we cap homework rigidly, weaker students lose the extra support they need at home. Moreover, \"one hour\" is not equal for everyone: a quiet desk at home is not the same as a crowded shared room. We on the opposition therefore reject a blanket limit. Instead, we propose clearer guidelines and better-designed tasks, not a one-size-fits-all clock. I ask the house to oppose the motion.\n\nRead Opposition rebuttal P2. \"Moreover\" is used to \u2014",
+    prompt: "Thank you. The proposition painted a neat picture, but it skips an important fact. Many subjects — mathematics and languages especially — need spaced practice beyond a single hour. If we cap homework rigidly, weaker students lose the extra support they need at home. Moreover, \"one hour\" is not equal for everyone: a quiet desk at home is not the same as a crowded shared room. We on the opposition therefore reject a blanket limit. Instead, we propose clearer guidelines and better-designed tasks, not a one-size-fits-all clock. I ask the house to oppose the motion.\n\nRead the opposition rebuttal. \"Moreover\" is used to —",
     options: [
       { id: "a", text: "withdraw the previous sentence" },
       { id: "b", text: "greet the judges" },
@@ -213,7 +213,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q17",
-    prompt: "Thank you. The proposition painted a neat picture, but it skips an important fact. Many subjects \u2014 mathematics and languages especially \u2014 need spaced practice beyond a single hour. If we cap homework rigidly, weaker students lose the extra support they need at home. Moreover, \"one hour\" is not equal for everyone: a quiet desk at home is not the same as a crowded shared room. We on the opposition therefore reject a blanket limit. Instead, we propose clearer guidelines and better-designed tasks, not a one-size-fits-all clock. I ask the house to oppose the motion.\n\nRead Opposition rebuttal P2. What alternative does the opposition propose instead of a rigid cap?",
+    prompt: "Thank you. The proposition painted a neat picture, but it skips an important fact. Many subjects — mathematics and languages especially — need spaced practice beyond a single hour. If we cap homework rigidly, weaker students lose the extra support they need at home. Moreover, \"one hour\" is not equal for everyone: a quiet desk at home is not the same as a crowded shared room. We on the opposition therefore reject a blanket limit. Instead, we propose clearer guidelines and better-designed tasks, not a one-size-fits-all clock. I ask the house to oppose the motion.\n\nRead the opposition rebuttal. What alternative does the opposition propose instead of a rigid cap?",
     options: [
       { id: "a", text: "Clearer guidelines and better-designed tasks" },
       { id: "b", text: "Four hours of homework nightly" },
@@ -226,7 +226,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q18",
-    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead Assembly announcement O1. The speaker begins with \"May I have your attention, please?\" This is mainly \u2014",
+    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead the assembly announcement. The speaker begins with \"May I have your attention, please?\" This is mainly —",
     options: [
       { id: "a", text: "a rude command" },
       { id: "b", text: "a polite way to open a public spoken message" },
@@ -239,7 +239,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q19",
-    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead Assembly announcement O1. Who is invited?",
+    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead the assembly announcement. Who is invited?",
     options: [
       { id: "a", text: "Parents only" },
       { id: "b", text: "Only teachers" },
@@ -252,7 +252,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-a-q20",
-    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead Assembly announcement O1. By when must interested students give their names?",
+    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead the assembly announcement. By when must interested students give their names?",
     options: [
       { id: "a", text: "Monday morning" },
       { id: "b", text: "After the workshop" },
@@ -320,7 +320,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g8-eng-ch04-b-q01",
-    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. Anya is on the opposition. That means she will argue that \u2014",
+    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking — and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead the dialogue. Anya is on the opposition. That means she will argue that —",
     options: [
       { id: "a", text: "the motion is false or overstated \u2014 social media also helps" },
       { id: "b", text: "debates should be cancelled" },
@@ -333,7 +333,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-b-q02",
-    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. What does Anya ask about Rohan's case?",
+    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking — and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead the dialogue. What does Anya ask about Rohan's case?",
     options: [
       { id: "a", text: "Whether lunch is vegetarian" },
       { id: "b", text: "His strongest point" },
@@ -346,7 +346,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-b-q03",
-    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. \"May I suggest you prepare a rebuttal\u2026\" is an example of \u2014",
+    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking — and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead the dialogue. \"May I suggest you prepare a rebuttal…\" is an example of —",
     options: [
       { id: "a", text: "a poem" },
       { id: "b", text: "an order shouted at a junior" },
@@ -359,7 +359,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-b-q04",
-    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. \"Formal register it is\" means Anya will \u2014",
+    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking — and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead the dialogue. \"Formal register it is\" means Anya will —",
     options: [
       { id: "a", text: "write only in capital letters" },
       { id: "b", text: "refuse to debate" },
@@ -372,7 +372,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-b-q05",
-    prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest \u2014 none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead Opening speech P1. Which marker begins the speaker's first main reason?",
+    prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest — none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead the opening speech. Which marker begins the speaker's first main reason?",
     options: [
       { id: "a", text: "\"Firstly\"" },
       { id: "b", text: "\"To sum up\"" },
@@ -385,7 +385,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-b-q06",
-    prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest \u2014 none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead Opening speech P1. Besides study time, which needs does the speaker mention?",
+    prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest — none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead the opening speech. Besides study time, which needs does the speaker mention?",
     options: [
       { id: "a", text: "Only video games" },
       { id: "b", text: "Sport, family meals and rest" },
@@ -398,7 +398,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-b-q07",
-    prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest \u2014 none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead Opening speech P1. The closing line \"I urge you to vote for the motion\" is meant to \u2014",
+    prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest — none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead the opening speech. The closing line \"I urge you to vote for the motion\" is meant to —",
     options: [
       { id: "a", text: "change the topic to sport only" },
       { id: "b", text: "confuse the judges" },
@@ -424,7 +424,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-b-q09",
-    prompt: "Thank you. The proposition painted a neat picture, but it skips an important fact. Many subjects \u2014 mathematics and languages especially \u2014 need spaced practice beyond a single hour. If we cap homework rigidly, weaker students lose the extra support they need at home. Moreover, \"one hour\" is not equal for everyone: a quiet desk at home is not the same as a crowded shared room. We on the opposition therefore reject a blanket limit. Instead, we propose clearer guidelines and better-designed tasks, not a one-size-fits-all clock. I ask the house to oppose the motion.\n\nRead Opposition rebuttal P2. Why does the speaker say \"'one hour' is not equal for everyone\"?",
+    prompt: "Thank you. The proposition painted a neat picture, but it skips an important fact. Many subjects — mathematics and languages especially — need spaced practice beyond a single hour. If we cap homework rigidly, weaker students lose the extra support they need at home. Moreover, \"one hour\" is not equal for everyone: a quiet desk at home is not the same as a crowded shared room. We on the opposition therefore reject a blanket limit. Instead, we propose clearer guidelines and better-designed tasks, not a one-size-fits-all clock. I ask the house to oppose the motion.\n\nRead the opposition rebuttal. Why does the speaker say \"'one hour' is not equal for everyone\"?",
     options: [
       { id: "a", text: "Because home study conditions differ (for example, quiet desk vs crowded room)" },
       { id: "b", text: "Because one hour equals sixty minutes everywhere in the same way for fairness only" },
@@ -437,7 +437,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-b-q10",
-    prompt: "Thank you. The proposition painted a neat picture, but it skips an important fact. Many subjects \u2014 mathematics and languages especially \u2014 need spaced practice beyond a single hour. If we cap homework rigidly, weaker students lose the extra support they need at home. Moreover, \"one hour\" is not equal for everyone: a quiet desk at home is not the same as a crowded shared room. We on the opposition therefore reject a blanket limit. Instead, we propose clearer guidelines and better-designed tasks, not a one-size-fits-all clock. I ask the house to oppose the motion.\n\nRead Opposition rebuttal P2. \"Instead\" signals that the speaker will \u2014",
+    prompt: "Thank you. The proposition painted a neat picture, but it skips an important fact. Many subjects — mathematics and languages especially — need spaced practice beyond a single hour. If we cap homework rigidly, weaker students lose the extra support they need at home. Moreover, \"one hour\" is not equal for everyone: a quiet desk at home is not the same as a crowded shared room. We on the opposition therefore reject a blanket limit. Instead, we propose clearer guidelines and better-designed tasks, not a one-size-fits-all clock. I ask the house to oppose the motion.\n\nRead the opposition rebuttal. \"Instead\" signals that the speaker will —",
     options: [
       { id: "a", text: "repeat the proposition's exact plan" },
       { id: "b", text: "offer an alternative proposal" },
@@ -450,7 +450,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-b-q11",
-    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead Assembly announcement O1. What should students bring?",
+    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead the assembly announcement. What should students bring?",
     options: [
       { id: "a", text: "Nothing at all" },
       { id: "b", text: "A cricket bat" },
@@ -463,7 +463,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-b-q12",
-    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead Assembly announcement O1. Where will the workshop be held?",
+    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead the assembly announcement. Where will the workshop be held?",
     options: [
       { id: "a", text: "The city library" },
       { id: "b", text: "The principal's office" },
@@ -476,7 +476,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-b-q13",
-    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. Which behaviour shows good conversational turn-taking?",
+    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking — and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead the dialogue. Which behaviour shows good conversational turn-taking?",
     options: [
       { id: "a", text: "Anya asks a question, Rohan answers, then she responds" },
       { id: "b", text: "Both speak at full volume over each other" },
@@ -541,7 +541,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-b-q18",
-    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking \u2014 and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead Dialogue D1. Rohan's three harms include scrolling, comparison culture and \u2014",
+    prompt: "**Anya:** Have you finished your opening speech for tomorrow?\n**Rohan:** Almost. The motion is \"Social media does more harm than good for teenagers.\" I'm on the proposition.\n**Anya:** So you argue that it harms more than it helps. What's your strongest point?\n**Rohan:** Firstly, endless scrolling steals study time. Secondly, comparison culture damages self-esteem. Finally, cyberbullying is hard to escape.\n**Anya:** That's clear. I'm opposition. On the other hand, social media helps students organise campaigns and find reliable study groups.\n**Rohan:** Fair enough. May I suggest you prepare a rebuttal for my \"study time\" point? Judges notice when you answer the other side.\n**Anya:** Would you mind if we practise for ten minutes after lunch?\n**Rohan:** Not at all. Let's get cracking — and please don't use \"like\" every second word in the hall.\n**Anya:** Point taken. Formal register it is.\n\nRead the dialogue. Rohan's three harms include scrolling, comparison culture and —",
     options: [
       { id: "a", text: "free libraries" },
       { id: "b", text: "cyberbullying" },
@@ -554,7 +554,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-b-q19",
-    prompt: "Thank you. The proposition painted a neat picture, but it skips an important fact. Many subjects \u2014 mathematics and languages especially \u2014 need spaced practice beyond a single hour. If we cap homework rigidly, weaker students lose the extra support they need at home. Moreover, \"one hour\" is not equal for everyone: a quiet desk at home is not the same as a crowded shared room. We on the opposition therefore reject a blanket limit. Instead, we propose clearer guidelines and better-designed tasks, not a one-size-fits-all clock. I ask the house to oppose the motion.\n\nRead Opposition rebuttal P2. Which subject areas does the speaker say especially need practice beyond one hour?",
+    prompt: "Thank you. The proposition painted a neat picture, but it skips an important fact. Many subjects — mathematics and languages especially — need spaced practice beyond a single hour. If we cap homework rigidly, weaker students lose the extra support they need at home. Moreover, \"one hour\" is not equal for everyone: a quiet desk at home is not the same as a crowded shared room. We on the opposition therefore reject a blanket limit. Instead, we propose clearer guidelines and better-designed tasks, not a one-size-fits-all clock. I ask the house to oppose the motion.\n\nRead the opposition rebuttal. Which subject areas does the speaker say especially need practice beyond one hour?",
     options: [
       { id: "a", text: "Cooking alone" },
       { id: "b", text: "Only art and music" },
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "The rebuttal names mathematics and languages as needing spaced practice.",
-    hints: ["Look for clues in the text.", "Eliminate unsupported answers."]
+    hints: ["Which two subject areas does the opposition rebuttal name for extra practice?"]
   },
   {
     id: "g8-eng-ch04-b-q20",
@@ -580,7 +580,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-b-q21",
-    prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest \u2014 none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead Opening speech P1. The speaker claims shorter, well-designed tasks \u2014",
+    prompt: "Honourable judges, teachers and friends: the motion before us today is that homework should be limited to one hour on school nights. We on the proposition firmly support this motion. Firstly, research shows that after about sixty minutes of focused work, concentration falls sharply for most adolescents. Secondly, students need time for sport, family meals and rest — none of which are luxuries. Critics may claim that less homework means less learning, but we argue that shorter, well-designed tasks teach more than long, rushed ones. To sum up, limiting homework protects health without lowering standards. I urge you to vote for the motion.\n\nRead the opening speech. The speaker claims shorter, well-designed tasks —",
     options: [
       { id: "a", text: "teach more than long, rushed ones" },
       { id: "b", text: "are useless" },
@@ -619,7 +619,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g8-eng-ch04-b-q24",
-    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead Assembly announcement O1. After giving details, the speaker ends with \"Thank you.\" This mainly \u2014",
+    prompt: "Good morning, everyone. May I have your attention, please? The Literary Club invites all Classes 7 and 8 students to a Spoken English workshop this Saturday from 10 a.m. to noon in Room 12. Please bring a notebook and a pencil. Those interested should give their names to the Club Secretary by Thursday. Thank you.\n\nRead the assembly announcement. After giving details, the speaker ends with \"Thank you.\" This mainly —",
     options: [
       { id: "a", text: "cancels the workshop" },
       { id: "b", text: "replaces the need for a date" },

@@ -5,7 +5,7 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g3-eng-reading-a-q01",
-    prompt: "[P1] The Seed Balls (story)\n\nOn Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. \"Now the rain will do the rest,\" said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!\n\nRead Passage P1 (The Seed Balls). Who showed Bhavya how to make seed balls?",
+    prompt: "**The Seed Balls**\n\nOn Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. \"Now the rain will do the rest,\" said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!\n\nRead the passage (The Seed Balls). Who showed Bhavya how to make seed balls?",
     options: [
       { id: "a", text: "Her mother" },
       { id: "b", text: "Her teacher" },
@@ -18,7 +18,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-a-q02",
-    prompt: "[P1] The Seed Balls (story)\n\nOn Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. \"Now the rain will do the rest,\" said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!\n\nRead Passage P1. How many neem seeds did they press into EACH seed ball?",
+    prompt: "**The Seed Balls**\n\nOn Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. \"Now the rain will do the rest,\" said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!\n\nRead the passage. How many neem seeds did they press into EACH seed ball?",
     options: [
       { id: "a", text: "Three" },
       { id: "b", text: "Twelve" },
@@ -31,7 +31,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-a-q03",
-    prompt: "[P1] The Seed Balls (story)\n\nOn Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. \"Now the rain will do the rest,\" said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!\n\nRead Passage P1. \"Tiny green leaves were peeping out of the red soil!\" Here, \"peeping out\" means the leaves were \u2014",
+    prompt: "**The Seed Balls**\n\nOn Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. \"Now the rain will do the rest,\" said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!\n\nRead the passage. \"Tiny green leaves were peeping out of the red soil!\" Here, \"peeping out\" means the leaves were —",
     options: [
       { id: "a", text: "hiding deep inside" },
       { id: "b", text: "just starting to show" },
@@ -44,7 +44,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-a-q04",
-    prompt: "[P1] The Seed Balls (story)\n\nOn Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. \"Now the rain will do the rest,\" said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!\n\nRead Passage P1. What did Bhavya and Thatha do right AFTER they made the seed balls?",
+    prompt: "**The Seed Balls**\n\nOn Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. \"Now the rain will do the rest,\" said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!\n\nRead the passage. What did Bhavya and Thatha do right AFTER they made the seed balls?",
     options: [
       { id: "a", text: "They threw the balls behind the bus depot." },
       { id: "b", text: "They mixed clay, cow dung and water." },
@@ -57,7 +57,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-a-q05",
-    prompt: "[P1] The Seed Balls (story)\n\nOn Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. \"Now the rain will do the rest,\" said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!\n\nRead Passage P1. How many neem seeds went into ALL the seed balls together?",
+    prompt: "**The Seed Balls**\n\nOn Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. \"Now the rain will do the rest,\" said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!\n\nRead the passage. How many neem seeds went into ALL the seed balls together?",
     options: [
       { id: "a", text: "36" },
       { id: "b", text: "20" },
@@ -70,7 +70,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-a-q06",
-    prompt: "[P2] Pepper Comes to Class (story)\n\nJoseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft \"woof\", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. \"Pepper wanted to learn English too,\" Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.\n\nRead Passage P2 (Pepper Comes to Class). What colour is Pepper?",
+    prompt: "**Pepper Comes to Class**\n\nJoseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft \"woof\", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. \"Pepper wanted to learn English too,\" Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.\n\nRead the passage (Pepper Comes to Class). What colour is Pepper?",
     options: [
       { id: "a", text: "Brown" },
       { id: "b", text: "Black" },
@@ -83,7 +83,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-a-q07",
-    prompt: "[P2] Pepper Comes to Class (story)\n\nJoseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft \"woof\", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. \"Pepper wanted to learn English too,\" Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.\n\nRead Passage P2. Pepper was \"wagging his tail and panting hard.\" What does \"panting\" mean?",
+    prompt: "**Pepper Comes to Class**\n\nJoseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft \"woof\", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. \"Pepper wanted to learn English too,\" Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.\n\nRead the passage. Pepper was \"wagging his tail and panting hard.\" What does \"panting\" mean?",
     options: [
       { id: "a", text: "Barking loudly" },
       { id: "b", text: "Breathing fast with the mouth open" },
@@ -96,7 +96,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-a-q08",
-    prompt: "[P2] Pepper Comes to Class (story)\n\nJoseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft \"woof\", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. \"Pepper wanted to learn English too,\" Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.\n\nRead Passage P2. How did Pepper MOST LIKELY get out of the house?",
+    prompt: "**Pepper Comes to Class**\n\nJoseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft \"woof\", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. \"Pepper wanted to learn English too,\" Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.\n\nRead the passage. How did Pepper MOST LIKELY get out of the house?",
     options: [
       { id: "a", text: "He jumped over a high wall." },
       { id: "b", text: "Joseph's father took him for a walk." },
@@ -109,7 +109,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-a-q09",
-    prompt: "[P2] Pepper Comes to Class (story)\n\nJoseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft \"woof\", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. \"Pepper wanted to learn English too,\" Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.\n\nRead Passage P2. Who opened the classroom door when the class heard scratching?",
+    prompt: "**Pepper Comes to Class**\n\nJoseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft \"woof\", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. \"Pepper wanted to learn English too,\" Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.\n\nRead the passage. Who opened the classroom door when the class heard scratching?",
     options: [
       { id: "a", text: "Joseph" },
       { id: "b", text: "Mrs. Pinto" },
@@ -122,7 +122,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-a-q10",
-    prompt: "[P2] Pepper Comes to Class (story)\n\nJoseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft \"woof\", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. \"Pepper wanted to learn English too,\" Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.\n\nRead Passage P2. Where did Pepper stay until ten o'clock?",
+    prompt: "**Pepper Comes to Class**\n\nJoseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft \"woof\", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. \"Pepper wanted to learn English too,\" Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.\n\nRead the passage. Where did Pepper stay until ten o'clock?",
     options: [
       { id: "a", text: "Under Joseph's desk" },
       { id: "b", text: "On a mat near the door" },
@@ -135,7 +135,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-a-q11",
-    prompt: "[P3] The Onam Flower Carpet (story)\n\nOn the morning of Onam, Harini and her cousin Manu woke up early to make a pookalam, a carpet of flowers, in front of the house. First, Ammachi drew a big circle on the floor with chalk. The children filled the outer ring with yellow marigold petals. Next, they made a ring of white jasmine. In the middle, they placed bright red hibiscus petals. Just then, a crow hopped across and scattered some petals. Manu groaned, but Harini calmly pushed them back into place. At last, little Appu put one green tulsi leaf right in the centre. \"Now it is complete,\" said Ammachi, smiling.\n\nRead Passage P3 (The Onam Flower Carpet). On which festival did the children make the pookalam?",
+    prompt: "**The Onam Flower Carpet**\n\nOn the morning of Onam, Harini and her cousin Manu woke up early to make a pookalam, a carpet of flowers, in front of the house. First, Ammachi drew a big circle on the floor with chalk. The children filled the outer ring with yellow marigold petals. Next, they made a ring of white jasmine. In the middle, they placed bright red hibiscus petals. Just then, a crow hopped across and scattered some petals. Manu groaned, but Harini calmly pushed them back into place. At last, little Appu put one green tulsi leaf right in the centre. \"Now it is complete,\" said Ammachi, smiling.\n\nRead the passage (The Onam Flower Carpet). On which festival did the children make the pookalam?",
     options: [
       { id: "a", text: "Diwali" },
       { id: "b", text: "Pongal" },
@@ -148,7 +148,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-a-q12",
-    prompt: "[P3] The Onam Flower Carpet (story)\n\nOn the morning of Onam, Harini and her cousin Manu woke up early to make a pookalam, a carpet of flowers, in front of the house. First, Ammachi drew a big circle on the floor with chalk. The children filled the outer ring with yellow marigold petals. Next, they made a ring of white jasmine. In the middle, they placed bright red hibiscus petals. Just then, a crow hopped across and scattered some petals. Manu groaned, but Harini calmly pushed them back into place. At last, little Appu put one green tulsi leaf right in the centre. \"Now it is complete,\" said Ammachi, smiling.\n\nRead Passage P3. \"A crow hopped across and scattered some petals.\" What does \"scattered\" mean here?",
+    prompt: "**The Onam Flower Carpet**\n\nOn the morning of Onam, Harini and her cousin Manu woke up early to make a pookalam, a carpet of flowers, in front of the house. First, Ammachi drew a big circle on the floor with chalk. The children filled the outer ring with yellow marigold petals. Next, they made a ring of white jasmine. In the middle, they placed bright red hibiscus petals. Just then, a crow hopped across and scattered some petals. Manu groaned, but Harini calmly pushed them back into place. At last, little Appu put one green tulsi leaf right in the centre. \"Now it is complete,\" said Ammachi, smiling.\n\nRead the passage. \"A crow hopped across and scattered some petals.\" What does \"scattered\" mean here?",
     options: [
       { id: "a", text: "Ate them up" },
       { id: "b", text: "Painted them black" },
@@ -161,7 +161,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-a-q13",
-    prompt: "[P3] The Onam Flower Carpet (story)\n\nOn the morning of Onam, Harini and her cousin Manu woke up early to make a pookalam, a carpet of flowers, in front of the house. First, Ammachi drew a big circle on the floor with chalk. The children filled the outer ring with yellow marigold petals. Next, they made a ring of white jasmine. In the middle, they placed bright red hibiscus petals. Just then, a crow hopped across and scattered some petals. Manu groaned, but Harini calmly pushed them back into place. At last, little Appu put one green tulsi leaf right in the centre. \"Now it is complete,\" said Ammachi, smiling.\n\nRead Passage P3. What does the story show about Harini?",
+    prompt: "**The Onam Flower Carpet**\n\nOn the morning of Onam, Harini and her cousin Manu woke up early to make a pookalam, a carpet of flowers, in front of the house. First, Ammachi drew a big circle on the floor with chalk. The children filled the outer ring with yellow marigold petals. Next, they made a ring of white jasmine. In the middle, they placed bright red hibiscus petals. Just then, a crow hopped across and scattered some petals. Manu groaned, but Harini calmly pushed them back into place. At last, little Appu put one green tulsi leaf right in the centre. \"Now it is complete,\" said Ammachi, smiling.\n\nRead the passage. What does the story show about Harini?",
     options: [
       { id: "a", text: "She stays calm when something goes wrong." },
       { id: "b", text: "She gets angry very quickly." },
@@ -174,7 +174,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-a-q14",
-    prompt: "[P3] The Onam Flower Carpet (story)\n\nOn the morning of Onam, Harini and her cousin Manu woke up early to make a pookalam, a carpet of flowers, in front of the house. First, Ammachi drew a big circle on the floor with chalk. The children filled the outer ring with yellow marigold petals. Next, they made a ring of white jasmine. In the middle, they placed bright red hibiscus petals. Just then, a crow hopped across and scattered some petals. Manu groaned, but Harini calmly pushed them back into place. At last, little Appu put one green tulsi leaf right in the centre. \"Now it is complete,\" said Ammachi, smiling.\n\nRead Passage P3 and look at the four pictures. Which picture shows the pookalam just BEFORE Appu added his leaf?",
+    prompt: "**The Onam Flower Carpet**\n\nOn the morning of Onam, Harini and her cousin Manu woke up early to make a pookalam, a carpet of flowers, in front of the house. First, Ammachi drew a big circle on the floor with chalk. The children filled the outer ring with yellow marigold petals. Next, they made a ring of white jasmine. In the middle, they placed bright red hibiscus petals. Just then, a crow hopped across and scattered some petals. Manu groaned, but Harini calmly pushed them back into place. At last, little Appu put one green tulsi leaf right in the centre. \"Now it is complete,\" said Ammachi, smiling.\n\nRead the passage and look at the four pictures. Which picture shows the pookalam just BEFORE Appu added his leaf?",
     options: [
       { id: "a", text: "Picture 3" },
       { id: "b", text: "Picture 4" },
@@ -272,7 +272,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-a-q21",
-    prompt: "[P6] A Note on the Fridge (short message)\n\n> Sneha,\n> I have gone to Aunty Leela's house next door\n> to help with the Diwali sweets.\n> Your milk is in the steel flask.\n> Please feed Bubbles a pinch of food from the\n> small tin at 6 o'clock. Do not tap on the glass;\n> it scares him.\n> I will be back by 8.\n> \u2014 Mumma\n\nRead Passage P6 (the note on the fridge). Where has Mumma gone?",
+    prompt: "**A Note on the Fridge**\n\nSneha,\nI have gone to Aunty Leela's house next door\nto help with the Diwali sweets.\nYour milk is in the steel flask.\nPlease feed Bubbles a pinch of food from the\nsmall tin at 6 o'clock. Do not tap on the glass;\nit scares him.\nI will be back by 8.\n— Mumma\n\nRead the passage (the note on the fridge). Where has Mumma gone?",
     options: [
       { id: "a", text: "To Aunty Leela's house next door" },
       { id: "b", text: "To the sweet shop" },
@@ -285,7 +285,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-a-q22",
-    prompt: "[P6] A Note on the Fridge (short message)\n\n> Sneha,\n> I have gone to Aunty Leela's house next door\n> to help with the Diwali sweets.\n> Your milk is in the steel flask.\n> Please feed Bubbles a pinch of food from the\n> small tin at 6 o'clock. Do not tap on the glass;\n> it scares him.\n> I will be back by 8.\n> \u2014 Mumma\n\nRead Passage P6. Who or what is Bubbles?",
+    prompt: "**A Note on the Fridge**\n\nSneha,\nI have gone to Aunty Leela's house next door\nto help with the Diwali sweets.\nYour milk is in the steel flask.\nPlease feed Bubbles a pinch of food from the\nsmall tin at 6 o'clock. Do not tap on the glass;\nit scares him.\nI will be back by 8.\n— Mumma\n\nRead the passage. Who or what is Bubbles?",
     options: [
       { id: "a", text: "Sneha's baby brother" },
       { id: "b", text: "A pet fish in a glass tank" },
@@ -329,7 +329,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g3-eng-reading-b-q01",
-    prompt: "[P1] The Seed Balls (story)\n\nOn Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. \"Now the rain will do the rest,\" said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!\n\nRead Passage P1 (The Seed Balls). Where did Bhavya and Thatha throw the seed balls?",
+    prompt: "**The Seed Balls**\n\nOn Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. \"Now the rain will do the rest,\" said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!\n\nRead the passage (The Seed Balls). Where did Bhavya and Thatha throw the seed balls?",
     options: [
       { id: "a", text: "In their own garden" },
       { id: "b", text: "On the empty ground behind the bus depot" },
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-b-q02",
-    prompt: "[P1] The Seed Balls (story)\n\nOn Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. \"Now the rain will do the rest,\" said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!\n\nRead Passage P1. Why were the seed balls left in the shade for two days?",
+    prompt: "**The Seed Balls**\n\nOn Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. \"Now the rain will do the rest,\" said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!\n\nRead the passage. Why were the seed balls left in the shade for two days?",
     options: [
       { id: "a", text: "To let them grow leaves" },
       { id: "b", text: "To keep them hidden from crows" },
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-b-q03",
-    prompt: "[P1] The Seed Balls (story)\n\nOn Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. \"Now the rain will do the rest,\" said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!\n\nRead Passage P1. What is the story MOSTLY about?",
+    prompt: "**The Seed Balls**\n\nOn Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. \"Now the rain will do the rest,\" said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!\n\nRead the passage. What is the story MOSTLY about?",
     options: [
       { id: "a", text: "A girl who loves to play with mud" },
       { id: "b", text: "A grandfather who works at a bus depot" },
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-b-q04",
-    prompt: "[P1] The Seed Balls (story)\n\nOn Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. \"Now the rain will do the rest,\" said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!\n\nRead Passage P1. Thatha said, \"Now the rain will do the rest.\" What did he mean?",
+    prompt: "**The Seed Balls**\n\nOn Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. \"Now the rain will do the rest,\" said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!\n\nRead the passage. Thatha said, \"Now the rain will do the rest.\" What did he mean?",
     options: [
       { id: "a", text: "Rain will wash all the balls away." },
       { id: "b", text: "Rain will make the ground too wet to walk on." },
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-b-q05",
-    prompt: "[P1] The Seed Balls (story)\n\nOn Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. \"Now the rain will do the rest,\" said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!\n\nRead Passage P1. When did Bhavya see the tiny green leaves?",
+    prompt: "**The Seed Balls**\n\nOn Saturday, Thatha showed Bhavya how to make seed balls. They mixed red clay, a little cow dung and water in an old bucket. Then they pressed three neem seeds into each small ball. Bhavya made twelve balls and Thatha made eight. They left the balls on a newspaper in the shade for two days to dry. On Monday evening, they walked to the empty ground behind the bus depot and threw the balls far and wide. \"Now the rain will do the rest,\" said Thatha. Three weeks later, after the first heavy showers, Bhavya ran to the ground. Tiny green leaves were peeping out of the red soil!\n\nRead the passage. When did Bhavya see the tiny green leaves?",
     options: [
       { id: "a", text: "After the first heavy showers" },
       { id: "b", text: "After two days in the shade" },
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-b-q06",
-    prompt: "[P2] Pepper Comes to Class (story)\n\nJoseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft \"woof\", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. \"Pepper wanted to learn English too,\" Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.\n\nRead Passage P2 (Pepper Comes to Class). On which day did Joseph wake up late?",
+    prompt: "**Pepper Comes to Class**\n\nJoseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft \"woof\", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. \"Pepper wanted to learn English too,\" Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.\n\nRead the passage (Pepper Comes to Class). On which day did Joseph wake up late?",
     options: [
       { id: "a", text: "Monday" },
       { id: "b", text: "Sunday" },
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-b-q07",
-    prompt: "[P2] Pepper Comes to Class (story)\n\nJoseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft \"woof\", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. \"Pepper wanted to learn English too,\" Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.\n\nRead Passage P2. Why did everyone in the class giggle?",
+    prompt: "**Pepper Comes to Class**\n\nJoseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft \"woof\", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. \"Pepper wanted to learn English too,\" Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.\n\nRead the passage. Why did everyone in the class giggle?",
     options: [
       { id: "a", text: "Mrs. Pinto told a joke." },
       { id: "b", text: "Joseph fell off his chair." },
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-b-q08",
-    prompt: "[P2] Pepper Comes to Class (story)\n\nJoseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft \"woof\", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. \"Pepper wanted to learn English too,\" Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.\n\nRead Passage P2. Who came to school at ten o'clock to take Pepper home?",
+    prompt: "**Pepper Comes to Class**\n\nJoseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft \"woof\", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. \"Pepper wanted to learn English too,\" Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.\n\nRead the passage. Who came to school at ten o'clock to take Pepper home?",
     options: [
       { id: "a", text: "Joseph's father" },
       { id: "b", text: "Joseph's mother" },
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-b-q09",
-    prompt: "[P2] Pepper Comes to Class (story)\n\nJoseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft \"woof\", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. \"Pepper wanted to learn English too,\" Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.\n\nRead Passage P2. Why did Joseph check the gate twice that evening?",
+    prompt: "**Pepper Comes to Class**\n\nJoseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft \"woof\", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. \"Pepper wanted to learn English too,\" Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.\n\nRead the passage. Why did Joseph check the gate twice that evening?",
     options: [
       { id: "a", text: "He was waiting for his father." },
       { id: "b", text: "He had dropped his bag near the gate." },
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-b-q10",
-    prompt: "[P2] Pepper Comes to Class (story)\n\nJoseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft \"woof\", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. \"Pepper wanted to learn English too,\" Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.\n\nRead Passage P2. Mrs. Pinto said, \"Pepper wanted to learn English too.\" How was she feeling?",
+    prompt: "**Pepper Comes to Class**\n\nJoseph woke up late on Tuesday. He grabbed his bag and rushed out, and the gate swung open behind him. At the corner, he heard a soft \"woof\", but he did not turn back. In the middle of the first period, the class heard a scratching sound at the door. Mrs. Pinto opened it. There sat Pepper, Joseph's brown puppy, wagging his tail and panting hard. Everyone giggled. Mrs. Pinto let Pepper lie quietly on a mat near the door. At ten o'clock, Joseph's father came to take Pepper home. \"Pepper wanted to learn English too,\" Mrs. Pinto said with a smile. That evening, Joseph checked the gate twice.\n\nRead the passage. Mrs. Pinto said, \"Pepper wanted to learn English too.\" How was she feeling?",
     options: [
       { id: "a", text: "Very angry with Joseph" },
       { id: "b", text: "Amused and kind" },
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-b-q11",
-    prompt: "[P3] The Onam Flower Carpet (story)\n\nOn the morning of Onam, Harini and her cousin Manu woke up early to make a pookalam, a carpet of flowers, in front of the house. First, Ammachi drew a big circle on the floor with chalk. The children filled the outer ring with yellow marigold petals. Next, they made a ring of white jasmine. In the middle, they placed bright red hibiscus petals. Just then, a crow hopped across and scattered some petals. Manu groaned, but Harini calmly pushed them back into place. At last, little Appu put one green tulsi leaf right in the centre. \"Now it is complete,\" said Ammachi, smiling.\n\nRead Passage P3 (The Onam Flower Carpet). Who drew the big chalk circle on the floor?",
+    prompt: "**The Onam Flower Carpet**\n\nOn the morning of Onam, Harini and her cousin Manu woke up early to make a pookalam, a carpet of flowers, in front of the house. First, Ammachi drew a big circle on the floor with chalk. The children filled the outer ring with yellow marigold petals. Next, they made a ring of white jasmine. In the middle, they placed bright red hibiscus petals. Just then, a crow hopped across and scattered some petals. Manu groaned, but Harini calmly pushed them back into place. At last, little Appu put one green tulsi leaf right in the centre. \"Now it is complete,\" said Ammachi, smiling.\n\nRead the passage (The Onam Flower Carpet). Who drew the big chalk circle on the floor?",
     options: [
       { id: "a", text: "Ammachi" },
       { id: "b", text: "Harini" },
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-b-q12",
-    prompt: "[P3] The Onam Flower Carpet (story)\n\nOn the morning of Onam, Harini and her cousin Manu woke up early to make a pookalam, a carpet of flowers, in front of the house. First, Ammachi drew a big circle on the floor with chalk. The children filled the outer ring with yellow marigold petals. Next, they made a ring of white jasmine. In the middle, they placed bright red hibiscus petals. Just then, a crow hopped across and scattered some petals. Manu groaned, but Harini calmly pushed them back into place. At last, little Appu put one green tulsi leaf right in the centre. \"Now it is complete,\" said Ammachi, smiling.\n\nRead Passage P3. Which colour petals went into the OUTER ring?",
+    prompt: "**The Onam Flower Carpet**\n\nOn the morning of Onam, Harini and her cousin Manu woke up early to make a pookalam, a carpet of flowers, in front of the house. First, Ammachi drew a big circle on the floor with chalk. The children filled the outer ring with yellow marigold petals. Next, they made a ring of white jasmine. In the middle, they placed bright red hibiscus petals. Just then, a crow hopped across and scattered some petals. Manu groaned, but Harini calmly pushed them back into place. At last, little Appu put one green tulsi leaf right in the centre. \"Now it is complete,\" said Ammachi, smiling.\n\nRead the passage. Which colour petals went into the OUTER ring?",
     options: [
       { id: "a", text: "Yellow" },
       { id: "b", text: "White" },
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-b-q13",
-    prompt: "[P3] The Onam Flower Carpet (story)\n\nOn the morning of Onam, Harini and her cousin Manu woke up early to make a pookalam, a carpet of flowers, in front of the house. First, Ammachi drew a big circle on the floor with chalk. The children filled the outer ring with yellow marigold petals. Next, they made a ring of white jasmine. In the middle, they placed bright red hibiscus petals. Just then, a crow hopped across and scattered some petals. Manu groaned, but Harini calmly pushed them back into place. At last, little Appu put one green tulsi leaf right in the centre. \"Now it is complete,\" said Ammachi, smiling.\n\nRead Passage P3. Why did Manu groan?",
+    prompt: "**The Onam Flower Carpet**\n\nOn the morning of Onam, Harini and her cousin Manu woke up early to make a pookalam, a carpet of flowers, in front of the house. First, Ammachi drew a big circle on the floor with chalk. The children filled the outer ring with yellow marigold petals. Next, they made a ring of white jasmine. In the middle, they placed bright red hibiscus petals. Just then, a crow hopped across and scattered some petals. Manu groaned, but Harini calmly pushed them back into place. At last, little Appu put one green tulsi leaf right in the centre. \"Now it is complete,\" said Ammachi, smiling.\n\nRead the passage. Why did Manu groan?",
     options: [
       { id: "a", text: "He was tired of waking up early." },
       { id: "b", text: "A crow had messed up some petals." },
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-b-q14",
-    prompt: "[P3] The Onam Flower Carpet (story)\n\nOn the morning of Onam, Harini and her cousin Manu woke up early to make a pookalam, a carpet of flowers, in front of the house. First, Ammachi drew a big circle on the floor with chalk. The children filled the outer ring with yellow marigold petals. Next, they made a ring of white jasmine. In the middle, they placed bright red hibiscus petals. Just then, a crow hopped across and scattered some petals. Manu groaned, but Harini calmly pushed them back into place. At last, little Appu put one green tulsi leaf right in the centre. \"Now it is complete,\" said Ammachi, smiling.\n\nRead Passage P3. Put these in the order they happened: (1) The crow hopped across. (2) The jasmine ring was made. (3) Appu placed the tulsi leaf. (4) The chalk circle was drawn.",
+    prompt: "**The Onam Flower Carpet**\n\nOn the morning of Onam, Harini and her cousin Manu woke up early to make a pookalam, a carpet of flowers, in front of the house. First, Ammachi drew a big circle on the floor with chalk. The children filled the outer ring with yellow marigold petals. Next, they made a ring of white jasmine. In the middle, they placed bright red hibiscus petals. Just then, a crow hopped across and scattered some petals. Manu groaned, but Harini calmly pushed them back into place. At last, little Appu put one green tulsi leaf right in the centre. \"Now it is complete,\" said Ammachi, smiling.\n\nRead the passage. Put these in the order they happened: (1) The crow hopped across. (2) The jasmine ring was made. (3) Appu placed the tulsi leaf. (4) The chalk circle was drawn.",
     options: [
       { id: "a", text: "4, 2, 3, 1" },
       { id: "b", text: "4, 1, 2, 3" },

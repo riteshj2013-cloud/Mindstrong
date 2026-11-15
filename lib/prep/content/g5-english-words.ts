@@ -5,7 +5,7 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g5-eng-ch03-a-q01",
-    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead Passage P1. Which line from the poem contains a SIMILE?",
+    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the passage. Which line from the poem contains a SIMILE?",
     options: [
       { id: "a", text: "\"The puddles are mirrors, the lanes are a stream\"" },
       { id: "b", text: "\"The peacock unfolds like a fan made of light\"" },
@@ -18,7 +18,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-a-q02",
-    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead Passage P1. \"The lanes are a stream\" means that the lanes \u2014",
+    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the passage. \"The lanes are a stream\" means that the lanes —",
     options: [
       { id: "a", text: "are completely dry" },
       { id: "b", text: "are crowded with people" },
@@ -31,7 +31,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-a-q03",
-    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead Passage P1. In \"you'll be wet,\" the word \"you'll\" is a short form of \u2014",
+    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the passage. In \"you'll be wet,\" the word \"you'll\" is a short form of —",
     options: [
       { id: "a", text: "you will" },
       { id: "b", text: "you all" },
@@ -44,7 +44,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-a-q04",
-    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead Passage P1. Which word is the OPPOSITE of \"quietly,\" from the last line?",
+    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the passage. Which word is the OPPOSITE of \"quietly,\" from the last line?",
     options: [
       { id: "a", text: "gently" },
       { id: "b", text: "softly" },
@@ -57,7 +57,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-a-q05",
-    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead Passage P1. Who or what is \"the drummer\" in the poem?",
+    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the passage. Who or what is \"the drummer\" in the poem?",
     options: [
       { id: "a", text: "The thundering monsoon sky" },
       { id: "b", text: "A boy playing a drum in the lane" },
@@ -70,7 +70,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-a-q06",
-    prompt: "**Shopkeeper:** Good morning! How may I help you?\n**Ishaan:** Good morning, uncle. I need a geometry box and two notebooks, please.\n**Shopkeeper:** Ruled or unruled?\n**Ishaan:** Ruled, please. They're for my science project.\n**Shopkeeper:** Here you are. That will be one hundred and twenty rupees.\n**Ishaan:** Oh no, I have only one hundred rupees. Could I take just one notebook today?\n**Shopkeeper:** Of course. You can buy the other one tomorrow.\n**Ishaan:** Thank you so much, uncle. You're very kind.\n**Shopkeeper:** Not at all. Best of luck with your project!\n\nRead Passage P2. Which line shows Ishaan asking politely when he has a problem?",
+    prompt: "**Shopkeeper:** Good morning! How may I help you?\n**Ishaan:** Good morning, uncle. I need a geometry box and two notebooks, please.\n**Shopkeeper:** Ruled or unruled?\n**Ishaan:** Ruled, please. They're for my science project.\n**Shopkeeper:** Here you are. That will be one hundred and twenty rupees.\n**Ishaan:** Oh no, I have only one hundred rupees. Could I take just one notebook today?\n**Shopkeeper:** Of course. You can buy the other one tomorrow.\n**Ishaan:** Thank you so much, uncle. You're very kind.\n**Shopkeeper:** Not at all. Best of luck with your project!\n\nRead the passage. Which line shows Ishaan asking politely when he has a problem?",
     options: [
       { id: "a", text: "\"Ruled, please.\"" },
       { id: "b", text: "\"Good morning, uncle.\"" },
@@ -83,7 +83,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-a-q07",
-    prompt: "**Shopkeeper:** Good morning! How may I help you?\n**Ishaan:** Good morning, uncle. I need a geometry box and two notebooks, please.\n**Shopkeeper:** Ruled or unruled?\n**Ishaan:** Ruled, please. They're for my science project.\n**Shopkeeper:** Here you are. That will be one hundred and twenty rupees.\n**Ishaan:** Oh no, I have only one hundred rupees. Could I take just one notebook today?\n**Shopkeeper:** Of course. You can buy the other one tomorrow.\n**Ishaan:** Thank you so much, uncle. You're very kind.\n**Shopkeeper:** Not at all. Best of luck with your project!\n\nRead Passage P2. Ishaan says, \"They're for my science project.\" \"They're\" means \u2014",
+    prompt: "**Shopkeeper:** Good morning! How may I help you?\n**Ishaan:** Good morning, uncle. I need a geometry box and two notebooks, please.\n**Shopkeeper:** Ruled or unruled?\n**Ishaan:** Ruled, please. They're for my science project.\n**Shopkeeper:** Here you are. That will be one hundred and twenty rupees.\n**Ishaan:** Oh no, I have only one hundred rupees. Could I take just one notebook today?\n**Shopkeeper:** Of course. You can buy the other one tomorrow.\n**Ishaan:** Thank you so much, uncle. You're very kind.\n**Shopkeeper:** Not at all. Best of luck with your project!\n\nRead the passage. Ishaan says, \"They're for my science project.\" \"They're\" means —",
     options: [
       { id: "a", text: "Their are" },
       { id: "b", text: "They are" },
@@ -96,7 +96,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-a-q08",
-    prompt: "Ammu had butterflies in her stomach. Her teacher, Mr. D'Souza, had asked for a volunteer to welcome the guests at the school's Annual Day, and Ammu's hand had shot up before she could stop it. For a whole week, she practised in front of the mirror. Her little brother, Kiran, was her audience. He clapped loudly even when she stumbled over a word. On the big day, the hall was as busy as a beehive. Ammu walked to the microphone, took a deep breath and spoke clearly. \"Good evening, everyone, and welcome!\" When she finished, the applause was louder than the monsoon rain. Her knees were still shaking, but her heart felt as light as a feather.\n\nRead Passage P3. \"Ammu had butterflies in her stomach.\" This means Ammu \u2014",
+    prompt: "Ammu had butterflies in her stomach. Her teacher, Mr. D'Souza, had asked for a volunteer to welcome the guests at the school's Annual Day, and Ammu's hand had shot up before she could stop it. For a whole week, she practised in front of the mirror. Her little brother, Kiran, was her audience. He clapped loudly even when she stumbled over a word. On the big day, the hall was as busy as a beehive. Ammu walked to the microphone, took a deep breath and spoke clearly. \"Good evening, everyone, and welcome!\" When she finished, the applause was louder than the monsoon rain. Her knees were still shaking, but her heart felt as light as a feather.\n\nRead the passage. \"Ammu had butterflies in her stomach.\" This means Ammu —",
     options: [
       { id: "a", text: "was very hungry" },
       { id: "b", text: "had eaten something bad" },
@@ -109,7 +109,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-a-q09",
-    prompt: "Ammu had butterflies in her stomach. Her teacher, Mr. D'Souza, had asked for a volunteer to welcome the guests at the school's Annual Day, and Ammu's hand had shot up before she could stop it. For a whole week, she practised in front of the mirror. Her little brother, Kiran, was her audience. He clapped loudly even when she stumbled over a word. On the big day, the hall was as busy as a beehive. Ammu walked to the microphone, took a deep breath and spoke clearly. \"Good evening, everyone, and welcome!\" When she finished, the applause was louder than the monsoon rain. Her knees were still shaking, but her heart felt as light as a feather.\n\nRead Passage P3. The teacher asked for a \"volunteer.\" A volunteer is \u2014",
+    prompt: "Ammu had butterflies in her stomach. Her teacher, Mr. D'Souza, had asked for a volunteer to welcome the guests at the school's Annual Day, and Ammu's hand had shot up before she could stop it. For a whole week, she practised in front of the mirror. Her little brother, Kiran, was her audience. He clapped loudly even when she stumbled over a word. On the big day, the hall was as busy as a beehive. Ammu walked to the microphone, took a deep breath and spoke clearly. \"Good evening, everyone, and welcome!\" When she finished, the applause was louder than the monsoon rain. Her knees were still shaking, but her heart felt as light as a feather.\n\nRead the passage. The teacher asked for a \"volunteer.\" A volunteer is —",
     options: [
       { id: "a", text: "a person who is paid to do a job" },
       { id: "b", text: "a person who watches a show" },
@@ -122,7 +122,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-a-q10",
-    prompt: "Ammu had butterflies in her stomach. Her teacher, Mr. D'Souza, had asked for a volunteer to welcome the guests at the school's Annual Day, and Ammu's hand had shot up before she could stop it. For a whole week, she practised in front of the mirror. Her little brother, Kiran, was her audience. He clapped loudly even when she stumbled over a word. On the big day, the hall was as busy as a beehive. Ammu walked to the microphone, took a deep breath and spoke clearly. \"Good evening, everyone, and welcome!\" When she finished, the applause was louder than the monsoon rain. Her knees were still shaking, but her heart felt as light as a feather.\n\nRead Passage P3. \"The hall was as busy as a beehive.\" This tells us the hall was \u2014",
+    prompt: "Ammu had butterflies in her stomach. Her teacher, Mr. D'Souza, had asked for a volunteer to welcome the guests at the school's Annual Day, and Ammu's hand had shot up before she could stop it. For a whole week, she practised in front of the mirror. Her little brother, Kiran, was her audience. He clapped loudly even when she stumbled over a word. On the big day, the hall was as busy as a beehive. Ammu walked to the microphone, took a deep breath and spoke clearly. \"Good evening, everyone, and welcome!\" When she finished, the applause was louder than the monsoon rain. Her knees were still shaking, but her heart felt as light as a feather.\n\nRead the passage. \"The hall was as busy as a beehive.\" This tells us the hall was —",
     options: [
       { id: "a", text: "crowded and full of activity" },
       { id: "b", text: "full of real bees" },
@@ -291,7 +291,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-a-q23",
-    prompt: "**MESSAGE**\n5 October, 4:15 p.m.\nDear Didi,\nMs. Kapoor from your dance class called. Tomorrow's practice has been moved from 5 p.m. to 6 p.m. Please bring your ghungroo and a water bottle.\nRiya\n\nRead Message N1. Why did Riya write this message?",
+    prompt: "**MESSAGE**\n5 October, 4:15 p.m.\nDear Didi,\nMs. Kapoor from your dance class called. Tomorrow's practice has been moved from 5 p.m. to 6 p.m. Please bring your ghungroo and a water bottle.\nRiya\n\nRead the message. Why did Riya write this message?",
     options: [
       { id: "a", text: "To invite Didi to a party" },
       { id: "b", text: "To pass on a change in the practice time" },
@@ -320,7 +320,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g5-eng-ch03-b-q01",
-    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead Passage P1. \"The puddles are mirrors.\" This line suggests that the puddles \u2014",
+    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the passage. \"The puddles are mirrors.\" This line suggests that the puddles —",
     options: [
       { id: "a", text: "reflect things the way a mirror does" },
       { id: "b", text: "are made of glass" },
@@ -333,7 +333,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-b-q02",
-    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead Passage P1. \"He thunders and rumbles.\" Which phrase is closest in meaning to \"rumbles\"?",
+    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the passage. \"He thunders and rumbles.\" Which phrase is closest in meaning to \"rumbles\"?",
     options: [
       { id: "a", text: "whispers softly" },
       { id: "b", text: "shines brightly" },
@@ -346,7 +346,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-b-q03",
-    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead Passage P1. Why are inverted commas (\" \") used in: Amma calls, \"Children! Come in, you'll be wet!\"?",
+    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the passage. Why are inverted commas (\" \") used in: Amma calls, \"Children! Come in, you'll be wet!\"?",
     options: [
       { id: "a", text: "To show a question" },
       { id: "b", text: "To show the exact words Amma speaks" },
@@ -359,7 +359,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-b-q04",
-    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead Passage P1. \"But who wants to leave when the show isn't done yet?\" What is \"the show\"?",
+    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the passage. \"But who wants to leave when the show isn't done yet?\" What is \"the show\"?",
     options: [
       { id: "a", text: "A programme on television" },
       { id: "b", text: "A dance performance at school" },
@@ -372,7 +372,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-b-q05",
-    prompt: "**Shopkeeper:** Good morning! How may I help you?\n**Ishaan:** Good morning, uncle. I need a geometry box and two notebooks, please.\n**Shopkeeper:** Ruled or unruled?\n**Ishaan:** Ruled, please. They're for my science project.\n**Shopkeeper:** Here you are. That will be one hundred and twenty rupees.\n**Ishaan:** Oh no, I have only one hundred rupees. Could I take just one notebook today?\n**Shopkeeper:** Of course. You can buy the other one tomorrow.\n**Ishaan:** Thank you so much, uncle. You're very kind.\n**Shopkeeper:** Not at all. Best of luck with your project!\n\nRead Passage P2. How does the shopkeeper respond to Ishaan's problem?",
+    prompt: "**Shopkeeper:** Good morning! How may I help you?\n**Ishaan:** Good morning, uncle. I need a geometry box and two notebooks, please.\n**Shopkeeper:** Ruled or unruled?\n**Ishaan:** Ruled, please. They're for my science project.\n**Shopkeeper:** Here you are. That will be one hundred and twenty rupees.\n**Ishaan:** Oh no, I have only one hundred rupees. Could I take just one notebook today?\n**Shopkeeper:** Of course. You can buy the other one tomorrow.\n**Ishaan:** Thank you so much, uncle. You're very kind.\n**Shopkeeper:** Not at all. Best of luck with your project!\n\nRead the passage. How does the shopkeeper respond to Ishaan's problem?",
     options: [
       { id: "a", text: "He gets angry." },
       { id: "b", text: "He refuses to sell anything." },
@@ -385,7 +385,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-b-q06",
-    prompt: "**Shopkeeper:** Good morning! How may I help you?\n**Ishaan:** Good morning, uncle. I need a geometry box and two notebooks, please.\n**Shopkeeper:** Ruled or unruled?\n**Ishaan:** Ruled, please. They're for my science project.\n**Shopkeeper:** Here you are. That will be one hundred and twenty rupees.\n**Ishaan:** Oh no, I have only one hundred rupees. Could I take just one notebook today?\n**Shopkeeper:** Of course. You can buy the other one tomorrow.\n**Ishaan:** Thank you so much, uncle. You're very kind.\n**Shopkeeper:** Not at all. Best of luck with your project!\n\nRead Passage P2. The shopkeeper asks, \"Ruled or unruled?\" In \"unruled,\" the prefix \"un-\" means \u2014",
+    prompt: "**Shopkeeper:** Good morning! How may I help you?\n**Ishaan:** Good morning, uncle. I need a geometry box and two notebooks, please.\n**Shopkeeper:** Ruled or unruled?\n**Ishaan:** Ruled, please. They're for my science project.\n**Shopkeeper:** Here you are. That will be one hundred and twenty rupees.\n**Ishaan:** Oh no, I have only one hundred rupees. Could I take just one notebook today?\n**Shopkeeper:** Of course. You can buy the other one tomorrow.\n**Ishaan:** Thank you so much, uncle. You're very kind.\n**Shopkeeper:** Not at all. Best of luck with your project!\n\nRead the passage. The shopkeeper asks, \"Ruled or unruled?\" In \"unruled,\" the prefix \"un-\" means —",
     options: [
       { id: "a", text: "not" },
       { id: "b", text: "again" },
@@ -398,7 +398,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-b-q07",
-    prompt: "**Shopkeeper:** Good morning! How may I help you?\n**Ishaan:** Good morning, uncle. I need a geometry box and two notebooks, please.\n**Shopkeeper:** Ruled or unruled?\n**Ishaan:** Ruled, please. They're for my science project.\n**Shopkeeper:** Here you are. That will be one hundred and twenty rupees.\n**Ishaan:** Oh no, I have only one hundred rupees. Could I take just one notebook today?\n**Shopkeeper:** Of course. You can buy the other one tomorrow.\n**Ishaan:** Thank you so much, uncle. You're very kind.\n**Shopkeeper:** Not at all. Best of luck with your project!\n\nRead Passage P2. The shopkeeper says, \"Best of luck with your project!\" What is the best reply?",
+    prompt: "**Shopkeeper:** Good morning! How may I help you?\n**Ishaan:** Good morning, uncle. I need a geometry box and two notebooks, please.\n**Shopkeeper:** Ruled or unruled?\n**Ishaan:** Ruled, please. They're for my science project.\n**Shopkeeper:** Here you are. That will be one hundred and twenty rupees.\n**Ishaan:** Oh no, I have only one hundred rupees. Could I take just one notebook today?\n**Shopkeeper:** Of course. You can buy the other one tomorrow.\n**Ishaan:** Thank you so much, uncle. You're very kind.\n**Shopkeeper:** Not at all. Best of luck with your project!\n\nRead the passage. The shopkeeper says, \"Best of luck with your project!\" What is the best reply?",
     options: [
       { id: "a", text: "\"Okay.\"" },
       { id: "b", text: "\"Why?\"" },
@@ -411,7 +411,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-b-q08",
-    prompt: "Ammu had butterflies in her stomach. Her teacher, Mr. D'Souza, had asked for a volunteer to welcome the guests at the school's Annual Day, and Ammu's hand had shot up before she could stop it. For a whole week, she practised in front of the mirror. Her little brother, Kiran, was her audience. He clapped loudly even when she stumbled over a word. On the big day, the hall was as busy as a beehive. Ammu walked to the microphone, took a deep breath and spoke clearly. \"Good evening, everyone, and welcome!\" When she finished, the applause was louder than the monsoon rain. Her knees were still shaking, but her heart felt as light as a feather.\n\nRead Passage P3. \"The applause was louder than the monsoon rain.\" \"Applause\" means \u2014",
+    prompt: "Ammu had butterflies in her stomach. Her teacher, Mr. D'Souza, had asked for a volunteer to welcome the guests at the school's Annual Day, and Ammu's hand had shot up before she could stop it. For a whole week, she practised in front of the mirror. Her little brother, Kiran, was her audience. He clapped loudly even when she stumbled over a word. On the big day, the hall was as busy as a beehive. Ammu walked to the microphone, took a deep breath and spoke clearly. \"Good evening, everyone, and welcome!\" When she finished, the applause was louder than the monsoon rain. Her knees were still shaking, but her heart felt as light as a feather.\n\nRead the passage. \"The applause was louder than the monsoon rain.\" \"Applause\" means —",
     options: [
       { id: "a", text: "loud singing" },
       { id: "b", text: "clapping to show praise" },
@@ -424,7 +424,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-b-q09",
-    prompt: "Ammu had butterflies in her stomach. Her teacher, Mr. D'Souza, had asked for a volunteer to welcome the guests at the school's Annual Day, and Ammu's hand had shot up before she could stop it. For a whole week, she practised in front of the mirror. Her little brother, Kiran, was her audience. He clapped loudly even when she stumbled over a word. On the big day, the hall was as busy as a beehive. Ammu walked to the microphone, took a deep breath and spoke clearly. \"Good evening, everyone, and welcome!\" When she finished, the applause was louder than the monsoon rain. Her knees were still shaking, but her heart felt as light as a feather.\n\nRead Passage P3. \"Her heart felt as light as a feather.\" This shows that Ammu felt \u2014",
+    prompt: "Ammu had butterflies in her stomach. Her teacher, Mr. D'Souza, had asked for a volunteer to welcome the guests at the school's Annual Day, and Ammu's hand had shot up before she could stop it. For a whole week, she practised in front of the mirror. Her little brother, Kiran, was her audience. He clapped loudly even when she stumbled over a word. On the big day, the hall was as busy as a beehive. Ammu walked to the microphone, took a deep breath and spoke clearly. \"Good evening, everyone, and welcome!\" When she finished, the applause was louder than the monsoon rain. Her knees were still shaking, but her heart felt as light as a feather.\n\nRead the passage. \"Her heart felt as light as a feather.\" This shows that Ammu felt —",
     options: [
       { id: "a", text: "unwell and weak" },
       { id: "b", text: "relieved and happy" },
@@ -437,7 +437,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-b-q10",
-    prompt: "Ammu had butterflies in her stomach. Her teacher, Mr. D'Souza, had asked for a volunteer to welcome the guests at the school's Annual Day, and Ammu's hand had shot up before she could stop it. For a whole week, she practised in front of the mirror. Her little brother, Kiran, was her audience. He clapped loudly even when she stumbled over a word. On the big day, the hall was as busy as a beehive. Ammu walked to the microphone, took a deep breath and spoke clearly. \"Good evening, everyone, and welcome!\" When she finished, the applause was louder than the monsoon rain. Her knees were still shaking, but her heart felt as light as a feather.\n\nRead Passage P3. \"Kiran was her audience.\" An audience is \u2014",
+    prompt: "Ammu had butterflies in her stomach. Her teacher, Mr. D'Souza, had asked for a volunteer to welcome the guests at the school's Annual Day, and Ammu's hand had shot up before she could stop it. For a whole week, she practised in front of the mirror. Her little brother, Kiran, was her audience. He clapped loudly even when she stumbled over a word. On the big day, the hall was as busy as a beehive. Ammu walked to the microphone, took a deep breath and spoke clearly. \"Good evening, everyone, and welcome!\" When she finished, the applause was louder than the monsoon rain. Her knees were still shaking, but her heart felt as light as a feather.\n\nRead the passage. \"Kiran was her audience.\" An audience is —",
     options: [
       { id: "a", text: "people who perform on stage" },
       { id: "b", text: "a person who writes plays" },
@@ -450,7 +450,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-b-q11",
-    prompt: "**MESSAGE**\n5 October, 4:15 p.m.\nDear Didi,\nMs. Kapoor from your dance class called. Tomorrow's practice has been moved from 5 p.m. to 6 p.m. Please bring your ghungroo and a water bottle.\nRiya\n\nRead Message N1. What does the name \"Riya\" at the end of the message tell us?",
+    prompt: "**MESSAGE**\n5 October, 4:15 p.m.\nDear Didi,\nMs. Kapoor from your dance class called. Tomorrow's practice has been moved from 5 p.m. to 6 p.m. Please bring your ghungroo and a water bottle.\nRiya\n\nRead the message. What does the name \"Riya\" at the end of the message tell us?",
     options: [
       { id: "a", text: "Who wrote the message" },
       { id: "b", text: "Who the message is for" },
@@ -463,7 +463,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-b-q12",
-    prompt: "**MESSAGE**\n5 October, 4:15 p.m.\nDear Didi,\nMs. Kapoor from your dance class called. Tomorrow's practice has been moved from 5 p.m. to 6 p.m. Please bring your ghungroo and a water bottle.\nRiya\n\nRead Message N1. What time should Didi reach dance practice tomorrow?",
+    prompt: "**MESSAGE**\n5 October, 4:15 p.m.\nDear Didi,\nMs. Kapoor from your dance class called. Tomorrow's practice has been moved from 5 p.m. to 6 p.m. Please bring your ghungroo and a water bottle.\nRiya\n\nRead the message. What time should Didi reach dance practice tomorrow?",
     options: [
       { id: "a", text: "4:15 p.m." },
       { id: "b", text: "5 p.m." },

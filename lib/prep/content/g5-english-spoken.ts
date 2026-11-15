@@ -5,7 +5,7 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g5-eng-ch04-a-q01",
-    prompt: "**Meera:** Good morning! Are you new here?\n**Arjun:** Yes. I joined today. My name is Arjun.\n**Meera:** Welcome to Class 5B, Arjun. I'm Meera. Would you like to sit with me?\n**Arjun:** That's kind of you. Thank you!\n**Meera:** May I show you where we keep our bags and lunch boxes?\n**Arjun:** Yes, please. I don't want to get lost.\n**Meera:** Of course. After assembly, I'll take you to the library too.\n**Arjun:** That would be wonderful. Could you also tell me the teacher's name?\n**Meera:** Ms. Kapoor. She's kind, and she likes it when we raise our hands before we speak.\n**Arjun:** Thanks again, Meera. I feel much better now.\n\nRead Passage P1. How does Meera greet Arjun at the start?",
+    prompt: "**Meera:** Good morning! Are you new here?\n**Arjun:** Yes. I joined today. My name is Arjun.\n**Meera:** Welcome to Class 5B, Arjun. I'm Meera. Would you like to sit with me?\n**Arjun:** That's kind of you. Thank you!\n**Meera:** May I show you where we keep our bags and lunch boxes?\n**Arjun:** Yes, please. I don't want to get lost.\n**Meera:** Of course. After assembly, I'll take you to the library too.\n**Arjun:** That would be wonderful. Could you also tell me the teacher's name?\n**Meera:** Ms. Kapoor. She's kind, and she likes it when we raise our hands before we speak.\n**Arjun:** Thanks again, Meera. I feel much better now.\n\nRead the passage. How does Meera greet Arjun at the start?",
     options: [
       { id: "a", text: "She says good morning and asks if he is new." },
       { id: "b", text: "She shouts across the room." },
@@ -18,7 +18,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-a-q02",
-    prompt: "**Meera:** Good morning! Are you new here?\n**Arjun:** Yes. I joined today. My name is Arjun.\n**Meera:** Welcome to Class 5B, Arjun. I'm Meera. Would you like to sit with me?\n**Arjun:** That's kind of you. Thank you!\n**Meera:** May I show you where we keep our bags and lunch boxes?\n**Arjun:** Yes, please. I don't want to get lost.\n**Meera:** Of course. After assembly, I'll take you to the library too.\n**Arjun:** That would be wonderful. Could you also tell me the teacher's name?\n**Meera:** Ms. Kapoor. She's kind, and she likes it when we raise our hands before we speak.\n**Arjun:** Thanks again, Meera. I feel much better now.\n\nRead Passage P1. Which line is a polite offer of help?",
+    prompt: "**Meera:** Good morning! Are you new here?\n**Arjun:** Yes. I joined today. My name is Arjun.\n**Meera:** Welcome to Class 5B, Arjun. I'm Meera. Would you like to sit with me?\n**Arjun:** That's kind of you. Thank you!\n**Meera:** May I show you where we keep our bags and lunch boxes?\n**Arjun:** Yes, please. I don't want to get lost.\n**Meera:** Of course. After assembly, I'll take you to the library too.\n**Arjun:** That would be wonderful. Could you also tell me the teacher's name?\n**Meera:** Ms. Kapoor. She's kind, and she likes it when we raise our hands before we speak.\n**Arjun:** Thanks again, Meera. I feel much better now.\n\nRead the passage. Which line is a polite offer of help?",
     options: [
       { id: "a", text: "\"My name is Arjun.\"" },
       { id: "b", text: "\"Would you like to sit with me?\"" },
@@ -31,7 +31,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-a-q03",
-    prompt: "**Meera:** Good morning! Are you new here?\n**Arjun:** Yes. I joined today. My name is Arjun.\n**Meera:** Welcome to Class 5B, Arjun. I'm Meera. Would you like to sit with me?\n**Arjun:** That's kind of you. Thank you!\n**Meera:** May I show you where we keep our bags and lunch boxes?\n**Arjun:** Yes, please. I don't want to get lost.\n**Meera:** Of course. After assembly, I'll take you to the library too.\n**Arjun:** That would be wonderful. Could you also tell me the teacher's name?\n**Meera:** Ms. Kapoor. She's kind, and she likes it when we raise our hands before we speak.\n**Arjun:** Thanks again, Meera. I feel much better now.\n\nRead Passage P1. Arjun says, \"Could you also tell me the teacher's name?\" This shows he is \u2014",
+    prompt: "**Meera:** Good morning! Are you new here?\n**Arjun:** Yes. I joined today. My name is Arjun.\n**Meera:** Welcome to Class 5B, Arjun. I'm Meera. Would you like to sit with me?\n**Arjun:** That's kind of you. Thank you!\n**Meera:** May I show you where we keep our bags and lunch boxes?\n**Arjun:** Yes, please. I don't want to get lost.\n**Meera:** Of course. After assembly, I'll take you to the library too.\n**Arjun:** That would be wonderful. Could you also tell me the teacher's name?\n**Meera:** Ms. Kapoor. She's kind, and she likes it when we raise our hands before we speak.\n**Arjun:** Thanks again, Meera. I feel much better now.\n\nRead the passage. Arjun says, \"Could you also tell me the teacher's name?\" This shows he is —",
     options: [
       { id: "a", text: "giving an order" },
       { id: "b", text: "complaining about class" },
@@ -44,7 +44,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-a-q04",
-    prompt: "**Meera:** Good morning! Are you new here?\n**Arjun:** Yes. I joined today. My name is Arjun.\n**Meera:** Welcome to Class 5B, Arjun. I'm Meera. Would you like to sit with me?\n**Arjun:** That's kind of you. Thank you!\n**Meera:** May I show you where we keep our bags and lunch boxes?\n**Arjun:** Yes, please. I don't want to get lost.\n**Meera:** Of course. After assembly, I'll take you to the library too.\n**Arjun:** That would be wonderful. Could you also tell me the teacher's name?\n**Meera:** Ms. Kapoor. She's kind, and she likes it when we raise our hands before we speak.\n**Arjun:** Thanks again, Meera. I feel much better now.\n\nRead Passage P1. Why does Meera mention raising hands before speaking?",
+    prompt: "**Meera:** Good morning! Are you new here?\n**Arjun:** Yes. I joined today. My name is Arjun.\n**Meera:** Welcome to Class 5B, Arjun. I'm Meera. Would you like to sit with me?\n**Arjun:** That's kind of you. Thank you!\n**Meera:** May I show you where we keep our bags and lunch boxes?\n**Arjun:** Yes, please. I don't want to get lost.\n**Meera:** Of course. After assembly, I'll take you to the library too.\n**Arjun:** That would be wonderful. Could you also tell me the teacher's name?\n**Meera:** Ms. Kapoor. She's kind, and she likes it when we raise our hands before we speak.\n**Arjun:** Thanks again, Meera. I feel much better now.\n\nRead the passage. Why does Meera mention raising hands before speaking?",
     options: [
       { id: "a", text: "To scare Arjun away from class" },
       { id: "b", text: "To finish her homework aloud" },
@@ -57,7 +57,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-a-q05",
-    prompt: "**Meera:** Good morning! Are you new here?\n**Arjun:** Yes. I joined today. My name is Arjun.\n**Meera:** Welcome to Class 5B, Arjun. I'm Meera. Would you like to sit with me?\n**Arjun:** That's kind of you. Thank you!\n**Meera:** May I show you where we keep our bags and lunch boxes?\n**Arjun:** Yes, please. I don't want to get lost.\n**Meera:** Of course. After assembly, I'll take you to the library too.\n**Arjun:** That would be wonderful. Could you also tell me the teacher's name?\n**Meera:** Ms. Kapoor. She's kind, and she likes it when we raise our hands before we speak.\n**Arjun:** Thanks again, Meera. I feel much better now.\n\nRead Passage P1. Which reply best shows Arjun is grateful?",
+    prompt: "**Meera:** Good morning! Are you new here?\n**Arjun:** Yes. I joined today. My name is Arjun.\n**Meera:** Welcome to Class 5B, Arjun. I'm Meera. Would you like to sit with me?\n**Arjun:** That's kind of you. Thank you!\n**Meera:** May I show you where we keep our bags and lunch boxes?\n**Arjun:** Yes, please. I don't want to get lost.\n**Meera:** Of course. After assembly, I'll take you to the library too.\n**Arjun:** That would be wonderful. Could you also tell me the teacher's name?\n**Meera:** Ms. Kapoor. She's kind, and she likes it when we raise our hands before we speak.\n**Arjun:** Thanks again, Meera. I feel much better now.\n\nRead the passage. Which reply best shows Arjun is grateful?",
     options: [
       { id: "a", text: "\"Thanks again, Meera. I feel much better now.\"" },
       { id: "b", text: "\"I don't want to get lost.\"" },
@@ -70,7 +70,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-a-q06",
-    prompt: "**Riya:** Hello, is that Kabir?\n**Kabir:** Speaking. Hi, Riya!\n**Riya:** Hi! Sorry to call during dinner. Do you have a minute?\n**Kabir:** Sure. What's up?\n**Riya:** I missed Maths today because I had a fever. Could you please tell me what homework Ms. Fernandes gave?\n**Kabir:** Of course. We must finish Exercise 4.2, questions 1 to 8, and bring our geometry boxes tomorrow.\n**Riya:** Got it. Should I copy the notes from anyone?\n**Kabir:** You can borrow mine tomorrow morning. Shall I also share a photo of the board work on WhatsApp?\n**Riya:** That would help a lot. Thank you so much!\n**Kabir:** No problem. Feel better soon. Bye!\n**Riya:** Bye, Kabir. Have a good evening!\n\nRead Passage P2. How does Kabir answer the phone?",
+    prompt: "**Riya:** Hello, is that Kabir?\n**Kabir:** Speaking. Hi, Riya!\n**Riya:** Hi! Sorry to call during dinner. Do you have a minute?\n**Kabir:** Sure. What's up?\n**Riya:** I missed Maths today because I had a fever. Could you please tell me what homework Ms. Fernandes gave?\n**Kabir:** Of course. We must finish Exercise 4.2, questions 1 to 8, and bring our geometry boxes tomorrow.\n**Riya:** Got it. Should I copy the notes from anyone?\n**Kabir:** You can borrow mine tomorrow morning. Shall I also share a photo of the board work on WhatsApp?\n**Riya:** That would help a lot. Thank you so much!\n**Kabir:** No problem. Feel better soon. Bye!\n**Riya:** Bye, Kabir. Have a good evening!\n\nRead the passage. How does Kabir answer the phone?",
     options: [
       { id: "a", text: "He hangs up at once." },
       { id: "b", text: "He says \"Speaking\" and greets Riya." },
@@ -83,7 +83,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-a-q07",
-    prompt: "**Riya:** Hello, is that Kabir?\n**Kabir:** Speaking. Hi, Riya!\n**Riya:** Hi! Sorry to call during dinner. Do you have a minute?\n**Kabir:** Sure. What's up?\n**Riya:** I missed Maths today because I had a fever. Could you please tell me what homework Ms. Fernandes gave?\n**Kabir:** Of course. We must finish Exercise 4.2, questions 1 to 8, and bring our geometry boxes tomorrow.\n**Riya:** Got it. Should I copy the notes from anyone?\n**Kabir:** You can borrow mine tomorrow morning. Shall I also share a photo of the board work on WhatsApp?\n**Riya:** That would help a lot. Thank you so much!\n**Kabir:** No problem. Feel better soon. Bye!\n**Riya:** Bye, Kabir. Have a good evening!\n\nRead Passage P2. Why does Riya say \"Sorry to call during dinner\"?",
+    prompt: "**Riya:** Hello, is that Kabir?\n**Kabir:** Speaking. Hi, Riya!\n**Riya:** Hi! Sorry to call during dinner. Do you have a minute?\n**Kabir:** Sure. What's up?\n**Riya:** I missed Maths today because I had a fever. Could you please tell me what homework Ms. Fernandes gave?\n**Kabir:** Of course. We must finish Exercise 4.2, questions 1 to 8, and bring our geometry boxes tomorrow.\n**Riya:** Got it. Should I copy the notes from anyone?\n**Kabir:** You can borrow mine tomorrow morning. Shall I also share a photo of the board work on WhatsApp?\n**Riya:** That would help a lot. Thank you so much!\n**Kabir:** No problem. Feel better soon. Bye!\n**Riya:** Bye, Kabir. Have a good evening!\n\nRead the passage. Why does Riya say \"Sorry to call during dinner\"?",
     options: [
       { id: "a", text: "She wants Kabir to feel guilty" },
       { id: "b", text: "She forgot Kabir's name" },
@@ -96,7 +96,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-a-q08",
-    prompt: "**Riya:** Hello, is that Kabir?\n**Kabir:** Speaking. Hi, Riya!\n**Riya:** Hi! Sorry to call during dinner. Do you have a minute?\n**Kabir:** Sure. What's up?\n**Riya:** I missed Maths today because I had a fever. Could you please tell me what homework Ms. Fernandes gave?\n**Kabir:** Of course. We must finish Exercise 4.2, questions 1 to 8, and bring our geometry boxes tomorrow.\n**Riya:** Got it. Should I copy the notes from anyone?\n**Kabir:** You can borrow mine tomorrow morning. Shall I also share a photo of the board work on WhatsApp?\n**Riya:** That would help a lot. Thank you so much!\n**Kabir:** No problem. Feel better soon. Bye!\n**Riya:** Bye, Kabir. Have a good evening!\n\nRead Passage P2. Which sentence is Riya's main polite request?",
+    prompt: "**Riya:** Hello, is that Kabir?\n**Kabir:** Speaking. Hi, Riya!\n**Riya:** Hi! Sorry to call during dinner. Do you have a minute?\n**Kabir:** Sure. What's up?\n**Riya:** I missed Maths today because I had a fever. Could you please tell me what homework Ms. Fernandes gave?\n**Kabir:** Of course. We must finish Exercise 4.2, questions 1 to 8, and bring our geometry boxes tomorrow.\n**Riya:** Got it. Should I copy the notes from anyone?\n**Kabir:** You can borrow mine tomorrow morning. Shall I also share a photo of the board work on WhatsApp?\n**Riya:** That would help a lot. Thank you so much!\n**Kabir:** No problem. Feel better soon. Bye!\n**Riya:** Bye, Kabir. Have a good evening!\n\nRead the passage. Which sentence is Riya's main polite request?",
     options: [
       { id: "a", text: "\"Feel better soon.\"" },
       { id: "b", text: "\"Have a good evening!\"" },
@@ -109,7 +109,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-a-q09",
-    prompt: "**Riya:** Hello, is that Kabir?\n**Kabir:** Speaking. Hi, Riya!\n**Riya:** Hi! Sorry to call during dinner. Do you have a minute?\n**Kabir:** Sure. What's up?\n**Riya:** I missed Maths today because I had a fever. Could you please tell me what homework Ms. Fernandes gave?\n**Kabir:** Of course. We must finish Exercise 4.2, questions 1 to 8, and bring our geometry boxes tomorrow.\n**Riya:** Got it. Should I copy the notes from anyone?\n**Kabir:** You can borrow mine tomorrow morning. Shall I also share a photo of the board work on WhatsApp?\n**Riya:** That would help a lot. Thank you so much!\n**Kabir:** No problem. Feel better soon. Bye!\n**Riya:** Bye, Kabir. Have a good evening!\n\nRead Passage P2. Kabir offers to share a photo of the board work. What does this show?",
+    prompt: "**Riya:** Hello, is that Kabir?\n**Kabir:** Speaking. Hi, Riya!\n**Riya:** Hi! Sorry to call during dinner. Do you have a minute?\n**Kabir:** Sure. What's up?\n**Riya:** I missed Maths today because I had a fever. Could you please tell me what homework Ms. Fernandes gave?\n**Kabir:** Of course. We must finish Exercise 4.2, questions 1 to 8, and bring our geometry boxes tomorrow.\n**Riya:** Got it. Should I copy the notes from anyone?\n**Kabir:** You can borrow mine tomorrow morning. Shall I also share a photo of the board work on WhatsApp?\n**Riya:** That would help a lot. Thank you so much!\n**Kabir:** No problem. Feel better soon. Bye!\n**Riya:** Bye, Kabir. Have a good evening!\n\nRead the passage. Kabir offers to share a photo of the board work. What does this show?",
     options: [
       { id: "a", text: "He is being helpful and clear" },
       { id: "b", text: "He wants Riya to fail" },
@@ -122,7 +122,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-a-q10",
-    prompt: "**Riya:** Hello, is that Kabir?\n**Kabir:** Speaking. Hi, Riya!\n**Riya:** Hi! Sorry to call during dinner. Do you have a minute?\n**Kabir:** Sure. What's up?\n**Riya:** I missed Maths today because I had a fever. Could you please tell me what homework Ms. Fernandes gave?\n**Kabir:** Of course. We must finish Exercise 4.2, questions 1 to 8, and bring our geometry boxes tomorrow.\n**Riya:** Got it. Should I copy the notes from anyone?\n**Kabir:** You can borrow mine tomorrow morning. Shall I also share a photo of the board work on WhatsApp?\n**Riya:** That would help a lot. Thank you so much!\n**Kabir:** No problem. Feel better soon. Bye!\n**Riya:** Bye, Kabir. Have a good evening!\n\nRead Passage P2. How do Riya and Kabir end the call?",
+    prompt: "**Riya:** Hello, is that Kabir?\n**Kabir:** Speaking. Hi, Riya!\n**Riya:** Hi! Sorry to call during dinner. Do you have a minute?\n**Kabir:** Sure. What's up?\n**Riya:** I missed Maths today because I had a fever. Could you please tell me what homework Ms. Fernandes gave?\n**Kabir:** Of course. We must finish Exercise 4.2, questions 1 to 8, and bring our geometry boxes tomorrow.\n**Riya:** Got it. Should I copy the notes from anyone?\n**Kabir:** You can borrow mine tomorrow morning. Shall I also share a photo of the board work on WhatsApp?\n**Riya:** That would help a lot. Thank you so much!\n**Kabir:** No problem. Feel better soon. Bye!\n**Riya:** Bye, Kabir. Have a good evening!\n\nRead the passage. How do Riya and Kabir end the call?",
     options: [
       { id: "a", text: "They argue about Maths." },
       { id: "b", text: "They say goodbye and wish each other well." },
@@ -135,7 +135,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-a-q11",
-    prompt: "**Guard:** Good afternoon. How may I help you?\n**Visitor:** Good afternoon. I am looking for the school office. I'm here to collect my daughter's transfer certificate.\n**Guard:** Certainly, ma'am. Please go straight past the playground, then turn left at the mango tree. The office is the blue door next to the Principal's room.\n**Visitor:** Straight, then left at the mango tree. Is that correct?\n**Guard:** Yes. If you get confused, ask any teacher. Would you like me to call someone to walk with you?\n**Visitor:** That's thoughtful, but I think I can manage. Thank you very much.\n**Guard:** You're welcome. Have a pleasant day.\n\nRead Passage P3. What does the visitor need?",
+    prompt: "**Guard:** Good afternoon. How may I help you?\n**Visitor:** Good afternoon. I am looking for the school office. I'm here to collect my daughter's transfer certificate.\n**Guard:** Certainly, ma'am. Please go straight past the playground, then turn left at the mango tree. The office is the blue door next to the Principal's room.\n**Visitor:** Straight, then left at the mango tree. Is that correct?\n**Guard:** Yes. If you get confused, ask any teacher. Would you like me to call someone to walk with you?\n**Visitor:** That's thoughtful, but I think I can manage. Thank you very much.\n**Guard:** You're welcome. Have a pleasant day.\n\nRead the passage. What does the visitor need?",
     options: [
       { id: "a", text: "A cricket bat from the store room" },
       { id: "b", text: "Lunch in the canteen" },
@@ -148,7 +148,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-a-q12",
-    prompt: "**Guard:** Good afternoon. How may I help you?\n**Visitor:** Good afternoon. I am looking for the school office. I'm here to collect my daughter's transfer certificate.\n**Guard:** Certainly, ma'am. Please go straight past the playground, then turn left at the mango tree. The office is the blue door next to the Principal's room.\n**Visitor:** Straight, then left at the mango tree. Is that correct?\n**Guard:** Yes. If you get confused, ask any teacher. Would you like me to call someone to walk with you?\n**Visitor:** That's thoughtful, but I think I can manage. Thank you very much.\n**Guard:** You're welcome. Have a pleasant day.\n\nRead Passage P3. Which directions does the guard give?",
+    prompt: "**Guard:** Good afternoon. How may I help you?\n**Visitor:** Good afternoon. I am looking for the school office. I'm here to collect my daughter's transfer certificate.\n**Guard:** Certainly, ma'am. Please go straight past the playground, then turn left at the mango tree. The office is the blue door next to the Principal's room.\n**Visitor:** Straight, then left at the mango tree. Is that correct?\n**Guard:** Yes. If you get confused, ask any teacher. Would you like me to call someone to walk with you?\n**Visitor:** That's thoughtful, but I think I can manage. Thank you very much.\n**Guard:** You're welcome. Have a pleasant day.\n\nRead the passage. Which directions does the guard give?",
     options: [
       { id: "a", text: "Climb to the terrace, then turn right" },
       { id: "b", text: "Wait outside the gate forever" },
@@ -161,7 +161,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-a-q13",
-    prompt: "**Guard:** Good afternoon. How may I help you?\n**Visitor:** Good afternoon. I am looking for the school office. I'm here to collect my daughter's transfer certificate.\n**Guard:** Certainly, ma'am. Please go straight past the playground, then turn left at the mango tree. The office is the blue door next to the Principal's room.\n**Visitor:** Straight, then left at the mango tree. Is that correct?\n**Guard:** Yes. If you get confused, ask any teacher. Would you like me to call someone to walk with you?\n**Visitor:** That's thoughtful, but I think I can manage. Thank you very much.\n**Guard:** You're welcome. Have a pleasant day.\n\nRead Passage P3. The guard asks, \"Would you like me to call someone to walk with you?\" This is \u2014",
+    prompt: "**Guard:** Good afternoon. How may I help you?\n**Visitor:** Good afternoon. I am looking for the school office. I'm here to collect my daughter's transfer certificate.\n**Guard:** Certainly, ma'am. Please go straight past the playground, then turn left at the mango tree. The office is the blue door next to the Principal's room.\n**Visitor:** Straight, then left at the mango tree. Is that correct?\n**Guard:** Yes. If you get confused, ask any teacher. Would you like me to call someone to walk with you?\n**Visitor:** That's thoughtful, but I think I can manage. Thank you very much.\n**Guard:** You're welcome. Have a pleasant day.\n\nRead the passage. The guard asks, \"Would you like me to call someone to walk with you?\" This is —",
     options: [
       { id: "a", text: "a polite offer of more help" },
       { id: "b", text: "a rude order" },
@@ -174,7 +174,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-a-q14",
-    prompt: "**Guard:** Good afternoon. How may I help you?\n**Visitor:** Good afternoon. I am looking for the school office. I'm here to collect my daughter's transfer certificate.\n**Guard:** Certainly, ma'am. Please go straight past the playground, then turn left at the mango tree. The office is the blue door next to the Principal's room.\n**Visitor:** Straight, then left at the mango tree. Is that correct?\n**Guard:** Yes. If you get confused, ask any teacher. Would you like me to call someone to walk with you?\n**Visitor:** That's thoughtful, but I think I can manage. Thank you very much.\n**Guard:** You're welcome. Have a pleasant day.\n\nRead Passage P3. How does the visitor check she understood?",
+    prompt: "**Guard:** Good afternoon. How may I help you?\n**Visitor:** Good afternoon. I am looking for the school office. I'm here to collect my daughter's transfer certificate.\n**Guard:** Certainly, ma'am. Please go straight past the playground, then turn left at the mango tree. The office is the blue door next to the Principal's room.\n**Visitor:** Straight, then left at the mango tree. Is that correct?\n**Guard:** Yes. If you get confused, ask any teacher. Would you like me to call someone to walk with you?\n**Visitor:** That's thoughtful, but I think I can manage. Thank you very much.\n**Guard:** You're welcome. Have a pleasant day.\n\nRead the passage. How does the visitor check she understood?",
     options: [
       { id: "a", text: "She walks away silently" },
       { id: "b", text: "She repeats: straight, then left at the mango tree" },
@@ -187,7 +187,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-a-q15",
-    prompt: "**ANNOUNCEMENT \u2014 Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead Announcement N1. Who is speaking?",
+    prompt: "**ANNOUNCEMENT — Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead the announcement. Who is speaking?",
     options: [
       { id: "a", text: "The school cook" },
       { id: "b", text: "A Class 3 student with no name" },
@@ -200,7 +200,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-a-q16",
-    prompt: "**ANNOUNCEMENT \u2014 Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead Announcement N1. When should Classes 4 and 5 assemble?",
+    prompt: "**ANNOUNCEMENT — Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead the announcement. When should Classes 4 and 5 assemble?",
     options: [
       { id: "a", text: "At midnight in the library" },
       { id: "b", text: "After lunch in the canteen only" },
@@ -213,7 +213,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-a-q17",
-    prompt: "**ANNOUNCEMENT \u2014 Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead Announcement N1. Students must NOT \u2014",
+    prompt: "**ANNOUNCEMENT — Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead the announcement. Students must NOT —",
     options: [
       { id: "a", text: "bring bags to the ground" },
       { id: "b", text: "wear white sports kit" },
@@ -320,7 +320,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g5-eng-ch04-b-q01",
-    prompt: "**Meera:** Good morning! Are you new here?\n**Arjun:** Yes. I joined today. My name is Arjun.\n**Meera:** Welcome to Class 5B, Arjun. I'm Meera. Would you like to sit with me?\n**Arjun:** That's kind of you. Thank you!\n**Meera:** May I show you where we keep our bags and lunch boxes?\n**Arjun:** Yes, please. I don't want to get lost.\n**Meera:** Of course. After assembly, I'll take you to the library too.\n**Arjun:** That would be wonderful. Could you also tell me the teacher's name?\n**Meera:** Ms. Kapoor. She's kind, and she likes it when we raise our hands before we speak.\n**Arjun:** Thanks again, Meera. I feel much better now.\n\nRead Passage P1. What is Arjun's first polite reply after Meera welcomes him?",
+    prompt: "**Meera:** Good morning! Are you new here?\n**Arjun:** Yes. I joined today. My name is Arjun.\n**Meera:** Welcome to Class 5B, Arjun. I'm Meera. Would you like to sit with me?\n**Arjun:** That's kind of you. Thank you!\n**Meera:** May I show you where we keep our bags and lunch boxes?\n**Arjun:** Yes, please. I don't want to get lost.\n**Meera:** Of course. After assembly, I'll take you to the library too.\n**Arjun:** That would be wonderful. Could you also tell me the teacher's name?\n**Meera:** Ms. Kapoor. She's kind, and she likes it when we raise our hands before we speak.\n**Arjun:** Thanks again, Meera. I feel much better now.\n\nRead the passage. What is Arjun's first polite reply after Meera welcomes him?",
     options: [
       { id: "a", text: "\"That's kind of you. Thank you!\"" },
       { id: "b", text: "\"Go away.\"" },
@@ -333,7 +333,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-b-q02",
-    prompt: "**Meera:** Good morning! Are you new here?\n**Arjun:** Yes. I joined today. My name is Arjun.\n**Meera:** Welcome to Class 5B, Arjun. I'm Meera. Would you like to sit with me?\n**Arjun:** That's kind of you. Thank you!\n**Meera:** May I show you where we keep our bags and lunch boxes?\n**Arjun:** Yes, please. I don't want to get lost.\n**Meera:** Of course. After assembly, I'll take you to the library too.\n**Arjun:** That would be wonderful. Could you also tell me the teacher's name?\n**Meera:** Ms. Kapoor. She's kind, and she likes it when we raise our hands before we speak.\n**Arjun:** Thanks again, Meera. I feel much better now.\n\nRead Passage P1. Why does Arjun say he doesn't want to get lost?",
+    prompt: "**Meera:** Good morning! Are you new here?\n**Arjun:** Yes. I joined today. My name is Arjun.\n**Meera:** Welcome to Class 5B, Arjun. I'm Meera. Would you like to sit with me?\n**Arjun:** That's kind of you. Thank you!\n**Meera:** May I show you where we keep our bags and lunch boxes?\n**Arjun:** Yes, please. I don't want to get lost.\n**Meera:** Of course. After assembly, I'll take you to the library too.\n**Arjun:** That would be wonderful. Could you also tell me the teacher's name?\n**Meera:** Ms. Kapoor. She's kind, and she likes it when we raise our hands before we speak.\n**Arjun:** Thanks again, Meera. I feel much better now.\n\nRead the passage. Why does Arjun say he doesn't want to get lost?",
     options: [
       { id: "a", text: "He is joking about maps" },
       { id: "b", text: "He is new and needs guidance around school" },
@@ -346,7 +346,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-b-q03",
-    prompt: "**Meera:** Good morning! Are you new here?\n**Arjun:** Yes. I joined today. My name is Arjun.\n**Meera:** Welcome to Class 5B, Arjun. I'm Meera. Would you like to sit with me?\n**Arjun:** That's kind of you. Thank you!\n**Meera:** May I show you where we keep our bags and lunch boxes?\n**Arjun:** Yes, please. I don't want to get lost.\n**Meera:** Of course. After assembly, I'll take you to the library too.\n**Arjun:** That would be wonderful. Could you also tell me the teacher's name?\n**Meera:** Ms. Kapoor. She's kind, and she likes it when we raise our hands before we speak.\n**Arjun:** Thanks again, Meera. I feel much better now.\n\nRead Passage P1. \"May I show you where we keep our bags\u2026?\" Here \"May I\" means Meera is \u2014",
+    prompt: "**Meera:** Good morning! Are you new here?\n**Arjun:** Yes. I joined today. My name is Arjun.\n**Meera:** Welcome to Class 5B, Arjun. I'm Meera. Would you like to sit with me?\n**Arjun:** That's kind of you. Thank you!\n**Meera:** May I show you where we keep our bags and lunch boxes?\n**Arjun:** Yes, please. I don't want to get lost.\n**Meera:** Of course. After assembly, I'll take you to the library too.\n**Arjun:** That would be wonderful. Could you also tell me the teacher's name?\n**Meera:** Ms. Kapoor. She's kind, and she likes it when we raise our hands before we speak.\n**Arjun:** Thanks again, Meera. I feel much better now.\n\nRead the passage. \"May I show you where we keep our bags…?\" Here \"May I\" means Meera is —",
     options: [
       { id: "a", text: "ordering Arjun" },
       { id: "b", text: "refusing to talk" },
@@ -359,7 +359,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-b-q04",
-    prompt: "**Meera:** Good morning! Are you new here?\n**Arjun:** Yes. I joined today. My name is Arjun.\n**Meera:** Welcome to Class 5B, Arjun. I'm Meera. Would you like to sit with me?\n**Arjun:** That's kind of you. Thank you!\n**Meera:** May I show you where we keep our bags and lunch boxes?\n**Arjun:** Yes, please. I don't want to get lost.\n**Meera:** Of course. After assembly, I'll take you to the library too.\n**Arjun:** That would be wonderful. Could you also tell me the teacher's name?\n**Meera:** Ms. Kapoor. She's kind, and she likes it when we raise our hands before we speak.\n**Arjun:** Thanks again, Meera. I feel much better now.\n\nRead Passage P1. Which classroom habit does Meera pass on?",
+    prompt: "**Meera:** Good morning! Are you new here?\n**Arjun:** Yes. I joined today. My name is Arjun.\n**Meera:** Welcome to Class 5B, Arjun. I'm Meera. Would you like to sit with me?\n**Arjun:** That's kind of you. Thank you!\n**Meera:** May I show you where we keep our bags and lunch boxes?\n**Arjun:** Yes, please. I don't want to get lost.\n**Meera:** Of course. After assembly, I'll take you to the library too.\n**Arjun:** That would be wonderful. Could you also tell me the teacher's name?\n**Meera:** Ms. Kapoor. She's kind, and she likes it when we raise our hands before we speak.\n**Arjun:** Thanks again, Meera. I feel much better now.\n\nRead the passage. Which classroom habit does Meera pass on?",
     options: [
       { id: "a", text: "Never speak in class" },
       { id: "b", text: "Shout answers from the back" },
@@ -372,7 +372,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-b-q05",
-    prompt: "**Riya:** Hello, is that Kabir?\n**Kabir:** Speaking. Hi, Riya!\n**Riya:** Hi! Sorry to call during dinner. Do you have a minute?\n**Kabir:** Sure. What's up?\n**Riya:** I missed Maths today because I had a fever. Could you please tell me what homework Ms. Fernandes gave?\n**Kabir:** Of course. We must finish Exercise 4.2, questions 1 to 8, and bring our geometry boxes tomorrow.\n**Riya:** Got it. Should I copy the notes from anyone?\n**Kabir:** You can borrow mine tomorrow morning. Shall I also share a photo of the board work on WhatsApp?\n**Riya:** That would help a lot. Thank you so much!\n**Kabir:** No problem. Feel better soon. Bye!\n**Riya:** Bye, Kabir. Have a good evening!\n\nRead Passage P2. Why is Riya calling Kabir?",
+    prompt: "**Riya:** Hello, is that Kabir?\n**Kabir:** Speaking. Hi, Riya!\n**Riya:** Hi! Sorry to call during dinner. Do you have a minute?\n**Kabir:** Sure. What's up?\n**Riya:** I missed Maths today because I had a fever. Could you please tell me what homework Ms. Fernandes gave?\n**Kabir:** Of course. We must finish Exercise 4.2, questions 1 to 8, and bring our geometry boxes tomorrow.\n**Riya:** Got it. Should I copy the notes from anyone?\n**Kabir:** You can borrow mine tomorrow morning. Shall I also share a photo of the board work on WhatsApp?\n**Riya:** That would help a lot. Thank you so much!\n**Kabir:** No problem. Feel better soon. Bye!\n**Riya:** Bye, Kabir. Have a good evening!\n\nRead the passage. Why is Riya calling Kabir?",
     options: [
       { id: "a", text: "To learn the Maths homework she missed" },
       { id: "b", text: "To invite him to a movie only" },
@@ -385,7 +385,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-b-q06",
-    prompt: "**Riya:** Hello, is that Kabir?\n**Kabir:** Speaking. Hi, Riya!\n**Riya:** Hi! Sorry to call during dinner. Do you have a minute?\n**Kabir:** Sure. What's up?\n**Riya:** I missed Maths today because I had a fever. Could you please tell me what homework Ms. Fernandes gave?\n**Kabir:** Of course. We must finish Exercise 4.2, questions 1 to 8, and bring our geometry boxes tomorrow.\n**Riya:** Got it. Should I copy the notes from anyone?\n**Kabir:** You can borrow mine tomorrow morning. Shall I also share a photo of the board work on WhatsApp?\n**Riya:** That would help a lot. Thank you so much!\n**Kabir:** No problem. Feel better soon. Bye!\n**Riya:** Bye, Kabir. Have a good evening!\n\nRead Passage P2. Kabir says, \"Shall I also share a photo\u2026?\" \"Shall I\" here is \u2014",
+    prompt: "**Riya:** Hello, is that Kabir?\n**Kabir:** Speaking. Hi, Riya!\n**Riya:** Hi! Sorry to call during dinner. Do you have a minute?\n**Kabir:** Sure. What's up?\n**Riya:** I missed Maths today because I had a fever. Could you please tell me what homework Ms. Fernandes gave?\n**Kabir:** Of course. We must finish Exercise 4.2, questions 1 to 8, and bring our geometry boxes tomorrow.\n**Riya:** Got it. Should I copy the notes from anyone?\n**Kabir:** You can borrow mine tomorrow morning. Shall I also share a photo of the board work on WhatsApp?\n**Riya:** That would help a lot. Thank you so much!\n**Kabir:** No problem. Feel better soon. Bye!\n**Riya:** Bye, Kabir. Have a good evening!\n\nRead the passage. Kabir says, \"Shall I also share a photo…?\" \"Shall I\" here is —",
     options: [
       { id: "a", text: "an angry command" },
       { id: "b", text: "a polite offer / suggestion" },
@@ -398,7 +398,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-b-q07",
-    prompt: "**Riya:** Hello, is that Kabir?\n**Kabir:** Speaking. Hi, Riya!\n**Riya:** Hi! Sorry to call during dinner. Do you have a minute?\n**Kabir:** Sure. What's up?\n**Riya:** I missed Maths today because I had a fever. Could you please tell me what homework Ms. Fernandes gave?\n**Kabir:** Of course. We must finish Exercise 4.2, questions 1 to 8, and bring our geometry boxes tomorrow.\n**Riya:** Got it. Should I copy the notes from anyone?\n**Kabir:** You can borrow mine tomorrow morning. Shall I also share a photo of the board work on WhatsApp?\n**Riya:** That would help a lot. Thank you so much!\n**Kabir:** No problem. Feel better soon. Bye!\n**Riya:** Bye, Kabir. Have a good evening!\n\nRead Passage P2. What must Riya bring tomorrow, according to Kabir?",
+    prompt: "**Riya:** Hello, is that Kabir?\n**Kabir:** Speaking. Hi, Riya!\n**Riya:** Hi! Sorry to call during dinner. Do you have a minute?\n**Kabir:** Sure. What's up?\n**Riya:** I missed Maths today because I had a fever. Could you please tell me what homework Ms. Fernandes gave?\n**Kabir:** Of course. We must finish Exercise 4.2, questions 1 to 8, and bring our geometry boxes tomorrow.\n**Riya:** Got it. Should I copy the notes from anyone?\n**Kabir:** You can borrow mine tomorrow morning. Shall I also share a photo of the board work on WhatsApp?\n**Riya:** That would help a lot. Thank you so much!\n**Kabir:** No problem. Feel better soon. Bye!\n**Riya:** Bye, Kabir. Have a good evening!\n\nRead the passage. What must Riya bring tomorrow, according to Kabir?",
     options: [
       { id: "a", text: "A cricket bat and helmet" },
       { id: "b", text: "Only a storybook" },
@@ -411,7 +411,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-b-q08",
-    prompt: "**Riya:** Hello, is that Kabir?\n**Kabir:** Speaking. Hi, Riya!\n**Riya:** Hi! Sorry to call during dinner. Do you have a minute?\n**Kabir:** Sure. What's up?\n**Riya:** I missed Maths today because I had a fever. Could you please tell me what homework Ms. Fernandes gave?\n**Kabir:** Of course. We must finish Exercise 4.2, questions 1 to 8, and bring our geometry boxes tomorrow.\n**Riya:** Got it. Should I copy the notes from anyone?\n**Kabir:** You can borrow mine tomorrow morning. Shall I also share a photo of the board work on WhatsApp?\n**Riya:** That would help a lot. Thank you so much!\n**Kabir:** No problem. Feel better soon. Bye!\n**Riya:** Bye, Kabir. Have a good evening!\n\nRead Passage P2. Kabir says \"Feel better soon.\" This shows \u2014",
+    prompt: "**Riya:** Hello, is that Kabir?\n**Kabir:** Speaking. Hi, Riya!\n**Riya:** Hi! Sorry to call during dinner. Do you have a minute?\n**Kabir:** Sure. What's up?\n**Riya:** I missed Maths today because I had a fever. Could you please tell me what homework Ms. Fernandes gave?\n**Kabir:** Of course. We must finish Exercise 4.2, questions 1 to 8, and bring our geometry boxes tomorrow.\n**Riya:** Got it. Should I copy the notes from anyone?\n**Kabir:** You can borrow mine tomorrow morning. Shall I also share a photo of the board work on WhatsApp?\n**Riya:** That would help a lot. Thank you so much!\n**Kabir:** No problem. Feel better soon. Bye!\n**Riya:** Bye, Kabir. Have a good evening!\n\nRead the passage. Kabir says \"Feel better soon.\" This shows —",
     options: [
       { id: "a", text: "anger about homework" },
       { id: "b", text: "that he forgot Riya's name" },
@@ -424,7 +424,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-b-q09",
-    prompt: "**Guard:** Good afternoon. How may I help you?\n**Visitor:** Good afternoon. I am looking for the school office. I'm here to collect my daughter's transfer certificate.\n**Guard:** Certainly, ma'am. Please go straight past the playground, then turn left at the mango tree. The office is the blue door next to the Principal's room.\n**Visitor:** Straight, then left at the mango tree. Is that correct?\n**Guard:** Yes. If you get confused, ask any teacher. Would you like me to call someone to walk with you?\n**Visitor:** That's thoughtful, but I think I can manage. Thank you very much.\n**Guard:** You're welcome. Have a pleasant day.\n\nRead Passage P3. Where is the office, according to the guard?",
+    prompt: "**Guard:** Good afternoon. How may I help you?\n**Visitor:** Good afternoon. I am looking for the school office. I'm here to collect my daughter's transfer certificate.\n**Guard:** Certainly, ma'am. Please go straight past the playground, then turn left at the mango tree. The office is the blue door next to the Principal's room.\n**Visitor:** Straight, then left at the mango tree. Is that correct?\n**Guard:** Yes. If you get confused, ask any teacher. Would you like me to call someone to walk with you?\n**Visitor:** That's thoughtful, but I think I can manage. Thank you very much.\n**Guard:** You're welcome. Have a pleasant day.\n\nRead the passage. Where is the office, according to the guard?",
     options: [
       { id: "a", text: "The blue door next to the Principal's room" },
       { id: "b", text: "On the terrace near the water tank" },
@@ -437,7 +437,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-b-q10",
-    prompt: "**Guard:** Good afternoon. How may I help you?\n**Visitor:** Good afternoon. I am looking for the school office. I'm here to collect my daughter's transfer certificate.\n**Guard:** Certainly, ma'am. Please go straight past the playground, then turn left at the mango tree. The office is the blue door next to the Principal's room.\n**Visitor:** Straight, then left at the mango tree. Is that correct?\n**Guard:** Yes. If you get confused, ask any teacher. Would you like me to call someone to walk with you?\n**Visitor:** That's thoughtful, but I think I can manage. Thank you very much.\n**Guard:** You're welcome. Have a pleasant day.\n\nRead Passage P3. How does the guard open the conversation?",
+    prompt: "**Guard:** Good afternoon. How may I help you?\n**Visitor:** Good afternoon. I am looking for the school office. I'm here to collect my daughter's transfer certificate.\n**Guard:** Certainly, ma'am. Please go straight past the playground, then turn left at the mango tree. The office is the blue door next to the Principal's room.\n**Visitor:** Straight, then left at the mango tree. Is that correct?\n**Guard:** Yes. If you get confused, ask any teacher. Would you like me to call someone to walk with you?\n**Visitor:** That's thoughtful, but I think I can manage. Thank you very much.\n**Guard:** You're welcome. Have a pleasant day.\n\nRead the passage. How does the guard open the conversation?",
     options: [
       { id: "a", text: "\"What do you want?\"" },
       { id: "b", text: "\"Good afternoon. How may I help you?\"" },
@@ -450,7 +450,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-b-q11",
-    prompt: "**Guard:** Good afternoon. How may I help you?\n**Visitor:** Good afternoon. I am looking for the school office. I'm here to collect my daughter's transfer certificate.\n**Guard:** Certainly, ma'am. Please go straight past the playground, then turn left at the mango tree. The office is the blue door next to the Principal's room.\n**Visitor:** Straight, then left at the mango tree. Is that correct?\n**Guard:** Yes. If you get confused, ask any teacher. Would you like me to call someone to walk with you?\n**Visitor:** That's thoughtful, but I think I can manage. Thank you very much.\n**Guard:** You're welcome. Have a pleasant day.\n\nRead Passage P3. The visitor says the offer to walk with her is \"thoughtful.\" She means it is \u2014",
+    prompt: "**Guard:** Good afternoon. How may I help you?\n**Visitor:** Good afternoon. I am looking for the school office. I'm here to collect my daughter's transfer certificate.\n**Guard:** Certainly, ma'am. Please go straight past the playground, then turn left at the mango tree. The office is the blue door next to the Principal's room.\n**Visitor:** Straight, then left at the mango tree. Is that correct?\n**Guard:** Yes. If you get confused, ask any teacher. Would you like me to call someone to walk with you?\n**Visitor:** That's thoughtful, but I think I can manage. Thank you very much.\n**Guard:** You're welcome. Have a pleasant day.\n\nRead the passage. The visitor says the offer to walk with her is \"thoughtful.\" She means it is —",
     options: [
       { id: "a", text: "rude and silly" },
       { id: "b", text: "a waste of time" },
@@ -463,7 +463,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-b-q12",
-    prompt: "**Guard:** Good afternoon. How may I help you?\n**Visitor:** Good afternoon. I am looking for the school office. I'm here to collect my daughter's transfer certificate.\n**Guard:** Certainly, ma'am. Please go straight past the playground, then turn left at the mango tree. The office is the blue door next to the Principal's room.\n**Visitor:** Straight, then left at the mango tree. Is that correct?\n**Guard:** Yes. If you get confused, ask any teacher. Would you like me to call someone to walk with you?\n**Visitor:** That's thoughtful, but I think I can manage. Thank you very much.\n**Guard:** You're welcome. Have a pleasant day.\n\nRead Passage P3. If the visitor gets confused, what should she do?",
+    prompt: "**Guard:** Good afternoon. How may I help you?\n**Visitor:** Good afternoon. I am looking for the school office. I'm here to collect my daughter's transfer certificate.\n**Guard:** Certainly, ma'am. Please go straight past the playground, then turn left at the mango tree. The office is the blue door next to the Principal's room.\n**Visitor:** Straight, then left at the mango tree. Is that correct?\n**Guard:** Yes. If you get confused, ask any teacher. Would you like me to call someone to walk with you?\n**Visitor:** That's thoughtful, but I think I can manage. Thank you very much.\n**Guard:** You're welcome. Have a pleasant day.\n\nRead the passage. If the visitor gets confused, what should she do?",
     options: [
       { id: "a", text: "Leave the school at once" },
       { id: "b", text: "Climb the mango tree" },
@@ -476,7 +476,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-b-q13",
-    prompt: "**ANNOUNCEMENT \u2014 Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead Announcement N1. What event is tomorrow?",
+    prompt: "**ANNOUNCEMENT — Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead the announcement. What event is tomorrow?",
     options: [
       { id: "a", text: "Sports Day practice" },
       { id: "b", text: "A silent library exam only" },
@@ -489,7 +489,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-b-q14",
-    prompt: "**ANNOUNCEMENT \u2014 Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead Announcement N1. After practice, students should \u2014",
+    prompt: "**ANNOUNCEMENT — Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead the announcement. After practice, students should —",
     options: [
       { id: "a", text: "run home without permission" },
       { id: "b", text: "return quietly to their classrooms" },
@@ -502,7 +502,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch04-b-q15",
-    prompt: "**ANNOUNCEMENT \u2014 Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead Announcement N1. Why does Ananya end with \"Thank you, and have a wonderful day\"?",
+    prompt: "**ANNOUNCEMENT — Morning Assembly**\nGood morning, students. This is your Head Girl, Ananya speaking.\nTomorrow is our Sports Day practice. Classes 4 and 5 will assemble on the ground at 8:15 a.m. Please wear your white sports kit and carry a water bottle. Do not bring bags to the ground.\nAfter practice, return quietly to your classrooms. Thank you, and have a wonderful day.\n\nRead the announcement. Why does Ananya end with \"Thank you, and have a wonderful day\"?",
     options: [
       { id: "a", text: "To cancel Sports Day" },
       { id: "b", text: "To scold Class 5" },
