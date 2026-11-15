@@ -342,8 +342,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "right" }
     ],
     answerId: "b",
-    explanation: "An angle of 180° has its two arms pointing in opposite directions, making one straight line, so it is a straight angle. Obtuse is tempting if you think obtuse covers every angle above 90° up to and including 180°. Obtuse angles stop just below 180°.",
-    hints: ["At 180° the two arms point in exactly opposite directions and form a line. Which angle type is that?"]
+    explanation: "180° is a straight angle: its two arms form a straight line. Obtuse is tempting if you think every angle bigger than 90° is obtuse, but obtuse angles stop below 180°.",
+    hints: ["Any angle smaller than a square corner is far too small to be 180°. Cross out the option that names such small angles."]
   },
   {
     id: "g6-maths-geo-b-q03",
@@ -537,8 +537,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "never equal" }
     ],
     answerId: "a",
-    explanation: "When two lines cross, vertically opposite angles are equal. always complementary is tempting if you use adjacent angles on a straight line instead of the vertically opposite equal pair.",
-    hints: ["Opposite angles at an X."]
+    explanation: "When two lines cross, vertically opposite angles are always equal. The option 'always complementary' is tempting if you mix up complementary and supplementary: neighbouring angles at a crossing add to 180°, which is supplementary, not complementary.",
+    hints: ["Two lines can cross at a slant, not only square on. So the angles at a crossing cannot all be fixed at one size."]
   },
   {
     id: "g6-maths-geo-b-q18",

@@ -223,7 +223,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "(5y − 3)² = 25y² − 2·5y·3 + 9 = 25y² − 30y + 9. 25y² − 9 is tempting if you mix up (5y − 3)² with (5y − 3)(5y + 3), the difference of squares, which has no middle term and ends in −9.",
-    hints: ["Expand with a grid: put 5y and −3 along the top and down the side. Fill all four boxes, then combine the two boxes that match."]
+    hints: ["Expand with a grid: one bracket along the top, its copy down the side. Fill all four boxes, then merge the pair that match."]
   },
   {
     id: "g8-maths-algebra-a-q18",
@@ -460,7 +460,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "(x − 7)² = x² − 14x + 49. x² − 49 is tempting if you mix up (x − 7)² with (x − 7)(x + 7), the difference of squares, which equals x² − 49.",
-    hints: ["Write (x − 7)² as two equal brackets multiplied together. Multiply each term in one bracket by each term in the other, then collect like terms."]
+    hints: ["Write (x − 7)² as two equal brackets side by side. Every term meets every term once; collect like terms after, watching signs."]
   },
   {
     id: "g8-maths-algebra-b-q12",

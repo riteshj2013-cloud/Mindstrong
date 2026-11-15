@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8" }
     ],
     answerId: "b",
-    explanation: "Subtracting a negative is adding: (−6) − (−2) = (−6) + 2 = −4. −8 is tempting if you treat both signs as 'keep going left' (6 + 2 with a minus); 4 if you get the magnitude right but drop the minus from −6.",
+    explanation: "Subtracting a negative is adding: (−6) − (−2) = (−6) + 2 = −4. −8 is tempting if you treat both signs as 'keep going left' (6 + 2 with a minus). 4 is tempting if you get the size right but forget the answer stays negative.",
     hints: ["Evaluate on a number line, starting at −6. Before you move, decide whether taking away a negative sends you left or right."]
   },
   {
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "\u221213 floors" }
     ],
     answerId: "a",
-    explanation: "−4 + 9 = +5 floors. +13 floors is tempting if you reverse a rise and a fall when combining signed changes.",
+    explanation: "Going down counts as negative and going up as positive, so −4 + 9 = +5 floors. +13 floors is tempting if you add 4 and 9 and forget that going down counts as negative.",
     hints: ["Treat the lift going down as negative and going up as positive. Combine the two changes; the sign shows the direction."]
   },
   {
@@ -236,7 +236,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "(−2)³ = (−2)×(−2)×(−2). First two give +4, times (−2) gives −8. An odd power keeps the negative. 8 is tempting if you ignore the odd exponent; −6 if you do −2 × 3.",
-    hints: ["The small 3 tells you how many copies of −2 to multiply. Multiply them one pair at a time and track the sign each time."]
+    hints: ["Write (−2)³ out as copies of −2 multiplied together. Track how the sign changes each time another negative joins in."]
   },
   {
     id: "g7-maths-integers-a-q19",
@@ -369,7 +369,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Three negative factors: the product is negative. 3 × 4 × 1 = 12, so (−3)×(−4)×(−1) = −12. 12 is tempting if you treat an odd count of negatives as positive; −7 if you add 3 + 4 and keep a minus.",
-    hints: ["Work left to right: first find the sign and size of (−3) × (−4), then bring in the last factor and decide the sign again."]
+    hints: ["Count how many factors are negative. Then evaluate the size of the product, and let that count decide the sign."]
   },
   {
     id: "g7-maths-integers-b-q05",

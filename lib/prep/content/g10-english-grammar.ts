@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "In the passive, the object 'the meal' becomes the subject: is + cooked + by the chef. 'The chef is cooked by the meal' is tempting because it uses the passive pattern, but it swaps the doer and the thing done.",
-    hints: ["Active object → passive subject."]
+    hints: ["Decide which noun receives the action in the original kitchen sentence; a passive version must keep who-did-what exactly the same."]
   },
   {
     id: "g10-eng-ch02-a-q04",
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "With he/she/it we use doesn't + base verb: 'He doesn't like tea'. 'He doesn't likes tea' is tempting because 'he' usually takes -s, but after doesn't the verb stays in its base form.",
-    hints: ["He/she/it → doesn't."]
+    hints: ["Compare 'They don't like tea' with this sentence. Changing the subject to 'he' changes something, but only in one word."]
   },
   {
     id: "g10-eng-ch02-a-q10",
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "'No sooner did he arrive than the meeting began' keeps the meaning and uses the correct pattern (no sooner + did + subject… than). 'Hardly he arrive' is tempting because hardly also shows quick timing, but it needs 'had he arrived… when' to be correct.",
-    hints: ["Inversion after No sooner."]
+    hints: ["Keep the meaning: the meeting started the instant he came. One pattern for this opens with a negative word and needs an inverted helping verb."]
   },
   {
     id: "g10-eng-ch02-a-q14",
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "'However' shows a contrast: she was tired, but she still finished. 'Therefore' is tempting because it is also a linker, but it shows a result, and finishing the race is not a result of being tired.",
-    hints: ["Contrast linker."]
+    hints: ["Being tired would normally make a runner stop. Decide whether finishing the race follows from her tiredness or happens in spite of it."]
   },
   {
     id: "g10-eng-ch02-a-q23",
@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "'Had left' is past perfect (the earlier action) and 'arrived' is simple past (the later one). 'Present perfect' is tempting because both use have/had + past participle, but present perfect uses have/has, not had.",
-    hints: ["Had + V3 before another past."]
+    hints: ["'Left' and 'arrived' are two actions in different verb forms. Work out which happened first and how 'had' marks that earlier one."]
   },
   {
     id: "g10-eng-ch02-b-q02",
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A third conditional uses If + past perfect, then would have + past participle: 'she would have passed'. 'Will pass' is tempting because it is a common future form, but it belongs to the first conditional about real future events.",
-    hints: ["Unreal past."]
+    hints: ["'If she had studied' looks back at something that did not happen. The result half must also describe an imagined past, not the future."]
   },
   {
     id: "g10-eng-ch02-b-q06",
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "'Suggest' takes a gerund, so 'She suggested going home' is correct. 'She suggested to going' is tempting because it keeps the -ing, but 'to' should not be there.",
-    hints: ["Suggest doing."]
+    hints: ["Check what normally follows 'suggest': try 'She suggested a walk' and notice what kind of word fills that slot after the verb."]
   },
   {
     id: "g10-eng-ch02-b-q08",
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "'Called off' means cancelled, which fits a meeting stopped by rain. 'Called on' is tempting because it uses the same verb, but call on means to visit someone.",
-    hints: ["Call off the meeting."]
+    hints: ["Monsoon rain often spoils plans in India. Think about what happened to the meeting, then match a phrase to exactly that meaning."]
   },
   {
     id: "g10-eng-ch02-b-q10",
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "With either… or, the verb agrees with the nearer subject: 'the students' is plural, so 'have'. 'Has' is tempting because 'the teacher' is singular, but the teacher is the farther subject.",
-    hints: ["Either…or proximity."]
+    hints: ["With 'either the teacher or the students', only one subject controls the verb. Work out which one, then whether it is singular or plural."]
   },
   {
     id: "g10-eng-ch02-b-q11",
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "An adverb describes the verb sang, so 'beautifully'. 'Beautiful' is tempting, but it is an adjective and can only describe a noun.",
-    hints: ["Verb ← adverb."]
+    hints: ["The blank tells how she sang, so it describes the action, not the singer. Choose the form that is able to describe a verb."]
   },
   {
     id: "g10-eng-ch02-b-q13",
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Being rich and not being happy contrast, so a contrast word like 'yet' fits. 'Therefore' is tempting because it joins two clauses, but it shows a result, and unhappiness does not follow from being rich.",
-    hints: ["Yet/however for contrast."]
+    hints: ["People expect a rich man to be happy, but this sentence says the opposite. Pick the connector whose job is to mark that surprise."]
   },
   {
     id: "g10-eng-ch02-b-q23",
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "'Swimming' is the -ing form used as a noun (the subject), so it is a gerund. 'Finite past verb' is tempting because it comes from a verb, but it has no tense and the main verb is 'is'.",
-    hints: ["Swimming = thing that is good."]
+    hints: ["Think about the job 'Swimming' does here: is it showing someone in action, or naming the activity that is good exercise?"]
   }
 ];
 
