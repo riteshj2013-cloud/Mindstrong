@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "p(2) = 0 gives 4 + 2k + 6 = 0, so 2k = −10 and k = −5; the other zero is 3, since 2 × 3 = 6. 5 is tempting if you drop the sign, but x² + 5x + 6 has zeros −2 and −3, not 2.",
-    hints: ["Since the given zero makes the polynomial vanish, swapping it in for x leaves an equation in k. Finish by solving for k."]
+    hints: ["Do the next algebra step for equals, zero carefully; flip the sign when a term crosses equals."]
   },
   {
     id: "g10-maths-poly-a-q13",
