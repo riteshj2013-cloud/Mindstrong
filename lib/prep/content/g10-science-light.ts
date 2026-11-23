@@ -18,16 +18,17 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-sci-light-a-q02",
-    prompt: "A ray along the normal to a plane mirror reflects \u2014",
+    prompt: "Look at the ray and the plane mirror. A ray along the normal to a plane mirror reflects —",
     options: [
-      { id: "a", text: "at 90\u00b0 to the normal" },
+      { id: "a", text: "at 90° to the normal" },
       { id: "b", text: "parallel to the mirror" },
       { id: "c", text: "not at all" },
       { id: "d", text: "back on itself" }
     ],
     answerId: "d",
-    explanation: "A ray along the normal has i = 0, so r = 0 and it goes straight back along its path. 'At 90° to the normal' is tempting because 90° appears in the diagram, but that would send the ray along the mirror surface.",
-    hints: ["Head-on to the normal means bounce straight back."]
+    explanation: "A ray along the normal has an angle of incidence of 0, so it reflects back along the same path. “At 90° to the normal” is tempting because 90° appears often in ray diagrams, but that would send the ray along the mirror surface.",
+    hints: ["Head-on to the normal means bounce straight back."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A plane mirror stands on the right. A dashed normal is perpendicular to the mirror. An incident ray travels along that normal and stops at the mirror surface.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A ray striking a plane mirror</text>\n  <line x1=\"240\" y1=\"40\" x2=\"240\" y2=\"180\" stroke=\"#1e3a8a\" stroke-width=\"3\" fill=\"none\"/>\n  <line x1=\"240\" y1=\"48\" x2=\"250\" y2=\"58\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"240\" y1=\"60\" x2=\"250\" y2=\"70\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"240\" y1=\"72\" x2=\"250\" y2=\"82\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"240\" y1=\"84\" x2=\"250\" y2=\"94\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"240\" y1=\"96\" x2=\"250\" y2=\"106\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"240\" y1=\"108\" x2=\"250\" y2=\"118\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"240\" y1=\"120\" x2=\"250\" y2=\"130\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"240\" y1=\"132\" x2=\"250\" y2=\"142\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"240\" y1=\"144\" x2=\"250\" y2=\"154\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"240\" y1=\"156\" x2=\"250\" y2=\"166\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"240\" y1=\"168\" x2=\"250\" y2=\"178\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"240\" y1=\"180\" x2=\"250\" y2=\"190\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"140\" y1=\"110\" x2=\"240\" y2=\"110\" stroke=\"#64748b\" stroke-width=\"1\" fill=\"none\" stroke-dasharray=\"4 3\"/>\n  <text x=\"170\" y=\"100\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">normal</text>\n  <line x1=\"60\" y1=\"110\" x2=\"232\" y2=\"110\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>  <polyline points=\"225.0,113.5 232,110 225.0,106.5\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>\n  <text x=\"90\" y=\"128\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">incident ray</text>\n  <text x=\"160\" y=\"208\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">The incident ray travels along the normal</text>\n</svg>", "alt": "A plane mirror stands on the right. A dashed normal is perpendicular to the mirror. An incident ray travels along that normal and stops at the mirror surface."}
   },
   {
     id: "g10-sci-light-a-q03",
@@ -57,7 +58,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-sci-light-a-q05",
-    prompt: "A concave mirror can form a real image when the object is \u2014",
+    prompt: "Look at the concave mirror and the object. A concave mirror can form a real image when the object is —",
     options: [
       { id: "a", text: "inside the mirror material" },
       { id: "b", text: "beyond the focus" },
@@ -65,8 +66,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "between pole and focus only" }
     ],
     answerId: "b",
-    explanation: "A concave mirror forms a real, inverted image when the object is beyond the focus. 'Between pole and focus only' is tempting because the mirror magnifies there, but that image is virtual and cannot be caught on a screen.",
-    hints: ["A concave mirror forms real images only for objects on one side of F. Which side: nearer the pole or farther?"]
+    explanation: "A concave mirror forms a real image when the object is beyond the focus. “between pole and focus only” is tempting, but in that case the image is virtual, erect and magnified, not real.",
+    hints: ["A concave mirror forms real images only for objects on one side of F. Which side: nearer the pole or farther?"],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A concave mirror faces left. Points P, F and C are marked on the principal axis.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A concave mirror</text>\n  <line x1=\"16\" y1=\"110\" x2=\"304\" y2=\"110\" stroke=\"#334155\" stroke-width=\"1\" fill=\"none\"/>\n  <path d=\"M 230.9 51.2 A 100.0 100.0 0 0 1 230.9 168.8\" fill=\"none\" stroke=\"#1e3a8a\" stroke-width=\"3\"/>  <line x1=\"234.8048096156426\" y1=\"57.00807357667951\" x2=\"242.8048096156426\" y2=\"63.00807357667951\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"241.35454576426008\" y1=\"69.32633569241997\" x2=\"249.35454576426008\" y2=\"75.32633569241997\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"246.1261695938319\" y1=\"82.43626441830008\" x2=\"254.1261695938319\" y2=\"88.43626441830008\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"249.02680687415705\" y1=\"96.08268990399345\" x2=\"257.02680687415705\" y2=\"102.08268990399345\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"250.0\" y1=\"110.0\" x2=\"258.0\" y2=\"116.0\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"249.02680687415705\" y1=\"123.91731009600655\" x2=\"257.02680687415705\" y2=\"129.91731009600653\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"246.1261695938319\" y1=\"137.56373558169992\" x2=\"254.1261695938319\" y2=\"143.56373558169992\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"241.35454576426008\" y1=\"150.67366430758003\" x2=\"249.35454576426008\" y2=\"156.67366430758003\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"234.8048096156426\" y1=\"162.99192642332048\" x2=\"242.8048096156426\" y2=\"168.99192642332048\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <circle cx=\"250\" cy=\"110\" r=\"2.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/>  <text x=\"250\" y=\"128\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">P</text>\n  <circle cx=\"200.0\" cy=\"110\" r=\"2.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/>  <text x=\"200.0\" y=\"128\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">F</text>\n  <circle cx=\"150\" cy=\"110\" r=\"2.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/>  <text x=\"150\" y=\"128\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">C</text>\n  <text x=\"160\" y=\"208\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">Points P, F and C are marked on the axis</text>\n</svg>", "alt": "A concave mirror faces left. Points P, F and C are marked on the principal axis."}
   },
   {
     id: "g10-sci-light-a-q06",
@@ -83,7 +85,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-sci-light-a-q07",
-    prompt: "A ray through the centre of curvature of a concave mirror \u2014",
+    prompt: "Look at the incident ray. A ray through the centre of curvature of a concave mirror —",
     options: [
       { id: "a", text: "reflects back on itself" },
       { id: "b", text: "stops" },
@@ -91,8 +93,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "grazes the pole without reflecting" }
     ],
     answerId: "a",
-    explanation: "A ray through C meets the mirror along a radius, which is the normal, so i = 0 and it reflects back on itself. 'Passes through focus only after' is tempting, but that is what happens to rays parallel to the axis.",
-    hints: ["A ray through the centre of curvature meets the mirror along its normal, at 0° incidence. Where does it go?"]
+    explanation: "A ray through C meets the mirror along a radius, so it is along the normal and reflects back on itself. “Stops” is wrong because the ray is reflected; it does not come to an end at the surface.",
+    hints: ["A ray through the centre of curvature meets the mirror along its normal, at 0° incidence. Where does it go?"],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A concave mirror faces left with P, F and C marked on the principal axis. An incident ray passes through C and stops when it meets the mirror. No reflected ray is drawn.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A ray towards a concave mirror</text>\n  <line x1=\"16\" y1=\"110\" x2=\"304\" y2=\"110\" stroke=\"#334155\" stroke-width=\"1\" fill=\"none\"/>\n  <path d=\"M 230.9 51.2 A 100.0 100.0 0 0 1 230.9 168.8\" fill=\"none\" stroke=\"#1e3a8a\" stroke-width=\"3\"/>  <line x1=\"234.8048096156426\" y1=\"57.00807357667951\" x2=\"242.8048096156426\" y2=\"63.00807357667951\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"241.35454576426008\" y1=\"69.32633569241997\" x2=\"249.35454576426008\" y2=\"75.32633569241997\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"246.1261695938319\" y1=\"82.43626441830008\" x2=\"254.1261695938319\" y2=\"88.43626441830008\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"249.02680687415705\" y1=\"96.08268990399345\" x2=\"257.02680687415705\" y2=\"102.08268990399345\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"250.0\" y1=\"110.0\" x2=\"258.0\" y2=\"116.0\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"249.02680687415705\" y1=\"123.91731009600655\" x2=\"257.02680687415705\" y2=\"129.91731009600653\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"246.1261695938319\" y1=\"137.56373558169992\" x2=\"254.1261695938319\" y2=\"143.56373558169992\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"241.35454576426008\" y1=\"150.67366430758003\" x2=\"249.35454576426008\" y2=\"156.67366430758003\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"234.8048096156426\" y1=\"162.99192642332048\" x2=\"242.8048096156426\" y2=\"168.99192642332048\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <circle cx=\"250\" cy=\"110\" r=\"2.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/>  <text x=\"250\" y=\"128\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">P</text>\n  <circle cx=\"200\" cy=\"110\" r=\"2.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/>  <text x=\"200\" y=\"128\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">F</text>\n  <circle cx=\"150\" cy=\"110\" r=\"2.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/>  <text x=\"150\" y=\"128\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">C</text>\n  <line x1=\"64.40491353343619\" y1=\"137.81152949374527\" x2=\"241.30142556433475\" y2=\"80.33436854000504\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>  <polyline points=\"235.7,85.8 241.30142556433475,80.33436854000504 233.6,79.2\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>\n  <text x=\"80\" y=\"70\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">incident ray</text>\n  <text x=\"160\" y=\"208\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">The incident ray is aimed through C</text>\n</svg>", "alt": "A concave mirror faces left with P, F and C marked on the principal axis. An incident ray passes through C and stops when it meets the mirror. No reflected ray is drawn."}
   },
   {
     id: "g10-sci-light-a-q08",
@@ -135,7 +138,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-sci-light-a-q11",
-    prompt: "A convex lens is a \u2014",
+    prompt: "Look at the lens and the incoming rays. A convex lens is a —",
     options: [
       { id: "a", text: "diverging lens" },
       { id: "b", text: "converging lens" },
@@ -143,8 +146,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "prism only" }
     ],
     answerId: "b",
-    explanation: "A convex lens is thicker in the middle and brings parallel rays together at a focus, so it is converging. 'Diverging lens' is tempting, but that is the concave lens, which is thinner in the middle.",
-    hints: ["Convex lenses converge."]
+    explanation: "A convex lens is thicker in the middle and is a converging lens: parallel rays would meet after passing through it. Plane mirror is a reflecting surface, not a lens at all.",
+    hints: ["Convex lenses converge."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A convex lens sits on a principal axis with F marked on both sides. Two incident rays travel parallel to the axis and stop at the lens. No rays are drawn leaving the lens.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A lens and two incoming rays</text>\n  <line x1=\"16\" y1=\"110\" x2=\"304\" y2=\"110\" stroke=\"#334155\" stroke-width=\"1\" fill=\"none\"/>\n  <path d=\"M 200 38 Q 184 110 200 182 Q 216 110 200 38\" fill=\"#e0f2fe\" stroke=\"#1e3a8a\" stroke-width=\"2\"/>\n  <circle cx=\"140\" cy=\"110\" r=\"2.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/>  <text x=\"140\" y=\"128\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">F</text>\n  <circle cx=\"260\" cy=\"110\" r=\"2.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/>  <text x=\"260\" y=\"128\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">F</text>\n  <line x1=\"40\" y1=\"82\" x2=\"198\" y2=\"82\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>  <polyline points=\"191.0,85.5 198,82 191.0,78.5\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"40\" y1=\"138\" x2=\"198\" y2=\"138\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>  <polyline points=\"191.0,141.5 198,138 191.0,134.5\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>\n  <text x=\"90\" y=\"68\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">incident rays</text>\n  <text x=\"160\" y=\"208\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">Two rays arrive parallel to the principal axis</text>\n</svg>", "alt": "A convex lens sits on a principal axis with F marked on both sides. Two incident rays travel parallel to the axis and stop at the lens. No rays are drawn leaving the lens."}
   },
   {
     id: "g10-sci-light-a-q12",
@@ -174,7 +178,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-sci-light-a-q14",
-    prompt: "Total internal reflection needs \u2014",
+    prompt: "Look at the glass–air boundary. Total internal reflection needs —",
     options: [
       { id: "a", text: "a rough surface" },
       { id: "b", text: "no boundary" },
@@ -182,8 +186,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "always i = 0" }
     ],
     answerId: "c",
-    explanation: "From denser to rarer, beyond critical angle, light reflects fully.",
-    hints: ["Optical fibres trap rays by total internal reflection. Think about which side of the boundary the ray starts on, and how steeply it strikes."]
+    explanation: "Total internal reflection needs light travelling in the denser medium, here glass, and an angle of incidence greater than the critical angle. “No boundary” cannot give reflection at a surface, because there is no surface.",
+    hints: ["Optical fibres trap rays by total internal reflection. Think about which side of the boundary the ray starts on, and how steeply it strikes."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A vertical boundary separates glass on the left from air on the right. A dashed normal is drawn. An incident ray in the glass meets the boundary at a large angle to the normal. No ray is drawn leaving the boundary.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A ray at a glass–air boundary</text>\n  <line x1=\"160\" y1=\"36\" x2=\"160\" y2=\"190\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <text x=\"80\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"400\" fill=\"#222\">glass</text>\n  <text x=\"230\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"400\" fill=\"#222\">air</text>\n  <line x1=\"80\" y1=\"110\" x2=\"240\" y2=\"110\" stroke=\"#64748b\" stroke-width=\"1\" fill=\"none\" stroke-dasharray=\"4 3\"/>\n  <text x=\"200\" y=\"100\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">normal</text>\n  <line x1=\"70\" y1=\"175\" x2=\"156\" y2=\"114\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>  <polyline points=\"152.3,120.9 156,114 148.3,115.2\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>\n  <text x=\"70\" y=\"168\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">incident ray</text>\n  <text x=\"160\" y=\"212\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">The ray is in glass, meeting the boundary</text>\n</svg>", "alt": "A vertical boundary separates glass on the left from air on the right. A dashed normal is drawn. An incident ray in the glass meets the boundary at a large angle to the normal. No ray is drawn leaving the boundary."}
   },
   {
     id: "g10-sci-light-a-q15",
@@ -304,7 +309,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-sci-light-a-q24",
-    prompt: "White light splits into colours through a prism because of \u2014",
+    prompt: "Look at the prism. White light splits into colours through a prism because of —",
     options: [
       { id: "a", text: "dispersion (n depends on colour)" },
       { id: "b", text: "magnetic lensing" },
@@ -312,8 +317,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "diffraction only in vacuum" }
     ],
     answerId: "a",
-    explanation: "Glass bends each colour by a different amount because its refractive index depends on wavelength, so white light spreads into a spectrum. 'Only reflection' is tempting because a prism's faces can reflect, but reflection does not separate colours.",
-    hints: ["In a prism violet bends more than red, because the glass slows each colour differently. What is that splitting called?"]
+    explanation: "Different colours travel at slightly different speeds in glass, so the refractive index depends on colour and the ray spreads — that is dispersion. Magnetic lensing is not how a glass prism splits white light.",
+    hints: ["In a prism violet bends more than red, because the glass slows each colour differently. What is that splitting called?"],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"An equilateral glass prism sits in the centre. A single ray labelled white light travels toward the left face and stops at that face. No light is drawn leaving the prism.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A ray sent towards a prism</text>\n  <polygon points=\"160,48 86,180 234,180\" fill=\"#e0f2fe\" stroke=\"#1e3a8a\" stroke-width=\"2\"/>\n  <line x1=\"20\" y1=\"120\" x2=\"118\" y2=\"142\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>  <polyline points=\"110.4,143.9 118,142 111.9,137.1\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>\n  <text x=\"50\" y=\"110\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">white light</text>\n  <text x=\"160\" y=\"210\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">The incident ray meets one face of the prism</text>\n</svg>", "alt": "An equilateral glass prism sits in the centre. A single ray labelled white light travels toward the left face and stops at that face. No light is drawn leaving the prism."}
   }
 ];
 
@@ -346,7 +352,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-sci-light-b-q03",
-    prompt: "Rays parallel to the principal axis of a concave mirror reflect through \u2014",
+    prompt: "Look at the rays approaching the concave mirror. Rays parallel to the principal axis of a concave mirror reflect through —",
     options: [
       { id: "a", text: "the pole only" },
       { id: "b", text: "the centre of curvature" },
@@ -354,12 +360,13 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "a point beyond the centre of curvature" }
     ],
     answerId: "c",
-    explanation: "Rays parallel to the axis reflect through the principal focus of a concave mirror. 'The centre of curvature' is tempting, but rays pass through C only when they arrive along a radius.",
-    hints: ["Parallel in → through F out."]
+    explanation: "Rays parallel to the principal axis of a concave mirror reflect through the focus. “The pole only” is tempting because P is marked on the surface, but that is not the meeting point of these reflected rays.",
+    hints: ["Parallel in → through F out."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A concave mirror faces left with P, F and C marked. Two incident rays travel parallel to the principal axis and stop at the mirror. No reflected rays are drawn.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Rays approaching a concave mirror</text>\n  <line x1=\"16\" y1=\"110\" x2=\"304\" y2=\"110\" stroke=\"#334155\" stroke-width=\"1\" fill=\"none\"/>\n  <path d=\"M 230.9 51.2 A 100.0 100.0 0 0 1 230.9 168.8\" fill=\"none\" stroke=\"#1e3a8a\" stroke-width=\"3\"/>  <line x1=\"234.8048096156426\" y1=\"57.00807357667951\" x2=\"242.8048096156426\" y2=\"63.00807357667951\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"241.35454576426008\" y1=\"69.32633569241997\" x2=\"249.35454576426008\" y2=\"75.32633569241997\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"246.1261695938319\" y1=\"82.43626441830008\" x2=\"254.1261695938319\" y2=\"88.43626441830008\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"249.02680687415705\" y1=\"96.08268990399345\" x2=\"257.02680687415705\" y2=\"102.08268990399345\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"250.0\" y1=\"110.0\" x2=\"258.0\" y2=\"116.0\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"249.02680687415705\" y1=\"123.91731009600655\" x2=\"257.02680687415705\" y2=\"129.91731009600653\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"246.1261695938319\" y1=\"137.56373558169992\" x2=\"254.1261695938319\" y2=\"143.56373558169992\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"241.35454576426008\" y1=\"150.67366430758003\" x2=\"249.35454576426008\" y2=\"156.67366430758003\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"234.8048096156426\" y1=\"162.99192642332048\" x2=\"242.8048096156426\" y2=\"168.99192642332048\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <circle cx=\"250\" cy=\"110\" r=\"2.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/>  <text x=\"250\" y=\"128\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">P</text>\n  <circle cx=\"200\" cy=\"110\" r=\"2.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/>  <text x=\"200\" y=\"128\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">F</text>\n  <circle cx=\"150\" cy=\"110\" r=\"2.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/>  <text x=\"150\" y=\"128\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">C</text>\n  <line x1=\"30\" y1=\"78\" x2=\"236\" y2=\"78\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>  <polyline points=\"229.0,81.5 236,78 229.0,74.5\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"30\" y1=\"142\" x2=\"236\" y2=\"142\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>  <polyline points=\"229.0,145.5 236,142 229.0,138.5\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>\n  <text x=\"80\" y=\"64\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">incident rays</text>\n  <text x=\"160\" y=\"208\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">The incoming rays are parallel to the axis</text>\n</svg>", "alt": "A concave mirror faces left with P, F and C marked. Two incident rays travel parallel to the principal axis and stop at the mirror. No reflected rays are drawn."}
   },
   {
     id: "g10-sci-light-b-q04",
-    prompt: "An object at the centre of curvature of a concave mirror forms image \u2014",
+    prompt: "Look at the object at the concave mirror. An object at the centre of curvature of a concave mirror forms image —",
     options: [
       { id: "a", text: "behind mirror, virtual" },
       { id: "b", text: "at infinity" },
@@ -367,8 +374,9 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "at C, real, inverted, same size" }
     ],
     answerId: "d",
-    explanation: "An object at C forms an image at C that is real, inverted and the same size (m = −1). 'At F, magnified' is tempting, but the image is at F only when the object is very far away, and then it is tiny.",
-    hints: ["For a concave mirror, rays from an object at the centre of curvature return along themselves. Where is the image, and how big?"]
+    explanation: "An object at C gives a real, inverted, same-size image also at C. “At F, magnified” is the result for an object at 2F of a lens or between C and F for this mirror, not for an object at C.",
+    hints: ["For a concave mirror, rays from an object at the centre of curvature return along themselves. Where is the image, and how big?"],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A concave mirror faces left with P, F and C marked on the principal axis. An upright object stands at C. No image and no reflected rays are drawn.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">An object at a concave mirror</text>\n  <line x1=\"16\" y1=\"110\" x2=\"304\" y2=\"110\" stroke=\"#334155\" stroke-width=\"1\" fill=\"none\"/>\n  <path d=\"M 230.9 51.2 A 100.0 100.0 0 0 1 230.9 168.8\" fill=\"none\" stroke=\"#1e3a8a\" stroke-width=\"3\"/>  <line x1=\"234.8048096156426\" y1=\"57.00807357667951\" x2=\"242.8048096156426\" y2=\"63.00807357667951\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"241.35454576426008\" y1=\"69.32633569241997\" x2=\"249.35454576426008\" y2=\"75.32633569241997\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"246.1261695938319\" y1=\"82.43626441830008\" x2=\"254.1261695938319\" y2=\"88.43626441830008\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"249.02680687415705\" y1=\"96.08268990399345\" x2=\"257.02680687415705\" y2=\"102.08268990399345\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"250.0\" y1=\"110.0\" x2=\"258.0\" y2=\"116.0\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"249.02680687415705\" y1=\"123.91731009600655\" x2=\"257.02680687415705\" y2=\"129.91731009600653\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"246.1261695938319\" y1=\"137.56373558169992\" x2=\"254.1261695938319\" y2=\"143.56373558169992\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"241.35454576426008\" y1=\"150.67366430758003\" x2=\"249.35454576426008\" y2=\"156.67366430758003\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <line x1=\"234.8048096156426\" y1=\"162.99192642332048\" x2=\"242.8048096156426\" y2=\"168.99192642332048\" stroke=\"#1e3a8a\" stroke-width=\"1.2\" fill=\"none\"/>\n  <circle cx=\"250\" cy=\"110\" r=\"2.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/>  <text x=\"250\" y=\"128\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">P</text>\n  <circle cx=\"200\" cy=\"110\" r=\"2.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/>  <text x=\"200\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">F</text>\n  <circle cx=\"150\" cy=\"110\" r=\"2.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/>  <text x=\"150\" y=\"110\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\"></text>\n  <line x1=\"150\" y1=\"110\" x2=\"150\" y2=\"62\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>  <polyline points=\"153.5,69.0 150,62 146.5,69.0\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>\n  <text x=\"128\" y=\"90\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">C</text>\n  <text x=\"168\" y=\"130\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">object</text>\n  <text x=\"160\" y=\"208\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">The object stands at C</text>\n</svg>", "alt": "A concave mirror faces left with P, F and C marked on the principal axis. An upright object stands at C. No image and no reflected rays are drawn."}
   },
   {
     id: "g10-sci-light-b-q05",
@@ -385,7 +393,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-sci-light-b-q06",
-    prompt: "A glass slab shifts a ray \u2014",
+    prompt: "Look at the glass slab. A glass slab shifts a ray —",
     options: [
       { id: "a", text: "not at all if thick" },
       { id: "b", text: "by focusing to a point always" },
@@ -393,8 +401,9 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "by dispersing into a rainbow always" }
     ],
     answerId: "c",
-    explanation: "Light bends in at the first face and back out at the second by the same amount, so the emergent ray is parallel to the incident ray but shifted sideways. 'By dispersing into a rainbow always' is tempting, but a parallel-sided slab does not spread colours noticeably.",
-    hints: ["Lateral shift increases with thickness."]
+    explanation: "The ray bends into the slab and back out by the same amount, so the emergent ray is parallel to the incident ray but shifted sideways. Dispersing into a rainbow is what a prism does, not a parallel-sided slab.",
+    hints: ["Lateral shift increases with thickness."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A rectangular glass slab stands in the middle. A dashed normal is drawn at the first face. An incident ray travels toward that face and stops at the surface. No ray is drawn leaving the slab.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A ray sent towards a glass slab</text>\n  <rect x=\"120\" y=\"40\" width=\"90\" height=\"150\" fill=\"#e0f2fe\" stroke=\"#1e3a8a\" stroke-width=\"2\"/>\n  <line x1=\"80\" y1=\"80\" x2=\"200\" y2=\"80\" stroke=\"#64748b\" stroke-width=\"1\" fill=\"none\" stroke-dasharray=\"4 3\"/>\n  <line x1=\"20\" y1=\"50\" x2=\"118\" y2=\"78\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>  <polyline points=\"110.3,79.4 118,78 112.2,72.7\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>\n  <text x=\"50\" y=\"46\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">incident ray</text>\n  <text x=\"165\" y=\"200\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">glass slab</text>\n  <text x=\"160\" y=\"216\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">The ray meets the first face of the slab</text>\n</svg>", "alt": "A rectangular glass slab stands in the middle. A dashed normal is drawn at the first face. An incident ray travels toward that face and stops at the surface. No ray is drawn leaving the slab."}
   },
   {
     id: "g10-sci-light-b-q07",
@@ -424,7 +433,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-sci-light-b-q09",
-    prompt: "For a thin convex lens, if the object is at 2F, the image is \u2014",
+    prompt: "Look at the object and the lens. For a thin convex lens, if the object is at 2F, the image is —",
     options: [
       { id: "a", text: "virtual erect always" },
       { id: "b", text: "at F" },
@@ -432,12 +441,13 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "at 2F, real, inverted, same size" }
     ],
     answerId: "d",
-    explanation: "For a convex lens, an object at 2F gives an image at 2F on the other side that is real, inverted and the same size. 'At F' is tempting, but the image forms at F only for an object very far away.",
-    hints: ["Same-size real image at 2F."]
+    explanation: "When this object stands at 2F of a convex lens, a real, inverted, same-size image forms at 2F on the other side. “At F” is tempting, but that meeting place is only for a very distant object.",
+    hints: ["Same-size real image at 2F."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A convex lens sits on a principal axis with F and 2F marked on both sides. An upright object stands at 2F on the left. No image and no refracted rays are drawn.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">An object at a convex lens</text>\n  <line x1=\"16\" y1=\"110\" x2=\"304\" y2=\"110\" stroke=\"#334155\" stroke-width=\"1\" fill=\"none\"/>\n  <path d=\"M 180 38 Q 164 110 180 182 Q 196 110 180 38\" fill=\"#e0f2fe\" stroke=\"#1e3a8a\" stroke-width=\"2\"/>\n  <circle cx=\"130\" cy=\"110\" r=\"2.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/>  <text x=\"130\" y=\"128\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">F</text>\n  <circle cx=\"80\" cy=\"110\" r=\"2.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/>  <text x=\"80\" y=\"128\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">2F</text>\n  <circle cx=\"230\" cy=\"110\" r=\"2.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/>  <text x=\"230\" y=\"128\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">F</text>\n  <circle cx=\"280\" cy=\"110\" r=\"2.4\" fill=\"#111\" stroke=\"#111\" stroke-width=\"1\"/>  <text x=\"280\" y=\"128\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">2F</text>\n  <line x1=\"80\" y1=\"110\" x2=\"80\" y2=\"62\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>  <polyline points=\"83.5,69.0 80,62 76.5,69.0\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/>\n  <text x=\"100\" y=\"90\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">object</text>\n  <text x=\"160\" y=\"208\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">The object stands at 2F</text>\n</svg>", "alt": "A convex lens sits on a principal axis with F and 2F marked on both sides. An upright object stands at 2F on the left. No image and no refracted rays are drawn."}
   },
   {
     id: "g10-sci-light-b-q10",
-    prompt: "A myopic eye is corrected by a \u2014",
+    prompt: "Look at the eye. A myopic eye is corrected by a —",
     options: [
       { id: "a", text: "concave lens" },
       { id: "b", text: "plane mirror" },
@@ -445,12 +455,13 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "convex lens" }
     ],
     answerId: "a",
-    explanation: "Short-sight: focus in front of retina; diverge with concave.",
-    hints: ["Myopia → diverging lens."]
+    explanation: "In this short-sighted eye the rays meet in front of the retina, so a diverging concave lens is used to correct it. A plane mirror only reflects light and cannot move the meeting point onto the retina.",
+    hints: ["Myopia → diverging lens."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A side view of an eye. Two rays from the left pass through the eye lens and meet in front of the retina at the back of the eye. No spectacle lens is shown.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A distant ray entering an eye</text>\n  <ellipse cx=\"170\" cy=\"120\" rx=\"70.0\" ry=\"40.0\" fill=\"#fff7ed\" stroke=\"#333\" stroke-width=\"2\"/>\n  <ellipse cx=\"122.0\" cy=\"120\" rx=\"6\" ry=\"16\" fill=\"#e0f2fe\" stroke=\"#1e3a8a\" stroke-width=\"1.5\"/>\n  <path d=\"M 238.0 102 Q 244.0 120 238.0 138\" fill=\"none\" stroke=\"#b91c1c\" stroke-width=\"2\"/>\n  <text x=\"256.0\" y=\"98\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"9\" font-weight=\"400\" fill=\"#222\">retina</text>\n  <line x1=\"60.0\" y1=\"98\" x2=\"122.0\" y2=\"112\" stroke=\"#1d4ed8\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"122.0\" y1=\"112\" x2=\"200\" y2=\"120\" stroke=\"#1d4ed8\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"60.0\" y1=\"142\" x2=\"122.0\" y2=\"128\" stroke=\"#1d4ed8\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"122.0\" y1=\"128\" x2=\"200\" y2=\"120\" stroke=\"#1d4ed8\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"160\" y=\"208\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">The rays meet before they reach the back of the eye</text>\n</svg>", "alt": "A side view of an eye. Two rays from the left pass through the eye lens and meet in front of the retina at the back of the eye. No spectacle lens is shown."}
   },
   {
     id: "g10-sci-light-b-q11",
-    prompt: "A hypermetropic eye is corrected by a \u2014",
+    prompt: "Look at the eye. A hypermetropic eye is corrected by a —",
     options: [
       { id: "a", text: "opaque contact" },
       { id: "b", text: "convex lens" },
@@ -458,8 +469,9 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "prism only" }
     ],
     answerId: "b",
-    explanation: "A long-sighted eye focuses near objects behind the retina, so a converging convex lens is used. 'Concave lens' is tempting because it is the other common spectacle lens, but it corrects short sight.",
-    hints: ["Hypermetropia → converging lens."]
+    explanation: "In this long-sighted eye the rays would meet behind the retina, so a converging convex lens is used. A concave lens is tempting because it is the other common spectacle lens, but it corrects short sight.",
+    hints: ["Hypermetropia → converging lens."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A side view of an eye. Two rays from the left pass through the eye lens and would meet behind the retina at the back of the eye. No spectacle lens is shown.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A nearby ray entering an eye</text>\n  <ellipse cx=\"170\" cy=\"120\" rx=\"70.0\" ry=\"40.0\" fill=\"#fff7ed\" stroke=\"#333\" stroke-width=\"2\"/>\n  <ellipse cx=\"122.0\" cy=\"120\" rx=\"6\" ry=\"16\" fill=\"#e0f2fe\" stroke=\"#1e3a8a\" stroke-width=\"1.5\"/>\n  <path d=\"M 238.0 102 Q 244.0 120 238.0 138\" fill=\"none\" stroke=\"#b91c1c\" stroke-width=\"2\"/>\n  <text x=\"256.0\" y=\"98\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"9\" font-weight=\"400\" fill=\"#222\">retina</text>\n  <line x1=\"60.0\" y1=\"98\" x2=\"122.0\" y2=\"112\" stroke=\"#1d4ed8\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"122.0\" y1=\"112\" x2=\"270\" y2=\"120\" stroke=\"#1d4ed8\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"60.0\" y1=\"142\" x2=\"122.0\" y2=\"128\" stroke=\"#1d4ed8\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"122.0\" y1=\"128\" x2=\"270\" y2=\"120\" stroke=\"#1d4ed8\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"160\" y=\"208\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">The rays are still apart when they reach the back of the eye</text>\n</svg>", "alt": "A side view of an eye. Two rays from the left pass through the eye lens and would meet behind the retina at the back of the eye. No spectacle lens is shown."}
   },
   {
     id: "g10-sci-light-b-q12",
