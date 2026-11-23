@@ -275,7 +275,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "(3²)³ = 3² × 3² × 3² = 3⁶, because the powers multiply: 2 × 3 = 6. 3⁵ is tempting if you add the powers, 2 + 3 = 5, instead of multiplying them.",
-    hints: ["Adding indices belongs to multiplying two powers of one base, not to raising a power to a power. Cross out the choice made by adding."]
+    hints: ["Adding indices belongs to multiplying two powers of one base, not to raising a power to a power like (3²)³. Cross out the choice made by adding."]
   },
   {
     id: "g9-maths-numbers-a-q22",

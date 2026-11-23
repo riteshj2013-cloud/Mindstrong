@@ -27,7 +27,7 @@ export const G9_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g9-maths-numbers-a-q14": ["Test each law with numbers: work out 2² × 2³ and compare it with each rule for a^m * a^n."],
   "g9-maths-numbers-a-q15": ["Use (a − b)(a + b) = a² − b² with a = √7 and b = √5."],
   "g9-maths-numbers-a-q20": ["Write 0.09 as 9/100, then take the square root of the top and the bottom."],
-  "g9-maths-numbers-a-q21": ["Adding indices belongs to multiplying two powers of one base, not to raising a power to a power. Cross out the choice made by adding."],
+  "g9-maths-numbers-a-q21": ["Adding indices belongs to multiplying two powers of one base, not to raising a power to a power like (3²)³. Cross out the choice made by adding."],
   "g9-maths-numbers-a-q22": ["A real number that is not rational cannot be written as p/q. Which root is of a number that is not a perfect square?"],
   "g9-maths-numbers-a-q24": ["Multiply the top and bottom of 1/(2 + √3) by its conjugate, the same terms with the sign before √3 flipped."],
   "g9-maths-numbers-b-q02": ["A repeating decimal like 0.125125… can be written as p/q: compare x and 1000x. What kind of number is p/q?"],
