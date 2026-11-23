@@ -312,8 +312,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Horns improve reading" }
     ],
     answerId: "c",
-    explanation: "Library calm vs street noise + the note about not journeying alone.",
-    hints: ["The passage is the old library, where time feels slower and a note says \"Do not finish this journey alone\".", "Link the quiet setting to Arun's feeling of connection with the past."]
+    explanation: "Inside the quiet library, time slows and an old note links Arun to the past. 'Projects should be abandoned' tempts because Arun stays for a feeling, not his project, but the passage never judges projects.",
+    hints: ["Compare the hush inside the old library with the scooters and horns outside, then test which option the whole passage supports.", "Notice what Arun does with the diary and the marigold, and how gently he closes the book."]
   }
 ];
 

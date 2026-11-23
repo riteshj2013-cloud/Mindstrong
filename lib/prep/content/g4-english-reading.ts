@@ -214,7 +214,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q17",
-    prompt: "A school notice pinned on a cork notice board.\n\n**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n— Head Teacher\n\nRead the notice. What is the notice about?",
+    prompt: "**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n— Head Teacher\n\nRead the notice. What is the notice about?",
     options: [
       { id: "a", text: "A book fair" },
       { id: "b", text: "A sports day" },
@@ -228,7 +228,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q18",
-    prompt: "A school notice pinned on a cork notice board.\n\n**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n— Head Teacher\n\nRead the notice. What should students bring?",
+    prompt: "**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n— Head Teacher\n\nRead the notice. What should students bring?",
     options: [
       { id: "a", text: "Their lunch" },
       { id: "b", text: "A pencil box" },
@@ -242,7 +242,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-a-q19",
-    prompt: "A school notice pinned on a cork notice board.\n\n**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n— Head Teacher\n\nRead the notice. Mr. Sen wants to visit the Book Fair at 2 p.m. on Friday. Will it be open?",
+    prompt: "**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n— Head Teacher\n\nRead the notice. Mr. Sen wants to visit the Book Fair at 2 p.m. on Friday. Will it be open?",
     options: [
       { id: "a", text: "Yes, it is open all day." },
       { id: "b", text: "No, it ends at 1 p.m." },
@@ -512,7 +512,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q15",
-    prompt: "A school notice pinned on a cork notice board.\n\n**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n— Head Teacher\n\nRead the notice. Who wrote the notice?",
+    prompt: "**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n— Head Teacher\n\nRead the notice. Who wrote the notice?",
     options: [
       { id: "a", text: "The parents" },
       { id: "b", text: "The students" },
@@ -526,7 +526,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q16",
-    prompt: "A school notice pinned on a cork notice board.\n\n**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n— Head Teacher\n\nRead the notice. Where will the Book Fair be held?",
+    prompt: "**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n— Head Teacher\n\nRead the notice. Where will the Book Fair be held?",
     options: [
       { id: "a", text: "In the playground" },
       { id: "b", text: "In the school hall" },
@@ -540,7 +540,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch01-b-q17",
-    prompt: "A school notice pinned on a cork notice board.\n\n**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n— Head Teacher\n\nRead the notice. Which of these is NOT mentioned as something students can buy?",
+    prompt: "**NOTICE**\nGreen Valley School  |  10 January\nOur school will hold a Book Fair in the school hall on Friday, 17 January, from 9 a.m. to 1 p.m. Students can buy story books, comics and colouring books. Parents are welcome. Please bring a cloth bag for your books.\n— Head Teacher\n\nRead the notice. Which of these is NOT mentioned as something students can buy?",
     options: [
       { id: "a", text: "Story books" },
       { id: "b", text: "Comics" },

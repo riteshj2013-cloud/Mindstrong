@@ -524,7 +524,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "A letter to the editor raises public concern, and emails reach officials directly. 'A notice about street-play auditions' is tempting because notices are public, but it is about auditions and asks nothing of the traffic police.",
-    hints: ["A byline with no body text tells the traffic police nothing, so set it aside; weigh how each remaining format would reach both groups."]
+    hints: ["List the two groups you must reach, the traffic police and the public, then check how far each option reaches."]
   },
   {
     id: "g8-eng-ch05-b-q17",
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "The notice gives a date, venue and steps; the article reflects on the lost playground and argues for a games zone. \"The article is a formal letter to an editor\" tempts because it voices opinion, yet it lacks a salutation.",
-    hints: ["The playground article opens with a heading and a byline, not \"Dear Sir\", so it is not written as a letter."]
+    hints: ["Look at what each text asks its reader to do or feel, and judge every option against both the notice and the article."]
   },
   {
     id: "g8-eng-ch05-b-q23",

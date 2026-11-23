@@ -57,7 +57,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-a-q05",
-    prompt: "**Guide:** Look carefully, children. That heron is standing very still.\n**Neha:** Why is it so quiet?\n**Guide:** It is waiting for a fish. Herons hunt patiently.\n**Sam:** Those ducks are much noisier than the heron!\n**Guide:** Yes, and the geese are the noisiest birds here. Each goose honks loudly when someone comes near.\n**Neha:** Who feeds them?\n**Guide:** Nobody feeds them. They find their own food in the lake.\n**Sam:** I will draw the heron in my notebook tonight.\n**Neha:** And I am going to write a poem about the geese!\n\nRead the passage. The guide says, \"Each goose honks loudly.\" What is the plural of \"goose\"?",
+    prompt: "**Guide:** Look carefully, children. That heron is standing very still.\n**Neha:** Why is it so quiet?\n**Guide:** It is waiting for a fish. Herons hunt patiently.\n**Sam:** Those ducks are much noisier than the heron!\n**Guide:** Yes, and the geese are the noisiest birds here. Each goose honks loudly when someone comes near.\n**Neha:** Who feeds them?\n**Guide:** Nobody feeds them. They find their own food in the lake.\n**Sam:** I will draw the heron in my notebook tonight.\n**Neha:** And I am going to write a poem about the geese!\n\nRead the dialogue. The guide says, \"Each goose honks loudly.\" What is the plural of \"goose\"?",
     options: [
       { id: "a", text: "gooses" },
       { id: "b", text: "goose" },
@@ -70,7 +70,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-a-q06",
-    prompt: "**Guide:** Look carefully, children. That heron is standing very still.\n**Neha:** Why is it so quiet?\n**Guide:** It is waiting for a fish. Herons hunt patiently.\n**Sam:** Those ducks are much noisier than the heron!\n**Guide:** Yes, and the geese are the noisiest birds here. Each goose honks loudly when someone comes near.\n**Neha:** Who feeds them?\n**Guide:** Nobody feeds them. They find their own food in the lake.\n**Sam:** I will draw the heron in my notebook tonight.\n**Neha:** And I am going to write a poem about the geese!\n\nRead the passage. \"Herons hunt patiently.\" What does the adverb \"patiently\" tell us?",
+    prompt: "**Guide:** Look carefully, children. That heron is standing very still.\n**Neha:** Why is it so quiet?\n**Guide:** It is waiting for a fish. Herons hunt patiently.\n**Sam:** Those ducks are much noisier than the heron!\n**Guide:** Yes, and the geese are the noisiest birds here. Each goose honks loudly when someone comes near.\n**Neha:** Who feeds them?\n**Guide:** Nobody feeds them. They find their own food in the lake.\n**Sam:** I will draw the heron in my notebook tonight.\n**Neha:** And I am going to write a poem about the geese!\n\nRead the dialogue. \"Herons hunt patiently.\" What does the adverb \"patiently\" tell us?",
     options: [
       { id: "a", text: "How herons hunt" },
       { id: "b", text: "When herons hunt" },
@@ -372,7 +372,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-b-q05",
-    prompt: "**Guide:** Look carefully, children. That heron is standing very still.\n**Neha:** Why is it so quiet?\n**Guide:** It is waiting for a fish. Herons hunt patiently.\n**Sam:** Those ducks are much noisier than the heron!\n**Guide:** Yes, and the geese are the noisiest birds here. Each goose honks loudly when someone comes near.\n**Neha:** Who feeds them?\n**Guide:** Nobody feeds them. They find their own food in the lake.\n**Sam:** I will draw the heron in my notebook tonight.\n**Neha:** And I am going to write a poem about the geese!\n\nRead the passage. Which form of \"noisy\" from the passage is in the COMPARATIVE degree?",
+    prompt: "**Guide:** Look carefully, children. That heron is standing very still.\n**Neha:** Why is it so quiet?\n**Guide:** It is waiting for a fish. Herons hunt patiently.\n**Sam:** Those ducks are much noisier than the heron!\n**Guide:** Yes, and the geese are the noisiest birds here. Each goose honks loudly when someone comes near.\n**Neha:** Who feeds them?\n**Guide:** Nobody feeds them. They find their own food in the lake.\n**Sam:** I will draw the heron in my notebook tonight.\n**Neha:** And I am going to write a poem about the geese!\n\nRead the dialogue. Which form of \"noisy\" from the dialogue is in the COMPARATIVE degree?",
     options: [
       { id: "a", text: "noisier" },
       { id: "b", text: "noisy" },
@@ -385,7 +385,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-b-q06",
-    prompt: "**Guide:** Look carefully, children. That heron is standing very still.\n**Neha:** Why is it so quiet?\n**Guide:** It is waiting for a fish. Herons hunt patiently.\n**Sam:** Those ducks are much noisier than the heron!\n**Guide:** Yes, and the geese are the noisiest birds here. Each goose honks loudly when someone comes near.\n**Neha:** Who feeds them?\n**Guide:** Nobody feeds them. They find their own food in the lake.\n**Sam:** I will draw the heron in my notebook tonight.\n**Neha:** And I am going to write a poem about the geese!\n\nRead the passage. Neha asks, \"Who feeds them?\" Who does \"them\" refer to?",
+    prompt: "**Guide:** Look carefully, children. That heron is standing very still.\n**Neha:** Why is it so quiet?\n**Guide:** It is waiting for a fish. Herons hunt patiently.\n**Sam:** Those ducks are much noisier than the heron!\n**Guide:** Yes, and the geese are the noisiest birds here. Each goose honks loudly when someone comes near.\n**Neha:** Who feeds them?\n**Guide:** Nobody feeds them. They find their own food in the lake.\n**Sam:** I will draw the heron in my notebook tonight.\n**Neha:** And I am going to write a poem about the geese!\n\nRead the dialogue. Neha asks, \"Who feeds them?\" Who does \"them\" refer to?",
     options: [
       { id: "a", text: "The children" },
       { id: "b", text: "The fish" },
@@ -398,7 +398,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch02-b-q07",
-    prompt: "**Guide:** Look carefully, children. That heron is standing very still.\n**Neha:** Why is it so quiet?\n**Guide:** It is waiting for a fish. Herons hunt patiently.\n**Sam:** Those ducks are much noisier than the heron!\n**Guide:** Yes, and the geese are the noisiest birds here. Each goose honks loudly when someone comes near.\n**Neha:** Who feeds them?\n**Guide:** Nobody feeds them. They find their own food in the lake.\n**Sam:** I will draw the heron in my notebook tonight.\n**Neha:** And I am going to write a poem about the geese!\n\nRead the passage. \"I will draw the heron in my notebook tonight.\" Which tense is used?",
+    prompt: "**Guide:** Look carefully, children. That heron is standing very still.\n**Neha:** Why is it so quiet?\n**Guide:** It is waiting for a fish. Herons hunt patiently.\n**Sam:** Those ducks are much noisier than the heron!\n**Guide:** Yes, and the geese are the noisiest birds here. Each goose honks loudly when someone comes near.\n**Neha:** Who feeds them?\n**Guide:** Nobody feeds them. They find their own food in the lake.\n**Sam:** I will draw the heron in my notebook tonight.\n**Neha:** And I am going to write a poem about the geese!\n\nRead the dialogue. \"I will draw the heron in my notebook tonight.\" Which tense is used?",
     options: [
       { id: "a", text: "Simple past" },
       { id: "b", text: "Simple future" },
