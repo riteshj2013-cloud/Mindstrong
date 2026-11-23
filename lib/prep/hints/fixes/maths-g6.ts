@@ -70,7 +70,7 @@ export const G6_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g6-maths-frac-b-q09": ["Multiply 0.3 and the other number by 10 to remove the decimals. Then divide."],
   "g6-maths-frac-b-q10": ["Add the rupees ₹85 + ₹24, then the paise 50 + 75, carrying 100 paise over as ₹1."],
   "g6-maths-frac-b-q11": ["To find the least, write each with four decimal places, so 0.11 becomes 0.1100. Then compare digit by digit."],
-  "g6-maths-frac-b-q12": ["Write 4.2 as 42/10, then divide the top and bottom by 2."],
+  "g6-maths-frac-b-q12": ["4.2 is more than a whole one, so a choice worth less than 1 cannot be it. Strike that one out first."],
   "g6-maths-frac-b-q13": ["Multiply tops and bottoms, or first cancel the 3 with the 9. Then simplify fully."],
   "g6-maths-frac-b-q15": ["Look at the third decimal digit, 8. Since it is 5 or more, round the second digit up."],
   "g6-maths-frac-b-q18": ["Divide 12 by 3, then 0.6 by 3, and add the two results."],

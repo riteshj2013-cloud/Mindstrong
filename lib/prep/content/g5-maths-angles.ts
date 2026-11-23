@@ -211,13 +211,13 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-angles-a-q16",
     prompt: "In angle PQR, which point is the vertex?",
     options: [
-      { id: "a", text: "Q" },
-      { id: "b", text: "P" },
-      { id: "c", text: "R" },
-      { id: "d", text: "Both P and R" }
+      { id: "a", text: "P" },
+      { id: "b", text: "R" },
+      { id: "c", text: "Q" },
+      { id: "d", text: "A point inside the angle" }
     ],
-    answerId: "a",
-    explanation: "The middle letter in an angle's name always names the vertex, so Q is the vertex of angle PQR. P is tempting if you point to an end of an arm instead of the meeting point of the two arms.",
+    answerId: "c",
+    explanation: "In angle PQR the middle letter names the vertex, the point where the arms QP and QR meet, so Q is the vertex. P is tempting if you take the first letter of the name as the vertex.",
     hints: ["In a three-letter angle name, the middle letter is the vertex."]
   },
   {

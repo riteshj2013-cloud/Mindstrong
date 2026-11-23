@@ -191,7 +191,7 @@ const SET_A: PrepQuestion[] = [
     prompt: "Write 0.00056 in standard form.",
     options: [
       { id: "a", text: "5.6 \u00d7 10\u207b\u00b3" },
-      { id: "b", text: "56 \u00d7 10\u207b\u2075" },
+      { id: "b", text: "5.6 × 10⁻⁵" },
       { id: "c", text: "5.6 \u00d7 10\u207b\u2074" },
       { id: "d", text: "5.6 \u00d7 10\u2074" }
     ],
@@ -505,13 +505,13 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-exponents-b-q15",
     prompt: "Standard form of 720000 is\u2026",
     options: [
-      { id: "a", text: "72 \u00d7 10\u2074" },
+      { id: "a", text: "7.2 × 10⁻⁵" },
       { id: "b", text: "7.2 \u00d7 10\u2076" },
       { id: "c", text: "7.2 \u00d7 10\u2075" },
       { id: "d", text: "7.2 \u00d7 10\u2074" }
     ],
     answerId: "c",
-    explanation: "7.2 × 10⁵ is standard form. 72 × 10⁴ is tempting if you miscount the decimal-place shifts when writing scientific notation; the correct form is 7.2 × 10⁵.",
+    explanation: "The point in 720000 moves 5 places to sit just after the 7, so 720000 = 7.2 × 10⁵. 7.2 × 10⁴ is tempting if you count only the four zeros and forget the move past the 2.",
     hints: ["Put the decimal point of 720000 after the first digit. Count how many places it moved; that is the power of 10."]
   },
   {

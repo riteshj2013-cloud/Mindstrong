@@ -218,7 +218,7 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "(\u22123) \u00d7 (\u22127)" },
       { id: "b", text: "(\u22123) \u00d7 7" },
-      { id: "c", text: "3 \u00d7 (\u22127)" },
+      { id: "c", text: "(−4) × (−2) × (−1)" },
       { id: "d", text: "(\u22121) \u00d7 12" }
     ],
     answerId: "a",
@@ -520,11 +520,11 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "0 \u00f7 7" },
       { id: "b", text: "(\u22127) \u00f7 1" },
-      { id: "c", text: "7 \u00f7 (\u22121)" },
+      { id: "c", text: "(−7) ÷ (−7)" },
       { id: "d", text: "7 \u00f7 0" }
     ],
     answerId: "d",
-    explanation: "Division by zero is never defined. 7 ÷ (−1) is tempting if you treat a fraction or decimal as an integer.",
+    explanation: "Division by zero is never defined. No number times 0 gives 7, so 7 ÷ 0 has no answer. 0 ÷ 7 is tempting if you mix it up with 7 ÷ 0. But 0 ÷ 7 = 0, because 7 × 0 = 0.",
     hints: ["Undefined means it has no answer. Can any number times zero ever give 7?"]
   },
   {

@@ -87,7 +87,7 @@ export const G6_MATHS_HINTS: Record<string, HintOverlay> = {
   "g6-maths-frac-b-q09": ["Multiply both by 10 to clear the decimal, then divide."],
   "g6-maths-frac-b-q10": ["Add rupees and paise carefully."],
   "g6-maths-frac-b-q11": ["Compare place by place after the decimal."],
-  "g6-maths-frac-b-q12": ["One decimal place → /10, then simplify."],
+  "g6-maths-frac-b-q12": ["4.2 is more than a whole one, so a choice worth less than 1 cannot be it. Strike that one out first."],
   "g6-maths-frac-b-q13": ["Multiply tops, multiply bottoms, simplify."],
   "g6-maths-frac-b-q14": ["Line up the places or find a common denominator for capacity, litres before you choose."],
   "g6-maths-frac-b-q15": ["Look at the next digit to decide rounding."],

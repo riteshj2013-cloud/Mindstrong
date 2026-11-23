@@ -112,7 +112,7 @@ export const G8_MATHS_HINTS: Record<string, HintOverlay> = {
   "g8-maths-rational-a-q12": ["Watch the signs; use a number line to check."],
   "g8-maths-rational-a-q13": ["Watch the signs; use a number line to check."],
   "g8-maths-rational-a-q14": ["Watch the signs; use a number line to check."],
-  "g8-maths-rational-a-q15": ["Subtracting is adding the opposite."],
+  "g8-maths-rational-a-q15": ["Subtracting one multiple of 2 from another always gives a multiple of 2. So the choice made only of such numbers is closed."],
   "g8-maths-rational-a-q16": ["Watch the signs; use a number line to check."],
   "g8-maths-rational-a-q17": ["Watch the signs; use a number line to check."],
   "g8-maths-rational-a-q18": ["Same signs add; different signs subtract and keep the larger's sign."],

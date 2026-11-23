@@ -124,13 +124,13 @@ const SET_A: PrepQuestion[] = [
     id: "g10-maths-real-a-q10",
     prompt: "The prime factorisation of 140 is \u2014",
     options: [
-      { id: "a", text: "2 \u00d7 5 \u00d7 14" },
-      { id: "b", text: "2\u00b2 \u00d7 35" },
+      { id: "a", text: "2 × 5 × 7" },
+      { id: "b", text: "2 × 5² × 7" },
       { id: "c", text: "2\u00b3 \u00d7 5 \u00d7 7" },
       { id: "d", text: "2\u00b2 \u00d7 5 \u00d7 7" }
     ],
     answerId: "d",
-    explanation: "140 = 2 × 70 = 2 × 2 × 35 = 2² × 5 × 7, with every factor prime. 2² × 35 is tempting because it equals 140, but 35 = 5 × 7 is not prime, so the factorisation is not finished. 2³ × 5 × 7 = 280.",
+    explanation: "140 = 2 × 70 = 2 × 2 × 35 = 2² × 5 × 7, and every factor is prime. 2 × 5 × 7 is tempting if you take out only one factor of 2. But 2 × 5 × 7 = 70, not 140.",
     hints: ["Factor completely into primes."]
   },
   {
@@ -179,10 +179,10 @@ const SET_A: PrepQuestion[] = [
       { id: "a", text: "\u221a5" },
       { id: "b", text: "2.5" },
       { id: "c", text: "\u221a4" },
-      { id: "d", text: "5/2" }
+      { id: "d", text: "√10" }
     ],
     answerId: "a",
-    explanation: "√5 ≈ 2.236 lies between 2 and 3, and 5 is not a perfect square, so √5 is irrational. 2.5 is tempting because it lies between 2 and 3, but 2.5 = 5/2 is rational; √4 = 2 is rational and not between them.",
+    explanation: "√5 ≈ 2.236 lies between 2 and 3, and 5 is not a perfect square, so √5 is irrational. 2.5 is tempting because it lies between 2 and 3, but it is a terminating decimal, so it is rational. √10 ≈ 3.16 is irrational but greater than 3.",
     hints: ["2 = √4 and 3 = √9. Pick the option that is the root of a non-perfect square between 4 and 9."]
   },
   {
@@ -389,7 +389,7 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "6/10" },
       { id: "b", text: "1/6" },
-      { id: "c", text: "3/5" },
+      { id: "c", text: "6/99" },
       { id: "d", text: "2/3" }
     ],
     answerId: "d",

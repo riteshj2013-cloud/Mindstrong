@@ -159,7 +159,7 @@ export const G5_MATHS_HINTS: Record<string, HintOverlay> = {
   "g5-maths-dec-a-q06": ["Line up the decimal points, then add or subtract column by column."],
   "g5-maths-dec-a-q07": ["Line up the decimal points, then add or subtract column by column."],
   "g5-maths-dec-a-q08": ["×10 / ÷10 moves the point one place; ×100 / ÷100 moves it two places."],
-  "g5-maths-dec-a-q09": ["Percent means per 100 — write as /100, a decimal, or a simplified fraction."],
+  "g5-maths-dec-a-q09": ["25% is less than one whole, so a choice worth more than 1 cannot be it. Cross that one out first."],
   "g5-maths-dec-a-q10": ["Find the percent as a fraction of 100, then multiply by the number."],
   "g5-maths-dec-a-q11": ["What does the 10 in 3/10 tell you about which place the 3 goes in?"],
   "g5-maths-dec-a-q12": ["Read the place just after the point: tenths, then hundredths, then thousandths."],

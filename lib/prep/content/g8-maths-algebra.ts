@@ -505,13 +505,13 @@ const SET_B: PrepQuestion[] = [
     id: "g8-maths-algebra-b-q15",
     prompt: "Like terms among 3x\u00b2, 5x, \u22122x\u00b2, 7 are\u2026",
     options: [
-      { id: "a", text: "3x\u00b2 and \u22122x\u00b2" },
-      { id: "b", text: "3x\u00b2 and 5x" },
-      { id: "c", text: "5x and 7" },
-      { id: "d", text: "All of them" }
+      { id: "a", text: "3x² and 5x" },
+      { id: "b", text: "5x and 7" },
+      { id: "c", text: "None of them" },
+      { id: "d", text: "3x² and −2x²" }
     ],
-    answerId: "a",
-    explanation: "Like terms share the same variables to the same powers; 3x² and −2x² match, while 3x² and 5x do not. 3x² and 5x is tempting if you ignore the powers and only match the letter x; the like pair is 3x² and −2x².",
+    answerId: "d",
+    explanation: "Like terms have the same letter raised to the same power. 3x² and −2x² both have x², so they are like terms; the different numbers in front do not matter. 3x² and 5x is tempting if you match only the letter x and ignore the powers.",
     hints: ["Like terms have the same letter raised to the same power. Compare the power of x in each term."]
   },
   {
