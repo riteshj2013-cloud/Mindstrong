@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Fast\" and \"quick\" both mean done in a short time. \"Slow\" is the opposite.",
-    hints: ["Sleepy is about bedtime, so it cannot be a twin of quick.", "Heavy is about weight, not about how long Riya's homework took."]
+    hints: ["Read the Riya sentence aloud, once with each choice in place of quick.", "Heavy is about weight, not about how long Riya's homework took."]
   },
   {
     id: "g3-eng-synonyms-a-q04",
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Courageous\" means nearly the same as \"brave.\" \"Scared\" and \"shy\" are closer to the opposite.",
-    hints: ["A shy child hides from the stage, so shy is not a twin of brave.", "Scared is not a synonym of brave."]
+    hints: ["The clue is 'spoke on stage'. Test every choice by picturing Kabir there.", "Scared is not a synonym of brave."]
   },
   {
     id: "g3-eng-synonyms-a-q06",
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Tiny\" means very small. \"Huge\" means very big — the opposite idea.",
-    hints: ["Tall is about height, so tall cannot be a twin of small.", "Huge is the opposite size."]
+    hints: ["Say 'a small box', then 'a ___ box' with each choice; keep the one with the same picture.", "Huge is the opposite size."]
   },
   {
     id: "g3-eng-synonyms-a-q07",
@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Silent\" means almost no sound, like \"quiet.\" \"Noisy\" is the opposite.",
-    hints: ["Sticky is about how things feel to touch, so it is not a twin of quiet.", "Noisy means lots of sound."]
+    hints: ["Cover quiet in the library sentence with your finger and say each choice in its place.", "Noisy means lots of sound."]
   },
   {
     id: "g3-eng-synonyms-a-q08",
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Clever\" and \"smart\" both mean quick to learn or think. The other words do not mean that.",
-    hints: ["Rough is about how a road feels, so rough is not a twin of smart.", "Sleepy is not about thinking well."]
+    hints: ["Make up a line about your smart cousin, then swap smart for each choice and listen.", "Sleepy is not about thinking well."]
   },
   {
     id: "g3-eng-synonyms-a-q09",
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "To enjoy something is to like doing it. 'hate' is the opposite feeling.",
-    hints: ["Hate is the other way round from enjoy, so cross it out first.", "Forget is about your memory, not your feelings, so forget is not a twin of enjoy."]
+    hints: ["Read 'I enjoy cricket' aloud, then read it again with each choice in place of enjoy.", "Forget is about your memory, not your feelings, so forget is not a twin of enjoy."]
   },
   {
     id: "g3-eng-synonyms-a-q11",
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Delicious\" means very good to eat, like \"tasty.\" Bitter and sour describe different tastes.",
-    hints: ["Plain food has no special flavour, so plain is not a twin of tasty.", "Bitter is a different kind of taste."]
+    hints: ["Think about the mango in the sentence and check each choice against it, one at a time.", "Bitter is a different kind of taste."]
   },
   {
     id: "g3-eng-synonyms-a-q12",
@@ -157,7 +157,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Unhappy\" means nearly the same as \"sad.\" \"Joyful\" and \"excited\" are happier feelings.",
-    hints: ["Before a birthday party you feel excited, so excited is not a twin of sad.", "Joyful is closer to happy, not sad."]
+    hints: ["Say 'The lost puppy made me sad', then say it with each choice instead of sad.", "Joyful is closer to happy, not sad."]
   },
   {
     id: "g3-eng-synonyms-a-q13",
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Caring\" people are kind — they think of others. Rude and mean are closer to the opposite.",
-    hints: ["Angry is how you feel when upset, so angry is not a twin of kind.", "A rude child never says sorry, so rude is not a twin of kind."]
+    hints: ["Use each choice to finish 'Our neighbour aunty is very ___.' The meaning of kind must stay.", "A rude child never says sorry, so rude is not a twin of kind."]
   },
   {
     id: "g3-eng-synonyms-a-q15",
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Beautiful\" means very nice to look at, like \"pretty.\" \"Ugly\" is the opposite.",
-    hints: ["Dark is about light and colour, so dark is not a twin of pretty.", "Ugly is the opposite idea."]
+    hints: ["Picture a pretty rangoli outside your door. Say 'The rangoli is ___' with each choice.", "Ugly is the opposite idea."]
   },
   {
     id: "g3-eng-synonyms-a-q17",
@@ -222,7 +222,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Messy\" can mean not clean, like \"dirty\" after colour play. Clean and neat are opposites.",
-    hints: ["Fresh shirts smell nice after washing, so fresh is not a twin of dirty.", "Clean is the opposite of dirty."]
+    hints: ["The clue is Holi: picture Arjun's shirt and test each choice on it.", "Clean is the opposite of dirty."]
   },
   {
     id: "g3-eng-synonyms-a-q18",
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Simple\" means not hard, like \"easy.\" Tough and tricky are closer to difficult.",
-    hints: ["Heavy is about weight, so heavy cannot be a twin of easy.", "Tough is closer to hard."]
+    hints: ["Say 'This sum is easy', then 'This sum is ___' with each choice. Listen for the same meaning.", "Tough is closer to hard."]
   },
   {
     id: "g3-eng-synonyms-a-q19",
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Yell\" means to call out loudly, like \"shout.\" \"Whisper\" is the opposite — very soft.",
-    hints: ["Smile uses your face, not sound, so smile cannot be a twin of shout.", "Whisper is soft, not loud."]
+    hints: ["Act out shout, then act out each choice. Compare which actions match.", "Whisper is soft, not loud."]
   },
   {
     id: "g3-eng-synonyms-a-q21",
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Chilly\" means cool or cold. Hot, warm and boiling are warmer — not the same.",
-    hints: ["Boiling water bubbles on the stove, so boiling is not a twin of cold.", "Hot is the opposite feeling."]
+    hints: ["Picture a cold December morning in Delhi and say 'It is ___ today' with each choice.", "Hot is the opposite feeling."]
   },
   {
     id: "g3-eng-synonyms-a-q23",
@@ -313,7 +313,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Close\" means not far away, like \"near.\" Far, distant and away are opposites.",
-    hints: ["If Dadi is away, she is not at home, so away is not a twin of near.", "Far is the opposite of near."]
+    hints: ["Read 'The school is near my house' with each choice in place of near.", "Far is the opposite of near."]
   }
 ];
 
@@ -329,7 +329,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Cross\" can mean annoyed or angry. Calm, merry and gentle are softer, happier feelings.",
-    hints: ["Merry is a happy festival feeling, so merry is not a twin of angry.", "Calm is closer to the opposite."]
+    hints: ["Make up a line about an angry auto driver in traffic, then swap angry for each choice.", "Calm is closer to the opposite."]
   },
   {
     id: "g3-eng-synonyms-b-q02",
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Tidy\" means clean and in order, like \"neat.\" Messy and dirty are opposites.",
-    hints: ["Scattered toys lie all over the floor, so scattered is not a twin of neat.", "Messy is the opposite of neat."]
+    hints: ["The clue is 'after she cleaned it'. Test each choice against Nisha's room.", "Messy is the opposite of neat."]
   },
   {
     id: "g3-eng-synonyms-b-q05",
@@ -381,7 +381,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Powerful\" means having strength, like \"strong.\" \"Weak\" is the opposite.",
-    hints: ["Tiny is about size, so tiny cannot be a twin of strong.", "Weak is the opposite of strong."]
+    hints: ["Say 'The strong wind shook the tree', then swap strong for each choice.", "Weak is the opposite of strong."]
   },
   {
     id: "g3-eng-synonyms-b-q06",
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Ancient\" means very old. New, fresh and modern are closer to the opposite.",
-    hints: ["Modern buildings have glass walls and lifts, so modern is not a twin of old.", "New is the opposite of old."]
+    hints: ["Picture the old school building. Say 'The building is ___' with each choice.", "New is the opposite of old."]
   },
   {
     id: "g3-eng-synonyms-b-q12",
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Vacant\" means having nothing inside, like \"empty.\" Full, packed and crowded are opposites.",
-    hints: ["A packed bus has no room left, so packed is not a twin of empty.", "Full is the opposite of empty."]
+    hints: ["Use each choice to finish 'After the show, the hall was ___.' Check the meaning of empty holds.", "Full is the opposite of empty."]
   },
   {
     id: "g3-eng-synonyms-b-q14",
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Cautious\" means taking care to avoid mistakes, like \"careful.\" Careless is the opposite.",
-    hints: ["Hasty people rush and do not stop to check, so hasty is not a twin of careful.", "Careless looks like careful, but it means the other way, so do not pick it."]
+    hints: ["Say 'Be careful on the stairs', then say it again with each choice.", "Careless looks like careful, but it means the other way, so do not pick it."]
   },
   {
     id: "g3-eng-synonyms-b-q16",
@@ -537,7 +537,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Warm\" is close in meaning to \"hot\" (both are heated). Freezing, icy and chilly are cold.",
-    hints: ["Chilly is how a winter morning in Shimla feels, so chilly is not a twin of hot.", "Icy is the opposite kind of feeling."]
+    hints: ["Say 'The chai is hot' and then 'The chai is ___' with each choice.", "Icy is the opposite kind of feeling."]
   },
   {
     id: "g3-eng-synonyms-b-q18",
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"See\" means to notice with your eyes, like \"look.\" Ignore means you do not look.",
-    hints: ["Ignore means you pay no attention, so ignore cannot be a twin of look.", "If you cover your eyes, you cannot look, so cover does not mean the same."]
+    hints: ["Picture Diya at the window saying 'Look at the kite!' Put each choice in her words and listen.", "If you cover your eyes, you cannot look, so cover does not mean the same."]
   },
   {
     id: "g3-eng-synonyms-b-q20",
@@ -615,7 +615,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Slim\" means not thick or wide, like \"thin.\" Fat, thick and wide are opposite ideas.",
-    hints: ["Fat is the other way round from thin, so cross fat out first.", "Thick is closer to the opposite."]
+    hints: ["Picture 'The thin pencil rolled off the desk', then put each choice where thin was.", "Thick is closer to the opposite."]
   },
   {
     id: "g3-eng-synonyms-b-q24",
@@ -628,7 +628,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Pleased\" means happy with yourself or something, close to feeling \"proud.\" Ashamed is the opposite.",
-    hints: ["Worried is how you feel before a test, so worried is not a twin of proud.", "Ashamed is closer to the opposite."]
+    hints: ["Think about Sana's correct answer and test each choice against how she felt.", "Ashamed is closer to the opposite."]
   }
 ];
 
