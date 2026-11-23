@@ -424,7 +424,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-sci-light-b-q09",
-    prompt: "For a thin lens, if object is at 2F, image is \u2014",
+    prompt: "For a thin convex lens, if the object is at 2F, the image is \u2014",
     options: [
       { id: "a", text: "virtual erect always" },
       { id: "b", text: "at F" },
@@ -608,13 +608,13 @@ const SET_B: PrepQuestion[] = [
     id: "g10-sci-light-b-q23",
     prompt: "Which phenomenon does NOT need a change of medium?",
     options: [
-      { id: "a", text: "Snell's law bending" },
+      { id: "a", text: "splitting of white light by a glass prism" },
       { id: "b", text: "TIR requiring denser start" },
       { id: "c", text: "reflection at a mirror in one medium" },
       { id: "d", text: "refraction" }
     ],
     answerId: "c",
-    explanation: "Reflection at a mirror happens without light leaving its medium. 'TIR requiring denser start' is tempting because TIR is reflection, but it only happens at a boundary with a rarer medium.",
+    explanation: "Reflection at a mirror happens without light leaving its medium. 'TIR requiring denser start' is tempting because TIR is reflection, but it only happens at a boundary with a rarer medium. Splitting white light with a prism also needs a change of medium: the light passes from air into glass, and each colour bends by a different amount.",
     hints: ["Refraction needs two media."]
   },
   {
