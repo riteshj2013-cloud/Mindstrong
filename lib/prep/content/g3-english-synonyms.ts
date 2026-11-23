@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Rush and hurry both mean to move fast because time is short. 'wait' is the opposite: staying where you are.",
-    hints: ["When you rush, you move fast because time is short.", "Find another word for rush, like moving fast to catch a bus."]
+    hints: ["When you rush, you move fast because time is short.", "When you rush to school, you do not wait, so wait is not a twin of rush."]
   },
   {
     id: "g3-eng-synonyms-a-q02",
@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Large\" means nearly the same as \"big.\" \"Small\" is the opposite.",
-    hints: ["Picture an elephant — big or large both fit.", "Small means the opposite size."]
+    hints: ["Picture an elephant: it is big.", "Quiet is about sound, not size, so quiet cannot mean the same as big."]
   },
   {
     id: "g3-eng-synonyms-a-q03",
@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Fast\" and \"quick\" both mean done in a short time. \"Slow\" is the opposite.",
-    hints: ["Quick means not taking long.", "Try each option in the sentence."]
+    hints: ["Riya's quick homework did not take long.", "Heavy is about weight, not about how long Riya's homework took."]
   },
   {
     id: "g3-eng-synonyms-a-q04",
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Shut and close both mean to stop something being open. 'open' is the opposite.",
-    hints: ["You shut the door when you leave a room.", "Find another word for shut, like what you do to a book."]
+    hints: ["You shut the door when you leave a room.", "You can lift a lid, but that does not shut it, so lift is not a twin."]
   },
   {
     id: "g3-eng-synonyms-a-q05",
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "To enjoy something is to like doing it. 'hate' is the opposite feeling.",
-    hints: ["You enjoy a game when it makes you happy.", "Find another word for enjoy: how you feel about your favourite food."]
+    hints: ["You enjoy a game when it makes you happy.", "Forget is about your memory, not your feelings, so forget is not a twin of enjoy."]
   },
   {
     id: "g3-eng-synonyms-a-q11",
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Caring\" people are kind — they think of others. Rude and mean are closer to the opposite.",
-    hints: ["Kind people help and share.", "Rude is not a twin of kind."]
+    hints: ["A \"kind\" person helps and shares.", "A rude child never says sorry, so rude is not a twin of kind."]
   },
   {
     id: "g3-eng-synonyms-a-q15",
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Weighty\" means having a lot of weight, like \"heavy.\" \"Light\" is the opposite.",
-    hints: ["Heavy things are hard to lift.", "Light is the opposite of heavy."]
+    hints: ["Heavy things are hard to lift.", "An empty school bag is easy to carry, so empty is not the same as heavy."]
   },
   {
     id: "g3-eng-synonyms-b-q03",
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Right\" can mean correct — free from mistakes. Wrong and false are opposites.",
-    hints: ["Correct answers match the truth.", "Wrong is the opposite of correct."]
+    hints: ["A correct sum has no mistakes; it is not false.", "Broken is for toys and things, not for answers, so broken is not a twin of correct."]
   },
   {
     id: "g3-eng-synonyms-b-q10",
@@ -511,7 +511,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Cautious\" means taking care to avoid mistakes, like \"careful.\" Careless is the opposite.",
-    hints: ["Careful people think before they act.", "Careless is the opposite of careful."]
+    hints: ["A \"careful\" person thinks before acting.", "Careless looks like careful, but it means the other way, so do not pick it."]
   },
   {
     id: "g3-eng-synonyms-b-q16",
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"See\" means to notice with your eyes, like \"look.\" Ignore means you do not look.",
-    hints: ["Look uses your eyes.", "Ignore means you turn away."]
+    hints: ["\"look\" is something you do with your eyes.", "If you cover your eyes, you cannot look, so cover does not mean the same."]
   },
   {
     id: "g3-eng-synonyms-b-q20",
@@ -707,7 +707,7 @@ const lesson: ChapterDef["lesson"] = [
       ],
       answerId: "b",
       explanation: "Big and large mean nearly the same. The other pairs are opposites (antonyms).",
-      hints: ["Synonyms are meaning twins.", "Opposites are antonyms, not synonyms."],
+      hints: ["Synonyms are meaning twins.", "Hot and cold are opposites, so that pair is not the twins you need."],
     },
   },
   {
