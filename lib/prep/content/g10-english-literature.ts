@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "The poem calmly advises care with silence and with words, so its mood is reflective and cautionary. 'Indifferent to language' is tempting because the poem praises quiet, but it cares deeply about how we use words.",
-    hints: ["The lines about words as birds that never return are not a joke, so drop 'hilarious'; then judge the tone of the remaining lines."]
+    hints: ["Underline the first verb of each sentence and name what kind of sentence it makes. Then weigh how the birds image shapes the poem's tone."]
   },
   {
     id: "g10-eng-ch01-a-q23",
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "The storm makes Meera feel her grandmother's old proverb is a real fact, so nature's force makes old wisdom feel newly true. 'Towns invent rain' is tempting because the proverb mentions towns, but it says rain is older than towns, not made by them.",
-    hints: ["Nothing in the passage shows a cloud being afraid, so drop the verandah option; test each remaining theme against the whole passage, not one line."]
+    hints: ["A theme is a general idea, not one event. Compare the opening sentence with the last two, then test which option both parts support."]
   },
   {
     id: "g10-eng-ch01-a-q24",

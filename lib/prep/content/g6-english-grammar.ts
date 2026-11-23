@@ -65,8 +65,8 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "No article possible" }
     ],
     answerId: "b",
-    explanation: "Apple begins with a vowel sound → an.",
-    hints: ["Read carefully.", "Eliminate impossible options first."]
+    explanation: "Apple begins with a vowel sound, so the proverb needs 'an'. 'No article possible' is tempting because proverbs often drop words, but one countable apple needs an article here.",
+    hints: ["Swap apple for banana in this proverb, then check whether the same article sits comfortably before both fruit names.", "Read the proverb with the gap left empty; it sounds cut short, so some article is needed."]
   },
   {
     id: "g6-eng-gram-a-q06",
