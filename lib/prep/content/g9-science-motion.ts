@@ -219,13 +219,13 @@ const SET_A: PrepQuestion[] = [
     id: "g9-sci-motion-a-q17",
     prompt: "If acceleration is negative (deceleration), speed generally…",
     options: [
-      { id: "a", text: "decreases (when velocity and accel oppose)" },
+      { id: "a", text: "decreases" },
       { id: "b", text: "increases" },
-      { id: "c", text: "stays meaningless" },
-      { id: "d", text: "becomes mass" }
+      { id: "c", text: "stays the same" },
+      { id: "d", text: "becomes negative" }
     ],
     answerId: "a",
-    explanation: "Deceleration reduces speed when opposing velocity.",
+    explanation: "Speed is how fast a body moves, so it cannot be negative. When acceleration is a deceleration, the body's speed decreases. 'Becomes negative' is tempting if you treat speed like velocity and attach the minus sign to it.",
     hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
