@@ -5,7 +5,7 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g5-eng-ch03-a-q01",
-    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the passage. Which line from the poem contains a SIMILE?",
+    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the poem. Which line from the poem contains a SIMILE?",
     options: [
       { id: "a", text: "\"The puddles are mirrors, the lanes are a stream\"" },
       { id: "b", text: "\"The peacock unfolds like a fan made of light\"" },
@@ -18,7 +18,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-a-q02",
-    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the passage. \"The lanes are a stream\" means that the lanes —",
+    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the poem. \"The lanes are a stream\" means that the lanes —",
     options: [
       { id: "a", text: "are completely dry" },
       { id: "b", text: "are crowded with people" },
@@ -31,7 +31,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-a-q03",
-    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the passage. In \"you'll be wet,\" the word \"you'll\" is a short form of —",
+    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the poem. In \"you'll be wet,\" the word \"you'll\" is a short form of —",
     options: [
       { id: "a", text: "you will" },
       { id: "b", text: "you all" },
@@ -44,7 +44,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-a-q04",
-    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the passage. Which word is the OPPOSITE of \"quietly,\" from the last line?",
+    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the poem. Which word is the OPPOSITE of \"quietly,\" from the last line?",
     options: [
       { id: "a", text: "gently" },
       { id: "b", text: "softly" },
@@ -57,7 +57,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-a-q05",
-    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the passage. Who or what is \"the drummer\" in the poem?",
+    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the poem. Who or what is \"the drummer\" in the poem?",
     options: [
       { id: "a", text: "The thundering monsoon sky" },
       { id: "b", text: "A boy playing a drum in the lane" },
@@ -70,7 +70,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-a-q06",
-    prompt: "**Shopkeeper:** Good morning! How may I help you?\n**Ishaan:** Good morning, uncle. I need a geometry box and two notebooks, please.\n**Shopkeeper:** Ruled or unruled?\n**Ishaan:** Ruled, please. They're for my science project.\n**Shopkeeper:** Here you are. That will be one hundred and twenty rupees.\n**Ishaan:** Oh no, I have only one hundred rupees. Could I take just one notebook today?\n**Shopkeeper:** Of course. You can buy the other one tomorrow.\n**Ishaan:** Thank you so much, uncle. You're very kind.\n**Shopkeeper:** Not at all. Best of luck with your project!\n\nRead the passage. Which line shows Ishaan asking politely when he has a problem?",
+    prompt: "**Shopkeeper:** Good morning! How may I help you?\n**Ishaan:** Good morning, uncle. I need a geometry box and two notebooks, please.\n**Shopkeeper:** Ruled or unruled?\n**Ishaan:** Ruled, please. They're for my science project.\n**Shopkeeper:** Here you are. That will be one hundred and twenty rupees.\n**Ishaan:** Oh no, I have only one hundred rupees. Could I take just one notebook today?\n**Shopkeeper:** Of course. You can buy the other one tomorrow.\n**Ishaan:** Thank you so much, uncle. You're very kind.\n**Shopkeeper:** Not at all. Best of luck with your project!\n\nRead the dialogue. Which line shows Ishaan asking politely when he has a problem?",
     options: [
       { id: "a", text: "\"Ruled, please.\"" },
       { id: "b", text: "\"Good morning, uncle.\"" },
@@ -83,7 +83,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-a-q07",
-    prompt: "**Shopkeeper:** Good morning! How may I help you?\n**Ishaan:** Good morning, uncle. I need a geometry box and two notebooks, please.\n**Shopkeeper:** Ruled or unruled?\n**Ishaan:** Ruled, please. They're for my science project.\n**Shopkeeper:** Here you are. That will be one hundred and twenty rupees.\n**Ishaan:** Oh no, I have only one hundred rupees. Could I take just one notebook today?\n**Shopkeeper:** Of course. You can buy the other one tomorrow.\n**Ishaan:** Thank you so much, uncle. You're very kind.\n**Shopkeeper:** Not at all. Best of luck with your project!\n\nRead the passage. Ishaan says, \"They're for my science project.\" \"They're\" means —",
+    prompt: "**Shopkeeper:** Good morning! How may I help you?\n**Ishaan:** Good morning, uncle. I need a geometry box and two notebooks, please.\n**Shopkeeper:** Ruled or unruled?\n**Ishaan:** Ruled, please. They're for my science project.\n**Shopkeeper:** Here you are. That will be one hundred and twenty rupees.\n**Ishaan:** Oh no, I have only one hundred rupees. Could I take just one notebook today?\n**Shopkeeper:** Of course. You can buy the other one tomorrow.\n**Ishaan:** Thank you so much, uncle. You're very kind.\n**Shopkeeper:** Not at all. Best of luck with your project!\n\nRead the dialogue. Ishaan says, \"They're for my science project.\" \"They're\" means —",
     options: [
       { id: "a", text: "Their are" },
       { id: "b", text: "They are" },
@@ -320,7 +320,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g5-eng-ch03-b-q01",
-    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the passage. \"The puddles are mirrors.\" This line suggests that the puddles —",
+    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the poem. \"The puddles are mirrors.\" This line suggests that the puddles —",
     options: [
       { id: "a", text: "reflect things the way a mirror does" },
       { id: "b", text: "are made of glass" },
@@ -333,7 +333,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-b-q02",
-    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the passage. \"He thunders and rumbles.\" Which phrase is closest in meaning to \"rumbles\"?",
+    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the poem. \"He thunders and rumbles.\" Which phrase is closest in meaning to \"rumbles\"?",
     options: [
       { id: "a", text: "whispers softly" },
       { id: "b", text: "shines brightly" },
@@ -346,7 +346,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-b-q03",
-    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the passage. Why are inverted commas (\" \") used in: Amma calls, \"Children! Come in, you'll be wet!\"?",
+    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the poem. Why are inverted commas (\" \") used in: Amma calls, \"Children! Come in, you'll be wet!\"?",
     options: [
       { id: "a", text: "To show a question" },
       { id: "b", text: "To show the exact words Amma speaks" },
@@ -359,7 +359,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-b-q04",
-    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the passage. \"But who wants to leave when the show isn't done yet?\" What is \"the show\"?",
+    prompt: "The sky is a drummer who practises at noon,\nHe thunders and rumbles, then hums a soft tune.\nThe peacock unfolds like a fan made of light,\nThe frogs in the ditches sing all through the night.\n\nThe puddles are mirrors, the lanes are a stream,\nPaper boats sail like the ships in a dream.\nAmma calls, \"Children! Come in, you'll be wet!\"\nBut who wants to leave when the show isn't done yet?\n\nBy morning the drummer has packed up his sound,\nAnd quietly, gently, green covers the ground.\n\nRead the poem. \"But who wants to leave when the show isn't done yet?\" What is \"the show\"?",
     options: [
       { id: "a", text: "A programme on television" },
       { id: "b", text: "A dance performance at school" },
@@ -372,7 +372,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-b-q05",
-    prompt: "**Shopkeeper:** Good morning! How may I help you?\n**Ishaan:** Good morning, uncle. I need a geometry box and two notebooks, please.\n**Shopkeeper:** Ruled or unruled?\n**Ishaan:** Ruled, please. They're for my science project.\n**Shopkeeper:** Here you are. That will be one hundred and twenty rupees.\n**Ishaan:** Oh no, I have only one hundred rupees. Could I take just one notebook today?\n**Shopkeeper:** Of course. You can buy the other one tomorrow.\n**Ishaan:** Thank you so much, uncle. You're very kind.\n**Shopkeeper:** Not at all. Best of luck with your project!\n\nRead the passage. How does the shopkeeper respond to Ishaan's problem?",
+    prompt: "**Shopkeeper:** Good morning! How may I help you?\n**Ishaan:** Good morning, uncle. I need a geometry box and two notebooks, please.\n**Shopkeeper:** Ruled or unruled?\n**Ishaan:** Ruled, please. They're for my science project.\n**Shopkeeper:** Here you are. That will be one hundred and twenty rupees.\n**Ishaan:** Oh no, I have only one hundred rupees. Could I take just one notebook today?\n**Shopkeeper:** Of course. You can buy the other one tomorrow.\n**Ishaan:** Thank you so much, uncle. You're very kind.\n**Shopkeeper:** Not at all. Best of luck with your project!\n\nRead the dialogue. How does the shopkeeper respond to Ishaan's problem?",
     options: [
       { id: "a", text: "He gets angry." },
       { id: "b", text: "He refuses to sell anything." },
@@ -385,7 +385,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-b-q06",
-    prompt: "**Shopkeeper:** Good morning! How may I help you?\n**Ishaan:** Good morning, uncle. I need a geometry box and two notebooks, please.\n**Shopkeeper:** Ruled or unruled?\n**Ishaan:** Ruled, please. They're for my science project.\n**Shopkeeper:** Here you are. That will be one hundred and twenty rupees.\n**Ishaan:** Oh no, I have only one hundred rupees. Could I take just one notebook today?\n**Shopkeeper:** Of course. You can buy the other one tomorrow.\n**Ishaan:** Thank you so much, uncle. You're very kind.\n**Shopkeeper:** Not at all. Best of luck with your project!\n\nRead the passage. The shopkeeper asks, \"Ruled or unruled?\" In \"unruled,\" the prefix \"un-\" means —",
+    prompt: "**Shopkeeper:** Good morning! How may I help you?\n**Ishaan:** Good morning, uncle. I need a geometry box and two notebooks, please.\n**Shopkeeper:** Ruled or unruled?\n**Ishaan:** Ruled, please. They're for my science project.\n**Shopkeeper:** Here you are. That will be one hundred and twenty rupees.\n**Ishaan:** Oh no, I have only one hundred rupees. Could I take just one notebook today?\n**Shopkeeper:** Of course. You can buy the other one tomorrow.\n**Ishaan:** Thank you so much, uncle. You're very kind.\n**Shopkeeper:** Not at all. Best of luck with your project!\n\nRead the dialogue. The shopkeeper asks, \"Ruled or unruled?\" In \"unruled,\" the prefix \"un-\" means —",
     options: [
       { id: "a", text: "not" },
       { id: "b", text: "again" },
@@ -398,7 +398,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g5-eng-ch03-b-q07",
-    prompt: "**Shopkeeper:** Good morning! How may I help you?\n**Ishaan:** Good morning, uncle. I need a geometry box and two notebooks, please.\n**Shopkeeper:** Ruled or unruled?\n**Ishaan:** Ruled, please. They're for my science project.\n**Shopkeeper:** Here you are. That will be one hundred and twenty rupees.\n**Ishaan:** Oh no, I have only one hundred rupees. Could I take just one notebook today?\n**Shopkeeper:** Of course. You can buy the other one tomorrow.\n**Ishaan:** Thank you so much, uncle. You're very kind.\n**Shopkeeper:** Not at all. Best of luck with your project!\n\nRead the passage. The shopkeeper says, \"Best of luck with your project!\" What is the best reply?",
+    prompt: "**Shopkeeper:** Good morning! How may I help you?\n**Ishaan:** Good morning, uncle. I need a geometry box and two notebooks, please.\n**Shopkeeper:** Ruled or unruled?\n**Ishaan:** Ruled, please. They're for my science project.\n**Shopkeeper:** Here you are. That will be one hundred and twenty rupees.\n**Ishaan:** Oh no, I have only one hundred rupees. Could I take just one notebook today?\n**Shopkeeper:** Of course. You can buy the other one tomorrow.\n**Ishaan:** Thank you so much, uncle. You're very kind.\n**Shopkeeper:** Not at all. Best of luck with your project!\n\nRead the dialogue. The shopkeeper says, \"Best of luck with your project!\" What is the best reply?",
     options: [
       { id: "a", text: "\"Okay.\"" },
       { id: "b", text: "\"Why?\"" },

@@ -47,7 +47,7 @@ export const G10_ENGLISH_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-eng-ch01-a-q17": ["\"when no one is late\" means there is no rush.", "The phrase describes how pages turn when time feels slow and calm."],
   "g10-eng-ch01-a-q19": ["\"Words are birds\" says words are birds, with no like or as.", "Simile needs like or as; which figure says one thing is another directly?"],
   "g10-eng-ch01-a-q21": ["The speaker has just warned that spoken words cannot be taken back.", "If the air were waiting for your words, what kind of words would be worth giving it?"],
-  "g10-eng-ch01-a-q24": ["The passage is the old library, where time feels slower and a note says \"Do not finish this journey alone\".", "Link the quiet setting to Arun's feeling of connection with the past."],
+  "g10-eng-ch01-a-q24": ["Compare the hush inside the old library with the scooters and horns outside, then test which option the whole passage supports.", "Notice what Arun does with the diary and the marigold, and how gently he closes the book."],
   "g10-eng-ch01-b-q01": ["The school verandah is where Meera's class waits before the storm.", "Starting in a place every student knows helps the reader picture things before the rain changes them."],
   "g10-eng-ch01-b-q04": ["Read: \"When the sky finally opened, it opened all at once\".", "\"all at once\" and \"as if a seam had been ripped\" describe the pace — slow or sudden?"],
   "g10-eng-ch01-b-q08": ["Arun closed the book \"gently, as if loudness might wake the past\".", "What does careful, quiet handling of an old diary show about his feelings?"],

@@ -272,7 +272,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g3-eng-reading-a-q21",
-    prompt: "**A Note on the Fridge**\n\nSneha,\nI have gone to Aunty Leela's house next door\nto help with the Diwali sweets.\nYour milk is in the steel flask.\nPlease feed Bubbles a pinch of food from the\nsmall tin at 6 o'clock. Do not tap on the glass;\nit scares him.\nI will be back by 8.\n— Mumma\n\nRead the passage (the note on the fridge). Where has Mumma gone?",
+    prompt: "**A Note on the Fridge**\n\nSneha,\nI have gone to Aunty Leela's house next door\nto help with the Diwali sweets.\nYour milk is in the steel flask.\nPlease feed Bubbles a pinch of food from the\nsmall tin at 6 o'clock. Do not tap on the glass;\nit scares him.\nI will be back by 8.\n— Mumma\n\nRead the note. Where has Mumma gone?",
     options: [
       { id: "a", text: "To Aunty Leela's house next door" },
       { id: "b", text: "To the sweet shop" },

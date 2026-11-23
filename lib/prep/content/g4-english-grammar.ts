@@ -70,7 +70,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch02-a-q06",
-    prompt: "**Meena:** Mummy, are these mangoes sweet?\n**Mother:** Yes, they are. The shopkeeper says they are from Ratnagiri.\n**Meena:** I want an apple too.\n**Mother:** We have apples at home. Let's buy bananas instead.\n**Meena:** Okay! I am carrying the bag.\n**Mother:** Thank you, beta. It is heavy, so hold it with both hands.\n**Shopkeeper:** Here are six bananas. They are fresh and yellow.\n**Mother:** Thank you. How much are they?\n**Shopkeeper:** Forty rupees, please.\n\nRead the passage. Mother says, \"Yes, they are.\" Who or what does \"they\" mean here?",
+    prompt: "**Meena:** Mummy, are these mangoes sweet?\n**Mother:** Yes, they are. The shopkeeper says they are from Ratnagiri.\n**Meena:** I want an apple too.\n**Mother:** We have apples at home. Let's buy bananas instead.\n**Meena:** Okay! I am carrying the bag.\n**Mother:** Thank you, beta. It is heavy, so hold it with both hands.\n**Shopkeeper:** Here are six bananas. They are fresh and yellow.\n**Mother:** Thank you. How much are they?\n**Shopkeeper:** Forty rupees, please.\n\nRead the dialogue. Mother says, \"Yes, they are.\" Who or what does \"they\" mean here?",
     options: [
       { id: "a", text: "The bananas" },
       { id: "b", text: "The apples" },
@@ -380,7 +380,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch02-b-q05",
-    prompt: "**Meena:** Mummy, are these mangoes sweet?\n**Mother:** Yes, they are. The shopkeeper says they are from Ratnagiri.\n**Meena:** I want an apple too.\n**Mother:** We have apples at home. Let's buy bananas instead.\n**Meena:** Okay! I am carrying the bag.\n**Mother:** Thank you, beta. It is heavy, so hold it with both hands.\n**Shopkeeper:** Here are six bananas. They are fresh and yellow.\n**Mother:** Thank you. How much are they?\n**Shopkeeper:** Forty rupees, please.\n\nRead the passage. Meena says, \"I want an apple too.\" Why does she use \"an\"?",
+    prompt: "**Meena:** Mummy, are these mangoes sweet?\n**Mother:** Yes, they are. The shopkeeper says they are from Ratnagiri.\n**Meena:** I want an apple too.\n**Mother:** We have apples at home. Let's buy bananas instead.\n**Meena:** Okay! I am carrying the bag.\n**Mother:** Thank you, beta. It is heavy, so hold it with both hands.\n**Shopkeeper:** Here are six bananas. They are fresh and yellow.\n**Mother:** Thank you. How much are they?\n**Shopkeeper:** Forty rupees, please.\n\nRead the dialogue. Meena says, \"I want an apple too.\" Why does she use \"an\"?",
     options: [
       { id: "a", text: "The apple is small." },
       { id: "b", text: "The apple is red." },
@@ -393,7 +393,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch02-b-q06",
-    prompt: "**Meena:** Mummy, are these mangoes sweet?\n**Mother:** Yes, they are. The shopkeeper says they are from Ratnagiri.\n**Meena:** I want an apple too.\n**Mother:** We have apples at home. Let's buy bananas instead.\n**Meena:** Okay! I am carrying the bag.\n**Mother:** Thank you, beta. It is heavy, so hold it with both hands.\n**Shopkeeper:** Here are six bananas. They are fresh and yellow.\n**Mother:** Thank you. How much are they?\n**Shopkeeper:** Forty rupees, please.\n\nRead the passage. \"We have apples at home.\" Why does Mother say \"have\" and not \"has\"?",
+    prompt: "**Meena:** Mummy, are these mangoes sweet?\n**Mother:** Yes, they are. The shopkeeper says they are from Ratnagiri.\n**Meena:** I want an apple too.\n**Mother:** We have apples at home. Let's buy bananas instead.\n**Meena:** Okay! I am carrying the bag.\n**Mother:** Thank you, beta. It is heavy, so hold it with both hands.\n**Shopkeeper:** Here are six bananas. They are fresh and yellow.\n**Mother:** Thank you. How much are they?\n**Shopkeeper:** Forty rupees, please.\n\nRead the dialogue. \"We have apples at home.\" Why does Mother say \"have\" and not \"has\"?",
     options: [
       { id: "a", text: "\"We\" means more than one person." },
       { id: "b", text: "The apples are red." },
@@ -406,7 +406,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch02-b-q07",
-    prompt: "**Meena:** Mummy, are these mangoes sweet?\n**Mother:** Yes, they are. The shopkeeper says they are from Ratnagiri.\n**Meena:** I want an apple too.\n**Mother:** We have apples at home. Let's buy bananas instead.\n**Meena:** Okay! I am carrying the bag.\n**Mother:** Thank you, beta. It is heavy, so hold it with both hands.\n**Shopkeeper:** Here are six bananas. They are fresh and yellow.\n**Mother:** Thank you. How much are they?\n**Shopkeeper:** Forty rupees, please.\n\nRead the passage. \"It is heavy, so hold it with both hands.\" Which word is an ADJECTIVE?",
+    prompt: "**Meena:** Mummy, are these mangoes sweet?\n**Mother:** Yes, they are. The shopkeeper says they are from Ratnagiri.\n**Meena:** I want an apple too.\n**Mother:** We have apples at home. Let's buy bananas instead.\n**Meena:** Okay! I am carrying the bag.\n**Mother:** Thank you, beta. It is heavy, so hold it with both hands.\n**Shopkeeper:** Here are six bananas. They are fresh and yellow.\n**Mother:** Thank you. How much are they?\n**Shopkeeper:** Forty rupees, please.\n\nRead the dialogue. \"It is heavy, so hold it with both hands.\" Which word is an ADJECTIVE?",
     options: [
       { id: "a", text: "It" },
       { id: "b", text: "hold" },

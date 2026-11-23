@@ -61,12 +61,12 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "A" },
       { id: "b", text: "An" },
-      { id: "c", text: "The only ever" },
+      { id: "c", text: "Some" },
       { id: "d", text: "No article possible" }
     ],
     answerId: "b",
-    explanation: "Apple begins with a vowel sound, so the proverb needs 'an'. 'No article possible' is tempting because proverbs often drop words, but one countable apple needs an article here.",
-    hints: ["Swap apple for banana in this proverb, then check whether the same article sits comfortably before both fruit names.", "Read the proverb with the gap left empty; it sounds cut short, so some article is needed."]
+    explanation: "'Apple' begins with a vowel sound, so the proverb needs 'an'. 'Some' tempts because it fits before many nouns, but it is not an article, and 'some' cannot go with a single 'apple' here.",
+    hints: ["Swap apple for banana in this proverb, then check whether the same article sits comfortably before both fruit names.", "Read the proverb with the gap left empty; it sounds cut short, so the gap before apple must be filled."]
   },
   {
     id: "g6-eng-gram-a-q06",
