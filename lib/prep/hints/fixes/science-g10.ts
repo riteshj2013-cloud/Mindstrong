@@ -136,7 +136,7 @@ export const G10_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-sci-light-b-q19": ["Aperture is not a length measured along the axis, so it is not always equal to the focal length."],
   "g10-sci-light-b-q20": ["Concave and convex mirrors do not share one sign for focal length, so the mirror formula cannot take f positive for every mirror."],
   "g10-sci-light-b-q21": ["The pencil is not a mirror, so its bent look cannot come from reflection inside the pencil."],
-  "g10-sci-light-b-q23": ["Total internal reflection still needs a boundary with a rarer medium, even though the ray turns back."],
+  "g10-sci-light-b-q23": ["Starlight reaching your eye crosses hotter and cooler layers of air, so twinkling still needs a change of medium."],
   "g10-sci-chem-a-q03": ["Zinc does not act as an acid in this beaker, so drop that idea."],
   "g10-sci-life-b-q05": ["Alveoli do not contain chloroplasts, so drop that feature."],
   "g10-sci-life-b-q22": ["Trace the path of urine from where it is made to where it leaves the body."],

@@ -621,12 +621,12 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which phenomenon does NOT need a change of medium?",
     options: [
       { id: "a", text: "splitting of white light by a glass prism" },
-      { id: "b", text: "TIR requiring denser start" },
+      { id: "b", text: "twinkling of stars" },
       { id: "c", text: "reflection at a mirror in one medium" },
       { id: "d", text: "refraction" }
     ],
     answerId: "c",
-    explanation: "Reflection at a mirror happens without light leaving its medium. 'TIR requiring denser start' is tempting because TIR is reflection, but it only happens at a boundary with a rarer medium. Splitting white light with a prism also needs a change of medium: the light passes from air into glass, and each colour bends by a different amount.",
+    explanation: "Reflection at a mirror sends light back into the medium it came from, so it needs no change of medium. Twinkling of stars is tempting because starlight seems to travel only through air, but warmer and cooler air layers have different optical densities, so the light refracts again and again as it crosses them. Prism splitting and refraction also need light to pass from one medium into another.",
     hints: ["Refraction needs two media."]
   },
   {
