@@ -565,7 +565,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "From lightest to heaviest: Wasim, then Varun (heavier than Wasim, lighter than Tara), then Tara, then Yash (heavier than Tara). So the second heaviest is Tara's. Varun's suitcase is tempting because the second clue is all about Varun, but Tara and Yash are both heavier than him.",
-    hints: ["Line up the four suitcases from lightest to heaviest using every clue, then count back from the heaviest end."]
+    hints: ["One suitcase is only ever the lighter one in the clues. The lightest cannot be second heaviest, so cross it out."]
   },
   {
     id: "g3-maths-measurement-b-q19",

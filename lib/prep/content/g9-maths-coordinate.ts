@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "II" }
     ],
     answerId: "d",
-    explanation: "x negative, y positive → quadrant II. I is tempting if you flip the sign of only one coordinate when placing the point.",
+    explanation: "x is negative and y is positive, so (\u22124, 5) is in quadrant II. I is tempting if you ignore the minus sign on the x-coordinate.",
     hints: ["Sign of x and y decides the quadrant."]
   },
   {
@@ -66,7 +66,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "√6" }
     ],
     answerId: "b",
-    explanation: "It lies on the y-axis 6 units from (0,0). 0 is tempting if you name a quadrant or an axis instead of the single point (0, 0) where the axes meet.",
+    explanation: "(0, 6) is on the y-axis, 6 units from the origin, so the distance is 6. 36 is tempting if you square the 6 and forget the square root.",
     hints: ["Use the distance formula or axis distance."]
   },
   {
@@ -92,7 +92,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "d",
-    explanation: "Ordinate is the y-coordinate: 0. −7 is tempting if you set y = 0 (the x-axis) instead of x = 0.",
+    explanation: "The ordinate is the second number, so the ordinate of (\u22127, 0) is 0. \u22127 is tempting if you read the abscissa instead.",
     hints: ["The ordinate is the y-coordinate, the second number in (x, y)."]
   },
   {
@@ -105,7 +105,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "at the origin" }
     ],
     answerId: "a",
-    explanation: "Each has y = 0, so all lie on the x-axis. on the y-axis is tempting if you read the intercept from the wrong axis.",
+    explanation: "Each point has y = 0, so all three lie on the x-axis. on the y-axis is tempting if you think y = 0 puts a point on the y-axis.",
     hints: ["Each point has y-coordinate 0, so none moves up or down from the origin. Along which line do they lie?"]
   },
   {
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(−2, 2)" }
     ],
     answerId: "c",
-    explanation: "Equal positive coordinates sit in quadrant I. (−2, −2) is tempting if you flip the sign of only one coordinate when placing the point.",
+    explanation: "Quadrant I needs both coordinates positive, so (2, 2) fits. (\u22122, \u22122) is tempting if you pick equal coordinates but forget they must be positive.",
     hints: ["In quadrant I both coordinates are positive, and here the abscissa must equal the ordinate."]
   },
   {
@@ -144,7 +144,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "d",
-    explanation: "√(3² + 4²) = √(9+16) = 5. 7 is tempting if you square only one difference in the distance formula.",
+    explanation: "\u221a(3\u00b2 + 4\u00b2) = \u221a(9 + 16) = \u221a25 = 5. 7 is tempting if you add the gaps 3 and 4 instead of squaring them first.",
     hints: ["Use distance = √(x² + y²) with x = 3 and y = 4."]
   },
   {
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(−, −)" }
     ],
     answerId: "b",
-    explanation: "Quadrant IV: x positive, y negative. (+, +) is tempting if you flip the sign of only one coordinate when placing the point.",
+    explanation: "In quadrant IV, x is positive and y is negative: (+, \u2212). (+, +) is tempting if you forget that y is negative below the x-axis.",
     hints: ["Quadrant IV is the bottom-right part of the plane. Is x right or left there, and is y up or down?"]
   },
   {
@@ -209,7 +209,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "√13" }
     ],
     answerId: "a",
-    explanation: "√((4−1)² + (6−2)²) = √(9+16) = 5. 7 is tempting if you square only one difference in the distance formula.",
+    explanation: "\u221a((4 \u2212 1)\u00b2 + (6 \u2212 2)\u00b2) = \u221a(9 + 16) = 5. 7 is tempting if you add the gaps 3 and 4 instead of squaring them first.",
     hints: ["Use the distance formula: root of delta-x squared plus delta-y squared."]
   },
   {
@@ -235,7 +235,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(1, 0)" }
     ],
     answerId: "c",
-    explanation: "The origin is (0, 0). (1, 1) is tempting if you name a quadrant or an axis instead of the single point (0, 0) where the axes meet.",
+    explanation: "The origin is where both axes meet, so it is (0, 0). (1, 1) is tempting if you start counting at 1 instead of 0.",
     hints: ["The origin is where the x-axis and y-axis cross, so it has moved neither right nor up."]
   },
   {
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(−3, 7)" }
     ],
     answerId: "d",
-    explanation: "Ordered pairs are (abscissa, ordinate) = (−3, 7). (7, −3) is tempting if you set x = 0 (the y-axis) instead of y = 0.",
+    explanation: "An ordered pair is written (abscissa, ordinate), so the point is (\u22123, 7). (7, \u22123) is tempting if you write the ordinate first.",
     hints: ["The abscissa is x and the ordinate is y. Write the pair in the order (x, y)."]
   },
   {
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "5" }
     ],
     answerId: "a",
-    explanation: "The two axes divide the plane into four quadrants. 3 is tempting if you flip the sign of only one coordinate when placing the point.",
+    explanation: "The two axes split the plane into four quadrants. 2 is tempting if you count the two axes instead of the parts they make.",
     hints: ["The x-axis and y-axis cross and cut the Cartesian plane into regions. Count the quadrants they make."]
   },
   {
@@ -274,7 +274,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "(2, 0)" }
     ],
     answerId: "b",
-    explanation: "Any point (0, y) is equidistant from (2,0) and (−2,0); among the options, (0,0) works. (2, 2) is tempting if you set y = 0 (the x-axis) instead of x = 0.",
+    explanation: "(0, 0) is on the y-axis and is 2 units from both points. (2, 0) is tempting if you pick one of the given points; it is 4 units from (\u22122, 0).",
     hints: ["The perpendicular bisector of (−2,0) and (2,0) is the y-axis."]
   },
   {
@@ -287,7 +287,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "does not exist" }
     ],
     answerId: "c",
-    explanation: "(0,0) is the origin, belonging to both axes. lies in quadrant I is tempting if you set y = 0 (the x-axis) instead of x = 0.",
+    explanation: "A point with both coordinates zero is the origin, which lies on both axes. lies on x-axis only, not y-axis is tempting if you check y = 0 but forget that x = 0 too.",
     hints: ["Write the point with both coordinates zero as an ordered pair. How far is it from each axis?", "Is that point on the x-axis, on the y-axis, on both or on neither? Which description fits?"]
   },
   {
@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "cannot tell" }
     ],
     answerId: "a",
-    explanation: "OA = 5 and OB = 6, so A is closer. B is tempting if you name a quadrant or an axis instead of the single point (0, 0) where the axes meet.",
+    explanation: "OA = 5 and OB = 6, so A is closer. B is tempting if you add the coordinates, since 0 + 6 = 6 is less than 3 + 4 = 7.",
     hints: ["Find each point's distance from the origin with √(x² + y²), then compare."]
   },
   {
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "in quadrant II" }
     ],
     answerId: "c",
-    explanation: "x = 0, y > 0 → positive y-axis. in quadrant I is tempting if you take the section-formula weights in the wrong order.",
+    explanation: "(0, 8) has x = 0 and y > 0, so it is on the positive y-axis. on the positive x-axis is tempting if you think x = 0 puts a point on the x-axis.",
     hints: ["Axis points are not inside quadrants."]
   },
   {
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "negative, positive" }
     ],
     answerId: "d",
-    explanation: "Quadrant II: x < 0, y > 0. positive, positive is tempting if you flip the sign of only one coordinate when placing the point.",
+    explanation: "In quadrant II, x < 0 and y > 0, so the signs are negative, positive. positive, positive is tempting if you forget that x is negative left of the y-axis.",
     hints: ["Quadrant II is the upper-left part of the plane. Is x left or right there, and is y up or down?"]
   },
   {
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "(4, 7)" }
     ],
     answerId: "c",
-    explanation: "(0, 4) has x = 0, not 4. (4, 0) is tempting if you join a different pair of labelled points.",
+    explanation: "(0, 4) has x = 0, not 4, so it is not on the line x = 4. (4, 0) is tempting if you think a point on an axis cannot be on the line. Its x is still 4.",
     hints: ["Check the x-coordinate of each option."]
   },
   {
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "IV" }
     ],
     answerId: "d",
-    explanation: "(+, −) is quadrant IV. I is tempting if you set x = 0 (the y-axis) instead of y = 0.",
+    explanation: "A positive abscissa with a negative ordinate gives quadrant IV. I is tempting if you ignore that the ordinate is negative.",
     hints: ["A positive abscissa is right of the y-axis; a negative ordinate is below the x-axis. Which quadrant is that?"]
   },
   {
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "0" }
     ],
     answerId: "a",
-    explanation: "Same x-coordinate: |4 − (−1)| = 5. 3 is tempting if you square only one difference in the distance formula.",
+    explanation: "Both points have x = 2, so the distance is 4 \u2212 (\u22121) = 5. 3 is tempting if you work out 4 \u2212 1 and forget that \u22121 is below zero.",
     hints: ["Both points have x = 2, so the segment is vertical. Find the change in y from −1 to 4."]
   },
   {
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "at the origin" }
     ],
     answerId: "b",
-    explanation: "Equal positive coordinates → on y = x in quadrant I. on the x-axis is tempting if you swap the x- and y-coordinates of the given point.",
+    explanation: "Equal positive coordinates put (7, 7) on the line y = x in quadrant I. on the x-axis is tempting if you read only the first 7 and drop the y-coordinate.",
     hints: ["Compare the two coordinates of (7, 7), and note their signs."]
   },
   {
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "(a, −b)" }
     ],
     answerId: "b",
-    explanation: "x-axis: (a,−b); then y-axis: (−a,−b). Same as central inversion. (a, b) is tempting if you flip the sign of only one coordinate when reflecting.",
+    explanation: "The x-axis gives (a, \u2212b), then the y-axis gives (\u2212a, \u2212b). (a, \u2212b) is tempting if you stop after the x-axis and skip the y-axis step.",
     hints: ["Reflecting in the x-axis changes the sign of b; reflecting in the y-axis changes the sign of a."]
   },
   {
@@ -459,7 +459,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "(−4, 3)" }
     ],
     answerId: "c",
-    explanation: "Left of y-axis → x = −3; above x-axis → y = 4. (4, −3) is tempting if you set x = 0 (the y-axis) instead of y = 0.",
+    explanation: "Left of the y-axis makes x = \u22123 and above the x-axis makes y = 4, so the point is (\u22123, 4). (4, \u22123) is tempting if you write the numbers in the order the question gives them.",
     hints: ["Left of the y-axis makes x negative; above the x-axis makes y positive. Then write (x, y)."]
   },
   {
@@ -485,7 +485,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "24" }
     ],
     answerId: "a",
-    explanation: "Right triangle with legs 4 and 3: area = (1/2)·4·3 = 6. 7 is tempting if you reverse both signs when only one reflection was asked.",
+    explanation: "The legs are 4 and 3, so the area is half of 4 \u00d7 3, which is 6. 12 is tempting if you multiply 4 \u00d7 3 and forget to halve it.",
     hints: ["The base on the x-axis is 4 and the height on the y-axis is 3. Area = ½ × base × height."]
   },
   {
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "IV" }
     ],
     answerId: "b",
-    explanation: "Both negative → quadrant III. I is tempting if you take the section-formula weights in the wrong order.",
+    explanation: "Both coordinates are negative, so (\u22123, \u22123) is in quadrant III. I is tempting if you ignore both minus signs.",
     hints: ["Both coordinates of (−3, −3) are negative: left of the y-axis and below the x-axis."]
   },
   {
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "x < 0 and y < 0" }
     ],
     answerId: "b",
-    explanation: "Quadrant I is the (+, +) region. x < 0 and y > 0 is tempting if you flip the sign of only one coordinate when placing the point.",
+    explanation: "In quadrant I both coordinates are positive: x > 0 and y > 0. x < 0 and y > 0 is tempting if you place quadrant I on the left of the y-axis.",
     hints: ["Quadrant I is the upper-right part of the plane. Is x right or left of the y-axis, and is y above or below?"]
   },
   {
@@ -563,7 +563,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "are the same point" }
     ],
     answerId: "c",
-    explanation: "Same x-coordinate ⇒ vertical line x = 1. have the same ordinate is tempting if you reverse both signs when only one reflection was asked.",
+    explanation: "Both points have x = 1, so they lie on a vertical line, x = 1. have the same ordinate is tempting if you mix up abscissa and ordinate; they share the abscissa.",
     hints: ["Both points have the same x-coordinate, 1. What kind of line joins points with equal x?"]
   },
   {
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "6 units left of origin on the x-axis" }
     ],
     answerId: "d",
-    explanation: "y = 0 and x = −6 → on the negative x-axis. 6 units up on the y-axis is tempting if you set y = 0 (the x-axis) instead of x = 0.",
+    explanation: "y = 0 and x = \u22126, so the point is 6 units left of origin on the x-axis. in quadrant II is tempting if you treat the 0 as a positive number.",
     hints: ["y = 0 puts (−6, 0) on an axis. The x-value −6 says which way and how far from the origin."]
   },
   {
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "(5, 2) and (2, 1)" }
     ],
     answerId: "a",
-    explanation: "The expression matches Δx=4, Δy=0 between (5,2) and (1,2). (5, 1) and (2, 2) is tempting if you square only one difference in the distance formula.",
+    explanation: "The brackets give a gap of 4 in x and 0 in y, which fits (5, 2) and (1, 2). (5, 1) and (2, 2) is tempting if you read each bracket as one point.",
     hints: ["In the distance formula, the first bracket subtracts the two x-coordinates and the second subtracts the two y-coordinates. Check each pair."]
   },
   {
