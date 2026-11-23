@@ -303,7 +303,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Kabir spends money, so take away: ₹30 − ₹10 = ₹20. ₹40 is tempting, but that adds the ₹10 instead of taking it away.",
-    hints: ["Subtract spend."]
+    hints: ["Spending makes Kabir's money go down, not up. So he cannot end with more than \u20b930. Cross that one out."]
   },
   {
     id: "g2-maths-addsub-b-q08",

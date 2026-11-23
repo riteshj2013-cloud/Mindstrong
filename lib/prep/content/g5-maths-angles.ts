@@ -218,7 +218,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "In angle PQR the middle letter names the vertex, the point where the arms QP and QR meet, so Q is the vertex. P is tempting if you take the first letter of the name as the vertex.",
-    hints: ["In a three-letter angle name, the middle letter is the vertex."]
+    hints: ["The vertex sits on both arms, not out in the open space between them. Cross out the choice placed in that space."]
   },
   {
     id: "g5-maths-angles-a-q17",

@@ -300,7 +300,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The term in x is −3x, so the coefficient of x is −3, sign included. 4 is tempting because it comes first, but 4 is the coefficient of x³; 7 is the constant term.",
-    hints: ["An x term with no power appears in this polynomial. The option giving it no coefficient fails."]
+    hints: ["The number at the front goes with the cube term, not with x. Cross out the choice taken from the front."]
   },
   {
     id: "g10-maths-poly-a-q24",
@@ -368,7 +368,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "y = (x − 2)(x − 3) is zero when x − 2 = 0 or x − 3 = 0, so the graph cuts the x-axis at 2 and 3. −2 and −3 is tempting from the signs in the brackets, but x = −2 gives (−4)(−5) = 20, not 0.",
-    hints: ["Both brackets can be emptied, each at its own x. That means more than a lone x-axis crossing; drop the single-point answer."]
+    hints: ["With a negative x, both x\u22122 and x\u22123 come out negative, so neither bracket is zero. Cross out the pair of negatives."]
   },
   {
     id: "g10-maths-poly-b-q05",

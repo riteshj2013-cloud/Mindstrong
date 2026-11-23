@@ -40,7 +40,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "HCF × LCM = a × b, so LCM = 2250 ÷ 15 = 150 (for example, a = 30 and b = 75). 120 is tempting, but 15 × 120 = 1800, not 2250, and 120 is not a multiple of 75.",
-    hints: ["Use HCF × LCM = a × b."]
+    hints: ["Since a \u00d7 b is 2250, the LCM has to be a factor of 2250. So strike the choice that is a multiple of 16."]
   },
   {
     id: "g10-maths-real-a-q04",
@@ -131,7 +131,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "140 = 2 × 70 = 2 × 2 × 35 = 2² × 5 × 7, and every factor is prime. 2 × 5 × 7 is tempting if you take out only one factor of 2. But 2 × 5 × 7 = 70, not 140.",
-    hints: ["Factor completely into primes."]
+    hints: ["140 \u00f7 5 is 28, and 28 is not a multiple of 5. So 5 appears only once; cross out the choice with 5 twice."]
   },
   {
     id: "g10-maths-real-a-q11",
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "√5 ≈ 2.236 lies between 2 and 3, and 5 is not a perfect square, so √5 is irrational. 2.5 is tempting because it lies between 2 and 3, but it is a terminating decimal, so it is rational. √10 ≈ 3.16 is irrational but greater than 3.",
-    hints: ["2 = √4 and 3 = √9. Pick the option that is the root of a non-perfect square between 4 and 9."]
+    hints: ["A decimal that stops after one place can be written as a fraction, so it is rational. Cross out that choice."]
   },
   {
     id: "g10-maths-real-a-q15",
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The least number divisible by all three is their LCM: 12 = 2² × 3, 16 = 2⁴ and 20 = 2² × 5, so LCM = 2⁴ × 3 × 5 = 240. 120 is tempting, but 120 ÷ 16 = 7.5, so it is not divisible by 16.",
-    hints: ["Least common multiple of the three."]
+    hints: ["None of the three numbers has 9 as a factor, so neither does the smallest number they all go into. Drop the choice 9 divides."]
   },
   {
     id: "g10-maths-real-b-q03",
@@ -385,16 +385,16 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-maths-real-b-q06",
-    prompt: "The decimal 0.6\u0305 (0.666\u2026) equals \u2014",
+    prompt: "0.4\u0305 + 0.2\u0305 (that is, 0.444\u2026 + 0.222\u2026) as a fraction in lowest terms is \u2014",
     options: [
-      { id: "a", text: "6/10" },
-      { id: "b", text: "1/6" },
-      { id: "c", text: "6/99" },
+      { id: "a", text: "3/5" },
+      { id: "b", text: "1/3" },
+      { id: "c", text: "2/33" },
       { id: "d", text: "2/3" }
     ],
     answerId: "d",
-    explanation: "Let x = 0.666…; then 10x − x = 6.666… − 0.666… = 6, so 9x = 6 and x = 6/9 = 2/3. 6/10 is tempting, but that is 0.6 exactly, which stops instead of repeating.",
-    hints: ["Let x = 0.666…. Then 10x = 6.666…. Subtract, solve for x, then simplify."]
+    explanation: "A single repeating digit d is d/9, so 0.444\u2026 = 4/9 and 0.222\u2026 = 2/9. Their sum is 4/9 + 2/9 = 6/9 = 2/3. 3/5 is tempting if you add 0.4 + 0.2 = 0.6 and treat the decimals as if they stopped.",
+    hints: ["A sum of two never-ending decimals still never ends here. Strike the choice whose decimal stops."]
   },
   {
     id: "g10-maths-real-b-q07",
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "(√5 − √2)(√5 + √2) = (√5)² − (√2)² = 5 − 2 = 3. 7 is tempting, but it adds the squares instead of subtracting them; √3 keeps a root, but squaring removes the roots.",
-    hints: ["Use (a−b)(a+b) = a² − b²."]
+    hints: ["Multiplying out the brackets gives two cross terms that cancel each other. So the choice equal to a single cross term is wrong."]
   },
   {
     id: "g10-maths-real-b-q11",
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "HCF × LCM = a × b, so 108b = 18 × 756 = 13,608 and b = 126. Check: HCF(108, 126) = 18. 162 is tempting, but HCF(108, 162) = 54, not 18.",
-    hints: ["Use a×b = HCF×LCM and solve for b."]
+    hints: ["Since the HCF is 18, b itself is a multiple of 18. Rule out the value that is not."]
   },
   {
     id: "g10-maths-real-b-q15",
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "5/√2 = 5√2/2 ≈ 5 × 1.41 ÷ 2 ≈ 3.53, so 3.55 is the closest option. 7.05 is tempting, but that is 5 × 1.41: you must divide by √2, not multiply.",
-    hints: ["Rationalise or compute 5×1.41/2."]
+    hints: ["Dividing 5 by a number bigger than 1 gives less than 5. So any choice above 5 is wrong."]
   },
   {
     id: "g10-maths-real-b-q19",

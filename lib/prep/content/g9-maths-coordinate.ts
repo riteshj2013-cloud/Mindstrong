@@ -28,7 +28,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Abscissa means the x-coordinate, which is 3. 5 is tempting if you set x = 0 (the y-axis) instead of y = 0.",
-    hints: ["Abscissa = x; ordinate = y."]
+    hints: ["The abscissa is read straight off the pair, not worked out. Cross out the choice you get by subtracting one number from the other."]
   },
   {
     id: "g9-maths-coord-a-q03",
@@ -80,7 +80,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Both coordinates negative → quadrant III. (2, 3) is tempting if you flip the sign of only one coordinate when placing the point.",
-    hints: ["III is (−, −)."]
+    hints: ["Only in quadrant I are both coordinates positive. This question asks about another quadrant, so drop the point with no minus sign."]
   },
   {
     id: "g9-maths-coord-a-q07",
@@ -119,7 +119,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Reflection in the x-axis flips the sign of y. (−3, 4) is tempting if you set x = 0 (the y-axis) instead of y = 0.",
-    hints: ["x-axis reflection: (x, y) → (x, −y)."]
+    hints: ["A mirror in an axis never makes the two coordinates trade places. Cross out the point made by swapping them."]
   },
   {
     id: "g9-maths-coord-a-q10",
@@ -158,7 +158,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Left on the x-axis means negative x: (−3, 0). (3, 0) is tempting if you name a quadrant or an axis instead of the single point (0, 0) where the axes meet.",
-    hints: ["Left → negative x; on axis → y = 0."]
+    hints: ["Walking left along the x-axis never lifts you upwards. So the choice raised above the origin fails."]
   },
   {
     id: "g9-maths-coord-a-q13",
@@ -197,7 +197,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "x = 0 and y < 0 means on the negative y-axis (not inside a quadrant). in quadrant III is tempting if you move the point one unit too far along an axis.",
-    hints: ["Axis points are not in any quadrant."]
+    hints: ["The second number in this pair is not 0, so the point is not on the x-axis. Rule out that option."]
   },
   {
     id: "g9-maths-coord-a-q16",
@@ -223,7 +223,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "y-axis reflection flips the sign of x. (5, 2) is tempting if you set y = 0 (the x-axis) instead of x = 0.",
-    hints: ["(x, y) → (−x, y) across the y-axis."]
+    hints: ["One mirror changes the sign of just one coordinate. The choice with both signs changed is out."]
   },
   {
     id: "g9-maths-coord-a-q18",
@@ -314,7 +314,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "A vertical line has constant x-coordinate: x = −2. y = −2 is tempting if you use the y-value from the point (−2, 5) as if the line were horizontal; a vertical line keeps x fixed, so the equation is x = −2.",
-    hints: ["Vertical → fixed x."]
+    hints: ["The given point lies to the left of the y-axis. A vertical line through it can't be on the right, so cross out that choice."]
   }
 ];
 
@@ -330,7 +330,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "It is the coordinate (or Cartesian) plane. number line only is tempting if you swap x and y or misread a quadrant; the correct result is coordinate plane.",
-    hints: ["Another name for the xy-plane."]
+    hints: ["This plane is made from two axes that cross. A name that speaks of a single axis by itself is wrong, so cross it out."]
   },
   {
     id: "g9-maths-coord-b-q02",
@@ -369,7 +369,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Distance is absolute: 5 units along the x-axis. 0 is tempting if you name a quadrant or an axis instead of the single point (0, 0) where the axes meet.",
-    hints: ["Distance is never negative."]
+    hints: ["Only the origin itself is no distance from the origin. This point is not the origin, so cross out the choice that says no distance."]
   },
   {
     id: "g9-maths-coord-b-q05",
@@ -512,7 +512,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Horizontal lines have constant y. x = 5 is tempting if you write a vertical line (constant x) instead of a horizontal line (constant y).",
-    hints: ["Horizontal → fixed y."]
+    hints: ["Below the x-axis is where the given point sits, so no flat line through it can sit higher up. Strike the choice that would."]
   },
   {
     id: "g9-maths-coord-b-q16",
@@ -525,7 +525,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "√[(2−(−1))² + (3−(−1))²] = √(9+16) = 5. 7 is tempting if you square only one difference in the distance formula.",
-    hints: ["Apply the distance formula."]
+    hints: ["The across gap and the up gap here are not equal. So a choice worked out as if both gaps matched is wrong."]
   },
   {
     id: "g9-maths-coord-b-q17",
@@ -538,7 +538,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Flip y: (0, −4). (4, 0) is tempting if you set x = 0 (the y-axis) instead of y = 0.",
-    hints: ["x-axis reflection changes y’s sign."]
+    hints: ["A point off the mirror line always moves when reflected. This one is off the x-axis, so the unchanged point is wrong."]
   },
   {
     id: "g9-maths-coord-b-q18",
@@ -603,7 +603,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "x = 0, y > 0 → positive y-axis. on the positive x-axis is tempting if you set x = 0 (the y-axis) instead of y = 0.",
-    hints: ["Zero abscissa means on the y-axis."]
+    hints: ["Left of the y-axis needs an abscissa below zero. Here it is exactly zero, so the top-left quadrant is out."]
   },
   {
     id: "g9-maths-coord-b-q23",
@@ -616,7 +616,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "y-axis symmetry flips x only: (2,3) ↔ (−2,3). (2, 3) and (2, −3) is tempting if you set y = 0 (the x-axis) instead of x = 0.",
-    hints: ["Same y, opposite x."]
+    hints: ["Swapping the two numbers of a point mirrors it in the slanted line y = x, not in an axis. That pair is out."]
   },
   {
     id: "g9-maths-coord-b-q24",
@@ -629,7 +629,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Origin is where both axes meet and belongs to both. in quadrant I only is tempting if you name a quadrant or an axis instead of the single point (0, 0) where the axes meet.",
-    hints: ["Definition of the origin."]
+    hints: ["The origin has its own pair of coordinates and can be marked like any other spot. Cross out the choice that denies this."]
   }
 ];
 
