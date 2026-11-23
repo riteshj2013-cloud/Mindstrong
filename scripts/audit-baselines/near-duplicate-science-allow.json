@@ -8,8 +8,7 @@
   "g8-sci-metals-a-q01|g8-sci-metals-b-q01",
   "g9-sci-motion-a-q09|g9-sci-motion-a-q10",
   "g1-sci-animals-b-q06|g2-sci-animals-b-q02",
-  "g7-sci-acids-b-q11|g8-sci-chemfx-a-q02",
-  "g7-sci-acids-a-q23|g7-sci-acids-b-q06"
+  "g7-sci-acids-b-q11|g8-sci-chemfx-a-q02"
  ],
  "reasons": {
   "g2-sci-animals-a-q07|g2-sci-animals-b-q07": "insects have 6 legs vs spiders have 8: a deliberate contrast, different answers",
@@ -19,7 +18,6 @@
   "g8-sci-metals-a-q01|g8-sci-metals-b-q01": "malleability (sheets) vs ductility (wires)",
   "g9-sci-motion-a-q09|g9-sci-motion-a-q10": "slope of distance-time (speed) vs velocity-time (acceleration)",
   "g1-sci-animals-b-q06|g2-sci-animals-b-q02": "tiger has stripes (G1) vs tiger is a carnivore (G2)",
-  "g7-sci-acids-b-q11|g8-sci-chemfx-a-q02": "distilled water is neutral (G7) vs a poor conductor (G8)",
-  "g7-sci-acids-a-q23|g7-sci-acids-b-q06": "same four-tube pictorial frame; phenolphthalein vs methyl orange in acid, different answers"
+  "g7-sci-acids-b-q11|g8-sci-chemfx-a-q02": "distilled water is neutral (G7) vs a poor conductor (G8)"
  }
 }

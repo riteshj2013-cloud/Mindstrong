@@ -67,7 +67,7 @@ export const G10_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-sci-light-a-q06": ["Magnification compares image height with object height. For mirrors, write it using image and object distances with signs."],
   "g10-sci-light-a-q07": ["The ray does not stop at the surface, so drop that idea."],
   "g10-sci-light-a-q09": ["Refractive index compares the speed of light in vacuum with its speed in the medium. Which ratio is that?"],
-  "g10-sci-light-a-q14": ["Total internal reflection cannot happen if there is no boundary, so drop that idea."],
+  "g10-sci-light-a-q14": ["The dashed line is the normal, at right angles to the glass–air boundary."],
   "g10-sci-light-a-q15": ["At the critical angle the refracted ray just grazes the boundary. What is the angle of refraction then?"],
   "g10-sci-light-a-q16": ["For rainbows, sunlight entering each raindrop bends, splits into colours and bounces off the back. Which two processes matter?"],
   "g10-sci-light-a-q17": ["Think of the inside of a steel spoon held close to your face. Which mirror type acts like that?"],
@@ -138,8 +138,7 @@ export const G10_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-sci-light-b-q21": ["The pencil is not a mirror, so its bent look cannot come from reflection inside the pencil."],
   "g10-sci-light-b-q23": ["Total internal reflection still needs a boundary with a rarer medium, even though the ray turns back."],
   "g10-sci-chem-a-q03": ["Zinc does not act as an acid in this beaker, so drop that idea."],
-  "g10-sci-chem-a-q06": ["Iron joining with sulfur to make one new substance is combination, so drop that reaction."],
   "g10-sci-life-b-q05": ["Alveoli do not contain chloroplasts, so drop that feature."],
-  "g10-sci-life-b-q22": ["Urine does not go from the liver to the skin, so drop that path."],
+  "g10-sci-life-b-q22": ["Trace the path of urine from where it is made to where it leaves the body."],
   "g10-sci-light-a-q02": ["A ray along the normal still reflects, so drop the idea that it is not reflected at all."],
 };
