@@ -5,7 +5,7 @@ import type { ChapterDef, PrepQuestion } from "../types";
 const SET_A: PrepQuestion[] = [
   {
     id: "g4-eng-ch03-a-q01",
-    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. Which word rhymes with \"roof\"?",
+    prompt: "Pitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. Which word rhymes with \"roof\"?",
     options: [
       { id: "a", text: "proof" },
       { id: "b", text: "rain" },
@@ -19,7 +19,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-a-q02",
-    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. Which pair of words RHYMES in the poem?",
+    prompt: "Pitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. Which pair of words RHYMES in the poem?",
     options: [
       { id: "a", text: "frogs, clouds" },
       { id: "b", text: "boat, paper" },
@@ -33,7 +33,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-a-q03",
-    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. Amma says, \"Come in, it's late!\" What does \"it's\" mean?",
+    prompt: "Pitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. Amma says, \"Come in, it's late!\" What does \"it's\" mean?",
     options: [
       { id: "a", text: "its" },
       { id: "b", text: "it is" },
@@ -47,7 +47,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-a-q04",
-    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. What is the OPPOSITE of \"late\"?",
+    prompt: "Pitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. What is the OPPOSITE of \"late\"?",
     options: [
       { id: "a", text: "dark" },
       { id: "b", text: "tired" },
@@ -61,7 +61,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-a-q05",
-    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. \"But puddles, puddles cannot wait!\" What does the child mean?",
+    prompt: "Pitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. \"But puddles, puddles cannot wait!\" What does the child mean?",
     options: [
       { id: "a", text: "The child is scared of puddles." },
       { id: "b", text: "The puddles will dry up soon." },
@@ -329,7 +329,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g4-eng-ch03-b-q01",
-    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. Which word rhymes with \"cry\"?",
+    prompt: "Pitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. Which word rhymes with \"cry\"?",
     options: [
       { id: "a", text: "croak" },
       { id: "b", text: "sky" },
@@ -343,7 +343,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-b-q02",
-    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. \"It wobbles left, it wobbles right.\" This shows that the paper boat is —",
+    prompt: "Pitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. \"It wobbles left, it wobbles right.\" This shows that the paper boat is —",
     options: [
       { id: "a", text: "sinking fast" },
       { id: "b", text: "flying in the air" },
@@ -357,7 +357,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-b-q03",
-    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. \"I float my boat of paper white.\" What is the OPPOSITE of \"white\"?",
+    prompt: "Pitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. \"I float my boat of paper white.\" What is the OPPOSITE of \"white\"?",
     options: [
       { id: "a", text: "black" },
       { id: "b", text: "grey" },
@@ -371,7 +371,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g4-eng-ch03-b-q04",
-    prompt: "The poem printed on a notebook-style card, in two verses of four lines each.\n\nPitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. In which season is the poem set?",
+    prompt: "Pitter-patter on the roof,\nThe rain is here, I have the proof!\nThe frogs say croak, the peacocks cry,\nGrey clouds are sailing in the sky.\n\nI float my boat of paper white,\nIt wobbles left, it wobbles right.\nAmma calls, \"Come in, it's late!\"\nBut puddles, puddles cannot wait!\n\nRead the poem. In which season is the poem set?",
     options: [
       { id: "a", text: "Winter" },
       { id: "b", text: "A dry, hot summer" },

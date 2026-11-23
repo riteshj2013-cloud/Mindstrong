@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The top is the highest part; the bottom is the lowest part. 'high' is close to top, not its opposite.",
-    hints: ["Put each word in 'Riya sat on the ___ step.' Keep the one that flips top.", "High points the same way as top, so it cannot be the opposite."],
+    hints: ["Picture a box of mangoes with one on top. Say where each choice would put a mango instead.", "High points the same way as top, so it cannot be the opposite."],
   },
   {
     id: "g3-eng-antonyms-a-q02",
@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Poor\" means having little money — the opposite of \"rich.\" Wealthy means nearly the same as rich.",
-    hints: ["Fill 'The raja was rich, but Ramu was ___' with each word. Keep the one that flips rich.", "Wealthy is a twin of rich, not an opposite."],
+    hints: ["The raja was rich, but his neighbour was the other way round. Try each choice on the neighbour.", "Wealthy is a twin of rich, not an opposite."],
   },
   {
     id: "g3-eng-antonyms-a-q21",
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Tiny\" means very small — the opposite of \"huge.\" Enormous, giant and vast mean very big.",
-    hints: ["Put each word in 'The lane had ___ puddles.' Three keep the puddles the same; one flips them.", "Enormous is a twin of huge, not an opposite."],
+    hints: ["Draw the monsoon lane in your mind with its huge puddles. Now redraw it for each choice.", "Enormous is a twin of huge, not an opposite."],
   },
   {
     id: "g3-eng-antonyms-b-q23",
@@ -619,7 +619,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g3-eng-antonyms-b-q24",
-    prompt: "Sana felt **proud** after a neat notebook. Which word means the opposite of \"proud\"?",
+    prompt: "Sana felt **proud** after she kept a neat notebook. Which word means the opposite of \"proud\"?",
     options: [
       { id: "a", text: "ashamed" },
       { id: "b", text: "glad" },

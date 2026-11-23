@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "The opening speech urges a vote for the one-hour limit; the rebuttal rejects \"a blanket limit\" and proposes guidelines. \"Both speakers support a rigid one-hour homework cap\" tempts readers who spot \"one hour\" in both speeches.",
-    hints: ["The word \"homework\" sits in the motion itself, so ask how each speaker feels about the limit, not whether they bring it up."]
+    hints: ["Underline the line where each speech asks the house to vote, then hold every option up against those two lines."]
   },
   {
     id: "g8-eng-ch04-b-q09",

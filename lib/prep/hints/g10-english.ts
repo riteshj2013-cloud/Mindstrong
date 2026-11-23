@@ -25,7 +25,7 @@ export const G10_ENGLISH_HINTS: Record<string, HintOverlay> = {
   "g10-eng-ch01-a-q21": ["Finish the poem's last sentence."],
   "g10-eng-ch01-a-q22": ["Underline the first verb of each sentence and name what kind of sentence it makes. Then weigh how the birds image shapes the poem's tone."],
   "g10-eng-ch01-a-q23": ["A theme is a general idea, not one event. Compare the opening sentence with the last two, then test which option both parts support."],
-  "g10-eng-ch01-a-q24": ["Unite setting and the marginal note."],
+  "g10-eng-ch01-a-q24": ["Compare the hush inside the old library with the scooters and horns outside, then test which option the whole passage supports."],
   "g10-eng-ch01-b-q01": ["Setting work = place the reader."],
   "g10-eng-ch01-b-q02": ["Picture a tired porter at a railway station leaning on a wall. Ask what that action, given to a cloud, says about its size."],
   "g10-eng-ch01-b-q03": ["Look closely at 'Meera stood with her class': notice how the storyteller refers to her, and whether the narrator ever joins the scene."],

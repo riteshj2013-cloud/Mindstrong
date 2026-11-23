@@ -14,7 +14,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Rush and hurry both mean to move fast because time is short. 'wait' is the opposite: staying where you are.",
-    hints: ["Put each word in 'We ___ to catch the school bus.' Keep the one that matches rush.", "When you rush to school, you do not wait, so wait is not a twin of rush."]
+    hints: ["Pretend the school bus is at the gate. Act out rush, then act out each choice.", "When you rush to school, you do not wait, so wait is not a twin of rush."]
   },
   {
     id: "g3-eng-synonyms-a-q02",
@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Shut and close both mean to stop something being open. 'open' is the opposite.",
-    hints: ["Fill 'Please ___ the window before the rain' with each word. Keep the one that matches shut.", "You can lift a lid, but that does not shut it, so lift is not a twin."]
+    hints: ["Show shut with a door at home, then show each choice with the same door.", "You can lift a lid, but that does not shut it, so lift is not a twin."]
   },
   {
     id: "g3-eng-synonyms-a-q05",
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Tiny\" means very small. \"Huge\" means very big — the opposite idea.",
-    hints: ["Say 'a small box', then 'a ___ box' with each choice; keep the one with the same picture.", "Huge is the opposite size."]
+    hints: ["Hold your hands apart to show a small box of crayons. Now try each choice with your hands.", "Huge is the opposite size."]
   },
   {
     id: "g3-eng-synonyms-a-q07",
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A \"present\" is another word for a \"gift\" — something you give to someone.",
-    hints: ["Read 'Amma packed a ___ for Ananya' with each word. Keep the one that matches gift.", "A problem is not a gift."]
+    hints: ["Amma packed a gift for Ananya's birthday. Tell the story again using each choice in its place.", "A problem is not a gift."]
   },
   {
     id: "g3-eng-synonyms-a-q10",
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Here \"hard\" means not easy to do, so \"difficult\" is the synonym. \"Easy\" and \"simple\" are opposites.",
-    hints: ["Say 'Meera found the sum ___' with each word. Keep the one that matches hard here.", "Soft is about touch, not about a sum."]
+    hints: ["Meera found the sum hard. Imagine her face as she works, then test each choice on her sum.", "Soft is about touch, not about a sum."]
   },
   {
     id: "g3-eng-synonyms-a-q14",
@@ -196,7 +196,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Afraid\" means nearly the same as \"scared.\" Brave and calm are different feelings.",
-    hints: ["Try each word in 'The puppy looked ___ in the storm.' Keep the one that matches scared.", "Brave is closer to the opposite."]
+    hints: ["Listen to the storm with the puppy: thunder, rain, wind. Tell how the puppy looked with each choice.", "Brave is closer to the opposite."]
   },
   {
     id: "g3-eng-synonyms-a-q16",
@@ -215,13 +215,13 @@ const SET_A: PrepQuestion[] = [
     id: "g3-eng-synonyms-a-q17",
     prompt: "After Holi, Arjun's shirt was **dirty**. Which word means the same as \"dirty\"?",
     options: [
-      { id: "a", text: "messy" },
+      { id: "a", text: "filthy" },
       { id: "b", text: "clean" },
       { id: "c", text: "neat" },
       { id: "d", text: "fresh" }
     ],
     answerId: "a",
-    explanation: "\"Messy\" can mean not clean, like \"dirty\" after colour play. Clean and neat are opposites.",
+    explanation: "'Filthy' means very dirty, just like Arjun's shirt covered in Holi colours. 'Clean' is the opposite: a washed shirt with no colour on it.",
     hints: ["The clue is Holi: picture Arjun's shirt and test each choice on it.", "Clean is the opposite of dirty."]
   },
   {
@@ -248,7 +248,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Assist\" means to help someone. Ignore and tease do not mean help.",
-    hints: ["Put each word in 'Please ___ your little brother with his bag.' Keep the one that matches help.", "Ignore means you do not help."]
+    hints: ["Your little brother's bag is heavy. Act out each choice with him and his bag.", "Ignore means you do not help."]
   },
   {
     id: "g3-eng-synonyms-a-q20",
@@ -274,7 +274,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Leap\" means to spring up, like \"jump.\" Crawl is a different way of moving.",
-    hints: ["Read 'The frog can ___ high' with each word. Keep the word that matches jump.", "Crawl stays close to the ground."]
+    hints: ["Hop like the frog in the sentence. Then move the way each choice says.", "Crawl stays close to the ground."]
   },
   {
     id: "g3-eng-synonyms-a-q22",
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Weighty\" means having a lot of weight, like \"heavy.\" \"Light\" is the opposite.",
-    hints: ["Fill 'The school bag felt ___' with each word. Keep the one that matches heavy.", "An empty school bag is easy to carry, so empty is not the same as heavy."]
+    hints: ["Lift the school bag in your mind. Feel it again with each choice, one by one.", "An empty school bag is easy to carry, so empty is not the same as heavy."]
   },
   {
     id: "g3-eng-synonyms-b-q03",
@@ -407,7 +407,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "\"Wealthy\" means having a lot of money, like \"rich.\" Poor and needy are opposites.",
-    hints: ["Swap each word for rich in 'The rich merchant owned ten shops.' Keep whichever tells the same story.", "Poor is the opposite of rich, so poor is out."]
+    hints: ["A rich merchant owns ten shops in a Jaipur bazaar. Write a line about him with each choice.", "Poor is the opposite of rich, so poor is out."]
   },
   {
     id: "g3-eng-synonyms-b-q08",
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Shiny\" means giving off light, like \"bright.\" Dim, dark and dull are duller.",
-    hints: ["Try each word in 'The moon looked ___ in the night sky.' Keep the one that matches bright.", "Dark is closer to the opposite."]
+    hints: ["Look up at the night sky. Paint the moon with each choice, one at a time.", "Dark is closer to the opposite."]
   },
   {
     id: "g3-eng-synonyms-b-q09",
@@ -433,7 +433,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Right\" can mean correct — free from mistakes. Wrong and false are opposites.",
-    hints: ["Put each word in 'Riya gave the ___ answer.' Keep the one that matches correct.", "Broken is for toys and things, not for answers, so broken is not a twin of correct."]
+    hints: ["Write a sentence about your maths answer using correct. Then swap in each choice and read it.", "Broken is for toys and things, not for answers, so broken is not a twin of correct."]
   },
   {
     id: "g3-eng-synonyms-b-q10",
@@ -446,7 +446,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Purchase\" means to buy something by paying money. \"Sell\" is the opposite action.",
-    hints: ["Read 'Diya will ___ a pencil box for ₹50' with each word. Keep the one matching buy.", "Sell means you give it away for money."]
+    hints: ["Diya has ₹50 and wants the pencil box. Think what happens to the box with each choice.", "Sell means you give it away for money."]
   },
   {
     id: "g3-eng-synonyms-b-q11",
@@ -472,7 +472,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Weary\" means needing rest, like \"tired.\" Energetic and lively are opposite feelings.",
-    hints: ["Fill 'Rohan felt ___ after cricket in the gali' with each word. Keep the one that matches tired.", "Energetic is the opposite feeling."]
+    hints: ["Cricket in the gali is lots of running. Picture Rohan at home afterwards, trying each choice on him.", "Energetic is the opposite feeling."]
   },
   {
     id: "g3-eng-synonyms-b-q13",
@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Weep\" means to cry with tears. Laugh, smile and cheer are happier actions.",
-    hints: ["Try each word in 'The baby began to ___.' Keep the word that matches cry.", "Laugh is not a twin of cry."]
+    hints: ["Picture the baby in the sentence. Make the face each choice describes, one after another.", "Laugh is not a twin of cry."]
   },
   {
     id: "g3-eng-synonyms-b-q15",
@@ -531,12 +531,12 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which word means almost the SAME as \"hot\"?",
     options: [
       { id: "a", text: "freezing" },
-      { id: "b", text: "warm" },
+      { id: "b", text: "boiling" },
       { id: "c", text: "icy" },
       { id: "d", text: "chilly" }
     ],
     answerId: "b",
-    explanation: "\"Warm\" is close in meaning to \"hot\" (both are heated). Freezing, icy and chilly are cold.",
+    explanation: "'Boiling' means very hot, like chai fresh off the stove. 'Chilly', 'icy' and 'freezing' all describe cold things, the other end from hot.",
     hints: ["Say 'The chai is hot' and then 'The chai is ___' with each choice.", "Icy is the opposite kind of feeling."]
   },
   {
@@ -550,7 +550,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Gradually\" can mean little by little, not fast — like \"slowly.\" Quickly and rapidly are opposites.",
-    hints: ["Put each word in 'The auto moved ___ in the traffic.' Keep the one that matches slowly.", "Quickly is the opposite of slowly."]
+    hints: ["Traffic is the clue: think how an auto moves on a packed road, then test each choice.", "Quickly is the opposite of slowly."]
   },
   {
     id: "g3-eng-synonyms-b-q19",
@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "\"Amusing\" means it makes you smile or laugh, like \"funny.\" Boring and sad are different.",
-    hints: ["Read 'The story was ___' with each word. Keep the word that matches funny.", "Boring is not a twin of funny."]
+    hints: ["Choose a story from your favourite book. Describe it out loud with each choice, then with funny.", "Boring is not a twin of funny."]
   },
   {
     id: "g3-eng-synonyms-b-q21",
@@ -589,7 +589,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Damp\" means a little wet. Dry and parched are opposites of wet.",
-    hints: ["Try each word in 'My socks got ___ in the rain.' Keep the one that still feels wet.", "Dry is the opposite of wet."]
+    hints: ["Your socks got wet on the walk home in the rain. Check each choice against how they feel.", "Dry is the opposite of wet."]
   },
   {
     id: "g3-eng-synonyms-b-q22",
@@ -602,7 +602,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Enormous\" means very big, like \"huge.\" Tiny is the opposite.",
-    hints: ["Swap each word for huge in the monsoon sentence. Keep the one that does not shrink the puddles.", "Tiny puddles are the opposite of huge ones, so tiny is out."]
+    hints: ["Walk down the monsoon lane in your mind. Step around the puddles as each choice describes them.", "Tiny puddles are the opposite of huge ones, so tiny is out."]
   },
   {
     id: "g3-eng-synonyms-b-q23",
