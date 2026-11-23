@@ -56,7 +56,7 @@ export const G6_ENGLISH_HINTS: Record<string, HintOverlay> = {
   "g6-eng-gram-a-q02": ["\"puppies\" means more than one puppy.", "A plural subject with an -ing verb needs the plural helper, not is or am."],
   "g6-eng-gram-a-q03": ["Which word names a person, place or thing?"],
   "g6-eng-gram-a-q04": ["Find the describing word."],
-  "g6-eng-gram-a-q05": ["Swap apple for banana in this proverb, then check whether the same article sits comfortably before both fruit names.", "Read the proverb with the gap left empty; it sounds cut short, so the gap before apple must be filled."],
+  "g6-eng-gram-a-q05": ["Swap apple for banana in this proverb, then check whether the same article sits comfortably before both fruit names.", "Read the proverb with the gap left empty; it sounds cut short, so some article is needed."],
   "g6-eng-gram-a-q06": ["Unique ranges usually need the."],
   "g6-eng-gram-a-q07": ["Irregular past of write."],
   "g6-eng-gram-a-q08": ["Would you say I are partners or me are partners?"],

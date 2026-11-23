@@ -261,7 +261,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "\"Poor\" means having little money — the opposite of \"rich.\" Wealthy means nearly the same as rich.",
-    hints: ["A rich raja lives next to his neighbour. Let each choice describe the neighbour, one by one.", "Wealthy is a twin of rich, not an opposite."],
+    hints: ["The raja was rich, but his neighbour was the other way round. Try each choice on the neighbour.", "Wealthy is a twin of rich, not an opposite."],
   },
   {
     id: "g3-eng-antonyms-a-q21",

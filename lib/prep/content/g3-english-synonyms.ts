@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "\"Speak\" means to use words, like \"talk.\" Run, draw and jump are different actions.",
-    hints: ["The class must stay calm. Picture yourself doing each choice softly at your desk.", "Run is a different action."]
+    hints: ["Say 'Please ___ softly in the class' with each word in the gap. Keep the one matching talk.", "Run is a different action."]
   },
   {
     id: "g3-eng-synonyms-b-q07",
