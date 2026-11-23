@@ -59,7 +59,7 @@ export const G9_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g9-sci-motion-a-q08": ["Average speed uses total path. Average velocity is a vector, so which quantity with direction goes on top?"],
   "g9-sci-motion-a-q14": ["Start from acceleration = change in velocity / time, a = (v - u)/t, and rearrange to make v the subject."],
   "g9-sci-motion-a-q15": ["The three equations of motion are derived for one special kind of motion. What must stay the same for them to hold?"],
-  "g9-sci-motion-a-q17": ["Negative acceleration means acceleration points against the velocity. Does that make the body faster or slower?"],
+  "g9-sci-motion-a-q17": ["Speed tells only how fast a body moves, never its direction, so a minus sign cannot belong to speed itself."],
   "g9-sci-motion-b-q01": ["A quantity with direction can point backwards along a line. Which of these is a vector?"],
   "g9-sci-motion-b-q02": ["Average speed = total distance ÷ total time. Divide 60 km by 2 h."],
   "g9-sci-motion-b-q05": ["List the symbols in v² = u² + 2as. Which of the five motion quantities does it leave out?"],
