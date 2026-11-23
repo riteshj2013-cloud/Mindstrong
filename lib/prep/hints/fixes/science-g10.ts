@@ -136,5 +136,5 @@ export const G10_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-sci-light-b-q19": ["Aperture is not a length measured along the axis, so it is not always equal to the focal length."],
   "g10-sci-light-b-q20": ["Concave and convex mirrors do not share one sign for focal length, so the mirror formula cannot take f positive for every mirror."],
   "g10-sci-light-b-q21": ["The pencil is not a mirror, so its bent look cannot come from reflection inside the pencil."],
-  "g10-sci-light-b-q23": ["Total internal reflection still needs a boundary with a rarer medium, even though the ray turns back."],
+  "g10-sci-light-b-q23": ["Follow the light in each option and note the medium it starts in and the medium it ends in."],
 };
