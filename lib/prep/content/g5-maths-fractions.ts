@@ -146,13 +146,13 @@ const SET_A: PrepQuestion[] = [
     id: "g5-maths-frac-a-q11",
     prompt: "What is 12/18 in its simplest form?",
     options: [
-      { id: "a", text: "6/9" },
-      { id: "b", text: "4/6" },
+      { id: "a", text: "4/9" },
+      { id: "b", text: "2/18" },
       { id: "c", text: "2/3" },
       { id: "d", text: "3/2" }
     ],
     answerId: "c",
-    explanation: "Dividing both 12 and 18 by their biggest common factor, 6, gives 2/3, while 6/9 and 4/6 are only partly simplified. 6/9 is tempting if you cancel a factor that appears in only one of the numerator or denominator; cancelling a shared factor gives 2/3.",
+    explanation: "The HCF of 12 and 18 is 6. 12 ÷ 6 = 2 and 18 ÷ 6 = 3, so 12/18 = 2/3. 4/9 is tempting if you divide the top by 3 but the bottom by 2. The top and bottom must be divided by the same number.",
     hints: ["Find the HCF of 12 and 18, then divide the top and bottom by it."]
   },
   {
@@ -304,12 +304,12 @@ const SET_A: PrepQuestion[] = [
     prompt: "Meera ate 2/9 of a cake and her brother ate 4/9 of it. What fraction of the cake is left, in simplest form?",
     options: [
       { id: "a", text: "2/3" },
-      { id: "b", text: "6/9" },
+      { id: "b", text: "2/9" },
       { id: "c", text: "1/3" },
       { id: "d", text: "3/18" }
     ],
     answerId: "c",
-    explanation: "Together they ate 6/9, so 9/9 − 6/9 = 3/9 is left, which simplifies to 1/3, while 2/3 is the part eaten. 2/3 is tempting if you compare cross-products the wrong way round; the correct fraction relation gives 1/3.",
+    explanation: "Together they ate 2/9 + 4/9 = 6/9, so 9/9 − 6/9 = 3/9 is left, which simplifies to 1/3. 2/3 is tempting if you give the part they ate, 6/9 = 2/3, instead of the part left.",
     hints: ["Add what Meera and her brother ate, take it from 9/9, then simplify."]
   },
   {
@@ -510,11 +510,11 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "1/2" },
       { id: "b", text: "4/16" },
-      { id: "c", text: "1/4" },
+      { id: "c", text: "4" },
       { id: "d", text: "10/8" }
     ],
     answerId: "a",
-    explanation: "7/8 − 3/8 = 4/8, which simplifies to 1/2 when we divide the top and bottom by 4. 4/16 is tempting if you multiply top and bottom by different numbers when making an equivalent fraction; the same factor gives 1/2.",
+    explanation: "7/8 − 3/8 = 4/8, and dividing the top and bottom by 4 gives 1/2. 4/16 is tempting if you add the bottoms, 8 + 8 = 16, as well as subtracting the tops.",
     hints: ["Same bottoms: subtract the tops 7 − 3, keep eighths, then simplify."]
   },
   {
@@ -587,13 +587,13 @@ const SET_B: PrepQuestion[] = [
     id: "g5-maths-frac-b-q20",
     prompt: "Look at the six balls of the over. What fraction of the over has been bowled, in **simplest form**?",
     options: [
-      { id: "a", text: "3/6" },
+      { id: "a", text: "3/3" },
       { id: "b", text: "1/2" },
       { id: "c", text: "2/3" },
       { id: "d", text: "6/3" }
     ],
     answerId: "b",
-    explanation: "3 out of 6 balls are done, so 3/6. Dividing top and bottom by 3 gives 1/2. 3/6 is tempting if you cancel a factor that appears in only one of the numerator or denominator; cancelling a shared factor gives 1/2.",
+    explanation: "3 of the 6 balls have been bowled, so 3/6 of the over is done. Dividing the top and bottom by 3 gives 1/2. 3/3 is tempting if you compare the balls bowled with the balls still to come, 3 and 3, instead of with all 6.",
     hints: ["Count the balls already bowled out of the six, write that as a fraction, then simplify it."],
     figure: {"type": "svg", "markup": "<svg viewBox=\"0 0 420 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, Helvetica, sans-serif\" role=\"img\" aria-label=\"Six balls with first three shaded\">\n  <rect class=\"bg\" x=\"0\" y=\"0\" width=\"420\" height=\"170\" fill=\"#fff\"/>\n  <text class=\"title\" x=\"240\" y=\"22\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">Balls in an over</text>\n  <circle class=\"part marble\" cx=\"60\" cy=\"90\" r=\"24\" fill=\"#64b5f6\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"60\" y=\"96\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">1</text>\n  <circle class=\"part marble\" cx=\"120\" cy=\"90\" r=\"24\" fill=\"#64b5f6\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"120\" y=\"96\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">2</text>\n  <circle class=\"part marble\" cx=\"180\" cy=\"90\" r=\"24\" fill=\"#64b5f6\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"180\" y=\"96\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">3</text>\n  <circle class=\"part marble\" cx=\"240\" cy=\"90\" r=\"24\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"240\" y=\"96\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">4</text>\n  <circle class=\"part marble\" cx=\"300\" cy=\"90\" r=\"24\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"300\" y=\"96\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">5</text>\n  <circle class=\"part marble\" cx=\"360\" cy=\"90\" r=\"24\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text class=\"label\" x=\"360\" y=\"96\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#333\">6</text>\n  <text class=\"label small\" x=\"240\" y=\"140\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">Blue balls have already been bowled.</text>\n  <text class=\"label small\" x=\"240\" y=\"156\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#666\">An over has 6 balls in all.</text>\n</svg>", "alt": "Six cricket balls in a row numbered 1 to 6. The first three are shaded blue."}
   },
@@ -629,11 +629,11 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "1/5" },
       { id: "b", text: "4/5" },
-      { id: "c", text: "8/10" },
+      { id: "c", text: "8/20" },
       { id: "d", text: "1/2" }
     ],
     answerId: "a",
-    explanation: "She gave away 8/10, so 10/10 − 8/10 = 2/10 is left, which simplifies to 1/5. 4/5 is tempting if you rewrite with a larger common factor than the numbers actually share; using the true HCF gives 1/5.",
+    explanation: "She gave away 3/10 + 5/10 = 8/10, so 10/10 − 8/10 = 2/10 is left, which simplifies to 1/5. 4/5 is tempting if you give the part she gave away, 8/10 = 4/5, instead of the part left.",
     hints: ["Add the parts given to the neighbour and sister, take them from 10/10, then simplify."]
   },
   {

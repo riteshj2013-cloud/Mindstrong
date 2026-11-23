@@ -414,12 +414,12 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which sum equals 8?",
     options: [
       { id: "a", text: "3 + 3" },
-      { id: "b", text: "2 + 4" },
+      { id: "b", text: "5 + 4" },
       { id: "c", text: "5 + 2" },
       { id: "d", text: "4 + 4" }
     ],
     answerId: "d",
-    explanation: "4 + 4 = 8, so that sum is the one. 5 + 2 is tempting because 5 is a big start, but 5 + 2 = 7, one short of 8.",
+    explanation: "4 + 4 = 8. 5 + 4 is tempting if you count on from 5 and say 5 as the first count: 5, 6, 7, 8. Counting on starts at the next number, so 5 + 4 = 9.",
     hints: ["Work out every sum, then pick the one that makes 8."]
   }
 ];

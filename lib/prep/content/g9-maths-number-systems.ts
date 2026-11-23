@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "8/5" }
     ],
     answerId: "c",
-    explanation: "√(16/25) = √16 / √25 = 4/5. 16/25 is tempting if you stop one simplification step early on this number-system stem.",
+    explanation: "√(16/25) = √16 / √25 = 4/5. 16/25 is tempting if you forget to take the square root and copy the fraction under the root sign.",
     hints: ["Take the square root of 16 and of 25 separately."]
   },
   {
@@ -112,13 +112,13 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-numbers-a-q09",
     prompt: "0.¯6 (0.666…) equals…",
     options: [
-      { id: "a", text: "6/9" },
-      { id: "b", text: "2/3" },
-      { id: "c", text: "both 6/9 and 2/3" },
-      { id: "d", text: "6/10" }
+      { id: "a", text: "2/3" },
+      { id: "b", text: "6/10" },
+      { id: "c", text: "6/99" },
+      { id: "d", text: "66/100" }
     ],
-    answerId: "c",
-    explanation: "0.¯6 = 6/9 = 2/3, so both equivalent fraction forms are correct. 6/9 is tempting if you leave the fraction unsimplified and think it is a different value from 2/3.",
+    answerId: "a",
+    explanation: "Let x = 0.666…; then 10x − x = 6, so 9x = 6 and x = 6/9 = 2/3. 6/10 is tempting if you read 0.666… as 0.6 and stop after one decimal place.",
     hints: ["Let x = 0.666…, so 10x − x = 6. Then simplify the fraction you get."]
   },
   {
@@ -268,14 +268,14 @@ const SET_A: PrepQuestion[] = [
     id: "g9-maths-numbers-a-q21",
     prompt: "Which expression equals (3²)³?",
     options: [
-      { id: "a", text: "both 3⁶ and 9³" },
-      { id: "b", text: "3⁵" },
+      { id: "a", text: "3⁵" },
+      { id: "b", text: "6³" },
       { id: "c", text: "3⁶" },
-      { id: "d", text: "9³" }
+      { id: "d", text: "3⁸" }
     ],
-    answerId: "a",
-    explanation: "(3²)³ = 3⁶ because the powers multiply (2 × 3 = 6), and 9³ = (3²)³ = 3⁶ too, so both 3⁶ and 9³ are equal to it. 3⁵ may look right if you add the powers (2 + 3) instead of multiplying them. 3⁵ is tempting if you simplify only the numerator and leave the denominator.",
-    hints: ["Use the rule (aᵐ)ⁿ = aᵐⁿ on (3²)³. Then check whether 3² can be written as a single number."]
+    answerId: "c",
+    explanation: "(3²)³ = 3² × 3² × 3² = 3⁶, because the powers multiply: 2 × 3 = 6. 3⁵ is tempting if you add the powers, 2 + 3 = 5, instead of multiplying them.",
+    hints: ["Adding indices belongs to multiplying two powers of one base, not to raising a power to a power. Cross out the choice made by adding."]
   },
   {
     id: "g9-maths-numbers-a-q22",
@@ -355,7 +355,7 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "√7 / 8" }
     ],
     answerId: "a",
-    explanation: "√49/√64 = 7/8. 49/64 is tempting if you stop one simplification step early on this number-system stem.",
+    explanation: "√(49/64) = √49 / √64 = 7/8. 49/64 is tempting if you forget to take the square root and copy the fraction under the root sign.",
     hints: ["Take the square root of 49 and of 64 separately."]
   },
   {
@@ -531,13 +531,13 @@ const SET_B: PrepQuestion[] = [
     id: "g9-maths-numbers-b-q17",
     prompt: "Simplify (√18 / √8).",
     options: [
-      { id: "a", text: "3/2" },
-      { id: "b", text: "√(9/4) = 3/2" },
-      { id: "c", text: "both 3/2 and √(9/4)" },
+      { id: "a", text: "9/4" },
+      { id: "b", text: "3/2" },
+      { id: "c", text: "2/3" },
       { id: "d", text: "√2" }
     ],
-    answerId: "c",
-    explanation: "√18/√8 = √(18/8) = √(9/4) = 3/2. 3/2 is tempting if you stop one simplification step early on this number-system stem.",
+    answerId: "b",
+    explanation: "√18/√8 = √(18/8) = √(9/4) = 3/2. 9/4 is tempting if you forget to take the square root of 9/4.",
     hints: ["Combine under one root or simplify each surd first."]
   },
   {

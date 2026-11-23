@@ -113,13 +113,13 @@ const SET_A: PrepQuestion[] = [
     prompt: "What is 25% as a fraction in simplest form?",
     options: [
       { id: "a", text: "1/4" },
-      { id: "b", text: "25/100" },
+      { id: "b", text: "2/5" },
       { id: "c", text: "1/25" },
       { id: "d", text: "4/1" }
     ],
     answerId: "a",
-    explanation: "25% = 25/100 = 1/4 after dividing top and bottom by 25. 25/100 is tempting if you forget that percent means hundredths; the correct amount is 1/4.",
-    hints: ["25% means 25 out of 100. Write 25/100 and divide the top and bottom by 25."]
+    explanation: "25% means 25 out of 100, so 25% = 25/100. Dividing the top and bottom by 25 gives 1/4. 1/25 is tempting if you put 1 over the 25 instead of putting 25 over 100.",
+    hints: ["25% is less than one whole, so a choice worth more than 1 cannot be it. Cross that one out first."]
   },
   {
     id: "g5-maths-dec-a-q10",

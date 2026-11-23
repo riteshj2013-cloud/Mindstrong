@@ -347,15 +347,15 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g9-maths-poly-b-q03",
-    prompt: "p(x) = x² − 3x − 4. A zero of p is…",
+    prompt: "p(x) = x² − 3x − 4. The zeros of p are…",
     options: [
-      { id: "a", text: "4" },
-      { id: "b", text: "−1" },
-      { id: "c", text: "both 4 and −1" },
-      { id: "d", text: "3" }
+      { id: "a", text: "−4 and 1" },
+      { id: "b", text: "4 and 1" },
+      { id: "c", text: "2 and −2" },
+      { id: "d", text: "4 and −1" }
     ],
-    answerId: "c",
-    explanation: "(x − 4)(x + 1) = x² − 3x − 4, so zeros are 4 and −1. 4 is tempting if you list only the positive root and skip the negative one.",
+    answerId: "d",
+    explanation: "(x − 4)(x + 1) = x² − 3x − 4. So p(x) = 0 when x − 4 = 0 or x + 1 = 0, which gives the zeros 4 and −1. −4 and 1 is tempting if you copy the signs from the brackets instead of solving each bracket = 0.",
     hints: ["Factorise x² − 3x − 4 by finding two numbers that multiply to −4 and add to −3."]
   },
   {

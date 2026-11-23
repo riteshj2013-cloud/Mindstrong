@@ -22,7 +22,7 @@ export const G9_MATHS_HINTS: Record<string, HintOverlay> = {
   "g9-maths-numbers-a-q18": ["Start from 2³ = 8. How many more times must you multiply by 2 to reach 32?"],
   "g9-maths-numbers-a-q19": ["If the product were rational, you could solve for the irrational as a ratio."],
   "g9-maths-numbers-a-q20": ["Rewrite as a fraction under a square root."],
-  "g9-maths-numbers-a-q21": ["Use (aᵐ)ⁿ = aᵐⁿ and rewrite 9 as 3²."],
+  "g9-maths-numbers-a-q21": ["Adding indices belongs to multiplying two powers of one base, not to raising a power to a power. Cross out the choice made by adding."],
   "g9-maths-numbers-a-q22": ["Pick the non-perfect-square root."],
   "g9-maths-numbers-a-q23": ["Simplify each radical, then combine like terms."],
   "g9-maths-numbers-a-q24": ["Multiply by the conjugate 2 − √3."],

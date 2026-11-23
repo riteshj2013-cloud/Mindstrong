@@ -127,7 +127,7 @@ export const G5_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g5-maths-dec-a-q06": ["Line up the decimal points of 1.2 and 0.5, then add the tenths first, then the ones."],
   "g5-maths-dec-a-q07": ["Line up the decimal points of 3.6 and 1.4, then subtract the tenths first, then the ones."],
   "g5-maths-dec-a-q08": ["Multiplying by 10 moves every digit one place to the left, so tenths become ones. What does the decimal become?"],
-  "g5-maths-dec-a-q09": ["25% means 25 out of 100. Write 25/100 and divide the top and bottom by 25."],
+  "g5-maths-dec-a-q09": ["25% is less than one whole, so a choice worth more than 1 cannot be it. Cross that one out first."],
   "g5-maths-dec-a-q10": ["50% means 50 out of every 100, which is one half. Use that on 80."],
   "g5-maths-dec-a-q11": ["What does the 10 in 3/10 tell you about which place the 3 goes in?"],
   "g5-maths-dec-a-q12": ["Write the whole number before the point, then twenty-five hundredths as two digits after it."],

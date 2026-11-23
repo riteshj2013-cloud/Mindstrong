@@ -22,12 +22,12 @@ const SET_A: PrepQuestion[] = [
     prompt: "What is the standard form of 9/-12?",
     options: [
       { id: "a", text: "-3/4" },
-      { id: "b", text: "3/-4" },
+      { id: "b", text: "-4/3" },
       { id: "c", text: "3/4" },
-      { id: "d", text: "-9/12" }
+      { id: "d", text: "-3/12" }
     ],
     answerId: "a",
-    explanation: "Standard form needs a positive denominator and no common factor, so 9/-12 becomes -9/12 and then -3/4. 3/-4 is tempting if you move the minus to the denominator or skip cancelling the common factor; standard form (positive denominator, lowest terms) is -3/4.",
+    explanation: "Standard form needs a positive denominator and lowest terms. 9/-12 = -9/12, and dividing the top and bottom by 3 gives -3/4. 3/4 is tempting if you drop the minus sign instead of moving it to the top.",
     hints: ["Move the minus sign from −12 up to the numerator, then divide 9 and 12 by their HCF."]
   },
   {
@@ -190,13 +190,13 @@ const SET_A: PrepQuestion[] = [
     id: "g8-maths-rational-a-q15",
     prompt: "Which of these sets is NOT closed under subtraction?",
     options: [
-      { id: "a", text: "Rational numbers" },
-      { id: "b", text: "Natural numbers" },
-      { id: "c", text: "Integers" },
-      { id: "d", text: "All of these are closed" }
+      { id: "a", text: "Natural numbers" },
+      { id: "b", text: "Integers" },
+      { id: "c", text: "Rational numbers" },
+      { id: "d", text: "Even integers" }
     ],
-    answerId: "b",
-    explanation: "3 − 5 = −2 is not a natural number, so natural numbers are not closed under subtraction, while integers and rationals are. Rational numbers is tempting if you subtract the denominators or drop a minus sign; subtracting numerators over the common denominator gives Natural numbers.",
+    answerId: "a",
+    explanation: "3 − 5 = −2, and −2 is not a natural number, so natural numbers are not closed under subtraction. Integers is tempting if you think a negative answer leaves the integers, but −2 is still an integer.",
     hints: ["Try 3 − 5 in each set of numbers. Is the result still in that set?"]
   },
   {
@@ -338,11 +338,11 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "-3/5" },
       { id: "b", text: "3/5" },
-      { id: "c", text: "15/25" },
-      { id: "d", text: "3/-5" }
+      { id: "c", text: "5/3" },
+      { id: "d", text: "3/25" }
     ],
     answerId: "b",
-    explanation: "The two negatives cancel to give 15/25, which simplifies to 3/5 when divided by 5. -3/5 is tempting if you move the minus to the denominator or skip cancelling the common factor; standard form (positive denominator, lowest terms) is 3/5.",
+    explanation: "The two negatives cancel: -15/-25 = 15/25, and dividing the top and bottom by 5 gives 3/5. -3/5 is tempting if you keep one minus sign instead of cancelling both.",
     hints: ["The two negatives in −15/−25 cancel. Then divide 15 and 25 by their HCF."]
   },
   {
@@ -442,11 +442,11 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "12/28" },
       { id: "b", text: "-12/28" },
-      { id: "c", text: "-3/-7" },
+      { id: "c", text: "-12/21" },
       { id: "d", text: "-9/14" }
     ],
     answerId: "b",
-    explanation: "3/-7 = -3/7, and multiplying the top and bottom by 4 gives -12/28. 12/28 is tempting if you multiply numerator and denominator by different factors; equivalent form keeps the same value, -12/28.",
+    explanation: "3/-7 = -3/7, and multiplying the top and bottom by 4 gives -12/28. 12/28 is tempting if you multiply by 4 but lose the minus sign.",
     hints: ["Rewrite 3/−7 with the minus sign on top, then multiply top and bottom by the same number."]
   },
   {

@@ -11,7 +11,7 @@ const SET_A: PrepQuestion[] = [
       { id: "a", text: "1" },
       { id: "b", text: "4/8" },
       { id: "c", text: "3/8" },
-      { id: "d", text: "2/4" }
+      { id: "d", text: "3/16" }
     ],
     answerId: "a",
     explanation: "Like denominators: 3/4 + 1/4 = 4/4 = 1. 4/8 is tempting if you add the tops and the bottoms instead of matching denominators first; with a common denominator the sum is 1.",
@@ -21,13 +21,13 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-frac-a-q02",
     prompt: "What is 5/6 − 1/6 in its simplest form?",
     options: [
-      { id: "a", text: "4/6" },
+      { id: "a", text: "4/3" },
       { id: "b", text: "2/3" },
       { id: "c", text: "6/6" },
       { id: "d", text: "4/12" }
     ],
     answerId: "b",
-    explanation: "5/6 − 1/6 = 4/6, and dividing top and bottom by 2 gives 2/3. 4/6 may look right because it has the same value, but 4 and 6 still share the factor 2, so it is not in its simplest form. 4/6 is tempting, but it does not fit the facts in the question.",
+    explanation: "5/6 − 1/6 = 4/6, and dividing the top and bottom by 2 gives 2/3. 4/12 is tempting if you subtract the tops but add the bottoms, 6 + 6 = 12.",
     hints: ["Subtract the tops 5 − 1, keep sixths, then divide top and bottom by 2."]
   },
   {
@@ -62,11 +62,11 @@ const SET_A: PrepQuestion[] = [
     options: [
       { id: "a", text: "7/10" },
       { id: "b", text: "7/100" },
-      { id: "c", text: "70/10" },
+      { id: "c", text: "10/7" },
       { id: "d", text: "7/1" }
     ],
     answerId: "a",
-    explanation: "0.7 = 7/10, already simplest. 7/100 is tempting if you stop before dividing numerator and denominator by their greatest common factor.",
+    explanation: "The 7 in 0.7 is in the tenths place, so 0.7 = 7/10, which is already in simplest form. 7/100 is tempting if you read the 7 as 7 hundredths instead of 7 tenths.",
     hints: ["The 7 in 0.7 is in the tenths place. Write it over that place value, then check if it simplifies."]
   },
   {
@@ -177,13 +177,13 @@ const SET_A: PrepQuestion[] = [
     id: "g6-maths-frac-a-q14",
     prompt: "Write 18/24 in its simplest form.",
     options: [
-      { id: "a", text: "9/12" },
+      { id: "a", text: "6/12" },
       { id: "b", text: "3/4" },
       { id: "c", text: "2/3" },
-      { id: "d", text: "6/8" }
+      { id: "d", text: "4/3" }
     ],
     answerId: "b",
-    explanation: "Divide top and bottom by 6: 3/4. 9/12 is tempting if you stop before fully simplifying; the simplest form is 3/4.",
+    explanation: "The HCF of 18 and 24 is 6, so 18/24 = 3/4. 6/12 is tempting if you subtract 12 from the top and the bottom instead of dividing both by the same number.",
     hints: ["Find the HCF of 18 and 24, then divide the top and bottom by it."]
   },
   {
@@ -338,11 +338,11 @@ const SET_B: PrepQuestion[] = [
     options: [
       { id: "a", text: "4/8" },
       { id: "b", text: "3/8" },
-      { id: "c", text: "1/2" },
+      { id: "c", text: "7/8" },
       { id: "d", text: "4/4" }
     ],
     answerId: "b",
-    explanation: "1/4 = 2/8; 5/8 − 2/8 = 3/8. 4/8 is tempting if you subtract tops and bottoms without a common denominator.",
+    explanation: "1/4 = 2/8, so 5/8 − 2/8 = 3/8. 4/8 is tempting if you take 1 from the top of 5/8 without first writing 1/4 as 2/8.",
     hints: ["Write 1/4 as eighths first, then subtract it from 5/8."]
   },
   {
@@ -466,26 +466,26 @@ const SET_B: PrepQuestion[] = [
     id: "g6-maths-frac-b-q12",
     prompt: "Express 4.2 as a fraction in simplest form.",
     options: [
-      { id: "a", text: "42/10" },
+      { id: "a", text: "42/1" },
       { id: "b", text: "4/2" },
       { id: "c", text: "42/100" },
       { id: "d", text: "21/5" }
     ],
     answerId: "d",
-    explanation: "4.2 = 42/10 = 21/5. 42/10 is tempting if you stop before fully simplifying; the simplest form is 21/5.",
-    hints: ["Write 4.2 as 42/10, then divide the top and bottom by 2."]
+    explanation: "4.2 = 42/10, and dividing the top and bottom by 2 gives 21/5. 42/100 is tempting if you read the 2 as hundredths instead of tenths.",
+    hints: ["4.2 is more than a whole one, so a choice worth less than 1 cannot be it. Strike that one out first."]
   },
   {
     id: "g6-maths-frac-b-q13",
     prompt: "What is 2/3 × 9/10 in its simplest form?",
     options: [
       { id: "a", text: "3/5" },
-      { id: "b", text: "18/30" },
+      { id: "b", text: "18/13" },
       { id: "c", text: "11/13" },
       { id: "d", text: "2/10" }
     ],
     answerId: "a",
-    explanation: "2/3 × 9/10 = 18/30, and dividing top and bottom by 6 gives 3/5. 18/30 may look right because it has the same value, but 18 and 30 still share the factor 6, so it is not in its simplest form. 18/30 is tempting, but it does not fit the facts in the question.",
+    explanation: "2/3 × 9/10 = 18/30, and dividing the top and bottom by 6 gives 3/5. 11/13 is tempting if you add the tops and the bottoms instead of multiplying them.",
     hints: ["Multiply tops and bottoms, or first cancel the 3 with the 9. Then simplify fully."]
   },
   {
