@@ -90,7 +90,7 @@ export const G3_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g3-sci-animals-b-q02": ["Lions, tigers and eagles eat other animals. Plant eaters are herbivores. What are meat eaters called?"],
   "g3-sci-animals-b-q03": ["A snake has no teeth for chewing plants; it swallows small animals whole. Which choice is animal food?"],
   "g3-sci-animals-b-q04": ["The spider spins sticky silk threads, and the fly got stuck in them. What is this silk trap called?"],
-  "g3-sci-animals-b-q05": ["A herbivore is an animal that eats plants. Follow the arrows and see who eats the grass."],
+  "g3-sci-animals-b-q05": ["Grass makes its own food from sunlight, so it is a plant and cannot be any kind of animal."],
   "g3-sci-animals-b-q06": ["Farmers keep cows in a covered building with a roof. What is the cow's home called?"],
   "g3-sci-animals-b-q07": ["Think of an animal that hops on the bank of a pond and also swims in the pond."],
   "g3-sci-animals-b-q08": ["The little hill of soil has tunnels where tiny insects live together. Which insects build hills like this?"],

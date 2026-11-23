@@ -166,7 +166,7 @@ export const G5_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g5-sci-matter-a-q05": ["The salt seems to vanish, yet the water still tastes salty, so it is still there, spread out in tiny bits."],
   "g5-sci-matter-a-q06": ["Look for the beaker where a solid is being stirred into water and spreading out, not just settling at the bottom."],
   "g5-sci-matter-a-q07": ["A pan handle should stay cool while the pan gets hot. Does wood pass heat along quickly or slowly?"],
-  "g5-sci-matter-a-q08": ["An iron nail is denser than water, so look for the small metal piece lying on the tank floor."],
+  "g5-sci-matter-a-q08": ["Cork is much lighter than water for its size, so the brown object floating near the top cannot be the iron nail."],
   "g5-sci-matter-a-q09": ["Shoe soles must bend as you walk and stop you slipping on the floor. Which rubber properties help with that?"],
   "g5-sci-matter-a-q10": ["The funnel holds paper that lets clear liquid drip into the beaker and traps the mud. Name that method."],
   "g5-sci-matter-a-q11": ["Iron is attracted by one special tool, while sand is not. Which tool can pull the nails out fast?"],
