@@ -83,7 +83,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-sci-heat-a-q07",
-    prompt: "Transfer of heat in solids without bulk movement of particles is mainly\u2026",
+    prompt: "Look at the metal rod. Transfer of heat in solids without bulk movement of particles is mainly…",
     options: [
       { id: "a", text: "Convection" },
       { id: "b", text: "Radiation only" },
@@ -91,12 +91,13 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Evaporation" }
     ],
     answerId: "c",
-    explanation: "Conduction passes heat through particle collisions in solids.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Heat is passed from particle to particle in the metal, without the rod flowing. “Convection” is tempting because it is another common heat transfer, but convection needs a fluid that can move in bulk.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A metal rod is held over a stand. A flame heats the left end. Four small wax drops sit along the top of the rod.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A metal rod and a flame</text>\n  <line x1=\"40\" y1=\"160\" x2=\"280\" y2=\"160\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"70\" y1=\"160\" x2=\"70\" y2=\"120\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"250\" y1=\"160\" x2=\"250\" y2=\"120\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <rect x=\"60\" y=\"112\" width=\"200\" height=\"10\" fill=\"#94a3b8\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n  <polygon points=\"48,112 36,150 60,150\" fill=\"#f97316\" stroke=\"#b45309\" stroke-width=\"1\"/>\n  <polygon points=\"48,118 42,142 54,142\" fill=\"#facc15\" stroke=\"#ca8a04\" stroke-width=\"1\"/>\n  <text x=\"48\" y=\"100\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">flame</text>\n  <text x=\"150\" y=\"100\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">rod</text>\n  <circle cx=\"120\" cy=\"108\" r=\"4\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/>\n  <circle cx=\"160\" cy=\"108\" r=\"4\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/>\n  <circle cx=\"200\" cy=\"108\" r=\"4\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/>\n  <circle cx=\"240\" cy=\"108\" r=\"4\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/>\n  <text x=\"160\" y=\"200\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">Wax drops sit along the rod</text>\n</svg>", "alt": "A metal rod is held over a stand. A flame heats the left end. Four small wax drops sit along the top of the rod."}
   },
   {
     id: "g7-sci-heat-a-q08",
-    prompt: "Heat transfer by movement of a fluid is\u2026",
+    prompt: "Look at the pot of water. Heat transfer by movement of a fluid is…",
     options: [
       { id: "a", text: "Conduction only" },
       { id: "b", text: "Reflection" },
@@ -104,8 +105,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Convection" }
     ],
     answerId: "d",
-    explanation: "Warm fluid rises and cooler fluid sinks \u2014 convection currents.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Warm water rises and cooler water sinks, so the heat is carried by convection. “Conduction only” is tempting because the pot is solid, but the question asks about heat carried by the moving fluid.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A pot of water sits over a flame. Arrows show water rising in the middle and sinking at the sides.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A pot of water over a flame</text>\n  <rect x=\"90\" y=\"50\" width=\"140\" height=\"110\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/>\n  <rect x=\"92\" y=\"80\" width=\"136\" height=\"78\" fill=\"#93c5fd\" stroke=\"#1e40af\" stroke-width=\"1\" opacity=\"0.4\"/>\n  <polygon points=\"160,162 140,202 180,202\" fill=\"#f97316\" stroke=\"#b45309\" stroke-width=\"1\"/>\n  <polygon points=\"160,170 150,196 170,196\" fill=\"#facc15\" stroke=\"#ca8a04\" stroke-width=\"1\"/>\n  <line x1=\"160\" y1=\"145\" x2=\"160\" y2=\"90\" stroke=\"#b91c1c\" stroke-width=\"2.5\" fill=\"none\"/>  <polyline points=\"164.0,98.0 160,90 156.0,98.0\" stroke=\"#b91c1c\" stroke-width=\"2.5\" fill=\"none\"/>\n  <line x1=\"200\" y1=\"95\" x2=\"200\" y2=\"145\" stroke=\"#1d4ed8\" stroke-width=\"1.5\" fill=\"none\"/>  <polyline points=\"196.5,138.0 200,145 203.5,138.0\" stroke=\"#1d4ed8\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"120\" y1=\"95\" x2=\"120\" y2=\"145\" stroke=\"#1d4ed8\" stroke-width=\"1.5\" fill=\"none\"/>  <polyline points=\"116.5,138.0 120,145 123.5,138.0\" stroke=\"#1d4ed8\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"160\" y=\"214\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">Water moves in a loop above the flame</text>\n</svg>", "alt": "A pot of water sits over a flame. Arrows show water rising in the middle and sinking at the sides."}
   },
   {
     id: "g7-sci-heat-a-q09",
@@ -200,7 +202,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-sci-heat-a-q16",
-    prompt: "In a thermos flask, the vacuum mainly reduces heat transfer by\u2026",
+    prompt: "Look at the cut-away flask. In a thermos flask, the vacuum mainly reduces heat transfer by…",
     options: [
       { id: "a", text: "Radiation only completely alone" },
       { id: "b", text: "Sound" },
@@ -208,8 +210,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Conduction and convection" }
     ],
     answerId: "d",
-    explanation: "No medium means little conduction/convection; silvering reduces radiation.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "The gap has almost no particles, so conduction and convection are greatly reduced. “Radiation only completely alone” is tempting because silvering also cuts radiation, but the vacuum itself mainly stops the two methods that need a material medium.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A cut-away flask with a stopper, an inner wall holding a liquid, and a gap between the inner and outer walls.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A cut-away flask</text>\n  <path d=\"M 96 50 L 96 176 Q 160 212 224 176 L 224 50\" fill=\"none\" stroke=\"#333\" stroke-width=\"3\"/>\n  <path d=\"M 124 62 L 124 162 Q 160 186 196 162 L 196 62\" fill=\"#e0f2fe\" stroke=\"#333\" stroke-width=\"2\"/>\n  <line x1=\"250\" y1=\"120\" x2=\"212\" y2=\"120\" stroke=\"#333\" stroke-width=\"1.2\" fill=\"none\"/>  <circle cx=\"210\" cy=\"120\" r=\"2\" fill=\"#333\" stroke=\"#333\" stroke-width=\"1\"/>\n  <text x=\"270\" y=\"124\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">gap</text>\n  <rect x=\"132\" y=\"38\" width=\"56\" height=\"24\" fill=\"#78716c\" stroke=\"#333\" stroke-width=\"1.5\" rx=\"3\"/>\n  <text x=\"160\" y=\"54\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#fff\">stopper</text>\n</svg>", "alt": "A cut-away flask with a stopper, an inner wall holding a liquid, and a gap between the inner and outer walls."}
   },
   {
     id: "g7-sci-heat-a-q17",
@@ -252,7 +255,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-sci-heat-a-q20",
-    prompt: "Gaps left between railway tracks help with\u2026",
+    prompt: "Look at the rails. Gaps left between railway tracks help with…",
     options: [
       { id: "a", text: "Magnetic trains only" },
       { id: "b", text: "Cooling tea" },
@@ -260,12 +263,13 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Thermal expansion of rails" }
     ],
     answerId: "d",
-    explanation: "Rails expand on hot days; gaps prevent buckling.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Rails get longer on a hot day; the gaps give them room so the track does not buckle. “Soundproofing only” is tempting because a gap might seem to break a noise path, but that is not why the gaps are left.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Two railway rails run across wooden sleepers. Small labelled gaps are left between lengths of rail.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Rails on a track</text>\n  <rect x=\"20\" y=\"130\" width=\"28\" height=\"10\" fill=\"#a16207\" stroke=\"#78350f\" stroke-width=\"1\"/>\n  <rect x=\"56\" y=\"130\" width=\"28\" height=\"10\" fill=\"#a16207\" stroke=\"#78350f\" stroke-width=\"1\"/>\n  <rect x=\"92\" y=\"130\" width=\"28\" height=\"10\" fill=\"#a16207\" stroke=\"#78350f\" stroke-width=\"1\"/>\n  <rect x=\"128\" y=\"130\" width=\"28\" height=\"10\" fill=\"#a16207\" stroke=\"#78350f\" stroke-width=\"1\"/>\n  <rect x=\"164\" y=\"130\" width=\"28\" height=\"10\" fill=\"#a16207\" stroke=\"#78350f\" stroke-width=\"1\"/>\n  <rect x=\"200\" y=\"130\" width=\"28\" height=\"10\" fill=\"#a16207\" stroke=\"#78350f\" stroke-width=\"1\"/>\n  <rect x=\"236\" y=\"130\" width=\"28\" height=\"10\" fill=\"#a16207\" stroke=\"#78350f\" stroke-width=\"1\"/>\n  <rect x=\"272\" y=\"130\" width=\"28\" height=\"10\" fill=\"#a16207\" stroke=\"#78350f\" stroke-width=\"1\"/>\n  <rect x=\"20\" y=\"100\" width=\"80\" height=\"10\" fill=\"#64748b\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n  <rect x=\"112\" y=\"100\" width=\"80\" height=\"10\" fill=\"#64748b\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n  <rect x=\"204\" y=\"100\" width=\"96\" height=\"10\" fill=\"#64748b\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n  <rect x=\"20\" y=\"118\" width=\"80\" height=\"10\" fill=\"#64748b\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n  <rect x=\"112\" y=\"118\" width=\"80\" height=\"10\" fill=\"#64748b\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n  <rect x=\"204\" y=\"118\" width=\"96\" height=\"10\" fill=\"#64748b\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n  <text x=\"106\" y=\"92\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">gap</text>\n  <text x=\"198\" y=\"92\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">gap</text>\n  <text x=\"160\" y=\"200\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">Small spaces are left between rail lengths</text>\n</svg>", "alt": "Two railway rails run across wooden sleepers. Small labelled gaps are left between lengths of rail."}
   },
   {
     id: "g7-sci-heat-a-q21",
-    prompt: "A clinical thermometer usually has a kink (constriction) to\u2026",
+    prompt: "Look at the thermometer. A clinical thermometer usually has a kink (constriction) to…",
     options: [
       { id: "a", text: "Prevent mercury from falling back quickly before reading" },
       { id: "b", text: "Heat the room" },
@@ -273,8 +277,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Store vaccines" }
     ],
     answerId: "a",
-    explanation: "The constriction holds the mercury column for reading.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "The narrow kink stops the liquid running back into the bulb too quickly, so the reading can be taken after the thermometer leaves the mouth. Measure wind speed is unrelated to this instrument.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A clinical thermometer with a bulb at the left and a narrow bend marked P just after the bulb. A liquid thread runs along the stem.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A clinical thermometer</text>\n  <rect x=\"40\" y=\"100\" width=\"230\" height=\"14\" fill=\"#e0f2fe\" stroke=\"#333\" stroke-width=\"2\" rx=\"4\"/>\n  <rect x=\"70\" y=\"104\" width=\"140\" height=\"6\" fill=\"#b91c1c\" stroke=\"none\" stroke-width=\"0\"/>\n  <circle cx=\"40\" cy=\"107\" r=\"16\" fill=\"#b91c1c\" stroke=\"#333\" stroke-width=\"2\"/>\n  <path d=\"M 70 100 Q 78 88 86 100\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/>\n  <path d=\"M 70 114 Q 78 126 86 114\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text x=\"78\" y=\"84\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">P</text>\n  <text x=\"160\" y=\"200\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">A narrow bend is marked P, near the bulb</text>\n</svg>", "alt": "A clinical thermometer with a bulb at the left and a narrow bend marked P just after the bulb. A liquid thread runs along the stem."}
   },
   {
     id: "g7-sci-heat-a-q22",
@@ -320,7 +325,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g7-sci-heat-b-q01",
-    prompt: "Which is the best conductor among these?",
+    prompt: "Look at the four samples. Which is the best conductor among these?",
     options: [
       { id: "a", text: "Copper" },
       { id: "b", text: "Wood" },
@@ -328,12 +333,13 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Air" }
     ],
     answerId: "a",
-    explanation: "Copper is a metal and conducts heat well.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Copper is a metal and lets heat pass through quickly, so it is the best conductor of the four. Wood is tempting because it is also a solid, but it is a poor conductor and is used for handles for that reason.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Four samples labelled P, Q, R and S, made of copper, wood, plastic and air, each held over a small flame.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Four samples in a flame</text>\n  <rect x=\"48\" y=\"50\" width=\"12\" height=\"100\" fill=\"#b45309\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon points=\"54,150 42,190 66,190\" fill=\"#f97316\" stroke=\"#b45309\" stroke-width=\"1\"/>\n  <text x=\"54\" y=\"48\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">P</text>\n  <text x=\"54\" y=\"210\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">copper</text>\n  <rect x=\"118\" y=\"50\" width=\"12\" height=\"100\" fill=\"#c4a574\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon points=\"124,150 112,190 136,190\" fill=\"#f97316\" stroke=\"#b45309\" stroke-width=\"1\"/>\n  <text x=\"124\" y=\"48\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">Q</text>\n  <text x=\"124\" y=\"210\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">wood</text>\n  <rect x=\"188\" y=\"50\" width=\"12\" height=\"100\" fill=\"#93c5fd\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon points=\"194,150 182,190 206,190\" fill=\"#f97316\" stroke=\"#b45309\" stroke-width=\"1\"/>\n  <text x=\"194\" y=\"48\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">R</text>\n  <text x=\"194\" y=\"210\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">plastic</text>\n  <rect x=\"250\" y=\"50\" width=\"28\" height=\"100\" fill=\"#e0f2fe\" stroke=\"#333\" stroke-width=\"1.5\" rx=\"4\"/>\n  <polygon points=\"264,150 252,190 276,190\" fill=\"#f97316\" stroke=\"#b45309\" stroke-width=\"1\"/>\n  <text x=\"264\" y=\"48\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">S</text>\n  <text x=\"264\" y=\"210\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">air</text>\n</svg>", "alt": "Four samples labelled P, Q, R and S, made of copper, wood, plastic and air, each held over a small flame."}
   },
   {
     id: "g7-sci-heat-b-q02",
-    prompt: "Convection currents in air explain\u2026",
+    prompt: "Look at the room. Convection currents in air explain…",
     options: [
       { id: "a", text: "Why metals are shiny" },
       { id: "b", text: "Why warm air rises near a heater" },
@@ -341,12 +347,13 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Why light needs wires" }
     ],
     answerId: "b",
-    explanation: "Heated air expands, becomes less dense, and rises.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Heated air expands, becomes less dense and rises above the heater. Why metals are shiny is about the surface of a solid, not about moving air.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A room with four things in it: a heater, a metal pot, a glass of ice and a lamp on a wire.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Things in a room</text>\n  <rect x=\"20\" y=\"34\" width=\"280\" height=\"160\" fill=\"#fff\" stroke=\"#333\" stroke-width=\"2\"/>\n  <rect x=\"40\" y=\"150\" width=\"56\" height=\"34\" fill=\"#f97316\" stroke=\"#9a3412\" stroke-width=\"1.5\" rx=\"4\"/>\n  <text x=\"68\" y=\"144\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">heater</text>\n  <line x1=\"120\" y1=\"110\" x2=\"190\" y2=\"110\" stroke=\"#78716c\" stroke-width=\"3\" fill=\"none\"/>\n  <path d=\"M 136 108 L 140 88 L 170 88 L 174 108 Z\" fill=\"#cbd5e1\" stroke=\"#475569\" stroke-width=\"1.5\"/>\n  <text x=\"155\" y=\"80\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">metal pot</text>\n  <line x1=\"210\" y1=\"184\" x2=\"210\" y2=\"160\" stroke=\"#78716c\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"250\" y1=\"184\" x2=\"250\" y2=\"160\" stroke=\"#78716c\" stroke-width=\"2\" fill=\"none\"/>\n  <rect x=\"200\" y=\"152\" width=\"60\" height=\"8\" fill=\"#a8a29e\" stroke=\"#57534e\" stroke-width=\"1\"/>\n  <path d=\"M 222 152 L 220 128 L 240 128 L 238 152 Z\" fill=\"#f0f9ff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect x=\"224\" y=\"138\" width=\"7\" height=\"7\" fill=\"#e0f2fe\" stroke=\"#0369a1\" stroke-width=\"1\"/>\n  <rect x=\"230\" y=\"133\" width=\"7\" height=\"7\" fill=\"#e0f2fe\" stroke=\"#0369a1\" stroke-width=\"1\"/>\n  <text x=\"230\" y=\"122\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">ice</text>\n  <line x1=\"270\" y1=\"34\" x2=\"270\" y2=\"60\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <circle cx=\"270\" cy=\"68\" r=\"8\" fill=\"#fef9c3\" stroke=\"#a16207\" stroke-width=\"1.5\"/>\n  <text x=\"270\" y=\"92\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">lamp</text>\n</svg>", "alt": "A room with four things in it: a heater, a metal pot, a glass of ice and a lamp on a wire."}
   },
   {
     id: "g7-sci-heat-b-q03",
-    prompt: "We feel heat from a fire even to the side mainly by\u2026",
+    prompt: "Look at the person beside the fire. We feel heat from a fire even to the side mainly by…",
     options: [
       { id: "a", text: "Conduction through the air" },
       { id: "b", text: "Convection currents in the air" },
@@ -354,8 +361,9 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Magnetism" }
     ],
     answerId: "c",
-    explanation: "Radiant heat travels in straight lines from the fire.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Radiant heat travels out in straight lines, including to the side of the fire. Convection currents in the air is tempting, but the hot air itself rises above the fire rather than travelling sideways to the person.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A campfire stands on the left. A person stands to the right, away from the fire. Wavy lines travel from the fire toward the person.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A person beside a fire</text>\n  <polygon points=\"70,160 50,200 90,200\" fill=\"#f97316\" stroke=\"#b45309\" stroke-width=\"1\"/>\n  <polygon points=\"70,168 60,196 80,196\" fill=\"#facc15\" stroke=\"#ca8a04\" stroke-width=\"1\"/>\n  <rect x=\"52\" y=\"198\" width=\"36\" height=\"8\" fill=\"#78350f\" stroke=\"#451a03\" stroke-width=\"1\" rx=\"2\"/>\n  <path d=\"M 90 150 Q 110 140 130 150\" fill=\"none\" stroke=\"#ea580c\" stroke-width=\"1.5\"/>\n  <path d=\"M 95 165 Q 115 155 140 165\" fill=\"none\" stroke=\"#ea580c\" stroke-width=\"1.5\"/>\n  <path d=\"M 90 180 Q 110 170 130 180\" fill=\"none\" stroke=\"#ea580c\" stroke-width=\"1.5\"/>\n  <circle cx=\"210\" cy=\"120\" r=\"12\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line x1=\"210\" y1=\"132\" x2=\"210\" y2=\"175\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"210\" y1=\"145\" x2=\"190\" y2=\"160\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"210\" y1=\"145\" x2=\"230\" y2=\"160\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"210\" y1=\"175\" x2=\"196\" y2=\"200\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"210\" y1=\"175\" x2=\"224\" y2=\"200\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <text x=\"70\" y=\"214\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">fire</text>\n  <text x=\"210\" y=\"214\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">person</text>\n</svg>", "alt": "A campfire stands on the left. A person stands to the right, away from the fire. Wavy lines travel from the fire toward the person."}
   },
   {
     id: "g7-sci-heat-b-q04",
@@ -372,7 +380,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-sci-heat-b-q05",
-    prompt: "A sea breeze is an example of heat transfer by\u2026",
+    prompt: "Look at the air over land and sea. A sea breeze is an example of heat transfer by…",
     options: [
       { id: "a", text: "Convection" },
       { id: "b", text: "Conduction through steel rails only" },
@@ -380,8 +388,9 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Latent heat of fusion only" }
     ],
     answerId: "a",
-    explanation: "Moving air masses transfer heat by convection.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "A whole mass of air moves from the sea toward the land, so the heat is transferred by convection. Conduction through steel rails is a different situation and needs contact in a solid, not moving air.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A sunny scene of sea and land. A lower arrow points from the sea toward the land, and a higher arrow points from the land back toward the sea.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Air over land and sea</text>\n  <circle cx=\"40\" cy=\"36\" r=\"12\" fill=\"#facc15\" stroke=\"#ca8a04\" stroke-width=\"2\"/>\n  <rect x=\"16\" y=\"120\" width=\"140\" height=\"70\" fill=\"#38bdf8\" stroke=\"#0369a1\" stroke-width=\"1.5\"/>\n  <text x=\"86\" y=\"160\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">sea</text>\n  <rect x=\"164\" y=\"120\" width=\"140\" height=\"70\" fill=\"#fde68a\" stroke=\"#a16207\" stroke-width=\"1.5\"/>\n  <text x=\"234\" y=\"160\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">land</text>\n  <line x1=\"70\" y1=\"112\" x2=\"230\" y2=\"112\" stroke=\"#1d4ed8\" stroke-width=\"2\" fill=\"none\"/>  <polyline points=\"222.0,116.0 230,112 222.0,108.0\" stroke=\"#1d4ed8\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"230\" y1=\"70\" x2=\"70\" y2=\"70\" stroke=\"#b91c1c\" stroke-width=\"2\" fill=\"none\"/>  <polyline points=\"78.0,66.0 70,70 78.0,74.0\" stroke=\"#b91c1c\" stroke-width=\"2\" fill=\"none\"/>\n</svg>", "alt": "A sunny scene of sea and land. A lower arrow points from the sea toward the land, and a higher arrow points from the land back toward the sea."}
   },
   {
     id: "g7-sci-heat-b-q06",
@@ -619,7 +628,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-sci-heat-b-q24",
-    prompt: "Which is a poor conductor of heat?",
+    prompt: "Look at the four samples. Which is a poor conductor of heat?",
     options: [
       { id: "a", text: "Iron" },
       { id: "b", text: "Copper" },
@@ -627,8 +636,9 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Air" }
     ],
     answerId: "d",
-    explanation: "Air is a good insulator when trapped.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Air is a poor conductor of heat, especially when it is trapped. Iron is tempting because it is one of the four samples, but like the other metals it lets heat pass fairly quickly.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Four samples in a row: a bar of iron, a bar of copper, a bar of aluminium, and a jar labelled air.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Four samples</text>\n  <rect x=\"24\" y=\"60\" width=\"44\" height=\"100\" fill=\"#64748b\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text x=\"46\" y=\"180\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">iron</text>\n  <rect x=\"102\" y=\"60\" width=\"44\" height=\"100\" fill=\"#b45309\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text x=\"124\" y=\"180\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">copper</text>\n  <rect x=\"180\" y=\"60\" width=\"44\" height=\"100\" fill=\"#cbd5e1\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text x=\"202\" y=\"180\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">aluminium</text>\n  <rect x=\"258\" y=\"60\" width=\"44\" height=\"100\" fill=\"#e0f2fe\" stroke=\"#333\" stroke-width=\"1.5\" rx=\"4\"/>\n  <text x=\"280\" y=\"110\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\"> </text>\n  <text x=\"280\" y=\"180\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">air</text>\n  <text x=\"160\" y=\"210\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">Three metal bars and a jar of air</text>\n</svg>", "alt": "Four samples in a row: a bar of iron, a bar of copper, a bar of aluminium, and a jar labelled air."}
   }
 ];
 

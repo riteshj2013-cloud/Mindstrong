@@ -44,7 +44,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-sci-nutrition-a-q04",
-    prompt: "Which gas is released as a by-product of photosynthesis?",
+    prompt: "Look at the leaf in sunlight. Which gas is released as a by-product of photosynthesis?",
     options: [
       { id: "a", text: "Nitrogen" },
       { id: "b", text: "Carbon monoxide" },
@@ -52,8 +52,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Oxygen" }
     ],
     answerId: "d",
-    explanation: "Oxygen is liberated when plants photosynthesise.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "The extra gas given off in photosynthesis is oxygen. Nitrogen is tempting because it makes up most of the air, but it is not released as a by-product of this process.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A green leaf in sunlight. Arrows show a gas leaving the leaf into a small bubble labelled gas.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A green leaf in sunlight</text>\n  <circle cx=\"50\" cy=\"40\" r=\"14\" fill=\"#facc15\" stroke=\"#ca8a04\" stroke-width=\"2\"/>\n  <ellipse cx=\"160\" cy=\"110\" rx=\"70\" ry=\"36\" fill=\"#86efac\" stroke=\"#166534\" stroke-width=\"2\"/>\n  <line x1=\"90\" y1=\"110\" x2=\"230\" y2=\"110\" stroke=\"#166534\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"90\" y1=\"110\" x2=\"70\" y2=\"150\" stroke=\"#166534\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"200\" y1=\"80\" x2=\"230\" y2=\"50\" stroke=\"#64748b\" stroke-width=\"1.5\" fill=\"none\"/>  <polyline points=\"227.9,56.4 230,50 223.6,52.1\" stroke=\"#64748b\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"170\" y1=\"74\" x2=\"185\" y2=\"44\" stroke=\"#64748b\" stroke-width=\"1.5\" fill=\"none\"/>  <polyline points=\"185.0,50.7 185,44 179.6,48.0\" stroke=\"#64748b\" stroke-width=\"1.5\" fill=\"none\"/>\n  <circle cx=\"236\" cy=\"44\" r=\"8\" fill=\"#e0f2fe\" stroke=\"#64748b\" stroke-width=\"2\"/>\n  <text x=\"250\" y=\"36\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">gas</text>\n  <text x=\"160\" y=\"200\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">A gas leaves the leaf in sunlight</text>\n</svg>", "alt": "A green leaf in sunlight. Arrows show a gas leaving the leaf into a small bubble labelled gas."}
   },
   {
     id: "g7-sci-nutrition-a-q05",
@@ -70,7 +71,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-sci-nutrition-a-q06",
-    prompt: "Where does photosynthesis mainly occur in a leaf?",
+    prompt: "Look at the plant cell. Where does photosynthesis mainly occur in a leaf?",
     options: [
       { id: "a", text: "Mitochondria only" },
       { id: "b", text: "Chloroplasts" },
@@ -78,8 +79,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Cell wall only" }
     ],
     answerId: "b",
-    explanation: "Chloroplasts contain chlorophyll for photosynthesis.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Photosynthesis takes place in the chloroplasts, labelled R. “Nucleus only” is tempting because the nucleus is a well-known part of the cell, but it is not the site of this process.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A plant cell with four parts labelled P, Q, R and S.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A plant cell</text>\n  <ellipse cx=\"160\" cy=\"112\" rx=\"112\" ry=\"72\" fill=\"#ecfccb\" stroke=\"#333\" stroke-width=\"2.5\"/>\n  <ellipse cx=\"160\" cy=\"112\" rx=\"102\" ry=\"62\" fill=\"#f7fee7\" stroke=\"#65a30d\" stroke-width=\"1.2\"/>\n  <circle cx=\"200\" cy=\"96\" r=\"16\" fill=\"#e0f2fe\" stroke=\"#0369a1\" stroke-width=\"2\"/>\n  <ellipse cx=\"110\" cy=\"92\" rx=\"14\" ry=\"7\" fill=\"#16a34a\" stroke=\"#14532d\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"130\" cy=\"140\" rx=\"14\" ry=\"7\" fill=\"#16a34a\" stroke=\"#14532d\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"95\" cy=\"125\" rx=\"14\" ry=\"7\" fill=\"#16a34a\" stroke=\"#14532d\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"150\" cy=\"78\" rx=\"14\" ry=\"7\" fill=\"#16a34a\" stroke=\"#14532d\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"180\" cy=\"140\" rx=\"8\" ry=\"4.5\" fill=\"#fdba74\" stroke=\"#9a3412\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"215\" cy=\"128\" rx=\"8\" ry=\"4.5\" fill=\"#fdba74\" stroke=\"#9a3412\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"160\" cy=\"112\" rx=\"8\" ry=\"4.5\" fill=\"#fdba74\" stroke=\"#9a3412\" stroke-width=\"1.5\"/>\n  <line x1=\"285\" y1=\"112\" x2=\"271\" y2=\"112\" stroke=\"#333\" stroke-width=\"1.2\" fill=\"none\"/>\n  <text x=\"293\" y=\"108\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">P</text>\n  <line x1=\"240\" y1=\"70\" x2=\"212\" y2=\"86\" stroke=\"#333\" stroke-width=\"1.2\" fill=\"none\"/>\n  <text x=\"240\" y=\"66\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">Q</text>\n  <line x1=\"80\" y1=\"70\" x2=\"104\" y2=\"88\" stroke=\"#333\" stroke-width=\"1.2\" fill=\"none\"/>\n  <text x=\"80\" y=\"66\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">R</text>\n  <line x1=\"200\" y1=\"176\" x2=\"184\" y2=\"144\" stroke=\"#333\" stroke-width=\"1.2\" fill=\"none\"/>\n  <text x=\"200\" y=\"190\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">S</text>\n</svg>", "alt": "A plant cell with four parts labelled P, Q, R and S."}
   },
   {
     id: "g7-sci-nutrition-a-q07",
@@ -135,7 +137,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-sci-nutrition-a-q11",
-    prompt: "Stomata on leaves mainly help in\u2026",
+    prompt: "Look at the underside of the leaf. Stomata on leaves mainly help in…",
     options: [
       { id: "a", text: "Making bones" },
       { id: "b", text: "Pumping blood" },
@@ -143,8 +145,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Hearing sound" }
     ],
     answerId: "c",
-    explanation: "Stomata allow CO\u2082 in and O\u2082/water vapour out.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "The pores between the guard cells allow gases to enter and leave the leaf. Hearing sound is unrelated to these pores.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"The underside of a leaf showing several pores, each sitting between a pair of sausage-shaped cells.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">The underside of a leaf</text>\n  <rect x=\"40\" y=\"50\" width=\"240\" height=\"120\" fill=\"#86efac\" stroke=\"#166534\" stroke-width=\"2\" rx=\"8\"/>\n  <ellipse cx=\"80\" cy=\"90\" rx=\"8\" ry=\"12\" fill=\"#166534\" stroke=\"#14532d\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"100\" cy=\"90\" rx=\"8\" ry=\"12\" fill=\"#166534\" stroke=\"#14532d\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"90\" cy=\"90\" rx=\"4\" ry=\"8\" fill=\"#f0fdf4\" stroke=\"#14532d\" stroke-width=\"1\"/>\n  <ellipse cx=\"150\" cy=\"110\" rx=\"8\" ry=\"12\" fill=\"#166534\" stroke=\"#14532d\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"170\" cy=\"110\" rx=\"8\" ry=\"12\" fill=\"#166534\" stroke=\"#14532d\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"160\" cy=\"110\" rx=\"4\" ry=\"8\" fill=\"#f0fdf4\" stroke=\"#14532d\" stroke-width=\"1\"/>\n  <ellipse cx=\"220\" cy=\"90\" rx=\"8\" ry=\"12\" fill=\"#166534\" stroke=\"#14532d\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"240\" cy=\"90\" rx=\"8\" ry=\"12\" fill=\"#166534\" stroke=\"#14532d\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"230\" cy=\"90\" rx=\"4\" ry=\"8\" fill=\"#f0fdf4\" stroke=\"#14532d\" stroke-width=\"1\"/>\n  <ellipse cx=\"110\" cy=\"140\" rx=\"8\" ry=\"12\" fill=\"#166534\" stroke=\"#14532d\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"130\" cy=\"140\" rx=\"8\" ry=\"12\" fill=\"#166534\" stroke=\"#14532d\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"120\" cy=\"140\" rx=\"4\" ry=\"8\" fill=\"#f0fdf4\" stroke=\"#14532d\" stroke-width=\"1\"/>\n  <ellipse cx=\"190\" cy=\"140\" rx=\"8\" ry=\"12\" fill=\"#166534\" stroke=\"#14532d\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"210\" cy=\"140\" rx=\"8\" ry=\"12\" fill=\"#166534\" stroke=\"#14532d\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"200\" cy=\"140\" rx=\"4\" ry=\"8\" fill=\"#f0fdf4\" stroke=\"#14532d\" stroke-width=\"1\"/>\n  <text x=\"160\" y=\"200\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">Pores sit between pairs of cells</text>\n</svg>", "alt": "The underside of a leaf showing several pores, each sitting between a pair of sausage-shaped cells."}
   },
   {
     id: "g7-sci-nutrition-a-q12",
@@ -187,7 +190,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-sci-nutrition-a-q15",
-    prompt: "In humans, protein digestion begins mainly in the\u2026",
+    prompt: "Look at the digestive tract. In humans, protein digestion begins mainly in the…",
     options: [
       { id: "a", text: "Mouth only" },
       { id: "b", text: "Large intestine only" },
@@ -195,8 +198,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Nose" }
     ],
     answerId: "c",
-    explanation: "Gastric juices in the stomach start protein digestion.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Protein digestion begins in the stomach, labelled R. “Mouth only” is tempting because digestion of starch begins there, but protein-digesting juice is released in the stomach.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A simple digestive tract with four parts labelled P, Q, R and S.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">The digestive tract</text>\n  <circle cx=\"160\" cy=\"48\" r=\"10\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"2\"/>\n  <line x1=\"160\" y1=\"58\" x2=\"160\" y2=\"80\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <rect x=\"154\" y=\"80\" width=\"12\" height=\"28\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"170\" cy=\"126\" rx=\"28\" ry=\"18\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"2\"/>\n  <path d=\"M 170 144 C 120 150 120 170 170 176 C 220 182 220 198 160 204\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/>\n  <line x1=\"116\" y1=\"48\" x2=\"148\" y2=\"48\" stroke=\"#333\" stroke-width=\"1.2\" fill=\"none\"/>\n  <text x=\"110\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">P</text>\n  <line x1=\"116\" y1=\"94\" x2=\"152\" y2=\"94\" stroke=\"#333\" stroke-width=\"1.2\" fill=\"none\"/>\n  <text x=\"110\" y=\"98\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">Q</text>\n  <line x1=\"234\" y1=\"126\" x2=\"200\" y2=\"126\" stroke=\"#333\" stroke-width=\"1.2\" fill=\"none\"/>\n  <text x=\"240\" y=\"130\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">R</text>\n  <line x1=\"234\" y1=\"186\" x2=\"208\" y2=\"186\" stroke=\"#333\" stroke-width=\"1.2\" fill=\"none\"/>\n  <text x=\"240\" y=\"190\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">S</text>\n</svg>", "alt": "A simple digestive tract with four parts labelled P, Q, R and S."}
   },
   {
     id: "g7-sci-nutrition-a-q16",
@@ -213,7 +217,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-sci-nutrition-a-q17",
-    prompt: "Villi in the small intestine increase\u2026",
+    prompt: "Look at the inner wall of the small intestine. Villi in the small intestine increase…",
     options: [
       { id: "a", text: "Surface area for absorption" },
       { id: "b", text: "Bone length" },
@@ -221,8 +225,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Leaf area" }
     ],
     answerId: "a",
-    explanation: "Finger-like villi absorb digested food efficiently.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "The finger-like folds give a much larger surface for absorbing digested food. Bone length is unrelated to the gut wall.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A section of the small intestine wall lined with many closely packed finger-like folds.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">The inner wall of the small intestine</text>\n  <rect x=\"30\" y=\"50\" width=\"260\" height=\"130\" fill=\"#fecaca\" stroke=\"#7f1d1d\" stroke-width=\"2\"/>\n  <ellipse cx=\"50\" cy=\"110\" rx=\"14\" ry=\"50\" fill=\"#fda4af\" stroke=\"#9f1239\" stroke-width=\"1.5\"/>\n  <line x1=\"50\" y1=\"70\" x2=\"50\" y2=\"150\" stroke=\"#be123c\" stroke-width=\"1\" fill=\"none\"/>\n  <ellipse cx=\"90\" cy=\"110\" rx=\"14\" ry=\"50\" fill=\"#fda4af\" stroke=\"#9f1239\" stroke-width=\"1.5\"/>\n  <line x1=\"90\" y1=\"70\" x2=\"90\" y2=\"150\" stroke=\"#be123c\" stroke-width=\"1\" fill=\"none\"/>\n  <ellipse cx=\"130\" cy=\"110\" rx=\"14\" ry=\"50\" fill=\"#fda4af\" stroke=\"#9f1239\" stroke-width=\"1.5\"/>\n  <line x1=\"130\" y1=\"70\" x2=\"130\" y2=\"150\" stroke=\"#be123c\" stroke-width=\"1\" fill=\"none\"/>\n  <ellipse cx=\"170\" cy=\"110\" rx=\"14\" ry=\"50\" fill=\"#fda4af\" stroke=\"#9f1239\" stroke-width=\"1.5\"/>\n  <line x1=\"170\" y1=\"70\" x2=\"170\" y2=\"150\" stroke=\"#be123c\" stroke-width=\"1\" fill=\"none\"/>\n  <ellipse cx=\"210\" cy=\"110\" rx=\"14\" ry=\"50\" fill=\"#fda4af\" stroke=\"#9f1239\" stroke-width=\"1.5\"/>\n  <line x1=\"210\" y1=\"70\" x2=\"210\" y2=\"150\" stroke=\"#be123c\" stroke-width=\"1\" fill=\"none\"/>\n  <ellipse cx=\"250\" cy=\"110\" rx=\"14\" ry=\"50\" fill=\"#fda4af\" stroke=\"#9f1239\" stroke-width=\"1.5\"/>\n  <line x1=\"250\" y1=\"70\" x2=\"250\" y2=\"150\" stroke=\"#be123c\" stroke-width=\"1\" fill=\"none\"/>\n  <text x=\"160\" y=\"204\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">Many finger-like folds line the wall</text>\n</svg>", "alt": "A section of the small intestine wall lined with many closely packed finger-like folds."}
   },
   {
     id: "g7-sci-nutrition-a-q18",
@@ -291,7 +296,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-sci-nutrition-a-q23",
-    prompt: "Amoeba takes in food using\u2026",
+    prompt: "Look at the organism taking in food. Amoeba takes in food using…",
     options: [
       { id: "a", text: "Teeth" },
       { id: "b", text: "Stomata" },
@@ -299,8 +304,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Gills" }
     ],
     answerId: "c",
-    explanation: "Pseudopodia surround food to form a food vacuole.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Amoeba surrounds food with soft projections called pseudopodia. Teeth are tempting because they are used for taking in food in many animals, but amoeba has no teeth.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A single-celled organism with an uneven outline beside a small particle labelled food.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A tiny organism taking in food</text>\n  <path d=\"M 80 110 C 70 70 130 50 160 80 C 190 50 250 70 230 110 C 250 150 200 180 160 150 C 120 180 70 150 80 110 Z\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"2\"/>\n  <circle cx=\"140\" cy=\"100\" r=\"8\" fill=\"#e0f2fe\" stroke=\"#0369a1\" stroke-width=\"2\"/>\n  <circle cx=\"250\" cy=\"90\" r=\"10\" fill=\"#86efac\" stroke=\"#166534\" stroke-width=\"2\"/>\n  <text x=\"278\" y=\"94\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">food</text>\n  <path d=\"M 210 90 C 230 80 235 85 240 90\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/>\n  <path d=\"M 210 120 C 230 125 235 115 240 100\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/>\n</svg>", "alt": "A single-celled organism with an uneven outline beside a small particle labelled food."}
   },
   {
     id: "g7-sci-nutrition-a-q24",
@@ -320,7 +326,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g7-sci-nutrition-b-q01",
-    prompt: "Raw materials for photosynthesis are mainly\u2026",
+    prompt: "Look at the plant. Raw materials for photosynthesis are mainly…",
     options: [
       { id: "a", text: "Carbon dioxide and water" },
       { id: "b", text: "Oxygen and nitrogen" },
@@ -328,8 +334,9 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Soil only" }
     ],
     answerId: "a",
-    explanation: "CO\u2082 and water are used; light and chlorophyll are also needed.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "The plant takes in carbon dioxide from the air and water from the soil, and those are the main raw materials for photosynthesis. Proteins and fats are made in living things; they are not the starting materials of this process.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A green plant growing in soil in sunlight.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A green plant in sunlight</text>\n  <circle cx=\"50\" cy=\"36\" r=\"12\" fill=\"#facc15\" stroke=\"#ca8a04\" stroke-width=\"2\"/>\n  <line x1=\"160\" y1=\"80\" x2=\"160\" y2=\"160\" stroke=\"#166534\" stroke-width=\"3\" fill=\"none\"/>\n  <ellipse cx=\"130\" cy=\"90\" rx=\"28\" ry=\"16\" fill=\"#4ade80\" stroke=\"#166534\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"190\" cy=\"90\" rx=\"28\" ry=\"16\" fill=\"#4ade80\" stroke=\"#166534\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"160\" cy=\"70\" rx=\"24\" ry=\"14\" fill=\"#4ade80\" stroke=\"#166534\" stroke-width=\"1.5\"/>\n  <line x1=\"160\" y1=\"160\" x2=\"130\" y2=\"190\" stroke=\"#78350f\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"160\" y1=\"160\" x2=\"190\" y2=\"190\" stroke=\"#78350f\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"160\" y1=\"160\" x2=\"160\" y2=\"196\" stroke=\"#78350f\" stroke-width=\"2\" fill=\"none\"/>\n  <rect x=\"40\" y=\"196\" width=\"240\" height=\"8\" fill=\"#a16207\" stroke=\"#78350f\" stroke-width=\"1\"/>\n</svg>", "alt": "A green plant growing in soil in sunlight."}
   },
   {
     id: "g7-sci-nutrition-b-q02",
@@ -385,7 +392,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-sci-nutrition-b-q06",
-    prompt: "Starch in leaves can be tested with\u2026",
+    prompt: "Look at the leaf in the dish. Starch in leaves can be tested with…",
     options: [
       { id: "a", text: "Limewater only" },
       { id: "b", text: "Iodine solution" },
@@ -393,8 +400,9 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Copper sulphate only for starch" }
     ],
     answerId: "b",
-    explanation: "Iodine turns blue-black with starch.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Iodine solution is used to test for starch and turns blue-black if starch is present. “Limewater only” is tempting because it is a common test reagent, but it is used for carbon dioxide, not for starch.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A green leaf lies in a shallow dish. A dropper above the dish is adding a liquid to the leaf.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A leaf test in a dish</text>\n  <ellipse cx=\"160\" cy=\"120\" rx=\"90\" ry=\"50\" fill=\"#fef3c7\" stroke=\"#333\" stroke-width=\"2\"/>\n  <ellipse cx=\"160\" cy=\"110\" rx=\"50\" ry=\"22\" fill=\"#86efac\" stroke=\"#166534\" stroke-width=\"1.5\"/>\n  <rect x=\"200\" y=\"40\" width=\"10\" height=\"40\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <polygon points=\"200,80 210,80 205,92\" fill=\"#78350f\" stroke=\"#333\" stroke-width=\"1\"/>\n  <text x=\"230\" y=\"55\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">liquid</text>\n  <text x=\"160\" y=\"200\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">A liquid is added to a leaf in a dish</text>\n</svg>", "alt": "A green leaf lies in a shallow dish. A dropper above the dish is adding a liquid to the leaf."}
   },
   {
     id: "g7-sci-nutrition-b-q07",
@@ -411,7 +419,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-sci-nutrition-b-q08",
-    prompt: "In human digestion, starch digestion begins in the\u2026",
+    prompt: "Look at the digestive tract. In human digestion, starch digestion begins in the…",
     options: [
       { id: "a", text: "Stomach only" },
       { id: "b", text: "Large intestine" },
@@ -419,12 +427,13 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Mouth" }
     ],
     answerId: "d",
-    explanation: "Salivary amylase starts breaking down starch.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Starch digestion begins in the mouth, where saliva acts on it. “Stomach only” is tempting because protein digestion begins there, but starch digestion has already started in the mouth.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A simple digestive system with four parts labelled P, Q, R and S.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">The digestive system</text>\n  <path d=\"M 110 36 Q 160 28 210 36 L 236 196 Q 160 206 84 196 Z\" fill=\"#fffdf7\" stroke=\"#999\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"160\" cy=\"46\" rx=\"12\" ry=\"6\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"2\"/>\n  <line x1=\"160\" y1=\"52\" x2=\"160\" y2=\"101\" stroke=\"#333\" stroke-width=\"3\" fill=\"none\"/>\n  <path d=\"M 112 96 Q 140 86 156 98 L 150 124 Q 128 130 110 116 Z\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"174\" cy=\"112\" rx=\"22\" ry=\"16\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <path d=\"M 112 186 L 112 146 L 208 146 L 208 186\" fill=\"none\" stroke=\"#333\" stroke-width=\"5\"/>\n  <line x1=\"78\" y1=\"46\" x2=\"146\" y2=\"46\" stroke=\"#333\" stroke-width=\"1.2\" fill=\"none\"/>\n  <text x=\"70\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">P</text>\n  <line x1=\"78\" y1=\"108\" x2=\"112\" y2=\"108\" stroke=\"#333\" stroke-width=\"1.2\" fill=\"none\"/>\n  <text x=\"70\" y=\"112\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">Q</text>\n  <line x1=\"250\" y1=\"108\" x2=\"196\" y2=\"112\" stroke=\"#333\" stroke-width=\"1.2\" fill=\"none\"/>\n  <text x=\"258\" y=\"112\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">R</text>\n  <line x1=\"250\" y1=\"166\" x2=\"210\" y2=\"168\" stroke=\"#333\" stroke-width=\"1.2\" fill=\"none\"/>\n  <text x=\"258\" y=\"170\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">S</text>\n</svg>", "alt": "A simple digestive system with four parts labelled P, Q, R and S."}
   },
   {
     id: "g7-sci-nutrition-b-q09",
-    prompt: "The finger-like projections for absorption are\u2026",
+    prompt: "Look at the close-up of one fold. The finger-like projections for absorption are…",
     options: [
       { id: "a", text: "Villi" },
       { id: "b", text: "Alveoli only" },
@@ -432,8 +441,9 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Stomata" }
     ],
     answerId: "a",
-    explanation: "Intestinal villi absorb nutrients.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "The finger-like projections are villi, which absorb digested food. “Alveoli only” is tempting because they are also tiny structures with a large surface, but they are the air sacs of the lungs.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A close-up of one finger-like fold from a gut wall, with a thin blood vessel running up the middle.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A close-up of one fold</text>\n  <path d=\"M 80 200 L 80 90 Q 160 20 240 90 L 240 200\" fill=\"#fecaca\" stroke=\"#9f1239\" stroke-width=\"2\"/>\n  <path d=\"M 160 40 L 160 180\" fill=\"none\" stroke=\"#be123c\" stroke-width=\"1.5\"/>\n  <path d=\"M 160 80 C 140 90 140 110 160 120\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"1.5\"/>\n  <path d=\"M 160 120 C 180 130 180 150 160 160\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"1.5\"/>\n  <text x=\"160\" y=\"214\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">A thin blood vessel runs inside the fold</text>\n</svg>", "alt": "A close-up of one finger-like fold from a gut wall, with a thin blood vessel running up the middle."}
   },
   {
     id: "g7-sci-nutrition-b-q10",
@@ -580,7 +590,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-sci-nutrition-b-q21",
-    prompt: "Water and minerals are transported from roots mainly through\u2026",
+    prompt: "Look at the paths in the stem. Water and minerals are transported from roots mainly through…",
     options: [
       { id: "a", text: "Xylem" },
       { id: "b", text: "Phloem only" },
@@ -588,8 +598,9 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Nerves" }
     ],
     answerId: "a",
-    explanation: "Xylem carries water and minerals upward.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Water and minerals travel up from the roots in the xylem, shown as path P. “Phloem only” is tempting because it is the other transport tissue, but phloem mainly carries food from the leaves, as along path Q.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A plant with roots in the soil. Arrow P points up the stem from the roots. Arrow Q points down the stem from the leaves.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Paths in a plant stem</text>\n  <line x1=\"160\" y1=\"50\" x2=\"160\" y2=\"150\" stroke=\"#166534\" stroke-width=\"4\" fill=\"none\"/>\n  <ellipse cx=\"130\" cy=\"60\" rx=\"24\" ry=\"14\" fill=\"#4ade80\" stroke=\"#166534\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"190\" cy=\"60\" rx=\"24\" ry=\"14\" fill=\"#4ade80\" stroke=\"#166534\" stroke-width=\"1.5\"/>\n  <line x1=\"160\" y1=\"150\" x2=\"130\" y2=\"190\" stroke=\"#78350f\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"160\" y1=\"150\" x2=\"190\" y2=\"190\" stroke=\"#78350f\" stroke-width=\"2\" fill=\"none\"/>\n  <rect x=\"40\" y=\"194\" width=\"240\" height=\"8\" fill=\"#a16207\" stroke=\"#78350f\" stroke-width=\"1\"/>\n  <line x1=\"148\" y1=\"140\" x2=\"148\" y2=\"80\" stroke=\"#1d4ed8\" stroke-width=\"2\" fill=\"none\"/>  <polyline points=\"151.0,86.0 148,80 145.0,86.0\" stroke=\"#1d4ed8\" stroke-width=\"2\" fill=\"none\"/>\n  <text x=\"128\" y=\"110\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">P</text>\n  <line x1=\"172\" y1=\"80\" x2=\"172\" y2=\"140\" stroke=\"#b91c1c\" stroke-width=\"2\" fill=\"none\"/>  <polyline points=\"169.0,134.0 172,140 175.0,134.0\" stroke=\"#b91c1c\" stroke-width=\"2\" fill=\"none\"/>\n  <text x=\"190\" y=\"110\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Q</text>\n  <text x=\"160\" y=\"216\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">P goes up from the roots; Q goes down from the leaves</text>\n</svg>", "alt": "A plant with roots in the soil. Arrow P points up the stem from the roots. Arrow Q points down the stem from the leaves."}
   },
   {
     id: "g7-sci-nutrition-b-q22",
