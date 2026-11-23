@@ -342,8 +342,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "4" }
     ],
     answerId: "b",
-    explanation: "Degree 2 ⇒ at most 2 zeros. 1 is tempting if you list only one factor’s root and skip the other.",
-    hints: ["Some quadratics cut the x-axis at a negative number and also at a positive one. So the smallest choice is too few."]
+    explanation: "A quadratic has degree 2, so it can have at most 2 zeros. For example, (x − 2)(x + 3) = x² + x − 6 has the zeros 2 and −3. 3 is tempting if you count the three terms of ax² + bx + c as three zeros. Terms are not zeros. The highest power sets how many zeros there can be.",
+    hints: ["Test the biggest choice: multiply that many brackets like (x − r). If the top power is more than a quadratic allows, drop that choice."]
   },
   {
     id: "g9-maths-poly-b-q03",
