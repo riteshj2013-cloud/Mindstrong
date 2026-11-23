@@ -80,7 +80,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "√(16/25) = √16 / √25 = 4/5. 16/25 is tempting if you forget to take the square root and copy the fraction under the root sign.",
-    hints: ["Take the square root of 16 and of 25 separately."]
+    hints: ["This \u221a works on a proper fraction, and the root of a proper fraction is proper too. Cross out the improper one."]
   },
   {
     id: "g9-maths-numbers-a-q07",
@@ -119,7 +119,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Let x = 0.666…; then 10x − x = 6, so 9x = 6 and x = 6/9 = 2/3. 6/10 is tempting if you read 0.666… as 0.6 and stop after one decimal place.",
-    hints: ["Let x = 0.666…, so 10x − x = 6. Then simplify the fraction you get."]
+    hints: ["A choice over 100 is a decimal that stops after two places, while 0.666\u2026 goes on for ever. Strike it."]
   },
   {
     id: "g9-maths-numbers-a-q10",
@@ -356,7 +356,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "√(49/64) = √49 / √64 = 7/8. 49/64 is tempting if you forget to take the square root and copy the fraction under the root sign.",
-    hints: ["Take the square root of 49 and of 64 separately."]
+    hints: ["The top number under this \u221a has a whole-number square root. So a choice still showing a root sign on top is wrong."]
   },
   {
     id: "g9-maths-numbers-b-q04",

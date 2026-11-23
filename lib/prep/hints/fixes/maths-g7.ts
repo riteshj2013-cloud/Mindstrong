@@ -35,7 +35,7 @@ export const G7_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g7-maths-integers-b-q11": ["Divide the product by the factor you already know. Work out the size first, then decide the sign of the other factor on its own."],
   "g7-maths-integers-b-q13": ["Is 50 even or odd? Is 51? Work out each power of −1, then add the two results."],
   "g7-maths-integers-b-q14": ["Work out what the two negative numbers make together, then bring in the positive one. Picture each step as a move along a number line."],
-  "g7-maths-integers-b-q16": ["Undefined means it has no answer. Can any number times zero ever give 7?"],
+  "g7-maths-integers-b-q16": ["In a division of a number by itself, the answer is exactly one, so that choice is not undefined. Cross it out."],
   "g7-maths-integers-b-q18": ["Work from left to right: evaluate the dividing first, then the multiplying. Decide the sign again at each step."],
   "g7-maths-integers-b-q20": ["In a × (b + c), a multiplies each term inside the bracket. Which property spreads × over +?"],
   "g7-maths-integers-b-q21": ["Which two numbers are 12 steps from zero? Pick the negative one, then subtract 5."],
@@ -145,8 +145,7 @@ export const G7_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
 
   "g7-maths-integers-a-q03": ["On a number line, which direction means smaller? Then compare −12 with the other three."],
 
-  "g7-maths-integers-a-q17": ["What sign does a negative times a negative give? And a negative times a positive?"],
-
+  "g7-maths-integers-a-q17": ["Times \u22121 turns a number into its opposite. So the choice that is \u22121 times a positive whole number ends up below zero; drop it."],
   "g7-maths-integers-a-q19": ["Does 'successor' mean the integer just before or just after?"],
 
   "g7-maths-integers-b-q07": ["Mark the submarine's depth on an up-and-down number line with sea level at zero. Draw the rise as an arrow, then read where it ends."],

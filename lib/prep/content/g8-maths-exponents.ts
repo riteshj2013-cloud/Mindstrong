@@ -197,7 +197,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Move the point 4 places: 5.6 × 10⁻⁴. 5.6 × 10⁴ is tempting if you use a positive power of 10 instead of the negative power needed for a number less than 1.",
-    hints: ["Move the decimal point of 0.00056 right until one non-zero digit is before it. Count the moves; the power of 10 is negative."]
+    hints: ["0.00056 is less than 1, so its power of 10 has to be negative. Cross out the positive power."]
   },
   {
     id: "g8-maths-exponents-a-q16",
@@ -512,7 +512,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "The point in 720000 moves 5 places to sit just after the 7, so 720000 = 7.2 × 10⁵. 7.2 × 10⁴ is tempting if you count only the four zeros and forget the move past the 2.",
-    hints: ["Put the decimal point of 720000 after the first digit. Count how many places it moved; that is the power of 10."]
+    hints: ["720000 is a big number, so its power of 10 must be above zero. Strike the choice whose power has a minus sign."]
   },
   {
     id: "g8-maths-exponents-b-q16",

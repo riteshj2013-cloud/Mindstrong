@@ -15,7 +15,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Like denominators: 3/4 + 1/4 = 4/4 = 1. 4/8 is tempting if you add the tops and the bottoms instead of matching denominators first; with a common denominator the sum is 1.",
-    hints: ["Same denominators: add the numerators of 3/4 and the other quarter. Four quarters make what?"]
+    hints: ["Each fraction here has 4 at the bottom, and they are added. A choice found by multiplying them instead is wrong, so cross it out."]
   },
   {
     id: "g6-maths-frac-a-q02",
@@ -28,7 +28,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "5/6 − 1/6 = 4/6, and dividing the top and bottom by 2 gives 2/3. 4/12 is tempting if you subtract the tops but add the bottoms, 6 + 6 = 12.",
-    hints: ["Subtract the tops 5 − 1, keep sixths, then divide top and bottom by 2."]
+    hints: ["Taking 1/6 away cannot give the same as adding it. Cross out the choice you get by adding the tops."]
   },
   {
     id: "g6-maths-frac-a-q03",
@@ -67,7 +67,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The 7 in 0.7 is in the tenths place, so 0.7 = 7/10, which is already in simplest form. 7/100 is tempting if you read the 7 as 7 hundredths instead of 7 tenths.",
-    hints: ["The 7 in 0.7 is in the tenths place. Write it over that place value, then check if it simplifies."]
+    hints: ["Dropping the point from 0.7 gives a whole number, which is much more than 0.7. Cross out that choice."]
   },
   {
     id: "g6-maths-frac-a-q06",
@@ -184,7 +184,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "The HCF of 18 and 24 is 6, so 18/24 = 3/4. 6/12 is tempting if you subtract 12 from the top and the bottom instead of dividing both by the same number.",
-    hints: ["Find the HCF of 18 and 24, then divide the top and bottom by it."]
+    hints: ["Simplest form means dividing top and bottom by one number. Taking 12 off both is not that, so drop the choice made that way."]
   },
   {
     id: "g6-maths-frac-a-q15",
@@ -343,7 +343,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "1/4 = 2/8, so 5/8 − 2/8 = 3/8. 4/8 is tempting if you take 1 from the top of 5/8 without first writing 1/4 as 2/8.",
-    hints: ["Write 1/4 as eighths first, then subtract it from 5/8."]
+    hints: ["Don't take top from top and bottom from bottom when the bottoms are 8 and 4. Strike the choice made that way."]
   },
   {
     id: "g6-maths-frac-b-q03",

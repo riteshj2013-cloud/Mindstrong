@@ -223,7 +223,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A product is positive when the count of negative factors is even. (−3) × (−7) has two negatives, so it is positive. '(−1) × 12' is tempting if you think multiplying by −1 changes nothing, like multiplying by 1, so it looks like +12.",
-    hints: ["What sign does a negative times a negative give? And a negative times a positive?"]
+    hints: ["Times \u22121 turns a number into its opposite. So the choice that is \u22121 times a positive whole number ends up below zero; drop it."]
   },
   {
     id: "g7-maths-integers-a-q18",
@@ -525,7 +525,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Division by zero is never defined. No number times 0 gives 7, so 7 ÷ 0 has no answer. 0 ÷ 7 is tempting if you mix it up with 7 ÷ 0. But 0 ÷ 7 = 0, because 7 × 0 = 0.",
-    hints: ["Undefined means it has no answer. Can any number times zero ever give 7?"]
+    hints: ["In a division of a number by itself, the answer is exactly one, so that choice is not undefined. Cross it out."]
   },
   {
     id: "g7-maths-integers-b-q17",

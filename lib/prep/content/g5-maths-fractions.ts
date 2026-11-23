@@ -153,7 +153,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "The HCF of 12 and 18 is 6. 12 ÷ 6 = 2 and 18 ÷ 6 = 3, so 12/18 = 2/3. 4/9 is tempting if you divide the top by 3 but the bottom by 2. The top and bottom must be divided by the same number.",
-    hints: ["Find the HCF of 12 and 18, then divide the top and bottom by it."]
+    hints: ["The top of 12/18 is smaller than its bottom, so the fraction is below 1. Simplifying keeps that true; strike the choice above 1."]
   },
   {
     id: "g5-maths-frac-a-q12",
@@ -310,7 +310,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "Together they ate 2/9 + 4/9 = 6/9, so 9/9 − 6/9 = 3/9 is left, which simplifies to 1/3. 2/3 is tempting if you give the part they ate, 6/9 = 2/3, instead of the part left.",
-    hints: ["Add what Meera and her brother ate, take it from 9/9, then simplify."]
+    hints: ["Meera's own share is not what is left, because two people ate. Cross out the choice equal to her share alone."]
   },
   {
     id: "g5-maths-frac-a-q24",
@@ -515,7 +515,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "7/8 − 3/8 = 4/8, and dividing the top and bottom by 4 gives 1/2. 4/16 is tempting if you add the bottoms, 8 + 8 = 16, as well as subtracting the tops.",
-    hints: ["Same bottoms: subtract the tops 7 − 3, keep eighths, then simplify."]
+    hints: ["Eighths taken from eighths still leave a fraction in simplest form, not a whole number. Cross out the whole number."]
   },
   {
     id: "g5-maths-frac-b-q15",
@@ -634,7 +634,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "She gave away 3/10 + 5/10 = 8/10, so 10/10 − 8/10 = 2/10 is left, which simplifies to 1/5. 4/5 is tempting if you give the part she gave away, 8/10 = 4/5, instead of the part left.",
-    hints: ["Add the parts given to the neighbour and sister, take them from 10/10, then simplify."]
+    hints: ["What Amma handed out and what she kept are different parts. Drop the choice that equals the part she handed out."]
   },
   {
     id: "g5-maths-frac-b-q24",

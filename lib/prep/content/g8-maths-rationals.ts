@@ -28,7 +28,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Standard form needs a positive denominator and lowest terms. 9/-12 = -9/12, and dividing the top and bottom by 3 gives -3/4. 3/4 is tempting if you drop the minus sign instead of moving it to the top.",
-    hints: ["Move the minus sign from −12 up to the numerator, then divide 9 and 12 by their HCF."]
+    hints: ["A positive number over a negative one is negative, so the standard form keeps a minus sign. Cross out the choice with none."]
   },
   {
     id: "g8-maths-rational-a-q03",
@@ -343,7 +343,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "The two negatives cancel: -15/-25 = 15/25, and dividing the top and bottom by 5 gives 3/5. -3/5 is tempting if you keep one minus sign instead of cancelling both.",
-    hints: ["The two negatives in −15/−25 cancel. Then divide 15 and 25 by their HCF."]
+    hints: ["Standard form keeps the value, so top and bottom shrink together. A choice where only the top shrank has a different value; strike it."]
   },
   {
     id: "g8-maths-rational-b-q03",

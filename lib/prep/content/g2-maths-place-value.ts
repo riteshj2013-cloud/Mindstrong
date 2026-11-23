@@ -53,7 +53,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "10 ones bundled together make 1 ten. '10 tens' is tempting, but 10 tens make 100.",
-    hints: ["Trade ten ones."]
+    hints: ["Ten ones put together are still something you can count. So cross out the choice that means nothing at all."]
   },
   {
     id: "g2-maths-place-a-q05",
@@ -170,7 +170,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "3 packs of 10 is 3 tens = 30, and 4 loose stickers make 34. 43 is tempting, but that swaps the tens and the ones.",
-    hints: ["Packs are tens."]
+    hints: ["Just one of Riya's packs has 10 stickers. A total smaller than that cannot be right."]
   },
   {
     id: "g2-maths-place-a-q14",
@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "5 tens is 10 + 10 + 10 + 10 + 10 = 50. 5 is tempting, but that is 5 ones, not 5 tens.",
-    hints: ["5 × 10."]
+    hints: ["Five bundles of ten stay below a hundred. Any number in the hundreds is far too big."]
   },
   {
     id: "g2-maths-place-a-q15",
@@ -264,7 +264,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "4 tens is 40, and 0 ones adds nothing, so the number is 40. 4 is tempting, but that is 4 ones, not 4 tens.",
-    hints: ["Write 4 then 0."]
+    hints: ["Tens and ones together give a number with two digits. Strike the choice that is too long."]
   },
   {
     id: "g2-maths-place-b-q05",
@@ -316,7 +316,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "9 tens is 90, and 2 more ones make 92. 29 is tempting, but that swaps the tens and the ones.",
-    hints: ["9 tens is 90. Add 2 ones to 90."]
+    hints: ["Nine bundles of ten are way past twenty. So a small number below twenty does not fit."]
   },
   {
     id: "g2-maths-place-b-q09",
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "2 notes of ₹10 make ₹20, and 3 coins of ₹1 make ₹3, so the total is ₹23. ₹32 is tempting, but that swaps the tens and the ones.",
-    hints: ["Notes are tens."]
+    hints: ["Two \u20b910 notes are more money than one \u20b910 note. So a total under \u20b910 is wrong. Cross it out."]
   },
   {
     id: "g2-maths-place-b-q11",
@@ -420,7 +420,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "2 tens is 20, and 15 + 20 = 35. 17 is tempting, but that adds 2 ones instead of 2 tens.",
-    hints: ["Add two tens."]
+    hints: ["Putting tens on top of 15 can only make it grow. A number smaller than 15 is wrong."]
   }
 ];
 

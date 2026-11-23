@@ -27,7 +27,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "At 3:00 the hour hand is on 3.",
-    hints: ["Hour hand shorter."]
+    hints: ["At this time the long hand points to the top. This question is about the other hand, so skip the top number."]
   },
   {
     id: "g2-maths-timemoney-a-q03",
@@ -79,7 +79,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "A ₹1 coin and a ₹2 coin make 1 + 2 = ₹3. ₹2 is tempting, but that counts only the bigger coin.",
-    hints: ["Add coins."]
+    hints: ["Coins put together are worth more than the smaller coin by itself. Cross out the total that matches the smaller coin."]
   },
   {
     id: "g2-maths-timemoney-a-q07",
@@ -118,7 +118,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "A whole day and night has 24 hours: the hour hand goes round the clock twice. 12 is tempting, but that is only one trip round the clock.",
-    hints: ["Day and night."]
+    hints: ["One choice is how many days make a week. That counts days, so it is not the answer here."]
   },
   {
     id: "g2-maths-timemoney-a-q10",
@@ -225,7 +225,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "1 minute has 60 seconds, just as 1 hour has 60 minutes. 100 is tempting because we count many things in hundreds, but time uses 60.",
-    hints: ["Same as minutes in an hour."]
+    hints: ["Seconds are tiny bits of time. The hours in a whole day and night do not fit here; leave that one out."]
   },
   {
     id: "g2-maths-timemoney-b-q02",
@@ -238,7 +238,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "At 6:00 the short hour hand points to 6. 12 is tempting, but at 6:00 it is the long minute hand that points to 12.",
-    hints: ["Bottom of clock."]
+    hints: ["Look at the shorter hand. The tall hand stands straight up at o'clock times, so its number is not the answer."]
   },
   {
     id: "g2-maths-timemoney-b-q03",
@@ -264,7 +264,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Sunday is one of the 7 days of the week. Hour is tempting because it is also a unit of time, but an hour is much shorter than a day.",
-    hints: ["Seven days."]
+    hints: ["Sunday is about time, not money. Cross out the choice you could spend at a shop."]
   },
   {
     id: "g2-maths-timemoney-b-q05",
@@ -290,7 +290,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "Three ₹2 coins make 2 + 2 + 2 = ₹6. ₹4 is tempting, but that counts only two of the three coins.",
-    hints: ["Three twos."]
+    hints: ["Having three coins gives more money than having just one. So the amount of a single coin is wrong."]
   },
   {
     id: "g2-maths-timemoney-b-q07",
