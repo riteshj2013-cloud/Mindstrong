@@ -515,7 +515,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "7/8 − 3/8 = 4/8, and dividing the top and bottom by 4 gives 1/2. 4/16 is tempting if you add the bottoms, 8 + 8 = 16, as well as subtracting the tops.",
-    hints: ["Taking eighths away from eighths still leaves a fraction, not a whole number. Cross out the whole number."]
+    hints: ["Eighths taken from eighths still leave a fraction in simplest form, not a whole number. Cross out the whole number."]
   },
   {
     id: "g5-maths-frac-b-q15",

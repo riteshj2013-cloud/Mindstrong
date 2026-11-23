@@ -525,7 +525,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "Division by zero is never defined. No number times 0 gives 7, so 7 ÷ 0 has no answer. 0 ÷ 7 is tempting if you mix it up with 7 ÷ 0. But 0 ÷ 7 = 0, because 7 × 0 = 0.",
-    hints: ["A number shared out by itself gives exactly one each time, so that choice has an answer. Cross it out."]
+    hints: ["In a division of a number by itself, the answer is exactly one, so that choice is not undefined. Cross it out."]
   },
   {
     id: "g7-maths-integers-b-q17",

@@ -91,7 +91,7 @@ export const G5_MATHS_HINTS: Record<string, HintOverlay> = {
   "g5-maths-frac-b-q11": ["Divide top and bottom by the same number until you cannot."],
   "g5-maths-frac-b-q12": ["Write Harshita's fraction and her cousin's fraction as twelfths, or compare the size of the piece each girl still has left."],
   "g5-maths-frac-b-q13": ["Divide the whole by the bottom number, then multiply by the top if needed."],
-  "g5-maths-frac-b-q14": ["Taking eighths away from eighths still leaves a fraction, not a whole number. Cross out the whole number."],
+  "g5-maths-frac-b-q14": ["Eighths taken from eighths still leave a fraction in simplest form, not a whole number. Cross out the whole number."],
   "g5-maths-frac-b-q15": ["Read the tick labels; the dashed flag sits on one of them."],
   "g5-maths-frac-b-q16": ["Count equal jumps from 0 to 1, then see where the point sits."],
   "g5-maths-frac-b-q17": ["For unit fractions, a bigger bottom means a smaller piece."],

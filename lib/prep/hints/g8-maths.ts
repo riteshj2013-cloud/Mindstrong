@@ -123,7 +123,7 @@ export const G8_MATHS_HINTS: Record<string, HintOverlay> = {
   "g8-maths-rational-a-q23": ["Watch the signs; use a number line to check."],
   "g8-maths-rational-a-q24": ["Same signs → positive; different signs → negative."],
   "g8-maths-rational-b-q01": ["Watch the signs; use a number line to check."],
-  "g8-maths-rational-b-q02": ["Both parts of a fraction must shrink by the same factor. A choice where only the numerator shrank has a different value; strike it."],
+  "g8-maths-rational-b-q02": ["Standard form keeps the value, so top and bottom shrink together. A choice where only the top shrank has a different value; strike it."],
   "g8-maths-rational-b-q03": ["Opposite means the same distance on the other side of 0."],
   "g8-maths-rational-b-q04": ["Watch the signs; use a number line to check."],
   "g8-maths-rational-b-q05": ["Watch the signs; use a number line to check."],

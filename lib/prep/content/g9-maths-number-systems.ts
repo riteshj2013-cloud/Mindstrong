@@ -80,7 +80,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "c",
     explanation: "√(16/25) = √16 / √25 = 4/5. 16/25 is tempting if you forget to take the square root and copy the fraction under the root sign.",
-    hints: ["Taking the square root of a number between 0 and 1 never pushes it past 1. Strike the choice bigger than 1."]
+    hints: ["This \u221a works on a proper fraction, and the root of a proper fraction is proper too. Cross out the improper one."]
   },
   {
     id: "g9-maths-numbers-a-q07",
@@ -356,7 +356,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "√(49/64) = √49 / √64 = 7/8. 49/64 is tempting if you forget to take the square root and copy the fraction under the root sign.",
-    hints: ["The top number here has a whole-number square root. So a choice still showing a root sign on top is wrong."]
+    hints: ["The top number under this \u221a has a whole-number square root. So a choice still showing a root sign on top is wrong."]
   },
   {
     id: "g9-maths-numbers-b-q04",

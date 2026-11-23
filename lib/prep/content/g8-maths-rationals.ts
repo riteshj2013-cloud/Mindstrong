@@ -343,7 +343,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "The two negatives cancel: -15/-25 = 15/25, and dividing the top and bottom by 5 gives 3/5. -3/5 is tempting if you keep one minus sign instead of cancelling both.",
-    hints: ["Both parts of a fraction must shrink by the same factor. A choice where only the numerator shrank has a different value; strike it."]
+    hints: ["Standard form keeps the value, so top and bottom shrink together. A choice where only the top shrank has a different value; strike it."]
   },
   {
     id: "g8-maths-rational-b-q03",

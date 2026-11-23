@@ -109,7 +109,7 @@ export const G5_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g5-maths-frac-b-q11": ["Divide the top 6 and bottom 8 by their common factor 2."],
   "g5-maths-frac-b-q12": ["Write Harshita's fraction and her cousin's fraction as twelfths, or compare the size of the piece each girl still has left."],
   "g5-maths-frac-b-q13": ["Find 1/4 of 32 mangoes by dividing by 4, then multiply by 3."],
-  "g5-maths-frac-b-q14": ["Taking eighths away from eighths still leaves a fraction, not a whole number. Cross out the whole number."],
+  "g5-maths-frac-b-q14": ["Eighths taken from eighths still leave a fraction in simplest form, not a whole number. Cross out the whole number."],
   "g5-maths-frac-b-q16": ["The point is 6 jumps of 1/8 each. Write that as a fraction over 8, then divide top and bottom by their common factor."],
   "g5-maths-frac-b-q17": ["All have the same bottom, 12. Order them from largest to smallest by comparing the tops."],
   "g5-maths-frac-b-q18": ["What do you multiply 4 by to get 24? Multiply 5 by the same number."],

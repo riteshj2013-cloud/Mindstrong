@@ -36,7 +36,7 @@ export const G8_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g8-maths-rational-a-q23": ["1/x is the reciprocal of −3/2. Add x and 1/x using the common denominator 6."],
   "g8-maths-rational-a-q24": ["Divide −15/28 by 5/−7: multiply by the reciprocal and watch the two negative signs."],
   "g8-maths-rational-b-q01": ["Simplify each number. Which rational number cannot become a whole number, the way 12/4 can?"],
-  "g8-maths-rational-b-q02": ["Both parts of a fraction must shrink by the same factor. A choice where only the numerator shrank has a different value; strike it."],
+  "g8-maths-rational-b-q02": ["Standard form keeps the value, so top and bottom shrink together. A choice where only the top shrank has a different value; strike it."],
   "g8-maths-rational-b-q03": ["First rewrite 4/−9 with the minus sign on top. The additive inverse changes only the sign."],
   "g8-maths-rational-b-q04": ["The reciprocal flips the numerator and denominator of −5/6. Does the sign change?"],
   "g8-maths-rational-b-q05": ["Same denominators: work out 7 − 3 over 10, then simplify by dividing top and bottom by 2."],

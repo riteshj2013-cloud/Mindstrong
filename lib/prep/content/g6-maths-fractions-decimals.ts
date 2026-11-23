@@ -15,7 +15,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "Like denominators: 3/4 + 1/4 = 4/4 = 1. 4/8 is tempting if you add the tops and the bottoms instead of matching denominators first; with a common denominator the sum is 1.",
-    hints: ["The question adds the fractions. A choice found by multiplying them instead is wrong, so cross it out."]
+    hints: ["Each fraction here has 4 at the bottom, and they are added. A choice found by multiplying them instead is wrong, so cross it out."]
   },
   {
     id: "g6-maths-frac-a-q02",
@@ -184,7 +184,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "The HCF of 18 and 24 is 6, so 18/24 = 3/4. 6/12 is tempting if you subtract 12 from the top and the bottom instead of dividing both by the same number.",
-    hints: ["Simplifying means dividing top and bottom by one number. Taking 12 off both is not that, so drop the choice made that way."]
+    hints: ["Simplest form means dividing top and bottom by one number. Taking 12 off both is not that, so drop the choice made that way."]
   },
   {
     id: "g6-maths-frac-a-q15",
@@ -343,7 +343,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "1/4 = 2/8, so 5/8 − 2/8 = 3/8. 4/8 is tempting if you take 1 from the top of 5/8 without first writing 1/4 as 2/8.",
-    hints: ["Fractions are not subtracted top from top and bottom from bottom. Cross out the choice made that way."]
+    hints: ["Don't take top from top and bottom from bottom when the bottoms are 8 and 4. Strike the choice made that way."]
   },
   {
     id: "g6-maths-frac-b-q03",

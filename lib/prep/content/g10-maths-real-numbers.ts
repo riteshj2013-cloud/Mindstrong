@@ -183,7 +183,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "√5 ≈ 2.236 lies between 2 and 3, and 5 is not a perfect square, so √5 is irrational. 2.5 is tempting because it lies between 2 and 3, but it is a terminating decimal, so it is rational. √10 ≈ 3.16 is irrational but greater than 3.",
-    hints: ["A decimal that stops after one place can be written as a fraction, so it is rational. Cross out that choice."]
+    hints: ["A decimal that stops after one place can be written as a fraction, so it is not irrational. Cross out that choice."]
   },
   {
     id: "g10-maths-real-a-q15",
@@ -342,7 +342,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "The least number divisible by all three is their LCM: 12 = 2² × 3, 16 = 2⁴ and 20 = 2² × 5, so LCM = 2⁴ × 3 × 5 = 240. 120 is tempting, but 120 ÷ 16 = 7.5, so it is not divisible by 16.",
-    hints: ["None of the three numbers has 9 as a factor, so neither does the smallest number they all go into. Drop the choice 9 divides."]
+    hints: ["20, like the other two, has no factor 9, so the least number they all go into doesn't either. Drop the choice 9 divides."]
   },
   {
     id: "g10-maths-real-b-q03",
@@ -394,7 +394,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "A single repeating digit d is d/9, so 0.444\u2026 = 4/9 and 0.222\u2026 = 2/9. Their sum is 4/9 + 2/9 = 6/9 = 2/3. 3/5 is tempting if you add 0.4 + 0.2 = 0.6 and treat the decimals as if they stopped.",
-    hints: ["A sum of two never-ending decimals still never ends here. Strike the choice whose decimal stops."]
+    hints: ["Two never-ending decimals add to a never-ending one here, so the fraction can't be one whose decimal stops. Strike that choice."]
   },
   {
     id: "g10-maths-real-b-q07",

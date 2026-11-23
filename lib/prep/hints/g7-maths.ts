@@ -41,7 +41,7 @@ export const G7_MATHS_HINTS: Record<string, HintOverlay> = {
   "g7-maths-integers-b-q13": ["Even count of negatives → positive."],
   "g7-maths-integers-b-q14": ["Work out what the two negative numbers make together, then bring in the positive one. Picture each step as a move along a number line."],
   "g7-maths-integers-b-q15": ["Subtract means add the opposite of b."],
-  "g7-maths-integers-b-q16": ["A number shared out by itself gives exactly one each time, so that choice has an answer. Cross it out."],
+  "g7-maths-integers-b-q16": ["In a division of a number by itself, the answer is exactly one, so that choice is not undefined. Cross it out."],
   "g7-maths-integers-b-q17": ["Write the gain as a positive number and the loss as a negative one. Add them; the sign of the result shows the net."],
   "g7-maths-integers-b-q18": ["Work from left to right: evaluate the dividing first, then the multiplying. Decide the sign again at each step."],
   "g7-maths-integers-b-q19": ["Difference depends on which is larger."],

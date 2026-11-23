@@ -223,7 +223,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "b",
     explanation: "y-axis reflection flips the sign of x. (5, 2) is tempting if you set y = 0 (the x-axis) instead of x = 0.",
-    hints: ["One mirror changes the sign of just one coordinate. The choice with both signs changed is out."]
+    hints: ["Only one number of the point flips when it bounces off the y-axis mirror. Cross out the choice where both numbers flipped."]
   },
   {
     id: "g9-maths-coord-a-q18",
@@ -525,7 +525,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "√[(2−(−1))² + (3−(−1))²] = √(9+16) = 5. 7 is tempting if you square only one difference in the distance formula.",
-    hints: ["The across gap and the up gap here are not equal. So a choice worked out as if both gaps matched is wrong."]
+    hints: ["For this distance, the across gap and the up gap are not equal. So a choice worked out as if both gaps matched is wrong."]
   },
   {
     id: "g9-maths-coord-b-q17",
