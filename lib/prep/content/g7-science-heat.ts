@@ -576,7 +576,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-sci-heat-b-q20",
-    prompt: "Look at the thermometer. The kink in a clinical thermometer is near the…",
+    prompt: "The kink in a clinical thermometer is near the\u2026",
     options: [
       { id: "a", text: "Top tip only" },
       { id: "b", text: "Digital screen" },
@@ -584,9 +584,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Bulb" }
     ],
     answerId: "d",
-    explanation: "The kink sits just above the bulb, where the liquid is stored. “Top tip only” is tempting if the kink is thought to stop the liquid rising too far, but its job is to stop the liquid running back down into the bulb.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
-    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A clinical thermometer with a rounded end marked end A and a far tip marked end B.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A clinical thermometer</text>\n  <rect x=\"50\" y=\"100\" width=\"220\" height=\"14\" fill=\"#e0f2fe\" stroke=\"#333\" stroke-width=\"2\" rx=\"4\"/>\n  <rect x=\"64\" y=\"104\" width=\"152\" height=\"6\" fill=\"#b91c1c\" stroke=\"none\" stroke-width=\"0\"/>\n  <circle cx=\"50\" cy=\"107\" r=\"16\" fill=\"#b91c1c\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text x=\"50\" y=\"80\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">end A</text>\n  <text x=\"250\" y=\"80\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">end B</text>\n</svg>", "alt": "A clinical thermometer with a rounded end marked end A and a far tip marked end B."}
+    explanation: "Constriction is just above the bulb.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g7-sci-heat-b-q21",

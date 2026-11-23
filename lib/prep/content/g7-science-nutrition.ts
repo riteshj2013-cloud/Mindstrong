@@ -564,7 +564,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-sci-nutrition-b-q19",
-    prompt: "Look at the living things. A food web is…",
+    prompt: "A food web is\u2026",
     options: [
       { id: "a", text: "A single straight chain only" },
       { id: "b", text: "Only producers" },
@@ -572,9 +572,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "A vitamin chart" }
     ],
     answerId: "c",
-    explanation: "A food web is made of many food chains that share the same plants or animals. A single straight chain is tempting because a food chain is usually learned first, but most animals eat, and are eaten by, more than one kind of living thing, so the chains link up.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
-    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Six boxes labelled grass, insect, frog, mouse, snake and hawk.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Living things in a meadow</text>\n  <rect x=\"40\" y=\"150\" width=\"60\" height=\"24\" fill=\"#fef9c3\" stroke=\"#333\" stroke-width=\"1.5\" rx=\"3\"/>\n  <text x=\"70\" y=\"167\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">grass</text>\n  <rect x=\"40\" y=\"80\" width=\"60\" height=\"24\" fill=\"#fef9c3\" stroke=\"#333\" stroke-width=\"1.5\" rx=\"3\"/>\n  <text x=\"70\" y=\"97\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">insect</text>\n  <rect x=\"140\" y=\"40\" width=\"60\" height=\"24\" fill=\"#fef9c3\" stroke=\"#333\" stroke-width=\"1.5\" rx=\"3\"/>\n  <text x=\"170\" y=\"57\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">frog</text>\n  <rect x=\"240\" y=\"80\" width=\"60\" height=\"24\" fill=\"#fef9c3\" stroke=\"#333\" stroke-width=\"1.5\" rx=\"3\"/>\n  <text x=\"270\" y=\"97\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">snake</text>\n  <rect x=\"240\" y=\"150\" width=\"60\" height=\"24\" fill=\"#fef9c3\" stroke=\"#333\" stroke-width=\"1.5\" rx=\"3\"/>\n  <text x=\"270\" y=\"167\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">hawk</text>\n  <rect x=\"140\" y=\"150\" width=\"60\" height=\"24\" fill=\"#fef9c3\" stroke=\"#333\" stroke-width=\"1.5\" rx=\"3\"/>\n  <text x=\"170\" y=\"167\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">mouse</text>\n</svg>", "alt": "Six boxes labelled grass, insect, frog, mouse, snake and hawk."}
+    explanation: "Real ecosystems have interconnected chains forming webs.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g7-sci-nutrition-b-q20",

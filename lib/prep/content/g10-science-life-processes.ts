@@ -498,7 +498,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-sci-life-b-q14",
-    prompt: "Look at the cup and the knot of capillaries. Bowman's capsule is part of —",
+    prompt: "Bowman's capsule is part of \u2014",
     options: [
       { id: "a", text: "nephron filtration" },
       { id: "b", text: "alveolus" },
@@ -506,9 +506,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "stomata" }
     ],
     answerId: "a",
-    explanation: "The cup labelled Q is Bowman's capsule, the start of a nephron, where filtration begins. The alveolus is tempting because it is also a small cup-like structure, but it is an air sac in the lung.",
-    hints: ["Bowman's capsule is the cup around the glomerulus where blood is first filtered. Which kidney unit is it part of?"],
-    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A knot of capillaries labelled P sits inside a cup labelled Q, with a tube leading away.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A cup around a knot of capillaries</text>\n  <circle cx=\"160\" cy=\"110\" r=\"60\" fill=\"#fef3c7\" stroke=\"#333\" stroke-width=\"2\"/>\n  <circle cx=\"160\" cy=\"110\" r=\"30\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"2\"/>\n  <path d=\"M 70 70 C 100 70 110 90 130 90\" fill=\"none\" stroke=\"#b91c1c\" stroke-width=\"3\"/>\n  <path d=\"M 130 130 C 110 140 80 150 60 150\" fill=\"none\" stroke=\"#7f1d1d\" stroke-width=\"3\"/>\n  <path d=\"M 220 110 C 260 110 260 160 220 180\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text x=\"160\" y=\"114\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">P</text>\n  <text x=\"230\" y=\"80\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Q</text>\n  <line x1=\"200\" y1=\"70\" x2=\"175\" y2=\"90\" stroke=\"#333\" stroke-width=\"1.2\" fill=\"none\"/>  <polyline points=\"177.3,84.9 175,90 180.5,88.8\" stroke=\"#333\" stroke-width=\"1.2\" fill=\"none\"/>\n</svg>", "alt": "A knot of capillaries labelled P sits inside a cup labelled Q, with a tube leading away."}
+    explanation: "Bowman's capsule is the cup of the nephron that surrounds the glomerulus and filters the blood. The alveolus is tempting because it is also a cup-shaped sac, but it is in the lungs.",
+    hints: ["Bowman's capsule is the cup around the glomerulus where blood is first filtered. Which kidney unit is it part of?"]
   },
   {
     id: "g10-sci-life-b-q15",

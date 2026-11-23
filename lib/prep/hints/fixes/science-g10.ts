@@ -50,7 +50,7 @@ export const G10_SCIENCE_HINT_FIXES: Record<string, HintOverlay> = {
   "g10-sci-life-b-q03": ["The oesophagus and intestine walls contract in rhythmic waves. What does that rhythmic squeezing do to food?"],
   "g10-sci-life-b-q07": ["A sphygmomanometer has an arm cuff and a pressure gauge. What does a doctor read with it?"],
   "g10-sci-life-b-q12": ["Aerobic respiration uses glucose and oxygen. Balance the products: how many CO₂ and H₂O per glucose?"],
-  "g10-sci-life-b-q14": ["This cup is not part of an air sac in the lung, so drop that choice."],
+  "g10-sci-life-b-q14": ["Bowman's capsule is the cup around the glomerulus where blood is first filtered. Which kidney unit is it part of?"],
   "g10-sci-life-b-q15": ["Paramecium is covered in tiny hair-like structures that beat to move water. Where do they sweep food?"],
   "g10-sci-life-b-q17": ["Desert plants must lose as little water as possible. Which features reduce water loss from leaves?"],
   "g10-sci-life-b-q18": ["Blood has cells and a straw-coloured liquid part. In ABO groups, antigens sit on red cells; where are antibodies?"],

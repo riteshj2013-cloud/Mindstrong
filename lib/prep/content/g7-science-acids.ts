@@ -31,17 +31,16 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-sci-acids-a-q03",
-    prompt: "Look at the four litmus papers after they were dipped. Which letter shows a paper that was dipped in an acid?",
+    prompt: "Litmus in acid turns\u2026",
     options: [
-      { id: "a", text: "P" },
-      { id: "b", text: "Q" },
-      { id: "c", text: "R" },
-      { id: "d", text: "S" }
+      { id: "a", text: "Blue" },
+      { id: "b", text: "Green" },
+      { id: "c", text: "Red" },
+      { id: "d", text: "Black" }
     ],
     answerId: "c",
-    explanation: "Blue litmus turns red in an acid, so paper R, blue before dipping and red after, was dipped in acid. Paper Q is tempting because it also changed colour, but red litmus turning blue shows a base, not an acid.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
-    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Four litmus papers labelled P, Q, R and S. Each paper shows its colour before dipping in the top half and after dipping in the bottom half.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Litmus papers before and after dipping</text>\n  <rect x=\"22\" y=\"40\" width=\"56\" height=\"62\" fill=\"#3b82f6\" stroke=\"#333\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"102\" width=\"56\" height=\"62\" fill=\"#3b82f6\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text x=\"50\" y=\"184\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">P</text>\n  <rect x=\"96\" y=\"40\" width=\"56\" height=\"62\" fill=\"#dc2626\" stroke=\"#333\" stroke-width=\"2\"/>\n  <rect x=\"96\" y=\"102\" width=\"56\" height=\"62\" fill=\"#3b82f6\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text x=\"124\" y=\"184\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Q</text>\n  <rect x=\"170\" y=\"40\" width=\"56\" height=\"62\" fill=\"#3b82f6\" stroke=\"#333\" stroke-width=\"2\"/>\n  <rect x=\"170\" y=\"102\" width=\"56\" height=\"62\" fill=\"#dc2626\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text x=\"198\" y=\"184\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">R</text>\n  <rect x=\"244\" y=\"40\" width=\"56\" height=\"62\" fill=\"#3b82f6\" stroke=\"#333\" stroke-width=\"2\"/>\n  <rect x=\"244\" y=\"102\" width=\"56\" height=\"62\" fill=\"#3b82f6\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text x=\"272\" y=\"184\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">S</text>\n  <line x1=\"14\" y1=\"102\" x2=\"306\" y2=\"102\" stroke=\"#111\" stroke-width=\"1\" fill=\"none\" stroke-dasharray=\"4 3\"/>\n  <text x=\"160\" y=\"204\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">Top half: before dipping. Bottom half: after dipping.</text>\n</svg>", "alt": "Four litmus papers labelled P, Q, R and S. Each paper shows its colour before dipping in the top half and after dipping in the bottom half."}
+    explanation: "Blue litmus turns red in acid.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g7-sci-acids-a-q04",
@@ -469,7 +468,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-sci-acids-b-q12",
-    prompt: "Look at the pH scale. A pH of 2 indicates a…",
+    prompt: "A pH of 2 indicates a\u2026",
     options: [
       { id: "a", text: "Neutral solution" },
       { id: "b", text: "Strongly basic solution" },
@@ -477,9 +476,8 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Strongly acidic solution" }
     ],
     answerId: "d",
-    explanation: "A pH of 2 is far below 7, so the solution is strongly acidic. Strongly basic is tempting if 2 is mixed up with 12, but 2 is on the low side of the scale.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
-    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A pH scale from 0 to 14 with a pointer at 2 and the number 7 marked in the middle.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"22\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A pH scale with one reading marked</text>\n  <line x1=\"30\" y1=\"110\" x2=\"290\" y2=\"110\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"30.0\" y1=\"96\" x2=\"30.0\" y2=\"124\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"30.0\" y=\"138\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"400\" fill=\"#222\">0</text>\n  <line x1=\"48.57142857142857\" y1=\"102\" x2=\"48.57142857142857\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"67.14285714285714\" y1=\"102\" x2=\"67.14285714285714\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"85.71428571428572\" y1=\"102\" x2=\"85.71428571428572\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"104.28571428571429\" y1=\"102\" x2=\"104.28571428571429\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"122.85714285714286\" y1=\"102\" x2=\"122.85714285714286\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"141.42857142857144\" y1=\"102\" x2=\"141.42857142857144\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"160.0\" y1=\"96\" x2=\"160.0\" y2=\"124\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"160.0\" y=\"138\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"400\" fill=\"#222\">7</text>\n  <line x1=\"178.57142857142858\" y1=\"102\" x2=\"178.57142857142858\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"197.14285714285714\" y1=\"102\" x2=\"197.14285714285714\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"215.71428571428572\" y1=\"102\" x2=\"215.71428571428572\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"234.28571428571428\" y1=\"102\" x2=\"234.28571428571428\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"252.85714285714286\" y1=\"102\" x2=\"252.85714285714286\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"271.42857142857144\" y1=\"102\" x2=\"271.42857142857144\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"290.0\" y1=\"96\" x2=\"290.0\" y2=\"124\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"290.0\" y=\"138\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"400\" fill=\"#222\">14</text>\n  <polygon points=\"67.14285714285714,82 60.14285714285714,94 74.14285714285714,94\" fill=\"#b91c1c\" stroke=\"#7f1d1d\" stroke-width=\"1\"/>\n  <text x=\"67.14285714285714\" y=\"74\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"400\" fill=\"#7f1d1d\">2</text>\n  <text x=\"160\" y=\"200\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">The pointer shows a reading of 2</text>\n</svg>", "alt": "A pH scale from 0 to 14 with a pointer at 2 and the number 7 marked in the middle."}
+    explanation: "Far below 7 means strongly acidic.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
   },
   {
     id: "g7-sci-acids-b-q13",
