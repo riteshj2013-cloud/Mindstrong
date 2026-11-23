@@ -25,7 +25,7 @@ export const G8_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g8-maths-rational-a-q12": ["Subtracting a negative is adding. Change 2/3 to sixths, then add 5/6 and simplify."],
   "g8-maths-rational-a-q13": ["Divide by multiplying by the reciprocal 9/14, then cancel 7 with 14 and 9 with 12."],
   "g8-maths-rational-a-q14": ["See how 3/4 multiplies each term inside the bracket (2/5 + (−1/3)). Which property spreads × over +?"],
-  "g8-maths-rational-a-q15": ["Try 3 − 5 in each set of numbers. Is the result still in that set?"],
+  "g8-maths-rational-a-q15": ["Subtracting one multiple of 2 from another always gives a multiple of 2. So the choice made only of such numbers is closed."],
   "g8-maths-rational-a-q16": ["Write −1/2, −2/3 and −3/4 as twelfths. Ascending order puts the most negative first."],
   "g8-maths-rational-a-q17": ["−1/3 is negative and 1/4 is positive. Which number sits between the negatives and the positives?"],
   "g8-maths-rational-a-q18": ["The missing number is 1 − (−3/8). Write 1 as 8/8 and remember that subtracting a negative adds."],

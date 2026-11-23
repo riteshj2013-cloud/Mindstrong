@@ -197,7 +197,7 @@ const SET_A: PrepQuestion[] = [
     ],
     answerId: "a",
     explanation: "3 − 5 = −2, and −2 is not a natural number, so natural numbers are not closed under subtraction. Integers is tempting if you think a negative answer leaves the integers, but −2 is still an integer.",
-    hints: ["Try 3 − 5 in each set of numbers. Is the result still in that set?"]
+    hints: ["Subtracting one multiple of 2 from another always gives a multiple of 2. So the choice made only of such numbers is closed."]
   },
   {
     id: "g8-maths-rational-a-q16",

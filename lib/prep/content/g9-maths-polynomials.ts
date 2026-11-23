@@ -356,7 +356,7 @@ const SET_B: PrepQuestion[] = [
     ],
     answerId: "d",
     explanation: "(x − 4)(x + 1) = x² − 3x − 4. So p(x) = 0 when x − 4 = 0 or x + 1 = 0, which gives the zeros 4 and −1. −4 and 1 is tempting if you copy the signs from the brackets instead of solving each bracket = 0.",
-    hints: ["Factorise x² − 3x − 4 by finding two numbers that multiply to −4 and add to −3."]
+    hints: ["Zeros that are a number and its negative would make the x term disappear. This polynomial keeps its x term, so drop that pair."]
   },
   {
     id: "g9-maths-poly-b-q04",

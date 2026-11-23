@@ -76,7 +76,7 @@ export const G9_MATHS_HINTS: Record<string, HintOverlay> = {
   "g9-maths-poly-a-q24": ["Factor as a difference of squares."],
   "g9-maths-poly-b-q01": ["Find the highest power present."],
   "g9-maths-poly-b-q02": ["Test the biggest choice: multiply that many brackets like (x − r). If the top power is more than a quadratic allows, drop that choice."],
-  "g9-maths-poly-b-q03": ["Factor or try integer candidates."],
+  "g9-maths-poly-b-q03": ["Zeros that are a number and its negative would make the x term disappear. This polynomial keeps its x term, so drop that pair."],
   "g9-maths-poly-b-q04": ["Expand the square identity for three terms."],
   "g9-maths-poly-b-q05": ["Each factor option is zero for one value of x only. Match those values with what p(1)=0 tells you."],
   "g9-maths-poly-b-q06": ["Expand the square as one bracket times another copy of it. Four products appear; two of them combine."],

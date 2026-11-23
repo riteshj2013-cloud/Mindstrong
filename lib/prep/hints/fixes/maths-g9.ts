@@ -62,7 +62,7 @@ export const G9_MATHS_HINT_FIXES: Record<string, HintOverlay> = {
   "g9-maths-poly-a-q22": ["Expand (x + y)² and (x − y)², then subtract term by term."],
   "g9-maths-poly-a-q24": ["Set x² − 4 = 0, so x² = 4. Which numbers square to give 4?"],
   "g9-maths-poly-b-q01": ["The degree is the highest power of the variable. Find the highest power in each polynomial."],
-  "g9-maths-poly-b-q03": ["Factorise x² − 3x − 4 by finding two numbers that multiply to −4 and add to −3."],
+  "g9-maths-poly-b-q03": ["Zeros that are a number and its negative would make the x term disappear. This polynomial keeps its x term, so drop that pair."],
   "g9-maths-poly-b-q04": ["Expand (a + b + c)² fully, then take away the a², b² and c² terms."],
   "g9-maths-poly-b-q09": ["A binomial has exactly two terms. Count the terms in each polynomial."],
   "g9-maths-poly-b-q12": ["Use (a + b)(a − b) = a² − b² with a = x and b = 4."],
