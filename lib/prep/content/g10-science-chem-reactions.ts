@@ -31,7 +31,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-sci-chem-a-q03",
-    prompt: "In the reaction Zn + CuSO\u2084 \u2192 ZnSO\u2084 + Cu, zinc \u2014",
+    prompt: "Look at the metal strip in the blue solution. In the reaction Zn + CuSO₄ → ZnSO₄ + Cu, zinc —",
     options: [
       { id: "a", text: "acts as an acid" },
       { id: "b", text: "is reduced" },
@@ -39,8 +39,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "displaces copper" }
     ],
     answerId: "d",
-    explanation: "Zinc is more reactive than copper, so it pushes copper out of CuSO₄. 'Is reduced' is tempting because a change happens to zinc, but zinc loses electrons and is oxidised; copper ions are reduced.",
-    hints: ["Compare reactivity: Zn above Cu in the series."]
+    explanation: "Zinc is more reactive than copper, so it displaces copper from the solution and a reddish coat appears on the strip. “Acts as an acid” does not describe this metal-plus-salt reaction.",
+    hints: ["Compare reactivity: Zn above Cu in the series."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A beaker of blue solution holds a grey metal strip. The lower part of the strip has a reddish-brown coating.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A metal strip in a blue solution</text>\n  <rect x=\"110\" y=\"50\" width=\"100\" height=\"140\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\" rx=\"6\"/>\n  <rect x=\"112\" y=\"90\" width=\"96\" height=\"98\" fill=\"#60a5fa\" stroke=\"#1d4ed8\" stroke-width=\"1\" opacity=\"0.55\"/>\n  <rect x=\"148\" y=\"70\" width=\"24\" height=\"100\" fill=\"#94a3b8\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n  <rect x=\"148\" y=\"130\" width=\"24\" height=\"40\" fill=\"#b45309\" stroke=\"#7c2d12\" stroke-width=\"1\"/>\n  <text x=\"160\" y=\"210\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">A new coating appears on the strip</text>\n</svg>", "alt": "A beaker of blue solution holds a grey metal strip. The lower part of the strip has a reddish-brown coating."}
   },
   {
     id: "g10-sci-chem-a-q04",
@@ -187,20 +188,21 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-sci-chem-a-q15",
-    prompt: "Burning of magnesium ribbon in air produces \u2014",
+    prompt: "Look at the metal ribbon in the flame. Burning of magnesium ribbon in air produces —",
     options: [
       { id: "a", text: "MgO (white ash) with bright light" },
-      { id: "b", text: "MgSO\u2084" },
+      { id: "b", text: "MgSO₄" },
       { id: "c", text: "only soot" },
-      { id: "d", text: "MgCl\u2082" }
+      { id: "d", text: "MgCl₂" }
     ],
     answerId: "a",
-    explanation: "2Mg + O₂ → 2MgO: magnesium burns with a dazzling white light and leaves white MgO ash. 'Only soot' is tempting because burning often gives soot, but soot is carbon, and magnesium has no carbon.",
-    hints: ["Magnesium oxidises to magnesium oxide."]
+    explanation: "Magnesium burns with a bright light and leaves white magnesium oxide ash. “Only soot” is tempting if a student thinks of a smoky flame, but magnesium has no carbon and does not burn to soot.",
+    hints: ["Magnesium oxidises to magnesium oxide."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Tongs hold a metal ribbon in a flame from a burner. No product is labelled.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A metal ribbon in a flame</text>\n  <line x1=\"40\" y1=\"80\" x2=\"130\" y2=\"110\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"40\" y1=\"90\" x2=\"130\" y2=\"118\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"130\" y1=\"114\" x2=\"200\" y2=\"114\" stroke=\"#94a3b8\" stroke-width=\"3\" fill=\"none\"/>\n  <polygon points=\"190,130 176,186 204,186\" fill=\"#f97316\" stroke=\"#b45309\" stroke-width=\"1.5\"/>\n  <polygon points=\"190,140 182,180 198,180\" fill=\"#facc15\" stroke=\"#ca8a04\" stroke-width=\"1.5\"/>\n  <rect x=\"178\" y=\"186\" width=\"24\" height=\"10\" fill=\"#64748b\" stroke=\"#333\" stroke-width=\"1\"/>\n  <text x=\"160\" y=\"214\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">A metal ribbon is held in a flame</text>\n</svg>", "alt": "Tongs hold a metal ribbon in a flame from a burner. No product is labelled."}
   },
   {
     id: "g10-sci-chem-a-q16",
-    prompt: "In electrolysis of water, the gas at the cathode is \u2014",
+    prompt: "Look at the cell. In electrolysis of water, the gas at the cathode is —",
     options: [
       { id: "a", text: "oxygen" },
       { id: "b", text: "chlorine" },
@@ -208,8 +210,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "nitrogen" }
     ],
     answerId: "c",
-    explanation: "At the cathode, H⁺ ions gain electrons and hydrogen gas forms (twice the volume of oxygen). Oxygen is tempting, but oxygen collects at the anode.",
-    hints: ["At the cathode, positive ions gain electrons. In water electrolysis, which gas collects there with twice the volume?"]
+    explanation: "At the cathode, hydrogen ions gain electrons, so hydrogen gas is given off. Chlorine is tempting because it is a gas collected at an anode in some other electrolyses, such as brine, but water itself does not give chlorine.",
+    hints: ["At the cathode, positive ions gain electrons. In water electrolysis, which gas collects there with twice the volume?"],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A cell for electrolysis of water. The left electrode is marked minus and cathode, the right is marked plus and anode. Bubbles rise at both electrodes.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Electrolysis of water</text>\n  <rect x=\"50\" y=\"60\" width=\"220\" height=\"120\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/>\n  <rect x=\"52\" y=\"90\" width=\"216\" height=\"88\" fill=\"#93c5fd\" stroke=\"#1d4ed8\" stroke-width=\"1\" opacity=\"0.4\"/>\n  <rect x=\"100\" y=\"70\" width=\"10\" height=\"90\" fill=\"#94a3b8\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect x=\"210\" y=\"70\" width=\"10\" height=\"90\" fill=\"#94a3b8\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text x=\"105\" y=\"58\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#111\">−</text>\n  <text x=\"215\" y=\"58\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#111\">+</text>\n  <text x=\"105\" y=\"178\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">cathode</text>\n  <text x=\"215\" y=\"178\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">anode</text>\n  <circle cx=\"96\" cy=\"100\" r=\"3\" fill=\"#e5e7eb\" stroke=\"#64748b\" stroke-width=\"2\"/>\n  <circle cx=\"110\" cy=\"88\" r=\"3\" fill=\"#e5e7eb\" stroke=\"#64748b\" stroke-width=\"2\"/>\n  <circle cx=\"102\" cy=\"80\" r=\"3\" fill=\"#e5e7eb\" stroke=\"#64748b\" stroke-width=\"2\"/>\n  <circle cx=\"214\" cy=\"100\" r=\"3\" fill=\"#e5e7eb\" stroke=\"#64748b\" stroke-width=\"2\"/>\n  <circle cx=\"222\" cy=\"88\" r=\"2.5\" fill=\"#e5e7eb\" stroke=\"#64748b\" stroke-width=\"2\"/>\n  <text x=\"160\" y=\"210\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">A gas forms at each electrode</text>\n</svg>", "alt": "A cell for electrolysis of water. The left electrode is marked minus and cathode, the right is marked plus and anode. Bubbles rise at both electrodes."}
   },
   {
     id: "g10-sci-chem-a-q17",
@@ -239,16 +242,17 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-sci-chem-a-q19",
-    prompt: "The brown gas in thermal decomposition of lead nitrate is \u2014",
+    prompt: "Look at the heated tube. The brown gas in thermal decomposition of lead nitrate is —",
     options: [
-      { id: "a", text: "O\u2082 only" },
-      { id: "b", text: "N\u2082" },
-      { id: "c", text: "NO\u2082" },
-      { id: "d", text: "CO\u2082" }
+      { id: "a", text: "O₂ only" },
+      { id: "b", text: "N₂" },
+      { id: "c", text: "NO₂" },
+      { id: "d", text: "CO₂" }
     ],
     answerId: "c",
-    explanation: "Lead nitrate gives off brown NO₂ fumes on heating, along with O₂. 'O₂ only' is tempting because oxygen is released too, but oxygen is colourless.",
-    hints: ["Heating lead nitrate gives lead oxide, oxygen and a reddish-brown gas. Which oxide of nitrogen has that colour?"]
+    explanation: "The brown gas is nitrogen dioxide, NO₂. “CO₂” is tempting because it is a common gas in heating and acid reactions, but carbon dioxide is colourless, not brown.",
+    hints: ["Heating lead nitrate gives lead oxide, oxygen and a reddish-brown gas. Which oxide of nitrogen has that colour?"],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A test tube of white solid is heated. A brown gas is shown leaving the tube into a round space labelled gas.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Heating a nitrate of lead</text>\n  <rect x=\"130\" y=\"50\" width=\"40\" height=\"110\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\" rx=\"4\"/>\n  <rect x=\"134\" y=\"120\" width=\"32\" height=\"36\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1\"/>\n  <polygon points=\"150,164 138,200 162,200\" fill=\"#f97316\" stroke=\"#b45309\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"200\" cy=\"80\" rx=\"36\" ry=\"40\" fill=\"#a16207\" stroke=\"#7c2d12\" stroke-width=\"1.5\" opacity=\"0.55\"/>\n  <text x=\"200\" y=\"84\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"400\" fill=\"#222\">gas</text>\n  <line x1=\"170\" y1=\"60\" x2=\"178\" y2=\"70\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>  <polyline points=\"172.9,67.7 178,70 176.8,64.5\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"160\" y=\"214\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">A brown gas is collected from the tube</text>\n</svg>", "alt": "A test tube of white solid is heated. A brown gas is shown leaving the tube into a round space labelled gas."}
   },
   {
     id: "g10-sci-chem-a-q20",
@@ -278,7 +282,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-sci-chem-a-q22",
-    prompt: "Galvanisation protects iron by coating with \u2014",
+    prompt: "Look at the coated iron object. Galvanisation protects iron by coating with —",
     options: [
       { id: "a", text: "zinc" },
       { id: "b", text: "lead" },
@@ -286,8 +290,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "silver" }
     ],
     answerId: "a",
-    explanation: "Galvanising coats iron with zinc, which corrodes first and protects the iron. Copper is tempting because it is also used for coatings, but it is less reactive than iron and does not protect it sacrificially.",
-    hints: ["Galvanised iron has a coating of a more reactive metal that corrodes first. Which listed metal is above iron?"]
+    explanation: "In galvanisation the iron is coated with zinc, shown as layer P. Silver is a metal coating in some other work, but it is not the metal used in galvanisation.",
+    hints: ["Galvanised iron has a coating of a more reactive metal that corrodes first. Which listed metal is above iron?"],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A cut-away iron bucket. A thin outer layer marked P coats the iron surface all around.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A coated iron object</text>\n  <path d=\"M 80 60 L 80 180 L 240 180 L 240 60 L 220 60 L 220 160 L 100 160 L 100 60 Z\" fill=\"#4b5563\" stroke=\"#333\" stroke-width=\"2\"/>\n  <path d=\"M 74 54 L 74 186 L 246 186 L 246 54 L 226 54 L 226 166 L 94 166 L 94 54 Z\" fill=\"none\" stroke=\"#9ca3af\" stroke-width=\"4\"/>\n  <text x=\"260\" y=\"120\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#111\">P</text>\n  <line x1=\"250\" y1=\"120\" x2=\"246\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>  <polyline points=\"244.5,134.6 246,140 249.4,135.6\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"160\" y=\"214\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">Layer P covers the iron</text>\n</svg>", "alt": "A cut-away iron bucket. A thin outer layer marked P coats the iron surface all around."}
   },
   {
     id: "g10-sci-chem-a-q23",
@@ -359,7 +364,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-sci-chem-b-q04",
-    prompt: "Corrosion of copper in moist air forms a green coating of \u2014",
+    prompt: "Look at the copper vessel. Corrosion of copper in moist air forms a green coating of —",
     options: [
       { id: "a", text: "black copper oxide" },
       { id: "b", text: "basic copper carbonate" },
@@ -367,8 +372,9 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "copper metal" }
     ],
     answerId: "b",
-    explanation: "Moist air with CO₂ turns copper's surface into green basic copper carbonate. 'Black copper oxide' is tempting because copper also forms an oxide, but copper oxide is black, not green.",
-    hints: ["Think Statue of Liberty green layer."]
+    explanation: "The green coating is basic copper carbonate, formed in moist air. Copper sulphate is tempting because it is a well-known copper compound, but that salt is not the coating formed in damp air.",
+    hints: ["Think Statue of Liberty green layer."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A copper-coloured vessel shows several green patches on its outer surface.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A copper vessel left in damp air</text>\n  <path d=\"M 90 80 L 90 170 L 230 170 L 230 80 L 210 80 L 210 150 L 110 150 L 110 80 Z\" fill=\"#b45309\" stroke=\"#333\" stroke-width=\"2\"/>\n  <ellipse cx=\"130\" cy=\"100\" rx=\"14\" ry=\"8\" fill=\"#22c55e\" stroke=\"#166534\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"180\" cy=\"90\" rx=\"16\" ry=\"9\" fill=\"#16a34a\" stroke=\"#166534\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"155\" cy=\"130\" rx=\"12\" ry=\"7\" fill=\"#22c55e\" stroke=\"#166534\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"200\" cy=\"120\" rx=\"10\" ry=\"6\" fill=\"#4ade80\" stroke=\"#166534\" stroke-width=\"1.5\"/>\n  <text x=\"160\" y=\"200\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">A green layer has formed on the surface</text>\n</svg>", "alt": "A copper-coloured vessel shows several green patches on its outer surface."}
   },
   {
     id: "g10-sci-chem-b-q05",
@@ -398,16 +404,17 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-sci-chem-b-q07",
-    prompt: "Identifying gases: a gas that turns limewater milky is \u2014",
+    prompt: "Look at the limewater test. Identifying gases: a gas that turns limewater milky is —",
     options: [
-      { id: "a", text: "O\u2082" },
-      { id: "b", text: "H\u2082" },
-      { id: "c", text: "N\u2082" },
-      { id: "d", text: "CO\u2082" }
+      { id: "a", text: "O₂" },
+      { id: "b", text: "H₂" },
+      { id: "c", text: "N₂" },
+      { id: "d", text: "CO₂" }
     ],
     answerId: "d",
-    explanation: "CO₂ reacts with limewater to form insoluble CaCO₃, which makes it milky. O₂ is tempting because it is a common test gas, but oxygen relights a glowing splint; it does not turn limewater milky.",
-    hints: ["Limewater test for carbon dioxide."]
+    explanation: "Carbon dioxide turns limewater milky. “H₂” is tempting because hydrogen is another common test gas, but it is identified by a pop, not by this cloudy change.",
+    hints: ["Limewater test for carbon dioxide."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A delivery tube bubbles a gas through a tube of limewater. The liquid in the tube looks cloudy white.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A gas bubbled through limewater</text>\n  <rect x=\"90\" y=\"60\" width=\"80\" height=\"110\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\" rx=\"4\"/>\n  <rect x=\"92\" y=\"100\" width=\"76\" height=\"68\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1\"/>\n  <line x1=\"40\" y1=\"50\" x2=\"130\" y2=\"50\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"130\" y1=\"50\" x2=\"130\" y2=\"120\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <circle cx=\"130\" cy=\"128\" r=\"3\" fill=\"#e5e7eb\" stroke=\"#64748b\" stroke-width=\"2\"/>\n  <circle cx=\"140\" cy=\"140\" r=\"3\" fill=\"#e5e7eb\" stroke=\"#64748b\" stroke-width=\"2\"/>\n  <text x=\"50\" y=\"42\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">gas</text>\n  <text x=\"130\" y=\"190\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">limewater</text>\n  <text x=\"160\" y=\"214\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">The liquid turns cloudy</text>\n</svg>", "alt": "A delivery tube bubbles a gas through a tube of limewater. The liquid in the tube looks cloudy white."}
   },
   {
     id: "g10-sci-chem-b-q08",
@@ -463,16 +470,17 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-sci-chem-b-q12",
-    prompt: "Electrolytic refining of copper uses \u2014",
+    prompt: "Look at the electrolytic tank. Electrolytic refining of copper uses —",
     options: [
       { id: "a", text: "iron electrodes" },
-      { id: "b", text: "impure Cu anode, pure Cu cathode, CuSO\u2084 electrolyte" },
+      { id: "b", text: "impure Cu anode, pure Cu cathode, CuSO₄ electrolyte" },
       { id: "c", text: "only water" },
       { id: "d", text: "zinc anode always" }
     ],
     answerId: "b",
-    explanation: "Impure copper is the anode, pure copper the cathode and CuSO₄ the electrolyte; copper dissolves at the anode and deposits pure at the cathode. 'Iron electrodes' is tempting, but iron would not let pure copper move from one electrode to the other.",
-    hints: ["Anode oxidises; cathode reduces Cu²⁺."]
+    explanation: "Impure copper is the anode, a thin pure copper plate is the cathode, and copper sulphate is the electrolyte. Only water is tempting if electrolysis of water is remembered, but copper ions must be in the solution for refining.",
+    hints: ["Anode oxidises; cathode reduces Cu²⁺."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"An electrolytic tank of solution with two electrodes, P marked plus and Q marked minus.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">An electrolytic tank</text>\n  <rect x=\"40\" y=\"50\" width=\"240\" height=\"130\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/>\n  <rect x=\"42\" y=\"80\" width=\"236\" height=\"98\" fill=\"#f1f5f9\" stroke=\"#94a3b8\" stroke-width=\"1\"/>\n  <rect x=\"80\" y=\"60\" width=\"16\" height=\"100\" fill=\"#ffffff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect x=\"220\" y=\"60\" width=\"16\" height=\"100\" fill=\"#ffffff\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text x=\"88\" y=\"44\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">+</text>\n  <text x=\"228\" y=\"44\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">−</text>\n  <text x=\"88\" y=\"176\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">P</text>\n  <text x=\"228\" y=\"176\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">Q</text>\n</svg>", "alt": "An electrolytic tank of solution with two electrodes, P marked plus and Q marked minus."}
   },
   {
     id: "g10-sci-chem-b-q13",
@@ -541,33 +549,35 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-sci-chem-b-q18",
-    prompt: "Dilute H\u2082SO\u2084 on zinc liberates a gas that \u2014",
+    prompt: "Look at the collected gas. Dilute H₂SO₄ on zinc liberates a gas that —",
     options: [
-      { id: "a", text: "bleaches litmus permanently as Cl\u2082" },
+      { id: "a", text: "bleaches litmus permanently as Cl₂" },
       { id: "b", text: "burns with a pop" },
       { id: "c", text: "turns limewater milky" },
       { id: "d", text: "relights a glowing splint" }
     ],
     answerId: "b",
-    explanation: "Zn + H₂SO₄ → ZnSO₄ + H₂, and hydrogen burns with a pop. 'Turns limewater milky' is tempting because acids on marble do that, but that test is for CO₂, and zinc has no carbonate.",
-    hints: ["Hydrogen gives the pop test."]
+    explanation: "The gas is hydrogen, which burns with a pop. “Turns limewater milky” is tempting because that is another familiar gas test, but it identifies carbon dioxide, not the gas from a metal plus dilute acid.",
+    hints: ["Hydrogen gives the pop test."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A metal in dilute acid gives off a gas that is collected in a second tube.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A metal in dilute acid</text>\n  <rect x=\"80\" y=\"50\" width=\"70\" height=\"120\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\" rx=\"5\"/>\n  <rect x=\"82\" y=\"100\" width=\"66\" height=\"68\" fill=\"#e0f2fe\" stroke=\"#333\" stroke-width=\"1\"/>\n  <rect x=\"100\" y=\"140\" width=\"24\" height=\"14\" fill=\"#94a3b8\" stroke=\"#334155\" stroke-width=\"1\"/>\n  <circle cx=\"100\" cy=\"90\" r=\"3\" fill=\"#e5e7eb\" stroke=\"#94a3b8\" stroke-width=\"2\"/>\n  <circle cx=\"110\" cy=\"78\" r=\"3\" fill=\"#e5e7eb\" stroke=\"#94a3b8\" stroke-width=\"2\"/>\n  <circle cx=\"120\" cy=\"88\" r=\"3\" fill=\"#e5e7eb\" stroke=\"#94a3b8\" stroke-width=\"2\"/>\n  <line x1=\"150\" y1=\"50\" x2=\"220\" y2=\"50\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <rect x=\"210\" y=\"50\" width=\"36\" height=\"70\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\" rx=\"4\"/>\n  <rect x=\"212\" y=\"80\" width=\"32\" height=\"38\" fill=\"#e5e7eb\" stroke=\"#94a3b8\" stroke-width=\"1\"/>\n  <text x=\"160\" y=\"210\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">The gas is collected in a tube</text>\n</svg>", "alt": "A metal in dilute acid gives off a gas that is collected in a second tube."}
   },
   {
     id: "g10-sci-chem-b-q19",
-    prompt: "Marble chips with dilute HCl produce \u2014",
+    prompt: "Look at the flask. Marble chips with dilute HCl produce —",
     options: [
-      { id: "a", text: "N\u2082" },
-      { id: "b", text: "CO\u2082" },
-      { id: "c", text: "O\u2082" },
-      { id: "d", text: "H\u2082" }
+      { id: "a", text: "N₂" },
+      { id: "b", text: "CO₂" },
+      { id: "c", text: "O₂" },
+      { id: "d", text: "H₂" }
     ],
     answerId: "b",
-    explanation: "Marble is CaCO₃: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂. H₂ is tempting because acids with metals give hydrogen, but marble is a carbonate, not a metal.",
-    hints: ["Marble is calcium carbonate. A carbonate reacts with acid to give a salt, water and which gas that turns lime water milky?"]
+    explanation: "Marble is calcium carbonate, so dilute hydrochloric acid gives carbon dioxide. “H₂” is tempting because acids give hydrogen with many metals, but marble is a carbonate, not a metal.",
+    hints: ["Marble is calcium carbonate. A carbonate reacts with acid to give a salt, water and which gas that turns lime water milky?"],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Acid is poured onto pale marble chips in a flask. Bubbles form and a gas leaves the mouth of the flask.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Acid poured on marble chips</text>\n  <path d=\"M 120 60 L 120 50 L 160 50 L 160 60 L 190 150 L 90 150 Z\" fill=\"#e0f2fe\" stroke=\"#333\" stroke-width=\"2\"/>\n  <ellipse cx=\"130\" cy=\"138\" rx=\"10\" ry=\"6\" fill=\"#e7e5e4\" stroke=\"#57534e\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"150\" cy=\"140\" rx=\"9\" ry=\"5\" fill=\"#d6d3d1\" stroke=\"#57534e\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"140\" cy=\"128\" rx=\"8\" ry=\"5\" fill=\"#e7e5e4\" stroke=\"#57534e\" stroke-width=\"1.5\"/>\n  <circle cx=\"140\" cy=\"90\" r=\"3\" fill=\"#e5e7eb\" stroke=\"#94a3b8\" stroke-width=\"2\"/>\n  <circle cx=\"155\" cy=\"78\" r=\"3\" fill=\"#e5e7eb\" stroke=\"#94a3b8\" stroke-width=\"2\"/>\n  <circle cx=\"148\" cy=\"66\" r=\"3\" fill=\"#e5e7eb\" stroke=\"#94a3b8\" stroke-width=\"2\"/>\n  <text x=\"160\" y=\"180\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">chips</text>\n  <text x=\"210\" y=\"70\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">gas</text>\n  <line x1=\"165\" y1=\"60\" x2=\"200\" y2=\"50\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>  <polyline points=\"195.1,54.5 200,50 193.4,48.8\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"160\" y=\"210\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">A gas leaves the flask</text>\n</svg>", "alt": "Acid is poured onto pale marble chips in a flask. Bubbles form and a gas leaves the mouth of the flask."}
   },
   {
     id: "g10-sci-chem-b-q20",
-    prompt: "Black CuO heated with hydrogen becomes brownish Cu. This shows \u2014",
+    prompt: "Look at the black powder in the tube. Black CuO heated with hydrogen becomes brownish Cu. This shows —",
     options: [
       { id: "a", text: "oxidation of CuO" },
       { id: "b", text: "neutralisation" },
@@ -575,8 +585,9 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "CuO sublimed" }
     ],
     answerId: "c",
-    explanation: "CuO loses its oxygen to hydrogen and becomes copper, so CuO is reduced. 'Oxidation of CuO' is tempting because oxygen is involved, but the oxygen leaves CuO; it is hydrogen that is oxidised.",
-    hints: ["Black CuO turns to brown Cu as hydrogen takes away its oxygen. What is losing oxygen called?"]
+    explanation: "Hydrogen takes oxygen from CuO, so the black oxide is reduced to brownish copper. Oxidation of CuO is tempting if the gain or loss of oxygen is reversed, but CuO is losing oxygen here.",
+    hints: ["Black CuO turns to brown Cu as hydrogen takes away its oxygen. What is losing oxygen called?"],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A combustion tube is heated. A gas enters from the left. Part of the powder is black and part has turned red-brown.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A black powder heated in a gas</text>\n  <rect x=\"70\" y=\"90\" width=\"180\" height=\"16\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/>\n  <ellipse cx=\"140\" cy=\"98\" rx=\"16\" ry=\"6\" fill=\"#111827\" stroke=\"#000\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"175\" cy=\"98\" rx=\"14\" ry=\"6\" fill=\"#b45309\" stroke=\"#7c2d12\" stroke-width=\"1.5\"/>\n  <line x1=\"50\" y1=\"98\" x2=\"70\" y2=\"98\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>  <polyline points=\"64.0,101.0 70,98 64.0,95.0\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"48\" y=\"88\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">gas</text>\n  <polygon points=\"160,110 148,150 172,150\" fill=\"#f97316\" stroke=\"#b45309\" stroke-width=\"1.5\"/>\n  <text x=\"160\" y=\"180\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">flame</text>\n  <text x=\"140\" y=\"80\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">black</text>\n  <text x=\"180\" y=\"80\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">red-brown</text>\n  <text x=\"160\" y=\"210\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">The powder changes colour as the gas passes</text>\n</svg>", "alt": "A combustion tube is heated. A gas enters from the left. Part of the powder is black and part has turned red-brown."}
   },
   {
     id: "g10-sci-chem-b-q21",

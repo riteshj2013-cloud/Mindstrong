@@ -83,7 +83,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-sci-acids-a-q07",
-    prompt: "Acids have pH\u2026",
+    prompt: "Look at the pH scale. Acids have pH…",
     options: [
       { id: "a", text: "Exactly 7" },
       { id: "b", text: "Greater than 7 only" },
@@ -91,8 +91,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Exactly 14" }
     ],
     answerId: "c",
-    explanation: "Acidic solutions have pH < 7.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Acidic solutions have pH below 7. Exactly 14 is tempting because it is a marked end of the scale, but 14 is strongly basic, not acidic.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A horizontal pH scale marked from 0 to 14, with 7 labelled in the middle.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"22\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A pH scale</text>\n  <line x1=\"30\" y1=\"110\" x2=\"290\" y2=\"110\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"30.0\" y1=\"96\" x2=\"30.0\" y2=\"124\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"30.0\" y=\"138\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"400\" fill=\"#222\">0</text>\n  <line x1=\"48.57142857142857\" y1=\"102\" x2=\"48.57142857142857\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"67.14285714285714\" y1=\"102\" x2=\"67.14285714285714\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"85.71428571428572\" y1=\"102\" x2=\"85.71428571428572\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"104.28571428571429\" y1=\"102\" x2=\"104.28571428571429\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"122.85714285714286\" y1=\"102\" x2=\"122.85714285714286\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"141.42857142857144\" y1=\"102\" x2=\"141.42857142857144\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"160.0\" y1=\"96\" x2=\"160.0\" y2=\"124\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"160.0\" y=\"138\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"400\" fill=\"#222\">7</text>\n  <line x1=\"178.57142857142858\" y1=\"102\" x2=\"178.57142857142858\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"197.14285714285714\" y1=\"102\" x2=\"197.14285714285714\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"215.71428571428572\" y1=\"102\" x2=\"215.71428571428572\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"234.28571428571428\" y1=\"102\" x2=\"234.28571428571428\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"252.85714285714286\" y1=\"102\" x2=\"252.85714285714286\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"271.42857142857144\" y1=\"102\" x2=\"271.42857142857144\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"290.0\" y1=\"96\" x2=\"290.0\" y2=\"124\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"290.0\" y=\"138\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"400\" fill=\"#222\">14</text>\n  <text x=\"160\" y=\"200\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">Numbers run from 0 to 14</text>\n</svg>", "alt": "A horizontal pH scale marked from 0 to 14, with 7 labelled in the middle."}
   },
   {
     id: "g7-sci-acids-a-q08",
@@ -174,7 +175,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-sci-acids-a-q14",
-    prompt: "The reaction of acid + base produces\u2026",
+    prompt: "Look at the two solutions being mixed. The reaction of acid + base produces…",
     options: [
       { id: "a", text: "Only oxygen" },
       { id: "b", text: "Salt and water" },
@@ -182,8 +183,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Only nitrogen" }
     ],
     answerId: "b",
-    explanation: "Neutralisation: acid + base \u2192 salt + water.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Acid plus base is a neutralisation and gives a salt plus water. “Only hydrogen always without salt” is tempting because acids give off hydrogen with many metals, but a base is not a metal, so no hydrogen is made and a salt does form.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Two beakers of different solutions are poured into a third beaker holding a colourless liquid.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Two solutions mixed</text>\n  <rect x=\"30\" y=\"70\" width=\"50\" height=\"70\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text x=\"55\" y=\"155\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">1</text>\n  <rect x=\"110\" y=\"70\" width=\"50\" height=\"70\" fill=\"#ddd6fe\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text x=\"135\" y=\"155\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">2</text>\n  <line x1=\"185\" y1=\"105\" x2=\"215\" y2=\"105\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>  <polyline points=\"209.0,108.0 215,105 209.0,102.0\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <rect x=\"225\" y=\"60\" width=\"70\" height=\"90\" fill=\"#e0f2fe\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text x=\"260\" y=\"168\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">3</text>\n  <text x=\"160\" y=\"210\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">Solutions 1 and 2 are poured into beaker 3</text>\n</svg>", "alt": "Two beakers of different solutions are poured into a third beaker holding a colourless liquid."}
   },
   {
     id: "g7-sci-acids-a-q15",
@@ -200,7 +202,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g7-sci-acids-a-q16",
-    prompt: "Acids react with many metals to liberate\u2026",
+    prompt: "Look at the metal in the solution. Acids react with many metals to liberate…",
     options: [
       { id: "a", text: "Nitrogen gas" },
       { id: "b", text: "Neon" },
@@ -208,8 +210,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "Hydrogen gas" }
     ],
     answerId: "d",
-    explanation: "Active metals + acid often give H\u2082.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Active metals plus acid often give hydrogen, which can be tested with a pop. Nitrogen is tempting because it is a common gas in air, but it is not liberated in this reaction.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A test tube holds a metal piece in a liquid. Bubbles of a gas rise from the metal.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A metal in a solution</text>\n  <rect x=\"120\" y=\"50\" width=\"50\" height=\"120\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\" rx=\"6\"/>\n  <rect x=\"122\" y=\"100\" width=\"46\" height=\"68\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"1\"/>\n  <rect x=\"132\" y=\"145\" width=\"26\" height=\"14\" fill=\"#94a3b8\" stroke=\"#334155\" stroke-width=\"1.5\"/>\n  <circle cx=\"135\" cy=\"90\" r=\"3\" fill=\"#e5e7eb\" stroke=\"#94a3b8\" stroke-width=\"1\"/>\n  <circle cx=\"150\" cy=\"80\" r=\"3\" fill=\"#e5e7eb\" stroke=\"#94a3b8\" stroke-width=\"1\"/>\n  <circle cx=\"145\" cy=\"68\" r=\"3\" fill=\"#e5e7eb\" stroke=\"#94a3b8\" stroke-width=\"1\"/>\n  <circle cx=\"158\" cy=\"92\" r=\"2.5\" fill=\"#e5e7eb\" stroke=\"#94a3b8\" stroke-width=\"1\"/>\n  <line x1=\"180\" y1=\"70\" x2=\"230\" y2=\"50\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>  <polyline points=\"225.5,55.0 230,50 223.3,49.4\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"250\" y=\"48\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">gas</text>\n  <text x=\"160\" y=\"200\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">Bubbles rise from the metal</text>\n</svg>", "alt": "A test tube holds a metal piece in a liquid. Bubbles of a gas rise from the metal."}
   },
   {
     id: "g7-sci-acids-a-q17",
@@ -437,7 +440,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-sci-acids-b-q10",
-    prompt: "Which gas is released when an acid reacts with a metal carbonate?",
+    prompt: "Look at the flask. Which gas is released when an acid reacts with a metal carbonate?",
     options: [
       { id: "a", text: "Hydrogen" },
       { id: "b", text: "Carbon dioxide" },
@@ -445,12 +448,13 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Neon" }
     ],
     answerId: "b",
-    explanation: "Acid + carbonate \u2192 salt + water + CO\u2082.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Acid plus a carbonate gives a salt, water and carbon dioxide. Hydrogen is tempting because acids also give hydrogen with many metals, but carbonates give carbon dioxide.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Acid is poured onto solid chips in a flask. A delivery tube carries the gas that is given off into a second tube of liquid.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Acid added to a carbonate</text>\n  <path d=\"M 110 60 L 110 50 L 150 50 L 150 60 L 175 150 L 85 150 Z\" fill=\"#e0f2fe\" stroke=\"#333\" stroke-width=\"2\"/>\n  <rect x=\"118\" y=\"40\" width=\"24\" height=\"14\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/>\n  <ellipse cx=\"120\" cy=\"138\" rx=\"10\" ry=\"6\" fill=\"#e7e5e4\" stroke=\"#57534e\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"140\" cy=\"140\" rx=\"8\" ry=\"5\" fill=\"#d6d3d1\" stroke=\"#57534e\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"128\" cy=\"130\" rx=\"7\" ry=\"4\" fill=\"#e7e5e4\" stroke=\"#57534e\" stroke-width=\"1.5\"/>\n  <circle cx=\"125\" cy=\"90\" r=\"3\" fill=\"#e5e7eb\" stroke=\"#94a3b8\" stroke-width=\"1\"/>\n  <circle cx=\"140\" cy=\"80\" r=\"3\" fill=\"#e5e7eb\" stroke=\"#94a3b8\" stroke-width=\"1\"/>\n  <circle cx=\"132\" cy=\"70\" r=\"2.5\" fill=\"#e5e7eb\" stroke=\"#94a3b8\" stroke-width=\"1\"/>\n  <line x1=\"150\" y1=\"50\" x2=\"210\" y2=\"50\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"210\" y1=\"50\" x2=\"210\" y2=\"80\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <rect x=\"190\" y=\"80\" width=\"40\" height=\"80\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\" rx=\"4\"/>\n  <rect x=\"192\" y=\"120\" width=\"36\" height=\"38\" fill=\"#f8fafc\" stroke=\"#333\" stroke-width=\"1\"/>\n  <text x=\"130\" y=\"175\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">chips + acid</text>\n  <text x=\"180\" y=\"44\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">gas</text>\n  <text x=\"160\" y=\"210\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">A gas leaves the flask</text>\n</svg>", "alt": "Acid is poured onto solid chips in a flask. A delivery tube carries the gas that is given off into a second tube of liquid."}
   },
   {
     id: "g7-sci-acids-b-q11",
-    prompt: "Distilled water is\u2026",
+    prompt: "Look at the pH scale. Distilled water is…",
     options: [
       { id: "a", text: "Strongly acidic" },
       { id: "b", text: "Strongly basic" },
@@ -458,8 +462,9 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "A salt crystal" }
     ],
     answerId: "c",
-    explanation: "Pure water is neutral (pH 7).",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "Distilled water is neutral, with a pH of 7. “Strongly acidic” is tempting if distilled water is mixed up with an acid, but it is not an acid and does not sit far below 7.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A beaker of distilled water beside a pH scale marked from 0 to 14. The pH of the water is shown as a question mark.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Distilled water and a pH scale</text>\n  <path d=\"M 120 40 L 120 104 Q 120 110 126 110 L 174 110 Q 180 110 180 104 L 180 40\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/>\n  <rect x=\"122\" y=\"62\" width=\"56\" height=\"46\" fill=\"#f0f9ff\" stroke=\"none\" stroke-width=\"0\"/>\n  <text x=\"150\" y=\"126\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">distilled water</text>\n  <text x=\"230\" y=\"82\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">pH = ?</text>\n  <line x1=\"30\" y1=\"160\" x2=\"290\" y2=\"160\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"30.0\" y1=\"150\" x2=\"30.0\" y2=\"170\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"30.0\" y=\"186\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"400\" fill=\"#222\">0</text>\n  <line x1=\"48.57\" y1=\"154\" x2=\"48.57\" y2=\"166\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"67.14\" y1=\"154\" x2=\"67.14\" y2=\"166\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"85.71\" y1=\"154\" x2=\"85.71\" y2=\"166\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"104.29\" y1=\"154\" x2=\"104.29\" y2=\"166\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"122.86\" y1=\"154\" x2=\"122.86\" y2=\"166\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"141.43\" y1=\"154\" x2=\"141.43\" y2=\"166\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"160.0\" y1=\"150\" x2=\"160.0\" y2=\"170\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"160.0\" y=\"186\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"400\" fill=\"#222\">7</text>\n  <line x1=\"178.57\" y1=\"154\" x2=\"178.57\" y2=\"166\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"197.14\" y1=\"154\" x2=\"197.14\" y2=\"166\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"215.71\" y1=\"154\" x2=\"215.71\" y2=\"166\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"234.29\" y1=\"154\" x2=\"234.29\" y2=\"166\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"252.86\" y1=\"154\" x2=\"252.86\" y2=\"166\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"271.43\" y1=\"154\" x2=\"271.43\" y2=\"166\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"290.0\" y1=\"150\" x2=\"290.0\" y2=\"170\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"290.0\" y=\"186\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"400\" fill=\"#222\">14</text>\n</svg>", "alt": "A beaker of distilled water beside a pH scale marked from 0 to 14. The pH of the water is shown as a question mark."}
   },
   {
     id: "g7-sci-acids-b-q12",
@@ -476,7 +481,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-sci-acids-b-q13",
-    prompt: "A pH of 13 indicates a\u2026",
+    prompt: "Look at the pH scale. A pH of 13 indicates a…",
     options: [
       { id: "a", text: "Strongly basic solution" },
       { id: "b", text: "Neutral solution" },
@@ -484,8 +489,9 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "Pure sugar" }
     ],
     answerId: "a",
-    explanation: "Far above 7 means strongly basic.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "A pH of 13 is far above 7, so the solution is strongly basic. Strongly acidic is tempting if the sides of the scale are reversed, but 13 sits near the top end.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A pH scale from 0 to 14 with a pointer at 13 and the number 7 marked in the middle.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"22\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A pH scale with one reading marked</text>\n  <line x1=\"30\" y1=\"110\" x2=\"290\" y2=\"110\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"30.0\" y1=\"96\" x2=\"30.0\" y2=\"124\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"30.0\" y=\"138\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"400\" fill=\"#222\">0</text>\n  <line x1=\"48.57142857142857\" y1=\"102\" x2=\"48.57142857142857\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"67.14285714285714\" y1=\"102\" x2=\"67.14285714285714\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"85.71428571428572\" y1=\"102\" x2=\"85.71428571428572\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"104.28571428571429\" y1=\"102\" x2=\"104.28571428571429\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"122.85714285714286\" y1=\"102\" x2=\"122.85714285714286\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"141.42857142857144\" y1=\"102\" x2=\"141.42857142857144\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"160.0\" y1=\"96\" x2=\"160.0\" y2=\"124\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"160.0\" y=\"138\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"400\" fill=\"#222\">7</text>\n  <line x1=\"178.57142857142858\" y1=\"102\" x2=\"178.57142857142858\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"197.14285714285714\" y1=\"102\" x2=\"197.14285714285714\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"215.71428571428572\" y1=\"102\" x2=\"215.71428571428572\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"234.28571428571428\" y1=\"102\" x2=\"234.28571428571428\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"252.85714285714286\" y1=\"102\" x2=\"252.85714285714286\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"271.42857142857144\" y1=\"102\" x2=\"271.42857142857144\" y2=\"118\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <line x1=\"290.0\" y1=\"96\" x2=\"290.0\" y2=\"124\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <text x=\"290.0\" y=\"138\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"400\" fill=\"#222\">14</text>\n  <polygon points=\"271.42857142857144,82 264.42857142857144,94 278.42857142857144,94\" fill=\"#b91c1c\" stroke=\"#7f1d1d\" stroke-width=\"1\"/>\n  <text x=\"271.42857142857144\" y=\"74\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"400\" fill=\"#7f1d1d\">13</text>\n  <text x=\"160\" y=\"200\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">The pointer shows a reading of 13</text>\n</svg>", "alt": "A pH scale from 0 to 14 with a pointer at 13 and the number 7 marked in the middle."}
   },
   {
     id: "g7-sci-acids-b-q14",
@@ -567,16 +573,17 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g7-sci-acids-b-q20",
-    prompt: "Diluting a strong acid should be done by\u2026",
+    prompt: "Look at the four methods. Diluting a strong acid should be done by method…",
     options: [
-      { id: "a", text: "Adding water to concentrated acid quickly" },
-      { id: "b", text: "Tasting first" },
-      { id: "c", text: "Heating in a closed bottle" },
-      { id: "d", text: "Adding acid slowly to water (with care)" }
+      { id: "a", text: "P" },
+      { id: "b", text: "Q" },
+      { id: "c", text: "R" },
+      { id: "d", text: "S" }
     ],
     answerId: "d",
-    explanation: "Safety: acid into water, slowly, with stirring \u2014 never the reverse casually.",
-    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."]
+    explanation: "The safe method is to add acid slowly to water, which is method S. Method P pours water into concentrated acid, which is the usual dangerous mistake because a lot of heat is released.",
+    hints: ["Think about the lesson key ideas.", "Eliminate options that do not fit."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Four mixing methods labelled P, Q, R and S: pouring water into acid, tasting, heating a closed bottle, and pouring acid slowly into water.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"18\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Four ways of mixing</text>\n  <rect x=\"16\" y=\"28\" width=\"140\" height=\"82\" fill=\"#fffdf7\" stroke=\"#999\" stroke-width=\"1.5\"/>\n  <rect x=\"66\" y=\"56\" width=\"36\" height=\"40\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text x=\"84\" y=\"80\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"8\" font-weight=\"400\" fill=\"#222\">acid</text>\n  <path d=\"M 84 40 L 84 56\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"3\"/>\n  <text x=\"106\" y=\"48\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"8\" font-weight=\"400\" fill=\"#222\">water</text>\n  <text x=\"32\" y=\"44\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">P</text>\n  <rect x=\"164\" y=\"28\" width=\"140\" height=\"82\" fill=\"#fffdf7\" stroke=\"#999\" stroke-width=\"1.5\"/>\n  <circle cx=\"234\" cy=\"72\" r=\"14\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"2\"/>\n  <circle cx=\"229\" cy=\"67\" r=\"1.8\" fill=\"#333\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle cx=\"239\" cy=\"67\" r=\"1.8\" fill=\"#333\" stroke=\"#333\" stroke-width=\"1\"/>\n  <ellipse cx=\"234\" cy=\"78\" rx=\"4\" ry=\"3\" fill=\"#7f1d1d\" stroke=\"#333\" stroke-width=\"1\"/>\n  <line x1=\"240\" y1=\"80\" x2=\"272\" y2=\"96\" stroke=\"#78716c\" stroke-width=\"2.5\" fill=\"none\"/>\n  <ellipse cx=\"243\" cy=\"81\" rx=\"5\" ry=\"3\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"1\"/>\n  <text x=\"282\" y=\"100\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"8\" font-weight=\"400\" fill=\"#222\">acid</text>\n  <text x=\"180\" y=\"44\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">Q</text>\n  <rect x=\"16\" y=\"118\" width=\"140\" height=\"82\" fill=\"#fffdf7\" stroke=\"#999\" stroke-width=\"1.5\"/>\n  <rect x=\"66\" y=\"140\" width=\"36\" height=\"36\" fill=\"#e2e8f0\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <rect x=\"72\" y=\"134\" width=\"24\" height=\"8\" fill=\"#78716c\" stroke=\"#333\" stroke-width=\"1\"/>\n  <circle cx=\"84\" cy=\"186\" r=\"8\" fill=\"#f97316\" stroke=\"#b45309\" stroke-width=\"2\"/>\n  <text x=\"32\" y=\"134\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">R</text>\n  <rect x=\"164\" y=\"118\" width=\"140\" height=\"82\" fill=\"#fffdf7\" stroke=\"#999\" stroke-width=\"1.5\"/>\n  <rect x=\"214\" y=\"146\" width=\"36\" height=\"40\" fill=\"#bfdbfe\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <text x=\"232\" y=\"170\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"8\" font-weight=\"400\" fill=\"#222\">water</text>\n  <path d=\"M 232 130 L 232 146\" fill=\"none\" stroke=\"#ca8a04\" stroke-width=\"3\"/>\n  <text x=\"256\" y=\"138\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"8\" font-weight=\"400\" fill=\"#222\">acid</text>\n  <text x=\"180\" y=\"134\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">S</text>\n</svg>", "alt": "Four mixing methods labelled P, Q, R and S: pouring water into acid, tasting, heating a closed bottle, and pouring acid slowly into water."}
   },
   {
     id: "g7-sci-acids-b-q21",

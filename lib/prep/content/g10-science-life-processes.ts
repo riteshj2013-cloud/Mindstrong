@@ -44,7 +44,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-sci-life-a-q04",
-    prompt: "Stomata mainly help in \u2014",
+    prompt: "Look at the pores on the leaf. Stomata mainly help in —",
     options: [
       { id: "a", text: "gas exchange and transpiration" },
       { id: "b", text: "absorbing minerals from soil" },
@@ -52,8 +52,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "storing starch only" }
     ],
     answerId: "a",
-    explanation: "Stomata are leaf pores that exchange CO₂ and O₂ and let water vapour out (transpiration). 'Absorbing minerals from soil' is tempting, but roots do that; stomata are on leaves.",
-    hints: ["Guard cells open and close stomata."]
+    explanation: "The pores let gases enter and leave and also let water vapour out, so they help in gas exchange and transpiration. “Absorbing minerals from soil” is tempting, but that is done by the roots, not by stomata on leaves.",
+    hints: ["Guard cells open and close stomata."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A close-up of a leaf surface with a pore between two sausage-shaped cells.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Pores on a leaf surface</text>\n  <rect x=\"30\" y=\"50\" width=\"260\" height=\"130\" fill=\"#86efac\" stroke=\"#166534\" stroke-width=\"2\" rx=\"8\"/>\n  <ellipse cx=\"160\" cy=\"110\" rx=\"16\" ry=\"24\" fill=\"#166534\" stroke=\"#14532d\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"200\" cy=\"110\" rx=\"16\" ry=\"24\" fill=\"#166534\" stroke=\"#14532d\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"180\" cy=\"110\" rx=\"8\" ry=\"16\" fill=\"#f0fdf4\" stroke=\"#14532d\" stroke-width=\"1.5\"/>\n  <text x=\"160\" y=\"204\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">A pore sits between a pair of cells</text>\n</svg>", "alt": "A close-up of a leaf surface with a pore between two sausage-shaped cells."}
   },
   {
     id: "g10-sci-life-a-q05",
@@ -70,7 +71,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-sci-life-a-q06",
-    prompt: "Bile is produced by the \u2014",
+    prompt: "Look at the organs. Bile is produced by the —",
     options: [
       { id: "a", text: "stomach" },
       { id: "b", text: "kidney" },
@@ -78,8 +79,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "pancreas" }
     ],
     answerId: "c",
-    explanation: "The liver makes bile and the gall bladder stores it. The pancreas is tempting because its juice also enters the small intestine, but it makes enzymes, not bile.",
-    hints: ["Bile emulsifies fats."]
+    explanation: "The large organ labelled P is the liver, which produces bile. The pancreas, labelled S, is tempting because its juice also enters the small intestine, but it makes enzymes, not bile. Sac Q is the gall bladder, which stores bile rather than making it.",
+    hints: ["Bile emulsifies fats."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Some organs of the abdomen, labelled P, Q, R and S.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Some organs of the abdomen</text>\n  <path d=\"M 80 70 Q 160 40 230 70 L 210 110 Q 150 90 90 110 Z\" fill=\"#fca5a5\" stroke=\"#7f1d1d\" stroke-width=\"2\"/>\n  <ellipse cx=\"120\" cy=\"140\" rx=\"36\" ry=\"22\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"200\" cy=\"108\" rx=\"8\" ry=\"12\" fill=\"#fef3c7\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"180\" cy=\"150\" rx=\"34\" ry=\"12\" fill=\"#fef3c7\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <line x1=\"58\" y1=\"72\" x2=\"86\" y2=\"76\" stroke=\"#333\" stroke-width=\"1.2\" fill=\"none\"/>\n  <text x=\"50\" y=\"76\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">P</text>\n  <line x1=\"254\" y1=\"100\" x2=\"210\" y2=\"106\" stroke=\"#333\" stroke-width=\"1.2\" fill=\"none\"/>\n  <text x=\"262\" y=\"104\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">Q</text>\n  <line x1=\"58\" y1=\"146\" x2=\"84\" y2=\"142\" stroke=\"#333\" stroke-width=\"1.2\" fill=\"none\"/>\n  <text x=\"50\" y=\"150\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">R</text>\n  <line x1=\"254\" y1=\"156\" x2=\"214\" y2=\"152\" stroke=\"#333\" stroke-width=\"1.2\" fill=\"none\"/>\n  <text x=\"262\" y=\"160\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#111\">S</text>\n</svg>", "alt": "Some organs of the abdomen, labelled P, Q, R and S."}
   },
   {
     id: "g10-sci-life-a-q07",
@@ -148,7 +150,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-sci-life-a-q12",
-    prompt: "The functional unit of the kidney is the \u2014",
+    prompt: "Look at the filtering unit. The functional unit of the kidney is the —",
     options: [
       { id: "a", text: "alveolus" },
       { id: "b", text: "villus" },
@@ -156,12 +158,13 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "neuron" }
     ],
     answerId: "c",
-    explanation: "Each kidney has about a million nephrons that filter blood and form urine. The alveolus is tempting because it is also a tiny unit, but it belongs to the lungs.",
-    hints: ["Each kidney has about a million tiny filtering units, each with a glomerulus and a tubule. What is one such unit called?"]
+    explanation: "Each kidney is made of many tiny units called nephrons, each with a cup and a coiled tube. The alveolus is tempting because it is also a tiny working unit, but it belongs to the lungs.",
+    hints: ["Each kidney has about a million tiny filtering units, each with a glomerulus and a tubule. What is one such unit called?"],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A kidney filtering unit: a cup-shaped start with a knot of capillaries inside, then a long coiled tube leading to a duct.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A filtering unit of the kidney</text>\n  <circle cx=\"80\" cy=\"80\" r=\"28\" fill=\"#fef3c7\" stroke=\"#333\" stroke-width=\"2\"/>\n  <circle cx=\"80\" cy=\"80\" r=\"14\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"1.5\"/>\n  <path d=\"M 108 80 C 160 80 150 50 200 50 C 250 50 250 90 200 90 C 150 90 160 130 220 130 C 270 130 260 170 160 170 L 80 170\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text x=\"70\" y=\"190\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">to a duct</text>\n  <text x=\"160\" y=\"214\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">A cup, a coiled tube and a duct are shown</text>\n</svg>", "alt": "A kidney filtering unit: a cup-shaped start with a knot of capillaries inside, then a long coiled tube leading to a duct."}
   },
   {
     id: "g10-sci-life-a-q13",
-    prompt: "Blood is pumped from left ventricle to the body through the \u2014",
+    prompt: "Look at the heart. Blood is pumped from left ventricle to the body through the —",
     options: [
       { id: "a", text: "aorta" },
       { id: "b", text: "pulmonary artery" },
@@ -169,8 +172,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "vena cava" }
     ],
     answerId: "a",
-    explanation: "The aorta carries oxygen-rich blood from the left ventricle to the body. The pulmonary artery is tempting because it also leaves the heart, but it starts at the right ventricle and goes to the lungs.",
-    hints: ["The left ventricle pumps oxygenated blood to the whole body. Which is the largest artery leaving the heart?"]
+    explanation: "The vessel leaving the left ventricle for the body is the aorta. The pulmonary artery is tempting because it also leaves the heart, but it starts at the right ventricle and goes to the lungs.",
+    hints: ["The left ventricle pumps oxygenated blood to the whole body. Which is the largest artery leaving the heart?"],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A four-chambered heart labelled RA, LA, RV and LV, with a vessel leaving the left ventricle and rising between the atria.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A human heart</text>\n  <rect x=\"90\" y=\"70\" width=\"60\" height=\"50\" fill=\"#dbeafe\" stroke=\"#7f1d1d\" stroke-width=\"2\"/>\n  <rect x=\"170\" y=\"70\" width=\"60\" height=\"50\" fill=\"#fecaca\" stroke=\"#7f1d1d\" stroke-width=\"2\"/>\n  <rect x=\"90\" y=\"120\" width=\"60\" height=\"56\" fill=\"#dbeafe\" stroke=\"#7f1d1d\" stroke-width=\"2\"/>\n  <rect x=\"170\" y=\"120\" width=\"60\" height=\"56\" fill=\"#fecaca\" stroke=\"#7f1d1d\" stroke-width=\"2\"/>\n  <path d=\"M 172 140 L 160 140 L 160 46 Q 160 36 172 36 L 250 36 L 250 56\" fill=\"none\" stroke=\"#b91c1c\" stroke-width=\"3\"/>\n  <path d=\"M 70 40 L 70 90 L 90 90\" fill=\"none\" stroke=\"#1d4ed8\" stroke-width=\"2\"/>\n  <text x=\"120\" y=\"100\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">RA</text>\n  <text x=\"200\" y=\"100\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">LA</text>\n  <text x=\"120\" y=\"152\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">RV</text>\n  <text x=\"200\" y=\"152\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">LV</text>\n</svg>", "alt": "A four-chambered heart labelled RA, LA, RV and LV, with a vessel leaving the left ventricle and rising between the atria."}
   },
   {
     id: "g10-sci-life-a-q14",
@@ -187,7 +191,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-sci-life-a-q15",
-    prompt: "Villi in the small intestine \u2014",
+    prompt: "Look at the wall of the small intestine. Villi in the small intestine —",
     options: [
       { id: "a", text: "pump blood" },
       { id: "b", text: "increase surface area for absorption" },
@@ -195,8 +199,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "produce bile" }
     ],
     answerId: "b",
-    explanation: "Villi are finger-like projections that give a huge surface for absorbing digested food. 'Produce bile' is tempting because bile also acts in the small intestine, but the liver makes it.",
-    hints: ["More area → faster absorption."]
+    explanation: "The folds are villi, which increase the surface for absorbing digested food. Produce bile is tempting because bile also acts in the small intestine, but bile is made in the liver.",
+    hints: ["More area → faster absorption."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"The small-intestine wall is lined with many finger-like folds. An arrow points to a magnified view of one fold.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">The wall of the small intestine</text>\n  <rect x=\"20\" y=\"80\" width=\"140\" height=\"80\" fill=\"#fecaca\" stroke=\"#9f1239\" stroke-width=\"2\"/>\n  <ellipse cx=\"50\" cy=\"120\" rx=\"12\" ry=\"36\" fill=\"#fda4af\" stroke=\"#9f1239\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"80\" cy=\"120\" rx=\"12\" ry=\"36\" fill=\"#fda4af\" stroke=\"#9f1239\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"110\" cy=\"120\" rx=\"12\" ry=\"36\" fill=\"#fda4af\" stroke=\"#9f1239\" stroke-width=\"1.5\"/>\n  <line x1=\"160\" y1=\"120\" x2=\"190\" y2=\"120\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>  <polyline points=\"184.0,123.0 190,120 184.0,117.0\" stroke=\"#333\" stroke-width=\"1.5\" fill=\"none\"/>\n  <path d=\"M 210 200 L 210 70 Q 260 30 300 70 L 300 200\" fill=\"#fecaca\" stroke=\"#9f1239\" stroke-width=\"2\"/>\n  <text x=\"90\" y=\"60\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">wall</text>\n  <text x=\"255\" y=\"135\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">one fold</text>\n  <text x=\"160\" y=\"214\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">The wall is lined with many folds</text>\n</svg>", "alt": "The small-intestine wall is lined with many finger-like folds. An arrow points to a magnified view of one fold."}
   },
   {
     id: "g10-sci-life-a-q16",
@@ -278,7 +283,7 @@ const SET_A: PrepQuestion[] = [
   },
   {
     id: "g10-sci-life-a-q22",
-    prompt: "Double circulation in humans means blood goes through the heart \u2014",
+    prompt: "Look at the heart, lungs and body. Double circulation in humans means blood goes through the heart —",
     options: [
       { id: "a", text: "never to the lungs" },
       { id: "b", text: "only in veins" },
@@ -286,8 +291,9 @@ const SET_A: PrepQuestion[] = [
       { id: "d", text: "twice for each complete body circuit (pulmonary + systemic)" }
     ],
     answerId: "d",
-    explanation: "Pulmonary and systemic circulations are separate; blood returns to the heart between them.",
-    hints: ["Think two loops: heart→lungs→heart→body→heart."]
+    explanation: "Blood goes through the heart twice in one complete circuit: once to the lungs and once to the body. “Never to the lungs” is wrong because one of the two loops is the pulmonary circuit.",
+    hints: ["Think two loops: heart→lungs→heart→body→heart."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A heart in the centre, with the lungs above and the body below.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">The heart, lungs and body</text>\n  <circle cx=\"160\" cy=\"120\" r=\"28\" fill=\"#fecaca\" stroke=\"#7f1d1d\" stroke-width=\"2\"/>\n  <text x=\"160\" y=\"124\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">heart</text>\n  <ellipse cx=\"160\" cy=\"44\" rx=\"36\" ry=\"16\" fill=\"#e0f2fe\" stroke=\"#0369a1\" stroke-width=\"1.5\"/>\n  <text x=\"160\" y=\"48\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">lungs</text>\n  <ellipse cx=\"160\" cy=\"190\" rx=\"70\" ry=\"16\" fill=\"#fef3c7\" stroke=\"#a16207\" stroke-width=\"1.5\"/>\n  <text x=\"160\" y=\"194\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">body</text>\n</svg>", "alt": "A heart in the centre, with the lungs above and the body below."}
   },
   {
     id: "g10-sci-life-a-q23",
@@ -320,7 +326,7 @@ const SET_A: PrepQuestion[] = [
 const SET_B: PrepQuestion[] = [
   {
     id: "g10-sci-life-b-q01",
-    prompt: "Before testing a leaf for starch, a potted plant is kept in the dark for about two days. Why?",
+    prompt: "Look at the potted plant. Before testing a leaf for starch, a potted plant is kept in the dark for about two days. Why?",
     options: [
       { id: "a", text: "To increase the amount of chlorophyll" },
       { id: "b", text: "To make all the stomata open" },
@@ -328,8 +334,9 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "To kill the leaf cells so that iodine can enter" }
     ],
     answerId: "c",
-    explanation: "In the dark the plant cannot photosynthesise, so it uses up the starch already in its leaves (destarching). Any starch found after exposure to light must then be newly made. Opening stomata is tempting, but stomata usually close in the dark and that has nothing to do with stored starch.",
-    hints: ["The test should show only starch made during the experiment. What must happen to starch the leaf had beforehand?"]
+    explanation: "In the dark the plant uses up starch already stored in the leaves, so a later starch test can show whether new starch was made. Opening the stomata is not the reason for this dark period.",
+    hints: ["The test should show only starch made during the experiment. What must happen to starch the leaf had beforehand?"],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A potted plant stands inside a dark cover. A caption notes that the plant is kept in the dark for a day or two.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">A potted plant left in the dark</text>\n  <rect x=\"30\" y=\"40\" width=\"120\" height=\"140\" fill=\"#1e293b\" stroke=\"#333\" stroke-width=\"2\"/>\n  <text x=\"90\" y=\"70\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#f8fafc\">dark</text>\n  <line x1=\"90\" y1=\"110\" x2=\"90\" y2=\"160\" stroke=\"#166534\" stroke-width=\"3\" fill=\"none\"/>\n  <ellipse cx=\"70\" cy=\"120\" rx=\"16\" ry=\"10\" fill=\"#4ade80\" stroke=\"#166534\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"110\" cy=\"120\" rx=\"16\" ry=\"10\" fill=\"#4ade80\" stroke=\"#166534\" stroke-width=\"1.5\"/>\n  <rect x=\"60\" y=\"160\" width=\"60\" height=\"16\" fill=\"#a16207\" stroke=\"#78350f\" stroke-width=\"2\"/>\n  <text x=\"220\" y=\"100\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">The plant is kept</text>\n  <text x=\"220\" y=\"116\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">in the dark for</text>\n  <text x=\"220\" y=\"132\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">a day or two</text>\n  <text x=\"160\" y=\"206\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">A plant stands inside a dark cover</text>\n</svg>", "alt": "A potted plant stands inside a dark cover. A caption notes that the plant is kept in the dark for a day or two."}
   },
   {
     id: "g10-sci-life-b-q02",
@@ -372,7 +379,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-sci-life-b-q05",
-    prompt: "Alveoli are adapted for gas exchange by having \u2014",
+    prompt: "Look at the air sacs. Alveoli are adapted for gas exchange by having —",
     options: [
       { id: "a", text: "large surface area and thin walls" },
       { id: "b", text: "nephrons" },
@@ -380,8 +387,9 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "thick cartilage only" }
     ],
     answerId: "a",
-    explanation: "Millions of thin-walled alveoli give a huge surface next to capillaries for quick gas exchange. 'Thick cartilage only' is tempting because cartilage supports the airways, but thick walls would slow gas exchange.",
-    hints: ["Thin + moist + huge area = fast diffusion."]
+    explanation: "The many small sacs give a large surface, and their walls are thin so gases can pass quickly. Chloroplasts belong to plant cells, not to lung air sacs.",
+    hints: ["Thin + moist + huge area = fast diffusion."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A cluster of small air sacs joined to an air tube. Thin blood vessels run along the outside of the sacs.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Air sacs in a lung</text>\n  <circle cx=\"100\" cy=\"100\" r=\"28\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle cx=\"145\" cy=\"80\" r=\"26\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle cx=\"190\" cy=\"105\" r=\"30\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle cx=\"130\" cy=\"130\" r=\"24\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <circle cx=\"175\" cy=\"145\" r=\"22\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <path d=\"M 210 90 C 230 100 230 120 210 130\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/>\n  <path d=\"M 80 90 C 60 100 60 120 80 130\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/>\n  <line x1=\"160\" y1=\"50\" x2=\"160\" y2=\"70\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\"/>\n  <text x=\"160\" y=\"48\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#222\">air tube</text>\n  <text x=\"160\" y=\"200\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">A cluster of small air sacs joined to a tube</text>\n</svg>", "alt": "A cluster of small air sacs joined to an air tube. Thin blood vessels run along the outside of the sacs."}
   },
   {
     id: "g10-sci-life-b-q06",
@@ -411,7 +419,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-sci-life-b-q08",
-    prompt: "In plants, transport of water is mainly driven by \u2014",
+    prompt: "Look at the plant. In plants, transport of water is mainly driven by —",
     options: [
       { id: "a", text: "transpiration pull" },
       { id: "b", text: "blood pressure" },
@@ -419,8 +427,9 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "peristalsis" }
     ],
     answerId: "a",
-    explanation: "Evaporation from leaves creates a pull that draws water up the xylem. 'Blood pressure' is tempting because it moves fluid in animals, but plants have no heart or blood.",
-    hints: ["Water evaporating from leaves pulls a column of water up the xylem. What is this pulling force called?"]
+    explanation: "Water is pulled up the stem as vapour leaves the leaves, which is transpiration pull. “Blood pressure” is a driving force in animals, not in plants.",
+    hints: ["Water evaporating from leaves pulls a column of water up the xylem. What is this pulling force called?"],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"A plant in soil. Arrow P points up the stem from the roots.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Water movement in a plant</text>\n  <line x1=\"160\" y1=\"60\" x2=\"160\" y2=\"150\" stroke=\"#166534\" stroke-width=\"4\" fill=\"none\"/>\n  <ellipse cx=\"130\" cy=\"70\" rx=\"26\" ry=\"14\" fill=\"#4ade80\" stroke=\"#166534\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"190\" cy=\"70\" rx=\"26\" ry=\"14\" fill=\"#4ade80\" stroke=\"#166534\" stroke-width=\"1.5\"/>\n  <line x1=\"160\" y1=\"150\" x2=\"130\" y2=\"190\" stroke=\"#78350f\" stroke-width=\"2\" fill=\"none\"/>\n  <line x1=\"160\" y1=\"150\" x2=\"190\" y2=\"190\" stroke=\"#78350f\" stroke-width=\"2\" fill=\"none\"/>\n  <rect x=\"40\" y=\"194\" width=\"240\" height=\"8\" fill=\"#a16207\" stroke=\"#78350f\" stroke-width=\"2\"/>\n  <line x1=\"160\" y1=\"185\" x2=\"160\" y2=\"90\" stroke=\"#1d4ed8\" stroke-width=\"2\" fill=\"none\"/>  <polyline points=\"163.5,97.0 160,90 156.5,97.0\" stroke=\"#1d4ed8\" stroke-width=\"2\" fill=\"none\"/>\n  <text x=\"142\" y=\"130\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">P</text>\n  <text x=\"160\" y=\"216\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">Path P goes up the stem from the roots</text>\n</svg>", "alt": "A plant in soil. Arrow P points up the stem from the roots."}
   },
   {
     id: "g10-sci-life-b-q09",
@@ -593,16 +602,17 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-sci-life-b-q22",
-    prompt: "The correct path of urine is \u2014",
+    prompt: "Look at the organs. The correct path of urine is —",
     options: [
-      { id: "a", text: "liver \u2192 ureter \u2192 skin" },
-      { id: "b", text: "kidney \u2192 ureter \u2192 bladder \u2192 urethra" },
-      { id: "c", text: "bladder \u2192 kidney \u2192 ureter" },
-      { id: "d", text: "kidney \u2192 urethra \u2192 bladder" }
+      { id: "a", text: "liver → ureter → skin" },
+      { id: "b", text: "kidney → ureter → bladder → urethra" },
+      { id: "c", text: "bladder → kidney → ureter" },
+      { id: "d", text: "kidney → urethra → bladder" }
     ],
     answerId: "b",
-    explanation: "Urine is made in the kidney, flows down the ureter, is stored in the bladder and leaves through the urethra. Kidney → urethra → bladder is tempting because the parts are right, but the order is wrong: the bladder comes before the urethra.",
-    hints: ["Ureter from kidney; urethra exits body."]
+    explanation: "Urine goes from each kidney along a ureter to the bladder, then out through the urethra. Liver to the skin is not a path for urine; the liver does not lie on this route.",
+    hints: ["Ureter from kidney; urethra exits body."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Two bean-shaped organs above a bag-shaped organ.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">Some organs of the body</text>\n  <path d=\"M 96 56 C 80 70 82 96 100 104 C 112 108 118 96 110 84 C 104 76 116 64 110 58 C 106 52 100 52 96 56 Z\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <path d=\"M 224 56 C 240 70 238 96 220 104 C 208 108 202 96 210 84 C 216 76 204 64 210 58 C 214 52 220 52 224 56 Z\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"1.5\"/>\n  <ellipse cx=\"160\" cy=\"160\" rx=\"28\" ry=\"22\" fill=\"#fde68a\" stroke=\"#333\" stroke-width=\"1.5\"/>\n</svg>", "alt": "Two bean-shaped organs above a bag-shaped organ."}
   },
   {
     id: "g10-sci-life-b-q23",
@@ -619,7 +629,7 @@ const SET_B: PrepQuestion[] = [
   },
   {
     id: "g10-sci-life-b-q24",
-    prompt: "Why is the wall of the left ventricle thicker than the right?",
+    prompt: "Look at the two lower chambers. Why is the wall of the left ventricle thicker than the right?",
     options: [
       { id: "a", text: "It stores urine" },
       { id: "b", text: "It pumps blood all around the body at higher pressure" },
@@ -627,8 +637,9 @@ const SET_B: PrepQuestion[] = [
       { id: "d", text: "It only pumps to lungs" }
     ],
     answerId: "b",
-    explanation: "The left ventricle pumps blood to the whole body, so it needs a thicker, stronger wall. 'It only pumps to lungs' is tempting, but that is the right ventricle's job, which needs less pressure.",
-    hints: ["Thicker muscle → higher pressure."]
+    explanation: "The left ventricle has a thicker wall because it pumps blood all around the body at a higher pressure. “It only pumps to lungs” describes the right ventricle, which has the thinner wall.",
+    hints: ["Thicker muscle → higher pressure."],
+    figure: {"type": "svg", "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"The two lower chambers of a heart. The right ventricle is labelled RV with a thinner wall. The left ventricle is labelled LV with a thicker wall.\">\n  <rect x=\"0\" y=\"0\" width=\"320\" height=\"220\" fill=\"#ffffff\"/>\n<text x=\"160\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#111\">The two lower chambers of the heart</text>\n  <rect x=\"70\" y=\"70\" width=\"80\" height=\"90\" fill=\"#fecaca\" stroke=\"#7f1d1d\" stroke-width=\"2\"/>\n  <rect x=\"170\" y=\"60\" width=\"80\" height=\"100\" fill=\"#e11d48\" stroke=\"#7f1d1d\" stroke-width=\"3\"/>\n  <text x=\"110\" y=\"116\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"400\" fill=\"#7f1d1d\">RV</text>\n  <text x=\"210\" y=\"116\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"400\" fill=\"#fff\">LV</text>\n  <text x=\"110\" y=\"180\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">thinner wall</text>\n  <text x=\"210\" y=\"180\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">thicker wall</text>\n  <text x=\"160\" y=\"210\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"400\" fill=\"#222\">Compare the walls of the two ventricles</text>\n</svg>", "alt": "The two lower chambers of a heart. The right ventricle is labelled RV with a thinner wall. The left ventricle is labelled LV with a thicker wall."}
   }
 ];
 
