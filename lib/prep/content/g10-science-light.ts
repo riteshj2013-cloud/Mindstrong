@@ -621,12 +621,12 @@ const SET_B: PrepQuestion[] = [
     prompt: "Which phenomenon does NOT need a change of medium?",
     options: [
       { id: "a", text: "splitting of white light by a glass prism" },
-      { id: "b", text: "bending of light entering water from air" },
+      { id: "b", text: "twinkling of stars" },
       { id: "c", text: "reflection at a mirror in one medium" },
       { id: "d", text: "refraction" }
     ],
     answerId: "c",
-    explanation: "Reflection at a mirror sends light back into the same medium, so it needs no change of medium. Bending of light entering water from air is tempting if bending is thought of as just a change of direction, like a mirror turning a ray, but the ray bends only because it crosses from air into water. Prism splitting and refraction also need light to pass from one medium into another.",
+    explanation: "Reflection at a mirror sends light back into the medium it came from, so it needs no change of medium. Twinkling of stars is tempting because starlight seems to travel only through air, but warmer and cooler air layers have different optical densities, so the light refracts again and again as it crosses them. Prism splitting and refraction also need light to pass from one medium into another.",
     hints: ["Refraction needs two media."]
   },
   {
